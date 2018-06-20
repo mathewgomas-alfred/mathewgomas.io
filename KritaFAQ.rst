@@ -110,6 +110,8 @@ kritadisplayrc.
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
 
+Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
+
 Where are my resources stored?
 ------------------------------
 
@@ -398,7 +400,7 @@ Slow Brushes
 -  Try another scaling mode like trilinear. :menuselection:`Settings --> Configure Krita --> Display`.
 -  Try a lower channel depth than 16-bit.
 -  For NVidia, try a 16-bit floating point color space.
--  For AMD (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`.
+-  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`. This isn't needed if you've got an AMD threadrippercpu.
 -  It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 gig is the preferable minimum.
 -  Check that nothing else is hogging your CPU
 -  Check that Instant Preview is enabled if you're using bigger brushes (but for very small brushes, make sure is disabled).
