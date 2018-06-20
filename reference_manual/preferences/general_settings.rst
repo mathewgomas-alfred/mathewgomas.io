@@ -9,7 +9,7 @@
              - Greig
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Preferences, Settings, Cursor, Autosave, Tabbed Documents, Subwindow Documents, Pop up palette, File Dialog, Maximum Brush Size, Kinetic Scrolling
+.. index:: Preferences, Settings, Cursor, Autosave, Tabbed Documents, Subwindow Documents, Pop up palette, File Dialog, Maximum Brush Size, Kinetic Scrolling, Sessions
 .. _general_settings:
 
 ================
@@ -23,7 +23,7 @@ You can access the General Category of the preferences by first going to  :menus
 Cursor Settings
 ---------------
 
-Customise the drawing cursor here:
+Customize the drawing cursor here:
 
 Cursor Shape
 ~~~~~~~~~~~~
@@ -99,15 +99,15 @@ While Painting...
 
 Show Outline
     This option when selected will show the brush outline while a stroke is being made. If unchecked the brush outline will not appear during stroke making, it will show up only after the brush stroke is finished. This option works only when Brush Outline is selected as the Cursor Shape.
-    
+
     .. versionchanged:: 4.1
-    
+
         Used to be called "Show Outline When Painting"
 
 Use effective outline size
-    
+
     .. versionadded:: 4.1
-    
+
     This makes sure that the outline size will always be the maximum possible brush diameter, and not the current one as affected by sensors such as pressure. This makes the cursor a little less noisy to use.
 
 
@@ -142,14 +142,14 @@ Switch ctrl/alt modifiers
     This switches the function of the ctrl and alt buttons when modifying selections. Useful for those used to Gimp instead of photoshop, or Lefties without a right-alt key on their keyboard.
 
 Enable Touchpainting
-    This allows fingerpainting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
+    This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
 
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
-    
+
     .. figure:: /images/en/Krita_4_0_kinetic_scrolling.gif
        :align: center
-       
+
        Kinetic scrolling on the brush chooser drop-down with activation mode set to `guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.
 
     Activation
@@ -167,9 +167,25 @@ Kinetic Scrolling (Needs Restart)
     Show Scrollbar
         Whether to show scrollbars when doing this.
 
+.. _misc_settings:
+
 Miscellaneous
 -------------
 
+When Krita Starts
+    This is the option for handling user sessions. It has the following options:
+
+    Open Default Window
+        This opens the regular empty window with the last used workspace.
+    Load Previous Session
+        Load the last opened session. If you have :guilabel:`Save session when Krita closes` toggled, this becomes the last files you had open and the like.
+    Show Session Manager
+        Show the session manager directly so you can pick a session.
+
+    .. versionadded:: 4.1
+Save session when Krita closes
+    Save the current open windows, documents and the like into the cuurrent session when closing Krita so you can resume where you left off.
+    .. versionadded:: 4.1
 Autosave Every
     Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the %TEMP% directory. If you are on Linux it is stored in /home/'username'.
 Compress \*.kra files more.
@@ -177,7 +193,7 @@ Compress \*.kra files more.
 Upon importing Images as Layers, convert to the image color space.
     This makes sure that layers are the same color space as the image, necessary for saving to PSD.
 Undo Stack Size
-    This is the number of undo commands Krita remembers. You can set the value to 0 for unlimited undos. 
+    This is the number of undo commands Krita remembers. You can set the value to 0 for unlimited undos.
 Favorite Presets
     This determines the amount of presets that can be used in the pop-up palette.
 Create Backup File
@@ -190,8 +206,8 @@ Maximum brush size
     This allows you to set the maximum brush size to a size of up to 10.000 pixels. Do be careful with using this, as a 10.000 size pixel can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow.
 Recalculate animation cache in background.
     Krita will recalculate the cache when you're not doing anything.
-    
+
     .. versionchanged:: 4.1
-    
+
         This is now in the :ref:`performance_settings` under :guilabel:`Animation Cache`.
-    
+
