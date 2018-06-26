@@ -95,6 +95,8 @@ The Cross-channel color adjustment filter allows you to do this.
 
 At the top, there's two drop downs. The first one is to choose which :guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop down is what channel you use to control which parts are modified.
 
+.. image:: /images/en/cross_channel_filter.png
+
 The curve, on the horizontal axis, represents the driver channel, while the vertical axis represent the channel you wish to modify.
 
 So if you wish to increase the saturation in the lighter parts, you pick :guilabel:`Saturation` in the first drop down, and :guilabel:`Lightness` as the driver channel. Then, pull up the right end to the top.
