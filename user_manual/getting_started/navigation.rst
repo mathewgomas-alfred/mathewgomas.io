@@ -48,7 +48,7 @@ Panning
 Zooming
  Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| can allow for direct zooming with the stylus.
 Mirroring
- You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
+ You can mirror the view can be quickly done via :kbd:`M` key.   Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
 Rotating
  You can rotate the canvas without transforming it can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` .
 

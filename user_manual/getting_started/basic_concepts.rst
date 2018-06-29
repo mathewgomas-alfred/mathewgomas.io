@@ -21,7 +21,7 @@ Basic Concepts
 
 If this is your first foray into digital painting, this page should give you a brief introduction to the basic but important concepts required for getting started with digital painting in Krita.
 
-This page is very, very long because it tries to cover all the important things you should know Krita is capable of, and Krita is really powerful. So this page can also be considered a guide through Krita's most important functionality. Hopefully, it will help you grasp what buttons are for, even if you don't know the exact purpose of them.
+This page is very long because it tries to cover all the important things you should know Krita is capable of, and Krita is really powerful. So this page can also be considered a guide through Krita's most important functionality. Hopefully, it will help you grasp what buttons are for, even if you don't know the exact purpose of them.
 
 .. contents::
 
@@ -30,7 +30,7 @@ Raster and Vector
 
 Even though Krita is primarily a raster based application, it has some vector editing capabilities as well. If you are new to Digital painting medium, it is necessary that you know the concepts of raster and Vector.
 
-In digital imaging, a pixel (Picture Element) is a basic and lowest element of an Image. It is basically a grid of points each displaying specific color. Raster editing is manipulating and editing these pixels. For example when you take a 1-pixel brush which is colored black and painting on the white canvas in Krita you are actually changing the color of the pixel beneath your brush from white to black. When you zoom in and see a brush stroke you can notice many small squares with colors, these are pixels
+In digital imaging, a pixel (Picture Element) is a basic and lowest element of an Image. It is basically a grid of points each displaying specific color. Raster editing is manipulating and editing these pixels. For example when you take a 1-pixel brush which is colored black and painting on the white canvas in Krita you are actually changing the color of the pixel beneath your brush from white to black. When you zoom in and see a brush stroke you can notice many small squares with colors, these squares are called pixels.
 
 .. image:: /images/en/Pixels-brushstroke.png
    :align: center
@@ -71,8 +71,7 @@ You view the image via a **View**.
 View
 ~~~~
 
-A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`m` makes such skewing easy to identify.
-
+A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose mistakes, like unintentional skewed drawing to one side. Mirroring with :kbd:`m` makes such skewing easy to identify.
 
 If you have trouble drawing certain curves you will enjoy using rotation for drawing, and of course, there is zooming in and out for precision and rough work.
 

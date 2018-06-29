@@ -9,7 +9,7 @@
              - AnetK
              - JakeD
              - Radianart
-             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Raghavendra Kamath <raghu@raghukamath.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Photoshop
@@ -34,6 +34,8 @@ This chapter covers how you use Krita in the basic operations compared to PS.
 View and Display
 ~~~~~~~~~~~~~~~~
 
+|
+
 Navigation
 ^^^^^^^^^^
 
@@ -42,9 +44,9 @@ In Krita you can navigate your document using all these methods:
 #. '*Mouse wheel*': |mousescroll| down and up for zoom, and press |mousemiddle| down to pan your document.
 #. '*Keyboard*': with :kbd:`+` and - on your numpad keyboard, and pan with space
 #. As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + space` to zoom, and space to pan. 
-    
+
     .. note::
-        
+
         If you add :kbd:`Alt` and so do a :kbd:`Ctrl + Alt + Space` you’ll have a discrete zoom.
 
 Rotation
@@ -55,7 +57,7 @@ Rotate the canvas with :kbd:`Shift + Space`, or :kbd:`ctrl + [` and :kbd:`ctrl +
 Mirror
 ^^^^^^
 
-Press :kbd:`m` to see your drawing or painting mirrored in the viewport.
+Press :kbd:`m` key to see your drawing or painting mirrored in the viewport.
 
 Move and Transform
 ^^^^^^^^^^^^^^^^^^
@@ -86,7 +88,7 @@ Or hold:
 * :kbd:`Shift` to add to the selection
 * :kbd:`Alt + Shift` to intersect
 
-.. note:: 
+.. note::
 
     You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press ‘T’ or select the ‘Move Tool’.
 
@@ -102,7 +104,7 @@ If you enable Show Global Selection Mask (Select menu) you can scale/rotate/tran
 * :kbd:`Ctrl + A`: Select All
 * :kbd:`Ctrl + Shift + A`: deselect All (and not :kbd:`Ctrl + D` as in PS)
 
-Note for Gimp user: Krita auto-expands and auto defloats new layers created from a selection after a :kbd:`Ctrl + C`, :kbd:`Ctrl + V` so you do not have to worry about not being able to paint outside the pasted element. 
+Note for Gimp user: Krita auto-expands and auto defloats new layers created from a selection after a :kbd:`Ctrl + C`, :kbd:`Ctrl + V` so you do not have to worry about not being able to paint outside the pasted element.
 
 .. note::
 
@@ -123,12 +125,12 @@ Groups and Blending Mode (Composite Mode):
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The group blending mode in Krita has priority over child layers and overrides it. This can be surprising for Photoshop users. On Photoshop you can use groups to just clean your layer stack and keep blending mode of your layer compositing through all the stack.  In Krita the compositing will happen at first level inside the group, then taking into account the blending mode of the group itself.
-Both system have pros and cons. Krita’s way is more predictable according to some artists,  compositing-wise. The PS way leads to a cleaner and better ordered layer stack visually wise. 
+Both system have pros and cons. Krita’s way is more predictable according to some artists,  compositing-wise. The PS way leads to a cleaner and better ordered layer stack visually wise.
 
 Multi Layer Transform or Move
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can select multiple layers on the stack by holding down Shift as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers. 
+You can select multiple layers on the stack by holding down Shift as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers.
 
 Clipping Masks
 ^^^^^^^^^^^^^^

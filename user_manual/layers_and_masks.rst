@@ -5,7 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
-             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Raghavendra Kamath <raghu@raghukamath.com>
              - Scott Petrovic
              - AnetK
              - Bugsbane
@@ -82,14 +82,19 @@ having similar color label by clicking on one or more colors in the list
 from the drop-down situated at the top-right corner of the layer docker
 
 .. image:: /images/en/Layer-color-filters-menu.png
-   :width:  500
+   :width:  600
 
 Types of Layers
 ---------------
 
 .. image:: /images/en/500px-Krita-types-of-layers.png
+    :width: 600
 
-The image above shows the various types of layers in :ref:`layer_docker`, Each layer type has a different purpose for example all the vector elements can be only placed on a vector layer and similarly normal raster elements are mostly on the paint layer, :ref:`cat_layers_and_masks` page contains more information about these types layers.
+The image above shows the various types of layers in :ref:`layer_docker`, Each
+layer type has a different purpose for example all the vector elements can be
+only placed on a vector layer and similarly normal raster elements are mostly
+on the paint layer, :ref:`cat_layers_and_masks` page contains more information
+about these types layers.
 
 Now Let us see how these layers are composited in Krita.
 

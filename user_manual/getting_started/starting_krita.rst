@@ -21,7 +21,7 @@
 Starting Krita
 ==============
 
-There will be no canvas or new document open by default. To create a new canvas you have to create a new document from the :guilabel:`File` menu. If you want to open an existing image, either use :menuselection:`File --> Open` or drag the image from your computer into Krita's window.
+There will be no canvas or new document open by default. To create a new canvas you have to create a new document from the :guilabel:`File` menu or |mouseleft| on the empty area in the center to open the new file dialog box. If you want to open an existing image, either use :menuselection:`File --> Open` or drag the image from your computer into Krita's window.
 
 .. image:: /images/en/Starting-krita.png
    :width: 800
@@ -40,7 +40,7 @@ A new document can be created as follows.
 Krita is a pretty complex program that can handle a lot of different files, so let's go through this step by step:
 
 Custom Document
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 From this section you can create a document according to your requirements: you can specify the dimensions, color model, depth, resolution, etc.
 
@@ -57,7 +57,7 @@ On the :guilabel:`Content` tab, you can select the background color and the amou
 Finally, there's a description box, useful to note down what you are going to do.
 
 Create From Clipboard
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 This section allows you to create a document from an image that is in your clipboard, like a screenshot. It will have all the fields set to match the clipboard image.
 
@@ -71,7 +71,7 @@ You can make your own template file from any .kra file, by using :menuselection:
 Once you have created a new document according to your preference, you should now have a white canvas in front of you (or whichever background color you chose in the dialog).
 
 How to use brushes
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Now, just press on the canvas part. If everything's correct, you should be able to draw on the canvas!
 The brush tool should be selected by default when you start Krita, but if for some reason it is not, you can click on this |toolfreehandbrush| icon from the toolbar and activate the brush tool.
@@ -85,9 +85,9 @@ If you want to tweak the presets, check the Brush Editor in the toolbar. You can
 Tick any of the squares to choose a brush, and then draw on the canvas. To change color, click the triangle in the Advanced Color Selector docker.
 
 Erasing
-~~~~~~~
+-------
 
-There are brush presets for erasing, but it is often faster to use the eraser toggle. By toggling the :kbd:`E` key, your current brush switches between erasing and painting. 
+There are brush presets for erasing, but it is often faster to use the eraser toggle. By toggling the :kbd:`E` key, your current brush switches between erasing and painting.
 
 This erasing method works with most of the tools. You can erase using the line tool, rectangle tool, and even the gradient tool.
 
@@ -98,6 +98,6 @@ Now, once you have figured out how to draw something in Krita, you may want to s
 
 Select the folder you want to have your drawing, and select the file format you want to use ('.kra' is Krita's default format, and will save everything). And then hit :guilabel:`Save`. Some older versions of Krita have a bug and require you to manually type the extension.
 
-If you want to show off your image on the internet, check out the :ref:`saving_for_the_web` tutorial. 
+If you want to show off your image on the internet, check out the :ref:`saving_for_the_web` tutorial.
 
 Check out :ref:`navigation` for further basic information, :ref:`basic_concepts` for an introduction as Krita as a medium, or just go out and explore Krita!
