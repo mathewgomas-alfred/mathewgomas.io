@@ -109,7 +109,7 @@ kritadisplayrc.
 
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
-
+.. 
 If you have installed Krita through the Windows store, the kritarc file will be in another location
 
 :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
@@ -124,11 +124,13 @@ Where are my resources stored?
 Linux
     :file:`$HOME/.local/share/krita/`
 Windows
-    :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
+    :file:`%APPDATA%\\krita\\`
 Mac OS X
     :file:`~/Library/Application Support/Krita/`
 
-
+If you installed Krita in the Windows Store, your custom resources will be in a location like:
+    :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\Roaming\krita`
+    
 Krita tells me it can't find some files and then closes, what should I do?
 --------------------------------------------------------------------------
 
