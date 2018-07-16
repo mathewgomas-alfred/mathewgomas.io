@@ -100,7 +100,7 @@ You can reset the Krita configuration in following way:
     Linux
         :file:`$HOME/.config/kritarc`
     Windows
-        :file:`%APPDATA%\\Local\\kritarc`
+        :file:`%LOCALAPPDATA%\\kritarc`
     MacOS X
         :file:`$HOME/Library/Preferences/kritarc`
 
@@ -109,6 +109,12 @@ kritadisplayrc.
 
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
+
+If you have installed Krita through the Windows store, the kritarc file will be in another location
+
+:file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
+
+The random string depends on your installation/
 
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
 
