@@ -216,11 +216,6 @@ If you're using Windows, you can set the display scaling to 150% or 200%, and en
 You can also change the toolbox icon size by right-clicking on the toolbox and selecting a size.
 
 
-I'm using Linux and Krita crashes on start
-------------------------------------------
-
-If you also see something like “QIODevice::seek: Invalid pos: -18” on the command line, it's quite likely that at one point you had the Deepin file manager installed. That comes with some qimageio plugins that are completely and utterly broken. Krita's reference images docker scans your Pictures folder on startup. It reads the images using Qt's QImageIO class, which loads that Deepin plugin. `The issue is reported to Deepin <https://github.com/linuxdeepin/deepin-image-viewer/issues/2>`_, but the Deepin developers don't seem convinced that it makes sense to check whether there are any bytes to read, before reading the bytes.
-
 Tablets
 =======
 
