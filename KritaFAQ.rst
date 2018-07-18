@@ -179,6 +179,17 @@ Windows: Can I use Krita with Sandboxie?
 
 No, this is not recommended. Sandboxie causes stuttering and freezes due to the way it intercepts calls for resources on disk.
 
+Windows: Krita cannot save
+
+If the message is "File not found. Check the file name and try again.", you probably have Controlled Folder Access enabled.
+
+-  Select Start  > Settings .
+-   Choose Update & security  > Windows Defender.
+-   Select Open Windows Defender Security Center.
+-   Select Virus & threat protection, and then choose Virus & threat protection settings.
+-   Under Controlled folder access, turn it on or off.
+
+
 Can krita work with 8 bit (indexed) images?
 -------------------------------------------
 
