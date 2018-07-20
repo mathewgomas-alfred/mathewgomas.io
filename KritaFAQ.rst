@@ -1,4 +1,4 @@
-.. meta::
+.. .. meta::
    :description:
         Frequently asked Krita Questions.
 
@@ -100,7 +100,7 @@ You can reset the Krita configuration in following way:
     Linux
         :file:`$HOME/.config/kritarc`
     Windows
-        :file:`%APPDATA%\\Local\\kritarc`
+        :file:`%LOCALAPPDATA%\\kritarc`
     MacOS X
         :file:`$HOME/Library/Preferences/kritarc`
 
@@ -109,6 +109,12 @@ kritadisplayrc.
 
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
+.. 
+If you have installed Krita through the Windows store, the kritarc file will be in another location
+
+:file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
+
+The random string depends on your installation/
 
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
 
@@ -118,11 +124,13 @@ Where are my resources stored?
 Linux
     :file:`$HOME/.local/share/krita/`
 Windows
-    :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
+    :file:`%APPDATA%\\krita\\`
 Mac OS X
     :file:`~/Library/Application Support/Krita/`
 
-
+If you installed Krita in the Windows Store, your custom resources will be in a location like:
+    :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\Roaming\krita`
+    
 Krita tells me it can't find some files and then closes, what should I do?
 --------------------------------------------------------------------------
 
@@ -171,6 +179,18 @@ Windows: Can I use Krita with Sandboxie?
 
 No, this is not recommended. Sandboxie causes stuttering and freezes due to the way it intercepts calls for resources on disk.
 
+Windows: Krita cannot save
+
+If the message is "File not found. Check the file name and try again.", you probably have Controlled Folder Access enabled.
+
+-  Select Start  > Settings .
+-   Choose Update & security  > Windows Defender.
+-   Select Open Windows Defender Security Center.
+-   Select Virus & threat protection, and then choose Virus & threat protection settings.
+-   Under Controlled folder access, turn it on or off.
+
+You can also whitelist Krita, following `these instructions <https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-controlled-folders-exploit-guard#allow-specific-apps-to-make-changes-to-controlled-folders>`_.
+
 Can krita work with 8 bit (indexed) images?
 -------------------------------------------
 
@@ -207,11 +227,6 @@ If you're using Windows, you can set the display scaling to 150% or 200%, and en
 
 You can also change the toolbox icon size by right-clicking on the toolbox and selecting a size.
 
-
-I'm using Linux and Krita crashes on start
-------------------------------------------
-
-If you also see something like “QIODevice::seek: Invalid pos: -18” on the command line, it's quite likely that at one point you had the Deepin file manager installed. That comes with some qimageio plugins that are completely and utterly broken. Krita's reference images docker scans your Pictures folder on startup. It reads the images using Qt's QImageIO class, which loads that Deepin plugin. `The issue is reported to Deepin <https://github.com/linuxdeepin/deepin-image-viewer/issues/2>`_, but the Deepin developers don't seem convinced that it makes sense to check whether there are any bytes to read, before reading the bytes.
 
 Tablets
 =======
