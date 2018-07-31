@@ -30,7 +30,7 @@ There are also the:
 
 You’ll find that there are a number of people are almost always around: the core team.
 
-* Boudewijn (irc: boud): project maintainer, lead developer. Works full-time on Krita. Manages the Krita Foundation, triages bugs, does social media and admin stuff.
+* Boudewijn (irc: boud): project maintainer, lead developer. Works full-time on Krita. Manages the Krita Foundation, triages bugs, does social media and admin stuff. Boudewijn is also on Reddit as boudewijnrempt.
 * Dmitry (irc: dmitryk_log): lead developer. Works full-time on Krita.
 * Wolthera (irc: wolthera_laptop): developer, writes the manual and tutorials, triages bugs, helps people out
 * Scott Petrovic (irc: scottyp): UX designer, developer, webmaster
