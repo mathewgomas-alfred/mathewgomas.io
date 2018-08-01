@@ -180,6 +180,7 @@ Windows: Can I use Krita with Sandboxie?
 No, this is not recommended. Sandboxie causes stuttering and freezes due to the way it intercepts calls for resources on disk.
 
 Windows: Krita cannot save
+--------------------------
 
 If the message is "File not found. Check the file name and try again.", you probably have Controlled Folder Access enabled.
 
