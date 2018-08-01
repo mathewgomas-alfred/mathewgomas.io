@@ -98,13 +98,11 @@ Surface pro tablets need two drivers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Certain tablets using n-trig, like the Surface Pro, have two types of
-drivers. N-trig by default only has Windows Ink drivers, but Krita
-requires Wintab-style drivers. It is recommended to install both versions. See
-the FAQ for more info on this.
-
-.. note::
-
-   Since 3.3, Krita can use windows ink style drivers too, just go to :menuselection:`Settings --> Configure Krita --> Tablet Settings` and toggle the "Windows 8+ pointer input" there.
+drivers. One is native, n-trig and the other one is called wintab.
+Since 3.3, Krita can use windows ink style drivers, just go to 
+:menuselection:`Settings --> Configure Krita --> Tablet Settings` and 
+toggle the "Windows 8+ pointer input" there. You don't need to install
+the wintab drivers anymore for n-trig based pens.
 
 Windows 10 updates
 ~~~~~~~~~~~~~~~~~~
