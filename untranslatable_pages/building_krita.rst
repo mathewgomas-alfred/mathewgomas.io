@@ -33,6 +33,8 @@ Building on Linux
 
 This page only deals with building Krita on Linux. However, some remarks are the same for all operating systems, especially when it comes to running cmake and dealing with errors. You need to be familiar with using a terminal. 
 
+There are two options: you can either build Krita in your home directory, or use <a href="https://cgit.kde.org/scratch/dkazakov/krita-docker-env.git/tree/README.md">Docker</a>, which makes setting up a development environment easier. 
+
 Preparing your development environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
