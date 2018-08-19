@@ -75,7 +75,7 @@ Brush Packs
                
                GDQuest
           - .. figure:: /images/en/resource_packs/Resources-iForce73Brushes.png
-               :target: https://iforce73.deviantart.com/art/Krita-Environment-Brushes-699127188
+               :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
                
                Iforce73
           -  --
