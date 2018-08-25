@@ -93,3 +93,15 @@ Texture Packs
                :target: https://www.davidrevoy.com/article263/five-traditional-textures
 
                David Revoy
+
+External tutorials
+------------------
+
+.. list-table::
+
+        * - .. figure:: /images/en/resource_packs/simon_pixel_art_course.png
+               :target: https://www.udemy.com/learn-to-create-pixel-art-from-zero/?couponCode=OTHER_75
+               
+               Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy
+
+               
