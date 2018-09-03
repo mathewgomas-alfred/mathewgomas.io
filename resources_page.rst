@@ -34,11 +34,11 @@ Brush Packs
                :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
                
                Concept art & Illustration Pack
-        * - .. figure:: /images/en/resource_packs/Resources-aldyBrushes.jpg
+          - .. figure:: /images/en/resource_packs/Resources-aldyBrushes.jpg
                :target: http://al-dy.deviantart.com/art/Aldys-Brush-Pack-for-Krita-196128561
                
                Al-dy
-          - .. figure:: /images/en/resource_packs/Resources-meemodrawsBrushes.jpg
+        * - .. figure:: /images/en/resource_packs/Resources-meemodrawsBrushes.jpg
                :target: http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
                
                Meemodraws
@@ -50,11 +50,11 @@ Brush Packs
                :target: https://forum.kde.org/viewtopic.php?f=274&t=125125
                
                Wolthera
-        * - .. figure:: /images/en/resource_packs/Resources-nylnook.jpg
+          - .. figure:: /images/en/resource_packs/Resources-nylnook.jpg
                :target: http://nylnook.com/en/blog/krita-brushes-pack-v2/
                
                Nylnook
-          - .. figure:: /images/en/resource_packs/Resources-hushcoilBrushes.png
+        * - .. figure:: /images/en/resource_packs/Resources-hushcoilBrushes.png
                :target: http://hushcoil.tumblr.com/kritabrushes/
                
                Hushcoil
@@ -62,7 +62,7 @@ Brush Packs
                :target: https://github.com/raghukamath/krita-brush-presets
                
                Raghukamath
-        * - .. figure:: /images/en/resource_packs/Resources-GDQuestBrushes.jpeg
+          - .. figure:: /images/en/resource_packs/Resources-GDQuestBrushes.jpeg
                :target: https://github.com/GDquest/free-krita-brushes/releases/
                
                GDQuest
@@ -70,7 +70,10 @@ Brush Packs
                :target: https://iforce73.deviantart.com/art/Krita-Environment-Brushes-699127188
                
                Iforce73
-          -  --
+        * -  --
+          -  
+          -
+          -
 
 Texture Packs
 -------------
