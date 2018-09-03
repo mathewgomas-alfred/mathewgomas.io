@@ -97,9 +97,9 @@ You can create a selection based on a layer's transparency by right-clicking on 
 
 .. versionadded:: 4.2
 
-    You can also do this for adding, subtracting and intersecting by going to :menuselection:`Select --> Select Opaque`, where you can find sepcific actions for each.
+    You can also do this for adding, subtracting and intersecting by going to :menuselection:`Select --> Select Opaque`, where you can find specific actions for each.
 
-   If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft| and to remove :kbd:`Ctrl + Alt +` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
+    If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft|, to remove :kbd:`Ctrl + Alt +` |mouseleft| and to intersect :kbd:`Ctrl + Shift + Alt` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
     
 
 Pixel and Vector Selection Types
@@ -132,4 +132,5 @@ Common Shortcuts while Using Selections
 - Display or hide selection with :kbd:`Ctrl + H`
 - Select Opaque -- :kbd:`Ctrl +` |mouseleft| on layer thumbnail.
 - Select Opaque (Add) -- :kbd:`Ctrl + Shift` |mouseleft| on layer thumbnail.
-- Select Opaque (Subtract)-- :kbd:`Ctrl + Alt` |mouseleft| on layer thumbnail.
+- Select Opaque (Subtract) -- :kbd:`Ctrl + Alt` |mouseleft| on layer thumbnail.
+- Select Opaque (Intersect) -- :kbd:`Ctrl + Shift + Alt` |mouseleft| on layer thumbnail.
