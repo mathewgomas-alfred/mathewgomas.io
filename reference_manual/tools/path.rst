@@ -30,3 +30,13 @@ While drawing :kbd:`Ctrl` while dragging will push the handles both way. :kbd:`A
 
 Tool Options
 ------------
+
+.. versionadded:: 4.2
+
+   Autosmooth Curve
+        Toggling this will have nodes initialize with smooth curves instead of angles. Untoggle this if you want to create sharp angles for a node. This will not affect curve sharpness from dragging after clicking.
+
+Angle Snapping Delta
+    The angle to snap to.
+Activate Angle Snap
+    Angle snap will make it easier to have the next line be at a specific angle of the current. The angle is determined by the :guilabel:`Angle Snapping Delta`.
