@@ -16,7 +16,7 @@
 Selections
 ==========
 
-Selections allow you to pick a specific area of your artwork to change. There are many selection tools available that select in different ways. Once an area is selected, most tools will stay inside that area. On that area you can draw or use gradients to quickly get colored and/or shaded shapes with hard edges.
+Selections allow you to pick a specific area of your artwork to change. This is useful for when you want to move a section, transform it, or paint on it without affecting the other sections. There are many selection tools available that select in different ways. Once an area is selected, most tools will stay inside that area. On that area you can draw or use gradients to quickly get colored and/or shaded shapes with hard edges.
 
 Creating Selections
 -------------------
@@ -55,6 +55,8 @@ your selection.
 | Subtract    | Alt           | S          |
 +-------------+---------------+------------+
 
+You can change this in :ref:`tool_options_settings`.
+
 Removing Selections
 -------------------
 
@@ -72,7 +74,11 @@ Ants display mode (default) is best if you want to see the areas that are not se
 
 .. image:: /images/en/Mask-displayMode.jpg
 
-Mask display mode is good if you are interested in seeing the various transparency levels for your selection. For example, you can create a selection with a gradient.
+Mask display mode is good if you are interested in seeing the various transparency levels for your selection. For example, when you have a selection with very soft edges due using feathering.
+
+.. versionchanged:: 4.2
+
+    Mask mode is activated as well when a selection mask is the active layer so you can see the different selection levels.
 
 Global Selection Mask (Painting a Selection)
 --------------------------------------------
@@ -81,15 +87,20 @@ The global Selection Mask is your selection that appears on the layers docker. B
 
 .. image:: /images/en/Global-selection-mask.jpg
 
-Once the global Selection Mask is shown, you will need to create a
-selection. The benefit of using this is that you can paint your
-selection using any of the normal painting tools. The information is
-saved as grayscale. You might want to switch to the Mask display mode if it is difficult to see the results.
+Once the global Selection Mask is shown, you will need to create a selection. The benefit of using this is that you can paint your
+selection using any of the normal painting tools, inlcuding the transform and move. The information is saved as grayscale.
 
 Selection from layer transparency
 ---------------------------------
 
-You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting “Select Opaque” from the context menu.
+You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting :menuselection:`Select Opaque` from the context menu.
+
+.. versionadded:: 4.2
+
+    You can also do this for adding, subtracting and intersecting by going to :menuselection:`Select --> Select Opaque`, where you can find sepcific actions for each.
+
+   If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft| and to remove :kbd:`Ctrl + Alt +` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
+    
 
 Pixel and Vector Selection Types
 --------------------------------
@@ -98,34 +109,27 @@ Vector selections allow you to modify your selection with vector anchor tools. P
 
 .. image:: /images/en/Vector-pixel-selections.jpg
 
-When creating a selection, you can select what type of selection you
-want from the Mode in the selection tool options: Pixel or Vector.
+When creating a selection, you can select what type of selection you want from the Mode in the selection tool options: Pixel or Vector. By default this will be a vector.
 
-Vector selections can modify as any other vector shape with the
-“Shape Handle” tool, if you try to paint on a vector selection it will be converted into a pixel selection. Pixel selections can be painted with any tool. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the selections menu. Krita will add a new vector layer for this shape.
+Vector selections can be modified as any other :ref:`vector shape <vector_graphics>` with the :ref:`shape_selection_tool`, if you try to paint on a vector selection mask it will be converted into a pixel selection. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the selections menu. Krita will add a new vector layer for this shape.
 
-One of
-the most common reasons to use vector selections is that they give you
-the ability to move and transform a selection. Moving the selection with
-a pixel selection will move the content on the layer. Moving the
-selection on a vector selection will only move the selection. You can
-also use the path editing tool to change the anchor points in the
-selection
+One of the most common reasons to use vector selections is that they give you the ability to move and transform a selection without the kind of resize artifacts you get with a pixel selection. You can also use the :ref:`shape_edit_tool` to change the anchor points in the selection, allowing you to precisely adjust bezier curves or add corners to rectangular selections.
 
-If you started with a pixel selection, you can still convert it to a
-vector selection to get these benefits. Go to Select > Convert to Vector
-Selection.
+If you started with a pixel selection, you can still convert it to a vector selection to get these benefits. Go to :menuselection:`Select --> Convert to Vector Selection`.
 
 .. note::
-    If you have multiple levels of transparency when you convert a selection to vector, you will lose the gray values.
+    If you have multiple levels of transparency when you convert a selection to vector, you will lose the semi-transparent values.
 
 Common Shortcuts while Using Selections
 ---------------------------------------
 
--  Copy -- :kbd:`Ctrl + C` or :kbd:`Ctrl + Ins`
--  Paste -- :kbd:`Ctrl + V` or :kbd:`Shift + Ins`
--  Cut -- :kbd:`Ctrl + X`, :kbd:`Shift + Del`
--  Copy From All Layers -- :kbd:`Ctrl + Shift + C`
--  Copy Selection to New Layer -- :kbd:`Ctrl + Alt + J`
--  Cut Selection to New Layer -- :kbd:`Ctrl + Shift + J`
--  Display or hide selection with :kbd:`Ctrl + H`
+- Copy -- :kbd:`Ctrl + C` or :kbd:`Ctrl + Ins`
+- Paste -- :kbd:`Ctrl + V` or :kbd:`Shift + Ins`
+- Cut -- :kbd:`Ctrl + X`, :kbd:`Shift + Del`
+- Copy From All Layers -- :kbd:`Ctrl + Shift + C`
+- Copy Selection to New Layer -- :kbd:`Ctrl + Alt + J`
+- Cut Selection to New Layer -- :kbd:`Ctrl + Shift + J`
+- Display or hide selection with :kbd:`Ctrl + H`
+- Select Opaque -- :kbd:`Ctrl +` |mouseleft| on layer thumbnail.
+- Select Opaque (Add) -- :kbd:`Ctrl + Shift` |mouseleft| on layer thumbnail.
+- Select Opaque (Subtract)-- :kbd:`Ctrl + Alt` |mouseleft| on layer thumbnail.

@@ -114,6 +114,7 @@ Use effective outline size
 .. _window_settings:
 
 Window Settings
+---------------
 
 Multiple Document Mode
     This can be either tabbed like :program:`GIMP` or :program:`Painttool Sai`, or subwindows, like :program:`Photoshop`.
@@ -130,8 +131,10 @@ Enable Hi-DPI support
 Allow only once instance of Krita
     An instance is a single entry in your system's task manager. Turning this option makes sure that Krita will check if there's an instance of Krita open already when you instruct it to open new documents, and then have your documents opened in that single instance. There's some obscure uses to allowing multiple instances, but if you can't think of any, just keep this option on.
 
-Tool options
-------------
+.. _tool_options_settings:
+
+Tools Settings
+--------------
 
 In docker (default)
     Gives you the tool options in a docker.
