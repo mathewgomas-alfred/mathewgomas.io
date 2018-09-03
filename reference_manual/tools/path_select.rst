@@ -31,10 +31,6 @@ Hotkeys and Sticky keys
 * :kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'.
 * :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  'intersect'.
 
-.. warning::
-
-    Selection modifiers don't quite work yet with the path tool, as shift breaks the path
-
 .. note::
 
     You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the :ref:`general_settings`
