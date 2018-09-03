@@ -30,7 +30,7 @@ Select Menu
         Inverts the selection.
 
     Convert raster selection to vector selection.
-        --
+        This converts a raster selection to a vector selection. Any layers of transparency there might have been are removed.
 
     Convert Shapes to Vector Selection
         Convert vector shape to vector selection
@@ -51,7 +51,18 @@ Select Menu
         Select from a certain color range.
 
     Select Opaque
-        Select all opaque(non-transparent) pixels in the current active layer. If there's already a selection, this will add the new selection to the old one, allowing you to select the opaque pixels of multiple layers into one selection. Semi-transparent(or semi-opaque) pixels will be semi-selected.
+        Select all opaque(non-transparent) pixels in the current active layer. Semi-transparent(or semi-opaque) pixels will be semi-selected. Has the following subactions:
+        
+        .. versionadded:: 4.2
+        
+        Select Opaque (Replace)
+            Replaces the current selection with a selection of the layer transparency.
+        Select Opaque (Add)
+            Adds a selection of the layer transparency to the current selection.
+        Select Opaque (Subtract)
+            Removes a selection of the layer transparency from the current selection.
+        Select Opaque (Intersect)
+            Intersects the current selection with a selection of the layer transparency. The new selection is where there is an overlap between the two.
 
     Feather Selection
         Feathering in design means to soften sharp borders. So this adds a soft border to the existing selection.
