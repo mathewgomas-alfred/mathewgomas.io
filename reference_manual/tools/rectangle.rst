@@ -53,3 +53,17 @@ Brush
 
 .. note::
     On vector layers, the rectangle will not render with a brush outline, but rather a vector outline.
+
+Anti-aliasing
+    This toggles whether or not to give selections feathered edges. Some people prefer hard-jagged edges for their selections.
+Width
+    Gives the current width. Use the lock to force the next selection made to this width.
+Height
+    Gives the current height. Use the lock to force the next selection made to this height.
+Ratio
+    Gives the current ratio. Use the lock to force the next selection made to this ratio.
+.. versionadded:: 4.2
+    Round X
+        The horizontal radius of the rectangle corners.
+    Round Y
+        The vertical radius of the rectangle corners.
