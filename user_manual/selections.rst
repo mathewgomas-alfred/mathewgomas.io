@@ -57,6 +57,8 @@ your selection.
 
 You can change this in :ref:`tool_options_settings`.
 
+If you hover over a selection with a selection tool and no selection is activated, you can move it. To quickly go into transform mode, |mouseright| and select :guilabel:`Edit Selection`.
+
 Removing Selections
 -------------------
 
@@ -89,6 +91,8 @@ The global Selection Mask is your selection that appears on the layers docker. B
 
 Once the global Selection Mask is shown, you will need to create a selection. The benefit of using this is that you can paint your
 selection using any of the normal painting tools, inlcuding the transform and move. The information is saved as grayscale.
+
+You can enter the global selection mask mode quickly from the selection tools by doing |mouseright| and select :guilabel:`Edit Selection`.
 
 Selection from layer transparency
 ---------------------------------

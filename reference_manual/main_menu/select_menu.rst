@@ -29,9 +29,12 @@ Select Menu
     Invert Selection
         Inverts the selection.
 
-    Convert raster selection to vector selection.
+    Convert to Vector Selection.
         This converts a raster selection to a vector selection. Any layers of transparency there might have been are removed.
-
+        
+    Convert to Raster Selection.
+        This converts a vector selection to a raster selection.
+        
     Convert Shapes to Vector Selection
         Convert vector shape to vector selection
 

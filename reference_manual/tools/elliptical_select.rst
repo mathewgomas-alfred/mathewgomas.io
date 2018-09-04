@@ -34,6 +34,11 @@ Hotkeys and Stickykeys
 * :kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'.
 * :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  'intersect'.
 
+.. versionadded:: 4.2
+
+   * Hovering over a selection allows you to move it.
+   * |mouseright| will open up a selection quick menu with amongst others the ability to edit the selection.
+
 .. note::
 
     So to subtract a perfect circle, you do :kbd:`Alt +` |mouseleft|, then release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to constrain.
