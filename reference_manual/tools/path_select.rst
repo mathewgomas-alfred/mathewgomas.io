@@ -42,5 +42,10 @@ Hotkeys and Sticky keys
 Tool Options
 ------------
 
+.. versionadded:: 4.1.3
+
+   Autosmooth Curve
+        Toggling this will have nodes initialize with smooth curves instead of angles. Untoggle this if you want to create sharp angles for a node. This will not affect curve sharpness from dragging after clicking.
+
 Anti-aliasing
     This toggles whether or not to give selections feathered edges. Some people prefer hard-jagged edges for their selections.

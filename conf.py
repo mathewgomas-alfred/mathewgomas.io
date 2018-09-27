@@ -44,7 +44,7 @@ except subprocess.CalledProcessError as exc:
 # The short X.Y version
 version = '4.1'
 # The full version, including alpha/beta/rc tags
-release = '4.1'
+release = '4.1.3'
 
 
 # -- General configuration ---------------------------------------------------
