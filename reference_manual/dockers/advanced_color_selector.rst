@@ -149,6 +149,21 @@ Common Patches
 
 The common patches are generated from the image, and are the most common colour in the image. The hotkey for them on canvas is :kbd:`U`.
 
+Gamut masking
+-------------
+
+.. versionadded:: 4.2
+
+.. note::
+
+   Gamut masking is available only when the selector shape is set to wheel.
+
+You can select and manage your gamut masks in the :ref:`gamut_mask_docker`.
+
+In the gamut masking toolbar at the top of the selector you can toggle the selected mask off and on (left button). You can also rotate the mask with the rotation slider (right).
+
+
+
 External Info
 -------------
 

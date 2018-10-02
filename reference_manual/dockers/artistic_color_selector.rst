@@ -12,62 +12,84 @@
 .. index:: Color, Color Selector, ! Artistic Color Selector
 .. _artistic_color_selector_docker:
 
-============================
-Artist Color Selector Docker
-============================
+==============================
+Artistic Color Selector Docker
+==============================
 
-.. image:: /images/en/Krita_Artistic_Color_Selector_Docker.png
-
-A round selector that tries to give you the tools to select colors ramps efficiently.
+A color selector inspired by traditional color wheel and workflows.
 
 Usage
 -----
 
+.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker.png
+
+  Artistic color selector with a gamut mask
+
 Select hue and saturation on the wheel (5) and value on the value scale (4). |mouseleft| changes foreground color (6). |mouseright| changes background color (7).
 
-Last selected swatches are outlined with red.
+The blip shows the position of current foreground color on the wheel (black&white circle) and on the value scale (black&white line). Last selected swatches are outlined.
 
-The blip shows the position of current foreground color on the wheel (black and white circle) and on the value scale (black and white line).
+Parameters of the wheel can be set in :ref:`artistic_color_selector_docker_wheel_preferences` menu (2). Selector settings are found under :ref:`artistic_color_selector_docker_selector_settings` menu (3).
 
-This selector does not update on change of foreground color.
+Gamut Masking
+~~~~~~~~~~~~~
 
-The selector
-------------
+You can select and manage your gamut masks in the :ref:`gamut_mask_docker`.
 
-.. image:: /images/en/Krita_Artistic_Color_Selector_Docker_2.png
-
-
-1 - gamut masking toolbar
-    The toolbar consists of a toggle button to turn the mask off and on (left) and current mask title (right).
-
-    Masks are selected and managed in the “Gamut Masks” docker. (Link)
-2 - color wheel preferences menu (link to section)
-3 - selector settings menu (link to section)
-4 - value scale
-    * Optional comparative gray scale with lightness percentage on the left
-    * The black and white line (the blip) shows current foreground color’s value
-    * For HSY model, the value scale can be adjusted by user-defined gamma
-
-5 - the wheel
-    * The wheel is divided into color swatches by hue sectors and saturation rings.
-    * The black and white circle (the blip) shows current foreground color’s hue and saturation.
-6 - current foreground color
-7 - current background color
-
-Wheel preferences
------------------
-
-.. image:: /images/en/Krita_Artistic_Color_Selector_Docker_3.png
+In the gamut masking toolbar (1) you can toggle the selected mask off and on (left button). You can also rotate the mask with the rotation slider (right).
 
 
-Sliders 1, 2, and 3 
+.. _artistic_color_selector_docker_wheel_preferences:
+
+Color wheel preferences
+-----------------------
+
+.. _artistic_color_selector_docker_fig_wheel_preferences:
+.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker_3.png
+
+   Color wheel preferences
+
+Sliders 1, 2, and 3
     adjust the number of steps of the value scale, number of hue sectors and saturation rings on the wheel, respectively.
 
 Continuous Mode
     The value scale and hue sectors can also be set to continuous mode (with the infinity icon on the right of the slider). If toggled on, the respective area shows a continuous gradient instead of the discreet swatches.
 
 Invert saturation (4)
-    changes the order of saturation rings within the the hue sectors. By default, the wheel has gray in the center and most saturated colors on the perimeter. “Inverted saturation” puts gray on the perimeter and most saturated colors in the center.
+    changes the order of saturation rings within the the hue sectors. By default, the wheel has gray in the center and most saturated colors on the perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most saturated colors in the center.
 
 Reset to default (5)
-    loads default values for the sliders 1,2 and 3. These default values are configured in selector settings. 
+    loads default values for the sliders 1,2 and 3. These default values are configured in selector settings.
+
+
+.. _artistic_color_selector_docker_selector_settings:
+
+Selector settings
+-----------------
+
+.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker_2.png
+
+  Selector settings menu
+
+Selector Appearance (1)
+    Show background color indicator
+      toggles the bottom-right triangle with current background color.
+    Show numbered value scale
+      If checked, the value scale includes a comparative gray scale with lightness percentage.
+
+Color Space (2)
+    Set the color model used by the selector. For detailed information on color models, see :ref:`color_models`.
+
+    Luma Coefficients (3)
+      If the selector's color space is HSY, you can set custom Luma coefficients and the amount of gamma correction applied to the value scale (set to 1.0 for linear scale; see :ref:`linear_and_gamma`).
+
+Gamut Masking Behavior (4)
+    The selector can be set either to :guilabel:`Enforce gamut mask`, so that colors outside the mask cannot be selected, or to :guilabel:`Just show the shapes`, where the mask is visible but color selection is not limited.
+
+Default Selector Steps Settings
+    Values the color wheel and value scale will be reset to when the :guilabel:`Reset to default` button in :ref:`artistic_color_selector_docker_wheel_preferences` is pressed.
+
+External Info
+-------------
+- `HSI and HSY for Krita’s advanced colour selector by Wolthera van Hövell tot Westerflier <http://wolthera.info/?p=726>`_
+- `The Color Wheel, Part 7 by James Gurney <https://gurneyjourney.blogspot.com/2010/02/color-wheel-part-7.html>`_

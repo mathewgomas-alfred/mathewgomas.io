@@ -47,7 +47,7 @@ Editing
 
 If you choose to create a new mask, edit, or duplicate selected mask, the mask template documents opens as a new view (1).
 
-There you can modify the mask with standard vector tools, or create any vector shape supported by Krita. 
+There you can modify the mask with standard vector tools, or create any vector shape supported by Krita.
 
 Fill in the fields at (2).
 
@@ -58,15 +58,21 @@ Description
 
 :guilabel:`Preview` the mask in the artistic color selector (4), :guilabel:`save` the mask (5), or :guilabel:`cancel` editing (3).
 
-Please note, that the shapes need to be added to the layer named “maskShapesLayer” (which is selected by default). The shapes need have solid background to show correctly in the editor. A template with no shapes cannot be saved.
+.. warning::
 
-The mask is intended to be composed of basic vector shapes. Although interesting results might arise from using advanced vector drawing techniques, not all features are guaranteed to work properly (e.g. grouping, vector text, etc.).
+  * The shapes need to be added to the layer named “maskShapesLayer” (which is selected by default).
+  * The shapes need have solid background to show correctly in the editor.
+  * A template with no shapes cannot be saved.
+
+.. note::
+
+ The mask is intended to be composed of basic vector shapes. Although interesting results might arise from using advanced vector drawing techniques, not all features are guaranteed to work properly (e.g. grouping, vector text, etc.).
 
 .. image:: /images/en/Krita_Gamut_Mask_Docker_2.png
 
 External Info
 -------------
 
-- `<https://gurneyjourney.blogspot.com/2008/01/color-wheel-masking-part-1.html>`_
-- `<https://gurneyjourney.blogspot.com/2008/02/shapes-of-color-schemes.html>`_
-- `<https://youtu.be/qfE4E5goEIc>`_
+- `Color Wheel Masking, Part 1 by James Gurney <https://gurneyjourney.blogspot.com/2008/01/color-wheel-masking-part-1.html>`_
+- `The Shapes of Color Schemes by James Gurney <https://gurneyjourney.blogspot.com/2008/02/shapes-of-color-schemes.html>`_
+- `Gamut Masking Demonstration by James Gourney (YouTube) <https://youtu.be/qfE4E5goEIc>`_
