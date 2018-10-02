@@ -60,28 +60,28 @@ There are four ways to manipulate your image using this tool and the guides on  
 Transform/Move
 ~~~~~~~~~~~~~~
 
-:.. image:: /images/en/Transform.png
+.. image:: /images/en/Transform.png
 
 This feature of the tool allows you to move your object by clicking and dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock your moves to one axis.
 
 Size/Stretch
 ~~~~~~~~~~~~
 
-:.. image:: /images/en/Resize.png
+.. image:: /images/en/Resize.png
 
 This feature of the tool allows you to stretch your shape.  Selecting a midpoint will allow stretching along one axis. Selecting a corner point will allow stretching across both axis. Holding :kbd:`Shift`  will allow you to scale your object. Holding :kbd:`Ctrl`  will cause your manipulation to be mirrored across your object.
 
 Rotate
 ~~~~~~
 
-:.. image:: /images/en/Rotatevector.png
+.. image:: /images/en/Rotatevector.png
 
 This feature of the tool will allow you to rotate your object around its center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 degree angles.
 
 Skew
 ~~~~
 
-:.. image:: /images/en/Skew.png
+.. image:: /images/en/Skew.png
 
 This feature of the tool will allow you to skew your object.
 
