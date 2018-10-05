@@ -54,7 +54,9 @@ Height
     Gives the current height. Use the lock to force the next selection made to this height.
 Ratio
     Gives the current ratio. Use the lock to force the next selection made to this ratio.
+
 .. versionadded:: 4.1.3
+
     Round X
         The horizontal radius of the rectangle corners.
     Round Y

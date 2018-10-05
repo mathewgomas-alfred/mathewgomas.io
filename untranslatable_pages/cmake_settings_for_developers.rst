@@ -6,14 +6,14 @@
 
     :authors: - Boudewijn Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
-    
+
 .. _cmake_settings_for_developers:
 
 =============================
 CMake Settings for Developers
 =============================
 
-The `CMake <https://www.cmake.org>`_ build system generators used by Krita is one of the most used build system generatorss in the C++ world. A build system is a system that describes how a an application should be built from source code. CMake generates a build system from the information given in the CMakeLists.txt and *.cmake files. It is a complete but rather unusual language.
+The `CMake <https://www.cmake.org>`_ build system generators used by Krita is one of the most used build system generatorss in the C++ world. A build system is a system that describes how a an application should be built from source code. CMake generates a build system from the information given in the CMakeLists.txt and `*.cmake` files. It is a complete but rather unusual language.
 
 If you start working on Krita, you will need knowledge of two things: how to run the cmake generator, and which variables are important there, and how to edit the CMakeLists.txt files. This page tells you how to run the cmake generator.
 
@@ -22,7 +22,7 @@ The cmake generator is run like this:
 .. code::
 
     cmake -DSOME_CMAKE_VARIABLE=SOME_VALUE ../path/to/source
-    
+
 That is, every option is prefixed with -D, followed by a usually uppercase variable name, the equal sign and the value. The following variables are important for Krita.
 
 You cannot build Krita inside the source directory, so you need to give the path to the source directory, where the top-level CMakeLists.txt file is found.
@@ -76,7 +76,7 @@ USE_LOCK_FREE_HASH_TABLE
 
 This option enables the experimental lock free hash table. This is ON by default at the moment.
 
-FOUNDATION_BUILD 
+FOUNDATION_BUILD
 ----------------
 
 This option is for packaging Krita on systems that do not have the default color themes shipped by KDE Plasma.
@@ -96,7 +96,7 @@ ENABLE_PYTHON_2
 
 Use Python 2 instead of Python 3. Only to be used when integrating Krita in a python2-based VFX pipeline.
 
-BUILD_KRITA_QT_DESIGNER_PLUGINS 
+BUILD_KRITA_QT_DESIGNER_PLUGINS
 -------------------------------
 
 OFF by default, enable this to build plugins for Qt Designer/Qt Creator so you can add Krita specific widgets to .ui files.
