@@ -147,6 +147,10 @@ Switch ctrl/alt modifiers
 Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
 
+.. versionadded:: 4.2
+    Activate transform tool after pasting.
+        A convenience feature. When enabling this, the transform tool will activate after pasting for quick moving or rotating.
+
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
 
