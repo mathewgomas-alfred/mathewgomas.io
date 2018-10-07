@@ -31,7 +31,7 @@ While drawing :kbd:`Ctrl` while dragging will push the handles both way. :kbd:`A
 Tool Options
 ------------
 
-.. versionadded:: 4.2
+.. versionadded:: 4.1.3
 
    Autosmooth Curve
         Toggling this will have nodes initialize with smooth curves instead of angles. Untoggle this if you want to create sharp angles for a node. This will not affect curve sharpness from dragging after clicking.

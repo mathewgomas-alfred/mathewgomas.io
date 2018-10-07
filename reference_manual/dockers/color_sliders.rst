@@ -15,6 +15,10 @@
 Color Sliders
 =============
 
+.. deprecated:: 4.1
+
+    This docker has been removed in 4.1. It will return in some form in the future.
+
 A small docker with Hue, Saturation and Lightness bars.
 
 .. image:: /images/en/Color-slider-docker.png

@@ -15,21 +15,14 @@
 Color Selector Settings
 =======================
 
-These settings directly affect Advanced Color Selector and Color sliders Dockers and the same dialog box appears when the user clicks the settings button in that docker as well. They also affect certain hotkey actions.
+These settings directly affect Advanced Color Selector Dockers and the same dialog box appears when the user clicks the settings button in that docker as well. They also affect certain hotkey actions.
 
-This settings menu has a dropdown for Advanced Color Selector, Color Sliders and Color Hotkeys.
+This settings menu has a dropdown for Advanced Color Selector, and Color Hotkeys.
 
 Advanced Color Selector
 -----------------------
 
 These settings are described on the page for the :ref:`advanced_color_selector_docker`.
-
-Color Sliders
--------------
-
-These settings are described on the page for the :ref:`color_sliders_docker`.
-
-Note that for the HSY sliders, you can use the settings in the advanced color selector.
 
 Color Hotkeys
 -------------

@@ -6,8 +6,8 @@
 
     :authors: - Boudewijn Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
-    
-.. _triaging_bugs:
+
+.. _reporting_bugs:
 
 ==============
 Reporting Bugs
@@ -55,13 +55,14 @@ If uncertain, ask on `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or 
 
 Krita's chat channel is maintained on irc.freenode.net. Developers and users hang out to discuss Krita's development and help people who have questions.
 
-.. important:: 
-
-    Most Krita developers live in Europe, and the channel is very quiet when it's night in Europe.
-You also have to patient: it may take some time for people to notice your question even if they are awake.
+.. important::
+    Most Krita developers live in Europe, and the channel is very quiet when it's night in Europe. You also have to patient: it may take some time for people to notice your question even if they are awake.
 
 
-.. admonition:: Krita does not have a paid support staff. You will chat with volunteers, users and developers. It is not a help desk.
+.. admonition:: Also ...
+
+   Krita does not have a paid support staff. You will chat with volunteers, users and developers. It is not a help desk.
+
 
 But you can still ask your question, and the people in the channel are a friendly and helpful lot.
 
@@ -95,10 +96,10 @@ Give all information. That means that you should give information about your ope
 - Tell us what kind of image you were working on: the size, the resolution, the color model and channel depth.
 - If you are reporting a crash, attach a crash log. Follow `this link <https://docs.krita.org/en/reference_manual/dr_minw_debugger.html#dr-minw>`_ to learn how to get a crash log on Windows. On Linux, follow your distributions instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux appimages.
 
-The problem needs to be clearly stated: 
-- what happened, 
-- what had you expected to happen instead 
-- how the problem can be reproduced. 
+The problem needs to be clearly stated:
+- what happened,
+- what had you expected to happen instead
+- how the problem can be reproduced.
 
 Give a concise and short description, then enumerate the steps needed to reproduce the problem. If you cannot reproduce the problem, and it isn't a crash, think twice before making the report: the developers likely cannot reproduce it either.
 
@@ -115,7 +116,7 @@ After you have filed your bug, mail will be sent out to all Krita developers and
 
 When a developer decides to investigate your report, they will start adding comments to the bug. There might be additional questions: please answer them as soon as possible.
 
-When the developer has come to a conclusion, they will **resolve** the bug. That is done by changing the resolution status in the bug tracker. These statuses are phrased in developer speak, that is to say, they might sound quite rude to you. There's nothing that we can do about that, so do not take it personally. The bug reporter should *never* change the status after a developer changed it. 
+When the developer has come to a conclusion, they will **resolve** the bug. That is done by changing the resolution status in the bug tracker. These statuses are phrased in developer speak, that is to say, they might sound quite rude to you. There's nothing that we can do about that, so do not take it personally. The bug reporter should *never* change the status after a developer changed it.
 
 These are the most used statuses:
 

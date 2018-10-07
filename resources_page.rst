@@ -42,6 +42,10 @@ Brush Packs
                :target: http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
                
                Meemodraws
+        * - .. figure:: /images/en/resource_packs/Resources-cazuBrushes.jpg
+               :target: http://www.pcazorla.com/2014/01/15/cazu-brush-collection-v2-for-krita/
+               
+               Cazu Brush Collection
           - .. figure:: /images/en/resource_packs/Resources-stalcryBrushes.jpg
                :target: http://stalcry.deviantart.com/art/Krita-Custom-Brushes-350338351
                
@@ -67,7 +71,7 @@ Brush Packs
                
                GDQuest
           - .. figure:: /images/en/resource_packs/Resources-iForce73Brushes.png
-               :target: https://iforce73.deviantart.com/art/Krita-Environment-Brushes-699127188
+               :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
                
                Iforce73
         * -  --
@@ -88,3 +92,15 @@ Texture Packs
                :target: https://www.davidrevoy.com/article263/five-traditional-textures
 
                David Revoy
+
+External tutorials
+------------------
+
+.. list-table::
+
+        * - .. figure:: /images/en/resource_packs/simon_pixel_art_course.png
+               :target: https://www.udemy.com/learn-to-create-pixel-art-from-zero/?couponCode=OTHER_75
+               
+               Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy
+
+               
