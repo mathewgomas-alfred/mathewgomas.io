@@ -43,17 +43,20 @@ Editing Selections
 The tool options for each selection tool gives you the ability to modify
 your selection.
 
-+-------------+---------------+------------+
-| Action      | Modifier      | Shortcut   |
-+-------------+---------------+------------+
-| Replace     | Ctrl          | R          |
-+-------------+---------------+------------+
-| Intersect   | Shift + Alt   | --         |
-+-------------+---------------+------------+
-| Add         | Shift         | A          |
-+-------------+---------------+------------+
-| Subtract    | Alt           | S          |
-+-------------+---------------+------------+
++-------------+---------------+------------+---------------------------------------------------+
+| Action      | Modifier      | Shortcut   | Description                                       |
++-------------+---------------+------------+---------------------------------------------------+
+| Replace     | Ctrl          | R          | Replace the current selection.                    |
++-------------+---------------+------------+---------------------------------------------------+
+| Intersect   | Shift + Alt   | --         | Get the overlapping section of both selections    |
++-------------+---------------+------------+---------------------------------------------------+
+| Add         | Shift         | A          | Add the new selection to the current selection.   |
++-------------+---------------+------------+---------------------------------------------------+
+| Subtract    | Alt           | S          | Subtract the selection from the current selection.|
++-------------+---------------+------------+---------------------------------------------------+
+| Symmetric   | --            | --         | Make a selection where both the new and current   |
+| Difference  |               |            | do not overlap.                                   |
++-------------+---------------+------------+---------------------------------------------------+
 
 You can change this in :ref:`tool_options_settings`.
 
