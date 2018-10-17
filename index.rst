@@ -35,8 +35,8 @@ As you learn about Krita, keep in mind that it is not intended as a replacement 
 |                                                |                                          |
 |:ref:`resources_page`                           |:ref:`genindex`                           |
 |                                                |                                          |
-|Textures and Brush packs to help add            |An index of the manual for searching      |
-|variety to your artwork.                        |terms by browsing.                        |
+|Textures, brush packs, and python plugins       |An index of the manual for searching      |
+|to help add variety to your artwork.            |terms by browsing.                        |
 +------------------------------------------------+------------------------------------------+
 
 .. toctree::
