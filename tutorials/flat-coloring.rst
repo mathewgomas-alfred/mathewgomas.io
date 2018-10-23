@@ -104,6 +104,89 @@ Disadvantages
 
 Not actually transparent. Is a little funny with coloured lines.
 
+Using Selections
+----------------
+
+The second method is one where we'll make it actually transparent. In other programs this would be done via the channel docker, but Krita doesn't do custom channels, instead it uses Selection Masks to store custom selections.
+
+1. duplicate your lineart layer.
+
+2. convert the duplicate to a selection mask. |mouseright| the layer, then :menuselection:`Convert --> to Selection Mask`.
+
+    .. image:: /images/en/flat-coloring/Krita_filling_lineart_selection_1.png
+
+3. Invert the selection mask. :menuselection:`Select --> Invert Selection`.
+
+4. Make a new layer, and do :menuselection:`Edit --> Fill with foreground color`.
+
+    .. image:: /images/en/flat-coloring/Krita_filling_lineart_selection_2.png
+
+And you should now have the line art on a seperate layer.
+
+Advantages
+""""""""""
+
+Actual transparency.
+
+Disadvantages
+"""""""""""""
+
+Doesn't work when the lineart is coloured.
+
+Using Masks
+-----------
+
+This is a simpler variation of the above.
+
+1. Make a filled layer underneath the lineart layer.
+
+    .. image:: /images/en/flat-coloring/Krita_filling_lineart_mask_1.png
+
+2. Convert the lineart layer to a transparency mask |mouseright| the layer, then :menuselection:`Convert --> to Transparency Mask`.
+
+    .. image:: /images/en/flat-coloring/Krita_filling_lineart_mask_2.png
+
+3. Invert the transparency mask by going to :menuselection:`Filter --> Adjust --> Invert`
+
+    .. image:: /images/en/flat-coloring/Krita_filling_lineart_mask_3.png
+
+Advantages
+""""""""""
+
+Actual transparency. You can also very easily doodle a pattern on the filled layer where the mask is on without affecting the transparency.
+
+Disadvantages
+"""""""""""""
+
+Doesn't work when the lineart is coloured already. We can still get faster.
+
+Using Color to Alpha
+--------------------
+
+By far the fastest way to get transparent lineart.
+
+1. Select the line art layer and apply the color to alpha filter. :menuselection:`Filter --> Colors --> Color to Alpha`. The default values should be sufficient for lineart.
+
+.. image:: /images/en/flat-coloring/Krita_filling_lineart_color_to_alpha.png
+
+Advantages
+""""""""""
+
+Actual transparency. Works with coloured line art as well, because it removes the white specifically.
+
+Disadvantages
+"""""""""""""
+
+You'll have to lock the layer transparency or seperate out the alpha via the rightclick menu if you want to easily color it.
+
+
+Colouring the image
+===================
+
+Much like preparing the line art, there's many different ways of colouring a layer.
+
+You could for example fill in everything by hand, but while that is very precise it also takes a lot of work. Let's take a look at the other options, shall we?
+
 Fill Tool
 ---------
 
