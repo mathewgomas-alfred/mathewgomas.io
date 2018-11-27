@@ -30,7 +30,7 @@ Only Report Bugs
 A bug is a problem in Krita's code.
 
 - If you have problems with your drawing tablet, for instance no support for pressure, then that is unlikely to be a problem in Krita's code: it is almost certain to be a problem with your setup or the driver for your tablet.
-- If you've lost the toolbox
+- If you've lost the toolbox, that's not a bug.
 - If you have deleted your work, that is not a bug.
 - If Krita works differently from another application, that's not a bug.
 - If Krita works differently than you expected, that's not a bug.
