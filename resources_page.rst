@@ -103,34 +103,58 @@ External tutorials
                Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy
 
 User-made Python Plugins
-------------------
+------------------------
 To install and manage your plugins, visit the :ref:`krita_python_plugin_howto` area. See the second area on how to get Krita to recognize your plugin.
 
-**Direct Eraser Plugin** - http://www.mediafire.com/file/sotzc2keogz0bor/Krita+Direct+Eraser+Plugin.zip
+Direct Eraser Plugin
 
-**Tablet Controls Docker** - https://github.com/tokyogeometry/tabui
+    http://www.mediafire.com/file/sotzc2keogz0bor/Krita+Direct+Eraser+Plugin.zip
 
-**On-screen Canvas Shortcuts** - https://github.com/qeshi/henriks-onscreen-krita-shortcut-buttons/tree/master/henriks_krita_buttons
+Tablet Controls Docker
 
-**Spine FIle Format Export** - https://github.com/chartinger/krita-unofficial-spine-export
+    https://github.com/tokyogeometry/tabui
 
-**GDQuest - Designer Tools** - https://github.com/GDquest/Krita-designer-tools
+On-screen Canvas Shortcuts
+    
+    https://github.com/qeshi/henriks-onscreen-krita-shortcut-buttons/tree/master/henriks_krita_buttons
 
-**AnimLayers (Animate with Layers)** - https://github.com/thomaslynge/krita-plugins
+Spine FIle Format Export
+    
+    https://github.com/chartinger/krita-unofficial-spine-export
 
-**Art Revision Control (using GIT)** - https://github.com/abeimler/krita-plugin-durra
+GDQuest - Designer Tools
+    
+    https://github.com/GDquest/Krita-designer-tools
 
-**Krita Plugin generator** - https://github.com/cg-cnu/vscode-krita-plugin-generator
+AnimLayers (Animate with Layers)
 
-**Bash Action (works with OSX and Linux)** - https://github.com/juancarlospaco/krita-plugin-bashactions#krita-plugin-bashactions
+    https://github.com/thomaslynge/krita-plugins
 
-**Reference Image Docker (old style)** - https://github.com/antoine-roux/krita-plugin-reference
+Art Revision Control (using GIT)
 
-**Post images on Mastadon** - https://github.com/spaceottercode/kritatoot
+    https://github.com/abeimler/krita-plugin-durra
 
-**Python auto-complete for text editors** - https://github.com/scottpetrovic/krita-python-auto-complete
+Krita Plugin generator
+
+    https://github.com/cg-cnu/vscode-krita-plugin-generator
+
+Bash Action (works with OSX and Linux)
+
+    https://github.com/juancarlospaco/krita-plugin-bashactions#krita-plugin-bashactions
+
+Reference Image Docker (old style)
+
+    https://github.com/antoine-roux/krita-plugin-reference
+
+Post images on Mastadon
+
+    https://github.com/spaceottercode/kritatoot
+
+Python auto-complete for text editors
+
+    https://github.com/scottpetrovic/krita-python-auto-complete
 
 
 See Something We Missed?
------------
+------------------------
 Have a resource you made and want to to share it with other artists? Let us know in the forum or visit our chat room to discuss getting the resource added to here.

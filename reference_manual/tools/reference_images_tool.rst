@@ -14,6 +14,8 @@
 Reference Images Tool
 =====================
 
+|toolreference|
+
 .. versionadded:: 4.1
 
 The reference images tool is a replacement for the reference images docker. You can use it to load images from your disk as reference, which can then be moved around freely on the canvas and placed wherever.
@@ -40,3 +42,7 @@ Storage mode
         Store this reference image into the kra file. This is recommended for small vital files you'd easily lose track of otherwise.
     Link to external file.
         Only link to the reference image, krita will open it from the disk everytime it loads this file. This is recommended for big files, or files that change a lot.
+        
+You can move around reference images by selecting them with |mouseleft|, and dragging them. You can rotate reference images by holding the cursor close to the outside of the corners till the rotate cursor appears, while tilting is done by holding the cursor close to the outside of the middle nodes. Resizing can be done by dragging the nodes. You can delete a single reference image by clicking it and pressing 'del'. You can select multiple reference images with shift and perform all of these actions.
+
+To hide all reference images temporarily use :menuselection:`View --> Show Reference Images`.

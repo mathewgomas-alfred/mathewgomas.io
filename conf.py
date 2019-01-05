@@ -179,6 +179,8 @@ rst_epilog = """
 
 .. |toolzoom| image:: /images/icons/zoom_tool.svg
 
+.. |toolreference| image:: /images/icons/reference_images_tool.svg
+
 """
 
 # -- Options for HTML output -------------------------------------------------
