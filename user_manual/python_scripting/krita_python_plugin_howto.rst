@@ -350,6 +350,12 @@ and use the right import:
 
 To emit or create slots for objects that aren't standard python objects, you only have to put their names between quotation marks.
 
+A note on unit tests
+--------------------
+
+If you want to write unit tests for your plugin, have a look at the `mock krita module <https://github.com/rbreu/krita-python-mock>`_.
+
+
 Conclusion
 ----------
 
