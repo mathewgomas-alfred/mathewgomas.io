@@ -94,7 +94,6 @@ One of the more confusing things is seeing all the C++ classes that Krita uses, 
 
 .. code:: python
 
-    import sys
     from krita import *
 
     print(Krita.instance().filters())
@@ -114,7 +113,6 @@ However, sometimes the conversion doesn't go quite as smoothly.
 
 .. code:: python
 
-    import sys
     from krita import *
 
     print(Krita.instance().documents())

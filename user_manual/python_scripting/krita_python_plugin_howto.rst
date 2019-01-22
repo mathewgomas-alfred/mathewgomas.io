@@ -104,7 +104,6 @@ Creating an extension
 
 .. code:: python
 
-    import sys
     from krita import *
 
     class MyExtension(Extension):
@@ -161,7 +160,6 @@ And add the import for QFileDialog above with the imports:
 
 .. code:: python
 
-    import sys
     from krita import *
     from PyQt5.QtWidgets import QFileDialog
 
@@ -242,7 +240,6 @@ Creating a custom `docker <https://api.kde.org/extragear-api/graphics-apidocs/kr
 
 .. code:: python
 
-    import sys
     from PyQt5.QtWidgets import *
     from krita import *
 
