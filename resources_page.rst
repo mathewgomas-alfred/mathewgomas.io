@@ -46,11 +46,7 @@ Brush Packs
                :target: http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
                
                Meemodraws
-        * - .. figure:: /images/en/resource_packs/Resources-cazuBrushes.jpg
-               :target: http://www.pcazorla.com/2014/01/15/cazu-brush-collection-v2-for-krita/
-               
-               Cazu Brush Collection
-          - .. figure:: /images/en/resource_packs/Resources-stalcryBrushes.jpg
+        * - .. figure:: /images/en/resource_packs/Resources-stalcryBrushes.jpg
                :target: http://stalcry.deviantart.com/art/Krita-Custom-Brushes-350338351
                
                Stalcry
@@ -58,11 +54,11 @@ Brush Packs
                :target: https://forum.kde.org/viewtopic.php?f=274&t=125125
                
                Wolthera
-        * - .. figure:: /images/en/resource_packs/Resources-nylnook.jpg
+          - .. figure:: /images/en/resource_packs/Resources-nylnook.jpg
                :target: http://nylnook.com/en/blog/krita-brushes-pack-v2/
                
                Nylnook
-          - .. figure:: /images/en/resource_packs/Resources-hushcoilBrushes.png
+        * - .. figure:: /images/en/resource_packs/Resources-hushcoilBrushes.png
                :target: http://hushcoil.tumblr.com/kritabrushes/
                
                Hushcoil
@@ -70,15 +66,15 @@ Brush Packs
                :target: https://github.com/raghukamath/krita-brush-presets
                
                Raghukamath
-        * - .. figure:: /images/en/resource_packs/Resources-GDQuestBrushes.jpeg
+          - .. figure:: /images/en/resource_packs/Resources-GDQuestBrushes.jpeg
                :target: https://github.com/GDquest/free-krita-brushes/releases/
                
                GDQuest
-          - .. figure:: /images/en/resource_packs/Resources-iForce73Brushes.png
+        * - .. figure:: /images/en/resource_packs/Resources-iForce73Brushes.png
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
-               
-               Iforce73
-          -  --
+          -
+          
+          -
 
 Texture Packs
 -------------
