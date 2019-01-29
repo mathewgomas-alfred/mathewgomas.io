@@ -400,7 +400,7 @@ Krita is slow
 
 There is a myriad of reasons why this might be. Below is a short checklist.
 
--  Something else is hogging the cpu.
+-  Something else is hogging the cpu or the memory: spotify and other electron apps have been known to do this.
 -  You are running Windows, and have 3rdparty security software like Sandboxie or Total Defender installed
 -  you are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
 -  you do not have canvas acceleration enabled
