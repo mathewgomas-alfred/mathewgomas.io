@@ -31,6 +31,8 @@ Large Move Scale(3.0+)
     Allows you to multiply the movement of the Shortcut Move Distance when pressing :kbd:`Shift` before pressing a direction key.
 Show coordinates
     When toggled will show the coordinates of the top-left pixel of the moved layer in a floating window.
+Constrained movement
+    If you click, then press :kbd:`Shift`, then move the layer, movement is constrained to the horizontal and vertical directions. If you press :kbd:`Shift`, then click, then move, all layers will be moved, with the movement constrained to the horizontal and vertical directions
 
     .. image:: /images/en/Movetool_coordinates.png
 
