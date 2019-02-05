@@ -14,7 +14,7 @@ Flat Coloring
 
 So you've got a cool black on white drawing, and now you want to color it! The thing we’ll aim for in this tutorial is to get your lineart colored in with flat colors. So no shading just yet. We’ll be going through some techniques for preparing the lineart, and we’ll be using the layer docker to put each colour on a separate layer, so we can easily access each colour when we add shading.
 
-.. note:: This tutorial is adapted from this `tutorial <http://theratutorial.tumblr.com/post/66584924501/flat-colouring-in-the-kingdom-of-2d-layers-are>`_ by it's original author.
+.. note:: This tutorial is adapted from this `tutorial <http://theratutorial.tumblr.com/post/66584924501/flat-colouring-in-the-kingdom-of-2d-layers-are>`_ by the original author.
 
 Understanding Layers
 --------------------
