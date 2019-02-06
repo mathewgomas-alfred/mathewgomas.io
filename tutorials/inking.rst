@@ -43,8 +43,8 @@ Your shoulders and elbows on the other hand are actually quite good at handling 
 
 To control pressure in this state effectively, you should press your pinky against the tablet surface as you make your stroke. This will allow you to precisely judge how far the pen is removed from the tablet surface while leaving the position up to your shoulders. The pressure should then be put by your elbow.
 
-So, there’s not any secret rules to inking, but if there is one, it would be the following: *The longer your stroke, the more of your arms you need to use to make the stroke*
-.
+So, there’s not any secret rules to inking, but if there is one, it would be the following: *The longer your stroke, the more of your arms you need to use to make the stroke*.
+
 Stroke smoothing
 ----------------
 
@@ -81,7 +81,7 @@ Then, in the freehand brush tool options, you can tick **Assistants** and start 
 Presets
 -------
 
-So here’s some things to consider with the brush-presets that you use:
+So here are some things to consider with the brush-presets that you use:
 
 Anti-aliasing versus jagged pixels
 """"""""""""""""""""""""""""""""""
@@ -89,7 +89,7 @@ Anti-aliasing versus jagged pixels
 A starting inker might be inclined to always want to use anti-aliased brushes, after all, they look so smooth on the screen. However, while these look good on screen, they might become fuzzy when printing them. Therefore, Krita comes with two default types. Anti-aliased brushes like ink_brush_25 and slightly aliased brushes like ink_tilt, with the latter giving better print results. If you are trying to prepare for both, it might be an idea to consider making the inking page 600dpi and the color page 300dpi, so that the inking page has a higher resolution and the ‘jaggies’ aren’t as visible. You can turn any pixel brush into an aliased brush, by going :kbd:`f5` and ticking **Sharpness**.
 
 Texture
-""""""""
+"""""""
 
 Do you make smooth ‘wet’ strokes? Or do you make textured ones? For the longest time, smooth strokes were preferred, as that would be less of a headache when entering the coloring phase. Within Krita there’s several methods to color these easily, the colorize mask being the prime example, so textured becomes a viable option even for the lazy amongst us.
 
