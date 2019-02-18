@@ -31,6 +31,8 @@ function import_po_dirs # First parameter will be a path that will be a director
             # Recreate the dir structure
             find * -type f -exec bash -c 'new=$(echo "{}" | sed s#docs_krita_org_##g | sed s#___#/#g); mkdir -p `dirname $new`; mv {} $new' \;
             cd ../../..
+            rm -rf $podir/$lang
         fi
     done
+    ls $podir # This will "complain" about languages that are translated but unsupported in sphinx, once we have one we'll have to think what to do
 }
