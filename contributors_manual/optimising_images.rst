@@ -32,14 +32,14 @@ Windows has a build-in screenshot tool. It is by default on the PrtSc key. On la
 
 Linux
 ~~~~~
-Both Gnome and KDE have decent screenshot tools showing up by default when using the PrtSc key, as well do other popular desktop enviroments. If, for whatever reason, you have no
+Both Gnome and KDE have decent screenshot tools showing up by default when using the PrtSc key, as well do other popular desktop environments. If, for whatever reason, you have no
 
 ImageMagick
     With imagemagick, you can use the following command::
 
         import -depth 8 -dither <filename.png>
 
-While we should minimize the amount of gifs in the manual for a variety of accesibility reasons, you sometimes still need to make gifs and short videos. Furthermore, gifs are quite nice to show off features with release notes.
+While we should minimize the amount of gifs in the manual for a variety of accessibility reasons, you sometimes still need to make gifs and short videos. Furthermore, gifs are quite nice to show off features with release notes.
 
 For making short gifs, you can use the following programs:
 
@@ -108,7 +108,7 @@ There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png
     This will try the most common methods. Add ``-brute`` to try out all methods.
 
 `Optipng <http://optipng.sourceforge.net/>`_
-    Another lossless PNG compressor which can be run after using PNGQuant, it is apparantly originally a fork of png crush.
+    Another lossless PNG compressor which can be run after using PNGQuant, it is apparently originally a fork of png crush.
     Usage::
 
         optipng image.png

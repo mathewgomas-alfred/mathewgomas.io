@@ -19,7 +19,7 @@ Lossy and Lossless Image Compression
 
 When we compress a file, we do this because we want to temporarily make it smaller(like for sending over email), or we want to permanently make it smaller(like for showing images on the internet).
 
-*Lossless* compression techniques are for when we want to *temporarily* reduce information. As the name implies, they compress without losing information. In text, the use of abbrevations is a good example of a lossless compression technique. Everyone knows 'etc.' expands to 'etcetera', meaning that you can half the 8 character long 'etcetera' to the four character long 'etc.'.
+*Lossless* compression techniques are for when we want to *temporarily* reduce information. As the name implies, they compress without losing information. In text, the use of abbreviations is a good example of a lossless compression technique. Everyone knows 'etc.' expands to 'etcetera', meaning that you can half the 8 character long 'etcetera' to the four character long 'etc.'.
 
 Within image formats, examples of such compression is by for example 'indexed' color, where we make a list of available colors in an image, and then assign a single number to them. Then, when describing the pixels, we only write down said number, so that we don't need to write the color definition over and over.
 

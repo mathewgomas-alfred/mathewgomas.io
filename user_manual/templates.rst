@@ -36,7 +36,7 @@ US-style comics Template.
 Manga Template.
  This one is based on Japanese comics, and focuses on a thin vertical gutter and a thick horizontal gutter, ensuring that the reader finished the previous row before heading to the next.
 Waffle Iron Grid
- 12 little panels at you disposal.
+ 12 little panels at your disposal.
 
 Design Templates
 ~~~~~~~~~~~~~~~~

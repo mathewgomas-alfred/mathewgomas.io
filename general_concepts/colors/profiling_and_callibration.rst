@@ -10,11 +10,11 @@
              - Troy Sobotka
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Color, Profiling, Callibration
-.. _profiling_and_callibration:
+.. index:: Color, Profiling, Calibration
+.. _profiling_and_calibration:
 
 ===========================
-Profiling and Callibration:
+Profiling and Calibration:
 ===========================
 
 So to make it simple, a color profile is just a file defining a set of colors inside a pure XYZ color cube.

@@ -150,7 +150,7 @@ Recursive transform, when toggled, allows you to mass-transform all the layers i
 Continuous Transform
 --------------------
 
-If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press :kbd:`Esc` to cancel this and start a new transform, or presset :guilabel:`reset` in the tool options while no transform is active.
+If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press :kbd:`Esc` to cancel this and start a new transform, or preset :guilabel:`reset` in the tool options while no transform is active.
 
 Transformation Masks
 --------------------

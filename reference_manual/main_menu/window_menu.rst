@@ -22,7 +22,7 @@ New Window
 New View
     Make a new view of the given document. You can have different zoom or rotation on these.
 Workspace
-    A convenient acces panel to the :ref:`resource_workspaces`.
+    A convenient access panel to the :ref:`resource_workspaces`.
 Close
     Close the current view.
 Close All

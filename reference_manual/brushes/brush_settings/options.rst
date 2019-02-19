@@ -184,7 +184,7 @@ This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`.
 Ratio
 -----
 
-Allows you to change the ratio of the brush and bind it to parameters. This also works for predifined brushes.
+Allows you to change the ratio of the brush and bind it to parameters. This also works for predefined brushes.
 
 .. image:: /images/en/Krita_3_0_1_Brush_engine_ratio.png
 

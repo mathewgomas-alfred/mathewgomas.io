@@ -39,7 +39,7 @@ Default
     .. image:: /images/en/Krita_29_brushengine_brushtips_default.png
 
 Soft
-    This one's fade is controled by a curve!
+    This one's fade is controlled by a curve!
 
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_soft.png
 Gaussian

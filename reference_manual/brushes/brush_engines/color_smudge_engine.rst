@@ -344,7 +344,7 @@ Blurring
 
 You can:
 
-* Paint then smudge, for mostly textury transitions
+* Paint then smudge, for mostly texture transitions
 * Or build up transitions by using intermediate color values
 
 If you want even smoother effects, well, just use Blur. Gaussian blur to be exact.

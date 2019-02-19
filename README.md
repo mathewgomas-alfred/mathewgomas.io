@@ -4,7 +4,7 @@ A Sphinx based documentation system with a custom Krita theme. The instructions 
 
 Setting up Development Environment
 ----------------------------------
-You will need Python. I have version 3.6.3. Make sure to install PIP along with the installation. PIP is a manager that is used to install external packages. We will use PIP to install Sphinx. Sphinx is static site generation tool used for documentation purposes. 
+You will need Python. I have version 3.6.3. Make sure to install PIP along with the installation. PIP is a manager that is used to install external packages. We will use PIP to install Sphinx. Sphinx is a static site generation tool used for documentation purposes. 
 
 After you install Python bring up a command prompt and type: `python --version`
 
@@ -70,7 +70,7 @@ Build out changes to language  (en and de)
 -------------------------------
 
 
-To build out a specific language we need to specify which language to output and then build. This can be done with the following commands: 
+To build out a specific language we need to specify which language to output and then build. This can be done with the following commands:
 
 On Windows:
 
@@ -97,7 +97,7 @@ In this example we changed the language to German and built out HTML files. Ever
 
 Using multiple languages at once
 --------------------------------
-To be able to have multiple langauges at once, we will start to use a "dist" folder. The basic ideas is that after Sphinx builds out the documentation for a language, it will copy the files out to a new location that is in its language code. 
+To be able to have multiple languages at once, we will start to use a "dist" folder. The basic idea is that after Sphinx builds out the documentation for a language, it will copy the files out to a new location that is in its language code.
 
 To copy the files to the dist folder use the following command:
 
@@ -112,7 +112,7 @@ mkdir dist/de/
 cp -R _build/html dist/de/
 ```
 
-You should see all the documentation files in the dist folder inside its language folder. We only need the stuff inside the html folder as the other folder are for helping with translation. Change the language like in the above step and do the same process for all languages.
+You should see all the documentation files in the dist folder inside its language folder. We only need the stuff inside the html folder as the other folders are for helping with translation. Change the language like in the above step and do the same process for all languages.
 
 Switching languages for the site
 --------------------------------
@@ -151,13 +151,13 @@ When you install that it will add a command line function. Open a command prompt
 
 Mine says MiKTeX-pdfTeX 2.9.6642 (1.40.19). If you don't see it you either didn't install it or you need to open a new command prompt window for Windows to see the newly installed tool.
 
-Still in your command prompt, go into your _build directory, then the latex folder. Run this command to generate the PDF: `pdflatex --outuput-directory=./output kritaManual.tex'
+Still in your command prompt, go into your _build directory, then the latex folder. Run this command to generate the PDF: `pdflatex --output-directory=./output kritaManual.tex'
 
 The "kritaManual.tex" is the file in your latex folder.
 
 #### Linux:
 
-The linux latex installation requires 1 gb to be spend on latex... I kid you not.
+The linux latex installation requires 1 gb to be spent on latex... I kid you not.
 
 Kubuntu 17.10:
 ```

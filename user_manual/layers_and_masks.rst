@@ -158,7 +158,7 @@ back and forth. You can go back to original image with a click of a
 button, Just hide the filter or mask you have your initial image.
 
 You can add various filters to a layer with Filter mask, or add Filter
-layer which will affect the whole image. Layers can also be transformed non-destructively with the transformation masks, and even have portions temporarily hidden with a Transparenct Mask. Non-destructive effects like these are very useful when you change your mind later, or need to make a set of variations of an given image.
+layer which will affect the whole image. Layers can also be transformed non-destructively with the transformation masks, and even have portions temporarily hidden with a Transparent Mask. Non-destructive effects like these are very useful when you change your mind later, or need to make a set of variations of an given image.
 
 .. note::
     You can merge all visible layers by selecting everything first :menuselection:`Layer --> Select --> Visible Layers`. Then Combine them all by merging :menuselection:`Layer --> Merge with Layer Below`.

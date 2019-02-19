@@ -80,7 +80,7 @@ Open Krita with specified Screen DPI.
 Open template
 -------------
 
-Open krita and automatically open the given template(s). This allows you to, for example, create a shortcut to Krita that opens a given template, so you can get to work immidiately!
+Open krita and automatically open the given template(s). This allows you to, for example, create a shortcut to Krita that opens a given template, so you can get to work immediately!
 
 ``krita --template templatename.desktop``
 

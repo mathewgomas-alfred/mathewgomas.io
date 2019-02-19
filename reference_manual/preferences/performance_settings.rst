@@ -72,7 +72,7 @@ Debuglogging of OpenGL framerate
 Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
 Disable vector optimisations(For AMD CPUs)
-    Vector optimisations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimisations can make Krita a lt faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactive them then.
+    Vector optimisations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimisations can make Krita a lt faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactivate them then.
 Enable Progress Reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging

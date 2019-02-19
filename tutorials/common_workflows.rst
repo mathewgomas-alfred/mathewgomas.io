@@ -29,7 +29,7 @@ After the composition and a basic layout has been laid out the artists add as mu
     :alt: speedpaint of pepper and carrot by deevad (David Revoy)
     :width: 800
 
-Artwork by David Revoy, licence : `CC-BY <http://creativecommons.org/licenses/by/3.0/>`_
+Artwork by David Revoy, license : `CC-BY <http://creativecommons.org/licenses/by/3.0/>`_
 
 You can view the recorded speed painting demo for the above image `on Youtube <https://www.youtube.com/watch?v=93lMLEuxSLk>`_.
 

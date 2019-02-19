@@ -184,7 +184,7 @@ When Krita Starts
 
     .. versionadded:: 4.1
 Save session when Krita closes
-    Save the current open windows, documents and the like into the cuurrent session when closing Krita so you can resume where you left off.
+    Save the current open windows, documents and the like into the current session when closing Krita so you can resume where you left off.
     .. versionadded:: 4.1
 Autosave Every
     Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the %TEMP% directory. If you are on Linux it is stored in /home/'username'.
