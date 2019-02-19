@@ -20,6 +20,8 @@ function import_po_dirs # First parameter will be a path that will be a director
 {
     podir=$1
     mkdir -p locale
+    # for some reason sphinx uses uk_UA instead of uk
+    mv $podir/uk $podir/uk_UA
     # These are the language codes that sphinx supports.
     for lang in bn ca cs da de es et eu fa fi fr he hr hu id it ja ko lt lv mk nb_NO ne nl pl pt_BR pt_PT ru si sk sv tr uk_UA vi zh_CN zh_TW
     do
