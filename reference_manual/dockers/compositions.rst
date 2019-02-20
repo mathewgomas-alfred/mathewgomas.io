@@ -27,6 +27,8 @@ Activating composition
     Double-click the composition name to switch to that composition.
 Removing compositions
     The minus sign. Select a composition, and hit this button to remove it.
+Exporting compositions
+    The file sign. Will export all checked compositions.
 Updating compositions
     |mouseright| a composition to overwrite it with the current configuration.
 Rename composition
