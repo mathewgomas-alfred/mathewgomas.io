@@ -1,0 +1,151 @@
+# Translation of docs_krita_org_general_concepts___file_formats.po to Ukrainian
+# Copyright (C) 2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: docs_krita_org_general_concepts___file_formats\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"PO-Revision-Date: 2019-02-20 11:16+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 18.12.1\n"
+
+#: ../../general_concepts/file_formats.rst:1
+msgid "The file formats category."
+msgstr "Категорія форматів файлів."
+
+#: ../../general_concepts/file_formats.rst:14
+msgid "File Formats"
+msgstr "Формати файлів"
+
+#: ../../general_concepts/file_formats.rst:16
+msgid ""
+"This category is for graphics file-formats. While most file-formats can be"
+" looked up on wikipedia, this doesn't always explain what the format can be"
+" used for and what it's strengths and weaknesses are."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:18
+msgid ""
+"In this category we try to describe these in a manner that can be read by"
+" beginners."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:20
+msgid ""
+"Generally, there's the following features that people pay attention to in"
+" regards to fileformats:"
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:23
+msgid "Compression"
+msgstr "Стискання"
+
+#: ../../general_concepts/file_formats.rst:25
+msgid ""
+"Compression is how the file-format tries to describe the image with as little"
+" data as possible, so that the resulting file is as small as it can get"
+" without losing quality."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:27
+msgid ""
+"What we generally see is that formats that are small on disk either lose"
+" image quality, or require the computer to spent a lot of time thinking about"
+" how the image should look."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:29
+msgid ""
+"Vector file-formats like ``svg`` are a typical example of the latter. They"
+" are really small because the technology used to create them is based on"
+" mathematics, so it only stores maths-variables and can achieve a very high"
+" quality. The downside is that the computer needs to spend a lot of time"
+" thinking on how it should look, and sometimes different programs have"
+" different ways of interpreting the values. Furthermore, vector file-formats"
+" imply vector graphics, which is a very different way of working than Krita"
+" is specialised in."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:31
+msgid ""
+":ref:`Lossy file formats <lossy_compression>`, like ``jpg`` or ``webp`` are"
+" an example of small on disk, but lowering the quality, and are best used for"
+" very particular types of images. Lossy thus means that the file format plays"
+" fast and loose with describing your image to reduce filesize."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:33
+msgid ""
+":ref:`Non-lossy or lossless formats <lossless_compression>`, like ``png``,"
+" ``gif`` or ``bmp`` are in contrast, much heavier on disk, but much more"
+" likely to retain quality."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:35
+msgid ""
+"Then, there's proper working file formats like Krita's ``.kra``, Gimp's"
+" ``xcf``, Photoshop's ``psd``, but also interchange formats like ora and exr."
+" These are the heaviest on the hard-drive and often require special programs"
+" to open them up, but on the other hand these are meant to keep your working"
+" environment in tact, and keep all the layers and guides in them."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:38
+msgid "Metadata"
+msgstr "Метадані"
+
+#: ../../general_concepts/file_formats.rst:40
+msgid ""
+"Metadata is the ability of a fileformat to contain information outside of the"
+" actual image contents. This can be human readable data, like the date of"
+" creation, the name of the author, a description of the image, but also"
+" computer readable data, like an icc-profile which tells the computer about"
+" the qualities of how the colors inside the file should be read."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:43
+msgid "Openness"
+msgstr "Відкритість"
+
+#: ../../general_concepts/file_formats.rst:45
+msgid ""
+"This is a bit of an odd quality, but it's about how easy it to open or"
+" recover the file, and how widely it's supported."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:47
+msgid ""
+"Most internal fileformats, like PSD are completely closed, and it's really"
+" difficult for human outsiders to recover the data inside without opening"
+" photoshop. Other examples are camera raw files which have different"
+" properties per camera manufacturer."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:49
+msgid ""
+"SVG, as a vector fileformat, is on the other end of the spectrum, and can be"
+" opened with any text-editor and edited."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:51
+msgid ""
+"Most formats are in-between, and thus there's also a matter of how widely"
+" supported the format is. jpg and png cannot be read or edited by human eyes,"
+" but the vast majority of programs can open them, meaning the owner has easy"
+" access to them."
+msgstr ""
+
+#: ../../general_concepts/file_formats.rst:53
+msgid "Contents:"
+msgstr "Зміст:"
