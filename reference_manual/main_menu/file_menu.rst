@@ -22,7 +22,7 @@ File Menu
         Make a new file.
 
     Open
-        Open a previous File.
+        Open a previously created file.
 
     Open Recent
         Open the recently opened document.
@@ -52,7 +52,7 @@ File Menu
         Make a backup file without leaving the working file.
 
     Create Template from image
-        The \*.kra file will be saved into the template folder for future use. All you layers and guides will be saved along!
+        The \*.kra file will be saved into the template folder for future use. All your layers and guides will be saved along!
 
     Create Copy From Current Image
         Makes a new document from the current image, so you can easily reiterate on a single image. Useful for areas where the template system is too powerful.

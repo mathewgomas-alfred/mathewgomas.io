@@ -16,7 +16,7 @@
 Compositions
 ============
 
-The compositions docker allows you to save the configurations of you layers being visible and invisible, allowing you to save several configurations of your layers.
+The compositions docker allows you to save the configurations of your layers being visible and invisible, allowing you to save several configurations of your layers.
 
 .. image:: /images/en/Composition-docker.png
 

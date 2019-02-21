@@ -61,7 +61,7 @@ With some tablet brands, the position events being sent aren’t very precise, w
 
 On the other hand, doing too much smoothing during the whole drawing can make your strokes very mechanical in the worst way. Having no jitter or tiny bumps removes a certain humanity from your drawings, and it can make it impossible to represent fabric properly.
 
-Therefore, it’s wise to train your inking hand, yet not to be too hard on yourself and refuse to use smoothing at all, as we all get tired, cold or have a bad day once in a while. Stablizer set to 50 or so should provide a little comfort while keeping the little irregularities.
+Therefore, it’s wise to train your inking hand, yet not to be too hard on yourself and refuse to use smoothing at all, as we all get tired, cold or have a bad day once in a while. Stabilizer set to 50 or so should provide a little comfort while keeping the little irregularities.
 
 Bezier curves and other tools
 -----------------------------

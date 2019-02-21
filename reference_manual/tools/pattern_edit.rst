@@ -69,7 +69,7 @@ Reference Point Offset:
         offset in the Y coordinate, so vertically.
 
 Tile Offset:
-    No clue what this does???
+    The tile offset if the pattern is tiled.
 Pattern Size:
     Fine Tune the resizing of the pattern.
 

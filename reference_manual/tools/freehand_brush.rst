@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Krita's freehand brush tool reference, containing how to use the stablizer in krita.
+        Krita's freehand brush tool reference, containing how to use the stabilizer in krita.
 
 .. metadata-placeholder
 
@@ -38,7 +38,7 @@ The sticky-keys can be edited in :menuselection:`Settings --> Configure Krita --
 Tool Options
 ------------
 
-.. index:: Basic Smooth, No Smoothing, Weighted Smoothing, Stablizer
+.. index:: Basic Smooth, No Smoothing, Weighted Smoothing, Stabilizer
 .. _stroke_smoothing:
 
 Smoothing
