@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2019-02-19 03:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../../<generated>:1
@@ -75,7 +75,9 @@ msgid "Accessing a Gradient"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:21
-msgid "The Gradients configuration panel is accessed by clicking the Gradients icon (usually the icon next to the disk)."
+msgid ""
+"The Gradients configuration panel is accessed by clicking the Gradients icon "
+"(usually the icon next to the disk)."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:24
@@ -83,7 +85,10 @@ msgid ".. image:: images/en/Gradient_Toolbar_Panel.png"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:25
-msgid "Gradients are configurations of blending between colors.  Krita provides over a dozen preset dynamic gradients for you to choose from.  In addition, you can design and save your own."
+msgid ""
+"Gradients are configurations of blending between colors.  Krita provides "
+"over a dozen preset dynamic gradients for you to choose from.  In addition, "
+"you can design and save your own."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:27
@@ -103,7 +108,9 @@ msgid "As a source of color for the pixel brush."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:33
-msgid "There is no gradients docker. They can only be accessed through the gradient \"quick-menu\" in the toolbar."
+msgid ""
+"There is no gradients docker. They can only be accessed through the gradient "
+"\"quick-menu\" in the toolbar."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:36
@@ -115,19 +122,28 @@ msgid "Krita has two gradient types:"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:40
-msgid "Segmented Gradients, which are compatible with GIMP, have many different features but are also a bit complicated to make."
+msgid ""
+"Segmented Gradients, which are compatible with GIMP, have many different "
+"features but are also a bit complicated to make."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:41
-msgid "Stop Gradients, which are saved as SVG files and similar to how most applications do their gradients, but has less features than the segmented gradient."
+msgid ""
+"Stop Gradients, which are saved as SVG files and similar to how most "
+"applications do their gradients, but has less features than the segmented "
+"gradient."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:43
-msgid "Initially we could only make segmented gradients in Krita, but in 3.0.2 we can also make stop gradients."
+msgid ""
+"Initially we could only make segmented gradients in Krita, but in 3.0.2 we "
+"can also make stop gradients."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:48
-msgid "You can make a new gradient by going into the drop-down and selecting the gradient type you wish to have. By default Krita will make a stop-gradient."
+msgid ""
+"You can make a new gradient by going into the drop-down and selecting the "
+"gradient type you wish to have. By default Krita will make a stop-gradient."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:51
@@ -147,15 +163,21 @@ msgid "|mouseleft| on the stops to select them, and drag to move them."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:60
-msgid "|mouseright| on the stops to remove them. A stop gradient will not allow you to remove stops if there's only two left."
+msgid ""
+"|mouseright| on the stops to remove them. A stop gradient will not allow you "
+"to remove stops if there's only two left."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:65
-msgid "A selected stop can have it's color and transparency changed using the color button and the opacity slider below."
+msgid ""
+"A selected stop can have it's color and transparency changed using the color "
+"button and the opacity slider below."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:70
-msgid "As per SVG spec, you can make a sudden change between stops by moving them close together. The stops will overlap, but you can still drag them around."
+msgid ""
+"As per SVG spec, you can make a sudden change between stops by moving them "
+"close together. The stops will overlap, but you can still drag them around."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:73
@@ -167,7 +189,10 @@ msgid ".. image:: images/en/Krita_Editing_Custom_Gradient.png"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:77
-msgid "Segmented gradients are a bit more tricky. Instead of going from color to color, it allows you to define segments, which each can have a begin and end color."
+msgid ""
+"Segmented gradients are a bit more tricky. Instead of going from color to "
+"color, it allows you to define segments, which each can have a begin and end "
+"color."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:79
@@ -179,7 +204,10 @@ msgid "Split Segment"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:85
-msgid "This splits the current segment in two, using the white arrow, the segment middle as the place to split. It will also use the color at the white arrow to define the new colors in place in the new segments."
+msgid ""
+"This splits the current segment in two, using the white arrow, the segment "
+"middle as the place to split. It will also use the color at the white arrow "
+"to define the new colors in place in the new segments."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:86
@@ -187,7 +215,8 @@ msgid "Duplicate segment"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:87
-msgid "Similar to split, but instead the two new segments are copies of the old one."
+msgid ""
+"Similar to split, but instead the two new segments are copies of the old one."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:88
@@ -207,11 +236,16 @@ msgid "Removes the segment."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:93
-msgid "|mouseleft| + dragging the black arrows will resize the segments attaching to those arrows. |mouseleft| + dragging the white arrows will change the mid point of that segment, changing the way how the mixture is made."
+msgid ""
+"|mouseleft| + dragging the black arrows will resize the segments attaching "
+"to those arrows. |mouseleft| + dragging the white arrows will change the mid "
+"point of that segment, changing the way how the mixture is made."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:95
-msgid "At the bottom, you can set the color and transparency of either part of the segment."
+msgid ""
+"At the bottom, you can set the color and transparency of either part of the "
+"segment."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:97
@@ -227,15 +261,18 @@ msgid "Curved - This causes the mix to ease-in and out faster."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:104
-msgid "Sine - Uses a sine function. This causes the mix to ease in and out slower."
+msgid ""
+"Sine - Uses a sine function. This causes the mix to ease in and out slower."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:105
-msgid "Sphere, increasing - This puts emphasis on the later color during the mix."
+msgid ""
+"Sphere, increasing - This puts emphasis on the later color during the mix."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:106
-msgid "Sphere, decreasing - This puts emphasis on the first color during the mix."
+msgid ""
+"Sphere, decreasing - This puts emphasis on the first color during the mix."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:108
@@ -255,7 +292,9 @@ msgid "HSV clockwise"
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:116
-msgid "Blends the two colors using the HSV model, and follows the hue clockwise(red-yellow-green-cyan-blue-purple). The above screenshot is an example of this."
+msgid ""
+"Blends the two colors using the HSV model, and follows the hue clockwise(red-"
+"yellow-green-cyan-blue-purple). The above screenshot is an example of this."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:118

@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2019-02-19 03:36+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../../<generated>:1
@@ -35,11 +35,15 @@ msgid ".. image:: images/icons/gridbrush.svg"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:22
-msgid "The grid brush engine draws shapes on a grid. It helps you produce retro and halftone effects."
+msgid ""
+"The grid brush engine draws shapes on a grid. It helps you produce retro and "
+"halftone effects."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
-msgid "If you're looking to setup a grid for snapping, head to :ref:`grids_and_guides_docker`."
+msgid ""
+"If you're looking to setup a grid for snapping, head to :ref:"
+"`grids_and_guides_docker`."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
@@ -91,7 +95,8 @@ msgid "Division"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:45
-msgid "Subdivides the cursor area and uses the resulting area to draw the particles."
+msgid ""
+"Subdivides the cursor area and uses the resulting area to draw the particles."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:46
@@ -99,7 +104,9 @@ msgid "Division by pressure"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:47
-msgid "The more you press, the more subdivisions. Uses Division as the finest subdivision possible."
+msgid ""
+"The more you press, the more subdivisions. Uses Division as the finest "
+"subdivision possible."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
@@ -115,7 +122,9 @@ msgid "Vertical Border"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:51
-msgid "Forces vertical borders in the particle space, between which the particle needs to squeeze itself."
+msgid ""
+"Forces vertical borders in the particle space, between which the particle "
+"needs to squeeze itself."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
@@ -123,7 +132,9 @@ msgid "Horizontal Border"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:53
-msgid "Forces a horizontal borders in the particle space, between which the particle needs to squeeze itself."
+msgid ""
+"Forces a horizontal borders in the particle space, between which the "
+"particle needs to squeeze itself."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
@@ -163,7 +174,8 @@ msgid "Line"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:69
-msgid "Draws lines from the lower left to the upper right corner of the particle"
+msgid ""
+"Draws lines from the lower left to the upper right corner of the particle"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:70
@@ -191,7 +203,10 @@ msgid "Random HSV"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:81
-msgid "Randomize the HSV with the strength of the sliders. The higher, the more the color will deviate from the foreground color, with the direction indicating clock or counter clockwise."
+msgid ""
+"Randomize the HSV with the strength of the sliders. The higher, the more the "
+"color will deviate from the foreground color, with the direction indicating "
+"clock or counter clockwise."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:82
@@ -215,7 +230,9 @@ msgid "Sample Input Layer."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:87
-msgid "Will use the underlying layer as reference for the colors instead of the foreground color."
+msgid ""
+"Will use the underlying layer as reference for the colors instead of the "
+"foreground color."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:88
@@ -227,5 +244,7 @@ msgid "Fills the area before drawing the particles with the background color."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:91
-msgid "Gives the particle a random color between foreground/input/random HSV and the background color."
+msgid ""
+"Gives the particle a random color between foreground/input/random HSV and "
+"the background color."
 msgstr ""
