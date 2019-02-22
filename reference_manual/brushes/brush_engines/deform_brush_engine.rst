@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Brush Engine, Deform Brush Engine, Deform, Liquefy
+.. index:: Brush Engine, Deform Brush Engine, Deform, Liquify
 .. _deform_brush_engine:
 
 ===================
@@ -17,7 +17,7 @@ Deform Brush Engine
 
 .. image:: /images/icons/deformbrush.svg
 
-The Deform Brush is a brush that allows you to pull and push pixels around. It's quite similar to the [[Special:myLanguage/Transform Tool|liquefy transform mode]], but where liquefy has higher quality, the deform brush has the speed.
+The Deform Brush is a brush that allows you to pull and push pixels around. It's quite similar to the :ref:`liquify_mode`, but where liquify has higher quality, the deform brush has the speed.
 
 
 Options

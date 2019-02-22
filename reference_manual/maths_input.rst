@@ -16,7 +16,7 @@
 Maths Input
 =========== 
 
-Also known as Numerical Input boxes. You can make Krita do simple maths for you in the places where we have number input. Just select the number in a spinbox, or rightclick a slider to activate number input. It doesn't do unit conversion yet, but this is planned.
+Also known as Numerical Input boxes. You can make Krita do simple maths for you in the places where we have number input. Just select the number in a spinbox, or right-click a slider to activate number input. It doesn't do unit conversion yet, but this is planned.
 
 Possible Functions
 ------------------

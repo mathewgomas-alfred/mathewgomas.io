@@ -324,17 +324,17 @@ However, if you want more control, Krita offers a :ref:`transform_tool`.
 .. image:: /images/en/Krita_transforms_free.png 
    :align: center
 
-With this tool you can rotate and resize on the canvas, or put it in perspective. Or you can use advanced transform tools, like the warp, cage and liquefy, which allow you to transform by drawing custom points or even by pretending it's a transforming brush.
+With this tool you can rotate and resize on the canvas, or put it in perspective. Or you can use advanced transform tools, like the warp, cage and liquify, which allow you to transform by drawing custom points or even by pretending it's a transforming brush.
 
 :ref:`deform_brush_engine`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Like the filter brush engine, Krita also has a Deform Brush Engine, which allows you to transform with a brush. The deform is like a much faster version of the Liquefy transform tool mode, but in exchange, its results are of much lower quality.
+Like the filter brush engine, Krita also has a Deform Brush Engine, which allows you to transform with a brush. The deform is like a much faster version of the Liquify transform tool mode, but in exchange, its results are of much lower quality.
 
 .. figure:: /images/en/Krita_transforms_deformvsliquefy.png
    :align: center
 
-   Apple transformed into a pear with liquefy on the left and deform brush on the right.
+   Apple transformed into a pear with liquify on the left and deform brush on the right.
 
 Furthermore, you can't apply the deform brush as a non-destructive mask.
 

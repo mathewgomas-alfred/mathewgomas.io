@@ -100,8 +100,8 @@ Gradient
 Patterns
     Patterns aren't implemented yet.
 
-Rightclick menu
----------------
+Right-click menu
+----------------
 
 The shape selection tool has a nice right click menu that gives you several features. If you have an object selected, you can perform various functions like cutting, copying, or moving the object to the front or back.
 

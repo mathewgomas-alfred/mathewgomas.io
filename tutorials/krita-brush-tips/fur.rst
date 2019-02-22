@@ -27,7 +27,7 @@ So typically, you see the same logic applied on fur as on regular :ref:`hair`.
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_02.png
     :alt: brush setting dialog for fur brush
 
-Take the ink_brush_25 and choose under Brush-tip->predefined “A-2 dirty brush”. Set the spacing to ‘auto’ and rightclick the spacing bar to type in a value between 0.25 and 0.8. Also turn on the ‘enable pen-settings’ on flow. Replicate the pressure curve above on the size option. We don’t want the hairs to collapse to a point, hence why the curve starts so high.
+Take the ink_brush_25 and choose under Brush-tip->predefined “A-2 dirty brush”. Set the spacing to ‘auto’ and right-click the spacing bar to type in a value between 0.25 and 0.8. Also turn on the ‘enable pen-settings’ on flow. Replicate the pressure curve above on the size option. We don’t want the hairs to collapse to a point, hence why the curve starts so high.
 
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_03.png
     :alt: brush setting dialog for fur

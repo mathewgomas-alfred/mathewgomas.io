@@ -141,7 +141,7 @@ Put a layer filled with a color you like between the inking and sketch layer. Th
 Make the sketch coloured, alternative version
 """""""""""""""""""""""""""""""""""""""""""""
 
-Or, rightclick the layer, go to layer properties, and untick ‘blue’. This works easier with a single layer sketch, while the above works best with multi-layer sketches.
+Or, right-click the layer, go to layer properties, and untick ‘blue’. This works easier with a single layer sketch, while the above works best with multi-layer sketches.
 
 Super-thin lines
 ----------------

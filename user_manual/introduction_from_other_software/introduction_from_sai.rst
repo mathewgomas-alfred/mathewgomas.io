@@ -179,7 +179,7 @@ This allows you to prepare your work for print, or to do tricks with the LUT doc
 Advanced Transform Tools
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Not just rotate and scale, but also cage, wrap, liquefy and non-destructive transforms with the transform tool and masks.
+Not just rotate and scale, but also cage, wrap, liquify and non-destructive transforms with the transform tool and masks.
 
 .. image:: /images/en/Krita_transforms_recursive.png
    :align: center

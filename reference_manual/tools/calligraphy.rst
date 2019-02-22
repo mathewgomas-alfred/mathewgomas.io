@@ -32,7 +32,7 @@ Doesn't actually do anything.
 The dropdown menu holds your saved presets, the save button next to it allows you to save presets.
 
 Follow Selected Path
-    If a stroke has been selected with the [[Special:myLanguage/Krita/Manual/Tools/Default | default tool]], the calligraphy tool will follow this path.
+    If a stroke has been selected with the default tool, the calligraphy tool will follow this path.
 Use Tablet Pressure
     Uses tablet pressure to control the stroke width.
 Thinning
@@ -48,7 +48,7 @@ Fixation
 Caps
     Whether or not an stroke will end with a rounding or flat.
 Mass
-    How much weight the stroke has. With drag set to 0, high mass increase the 'orbit'.
+    How much weight the stroke has. With drag set to 0, high mass increases the 'orbit'.
 Drag
     How much the stroke follows the cursor, when set to 0 the stroke will orbit around the cursor path.
 

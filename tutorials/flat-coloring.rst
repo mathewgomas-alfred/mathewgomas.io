@@ -177,7 +177,7 @@ Actual transparency. Works with coloured line art as well, because it removes th
 Disadvantages
 """""""""""""
 
-You'll have to lock the layer transparency or seperate out the alpha via the rightclick menu if you want to easily color it.
+You'll have to lock the layer transparency or seperate out the alpha via the right-click menu if you want to easily color it.
 
 
 Colouring the image

@@ -261,7 +261,7 @@ Easily to be found on |mouseright|, the pop-up palette allows you to quickly acc
 Transformations
 ~~~~~~~~~~~~~~~
 
-The Krita transformation tool can perform transformations on a group and affect child layers. There are several modes, like free, perspective, warp, the powerful cage and even liquefy.
+The Krita transformation tool can perform transformations on a group and affect child layers. There are several modes, like free, perspective, warp, the powerful cage and even liquify.
 Furthermore, you can use transformation masks to apply transforms non-destructively to any layer type, raster, vector group, you name it.
 
 .. figure:: /images/en/Krita-transform-mask.png

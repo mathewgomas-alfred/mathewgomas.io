@@ -23,7 +23,7 @@ The Transform tool lets you quickly transform the current selection or layer. Ba
 
 When you first invoke the tool,  handles will appear at the corners and sides, which you can use to resize your selection or layer. You can perform rotations by moving the mouse above or to the left of the handles and dragging it. You can also click anywhere inside the selection or layer and move it by dragging the mouse.
 
-You can fine-tune the transform tool parameters using tool options docker. The parameters are split between five tabs: Free Transform, Warp, Perspective, Cage and Liquefy.
+You can fine-tune the transform tool parameters using tool options docker. The parameters are split between five tabs: Free Transform, Warp, Perspective, Cage and Liquify.
 
 .. figure:: /images/en/Transform_Tool_Options.png
 
@@ -94,12 +94,14 @@ Both Cage and Warp use little nodes. These nodes can be selected and deselected 
 
 Then you can move them by pressing the cursor inside the bounding box. Rotating is done by pressing and dragging the cursor outside the bounding box and scaling the same, only one presses :kbd:`Ctrl` before doing the motion.
 
+.. _liquify_mode:
+
 Liquify
 -------
 
 .. image:: /images/en/Transform_Tool_Options_Liquify.png
 
-Like our deform brush, the liquefy brush allows you to draw the deformations straight on the canvas.
+Like our deform brush, the liquify brush allows you to draw the deformations straight on the canvas.
 
 Move
     Drag the image along the brush stroke.
@@ -114,7 +116,7 @@ Undo
 
 .. figure:: /images/en/Krita_transforms_liquefy.png 
 
-   Liquefy used to turn an apple into a pear
+   Liquify used to turn an apple into a pear
 
 In the options for each brush there's:
 
@@ -127,15 +129,15 @@ Amount
 Flow
     Only applicable with build-up.
 Spacing
-    The spacing of the liquefy dabs.
+    The spacing of the liquify dabs.
 Reverse
     Reverses the action, so grow becomes shrink, rotate results in clockwise becoming counter-clockwise.
 
 .. figure:: /images/en/Krita_transforms_deformvsliquefy.png 
 
-   liquefy on the left and deform brush on the right.
+   liquify on the left and deform brush on the right.
 
-Krita also has a :ref:`deform_brush_engine` which is much faster than liquefy, but has less quality. If you are attempting to make liquefy a little faster, note that it speeds up with the less information it needs to process, so working with liquefy within a selection or using liquefy on a separate layer with little on it will greatly enhance the speed.
+Krita also has a :ref:`deform_brush_engine` which is much faster than liquify, but has less quality. If you are attempting to make liquefy a little faster, note that it speeds up with the less information it needs to process, so working with liquefy within a selection or using liquefy on a separate layer with little on it will greatly enhance the speed.
 
 Recursive Transform
 -------------------
@@ -157,5 +159,3 @@ Transformation Masks
 
 These allow you make non-destructive transforms, check :ref:`here <transformation_masks>` for more info.
 
-
-[[Category:Toolbox]]

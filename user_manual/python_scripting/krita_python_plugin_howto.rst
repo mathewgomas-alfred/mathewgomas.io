@@ -307,7 +307,7 @@ PyQT Signals and Slots
 We've already been using pyqt signals and slots already, but there's times where you want to create your own signals and slots.
 `As pyQt's documentation is pretty difficult to understand <http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ qt, we're explaining it here:
 
-All python functions you make in pyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sents a boolean. How do we get our function to accept that boolean?
+All python functions you make in pyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sends a boolean. How do we get our function to accept that boolean?
 
 First, make sure you have the right import for making custom slots:
 

@@ -16,9 +16,9 @@ Help Menu
 =========
 
 Krita Handbook
-    Opens a browser and sents you to the index of this manual.
+    Opens a browser and sends you to the index of this manual.
 Report Bug
-    Sents you to the bugtracker.
+    Sends you to the bugtracker.
 Show system information for bugreports.
     This is a selection of all the difficult to figure out technical information of your computer. This includes things like, which version of Krita you have, which version your operating system is, and most prudently, what kind of OpenGL functionality your computer is able to provide. The latter varies a lot between computers and due that it is one of the most difficult things to debug. Providing such information can help us figure out what is causing a bug.
 About Krita
