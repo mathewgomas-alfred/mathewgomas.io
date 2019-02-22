@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines___bristle_engine\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___brushes___brush_engines___bristle_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-20 13:53+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 18.12.1\n"
 
 #: ../../<generated>:1
@@ -46,8 +47,8 @@ msgstr ".. image:: images/icons/bristlebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:22
 msgid ""
-"A brush intended to mimic real-life brushes by drawing the trails of their"
-" lines or bristles."
+"A brush intended to mimic real-life brushes by drawing the trails of their "
+"lines or bristles."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:25
@@ -64,14 +65,14 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:30
 msgid ""
-"Lower opacity areas have lower-opacity bristles. With this brush, this may"
-" give the illusion that lower-opacity areas have fewer bristles."
+"Lower opacity areas have lower-opacity bristles. With this brush, this may "
+"give the illusion that lower-opacity areas have fewer bristles."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:31
 msgid ""
-"The :ref:`option_size` and :ref:`option_rotation` dynamics affect the brush"
-" tip, not the bristles."
+"The :ref:`option_size` and :ref:`option_rotation` dynamics affect the brush "
+"tip, not the bristles."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:33
@@ -80,15 +81,16 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:35
 msgid ""
-"Use different shapes for different effects.Be aware that complex brush shapes"
-" will draw more slowly though, while the effects aren't always visible (since"
-" in the end, you're passing over an area with a certain number of bristles)."
+"Use different shapes for different effects.Be aware that complex brush "
+"shapes will draw more slowly though, while the effects aren't always visible "
+"(since in the end, you're passing over an area with a certain number of "
+"bristles)."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:36
 msgid ""
-"To decrease bristle density, you can also just use an autobrush and decrease"
-" the brush tip's density, or increase its randomness."
+"To decrease bristle density, you can also just use an autobrush and decrease "
+"the brush tip's density, or increase its randomness."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:39
@@ -105,13 +107,13 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:46
 msgid ""
-"Think of it as pressing down on a brush to make the bristles further apart. *"
-" Larger values basically give you larger brushes and larger bristle spacing."
-" For example, a value of 4 will multiply your base brush size by 4, but the"
-" bristles will be 4 times more spaced apart. * Use smaller values if you want"
-" a \"dense\" brush, i.e. you don't want to see so many bristles within the"
-" center. * Negative values have the same effect as corresponding positive"
-" values: -1.00 will look like 1.00, etc."
+"Think of it as pressing down on a brush to make the bristles further apart. "
+"* Larger values basically give you larger brushes and larger bristle "
+"spacing. For example, a value of 4 will multiply your base brush size by 4, "
+"but the bristles will be 4 times more spaced apart. * Use smaller values if "
+"you want a \"dense\" brush, i.e. you don't want to see so many bristles "
+"within the center. * Negative values have the same effect as corresponding "
+"positive values: -1.00 will look like 1.00, etc."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:49
@@ -120,11 +122,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:52
 msgid ""
-"Adds a jaggy look to the trailing lines. * At 0.00, all the bristles"
-" basically remain completely parallel. * At other values, the bristles are"
-" offset randomly. Large values will increase the brush size a bit because of"
-" the bristles spreading around, but not by much. * Negative values have the"
-" same effect as corresponding positive values."
+"Adds a jaggy look to the trailing lines. * At 0.00, all the bristles "
+"basically remain completely parallel. * At other values, the bristles are "
+"offset randomly. Large values will increase the brush size a bit because of "
+"the bristles spreading around, but not by much. * Negative values have the "
+"same effect as corresponding positive values."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:54
@@ -137,8 +139,8 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:57
 msgid ""
-"Shear introduces an angle to your brush, as though you're drawing with an"
-" oval brush (or the side of a round brush)."
+"Shear introduces an angle to your brush, as though you're drawing with an "
+"oval brush (or the side of a round brush)."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:59
@@ -147,9 +149,9 @@ msgstr "Щільність"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:59
 msgid ""
-"This controls the density of bristles. Scale takes a number of bristles and"
-" expands or compresses them into a denser area, whereas density takes a fixed"
-" area and determines the number of bristles in it. See the difference?"
+"This controls the density of bristles. Scale takes a number of bristles and "
+"expands or compresses them into a denser area, whereas density takes a fixed "
+"area and determines the number of bristles in it. See the difference?"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:62
@@ -158,11 +160,11 @@ msgstr ".. image:: images/en/Krita-tutorial7-B.I.2-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:64
 msgid ""
-"This one maps \"Scale\" to mouse speed, thus simulating pressure with a"
-" graphics tablet! * Rather, it uses the \"distance between two events\" to"
-" determine scale. Faster drawing, larger distances. * This doesn't influence"
-" the \"pressure\" input for anything else (size, opacity, rotation etc.) so"
-" you still have to map those independently to something else."
+"This one maps \"Scale\" to mouse speed, thus simulating pressure with a "
+"graphics tablet! * Rather, it uses the \"distance between two events\" to "
+"determine scale. Faster drawing, larger distances. * This doesn't influence "
+"the \"pressure\" input for anything else (size, opacity, rotation etc.) so "
+"you still have to map those independently to something else."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:65
@@ -175,8 +177,8 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
 msgid ""
-"This is a tablet feature. When you turn this on, only bristles that are able"
-" to \"touch the canvas\" will be painted."
+"This is a tablet feature. When you turn this on, only bristles that are able "
+"to \"touch the canvas\" will be painted."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:69
@@ -201,8 +203,8 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:74
 msgid ""
-"This \"composes the bristle colors within one dab,\" but explains that the"
-" effect is \"probably subtle.\""
+"This \"composes the bristle colors within one dab,\" but explains that the "
+"effect is \"probably subtle.\""
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:77
@@ -215,8 +217,8 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:81
 msgid ""
-"This simulated ink depletion over drawing time. The value dictates how long"
-" it will take. The curve dictates the speed."
+"This simulated ink depletion over drawing time. The value dictates how long "
+"it will take. The curve dictates the speed."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:83
@@ -237,18 +239,18 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:91
 msgid ""
-"The brush will pick up colors from other brushes. You don't need to have Ink"
-" depletion checked to activate this option, you just have to check Soak Ink."
-" What this does is cause the bristles of the brush to take on the colors of"
-" the first area they touch. Since the Bristle brush is made up of independent"
-" bristles, you can basically take on several colors at the same time."
+"The brush will pick up colors from other brushes. You don't need to have Ink "
+"depletion checked to activate this option, you just have to check Soak Ink. "
+"What this does is cause the bristles of the brush to take on the colors of "
+"the first area they touch. Since the Bristle brush is made up of independent "
+"bristles, you can basically take on several colors at the same time."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:95
 msgid ""
-"It will only take colors in the unscaled area of the brush, so if you're"
-" using a brush with 4.00 scale for example, it will only take the colors in"
-" the 1/4 area closest to the center."
+"It will only take colors in the unscaled area of the brush, so if you're "
+"using a brush with 4.00 scale for example, it will only take the colors in "
+"the 1/4 area closest to the center."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:96
@@ -261,16 +263,16 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:101
 msgid ""
-"Be aware that this feature is a bit buggy though. It's Supposed to take the"
-" color from the current layer, but some buggy behavior causes it to often use"
-" the last layer you've painted on (with a non-Bristle brush?) as source. To"
-" avoid these weird behaviors, stick to just one layer, or paint something on"
-" the current active layer first with another brush (such as a Pixel brush)."
+"Be aware that this feature is a bit buggy though. It's Supposed to take the "
+"color from the current layer, but some buggy behavior causes it to often use "
+"the last layer you've painted on (with a non-Bristle brush?) as source. To "
+"avoid these weird behaviors, stick to just one layer, or paint something on "
+"the current active layer first with another brush (such as a Pixel brush)."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:104
 msgid ""
-"Works by modifying the saturation with the following: * Pressure weight *"
-" Bristle length weight * Bristle ink amount weight * Ink depletion curve"
-" weight"
+"Works by modifying the saturation with the following: * Pressure weight * "
+"Bristle length weight * Bristle ink amount weight * Ink depletion curve "
+"weight"
 msgstr ""

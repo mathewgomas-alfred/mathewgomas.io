@@ -12,18 +12,18 @@ msgstr ""
 "PO-Revision-Date: 2019-02-20 13:48+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 18.12.1\n"
 
 #: ../../reference_manual/blending_modes/misc.rst:1
 msgid ""
-"Page about the miscellaneous blending modes in Krita: Bumpmap, Combine Normal"
-" Map, Copy Red, Copy Green, Copy Blue, Copy and Dissolve."
+"Page about the miscellaneous blending modes in Krita: Bumpmap, Combine "
+"Normal Map, Copy Red, Copy Green, Copy Blue, Copy and Dissolve."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:15
@@ -44,8 +44,9 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:32
 msgid ""
-"Mathematically robust blending mode for normal maps, using `Reoriented Normal"
-" Map Blending <http://blog.selfshadow.com/publications/blending-in-detail/>`_."
+"Mathematically robust blending mode for normal maps, using `Reoriented "
+"Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-"
+"detail/>`_."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:38
@@ -54,17 +55,17 @@ msgstr "Копіювати"
 
 #: ../../reference_manual/blending_modes/misc.rst:40
 msgid ""
-"Copies the previous layer exactly. Useful for when using filters and"
-" filter-masks."
+"Copies the previous layer exactly. Useful for when using filters and filter-"
+"masks."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots.pn"
-"g"
+".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
+"png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots.pn"
-"g"
+".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
+"png"
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid "Left: **Normal**. Right: **Copy**."
@@ -76,15 +77,15 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:56
 msgid ""
-"This is a blending mode that will just copy/blend a source channel to a"
-" destination channel. Specifically, it will take the specific channel from"
-" the upper layer and copy that over to the lower layers."
+"This is a blending mode that will just copy/blend a source channel to a "
+"destination channel. Specifically, it will take the specific channel from "
+"the upper layer and copy that over to the lower layers."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:59
 msgid ""
-"So, if you want the brush to only affect the red channel, set the blending"
-" mode to 'copy red'."
+"So, if you want the brush to only affect the red channel, set the blending "
+"mode to 'copy red'."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:65
@@ -99,18 +100,18 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:67
 msgid ""
-"This can also be done with filter layers. So if you quickly want to flip a"
-" layer's green channel, make an invert filter layer with 'copy green' above"
-" it."
+"This can also be done with filter layers. So if you quickly want to flip a "
+"layer's green channel, make an invert filter layer with 'copy green' above "
+"it."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Red_Sample_image_with_dot"
-"s.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Red_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Red_Sample_image_with_dot"
-"s.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Red_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid "Left: **Normal**. Right: **Copy Red**."
@@ -118,11 +119,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Green_Sample_image_with_d"
-"ots.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Green_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Green_Sample_image_with_d"
-"ots.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Green_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid "Left: **Normal**. Right: **Copy Green**."
@@ -130,11 +131,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Blue_Sample_image_with_do"
-"ts.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Blue_Sample_image_with_do"
-"ts.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid "Left: **Normal**. Right: **Copy Blue**."
@@ -146,17 +147,17 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:92
 msgid ""
-"Instead of using transparency, this blending mode will use a random dithering"
-" pattern to make the transparent areas look sort of transparent."
+"Instead of using transparency, this blending mode will use a random "
+"dithering pattern to make the transparent areas look sort of transparent."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Dissolve_Sample_image_with_dot"
-"s.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Dissolve_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Dissolve_Sample_image_with_dot"
-"s.png"
+".. image:: images/blending_modes/"
+"Blending_modes_Dissolve_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid "Left: **Normal**. Right: **Dissolve**."
