@@ -1,0 +1,244 @@
+# Translation of docs_krita_org_reference_manual___filters___edge_detection.po to Ukrainian
+# Copyright (C) 2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: docs_krita_org_reference_manual___filters___edge_detection\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"PO-Revision-Date: 2019-02-21 08:24+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 19.03.70\n"
+
+#: ../../<generated>:1
+msgid "XYZ"
+msgstr "XYZ"
+
+#: ../../reference_manual/filters/edge_detection.rst:None
+msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+
+#: ../../reference_manual/filters/edge_detection.rst:1
+msgid "Overview of the edgedetection filters."
+msgstr "Огляд фільтрів виявлення країв."
+
+#: ../../reference_manual/filters/edge_detection.rst:16
+#: ../../reference_manual/filters/edge_detection.rst:23
+msgid "Edge Detection"
+msgstr "Виявлення країв"
+
+#: ../../reference_manual/filters/edge_detection.rst:18
+msgid ""
+"Edge detection filters focus on finding sharp contrast or border between"
+" colors in an image to create edges or lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:20
+msgid "Since 4.0 there's only two edge detection filters."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:27
+msgid ""
+"A general edge detection filter that encapsulates all other filters. Edge"
+" detection filters that were separate before 4.0 have been folded into this"
+" one. It is also available for filter layers and filter brushes."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:33
+msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
+msgstr ".. image:: images/en/Krita_4_0_edge_detection.png"
+
+#: ../../reference_manual/filters/edge_detection.rst:33
+msgid ""
+"From left to right: Original, with prewitt edge detection applied, with"
+" prewitt edge detection applied and result applied to alpha channel, and"
+" finally the original with an edge detection filter layer with the same"
+" settings as 3, and the filter layer blending mode set to multiply"
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:36
+msgid ""
+"The convolution kernel formula for the edge detection. The difference between"
+" these is subtle, but still worth experimenting with."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:38
+#: ../../reference_manual/filters/edge_detection.rst:81
+msgid "Simple"
+msgstr "Просте"
+
+#: ../../reference_manual/filters/edge_detection.rst:39
+#: ../../reference_manual/filters/edge_detection.rst:82
+msgid ""
+"A Kernel that is not square unlike the other two, and while this makes it"
+" fast, it doesn't take diagonal pixels into account."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:40
+#: ../../reference_manual/filters/edge_detection.rst:83
+msgid "Prewitt"
+msgstr "Прюїтт"
+
+#: ../../reference_manual/filters/edge_detection.rst:41
+#: ../../reference_manual/filters/edge_detection.rst:84
+msgid ""
+"A square kernel that includes the diagonal pixels just as strongly as the"
+" orthogonal pixels. Gives a very strong effect."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:43
+#: ../../reference_manual/filters/edge_detection.rst:86
+msgid "Formula"
+msgstr "Формула"
+
+#: ../../reference_manual/filters/edge_detection.rst:43
+#: ../../reference_manual/filters/edge_detection.rst:86
+msgid "Sobol"
+msgstr "Соболь"
+
+#: ../../reference_manual/filters/edge_detection.rst:43
+#: ../../reference_manual/filters/edge_detection.rst:86
+msgid ""
+"A square kernel that includes the diagonal pixels slightly less strong than"
+" the orthogonal pixels. Gives a more subtle effect than Prewitt."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:46
+msgid "The output."
+msgstr "Результати використання."
+
+#: ../../reference_manual/filters/edge_detection.rst:48
+msgid "All sides"
+msgstr "З усіх боків"
+
+#: ../../reference_manual/filters/edge_detection.rst:49
+msgid ""
+"Convolves the edge detection into all directions and combines the result with"
+" the Pythagorean theorem. This will be good for most uses."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:50
+msgid "Top Edge"
+msgstr "Верхній край"
+
+#: ../../reference_manual/filters/edge_detection.rst:51
+msgid ""
+"This only detects changes going from top to bottom and thus only has top"
+" lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:52
+msgid "Bottom Edge"
+msgstr "Нижній край"
+
+#: ../../reference_manual/filters/edge_detection.rst:53
+msgid ""
+"This only detects changes going from bottom to top and thus only has bottom"
+" lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:54
+msgid "Right Edge"
+msgstr "Правий край"
+
+#: ../../reference_manual/filters/edge_detection.rst:55
+msgid ""
+"This only detects changes going from right to left and thus only has right"
+" lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:56
+msgid "Left Edge"
+msgstr "Лівий край"
+
+#: ../../reference_manual/filters/edge_detection.rst:57
+msgid ""
+"This only detects changes going from left to right and thus only has left"
+" lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:59
+msgid "Output"
+msgstr "Вивід"
+
+#: ../../reference_manual/filters/edge_detection.rst:59
+msgid "Direction in Radians"
+msgstr "Напрямок у радіанах"
+
+#: ../../reference_manual/filters/edge_detection.rst:59
+msgid ""
+"This convolves into all directions and then tries to output the direction of"
+" the line in radians."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:61
+#: ../../reference_manual/filters/edge_detection.rst:90
+msgid "Horizontal/Vertical radius"
+msgstr "Горизонтальний/Вертикальний радіус"
+
+#: ../../reference_manual/filters/edge_detection.rst:62
+msgid ""
+"The radius of the edge detection. Default is 1 and going higher will increase"
+" the thickness of the lines."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:64
+msgid "Apply result to Alpha Channel."
+msgstr "Застосувати результат до альфа-каналу."
+
+#: ../../reference_manual/filters/edge_detection.rst:64
+msgid ""
+"The edge detection will be used on a grayscale copy of the image, and the"
+" output will be onto the alpha channel of the image, meaning it will output"
+" lines only."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:69
+msgid "Height to Normal Map"
+msgstr "Висоту у нормальну карту"
+
+#: ../../reference_manual/filters/edge_detection.rst:76
+msgid ""
+"A filter that converts Height maps to Normal maps through the power of edge"
+" detection. It is also available for the filter layer or filter brush."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:79
+msgid ""
+"The convolution kernel formula for the edgedetection. The difference between"
+" these is subtle, but still worth experimenting with."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:88
+msgid "Channel"
+msgstr "Канал"
+
+#: ../../reference_manual/filters/edge_detection.rst:89
+msgid ""
+"Which channel of the layer should be interpreted as the grayscale heightmap."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:91
+msgid ""
+"The radius of the edge detection. Default is 1 and going higher will increase"
+" the strength of the normal map. Adjust this if the effect of the resulting"
+" normal map is too weak."
+msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:93
+msgid ""
+"An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d"
+" normal vector coordinates. This is necessary mostly for the difference"
+" between Mikkt-space normal maps(+X, +Y, +Z) and the OpenGL standard normal"
+" map(+X, -Y, +Z)."
+msgstr ""
