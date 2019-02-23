@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_tutorials___krita-brush-tips___sculpt-paint-brush\n"
+"Project-Id-Version: docs_krita_org_tutorials___krita-brush-tips___sculpt-"
+"paint-brush\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-20 03:25+0100\n"
 "PO-Revision-Date: 2019-02-21 00:28+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<rst_epilog>:4
@@ -85,46 +86,47 @@ msgstr "Питання"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:18
 msgid ""
-"**How do I make a brush like the one in Sinix's paint-like-a-sculptor video?**"
+"**How do I make a brush like the one in Sinix's paint-like-a-sculptor video?"
+"**"
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:20
 msgid ""
-"It's actually quite easy, but most easy to do since Krita 3.0 due a few"
-" bugfixes."
+"It's actually quite easy, but most easy to do since Krita 3.0 due a few "
+"bugfixes."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:22
 msgid ""
-"First, select *Basic_Wet* from the default presets, and go into the brush"
-" editor with :kbd:`f5`."
+"First, select *Basic_Wet* from the default presets, and go into the brush "
+"editor with :kbd:`f5`."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:27
 msgid ""
-"Then, the trick is to go into **Opacity**, untoggle **Pressure** from the"
-" sensors, toggle **Fade** and then reverse the curve as shown above. Make"
-" sure that the curve ends a little above the bottom-right, so that you are"
-" always painting something. Otherwise, the smudge won't work."
+"Then, the trick is to go into **Opacity**, untoggle **Pressure** from the "
+"sensors, toggle **Fade** and then reverse the curve as shown above. Make "
+"sure that the curve ends a little above the bottom-right, so that you are "
+"always painting something. Otherwise, the smudge won't work."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:29
 msgid ""
-"This'll make the color rate decrease and turn it into a smudge brush as the"
-" stroke continues:"
+"This'll make the color rate decrease and turn it into a smudge brush as the "
+"stroke continues:"
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:34
 msgid ""
-"The **Fade** sensor will base the stroke length on brush size. The"
-" **Distance** sensor will base it on actual pixels, and the **Time** on"
-" actual seconds."
+"The **Fade** sensor will base the stroke length on brush size. The "
+"**Distance** sensor will base it on actual pixels, and the **Time** on "
+"actual seconds."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:36
 msgid ""
-"Then, select :menuselection:`Brushtip --> Predefined` and select the default"
-" *A_Angular_Church_HR* brushtip."
+"Then, select :menuselection:`Brushtip --> Predefined` and select the default "
+"*A_Angular_Church_HR* brushtip."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:41
@@ -133,21 +135,22 @@ msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:43
 msgid ""
-"Of course, this'll make the stroke distance longer to get to smudging, so we"
-" go back to the *Opacity*."
+"Of course, this'll make the stroke distance longer to get to smudging, so we "
+"go back to the *Opacity*."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:48
 msgid ""
-"Just adjust the fade-length by |mouseright| on the slider bar. You can then"
-" input a number. In the screenshot, I have 500, but the sweet spot seems to"
-" be somewhere between 150 and 200."
+"Just adjust the fade-length by |mouseright| on the slider bar. You can then "
+"input a number. In the screenshot, I have 500, but the sweet spot seems to "
+"be somewhere between 150 and 200."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:50
 msgid ""
-"Now, you'll notice that on the start of a stroke, it might be a little faded,"
-" so go into **Color Rate** and turn off the **Enable Pen Settings** there."
+"Now, you'll notice that on the start of a stroke, it might be a little "
+"faded, so go into **Color Rate** and turn off the **Enable Pen Settings** "
+"there."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:55
@@ -156,18 +159,18 @@ msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:60
 msgid ""
-"Tick the **Rotation** parameter, and select it. There, untick **Pressure**"
-" and tick **Drawing Angle**."
+"Tick the **Rotation** parameter, and select it. There, untick **Pressure** "
+"and tick **Drawing Angle**."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:62
 msgid ""
-"Then, for better angling, tick **Lock** and set the **Angle Offset** to 90"
-" degrees by |mouseright| the slider bar and typing in 90."
+"Then, for better angling, tick **Lock** and set the **Angle Offset** to 90 "
+"degrees by |mouseright| the slider bar and typing in 90."
 msgstr ""
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:64
 msgid ""
-"Now, give your brush a new name, doodle on the brush-square, **Save to"
-" presets** and paint!"
+"Now, give your brush a new name, doodle on the brush-square, **Save to "
+"presets** and paint!"
 msgstr ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-22 11:54+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,20 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en icons Krita image multibrush toolmultibrush kbd\n"
+"X-POFile-SpellExtra: freehandbrushtool multibrushtool mirrortools images\n"
+"X-POFile-SpellExtra: alt ref\n"
 
 #: ../../<rst_epilog>:40
 msgid ""
 ".. image:: images/icons/multibrush_tool.svg\n"
 "   :alt: toolmultibrush"
 msgstr ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: ferramenta multi-pincéis"
 
 #: ../../reference_manual/tools/multibrush.rst:None
 msgid ".. image:: images/en/Krita-multibrush.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-multibrush.png"
 
 #: ../../reference_manual/tools/multibrush.rst:1
 msgid "Krita's multibrush tool reference."
-msgstr ""
+msgstr "A referência da ferramenta multi-pincéis do Krita."
 
 #: ../../reference_manual/tools/multibrush.rst:16
 msgid "Multibrush Tool"
@@ -37,7 +42,7 @@ msgstr "Ferramenta Multi-Pincel"
 
 #: ../../reference_manual/tools/multibrush.rst:18
 msgid "|toolmultibrush|"
-msgstr ""
+msgstr "|toolmultibrush|"
 
 #: ../../reference_manual/tools/multibrush.rst:20
 msgid ""
@@ -46,11 +51,11 @@ msgid ""
 "with the default shortcut :kbd:`q`. Using the Multibrush is similar to "
 "toggling the :ref:`mirror_tools`, but the Multibrush is more sophisticated, "
 "for example it can mirror freehand brush strokes along a rotated axis."
-msgstr ""
+msgstr "A ferramenta Multi-Pincéis permite-lhe desenhar várias instâncias de um traço à mão-livre de cada vez, podendo ser acedida através da área de Ferramentas ou com o atalho predefinido :kbd:`q`. O uso dos Multi-Pincéis é semelhante a comutar as  :ref:`mirror_tools`, mas os Multi-Pincéis são mais sofisticados - por exemplo, consegue fazer um espelho dos traços do pincel ao longo de um eixo rodado."
 
 #: ../../reference_manual/tools/multibrush.rst:22
 msgid "The settings for the tool will be found in the tool options dock."
-msgstr ""
+msgstr "A configuração da ferramenta será encontrada na área de opções da ferramenta."
 
 #: ../../reference_manual/tools/multibrush.rst:24
 msgid ""
@@ -58,11 +63,11 @@ msgid ""
 "in the tool options dock. Symmetry and mirror reflect over an axis which can "
 "be set in the tool options dock. The default axis is the center of the "
 "canvas."
-msgstr ""
+msgstr "A ferramenta multi-pincéis tem três modos e a configuração de cada uma está disponível na área de opções da ferramenta. A simetria e o espelho reflectem-se ao longo de um eixo definido na área de opções da ferramenta. O eixo predefinido é o centro da área de desenho."
 
 #: ../../reference_manual/tools/multibrush.rst:29
 msgid "The three modes are:"
-msgstr ""
+msgstr "Os três modos são:"
 
 #: ../../reference_manual/tools/multibrush.rst:31
 msgid "Symmetry"
@@ -72,7 +77,7 @@ msgstr "Simetria"
 msgid ""
 "Symmetry will reflect your brush around the axis at even intervals. The "
 "slider determines the number of instances which will be drawn on the canvas."
-msgstr ""
+msgstr "A simetria irá reflectir o seu pincel em torno do eixo em intervalos pares. A barra define o número de instâncias que serão desenhadas na área de desenho."
 
 #: ../../reference_manual/tools/multibrush.rst:33
 msgid "Mirror"
@@ -80,7 +85,7 @@ msgstr "Espelho"
 
 #: ../../reference_manual/tools/multibrush.rst:34
 msgid "Mirror will reflect the brush across the X axis, the Y axis, or both."
-msgstr ""
+msgstr "O espelho irá reflectir o pincel em torno do eixo dos X, dos Y ou em ambos."
 
 #: ../../reference_manual/tools/multibrush.rst:35
 msgid "Translate"
@@ -90,7 +95,7 @@ msgstr "Translação"
 msgid ""
 "Translate will paint the set number of instances around the cursor at the "
 "radius distance."
-msgstr ""
+msgstr "A translação irá desenhar o número de instâncias configurado em torno do cursor, com a distância definida pelo raio."
 
 #: ../../reference_manual/tools/multibrush.rst:38
 msgid "Snowflake"
@@ -100,10 +105,10 @@ msgstr "Floco de Neve"
 msgid ""
 "This works as a mirrored symmetry, but is a bit slower than symmetry+toolbar "
 "mirror mode."
-msgstr ""
+msgstr "Isto funciona como uma simetria ao espelho, mas é um bocado mais lenta que o modo de simetria+espelho na barra."
 
 #: ../../reference_manual/tools/multibrush.rst:40
 msgid ""
 "The assistant and smoothing options work the same as in the :ref:"
 "`freehand_brush_tool`, though only on the real brush and not it's copies."
-msgstr ""
+msgstr "As opções do assistente e de suavização funcionam da mesma forma que o :ref:`freehand_brush_tool`, ainda que só actuem no pincel real e não nas suas cópias."

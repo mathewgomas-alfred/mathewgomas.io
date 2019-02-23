@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-22 17:00+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,18 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en Krita ref image Ink Wacom Surface images WinTab\n"
+"X-POFile-SpellExtra: Revoy KritaPreferencesTabletSettings Trig\n"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:1
 msgid "Configuring the tablet in Krita."
-msgstr ""
+msgstr "Configuração da tablete no Krita."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:17
 msgid "Tablet Settings"
-msgstr ""
+msgstr "Configuração da Tablete"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:20
 msgid ".. image:: images/en/Krita_Preferences_Tablet_Settings.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Preferences_Tablet_Settings.png"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:21
 msgid "Tablet"
@@ -38,11 +40,11 @@ msgid ""
 "Input Pressure Global Curve : This is the global curve setting that your "
 "tablet will use in Krita. The settings here will make your tablet feel soft "
 "or hard globally."
-msgstr ""
+msgstr "Curva Global de Pressão à Entrada : Esta é a configuração global da curva que a sua tablete irá usar no Krita. As definições aqui farão com que a sua tablete pareça mais leve ou pesada a nível global."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:24
 msgid "on Windows 8 or above only"
-msgstr ""
+msgstr "apenas no Windows 8 ou superior"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:26
 msgid "WinTab"
@@ -52,7 +54,7 @@ msgstr "WinTab"
 msgid ""
 "Use the WinTab API to receive tablet pen input. This is the API being used "
 "before Krita 3.3. This option is recommended for most Wacom tablets."
-msgstr ""
+msgstr "Use a API do WinTab para receber dados introduzidos pela tablete. Esta é a API a ser usada antes do Krita 3.3. Esta opção é recomendada para a maioria das tabletes da Wacom."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:29
 msgid ""
@@ -62,15 +64,15 @@ msgid ""
 "well enough for painting. You should try this if you are using an N-Trig "
 "device (e.g. recent Microsoft Surface devices) or if your tablet does not "
 "work well with WinTab."
-msgstr ""
+msgstr "Use as mensagens de Entrada do Ponteiro para receber os dados de entrada da caneta da tablete. Esta opção depende do suporte por parte do controlador da tablete para o Windows Ink. Esta é uma funcionalidade relativamente nova, pelo que se considera ser experimental, mas deverá funcionar suficientemente bem para a pintura. Deverá tentar isto se estiver a usar um dispositivo N-Trig (p.ex. os dispositivos Microsoft Surface recentes) ou se a sua tablete não funcionar bem com o WinTab."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:30
 msgid "For Krita 3.3 or later:Tablet Input API"
-msgstr ""
+msgstr "Para o Krita 3.3 ou posterior: API de Entrada da Tablete"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:30
 msgid "Windows 8+ Pointer Input"
-msgstr ""
+msgstr "Introdução do Ponteiro do Windows 8+"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:33
 msgid "Tablet Tester"
@@ -81,49 +83,49 @@ msgid ""
 "This is a special feature for debugging tablet input. When you click on it, "
 "it will open a window with two sections. The left section is the **Drawing "
 "Area** and the right the **Text Output**."
-msgstr ""
+msgstr "Esta é uma funcionalidade especial para a depuração dos dados introduzidos pela tablete. Quando carregar nela, irá abrir uma janela com duas secções. A secção esquerda é a **Área de Desenho** e a da direita é o **Resultado de Texto**."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:39
 msgid ""
 "If you draw over the Drawing Area, you will see a line appear. If your "
 "tablet is working it should be both a red and blue line."
-msgstr ""
+msgstr "Se desenhar sobre a Área de Desenho, irá ver uma linha a aparecer. Se a sua tablete estiver funcional, deverá ser tanto uma linha vermelha como uma azul."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:41
 msgid ""
 "The red line represents mouse events. Mouse events are the most basic event "
 "that Krita can pick up. However, mouse events have crude coordinates and "
 "have no pressure sensitivity."
-msgstr ""
+msgstr "A linha vermelha representa os eventos do rato. Os eventos do rato são os eventos mais básicos que o Krita consegue recolher. Contudo, os eventos do rato têm coordenadas pouco precisas e não têm sensibilidade à pressão."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:43
 msgid ""
 "The blue line represents the tablet events. The tablet events only show up "
 "when Krita can access your tablet. These have more precise coordinates and "
 "access to sensors like pressure sensitivity."
-msgstr ""
+msgstr "A linha azul representa os eventos da tablete. Os eventos da tablete só aparecem quando o Krita consegue aceder à sua tablete. Estes têm coordenadas com maior precisão e acesso a sensores como o de sensibilidade da pressão."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:47
 msgid ""
 "If you have no blue line when drawing on the lefthand drawing area, Krita "
 "cannot access your tablet. Check out the :ref:`page on drawing tablets "
 "<drawing_tablets>` for suggestions on what is causing this."
-msgstr ""
+msgstr "Se não tiver nenhuma linha azul ao desenhar sobre a área de desenho à esquerda, o Krita não conseguirá aceder à sua tablete. Verifique a :ref:`página sobre as tabletes de desenho <drawing_tablets>` para obter algumas sugestões sobre o que poderá causar isto."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:49
 msgid ""
 "When you draw a line, the output on the right will show all sorts of text "
 "output. This text output can be attached to a help request or a bug report "
 "to figure out what is going on."
-msgstr ""
+msgstr "Quando desenhar uma linha, o resultado à direita irá mostrar todos os tipos de resultados em texto. Estes poderão ser anexados a um pedido de ajuda ou a um relatório de erros para descobrir o que se passa."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:52
 msgid "External Links"
-msgstr ""
+msgstr "Referências Externas"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:54
 msgid ""
 "`David Revoy wrote an indepth guide on using this feature to maximum "
 "advantage. <http://www.davidrevoy.com/article182/calibrating-wacom-stylus-"
 "pressure-on-krita>`_"
-msgstr ""
+msgstr "`O David Revoy escreveu um guia aprofundado sobre o uso desta funcionalidade ao máximo. <http://www.davidrevoy.com/article182/calibrating-wacom-stylus-pressure-on-krita>`_"

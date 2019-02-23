@@ -29,7 +29,8 @@ msgstr "Mapa"
 
 #: ../../reference_manual/filters/map.rst:18
 msgid "Filters that are signified by them mapping the input image."
-msgstr "Os filtros cuja significância está associada (mapeada) na imagem de entrada."
+msgstr ""
+"Os filtros cuja significância está associada (mapeada) na imagem de entrada."
 
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
@@ -37,7 +38,9 @@ msgstr "Padrões Pequenos"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using it's own layer as output."
-msgstr "Cria padrões da imagem de entrada, usando a sua própria camada como resultado."
+msgstr ""
+"Cria padrões da imagem de entrada, usando a sua própria camada como "
+"resultado."
 
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
@@ -53,7 +56,12 @@ msgid ""
 "phong-lambert shading model. Useful for checking one's height maps during "
 "game texturing. Checking the :guilabel:`Normal Map` box will make it use all "
 "channels and interpret them as a normal map."
-msgstr "Usa a imagem de entrada como um mapa de altura para gerar uma imagem em 3D de algo, usando o modelo de sombreados Phong-Lambert. Útil para verificar os mapas de altura de alguns objectos durante a gestão de texturas de um jogo. Se assinalar a opção :guilabel:`Mapa da Normal`, fará com que ele use todos os canais e os interprete como um mapa da normal."
+msgstr ""
+"Usa a imagem de entrada como um mapa de altura para gerar uma imagem em 3D "
+"de algo, usando o modelo de sombreados Phong-Lambert. Útil para verificar os "
+"mapas de altura de alguns objectos durante a gestão de texturas de um jogo. "
+"Se assinalar a opção :guilabel:`Mapa da Normal`, fará com que ele use todos "
+"os canais e os interprete como um mapa da normal."
 
 #: ../../reference_manual/filters/map.rst:37
 msgid "Round Corners"
@@ -72,7 +80,11 @@ msgid ""
 "This filter takes the input pixels, puts them into a 3d vector, and then "
 "normalizes(makes the vector size exactly 1) the values. This is helpful for "
 "normal maps and some minor image-editing functions."
-msgstr "Este filtro recebe os pixels de entrada, coloca-os num vector 3D e depois normaliza (torna o tamanho do vector exactamente igual a 1) os seus valores. Isto é útil para os mapas da normal e par aalgumas pequenas funções de edição da imagem."
+msgstr ""
+"Este filtro recebe os pixels de entrada, coloca-os num vector 3D e depois "
+"normaliza (torna o tamanho do vector exactamente igual a 1) os seus valores. "
+"Isto é útil para os mapas da normal e par aalgumas pequenas funções de "
+"edição da imagem."
 
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
@@ -86,11 +98,17 @@ msgstr ".. image:: images/en/Krita_filter_gradient_map.png"
 msgid ""
 "Maps the lightness of the input to the selected gradient. Useful for fancy "
 "artistic effects."
-msgstr "Associa a luminosidade dos dados de entrada ao gradiente seleccionado. Útil para criar alguns efeitos artísticos."
+msgstr ""
+"Associa a luminosidade dos dados de entrada ao gradiente seleccionado. Útil "
+"para criar alguns efeitos artísticos."
 
 #: ../../reference_manual/filters/map.rst:57
 msgid ""
 "In 3.x you could only select predefined gradients. In 4.0, you can select "
 "gradients and change them on the fly, as well as use the gradient map filter "
 "as a filter layer or filter brush."
-msgstr "No 3.x, poderia seleccionar apenas os gradientes predefinidos. No 4.0, poderá seleccionar os gradientes e alterá-los na hora, assim como usar o filtro do mapa do gradiente como uma camada de filtragem ou pincel de filtragem."
+msgstr ""
+"No 3.x, poderia seleccionar apenas os gradientes predefinidos. No 4.0, "
+"poderá seleccionar os gradientes e alterá-los na hora, assim como usar o "
+"filtro do mapa do gradiente como uma camada de filtragem ou pincel de "
+"filtragem."

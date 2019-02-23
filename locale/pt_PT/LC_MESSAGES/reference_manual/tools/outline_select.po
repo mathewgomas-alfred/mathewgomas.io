@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-22 12:01+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: toolselectoutline icons Krita outlineselecttool image\n"
+"X-POFile-SpellExtra: Kritamouseleft selectionsbasics kbd generalsettings\n"
+"X-POFile-SpellExtra: images alt ref mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Anti-aliasing"
@@ -34,10 +37,12 @@ msgid ""
 ".. image:: images/icons/outline_select_tool.svg\n"
 "   :alt: toolselectoutline"
 msgstr ""
+".. image:: images/icons/outline_select_tool.svg\n"
+"   :alt: ferramenta de selecção do contorno"
 
 #: ../../reference_manual/tools/outline_select.rst:1
 msgid "Krita's outline selection tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de selecção de contornos do Krita."
 
 #: ../../reference_manual/tools/outline_select.rst:18
 msgid "Outline Selection Tool"
@@ -45,58 +50,58 @@ msgstr "Ferramenta de Selecção pelo Contorno"
 
 #: ../../reference_manual/tools/outline_select.rst:20
 msgid "|toolselectoutline|"
-msgstr ""
+msgstr "|toolselectoutline|"
 
 #: ../../reference_manual/tools/outline_select.rst:22
 msgid ""
 "Make :ref:`selections_basics` by drawing freehand around the canvas. Click "
 "and drag to draw a border around the section you wish to select."
-msgstr ""
+msgstr "Crie as :ref:`selections_basics`, desenhando para tal à vontade em torno da área de desenho. Carregue e arraste para desenhar um contorno em torno da secção que deseja seleccionar."
 
 #: ../../reference_manual/tools/outline_select.rst:25
 msgid "Hotkeys and Sticky keys"
-msgstr ""
+msgstr "Atalhos e Teclas Fixas"
 
 #: ../../reference_manual/tools/outline_select.rst:27
 msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
-msgstr ""
+msgstr ":kbd:`R` configura a selecção para `substituição` nas opções da ferramenta; este é o modo por omissão."
 
 #: ../../reference_manual/tools/outline_select.rst:28
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
-msgstr ""
+msgstr ":kbd:`A` configura a selecção como `adição` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/outline_select.rst:29
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
-msgstr ""
+msgstr ":kbd:`S` configura a selecção para `subtracção` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/outline_select.rst:30
 msgid ""
 ":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can "
 "release the :kbd:`Shift` key while dragging, but it will still be set to "
 "'add'. Same for the others."
-msgstr ""
+msgstr ":kbd:`Shift` + |mouseleft| configura a selecção subsequente para `adição`. Poderá largar a tecla :kbd:`Shift` enquanto arrasta, mas continuará à mesma no modo de 'adição'. O mesmo se aplica aos outros."
 
 #: ../../reference_manual/tools/outline_select.rst:31
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
-msgstr ""
+msgstr ":kbd:`Alt` + |mouseleft| configura a selecção subsequente como `subtracção`."
 
 #: ../../reference_manual/tools/outline_select.rst:32
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
-msgstr ""
+msgstr ":kbd:`Ctrl` + |mouseleft| configura a selecção subsequente como `substituição`."
 
 #: ../../reference_manual/tools/outline_select.rst:33
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
-msgstr ""
+msgstr ":kbd:`Shift + Alt` + |mouseleft| configura a selecção subsequente como `intersecção`."
 
 #: ../../reference_manual/tools/outline_select.rst:37
 msgid ""
 "You can switch the behaviour of the Alt key to use Ctrl instead by toggling "
 "the switch in the :ref:`general_settings`"
-msgstr ""
+msgstr "Poderá mudar o comportamento da tecla Alt para usar como alternativa o Ctrl, comutando o interruptor na :ref:`general_settings`"
 
 #: ../../reference_manual/tools/outline_select.rst:40
 msgid "Tool Options"
@@ -106,4 +111,4 @@ msgstr "Opções da Ferramenta"
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."
-msgstr ""
+msgstr "Isto indica se são usados contornos leves nas selecções. Algumas pessoas preferem arestas vincadas para as suas selecções."

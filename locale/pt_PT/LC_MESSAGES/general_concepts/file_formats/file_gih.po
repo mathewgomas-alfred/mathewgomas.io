@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-22 17:52+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,39 +16,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Hose Krita Image hose en examples images Gih ref\n"
+"X-POFile-SpellExtra: image gih\n"
 
 #: ../../general_concepts/file_formats/file_gih.rst:1
 msgid "The Gimp Image Hose file format in Krita."
-msgstr ""
+msgstr "O formato de ficheiros Gimp Image Hose no Krita."
 
 #: ../../general_concepts/file_formats/file_gih.rst:15
 msgid "\\*.gih"
-msgstr ""
+msgstr "\\*.gih"
 
 #: ../../general_concepts/file_formats/file_gih.rst:17
 msgid ""
 "The GIMP image hose format. Krita can open and save these, as well as import "
 "via the :ref:`predefined brush tab <predefined_brush_tip>`."
-msgstr ""
+msgstr "O formato de imagem 'hose' do Gimp. O Krita consegue abrir e gravar estes, assim como importá-los na :ref:`página de pincéis predefinidos <predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
 msgid ""
 "Image Hose means that this fileformat allows you to store multiple images "
 "and then set some options to make it specify how to output the multiple "
 "images."
-msgstr ""
+msgstr "O formato Hose significa que este formato permite-lhe gravar várias imagens e depois definir algumas opções para indicar como deverá apresentar o resultado das várias imagens."
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid ".. image:: images/en/Gih-examples.png"
-msgstr ""
+msgstr ".. image:: images/en/Gih-examples.png"
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid "From top to bottom: Incremental, Pressure and Random"
-msgstr ""
+msgstr "De cima para baixo: Incremental, Pressão e Aleatório"
 
 #: ../../general_concepts/file_formats/file_gih.rst:27
 msgid "Gimp image hose format options:"
-msgstr ""
+msgstr "Opções do formato Hose do Gimp:"
 
 #: ../../general_concepts/file_formats/file_gih.rst:29
 msgid "Constant"
@@ -56,7 +58,7 @@ msgstr "Constante"
 
 #: ../../general_concepts/file_formats/file_gih.rst:30
 msgid "This'll use the first image, no matter what."
-msgstr ""
+msgstr "Isto irá usar a primeira imagem, independentemente de tudo."
 
 #: ../../general_concepts/file_formats/file_gih.rst:31
 msgid "Incremental"
@@ -66,7 +68,7 @@ msgstr "Incremental"
 msgid ""
 "This'll paint the image layers in sequence. This is good for images that can "
 "be strung together to create a pattern."
-msgstr ""
+msgstr "Isto irá pintar as camadas da imagem em sequência. Isto é bom para as imagens que possam ser associadas em conjunto para criar um padrão."
 
 #: ../../general_concepts/file_formats/file_gih.rst:33
 msgid "Pressure"
@@ -76,7 +78,7 @@ msgstr "Pressão"
 msgid ""
 "This'll paint the images depending on pressure. This is good for brushes "
 "imitating the hairs of a natural brush."
-msgstr ""
+msgstr "Isto irá pintar as imagens dependendo da pressão. Isto é bom para os pincéis que imitam os pêlos de um pincel natural."
 
 #: ../../general_concepts/file_formats/file_gih.rst:35
 msgid "Random"
@@ -87,7 +89,7 @@ msgid ""
 "This'll draw the images randomly. This is good for image-collections used in "
 "speedpainting as well as images that generate texture. Or perhaps more "
 "graphical symbols."
-msgstr ""
+msgstr "Isto irá desenhar as imagens de forma aleatória. Isto é bom para as colecções de imagens usadas na pintura rápida, assim como as imagens que poderão gerar texturas. Ou talvez mais símbolos gráficos."
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "Angle"
@@ -95,7 +97,7 @@ msgstr "Ângulo"
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "This'll use the dragging angle to determine with image to draw."
-msgstr ""
+msgstr "Isto irá usar o ângulo de arrastamento para determinar qual a imagem a desenhar."
 
 #: ../../general_concepts/file_formats/file_gih.rst:40
 msgid ""
@@ -103,7 +105,7 @@ msgid ""
 "the default spacing, the option to set the name(very important for looking "
 "it up in the UI) and the ability to choose whether or not to generate the "
 "mask from the colors."
-msgstr ""
+msgstr "Ao exportar um ficheiro do Krita como um .gih, irá também ter a opção de definir o intervalo predefinido, uma opção para definir o nome (muito importante para o encontrar na GUI) e a capacidade de escolher se deve ou não gerar a máscara a partir das cores."
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
 msgid "Use Color as Mask"
@@ -114,10 +116,10 @@ msgid ""
 "This'll turn the darkest values of the image as the ones that paint, and the "
 "whitest as transparent. Untick this if you are using colored images for the "
 "brush."
-msgstr ""
+msgstr "Isto irá transformar os valores mais escuros da imagem nos que pintam e os mais claros em transparentes. Desligue isto se estiver a usar imagens coloridas para o pincel."
 
 #: ../../general_concepts/file_formats/file_gih.rst:45
 msgid ""
 "We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to "
 "create your own gih brush."
-msgstr ""
+msgstr "Temos uma :ref:`página de pontas de pincéis do Krita <brush_tip_animated_brush>` sobre como criar o seu próprio pincel .gih."

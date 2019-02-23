@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-22 18:17+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: toolselectpath icons image Kritamouseleft\n"
+"X-POFile-SpellExtra: selectionsbasics kbd generalsettings pathselecttool\n"
+"X-POFile-SpellExtra: Bézier images alt ref mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Anti-aliasing"
@@ -34,18 +37,20 @@ msgid ""
 ".. image:: images/icons/path_select_tool.svg\n"
 "   :alt: toolselectpath"
 msgstr ""
+".. image:: images/icons/path_select_tool.svg\n"
+"   :alt: ferramenta de selecção de caminho"
 
 #: ../../reference_manual/tools/path_select.rst:1
 msgid "Krita's bezier curve selection tool reference."
-msgstr ""
+msgstr "A referência à ferramenta de selecção sobre uma curva Bézier."
 
 #: ../../reference_manual/tools/path_select.rst:17
 msgid "Path Selection Tool"
-msgstr ""
+msgstr "Ferramenta de Selecção do Caminho"
 
 #: ../../reference_manual/tools/path_select.rst:19
 msgid "|toolselectpath|"
-msgstr ""
+msgstr "|toolselectpath|"
 
 #: ../../reference_manual/tools/path_select.rst:21
 msgid ""
@@ -54,58 +59,58 @@ msgid ""
 "a path around it. Click where you want each point of the path to be. Click "
 "and drag to curve the line between points. Finally click on the first point "
 "you created to close your path."
-msgstr ""
+msgstr "Esta ferramenta, representada por uma elipse com um contorno tracejado e uma curva de controlo, permite-lhe fazer uma :ref:`selections_basics` de uma área, desenhando um caminho à volta dela. Carregue onde desejar colocar cada ponto do caminho. Carregue e arraste para curvar a linha entre os pontos. Finalmente, carregue no primeiro ponto que criou para fechar o seu caminho."
 
 #: ../../reference_manual/tools/path_select.rst:24
 msgid "Hotkeys and Sticky keys"
-msgstr ""
+msgstr "Atalhos e Teclas Fixas"
 
 #: ../../reference_manual/tools/path_select.rst:26
 msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
-msgstr ""
+msgstr ":kbd:`R` configura a selecção para `substituição` nas opções da ferramenta; este é o modo por omissão."
 
 #: ../../reference_manual/tools/path_select.rst:27
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
-msgstr ""
+msgstr ":kbd:`A` configura a selecção como `adição` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/path_select.rst:28
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
-msgstr ""
+msgstr ":kbd:`S` configura a selecção para `subtracção` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/path_select.rst:29
 msgid ""
 ":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can "
 "release the :kbd:`Shift` key while dragging, but it will still be set to "
 "'add'. Same for the others."
-msgstr ""
+msgstr ":kbd:`Shift` + |mouseleft| configura a selecção subsequente para `adição`. Poderá largar a tecla :kbd:`Shift` enquanto arrasta, mas continuará à mesma no modo de 'adição'. O mesmo se aplica aos outros."
 
 #: ../../reference_manual/tools/path_select.rst:30
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
-msgstr ""
+msgstr ":kbd:`Alt` + |mouseleft| configura a selecção subsequente como `subtracção`."
 
 #: ../../reference_manual/tools/path_select.rst:31
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
-msgstr ""
+msgstr ":kbd:`Ctrl` + |mouseleft| configura a selecção subsequente como `substituição`."
 
 #: ../../reference_manual/tools/path_select.rst:32
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
-msgstr ""
+msgstr ":kbd:`Shift + Alt` + |mouseleft| configura a selecção subsequente como `intersecção`."
 
 #: ../../reference_manual/tools/path_select.rst:36
 msgid ""
 "Selection modifiers don't quite work yet with the path tool, as shift breaks "
 "the path"
-msgstr ""
+msgstr "Os modificadores da selecção ainda não funcionam muito bem com a ferramenta do caminho, dado que o Shift quebra o caminho"
 
 #: ../../reference_manual/tools/path_select.rst:40
 msgid ""
 "You can switch the behaviour of the Alt key to use Ctrl instead by toggling "
 "the switch in the :ref:`general_settings`"
-msgstr ""
+msgstr "Poderá mudar o comportamento da tecla Alt para usar como alternativa o Ctrl, comutando o interruptor na :ref:`general_settings`"
 
 #: ../../reference_manual/tools/path_select.rst:43
 msgid "Tool Options"
@@ -113,17 +118,17 @@ msgstr "Opções da Ferramenta"
 
 #: ../../reference_manual/tools/path_select.rst:47
 msgid "Autosmooth Curve"
-msgstr ""
+msgstr "Auto-Suavizar a Curva"
 
 #: ../../reference_manual/tools/path_select.rst:48
 msgid ""
 "Toggling this will have nodes initialize with smooth curves instead of "
 "angles. Untoggle this if you want to create sharp angles for a node. This "
 "will not affect curve sharpness from dragging after clicking."
-msgstr ""
+msgstr "Se activar isto, fará com que os nós sejam inicializados com curvas suavizadas em vez de ângulos. Desligue isto se quiser criar ângulos vincados para um nó. Isto não irá afectar a nitidez da curva do arrastamento após o pressionar do botão."
 
 #: ../../reference_manual/tools/path_select.rst:51
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."
-msgstr ""
+msgstr "Isto indica se são usados contornos leves nas selecções. Algumas pessoas preferem arestas vincadas para as suas selecções."

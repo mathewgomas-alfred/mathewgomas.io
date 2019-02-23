@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"POT-Creation-Date: 2019-02-22 03:25+0100\n"
 "PO-Revision-Date: 2019-02-20 23:21\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -38,7 +38,7 @@ msgid "Deselect"
 msgstr "反选"
 
 #: ../../reference_manual/main_menu/select_menu.rst:24
-msgid "Deselects everything(except for active Selection Mask)"
+msgid "Deselects everything (except for active Selection Mask)"
 msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:25
@@ -90,8 +90,10 @@ msgid "Display the selection. If turned off selections will be invisible."
 msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:43
-msgid "Show Global Selection Mask."
-msgstr ""
+#, fuzzy
+#| msgid "Grow Selection"
+msgid "Show Global Selection Mask"
+msgstr "扩张选区"
 
 #: ../../reference_manual/main_menu/select_menu.rst:45
 msgid ""
@@ -108,7 +110,7 @@ msgid "Scale the selection"
 msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:49
-msgid "Select from Colour Range"
+msgid "Select from Color Range"
 msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:51
@@ -121,10 +123,10 @@ msgstr "选择不透明度"
 
 #: ../../reference_manual/main_menu/select_menu.rst:54
 msgid ""
-"Select all opaque(non-transparent) pixels in the current active layer. If "
+"Select all opaque (non-transparent) pixels in the current active layer. If "
 "there's already a selection, this will add the new selection to the old one, "
 "allowing you to select the opaque pixels of multiple layers into one "
-"selection. Semi-transparent(or semi-opaque) pixels will be semi-selected."
+"selection. Semi-transparent (or semi-opaque) pixels will be semi-selected."
 msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:55

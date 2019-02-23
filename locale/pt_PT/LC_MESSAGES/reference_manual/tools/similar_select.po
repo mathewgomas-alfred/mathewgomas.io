@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-22 13:35+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: generalsettings icons similarselecttool ref image\n"
+"X-POFile-SpellExtra: Kritamouseleft selectionsbasics kbd Krita images alt\n"
+"X-POFile-SpellExtra: toolselectsimilar mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Fuzziness"
@@ -34,10 +37,12 @@ msgid ""
 ".. image:: images/icons/similar_select_tool.svg\n"
 "   :alt: toolselectsimilar"
 msgstr ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: ferramenta de selecção semelhante"
 
 #: ../../reference_manual/tools/similar_select.rst:1
 msgid "Krita's similar color selection tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de selecção de cores semelhantes do Krita."
 
 #: ../../reference_manual/tools/similar_select.rst:16
 msgid "Similar Color Selection Tool"
@@ -45,7 +50,7 @@ msgstr "Ferramenta de Selecção de Cores Semelhantes"
 
 #: ../../reference_manual/tools/similar_select.rst:18
 msgid "|toolselectsimilar|"
-msgstr ""
+msgstr "|toolselectsimilar|"
 
 #: ../../reference_manual/tools/similar_select.rst:20
 msgid ""
@@ -55,52 +60,52 @@ msgid ""
 "adjust the \"fuzziness\" of the tool in the tool options dock. A lower "
 "number will select colors closer to the color that you chose in the first "
 "place."
-msgstr ""
+msgstr "Esta ferramenta, representada por um conta-gotas com um contorno tracejado, permite-lhe fazer :ref:`selections_basics` através da selecção de um ponto com uma dada cor. Ele irá seleccionar todas as áreas com uma cor semelhante à que seleccionou. Poderá ajustar a \"difusão\" da ferramenta na área de opções da ferramenta. Um número mais baixo irá seleccionar as cores mais próximas da cor que escolheu em primeiro lugar."
 
 #: ../../reference_manual/tools/similar_select.rst:23
 msgid "Hotkeys and Sticky keys"
-msgstr ""
+msgstr "Atalhos e Teclas Fixas"
 
 #: ../../reference_manual/tools/similar_select.rst:25
 msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
-msgstr ""
+msgstr ":kbd:`R` configura a selecção para `substituição` nas opções da ferramenta; este é o modo por omissão."
 
 #: ../../reference_manual/tools/similar_select.rst:26
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
-msgstr ""
+msgstr ":kbd:`A` configura a selecção como `adição` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/similar_select.rst:27
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
-msgstr ""
+msgstr ":kbd:`S` configura a selecção para `subtracção` nas opções da ferramenta."
 
 #: ../../reference_manual/tools/similar_select.rst:28
 msgid ""
 ":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can "
 "release the :kbd:`Shift` key while dragging, but it will still be set to "
 "'add'. Same for the others."
-msgstr ""
+msgstr ":kbd:`Shift` + |mouseleft| configura a selecção subsequente para `adição`. Poderá largar a tecla :kbd:`Shift` enquanto arrasta, mas continuará à mesma no modo de 'adição'. O mesmo se aplica aos outros."
 
 #: ../../reference_manual/tools/similar_select.rst:29
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
-msgstr ""
+msgstr ":kbd:`Alt` + |mouseleft| configura a selecção subsequente como `subtracção`."
 
 #: ../../reference_manual/tools/similar_select.rst:30
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
-msgstr ""
+msgstr ":kbd:`Ctrl` + |mouseleft| configura a selecção subsequente como `substituição`."
 
 #: ../../reference_manual/tools/similar_select.rst:31
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
-msgstr ""
+msgstr ":kbd:`Shift + Alt` + |mouseleft| configura a selecção subsequente como `intersecção`."
 
 #: ../../reference_manual/tools/similar_select.rst:35
 msgid ""
 "You can switch the behaviour of the Alt key to use Ctrl instead by toggling "
 "the switch in the :ref:`general_settings`"
-msgstr ""
+msgstr "Poderá mudar o comportamento da tecla Alt para usar como alternativa o Ctrl, comutando o interruptor na :ref:`general_settings`"
 
 #: ../../reference_manual/tools/similar_select.rst:38
 msgid "Tool Options"
@@ -110,4 +115,4 @@ msgstr "Opções da Ferramenta"
 msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."
-msgstr ""
+msgstr "Isto controla se a selecção contígua vê outra cor como uma aresta ou contorno."

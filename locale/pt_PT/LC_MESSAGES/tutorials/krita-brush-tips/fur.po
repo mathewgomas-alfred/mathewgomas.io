@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-22 17:27+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,56 +16,72 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en fur brushtips Krita inkbrush image Tumblr brush\n"
+"X-POFile-SpellExtra: demão images tips px ref alt\n"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_01.png\n"
 "   :alt: Some example of furs and hair"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_01.png\n"
+"   :alt: Alguns exemplos de pêlo e cabelo"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_02.png\n"
 "   :alt: brush setting dialog for fur brush"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_02.png\n"
+"   :alt: janela de configuração do pincel de pêlo"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_03.png\n"
 "   :alt: brush setting dialog for fur"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_03.png\n"
+"   :alt: janela de configuração do pêlo"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_04.png\n"
 "   :alt: brush setting dialog showing color gradation"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_04.png\n"
+"   :alt: janela de configuração do pincel a mostrar a graduação de cores"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_05.png\n"
 "   :alt: result of the brush that we made"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_05.png\n"
+"   :alt: resultado do pincel criado"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_06.png\n"
 "   :alt: using the fur brush to make grass and hair"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_06.png\n"
+"   :alt: uso do pincel de pêlo para criar relva e cabelo"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Krita-brushtips-fur_07.png\n"
 "   :alt: fur brush with the color source to gradient and mix option"
 msgstr ""
+".. image:: images/en/brush-tips/Krita-brushtips-fur_07.png\n"
+"   :alt: pincel de pêlo com a origem da cor baseada num gradiente e numa opção de mistura"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:1
 msgid "A tutorial about creating fur in Krita"
-msgstr ""
+msgstr "Um tutorial sobre a criação de pêlo no Krita"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:13
 msgid "Brush-tips:Fur"
-msgstr ""
+msgstr "Pontas-pincel:Pêlo"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:16
 msgid "Question"
@@ -73,13 +89,13 @@ msgstr "Pergunta"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:18
 msgid "What brushes are best for fur textures?"
-msgstr ""
+msgstr "Que pincéis são os melhores para as texturas de pêlo?"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:23
 msgid ""
 "So typically, you see the same logic applied on fur as on regular :ref:"
 "`hair`."
-msgstr ""
+msgstr "Tipicamente, é aplicada a mesma lógica no pêlo e no :ref:`cabelo` normal."
 
 #: ../../tutorials/krita-brush-tips/fur.rst:25
 msgid ""
@@ -89,7 +105,7 @@ msgid ""
 "then become lighter as we draw with it, to simulate how hair-tips catch more "
 "light and look lighter due to being thinner at the ends, while at the base "
 "they are frequently more dark."
-msgstr ""
+msgstr "`Contudo, poderá tornar um pincel um pouco mais simples se usar as opções do Gradiente, Mistura e HSV nos pincéis de manchas a cores e de pixels <https://docs.krita.org/Pixel>`_. Basicamente, o queremos é que um traço comece escuro e depois vá ficando mais claro à medida que o desenhamos, para simular o facto de as madeixas de cabelos apanharem mais luz e parecerem mais claras pelo facto de serem mais finas nas pontas, enquanto na base são normalmente mais escuras."
 
 #: ../../tutorials/krita-brush-tips/fur.rst:30
 msgid ""
@@ -98,7 +114,7 @@ msgid ""
 "a value between 0.25 and 0.8. Also turn on the ‘enable pen-settings’ on "
 "flow. Replicate the pressure curve above on the size option. We don’t want "
 "the hairs to collapse to a point, hence why the curve starts so high."
-msgstr ""
+msgstr "Escolha o pincel 'ink_brush_25' e escolha em Ponta do pincel->predefinido “pincel sujo A-2”. Configure o espaço como ‘auto’ e carregue com o botão direito sobre a barra do intervalo para escrever um valor entre 0,25 e 0,8. Também pode ligar a opção ‘activar a configuração da caneta’ no fluxo. Replique a curva de pressão acima sobre a opção do tamanho. Não queremos que os cabelos colapsem face a um ponto, daí a curva começar tão alta."
 
 #: ../../tutorials/krita-brush-tips/fur.rst:35
 msgid ""
@@ -113,7 +129,7 @@ msgid ""
 "then for 100px+ it’ll go from the active color to a lightened version. The "
 "curve is an inverse S-curve, because we want to give a lot of room to the "
 "mid-tones."
-msgstr ""
+msgstr "Depois active o valor e reproduza esta curva com o sensor de ‘distância’ ou ‘desvanecimento’. Da mesma forma que o sensor de pressão altera um dado valor (como o tamanho) com a quantidade de pressão que aplicar na caneta, o sensor de distância mede quantos pixels têm o seu traço, podendo alterar uma dada opção com base nisso. Para os sensores de HSV: se a curva passar para lá do meio, irá remover do ajuste, enquanto acima da metade na vertical irá adicionar a esse ajuste. Por isso, nesse caso, para os primeiros 100px, a demão do pincel irá de uma versão mais escura da cor de pintura activa até à cor activa propriamente dita e depois nos outros 100px+ irá usar uma versão mais clara da cor activa. A cor é uma curva em S inversa, porque se pretende dar um pouco mais de espaço aos tons intermédios."
 
 #: ../../tutorials/krita-brush-tips/fur.rst:40
 msgid ""
@@ -122,7 +138,7 @@ msgid ""
 "means it’s effect is much less strong than the value adjustment. The result "
 "should look somewhat like the fifth one from the left on the first row of "
 "this:"
-msgstr ""
+msgstr "É feita a mesma coisa para a saturação, pelo que a cor mais escura perde também um pouco da sua saturação. Repare como a curva está próxima do centro: Isso significa que o seu efeito é muito menos forte que o ajuste do valor. O resultado deverá ser algo aproximado ao do quinto à esquerda, na primeira linha:"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:45
 msgid ""
@@ -130,7 +146,7 @@ msgid ""
 "though using color rate on distance instead. Do note that it’s very hard to "
 "shade realistic fur, so keep a good eye on your form shadow. You can also "
 "use this with grass, feathers and other vegetation:"
-msgstr ""
+msgstr "Os outros são feitos com o pincel de manchas, mas com uma configuração parecida, ainda que use um ajuste da cor com base na distância. Repare que é muito difícil desenhar pêlo realista, como tal tenha bastante atenção no formato das suas sombras. Também poderá usar isto com relva, penas e outra vegetação:"
 
 #: ../../tutorials/krita-brush-tips/fur.rst:50
 msgid ""
@@ -139,7 +155,7 @@ msgid ""
 "smudge brush and the pixel brush. for color smudge this is just the "
 "‘gradient’ option, and it’ll use the active gradient. For the pixel brush, "
 "set the color-source to ‘gradient’ and use the mix option."
-msgstr ""
+msgstr "Por exemplo, se usar a opção de mistura no pincel de pixels, ele fará uma mistura entre a cor principal e a cor de fundo. Até poderá associar um gradiente ao pincel de manchas a cores e ao pincel de pixels. Para o pincel de manchas a cores, esta é a opção ‘gradiente’ e será usado o gradiente activo. Para o pincel de pixels, configure a fonte de cores como ‘gradiente’ e use a opção de mistura."
 
 #: ../../tutorials/krita-brush-tips/fur.rst:55
 msgid ""
@@ -147,4 +163,4 @@ msgid ""
 "vimeo.com/78183651>`_. Basically, you can also combine this with the lighter "
 "color blending mode and wraparound mode to make making grass-textures really "
 "easy!"
-msgstr ""
+msgstr "No Tumblr foi sugerida a utilização destes para fazer `este tutorial <https://vimeo.com/78183651>`_. Basicamente, poderá também combinar isto com o modo de mistura com a cor mais clara e o modo de envolvência para tornar as texturas de relva bastante simples!"

@@ -12,12 +12,12 @@ msgstr ""
 "PO-Revision-Date: 2019-02-21 08:33+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/linux_command_line.rst:1
@@ -30,15 +30,15 @@ msgstr "Командний рядок Linux"
 
 #: ../../reference_manual/linux_command_line.rst:20
 msgid ""
-"As a native Linux program, Krita allows you to do operations on images"
-" without opening the program when using the Terminal. This option was"
-" disabled on Windows and OSX, but with 3.3 it is enabled for them!"
+"As a native Linux program, Krita allows you to do operations on images "
+"without opening the program when using the Terminal. This option was "
+"disabled on Windows and OSX, but with 3.3 it is enabled for them!"
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:22
 msgid ""
-"This is primarily used in bash or shell scripts, for example, to mass convert"
-" kra files into pngs."
+"This is primarily used in bash or shell scripts, for example, to mass "
+"convert kra files into pngs."
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:25
@@ -48,14 +48,14 @@ msgstr "Експорт"
 #: ../../reference_manual/linux_command_line.rst:27
 msgid "This allows you to quickly convert files via the terminal:"
 msgstr ""
-"За допомогою цієї команди ви можете швидко перетворювати файли за допомогою"
-" термінала:"
+"За допомогою цієї команди ви можете швидко перетворювати файли за допомогою "
+"термінала:"
 
 #: ../../reference_manual/linux_command_line.rst:29
 msgid "``krita importfilename --export --export-filename exportfilename``"
 msgstr ""
-"``krita назва_імпортованого_файла --export --export-filename"
-" назва_експортованого_файла``"
+"``krita назва_імпортованого_файла --export --export-filename "
+"назва_експортованого_файла``"
 
 #: ../../reference_manual/linux_command_line.rst:34
 msgid "importfilename"
@@ -71,14 +71,14 @@ msgstr "Експортування файла визначається пара�
 
 #: ../../reference_manual/linux_command_line.rst:42
 msgid ""
-"Exportfilename says that the following word is the filename it should be"
-" exported to."
+"Exportfilename says that the following word is the filename it should be "
+"exported to."
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:44
 msgid ""
-"Replace this with the name of the output file. Use a different extension to"
-" change the fileformat."
+"Replace this with the name of the output file. Use a different extension to "
+"change the fileformat."
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:46
@@ -137,9 +137,9 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:83
 msgid ""
-"Open krita and automatically open the given template(s). This allows you to,"
-" for example, create a shortcut to Krita that opens a given template, so you"
-" can get to work immediately!"
+"Open krita and automatically open the given template(s). This allows you to, "
+"for example, create a shortcut to Krita that opens a given template, so you "
+"can get to work immediately!"
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:85
@@ -152,8 +152,8 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:93
 msgid ""
-"All templates are saved with the .desktop extension. You can find templates"
-" in the .kde/share/apps/krita/template or in the install folder of Krita."
+"All templates are saved with the .desktop extension. You can find templates "
+"in the .kde/share/apps/krita/template or in the install folder of Krita."
 msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:95

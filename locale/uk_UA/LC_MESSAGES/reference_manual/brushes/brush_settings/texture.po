@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings___texture\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___brushes___brush_settings___texture\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-21 14:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 18.12.1\n"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:0
@@ -47,11 +48,11 @@ msgstr "Текстура"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:18
 msgid ""
-"This allows you to have textured strokes. This parameter always shows up as"
-" two parameters:"
+"This allows you to have textured strokes. This parameter always shows up as "
+"two parameters:"
 msgstr ""
-"Уможливлює використання текстурних штрихів. Можливості цього параметра"
-" поділено між двома пунктами:"
+"Уможливлює використання текстурних штрихів. Можливості цього параметра "
+"поділено між двома пунктами:"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:23
 #: ../../reference_manual/brushes/brush_settings/texture.rst:44
@@ -68,11 +69,11 @@ msgstr "Масштаб"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:26
 msgid ""
-"The size of the pattern. 1.0 is 100%. .. image::"
-" /images/en/Krita_2_9_brushengine_texture_05.png"
+"The size of the pattern. 1.0 is 100%. .. image:: /images/en/"
+"Krita_2_9_brushengine_texture_05.png"
 msgstr ""
-"Розмір візерунка. 1.0 — 100%. .. image::"
-" /images/en/Krita_2_9_brushengine_texture_05.png"
+"Розмір візерунка. 1.0 — 100%. .. image:: /images/en/"
+"Krita_2_9_brushengine_texture_05.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:29
 msgid "Horizontal Offset & Vertical Offset"
@@ -80,8 +81,8 @@ msgstr "Горизонтальний і вертикальний відступ�
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:29
 msgid ""
-"How much a brush is offset, random offset sets a new per stroke. .. image::"
-" /images/en/Krita_2_9_brushengine_texture_04.png"
+"How much a brush is offset, random offset sets a new per stroke. .. image:: /"
+"images/en/Krita_2_9_brushengine_texture_04.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:32
@@ -90,11 +91,11 @@ msgstr "Множення"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:33
 msgid ""
-"Uses alpha multiplication to determine the effect of the texture. Has a soft"
-" feel."
+"Uses alpha multiplication to determine the effect of the texture. Has a soft "
+"feel."
 msgstr ""
-"Використовує множення з прозорістю для визначення впливу текстури. Пом'якшує"
-" результат застосування текстури."
+"Використовує множення з прозорістю для визначення впливу текстури. Пом'якшує "
+"результат застосування текстури."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:35
 msgid "Subtract"
@@ -102,11 +103,11 @@ msgstr "Віднімання"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:35
 msgid ""
-"Uses subtraction to determine the effect of the texture. Has a harsher, more"
-" texture feel."
+"Uses subtraction to determine the effect of the texture. Has a harsher, more "
+"texture feel."
 msgstr ""
-"Використовує віднімання для визначення впливу текстури. Надає результату"
-" шорсткішого, подібнішого до текстури вигляду."
+"Використовує віднімання для визначення впливу текстури. Надає результату "
+"шорсткішого, подібнішого до текстури вигляду."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:37
 msgid "Texturing mode"
@@ -114,8 +115,8 @@ msgstr "Режим текстурування"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:40
 msgid ""
-"Cutoff policy will determine what range and where the strength will affect"
-" the textured outcome."
+"Cutoff policy will determine what range and where the strength will affect "
+"the textured outcome."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:42
@@ -144,13 +145,13 @@ msgstr "Правила обрізання"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:52
 msgid ""
-"Cutoff is... the grayscale range that you can limit the texture to. This also"
-" affects the limit takes by the strength. In the below example, we move from"
-" the right arrow moved close to the left one, resulting in only the darkest"
-" values being drawn. After that, three images with larger range, and"
-" underneath that, three ranges with the left arrow moved, result in the"
-" darkest values being cut away, leaving only the lightest. The last example"
-" is the pattern without cutoff."
+"Cutoff is... the grayscale range that you can limit the texture to. This "
+"also affects the limit takes by the strength. In the below example, we move "
+"from the right arrow moved close to the left one, resulting in only the "
+"darkest values being drawn. After that, three images with larger range, and "
+"underneath that, three ranges with the left arrow moved, result in the "
+"darkest values being cut away, leaving only the lightest. The last example "
+"is the pattern without cutoff."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:54
@@ -159,10 +160,11 @@ msgstr "Обрізання"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:57
 msgid ""
-"Invert the pattern. .. image:: /images/en/Krita_2_9_brushengine_texture_06.png"
-msgstr ""
-"Інвертувати візерунок. .. image:: /images/en/Krita_2_9_brushengine_texture_06."
+"Invert the pattern. .. image:: /images/en/Krita_2_9_brushengine_texture_06."
 "png"
+msgstr ""
+"Інвертувати візерунок. .. image:: /images/en/"
+"Krita_2_9_brushengine_texture_06.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:58
 msgid "Invert Pattern"
@@ -170,9 +172,9 @@ msgstr "Інвертувати візерунок"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:61
 msgid ""
-"Adjust the pattern with a simple brightness/contrast filter to make it easier"
-" to use. Because Subtract and Multiply work differently, it's recommended to"
-" use different values with each:"
+"Adjust the pattern with a simple brightness/contrast filter to make it "
+"easier to use. Because Subtract and Multiply work differently, it's "
+"recommended to use different values with each:"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:63
@@ -185,8 +187,8 @@ msgstr "Потужність"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:68
 msgid ""
-"This allows you to set the texture to Sensors. It will use the cutoff to"
-" continuously draw lighter values of the texture(making the result darker)"
+"This allows you to set the texture to Sensors. It will use the cutoff to "
+"continuously draw lighter values of the texture(making the result darker)"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:71
@@ -195,10 +197,8 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:74
 msgid ""
-"`David Revoy describing the texture feature(old) <"
-"http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting"
-">`_"
+"`David Revoy describing the texture feature(old) <http://www.davidrevoy.com/"
+"article107/textured-brush-in-floss-digital-painting>`_"
 msgstr ""
-"`David Revoy описує можливість використання текстур (давнє відео) <"
-"http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting"
-">`_"
+"`David Revoy описує можливість використання текстур (давнє відео) <http://"
+"www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_"
