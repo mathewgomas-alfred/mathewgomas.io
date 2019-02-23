@@ -32,7 +32,7 @@ To explain the point of color management, you'd first need to learn which proble
 
 Let us imagine a kinder garden:
 
-The class of 28 children is subdivided in groups of 7. Each group has their own table.
+The class of 28 children is subdivided in groups of 7. Each group has its own table.
 
 The teacher gives them a painting assignment: They need to paint a red triangle, a blue square, a green circle and put a yellow border around the three.
 The kids are very experienced with painting already, so the teacher can confidently leave the smarter ones to their own devices, and spent more time on those who need help.
@@ -221,9 +221,9 @@ The LUT docker allows us to control this display-filter and modify the distortio
    :align: center
 
 
-So, for example, we can chose to scale whiter-than-screen-white to our screen-white so we can see the contrasts there.
+So, for example, we can choose to scale whiter-than-screen-white to our screen-white so we can see the contrasts there.
 
-The point of this is that you can take advantage of more lightness detail in an image. While you can't see the difference between screen white and whiter-than-screen-white(because you screen can't show the difference), graphics programs can certainly use it.
+The point of this is that you can take advantage of more lightness detail in an image. While you can't see the difference between screen white and whiter-than-screen-white (because your screen can't show the difference), graphics programs can certainly use it.
 
 A common example is matching the lighting between a 3d model and a real world scene. Others are advanced photo retouching, with much more contrast information available to the user. In painting itself, this allows you to create an image where you can be flippant with the contrast, and allow yourself to go as bright as you'd like.
 
@@ -262,7 +262,7 @@ If you like painting, have a decent amount of ram, and are looking to start your
 Exporting
 ---------
 
-when you have finished you image and are ready to export it, you can modify the color space to optimize it:
+when you have finished your image and are ready to export it, you can modify the color space to optimize it:
 
 If you are preparing an image for the web:
 
@@ -367,7 +367,7 @@ While game engines need to have optimised content, and it's recommended to stay 
 
 Normal maps and heightmaps are officially supposed to be defined with a 'non-color data' working space, but you'll find that most engines will not care much for this. Instead, tell the game engine not to do any conversion on the file when importing.
 
-Specular, glossiness, metalness and roughness maps are all based on linear calculations, and when you find that a certain material has a metalness of 0.3, this is 30% gray in a linear space. Therefore, make sure to tell the game engine renderer that this is a linear space image(or at the very least, should NOT be converted).
+Specular, glossiness, metalness and roughness maps are all based on linear calculations, and when you find that certain material has a metalness of 0.3, this is 30% gray in a linear space. Therefore, make sure to tell the game engine renderer that this is a linear space image(or at the very least, should NOT be converted).
 
 .. seealso::
 

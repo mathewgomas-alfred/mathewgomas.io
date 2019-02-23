@@ -32,7 +32,7 @@ piece of hardware known as a drawing tablet.
 
 A drawing tablet is a piece of hardware that you can plug into your
 machine, much like a keyboard or mouse. It usually looks like a plastic
-pad, with a stylus. Another popular format is a computer monitors with
+pad, with a stylus. Another popular format is a computer monitor with
 stylus used to draw directly on the screen. These are better to use than
 a mouse because it’s more natural to draw with a stylus and generally
 better for your wrists.

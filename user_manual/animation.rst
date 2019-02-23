@@ -289,7 +289,7 @@ Step
     Indicates the difference between the imported animation and the
     document frame rate. This animation is 8 frames big, and the fps of
     the document is 24 frames, so there should be a step of 3 to keep it
-    even. As you can see, the window gives feedback of how much fps the
+    even. As you can see, the window gives feedback on how much fps the
     imported animation would be with the currently given step.
 
 Press OK, and your animation should be imported as a new layer.

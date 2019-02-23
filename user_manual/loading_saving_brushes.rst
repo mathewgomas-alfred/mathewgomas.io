@@ -232,7 +232,7 @@ you can change things.
 Using sensor curves
 '''''''''''''''''''
 
-One of the big important things that makes art unique to the artist who
+One of the big important things that make art unique to the artist who
 created it is the style of the strokes. Strokes are different because
 they differ in speed, rotation, direction, and the amount of pressure
 put onto the stylus. Because these are so important, we would want to
@@ -257,7 +257,7 @@ top. Someone who has a hard time making small strokes should try the
 second to last concave button, while someone who has a hard time making
 thick strokes should try the third button, the S shape.
 
-Underneath the curve widget there's two more options:
+Underneath the curve widget there are two more options:
 
 Share Curves across all settings
     This is for the list of sensors. Toggling this will make all the
@@ -313,7 +313,7 @@ Temporarily Save Tweaks to Preset (Dirty Presets)
     .. figure:: /images/en/Krita_4_0_dirty_preset_icon.png
        :figwidth: 450
 
-       The icon in the top left of the first two presets indicate it is “Dirty”, meaning there's tweaks made to the preset.
+       The icon in the top left of the first two presets indicate it is “Dirty”, meaning there are tweaks made to the preset.
 
 Eraser Switch Size
     This switches the brush to a separately stored size when using the
@@ -369,7 +369,7 @@ Example: Making an inking brush
    a big curve. This is the sensor curve.
 #. Uncheck the :guilabel:`enable pen settings` checkbox.
 #. Test on the scratch pad... there still seems to be something
-   affecting opacity. This is due the
+   affecting opacity. This is due to the
    :ref:`flow <option_opacity_n_flow>`
    option.
 #. Select the Flow option from the list on the right hand. Flow is like
@@ -378,7 +378,7 @@ Example: Making an inking brush
 #. Now you should be getting somewhere towards an inking brush. It is
    still too small however, and kinda grainy looking. Click :ref:`Brush Tip <option_brush_tip>` in the
    brush engine options.
-#. Here, diameter is the size of the brush-tip. You can touch the slider
+#. Here, the diameter is the size of the brush-tip. You can touch the slider
    change the size, or right-click it and type in a value. Set it to 25
    and test again. It should be much better.
 #. Now to make the brush feel a bit softer, turn down the fade parameter
@@ -431,7 +431,7 @@ The recommended way to share brushes and presets is by using the
 resource bundle system. We have detailed instructions on how to use them
 on the :ref:`resource management page <resource_management>`.
 
-However, there's various old-fashioned ways of sharing brushes that can
+However, there are various old-fashioned ways of sharing brushes that can
 be useful when importing and loading very old packs:
 
 Sharing a single preset
@@ -461,7 +461,7 @@ Now, if you want to use the single preset, you should go to the preset
 chooser on f6 and press the folder icon there. This will give a file
 dialog. Navigate to the kpp file and open it to import it.
 
-If there's brush tips and patterns coming with the file, do the same
+If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
 settings dropdown(f5) and then go to the “brush-tip” option. There,
 select predefined brush, and then the “import” button to call up the

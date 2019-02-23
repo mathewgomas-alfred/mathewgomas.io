@@ -33,7 +33,7 @@ Images that are meant for viewing on a screen:
 * Or for Video games, both sprites and textures are best in RGB there.
 * Or for 3d rendering, visual effects and cg animation.
 
-And for the working space. A working space is a RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colours while also being able to view them correctly on multiple screens.
+And for the working space. A working space is an RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colours while also being able to view them correctly on multiple screens.
 
 Blending modes in RGB
 ~~~~~~~~~~~~~~~~~~~~~
@@ -127,7 +127,7 @@ There's also a difference between 'colored gray' and 'neutral gray' depending on
 
    In Krita, there's also the fact that the default color is a perfect black in RGB, which then gets converted to our default CMYK in a funny manner, giving a yellow look to the strokes. Again, another good reason to work in RGB and let the conversion be done by the printing house.
 
-While CMYK has a smaller 'gamut' than RGB, however, it's still recommended to use a RGB working space profile to do your editing in. Afterwards, you can convert it to your printer's CMYK profile using either perceptual or relative colorimetric intend.
+While CMYK has a smaller 'gamut' than RGB, however, it's still recommended to use an RGB working space profile to do your editing in. Afterwards, you can convert it to your printer's CMYK profile using either perceptual or relative colorimetric intent.
 Or you can just give the workspace rgb image to your printer and let them handle the work.
 
 .. _model_ycrcb:
@@ -146,7 +146,7 @@ Cr
 Cb
     Blue Chroma. This value measures how blue a color is versus how yellow it is.
 
-This color space is often used in photography and in (correct) implementations of JPEG. As humans you're much more sensitive to the lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, and leave the Y channel in full quality.
+This color space is often used in photography and in (correct) implementations of JPEG. As a human you're much more sensitive to the lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, and leave the Y channel in full quality.
 
 .. warning:: 
     

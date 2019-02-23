@@ -121,13 +121,13 @@ Background image
     Allows you to set a picture background for subwindow mode.
 Window Background
     Set the colour of the subwindow canvas area.
-Don't show contents when moving subwindows.
+Don't show contents when moving sub-windows
     This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
 Show on-canvas popup messages
     Whether or not you want to see the on-canvas pop-up messages that tell you whether you are in tabbed mode, rotating the canvas, or mirroring it.
 Enable Hi-DPI support
     Attempt to use the Hi-DPI support. It is an option because we are still experiencing bugs on windows.
-Allow only once instance of Krita
+Allow only one instance of Krita
     An instance is a single entry in your system's task manager. Turning this option makes sure that Krita will check if there's an instance of Krita open already when you instruct it to open new documents, and then have your documents opened in that single instance. There's some obscure uses to allowing multiple instances, but if you can't think of any, just keep this option on.
 
 Tool options

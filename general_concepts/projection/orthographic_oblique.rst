@@ -106,14 +106,14 @@ So, after some cleanup, we should have the following:
 
 Okay, now we're gonna use animation for the next bit.
 
-Set it up as following:
+Set it up as follows:
 
 .. image:: /images/en/category_projection/projection_image_09.png 
    :align: center
 
 * Both frontview and sideview are set up as 'visible in timeline' so we can always see them.
-* Frontview has it's visible frame on frame 0 and an empty-frame on frame 23.
-* Side view has it's visible frame on frame 23 and an empty view on frame 0.
+* Frontview has its visible frame on frame 0 and an empty-frame on frame 23.
+* Side view has its visible frame on frame 23 and an empty view on frame 0.
 * The end of the animation is set to 23.
 
 .. image:: /images/en/category_projection/projection_image_10.png 

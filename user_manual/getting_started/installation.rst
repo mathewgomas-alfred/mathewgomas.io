@@ -142,7 +142,7 @@ that might make the effort worth it:
 
 -  You can follow the development of Krita on the foot. If you compile
    Krita regularly from the development repository, you will be able to
-   play withall the new features that the developers are working on.
+   play with all the new features that the developers are working on.
 -  You can compile optimized for your processor. Most pre-built packages
    are built for the lowest-common denominator.
 -  You will be getting all the bug fixes as soon as possible as well.

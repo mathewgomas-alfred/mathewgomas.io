@@ -80,7 +80,7 @@ Now, you could technically quickly fix this by using a white balancing filter, l
 
 Another example where metamerism messes things up is with screen projections.
 
-We have a presentation where we mark one type of item with red, another with yellow and yet another with purple. On a computer the difference between the colors are very obvious.
+We have a presentation where we mark one type of item with red, another with yellow and yet another with purple. On a computer the differences between the colors are very obvious.
 
 .. figure:: /images/en/color_category/Krita_metamerism_presentation.svg 
    :figwidth: 800

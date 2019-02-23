@@ -61,7 +61,7 @@ There are some additions to Krita which makes getting a backtrace much easier on
 
 .. note::
 
-    Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT debugger is not needed for getting the backtrace.}}
+    Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT debugger is not needed for getting the backtrace.
 
 Using the Debug Package
 -----------------------

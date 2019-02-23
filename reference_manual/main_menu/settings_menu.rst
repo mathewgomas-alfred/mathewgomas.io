@@ -72,7 +72,7 @@ From this point on, whenever you press :kbd:`Ctrl + G`  you'll get a new :guilab
 Manage Resources
 ----------------
 
-Manage the resources.You can read more about it :ref:`here <resource_management>`.
+Manage the resources. You can read more about it :ref:`here <resource_management>`.
 
 .. index:: Language
 

@@ -123,7 +123,7 @@ Groups and Blending Mode (Composite Mode):
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The group blending mode in Krita has priority over child layers and overrides it. This can be surprising for Photoshop users. On Photoshop you can use groups to just clean your layer stack and keep blending mode of your layer compositing through all the stack.  In Krita the compositing will happen at first level inside the group, then taking into account the blending mode of the group itself.
-Both system have pros and cons. Krita’s way is more predictable according to some artists,  compositing-wise. The PS way leads to a cleaner and better ordered layer stack visually wise. 
+Both systems have pros and cons. Krita’s way is more predictable according to some artists,  compositing-wise. The PS way leads to a cleaner and better ordered layer stack visually wise. 
 
 Multi Layer Transform or Move
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -176,7 +176,7 @@ This is Krita's strong point. There are many paint tools and they have a lot of 
 Tools
 ^^^^^
 
-In Krita, there is a totally different paradigm for defining what ‘tools’ are compared to PS. Unlike in PS, you will not find the brush, eraser, clone, blur tool, etc. Instead, you will find the *way to trace* your strokes on the canvas: freehand, line, rectangle, circle, multiple brush, etc. When you have selected the ‘way to trace’ you can choose the *way to paint*: erasing / cloning / blurring, etc are all part of  *way it paint* managed by the brush-engines options. These brush engine options are saved into so called *presets*, which you can find on ‘Brush presets’.  You can fine tune, and build your own presets using the ‘Edit Brush Settings’ icon on the top tool bar. 
+In Krita, there is a totally different paradigm for defining what ‘tools’ are compared to PS. Unlike in PS, you will not find the brush, eraser, clone, blur tool, etc. Instead, you will find a *way to trace* your strokes on the canvas: freehand, line, rectangle, circle, multiple brush, etc. When you have selected the ‘way to trace’ you can choose the *way to paint*: erasing / cloning / blurring, etc are all part of  *way it paint* managed by the brush-engines options. These brush engine options are saved into so-called *presets*, which you can find on ‘Brush presets’.  You can fine tune, and build your own presets using the ‘Edit Brush Settings’ icon on the top tool bar. 
 
 Erasing
 ^^^^^^^
@@ -188,7 +188,7 @@ Useful shortcuts
 
 * :kbd:`Shift`:  Grow or Shrink the brush size (or :kbd:`[` and :kbd:`]`).
 * <kbd>/</kbd>: Switch last preset selected and current (ex: a pencil preset, and an eraser preset).
-* :kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of active color
+* :kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active color
 * :kbd:`I` and :kbd:`O`: increment opacity plus or minus.
 * :kbd:`D`: Reset color to black/foreground and white/background
 * :kbd:`X`: Switch background and foreground colors
@@ -235,12 +235,12 @@ As mentioned in the introduction, Krita is a specialized paint application. Thus
 Brush Engines
 ~~~~~~~~~~~~~
 
-Krita has a lot of different so called brush engines. These brush engines define various methods on how the pixels end up on your canvas. Brush engines with names like Grid, Particles, Sketch and others will bring you new experiences on how the  brushes work and a new landscape of possible results. You can start customizing brushes by using the brush-settings editor, which is accessible via the toolbar, but it's much easier to just press :kbd:`F5`.
+Krita has a lot of different so-called brush engines. These brush engines define various methods on how the pixels end up on your canvas. Brush engines with names like Grid, Particles, Sketch and others will bring you new experiences on how the  brushes work and a new landscape of possible results. You can start customizing brushes by using the brush-settings editor, which is accessible via the toolbar, but it's much easier to just press :kbd:`F5`.
 
 Tags for brush presets
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This is very useful way to configure brush presets. Each brush can have any amount of tags and be in any group. You can make tag for blending brushes, for texture brushes, for effect brushes, favorites etc.
+This is a very useful way to configure brush presets. Each brush can have any amount of tags and be in any group. You can make tag for blending brushes, for texture brushes, for effect brushes, favorites etc.
 
 Settings curves
 ~~~~~~~~~~~~~~~
@@ -256,7 +256,7 @@ The Pop-up Palette
 .. image:: /images/en/Krita-popuppalette.png
    :align: center
 
-Easily to be found on |mouseright|, the pop-up palette allows you to quickly access brushes, a color history and a color selector within arm's reach. The brushes are determined by tag, and pressing the lower-right configure button calls a drop-down to change tags. This allows you to tag brushes in the preset docker by workflow, and quickly access the right brushes for the workflow you need for your image.
+Easily to be found on |mouseright|, the pop-up palette allows you to quickly access brushes, color history and a color selector within arm's reach. The brushes are determined by tag, and pressing the lower-right configure button calls a drop-down to change tags. This allows you to tag brushes in the preset docker by workflow, and quickly access the right brushes for the workflow you need for your image.
 
 Transformations
 ~~~~~~~~~~~~~~~
@@ -291,7 +291,7 @@ If you want to delete the white of the paper from a scanned artwork , you can us
 Many Blending Modes
 ~~~~~~~~~~~~~~~~~~~
 
-If you like using blending modes, Krita has a many of them -- over 70! You have plenty of room for experimentation. 
+If you like using blending modes, Krita has many of them -- over 70! You have plenty of room for experimentation. 
 A special system of favorite blending modes has been created to let you have fast access to the ones you use the most.
 
 Painting Assistants
@@ -355,7 +355,7 @@ Krita has a pretty impressive pack of filters available, but you will probably m
 Automatic healing tool
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Krita does not have an automatic healing tool. It does, however, have a so called clone tool which can be used to do a healing correction, although not automatically.
+Krita does not have an automatic healing tool. It does, however, have a so-called clone tool which can be used to do a healing correction, although not automatically.
 
 Macro Recording
 ~~~~~~~~~~~~~~~

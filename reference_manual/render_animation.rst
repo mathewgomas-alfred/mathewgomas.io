@@ -42,7 +42,7 @@ Render Animation
 ----------------
 
 Render As
-    The file format to render to. All except gif have extra options that can be manipulated via {{MenuChoice|...}}.
+    The file format to render to. All except gif have extra options that can be manipulated via :guilabel:`...`.
 File
     Location and name of the rendered animation.
 FFMpeg

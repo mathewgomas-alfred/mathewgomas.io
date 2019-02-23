@@ -21,7 +21,7 @@ Selections allow you to pick a specific area of your artwork to change. There ar
 Creating Selections
 -------------------
 
-The most common selection tools all exist at the bottom of the toolbox. Each tool selects things slightly differently. The links for each tool go into a more detailed description with how to use it.
+The most common selection tools all exist at the bottom of the toolbox. Each tool selects things slightly differently. The links for each tool go into a more detailed description of how to use it.
 
 .. csv-table::
 

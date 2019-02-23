@@ -23,7 +23,7 @@ A naive person would suggest the following solution: do your work within the CMY
 
 * Painting in a CMYK space doesn’t guarantee that the colors will be the same on your printer. For each combination of Ink, Paper and Printing device, the resulting gamut of colors you can use is different. Which means that each of these could have a different profile associated with them.
 * Furthermore, even if you have the profile and are working in the exact color space that your printer can output, the CMYK color space is very irregular, meaning that the color maths isn’t as nice as in other spaces. Blending modes are different in CMYK as well.
-* Finally, working in that specific CMYK space means that the image is stuck to that space. If you are preparing your work for  different a CMYK profile, due the paper, printer or ink being different, you might have a bigger gamut with more bright colors that you would like to take advantage of.
+* Finally, working in that specific CMYK space means that the image is stuck to that space. If you are preparing your work for  different a CMYK profile, due to the paper, printer or ink being different, you might have a bigger gamut with more bright colors that you would like to take advantage of.
 
 So ideally, you would do the image in RGB, and use all your favorite RGB tools, and let the computer do a conversion to a given CMYK space on the fly, just for preview. This is possible, and is what we call ''Soft Proofing''.
 

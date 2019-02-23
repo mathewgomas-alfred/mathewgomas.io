@@ -25,7 +25,7 @@ As humans are the ones using computers, we have made it so that computers will g
    :align: center
    :figwidth: 800
    
-   One of the most common issues people have with Krita's color management is the assigning of the right colorspace to the encoded TRC. Above, the center Pepper is the right one, where the encoded and assigned TRC are the same. To the left we have a Pepper encoded in sRGB, but assigned a linear profile, and to the right we have a Pepper encoded with a linear TRC and assigned a sRGB TRC. Image from `Pepper & Carrot <http://www.peppercarrot.com/>`_
+   One of the most common issues people have with Krita's color management is the assigning of the right colorspace to the encoded TRC. Above, the center Pepper is the right one, where the encoded and assigned TRC are the same. To the left we have a Pepper encoded in sRGB, but assigned a linear profile, and to the right we have a Pepper encoded with a linear TRC and assigned an sRGB TRC. Image from `Pepper & Carrot <http://www.peppercarrot.com/>`_
 
 The following table shows how there's a lot of space being used by lighter values in a linear space compared to the default sRGB trc of our modern computers and other TRCs available in our delivered profiles:
 

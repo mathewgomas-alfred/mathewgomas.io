@@ -78,7 +78,7 @@ Select .bundle file format from the file type if it is not already selected, bro
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can create your own bundle from the resources of your choice. Click one the create bundle button, This will open a dialog box as shown below
+You can create your own bundle from the resources of your choice. Click on the create bundle button, This will open a dialog box as shown below
 
 .. image:: /images/en/Creating-bundle.png
 

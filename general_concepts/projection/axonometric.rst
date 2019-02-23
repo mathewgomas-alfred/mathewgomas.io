@@ -37,9 +37,9 @@ True isometric is done with a 90-54.736=35.264° angle from ground plane:
 .. image:: /images/en/category_projection/projection-cube_10.svg 
    :align: center
 
-(as you can see, it doesn't line up perfectly, because Inkscape, while more designed for making these kind of diagrams than Krita, doesn't have tools to manipulate the line's angle in degrees)
+(as you can see, it doesn't line up perfectly, because Inkscape, while more designed for making these kinds of diagrams than Krita, doesn't have tools to manipulate the line's angle in degrees)
 
-This is a bit of an awkward angle, and on top of that, it doesn't line up with pixels sensibly, so for videogames a an angle of 30° from the ground plane is used.
+This is a bit of an awkward angle, and on top of that, it doesn't line up with pixels sensibly, so for videogames an angle of 30° from the ground plane is used.
 
 .. image:: /images/en/category_projection/projection-cube_11.svg 
    :align: center
@@ -61,7 +61,7 @@ Then crop it by setting the crop tool to 'layer', and use :menuselection:`filter
 .. image:: /images/en/category_projection/projection_image_16.png 
    :align: center
 
-(Tip, to resize a vector but keep it's angle, you just select it with the shape handling tool(the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`shift` to constrain the ratio. This'll allow you to keep the angle)
+(Tip, to resize a vector but keep its angle, you just select it with the shape handling tool(the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`shift` to constrain the ratio. This'll allow you to keep the angle)
 
 The lower image is 'the back seen from the front', we'll be using this to determine where the ear should go.
 
@@ -138,7 +138,7 @@ Using the parallel rulers, you can then figure out the position of a point in 3d
 
 As you can see, this version both looks more 3d as well as more creepy.
 
-That's because there's less steps involved as the previous version -- We're deriving our image directly from the orthographic view -- so there's less errors involved.
+That's because there are less steps involved as the previous version -- We're deriving our image directly from the orthographic view -- so there are less errors involved.
 
 The creepiness is because we've had the tiniest bit of stylisation in our sideview, so the eyes come out HUGE. This is because when we stylise the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
 

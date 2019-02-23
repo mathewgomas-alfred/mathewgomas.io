@@ -86,13 +86,13 @@ Scumbling
 .. image:: /images/en/color_category/Color_scumble2.gif
    :align: center
 
-Like most painting programs, Krita allow you to pick a :ref:`option_brush_tip`, which can be used to create a textured effect like that of scumbling.
+Like most painting programs, Krita allows you to pick a :ref:`option_brush_tip`, which can be used to create a textured effect like that of scumbling.
 
 .. image:: /images/en/color_category/Color_scumble.gif
    :align: center
 
 
-Krita's brush engines also allows you to use :ref:`option_texture`. This allows you to create interesting and stylized screentone-like effects.
+Krita's brush engines also allow you to use :ref:`option_texture`. This allows you to create interesting and stylized screentone-like effects.
 
 With glazing can get you pretty far when it comes to *defining planes and forms*, scumbling is the best method to *create texture and to break up big pasty flats* in your painting.
 
@@ -140,9 +140,9 @@ By clicking the **color buttons** below each mixer you can choose a palette of c
 Other Tips
 ----------
 
-Outside of making it easier to create smooth gradients, mixing has another benefit: It allows you create a cohesive piece.
+Outside of making it easier to create smooth gradients, mixing has another benefit: It allows you to create a cohesive piece.
 
-Limiting the amount of colors we use and then mixing tends to give a more cohesive palette, as we're not trying to do too much at once. This cohesive palette in turn means it will become easier to create a certain mood in an image. Sometimes, mixing in a little bit of accent color can also create unexpected results which in turn can be a little discovery for the audience to delight over as they discover the world of your image.
+Limiting the number of colors we use and then mixing tends to give a more cohesive palette, as we're not trying to do too much at once. This cohesive palette in turn means it will become easier to create a certain mood in an image. Sometimes, mixing in a little bit of accent color can also create unexpected results which in turn can be a little discovery for the audience to delight over as they discover the world of your image.
 
 What we can learn from this, is that the next time we select, say, gray, instead of reaching for a random or generic gray from the Advanced Color Selector, consider using one of Krita's many wonderful mixing tools to create an interesting and fitting gray from hues that are roughly complementary (opposite each other on the hue wheel).
 

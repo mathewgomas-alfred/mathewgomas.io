@@ -248,7 +248,7 @@ Masks
 
 Masks are a type of sub-effect applied to a layer, usually driven by a grayscale image.
 
-The primary type of mask is a :ref:`transparency_masks`, which allows you to use a grayscale image to determine the transparency, where black makes everything transparent and white makes the pixel fully opaque.
+The primary types of mask are :ref:`transparency_masks`, which allow you to use a grayscale image to determine the transparency, where black makes everything transparent and white makes the pixel fully opaque.
 
 You can paint on masks with any of the brushes, or convert a normal paint-layer to a mask. The big benefit of masks is that you can make things transparent without removing the underlying pixels. Furthermore, you can use masks to reveal or hide a whole group layer at once!
 
@@ -316,7 +316,7 @@ Layer Effects or Layer Styles are :program:`Photoshop's` unique brand of Filter 
 Transformations
 ---------------
 
-**Transformations** are kind of like filters, in that these are operations done on the pixels of an image.  We have regular image and layer wide transformations in the image and layer top menus, so that you may resize, flip and rotate the whole image.
+**Transformations** are kind of like filters, in that these are operations done on the pixels of an image.  We have a regular image and layer wide transformations in the image and layer top menus, so that you may resize, flip and rotate the whole image.
 
 We also have the :ref:`crop_tool`, which only affects the canvas size, and the :ref:`move_tool` which only moves a given layer.
 However, if you want more control, Krita offers a :ref:`transform_tool`.
@@ -363,7 +363,7 @@ With all this technical stuff, you might forget that Krita is a painting program
    Krita's vanishing point assistants in action
 
 :ref:`grids_and_guides_docker`
- Very straightforward guiding tools which shows grids or guiding lines that can be configured.
+ Very straightforward guiding tool which shows grids or guiding lines that can be configured.
 :ref:`snapping`
  You can snap to all sorts of things. Grids, guides, extensions, orthogonals, image centers and bounding boxes.
 :ref:`painting_with_assistants`

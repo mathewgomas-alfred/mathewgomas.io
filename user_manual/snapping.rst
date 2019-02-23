@@ -51,7 +51,7 @@ Orthogonal (Vector Only)
 .. image:: /images/en/Snap-node.png
 
 Node (Vector Only)
-    This snaps a vector node or object to the nodes of another path.
+    This snaps a vector node or an object to the nodes of another path.
 
 .. image:: /images/en/Snap-extension.png
 

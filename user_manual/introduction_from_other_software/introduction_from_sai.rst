@@ -64,7 +64,7 @@ This is in the tool options docker of the freehand brush. Use Basic Smoothing fo
 Transparency
 ~~~~~~~~~~~~~
 
-So one of the things that throws a lot of Paint Tool Sai users off is that Krita uses checkers to display transparency, which is actually not that uncommon. Still, if you want to have the canvas background to be white, this is possible. Just choose 'Background: As Canvas Color' in the new image dialogue and the image background will be white. You can turn it back to transparent via :menuselection:`image --> change image background color`. If you export a PNG or JPG, make sure to uncheck 'save transparency' and to make the background color white(it's black by default).
+So one of the things that throw a lot of Paint Tool Sai users off is that Krita uses checkers to display transparency, which is actually not that uncommon. Still, if you want to have the canvas background to be white, this is possible. Just choose 'Background: As Canvas Color' in the new image dialogue and the image background will be white. You can turn it back to transparent via :menuselection:`image --> change image background color`. If you export a PNG or JPG, make sure to uncheck 'save transparency' and to make the background color white(it's black by default).
 
 .. image:: /images/en/Krita-color-to-alpha.png
    :align: center
@@ -93,7 +93,7 @@ Blending Modes
 Krita has a lot of Blending modes, and thankfully all of Paint Tool Sai's are amongst them except binary. To manage the blending modes, each of them has a little check-box that you can tick to add them to the favorites.
 
 Multiple, Screen, Overlay and Normal are amongst the favorites.
-Krita's Luminosity is actually slightly different from Paint Tool Sai's and it replaces the relative brightness of a color with the relative brightness of the color of the layer.
+Krita's Luminosity is actually slightly different from Paint Tool Sai's and it replaces the relative brightness of color with the relative brightness of the color of the layer.
 
 Sai's Luminosity mode is actually the same as Krita's *Addition* or *linear dodge* mode. The Shade mode is the same as *Color Burn* and *Hard Mix* is the same as the lumi and shade mode.
 
@@ -166,7 +166,7 @@ Lock the layer with the padlock so you don't draw on it.
 Quick Layer select
 ~~~~~~~~~~~~~~~~~~
 
-If you hold :kbd:`R` and press a spot on your drawing, Krita will select the layer underneath the cursor. Really useful when dealing with a large amount of layers.
+If you hold :kbd:`R` and press a spot on your drawing, Krita will select the layer underneath the cursor. Really useful when dealing with a large number of layers.
 
 Color Management
 ~~~~~~~~~~~~~~~~
@@ -195,7 +195,7 @@ With filters like color balance and curves you can make easy shadow layers. In f
 Pop-up palette
 ~~~~~~~~~~~~~~~
 
-This is the little circular thing that is by default on the right click. You can organize your brushes in tags, and use those tags to fill up the pop-up palette. It also keeps a little color selector and a color history, so you can switch brushes on the fly.
+This is the little circular thing that is by default on the right click. You can organize your brushes in tags, and use those tags to fill up the pop-up palette. It also keeps a little color selector and color history, so you can switch brushes on the fly.
 
 .. image:: /images/en/Krita-popuppalette.png
    :align: center

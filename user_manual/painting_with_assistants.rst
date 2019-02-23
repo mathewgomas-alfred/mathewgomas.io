@@ -34,7 +34,7 @@ The following assistants are available in Krita:
 Types:
 ------
 
-There's several types in Krita. You can select a type of assistant via
+There are several types in Krita. You can select a type of assistant via
 the tool options docker.
 
 .. _assistant_ellipse:
@@ -131,7 +131,7 @@ Fish Eye Point
 
 Like the vanishing point assistant, this assistant is per a set of
 parallel lines in a 3d space. So to use it effectively, use two, where
-the second is at a 90 degree angle of the first, and add a vanishing
+the second is at a 90 degrees angle of the first, and add a vanishing
 point to the center of both. Or combine one with a parallel ruler and a
 vanishing point, or even one with two vanishing points. The
 possibilities are quite large.
@@ -163,7 +163,7 @@ Krita for technical drawing.
 This tutorial below should give you an idea of how to set up the
 assistants for specific types of technical views.
 
-If you want to instead do true projection, check out :ref:`the projection category <cat_projection>`.
+If you want to instead do the true projection, check out :ref:`the projection category <cat_projection>`.
 
 Orthographic
 ~~~~~~~~~~~~
