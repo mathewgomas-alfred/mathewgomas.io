@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___tools___polygonal_select\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___tools___polygonal_select\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-22 17:07+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
@@ -54,10 +55,10 @@ msgstr "|toolselectpolygon|"
 
 #: ../../reference_manual/tools/polygonal_select.rst:20
 msgid ""
-"This tool, represented by a polygon with a dashed border, allows you to make"
-" :ref:`selections_basics` of a polygonal area point by point. Click where you"
-" want each point of the Polygon to be. Double click to end your polygon and"
-" finalize your selection area."
+"This tool, represented by a polygon with a dashed border, allows you to "
+"make :ref:`selections_basics` of a polygonal area point by point. Click "
+"where you want each point of the Polygon to be. Double click to end your "
+"polygon and finalize your selection area."
 msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:24
@@ -66,8 +67,8 @@ msgstr "Керування за допомогою клавіатури"
 
 #: ../../reference_manual/tools/polygonal_select.rst:26
 msgid ""
-":kbd:`R` sets the selection to 'replace' in the tool options, this is the"
-" default mode."
+":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
+"default mode."
 msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:27
@@ -80,9 +81,9 @@ msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:29
 msgid ""
-":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can"
-" release the :kbd:`Shift` key while dragging, but it will still be set to"
-" 'add'. Same for the others."
+":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can "
+"release the :kbd:`Shift` key while dragging, but it will still be set to "
+"'add'. Same for the others."
 msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:30
@@ -95,14 +96,14 @@ msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:32
 msgid ""
-":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to "
-" 'intersect'."
+":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
+"'intersect'."
 msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:36
 msgid ""
-"You can switch the behaviour of the Alt key to use Ctrl instead by toggling"
-" the switch in the :ref:`general_settings`"
+"You can switch the behaviour of the Alt key to use Ctrl instead by toggling "
+"the switch in the :ref:`general_settings`"
 msgstr ""
 
 #: ../../reference_manual/tools/polygonal_select.rst:39
@@ -111,6 +112,6 @@ msgstr "Параметри інструмента"
 
 #: ../../reference_manual/tools/polygonal_select.rst:42
 msgid ""
-"This toggles whether or not to give selections feathered edges. Some people"
-" prefer hard-jagged edges for their selections."
+"This toggles whether or not to give selections feathered edges. Some people "
+"prefer hard-jagged edges for their selections."
 msgstr ""

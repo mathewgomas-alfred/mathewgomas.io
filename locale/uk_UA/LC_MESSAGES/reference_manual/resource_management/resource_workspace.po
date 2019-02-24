@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___resource_management___resource_workspace\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___resource_management___resource_workspace\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-22 17:32+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:1
@@ -30,25 +31,25 @@ msgstr "Робочі простори"
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:18
 msgid ""
-"Workspaces are basically saved configurations of dockers.  Each workspace"
-" saves how the dockers are grouped and where they are placed on the screen. "
-" They allow you to easily move between workflows without having to manual"
-" reconfigure your setup each time.  They can be as simple or as complex as"
-" you want."
+"Workspaces are basically saved configurations of dockers.  Each workspace "
+"saves how the dockers are grouped and where they are placed on the screen.  "
+"They allow you to easily move between workflows without having to manual "
+"reconfigure your setup each time.  They can be as simple or as complex as "
+"you want."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:20
 msgid ""
-"Workspaces can only be accessed via the toolbar or :menuselection:`Window -->"
-" Workspaces` There's no docker for them.  You can save workspaces, in which"
-" your current configuration is saved. You can also import them(from a \\*.kws"
-" file), or delete them(which black lists them)."
+"Workspaces can only be accessed via the toolbar or :menuselection:`Window --"
+"> Workspaces` There's no docker for them.  You can save workspaces, in which "
+"your current configuration is saved. You can also import them(from a \\*.kws "
+"file), or delete them(which black lists them)."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:22
 msgid ""
-"Workspaces can technically be tagged, but outside of the resource manager"
-" this is not possible."
+"Workspaces can technically be tagged, but outside of the resource manager "
+"this is not possible."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:25
@@ -57,10 +58,10 @@ msgstr "Компонування вікна"
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:27
 msgid ""
-"When you work with multiple screens, a single window with a single workspace"
-" won't be enough. For multi monitor setups we instead can use sessions."
-" Window layouts allow us to store multiple windows, their positions and the"
-" monitor they were on."
+"When you work with multiple screens, a single window with a single workspace "
+"won't be enough. For multi monitor setups we instead can use sessions. "
+"Window layouts allow us to store multiple windows, their positions and the "
+"monitor they were on."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:29
@@ -74,11 +75,11 @@ msgstr "Основна робоча область слідує за фокус�
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:32
 msgid ""
-"This treats the workspace in the first window as the 'primary' workspace, and"
-" when you switch focus, it will switch the secondary windows to that primary"
-" workspace. This is useful when the secondary workspace is a very sparse"
-" workspace with few dockers, and the primary is one with a lot of different"
-" dockers."
+"This treats the workspace in the first window as the 'primary' workspace, "
+"and when you switch focus, it will switch the secondary windows to that "
+"primary workspace. This is useful when the secondary workspace is a very "
+"sparse workspace with few dockers, and the primary is one with a lot of "
+"different dockers."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:34
@@ -87,9 +88,9 @@ msgstr "Показувати активне зображення у всіх в�
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:34
 msgid ""
-"This will synchronise the currently viewed image in all windows. Without it,"
-" different windows can open seperate views for an image via"
-" :menuselection:`Window --> New View --> document.kra`."
+"This will synchronise the currently viewed image in all windows. Without it, "
+"different windows can open seperate views for an image via :menuselection:"
+"`Window --> New View --> document.kra`."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:37
@@ -98,13 +99,13 @@ msgstr "Сеанси"
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:39
 msgid ""
-"Sessions allow Krita to store the images and windows opened. You can tell"
-" Krita to automatically save current or recover previous sessions if so"
-" configured in the :ref:`misc_settings`."
+"Sessions allow Krita to store the images and windows opened. You can tell "
+"Krita to automatically save current or recover previous sessions if so "
+"configured in the :ref:`misc_settings`."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_workspace.rst:41
 msgid "You can access sessions from :menuselection:`File --> Sessions`."
 msgstr ""
-"Доступ до сеансів можна отримати за допомогою пункту меню"
-" :menuselection:`Файл --> Сеанси`."
+"Доступ до сеансів можна отримати за допомогою пункту меню :menuselection:"
+"`Файл --> Сеанси`."

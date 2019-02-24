@@ -6,25 +6,26 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___preferences___shortcut_settings\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___preferences___shortcut_settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-22 17:15+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
 msgid "Saving, loading and sharing custom shortcuts"
 msgstr ""
-"Збереження, завантаження і оприлюднення нетипових наборів клавіатурних"
-" скорочень"
+"Збереження, завантаження і оприлюднення нетипових наборів клавіатурних "
+"скорочень"
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:1
 msgid "Configuring shortcuts in Krita."
@@ -36,12 +37,12 @@ msgstr "Параметри клавіатурних скорочень"
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:18
 msgid ""
-"Most of Krita's shortcuts are configured in the menu section"
-" :menuselection:`settings --> configure Krita --> configure Shortcuts`. The"
-" shortcuts configured here are simple key combinations, for example Ctrl+X to"
-" cut. Shortcuts can also be sequences of key combinations (e.g. Shift+S then"
-" B). Krita also has a special interface for configuring the mouse and stylus"
-" events sent to the canvas, found under :ref:`canvas_input_settings`."
+"Most of Krita's shortcuts are configured in the menu section :menuselection:"
+"`settings --> configure Krita --> configure Shortcuts`. The shortcuts "
+"configured here are simple key combinations, for example Ctrl+X to cut. "
+"Shortcuts can also be sequences of key combinations (e.g. Shift+S then B). "
+"Krita also has a special interface for configuring the mouse and stylus "
+"events sent to the canvas, found under :ref:`canvas_input_settings`."
 msgstr ""
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:21
@@ -63,8 +64,8 @@ msgstr "Список скорочень"
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:26
 msgid ""
-"Shortcuts are organized into sections. Each shortcut can be given a primary"
-" and alternate key combination"
+"Shortcuts are organized into sections. Each shortcut can be given a primary "
+"and alternate key combination"
 msgstr ""
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:28
@@ -73,8 +74,8 @@ msgstr "Завантаження і збереження профілів ско
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:28
 msgid ""
-"The bottom row of buttons contains commands for exporting and import keyboard"
-" shortcuts."
+"The bottom row of buttons contains commands for exporting and import "
+"keyboard shortcuts."
 msgstr ""
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:31
@@ -91,11 +92,11 @@ msgstr "Основне і альтернативне скорочення"
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:36
 msgid ""
-"Each shortcut is assigned a default, which may be empty. The user can assign"
-" up to two custom shortcuts, known as primary and alternate shortcuts. Simply"
-" click on a \"Custom\" button and type the key combination you wish to assign"
-" to the shortcut. If the key combination is already in use for another"
-" shortcut, the dialog will prompt the user to resolve the conflict."
+"Each shortcut is assigned a default, which may be empty. The user can assign "
+"up to two custom shortcuts, known as primary and alternate shortcuts. Simply "
+"click on a \"Custom\" button and type the key combination you wish to assign "
+"to the shortcut. If the key combination is already in use for another "
+"shortcut, the dialog will prompt the user to resolve the conflict."
 msgstr ""
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:39
@@ -104,19 +105,19 @@ msgstr "Схеми скорочень"
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:39
 msgid ""
-"Many users migrate to Krita from other tools with different default"
-" shortcuts. Krita users may change the default shortcuts to mimic these other"
-" programs.  Currently, Krita ships with defaults for Photoshop and Paint Tool"
-" Sai. Additional shortcut schemes can be placed in the ~/.config/krita/input/"
-" folder."
+"Many users migrate to Krita from other tools with different default "
+"shortcuts. Krita users may change the default shortcuts to mimic these other "
+"programs.  Currently, Krita ships with defaults for Photoshop and Paint Tool "
+"Sai. Additional shortcut schemes can be placed in the ~/.config/krita/input/ "
+"folder."
 msgstr ""
 
 #: ../../reference_manual/preferences/shortcut_settings.rst:42
 msgid ""
-"Users may wish to export their shortcuts to use across machines, or even"
-" share with other users. This can be done with the save/load drop down. Note:"
-" the shortcuts can be saved and overridden manually by backingup the text"
-" file kritashortcutsrc located in ~/.config/krita/.  Additionally, the user"
-" can export a custom shortcut scheme file generated by merging the existing"
-" scheme defaults with the current customizations."
+"Users may wish to export their shortcuts to use across machines, or even "
+"share with other users. This can be done with the save/load drop down. Note: "
+"the shortcuts can be saved and overridden manually by backingup the text "
+"file kritashortcutsrc located in ~/.config/krita/.  Additionally, the user "
+"can export a custom shortcut scheme file generated by merging the existing "
+"scheme defaults with the current customizations."
 msgstr ""

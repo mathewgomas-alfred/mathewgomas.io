@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___main_menu___help_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 18:43+0200\n"
+"POT-Creation-Date: 2019-02-23 03:24+0100\n"
+"PO-Revision-Date: 2019-02-23 11:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
 "=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
@@ -37,7 +37,8 @@ msgid "Krita Handbook"
 msgstr "Підручник з Krita"
 
 #: ../../reference_manual/main_menu/help_menu.rst:19
-msgid "Opens a browser and sents you to the index of this manual."
+#| msgid "Opens a browser and sents you to the index of this manual."
+msgid "Opens a browser and sends you to the index of this manual."
 msgstr "Відкриває браузер і переходить на сторінку покажчика цього підручника."
 
 #: ../../reference_manual/main_menu/help_menu.rst:20
@@ -45,7 +46,8 @@ msgid "Report Bug"
 msgstr "Надіслати звіт про помилку"
 
 #: ../../reference_manual/main_menu/help_menu.rst:21
-msgid "Sents you to the bugtracker."
+#| msgid "Sents you to the bugtracker."
+msgid "Sends you to the bugtracker."
 msgstr "Відкриває сторінку системи звітування про вади."
 
 #: ../../reference_manual/main_menu/help_menu.rst:22
@@ -54,14 +56,22 @@ msgstr "Показати дані щодо системи для звітів щ
 
 #: ../../reference_manual/main_menu/help_menu.rst:23
 msgid ""
-"This is a selection of all the difficult to figure out technical information"
-" of your computer. This includes things like, which version of Krita you"
-" have, which version your operating system is, and most prudently, what kind"
-" of OpenGL functionality your computer is able to provide. The latter varies"
-" a lot between computers and due that it is one of the most difficult things"
-" to debug. Providing such information can help us figure out what is causing"
-" a bug."
+"This is a selection of all the difficult to figure out technical information "
+"of your computer. This includes things like, which version of Krita you "
+"have, which version your operating system is, and most prudently, what kind "
+"of OpenGL functionality your computer is able to provide. The latter varies "
+"a lot between computers and due that it is one of the most difficult things "
+"to debug. Providing such information can help us figure out what is causing "
+"a bug."
 msgstr ""
+"Тут буде зібрано усі технічні дані щодо вашого комп'ютера, які не є"
+" очевидними. Серед іншого, тут будуть дані щодо версії Krita, якою ви"
+" користуєтеся, версії операційної системи та, що є найцікавішим, типи"
+" функціональних можливостей OpenGL, які надаються обладнанням та програмним"
+" забезпеченням вашого комп'ютера. Цей набір даних може бути зовсім різним у"
+" схожих комп'ютерів, отже, причину пов'язаних із ним помилок дуже важко"
+" встановлювати. Надання вами даних щодо вашої системи може значно спростити"
+" розробникам пошук причин вад у роботі програми."
 
 #: ../../reference_manual/main_menu/help_menu.rst:24
 msgid "About Krita"

@@ -12,12 +12,12 @@ msgstr ""
 "PO-Revision-Date: 2019-02-22 17:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/filters/colors.rst:None
@@ -34,8 +34,8 @@ msgstr "Колір"
 
 #: ../../reference_manual/filters/colors.rst:18
 msgid ""
-"Similar to the Adjust filters, the color filter are image wide color"
-" operations."
+"Similar to the Adjust filters, the color filter are image wide color "
+"operations."
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:24
@@ -44,9 +44,9 @@ msgstr "Колір до альфи"
 
 #: ../../reference_manual/filters/colors.rst:26
 msgid ""
-"This filter allows you to make one single color transparent(alpha). By"
-" default when you run this filter white is selected, you can choose a color"
-" that you want to make transparent from the color selector"
+"This filter allows you to make one single color transparent(alpha). By "
+"default when you run this filter white is selected, you can choose a color "
+"that you want to make transparent from the color selector"
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:29
@@ -55,15 +55,16 @@ msgstr ".. image:: images/en/Color-to-alpha.png"
 
 #: ../../reference_manual/filters/colors.rst:30
 msgid ""
-"The Threshold indicates how much other colors will be considered mixture of"
-" the removed color and non-removed colors. For example, with threshold set to"
-" 255, and the removed color set to white, a 50% grey will be considered a"
-" mixture of black+white, and thus transformed in a 50% transparent black."
+"The Threshold indicates how much other colors will be considered mixture of "
+"the removed color and non-removed colors. For example, with threshold set to "
+"255, and the removed color set to white, a 50% grey will be considered a "
+"mixture of black+white, and thus transformed in a 50% transparent black."
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:36
 msgid ""
-"This filter is really useful in separating line-art from the white background."
+"This filter is really useful in separating line-art from the white "
+"background."
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:41
@@ -72,9 +73,9 @@ msgstr "Перенесення кольорів"
 
 #: ../../reference_manual/filters/colors.rst:43
 msgid ""
-"This filter converts the colors of the image to colors from the reference"
-" image. This is a quick way to change a color combination of an artwork to an"
-" already saved image or a reference image."
+"This filter converts the colors of the image to colors from the reference "
+"image. This is a quick way to change a color combination of an artwork to an "
+"already saved image or a reference image."
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:47
@@ -87,8 +88,8 @@ msgstr "Максимізувати канал"
 
 #: ../../reference_manual/filters/colors.rst:53
 msgid ""
-"This filter checks for all the channels of a each single color and set all"
-" but the highest value to 0."
+"This filter checks for all the channels of a each single color and set all "
+"but the highest value to 0."
 msgstr ""
 
 #: ../../reference_manual/filters/colors.rst:58
@@ -97,6 +98,6 @@ msgstr "Мінімізувати канал"
 
 #: ../../reference_manual/filters/colors.rst:60
 msgid ""
-"This is reverse to Maximise channel, it checks all the channels of a each"
-" single color and sets all but the lowest to 0."
+"This is reverse to Maximise channel, it checks all the channels of a each "
+"single color and sets all but the lowest to 0."
 msgstr ""

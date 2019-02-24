@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_contributors_manual___optimising_images\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-20 20:53+0200\n"
+"PO-Revision-Date: 2019-02-23 20:16+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -23,10 +23,11 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:1
 msgid "How to make and optimise images for use in the manual."
 msgstr ""
+"Як створювати і оптимізувати зображення для використання у цьому підручнику."
 
 #: ../../contributors_manual/optimising_images.rst:15
 msgid "Images for the Manual"
-msgstr ""
+msgstr "Зображення для підручника"
 
 #: ../../contributors_manual/optimising_images.rst:17
 msgid ""
@@ -82,7 +83,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:38
 msgid "With imagemagick, you can use the following command::"
-msgstr ""
+msgstr "Якщо користуватиметеся imagemagick, запам'ятайте таку команду::"
 
 #: ../../contributors_manual/optimising_images.rst:40
 #: ../../contributors_manual/optimising_images.rst:219
@@ -101,6 +102,7 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:44
 msgid "For making short gifs, you can use the following programs:"
 msgstr ""
+"Для створення невеличких анімацій у gif можете скористатися такими програмами:"
 
 #: ../../contributors_manual/optimising_images.rst:46
 msgid ""
@@ -121,7 +123,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:54
 msgid "The appropriate file format for the job."
-msgstr ""
+msgstr "Формат файлів, який відповідає завданню."
 
 #: ../../contributors_manual/optimising_images.rst:56
 msgid ""
@@ -137,6 +139,7 @@ msgstr "Знімки графічного інтерфейсу"
 #: ../../contributors_manual/optimising_images.rst:59
 msgid "This should use png, and if possible, in gif."
 msgstr ""
+"Такі зображення має бути збережено у форматі png і, якщо можливо, у gif."
 
 #: ../../contributors_manual/optimising_images.rst:60
 msgid "Images that have a lot of flat colors."
@@ -217,6 +220,8 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:85
 msgid "The other options is to use PNGCrush as mentioned in the linux section."
 msgstr ""
+"Крім того, можна скористатися PNGCrush, як про це згадується у розділі щодо"
+" linux."
 
 #: ../../contributors_manual/optimising_images.rst:91
 msgid "Optimising PNGS"
@@ -235,10 +240,14 @@ msgid ""
 "A PNG compressor using lossy techniques to reduce the amount of colors used "
 "in a smart way."
 msgstr ""
+"Засіб стискання PNG використовує методики зберігання зображення із втратою"
+" якості для розумного зменшення кількості кольорів."
 
 #: ../../contributors_manual/optimising_images.rst:97
 msgid "To use PNGquant, go to the folder of choice, and type::"
 msgstr ""
+"Щоб скористатися PNGquant, перейдіть до вибраної вами теки і віддайте таку"
+" команду::"
 
 #: ../../contributors_manual/optimising_images.rst:101
 msgid "`PNGQuant <https://pngquant.org/>`_"
@@ -255,7 +264,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:104
 msgid "A lossless PNG compressor. Usage::"
-msgstr ""
+msgstr "Засіб стискання PNG без втрат. Користування::"
 
 #: ../../contributors_manual/optimising_images.rst:108
 msgid "`PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_"
@@ -329,6 +338,8 @@ msgid ""
 "`ImageOptim <https://imageoptim.com/mac>`_ -- A Graphical User Interface "
 "wrapper around commandline tools like PNGquant and gifski."
 msgstr ""
+"`ImageOptim <https://imageoptim.com/mac>`_ — графічний інтерфейс до засобів"
+" командного рядка, зокрема PNGquant та gifski."
 
 #: ../../contributors_manual/optimising_images.rst:140
 msgid "Editing the metadata of a file"
@@ -354,7 +365,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:149
 msgid "Windows and OS X"
-msgstr ""
+msgstr "Windows та OS X"
 
 #: ../../contributors_manual/optimising_images.rst:151
 msgid ""
@@ -364,7 +375,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:156
 msgid "On Linux, you can also install exiftool."
-msgstr ""
+msgstr "У Linux ви можете встановити exiftool."
 
 #: ../../contributors_manual/optimising_images.rst:159
 msgid "Debian/Ubuntu"
@@ -372,11 +383,11 @@ msgstr "Debian/Ubuntu"
 
 #: ../../contributors_manual/optimising_images.rst:159
 msgid "``sudo apt-get install libimage-exiftool-perl``"
-msgstr ""
+msgstr "``sudo apt-get install libimage-exiftool-perl``"
 
 #: ../../contributors_manual/optimising_images.rst:162
 msgid "Viewing Metadata"
-msgstr ""
+msgstr "Перегляд метаданих"
 
 #: ../../contributors_manual/optimising_images.rst:164
 msgid ""
@@ -398,25 +409,31 @@ msgid ""
 "You can also use `ImageMagick's identify <https://www.imagemagick.org/script/"
 "identify.php>`_::"
 msgstr ""
+"Ви можете скористатися `identify з ImageMagick <"
+"https://www.imagemagick.org/script/"
+"identify.php>`_::"
 
 #: ../../contributors_manual/optimising_images.rst:175
 msgid "Stripping Metadata"
-msgstr ""
+msgstr "Вилучення метаданих"
 
 #: ../../contributors_manual/optimising_images.rst:177
 msgid ""
 "Stripping metadata from the example ``image.png`` can be done as follows:"
 msgstr ""
+"Вилучити метадані, наприклад, з файла ``image.png``, можна такою командою:"
 
 #: ../../contributors_manual/optimising_images.rst:180
 msgid "`exiftool -all= image.png`"
-msgstr ""
+msgstr "`exiftool -all= image.png`"
 
 #: ../../contributors_manual/optimising_images.rst:182
 msgid ""
 "`ExifTool <http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/"
 "Remove-EXIF-Metadata-from-Photos-with-exiftool>`_"
 msgstr ""
+"`ExifTool <http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/"
+"Remove-EXIF-Metadata-from-Photos-with-exiftool>`_"
 
 #: ../../contributors_manual/optimising_images.rst:182
 msgid ""
@@ -426,25 +443,29 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "OptiPNG"
-msgstr ""
+msgstr "OptiPNG"
 
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "`optipng -strip image.png` This will strip and compress the png file."
 msgstr ""
+"`optipng -strip image.png` Ця команда вилучить зайві дані і виконає стискання"
+" файла png."
 
 #: ../../contributors_manual/optimising_images.rst:188
 msgid ""
 "`ImageMagick <https://www.imagemagick.org/script/command-line-options."
 "php#strip>`_"
 msgstr ""
+"`ImageMagick <https://www.imagemagick.org/script/command-line-options."
+"php#strip>`_"
 
 #: ../../contributors_manual/optimising_images.rst:188
 msgid "`convert image.png --strip`"
-msgstr ""
+msgstr "`convert image.png --strip`"
 
 #: ../../contributors_manual/optimising_images.rst:191
 msgid "Extracting metadata"
-msgstr ""
+msgstr "Видобування метаданих"
 
 #: ../../contributors_manual/optimising_images.rst:193
 msgid ""
@@ -454,21 +475,23 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:196
 msgid "First extract the metadata to a profile by converting::"
-msgstr ""
+msgstr "Спочатку видобуваємо метадані до профілі перетворенням::"
 
 #: ../../contributors_manual/optimising_images.rst:200
 msgid "Then strip the file and readd the profile information::"
-msgstr ""
+msgstr "Далі, вилучаємо з файла зайві дані і повторно додаємо дані з профілю::"
 
 #: ../../contributors_manual/optimising_images.rst:203
 msgid ""
 "`ImageMagick's Convert <https://imagemagick.org/script/command-line-options."
 "php#profile>`_"
 msgstr ""
+"`Convert з ImageMagick <https://imagemagick.org/script/command-line-options."
+"php#profile>`_"
 
 #: ../../contributors_manual/optimising_images.rst:206
 msgid "Embedding description metadata"
-msgstr ""
+msgstr "Вбудовування описових метаданих"
 
 #: ../../contributors_manual/optimising_images.rst:208
 msgid ""
@@ -480,19 +503,19 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:210
 msgid "ExifTool"
-msgstr ""
+msgstr "ExifTool"
 
 #: ../../contributors_manual/optimising_images.rst:213
 msgid "Setting an exif value::"
-msgstr ""
+msgstr "Встановлення значення exif::"
 
 #: ../../contributors_manual/optimising_images.rst:217
 msgid "Setting the PNG chunk for description::"
-msgstr ""
+msgstr "Встановлення фрагмента PNG для опису::"
 
 #: ../../contributors_manual/optimising_images.rst:222
 msgid "Embedding license metadata"
-msgstr ""
+msgstr "Вбудовування метаданих щодо ліцензування"
 
 #: ../../contributors_manual/optimising_images.rst:224
 msgid ""
@@ -504,7 +527,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:227
 msgid "Using Properties"
-msgstr ""
+msgstr "Використання властивостей"
 
 #: ../../contributors_manual/optimising_images.rst:229
 msgid ""
@@ -514,7 +537,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:232
 msgid "For the GDPL::"
-msgstr ""
+msgstr "Для GDPL::"
 
 #: ../../contributors_manual/optimising_images.rst:236
 msgid "This defines a shorthand name and then license text."
@@ -522,7 +545,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:238
 msgid "For Creative Commons BY-SA 4.0::"
-msgstr ""
+msgstr "Для Creative Commons BY-SA 4.0::"
 
 #: ../../contributors_manual/optimising_images.rst:242
 msgid ""
@@ -532,7 +555,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:245
 msgid "Using XMP"
-msgstr ""
+msgstr "Використання XMP"
 
 #: ../../contributors_manual/optimising_images.rst:247
 msgid ""
@@ -557,11 +580,11 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data(if there is any)::"
-msgstr ""
+msgstr "Спочатку видобуваємо дані (якщо такі є)::"
 
 #: ../../contributors_manual/optimising_images.rst:264
 msgid "Then modify the resulting file, and embed the image data::"
-msgstr ""
+msgstr "Далі, вносимо зміни до файла-результату і вбудовуємо дані зображення::"
 
 #: ../../contributors_manual/optimising_images.rst:266
 msgid "With imagemagick you can use the profile option again."

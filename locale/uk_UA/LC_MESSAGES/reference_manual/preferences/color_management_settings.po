@@ -6,18 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___preferences___color_management_settings\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___preferences___color_management_settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
 "PO-Revision-Date: 2019-02-22 14:41+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:1
@@ -34,9 +35,9 @@ msgstr ".. image:: images/en/Krita_Preferences_Color_Management.png"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:21
 msgid ""
-"Krita offers extensive functionality for color management, utilising `Little"
-" CMS <http://www.littlecms.com/>`_ We describe Color Management in a more"
-" overall level here: :ref:`color_managed_workflow`."
+"Krita offers extensive functionality for color management, utilising `Little "
+"CMS <http://www.littlecms.com/>`_ We describe Color Management in a more "
+"overall level here: :ref:`color_managed_workflow`."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:25
@@ -57,8 +58,8 @@ msgstr "Коли вставляєте в Krita з інших програм"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:35
 msgid ""
-"The user can define what kind of conversion, if any, Krita will do to an"
-" image that is copied from other applications i.e. Browser, GIMP, etc."
+"The user can define what kind of conversion, if any, Krita will do to an "
+"image that is copied from other applications i.e. Browser, GIMP, etc."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:37
@@ -67,8 +68,8 @@ msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:38
 msgid ""
-"This option will show the pasted image in the default Krita ICC profile of"
-" sRGB."
+"This option will show the pasted image in the default Krita ICC profile of "
+"sRGB."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:39
@@ -77,11 +78,11 @@ msgstr "Припускати профіль монітора"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:40
 msgid ""
-"This option will show the pasted image in the monitor profile selected in"
-" system preferences."
+"This option will show the pasted image in the monitor profile selected in "
+"system preferences."
 msgstr ""
-"Цей пункт покаже вставлене зображення у профілі монітора, який вибрано у"
-" налаштуваннях системи."
+"Цей пункт покаже вставлене зображення у профілі монітора, який вибрано у "
+"налаштуваннях системи."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:42
 msgid "Ask each time"
@@ -89,8 +90,8 @@ msgstr "Запитувати щоразу"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:42
 msgid ""
-"Krita will ask the user each time an image is pasted, what to do with it."
-" This is the default."
+"Krita will ask the user each time an image is pasted, what to do with it. "
+"This is the default."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:46
@@ -105,20 +106,20 @@ msgstr "Використовувати компенсацію точки чор�
 
 #: ../../reference_manual/preferences/color_management_settings.rst:51
 msgid ""
-"This option will turn on Blackpoint Compensation for the conversion. BPC is"
-" explained by the maintainer of LCMS as following:"
+"This option will turn on Blackpoint Compensation for the conversion. BPC is "
+"explained by the maintainer of LCMS as following:"
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:53
 msgid ""
-"BPC is a sort of \"poor man's\" gamut mapping. It basically adjust contrast"
-" of images in a way that darkest tone of source device gets mapped to darkest"
-" tone of destination device. If you have an image that is adjusted to be"
-" displayed on a monitor, and want to print it on a large format printer, you"
-" should realize printer can render black significantly darker that the"
-" screen. So BPC can do the adjustment for you. It only makes sense on"
-" Relative colorimetric intent. Perceptual and Saturation does have an"
-" implicit BPC."
+"BPC is a sort of \"poor man's\" gamut mapping. It basically adjust contrast "
+"of images in a way that darkest tone of source device gets mapped to darkest "
+"tone of destination device. If you have an image that is adjusted to be "
+"displayed on a monitor, and want to print it on a large format printer, you "
+"should realize printer can render black significantly darker that the "
+"screen. So BPC can do the adjustment for you. It only makes sense on "
+"Relative colorimetric intent. Perceptual and Saturation does have an "
+"implicit BPC."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:56
@@ -128,8 +129,8 @@ msgstr "Уможливити оптимізації LittleCMS"
 #: ../../reference_manual/preferences/color_management_settings.rst:58
 msgid "Uncheck this option when using Linear Light RGB or XYZ."
 msgstr ""
-"Зніміть позначку з цього пункту, якщо використовуєте лінійний простий RGB або"
-" XYZ."
+"Зніміть позначку з цього пункту, якщо використовуєте лінійний простий RGB "
+"або XYZ."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:61
 msgid "Display"
@@ -141,8 +142,8 @@ msgstr "Використовувати профіль монітора сист�
 
 #: ../../reference_manual/preferences/color_management_settings.rst:64
 msgid ""
-"This option when selected will tell Krita to use the ICC profile selected in"
-" your system preferences."
+"This option when selected will tell Krita to use the ICC profile selected in "
+"your system preferences."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:65
@@ -151,13 +152,13 @@ msgstr "Профілі екрана"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:66
 msgid ""
-"There are as many of these as you have screens connected. The user can select"
-" an ICC profile which Krita will use independent of the monitor profile set"
-" in system preferences. The default is sRGB built-in. On Unix systems,"
-" profile stored in $/usr/share/color/icc (system location) or"
-" $~/.local/share/color/icc (local location) will be proposed. Profile stored"
-" in Krita preference folder, $~/.local/share/krita/profiles will be visible"
-" only in Krita."
+"There are as many of these as you have screens connected. The user can "
+"select an ICC profile which Krita will use independent of the monitor "
+"profile set in system preferences. The default is sRGB built-in. On Unix "
+"systems, profile stored in $/usr/share/color/icc (system location) or $~/."
+"local/share/color/icc (local location) will be proposed. Profile stored in "
+"Krita preference folder, $~/.local/share/krita/profiles will be visible only "
+"in Krita."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:68
@@ -166,9 +167,9 @@ msgstr "Відтворення кольорів"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:68
 msgid ""
-"Your choice of rendering intents is a way of telling Littlecms how you want"
-" colors mapped from one color space to another. There are four options"
-" available, all are explained on the :ref:`icc_profiles` manual page."
+"Your choice of rendering intents is a way of telling Littlecms how you want "
+"colors mapped from one color space to another. There are four options "
+"available, all are explained on the :ref:`icc_profiles` manual page."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:71
@@ -177,13 +178,13 @@ msgstr "Параметри проби кольорів"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:73
 msgid ""
-"These allow you to configure the *default* softproofing options. To configure"
-" the actual softproofing for the current image, go to :menuselection:`Image"
-" --> Image Properties --> Softproofing` ."
+"These allow you to configure the *default* softproofing options. To "
+"configure the actual softproofing for the current image, go to :"
+"menuselection:`Image --> Image Properties --> Softproofing` ."
 msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:75
 msgid ""
-"For indepth details about how to use softproofing, check out :ref:`the page"
-" on softproofing <soft_proofing>`."
+"For indepth details about how to use softproofing, check out :ref:`the page "
+"on softproofing <soft_proofing>`."
 msgstr ""

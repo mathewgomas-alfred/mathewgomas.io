@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___gradient_draw\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 15:34+0200\n"
+"PO-Revision-Date: 2019-02-23 14:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
 "=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
@@ -46,11 +46,16 @@ msgstr "|toolgradient|"
 
 #: ../../reference_manual/tools/gradient_draw.rst:20
 msgid ""
-"The Gradient tool is found in the Tools Panel. Left-Click dragging this tool"
-" over the active portion of the canvas will draw out the current gradient. "
-" If there is an active  selection then, similar to the :ref:`fill_tool`, the"
-" paint action will be confined to the selection's borders."
+"The Gradient tool is found in the Tools Panel. Left-Click dragging this tool "
+"over the active portion of the canvas will draw out the current gradient.  "
+"If there is an active  selection then, similar to the :ref:`fill_tool`, the "
+"paint action will be confined to the selection's borders."
 msgstr ""
+"Кнопку інструмента «Градієнт» розташовано на панелі «Інструменти»."
+" Перетягування кнопки на активну область полотна за допомогою лівої кнопки"
+" миші призведе до малювання градієнта із поточними параметрами. Якщо на"
+" зображенні є активна позначена область, подібно до інструмента"
+" :ref:`fill_tool`, дію з малювання буде обмежено позначеною областю."
 
 #: ../../reference_manual/tools/gradient_draw.rst:23
 msgid "Tool Options"
@@ -74,8 +79,8 @@ msgstr "Радіальний"
 
 #: ../../reference_manual/tools/gradient_draw.rst:30
 msgid ""
-"This will draw the gradient from a center, defined by where you start the"
-" stroke."
+"This will draw the gradient from a center, defined by where you start the "
+"stroke."
 msgstr ""
 "Використовувати градієнт з центра, який визначається точкою початку штриха."
 
@@ -85,11 +90,11 @@ msgstr "Квадрат"
 
 #: ../../reference_manual/tools/gradient_draw.rst:32
 msgid ""
-"This will draw the gradient from a center in a square shape, defined by where"
-" you start the stroke."
+"This will draw the gradient from a center in a square shape, defined by "
+"where you start the stroke."
 msgstr ""
-"Використовувати градієнт квадратної форми з центра, який визначається точкою"
-" початку штриха."
+"Використовувати градієнт квадратної форми з центра, який визначається точкою "
+"початку штриха."
 
 #: ../../reference_manual/tools/gradient_draw.rst:33
 msgid "Conical"
@@ -97,11 +102,11 @@ msgstr "Конічний"
 
 #: ../../reference_manual/tools/gradient_draw.rst:34
 msgid ""
-"This will wrap the gradient around a center, defined by where you start the"
-" stroke."
+"This will wrap the gradient around a center, defined by where you start the "
+"stroke."
 msgstr ""
-"Використовувати натягування градієнта навколо центра, який визначається"
-" точкою початку штриха."
+"Використовувати натягування градієнта навколо центра, який визначається "
+"точкою початку штриха."
 
 #: ../../reference_manual/tools/gradient_draw.rst:35
 msgid "Conical-symmetric"
@@ -109,11 +114,11 @@ msgstr "Симетричний конічний"
 
 #: ../../reference_manual/tools/gradient_draw.rst:36
 msgid ""
-"This will wrap the gradient around a center, defined by where you start the"
-" stroke, but will mirror the wrap once."
+"This will wrap the gradient around a center, defined by where you start the "
+"stroke, but will mirror the wrap once."
 msgstr ""
-"Використовувати натягування градієнта навколо центра, який визначається"
-" точкою початку штриха, але із віддзеркаленням натягування."
+"Використовувати натягування градієнта навколо центра, який визначається "
+"точкою початку штриха, але із віддзеркаленням натягування."
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "Shaped"
@@ -122,8 +127,8 @@ msgstr "За формою"
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "This will shape the gradient depending on the selection or layer."
 msgstr ""
-"Використати форму, яка визначається позначеною областю або шаром, для"
-" градієнта."
+"Використати форму, яка визначається позначеною областю або шаром, для "
+"градієнта."
 
 #: ../../reference_manual/tools/gradient_draw.rst:40
 msgid "Repeat:"
@@ -151,11 +156,11 @@ msgstr "Реверсивне"
 
 #: ../../reference_manual/tools/gradient_draw.rst:47
 msgid ""
-"This will repeat the gradient, alternating the normal direction and the"
-" reversed."
+"This will repeat the gradient, alternating the normal direction and the "
+"reversed."
 msgstr ""
-"Повторювати градієнт у одному напрямку, послідовно змінюючи при переході до"
-" наступного повтору його напрям."
+"Повторювати градієнт у одному напрямку, послідовно змінюючи при переході до "
+"наступного повтору його напрям."
 
 #: ../../reference_manual/tools/gradient_draw.rst:49
 msgid "Reverse"
@@ -168,5 +173,5 @@ msgstr "Обернути напрямок градієнта."
 #: ../../reference_manual/tools/gradient_draw.rst:52
 msgid "Doesn't do anything, original function must have gotten lost in a port."
 msgstr ""
-"Не виконує ніяких дій. Початкову функцію, мабуть, було втрачено під час"
-" портування."
+"Не виконує ніяких дій. Початкову функцію, мабуть, було втрачено під час "
+"портування."

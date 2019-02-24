@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___snapping\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 19:33+0200\n"
+"PO-Revision-Date: 2019-02-23 17:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../user_manual/snapping.rst:1
 msgid "How to use the snapping functionality in Krita."
-msgstr ""
+msgstr "Як користуватися можливостями прилипання у Krita."
 
 #: ../../user_manual/snapping.rst:15
 msgid "Snapping"
@@ -129,7 +129,7 @@ msgstr "Перетин (лише векторні зображення)"
 
 #: ../../user_manual/snapping.rst:67
 msgid "This allows you to snap to an intersection of two vectors."
-msgstr ""
+msgstr "Уможливлює прилипання до будь-якого перетину двох векторних ліній."
 
 #: ../../user_manual/snapping.rst:68
 msgid "Bounding box (Vector Only)"
@@ -137,7 +137,7 @@ msgstr "Обмежувальна рамка (лише векторні зобр�
 
 #: ../../user_manual/snapping.rst:69
 msgid "This allows you to snap to the bounding box of a vector shape."
-msgstr ""
+msgstr "Уможливлює прилипання до обмежувальної рамки векторної форми."
 
 #: ../../user_manual/snapping.rst:71
 msgid "Image bounds"
@@ -146,10 +146,12 @@ msgstr "Межі зображення"
 #: ../../user_manual/snapping.rst:71
 msgid "Allows you to snap to the vertical and horizontal borders of an image."
 msgstr ""
+"Уможливлює прилипання до вертикальних або горизонтальних меж зображення."
 
 #: ../../user_manual/snapping.rst:74
 msgid "Allows you to snap to the horizontal and vertical center of an image."
 msgstr ""
+"Уможливлює прилипання до центру зображення за вертикаллю і горизонталлю."
 
 #: ../../user_manual/snapping.rst:75
 msgid "Image center"
@@ -231,10 +233,12 @@ msgstr "Вибір контуром"
 
 #: ../../user_manual/snapping.rst:98
 msgid "Guides themselves can be snapped to grids and vectors."
-msgstr ""
+msgstr "Напрямні лінії самі можуть прилипати до ґратки і векторних ліній."
 
 #: ../../user_manual/snapping.rst:100
 msgid ""
 "Snapping doesn’t have a sensitivity yet, and by default is set to 10 screen "
 "pixels."
 msgstr ""
+"Засобів налаштовування відстані для прилипання ще не передбачено. Типово,"
+" прилипання відбувається, якщо відстань стає меншою за 10 пікселів."
