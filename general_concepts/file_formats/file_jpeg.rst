@@ -17,7 +17,7 @@
 
 .jpg, .jpeg or .jpeg2000 are a family of file-formats designed to encode photographs.
 
-Photographs have the problem that they have a lot of little gradients, which means that you cannot index the file like you can with :ref:`file_gif` and expect the result to look good. What jpeg instead does is that it converts the file to a perceptual color space(:ref:`YCrCb <model_ycrcb>`), and then compresses the channels that encode the colors, while keeping the channel that holds information about the relative lightness uncompressed. This works really well because human eye-sight is not as sensitive to colorfulness as it is to relative lightness. Jpeg also uses other :ref:`lossy <lossy_compression>` compression techniques, like using cosine waves to describe image contrasts.
+Photographs have the problem that they have a lot of little gradients, which means that you cannot index the file like you can with :ref:`file_gif` and expect the result to look good. What jpeg instead does is that it converts the file to a perceptual color space (:ref:`YCrCb <model_ycrcb>`), and then compresses the channels that encode the colors, while keeping the channel that holds information about the relative lightness uncompressed. This works really well because human eye-sight is not as sensitive to colorfulness as it is to relative lightness. Jpeg also uses other :ref:`lossy <lossy_compression>` compression techniques, like using cosine waves to describe image contrasts.
 
 However, it does mean that jpeg should be used in certain cases. For images with a lot of gradients, like full scale paintings, jpeg performs better than :ref:`file_png` and :ref:`file_gif`.
 

@@ -22,6 +22,6 @@ They are very old file formats, and not used outside of very specialised usecase
 .pbm
     one-bit and can only show strict black and white.
 .pgm
-    can show 255 values of gray(8bit).
+    can show 255 values of gray (8bit).
 .ppm
     can show 8bit rgb values.

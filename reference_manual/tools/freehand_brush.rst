@@ -74,7 +74,7 @@ Stabilizer
     Finish Line
         This ensures that the line will be finished.
     Stabilize sensors
-        Similar to :guilabel:`Smooth Pressure`, this allows the input(pressure, speed, tilt) to be smoother.
+        Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, speed, tilt) to be smoother.
     Scalable Distance
         This makes it so that the numbers involved will be scaled along the zoom level.
 

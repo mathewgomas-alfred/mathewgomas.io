@@ -53,7 +53,7 @@ So, if the above is the secret to drawing long strokes, that would be why people
 .. figure:: /images/en/inking/Stroke_rigger.gif
     :alt: rigger brush demonstration
 
-    Example of how a rigger brush can smooth the original movement(here in red)
+    Example of how a rigger brush can smooth the original movement (here in red)
 
 Not really. To both, actually. Inkers have had a real-life tool that made it easier to ink, it’s called a rigger-brush, which is a brush with a very long hairs. Due this length it sorta smooths out shakiness, and thus a favoured brush when inking at three in the morning.
 
@@ -86,7 +86,7 @@ So here are some things to consider with the brush-presets that you use:
 Anti-aliasing versus jagged pixels
 """"""""""""""""""""""""""""""""""
 
-A starting inker might be inclined to always want to use anti-aliased brushes, after all, they look so smooth on the screen. However, while these look good on screen, they might become fuzzy when printing them. Therefore, Krita comes with two default types. Anti-aliased brushes like ink_brush_25 and slightly aliased brushes like ink_tilt, with the latter giving better print results. If you are trying to prepare for both, it might be an idea to consider making the inking page 600dpi and the color page 300dpi, so that the inking page has a higher resolution and the ‘jaggies’ aren’t as visible. You can turn any pixel brush into an aliased brush, by going :kbd:`f5` and ticking **Sharpness**.
+A starting inker might be inclined to always want to use anti-aliased brushes, after all, they look so smooth on the screen. However, while these look good on screen, they might become fuzzy when printing them. Therefore, Krita comes with two default types. Anti-aliased brushes like ink_brush_25 and slightly aliased brushes like ink_tilt, with the latter giving better print results. If you are trying to prepare for both, it might be an idea to consider making the inking page 600dpi and the color page 300dpi, so that the inking page has a higher resolution and the ‘jaggies’ aren’t as visible. You can turn any pixel brush into an aliased brush, by going :kbd:`F5` and ticking **Sharpness**.
 
 Texture
 """""""
@@ -131,7 +131,7 @@ So, you have a sketch and you wish to start inking it. Assuming you’ve scanned
 Opacity down to 10%
 """""""""""""""""""
 
-Put a white(just press backspace) layer underneath the sketch. Turn down the opacity of the sketch to a really low number and put a layer above it for inking.
+Put a white (just press :kbd:`Backspace`) layer underneath the sketch. Turn down the opacity of the sketch to a really low number and put a layer above it for inking.
 
 Make the sketch coloured.
 """""""""""""""""""""""""

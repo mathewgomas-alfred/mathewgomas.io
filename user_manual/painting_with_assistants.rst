@@ -31,7 +31,7 @@ toggle 'snap to assistant' to turn on snapping.
 
 The following assistants are available in Krita:
 
-Types:
+Types
 ------
 
 There are several types in Krita. You can select a type of assistant via
@@ -249,7 +249,7 @@ beams:
 
 .. image:: /images/en/Assistants_vanishing_point_logic_03.png
 
-Because any given set of lines has a vanishing point(outside of the ones flat on the view-plane), there can be an infinite amount of vanishing points in a linear perspective. Therefore, Krita allows you to set vanishing points yourself instead of forcing you to only use a few.
+Because any given set of lines has a vanishing point (outside of the ones flat on the view-plane), there can be an infinite amount of vanishing points in a linear perspective. Therefore, Krita allows you to set vanishing points yourself instead of forcing you to only use a few.
 
 Fish Eye perspective
 ~~~~~~~~~~~~~~~~~~~~

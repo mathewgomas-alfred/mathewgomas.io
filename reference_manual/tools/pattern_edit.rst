@@ -42,7 +42,7 @@ Repeat:
     
     Original:
         This will only show one, unstretched, copy of the pattern.
-    Tiled(Default):
+    Tiled (Default):
         This will let the pattern appear tiled in the x and y direction.
     Stretch:
         This will stretch the Pattern image to the shape.

@@ -36,7 +36,7 @@ For this example, we'll be using the ghost lady also used to explain masks on th
 This image has the line art for the lady separated from the background, and what's more, the background is made up of two layers: one main and one for the details. 
 
 First, select the colorize mask editing tool while having the lineart layer selected. |mouseleft| the canvas will add a colorize mask to the layer.
-You can also |mouseright| the line art layer, and then :guilabel:`Add --> Colorize Mask`. The line art will suddenly become really weird, this is the prefiltering which are filters through which we put the lineart to make the algorithm easier to use. The tool options overview below shows which options control that.
+You can also |mouseright| the line art layer, and then :menuselection:`Add --> Colorize Mask`. The line art will suddenly become really weird, this is the prefiltering which are filters through which we put the lineart to make the algorithm easier to use. The tool options overview below shows which options control that.
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_02.png
    :width: 800
@@ -138,13 +138,13 @@ Edge detection
        From left to right: an example with big black shadows on an object but no edge detection, the same example without the edit strokes enabled. Then the same example with edge detection enabled and set to 2px, and that same example with out edit strokes enabled.
 
 Gap close hint
-    While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the pre-filtered line art(that's the blurry haze) affects the color patches.
+    While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the pre-filtered line art (that's the blurry haze) affects the color patches.
     
     .. figure:: /images/en/Krita_4_0_colorize_mask_gap_close_hint.png
        :width: 800
        :align: center
        
-       On the **Left**: :guilabel:`Gap close hint` is 0px. In the **Middle**: :guilabel:`Gap close hint` is 15px(the lines are 10px). On the **Right**: :guilabel:`Gap close hint` is 275px.
+       On the **Left**: :guilabel:`Gap close hint` is 0px. In the **Middle**: :guilabel:`Gap close hint` is 15px (the lines are 10px). On the **Right**: :guilabel:`Gap close hint` is 275px.
 Clean-up strokes
     This will attempt to handle messy strokes that overlap the line art where they shouldn't. At 0 no clean up is done, at 100% the clean-up is most aggressive.
 
@@ -153,7 +153,7 @@ Clean-up strokes
        :align: center
 
 Keystrokes
-    This palette keeps track of the colors used by the strokes. This is useful so you can switch back to colors easily. You can increase the swatch size by hovering over it with the mouse, and doing :kbd:`ctrl +` |mousescroll|.
+    This palette keeps track of the colors used by the strokes. This is useful so you can switch back to colors easily. You can increase the swatch size by hovering over it with the mouse, and doing :kbd:`Ctrl +` |mousescroll|.
 Transparent
     This button is under the keystrokes palette, you can mark the selected color to be interpreted a 'transparent' with this. In the clean-up screenshot above, cyan had been marked as transparent.
 

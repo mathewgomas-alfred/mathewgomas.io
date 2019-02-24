@@ -34,14 +34,14 @@ You can use :kbd:`Alt` + |mouseleft| on the layer thumbnails to isolate layers w
 
 When done you should have a mess like this.
 
-Go into the brush settings(:kbd:`f5`), and go to predefined brush-tips, and click stamp. You will get this window.
+Go into the brush settings (:kbd:`F5`), and go to predefined brush-tips, and click stamp. You will get this window.
 
 .. image:: /images/en/brush-tips/Krita-animtedbrush2.png
     :alt: Predefined brush tips dialog
 
 And then use style **animated** and selection mode set to **random**.
 
-Krita uses Gimp’s image hose format which allows for random selection of the images, angle based selection, pressure based selection, and incremental selection(I have no idea what constant does).
+Krita uses Gimp’s image hose format which allows for random selection of the images, angle based selection, pressure based selection, and incremental selection (I have no idea what constant does).
 
 .. image:: /images/en/brush-tips/Krita-animtedbrush3.png
     :alt: Animated brush image dialog

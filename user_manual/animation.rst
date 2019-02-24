@@ -36,12 +36,12 @@ the “Layers” dock, adding more keyframes will by default fade from the
 last to the next upcoming keyframe in the timeline over the frames
 between them. See :ref:`animation curves <animation_curves_docker>` for details
 
-Workflow:
+Workflow
 ---------
 
 In traditional animation workflow, what you do is that you make *key
 frames*, which contain the important poses, and then draw frames in
-between(\ *tweening* in highly sophisticated animator's jargon).
+between (\ *tweening* in highly sophisticated animator's jargon).
 
 For this workflow, there are three important dockers:
 
@@ -73,7 +73,7 @@ First, we make a new file:
 .. image:: /images/en/Introduction_to_animation_01.png
 
 On the first tab, we type in a nice ratio like 1280x1024, set the dpi to
-72(we're making this for screens after all) and title the document
+72 (we're making this for screens after all) and title the document
 'walkcycle'.
 
 In the second tab, we choose a nice background color, and set the background to canvas-color. This means that Krita will automatically fill in any transparent bits with the background color. You can change this in :menuselection:`image --> image properties`. This seems to be most useful to people doing animation, as the layer you do animation on MUST be semi-transparent to get onion skinning working.
@@ -242,7 +242,7 @@ bar below.
 The images should be saved out as filenameXXX.png, giving their frame
 number.
 
-Then use something like Gimp(Linux, OSX, Windows), ImageMagick(Linux,
+Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux,
 OSX, Windows), or any other gif creator to make a gif out of your image
 sequence:
 

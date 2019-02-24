@@ -43,7 +43,7 @@ Guides
 
 Orthogonal (Vector Only)
     This allows you to snap to a horizontal or vertical line from
-    existing vector objects’s nodes(Unless dealing with resizing the
+    existing vector objects’s nodes (Unless dealing with resizing the
     height or width only, in which case you can drag the cursor over the
     path). This is useful for aligning object horizontally or
     vertically, like with comic panels.

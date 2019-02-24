@@ -62,7 +62,7 @@ First, let's prepare our front and side views:
 I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`snap to image borders`
  active via :kbd:`Shift` + :kbd:`S`
 
-Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes(which in the above screenshot are too low).
+Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
 
 Eventually, you should have something like this: 
 
@@ -121,7 +121,7 @@ Set it up as follows:
 
 Krita can't animate a transformation on multiple layers on multiple frames yet, so let's just only transform the top layer. Add a semi-transparent layer where we draw the guide-lines.
 
-Now, select frame 11(halfway), add new frames from frontview, sideview and the guide-lines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top-view and use the transform tool to rotate it 45°.
+Now, select frame 11 (halfway), add new frames from frontview, sideview and the guide-lines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top-view and use the transform tool to rotate it 45°.
 
 .. image:: /images/en/category_projection/projection_image_11.png 
    :align: center

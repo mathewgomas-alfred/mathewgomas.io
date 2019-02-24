@@ -47,7 +47,7 @@ The point is making things easier in the long run:
 #. It is easier to keep saturated non-muddy colors in a linear space.
 #. The high bit depth makes it easier to get smoother color mixes.
 #. Filters are more powerful a give nicer results in this space. It is far more easy to get nice blurring and bokeh results.
-#. Simple Blending Modes like Multiply or Addition are suddenly black magic. This is because Scene-Linear is the closest you can get to the physical(as in, physics, not material) model of color where multiplying colors with one another is one of the main ways to calculate the effect of light.
+#. Simple Blending Modes like Multiply or Addition are suddenly black magic. This is because Scene-Linear is the closest you can get to the physical (as in, physics, not material) model of color where multiplying colors with one another is one of the main ways to calculate the effect of light.
 #. Combining painting with other image results such as photography and physically based rendering is much easier as they too work in such a type of colorspace. So you could use such images as a reference with little qualms, or make textures that play nice with such a renderer.
 
 So the advantages are prettier colors, cooler filter results, more control and easier interchange with other methods.
@@ -59,7 +59,7 @@ Simply put, because while it’s easier in the long run, you will also have to d
 
 In particular, there’s many a tool in a digital painter’s toolbox that has **hard-coded assumptions about black and white**.
 
-A very simple but massive problem is one with **inversion**. Inverting colors is done code-wise by taking the color for white and subtracting the color you want to invert from it. It’s used in many blending modes. But often the color white is hardcoded in these filters. There’s currently no application out there that allows you to define the value range that inversion is done with, so inverting is useless. And that also means the filters and blending modes that use it, such as(but not limited to)...
+A very simple but massive problem is one with **inversion**. Inverting colors is done code-wise by taking the color for white and subtracting the color you want to invert from it. It’s used in many blending modes. But often the color white is hardcoded in these filters. There’s currently no application out there that allows you to define the value range that inversion is done with, so inverting is useless. And that also means the filters and blending modes that use it, such as (but not limited to)...
 
 * Screen (invert+multiply+invert)
 * Overlay (screens values below midtone-value, in sRGB this would be middle gray)
@@ -68,17 +68,17 @@ A very simple but massive problem is one with **inversion**. Inverting colors is
 * Hardlight (A different way of doing overlay, including the inversion)
 * Softlight (Uses several inversions along the way)
 
-Conversely Multiply, Linear Dodge/Addition(they’re the same thing), Subtract, Divide, Darker(only compares colors’ channel values), Lighter(ditto), and Difference *are fine to use*, as long as the program you use doesn’t do weird clipping there.
+Conversely Multiply, Linear Dodge/Addition (they’re the same thing), Subtract, Divide, Darker (only compares colors’ channel values), Lighter (ditto), and Difference *are fine to use*, as long as the program you use doesn’t do weird clipping there.
 
 Another one is HSL, HSI and HSY algorithms. They too need to assume something about the top value to allow scaling to white. HSV doesn’t have this problem. So it’s best to use an HSV color selector.
 
-For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine(and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due to the assumption about black and white, not with scene linear painting. The following blending modes use them:
+For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine (and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due to the assumption about black and white, not with scene linear painting. The following blending modes use them:
 
 * Color
 * Luminosity
 * Saturation
-* Darker Color(uses luminosity to determine the color)
-* Lighter Color(Ditto)
+* Darker Color (uses luminosity to determine the color)
+* Lighter Color (Ditto)
 
 So that is the blending modes. Many filters suffer from similar issues, and in many applications, filters aren’t adjusted to work with arbitrary whites.
 
@@ -159,6 +159,6 @@ The keen minded will notice that a lighting based workflow kind of resembles the
 Finishing up
 ~~~~~~~~~~~~
 
-When you are done, you will want to apply the view transform you have been using to the image(at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
+When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
 
 You can even use some of Blender’s or Natron’s filters at this stage, and when working with others, you would save out in EXR so that others can use those.

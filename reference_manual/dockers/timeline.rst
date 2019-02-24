@@ -31,7 +31,7 @@ Legend:
 
 **B. Frame Table --** The Frame Table is a large grid of cells which can either hold a single frame or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame timing*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but are based on frames which can then be played back at any speed, depending on the :ref:`animation_docker`'s *frame rate* and *play speed* settings. 
 
-	Frames can be moved around the timeline by simply left-clicking and dragging from one frame to another slot, even across layers. Furthermore, holding :kbd:`ctrl` while moving creates a copy. Right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, and pasting frames or adjusting timing with holds.
+	Frames can be moved around the timeline by simply left-clicking and dragging from one frame to another slot, even across layers. Furthermore, holding :kbd:`Ctrl` while moving creates a copy. Right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, and pasting frames or adjusting timing with holds.
 
     * **Current Selection:**
         Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding or removing frames or holds within the currently selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
@@ -76,9 +76,9 @@ To add a single new frame, either right-click on an empty frame slot and select 
 
 You can also change the color of frames so that you can easily identify important frames or distinguish between different sections of your animation. The current color selection is remembered for new frames so that you can easily make a set of colored frames and then switch to another color.
 
-It's also possible to add multiple key frames by right-clicking inside the Frame Table and selecting :guilabel:`Keyframes>Insert Multiple Keyframes`. With this option you can specify a number of frames to add with the option of built in timing for quickly creating a series of 1s, 2s, 3s, etc. These settings are saved between uses.
+It's also possible to add multiple key frames by right-clicking inside the Frame Table and selecting :menuselection:`Keyframes --> Insert Multiple Keyframes`. With this option you can specify a number of frames to add with the option of built in timing for quickly creating a series of 1s, 2s, 3s, etc. These settings are saved between uses.
 
-Instead of the Frame Table, right-clicking within the Frame Timing Header gives you access to a few more options which allow you to add or remove entire columns of frames or holds at a time. For example, selecting :guilabel:`Keyframe Columns>Insert Keyframe Column Left` will add new frames to each layer that's currently visible in the Timeline Docker.
+Instead of the Frame Table, right-clicking within the Frame Timing Header gives you access to a few more options which allow you to add or remove entire columns of frames or holds at a time. For example, selecting :menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add new frames to each layer that's currently visible in the Timeline Docker.
 
 .. image:: /images/en/Timeline_insertkeys.png
    :align: center
@@ -105,19 +105,19 @@ GUI Actions:
 
 #. **Frames Table: all**
     * |mouseleft| : Selects a single frame or slot and switches time, but *does not switch active layer*.
-    * :kbd:`space` + |mouseleft| : Pan.
-    * :kbd:`space` + |mouseright| : Zoom.
+    * :kbd:`Space` + |mouseleft| : Pan.
+    * :kbd:`Space` + |mouseright| : Zoom.
 
 #. **Frames Table (On Empty Slot).**
 
     * |mouseright| : Frames menu (insert/copy/paste frames and insert/remove holds).
     * |mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the last selected, but *does not switch active layer*.
-    * :kbd:`shift` + |mouseleft| : Select all frames between the active and the clicked frame.
-    * :kbd:`ctrl` + |mouseleft| : Select individual frames together. :kbd:`click+drag` them into place.
+    * :kbd:`Shift` + |mouseleft| : Select all frames between the active and the clicked frame.
+    * :kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click+drag` them into place.
 
 #. **Frames Table (On Existing Frame)**
 
     * |mouseright| : Frames menu (remove/copy/paste frames and insert/remove holds).
     * |mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames.
-    * :kbd:`ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames.
-    * :kbd:`alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frame to the right of a particular frame!)
+    * :kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames.
+    * :kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frame to the right of a particular frame!)

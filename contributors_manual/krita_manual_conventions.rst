@@ -355,7 +355,7 @@ Admonishments and asides.
 
     Admonishments are sort of like a separate section that the reader needs to pay attention to.
 
-Admonishments that can be used are the following(in order of seriousness):
+Admonishments that can be used are the following (in order of seriousness):
 
 .. hint::
 

@@ -75,7 +75,7 @@ This parameter allows you to set the random placing of a brush-dab. You can affe
 X
     The scattering on the angle you are drawing from.
 Y
-    The scattering, perpendicular tot he drawing angle(has the most effect)
+    The scattering, perpendicular tot he drawing angle (has the most effect)
 
 .. image:: /images/en/Krita_2_9_brushengine_scatter.png
 

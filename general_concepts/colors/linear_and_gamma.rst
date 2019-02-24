@@ -19,7 +19,7 @@ Gamma and Linear
 Now, the situation we talk about when talking theory is what we would call 'linear'. Each step of brightness is the same value.
 Our eyes do not perceive linearly. Rather, we find it more easy to distinguish between darker greys than we do between lighter greys.
 
-As humans are the ones using computers, we have made it so that computers will give more room to darker values in the coordinate system of the image. We call this 'gamma-encoding', because it is applying a gamma function to the TRC or transfer function of an image. The TRC in this case being the Tone Response Curve or Tone Reproduction Curve or Transfer function(because color management specialists hate themselves), which tells your computer or printer how much color corresponds to a certain value.
+As humans are the ones using computers, we have made it so that computers will give more room to darker values in the coordinate system of the image. We call this 'gamma-encoding', because it is applying a gamma function to the TRC or transfer function of an image. The TRC in this case being the Tone Response Curve or Tone Reproduction Curve or Transfer function (because color management specialists hate themselves), which tells your computer or printer how much color corresponds to a certain value.
 
 .. figure:: /images/en/color_category/Pepper_tonecurves.png
    :align: center

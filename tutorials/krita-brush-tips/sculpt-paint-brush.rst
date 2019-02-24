@@ -19,7 +19,7 @@ Question
 
 It's actually quite easy, but most easy to do since Krita 3.0 due a few bugfixes.
 
-First, select *Basic_Wet* from the default presets, and go into the brush editor with :kbd:`f5`.
+First, select *Basic_Wet* from the default presets, and go into the brush editor with :kbd:`F5`.
 
 .. image:: /images/en/brush-tips/Painter-sculpt-brush-01.png
     :alt: brush setting dialog to get started

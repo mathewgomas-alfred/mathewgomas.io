@@ -28,7 +28,7 @@ The primary reason to use a large space is for three reasons:
 
 #. Even though you can't see the colors, the computer program does understand them and can do color maths with it.
 #. For exchanging between programs and devices: most CMYK profiles are a little bigger than our default sRGB in places, while in other places, it's smaller. To get the best conversion, having your image in a space that encompasses both your screen profile as your printer profile.
-#. For archival purposes. In other words, maybe monitors of the future will have larger amounts of colors they can show(spoiler: they already do), and this allows you to be prepared for that.
+#. For archival purposes. In other words, maybe monitors of the future will have larger amounts of colors they can show (spoiler: they already do), and this allows you to be prepared for that.
 
 Let's compare the following gradients in different spaces:
 
@@ -38,7 +38,7 @@ Let's compare the following gradients in different spaces:
 .. image:: /images/en/color_category/Basiccolormanagement_gradientsin4spaces_nonmanaged.png 
 
 
-On the left we have an artifact-ridden color managed jpeg file with an ACES sRGBtrc v2 profile attached(or not, depending on mediawiki's mood, if not then you can see the exact different between the colors more clearly). This should give an approximation of the actual colors. On the right, we have an sRGB png that was converted in Krita from the base file.
+On the left we have an artifact-ridden color managed jpeg file with an ACES sRGBtrc v2 profile attached (or not, depending on mediawiki's mood, if not then you can see the exact different between the colors more clearly). This should give an approximation of the actual colors. On the right, we have an sRGB png that was converted in Krita from the base file.
 
 Each of the gradients is the gradient from the max of a given channel. As you can see, the mid-tone of the ACES color space is much brighter than the mid-tone of the RGB colorspace, and this is because the primaries are further apart.
 

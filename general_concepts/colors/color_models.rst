@@ -61,14 +61,14 @@ These are not included as their own color spaces in Krita. However, they do show
 Hue
     The tint of a color, or, whether it's red, yellow, green, etc. Krita's Hue is measured in 360 degrees, with 0 being red, 120 being green and 240 being blue.
 Saturation
-    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to grey, and sometimes this value is called **Chroma**. Saturation ranges from 0(grey) to 100(pure color).
+    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to grey, and sometimes this value is called **Chroma**. Saturation ranges from 0 (grey) to 100 (pure color).
 Value
     Sometimes known as Brightness. Measurement of how much the pixel needs to light up. Also measured from 0 to 100.
 Lightness
     Where a color aligns between white and black. This value is non-linear, and puts all the most saturated possible colors at 50. Ranges from 0 to 100.
 Intensity
     Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter than blue (0,0,1). Ranges from 0 to 100.
-Luma(Y')
+Luma (Y')
     Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine it's lightness. Ranges from 0 to 100. Luma is well known for being used in film-colour spaces.
 
 .. _model_gray:
@@ -157,7 +157,7 @@ This color space is often used in photography and in (correct) implementations o
 XYZ
 ~~~
 
-Back in 1931, the CIE(Institute of Color and Light), was studying human color perception.
+Back in 1931, the CIE (Institute of Color and Light), was studying human color perception.
 In doing so, they made the first color spaces, with XYZ being the one best at approximating human vision.
 
 It's almost impossible to really explain what XYZ is.

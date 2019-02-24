@@ -113,6 +113,6 @@ Finally, there's the model:
 RGB
     Does the blending in RGB model.
 HSV clockwise
-    Blends the two colors using the HSV model, and follows the hue clockwise(red-yellow-green-cyan-blue-purple). The above screenshot is an example of this.
+    Blends the two colors using the HSV model, and follows the hue clockwise (red-yellow-green-cyan-blue-purple). The above screenshot is an example of this.
 HSV counter-clock wise.
     Blends the color as the previous options, but then counter-clockwise.

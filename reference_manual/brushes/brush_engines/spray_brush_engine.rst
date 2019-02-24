@@ -17,7 +17,7 @@ Spray Brush Engine
 
 .. image:: /images/icons/spraybrush.svg 
 
-A brush that can spray particles around in it's brush area.
+A brush that can spray particles around in its brush area.
 
 Options
 -------

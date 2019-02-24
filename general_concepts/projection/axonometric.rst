@@ -61,7 +61,7 @@ Then crop it by setting the crop tool to 'layer', and use :menuselection:`filter
 .. image:: /images/en/category_projection/projection_image_16.png 
    :align: center
 
-(Tip, to resize a vector but keep its angle, you just select it with the shape handling tool(the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`shift` to constrain the ratio. This'll allow you to keep the angle)
+(Tip, to resize a vector but keep its angle, you just select it with the shape handling tool (the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`Shift` to constrain the ratio. This'll allow you to keep the angle)
 
 The lower image is 'the back seen from the front', we'll be using this to determine where the ear should go.
 
@@ -111,12 +111,12 @@ Now, there's an alternative way of getting there that doesn't require as much sp
 
 We open our orthographic with 'open existing document as untitled document' so that we don't save over it.
 
-Our game-safe isometric has its angle at two pixels horizontal is one pixel vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 pixels(this is proportional)
+Our game-safe isometric has its angle at two pixels horizontal is one pixel vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 pixels (this is proportional)
 
 .. image:: /images/en/category_projection/projection_image_24.png 
    :align: center
 
-Use the grid to setup two parallel rulers that represent both diagonals(you can snap them with the :kbd:`Shift + S`):
+Use the grid to setup two parallel rulers that represent both diagonals (you can snap them with the :kbd:`Shift + S`):
 
 .. image:: /images/en/category_projection/projection_image_25.png 
    :align: center
@@ -144,7 +144,7 @@ The creepiness is because we've had the tiniest bit of stylisation in our sidevi
 
 Generally, stylised stuff tends to fall apart in 3d view, and you might need to make some choices on how to make it work.
 
-For example, we can just easily fix the side view(because we used transform masks, this is easy.)
+For example, we can just easily fix the side view (because we used transform masks, this is easy.)
 
 .. image:: /images/en/category_projection/projection_image_29.png 
    :align: center

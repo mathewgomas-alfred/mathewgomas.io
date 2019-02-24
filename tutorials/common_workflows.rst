@@ -141,7 +141,7 @@ You have to create two layers below the line art, one for the color spots indica
 
 The colors spots are marked in red in the image
 
-Now go to :menuselection:`Filter --> G'Mic --> Black & white --> Colorize[comics]`. In the GMIC dialog box, select all for input and inplace(default) for output, select Lineart + color spots + extrapolated layers for both input and output layers on the right hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
+Now go to :menuselection:`Filter --> G'Mic --> Black & white --> Colorize[comics]`. In the GMIC dialog box, select all for input and inplace (default) for output, select Lineart + color spots + extrapolated layers for both input and output layers on the right hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
 
 .. image:: /images/en/common-workflows/Colorise-comics-setting.png
     :alt: Colorise Interactive dialog and settings

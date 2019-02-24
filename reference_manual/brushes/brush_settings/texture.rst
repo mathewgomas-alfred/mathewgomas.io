@@ -65,11 +65,11 @@ Brightness and Contrast .. versionadded:: 3.3.1
 Strength
 --------
 
-This allows you to set the texture to Sensors. It will use the cutoff to continuously draw lighter values of the texture(making the result darker)
+This allows you to set the texture to Sensors. It will use the cutoff to continuously draw lighter values of the texture (making the result darker)
 
 .. image:: /images/en/Krita_2_9_brushengine_texture_03.png
 
 .. seealso::
 
-    `David Revoy describing the texture feature(old) <http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_
+    `David Revoy describing the texture feature (old) <http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_
 

@@ -77,7 +77,7 @@ Smoothness
 Posterize
 ---------
 
-This filter decreases the amount of colors in an image. It does this per component(channel).
+This filter decreases the amount of colors in an image. It does this per component (channel).
 
 .. image:: /images/en/Posterize-filter.png
 

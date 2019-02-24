@@ -21,7 +21,7 @@ The shape editing tool is for editing vector shapes. In Krita versions before 4.
 
 .. image:: /images/en/Shape-editing-tool-example.png
 
-You can access the Edit Shapes tool by clicking on the icon in the toolbox, but you can also access it by pressing :kbd:`Enter` when in the Shape Selection tool and having a shape selected that can be most efficiently edited with the edit shapes tool(Right now, that's all shapes but text).
+You can access the Edit Shapes tool by clicking on the icon in the toolbox, but you can also access it by pressing :kbd:`Enter` when in the Shape Selection tool and having a shape selected that can be most efficiently edited with the edit shapes tool (right now, that's all shapes but text).
 
 On Canvas Editing of Shapes
 ---------------------------
@@ -62,7 +62,7 @@ Krita has several node-types that allow you control the side handles more effici
 
 |mouseleft| + :kbd:`Ctrl` on a selected node will cycle between the node-types.
 
-:kbd:`del` will remove the selected node.
+:kbd:`Del` will remove the selected node.
 
 Selected Segments
 ^^^^^^^^^^^^^^^^^

@@ -91,7 +91,7 @@ The slider is percentage of the brush-size. You can have it modified with Sensor
 Overlay
 ~~~~~~~
 
-Overlay is a toggle that determine whether or not the smudge brush will sample all layers(overlay on), or only the current one.
+Overlay is a toggle that determine whether or not the smudge brush will sample all layers (overlay on), or only the current one.
 
 Tutorial: Color Smudge Brushes
 ------------------------------

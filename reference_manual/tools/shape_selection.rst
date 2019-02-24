@@ -78,7 +78,7 @@ Fill
 
 The fill of the shape. As this has the same features as the fill of the stroke, this is explained here as well.
 
-A fill can be a flat color, a gradient or a pattern. Or it can be nothing(transparent)
+A fill can be a flat color, a gradient or a pattern. Or it can be nothing (transparent)
 
 None
     No fill. It's transparent.

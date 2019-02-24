@@ -90,7 +90,7 @@ Randomness
 Spacing
     This affects how far brushes are spaced apart. In the below picture, the three examples on the left are with spacing 0, 1 and 5.
 Auto (spacing)
-    Ticking this will set the brush-spacing to a different(quadratic) algorithm. The result is fine control over the spacing. In the below picture, the three examples on right are with auto spacing, 0, 1 and 5 respectively.
+    Ticking this will set the brush-spacing to a different (quadratic) algorithm. The result is fine control over the spacing. In the below picture, the three examples on right are with auto spacing, 0, 1 and 5 respectively.
     
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_spacing.png
 

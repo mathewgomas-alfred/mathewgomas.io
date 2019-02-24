@@ -18,12 +18,12 @@ Loading and Saving Brushes
 
 In the real world, when painting or drawing, you don't just use one
 tool. You use pencils, erasers, paintbrushes, different types of paint,
-inks, crayons, etcetera. All these have different ways of making marks.
+inks, crayons, etc. All these have different ways of making marks.
 
 In a digital program like Krita you have something similar. We call this
 a brush engine. And much like how cars have different engines that give
 different feels when driving, or how pencils make distinctly different
-marks than rollerbal pens, different brush engines have totally
+marks than rollerball pens, different brush engines have totally
 different feels.
 
 The brush engines have a lot of different settings as well. So, you can
@@ -38,7 +38,7 @@ The Brush settings dropdown
 
 To start, the Brush Settings Editor panel can be accessed in the
 toolbar, between the Blending Modes button on the right and the Patterns
-button on the left. Alternately, you can use the function key f5 to open
+button on the left. Alternately, you can use the function key :kbd:`F5` to open
 it.
 
 When you open Brush Settings Editor panel you will see something like
@@ -60,7 +60,7 @@ Name**, the **Engine** name, and several buttons for saving, renaming,
 and reloading.
 
 Krita's brush settings are stored into the metadata of a 200x200
-png(The KPP file), where the image in the png file becomes the preset
+png (the KPP file), where the image in the png file becomes the preset
 icon. This icon is used everywhere in Krita, and is useful for
 differentiating brushes in ways that the live preview cannot.
 
@@ -97,17 +97,17 @@ If you change a preset, an icon will appear behind the engine name. This
 is the :guilabel:`reload` button. You can use it to revert to the original brush
 settings.
 
-Saving a preset.
+Saving a preset
 ''''''''''''''''
 
-On the right, there's :guilabel:`Save New Preset` and :guilabel:`Overwrite Preset`.
+On the right, there's :guilabel:`Save New Brush Preset` and :guilabel:`Overwrite Brush`.
 
-Overwrite Preset
+Overwrite Brush
     This will only enable if there are any changes. Pressing this will
     override the current preset with the new settings, keeping the name
     and the icon intact. It will always make a timestamped back up in
     the resources folder.
-Save New Preset
+Save New Brush Preset
     Will take the current preset and all its changes and save it as a
     new preset. If no change was made, you will be making a copy of the
     current preset.
@@ -127,7 +127,7 @@ Brush Name
 Load Existing Thumbnail
     This will load the existing thumbnail inside the preset.
 Load scratch pad thumbnail
-    This will load the dashed area from the big scratch pad(Section C)
+    This will load the dashed area from the big scratch pad (Section C)
     into the thumbnail area.
 Load Image
     With this you can choose an image from disk to load as a thumbnail.
@@ -147,7 +147,7 @@ It allows you to select tool icons, and an optional small emblem. When
 you press OK it will load the resulting combination into the mini
 scratch pad and you can draw in the stroke.
 
-If you go to your resources folder(), there's a folder there called
+If you go to your resources folder, there's a folder there called
 "preset\_icons", and in this folder there are "tool\_icons" and
 "emblem\_icons". You can add semi-transparent pngs here and Krita will
 load those into the icon library as well so you can customize your icons
@@ -167,7 +167,7 @@ Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The preset chooser is much the same as the preset docker and the
-preset dropdown on F6. It's unique in that it allows you to filter by
+preset dropdown on :kbd:`F6`. It's unique in that it allows you to filter by
 engine and this is also where you can create brushes for an engine from
 scratch.
 
@@ -203,7 +203,7 @@ The scratch pad has five buttons underneath it. These are in order for:
 
 #. Showing the current brush image
 
-#. Adding a gradient to the scratch pad(useful for smudge brushes)
+#. Adding a gradient to the scratch pad (useful for smudge brushes)
 #. Filling with the background color
 #. Clearing everything on the scratch pad.
 
@@ -463,12 +463,12 @@ dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
-settings dropdown(f5) and then go to the “brush-tip” option. There,
+settings dropdown (:kbd:`F5`) and then go to the “brush-tip” option. There,
 select predefined brush, and then the “import” button to call up the
 file dialog.
 
-Sharing via ZIP(old-fashioned)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sharing via ZIP (old-fashioned)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sharing via ZIP should be replaced with resource bundles, but older
 brush packs are stored in zip files.

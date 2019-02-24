@@ -23,10 +23,10 @@ You can reverse this behaviour in the Tool Options.
 
 There's a number of hotkeys associated with this tool, which makes it easier to access from the other tools:
 
-* :kbd:`ctrl + Space` + |mouseleft| + drag on the canvas will zoom in or out fluently.
-* :kbd:`ctrl` + |mousemiddle| + drag on the canvas will zoom in or out fluently.
-* :kbd:`ctrl + alt + Space` + |mouseleft| + drag on the canvas will zoom in or out with discrete steps.
-* :kbd:`ctrl + alt +` |mousemiddle| + drag on the canvas will zoom in or out with discrete steps.
+* :kbd:`Ctrl + Space` + |mouseleft| + drag on the canvas will zoom in or out fluently.
+* :kbd:`Ctrl` + |mousemiddle| + drag on the canvas will zoom in or out fluently.
+* :kbd:`Ctrl + Alt + Space` + |mouseleft| + drag on the canvas will zoom in or out with discrete steps.
+* :kbd:`Ctrl + Alt +` |mousemiddle| + drag on the canvas will zoom in or out with discrete steps.
 * :kbd:`+` will zoom in with discrete steps.
 * :kbd:`-` will zoom out with discrete steps.
 * :kbd:`1` will set the zoom to 100%.

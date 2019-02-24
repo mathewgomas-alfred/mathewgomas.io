@@ -50,10 +50,10 @@ If you find the size of color swatches too small, you can increase the size by h
 
 Krita's native palette format is since 4.0 :ref:`file_kpl`. It also supports importing...
 
-* Gimp Palettes(.gpl)
-* Microsoft RIFF palette(.riff)
-* Photoshop Binary Palettes(.act)
-* PaintShop Pro palettes(.psp)
+* Gimp Palettes (.gpl)
+* Microsoft RIFF palette (.riff)
+* Photoshop Binary Palettes (.act)
+* PaintShop Pro palettes (.psp)
 * Photoshop Swatches (.aco)
 * Scribus XML (.xml)
 * Swatchbooker (.sbz).

@@ -26,8 +26,8 @@ Emboss in all Directions
 
 Embosses in all possible directions.
 
-Emboss(Laplacian)
------------------
+Emboss (Laplacian)
+------------------
 
 Uses the laplacian algorithm to perform embossing.
 

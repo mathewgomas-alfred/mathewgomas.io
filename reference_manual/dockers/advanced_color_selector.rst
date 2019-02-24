@@ -38,7 +38,7 @@ HSV
 HSL
     Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% lightness. Saturation allows for shifting between grey and color.
 HSI
-    This stands for Hue, Saturation and Intensity. Unlike HSL, this one determine the intensity as the sum of total rgb components. Yellow(1,1,0) has higher intensity than blue(0,0,1) but is the same intensity as cyan(0,1,1).
+    This stands for Hue, Saturation and Intensity. Unlike HSL, this one determine the intensity as the sum of total rgb components. Yellow (1,1,0) has higher intensity than blue (0,0,1) but is the same intensity as cyan (0,1,1).
 HSY'
     Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like [http://en.wikipedia.org/wiki/Rec._709 Rec 709], to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
 
@@ -90,7 +90,7 @@ If your have set the docker size considerably smaller to save space, this option
 * on mouse over
 * never
 
-The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with :kbd:`shift + I` and :kbd:`shift`+:kbd:`M`, respectively.
+The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:`Shift`+:kbd:`M`, respectively.
 
 Hide Pop-up on click
     This allows you to let the pop-up selectors called with the above hotkeys to disappear upon clicking them instead of having to leave the pop-up boundary. This is useful for faster working.

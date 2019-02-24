@@ -192,7 +192,7 @@ C`). The dialog box is shown below.
 In this, constraint proportions will make sure the height and width stay
 in proportion to each other as you change them. Offset makes indicates
 where the new canvas space is added around the current image. You
-basically decide where the current image goes(if you press the
+basically decide where the current image goes (if you press the
 left-button, it'll go to the center left, and the new canvas space will
 be added to the right of the image).
 

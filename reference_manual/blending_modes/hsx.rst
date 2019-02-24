@@ -22,25 +22,25 @@ HSI
 HSI is a color coordinate system, using Hue, Saturation and Intensity to catagorise a color.
 Hue is roughly the wavelength, whether the colour is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
 Saturation is the measurement of how close a color is to grey.
-Intensity, in this case is the tone of the color. What makes intensity special is that it recognises Yellow(rgb:1,1,0) having a higher combined rgb value than blue(rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
+Intensity, in this case is the tone of the color. What makes intensity special is that it recognises yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
 
 HSL
 ~~~
 
 HSL is also a color coordinate system. It describes colors in Hue, Saturation and Lightness.
-Lightness specifically puts both yellow(rgb:1,1,0), blue(rgb:0,0,1) and middle grey(rgb:0.5,0.5,0.5) at the same lightness(0.5).
+Lightness specifically puts both yellow (rgb:1,1,0), blue (rgb:0,0,1) and middle grey (rgb:0.5,0.5,0.5) at the same lightness (0.5).
 
 HSV
 ~~~
 
-HSV, occasionally called HSB, is a color coordinate system. It measures colors in Hue, Saturation, and Value(also called Brightness).
-Value or Brightness specifically refers to strength at which the pixel-lights on your monitor have to shine. It sets Yellow(rgb:1,1,0), Blue(rgb:0,0,1) and White(rgb:1,1,0) at the same Value(100%)
+HSV, occasionally called HSB, is a color coordinate system. It measures colors in Hue, Saturation, and Value (also called Brightness).
+Value or Brightness specifically refers to strength at which the pixel-lights on your monitor have to shine. It sets Yellow (rgb:1,1,0), Blue (rgb:0,0,1) and White (rgb:1,1,0) at the same Value (100%)
 
 HSY
 ~~~
 
 HSY is a color coordinate system. It catagorises colors in Hue, Saturation and Luminosity. Well, not really, it uses Luma instead of true luminosity, the difference being that Luminosity is linear while Luma is gamma-corrected and just weights the rgb components.
-Luma is based on scientific studies of how much light a color reflects in real-life. While like intensity it acknowledges that Yellow(rgb:1,1,0) is lighter than blue(rgb:0,0,1), it also acknowledges that Yellow(rgb:1,1,0) is lighter than Cyan(rgb(0,1,1), based on these studies.
+Luma is based on scientific studies of how much light a color reflects in real-life. While like intensity it acknowledges that yellow (rgb:1,1,0) is lighter than blue (rgb:0,0,1), it also acknowledges that yellow (rgb:1,1,0) is lighter than cyan (rgb:0,1,1), based on these studies.
 
 HSX Blending Modes
 ~~~~~~~~~~~~~~~~~~

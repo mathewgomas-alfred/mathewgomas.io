@@ -34,7 +34,7 @@ Glazing
 
 In traditional painting, **glazing** is overlaying many different semi-transparent layers to create on-canvas color mixtures. Likewise, in digital painting we can also use glazing to mix colors directly on our canvas. This is one of the most fundamental and commonly used mixing techniques in digital painting.
 
-We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with :kbd:`ctrl` + |mouseleft| (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
+We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with :kbd:`Ctrl` + |mouseleft| (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
 
 We can mix even more easily with glazing when we set our brush's **flow** to a lower setting. Subtly different than opacity, :ref:`flow <option_opacity_n_flow>` is transparency per dab instead of stroke, and so it gives us softer strokes without giving up control.
 
@@ -120,7 +120,7 @@ You can use Color Picker Blending much like a physical paint brush in traditiona
 
 Not only does Krita's Color Picker Blending feel even more like mixing paints, it is also completely off-canvas and independent of opacity, flow, shape, and other brush settings. Furthermore, unlike most on-canvas mixing techniques, Color Picker Blending works regardless of the location of colors on your canvas - enabling your to mix with colors at any position, on any layer, or even in different documents! Quickly mix lighting colors with local colors, mix the ambient sky color into shadows, create atmospheric depth, mix from a preselected palette of colors in another layer/document, etc.
 
-To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`ctrl +` |mouseleft| shortcut.
+To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`Ctrl +` |mouseleft| shortcut.
 
 .. note::
 

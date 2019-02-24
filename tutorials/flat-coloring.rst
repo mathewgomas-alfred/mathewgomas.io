@@ -34,7 +34,7 @@ Other things that a layer stack can do are blending the colors of different laye
 Preparing your line-art
 -----------------------
 
-Put the new layer underneath the layer containing the lineart(drag and drop or use the up/down arrows for that), and draw on it.
+Put the new layer underneath the layer containing the lineart (drag and drop or use the up/down arrows for that), and draw on it.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart14.png
     :alt: layer structure for flatting in krita
@@ -58,16 +58,16 @@ Multiply is not a perfect solution however. For example, if through some image e
 
 This is because multiply literally multiplies the colors. So it uses maths!
 
-What it first does is take the values of the RGB channels, then divides them by the max(because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalised values. Finally, it takes the result and multiplies it with 255 again to get the result values.
+What it first does is take the values of the RGB channels, then divides them by the max (because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalised values. Finally, it takes the result and multiplies it with 255 again to get the result values.
 
 .. list-table::
     :header-rows: 1
 
     * -
       - Pink
-      - Pink(normalised)
+      - Pink (normalised)
       - Blue
-      - Blue(normalised)
+      - Blue (normalised)
       - Normalised, multiplied
       - Result
     * - Red
@@ -193,7 +193,7 @@ Fill Tool
 .. image:: /images/icons/fill_tool.svg
     :alt: fill-tool icon
 
-In most cases the fill-tool can’t deal with the anti-aliasing(the soft edge in your lineart to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the colour two pixels.
+In most cases the fill-tool can’t deal with the anti-aliasing (the soft edge in your lineart to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the colour two pixels.
 
 Threshold decides when the fill-tool should consider a different colour pixel to be a border. And the feathering adds a extra soft border to the fill.
 
@@ -231,7 +231,7 @@ For example with the :ref:`bezier_curve_selection_tool` you can easily select a 
 
 You can also edit the selection if you have :menuselection:`Select --> Show Global Selection Mask` turned on. Then you can select the global selection mask, and paint on it. (Above with the alternative selection mode, activated in the lower-left corner of the stats bar)
 
-When done, select the color you want to fill it with and press :kbd:`shift` + `backspace`.
+When done, select the color you want to fill it with and press :kbd:`Shift` + `backspace`.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart17.png
     :alt: filling color in selection
@@ -257,7 +257,7 @@ Geometric tools
 ---------------
 
 So you have a tool for making rectangles or circles. And in the case of Krita, a tool for bezier curves.
-Select the path tool (|path tool|), and set the tool options to fill=foreground and outline=none. Make sure that your opacity is set to 1.00(fully opaque).
+Select the path tool (|path tool|), and set the tool options to fill=foreground and outline=none. Make sure that your opacity is set to 1.00 (fully opaque).
 
 .. |path tool| image:: /images/icons/bezier_curve.svg
 

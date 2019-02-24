@@ -18,7 +18,7 @@ Tangent Normal Brush Engine
 .. image:: /images/icons/tangentnormal.svg 
 
 
-The Tangent Normal Brush Engine is an engine that is specifically designed for drawing normal maps, of the tangent variety. These are in turn used in 3d programs and game engines to do all sorts of lightning trickery. Common uses of normal maps include faking detail where there is none, and to drive transformations(Flow Maps).
+The Tangent Normal Brush Engine is an engine that is specifically designed for drawing normal maps, of the tangent variety. These are in turn used in 3d programs and game engines to do all sorts of lightning trickery. Common uses of normal maps include faking detail where there is none, and to drive transformations (Flow Maps).
 
 A Normal map is an image that holds information for vectors. In particular, they hold information for Normal Vectors, which is the information for how the light bends on a surface. Because Normal Vectors are made up of 3 coordinates, just like colors, we can store and see this information as colors.
 
@@ -52,7 +52,7 @@ Tangent Tilt
 These are the options that determine how the normals are calculated from tablet input.
 
 Tangent Encoding
-    This allows you to set what each color channel means. Different programs set different coordinates to different channels, a common version is that the green channel might need to be inverted(-Y), or that the green channel is actually storing the x-value (+X).
+    This allows you to set what each color channel means. Different programs set different coordinates to different channels, a common version is that the green channel might need to be inverted (-Y), or that the green channel is actually storing the x-value (+X).
 Tilt Options
     Allows you to choose which sensor is used for the X and Y.
 Tilt
@@ -99,12 +99,12 @@ Normal Map authoring workflow
        
        Paint on the layer beneath the filters with the tangent normal brush to have them be converted in real time.
 
-#. Finally, when done, hide the phongbumpmap filter-layer(but keep the normalize filter layer!) , and export the normal map for use in 3d programs.
+#. Finally, when done, hide the phongbumpmap filter-layer (but keep the normalize filter layer!) , and export the normal map for use in 3d programs.
 
 Drawing Direction Maps
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Direction maps are made with the 'Direction' option in the Tangent Tilt options. These normal maps are used to distort textures in a 3d program(to simulate for example, the flow of water) or to create maps that indicate how hair and brushed metal is brushed. Krita can't currently give feedback on how a given direction map will influence a distortion or shader, but these maps are a little easier to read.
+Direction maps are made with the 'Direction' option in the Tangent Tilt options. These normal maps are used to distort textures in a 3d program (to simulate for example, the flow of water) or to create maps that indicate how hair and brushed metal is brushed. Krita can't currently give feedback on how a given direction map will influence a distortion or shader, but these maps are a little easier to read.
 
 Just set the tangent-tilt option to direction, and draw. The direction your brush draws in will be the direction that is encoded in the colors.
 

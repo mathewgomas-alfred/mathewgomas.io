@@ -77,7 +77,7 @@ Krita uses these to control values like brush size, opacity, flow, Hue, Saturati
 
 .. image:: /images/en/Krita_Opacity_Slider.png
 
-The total range is represented from left to right and blue bar gives an indication of where in the possible range the current value is.  Clicking anywhere, left or right, of that slider will change the current number to something lower(to the left) or higher(to the right).
+The total range is represented from left to right and blue bar gives an indication of where in the possible range the current value is.  Clicking anywhere, left or right, of that slider will change the current number to something lower (to the left) or higher (to the right).
 
 To input a specific number, |mouseright| the slider. A number can now be entered directly for even greater precision.
 
@@ -110,4 +110,4 @@ By tagging your brush presets you can add particular sets of brushes to this pal
 You can :ref:`tag <tag_management>` brush presets via the :ref:`brush_preset_docker`, check out the resource overview page to know more about tagging in general.
 
 If you call up the pop-up palette again, you can click the wrench icon, and select the tag. In fact, you can make multiple tags and switch between them.
-When you need more than ten presets, go into :menuselection:`Settings --> configure Krita --> general --> favorite presets` and change the number of presets from 10 to something you feel comfortable.
+When you need more than ten presets, go into :menuselection:`Settings --> Configure Krita --> General --> Favorite presets` and change the number of presets from 10 to something you feel comfortable.

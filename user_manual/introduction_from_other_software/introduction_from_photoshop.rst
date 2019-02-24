@@ -50,12 +50,12 @@ In Krita you can navigate your document using all these methods:
 Rotation
 ^^^^^^^^
 
-Rotate the canvas with :kbd:`Shift + Space`, or :kbd:`ctrl + [` and :kbd:`ctrl + ]` or with 4 or 6. Reset the rotation with 5.
+Rotate the canvas with :kbd:`Shift + Space`, or :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` or with 4 or 6. Reset the rotation with 5.
 
 Mirror
 ^^^^^^
 
-Press :kbd:`m` to see your drawing or painting mirrored in the viewport.
+Press :kbd:`M` to see your drawing or painting mirrored in the viewport.
 
 Move and Transform
 ^^^^^^^^^^^^^^^^^^
@@ -116,7 +116,7 @@ The most common shortcuts are very similar in PS and Krita:
 * :kbd:`Ctrl + J`: duplicate
 * :kbd:`Ctrl + E`: merge down
 * :kbd:`Ctrl + Shift + E`: flattens all (not Ctrl+Shift+M as in PS) 
-* :kbd:`ins`: insert a new paint layer
+* :kbd:`Ins`: insert a new paint layer
 * :kbd:`Ctrl + G`: create new layer group and move selected layers to this group
 
 Groups and Blending Mode (Composite Mode):
@@ -196,7 +196,7 @@ Useful shortcuts
 
 .. note::
 
-    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and left-:kbd:`shift` is at the opposite end of the keyboard from :kbd:`I`, :kbd:`M` and :kbd:`N`. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
+    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and left-:kbd:`Shift` is at the opposite end of the keyboard from :kbd:`I`, :kbd:`M` and :kbd:`N`. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
 
 Stabilization / Path Smoothing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -245,7 +245,7 @@ This is a very useful way to configure brush presets. Each brush can have any am
 Settings curves
 ~~~~~~~~~~~~~~~
 
-You can set setting to pressure(speed/distance/tilt/random/etc) relation for each brush setting.
+You can set setting to pressure (speed/distance/tilt/random/etc.) relation for each brush setting.
 
 .. image:: /images/en/Settings-curves.jpg
    :align: center

@@ -174,8 +174,8 @@ This results in light tones being more opaque and dark tones transparent.
 
 .. _bm_soft_light:
 
-Soft Light(Photoshop) & Soft Light SVG
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Soft Light (Photoshop) & Soft Light SVG
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are less harsh versions of Hard Light, not resulting in full black or full white.
 

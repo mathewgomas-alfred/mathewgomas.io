@@ -14,21 +14,21 @@
 Instant Preview
 ===============
 
-Instant Preview(Previously known under the code name Level Of Detail/LOD strokes) is Krita's special speed-up mechanism that was funded by the 2015 Kickstarter. Krita slows down with really large images due to the large amount of data it's crunching in painting these images. Instant Preview works by taking a smaller version of the canvas, and drawing the feedback on there while Krita calculates the real stroke in the background. This means that if you have a 4k screen and are working on a 4k image at 100% zoom, you won't feel any speed up.
+Instant Preview (previously known under the code name Level Of Detail/LOD strokes) is Krita's special speed-up mechanism that was funded by the 2015 Kickstarter. Krita slows down with really large images due to the large amount of data it's crunching in painting these images. Instant Preview works by taking a smaller version of the canvas, and drawing the feedback on there while Krita calculates the real stroke in the background. This means that if you have a 4k screen and are working on a 4k image at 100% zoom, you won't feel any speed up.
 
 Activating Instant Preview
 --------------------------
 
 .. warning::
     
-    Instant Preview requires OpenGL 3.0 support at minimum. So if you don't have :guilabel:`high-quality` scaling available in :menuselection:`settings --> configure Krita --> display --> display scaling filter`, then you won't be able to use Instant Preview either.
+    Instant Preview requires OpenGL 3.0 support at minimum. So if you don't have :guilabel:`high-quality` scaling available in :menuselection:`Settings --> Configure Krita --> Display --> Display scaling filter`, then you won't be able to use Instant Preview either.
     
 .. figure:: /images/en/Lod_position.png
    :align: right
     
    The Global Instant Preview toggle is under the view menu
     
-Instant Preview is activated in two places: The view menu(:kbd:`Shift + L`), and the settings of the given paintop by default. This is because Instant Preview has different limitations with different paint operations.
+Instant Preview is activated in two places: The view menu (:kbd:`Shift + L`), and the settings of the given paintop by default. This is because Instant Preview has different limitations with different paint operations.
 
 For example, the overlay mode in the color smudge brush will disable the ability to have Instant Preview on the brush, so does using 'fade' sensor for size.
 
