@@ -272,7 +272,9 @@ Save Incremental Version
     Saves the current image as 'filename'\_XXX.kra and switches the
     current document to it.
 Save Incremental Backup.
-    Exports the current image as 'filename'\_XXX.kra.
+    Copies the last saved version of your file to a back-up file and
+    saves your document under the original name.
+    
 
 .. note::
     Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On windows, you will need to rename it to filename.zip to open it.
