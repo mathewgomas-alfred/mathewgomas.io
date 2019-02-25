@@ -6,10 +6,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_user_manual___python_scripting___krita_pyth"
-"on_plugin_howto\n"
+"Project-Id-Version: "
+"docs_krita_org_user_manual___python_scripting___krita_python_plugin_howto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 03:24+0100\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
 "PO-Revision-Date: 2019-02-23 18:44+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -39,8 +39,8 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:23
 msgid ""
-"Okay, so even if you know python really well, there's some little details to "
-"getting Krita to recognize a python plugin. So this page will give an "
+"Okay, so even if you know python really well, there are some little details "
+"to getting Krita to recognize a python plugin. So this page will give an "
 "overview how to create the various types of python script unique to Krita."
 msgstr ""
 
@@ -117,7 +117,7 @@ msgstr "X-Python-2-Compatible"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:54
 msgid ""
-"Whether it is python 2 compatible. If Krita was build with python 2 instead "
+"Whether it is python 2 compatible. If Krita was built with python 2 instead "
 "of 3 (``-DENABLE_PYTHON_2=ON`` in the cmake configuration), then this plugin "
 "will not show up in the list."
 msgstr ""
@@ -129,7 +129,7 @@ msgstr "X-Krita-Manual"
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:56
 msgid ""
 "An Optional Value that will point to the manual item. This is shown in the "
-"Python Plugin manager. If it's `a HTML file it'll be shown as rich text "
+"Python Plugin manager. If it's `an HTML file it'll be shown as rich text "
 "<https://doc.qt.io/qt-5/richtext-html-subset.html>`_, if not, it'll be shown "
 "as plain text."
 msgstr ""
@@ -248,7 +248,7 @@ msgstr "\"myAction\""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:137
 msgid ""
-"This should be replaced with an unique id that Krita will use to find the "
+"This should be replaced with a unique id that Krita will use to find the "
 "action."
 msgstr ""
 
@@ -473,7 +473,7 @@ msgid "MyDocker"
 msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:266
-msgid "Replace this with class name of the docker your wanna add."
+msgid "Replace this with the class name of the docker your wanna add."
 msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:268
@@ -542,7 +542,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:307
 msgid ""
-"We've already been using pyqt signals and slots already, but there's times "
+"We've already been using pyqt signals and slots already, but there are times "
 "where you want to create your own signals and slots. `As pyQt's "
 "documentation is pretty difficult to understand <http://pyqt.sourceforge.net/"
 "Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and "

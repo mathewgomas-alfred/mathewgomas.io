@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 17:19+0100\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 15:08+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -157,8 +157,10 @@ msgid "120 PPI"
 msgstr "120 PPI"
 
 #: ../../user_manual/working_with_images.rst:93
-msgid "This is often used as standard for low-quality posters."
+#| msgid "This is the minimum you should use for quality prints."
+msgid "This is often used as a standard for low-quality posters."
 msgstr ""
+"Dit wordt vaak gebruikt als een standaard voor poster van lage kwaliteit."
 
 #: ../../user_manual/working_with_images.rst:94
 msgid "300 PPI"
@@ -217,7 +219,7 @@ msgid ""
 "metadata. Along with the other data such as time and date of creation and "
 "modification, Krita also shows editing time of a document in the document "
 "information dialog, useful for professional illustrators, speed-painters to "
-"keep track of the time they worked on an artwork for billing purposes. It "
+"keep track of the time they worked on artwork for billing purposes. It "
 "detects when you haven’t performed actions for a while, and has a precision "
 "of +- 60 seconds. You can empty it in the document info dialog and of course "
 "by unzipping you .kra file and editing the meta-data there."
@@ -258,12 +260,12 @@ msgid "Basic transforms"
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:150
-msgid "There's some basic transforms available in the image menu."
+msgid "There are some basic transforms available in the image menu."
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:152
 msgid "Shear Image"
-msgstr ""
+msgstr "Afbeelding schuintrekken"
 
 #: ../../user_manual/working_with_images.rst:153
 msgid "This will allow you to skew the whole image and its layers."
@@ -271,7 +273,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:154
 msgid "Rotate"
-msgstr ""
+msgstr "Roteren"
 
 #: ../../user_manual/working_with_images.rst:155
 msgid "This will allow you to rotate the image and all its layers quickly."
@@ -435,11 +437,11 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:253
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: ../../user_manual/working_with_images.rst:256
 msgid "Save As"
-msgstr ""
+msgstr "Opslaan als"
 
 #: ../../user_manual/working_with_images.rst:256
 msgid ""
@@ -449,7 +451,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:258
 msgid "Open"
-msgstr ""
+msgstr "Openen"
 
 #: ../../user_manual/working_with_images.rst:259
 msgid "Open a saved file. Fairly straightforward."
@@ -464,7 +466,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:262
 msgid "Export"
-msgstr ""
+msgstr "Exporteren"
 
 #: ../../user_manual/working_with_images.rst:265
 msgid ""
@@ -475,11 +477,11 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:266
 msgid "Open Existing Document As Untitled Document"
-msgstr ""
+msgstr "Bestaand document als document zonder titel openen"
 
 #: ../../user_manual/working_with_images.rst:269
 msgid "Create Copy from Current Image"
-msgstr ""
+msgstr "Kopie van huidige afbeelding maken"
 
 #: ../../user_manual/working_with_images.rst:269
 msgid ""
@@ -489,7 +491,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:272
 msgid "Save Incremental Version"
-msgstr ""
+msgstr "Incrementele versie opslaan"
 
 #: ../../user_manual/working_with_images.rst:272
 msgid ""
@@ -499,7 +501,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:275
 msgid "Save Incremental Backup."
-msgstr ""
+msgstr "Incrementele reservekopie opslaan."
 
 #: ../../user_manual/working_with_images.rst:275
 msgid "Exports the current image as 'filename'\\_XXX.kra."
@@ -507,7 +509,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:278
 msgid ""
-"Since Krita's file format is compressed data file, in case of corrupt or "
+"Since Krita's file format is compressed data file, in case of a corrupt or "
 "broken file you can open it with archive managers and extract the contents "
 "of the layers. This will help you to recover as much as possible data from "
 "the file. On windows, you will need to rename it to filename.zip to open it."

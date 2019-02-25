@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___text\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 20:11+0200\n"
+"PO-Revision-Date: 2019-02-24 19:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<rst_epilog>:2
@@ -54,11 +54,12 @@ msgstr "Інструмент тексту"
 
 #: ../../reference_manual/tools/text.rst:18
 msgid "|tooltext|"
-msgstr ""
+msgstr "|tooltext|"
 
 #: ../../reference_manual/tools/text.rst:20
 msgid "This tool allows you to add text to your artwork."
 msgstr ""
+"За допомогою цього інструмента ви можете додавати текст на ваші полотна."
 
 #: ../../reference_manual/tools/text.rst:22
 msgid ""
@@ -79,7 +80,7 @@ msgstr "Параметри інструмента"
 
 #: ../../reference_manual/tools/text.rst:30
 msgid ".. image:: images/en/Krita-tool-options-text.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-tool-options-text.png"
 
 #: ../../reference_manual/tools/text.rst:32
 msgid ""
@@ -94,10 +95,11 @@ msgstr "Шрифт"
 #: ../../reference_manual/tools/text.rst:35
 msgid "The letter type used by newly created texts."
 msgstr ""
+"Тип літер, який використовуватиметься для новостворених тестових включень."
 
 #: ../../reference_manual/tools/text.rst:36
 msgid "Size in pt"
-msgstr ""
+msgstr "Розмір у пунктах"
 
 #: ../../reference_manual/tools/text.rst:37
 msgid ""
@@ -146,7 +148,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/text.rst:49
 msgid ".. image:: images/en/Text-editor-example.png"
-msgstr ""
+msgstr ".. image:: images/en/Text-editor-example.png"
 
 #: ../../reference_manual/tools/text.rst:50
 msgid "Activating"
@@ -204,104 +206,108 @@ msgstr "Файл"
 
 #: ../../reference_manual/tools/text.rst:66
 msgid "Save :kbd:`Ctrl + S`"
-msgstr ""
+msgstr "Зберегти :kbd:`Ctrl + S`"
 
 #: ../../reference_manual/tools/text.rst:67
 msgid "Save current edits to the text on canvas."
-msgstr ""
+msgstr "Зберегти поточні зміни у тексті на полотні."
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close :kbd:`Ctrl + W`"
-msgstr ""
+msgstr "Закрити :kbd:`Ctrl + W`"
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close the editor"
-msgstr ""
+msgstr "Закрити вікно редактора."
 
 #: ../../reference_manual/tools/text.rst:72
 msgid "Basic editing functions"
-msgstr ""
+msgstr "Базові можливості з редагування"
 
 #: ../../reference_manual/tools/text.rst:74
 msgid "Undo :kbd:`Ctrl + Z`"
-msgstr ""
+msgstr "Скасувати :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/tools/text.rst:75
 msgid "Undo the last action in the text editor."
-msgstr ""
+msgstr "Скасувати останню дію у текстовому редакторі."
 
 #: ../../reference_manual/tools/text.rst:76
 msgid "Redo :kbd:`Ctrl + Shift + Z`"
-msgstr ""
+msgstr "Повторити :kbd:`Ctrl + Shift + Z`"
 
 #: ../../reference_manual/tools/text.rst:77
 msgid "Redo the last undone action in the text editor."
-msgstr ""
+msgstr "Повторити останню скасовану дію у текстовому редакторі."
 
 #: ../../reference_manual/tools/text.rst:78
 msgid "Cut :kbd:`Ctrl + X`"
-msgstr ""
+msgstr "Вирізати :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/tools/text.rst:79
 msgid "Cut selected text to the clipboard."
-msgstr ""
+msgstr "Вирізати позначений фрагмент тексту до буфера обміну даними."
 
 #: ../../reference_manual/tools/text.rst:80
 msgid "Copy :kbd:`Ctrl + C`"
-msgstr ""
+msgstr "Копіювати :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/tools/text.rst:81
 msgid "Copy selected text to the clipboard."
-msgstr ""
+msgstr "Копіювати позначений фрагмент тексту до буфера обміну даними."
 
 #: ../../reference_manual/tools/text.rst:82
 msgid "Paste :kbd:`Ctrl + V`"
-msgstr ""
+msgstr "Вставити :kbd:`Ctrl + V`"
 
 #: ../../reference_manual/tools/text.rst:83
 msgid "Paste text from the clipboard."
-msgstr ""
+msgstr "Вставити текст з буфера обміну даними."
 
 #: ../../reference_manual/tools/text.rst:84
 msgid "Select all :kbd:`Ctrl + A`"
-msgstr ""
+msgstr "Позначити все :kbd:`Ctrl + A`"
 
 #: ../../reference_manual/tools/text.rst:85
 msgid "Select all text in the active editor."
-msgstr ""
+msgstr "Позначити увесь текст у активному вікні редактора."
 
 #: ../../reference_manual/tools/text.rst:86
 msgid "Deselect :kbd:`Ctrl + Shift + A`"
-msgstr ""
+msgstr "Скасувати позначення :kbd:`Ctrl + Shift + A`"
 
 #: ../../reference_manual/tools/text.rst:87
 msgid "Deselect any selected text."
-msgstr ""
+msgstr "Скасувати позначення будь-яких фрагментів тексту."
 
 #: ../../reference_manual/tools/text.rst:88
 msgid "Find :kbd:`Ctrl + F`"
-msgstr ""
+msgstr "Знайти :kbd:`Ctrl + F`"
 
 #: ../../reference_manual/tools/text.rst:89
 msgid ""
 "Pops up a window with an input to find the given text in the active editor."
 msgstr ""
+"Відкрити вікно із полем для введення тексту для пошуку введеного фрагмента у"
+" активному вікні редактора."
 
 #: ../../reference_manual/tools/text.rst:90
 msgid "Find Next :kbd:`F3`"
-msgstr ""
+msgstr "Знайти далі :kbd:`F3`"
 
 #: ../../reference_manual/tools/text.rst:91
 msgid "Searches for the next text using the last search key."
-msgstr ""
+msgstr "Шукати наступний фрагмент тексту за попереднім критерієм пошуку."
 
 #: ../../reference_manual/tools/text.rst:92
 msgid "Find Previous :kbd:`Shift + F3`"
-msgstr ""
+msgstr "Знайти позаду :kbd:`Shift + F3`"
 
 #: ../../reference_manual/tools/text.rst:93
 msgid "Searches for the last text using the last search key."
 msgstr ""
+"Знайти попередній випадок використання фрагмента тексту за останнім критерієм"
+" пошуку."
 
 #: ../../reference_manual/tools/text.rst:95
 msgid "Edit"
@@ -309,7 +315,7 @@ msgstr "Зміни"
 
 #: ../../reference_manual/tools/text.rst:95
 msgid "Replace... :kbd:`Ctrl + R`"
-msgstr ""
+msgstr "Замінити... :kbd:`Ctrl + R`"
 
 #: ../../reference_manual/tools/text.rst:95
 msgid ""
@@ -323,19 +329,19 @@ msgstr "Перегляд"
 
 #: ../../reference_manual/tools/text.rst:99
 msgid "Zoom Out :kbd:`Ctrl + -`"
-msgstr ""
+msgstr "Зменшити :kbd:`Ctrl + -`"
 
 #: ../../reference_manual/tools/text.rst:100
 msgid "Zoom out the text."
-msgstr ""
+msgstr "Зменшити масштаб тексту."
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom In :kbd:`Ctrl + +`"
-msgstr ""
+msgstr "Збільшити :kbd:`Ctrl + +`"
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom in the text."
-msgstr ""
+msgstr "Збільшити масштаб тексту."
 
 #: ../../reference_manual/tools/text.rst:104
 msgid "Insert"
@@ -343,7 +349,7 @@ msgstr "Вставити"
 
 #: ../../reference_manual/tools/text.rst:107
 msgid "Special Character... :kbd:`Alt + Shift + C`"
-msgstr ""
+msgstr "Спеціальний символ… :kbd:`Alt + Shift + C`"
 
 #: ../../reference_manual/tools/text.rst:107
 msgid ""
@@ -359,23 +365,23 @@ msgstr ""
 
 #: ../../reference_manual/tools/text.rst:111
 msgid "Bold :kbd:`Ctrl + B`"
-msgstr ""
+msgstr "Жирний :kbd:`Ctrl + B`"
 
 #: ../../reference_manual/tools/text.rst:112
 msgid "Set the font-weight to **bold**."
-msgstr ""
+msgstr "Встановити **напівжирний** шрифт."
 
 #: ../../reference_manual/tools/text.rst:113
 msgid "Italic :kbd:`Ctrl + I`"
-msgstr ""
+msgstr "Курсив :kbd:`Ctrl + I`"
 
 #: ../../reference_manual/tools/text.rst:114
 msgid "Sets the selected text *italic*."
-msgstr ""
+msgstr "Встановити для тексту режим *курсив*."
 
 #: ../../reference_manual/tools/text.rst:115
 msgid "Underline :kbd:`Ctrl + U`"
-msgstr ""
+msgstr "Підкреслений :kbd:`Ctrl + U`"
 
 #: ../../reference_manual/tools/text.rst:116
 msgid "Underline the selected text."
@@ -387,23 +393,23 @@ msgstr "Перекреслити"
 
 #: ../../reference_manual/tools/text.rst:118
 msgid "Adds a strike-through text decoration."
-msgstr ""
+msgstr "Додати перекреслення для фрагмента тексту."
 
 #: ../../reference_manual/tools/text.rst:119
 msgid "Superscript :kbd:`Ctrl + Shift + P`"
-msgstr ""
+msgstr "Верхній індекс :kbd:`Ctrl + Shift + P`"
 
 #: ../../reference_manual/tools/text.rst:120
 msgid "Sets the text to super-script baseline."
-msgstr ""
+msgstr "Встановити базову лінію верхнього індексу для тексту."
 
 #: ../../reference_manual/tools/text.rst:121
 msgid "Subscript :kbd:`Ctrl + Shift + B`"
-msgstr ""
+msgstr "Нижній індекс :kbd:`Ctrl + Shift + B`"
 
 #: ../../reference_manual/tools/text.rst:122
 msgid "Sets the text to subscript baseline."
-msgstr ""
+msgstr "Встановити базову лінію нижнього індексу для тексту."
 
 #: ../../reference_manual/tools/text.rst:123
 msgid "Weight"
@@ -421,23 +427,23 @@ msgstr "Вирівняти ліворуч"
 
 #: ../../reference_manual/tools/text.rst:126
 msgid "Align the selected paragraph to the left."
-msgstr ""
+msgstr "Вирівняти позначений абзац ліворуч."
 
 #: ../../reference_manual/tools/text.rst:127
 msgid "Align Center :kbd:`Ctrl + Alt + C`"
-msgstr ""
+msgstr "Вирівняти за центром :kbd:`Ctrl + Alt + C`"
 
 #: ../../reference_manual/tools/text.rst:128
 msgid "Center the selected paragraph."
-msgstr ""
+msgstr "Вирівняти позначений абзац за центром."
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align Right :kbd:`Ctrl + Alt + R`"
-msgstr ""
+msgstr "Вирівняти праворуч :kbd:`Ctrl + Alt + R`"
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align the selected paragraph to the right."
-msgstr ""
+msgstr "Вирівняти позначений абзац праворуч."
 
 #: ../../reference_manual/tools/text.rst:132
 msgid "Settings"
@@ -449,7 +455,7 @@ msgstr "Параметри…"
 
 #: ../../reference_manual/tools/text.rst:135
 msgid "Calls up the text-editor settings dialog."
-msgstr ""
+msgstr "Відкрити діалогове вікно параметрів текстового редактора."
 
 #: ../../reference_manual/tools/text.rst:138
 msgid "Text Editor Settings"
@@ -457,7 +463,7 @@ msgstr "Параметри редактора тексту"
 
 #: ../../reference_manual/tools/text.rst:140
 msgid "The settings that can be configured for the text editor."
-msgstr ""
+msgstr "Параметри, які можна налаштувати для текстового редактора."
 
 #: ../../reference_manual/tools/text.rst:142
 msgid "Editor Mode"
@@ -507,7 +513,7 @@ msgstr "Значення"
 
 #: ../../reference_manual/tools/text.rst:154
 msgid "The format for highlighting value of attributes."
-msgstr ""
+msgstr "Формат значення підсвічування атрибутів."
 
 #: ../../reference_manual/tools/text.rst:155
 msgid "Comment"
@@ -525,7 +531,7 @@ msgstr "Колір тексту у редакторі"
 
 #: ../../reference_manual/tools/text.rst:158
 msgid "The main color of the editor."
-msgstr ""
+msgstr "Основний колір вікна редактора."
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Colors"
@@ -533,7 +539,7 @@ msgstr "Кольори"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Editor background color"
-msgstr ""
+msgstr "Колір тла редактора"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "The main background color of the editor."
@@ -612,7 +618,7 @@ msgstr "Інтервал між словами"
 
 #: ../../reference_manual/tools/text.rst:207
 msgid "x, y, dx, dy"
-msgstr ""
+msgstr "x, y, dx, dy"
 
 #: ../../reference_manual/tools/text.rst:209
 msgid ""
@@ -624,7 +630,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/text.rst:211
 msgid "X and Y"
-msgstr ""
+msgstr "X та Y"
 
 #: ../../reference_manual/tools/text.rst:212
 msgid ""
@@ -635,7 +641,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "dx and dy"
-msgstr ""
+msgstr "dx та dy"
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "These are relative coordinates to the position of the previous letter."
@@ -643,7 +649,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/text.rst:217
 msgid "Font-stretch and Small-caps"
-msgstr ""
+msgstr "Розтягування шрифту та малі прописні"
 
 #: ../../reference_manual/tools/text.rst:219
 msgid ""

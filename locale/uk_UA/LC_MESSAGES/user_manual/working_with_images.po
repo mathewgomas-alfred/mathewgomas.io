@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___working_with_images\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 19:09+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 10:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -26,21 +26,23 @@ msgstr ".. image:: images/en/Infinite-canvas.png"
 
 #: ../../user_manual/working_with_images.rst:1
 msgid "Detailed steps on how images work in Krita"
-msgstr ""
+msgstr "Докладний опис кроків роботи із зображеннями у Krita"
 
 #: ../../user_manual/working_with_images.rst:17
 msgid "Working with Images"
-msgstr ""
+msgstr "Робота із зображеннями"
 
 #: ../../user_manual/working_with_images.rst:19
 msgid ""
 "Computers work with files and as a painting program, Krita works with images "
 "as the type of file it creates and manipulates."
 msgstr ""
+"Комп'ютери працюють із файлами, а програми для малювання, зокрема Krita,"
+" працюють із зображеннями, створюють і обробляють файли відповідних типів."
 
 #: ../../user_manual/working_with_images.rst:23
 msgid "What do Images Contain?"
-msgstr ""
+msgstr "Що міститься у файлах зображень?"
 
 #: ../../user_manual/working_with_images.rst:25
 msgid ""
@@ -50,7 +52,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:29
 msgid "Raster Data"
-msgstr ""
+msgstr "Растрові дані"
 
 #: ../../user_manual/working_with_images.rst:31
 msgid ""
@@ -62,11 +64,11 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:36
 msgid "A single layer file will usually only contain raster data."
-msgstr ""
+msgstr "Файл із одним шаром, зазвичай, міститиме лише растрові дані."
 
 #: ../../user_manual/working_with_images.rst:39
 msgid "Vector Data"
-msgstr ""
+msgstr "Векторні дані"
 
 #: ../../user_manual/working_with_images.rst:41
 msgid ""
@@ -79,7 +81,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:48
 msgid "Operation Data"
-msgstr ""
+msgstr "Дані, над якими виконуються дії"
 
 #: ../../user_manual/working_with_images.rst:50
 msgid ""
@@ -115,7 +117,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:72
 msgid "DPI/PPI"
-msgstr ""
+msgstr "Точки на дюйм і пікселі на дюйм"
 
 #: ../../user_manual/working_with_images.rst:74
 msgid ""
@@ -134,7 +136,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:85
 msgid "Some standards:"
-msgstr ""
+msgstr "Деякі зі стандартів:"
 
 #: ../../user_manual/working_with_images.rst:88
 msgid ""
@@ -153,8 +155,11 @@ msgid "120 PPI"
 msgstr "120 точок на дюйм"
 
 #: ../../user_manual/working_with_images.rst:93
-msgid "This is often used as standard for low-quality posters."
+#| msgid "This is the minimum you should use for quality prints."
+msgid "This is often used as a standard for low-quality posters."
 msgstr ""
+"Цю роздільність часто використовують як стандарт для низькоякісних друкованих"
+" відбитків."
 
 #: ../../user_manual/working_with_images.rst:94
 msgid "300 PPI"
@@ -186,7 +191,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:108
 msgid "Image color space vs layer color space vs conversion."
-msgstr ""
+msgstr "Простір кольорів зображення — простір кольорів шару — перетворення"
 
 #: ../../user_manual/working_with_images.rst:110
 msgid ""
@@ -200,11 +205,11 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:116
 msgid "Author and Description"
-msgstr ""
+msgstr "Автор і опис"
 
 #: ../../user_manual/working_with_images.rst:119
 msgid ".. image:: images/en/document_information_screen.png"
-msgstr ""
+msgstr ".. image:: images/en/document_information_screen.png"
 
 #: ../../user_manual/working_with_images.rst:120
 msgid ""
@@ -212,7 +217,7 @@ msgid ""
 "metadata. Along with the other data such as time and date of creation and "
 "modification, Krita also shows editing time of a document in the document "
 "information dialog, useful for professional illustrators, speed-painters to "
-"keep track of the time they worked on an artwork for billing purposes. It "
+"keep track of the time they worked on artwork for billing purposes. It "
 "detects when you haven’t performed actions for a while, and has a precision "
 "of +- 60 seconds. You can empty it in the document info dialog and of course "
 "by unzipping you .kra file and editing the meta-data there."
@@ -228,7 +233,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:133
 msgid "Setting the canvas background color"
-msgstr ""
+msgstr "Встановлення кольору тла полотна"
 
 #: ../../user_manual/working_with_images.rst:135
 msgid ""
@@ -250,11 +255,13 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:148
 msgid "Basic transforms"
-msgstr ""
+msgstr "Базові перетворення"
 
 #: ../../user_manual/working_with_images.rst:150
-msgid "There's some basic transforms available in the image menu."
+msgid "There are some basic transforms available in the image menu."
 msgstr ""
+"За допомогою меню «Зображення» можна отримати доступ до деяких базових"
+" перетворень."
 
 #: ../../user_manual/working_with_images.rst:152
 msgid "Shear Image"
@@ -263,6 +270,7 @@ msgstr "Перекосити зображення"
 #: ../../user_manual/working_with_images.rst:153
 msgid "This will allow you to skew the whole image and its layers."
 msgstr ""
+"За допомогою цього пункту можна перекосити ціле зображення або його шари."
 
 #: ../../user_manual/working_with_images.rst:154
 msgid "Rotate"
@@ -271,28 +279,33 @@ msgstr "Обернути"
 #: ../../user_manual/working_with_images.rst:155
 msgid "This will allow you to rotate the image and all its layers quickly."
 msgstr ""
+"За допомогою цього пункту можна швидко обернути зображення і усі його шари."
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "Mirror Horizontal/Vertical"
-msgstr ""
+msgstr "Віддзеркалити горизонтально/вертикально"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "This will allow you to mirror the whole image with all its layers."
 msgstr ""
+"За допомогою цього пункту можна віддзеркалити ціле зображення з усіма його"
+" шарами."
 
 #: ../../user_manual/working_with_images.rst:159
 msgid "But there are more options than that..."
-msgstr ""
+msgstr "Втім, у меню набагато більше корисних пунктів…"
 
 #: ../../user_manual/working_with_images.rst:162
 msgid "Cropping and resizing the canvas"
-msgstr ""
+msgstr "Обрізання та зміна розмірів полотна"
 
 #: ../../user_manual/working_with_images.rst:164
 msgid ""
 "You can crop and image with the :ref:`crop_tool`, to cut away extra space "
 "and improve the composition."
 msgstr ""
+"Обрізати зображення можна за допомогою інструмента :ref:`crop_tool`. При"
+" цьому програма відрізає зайві поля та поліпшує композицію зображення."
 
 #: ../../user_manual/working_with_images.rst:168
 msgid "Trimming"
@@ -324,7 +337,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:185
 msgid "Resizing the canvas"
-msgstr ""
+msgstr "Зміна розмірів полотна"
 
 #: ../../user_manual/working_with_images.rst:187
 msgid ""
@@ -334,7 +347,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:191
 msgid ".. image:: images/en/Resize_Canvas.png"
-msgstr ""
+msgstr ".. image:: images/en/Resize_Canvas.png"
 
 #: ../../user_manual/working_with_images.rst:192
 msgid ""
@@ -356,7 +369,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:209
 msgid "Resizing the image"
-msgstr ""
+msgstr "Зміна розмірів зображення"
 
 #: ../../user_manual/working_with_images.rst:211
 msgid ""
@@ -377,15 +390,15 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:224
 msgid ".. image:: images/en/Scale_Image_to_New_Size.png"
-msgstr ""
+msgstr ".. image:: images/en/Scale_Image_to_New_Size.png"
 
 #: ../../user_manual/working_with_images.rst:226
 msgid "Separating Images."
-msgstr ""
+msgstr "Розділення зображень"
 
 #: ../../user_manual/working_with_images.rst:229
 msgid ".. image:: images/en/Separate_Image.png"
-msgstr ""
+msgstr ".. image:: images/en/Separate_Image.png"
 
 #: ../../user_manual/working_with_images.rst:230
 msgid ""
@@ -410,7 +423,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:243
 msgid "Saving, Exporting and Opening Files"
-msgstr ""
+msgstr "Збереження, експортування та відкриття файлів"
 
 #: ../../user_manual/working_with_images.rst:245
 msgid ""
@@ -441,6 +454,8 @@ msgid ""
 "Make a copy of your current file by saving it with a different name. Krita "
 "will switch to the newly made file as its active document."
 msgstr ""
+"Зробити копію поточного файла, зберігши його до файла із іншою назвою. При"
+" цьому Krita перемкне активний документ на новостворений файл."
 
 #: ../../user_manual/working_with_images.rst:258
 msgid "Open"
@@ -448,7 +463,7 @@ msgstr "Відкрити"
 
 #: ../../user_manual/working_with_images.rst:259
 msgid "Open a saved file. Fairly straightforward."
-msgstr ""
+msgstr "Відкрити збережений файл. Доволі очевидно."
 
 #: ../../user_manual/working_with_images.rst:261
 msgid ""
@@ -456,6 +471,9 @@ msgid ""
 "you are working on a layered file, but only need to save a flattened version "
 "of it to a certain location."
 msgstr ""
+"Зберегти файл до нового місця без активного його відкриття. Корисно, якщо ви"
+" працюєте з файлом із шарами, але хочете зберегти лише версію із об'єднаними"
+" шарами до певного каталогу."
 
 #: ../../user_manual/working_with_images.rst:262
 msgid "Export"
@@ -481,6 +499,8 @@ msgid ""
 "Makes a new copy of the current image. Similar to Open Existing Document As "
 "Untitled Document, but then with already opened files."
 msgstr ""
+"Створити копію поточного зображення. Дія подібна до «Відкрити вже створений"
+" документ як документ без назви», але виконується для вже відкритих файлів."
 
 #: ../../user_manual/working_with_images.rst:272
 msgid "Save Incremental Version"
@@ -491,6 +511,8 @@ msgid ""
 "Saves the current image as 'filename'\\_XXX.kra and switches the current "
 "document to it."
 msgstr ""
+"Зберігає поточне зображення до файла «назва_файла»\\_XXX.kra і перемикає"
+" поточний документ на збережений файл."
 
 #: ../../user_manual/working_with_images.rst:275
 msgid "Save Incremental Backup."
@@ -499,10 +521,11 @@ msgstr "Зберегти нарощувальну версію."
 #: ../../user_manual/working_with_images.rst:275
 msgid "Exports the current image as 'filename'\\_XXX.kra."
 msgstr ""
+"Експортувати поточне зображення до файла із назвою «назва_файла»\\_XXX.kra."
 
 #: ../../user_manual/working_with_images.rst:278
 msgid ""
-"Since Krita's file format is compressed data file, in case of corrupt or "
+"Since Krita's file format is compressed data file, in case of a corrupt or "
 "broken file you can open it with archive managers and extract the contents "
 "of the layers. This will help you to recover as much as possible data from "
 "the file. On windows, you will need to rename it to filename.zip to open it."

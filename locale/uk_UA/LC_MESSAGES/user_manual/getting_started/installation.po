@@ -6,19 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___getting_started___installation\n"
+"Project-Id-Version: docs_krita_org_user_manual___getting_started___installatio"
+"n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-21 00:20+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 14:04+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../user_manual/getting_started/installation.rst:1
@@ -41,12 +41,22 @@ msgid ""
 "download directory to get the portable zip-file version of Krita instead of "
 "the setup.exe installer."
 msgstr ""
+"Користувачі Windows можуть отримати пакунок із найсвіжішою версією з `нашого"
+" сайта <https://"
+"krita.org/download/>`_. Виберіть 64-бітову або 32-бітову версію, відповідно"
+" до архітектури вашої операційної системи. Якщо вам потрібна портативна"
+" версія Krita, перейдіть до `каталогу отримання пакунків KDE <"
+"http://download.kde.org/stable/krita/>`__, щоб отримати пакунок у форматі"
+" архіву zip, замість програми для встановлення setup.exe."
 
 #: ../../user_manual/getting_started/installation.rst:31
 msgid ""
 "Krita requires Windows Vista or newer. INTEL GRAPHICS CARD USERS: IF YOU SEE "
 "A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!"
 msgstr ""
+"Для роботи Krita потрібна Windows Vista або новіша версія операційної"
+" системи. КОРИСТУВАЧІ ГРАФІЧНИХ КАРТОК INTEL: ЯКЩО ПІСЛЯ ЗАПУСКУ ВИ БАЧИТЕ"
+" ЧОРНЕ АБО ПОРОЖНЄ ВІКНО, ОНОВІТЬ ДРАЙВЕРИ ДО ВАШОЇ КАРТКИ!"
 
 #: ../../user_manual/getting_started/installation.rst:35
 msgid "Linux"
@@ -60,16 +70,24 @@ msgid ""
 "libraries. You might also want to install the KDE system settings module and "
 "tweak the gui theme and fonts used, depending on your distributions"
 msgstr ""
+"Найсвіжіша версія Krita є частиною багатьох дистрибутивів Linux. У деяких"
+" дистрибутивах для доступу до неї слід увімкнути додаткові сховища пакунків."
+" Krita чудово працює у різних стільничних середовищах — KDE, Gnome, LXDE —"
+" хоча це програма KDE і для її роботи потрібні бібліотеки KDE. Вам також"
+" варто встановити модуль Системних параметрів KDE і налаштувати тему"
+" графічного інтерфейсу та використані шрифти, залежно від вашого дистрибутива."
 
 #: ../../user_manual/getting_started/installation.rst:45
 msgid "Nautilus/Nemo file extensions"
-msgstr "Суфікси назв файлів у Nautilus/Nemo"
+msgstr "Розширення для Nautilus/Nemo"
 
 #: ../../user_manual/getting_started/installation.rst:47
 msgid ""
 "Put here at the beginning, before we start on the many distro specific ways "
 "to get the program itself."
 msgstr ""
+"Це слід зробити спочатку, перш ніж ми перейдемо до багатьох специфічних для"
+" дистрибутивів способів встановлення програми."
 
 #: ../../user_manual/getting_started/installation.rst:50
 msgid ""
@@ -78,6 +96,11 @@ msgid ""
 "Moritz Molch's extensions for XCF, KRA, ORA and PSD thumbnails <http://"
 "moritzmolch.com/1749>`__."
 msgstr ""
+"Починаючи з квітня 2016 року, програма для керування файлами KDE, Dolphin,"
+" типово показує мініатюри файлів kra та ora; а ось для Nautilus та похідних"
+" від нього програм потрібне додаткове розширення. `Ми рекомендуємо розширення"
+" Моріца Мельха (Moritz Molch) для мініатюр XCF, KRA, ORA та PSD <http://"
+"moritzmolch.com/1749>`__."
 
 #: ../../user_manual/getting_started/installation.rst:56
 msgid "Appimages"
@@ -91,6 +114,13 @@ msgid ""
 "command chmod to make the appimage executable. Double click it, and enjoy "
 "Krita. (Or run it in the terminal with ./appimagename.appimage)"
 msgstr ""
+"Якщо хочете встановити Krita 3.0 або новішу версію, спочатку спробуйте"
+" appimage з сайта. **У 90% випадків це найпростіший спосіб отримати"
+" найсвіжішу версію Krita.** Просто отримайте пакунок appimage, скористайтеся"
+" панеллю для зміни властивостей файла або командою chmod, щоб зробити файл"
+" appimage виконуваним. Далі, двічі клацніть на ньому і насолоджуйтеся роботою"
+" у Krita. (Або запустіть файл з термінала за допомогою команди"
+" ./appimagename.appimage)"
 
 #: ../../user_manual/getting_started/installation.rst:74
 msgid ""
@@ -99,6 +129,10 @@ msgid ""
 "more diskspace taken up(And this size would only be bigger if you were using "
 "Plasma to begin with)."
 msgstr ""
+"Appimage — це образ ISO із усіма потрібними для роботи бібліотеками. Тобто,"
+" вам не потрібно буде шукати щось у сховищах, встановлювати залежності, але"
+" ціною цього буде певна перевитрата місця на диску (причому ця перевитрата"
+" буде найпомітнішою у середовищах із Плазмою)."
 
 #: ../../user_manual/getting_started/installation.rst:80
 msgid "Ubuntu and Kubuntu"
@@ -111,6 +145,10 @@ msgid ""
 "You should either use the appimage, or the snap available from Ubuntu's app "
 "store."
 msgstr ""
+"Не має значення, якою версією Ubuntu ви користуєтеся, встановити Krita має"
+" бути просто. Втім, іноді доступною є лише дуже стара версія. Вам варто"
+" скористатися або appimage, або snap, доступ до яких можна отримати із"
+" крамниці програм Ubuntu."
 
 #: ../../user_manual/getting_started/installation.rst:88
 msgid "OpenSUSE"
@@ -118,7 +156,7 @@ msgstr "OpenSUSE"
 
 #: ../../user_manual/getting_started/installation.rst:90
 msgid "The latest stable builds are available from KDE:Extra repo:"
-msgstr ""
+msgstr "Найсвіжіші стабільні збірки можна знайти у сховищі KDE:Extra:"
 
 #: ../../user_manual/getting_started/installation.rst:92
 msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
@@ -127,6 +165,7 @@ msgstr "http://download.opensuse.org/repositories/KDE:/Extra/"
 #: ../../user_manual/getting_started/installation.rst:95
 msgid "Krita is also in the official repos, you can install it from Yast."
 msgstr ""
+"Krita також є в офіційних сховищах, її можна встановити за допомогою Yast."
 
 #: ../../user_manual/getting_started/installation.rst:98
 msgid "Fedora"
@@ -138,6 +177,9 @@ msgid ""
 "using packagekit (Add/Remove Software) or by writing the following command "
 "in terminal."
 msgstr ""
+"Пакунок Krita з офіційних сховищ називається **calligra-krita**, ви можете"
+" встановити його за допомогою packagekit (Додати або вилучити програми) ви за"
+" допомогою вказаної нижче команди, відданої у терміналі."
 
 #: ../../user_manual/getting_started/installation.rst:102
 msgid "``dnf install krita``"
@@ -148,6 +190,8 @@ msgid ""
 "You can also use the software center such as gnome software center or "
 "Discover to install Krita"
 msgstr ""
+"Для встановлення Krita ви також можете скористатися центрами для встановлення"
+" програмного забезпечення, зокрема Центром програм GNOME або Discover."
 
 #: ../../user_manual/getting_started/installation.rst:107
 msgid "Debian"
@@ -158,6 +202,8 @@ msgid ""
 "The latest version of Krita available in Debian is 3.1.1. To install Krita "
 "type the following line in terminal"
 msgstr ""
+"Найсвіжіша версія Krita, яку можна встановити у Debian is 3.1.1. Щоб"
+" встановити Krita, віддайте таку команду у терміналі:"
 
 #: ../../user_manual/getting_started/installation.rst:112
 msgid "``apt install krita``"
@@ -172,6 +218,8 @@ msgid ""
 "Arch Linux provides krita package in the Extra repository. You can install "
 "Krita by using the following command"
 msgstr ""
+"В Arch Linux пакунок krita можна встановити зі сховища Extra. Для"
+" встановлення Krita віддайте таку команду:"
 
 #: ../../user_manual/getting_started/installation.rst:121
 msgid "``pacman -S krita``"
@@ -182,6 +230,8 @@ msgid ""
 "You can install the most recent build of Krita using an aur helper such as "
 "aurman. For example ``aurman -S krita-beta``"
 msgstr ""
+"Встановити найсвіжішу збірку Krita можна за допомогою допоміжного засобу aur,"
+" зокрема aurman. Приклад: ``aurman -S krita-beta``"
 
 #: ../../user_manual/getting_started/installation.rst:127
 msgid "OS X"
@@ -192,6 +242,8 @@ msgid ""
 "Mac OSX is very experimental right now and unstable, don't use it for "
 "production purpose"
 msgstr ""
+"Поточна версія пакунка для Mac OSX є доволі експериментальною і нестабільною."
+" Не користуйтеся нею для виконання професійних завдань."
 
 #: ../../user_manual/getting_started/installation.rst:132
 msgid ""
@@ -199,6 +251,9 @@ msgid ""
 "krita.org/download/krita-desktop/>`__. It has only been reported to work "
 "with Mac OSX 10.9."
 msgstr ""
+"Якщо хочете, можете отримати найсвіжішу двійкову версію з `нашого сайта <"
+"https://krita.org/download/krita-desktop/>`__. Надходили повідомлення, що ця"
+" версія працює лише у Mac OSX 10.9."
 
 #: ../../user_manual/getting_started/installation.rst:137
 msgid "Source"
@@ -210,23 +265,33 @@ msgid ""
 "to install from prebuilt packages, there are certain advantages that might "
 "make the effort worth it:"
 msgstr ""
+"Хоча, звичайно ж, зібрати Krita з початкових кодів складніше, ніж"
+" скористатися попередньо зібраними пакунками, є декілька переваг, які варті"
+" витрачених на це зусиль:"
 
 #: ../../user_manual/getting_started/installation.rst:143
 msgid ""
 "You can follow the development of Krita on the foot. If you compile Krita "
-"regularly from the development repository, you will be able to play withall "
+"regularly from the development repository, you will be able to play with all "
 "the new features that the developers are working on."
 msgstr ""
+"Ви можете стежити за розробкою Krita безпосередньо. Якщо ви регулярно"
+" збиратимете Krita зі сховища коду для розробників, ви зможете погратися зі"
+" усіма новими можливостями, над якими працюють розробники."
 
 #: ../../user_manual/getting_started/installation.rst:146
 msgid ""
 "You can compile optimized for your processor. Most pre-built packages are "
 "built for the lowest-common denominator."
 msgstr ""
+"Ви можете зібрати версію, яку буде оптимізовано для вашого процесора. У"
+" більшості попередньо зібраних пакунків використовуються універсальні"
+" налаштування, які не усюди працюють оптимально."
 
 #: ../../user_manual/getting_started/installation.rst:148
 msgid "You will be getting all the bug fixes as soon as possible as well."
 msgstr ""
+"Крім того, ви зможете скористатися усіма найсвіжішими виправленнями вад."
 
 #: ../../user_manual/getting_started/installation.rst:149
 msgid ""
@@ -235,6 +300,11 @@ msgid ""
 "important, which is why our regular testers get their name in the about box "
 "just like developers."
 msgstr ""
+"Ви зможете допомогти розробникам, надсилаючи відгуки щодо можливостей, над"
+" якими вони працюють, а також зможете перевірити, чи належним чином"
+" виправлено вади. Така робота є надзвичайно важливою, тому ми надаємо перелік"
+" усіх наших регулярних тестувальників разом зі списком розробників у вікні"
+" «Про програму»."
 
 #: ../../user_manual/getting_started/installation.rst:154
 msgid ""
@@ -244,6 +314,12 @@ msgid ""
 "that don't work. But in practice, there is seldom really bad instability, "
 "and if it is, it's easy for you to go back to a revision that does work."
 msgstr ""
+"Звичайно ж, у такого підходу є і недоліки: збираючи поточну версію, ви"
+" отримуєте у навантаження усі проблеми із незавершеними можливостями."
+" Отримана версія може виявитися нестабільною у роботі, деякі елементи"
+" інтерфейсу можуть взагалі не працювати. Втім, на практиці, справжні проблеми"
+" зі стабільністю є рідкісними, а якщо вони виникають, ви доволі просто можете"
+" повернутися до модифікації, у якій немає цих проблем."
 
 #: ../../user_manual/getting_started/installation.rst:161
 msgid ""
@@ -252,12 +328,20 @@ msgid ""
 "davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__ by "
 "David Revoy."
 msgstr ""
+"Отже… Якщо вирішили зібрати програму з початкових кодів, розпочніть зі"
+" найсвіжіших настанов щодо збирання з нашого чудового ілюстрованого"
+" `підручника <http://www."
+"davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__, автором"
+" якого є David Revoy."
 
 #: ../../user_manual/getting_started/installation.rst:166
 msgid ""
 "There is more information and troubleshooting help on the `Calligra <https://"
 "community.kde.org/Calligra/Building>`__ wiki:"
 msgstr ""
+"Докладніші відомості та довідку з усування проблем можна знайти у `вікі"
+" Calligra <https://"
+"community.kde.org/Calligra/Building>`__:"
 
 #: ../../user_manual/getting_started/installation.rst:169
 msgid ""
@@ -265,6 +349,9 @@ msgid ""
 "don't hesitate to contact the Krita developers. There are three main "
 "communication channels:"
 msgstr ""
+"Якщо у вас виникли якісь проблеми або ви не маєте досвіду зі збирання"
+" програмного забезпечення, не соромтеся зв'язатися із розробниками Krita."
+" Існує три основних канали спілкування:"
 
 #: ../../user_manual/getting_started/installation.rst:173
 msgid "irc: irc.freenode.net, channel #krita"

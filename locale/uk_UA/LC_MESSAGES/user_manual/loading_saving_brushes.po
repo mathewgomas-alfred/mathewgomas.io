@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___loading_saving_brushes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-20 20:09+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 11:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../user_manual/loading_saving_brushes.rst:None
@@ -33,10 +33,12 @@ msgid ""
 "Detailed guide on the brush settings dialog in Krita as well as how to make "
 "your own brushes and how to share them."
 msgstr ""
+"Докладні настанови щодо діалогового вікна параметрів пензля у Krita, а також"
+" способів створення та оприлюднення ваших власних пензлів."
 
 #: ../../user_manual/loading_saving_brushes.rst:17
 msgid "Loading and Saving Brushes"
-msgstr ""
+msgstr "Завантаження і збереження пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:19
 msgid ""
@@ -58,6 +60,8 @@ msgid ""
 "The brush engines have a lot of different settings as well. So, you can save "
 "those settings into presets."
 msgstr ""
+"Для рушіїв пензлів також передбачено багато різних параметрів. Отже, ви"
+" можете зберігати ці параметри до наборів параметрів."
 
 #: ../../user_manual/loading_saving_brushes.rst:32
 msgid ""
@@ -81,18 +85,19 @@ msgstr ""
 msgid ""
 "When you open Brush Settings Editor panel you will see something like this:"
 msgstr ""
+"Після відкриття панелі редактора параметрів пензля ви побачите щось таке:"
 
 #: ../../user_manual/loading_saving_brushes.rst:48
 msgid "Tour of the brush settings dropdown"
-msgstr ""
+msgstr "Огляд спадного списку параметрів пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:53
 msgid "The brush settings drop down is divided into six areas,"
-msgstr ""
+msgstr "Спадну панель параметрів пензля поділено на шість областей:"
 
 #: ../../user_manual/loading_saving_brushes.rst:56
 msgid "Section A - General Information"
-msgstr ""
+msgstr "Розділ A — Загальні відомості"
 
 #: ../../user_manual/loading_saving_brushes.rst:58
 msgid ""
@@ -162,13 +167,15 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:101
 msgid "Saving a preset."
-msgstr ""
+msgstr "Збереження набору параметрів"
 
 #: ../../user_manual/loading_saving_brushes.rst:103
 msgid ""
 "On the right, there's :guilabel:`Save New Preset` and :guilabel:`Overwrite "
 "Preset`."
 msgstr ""
+"Праворуч передбачено кнопки :guilabel:`Зберегти новий набір пензлів` та"
+" :guilabel:`Перезаписати пензель`."
 
 #: ../../user_manual/loading_saving_brushes.rst:106
 msgid ""
@@ -179,7 +186,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:108
 msgid "Overwrite Preset"
-msgstr "Перезаписати шаблон"
+msgstr "Перезаписати пензель"
 
 #: ../../user_manual/loading_saving_brushes.rst:111
 msgid ""
@@ -190,7 +197,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:113
 msgid "Save New Preset"
-msgstr ""
+msgstr "Зберегти новий набір пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:115
 msgid ""
@@ -224,7 +231,7 @@ msgstr "Завантажити наявну мініатюру"
 
 #: ../../user_manual/loading_saving_brushes.rst:128
 msgid "This will load the existing thumbnail inside the preset."
-msgstr ""
+msgstr "Завантажити наявну мініатюру до набору пензлів."
 
 #: ../../user_manual/loading_saving_brushes.rst:130
 msgid "Load scratch pad thumbnail"
@@ -243,6 +250,8 @@ msgstr "Завантажити зображення"
 #: ../../user_manual/loading_saving_brushes.rst:133
 msgid "With this you can choose an image from disk to load as a thumbnail."
 msgstr ""
+"За допомогою цього пункту ви можете вибрати зображення з диска для"
+" завантаження його як мініатюри."
 
 #: ../../user_manual/loading_saving_brushes.rst:134
 msgid "Load from Icon Library"
@@ -250,7 +259,7 @@ msgstr "Завантажити із бібліотеки піктограм"
 
 #: ../../user_manual/loading_saving_brushes.rst:135
 msgid "This opens up the icon library."
-msgstr ""
+msgstr "Відкрити бібліотеку піктограм."
 
 #: ../../user_manual/loading_saving_brushes.rst:137
 msgid "Clear Thumbnail"
@@ -258,11 +267,11 @@ msgstr "Вилучити мініатюру"
 
 #: ../../user_manual/loading_saving_brushes.rst:137
 msgid "This will make the mini scratch pad white."
-msgstr ""
+msgstr "Робить поле мініатюрного полотна повністю білим."
 
 #: ../../user_manual/loading_saving_brushes.rst:140
 msgid "The Icon Library"
-msgstr ""
+msgstr "Бібліотека піктограм"
 
 #: ../../user_manual/loading_saving_brushes.rst:142
 msgid "To make making presets icons faster, Krita got an icon library."
@@ -305,7 +314,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:167
 msgid "Section B - The Preset Chooser"
-msgstr ""
+msgstr "Розділ B — Засіб вибору набору пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:169
 msgid ""
@@ -426,7 +435,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:235
 msgid ""
-"One of the big important things that makes art unique to the artist who "
+"One of the big important things that make art unique to the artist who "
 "created it is the style of the strokes. Strokes are different because they "
 "differ in speed, rotation, direction, and the amount of pressure put onto "
 "the stylus. Because these are so important, we would want to customize how "
@@ -465,7 +474,7 @@ msgid ""
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:260
-msgid "Underneath the curve widget there's two more options:"
+msgid "Underneath the curve widget there are two more options:"
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:263
@@ -602,7 +611,7 @@ msgstr ""
 #: ../../user_manual/loading_saving_brushes.rst:316
 msgid ""
 "The icon in the top left of the first two presets indicate it is “Dirty”, "
-"meaning there's tweaks made to the preset."
+"meaning there are tweaks made to the preset."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:319
@@ -705,7 +714,7 @@ msgstr ""
 #: ../../user_manual/loading_saving_brushes.rst:371
 msgid ""
 "Test on the scratch pad... there still seems to be something affecting "
-"opacity. This is due the :ref:`flow <option_opacity_n_flow>` option."
+"opacity. This is due to the :ref:`flow <option_opacity_n_flow>` option."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:375
@@ -729,9 +738,9 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:381
 msgid ""
-"Here, diameter is the size of the brush-tip. You can touch the slider change "
-"the size, or right-click it and type in a value. Set it to 25 and test "
-"again. It should be much better."
+"Here, the diameter is the size of the brush-tip. You can touch the slider "
+"change the size, or right-click it and type in a value. Set it to 25 and "
+"test again. It should be much better."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:384
@@ -840,7 +849,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:434
 msgid ""
-"However, there's various old-fashioned ways of sharing brushes that can be "
+"However, there are various old-fashioned ways of sharing brushes that can be "
 "useful when importing and loading very old packs:"
 msgstr ""
 
@@ -900,7 +909,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:464
 msgid ""
-"If there's brush tips and patterns coming with the file, do the same with "
+"If there are brush tips and patterns coming with the file, do the same with "
 "pattern via the pattern docker, and for the brush-tip go to the settings "
 "dropdown(f5) and then go to the “brush-tip” option. There, select predefined "
 "brush, and then the “import” button to call up the file dialog."

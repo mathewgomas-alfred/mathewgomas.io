@@ -6,19 +6,19 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___getting_started___basic_concepts\n"
+"Project-Id-Version: docs_krita_org_user_manual___getting_started___basic_conce"
+"pts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 03:24+0100\n"
-"PO-Revision-Date: 2019-02-20 21:21+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 17:16+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
@@ -59,11 +59,11 @@ msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:1
 msgid "An overview of the basic concepts of Krita."
-msgstr ""
+msgstr "Огляд базових понять у Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:20
 msgid "Basic Concepts"
-msgstr "Основні концепції"
+msgstr "Основні поняття"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:22
 msgid ""
@@ -71,6 +71,9 @@ msgid ""
 "a brief introduction to the basic but important concepts required for "
 "getting started with digital painting in Krita."
 msgstr ""
+"Якщо це ваша перша спроба навчитися цифрового малювання, у цьому розділі ви"
+" знайдете короткий вступ до базових, але важливих понять, які потрібно знати,"
+" щоб ефективно малювати у Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:24
 msgid ""
@@ -80,6 +83,12 @@ msgid ""
 "functionality. Hopefully, it will help you grasp what buttons are for, even "
 "if you don't know the exact purpose of them."
 msgstr ""
+"Цей розділ є дуже, дуже довгим, оскільки у ньому ми спробували описати усі"
+" важливі речі щодо можливостей та справжньої потужності Krita. Отже, цей"
+" розділ можна розглядати як путівник найважливішими функціональними"
+" можливостями Krita. Сподіваємося, він допоможе вам зрозуміти призначення"
+" кнопок у інтерфейсі, навіть якщо ви не повністю розумієте механізми, які"
+" пов'язано із їхнім використанням."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:26
 msgid "Contents"
@@ -87,7 +96,7 @@ msgstr "Вміст"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:29
 msgid "Raster and Vector"
-msgstr ""
+msgstr "Растрові і векторні зображення"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:31
 msgid ""
@@ -95,6 +104,10 @@ msgid ""
 "vector editing capabilities as well. If you are new to Digital painting "
 "medium, it is necessary that you know the concepts of raster and Vector."
 msgstr ""
+"Хоча основним призначенням Krita є створення растрових зображень, у програмі"
+" передбачено і деякі можливості з редагування векторних зображень. Якщо ви не"
+" є досвідченим цифровим художником, важливо розуміти відмінності між"
+" растровими і векторними зображеннями."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:33
 msgid ""
@@ -106,6 +119,14 @@ msgid ""
 "beneath your brush from white to black. When you zoom in and see a brush "
 "stroke you can notice many small squares with colors, these are pixels"
 msgstr ""
+"У цифровому малюванні основною і елементарною часткою зображення є піксель"
+" (елементарна крапка). Зображення, по суті, є таблицею із крапок, кожна з"
+" яких має власний колір. Редагування растру полягає у виконанні дій із"
+" пікселями і редагуванні властивостей окремих пікселів. Наприклад, якщо ви"
+" скористаєтеся 1-піксельним пензлем чорного кольору і малюватимете ним на"
+" білому полотні у Krita, ви, насправді, змінюватимете колір пікселів під"
+" пензлем із білого на чорний. Якщо ви збільшите масштаб для перегляду мазка"
+" пензлем, ви побачите багато малих зафарбованих квадратиків. Це пікселі."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:38
 msgid ""
@@ -117,20 +138,32 @@ msgid ""
 "redraws the path and displays the newly formed shape to you. Hence you can "
 "re-size the vector shape to any extent without any loss in quality."
 msgstr ""
+"Векторну ж графіку засновано на математичних формулах. Формули не залежать"
+" від пікселів. Наприклад, якщо ви намалюєте прямокутник у векторному шарі"
+" Krita, ви, насправді, визначите контури, які проходитимуть через точки, які"
+" називаються вузлами і визначаються координатами «x» та «y» у координатній"
+" системі полотна. Якщо ви зміните розмір прямокутника або пересунете ці"
+" точки, комп'ютер переобчислить і перемалює контур, показавши вам нову його"
+" форму. Отже, ви можете будь-яким чином змінювати розмір векторної форми без"
+" будь-якої втрати якості."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:40
 msgid "In Krita, everything which is not on a vector layer is raster based."
 msgstr ""
+"У Krita усі елементи зображення, які не є частиною векторного шару, засновано"
+" на растрі."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:43
 msgid "Images, Views and Windows"
-msgstr ""
+msgstr "Зображення, панелі і вікна"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:45
 msgid ""
 "In a painting program, there are three major containers that make up your "
 "work-space."
 msgstr ""
+"У програмах для малювання ваш робочий простір складається із наборів"
+" контейнерів трьох основних типів."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:48
 msgid "Image"
@@ -138,7 +171,7 @@ msgstr "Зображення"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:50
 msgid "The most important one is the **Image**."
-msgstr ""
+msgstr "Найважливішим контейнером є **Зображення**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:52
 msgid ""
@@ -149,12 +182,23 @@ msgid ""
 "metadata such as creator, data created, and DPI. Krita can open multiple "
 "images at once, you can switch between them via the :guilabel:`window` menu."
 msgstr ""
+"Це окрема копія відкритого або створеного за допомогою початкового"
+" діалогового вікна зображення, саме тут ви можете редагувати ваш файл. Krita"
+" надає вам змогу відкрити файл як нову копію за допомогою меню"
+" :guilabel:`Файл` або зберегти зображення до нового файла чи створити"
+" послідовність нарощувального зберігання даних. Зображення містить дані щодо"
+" шарів, простору кольорів, розміру полотна та метаданих, зокрема метаданих"
+" щодо автора зображення, дати створення та роздільності зображення. Krita"
+" може одночасно відкривати декілька зображень. Перемикатися між відкритими"
+" зображеннями можна за допомогою меню :guilabel:`Вікно`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:54
 msgid ""
 "Because the image is a working copy of the image on the hard drive, you can "
 "do a lot of little saving tricks with it:"
 msgstr ""
+"Оскільки зображення є робочою копією зображення на диску комп'ютера,"
+" передбачено багато можливостей для роботи з ним:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:56
 msgid "New"
@@ -165,6 +209,8 @@ msgid ""
 "Makes a new image. When you press :menuselection:`save`, you make a new file "
 "on the hard drive."
 msgstr ""
+"Створити нове зображення. Після натискання кнопки :menuselection:`Зберегти`"
+" програма створити новий файл на диску."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:58
 msgid "Open"
@@ -176,10 +222,14 @@ msgid ""
 "`save`, you will overwrite the original existing image with your working "
 "copy."
 msgstr ""
+"Створити внутрішню копію наявного зображення. Коли ви натиснете кнопку"
+" :menuselection:"
+"`Зберегти`, програма перезапише початкове наявне зображення даними з вашої"
+" робочої копії."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:60
 msgid "Open existing image as new"
-msgstr ""
+msgstr "Відкрити наявне зображення як нове"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:61
 msgid ""
@@ -187,6 +237,10 @@ msgid ""
 "a saving location: you're making a new copy. This is similar to :"
 "menuselection:`import` in other programs."
 msgstr ""
+"Подібне до «Відкрити», але під час виконання дії :menuselection:`Зберегти`"
+" програма попросить вас вказати місце для зберігання даних: ви створюватимете"
+" копію. Цей пункт подібний до пункту :menuselection:`Імпортувати` у інших"
+" програмах."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:62
 msgid "Create Copy From Current Image"
@@ -197,16 +251,20 @@ msgid ""
 "Similar to :menuselection:`Open Existing Image as new` but with the "
 "currently selected image."
 msgstr ""
+"Подібне до :menuselection:`Відкрити наявний документ як документ без назви`,"
+" але із поточним вибраним зображенням."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:65
 msgid "Save incremental"
-msgstr ""
+msgstr "Зберегти нарощувальну копію або версію"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:65
 msgid ""
 "Allows you to quickly make a snapshot of the current image by making a new "
 "file with a version number added to it."
 msgstr ""
+"Надає вам змогу швидко створити зліпок поточного зображення, сворюючи файл із"
+" номером версії у назві."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:67
 msgid ""
@@ -219,11 +277,11 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:69
 msgid "You view the image via a **View**."
-msgstr ""
+msgstr "Переглядати зображення можна за допомогою **Панелі перегляду**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:72
 msgid "View"
-msgstr "Перегляд"
+msgstr "Панель перегляду"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:74
 msgid ""
@@ -241,6 +299,9 @@ msgid ""
 "drawing, and of course, there is zooming in and out for precision and rough "
 "work."
 msgstr ""
+"Якщо виникають якісь проблеми із малюванням певних кривих, ви можете"
+" скористатися обертанням для малювання, і, звичайно ж, передбачено можливості"
+" збільшення і зменшення масштабу для точної і грубої роботи."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid ".. image:: images/en/Krita_multiple_views.png"
@@ -248,7 +309,7 @@ msgstr ".. image:: images/en/Krita_multiple_views.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid "Multiple views of the same image in Krita"
-msgstr ""
+msgstr "Декілька панелей перегляду того самого зображення у Krita"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:84
 msgid ""
@@ -272,10 +333,12 @@ msgstr ""
 #: ../../user_manual/getting_started/basic_concepts.rst:94
 msgid "The image above shows some of the dockers in Krita"
 msgstr ""
+"На наведеному вище зображенні можна бачити декілька бічних панелей у вікні"
+" Krita"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:96
 msgid "All the views and the dockers are held inside **Windows**"
-msgstr ""
+msgstr "Усі панелі перегляду та бічні панелі є частинами **Вікон**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:99
 msgid "Window"
@@ -286,20 +349,28 @@ msgid ""
 "If you've used a computer before, you know what windows are: They are big "
 "containers for your computer programs."
 msgstr ""
+"Якщо ви вже користувалися графічними середовищами, ви знаєте, що таке"
+" «вікно»: це великий контейнер вашої комп'ютерної програми."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:103
 msgid ""
 "Krita allows you to have multiple windows via :menuselection:`window --> new "
 "window`. You can then drag this to another monitor for multi-monitor use."
 msgstr ""
+"У Krita передбачено можливість користування декількома вікнами програми."
+" Створити вікно можна за допомогою пункту меню :menuselection:`Вікно --> Нове"
+" вікно`. Новостворене вікно можна перетягунти на інший монітор, якщо ви"
+" користуєтеся декількома моніторами."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:105
 msgid "The image below shows an example of multiple windows in Krita."
 msgstr ""
+"На наведеному нижче зображенні показано приклад використання декількох вікон"
+" у Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:111
 msgid "Canvas in Krita"
-msgstr ""
+msgstr "Полотно у Krita"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:113
 msgid ""
@@ -319,7 +390,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:122
 msgid "Layers and Compositing"
-msgstr ""
+msgstr "Шари і композиція"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:124
 msgid ""
@@ -347,20 +418,24 @@ msgstr ""
 #: ../../user_manual/getting_started/basic_concepts.rst:130
 msgid "Krita has many layer-types, each doing a slightly different thing:"
 msgstr ""
+"У Krita передбачено багато типів шарів, кожен з яких має дещо інше"
+" призначення:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:132
 msgid ":ref:`paint_layers`"
-msgstr ""
+msgstr ":ref:`paint_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:133
 msgid ""
 "Also known as raster layers, and the most common layer type, you will be "
 "painting on these."
 msgstr ""
+"Також відомі як растрові шари. Найпоширеніший тип шарів, на яких, власне, ви"
+" і будете малювати."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:134
 msgid ":ref:`vector_layers`"
-msgstr ""
+msgstr ":ref:`vector_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:135
 msgid ""
@@ -371,7 +446,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:136
 msgid ":ref:`group_layers`"
-msgstr ""
+msgstr ":ref:`group_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:137
 msgid ""
@@ -381,7 +456,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:138
 msgid ":ref:`clone_layers`"
-msgstr ""
+msgstr ":ref:`clone_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:139
 msgid ""
@@ -391,7 +466,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:140
 msgid ":ref:`file_layers`"
-msgstr ""
+msgstr ":ref:`file_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:141
 msgid ""
@@ -401,7 +476,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:142
 msgid ":ref:`fill_layers`"
-msgstr ""
+msgstr ":ref:`fill_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:143
 msgid ""
@@ -411,15 +486,15 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid ":ref:`filter_layers`"
-msgstr ""
+msgstr ":ref:`filter_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid "Adding a filter in the layer-stack. We discuss these later on."
-msgstr ""
+msgstr "Додавання фільтра до стосу шарів. Роботу з фільтрами ми опишемо нижче."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:147
 msgid "You can manipulate the content of the layers with **Tools**."
-msgstr ""
+msgstr "Працювати із вмістом шарів можна за допомогою меню **Інструменти**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:150
 msgid "Tools"
@@ -434,7 +509,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:154
 msgid "Paint Tools"
-msgstr ""
+msgstr "Засоби малювання"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:155
 msgid ""
@@ -445,7 +520,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:156
 msgid "Vector Tools"
-msgstr ""
+msgstr "Векторні інструменти"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:157
 msgid ""
@@ -470,26 +545,32 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:160
 msgid "Guide Tools"
-msgstr ""
+msgstr "Напрямні інструменти"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:161
 msgid "These are tools like grids and assistants."
 msgstr ""
+"Це інструменти, які допомагають у точному виборі напрямку, зокрема ґратки та"
+" допоміжні лінії."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid "Transform Tools"
-msgstr ""
+msgstr "Інструменти перетворення"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid ""
 "These are tools that allow you to transform your image. More on that later."
 msgstr ""
+"За допомогою цих інструментів ви зможете перетворювати зображення."
+" Докладніший їхній опис наведено нижче."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:165
 msgid ""
 "All tools can be found in the toolbox, and information can be found in the "
 "tools section of the manual."
 msgstr ""
+"Усі кнопки інструментів розташовано на панелях інструментів. Дані щодо них"
+" можна знайти у розділі щодо інструментів цього підручника."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:168
 msgid "Brush Engines"
@@ -500,6 +581,9 @@ msgid ""
 "Brush engines, like mentioned before, take a path and tablet information and "
 "add effects to it, making a stroke."
 msgstr ""
+"Рушії пензлів, як ми вже згадували вище, на основі даних щодо контуру, даних,"
+" які надаються планшетом, та доданих ефектів створюють штрихи або мазки на"
+" зображенні."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:172
 msgid ""
@@ -516,6 +600,8 @@ msgid ""
 "Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, "
 "all with different effects."
 msgstr ""
+"У Krita передбачено :ref:`дуже багато різних рушіїв пензлів <"
+"category_brush_engines>`, кожен з яких має свою особливість."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
 msgid ".. image:: images/en/Krita_example_differentbrushengines.png"
@@ -553,7 +639,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:187
 msgid "Brushes draw with colors, but how do computers understand colors?"
-msgstr ""
+msgstr "Пензлі малюють кольорами, але як комп'ютери розуміють кольори?"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:190
 msgid "Colors"
@@ -639,6 +725,8 @@ msgid ""
 "Krita has a very complex color management system, which you can read more "
 "about :ref:`here <general_concept_color>`."
 msgstr ""
+"У Krita передбачено дуже складну систему керування кольорами, ознайомитися із"
+" якою можна за допомогою розділу :ref:`here <general_concept_color>`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:217
 msgid "Transparency"
@@ -678,6 +766,9 @@ msgid ""
 "Because colors are stored as numbers you can do maths with them. We call "
 "this **Blending Modes** or **Compositing Modes**."
 msgstr ""
+"Оскільки кольори зберігаються як числа, з ними можна виконувати математичні"
+" дії. Ми називаємо такі дії **режимами змішування** або **режимами"
+" композиції**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:230
 msgid ""
@@ -708,7 +799,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:237
 msgid "Erasing"
-msgstr ""
+msgstr "Витирання"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:238
 msgid ""
@@ -753,7 +844,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:251
 msgid ""
-"The primary type of mask is a :ref:`transparency_masks`, which allows you to "
+"The primary types of mask are :ref:`transparency_masks`, which allow you to "
 "use a grayscale image to determine the transparency, where black makes "
 "everything transparent and white makes the pixel fully opaque."
 msgstr ""
@@ -768,7 +859,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:255
 msgid "For example, we have a white ghost lady here:"
-msgstr ""
+msgstr "Наприклад, тут ми маємо білу примарну леді:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:260
 msgid ""
@@ -807,7 +898,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:275
 msgid "Examples of such operations are:"
-msgstr ""
+msgstr "Прикладами таких дій є:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:277
 msgid "Desaturate"
@@ -815,7 +906,7 @@ msgstr "Прибрати насичення"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:278
 msgid "This makes all the pixels turn gray."
-msgstr ""
+msgstr "Ця дія перетворює усі кольори пікселів на відтінки сірого кольору."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:279
 msgid "Blur"
@@ -836,6 +927,8 @@ msgid ""
 "This increases the contrast between pixels that had a pretty high contrast "
 "to begin with."
 msgstr ""
+"Ця дія збільшує контрастність між пікселями, контрастність між якими вже була"
+" значною."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:284
 msgid "Color to Alpha"
@@ -844,6 +937,8 @@ msgstr "Колір до альфи"
 #: ../../user_manual/getting_started/basic_concepts.rst:284
 msgid "A popular filter which makes all of the chosen color transparent."
 msgstr ""
+"Популярний фільтр, який робить усі області, зафарбовані вказаним кольором,"
+" прозорими."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:289
 msgid ".. image:: images/en/Krita_basic_filter_brush.png"
@@ -852,37 +947,48 @@ msgstr ".. image:: images/en/Krita_basic_filter_brush.png"
 #: ../../user_manual/getting_started/basic_concepts.rst:289
 msgid "Different filter brushes being used on different parts of the image."
 msgstr ""
+"Різні пензлі фільтрування використовуються для різних частин зображення."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:291
 msgid ""
 "Krita has many more filters available: read about them :ref:`here <filters>`."
 msgstr ""
+"У Krita є ще багато фільтрів. Ознайомитися із деякими з них можна :ref:`тут <"
+"filters>`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:294
 msgid ":ref:`filter_brush_engine`"
-msgstr ""
+msgstr ":ref:`filter_brush_engine`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:296
 msgid ""
 "Because many of these operations are per pixel, Krita allows you to use the "
 "filter as part of the :ref:`filter_brush_engine`."
 msgstr ""
+"Оскільки багато з цих дій виконуються над окремими пікселями, Krita надає вам"
+" змогу використовувати фільтр як частину :ref:`рушія пензлів <"
+"filter_brush_engine>`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:298
 msgid ""
 "In most image manipulation software, these are separate tools, but Krita has "
 "it as a brush engine, allowing much more customization than usual."
 msgstr ""
+"У більшості програм для роботи із зображеннями це окремі інструменти, але у"
+" Krita їх об'єднано до рушія пензлів, який надає ширші за звичайні можливості"
+" налаштовування."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:300
 msgid ""
 "This means you can make a brush that desaturates pixels, or a brush that "
 "changes the hue of the pixels underneath."
 msgstr ""
+"Це означає, що ви можете створити пензель, який зменшуватиме насиченість"
+" пікселів, або пензель, який змінюватиме відтінок пікселів під ним."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:303
 msgid "Filter Layers, Filter Masks and Layer Styles"
-msgstr ""
+msgstr "Шари фільтрування, маски фільтрування та стилі шарів"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:305
 msgid ""
@@ -925,7 +1031,7 @@ msgstr "Перетворення"
 #: ../../user_manual/getting_started/basic_concepts.rst:319
 msgid ""
 "**Transformations** are kind of like filters, in that these are operations "
-"done on the pixels of an image.  We have regular image and layer wide "
+"done on the pixels of an image.  We have a regular image and layer wide "
 "transformations in the image and layer top menus, so that you may resize, "
 "flip and rotate the whole image."
 msgstr ""
@@ -998,7 +1104,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:356
 msgid "Assistants, Grids and Guides"
-msgstr ""
+msgstr "Допоміжні засоби, ґратки та напрямні"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:358
 msgid ""
@@ -1017,17 +1123,17 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:365
 msgid ":ref:`grids_and_guides_docker`"
-msgstr ""
+msgstr ":ref:`grids_and_guides_docker`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:366
 msgid ""
-"Very straightforward guiding tools which shows grids or guiding lines that "
+"Very straightforward guiding tool which shows grids or guiding lines that "
 "can be configured."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:367
 msgid ":ref:`snapping`"
-msgstr ""
+msgstr ":ref:`snapping`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:368
 msgid ""
@@ -1037,7 +1143,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:370
 msgid ":ref:`painting_with_assistants`"
-msgstr ""
+msgstr ":ref:`painting_with_assistants`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:370
 msgid ""
@@ -1059,7 +1165,7 @@ msgstr "Налаштування"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:377
 msgid "This leads to the final concept: customization."
-msgstr ""
+msgstr "Так ми переходимо до останнього поняття: налаштовування."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:379
 msgid ""

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_contributors_manual___optimising_images\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-23 20:16+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 20:47+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -67,6 +67,9 @@ msgid ""
 "Windows has a build-in screenshot tool. It is by default on the PrtSc key. "
 "On laptops you will sometimes need to use the fn key."
 msgstr ""
+"У Windows передбачено вбудований інструмент створення знімків вікон. Типово,"
+" його можна викликати натисканням клавіші :kbd:`PrtSc`. На ноутбуках вам"
+" іноді доведеться скористатися клавішею :kbd:`Fn`."
 
 #: ../../contributors_manual/optimising_images.rst:34
 #: ../../contributors_manual/optimising_images.rst:88
@@ -102,7 +105,8 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:44
 msgid "For making short gifs, you can use the following programs:"
 msgstr ""
-"Для створення невеличких анімацій у gif можете скористатися такими програмами:"
+"Для створення невеличких анімацій у gif можете скористатися такими "
+"програмами:"
 
 #: ../../contributors_manual/optimising_images.rst:46
 msgid ""
@@ -177,7 +181,7 @@ msgstr "Для таких зображень слід використовува
 msgid ""
 "The logic is the way how each of these saves colors. Jpeg is ideal for "
 "photos and images with a lot of gradients because it :ref:`compresses "
-"differently <lossy_compression>`. However, contrasts don't do wel in jpeg. "
+"differently <lossy_compression>`. However, contrasts don't do well in jpeg. "
 "PNG does a lot better with images with sharp contrasts, while in some cases "
 "we can even have less than 256 colors, so gif might be better."
 msgstr ""
@@ -218,10 +222,12 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:85
-msgid "The other options is to use PNGCrush as mentioned in the linux section."
+#| msgid ""
+#| "The other options is to use PNGCrush as mentioned in the linux section."
+msgid "The other option is to use PNGCrush as mentioned in the linux section."
 msgstr ""
-"Крім того, можна скористатися PNGCrush, як про це згадується у розділі щодо"
-" linux."
+"Крім того, можна скористатися PNGCrush, як про це згадується у розділі щодо "
+"linux."
 
 #: ../../contributors_manual/optimising_images.rst:91
 msgid "Optimising PNGS"
@@ -230,9 +236,9 @@ msgstr "Оптимізація PNG"
 #: ../../contributors_manual/optimising_images.rst:92
 msgid ""
 "There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/"
-"png-tools-overview>`_ available on Linux. They come in two categories: "
-"Lossy(Using psychological tricks), and Lossless(trying to compress the data "
-"more conventionally). The following are however the most recommended:"
+"png-tools-overview>`_ available on Linux. They come in two categories: Lossy "
+"(Using psychological tricks), and Lossless (trying to compress the data more "
+"conventionally). The following are however the most recommended:"
 msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:95
@@ -240,14 +246,14 @@ msgid ""
 "A PNG compressor using lossy techniques to reduce the amount of colors used "
 "in a smart way."
 msgstr ""
-"Засіб стискання PNG використовує методики зберігання зображення із втратою"
-" якості для розумного зменшення кількості кольорів."
+"Засіб стискання PNG використовує методики зберігання зображення із втратою "
+"якості для розумного зменшення кількості кольорів."
 
 #: ../../contributors_manual/optimising_images.rst:97
 msgid "To use PNGquant, go to the folder of choice, and type::"
 msgstr ""
-"Щоб скористатися PNGquant, перейдіть до вибраної вами теки і віддайте таку"
-" команду::"
+"Щоб скористатися PNGquant, перейдіть до вибраної вами теки і віддайте таку "
+"команду::"
 
 #: ../../contributors_manual/optimising_images.rst:101
 msgid "`PNGQuant <https://pngquant.org/>`_"
@@ -338,8 +344,8 @@ msgid ""
 "`ImageOptim <https://imageoptim.com/mac>`_ -- A Graphical User Interface "
 "wrapper around commandline tools like PNGquant and gifski."
 msgstr ""
-"`ImageOptim <https://imageoptim.com/mac>`_ — графічний інтерфейс до засобів"
-" командного рядка, зокрема PNGquant та gifski."
+"`ImageOptim <https://imageoptim.com/mac>`_ — графічний інтерфейс до засобів "
+"командного рядка, зокрема PNGquant та gifski."
 
 #: ../../contributors_manual/optimising_images.rst:140
 msgid "Editing the metadata of a file"
@@ -372,6 +378,9 @@ msgid ""
 "To get exiftool, `just get it from the website <https://www.sno.phy.queensu."
 "ca/~phil/exiftool/>`_."
 msgstr ""
+"Щоб встановити exiftool, `просто отримайте пакунок із сайта <"
+"https://www.sno.phy.queensu."
+"ca/~phil/exiftool/>`_."
 
 #: ../../contributors_manual/optimising_images.rst:156
 msgid "On Linux, you can also install exiftool."
@@ -393,6 +402,7 @@ msgstr "Перегляд метаданих"
 msgid ""
 "Change the directory to the folder where the image is located and type::"
 msgstr ""
+"Перейдіть до каталогу, де зберігається зображення, і введіть таку команду::"
 
 #: ../../contributors_manual/optimising_images.rst:168
 msgid ""
@@ -409,9 +419,8 @@ msgid ""
 "You can also use `ImageMagick's identify <https://www.imagemagick.org/script/"
 "identify.php>`_::"
 msgstr ""
-"Ви можете скористатися `identify з ImageMagick <"
-"https://www.imagemagick.org/script/"
-"identify.php>`_::"
+"Ви можете скористатися `identify з ImageMagick <https://www.imagemagick.org/"
+"script/identify.php>`_::"
 
 #: ../../contributors_manual/optimising_images.rst:175
 msgid "Stripping Metadata"
@@ -448,8 +457,8 @@ msgstr "OptiPNG"
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "`optipng -strip image.png` This will strip and compress the png file."
 msgstr ""
-"`optipng -strip image.png` Ця команда вилучить зайві дані і виконає стискання"
-" файла png."
+"`optipng -strip image.png` Ця команда вилучить зайві дані і виконає "
+"стискання файла png."
 
 #: ../../contributors_manual/optimising_images.rst:188
 msgid ""
@@ -541,7 +550,7 @@ msgstr "Для GDPL::"
 
 #: ../../contributors_manual/optimising_images.rst:236
 msgid "This defines a shorthand name and then license text."
-msgstr ""
+msgstr "Це визначає стенографічну назву, а потім текст умов ліцензування."
 
 #: ../../contributors_manual/optimising_images.rst:238
 msgid "For Creative Commons BY-SA 4.0::"
@@ -579,7 +588,8 @@ msgid "Another way of doing the marking is::"
 msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:260
-msgid "First extract the data(if there is any)::"
+#| msgid "First extract the data(if there is any)::"
+msgid "First extract the data (if there is any)::"
 msgstr "Спочатку видобуваємо дані (якщо такі є)::"
 
 #: ../../contributors_manual/optimising_images.rst:264

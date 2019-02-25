@@ -6,28 +6,28 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___colors___scene_linear_painting\n"
+"Project-Id-Version: docs_krita_org_general_concepts___colors___scene_linear_pa"
+"inting\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 08:18+0200\n"
+"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"PO-Revision-Date: 2019-02-24 18:10+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:1
 msgid "Scene Linear painting in Krita"
-msgstr ""
+msgstr "Лінійне малювання сцен у Krita"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:15
 msgid "Scene Linear Painting"
-msgstr ""
+msgstr "Лінійне малювання сцени"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:17
 msgid ""
@@ -136,19 +136,20 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:43
 msgid "Yes, but what is the point?"
-msgstr ""
+msgstr "Так, але навіщо?"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:45
 msgid "The point is making things easier in the long run:"
-msgstr ""
+msgstr "Для того, щоб спростити речі у довгій перспективі:"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:47
 msgid "It is easier to keep saturated non-muddy colors in a linear space."
-msgstr ""
+msgstr "Насичені і незамутнені кольори простіше тримати у лінійному просторі."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:48
 msgid "The high bit depth makes it easier to get smoother color mixes."
 msgstr ""
+"Значна бітова глибина кольорів спрощує отримання плавніших переходів кольорів."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:49
 msgid ""
@@ -168,8 +169,8 @@ msgstr ""
 msgid ""
 "Combining painting with other image results such as photography and "
 "physically based rendering is much easier as they too work in such a type of "
-"colorspace. So you could use such images as reference with little qualms, or "
-"make textures that play nice with such a renderer."
+"colorspace. So you could use such images as a reference with little qualms, "
+"or make textures that play nice with such a renderer."
 msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:53
@@ -244,7 +245,7 @@ msgstr ""
 msgid ""
 "Another one is HSL, HSI and HSY algorithms. They too need to assume "
 "something about the top value to allow scaling to white. HSV doesn’t have "
-"this problem. So it’s best to use a HSV color selector."
+"this problem. So it’s best to use an HSV color selector."
 msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:75
@@ -252,9 +253,9 @@ msgid ""
 "For the blending modes that use HSY, there’s always the issue that they tend "
 "to be hardcoded to sRGB/Rec709 values, but are otherwise fine(and they give "
 "actually far more correct results in a linear space). So these are not a "
-"good idea to use with wide-gamut colorspaces, and due the assumption about "
-"black and white, not with scene linear painting. The following blending "
-"modes use them:"
+"good idea to use with wide-gamut colorspaces, and due to the assumption "
+"about black and white, not with scene linear painting. The following "
+"blending modes use them:"
 msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:77
@@ -362,7 +363,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:109
 msgid "In Summary"
-msgstr ""
+msgstr "Підсумок"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:111
 msgid ""
@@ -384,17 +385,19 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:116
 msgid "Getting to actual painting"
-msgstr ""
+msgstr "Переходимо до малювання"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:118
 msgid ""
 "Now we’ve covered the theory, let us look at a workflow for painting scene "
 "linear."
 msgstr ""
+"Тепер, коли ми розібралися із теорією, перейдемо до практики лінійного"
+" малювання сцени."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:121
 msgid "Setting up the Canvas"
-msgstr ""
+msgstr "Налаштовуємо полотно"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:123
 msgid ""
@@ -426,12 +429,12 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:132
 msgid "Picking really bright colors"
-msgstr ""
+msgstr "Вибираємо справді яскраві кольори"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:134
 msgid ""
 "Picking regular colors is easy, but how do we pick the really bright colors? "
-"There’s three way of getting access to the really bright colors in Krita:"
+"There are three ways of getting access to the really bright colors in Krita:"
 msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:136
@@ -462,7 +465,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:143
 msgid "Lighting based workflow"
-msgstr ""
+msgstr "Робота на основі освітлення"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:145
 msgid ""
@@ -476,9 +479,9 @@ msgid ""
 "Where with the value based workflow you paint the image as if it were a "
 "grayscale of what you intended to paint, with a lighting based workflow you "
 "paint as if all the objects are white. The effect of the color of an object "
-"can be determined by multiplying it’s base color with the color of the "
-"light. So you could paint objects as if they were white, paint the colors on "
-"a separate layer and just use the multiply blending mode to get the right "
+"can be determined by multiplying its base color with the color of the light. "
+"So you could paint objects as if they were white, paint the colors on a "
+"separate layer and just use the multiply blending mode to get the right "
 "colors."
 msgstr ""
 
@@ -508,7 +511,7 @@ msgid ""
 "the idea of a light-pass and a color pas in 3d rendering. And indeed, it is "
 "basically the same, so you can use lighting passes from 3d renders here, "
 "just save them as EXR and import them as a layer. One of the examples where "
-"scene linear painting simplies combining methods."
+"scene linear painting simplifies combining methods."
 msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:160
