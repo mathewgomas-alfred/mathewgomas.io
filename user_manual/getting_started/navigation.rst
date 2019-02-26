@@ -34,7 +34,7 @@ As we've said before, the Krita interface is very malleable and the way that you
 - **A** -- Traditional '''File''' or action menu found in most windowed applications
 - **B** -- Toolbar - This is where you can choose your brushes, set parameters such as opacity and size and other settings.
 - **C** -- Sidebars for the Movable Panels/Dockers.  In some applications, these are known as Dockable areas. Krita also allows you to dock panels at the top and/or bottom as well.
-- **D** -- Status Bar - This space shows you preferred mode for showing selection i.e marching ants or mask mode, your selected brush preset, :ref:`Color Space <color_managed_workflow>`, image size and provides a convenient zoom control.
+- **D** -- Status Bar - This space shows you preferred mode for showing selection i.e. marching ants or mask mode, your selected brush preset, :ref:`Color Space <color_managed_workflow>`, image size and provides a convenient zoom control.
 - **E** -- Floating Panel/Docker - These can be "popped" in and out of their docks at any time in order to see a greater range of options.  A good example of this would be the :ref:`brush_preset_docker` or the :ref:`palette_docker`
 
 Your canvas sits in the middle and unlike traditional paper or even most digital painting apps, Krita provides the artist with a scrolling canvas of infinite size (not that you'll need it of course!).  The standard navigation tools are as follows:
@@ -50,7 +50,7 @@ Zooming
 Mirroring
  You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
 Rotating
- You can rotate the canvas without transforming it can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` .
+ You can rotate the canvas without transforming. It can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` .
 
 You can also find these under :menuselection:`View --> Canvas`
 
@@ -81,7 +81,7 @@ The total range is represented from left to right and blue bar gives an indicati
 
 To input a specific number, |mouseright| the slider. A number can now be entered directly for even greater precision.
 
-Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller increment, and Pressing :kbd:`Ctrl` while dragging the slider changes the value in whole numbers or multiples or 5.
+Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller increment, and pressing :kbd:`Ctrl` while dragging the slider changes the value in whole numbers or multiples of 5.
 
 Toolbars
 --------
@@ -89,7 +89,7 @@ Toolbars
 
 Toolbars are where some of the important actions and menus are placed so that they are readily and quickly available for the artist while painting.  
 
-You can learn more about the Krita Toolbars and how to configure them in over in the Toolbars section of the manual.
+You can learn more about the Krita Toolbars and how to configure them in over in the :ref:`Toolbars section <configure_toolbars>` of the manual.
 Putting these to effective use can really speed up the Artist's workflow, especially for users of Tablet-Monitors and Tablet-PCs.
 
 Workspace Chooser
@@ -103,9 +103,9 @@ Pop-up Palette
 .. image:: /images/en/Krita-popuppalette.png
    :align: center
 
-Pop-up Palette is a unique feature in Krita designed to increase productivity of the artist, It is a circular menu for quickly choosing brushes, foreground and background colors, recent colors while painting. To access the palette you have to just |mouseright| on the canvas. The palette will spawn at the place of the brush tip or cursor. 
+Pop-up Palette is a unique feature in Krita designed to increase productivity of the artist. It is a circular menu for quickly choosing brushes, foreground and background colors, recent colors while painting. To access the palette you have to just |mouseright| on the canvas. The palette will spawn at the place of the brush tip or cursor. 
 
-By tagging your brush presets you can add particular sets of brushes to this palette. For example If you add some inking brush presets to inking tag you can and change the tags to inking in the pop-up palette you'll get all the inking brushes in the palette. 
+By tagging your brush presets you can add particular sets of brushes to this palette. For example, if you add some inking brush presets to inking tag you can change the tags to inking in the pop-up palette and you'll get all the inking brushes in the palette. 
 
 You can :ref:`tag <tag_management>` brush presets via the :ref:`brush_preset_docker`, check out the resource overview page to know more about tagging in general.
 

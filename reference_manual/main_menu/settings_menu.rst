@@ -61,7 +61,7 @@ To use, just type the :guilabel:`Action` into the Search box you want to assign/
 #. Type "Group Layer"
 #. Click on Group Layer and a small inset box will open.
 #. Click the Custom radio button
-#. Click on the first button and type the :kbd:`Control + G`  key combination.
+#. Click on the first button and type the :kbd:`Ctrl + G`  key combination.
 #. Click OK
 
 From this point on, whenever you press :kbd:`Ctrl + G`  you'll get a new :guilabel:`Group Layer`.  

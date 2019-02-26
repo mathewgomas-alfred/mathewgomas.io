@@ -57,7 +57,7 @@ Profiling devices, called Colorimeters, are tiny little cameras of a kind that y
 
 .. note::
 
-If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_
+    If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_
 
 The little camera then measures what the brightest red, green, blue, white and black are like on your screen using a predefined white as base. It also measures how grey the color grey is.
 

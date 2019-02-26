@@ -393,7 +393,7 @@ Right-click a brush in the brush docker and assign it a tag. Then right-click on
 Can Krita load Photoshop Brushes?
 ---------------------------------
 
-Yes, but there are limitations. You can load ABR files by using the by using the Import button in the Predefined brush tab in the brush editor. Since Adobe hasn’t disclosed the file format specification, we depend on reverse-engineering to figure out what to load, and currently that’s limited to basic features.
+Yes, but there are limitations. You can load ABR files by using the by using the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the brush editor. Since Adobe hasn’t disclosed the file format specification, we depend on reverse-engineering to figure out what to load, and currently that’s limited to basic features.
 
 Krita is slow
 =============

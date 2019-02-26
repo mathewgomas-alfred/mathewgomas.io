@@ -28,11 +28,11 @@ So, instead, we'll make a screenshot. Depending on your operating system, there'
 Windows
 ~~~~~~~
 
-Windows has a build-in screenshot tool. It is by default on the PrtSc key. On laptops you will sometimes need to use the fn key.
+Windows has a build-in screenshot tool. It is by default on the :kbd:`PrtSc` key. On laptops you will sometimes need to use the :kbd:`Fn` key.
 
 Linux
 ~~~~~
-Both Gnome and KDE have decent screenshot tools showing up by default when using the PrtSc key, as well do other popular desktop environments. If, for whatever reason, you have no
+Both Gnome and KDE have decent screenshot tools showing up by default when using the :kbd:`PrtSc` key, as well do other popular desktop environments. If, for whatever reason, you have no
 
 ImageMagick
     With imagemagick, you can use the following command::
@@ -48,7 +48,7 @@ For making short gifs, you can use the following programs:
 OS X
 ~~~~
 
-The Screenshot hotkey on OS X is Shift+Command+3, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
+The Screenshot hotkey on OS X is :kbd:`Shift + Command + 3`, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
 
 The appropriate file format for the job.
 ----------------------------------------
