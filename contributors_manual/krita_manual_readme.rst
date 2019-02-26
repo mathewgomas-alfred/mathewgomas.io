@@ -283,7 +283,7 @@ For this you will need to follow the :ref:`making_changes_sphinx` section, so th
 Translating
 ~~~~~~~~~~~
 
-Translation of the manual is handled by the `KDE locatization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams<https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
+Translation of the manual is handled by the `KDE locatization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams <https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
 
 The localisation team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
 
