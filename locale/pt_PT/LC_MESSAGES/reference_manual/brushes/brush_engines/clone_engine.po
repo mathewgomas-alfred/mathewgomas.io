@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"PO-Revision-Date: 2019-02-25 15:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: optionsize clonebrush optionopacitynflow icons Krita\n"
+"X-POFile-SpellExtra: demão image Kritamouseleft kbd blendingmodes images\n"
+"X-POFile-SpellExtra: alt ref mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Clone from all visible layers."
-msgstr ""
+msgstr "Cria um clone de todas as camadas visíveis."
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -32,15 +35,15 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:1
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:18
 msgid "The Clone Brush Engine manual page."
-msgstr ""
+msgstr "A página de manual do Motor de Pincéis por Clonagem."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
-msgstr ""
+msgstr "Motor de Pincéis por Clonagem"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/clonebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:31
 msgid ""
@@ -49,30 +52,30 @@ msgid ""
 "photos and textures. You have to select a source and then you can paint to "
 "copy or clone the source to a different area. Other applications normally "
 "have a separate tool for this, Krita has a brush engine for this."
-msgstr ""
+msgstr "O pincel por clonagem é um motor de pincéis que lhe permite pintar com a duplicação de uma secção de uma camada de pintura. Isto é útil na manipulação de fotografias e texturas. Tem de seleccionar uma origem e depois poderá pintar para copiar ou clonar a origem para uma área diferente. As outras aplicações normalmente têm uma ferramenta separada para isto, mas o Krita tem um motor de pincéis dedicado apenas a isto."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:34
 msgid "Usage and Hotkeys"
-msgstr ""
+msgstr "Utilização e Atalhos"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:36
 msgid ""
 "To see the source, you need to set the brush-cursor settings to brush "
 "outline."
-msgstr ""
+msgstr "Para ver a origem, é necessário configurar o cursor do pincel para o contorno do pincel."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:38
 msgid ""
 "The clone tool can now clone from the projection and it's possible to change "
-"the clone source layer. Press :kbd:`ctrl + alt +` |mouseleft| to select a "
-"new clone source on the current layer. :kbd:`ctrl +` |mouseleft| to select a "
+"the clone source layer. Press :kbd:`Ctrl + Alt +` |mouseleft| to select a "
+"new clone source on the current layer. :kbd:`Ctrl +` |mouseleft| to select a "
 "new clone source point on the layer that was active when you selected the "
 "clone op."
-msgstr ""
+msgstr "A ferramenta de clonagem consegue agora clonar a partir da projecção e é possível mudar a camada de origem do clone. Carregue em :kbd:`Ctrl + Alt +` |mouseleft| para seleccionar uma nova origem do clone na camada actual. Use o :kbd:`Ctrl +` |mouseleft| para seleccionar um novo ponto de origem do clone na camada que estava activa quando seleccionou a operação de clonagem."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:42
-msgid ":kbd:`ctrl + alt +` |mouseleft| is temporarily disabled on 2.9.7"
-msgstr ""
+msgid ":kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7"
+msgstr "O :kbd:`Ctrl + Alt +` |mouseleft| está desactivado temporariamente no 2.9.7"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:45
 msgid "Settings"
@@ -102,31 +105,31 @@ msgstr "Reconciliação"
 msgid ""
 "This turns the clone brush into a healing brush: often used for removing "
 "blemishes in photo retouching, and maybe blemishes in painting."
-msgstr ""
+msgstr "Isto transforma o pincel por clonagem num pincel de restauro: normalmente usado para remover imperfeições nos retoques fotográficos e provavelmente em pinturas."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:57
 msgid "Only works when there's a perspective grid visible."
-msgstr ""
+msgstr "Só funciona quando estiver visível uma grelha em perspectiva."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:59
 msgid "Perspective correction"
-msgstr ""
+msgstr "Correcção da perspectiva"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:60
 msgid "This feature is currently disabled"
-msgstr ""
+msgstr "Esta funcionalidade está desactivada de momento"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:61
 msgid "Source Point move."
-msgstr ""
+msgstr "Movimento do Ponto de Origem."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:62
 msgid ""
 "This will determine whether you will replicate the source point per dab or "
 "per stroke. Can be useful when used with the healing brush."
-msgstr ""
+msgstr "Isto irá definir se vai replicar o ponto de origem por demão ou por traço. Pode ser útil quando for usado com o pincel de restauro."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
-msgstr ""
+msgstr "Assinale isto para forçar a clonagem de todas as camadas em vez de ser apenas a activa."

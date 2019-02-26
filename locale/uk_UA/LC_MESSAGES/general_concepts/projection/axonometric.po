@@ -6,10 +6,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_general_concepts___projection___axonometric"
-"\n"
+"Project-Id-Version: "
+"docs_krita_org_general_concepts___projection___axonometric\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-24 20:31+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../general_concepts/projection/axonometric.rst:None
@@ -202,9 +202,9 @@ msgstr ""
 #: ../../general_concepts/projection/axonometric.rst:64
 msgid ""
 "(Tip, to resize a vector but keep its angle, you just select it with the "
-"shape handling tool(the white arrow) drag on the corners of the bounding box "
-"to start moving them, and then press :kbd:`shift` to constrain the ratio. "
-"This'll allow you to keep the angle)"
+"shape handling tool (the white arrow) drag on the corners of the bounding "
+"box to start moving them, and then press :kbd:`Shift` to constrain the "
+"ratio. This'll allow you to keep the angle)"
 msgstr ""
 
 #: ../../general_concepts/projection/axonometric.rst:66
@@ -291,12 +291,12 @@ msgstr ""
 msgid ""
 "Our game-safe isometric has its angle at two pixels horizontal is one pixel "
 "vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 "
-"pixels(this is proportional)"
+"pixels (this is proportional)"
 msgstr ""
 
 #: ../../general_concepts/projection/axonometric.rst:119
 msgid ""
-"Use the grid to setup two parallel rulers that represent both diagonals(you "
+"Use the grid to setup two parallel rulers that represent both diagonals (you "
 "can snap them with the :kbd:`Shift + S`):"
 msgstr ""
 
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../../general_concepts/projection/axonometric.rst:147
 msgid ""
-"For example, we can just easily fix the side view(because we used transform "
+"For example, we can just easily fix the side view (because we used transform "
 "masks, this is easy.)"
 msgstr ""
 

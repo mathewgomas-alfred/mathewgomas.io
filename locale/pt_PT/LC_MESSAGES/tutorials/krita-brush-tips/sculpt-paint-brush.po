@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"PO-Revision-Date: 2019-02-25 18:08+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en image menuselection kbd images brush\n"
+"X-POFile-SpellExtra: BásicoMolhado alt Opacity Sinix icons tips Painter\n"
+"X-POFile-SpellExtra: sinix AAngularChurchHR mouseright sculpt Krita\n"
+"X-POFile-SpellExtra: Kritamouseright rbush\n"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -30,51 +34,65 @@ msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-01.png\n"
 "   :alt: brush setting dialog to get started"
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-01.png\n"
+"   :alt: janela de configuração do pincel introdutória"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-02.png\n"
 "   :alt: remove pressure from opacity parameter and add fade."
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-02.png\n"
+"   :alt: remoção da pressão do parâmetro de opacidade e adição de desvanecência."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-03.png\n"
 "   :alt: select the Angular church brush tip"
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-03.png\n"
+"   :alt: selecção da ponta de pincel da igreja Angular"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-04.png\n"
 "   :alt: opacity parameter in the rbush setting"
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-04.png\n"
+"   :alt: parâmetro de opacidade na configuração do 'rbush'"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-05.png\n"
 "   :alt: switch off sensors for color rate"
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-05.png\n"
+"   :alt: desactivação dos sensores para a classificação da cor"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-06.png\n"
 "   :alt: brush rotation is enabled"
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-06.png\n"
+"   :alt: a rotação do pincel está activa"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:None
 msgid ""
 ".. image:: images/en/brush-tips/Painter-sculpt-brush-07.png\n"
 "   :alt: result from the brush we made."
 msgstr ""
+".. image:: images/en/brush-tips/Painter-sculpt-brush-07.png\n"
+"   :alt: resultado do pincel criado por nós."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:1
 msgid ""
 "Tutorial for making sculpt brush like sinix's paint like a sculptor video"
-msgstr ""
+msgstr "Tutorial para criar um pincel de escultura, como a pintura do 'sinix', como um vídeo do escultor"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:13
 msgid "Brush-tips:Sculpt-paint-brush"
-msgstr ""
+msgstr "Pontas do pincel:Pincel-de-escultura"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:16
 msgid "Question"
@@ -84,19 +102,19 @@ msgstr "Pergunta"
 msgid ""
 "**How do I make a brush like the one in Sinix's paint-like-a-sculptor video?"
 "**"
-msgstr ""
+msgstr "**Como é que crio um pincel como o do 'vídeo para pintar-como-escultor do Sinix'?**"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:20
 msgid ""
 "It's actually quite easy, but most easy to do since Krita 3.0 due a few "
 "bugfixes."
-msgstr ""
+msgstr "De facto é bastante fácil, mas será mais fácil se for numa versão posterior ao Krita 3.0, por causa de algumas correcções de erros."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:22
 msgid ""
 "First, select *Basic_Wet* from the default presets, and go into the brush "
-"editor with :kbd:`f5`."
-msgstr ""
+"editor with :kbd:`F5`."
+msgstr "Primeiro, seleccione o *Básico_Molhado* nas predefinições, indo depois ao editor do pincel com o :kbd:`F5`."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:27
 msgid ""
@@ -104,69 +122,69 @@ msgid ""
 "sensors, toggle **Fade** and then reverse the curve as shown above. Make "
 "sure that the curve ends a little above the bottom-right, so that you are "
 "always painting something. Otherwise, the smudge won't work."
-msgstr ""
+msgstr "Depois, o truque é ir à **Opacity**, desligue a **Pressão** dos sensores, comute a opção para **Desvanecer** e inverta depois a curva como apresentado em cima. Certifique-se que a curva termina um pouco acima da parte inferior direita, para que esteja sempre a pintar algo. Caso contrário, a mancha não irá funcionar."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:29
 msgid ""
 "This'll make the color rate decrease and turn it into a smudge brush as the "
 "stroke continues:"
-msgstr ""
+msgstr "Isto fará com que a taxa da cor diminua e passe para um pincel de manchas à medida que o traço prossegue:"
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:34
 msgid ""
 "The **Fade** sensor will base the stroke length on brush size. The "
 "**Distance** sensor will base it on actual pixels, and the **Time** on "
 "actual seconds."
-msgstr ""
+msgstr "O sensor para **Desvanecer** irá basear o comprimeiro do traço no tamanho do pincel. O sensor de **Distância** basear-se-á no pixels reais e o **Tempo** em segundos reais."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:36
 msgid ""
 "Then, select :menuselection:`Brushtip --> Predefined` and select the default "
 "*A_Angular_Church_HR* brushtip."
-msgstr ""
+msgstr "Depois, seleccione a :menuselection:`Pontas do Pincel --> Predefinido` e seleccione a ponta de pincel *A_Angular_Church_HR*."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:41
 msgid "This makes for a nice textured square brush."
-msgstr ""
+msgstr "Isto cria um pincel quadrado com uma textura agradável."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:43
 msgid ""
 "Of course, this'll make the stroke distance longer to get to smudging, so we "
 "go back to the *Opacity*."
-msgstr ""
+msgstr "Obviamente isto tornará a distância do traço maior para atingir a mancha, pelo que iremos voltar à *Opacidade*."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:48
 msgid ""
 "Just adjust the fade-length by |mouseright| on the slider bar. You can then "
 "input a number. In the screenshot, I have 500, but the sweet spot seems to "
 "be somewhere between 150 and 200."
-msgstr ""
+msgstr "Basta ajustar o comprimento do desvanecimento com o |mouseright| sobre a barra deslizante. Poderá introduzir então um número. Na imagem, aparece o valor 500, mas um valor adequado poderá ser algures entre 150 e 200."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:50
 msgid ""
 "Now, you'll notice that on the start of a stroke, it might be a little "
 "faded, so go into **Color Rate** and turn off the **Enable Pen Settings** "
 "there."
-msgstr ""
+msgstr "Depois poderá reparar que, no início de um traço, poderá aparecer um pouco desvanecido, pelo que poderá ir a **Taxa da Cor** e desligar a opção **Activar a Configuração da Caneta**."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:55
 msgid "Then, finally, we'll make the brush rotate."
-msgstr ""
+msgstr "Depois, finalmente, aplicará uma rotação do pincel."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:60
 msgid ""
 "Tick the **Rotation** parameter, and select it. There, untick **Pressure** "
 "and tick **Drawing Angle**."
-msgstr ""
+msgstr "Assinale o parâmetro de **Rotação** e seleccione-o. Aí, poderá desligar a **Pressão** e assinalar o **Ângulo do Desenho**."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:62
 msgid ""
 "Then, for better angling, tick **Lock** and set the **Angle Offset** to 90 "
 "degrees by |mouseright| the slider bar and typing in 90."
-msgstr ""
+msgstr "Depois, para um melhor ajuste do ângulo, assinale **Bloquear** e definia o **Deslocamento do Ângulo** para 90 graus, usando o |mouseright| sobre a barra deslizante e escrevendo 90."
 
 #: ../../tutorials/krita-brush-tips/sculpt-paint-brush.rst:64
 msgid ""
 "Now, give your brush a new name, doodle on the brush-square, **Save to "
 "presets** and paint!"
-msgstr ""
+msgstr "Agora, dê um novo nome ao seu pincel, carregue em **Gravar nas predefinições** e comece a pintar!"

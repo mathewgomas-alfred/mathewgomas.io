@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-25 15:44+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,16 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: toolrectangle icons Krita image kbd rectangletool\n"
+"X-POFile-SpellExtra: images alt\n"
 
 #: ../../<rst_epilog>:26
 msgid ""
 ".. image:: images/icons/rectangle_tool.svg\n"
 "   :alt: toolrectangle"
 msgstr ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: ferramenta do rectângulo"
 
 #: ../../reference_manual/tools/rectangle.rst:1
 msgid "Krita's rectangle tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de rectângulos do Krita."
 
 #: ../../reference_manual/tools/rectangle.rst:15
 msgid "Rectangle Tool"
@@ -33,22 +37,22 @@ msgstr "Ferramenta de Rectângulo"
 
 #: ../../reference_manual/tools/rectangle.rst:17
 msgid "|toolrectangle|"
-msgstr ""
+msgstr "|toolrectangle|"
 
 #: ../../reference_manual/tools/rectangle.rst:19
 msgid ""
 "This tool can be used to paint rectangles, or create rectangle shapes on a "
 "vector layer. Click and hold the left mouse button to indicate one corner of "
 "the rectangle, drag to the opposite corner, and release the button."
-msgstr ""
+msgstr "Esta ferramenta pode ser usada para pintar ou criar formas rectangulares sobre uma camada vectorial. Carregue e mantenha pressionado o botão esquerdo do rato para indicar um canto do rectângulo, arraste para o canto oposto e largue o botão."
 
 #: ../../reference_manual/tools/rectangle.rst:22
 msgid "Hotkeys and Sticky-keys"
-msgstr ""
+msgstr "Atalhos e Teclas Fixas"
 
 #: ../../reference_manual/tools/rectangle.rst:24
 msgid "There's no default hotkey for switching to rectangle."
-msgstr ""
+msgstr "Não existe nenhuma combinação de teclas predefinida para mudar para o rectângulo."
 
 #: ../../reference_manual/tools/rectangle.rst:26
 msgid ""
@@ -59,7 +63,7 @@ msgid ""
 "indicates the center of the rectangle, and the final mouse position "
 "indicates a corner. You can press :kbd:`Alt` while still keeping the left "
 "mouse button down to move the rectangle to a different location."
-msgstr ""
+msgstr "Se mantiver carregado o :kbd:`Shift` enquanto arrasta, será desenhado um quadrado em vez de um rectângulo. Se mantiver carregado o :kbd:`Ctrl`, irá mudar a forma como é construído o rectângulo. Normalmente, o primeiro 'click' do rato define um canto e o segundo define o canto oposto. Com o :kbd:`Ctrl`, a posição inicial do rato indica o centro do rectângulo e a posição final indica um canto. Poderá carregar no :kbd:`Alt` enquanto mantém pressionado o botão esquerdo do rato para mover o rectângulo para um local diferente."
 
 #: ../../reference_manual/tools/rectangle.rst:28
 msgid ""
@@ -68,7 +72,7 @@ msgid ""
 "keep the left mouse button pressed. With :kbd:`Ctrl` pressed, mouse "
 "movements will affect all four corners of the rectangle (relative to the "
 "center), without :kbd:`Ctrl`, one of the corners is unaffected."
-msgstr ""
+msgstr "Poderá alternar entre os métodos de desenho canto/canto e centro/canto as vezes que desejar, carregando ou largando o :kbd:`Ctrl`, desde que mantenha carregado o botão esquerdo do rato. Com o :kbd:`Ctrl` carregado, os movimentos irão afectar todos os quatro cantos do rectângulo (em relação ao centro); sem o :kbd:`Ctrl`, um dos cantos não será afectado."
 
 #: ../../reference_manual/tools/rectangle.rst:32
 msgid "Tool Options"
@@ -80,11 +84,11 @@ msgstr "Preencher"
 
 #: ../../reference_manual/tools/rectangle.rst:37
 msgid "Not filled."
-msgstr ""
+msgstr "Não preenchido."
 
 #: ../../reference_manual/tools/rectangle.rst:38
 msgid "The rectangle will be transparent from the inside."
-msgstr ""
+msgstr "O rectângulo ficará transparente na parte interior."
 
 #: ../../reference_manual/tools/rectangle.rst:39
 msgid "Foreground color"
@@ -92,15 +96,15 @@ msgstr "Cor do texto"
 
 #: ../../reference_manual/tools/rectangle.rst:40
 msgid "The rectangle will use the foreground color as fill."
-msgstr ""
+msgstr "O rectângulo irá usar a cor principal como preenchimento."
 
 #: ../../reference_manual/tools/rectangle.rst:41
 msgid "Background color."
-msgstr ""
+msgstr "Cor de fundo."
 
 #: ../../reference_manual/tools/rectangle.rst:42
 msgid "The rectangle will use the background color as fill."
-msgstr ""
+msgstr "O rectângulo irá usar a cor de fundo como preenchimento."
 
 #: ../../reference_manual/tools/rectangle.rst:44
 msgid "Pattern"
@@ -108,7 +112,7 @@ msgstr "Padrão"
 
 #: ../../reference_manual/tools/rectangle.rst:44
 msgid "The rectangle will use the active pattern as fill."
-msgstr ""
+msgstr "O rectângulo irá usar o padrão activo como preenchimento."
 
 #: ../../reference_manual/tools/rectangle.rst:47
 msgid "Outline"
@@ -120,7 +124,7 @@ msgstr "Sem Contorno"
 
 #: ../../reference_manual/tools/rectangle.rst:50
 msgid "The Rectangle will render without outline."
-msgstr ""
+msgstr "O rectângulo será desenhado sem qualquer contorno."
 
 #: ../../reference_manual/tools/rectangle.rst:52
 msgid "Brush"
@@ -128,10 +132,10 @@ msgstr "Pincel"
 
 #: ../../reference_manual/tools/rectangle.rst:52
 msgid "The Rectangle will use the current selected brush to outline."
-msgstr ""
+msgstr "O Rectângulo irá usar o pincel seleccionado de momento no contorno."
 
 #: ../../reference_manual/tools/rectangle.rst:55
 msgid ""
 "On vector layers, the rectangle will not render with a brush outline, but "
 "rather a vector outline."
-msgstr ""
+msgstr "Nas camadas vectoriais, o rectângulo não será desenhado com o contorno do pincel, mas sim com um contorno vectorial."

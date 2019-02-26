@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"PO-Revision-Date: 2019-02-25 14:50+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Movetoolcoordinates en toolmove icons Krita image\n"
+"X-POFile-SpellExtra: movetool kbd images alt\n"
 
 #: ../../<generated>:1
 msgid "Position"
@@ -26,14 +28,16 @@ msgid ""
 ".. image:: images/icons/move_tool.svg\n"
 "   :alt: toolmove"
 msgstr ""
+".. image:: images/icons/move_tool.svg\n"
+"   :alt: ferramenta para mover"
 
 #: ../../reference_manual/tools/move.rst:0
 msgid ".. image:: images/en/Movetool_coordinates.png"
-msgstr ""
+msgstr ".. image:: images/en/Movetool_coordinates.png"
 
 #: ../../reference_manual/tools/move.rst:1
 msgid "Krita's move tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de movimento do Krita."
 
 #: ../../reference_manual/tools/move.rst:16
 msgid "Move Tool"
@@ -41,72 +45,72 @@ msgstr "Ferramenta de Movimento"
 
 #: ../../reference_manual/tools/move.rst:18
 msgid "|toolmove|"
-msgstr ""
+msgstr "|toolmove|"
 
 #: ../../reference_manual/tools/move.rst:20
 msgid ""
 "With this tool, you can move the current layer or selection by dragging the "
 "mouse."
-msgstr ""
+msgstr "Com esta ferramenta, poderá mover a camada ou selecção actual através do arrastamento do rato."
 
 #: ../../reference_manual/tools/move.rst:22
 msgid "Move current layer"
-msgstr ""
+msgstr "Mover a camada actual"
 
 #: ../../reference_manual/tools/move.rst:23
 msgid "Anything that is on the selected layer will be moved"
-msgstr ""
+msgstr "Tudo o que estiver na camada seleccionada será movido"
 
 #: ../../reference_manual/tools/move.rst:24
 msgid "Move layer with content"
-msgstr ""
+msgstr "Mover a camada com o conteúdo"
 
 #: ../../reference_manual/tools/move.rst:25
 msgid ""
 "Any content contained on the layer that is resting under the four-headed "
 "Move cursor will be moved"
-msgstr ""
+msgstr "Todo o conteúdo existente na camada que está sob o cursor de quatro pontos para Mover será movido de facto"
 
 #: ../../reference_manual/tools/move.rst:26
 msgid "Move the whole group"
-msgstr ""
+msgstr "Mover o grupo inteiro"
 
 #: ../../reference_manual/tools/move.rst:27
 msgid ""
 "All content on all layers will move.  Depending on the number of layers this "
 "might result in slow and, sometimes, jerky movements. Use this option "
 "sparingly or only when necessary."
-msgstr ""
+msgstr "Todo o conteúdo de todas as camadas será movido. Dependendo do número de camadas, isto poderá originar alguns movimentos lentos e com perturbações. Use esta opção raramente ou só mesmo quando for necessário."
 
 #: ../../reference_manual/tools/move.rst:28
-msgid "Shortcut move distance(3.0+)"
-msgstr ""
+msgid "Shortcut move distance (3.0+)"
+msgstr "Distância de movimento dos atalhos (3.0+)"
 
 #: ../../reference_manual/tools/move.rst:29
 msgid ""
 "This allows you to set how much, and in which units, the :kbd:`&larr;`, :kbd:"
 "`&uarr;`, :kbd:`&rarr;` and :kbd:`&darr;` actions will move the layer."
-msgstr ""
+msgstr "Isto permite-lhe definir quanto, e com que unidades, as acções das teclas :kbd:`&larr;`, :kbd:`&uarr;`, :kbd:`&rarr;` e :kbd:`&darr;` irão mover a camada."
 
 #: ../../reference_manual/tools/move.rst:30
-msgid "Large Move Scale(3.0+)"
-msgstr ""
+msgid "Large Move Scale (3.0+)"
+msgstr "Escala de Movimentos Grandes (3.0+)"
 
 #: ../../reference_manual/tools/move.rst:31
 msgid ""
 "Allows you to multiply the movement of the Shortcut Move Distance when "
 "pressing :kbd:`Shift` before pressing a direction key."
-msgstr ""
+msgstr "Permite-lhe multiplicar o movimento da Distância de Movimento dos Atalhos, se carregar em :kbd:`Shift` antes de carregar numa tecla de cursores."
 
 #: ../../reference_manual/tools/move.rst:32
 msgid "Show coordinates"
-msgstr ""
+msgstr "Mostrar as coordenadas"
 
 #: ../../reference_manual/tools/move.rst:33
 msgid ""
 "When toggled will show the coordinates of the top-left pixel of the moved "
 "layer in a floating window."
-msgstr ""
+msgstr "Quando mudar de estado, irá mostrar as coordenadas no pixel no canto superior esquerdo da camada movida numa janela flutuante."
 
 #: ../../reference_manual/tools/move.rst:35
 msgid ""
@@ -114,13 +118,13 @@ msgid ""
 "constrained to the horizontal and vertical directions. If you press :kbd:"
 "`Shift`, then click, then move, all layers will be moved, with the movement "
 "constrained to the horizontal and vertical directions"
-msgstr ""
+msgstr "Se carregar, então carregue em :kbd:`Shift`, depois mova a camada, sendo que o movimento ficará restrito apenas às direcções horizontais e verticais. Se carregar em :kbd:`Shift`, depois com o rato, depois movendo, então todas as camadas serão movidas com o movimento restrito apenas às direcções horizontal e vertical"
 
 #: ../../reference_manual/tools/move.rst:37
 msgid "Constrained movement"
-msgstr ""
+msgstr "Movimento restrito"
 
 #: ../../reference_manual/tools/move.rst:40
 msgid ""
 "Gives the top-left coordinate of the layer, can also be manually edited."
-msgstr ""
+msgstr "Dá a coordenada superior esquerda da camada, sendo que pode ser editada de forma manual."

@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_contributors_manual___krita_manual_conventions\n"
+"Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_conventi"
+"ons\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-21 03:59+0100\n"
-"PO-Revision-Date: 2019-02-19 19:01+0200\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"PO-Revision-Date: 2019-02-25 20:48+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -67,11 +67,11 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
-msgstr ""
+msgstr "Правила щодо коду reStructuredText для підручника з Krita"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:16
 msgid "Mark-up conventions for the Krita Manual"
-msgstr ""
+msgstr "Угоди щодо розмітки у підручнику з Krita"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:18
 msgid ""
@@ -170,13 +170,15 @@ msgstr "Метадані"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:41
 msgid "Each page should start with the following three things:"
-msgstr ""
+msgstr "Кожна сторінка має розпочинатися з трьох елементів:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:44
 msgid ""
 "This is a general description of the page. It will be converted to a html "
 "meta tag which will be used by search engines::"
 msgstr ""
+"Це загальний опис сторінки. Його буде перетворено на метамітку html, яка"
+" використовуватиметься рушіями пошуку::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:49
 msgid "A meta description"
@@ -317,10 +319,11 @@ msgid ""
 "This is the citation.  It's just like a footnote, except the label is "
 "textual."
 msgstr ""
+"Це цитата. Вона подібна до підрядкової примітки, але мітка у ній є текстовою."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:139
 msgid "Citation can also be referenced with `citation <CIT2002>`_"
-msgstr ""
+msgstr "На цитату також можна посилатися. Ось так: `цитата <CIT2002>`_"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:141
 msgid ""
@@ -342,7 +345,7 @@ msgstr "Використання команди image для зображень 
 
 #: ../../contributors_manual/krita_manual_conventions.rst:154
 msgid "And figure directives for images with captions::"
-msgstr ""
+msgstr "І команди для роботи із зображеннями з підписами::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:163
 msgid "The latter gives:"
@@ -362,7 +365,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:175
 msgid "In-text Markup"
-msgstr ""
+msgstr "Розмітка у тексті"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:177
 msgid ""
@@ -436,7 +439,7 @@ msgstr "Списки"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:217
 msgid "Ordinated lists"
-msgstr ""
+msgstr "Упорядковані списки"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:219
 msgid "Apple"
@@ -484,11 +487,11 @@ msgstr "Траян"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:234
 msgid "They can be defined as follows::"
-msgstr ""
+msgstr "Такі списки визначаються ось так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:258
 msgid "Unordered lists"
-msgstr ""
+msgstr "Неупорядковані списки"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:260
 msgid "red"
@@ -540,11 +543,11 @@ msgstr "синій"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:273
 msgid "Defined as such::"
-msgstr ""
+msgstr "Визначаються ось так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:289
 msgid "Definition Lists"
-msgstr ""
+msgstr "Списки визначень"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:291
 msgid ""
@@ -563,7 +566,7 @@ msgstr "пояснення."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:296
 msgid "Another option"
-msgstr ""
+msgstr "Інший варіант"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:296
 msgid "Explanation."
@@ -571,7 +574,7 @@ msgstr "Пояснення."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:299
 msgid "You can make them like this::"
-msgstr ""
+msgstr "Створити їх можна так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:304
 msgid "To make them."
@@ -595,7 +598,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:312
 msgid "Simple table"
-msgstr ""
+msgstr "Проста таблиця"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:313
 msgid "lots of colspans"
@@ -603,11 +606,11 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:313
 msgid "Grid table"
-msgstr ""
+msgstr "Таблиця із ґраткою"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:314
 msgid "Simple but long"
-msgstr ""
+msgstr "Проста, але довга"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:314
 msgid "List Table"
@@ -638,7 +641,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:358
 msgid ""
-"Admonishments that can be used are the following(in order of seriousness):"
+"Admonishments that can be used are the following (in order of seriousness):"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:362

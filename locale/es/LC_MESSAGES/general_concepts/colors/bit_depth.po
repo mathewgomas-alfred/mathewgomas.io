@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___bit_depth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-19 19:57+0100\n"
 "Last-Translator: Sofia Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -72,11 +72,11 @@ msgid "1bit"
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:37
-msgid "Only two colours in total, usually black and white."
+msgid "Only two colors in total, usually black and white."
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:38
-msgid "4bit(16 colors)"
+msgid "4bit (16 colors)"
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:39
@@ -98,8 +98,8 @@ msgstr ""
 #: ../../general_concepts/colors/bit_depth.rst:43
 msgid ""
 "However,  this is not available in Krita. Krita instead works with channels, "
-"and counts how many colors per channel you need(described in terms of ''bits "
-"per channel''). This is called 'real colour'."
+"and counts how many colors per channel you need (described in terms of "
+"''bits per channel''). This is called 'real color'."
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:46
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:54
-msgid "4bit per channel(not supported by Krita)"
+msgid "4bit per channel (not supported by Krita)"
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:55
@@ -163,7 +163,7 @@ msgid ""
 "differences between floating point and integer type variables, and because "
 "Scene-referred imaging allows for negative values, you have about 10-11bits "
 "of precision per channel in 16 bit floating point compared to 16 bit in 16 "
-"bit int(This is 2048 values per channel in the 0-1 range) Required for HDR/"
+"bit int (this is 2048 values per channel in the 0-1 range). Required for HDR/"
 "Scene referred images, and often known as 'half floating point'."
 msgstr ""
 
@@ -172,8 +172,8 @@ msgid ""
 "similar to 16bit float but with even higher precision. The native color "
 "depth of OpenColor IO, and thus faster than 16bit float in HDR images, if "
 "not heavier. Because of the nature of floating point type variables, 32bit "
-"float is roughly equal to 23-24 bits of precision per channel(16777216 "
-"values per channel in the 0-1 range), but with a much wider range(it can go "
+"float is roughly equal to 23-24 bits of precision per channel (16777216 "
+"values per channel in the 0-1 range), but with a much wider range (it can go "
 "far above 1), necessary for HDR/Scene-referred values. It is also known as "
 "'single floating point'."
 msgstr ""

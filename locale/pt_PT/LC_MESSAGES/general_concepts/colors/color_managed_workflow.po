@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-19 09:58+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/en/LUT_Management_Docker.png"
-msgstr ""
+msgstr ".. image:: images/en/LUT_Management_Docker.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/en/color_category/Krita_HDR_1.svg"
@@ -210,7 +210,7 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:84
 msgid ""
 "From XYZ it can then be translated back into another device space, such as "
-"RGB(for screens), or CMYK(for printers)."
+"RGB (for screens), or CMYK (for printers)."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
@@ -223,8 +223,9 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:88
 msgid ""
 "To give a crude estimate, ICC profiles deal with keeping colours consistent "
-"over many interpretations of devices(screens, printers) by using a reference "
-"space, and OCIO deals with manipulating the interpretation of said colours."
+"over many interpretations of devices (screens, printers) by using a "
+"reference space, and OCIO deals with manipulating the interpretation of said "
+"colours."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:90
@@ -553,7 +554,7 @@ msgid ""
 "*ICC profile version* is the last thing to keep in mind when dealing with "
 "ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the "
 "later giving better results in doing color maths, but the former being more "
-"widely supported(as seen below in 'interoperability with other programs'. "
+"widely supported (as seen below in 'interoperability with other programs'. "
 "This is also why Krita defaults to V2, and we recommend using V2 when you "
 "aren't certain if the other programs you are using support V4."
 msgstr ""
@@ -662,9 +663,9 @@ msgid ""
 "Like Icc, the LUT Docker allows you to create a profile of sorts for your "
 "device. In this case it's the 'lut', which stands for 'Look Up Table', and "
 "which can be added to OCIO by modifying the configuration file. When OCIO is "
-"turned on, the configuration in :kbd:`settings --> configure Krita --> Color "
-"Management` is turned off, unless you are using the :kbd:`Internal` color "
-"engine."
+"turned on, the configuration in :menuselection:`Settings --> Configure Krita "
+"--> Color Management` is turned off, unless you are using the :guilabel:"
+"`Internal` color engine."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:237
@@ -692,14 +693,14 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:244
 msgid ""
 "If you want to have a properly color managed workflow, you have one made "
-"customly for the input device(your screen) and the output devices(your "
+"customly for the input device (your screen) and the output devices (your "
 "printer, or target screen). For web the output is always sRGB."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:245
 msgid ""
-"Set up your screen profiles under :kbd:`settings --> configure Krita --> "
-"color management`."
+"Set up your screen profiles under :menuselection:`Settings --> Configure "
+"Krita --> Color management`."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
@@ -866,10 +867,10 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:307
 msgid ""
-"As mentioned before, input for your screen is set via :kbd:`settings --> "
-"configure Krita --> color management`, or via the LUT docker's 'screen "
-"space'. Working space is set via new file per document, or in the LUT docker "
-"via 'input space'."
+"As mentioned before, input for your screen is set via :menuselection:"
+"`Settings --> Configure Krita --> Color management`, or via the LUT docker's "
+"'screen space'. Working space is set via new file per document, or in the "
+"LUT docker via 'input space'."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:310
@@ -896,7 +897,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:320
 msgid ""
-"sRGB(the default screen profile) or any larger profile if you can spare the "
+"sRGB (the default screen profile) or any larger profile if you can spare the "
 "bitdepth and like working in them."
 msgstr ""
 
@@ -954,7 +955,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
 msgid ""
-"specialised CMYK profile from the printing house for the printed images."
+"Specialised CMYK profile from the printing house for the printed images."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:346
@@ -968,10 +969,11 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:348
 msgid ""
 "You can set the advanced color selector to transform to a given profile via :"
-"kbd:`settings --> configure Krita --> advanced color selector settings`. "
-"There, tick 'color selector uses a different color space than the image' and "
-"select the CMYK profile you are aiming for. This will limit your colors a "
-"little bit, but keep all the nice filter and blending options from RGB."
+"menuselection:`Settings --> Configure Krita --> Advanced color selector "
+"settings`. There, tick :guilabel:`Color selector uses a different color "
+"space than the image` and select the CMYK profile you are aiming for. This "
+"will limit your colors a little bit, but keep all the nice filter and "
+"blending options from RGB."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:351
@@ -1020,8 +1022,8 @@ msgid ""
 "Specular, glossiness, metalness and roughness maps are all based on linear "
 "calculations, and when you find that certain material has a metalness of "
 "0.3, this is 30% gray in a linear space. Therefore, make sure to tell the "
-"game engine renderer that this is a linear space image(or at the very least, "
-"should NOT be converted)."
+"game engine renderer that this is a linear space image (or at the very "
+"least, should NOT be converted)."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:374

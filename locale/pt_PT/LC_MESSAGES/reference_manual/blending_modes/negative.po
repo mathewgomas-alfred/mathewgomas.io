@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-25 15:03+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,12 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Right BlendingmodesArcusTangentSampleimagewithdots\n"
+"X-POFile-SpellExtra: Krita image bmdifference\n"
+"X-POFile-SpellExtra: BlendingmodesDifferenceSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesEquivalenceSampleimagewithdots\n"
+"X-POFile-SpellExtra: blendingmodes images\n"
+"X-POFile-SpellExtra: BlendingmodesExclusionSampleimagewithdots ref\n"
+"X-POFile-SpellExtra: BlendingmodesAdditiveSubtractiveSampleimagewithdots\n"
 
 #: ../../reference_manual/blending_modes/negative.rst:1
 msgid ""
 "Page about the negative blending modes in Krita: Additive Subtractive, Arcus "
 "Tangent, Difference, Equivalence and Exclusion."
-msgstr ""
+msgstr "Página sobre os modos de mistura negativa no Krita: Aditivo/Subtractivo, Arco-Tangente, Diferença, Equivalência e Exclusão."
 
 #: ../../reference_manual/blending_modes/negative.rst:15
 msgid "Negative"
@@ -29,7 +36,7 @@ msgstr "Negativo"
 
 #: ../../reference_manual/blending_modes/negative.rst:17
 msgid "These are all blending modes which seem to make the image go negative."
-msgstr ""
+msgstr "Estes são todos os modos de mistura que fazem com que a imagem pareça um negativo."
 
 #: ../../reference_manual/blending_modes/negative.rst:23
 msgid "Additive Subtractive"
@@ -37,17 +44,17 @@ msgstr "Aditivo-Subtractivo"
 
 #: ../../reference_manual/blending_modes/negative.rst:24
 msgid "Subtract the square root of the lower layer from the upper layer."
-msgstr ""
+msgstr "Subtrai a raiz quadrada da camada inferior da camada superior."
 
 #: ../../reference_manual/blending_modes/negative.rst:29
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Additive_Subtractive_Sample_image_with_dots.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Blending_modes_Additive_Subtractive_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/negative.rst:29
 msgid "Left: **Normal**. Right: **Additive Subtractive**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Aditivo/Subtractivo**."
 
 #: ../../reference_manual/blending_modes/negative.rst:35
 msgid "Arcus Tangent"
@@ -57,17 +64,17 @@ msgstr "Arco-Tangente"
 msgid ""
 "Divides the lower layer by the top. Then divides this by Pi. Then uses that "
 "in an Arc tangent function, and multiplies it by two."
-msgstr ""
+msgstr "Divide a camada inferior pela do topo. Depois divide o valor por Pi. Finalmente, usa o resultado numa função de arco-tangente e multiplica-a por dois."
 
 #: ../../reference_manual/blending_modes/negative.rst:43
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Arcus_Tangent_Sample_image_with_dots.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Blending_modes_Arcus_Tangent_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/negative.rst:43
 msgid "Left: **Normal**. Right: **Arcus Tangent**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Arco-Tangente**."
 
 #: ../../reference_manual/blending_modes/negative.rst:49
 msgid "Difference"
@@ -77,17 +84,17 @@ msgstr "Diferença"
 msgid ""
 "Checks per pixel of which layer the pixel-value is highest/lowest, and then "
 "subtracts the lower value from the higher-value."
-msgstr ""
+msgstr "Verifica, pixel a pixel, qual a camada cujo valor do pixel é maior/menor, subtraindo depois o valor menor do maior."
 
 #: ../../reference_manual/blending_modes/negative.rst:57
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Difference_Sample_image_with_dots.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Blending_modes_Difference_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/negative.rst:57
 msgid "Left: **Normal**. Right: **Difference**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Diferença**."
 
 #: ../../reference_manual/blending_modes/negative.rst:63
 msgid "Equivalence"
@@ -97,17 +104,17 @@ msgstr "Equivalência"
 msgid ""
 "Subtracts the underlying layer from the upper-layer. Then inverts that. "
 "Seems to produce the same result as :ref:`bm_difference`."
-msgstr ""
+msgstr "Subtrai a camada subjacente da camada superior. Depois inverte isso. Parece produzir o mesmo resultado que a :ref:`bm_difference`."
 
 #: ../../reference_manual/blending_modes/negative.rst:71
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Equivalence_Sample_image_with_dots.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Blending_modes_Equivalence_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/negative.rst:71
 msgid "Left: **Normal**. Right: **Equivalence**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Equivalência**."
 
 #: ../../reference_manual/blending_modes/negative.rst:77
 msgid "Exclusion"
@@ -117,14 +124,14 @@ msgstr "Exclusão"
 msgid ""
 "This multiplies the two layers, adds the source, and then subtracts the "
 "multiple of two layers twice."
-msgstr ""
+msgstr "Isto multiplica as duas camadas, adiciona a origem e depois subtrai duas vezes o múltiplo das duas camadas."
 
 #: ../../reference_manual/blending_modes/negative.rst:84
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Exclusion_Sample_image_with_dots.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Blending_modes_Exclusion_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/negative.rst:84
 msgid "Left: **Normal**. Right: **Exclusion**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Exclusão**."

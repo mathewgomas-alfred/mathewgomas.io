@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-19 09:59+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -51,7 +51,7 @@ msgid ""
 "for drawing normal maps, of the tangent variety. These are in turn used in "
 "3d programs and game engines to do all sorts of lightning trickery. Common "
 "uses of normal maps include faking detail where there is none, and to drive "
-"transformations(Flow Maps)."
+"transformations (Flow Maps)."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:23
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:42
 msgid ":ref:`option_airbrush`"
-msgstr ""
+msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:43
 msgid ":ref:`option_texture`"
@@ -153,7 +153,7 @@ msgstr "Codificação da Tangente"
 msgid ""
 "This allows you to set what each color channel means. Different programs set "
 "different coordinates to different channels, a common version is that the "
-"green channel might need to be inverted(-Y), or that the green channel is "
+"green channel might need to be inverted (-Y), or that the green channel is "
 "actually storing the x-value (+X)."
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:102
 msgid ""
-"Finally, when done, hide the phongbumpmap filter-layer(but keep the "
+"Finally, when done, hide the phongbumpmap filter-layer (but keep the "
 "normalize filter layer!) , and export the normal map for use in 3d programs."
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:107
 msgid ""
 "Direction maps are made with the 'Direction' option in the Tangent Tilt "
-"options. These normal maps are used to distort textures in a 3d program(to "
+"options. These normal maps are used to distort textures in a 3d program (to "
 "simulate for example, the flow of water) or to create maps that indicate how "
 "hair and brushed metal is brushed. Krita can't currently give feedback on "
 "how a given direction map will influence a distortion or shader, but these "
@@ -302,7 +302,7 @@ msgstr ""
 msgid ""
 "So, if you want the brush to only affect the red channel, set the blending "
 "mode to 'copy red'."
-msgstr ""
+msgstr "Por isso, se quiser que o pincel só afecte o canal vermelho, configure o modo de mistura para 'copiar o vermelho'."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
 msgid ".. image:: images/en/Krita_Filter_layer_invert_greenchannel.png"
@@ -310,14 +310,14 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
 msgid "The copy red, green and blue blending modes also work on filter-layers."
-msgstr ""
+msgstr "Os modos de mistura por cópia do vermelho, verde e azul também funcionam nas camadas de filtragem."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:123
 msgid ""
 "This can also be done with filter layers. So if you quickly want to flip a "
 "layer's green channel, make an invert filter layer with 'copy green' above "
 "it."
-msgstr ""
+msgstr "Isto também pode ser feito com as camadas de filtragem. Por isso, se quiser inverter rapidamente o canal verde de uma camada, crie uma camada de filtragem de inversão com o 'copiar o verde' por cima."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:126
 msgid "Mixing Normal Maps"

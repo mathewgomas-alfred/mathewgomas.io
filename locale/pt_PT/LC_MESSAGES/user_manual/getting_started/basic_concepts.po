@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-19 09:59+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -140,10 +140,11 @@ msgstr ""
 msgid ""
 "This is an individual copy of the image you opened or made via the file "
 "dialog, and where you edit your file. Krita can allow you to open the file "
-"as a new copy via the file menu, or to save it as a new file, or make an "
-"incremental save. An image contains layers, a color space, a canvas size and "
-"metadata such as creator, data created, and DPI. Krita can open multiple "
-"images at once, you can switch between them via the :guilabel:`window` menu."
+"as a new copy via the :guilabel:`File` menu, or to save it as a new file, or "
+"make an incremental save. An image contains layers, a color space, a canvas "
+"size and metadata such as creator, data created, and DPI. Krita can open "
+"multiple images at once, you can switch between them via the :guilabel:"
+"`Window` menu."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:54
@@ -158,7 +159,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:57
 msgid ""
-"Makes a new image. When you press :menuselection:`save`, you make a new file "
+"Makes a new image. When you press :menuselection:`Save`, you make a new file "
 "on the hard drive."
 msgstr ""
 
@@ -169,19 +170,19 @@ msgstr "Abrir"
 #: ../../user_manual/getting_started/basic_concepts.rst:59
 msgid ""
 "Makes an internal copy of an existing image. When you press :menuselection:"
-"`save`, you will overwrite the original existing image with your working "
+"`Save`, you will overwrite the original existing image with your working "
 "copy."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:60
-msgid "Open existing image as new"
+msgid "Open existing Document as Untitled Document"
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:61
 msgid ""
-"Similar to Open, however, :menuselection:`save` will request you to specify "
-"a saving location: you're making a new copy. This is similar to :"
-"menuselection:`import` in other programs."
+"Similar to :menuselection:`Open`, however, :menuselection:`Save` will "
+"request you to specify a saving location: you're making a new copy. This is "
+"similar to :menuselection:`Import` in other programs."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:62
@@ -190,8 +191,8 @@ msgstr "Criar uma Cópia da Imagem Actual"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:63
 msgid ""
-"Similar to :menuselection:`Open Existing Image as new` but with the "
-"currently selected image."
+"Similar to :menuselection:`Open existing Document as Untitled Document` but "
+"with the currently selected image."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:65
@@ -227,7 +228,7 @@ msgid ""
 "and you can manipulate the view to zoom, rotate and mirror and modify the "
 "color of the way you see an image without editing the image itself. This is "
 "very useful for artists, as changing the way they view the image is a common "
-"way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`m` "
+"way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`M` "
 "makes such skewing easy to identify."
 msgstr ""
 
@@ -248,8 +249,8 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:84
 msgid ""
-"Multiple views are possible in Krita via :menuselection:`window --> new view "
-"--> image name`. You can switch between them via the :guilabel:`window` "
+"Multiple views are possible in Krita via :menuselection:`Window --> New view "
+"--> image name`. You can switch between them via the :guilabel:`Window` "
 "menu, or :kbd:`Ctrl + Tab`, or keep them in the same area when **subwindow** "
 "mode is active in the :ref:`settings <general_settings>`, via :menuselection:"
 "`Window --> Tile`."
@@ -285,8 +286,8 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:103
 msgid ""
-"Krita allows you to have multiple windows via :menuselection:`window --> new "
-"window`. You can then drag this to another monitor for multi-monitor use."
+"Krita allows you to have multiple windows via :menuselection:`Window --> New "
+"Window`. You can then drag this to another monitor for multi-monitor use."
 msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:105
@@ -542,8 +543,8 @@ msgstr ""
 #: ../../user_manual/getting_started/basic_concepts.rst:185
 msgid ""
 "You can configure these effects via the Brush Settings drop-down, which can "
-"be quickly accessed via :kbd:`f5`. These configurations can then be saved "
-"into presets, which you can quickly access with :kbd:`f6` or the Brush "
+"be quickly accessed via :kbd:`F5`. These configurations can then be saved "
+"into presets, which you can quickly access with :kbd:`F6` or the Brush "
 "Presets docker."
 msgstr ""
 
@@ -1066,8 +1067,8 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:381
 msgid ""
-"You can also configure the toolbar via :menuselection:`settings --> "
-"configure Toolbars`, as well as the shortcuts under both :menuselection:"
-"`settings --> Configure Krita --> Configure Shortcuts` and :menuselection:"
-"`settings --> configure Krita --> Canvas Input Settings`."
+"You can also configure the toolbar via :menuselection:`Settings --> "
+"Configure Toolbars`, as well as the shortcuts under both :menuselection:"
+"`Settings --> Configure Krita --> Configure Shortcuts` and :menuselection:"
+"`Settings --> Configure Krita --> Canvas Input Settings`."
 msgstr ""

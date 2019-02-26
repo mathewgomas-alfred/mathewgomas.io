@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-02-20 23:21\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -113,9 +113,9 @@ msgstr "旋转"
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:32
 msgid ""
 "There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or :"
-"kbd:`ctrl`+:kbd:`[` and :kbd:`ctrl+]` for basic 15 degrees rotation left and "
+"kbd:`Ctrl`+:kbd:`[` and :kbd:`Ctrl+]` for basic 15 degrees rotation left and "
 "right. But you can also have more sophisticated rotation with :kbd:`Shift + "
-"Space` + drag or :kbd:`shift` + |mousemiddle| + drag. To reset the rotation, "
+"Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the rotation, "
 "press :kbd:`5`."
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr "缩放"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:34
 msgid ""
-"You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`ctrl` + |"
+"You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`Ctrl` + |"
 "mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit "
 "the zoom to page width."
 msgstr ""
@@ -170,7 +170,7 @@ msgstr ""
 msgid ""
 ":guilabel:`Hide Selection`, :guilabel:`Reset Rotation` are currently not "
 "available via the Toolbar configuration, you'll need to use the shortcuts :"
-"kbd:`Ctrl`+:kbd:`h` and :kbd:`5` to toggle these."
+"kbd:`Ctrl`+:kbd:`H` and :kbd:`5` to toggle these."
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:48
@@ -185,9 +185,9 @@ msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:53
 msgid ""
-"You can actually set this in :menuselection:`settings --> configure Krita --"
-"> canvas input settings --> alternate invocation`. Just double-click the "
-"entry that says :kbd:`ctrl` + |mouseleft| before 'pick foreground color from "
+"You can actually set this in :menuselection:`Settings --> Configure Krita --"
+"> Canvas input settings --> Alternate invocation`. Just double-click the "
+"entry that says :kbd:`Ctrl` + |mouseleft| before 'pick foreground color from "
 "image' to get a window to set it to |mouseright|."
 msgstr ""
 
@@ -222,7 +222,7 @@ msgid ""
 "dialogue and the image background will be white. You can turn it back to "
 "transparent via :menuselection:`image --> change image background color`. If "
 "you export a PNG or JPG, make sure to uncheck 'save transparency' and to "
-"make the background color white(it's black by default)."
+"make the background color white (it's black by default)."
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:72
@@ -247,10 +247,10 @@ msgstr ""
 msgid ""
 "This is not quite true. It's rather that we don't have our brush settings in "
 "a docker but a drop-down on the toolbar. The easiest way to access this is "
-"with :kbd:`f5`. As you can see, it's actually quite complex. We have more "
+"with :kbd:`F5`. As you can see, it's actually quite complex. We have more "
 "than a dozen brush engines, which are a type of brush you can make. The ones "
-"you are used to from Paint Tool Sai are the Pixel Brush(ink), The Color "
-"Smudge Brush(Brush) and the filter brush(dodge, burn)."
+"you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color "
+"Smudge Brush (brush) and the filter brush (dodge, burn)."
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:81
@@ -258,7 +258,7 @@ msgid ""
 "A simple inking brush recipe for example is to take a pixel brush, uncheck "
 "the 'enable pen-settings' on opacity and flow, and uncheck everything but "
 "size from the option list. Then, go into brush-tip, pick :ref:"
-"`auto_brush_tip` from the tabs, and set the size to 25(right-click a blue "
+"`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue "
 "bar if you want to input numbers), turn on anti-aliasing under the brush "
 "icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and "
 "the spacing number to 0.8."
@@ -328,7 +328,7 @@ msgstr ""
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:106
 msgid ""
 "For Clipping masks in Krita you'll need to put all your images in a single "
-"layer, and then press the 'a' icon, or press :kbd:`ctrl`+:kbd:`shift`+:kbd:"
+"layer, and then press the 'a' icon, or press :kbd:`Ctrl`+:kbd:`Shift`+:kbd:"
 "`G`"
 msgstr ""
 
@@ -405,9 +405,9 @@ msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:135
 msgid ""
-"You can call the color history with :kbd:`h`, common colors with :kbd:`u` "
-"and the two shade selectors with :kbd:`shift`+:kbd:`n` and :kbd:`shift`+:kbd:"
-"`m`. The big selector can be called with :kbd:`shift`+:kbd:`i` on canvas."
+"You can call the color history with :kbd:`H`, common colors with :kbd:`U` "
+"and the two shade selectors with :kbd:`Shift`+:kbd:`N` and :kbd:`Shift`+:kbd:"
+"`M`. The big selector can be called with :kbd:`Shift`+:kbd:`I` on canvas."
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:138
@@ -525,7 +525,7 @@ msgid "The selection source option for layers"
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:208
-msgid "Dynamic hard-edges for strokes(the fringe effect)"
+msgid "Dynamic hard-edges for strokes (the fringe effect)"
 msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:209

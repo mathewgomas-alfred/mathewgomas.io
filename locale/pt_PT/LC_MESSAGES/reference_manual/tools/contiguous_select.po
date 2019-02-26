@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-25 17:39+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: contiguousselecttool icons image Kritamouseleft\n"
+"X-POFile-SpellExtra: selectionsbasics kbd generalsettings\n"
+"X-POFile-SpellExtra: toolselectcontiguous images alt ref mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Limit to Current Layer"
-msgstr ""
+msgstr "Limitar à Camada Actual"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -34,10 +37,12 @@ msgid ""
 ".. image:: images/icons/contiguous_select_tool.svg\n"
 "   :alt: toolselectcontiguous"
 msgstr ""
+".. image:: images/icons/contiguous_select_tool.svg\n"
+"   :alt: ferramenta de selecção contígua"
 
 #: ../../reference_manual/tools/contiguous_select.rst:1
 msgid "Krita's contiguous selection tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de selecção contígua."
 
 #: ../../reference_manual/tools/contiguous_select.rst:16
 msgid "Contiguous Selection Tool"
@@ -45,7 +50,7 @@ msgstr "Ferramenta de Selecção Contígua"
 
 #: ../../reference_manual/tools/contiguous_select.rst:18
 msgid "|toolselectcontiguous|"
-msgstr ""
+msgstr "|toolselectcontiguous|"
 
 #: ../../reference_manual/tools/contiguous_select.rst:20
 msgid ""
@@ -54,7 +59,7 @@ msgid ""
 "contiguous areas of a similar color to the one you selected. You can adjust "
 "the \"fuzziness\" of the tool in the tool options dock. A lower number will "
 "select colors closer to the color that you chose in the first place."
-msgstr ""
+msgstr "Esta ferramenta, representada por uma varinha mágica, permite-lhe criar :ref:`selections_basics` através da selecção de um ponto colorido. Ele irá seleccionar todas as áreas contíguas com uma cor semelhante à que seleccionou. Poderá ajustar a \"difusão\" da ferramenta na área de opções da ferramenta. Um valor mais baixo irá seleccionar as cores mais próximas da cor que escolheu em primeiro lugar."
 
 #: ../../reference_manual/tools/contiguous_select.rst:23
 msgid "Hotkeys and Sticky keys"
@@ -144,19 +149,19 @@ msgstr ""
 
 #: ../../reference_manual/tools/contiguous_select.rst:44
 msgid "Grow/Shrink selection."
-msgstr ""
+msgstr "Aumentar/diminuir a selecção."
 
 #: ../../reference_manual/tools/contiguous_select.rst:45
 msgid "This value extends/contracts the shape beyond it's initial size."
-msgstr ""
+msgstr "Este valor expande/contrai a forma para além do seu tamanho inicial."
 
 #: ../../reference_manual/tools/contiguous_select.rst:46
 msgid "Feathering"
-msgstr ""
+msgstr "Suavização"
 
 #: ../../reference_manual/tools/contiguous_select.rst:47
 msgid "This value will add a soft border to the selection-shape."
-msgstr ""
+msgstr "Este valor irá adicionar um contorno suavizado à forma da selecção."
 
 #: ../../reference_manual/tools/contiguous_select.rst:49
 msgid ""

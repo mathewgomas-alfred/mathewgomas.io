@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-25 12:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,26 +16,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en patterndocker Krita guilabel image JPG\n"
+"X-POFile-SpellExtra: Generatingcustompatterns images KritaPatterns ref\n"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:None
 msgid ".. image:: images/en/Krita_Patterns.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Patterns.png"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:None
 msgid ".. image:: images/en/Generating_custom_patterns1.png"
-msgstr ""
+msgstr ".. image:: images/en/Generating_custom_patterns1.png"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:None
 msgid ".. image:: images/en/Generating_custom_patterns2.png"
-msgstr ""
+msgstr ".. image:: images/en/Generating_custom_patterns2.png"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:None
 msgid ".. image:: images/en/Generating_custom_patterns3.png"
-msgstr ""
+msgstr ".. image:: images/en/Generating_custom_patterns3.png"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:1
 msgid "Creating and managing patterns in Krita."
-msgstr ""
+msgstr "Criação e gestão dos padrões no Krita."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:16
 msgid "Patterns"
@@ -44,27 +46,27 @@ msgstr "Padrões"
 #: ../../reference_manual/resource_management/resource_patterns.rst:21
 msgid ""
 "Patterns are small raster files that tile. They can be used as following:"
-msgstr ""
+msgstr "Os padrões são pequenos ficheiros de imagens rasterizadas que são compostos numa sequência repetitiva. Podem ser usados da seguinte forma:"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:23
 msgid "As fill for a vector shape."
-msgstr ""
+msgstr "Como preenchimento para uma forma vectorial."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:24
 msgid "As fill-tool color."
-msgstr ""
+msgstr "Como uma cor da ferramenta de preenchimento."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:25
 msgid "As height-map for a brush using the 'texture' functionality."
-msgstr ""
+msgstr "Como mapa de altura para um pincel, usando a funcionalidade da 'textura'."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:26
 msgid "As fill for a generated layer."
-msgstr ""
+msgstr "Como preenchimento para uma camada gerada."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:29
 msgid "Adding new patterns"
-msgstr ""
+msgstr "Adição de novos padrões"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:31
 msgid ""
@@ -72,28 +74,28 @@ msgid ""
 "menu in the toolbar. At the bottom of the docker, beneath the resource-"
 "filter input field, there's the 'import resource' and 'delete resource' "
 "buttons. Select the former to add png or jpg files to the pattern list."
-msgstr ""
+msgstr "Poderá adicionar com a área de padrões ou com o menu de acesso rápido aos padrões na barra de ferramentas. No fundo da área da área acoplável, por baixo do campo do filtro de recursos, existem os botões para 'importar um recurso' ou 'apagar o recurso'. Seleccione o primeiro para adicionar ficheiros PNG ou JPG à lista de padrões."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:34
 msgid ""
 "Similarly, removing patterns can be done by pressing the 'delete resource' "
 "button. Krita will not delete the actual file then, but rather black list "
 "it, and thus not load it."
-msgstr ""
+msgstr "De forma semelhante, a remoção de padrões poderá ser feita com o botão 'apagar o recurso'. O Krita não irá apagar o ficheiro de facto, mas vai simplesmente excluí-lo da lista, não o carregando."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:37
 msgid "Temporary patterns and generating patterns from the canvas"
-msgstr ""
+msgstr "Padrões temporários e geração de padrões a partir da área de desenho"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:39
 msgid ""
 "You can use the pattern drop-down to generate patterns from the canvas but "
 "also to make temporary ones."
-msgstr ""
+msgstr "Poderá usar a lista de padrões para gerar novos a partir da área de desenho mas também para criar temporários."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:41
 msgid "First, draw a pattern and open the pattern-drop down."
-msgstr ""
+msgstr "Primeiro, desenhe um padrão e abra a lista de padrões."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:46
 msgid ""
@@ -102,25 +104,25 @@ msgid ""
 "whether you use this layer only, or the whole image. Since 3.0.2, Krita will "
 "take into account the active selection as well when getting the information "
 "of the two."
-msgstr ""
+msgstr "Depois vá a :guilabel:`personalizado` e carregue primeiro em :guilabel:`Actualizar` para mostrar o padrão na área acoplável. Verifique se está correcto. Aqui, poderá também escolher se deseja usar apenas esta camada ou a imagem inteira. Desde o 3.0.2, o Krita terá também em conta a selecção activa quando obter informação sobre as duas."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:51
 msgid ""
 "Then, click either :guilabel:`Use as Pattern` to use it as a temporary "
 "pattern, or :guilabel:`Add to predefined patterns` to save it into your "
 "pattern resources!"
-msgstr ""
+msgstr "Depois, tanto pode carregar em :guilabel:`Usar como Padrão` para o usar como um padrão temporário, como :guilabel:`Adicionar aos padrões predefinidos` para o gravar nos seus recursos de padrões!"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:53
 msgid ""
 "You can then start using it in Krita by for example making a canvas and "
 "doing :guilabel:`edit --> fill with pattern`."
-msgstr ""
+msgstr "Poderá então começar a usá-lo no Krita, criando por exemplo uma nova área de desenho e executando depois :guilabel:`editar --> preencher com padrão`."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:59
 msgid ":ref:`pattern_docker`"
-msgstr ""
+msgstr ":ref:`pattern_docker`"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:61
 msgid "You can tag patterns here, and filter them with the resource filter."
-msgstr ""
+msgstr "Poderá criar marcas nos padrões aqui e filtrá-las com o filtro de recursos."

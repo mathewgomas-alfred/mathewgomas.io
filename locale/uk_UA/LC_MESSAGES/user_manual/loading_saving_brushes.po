@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___loading_saving_brushes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-24 11:51+0200\n"
+"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"PO-Revision-Date: 2019-02-25 21:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,8 +33,8 @@ msgid ""
 "Detailed guide on the brush settings dialog in Krita as well as how to make "
 "your own brushes and how to share them."
 msgstr ""
-"Докладні настанови щодо діалогового вікна параметрів пензля у Krita, а також"
-" способів створення та оприлюднення ваших власних пензлів."
+"Докладні настанови щодо діалогового вікна параметрів пензля у Krita, а також "
+"способів створення та оприлюднення ваших власних пензлів."
 
 #: ../../user_manual/loading_saving_brushes.rst:17
 msgid "Loading and Saving Brushes"
@@ -44,7 +44,7 @@ msgstr "Завантаження і збереження пензлів"
 msgid ""
 "In the real world, when painting or drawing, you don't just use one tool. "
 "You use pencils, erasers, paintbrushes, different types of paint, inks, "
-"crayons, etcetera. All these have different ways of making marks."
+"crayons, etc. All these have different ways of making marks."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:23
@@ -52,7 +52,7 @@ msgid ""
 "In a digital program like Krita you have something similar. We call this a "
 "brush engine. And much like how cars have different engines that give "
 "different feels when driving, or how pencils make distinctly different marks "
-"than rollerbal pens, different brush engines have totally different feels."
+"than rollerball pens, different brush engines have totally different feels."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:29
@@ -60,8 +60,8 @@ msgid ""
 "The brush engines have a lot of different settings as well. So, you can save "
 "those settings into presets."
 msgstr ""
-"Для рушіїв пензлів також передбачено багато різних параметрів. Отже, ви"
-" можете зберігати ці параметри до наборів параметрів."
+"Для рушіїв пензлів також передбачено багато різних параметрів. Отже, ви "
+"можете зберігати ці параметри до наборів параметрів."
 
 #: ../../user_manual/loading_saving_brushes.rst:32
 msgid ""
@@ -72,13 +72,13 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:37
 msgid "The Brush settings dropdown"
-msgstr ""
+msgstr "Спадний список властивостей пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:39
 msgid ""
 "To start, the Brush Settings Editor panel can be accessed in the toolbar, "
 "between the Blending Modes button on the right and the Patterns button on "
-"the left. Alternately, you can use the function key f5 to open it."
+"the left. Alternately, you can use the function key :kbd:`F5` to open it."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:44
@@ -108,10 +108,10 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:62
 msgid ""
-"Krita's brush settings are stored into the metadata of a 200x200 png(The KPP "
-"file), where the image in the png file becomes the preset icon. This icon is "
-"used everywhere in Krita, and is useful for differentiating brushes in ways "
-"that the live preview cannot."
+"Krita's brush settings are stored into the metadata of a 200x200 png (the "
+"KPP file), where the image in the png file becomes the preset icon. This "
+"icon is used everywhere in Krita, and is useful for differentiating brushes "
+"in ways that the live preview cannot."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:67
@@ -166,16 +166,20 @@ msgid ""
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:101
-msgid "Saving a preset."
+#| msgid "Saving a preset."
+msgid "Saving a preset"
 msgstr "Збереження набору параметрів"
 
 #: ../../user_manual/loading_saving_brushes.rst:103
+#| msgid ""
+#| "On the right, there's :guilabel:`Save New Preset` and :guilabel:"
+#| "`Overwrite Preset`."
 msgid ""
-"On the right, there's :guilabel:`Save New Preset` and :guilabel:`Overwrite "
-"Preset`."
+"On the right, there's :guilabel:`Save New Brush Preset` and :guilabel:"
+"`Overwrite Brush`."
 msgstr ""
-"Праворуч передбачено кнопки :guilabel:`Зберегти новий набір пензлів` та"
-" :guilabel:`Перезаписати пензель`."
+"Праворуч передбачено кнопки :guilabel:`Зберегти новий набір пензлів` та :"
+"guilabel:`Перезаписати пензель`."
 
 #: ../../user_manual/loading_saving_brushes.rst:106
 msgid ""
@@ -185,7 +189,8 @@ msgid ""
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:108
-msgid "Overwrite Preset"
+#| msgid "Overwrite Preset"
+msgid "Overwrite Brush"
 msgstr "Перезаписати пензель"
 
 #: ../../user_manual/loading_saving_brushes.rst:111
@@ -196,7 +201,8 @@ msgid ""
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:113
-msgid "Save New Preset"
+#| msgid "Save New Preset"
+msgid "Save New Brush Preset"
 msgstr "Зберегти новий набір пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:115
@@ -235,11 +241,11 @@ msgstr "Завантажити наявну мініатюру до набору
 
 #: ../../user_manual/loading_saving_brushes.rst:130
 msgid "Load scratch pad thumbnail"
-msgstr ""
+msgstr "Завантаження мініатюри нотатника"
 
 #: ../../user_manual/loading_saving_brushes.rst:130
 msgid ""
-"This will load the dashed area from the big scratch pad(Section C) into the "
+"This will load the dashed area from the big scratch pad (Section C) into the "
 "thumbnail area."
 msgstr ""
 
@@ -250,8 +256,8 @@ msgstr "Завантажити зображення"
 #: ../../user_manual/loading_saving_brushes.rst:133
 msgid "With this you can choose an image from disk to load as a thumbnail."
 msgstr ""
-"За допомогою цього пункту ви можете вибрати зображення з диска для"
-" завантаження його як мініатюри."
+"За допомогою цього пункту ви можете вибрати зображення з диска для "
+"завантаження його як мініатюри."
 
 #: ../../user_manual/loading_saving_brushes.rst:134
 msgid "Load from Icon Library"
@@ -290,7 +296,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:150
 msgid ""
-"If you go to your resources folder(), there's a folder there called \"preset"
+"If you go to your resources folder, there's a folder there called \"preset"
 "\\_icons\", and in this folder there are \"tool\\_icons\" and \"emblem"
 "\\_icons\". You can add semi-transparent pngs here and Krita will load those "
 "into the icon library as well so you can customize your icons even more!"
@@ -319,8 +325,8 @@ msgstr "Розділ B — Засіб вибору набору пензлів"
 #: ../../user_manual/loading_saving_brushes.rst:169
 msgid ""
 "The preset chooser is much the same as the preset docker and the preset "
-"dropdown on F6. It's unique in that it allows you to filter by engine and "
-"this is also where you can create brushes for an engine from scratch."
+"dropdown on :kbd:`F6`. It's unique in that it allows you to filter by engine "
+"and this is also where you can create brushes for an engine from scratch."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:174
@@ -351,7 +357,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:189
 msgid "Section C - The Scratch pad"
-msgstr ""
+msgstr "Розділ C — Нотатник для чернеток"
 
 #: ../../user_manual/loading_saving_brushes.rst:191
 msgid ""
@@ -379,23 +385,23 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:204
 msgid "Showing the current brush image"
-msgstr ""
+msgstr "Показ зображення поточного пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:206
-msgid "Adding a gradient to the scratch pad(useful for smudge brushes)"
-msgstr ""
+msgid "Adding a gradient to the scratch pad (useful for smudge brushes)"
+msgstr "Додавання градієнт до нотатника (корисно для пензлів розмазування)"
 
 #: ../../user_manual/loading_saving_brushes.rst:207
 msgid "Filling with the background color"
-msgstr ""
+msgstr "Заповнення кольором тла"
 
 #: ../../user_manual/loading_saving_brushes.rst:208
 msgid "Clearing everything on the scratch pad."
-msgstr ""
+msgstr "Очищення нотатника від усього."
 
 #: ../../user_manual/loading_saving_brushes.rst:211
 msgid "Section D - The Options List"
-msgstr ""
+msgstr "Розділ D — Список параметрів"
 
 #: ../../user_manual/loading_saving_brushes.rst:213
 msgid ""
@@ -421,7 +427,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:227
 msgid "Section E - Option Configuration Widget"
-msgstr ""
+msgstr "Розділ E — Віджет налаштовування параметрів"
 
 #: ../../user_manual/loading_saving_brushes.rst:229
 msgid ""
@@ -534,7 +540,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:283
 msgid "Will subtract the smallest value from the largest, so 0.7-0.5 = 0.2"
-msgstr ""
+msgstr "Відніме найменше значення від найбільшого, отже 0.7-0.5 = 0.2"
 
 #: ../../user_manual/loading_saving_brushes.rst:284
 msgid "Curves Calculation Mode"
@@ -546,7 +552,7 @@ msgstr "Різниця"
 
 #: ../../user_manual/loading_saving_brushes.rst:286
 msgid "It's maybe better to see with the following example:"
-msgstr ""
+msgstr "Ймовірно, краще усе зрозуміти можна з такого прикладу:"
 
 #: ../../user_manual/loading_saving_brushes.rst:289
 msgid ".. image:: images/en/Krita_4_0_brush_curve_calculation_mode.png"
@@ -595,7 +601,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:305
 msgid "Section F - Miscellaneous options"
-msgstr ""
+msgstr "Розділ F — Інші параметри"
 
 #: ../../user_manual/loading_saving_brushes.rst:308
 msgid ""
@@ -911,12 +917,12 @@ msgstr ""
 msgid ""
 "If there are brush tips and patterns coming with the file, do the same with "
 "pattern via the pattern docker, and for the brush-tip go to the settings "
-"dropdown(f5) and then go to the “brush-tip” option. There, select predefined "
-"brush, and then the “import” button to call up the file dialog."
+"dropdown (:kbd:`F5`) and then go to the “brush-tip” option. There, select "
+"predefined brush, and then the “import” button to call up the file dialog."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:471
-msgid "Sharing via ZIP(old-fashioned)"
+msgid "Sharing via ZIP (old-fashioned)"
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:473

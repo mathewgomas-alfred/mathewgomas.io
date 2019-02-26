@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-25 17:57+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,42 +16,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: libasound good libqt Krita gstreamer pulseaudio dev\n"
+"X-POFile-SpellExtra: OGM bad multimedia libgstreamer\n"
 
 #: ../../reference_manual/audio_for_animation.rst:1
 msgid "The audio playback with animation in Krita."
-msgstr ""
+msgstr "A reprodução de áudio com animações no Krita."
 
 #: ../../reference_manual/audio_for_animation.rst:17
 msgid "Audio for Animation"
-msgstr ""
+msgstr "Áudio para Animações"
 
 #: ../../reference_manual/audio_for_animation.rst:21
 msgid ""
 "Audio for animation is an unfinished feature. It has multiple bugs and may "
 "not work on your system."
-msgstr ""
+msgstr "O áudio nas animações é uma funcionalidade ainda por concluir. Tem muitos erros e poderá não funcionar no seu sistema."
 
 #: ../../reference_manual/audio_for_animation.rst:23
 msgid ""
 "You can add audio files to your animation to help sync lips or music. This "
 "functionality is available in the timeline docker."
-msgstr ""
+msgstr "Poderá adicionar ficheiros de áudio à sua animação para ajudar na sincronização de lábios ou com a música. Esta funcionalidade está disponível na área da linha temporal."
 
 #: ../../reference_manual/audio_for_animation.rst:26
 msgid "Importing Audio Files"
-msgstr ""
+msgstr "Importar Ficheiros de Áudio"
 
 #: ../../reference_manual/audio_for_animation.rst:28
 msgid ""
 "Krita supports MP3, OGM, and WAV audio files. When you open up your timeline "
 "docker, there will be a speaker button in the top left area."
-msgstr ""
+msgstr "O Krita suporta ficheiros de áudio MP3, OGM e WAV. Quando abrir a área da linha temporal, existirá um botão com um altifalante na área superior esquerda."
 
 #: ../../reference_manual/audio_for_animation.rst:30
 msgid ""
 "If you press the speaker button, you will get the available audio options "
 "for the animation."
-msgstr ""
+msgstr "Se carregar nesse botão, irá obter as opções de áudio disponíveis para a animação."
 
 #: ../../reference_manual/audio_for_animation.rst:32
 msgid "Open"
@@ -63,11 +65,11 @@ msgstr "Silenciar"
 
 #: ../../reference_manual/audio_for_animation.rst:34
 msgid "Remove audio"
-msgstr ""
+msgstr "Remover o áudio"
 
 #: ../../reference_manual/audio_for_animation.rst:35
 msgid "Volume slider"
-msgstr ""
+msgstr "Barra do volume"
 
 #: ../../reference_manual/audio_for_animation.rst:37
 msgid ""
@@ -75,7 +77,7 @@ msgid ""
 "rename it, Krita will not be able to find it. Krita will tell you the file "
 "was moved or deleted the next time you try to open the Krita file up. Using "
 "Audio"
-msgstr ""
+msgstr "O Krita grava a localização do seu ficheiro de áudio. Se mover o ficheiro ou mudar o nome do mesmo, o Krita não conseguirá encontrá-lo. O Krita irá indicar-lhe que o ficheiro foi movido ou apagado da próxima vez que tentar abrir o ficheiro no Krita. Uso do Áudio"
 
 #: ../../reference_manual/audio_for_animation.rst:40
 msgid ""
@@ -84,11 +86,11 @@ msgid ""
 "entire the audio file will playback as it will in the final version. There "
 "is no visual display of the audio file on the screen, so you will need to "
 "use your ears and the scrubbing functionality to position frames."
-msgstr ""
+msgstr "Depois de importar o áudio, poderá percorrer a linha temporal, para que ela reproduza o excerto de áudio no ponto exacto no tempo. Quando carregar no botão Reproduzir, o ficheiro de áudio inteiro será reproduzido como ficará na versão final. Não existe nenhuma visualização do ficheiro de áudio no ecrã, pelo que terá de usar os seus ouvidos e a funcionalidade de circulação para posicionar as imagens."
 
 #: ../../reference_manual/audio_for_animation.rst:44
 msgid "Exporting with Audio"
-msgstr ""
+msgstr "Exportação com Áudio"
 
 #: ../../reference_manual/audio_for_animation.rst:46
 msgid ""
@@ -96,57 +98,57 @@ msgid ""
 "it in the Render Animation options. In the File > Render Animation options "
 "there is a checkbox\"Include Audio\". Make sure that is checked before you "
 "export and you should be good to go."
-msgstr ""
+msgstr "Para incluir o ficheiro de áudio quando estiver a exportar, terá de o incluir nas opções para Desenhar a Animação. Nas opções em 'Ficheiro > Desenhar a Animação', existe uma opção de marcação \"Incluir o Áudio\". Certifique-se que está assinalada antes da exportação, e tudo deverá estar pronto a usar."
 
 #: ../../reference_manual/audio_for_animation.rst:49
 msgid "Packages needed for Audio on Linux"
-msgstr ""
+msgstr "Pacotes necessários para o Áudio no Linux"
 
 #: ../../reference_manual/audio_for_animation.rst:51
 msgid ""
 "The following packages are necessary for havng the audio support on Linux:"
-msgstr ""
+msgstr "São necessários os seguintes pacotes para ter o suporte de áudio no Linux:"
 
 #: ../../reference_manual/audio_for_animation.rst:54
 msgid "For people who build Krita on Linux:"
-msgstr ""
+msgstr "Para as pessoas que tenham compilado o Krita no Linux:"
 
 #: ../../reference_manual/audio_for_animation.rst:56
 msgid "libasound2-dev"
-msgstr ""
+msgstr "libasound2-dev"
 
 #: ../../reference_manual/audio_for_animation.rst:57
 msgid "libgstreamer1.0-dev gstreamer1.0-pulseaudio"
-msgstr ""
+msgstr "libgstreamer1.0-dev gstreamer1.0-pulseaudio"
 
 #: ../../reference_manual/audio_for_animation.rst:58
 msgid "libgstreamer-plugins-base1.0-dev"
-msgstr ""
+msgstr "libgstreamer-plugins-base1.0-dev"
 
 #: ../../reference_manual/audio_for_animation.rst:59
 msgid "libgstreamer-plugins-good1.0-dev"
-msgstr ""
+msgstr "libgstreamer-plugins-good1.0-dev"
 
 #: ../../reference_manual/audio_for_animation.rst:60
 msgid "libgstreamer-plugins-bad1.0-dev"
-msgstr ""
+msgstr "libgstreamer-plugins-bad1.0-dev"
 
 #: ../../reference_manual/audio_for_animation.rst:62
 msgid "For people who use Krita on Linux:"
-msgstr ""
+msgstr "Para as pessoas que usem o Krita no Linux:"
 
 #: ../../reference_manual/audio_for_animation.rst:64
 msgid "libqt5multimedia5-plugins"
-msgstr ""
+msgstr "libqt5multimedia5-plugins"
 
 #: ../../reference_manual/audio_for_animation.rst:65
 msgid "libgstreamer-plugins-base1.0"
-msgstr ""
+msgstr "libgstreamer-plugins-base1.0"
 
 #: ../../reference_manual/audio_for_animation.rst:66
 msgid "libgstreamer-plugins-good1.0"
-msgstr ""
+msgstr "libgstreamer-plugins-good1.0"
 
 #: ../../reference_manual/audio_for_animation.rst:67
 msgid "libgstreamer-plugins-bad1.0"
-msgstr ""
+msgstr "libgstreamer-plugins-bad1.0"
