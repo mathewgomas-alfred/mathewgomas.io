@@ -283,9 +283,11 @@ For this you will need to follow the :ref:`making_changes_sphinx` section, so th
 Translating
 ~~~~~~~~~~~
 
-We are still trying to hash out a translation workflow. Please bear with us.
+Translation of the manual is handled by the `KDE locatization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams<https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
 
-.. Things that need to be decided: where do the POT files go, how do we decide which pages should not be translated, etc.
+The localisation team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
+
+Finished translations also need to be added to the build script to show up online. Translator teams which are confident in the state of their translation should contact the main Krita team via the kimageshop mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this.
 
 Other
 -----
