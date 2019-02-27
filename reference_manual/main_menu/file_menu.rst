@@ -49,7 +49,7 @@ File Menu
         Save as a new version of the same file with a number attached.
 
     Save incremental Backup
-        Backup the original file you loaded, then save your image under the original filename.
+        Copies and renames the last saved version of your file to a back-up file and saves your document under the original name.
 
     Create Template from image
         The \*.kra file will be saved into the template folder for future use. All your layers and guides will be saved along!
