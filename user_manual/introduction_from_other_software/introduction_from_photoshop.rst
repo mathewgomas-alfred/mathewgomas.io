@@ -40,8 +40,8 @@ Navigation
 In Krita you can navigate your document using all these methods:
 
 #. '*Mouse wheel*': |mousescroll| down and up for zoom, and press |mousemiddle| down to pan your document.
-#. '*Keyboard*': with :kbd:`+` and - on your numpad keyboard, and pan with space
-#. As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + space` to zoom, and space to pan. 
+#. '*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard
+#. As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + Space` to zoom, and :kbd:`Space` to pan. 
     
     .. note::
         
@@ -62,9 +62,11 @@ Move and Transform
 
 Moving and Transformation of contents is done using tools in Krita. You can then find them in the toolbar. 
 If you are familiar with the way to move layers in PS by holding down :kbd:`Ctrl`, you can do the same in Krita by pressing the :kbd:`T` key for the move tool (think ‘T’ranslate) or :kbd:`Ctrl + T` for transform tool.
+
 Press :kbd:`B` to go back to the brush tool when the transformation or translation is done.
-To find how to make advanced deformations using the ‘Transform’ tool, do not right-click on the on-canvas widget: all the option are in the ‘Tool Options’ docker. 
-Change can be applied with ‘Enter’ for the Transform tool. 
+To find how to make advanced deformations using the :guilabel:`Transform` tool, do not right-click on the on-canvas widget: all the option are in the :guilabel:`Tool Options` docker. 
+
+Changes can be applied with :kbd:`Enter` for the Transform tool. 
 
 .. note::
 
@@ -73,7 +75,7 @@ Change can be applied with ‘Enter’ for the Transform tool.
 Selections
 ~~~~~~~~~~
 
-Like in PS, you can use Alt or Shift during a selection to remove or add selection to the active selection. Krita also offers sub tools for this, and you can select them in the Tool Option if a select tool is active. These sub tools are represented as icons.
+Like in PS, you can use :kbd:`Alt` or :kbd:`Shift` during a selection to remove or add selection to the active selection. Krita also offers sub tools for this, and you can select them in the :guilabel:`Tool Options` if a select tool is active. These sub tools are represented as icons.
 You can switch to those sub modes by pressing:
 
 * :kbd:`R` to replace selection
@@ -88,15 +90,19 @@ Or hold:
 
 .. note:: 
 
-    You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press ‘T’ or select the ‘Move Tool’.
+    You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press :kbd:`T` or select the :guilabel:`Move Tool`.
 
 Some other tips:
-* If you want to convert a layer to a selection (to select the visible pixels), right-click on the layer docker, and choose ‘select opaque’. 
+* If you want to convert a layer to a selection (to select the visible pixels), right-click on the layer docker, and choose :guilabel:`Select Opaque`. 
 * If you use a polygonal selection tool, or a selection which needs to be ‘closed’, you will be able to do it or by using a double-click, or by using a :kbd:`Shift` - |mouseleft| .
 
-You can scale selection. To do this, choose Select > Scale  (Note: also, in the Select menu there are more classical option to grow, shrink, feather, border, etc...)
+You can scale selection. To do this, choose :menuselection:`Select --> Scale`.
 
-If you enable Show Global Selection Mask (Select menu) you can scale/rotate/transform/move or paint on selection like on regular greyscale layer.
+.. note::
+
+     Also, in the :guilabel:`Select` menu there are more classical options to grow, shrink, feather, border, etc.
+
+If you enable :guilabel:`Show Global Selection Mask` (:guilabel:`Select` menu) you can scale/rotate/transform/move or paint on selection like on regular greyscale layer.
 
 * :kbd:`Ctrl + H`: Show / Hide selection (same shortcut)
 * :kbd:`Ctrl + A`: Select All
@@ -106,7 +112,7 @@ Note for Gimp user: Krita auto-expands and auto defloats new layers created from
 
 .. note::
 
-    This doesn't work as intended right now. Intersect is a selection mode which uses 'T' as the shortcut. However 'T' is also used to switch to the 'Move tool' so this shortcut is not functional right now. You have to use the button on the Tool Options.
+    This doesn't work as intended right now. Intersect is a selection mode which uses :kbd:`T` as the shortcut. However :kbd:`T` is also used to switch to the :guilabel:`Move tool` so this shortcut is not functional right now. You have to use the button on the :guilabel:`Tool Options`.
 
 Layer Handling
 ~~~~~~~~~~~~~~
@@ -115,7 +121,7 @@ The most common shortcuts are very similar in PS and Krita:
 
 * :kbd:`Ctrl + J`: duplicate
 * :kbd:`Ctrl + E`: merge down
-* :kbd:`Ctrl + Shift + E`: flattens all (not Ctrl+Shift+M as in PS) 
+* :kbd:`Ctrl + Shift + E`: flattens all (not :kbd:`Ctrl + Shift + M` as in PS) 
 * :kbd:`Ins`: insert a new paint layer
 * :kbd:`Ctrl + G`: create new layer group and move selected layers to this group
 
@@ -133,7 +139,7 @@ You can select multiple layers on the stack by holding down Shift as in PS, and 
 Clipping Masks
 ^^^^^^^^^^^^^^
 
-Krita has no clipping mask, but there is a workaround involving layer groups and ‘inherit alpha’ (see the alpha icon). Place a layer with the shape you want to clip the other with at the bottom of a group and layers above with the ‘inherit alpha’ option. This will create the same effect as the “clipping mask” PS feature.
+Krita has no clipping mask, but there is a workaround involving layer groups and :guilabel:`Inherit alpha` (see the alpha icon). Place a layer with the shape you want to clip the other with at the bottom of a group and layers above with the :guilabel:`Inherit alpha` option. This will create the same effect as the “clipping mask” PS feature.
 
 This process of arranging groups for inherit alpha can be done automatically by :kbd:`Ctrl + Shift + G` shortcut. It creates a group with base layer and a layer above it with inherit alpha option checked by default.
 
@@ -164,7 +170,7 @@ You can apply Photoshop layerstyles in Krita by right clicking any given layer t
 Other
 ^^^^^
 
-Layers and groups can be exported. See the ‘Layer’ top menu for this and many other options. 
+Layers and groups can be exported. See the :guilabel:`Layer` top menu for this and many other options. 
 
 .. note:: Krita has at least 5 times more blending modes than PS. They are sorted by categories in the drop down menu. You can use the checkbox to add your most used to the Favorite categories.
 
@@ -176,7 +182,7 @@ This is Krita's strong point. There are many paint tools and they have a lot of 
 Tools
 ^^^^^
 
-In Krita, there is a totally different paradigm for defining what ‘tools’ are compared to PS. Unlike in PS, you will not find the brush, eraser, clone, blur tool, etc. Instead, you will find a *way to trace* your strokes on the canvas: freehand, line, rectangle, circle, multiple brush, etc. When you have selected the ‘way to trace’ you can choose the *way to paint*: erasing / cloning / blurring, etc are all part of  *way it paint* managed by the brush-engines options. These brush engine options are saved into so-called *presets*, which you can find on ‘Brush presets’.  You can fine tune, and build your own presets using the ‘Edit Brush Settings’ icon on the top tool bar. 
+In Krita, there is a totally different paradigm for defining what ‘tools’ are compared to PS. Unlike in PS, you will not find the brush, eraser, clone, blur tool, etc. Instead, you will find a *way to trace* your strokes on the canvas: freehand, line, rectangle, circle, multiple brush, etc. When you have selected the ‘way to trace’ you can choose the *way to paint*: erasing / cloning / blurring, etc are all part of  *way it paint* managed by the brush-engines options. These brush engine options are saved into so-called *presets*, which you can find on :guilabel:`Brush presets`.  You can fine tune, and build your own presets using the :guilabel:`Edit Brush Settings` icon on the top tool bar. 
 
 Erasing
 ^^^^^^^
@@ -187,12 +193,12 @@ Useful shortcuts
 ^^^^^^^^^^^^^^^^
 
 * :kbd:`Shift`:  Grow or Shrink the brush size (or :kbd:`[` and :kbd:`]`).
-* <kbd>/</kbd>: Switch last preset selected and current (ex: a pencil preset, and an eraser preset).
+* :kbd:`/`: Switch last preset selected and current (ex: a pencil preset, and an eraser preset).
 * :kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active color
 * :kbd:`I` and :kbd:`O`: increment opacity plus or minus.
 * :kbd:`D`: Reset color to black/foreground and white/background
 * :kbd:`X`: Switch background and foreground colors
-* :kbd:`Shift`+ :kbd:`I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default keyboard shortcuts for accessing the on-canvas color selector.
+* :kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default keyboard shortcuts for accessing the on-canvas color selector.
 
 .. note::
 
@@ -283,7 +289,7 @@ This feature allows you to avoid overwriting your files, and keep track to your 
 Color to alpha Filter
 ~~~~~~~~~~~~~~~~~~~~~
 
-If you want to delete the white of the paper from a scanned artwork , you can use this filter. It takes a color and turns it into pure transparency. 
+If you want to delete the white of the paper from a scanned artwork, you can use this filter. It takes a color and turns it into pure transparency. 
 
 .. image:: /images/en/Krita-color-to-alpha.png
    :align: center
@@ -297,7 +303,7 @@ A special system of favorite blending modes has been created to let you have fas
 Painting Assistants
 ~~~~~~~~~~~~~~~~~~~
 
-Krita has many painting assistants. This is a special type vector shapes with a magnetic influence on your brush strokes. You can use them as rulers, but with other shapes than just straight
+Krita has many painting assistants. This is a special type vector shapes with a magnetic influence on your brush strokes. You can use them as rulers, but with other shapes than just straight.
 
 .. figure:: /images/en/Krita_basic_assistants.png
    :align: center
@@ -316,14 +322,14 @@ Krita's Multibrush tool allows you to paint with multiple brushes at the same ti
 A Wide Variety of Color Selectors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The 'advanced color selector' docker offer you a wide choice of color selectors. 
+The :guilabel:`Advanced Color Selector` docker offer you a wide choice of color selectors. 
 
 .. image:: /images/en/Krita_Color_Selector_Types.png
    :align: center
 
 View dependent color filters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Using the lut docker, Krita allows you to have a separate color correction filter per view. While this is certainly useful to people who do color correction in daily life, to the artist this allows for seeing a copy of the image in luminance grayscale, so that they instantly know the values of the image.
+Using the LUT docker, Krita allows you to have a separate color correction filter per view. While this is certainly useful to people who do color correction in daily life, to the artist this allows for seeing a copy of the image in luminance grayscale, so that they instantly know the values of the image.
 
 .. figure:: /images/en/Krita-view-dependant-lut-management.png
    :align: center
