@@ -233,7 +233,7 @@ In this case, what I refer to as "Blending" here is simply using one of the foll
 
 * And/or Scatter:
     * For most mid-sized brushes you will probably want to lower the scatter rate to 0.50 or lower. Higher settings are okay for tiny brushes.
-    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see `option_brush_tip`_)
+    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see :ref:`option_brush_tip`)
  
 * Optional: Pile on size and other dynamics and vary brush tips In fact, the Color Smudge brush is not a blur brush, so smudging is not a very good method of "smooth" blending. To blend smoothly, you'll have better luck with:
 * Building up the transition by painting with intermediate values, described later
