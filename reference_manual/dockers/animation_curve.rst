@@ -27,7 +27,7 @@ Opacity should create a bright red curve line in the docker. On the left, in the
 
 .. image:: /images/en/Animation_curves_2.png
 
-If you select a dot of the curve, you can move it around to shift it's place in the time-line or it's value.
+If you select a dot of the curve, you can move it around to shift its place in the time-line or its value.
 
 On the top, you can select the method of smoothing:
 

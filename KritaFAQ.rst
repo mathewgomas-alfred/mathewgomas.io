@@ -184,11 +184,11 @@ Windows: Krita cannot save
 
 If the message is "File not found. Check the file name and try again.", you probably have Controlled Folder Access enabled.
 
--  Select Start  > Settings .
--   Choose Update & security  > Windows Defender.
--   Select Open Windows Defender Security Center.
--   Select Virus & threat protection, and then choose Virus & threat protection settings.
--   Under Controlled folder access, turn it on or off.
+-   Select :menuselection:`Start --> Settings`.
+-   Choose :menuselection:`Update & security --> Windows Defender`.
+-   Select :guilabel:`Open Windows Defender Security Center`.
+-   Select :guilabel:`Virus & threat protection`, and then choose :guilabel:`Virus & threat protection settings`.
+-   Under :guilabel:`Controlled folder access`, turn it on or off.
 
 You can also whitelist Krita, following `these instructions <https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-controlled-folders-exploit-guard#allow-specific-apps-to-make-changes-to-controlled-folders>`_.
 

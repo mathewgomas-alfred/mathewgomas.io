@@ -27,7 +27,7 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
 
     :ref:`rectangle_selection_tool` , |toolselectrect|, Select the shape of a square.
     :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.                                                                                                                                                  
-    :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use Shift + Z to undo last point.
+    :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use :kbd:`Shift + Z` to undo last point.
     :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
     :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool                                                                                                                                                   
     :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color, Adjust the fuzziness to allow more changes in the field of color, by default limited to the current layer."
@@ -113,8 +113,7 @@ also use the path editing tool to change the anchor points in the
 selection
 
 If you started with a pixel selection, you can still convert it to a
-vector selection to get these benefits. Go to Select > Convert to Vector
-Selection.
+vector selection to get these benefits. Go to :menuselection:`Select --> Convert to Vector Selection`.
 
 .. note::
     If you have multiple levels of transparency when you convert a selection to vector, you will lose the gray values.

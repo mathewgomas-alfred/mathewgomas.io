@@ -49,7 +49,7 @@ Krita provides a number of color-themed interfaces or "looks".  The current set 
 * Bright
 * Neutral
 
-There is no easy way to create and share themes. The color themes are defined in the Share > Color Schemes folder where Krita is downloaded.
+There is no easy way to create and share themes. The color themes are defined in the :menuselection:`Share --> Color Schemes` folder where Krita is downloaded.
 
 Configure Shortcuts
 -------------------

@@ -132,7 +132,7 @@ icon showing up in the timeline docker.
 .. image:: /images/en/Introduction_to_animation_08.png
 
 Use the to copy frame to copy the
-first frame onto the second. Then, use the with shift+↑ to move the
+first frame onto the second. Then, use the with :kbd:`Shift + ↑` to move the
 frame contents up.
 
 We can see the difference by turning on the onionskinning:

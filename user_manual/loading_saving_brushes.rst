@@ -458,7 +458,7 @@ Importing a single KPP file.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now, if you want to use the single preset, you should go to the preset
-chooser on f6 and press the folder icon there. This will give a file
+chooser on :kbd:`F6` and press the folder icon there. This will give a file
 dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same

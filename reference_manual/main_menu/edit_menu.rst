@@ -21,7 +21,7 @@ Edit
         Undoes the last action. :kbd:`Ctrl + Z` 
 
     Redo
-        Redoes the last undone action. :kbd:`Ctrl + shift+ Z` 
+        Redoes the last undone action. :kbd:`Ctrl + Shift+ Z` 
 
     Cut
         Cuts the selection or layer. :kbd:`Ctrl + X` 

@@ -110,7 +110,7 @@ Image color space vs layer color space vs conversion.
 Because there's a difference between image color space and layer color
 space, you can change only the image color space in :menuselection:`Image --> Properties` which will leave the layers alone. But if you want to change the color
 space of the file including all the layers you can do it by going to
-Image > Convert Image Color Space this will convert all the layers Color space as well.
+:menuselection:`Image --> Convert Image Color Space` this will convert all the layers Color space as well.
 
 Author and Description
 ----------------------

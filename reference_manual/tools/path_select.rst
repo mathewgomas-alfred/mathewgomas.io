@@ -33,11 +33,11 @@ Hotkeys and Sticky keys
 
 .. warning::
 
-    Selection modifiers don't quite work yet with the path tool, as shift breaks the path
+    Selection modifiers don't quite work yet with the path tool, as :kbd:`Shift` breaks the path
 
 .. note::
 
-    You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the :ref:`general_settings`
+    You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`
 
 Tool Options
 ------------
