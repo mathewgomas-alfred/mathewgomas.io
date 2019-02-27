@@ -92,7 +92,7 @@ Within both we can identify the following color spaces:
 Device spaces
     Device spaces are those describing your monitor, and have to be made using a little device that is called "colorimeter". This device, in combination with the right software, measures the strongest red, green and blue your screen can produce, as well as the white, black and grey it produces. Using these and several other measurements it creates an icc profile unique to your screen. You set these in Krita's colour management tab.
     By default we assume sRGB for screens, but it's very likely that your screen isn't exactly fitting sRGB, especially if you have a high quality screen, where it may be a bigger space instead. Device spaces are also why you should first consult with your printer what profile they expect. Many printing houses have their own device profiles for their printers, or may prefer doing color conversion themselves.
-    You can read more about colorimeter usage :ref:`here <profiling_and_callibration>`.
+    You can read more about colorimeter usage :ref:`here <profiling_and_calibration>`.
 Working spaces
     These are delivered alongside Krita for ICC, and downloadable from the OCIO website for OCIO. Working spaces are particularly nice to do color calculations in, which programs like Krita do often. It's therefore recommended to have a working space profile for your image.
 Aesthetic or Look spaces
