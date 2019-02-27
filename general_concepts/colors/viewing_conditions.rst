@@ -18,7 +18,7 @@ We mentioned viewing conditions before, but what does this have to do with 'whit
 
 A lot actually, rather, white points describe a type of viewing condition.
 
-So, usually what we mean by viewing conditions is the lighting and decoration of the room that you are viewing the image in. Our eyes try to make sense of both the colors that you are looking at actively(the colors of the image) and the colors you aren't looking at actively(the colors of the room), which means that both sets of colors affect how the image looks.
+So, usually what we mean by viewing conditions is the lighting and decoration of the room that you are viewing the image in. Our eyes try to make sense of both the colors that you are looking at actively (the colors of the image) and the colors you aren't looking at actively (the colors of the room), which means that both sets of colors affect how the image looks.
 
 .. figure:: /images/en/color_category/Meisje_met_de_parel_viewing.png
    :figwidth: 800
@@ -67,7 +67,7 @@ What's worse, Printers print on the basis of using a white point of D50, the col
    :align: center
 
 
-So, by eye-balling your t-shirt's color during the evening, you took it's red color as transformed by the yellowish light. Had you made your observation in diffuse sunlight of an overcast(which is also roughly D65), or made it in direct sunlight light and painted your picture with a profile set to D50, the color would have been much closer, and thus your design would not be as yellowish.
+So, by eye-balling your t-shirt's color during the evening, you took it's red color as transformed by the yellowish light. Had you made your observation in diffuse sunlight of an overcast (which is also roughly D65), or made it in direct sunlight light and painted your picture with a profile set to D50, the color would have been much closer, and thus your design would not be as yellowish.
 
 
 .. figure:: /images/en/color_category/White_point_mixup_ex1_03.png
@@ -80,7 +80,7 @@ Now, you could technically quickly fix this by using a white balancing filter, l
 
 Another example where metamerism messes things up is with screen projections.
 
-We have a presentation where we mark one type of item with red, another with yellow and yet another with purple. On a computer the difference between the colors are very obvious.
+We have a presentation where we mark one type of item with red, another with yellow and yet another with purple. On a computer the differences between the colors are very obvious.
 
 .. figure:: /images/en/color_category/Krita_metamerism_presentation.svg 
    :figwidth: 800

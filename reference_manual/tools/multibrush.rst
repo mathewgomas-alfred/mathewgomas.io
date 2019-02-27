@@ -17,7 +17,7 @@ Multibrush Tool
 
 |toolmultibrush|
 
-The Multibrush tool allows you to draw using multiple instances of a freehand brush stroke at once, it can be accessed from the Toolbox docker or with the default shortcut :kbd:`q`. Using the Multibrush is similar to toggling the :ref:`mirror_tools`, but the Multibrush is more sophisticated, for example it can mirror freehand brush strokes along a rotated axis.
+The Multibrush tool allows you to draw using multiple instances of a freehand brush stroke at once, it can be accessed from the Toolbox docker or with the default shortcut :kbd:`Q`. Using the Multibrush is similar to toggling the :ref:`mirror_tools`, but the Multibrush is more sophisticated, for example it can mirror freehand brush strokes along a rotated axis.
 
 The settings for the tool will be found in the tool options dock.
 

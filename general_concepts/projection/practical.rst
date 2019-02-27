@@ -56,7 +56,7 @@ Conclusion and afterthoughts:
 
 I probably didn’t make as nice result images as I could have, especially if you compare it to the 3d images. However, you can still see that the main landmarks are there. The real use of this technique lies in poses though, and it allows you to iterate on a pose quite quickly once you get the hang of it.
 
-Generally, It’s worth exploring, if only because it improves you spatial sense.
+Generally, It’s worth exploring, if only because it improves your spatial sense.
 
 .. seealso::
 

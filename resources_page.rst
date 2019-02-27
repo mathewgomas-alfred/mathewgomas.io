@@ -116,7 +116,7 @@ On-screen Canvas Shortcuts
     
     https://github.com/qeshi/henriks-onscreen-krita-shortcut-buttons/tree/master/henriks_krita_buttons
 
-Spine FIle Format Export
+Spine File Format Export
     
     https://github.com/chartinger/krita-unofficial-spine-export
 

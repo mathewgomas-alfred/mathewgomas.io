@@ -78,7 +78,7 @@ Finally, we have the hatching styles:
 * No crosshatching: basic parallel lines
 * Perpendicular plane only: grid lines
 * -45 degrees plane then +45 degrees plane: see example.
-* +45 degrees plane then -45 degrees plane: see exampe, actually not much different from the above, it's mostly the order that changes when using dynamics.
+* +45 degrees plane then -45 degrees plane: see example, actually not much different from the above, it's mostly the order that changes when using dynamics.
 * Moiré pattern: See example.
 
 The Crosshatching dynamic only works if you have already chosen a crosshatching style. When that happens, the crosshatching only gets drawn according to the conditions of the dynamics (pressure, speed, angle...).

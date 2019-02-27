@@ -497,7 +497,7 @@ This is specifically about support on Windows, not Linux or OSX.
      - ❓ Reported to work on windows 7
    * - Ugee 
      - G5
-     - ❓ Working with Windows with official drivers installed.No drivers are currently available under Linux.
+     - ❓ Working with Windows with official drivers installed. No drivers are currently available under Linux.
    * - Ugee 
      - M504
      - ❓ Unknown

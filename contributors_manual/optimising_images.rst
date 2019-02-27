@@ -28,18 +28,18 @@ So, instead, we'll make a screenshot. Depending on your operating system, there'
 Windows
 ~~~~~~~
 
-Windows has a build-in screenshot tool. It is by default on the PrtSc key. On laptops you will sometimes need to use the fn key.
+Windows has a build-in screenshot tool. It is by default on the :kbd:`PrtSc` key. On laptops you will sometimes need to use the :kbd:`Fn` key.
 
 Linux
 ~~~~~
-Both Gnome and KDE have decent screenshot tools showing up by default when using the PrtSc key, as well do other popular desktop enviroments. If, for whatever reason, you have no
+Both Gnome and KDE have decent screenshot tools showing up by default when using the :kbd:`PrtSc` key, as well do other popular desktop environments. If, for whatever reason, you have no
 
 ImageMagick
     With imagemagick, you can use the following command::
 
         import -depth 8 -dither <filename.png>
 
-While we should minimize the amount of gifs in the manual for a variety of accesibility reasons, you sometimes still need to make gifs and short videos. Furthermore, gifs are quite nice to show off features with release notes.
+While we should minimize the amount of gifs in the manual for a variety of accessibility reasons, you sometimes still need to make gifs and short videos. Furthermore, gifs are quite nice to show off features with release notes.
 
 For making short gifs, you can use the following programs:
 
@@ -48,7 +48,7 @@ For making short gifs, you can use the following programs:
 OS X
 ~~~~
 
-The Screenshot hotkey on OS X is Shift+Command+3, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
+The Screenshot hotkey on OS X is :kbd:`Shift + Command + 3`, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
 
 The appropriate file format for the job.
 ----------------------------------------
@@ -66,7 +66,7 @@ Images with a lot of gradients
 Images with a lot of transparency.
     These should use PNG.
 
-The logic is the way how each of these saves colors. Jpeg is ideal for photos and images with a lot of gradients because it :ref:`compresses differently <lossy_compression>`. However, contrasts don't do wel in jpeg. PNG does a lot better with images with sharp contrasts, while in some cases we can even have less than 256 colors, so gif might be better.
+The logic is the way how each of these saves colors. Jpeg is ideal for photos and images with a lot of gradients because it :ref:`compresses differently <lossy_compression>`. However, contrasts don't do well in jpeg. PNG does a lot better with images with sharp contrasts, while in some cases we can even have less than 256 colors, so gif might be better.
 
 Greyscale images, even when they have a lot of gradients variation, should be PNG. The reason is that when we use full color images, we are, depending on the image, using 3 to 5 numbers to describe those values, with each of those values having a possibility to contain any of 256 values. JPEG and other 'lossy' file formats use clever psychological tricks to cut back on the amount of values an image needs to show its contents. However, when we make grayscale images, we only keep track of the lightness. The lightness is only one number, that can have 256 values, making it much easier to just use gif or PNG, instead of jpeg which could have nasty artifacts. (And, it is also a bit smaller)
 
@@ -82,14 +82,14 @@ Windows
 
 The most commonly recommended tool for this on Windows is `IrfranView <https://www.irfanview.com/>`_, but the dear writer of this document has no idea how to use it exactly.
 
-The other options is to use PNGCrush as mentioned in the linux section.
+The other option is to use PNGCrush as mentioned in the linux section.
 
 Linux
 ~~~~~
 
 Optimising PNGS
 ^^^^^^^^^^^^^^^
-There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png-tools-overview>`_ available on Linux. They come in two categories: Lossy(Using psychological tricks), and Lossless(trying to compress the data more conventionally). The following are however the most recommended:
+There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png-tools-overview>`_ available on Linux. They come in two categories: Lossy (Using psychological tricks), and Lossless (trying to compress the data more conventionally). The following are however the most recommended:
 
 `PNGQuant <https://pngquant.org/>`_
     A PNG compressor using lossy techniques to reduce the amount of colors used in a smart way.
@@ -108,7 +108,7 @@ There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png
     This will try the most common methods. Add ``-brute`` to try out all methods.
 
 `Optipng <http://optipng.sourceforge.net/>`_
-    Another lossless PNG compressor which can be run after using PNGQuant, it is apparantly originally a fork of png crush.
+    Another lossless PNG compressor which can be run after using PNGQuant, it is apparently originally a fork of png crush.
     Usage::
 
         optipng image.png
@@ -257,7 +257,7 @@ Another way of doing the marking is::
     exiftool -Marked=true -License="http://creativecommons.org/licenses/by-sa/4.0" -attributionURL="docs.krita.org" attributionName="kritaManual" image.png
 
 With imagemagick you can use the profile option again.
-    First extract the data(if there is any)::
+    First extract the data (if there is any)::
 
         convert image.png image_meta.xmp
 

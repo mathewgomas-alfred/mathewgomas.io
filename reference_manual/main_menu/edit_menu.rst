@@ -29,11 +29,11 @@ Edit
     Copy
         Copies the selection or layer. :kbd:`Ctrl + C` 
 
-    Cut(Sharp)
+    Cut (Sharp)
         This prevents semi-transparent areas from appearing on your cut pixels, making them either fully opaque or fully transparent.
 
-    Copy(Sharp)
-        Same as :term:`Cut(Sharp)` but then copying instead.
+    Copy (Sharp)
+        Same as :term:`Cut (Sharp)` but then copying instead.
 
     Copy Merged
         Copies the selection over all layers. :kbd:`Ctrl + Shift + C` 

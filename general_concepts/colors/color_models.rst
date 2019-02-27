@@ -33,7 +33,7 @@ Images that are meant for viewing on a screen:
 * Or for Video games, both sprites and textures are best in RGB there.
 * Or for 3d rendering, visual effects and cg animation.
 
-And for the working space. A working space is a RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colours while also being able to view them correctly on multiple screens.
+And for the working space. A working space is an RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colours while also being able to view them correctly on multiple screens.
 
 Blending modes in RGB
 ~~~~~~~~~~~~~~~~~~~~~
@@ -61,14 +61,14 @@ These are not included as their own color spaces in Krita. However, they do show
 Hue
     The tint of a color, or, whether it's red, yellow, green, etc. Krita's Hue is measured in 360 degrees, with 0 being red, 120 being green and 240 being blue.
 Saturation
-    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to grey, and sometimes this value is called **Chroma**. Saturation ranges from 0(grey) to 100(pure color).
+    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to grey, and sometimes this value is called **Chroma**. Saturation ranges from 0 (grey) to 100 (pure color).
 Value
     Sometimes known as Brightness. Measurement of how much the pixel needs to light up. Also measured from 0 to 100.
 Lightness
     Where a color aligns between white and black. This value is non-linear, and puts all the most saturated possible colors at 50. Ranges from 0 to 100.
 Intensity
     Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter than blue (0,0,1). Ranges from 0 to 100.
-Luma(Y')
+Luma (Y')
     Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine it's lightness. Ranges from 0 to 100. Luma is well known for being used in film-colour spaces.
 
 .. _model_gray:
@@ -127,7 +127,7 @@ There's also a difference between 'colored gray' and 'neutral gray' depending on
 
    In Krita, there's also the fact that the default color is a perfect black in RGB, which then gets converted to our default CMYK in a funny manner, giving a yellow look to the strokes. Again, another good reason to work in RGB and let the conversion be done by the printing house.
 
-While CMYK has a smaller 'gamut' than RGB, however, it's still recommended to use a RGB working space profile to do your editing in. Afterwards, you can convert it to your printer's CMYK profile using either perceptual or relative colorimetric intend.
+While CMYK has a smaller 'gamut' than RGB, however, it's still recommended to use an RGB working space profile to do your editing in. Afterwards, you can convert it to your printer's CMYK profile using either perceptual or relative colorimetric intent.
 Or you can just give the workspace rgb image to your printer and let them handle the work.
 
 .. _model_ycrcb:
@@ -146,7 +146,7 @@ Cr
 Cb
     Blue Chroma. This value measures how blue a color is versus how yellow it is.
 
-This color space is often used in photography and in (correct) implementations of JPEG. As humans you're much more sensitive to the lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, and leave the Y channel in full quality.
+This color space is often used in photography and in (correct) implementations of JPEG. As a human you're much more sensitive to the lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, and leave the Y channel in full quality.
 
 .. warning:: 
     
@@ -157,7 +157,7 @@ This color space is often used in photography and in (correct) implementations o
 XYZ
 ~~~
 
-Back in 1931, the CIE(Institute of Color and Light), was studying human color perception.
+Back in 1931, the CIE (Institute of Color and Light), was studying human color perception.
 In doing so, they made the first color spaces, with XYZ being the one best at approximating human vision.
 
 It's almost impossible to really explain what XYZ is.

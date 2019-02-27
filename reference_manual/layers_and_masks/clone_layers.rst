@@ -24,7 +24,7 @@ A clone layer is a layer that keeps an up-to-date copy of another layer. You can
 Example uses of Clone Layers.
 -----------------------------
 
-For example, if you were painting a picture of some magic person and wanted to create a glow around them that was updated as you updated your charachter, you could:
+For example, if you were painting a picture of some magic person and wanted to create a glow around them that was updated as you updated your character, you could:
 
 #. Have a Paint Layer where you draw your character
 #. Use the Clone Layer feature to create a clone of the layer that you drew your character on

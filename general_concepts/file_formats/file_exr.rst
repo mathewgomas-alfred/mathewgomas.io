@@ -18,5 +18,5 @@
 
 Floating point bit-depths are used by the computer graphics industry to record scene referred values, which can be made via a camera or a computer renderer. Scene referred values means that the file can have values whiter than white, which in turn means that such a file can record lighting conditions, such as sunsets very accurately. These exr files can then be used inside a renderer to create realistic lighting.
 
-Krita can load and save exr for the purpose of paint-over(yes, Krita can paint with scene referred values) and interchange with applications like Blender, Mari, Nuke and Natron.
+Krita can load and save exr for the purpose of paint-over (yes, Krita can paint with scene referred values) and interchange with applications like Blender, Mari, Nuke and Natron.
 

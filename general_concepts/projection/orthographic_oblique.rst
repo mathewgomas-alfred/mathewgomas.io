@@ -62,7 +62,7 @@ First, let's prepare our front and side views:
 I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`snap to image borders`
  active via :kbd:`Shift` + :kbd:`S`
 
-Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes(which in the above screenshot are too low).
+Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
 
 Eventually, you should have something like this: 
 
@@ -106,14 +106,14 @@ So, after some cleanup, we should have the following:
 
 Okay, now we're gonna use animation for the next bit.
 
-Set it up as following:
+Set it up as follows:
 
 .. image:: /images/en/category_projection/projection_image_09.png 
    :align: center
 
 * Both frontview and sideview are set up as 'visible in timeline' so we can always see them.
-* Frontview has it's visible frame on frame 0 and an empty-frame on frame 23.
-* Side view has it's visible frame on frame 23 and an empty view on frame 0.
+* Frontview has its visible frame on frame 0 and an empty-frame on frame 23.
+* Side view has its visible frame on frame 23 and an empty view on frame 0.
 * The end of the animation is set to 23.
 
 .. image:: /images/en/category_projection/projection_image_10.png 
@@ -121,7 +121,7 @@ Set it up as following:
 
 Krita can't animate a transformation on multiple layers on multiple frames yet, so let's just only transform the top layer. Add a semi-transparent layer where we draw the guide-lines.
 
-Now, select frame 11(halfway), add new frames from frontview, sideview and the guide-lines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top-view and use the transform tool to rotate it 45°.
+Now, select frame 11 (halfway), add new frames from frontview, sideview and the guide-lines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top-view and use the transform tool to rotate it 45°.
 
 .. image:: /images/en/category_projection/projection_image_11.png 
    :align: center

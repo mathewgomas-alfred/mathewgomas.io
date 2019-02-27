@@ -20,7 +20,7 @@ How to make a Krita Python plugin
 
 You might have some neat scripts you have written in the Scripter Python runner, but maybe you want to do more with it and run it automatically for instance. Wrapping your script in a plugin can give you much more flexibility and power than running scripts from the Scripter editor.
 
-Okay, so even if you know python really well, there's some little details to getting Krita to recognize a python plugin. So this page will give an overview how to create the various types of python script unique to Krita.
+Okay, so even if you know python really well, there are some little details to getting Krita to recognize a python plugin. So this page will give an overview how to create the various types of python script unique to Krita.
 
 These mini-tutorials are written for people with a basic understanding of python, and in such a way to encourage experimentation instead of plainly copy and pasting code, so read the text carefully.
 
@@ -51,9 +51,9 @@ ServiceTypes
 X-KDE-Library
  This should be the name of the plugin folder you just created.
 X-Python-2-Compatible
- Whether it is python 2 compatible. If Krita was build with python 2 instead of 3 (``-DENABLE_PYTHON_2=ON`` in the cmake configuration), then this plugin will not show up in the list.
+ Whether it is python 2 compatible. If Krita was built with python 2 instead of 3 (``-DENABLE_PYTHON_2=ON`` in the cmake configuration), then this plugin will not show up in the list.
 X-Krita-Manual
- An Optional Value that will point to the manual item. This is shown in the Python Plugin manager. If it's `a HTML file it'll be shown as rich text <https://doc.qt.io/qt-5/richtext-html-subset.html>`_, if not, it'll be shown as plain text.
+ An Optional Value that will point to the manual item. This is shown in the Python Plugin manager. If it's `an HTML file it'll be shown as rich text <https://doc.qt.io/qt-5/richtext-html-subset.html>`_, if not, it'll be shown as plain text.
 Name
  The name that will show up in the Python Plugin Manager
 Comment
@@ -134,7 +134,7 @@ So...
 
 
 "myAction"
- This should be replaced with an unique id that Krita will use to find the action.
+ This should be replaced with a unique id that Krita will use to find the action.
 "My Script"
  This is what will be visible in the tools menu.
 
@@ -263,7 +263,7 @@ For the addDockWidgetFactory...
 DockWidgetFactoryBase.DockRight
  The location. These can be DockTornOff, DockTop, DockBottom, DockRight, DockLeft, or DockMinimized
 MyDocker
- Replace this with class name of the docker your wanna add.
+ Replace this with the class name of the docker your wanna add.
 
 So, if we add our export document function we created in the extension section to this docker code, how do we allow the user to activate it? First, we'll need to do some QT GUI coding: Let's add a button!
 
@@ -304,10 +304,10 @@ Restart Krita and the button should now be laid out nicely.
 PyQT Signals and Slots
 ----------------------
 
-We've already been using pyqt signals and slots already, but there's times where you want to create your own signals and slots.
+We've already been using pyqt signals and slots already, but there are times where you want to create your own signals and slots.
 `As pyQt's documentation is pretty difficult to understand <http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ qt, we're explaining it here:
 
-All python functions you make in pyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sents a boolean. How do we get our function to accept that boolean?
+All python functions you make in pyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sends a boolean. How do we get our function to accept that boolean?
 
 First, make sure you have the right import for making custom slots:
 

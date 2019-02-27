@@ -43,8 +43,8 @@ Your shoulders and elbows on the other hand are actually quite good at handling 
 
 To control pressure in this state effectively, you should press your pinky against the tablet surface as you make your stroke. This will allow you to precisely judge how far the pen is removed from the tablet surface while leaving the position up to your shoulders. The pressure should then be put by your elbow.
 
-So, there’s not any secret rules to inking, but if there is one, it would be the following: *The longer your stroke, the more of your arms you need to use to make the stroke*
-.
+So, there’s not any secret rules to inking, but if there is one, it would be the following: *The longer your stroke, the more of your arms you need to use to make the stroke*.
+
 Stroke smoothing
 ----------------
 
@@ -53,7 +53,7 @@ So, if the above is the secret to drawing long strokes, that would be why people
 .. figure:: /images/en/inking/Stroke_rigger.gif
     :alt: rigger brush demonstration
 
-    Example of how a rigger brush can smooth the original movement(here in red)
+    Example of how a rigger brush can smooth the original movement (here in red)
 
 Not really. To both, actually. Inkers have had a real-life tool that made it easier to ink, it’s called a rigger-brush, which is a brush with a very long hairs. Due this length it sorta smooths out shakiness, and thus a favoured brush when inking at three in the morning.
 
@@ -61,7 +61,7 @@ With some tablet brands, the position events being sent aren’t very precise, w
 
 On the other hand, doing too much smoothing during the whole drawing can make your strokes very mechanical in the worst way. Having no jitter or tiny bumps removes a certain humanity from your drawings, and it can make it impossible to represent fabric properly.
 
-Therefore, it’s wise to train your inking hand, yet not to be too hard on yourself and refuse to use smoothing at all, as we all get tired, cold or have a bad day once in a while. Stablizer set to 50 or so should provide a little comfort while keeping the little irregularities.
+Therefore, it’s wise to train your inking hand, yet not to be too hard on yourself and refuse to use smoothing at all, as we all get tired, cold or have a bad day once in a while. Stabilizer set to 50 or so should provide a little comfort while keeping the little irregularities.
 
 Bezier curves and other tools
 -----------------------------
@@ -81,15 +81,15 @@ Then, in the freehand brush tool options, you can tick **Assistants** and start 
 Presets
 -------
 
-So here’s some things to consider with the brush-presets that you use:
+So here are some things to consider with the brush-presets that you use:
 
 Anti-aliasing versus jagged pixels
 """"""""""""""""""""""""""""""""""
 
-A starting inker might be inclined to always want to use anti-aliased brushes, after all, they look so smooth on the screen. However, while these look good on screen, they might become fuzzy when printing them. Therefore, Krita comes with two default types. Anti-aliased brushes like ink_brush_25 and slightly aliased brushes like ink_tilt, with the latter giving better print results. If you are trying to prepare for both, it might be an idea to consider making the inking page 600dpi and the color page 300dpi, so that the inking page has a higher resolution and the ‘jaggies’ aren’t as visible. You can turn any pixel brush into an aliased brush, by going :kbd:`f5` and ticking **Sharpness**.
+A starting inker might be inclined to always want to use anti-aliased brushes, after all, they look so smooth on the screen. However, while these look good on screen, they might become fuzzy when printing them. Therefore, Krita comes with two default types. Anti-aliased brushes like ink_brush_25 and slightly aliased brushes like ink_tilt, with the latter giving better print results. If you are trying to prepare for both, it might be an idea to consider making the inking page 600dpi and the color page 300dpi, so that the inking page has a higher resolution and the ‘jaggies’ aren’t as visible. You can turn any pixel brush into an aliased brush, by going :kbd:`F5` and ticking **Sharpness**.
 
 Texture
-""""""""
+"""""""
 
 Do you make smooth ‘wet’ strokes? Or do you make textured ones? For the longest time, smooth strokes were preferred, as that would be less of a headache when entering the coloring phase. Within Krita there’s several methods to color these easily, the colorize mask being the prime example, so textured becomes a viable option even for the lazy amongst us.
 
@@ -131,7 +131,7 @@ So, you have a sketch and you wish to start inking it. Assuming you’ve scanned
 Opacity down to 10%
 """""""""""""""""""
 
-Put a white(just press backspace) layer underneath the sketch. Turn down the opacity of the sketch to a really low number and put a layer above it for inking.
+Put a white (just press :kbd:`Backspace`) layer underneath the sketch. Turn down the opacity of the sketch to a really low number and put a layer above it for inking.
 
 Make the sketch coloured.
 """""""""""""""""""""""""
@@ -141,7 +141,7 @@ Put a layer filled with a color you like between the inking and sketch layer. Th
 Make the sketch coloured, alternative version
 """""""""""""""""""""""""""""""""""""""""""""
 
-Or, rightclick the layer, go to layer properties, and untick ‘blue’. This works easier with a single layer sketch, while the above works best with multi-layer sketches.
+Or, right-click the layer, go to layer properties, and untick ‘blue’. This works easier with a single layer sketch, while the above works best with multi-layer sketches.
 
 Super-thin lines
 ----------------

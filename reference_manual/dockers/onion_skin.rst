@@ -22,9 +22,9 @@ To make animation easier, it helps to see both the next frame as well as the pre
 
 Basically, they are images that represent the frames before and after the current frame, usually colored or tinted.
 
-You can toggle them by clicking the lightbulb icon on a layer that is animated(so, has frames), and isn’t fully opaque. (Krita will consider white to be white, not transparent, so don’t animated on an opaque layer if you want onion skins.)
+You can toggle them by clicking the lightbulb icon on a layer that is animated (so, has frames), and isn’t fully opaque. (Krita will consider white to be white, not transparent, so don’t animated on an opaque layer if you want onion skins.)
 
-The term onionskin comes from the fact that onions are semi-transparent. In traditional animation animations would make their initial animations on semitransparent paper on top of an light-table(of the special animators variety), and they’d start with so called keyframes, and then draw frames in between. For that, they would place said keyframes below the frame they were working on, and the light table would make the lines of the keyframes shine through, so they could reference them.
+The term onionskin comes from the fact that onions are semi-transparent. In traditional animation animations would make their initial animations on semitransparent paper on top of an light-table (of the special animators variety), and they’d start with so called keyframes, and then draw frames in between. For that, they would place said keyframes below the frame they were working on, and the light table would make the lines of the keyframes shine through, so they could reference them.
 
 Onion-skinning is a digital implementation of such a workflow, and it’s very useful when trying to animate.
 

@@ -81,7 +81,7 @@ Random RGB
 Random Opacity
     The curve lines get random opacity. This one is barely visible, so for the example I used line width 12 and 100% opacity. 
 Distance Opacity
-    ???
+    The distance based opacity. When you move your pen fast when painting, the opacity will be calculated based on the distance from the center of the effect area.
 Simple Mode
     this mode exists for performance reasons, and doesn't affect the output in a visible way. Check this for large brushes or thick lines for faster rendering. 
 Paint Connection Line

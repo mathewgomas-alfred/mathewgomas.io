@@ -30,6 +30,6 @@ Adding a Transformation Mask
 
 .. note::
 
-    Affine transforms, like Move, Rotate, Shear, Scale and Perspective get updated instantly once the original is updated. Other transforms like Warp, Cage and Liquefy take up much more processing power, and to not to waste that, Krita only updates those every three seconds.
+    Affine transforms, like Move, Rotate, Shear, Scale and Perspective get updated instantly once the original is updated. Other transforms like Warp, Cage and Liquify take up much more processing power, and to not to waste that, Krita only updates those every three seconds.
 
 To edit a transform, select the transform mask, and try to use the transform tool on the layer. The transform mode will be the same as the stored transform, regardless of what transform you had selected. If you switch transform modes, the transformation will be undone. 

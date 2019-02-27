@@ -42,7 +42,7 @@ Repeat:
     
     Original:
         This will only show one, unstretched, copy of the pattern.
-    Tiled(Default):
+    Tiled (Default):
         This will let the pattern appear tiled in the x and y direction.
     Stretch:
         This will stretch the Pattern image to the shape.
@@ -69,7 +69,7 @@ Reference Point Offset:
         offset in the Y coordinate, so vertically.
 
 Tile Offset:
-    No clue what this does???
+    The tile offset if the pattern is tiled.
 Pattern Size:
     Fine Tune the resizing of the pattern.
 

@@ -91,7 +91,7 @@ The slider is percentage of the brush-size. You can have it modified with Sensor
 Overlay
 ~~~~~~~
 
-Overlay is a toggle that determine whether or not the smudge brush will sample all layers(overlay on), or only the current one.
+Overlay is a toggle that determine whether or not the smudge brush will sample all layers (overlay on), or only the current one.
 
 Tutorial: Color Smudge Brushes
 ------------------------------
@@ -233,7 +233,7 @@ In this case, what I refer to as "Blending" here is simply using one of the foll
 
 * And/or Scatter:
     * For most mid-sized brushes you will probably want to lower the scatter rate to 0.50 or lower. Higher settings are okay for tiny brushes.
-    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see [[Special:myLanguage/Krita/Tutorial_5|Brush tips]])
+    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see :ref:`option_brush_tip`)
  
 * Optional: Pile on size and other dynamics and vary brush tips In fact, the Color Smudge brush is not a blur brush, so smudging is not a very good method of "smooth" blending. To blend smoothly, you'll have better luck with:
 * Building up the transition by painting with intermediate values, described later
@@ -344,7 +344,7 @@ Blurring
 
 You can:
 
-* Paint then smudge, for mostly textury transitions
+* Paint then smudge, for mostly texture transitions
 * Or build up transitions by using intermediate color values
 
 If you want even smoother effects, well, just use Blur. Gaussian blur to be exact.

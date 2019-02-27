@@ -17,7 +17,7 @@ Gradient Tool
 
 |toolgradient|
 
-The Gradient tool is found in the Tools Panel. Left-Click dragging this tool over the active portion of the canvas will draw out the current gradient.  If there is an active  selection then, similar to the :ref:`fill_tool`, the paint action will be confined to the selection's borders.
+The Gradient tool is found in the Tools Panel. Left-Click dragging this tool over the active portion of the canvas will draw out the current gradient.  If there is an active selection then, similar to the :ref:`fill_tool`, the paint action will be confined to the selection's borders.
 
 Tool Options
 ------------

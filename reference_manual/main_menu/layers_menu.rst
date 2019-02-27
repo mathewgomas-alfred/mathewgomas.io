@@ -17,18 +17,18 @@ Layers
 
 These are the topmenu options are related to Layer Management, check out that page first, if you haven't.
 
-Cut Layer(3.0+)
+Cut Layer (3.0+)
     Cuts the whole layer rather than just the pixels.
-Copy Layer(3.0+)
+Copy Layer (3.0+)
     Copy the whole layer rather than just the pixels.
-Paste Layer(3.0+)
+Paste Layer (3.0+)
     Pastes the whole layer if any of the top two actions have been taken.
 New
     Organizes the following actions:
 
     Paint Layer
         Add a new paint layer
-    New layer from visible(3.0.2+)
+    New layer from visible (3.0.2+)
         Add a new layer with the visible pixels.
     Duplicate Layer or Mask
         Duplicates the layer.
@@ -74,7 +74,7 @@ Convert
         Convert Layer Color Space
             This only converts the color space of the layer, not the image.
 
-Select(3.0+):
+Select (3.0+):
     Organizes the following actions:
 
     All layers
@@ -91,9 +91,9 @@ Select(3.0+):
 Group
     Organizes the following actions:
 
-    Quick Group(3.0+)
+    Quick Group (3.0+)
         Adds all selected layers to a group.
-    Quick Clipping Group(3.0+)
+    Quick Clipping Group (3.0+)
         Adds all selected layers to a group and adds a alpha-inherited layer above it.
     Quick Ungroup
         Ungroups the activated layer.
@@ -136,5 +136,5 @@ Rasterize Layer
     For making vectors into raster layers.
 Flatten Image
     Flatten all layers into one.
-Layerstyle(2.9.5+)
+Layerstyle (2.9.5+)
     Set the PS-style layerstyle

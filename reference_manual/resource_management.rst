@@ -57,7 +57,7 @@ An incredibly quick way to save a group or brushes into a tag is to:
 Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select '''Pencils'''.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
 
 Resource Zooming
-    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or '''zoom in'''. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`ctrl +` |mousescroll|
+    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or '''zoom in'''. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|
 
 Managing Resources
 ------------------
@@ -78,7 +78,7 @@ Select .bundle file format from the file type if it is not already selected, bro
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can create your own bundle from the resources of your choice. Click one the create bundle button, This will open a dialog box as shown below
+You can create your own bundle from the resources of your choice. Click on the create bundle button, This will open a dialog box as shown below
 
 .. image:: /images/en/Creating-bundle.png
 

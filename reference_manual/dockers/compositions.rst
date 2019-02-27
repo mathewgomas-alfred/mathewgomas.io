@@ -16,7 +16,7 @@
 Compositions
 ============
 
-The compositions docker allows you to save the configurations of you layers being visible and invisible, allowing you to save several configurations of your layers.
+The compositions docker allows you to save the configurations of your layers being visible and invisible, allowing you to save several configurations of your layers.
 
 .. image:: /images/en/Composition-docker.png
 
@@ -27,6 +27,8 @@ Activating composition
     Double-click the composition name to switch to that composition.
 Removing compositions
     The minus sign. Select a composition, and hit this button to remove it.
+Exporting compositions
+    The file sign. Will export all checked compositions.
 Updating compositions
     |mouseright| a composition to overwrite it with the current configuration.
 Rename composition

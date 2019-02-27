@@ -82,10 +82,10 @@ Spot color
 
 Krita's native palette format is since 4.0 :ref:`file_kpl`. It also supports importing...
 
-* Gimp Palettes(.gpl)
-* Microsoft RIFF palette(.pal)
-* Photoshop Binary Palettes(.act)
-* PaintShop Pro palettes(.psp)
+* Gimp Palettes (.gpl)
+* Microsoft RIFF palette (.riff)
+* Photoshop Binary Palettes (.act)
+* PaintShop Pro palettes (.psp)
 * Photoshop Swatches (.aco)
 * Scribus XML (.xml)
 * Swatchbooker (.sbz).

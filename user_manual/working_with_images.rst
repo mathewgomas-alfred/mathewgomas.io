@@ -90,7 +90,7 @@ Some standards:
     even 300 PPI for the retina devices. None the less, when making an
     image for computer consumption, this is the default.
 120 PPI
-    This is often used as standard for low-quality posters.
+    This is often used as a standard for low-quality posters.
 300 PPI
     This is the minimum you should use for quality prints.
 600 PPI
@@ -121,7 +121,7 @@ Krita will automatically save who created the image into your image's
 metadata. Along with the other data such as time and date of creation
 and modification, Krita also shows editing time of a document in the
 document information dialog, useful for professional illustrators,
-speed-painters to keep track of the time they worked on an artwork for
+speed-painters to keep track of the time they worked on artwork for
 billing purposes. It detects when you haven’t performed actions for a
 while, and has a precision of +- 60 seconds. You can empty it in the
 document info dialog and of course by unzipping you .kra file and
@@ -147,7 +147,7 @@ transparency isn't depicted with checkered boxes.
 Basic transforms
 ~~~~~~~~~~~~~~~~
 
-There's some basic transforms available in the image menu.
+There are some basic transforms available in the image menu.
 
 Shear Image
     This will allow you to skew the whole image and its layers.
@@ -192,7 +192,7 @@ C`). The dialog box is shown below.
 In this, constraint proportions will make sure the height and width stay
 in proportion to each other as you change them. Offset makes indicates
 where the new canvas space is added around the current image. You
-basically decide where the current image goes(if you press the
+basically decide where the current image goes (if you press the
 left-button, it'll go to the center left, and the new canvas space will
 be added to the right of the image).
 
@@ -272,7 +272,8 @@ Save Incremental Version
     Saves the current image as 'filename'\_XXX.kra and switches the
     current document to it.
 Save Incremental Backup.
-    Exports the current image as 'filename'\_XXX.kra.
+    Copies and renames the last saved version of your file to a back-up file and saves your document under the original name.
+    
 
 .. note::
-    Since Krita's file format is compressed data file, in case of corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On windows, you will need to rename it to filename.zip to open it.
+    Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On windows, you will need to rename it to filename.zip to open it.

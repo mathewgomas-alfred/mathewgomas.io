@@ -41,7 +41,7 @@ Select the existing tag that you want to have changed from the drop-down. Press 
 
 Deleting a Tag
 --------------
-Select the existing tag that you want to have removed from the drop-down. Press the "+" icon next to the tag.You will get an option to remove it.
+Select the existing tag that you want to have removed from the drop-down. Press the "+" icon next to the tag. You will get an option to remove it.
 
 .. note::
     The default brushes that come with Krita cannot have their default tags removed.

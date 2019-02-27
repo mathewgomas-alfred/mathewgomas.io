@@ -10,11 +10,11 @@
              - Troy Sobotka
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Color, Profiling, Callibration
-.. _profiling_and_callibration:
+.. index:: Color, Profiling, Calibration
+.. _profiling_and_calibration:
 
 ===========================
-Profiling and Callibration:
+Profiling and Calibration:
 ===========================
 
 So to make it simple, a color profile is just a file defining a set of colors inside a pure XYZ color cube.
@@ -37,7 +37,7 @@ Most common CMYK workspace profile can usually fit all their colors within 8bit/
 
 Starting with 16bit/channel, we already have 65536 values instead of 256, so we can use workspace profiles with higher gamut range like Wide-gamut RGB or Pro-photo RGB, or even unlimited gamut like scRGB.
 
-But sRGB being a generic profile (even more as it comes from old CRT specifications..) , there is big chances that your monitor have actually a different color response curve, and so color profile.
+But sRGB being a generic profile (even more as it comes from old CRT specifications..) , there are big chances that your monitor have actually a different color response curve, and so color profile.
 So when you are using sRGB workspace and have a proper screen profile loaded (see next point), Krita knows that the colors the file contains are within the sRGB color space, and converts those sRGB values to corresponding color values from your monitor profile to display the canvas.
 
 Note that when you export your file and view it in another software, this software has to do two things:
@@ -53,14 +53,17 @@ In case you don't have access to such a device, you can't make use of Krita's co
 Profiling devices
 -----------------
 
-Profiling devices, called Colorimeters, are tiny little cameras of a kind that you connect to your computer via an usb, and then you run a profiling software(often delivered alongside of the device).
-{{Note|If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend [http://www.argyllcms.com/ Argyllcms]}}
+Profiling devices, called Colorimeters, are tiny little cameras of a kind that you connect to your computer via an usb, and then you run a profiling software (often delivered alongside of the device).
+
+.. note::
+
+    If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_
 
 The little camera then measures what the brightest red, green, blue, white and black are like on your screen using a predefined white as base. It also measures how grey the color grey is.
 
 It then puts all this information into an ICC profile, which can be used by the computer to correct your colors.
 
-It's recommended not to change the "calibration"(contrast, brightness, you know the menu) of your screen after profiling. Doing so makes the profile useless, as the qualities of the screen change significantly while calibrating.
+It's recommended not to change the "calibration" (contrast, brightness, you know the menu) of your screen after profiling. Doing so makes the profile useless, as the qualities of the screen change significantly while calibrating.
 
 To make your screen display more accurate colors, you can do one or two things:
 profile your screen or calibrate and profile it.
@@ -82,7 +85,7 @@ Calibration+profiling:
 
 bad monitors
     as explained just before.
-;multi-monitor setup
+multi-monitor setup
     when using several monitors, and specially in mirror mode where both monitor have the same content, you can't have this content color-managed for both screen profiles. In such case, calibrating both screens to match sRGB profile (or another standard for high-end monitors if they both support it) can be a good solution.
 soft-proofing
-    when you need to match an exact rendering context for soft-proofing, calibrating can help getting closer to the expected result. Though switching through several monitor calibration and profiles should be done extremely careful.
+    when you need to match an exact rendering context for soft-proofing, calibrating can help getting closer to the expected result. Though switching through several monitor calibration and profiles should be done extremely carefully.

@@ -43,7 +43,7 @@ Adds little corners to the input image.
 Normalize
 ---------
 
-This filter takes the input pixels, puts them into a 3d vector, and then normalizes(makes the vector size exactly 1) the values. This is helpful for normal maps and some minor image-editing functions.
+This filter takes the input pixels, puts them into a 3d vector, and then normalizes (makes the vector size exactly 1) the values. This is helpful for normal maps and some minor image-editing functions.
 
 .. index:: Gradient, Gradient Map
 

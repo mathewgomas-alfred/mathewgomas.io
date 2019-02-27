@@ -36,7 +36,7 @@ Linux
 
 Many Linux distributions package the latest version of Krita. Sometimes
 you will have to enable an extra repository. Krita runs fine under on
-desktop: KDE, Gnome, LXDE -- even though it is a KDE SC application and
+desktop: KDE, Gnome, LXDE -- even though it is a KDE application and
 needs the KDE libraries. You might also want to install the KDE
 system settings module and tweak the gui theme and fonts used, depending
 on your distributions
@@ -47,8 +47,8 @@ Nautilus/Nemo file extensions
 Put here at the beginning, before we start on the many distro specific
 ways to get the program itself.
 
-Since April 2016, KDE's Dolphin will show kra and ora thumbnails by
-default, but Nautilus and it's derivatives will need an extension. `We
+Since April 2016, KDE's Dolphin shows kra and ora thumbnails by
+default, but Nautilus and it's derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
 thumbnails <http://moritzmolch.com/1749>`__.
 
@@ -62,18 +62,22 @@ properties or the bash command chmod to make the appimage executable.
 Double click it, and enjoy Krita. (Or run it in the terminal with
 ./appimagename.appimage)
 
+- Open the terminal into the folder you have the appimage.
+- Make it executable
+
 ::
 
- # open this terminal into the folder you have the appimage
- # make it executable''
  chmod a+x krita-3.0-x86_64.appimage
 
- # run Krita!
+- Run Krita!
+
+::
+
  ./krita-3.0-x86_64.appimage
 
 Appimages are ISOs with all the necessary libraries inside, meaning no
 fiddling with repositories and dependencies, at the cost of a slight bit
-more diskspace taken up(And this size would only be bigger if you were
+more diskspace taken up (And this size would only be bigger if you were
 using Plasma to begin with).
 
 Ubuntu and Kubuntu
@@ -142,7 +146,7 @@ that might make the effort worth it:
 
 -  You can follow the development of Krita on the foot. If you compile
    Krita regularly from the development repository, you will be able to
-   play withall the new features that the developers are working on.
+   play with all the new features that the developers are working on.
 -  You can compile optimized for your processor. Most pre-built packages
    are built for the lowest-common denominator.
 -  You will be getting all the bug fixes as soon as possible as well.
@@ -164,7 +168,7 @@ build instructions from the excellent illustrated
 by David Revoy.
 
 There is more information and troubleshooting help on the
-`Calligra <https://community.kde.org/Calligra/Building>`__ wiki:
+`Calligra <https://community.kde.org/Calligra/Building>`__ wiki.
 
 If you encounter any problems, or if you are new to compiling software,
 don't hesitate to contact the Krita developers. There are three main

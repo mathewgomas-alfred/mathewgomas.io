@@ -23,7 +23,7 @@ The Layers docker is for one of the core concepts of Krita: :ref:`Layer Manageme
 The Layer Stack
 ---------------
 
-You can select the active layer here. Using :kbd:`shift` and :kbd:`ctrl` you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
+You can select the active layer here. Using :kbd:`Shift` and :kbd:`Ctrl` you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
 
 Name
     The Layer name, just do double- |mouseleft| to make it editable, and press :kbd:`Enter` to finish editing.
@@ -78,13 +78,13 @@ Hot keys and Sticky Keys
 
 * :kbd:`Shift + Ctrl` for selecting multiple layers.
 * :kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, for you to drag and drop.
-* :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using :kbd:`ctrl + E` on a single layer with a mask will merge down the mask into the layer.
+* :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
 * :kbd:`Ctrl + Shift + E` merges all layers.
 * :kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to picking colours directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for multiple layers.
-* :kbd:`ins` for adding a new layer. 
+* :kbd:`Ins` for adding a new layer. 
 * :kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, they are put into the group layer.
 * :kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!
-* :kbd:`ctrl + Alt + G` will ungroup layers inside a group.
+* :kbd:`Ctrl + Alt + G` will ungroup layers inside a group.
 * :kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This will maintain between layers till the same action is repeated again.
 * :kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current layer.
 * :kbd:`Page Up` and :kbd:`Page Down` for switching between layers.

@@ -1,46 +1,42 @@
 #!/usr/bin/env bash
 
-FILENAME="krita-docs"
-MULTI_POT=true
+EXPORTS_POT_DIR=1
+FILE_PREFIX=docs_krita_org_
 
-# Dummy implementation of the function which just exports a single file.
-function export_pot_file # First parameter will be the path of the directory with the pot files, includes $FILENAME
+function export_pot_dir # First parameter will be the path of the directory where we have to store the pot files
 {
     echo "Creating POT files"
-	potfile=$1
-	make gettext
-    echo "Moving KritaFAQ.pot file to $potfile"
-	mv _build/gettext/KritaFAQ.pot $potfile
-	echo "Removing gettext folder."
-	rm -rf _build/gettext
+    potdir=$1
+    make gettext
+    cd _build/gettext
+    rm -rf untranslatable_pages.pot untranslatable_pages
+    # Flatten the dir structure
+    find * -type f -exec bash -c 'new=$(echo "{}" | sed s#/#___#g); mv "{}" "docs_krita_org_$new"' \;
+    mv *.pot $potdir
+    rm -rf *
 }
 
-function export_pot_multi # First parameter will be the path of the directory with the pot files, $FILENAME becomes directory name
+function import_po_dirs # First parameter will be a path that will be a directory to the dirs for each lang and then all the .po files inside
 {
-    echo "Creating POT files"
-	potfile=$1
-	make gettext
-    # Remove the pages that should not be translated.
-    echo "Removing untranslatable pages."
-    rm -rf _build/gettext/untranslatable_pages.pot
-    echo "Moving the pot files to $potfile"
-	mv _build/gettext $potfile
-	echo "Removing gettext folder."
-	rm -rf _build/gettext
-}
-
-function import_po_files # First parameter will be a path that will be a directory to the 
-{
-	podir=$1
-    mkdir locale
+    podir=$1
+    mkdir -p locale
+    # for some reason sphinx uses uk_UA instead of uk
+    mv $podir/uk $podir/uk_UA
+    # for some reason sphinx uses pt_PT instead of pt
+    mv $podir/pt $podir/pt_PT
     # These are the language codes that sphinx supports.
     for lang in bn ca cs da de es et eu fa fi fr he hr hu id it ja ko lt lv mk nb_NO ne nl pl pt_BR pt_PT ru si sk sv tr uk_UA vi zh_CN zh_TW
     do
-        echo "Checking for $podir/$lang."
         if [ -d "$podir/$lang" ]; then
-            mkdir locale/$lang/LC_MESSAGES
-            mv $podir/$lang locale/$lang/LC_MESSAGES
-            echo "Copied contents to to locale/$lang/LC_MESSAGES."
+            rm -rf locale/$lang/LC_MESSAGES
+            mkdir -p locale/$lang/LC_MESSAGES
+            mv $podir/$lang/*.po locale/$lang/LC_MESSAGES
+            cd locale/$lang/LC_MESSAGES
+            # Recreate the dir structure
+            find * -type f -exec bash -c 'new=$(echo "{}" | sed s#docs_krita_org_##g | sed s#___#/#g); mkdir -p `dirname $new`; mv {} $new' \;
+            cd ../../..
+            rm -rf $podir/$lang
         fi
     done
+    ls $podir # This will "complain" about languages that are translated but unsupported in sphinx, once we have one we'll have to think what to do
 }

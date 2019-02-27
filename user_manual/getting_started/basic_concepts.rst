@@ -49,18 +49,18 @@ Image
 
 The most important one is the **Image**.
 
-This is an individual copy of the image you opened or made via the file dialog, and where you edit your file. Krita can allow you to open the file as a new copy via the file menu, or to save it as a new file, or make an incremental save. An image contains layers, a color space, a canvas size and metadata such as creator, data created, and DPI. Krita can open multiple images at once, you can switch between them via the :guilabel:`window` menu.
+This is an individual copy of the image you opened or made via the file dialog, and where you edit your file. Krita can allow you to open the file as a new copy via the :guilabel:`File` menu, or to save it as a new file, or make an incremental save. An image contains layers, a color space, a canvas size and metadata such as creator, data created, and DPI. Krita can open multiple images at once, you can switch between them via the :guilabel:`Window` menu.
 
 Because the image is a working copy of the image on the hard drive, you can do a lot of little saving tricks with it:
 
 New
- Makes a new image. When you press :menuselection:`save`, you make a new file on the hard drive.
+ Makes a new image. When you press :menuselection:`Save`, you make a new file on the hard drive.
 Open
- Makes an internal copy of an existing image. When you press :menuselection:`save`, you will overwrite the original existing image with your working copy.
-Open existing image as new
- Similar to Open, however, :menuselection:`save` will request you to specify a saving location: you're making a new copy. This is similar to :menuselection:`import` in other programs.
+ Makes an internal copy of an existing image. When you press :menuselection:`Save`, you will overwrite the original existing image with your working copy.
+Open existing Document as Untitled Document
+ Similar to :menuselection:`Open`, however, :menuselection:`Save` will request you to specify a saving location: you're making a new copy. This is similar to :menuselection:`Import` in other programs.
 Create Copy From Current Image
- Similar to :menuselection:`Open Existing Image as new` but with the currently selected image.
+ Similar to :menuselection:`Open existing Document as Untitled Document` but with the currently selected image.
 Save incremental
  Allows you to quickly make a snapshot of the current image by making a new file with a version number added to it.
 
@@ -71,7 +71,8 @@ You view the image via a **View**.
 View
 ~~~~
 
-A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose mistakes, like unintentional skewed drawing to one side. Mirroring with :kbd:`m` makes such skewing easy to identify.
+A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`M` makes such skewing easy to identify.
+
 
 If you have trouble drawing certain curves you will enjoy using rotation for drawing, and of course, there is zooming in and out for precision and rough work.
 
@@ -80,7 +81,7 @@ If you have trouble drawing certain curves you will enjoy using rotation for dra
 
    Multiple views of the same image in Krita
 
-Multiple views are possible in Krita via :menuselection:`window --> new view --> image name`. You can switch between them via the :guilabel:`window` menu, or :kbd:`Ctrl + Tab`, or keep them in the same area when **subwindow** mode is active in the :ref:`settings <general_settings>`, via :menuselection:`Window --> Tile`.
+Multiple views are possible in Krita via :menuselection:`Window --> New view --> image name`. You can switch between them via the :guilabel:`Window` menu, or :kbd:`Ctrl + Tab`, or keep them in the same area when **subwindow** mode is active in the :ref:`settings <general_settings>`, via :menuselection:`Window --> Tile`.
 
 Dockers
 ~~~~~~~
@@ -99,7 +100,7 @@ Window
 
 If you've used a computer before, you know what windows are: They are big containers for your computer programs.
 
-Krita allows you to have multiple windows via :menuselection:`window --> new window`. You can then drag this to another monitor for multi-monitor use.
+Krita allows you to have multiple windows via :menuselection:`Window --> New Window`. You can then drag this to another monitor for multi-monitor use.
 
 The image below shows an example of multiple windows in Krita.
 
@@ -181,7 +182,7 @@ For example, the pixel-brush engine is simple and allows you to do most of your 
 
 If you want something totally different from that, the sketch brush engine helps with making messy lines, and the shape brush engine allows you to make big flats quickly. There are a lot of cool effects inside Krita's brush engines, so try them all out, and be sure to check the chapters on each.
 
-You can configure these effects via the Brush Settings drop-down, which can be quickly accessed via :kbd:`f5`. These configurations can then be saved into presets, which you can quickly access with :kbd:`f6` or the Brush Presets docker.
+You can configure these effects via the Brush Settings drop-down, which can be quickly accessed via :kbd:`F5`. These configurations can then be saved into presets, which you can quickly access with :kbd:`F6` or the Brush Presets docker.
 
 Brushes draw with colors, but how do computers understand colors?
 
@@ -247,7 +248,7 @@ Masks
 
 Masks are a type of sub-effect applied to a layer, usually driven by a grayscale image.
 
-The primary type of mask is a :ref:`transparency_masks`, which allows you to use a grayscale image to determine the transparency, where black makes everything transparent and white makes the pixel fully opaque.
+The primary types of mask are :ref:`transparency_masks`, which allow you to use a grayscale image to determine the transparency, where black makes everything transparent and white makes the pixel fully opaque.
 
 You can paint on masks with any of the brushes, or convert a normal paint-layer to a mask. The big benefit of masks is that you can make things transparent without removing the underlying pixels. Furthermore, you can use masks to reveal or hide a whole group layer at once!
 
@@ -315,7 +316,7 @@ Layer Effects or Layer Styles are :program:`Photoshop's` unique brand of Filter 
 Transformations
 ---------------
 
-**Transformations** are kind of like filters, in that these are operations done on the pixels of an image.  We have regular image and layer wide transformations in the image and layer top menus, so that you may resize, flip and rotate the whole image.
+**Transformations** are kind of like filters, in that these are operations done on the pixels of an image.  We have a regular image and layer wide transformations in the image and layer top menus, so that you may resize, flip and rotate the whole image.
 
 We also have the :ref:`crop_tool`, which only affects the canvas size, and the :ref:`move_tool` which only moves a given layer.
 However, if you want more control, Krita offers a :ref:`transform_tool`.
@@ -323,17 +324,17 @@ However, if you want more control, Krita offers a :ref:`transform_tool`.
 .. image:: /images/en/Krita_transforms_free.png 
    :align: center
 
-With this tool you can rotate and resize on the canvas, or put it in perspective. Or you can use advanced transform tools, like the warp, cage and liquefy, which allow you to transform by drawing custom points or even by pretending it's a transforming brush.
+With this tool you can rotate and resize on the canvas, or put it in perspective. Or you can use advanced transform tools, like the warp, cage and liquify, which allow you to transform by drawing custom points or even by pretending it's a transforming brush.
 
 :ref:`deform_brush_engine`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Like the filter brush engine, Krita also has a Deform Brush Engine, which allows you to transform with a brush. The deform is like a much faster version of the Liquefy transform tool mode, but in exchange, its results are of much lower quality.
+Like the filter brush engine, Krita also has a Deform Brush Engine, which allows you to transform with a brush. The deform is like a much faster version of the Liquify transform tool mode, but in exchange, its results are of much lower quality.
 
 .. figure:: /images/en/Krita_transforms_deformvsliquefy.png
    :align: center
 
-   Apple transformed into a pear with liquefy on the left and deform brush on the right.
+   Apple transformed into a pear with liquify on the left and deform brush on the right.
 
 Furthermore, you can't apply the deform brush as a non-destructive mask.
 
@@ -362,7 +363,7 @@ With all this technical stuff, you might forget that Krita is a painting program
    Krita's vanishing point assistants in action
 
 :ref:`grids_and_guides_docker`
- Very straightforward guiding tools which shows grids or guiding lines that can be configured.
+ Very straightforward guiding tool which shows grids or guiding lines that can be configured.
 :ref:`snapping`
  You can snap to all sorts of things. Grids, guides, extensions, orthogonals, image centers and bounding boxes.
 :ref:`painting_with_assistants`
@@ -377,4 +378,4 @@ This leads to the final concept: customization.
 
 In addition to rearranging the dockers according to your preferences, Krita provides and saves your configurations as :ref:`resource_workspaces`. This is the button at the top right.
 
-You can also configure the toolbar via :menuselection:`settings --> configure Toolbars`, as well as the shortcuts under both :menuselection:`settings --> Configure Krita --> Configure Shortcuts` and :menuselection:`settings --> configure Krita --> Canvas Input Settings`.
+You can also configure the toolbar via :menuselection:`Settings --> Configure Toolbars`, as well as the shortcuts under both :menuselection:`Settings --> Configure Krita --> Configure Shortcuts` and :menuselection:`Settings --> Configure Krita --> Canvas Input Settings`.

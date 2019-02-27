@@ -32,8 +32,8 @@ Options
 
 .. _option_size_dyna:
 
-Brush Size(Dyna)
-----------------
+Brush Size (Dyna)
+-----------------
 
 Dynamics Settings
 ~~~~~~~~~~~~~~~~~

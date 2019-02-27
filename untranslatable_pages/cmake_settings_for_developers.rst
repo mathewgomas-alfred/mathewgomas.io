@@ -62,7 +62,7 @@ If set to ON, Krita will not show popups whenever the code encounters a problem 
 KRITA_DEVS
 ----------
 
-This is to be used with the Debug CMAKE_BUILD_TYPE, to re-enable optimizations that make it possible to actualy work with Krita. By default, Debug disables all compiler optimizations, and Krita needs those.
+This is to be used with the Debug CMAKE_BUILD_TYPE, to re-enable optimizations that make it possible to actually work with Krita. By default, Debug disables all compiler optimizations, and Krita needs those.
 
 
 PYQT_SIP_DIR_OVERRIDE

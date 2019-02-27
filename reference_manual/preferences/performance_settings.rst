@@ -29,7 +29,7 @@ These settings allow you to choose how much of your virtual desk you dedicate to
 Memory Limit
     This is the maximum space :program:`Krita` will reserve on your RAM on startup. It's both available in percentages and Bytes, so you can specify precisely. :program:`Krita` will not take up more space than this, making it safe for you to run an internet browser or music on the background.
 Internal Pool
-    A feature for advanced computer users. This allows :program:`Krita` to organise the area it takes up on the virtual working desk before putting it's data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses it's place(a memory pool), so that it can find them easily, and it doesn't get lost amongst the other data(memory fragmentation). It will then also not have to spent time finding a spot for this data.
+    A feature for advanced computer users. This allows :program:`Krita` to organise the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses it's place (a memory pool), so that it can find them easily, and it doesn't get lost amongst the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
 
     Increasing this of course means there's more space for this type of data, but like how filling up your working desk with only one big canvas will make it difficult to find room for your paints and brushes, having a large internal pool will result in :program:`Krita` not knowing where to put the other non-specific data.
 
@@ -39,16 +39,16 @@ Internal Pool
 
     As :program:`Krita` does this on start-up, you will need to restart :program:`Krita` to have this change affect anything.
 Swap Undo After
-    :program:`Krita` also needs to keep all the Undo states on the virtual desk(RAM). Swapping means that parts of the files on the virtual desk get sent to the virtual archive room. This allows :program:`Krita` to dedicate more RAM space to new actions, by sending old Undo states to the archive room once it hits this limit. This will make undoing a little slower, but this can be desirable for the performance of :program:`Krita` overall.
+    :program:`Krita` also needs to keep all the Undo states on the virtual desk (RAM). Swapping means that parts of the files on the virtual desk get sent to the virtual archive room. This allows :program:`Krita` to dedicate more RAM space to new actions, by sending old Undo states to the archive room once it hits this limit. This will make undoing a little slower, but this can be desirable for the performance of :program:`Krita` overall.
     This too needs :program:`Krita` to be restarted.
 
 Swapping
 --------
 
 File Size Limit
-    This determines the limit of the total space :program:`Krita` can take up in the virtual archive room. If :program:`Krita` hits the limit of both the memory limit above, and this Swap File limit, it can't do anything any more(and will freeze).
+    This determines the limit of the total space :program:`Krita` can take up in the virtual archive room. If :program:`Krita` hits the limit of both the memory limit above, and this Swap File limit, it can't do anything any more (and will freeze).
 Swap File Location
-    This determines where the Swap File will be stored on you hard-drive. Location can make a difference, for example, Solid State Drives(SSD) are faster than Hard Disk Drives(HDD). Some people even like to use USB-sticks for the swap file location.
+    This determines where the Swap File will be stored on you hard-drive. Location can make a difference, for example, Solid State Drives (SSD) are faster than Hard Disk Drives (HDD). Some people even like to use USB-sticks for the swap file location.
 
 Advanced
 --------
@@ -71,8 +71,8 @@ Debuglogging of OpenGL framerate
     Will show the canvas framerate on the canvas when active.
 Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
-Disable vector optimisations(For AMD CPUs)
-    Vector optimisations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimisations can make Krita a lt faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactive them then.
+Disable vector optimisations (For AMD CPUs)
+    Vector optimisations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimisations can make Krita a lt faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactivate them then.
 Enable Progress Reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging
@@ -95,7 +95,7 @@ Cache Storage Backend
 ~~~~~~~~~~~~~~~~~~~~~
 
 In-memory
-    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount(say, 64GiB) of ram, do *not* use this option (and scale down your projects).
+    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount (say, 64GiB) of ram, do *not* use this option (and scale down your projects).
 
     .. warning::
 
@@ -117,4 +117,4 @@ Limit Cached Frame Size
 Use Region Of Interest
     We technically only need to use the section of the image that is in view. Region of interest represents that section. When the image is above the configurable limit, render only the currently visible part of it.
 Enable Background Cache Generation
-    This allows you to set whether the animation is cached for playback in the background(that is, when you're not using the computer). Then, when animation is cached when pressing play, this caching will take less long. However, turning off this automatic caching can save power by having your computer work less.
+    This allows you to set whether the animation is cached for playback in the background (that is, when you're not using the computer). Then, when animation is cached when pressing play, this caching will take less long. However, turning off this automatic caching can save power by having your computer work less.

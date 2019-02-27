@@ -31,7 +31,7 @@ On one hand, this makes vector graphics great for logos and banners. On the othe
 Tools for making shapes
 -----------------------
 
-You can start making vector graphics by first making a vector layer(press the arrow button next to the + in the layer docker to get extra layer types). Then, all the usual drawing tools outside of the freehand, dynamic and the multibrush tool can be used to draw shapes.
+You can start making vector graphics by first making a vector layer (press the arrow button next to the + in the layer docker to get extra layer types). Then, all the usual drawing tools outside of the freehand, dynamic and the multibrush tool can be used to draw shapes.
 
 The path and polyline tool are the tools you used most often on a vector layer, as they allow you to make the most dynamic of shapes.
 
@@ -55,7 +55,7 @@ Editing shapes
 
 Editing of vector shapes is done with the Select Shapes Tool and the Edit Shapes Tool.
 
-The select shapes tool can be used to select vector shapes, to group them(via |mouseright|), ungroup them, to use booleans to combine or subtract shapes from one another(via |mouseright|), to move them up and down, or to do quick transforms.
+The select shapes tool can be used to select vector shapes, to group them (via |mouseright|), ungroup them, to use booleans to combine or subtract shapes from one another (via |mouseright|), to move them up and down, or to do quick transforms.
 
 Fill
 ~~~~

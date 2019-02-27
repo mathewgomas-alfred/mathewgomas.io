@@ -34,7 +34,7 @@ Glazing
 
 In traditional painting, **glazing** is overlaying many different semi-transparent layers to create on-canvas color mixtures. Likewise, in digital painting we can also use glazing to mix colors directly on our canvas. This is one of the most fundamental and commonly used mixing techniques in digital painting.
 
-We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with :kbd:`ctrl` + |mouseleft| (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
+We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with :kbd:`Ctrl` + |mouseleft| (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
 
 We can mix even more easily with glazing when we set our brush's **flow** to a lower setting. Subtly different than opacity, :ref:`flow <option_opacity_n_flow>` is transparency per dab instead of stroke, and so it gives us softer strokes without giving up control.
 
@@ -86,13 +86,13 @@ Scumbling
 .. image:: /images/en/color_category/Color_scumble2.gif
    :align: center
 
-Like most painting programs, Krita allow you to pick a :ref:`option_brush_tip`, which can be used to create a textured effect like that of scumbling.
+Like most painting programs, Krita allows you to pick a :ref:`option_brush_tip`, which can be used to create a textured effect like that of scumbling.
 
 .. image:: /images/en/color_category/Color_scumble.gif
    :align: center
 
 
-Krita's brush engines also allows you to use :ref:`option_texture`. This allows you to create interesting and stylized screentone-like effects.
+Krita's brush engines also allow you to use :ref:`option_texture`. This allows you to create interesting and stylized screentone-like effects.
 
 With glazing can get you pretty far when it comes to *defining planes and forms*, scumbling is the best method to *create texture and to break up big pasty flats* in your painting.
 
@@ -120,7 +120,7 @@ You can use Color Picker Blending much like a physical paint brush in traditiona
 
 Not only does Krita's Color Picker Blending feel even more like mixing paints, it is also completely off-canvas and independent of opacity, flow, shape, and other brush settings. Furthermore, unlike most on-canvas mixing techniques, Color Picker Blending works regardless of the location of colors on your canvas - enabling your to mix with colors at any position, on any layer, or even in different documents! Quickly mix lighting colors with local colors, mix the ambient sky color into shadows, create atmospheric depth, mix from a preselected palette of colors in another layer/document, etc.
 
-To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`ctrl +` |mouseleft| shortcut.
+To use Color Picker Blending, simply set the "blend" option in the **Tool Options Docker** while the Color Picker Tool is active; setting blend to 100% will cause your Color Picker to work in the traditional way (completely replacing your brush color with the picked color), setting to around 50% will give you a half-way mix between colors, and setting to a lower value will create more subtle shifts in colors each click. Of course, blending affects both your dedicated Color Picker Tool as well as the :kbd:`Ctrl +` |mouseleft| shortcut.
 
 .. note::
 
@@ -140,9 +140,9 @@ By clicking the **color buttons** below each mixer you can choose a palette of c
 Other Tips
 ----------
 
-Outside of making it easier to create smooth gradients, mixing has another benefit: It allows you create a cohesive piece.
+Outside of making it easier to create smooth gradients, mixing has another benefit: It allows you to create a cohesive piece.
 
-Limiting the amount of colors we use and then mixing tends to give a more cohesive palette, as we're not trying to do too much at once. This cohesive palette in turn means it will become easier to create a certain mood in an image. Sometimes, mixing in a little bit of accent color can also create unexpected results which in turn can be a little discovery for the audience to delight over as they discover the world of your image.
+Limiting the number of colors we use and then mixing tends to give a more cohesive palette, as we're not trying to do too much at once. This cohesive palette in turn means it will become easier to create a certain mood in an image. Sometimes, mixing in a little bit of accent color can also create unexpected results which in turn can be a little discovery for the audience to delight over as they discover the world of your image.
 
 What we can learn from this, is that the next time we select, say, gray, instead of reaching for a random or generic gray from the Advanced Color Selector, consider using one of Krita's many wonderful mixing tools to create an interesting and fitting gray from hues that are roughly complementary (opposite each other on the hue wheel).
 

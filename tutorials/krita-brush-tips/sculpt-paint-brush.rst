@@ -19,12 +19,12 @@ Question
 
 It's actually quite easy, but most easy to do since Krita 3.0 due a few bugfixes.
 
-First, select *Basic_Wet* from the default presets, and go into the brush editor with :kbd:`f5`.
+First, select *Basic_Wet* from the default presets, and go into the brush editor with :kbd:`F5`.
 
 .. image:: /images/en/brush-tips/Painter-sculpt-brush-01.png
     :alt: brush setting dialog to get started
 
-Then, the trick is to go into **Opacity**, untoggle **Pressure** from the sensors, toggle **Fade** and then reverse the curve as shown above. Make sure that the curve ends a little above the bottom-right, so that you are aways painting something. Otherwise, the smudge won't work.
+Then, the trick is to go into **Opacity**, untoggle **Pressure** from the sensors, toggle **Fade** and then reverse the curve as shown above. Make sure that the curve ends a little above the bottom-right, so that you are always painting something. Otherwise, the smudge won't work.
 
 This'll make the color rate decrease and turn it into a smudge brush as the stroke continues:
 
@@ -33,7 +33,7 @@ This'll make the color rate decrease and turn it into a smudge brush as the stro
 
 The **Fade** sensor will base the stroke length on brush size. The **Distance** sensor will base it on actual pixels, and the **Time** on actual seconds.
 
-Then, select :menuselection:`Brushtip --> Predfined` and select the default *A_Angular_Church_HR* brushtip.
+Then, select :menuselection:`Brushtip --> Predefined` and select the default *A_Angular_Church_HR* brushtip.
 
 .. image:: /images/en/brush-tips/Painter-sculpt-brush-03.png
     :alt: select the Angular church brush tip

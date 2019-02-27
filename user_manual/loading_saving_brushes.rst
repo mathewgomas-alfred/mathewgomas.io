@@ -18,12 +18,12 @@ Loading and Saving Brushes
 
 In the real world, when painting or drawing, you don't just use one
 tool. You use pencils, erasers, paintbrushes, different types of paint,
-inks, crayons, etcetera. All these have different ways of making marks.
+inks, crayons, etc. All these have different ways of making marks.
 
 In a digital program like Krita you have something similar. We call this
 a brush engine. And much like how cars have different engines that give
 different feels when driving, or how pencils make distinctly different
-marks than rollerbal pens, different brush engines have totally
+marks than rollerball pens, different brush engines have totally
 different feels.
 
 The brush engines have a lot of different settings as well. So, you can
@@ -38,7 +38,7 @@ The Brush settings dropdown
 
 To start, the Brush Settings Editor panel can be accessed in the
 toolbar, between the Blending Modes button on the right and the Patterns
-button on the left. Alternately, you can use the function key f5 to open
+button on the left. Alternately, you can use the function key :kbd:`F5` to open
 it.
 
 When you open Brush Settings Editor panel you will see something like
@@ -60,7 +60,7 @@ Name**, the **Engine** name, and several buttons for saving, renaming,
 and reloading.
 
 Krita's brush settings are stored into the metadata of a 200x200
-png(The KPP file), where the image in the png file becomes the preset
+png (the KPP file), where the image in the png file becomes the preset
 icon. This icon is used everywhere in Krita, and is useful for
 differentiating brushes in ways that the live preview cannot.
 
@@ -97,17 +97,17 @@ If you change a preset, an icon will appear behind the engine name. This
 is the :guilabel:`reload` button. You can use it to revert to the original brush
 settings.
 
-Saving a preset.
+Saving a preset
 ''''''''''''''''
 
-On the right, there's :guilabel:`Save New Preset` and :guilabel:`Overwrite Preset`.
+On the right, there's :guilabel:`Save New Brush Preset` and :guilabel:`Overwrite Brush`.
 
-Overwrite Preset
+Overwrite Brush
     This will only enable if there are any changes. Pressing this will
     override the current preset with the new settings, keeping the name
     and the icon intact. It will always make a timestamped back up in
     the resources folder.
-Save New Preset
+Save New Brush Preset
     Will take the current preset and all its changes and save it as a
     new preset. If no change was made, you will be making a copy of the
     current preset.
@@ -127,7 +127,7 @@ Brush Name
 Load Existing Thumbnail
     This will load the existing thumbnail inside the preset.
 Load scratch pad thumbnail
-    This will load the dashed area from the big scratch pad(Section C)
+    This will load the dashed area from the big scratch pad (Section C)
     into the thumbnail area.
 Load Image
     With this you can choose an image from disk to load as a thumbnail.
@@ -147,7 +147,7 @@ It allows you to select tool icons, and an optional small emblem. When
 you press OK it will load the resulting combination into the mini
 scratch pad and you can draw in the stroke.
 
-If you go to your resources folder(), there's a folder there called
+If you go to your resources folder, there's a folder there called
 "preset\_icons", and in this folder there are "tool\_icons" and
 "emblem\_icons". You can add semi-transparent pngs here and Krita will
 load those into the icon library as well so you can customize your icons
@@ -167,7 +167,7 @@ Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The preset chooser is much the same as the preset docker and the
-preset dropdown on F6. It's unique in that it allows you to filter by
+preset dropdown on :kbd:`F6`. It's unique in that it allows you to filter by
 engine and this is also where you can create brushes for an engine from
 scratch.
 
@@ -203,7 +203,7 @@ The scratch pad has five buttons underneath it. These are in order for:
 
 #. Showing the current brush image
 
-#. Adding a gradient to the scratch pad(useful for smudge brushes)
+#. Adding a gradient to the scratch pad (useful for smudge brushes)
 #. Filling with the background color
 #. Clearing everything on the scratch pad.
 
@@ -232,7 +232,7 @@ you can change things.
 Using sensor curves
 '''''''''''''''''''
 
-One of the big important things that makes art unique to the artist who
+One of the big important things that make art unique to the artist who
 created it is the style of the strokes. Strokes are different because
 they differ in speed, rotation, direction, and the amount of pressure
 put onto the stylus. Because these are so important, we would want to
@@ -257,7 +257,7 @@ top. Someone who has a hard time making small strokes should try the
 second to last concave button, while someone who has a hard time making
 thick strokes should try the third button, the S shape.
 
-Underneath the curve widget there's two more options:
+Underneath the curve widget there are two more options:
 
 Share Curves across all settings
     This is for the list of sensors. Toggling this will make all the
@@ -313,7 +313,7 @@ Temporarily Save Tweaks to Preset (Dirty Presets)
     .. figure:: /images/en/Krita_4_0_dirty_preset_icon.png
        :figwidth: 450
 
-       The icon in the top left of the first two presets indicate it is “Dirty”, meaning there's tweaks made to the preset.
+       The icon in the top left of the first two presets indicate it is “Dirty”, meaning there are tweaks made to the preset.
 
 Eraser Switch Size
     This switches the brush to a separately stored size when using the
@@ -369,7 +369,7 @@ Example: Making an inking brush
    a big curve. This is the sensor curve.
 #. Uncheck the :guilabel:`enable pen settings` checkbox.
 #. Test on the scratch pad... there still seems to be something
-   affecting opacity. This is due the
+   affecting opacity. This is due to the
    :ref:`flow <option_opacity_n_flow>`
    option.
 #. Select the Flow option from the list on the right hand. Flow is like
@@ -378,7 +378,7 @@ Example: Making an inking brush
 #. Now you should be getting somewhere towards an inking brush. It is
    still too small however, and kinda grainy looking. Click :ref:`Brush Tip <option_brush_tip>` in the
    brush engine options.
-#. Here, diameter is the size of the brush-tip. You can touch the slider
+#. Here, the diameter is the size of the brush-tip. You can touch the slider
    change the size, or right-click it and type in a value. Set it to 25
    and test again. It should be much better.
 #. Now to make the brush feel a bit softer, turn down the fade parameter
@@ -431,7 +431,7 @@ The recommended way to share brushes and presets is by using the
 resource bundle system. We have detailed instructions on how to use them
 on the :ref:`resource management page <resource_management>`.
 
-However, there's various old-fashioned ways of sharing brushes that can
+However, there are various old-fashioned ways of sharing brushes that can
 be useful when importing and loading very old packs:
 
 Sharing a single preset
@@ -461,14 +461,14 @@ Now, if you want to use the single preset, you should go to the preset
 chooser on f6 and press the folder icon there. This will give a file
 dialog. Navigate to the kpp file and open it to import it.
 
-If there's brush tips and patterns coming with the file, do the same
+If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
-settings dropdown(f5) and then go to the “brush-tip” option. There,
+settings dropdown (:kbd:`F5`) and then go to the “brush-tip” option. There,
 select predefined brush, and then the “import” button to call up the
 file dialog.
 
-Sharing via ZIP(old-fashioned)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sharing via ZIP (old-fashioned)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sharing via ZIP should be replaced with resource bundles, but older
 brush packs are stored in zip files.

@@ -42,11 +42,11 @@ Render Animation
 ----------------
 
 Render As
-    The file format to render to. All except gif have extra options that can be manipulated via {{MenuChoice|...}}.
+    The file format to render to. All except gif have extra options that can be manipulated via :guilabel:`...`.
 File
     Location and name of the rendered animation.
 FFMpeg
-    The location where your have ffmpeg. If you don't have this, Krita cannot render an animation. For proper gif support, you will need ffmpeg 2.6, as we use it's palettegen functionality.
+    The location where your have ffmpeg. If you don't have this, Krita cannot render an animation. For proper gif support, you will need ffmpeg 2.6, as we use its palettegen functionality.
 Delete Sequence After Rendering
     Delete the prerendered image sequence after done rendering. This allows you to choose whether to try and save some space, or to save the sequence for when encoding fails.
 

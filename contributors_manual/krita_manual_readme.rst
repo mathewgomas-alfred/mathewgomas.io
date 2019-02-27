@@ -102,7 +102,7 @@ If you are familiar with Git
    1. Login into `phabricator`_ with your identity account.
    2. Go to differential.
    3. Upper-right --> "Star" menu --> Create Review Request.
-   4. Upload the diff you made, select the correct repository(``websites-docs-krita-org``, easier to find with ``Krita.org Documentation Website``, *make sure you do not select docs-kde-org!*).
+   4. Upload the diff you made, select the correct repository (``websites-docs-krita-org``, easier to find with ``Krita.org Documentation Website``, *make sure you do not select docs-kde-org!*).
    5. Confirm the file is correct.
    6. Then in the next screen:
 
@@ -234,7 +234,7 @@ Changing Pages
 
 If you fully rewrite a page, as opposed to proofreading it, the resulting page should be reviewed.
 
-If you change a page because a feature has changed, and you have commit access, the change can be pushed without review(unless you feel more comfortable with a review), but you should add::
+If you change a page because a feature has changed, and you have commit access, the change can be pushed without review (unless you feel more comfortable with a review), but you should add::
 
     .. versionchanged:: version number
 
@@ -268,7 +268,7 @@ The most important one is **reviewing changes people make**. You can do this on 
 
     Reviewing patches is done in differential. Patch reviewing is usually done by programmers to find mistakes in each other's code, but because programming code is text based just like regular text, we can use patch reviewing to check against typos as well!
 
-    A patch, or diff, is an amount of changes done in a document(added, removed) put into a machine readable file. When someone submits a review request(on system like gitlab or github this is a merge or pull request), people who maintain the original files will have to look them over and can make comments about things needing to change. This allows them to comment on things like typos, over-complicated writing but also things that are incorrect. After a patch has been accepted it can be pushed into the version control system.
+    A patch, or diff, is an amount of changes done in a document (added, removed) put into a machine readable file. When someone submits a review request (on system like gitlab or github this is a merge or pull request), people who maintain the original files will have to look them over and can make comments about things needing to change. This allows them to comment on things like typos, over-complicated writing but also things that are incorrect. After a patch has been accepted it can be pushed into the version control system.
 
 2. Auditing changes in the manual.
 
@@ -283,9 +283,11 @@ For this you will need to follow the :ref:`making_changes_sphinx` section, so th
 Translating
 ~~~~~~~~~~~
 
-We are still trying to hash out a translation workflow. Please bear with us.
+Translation of the manual is handled by the `KDE locatization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams <https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
 
-.. Things that need to be decided: where do the POT files go, how do we decide which pages should not be translated, etc.
+The localisation team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
+
+Finished translations also need to be added to the build script to show up online. Translator teams which are confident in the state of their translation should contact the main Krita team via the kimageshop mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this.
 
 Other
 -----

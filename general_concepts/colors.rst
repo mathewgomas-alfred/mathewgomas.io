@@ -51,7 +51,7 @@ Showing the colors in a bunch of tables just *feels wrong*, though, doesn't it? 
    :align: center
 
 
-This cube is not filled with water, or sand, or even *concrete*, but colors! Colors are pretty *abstract*, and we typically talk about cubes and other 3D objects that represent abstract ideas as **spaces**, hence we call this cube a **color space**. Because this particular cube uses red, green, and blue as it’s axes, we say that our cube is in the RGB :ref:`RGB color model <model_rgb>`.
+This cube is not filled with water, or sand, or even *concrete*, but colors! Colors are pretty *abstract*, and we typically talk about cubes and other 3D objects that represent abstract ideas as **spaces**, hence we call this cube a **color space**. Because this particular cube uses red, green, and blue as its axes, we say that our cube is in the RGB :ref:`RGB color model <model_rgb>`.
 
 There are many more color models. For example, if we were to balance our cube on the black corner, the white corner would be right under our finger at the very top of the cube. And as geometry and maths would have it, if we were to cut the cube in half as we balanced it, the line from the white point at the top to the black point at the bottom would be the **grayscale**.
 

@@ -32,7 +32,7 @@ To explain the point of color management, you'd first need to learn which proble
 
 Let us imagine a kinder garden:
 
-The class of 28 children is subdivided in groups of 7. Each group has their own table.
+The class of 28 children is subdivided in groups of 7. Each group has its own table.
 
 The teacher gives them a painting assignment: They need to paint a red triangle, a blue square, a green circle and put a yellow border around the three.
 The kids are very experienced with painting already, so the teacher can confidently leave the smarter ones to their own devices, and spent more time on those who need help.
@@ -81,18 +81,18 @@ Color management is, dryly put, a set of systems that tries to have the same col
 
 It usually works by attempting to covert a colour to the reference colour space XYZ. XYZ is a coordinate system that has a spot for all colours that the average human eye can see.
 
-From XYZ it can then be translated back into another device space, such as RGB(for screens), or CMYK(for printers).
+From XYZ it can then be translated back into another device space, such as RGB (for screens), or CMYK (for printers).
 
 Krita has two systems dedicated to colour management. On one hand we have **lcms2**, which deal with Icc-profiles, and on the other we have **OCIO**, which deal with LUT color management.
 
-To give a crude estimate, ICC profiles deal with keeping colours consistent over many interpretations of devices(screens, printers) by using a reference space, and OCIO deals with manipulating the interpretation of said colours.
+To give a crude estimate, ICC profiles deal with keeping colours consistent over many interpretations of devices (screens, printers) by using a reference space, and OCIO deals with manipulating the interpretation of said colours.
 
 Within both we can identify the following color spaces:
 
 Device spaces
     Device spaces are those describing your monitor, and have to be made using a little device that is called "colorimeter". This device, in combination with the right software, measures the strongest red, green and blue your screen can produce, as well as the white, black and grey it produces. Using these and several other measurements it creates an icc profile unique to your screen. You set these in Krita's colour management tab.
     By default we assume sRGB for screens, but it's very likely that your screen isn't exactly fitting sRGB, especially if you have a high quality screen, where it may be a bigger space instead. Device spaces are also why you should first consult with your printer what profile they expect. Many printing houses have their own device profiles for their printers, or may prefer doing color conversion themselves.
-    You can read more about colorimeter usage :ref:`here <profiling_and_callibration>`.
+    You can read more about colorimeter usage :ref:`here <profiling_and_calibration>`.
 Working spaces
     These are delivered alongside Krita for ICC, and downloadable from the OCIO website for OCIO. Working spaces are particularly nice to do color calculations in, which programs like Krita do often. It's therefore recommended to have a working space profile for your image.
 Aesthetic or Look spaces
@@ -182,7 +182,7 @@ Relative Colorimetric
 Saturation
     Does anything to retain colourfulness, even hue will be sacrificed. Used in infographics. Doesn't work with Matrix Shaper profiles, defaults to relative colorimetric.
 
-*ICC profile version* is the last thing to keep in mind when dealing with ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the later giving better results in doing color maths, but the former being more widely supported(as seen below in 'interoperability with other programs'. This is also why Krita defaults to V2, and we recommend using V2 when you aren't certain if the other programs you are using support V4.
+*ICC profile version* is the last thing to keep in mind when dealing with ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the later giving better results in doing color maths, but the former being more widely supported (as seen below in 'interoperability with other programs'. This is also why Krita defaults to V2, and we recommend using V2 when you aren't certain if the other programs you are using support V4.
 
 LUT docker and HDR imaging
 --------------------------
@@ -221,9 +221,9 @@ The LUT docker allows us to control this display-filter and modify the distortio
    :align: center
 
 
-So, for example, we can chose to scale whiter-than-screen-white to our screen-white so we can see the contrasts there.
+So, for example, we can choose to scale whiter-than-screen-white to our screen-white so we can see the contrasts there.
 
-The point of this is that you can take advantage of more lightness detail in an image. While you can't see the difference between screen white and whiter-than-screen-white(because you screen can't show the difference), graphics programs can certainly use it.
+The point of this is that you can take advantage of more lightness detail in an image. While you can't see the difference between screen white and whiter-than-screen-white (because your screen can't show the difference), graphics programs can certainly use it.
 
 A common example is matching the lighting between a 3d model and a real world scene. Others are advanced photo retouching, with much more contrast information available to the user. In painting itself, this allows you to create an image where you can be flippant with the contrast, and allow yourself to go as bright as you'd like.
 
@@ -231,7 +231,7 @@ LUT docker manipulations are per view, so you can create a new view and set it t
 
 Another example is to carefully watch the gradients in a certain section.
 
-Like Icc, the LUT Docker allows you to create a profile of sorts for your device. In this case it's the 'lut', which stands for 'Look Up Table', and which can be added to OCIO by modifying the configuration file. When OCIO is turned on, the configuration in :kbd:`settings --> configure Krita --> Color Management` is turned off, unless you are using the :kbd:`Internal` color engine.
+Like Icc, the LUT Docker allows you to create a profile of sorts for your device. In this case it's the 'lut', which stands for 'Look Up Table', and which can be added to OCIO by modifying the configuration file. When OCIO is turned on, the configuration in :menuselection:`Settings --> Configure Krita --> Color Management` is turned off, unless you are using the :guilabel:`Internal` color engine.
 
 In summary
 ----------
@@ -241,8 +241,8 @@ Krita has two modes of colour management:
 * Icc works in terms of spaces relative to the CIEXYZ space, and requires an icc profile.
 * OCIO works in terms of interpretation, and makes use of luts.
 * both can be made with a colorimeter.
-* If you want to have a properly color managed workflow, you have one made customly for the input device(your screen) and the output devices(your printer, or target screen). For web the output is always sRGB.
-* Set up your screen profiles under :kbd:`settings --> configure Krita --> color management`.
+* If you want to have a properly color managed workflow, you have one made customly for the input device (your screen) and the output devices (your printer, or target screen). For web the output is always sRGB.
+* Set up your screen profiles under :menuselection:`Settings --> Configure Krita --> Color management`.
 * Do NOT use screen profiles or other device profiles to draw in. Use a working space profile such as any of the elle profiles for this, as the color maths will be much more predictable and pleasant. Krita will convert between your screen and working space on the fly, allowing you to pick the correct colors. This turns your screen into binoculars to view the image.
 * Use the appropriate color management for the appropriate workflow. If you are working with Blender, you will be better off using OCIO, than ICC. IF you are working with Scribus or Photoshop, use ICC.
 
@@ -262,7 +262,7 @@ If you like painting, have a decent amount of ram, and are looking to start your
 Exporting
 ---------
 
-when you have finished you image and are ready to export it, you can modify the color space to optimize it:
+when you have finished your image and are ready to export it, you can modify the color space to optimize it:
 
 If you are preparing an image for the web:
 
@@ -304,7 +304,7 @@ Example workflows
 
 Here are some example workflows to get a feeling of how your color management workflow may look like.
 
-As mentioned before, input for your screen is set via :kbd:`settings --> configure Krita --> color management`, or via the LUT docker's 'screen space'. Working space is set via new file per document, or in the LUT docker via 'input space'.
+As mentioned before, input for your screen is set via :menuselection:`Settings --> Configure Krita --> Color management`, or via the LUT docker's 'screen space'. Working space is set via new file per document, or in the LUT docker via 'input space'.
 
 Webcomic
 ~~~~~~~~
@@ -317,7 +317,7 @@ Webcomic
 Input
     Your screen profile. (You pick colors via your screen)
 Workingspace
-    sRGB(the default screen profile) or any larger profile if you can spare the bitdepth and like working in them.
+    sRGB (the default screen profile) or any larger profile if you can spare the bitdepth and like working in them.
 Output
     sRGB, icc version 2, sRGB trc for the internet, and a specialised CMYK profile from the printing house for the printed images.
 
@@ -341,11 +341,11 @@ Input
 Workingspace
     sRGB or rec2020 if you can afford the bit-depth being 16bit.
 Output
-    specialised CMYK profile from the printing house for the printed images.
+    Specialised CMYK profile from the printing house for the printed images.
 
 The CMYK profiles are different per printer, and even per paper or ink-type so don't be presumptuous and ask ahead for them, instead of doing something like trying to paint in any random CMYK profile. As mentioned in the viewing conditions section, you want to keep your options open.
 
-You can set the advanced color selector to transform to a given profile via :kbd:`settings --> configure Krita --> advanced color selector settings`. There, tick 'color selector uses a different color space than the image' and select the CMYK profile you are aiming for. This will limit your colors a little bit, but keep all the nice filter and blending options from RGB.
+You can set the advanced color selector to transform to a given profile via :menuselection:`Settings --> Configure Krita --> Advanced color selector settings`. There, tick :guilabel:`Color selector uses a different color space than the image` and select the CMYK profile you are aiming for. This will limit your colors a little bit, but keep all the nice filter and blending options from RGB.
 
 Games
 ~~~~~
@@ -367,7 +367,7 @@ While game engines need to have optimised content, and it's recommended to stay 
 
 Normal maps and heightmaps are officially supposed to be defined with a 'non-color data' working space, but you'll find that most engines will not care much for this. Instead, tell the game engine not to do any conversion on the file when importing.
 
-Specular, glossiness, metalness and roughness maps are all based on linear calculations, and when you find that a certain material has a metalness of 0.3, this is 30% gray in a linear space. Therefore, make sure to tell the game engine renderer that this is a linear space image(or at the very least, should NOT be converted).
+Specular, glossiness, metalness and roughness maps are all based on linear calculations, and when you find that certain material has a metalness of 0.3, this is 30% gray in a linear space. Therefore, make sure to tell the game engine renderer that this is a linear space image (or at the very least, should NOT be converted).
 
 .. seealso::
 

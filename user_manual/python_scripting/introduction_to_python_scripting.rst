@@ -76,7 +76,7 @@ You should see a second scripter window open. Pretty neat! Here is a slightly mo
 
 This will open up a new document. Clearly Python gives you quite a lot of control to automate Krita. Over time we expect the community to write all kinds of scripts that you can use simply by pasting them in the scripter.
 
-But what if you want to write new commands for yourself? The best place to start is very simple: search for examples written by other people! You can save a lot of time if someone else has written code that you can base your work on. It's also worth looking through the python plugins, which are located in /share/krita/pykrita. Ther's also a step by step guide for :ref:`krita_python_plugin_howto` here in the manual.
+But what if you want to write new commands for yourself? The best place to start is very simple: search for examples written by other people! You can save a lot of time if someone else has written code that you can base your work on. It's also worth looking through the python plugins, which are located in /share/krita/pykrita. There's also a step by step guide for :ref:`krita_python_plugin_howto` here in the manual.
 
 But it's likely that you need more information. For that, we will need see what's hidden behind the asterisk when you ``import * from Krita``. To learn what Krita functions that are available and how to use them, you will want to go for Krita API reference documentation.
 

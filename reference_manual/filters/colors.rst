@@ -23,7 +23,7 @@ Similar to the Adjust filters, the color filter are image wide color operations.
 Color to Alpha
 --------------
 
-This filter allows you to make one single color transparent(alpha). By default when you run this filter white is selected, you can choose a color that you want to make transparent from the color selector
+This filter allows you to make one single color transparent (alpha). By default when you run this filter white is selected, you can choose a color that you want to make transparent from the color selector
 
 .. image:: /images/en/Color-to-alpha.png
 

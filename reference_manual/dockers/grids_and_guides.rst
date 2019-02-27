@@ -28,7 +28,7 @@ Grids in Krita can currently only be orthogonal and diagonal.. There is a single
 Show Grid
     Shows or hides the grid.
 Snap to Grid
-    Toggles grid snapping on or off. This can also be achieved with :kbd:`shift + S`.
+    Toggles grid snapping on or off. This can also be achieved with :kbd:`Shift + S`.
 Type
     The type of Grid
 

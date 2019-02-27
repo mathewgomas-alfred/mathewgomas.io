@@ -90,4 +90,4 @@ Channel
 Horizontal/Vertical radius
     The radius of the edge detection. Default is 1 and going higher will increase the strength of the normal map. Adjust this if the effect of the resulting normal map is too weak.
 XYZ
-    An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d normal vector coordinates. This is necessary mostly for the difference between Mikkt-space normal maps(+X, +Y, +Z) and the OpenGL standard normal map(+X, -Y, +Z).
+    An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d normal vector coordinates. This is necessary mostly for the difference between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard normal map (+X, -Y, +Z).

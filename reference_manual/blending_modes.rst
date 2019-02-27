@@ -41,7 +41,7 @@ Hotkeys associated with Blending modes
 --------------------------------------
 
 Defaultly the following hotkeys are associated with blending modes.
-You first need to use modifiers :kbd:`alt + shift`, then use the following hotkey to have the associated blending mode:
+You first need to use modifiers :kbd:`Alt + Shift`, then use the following hotkey to have the associated blending mode:
 
 
 * :kbd:`A` :ref:`bm_linear_burn`

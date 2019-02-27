@@ -47,8 +47,8 @@ The point is making things easier in the long run:
 #. It is easier to keep saturated non-muddy colors in a linear space.
 #. The high bit depth makes it easier to get smoother color mixes.
 #. Filters are more powerful a give nicer results in this space. It is far more easy to get nice blurring and bokeh results.
-#. Simple Blending Modes like Multiply or Addition are suddenly black magic. This is because Scene-Linear is the closest you can get to the physical(as in, physics, not material) model of color where multiplying colors with one another is one of the main ways to calculate the effect of light.
-#. Combining painting with other image results such as photography and physically based rendering is much easier as they too work in such a type of colorspace. So you could use such images as reference with little qualms, or make textures that play nice with such a renderer.
+#. Simple Blending Modes like Multiply or Addition are suddenly black magic. This is because Scene-Linear is the closest you can get to the physical (as in, physics, not material) model of color where multiplying colors with one another is one of the main ways to calculate the effect of light.
+#. Combining painting with other image results such as photography and physically based rendering is much easier as they too work in such a type of colorspace. So you could use such images as a reference with little qualms, or make textures that play nice with such a renderer.
 
 So the advantages are prettier colors, cooler filter results, more control and easier interchange with other methods.
 
@@ -59,7 +59,7 @@ Simply put, because while it’s easier in the long run, you will also have to d
 
 In particular, there’s many a tool in a digital painter’s toolbox that has **hard-coded assumptions about black and white**.
 
-A very simple but massive problem is one with **inversion**. Inverting colors is done code-wise by taking the color for white and subtracting the color you want to invert from it. It’s used in many blending modes. But often the color white is hardcoded in these filters. There’s currently no application out there that allows you to define the value range that inversion is done with, so inverting is useless. And that also means the filters and blending modes that use it, such as(but not limited to)...
+A very simple but massive problem is one with **inversion**. Inverting colors is done code-wise by taking the color for white and subtracting the color you want to invert from it. It’s used in many blending modes. But often the color white is hardcoded in these filters. There’s currently no application out there that allows you to define the value range that inversion is done with, so inverting is useless. And that also means the filters and blending modes that use it, such as (but not limited to)...
 
 * Screen (invert+multiply+invert)
 * Overlay (screens values below midtone-value, in sRGB this would be middle gray)
@@ -68,17 +68,17 @@ A very simple but massive problem is one with **inversion**. Inverting colors is
 * Hardlight (A different way of doing overlay, including the inversion)
 * Softlight (Uses several inversions along the way)
 
-Conversely Multiply, Linear Dodge/Addition(they’re the same thing), Subtract, Divide, Darker(only compares colors’ channel values), Lighter(ditto), and Difference *are fine to use*, as long as the program you use doesn’t do weird clipping there.
+Conversely Multiply, Linear Dodge/Addition (they’re the same thing), Subtract, Divide, Darker (only compares colors’ channel values), Lighter (ditto), and Difference *are fine to use*, as long as the program you use doesn’t do weird clipping there.
 
-Another one is HSL, HSI and HSY algorithms. They too need to assume something about the top value to allow scaling to white. HSV doesn’t have this problem. So it’s best to use a HSV color selector.
+Another one is HSL, HSI and HSY algorithms. They too need to assume something about the top value to allow scaling to white. HSV doesn’t have this problem. So it’s best to use an HSV color selector.
 
-For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine(and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due the assumption about black and white, not with scene linear painting. The following blending modes use them:
+For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine (and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due to the assumption about black and white, not with scene linear painting. The following blending modes use them:
 
 * Color
 * Luminosity
 * Saturation
-* Darker Color(uses luminosity to determine the color)
-* Lighter Color(Ditto)
+* Darker Color (uses luminosity to determine the color)
+* Lighter Color (Ditto)
 
 So that is the blending modes. Many filters suffer from similar issues, and in many applications, filters aren’t adjusted to work with arbitrary whites.
 
@@ -131,7 +131,7 @@ Keep in mind everything mentioned above. Not all filters and not all blending mo
 Picking really bright colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Picking regular colors is easy, but how do we pick the really bright colors? There’s three way of getting access to the really bright colors in Krita:
+Picking regular colors is easy, but how do we pick the really bright colors? There are three ways of getting access to the really bright colors in Krita:
 
 #. By lowering the exposure in the LUT docker. This will increase the visible range of colors in the color selectors. You can even hotkey the exposure in the canvas input settings.
 #. Or simply by opening the internal color selector by double clicking the dual color button and typing in values higher than 1 into the field.
@@ -144,7 +144,7 @@ Lighting based workflow
 
 So, we have our typical value based workflow, where we only paint the grays of the image so that we can focus on the values of the image. We can do something similar with Scene Linear Painting.
 
-Where with the value based workflow you paint the image as if it were a grayscale of what you intended to paint, with a lighting based workflow you paint as if all the objects are white. The effect of the color of an object can be determined by multiplying it’s base color with the color of the light. So you could paint objects as if they were white, paint the colors on a separate layer and just use the multiply blending mode to get the right colors.
+Where with the value based workflow you paint the image as if it were a grayscale of what you intended to paint, with a lighting based workflow you paint as if all the objects are white. The effect of the color of an object can be determined by multiplying its base color with the color of the light. So you could paint objects as if they were white, paint the colors on a separate layer and just use the multiply blending mode to get the right colors.
 
 .. figure:: /images/en/color_category/Krita_scenelinear_cat_02.png
    :align: center
@@ -154,11 +154,11 @@ Where with the value based workflow you paint the image as if it were a grayscal
 
 You can even combine this with a value based workflow by opening a new view and setting the component to luminosity. That way you can see both the grayscale as well as the lighting based version of the image next to one another.
 
-The keen minded will notice that a lighting based workflow kind of resembles the idea of a light-pass and a color pas in 3d rendering. And indeed, it is basically the same, so you can use lighting passes from 3d renders here, just save them as EXR and import them as a layer. One of the examples where scene linear painting simplies combining methods.
+The keen minded will notice that a lighting based workflow kind of resembles the idea of a light-pass and a color pas in 3d rendering. And indeed, it is basically the same, so you can use lighting passes from 3d renders here, just save them as EXR and import them as a layer. One of the examples where scene linear painting simplifies combining methods.
 
 Finishing up
 ~~~~~~~~~~~~
 
-When you are done, you will want to apply the view transform you have been using to the image(at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
+When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
 
 You can even use some of Blender’s or Natron’s filters at this stage, and when working with others, you would save out in EXR so that others can use those.

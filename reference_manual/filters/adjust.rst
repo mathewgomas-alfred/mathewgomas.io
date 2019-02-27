@@ -133,9 +133,9 @@ Has several choices by which logic the colors are turned to grey. The default sh
 
 Lightness
     This will turn colors to grey using the HSL model.
-Luminosity(ITU-R BT.709)
+Luminosity (ITU-R BT.709)
     Will turn the color to grey by using the appropriate amount of weighting per channel according to ITU-R BT.709.
-Luminosity(ITU-R BT.601)
+Luminosity (ITU-R BT.601)
     Will turn the color to grey by using the appropriate amount of weighting per channel according to ITU-R BT.601.
 Average
     Will make an average of all channels.
@@ -149,8 +149,8 @@ Max
 Invert
 ------
 
-This filter like the name suggests inverts the color values in the image.So white (1,1,1) becomes black(0,0,0), yellow(1,1,0) becomes blue(0,1,1), etc.
-The default shortcut for this filter is :kbd:`Ctrl + I` .
+This filter like the name suggests inverts the color values in the image.So white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), etc.
+The default shortcut for this filter is :kbd:`Ctrl + I`.
 
 .. index:: Contrast
 
