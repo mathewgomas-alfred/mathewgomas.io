@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-23 03:24+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-26 17:54+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,31 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: toolcalligraphy icons demão image calligraphytool\n"
+"X-POFile-SpellExtra: images alt\n"
 
 #: ../../<rst_epilog>:16
 msgid ""
 ".. image:: images/icons/calligraphy_tool.svg\n"
 "   :alt: toolcalligraphy"
 msgstr ""
+".. image:: images/icons/calligraphy_tool.svg\n"
+"   :alt: ferramenta de caligrafia"
 
 #: ../../reference_manual/tools/calligraphy.rst:1
 msgid "Krita's calligraphy tool reference."
-msgstr ""
+msgstr "A referência à ferramenta de caligrafia."
 
 #: ../../reference_manual/tools/calligraphy.rst:16
 msgid "Calligraphy Tool"
-msgstr ""
+msgstr "Ferramenta de Caligrafia"
 
 #: ../../reference_manual/tools/calligraphy.rst:18
 msgid "|toolcalligraphy|"
-msgstr ""
+msgstr "|toolcalligraphy|"
 
 #: ../../reference_manual/tools/calligraphy.rst:20
 msgid ""
 "The Calligraphy tool allows for variable width lines, with input managed by "
 "the tablet. Press down with the stylus/left mouse button on the canvas to "
 "make a line, lifting the stylus/mouse button ends the stroke."
-msgstr ""
+msgstr "A ferramenta de Caligrafia permite ter linhas de espessura variável, sendo a reacção gerida pela tablete. Carregue com o lápis sobre a área de desenho para desenhar uma linha, enquanto levantando o lápis/botão do rato irá terminar o traço."
 
 #: ../../reference_manual/tools/calligraphy.rst:24
 msgid "Tool Options"
@@ -48,49 +52,49 @@ msgstr "Opções da Ferramenta"
 
 #: ../../reference_manual/tools/calligraphy.rst:26
 msgid "**Fill**"
-msgstr ""
+msgstr "**Preencher**"
 
 #: ../../reference_manual/tools/calligraphy.rst:28
 msgid "Doesn't actually do anything."
-msgstr ""
+msgstr "De facto, não faz nada."
 
 #: ../../reference_manual/tools/calligraphy.rst:30
 msgid "**Calligraphy**"
-msgstr ""
+msgstr "**Caligrafia**"
 
 #: ../../reference_manual/tools/calligraphy.rst:32
 msgid ""
 "The dropdown menu holds your saved presets, the save button next to it "
 "allows you to save presets."
-msgstr ""
+msgstr "A lista contém as suas predefinições gravadas, sendo que o botão para gravar permite-lhe gravar as predefinições."
 
 #: ../../reference_manual/tools/calligraphy.rst:34
 msgid "Follow Selected Path"
-msgstr ""
+msgstr "Seguir o Caminho Seleccionado"
 
 #: ../../reference_manual/tools/calligraphy.rst:35
 msgid ""
 "If a stroke has been selected with the default tool, the calligraphy tool "
 "will follow this path."
-msgstr ""
+msgstr "Se tiver seleccionado um traço com a ferramenta predefinida, a ferramenta de caligrafia irá seguir esse caminho."
 
 #: ../../reference_manual/tools/calligraphy.rst:36
 msgid "Use Tablet Pressure"
-msgstr ""
+msgstr "Usar a Pressão da Tablete"
 
 #: ../../reference_manual/tools/calligraphy.rst:37
 msgid "Uses tablet pressure to control the stroke width."
-msgstr ""
+msgstr "Usa a pressão da tablete para controlar a espessura do traço."
 
 #: ../../reference_manual/tools/calligraphy.rst:38
 msgid "Thinning"
-msgstr ""
+msgstr "Afinamento"
 
 #: ../../reference_manual/tools/calligraphy.rst:39
 msgid ""
 "This allows you to set how much thinner a line becomes when speeding up the "
 "stroke. Using a negative value makes it thicker."
-msgstr ""
+msgstr "Isto permite-lhe definir quão fina se torna uma linha à medida que se acelera o traço. Se usar um valor negativo, tornar-se-á mais grossa."
 
 #: ../../reference_manual/tools/calligraphy.rst:40
 msgid "Width"
@@ -98,17 +102,17 @@ msgstr "Largura"
 
 #: ../../reference_manual/tools/calligraphy.rst:41
 msgid "Base width for the stroke."
-msgstr ""
+msgstr "Espessura de base para o traço."
 
 #: ../../reference_manual/tools/calligraphy.rst:42
 msgid "Use Tablet Angle"
-msgstr ""
+msgstr "Usar o Ângulo da Tablete"
 
 #: ../../reference_manual/tools/calligraphy.rst:43
 msgid ""
 "Allows you to use the tablet angle to control the stroke, only works for "
 "tablets supporting it."
-msgstr ""
+msgstr "Permite-lhe usar o ângulo da tablete para controlar o traço; só funciona para as tabletes que o suportem."
 
 #: ../../reference_manual/tools/calligraphy.rst:44
 msgid "Angle"
@@ -116,23 +120,23 @@ msgstr "Ângulo"
 
 #: ../../reference_manual/tools/calligraphy.rst:45
 msgid "The angle of the dab."
-msgstr ""
+msgstr "O ângulo da demão."
 
 #: ../../reference_manual/tools/calligraphy.rst:46
 msgid "Fixation"
-msgstr ""
+msgstr "Fixação"
 
 #: ../../reference_manual/tools/calligraphy.rst:47
 msgid "The ratio of the dab. 1 is thin, 0 is round."
-msgstr ""
+msgstr "A proporção da demão. O valor 1 é fino, enquanto o 0 é redondo."
 
 #: ../../reference_manual/tools/calligraphy.rst:48
 msgid "Caps"
-msgstr ""
+msgstr "Extremos"
 
 #: ../../reference_manual/tools/calligraphy.rst:49
 msgid "Whether or not an stroke will end with a rounding or flat."
-msgstr ""
+msgstr "Se o traço vai terminar arredondado ou abruptamente."
 
 #: ../../reference_manual/tools/calligraphy.rst:50
 msgid "Mass"
@@ -142,20 +146,20 @@ msgstr "Massa"
 msgid ""
 "How much weight the stroke has. With drag set to 0, high mass increases the "
 "'orbit'."
-msgstr ""
+msgstr "Quanto peso tem o traço. Quando o arrastamento for igual a 0, uma massa elevada aumenta a 'órbita'."
 
 #: ../../reference_manual/tools/calligraphy.rst:53
 msgid "Drag"
-msgstr "Arrastar"
+msgstr "Arrastamento"
 
 #: ../../reference_manual/tools/calligraphy.rst:53
 msgid ""
 "How much the stroke follows the cursor, when set to 0 the stroke will orbit "
 "around the cursor path."
-msgstr ""
+msgstr "Quanto é que o traço segue o cursor; se for igual a 0, o traço irá orbitar em torno do caminho do cursor."
 
 #: ../../reference_manual/tools/calligraphy.rst:57
 msgid ""
 "The calligraphy tool can be edited by the edit-line tool, but currently you "
 "can't add or remove nodes without converting it to a normal path."
-msgstr ""
+msgstr "A ferramenta de caligrafia pode ser editada na ferramenta da linha de edição, mas neste momento não consegue adicionar ou remover nós sem a converter para um caminho normal."

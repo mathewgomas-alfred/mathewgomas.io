@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-26 01:53+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,14 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Krita KRA Open Document kra\n"
 
 #: ../../general_concepts/file_formats/file_kra.rst:1
 msgid "The Krita Raster Archive file format."
-msgstr ""
+msgstr "O formato de ficheiro de arquivo rasterizado do Krita (KRA)."
 
 #: ../../general_concepts/file_formats/file_kra.rst:15
 msgid "\\*.kra"
-msgstr ""
+msgstr "\\*.kra"
 
 #: ../../general_concepts/file_formats/file_kra.rst:17
 msgid ""
@@ -32,9 +33,16 @@ msgid ""
 "vaguely based on the open document standard, which means that you can rename "
 "your .kra file to a .zip file and open it up to look at the insides."
 msgstr ""
+"O formato .kra é o formato de ficheiros interno do Krita, o que significa "
+"que é o formato de ficheiros que grava todas as características que o Krita "
+"consegue lidar. A sua construção é vagamente baseada na norma Open Document, "
+"o que significa que poderá mudar o nome do seu ficheiro .kra para um "
+"ficheiro .zip e abri-lo para observar os seus detalhes interiores."
 
 #: ../../general_concepts/file_formats/file_kra.rst:19
 msgid ""
 "It is a format that you can expect to get very heavy, and isn't meant for "
 "sharing on the internet."
 msgstr ""
+"É um formato que poderá contar que fique demasiado grande, não sendo "
+"destinado a ser partilhado na Internet."

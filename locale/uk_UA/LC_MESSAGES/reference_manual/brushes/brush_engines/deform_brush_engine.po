@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___deform_brush_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__deform_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-23 03:24+0100\n"
-"PO-Revision-Date: 2019-02-20 13:58+0200\n"
+"PO-Revision-Date: 2019-02-26 19:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,19 +19,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
 msgid "Use Undeformed Image"
-msgstr ""
+msgstr "Використати недеформоване зображення"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:1
 msgid "The Deform Brush Engine manual page."
-msgstr ""
+msgstr "Сторінка підручника щодо рушія пензлів викривлення."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:16
 msgid "Deform Brush Engine"
-msgstr ""
+msgstr "Рушій пензлів викривлення"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:19
 msgid ".. image:: images/icons/deformbrush.svg"
@@ -43,6 +43,10 @@ msgid ""
 "It's quite similar to the :ref:`liquify_mode`, but where liquify has higher "
 "quality, the deform brush has the speed."
 msgstr ""
+"Пензель викривлення — це пензель, який надає вам змогу притягувати і"
+" розштовхувати пікселі на зображенні. Його робота подібна до"
+" :ref:`liquify_mode`, але інструмент розплавлення дає якісніші результати,"
+" хоча пензель деформування працює швидше."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:24
 msgid "Options"
@@ -78,7 +82,7 @@ msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:38
 msgid "Deform Options"
-msgstr ""
+msgstr "Параметри викривлення"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:42
 msgid ".. image:: images/en/Krita_deform_brush_examples.png"
@@ -96,35 +100,35 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:46
 msgid "Grow"
-msgstr ""
+msgstr "Збільшити"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:47
 msgid "This bubbles up the area underneath the brush-cursor."
-msgstr ""
+msgstr "Цей варіант збільшує область під пензлем-вказівником."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:48
 msgid "Shrink"
-msgstr ""
+msgstr "Зменшити"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:49
 msgid "This pinches the Area underneath the brush-cursor."
-msgstr ""
+msgstr "Цей варіант стягує область під пензлем-вказівником."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:50
 msgid "Swirl Counter Clock Wise"
-msgstr ""
+msgstr "Вихор проти годинникової стрілки"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:51
 msgid "Swirls the area counter clock wise."
-msgstr ""
+msgstr "Закручує область під вказівником вихором проти годинникової стрілки."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:52
 msgid "Swirl Clock Wise"
-msgstr ""
+msgstr "Вихор за годинниковою стрілкою"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:53
 msgid "Swirls the area clockwise."
-msgstr ""
+msgstr "Закручує область під вказівником вихором за годинниковою стрілкою."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:54
 msgid "Move"
@@ -132,11 +136,11 @@ msgstr "Пересунути"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:55
 msgid "Nudges the area to the painting direction."
-msgstr ""
+msgstr "Виштовхує область у напрямку малювання."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:56
 msgid "Color Deformation"
-msgstr ""
+msgstr "Викривлення кольорів"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:57
 msgid "This seems to randomly rearrange the pixels underneath the brush,"
@@ -144,7 +148,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:58
 msgid "Lens Zoom In"
-msgstr ""
+msgstr "Збільшення об’єктива"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:59
 msgid "Literally paints a enlarged version of the area."
@@ -152,11 +156,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Lens Zoom Out"
-msgstr ""
+msgstr "Зменшення об’єктива"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Paints a minimized version of the area."
-msgstr ""
+msgstr "Вмальовує зменшену версію області."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:65
 msgid ".. image:: images/en/Krita_deform_brush_colordeform.png"
@@ -168,11 +172,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Deform Amount"
-msgstr ""
+msgstr "Величина викривлення"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Defines the strength of the deformation."
-msgstr ""
+msgstr "Визначає потужність викривлення."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:72
 msgid ".. image:: images/en/Krita_deform_brush_bilinear.png"
@@ -181,7 +185,7 @@ msgstr ".. image:: images/en/Krita_deform_brush_bilinear.png"
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:72
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:74
 msgid "Bilinear Interpolation"
-msgstr ""
+msgstr "Білінійна інтерполяція"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:75
 msgid "Smoothens the result. This causes calculation errors in 16bit."
@@ -189,7 +193,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:77
 msgid "Use Counter"
-msgstr ""
+msgstr "Використати лічильник"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:77
 msgid "Slows down the deformation subtlety."

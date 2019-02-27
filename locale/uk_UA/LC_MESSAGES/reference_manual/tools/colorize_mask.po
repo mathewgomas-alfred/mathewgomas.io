@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___colorize_mask\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"POT-Creation-Date: 2019-02-26 03:14+0100\n"
 "PO-Revision-Date: 2019-02-25 21:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<rst_epilog>:2
@@ -51,24 +51,6 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -118,6 +100,24 @@ msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_11.png"
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+
 #: ../../reference_manual/tools/colorize_mask.rst:1
 msgid "How to use the colorize mask in Krita."
 msgstr "Як користуватися масками розфарбовування у Krita."
@@ -154,8 +154,8 @@ msgid ""
 "This tool works in conjunction with the colorize mask, and the usage is as "
 "follows:"
 msgstr ""
-"Цей інструмент працює у поєднанні із маскою розфарбовування. Користуватися"
-" ним слід так:"
+"Цей інструмент працює у поєднанні із маскою розфарбовування. Користуватися "
+"ним слід так:"
 
 #: ../../reference_manual/tools/colorize_mask.rst:30
 msgid ""

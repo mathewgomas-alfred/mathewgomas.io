@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-26 12:07+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,20 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: icons Krita filltool image toolgradient images alt\n"
+"X-POFile-SpellExtra: gradientdrawingtool ref\n"
 
 #: ../../<generated>:1
 msgid "Antialias threshold"
-msgstr ""
+msgstr "Limite da suavização"
 
 #: ../../<rst_epilog>:58
 msgid ""
 ".. image:: images/icons/gradient_drawing_tool.svg\n"
 "   :alt: toolgradient"
 msgstr ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: ferramenta de gradiente"
 
 #: ../../reference_manual/tools/gradient_draw.rst:1
 msgid "Krita's gradient tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de gradientes do Krita."
 
 #: ../../reference_manual/tools/gradient_draw.rst:16
 msgid "Gradient Tool"
@@ -37,7 +41,7 @@ msgstr "Ferramenta de Gradiente"
 
 #: ../../reference_manual/tools/gradient_draw.rst:18
 msgid "|toolgradient|"
-msgstr ""
+msgstr "|toolgradient|"
 
 #: ../../reference_manual/tools/gradient_draw.rst:20
 msgid ""
@@ -45,7 +49,7 @@ msgid ""
 "over the active portion of the canvas will draw out the current gradient.  "
 "If there is an active selection then, similar to the :ref:`fill_tool`, the "
 "paint action will be confined to the selection's borders."
-msgstr ""
+msgstr "A ferramenta do Gradiente consta no Painel de Ferramentas. Se carregar no botão esquerdo e arrastar esta ferramenta na parte activa da área de desenho, irá desenhar o gradiente actual. Se existir uma selecção activa nesse momento então, de forma semelhante à :ref:`fill_tool`, a acção de pintura será restrita ao contorno da selecção."
 
 #: ../../reference_manual/tools/gradient_draw.rst:23
 msgid "Tool Options"
@@ -61,7 +65,7 @@ msgstr "Linear"
 
 #: ../../reference_manual/tools/gradient_draw.rst:28
 msgid "This will draw the gradient straight."
-msgstr ""
+msgstr "Isto irá desenhar o gradiente a direito."
 
 #: ../../reference_manual/tools/gradient_draw.rst:29
 msgid "Radial"
@@ -71,7 +75,7 @@ msgstr "Radial"
 msgid ""
 "This will draw the gradient from a center, defined by where you start the "
 "stroke."
-msgstr ""
+msgstr "Isto irá desenhar o gradiente a partir de um centro, definido pelo local onde iniciar o traço."
 
 #: ../../reference_manual/tools/gradient_draw.rst:31
 msgid "Square"
@@ -81,35 +85,35 @@ msgstr "Quadrado"
 msgid ""
 "This will draw the gradient from a center in a square shape, defined by "
 "where you start the stroke."
-msgstr ""
+msgstr "Isto irá desenhar o gradiente a partir de um centro num formato quadrado, definido pelo local onde iniciar o traço."
 
 #: ../../reference_manual/tools/gradient_draw.rst:33
 msgid "Conical"
-msgstr ""
+msgstr "Cónico"
 
 #: ../../reference_manual/tools/gradient_draw.rst:34
 msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke."
-msgstr ""
+msgstr "Isto irá desenhar o gradiente a partir de um centro num formato circular, definido pelo local onde iniciar o traço."
 
 #: ../../reference_manual/tools/gradient_draw.rst:35
 msgid "Conical-symmetric"
-msgstr ""
+msgstr "Cónico-simétrico"
 
 #: ../../reference_manual/tools/gradient_draw.rst:36
 msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke, but will mirror the wrap once."
-msgstr ""
+msgstr "Isto irá desenhar o gradiente a partir de um centro num formato circular, definido pelo local onde iniciar o traço, mas irá criar um espelho da envolvência. "
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "Shaped"
-msgstr ""
+msgstr "Com Forma"
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "This will shape the gradient depending on the selection or layer."
-msgstr ""
+msgstr "Isto irá moldar o gradiente de acordo com a selecção ou camada."
 
 #: ../../reference_manual/tools/gradient_draw.rst:40
 msgid "Repeat:"
@@ -117,29 +121,29 @@ msgstr "Repetição:"
 
 #: ../../reference_manual/tools/gradient_draw.rst:42
 msgid "None"
-msgstr ""
+msgstr "Nenhuma"
 
 #: ../../reference_manual/tools/gradient_draw.rst:43
 msgid "This will extend the gradient into infinity."
-msgstr ""
+msgstr "Isto irá expandir o gradiente até ao infinito."
 
 #: ../../reference_manual/tools/gradient_draw.rst:44
 msgid "Forward"
-msgstr "Avançar"
+msgstr "Direito"
 
 #: ../../reference_manual/tools/gradient_draw.rst:45
 msgid "This will repeat the gradient into one direction."
-msgstr ""
+msgstr "Isto irá repetir o gradiente numa única direcção."
 
 #: ../../reference_manual/tools/gradient_draw.rst:47
 msgid "Alternating"
-msgstr ""
+msgstr "Alternado"
 
 #: ../../reference_manual/tools/gradient_draw.rst:47
 msgid ""
 "This will repeat the gradient, alternating the normal direction and the "
 "reversed."
-msgstr ""
+msgstr "Isto irá repetir o gradiente, alternando a direcção normal com a invertida."
 
 #: ../../reference_manual/tools/gradient_draw.rst:49
 msgid "Reverse"
@@ -147,8 +151,8 @@ msgstr "Inversa"
 
 #: ../../reference_manual/tools/gradient_draw.rst:50
 msgid "Reverses the direction of the gradient."
-msgstr ""
+msgstr "Inverte a direcção do gradiente."
 
 #: ../../reference_manual/tools/gradient_draw.rst:52
 msgid "Doesn't do anything, original function must have gotten lost in a port."
-msgstr ""
+msgstr "Não faz nada; a função original deve-se ter perdido numa migração de código."

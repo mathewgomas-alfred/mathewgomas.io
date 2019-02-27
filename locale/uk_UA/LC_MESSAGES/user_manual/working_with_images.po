@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___working_with_images\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"POT-Creation-Date: 2019-02-26 03:14+0100\n"
 "PO-Revision-Date: 2019-02-24 10:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -514,18 +514,24 @@ msgstr ""
 "поточний документ на збережений файл."
 
 #: ../../user_manual/working_with_images.rst:275
+msgid ""
+"Copies the last saved version of your file to a back-up file and saves your "
+"document under the original name."
+msgstr ""
+
+#: ../../user_manual/working_with_images.rst:277
 msgid "Save Incremental Backup."
 msgstr "Зберегти нарощувальну версію."
 
-#: ../../user_manual/working_with_images.rst:275
-msgid "Exports the current image as 'filename'\\_XXX.kra."
-msgstr ""
-"Експортувати поточне зображення до файла із назвою «назва_файла»\\_XXX.kra."
-
-#: ../../user_manual/working_with_images.rst:278
+#: ../../user_manual/working_with_images.rst:280
 msgid ""
 "Since Krita's file format is compressed data file, in case of a corrupt or "
 "broken file you can open it with archive managers and extract the contents "
 "of the layers. This will help you to recover as much as possible data from "
 "the file. On windows, you will need to rename it to filename.zip to open it."
 msgstr ""
+
+#~ msgid "Exports the current image as 'filename'\\_XXX.kra."
+#~ msgstr ""
+#~ "Експортувати поточне зображення до файла із назвою «назва_файла»\\_XXX."
+#~ "kra."

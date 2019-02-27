@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-26 17:39+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Krita ref waveletdecompose kbd\n"
 
 #: ../../<generated>:1
 msgid "Separate Image"
@@ -23,11 +24,11 @@ msgstr "Separar a Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:1
 msgid "The image menu in Krita."
-msgstr ""
+msgstr "O menu de imagens no Krita."
 
 #: ../../reference_manual/main_menu/image_menu.rst:16
 msgid "Image Menu"
-msgstr ""
+msgstr "O Menu Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:18
 msgid "Properties"
@@ -35,52 +36,52 @@ msgstr "Propriedades"
 
 #: ../../reference_manual/main_menu/image_menu.rst:19
 msgid "Gives you the image properties."
-msgstr ""
+msgstr "Dá-lhe algumas propriedades da imagem."
 
 #: ../../reference_manual/main_menu/image_menu.rst:20
 msgid "Image Background Color and Transparency"
-msgstr ""
+msgstr "Cor de Fundo e Transparência da Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:21
 msgid "Change the background canvas color."
-msgstr ""
+msgstr "Mudar a cor de fundo da área de desenho."
 
 #: ../../reference_manual/main_menu/image_menu.rst:22
 msgid "Convert Current Image Color Space."
-msgstr ""
+msgstr "Converter o Espaço de Cores Actual da Imagem."
 
 #: ../../reference_manual/main_menu/image_menu.rst:23
 msgid "Converts the current image to a new colorspace."
-msgstr ""
+msgstr "Converte a imagem actual para um novo espaço de cores."
 
 #: ../../reference_manual/main_menu/image_menu.rst:24
 msgid "Trim to image size"
-msgstr ""
+msgstr "Recortar ao tamanho da imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:25
 msgid ""
 "Trims all layers to the image size. Useful for reducing filesize at the loss "
 "of information."
-msgstr ""
+msgstr "Recorta todas as camadas ao tamanho da imagem. É útil para reduzir o tamanho do ficheiro em detrimento da perda de informações."
 
 #: ../../reference_manual/main_menu/image_menu.rst:26
 msgid "Trim to Current Layer"
-msgstr ""
+msgstr "Recortar à Camada Actual"
 
 #: ../../reference_manual/main_menu/image_menu.rst:27
 msgid ""
 "A lazy cropping function. Krita will use the size of the current layer to "
 "determine where to crop."
-msgstr ""
+msgstr "Uma função de recorte a pedido. O Krita irá usar o tamanho da camada actual para determinar onde cortar."
 
 #: ../../reference_manual/main_menu/image_menu.rst:28
 msgid "Trim to Selection"
-msgstr ""
+msgstr "Recortar à Selecção"
 
 #: ../../reference_manual/main_menu/image_menu.rst:29
 msgid ""
 "A lazy cropping function. Krita will crop the canvas to the selected area."
-msgstr ""
+msgstr "Uma função de recorte a pedido. O Krita irá recortar a área de desenho à área seleccionada."
 
 #: ../../reference_manual/main_menu/image_menu.rst:30
 msgid "Rotate Image"
@@ -88,7 +89,7 @@ msgstr "Rodar a Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:31
 msgid "Rotate the image"
-msgstr ""
+msgstr "Roda a imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:32
 msgid "Shear Image"
@@ -96,39 +97,39 @@ msgstr "Inclinar Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:33
 msgid "Shear the image"
-msgstr ""
+msgstr "Inclina a imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:34
 msgid "Mirror Image Horizontally"
-msgstr ""
+msgstr "Espelhar a Imagem na Horizontal"
 
 #: ../../reference_manual/main_menu/image_menu.rst:35
 msgid "Mirror the image on the horizontal axis."
-msgstr ""
+msgstr "Cria um espelho da imagem no eixo horizontal."
 
 #: ../../reference_manual/main_menu/image_menu.rst:36
 msgid "Mirror Image Vertically"
-msgstr ""
+msgstr "Espelhar a Imagem na Vertical"
 
 #: ../../reference_manual/main_menu/image_menu.rst:37
 msgid "Mirror the image on the vertical axis."
-msgstr ""
+msgstr "Cria um espelho da imagem no eixo vertical."
 
 #: ../../reference_manual/main_menu/image_menu.rst:38
 msgid "Scale to New Size"
-msgstr ""
+msgstr "Escala ao Novo Tamanho"
 
 #: ../../reference_manual/main_menu/image_menu.rst:39
 msgid "The resize function in any other program :kbd:`Ctrl + Alt + I`"
-msgstr ""
+msgstr "A função de ajuste do tamanho em qualquer outro programa :kbd:`Ctrl + Alt + I'"
 
 #: ../../reference_manual/main_menu/image_menu.rst:40
 msgid "Offset Image"
-msgstr ""
+msgstr "Deslocamento da Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:41
 msgid "Offset all layers."
-msgstr ""
+msgstr "Provoca um deslocamento de todas as camadas."
 
 #: ../../reference_manual/main_menu/image_menu.rst:42
 msgid "Resize Canvas"
@@ -136,7 +137,7 @@ msgstr "Dimensionar a Área de Desenho"
 
 #: ../../reference_manual/main_menu/image_menu.rst:43
 msgid "Change the canvas size. Don't confuse this with Scale to new size."
-msgstr ""
+msgstr "Muda o tamanho da área de desenho. Não confundir com a opção 'Escala ao Novo Tamanho'."
 
 #: ../../reference_manual/main_menu/image_menu.rst:44
 msgid "Image Split"
@@ -144,7 +145,7 @@ msgstr "Divisão da Imagem"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
 msgid "Splits the image."
-msgstr ""
+msgstr "Divide a imagem."
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
 msgid "Wavelet Decompose"
@@ -152,8 +153,8 @@ msgstr "Decomposição de Ondas"
 
 #: ../../reference_manual/main_menu/image_menu.rst:47
 msgid "Does :ref:`wavelet_decompose` on the current layer."
-msgstr ""
+msgstr "Efectua uma :ref:`wavelet_decompose` sobre a camada actual."
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
 msgid "Separates the image into channels"
-msgstr ""
+msgstr "Separa a imagem por canais"
