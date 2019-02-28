@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___loading_saving_brushes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-25 21:51+0200\n"
+"POT-Creation-Date: 2019-02-27 03:30+0100\n"
+"PO-Revision-Date: 2019-02-27 16:47+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,13 +20,13 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../user_manual/loading_saving_brushes.rst:None
-msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-
 #: ../../user_manual/loading_saving_brushes.rst:0
 msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
 msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+
+#: ../../user_manual/loading_saving_brushes.rst:None
+msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -276,6 +276,8 @@ msgstr "Бібліотека піктограм"
 #: ../../user_manual/loading_saving_brushes.rst:142
 msgid "To make making presets icons faster, Krita got an icon library."
 msgstr ""
+"Щоб пришвидшити створення піктограм наборів, ми передбачили у Krita"
+" бібліотеку піктограм."
 
 #: ../../user_manual/loading_saving_brushes.rst:145
 msgid ".. image:: images/en/Krita_4_0_Preset_Icon_Library_Dialog.png"
@@ -328,6 +330,8 @@ msgid ""
 "It is by default collapsed, so you will need to press the arrow at the top "
 "left of the brush engine to show it."
 msgstr ""
+"Типово, його згорнуто, отже, вам доведеться натиснути стрілочку згори і"
+" ліворуч від пункту рушія пензлів, щоб програма показала його."
 
 #: ../../user_manual/loading_saving_brushes.rst:177
 msgid ""
@@ -348,6 +352,9 @@ msgid ""
 "The trashcan icon does the same as it does in the preset docker: delete , or "
 "rather, blacklist a preset so it won't show up in the list."
 msgstr ""
+"Піктограма смітника виконує ту саму роль, що і на бічній панелі наборів:"
+" вилучити або, точніше, додати до «чорного» списку набір так, щоб програма не"
+" показувала його у списку."
 
 #: ../../user_manual/loading_saving_brushes.rst:189
 msgid "Section C - The Scratch pad"
@@ -365,6 +372,8 @@ msgid ""
 "It is by default collapsed, so you will have to press the arrow at the top "
 "right of the brush settings to show it."
 msgstr ""
+"Типово, його згорнуто, отже, вам доведеться натиснути стрілочку згори і"
+" праворуч від пункту параметрів пензля, щоб програма показала його."
 
 #: ../../user_manual/loading_saving_brushes.rst:198
 msgid ""
@@ -375,7 +384,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:202
 msgid "The scratch pad has five buttons underneath it. These are in order for:"
-msgstr ""
+msgstr "Під основною панеллю нотатника розташовано п'ять кнопок. Ось вони:"
 
 #: ../../user_manual/loading_saving_brushes.rst:204
 msgid "Showing the current brush image"
@@ -431,7 +440,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:233
 msgid "Using sensor curves"
-msgstr ""
+msgstr "Користування кривими датчиків"
 
 #: ../../user_manual/loading_saving_brushes.rst:235
 msgid ""
@@ -464,6 +473,8 @@ msgid ""
 "Such a situation can be improved by using the curves to map pressure to "
 "output thinner lines or thicker ones."
 msgstr ""
+"Проблему можна усунути використанням кривих зв'язку для визначення тонших або"
+" товщих ліній для певного рівня тиску стилом на сенсорний екран."
 
 #: ../../user_manual/loading_saving_brushes.rst:255
 msgid ""
@@ -475,7 +486,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:260
 msgid "Underneath the curve widget there are two more options:"
-msgstr ""
+msgstr "Під віджетом кривої розташовано ще два пункти:"
 
 #: ../../user_manual/loading_saving_brushes.rst:263
 msgid ""
@@ -648,7 +659,7 @@ msgstr "Швидкий перегляд"
 
 #: ../../user_manual/loading_saving_brushes.rst:333
 msgid "The On-canvas brush settings"
-msgstr ""
+msgstr "Параметри пензля на полотні"
 
 #: ../../user_manual/loading_saving_brushes.rst:335
 msgid ""
@@ -669,7 +680,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:347
 msgid "Making a Brush Preset"
-msgstr ""
+msgstr "Створення набору пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:349
 msgid "Now, let's make a simple brush to test the waters with:"
@@ -677,7 +688,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:352
 msgid "Getting a default for the brush engine."
-msgstr ""
+msgstr "Визначення типових параметрів для рушія пензлів."
 
 #: ../../user_manual/loading_saving_brushes.rst:354
 msgid "First, open the settings with F5."
@@ -692,7 +703,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:361
 msgid "Example: Making an inking brush"
-msgstr ""
+msgstr "Приклад: створення чорнильного пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:363
 msgid ""
@@ -769,7 +780,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:401
 msgid "Saving the new Brush"
-msgstr ""
+msgstr "Збереження нового пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:403
 msgid ""

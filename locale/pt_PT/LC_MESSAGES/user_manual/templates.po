@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-27 11:08+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en DSLR DMK kra Krita guilabel image Canon DC Nikon\n"
+"X-POFile-SpellExtra: Design Batman images et Spirou KritaNewFileTemplateA\n"
+"X-POFile-SpellExtra: TinTin Marvel\n"
 
 #: ../../user_manual/templates.rst:1
 msgid "How to use document templates in Krita."
-msgstr ""
+msgstr "Como usar modelos de documentos no Krita."
 
 #: ../../user_manual/templates.rst:17
 msgid "Templates"
@@ -27,14 +30,14 @@ msgstr "Modelos"
 
 #: ../../user_manual/templates.rst:20
 msgid ".. image:: images/en/Krita_New_File_Template_A.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_New_File_Template_A.png"
 
 #: ../../user_manual/templates.rst:21
 msgid ""
 "Templates are just .kra files which are saved in a special location so it "
 "can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing "
 "Document and Untitled Document` but then with a nicer place in the UI."
-msgstr ""
+msgstr "Os modelos são simplesmente ficheiros .kra que são gravados num local específico, para que possam ser recolhidos rapidamente pelo Krita. Esta opção é como a :guilabel:`Abrir um Documento Existe e um Documento sem Nome`, mas com um local mais adequado na interface."
 
 #: ../../user_manual/templates.rst:23
 msgid ""
@@ -42,15 +45,15 @@ msgid ""
 "`create template from image` in the file menu. This will add your current "
 "document as a new template, including all its properties along with the "
 "layers and layer contents."
-msgstr ""
+msgstr "Poderá criar o seu próprio ficheiro de modelo a partir de qualquer ficheiro .kra, usando a opção :guilabel:`criar um modelo da imagem` no menu Ficheiro. Isto irá adicionar o seu documento actual como um novo modelo, incluindo todas as suas propriedades, em conjunto com as camadas e respectivo conteúdo."
 
 #: ../../user_manual/templates.rst:25
 msgid "We have the following defaults:"
-msgstr ""
+msgstr "Possuímos as seguintes predefinições:"
 
 #: ../../user_manual/templates.rst:28
 msgid "Comic Templates"
-msgstr ""
+msgstr "Modelos de Banda Desenhada"
 
 #: ../../user_manual/templates.rst:30
 msgid ""
@@ -60,76 +63,76 @@ msgid ""
 "vector layers. In between these two, you can draw your picture, and not fear "
 "them drawing over the panel. Use Inherit Alpha to clip the drawing by the "
 "panel."
-msgstr ""
+msgstr "Estes modelos são concebidos especificamente para que você seja apresentado ao desenho de bandas desenhadas. O modelo de banda desenhada baseia-se num sistema de vectores e clones dessas camadas de vectoriais, reflectindo automaticamente as modificações feitas às camadas vectoriais. No meio dos dois, poderá desenhar a sua imagem sem medo que desenhe fora do painel. Use a opção 'Herdar o Alfa' para recortar o desenho de acordo com o painel."
 
 #: ../../user_manual/templates.rst:32
 msgid "European Bande Desinée Template."
-msgstr ""
+msgstr "Modelo de Banda Desenhada Europeia."
 
 #: ../../user_manual/templates.rst:33
 msgid ""
 "This one is reminiscent of the system used by for example TinTin or Spirou "
 "et Fantasio. These panels focus on wide images, and horizontal cuts."
-msgstr ""
+msgstr "Esta relembra o sistema usado por exemplo pelo TinTin ou o Spirou et Fantasio. Estes painéis focam-se em imagens amplas e cortes horizontais."
 
 #: ../../user_manual/templates.rst:34
 msgid "US-style comics Template."
-msgstr ""
+msgstr "Modelo de banda desenhada de estilo americano."
 
 #: ../../user_manual/templates.rst:35
 msgid ""
 "This one is reminiscent of old DC and Marvel comics, such as Batman or "
 "Captain America. Nine images for quick story progression."
-msgstr ""
+msgstr "Esta relembra as bandas desenhadas antigas da DC e Marvel, como o Batman ou o Capitão América. Composta por nove imagens, para uma progressão rápida da história."
 
 #: ../../user_manual/templates.rst:36
 msgid "Manga Template."
-msgstr ""
+msgstr "Modelo de Manga."
 
 #: ../../user_manual/templates.rst:37
 msgid ""
 "This one is based on Japanese comics, and focuses on a thin vertical gutter "
 "and a thick horizontal gutter, ensuring that the reader finished the "
 "previous row before heading to the next."
-msgstr ""
+msgstr "Este baseia-se nas bandas desenhadas japonesas, focando-se num corte vertical fino e um corte horizontal grosso, garantindo que o leitor terminou a linha anterior antes de passar à seguinte."
 
 #: ../../user_manual/templates.rst:39
 msgid "Waffle Iron Grid"
-msgstr ""
+msgstr "Grelha de Bolachas em Ferro"
 
 #: ../../user_manual/templates.rst:39
 msgid "12 little panels at your disposal."
-msgstr ""
+msgstr "12 pequenos painéis à sua disposição."
 
 #: ../../user_manual/templates.rst:42
 msgid "Design Templates"
-msgstr ""
+msgstr "Modelos de Desenho"
 
 #: ../../user_manual/templates.rst:44
 msgid ""
 "These are templates for design and have various defaults with proper ppi at "
 "your disposal:"
-msgstr ""
+msgstr "Estes são modelos para desenho e têm várias predefinições com diferentes PPP ao seu dispor:"
 
 #: ../../user_manual/templates.rst:46
 msgid "Cinema 16:10"
-msgstr ""
+msgstr "Cinema 16:10"
 
 #: ../../user_manual/templates.rst:47
 msgid "Cinema 2.93:1"
-msgstr ""
+msgstr "Cinema 2,93:1"
 
 #: ../../user_manual/templates.rst:48
 msgid "Presentation A3-landscape"
-msgstr ""
+msgstr "Apresentação A3 em paisagem"
 
 #: ../../user_manual/templates.rst:49
 msgid "Presentation A4 portrait."
-msgstr ""
+msgstr "Apresentação A3 em retrato."
 
 #: ../../user_manual/templates.rst:50
 msgid "Screen 4:3"
-msgstr ""
+msgstr "Ecrã 4:3"
 
 #: ../../user_manual/templates.rst:51
 msgid "Web Design"
@@ -137,36 +140,36 @@ msgstr "'Design' Web"
 
 #: ../../user_manual/templates.rst:54
 msgid "DSLR templates"
-msgstr ""
+msgstr "Modelos de DSLR"
 
 #: ../../user_manual/templates.rst:56
 msgid "These have some default size for photos"
-msgstr ""
+msgstr "Estes têm alguns tamanhos predefinidos para as fotografias"
 
 #: ../../user_manual/templates.rst:58
 msgid "Canon 55D"
-msgstr ""
+msgstr "Canon 55D"
 
 #: ../../user_manual/templates.rst:59
 msgid "Canon 5DMK3"
-msgstr ""
+msgstr "Canon 5DMK3"
 
 #: ../../user_manual/templates.rst:60
 msgid "Nikon D3000"
-msgstr ""
+msgstr "Nikon D3000"
 
 #: ../../user_manual/templates.rst:61
 msgid "Nikon D5000"
-msgstr ""
+msgstr "Nikon D5000"
 
 #: ../../user_manual/templates.rst:62
 msgid "Nikon D7000"
-msgstr ""
+msgstr "Nikon D7000"
 
 #: ../../user_manual/templates.rst:65
 msgid "Texture Templates."
-msgstr ""
+msgstr "Modelos de Texturas."
 
 #: ../../user_manual/templates.rst:67
 msgid "These are for making 3D textures, and are between 1024, to 4092."
-msgstr ""
+msgstr "Estes são usados para criar texturas 3D, e existem com tamanhos entre 1024 e 4096."

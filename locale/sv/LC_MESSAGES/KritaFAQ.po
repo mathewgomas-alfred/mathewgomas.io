@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-25 20:31+0100\n"
+"POT-Creation-Date: 2019-02-27 03:30+0100\n"
+"PO-Revision-Date: 2019-02-27 20:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -251,6 +251,11 @@ msgid ""
 "bytes that were there before. It doesn't reset anything, least of all "
 "Krita's settings."
 msgstr ""
+"Windows-användare har för vana att avinstallera och installera program igen"
+" för att lösa problem. Om problemet  inte är att installationen var skadad av"
+" virusskydd eller diskfel, kommer det INTE att fungera. Att avinstallera och"
+" installera Krita igen ersätter data på disken med exakt samma data som fanns"
+" där tidigare. Det nollställer ingenting, minst av allt Kritas inställningar."
 
 #: ../../KritaFAQ.rst:122
 msgid "Where are my resources stored?"
@@ -306,6 +311,10 @@ msgid ""
 "find a better internet connection before trying to download again. Krita "
 "should be around 80 to 100 mb in size when downloading."
 msgstr ""
+"Det kan vara att nerladdningen blev skadad och saknar filer (vanligt med"
+" dålig WIFI eller dålig Internetanslutning i allmänhet). I detta fall, försök"
+" att hitta en bättre Internetanslutning innan ett nytt nerladdningsförsök."
+" Krita ska vara omkring 80 till 100 MiB stort vid nerladdning."
 
 #: ../../KritaFAQ.rst:140
 msgid ""
@@ -315,6 +324,11 @@ msgid ""
 "going on with your device and it's recommended to find a computer expert to "
 "diagnose what is the problem."
 msgstr ""
+"Det kan vara att någonting gick fel vid installationen. Kontrollera om"
+" hårddisken är full och installera Krita igen med minst 120 MiB ledigt"
+" utrymme. Om inte, och problemet fortfarande uppstår, kan det vara någonting"
+" underligt som händer med disken, och rekommendationen är att anlita en"
+" datorexpert för att diagnosticera problemets orsak."
 
 #: ../../KritaFAQ.rst:141
 msgid ""
@@ -322,12 +336,17 @@ msgid ""
 "windows, OSX and most linux distributions should be just fine, and we "
 "recommend using them."
 msgstr ""
+"Vissa uppackningsverktyg packar inte upp våra zip-filer korrekt. De inbyggda"
+" på Windows, OSX och de flesta Linux-distributioner bör fungera bra, och vi"
+" rekommenderar att de används."
 
 #: ../../KritaFAQ.rst:142
 msgid ""
 "You manually, using a file manager deleted or moved resources around, and "
 "thus Krita cannot find them anymore."
 msgstr ""
+"Du har manuellt tagit bort eller flyttat omkring resurser med en"
+" filhanterare, så att Krita inte längre kan hitta dem."
 
 #: ../../KritaFAQ.rst:145
 msgid "What Graphics Cards does Krita support?"
@@ -343,6 +362,14 @@ msgid ""
 "GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the "
 "best results, some examples:"
 msgstr ""
+"Krita kan använda OpenGL för att accelerera målning och zoomning, rotation"
+" och panorering av duken. Nvidia och de senaste Intel grafikprocessorerna ger"
+" bäst resultat. Säkerställ att OpenGL-drivrutinerna minst stöder OpenGL 3.2."
+" AMD/ATI grafikprocessorer är kända för att vara problematiska, särskilt med"
+" de tillverkarspecifika drivrutinerna på Linux för AMD grafikprocessorer som"
+" stöds. Dock fungerar de perfekt med den fria Radeon-drivrutinen på Linux för"
+" AMD grafikprocessorer som stöds. Försök att få ett grafikkort som kan stödja"
+" OpenGL 3.3 eller senare för bästa resultat. Några exempel:"
 
 #: ../../KritaFAQ.rst:151
 msgid "Intel"
@@ -354,6 +381,10 @@ msgid ""
 "released in 2012. Commonly available products: Celeron J1x00, N2x00, Celeron "
 "(G)1xx0, Pentium J2x00, N3500, Pentium (G)2xx0, Core i3/5/7-3xx0."
 msgstr ""
+"Intel 3:e generation HD Grafik, IvyBridge eller Bay-Trail mikroarkitektur, "
+"utgivna under 2012. Vanligt tillgängliga produkter: Celeron J1x00, N2x00,"
+" Celeron "
+"(G)1xx0, Pentium J2x00, N3500, Pentium (G)2xx0, Core i3/5/7-3xx0."
 
 #: ../../KritaFAQ.rst:153
 msgid "AMD/ATI"
@@ -364,6 +395,8 @@ msgid ""
 "Radeon HD 2000 family, TeraScale 1 microarchitecture, Released in 2007. "
 "Commonly available products: Radeon HD 2400 PRO, Radeon HD 2600 PRO, etc."
 msgstr ""
+"Radeon HD 2000-familjen, TeraScale 1 mikroarkitektur, utgiven under 2007. "
+"Vanligt tillgängliga produkter: Radeon HD 2400 PRO, Radeon HD 2600 PRO, etc."
 
 #: ../../KritaFAQ.rst:156
 msgid "Nvidia"
@@ -375,6 +408,9 @@ msgid ""
 "available products: GeForce 8400 GS, GeForce 8800 GTS, 9800 GTX, GTS 250, "
 "etc."
 msgstr ""
+"GeForce 8-familjen, Tesla mikroarkitektur, utgivna under 2006. Vanligt"
+" tillgängliga produkter: GeForce 8400 GS, GeForce 8800 GTS, 9800 GTX, GTS"
+" 250, etc."
 
 #: ../../KritaFAQ.rst:158
 msgid ""
@@ -382,6 +418,9 @@ msgid ""
 "acceleration (through ANGLE). This is enabled automatically on systems with "
 "an Intel GPU."
 msgstr ""
+"* För Krita 3.3 eller senare: * Krita på Windows kan använda Direct3D 11 för"
+" grafikacceleration (via ANGLE). Det aktiveras automatiskt på system med en"
+" Intel grafikprocessor."
 
 #: ../../KritaFAQ.rst:161
 msgid "I can't edit text from PSD files created by Photoshop"
@@ -392,6 +431,8 @@ msgid ""
 "There is no text support for psd file yet. The text will appear rasterized "
 "and converted into a paint layer."
 msgstr ""
+"Det finns inget textstöd för psd-filer ännu. Texten visas rastrerad och"
+" konverterad till ett målarlager."
 
 #: ../../KritaFAQ.rst:166
 msgid "How much memory does my image take?"
@@ -405,6 +446,11 @@ msgid ""
 "two (one for the image, one for the display). If you add masks, filter "
 "layers or clone layers, it gets more complicated."
 msgstr ""
+"För enkla bilder är det lätt att beräkna: Man multiplicerar bredd \\* höjd"
+" \\* kanaler \\* kanalernas storlek (alltså, för en 1000 x 1000 16-bitars"
+" rgba-heltalsbild: 1000 x 1000 x 4 x 2). Man multiplicerar det med antal"
+" lager plus två (ett för bilden, ett för skärmen). Om man lägger till masker,"
+" filterlager eller dubblettlager blir det mer komplicerat."
 
 #: ../../KritaFAQ.rst:171
 msgid "Why do I get a checkerboard pattern when I use the eraser?"
@@ -416,6 +462,9 @@ msgid ""
 "layer in these applications doesn’t have an alpha channel by default. Thus, "
 "on their background layer, the eraser paints in the background color."
 msgstr ""
+"Du är troligen van vid Gimp eller Photoshop. Den normala bakgrunden eller"
+" första lagret i dessa program har inte normalt en alfakanal. Sålunda"
+" använder raderverktyget bakgrundsfärgen på deras bakgrundslager."
 
 #: ../../KritaFAQ.rst:175
 msgid ""
@@ -439,6 +488,8 @@ msgid ""
 "No, this is not recommended. Sandboxie causes stuttering and freezes due to "
 "the way it intercepts calls for resources on disk."
 msgstr ""
+"Nej, det rekommenderas inte. Sandboxie gör att hopp och frysning på grund av"
+" sättet som det fångar upp anrop till resurser på disk."
 
 #: ../../KritaFAQ.rst:183
 msgid "Windows: Krita cannot save"
@@ -479,6 +530,11 @@ msgid ""
 "exploit-guard/customize-controlled-folders-exploit-guard#allow-specific-apps-"
 "to-make-changes-to-controlled-folders>`_."
 msgstr ""
+"Det går också att vitlista Krita, genom att följa `dessa instruktioner <"
+"https://docs."
+"microsoft.com/en-us/windows/security/threat-protection/windows-defender-"
+"exploit-guard/customize-controlled-folders-exploit-guard#allow-specific-apps-"
+"to-make-changes-to-controlled-folders>`_."
 
 #: ../../KritaFAQ.rst:196
 msgid "Can krita work with 8 bit (indexed) images?"
@@ -515,6 +571,9 @@ msgid ""
 "the page :ref:`Dr. Mingw debugger <dr_minw>` for instructions on getting a "
 "backtrace with it."
 msgstr ""
+":ref:`Dr. Mingw debugger <dr_minw>` levereras med Krita. Besök gärna sidan"
+" :ref:`Dr. Mingw debugger <dr_minw>` för instruktioner om hur man skapar en"
+" bakåtspårning med den."
 
 #: ../../KritaFAQ.rst:213
 msgid "Where can I find older versions of Krita?"
@@ -544,15 +603,15 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:224
 msgid "On the menu, select :menuselection:`Settings --> Configure Krita`"
-msgstr ""
+msgstr "Välj :menuselection:`Settings --> Configure Krita` i menyn"
 
 #: ../../KritaFAQ.rst:225
 msgid "On General page, switch to :guilabel:`Window` tab."
-msgstr ""
+msgstr "Byt till fliken :guilabel:`Fönster` på sidan Allmänt."
 
 #: ../../KritaFAQ.rst:226
 msgid "Check :guilabel:`Enable Hi-DPI support`"
-msgstr ""
+msgstr "Markera :guilabel:`Aktivera stöd för hög upplösning`"
 
 #: ../../KritaFAQ.rst:227
 msgid "Restart Krita"
@@ -945,10 +1004,10 @@ msgstr ""
 #: ../../KritaFAQ.rst:396
 msgid ""
 "Yes, but there are limitations. You can load ABR files by using the by using "
-"the Import button in the Predefined brush tab in the brush editor. Since "
-"Adobe hasn’t disclosed the file format specification, we depend on reverse-"
-"engineering to figure out what to load, and currently that’s limited to "
-"basic features."
+"the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
+"brush editor. Since Adobe hasn’t disclosed the file format specification, we "
+"depend on reverse-engineering to figure out what to load, and currently "
+"that’s limited to basic features."
 msgstr ""
 
 #: ../../KritaFAQ.rst:399
@@ -1057,7 +1116,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:429
 msgid "Use a larger value for brush spacing."
-msgstr ""
+msgstr "Använd ett större värde för penselmellanrum."
 
 #: ../../KritaFAQ.rst:430
 msgid ""
@@ -1191,3 +1250,4 @@ msgstr "Referens"
 #: ../../KritaFAQ.rst:488
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"
+

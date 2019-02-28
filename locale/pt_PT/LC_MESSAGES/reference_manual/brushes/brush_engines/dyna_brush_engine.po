@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-27 11:15+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,22 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: optionairbrush optionopacitynflow icons demão image\n"
+"X-POFile-SpellExtra: dynabrush optionsizedyna Dyna demãos images\n"
+"X-POFile-SpellExtra: blendingmodes ref\n"
 
 #: ../../<generated>:1
 msgid "Paint Connection"
-msgstr ""
+msgstr "Ligação de Pintura"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:1
 msgid "The Dyna Brush Engine manual page."
-msgstr ""
+msgstr "A página do manual do Motor de Pincéis Dyna."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:15
 msgid "Dyna Brush Engine"
-msgstr ""
+msgstr "Motor de Pincéis Dyna"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:18
 msgid ".. image:: images/icons/dynabrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/dynabrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:19
 msgid ""
@@ -39,14 +42,14 @@ msgid ""
 "results are fun and random spinning strokes.To experiment more with this "
 "brush you can play with values in 'dynamic settings' section of the brush "
 "editor under Dyna Brush."
-msgstr ""
+msgstr "O pincel Dyna usa algumas definições dinâmicas, como a massa e o arrastamento para desenhar os traços. Os resultados são traços bonitos e rodados de forma aleatória. Para experimentar mais este pincel, poderá jogar com os valores na secção da 'configuração dinâmica do editor de pincéis no Pincel Dyna."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:23
 msgid ""
 "This brush engine has been removed in 4.0. This engine mostly had smoothing "
 "results that the dyna brush tool has in the toolbox. The stabilizer settings "
 "can also give you further smoothing options from the tool options."
-msgstr ""
+msgstr "Este motor de pincéis foi removido no 4.0. Este motor tinha resultados principalmente que o pincel Dyna tem na área de ferramentas. A configuração da estabilização também lhe poderá dar mais opções de suavização a partir das opções da ferramenta."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:26
 msgid "Options"
@@ -54,7 +57,7 @@ msgstr "Opções"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:28
 msgid ":ref:`option_size_dyna`"
-msgstr ""
+msgstr ":ref:`option_size_dyna`"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:29
 msgid ":ref:`blending_modes`"
@@ -70,19 +73,19 @@ msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:36
 msgid "Brush Size (Dyna)"
-msgstr ""
+msgstr "Tamanho do Pincel (Dyna)"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:39
 msgid "Dynamics Settings"
-msgstr ""
+msgstr "Configuração Dinâmica"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:41
 msgid "Initial Width"
-msgstr ""
+msgstr "Espessura Inicial"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:42
 msgid "Initial size of the dab."
-msgstr ""
+msgstr "O tamanho inicial da demão."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:43
 msgid "Mass"
@@ -90,7 +93,7 @@ msgstr "Massa"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:44
 msgid "How much energy there is in the satellite like movement."
-msgstr ""
+msgstr "Quanta energia existe no movimento de satélite."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:45
 msgid "Drag"
@@ -98,15 +101,15 @@ msgstr "Arrastamento"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:46
 msgid "How close the dabs follow the position of the brush-cursor."
-msgstr ""
+msgstr "Quão próximas são as demãos da posição do cursor do pincel."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:48
 msgid "Width Range"
-msgstr ""
+msgstr "Intervalo de Espessura"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:48
 msgid "How much the dab expands with speed."
-msgstr ""
+msgstr "Quanto é que a demão se expande com a velocidade."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:51
 msgid "Shape"
@@ -118,7 +121,7 @@ msgstr "Diâmetro"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:54
 msgid "Size of the shape."
-msgstr ""
+msgstr "O tamanho da forma."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:55
 msgid "Angle"
@@ -126,7 +129,7 @@ msgstr "Ângulo"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:56
 msgid "Angle of the shape. Requires Fixed Angle active to work."
-msgstr ""
+msgstr "O ângulo da forma. Obriga a activação do Ângulo Fixo para funcionar."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:57
 msgid "Circle"
@@ -134,7 +137,7 @@ msgstr "Círculo"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:58
 msgid "Make a circular dab appear."
-msgstr ""
+msgstr "Faz aparecer uma demão circular."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:59
 msgid "Two"
@@ -142,7 +145,7 @@ msgstr "Dois"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:60
 msgid "Draws an extra circle between other circles."
-msgstr ""
+msgstr "Desenha um círculo extra entre outros círculos."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:61
 msgid "Line"
@@ -152,7 +155,7 @@ msgstr "Linha"
 msgid ""
 "Connecting lines are drawn next to each other. The number boxes on the right "
 "allows you to set the spacing between the lines and how many are drawn."
-msgstr ""
+msgstr "As linhas ligadas são desenhadas umas a seguir às outras. Os campos numéricos à direita permitem-lhe definir o intervalo entre as linhas e quantas são desenhadas."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:63
 msgid "Polygon"
@@ -160,16 +163,16 @@ msgstr "Polígono"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:64
 msgid "Draws a black polygon as dab."
-msgstr ""
+msgstr "Desenha um polígono preto como uma demão."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:65
 msgid "Wire"
-msgstr ""
+msgstr "Linha"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:66
 msgid "Draws the wireframe of the polygon."
-msgstr ""
+msgstr "Desenha uma linha-modelo do polígono."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:68
 msgid "Draws the connection line."
-msgstr ""
+msgstr "Desenha a linha ligada."

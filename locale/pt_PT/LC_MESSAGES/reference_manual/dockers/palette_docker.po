@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-27 11:29+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Palette en guilabel image Kritamouseleft kbd images\n"
+"X-POFile-SpellExtra: alt gpl icons RY RIFF ref sbz Scribus psp filekpl\n"
+"X-POFile-SpellExtra: Photoshop Krita Swatchbooker aco riff act PaintShop\n"
+"X-POFile-SpellExtra: docker mouseleft\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -27,27 +31,27 @@ msgstr ""
 
 #: ../../reference_manual/dockers/palette_docker.rst:1
 msgid "Overview of the palette docker."
-msgstr ""
+msgstr "Introdução à área da paleta."
 
 #: ../../reference_manual/dockers/palette_docker.rst:17
 msgid "Palette Docker"
-msgstr ""
+msgstr "Área da Paleta"
 
 #: ../../reference_manual/dockers/palette_docker.rst:19
 msgid ""
 "The palette docker displays various color swatches for quick use. Since 4.0, "
 "it also supports editing palettes and organizing colors into groups."
-msgstr ""
+msgstr "A área da paleta mostra diversas opções de cores para um uso rápido. Desde o 4.0, também suporta a edição de paletas e a organização das cores por grupos."
 
 #: ../../reference_manual/dockers/palette_docker.rst:22
 msgid ".. image:: images/en/Palette-docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Palette-docker.png"
 
 #: ../../reference_manual/dockers/palette_docker.rst:23
 msgid ""
 "You can choose from various default palette or you can add your own colors "
 "to the palette."
-msgstr ""
+msgstr "Poderá escolher entre várias paletas ou adicionar as suas próprias cores à paleta."
 
 #: ../../reference_manual/dockers/palette_docker.rst:25
 msgid ""
@@ -57,43 +61,43 @@ msgid ""
 "resources (folder icon) to load your own color palette. Creating a new "
 "palette can be done by filling out the :guilabel:`name` input, pressing :"
 "guilabel:`Save` and selecting your new palette from the list."
-msgstr ""
+msgstr "Para escolher entre as várias paletas, carregue no ícone no canto inferior esquerdo da área acoplável; o mesmo irá mostrar uma lista de paletas de cores pré-carregadas. Poderá carregar numa par aa ler para a área acoplável, ou então carregar em Importar os Recursos (ícone da pasta) para carregar a sua própria paleta de cores. A criação de uma paleta poderá ser obtida com o preenchimento do campo :guilabel:`nome`, carregando em :guilabel:`Gravar` e seleccionando a sua nova paleta a partir da lista."
 
 #: ../../reference_manual/dockers/palette_docker.rst:28
 msgid "Selecting colors is done by |mouseleft| on a swatch."
-msgstr ""
+msgstr "A selecção das cores é feita com o |mouseleft| sobre uma dada área colorida."
 
 #: ../../reference_manual/dockers/palette_docker.rst:29
 msgid ""
 "Pressing the delete icon will remove the selected swatch or group. When "
 "removing a group, Krita will always ask whether you'd like to keep the "
 "swatches. If so, they will be added to the default group above."
-msgstr ""
+msgstr "Se carregar no ícone para apagar, irá remover a área de cor ou grupo seleccionados. Ao remover o grupo, o Krita irá sempre perguntar se deseja manter as cores à mesma. Se for o caso, as mesmas serão adicionadas ao grupo predefinido acima."
 
 #: ../../reference_manual/dockers/palette_docker.rst:33
 msgid ""
 "Double |mouseleft| a swatch will call up the edit window where you can "
 "change the color, the name, the id and whether it's a spot color. On a group "
 "this will allow you to set the group name."
-msgstr ""
+msgstr "Faça duplo-click com |mouseleft| sobre uma cor para invocar a janela de edição, onde poderá alterar a mesma, o seu nome, o ID e se é uma cor pontual. Num grupo, isto permitir-lhe-á definir o nome do grupo."
 
 #: ../../reference_manual/dockers/palette_docker.rst:34
 msgid ""
 "|mouseleft| drag will allow you to drag and drop swatches and groups to "
 "order them."
-msgstr ""
+msgstr "Se arrastar com o |mouseleft|, poderá arrastar e largar as cores e os grupos para os ordenar."
 
 #: ../../reference_manual/dockers/palette_docker.rst:35
 msgid "Pressing the :guilabel:`+` icon will allow you to add a new swatch."
-msgstr ""
+msgstr "Se carregar no ícone :guilabel:`+` poderá adicionar uma nova área para cores."
 
 #: ../../reference_manual/dockers/palette_docker.rst:36
 msgid "Pressing the Folder icon will allow you to add a new group."
-msgstr ""
+msgstr "Se carregar no ícone da pasta, poderá adicionar um novo grupo."
 
 #: ../../reference_manual/dockers/palette_docker.rst:38
 msgid "The edit and new color dialogs ask for the following:"
-msgstr ""
+msgstr "As janelas para edição e adição de uma nova cor pedem os seguintes dados:"
 
 #: ../../reference_manual/dockers/palette_docker.rst:40
 msgid "Color"
@@ -101,7 +105,7 @@ msgstr "Cor"
 
 #: ../../reference_manual/dockers/palette_docker.rst:41
 msgid "The color of the swatch."
-msgstr ""
+msgstr "A cor da área de cor."
 
 #: ../../reference_manual/dockers/palette_docker.rst:42
 msgid "Name"
@@ -109,7 +113,7 @@ msgstr "Nome"
 
 #: ../../reference_manual/dockers/palette_docker.rst:43
 msgid "The Name of the color in a human readable format."
-msgstr ""
+msgstr "O nome da cor num formato legível."
 
 #: ../../reference_manual/dockers/palette_docker.rst:44
 msgid "ID"
@@ -119,11 +123,11 @@ msgstr "ID"
 msgid ""
 "The ID is a number that can be used to index colors. Where Name can be "
 "something like \"Pastel Peach\", ID will probably be something like \"RY75\"."
-msgstr ""
+msgstr "O ID é um número que poderá ser usado para indexar as cores. Enquanto o Nome poderá ser \"Pêssego Pastel\", o ID será algo do tipo \"RY75\"."
 
 #: ../../reference_manual/dockers/palette_docker.rst:47
 msgid "Spot color"
-msgstr ""
+msgstr "Cor pontual"
 
 #: ../../reference_manual/dockers/palette_docker.rst:47
 msgid ""
@@ -131,45 +135,45 @@ msgid ""
 "toggle to keep track of colors that represent a real world paint that a "
 "printer can match. Keeping track of such colors is useful in a printing "
 "workflow, and it can also be used with python to recognise spot colors."
-msgstr ""
+msgstr "De momento não são usadas para nada, dentro do Krita em si, mas as cores pontuais são uma opção para manter um registo das cores que representa uma tinta verdadeira que uma impressora consiga produzir. Manter o registo dessas cores é útil numa actividade de impressão, podendo ser usada com o Python para reconhecer as cores pontuais."
 
 #: ../../reference_manual/dockers/palette_docker.rst:49
 msgid ""
 "If you find the size of color swatches too small, you can increase the size "
 "by hovering your mouse over the palette and scrolling while holding :kbd:"
 "`Ctrl`."
-msgstr ""
+msgstr "Se achar que o tamanho das áreas de cores é demasiado pequeno, poderá aumentar o tamanho, passando o cursor do seu rato sobre a paleta e deslocando-se enquanto mantém pressionado o :kbd:`Ctrl`."
 
 #: ../../reference_manual/dockers/palette_docker.rst:51
 msgid ""
 "Krita's native palette format is since 4.0 :ref:`file_kpl`. It also supports "
 "importing..."
-msgstr ""
+msgstr "O formato nativo da paleta do Krita é, desde o 4.0, o :ref:`file_kpl`. Também suporta a importação de..."
 
 #: ../../reference_manual/dockers/palette_docker.rst:53
 msgid "Gimp Palettes (.gpl)"
-msgstr ""
+msgstr "Paletas do Gimp (.gpl)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:54
 msgid "Microsoft RIFF palette (.riff)"
-msgstr ""
+msgstr "Paleta RIFF da Microsoft (.riff)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:55
 msgid "Photoshop Binary Palettes (.act)"
-msgstr ""
+msgstr "Paletas Binárias do Photoshop (.act)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:56
 msgid "PaintShop Pro palettes (.psp)"
-msgstr ""
+msgstr "Paletas do PaintShop Pro (.psp)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:57
 msgid "Photoshop Swatches (.aco)"
-msgstr ""
+msgstr "Paletas do Photoshop (.aco)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:58
 msgid "Scribus XML (.xml)"
-msgstr ""
+msgstr "Scribus XML (.xml)"
 
 #: ../../reference_manual/dockers/palette_docker.rst:59
 msgid "Swatchbooker (.sbz)."
-msgstr ""
+msgstr "Swatchbooker (.sbz)."

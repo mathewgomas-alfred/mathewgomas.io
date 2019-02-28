@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___python_scripting___krita_python_plugin_howto\n"
+"Project-Id-Version: docs_krita_org_user_manual___python_scripting___krita_pyth"
+"on_plugin_howto\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-23 18:44+0200\n"
+"PO-Revision-Date: 2019-02-27 08:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:28
 msgid "Getting Krita to recognize your plugin"
-msgstr ""
+msgstr "Розпізнавання вашого додатка у Krita"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:30
 msgid ""
@@ -102,6 +102,8 @@ msgstr "ServiceTypes"
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:50
 msgid "This should always be Krita/PythonPlugin for python plugins."
 msgstr ""
+"Значенням цього параметра для додатків мовою Python завжди має бути"
+" Krita/PythonPlugin."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:51
 msgid "X-KDE-Library"
@@ -110,6 +112,8 @@ msgstr "X-KDE-Library"
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:52
 msgid "This should be the name of the plugin folder you just created."
 msgstr ""
+"Для цього параметра слід вказати значення назви теки додатка, яку ви щойно"
+" створили."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:53
 msgid "X-Python-2-Compatible"
@@ -140,7 +144,7 @@ msgstr "Name"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:58
 msgid "The name that will show up in the Python Plugin Manager"
-msgstr ""
+msgstr "Назва, яку буде показано у засобі керування додатками Python"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:60
 msgid "Comment"
@@ -274,11 +278,12 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:159
 msgid "And add the import for QFileDialog above with the imports:"
-msgstr ""
+msgstr "І додайте імпортування QFileDialog згори:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:166
 msgid "Then, to connect the action to the new export document:"
 msgstr ""
+"Далі, для встановлення з'єднання дій із новим експортованим документом:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:175
 msgid ""
@@ -344,7 +349,7 @@ msgstr "text"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:216
 msgid "The text that it will show in the shortcut editor."
-msgstr ""
+msgstr "Текст, який буде показано у редакторі клавіатурних скорочень."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:217
 msgid "whatsThis"
@@ -381,7 +386,7 @@ msgstr "activationFlags"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:224
 msgid "This determines when an action is disabled or not."
-msgstr ""
+msgstr "Це визначає, буде дію вимкнено чи ні."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:225
 msgid "activationConditions"
@@ -446,7 +451,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:259
 msgid "For the addDockWidgetFactory..."
-msgstr ""
+msgstr "Для addDockWidgetFactory…"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:261
 msgid "\"myDocker\""
@@ -467,10 +472,12 @@ msgid ""
 "The location. These can be DockTornOff, DockTop, DockBottom, DockRight, "
 "DockLeft, or DockMinimized"
 msgstr ""
+"Розташування. Можливі варіанти: DockTornOff, DockTop, DockBottom, DockRight,"
+" DockLeft та DockMinimized"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:266
 msgid "MyDocker"
-msgstr ""
+msgstr "MyDocker"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:266
 msgid "Replace this with the class name of the docker your wanna add."
@@ -501,7 +508,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:279
 msgid "Then, we create a button:"
-msgstr ""
+msgstr "Далі, ми створимо кнопку:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:285
 msgid ""
@@ -538,7 +545,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:305
 msgid "PyQT Signals and Slots"
-msgstr ""
+msgstr "Сигнали і слоти PyQT"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:307
 msgid ""
