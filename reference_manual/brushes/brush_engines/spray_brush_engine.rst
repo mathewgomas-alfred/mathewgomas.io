@@ -84,7 +84,7 @@ Width & Height
 Proportional
     Locks Width & Height to be the same.
 Texture
-    Allows you to pick an image for the <menu choice>image shape.
+    Allows you to pick an image for the :guilabel:`Image shape`.
 
 .. _option_shape_dyna:
 

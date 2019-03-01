@@ -351,7 +351,7 @@ Now, let's make a simple brush to test the waters with:
 Getting a default for the brush engine.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, open the settings with F5.
+First, open the settings with :kbd:`F5`.
 
 Then, press the arrow on the upper left to open the preset chooser.
 There, press the “+” icon to get a list of engines. For this brush we're
@@ -400,18 +400,18 @@ Example: Making an inking brush
 Saving the new Brush
 ~~~~~~~~~~~~~~~~~~~~
 
-When you're satisfied, go to the upper left and select “save new
-preset”.
+When you're satisfied, go to the upper left and select :guilabel::`Save new
+preset`.
 
 You will get the save preset dialog. Name the brush something like “My
-Preset”. Then, select “Load from Icon Library” to get the icon library.
-Choose a nice tool icon and press OK.
+Preset”. Then, select :guilabel:`Load from Icon Library` to get the icon library.
+Choose a nice tool icon and press :guilabel:`OK`.
 
 The icon will be loaded into the mini scratch pad on the left. Now
 doodle a nice stroke next to it. If you feel you messed up, just go back
 to the icon library to load a new icon.
 
-Finally press “save”, and your brush should be done.
+Finally press :guilabel:`Save`, and your brush should be done.
 
 You can further modify your inking brush by...
 

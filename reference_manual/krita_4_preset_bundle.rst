@@ -115,7 +115,8 @@ These brushes don't paint any colors. They interact with the color you already h
 Adjustments
 -----------
 
-This family of airbrushes have variations on the blending modes. Different blending modes will give different results depending on the effect you are trying to achieve. 
+This family of airbrushes have variations on the blending modes. Different blending modes will give different results depending on the effect you are trying to achieve.
+
 * Color - Can help to re-color or desaturate a part of your artwork. It changes only the hue and saturation, not the value, of the pixels.
 * Dodge - Will assist you in creating effects such as neon or fire.
 * Lighten - Brightens only the area with the selected color: a good brush to paint depth of field (sfumato) and fog.

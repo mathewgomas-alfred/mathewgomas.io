@@ -121,7 +121,7 @@ The second method is one where we'll make it actually transparent. In other prog
 
     .. image:: /images/en/flat-coloring/Krita_filling_lineart_selection_2.png
 
-And you should now have the line art on a seperate layer.
+And you should now have the line art on a separate layer.
 
 Advantages
 """"""""""
@@ -177,7 +177,7 @@ Actual transparency. Works with coloured line art as well, because it removes th
 Disadvantages
 """""""""""""
 
-You'll have to lock the layer transparency or seperate out the alpha via the right-click menu if you want to easily color it.
+You'll have to lock the layer transparency or separate out the alpha via the right-click menu if you want to easily color it.
 
 
 Colouring the image

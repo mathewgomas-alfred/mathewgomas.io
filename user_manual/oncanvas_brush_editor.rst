@@ -16,7 +16,7 @@ On-Canvas Brush Editor
 ======================
 
 
-Krita's brush editor is, as you may know, on F5. However, sometimes you
+Krita's brush editor is, as you may know, on :kbd:`F5`. However, sometimes you
 just want to modify a single parameter quickly. Perhaps even in
 canvas-only mode. The on canvas brush editor or brush HUD allows you to
 do this. It's accessible from the pop-up palette, by ticking the

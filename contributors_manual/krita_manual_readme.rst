@@ -190,7 +190,8 @@ Adding and removing text will be done in the ``draft`` branch.
 Proofreading results for old pages will be considered as bugfixes and thus will go into the ``master`` branch and merged into the ``draft`` branch as necessary.
 
 Before the ``draft`` branch is merged for a given release:
-* the master branch will be tagged with the old version.
+
+* The master branch will be tagged with the old version.
 * The draft branch is first double checked that it has updated version number and updated epub cover.
 
 The ``draft`` branch will not be merged until the day before a release to keep the pages in tact for long enough.

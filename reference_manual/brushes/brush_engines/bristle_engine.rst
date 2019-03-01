@@ -43,13 +43,15 @@ Bristle Options
 The core of this particular brush-engine.
 
 Scale
-    Think of it as pressing down on a brush to make the bristles further apart. 
+    Think of it as pressing down on a brush to make the bristles further apart.
+    
     * Larger values basically give you larger brushes and larger bristle spacing. For example, a value of 4 will multiply your base brush size by 4, but the bristles will be 4 times more spaced apart. 
     * Use smaller values if you want a "dense" brush, i.e. you don't want to see so many bristles within the center. 
     * Negative values have the same effect as corresponding positive values: -1.00 will look like 1.00, etc. 
 
 Random Offset
     Adds a jaggy look to the trailing lines.
+    
     * At 0.00, all the bristles basically remain completely parallel. 
     * At other values, the bristles are offset randomly. Large values will increase the brush size a bit because of the bristles spreading around, but not by much. 
     * Negative values have the same effect as corresponding positive values. 
@@ -62,6 +64,7 @@ Density
 
 Mouse Pressure
     This one maps "Scale" to mouse speed, thus simulating pressure with a graphics tablet!
+    
     * Rather, it uses the "distance between two events" to determine scale. Faster drawing, larger distances. 
     * This doesn't influence the "pressure" input for anything else (size, opacity, rotation etc.) so you still have to map those independently to something else. 
 Threshold
@@ -102,6 +105,7 @@ Soak Ink
 
 Weighted saturation.
     Works by modifying the saturation with the following:
+    
     * Pressure weight
     * Bristle length weight
     * Bristle ink amount weight
