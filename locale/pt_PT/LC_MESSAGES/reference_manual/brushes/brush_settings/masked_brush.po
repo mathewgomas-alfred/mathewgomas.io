@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-21 03:59+0100\n"
-"PO-Revision-Date: 2019-02-26 11:46+0000\n"
+"POT-Creation-Date: 2019-02-28 03:20+0100\n"
+"PO-Revision-Date: 2019-02-28 12:10+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,11 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: optionsize en optionopacitynflow optionrotation image\n"
 "X-POFile-SpellExtra: optionbrushtip jpg brush Masking images ref\n"
-"X-POFile-SpellExtra: optionmirror optiontexture\n"
-
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
-msgid ".. image:: images/en/Masking-brush2.jpg"
-msgstr ".. image:: images/en/Masking-brush2.jpg"
+"X-POFile-SpellExtra: optionmirror optiontexture Photoshop Krita demão\n"
+"X-POFile-SpellExtra: optionratio pixelbrushengine optionscatter\n"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
 msgid ".. image:: images/en/Masking-brush1.jpg"
@@ -32,11 +29,15 @@ msgstr ".. image:: images/en/Masking-brush1.jpg"
 msgid "Difference from :ref:`option_texture`"
 msgstr "Diferenças da :ref:`option_texture`"
 
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
+msgid ".. image:: images/en/Masking-brush2.jpg"
+msgstr ".. image:: images/en/Masking-brush2.jpg"
+
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
 msgid ""
 "How to use the masked brush functionality in Krita. This functionality is "
 "not unlike the dual brush option from photoshop."
-msgstr ""
+msgstr "Como usar a funcionalidade do pincel com máscara no Krita. Esta funcionalidade não é muito diferente da opção de pincel duplo do Photoshop."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:18
 msgid "Masked Brush"
@@ -49,14 +50,14 @@ msgid ""
 "editor. Masked brushes allow you to combine two brush tips in one stroke. "
 "One brush tip will be a mask for your primary brush tip. A masked brush is a "
 "good alternative to texture for creating expressive and textured brushes."
-msgstr ""
+msgstr "O pincel mascarado ou com máscara é uma nova funcionalidade que só está disponível no :ref:`pixel_brush_engine`. São opções adicionais que poderá ver no editor do pincel. Os pincéis com máscara permitem-lhe combinar duas pontas de pincel num único traço. Uma das pontas será uma máscara para a sua ponta principal. Um pincel com máscara é uma boa alternativa a uma textura para criar pincéis expressivos e com texturas."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
 msgid ""
 "due to technological constraints, the masked brush only works in the wash "
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
-msgstr ""
+msgstr "devido a restrições tecnológicas, o pincel com máscara só funciona no modo de pintura por lavagem. Contudo, lembre-se que o fluxo funciona como a opacidade no modo de pintura por composição."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:32
 msgid ""
@@ -64,15 +65,15 @@ msgid ""
 "spacing, and rotation. Masking brush size is relative to main brush size. "
 "This means when you change your brush size masking tip will be changed to "
 "keep the ratio."
-msgstr ""
+msgstr "Como nas pontas de pincéis normais, poderá escolher qualquer ponta e mudar o seu tamanho, intervalo e rotação. O tamanho do pincel com máscara é relativo ao tamanho do pincel principal. Isto significa que, quando mudar o tamanho da ponta, a ponta da máscara será também mudada para manter as proporções."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid ":ref:`Blending mode (dropdown inside Brush tip)<blending_modes>`:"
-msgstr ""
+msgstr ":ref:`Modo de mistura (lista dentro da Ponta do Pincel)<blending_modes>`:"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid "Blending modes changes how tips are combined."
-msgstr ""
+msgstr "Os modos de mistura alteram como se combinam as pontas."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:38
 msgid ":ref:`option_brush_tip`"
@@ -84,7 +85,7 @@ msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:41
 msgid "The size sensor option of the second tip."
-msgstr ""
+msgstr "A opção do sensor do tamanho da segunda ponta."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:42
 msgid ":ref:`option_opacity_n_flow`"
@@ -95,15 +96,15 @@ msgid ""
 "The opacity and flow of the second tip. This is mapped to a sensor by "
 "default. Flow can be quite aggressive on subtract mode, so it might be an "
 "idea to turn it off there."
-msgstr ""
+msgstr "A opacidade e o fluxo da segunda ponta. Isto está associado por omissão a um sensor. O fluxo pode ser bastante agressivo no modo subtractivo, pelo que poderá ser uma boa ideia desligá-lo aí."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:44
 msgid ":ref:`option_ratio`"
-msgstr ""
+msgstr ":ref:`option_ratio`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:45
 msgid "This affects the brush ratio on a given brush."
-msgstr ""
+msgstr "Isto afecta as proporções de tamanho do pincel para um dado pincel."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:46
 msgid ":ref:`option_mirror`"
@@ -111,7 +112,7 @@ msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:47
 msgid "The Mirror option of the second tip."
-msgstr ""
+msgstr "A opção de Espelho da segunda ponta."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:48
 msgid ":ref:`option_rotation`"
@@ -119,17 +120,17 @@ msgstr ":ref:`option_rotation`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:49
 msgid "The rotation option of the second tip. Best set to \"fuzzy dab\"."
-msgstr ""
+msgstr "A opção de rotação da segunda ponta. Melhor se ficar configurado como \"demão difusa\"."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:51
 msgid ":ref:`option_scatter`"
-msgstr ""
+msgstr ":ref:`option_scatter`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:51
 msgid ""
 "The scatter option. The default is quite high, so don't forget to turn it "
 "lower."
-msgstr ""
+msgstr "A opção de dispersão. Por omissão, é muito elevada, por isso não se esqueça de baixar o valor dela."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
 msgid ""
@@ -137,4 +138,4 @@ msgid ""
 "on the fly, it always different Brush strokes looks same on any brush size "
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
-msgstr ""
+msgstr "Não precisa de uma textura para criar pinceladas com bom aspecto na hora; ele cria traços diferentes do pincel para qualquer tamanho. Fica mais simples de preencher algumas áreas com uma única cor, mas fica mais difícil de a preencher com uma textura"

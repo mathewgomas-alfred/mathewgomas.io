@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-02-28 16:47+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,54 +16,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: toolpatternedit icons image patterntool images alt\n"
 
 #: ../../<rst_epilog>:20
 msgid ""
 ".. image:: images/icons/pattern_tool.svg\n"
 "   :alt: toolpatternedit"
 msgstr ""
+".. image:: images/icons/pattern_tool.svg\n"
+"   :alt: ferramenta de edição de padrões"
 
 #: ../../reference_manual/tools/pattern_edit.rst:1
 msgid "Krita's vector pattern editing tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de edição de padrões vectoriais."
 
 #: ../../reference_manual/tools/pattern_edit.rst:16
 msgid "Pattern Editing Tool"
-msgstr ""
+msgstr "Ferramenta de Edição dos Padrões"
 
 #: ../../reference_manual/tools/pattern_edit.rst:18
 msgid "|toolpatternedit|"
-msgstr ""
+msgstr "|toolpatternedit|"
 
 #: ../../reference_manual/tools/pattern_edit.rst:22
 msgid ""
 "The pattern editing tool has been removed in 4.0, currently there's no way "
 "to edit pattern fills for vectors"
-msgstr ""
+msgstr "A ferramenta de edição dos padrões foi removida no 4.0, sendo que não há forma de momento de editar os preenchimentos com padrões para os vectores"
 
 #: ../../reference_manual/tools/pattern_edit.rst:24
 msgid ""
 "The Pattern editing tool works on Vector Shapes that use a Pattern fill. On "
 "these shapes, The Pattern Editing Tool allows you to change the size, ratio "
 "and origin of a pattern."
-msgstr ""
+msgstr "A ferramenta de edição do Padrão funciona nas Formas Vectoriais que usam um preenchimento com um Padrão. A Ferramenta de Edição do Padrão permite-lhe alterar o tamanho, as proporções de tamanho e a origem de um dado padrão."
 
 #: ../../reference_manual/tools/pattern_edit.rst:27
 msgid "On Canvas-editing"
-msgstr ""
+msgstr "Edição na Área de Desenho"
 
 #: ../../reference_manual/tools/pattern_edit.rst:29
 msgid ""
 "You can change the origin by click dragging the upper node, this is only "
 "possible in Tiled mode."
-msgstr ""
+msgstr "Poderá alterar a origem se arrastar o nó superior; isto só é possível no modo Lado-a-Lado."
 
 #: ../../reference_manual/tools/pattern_edit.rst:31
 msgid ""
 "You can change the size and ratio by click-dragging the lower node. There's "
 "no way to constrain the ratio in on-canvas editing, this is only possible in "
 "Original and Tiled mode."
-msgstr ""
+msgstr "Poderá alterar o tamanho e as suas proporções se arrastar o nó de baixo. Não existe forma de restringir as proporções de tamanho com a edição na própria área de desenho, sendo só possível no modo Original e Lado-a-Lado."
 
 #: ../../reference_manual/tools/pattern_edit.rst:34
 msgid "Tool Options"
@@ -71,15 +74,15 @@ msgstr "Opções da Ferramenta"
 
 #: ../../reference_manual/tools/pattern_edit.rst:36
 msgid "There's several tool options with this tool, for fine-tuning:"
-msgstr ""
+msgstr "Existem diversas opções nesta ferramenta para afinar alguns detalhes:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:38
 msgid "First there's the Pattern options."
-msgstr ""
+msgstr "Primeiro existem as opções do Padrão."
 
 #: ../../reference_manual/tools/pattern_edit.rst:41
 msgid "This can be set to"
-msgstr ""
+msgstr "Esta opção pode ser igual a"
 
 #: ../../reference_manual/tools/pattern_edit.rst:43
 msgid "Original:"
@@ -87,15 +90,15 @@ msgstr "Original:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:44
 msgid "This will only show one, unstretched, copy of the pattern."
-msgstr ""
+msgstr "Isto irá mostrar uma única cópia não esticada do padrão."
 
 #: ../../reference_manual/tools/pattern_edit.rst:45
 msgid "Tiled (Default):"
-msgstr ""
+msgstr "Lado-a-Lado (Por Omissão):"
 
 #: ../../reference_manual/tools/pattern_edit.rst:46
 msgid "This will let the pattern appear tiled in the x and y direction."
-msgstr ""
+msgstr "Isto fará com que o padrão apareça repetido ao longo da direcção em X e Y."
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "Repeat:"
@@ -103,15 +106,15 @@ msgstr "Repetição:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "Stretch:"
-msgstr ""
+msgstr "Esticamento:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "This will stretch the Pattern image to the shape."
-msgstr ""
+msgstr "Isto irá esticar a imagem do Padrão à forma."
 
 #: ../../reference_manual/tools/pattern_edit.rst:51
 msgid "pattern origin. This can be set to"
-msgstr ""
+msgstr "A origem do padrão. Poderá ser um dos seguintes valores"
 
 #: ../../reference_manual/tools/pattern_edit.rst:53
 msgid "Top-left"
@@ -147,15 +150,15 @@ msgstr "Fundo"
 
 #: ../../reference_manual/tools/pattern_edit.rst:61
 msgid "Reference point:"
-msgstr ""
+msgstr "Ponto de referência:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:61
 msgid "Bottom-right."
-msgstr ""
+msgstr "Fundo-direita."
 
 #: ../../reference_manual/tools/pattern_edit.rst:64
 msgid "For extra tweaking, set in percentages."
-msgstr ""
+msgstr "Para alguns ajustes adicionais, defina como uma percentagem."
 
 #: ../../reference_manual/tools/pattern_edit.rst:66
 msgid "X:"
@@ -163,11 +166,11 @@ msgstr "X:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:67
 msgid "offset in the X coordinate, so horizontally."
-msgstr ""
+msgstr "deslocamento na coordenada em X, logo na horizontal."
 
 #: ../../reference_manual/tools/pattern_edit.rst:69
 msgid "Reference Point Offset:"
-msgstr ""
+msgstr "Deslocamento do Ponto de Referência:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:69
 msgid "Y:"
@@ -175,19 +178,19 @@ msgstr "Y:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:69
 msgid "offset in the Y coordinate, so vertically."
-msgstr ""
+msgstr "deslocamento na coordenada em Y, logo na vertical."
 
 #: ../../reference_manual/tools/pattern_edit.rst:71
 msgid "Tile Offset:"
-msgstr ""
+msgstr "Deslocamento do Padrão:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:72
 msgid "The tile offset if the pattern is tiled."
-msgstr ""
+msgstr "O deslocamento do padrão, caso este seja repetido lado-a-lado."
 
 #: ../../reference_manual/tools/pattern_edit.rst:74
 msgid "Fine Tune the resizing of the pattern."
-msgstr ""
+msgstr "Ajusta de forma fina o tamanho do padrão."
 
 #: ../../reference_manual/tools/pattern_edit.rst:76
 msgid "W:"
@@ -195,11 +198,11 @@ msgstr "L:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:77
 msgid "The width, in pixels."
-msgstr ""
+msgstr "A largura em pixels."
 
 #: ../../reference_manual/tools/pattern_edit.rst:79
 msgid "Pattern Size:"
-msgstr ""
+msgstr "Tamanho do Padrão:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:79
 msgid "H:"
@@ -207,10 +210,10 @@ msgstr "A:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:79
 msgid "The height, in pixels."
-msgstr ""
+msgstr "A altura em pixels."
 
 #: ../../reference_manual/tools/pattern_edit.rst:81
 msgid ""
 "And then there's Patterns, which is a mini pattern docker, and where you can "
 "pick the pattern used for the fill."
-msgstr ""
+msgstr "E chegamos agora aos Padrões, que é uma área com mini-padrões, onde poderá escolher o padrão usado para o preenchimento."

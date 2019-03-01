@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"POT-Creation-Date: 2019-02-28 03:20+0100\n"
 "PO-Revision-Date: 2019-02-27 08:11+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -11241,12 +11241,14 @@ msgid "Anti-aliasing"
 msgstr "Anticrénelage"
 
 #: ../../<rst_epilog>:2
-msgid ".. image:: images/icons/Krita_mouse_left.png\n"
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 msgstr ""
 
 #: ../../<rst_epilog>:72
-msgid ".. image:: images/icons/path_select_tool.svg\n"
+msgid ""
+".. image:: images/icons/path_select_tool.svg\n"
 "   :alt: toolselectpath"
 msgstr ""
 
@@ -11263,7 +11265,12 @@ msgid "|toolselectpath|"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:21
-msgid "This tool, represented by a ellipse with a dashed border and a curve control, allows you to make a :ref:`selections_basics` of an area by drawing a path around it. Click where you want each point of the path to be. Click and drag to curve the line between points. Finally click on the first point you created to close your path."
+msgid ""
+"This tool, represented by a ellipse with a dashed border and a curve "
+"control, allows you to make a :ref:`selections_basics` of an area by drawing "
+"a path around it. Click where you want each point of the path to be. Click "
+"and drag to curve the line between points. Finally click on the first point "
+"you created to close your path."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:24
@@ -11271,7 +11278,9 @@ msgid "Hotkeys and Sticky keys"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:26
-msgid ":kbd:`R` sets the selection to 'replace' in the tool options, this is the default mode."
+msgid ""
+":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
+"default mode."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:27
@@ -11283,7 +11292,10 @@ msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:29
-msgid ":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can release the :kbd:`Shift` key while dragging, but it will still be set to 'add'. Same for the others."
+msgid ""
+":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can "
+"release the :kbd:`Shift` key while dragging, but it will still be set to "
+"'add'. Same for the others."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:30
@@ -11295,15 +11307,21 @@ msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:32
-msgid ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  'intersect'."
+msgid ""
+":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
+"'intersect'."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:36
-msgid "Selection modifiers don't quite work yet with the path tool, as shift breaks the path"
+msgid ""
+"Selection modifiers don't quite work yet with the path tool, as :kbd:`Shift` "
+"breaks the path"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:40
-msgid "You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the :ref:`general_settings`"
+msgid ""
+"You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
+"instead by toggling the switch in the :ref:`general_settings`"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:43
@@ -11315,9 +11333,14 @@ msgid "Autosmooth Curve"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:48
-msgid "Toggling this will have nodes initialize with smooth curves instead of angles. Untoggle this if you want to create sharp angles for a node. This will not affect curve sharpness from dragging after clicking."
+msgid ""
+"Toggling this will have nodes initialize with smooth curves instead of "
+"angles. Untoggle this if you want to create sharp angles for a node. This "
+"will not affect curve sharpness from dragging after clicking."
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:51
-msgid "This toggles whether or not to give selections feathered edges. Some people prefer hard-jagged edges for their selections."
+msgid ""
+"This toggles whether or not to give selections feathered edges. Some people "
+"prefer hard-jagged edges for their selections."
 msgstr ""
