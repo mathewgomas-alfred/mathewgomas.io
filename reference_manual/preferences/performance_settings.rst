@@ -29,7 +29,7 @@ These settings allow you to choose how much of your virtual desk you dedicate to
 Memory Limit
     This is the maximum space :program:`Krita` will reserve on your RAM on startup. It's both available in percentages and Bytes, so you can specify precisely. :program:`Krita` will not take up more space than this, making it safe for you to run an internet browser or music on the background.
 Internal Pool
-    A feature for advanced computer users. This allows :program:`Krita` to organise the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses it's place (a memory pool), so that it can find them easily, and it doesn't get lost amongst the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
+    A feature for advanced computer users. This allows :program:`Krita` to organise the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses its place (a memory pool), so that it can find them easily, and it doesn't get lost amongst the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
 
     Increasing this of course means there's more space for this type of data, but like how filling up your working desk with only one big canvas will make it difficult to find room for your paints and brushes, having a large internal pool will result in :program:`Krita` not knowing where to put the other non-specific data.
 

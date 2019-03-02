@@ -116,7 +116,7 @@ In fact, in all the 'elle'-profiles, the last number indicates the gamma. 1.0 is
 
 If you use the color space browser, you can tell the TRC from the 'estimated gamma'(if it's 1.0, it's linear), or from the TRC widget in Krita 3.0, which looks exactly like the curve graphs above.
 
-Even if you do not paint much, but are for example making textures for a videogame or rendering, using a linear space is very beneficial and will speed up the renderer a little, for it won't have to convert images on it's own.
+Even if you do not paint much, but are for example making textures for a videogame or rendering, using a linear space is very beneficial and will speed up the renderer a little, for it won't have to convert images on its own.
 
 The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light greys get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB trc.
 

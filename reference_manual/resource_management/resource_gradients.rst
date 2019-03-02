@@ -62,7 +62,7 @@ Stop gradients are very straight forward:
 .. image:: /images/en/Krita_move_stop.png
    :align: center
 
-A selected stop can have it's color and transparency changed using the color button and the opacity slider below.
+A selected stop can have its color and transparency changed using the color button and the opacity slider below.
 
 .. image:: /images/en/Krita_stop_sudden_change.png
    :align: center

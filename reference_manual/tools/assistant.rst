@@ -35,4 +35,4 @@ Global Color:
 .. versionadded:: 4.1
 
 Custom Color:
-   Custom color allows you to set a color and opacity per assistant, allowing for different colors on an assistant. To use this functionality, first 'select' an assistant by tapping it's move widget. Then go to the tool options docker to see the :guilabel:`Custom Color` check box. Check that, and then use the opacity and color buttons to pick either for this particular assistant.
+   Custom color allows you to set a color and opacity per assistant, allowing for different colors on an assistant. To use this functionality, first 'select' an assistant by tapping its move widget. Then go to the tool options docker to see the :guilabel:`Custom Color` check box. Check that, and then use the opacity and color buttons to pick either for this particular assistant.

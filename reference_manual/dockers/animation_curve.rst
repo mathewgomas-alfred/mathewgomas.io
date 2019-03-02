@@ -23,7 +23,7 @@ You will first need to add opacity keyframes to the active animation layer. You 
 
 .. image:: /images/en/Animation_curves_1.png
 
-Opacity should create a bright red curve line in the docker. On the left, in the layer list, you will see that the active layer has an outline of it's properties: A red 'opacity' has appeared. Pressing the red dot will hide the current curve, which'll be more useful in the future when more properties can be animated.
+Opacity should create a bright red curve line in the docker. On the left, in the layer list, you will see that the active layer has an outline of its properties: A red 'opacity' has appeared. Pressing the red dot will hide the current curve, which'll be more useful in the future when more properties can be animated.
 
 .. image:: /images/en/Animation_curves_2.png
 

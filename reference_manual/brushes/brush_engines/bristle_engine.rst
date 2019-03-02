@@ -101,7 +101,7 @@ Soak Ink
     .. image:: /images/en/Krita-tutorial7-B.I.3-2.png
 
     .. warning::
-        Be aware that this feature is a bit buggy though. It's Supposed to take the color from the current layer, but some buggy behavior causes it to often use the last layer you've painted on (with a non-Bristle brush?) as source. To avoid these weird behaviors, stick to just one layer, or paint something on the current active layer first with another brush (such as a Pixel brush).
+        Be aware that this feature is a bit buggy though. It's supposed to take the color from the current layer, but some buggy behavior causes it to often use the last layer you've painted on (with a non-Bristle brush?) as source. To avoid these weird behaviors, stick to just one layer, or paint something on the current active layer first with another brush (such as a Pixel brush).
 
 Weighted saturation.
     Works by modifying the saturation with the following:

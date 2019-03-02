@@ -67,7 +67,7 @@ Enter the container and build Krita
 
     ./bin/enter
 
-... now your are inside the container with all the deps prepared ...
+... now you are inside the container with all the deps prepared ...
 
 .. code::
 
@@ -83,7 +83,7 @@ Enter the container and build Krita
 Extra developer tools
 ---------------------
 
-To install QtCreator, enter container and start the installer, downloaded while fetching dependencies. Make sure you install it into '~/qtcreator' directory without any version suffixes, then you will be able to use the script below:
+To install QtCreator, enter the container and start the installer, downloaded while fetching dependencies. Make sure you install it into '~/qtcreator' directory without any version suffixes, then you will be able to use the script below:
 
 .. code::
 

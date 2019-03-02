@@ -156,15 +156,15 @@ extremes of the walkcycle. These are the pose where both legs are as far
 apart as possible, and the pose where one leg is full stretched and the
 other pulled in, read to take the next step.
 
-Now, let's copy these two... We could do that with :kbd:`Ctrl+drag`, but here
+Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but here
 comes a tricky bit:
 
 .. image:: /images/en/Introduction_to_animation_12.png
 
-Ctrl+ also selects and deselects frames, so to copy...
+:kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy...
 
--  drag select all the frames you want to select.
--  Ctrl+++drag. You need to make sure the first frame is 'orange',
+-  :kbd:`Ctrl + |mouseleft|` to select all the frames you want to select.
+-  :kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange',
    otherwise it won't be copied along.
 
 Now then...

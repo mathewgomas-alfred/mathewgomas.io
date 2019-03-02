@@ -244,7 +244,7 @@ Saving, Exporting and Opening Files
 
 When Krita creates or opens a file, it has a copy of the file in memory,
 that it edits. This is part of the way how computers work: They make a
-copy of their file in the ram. Thus, when saving, Krita takes it's copy
+copy of their file in the ram. Thus, when saving, Krita takes its copy
 and copies it over the existing file. There's a couple of tricks you can
 do with saving.
 

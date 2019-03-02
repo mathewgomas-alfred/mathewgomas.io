@@ -31,7 +31,7 @@ Reference Documentation:
 Sphinx specific docs:
     * `Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ -- This is useful for the specific sphinx directives and roles it uses to generate for example table of contents.
 
-There's between the official reStructuredText and the sphinx docs multiple ways to do things. This document specifies the suggested conventions to go with.
+There are differences between the official reStructuredText and the sphinx docs multiple ways to do things. This document specifies the suggested conventions to go with.
 
 .. contents::
 
@@ -41,7 +41,7 @@ Meta data
 Each page should start with the following three things:
 
 1. A meta description
-    This is a general description of the page. It will be converted to a html meta tag which will be used by search engines::
+    This is a general description of the page. It will be converted to an html meta tag which will be used by search engines::
 
         .. meta::
             :description:
@@ -58,7 +58,7 @@ Each page should start with the following three things:
            :license: GNU free documentation license 1.3 or later.
 
 3. Indexing terms.
-    These are comma-separated terms under which the page will be indexed in :ref:`genindex`. The generated index is quite useful for both pdf as well as people who are not sure what the exact name is of the term they are looking for. They are defined as following::
+    These are comma-separated terms under which the page will be indexed in :ref:`genindex`. The generated index is quite useful for both pdf as well as people who are not sure what the exact name is of the term they are looking for. They are defined as follows::
 
         .. index:: Keyword, Keyword with Spaces, ! Main Definition Keyword
 
@@ -115,7 +115,7 @@ Linking is done with ``:ref:`label_name```. When you need an alternative link te
 
 Linking to external pages is done with ```url`_`` and ```link name <url>`_``, which'll become `link name <url>`_.
 
-Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url `` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated to one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
+Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url `` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated with one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
 
 Footnotes and further reading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -348,8 +348,8 @@ Done as follows::
 
 Full grid tables are best for when you need all features like complex column and row spans, but they're tricky to make. For that reason, small tables are best off being done with the simple syntax, while really long tables are best done with a list directive because that is just much easier to write and maintain.
 
-Admonishments and asides.
--------------------------
+Admonishments and asides
+------------------------
 
 .. note::
 
@@ -409,7 +409,7 @@ Sphinx also adds::
 
 .. Topic:: Horizontal Rulers
 
-    Horizontal rulers are usually used when the topic switches rather directly. This is very common in more narrative based writing, such as history or fiction. The Krita manual is more instruction and reference style writing, that is to say, we don't usually tell a long story to indicate how different elements come together, but rather long stories are there to motivate why certain steps are taken in a certain manner. Topic changes then usually happen because we go into a new section, rather then switching to a related section. It is therefore better to use headings or the ``.. Topic::`` directive. Headings also make it easier to read.
+    Horizontal rulers are usually used when the topic switches rather directly. This is very common in more narrative based writing, such as history or fiction. The Krita manual is more instruction and reference style writing, that is to say, we don't usually tell a long story to indicate how different elements come together, but rather long stories are there to motivate why certain steps are taken in a certain manner. Topic changes then usually happen because we go into a new section, rather than switching to a related section. It is therefore better to use headings or the ``.. Topic::`` directive. Headings also make it easier to read.
 
 ----------------
 
@@ -417,7 +417,7 @@ That said, horizontal rulers can be made with ``----``.
 
 .. rubric:: The rubric directive.
 
-The rubric directive is a heading directive that at first glance looks like "topic", but where topic is over several paragraphs, rubric itself only deals with the header, like so::
+The rubric directive is a heading directive that at first glance looks like "topic", but where the topic is over several paragraphs, rubric itself only deals with the header, like so::
 
     .. rubric:: The rubric directive.
 
@@ -433,8 +433,8 @@ Rubric
 Admonishments
     Only when they fit semantically. This is especially necessary for the danger and warning admonishments, as seeing them too often can make users blind to them.
 
-Code Snippets:
---------------
+Code Snippets
+-------------
 
 ``Inline code snippets`` are done with ````backticks````.
 
@@ -496,8 +496,8 @@ some more...
 
     <p>this <span style="font-style:italic">is</span> <!-- a comment --> a paragraph.</p>
     
-Other preformatted text.
-------------------------
+Other preformatted text
+-----------------------
 
 
 | One can

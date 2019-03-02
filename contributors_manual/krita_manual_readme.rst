@@ -82,7 +82,7 @@ If you are not familiar with Git
     Try to keep the filenames the same, that's easier for us to copy over.
 5. Upload the zip on phabricator.
 
-    1. First, go to phabricator.kde.org and log in with you identity account.
+    1. First, go to phabricator.kde.org and log in with your identity account.
     2. Go to the `Manual Project Workboard`_ and there create a new task.
     3. Explain what you did and use drag and drop to move the zip file to the input textbox. That should upload it. We will also need the email address you associate with your kde identity account.
     4. Then, if the changes are accepted, someone with commit access will unpack those files into the manual folder and push the differences using the mail address.
@@ -160,13 +160,13 @@ Keep the language polite, but do not use academic language.
 Avoid using gifs (open for debate)
     The reason is that people with epilepsy may be affected by fast moving images. Similarly, gifs can sometimes carry too much of the burden of explanation. If you can't help but use gifs, at the least notify the reader of this in the introduction of the page.
 Keep it translation compatible
-    This consists of using svg for infographics, and using the appropriate markup for given text.
+    This consists of using svg for infographics, and using the appropriate markup for a given text.
 
 Regarding photos and paintings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * I would like to discourage photos and traditional paintings in the manual if they are not illustrating a concept. The reason is that it is very silly and a little dishonest to show Rembrand's work inside the Krita GUI, when we have so many modern works that were made in Krita. All of the pepper&carrot artwork was made in Krita and the original files are available, so when you do not have an image handy, start there. Photos should be avoided because Krita is a painting program. Too many photos can give the impression Krita is trying to be a solution for photo retouching, which really isn't the focus.
-* Of course, we still want to show certain concepts in play in photos and master paintings, such as glossing or indirect light. In this case, add a caption that mentions the name of the painting or the painter, or mention it's a photograph.
+* Of course, we still want to show certain concepts in play in photos and master paintings, such as glossing or indirect light. In this case, add a caption that mentions the name of the painting or the painter, or mentions it's a photograph.
 * Photos can still be used for photobashing and the like, but only if it's obviously used in the context of photobashing.
 
 Regarding images in general
@@ -194,7 +194,7 @@ Before the ``draft`` branch is merged for a given release:
 * The master branch will be tagged with the old version.
 * The draft branch is first double checked that it has updated version number and updated epub cover.
 
-The ``draft`` branch will not be merged until the day before a release to keep the pages in tact for long enough.
+The ``draft`` branch will not be merged until the day before a release to keep the pages intact for long enough.
 
 Each release will have a version of the epub uploaded as part of the release process.
 .. Where do we get the POT files from? Even the translated versions?
@@ -261,7 +261,7 @@ If a page slips through the cracks, either...
 Proofreading
 ~~~~~~~~~~~~
 
-There's two types of proofreading that needs to be done.
+There are two types of proofreading that needs to be done.
 
 The most important one is **reviewing changes people make**. You can do this on phabricator in two ways:
 
@@ -284,9 +284,9 @@ For this you will need to follow the :ref:`making_changes_sphinx` section, so th
 Translating
 ~~~~~~~~~~~
 
-Translation of the manual is handled by the `KDE locatization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams <https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
+Translation of the manual is handled by the `KDE localization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams <https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
 
-The localisation team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
+The localization team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
 
 Finished translations also need to be added to the build script to show up online. Translator teams which are confident in the state of their translation should contact the main Krita team via the kimageshop mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this.
 

@@ -282,7 +282,7 @@ Then, we create a button:
 
     buttonExportDocument = QPushButton("Export Document", mainWidget)
 
-Now, to connect the button to our function, we'll need to look at the signals in the documentation. `QPushButton <http://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of it's own, but it does say it inherits 4 signals from `QAbstractButton <http://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that we can use those too. In our case, we want clicked.
+Now, to connect the button to our function, we'll need to look at the signals in the documentation. `QPushButton <http://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of its own, but it does say it inherits 4 signals from `QAbstractButton <http://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that we can use those too. In our case, we want clicked.
 
 .. code:: python
 

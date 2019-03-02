@@ -29,7 +29,7 @@ Krita, just like Sai, allows you to flip, rotate and duplicate the view. Unlike 
 Mirror
     This is tied to :kbd:`M` to flip.
 Rotate
-    There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or :kbd:`Ctrl`+:kbd:`[` and :kbd:`Ctrl+]` for basic 15 degrees rotation left and right. But you can also have more sophisticated rotation with :kbd:`Shift + Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the rotation, press :kbd:`5`.
+    There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` for basic 15 degrees rotation left and right. But you can also have more sophisticated rotation with :kbd:`Shift + Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the rotation, press :kbd:`5`.
 Zoom
     You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`Ctrl` + |mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit the zoom to page width.
 
@@ -41,7 +41,7 @@ Then, you can type in something in the left column to search for it. So, for exa
 
 You can do the same for :guilabel:`Redo`, :guilabel:`Deselect`, :guilabel:`Invert Selection`, :guilabel:`Zoom out`, :guilabel:`Zoom in`, :guilabel:`Reset zoom`, :guilabel:`Rotate left`, :guilabel:`Rotate right`, :guilabel:`Mirror view` and perhaps :guilabel:`Smoothing: basic` and :guilabel:`Smoothing: stabilizer` to get nearly all the functionality of Sai's top bar in Krita's top bar. (Though, on smaller screens this will cause all the things in the brushes toolbar to hide inside a drop down to the right, so you need to experiment a little).
 
-:guilabel:`Hide Selection`, :guilabel:`Reset Rotation` are currently not available via the Toolbar configuration, you'll need to use the shortcuts :kbd:`Ctrl`+:kbd:`H` and :kbd:`5` to toggle these.
+:guilabel:`Hide Selection`, :guilabel:`Reset Rotation` are currently not available via the Toolbar configuration, you'll need to use the shortcuts :kbd:`Ctrl + H` and :kbd:`5` to toggle these.
 
 .. note::
 
@@ -103,7 +103,7 @@ Layers
 Lock Alpha
     This is the checker box icon next to every layer.
 Clipping group
-    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press :kbd:`Ctrl`+:kbd:`Shift`+:kbd:`G`
+    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`
 Ink layer
     This is a vector layer in Krita, and also holds the text.
 Masks
@@ -132,7 +132,7 @@ You can have HSV sliders, RGB sliders, triangle in a hue ring. But you can also 
 .. image:: /images/en/Krita_Color_Selector_Types.png
    :align: center
 
-You can call the color history with :kbd:`H`, common colors with :kbd:`U` and the two shade selectors with :kbd:`Shift`+:kbd:`N` and :kbd:`Shift`+:kbd:`M`. The big selector can be called with :kbd:`Shift`+:kbd:`I` on canvas.
+You can call the color history with :kbd:`H`, common colors with :kbd:`U` and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. The big selector can be called with :kbd:`Shift + I` on canvas.
 
 Geometric Tools
 ~~~~~~~~~~~~~~~

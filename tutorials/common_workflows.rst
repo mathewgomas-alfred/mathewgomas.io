@@ -167,7 +167,7 @@ You then refine these shapes to look more like shapes you think they look, and p
 Starting from a value based underground
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This method finds it's origins in old oil-painting practice: You first make an under-painting and then paint over it with colour, having the dark underground shine through.
+This method finds its origins in old oil-painting practice: You first make an under-painting and then paint over it with colour, having the dark underground shine through.
 
 With Krita you can use blending modes for this purpose. Choosing the Color blending mode on a layer on top allows you to change the colours of the image without changing the relative luminosity. This is useful, because humans are much more sensitive to tonal differences than difference in saturation and hue. This'll allow you to work in greyscale before going into colour for the polishing phase.
 

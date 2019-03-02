@@ -13,7 +13,7 @@
 CMake Settings for Developers
 =============================
 
-The `CMake <https://www.cmake.org>`_ build system generators used by Krita is one of the most used build system generatorss in the C++ world. A build system is a system that describes how a an application should be built from source code. CMake generates a build system from the information given in the CMakeLists.txt and `*.cmake` files. It is a complete but rather unusual language.
+The `CMake <https://www.cmake.org>`_ build system generators used by Krita is one of the most used build system generators in the C++ world. A build system is a system that describes how an application should be built from source code. CMake generates a build system from the information given in the CMakeLists.txt and `*.cmake` files. It is a complete but rather unusual language.
 
 If you start working on Krita, you will need knowledge of two things: how to run the cmake generator, and which variables are important there, and how to edit the CMakeLists.txt files. This page tells you how to run the cmake generator.
 

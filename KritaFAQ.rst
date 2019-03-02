@@ -49,9 +49,9 @@ Is it possible to use Krita in my own language, not English?
 
 Krita should automatically use the system language. If that is not the case, please follow these steps:
 
-#. Settings --> Switch Application Language. A small window will appear.
-#. Click Primary language and select your language.
-#. Click OK to close the window.
+#. :menuselection:`Settings --> Switch Application Language`. A small window will appear.
+#. Click :guilabel:`Primary language` and select your language.
+#. Click :guilabel:`OK` to close the window.
 #. Restart krita and it will be displayed in your selected language!
 
 If this doesn't work, you might have to add a fall-back language as well. This is a bug, but we haven't found the solution yet.
@@ -114,7 +114,7 @@ If you have installed Krita through the Windows store, the kritarc file will be 
 
 :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
 
-The random string depends on your installation/
+The random string depends on your installation.
 
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
 
@@ -172,7 +172,7 @@ Why do I get a checkerboard pattern when I use the eraser?
 
 You’re probably used to Gimp or Photoshop. The default background or first layer in these applications doesn’t have an alpha channel by default. Thus, on their background layer, the eraser paints in the background color.
 
-In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent  you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (the INSert key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
+In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent  you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (The :kbd:`Ins` key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
 
 Windows: Can I use Krita with Sandboxie?
 ----------------------------------------
@@ -296,7 +296,7 @@ You can fix this issue manually by:
 
 #. Put your stylus away from the tablet.
 #. Start Krita without using a stylus, that is using a mouse or a keyboard.
-#. Press Shift key and hold it.
+#. Press :kbd:`Shift` key and hold it.
 #. Touch a tablet with your stylus so Krita would recognize it.
 
 You will see a special dialog asking for the real screen resolution. Choose the correct value or enter it manually and press OK.
