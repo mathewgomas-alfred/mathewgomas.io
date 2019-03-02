@@ -43,7 +43,11 @@ msgid ""
 "when you start with Krita is the '''Pixel Brush'''. The pixel brush is the "
 "traditional mainstay of digital art. This brush paints impressions of the "
 "brush tip along your stroke with a greater or smaller density."
-msgstr "Os pincéis estão ordenados alfabeticamente. O pincel seleccionado por omissão quando inicia o Krita é o '''Pincel por Pixels'''. Este pincel é o clássico da arte digital. Este pincel pinta impressões da ponta do pincel ao longo do seu traço, com uma densidade maior ou menor."
+msgstr ""
+"Os pincéis estão ordenados alfabeticamente. O pincel seleccionado por "
+"omissão quando inicia o Krita é o '''Pincel por Pixels'''. Este pincel é o "
+"clássico da arte digital. Este pincel pinta impressões da ponta do pincel ao "
+"longo do seu traço, com uma densidade maior ou menor."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:24
 msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
@@ -57,13 +61,18 @@ msgstr "Vamos primeiro rever estas mecânicas:"
 msgid ""
 "select a brush tip. This can be a generated brush tip (round, square, star-"
 "shaped), a predefined bitmap brush tip, a custom brush tip or a text."
-msgstr "seleccione uma ponta de pincel. Esta pode ser uma ponta de pincel gerada (redonda, quadrada, em estrela), uma ponta com uma imagem predefinida, uma ponta personalizada ou um texto."
+msgstr ""
+"seleccione uma ponta de pincel. Esta pode ser uma ponta de pincel gerada "
+"(redonda, quadrada, em estrela), uma ponta com uma imagem predefinida, uma "
+"ponta personalizada ou um texto."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:28
 msgid ""
 "select the spacing: this determines how many impressions of the tip will be "
 "made along your stroke"
-msgstr "seleccione o intervalo: isto define quantas impressões da ponta serão feitas ao longo do seu traço"
+msgstr ""
+"seleccione o intervalo: isto define quantas impressões da ponta serão feitas "
+"ao longo do seu traço"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:29
 msgid ""
@@ -71,7 +80,11 @@ msgid ""
 "other inputs can change the size, the color, the opacity or other aspects of "
 "the currently painted brush tip instance -- some applications call that a "
 "\"dab\"."
-msgstr "seleccione os efeitos: a pressão do seu lápis, a sua velocidade de pintura ou outros dados de entrada que possam mudar o tamanho, a cor, a opacidade ou outros aspectos da sua instância de pincel pintada de momento -- algumas aplicações chamam isso de \"demão\"."
+msgstr ""
+"seleccione os efeitos: a pressão do seu lápis, a sua velocidade de pintura "
+"ou outros dados de entrada que possam mudar o tamanho, a cor, a opacidade ou "
+"outros aspectos da sua instância de pincel pintada de momento -- algumas "
+"aplicações chamam isso de \"demão\"."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:30
 msgid ""
@@ -79,13 +92,19 @@ msgid ""
 "mixed with the current one, causing a darker, more painterly stroke, or the "
 "complete stroke is computed and put on your layer. You will see the stroke "
 "grow while painting in both cases, of course!"
-msgstr "dependendo do modo do pincel, a instância da ponta pintada anteriormente mistura-se com a actual, criando um traço mais escuro e mais carregado, ou então é calculado o traço completo e colocado na sua camada. Irá ver o traço a crescer à medida que vai pintando em ambos os casos, como é óbvio!"
+msgstr ""
+"dependendo do modo do pincel, a instância da ponta pintada anteriormente "
+"mistura-se com a actual, criando um traço mais escuro e mais carregado, ou "
+"então é calculado o traço completo e colocado na sua camada. Irá ver o traço "
+"a crescer à medida que vai pintando em ambos os casos, como é óbvio!"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:32
 msgid ""
 "Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the "
 "default brush being the fastest mask."
-msgstr "Desde o 4.0, o Motor de Pincéis por Pixels tem pontas de pincéis multi-tarefa, sendo o pincel predefinido a máscara mais rápida."
+msgstr ""
+"Desde o 4.0, o Motor de Pincéis por Pixels tem pontas de pincéis multi-"
+"tarefa, sendo o pincel predefinido a máscara mais rápida."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:34
 msgid "Available Options:"
@@ -161,7 +180,7 @@ msgstr "Parâmetros Específicos do Motor de Pincéis por Pixels"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:57
 msgid "Darken"
-msgstr "Escurecer"
+msgstr "Escurecimento"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:59
 msgid "Allows you to Darken the source colour with Sensors."
@@ -175,7 +194,9 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_darken_01.png"
 msgid ""
 "The color will always become black in the end, and will work with Plain "
 "Color, Gradient and Uniform random as source."
-msgstr "A cor ficará sempre preta no fim, funcionando com uma Cor Simples, um Gradiente e Aleatória Uniforme como origem."
+msgstr ""
+"A cor ficará sempre preta no fim, funcionando com uma Cor Simples, um "
+"Gradiente e Aleatória Uniforme como origem."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:66
 msgid "Hue, Saturation, Value"
@@ -185,7 +206,9 @@ msgstr "Matiz, Saturação, Valor"
 msgid ""
 "These parameters allow you to do a HSV adjustment filter on the :ref:"
 "`option_source` and control it with Sensors."
-msgstr "Estes parâmetros permitem-lhe fazer um filtro de ajuste HSV sobre o :ref:`option_source` e controlá-lo com os Sensores."
+msgstr ""
+"Estes parâmetros permitem-lhe fazer um filtro de ajuste HSV sobre o :ref:"
+"`option_source` e controlá-lo com os Sensores."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
 msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_01.png"
@@ -193,7 +216,8 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_HSV_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:72
 msgid "Works with Plain Color, Gradient and Uniform random as source."
-msgstr "Funciona com uma Cor Única, um Gradiente ou Aleatório Uniforme como origem."
+msgstr ""
+"Funciona com uma Cor Única, um Gradiente ou Aleatório Uniforme como origem."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:75
 msgid "Uses"
@@ -207,4 +231,7 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_HSV_02.png"
 msgid ""
 "Having all three parameters on Fuzzy will help with rich color texture. In "
 "combination with :ref:`option_mix`, you can have even finer control."
-msgstr "Tendo todos os três parâmetros como Difusos irá ajudar a criar texturas com cores ricas. Em conjunto com o :ref:`option_mix`, poderá até ter um controlo mais afinado."
+msgstr ""
+"Tendo todos os três parâmetros como Difusos irá ajudar a criar texturas com "
+"cores ricas. Em conjunto com o :ref:`option_mix`, poderá até ter um controlo "
+"mais afinado."

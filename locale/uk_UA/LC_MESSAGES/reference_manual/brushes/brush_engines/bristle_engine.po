@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___bristle_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__bristle_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 13:53+0200\n"
+"PO-Revision-Date: 2019-03-01 16:22+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
 msgid "Weighted saturation."
@@ -35,11 +35,11 @@ msgstr ".. image:: images/en/Krita-tutorial7-B.I.3-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:1
 msgid "The Bristle Brush Engine manual page."
-msgstr ""
+msgstr "Сторінка підручника щодо рушія щетинкових пензлів."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:18
 msgid "Bristle Brush Engine"
-msgstr ""
+msgstr "Рушій щетинкових пензлів"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:21
 msgid ".. image:: images/icons/bristlebrush.svg"
@@ -50,18 +50,20 @@ msgid ""
 "A brush intended to mimic real-life brushes by drawing the trails of their "
 "lines or bristles."
 msgstr ""
+"Пензель, який призначено для імітації звичайних щетинкових пензлів шляхом"
+" показу на мазках слідів від щетинок."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:25
 msgid "Brush Tip"
-msgstr ""
+msgstr "Кінчик пензля"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:27
 msgid "Simply put:"
-msgstr ""
+msgstr "Якщо простіше:"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:29
 msgid "The brush tip defines the areas with bristles in them."
-msgstr ""
+msgstr "Кінчик пензля визначає області із щетинками."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:30
 msgid ""
@@ -74,10 +76,12 @@ msgid ""
 "The :ref:`option_size` and :ref:`option_rotation` dynamics affect the brush "
 "tip, not the bristles."
 msgstr ""
+"Динаміка :ref:`option_size` і :ref:`option_rotation` впливає на кінчик"
+" пензля, а не не щетинки."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:33
 msgid "You can:"
-msgstr ""
+msgstr "Можете зробити так:"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:35
 msgid ""
@@ -99,11 +103,11 @@ msgstr ".. image:: images/en/Krita-tutorial7-B.I.1.png"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:41
 msgid "Bristle Options"
-msgstr ""
+msgstr "Параметри щетинок"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:43
 msgid "The core of this particular brush-engine."
-msgstr ""
+msgstr "Ядро цього окремо взятого рушія пензлів."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:46
 msgid ""
@@ -118,7 +122,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:49
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:52
 msgid ""
@@ -131,17 +135,19 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:54
 msgid "Random Offset"
-msgstr ""
+msgstr "Випадковий відступ"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
 msgid "Shear"
-msgstr ""
+msgstr "Зсув"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:57
 msgid ""
 "Shear introduces an angle to your brush, as though you're drawing with an "
 "oval brush (or the side of a round brush)."
 msgstr ""
+"Зсув додає кут для вашого пензля так, наче ви малюєте овальним пензлем (або"
+" нахиленим круглим пензлем)."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:59
 msgid "Density"
@@ -169,11 +175,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:65
 msgid "Mouse Pressure"
-msgstr ""
+msgstr "Натиск миші"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:67
 msgid "Threshold"
-msgstr ""
+msgstr "Поріг"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
 msgid ""
@@ -183,23 +189,23 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:69
 msgid "Connect Hairs"
-msgstr ""
+msgstr "З’єднати щетинки"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:70
 msgid "The bristles get connected. See for yourself."
-msgstr ""
+msgstr "З'єднування щетинок. Поекспериментуйте."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:71
 msgid "Anti-Aliasing"
-msgstr ""
+msgstr "Згладжування"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:72
 msgid "This will decrease the jaggy-ness of the lines."
-msgstr ""
+msgstr "Цей параметр зменшує зубчастість ліній."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:74
 msgid "Composite Bristles"
-msgstr ""
+msgstr "Композиція щетинок"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:74
 msgid ""
@@ -213,7 +219,7 @@ msgstr ".. image:: images/en/Krita-tutorial7-B.I.2-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:79
 msgid "Ink Depletion"
-msgstr ""
+msgstr "Вичерпання чорнила"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:81
 msgid ""
@@ -223,19 +229,20 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:83
 msgid "Opacity"
-msgstr ""
+msgstr "Непрозорість"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:84
 msgid "The brush will go transparent to simulate ink-depletion."
 msgstr ""
+"Пензель буде перетворюватися на прозорий для імітації вичерпання чорнила."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:86
 msgid "The brush will be desaturated to simulate ink-depletion."
-msgstr ""
+msgstr "Пензель буде зненасичено для імітації вичерпання чорнила."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:88
 msgid "Saturation"
-msgstr ""
+msgstr "Насиченість"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:91
 msgid ""
@@ -255,11 +262,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:96
 msgid "When the source is transparent, the bristles take black color."
-msgstr ""
+msgstr "Якщо джерело є прозорим, щетинки всмоктуватимуть чорний колір."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:101
 msgid "Soak Ink"
-msgstr ""
+msgstr "Всмоктати чорнило"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:101
 msgid ""

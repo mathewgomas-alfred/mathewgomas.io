@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-01 17:08+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,21 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Nuke Krita Mari Natron exr EXR ref Blender\n"
 
 #: ../../general_concepts/file_formats/file_exr.rst:1
 msgid "The EXR file format as exported by Krita."
-msgstr ""
+msgstr "O formato de ficheiros EXR, como é exportado pelo Krita."
 
 #: ../../general_concepts/file_formats/file_exr.rst:15
 msgid "\\*.exr"
-msgstr ""
+msgstr "\\*.exr"
 
 #: ../../general_concepts/file_formats/file_exr.rst:17
 msgid ""
 ".exr is the prime file format for saving and loading :ref:`floating point "
 "bit depths <bit_depth>`, and due to the library made to load and save these "
 "images being fully open source, the main interchange format as well."
-msgstr ""
+msgstr "O formato .exr é o formato principal para gravar e carregar :ref:`profundidades de cor de vírgula flutuante <bit_depth>` e, devido à biblioteca criada para carregar e gravar essas imagens ser de código aberto por completo, é também o formato de intercâmbio principal nesse modelo."
 
 #: ../../general_concepts/file_formats/file_exr.rst:19
 msgid ""
@@ -40,11 +41,11 @@ msgid ""
 "than white, which in turn means that such a file can record lighting "
 "conditions, such as sunsets very accurately. These exr files can then be "
 "used inside a renderer to create realistic lighting."
-msgstr ""
+msgstr "As profundidades de cor por vírgula flutuante são usadas pela indústria da computação gráfica para gravar valores de cenas referentes a cenas, que podem ser criadas por uma câmara ou por um sistema de desenho por computador. Os valores referentes a cenas significam que o ficheiro pode ter valores mais brancos que o próprio branco, o que significa por suave que um ficheiro consegue gravar condições de iluminação, como um pôr-do-sol, com grande precisão. Estes ficheiros .exr podem então ser usados dentro de um sistema de desenho para criar uma iluminação realista."
 
 #: ../../general_concepts/file_formats/file_exr.rst:21
 msgid ""
 "Krita can load and save exr for the purpose of paint-over (yes, Krita can "
 "paint with scene referred values) and interchange with applications like "
 "Blender, Mari, Nuke and Natron."
-msgstr ""
+msgstr "O Krita consegue carregar e gravar o .exr para fins de pintura por sobreposição (sim, o Krita consegue pintar com valores referentes a uma cena) e fazer intercâmbio com aplicações como o Blender, Mari, Nuke e o Natron."

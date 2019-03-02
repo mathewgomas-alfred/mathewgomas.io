@@ -32,13 +32,19 @@ msgid ""
 "As a native Linux program, Krita allows you to do operations on images "
 "without opening the program when using the Terminal. This option was "
 "disabled on Windows and OSX, but with 3.3 it is enabled for them!"
-msgstr "Como um programa nativo de Linux, o Krita permite-lhe efectuar operações sobre imagens sem abrir o programa, usando para tal o Terminal. Esta opção estava desactivada no Windows e no OSX, mas com o 3.3 está activa para esses sistemas!"
+msgstr ""
+"Como um programa nativo de Linux, o Krita permite-lhe efectuar operações "
+"sobre imagens sem abrir o programa, usando para tal o Terminal. Esta opção "
+"estava desactivada no Windows e no OSX, mas com o 3.3 está activa para esses "
+"sistemas!"
 
 #: ../../reference_manual/linux_command_line.rst:22
 msgid ""
 "This is primarily used in bash or shell scripts, for example, to mass "
 "convert kra files into pngs."
-msgstr "Isto é principalmente usado nos programas de 'bash' ou de outras linhas de comandos, por exemplo para converter em massa os ficheiros .kra para .png."
+msgstr ""
+"Isto é principalmente usado nos programas de 'bash' ou de outras linhas de "
+"comandos, por exemplo para converter em massa os ficheiros .kra para .png."
 
 #: ../../reference_manual/linux_command_line.rst:25
 msgid "Export"
@@ -50,7 +56,8 @@ msgstr "Isto permite-lhe converter rapidamente ficheiros através do terminal:"
 
 #: ../../reference_manual/linux_command_line.rst:29
 msgid "``krita importfilename --export --export-filename exportfilename``"
-msgstr "``krita ficheiro-importado --export --export-filename ficheiro-exportado``"
+msgstr ""
+"``krita ficheiro-importado --export --export-filename ficheiro-exportado``"
 
 #: ../../reference_manual/linux_command_line.rst:34
 msgid "importfilename"
@@ -68,13 +75,17 @@ msgstr "A exportação de um ficheiro selecciona a opção de exportação."
 msgid ""
 "Exportfilename says that the following word is the filename it should be "
 "exported to."
-msgstr "O ficheiro-exportado diz que a palavra seguinte é o nome do ficheiro para o qual deseja exportar."
+msgstr ""
+"O ficheiro-exportado diz que a palavra seguinte é o nome do ficheiro para o "
+"qual deseja exportar."
 
 #: ../../reference_manual/linux_command_line.rst:44
 msgid ""
 "Replace this with the name of the output file. Use a different extension to "
 "change the fileformat."
-msgstr "Substitua isto pelo nome do ficheiro de saída. Use uma extensão diferente para mudar o formato do ficheiro."
+msgstr ""
+"Substitua isto pelo nome do ficheiro de saída. Use uma extensão diferente "
+"para mudar o formato do ficheiro."
 
 #: ../../reference_manual/linux_command_line.rst:46
 msgid "Example:"
@@ -87,7 +98,9 @@ msgstr "``krita final.png --export --export-filename final.jpg``"
 #: ../../reference_manual/linux_command_line.rst:50
 msgid ""
 "This piece of code takes the file ``file.png`` and saves it as ``file.jpg``."
-msgstr "Este pedaço de código recebe o ficheiro ``ficheiro.png`` e grava-o como ``ficheiro.jpg``."
+msgstr ""
+"Este pedaço de código recebe o ficheiro ``ficheiro.png`` e grava-o como "
+"``ficheiro.jpg``."
 
 #: ../../reference_manual/linux_command_line.rst:53
 msgid "PDF export"
@@ -95,7 +108,9 @@ msgstr "Exportação para PDF"
 
 #: ../../reference_manual/linux_command_line.rst:55
 msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
-msgstr "A exportação para PDF parece um pouco diferente, usando a opção ``--export-pdf``."
+msgstr ""
+"A exportação para PDF parece um pouco diferente, usando a opção ``--export-"
+"pdf``."
 
 #: ../../reference_manual/linux_command_line.rst:57
 msgid "``krita final.png --export-pdf --export-filename final.pdf``"
@@ -103,7 +118,8 @@ msgstr "``krita final.png --export-pdf --export-filename final.pdf``"
 
 #: ../../reference_manual/linux_command_line.rst:59
 msgid "export-pdf exports the file ``file.png`` as a pdf file."
-msgstr "O 'export-pdf' exporta o ficheiro ``ficheiro.png`` como um ficheiro PDF."
+msgstr ""
+"O 'export-pdf' exporta o ficheiro ``ficheiro.png`` como um ficheiro PDF."
 
 #: ../../reference_manual/linux_command_line.rst:63
 msgid "This has been removed from 3.1 because the results were incorrect."
@@ -135,7 +151,10 @@ msgid ""
 "Open krita and automatically open the given template(s). This allows you to, "
 "for example, create a shortcut to Krita that opens a given template, so you "
 "can get to work immediately!"
-msgstr "Abre o Krita e abre automaticamente o(s) modelo(s) indicado(s). Isto permite-lhe, por exemplo, criar um atalho para o Krita que abra um dado modelo, para comece logo a trabalhar de imediato!"
+msgstr ""
+"Abre o Krita e abre automaticamente o(s) modelo(s) indicado(s). Isto permite-"
+"lhe, por exemplo, criar um atalho para o Krita que abra um dado modelo, para "
+"comece logo a trabalhar de imediato!"
 
 #: ../../reference_manual/linux_command_line.rst:85
 msgid "``krita --template templatename.desktop``"
@@ -149,7 +168,10 @@ msgstr "Selecciona a opção do modelo"
 msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
 "in the .kde/share/apps/krita/template or in the install folder of Krita."
-msgstr "Todos os modelos estão gravados com a extensão .desktop. Poderá encontrar os modelos na pasta '.kde/share/apps/krita/template' ou na pasta de instalação do Krita."
+msgstr ""
+"Todos os modelos estão gravados com a extensão .desktop. Poderá encontrar os "
+"modelos na pasta '.kde/share/apps/krita/template' ou na pasta de instalação "
+"do Krita."
 
 #: ../../reference_manual/linux_command_line.rst:95
 msgid "``krita --template BD-EuroTemplate.desktop``"
