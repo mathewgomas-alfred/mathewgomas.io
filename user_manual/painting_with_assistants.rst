@@ -21,7 +21,7 @@ straight lines or circles.
 
 They can function as a preview shape, or you can snap onto them with the
 freehand brush tool. In the tool options of free hand brush, you can
-toggle 'snap to assistant' to turn on snapping.
+toggle :guilabel:`Snap to Assistants` to turn on snapping.
 
 .. figure:: /images/en/Krita_basic_assistants.png
    :alt: Krita's vanishing point assistants in action

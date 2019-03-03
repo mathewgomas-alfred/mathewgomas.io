@@ -90,7 +90,7 @@ If your have set the docker size considerably smaller to save space, this option
 * on mouse over
 * never
 
-The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:`Shift`+:kbd:`M`, respectively.
+The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:`Shift + M`, respectively.
 
 Hide Pop-up on click
     This allows you to let the pop-up selectors called with the above hotkeys to disappear upon clicking them instead of having to leave the pop-up boundary. This is useful for faster working.

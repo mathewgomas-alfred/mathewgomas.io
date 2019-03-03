@@ -43,7 +43,7 @@ This makes for a nice textured square brush.
 Of course, this'll make the stroke distance longer to get to smudging, so we go back to the *Opacity*.
 
 .. image:: /images/en/brush-tips/Painter-sculpt-brush-04.png
-    :alt: opacity parameter in the rbush setting
+    :alt: opacity parameter in the brush setting
 
 Just adjust the fade-length by |mouseright| on the slider bar. You can then input a number. In the screenshot, I have 500, but the sweet spot seems to be somewhere between 150 and 200.
 

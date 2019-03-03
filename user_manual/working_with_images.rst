@@ -271,7 +271,7 @@ Create Copy from Current Image
 Save Incremental Version
     Saves the current image as 'filename'\_XXX.kra and switches the
     current document to it.
-Save Incremental Backup.
+Save Incremental Backup
     Copies and renames the last saved version of your file to a back-up file and saves your document under the original name.
     
 

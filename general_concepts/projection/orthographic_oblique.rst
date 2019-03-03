@@ -59,8 +59,7 @@ First, let's prepare our front and side views:
 .. image:: /images/en/category_projection/projection_image_01.png 
    :align: center
 
-I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`snap to image borders`
- active via :kbd:`Shift` + :kbd:`S`
+I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap to image borders` active via :kbd:`Shift` + :kbd:`S`
 
 Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
 
@@ -74,7 +73,9 @@ And of course, let us not forget the top, it's pretty important:
 .. image:: /images/en/category_projection/projection_image_03.png 
    :align: center
 
-Tip: When you are using Krita, you can just use transform masks to rotate the side view for drawing the top-view.
+.. tip::
+
+    When you are using Krita, you can just use transform masks to rotate the side view for drawing the top-view.
 
 The top view works as a method for debugging your orthos as well. If we take the red line to figure out the orthographics from, we see that our eyes are obviously too inset. Let's move them a bit more forward, to around the nose.
 
