@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-03 00:32+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,21 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: co senos\n"
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:1
 msgid "The difference between lossy and lossless compression."
-msgstr ""
+msgstr "A diferença entre a compressão sem perdas e com perdas."
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:17
 msgid "Lossy and Lossless Image Compression"
-msgstr ""
+msgstr "Compressão de Imagens com e sem Perdas"
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:20
 msgid ""
 "When we compress a file, we do this because we want to temporarily make it "
 "smaller (like for sending over email), or we want to permanently make it "
 "smaller (like for showing images on the internet)."
-msgstr ""
+msgstr "Quando comprimimos um ficheiro, fazemos isso porque desejamos torná-lo temporariamente mais pequeno (por exemplo, para enviá-lo por e-mail) ou de forma permanente (como para mostrar imagens pela Internet)."
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:22
 msgid ""
@@ -77,14 +78,14 @@ msgid ""
 "image. What this means is that JPEG and other lossy formats using this are "
 "*very good at describing gradients, but not very good at describing sharp "
 "contrasts*."
-msgstr ""
+msgstr "Outra coisa que faz é usar ondas de co-senos para descrever os contrastes numa imagem. O que isto significa é que o JPEG e outros formatos com perdas que usam isto são *muito bons a descrever gradientes, mas não são muito bons a descrever contrastes vincados*."
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:32
 msgid ""
 "Conversely, lossless image compression techniques are *really good at "
 "describing images with few colors thus sharp contrasts, but are not good to "
 "compress images with a lot of gradients*."
-msgstr ""
+msgstr "Por outro lado, as técnicas de compressão sem perdas são *realmente boas a descrever imagens com poucas cores, mas com contrastes bem definidos, mas não são boas a comprimir imagens com bastantes gradientes*."
 
 #: ../../general_concepts/file_formats/lossy_lossless.rst:34
 msgid ""
@@ -100,4 +101,4 @@ msgid ""
 "If you're interested in different compression techniques, `Wikipedia's "
 "page(s) on image compression <https://en.wikipedia.org/wiki/"
 "Image_compression>`_ are very good, if not a little technical."
-msgstr ""
+msgstr "Se estiver interessado nas diferentes técnicas de compressão, a `página do Wikipédia sobre a compressão de imagens <https://en.wikipedia.org/wiki/Image_compression>`_ é bastante boa, mas um pouco técnica demais."

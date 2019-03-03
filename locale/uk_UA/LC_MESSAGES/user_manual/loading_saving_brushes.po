@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___loading_saving_brushes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-28 03:20+0100\n"
-"PO-Revision-Date: 2019-02-28 21:32+0200\n"
+"POT-Creation-Date: 2019-03-02 03:22+0100\n"
+"PO-Revision-Date: 2019-03-02 11:10+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,13 +20,13 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../user_manual/loading_saving_brushes.rst:0
-msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
-msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
-
 #: ../../user_manual/loading_saving_brushes.rst:None
 msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
 msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+
+#: ../../user_manual/loading_saving_brushes.rst:0
+msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -691,7 +691,8 @@ msgid "Getting a default for the brush engine."
 msgstr "Визначення типових параметрів для рушія пензлів."
 
 #: ../../user_manual/loading_saving_brushes.rst:354
-msgid "First, open the settings with F5."
+#| msgid "First, open the settings with F5."
+msgid "First, open the settings with :kbd:`F5`."
 msgstr "Спочатку, відкрийте вікно параметрів за допомогою клавіші :kbd:`F5`."
 
 #: ../../user_manual/loading_saving_brushes.rst:356
@@ -783,8 +784,11 @@ msgid "Saving the new Brush"
 msgstr "Збереження нового пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:403
+#| msgid ""
+#| "When you're satisfied, go to the upper left and select “save new preset”."
 msgid ""
-"When you're satisfied, go to the upper left and select “save new preset”."
+"When you're satisfied, go to the upper left and select :guilabel::`Save new "
+"preset`."
 msgstr ""
 "Коли налаштовування буде завершено, перейдіть вгору ліворуч і виберіть "
 "пункт :guilabel:`Зберегти новий набір`."
@@ -792,8 +796,8 @@ msgstr ""
 #: ../../user_manual/loading_saving_brushes.rst:406
 msgid ""
 "You will get the save preset dialog. Name the brush something like “My "
-"Preset”. Then, select “Load from Icon Library” to get the icon library. "
-"Choose a nice tool icon and press OK."
+"Preset”. Then, select :guilabel:`Load from Icon Library` to get the icon "
+"library. Choose a nice tool icon and press :guilabel:`OK`."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:410
@@ -804,7 +808,7 @@ msgid ""
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:414
-msgid "Finally press “save”, and your brush should be done."
+msgid "Finally press :guilabel:`Save`, and your brush should be done."
 msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:416
@@ -845,7 +849,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:425
 msgid "Sharing Brushes"
-msgstr ""
+msgstr "Оприлюднення пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:427
 msgid ""
@@ -868,7 +872,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:438
 msgid "Sharing a single preset"
-msgstr ""
+msgstr "Оприлюднення окремого набору пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:440
 msgid "There are three types of resources a single preset can take:"
@@ -911,7 +915,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:458
 msgid "Importing a single KPP file."
-msgstr ""
+msgstr "Імпортування окремого файла KPP"
 
 #: ../../user_manual/loading_saving_brushes.rst:460
 msgid ""
@@ -930,7 +934,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:471
 msgid "Sharing via ZIP (old-fashioned)"
-msgstr ""
+msgstr "Оприлюднення за допомогою файла ZIP (давній спосіб)"
 
 #: ../../user_manual/loading_saving_brushes.rst:473
 msgid ""
@@ -950,7 +954,7 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:480
 msgid "Then, open up the zip file."
-msgstr ""
+msgstr "Далі, відкрийте файл zip."
 
 #: ../../user_manual/loading_saving_brushes.rst:481
 msgid ""
@@ -961,8 +965,8 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:484
 msgid "Restart Krita"
-msgstr ""
+msgstr "Перезапустіть Krita."
 
 #: ../../user_manual/loading_saving_brushes.rst:485
 msgid "Enjoy your brushes!"
-msgstr ""
+msgstr "Насолоджуйтеся вашими пензлями!"

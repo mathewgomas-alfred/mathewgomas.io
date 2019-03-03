@@ -33,7 +33,9 @@ msgstr ""
 msgid ""
 "Page about the darken blending modes in Krita: Darken, Burn, Darker Color, "
 "Gamma Dark and Linear Burn."
-msgstr "Página sobre os modos de mistura por escurecimento no Krita: Escurecimento, Queimadura, Cor Mais Escura e Escurecimento do Gama e Queimadura Linear."
+msgstr ""
+"Página sobre os modos de mistura por escurecimento no Krita: Escurecimento, "
+"Queimadura, Cor Mais Escura e Escurecimento do Gama e Queimadura Linear."
 
 #: ../../reference_manual/blending_modes/darken.rst:15
 #: ../../reference_manual/blending_modes/darken.rst:52
@@ -46,7 +48,9 @@ msgstr "Queimadura"
 
 #: ../../reference_manual/blending_modes/darken.rst:24
 msgid "A variation on Divide, sometimes called 'Color Burn' in some programs."
-msgstr "Uma variante da Divisão, também chamada de 'Queimadura de Cor' em alguns programas."
+msgstr ""
+"Uma variante da Divisão, também chamada de 'Queimadura de Cor' em alguns "
+"programas."
 
 #: ../../reference_manual/blending_modes/darken.rst:26
 msgid ""
@@ -54,19 +58,27 @@ msgid ""
 "the result. This results in a darkened effect that takes the colors of the "
 "lower layer into account, similar to the burn technique used in traditional "
 "darkroom photography."
-msgstr "Isto inverte a camada inferior, dividindo-a depois pela camada de topo e invertendo o resultado. Isto resulta num efeito escurecido que tem as cores da camada inferior em conta, de forma semelhante à técnica de queimadura usada na fotografia tradicional por revelação em salas escuras."
+msgstr ""
+"Isto inverte a camada inferior, dividindo-a depois pela camada de topo e "
+"invertendo o resultado. Isto resulta num efeito escurecido que tem as cores "
+"da camada inferior em conta, de forma semelhante à técnica de queimadura "
+"usada na fotografia tradicional por revelação em salas escuras."
 
 #: ../../reference_manual/blending_modes/darken.rst:29
 msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
 "-0.2, -0.2) &rarr; Black(0, 0, 0)"
-msgstr "1_{[1_Darker Gray(0,4, 0,4, 0,4)] / Lighter Gray(0,5, 0,5, 0,5)} = (-0,2, -0,2, -0,2) &rarr; Black(0, 0, 0)"
+msgstr ""
+"1_{[1_Darker Gray(0,4, 0,4, 0,4)] / Lighter Gray(0,5, 0,5, 0,5)} = (-0,2, "
+"-0,2, -0,2) &rarr; Black(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:34
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Burn_Gray_0.4_and_Gray_0.5_n."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Burn_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Burn_Gray_0.4_and_Gray_0.5_n."
+"png"
 
 #: ../../reference_manual/blending_modes/darken.rst:34
 #: ../../reference_manual/blending_modes/darken.rst:41
@@ -78,38 +90,51 @@ msgstr "Esquerda: **Normal**. Direita: **Queimadura**."
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
 "(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
-msgstr "1_{[1_Light Blue(0,1608, 0,6274, 0,8274)] / Orange(1, 0,5961, 0,0706)} = (0,1608, 0,3749, -1,4448) &rarr; Green(0,1608, 0,3749, 0)"
+msgstr ""
+"1_{[1_Light Blue(0,1608, 0,6274, 0,8274)] / Orange(1, 0,5961, 0,0706)} = "
+"(0,1608, 0,3749, -1,4448) &rarr; Green(0,1608, 0,3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:41
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Burn_Light_blue_and_Orange."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Burn_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Burn_Light_blue_and_Orange."
+"png"
 
 #: ../../reference_manual/blending_modes/darken.rst:46
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Burn_Sample_image_with_dots."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Burn_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Burn_Sample_image_with_dots."
+"png"
 
 #: ../../reference_manual/blending_modes/darken.rst:54
 msgid ""
 "With the darken, the upper layer's colors are checked for their lightness. "
 "Only if they are darker than the underlying color on the lower layer, will "
 "they be visible."
-msgstr "Com o escurecimento, as cores da camada superior são analisadas na sua luminosidade. Só se ficarem mais escuras que a cor subjacente na camada inferior é que elas ficarão visíveis."
+msgstr ""
+"Com o escurecimento, as cores da camada superior são analisadas na sua "
+"luminosidade. Só se ficarem mais escuras que a cor subjacente na camada "
+"inferior é que elas ficarão visíveis."
 
 #: ../../reference_manual/blending_modes/darken.rst:56
 msgid ""
 "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
 "(no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)"
-msgstr "O Lighter Gray(0.5, 0.5, 0.5) é mais escuro que o Darker Gray(0.4, 0.4, 0.4)? = (não, não, não) &rarr; Darker Gray(0.4, 0.4, 0.4)"
+msgstr ""
+"O Lighter Gray(0.5, 0.5, 0.5) é mais escuro que o Darker Gray(0.4, 0.4, "
+"0.4)? = (não, não, não) &rarr; Darker Gray(0.4, 0.4, 0.4)"
 
 #: ../../reference_manual/blending_modes/darken.rst:61
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Darken_Gray_0.4_and_Gray_0.5_n.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Darken_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Darken_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:61
 #: ../../reference_manual/blending_modes/darken.rst:68
@@ -121,19 +146,25 @@ msgstr "Esquerda: **Normal**. Direita: **Escurecido**."
 msgid ""
 "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? "
 "= (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)"
-msgstr "O Orange(1, 0,5961, 0,0706) é mais escuro que o Light Blue(0,1608, 0,6274, 0,8274)? = (não, sim, sim) &rarr; Green(0,1608, 0,5961, 0,0706)"
+msgstr ""
+"O Orange(1, 0,5961, 0,0706) é mais escuro que o Light Blue(0,1608, 0,6274, "
+"0,8274)? = (não, sim, sim) &rarr; Green(0,1608, 0,5961, 0,0706)"
 
 #: ../../reference_manual/blending_modes/darken.rst:68
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Darken_Light_blue_and_Orange."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Darken_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Darken_Light_blue_and_Orange."
+"png"
 
 #: ../../reference_manual/blending_modes/darken.rst:73
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Darken_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Darken_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Darken_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:79
 msgid "Darker Color"
@@ -143,7 +174,9 @@ msgstr "Cor Mais Escura"
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Darker_Color_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Darker_Color_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Darker_Color_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:84
 msgid "Left: **Normal**. Right: **Darker Color**."
@@ -157,19 +190,25 @@ msgstr "Escurecer o Gama"
 msgid ""
 "Divides 1 by the upper layer, and calculates the end result using that as "
 "the power of the lower layer."
-msgstr "Divide 1 pela camada superior, calculando o resultado final com esse valor como a potência da camada inferior."
+msgstr ""
+"Divide 1 pela camada superior, calculando o resultado final com esse valor "
+"como a potência da camada inferior."
 
 #: ../../reference_manual/blending_modes/darken.rst:94
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4)^[1 / Lighter Gray(0.5, 0.5, 0.5)] = Even Darker "
 "Gray(0.1600, 0.1600, 0.1600)"
-msgstr "Darker Gray(0,4, 0,4, 0,4)^[1 / Lighter Gray(0,5, 0,5, 0,5)] = Even Darker Gray(0,1600, 0,1600, 0,1600)"
+msgstr ""
+"Darker Gray(0,4, 0,4, 0,4)^[1 / Lighter Gray(0,5, 0,5, 0,5)] = Even Darker "
+"Gray(0,1600, 0,1600, 0,1600)"
 
 #: ../../reference_manual/blending_modes/darken.rst:99
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Gamma_Dark_Gray_0.4_and_Gray_0.5_n.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Gamma_Dark_Gray_0.4_and_Gray_0.5_n.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Gamma_Dark_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:99
 #: ../../reference_manual/blending_modes/darken.rst:106
@@ -181,19 +220,25 @@ msgstr "Esquerda: **Normal**. Direita: **Escurecimento do Gama**."
 msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = "
 "Green(0.1608, 0.4575, 0.0683)"
-msgstr "Light Blue(0,1608, 0,6274, 0,8274)^[1 / Orange(1, 0,5961, 0,0706)] = Green(0,1608, 0,4575, 0,0683)"
+msgstr ""
+"Light Blue(0,1608, 0,6274, 0,8274)^[1 / Orange(1, 0,5961, 0,0706)] = "
+"Green(0,1608, 0,4575, 0,0683)"
 
 #: ../../reference_manual/blending_modes/darken.rst:106
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Gamma_Dark_Light_blue_and_Orange.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Gamma_Dark_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Gamma_Dark_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:111
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Gamma_Dark_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Gamma_Dark_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Gamma_Dark_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:117
 msgid "Linear Burn"
@@ -203,19 +248,25 @@ msgstr "Queimadura Linear"
 msgid ""
 "Adds the values of the two layers together and then subtracts 1. Seems to "
 "produce the same result as :ref:`bm_inverse_subtract`."
-msgstr "Adiciona os valores das duas camadas em conjunto e depois subtrai o valor 1. Parece produzir o mesmo resultado que o :ref:`bm_inverse_subtract`."
+msgstr ""
+"Adiciona os valores das duas camadas em conjunto e depois subtrai o valor 1. "
+"Parece produzir o mesmo resultado que o :ref:`bm_inverse_subtract`."
 
 #: ../../reference_manual/blending_modes/darken.rst:121
 msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
 "-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
-msgstr "[Darker Gray(0,4, 0,4, 0,4) + Lighter Gray(0,5, 0,5, 0,5)]_1 = (-0,1000, -0,1000, -0,1000)  &rarr; Black(0, 0, 0)"
+msgstr ""
+"[Darker Gray(0,4, 0,4, 0,4) + Lighter Gray(0,5, 0,5, 0,5)]_1 = (-0,1000, "
+"-0,1000, -0,1000)  &rarr; Black(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:126
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Burn_Gray_0.4_and_Gray_0.5.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Burn_Gray_0.4_and_Gray_0.5.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Burn_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:126
 #: ../../reference_manual/blending_modes/darken.rst:133
@@ -227,16 +278,22 @@ msgstr "Esquerda: **Normal**. Direita: **Queimadura Linear**."
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
 "(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
-msgstr "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = (0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
+msgstr ""
+"[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
+"(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:133
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Burn_Light_blue_and_Orange.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Burn_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Burn_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/darken.rst:138
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Burn_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Burn_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Burn_Sample_image_with_dots.png"

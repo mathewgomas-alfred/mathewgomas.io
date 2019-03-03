@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-01 18:30+0000\n"
+"PO-Revision-Date: 2019-03-02 14:50+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: and Krita pgm ppm pbm\n"
 
 #: ../../<generated>:1
 msgid ".ppm"
@@ -23,7 +24,8 @@ msgstr ".ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:1
 msgid "The pbm, pgm and ppm file formats as exported by Krita."
-msgstr "Os formatos de ficheiros .pbm, .pgm e .ppm que são exportados pelo Krita."
+msgstr ""
+"Os formatos de ficheiros .pbm, .pgm e .ppm que são exportados pelo Krita."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:17
 msgid "\\*.pbm, \\*.pgm, \\*.ppm"
@@ -34,13 +36,15 @@ msgid ""
 ".pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. "
 "They are designed to save images in a way that the result can be read as an "
 "ascii file, from back when email clients couldn't read images reliably."
-msgstr ""
+msgstr "O .pbm, o .pgm e o .ppm são uma série de formatos de ficheiros com uma lógica semelhante entre si. Estão desenhados para gravar imagens numa forma em que o resultado possa ser lido como um ficheiro ASCII, que vem do tempo em que os clientes de e-mail não conseguiam ler as imagens de forma fidedigna."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:20
 msgid ""
 "They are very old file formats, and not used outside of very specialised "
 "usecases, such as embedding images inside code."
-msgstr "Estes são formatos muito antigos e não são usados fora de casos de uso muito específicos, como a incorporação de imagens dentro de código."
+msgstr ""
+"Estes são formatos muito antigos e não são usados fora de casos de uso muito "
+"específicos, como a incorporação de imagens dentro de código."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:22
 msgid ".pbm"
@@ -48,16 +52,16 @@ msgstr ".pbm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
 msgid "one-bit and can only show strict black and white."
-msgstr "one-bit and can only show strict black and white."
+msgstr "um bit e só consegue mostrar preto e branco."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
 msgid ".pgm"
-msgstr ""
+msgstr ".pgm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
 msgid "can show 255 values of gray (8bit)."
-msgstr ""
+msgstr "consegue mostrar 255 valores de cinzento (8 bits)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
 msgid "can show 8bit rgb values."
-msgstr ""
+msgstr "consegue mostrar valores RGB de 8 bits."
