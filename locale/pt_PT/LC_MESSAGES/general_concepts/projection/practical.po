@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-03-03 00:46+0000\n"
+"PO-Revision-Date: 2019-03-03 11:30+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: projectionanimation Krita projectionimage image gif\n"
+"X-POFile-SpellExtra: categoryprojection images ref\n"
 
 #: ../../general_concepts/projection/practical.rst:None
 msgid ".. image:: images/en/category_projection/projection_animation_04.gif"
@@ -49,7 +51,7 @@ msgstr "Usos práticos da projecção em perspectiva."
 msgid ""
 "This is a continuation of the :ref:`perspective projection tutorial "
 "<projection_perspective>`, be sure to check it out if you get confused!"
-msgstr ""
+msgstr "Esta é uma continuação do :ref:`tutorial de projecção em perspectiva <projection_perspective>`; certifique-se que o lê primeiro, caso fique confuso!"
 
 #: ../../general_concepts/projection/practical.rst:16
 msgid "Practical:"
@@ -59,14 +61,14 @@ msgstr "Prática:"
 msgid ""
 "So, if computers can already automate a ton, and it is fairly complicated, "
 "is there still a use for a traditional 2d artist to learn this?"
-msgstr ""
+msgstr "Pois, se os computadores já automatizam bastante, e se é assim tão complicado, ainda existe necessidade para um artista tradicional em 2D aprender isto?"
 
 #: ../../general_concepts/projection/practical.rst:20
 msgid ""
 "Yes, actually. The benefit that 2d art still has over 3d is that it's plain "
 "faster for single images, especially with complicated subjects like faces "
 "and bodies."
-msgstr ""
+msgstr "Sim, de facto. O benefício que a arte em 2D ainda tem sobre o 3D é que é bastante mais simples para imagens únicas, especialmente com assuntos complicados como caras ou corpos."
 
 #: ../../general_concepts/projection/practical.rst:22
 msgid ""
@@ -74,18 +76,18 @@ msgid ""
 "like people lying down. It also helps when combining 2d and 3d, as when you "
 "know where the camera is in the 3d render, you can use that in a projection "
 "to get the character projected."
-msgstr ""
+msgstr "A projecção em perspectiva pode ajudar bastante a lidar com estas poses incómodas, como as pessoas deitadas. Também ajuda quando tenta combinar o 2D com o 3D já que, quando tem uma câmara está num desenho em 3D, podê-la-á usar numa projecção para desenhar a personagem projectada."
 
 #: ../../general_concepts/projection/practical.rst:27
 msgid ""
 "The side view of a person lying down is often easy to draw, but the top view "
 "or the view from the feet isn’t. Hence why we use the side view to do "
 "perspective projection on."
-msgstr ""
+msgstr "A vista lateral de uma pessoa deitada é normalmente simples de desenhar, mas a vista de topo dos pés não. Como tal, iremos usar a vista lateral para aplicar a projecção em perspectiva."
 
 #: ../../general_concepts/projection/practical.rst:32
 msgid "Another example with an equally epic task: sitting."
-msgstr ""
+msgstr "Outro exemplo com uma tarefa igualmente épica: sentado."
 
 #: ../../general_concepts/projection/practical.rst:37
 msgid ""
@@ -96,7 +98,7 @@ msgid ""
 "behind. This is something I avoided in the earlier examples, because it "
 "makes the working field really messy, but if you look up perspective "
 "projection you’ll see multiple examples of this method."
-msgstr ""
+msgstr "Agora, com isto, temos um segundo ponto de fuga por cima da vista frontal. Deverá estar à mesma distância por cima da vista frontal como está acima da cabeça da vista lateral rodada. O plano de projecção também deverá estar à mesma distância do ponto de fuga, mas isso não significa que tenha de ficar para trás. Isto é algo que foi evitado nos exemplos anteriores, porque torna o campo de trabalho realmente confuso mas, se observar a projecção em perspectiva, irá ver bastantes exemplos deste método."
 
 #: ../../general_concepts/projection/practical.rst:39
 msgid ""
@@ -104,11 +106,11 @@ msgid ""
 "plane perfectly perpendicular to the angle of the focal point, otherwise you "
 "get odd distortion, this doesn’t happen here, which means this sitting "
 "person is a bit more stretched vertically than necessary."
-msgstr ""
+msgstr "Também de notar é que você deveria ter o plano de visualização/projecção perfeitamente perpendicular ao ângulo do ponto focal, caso contrário irá obter alguma distorção estranha; isto não acontece aqui, o que significa que esta pessoa sentada está um pouco mais esticada na vertical do que o necessário."
 
 #: ../../general_concepts/projection/practical.rst:44
 msgid "One more, for the road…"
-msgstr ""
+msgstr "Mais uma para o caminho…"
 
 #: ../../general_concepts/projection/practical.rst:49
 msgid ""
@@ -117,11 +119,11 @@ msgid ""
 "tools, technically it’s of course correct, but what is correct doesn’t "
 "always look good. (I also mess up the position of the shoulder for a good "
 "while if you look closely.)"
-msgstr ""
+msgstr "Aqui poderá ver que o desalinhamento do ponto de fuga face ao plano de projecção provoca alguma inclinação, a qual foi corrigida pelas ferramentas de transformação do Krita, por isso está tecnicamente correcto, mas nem sempre o que está correcto parece bem. (Também houve uma confusão com a posição do ombro durante algum tempo, se olhar com atenção.)"
 
 #: ../../general_concepts/projection/practical.rst:55
 msgid "Conclusion and afterthoughts:"
-msgstr ""
+msgstr "Conclusão e ilações:"
 
 #: ../../general_concepts/projection/practical.rst:57
 msgid ""
@@ -130,13 +132,15 @@ msgid ""
 "landmarks are there. The real use of this technique lies in poses though, "
 "and it allows you to iterate on a pose quite quickly once you get the hang "
 "of it."
-msgstr ""
+msgstr "Provavelmente não gerei imagens com tão bom resultado como teria conseguido, especialmente se as comparar com as imagens em 3D. Contudo, poderá à mesma ver que os marcos principais estão aqui. Contudo, o uso real desta técnica reside nas poses, permitindo-lhe iterar sobre uma pose de uma forma bastante rápida, quando dominar a técnica."
 
 #: ../../general_concepts/projection/practical.rst:59
 msgid ""
 "Generally, It’s worth exploring, if only because it improves your spatial "
 "sense."
-msgstr "Normalmente, vale a pena explorar, mais não seja porque melhora o  sentido espacial."
+msgstr ""
+"Normalmente, vale a pena explorar, mais não seja porque melhora o  sentido "
+"espacial."
 
 #: ../../general_concepts/projection/practical.rst:63
 msgid "https://en.wikipedia.org/wiki/Axonometric_projection"
@@ -146,7 +150,9 @@ msgstr "https://en.wikipedia.org/wiki/Axonometric_projection"
 msgid ""
 "http://blenderartists.org/forum/showthread.php?148878-Creating-an-Isometric-"
 "Camera"
-msgstr "http://blenderartists.org/forum/showthread.php?148878-Creating-an-Isometric-Camera"
+msgstr ""
+"http://blenderartists.org/forum/showthread.php?148878-Creating-an-Isometric-"
+"Camera"
 
 #: ../../general_concepts/projection/practical.rst:65
 msgid "http://flarerpg.org/tutorials/isometric_tiles/"
@@ -155,7 +161,8 @@ msgstr "http://flarerpg.org/tutorials/isometric_tiles/"
 #: ../../general_concepts/projection/practical.rst:66
 msgid ""
 "https://en.wikipedia.org/wiki/Isometric_graphics_in_video_games_and_pixel_art"
-msgstr "https://en.wikipedia.org/wiki/Isometric_graphics_in_video_games_and_pixel_art"
+msgstr ""
+"https://en.wikipedia.org/wiki/Isometric_graphics_in_video_games_and_pixel_art"
 
 #: ../../general_concepts/projection/practical.rst:67
 msgid "https://en.wikipedia.org/wiki/Lens_%28optics%29"

@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___tools___rectangular_select\n"
+"Project-Id-Version: docs_krita_org_reference_manual___tools___rectangular_sele"
+"ct\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 07:08+0200\n"
+"PO-Revision-Date: 2019-03-03 19:56+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -69,30 +69,40 @@ msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
 msgstr ""
+":kbd:`R` встановлює параметри позначення у режим «замінити»; це типовий режим."
 
 #: ../../reference_manual/tools/rectangular_select.rst:27
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
 msgstr ""
+":kbd:`A` встановлює для позначення режим «додавання» у параметрах інструмента."
 
 #: ../../reference_manual/tools/rectangular_select.rst:28
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
 msgstr ""
+":kbd:`S` встановлює для позначення режим «віднімання» у параметрах"
+" інструмента."
 
 #: ../../reference_manual/tools/rectangular_select.rst:29
 msgid ""
 ":kbd:`Shift` after starting the selection, constraints it to a perfect "
 "square."
 msgstr ""
+"Натискання :kbd:`Shift` після того, як буде розпочато позначення, обмежує"
+" область позначення ідеальним квадратом."
 
 #: ../../reference_manual/tools/rectangular_select.rst:30
 msgid ""
 ":kbd:`Ctrl` after starting the selection, makes the selection resize from "
 "center."
 msgstr ""
+"Натискання :kbd:`Ctrl` після того, як буде розпочато позначення, надає змогу "
+"змінювати розмір позначеного від центру."
 
 #: ../../reference_manual/tools/rectangular_select.rst:31
 msgid ":kbd:`Alt` after starting the selection, allows you to move it."
 msgstr ""
+"Натискання :kbd:`Alt` після того, як буде розпочато позначення, надає змогу "
+"його пересувати."
 
 #: ../../reference_manual/tools/rectangular_select.rst:32
 msgid ""
@@ -104,16 +114,21 @@ msgstr ""
 #: ../../reference_manual/tools/rectangular_select.rst:33
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
 msgstr ""
+":kbd:`Alt` + |mouseleft| встановлює для наступного позначення режим"
+" «віднімання»."
 
 #: ../../reference_manual/tools/rectangular_select.rst:34
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| встановлює для наступного позначення режим «заміна»."
 
 #: ../../reference_manual/tools/rectangular_select.rst:35
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
 msgstr ""
+":kbd:`Shift + Alt +` |mouseleft| встановлює для наступного позначення режим"
+" «перетин»."
 
 #: ../../reference_manual/tools/rectangular_select.rst:39
 msgid ""
@@ -151,6 +166,8 @@ msgid ""
 "Gives the current width. Use the lock to force the next selection made to "
 "this width."
 msgstr ""
+"Задає поточну ширину. Скористайтеся кнопкою із замочком, щоб примусово "
+"задати для наступного позначення цю ширину."
 
 #: ../../reference_manual/tools/rectangular_select.rst:53
 msgid "Height"
@@ -161,6 +178,8 @@ msgid ""
 "Gives the current height. Use the lock to force the next selection made to "
 "this height."
 msgstr ""
+"Задає поточну висоту. Скористайтеся кнопкою із замочком, щоб примусово "
+"задати для наступного позначення цю висоту."
 
 #: ../../reference_manual/tools/rectangular_select.rst:56
 msgid "Ratio"
@@ -171,6 +190,8 @@ msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
 msgstr ""
+"Задає поточне співвідношення розмірів. Скористайтеся кнопкою із замочком, "
+"щоб примусово задати для наступного позначення це співвідношення розміру."
 
 #: ../../reference_manual/tools/rectangular_select.rst:60
 msgid "Round X"

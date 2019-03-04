@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-03 00:44+0000\n"
+"PO-Revision-Date: 2019-03-03 23:58+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,12 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: colorcategory Krita image spacesv\n"
 "X-POFile-SpellExtra: Basiccolormanagementcompare spaces jpg images\n"
-"X-POFile-SpellExtra: spacesnonmanaged Basiccolormanagementgradientsin\n"
+"X-POFile-SpellExtra: spacesnonmanaged Basiccolormanagementgradientsin en\n"
+"X-POFile-SpellExtra: LUT CMYK Mediawiki sRGB ACES sRGBtrc\n"
 
 #: ../../general_concepts/colors/color_space_size.rst:None
 msgid ""
 ".. image:: images/en/color_category/Basiccolormanagement_compare4spaces.png"
-msgstr ".. image:: images/en/color_category/Basiccolormanagement_compare4spaces.png"
+msgstr ""
+".. image:: images/en/color_category/Basiccolormanagement_compare4spaces.png"
 
 #: ../../general_concepts/colors/color_space_size.rst:1
 msgid "About Color Space Size"
@@ -37,7 +39,9 @@ msgstr "Tamanho do Espaço de Cores"
 msgid ""
 "Using Krita's color space browser, you can see that there's many different "
 "space sizes."
-msgstr "Usando o selector de espaços de cores do Krita, poderá ver que existem diversos tamanhos de espaços."
+msgstr ""
+"Usando o selector de espaços de cores do Krita, poderá ver que existem "
+"diversos tamanhos de espaços."
 
 #: ../../general_concepts/colors/color_space_size.rst:25
 msgid "How do these affect your image, and why would you use them?"
@@ -51,7 +55,7 @@ msgstr "A primeira razão para usar um espaço grande é na verdade três razõe
 msgid ""
 "Even though you can't see the colors, the computer program does understand "
 "them and can do color maths with it."
-msgstr ""
+msgstr "Ainda que não consiga ver as cores, o programa do computador consegue compreendê-las e fazer as contas matemáticas com elas."
 
 #: ../../general_concepts/colors/color_space_size.rst:30
 msgid ""
@@ -59,14 +63,14 @@ msgid ""
 "bigger than our default sRGB in places, while in other places, it's smaller. "
 "To get the best conversion, having your image in a space that encompasses "
 "both your screen profile as your printer profile."
-msgstr ""
+msgstr "Para fazer o intercâmbio entre os programas e os dispositivos: a maioria dos perfis CMYK são um pouco maiores que o nosso perfil sRGB predefinido nalguns locais, enquanto noutros locais é mais pequeno. Para obter a melhor conversão, ter a sua imagem num espaço que consiga conter o perfil do seu ecrã, assim como o perfil da sua impressora."
 
 #: ../../general_concepts/colors/color_space_size.rst:31
 msgid ""
 "For archival purposes. In other words, maybe monitors of the future will "
 "have larger amounts of colors they can show (spoiler: they already do), and "
 "this allows you to be prepared for that."
-msgstr ""
+msgstr "Por questões de arquivo. Por outras palavras, talvez os monitores do futuro terão maiores quantidades de cores que conseguem mostrar (pormenor indiscreto: já o fazem) e isto permite-lhe estar preparado para isso."
 
 #: ../../general_concepts/colors/color_space_size.rst:33
 msgid "Let's compare the following gradients in different spaces:"
@@ -76,13 +80,17 @@ msgstr "Vamos comparar os seguintes gradientes em diferentes espaços:"
 msgid ""
 ".. image:: images/en/color_category/"
 "Basiccolormanagement_gradientsin4spaces_v2.jpg"
-msgstr ".. image:: images/en/color_category/Basiccolormanagement_gradientsin4spaces_v2.jpg"
+msgstr ""
+".. image:: images/en/color_category/"
+"Basiccolormanagement_gradientsin4spaces_v2.jpg"
 
 #: ../../general_concepts/colors/color_space_size.rst:40
 msgid ""
 ".. image:: images/en/color_category/"
 "Basiccolormanagement_gradientsin4spaces_nonmanaged.png"
-msgstr ".. image:: images/en/color_category/Basiccolormanagement_gradientsin4spaces_nonmanaged.png"
+msgstr ""
+".. image:: images/en/color_category/"
+"Basiccolormanagement_gradientsin4spaces_nonmanaged.png"
 
 #: ../../general_concepts/colors/color_space_size.rst:41
 msgid ""
@@ -91,7 +99,7 @@ msgid ""
 "then you can see the exact different between the colors more clearly). This "
 "should give an approximation of the actual colors. On the right, we have an "
 "sRGB png that was converted in Krita from the base file."
-msgstr ""
+msgstr "Do lado esquerdo, temos um ficheiro JPEG com gestão de cores e livre de artefactos, com um perfil ACES sRGBtrc v2 associado (ou não, dependendo da opinião do Mediawiki; se não for o caso, poderá ver a diferença exacta entre as cores de forma mais clara). Isto deve-lhe dar uma aproximação das cores actuais. Do lado direito, temos um PNG em sRGB que foi convertido no Krita a partir do ficheiro de base."
 
 #: ../../general_concepts/colors/color_space_size.rst:43
 msgid ""
@@ -99,7 +107,7 @@ msgid ""
 "you can see, the mid-tone of the ACES color space is much brighter than the "
 "mid-tone of the RGB colorspace, and this is because the primaries are "
 "further apart."
-msgstr ""
+msgstr "Cada um dos gradientes é o gradiente do máximo de um dado canal. Como pode ver, o tom intermédio do espaço de cores ACES é muito mais claro que o tom intermédio do espaço de cores RGB, e isto acontece porque as cores primárias estão mais afastadas."
 
 #: ../../general_concepts/colors/color_space_size.rst:45
 msgid ""
@@ -107,17 +115,17 @@ msgid ""
 "Krita can output values higher than visible, but also generate more correct "
 "mixes and gradients. In particular, when color correcting, the bigger space "
 "can help with giving more precise information."
-msgstr ""
+msgstr "O que isto significa para nós é que, quando começarmos a misturar ou a aplicar filtros, o Krita consegue gerar valores mais elevados que os visíveis, mas também gera misturas e gradientes mais correctos. Em particular, quando estiver a fazer a correcção de cores, um espaço maior poderá a atribuir uma informação mais precisa."
 
 #: ../../general_concepts/colors/color_space_size.rst:47
 msgid ""
 "If you have a display profile that uses a LUT, then you can use perceptual "
 "to give an indication of how your image will look."
-msgstr ""
+msgstr "Se tiver um perfil de visualização que use um LUT, então poderá usar a percepção para dar uma indicação da aparência com que irá ficar a sua imagem."
 
 #: ../../general_concepts/colors/color_space_size.rst:49
 msgid ""
 "Bigger spaces do have the downside they require more precision if you do not "
 "want to see banding, so make sure to have at the least 16bit per channel "
 "when choosing a bigger space."
-msgstr ""
+msgstr "Os espaços maiores têm o problema que exigem mais precisão, caso não queira ver a existência de bandas, por isso certifique-se que tem pelo menos 16 bits por canal quando escolher um espaço maior."

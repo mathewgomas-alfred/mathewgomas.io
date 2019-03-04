@@ -6,11 +6,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_contributors_manual___krita_manual_readme\n"
+"Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_readme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-02 03:22+0100\n"
-"PO-Revision-Date: 2019-03-01 21:29+0200\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"PO-Revision-Date: 2019-03-03 08:24+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -220,8 +219,11 @@ msgid "Upload the zip on phabricator."
 msgstr "Вивантажте zip на phabricator."
 
 #: ../../contributors_manual/krita_manual_readme.rst:85
-msgid "First, go to phabricator.kde.org and log in with you identity account."
+#| msgid "Login into `phabricator`_ with your identity account."
+msgid "First, go to phabricator.kde.org and log in with your identity account."
 msgstr ""
+"Перейдіть на сторінку phabricator.kde.org і увійдіть до вашого облікового"
+" запису."
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
 msgid "Go to the `Manual Project Workboard`_ and there create a new task."
@@ -490,7 +492,7 @@ msgstr "Намагайтеся продумувати наперед можли�
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
 "This consists of using svg for infographics, and using the appropriate "
-"markup for given text."
+"markup for a given text."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:166
@@ -514,7 +516,7 @@ msgstr ""
 msgid ""
 "Of course, we still want to show certain concepts in play in photos and "
 "master paintings, such as glossing or indirect light. In this case, add a "
-"caption that mentions the name of the painting or the painter, or mention "
+"caption that mentions the name of the painting or the painter, or mentions "
 "it's a photograph."
 msgstr ""
 
@@ -594,7 +596,7 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_readme.rst:197
 msgid ""
 "The ``draft`` branch will not be merged until the day before a release to "
-"keep the pages in tact for long enough."
+"keep the pages intact for long enough."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:199
@@ -715,7 +717,7 @@ msgid "Proofreading"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:264
-msgid "There's two types of proofreading that needs to be done."
+msgid "There are two types of proofreading that needs to be done."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:266
@@ -790,7 +792,7 @@ msgstr "Переклад"
 
 #: ../../contributors_manual/krita_manual_readme.rst:287
 msgid ""
-"Translation of the manual is handled by the `KDE locatization community "
+"Translation of the manual is handled by the `KDE localization community "
 "<https://l10n.kde.org/>`_. To join the translation effort, go to the "
 "localization site, select the list of `translation teams <https://l10n.kde."
 "org/teams-list.php>`_, select the language you wish to translate for, and "
@@ -800,7 +802,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:289
 msgid ""
-"The localisation team has access to the PO files for this manual, which is a "
+"The localization team has access to the PO files for this manual, which is a "
 "file type used by translation programs like POEdit and Lokalize. A "
 "translation team is able to work together on translating these files and "
 "uploading them to the translations SVN. A special script will then take the "
