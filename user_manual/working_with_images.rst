@@ -184,7 +184,7 @@ rid of invisible data.
 Resizing the canvas
 -------------------
 
-You can also resize the canvas via :menuselection:`Image --> Resize Canvas`(or :kbd:`Ctrl + Alt +
+You can also resize the canvas via :menuselection:`Image --> Resize Canvas` (or :kbd:`Ctrl + Alt +
 C`). The dialog box is shown below.
 
 .. image:: /images/en/Resize_Canvas.png

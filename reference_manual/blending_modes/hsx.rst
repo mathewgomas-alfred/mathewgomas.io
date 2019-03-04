@@ -19,7 +19,7 @@ Krita has four different HSX coordinate systems. The difference between them is 
 HSI
 ~~~
 
-HSI is a color coordinate system, using Hue, Saturation and Intensity to catagorise a color.
+HSI is a color coordinate system, using Hue, Saturation and Intensity to categorize a color.
 Hue is roughly the wavelength, whether the colour is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
 Saturation is the measurement of how close a color is to grey.
 Intensity, in this case is the tone of the color. What makes intensity special is that it recognises yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
@@ -39,7 +39,7 @@ Value or Brightness specifically refers to strength at which the pixel-lights on
 HSY
 ~~~
 
-HSY is a color coordinate system. It catagorises colors in Hue, Saturation and Luminosity. Well, not really, it uses Luma instead of true luminosity, the difference being that Luminosity is linear while Luma is gamma-corrected and just weights the rgb components.
+HSY is a color coordinate system. It categorizes colors in Hue, Saturation and Luminosity. Well, not really, it uses Luma instead of true luminosity, the difference being that Luminosity is linear while Luma is gamma-corrected and just weights the rgb components.
 Luma is based on scientific studies of how much light a color reflects in real-life. While like intensity it acknowledges that yellow (rgb:1,1,0) is lighter than blue (rgb:0,0,1), it also acknowledges that yellow (rgb:1,1,0) is lighter than cyan (rgb:0,1,1), based on these studies.
 
 HSX Blending Modes

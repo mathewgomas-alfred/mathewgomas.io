@@ -129,7 +129,7 @@ Show output
 Limit to layer bounds
     Limit the colorize mask to the combined layer bounds of the strokes and the line art it is filling. This can speed up the use of the mask on complicated compositions, such as comic pages.
 Edge detection
-    Activate this for line art with large solid areas, for example shadows on an object. For the best use, set the value to the thinnest lines on the image. In the imag ebelow, note how edge detection affects the big black areas:
+    Activate this for line art with large solid areas, for example shadows on an object. For the best use, set the value to the thinnest lines on the image. In the image below, note how edge detection affects the big black areas:
 
     .. figure:: /images/en/Krita_4_0_colorize_mask_edge_detection.png
        :width: 800
