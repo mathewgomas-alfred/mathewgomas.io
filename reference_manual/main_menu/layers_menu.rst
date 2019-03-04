@@ -125,7 +125,7 @@ Split...
         A complex bit of functionality to generate clone-layers for quick sprite making.
 
 Edit Metadata
-    Each layer can have it's own meta-data.
+    Each layer can have its own metadata.
 Histogram
     Shows a histogram.
 Merge With Layer Below

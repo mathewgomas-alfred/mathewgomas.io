@@ -86,7 +86,7 @@ Set the blending mode to color dodge and lower the opacity.
 .. image:: /images/en/brush-tips/Krita-brushtips-caustics_12.png
     :alt: change the blend mode to color dodge of the layer
 
-Finally, polish the piece with the airbush tool and some local color picking.
+Finally, polish the piece with the airbrush tool and some local color picking.
 
 .. figure:: /images/en/brush-tips/Krita-brushtips-caustics_13.png
     :alt: final polish

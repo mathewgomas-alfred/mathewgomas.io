@@ -23,7 +23,7 @@ Locking a brush parameter
 
 .. image:: /images/en/Krita_2_9_brushengine_locking_01.png
 
-To lock an option, |mouseright| the little lock icon next to the parameter name, and set it to 'Lock'.It will now be highlighted to show it's locked:
+To lock an option, |mouseright| the little lock icon next to the parameter name, and set it to 'Lock'. It will now be highlighted to show it's locked:
 
 .. image:: /images/en/Krita_2_9_brushengine_locking_02.png
 

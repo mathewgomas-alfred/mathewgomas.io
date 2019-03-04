@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___tools___shape_selection\n"
+"Project-Id-Version: docs_krita_org_reference_manual___tools___shape_selection"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 21:29+0200\n"
+"PO-Revision-Date: 2019-03-03 20:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:1
 msgid "Krita's shape selection tool reference."
-msgstr ""
+msgstr "Довідник із інструмента позначення форми Krita."
 
 #: ../../reference_manual/tools/shape_selection.rst:17
 msgid "Shape Selection Tool"
-msgstr ""
+msgstr "Інструмент «Позначення форми»"
 
 #: ../../reference_manual/tools/shape_selection.rst:19
 msgid "|toolshapeselection|"
-msgstr ""
+msgstr "|toolshapeselection|"
 
 #: ../../reference_manual/tools/shape_selection.rst:21
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "Rotating, Moving, Scaling, Skewing"
-msgstr ""
+msgstr "Обертання, пересування, масштабування та перекошування"
 
 #: ../../reference_manual/tools/shape_selection.rst:35
 msgid ""
@@ -92,7 +92,7 @@ msgstr "Параметри інструмента"
 
 #: ../../reference_manual/tools/shape_selection.rst:41
 msgid ".. image:: images/en/Vector-tool-options.png"
-msgstr ""
+msgstr ".. image:: images/en/Vector-tool-options.png"
 
 #: ../../reference_manual/tools/shape_selection.rst:42
 msgid ""
@@ -115,7 +115,7 @@ msgstr "Точка прив’язки"
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid "This is not implemented at the moment."
-msgstr ""
+msgstr "У поточній версії не реалізовано."
 
 #: ../../reference_manual/tools/shape_selection.rst:51
 msgid "Uniform scaling"
@@ -143,7 +143,7 @@ msgstr "Непрозорість"
 
 #: ../../reference_manual/tools/shape_selection.rst:56
 msgid "The general opacity, or transparency, of the object."
-msgstr ""
+msgstr "Загальна непрозорість або прозорість об'єкта."
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid "Stroke"
@@ -152,6 +152,7 @@ msgstr "Штрих"
 #: ../../reference_manual/tools/shape_selection.rst:61
 msgid "The stroke tab determines how stroke around the object should look."
 msgstr ""
+"Вкладка «Штрих» визначає, як має виглядати штриховий контур навколо об'єкта."
 
 #: ../../reference_manual/tools/shape_selection.rst:63
 msgid ""
@@ -162,7 +163,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:65
 msgid "Then, there's the settings for the stroke style."
-msgstr ""
+msgstr "Далі, передбачено параметри для стилю штриха."
 
 #: ../../reference_manual/tools/shape_selection.rst:67
 msgid "Thickness"
@@ -176,7 +177,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:69
 msgid "Cap and corner style"
-msgstr ""
+msgstr "Стиль кінчику та кутів"
 
 #: ../../reference_manual/tools/shape_selection.rst:70
 msgid ""
@@ -191,6 +192,7 @@ msgstr "Стиль ліній"
 #: ../../reference_manual/tools/shape_selection.rst:72
 msgid "Determines whether the stroke is solid or uses dashes and dots."
 msgstr ""
+"Визначає, буде штрих суцільним чи використовуватимуться штрихи і пунктир."
 
 #: ../../reference_manual/tools/shape_selection.rst:74
 msgid "Markers"
@@ -212,12 +214,16 @@ msgid ""
 "The fill of the shape. As this has the same features as the fill of the "
 "stroke, this is explained here as well."
 msgstr ""
+"Заповнення форми. Оскільки для форм передбачено ті самі можливості із"
+" заповнення, що і для штрихів, тут ми також наведемо певні пояснення."
 
 #: ../../reference_manual/tools/shape_selection.rst:81
 msgid ""
 "A fill can be a flat color, a gradient or a pattern. Or it can be nothing "
 "(transparent)"
 msgstr ""
+"Заповнювати можна суцільним кольором, градієнтом або візерунком. Можна і"
+" взагалі не заповнювати форму (лишити її прозорою)."
 
 #: ../../reference_manual/tools/shape_selection.rst:83
 msgid "None"
@@ -225,7 +231,7 @@ msgstr "Жодного"
 
 #: ../../reference_manual/tools/shape_selection.rst:84
 msgid "No fill. It's transparent."
-msgstr ""
+msgstr "Без заповнення. Форма є прозорою."
 
 #: ../../reference_manual/tools/shape_selection.rst:85
 msgid "Color"
@@ -234,6 +240,8 @@ msgstr "Колір"
 #: ../../reference_manual/tools/shape_selection.rst:86
 msgid "A flat color, you can select a new one by pressing the color button."
 msgstr ""
+"Суцільний колір. Вибрати колір можна за допомогою натискання кнопки вибору"
+" кольору."
 
 #: ../../reference_manual/tools/shape_selection.rst:88
 msgid "This one has a few more options."
@@ -245,7 +253,7 @@ msgstr "Тип"
 
 #: ../../reference_manual/tools/shape_selection.rst:91
 msgid "A linear or radial gradient."
-msgstr ""
+msgstr "Лінійний або радіальних градієнт."
 
 #: ../../reference_manual/tools/shape_selection.rst:92
 msgid "Repeat"
@@ -253,7 +261,7 @@ msgstr "Повторення"
 
 #: ../../reference_manual/tools/shape_selection.rst:93
 msgid "How the gradient repeats itself."
-msgstr ""
+msgstr "Спосіб повторення градієнта."
 
 #: ../../reference_manual/tools/shape_selection.rst:95
 msgid "Preset"
@@ -262,6 +270,7 @@ msgstr "Шаблон"
 #: ../../reference_manual/tools/shape_selection.rst:95
 msgid "A quick menu for choosing a base gradient to edit."
 msgstr ""
+"Меню пришвидшеного доступу для вибору базового градієнта для редагування."
 
 #: ../../reference_manual/tools/shape_selection.rst:97
 msgid ""
@@ -280,11 +289,11 @@ msgstr "Візерунки"
 
 #: ../../reference_manual/tools/shape_selection.rst:101
 msgid "Patterns aren't implemented yet."
-msgstr ""
+msgstr "Візерунки ще не реалізовано."
 
 #: ../../reference_manual/tools/shape_selection.rst:104
 msgid "Right-click menu"
-msgstr ""
+msgstr "Контекстне меню"
 
 #: ../../reference_manual/tools/shape_selection.rst:106
 msgid ""
@@ -295,7 +304,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:109
 msgid ".. image:: images/en/Vector-right-click-menu.png"
-msgstr ""
+msgstr ".. image:: images/en/Vector-right-click-menu.png"
 
 #: ../../reference_manual/tools/shape_selection.rst:110
 msgid ""

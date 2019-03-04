@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___path_select\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 16:40+0200\n"
+"POT-Creation-Date: 2019-02-28 03:20+0100\n"
+"PO-Revision-Date: 2019-03-03 19:55+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -70,14 +70,18 @@ msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
 msgstr ""
+":kbd:`R` встановлює параметри позначення у режим «замінити»; це типовий режим."
 
 #: ../../reference_manual/tools/path_select.rst:27
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
 msgstr ""
+":kbd:`A` встановлює для позначення режим «додавання» у параметрах інструмента."
 
 #: ../../reference_manual/tools/path_select.rst:28
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
 msgstr ""
+":kbd:`S` встановлює для позначення режим «віднімання» у параметрах"
+" інструмента."
 
 #: ../../reference_manual/tools/path_select.rst:29
 msgid ""
@@ -89,27 +93,32 @@ msgstr ""
 #: ../../reference_manual/tools/path_select.rst:30
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
 msgstr ""
+":kbd:`Alt` + |mouseleft| встановлює для наступного позначення режим"
+" «віднімання»."
 
 #: ../../reference_manual/tools/path_select.rst:31
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| встановлює для наступного позначення режим «заміна»."
 
 #: ../../reference_manual/tools/path_select.rst:32
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
 msgstr ""
+":kbd:`Shift + Alt +` |mouseleft| встановлює для наступного позначення режим"
+" «перетин»."
 
 #: ../../reference_manual/tools/path_select.rst:36
 msgid ""
-"Selection modifiers don't quite work yet with the path tool, as shift breaks "
-"the path"
+"Selection modifiers don't quite work yet with the path tool, as :kbd:`Shift` "
+"breaks the path"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:40
 msgid ""
-"You can switch the behaviour of the Alt key to use Ctrl instead by toggling "
-"the switch in the :ref:`general_settings`"
+"You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
+"instead by toggling the switch in the :ref:`general_settings`"
 msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:43

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-01 15:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,14 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: bmerase bmcolor bmlineardodge kbd bmscreen bmoverlay\n"
+"X-POFile-SpellExtra: bmaddition bmbehind bmdissolve bmdarken bmluminosity\n"
+"X-POFile-SpellExtra: bmlinearburn bmhue bmvividlight bmlighten bmnormal\n"
+"X-POFile-SpellExtra: bmexclusion ref bmpinlight bmmultiply bmsoftlight\n"
+"X-POFile-SpellExtra: bmlinearlight bmsaturation Krita bmhardmix\n"
+"X-POFile-SpellExtra: bmdifference bmcolorburn bmcolordodge\n"
 
 #: ../../reference_manual/blending_modes.rst:1
 msgid "Overview of Krita's blending modes."
-msgstr ""
+msgstr "Introdução aos modos de mistura do Krita."
 
 #: ../../reference_manual/blending_modes.rst:16
 msgid "Blending Modes"
-msgstr ""
+msgstr "Modos de Mistura"
 
 #: ../../reference_manual/blending_modes.rst:18
 msgid ""
@@ -31,11 +37,17 @@ msgid ""
 "is above the other, the computer uses a bit of programming to decide how the "
 "combination of both layers will look."
 msgstr ""
+"Os modos de mistura são um pouco difíceis de explicar. Basicamente, quando "
+"uma camada se encontra por cima de outra, o computador usa um pouco de "
+"código programado para decidir como é que ficará a combinação de ambas as "
+"camadas."
 
 #: ../../reference_manual/blending_modes.rst:20
 msgid ""
 "Blending modes can not just apply to Layers, but also to individual strokes."
 msgstr ""
+"Os modos de mistura não só se podem aplicar a Camadas, mas também a traços "
+"individuais."
 
 #: ../../reference_manual/blending_modes.rst:23
 msgid "Favorites"
@@ -46,58 +58,60 @@ msgid ""
 "These are the blending modes that have been ticked as favorites, defaulting "
 "these are:"
 msgstr ""
+"Estes são os modos de mistura que foram marcados como favoritos, sendo estes "
+"por omissão:"
 
 #: ../../reference_manual/blending_modes.rst:27
 msgid ":ref:`bm_addition`"
-msgstr ""
+msgstr ":ref:`bm_addition`"
 
 #: ../../reference_manual/blending_modes.rst:28
 msgid ":ref:`bm_color_burn`"
-msgstr ""
+msgstr ":ref:`bm_color_burn`"
 
 #: ../../reference_manual/blending_modes.rst:29
 msgid ":ref:`bm_color`"
-msgstr ""
+msgstr ":ref:`bm_color`"
 
 #: ../../reference_manual/blending_modes.rst:30
 msgid ":ref:`bm_color_dodge`"
-msgstr ""
+msgstr ":ref:`bm_color_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:31
 msgid ":ref:`bm_darken`"
-msgstr ""
+msgstr ":ref:`bm_darken`"
 
 #: ../../reference_manual/blending_modes.rst:32
 msgid ":ref:`bm_erase`"
-msgstr ""
+msgstr ":ref:`bm_erase`"
 
 #: ../../reference_manual/blending_modes.rst:33
 msgid ":ref:`bm_lighten`"
-msgstr ""
+msgstr ":ref:`bm_lighten`"
 
 #: ../../reference_manual/blending_modes.rst:34
 msgid ":ref:`bm_luminosity`"
-msgstr ""
+msgstr ":ref:`bm_luminosity`"
 
 #: ../../reference_manual/blending_modes.rst:35
 msgid ":ref:`bm_multiply`"
-msgstr ""
+msgstr ":ref:`bm_multiply`"
 
 #: ../../reference_manual/blending_modes.rst:36
 msgid ":ref:`bm_normal`"
-msgstr ""
+msgstr ":ref:`bm_normal`"
 
 #: ../../reference_manual/blending_modes.rst:37
 msgid ":ref:`bm_overlay`"
-msgstr ""
+msgstr ":ref:`bm_overlay`"
 
 #: ../../reference_manual/blending_modes.rst:38
 msgid ":ref:`bm_saturation`"
-msgstr ""
+msgstr ":ref:`bm_saturation`"
 
 #: ../../reference_manual/blending_modes.rst:41
 msgid "Hotkeys associated with Blending modes"
-msgstr ""
+msgstr "Combinações de teclas associadas aos modos de mistura"
 
 #: ../../reference_manual/blending_modes.rst:43
 msgid ""
@@ -105,102 +119,105 @@ msgid ""
 "first need to use modifiers :kbd:`Alt + Shift`, then use the following "
 "hotkey to have the associated blending mode:"
 msgstr ""
+"Por omissão, estão associadas as seguintes combinações de teclas aos modos "
+"de mistura. Primeiro tem de usar os modificadores :kbd:`Alt + Shift`, usando "
+"depois a seguinte tecla para obter o modo de mistura associado:"
 
 #: ../../reference_manual/blending_modes.rst:47
 msgid ":kbd:`A` :ref:`bm_linear_burn`"
-msgstr ""
+msgstr ":kbd:`A` :ref:`bm_linear_burn`"
 
 #: ../../reference_manual/blending_modes.rst:48
 msgid ":kbd:`B` :ref:`bm_color_burn`"
-msgstr ""
+msgstr ":kbd:`B` :ref:`bm_color_burn`"
 
 #: ../../reference_manual/blending_modes.rst:49
 msgid ":kbd:`C` :ref:`bm_color`"
-msgstr ""
+msgstr ":kbd:`C` :ref:`bm_color`"
 
 #: ../../reference_manual/blending_modes.rst:50
 msgid ":kbd:`D` :ref:`bm_color_dodge`"
-msgstr ""
+msgstr ":kbd:`D` :ref:`bm_color_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:51
 msgid ":kbd:`E` :ref:`bm_difference`"
-msgstr ""
+msgstr ":kbd:`E` :ref:`bm_difference`"
 
 #: ../../reference_manual/blending_modes.rst:52
 msgid ":kbd:`F` :ref:`bm_soft_light`"
-msgstr ""
+msgstr ":kbd:`F` :ref:`bm_soft_light`"
 
 #: ../../reference_manual/blending_modes.rst:53
 msgid ":kbd:`I` :ref:`bm_dissolve`"
-msgstr ""
+msgstr ":kbd:`I` :ref:`bm_dissolve`"
 
 #: ../../reference_manual/blending_modes.rst:54
 msgid ":kbd:`J` :ref:`bm_linear_light`"
-msgstr ""
+msgstr ":kbd:`J` :ref:`bm_linear_light`"
 
 #: ../../reference_manual/blending_modes.rst:55
 msgid ":kbd:`K` :ref:`bm_darken`"
-msgstr ""
+msgstr ":kbd:`K` :ref:`bm_darken`"
 
 #: ../../reference_manual/blending_modes.rst:56
 msgid ":kbd:`L` :ref:`bm_hard_mix`"
-msgstr ""
+msgstr ":kbd:`L` :ref:`bm_hard_mix`"
 
 #: ../../reference_manual/blending_modes.rst:57
 msgid ":kbd:`M` :ref:`bm_multiply`"
-msgstr ""
+msgstr ":kbd:`M` :ref:`bm_multiply`"
 
 #: ../../reference_manual/blending_modes.rst:58
 msgid ":kbd:`O` :ref:`bm_overlay`"
-msgstr ""
+msgstr ":kbd:`O` :ref:`bm_overlay`"
 
 #: ../../reference_manual/blending_modes.rst:59
 msgid ":kbd:`Q` :ref:`bm_behind`"
-msgstr ""
+msgstr ":kbd:`Q` :ref:`bm_behind`"
 
 #: ../../reference_manual/blending_modes.rst:60
 msgid ":kbd:`R` :ref:`bm_normal`"
-msgstr ""
+msgstr ":kbd:`R` :ref:`bm_normal`"
 
 #: ../../reference_manual/blending_modes.rst:61
 msgid ":kbd:`S` :ref:`bm_screen`"
-msgstr ""
+msgstr ":kbd:`S` :ref:`bm_screen`"
 
 #: ../../reference_manual/blending_modes.rst:62
 msgid ":kbd:`T` :ref:`bm_saturation`"
-msgstr ""
+msgstr ":kbd:`T` :ref:`bm_saturation`"
 
 #: ../../reference_manual/blending_modes.rst:63
 msgid ":kbd:`U` :ref:`bm_hue`"
-msgstr ""
+msgstr ":kbd:`U` :ref:`bm_hue`"
 
 #: ../../reference_manual/blending_modes.rst:64
 msgid ":kbd:`V` :ref:`bm_vivid_light`"
-msgstr ""
+msgstr ":kbd:`V` :ref:`bm_vivid_light`"
 
 #: ../../reference_manual/blending_modes.rst:65
 msgid ":kbd:`W` :ref:`bm_exclusion`"
-msgstr ""
+msgstr ":kbd:`W` :ref:`bm_exclusion`"
 
 #: ../../reference_manual/blending_modes.rst:66
 msgid ":kbd:`X` :ref:`bm_linear_dodge`"
-msgstr ""
+msgstr ":kbd:`X` :ref:`bm_linear_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:67
 msgid ":kbd:`Y` :ref:`bm_luminosity`"
-msgstr ""
+msgstr ":kbd:`Y` :ref:`bm_luminosity`"
 
 #: ../../reference_manual/blending_modes.rst:68
 msgid ":kbd:`Z` :ref:`bm_pin_light`"
-msgstr ""
+msgstr ":kbd:`Z` :ref:`bm_pin_light`"
 
 #: ../../reference_manual/blending_modes.rst:69
 msgid "Next Blending Mode :kbd:`+`"
-msgstr ""
+msgstr "Modo de Mistura Seguinte :kbd:`+`"
 
 #: ../../reference_manual/blending_modes.rst:70
 msgid "Previous Blending Mode :kbd:`-`"
-msgstr ""
+msgstr "Modo de Mistura Anterior :kbd:`-`"
 
 #: ../../reference_manual/blending_modes.rst:73
 msgid "Available Blending Modes"
@@ -208,24 +225,24 @@ msgstr "Modos de Mistura Disponíveis"
 
 #: ../../reference_manual/blending_modes.rst:83
 msgid "Basic blending modes:"
-msgstr ""
+msgstr "Modos de mistura básicos:"
 
 #: ../../reference_manual/blending_modes.rst:84
 msgid "http://en.wikipedia.org/wiki/Blend_modes"
-msgstr ""
+msgstr "http://en.wikipedia.org/wiki/Blend_modes"
 
 #: ../../reference_manual/blending_modes.rst:85
 msgid "Grain Extract/Grain Merge:"
-msgstr ""
+msgstr "Extracção do Grão/Junção do Grão:"
 
 #: ../../reference_manual/blending_modes.rst:86
 msgid "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
-msgstr ""
+msgstr "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
 
 #: ../../reference_manual/blending_modes.rst:87
 msgid "For most of Krita's mystery blendingmodes:"
-msgstr ""
+msgstr "Para a maioria dos modos de mistura misteriosos do Krita:"
 
 #: ../../reference_manual/blending_modes.rst:88
 msgid "http://illusions.hu/effectwiki/doku.php?id=list_of_blendings"
-msgstr ""
+msgstr "http://illusions.hu/effectwiki/doku.php?id=list_of_blendings"

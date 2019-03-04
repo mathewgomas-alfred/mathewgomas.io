@@ -142,7 +142,7 @@ In toolbar
     Gives you the tool options in the toolbar, next to the brush settings. You can open it with :kbd:`\\`.
 
 Switch ctrl/alt modifiers
-    This switches the function of the ctrl and alt buttons when modifying selections. Useful for those used to Gimp instead of photoshop, or Lefties without a right-alt key on their keyboard.
+    This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
 
 Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.

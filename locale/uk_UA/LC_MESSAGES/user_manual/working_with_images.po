@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___working_with_images\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 03:14+0100\n"
-"PO-Revision-Date: 2019-02-24 10:00+0200\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"PO-Revision-Date: 2019-03-03 17:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -49,6 +49,9 @@ msgid ""
 "If you have a text document, it of course contains letters, strung in the "
 "right order, so the computer loads them as coherent sentences."
 msgstr ""
+"Якщо ви маєте справу із текстовим документом, у ньому, звичайно ж, містяться "
+"літери, які певним чином упорядковано так, що комп'ютер завантажує їх як "
+"придатні до читання речення."
 
 #: ../../user_manual/working_with_images.rst:29
 msgid "Raster Data"
@@ -61,6 +64,10 @@ msgid ""
 "contain several of such layers, that get overlaid on top of each other so "
 "make the final image."
 msgstr ""
+"Це основні дані на створених вами шарах малювання. Це мазки пензлем для"
+" малювання. Якщо роздивлятися їх у великому масштабі, можна побачити окремі"
+" квадратні пікселі. У багатошаровому файлів декілька таких шарів, які можуть"
+" накладатися один на одний для створення остаточного зображення."
 
 #: ../../user_manual/working_with_images.rst:36
 msgid "A single layer file will usually only contain raster data."
@@ -78,6 +85,12 @@ msgid ""
 "vector data is much more editable, lighter, but at the same time it's also "
 "much more CPU intensive."
 msgstr ""
+"Векторні дані визначають математичні дії, які вказують комп'ютеру, як"
+" малювати пікселі на екрані. Це робить векторні дані набагато більш"
+" масштабованими, оскільки, наприклад, для того, щоб змінити масштаб у чотири"
+" рази, достатньо збільшити координати у чотири рази. Через це векторні дані"
+" зручніше редагувати, вони компактніші, але, у той самий час, робота із ними"
+" більше навантажує процесор комп'ютера."
 
 #: ../../user_manual/working_with_images.rst:48
 msgid "Operation Data"
@@ -102,6 +115,8 @@ msgid ""
 "Metadata is information like the creation date, author, description and also "
 "information like DPI."
 msgstr ""
+"Метадані — відомості щодо документа, зокрема дата створення, автор, опис, а "
+"також дані щодо роздільної здатності зображення."
 
 #: ../../user_manual/working_with_images.rst:64
 msgid "Image size"
@@ -114,6 +129,10 @@ msgid ""
 "be remembered and the higher the bit depth of the color, the heavier the "
 "resulting file will be."
 msgstr ""
+"Розмір зображення складається із параметрів розмірності та роздільної"
+" здатності зображення. Розмір зображення безпосередньо впливає на розмір"
+" файла документа Krita. Чим більше даних пікслеів потрібно запам'ятати і чим"
+" більшою є глибина кольорів, тим більшим буде файл-результат."
 
 #: ../../user_manual/working_with_images.rst:72
 msgid "DPI/PPI"
@@ -198,8 +217,8 @@ msgid ""
 "space, you can change only the image color space in :menuselection:`Image --"
 "> Properties` which will leave the layers alone. But if you want to change "
 "the color space of the file including all the layers you can do it by going "
-"to Image > Convert Image Color Space this will convert all the layers Color "
-"space as well."
+"to :menuselection:`Image --> Convert Image Color Space` this will convert "
+"all the layers Color space as well."
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:116
@@ -343,6 +362,9 @@ msgid ""
 "You can also resize the canvas via :menuselection:`Image --> Resize "
 "Canvas`(or :kbd:`Ctrl + Alt + C`). The dialog box is shown below."
 msgstr ""
+"Також можна змінити розмір полотна за допомогою пункту меню"
+" :menuselection:`Зображення --> Змінити розмір полотна` (або :kbd:`Ctrl + Alt"
+" + C`). Відповідне діалогове вікно показано на наведеному нижче знімку."
 
 #: ../../user_manual/working_with_images.rst:191
 msgid ".. image:: images/en/Resize_Canvas.png"
@@ -404,6 +426,8 @@ msgid ""
 "This powerful image manipulation feature lets you separate an image into its "
 "different components or channels."
 msgstr ""
+"За допомогою цієї потужної функціональної можливості для роботи із "
+"зображеннями ви можете розділити зображення на його компоненти або канали."
 
 #: ../../user_manual/working_with_images.rst:233
 msgid ""
@@ -419,6 +443,10 @@ msgid ""
 "and copy blue blending modes, with using the red one for the red channel "
 "image, etc."
 msgstr ""
+"Для зображень у відтінках сірого у просторі RGB ви можете скористатися"
+" режимами змішування із копіюванням червоного, зеленого та синього кольору і"
+" використати режим червоного кольору для отримання червоного каналу"
+" зображення тощо."
 
 #: ../../user_manual/working_with_images.rst:243
 msgid "Saving, Exporting and Opening Files"
@@ -428,9 +456,8 @@ msgstr "Збереження, експортування та відкриття
 msgid ""
 "When Krita creates or opens a file, it has a copy of the file in memory, "
 "that it edits. This is part of the way how computers work: They make a copy "
-"of their file in the ram. Thus, when saving, Krita takes it's copy and "
-"copies it over the existing file. There's a couple of tricks you can do with "
-"saving."
+"of their file in the ram. Thus, when saving, Krita takes its copy and copies "
+"it over the existing file. There's a couple of tricks you can do with saving."
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:252
@@ -439,6 +466,9 @@ msgid ""
 "drive. If the image hadn't been saved before, Krita will ask you where to "
 "save it."
 msgstr ""
+"Krita зберігає поточне зображення у своїй пам'яті до визначеного місця на "
+"диску. Якщо зображення раніше не зберігалося на диску, Krita попросить вас "
+"вказати місце для його зберігання."
 
 #: ../../user_manual/working_with_images.rst:253
 msgid "Save"
@@ -484,6 +514,10 @@ msgid ""
 "saved it to, so that when pressing 'save' it asks you where to save it. This "
 "is also called 'import' in other programs."
 msgstr ""
+"Цей пункт, як може здатися, поводиться доволі дивно: програма відкриває файл"
+" і наче забуває про те, де він зберігався. Коли ви натискаєте кнопку"
+" «Зберегти», програма просить вас вказати, куди слід зберегти нову версію"
+" файла. У інших програмах подібна можливість називається «Імпортувати»."
 
 #: ../../user_manual/working_with_images.rst:266
 msgid "Open Existing Document As Untitled Document"
@@ -515,15 +549,17 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:275
 msgid ""
-"Copies the last saved version of your file to a back-up file and saves your "
-"document under the original name."
+"Copies and renames the last saved version of your file to a back-up file and "
+"saves your document under the original name."
 msgstr ""
+"Копіює і перейменовує останню збережену версію вашого файла до файла "
+"резервної копії і зберігає ваш документ під початковою назвою."
 
-#: ../../user_manual/working_with_images.rst:277
+#: ../../user_manual/working_with_images.rst:276
 msgid "Save Incremental Backup."
-msgstr "Зберегти нарощувальну версію."
+msgstr "Зберегти нарощувальну резервну копію"
 
-#: ../../user_manual/working_with_images.rst:280
+#: ../../user_manual/working_with_images.rst:279
 msgid ""
 "Since Krita's file format is compressed data file, in case of a corrupt or "
 "broken file you can open it with archive managers and extract the contents "

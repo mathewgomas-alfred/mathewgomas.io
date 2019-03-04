@@ -276,7 +276,7 @@ If you are preparing an image for the web:
 
 .. note::
 
-    In some versions of Firefox, the colours actually look strange: This is a bug in Firefox, which is because it's `color management system is incomplete <http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web.html>`_, save your png, jpg or tiff without an embedded profile to work around this.
+    In some versions of Firefox, the colours actually look strange: This is a bug in Firefox, which is because its `color management system is incomplete <http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web.html>`_, save your png, jpg or tiff without an embedded profile to work around this.
 
 If you are preparing for print:
 

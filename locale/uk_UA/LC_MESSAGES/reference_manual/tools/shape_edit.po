@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___shape_edit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-23 11:44+0200\n"
+"PO-Revision-Date: 2019-02-27 20:31+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -98,11 +98,11 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:1
 msgid "Krita's shape edit tool reference."
-msgstr ""
+msgstr "Довідник із інструмента редагування форм Krita."
 
 #: ../../reference_manual/tools/shape_edit.rst:16
 msgid "Shape Edit Tool"
-msgstr ""
+msgstr "Інструмент редагування форм"
 
 #: ../../reference_manual/tools/shape_edit.rst:18
 msgid "|toolshapeedit|"
@@ -146,7 +146,7 @@ msgstr "Форми контурів"
 
 #: ../../reference_manual/tools/shape_edit.rst:34
 msgid "Path shapes can be recognised by the different nodes they have."
-msgstr ""
+msgstr "Форми контурів можна визначити за вузлами, з яких вони складаються."
 
 #: ../../reference_manual/tools/shape_edit.rst:36
 msgid ""
@@ -173,11 +173,15 @@ msgid ""
 "You can select a single node with |mouseleft|, they will turn bright green "
 "if selected."
 msgstr ""
+"Позначити окремий вузол можна клацанням |mouseleft|. Позначені вузли буде "
+"показано яскравим зеленим кольором."
 
 #: ../../reference_manual/tools/shape_edit.rst:45
 msgid ""
 "|mouseleft| + :kbd:`Shift` on unselected nodes will add them to a selection."
 msgstr ""
+"|mouseleft| + :kbd:`Shift` на непозначених вузлах додаватиме їх до "
+"позначеного набору."
 
 #: ../../reference_manual/tools/shape_edit.rst:47
 msgid ""
@@ -241,7 +245,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:65
 msgid ":kbd:`Del` will remove the selected node."
-msgstr ""
+msgstr ":kbd:`Del` вилучає позначений вузол."
 
 #: ../../reference_manual/tools/shape_edit.rst:68
 msgid "Selected Segments"
@@ -308,6 +312,8 @@ msgid ""
 "|toolbeziercurve|, |toolline|, |toolpolyline|, |toolpolygon|, |"
 "toolfreehandpath|"
 msgstr ""
+"|toolbeziercurve|, |toolline|, |toolpolyline|, |toolpolygon|, |"
+"toolfreehandpath|"
 
 #: ../../reference_manual/tools/shape_edit.rst:95
 msgid ""
@@ -317,27 +323,27 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:97
 msgid ":ref:`path_tool`"
-msgstr ""
+msgstr ":ref:`path_tool`"
 
 #: ../../reference_manual/tools/shape_edit.rst:98
 msgid ":ref:`line_tool`"
-msgstr ""
+msgstr ":ref:`line_tool`"
 
 #: ../../reference_manual/tools/shape_edit.rst:99
 msgid ":ref:`polygon_tool`"
-msgstr ""
+msgstr ":ref:`polygon_tool`"
 
 #: ../../reference_manual/tools/shape_edit.rst:100
 msgid ":ref:`polyline_tool`"
-msgstr ""
+msgstr ":ref:`polyline_tool`"
 
 #: ../../reference_manual/tools/shape_edit.rst:101
 msgid ":ref:`freehand_path_tool`"
-msgstr ""
+msgstr ":ref:`freehand_path_tool`"
 
 #: ../../reference_manual/tools/shape_edit.rst:104
 msgid "Edit the nodes."
-msgstr ""
+msgstr "Редагувати вузли."
 
 #: ../../reference_manual/tools/shape_edit.rst:106
 msgid "Corner Point"
@@ -375,11 +381,11 @@ msgstr "Вставити точку"
 
 #: ../../reference_manual/tools/shape_edit.rst:113
 msgid "Insert a new node into the middle of the selected segment."
-msgstr ""
+msgstr "Вставити новий вузол посередині позначеного сегмента."
 
 #: ../../reference_manual/tools/shape_edit.rst:115
 msgid "Node Editing"
-msgstr ""
+msgstr "Редагування вузлів"
 
 #: ../../reference_manual/tools/shape_edit.rst:115
 msgid "Remove Point"
@@ -387,11 +393,11 @@ msgstr "Вилучити точку"
 
 #: ../../reference_manual/tools/shape_edit.rst:115
 msgid "Remove the selected node."
-msgstr ""
+msgstr "Вилучити позначений вузол."
 
 #: ../../reference_manual/tools/shape_edit.rst:118
 msgid "Edit line segments between nodes."
-msgstr ""
+msgstr "Редагувати сегменти лінії між вузлами."
 
 #: ../../reference_manual/tools/shape_edit.rst:120
 msgid "Segment To Line"
@@ -399,7 +405,7 @@ msgstr "Відрізок у пряму"
 
 #: ../../reference_manual/tools/shape_edit.rst:121
 msgid "Make the current segment a straight line."
-msgstr ""
+msgstr "Зробити поточний сегмент прямою лінією."
 
 #: ../../reference_manual/tools/shape_edit.rst:122
 msgid "Segment To Curve"
@@ -437,15 +443,15 @@ msgstr "Розірвати у точці"
 
 #: ../../reference_manual/tools/shape_edit.rst:129
 msgid "Break the path at this point."
-msgstr ""
+msgstr "Розбити контур на цій точці."
 
 #: ../../reference_manual/tools/shape_edit.rst:130
 msgid "Break Segment"
-msgstr ""
+msgstr "Розірвати на відрізку"
 
 #: ../../reference_manual/tools/shape_edit.rst:131
 msgid "Break the path at the selected segment."
-msgstr ""
+msgstr "Розірвати контур на позначеному сегменті."
 
 #: ../../reference_manual/tools/shape_edit.rst:132
 msgid "Join with Segment"
@@ -457,7 +463,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:135
 msgid "Line Segment Editing"
-msgstr ""
+msgstr "Редагування сегмента лінії"
 
 #: ../../reference_manual/tools/shape_edit.rst:135
 msgid "Merge Points"
@@ -471,7 +477,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:138
 msgid "Rectangle Shapes"
-msgstr ""
+msgstr "Прямокутні форми"
 
 #: ../../reference_manual/tools/shape_edit.rst:140
 msgid "|toolrectangle|"
@@ -490,7 +496,7 @@ msgstr "Радіус кута за x"
 #: ../../reference_manual/tools/shape_edit.rst:145
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "The radius of the y-axis of the corner curve."
-msgstr ""
+msgstr "Радіус за віссю y кривої у куті."
 
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "Corner radius y"
@@ -498,7 +504,7 @@ msgstr "Радіус кута за y"
 
 #: ../../reference_manual/tools/shape_edit.rst:150
 msgid "Ellipse Shapes"
-msgstr ""
+msgstr "Еліптичні форми"
 
 #: ../../reference_manual/tools/shape_edit.rst:152
 msgid "|toolellipse|"
@@ -507,6 +513,8 @@ msgstr "|toolellipse|"
 #: ../../reference_manual/tools/shape_edit.rst:154
 msgid "Ellipse shapes are the ones made with the :ref:`ellipse_tool`."
 msgstr ""
+"Еліптичними є форми, які створено за допомогою інструмента :ref:"
+"`ellipse_tool`."
 
 #: ../../reference_manual/tools/shape_edit.rst:157
 msgid "The type of ellipse shape it is."
@@ -518,7 +526,7 @@ msgstr "Дуга"
 
 #: ../../reference_manual/tools/shape_edit.rst:160
 msgid "An arc shape will keep the path open when it isn't fully circular."
-msgstr ""
+msgstr "Форма дуги визначає незамкнений контур, який не є повністю круговим."
 
 #: ../../reference_manual/tools/shape_edit.rst:161
 msgid "Pie"
@@ -536,7 +544,7 @@ msgstr "Тип"
 
 #: ../../reference_manual/tools/shape_edit.rst:164
 msgid "Cord"
-msgstr ""
+msgstr "Хорда"
 
 #: ../../reference_manual/tools/shape_edit.rst:164
 msgid ""
@@ -550,7 +558,7 @@ msgstr "Початковий кут"
 
 #: ../../reference_manual/tools/shape_edit.rst:167
 msgid "The angle at which the shape starts."
-msgstr ""
+msgstr "Кут, на якому починається форма."
 
 #: ../../reference_manual/tools/shape_edit.rst:168
 msgid "End Angle"
@@ -558,8 +566,8 @@ msgstr "Кінцевий кут"
 
 #: ../../reference_manual/tools/shape_edit.rst:169
 msgid "The angle at which the shape ends."
-msgstr ""
+msgstr "Кут, на якому завершується форма."
 
 #: ../../reference_manual/tools/shape_edit.rst:171
 msgid "An action to quickly make the ellipse fully circular."
-msgstr ""
+msgstr "Дія для швидкого перетворення еліпса на правильне коло."

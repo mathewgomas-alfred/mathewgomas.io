@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___darken\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___darken"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 13:43+0200\n"
+"PO-Revision-Date: 2019-03-03 14:07+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/blending_modes/darken.rst:1
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:41
 #: ../../reference_manual/blending_modes/darken.rst:46
 msgid "Left: **Normal**. Right: **Burn**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Вигоряння**."
 
 #: ../../reference_manual/blending_modes/darken.rst:36
 msgid ""
@@ -117,7 +117,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:68
 #: ../../reference_manual/blending_modes/darken.rst:73
 msgid "Left: **Normal**. Right: **Darken**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Затемнення**."
 
 #: ../../reference_manual/blending_modes/darken.rst:63
 msgid ""
@@ -155,11 +155,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:84
 msgid "Left: **Normal**. Right: **Darker Color**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Затемнення кольору**."
 
 #: ../../reference_manual/blending_modes/darken.rst:90
 msgid "Gamma Dark"
-msgstr ""
+msgstr "Затемнення гами"
 
 #: ../../reference_manual/blending_modes/darken.rst:92
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:106
 #: ../../reference_manual/blending_modes/darken.rst:111
 msgid "Left: **Normal**. Right: **Gamma Dark**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Затемнення гами**."
 
 #: ../../reference_manual/blending_modes/darken.rst:101
 msgid ""
@@ -218,6 +218,8 @@ msgid ""
 "Adds the values of the two layers together and then subtracts 1. Seems to "
 "produce the same result as :ref:`bm_inverse_subtract`."
 msgstr ""
+"Обчислює суму значень у двох шарах і віднімає від отриманого значення 1."
+" Здається, дає той самий результат, що і :ref:`bm_inverse_subtract`."
 
 #: ../../reference_manual/blending_modes/darken.rst:121
 msgid ""

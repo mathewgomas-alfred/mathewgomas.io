@@ -10,7 +10,7 @@ msgstr ""
 "docs_krita_org_user_manual___python_scripting___introduction_to_python_scripting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-20 08:31+0200\n"
+"PO-Revision-Date: 2019-03-02 22:39+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:25
 msgid "What is Python Scripting?"
-msgstr ""
+msgstr "Що являють собою сценарії мовою Python?"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:27
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:35
 msgid "How to Enable the Scripter Plugin"
-msgstr ""
+msgstr "Як увімкнути додаток для роботи із сценаріями"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:37
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:56
 msgid "Running basic Krita commands"
-msgstr ""
+msgstr "Виконання базових команд Krita"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:58
 msgid ""
@@ -162,12 +162,16 @@ msgid ""
 "`LibKis API Overview <https://api.kde.org/extragear-api/graphics-apidocs/"
 "krita/libs/libkis/html/index.html>`_"
 msgstr ""
+"`Огляд програмного інтерфейсу LibKis <https://api.kde.org/extragear-api/"
+"graphics-apidocs/krita/libs/libkis/html/index.html>`_"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:87
 msgid ""
 "`Krita class documentation <https://api.kde.org/extragear-api/graphics-"
 "apidocs/krita/libs/libkis/html/classKrita.html>`_"
 msgstr ""
+"`Документація до класу Krita <https://api.kde.org/extragear-api/graphics-"
+"apidocs/krita/libs/libkis/html/classKrita.html>`_"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:89
 msgid ""
@@ -203,15 +207,16 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:101
 msgid "Outputs as ::"
-msgstr ""
+msgstr "Виведе::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:112
 msgid "However, sometimes the conversion doesn't go quite as smoothly."
 msgstr ""
+"Втім, іноді перетворення відбувається не так, як можна було б сподіватися."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:120
 msgid "gives something like this::"
-msgstr ""
+msgstr "дасть нам щось таке::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:127
 msgid ""
@@ -227,12 +232,14 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:137
 msgid "we get an output like::"
-msgstr ""
+msgstr "ми отримуємо виведені результати, які подібні до таких::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:147
 msgid ""
 "Hopefully this will give you an idea of how to navigate the API docs now."
 msgstr ""
+"Сподіваємося, ви тепер зрозуміли, як вивчати документацію із програмного "
+"інтерфейсу."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:149
 msgid ""
@@ -288,3 +295,5 @@ msgid ""
 "However, it is possible to compile it with python 2. To do so, you will need "
 "to add the following to the cmake configuration line::"
 msgstr ""
+"Втім, програму можна зібрати і з підтримкою python 2. Для цього вам слід "
+"додати таку команду до рядка налаштовування системи збирання cmake::"

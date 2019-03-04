@@ -29,7 +29,7 @@ Fast Mode
 Threshold
     Determines when the fill-tool sees another color as a border.
 Grow Selection
-    This value extends the shape beyond it's initial size.
+    This value extends the shape beyond its initial size.
 Feathering Radius
     This value will add a soft border to the filled-shape.
 Fill Entire Selection

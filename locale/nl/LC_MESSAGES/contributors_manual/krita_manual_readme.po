@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
 "PO-Revision-Date: 2019-02-19 16:58+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -218,7 +218,7 @@ msgid "Upload the zip on phabricator."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:85
-msgid "First, go to phabricator.kde.org and log in with you identity account."
+msgid "First, go to phabricator.kde.org and log in with your identity account."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
@@ -487,7 +487,7 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
 "This consists of using svg for infographics, and using the appropriate "
-"markup for given text."
+"markup for a given text."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:166
@@ -511,7 +511,7 @@ msgstr ""
 msgid ""
 "Of course, we still want to show certain concepts in play in photos and "
 "master paintings, such as glossing or indirect light. In this case, add a "
-"caption that mentions the name of the painting or the painter, or mention "
+"caption that mentions the name of the painting or the painter, or mentions "
 "it's a photograph."
 msgstr ""
 
@@ -575,73 +575,80 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:192
-msgid ""
-"Before the ``draft`` branch is merged for a given release: * the master "
-"branch will be tagged with the old version. * The draft branch is first "
-"double checked that it has updated version number and updated epub cover."
+msgid "Before the ``draft`` branch is merged for a given release:"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:196
+#: ../../contributors_manual/krita_manual_readme.rst:194
+msgid "The master branch will be tagged with the old version."
+msgstr ""
+
+#: ../../contributors_manual/krita_manual_readme.rst:195
+msgid ""
+"The draft branch is first double checked that it has updated version number "
+"and updated epub cover."
+msgstr ""
+
+#: ../../contributors_manual/krita_manual_readme.rst:197
 msgid ""
 "The ``draft`` branch will not be merged until the day before a release to "
-"keep the pages in tact for long enough."
+"keep the pages intact for long enough."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:198
+#: ../../contributors_manual/krita_manual_readme.rst:199
 msgid ""
 "Each release will have a version of the epub uploaded as part of the release "
 "process. .. Where do we get the POT files from? Even the translated versions?"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:202
+#: ../../contributors_manual/krita_manual_readme.rst:203
 msgid "Removing Pages"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:204
+#: ../../contributors_manual/krita_manual_readme.rst:205
 msgid "If a feature is removed in a certain version, the corresponding pages."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:206
+#: ../../contributors_manual/krita_manual_readme.rst:207
 msgid "Will first be marked deprecated."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:208
+#: ../../contributors_manual/krita_manual_readme.rst:209
 msgid "This can be done as so::"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:214
+#: ../../contributors_manual/krita_manual_readme.rst:215
 msgid "Will be linked on a page called 'deprecated'"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:215
+#: ../../contributors_manual/krita_manual_readme.rst:216
 msgid ""
 "If the next version rolls around all the pages linked in the deprecated "
 "section will be removed."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:218
+#: ../../contributors_manual/krita_manual_readme.rst:219
 msgid "Adding Pages"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:220
+#: ../../contributors_manual/krita_manual_readme.rst:221
 msgid "Ensure that it is located in the right place."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:221
+#: ../../contributors_manual/krita_manual_readme.rst:222
 msgid ""
 "Follow the :ref:`krita_markup_conventions` to ensure the page is formatted "
 "correctly."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:222
+#: ../../contributors_manual/krita_manual_readme.rst:223
 msgid "Add the page to the TOC."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:223
+#: ../../contributors_manual/krita_manual_readme.rst:224
 msgid "If the feature is new, add in versionadded::"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:229
+#: ../../contributors_manual/krita_manual_readme.rst:230
 msgid ""
 "As with images, don't add text that you do not have permission to add. This "
 "means that text is either written by you, or you have permission to port it "
@@ -649,76 +656,76 @@ msgid ""
 "relicensed under that."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:233
+#: ../../contributors_manual/krita_manual_readme.rst:234
 msgid "Changing Pages"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:235
+#: ../../contributors_manual/krita_manual_readme.rst:236
 msgid ""
 "If you fully rewrite a page, as opposed to proofreading it, the resulting "
 "page should be reviewed."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:237
+#: ../../contributors_manual/krita_manual_readme.rst:238
 msgid ""
 "If you change a page because a feature has changed, and you have commit "
 "access, the change can be pushed without review (unless you feel more "
 "comfortable with a review), but you should add::"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:243
+#: ../../contributors_manual/krita_manual_readme.rst:244
 msgid ""
 "In all cases, check if you want to add yourself to the author field in the "
 "metadata section on top."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:245
+#: ../../contributors_manual/krita_manual_readme.rst:246
 msgid ""
 "Using deprecated, versionadded and versionchanged with the version number "
 "allows us to easily search the manual for these terms with grep:"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:252
+#: ../../contributors_manual/krita_manual_readme.rst:253
 msgid "Faulty pages"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:254
+#: ../../contributors_manual/krita_manual_readme.rst:255
 msgid "If a page slips through the cracks, either..."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:256
+#: ../../contributors_manual/krita_manual_readme.rst:257
 msgid "Make a review request per the :ref:`making_changes_sphinx` section."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:257
+#: ../../contributors_manual/krita_manual_readme.rst:258
 msgid "Make a task at the `Manual Project Workboard`_."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:258
+#: ../../contributors_manual/krita_manual_readme.rst:259
 msgid ""
 "Make a bug at `bugzilla`_ under the project Krita in the section "
 "'documentation'."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:261
+#: ../../contributors_manual/krita_manual_readme.rst:262
 msgid "Proofreading"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:263
-msgid "There's two types of proofreading that needs to be done."
+#: ../../contributors_manual/krita_manual_readme.rst:264
+msgid "There are two types of proofreading that needs to be done."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:265
+#: ../../contributors_manual/krita_manual_readme.rst:266
 msgid ""
 "The most important one is **reviewing changes people make**. You can do this "
 "on phabricator in two ways:"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:267
+#: ../../contributors_manual/krita_manual_readme.rst:268
 msgid "Reviewing patches in differential."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:269
+#: ../../contributors_manual/krita_manual_readme.rst:270
 msgid ""
 "Reviewing patches is done in differential. Patch reviewing is usually done "
 "by programmers to find mistakes in each other's code, but because "
@@ -726,7 +733,7 @@ msgid ""
 "reviewing to check against typos as well!"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:271
+#: ../../contributors_manual/krita_manual_readme.rst:272
 msgid ""
 "A patch, or diff, is an amount of changes done in a document (added, "
 "removed) put into a machine readable file. When someone submits a review "
@@ -738,18 +745,18 @@ msgid ""
 "control system."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:273
+#: ../../contributors_manual/krita_manual_readme.rst:274
 msgid "Auditing changes in the manual."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:275
+#: ../../contributors_manual/krita_manual_readme.rst:276
 msgid ""
 "Auditing changes happens after the fact. You can audit a change by going to "
 "the commit message (from the repository page, go to history and then click "
 "on an entry), where you will be able to make comments on the changes made."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:277
+#: ../../contributors_manual/krita_manual_readme.rst:278
 msgid ""
 "In both cases, the interface consists of the difference being shown, with on "
 "the left the old version, and on the right the new version. Lines that have "
@@ -761,33 +768,56 @@ msgid ""
 "comments will be submitted along side of it."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:279
+#: ../../contributors_manual/krita_manual_readme.rst:280
 msgid ""
 "The second major way the manual needs to be proofread is **over the whole "
 "file**. Many of the pages have only been checked for correctness but not for "
 "style and grammar."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:281
+#: ../../contributors_manual/krita_manual_readme.rst:282
 msgid ""
 "For this you will need to follow the :ref:`making_changes_sphinx` section, "
 "so that you can have full access to the pages and edit them."
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:284
+#: ../../contributors_manual/krita_manual_readme.rst:285
 msgid "Translating"
 msgstr ""
 
-#: ../../contributors_manual/krita_manual_readme.rst:286
+#: ../../contributors_manual/krita_manual_readme.rst:287
 msgid ""
-"We are still trying to hash out a translation workflow. Please bear with us."
+"Translation of the manual is handled by the `KDE localization community "
+"<https://l10n.kde.org/>`_. To join the translation effort, go to the "
+"localization site, select the list of `translation teams <https://l10n.kde."
+"org/teams-list.php>`_, select the language you wish to translate for, and "
+"follow the instructions on the team page to get in contact with fellow "
+"translators."
+msgstr ""
+
+#: ../../contributors_manual/krita_manual_readme.rst:289
+msgid ""
+"The localization team has access to the PO files for this manual, which is a "
+"file type used by translation programs like POEdit and Lokalize. A "
+"translation team is able to work together on translating these files and "
+"uploading them to the translations SVN. A special script will then take the "
+"translations from the SVN and bring them to the manual section to be "
+"incorporated on a daily basis."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:291
+msgid ""
+"Finished translations also need to be added to the build script to show up "
+"online. Translator teams which are confident in the state of their "
+"translation should contact the main Krita team via the kimageshop "
+"mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this."
+msgstr ""
+
+#: ../../contributors_manual/krita_manual_readme.rst:294
 msgid "Other"
 msgstr "Overig"
 
-#: ../../contributors_manual/krita_manual_readme.rst:293
+#: ../../contributors_manual/krita_manual_readme.rst:296
 msgid ""
 "For restructured text conventions, check :ref:`krita_markup_conventions` ."
 msgstr ""

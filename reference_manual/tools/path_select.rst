@@ -33,12 +33,14 @@ Hotkeys and Sticky keys
 
 .. versionadded:: 4.2
 
+
    * Hovering over a selection allows you to move it.
    * |mouseright| will open up a selection quick menu with amongst others the ability to edit the selection.
 
+
 .. note::
 
-    You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the :ref:`general_settings`
+    You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`
 
 Tool Options
 ------------

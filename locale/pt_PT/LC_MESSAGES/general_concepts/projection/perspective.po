@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-28 15:32+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,77 +16,89 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en projectionanimation projection fromwikipedia\n"
+"X-POFile-SpellExtra: ProjectionLens image axonométrico gif\n"
+"X-POFile-SpellExtra: categoryprojection projectionimage images Krita ref\n"
+"X-POFile-SpellExtra: Blender\n"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ""
 ".. image:: images/en/category_projection/Projection_Lens1_from_wikipedia.svg"
 msgstr ""
+".. image:: images/en/category_projection/Projection_Lens1_from_wikipedia.svg"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection-cube_12.svg"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection-cube_12.svg"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection-cube_13.svg"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection-cube_13.svg"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_31.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_31.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_animation_03.gif"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_animation_03.gif"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_32.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_32.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_33.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_33.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_34.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_34.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_35.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_35.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_36.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_36.png"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ".. image:: images/en/category_projection/projection_image_37.png"
-msgstr ""
+msgstr ".. image:: images/en/category_projection/projection_image_37.png"
 
 #: ../../general_concepts/projection/perspective.rst:1
 msgid "Perspective projection."
-msgstr ""
+msgstr "Projecção em perspectiva."
 
 #: ../../general_concepts/projection/perspective.rst:10
 msgid ""
 "This is a continuation of the :ref:`axonometric tutorial "
 "<projection_axonometric>`, be sure to check it out if you get confused!"
 msgstr ""
+"Isto é uma continuação do :ref:`tutorial axonométrico "
+"<projection_axonometric>`; como tal, certifique-se que o lê antes de ficar "
+"confuso!"
 
 #: ../../general_concepts/projection/perspective.rst:16
 msgid "Perspective Projection:"
-msgstr ""
+msgstr "Projecção em Perspectiva:"
 
 #: ../../general_concepts/projection/perspective.rst:18
 msgid ""
 "So, up till now we’ve done only parallel projection. This is called like "
 "that because all the projection lines we drew were parallel ones."
 msgstr ""
+"Deste modo, até agora só temos feito projecções paralelas. Chamam-se assim "
+"porque todas as linhas de projecção que foram desenhadas eram paralelas."
 
 #: ../../general_concepts/projection/perspective.rst:20
 msgid ""
 "However, in real life we don’t have parallel projection. This is due to the "
 "lens in our eyes."
 msgstr ""
+"Contudo, no mundo real, não temos projecções paralelas. Isto deve-se às "
+"lentes nos seus olhos."
 
 #: ../../general_concepts/projection/perspective.rst:25
 msgid ""
@@ -94,6 +106,9 @@ msgid ""
 "org/wiki/Lens_%28optics%29>`_ shows us, have the ability to turn parallel "
 "lightrays into converging ones."
 msgstr ""
+"As lentes convexas, como esta imagem bonita da `Wikipédia <https://en."
+"wikipedia.org/wiki/Lens_%28optics%29>`_ mostra-nos que temos a capacidade de "
+"transformar raios de luz paralelos em convergentes."
 
 #: ../../general_concepts/projection/perspective.rst:27
 msgid ""
@@ -102,6 +117,10 @@ msgid ""
 "of the maximum distortion that can be given to two parallel lines as they’re "
 "skewed toward the focal point."
 msgstr ""
+"O ponto onde todos os raios se juntam chama-se o ponto focal e o ponto de "
+"fuga num desenho 3D relaciona-se com a expressão da distorção máxima que "
+"pode ser dada a duas linhas paralelas à medida que se deslocam em direcção "
+"ao ponto focal."
 
 #: ../../general_concepts/projection/perspective.rst:29
 msgid ""
@@ -111,10 +130,15 @@ msgid ""
 "this inversion happens, but our brains are used to this awkwardness since "
 "childhood and turn it around automatically."
 msgstr ""
+"Como pode ver na imagem, o ponto focal não é um ponto final dos raios. Em "
+"vez disso, é onde os raios se cruzam antes de divergirem de novo… A única "
+"diferença é que a imagem resultante será invertida. Mesmo nos nossos olhos, "
+"esta inversão acontece, mas os nossos cérebros estão habituados a este "
+"fenómeno estranho desde a infância e rodam-no automaticamente."
 
 #: ../../general_concepts/projection/perspective.rst:31
 msgid "Let’s see if we can perspectively project our box now."
-msgstr ""
+msgstr "Vejamos como e possível projectar agora a nossa caixa em perspectiva."
 
 #: ../../general_concepts/projection/perspective.rst:36
 msgid ""
@@ -124,16 +148,23 @@ msgid ""
 "projection, so only the horizontal lines get distorted. We can also distort "
 "the vertical lines"
 msgstr ""
+"Isto correu relativamente bem. Como poderá ver, ‘reunimos’ de certa forma os "
+"dois lados num só (resultando no quadrado do lado púrpura), pelo que tivemos "
+"uma projecção ao longo do tempo mais simples. A projecção está limitada à "
+"projecção em um ou dois pontos de fuga, pelo que só as linhas horizontais "
+"ficam distorcidas. Também podemos distorcer as linhas verticais"
 
 #: ../../general_concepts/projection/perspective.rst:41
 msgid ""
 "… to get three-point projection, but this is a bit much.(And I totally made "
 "a mistake in there…)"
 msgstr ""
+"… para obter uma projecção em três pontos, mas isto é um pouco demais.(E "
+"cometeu-se um erro aqui…)"
 
 #: ../../general_concepts/projection/perspective.rst:43
 msgid "Let’s setup our perspective projection again…"
-msgstr ""
+msgstr "Vamos configurar de novo a nossa projecção em perspectiva…"
 
 #: ../../general_concepts/projection/perspective.rst:48
 msgid ""
@@ -142,12 +173,18 @@ msgid ""
 "vertical parallel rules to easily draw the straight lines from the view "
 "plane to where they intersect."
 msgstr ""
+"Iremos usar um único ponto de fuga para o nosso ponto focal. Estará lá uma "
+"linha-guia para o plano da projecção, onde iremos configurar réguas "
+"paralelas horizontais e verticais para desenhar facilmente as linhas rectas "
+"desde o plano de visualização até à sua intersecção."
 
 #: ../../general_concepts/projection/perspective.rst:50
 msgid ""
 "And now the workflow in gif-format…(don’t forget you can rotate the canvas "
 "with 4 and 6)"
 msgstr ""
+"E agora o funcionamento no formato .gif … (não se esqueça que pode rodar a "
+"área de desenho com o 4 e o 6)"
 
 #: ../../general_concepts/projection/perspective.rst:55
 msgid "Result:"
@@ -155,62 +192,75 @@ msgstr "Resultado:"
 
 #: ../../general_concepts/projection/perspective.rst:60
 msgid "Looks pretty haughty, doesn’t he?"
-msgstr ""
+msgstr "Parece bastante estranho, não parece?"
 
 #: ../../general_concepts/projection/perspective.rst:62
 msgid "And again, there’s technically a simpler setup here…"
 msgstr ""
+"E, mais uma vez, tecnicamente temos aqui uma configuração mais simples…"
 
 #: ../../general_concepts/projection/perspective.rst:64
 msgid "Did you know you can use Krita to rotate in 3d? No?"
-msgstr ""
+msgstr "Sabia que pode usar o Krita para rodar em 3D? Não?"
 
 #: ../../general_concepts/projection/perspective.rst:69
 msgid "Well, now you do."
-msgstr ""
+msgstr "Ok, então agora pode."
 
 #: ../../general_concepts/projection/perspective.rst:71
 msgid "The ortho graphics are being set to 45 and 135 degrees respectively."
 msgstr ""
+"Os gráficos ortográficos foram configurados para 45 e 135 graus, "
+"respectivamente."
 
 #: ../../general_concepts/projection/perspective.rst:73
 msgid ""
 "We draw horizontal lines on the originals, so that we can align vanishing "
 "point rulers to them."
 msgstr ""
+"Foram desenhadas linhas horizontais nos originais, para que se possa agora "
+"alinhar as réguas do ponto de fuga a elas."
 
 #: ../../general_concepts/projection/perspective.rst:78
 msgid ""
 "And from this, like with the shearing method, we start drawing.(don’t forget "
 "the top-views!)"
 msgstr ""
+"E a partir daqui, como acontece no modo de inclinação, vamos começar a "
+"desenhar. (não se esqueça das vistas superiores!)"
 
 #: ../../general_concepts/projection/perspective.rst:80
 msgid "Which should get you something like this:"
-msgstr ""
+msgstr "O que fará com que obtenha algo deste tipo:"
 
 #: ../../general_concepts/projection/perspective.rst:85
 msgid "But again, the regular method is actually a bit easier..."
-msgstr ""
+msgstr "Mas, mais uma vez, o método normal é de facto um pouco mais simples..."
 
 #: ../../general_concepts/projection/perspective.rst:87
 msgid ""
 "But now you might be thinking: gee, this is a lot of work… Can’t we make it "
 "easier with the computer somehow?"
 msgstr ""
+"Mas agora poderá pensar: ena, isto é muito trabalho… Não conseguimos "
+"simplificar isto de alguma forma com o computador?"
 
 #: ../../general_concepts/projection/perspective.rst:89
 msgid ""
 "Uhm, yes, that’s more or less why people spent time on developing 3d "
 "graphics technology:"
 msgstr ""
+"Hum, sim, isto é mais ou menos porque é que as pessoas gastam tempo a "
+"desenvolver a tecnologia de gráficos 3D:"
 
 #: ../../general_concepts/projection/perspective.rst:97
 msgid "(above sculpted in blender using our orthographic reference)"
-msgstr ""
+msgstr "(esculpido acima no Blender com a nossa referência ortográfica)"
 
 #: ../../general_concepts/projection/perspective.rst:99
 msgid ""
 "So let us look at what this technique can be practically used for in the "
 "next part..."
 msgstr ""
+"Vejamos então agora como é que esta técnica pode ser usada de forma prática "
+"para a parte seguinte..."

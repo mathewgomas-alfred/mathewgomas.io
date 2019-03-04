@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 03:14+0100\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
 "PO-Revision-Date: 2019-02-19 09:58+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -191,8 +191,8 @@ msgid ""
 "space, you can change only the image color space in :menuselection:`Image --"
 "> Properties` which will leave the layers alone. But if you want to change "
 "the color space of the file including all the layers you can do it by going "
-"to Image > Convert Image Color Space this will convert all the layers Color "
-"space as well."
+"to :menuselection:`Image --> Convert Image Color Space` this will convert "
+"all the layers Color space as well."
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:116
@@ -413,9 +413,8 @@ msgstr ""
 msgid ""
 "When Krita creates or opens a file, it has a copy of the file in memory, "
 "that it edits. This is part of the way how computers work: They make a copy "
-"of their file in the ram. Thus, when saving, Krita takes it's copy and "
-"copies it over the existing file. There's a couple of tricks you can do with "
-"saving."
+"of their file in the ram. Thus, when saving, Krita takes its copy and copies "
+"it over the existing file. There's a couple of tricks you can do with saving."
 msgstr ""
 
 #: ../../user_manual/working_with_images.rst:252
@@ -491,15 +490,15 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:275
 msgid ""
-"Copies the last saved version of your file to a back-up file and saves your "
-"document under the original name."
-msgstr ""
+"Copies and renames the last saved version of your file to a back-up file and "
+"saves your document under the original name."
+msgstr "Copia e muda o nome da última versão gravada do seu ficheiro numa cópia de segurança e grava o seu documento com o nome original."
 
-#: ../../user_manual/working_with_images.rst:277
+#: ../../user_manual/working_with_images.rst:276
 msgid "Save Incremental Backup."
 msgstr ""
 
-#: ../../user_manual/working_with_images.rst:280
+#: ../../user_manual/working_with_images.rst:279
 msgid ""
 "Since Krita's file format is compressed data file, in case of a corrupt or "
 "broken file you can open it with archive managers and extract the contents "

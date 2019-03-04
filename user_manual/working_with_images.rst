@@ -110,7 +110,7 @@ Image color space vs layer color space vs conversion.
 Because there's a difference between image color space and layer color
 space, you can change only the image color space in :menuselection:`Image --> Properties` which will leave the layers alone. But if you want to change the color
 space of the file including all the layers you can do it by going to
-Image > Convert Image Color Space this will convert all the layers Color space as well.
+:menuselection:`Image --> Convert Image Color Space` this will convert all the layers Color space as well.
 
 Author and Description
 ----------------------
@@ -184,7 +184,7 @@ rid of invisible data.
 Resizing the canvas
 -------------------
 
-You can also resize the canvas via :menuselection:`Image --> Resize Canvas`(or :kbd:`Ctrl + Alt +
+You can also resize the canvas via :menuselection:`Image --> Resize Canvas` (or :kbd:`Ctrl + Alt +
 C`). The dialog box is shown below.
 
 .. image:: /images/en/Resize_Canvas.png
@@ -244,7 +244,7 @@ Saving, Exporting and Opening Files
 
 When Krita creates or opens a file, it has a copy of the file in memory,
 that it edits. This is part of the way how computers work: They make a
-copy of their file in the ram. Thus, when saving, Krita takes it's copy
+copy of their file in the ram. Thus, when saving, Krita takes its copy
 and copies it over the existing file. There's a couple of tricks you can
 do with saving.
 
@@ -271,7 +271,7 @@ Create Copy from Current Image
 Save Incremental Version
     Saves the current image as 'filename'\_XXX.kra and switches the
     current document to it.
-Save Incremental Backup.
+Save Incremental Backup
     Copies and renames the last saved version of your file to a back-up file and saves your document under the original name.
     
 

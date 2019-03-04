@@ -79,7 +79,7 @@ Spikes
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_spikes.png
 
 Density
-    This decreases how much area the brush-covers over it's size: It makes it noisy. In the example below, the brush is set with density 0%, 50% and 100% respectively.
+    This decreases how much area the brush-covers over its size: It makes it noisy. In the example below, the brush is set with density 0%, 50% and 100% respectively.
     
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_density.png
 

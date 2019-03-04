@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-01 17:44+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,30 +16,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: images image en KritaDigitalColorMixerDocker\n"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:1
 msgid "Overview of the digital color mixer docker."
-msgstr ""
+msgstr "Introdução à área de mistura digital de cores."
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:16
 msgid "Digital Color Mixer"
-msgstr ""
+msgstr "Mistura Digital de Cores"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:19
 msgid ".. image:: images/en/Krita_Digital_Color_Mixer_Docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Digital_Color_Mixer_Docker.png"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:20
 msgid "This docker allows you to do simple mathematical color mixing."
 msgstr ""
+"Esta área permite-lhe efectuar algumas misturas de cores com operações "
+"matemáticas.."
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:22
 msgid "It works as follows:"
-msgstr ""
+msgstr "Funciona da seguinte forma:"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:24
 msgid "You have on the left side the current color."
-msgstr ""
+msgstr "Tem do lado esquerdo a cor actual."
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:26
 msgid ""
@@ -52,3 +55,11 @@ msgid ""
 "Finally, the result color. Clicking this will change your current color to "
 "the result color."
 msgstr ""
+"A seguir a ela encontram-se seis colunas. Cada uma dessas colunas consiste "
+"em três linhas: A linha inferior é a cor com que está a misturar a cor "
+"actual. Se carregar neste botão, poderá escolher uma cor diferente com uma "
+"paleta e a mini-roda de cores. A barra acima desta cor de mistura representa "
+"as proporções da cor de mistura e da cor actual. Quanto mais elevada a "
+"barra, será usada uma menor parte da cor de mistura. Finalmente, a cor "
+"resultante. Se carregar nesta, irá mudar a sua cor actual para a cor "
+"resultante."

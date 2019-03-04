@@ -33,9 +33,9 @@ You can change the size and ratio by click-dragging the lower node. There's no w
 Tool Options
 ------------
 
-There's several tool options with this tool, for fine-tuning:
+There are several tool options with this tool, for fine-tuning:
 
-First there's the Pattern options.
+First there are the Pattern options.
 
 Repeat:
     This can be set to

@@ -14,9 +14,9 @@
 Touch Docker
 ============
 
-The Touch Docker is a QML docker with several convenient actions on it. It's purpose it to aid those who use Krita on a touch-enabled screen by providing bigger gui elements.
+The Touch Docker is a QML docker with several convenient actions on it. Its purpose is to aid those who use Krita on a touch-enabled screen by providing bigger gui elements.
 
-It's actions are... 
+Its actions are... 
 
 +------------------------------+-----------------------+----------------------+
 |         Open File            |       Save File       |        Save As       |

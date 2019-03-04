@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-23 03:24+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-03 00:03+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,14 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Krita\n"
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:1
 msgid "How to use transformation masks in Krita."
-msgstr ""
+msgstr "Como usar as máscaras de transformação no Krita."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:16
 msgid "Transformation Masks"
-msgstr ""
+msgstr "Máscaras de Transformação"
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:18
 msgid ""
@@ -32,40 +33,53 @@ msgid ""
 "without applying the transform directly to the paint layer and making it "
 "permanent."
 msgstr ""
+"Em vez de trabalhar com um pincel para afectar a máscara, as máscaras de "
+"transformação permitem-lhe transformar (mover, rodar, inclinar, aumentar a "
+"escala ou a perspectiva) uma camada sem aplicar a transformação directamente "
+"na camada de pintura e a tornar permanente."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:20
 msgid ""
 "In the same way that Filter and Transparency Masks can be attached to a "
 "Paint layer and are non-destructive, so too can the Transformation Mask."
 msgstr ""
+"Da mesma forma que as Máscaras de Filtragem e de Transparência podem ser "
+"associadas a uma camada de Pintura e são não-destrutivas, assim também "
+"funciona a Máscara de Transformação."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:23
 msgid "Adding a Transformation Mask"
-msgstr ""
+msgstr "Adicionar uma Máscara de Transformação"
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:25
 msgid "First add a transform mask to an existing layer."
 msgstr ""
+"Primeiro adicione uma máscara de transformação a uma máscara existente."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:26
 msgid "Select the transformation tool."
-msgstr ""
+msgstr "Seleccione a máscara de transformação."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:27
 msgid ""
 "Select any of the transform modes in the Tools Options dock and, with the "
 "transform mask selected, apply them on the layer."
 msgstr ""
+"Seleccione qualquer um dos modos de transformação na área das Opções da "
+"Ferramenta e, com a máscara de Transformação seleccionada, aplique-os na "
+"camada."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:28
 msgid "Hit apply."
-msgstr ""
+msgstr "Carregue em Aplicar."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:29
 msgid ""
 "Toggle the transform visibility to see the difference between the original "
 "and the transform applied."
 msgstr ""
+"Active/desactive a visibilidade da transformação para ver a diferença entre "
+"o original e a transformação aplicada."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:33
 msgid ""
@@ -74,6 +88,11 @@ msgid ""
 "Cage and Liquify take up much more processing power, and to not to waste "
 "that, Krita only updates those every three seconds."
 msgstr ""
+"As transformações por afinidade, como o Movimento, a Rotação, a Escala e a "
+"Perspectiva são actualizadas instantaneamente assim que o original for "
+"actualizado. As outras transformações como a Fuga, a Gaiola e a "
+"Liquidificação consomem muito mais poder de processamento e, para não "
+"desperdiçar isso, o Krita só actualiza os mesmos a cada três segundos."
 
 #: ../../reference_manual/layers_and_masks/transformation_masks.rst:35
 msgid ""
@@ -82,3 +101,7 @@ msgid ""
 "transform, regardless of what transform you had selected. If you switch "
 "transform modes, the transformation will be undone."
 msgstr ""
+"Para editar uma transformação, seleccione a máscara de transformação e tente "
+"usar a ferramenta de transformação na camada. O modo de transformação será o "
+"mesmo que o da transformação guardada, independentemente da transformação "
+"que seleccionou. Se mudar de modos de transformação, a mesma será anulada."

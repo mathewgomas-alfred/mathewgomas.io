@@ -67,7 +67,7 @@ What's worse, Printers print on the basis of using a white point of D50, the col
    :align: center
 
 
-So, by eye-balling your t-shirt's color during the evening, you took it's red color as transformed by the yellowish light. Had you made your observation in diffuse sunlight of an overcast (which is also roughly D65), or made it in direct sunlight light and painted your picture with a profile set to D50, the color would have been much closer, and thus your design would not be as yellowish.
+So, by eye-balling your t-shirt's color during the evening, you took its red color as transformed by the yellowish light. Had you made your observation in diffuse sunlight of an overcast (which is also roughly D65), or made it in direct sunlight light and painted your picture with a profile set to D50, the color would have been much closer, and thus your design would not be as yellowish.
 
 
 .. figure:: /images/en/color_category/White_point_mixup_ex1_03.png

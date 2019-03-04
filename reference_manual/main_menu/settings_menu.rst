@@ -33,7 +33,7 @@ Show Dockers
 Dockers
 -------
 
-Krita subdivides the access of many of it's features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brushkit.  
+Krita subdivides the access of many of its features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brushkit.  
 
 Learning to use dockers effectively is a key concept to maximizing your time using Krita.  
 
@@ -49,7 +49,7 @@ Krita provides a number of color-themed interfaces or "looks".  The current set 
 * Bright
 * Neutral
 
-There is no easy way to create and share themes. The color themes are defined in the Share > Color Schemes folder where Krita is downloaded.
+There is no easy way to create and share themes. The color themes are defined in the :menuselection:`Share --> Color Schemes` folder where Krita is downloaded.
 
 Configure Shortcuts
 -------------------

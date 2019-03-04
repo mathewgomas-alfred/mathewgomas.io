@@ -22,7 +22,7 @@ Introduction to Krita coming from Photoshop
 Introduction
 ------------
 
-This document gives an introduction to Krita for users who have been using PhotoShop. The intention is to make you productive in Krita as fast as possible and ease the conversion of old habits into new ones.
+This document gives an introduction to Krita for users who have been using Photoshop. The intention is to make you productive in Krita as fast as possible and ease the conversion of old habits into new ones.
 This introduction is written with Krita version 2.9 and Photoshop CS2 and CS3 in mind. But even though things may change in the future, the basics will most likely remain the same.
 The first thing to remember is that Krita is a 2D paint application while Photoshop (PS) is an image manipulation program. This means that PS has more features than Krita in general, but Krita has the tools that are relevant to digital painting. When you get used to Krita, you will find that Krita has some features that are not part of PS.
 
@@ -86,15 +86,17 @@ You can switch to those sub modes by pressing:
 * :kbd:`S` to subtract from the selection (the other one popular)
 
 Or hold:
+
 * :kbd:`Alt` to subtract from the selection
 * :kbd:`Shift` to add to the selection
 * :kbd:`Alt + Shift` to intersect
 
 .. note::
 
-    You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press :kbd:`T` or select the :guilabel:`Move Tool`.
+    You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press :kbd:`T` or select the :guilabel:`Move Tool`).
 
 Some other tips:
+
 * If you want to convert a layer to a selection (to select the visible pixels), right-click on the layer docker, and choose :guilabel:`Select Opaque`. 
 * If you use a polygonal selection tool, or a selection which needs to be ‘closed’, you will be able to do it or by using a double-click, or by using a :kbd:`Shift` - |mouseleft| .
 

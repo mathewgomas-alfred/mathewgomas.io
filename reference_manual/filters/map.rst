@@ -22,7 +22,7 @@ Filters that are signified by them mapping the input image.
 Small Tiles
 -----------
 
-Tiles the input image, using it's own layer as output.
+Tiles the input image, using its own layer as output.
 
 .. index:: Height Map, Bumpmap, Normal Map
 

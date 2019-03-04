@@ -31,7 +31,7 @@ You can access Window Layouts from the workspace dropdown in the toolbar.
 Primary Workspace Follows Focus
     This treats the workspace in the first window as the 'primary' workspace, and when you switch focus, it will switch the secondary windows to that primary workspace. This is useful when the secondary workspace is a very sparse workspace with few dockers, and the primary is one with a lot of different dockers.
 Show Active Image In All Windows
-    This will synchronise the currently viewed image in all windows. Without it, different windows can open seperate views for an image via :menuselection:`Window --> New View --> document.kra`.
+    This will synchronise the currently viewed image in all windows. Without it, different windows can open separate views for an image via :menuselection:`Window --> New View --> document.kra`.
 
 Sessions
 --------

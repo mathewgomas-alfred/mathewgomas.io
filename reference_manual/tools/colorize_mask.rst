@@ -74,7 +74,7 @@ To see the final result, disable :guilabel:`Edit Key Strokes` or toggle the seco
 
 If you want to edit the strokes again, re-enable :guilabel:`Edit Key Strokes`.
 
-Now, the colorize mask, being a mask, can also be added to a group of line art layers. It will then use the composition of the whole group as the line art. This is perfect for our background which has two separate line art layers. It also means that the colorize mask will be disabled when added to a group with pass-through enabled, because those have no final composition. You can recognise a disabled colorize mask because it's name is stricken through.
+Now, the colorize mask, being a mask, can also be added to a group of line art layers. It will then use the composition of the whole group as the line art. This is perfect for our background which has two separate line art layers. It also means that the colorize mask will be disabled when added to a group with pass-through enabled, because those have no final composition. You can recognise a disabled colorize mask because its name is stricken through.
 
 To add a colorize mask to a group, select the group and |mouseleft| the canvas with the Colorize Mask editing tool, or |mouseright| the layer to :menuselection:`Add --> Colorize Mask`.
 
@@ -129,7 +129,7 @@ Show output
 Limit to layer bounds
     Limit the colorize mask to the combined layer bounds of the strokes and the line art it is filling. This can speed up the use of the mask on complicated compositions, such as comic pages.
 Edge detection
-    Activate this for line art with large solid areas, for example shadows on an object. For the best use, set the value to the thinnest lines on the image. In the imag ebelow, note how edge detection affects the big black areas:
+    Activate this for line art with large solid areas, for example shadows on an object. For the best use, set the value to the thinnest lines on the image. In the image below, note how edge detection affects the big black areas:
 
     .. figure:: /images/en/Krita_4_0_colorize_mask_edge_detection.png
        :width: 800

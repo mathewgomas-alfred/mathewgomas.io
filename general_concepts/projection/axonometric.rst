@@ -48,14 +48,14 @@ Alright, so, let's make an isometric out of our boy then.
 
 We make a new document, and add a vector layer.
 
-On the vector layer, we select the straight line tool, start a line and then hold 'shift' to make it snap to angles. This'll allow us to make a 30° setup like above:
+On the vector layer, we select the straight line tool, start a line and then hold :kbd:`Shift` to make it snap to angles. This'll allow us to make a 30° setup like above:
 
 .. image:: /images/en/category_projection/projection_image_15.png
    :align: center
 
-We then import some of the frames from the animation via <span class="menuchoice">layers --> import/export --> import layer</span>.
+We then import some of the frames from the animation via :menuselection:`Layers --> Import/Export --> Import layer`.
 
-Then crop it by setting the crop tool to 'layer', and use :menuselection:`filters --> colors --> color to alpha`
+Then crop it by setting the crop tool to :guilabel:`Layer`, and use :menuselection:`Filters --> Colors --> Color to alpha`
  to remove any background. I also set the layers to 50% opacity. We then align the vectors to them:
 
 .. image:: /images/en/category_projection/projection_image_16.png 

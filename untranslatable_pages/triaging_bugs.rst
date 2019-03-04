@@ -180,7 +180,7 @@ Often, the user will tell you that their tablet will work perfectly with another
 
 .. admonition:: Tell the user:
 
-    Windows tablet drivers often have special code for different applications. Whether an application works or not depends on whether the programmers have tested their driver with an application or not. Tablet issues are almost always caused by the drivers being broken.
+    Windows tablet drivers often have a special code for different applications. Whether an application works or not depends on whether the programmers have tested their driver with an application or not. Tablet issues are almost always caused by the drivers being broken.
 
 Krita lags
 ~~~~~~~~~~
@@ -200,4 +200,4 @@ The user probably created, accidentally, a tiny selection, and saved that with t
 
 .. admonition:: Ask the user:
 
-     Do you have a selection saved with that document. Use select/deselect on your image and check whether you can paint again. If not, please attach the .kra document to this bug report or make it available.
+     Do you have a selection saved with that document? Use select/deselect on your image and check whether you can paint again. If not, please attach the .kra document to this bug report or make it available.

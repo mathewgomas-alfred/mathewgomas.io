@@ -20,7 +20,7 @@ LUT Management
 The Look Up Table (LUT) Management docker controls the high dynamic range (HDR) painting functionality.
 
 Use Open Color IO
-    Use Open Color IO instead of Krita's internal color management. Open Color IO is a color management library. It is sometimes referred to as OCIO. This is required as Krita uses OCIO for it's HDR functionality.
+    Use Open Color IO instead of Krita's internal color management. Open Color IO is a color management library. It is sometimes referred to as OCIO. This is required as Krita uses OCIO for its HDR functionality.
 Color Engine
     Choose the engine.
 Configuration

@@ -47,7 +47,7 @@ Anti-aliasing
 Fuzziness
     This controls whether or not the contiguous selection sees another color as a border.
 Grow/Shrink selection.
-    This value extends/contracts the shape beyond it's initial size.
+    This value extends/contracts the shape beyond its initial size.
 Feathering
     This value will add a soft border to the selection-shape.
 Limit to Current Layer

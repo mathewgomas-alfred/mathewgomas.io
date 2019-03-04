@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___tools___contiguous_select\n"
+"Project-Id-Version: docs_krita_org_reference_manual___tools___contiguous_selec"
+"t\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 16:04+0200\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"PO-Revision-Date: 2019-03-03 20:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -71,14 +71,18 @@ msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
 msgstr ""
+":kbd:`R` встановлює параметри позначення у режим «замінити»; це типовий режим."
 
 #: ../../reference_manual/tools/contiguous_select.rst:26
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
 msgstr ""
+":kbd:`A` встановлює для позначення режим «додавання» у параметрах інструмента."
 
 #: ../../reference_manual/tools/contiguous_select.rst:27
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
 msgstr ""
+":kbd:`S` встановлює для позначення режим «віднімання» у параметрах"
+" інструмента."
 
 #: ../../reference_manual/tools/contiguous_select.rst:28
 msgid ""
@@ -90,16 +94,21 @@ msgstr ""
 #: ../../reference_manual/tools/contiguous_select.rst:29
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
 msgstr ""
+":kbd:`Alt` + |mouseleft| встановлює для наступного позначення режим"
+" «віднімання»."
 
 #: ../../reference_manual/tools/contiguous_select.rst:30
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| встановлює для наступного позначення режим «заміна»."
 
 #: ../../reference_manual/tools/contiguous_select.rst:31
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
 msgstr ""
+":kbd:`Shift + Alt +` |mouseleft| встановлює для наступного позначення режим"
+" «перетин»."
 
 #: ../../reference_manual/tools/contiguous_select.rst:35
 msgid ""
@@ -136,8 +145,10 @@ msgid "Grow/Shrink selection."
 msgstr "Розширити/Звузити позначене"
 
 #: ../../reference_manual/tools/contiguous_select.rst:45
-msgid "This value extends/contracts the shape beyond it's initial size."
+msgid "This value extends/contracts the shape beyond its initial size."
 msgstr ""
+"За допомогою цього значення можна розтягнути або стиснути форму, порівняно із"
+" її початковими розмірами."
 
 #: ../../reference_manual/tools/contiguous_select.rst:46
 msgid "Feathering"

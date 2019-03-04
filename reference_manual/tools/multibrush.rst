@@ -37,4 +37,4 @@ Translate
 Snowflake
     This works as a mirrored symmetry, but is a bit slower than symmetry+toolbar mirror mode.
 
-The assistant and smoothing options work the same as in the :ref:`freehand_brush_tool`, though only on the real brush and not it's copies.
+The assistant and smoothing options work the same as in the :ref:`freehand_brush_tool`, though only on the real brush and not its copies.

@@ -43,6 +43,6 @@ Storage mode
     Link to external file.
         Only link to the reference image, krita will open it from the disk everytime it loads this file. This is recommended for big files, or files that change a lot.
         
-You can move around reference images by selecting them with |mouseleft|, and dragging them. You can rotate reference images by holding the cursor close to the outside of the corners till the rotate cursor appears, while tilting is done by holding the cursor close to the outside of the middle nodes. Resizing can be done by dragging the nodes. You can delete a single reference image by clicking it and pressing 'del'. You can select multiple reference images with shift and perform all of these actions.
+You can move around reference images by selecting them with |mouseleft|, and dragging them. You can rotate reference images by holding the cursor close to the outside of the corners till the rotate cursor appears, while tilting is done by holding the cursor close to the outside of the middle nodes. Resizing can be done by dragging the nodes. You can delete a single reference image by clicking it and pressing :kbd:`Del`. You can select multiple reference images with :kbd:`Shift` and perform all of these actions.
 
 To hide all reference images temporarily use :menuselection:`View --> Show Reference Images`.

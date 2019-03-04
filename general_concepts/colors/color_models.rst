@@ -69,7 +69,7 @@ Lightness
 Intensity
     Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter than blue (0,0,1). Ranges from 0 to 100.
 Luma (Y')
-    Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine it's lightness. Ranges from 0 to 100. Luma is well known for being used in film-colour spaces.
+    Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine its lightness. Ranges from 0 to 100. Luma is well known for being used in film-colour spaces.
 
 .. _model_gray:
 

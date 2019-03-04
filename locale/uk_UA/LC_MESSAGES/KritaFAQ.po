@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_KritaFAQ\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 19:07+0200\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"PO-Revision-Date: 2019-03-03 08:23+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -30,6 +30,9 @@ msgid ""
 "assume that you are using the latest version of Krita. Please verify that to "
 "make sure."
 msgstr ""
+"На цій сторінці зібрано питання щодо типових проблем, які виникають у "
+"користувачів Krita. Зауважте, що у відповідях ми припускаємо, що ви "
+"користуєтеся найсвіжішою версією Krita. Будь ласка, перевірте, чи це так."
 
 #: ../../KritaFAQ.rst:31
 msgid "Contents"
@@ -75,16 +78,19 @@ msgid ""
 msgstr ""
 
 #: ../../KritaFAQ.rst:52
-msgid "Settings --> Switch Application Language. A small window will appear."
+msgid ""
+":menuselection:`Settings --> Switch Application Language`. A small window "
+"will appear."
 msgstr ""
 
 #: ../../KritaFAQ.rst:53
-msgid "Click Primary language and select your language."
+msgid "Click :guilabel:`Primary language` and select your language."
 msgstr ""
 
 #: ../../KritaFAQ.rst:54
-msgid "Click OK to close the window."
-msgstr "Натисніть «Гаразд», щоб закрити вікно."
+#| msgid "Click OK to close the window."
+msgid "Click :guilabel:`OK` to close the window."
+msgstr "Натисніть :guilabel:`Гаразд`, щоб закрити вікно."
 
 #: ../../KritaFAQ.rst:55
 msgid "Restart krita and it will be displayed in your selected language!"
@@ -174,7 +180,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:94
 msgid "Resetting Krita configuration"
-msgstr ""
+msgstr "Відновлення початкових налаштувань Krita"
 
 #: ../../KritaFAQ.rst:96
 msgid "You can reset the Krita configuration in following way:"
@@ -207,10 +213,13 @@ msgid ""
 ":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{RANDOM STRING}\\\\LocalCache"
 "\\\\Local\\\\kritarc`"
 msgstr ""
+":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{ВИПАДКОВИЙ РЯДОК}\\"
+"\\LocalCache\\\\Local\\\\kritarc`"
 
 #: ../../KritaFAQ.rst:117
-msgid "The random string depends on your installation/"
-msgstr ""
+#| msgid "The random string depends on your installation/"
+msgid "The random string depends on your installation."
+msgstr "Випадковий рядок залежить від параметрів встановленої системи."
 
 #: ../../KritaFAQ.rst:119
 msgid ""
@@ -224,15 +233,15 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:122
 msgid "Where are my resources stored?"
-msgstr ""
+msgstr "Де зберігаються дані ваших ресурсів?"
 
 #: ../../KritaFAQ.rst:125 ../../KritaFAQ.rst:372
 msgid ":file:`$HOME/.local/share/krita/`"
-msgstr ""
+msgstr ":file:`$HOME/.local/share/krita/`"
 
 #: ../../KritaFAQ.rst:127
 msgid ":file:`%APPDATA%\\\\krita\\\\`"
-msgstr ""
+msgstr ":file:`%APPDATA%\\\\krita\\\\`"
 
 #: ../../KritaFAQ.rst:129
 msgid "Mac OS X"
@@ -240,7 +249,7 @@ msgstr "Mac OS X"
 
 #: ../../KritaFAQ.rst:129 ../../KritaFAQ.rst:376
 msgid ":file:`~/Library/Application Support/Krita/`"
-msgstr ""
+msgstr ":file:`~/Library/Application Support/Krita/`"
 
 #: ../../KritaFAQ.rst:132
 msgid ""
@@ -253,15 +262,18 @@ msgid ""
 ":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{RANDOM STRING}\\\\LocalCache"
 "\\Roaming\\krita`"
 msgstr ""
+":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{ВИПАДКОВИЙ РЯДОК}\\"
+"\\LocalCache\\Roaming\\krita`"
 
 #: ../../KritaFAQ.rst:135
 msgid ""
 "Krita tells me it can't find some files and then closes, what should I do?"
 msgstr ""
+"Krita повідомляє, що не знайдено якихось файлів і завершує роботу. Що робити?"
 
 #: ../../KritaFAQ.rst:137
 msgid "Causes for this could be the following:"
-msgstr ""
+msgstr "Причин може бути декілька:"
 
 #: ../../KritaFAQ.rst:139
 msgid ""
@@ -295,7 +307,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:145
 msgid "What Graphics Cards does Krita support?"
-msgstr ""
+msgstr "Підтримку яких графічних карток передбачено у Krita?"
 
 #: ../../KritaFAQ.rst:147
 msgid ""
@@ -321,7 +333,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:153
 msgid "AMD/ATI"
-msgstr ""
+msgstr "AMD/ATI"
 
 #: ../../KritaFAQ.rst:154
 msgid ""
@@ -331,7 +343,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:156
 msgid "Nvidia"
-msgstr ""
+msgstr "Nvidia"
 
 #: ../../KritaFAQ.rst:156
 msgid ""
@@ -389,9 +401,9 @@ msgid ""
 "making the checkerboard visible. You get the same effect in, say, gimp, if "
 "you create new image, add an alpha channel and then use the eraser tool. "
 "Most Krita users will actually start a sketch in Krita by adding a new blank "
-"layer first before doing anything else. (the INSert key is a useful shortcut "
-"here). That doesn’t use extra memory, since a blank layer or a layer with a "
-"default color just takes one pixel worth of memory."
+"layer first before doing anything else. (The :kbd:`Ins` key is a useful "
+"shortcut here). That doesn’t use extra memory, since a blank layer or a "
+"layer with a default color just takes one pixel worth of memory."
 msgstr ""
 
 #: ../../KritaFAQ.rst:178
@@ -415,25 +427,25 @@ msgid ""
 msgstr ""
 
 #: ../../KritaFAQ.rst:187
-msgid "Select Start  > Settings ."
+msgid "Select :menuselection:`Start --> Settings`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:188
-msgid "Choose Update & security  > Windows Defender."
+msgid "Choose :menuselection:`Update & security --> Windows Defender`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:189
-msgid "Select Open Windows Defender Security Center."
+msgid "Select :guilabel:`Open Windows Defender Security Center`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:190
 msgid ""
-"Select Virus & threat protection, and then choose Virus & threat protection "
-"settings."
+"Select :guilabel:`Virus & threat protection`, and then choose :guilabel:"
+"`Virus & threat protection settings`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:191
-msgid "Under Controlled folder access, turn it on or off."
+msgid "Under :guilabel:`Controlled folder access`, turn it on or off."
 msgstr ""
 
 #: ../../KritaFAQ.rst:193
@@ -443,6 +455,10 @@ msgid ""
 "exploit-guard/customize-controlled-folders-exploit-guard#allow-specific-apps-"
 "to-make-changes-to-controlled-folders>`_."
 msgstr ""
+"Крім того, ви можете додати Krita до «білого» списку за допомогою `цих "
+"настанов <https://docs.microsoft.com/en-us/windows/security/threat-"
+"protection/windows-defender-exploit-guard/customize-controlled-folders-"
+"exploit-guard#allow-specific-apps-to-make-changes-to-controlled-folders>`_."
 
 #: ../../KritaFAQ.rst:196
 msgid "Can krita work with 8 bit (indexed) images?"
@@ -462,7 +478,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:206
 msgid ":ref:`Dr. Mingw debugger <dr_minw>`"
-msgstr ""
+msgstr ":ref:`Засіб діагностики Dr. Mingw <dr_minw>`"
 
 #: ../../KritaFAQ.rst:208
 msgid ""
@@ -482,7 +498,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:213
 msgid "Where can I find older versions of Krita?"
-msgstr ""
+msgstr "Де знайти старі версії Krita?"
 
 #: ../../KritaFAQ.rst:215
 msgid ""
@@ -491,7 +507,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:217
 msgid "`Very old builds <http://download.kde.org/Attic/krita>`_"
-msgstr ""
+msgstr "`Дуже давні збірки <http://download.kde.org/Attic/krita>`_"
 
 #: ../../KritaFAQ.rst:220
 msgid "On Windows, the Krita User Interface is too small on my HiDPI screen"
@@ -506,6 +522,7 @@ msgstr ""
 #: ../../KritaFAQ.rst:224
 msgid "On the menu, select :menuselection:`Settings --> Configure Krita`"
 msgstr ""
+"У меню виберіть пункт :menuselection:`Параметри --> Налаштувати Krita`."
 
 #: ../../KritaFAQ.rst:225
 msgid "On General page, switch to :guilabel:`Window` tab."
@@ -517,7 +534,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:227
 msgid "Restart Krita"
-msgstr ""
+msgstr "Перезапустіть Krita."
 
 #: ../../KritaFAQ.rst:229
 msgid ""
@@ -527,11 +544,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:233
 msgid "Tablets"
-msgstr ""
+msgstr "Планшети"
 
 #: ../../KritaFAQ.rst:236
 msgid "What tablets does Krita support?"
-msgstr ""
+msgstr "Підтримку яких планшетів передбачено у Krita?"
 
 #: ../../KritaFAQ.rst:238
 msgid ""
@@ -571,7 +588,7 @@ msgstr "``lsmod``"
 
 #: ../../KritaFAQ.rst:256
 msgid "``xinput``"
-msgstr ""
+msgstr "``xinput``"
 
 #: ../../KritaFAQ.rst:257
 msgid "``xinput list-props`` (id can be fetched from the item 2)"
@@ -643,11 +660,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:280
 msgid "Start :program:`DebugView`"
-msgstr ""
+msgstr "Запустіть :program:`DebugView`"
 
 #: ../../KritaFAQ.rst:281
 msgid "Start :program:`Krita`"
-msgstr ""
+msgstr "Запустіть :program:`Krita`"
 
 #: ../../KritaFAQ.rst:284
 msgid ""
@@ -689,8 +706,9 @@ msgid ""
 msgstr ""
 
 #: ../../KritaFAQ.rst:299
-msgid "Press Shift key and hold it."
-msgstr ""
+#| msgid "Press Shift key and hold it."
+msgid "Press :kbd:`Shift` key and hold it."
+msgstr "Натисніть і утримуйте клавішу :kbd:`Shift`."
 
 #: ../../KritaFAQ.rst:300
 msgid "Touch a tablet with your stylus so Krita would recognize it."
@@ -737,7 +755,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:316
 msgid "Microsoft Surface Pro and N-Trig"
-msgstr ""
+msgstr "Microsoft Surface Pro та N-Trig"
 
 #: ../../KritaFAQ.rst:318
 msgid ""
@@ -749,7 +767,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:321
 msgid "Tablet Pro and the Surface Pro"
-msgstr ""
+msgstr "Tablet Pro та Surface Pro"
 
 #: ../../KritaFAQ.rst:323
 msgid ""
@@ -761,11 +779,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:325
 msgid "http://tabletpro.net/"
-msgstr ""
+msgstr "http://tabletpro.net/"
 
 #: ../../KritaFAQ.rst:327
 msgid "See http://www.youtube.com/watch?v=WKXZgYqC3tI for instructions."
-msgstr ""
+msgstr "Настанови можна знайти тут: http://www.youtube.com/watch?v=WKXZgYqC3tI"
 
 #: ../../KritaFAQ.rst:330
 msgid ""
@@ -782,7 +800,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:334
 msgid "https://github.com/saveenr/Fix_My_Pen/releases"
-msgstr ""
+msgstr "https://github.com/saveenr/Fix_My_Pen/releases"
 
 #: ../../KritaFAQ.rst:337
 msgid "Touch doesn't seem to work on Windows"
@@ -833,7 +851,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:359
 msgid "Krita can't get maximized"
-msgstr ""
+msgstr "Не вдається максимізувати вікно Krita"
 
 #: ../../KritaFAQ.rst:361
 msgid ""
@@ -860,6 +878,8 @@ msgid ""
 ":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` or :file:`%APPDATA%\\"
 "\\Roaming\\\\krita\\\\`"
 msgstr ""
+":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` або :file:`%APPDATA%\\"
+"\\Roaming\\\\krita\\\\`"
 
 #: ../../KritaFAQ.rst:376
 msgid "OSX"
@@ -903,15 +923,15 @@ msgstr ""
 #: ../../KritaFAQ.rst:396
 msgid ""
 "Yes, but there are limitations. You can load ABR files by using the by using "
-"the Import button in the Predefined brush tab in the brush editor. Since "
-"Adobe hasn’t disclosed the file format specification, we depend on reverse-"
-"engineering to figure out what to load, and currently that’s limited to "
-"basic features."
+"the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
+"brush editor. Since Adobe hasn’t disclosed the file format specification, we "
+"depend on reverse-engineering to figure out what to load, and currently "
+"that’s limited to basic features."
 msgstr ""
 
 #: ../../KritaFAQ.rst:399
 msgid "Krita is slow"
-msgstr ""
+msgstr "Krita працює повільно"
 
 #: ../../KritaFAQ.rst:401
 msgid ""
@@ -963,7 +983,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:418
 msgid "Slow Brushes"
-msgstr ""
+msgstr "Повільні пензлі"
 
 #: ../../KritaFAQ.rst:420
 msgid ""
@@ -1031,7 +1051,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:434
 msgid "Slowdown after a been working for a while"
-msgstr ""
+msgstr "Програма уповільнюється, попрацювавши у звичайному режимі певний час"
 
 #: ../../KritaFAQ.rst:436
 msgid ""
@@ -1068,7 +1088,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:451
 msgid "Who owns Krita?"
-msgstr ""
+msgstr "Хто є власником Krita?"
 
 #: ../../KritaFAQ.rst:453
 msgid ""
@@ -1089,7 +1109,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:461
 msgid "Why is Krita Free?"
-msgstr ""
+msgstr "Чому Krita є вільною програмою?"
 
 #: ../../KritaFAQ.rst:463
 msgid ""
@@ -1101,7 +1121,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:466
 msgid "Can I use Krita commercially?"
-msgstr ""
+msgstr "Чи можу я користуватися Krita з комерційною метою?"
 
 #: ../../KritaFAQ.rst:468
 msgid ""
@@ -1130,7 +1150,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:481
 msgid "Who translates Krita"
-msgstr ""
+msgstr "Хто перекладає Krita?"
 
 #: ../../KritaFAQ.rst:483
 msgid ""
@@ -1148,4 +1168,4 @@ msgstr "Посилання"
 
 #: ../../KritaFAQ.rst:488
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
-msgstr ""
+msgstr "https://answers.launchpad.net/krita-ru/+faqs"

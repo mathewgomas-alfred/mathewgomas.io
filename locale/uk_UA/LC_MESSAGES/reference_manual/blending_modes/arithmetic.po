@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___arithmetic\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___arithme"
+"tic\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 12:46+0200\n"
+"PO-Revision-Date: 2019-03-03 14:38+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:1
 msgid ""
@@ -77,6 +77,9 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608, "
 "1.2235, 0.8980) &rarr; Very Light Yellow(1, 1, 0.8980)"
 msgstr ""
+"Світло-синій(0.1608, 0.6274, 0.8274) + Помаранчевий(1, 0.5961, 0.0706) ="
+" (1.1608, "
+"1.2235, 0.8980) &rarr; Дуже світлий жовтий(1, 1, 0.8980)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:40
 msgid ""
@@ -102,6 +105,10 @@ msgid ""
 "displayed. Therefore, white plus any other color results in white. On the "
 "other hand, black plus any other color results in the added color."
 msgstr ""
+"Якщо результат додавання перевищуватиме 1, буде показано білий колір. Через"
+" це, додавання білого кольору до будь-якого іншого кольору дає білий. З"
+" іншого боку, додавання чорного до будь-якого кольору не змінить значення"
+" цього кольору."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
 msgid ""
@@ -118,16 +125,21 @@ msgstr "Ділення"
 #: ../../reference_manual/blending_modes/arithmetic.rst:61
 msgid "Divides the numerical value from the lower color by the upper color."
 msgstr ""
+"Ділить числове значення для кольору нижчого шару на числове значення для"
+" кольору вищого шару."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:63
 msgid "Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) &rarr; Red(1, 0, 0)"
 msgstr ""
+"Червоний(1, 0, 0) / Сірий(0.5, 0.5, 0.5) = (2, 0, 0) &rarr; Червоний(1, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:65
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4) / Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray "
 "(0.8, 0.8, 0.8)"
 msgstr ""
+"Темно-сірий(0.4, 0.4, 0.4) + Світло-сірий(0.5, 0.5, 0.5) = Ще-світліший-"
+"сірий(0.8, 0.8, 0.8)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:70
 msgid ""
@@ -141,13 +153,16 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
 #: ../../reference_manual/blending_modes/arithmetic.rst:82
 msgid "Left: **Normal**. Right: **Divide**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Ділення**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:72
 msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706) = (0.1608, "
 "1.0525, 11.7195) &rarr; Aqua(0.1608, 1, 1)"
 msgstr ""
+"Світло-синій(0.1608, 0.6274, 0.8274) / Помаранчевий(1, 0.5961, 0.0706) ="
+" (0.1608, "
+"1.0525, 11.7195) &rarr; Аквамарин(0.1608, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
 msgid ""
@@ -173,12 +188,15 @@ msgstr "Зворотне віднімання"
 msgid ""
 "This inverts the lower layer before subtracting it from the upper layer."
 msgstr ""
+"Інвертує колір нижчого шару перед відніманням його від кольору вищого шару."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:91
 msgid ""
 "Lighter Gray(0.5, 0.5, 0.5)_(1_Darker Gray(0.4, 0.4, 0.4)) = (-0.1, -0.1, "
 "-0.1) &rarr; Black(0, 0, 0)"
 msgstr ""
+"Світло-сірий(0.5, 0.5, 0.5)_(1_Темно-сірий(0.4, 0.4, 0.4)) = (-0.1, -0.1, "
+"-0.1) &rarr; Чорний(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:96
 msgid ""
@@ -192,13 +210,16 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
 #: ../../reference_manual/blending_modes/arithmetic.rst:108
 msgid "Left: **Normal**. Right: **Inverse Subtract**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Зворотне віднімання**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:98
 msgid ""
 "Orange(1, 0.5961, 0.0706)_(1_Light Blue(0.1608, 0.6274, 0.8274)) = (0.1608, "
 "0.2235, -0.102) &rarr; Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
+"Помаранчевий(1, 0.5961, 0.0706)_(1_Світло-синій(0.1608, 0.6274, 0.8274)) ="
+" (0.1608, "
+"0.2235, -0.102) &rarr; Темно-зелений(0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
 msgid ""
@@ -225,6 +246,7 @@ msgid ""
 "Multiplies the two colors with each other, but does not go beyond the upper "
 "limit."
 msgstr ""
+"Множить кольори, але не обмежує результат певним значенням верхньої межі."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:117
 msgid ""
@@ -232,6 +254,10 @@ msgid ""
 "and white lineart on top, and sets the layer to 'Multiply', and then draw in "
 "color on a layer beneath. Multiply will all the colour to go through."
 msgstr ""
+"Цим режимом часто користуються для розфарбовування чорно-білої графіки. Для"
+" цього слід розташувати чорно-білу графіку у шарі згори, встановити для шару"
+" режим змішування «Множення», а потім розфарбувати шар під ним. Множення"
+" пропустить усі кольори до остаточного зображення."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:120
 msgid "White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)"
@@ -246,6 +272,8 @@ msgid ""
 "Darker Gray(0.4, 0.4, 0.4) x Lighter Gray(0.5, 0.5, 0.5) = Even Darker Gray "
 "(0.2, 0.2, 0.2)"
 msgstr ""
+"Темно-сірий(0.4, 0.4, 0.4) X Світло-сірий(0.5, 0.5, 0.5) ="
+" Ще-темніший-сірий(0.2, 0.2, 0.2)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:129
 msgid ""
@@ -259,13 +287,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
 #: ../../reference_manual/blending_modes/arithmetic.rst:141
 msgid "Left: **Normal**. Right: **Multiply**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Множення**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:131
 msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) x Orange(1, 0.5961, 0.0706) = "
 "Green(0.1608, 0.3740, 0.0584)"
 msgstr ""
+"Світло-синій(0.1608, 0.6274, 0.8274) x Помаранчевий(1, 0.5961, 0.0706) ="
+" Зелений(0.1608, 0.3740, 0.0584)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
 msgid ""
@@ -304,6 +334,8 @@ msgid ""
 "Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) "
 "&rarr; Black(0, 0, 0)"
 msgstr ""
+"Темно-сірий(0.4, 0.4, 0.4)_Світло-сірий(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1)"
+" &rarr; Чорний(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:159
 msgid ""
@@ -317,13 +349,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
 #: ../../reference_manual/blending_modes/arithmetic.rst:171
 msgid "Left: **Normal**. Right: **Subtract**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Віднімання**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:161
 msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = (-0.8392, "
 "0.0313, 0.7568) &rarr; Blue(0, 0.0313, 0.7568)"
 msgstr ""
+"Світло-синій(0.1608, 0.6274, 0.8274) - Помаранчевий(1, 0.5961, 0.0706) ="
+" (-0.8392, 0.0313, 0.7568) &rarr; Синій(0, 0.0313, 0.7568)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
 msgid ""

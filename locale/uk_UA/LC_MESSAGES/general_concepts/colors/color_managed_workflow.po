@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___colors___color_managed_workflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 03:14+0100\n"
-"PO-Revision-Date: 2019-02-20 19:14+0200\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"PO-Revision-Date: 2019-02-28 22:45+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,14 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ""
@@ -82,6 +74,14 @@ msgid ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -200,6 +200,7 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:75
 msgid "For this purpose, we invented color management."
 msgstr ""
+"Саме для того, щоб уникнути цих проблем, і винайшли керування кольорами."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:78
 msgid "What is colour management?"
@@ -257,12 +258,12 @@ msgid ""
 "with your printer what profile they expect. Many printing houses have their "
 "own device profiles for their printers, or may prefer doing color conversion "
 "themselves. You can read more about colorimeter usage :ref:`here "
-"<profiling_and_callibration>`."
+"<profiling_and_calibration>`."
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:94
 msgid "Device spaces"
-msgstr ""
+msgstr "Простори пристроїв"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:96
 msgid "Working spaces"
@@ -278,7 +279,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:99
 msgid "Aesthetic or Look spaces"
-msgstr ""
+msgstr "Естетичні простори або простори вигляду"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:99
 msgid ""
@@ -376,7 +377,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:127
 msgid "So what does this mean?"
-msgstr ""
+msgstr "Отже, що це все значить?"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:133
 msgid ""
@@ -452,7 +453,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:148
 msgid "Icc profiles"
-msgstr ""
+msgstr "Профілі ICC"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:150
 msgid ""
@@ -475,7 +476,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
 msgid "Matrix Shaper profiles."
-msgstr ""
+msgstr "Профілі Matrix Shaper"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
 msgid ""
@@ -503,7 +504,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:169
 msgid "cLUT profiles"
-msgstr ""
+msgstr "Профілі cLUT"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:171
 msgid ""
@@ -684,11 +685,11 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:237
 msgid "In summary"
-msgstr ""
+msgstr "Підсумок"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:239
 msgid "Krita has two modes of colour management:"
-msgstr ""
+msgstr "У Krita передбачено два режими керування кольорами:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:241
 msgid ""
@@ -716,6 +717,8 @@ msgid ""
 "Set up your screen profiles under :menuselection:`Settings --> Configure "
 "Krita --> Color management`."
 msgstr ""
+"Налаштуйте ваші профілі екрана за допомогою пункту меню :menuselection:"
+"`Параметри --> Налаштувати Krita --> Керування кольорами`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
 msgid ""
@@ -776,7 +779,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:267
 msgid "If you are preparing an image for the web:"
-msgstr ""
+msgstr "Якщо ви готуєте зображення для використання у інтернеті:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:269
 msgid ""
@@ -809,7 +812,7 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:279
 msgid ""
 "In some versions of Firefox, the colours actually look strange: This is a "
-"bug in Firefox, which is because it's `color management system is incomplete "
+"bug in Firefox, which is because its `color management system is incomplete "
 "<http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web."
 "html>`_, save your png, jpg or tiff without an embedded profile to work "
 "around this."
@@ -817,7 +820,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:281
 msgid "If you are preparing for print:"
-msgstr ""
+msgstr "Якщо ви готуєте зображення для друку:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
 msgid ""
@@ -871,7 +874,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:303
 msgid "Example workflows"
-msgstr ""
+msgstr "Приклади робочого процесу"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:305
 msgid ""

@@ -15,7 +15,7 @@ Reporting Bugs
 
 Krita is, together with many other projects, part of the KDE community. Therefore, bugs for Krita are tracked in KDE's bug tracker: `KDE's bug tracker <https://bugs.kde.org>`_. The bug tracker is a tool for Krita's developers to help them manage bugs in the software, prioritize them and plan fixes. It is not a place to get user support!
 
-The bug tracker contains two kinds of reports: bugs and wishes. Bugs are errors in Krita's code that interrupt using Krita. Wishes are feature requests: the reporder thinks some functionality is missing or would be cool to have.
+The bug tracker contains two kinds of reports: bugs and wishes. Bugs are errors in Krita's code that interrupt using Krita. Wishes are feature requests: the reporter thinks some functionality is missing or would be cool to have.
 
 Do not just create a feature request in the bug tracker: follow `Feature Requests <https://krita.org/en/item/ways-to-help-krita-work-on-feature-requests/>`_ to learn how to create a good feature request.
 
@@ -56,7 +56,7 @@ If uncertain, ask on `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or 
 Krita's chat channel is maintained on irc.freenode.net. Developers and users hang out to discuss Krita's development and help people who have questions.
 
 .. important::
-    Most Krita developers live in Europe, and the channel is very quiet when it's night in Europe. You also have to patient: it may take some time for people to notice your question even if they are awake.
+    Most Krita developers live in Europe, and the channel is very quiet when it's night in Europe. You also have to be patient: it may take some time for people to notice your question even if they are awake.
 
 
 .. admonition:: Also ...
@@ -94,7 +94,7 @@ Give all information. That means that you should give information about your ope
 - Hardware information: copy the information from the Help -> System information for Bug Reports window into your report. Note how many displays you have.
 - If you are using a drawing tablet, tell us the brand and type.
 - Tell us what kind of image you were working on: the size, the resolution, the color model and channel depth.
-- If you are reporting a crash, attach a crash log. Follow `this link <https://docs.krita.org/en/reference_manual/dr_minw_debugger.html#dr-minw>`_ to learn how to get a crash log on Windows. On Linux, follow your distributions instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux appimages.
+- If you are reporting a crash, attach a crash log. Follow `this link <https://docs.krita.org/en/reference_manual/dr_minw_debugger.html#dr-minw>`_ to learn how to get a crash log on Windows. On Linux, follow your distribution's instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux appimages.
 
 The problem needs to be clearly stated:
 - what happened,
@@ -105,7 +105,7 @@ Give a concise and short description, then enumerate the steps needed to reprodu
 
 If at all possible, attach your original Krita file (the one that ends in .kra) to the bug report, or if it's too big, add a link for download. If you do that, make sure the file will be there for **years** to come: do not remove it.
 
-If you think it would be useful, you can also attach or link to a video. Note that the Krita developers and bug triagers are extremely busy, and that it takes less time to read a good description and a set of steps to reproduce than it takes to wach a video for clues for what is going on.
+If you think it would be useful, you can also attach or link to a video. Note that the Krita developers and bug triagers are extremely busy, and that it takes less time to read a good description and a set of steps to reproduce than it takes to watch a video for clues for what is going on.
 
 When making a video or a screenshot, include the whole Krita windows, including the titlebar and the statusbar.
 

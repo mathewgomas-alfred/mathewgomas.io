@@ -105,6 +105,7 @@ Overview: Smearing and Dulling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Color Smudge Brush offers 2 modes, accessible from the Smudge Rate section:
+
 * Smearing: This mode mixes colors by smudging ("smearing") the area underneath.
 * Dulling: In his mode, the brush "picks up" the color underneath it, mixes it with its own color, then paints with it. 
 
@@ -118,10 +119,12 @@ To better demonstrate the smudge function, I turned the color rate function off.
 .. image:: /images/en/Krita-tutorial5-I.2.png
 
 Common behaviors:
+
 * Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)
 * Opacity: Below 0.50, there is practically no smudging left: keep opacity over 0.50.
  
 Differences:
+
 * Spacing with Smearing: the lower the spacing, the smoother the effect, so for smearing with a round brush you may prefer a value of 0.05 or less. Spacing affects the length of the smudge trail, but to a much lesser extent. The "strength" of the effect remains more or less the same however. 
 * Spacing with Dulling: the lower the spacing, the stronger the effect: lowering the spacing too much can make the dulling effect too strong (it picks up a color and never lets go of it). The length of the effect is also affected.
 * Both Smearing and Dulling have a "smudge trail", but in the case of Dulling, the brush shape is preserved. Instead the trail determines how fast the color it picked up is dropped off.
@@ -204,11 +207,11 @@ Smudging effects
 
 For simple smudging:
 
-# Pick the Color Smudge Brush. You can use either Smearing or Dulling. 
+* Pick the Color Smudge Brush. You can use either Smearing or Dulling. 
 
-# Turn off Color Rate
+* Turn off Color Rate
 
-# Smudge away
+* Smudge away
 
 .. image:: /images/en/Krita-tutorial5-II.2.png
 
@@ -229,6 +232,7 @@ Textured blending
 ^^^^^^^^^^^^^^^^^
 
 In this case, what I refer to as "Blending" here is simply using one of the following two dynamics:
+
 * Rotation set to Distance or Fuzzy
 
 * And/or Scatter:
@@ -256,6 +260,7 @@ Layer options
 ^^^^^^^^^^^^^
 
 Before we get started, notice that you have several possibilities for your set up:
+
 * Shading on the same layer
 * Shading on a separate layer, possibly making use of alpha-inheritance. The brush blends with the transparency of the layer it's on. This means:
 
@@ -293,6 +298,7 @@ Soft-shading
 ~~~~~~~~~~~~
 
 Suppose you want more or less smooth color transitions. You can either:
+
 * Color Rate as low as 0.10 for round brushes, higher with non fully opaque brush tips.
 * Or set the Smudge Rate as low as 0.10 instead. 
 * Or a combination of the two. Please try yourself for the output you like best.
@@ -303,6 +309,7 @@ Suppose you want more or less smooth color transitions. You can either:
 .. image:: /images/en/Krita-tutorial5-III.2-1.png
 
 This remains, in fact, a so-so way of making smooth transitions. It's best to build up intermediate values instead. Here:
+
 * I first passed over the blue area three times with a red color. I select 3 shades.
 * I color picked each of these values with Ctrl+click, then used them in succession
 
@@ -313,9 +320,10 @@ Painting: thick oil style
 
 Many of the included color smudge brush presets produce a thick oil paint-like effect.
 This is mainly achieved with the Smearing mode on. Basically:
+
 * Smearing mode with high smudge and color rates
-** Both at 0.50 are fine for normal round brushes or fully opaque predefined brushes
-** Up to 1.00 each for brushes with less density or non fully-opaque predefined brushes
+    * Both at 0.50 are fine for normal round brushes or fully opaque predefined brushes
+    * Up to 1.00 each for brushes with less density or non fully-opaque predefined brushes
    
 * Add Size/Rotation/Scatter dynamics as needed. When you do this, increase smudge and color rates to compensate for increased color mixing.
 
@@ -333,6 +341,7 @@ Painting: Digital watercolor style
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When I say "digital watercolor", it refers to a style often seen online, i.e. a soft, smooth shading style rather than realistic watercolor. For this you mostly need the Dulling mode. A few things:
+
 * Contrary to the Smearing mode, you may want to lower opacity for normal round brushes to get a smoother effect, to 0.70 for example.
 * Vary the brush tip fade value as well.
 * When using Scatter or other dynamics, you can choose to set smudge and color values to high or low values, for different outcomes.

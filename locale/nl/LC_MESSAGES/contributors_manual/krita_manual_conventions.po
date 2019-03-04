@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-26 03:14+0100\n"
+"POT-Creation-Date: 2019-03-03 03:22+0100\n"
 "PO-Revision-Date: 2019-02-19 16:56+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -141,9 +141,9 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:34
 msgid ""
-"There's between the official reStructuredText and the sphinx docs multiple "
-"ways to do things. This document specifies the suggested conventions to go "
-"with."
+"There are differences between the official reStructuredText and the sphinx "
+"docs multiple ways to do things. This document specifies the suggested "
+"conventions to go with."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:36
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:44
 msgid ""
-"This is a general description of the page. It will be converted to a html "
+"This is a general description of the page. It will be converted to an html "
 "meta tag which will be used by search engines::"
 msgstr ""
 
@@ -185,7 +185,7 @@ msgid ""
 "These are comma-separated terms under which the page will be indexed in :ref:"
 "`genindex`. The generated index is quite useful for both pdf as well as "
 "people who are not sure what the exact name is of the term they are looking "
-"for. They are defined as following::"
+"for. They are defined as follows::"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:63
@@ -256,9 +256,9 @@ msgid ""
 "Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url "
 "`` at the end of the document. This is a so-called 'anonymous hyperlink', "
 "meaning that depending on the order of the links appearing in the text the "
-"order of the links at the end of the text are associated to one another. If "
-"this sounds confusing and difficult, it is because it is. That is also the "
-"exact reason why we'd like to avoid links like these."
+"order of the links at the end of the text are associated with one another. "
+"If this sounds confusing and difficult, it is because it is. That is also "
+"the exact reason why we'd like to avoid links like these."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:121
@@ -611,7 +611,7 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:352
-msgid "Admonishments and asides."
+msgid "Admonishments and asides"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:356
@@ -692,7 +692,7 @@ msgid ""
 "that is to say, we don't usually tell a long story to indicate how different "
 "elements come together, but rather long stories are there to motivate why "
 "certain steps are taken in a certain manner. Topic changes then usually "
-"happen because we go into a new section, rather then switching to a related "
+"happen because we go into a new section, rather than switching to a related "
 "section. It is therefore better to use headings or the ``.. Topic::`` "
 "directive. Headings also make it easier to read."
 msgstr ""
@@ -708,8 +708,8 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:420
 msgid ""
 "The rubric directive is a heading directive that at first glance looks like "
-"\"topic\", but where topic is over several paragraphs, rubric itself only "
-"deals with the header, like so::"
+"\"topic\", but where the topic is over several paragraphs, rubric itself "
+"only deals with the header, like so::"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:426
@@ -754,7 +754,7 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:437
-msgid "Code Snippets:"
+msgid "Code Snippets"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:439
@@ -782,7 +782,7 @@ msgid "some more..."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:500
-msgid "Other preformatted text."
+msgid "Other preformatted text"
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:503

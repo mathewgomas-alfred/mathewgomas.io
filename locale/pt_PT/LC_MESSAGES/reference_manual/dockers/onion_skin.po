@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-03 00:27+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,18 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en Krita image Onionskin images Onionskindocker\n"
 
 #: ../../reference_manual/dockers/onion_skin.rst:1
 msgid "Overview of the onion skin docker."
-msgstr ""
+msgstr "Introdução à área da 'pele de cebola'."
 
 #: ../../reference_manual/dockers/onion_skin.rst:15
 msgid "Onion Skin Docker"
-msgstr ""
+msgstr "Área da Pele de Cebola"
 
 #: ../../reference_manual/dockers/onion_skin.rst:18
 msgid ".. image:: images/en/Onion_skin_docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Onion_skin_docker.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:19
 msgid ""
@@ -35,16 +36,21 @@ msgid ""
 "previous frame sort of layered on top of the current. This is called *onion-"
 "skinning*."
 msgstr ""
+"Para tornar a animação mais simples, ajuda poder ver a imagem anterior e a "
+"seguinte como que 'sobrepostas' à actual. Este processo chama-se *pele de "
+"cebola*."
 
 #: ../../reference_manual/dockers/onion_skin.rst:22
 msgid ".. image:: images/en/Onion_skin_01.png"
-msgstr ""
+msgstr ".. image:: images/en/Onion_skin_01.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:23
 msgid ""
 "Basically, they are images that represent the frames before and after the "
 "current frame, usually colored or tinted."
 msgstr ""
+"Basicamente, são imagens que representam as imagens antes e depois da "
+"actual, estando normalmente coloridas ou pintadas."
 
 #: ../../reference_manual/dockers/onion_skin.rst:25
 msgid ""
@@ -53,6 +59,11 @@ msgid ""
 "white to be white, not transparent, so don’t animated on an opaque layer if "
 "you want onion skins.)"
 msgstr ""
+"Podê-las-á activar/desactivar se carregar no ícone da lâmpada sobre uma "
+"camada que esteja animada (que tenha imagens por isso) e que não seja "
+"completamente opaca. (O Krita irá considerar o branco como branco, não "
+"transparente, como tal não anime uma camada opaca se quiser 'peles de "
+"cebola'.)"
 
 #: ../../reference_manual/dockers/onion_skin.rst:27
 msgid ""
@@ -64,16 +75,26 @@ msgid ""
 "working on, and the light table would make the lines of the keyframes shine "
 "through, so they could reference them."
 msgstr ""
+"O termo 'pele de cebola' vem do facto que as cebolas são semi-transparentes. "
+"Na animação tradicional, as animações eram feitas inicialmente em papel semi-"
+"transparente sobre uma mesa de luz (ou o equivalente dos animadores "
+"especiais), sendo que eles iriam começar com as ditas 'imagens-chave', "
+"desenhando então imagens intermédias. Para isso, eles iriam colocar as ditas "
+"imagens-chave debaixo da imagem que estavam a trabalhar, assim como a mesa "
+"de luz iria criar as linhas das imagens-chave a brilhar à transparência, "
+"para que então as usassem como referência."
 
 #: ../../reference_manual/dockers/onion_skin.rst:29
 msgid ""
 "Onion-skinning is a digital implementation of such a workflow, and it’s very "
 "useful when trying to animate."
 msgstr ""
+"A 'pele de cebola' é uma implementação digital de uma destas operações, "
+"sendo bastante útil ao tentar criar animações."
 
 #: ../../reference_manual/dockers/onion_skin.rst:32
 msgid ".. image:: images/en/Onion_skin_02.png"
-msgstr ""
+msgstr ".. image:: images/en/Onion_skin_02.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:33
 msgid ""
@@ -83,6 +104,12 @@ msgid ""
 "transparancy’ while the sliders to the side allow you to control the "
 "transparency per keyframe offset."
 msgstr ""
+"A barra e o botão com o controlo de deslocamento a zero controlam a "
+"opacidade-mestra e a visibilidade de todas as peles de cebola. As opções de "
+"marcação no topo permitem-lhe ligá-las e desligá-las rapidamente; a barra "
+"deslizante do meio é uma espécie de 'transparência-mestra', enquanto as "
+"barras do lado permitem-lhe controlar o deslocamento da transparência por "
+"imagem-chave."
 
 #: ../../reference_manual/dockers/onion_skin.rst:35
 msgid ""
@@ -90,7 +117,10 @@ msgid ""
 "which creates a silhouette, while below you can still see a bit of the "
 "original colors at 50%."
 msgstr ""
+"A pintura controla com que força são pintadas as imagens, sendo que o "
+"primeiro ecrã tem 100%, que cria uma silhueta, enquanto que abaixo ainda "
+"poderá ver um pouco das cores originais a 50%."
 
 #: ../../reference_manual/dockers/onion_skin.rst:37
 msgid "Previous and next frame allows you set the colors."
-msgstr ""
+msgstr "A imagem anterior e seguinte permitem-lhe definir as cores."

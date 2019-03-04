@@ -62,7 +62,7 @@ Now select **Red** from the drop-down, Click on the top right node on the graph 
 .. image:: /images/en/common-workflows/Color-adjustment-02.png
     :alt: removing blue lines from scan step 2
 
-Now the whole drawing will have a blue overlay, zoom in and check if the blue pencil lines are still visible slightly, If you still see them, then go to **Blue** Channel in the color adjustment and shift the top right node towards left a bit, Or enter a value around 190 ( one that removes the remaining rough lines) in the input box.
+Now the whole drawing will have a blue overlay, zoom in and check if the blue pencil lines are still visible slightly, If you still see them, then go to **Blue** Channel in the color adjustment and shift the top right node towards left a bit, Or enter a value around 190 (one that removes the remaining rough lines) in the input box.
 
 .. image:: /images/en/common-workflows/Color-adjustment-03.png
     :alt: remove blue lines from scans step 3
@@ -167,7 +167,7 @@ You then refine these shapes to look more like shapes you think they look, and p
 Starting from a value based underground
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This method finds it's origins in old oil-painting practice: You first make an under-painting and then paint over it with colour, having the dark underground shine through.
+This method finds its origins in old oil-painting practice: You first make an under-painting and then paint over it with colour, having the dark underground shine through.
 
 With Krita you can use blending modes for this purpose. Choosing the Color blending mode on a layer on top allows you to change the colours of the image without changing the relative luminosity. This is useful, because humans are much more sensitive to tonal differences than difference in saturation and hue. This'll allow you to work in greyscale before going into colour for the polishing phase.
 

@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_settings___opacity_and_flow\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
+"___opacity_and_flow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-21 17:26+0200\n"
+"PO-Revision-Date: 2019-03-03 11:25+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:1
 msgid "Opacity and flow in Krita."
-msgstr ""
+msgstr "Непрозорість і потік у Krita."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:17
 msgid "Opacity and Flow"
-msgstr ""
+msgstr "Непрозорість і потік"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:19
 msgid "Opacity and flow are parameters for the transparency of a brush."
-msgstr ""
+msgstr "Непрозорість і потік є параметрами прозорості пензля."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:22
 msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Flow.png"
@@ -51,7 +51,7 @@ msgstr "Непрозорість"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:28
 msgid "The transparency of a stroke."
-msgstr "Прозорість штриха."
+msgstr "Прозорість мазка."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:30
 msgid "Flow"
@@ -61,6 +61,8 @@ msgstr "Потік"
 msgid ""
 "The transparency of separate dabs. Finally separated from Opacity in 2.9"
 msgstr ""
+"Прозорість окремих мазків. Відокремлено від параметра «Непрозорість» у версії"
+" 2.9."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:33
 msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_01.png"
@@ -76,7 +78,7 @@ msgstr "Надбудова"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:38
 msgid "Will treat opacity as if it were the same as flow."
-msgstr ""
+msgstr "Вважати непрозорість такою самою як і потік."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:40
 msgid "Wash"
@@ -85,6 +87,7 @@ msgstr "Змивання"
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:40
 msgid "Will treat opacity as stroke transparency instead of dab-transparency."
 msgstr ""
+"Вважати непрозорість параметром прозорості штриха, а не прозорістю мазка."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:43
 msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_03.png"
@@ -95,3 +98,5 @@ msgid ""
 "where the other images of this page had all three strokes set to painting "
 "mode: wash, this one is set to build-up."
 msgstr ""
+"Для інших зображень на цій сторінці для усіх трьох штрихів встановлено режим"
+" малювання «Змивання», але для цього зображення режимом є «Надбудова»."

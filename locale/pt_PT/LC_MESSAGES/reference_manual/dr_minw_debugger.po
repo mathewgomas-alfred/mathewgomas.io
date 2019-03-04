@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-03 12:15+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,65 +16,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en image Enter share dbg LocalAppData images\n"
+"X-POFile-SpellExtra: kritacrash end log lib Notepad start bin crash\n"
+"X-POFile-SpellExtra: explorer screen occurred JIT Error path DrMingw MinW\n"
+"X-POFile-SpellExtra: on Krita Mingw dir\n"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-crash-screen.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-crash-screen.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-explorer-path.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-explorer-path.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-crash-log-start.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-crash-log-start.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-crash-log-end.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-crash-log-end.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-dbg7zip.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-dbg7zip.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:0
 msgid ".. image:: images/en/Mingw-dbg7zip-dir.png"
-msgstr ""
+msgstr ".. image:: images/en/Mingw-dbg7zip-dir.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:1
 msgid "How to get a backtrace in Krita using the dr. MinW debugger."
-msgstr ""
+msgstr "Como obter um registo de chamadas no Krita, usando o depurador dr. MinW."
 
 #: ../../reference_manual/dr_minw_debugger.rst:18
 msgid "Dr. MinW Debugger"
-msgstr ""
+msgstr "Depurador Dr. MinW"
 
 #: ../../reference_manual/dr_minw_debugger.rst:22
 msgid ""
 "The information on this page applies only to the Windows release of Krita "
 "3.1 Beta 3 (3.0.92) and later."
-msgstr ""
+msgstr "A informação nesta página aplica-se apenas à versão para Windows do Krita 3.1 Beta 3 (3.0.92) e posteriores."
 
 #: ../../reference_manual/dr_minw_debugger.rst:26
 msgid "Getting a Backtrace"
-msgstr ""
+msgstr "Obter um Registo de Chamadas"
 
 #: ../../reference_manual/dr_minw_debugger.rst:28
 msgid ""
 "There are some additions to Krita which makes getting a backtrace much "
 "easier on Windows."
-msgstr ""
+msgstr "Existem algumas adições ao Krita que ajudam a obter um registo de chamadas de forma muito mais simples no Windows."
 
 #: ../../reference_manual/dr_minw_debugger.rst:32
 msgid ""
 "When there is a crash, Krita might appear to be unresponsive for a short "
 "time, ranging from a few seconds to a few minutes, before the crash dialog "
 "appears."
-msgstr ""
+msgstr "Quando ocorre um estoiro, o Krita pode parecer que deixou de responder por algum tempo, desde alguns segundos até alguns minutos, antes de aparecer a janela do estoiro."
 
 #: ../../reference_manual/dr_minw_debugger.rst:36
 msgid "An example of the crash dialog"
-msgstr ""
+msgstr "Um exemplo da janela do estoiro"
 
 #: ../../reference_manual/dr_minw_debugger.rst:38
 msgid ""
@@ -83,43 +87,43 @@ msgid ""
 "you have to close Krita manually. Continue to follow the following "
 "instructions to check whether it was a crash or not.<div style=\"clear: both"
 "\"></div>"
-msgstr ""
+msgstr "Se o Krita continuar sem responder por alguns minutos, poderá ter bloqueado de facto, o que não irá gerar um registo de chamadas. Nessa situação, terá de fechar o Krita manualmente. Continue a seguir as seguintes instruções para verificar se foi um estoiro ou não.<div style=\"clear: both\"></div>"
 
 #: ../../reference_manual/dr_minw_debugger.rst:40
 msgid ""
 "Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the "
 "address bar and press Enter."
-msgstr ""
+msgstr "Abra o Explorador do Windows e escreva ``%LocalAppData%`` (sem aspas) na barra de endereços e carregue no Enter."
 
 #: ../../reference_manual/dr_minw_debugger.rst:44
 msgid ""
 "Find the file ``kritacrash.log`` (it might appear as simply ``kritacrash`` "
 "depending on your settings.)"
-msgstr ""
+msgstr "Descubra o ficheiro ``kritacrash.log`` (poderá aparecer apenas como ``kritacrash``, dependendo da sua configuração.)"
 
 #: ../../reference_manual/dr_minw_debugger.rst:45
 msgid ""
 "Open the file with Notepad and scroll to the bottom, then scroll up to the "
 "first occurrence of “Error occurred on <time>” or the dashes."
-msgstr ""
+msgstr "Abra o ficheiro com o Notepad e vá até ao fundo, subindo depois até à primeira ocorrência de “Error occurred on <time>” (Ocorreu um erro à <hora>) ou dos traços."
 
 #: ../../reference_manual/dr_minw_debugger.rst:49
 msgid "Start of backtrace"
-msgstr ""
+msgstr "Início do registo de chamadas"
 
 #: ../../reference_manual/dr_minw_debugger.rst:51
 msgid "Check the time and make sure it matches the time of the crash."
-msgstr ""
+msgstr "Veja a gora e confirme se corresponde à hora do estoiro."
 
 #: ../../reference_manual/dr_minw_debugger.rst:55
 msgid "End of backtrace"
-msgstr ""
+msgstr "Fim do registo de chamadas"
 
 #: ../../reference_manual/dr_minw_debugger.rst:57
 msgid ""
 "The text starting from this line to the end of the file is the most recent "
 "backtrace."
-msgstr ""
+msgstr "O texto que começa nesta linha até ao fim do ficheiro é o registo de chamadas mais recente."
 
 #: ../../reference_manual/dr_minw_debugger.rst:59
 msgid ""
@@ -127,7 +131,7 @@ msgid ""
 "does not exist, then you don’t have a backtrace. This means Krita was very "
 "likely locked up, and a crash didn’t actually happen. In this case, make a "
 "bug report too."
-msgstr ""
+msgstr "Se o ``kritacrash.log`` não existir ou não existir um registo de chamadas com a hora certa, então não tem de facto um registo de chamadas. Isto significa que o Krita realmente estava bastante ocupado e não ocorreu de facto nenhum estoiro. Nesse caso, emita também um relatório de erros."
 
 #: ../../reference_manual/dr_minw_debugger.rst:60
 msgid ""
@@ -135,24 +139,24 @@ msgid ""
 "means there was a crash and the crash handler was creating the stack trace "
 "before being closed manually. In this case, try to re-trigger the crash and "
 "wait longer until the crash dialog appears."
-msgstr ""
+msgstr "Se o registo de chamadas parecer interrompido, ou se não existe nada a seguir à hora em questão, significa que ocorreu um um estoiro e a rotina de tratamento do estoiro estava a criar o registo de chamadas antes de ter sido fechado manualmente. Nesse caso, tente reproduzir de novo o estoiro e espere mais um pouco até que apareça a janela do estoiro."
 
 #: ../../reference_manual/dr_minw_debugger.rst:64
 msgid ""
 "Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT debugger "
 "is not needed for getting the backtrace."
-msgstr ""
+msgstr "Desde o Krita 3.1 Beta 3 (3.0.92), o depurador JIT  externo DrMingw não é necessário para obter o registo de chamadas."
 
 #: ../../reference_manual/dr_minw_debugger.rst:67
 msgid "Using the Debug Package"
-msgstr ""
+msgstr "Usar o Pacote de Depuração"
 
 #: ../../reference_manual/dr_minw_debugger.rst:69
 msgid ""
 "Starting from 3.1 Beta 3, the debug package contains only the debug symbols "
 "separated from the executables, so you have to download the portable package "
 "separately too (though usually you already have it in the first place.)"
-msgstr ""
+msgstr "Desde o 3.1 Beta 3, o pacote de depuração contém apenas os símbolos de depuração separados dos executáveis, pelo que terá de obter o pacote portável em separado também (ainda que normalmente já possa ter feito isso em primeiro lugar.)"
 
 #: ../../reference_manual/dr_minw_debugger.rst:71
 msgid ""
@@ -162,23 +166,23 @@ msgid ""
 "stable/krita for stable releases or in https://download.kde.org/unstable/"
 "krita for unstable releases. Portable zip and debug zip are found next to "
 "each other."
-msgstr ""
+msgstr "As ligações para os pacotes de depuração deverão estar disponíveis também no artigo de notícias de lançamento no  https://krita.org/, em conjunto com os pacotes da versão sem depuração. Poderá encontrar os pacotes de depuração para qualquer versão também em https://download.kde.org/stable/krita, no caso das versões estáveis, ou em https://download.kde.org/unstable/krita para as instáveis. Os pacotes normais e de depuração portáveis em ZIP estão também juntos."
 
 #: ../../reference_manual/dr_minw_debugger.rst:72
 msgid ""
 "Make sure you’ve downloaded the same version of debug package for the "
 "portable package you intend to debug / get a better (sort of) backtrace."
-msgstr ""
+msgstr "Certifique-se que transferiu a mesma versão do pacote de depuração para o pacote portável que pretende depurar ou obter um melhor registo de chamadas (se possível)."
 
 #: ../../reference_manual/dr_minw_debugger.rst:73
 msgid ""
 "Extract the files inside the Krita install directory, where the sub-"
 "directories `bin`, `lib` and `share` is located, like in the figures below:"
-msgstr ""
+msgstr "Extraia os ficheiros dentro da pasta de instalação do Krita, onde se localizam as sub-pastas `bin`, `lib` e `share`, como nas figuras abaixo:"
 
 #: ../../reference_manual/dr_minw_debugger.rst:79
 msgid ""
 "After extracting the files, check the ``bin`` dir and make sure you see the "
 "``.debug`` dir inside. If you don't see it, you probably extracted to the "
 "wrong place."
-msgstr ""
+msgstr "Depois de extrair os ficheiros, verifique a pasta ``bin`` e certifique-se que tem a pasta ``.debug`` lá dentro. Se não a vir, provavelmente extraiu o pacote para o lugar errado."

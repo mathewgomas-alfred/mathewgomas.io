@@ -43,7 +43,7 @@ After you import the audio, you can scrub through the timeline and it will play 
 Exporting with Audio
 --------------------
 
-To get the audio file included when you are exporting, you need to include it in the Render Animation options. In the File > Render Animation options there is a checkbox"Include Audio". Make sure that is checked before you export and you should be good to go.
+To get the audio file included when you are exporting, you need to include it in the Render Animation options. In the :menuselection:`File --> Render Animation` options there is a checkbox :guilabel:`Include Audio`. Make sure that is checked before you export and you should be good to go.
 
 Packages needed for Audio on Linux
 ----------------------------------

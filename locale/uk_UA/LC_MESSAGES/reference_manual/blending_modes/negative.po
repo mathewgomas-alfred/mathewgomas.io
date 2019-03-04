@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___negative\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___negativ"
+"e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 13:50+0200\n"
+"PO-Revision-Date: 2019-03-03 12:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/blending_modes/negative.rst:1
 msgid ""
@@ -34,10 +34,12 @@ msgstr "Негатив"
 #: ../../reference_manual/blending_modes/negative.rst:17
 msgid "These are all blending modes which seem to make the image go negative."
 msgstr ""
+"Це усі режими змішування, за допомогою яких можна досягти перетворення"
+" зображення на негатив."
 
 #: ../../reference_manual/blending_modes/negative.rst:23
 msgid "Additive Subtractive"
-msgstr ""
+msgstr "Додавання-віднімання"
 
 #: ../../reference_manual/blending_modes/negative.rst:24
 msgid "Subtract the square root of the lower layer from the upper layer."
@@ -57,7 +59,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/negative.rst:35
 msgid "Arcus Tangent"
-msgstr ""
+msgstr "Вигин арки"
 
 #: ../../reference_manual/blending_modes/negative.rst:37
 msgid ""
@@ -75,11 +77,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/negative.rst:43
 msgid "Left: **Normal**. Right: **Arcus Tangent**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Вигин арки**."
 
 #: ../../reference_manual/blending_modes/negative.rst:49
 msgid "Difference"
-msgstr ""
+msgstr "Різниця"
 
 #: ../../reference_manual/blending_modes/negative.rst:51
 msgid ""
@@ -97,11 +99,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/negative.rst:57
 msgid "Left: **Normal**. Right: **Difference**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Різниця**."
 
 #: ../../reference_manual/blending_modes/negative.rst:63
 msgid "Equivalence"
-msgstr ""
+msgstr "Рівновага"
 
 #: ../../reference_manual/blending_modes/negative.rst:65
 msgid ""
@@ -119,17 +121,19 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/negative.rst:71
 msgid "Left: **Normal**. Right: **Equivalence**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Рівновага**."
 
 #: ../../reference_manual/blending_modes/negative.rst:77
 msgid "Exclusion"
-msgstr ""
+msgstr "Виключення"
 
 #: ../../reference_manual/blending_modes/negative.rst:79
 msgid ""
 "This multiplies the two layers, adds the source, and then subtracts the "
 "multiple of two layers twice."
 msgstr ""
+"У цьому режимі програма виконує множення кольорів двох шарів, додає джерело,"
+" а потім віднімає подвоєне значення добутку."
 
 #: ../../reference_manual/blending_modes/negative.rst:84
 msgid ""
@@ -141,4 +145,4 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/negative.rst:84
 msgid "Left: **Normal**. Right: **Exclusion**."
-msgstr ""
+msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Виключення**."

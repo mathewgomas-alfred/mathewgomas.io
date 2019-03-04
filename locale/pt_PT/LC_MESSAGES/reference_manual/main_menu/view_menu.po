@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-28 12:21+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: softproofing displaysettings icons Krita image\n"
+"X-POFile-SpellExtra: snapping kbd Kritamouseright Gamute images alt\n"
+"X-POFile-SpellExtra: instantpreview ref mouseright\n"
 
 #: ../../<generated>:1
 msgid "Show Painting Previews"
-msgstr ""
+msgstr "Mostrar as Antevisões da Pintura"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -31,7 +34,7 @@ msgstr ""
 
 #: ../../reference_manual/main_menu/view_menu.rst:1
 msgid "The view menu in Krita."
-msgstr ""
+msgstr "O menu Ver no Krita."
 
 #: ../../reference_manual/main_menu/view_menu.rst:16
 msgid "View Menu"
@@ -39,13 +42,15 @@ msgstr "O Menu Ver"
 
 #: ../../reference_manual/main_menu/view_menu.rst:18
 msgid "Show Canvas Only"
-msgstr ""
+msgstr "Mostrar Apenas a Área de Desenho"
 
 #: ../../reference_manual/main_menu/view_menu.rst:19
 msgid ""
 "Only shows the canvas and what you have configured to show in   Canvas Only "
 "Settings"
 msgstr ""
+"Só mostra a área de desenho e o que tiver configurado para mostrar na "
+"Configuração Apenas da Área de Desenho"
 
 #: ../../reference_manual/main_menu/view_menu.rst:20
 msgid "Fullscreen mode"
@@ -53,17 +58,20 @@ msgstr "Modo de ecrã completo"
 
 #: ../../reference_manual/main_menu/view_menu.rst:21
 msgid "This will hide the system bar."
-msgstr ""
+msgstr "Isto irá esconder a barra do sistema."
 
 #: ../../reference_manual/main_menu/view_menu.rst:22
 msgid "Wrap Around Mode"
-msgstr ""
+msgstr "Modo de Envolvência"
 
 #: ../../reference_manual/main_menu/view_menu.rst:23
 msgid ""
 "This will show the image as if tiled orthographically. Very useful for "
 "tiling 3d textures. Hit :kbd:`W`  to quickly activate it."
 msgstr ""
+"Isto irá mostrar a imagem como se estivesse sobre um padrão ortográfico. É "
+"muito útil para criar padrões de texturas 3D. Carregue em :kbd:`W` para o "
+"activar rapidamente."
 
 #: ../../reference_manual/main_menu/view_menu.rst:24
 msgid "Instant Preview"
@@ -71,7 +79,7 @@ msgstr "Antevisão Instantânea"
 
 #: ../../reference_manual/main_menu/view_menu.rst:25
 msgid "Toggle :ref:`instant_preview` globally."
-msgstr ""
+msgstr "Activar/desactivar a :ref:`instant_preview` a nível global."
 
 #: ../../reference_manual/main_menu/view_menu.rst:26
 msgid "Soft Proofing"
@@ -79,25 +87,27 @@ msgstr "Prova Suave"
 
 #: ../../reference_manual/main_menu/view_menu.rst:27
 msgid "Activate :ref:`soft_proofing`."
-msgstr ""
+msgstr "Activa a :ref:`soft_proofing`."
 
 #: ../../reference_manual/main_menu/view_menu.rst:28
 msgid "Out of Gamut Warnings"
-msgstr ""
+msgstr "Avisos Fora do Gamute"
 
 #: ../../reference_manual/main_menu/view_menu.rst:29
 msgid "See the :ref:`soft_proofing` page for details."
-msgstr ""
+msgstr "Veja mais detalhes na página :ref:`soft_proofing`."
 
 #: ../../reference_manual/main_menu/view_menu.rst:31
 msgid "Contains view manipulation actions."
-msgstr ""
+msgstr "Contém as acções de manipulação da janela."
 
 #: ../../reference_manual/main_menu/view_menu.rst:33
 msgid ""
 "Mirror View This will mirror the view. Hit :kbd:`M`  to quickly activate it. "
 "Very useful during painting."
 msgstr ""
+"Espelho da Janela. Isto irá criar um espelho da janela. Carregue em :kbd:`M` "
+"para activá-lo rapidamente. Muito útil quando estiver a pintar."
 
 #: ../../reference_manual/main_menu/view_menu.rst:34
 msgid "Canvas"
@@ -112,16 +122,20 @@ msgid ""
 "This will display a set of rulers. |mouseright| the rulers after showing "
 "them, to change the units."
 msgstr ""
+"Isto irá mostrar um conjunto de réguas. Carregue com o |mouseright| sobre as "
+"regras, após estarem visíveis, para mudar as unidades."
 
 #: ../../reference_manual/main_menu/view_menu.rst:38
 msgid "Rulers track pointer"
-msgstr ""
+msgstr "As réguas seguem o cursor"
 
 #: ../../reference_manual/main_menu/view_menu.rst:39
 msgid ""
 "This adds a little marker to the ruler to show where the mouse is in "
 "relation to them."
 msgstr ""
+"Isto adiciona um pequeno marcador à régua para mostrar onde está o rato em "
+"relação a ela."
 
 #: ../../reference_manual/main_menu/view_menu.rst:40
 msgid "Show Guides"
@@ -129,15 +143,15 @@ msgstr "Mostrar as Guias"
 
 #: ../../reference_manual/main_menu/view_menu.rst:41
 msgid "Show or hide the guides."
-msgstr ""
+msgstr "Mostra ou esconde as guias."
 
 #: ../../reference_manual/main_menu/view_menu.rst:42
 msgid "Lock Guides"
-msgstr ""
+msgstr "Bloquear as Guias"
 
 #: ../../reference_manual/main_menu/view_menu.rst:43
 msgid "Prevent the guides from being able to be moved by the cursor."
-msgstr ""
+msgstr "Impede as guias de serem movidas pelo cursor."
 
 #: ../../reference_manual/main_menu/view_menu.rst:44
 msgid "Show Status Bar"
@@ -148,6 +162,9 @@ msgid ""
 "This will show the status bar. The status bar contains a lot of important "
 "information, a zoom widget, and the button to switch Selection Display Mode."
 msgstr ""
+"Isto irá mostrar a barra de estado. Esta contém diversas informações "
+"importantes, um item de ampliação e o botão para mudar o Modo de "
+"Visualização da Selecção."
 
 #: ../../reference_manual/main_menu/view_menu.rst:46
 msgid "Show Grid"
@@ -155,29 +172,31 @@ msgstr "Mostrar a Grelha"
 
 #: ../../reference_manual/main_menu/view_menu.rst:47
 msgid "Shows and hides the grid. :kbd:`Ctrl + Shift + '`"
-msgstr ""
+msgstr "Mostra e esconde a grelha. :kbd:`Ctrl + Shift + '`"
 
 #: ../../reference_manual/main_menu/view_menu.rst:48
 msgid "Show Pixel Grid"
-msgstr ""
+msgstr "Mostrar a Grelha de Pontos"
 
 #: ../../reference_manual/main_menu/view_menu.rst:49
 msgid "Show the pixel grid as configured in the :ref:`display_settings`."
 msgstr ""
+"Mostra a grelha de pontos configurada de acordo com as :ref:"
+"`display_settings`."
 
 #: ../../reference_manual/main_menu/view_menu.rst:50
 msgid "Snapping"
-msgstr ""
+msgstr "Ajuste"
 
 #: ../../reference_manual/main_menu/view_menu.rst:51
 msgid "Toggle the :ref:`snapping` types."
-msgstr ""
+msgstr "Activa/desactiva os tipos de :ref:`snapping`."
 
 #: ../../reference_manual/main_menu/view_menu.rst:52
 msgid "Show Painting Assistants"
-msgstr ""
+msgstr "Mostrar os Assistentes de Pintura"
 
 #: ../../reference_manual/main_menu/view_menu.rst:53
 #: ../../reference_manual/main_menu/view_menu.rst:55
 msgid "Shows or hides the Assistants"
-msgstr ""
+msgstr "Mostra ou esconde os Assistentes"

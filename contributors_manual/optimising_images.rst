@@ -23,7 +23,7 @@ Tools for making screenshots
 
 Now, if you wish to make an image of the screen with all the dockers and tools, then :ref:`saving_for_the_web` won't be very helpful: It only saves out the canvas contents, after all!
 
-So, instead, we'll make a screenshot. Depending on your operating system, there's several screenshot utilities available.
+So, instead, we'll make a screenshot. Depending on your operating system, there are several screenshot utilities available.
 
 Windows
 ~~~~~~~
@@ -87,8 +87,8 @@ The other option is to use PNGCrush as mentioned in the linux section.
 Linux
 ~~~~~
 
-Optimising PNGS
-^^^^^^^^^^^^^^^
+Optimising PNG
+^^^^^^^^^^^^^^
 There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png-tools-overview>`_ available on Linux. They come in two categories: Lossy (Using psychological tricks), and Lossless (trying to compress the data more conventionally). The following are however the most recommended:
 
 `PNGQuant <https://pngquant.org/>`_
@@ -141,7 +141,7 @@ Editing the metadata of a file
 
 Sometimes, personal information gets embedded into an image file. Othertimes, we want to embed information into a file to document it better.
 
-There's no less than 3 to 4 different ways of handling metadata, and metadata has different ways of handling certain files.
+There are no less than 3 to 4 different ways of handling metadata, and metadata has different ways of handling certain files.
 
 The most commonly used tool to edit metadata is :program:`ExifTool`, another is to use :program:`ImageMagick`.
 

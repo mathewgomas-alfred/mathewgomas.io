@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-03 00:42+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,14 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en guilabel image Csvspreadsheet frames images Calc\n"
+"X-POFile-SpellExtra: Separated Csvtvpcsvexport program Studio Comma csv\n"
+"X-POFile-SpellExtra: ref filepng LibreOffice Krita TVPaint sRGB Values\n"
+"X-POFile-SpellExtra: Moho Blender\n"
 
 #: ../../general_concepts/file_formats/file_csv.rst:1
 msgid "The CSV file format as exported by Krita."
-msgstr ""
+msgstr "O formato de ficheiros CSV exportado pelo Krita."
 
 #: ../../general_concepts/file_formats/file_csv.rst:15
 msgid "\\*.csv"
-msgstr ""
+msgstr "\\*.csv"
 
 #: ../../general_concepts/file_formats/file_csv.rst:17
 msgid ""
@@ -32,6 +36,10 @@ msgid ""
 "possible to use a spreadsheet program or even a text editor to edit the .csv "
 "file."
 msgstr ""
+"O .csv é a abreviatura de Comma Separated Values (Valores Separados por "
+"Vírgulas). É um formato de folhas de cálculo em texto simples e aberto. Dado "
+"que o formato .csv é um texto simples por si só, é possível usar um programa "
+"de folhas de cálculo ou mesmo um editor de texto para editar o ficheiro .csv."
 
 #: ../../general_concepts/file_formats/file_csv.rst:19
 msgid ""
@@ -41,6 +49,12 @@ msgid ""
 "and saving functions in Krita instead of the :guilabel:`import animation "
 "sequence` and :guilabel:`export animation` menu items."
 msgstr ""
+"O Krita suporta a versão do .csv usada pelo TVPaint para transferir uma "
+"animação por camadas entre estas duas aplicações e provavelmente para "
+"outras, como o Blender. Isto não um formato de sequência de imagens, por "
+"isso use as funções de carregamento e gravação do Krita em vez de usar as "
+"opções do menu :guilabel:`importar a sequência de animação` e :guilabel:"
+"`exportar a animação`."
 
 #: ../../general_concepts/file_formats/file_csv.rst:21
 msgid ""
@@ -53,14 +67,23 @@ msgid ""
 "only a single file and the exposure sheet links it to one or more frames on "
 "the timeline."
 msgstr ""
+"O formato consiste num ficheiro de texto com a extensão .csv, em conjunto "
+"com uma pasta com o mesmo nome e uma extensão .frames. O ficheiro .csv e a "
+"pasta devem estar no mesmo local. O ficheiro de texto contém os parâmetros "
+"da cena, como a resolução do campo e a taxa de imagens, contendo também a "
+"tabela de exposição das camadas. A pasta contém ficheiros de imagem em :ref:"
+"`file_png`. Ao contrário das sequências  de imagens, uma instância de uma "
+"imagem-chave é apenas um único ficheiro e a tabela de exposições associadas "
+"associa-a a uma ou mais imagens na linha temporal."
 
 #: ../../general_concepts/file_formats/file_csv.rst:26
 msgid ".. image:: images/en/Csv_spreadsheet.png"
-msgstr ""
+msgstr ".. image:: images/en/Csv_spreadsheet.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:26
 msgid "A .csv file as a spreadsheet in :program:`LibreOffice Calc`"
 msgstr ""
+"Um ficheiro .csv como una folha de cálculo no :program:`LibreOffice Calc`"
 
 #: ../../general_concepts/file_formats/file_csv.rst:28
 msgid ""
@@ -68,6 +91,10 @@ msgid ""
 "sRGB colour space because that's the only colour space for :program:"
 "`TVPaint`. Layer groups and layer masks are also not supported."
 msgstr ""
+"O Krita consegue tanto exportar como importar este formato. Recomenda-se que "
+"use o espaço de cores sRGB a 8 bits, dado que é o único espaço de cores para "
+"o :program:`TVPaint`. As camadas de grupos e as máscaras de camadas também "
+"não são suportadas."
 
 #: ../../general_concepts/file_formats/file_csv.rst:30
 msgid ""
@@ -76,14 +103,18 @@ msgid ""
 "upcoming :guilabel:`Export footage` window, use the :guilabel:`Clip: Layers "
 "structure` tab."
 msgstr ""
+"O TVPaint só consegue exportar este formato por si só. No :program:`TVPaint "
+"11`, use a opção :guilabel:`Exportar para...` do menu :guilabel:` e na "
+"janela:guilabel:`Exportar a imagem` que aparece, use a página para :guilabel:"
+"`Recortar as Camadas` t."
 
 #: ../../general_concepts/file_formats/file_csv.rst:35
 msgid ".. image:: images/en/Csv_tvp_csvexport.png"
-msgstr ""
+msgstr ".. image:: images/en/Csv_tvp_csvexport.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:35
 msgid "Exporting into .csv in TVPaint"
-msgstr ""
+msgstr "Exportar para .csv no TVPaint"
 
 #: ../../general_concepts/file_formats/file_csv.rst:37
 msgid ""
@@ -93,20 +124,31 @@ msgid ""
 "softwares. Moho/Anime Studio and Blender also have plugins to import this "
 "format."
 msgstr ""
+"Para importar este formato de volta para o TVPaint, existe uma extensão de "
+"um programa na linguagem George. Veja a secção de \"Pacotes, Plugins, "
+"Terceiros\" no fóruma da comunidade do TVPaint para saber mais detalhes e "
+"também se precisa de suporte para outras aplicações. O Moho/Anime Studio e o "
+"Blender também têm 'plugins' para importar este formato."
 
 #: ../../general_concepts/file_formats/file_csv.rst:42
 msgid ""
 "`.csv import script for TVPaint <http://forum.tvpaint.com/viewtopic.php?"
 "f=26&t=9759>`_"
 msgstr ""
+"`programa de importação de `.csv do TVPaint <http://forum.tvpaint.com/"
+"viewtopic.php?f=26&t=9759>`_"
 
 #: ../../general_concepts/file_formats/file_csv.rst:43
 msgid ""
 "`.csv import script for Moho/Anime Studio <http://forum.tvpaint.com/"
 "viewtopic.php?f=26&t=10050>`_"
 msgstr ""
+"`programa de importação de .csv para o Moho/Anime Studio <http://forum."
+"tvpaint.com/viewtopic.php?f=26&t=10050>`_"
 
 #: ../../general_concepts/file_formats/file_csv.rst:44
 msgid ""
 "`.csv import script for Blender <https://developer.blender.org/T47462>`_"
 msgstr ""
+"`programa de importação de .csv para o Blender <https://developer.blender."
+"org/T47462>`_"

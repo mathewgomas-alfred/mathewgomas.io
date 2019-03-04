@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-02-27 11:45+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: icons Krita image Kritamouseleft selectionsbasics kbd\n"
+"X-POFile-SpellExtra: ellipticalselecttool generalsettings images\n"
+"X-POFile-SpellExtra: toolselectellipse alt ref mouseleft\n"
 
 #: ../../<generated>:1
 msgid "Ratio"
@@ -34,10 +37,12 @@ msgid ""
 ".. image:: images/icons/elliptical_select_tool.svg\n"
 "   :alt: toolselectellipse"
 msgstr ""
+".. image:: images/icons/elliptical_select_tool.svg\n"
+"   :alt: ferramenta de selecção elíptica"
 
 #: ../../reference_manual/tools/elliptical_select.rst:1
 msgid "Krita's elliptical selector tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de selecção elíptica do Krita."
 
 #: ../../reference_manual/tools/elliptical_select.rst:16
 msgid "Elliptical Selection Tool"
@@ -45,7 +50,7 @@ msgstr "Ferramenta de Selecção Elíptica"
 
 #: ../../reference_manual/tools/elliptical_select.rst:18
 msgid "|toolselectellipse|"
-msgstr ""
+msgstr "|toolselectellipse|"
 
 #: ../../reference_manual/tools/elliptical_select.rst:20
 msgid ""
@@ -53,14 +58,17 @@ msgid ""
 "make :ref:`selections_basics` of a elliptical area. Simply click and drag "
 "around the section you wish to select."
 msgstr ""
+"Esta ferramenta, representada por uma elipse com um contorno tracejado, "
+"permite-lhe criar :ref:`selections_basics` com uma forma elíptica. Basta "
+"carregar e arrastar a secção que deseja seleccionar."
 
 #: ../../reference_manual/tools/elliptical_select.rst:23
 msgid "Hotkeys and Stickykeys"
-msgstr ""
+msgstr "Atalhos e Teclas Fixas"
 
 #: ../../reference_manual/tools/elliptical_select.rst:25
 msgid ":kbd:`J` selects this tool."
-msgstr ""
+msgstr ":kbd:`J` selecciona esta ferramenta."
 
 #: ../../reference_manual/tools/elliptical_select.rst:26
 msgid ""
@@ -84,16 +92,19 @@ msgid ""
 ":kbd:`Shift` after starting the selection, constraints it to a perfect "
 "circle."
 msgstr ""
+"O :kbd:`Shift`, após iniciar a selecção, restringe-a a um círculo perfeito."
 
 #: ../../reference_manual/tools/elliptical_select.rst:30
 msgid ""
 ":kbd:`Ctrl` after starting the selection, makes the selection resize from "
 "center."
 msgstr ""
+":kbd:`Ctrl`, após iniciar a selecção, faz com que a selecção ajuste o "
+"tamanho a partir do centro."
 
 #: ../../reference_manual/tools/elliptical_select.rst:31
 msgid ":kbd:`Alt` after starting the selection, allows you to move it."
-msgstr ""
+msgstr ":kbd:`Alt`, após iniciar a selecção, permite movê-la."
 
 #: ../../reference_manual/tools/elliptical_select.rst:32
 msgid ""
@@ -130,6 +141,9 @@ msgid ""
 "release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to "
 "constrain."
 msgstr ""
+"Como tal, para subtrair um círculo perfeito, poderá usar o :kbd:`Alt +` |"
+"mouseleft|, largando depois a tecla :kbd:`Alt` enquanto arrasta e usando a "
+"tecla :kbd:`Shift` para restringir."
 
 #: ../../reference_manual/tools/elliptical_select.rst:44
 msgid ""
@@ -164,6 +178,8 @@ msgid ""
 "Gives the current width. Use the lock to force the next selection made to "
 "this width."
 msgstr ""
+"Indica a largura actual. Use o cadeado para forçar a próxima selecção a ter "
+"esta largura."
 
 #: ../../reference_manual/tools/elliptical_select.rst:53
 msgid "Height"
@@ -174,9 +190,13 @@ msgid ""
 "Gives the current height. Use the lock to force the next selection made to "
 "this height."
 msgstr ""
+"Indica a altura actual. Use o cadeado para forçar a próxima selecção a ter "
+"esta altura."
 
 #: ../../reference_manual/tools/elliptical_select.rst:56
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
 msgstr ""
+"Indica a proporção de tamanho actual. Use o cadeado para forçar a próxima "
+"selecção a manter estas proporções."
