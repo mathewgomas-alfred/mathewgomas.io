@@ -109,6 +109,9 @@ Use effective outline size
     .. versionadded:: 4.1
 
     This makes sure that the outline size will always be the maximum possible brush diameter, and not the current one as affected by sensors such as pressure. This makes the cursor a little less noisy to use.
+    
+Cursor Color:
+    The default cursor color. This is mixed with the canvas image so that it will usually have a contrasting color, but sometimes this mixing does not work. This is usually due driver problems. When that happens, you can configure a more pleasant color here.
 
 
 .. _window_settings:
@@ -140,6 +143,9 @@ In docker (default)
     Gives you the tool options in a docker.
 In toolbar
     Gives you the tool options in the toolbar, next to the brush settings. You can open it with :kbd:`\\`.
+    
+Brush Flow Mode
+    In Krita 4.2 the behaviour of flow in combination with opacity was changed. This allows you to turn it back to the 4.1 behaviour. This will however be removed in future versions.
 
 Switch ctrl/alt modifiers
     This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
@@ -162,8 +168,8 @@ Kinetic Scrolling (Needs Restart)
     Activation
         How it is activated.
 
-        Disabled
-            Will never activated.
+        On Middle-Click Drag
+            Will activate when using the middle mouse button.
         On Touch Drag
             Will activate if it can recognise a touch event. May not always work.
         On Click Drag
@@ -171,8 +177,41 @@ Kinetic Scrolling (Needs Restart)
 
     Sensitivity
         How quickly the feature activates, this effective determines the length of the drag.
-    Show Scrollbar
+    Hide Scrollbar
         Whether to show scrollbars when doing this.
+
+.. _file_handling_settings:
+
+File Handling
+-------------
+
+Enable Autosaving
+    Determines whether or not Krita should periodically autosave.
+Autosave Every
+    Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the %TEMP% directory. If you are on Linux it is stored in /home/'username'.
+Unnamed autosave files are hidden by default
+    This determines whether the filename of autosaves has a period prepended to the name. On Linux and Mac OS this is a technique to ensure the file is hidden by default.
+Create Backup File
+    When selected Krita will, upon save, rename the original file as a backup file and save the current image to the original name. The result is that you will have saved the image, and there will be a copy of the image that is saved seperately as a backup. This is useful in case of crashes during saves.
+Backup File Location
+    The default location these backups should be stored.
+    
+    Same Folder as Original File
+        Store the file in the same folder as the original file was stored.
+    User Folder
+        This is the main folder of your computer. On Linux and Mac OS this is the 'Home' folder, on Windows, the 'My Documents Folder'.
+    Temporary File Folder
+        This stored the file in the temp folder. Temp folders are special folders of which the contents are emptied when you shut down your computer. If you don't particularly care about your backup files and want them to be 'cleaned' automatically, this is the best place. If you want your backup files to be kept indefinitely, this is a wrong choice.
+    
+Backup File Suffix
+    The suffix that will be placed after the full filename. 'filename.kra' will then be saved as 'filename.kra~', ensuring the files won't show up in Krita's open file dialog.
+Number of Backup Files Kept
+    Number of backup files Krita keeps, by default this is only one, but this can be up to 99. Krita will then number the backup files.
+Compress \*.kra files more.
+    This increases the zip compression on the saved Krita files, which makes them lighter on disk, but this takes longer to load.
+Use Zip64
+    Kra files are zip files. Zip64 allows you to use
+
 
 .. _misc_settings:
 
@@ -193,20 +232,18 @@ When Krita Starts
 Save session when Krita closes
     Save the current open windows, documents and the like into the current session when closing Krita so you can resume where you left off.
     .. versionadded:: 4.1
-Autosave Every
-    Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the %TEMP% directory. If you are on Linux it is stored in /home/'username'.
-Compress \*.kra files more.
-    This increases the zip compression on the saved Krita files, which makes them lighter on disk, but this takes longer to load.
 Upon importing Images as Layers, convert to the image color space.
     This makes sure that layers are the same color space as the image, necessary for saving to PSD.
 Undo Stack Size
     This is the number of undo commands Krita remembers. You can set the value to 0 for unlimited undos.
 Favorite Presets
     This determines the amount of presets that can be used in the pop-up palette.
-Create Backup File
-    When selected Krita will try to save a backup file in case of a crash.
 Hide splash screen on startup.
     This'll hide the splash screen automatically once Krita is fully loaded.
+    .. deprecated:: 4.1
+    
+        Deprecated because Krita now has a welcome widget when no canvas is open.
+
 Enable Native File Dialog
     This allows you to use the system file dialog. By default turned off because we cannot seem to get native file dialogues 100% bugfree.
 Maximum brush size
