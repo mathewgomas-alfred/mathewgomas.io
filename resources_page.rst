@@ -27,11 +27,11 @@ Brush Packs
                
                David Revoy
           - .. figure:: /images/en/resource_packs/Resources-mirandaBrushes.jpg
-               :target: http://www.ramonmiranda.com/2013/09/krita-training-vol-2-muses-dvd-preset.html
+               :target: https://drive.google.com/open?id=1hrH4xzMRwzV0SBEt2K8faqZ_YUX-AdyJ
                
                Ramon Miranda
           - .. figure:: /images/en/resource_packs/Resources-conceptBrushes.jpg
-               :target: https://drive.google.com/open?id=1hrH4xzMRwzV0SBEt2K8faqZ_YUX-AdyJ
+               :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
                
                Concept art & Illustration Pack
         * - .. figure:: /images/en/resource_packs/Resources-aldyBrushes.jpg
