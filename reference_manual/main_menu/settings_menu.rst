@@ -121,3 +121,6 @@ At this time Krita does not support the ability to create additional toolbars. T
    :align: center
 
 Although not really advisable, you can turn them off (but why would you..really?)
+
+.. versionadded:: 4.2
+    Finally, Toolbars also can be moved. You can do this by |mouseright| and dragging the handler at the left side of the toolbar.
