@@ -33,7 +33,7 @@ Then you need to download deps and Krita source tree. These steps are not includ
 .. code::
 
     # create directory structure for container control directory
-    git clone kde:scratch/dkazakov/krita-docker-env.git krita-auto-1
+    git clone git://anongit.kde.org/scratch/dkazakov/krita-docker-env.git krita-auto-1
 
     cd krita-auto-1
     mkdir persistent

@@ -147,7 +147,7 @@ In toolbar
 Brush Flow Mode
     In Krita 4.2 the behaviour of flow in combination with opacity was changed. This allows you to turn it back to the 4.1 behaviour. This will however be removed in future versions.
 
-Switch ctrl/alt modifiers
+Switch Control/Alt Selection Modifiers
     This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
 
 Enable Touchpainting

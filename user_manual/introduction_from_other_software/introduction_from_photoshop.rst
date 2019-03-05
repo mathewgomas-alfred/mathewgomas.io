@@ -138,7 +138,7 @@ Both systems have pros and cons. Krita’s way is more predictable according to 
 Multi Layer Transform or Move
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can select multiple layers on the stack by holding down Shift as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers.
+You can select multiple layers on the stack by holding down :kbd:`Shift` as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers. 
 
 Clipping Masks
 ^^^^^^^^^^^^^^
