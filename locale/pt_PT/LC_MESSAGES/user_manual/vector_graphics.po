@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-01 16:11+0000\n"
+"PO-Revision-Date: 2019-03-04 12:13+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: KRA ODG en icons Krita image desagrupá\n"
+"X-POFile-SpellExtra: Kritamouseright design images alt brushstroke\n"
+"X-POFile-SpellExtra: Inkscape mouseright\n"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -57,24 +60,24 @@ msgstr ""
 
 #: ../../user_manual/vector_graphics.rst:26
 msgid ".. image:: images/en/Pixels-brushstroke.png"
-msgstr ""
+msgstr ".. image:: images/en/Pixels-brushstroke.png"
 
 #: ../../user_manual/vector_graphics.rst:27
 msgid ""
 "Vector graphics on the other hand use mathematics to describe a shape. "
 "Because it uses a formula, vector graphics can be resized to any size."
-msgstr ""
+msgstr "Os gráficos vectoriais, por outro lado, usam matemática para descrever uma forma. Como usa uma fórmula, os gráficos vectoriais podem ser dimensionados para qualquer tamanho."
 
 #: ../../user_manual/vector_graphics.rst:29
 msgid ""
 "On one hand, this makes vector graphics great for logos and banners. On the "
 "other hand, raster graphics are much easier to edit, so vectors tend to be "
 "the domain of deliberate design, using a lot of precision."
-msgstr ""
+msgstr "Por um lado, isto torna os gráficos vectoriais para logótipos e separadores. Por outro lado, os gráficos vectoriais são muito mais simples de editar, pelo que os vectores tendem a dominar o 'design' deliberado, usando bastante precisão."
 
 #: ../../user_manual/vector_graphics.rst:32
 msgid "Tools for making shapes"
-msgstr ""
+msgstr "Ferramentas para criar formas"
 
 #: ../../user_manual/vector_graphics.rst:34
 msgid ""
@@ -82,68 +85,68 @@ msgid ""
 "the arrow button next to the + in the layer docker to get extra layer "
 "types). Then, all the usual drawing tools outside of the freehand, dynamic "
 "and the multibrush tool can be used to draw shapes."
-msgstr ""
+msgstr "Poderá começar a criar gráficos vectoriais, criando primeiro uma camada vectorial (carregue no botão da seta a seguir ao +, na área de camadas, para obter os tipos de camadas extra). Depois, todas as ferramentas de desenho normais, que não o desenho à mão-livre, o multi-pincel ou o pincel dinâmico, podem ser usados para desenhar formas."
 
 #: ../../user_manual/vector_graphics.rst:36
 msgid ""
 "The path and polyline tool are the tools you used most often on a vector "
 "layer, as they allow you to make the most dynamic of shapes."
-msgstr ""
+msgstr "A ferramenta do caminho e da linha poligonal são as ferramentas que usará com maior frequência numa camada vectorial, já que lhe permitem gerar o máximo de dinâmica das formas."
 
 #: ../../user_manual/vector_graphics.rst:38
 msgid ""
 "On the other hand, the Ellipse and Rectangle tools allow you to draw special "
 "shapes, which then can be edited to make special pie shapes, or for easy "
 "rounded rectangles."
-msgstr ""
+msgstr "Por outro lado, as ferramentas da Elipse e do Rectângulo permitem-lhe desenhar formas especiais, que por sua vez podem ser editadas para criar formas de tarte especiais ou rectângulos arredondados simples."
 
 #: ../../user_manual/vector_graphics.rst:40
 msgid ""
 "The calligraphy and text tool also make special vectors. The calligraphy "
 "tool is for producing strokes that are similar to brush strokes, while the "
 "text tool makes a text object that can be edited afterwards."
-msgstr ""
+msgstr "A ferramenta de caligrafia e de texto também geram vectores especiais. A ferramenta de caligrafia serve para produzir traços que sejam semelhantes aos traços do pincel, enquanto a ferramenta de texto cria um objecto de texto que pode ser editado posteriormente."
 
 #: ../../user_manual/vector_graphics.rst:42
 msgid ""
 "All of these will use the current brush size to determine stroke thickness, "
 "as well as the current foreground and background color."
-msgstr ""
+msgstr "Todas estas ferramentas irão usar o tamanho actual do pincel para definir a espessura do traço, assim como as cores principal e de fundo."
 
 #: ../../user_manual/vector_graphics.rst:44
 msgid ""
 "There is one last way to make vectors: The Vector Library docker.  It allows "
 "you to add shapes that have been defined in an SVG file as symbols. Unlike "
 "the other tools, these have their own fill and stroke."
-msgstr ""
+msgstr "Existe uma última forma de criar vectores: a área da Biblioteca de Vectores. Permite-lhe adicionar formas que foram definidas num ficheiro SVG como símbolos. Ao contrário das outras ferramentas, estas têm o seu próprio preenchimento e traços."
 
 #: ../../user_manual/vector_graphics.rst:47
 msgid "Arranging Shapes"
-msgstr ""
+msgstr "Organizar as Formas"
 
 #: ../../user_manual/vector_graphics.rst:49
 msgid ""
 "A vector layer has its own hierarchy of shapes, much like how the whole "
 "image has a hierarchy of layers. So shapes can be in front of one another. "
 "This can be modified with the arrange docker, or with the Select Shapes Tool."
-msgstr ""
+msgstr "Uma camada vectorial tem a sua própria hierarquia de formas, assim como a imagem completa tem a sua própria hierarquia de formas. Como tal, as formas podem estar à frente umas das outras. Isto pode ser modificado com a área de reorganização ou com a Ferramenta de Selecção de Formas."
 
 #: ../../user_manual/vector_graphics.rst:51
 msgid ""
 "The arrange docker also allows you to group and ungroup shapes. It also "
 "allows you to precisely align shapes, for example, have them aligned to the "
 "center, or have an even spacing between all the shapes."
-msgstr ""
+msgstr "A área de reorganização também lhe permite agrupar e desagrupar as formas. Permite ainda alinhar com precisão as formas, como por exemplo alinhá-las ao centro, ou ainda ter um espaçamento proporcional entre todas as formas."
 
 #: ../../user_manual/vector_graphics.rst:54
 msgid "Editing shapes"
-msgstr ""
+msgstr "Editar as formas"
 
 #: ../../user_manual/vector_graphics.rst:56
 msgid ""
 "Editing of vector shapes is done with the Select Shapes Tool and the Edit "
 "Shapes Tool."
-msgstr ""
+msgstr "A edição das formas vectoriais é feita com a Ferramenta de Selecção de Formas e a Ferramenta de Edição de Formas."
 
 #: ../../user_manual/vector_graphics.rst:58
 msgid ""
@@ -151,28 +154,28 @@ msgid ""
 "(via |mouseright|), ungroup them, to use booleans to combine or subtract "
 "shapes from one another (via |mouseright|), to move them up and down, or to "
 "do quick transforms."
-msgstr ""
+msgstr "A ferramenta de selecção de formas pode ser usada para seleccionar as formas vectoriais, para as agrupar (com o |mouseright|), desagrupá-las, usar lógica booleana para combinar ou subtrair as formas umas com as outras (com o |mouseright|), elevá-las ou baixá-las ou fazer transformações rápidas."
 
 #: ../../user_manual/vector_graphics.rst:61
 msgid "Fill"
-msgstr "Preencher"
+msgstr "Preenchimento"
 
 #: ../../user_manual/vector_graphics.rst:63
 msgid ""
 "You can change the fill of a shape by selecting it and changing the active "
 "foreground color."
-msgstr ""
+msgstr "Poderá alterar o preenchimento de uma forma, seleccionando-a e alterando a cor principal activa."
 
 #: ../../user_manual/vector_graphics.rst:65
 msgid ""
 "You can also change it by going into the tool options of the Select Shapes "
 "Tool and going to the fill tab."
-msgstr ""
+msgstr "Também o poderá alterar se for às opções da Ferramenta de Selecção de Formas e for à página Preenchimento."
 
 #: ../../user_manual/vector_graphics.rst:67
 msgid ""
 "Vector shapes can be filled with a solid color, a gradient or a pattern."
-msgstr ""
+msgstr "As formas vectoriais podem ser preenchidas com uma cor única, um gradiente ou um padrão."
 
 #: ../../user_manual/vector_graphics.rst:70
 msgid "Stroke"
@@ -180,13 +183,13 @@ msgstr "Traço"
 
 #: ../../user_manual/vector_graphics.rst:72
 msgid "Strokes can be filled with the same things as fills."
-msgstr ""
+msgstr "Os traços podem ser preenchidos com as mesmas coisas que os preenchimentos normais."
 
 #: ../../user_manual/vector_graphics.rst:74
 msgid ""
 "However, they can also be further changed. For example, you can add dashes "
 "and markers to the line."
-msgstr ""
+msgstr "Contudo, também podem ser mais alterados. Por exemplo, poderá adicionar traços e marcações à linha."
 
 #: ../../user_manual/vector_graphics.rst:77
 msgid "Coordinates"
@@ -196,29 +199,29 @@ msgstr "Coordenadas"
 msgid ""
 "Shapes can be moved with the Select Shapes tool, and in the tool options you "
 "can specify the exact coordinates."
-msgstr ""
+msgstr "Pode mover as formas com a ferramenta de Selecção de Formas e, nas opções da ferramenta, poderá indicar as coordenadas exactas."
 
 #: ../../user_manual/vector_graphics.rst:82
 msgid "Editing nodes and special parameters"
-msgstr ""
+msgstr "Edição dos nós e parâmetros especiais"
 
 #: ../../user_manual/vector_graphics.rst:84
 msgid ""
 "If you have a shape selected, you can double click it to get to the "
 "appropriate tool to edit it. Usually this is the Edit Shape Tool, but for "
 "Text this is the Text Tool."
-msgstr ""
+msgstr "Se tiver uma forma seleccionada, poderá fazer duplo-click sobre ela para aceder à ferramenta apropriada para a editar. Normalmente costuma ser a ferramenta para Editar a Forma, mas no caso do texto poderá ser a Ferramenta de Texto."
 
 #: ../../user_manual/vector_graphics.rst:86
 msgid ""
 "In the Edit Shape Tool, you can move around nodes on the canvas for regular "
 "paths. For special paths, like the ellipse and the rectangle, you can move "
 "nodes and edit the specific parameters in the tool options docker."
-msgstr ""
+msgstr "Na ferramenta para Editar a Forma, poderá mover os nós na área de desenho para os caminhos normais. Para os caminhos especiais, como a elipse e o rectângulo, poderá mover os nós e editar os parâmetros específicos na área de opções da ferramenta."
 
 #: ../../user_manual/vector_graphics.rst:89
 msgid "Working together with other programs"
-msgstr ""
+msgstr "Trabalhar em conjunto com outros programas"
 
 #: ../../user_manual/vector_graphics.rst:91
 msgid ""
@@ -226,15 +229,15 @@ msgid ""
 "this means is that Krita saves as SVG inside KRA files, and that means we "
 "can open SVGs just fine. This is important as SVG is the most popular vector "
 "format."
-msgstr ""
+msgstr "Um dos pontos principais que o Krita 4.0 trouxe foi mover-se do ODG para o SVG. O que isto significa é que o Krita grava como SVG dentro dos ficheiros KRA, o que também significa que é possível abrir perfeitamente os SVG's. Isto é importante, dado que o SVG é o formato vectorial mais conhecido."
 
 #: ../../user_manual/vector_graphics.rst:94
 msgid "Inkscape"
-msgstr ""
+msgstr "Inkscape"
 
 #: ../../user_manual/vector_graphics.rst:96
 msgid ""
 "You can copy and paste vectors from Krita to Inkscape, or from Inkscape to "
 "Krita. Only the SVG 1.1 features are supported, so don't be surprised if a "
 "mesh gradient doesn't cross over very well."
-msgstr ""
+msgstr "Pode copiar e colar os vectores do Krita para o Inkscape, ou do Inkscape para o Krita. Só são suportadas as funcionalidades do SVG 1.1, por isso não se admire se um gradiente em malha não for migrado correctamente."
