@@ -33,7 +33,7 @@ Hotkeys and Sticky keys
 
 .. note::
 
-    You can switch the behaviour of the Alt key to use Ctrl instead by toggling the switch in the :ref:`general_settings`
+    You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`
 
 Tool Options
 ------------

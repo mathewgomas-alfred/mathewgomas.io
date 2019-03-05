@@ -311,7 +311,7 @@ Suppose you want more or less smooth color transitions. You can either:
 This remains, in fact, a so-so way of making smooth transitions. It's best to build up intermediate values instead. Here:
 
 * I first passed over the blue area three times with a red color. I select 3 shades.
-* I color picked each of these values with Ctrl+click, then used them in succession
+* I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then used them in succession
 
 .. image:: /images/en/Krita-tutorial5-III.2-2.png
 

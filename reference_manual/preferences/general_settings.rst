@@ -138,7 +138,7 @@ In docker (default)
 In toolbar
     Gives you the tool options in the toolbar, next to the brush settings. You can open it with :kbd:`\\`.
 
-Switch ctrl/alt modifiers
+Switch Control/Alt Selection Modifiers
     This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
 
 Enable Touchpainting
