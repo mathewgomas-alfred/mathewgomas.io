@@ -25,6 +25,9 @@ Color Selector
 
 Here you configure the main selector.
 
+Show Color Selector
+    This allows you to configure whether to show or hide the main color selector.
+
 Type and Shape
 ~~~~~~~~~~~~~~
 
