@@ -36,5 +36,7 @@ Translate
     Translate will paint the set number of instances around the cursor at the radius distance.
 Snowflake
     This works as a mirrored symmetry, but is a bit slower than symmetry+toolbar mirror mode.
+Copy Translate
+    This allows you to set the position of the copies relative to your own cursor. To set the position of the copies, first toggle :guilabel:`Add`, and then |mouseleft| the canvas to place copies relative to the multibrush origin. Finally, press :guilabel:`Add` again, and start drawing to see the copy translate in action.
 
 The assistant and smoothing options work the same as in the :ref:`freehand_brush_tool`, though only on the real brush and not its copies.
