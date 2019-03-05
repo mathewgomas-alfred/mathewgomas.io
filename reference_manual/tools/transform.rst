@@ -87,6 +87,18 @@ Create a cage around an image, and when it's closed, you can use it to deform th
 
     Transforming a straight banana to be curved with the cage tool
 
+Adjust Granularity
+~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 4.2
+
+This adjusts the precision of the cage transform grid. Lower precision gives more speed but also gives less precise results.
+
+Preview
+    Adjusts the granularity of the preview. It is recommended to have this lower than the :guilabel:`Real` value, as it speeds up adjusting.
+Real
+    Adjusts the granularity of the final result.
+
 Hotkeys
 ~~~~~~~
 
