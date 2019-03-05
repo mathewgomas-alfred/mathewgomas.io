@@ -13,6 +13,8 @@
 Quadratic
 ---------
 
+.. versionadded:: 4.2
+
 The quadratic blending modes are a set of modes intended to give various effects when adding light zones or overlaying shiny objects.
 
 .. _bm_cat_freeze:

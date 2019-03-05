@@ -185,6 +185,8 @@ Kinetic Scrolling (Needs Restart)
 File Handling
 -------------
 
+.. versionadded:: 4.2
+
 Enable Autosaving
     Determines whether or not Krita should periodically autosave.
 Autosave Every
