@@ -31,7 +31,7 @@ Brush Packs
                
                Ramon Miranda
           - .. figure:: /images/en/resource_packs/Resources-conceptBrushes.jpg
-               :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
+               :target: https://drive.google.com/open?id=1hrH4xzMRwzV0SBEt2K8faqZ_YUX-AdyJ
                
                Concept art & Illustration Pack
         * - .. figure:: /images/en/resource_packs/Resources-aldyBrushes.jpg
