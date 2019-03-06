@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the Krita Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
@@ -12,9 +11,11 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:0
 msgid ".. image:: images/en/Krita_2_9_brushengine_texture_01.png"
@@ -42,7 +43,9 @@ msgid "Texture"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:18
-msgid "This allows you to have textured strokes. This parameter always shows up as two parameters:"
+msgid ""
+"This allows you to have textured strokes. This parameter always shows up as "
+"two parameters:"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:23
@@ -59,7 +62,9 @@ msgid "Scale"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:26
-msgid "The size of the pattern. 1.0 is 100%. .. image:: /images/en/Krita_2_9_brushengine_texture_05.png"
+msgid ""
+"The size of the pattern. 1.0 is 100%. .. image:: /images/en/"
+"Krita_2_9_brushengine_texture_05.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:29
@@ -67,7 +72,9 @@ msgid "Horizontal Offset & Vertical Offset"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:29
-msgid "How much a brush is offset, random offset sets a new per stroke. .. image:: /images/en/Krita_2_9_brushengine_texture_04.png"
+msgid ""
+"How much a brush is offset, random offset sets a new per stroke. .. image:: /"
+"images/en/Krita_2_9_brushengine_texture_04.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:32
@@ -75,7 +82,9 @@ msgid "Multiply"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:33
-msgid "Uses alpha multiplication to determine the effect of the texture. Has a soft feel."
+msgid ""
+"Uses alpha multiplication to determine the effect of the texture. Has a soft "
+"feel."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:35
@@ -83,7 +92,9 @@ msgid "Subtract"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:35
-msgid "Uses subtraction to determine the effect of the texture. Has a harsher, more texture feel."
+msgid ""
+"Uses subtraction to determine the effect of the texture. Has a harsher, more "
+"texture feel."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:37
@@ -91,7 +102,9 @@ msgid "Texturing mode"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:40
-msgid "Cutoff policy will determine what range and where the strength will affect the textured outcome."
+msgid ""
+"Cutoff policy will determine what range and where the strength will affect "
+"the textured outcome."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:42
@@ -119,7 +132,14 @@ msgid "Cutoff policy"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:52
-msgid "Cutoff is... the grayscale range that you can limit the texture to. This also affects the limit takes by the strength. In the below example, we move from the right arrow moved close to the left one, resulting in only the darkest values being drawn. After that, three images with larger range, and underneath that, three ranges with the left arrow moved, result in the darkest values being cut away, leaving only the lightest. The last example is the pattern without cutoff."
+msgid ""
+"Cutoff is... the grayscale range that you can limit the texture to. This "
+"also affects the limit takes by the strength. In the below example, we move "
+"from the right arrow moved close to the left one, resulting in only the "
+"darkest values being drawn. After that, three images with larger range, and "
+"underneath that, three ranges with the left arrow moved, result in the "
+"darkest values being cut away, leaving only the lightest. The last example "
+"is the pattern without cutoff."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:54
@@ -127,7 +147,9 @@ msgid "Cutoff"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:57
-msgid "Invert the pattern. .. image:: /images/en/Krita_2_9_brushengine_texture_06.png"
+msgid ""
+"Invert the pattern. .. image:: /images/en/Krita_2_9_brushengine_texture_06."
+"png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:58
@@ -135,7 +157,10 @@ msgid "Invert Pattern"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:61
-msgid "Adjust the pattern with a simple brightness/contrast filter to make it easier to use. Because Subtract and Multiply work differently, it's recommended to use different values with each:"
+msgid ""
+"Adjust the pattern with a simple brightness/contrast filter to make it "
+"easier to use. Because Subtract and Multiply work differently, it's "
+"recommended to use different values with each:"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:63
@@ -147,7 +172,9 @@ msgid "Strength"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:68
-msgid "This allows you to set the texture to Sensors. It will use the cutoff to continuously draw lighter values of the texture (making the result darker)"
+msgid ""
+"This allows you to set the texture to Sensors. It will use the cutoff to "
+"continuously draw lighter values of the texture (making the result darker)"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:71
@@ -155,5 +182,7 @@ msgid ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:74
-msgid "`David Revoy describing the texture feature (old) <http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_"
+msgid ""
+"`David Revoy describing the texture feature (old) <http://www.davidrevoy.com/"
+"article107/textured-brush-in-floss-digital-painting>`_"
 msgstr ""

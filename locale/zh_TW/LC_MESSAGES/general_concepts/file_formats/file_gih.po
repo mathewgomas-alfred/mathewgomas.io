@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the Krita Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
@@ -12,9 +11,11 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../general_concepts/file_formats/file_gih.rst:1
 msgid "The Gimp Image Hose file format in Krita."
@@ -25,11 +26,16 @@ msgid "\\*.gih"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:17
-msgid "The GIMP image hose format. Krita can open and save these, as well as import via the :ref:`predefined brush tab <predefined_brush_tip>`."
+msgid ""
+"The GIMP image hose format. Krita can open and save these, as well as import "
+"via the :ref:`predefined brush tab <predefined_brush_tip>`."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
-msgid "Image Hose means that this fileformat allows you to store multiple images and then set some options to make it specify how to output the multiple images."
+msgid ""
+"Image Hose means that this fileformat allows you to store multiple images "
+"and then set some options to make it specify how to output the multiple "
+"images."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
@@ -57,7 +63,9 @@ msgid "Incremental"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:32
-msgid "This'll paint the image layers in sequence. This is good for images that can be strung together to create a pattern."
+msgid ""
+"This'll paint the image layers in sequence. This is good for images that can "
+"be strung together to create a pattern."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:33
@@ -65,7 +73,9 @@ msgid "Pressure"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:34
-msgid "This'll paint the images depending on pressure. This is good for brushes imitating the hairs of a natural brush."
+msgid ""
+"This'll paint the images depending on pressure. This is good for brushes "
+"imitating the hairs of a natural brush."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:35
@@ -73,7 +83,10 @@ msgid "Random"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:36
-msgid "This'll draw the images randomly. This is good for image-collections used in speedpainting as well as images that generate texture. Or perhaps more graphical symbols."
+msgid ""
+"This'll draw the images randomly. This is good for image-collections used in "
+"speedpainting as well as images that generate texture. Or perhaps more "
+"graphical symbols."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
@@ -85,7 +98,11 @@ msgid "This'll use the dragging angle to determine with image to draw."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:40
-msgid "When exporting a krita file as a .gih, you will also get the option to set the default spacing, the option to set the name (very important for looking it up in the UI) and the ability to choose whether or not to generate the mask from the colors."
+msgid ""
+"When exporting a krita file as a .gih, you will also get the option to set "
+"the default spacing, the option to set the name (very important for looking "
+"it up in the UI) and the ability to choose whether or not to generate the "
+"mask from the colors."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
@@ -93,9 +110,14 @@ msgid "Use Color as Mask"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
-msgid "This'll turn the darkest values of the image as the ones that paint, and the whitest as transparent. Untick this if you are using colored images for the brush."
+msgid ""
+"This'll turn the darkest values of the image as the ones that paint, and the "
+"whitest as transparent. Untick this if you are using colored images for the "
+"brush."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:45
-msgid "We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to create your own gih brush."
+msgid ""
+"We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to "
+"create your own gih brush."
 msgstr ""
