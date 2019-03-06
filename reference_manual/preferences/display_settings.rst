@@ -48,6 +48,26 @@ Scaling Mode
     High Quality Filtering
         Only available when your graphics card supports OpenGL 3.0. As the name suggests, this setting provides the best looking image during canvas operations.
 
+.. _hdr_display_settings:
+
+HDR
+---
+
+.. versionadded:: 4.2
+
+    These settings are only available when using Windows.
+    
+Since 4.2 Krita can not just edit floating point images, but also render them on screen in a way that a HDR capable setup can show them as HDR images.
+
+The HDR settings will show you the display format that Krita can handle, and the current output format. You will want to set the preferred output format to the one closest to what your display can handle to make full use of it.
+
+Display Format
+    The format your display is in by default. If this isn't higher than 8bit, there's a good chance your monitor is not an HDR monitor as far as Krita can tell. This can be a hardware issue, but also a graphics driver issue. Check if other HDR applications, or the system HDR settings are configured correctly.
+Current Output format
+    What Krita is rendering the canvas to currently.
+Preferred Output Format
+    Which surface type you prefer. This should be ideally the closest to the display format, but perhaps due to driver issues you might want to try other formats. This requires a restart.
+
 Transparency Checkboxes 
 -----------------------
 

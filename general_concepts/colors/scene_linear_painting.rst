@@ -23,6 +23,10 @@ These are the two important characteristics. The colorspace has a few more prope
 
 So, *Scene Linear is not a single one colorspace, but a **TYPE** of colorspace*. You can have a scene linear space that uses the sRGB/rec 709 colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as long as it is *linear* and in a *floating point bit depth*.
 
+.. Note::
+
+    If you want to create images for display on an HDR canvas, you will need to select the rec 2020 space profile with a linear gamma. The default profile in Krita for that is :guilabel:`Rec2020-elle-V4-g10.icc`.
+
 These two factors are for one reason: To make black and white arbitrary values. This might seem a bit weird. But when you are dealing with light-sources, you are dealing with a massive range of contrasts, and will have to decide afterwards which white and black you’d like to have. This is what the scene means in scene-linear, the relevant values are unique per scene, like a real world scene: a flowerfield lit by moonlight, a city in twilight or a sunny beach. You want to be able to put the right emphasis on the most important contrasting values, and being able to choose what is white and what is black is a very powerful tool here. After all, humans in the real world can see much more when they get used to the dark, or to the sun, so why not apply that to how we make our images?
 
 This is also why it needs to be Linear. Gamma and Tone-mapped color spaces are already choosing which contrast is the most important to you. But for that, they too need to choose what is white or black. Linear doesn’t make such assumptions, so much better for when you want to choose yourself. You will eventually want to stick your image through some tone-mapping or gamma correction, but only at the end after you have applied filters and mixed colors!
@@ -120,11 +124,9 @@ Now we’ve covered the theory, let us look at a workflow for painting scene lin
 Setting up the Canvas
 ~~~~~~~~~~~~~~~~~~~~~
 
-Select either a 16bit or 32bit image. By default Krita will select a linear sRGB profile. This is fine.
+Select either a 16bit or 32bit image. By default Krita will select a linear sRGB profile. If you want to create images for HDR display, you will need to make sure that the profile selected is the :guilabel:`Rec2020-elle-V4-g10.icc` profile. HDR images are standardised to use the rec 2020 gamut, which is much larger than sRGB in size, so this ensures you've got access to all the colors.
 
-Then, download an OCIO config. I will use `Filmic Blender <https://sobotka.github.io/filmic-blender/>`_ here because it is quite simple to set up. Extract the downloaded zip somewhere you can find it back. Open the LUT docker, turn on OCIO, select ‘OCIO’ and set the path to the downloaded OCIO config.
-
-Set the view to ‘Filmic log encoding’ and the look to ‘Base Contrast’. And now you can start painting!
+If you're working on a non-HDR enabled monitor, you should enable ocio in the Lut Docker.
 
 Keep in mind everything mentioned above. Not all filters and not all blending modes work. This will improve in the future. Other than that, everything else is the same.
 
@@ -134,6 +136,7 @@ Picking really bright colors
 Picking regular colors is easy, but how do we pick the really bright colors? There are three ways of getting access to the really bright colors in Krita:
 
 #. By lowering the exposure in the LUT docker. This will increase the visible range of colors in the color selectors. You can even hotkey the exposure in the canvas input settings.
+#. By setting the nits slider in the :ref:`small_color_selector` higher than 100.
 #. Or simply by opening the internal color selector by double clicking the dual color button and typing in values higher than 1 into the field.
 #. And finally by picking a really bright color from an image that has such values.
 
@@ -159,6 +162,8 @@ The keen minded will notice that a lighting based workflow kind of resembles the
 Finishing up
 ~~~~~~~~~~~~
 
-When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
+When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png.
+
+For saving HDR images, check the :ref:`hdr_display` page.
 
 You can even use some of Blender’s or Natron’s filters at this stage, and when working with others, you would save out in EXR so that others can use those.

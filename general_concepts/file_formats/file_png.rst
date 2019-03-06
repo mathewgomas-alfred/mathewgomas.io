@@ -21,3 +21,6 @@
 png is a :ref:`lossless <lossless_compression>` fileformat, which means that it is able to maintain all the colors of your image perfectly. It does so at the cost of the file size being big, and therefore it is recommended to try :ref:`file_jpg` for images with a lot of gradients and different colors. Grayscale images will do better in png as well as images with a lot of text and sharp contrasts, like comics.
 
 Like :ref:`file_gif`, png can support indexed color. Unlike :ref:`file_gif`, png doesn't support animation. There have been two attempts at giving animation support to png, apng and mng, the former is unofficial and the latter too complicated, so neither have really taken off yet.
+
+.. versionadded:: 4.2
+    Since 4.2 we support saving HDR to PNG as according to the `W3C PQ HDR PNG standard <https://www.w3.org/TR/png-hdr-pq/>`_. To save as such files, toggle :guilabel:`Save as HDR image (Rec. 2020 PQ)`, which will convert your image to the Rec 2020 PQ color space and then save it as a special HDR png.
