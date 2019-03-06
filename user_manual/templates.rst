@@ -27,7 +27,7 @@ We have the following defaults:
 Comic Templates
 ~~~~~~~~~~~~~~~
 
-These templates are specifically designed for you to just get started with drawing comics. The comic template relies on a system of vectors and clones of those vector layers which automatically reflect any changes made to the vector layers. In between these two, you can draw your picture, and not fear them drawing over the panel. Use Inherit Alpha to clip the drawing by the panel.
+These templates are specifically designed for you to just get started with drawing comics. The comic template relies on a system of vectors and clones of those vector layers which automatically reflect any changes made to the vector layers. In between these two, you can draw your picture, and not fear them drawing over the panel. Use :guilabel:`Inherit Alpha` to clip the drawing by the panel.
 
 European Bande Desinée Template.
  This one is reminiscent of the system used by for example TinTin or Spirou et Fantasio. These panels focus on wide images, and horizontal cuts.

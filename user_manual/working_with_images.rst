@@ -73,9 +73,9 @@ DPI/PPI
 
 **DPI** stands for *Dots per Inch*, **PPI** stands for *Pixels per
 Inch*. In printing industry, suppose if your printer prints at 300
-**DPI** It means it is actually putting 300 dots of colors in an area
+**DPI**. It means it is actually putting 300 dots of colors in an area
 equal to an Inch. This means the number of pixels your artwork has in a
-relative area of an Inch.
+relative area of an inch.
 
 **DPI** is the concern of the printer, and artists while creating
 artwork should keep **PPI** in mind. According to the **PPI** you have
@@ -99,7 +99,7 @@ Some standards:
 Color depth
 ~~~~~~~~~~~
 
-We went over color depth in the Color Management page. What you need to
+We went over color depth in the :ref:`Color Management page <general_concept_color>`. What you need to
 understand is that Krita has image color spaces, and layer color spaces,
 the latter which can save memory if used right. For example, having a
 line art layer in grayscale can half the memory costs.
@@ -110,7 +110,7 @@ Image color space vs layer color space vs conversion.
 Because there's a difference between image color space and layer color
 space, you can change only the image color space in :menuselection:`Image --> Properties` which will leave the layers alone. But if you want to change the color
 space of the file including all the layers you can do it by going to
-:menuselection:`Image --> Convert Image Color Space` this will convert all the layers Color space as well.
+:menuselection:`Image --> Convert Image Color Space` this will convert all the layers color space as well.
 
 Author and Description
 ----------------------
@@ -123,9 +123,9 @@ and modification, Krita also shows editing time of a document in the
 document information dialog, useful for professional illustrators,
 speed-painters to keep track of the time they worked on artwork for
 billing purposes. It detects when you haven’t performed actions for a
-while, and has a precision of +- 60 seconds. You can empty it in the
+while, and has a precision of ±60 seconds. You can empty it in the
 document info dialog and of course by unzipping you .kra file and
-editing the meta-data there.
+editing the metadata there.
 
 These things can be edited in :menuselection:`File --> Document Information`, and for the author's information :menuselection:`Settings --> Configure Krita --> Author Information`. Profiles can be switched under :menuselection:`Settings --> Active Author Profile`.
 
@@ -133,7 +133,7 @@ Setting the canvas background color
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can set the canvas background color via :menuselection:`Image --> Image Background
-color and Transparency`. This allows you to turn the background color
+Color and Transparency`. This allows you to turn the background color
 non-transparent and to change the color. This is also useful for certain file
 formats which force a background color instead of transparency. PNG and
 JPG export use this color as the default color to fill in transparency
@@ -171,10 +171,10 @@ Using :menuselection:`Image --> Trim to Layer`, Krita resizes the image to the d
 of the layer selected. Useful for when you paste a too large image into
 the layer and want to resize the canvas to the extent of this layer.
 
-:menuselection:`Image --> Trim to Selection` is a faster cousin to the crop tool, This helps
+:menuselection:`Image --> Trim to Selection` is a faster cousin to the crop tool. This helps
 us to resize the canvas to the dimension of any active selection. This
 is especially useful with right clicking the layer on the layer stack
-and choosing Select Opaque. :menuselection:`Image --> Trim to Selection` will then crop the
+and choosing :guilabel:`Select Opaque`. :menuselection:`Image --> Trim to Selection` will then crop the
 canvas to the selection bounding box.
 
 :menuselection:`Image --> Trim to Image Size` is actually for layers, and will trim all
@@ -190,7 +190,7 @@ C`). The dialog box is shown below.
 .. image:: /images/en/Resize_Canvas.png
 
 In this, constraint proportions will make sure the height and width stay
-in proportion to each other as you change them. Offset makes indicates
+in proportion to each other as you change them. Offset indicates
 where the new canvas space is added around the current image. You
 basically decide where the current image goes (if you press the
 left-button, it'll go to the center left, and the new canvas space will
@@ -244,7 +244,7 @@ Saving, Exporting and Opening Files
 
 When Krita creates or opens a file, it has a copy of the file in memory,
 that it edits. This is part of the way how computers work: They make a
-copy of their file in the ram. Thus, when saving, Krita takes its copy
+copy of their file in the RAM. Thus, when saving, Krita takes its copy
 and copies it over the existing file. There's a couple of tricks you can
 do with saving.
 
@@ -276,4 +276,4 @@ Save Incremental Backup
     
 
 .. note::
-    Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On windows, you will need to rename it to filename.zip to open it.
+    Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On Windows, you will need to rename it to filename.zip to open it.
