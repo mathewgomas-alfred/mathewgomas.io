@@ -122,7 +122,7 @@ Split...
     Split Layer
         :ref:`Split the layer <split_layer>` into given color fields.
     Clones Array
-        A complex bit of functionality to generate clone-layers for quick sprite making.
+        A complex bit of functionality to generate clone-layers for quick sprite making. See :ref:`clones_array` for more details.
 
 Edit Metadata
     Each layer can have its own metadata.
