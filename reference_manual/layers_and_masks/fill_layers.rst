@@ -27,6 +27,20 @@ Pattern
 
 Color
     The second option is not quite as exciting, but does the job. Fill the layer with a selected color.
+    
+Simplex Noise
+    .. versionadded:: 4.2
+    
+    A noise generator that isn't Perline Noise (which is what typical 'clouds' generation is), but it looks similar and can actually loop. Uses the OpenSimplex code.
+    
+    Looping
+        Whether or not to force the pattern to loop.
+    Frequency
+        The frequency of the waves used to generate the pattern. Higher frequency results in a finer noise pattern.
+    Ratio
+        The ratio of the waves in the x and y dimensions. This makes the noise have a retangular appearance.
+    Use Custom Seed
+        The seed for the random component. You can input any value or text here, and it will always try to use this value to generate the random values with(which then are always the same for a given seed).
 
 Painting on a fill layer
 ------------------------
