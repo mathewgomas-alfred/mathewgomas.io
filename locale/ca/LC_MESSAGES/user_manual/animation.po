@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___animation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-04 17:15+0100\n"
+"PO-Revision-Date: 2019-03-06 23:10+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -24,10 +24,12 @@ msgid ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
 "   :alt: mouseright"
 msgstr ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: botó dret del ratolí"
 
 #: ../../user_manual/animation.rst:1
 msgid "Detailed guide on the animation workflow in Krita."
-msgstr ""
+msgstr "Guia detallada sobre el flux de treball amb l'animació en el Krita."
 
 #: ../../user_manual/animation.rst:18
 msgid "Animation with Krita"
@@ -40,6 +42,10 @@ msgid ""
 "still a lot of elements missing from it, like tweening, but the basic "
 "workflow is there."
 msgstr ""
+"Gràcies al Kickstarter de 2015, el :program:`Krita 3.0` ara té animació. En "
+"específic, el :program:`Krita` té animació rasteritzada fotograma per "
+"fotograma. Encara falten molts elements, com la interpolació, però el flux "
+"de treball bàsic hi és."
 
 #: ../../user_manual/animation.rst:25
 msgid ""
@@ -47,6 +53,9 @@ msgid ""
 "workspace to Animation. This will make the animation dockers and workflow "
 "appear."
 msgstr ""
+"Per accedir a les característiques de l'animació, la forma més senzilla és "
+"canviar el vostre espai de treball a Animació. Això farà que apareguin els "
+"acobladors animació i flux de treball."
 
 #: ../../user_manual/animation.rst:30
 msgid "Animation curves"
@@ -61,6 +70,14 @@ msgid ""
 "upcoming keyframe in the timeline over the frames between them. See :ref:"
 "`animation curves <animation_curves_docker>` for details"
 msgstr ""
+"Per a crear una corba d'animació (actualment només per opacitat) s'expandeixi "
+"el botó “Fotograma nou“ a l'acoblador “Animació“ i feu clic a “Afegeix un "
+"fotograma clau d'opacitat“. Ara podreu editar el valor del fotograma clau "
+"directament per a l'opacitat a l'acoblador “Capes“, afegint-hi més "
+"fotogrames clau, s'esvairan de manera predeterminada des de l'últim "
+"fotograma clau al següent més proper seguint en la línia de temps sobre els "
+"fotogrames entre ells. Per a més detalls, vegeu :ref:`corbes d'animació "
+"<animation_curves_docker>`."
 
 #: ../../user_manual/animation.rst:40
 msgid "Workflow"
@@ -72,10 +89,14 @@ msgid ""
 "frames*, which contain the important poses, and then draw frames in between "
 "(\\ *tweening* in highly sophisticated animator's jargon)."
 msgstr ""
+"En el flux de treball tradicional de l'animació, el que fa és crear "
+"*fotogrames clau*, els quals contenen les postures importants, i després "
+"dibuixar fotogrames entre ells (\\ *interpolació* en l'argot altament "
+"sofisticat dels animadors)."
 
 #: ../../user_manual/animation.rst:46
 msgid "For this workflow, there are three important dockers:"
-msgstr ""
+msgstr "Per a aquest flux de treball, hi ha tres acobladors importants:"
 
 #: ../../user_manual/animation.rst:48
 msgid ""
@@ -84,6 +105,10 @@ msgid ""
 "layers. The layer that are created in the timeline docker also appear on the "
 "normal Layer docker."
 msgstr ""
+"El :ref:`timeline_docker`. Veureu i controlareu tots els fotogrames de la "
+"vostra animació. L'acoblador línia de temps també conté característiques per "
+"a gestionar les capes. La capa creada en l'acoblador línia de temps també "
+"apareixerà a l'acoblador Capa normal."
 
 #: ../../user_manual/animation.rst:52
 msgid ""
@@ -91,16 +116,23 @@ msgid ""
 "ability to change the frame-rate, playback speed and useful little options "
 "like :guilabel:`auto-key framing`."
 msgstr ""
+"El :ref:`animation_docker`. Aquest acoblador conté els botons de reproducció "
+"amb la possibilitat de canviar la velocitat dels fotogrames, velocitat de "
+"reproducció i petites opcions d'utilitat, com ara :guilabel:`enquadrament de "
+"fotogrames clau`."
 
 #: ../../user_manual/animation.rst:55
 msgid ""
 "The :ref:`onion_skin_docker`. This docker controls the look of the onion "
 "skin, which in turn is useful for seeing the previous frame."
 msgstr ""
+"El :ref:`onion_skin_docker`. Aquest acoblador controla l'aspecte de la pell "
+"de ceba, que al seu torn és útil per a veure el fotograma anterior."
 
+# Nota: https://en.wikipedia.org/wiki/Walk_cycle
 #: ../../user_manual/animation.rst:60
 msgid "Introduction to animation: How to make a walkcycle"
-msgstr ""
+msgstr "Introducció a l'animació: Com fer un cicle de caminar"
 
 #: ../../user_manual/animation.rst:62
 msgid ""
@@ -109,14 +141,19 @@ msgid ""
 "animation, because of all the different parts involved with them. Therefore, "
 "going over how one makes a walkcycle should serve as a good introduction."
 msgstr ""
+"La millor manera d'entendre totes aquestes diferents parts és utilitzar-les. "
+"Els cicles de caminar es consideren la forma més bàsica d'una animació "
+"completa, a causa de les diferents parts involucrades en elles. Per tant, "
+"repassar com es crea un cicle de caminar hauria de servir com una bona "
+"introducció."
 
 #: ../../user_manual/animation.rst:69
 msgid "Setup"
-msgstr ""
+msgstr "Disposició"
 
 #: ../../user_manual/animation.rst:71
 msgid "First, we make a new file:"
-msgstr ""
+msgstr "Primer, crearem un fitxer nou:"
 
 #: ../../user_manual/animation.rst:74
 msgid ".. image:: images/en/Introduction_to_animation_01.png"
@@ -127,6 +164,9 @@ msgid ""
 "On the first tab, we type in a nice ratio like 1280x1024, set the dpi to 72 "
 "(we're making this for screens after all) and title the document 'walkcycle'."
 msgstr ""
+"A la primera pestanya, escriurem una bona relació com 1280x1024, establint el "
+"ppp a 72 (després de tot, això ho fem per a les pantalles) i el títol del "
+"document 'cicle de caminar'."
 
 #: ../../user_manual/animation.rst:79
 msgid ""
@@ -137,6 +177,12 @@ msgid ""
 "people doing animation, as the layer you do animation on MUST be semi-"
 "transparent to get onion skinning working."
 msgstr ""
+"A la segona pestanya, triem un bon color de fons i establim el fons al color "
+"del llenç. Això vol dir que el Krita omplirà automàticament tots els bits "
+"transparents amb el color de fons. Ho podeu canviar a :menuselection:`Imatge "
+"--> Propietats de la imatge`. Això sembla el més útil per a les persones que "
+"fan animacions, ja que la capa que fa l'animació HA de ser semitransparent "
+"per aconseguir que funcioni la pell de ceba."
 
 #: ../../user_manual/animation.rst:82
 msgid ""
@@ -146,16 +192,23 @@ msgid ""
 "you to leave comments behind. Not many people use it individually, but it "
 "can be useful for working in larger groups."
 msgstr ""
+"El Krita té un munt de funcions per a les metadades, començant a la pantalla "
+":guilabel:`Crea un document`. El títol serà emprat automàticament com un "
+"suggeriment per al desament i la descripció pot ser utilitzada per les bases "
+"de dades, o perquè deixeu comentaris. Individualment, no el fa servir gaire "
+"gent, però pot ser útil per a treballar en grups grans."
 
 #: ../../user_manual/animation.rst:84
 msgid "Then hit create!"
-msgstr ""
+msgstr "Després premeu crea!"
 
 #: ../../user_manual/animation.rst:86
 msgid ""
 "Then, to get all the necessary tools for animation, select the workspace "
 "switcher:"
 msgstr ""
+"Després, per obtenir totes les eines necessàries per a l'animació, "
+"seleccioneu el commutador de l'espai de treball:"
 
 #: ../../user_manual/animation.rst:91
 msgid ".. image:: images/en/Introduction_to_animation_02.png"
@@ -163,15 +216,15 @@ msgstr ".. image:: images/en/Introduction_to_animation_02.png"
 
 #: ../../user_manual/animation.rst:91
 msgid "The red arrow points at the workspace switcher."
-msgstr ""
+msgstr "La fletxa vermella apunta al commutador de l'espai de treball."
 
 #: ../../user_manual/animation.rst:93
 msgid "And select the animation workspace."
-msgstr ""
+msgstr "I seleccioneu l'espai de treball de l'animació."
 
 #: ../../user_manual/animation.rst:95
 msgid "Which should result in this:"
-msgstr ""
+msgstr "El que hauria de resultar en això:"
 
 #: ../../user_manual/animation.rst:98
 msgid ".. image:: images/en/Introduction_to_animation_03.png"
@@ -182,10 +235,12 @@ msgid ""
 "The animation workspace adds the timeline, animation and onion skin dockers "
 "at the bottom."
 msgstr ""
+"L'espai de treball de l'animació afegeix els acobladors línia de temps, "
+"animació i pell de ceba a la part inferior."
 
 #: ../../user_manual/animation.rst:103
 msgid "Animating"
-msgstr ""
+msgstr "Animant"
 
 #: ../../user_manual/animation.rst:105
 msgid ""
@@ -193,6 +248,9 @@ msgid ""
 "'environment' and the top 'walkcycle' by double clicking their names in the "
 "layer docker."
 msgstr ""
+"Tenim configurades dues capes transparents. Anomenem el primer 'entorn' i la "
+"part superior 'Cicle de caminar' fent doble clic en els seus noms a "
+"l'acoblador capa."
 
 #: ../../user_manual/animation.rst:110
 msgid ".. image:: images/en/Introduction_to_animation_04.png"
@@ -203,6 +261,8 @@ msgid ""
 "Use the straight line tool to draw a single horizontal line. This is the "
 "ground."
 msgstr ""
+"Empreu l'eina de línia recta per a dibuixar una sola línia horitzontal. "
+"Aquest serà el terra."
 
 #: ../../user_manual/animation.rst:115
 msgid ".. image:: images/en/Introduction_to_animation_05.png"
@@ -213,12 +273,17 @@ msgid ""
 "Then, select the 'walkcycle' layer and draw a head and torso (you can use "
 "any brush for this)."
 msgstr ""
+"Després, seleccioneu la capa 'Cicle de caminar' i dibuixeu un cap i un tors "
+"(per això, podeu utilitzar qualsevol pinzell)."
 
 #: ../../user_manual/animation.rst:118
 msgid ""
 "Now, selecting a new frame will not make a new frame automatically. Krita "
 "doesn't actually see the 'walkcycle' layer as an animated layer at all!"
 msgstr ""
+"Ara, seleccionant un fotograma nou no es crearà un fotograma nou "
+"automàticament. El Krita, en realitat no veu la capa 'Cicle de caminar' com "
+"una capa animada en absolut!"
 
 #: ../../user_manual/animation.rst:123
 msgid ".. image:: images/en/Introduction_to_animation_06.png"
@@ -229,6 +294,9 @@ msgid ""
 "We can make it animatable by adding a frame to the timeline. |mouseright| a "
 "frame in the timeline to get a context menu. Choose New Frame"
 msgstr ""
+"Podem fer-ho animable afegint un fotograma a la línia de temps. |botó dret "
+"del ratolí| sobre un fotograma a la línia de temps per obtenir un menú "
+"contextual. Trieu Fotograma nou"
 
 #: ../../user_manual/animation.rst:128
 msgid ".. image:: images/en/Introduction_to_animation_07.png"
@@ -239,6 +307,8 @@ msgid ""
 "You can see it has become an animated layer because of the onion skin icon "
 "showing up in the timeline docker."
 msgstr ""
+"Podeu veure que s'ha convertit en una capa animada pel fet que la icona de la "
+"pell de ceba apareix a l'acoblador línia de temps."
 
 #: ../../user_manual/animation.rst:133
 msgid ".. image:: images/en/Introduction_to_animation_08.png"
@@ -249,10 +319,13 @@ msgid ""
 "Use the to copy frame to copy the first frame onto the second. Then, use the "
 "with :kbd:`Shift + ↑` to move the frame contents up."
 msgstr ""
+"Utilitzeu Copia el fotograma per a copiar el primer fotograma al segon. "
+"Després, utilitzeu la drecera :kbd:`Majús + ↑` per a moure el contingut del "
+"fotograma cap amunt."
 
 #: ../../user_manual/animation.rst:138
 msgid "We can see the difference by turning on the onionskinning:"
-msgstr ""
+msgstr "Podem veure la diferència activant la pell de ceba:"
 
 #: ../../user_manual/animation.rst:141
 msgid ".. image:: images/en/Introduction_to_animation_09.png"
@@ -260,7 +333,7 @@ msgstr ".. image:: images/en/Introduction_to_animation_09.png"
 
 #: ../../user_manual/animation.rst:142
 msgid "Now, you should see the previous frame as red."
-msgstr ""
+msgstr "Ara, hauríeu de veure el fotograma anterior en vermell."
 
 #: ../../user_manual/animation.rst:145
 msgid ""
@@ -269,6 +342,10 @@ msgid ""
 "drawing. You can fix the situation by use the :ref:`filter_color_to_alpha` "
 "filter, but prevention is best."
 msgstr ""
+"El Krita veu el blanc com un color, no com a transparent, així que "
+"assegureu-vos que la capa de l'animació en la qual esteu treballant sigui "
+"transparent en els bits on no hi ha dibuix. Podeu arreglar-ho emprant el "
+"filtre :ref:`filter_color_to_alpha`, però el millor és la prevenció."
 
 #: ../../user_manual/animation.rst:148
 msgid ".. image:: images/en/Introduction_to_animation_10.png"
@@ -279,6 +356,8 @@ msgid ""
 "Future frames are drawn in green, and both colors can be configured in the "
 "onion skin docker."
 msgstr ""
+"Els fotogrames futurs es dibuixaran en verd i ambdós colors es poden "
+"configurar a l'acoblador pell de ceba."
 
 #: ../../user_manual/animation.rst:153
 msgid ".. image:: images/en/Introduction_to_animation_11.png"
@@ -290,12 +369,18 @@ msgid ""
 "where both legs are as far apart as possible, and the pose where one leg is "
 "full stretched and the other pulled in, read to take the next step."
 msgstr ""
+"Ara, dibuixarem els dos extrems del cicle de caminar. Aquestes seran les "
+"postures en les que totes dues cames estan el més separades possible, i la "
+"postura on una cama està completament estirada i l'altra arronsada, llegiu "
+"per a fer el següent pas."
 
 #: ../../user_manual/animation.rst:159
 msgid ""
 "Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but "
 "here comes a tricky bit:"
 msgstr ""
+"Ara, copiem aquests dos... Podríem fer-ho amb :kbd:`Ctrl + arrossega`, però "
+"aquí esdevé una mica difícil:"
 
 #: ../../user_manual/animation.rst:163
 msgid ".. image:: images/en/Introduction_to_animation_12.png"
@@ -305,20 +390,26 @@ msgstr ".. image:: images/en/Introduction_to_animation_12.png"
 msgid ""
 ":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
 msgstr ""
+":kbd:`Ctrl + |botó esquerra del ratolí|` també selecciona i desselecciona els "
+"fotogrames, per a copiar..."
 
 #: ../../user_manual/animation.rst:166
 msgid ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
 msgstr ""
+":kbd:`Ctrl + |botó esquerra del ratolí|` per a seleccionar tots els "
+"fotogrames que voleu seleccionar."
 
 #: ../../user_manual/animation.rst:167
 msgid ""
 ":kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange', "
 "otherwise it won't be copied along."
 msgstr ""
+":kbd:`Ctrl + arrossega`. Haureu d'assegurar-vos que el primer fotograma sigui "
+"'taronja', en cas contrari no es copiarà."
 
 #: ../../user_manual/animation.rst:170
 msgid "Now then..."
-msgstr ""
+msgstr "Ara, ja que..."
 
 #: ../../user_manual/animation.rst:175
 msgid ".. image:: images/en/Introduction_to_animation_13.png"
@@ -326,35 +417,37 @@ msgstr ".. image:: images/en/Introduction_to_animation_13.png"
 
 #: ../../user_manual/animation.rst:175
 msgid "squashed the timeline docker a bit to save space"
-msgstr ""
+msgstr "s'ha aixafat l'acoblador línia de temps per estalviar espai."
 
 #: ../../user_manual/animation.rst:177
 msgid "Copy frame 0 to frame 2"
-msgstr ""
+msgstr "Copia el fotograma 0 al fotograma 2"
 
 #: ../../user_manual/animation.rst:178
 msgid "Copy frame 1 to frame 3"
-msgstr ""
+msgstr "Copia el fotograma 1 al fotograma 3"
 
 #: ../../user_manual/animation.rst:179
 msgid "In the animation docker, set the frame-rate to 4"
-msgstr ""
+msgstr "A l'acoblador animació, establiu la velocitat dels fotogrames a 4"
 
 #: ../../user_manual/animation.rst:180
 msgid "select all frames in the timeline docker by dragging-selecting them."
 msgstr ""
+"seleccioneu tots els fotogrames a l'acoblador línia de temps arrossegant la "
+"selecció."
 
 #: ../../user_manual/animation.rst:181
 msgid "press play in the animation docker."
-msgstr ""
+msgstr "premeu reprodueix a l'acoblador animació."
 
 #: ../../user_manual/animation.rst:182
 msgid "Enjoy your first animation!"
-msgstr ""
+msgstr "Gaudiu de la vostra primera animació!"
 
 #: ../../user_manual/animation.rst:185
 msgid "Expanding upon your rough walkcycle"
-msgstr ""
+msgstr "Ampliar en brut el vostre cicle de caminar"
 
 #: ../../user_manual/animation.rst:188
 msgid ".. image:: images/en/Introduction_to_animation_14.png"
@@ -365,10 +458,13 @@ msgid ""
 "You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
 "move that frame and all others after it in one go."
 msgstr ""
+"Podeu fer una mica d'espai ràpidament amb :kbd:`Alt + arrossega` en qualsevol "
+"fotograma. Això mourà aquest fotograma i tots els altres després d'una sola "
+"vegada."
 
 #: ../../user_manual/animation.rst:192
 msgid "Then draw inbetweens on each frame that you add"
-msgstr ""
+msgstr "Després, dibuixeu entre cada fotograma que afegiu"
 
 #: ../../user_manual/animation.rst:195
 msgid ".. image:: images/en/Introduction_to_animation_16.png"
@@ -379,6 +475,8 @@ msgid ""
 "You'll find that the more frames you add, the more difficult it becomes to "
 "keep track of the onion skins."
 msgstr ""
+"Trobareu que com més fotogrames afegiu, més difícil serà fer un seguiment de "
+"les pells de ceba."
 
 #: ../../user_manual/animation.rst:198
 msgid ""
@@ -387,6 +485,11 @@ msgid ""
 "The bottom row is for controlling transparency, while below there you can "
 "modify the colors and extremity of the coloring."
 msgstr ""
+"Podeu modificar la pell de ceba utilitzant l'acoblador pell de ceba, on "
+"podreu canviar la quantitat de fotogrames que es podran veure alhora, "
+"alternant-los a la fila superior. La fila inferior és per a controlar la "
+"transparència, mentre que a sota poden modificar els colors i l'extremitat "
+"de la coloració."
 
 #: ../../user_manual/animation.rst:204
 msgid ".. image:: images/en/Introduction_to_animation_15.png"
@@ -394,13 +497,15 @@ msgstr ".. image:: images/en/Introduction_to_animation_15.png"
 
 #: ../../user_manual/animation.rst:206
 msgid "Animating with multiple layers"
-msgstr ""
+msgstr "Animació amb múltiples capes"
 
 #: ../../user_manual/animation.rst:208
 msgid ""
 "Okay, our walkcycle is missing some hands, let's add them on a separate "
 "layer. So we make a new layer, and name it hands and..."
 msgstr ""
+"Va bé. Al nostre cicle de caminar li falten algunes mans, les hi afegirem en "
+"una capa separada. Així que crearem una capa nova i l'anomenarem mans, i..."
 
 #: ../../user_manual/animation.rst:212
 msgid ".. image:: images/en/Introduction_to_animation_17.png"
@@ -413,6 +518,11 @@ msgid ""
 "to remove the layers they're not working on from the timeline docker. So you "
 "manually have to add them."
 msgstr ""
+"El nostre cicle de caminar ha desaparegut de l'acoblador línia de temps! Això "
+"en realitat és una característica. Una animació completa pot tenir tantes "
+"parts petites que un animador podria voler eliminar les capes que estan "
+"treballant des de l'acoblador línia de temps. De manera que haureu "
+"d'afegir-les manualment."
 
 #: ../../user_manual/animation.rst:219
 msgid ".. image:: images/en/Introduction_to_animation_18.png"
@@ -423,6 +533,8 @@ msgid ""
 "You can show any given layer in the timeline by doing on the layer in the "
 "layer docker, and toggling :guilabel:`show in timeline`."
 msgstr ""
+"Podeu mostrar qualsevol capa donada a la línia de temps fent-ho sobre la capa "
+"a l'acoblador capa, i alternant :guilabel:`Mostra a la línia de temps`."
 
 #: ../../user_manual/animation.rst:224
 msgid ".. image:: images/en/Introduction_to_animation_19.png"
@@ -435,6 +547,7 @@ msgstr "Exportant"
 #: ../../user_manual/animation.rst:228
 msgid "When you are done, select :menuselection:`File --> Export Animation`"
 msgstr ""
+"Quan hàgiu acabat, seleccioneu :menuselection:`Fitxer --> Exporta l'animació`"
 
 #: ../../user_manual/animation.rst:231
 msgid ".. image:: images/en/Introduction_to_animation_20.png"
@@ -445,6 +558,8 @@ msgid ""
 "It's recommended to save out your file as a png, and preferably in its own "
 "folder. Krita can currently only export png sequences."
 msgstr ""
+"Es recomana desar el fitxer com a png i, preferentment, a la seva pròpia "
+"carpeta. Actualment, el Krita només exporta les seqüències a png."
 
 #: ../../user_manual/animation.rst:236
 msgid ".. image:: images/en/Introduction_to_animation_21.png"
@@ -455,6 +570,7 @@ msgid ""
 "When pressing done, you can see the status of the export in the status bar "
 "below."
 msgstr ""
+"En prémer fet, podreu veure l'estat de l'exportació a la barra d'estat."
 
 #: ../../user_manual/animation.rst:241
 msgid ".. image:: images/en/Introduction_to_animation_22.png"
@@ -464,12 +580,17 @@ msgstr ".. image:: images/en/Introduction_to_animation_22.png"
 msgid ""
 "The images should be saved out as filenameXXX.png, giving their frame number."
 msgstr ""
+"Les imatges s'hauran de desar com a nom_fitxerXXX.png, indicant el seu número "
+"de fotograma."
 
 #: ../../user_manual/animation.rst:245
 msgid ""
 "Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux, OSX, "
 "Windows), or any other gif creator to make a gif out of your image sequence:"
 msgstr ""
+"Després empreu quelcom com el Gimp (Linux, OSX, Windows), ImageMagick (Linux, "
+"OSX, Windows) o qualsevol altre creador de gif per a crear-ne un amb la "
+"vostra seqüència d'imatges:"
 
 #: ../../user_manual/animation.rst:250
 msgid ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
@@ -480,36 +601,46 @@ msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
 "(Windows) and open all the frames and then go to File → Export → GIF"
 msgstr ""
+"Per exemple, podeu utilitzar el `VirtualDub <http://www.virtualdub.org/>`__\\ "
+"(Windows), obrir tots els fotogrames i després anar a «Fitxer → Exporta → "
+"GIF»"
 
 #: ../../user_manual/animation.rst:255
 msgid "Enjoy your walkcycle!"
-msgstr ""
+msgstr "Gaudiu del vostre cicle de caminar!"
 
 #: ../../user_manual/animation.rst:259
 msgid ""
 "Krita 3.1 has a render animation feature. If you're using the 3.1 beta, "
 "check out the :ref:`render_animation` page for more information!"
 msgstr ""
+"El Krita 3.1 té una característica de renderització de l'animació. Si esteu "
+"utilitzant la versió 3.1 beta, consulteu la pàgina :ref:`render_animation` "
+"per obtenir més informació!"
 
 #: ../../user_manual/animation.rst:262
 msgid "Importing animation frames"
-msgstr ""
+msgstr "Importar fotogrames d'animació"
 
 #: ../../user_manual/animation.rst:264
 msgid "You can import animation frames in Krita 3.0."
-msgstr ""
+msgstr "Al Krita 3.0 podeu importar fotogrames d'animació."
 
 #: ../../user_manual/animation.rst:266
 msgid ""
 "First let us take a sprite sheet from Open Game Art.(This is the Libre Pixel "
 "Cup male walkcycle)"
 msgstr ""
+"Primer prenguem un full d'sprites d'Open Game Art. (Aquest és el cicle de "
+"caminar masculí de la Libre Pixel Cup)"
 
 #: ../../user_manual/animation.rst:269
 msgid ""
 "And we'll use :menuselection:`Image --> Split Image to split up the sprite "
 "sheet`."
 msgstr ""
+"I l'utilitzarem :menuselection:`Imatge --> Divideix la imatge per a dividir "
+"el full de sprite`."
 
 #: ../../user_manual/animation.rst:272
 msgid ".. image:: images/en/Animation_split_spritesheet.png"
@@ -520,6 +651,9 @@ msgid ""
 "The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical "
 "slices and 0 horizontal slices. Give it a proper name and save it as png."
 msgstr ""
+"Les llesques són uniformes, de manera que per a un full de sprites de 9 "
+"sprites, utilitzeu 8 llesques verticals i 0 llesques horitzontals. Doneu-li "
+"un nom adequat i deseu-lo com a png."
 
 #: ../../user_manual/animation.rst:275
 msgid ""
@@ -527,6 +661,10 @@ msgid ""
 "Animation Frames`. This will give you a little window. Select :guilabel:`Add "
 "images`. This should get you a file browser where you can select your images."
 msgstr ""
+"Després, creeu un llenç nou i seleccioneu :menuselection:`Fitxer --> Importa "
+"fotogrames d'animació`. Això us donarà una petita finestra. Seleccioneu "
+":guilabel:`Afegeix imatges`. Això hauria de proporcionar-vos un explorador "
+"de fitxers on podreu seleccionar les vostres imatges."
 
 #: ../../user_manual/animation.rst:278
 msgid ".. image:: images/en/Animation_import_sprites.png"
@@ -534,7 +672,7 @@ msgstr ".. image:: images/en/Animation_import_sprites.png"
 
 #: ../../user_manual/animation.rst:279
 msgid "You can select multiple images at once."
-msgstr ""
+msgstr "Podeu seleccionar múltiples imatges alhora."
 
 #: ../../user_manual/animation.rst:282
 msgid ".. image:: images/en/Animation_set_everything.png"
@@ -545,6 +683,8 @@ msgid ""
 "The frames are currently automatically ordered. You can set the ordering "
 "with the top-left two drop-down boxes."
 msgstr ""
+"Actualment, els fotogrames s'ordenen automàticament. Podeu establir l'ordre "
+"amb les llistes desplegables que hi ha a la part superior esquerra."
 
 #: ../../user_manual/animation.rst:286
 msgid "Start"
@@ -552,7 +692,7 @@ msgstr "Inici"
 
 #: ../../user_manual/animation.rst:287
 msgid "Indicates at which point the animation should be imported."
-msgstr ""
+msgstr "Indiqueu en quin punt s'ha d'importar l'animació."
 
 #: ../../user_manual/animation.rst:289
 msgid ""
@@ -562,6 +702,12 @@ msgid ""
 "the window gives feedback on how much fps the imported animation would be "
 "with the currently given step."
 msgstr ""
+"Indica la diferència entre l'animació importada i la velocitat de fotogrames "
+"del document. Aquesta animació té 8 fotogrames grans i els fps del document "
+"són de 24 fotogrames, per la qual cosa hauria d'haver un pas de 3 per a "
+"mantenir-se uniforme. Com podeu veure, la finestra proporciona informació "
+"sobre la quantitat de fps que tindrà l'animació importada amb el pas actual "
+"fet."
 
 #: ../../user_manual/animation.rst:293
 msgid "Step"
@@ -570,6 +716,7 @@ msgstr "Pas"
 #: ../../user_manual/animation.rst:295
 msgid "Press OK, and your animation should be imported as a new layer."
 msgstr ""
+"Premeu D'acord i la vostra animació s'hauria d'importar com una capa nova."
 
 #: ../../user_manual/animation.rst:298
 msgid ".. image:: images/en/Animation_import_done.png"
@@ -589,3 +736,6 @@ msgid ""
 "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"
 "tiles>`_"
 msgstr ""
+"`La font al wiki de suports per al cicle de caminar masculí de la Libre Pixel "
+"Cup <http://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprit"
+"es-map-tiles>`_"

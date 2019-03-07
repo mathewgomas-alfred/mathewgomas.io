@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-01 10:54+0100\n"
+"PO-Revision-Date: 2019-03-06 14:28+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/installation.rst:1
 msgid "Detailed steps on how to install Krita"
-msgstr "Gedetailleerd stappen over hoe Krita te installeren"
+msgstr "Gedetailleerde stappen over hoe Krita te installeren"
 
 #: ../../user_manual/getting_started/installation.rst:18
 msgid "Installation"
@@ -30,7 +30,7 @@ msgstr "Installatie"
 
 #: ../../user_manual/getting_started/installation.rst:21
 msgid "Windows"
-msgstr "Vensters"
+msgstr "Windows"
 
 #: ../../user_manual/getting_started/installation.rst:23
 msgid ""
@@ -46,6 +46,9 @@ msgid ""
 "Krita requires Windows Vista or newer. INTEL GRAPHICS CARD USERS: IF YOU SEE "
 "A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!"
 msgstr ""
+"Krita vereist Windows Vista of nieuwer. GEBRUIKERS VAN INTEL GRAFISCHE"
+" KAARTEN: "
+"ALS U EEN EEN ZWART OF BLANCO VENSTER ZIET: UPDATE UW DRIVERS!"
 
 #: ../../user_manual/getting_started/installation.rst:35
 msgid "Linux"
@@ -59,6 +62,12 @@ msgid ""
 "libraries. You might also want to install the KDE system settings module and "
 "tweak the gui theme and fonts used, depending on your distributions"
 msgstr ""
+"Veel Linux distributies bieden een pakket met de laatste versie van Krita. "
+"Soms moet u een extra opslagruimte inschakelen. Krita werkt goed onder "
+"bureaubladen: KDE, Gnome, LXDE -- hoewel het een KDE toepassing en de KDE "
+"bibliotheken nodig heeft. U zou misschien ook de KDE module "
+"systeeminstellingen willen om het gebruikte gui-thema en lettertype aan te "
+"passen, afhankelijk van uw distributies"
 
 #: ../../user_manual/getting_started/installation.rst:45
 msgid "Nautilus/Nemo file extensions"
@@ -69,6 +78,8 @@ msgid ""
 "Put here at the beginning, before we start on the many distro specific ways "
 "to get the program itself."
 msgstr ""
+"Hier aan het begin gezet, voordat we beginnen aan de vele specifieke manieren "
+"van distributies om het programma zelf op te halen."
 
 #: ../../user_manual/getting_started/installation.rst:50
 msgid ""
@@ -77,10 +88,14 @@ msgid ""
 "Molch's extensions for XCF, KRA, ORA and PSD thumbnails <http://moritzmolch."
 "com/1749>`__."
 msgstr ""
+"Sinds april 2016 toont Dolphin van KDE standaard kra- en ora-miniaturen, "
+"maar Nautilus en zijn afgeleiden hebben een extensie nodig. `We bevelen de "
+"extensies van Moritz Molch voor XCF, KRA, ORA en PSD miniaturen aan "
+"<http://moritzmolch.com/1749>`__."
 
 #: ../../user_manual/getting_started/installation.rst:56
 msgid "Appimages"
-msgstr ""
+msgstr "App-images"
 
 #: ../../user_manual/getting_started/installation.rst:58
 msgid ""
@@ -90,18 +105,24 @@ msgid ""
 "command chmod to make the appimage executable. Double click it, and enjoy "
 "Krita. (Or run it in the terminal with ./appimagename.appimage)"
 msgstr ""
+"Voor Krita 3.0 en later, probeer eerst de app-image uit de website uit. "
+"**90% van de tijd is dit veruit de gemakkelijkste manier om de laatste "
+"Krita op te halen.** Download eenvoudig de app-image en gebruik daarna de "
+"bestandseigenschappen of het bash-commando chmod om van de app-image een "
+"uit te voeren bestand te maken. Dubbelklik erop en geniet van Krita. (Of "
+"voer het uit in de terminal met ./appimagename.appimage)"
 
 #: ../../user_manual/getting_started/installation.rst:65
 msgid "Open the terminal into the folder you have the appimage."
-msgstr ""
+msgstr "De terminal openen in de map waarin u de app-image heeft."
 
 #: ../../user_manual/getting_started/installation.rst:66
 msgid "Make it executable"
-msgstr ""
+msgstr "Het uitvoerbaar maken"
 
 #: ../../user_manual/getting_started/installation.rst:72
 msgid "Run Krita!"
-msgstr ""
+msgstr "Krita uitvoeren!"
 
 #: ../../user_manual/getting_started/installation.rst:78
 msgid ""
@@ -110,10 +131,14 @@ msgid ""
 "more diskspace taken up (And this size would only be bigger if you were "
 "using Plasma to begin with)."
 msgstr ""
+"App-images zijn ISO's met alle noodzakelijke bibliotheken erin, wat betekent "
+"geen gedoe met opslagruimten en afhankelijkheden, ten koste van een heel "
+"klein beetje meer gebruikte schijfruimte (en deze grootte zou alleen groter "
+"zijn, om mee te beginnen, als u Plasma zou gebruiken)."
 
 #: ../../user_manual/getting_started/installation.rst:84
 msgid "Ubuntu and Kubuntu"
-msgstr ""
+msgstr "Ubuntu en Kubuntu"
 
 #: ../../user_manual/getting_started/installation.rst:86
 msgid ""
@@ -129,15 +154,16 @@ msgstr "openSUSE"
 
 #: ../../user_manual/getting_started/installation.rst:94
 msgid "The latest stable builds are available from KDE:Extra repo:"
-msgstr ""
+msgstr "The latest stable builds are available uit de opslagruimte KDE:Extra:"
 
 #: ../../user_manual/getting_started/installation.rst:96
 msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
-msgstr ""
+msgstr "http://download.opensuse.org/repositories/KDE:/Extra/"
 
 #: ../../user_manual/getting_started/installation.rst:99
 msgid "Krita is also in the official repos, you can install it from Yast."
 msgstr ""
+"Krita is ook in de officiële opslagruimte, u kunt het vanuit Yast installeren."
 
 #: ../../user_manual/getting_started/installation.rst:102
 msgid "Fedora"
@@ -149,10 +175,13 @@ msgid ""
 "using packagekit (Add/Remove Software) or by writing the following command "
 "in terminal."
 msgstr ""
+"Krita is in de officiële repos als **calligra-krita**, u kunt het installeren "
+"met packagekit (Software toevoegen/verwijderen) of door het volgende commando "
+"in de terminal te geven."
 
 #: ../../user_manual/getting_started/installation.rst:106
 msgid "``dnf install krita``"
-msgstr ""
+msgstr "``dnf install krita``"
 
 #: ../../user_manual/getting_started/installation.rst:108
 msgid ""
