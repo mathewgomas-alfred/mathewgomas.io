@@ -51,8 +51,8 @@ You can enter brush name, tag name to quickly pull up a list of brush preset you
 An incredibly quick way to save a group or brushes into a tag is to:
 
 #. Create a new tag by |mouseleft| on the green plus sign.  This will empty out the contents of the Brush Preset docker.
-#. Use the Resource Filter at the bottom of the Brush Presets dock or Brush Settings Editor to type in what you want to group.  For instance: if you type **Pencil** in the filter box you will get all Brush Presets with **Pencil** somewhere in their name.  Now you have all the Pencil-related Brush Presets together in one place.
-#. To finish, click the Save button (small disk icon to the right of the Resource Filter box) or press :kbd:`Enter`  and all the items will be saved with the new tag you created.  
+#. Use the :guilabel:`Resource Filter` at the bottom of the :guilabel:`Brush Presets` dock or :guilabel:`Brush Settings Editor` to type in what you want to group.  For instance: if you type **Pencil** in the filter box you will get all Brush Presets with **Pencil** somewhere in their name.  Now you have all the Pencil-related Brush Presets together in one place.
+#. To finish, click the :guilabel:`Save` button (small disk icon to the right of the :guilabel:`Resource Filter` box) or press :kbd:`Enter` and all the items will be saved with the new tag you created.  
 
 Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select '''Pencils'''.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
 
@@ -72,17 +72,17 @@ The manage resources section in the settings was also revamped for making it eas
 Importing Bundles
 ~~~~~~~~~~~~~~~~~
 
-To import a bundle click on Import Bundles /Resources button on the top right side of the dialog.
-Select .bundle file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click open. Once the bundle is imported it will be listed in the Active Bundle section, If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the Inactive section.
+To import a bundle click on :guilabel:`Import Bundles/Resources` button on the top right side of the dialog.
+Select .bundle file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click open. Once the bundle is imported it will be listed in the :guilabel:`Active Bundle` section, If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the :guilabel:`Inactive` section.
 
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can create your own bundle from the resources of your choice. Click on the create bundle button, This will open a dialog box as shown below
+You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button, This will open a dialog box as shown below
 
 .. image:: /images/en/Creating-bundle.png
 
-The left hand section is for filling up information about the Bundle like author name, website, email , bundle icon etc.
+The left hand section is for filling up information about the bundle like author name, website, email , bundle icon, etc.
 the right hand side provides a list of available resources. Choose the type of resource you wish to add in to the bundle from the drop-down above and add it to the bundle by selecting a resource and clicking on the arrow button.
 
 .. warning::
@@ -99,7 +99,7 @@ When you delete a preset from Krita. Krita doesn't actually delete the physical 
 Deleting Imported Bundles
 -------------------------
 
-In-case you wish to delete the bundles you have imported permanently click on the open resource folder button in the manage resources dialog . This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
+In-case you wish to delete the bundles you have imported permanently click on the :guilabel:`Open Resource Folder` button in the :guilabel:`Manage Resources` dialog. This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
 
 Resource Types in Krita
 -----------------------

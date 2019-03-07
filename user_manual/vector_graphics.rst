@@ -31,38 +31,38 @@ On one hand, this makes vector graphics great for logos and banners. On the othe
 Tools for making shapes
 -----------------------
 
-You can start making vector graphics by first making a vector layer (press the arrow button next to the + in the layer docker to get extra layer types). Then, all the usual drawing tools outside of the freehand, dynamic and the multibrush tool can be used to draw shapes.
+You can start making vector graphics by first making a vector layer (press the arrow button next to the :guilabel:`+` in the layer docker to get extra layer types). Then, all the usual drawing tools outside of the freehand, dynamic and the multibrush tool can be used to draw shapes.
 
 The path and polyline tool are the tools you used most often on a vector layer, as they allow you to make the most dynamic of shapes.
 
-On the other hand, the Ellipse and Rectangle tools allow you to draw special shapes, which then can be edited to make special pie shapes, or for easy rounded rectangles.
+On the other hand, the :guilabel:`Ellipse` and :guilabel:`Rectangle` tools allow you to draw special shapes, which then can be edited to make special pie shapes, or for easy rounded rectangles.
 
 The calligraphy and text tool also make special vectors. The calligraphy tool is for producing strokes that are similar to brush strokes, while the text tool makes a text object that can be edited afterwards.
 
 All of these will use the current brush size to determine stroke thickness, as well as the current foreground and background color.
 
-There is one last way to make vectors: The Vector Library docker.  It allows you to add shapes that have been defined in an SVG file as symbols. Unlike the other tools, these have their own fill and stroke.
+There is one last way to make vectors: the :guilabel:`Vector Image` tool.  It allows you to add shapes that have been defined in an SVG file as symbols. Unlike the other tools, these have their own fill and stroke.
 
 Arranging Shapes
 ----------------
 
-A vector layer has its own hierarchy of shapes, much like how the whole image has a hierarchy of layers. So shapes can be in front of one another. This can be modified with the arrange docker, or with the Select Shapes Tool.
+A vector layer has its own hierarchy of shapes, much like how the whole image has a hierarchy of layers. So shapes can be in front of one another. This can be modified with the arrange docker, or with the :guilabel:`Select Shapes` tool.
 
 The arrange docker also allows you to group and ungroup shapes. It also allows you to precisely align shapes, for example, have them aligned to the center, or have an even spacing between all the shapes.
 
 Editing shapes
 --------------
 
-Editing of vector shapes is done with the Select Shapes Tool and the Edit Shapes Tool.
+Editing of vector shapes is done with the :guilabel:`Select Shapes` tool and the :guilabel:`Edit Shapes` tool.
 
-The select shapes tool can be used to select vector shapes, to group them (via |mouseright|), ungroup them, to use booleans to combine or subtract shapes from one another (via |mouseright|), to move them up and down, or to do quick transforms.
+The :guilabel:`Select Shapes` tool can be used to select vector shapes, to group them (via |mouseright|), ungroup them, to use booleans to combine or subtract shapes from one another (via |mouseright|), to move them up and down, or to do quick transforms.
 
 Fill
 ~~~~
 
 You can change the fill of a shape by selecting it and changing the active foreground color.
 
-You can also change it by going into the tool options of the Select Shapes Tool and going to the fill tab.
+You can also change it by going into the tool options of the :guilabel:`Select Shapes` tool and going to the :guilabel:`Fill` tab.
 
 Vector shapes can be filled with a solid color, a gradient or a pattern.
 
@@ -76,14 +76,14 @@ However, they can also be further changed. For example, you can add dashes and m
 Coordinates
 ~~~~~~~~~~~
 
-Shapes can be moved with the Select Shapes tool, and in the tool options you can specify the exact coordinates.
+Shapes can be moved with the :guilabel:`Select Shapes` tool, and in the tool options you can specify the exact coordinates.
 
 Editing nodes and special parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have a shape selected, you can double click it to get to the appropriate tool to edit it. Usually this is the Edit Shape Tool, but for Text this is the Text Tool.
+If you have a shape selected, you can double click it to get to the appropriate tool to edit it. Usually this is the :guilabel:`Edit Shape` tool, but for text this is the :guilabel:`Text` tool.
 
-In the Edit Shape Tool, you can move around nodes on the canvas for regular paths. For special paths, like the ellipse and the rectangle, you can move nodes and edit the specific parameters in the tool options docker.
+In the :guilabel:`Edit Shape` tool, you can move around nodes on the canvas for regular paths. For special paths, like the ellipse and the rectangle, you can move nodes and edit the specific parameters in the :guilabel:`Tool Options` docker.
 
 Working together with other programs
 ------------------------------------

@@ -30,8 +30,8 @@ clicking the settings icon next to the brush name.
 .. image:: /images/en/On_canvas_brush_editor_2.png
 
 On the left are all unused settings, on the right are all used settings.
-You use the and buttons to move a setting between the two columns. The
-and buttons allow you to adjust the order of the used settings, for when
+You use the :guilabel:`>` and :guilabel:`<` buttons to move a setting between the two columns. The
+:guilabel:`Up` and :guilabel:`Down` buttons allow you to adjust the order of the used settings, for when
 you think flow is more important than size.
 
 .. image:: /images/en/On_canvas_brush_editor_3.png

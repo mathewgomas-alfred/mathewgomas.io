@@ -12,8 +12,8 @@ This is a continuation of the :ref:`perspective projection tutorial <projection_
 .. index:: Projection, Perspective
 .. _projection_practical:
 
-Practical:
-==========
+Practical
+=========
 
 So, if computers can already automate a ton, and it is fairly complicated, is there still a use for a traditional 2d artist to learn this?
 
