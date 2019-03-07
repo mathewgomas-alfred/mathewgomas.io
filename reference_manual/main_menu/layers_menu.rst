@@ -120,7 +120,7 @@ Split...
     Split Alpha
         Split the image transparency into a mask. This is useful when you wish to edit the transparency separately.
     Split Layer
-        Split the layer into given color fields.
+        :ref:`Split the layer <split_layer>` into given color fields.
     Clones Array
         A complex bit of functionality to generate clone-layers for quick sprite making.
 
