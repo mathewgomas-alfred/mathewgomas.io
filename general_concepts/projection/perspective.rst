@@ -12,8 +12,8 @@ This is a continuation of the :ref:`axonometric tutorial <projection_axonometric
 .. index:: Projection, Perspective, Perspective Projection
 .. _projection_perspective:
 
-Perspective Projection:
------------------------
+Perspective Projection
+----------------------
 
 So, up till now we’ve done only parallel projection. This is called like that because all the projection lines we drew were parallel ones.
 

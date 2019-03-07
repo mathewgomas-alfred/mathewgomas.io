@@ -26,7 +26,7 @@ Center
 Grow
     Allows the crop area to expand beyond the image boundaries.
 Applies to
-    Lets you apply the crop to the entire image or only to the active layer. When you are ready, hit the Crop button and the crop will apply to your image.
+    Lets you apply the crop to the entire image or only to the active layer. When you are ready, hit the :guilabel:`Crop` button and the crop will apply to your image.
 Decoration
     Help you make a composition by showing you lines that divide up the screen. You can for example show thirds here, so you can crop your image according to the Rule of Thirds.
 

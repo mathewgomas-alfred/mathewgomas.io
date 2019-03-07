@@ -18,14 +18,14 @@ Straight Line Tool
 |toolline|
 
 
-This tool is used to draw lines. Click the left mouse button to indicate the first endpoint, keep the button pressed, drag to the second endpoint and release the button. 
+This tool is used to draw lines. Click the |mouseleft| to indicate the first endpoint, keep the button pressed, drag to the second endpoint and release the button. 
 
 Hotkeys and Sticky Keys
 -----------------------
 
 To activate the Line tool from freehand brush mode, use :kbd:`V`. Use other keys afterwards to constraint the line.
 
-Use :kbd:`Shift` while holding the mouse button to constrain the angle to multiples of 15º. You can press :kbd:`Alt` while still keeping the left mouse button down to move the line to a different location.
+Use :kbd:`Shift` while holding the mouse button to constrain the angle to multiples of 15º. You can press :kbd:`Alt` while still keeping the |mouseleft| down to move the line to a different location.
 
 
 .. note::

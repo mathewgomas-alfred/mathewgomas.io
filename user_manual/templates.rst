@@ -61,8 +61,8 @@ These have some default size for photos
 * Nikon D5000
 * Nikon D7000
 
-Texture Templates.
-~~~~~~~~~~~~~~~~~~
+Texture Templates
+~~~~~~~~~~~~~~~~~
 
 These are for making 3D textures, and are between 1024, to 4092.
 

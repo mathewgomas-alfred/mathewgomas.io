@@ -51,7 +51,7 @@ Activating
 
     You can use the Text tool to first create a text box. There are a few options in the tool options if you want to customize how the text will be adding. You will need to drag a rectangle on the canvas to create the text area. There is no word wrapping, so for now the box you draw will not have an effect on the results. Once your text is created, you can edit the text from two ways:
     
-    #. Select the text with the shape selection tool (first tool). Press the Enter key. The text editor will appear.
+    #. Select the text with the shape selection tool (first tool). Press the :kbd:`Enter` key. The text editor will appear.
     #. Select the text with the shape selection tool (first tool). Then click the Text tool. In the tool options there is an "Edit Text" button. When you click that the text editor window will appear. 
 
 Editing
@@ -59,7 +59,7 @@ Editing
 
 If you are a little bit more familiar with svg text, you can directly edit the SVG source. Do note that certain things, like stroke, fill, letter-spacing don't convert back to the rich text editor, so do be careful when switching back.
 
-Press 'save' as you're done with your edits to preview them on canvas.
+Press :guilabel:`Save` as you're done with your edits to preview them on canvas.
 
 File
 
@@ -149,7 +149,7 @@ Colors
     Element
         The format for highlighting the element tag name. **text** and **tspan** are examples of element names.
     Attribute
-        The format for highlighting theAttributes of the tag. For example, font-family, when it isn't in the style tag is usually written as an attribute.
+        The format for highlighting the attributes of the tag. For example, font-family, when it isn't in the style tag is usually written as an attribute.
     Value
         The format for highlighting value of attributes.
     Comment

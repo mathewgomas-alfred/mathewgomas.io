@@ -66,7 +66,7 @@ The default shortcut for levels filter is :kbd:`Ctrl + L` .
 This is very useful to do an initial cleanup of scanned lineart or greyscale images. If the scanned lineart is light you can slide the black triangle to right to make it darker or if you want to remove the grey areas you can slide the white slider to left.
 
 Auto levels is a quick way to adjust tone of an image.
-If you want to change the settings later you can click on the create filter mask button to add the levels as a filter mask.
+If you want to change the settings later you can click on the :guilabel:`Create Filter Mask` button to add the levels as a filter mask.
 
 .. index:: Color Adjustment Curves, RGB Curves, Curves Filter
 

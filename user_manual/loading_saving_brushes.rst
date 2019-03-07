@@ -37,7 +37,7 @@ The Brush settings dropdown
 ---------------------------
 
 To start, the Brush Settings Editor panel can be accessed in the
-toolbar, between the Blending Modes button on the right and the Patterns
+toolbar, between the :guilabel:`Blending Modes` button on the right and the :guilabel:`Patterns`
 button on the left. Alternately, you can use the function key :kbd:`F5` to open
 it.
 
@@ -144,7 +144,7 @@ To make making presets icons faster, Krita got an icon library.
 .. image:: /images/en/Krita_4_0_Preset_Icon_Library_Dialog.png
 
 It allows you to select tool icons, and an optional small emblem. When
-you press OK it will load the resulting combination into the mini
+you press :guilabel:`OK` it will load the resulting combination into the mini
 scratch pad and you can draw in the stroke.
 
 If you go to your resources folder, there's a folder there called
@@ -160,8 +160,8 @@ filter. This is done this way because the levels filter allows
 maintaining the darkest shadows and brightest highlights on a tool icon,
 making it much better for quick adjustments.
 
-If you're done with everything, you can press save in the Save New
-Preset dialog and Krita will save the new brush.
+If you're done with everything, you can press :guilabel:`Save` in the :guilabel:`Save New
+Preset` dialog and Krita will save the new brush.
 
 Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -336,7 +336,7 @@ https://github.com/saveenr/Fix_My_Pen/releases
 Touch doesn't seem to work on Windows
 -------------------------------------
 
-You might have to disable and enable the touch driver: go to the device manager. (Click the Start button and type device manager). Choose HID (User interface devices or something like that). Choose Intel(R) Precise Touch Device. Right click, Disable it. Right click, Enable it.
+You might have to disable and enable the touch driver: go to the device manager. (Click the :guilabel:`Start` button and type device manager). Choose HID (User interface devices or something like that). Choose Intel(R) Precise Touch Device. Right click, Disable it. Right click, Enable it.
 
 Toolbox
 =======

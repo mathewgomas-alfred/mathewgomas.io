@@ -130,16 +130,16 @@ Undo
 
    Liquify used to turn an apple into a pear
 
-In the options for each brush there's:
+In the options for each brush there are:
 
 Mode
-    This is either wash or build up. :guilabel:`Wash` will normalize the effect to be between none, and the amount parameter as maximum. :guilabel:`Build-up` will just add on until it's impossible..
+    This is either :guilabel:`Wash` or :guilabel:`Build up`. :guilabel:`Wash` will normalize the effect to be between none, and the amount parameter as maximum. :guilabel:`Build up` will just add on until it's impossible.
 Size
     The brush size. The button to the right allow you to let it scale with pressure.
 Amount
-    The strength of the brush. The button to the right let's it scale with tablet-pressure.
+    The strength of the brush. The button to the right lets it scale with tablet pressure.
 Flow
-    Only applicable with build-up.
+    Only applicable with :guilabel:`Build up`.
 Spacing
     The spacing of the liquify dabs.
 Reverse
@@ -153,18 +153,18 @@ Krita also has a :ref:`deform_brush_engine` which is much faster than liquify, b
 
 Recursive Transform
 -------------------
-The little spider icon on the lower-left of the transform tool options is the ''Recursive Transform''.
+The little spider icon on the lower-left of the transform tool options is the :guilabel:`Recursive Transform`.
 
 .. figure:: /images/en/Krita_transforms_recursive.png
 
-    Recursive transform transforms all the layers in the group, so with this apple, both the line-art as the fill will be transformed.
+    Recursive transform transforms all the layers in the group, so with this apple, both the lineart as the fill will be transformed.
 
 Recursive transform, when toggled, allows you to mass-transform all the layers in a group when only transforming the group.
 
 Continuous Transform
 --------------------
 
-If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press :kbd:`Esc` to cancel this and start a new transform, or preset :guilabel:`reset` in the tool options while no transform is active.
+If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press :kbd:`Esc` to cancel this and start a new transform, or press :guilabel:`Reset` in the tool options while no transform is active.
 
 Transformation Masks
 --------------------
