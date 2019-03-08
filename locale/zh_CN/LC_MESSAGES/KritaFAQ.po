@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-20 23:22\n"
+"PO-Revision-Date: 2019-03-07 09:28\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +14,7 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/docs_krita_org_KritaFAQ.pot\n"
+"Language: zh_CN\n"
 
 #: ../../KritaFAQ.rst:27
 msgid "Krita FAQ"
@@ -80,9 +80,6 @@ msgstr ""
 "请按照下面步骤进行设定："
 
 #: ../../KritaFAQ.rst:52
-#, fuzzy
-#| msgid ""
-#| "Settings --> Switch Application Language. A small window will appear."
 msgid ""
 ":menuselection:`Settings --> Switch Application Language`. A small window "
 "will appear."
@@ -91,16 +88,12 @@ msgstr ""
 "它会显示一个对话框。"
 
 #: ../../KritaFAQ.rst:53
-#, fuzzy
-#| msgid "Click Primary language and select your language."
 msgid "Click :guilabel:`Primary language` and select your language."
-msgstr "点击“Primary language (首选语言)”右侧的下拉菜单，选择简体中文。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:54
-#, fuzzy
-#| msgid "Click OK to close the window."
 msgid "Click :guilabel:`OK` to close the window."
-msgstr "点击“OK (确定)”按钮关闭对话框。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:55
 msgid "Restart krita and it will be displayed in your selected language!"
@@ -243,10 +236,8 @@ msgstr ""
 "\\LocalCache\\\\Local\\\\kritarc`"
 
 #: ../../KritaFAQ.rst:117
-#, fuzzy
-#| msgid "The random string depends on your installation/"
 msgid "The random string depends on your installation."
-msgstr "随机字符串每次安装都不同/"
+msgstr ""
 
 #: ../../KritaFAQ.rst:119
 msgid ""
@@ -455,18 +446,6 @@ msgstr ""
 "制。"
 
 #: ../../KritaFAQ.rst:175
-#, fuzzy
-#| msgid ""
-#| "In Krita, all layers have an alpha channel, if you want to paint in the "
-#| "background color, you should simply do it in a layer above the first one "
-#| "(Layer 1), that would prevent  you from erasing the white background "
-#| "color, making the checkerboard visible. You get the same effect in, say, "
-#| "gimp, if you create new image, add an alpha channel and then use the "
-#| "eraser tool. Most Krita users will actually start a sketch in Krita by "
-#| "adding a new blank layer first before doing anything else. (the INSert "
-#| "key is a useful shortcut here). That doesn’t use extra memory, since a "
-#| "blank layer or a layer with a default color just takes one pixel worth of "
-#| "memory."
 msgid ""
 "In Krita, all layers have an alpha channel, if you want to paint in the "
 "background color, you should simply do it in a layer above the first one "
@@ -508,38 +487,27 @@ msgstr ""
 "如果提示信息时“无法找到文件。检查文件名后重试。”你可能启用了受控文件夹访问。"
 
 #: ../../KritaFAQ.rst:187
-#, fuzzy
-#| msgid "Select Start  > Settings ."
 msgid "Select :menuselection:`Start --> Settings`."
-msgstr "点击开始  > 设定。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:188
-#, fuzzy
-#| msgid "Choose Update & security  > Windows Defender."
 msgid "Choose :menuselection:`Update & security --> Windows Defender`."
-msgstr "选中“更新和安全”  > Windows Defender。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:189
-#, fuzzy
-#| msgid "Select Open Windows Defender Security Center."
 msgid "Select :guilabel:`Open Windows Defender Security Center`."
-msgstr "选中“打开 Windows Defender 安全中心”。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:190
-#, fuzzy
-#| msgid ""
-#| "Select Virus & threat protection, and then choose Virus & threat "
-#| "protection settings."
 msgid ""
 "Select :guilabel:`Virus & threat protection`, and then choose :guilabel:"
 "`Virus & threat protection settings`."
-msgstr "选择“病毒和威胁保护”，然后选择“病毒和威胁保护设置”。"
+msgstr ""
+"选择 :guilabel:`病毒和威胁保护`，然后选择 :guilabel:`病毒和威胁保护设置`。"
 
 #: ../../KritaFAQ.rst:191
-#, fuzzy
-#| msgid "Under Controlled folder access, turn it on or off."
 msgid "Under :guilabel:`Controlled folder access`, turn it on or off."
-msgstr "在“受控文件夹访问”页面，打开或关闭它。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:193
 msgid ""
@@ -836,10 +804,8 @@ msgid ""
 msgstr "用键盘、鼠标等非压感笔设备启动 Krita。"
 
 #: ../../KritaFAQ.rst:299
-#, fuzzy
-#| msgid "Press Shift key and hold it."
 msgid "Press :kbd:`Shift` key and hold it."
-msgstr "按住 Shift 键不放。"
+msgstr ""
 
 #: ../../KritaFAQ.rst:300
 msgid "Touch a tablet with your stylus so Krita would recognize it."
@@ -1087,13 +1053,6 @@ msgid "Can Krita load Photoshop Brushes?"
 msgstr "Krita 可以加载 Photoshop 笔刷吗？"
 
 #: ../../KritaFAQ.rst:396
-#, fuzzy
-#| msgid ""
-#| "Yes, but there are limitations. You can load ABR files by using the by "
-#| "using the Import button in the Predefined brush tab in the brush editor. "
-#| "Since Adobe hasn’t disclosed the file format specification, we depend on "
-#| "reverse-engineering to figure out what to load, and currently that’s "
-#| "limited to basic features."
 msgid ""
 "Yes, but there are limitations. You can load ABR files by using the by using "
 "the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "

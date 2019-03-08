@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___adjust\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-24 21:46+0200\n"
+"PO-Revision-Date: 2019-03-07 21:11+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -41,6 +41,8 @@ msgid ""
 "The Adjustment filters are image-wide and are for manipulating colors and "
 "contrast."
 msgstr ""
+"Фільтри коригування застосовуються до усього зображення. Їх призначено для"
+" керування кольорами і контрастністю."
 
 #: ../../reference_manual/filters/adjust.rst:23
 msgid "Dodge"
@@ -84,7 +86,7 @@ msgstr "Виблиски"
 #: ../../reference_manual/filters/adjust.rst:34
 #: ../../reference_manual/filters/adjust.rst:52
 msgid "This will apply the effect on the highlights only."
-msgstr ""
+msgstr "Вибір цього пункту призведе до застосування ефекту лише для виблисків."
 
 #: ../../reference_manual/filters/adjust.rst:36
 #: ../../reference_manual/filters/adjust.rst:54
@@ -216,13 +218,15 @@ msgstr ""
 
 #: ../../reference_manual/filters/adjust.rst:107
 msgid "Brightness/Contrast curves"
-msgstr ""
+msgstr "Криві яскравості/контрастності"
 
 #: ../../reference_manual/filters/adjust.rst:109
 msgid ""
 "This filter allows you to adjust the brightness and contrast of the image by "
 "adjusting the curves."
 msgstr ""
+"За допомогою цього фільтра ви зможете скоригувати яскравість і контрастність"
+" зображення за допомогою коригування кривих."
 
 #: ../../reference_manual/filters/adjust.rst:113
 msgid ""
@@ -267,11 +271,11 @@ msgstr "Освітленість"
 
 #: ../../reference_manual/filters/adjust.rst:135
 msgid "This will turn colors to grey using the HSL model."
-msgstr ""
+msgstr "Перетворює кольори на відтінки сірого кольору на основі моделі HSL."
 
 #: ../../reference_manual/filters/adjust.rst:136
 msgid "Luminosity (ITU-R BT.709)"
-msgstr ""
+msgstr "Світність (ITU-R BT.709)"
 
 #: ../../reference_manual/filters/adjust.rst:137
 msgid ""
@@ -281,7 +285,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/adjust.rst:138
 msgid "Luminosity (ITU-R BT.601)"
-msgstr ""
+msgstr "Світність (ITU-R BT.601)"
 
 #: ../../reference_manual/filters/adjust.rst:139
 msgid ""
@@ -295,23 +299,23 @@ msgstr "Середнє"
 
 #: ../../reference_manual/filters/adjust.rst:141
 msgid "Will make an average of all channels."
-msgstr ""
+msgstr "Усереднює усі канали."
 
 #: ../../reference_manual/filters/adjust.rst:142
 msgid "Min"
-msgstr ""
+msgstr "Мін."
 
 #: ../../reference_manual/filters/adjust.rst:143
 msgid "Subtracts all from one another to find the grey value."
-msgstr ""
+msgstr "Віднімає усі значення для пошуку значення сірого."
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Max"
-msgstr ""
+msgstr "Макс."
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Adds all channels together to get a grey-value"
-msgstr ""
+msgstr "Додає усі канали для отримання значення сірого."
 
 #: ../../reference_manual/filters/adjust.rst:150
 msgid "Invert"
@@ -331,6 +335,7 @@ msgstr "Автоконтрастність"
 #: ../../reference_manual/filters/adjust.rst:160
 msgid "Tries to adjust the contrast the universally acceptable levels."
 msgstr ""
+"Намагається скоригувати контрастність до універсальних прийнятних значень."
 
 #: ../../reference_manual/filters/adjust.rst:165
 msgid "HSV/HSL Adjustment"
@@ -359,13 +364,15 @@ msgstr ""
 
 #: ../../reference_manual/filters/adjust.rst:181
 msgid "Slope, Offset, Power"
-msgstr ""
+msgstr "Нахил, зсув, сила"
 
 #: ../../reference_manual/filters/adjust.rst:183
 msgid ""
 "A different kind of color balance filter, with three color selectors, which "
 "will have the same shape as the one used in settings."
 msgstr ""
+"Інший тип фільтра балансування кольорів із трьома засобами вибору кольору,"
+" який матиме ту саму форму, як і та, яку використано у параметрах."
 
 #: ../../reference_manual/filters/adjust.rst:185
 msgid ""
@@ -393,6 +400,8 @@ msgid ""
 "This determines how much the bottom is offset from the top, and so "
 "determines the color of the darkest colors."
 msgstr ""
+"Визначає наскільки великим є відступ нижньої частини від верхньої, отже"
+" визначає колір найтемніших кольорів."
 
 #: ../../reference_manual/filters/adjust.rst:196
 msgid ""

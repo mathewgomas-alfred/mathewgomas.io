@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-07 17:31+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,34 +17,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: blendingmodes ref optionopacitynflow\n"
+"X-POFile-SpellExtra: optionparticletype gridsandguidesdocker\n"
+"X-POFile-SpellExtra: optionsizegrid icons gridbrush image images\n"
+"X-POFile-SpellExtra: optioncolorgrid pixelizada\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color."
-msgstr ""
+msgstr "Mistura com a cor de fundo."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:1
 msgid "The Grid Brush Engine manual page."
-msgstr ""
+msgstr "A página de manual do Motor de Pincéis em Grelha."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:17
 msgid "Grid Brush Engine"
-msgstr ""
+msgstr "Motor de Pincéis em Grelha"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:21
 msgid ".. image:: images/icons/gridbrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/gridbrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:22
 msgid ""
 "The grid brush engine draws shapes on a grid. It helps you produce retro and "
 "halftone effects."
-msgstr ""
+msgstr "O motor de pincéis em grelha desenha formas sobre uma grelha. Isto ajuda a produzir efeitos antiquados e a meios-tons."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
 msgid ""
 "If you're looking to setup a grid for snapping, head to :ref:"
 "`grids_and_guides_docker`."
-msgstr ""
+msgstr "Se estiver à procura de como configurar uma grelha para ajuste, vá à :ref:`grids_and_guides_docker`."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
 msgid "Options"
@@ -52,11 +55,11 @@ msgstr "Opções"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:29
 msgid ":ref:`option_size_grid`"
-msgstr ""
+msgstr ":ref:`option_size_grid`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:30
 msgid ":ref:`option_particle_type`"
-msgstr ""
+msgstr ":ref:`option_particle_type`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:31
 msgid ":ref:`blending_modes`"
@@ -68,7 +71,7 @@ msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:33
 msgid ":ref:`option_color_grid`"
-msgstr ""
+msgstr ":ref:`option_color_grid`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:38
 msgid "Brush Size"
@@ -76,19 +79,19 @@ msgstr "Tamanho do Pincel"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:40
 msgid "Grid Width"
-msgstr ""
+msgstr "Largura da Grelha"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:41
 msgid "Width of the cursor area"
-msgstr ""
+msgstr "Largura da área do cursor"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:42
 msgid "Grid Height"
-msgstr ""
+msgstr "Altura da Grelha"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:43
 msgid "Height of the cursor area"
-msgstr ""
+msgstr "Altura da área do cursor"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:44
 msgid "Division"
@@ -97,7 +100,7 @@ msgstr "Divisão"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:45
 msgid ""
 "Subdivides the cursor area and uses the resulting area to draw the particles."
-msgstr ""
+msgstr "Sub-divide a área do cursor e usa a área resultante para desenhar as partículas."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:46
 msgid "Division by pressure"
@@ -107,7 +110,7 @@ msgstr "Divisão por pressão"
 msgid ""
 "The more you press, the more subdivisions. Uses Division as the finest "
 "subdivision possible."
-msgstr ""
+msgstr "Quanto mais pressionar, mais sub-divisões irão aparecer. Usa a Divisão como a sub-divisão mais reduzida possível."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
 msgid "Scale"
@@ -115,43 +118,43 @@ msgstr "Escala"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:49
 msgid "Scales up the area."
-msgstr ""
+msgstr "Ajusta a escala da área."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:50
 msgid "Vertical Border"
-msgstr ""
+msgstr "Contorno Vertical"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:51
 msgid ""
 "Forces vertical borders in the particle space, between which the particle "
 "needs to squeeze itself."
-msgstr ""
+msgstr "Obriga ao uso de contornos verticais no espaço de partículas, entre os quais a partícula tem de ficar restrita."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
 msgid "Horizontal Border"
-msgstr ""
+msgstr "Contorno Horizontal"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:53
 msgid ""
 "Forces a horizontal borders in the particle space, between which the "
 "particle needs to squeeze itself."
-msgstr ""
+msgstr "Obriga ao uso de contornos horizontais no espaço de partículas, entre os quais a partícula tem de ficar restrita."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Jitter Borders"
-msgstr ""
+msgstr "Interferência dos Contornos"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Randomizes the border values with the Border values given as maximums."
-msgstr ""
+msgstr "Ajusta de forma aleatória os valores dos contornos com base nos valores indicados como máximos."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:60
 msgid "Particle Type"
-msgstr ""
+msgstr "Tipo de Partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:62
 msgid "Decides the shape of the particle."
-msgstr ""
+msgstr "Decide a forma da partícula."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:64
 msgid "Ellipse"
@@ -159,7 +162,7 @@ msgstr "Elipse"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:65
 msgid "Fills the area with a ellipse."
-msgstr ""
+msgstr "Preenche a área com uma elipse."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:66
 msgid "Rectangle"
@@ -167,7 +170,7 @@ msgstr "Rectângulo"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:67
 msgid "Fills the area."
-msgstr ""
+msgstr "Preenche a área."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:68
 msgid "Line"
@@ -176,7 +179,7 @@ msgstr "Linha"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:69
 msgid ""
 "Draws lines from the lower left to the upper right corner of the particle"
-msgstr ""
+msgstr "Desenha linhas do canto inferior esquerdo ao superior direito da partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:70
 msgid "Pixel"
@@ -184,15 +187,15 @@ msgstr "Pixel"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:71
 msgid "Looks like an aliased line on high resolutions."
-msgstr ""
+msgstr "Parece uma linha pixelizada em resoluções elevadas."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Anti-aliased Pixel"
-msgstr ""
+msgstr "Pixel Suavizado"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Fills the area with little polygons."
-msgstr ""
+msgstr "Preenche a área com pequenos polígonos."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:78
 msgid "Color Options"
@@ -207,7 +210,7 @@ msgid ""
 "Randomize the HSV with the strength of the sliders. The higher, the more the "
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
-msgstr ""
+msgstr "Atribui valores aleatórios ao HSV com a potência das barras. Quanto maiores os valores, mais a cor se irá desviar da cor principal, com a direcção a indicar o sentido horário ou anti-horário."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:82
 msgid "Random Opacity"
@@ -215,25 +218,25 @@ msgstr "Opacidade Aleatória"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:83
 msgid "Randomizes the opacity."
-msgstr ""
+msgstr "Atribui valores aleatórios à opacidade."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:84
 msgid "Color Per Particle"
-msgstr ""
+msgstr "Cor por Partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:85
 msgid "Has the color options be per particle instead of area."
-msgstr ""
+msgstr "Tem as opções de cores a serem aplicadas por partícula em vez de ser por área."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:86
 msgid "Sample Input Layer."
-msgstr ""
+msgstr "Camada de Entrada de Exemplo."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:87
 msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
-msgstr ""
+msgstr "Irá usar a camada subjacente como referência para as cores em vez de usar a cor principal."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:88
 msgid "Fill Background"
@@ -241,10 +244,10 @@ msgstr "Preencher o Fundo"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:89
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Preenche a área antes de desenhar as partículas com a cor de fundo."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:91
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
-msgstr ""
+msgstr "Atribui à partícula uma cor aleatória entre a cor principal/de entrada/HSV aleatório e a cor de fundo."

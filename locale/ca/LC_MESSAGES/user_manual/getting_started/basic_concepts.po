@@ -10,7 +10,7 @@ msgstr ""
 "pts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 00:16+0100\n"
+"PO-Revision-Date: 2019-03-08 00:33+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -70,6 +70,9 @@ msgid ""
 "a brief introduction to the basic but important concepts required for "
 "getting started with digital painting in Krita."
 msgstr ""
+"Si aquesta és la vostra primera incursió en la pintura digital, aquesta"
+" pàgina us hauria d'oferir una breu introducció als conceptes bàsics però"
+" importants necessaris per a començar amb la pintura digital al Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:24
 msgid ""
@@ -79,6 +82,12 @@ msgid ""
 "functionality. Hopefully, it will help you grasp what buttons are for, even "
 "if you don't know the exact purpose of them."
 msgstr ""
+"Aquesta pàgina és molt, molt llarga perquè tracta de cobrir totes les coses"
+" importants que heu de saber que el Krita és capaç de fer, i el Krita és"
+" realment poderós. De manera que aquesta pàgina també es pot considerar una"
+" guia a través de la funcionalitat més important del Krita. Amb sort, us"
+" ajudarà a comprendre els botons, fins i tot si no coneixeu el seu propòsit"
+" exacte."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:26
 msgid "Contents"
@@ -86,7 +95,7 @@ msgstr "Contingut"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:29
 msgid "Raster and Vector"
-msgstr ""
+msgstr "Rasteritzat i vectors"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:31
 msgid ""
@@ -94,6 +103,10 @@ msgid ""
 "vector editing capabilities as well. If you are new to Digital painting "
 "medium, it is necessary that you know the concepts of raster and Vector."
 msgstr ""
+"Tot i que el Krita és principalment una aplicació basada en rasteritzat,"
+" també té algunes capacitats d'edició vectorial. Si sou nou al mitjà de la"
+" pintura digital, és necessari que conegueu els conceptes del rasteritzat i"
+" dels vectors."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:33
 msgid ""
@@ -105,6 +118,14 @@ msgid ""
 "beneath your brush from white to black. When you zoom in and see a brush "
 "stroke you can notice many small squares with colors, these are pixels"
 msgstr ""
+"A les imatges digitals, un píxel (element de la imatge) és un element bàsic i"
+" el més baix d'una imatge. Bàsicament es tracta d'una quadrícula de punts on"
+" cadascun mostra un color específic. L'edició rasteritzada és la manipulació"
+" i edició d'aquests píxels. Per exemple, quan agafeu un pinzell d'1 píxel que"
+" és de color negre i pinteu sobre el llenç blanc del Krita, en realitat"
+" estareu canviant el color blanc del píxel sota el pinzell a negre. En fer"
+" apropament i veure un traç de pinzell, podreu observar molts quadrats petits"
+" amb colors, aquests són els píxels."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:38
 msgid ""
@@ -116,20 +137,32 @@ msgid ""
 "redraws the path and displays the newly formed shape to you. Hence you can "
 "re-size the vector shape to any extent without any loss in quality."
 msgstr ""
+"En canvi, el treball gràfic vectorial es basa en expressions matemàtiques."
+" Aquestes són independents del píxel. Per exemple, quan dibuixeu un rectangle"
+" en una capa vectorial en el Krita, en realitat, dibuixeu trajectes que"
+" passen per punts anomenats nodes que es troben en unes coordenades"
+" específiques dels eixos «X» i «Y». Quan torneu a reamidar o moure aquests"
+" punts, l'ordinador calcularà i tornarà a dibuixar el trajecte i us mostrarà"
+" la forma que ha pres. Per tant, podeu tornar a reamidar la forma vectorial"
+" en qualsevol mesura sense cap pèrdua de qualitat."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:40
 msgid "In Krita, everything which is not on a vector layer is raster based."
 msgstr ""
+"Al Krita, tot el que no es troba en una capa vectorial està basat en"
+" rasteritzat."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:43
 msgid "Images, Views and Windows"
-msgstr ""
+msgstr "Imatges, vistes i finestres"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:45
 msgid ""
 "In a painting program, there are three major containers that make up your "
 "work-space."
 msgstr ""
+"En un programa de pintura, hi ha tres contenidors principals que conformen el"
+" vostre espai de treball."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:48
 msgid "Image"
@@ -137,7 +170,7 @@ msgstr "Imatge"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:50
 msgid "The most important one is the **Image**."
-msgstr ""
+msgstr "El més important és la **imatge**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:52
 msgid ""
@@ -149,12 +182,21 @@ msgid ""
 "multiple images at once, you can switch between them via the :guilabel:"
 "`Window` menu."
 msgstr ""
+"Aquesta és una còpia individual de la imatge que heu obert o fet mitjançant"
+" el diàleg de fitxer i on editareu el vostre fitxer. El Krita permet obrir el"
+" fitxer com a una còpia nova a través del menú :guilabel:`Fitxer`, desar-lo"
+" com a fitxer nou o fer un desament incremental. Una imatge conté capes, un"
+" espai de color, una mida del llenç i metadades com ara el creador, dades"
+" creades i PPP. El Krita pot obrir múltiples imatges alhora, podreu canviar"
+" entre elles mitjançant el menú :guilabel:`Finestra`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:54
 msgid ""
 "Because the image is a working copy of the image on the hard drive, you can "
 "do a lot of little saving tricks with it:"
 msgstr ""
+"A causa de que la imatge és una còpia de treball de la imatge en el disc dur,"
+" podreu fer molts petits trucs de desament amb ella:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:56
 msgid "New"
@@ -165,6 +207,8 @@ msgid ""
 "Makes a new image. When you press :menuselection:`Save`, you make a new file "
 "on the hard drive."
 msgstr ""
+"Crea una imatge nova. Quan premeu :menuselection:`Desa`, creareu un fitxer"
+" nou al disc dur."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:58
 msgid "Open"
@@ -176,10 +220,13 @@ msgid ""
 "`Save`, you will overwrite the original existing image with your working "
 "copy."
 msgstr ""
+"Crea una còpia interna d'una imatge existent. Quan premeu"
+" :menuselection:`Desa`, sobreescriureu la imatge original existent amb la"
+" vostra còpia de treball."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:60
 msgid "Open existing Document as Untitled Document"
-msgstr "Obre un document existent com a document sense títol"
+msgstr "Obre un document existent com a un document sense títol"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:61
 msgid ""
@@ -187,6 +234,9 @@ msgid ""
 "request you to specify a saving location: you're making a new copy. This is "
 "similar to :menuselection:`Import` in other programs."
 msgstr ""
+"Similar a :menuselection:`Obre`, malgrat això, :menuselection:`Desa` us"
+" demanarà que especifiqueu una ubicació de desament: creareu una còpia nova."
+" Això és similar a :menuselection:`Importa` en altres programes."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:62
 msgid "Create Copy From Current Image"
@@ -197,6 +247,8 @@ msgid ""
 "Similar to :menuselection:`Open existing Document as Untitled Document` but "
 "with the currently selected image."
 msgstr ""
+"Similar a :menuselection:`Obre un document existent com a un document sense"
+" títol` però amb la imatge actualment seleccionada."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:65
 msgid "Save incremental"
@@ -207,6 +259,8 @@ msgid ""
 "Allows you to quickly make a snapshot of the current image by making a new "
 "file with a version number added to it."
 msgstr ""
+"Permet fer una captura ràpida de la imatge actual creant un fitxer nou amb un"
+" número de versió afegit."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:67
 msgid ""
@@ -216,14 +270,20 @@ msgid ""
 "back files and crash recovery. You can configure these in the general "
 "settings."
 msgstr ""
+"Aquestes opcions són excel·lents per a les persones que realitzen treballs de"
+" producció, les quals necessiten canviar entre fitxers amb rapidesa o tenir"
+" fitxers de còpia de seguretat en cas de fer quelcom extrem. El Krita també"
+" té un sistema de còpia de seguretat dels fitxers en forma de desament"
+" automàtic i fitxers de resguard i per a la recuperació de bloqueigs. Podeu"
+" configurar-los als ajustaments generals."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:69
 msgid "You view the image via a **View**."
-msgstr ""
+msgstr "Veureu la imatge a través d'una **vista**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:72
 msgid "View"
-msgstr "Visualitza"
+msgstr "Vista"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:74
 msgid ""
@@ -234,6 +294,13 @@ msgid ""
 "way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`M` "
 "makes such skewing easy to identify."
 msgstr ""
+"Una vista és una finestra amb la vostra imatge. El Krita permet tenir"
+" múltiples vistes i podreu manipular la vista per fer zoom, girar, emmirallar"
+" i modificar el color de manera que veureu la imatge sense editar-la. Això és"
+" molt útil per als artistes, ja que canviar la manera de veure la imatge és"
+" una manera comuna de diagnosticar els errors, com ara inclinar-se cap a un"
+" costat. Emmirallar amb :kbd:`M` fa que aquesta inclinació sigui fàcil"
+" d'identificar."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:77
 msgid ""
@@ -241,6 +308,9 @@ msgid ""
 "drawing, and of course, there is zooming in and out for precision and rough "
 "work."
 msgstr ""
+"Si teniu problemes per a dibuixar determinades corbes, gaudireu utilitzant la"
+" rotació per a dibuixar i, per descomptat, hi ha un zoom per a més precisió i"
+" el treball rude."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid ".. image:: images/en/Krita_multiple_views.png"
@@ -248,7 +318,7 @@ msgstr ".. image:: images/en/Krita_multiple_views.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid "Multiple views of the same image in Krita"
-msgstr ""
+msgstr "Múltiples vistes de la mateixa imatge en el Krita"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:84
 msgid ""
@@ -258,6 +328,12 @@ msgid ""
 "mode is active in the :ref:`settings <general_settings>`, via :menuselection:"
 "`Window --> Tile`."
 msgstr ""
+"Múltiples visites són possibles en el Krita mitjançant"
+" :menuselection:`Finestra --> Vista nova --> nom_imatge`. Podreu canviar"
+" entre elles mitjançant el menú :guilabel:`Finestra`, la drecera :kbd:`Ctrl +"
+" Tab` o manteniu-les a la mateixa àrea quan estigui activat el mode"
+" **subfinestra** als :ref:`ajustaments <general_settings>`, mitjançant"
+" :menuselection:`Finestra --> Mosaic`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:87
 msgid "Dockers"
@@ -268,14 +344,17 @@ msgid ""
 "Dockers are little subwindows in :ref:`Krita's interface <navigation>`. They "
 "contain useful tools, like the color selector, layer stack, tool options etc."
 msgstr ""
+"Els acobladors són petites subfinestres a la :ref:`interfície del Krita <"
+"navigation>`. Contenen eines útils, com ara el selector de color, la pila de"
+" capes, les opcions de les eines, etc."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:94
 msgid "The image above shows some of the dockers in Krita"
-msgstr ""
+msgstr "La imatge de dalt mostra alguns dels acobladors al Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:96
 msgid "All the views and the dockers are held inside **Windows**"
-msgstr ""
+msgstr "Totes les vistes i els acobladors es troben dins de les **finestres**"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:99
 msgid "Window"
@@ -286,20 +365,25 @@ msgid ""
 "If you've used a computer before, you know what windows are: They are big "
 "containers for your computer programs."
 msgstr ""
+"Si heu utilitzat un ordinador abans, ja sabeu què són les finestres: són"
+" contenidors grans per als vostres programes d'ordinador."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:103
 msgid ""
 "Krita allows you to have multiple windows via :menuselection:`Window --> New "
 "Window`. You can then drag this to another monitor for multi-monitor use."
 msgstr ""
+"El Krita permet tenir múltiples finestres mitjançant :menuselection:`Finestra"
+" -> Finestra nova`. A continuació, podreu arrossegar-la a un altre monitor"
+" per utilitzar-ho amb múltiples monitors."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:105
 msgid "The image below shows an example of multiple windows in Krita."
-msgstr ""
+msgstr "La imatge següent mostra un exemple de múltiples finestres al Krita."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:111
 msgid "Canvas in Krita"
-msgstr ""
+msgstr "Llenç en el Krita"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:113
 msgid ""
@@ -307,6 +391,9 @@ msgid ""
 "rectangular white area. This is called a canvas. You can see it in the image "
 "below. The area marked by a red rectangle is a canvas."
 msgstr ""
+"Quan creeu un document nou en el Krita per primera vegada, veureu una àrea"
+" blanca rectangular. Això s'anomena un llenç. Podeu veure-ho a la imatge de"
+" sota. L'àrea marcada per un rectangle vermell és un llenç."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:118
 msgid ""
@@ -316,10 +403,15 @@ msgid ""
 "area, you just won't be able to see it. This data is stored in the "
 "**Layers**."
 msgstr ""
+"Quan deseu la pintura com a JPG, PNG, etc. o quan feu una impressió de la"
+" pintura, només es tindrà en compte el contingut d'aquesta àrea. Qualsevol"
+" cosa més enllà serà ignorada. El Krita emmagatzema informació més enllà"
+" d'aquesta àrea, simplement no la podeu veure. Aquestes dades s'emmagatzemen"
+" a les **capes**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:122
 msgid "Layers and Compositing"
-msgstr ""
+msgstr "Capes i composició"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:124
 msgid ""
@@ -329,6 +421,12 @@ msgid ""
 "them to draw a circle after a square on the same spot, the circle will "
 "always be drawn later. This is called the **Drawing Order**."
 msgstr ""
+"Així com un pintor de paisatges, primer pintaria el cel i després els"
+" elements més allunyats abans de treballar lentament amb els elements en"
+" primer pla, els ordinadors faran el mateix amb totes les coses que els hi"
+" digueu que dibuixin. Per tant, si indiqueu que es dibuixi un cercle després"
+" d'un quadrat en el mateix lloc, el cercle sempre es dibuixarà després. Això"
+" s'anomena **ordre del dibuix**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:126
 msgid ""
@@ -337,16 +435,24 @@ msgid ""
 "allowing you to change the order they are drawn in, and all sorts of other "
 "effects. This is called **Compositing**."
 msgstr ""
+"La pila de capes és una manera per a que separeu els elements d'un dibuix i"
+" en manipuleu l'ordre per a mostrar quines capes es dibuixaran quan, el qual"
+" us permetrà canviar l'ordre en què estan dibuixades i tot tipus d'altres"
+" efectes. Això s'anomena **composició**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:128
 msgid ""
 "This allows you to have line art above the colors, or trees before the "
 "mountains, and edit each without affecting the other."
 msgstr ""
+"Això us permet tenir art lineal sobre els colors o arbres al davant de les"
+" muntanyes, i editar-ne cadascun sense afectar a l'altre."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:130
 msgid "Krita has many layer-types, each doing a slightly different thing:"
 msgstr ""
+"El Krita disposa de molts tipus de capes, cadascuna fa quelcom una mica"
+" diferent:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:132
 msgid ":ref:`paint_layers`"
@@ -357,6 +463,8 @@ msgid ""
 "Also known as raster layers, and the most common layer type, you will be "
 "painting on these."
 msgstr ""
+"També conegudes com a capes de rasteritzat i el tipus de capa més comú,"
+" pintareu sobre aquestes."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:134
 msgid ":ref:`vector_layers`"
@@ -368,6 +476,9 @@ msgid ""
 "typically more simple than raster graphics and with the benefit that you can "
 "deform them with less blurriness."
 msgstr ""
+"Aquestes són un tipus de capa on dibuixareu els gràfics vectorials. Els"
+" gràfics vectorials solen ser més senzills que els gràfics de rasteritzat i"
+" amb el benefici que els podreu deformar amb menys borrositat."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:136
 msgid ":ref:`group_layers`"
@@ -378,6 +489,9 @@ msgid ""
 "These allow you to group several layers via drag and drop, so you can "
 "organize, move, apply masks and perform other actions on them together."
 msgstr ""
+"Aquestes us permeten agrupar diverses capes mitjançant l'acció arrossega i"
+" deixa anar, de manera que podreu organitzar, moure, aplicar màscares i"
+" realitzar altres accions."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:138
 msgid ":ref:`clone_layers`"
@@ -388,6 +502,8 @@ msgid ""
 "These are copies of the layer you selected when making them. They get "
 "updated automatically when changing the original."
 msgstr ""
+"Aquestes són còpies de la capa que heu seleccionat al crear-les."
+" S'actualitzen automàticament quan es canvia l'original."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:140
 msgid ":ref:`file_layers`"
@@ -398,6 +514,9 @@ msgid ""
 "These refer to an outside existing image, and update as soon as the outside "
 "image updates. Useful for logos and emblems that change a lot."
 msgstr ""
+"Aquestes es refereixen a una imatge existent a l'exterior i s'actualitzen tan"
+" aviat com s'actualitza la imatge externa. Útil per a logotips i emblemes que"
+" canvien molt."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:142
 msgid ":ref:`fill_layers`"
@@ -408,6 +527,8 @@ msgid ""
 "These layers are filled with something that Krita can make up on the fly, "
 "like colors or patterns."
 msgstr ""
+"Aquestes capes estan omplides d'alguna cosa que el Krita pot fer sobre la"
+" marxa, com ara colors o patrons."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid ":ref:`filter_layers`"
@@ -415,11 +536,11 @@ msgstr ":ref:`filter_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid "Adding a filter in the layer-stack. We discuss these later on."
-msgstr ""
+msgstr "Afegir un filtre a la pila de capes. Parlarem d'això més endavant."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:147
 msgid "You can manipulate the content of the layers with **Tools**."
-msgstr ""
+msgstr "Podeu manipular el contingut de les capes amb les **eines**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:150
 msgid "Tools"
@@ -431,10 +552,13 @@ msgid ""
 "the freehand brush, which is the default when you open Krita. There are "
 "roughly five types of tools in Krita:"
 msgstr ""
+"Les eines us permeten manipular les dades de la imatge. La més comuna és, per"
+" descomptat, el pinzell a mà alçada, la qual és la predeterminada quan obriu"
+" el Krita. Aproximadament hi ha cinc tipus d'eines al Krita:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:154
 msgid "Paint Tools"
-msgstr ""
+msgstr "Eines de pintura"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:155
 msgid ""
@@ -442,10 +566,14 @@ msgid ""
 "rectangles, circles and straight lines, but also freehand paths. These "
 "shapes then get used by the Brush engines to make shapes and drawing effects."
 msgstr ""
+"Són eines per a pintar sobre capes de pintura. Descriuen formes, com ara"
+" rectangles, cercles i línies rectes, però també traçats a mà alçada."
+" Aquestes formes són utilitzades pels motors de pinzell per a crear formes i"
+" efectes de dibuix."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:156
 msgid "Vector Tools"
-msgstr ""
+msgstr "Eines vectorials"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:157
 msgid ""
@@ -478,7 +606,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid "Transform Tools"
-msgstr ""
+msgstr "Eines de transformació"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid ""
