@@ -30,8 +30,8 @@ Animation curves
 ----------------
 
 To create an animation curve (currently only for opacity) expand the
-“New Frame” button in the “Animation” dock and click “Add Opacity
-Keyframe”. You can now edit the keyframed value for opacity directly in
+:guilabel:`New Frame` button in the :guilabel:`Animation` dock and click :guilabel:`Add Opacity
+Keyframe`. You can now edit the keyframed value for opacity directly in
 the “Layers” dock, adding more keyframes will by default fade from the
 last to the next upcoming keyframe in the timeline over the frames
 between them. See :ref:`animation curves <animation_curves_docker>` for details
@@ -79,9 +79,9 @@ On the first tab, we type in a nice ratio like 1280x1024, set the dpi to
 In the second tab, we choose a nice background color, and set the background to canvas-color. This means that Krita will automatically fill in any transparent bits with the background color. You can change this in :menuselection:`image --> image properties`. This seems to be most useful to people doing animation, as the layer you do animation on MUST be semi-transparent to get onion skinning working.
 
 .. note::
-    Krita has a bunch of functionality for meta-data, starting at the :guilabel:`create document` screen. The title will be automatically used as a suggestion for saving and the description can be used by databases, or for you to leave comments behind. Not many people use it individually, but it can be useful for working in larger groups.
+    Krita has a bunch of functionality for meta-data, starting at the :guilabel:`Create Document` screen. The title will be automatically used as a suggestion for saving and the description can be used by databases, or for you to leave comments behind. Not many people use it individually, but it can be useful for working in larger groups.
 
-Then hit create!
+Then hit :guilabel:`Create`!
 
 Then, to get all the necessary tools for animation, select the workspace
 switcher: 
@@ -122,7 +122,7 @@ all!
 .. image:: /images/en/Introduction_to_animation_06.png
 
 We can make it animatable by adding a frame to the timeline. |mouseright| a frame in
-the timeline to get a context menu. Choose New Frame
+the timeline to get a context menu. Choose :guilabel:`New Frame`.
 
 .. image:: /images/en/Introduction_to_animation_07.png
 
@@ -217,8 +217,8 @@ timeline docker. So you manually have to add them.
 
 .. image:: /images/en/Introduction_to_animation_18.png
 
-You can show any given layer in the timeline by doing on the layer in
-the layer docker, and toggling :guilabel:`show in timeline`.
+You can show any given layer in the timeline by doing |mouseright| on the layer in
+the layer docker, and toggling :guilabel:`Show in Timeline`.
 
 .. image:: /images/en/Introduction_to_animation_19.png
 

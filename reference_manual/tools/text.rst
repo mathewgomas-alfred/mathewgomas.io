@@ -52,7 +52,7 @@ Activating
     You can use the Text tool to first create a text box. There are a few options in the tool options if you want to customize how the text will be adding. You will need to drag a rectangle on the canvas to create the text area. There is no word wrapping, so for now the box you draw will not have an effect on the results. Once your text is created, you can edit the text from two ways:
     
     #. Select the text with the shape selection tool (first tool). Press the :kbd:`Enter` key. The text editor will appear.
-    #. Select the text with the shape selection tool (first tool). Then click the Text tool. In the tool options there is an "Edit Text" button. When you click that the text editor window will appear. 
+    #. Select the text with the shape selection tool (first tool). Then click the Text tool. In the tool options there is an :guilabel:`Edit Text` button. When you click that the text editor window will appear. 
 
 Editing
     If you are unfamiliar with the way svg text works, use the rich text tab, it will allow you to edit the text as you see it, at the cost of not having all functionality.

@@ -40,23 +40,23 @@ HSL
 HSI
     This stands for Hue, Saturation and Intensity. Unlike HSL, this one determine the intensity as the sum of total rgb components. Yellow (1,1,0) has higher intensity than blue (0,0,1) but is the same intensity as cyan (0,1,1).
 HSY'
-    Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like [http://en.wikipedia.org/wiki/Rec._709 Rec 709], to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
+    Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like `Rec 709 <http://en.wikipedia.org/wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
 
 Then, under shape, you can select one of the shapes available within that colour model.
 
 .. note::
 
-    Triangle is in all colour models because to a certain extent, it is a wildcard shape: All colour models look the same in a equilateral triangle selector.
+    Triangle is in all colour models because to a certain extent, it is a wildcard shape: All colour models look the same in an equilateral triangle selector.
 
 Luma Coefficients
 ~~~~~~~~~~~~~~~~~
 
-This allows you to edit the Luma coefficients for the HSY model selectors to your leisure. Want to use [http://en.wikipedia.org/wiki/Rec._601 Rec 601] instead of Rec 709? These boxes allow you to do that!
+This allows you to edit the Luma coefficients for the HSY model selectors to your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ instead of Rec 709? These boxes allow you to do that!
 
 By default, the Luma coefficients should add up to 1 at maximum.
 
 Gamma
-    The HSY selector is linearised, this setting allows you to choose how much gamma is applied to the Luminosity for the gui element. 1.0 is fully linear, 2.2 is default.
+    The HSY selector is linearised, this setting allows you to choose how much gamma is applied to the Luminosity for the gui element. 1.0 is fully linear, 2.2 is the default.
 
 Color Space
 ~~~~~~~~~~~
@@ -72,7 +72,7 @@ Behaviour
 When docker resizes
 ~~~~~~~~~~~~~~~~~~~
 
-This determines the behavior of the widget as it become smaller.
+This determines the behavior of the widget as it becomes smaller.
 
 Change to Horizontal
     This'll arrange the shade selector horizontal to the main selector. Only works with the MyPaint shade selector

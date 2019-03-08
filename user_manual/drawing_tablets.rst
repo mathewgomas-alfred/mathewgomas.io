@@ -99,9 +99,9 @@ Surface pro tablets need two drivers
 
 Certain tablets using n-trig, like the Surface Pro, have two types of
 drivers. One is native, n-trig and the other one is called wintab.
-Since 3.3, Krita can use windows ink style drivers, just go to 
+Since 3.3, Krita can use Windows Ink style drivers, just go to 
 :menuselection:`Settings --> Configure Krita --> Tablet Settings` and 
-toggle the "Windows 8+ pointer input" there. You don't need to install
+toggle the :guilabel:`Windows 8+ Pointer Input` there. You don't need to install
 the wintab drivers anymore for n-trig based pens.
 
 Windows 10 updates
@@ -127,7 +127,7 @@ On Windows, you can only have a single wintab-style driver installed at
 a time. So be sure to deinstall the previous driver before installing
 the one that comes with the tablet you want to use. Other operating
 systems are a bit better about this, but even Linux, where the drivers
-are often preinstalled, cant run two tablets with different drivers at
+are often preinstalled, can't run two tablets with different drivers at
 once.
 
 Interfering software
@@ -153,12 +153,12 @@ Flicks (Wait circle showing up and then calling the popup palette)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have a situation where trying to draw keeps bringing up the
-pop-up palette on windows, then the problem might be flicks. These are a
-type of gesture, a bit of windows functionality that allows you to make
+pop-up palette on Windows, then the problem might be flicks. These are a
+type of gesture, a bit of Windows functionality that allows you to make
 a motion to serve as a keyboard shortcut. Windows automatically turns
 these on when you install tablet drivers, because the people who made
-this part of windows forgot that people also draw with computers. So you
-will need to turn it off in the windows flicks configuration.
+this part of Windows forgot that people also draw with computers. So you
+will need to turn it off in the Windows flicks configuration.
 
 Wacom Double Click Sensitivity (Straight starts of lines)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
