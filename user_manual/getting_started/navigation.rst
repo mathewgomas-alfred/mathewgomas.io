@@ -6,7 +6,7 @@
 
    :authors: - Scott Petrovic
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
-             - Raghavendra Kamath <raghavendr.raghu@gmail.com>
+             - Raghavendra Kamath <raghu@raghukamath.com>
              - Boudewijn Rempt <boud@valdyas.org>
    :license: GNU free documentation license 1.3 or later.
 
@@ -20,12 +20,12 @@ Navigation
 Interface
 ---------
 
-Krita provides an ample choice for the artists to arrange the workspace. An artist can snap and arrange the elements of the workspace, much like snapping together Lego blocks.  Krita provides a set of construction kit parts in the form of Dockers and Toolbars. Every set of elements can be shown, hidden, moved and rearranged that let the artist easily customize their own user interface experience.
+Krita provides an ample choice for the artists to arrange the workspace. An artist can snap and arrange the elements of the workspace, much like snapping together Lego blocks. Krita provides a set of construction kit parts in the form of Dockers and Toolbars. Every set of elements can be shown, hidden, moved and rearranged that let the artists easily customize their own user interface experience.
 
 A Tour of the Krita Interface
 -----------------------------
 
-As we've said before, the Krita interface is very malleable and the way that you choose to configure the work surface may not resemble those above but, at least this we can use these as a starting point.
+As we've said before, the Krita interface is very malleable and the way that you choose to configure the work surface may not resemble those above but, at least we can use these as a starting point.
 
 .. image:: /images/en/Interface-tour.png
    :width: 1000

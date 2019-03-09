@@ -4,11 +4,28 @@
   Welcome to the Krita |version| Manual!
 #########################################
 
-Welcome to Krita's documentation page. Krita is a sketching and painting program designed for digital artists.
+Welcome to Krita's documentation page.
 
-As you learn about Krita, keep in mind that it is not intended as a replacement for Photoshop. This means that the other programs may have more features than Krita for image manipulation tasks, such as stitching together photos, while Krita's tools are most relevant to digital painting, concept art, illustration, and texturing. This fact accounts for a great deal of Krita's design.
+Krita is a sketching and painting program designed for digital artists. Our vision for Development of Krita is —
 
-`The manual as epub <https://docs.krita.org/en/epub/KritaManual.epub>`_
+  Krita is a free and open source cross-platform application that offers an
+  end-to-end solution for creating digital art files from scratch. Krita is
+  optimized for frequent, prolonged and focused use. Explicitly supported fields
+  of painting are illustrations, concept art, matte painting, textures, comics
+  and animations. Developed together with users, Krita is an application that
+  supports their actual needs and workflow. Krita supports open standards and
+  interoperates with other applications.
+
+Krita's tools are developed keeping the above vision in mind. Although it has
+features that overlap with other raster editors its intended pupose is to
+provide robust tool for digital painting and creating artworks from scratch. As
+you learn about Krita, keep in mind that it is not intended as a replacement
+for Photoshop. This means that the other programs may have more features than
+Krita for image manipulation tasks, such as stitching together photos, while
+Krita's tools are most relevant to digital painting, concept art, illustration,
+and texturing. This fact accounts for a great deal of Krita's design.
+
+You can download this manual as an epub `here <https://docs.krita.org/en/epub/KritaManual.epub>`_.
 
 +------------------------------------------------+------------------------------------------+
 | .. image:: /images/en/Hero_userManual.jpg      | .. image:: /images/en/Hero_tutorials.jpg |
