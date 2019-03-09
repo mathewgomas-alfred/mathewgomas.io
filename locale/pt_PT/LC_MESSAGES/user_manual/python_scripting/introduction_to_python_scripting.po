@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-08 17:52+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:1
 msgid "Introduction to using Krita's python plugin API."
-msgstr ""
+msgstr "Introdução à API de 'plugins' em Python do Krita."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:18
 msgid "Introduction to Python Scripting"
-msgstr ""
+msgstr "Introdução à Programaçẽo em Python"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:22
 msgid ""
@@ -31,11 +31,11 @@ msgid ""
 "implement next to vectors and text, it won the backer vote by a landslide. "
 "Some people even only picked python and nothing else. So what exactly is "
 "python scripting?"
-msgstr ""
+msgstr "Quando oferecemos a programação em Python como um dos passatempos do Kickstarter, havia a hipótese de ser implementada a seguir aos vectores e ao texto, mas passou à frente de tudo na altura. Algumas pessoas até escolheram Python e mais nada. Por isso, o que é exactamente a programação em Python?"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:25
 msgid "What is Python Scripting?"
-msgstr ""
+msgstr "O que é a Programação em Python?"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:27
 msgid ""
@@ -54,18 +54,18 @@ msgid ""
 "as python is an extremely popular programming language and great for "
 "beginners, there's tons of learning material around that can be quickly "
 "found with a simple 'learn python' internet search."
-msgstr ""
+msgstr "Está fora do âmbito deste manual ensinar-lhe o Python em si. Contudo, dado que o Python é uma linguagem de programação bastante popular e é óptima para principiantes, existem quantidades enormes de material de aprendizagem que pode encontrar rapidamente com uma pesquisa sobre 'aprender Python' na Internet."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:31
 msgid ""
 "This manual will instead focus on how to use python to automate and extend "
 "Krita. For that we'll first start with the basics: How to run Python "
 "commands in the scripter."
-msgstr ""
+msgstr "Este manual focar-se-á sim em como usar o Python para automatizar e estender o Krita. Para tal, iremos primeiro começar pelas bases: Como correr comandos em Python no programador."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:35
 msgid "How to Enable the Scripter Plugin"
-msgstr ""
+msgstr "Como Activar o 'Plugin' do Programador"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:37
 msgid ""
@@ -73,7 +73,7 @@ msgid ""
 "for testing and playing around with python. It is a python console, written "
 "in python, which can be used to write small scripts and execute them on the "
 "fly."
-msgstr ""
+msgstr "O 'plugin' do programador não é necessário para usar o Python, mas é bastante útil para testar e brincar com o Python. É uma consola de Python, criada em Python, que pode ser usada para criar pequenos programas e executá-los na hora."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:39
 msgid ""
@@ -88,48 +88,48 @@ msgstr ""
 msgid ""
 "The scripter will pop up with a text editor window on top and an output "
 "window below. Input the following in the text area:"
-msgstr ""
+msgstr "O programador irá aparecer com uma pequena janela de edição de texto no topo e uma janela de resultados em baixo. Introduza o seguinte na área de texto:"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:48
 msgid ""
 "Press the big play button or press :kbd:`Ctrl + R` to run the script. Then, "
 "below, in the output area the following should show up::"
-msgstr ""
+msgstr "Carregue no botão grande de reprodução ou carregue em :kbd:`Ctrl + R` para executar o programa. Depois, em baixo, na área de resultados, deverá aparecer o seguinte::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:53
 msgid ""
 "Now we have a console that can run functions like print() from the Python "
 "environment - but how do we use it to manage Krita?"
-msgstr ""
+msgstr "Agora temos uma consola que consegue correr funções como o print() no ambiente de Python - mas como é que conseguimos usá-la para gerir o Krita?"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:56
 msgid "Running basic Krita commands"
-msgstr ""
+msgstr "Executar comandos básicos do Krita"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:58
 msgid ""
 "To allow Python to communicate with Krita, we will use the Krita module. At "
 "the top of every script, we will write: ``from krita import *``"
-msgstr ""
+msgstr "Para permitir ao Python comunicar com o Krita, iremos usar o módulo do Krita. No topo de cada programa, iremos escrever: ``from krita import *``"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:60
 msgid ""
 "This allows us to talk to Krita through ``Krita.instance()``. Let's try to "
 "double our coding abilities with Python."
-msgstr ""
+msgstr "Isto permite-nos aceder ao ``Krita.instance()``. Vamos experimentar duplicar as nossas competências de programação em Python."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:68
 msgid ""
 "You should see a second scripter window open. Pretty neat! Here is a "
 "slightly more advanced example."
-msgstr ""
+msgstr "Deverá ver uma segunda janela do programador aberta. Muito bom! Agora está aqui um exemplo ligeiramente mais avançado."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:77
 msgid ""
 "This will open up a new document. Clearly Python gives you quite a lot of "
 "control to automate Krita. Over time we expect the community to write all "
 "kinds of scripts that you can use simply by pasting them in the scripter."
-msgstr ""
+msgstr "Isto irá agora abrir um novo documento. Claramente o Python dá-lhe um boa quantidade de controlo para automatizar o Krita. Com o tempo, esperamos que a comunidade crie todos os tipos de programas que possa usar, bastando para tal colá-los no programador."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:79
 msgid ""
@@ -147,23 +147,23 @@ msgid ""
 "what's hidden behind the asterisk when you ``import * from Krita``. To learn "
 "what Krita functions that are available and how to use them, you will want "
 "to go for Krita API reference documentation."
-msgstr ""
+msgstr "Mas é provável que necessite de mais informações. Para tal, iremos ver o que está escondido atrás do asterisco quando executa ``import * from Krita``. Para saber quais as funções do Krita que estão disponíveis e como usá-las, irá querer ver directamente a documentação de referência da API do Krita."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:84
 msgid "Krita's API"
-msgstr ""
+msgstr "API do Krita"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:86
 msgid ""
 "`LibKis API Overview <https://api.kde.org/extragear-api/graphics-apidocs/"
 "krita/libs/libkis/html/index.html>`_"
-msgstr ""
+msgstr "`Introdução à API do LibKis <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/index.html>`_"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:87
 msgid ""
 "`Krita class documentation <https://api.kde.org/extragear-api/graphics-"
 "apidocs/krita/libs/libkis/html/classKrita.html>`_"
-msgstr ""
+msgstr "`Documentação da classe Krita <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classKrita.html>`_"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:89
 msgid ""
@@ -199,15 +199,15 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:101
 msgid "Outputs as ::"
-msgstr ""
+msgstr "Devolve o resultado ::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:112
 msgid "However, sometimes the conversion doesn't go quite as smoothly."
-msgstr ""
+msgstr "Conutod, algumas vezes a conversão não corre assim tão bem."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:120
 msgid "gives something like this::"
-msgstr ""
+msgstr "dando-lhe algo como o seguinte::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:127
 msgid ""
@@ -223,12 +223,12 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:137
 msgid "we get an output like::"
-msgstr ""
+msgstr "iremos obter um resultado como o seguinte::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:147
 msgid ""
 "Hopefully this will give you an idea of how to navigate the API docs now."
-msgstr ""
+msgstr "Esperamos que isto lhe dê uma ideia de como navegar pela documentação da API agora."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:149
 msgid ""
@@ -243,7 +243,7 @@ msgstr ""
 msgid ""
 "The Python module ``inspect`` was designed for this sort of task. Here's a "
 "useful function to print info about a class to the console."
-msgstr ""
+msgstr "O módulo ``inspect`` do Python foi desenhado para este tipo de tarefas. Aqui está uma função útil para mostrar informações sobre uma classe na consola."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:167
 msgid ""
@@ -262,25 +262,25 @@ msgstr "Detalhes Técnicos"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:177
 msgid "Python Scripting on Windows"
-msgstr ""
+msgstr "Programação em Python no Windows"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:179
 msgid ""
 "To get Python scripting working on Windows 7/8/8.1, you will need to install "
 "the `Universal C Runtime from Microsoft's website <https://www.microsoft.com/"
 "en-us/download/details.aspx?id=48234>`_. (Windows 10 already comes with it.)"
-msgstr ""
+msgstr "Para ter a programação em Python a funcionar no Windows 7/8/8.1, precisa de instalar o ambiente de execução `Universal C Runtime na página Web da Microsoft <https://www.microsoft.com/en-us/download/details.aspx?id=48234>`_. (O Windows 10 já a traz de raiz.)"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:182
 msgid "Python 2 and 3"
-msgstr ""
+msgstr "Python 2 e 3"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:184
 msgid "By default Krita is compiled for python 3."
-msgstr ""
+msgstr "Por omissão, o Krita foi compilado para o Python 3."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:186
 msgid ""
 "However, it is possible to compile it with python 2. To do so, you will need "
 "to add the following to the cmake configuration line::"
-msgstr ""
+msgstr "Contudo, é possível compilá-lo com o Python 2. Para o fazer, terá de adicionar o seguinte à linha de configuração do CMake::"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___transform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 03:24+0100\n"
-"PO-Revision-Date: 2019-03-06 21:14+0200\n"
+"POT-Creation-Date: 2019-03-08 03:41+0100\n"
+"PO-Revision-Date: 2019-03-08 09:04+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -106,9 +106,8 @@ msgid ""
 "`Video of how to use the anchor point for resizing. <https://www.youtube.com/"
 "watch?v=grzccBVd0O8>`_"
 msgstr ""
-"`Відео щодо використання точок прив'язки для зміни розмірів. <"
-"https://www.youtube.com/"
-"watch?v=grzccBVd0O8>`_"
+"`Відео щодо використання точок прив'язки для зміни розмірів. <https://www."
+"youtube.com/watch?v=grzccBVd0O8>`_"
 
 #: ../../reference_manual/tools/transform.rst:46
 msgid "Perspective"
@@ -292,7 +291,8 @@ msgid "Liquify used to turn an apple into a pear"
 msgstr "Використання розплавлення для перетворення яблука на грушу"
 
 #: ../../reference_manual/tools/transform.rst:121
-msgid "In the options for each brush there's:"
+#| msgid "In the options for each brush there's:"
+msgid "In the options for each brush there are:"
 msgstr "У параметрах для кожного пензля є такі:"
 
 #: ../../reference_manual/tools/transform.rst:123
@@ -301,9 +301,9 @@ msgstr "Режим"
 
 #: ../../reference_manual/tools/transform.rst:124
 msgid ""
-"This is either wash or build up. :guilabel:`Wash` will normalize the effect "
-"to be between none, and the amount parameter as maximum. :guilabel:`Build-"
-"up` will just add on until it's impossible.."
+"This is either :guilabel:`Wash` or :guilabel:`Build up`. :guilabel:`Wash` "
+"will normalize the effect to be between none, and the amount parameter as "
+"maximum. :guilabel:`Build up` will just add on until it's impossible."
 msgstr ""
 
 #: ../../reference_manual/tools/transform.rst:125
@@ -315,27 +315,31 @@ msgid ""
 "The brush size. The button to the right allow you to let it scale with "
 "pressure."
 msgstr ""
-"Розмір пензля. За допомогою кнопки, яку розташовано праворуч, можна"
-" масштабувати пензель за тиском стила."
+"Розмір пензля. За допомогою кнопки, яку розташовано праворуч, можна "
+"масштабувати пензель за тиском стила."
 
 #: ../../reference_manual/tools/transform.rst:127
 msgid "Amount"
 msgstr "Величина"
 
 #: ../../reference_manual/tools/transform.rst:128
+#| msgid ""
+#| "The strength of the brush. The button to the right let's it scale with "
+#| "tablet-pressure."
 msgid ""
-"The strength of the brush. The button to the right let's it scale with "
-"tablet-pressure."
+"The strength of the brush. The button to the right lets it scale with tablet "
+"pressure."
 msgstr ""
-"Потужність пензля. За допомогою кнопки праворуч можна масштабувати потужність"
-" за тиском стила на планшет."
+"Потужність пензля. За допомогою кнопки праворуч можна масштабувати "
+"потужність за тиском стила на планшет."
 
 #: ../../reference_manual/tools/transform.rst:129
 msgid "Flow"
 msgstr "Потік"
 
 #: ../../reference_manual/tools/transform.rst:130
-msgid "Only applicable with build-up."
+#| msgid "Only applicable with build-up."
+msgid "Only applicable with :guilabel:`Build up`."
 msgstr "Можна застосовувати лише у режимі надбудови."
 
 #: ../../reference_manual/tools/transform.rst:131
@@ -355,8 +359,8 @@ msgid ""
 "Reverses the action, so grow becomes shrink, rotate results in clockwise "
 "becoming counter-clockwise."
 msgstr ""
-"Обертає дію: розтягування стає стисканням, обертання з обертання за"
-" годинниковою стрілкою перетворюється на обертання проти годинникової стрілки."
+"Обертає дію: розтягування стає стисканням, обертання з обертання за "
+"годинниковою стрілкою перетворюється на обертання проти годинникової стрілки."
 
 #: ../../reference_manual/tools/transform.rst:138
 msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
@@ -382,7 +386,7 @@ msgstr "Рекурсивне перетворення"
 #: ../../reference_manual/tools/transform.rst:144
 msgid ""
 "The little spider icon on the lower-left of the transform tool options is "
-"the ''Recursive Transform''."
+"the :guilabel:`Recursive Transform`."
 msgstr ""
 
 #: ../../reference_manual/tools/transform.rst:148
@@ -392,7 +396,7 @@ msgstr ".. image:: images/en/Krita_transforms_recursive.png"
 #: ../../reference_manual/tools/transform.rst:148
 msgid ""
 "Recursive transform transforms all the layers in the group, so with this "
-"apple, both the line-art as the fill will be transformed."
+"apple, both the lineart as the fill will be transformed."
 msgstr ""
 
 #: ../../reference_manual/tools/transform.rst:150
@@ -410,7 +414,7 @@ msgid ""
 "If you apply a transformation, and try to start a new one directly "
 "afterwards, Krita will attempt to recall the previous transform, so you can "
 "continue it. This is the *continuous transform*. You can press :kbd:`Esc` to "
-"cancel this and start a new transform, or preset :guilabel:`reset` in the "
+"cancel this and start a new transform, or press :guilabel:`Reset` in the "
 "tool options while no transform is active."
 msgstr ""
 

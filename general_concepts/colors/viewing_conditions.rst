@@ -24,7 +24,7 @@ So, usually what we mean by viewing conditions is the lighting and decoration of
    :figwidth: 800
    :align: center
    
-   **Left**: Let's ruin Vermeer by putting a bright purple background that asks for more attention than the famous painting it self. **Center**: a much more neutral backdrop that an interior decorator would hate but brings out the colors. **Right**: The approximate color that this painting is displayed against in real life in the Maurits House, at the least, last time I was there. Original image from wikipedia commons.
+   **Left**: Let's ruin Vermeer by putting a bright purple background that asks for more attention than the famous painting itself. **Center**: a much more neutral backdrop that an interior decorator would hate but brings out the colors. **Right**: The approximate color that this painting is displayed against in real life in the Maurits House, at the least, last time I was there. Original image from wikipedia commons.
 
 This is for example, the reason why museum exhibitioners can get really angry at the interior decorators when the walls of the museum are painted bright red or blue, because this will drastically change the way how the painting's colors look. (Which, if we are talking about a painter known for their colors like Vermeer, could result in a really bad experience).
 
@@ -34,7 +34,7 @@ This is for example, the reason why museum exhibitioners can get really angry at
    :figwidth: 500
    :align: center
 
-Lighting is the other component of the viewing condition which can have dramatic effects. Lighting in particular affects the way how all colors look. For example, if you were to paint an image of sunflowers and poppies, print that out, and shine a bright yellow light on it, the sunflowers would become indistinguishable from the white background, and the poppies would look orange. This is called [https://en.wikipedia.org/wiki/Metamerism_%28color%29 metamerism], and it's generally something you want to avoid in your color management pipeline.
+Lighting is the other component of the viewing condition which can have dramatic effects. Lighting in particular affects the way how all colors look. For example, if you were to paint an image of sunflowers and poppies, print that out, and shine a bright yellow light on it, the sunflowers would become indistinguishable from the white background, and the poppies would look orange. This is called `metamerism <https://en.wikipedia.org/wiki/Metamerism_%28color%29>`_, and it's generally something you want to avoid in your color management pipeline.
 
 Examples where metamerism could become a problem is when you start matching colors from different sources together.
 

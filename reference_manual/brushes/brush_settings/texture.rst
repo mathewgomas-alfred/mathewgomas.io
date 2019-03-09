@@ -55,9 +55,13 @@ Cutoff
 
 Invert Pattern
     Invert the pattern.
+    
     .. image:: /images/en/Krita_2_9_brushengine_texture_06.png
 
-Brightness and Contrast .. versionadded:: 3.3.1
+Brightness and Contrast
+
+.. versionadded:: 3.3.1
+
     Adjust the pattern with a simple brightness/contrast filter to make it easier to use. Because Subtract and Multiply work differently, it's recommended to use different values with each:
 
     .. image:: /images/en/Krita_3_1_brushengine_texture_07.png

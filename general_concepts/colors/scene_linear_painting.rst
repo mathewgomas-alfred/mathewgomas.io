@@ -50,7 +50,7 @@ The point is making things easier in the long run:
 
 #. It is easier to keep saturated non-muddy colors in a linear space.
 #. The high bit depth makes it easier to get smoother color mixes.
-#. Filters are more powerful a give nicer results in this space. It is far more easy to get nice blurring and bokeh results.
+#. Filters are more powerful and give nicer results in this space. It is far more easy to get nice blurring and bokeh results.
 #. Simple Blending Modes like Multiply or Addition are suddenly black magic. This is because Scene-Linear is the closest you can get to the physical (as in, physics, not material) model of color where multiplying colors with one another is one of the main ways to calculate the effect of light.
 #. Combining painting with other image results such as photography and physically based rendering is much easier as they too work in such a type of colorspace. So you could use such images as a reference with little qualms, or make textures that play nice with such a renderer.
 

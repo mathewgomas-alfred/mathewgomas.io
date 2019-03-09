@@ -68,7 +68,7 @@ Windows: OBS can't record the Krita OpenGL canvas
 
 The possible workarounds for this is to do either of the following:
 
-#. Turn off OpenGL in Settings --> Configure Krita --> Display.
+#. Turn off OpenGL in :menuselection:`Settings --> Configure Krita --> Display`.
 #. Or don't use the hardware accelerated mode (game recording mode) in
    OBS, thus capturing the whole desktop instead of attempting to capture
    only Krita.
@@ -109,7 +109,7 @@ kritadisplayrc.
 
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
-.. 
+
 If you have installed Krita through the Windows store, the kritarc file will be in another location
 
 :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
@@ -136,15 +136,15 @@ Krita tells me it can't find some files and then closes, what should I do?
 
 Causes for this could be the following:
 
--  It might be that your download got corrupted and is missing files (common with bad wifi and bad internet connection in general), in that case, try to find a better internet connection before trying to download again. Krita should be around 80 to 100 mb in size when downloading.
+-  It might be that your download got corrupted and is missing files (common with bad wifi and bad internet connection in general), in that case, try to find a better internet connection before trying to download again. Krita should be around 80 to 100 MB in size when downloading.
 -  It might be that something went wrong during installation. Check whether your harddrive is full and reinstall Krita with at least 120 MB of empty space. If not, and the problem still occurs, there might be something odd going on with your device and it's recommended to find a computer expert to diagnose what is the problem.
--  Some unzippers don't unpack our zipfiles correctly. The native ones on windows, OSX and most linux distributions should be just fine, and we recommend using them.
+-  Some unzippers don't unpack our zipfiles correctly. The native ones on Windows, OSX and most Linux distributions should be just fine, and we recommend using them.
 -  You manually, using a file manager deleted or moved resources around, and thus Krita cannot find them anymore.
 
 What Graphics Cards does Krita support?
 ---------------------------------------
 
-Krita can use OpenGL to accelerate painting and canvas zooming, rotation and panning. Nvidia and recent Intel GPUs give the best results. Make sure your OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s are known to be troublesome, especially with the proprietary drivers on Linux. However, it works perfectly with the Radeon free driver on linux for supported AMD GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the best results, some examples:
+Krita can use OpenGL to accelerate painting and canvas zooming, rotation and panning. Nvidia and recent Intel GPUs give the best results. Make sure your OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s are known to be troublesome, especially with the proprietary drivers on Linux. However, it works perfectly with the Radeon free driver on Linux for supported AMD GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the best results, some examples:
 
 .. Following graphics cards have been suggested by Tyson Tan on the basis that they all support 3.2
 
@@ -222,7 +222,7 @@ On Windows, the Krita User Interface is too small on my HiDPI screen
 If you're using Windows, you can set the display scaling to 150% or 200%, and enable the experimental HiDPI support in the configurations:
 
 -  On the menu, select :menuselection:`Settings --> Configure Krita`
--  On General page, switch to :guilabel:`Window` tab.
+-  On :guilabel:`General` page, switch to :guilabel:`Window` tab.
 -  Check :guilabel:`Enable Hi-DPI support`
 -  Restart Krita
 
@@ -237,7 +237,7 @@ What tablets does Krita support?
 
 Krita isn’t much fun without a pressure sensitive tablet. If the tablet has been properly configured, Krita should work out of the box. 
 
-On Windows, you need to either install the Wintab drivers for your tablet, or enable the Windows 8 Pointer Input option in Krita's settings.
+On Windows, you need to either install the Wintab drivers for your tablet, or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's settings.
 
 You can find a community curated list of tablets supported by krita :ref:`here <list_supported_tablets>`.
 
@@ -299,7 +299,7 @@ You can fix this issue manually by:
 #. Press :kbd:`Shift` key and hold it.
 #. Touch a tablet with your stylus so Krita would recognize it.
 
-You will see a special dialog asking for the real screen resolution. Choose the correct value or enter it manually and press OK.
+You will see a special dialog asking for the real screen resolution. Choose the correct value or enter it manually and press :guilabel:`OK`.
 
 If you have a dual monitor setup and only the top half of the screen is reachable, you might have to enter the total width of both screens plus the double height of your monitor in this field.
 
@@ -308,7 +308,7 @@ If this didn't work, and if you have a Wacom tablet, an offset in the canvas can
 To fix it, use the “Wacom Tablet Preference File Utility” to clear all the preferences. This should allow Krita to detect the correct settings automatically.
 
 .. warning::
-    This will reset your tablets configuration, thus you will need to recalibrate/reconfigure it.
+    This will reset your tablet's configuration, thus you will need to recalibrate/reconfigure it.
 
 *For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer Input” <tablet_settings>`, but some features might not work with it.
 
@@ -377,7 +377,7 @@ OSX
 
 You can easily do this by going into :menuselection:`Settings --> Manage Resources --> Open Resource Folder`.
 
-Then go into the paintoppressets folder and remove the latest created
+Then go into the *paintoppresets* folder and remove the latest created
 file that you made of your preset.
 
 After that go back to the resources folder and edit the blacklist file to
@@ -400,12 +400,12 @@ Krita is slow
 
 There is a myriad of reasons why this might be. Below is a short checklist.
 
--  Something else is hogging the cpu or the memory: spotify and other electron apps have been known to do this.
+-  Something else is hogging the CPU or the memory: spotify and other electron apps have been known to do this.
 -  You are running Windows, and have 3rdparty security software like Sandboxie or Total Defender installed
--  you are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
--  you do not have canvas acceleration enabled
+-  You are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
+-  You do not have canvas acceleration enabled
 
-Please also check this page: https://phabricator.kde.org/T7199
+Please also check `this page <https://phabricator.kde.org/T7199>`_
 
 Slow start-up
 -------------
@@ -421,8 +421,8 @@ Slow Brushes
 -  Try another scaling mode like trilinear. :menuselection:`Settings --> Configure Krita --> Display`.
 -  Try a lower channel depth than 16-bit.
 -  For NVidia, try a 16-bit floating point color space.
--  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`. This isn't needed if you've got an AMD threadrippercpu.
--  It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 gig is the preferable minimum.
+-  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`. This isn't needed if you've got an AMD Threadripper™ CPU.
+-  It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB is the preferable minimum.
 -  Check that nothing else is hogging your CPU
 -  Check that Instant Preview is enabled if you're using bigger brushes (but for very small brushes, make sure is disabled).
 -  Set brush precision to 3 or auto.
@@ -441,7 +441,7 @@ Tools
 Why does the Transform Tool give a good result and then get blurry upon finalizing?
 -----------------------------------------------------------------------------------
 
-The transform tool makes a preview that you edit before computing the finalized version. As this preview is using the screen resolution rather than the image resolution, it may feel that the result is blurry compared to the preview. See https://forum.kde.org/viewtopic.php?f=139&t=127269 for more info.
+The transform tool makes a preview that you edit before computing the finalized version. As this preview is using the screen resolution rather than the image resolution, it may feel that the result is blurry compared to the preview. See `this page <https://forum.kde.org/viewtopic.php?f=139&t=127269>`_ for more info.
 
 
 License, rights and the Krita Foundation

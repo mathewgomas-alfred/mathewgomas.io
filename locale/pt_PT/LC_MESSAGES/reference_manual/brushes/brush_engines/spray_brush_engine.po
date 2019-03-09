@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Mix with background color."
-msgstr ""
+msgstr "Mistura com a cor de fundo."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:1
 msgid "The Spray Brush Engine manual page."
@@ -192,7 +192,7 @@ msgstr "Rectângulo"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:78
 msgid "Anti-aliased Pixel"
-msgstr ""
+msgstr "Pixel Suavizado"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:79
 msgid "Pixel"
@@ -292,6 +292,9 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Atribui valores aleatórios ao HSV com a potência das barras. Quanto maiores "
+"os valores, mais a cor se irá desviar da cor principal, com a direcção a "
+"indicar o sentido horário ou anti-horário."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:112
 msgid "Random Opacity"
@@ -299,25 +302,29 @@ msgstr "Opacidade Aleatória"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:113
 msgid "Randomizes the opacity."
-msgstr ""
+msgstr "Atribui valores aleatórios à opacidade."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:114
 msgid "Color Per Particle"
-msgstr ""
+msgstr "Cor por Partícula"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:115
 msgid "Has the color options be per particle instead of area."
 msgstr ""
+"Tem as opções de cores a serem aplicadas por partícula em vez de ser por "
+"área."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:116
 msgid "Sample Input Layer."
-msgstr ""
+msgstr "Camada de Entrada de Exemplo."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:117
 msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Irá usar a camada subjacente como referência para as cores em vez de usar a "
+"cor principal."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:118
 msgid "Fill Background"
@@ -325,10 +332,12 @@ msgstr "Preencher o Fundo"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:119
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Preenche a área antes de desenhar as partículas com a cor de fundo."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:121
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
 msgstr ""
+"Atribui à partícula uma cor aleatória entre a cor principal/de entrada/HSV "
+"aleatório e a cor de fundo."

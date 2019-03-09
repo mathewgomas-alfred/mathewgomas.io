@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-07 14:42+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,18 +16,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: CRT video table VCGT sSRGB CMYK scRGB fr Argyllcms\n"
+"X-POFile-SpellExtra: ICC colorímetros GPU card Krita Photo XYZ Gamute\n"
+"X-POFile-SpellExtra: sRGB cinescópios gamma\n"
 
 #: ../../<generated>:1
 msgid "soft-proofing"
-msgstr ""
+msgstr "prova suave"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:1
 msgid "Color Models in Krita"
-msgstr ""
+msgstr "Modelos de Cores no Krita:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:18
 msgid "Profiling and Calibration:"
-msgstr ""
+msgstr "Perfis e Calibração:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:20
 msgid ""
@@ -35,14 +38,17 @@ msgid ""
 "colors inside a pure XYZ color cube. This \"color set\" can be used to "
 "define different things:"
 msgstr ""
+"Como tal, para simplificar, um perfil de cores é apenas um ficheiro que "
+"define um conjunto de cores dentro de um cubo de cores XYZ. Este \"conjunto "
+"de cores\" poderá ser usado para definir coisas diferentes:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:23
 msgid "the colors inside an image"
-msgstr ""
+msgstr "as cores dentro de uma imagem"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:25
 msgid "the colors a device can output"
-msgstr ""
+msgstr "as cores que um dispositivo consegue gerar"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:27
 msgid ""
@@ -57,6 +63,17 @@ msgid ""
 "color change steps and have a big number of values looking the same (leading "
 "to posterization effect)."
 msgstr ""
+"A escolha do perfil correcto do espaço de trabalho a usar depende de quantas "
+"cores precisa e da profundidade de cores que planeia usar. Imagine uma linha "
+"com o espectro de cores inteiro, desde o preto puro (0, 0, 0) até ao azul "
+"puro (0, 0, 1) num cubo de cores XYZ puro. Se o dividir, escolhendo passos "
+"com um intervalo regular, irá obter o que se chama um perfil linear, com uma "
+"curva de gama=1 representada como uma linha recta desde 0 até 1. Com uma "
+"profundidade de cores de 8 bits / canal, só teremos 256 valores para guardar "
+"esta linha completa. Se usarmos um perfil linear, como descrito acima, para "
+"definir esses valores, iremos perder alguns passos de mudança de cores "
+"visíveis e ter um grande conjunto de valores que parecem iguais (o que "
+"conduz a um efeito de poster)."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:33
 msgid ""
@@ -75,6 +92,22 @@ msgid ""
 "RGB workspace first and then convert the output to the appropriate CMYK "
 "profile."
 msgstr ""
+"Foi por isso que foi criado o perfil sRGB, para caberem mais cores "
+"diferentes nesta quantidade limitada de valores, com uma gradução gradual "
+"por percepção, aplicando uma curva de 'gama' personalizada (veja a imagme "
+"aqui: http://en.wikipedia.org/wiki/SRGB) para emular a curva-padrão de "
+"resposta dos antigos ecrãs CRT. Como tal, o perfil sRGB está optimizado para "
+"conter todas as cores que os ecrãs mais comuns conseguem reproduzir nesses "
+"256 valores por canal R/G/B. Alguns dos outros perfis, como o Adobe RGB, "
+"estão optimizados para conter mais cores visíveis neste intervalo limitado, "
+"alargando principalmente as tonalidades cíano-verde. Lidar com esses perfis "
+"pode ser útil para melhorar os resultados da impressão, mas poderá ser "
+"perigoso se não fr usado com um ecrã devidamente testado e/ou calibrado. A "
+"maioria dos perfis de espaço de trabalho CMYK conseguem caber normalmente "
+"todas as suas cores dentro de uma profundidade de 8 bits/canal, mas são "
+"todos tão diferentes e específicos que normalmente é melhor lidar primeiro "
+"com um espaço de trabalho RGB normal e depois converter o resultado para o "
+"perfil CMYK apropriado."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:38
 msgid ""
@@ -82,6 +115,10 @@ msgid ""
 "we can use workspace profiles with higher gamut range like Wide-gamut RGB or "
 "Pro-photo RGB, or even unlimited gamut like scRGB."
 msgstr ""
+"A começar por 16 bits/canal, já temos 65536 valores em vez de 256, pelo que "
+"podemos usar os perfis da área de trabalho com uma maior gama do gamute como "
+"o RGB Gamute-Amplo ou o RGB Pro-Photo, ou até um gamute ilimitado como o "
+"scRGB."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:40
 msgid ""
@@ -93,12 +130,22 @@ msgid ""
 "space, and converts those sRGB values to corresponding color values from "
 "your monitor profile to display the canvas."
 msgstr ""
+"Mas sendo o sRGB um perfil genérico (até porque vem das especificações "
+"antigas dos cinescópios CRT..), existem grandes hipóteses que o seu monitor "
+"tenha de facto uma curva de resposta das cores diferente e, como tal, um "
+"perfil igualmente diferente. Por isso, quando estiver a usar um espaço de "
+"trabalho sSRGB e tiver um perfil de ecrã adequado carregado (veja o ponto "
+"seguinte), o Krita sabe que as cores que o ficheiro contém estão dentro do "
+"espaço de cores sRGB, convertendo esses valores  aos valores das cores "
+"correspondentes ao perfil do seu monitor para mostrar a área de desenho."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:43
 msgid ""
 "Note that when you export your file and view it in another software, this "
 "software has to do two things:"
 msgstr ""
+"Lembre-se que, quando exportar o seu ficheiro e vê-lo com outra aplicação, "
+"esta terá de fazer duas coisas:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:45
 msgid ""
@@ -106,6 +153,10 @@ msgid ""
 "(which most software do nowadays; when they don't they usually default to "
 "sRGB, so in the case described here we're safe )"
 msgstr ""
+"ler o perfil incorporado para conhecer os valores de cores \"bons\" do "
+"ficheiro (algo que a maioria das aplicações já faz hoje em dia; quando não o "
+"fazem, tentam usar o sRGB, pelo que no caso descrito aqui não haverá "
+"problema)"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:46
 msgid ""
@@ -113,10 +164,14 @@ msgid ""
 "software actually does, and just output to sRGB.. so this can explain some "
 "viewing differences most of the time)."
 msgstr ""
+"e depois convertê-lo par ao perfil associado com o monitor (algo que muito "
+"poucas aplicações fazem de facto, apresentando simplesmente em sRGB... por "
+"esse facto, podem-se explicar algumas diferenças de visualização na maior "
+"parte do tempo)."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:48
 msgid "Krita uses profiles extensively, and comes bundled with many."
-msgstr ""
+msgstr "O Krita usa os perfis de forma abrangente e é fornecido com muitos."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:50
 msgid ""
@@ -126,10 +181,15 @@ msgid ""
 "management as intended. However, Krita does allow the luxury of picking any "
 "of the other bundled profiles as working spaces."
 msgstr ""
+"O mais importante é o do seu próprio ecrã. Não costuma ser fornecido, pelo "
+"que terá de o criar com um dispositivos de testes de cores. No caso de não "
+"ter acesso a nenhum desses dispositivos, não poderá tirar partido da gestão "
+"de cores como pretendia. Contudo, o Krita, pode-se dar ao luxo de usar "
+"qualquer dos outros perfis fornecidos como espaços de trabalho."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:54
 msgid "Profiling devices"
-msgstr ""
+msgstr "Dispositivos de teste"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:56
 msgid ""
@@ -137,12 +197,18 @@ msgid ""
 "that you connect to your computer via an usb, and then you run a profiling "
 "software (often delivered alongside of the device)."
 msgstr ""
+"Os dispositivos de teste, chamados de colorímetros, são pequenas câmaras do "
+"tipo que se podem ligar ao seu computador por USB, e onde poderá executar "
+"uma aplicação de testes (muitas vezes fornecida com o dispositivo)."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:60
 msgid ""
 "If you don't have software packaged with your colorimeter, or are unhappy "
 "with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_"
 msgstr ""
+"Se não tiver nenhuma aplicação fornecida com o seu colorímetro, ou não "
+"estiver satisfeito com os resultados, recomendamos o `Argyllcms <http://www."
+"argyllcms.com/>`_"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:62
 msgid ""
@@ -150,12 +216,17 @@ msgid ""
 "and black are like on your screen using a predefined white as base. It also "
 "measures how grey the color grey is."
 msgstr ""
+"A pequena câmara então irá medir como aparece o vermelho, o verde, o azul, o "
+"branco e o preto no seu ecrã, usando um branco predefinido como base. Também "
+"mede quão cinzenta é a cor cinzenta propriamente dita."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:64
 msgid ""
 "It then puts all this information into an ICC profile, which can be used by "
 "the computer to correct your colors."
 msgstr ""
+"Coloca depois toda essa informação num perfil ICC, o qual poderá ser usado "
+"pelo computador para corrigir as suas cores."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:66
 msgid ""
@@ -164,12 +235,18 @@ msgid ""
 "profile useless, as the qualities of the screen change significantly while "
 "calibrating."
 msgstr ""
+"Recomenda-se que não altere a \"calibração\" (contraste, brilho e os outros "
+"parâmetros) do seu ecrã depois do teste. Ao fazê-lo, irá inutilizar o seu "
+"perfil, dado que as qualidades do ecrã mudam de forma significativa com a "
+"calibração."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:68
 msgid ""
 "To make your screen display more accurate colors, you can do one or two "
 "things: profile your screen or calibrate and profile it."
 msgstr ""
+"Para que o seu ecrã mostre cores mais exactas, poderá fazer uma ou duas "
+"coisas: crie um teste do seu ecrã ou calibre-o e faça um teste dele."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:71
 msgid ""
@@ -182,28 +259,41 @@ msgid ""
 "hardware controls (lightness, contrast, gamma curves), and then with "
 "software that creates a vcgt (video card gamma table) to load in the GPU."
 msgstr ""
+"Fazer apenas o teste do seu ecrã significa medir as cores do seu monitor com "
+"as suas definições nativas, colocando esses valores num perfil de cores, o "
+"qual poderá ser usado pela aplicação com gestão de cores para adaptar as "
+"cores de origem ao ecrã e, com isso, obter um resultado óptimo. A calibração "
+"e o teste significa o mesmo, excepto que primeiro irá tentar calibrar as "
+"cores do ecrã para corresponder a uma da configuração, como o sRGB ou outros "
+"perfis mais específicos. A calibração é feita primeiro com os controlos por "
+"'hardware' (luminosidade, contraste, curvas de 'gama') e depois com um "
+"programa que cria um VCGT (video card gamma table - tabela de 'gama' da "
+"placa gráfica) para o carregar no GPU."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:75
 msgid "So when or why should you do just one or both?"
-msgstr ""
+msgstr "E então, quando é que executará apenas um ou ambos?"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:77
 msgid "Profiling only:"
-msgstr ""
+msgstr "Apenas testes:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:79
 msgid "with a good monitor"
-msgstr ""
+msgstr "com um bom monitor"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:80
 msgid ""
 "you can get most of the sRGB colors and lot of extra colors not inside sRGB. "
 "So this can be good to have more visible colors."
 msgstr ""
+"conseguirá obter a maior parte das cores sRGB e muitas outras cores que não "
+"estão dentro do sRGB. Como tal, isto pode ser útil para ter mais cores "
+"visíveis."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
 msgid "with a bad monitor"
-msgstr ""
+msgstr "com um mau monitor"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
 msgid ""
@@ -211,22 +301,25 @@ msgid ""
 "have hue shifts. Trying to calibrate it before profiling can help to get "
 "closer to full-sRGB colors."
 msgstr ""
+"irá obter apenas um sub-conjunto do sRGB actual, perdendo bastantes "
+"detalhes, ou ainda obter desvios de tons. Se o tentar calibrar antes dos "
+"testes, conseguirá ficar mais próximo das cores do sRGB completo."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:84
 msgid "Calibration+profiling:"
-msgstr ""
+msgstr "Calibração + teste:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:86
 msgid "bad monitors"
-msgstr ""
+msgstr "maus monitores"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:87
 msgid "as explained just before."
-msgstr ""
+msgstr "pelas razões explicadas acima."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:88
 msgid "multi-monitor setup"
-msgstr ""
+msgstr "configurações com vários monitores"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:89
 msgid ""
@@ -236,6 +329,11 @@ msgid ""
 "profile (or another standard for high-end monitors if they both support it) "
 "can be a good solution."
 msgstr ""
+"quando usar vários monitores, e em especial no modo de espelho, onde ambos "
+"os monitores têm o mesmo conteúdo, não poderá ter este conteúdo com gestão "
+"de cores para ambos os perfis do ecrã. Nesse caso, a calibração de ambos os "
+"ecrãs para corresponderem ao perfil sRGB (ou outro padrão para monitores "
+"topo-de-gama, caso ambos o suportem) pode ser uma boa solução."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:91
 msgid ""
@@ -244,3 +342,7 @@ msgid ""
 "through several monitor calibration and profiles should be done extremely "
 "carefully."
 msgstr ""
+"quando precisar de corresponder um contexto de desenho exacto para uma prova "
+"suave, a calibração poderá ajudar a ficar mais próximo do resultado "
+"esperado. Contudo, a mudança entre vários perfis e calibrações do monitor "
+"deverá ser feita com bastante cuidado."

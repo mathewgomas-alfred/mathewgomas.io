@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___dockers___layers\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 21:14+0200\n"
+"PO-Revision-Date: 2019-03-07 20:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:1
 msgid "Overview of the layers docker."
-msgstr ""
+msgstr "Огляд бічної панелі шарів."
 
 #: ../../reference_manual/dockers/layers.rst:17
 msgid "Layers"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:24
 msgid "The Layer Stack"
-msgstr ""
+msgstr "Стос шарів"
 
 #: ../../reference_manual/dockers/layers.rst:26
 msgid ""
@@ -77,6 +77,8 @@ msgid ""
 "The Layer name, just do double- |mouseleft| to make it editable, and press :"
 "kbd:`Enter` to finish editing."
 msgstr ""
+"Назва шару. Двічі клацніть |mouseleft|, щоб редагувати назву, і натисніть :"
+"kbd:`Enter`, щоб завершити редагування."
 
 #: ../../reference_manual/dockers/layers.rst:30
 msgid "Label"
@@ -88,6 +90,9 @@ msgid ""
 "a context menu to assign a color to it. You can then later filter on these "
 "colors."
 msgstr ""
+"Це колір, який ви можете встановити для шару. Клацніть |mouseright| на "
+"пункті шару, щоб відкрити контекстне меню для призначення для нього кольору. "
+"Пізніше можна фільтрувати за кольоровими мітками."
 
 #: ../../reference_manual/dockers/layers.rst:32
 msgid "Blending Mode"
@@ -95,7 +100,7 @@ msgstr "Режим змішування"
 
 #: ../../reference_manual/dockers/layers.rst:33
 msgid "This will set the :ref:`blending_modes` of the layer."
-msgstr ""
+msgstr "Встановлює :ref:`режим змішування <blending_modes>` для шару."
 
 #: ../../reference_manual/dockers/layers.rst:34
 msgid "Opacity"
@@ -103,7 +108,7 @@ msgstr "Непрозорість"
 
 #: ../../reference_manual/dockers/layers.rst:35
 msgid "This will set the opacity of the whole layer."
-msgstr ""
+msgstr "Встановлює непрозорість для усього шару."
 
 #: ../../reference_manual/dockers/layers.rst:36
 msgid "Visibility"
@@ -111,21 +116,23 @@ msgstr "Видимість"
 
 #: ../../reference_manual/dockers/layers.rst:37
 msgid "An eye-icon. Clicking this can hide a whole layer."
-msgstr ""
+msgstr "Піктограма ока. Її натискання призведе до приховування цілого шару."
 
 #: ../../reference_manual/dockers/layers.rst:38
 msgid "Edit State (Or layer Locking)"
-msgstr ""
+msgstr "Стан редагування (або блокування шару)"
 
 #: ../../reference_manual/dockers/layers.rst:39
 msgid ""
 "A lock Icon. Clicking this will prevent the layer from being edited, useful "
 "when handling large amounts of layers."
 msgstr ""
+"Піктограма із замком. Натискання цієї піктограми блокуватиме шар від "
+"редагування. Корисно під час роботи із великою кількістю шарів."
 
 #: ../../reference_manual/dockers/layers.rst:40
 msgid "Alpha Lock"
-msgstr ""
+msgstr "Блокування прозорості"
 
 #: ../../reference_manual/dockers/layers.rst:41
 msgid ""
@@ -133,10 +140,12 @@ msgid ""
 "This will prevent the transparency of a layer being changed. Useful in "
 "colouring images."
 msgstr ""
+"Це блокує редагування прозорості шару. Якщо простіше, запобігає зміні "
+"прозорості шару. Корисно для кольорових зображень."
 
 #: ../../reference_manual/dockers/layers.rst:42
 msgid "Pass-through mode"
-msgstr ""
+msgstr "Режим передавання"
 
 #: ../../reference_manual/dockers/layers.rst:43
 msgid ""
@@ -148,33 +157,40 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:44
 msgid "Alpha Inheritance"
-msgstr ""
+msgstr "Успадкування прозорості"
 
 #: ../../reference_manual/dockers/layers.rst:45
 msgid ""
 "This will use the alpha of all the peers of this layer as a transparency "
 "mask. For a full explanation see :ref:`layers_and_masks`."
 msgstr ""
+"За допомогою цього пункту можна використовувати прозорість усіх вузлів цього "
+"шару як маску прозорості. Докладніше пояснення можна знайти у розділі :ref:"
+"`layers_and_masks`."
 
 #: ../../reference_manual/dockers/layers.rst:46
 msgid "Open or Close Layers"
-msgstr ""
+msgstr "Розгортання і згортання шарів"
 
 #: ../../reference_manual/dockers/layers.rst:47
 msgid ""
 "(An Arrow Icon) This will allow you to access sub-layers of a layer. Seen "
 "with masks and groups."
 msgstr ""
+"(Піктограма зі стрілкою) За її допомогою можна отримувати доступ до підшарів "
+"шару. Є видимим для масок і груп."
 
 #: ../../reference_manual/dockers/layers.rst:48
 msgid "Onion Skin"
-msgstr ""
+msgstr "Калька"
 
 #: ../../reference_manual/dockers/layers.rst:49
 msgid ""
 "This is only available on :ref:`animated layers <animation>`, and toggles "
 "the onion skin feature."
 msgstr ""
+"Доступний лише для :ref:`анімованих шарів <animation>`, перемикає можливість "
+"використання кальки."
 
 #: ../../reference_manual/dockers/layers.rst:51
 msgid "Layer Style"
@@ -185,6 +201,8 @@ msgid ""
 "This is only available on layers which have a :ref:`layer_style` assigned. "
 "The button allows you to switch between on/off quickly."
 msgstr ""
+"Доступний лише для шарів, для яких призначено :ref:`layer_style`. За "
+"допомогою кнопки можна швидко вмикати і вимикати цю можливість."
 
 #: ../../reference_manual/dockers/layers.rst:53
 msgid ""
@@ -202,11 +220,11 @@ msgstr ".. image:: images/en/Krita-multi-layer-edit.png"
 
 #: ../../reference_manual/dockers/layers.rst:59
 msgid "Lower buttons"
-msgstr ""
+msgstr "Нижні кнопки"
 
 #: ../../reference_manual/dockers/layers.rst:61
 msgid "These are buttons for doing layer operations."
-msgstr ""
+msgstr "Кнопки для виконання дій із шарами."
 
 #: ../../reference_manual/dockers/layers.rst:63
 msgid "Add"
@@ -217,6 +235,8 @@ msgid ""
 "Will by default add a new Paint Layer, but using the little arrow, you can "
 "call a sub-menu with the other layer types."
 msgstr ""
+"Типово, додає новий шар малювання, але за допомогою маленької стрілочки ви "
+"можете викликати підменю зі списком інших типів шарів."
 
 #: ../../reference_manual/dockers/layers.rst:65
 msgid "Duplicate"
@@ -227,6 +247,8 @@ msgid ""
 "Will Duplicate the active layer(s). Can be quickly invoked with :kbd:`Ctrl` "
 "+ |mouseleft| + drag."
 msgstr ""
+"Дублює активні шари. Можна швидко викликати комбінацією :kbd:`Ctrl` + |"
+"mouseleft| + перетягування."
 
 #: ../../reference_manual/dockers/layers.rst:67
 msgid "Move layer up."
@@ -237,6 +259,8 @@ msgid ""
 "Will move the active layer up. Will switch them out and in groups when "
 "coming across them."
 msgstr ""
+"Пересуває активний шар вище. Пересуває шари за групи і до груп, якщо "
+"перетинає межі групи."
 
 #: ../../reference_manual/dockers/layers.rst:69
 msgid "Move layer down."
@@ -247,6 +271,8 @@ msgid ""
 "Will move the active layer down. Will switch them out and in groups when "
 "coming across them."
 msgstr ""
+"Пересуває активний шар нижче. Пересуває шари за групи і до груп, якщо "
+"перетинає межі групи."
 
 #: ../../reference_manual/dockers/layers.rst:71
 msgid "Layer properties."
@@ -254,7 +280,7 @@ msgstr "Властивості шару."
 
 #: ../../reference_manual/dockers/layers.rst:72
 msgid "Will open the layer properties window."
-msgstr ""
+msgstr "Відкриває вікно властивостей шару."
 
 #: ../../reference_manual/dockers/layers.rst:74
 msgid "Delete"
@@ -265,20 +291,23 @@ msgid ""
 "Will delete the active layer(s). For safety reasons, you can only delete "
 "visible layers."
 msgstr ""
+"Вилучає активні шари. З міркувань безпеки можна вилучати лише видимі шари."
 
 #: ../../reference_manual/dockers/layers.rst:77
 msgid "Hot keys and Sticky Keys"
-msgstr ""
+msgstr "Клавіатурні скорочення та комбінації доповнення дій"
 
 #: ../../reference_manual/dockers/layers.rst:79
 msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
-msgstr ""
+msgstr ":kbd:`Shift + Ctrl` для позначення декількох шарів."
 
 #: ../../reference_manual/dockers/layers.rst:80
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, "
 "for you to drag and drop."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| + перетягування — створює дублікат позначених "
+"шарів для перетягування зі скиданням."
 
 #: ../../reference_manual/dockers/layers.rst:81
 msgid ""
@@ -289,7 +318,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:82
 msgid ":kbd:`Ctrl + Shift + E` merges all layers."
-msgstr ""
+msgstr ":kbd:`Ctrl + Shift + E` — об'єднати усі шари."
 
 #: ../../reference_manual/dockers/layers.rst:83
 msgid ""
@@ -300,13 +329,15 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:84
 msgid ":kbd:`Ins` for adding a new layer."
-msgstr ""
+msgstr ":kbd:`Ins` — додати новий шар."
 
 #: ../../reference_manual/dockers/layers.rst:85
 msgid ""
 ":kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, "
 "they are put into the group layer."
 msgstr ""
+":kbd:`Ctrl + G` — створити групу шарів. Якщо було позначено декілька шарів, "
+"їх буде зібрано до однієї групи шарів."
 
 #: ../../reference_manual/dockers/layers.rst:86
 msgid ""
@@ -317,26 +348,33 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:87
 msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
-msgstr ""
+msgstr ":kbd:`Ctrl + Alt + G` — скасовує групування шарів у групі."
 
 #: ../../reference_manual/dockers/layers.rst:88
 msgid ""
 ":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This "
 "will maintain between layers till the same action is repeated again."
 msgstr ""
+":kbd:`Alt` + |mouseleft| на мініатюрі — ізольований перегляд шару. "
+"Ізольований перегляд лишатиметься між шарами, аж доки ту саму дію не буде "
+"повторено."
 
 #: ../../reference_manual/dockers/layers.rst:89
 msgid ""
 ":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
 "layer."
 msgstr ""
+":kbd:`Shift` + |mouseleft| на піктограмі ока — приховати усі шари, окрім "
+"поточного."
 
 #: ../../reference_manual/dockers/layers.rst:90
 msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
-msgstr ""
+msgstr ":kbd:`Page Up` і :kbd:`Page Down` — перемикання між шарами."
 
 #: ../../reference_manual/dockers/layers.rst:91
 msgid ""
 ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
 "layers up and down."
 msgstr ""
+":kbd:`Ctrl + Page Up` і :kbd:`Ctrl + Page Down` — пересуває позначені шари "
+"вище і нижче."

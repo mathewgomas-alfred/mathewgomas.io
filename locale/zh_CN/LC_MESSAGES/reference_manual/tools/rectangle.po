@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 23:22\n"
+"POT-Creation-Date: 2019-03-08 03:41+0100\n"
+"PO-Revision-Date: 2019-03-07 09:28\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -16,6 +16,18 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___tools___rectangle.pot\n"
+
+#: ../../<rst_epilog>:2
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/rectangle_tool.svg\n"
+#| "   :alt: toolrectangle"
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/rectangle_tool.svg\n"
+"   :alt: toolrectangle"
 
 #: ../../<rst_epilog>:26
 msgid ""
@@ -40,8 +52,8 @@ msgstr ""
 #: ../../reference_manual/tools/rectangle.rst:19
 msgid ""
 "This tool can be used to paint rectangles, or create rectangle shapes on a "
-"vector layer. Click and hold the left mouse button to indicate one corner of "
-"the rectangle, drag to the opposite corner, and release the button."
+"vector layer. Click and hold |mouseleft| to indicate one corner of the "
+"rectangle, drag to the opposite corner, and release the button."
 msgstr ""
 
 #: ../../reference_manual/tools/rectangle.rst:22
@@ -59,17 +71,17 @@ msgid ""
 "constructed. Normally, the first mouse click indicates one corner and the "
 "second click the opposite. With :kbd:`Ctrl`, the initial mouse position "
 "indicates the center of the rectangle, and the final mouse position "
-"indicates a corner. You can press :kbd:`Alt` while still keeping the left "
-"mouse button down to move the rectangle to a different location."
+"indicates a corner. You can press :kbd:`Alt` while still keeping |mouseleft| "
+"down to move the rectangle to a different location."
 msgstr ""
 
 #: ../../reference_manual/tools/rectangle.rst:28
 msgid ""
 "You can change between the corner/corner and center/corner drawing methods "
 "as often as you want by pressing or releasing :kbd:`Ctrl`, provided that you "
-"keep the left mouse button pressed. With :kbd:`Ctrl` pressed, mouse "
-"movements will affect all four corners of the rectangle (relative to the "
-"center), without :kbd:`Ctrl`, one of the corners is unaffected."
+"keep |mouseleft| pressed. With :kbd:`Ctrl` pressed, mouse movements will "
+"affect all four corners of the rectangle (relative to the center), without :"
+"kbd:`Ctrl`, one of the corners is unaffected."
 msgstr ""
 
 #: ../../reference_manual/tools/rectangle.rst:32

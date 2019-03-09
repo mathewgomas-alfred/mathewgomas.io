@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___shape_edit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-27 20:31+0200\n"
+"PO-Revision-Date: 2019-03-07 21:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -199,16 +199,21 @@ msgid ""
 "You can add and remove side handles from a selected node with |mouseleft| + :"
 "kbd:`Shift`."
 msgstr ""
+"Ви можете додавати або вилучати бічні точки керування для позначеного вузла "
+"за допомогою комбінації |mouseleft| + :kbd:`Shift`."
 
 #: ../../reference_manual/tools/shape_edit.rst:54
 msgid ""
 "Krita has several node-types that allow you control the side handles more "
 "efficiently. These are the corner, smooth and symmetric modes."
 msgstr ""
+"У Krita передбачено декілька типів вузлів. За допомогою цих типів ви можете "
+"керувати розташуванням бічних вузлів ефективніше. Можливі типи: кутовий, "
+"гладки та симетричний."
 
 #: ../../reference_manual/tools/shape_edit.rst:56
 msgid "Corner"
-msgstr "Кут"
+msgstr "Кутова точка"
 
 #: ../../reference_manual/tools/shape_edit.rst:57
 msgid ""
@@ -218,7 +223,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:58
 msgid "Smooth"
-msgstr "Згладжування"
+msgstr "Гладка точка"
 
 #: ../../reference_manual/tools/shape_edit.rst:59
 msgid ""
@@ -229,7 +234,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:61
 msgid "Symmetric"
-msgstr "Симетричний"
+msgstr "Симетрична точка"
 
 #: ../../reference_manual/tools/shape_edit.rst:61
 msgid ""
@@ -242,6 +247,8 @@ msgid ""
 "|mouseleft| + :kbd:`Ctrl` on a selected node will cycle between the node-"
 "types."
 msgstr ""
+"|mouseleft| + :kbd:`Ctrl` на позначеному взулі виконує циклічний перехід між "
+"типами вузлів."
 
 #: ../../reference_manual/tools/shape_edit.rst:65
 msgid ":kbd:`Del` will remove the selected node."
@@ -256,6 +263,9 @@ msgid ""
 "Segments are the lines between nodes. Hovering over a segment will show a "
 "dotted line, indicating it can be selected."
 msgstr ""
+"Сегменти — лінії між вузлами. Якщо навести вказівник миші на сегмент, "
+"програма покаже пунктир, який вказуватиме на те, що цей сегмент може бути "
+"позначено."
 
 #: ../../reference_manual/tools/shape_edit.rst:72
 msgid ""
@@ -320,6 +330,8 @@ msgid ""
 "Path shapes are the most common shape and can be made with the following "
 "tools"
 msgstr ""
+"Форми контурів є найпоширенішим типом форм. Їх можна створити за допомогою "
+"вказаних нижче інструментів."
 
 #: ../../reference_manual/tools/shape_edit.rst:97
 msgid ":ref:`path_tool`"
@@ -518,7 +530,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_edit.rst:157
 msgid "The type of ellipse shape it is."
-msgstr ""
+msgstr "Це тип еліптичної форми."
 
 #: ../../reference_manual/tools/shape_edit.rst:159
 msgid "Arc"
