@@ -41,13 +41,17 @@ msgstr ".. image:: images/icons/gridbrush.svg"
 msgid ""
 "The grid brush engine draws shapes on a grid. It helps you produce retro and "
 "halftone effects."
-msgstr "O motor de pincéis em grelha desenha formas sobre uma grelha. Isto ajuda a produzir efeitos antiquados e a meios-tons."
+msgstr ""
+"O motor de pincéis em grelha desenha formas sobre uma grelha. Isto ajuda a "
+"produzir efeitos antiquados e a meios-tons."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
 msgid ""
 "If you're looking to setup a grid for snapping, head to :ref:"
 "`grids_and_guides_docker`."
-msgstr "Se estiver à procura de como configurar uma grelha para ajuste, vá à :ref:`grids_and_guides_docker`."
+msgstr ""
+"Se estiver à procura de como configurar uma grelha para ajuste, vá à :ref:"
+"`grids_and_guides_docker`."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
 msgid "Options"
@@ -100,7 +104,9 @@ msgstr "Divisão"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:45
 msgid ""
 "Subdivides the cursor area and uses the resulting area to draw the particles."
-msgstr "Sub-divide a área do cursor e usa a área resultante para desenhar as partículas."
+msgstr ""
+"Sub-divide a área do cursor e usa a área resultante para desenhar as "
+"partículas."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:46
 msgid "Division by pressure"
@@ -110,7 +116,9 @@ msgstr "Divisão por pressão"
 msgid ""
 "The more you press, the more subdivisions. Uses Division as the finest "
 "subdivision possible."
-msgstr "Quanto mais pressionar, mais sub-divisões irão aparecer. Usa a Divisão como a sub-divisão mais reduzida possível."
+msgstr ""
+"Quanto mais pressionar, mais sub-divisões irão aparecer. Usa a Divisão como "
+"a sub-divisão mais reduzida possível."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
 msgid "Scale"
@@ -128,7 +136,9 @@ msgstr "Contorno Vertical"
 msgid ""
 "Forces vertical borders in the particle space, between which the particle "
 "needs to squeeze itself."
-msgstr "Obriga ao uso de contornos verticais no espaço de partículas, entre os quais a partícula tem de ficar restrita."
+msgstr ""
+"Obriga ao uso de contornos verticais no espaço de partículas, entre os quais "
+"a partícula tem de ficar restrita."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
 msgid "Horizontal Border"
@@ -138,7 +148,9 @@ msgstr "Contorno Horizontal"
 msgid ""
 "Forces a horizontal borders in the particle space, between which the "
 "particle needs to squeeze itself."
-msgstr "Obriga ao uso de contornos horizontais no espaço de partículas, entre os quais a partícula tem de ficar restrita."
+msgstr ""
+"Obriga ao uso de contornos horizontais no espaço de partículas, entre os "
+"quais a partícula tem de ficar restrita."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Jitter Borders"
@@ -146,7 +158,9 @@ msgstr "Interferência dos Contornos"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Randomizes the border values with the Border values given as maximums."
-msgstr "Ajusta de forma aleatória os valores dos contornos com base nos valores indicados como máximos."
+msgstr ""
+"Ajusta de forma aleatória os valores dos contornos com base nos valores "
+"indicados como máximos."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:60
 msgid "Particle Type"
@@ -179,7 +193,8 @@ msgstr "Linha"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:69
 msgid ""
 "Draws lines from the lower left to the upper right corner of the particle"
-msgstr "Desenha linhas do canto inferior esquerdo ao superior direito da partícula"
+msgstr ""
+"Desenha linhas do canto inferior esquerdo ao superior direito da partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:70
 msgid "Pixel"
@@ -210,7 +225,10 @@ msgid ""
 "Randomize the HSV with the strength of the sliders. The higher, the more the "
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
-msgstr "Atribui valores aleatórios ao HSV com a potência das barras. Quanto maiores os valores, mais a cor se irá desviar da cor principal, com a direcção a indicar o sentido horário ou anti-horário."
+msgstr ""
+"Atribui valores aleatórios ao HSV com a potência das barras. Quanto maiores "
+"os valores, mais a cor se irá desviar da cor principal, com a direcção a "
+"indicar o sentido horário ou anti-horário."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:82
 msgid "Random Opacity"
@@ -226,7 +244,9 @@ msgstr "Cor por Partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:85
 msgid "Has the color options be per particle instead of area."
-msgstr "Tem as opções de cores a serem aplicadas por partícula em vez de ser por área."
+msgstr ""
+"Tem as opções de cores a serem aplicadas por partícula em vez de ser por "
+"área."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:86
 msgid "Sample Input Layer."
@@ -236,7 +256,9 @@ msgstr "Camada de Entrada de Exemplo."
 msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
-msgstr "Irá usar a camada subjacente como referência para as cores em vez de usar a cor principal."
+msgstr ""
+"Irá usar a camada subjacente como referência para as cores em vez de usar a "
+"cor principal."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:88
 msgid "Fill Background"
@@ -250,4 +272,6 @@ msgstr "Preenche a área antes de desenhar as partículas com a cor de fundo."
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
-msgstr "Atribui à partícula uma cor aleatória entre a cor principal/de entrada/HSV aleatório e a cor de fundo."
+msgstr ""
+"Atribui à partícula uma cor aleatória entre a cor principal/de entrada/HSV "
+"aleatório e a cor de fundo."

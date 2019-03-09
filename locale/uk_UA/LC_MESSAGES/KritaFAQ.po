@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_KritaFAQ\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-03 08:23+0200\n"
+"POT-Creation-Date: 2019-03-08 03:41+0100\n"
+"PO-Revision-Date: 2019-03-08 20:09+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -64,6 +64,15 @@ msgid ""
 "application that supports their actual needs and workflow. Krita supports "
 "open standards and interoperates with other applications."
 msgstr ""
+"Krita — вільна програма із відкритим початковим кодом, яка є повноцінним"
+" рішенням для створення файлів цифрових художніх творів з нуля. Krita"
+" оптимізовано для частого, тривалого та сконцентрованого використання. Явним"
+" чином підтримуваними програмами різновидами використання є створення"
+" ілюстрацій, концепт-арту, матового малювання, текстур, коміксів та анімацій."
+" Програму розроблено у співпраці із користувачами програми. Krita — програма"
+" зорієнтована на справжні потреби користувачів та процедури користування. У"
+" Krita передбачено підтримку відкритих стандартів та взаємодії із іншими"
+" програмами."
 
 #: ../../KritaFAQ.rst:48
 msgid "Is it possible to use Krita in my own language, not English?"
@@ -76,16 +85,20 @@ msgid ""
 "Krita should automatically use the system language. If that is not the case, "
 "please follow these steps:"
 msgstr ""
+"Krita має автоматично використовувати основну мову системи. Якщо цього не"
+" відбулося, будь ласка, виконайте такі дії:"
 
 #: ../../KritaFAQ.rst:52
 msgid ""
 ":menuselection:`Settings --> Switch Application Language`. A small window "
 "will appear."
 msgstr ""
+"Виберіть пункт меню :menuselection:`Параметри --> Перемкнути мову програми`."
+" У відповідь буде відкрито невеличке вікно."
 
 #: ../../KritaFAQ.rst:53
 msgid "Click :guilabel:`Primary language` and select your language."
-msgstr ""
+msgstr "Натисніть пункт :guilabel:`Основна мова` і виберіть потрібну вам мову."
 
 #: ../../KritaFAQ.rst:54
 msgid "Click :guilabel:`OK` to close the window."
@@ -94,16 +107,19 @@ msgstr "Натисніть :guilabel:`Гаразд`, щоб закрити ві�
 #: ../../KritaFAQ.rst:55
 msgid "Restart krita and it will be displayed in your selected language!"
 msgstr ""
+"Перезапустіть krita. Інтерфейс має бути перекладено вибраною вами мовою!"
 
 #: ../../KritaFAQ.rst:57
 msgid ""
 "If this doesn't work, you might have to add a fall-back language as well. "
 "This is a bug, but we haven't found the solution yet."
 msgstr ""
+"Якщо це не спрацює, ймовірно, вам слід додати і резервну мову. Це вада у"
+" бібліотеках, які використовує програма. Нам ще не вдалося усунути цю ваду."
 
 #: ../../KritaFAQ.rst:60
 msgid "Does Krita have layer clip or clipping mask?"
-msgstr ""
+msgstr "Чи передбачено у Krita обрізання шарів та маску обрізання?"
 
 #: ../../KritaFAQ.rst:62
 msgid ""
@@ -111,39 +127,49 @@ msgid ""
 "alpha. Let's see :ref:`this page <clipping_masks_and_alpha_inheritance>` and "
 "learn how to do clipping in Krita!"
 msgstr ""
+"У Krita не передбачено маски обрізання, але є можливість обрізання, яка має"
+" назву «успадкування прозорості». Ознайомтеся із вмістом :ref:`цієї сторінки"
+" <clipping_masks_and_alpha_inheritance>`, щоб дізнатися про те, як виконати"
+" обрізання зображення у Krita!"
 
 #: ../../KritaFAQ.rst:67
 msgid "Windows: OBS can't record the Krita OpenGL canvas"
-msgstr ""
+msgstr "Windows: OBS не може записувати дані з полотна OpenGL Krita"
 
 #: ../../KritaFAQ.rst:69
 msgid "The possible workarounds for this is to do either of the following:"
-msgstr ""
+msgstr "Проблему можна обійти за допомогою одного із викладних нижче способів."
 
 #: ../../KritaFAQ.rst:71
 msgid "Turn off OpenGL in Settings --> Configure Krita --> Display."
 msgstr ""
+"Вимкніть OpenGL за допомогою пункту меню :menuselection:`Параметри -->"
+" Налаштувати Krita --> Монітор`."
 
 #: ../../KritaFAQ.rst:72
 msgid ""
 "Or don't use the hardware accelerated mode (game recording mode) in OBS, "
 "thus capturing the whole desktop instead of attempting to capture only Krita."
 msgstr ""
+"Не використовуйте режим із апаратним прискоренням (режим запису ігор) у OBS,"
+" захоплюючи усе зображення на моніторі, а не лише зображення у вікні Krita."
 
 #: ../../KritaFAQ.rst:76
 msgid ""
 "You might also be able to work around the problem by using the ANGLE "
 "renderer instead of native OpenGL."
 msgstr ""
+"Також проблему можна обійти за допомогою використання засобу обробки"
+" зображення ANGLE замість природного OpenGL."
 
 #: ../../KritaFAQ.rst:79
 msgid "Where are the configuration files stored?"
-msgstr ""
+msgstr "Де зберігаються файли налаштувань програми?"
 
 #: ../../KritaFAQ.rst:81
 msgid ""
 "These are stored at the following places for the following operating systems:"
-msgstr ""
+msgstr "Ці файли зберігаються у таких місцях у різних операційних системах:"
 
 #: ../../KritaFAQ.rst:84 ../../KritaFAQ.rst:100 ../../KritaFAQ.rst:124
 #: ../../KritaFAQ.rst:251 ../../KritaFAQ.rst:371
@@ -176,6 +202,8 @@ msgid ""
 "The kritarc file is the configuration file. Krita does not store settings in "
 "the Windows registry."
 msgstr ""
+"Файл kritarc є файлом налаштувань. Krita не зберігає параметри роботи у"
+" реєстрі Windows."
 
 #: ../../KritaFAQ.rst:94
 msgid "Resetting Krita configuration"
@@ -183,11 +211,13 @@ msgstr "Відновлення початкових налаштувань Krita
 
 #: ../../KritaFAQ.rst:96
 msgid "You can reset the Krita configuration in following way:"
-msgstr ""
+msgstr "Відновити початкові налаштування Krita можна так:"
 
 #: ../../KritaFAQ.rst:98
 msgid "For Krita 3.0 and later: Delete/rename the kritarc file, found here:"
 msgstr ""
+"Для Krita 3.0 і новіших версій: вилучити або перейменувати файл kritarc, який"
+" зберігається тут:"
 
 #: ../../KritaFAQ.rst:103
 msgid ":file:`%LOCALAPPDATA%\\\\kritarc`"
@@ -198,6 +228,8 @@ msgid ""
 "There can be two other files you might want to remove: kritaopenglrc and "
 "kritadisplayrc."
 msgstr ""
+"Може бути іще два файли, які, ймовірно, варто вилучити: kritaopenglrc і "
+"kritadisplayrc."
 
 #: ../../KritaFAQ.rst:110
 msgid ""
@@ -206,6 +238,11 @@ msgid ""
 "the crash. .. If you have installed Krita through the Windows store, the "
 "kritarc file will be in another location"
 msgstr ""
+"Якщо через помилкові налаштування програма завершує роботу в аварійному"
+" режимі, не вилучайте згаданий вище файл, а просто перейменуйте його і"
+" надішліть розробникам, щоб ті могли встановити причину аварійного завершення"
+" і усунути її. Якщо ви встановили Krita за допомогою крамниці програм"
+" Windows, файл kritarc зберігатиметься у іншому місці:"
 
 #: ../../KritaFAQ.rst:115
 msgid ""
@@ -228,6 +265,13 @@ msgid ""
 "bytes that were there before. It doesn't reset anything, least of all "
 "Krita's settings."
 msgstr ""
+"У користувачів Windows є звичка вилучати і перевстановлювати програми для"
+" вирішення проблем. Якщо проблему не було спричинено пошкодженням файлів під"
+" час встановлення антивірусом або у результаті виходу з ладу диска,"
+" перевстановлення Krita не спрацює. Якщо ви вилучите Krita, а потім знову"
+" встановите її, байти на диску буде замінено тими самими байтами. Ніяких"
+" відновлень початкового стану — усі параметри роботи Krita лишаться тими"
+" самими."
 
 #: ../../KritaFAQ.rst:122
 msgid "Where are my resources stored?"
@@ -254,6 +298,8 @@ msgid ""
 "If you installed Krita in the Windows Store, your custom resources will be "
 "in a location like:"
 msgstr ""
+"Якщо ви встановили Krita з крамниці Windows, ваші нетипові ресурси"
+" зберігатимуться у теках із такими назвами:"
 
 #: ../../KritaFAQ.rst:132
 msgid ""
@@ -280,6 +326,11 @@ msgid ""
 "find a better internet connection before trying to download again. Krita "
 "should be around 80 to 100 mb in size when downloading."
 msgstr ""
+"Може так статися, що отриманий вами пакунок було пошкоджено або у ньому не"
+" вистачає файлів (типовою причиною є неякісне з'єднання wifi та"
+" інтернет-з'єднання загалом). У цьому випадку спробуйте знайти якісніше"
+" інтернет-з'єднання, перш ніж повторювати спробу отримати пакунок."
+" Завантажений пакунок Krita повинен мати розмір близько 80 або 100 МБ."
 
 #: ../../KritaFAQ.rst:140
 msgid ""
@@ -289,6 +340,12 @@ msgid ""
 "going on with your device and it's recommended to find a computer expert to "
 "diagnose what is the problem."
 msgstr ""
+"Може так статися, що щось відбулося не так під час встановлення. Перевірте,"
+" чи достатньо вільного місця на диску і перевстановіть Krita. Для"
+" встановлення потрібно принаймні 120 вільного місця. Якщо вільного місця"
+" достатньо, але належно встановити програму не вдається, можливо, маєте якісь"
+" проблеми з комп'ютером. Рекомендуємо порадитися із експертом для визначення"
+" причини проблеми."
 
 #: ../../KritaFAQ.rst:141
 msgid ""
@@ -296,12 +353,18 @@ msgid ""
 "windows, OSX and most linux distributions should be just fine, and we "
 "recommend using them."
 msgstr ""
+"Деякі програми для розпаковування архівів zip можуть розпаковувати програму"
+" некоректно. Вбудовані засоби Windows, OSX та більшості дистрибутивів Linux"
+" мають працювати як слід. Рекомендуємо використовувати саме ці засоби для"
+" розпаковування."
 
 #: ../../KritaFAQ.rst:142
 msgid ""
 "You manually, using a file manager deleted or moved resources around, and "
 "thus Krita cannot find them anymore."
 msgstr ""
+"Ви вручну, за допомогою програми для керування файлами, вилучити або"
+" пересунули ресурси, тому Krita не може їх знайти."
 
 #: ../../KritaFAQ.rst:145
 msgid "What Graphics Cards does Krita support?"
@@ -317,6 +380,15 @@ msgid ""
 "GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the "
 "best results, some examples:"
 msgstr ""
+"Krita може використовувати OpenGL для пришвидшення обробки малювання та"
+" масштабування, обертання та панорамування полотна. Найкраще це працює на"
+" Nvidia та нових графічних процесорах Intel. Переконайтеся, що у встановлених"
+" драйверах OpenGL передбачено підтримку принаймні OpenGL 3.2. Відомо, що"
+" можуть виникати проблеми із графічними процесорами AMD/ATI, особливо якщо ви"
+" користуєтеся пропрієтарними драйверами у Linux. Втім, все працює ідеально зі"
+" вільним драйвером Radeon у Linux для підтримуваних у ньому графічних"
+" процесорів AMD. Вам знадобиться графічна картка із підтримкою OpenGL 3.2 та"
+" новіших версій. Ось приклади таких карток:"
 
 #: ../../KritaFAQ.rst:151
 msgid "Intel"
@@ -328,6 +400,9 @@ msgid ""
 "released in 2012. Commonly available products: Celeron J1x00, N2x00, Celeron "
 "(G)1xx0, Pentium J2x00, N3500, Pentium (G)2xx0, Core i3/5/7-3xx0."
 msgstr ""
+"HD-графіка Intel 3-го покоління, мікроархітектура IvyBridge або Bay-Trail,"
+" випущено у 2012 році. Типові продукти: Celeron J1x00, N2x00, Celeron "
+"(G)1xx0, Pentium J2x00, N3500, Pentium (G)2xx0, Core i3/5/7-3xx0."
 
 #: ../../KritaFAQ.rst:153
 msgid "AMD/ATI"
@@ -338,6 +413,8 @@ msgid ""
 "Radeon HD 2000 family, TeraScale 1 microarchitecture, Released in 2007. "
 "Commonly available products: Radeon HD 2400 PRO, Radeon HD 2600 PRO, etc."
 msgstr ""
+"Сімейство Radeon HD 2000, мікроархітектура TeraScale 1, випущено у 2007 році."
+" Типові продукти: Radeon HD 2400 PRO, Radeon HD 2600 PRO тощо."
 
 #: ../../KritaFAQ.rst:156
 msgid "Nvidia"
@@ -349,6 +426,8 @@ msgid ""
 "available products: GeForce 8400 GS, GeForce 8800 GTS, 9800 GTX, GTS 250, "
 "etc."
 msgstr ""
+"Сімейство GeForce 8, мікроархітектура Tesla, випущено у 2006 році. Типові"
+" продукти: GeForce 8400 GS, GeForce 8800 GTS, 9800 GTX, GTS 250 тощо."
 
 #: ../../KritaFAQ.rst:158
 msgid ""
@@ -356,20 +435,28 @@ msgid ""
 "acceleration (through ANGLE). This is enabled automatically on systems with "
 "an Intel GPU."
 msgstr ""
+"*Для Krita 3.3 і новіших версій:* у Krita для Windows можна використовувати"
+" Direct3D 11 для прискорення обробки графіки (на основі ANGLE). Ця можливість"
+" автоматично вмикається на системах із графічним процесором Intel."
 
 #: ../../KritaFAQ.rst:161
 msgid "I can't edit text from PSD files created by Photoshop"
 msgstr ""
+"Маю проблеми із редагуванням тексту у файлах PSD, які було створено у"
+" Photoshop"
 
 #: ../../KritaFAQ.rst:163
 msgid ""
 "There is no text support for psd file yet. The text will appear rasterized "
 "and converted into a paint layer."
 msgstr ""
+"У програмі ще не реалізовано підтримку тексту з файлів psd. Під час"
+" імпортування текст буде перетворено на растрове зображення і збережено у"
+" форматі шару малювання."
 
 #: ../../KritaFAQ.rst:166
 msgid "How much memory does my image take?"
-msgstr ""
+msgstr "Скільки пам'яті потрібно для мого зображення?"
 
 #: ../../KritaFAQ.rst:168
 msgid ""
@@ -379,10 +466,17 @@ msgid ""
 "two (one for the image, one for the display). If you add masks, filter "
 "layers or clone layers, it gets more complicated."
 msgstr ""
+"Для простих зображень об'єм файла порахувати доволі просто: слід помножити"
+" ширину \\* висоту \\* кількість каналів \\* розмір каналів (отже, формула"
+" кількості байтів для зображення 1000×1000, із 16-бітовою глибиною кольорів,"
+" прозорістю у просторі кольорів RGB буде такою: 1000 × 1000 × 4 × 2). Це"
+" число слід помножити на кількість шарів із додаванням двох (один для"
+" зображення і ще один для показу). Якщо ви додавали маски, шари фільтрування"
+" або шари клонування, точно усе порахувати буде дещо складніше."
 
 #: ../../KritaFAQ.rst:171
 msgid "Why do I get a checkerboard pattern when I use the eraser?"
-msgstr ""
+msgstr "Чому ґумка лишає на полотні такі дивні картаті сліди?"
 
 #: ../../KritaFAQ.rst:173
 msgid ""
@@ -390,6 +484,9 @@ msgid ""
 "layer in these applications doesn’t have an alpha channel by default. Thus, "
 "on their background layer, the eraser paints in the background color."
 msgstr ""
+"Ймовірно, ви раніше користувалися Gimp або Photoshop. Типове тло або перший"
+" шар у цих програмах типово не має каналу прозорості. Тому у шарі тла ґумка"
+" лишає слід, який просто зафарбовано кольором тла."
 
 #: ../../KritaFAQ.rst:175
 msgid ""
@@ -403,48 +500,69 @@ msgid ""
 "shortcut here). That doesn’t use extra memory, since a blank layer or a "
 "layer with a default color just takes one pixel worth of memory."
 msgstr ""
+"У Krita для усіх шарів передбачено канал прозорості. Якщо ви хочете малювати"
+" кольором тла, вам слід просто робити це у шарі над першим (Шаром 1). Це має"
+" запобігти витиранню білого кольору тла і появі видимого картатого замінника"
+" прозорості. Той самий ефект можна спостерігати, скажімо, у Gimp, якщо ви"
+" створите нове зображення, додасте канал прозорості, а потім скористаєтеся"
+" інструментом ґумки. Більшість користувачів Krita насправді починають з"
+" ескіза, додаючи новий порожній шар перед усіма іншими елементами малюнка."
+" (Клавіша :kbd:`Ins` є корисним клавіатурним скороченням для додавання шару.)"
+" Додавання шару не призведе до додаткової витрати пам'яті, оскільки порожній"
+" шар або шар із типовим кольором займає у пам'яті рівно стільки, скільки"
+" займає один піксель."
 
 #: ../../KritaFAQ.rst:178
 msgid "Windows: Can I use Krita with Sandboxie?"
-msgstr ""
+msgstr "Windows: Чи можна користуватися Krita у Sandboxie?"
 
 #: ../../KritaFAQ.rst:180
 msgid ""
 "No, this is not recommended. Sandboxie causes stuttering and freezes due to "
 "the way it intercepts calls for resources on disk."
 msgstr ""
+"Ні, не рекомендуємо цього робити. Sandboxie призводить до нерівномірної"
+" роботи програми та зависань через спосіб, у який ця програма перехоплює"
+" виклики до ресурсів на диску."
 
 #: ../../KritaFAQ.rst:183
 msgid "Windows: Krita cannot save"
-msgstr ""
+msgstr "Windows: Krita не зберігає дані на диск"
 
 #: ../../KritaFAQ.rst:185
 msgid ""
 "If the message is \"File not found. Check the file name and try again.\", "
 "you probably have Controlled Folder Access enabled."
 msgstr ""
+"Якщо ви бачите повідомлення «Файл не знайдено. Перевірте назву файла і"
+" повторіть спробу» («File not found. Check the file name and try again.»),"
+" ймовірно, у системі увімкнено керування доступом до тек."
 
 #: ../../KritaFAQ.rst:187
 msgid "Select :menuselection:`Start --> Settings`."
-msgstr ""
+msgstr "Виберіть :menuselection:`Пуск --> Параметри`."
 
 #: ../../KritaFAQ.rst:188
 msgid "Choose :menuselection:`Update & security --> Windows Defender`."
-msgstr ""
+msgstr "Виберіть :menuselection:`Оновлення і безпека --> Захисник Windows`."
 
 #: ../../KritaFAQ.rst:189
 msgid "Select :guilabel:`Open Windows Defender Security Center`."
-msgstr ""
+msgstr "Виберіть :guilabel:`Відкрити Центр безпеки Захисника Windows`."
 
 #: ../../KritaFAQ.rst:190
 msgid ""
 "Select :guilabel:`Virus & threat protection`, and then choose :guilabel:"
 "`Virus & threat protection settings`."
 msgstr ""
+"Виберіть :guilabel:`Захист від вірусів і загроз`, а потім виберіть"
+" :guilabel:`Параметри захисту від вірусів і загроз`."
 
 #: ../../KritaFAQ.rst:191
 msgid "Under :guilabel:`Controlled folder access`, turn it on or off."
 msgstr ""
+"На сторінці :guilabel:`Керований доступ до тек` позначте або зніміть позначку"
+" з пункту."
 
 #: ../../KritaFAQ.rst:193
 msgid ""
@@ -460,7 +578,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:196
 msgid "Can krita work with 8 bit (indexed) images?"
-msgstr ""
+msgstr "Чи може Krita працювати із 8-бітовими (індексованими) зображеннями?"
 
 #: ../../KritaFAQ.rst:198
 msgid ""
@@ -469,10 +587,15 @@ msgid ""
 "although Krita can export to some indexed color image formats, such as GIF. "
 "However, it does not offer detailed control over pixel values."
 msgstr ""
+"Ні. Krita було від початку розроблено для використання справжніх кольорів, а"
+" не індексованих палітр. Планів щодо підтримки індексованих кольорових"
+" зображень немає, хоча Krita може експортувати дані до деяких форматів"
+" зображень із індексуванням кольорів, зокрема GIF. Втім, у програмі не"
+" передбачено можливості детального керування значеннями кольорів пікселів."
 
 #: ../../KritaFAQ.rst:202
 msgid "How can I produce a backtrace on Windows?"
-msgstr ""
+msgstr "Як отримати дані зворотного трасування у Windows?"
 
 #: ../../KritaFAQ.rst:206
 msgid ":ref:`Dr. Mingw debugger <dr_minw>`"
@@ -486,6 +609,12 @@ msgid ""
 "instructions your computer was running when it was crashing (where the crash "
 "happened), making it very useful to figure out why the crash happened."
 msgstr ""
+"Якщо програма аварійно завершує роботу у Windows, і ви можете відтворити"
+" аварійне завершення, звіт щодо вади буде набагато ціннішим, якщо ви зможете"
+" долучити до нього дані зворотне трасування. Зворотне трасування чимось схоже"
+" на чорну скриньку літака, у ньому зберігаються дані щодо набору інструкцій,"
+" які ваш комп'ютер виконував у момент аварійного завершення роботи. Ці дані"
+" дуже корисні для визначення причин аварійного завершення."
 
 #: ../../KritaFAQ.rst:210
 msgid ""
@@ -493,6 +622,9 @@ msgid ""
 "the page :ref:`Dr. Mingw debugger <dr_minw>` for instructions on getting a "
 "backtrace with it."
 msgstr ""
+"До пакунка Krita включено :ref:`засіб діагностики Dr. Mingw <dr_minw>`. Будь"
+" ласка, відвідайте сторінку :ref:`засобу діагностики Dr. Mingw <dr_minw>`,"
+" щоб дізнатися більше про те, як отримати дані зворотного трасування."
 
 #: ../../KritaFAQ.rst:213
 msgid "Where can I find older versions of Krita?"
@@ -501,7 +633,7 @@ msgstr "Де знайти старі версії Krita?"
 #: ../../KritaFAQ.rst:215
 msgid ""
 "All the older versions of Krita that are still available can be found here:"
-msgstr ""
+msgstr "Усі застарілі версії Krita, які усе ще є доступними, можна знайти тут:"
 
 #: ../../KritaFAQ.rst:217
 msgid "`Very old builds <http://download.kde.org/Attic/krita>`_"
@@ -510,12 +642,17 @@ msgstr "`Дуже давні збірки <http://download.kde.org/Attic/krita>`
 #: ../../KritaFAQ.rst:220
 msgid "On Windows, the Krita User Interface is too small on my HiDPI screen"
 msgstr ""
+"У Windows інтерфейс користувача Krita є надто малим для екранів із високою"
+" роздільною здатністю"
 
 #: ../../KritaFAQ.rst:222
 msgid ""
 "If you're using Windows, you can set the display scaling to 150% or 200%, "
 "and enable the experimental HiDPI support in the configurations:"
 msgstr ""
+"Якщо ви користуєтеся Windows, ви можете налаштувати масштабування дисплея на"
+" 150% або 200% і увімкнути експериментальну підтримку високої роздільної"
+" здатності у налаштуваннях:"
 
 #: ../../KritaFAQ.rst:224
 msgid "On the menu, select :menuselection:`Settings --> Configure Krita`"
@@ -525,10 +662,11 @@ msgstr ""
 #: ../../KritaFAQ.rst:225
 msgid "On General page, switch to :guilabel:`Window` tab."
 msgstr ""
+"На сторінці :guilabel:`Загальне` перейдіть на вкладку :guilabel:`Вікно`."
 
 #: ../../KritaFAQ.rst:226
 msgid "Check :guilabel:`Enable Hi-DPI support`"
-msgstr ""
+msgstr "Позначте пункт :guilabel:`Вмикання підтримки високої роздільності`"
 
 #: ../../KritaFAQ.rst:227
 msgid "Restart Krita"
@@ -539,6 +677,8 @@ msgid ""
 "You can also change the toolbox icon size by right-clicking on the toolbox "
 "and selecting a size."
 msgstr ""
+"Ви також можете змінити розмір піктограми набору інструментів, клацнувши"
+" правою кнопкою на панелі набору інструментів із наступним вибором розміру."
 
 #: ../../KritaFAQ.rst:233
 msgid "Tablets"
@@ -553,32 +693,42 @@ msgid ""
 "Krita isn’t much fun without a pressure sensitive tablet. If the tablet has "
 "been properly configured, Krita should work out of the box."
 msgstr ""
+"Krita втрачає багато можливостей, якщо у вас немає планшета із чутливістю до"
+" тиску. Якщо планшет було налаштовано належним чином, Krita має працювати без"
+" будь-яких додаткових налаштовувань."
 
 #: ../../KritaFAQ.rst:240
 msgid ""
 "On Windows, you need to either install the Wintab drivers for your tablet, "
 "or enable the Windows 8 Pointer Input option in Krita's settings."
 msgstr ""
+"У Windows вам слід або встановити драйвери Wintab до вашого планшета, або"
+" увімкнути пункт :guilabel:`Введення з вказівника Windows 8+` у параметрах"
+" Krita."
 
 #: ../../KritaFAQ.rst:242
 msgid ""
 "You can find a community curated list of tablets supported by krita :ref:"
 "`here <list_supported_tablets>`."
 msgstr ""
+"Ви можете знайти створений спільнотою список підтримуваних у Krita планшетів"
+" :ref:`тут <list_supported_tablets>`."
 
 #: ../../KritaFAQ.rst:244
 msgid ""
 "If you're looking for information about tablets like the iPad or Android "
 "tablets, look :ref:`here <krita_android>`."
 msgstr ""
+"Якщо вам потрібні відомості щодо планшетів, подібних до iPad або планшетів"
+" під керуванням Android, пошукайте їх :ref:`тут <krita_android>`."
 
 #: ../../KritaFAQ.rst:248
 msgid "What if your tablet is not recognized by Krita?"
-msgstr ""
+msgstr "Що, якщо планшет не розпізнається Krita?"
 
 #: ../../KritaFAQ.rst:253
 msgid "We would like to see the full output of the following commands:"
-msgstr ""
+msgstr "Нам потрібні усі дані, які буде виведено у відповідь на такі команди:"
 
 #: ../../KritaFAQ.rst:255
 msgid "``lsmod``"
@@ -590,15 +740,15 @@ msgstr "``xinput``"
 
 #: ../../KritaFAQ.rst:257
 msgid "``xinput list-props`` (id can be fetched from the item 2)"
-msgstr ""
+msgstr "``xinput list-props`` (ідентифікатор можна отримати з пункту 2)"
 
 #: ../../KritaFAQ.rst:258
 msgid "Get the log of the tablet events (if applicable):"
-msgstr ""
+msgstr "Отримайте журнал подій на планшеті (якщо він потрібен):"
 
 #: ../../KritaFAQ.rst:260
 msgid "Open a console application (e.g. Konsole on KDE)"
-msgstr ""
+msgstr "Відкрийте програму — емулятор консолі (наприклад Konsole у KDE)"
 
 #: ../../KritaFAQ.rst:261
 msgid ""
@@ -606,30 +756,39 @@ msgid ""
 "menuselection:`Settings --> Edit Current Profile --> Scrolling --> Unlimited "
 "Scrollback`)"
 msgstr ""
+"Встановіть для буфера гортання об'єм «без обмеження» (для :program:`Konsole`:"
+" :"
+"menuselection:`Параметри --> Редагувати поточний профіль --> Гортання -->"
+" Необмежений буфер гортання`)"
 
 #: ../../KritaFAQ.rst:262
 msgid "Start Krita by typing 'krita' and create any document"
-msgstr ""
+msgstr "Запустіть Krita введенням команди «krita» і створіть якийсь документ"
 
 #: ../../KritaFAQ.rst:263 ../../KritaFAQ.rst:282
 msgid ""
 "Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the "
 "logging has started"
 msgstr ""
+"Натисніть :kbd:`Ctrl + Shift + T`. Ви побачите вікно із повідомленням щодо"
+" того, що розпочато ведення журналу"
 
 #: ../../KritaFAQ.rst:264 ../../KritaFAQ.rst:283
 msgid "Try to reproduce your problem"
-msgstr ""
+msgstr "Спробуйте відтворити проблему"
 
 #: ../../KritaFAQ.rst:265
 msgid "The console is now filled with the log. Attach it to a bug report"
 msgstr ""
+"Консоль буде заповнено повідомленнями журналу. Долучіть їх до звіту щодо вади"
 
 #: ../../KritaFAQ.rst:267
 msgid ""
 "Attach all this data to a bug report using public paste services like paste."
 "kde.org"
 msgstr ""
+"Долучіть усі ці дані до звіту щодо вади за допомогою загальнодоступних служб"
+" зберігання даних, наприклад paste.kde.org"
 
 #: ../../KritaFAQ.rst:273
 msgid ""
@@ -637,24 +796,35 @@ msgid ""
 "driver update, a Windows update or the installation of Razer gaming mouse "
 "driver breaks tablets."
 msgstr ""
+"Спочатку, перевірте чи правильно встановлено драйвер до вашого планшета."
+" Часто оновлення драйвера, оновлення Windows або встановлення драйвера до"
+" ігрової миші Razer може зашкодити працездатності планшетів."
 
 #: ../../KritaFAQ.rst:275
 msgid ""
 "Then check whether switching to the Windows 8 Pointer API makes a "
 "difference: :menuselection:`Settings --> Configure Krita --> Tablet`."
 msgstr ""
+"Далі, перевірте, чи перемикання програмного інтерфейсу вказівника у Windows 8"
+" може усе змінити: :menuselection:`Параметри --> Налаштувати Krita -->"
+" Планшет`."
 
 #: ../../KritaFAQ.rst:277
 msgid ""
 "If you still have problems with Windows and your tablet, then we cannot help "
 "you without a tablet log."
 msgstr ""
+"Якщо у вас виникають проблеми із Windows і вашим планшетом, ми не зможемо вам"
+" допомогти без журналу планшета."
 
 #: ../../KritaFAQ.rst:279
 msgid ""
 "Install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647."
 "aspx>`_ from the official Microsoft site"
 msgstr ""
+"Встановіть `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb89664"
+"7."
+"aspx>`_ з офіційного сайта Microsoft"
 
 #: ../../KritaFAQ.rst:280
 msgid "Start :program:`DebugView`"
@@ -669,6 +839,9 @@ msgid ""
 "Go back to DebugView and save its output to a file. Attach this file to a "
 "bug report or paste it using services like paste.kde.org."
 msgstr ""
+"Поверніться до DebugView і збережіть виведені дані до файла. Долучіть цей"
+" файл до звіту щодо вади або вставте до звіту посилання на викладені десь у"
+" вільному доступі, наприклад на paste.kde.org, дані."
 
 #: ../../KritaFAQ.rst:287
 msgid ""
@@ -680,6 +853,8 @@ msgstr ""
 #: ../../KritaFAQ.rst:291
 msgid "How to fix a tablet offset on multiple screen setup on Windows"
 msgstr ""
+"Як виправити зсув позиції вказівника планшета у конфігурації із декількома"
+" екранами на Windows"
 
 #: ../../KritaFAQ.rst:293
 msgid ""
@@ -692,16 +867,18 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:295
 msgid "You can fix this issue manually by:"
-msgstr ""
+msgstr "Ви можете усунути цю проблему вручну:"
 
 #: ../../KritaFAQ.rst:297
 msgid "Put your stylus away from the tablet."
-msgstr ""
+msgstr "Приберіть стило подалі від планшета."
 
 #: ../../KritaFAQ.rst:298
 msgid ""
 "Start Krita without using a stylus, that is using a mouse or a keyboard."
 msgstr ""
+"Запустіть Krita без використання стила, тобто з використання миші або"
+" клавіатури."
 
 #: ../../KritaFAQ.rst:299
 msgid "Press :kbd:`Shift` key and hold it."
@@ -709,13 +886,16 @@ msgstr "Натисніть і утримуйте клавішу :kbd:`Shift`."
 
 #: ../../KritaFAQ.rst:300
 msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr ""
+msgstr "Доторкніться стилом до планшета так, щоб Krita розпізнала планшет."
 
 #: ../../KritaFAQ.rst:302
 msgid ""
 "You will see a special dialog asking for the real screen resolution. Choose "
 "the correct value or enter it manually and press OK."
 msgstr ""
+"Ви побачите спеціальне діалогове вікно, у якому вас проситимуть вказати"
+" справжню роздільну здатність екрана. Виберіть правильне значення або введіть"
+" його вручну і натисніть кнопку :guilabel:`Гаразд`."
 
 #: ../../KritaFAQ.rst:304
 msgid ""
@@ -743,12 +923,17 @@ msgid ""
 "This will reset your tablets configuration, thus you will need to "
 "recalibrate/reconfigure it."
 msgstr ""
+"У результаті налаштування вашого планшета буде скинуто до типових, отже вам"
+" доведеться повторно виконати процедуру калібрування і налаштовування."
 
 #: ../../KritaFAQ.rst:313
 msgid ""
 "*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer "
 "Input” <tablet_settings>`, but some features might not work with it."
 msgstr ""
+"*Для Krita 3.3 і новіших версій:* ви можете спробувати :ref:`увімкнути"
+" «Введення з вказівника Windows 8+» <tablet_settings>`, але це може призвести"
+" до непрацездатності деяких можливостей програми."
 
 #: ../../KritaFAQ.rst:316
 msgid "Microsoft Surface Pro and N-Trig"
@@ -787,6 +972,8 @@ msgid ""
 "Weird stuff happens on Windows, like ripples, rings, squiggles or "
 "poltergeists"
 msgstr ""
+"У Windows трапляються дивні речі, зокрема з'являються брижі, кільця,"
+" закарлюки або частини зображення рухаються без причин"
 
 #: ../../KritaFAQ.rst:332
 msgid ""
@@ -801,14 +988,14 @@ msgstr "https://github.com/saveenr/Fix_My_Pen/releases"
 
 #: ../../KritaFAQ.rst:337
 msgid "Touch doesn't seem to work on Windows"
-msgstr ""
+msgstr "У Windows не працює сенсорне керування"
 
 #: ../../KritaFAQ.rst:339
 msgid ""
 "You might have to disable and enable the touch driver: go to the device "
-"manager. (Click the Start button and type device manager). Choose HID (User "
-"interface devices or something like that). Choose Intel(R) Precise Touch "
-"Device. Right click, Disable it. Right click, Enable it."
+"manager. (Click the :guilabel:`Start` button and type device manager). "
+"Choose HID (User interface devices or something like that). Choose Intel(R) "
+"Precise Touch Device. Right click, Disable it. Right click, Enable it."
 msgstr ""
 
 #: ../../KritaFAQ.rst:342
@@ -817,7 +1004,7 @@ msgstr "Інструменти"
 
 #: ../../KritaFAQ.rst:345
 msgid "Toolbox missing"
-msgstr ""
+msgstr "Програма не показує панелі інструментів"
 
 #: ../../KritaFAQ.rst:347
 msgid ""
@@ -840,11 +1027,13 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:354
 msgid "Tool icons size is too big"
-msgstr ""
+msgstr "Розмір піктограм на панелі інструментів є надто великим"
 
 #: ../../KritaFAQ.rst:356
 msgid "Right click the toolbox to set the size."
 msgstr ""
+"Клацніть правою кнопкою миші на панелі інструментів і виберіть у контекстному"
+" меню пункт зміни розміру піктограм."
 
 #: ../../KritaFAQ.rst:359
 msgid "Krita can't get maximized"
@@ -855,6 +1044,8 @@ msgid ""
 "This happens when your dockers are placed in such a way that the window "
 "cannot be made less high. Rearrange your Workspace."
 msgstr ""
+"Так трапляється, якщо бічні панелі розташовано так, що неможливо зменшити"
+" висоту вікна. Перевпорядкуйте ваш робочий простір."
 
 #: ../../KritaFAQ.rst:364
 msgid "Resources"
@@ -865,10 +1056,12 @@ msgid ""
 "Is there a way to restore a default brush that I have mistakenly overwritten "
 "with new settings to default?"
 msgstr ""
+"Чи можна якось відновити типовий пензель, який помилково було перезаписано"
+" пензлем із новими параметрами?"
 
 #: ../../KritaFAQ.rst:369
 msgid "Yes. First go to the resource folder, which is in"
-msgstr ""
+msgstr "Так. Спочатку, перейдіть до теки ресурсів, яку розташовано за адресою"
 
 #: ../../KritaFAQ.rst:374
 msgid ""
@@ -887,12 +1080,16 @@ msgid ""
 "You can easily do this by going into :menuselection:`Settings --> Manage "
 "Resources --> Open Resource Folder`."
 msgstr ""
+"Зробити це просто можна за допомогою пункту меню :menuselection:`Параметри --"
+"> Керування ресурсами --> Відкрити теку ресурсів`."
 
 #: ../../KritaFAQ.rst:380
 msgid ""
 "Then go into the paintoppressets folder and remove the latest created file "
 "that you made of your preset."
 msgstr ""
+"Далі, перейдіть до теки paintoppressets і вилучіть останній створений вами"
+" файл вашого набору пензлів."
 
 #: ../../KritaFAQ.rst:383
 msgid ""
@@ -903,7 +1100,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:389
 msgid "How do I set favorite presets?"
-msgstr ""
+msgstr "Як встановити улюблені набори пензлів?"
 
 #: ../../KritaFAQ.rst:391
 msgid ""
@@ -915,7 +1112,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:394
 msgid "Can Krita load Photoshop Brushes?"
-msgstr ""
+msgstr "Чи може Krita завантажувати пензлі Photoshop?"
 
 #: ../../KritaFAQ.rst:396
 msgid ""
@@ -933,43 +1130,53 @@ msgstr "Krita працює повільно"
 #: ../../KritaFAQ.rst:401
 msgid ""
 "There is a myriad of reasons why this might be. Below is a short checklist."
-msgstr ""
+msgstr "Причин може бути безліч. Нижче наведено основні можливі причини."
 
 #: ../../KritaFAQ.rst:403
 msgid ""
 "Something else is hogging the cpu or the memory: spotify and other electron "
 "apps have been known to do this."
 msgstr ""
+"Процесор або пам'ять навантажує якась інша програма: spotify та інші програми"
+" на основі electron відомі такою поведінкою."
 
 #: ../../KritaFAQ.rst:404
 msgid ""
 "You are running Windows, and have 3rdparty security software like Sandboxie "
 "or Total Defender installed"
 msgstr ""
+"Ви працюєте у Windows і використовуєте стороннє захисне програмне"
+" забезпечення, зокрема Sandboxie або Total Defender."
 
 #: ../../KritaFAQ.rst:405
 msgid ""
 "you are working on images that are too big for your hardware (dimensions, "
 "channel depth or number of layers)"
 msgstr ""
+"Ви працюєте із зображеннями, які є надто великими (розміри зображення,"
+" глибина каналів або кількість шарів) для вашого обладнання."
 
 #: ../../KritaFAQ.rst:406
 msgid "you do not have canvas acceleration enabled"
-msgstr ""
+msgstr "У системі не увімкнено апаратне прискорення роботи із полотном."
 
 #: ../../KritaFAQ.rst:408
 msgid "Please also check this page: https://phabricator.kde.org/T7199"
 msgstr ""
+"Будь ласка, ознайомтеся із вмістом `цієї сторінки <"
+"https://phabricator.kde.org/T7199>`_"
 
 #: ../../KritaFAQ.rst:411
 msgid "Slow start-up"
-msgstr ""
+msgstr "Програма повільно запускається"
 
 #: ../../KritaFAQ.rst:413
 msgid ""
 "You probably have too many resources installed. Deactivate some bundles "
 "under :menuselection:`Settings --> Manage Resources`."
 msgstr ""
+"Ймовірно, встановлено забагато ресурсів. Вимкніть частину пакунків ресурсів"
+" за допомогою пункту меню :menuselection:`Параметри --> Керування ресурсами`."
 
 #: ../../KritaFAQ.rst:415
 msgid ""
@@ -987,20 +1194,26 @@ msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
 msgstr ""
+"Перевірте, чи не було випадково увімкнено стабілізатор на панелі"
+" :guilabel:`Параметри інструмента`."
 
 #: ../../KritaFAQ.rst:421
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
 msgstr ""
+"Спробуйте скористатися іншим режимом масштабування, наприклад трилінійним."
+" :menuselection:`Параметри --> Налаштувати Krita --> Монітор`."
 
 #: ../../KritaFAQ.rst:422
 msgid "Try a lower channel depth than 16-bit."
-msgstr ""
+msgstr "Спробуйте меншу глибину кольорів, ніж 16-бітова."
 
 #: ../../KritaFAQ.rst:423
 msgid "For NVidia, try a 16-bit floating point color space."
 msgstr ""
+"Якщо користуєтеся графічною карткою NVidia, спробуйте скористатися простором"
+" 16-бітових кольорів зі значеннями із рухомою крапкою."
 
 #: ../../KritaFAQ.rst:424
 msgid ""
@@ -1015,10 +1228,12 @@ msgid ""
 "It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 gig "
 "is the preferable minimum."
 msgstr ""
+"Програма є доволі вимогливою до обсягів оперативної пам'яті, тому потрібно"
+" принаймні 2 ГБ оперативної пам'яті, а краще — взагалі не менше 4 ГБ."
 
 #: ../../KritaFAQ.rst:426
 msgid "Check that nothing else is hogging your CPU"
-msgstr ""
+msgstr "Перевірте, чи ніякі інші програми не споживають увесь процесорний час."
 
 #: ../../KritaFAQ.rst:427
 msgid ""
@@ -1028,11 +1243,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:428
 msgid "Set brush precision to 3 or auto."
-msgstr ""
+msgstr "Встановіть точність пензля у значення 3 або «авто»."
 
 #: ../../KritaFAQ.rst:429
 msgid "Use a larger value for brush spacing."
-msgstr ""
+msgstr "Використовуйте більше значення для інтервалу пензля."
 
 #: ../../KritaFAQ.rst:430
 msgid ""
@@ -1081,7 +1296,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:448
 msgid "License, rights and the Krita Foundation"
-msgstr ""
+msgstr "Умови ліцензування, авторські права та Krita Foundation"
 
 #: ../../KritaFAQ.rst:451
 msgid "Who owns Krita?"
@@ -1092,10 +1307,13 @@ msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
 msgstr ""
+"Авторськими правами на торгову марку Krita володіє Stichting Krita"
+" Foundation. Авторськими правами на початковий код володіють усі, хто"
+" працював над цим початковим кодом."
 
 #: ../../KritaFAQ.rst:456
 msgid "Who and what is Kiki?"
-msgstr ""
+msgstr "Хто така Кікі?"
 
 #: ../../KritaFAQ.rst:458
 msgid ""
@@ -1103,6 +1321,9 @@ msgid ""
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
 "word for Squirrel."
 msgstr ""
+"Кікі — кібербілка. Вона — наш маскот, який було розроблено Тайсоном Таном"
+" (Tyson Tan). Ми вибрали білку, коли дізналися, що «krita» — албанська назва"
+" білки."
 
 #: ../../KritaFAQ.rst:461
 msgid "Why is Krita Free?"
@@ -1139,11 +1360,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:476
 msgid "Can I get Krita for iPad? for Android?"
-msgstr ""
+msgstr "Чи є версія Krita для iPad? А для Android?"
 
 #: ../../KritaFAQ.rst:478
 msgid "Not at this point in time."
-msgstr ""
+msgstr "Ні, зараз немає."
 
 #: ../../KritaFAQ.rst:481
 msgid "Who translates Krita"

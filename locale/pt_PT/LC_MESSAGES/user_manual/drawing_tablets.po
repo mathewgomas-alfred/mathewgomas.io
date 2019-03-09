@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-08 14:00+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,30 +16,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en trig menuselection Tabletes Surface images Wintab\n"
+"X-POFile-SpellExtra: Wacom AMD Catalyst Kritatabletstylus ref image pô\n"
+"X-POFile-SpellExtra: Kritatablettypes Krita Trig Sandboxie\n"
+"X-POFile-SpellExtra: Kritatabletdrivermissing SO Ink Razer\n"
 
 #: ../../user_manual/drawing_tablets.rst:0
 msgid ".. image:: images/en/Krita_tablet_stylus.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_stylus.png"
 
 #: ../../user_manual/drawing_tablets.rst:1
 msgid ""
 "Basic page describing drawing tablets, how to set them up for Krita and how "
 "to troubleshoot common tablet issues."
-msgstr ""
+msgstr "Uma página básica que descreve as tabletes de desenho, como configurá-las para o Krita e como resolver problemas comuns com as tabletes."
 
 #: ../../user_manual/drawing_tablets.rst:18
 msgid "Drawing Tablets"
-msgstr ""
+msgstr "Tabletes de Desenho"
 
 #: ../../user_manual/drawing_tablets.rst:20
 msgid ""
 "This page is about drawing tablets, what they are, how they work, and where "
 "things can go wrong."
-msgstr ""
+msgstr "Esta página é dedicada às tabletes de desenho, o que são, como funcionam e onde as coisas podem não correr bem."
 
 #: ../../user_manual/drawing_tablets.rst:24
 msgid "What are tablets?"
-msgstr ""
+msgstr "O que são as tabletes?"
 
 #: ../../user_manual/drawing_tablets.rst:26
 msgid ""
@@ -47,11 +51,11 @@ msgid ""
 "paper. Even worse, extended mouse use can result in carpal tunnel syndrome. "
 "That’s why most people who draw digitally use a specialized piece of "
 "hardware known as a drawing tablet."
-msgstr ""
+msgstr "Desenhar com um rato pode ser pouco intuitivo e difícil, em comparação com o lápis e papel. Pior ainda, o uso prolongado do rato pode resultar num síndroma do túnel cárpico. É por isso que a maioria das pessoas que desenham a nível digital usam uma peça especializada de 'hardware', conhecida por tablete de desenho."
 
 #: ../../user_manual/drawing_tablets.rst:32
 msgid ".. image:: images/en/Krita_tablet_types.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_types.png"
 
 #: ../../user_manual/drawing_tablets.rst:33
 msgid ""
@@ -60,7 +64,7 @@ msgid ""
 "stylus. Another popular format is a computer monitor with stylus used to "
 "draw directly on the screen. These are better to use than a mouse because "
 "it’s more natural to draw with a stylus and generally better for your wrists."
-msgstr ""
+msgstr "Uma tablete de desenho é um componente de 'hardware' que você pode ligar ao seu computador, tal como um teclado ou rato. Normalmente parece uma placa de plástico com um lápis. Outro formato conhecido é um monitor de computador com um lápis usado para desenhar directamente no ecrã. Estes são melhores para usar que um rato, porque é mais natural desenhar com um lápis e é normalmente melhor para os seus pulsos."
 
 #: ../../user_manual/drawing_tablets.rst:40
 msgid ""
@@ -68,7 +72,7 @@ msgid ""
 "pressure sensitivity, allowing you to make strokes that get bigger or "
 "smaller depending on the pressure you put on them, to create richer and more "
 "interesting strokes."
-msgstr ""
+msgstr "Com um lápis de tablete devidamente instalado, o Krita consegue usar informações como a sensibilidade à pressão, o que lhe permite fazer traços que fiquem maiores ou menores, dependendo da pressão que aplica sobre eles, para criar traços mais ricos e mais interessantes."
 
 #: ../../user_manual/drawing_tablets.rst:46
 msgid ""
@@ -77,11 +81,11 @@ msgid ""
 "nib, while a stylus made for finger-touch has a big rubbery round nib, like "
 "a finger. These tablets may not give good results and a pressure-sensitive "
 "tablet is recommended."
-msgstr ""
+msgstr "Algumas vezes, as pessoas confundem os lápis com toque do dedo com uma tablete verdadeir.a Poderá ver a diferença por o lápis da tablete de desenho normalmente tem um bico pontiagudo, enquanto um lápis feito para toques do dedo tem um bico redondo em borracha, como um dedo. Estas tabletes podem não gerar bons resultados, pelo que se recomenda uma tablete sensível à pressão."
 
 #: ../../user_manual/drawing_tablets.rst:51
 msgid "Drivers and Pressure Sensitivity"
-msgstr ""
+msgstr "Controladores e Sensibilidade à Pressão"
 
 #: ../../user_manual/drawing_tablets.rst:53
 msgid ""
@@ -89,7 +93,7 @@ msgid ""
 "work with Krita! So you plug in the USB cable, start up Krita and... It "
 "doesn’t work! Or well, you can make strokes, but that pressure sensitivity "
 "you heard so much about doesn’t seem to work."
-msgstr ""
+msgstr "Com que então comprou uma tablete, uma verdadeira tablete de desenho. E você quer pô-la a funcionar com o Krita! Assim, pode ligar o cabo USB, iniciar o Krita e... Não funciona! Ou por outra, consegue desenhar traços, mas essa sensibilidade à pressão que ouviu falar não parece estar a funcionar."
 
 #: ../../user_manual/drawing_tablets.rst:58
 msgid ""
@@ -97,7 +101,7 @@ msgid ""
 "can find the driver on a CD that was delivered alongside your tablet, or on "
 "the website of the manufacturer. Go install it, and while you wait, we’ll go "
 "into the details of what it is!"
-msgstr ""
+msgstr "Isto acontece porque precisa de instalar um programa chamado de ‘controlador’. Normalmente consegue encontrar o controlador num CD que foi fornecido em conjunto com a sua tablete ou na página Web do fabricante. Por favor instale-o e, enquanto espera, podemos ir aos detalhes do que faz!"
 
 #: ../../user_manual/drawing_tablets.rst:63
 msgid ""
@@ -106,7 +110,7 @@ msgid ""
 "use an operating system called Windows, but people on an Apple device have "
 "an operating system called MacOS, and some people, including many of the "
 "developers use a system called Linux."
-msgstr ""
+msgstr "Existe um sistema básico a correr no seu computador que faz todo o tipo de tarefas necessárias para que ele funcione. Isto é o sistema operativo ou SO. A maioria das pessoas usam um sistema operativo chamado Windows, mas as pessoas com dispositivos da Apple usam um sistema operativo chamado MacOS e ainda algumas pessoas, incluindo muitos dos programadores, usam um sistema chamado Linux."
 
 #: ../../user_manual/drawing_tablets.rst:69
 msgid ""
@@ -115,7 +119,7 @@ msgid ""
 "want Krita to be able to communicate with the hardware, like your drawing "
 "tablet. But to have those two communicate can be really difficult - so the "
 "operating system, works as a glue between the two."
-msgstr ""
+msgstr "O princípio de base de todos estes sistemas é o mesmo, contudo. Poderá querer executar programas como o Krita no seu computador, chamados de 'software' ou aplicações, e deseja que o Krita consiga comunicar com o 'hardware', como a sua tablete de desenho. Mas ter estes dois a comunicar um com o outro pode ser bastante difícil - como tal, o sistema operativo funciona como uma \"cola\" entre os dois."
 
 #: ../../user_manual/drawing_tablets.rst:75
 msgid ""
@@ -123,11 +127,11 @@ msgid ""
 "operating system, so it can ask it for a lot of these things: It would like "
 "to display things, and use the memory, and so on. Most importantly, it would "
 "like to get information from the tablet!"
-msgstr ""
+msgstr "Sempre que iniciar o Krita, o mesmo irá estabelecer ligações ao sistema operativo, para que lhe possa perguntar algumas destas coisas: gostaria de usar determinadas coisas, usar a memória, e assim por diante. O mais importante é que gostaria de obter informações da tablete!"
 
 #: ../../user_manual/drawing_tablets.rst:81
 msgid ".. image:: images/en/Krita_tablet_drivermissing.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_drivermissing.png"
 
 #: ../../user_manual/drawing_tablets.rst:82
 msgid ""
@@ -136,7 +140,7 @@ msgid ""
 "operating system enough information so the OS can provide Krita with the "
 "right information about the tablet. The hardware manufacturer's job is to "
 "write a proper driver for each operating system."
-msgstr ""
+msgstr "Mas não consegue! O que se passa é que o seu sistema operativo não sabe muito sobre tabletes. É para isso que servem os controladores. A instalação de um controlador dá ao sistema operativo informações suficientes para que o SO consiga passar ao Krita as informações correctas sobre a tablete. A tarefa do fabricante do 'hardware' é criar um controlador adequado para cada sistema operativo."
 
 #: ../../user_manual/drawing_tablets.rst:89
 msgid ""
@@ -145,21 +149,21 @@ msgid ""
 "forget to do this! Conversely, because Krita isn’t a driver, you don’t need "
 "to even deinstall it to reset the configuration, just rename or delete the "
 "configuration file."
-msgstr ""
+msgstr "Como os controladores mudam um pouco o sistema operativo, terá sempre de reiniciar o seu computador quando instalar ou desinstalar um controlador, por isso não se esqueça de o fazer! Do mesmo modo, dado que o Krita não é um controlador, não é preciso desinstalá-lo para repor a configuração; basta mudar o nome ou apagar o ficheiro de configuração."
 
 #: ../../user_manual/drawing_tablets.rst:92
 msgid "Where it can go wrong"
-msgstr ""
+msgstr "Onde pode correr mal"
 
 #: ../../user_manual/drawing_tablets.rst:94
 msgid ""
 "Krita automatically connects to your tablet if the drivers are installed. "
 "When things go wrong, usually the problem isn't with Krita."
-msgstr ""
+msgstr "O Krita liga-se automaticamente à sua tablete, caso os controladores estejam instalados. Quando as coisas correm mal, normalmente o problema não é do Krita."
 
 #: ../../user_manual/drawing_tablets.rst:98
 msgid "Surface pro tablets need two drivers"
-msgstr ""
+msgstr "As tabletes Surface Pro precisam de dois controladores"
 
 #: ../../user_manual/drawing_tablets.rst:100
 msgid ""
@@ -169,21 +173,21 @@ msgid ""
 "`Settings --> Configure Krita --> Tablet Settings` and toggle the \"Windows "
 "8+ pointer input\" there. You don't need to install the wintab drivers "
 "anymore for n-trig based pens."
-msgstr ""
+msgstr "Certas tabletes que usam o N-trig, como o Surface Pro, têm dois tipos de controladores. Um é o nativo, o N-Trig, e o outro chama-se Wintab. Desde o 3.3, o Krita consegue usar os controladores do tipo Windows Ink; basta ir a :menuselection:`Configuração --> Configurar o Krita --> Configuração da Tablete` e activar aí a opção de 'entrada de cursor do Windows 8+\". Não precisa de instalar mais os controladores Wintab para os lápis baseados no N-trig."
 
 #: ../../user_manual/drawing_tablets.rst:108
 msgid "Windows 10 updates"
-msgstr ""
+msgstr "Actualizações para o Windows 10"
 
 #: ../../user_manual/drawing_tablets.rst:110
 msgid ""
 "Sometimes a Windows 10 update can mess up tablet drivers. In that case, "
 "reinstalling the drivers should work."
-msgstr ""
+msgstr "Em alguns casos, uma actualização para o Windows 10 pode baralhar os controladores da tablete. Nesse caso, se reinstalar os controladores deverá resultar."
 
 #: ../../user_manual/drawing_tablets.rst:114
 msgid "Broken Drivers"
-msgstr ""
+msgstr "Controladores com Problemas"
 
 #: ../../user_manual/drawing_tablets.rst:116
 msgid ""
@@ -192,11 +196,11 @@ msgid ""
 "means that the driver just doesn’t work well. We cannot do anything about "
 "this, sadly. You will have to send a complaint to the manufacturer for this, "
 "or buy a better tablet with better quality drivers."
-msgstr ""
+msgstr "Os controladores das tabletes têm de ser criados pelo fabricante. Algumas das vezes, com as tabletes realmente baratas, o 'hardware' é óptimo, mas o controlador foi mal desenvolvido, o que significa que o controlador pode simplesmente não funcionar de todo. Não podemos fazer nada quanto a isto, infelizmente. Terá de emitir uma reclamação ao fabricante por causa disto, ou então comprar uma tablete melhor com controladores de melhor qualidade."
 
 #: ../../user_manual/drawing_tablets.rst:124
 msgid "Conflicting Drivers"
-msgstr ""
+msgstr "Controladores em Conflito"
 
 #: ../../user_manual/drawing_tablets.rst:126
 msgid ""
@@ -205,11 +209,11 @@ msgid ""
 "that comes with the tablet you want to use. Other operating systems are a "
 "bit better about this, but even Linux, where the drivers are often "
 "preinstalled, cant run two tablets with different drivers at once."
-msgstr ""
+msgstr "No Windows, só pode ter um controlador do estilo Wintab de cada vez. Como tal, certifique-se que desinstala o controlador anterior antes de instalar o novo que vem com o tablete que deseja usar. Os outros sistemas operativos são um pouco melhores sobre isto, mas até o Linux, onde os controladores vêm normalmente pré-instalados, não conseguem correr duas tabletes com controladores diferentes ao mesmo tempo."
 
 #: ../../user_manual/drawing_tablets.rst:134
 msgid "Interfering software"
-msgstr ""
+msgstr "'Software' com Interferências"
 
 #: ../../user_manual/drawing_tablets.rst:136
 msgid ""
@@ -221,29 +225,29 @@ msgid ""
 "can talk to the operating system, converting tablet information to mouse "
 "information. This type of software should be configured to leave Krita "
 "alone, or be deinstalled."
-msgstr ""
+msgstr "Em alguns casos, existem algumas aplicações que tentam criar uma camada de segurança entre o Krita e o sistema operativo. O Sandboxie é um destes exemplos. Contudo, o Krita nem sempre consegue ligar a certas partes do sistema operativo enquanto estiver em segurança, pelo que irá sempre funcionar mal com programas como o Sandboxie. Da forma semelhante, certas aplicações do rato, como os utilitários do Razer, também poderão afectar se o Krita consegue falar com o sistema operativo, convertendo a informação do tablete em informação do rato. Este tipo de aplicações deverá estar configurado para deixar o Krita em paz ou serem desinstaladas."
 
 #: ../../user_manual/drawing_tablets.rst:145
 msgid ""
 "The following software has been reported to interfere with tablet events to "
 "Krita:"
-msgstr ""
+msgstr "As seguintes aplicações foram detectadas como interferindo com os eventos de tablete no Krita:"
 
 #: ../../user_manual/drawing_tablets.rst:148
 msgid "Sandboxie"
-msgstr ""
+msgstr "Sandboxie"
 
 #: ../../user_manual/drawing_tablets.rst:149
 msgid "Razer mouse utilities"
-msgstr ""
+msgstr "Utilitários do rato Razer"
 
 #: ../../user_manual/drawing_tablets.rst:150
 msgid "AMD catalyst “game mode” (this broke the right click for someone)"
-msgstr ""
+msgstr "“Modo de jogo” do AMD Catalyst (isto quebrou o funcionamento do botão direito para algumas pessoas)"
 
 #: ../../user_manual/drawing_tablets.rst:153
 msgid "Flicks (Wait circle showing up and then calling the popup palette)"
-msgstr ""
+msgstr "Gestos (Círculo de espera a aparecer e depois a invocar a paleta)"
 
 #: ../../user_manual/drawing_tablets.rst:155
 msgid ""
@@ -254,32 +258,32 @@ msgid ""
 "install tablet drivers, because the people who made this part of windows "
 "forgot that people also draw with computers. So you will need to turn it off "
 "in the windows flicks configuration."
-msgstr ""
+msgstr "Se tiver uma situação em que, ao tentar desenhar, estiver sempre a mostrar a pelta no Windows, então o problema pode ser com os gestos. Isso corresponde a um tipo de gestos e uma funcionalidade do Windows que permite-lhe fazer com que um movimento sirva como atalho de teclado. O Windows activa-os automaticamente quando instala os controladores da tablete, porque as pessoas que tornaram isto parte do Windows, esqueceram-se que as pessoas também desenham com computadores. Por isso, terá de desligar isto na configuração de gestos do Windows."
 
 #: ../../user_manual/drawing_tablets.rst:164
 msgid "Wacom Double Click Sensitivity (Straight starts of lines)"
-msgstr ""
+msgstr "Sensibilidade do Duplo-Click da Wacom (Início de linhas rectas)"
 
 #: ../../user_manual/drawing_tablets.rst:166
 msgid ""
 "If you experience an issue where the start of the stroke is straight, and "
 "have a wacom tablet, it could be caused by the Wacom driver double-click "
 "detection."
-msgstr ""
+msgstr "Se tiver algum problema em que o início do traço é a direito e tiver uma tablete Wacom, poderá ser devido à detecção de duplo-click do controlador Wacom."
 
 #: ../../user_manual/drawing_tablets.rst:170
 msgid ""
 "To fix this, go to the Wacom settings utility and lower the double click "
 "sensitivity."
-msgstr ""
+msgstr "Para corrigir isto, vá ao utilitário de configuração do Wacom e baixe a sensibilidade do duplo-click."
 
 #: ../../user_manual/drawing_tablets.rst:174
 msgid "Supported Tablets"
-msgstr ""
+msgstr "Tabletes Suportadas"
 
 #: ../../user_manual/drawing_tablets.rst:176
 msgid ""
 "Supported tablets are the ones of which Krita developers have a version "
 "themselves, so they can reliably fix bugs with them. :ref:`We maintain a "
 "list of those here <list_supported_tablets>`."
-msgstr ""
+msgstr "As tabletes suportadas são as que os próprios programadores do Krita usam, por isso conseguem corrigir os problemas com elas. :ref:`É mantida uma lista com elas aqui <list_supported_tablets>`."

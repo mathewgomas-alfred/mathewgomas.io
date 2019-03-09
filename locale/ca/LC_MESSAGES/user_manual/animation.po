@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 18.12.2\n"
 
+# skip-rule: t-sp_2p
 #: ../../<rst_epilog>:4
 msgid ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
@@ -35,6 +36,7 @@ msgstr "Guia detallada sobre el flux de treball amb l'animació en el Krita."
 msgid "Animation with Krita"
 msgstr "Animació amb el Krita"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:20
 msgid ""
 "Thanks to the 2015 Kickstarter, :program:`Krita 3.0` now has animation. In "
@@ -61,6 +63,7 @@ msgstr ""
 msgid "Animation curves"
 msgstr "Corbes d'animació"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:32
 msgid ""
 "To create an animation curve (currently only for opacity) expand the “New "
@@ -98,6 +101,7 @@ msgstr ""
 msgid "For this workflow, there are three important dockers:"
 msgstr "Per a aquest flux de treball, hi ha tres acobladors importants:"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:48
 msgid ""
 "The :ref:`timeline_docker`. View and control all of the frames in your "
@@ -110,6 +114,7 @@ msgstr ""
 "a gestionar les capes. La capa creada en l'acoblador línia de temps també "
 "apareixerà a l'acoblador Capa normal."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:52
 msgid ""
 "The :ref:`animation_docker`. This docker contains the play buttons as the "
@@ -121,6 +126,7 @@ msgstr ""
 "reproducció i petites opcions d'utilitat, com ara :guilabel:`enquadrament de "
 "fotogrames clau`."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:55
 msgid ""
 "The :ref:`onion_skin_docker`. This docker controls the look of the onion "
@@ -159,6 +165,7 @@ msgstr "Primer, crearem un fitxer nou:"
 msgid ".. image:: images/en/Introduction_to_animation_01.png"
 msgstr ".. image:: images/en/Introduction_to_animation_01.png"
 
+# skip-rule: t-apo_ini
 #: ../../user_manual/animation.rst:75
 msgid ""
 "On the first tab, we type in a nice ratio like 1280x1024, set the dpi to 72 "
@@ -168,6 +175,7 @@ msgstr ""
 "el ppp a 72 (després de tot, això ho fem per a les pantalles) i el títol del "
 "document 'cicle de caminar'."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:79
 msgid ""
 "In the second tab, we choose a nice background color, and set the background "
@@ -184,6 +192,7 @@ msgstr ""
 "fan animacions, ja que la capa que fa l'animació HA de ser semitransparent "
 "per aconseguir que funcioni la pell de ceba."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:82
 msgid ""
 "Krita has a bunch of functionality for meta-data, starting at the :guilabel:"
@@ -242,6 +251,7 @@ msgstr ""
 msgid "Animating"
 msgstr "Animant"
 
+# skip-rule: t-apo_ini,t-apo_fin
 #: ../../user_manual/animation.rst:105
 msgid ""
 "We have two transparent layers set up. Let's name the bottom one "
@@ -268,6 +278,7 @@ msgstr ""
 msgid ".. image:: images/en/Introduction_to_animation_05.png"
 msgstr ".. image:: images/en/Introduction_to_animation_05.png"
 
+# skip-rule: t-apo_ini,t-apo_fin
 #: ../../user_manual/animation.rst:116
 msgid ""
 "Then, select the 'walkcycle' layer and draw a head and torso (you can use "
@@ -276,6 +287,7 @@ msgstr ""
 "Després, seleccioneu la capa 'Cicle de caminar' i dibuixeu un cap i un tors "
 "(per això, podeu utilitzar qualsevol pinzell)."
 
+# skip-rule: t-apo_ini,t-apo_fin
 #: ../../user_manual/animation.rst:118
 msgid ""
 "Now, selecting a new frame will not make a new frame automatically. Krita "
@@ -314,6 +326,7 @@ msgstr ""
 msgid ".. image:: images/en/Introduction_to_animation_08.png"
 msgstr ".. image:: images/en/Introduction_to_animation_08.png"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:134
 msgid ""
 "Use the to copy frame to copy the first frame onto the second. Then, use the "
@@ -335,6 +348,7 @@ msgstr ".. image:: images/en/Introduction_to_animation_09.png"
 msgid "Now, you should see the previous frame as red."
 msgstr "Ara, hauríeu de veure el fotograma anterior en vermell."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:145
 msgid ""
 "Krita sees white as a color, not as transparent, so make sure the animation "
@@ -374,6 +388,7 @@ msgstr ""
 "postura on una cama està completament estirada i l'altra arronsada, llegiu "
 "per a fer el següent pas."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:159
 msgid ""
 "Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but "
@@ -386,6 +401,7 @@ msgstr ""
 msgid ".. image:: images/en/Introduction_to_animation_12.png"
 msgstr ".. image:: images/en/Introduction_to_animation_12.png"
 
+# skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:164
 msgid ""
 ":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
@@ -393,12 +409,14 @@ msgstr ""
 ":kbd:`Ctrl + |mouseleft|` també selecciona i desselecciona els fotogrames, "
 "per a copiar..."
 
+# skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:166
 msgid ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
 msgstr ""
 ":kbd:`Ctrl + |mouseleft|` per a seleccionar tots els fotogrames que voleu "
 "seleccionar."
 
+# skip-rule: t-acc_obe,t-apo_ini
 #: ../../user_manual/animation.rst:167
 msgid ""
 ":kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange', "
@@ -453,6 +471,7 @@ msgstr "Ampliar en brut el vostre cicle de caminar"
 msgid ".. image:: images/en/Introduction_to_animation_14.png"
 msgstr ".. image:: images/en/Introduction_to_animation_14.png"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:189
 msgid ""
 "You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
@@ -528,6 +547,7 @@ msgstr ""
 msgid ".. image:: images/en/Introduction_to_animation_18.png"
 msgstr ".. image:: images/en/Introduction_to_animation_18.png"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:220
 msgid ""
 "You can show any given layer in the timeline by doing on the layer in the "
@@ -544,6 +564,7 @@ msgstr ".. image:: images/en/Introduction_to_animation_19.png"
 msgid "Exporting"
 msgstr "Exportant"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:228
 msgid "When you are done, select :menuselection:`File --> Export Animation`"
 msgstr ""
@@ -596,6 +617,7 @@ msgstr ""
 msgid ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:251
 msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
@@ -609,6 +631,7 @@ msgstr ""
 msgid "Enjoy your walkcycle!"
 msgstr "Gaudiu del vostre cicle de caminar!"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:259
 msgid ""
 "Krita 3.1 has a render animation feature. If you're using the 3.1 beta, "
@@ -634,6 +657,7 @@ msgstr ""
 "Primer prenguem un full d'sprites d'Open Game Art. (Aquest és el cicle de "
 "caminar masculí de la Libre Pixel Cup)"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:269
 msgid ""
 "And we'll use :menuselection:`Image --> Split Image to split up the sprite "
@@ -655,6 +679,7 @@ msgstr ""
 "sprites, utilitzeu 8 llesques verticals i 0 llesques horitzontals. Doneu-li "
 "un nom adequat i deseu-lo com a png."
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:275
 msgid ""
 "Then, make a new canvas, and select :menuselection:`File --> Import "
@@ -730,6 +755,7 @@ msgstr "Referència"
 msgid "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 msgstr "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 
+# skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:303
 msgid ""
 "`The source for the libre pixel cup male walkmediawiki cycle <http://"
