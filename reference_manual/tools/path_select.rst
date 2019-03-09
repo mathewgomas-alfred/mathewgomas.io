@@ -18,7 +18,7 @@ Path Selection Tool
 
 |toolselectpath|
 
-This tool, represented by a ellipse with a dashed border and a curve control, allows you to make a :ref:`selections_basics` of an area by drawing a path around it. Click where you want each point of the path to be. Click and drag to curve the line between points. Finally click on the first point you created to close your path.
+This tool, represented by an ellipse with a dashed border and a curve control, allows you to make a :ref:`selections_basics` of an area by drawing a path around it. Click where you want each point of the path to be. Click and drag to curve the line between points. Finally click on the first point you created to close your path.
 
 Hotkeys and Sticky keys
 -----------------------

@@ -62,7 +62,7 @@ Particle Type
 Decides the shape of the particle.
 
 Ellipse
-    Fills the area with a ellipse.
+    Fills the area with an ellipse.
 Rectangle
     Fills the area.
 Line

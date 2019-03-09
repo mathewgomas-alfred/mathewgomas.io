@@ -78,4 +78,4 @@ Pattern Size:
     H:
         The height, in pixels.
 
-And then there's Patterns, which is a mini pattern docker, and where you can pick the pattern used for the fill.
+And then there's :guilabel:`Patterns`, which is a mini pattern docker, and where you can pick the pattern used for the fill.

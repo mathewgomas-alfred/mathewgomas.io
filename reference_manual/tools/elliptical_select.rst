@@ -17,7 +17,7 @@ Elliptical Selection Tool
 
 |toolselectellipse|
 
-This tool, represented by a ellipse with a dashed border, allows you to make :ref:`selections_basics` of a elliptical area. Simply click and drag around the section you wish to select.
+This tool, represented by an ellipse with a dashed border, allows you to make :ref:`selections_basics` of a elliptical area. Simply click and drag around the section you wish to select.
 
 Hotkeys and Stickykeys
 ----------------------
