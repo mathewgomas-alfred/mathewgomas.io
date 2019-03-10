@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___linux_command_line\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-21 08:33+0200\n"
+"PO-Revision-Date: 2019-03-09 11:32+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -87,7 +87,7 @@ msgstr "Приклад:"
 
 #: ../../reference_manual/linux_command_line.rst:48
 msgid "``krita final.png --export --export-filename final.jpg``"
-msgstr ""
+msgstr "``krita final.png --export --export-filename final.jpg``"
 
 #: ../../reference_manual/linux_command_line.rst:50
 msgid ""
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:53
 msgid "PDF export"
-msgstr ""
+msgstr "Експортування до PDF"
 
 #: ../../reference_manual/linux_command_line.rst:55
 msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
@@ -104,24 +104,26 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:57
 msgid "``krita final.png --export-pdf --export-filename final.pdf``"
-msgstr ""
+msgstr "``krita final.png --export-pdf --export-filename final.pdf``"
 
 #: ../../reference_manual/linux_command_line.rst:59
 msgid "export-pdf exports the file ``file.png`` as a pdf file."
-msgstr ""
+msgstr "export-pdf експортує файл ``file.png`` як файл PDF."
 
 #: ../../reference_manual/linux_command_line.rst:63
 msgid "This has been removed from 3.1 because the results were incorrect."
 msgstr ""
+"Цей параметр було вилучено, починаючи з версії 3.1, оскільки результати його"
+" застосування були некоректними."
 
 #: ../../reference_manual/linux_command_line.rst:66
 msgid "Open with Custom Screen DPI"
-msgstr ""
+msgstr "Відкриття із нетиповою роздільністю для екрана"
 
 #: ../../reference_manual/linux_command_line.rst:68
 #: ../../reference_manual/linux_command_line.rst:74
 msgid "Open Krita with specified Screen DPI."
-msgstr ""
+msgstr "Відкриття вікна Krita із вказаною роздільністю екрана."
 
 #: ../../reference_manual/linux_command_line.rst:76
 msgid "For example:"
@@ -129,11 +131,11 @@ msgstr "Приклад:"
 
 #: ../../reference_manual/linux_command_line.rst:78
 msgid "``krita --dpi <72,72>``"
-msgstr ""
+msgstr "``krita --dpi <72,72>``"
 
 #: ../../reference_manual/linux_command_line.rst:81
 msgid "Open template"
-msgstr ""
+msgstr "Відкриття шаблона"
 
 #: ../../reference_manual/linux_command_line.rst:83
 msgid ""
@@ -144,11 +146,11 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:85
 msgid "``krita --template templatename.desktop``"
-msgstr ""
+msgstr "``krita --template назва_шаблона.desktop``"
 
 #: ../../reference_manual/linux_command_line.rst:91
 msgid "Selects the template option"
-msgstr ""
+msgstr "Вибір шаблона"
 
 #: ../../reference_manual/linux_command_line.rst:93
 msgid ""
@@ -158,11 +160,11 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:95
 msgid "``krita --template BD-EuroTemplate.desktop``"
-msgstr ""
+msgstr "``krita --template BD-EuroTemplate.desktop``"
 
 #: ../../reference_manual/linux_command_line.rst:97
 msgid "This opens the European BD comic template with Krita."
-msgstr ""
+msgstr "Ця команда відкриває шаблон коміксів European BD за допомогою Krita."
 
 #: ../../reference_manual/linux_command_line.rst:99
 msgid "``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``"
@@ -170,7 +172,7 @@ msgstr "``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``"
 
 #: ../../reference_manual/linux_command_line.rst:101
 msgid "This opens the European BD template twice, in separate documents."
-msgstr ""
+msgstr "Ця команда відкриває шаблон European BD двічі, в окремих документах."
 
 #: ../../reference_manual/linux_command_line.rst:104
 msgid "Start up"
@@ -178,11 +180,11 @@ msgstr "Запуск"
 
 #: ../../reference_manual/linux_command_line.rst:112
 msgid "starts krita without showing the splash screen."
-msgstr ""
+msgstr "Запускає Krita без показу вікна вітання."
 
 #: ../../reference_manual/linux_command_line.rst:116
 msgid "starts krita in canvasonly mode."
-msgstr ""
+msgstr "Запускає Krita у режимі показу лише полотна."
 
 #: ../../reference_manual/linux_command_line.rst:120
 msgid "starts krita in fullscreen mode."
@@ -190,12 +192,12 @@ msgstr "запускає krita у повноекранному режимі."
 
 #: ../../reference_manual/linux_command_line.rst:124
 msgid "starts krita with the given workspace. So for example..."
-msgstr ""
+msgstr "Запускає krita із вказаним робочим простором. Отже, наприклад…"
 
 #: ../../reference_manual/linux_command_line.rst:126
 msgid "`` krita --workspace Animation``"
-msgstr ""
+msgstr "`` krita --workspace Animation``"
 
 #: ../../reference_manual/linux_command_line.rst:128
 msgid "Starts Krita in the Animation workspace."
-msgstr ""
+msgstr "Запускає Krita із робочим простором Animation."

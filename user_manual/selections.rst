@@ -30,8 +30,8 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
     :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use :kbd:`Shift + Z` to undo last point.
     :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
     :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool                                                                                                                                                   
-    :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color, Adjust the fuzziness to allow more changes in the field of color, by default limited to the current layer."
-    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with enter or connecting back to the first point."
+    :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color. Adjust the :guilabel:`Fuzziness` to allow more changes in the field of color, by default limited to the current layer."
+    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with :kbd:`Enter` or connecting back to the first point."
 
 .. note::
     
@@ -100,14 +100,15 @@ You can enter the global selection mask mode quickly from the selection tools by
 Selection from layer transparency
 ---------------------------------
 
-You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting :menuselection:`Select Opaque` from the context menu.
+
+You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting :guilabel:`Select Opaque` from the context menu.
 
 .. versionadded:: 4.2
 
     You can also do this for adding, subtracting and intersecting by going to :menuselection:`Select --> Select Opaque`, where you can find specific actions for each.
 
     If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft|, to remove :kbd:`Ctrl + Alt +` |mouseleft| and to intersect :kbd:`Ctrl + Shift + Alt` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
-    
+
 
 Pixel and Vector Selection Types
 --------------------------------
@@ -118,10 +119,9 @@ Vector selections allow you to modify your selection with vector anchor tools. P
 
 When creating a selection, you can select what type of selection you want from the Mode in the selection tool options: Pixel or Vector. By default this will be a vector.
 
-Vector selections can be modified as any other :ref:`vector shape <vector_graphics>` with the :ref:`shape_selection_tool`, if you try to paint on a vector selection mask it will be converted into a pixel selection. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the selections menu. Krita will add a new vector layer for this shape.
+Vector selections can be modified as any other :ref:`vector shape <vector_graphics>` with the :ref:`shape_selection_tool`, if you try to paint on a vector selection mask it will be converted into a pixel selection. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the :guilabel:`Selection` menu. Krita will add a new vector layer for this shape.
 
 One of the most common reasons to use vector selections is that they give you the ability to move and transform a selection without the kind of resize artifacts you get with a pixel selection. You can also use the :ref:`shape_edit_tool` to change the anchor points in the selection, allowing you to precisely adjust bezier curves or add corners to rectangular selections.
-
 
 If you started with a pixel selection, you can still convert it to a
 vector selection to get these benefits. Go to :menuselection:`Select --> Convert to Vector Selection`.

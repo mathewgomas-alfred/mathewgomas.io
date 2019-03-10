@@ -22,7 +22,7 @@ There are a few steps involved:
 
 3. Convert the color space to 8bit sRGB (if it isn't yet). This is important to lower the filesize, and PNG for example can't take higher than 16bit. :menuselection:`Image --> Convert Image Color Space` and set the options to **RGB**, **8bit** and **sRGB-elle-v2-srgbtrc.icc** respectively. If you are coming from a linear space, uncheck **little CMS** optimisations
 
-4. Resize! Go to :menuselection:`Image --> Scale image to new size` or use :kbd:`Ctrl` + :kbd:`Alt` + :kbd:`I`. This calls up the resize menu. A good rule of thumb for resizing is that you try to get both sizes to be less than 1200 pixels. (This being the size of HD formats). You can easily get there by setting the **Resolution** under **Print Pize** to **72** dots per inch. Then press **OK** to have everything resized.
+4. Resize! Go to :menuselection:`Image --> Scale Image To New Size` or use :kbd:`Ctrl` + :kbd:`Alt` + :kbd:`I`. This calls up the resize menu. A good rule of thumb for resizing is that you try to get both sizes to be less than 1200 pixels. (This being the size of HD formats). You can easily get there by setting the **Resolution** under **Print Size** to **72** dots per inch. Then press **OK** to have everything resized.
 
 5. Save as a web-safe image format. There's three that are especially recommended:
 
@@ -46,6 +46,6 @@ Saving with Transparency
 
 .. image:: /images/en/Save_with_transparency.png
 
-Saving with transparency is only possible with gif and png. First, make sure you see the transparency checkers(this can be done by simply hiding the bottom layers, changing the projection color in :menuselection:`Image --> Image Background Color and Transparency`, or by using :menuselection:`Filters --> Color --> Color to Alpha`. Then, save as PNG and tick **Store Alpha Channel**
+Saving with transparency is only possible with gif and png. First, make sure you see the transparency checkers (this can be done by simply hiding the bottom layers, changing the projection color in :menuselection:`Image --> Image Background Color and Transparency`, or by using :menuselection:`Filters --> Colors --> Color to Alpha`). Then, save as PNG and tick **Store alpha channel (transparency)**
 
 Save your image, upload, and show it off!

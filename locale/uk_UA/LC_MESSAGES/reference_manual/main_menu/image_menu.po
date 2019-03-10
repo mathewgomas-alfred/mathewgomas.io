@@ -6,11 +6,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___main_menu___image_menu\n"
+"Project-Id-Version: docs_krita_org_reference_manual___main_menu___image_menu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-21 19:57+0200\n"
+"PO-Revision-Date: 2019-03-09 20:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -66,6 +65,8 @@ msgid ""
 "Trims all layers to the image size. Useful for reducing filesize at the loss "
 "of information."
 msgstr ""
+"Обрізати усі шари за розміром зображення. Корисно для зменшення розміру"
+" файла, але із втратою частини даних."
 
 #: ../../reference_manual/main_menu/image_menu.rst:26
 msgid "Trim to Current Layer"
@@ -76,6 +77,8 @@ msgid ""
 "A lazy cropping function. Krita will use the size of the current layer to "
 "determine where to crop."
 msgstr ""
+"Функція «лінивого» обрізання. Krita використає розміри поточного шару для"
+" визначення меж області обрізання."
 
 #: ../../reference_manual/main_menu/image_menu.rst:28
 msgid "Trim to Selection"
@@ -85,6 +88,7 @@ msgstr "Обрізати до позначеного"
 msgid ""
 "A lazy cropping function. Krita will crop the canvas to the selected area."
 msgstr ""
+"Функція «лінивого» обрізання. Krita обріже полотно до позначеної області."
 
 #: ../../reference_manual/main_menu/image_menu.rst:30
 msgid "Rotate Image"
@@ -100,7 +104,7 @@ msgstr "Перекосити зображення"
 
 #: ../../reference_manual/main_menu/image_menu.rst:33
 msgid "Shear the image"
-msgstr ""
+msgstr "Перекосити зображення."
 
 #: ../../reference_manual/main_menu/image_menu.rst:34
 msgid "Mirror Image Horizontally"
@@ -108,7 +112,7 @@ msgstr "Віддзеркалити зображення горизонтальн
 
 #: ../../reference_manual/main_menu/image_menu.rst:35
 msgid "Mirror the image on the horizontal axis."
-msgstr ""
+msgstr "Віддзеркалити зображення горизонтально."
 
 #: ../../reference_manual/main_menu/image_menu.rst:36
 msgid "Mirror Image Vertically"
@@ -116,15 +120,17 @@ msgstr "Віддзеркалити зображення вертикально"
 
 #: ../../reference_manual/main_menu/image_menu.rst:37
 msgid "Mirror the image on the vertical axis."
-msgstr ""
+msgstr "Віддзеркалити зображення вертикально."
 
 #: ../../reference_manual/main_menu/image_menu.rst:38
 msgid "Scale to New Size"
-msgstr ""
+msgstr "Змінити розмір на інший"
 
 #: ../../reference_manual/main_menu/image_menu.rst:39
 msgid "The resize function in any other program :kbd:`Ctrl + Alt + I`"
 msgstr ""
+"Функціональна можливість зміни розміру у будь-якій іншій програмі, :kbd:`Ctrl"
+" + Alt + I`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:40
 msgid "Offset Image"
@@ -132,7 +138,7 @@ msgstr "Змістити зображення"
 
 #: ../../reference_manual/main_menu/image_menu.rst:41
 msgid "Offset all layers."
-msgstr ""
+msgstr "Зсунути усі шари."
 
 #: ../../reference_manual/main_menu/image_menu.rst:42
 msgid "Resize Canvas"
@@ -141,6 +147,8 @@ msgstr "Змінити розміри полотна"
 #: ../../reference_manual/main_menu/image_menu.rst:43
 msgid "Change the canvas size. Don't confuse this with Scale to new size."
 msgstr ""
+"Змінити розмір полотна. Не плутайте цю дію із дією :guilabel:`Змінити розмір"
+" на інший`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:44
 msgid "Image Split"
@@ -148,7 +156,7 @@ msgstr "Поділ зображень"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
 msgid "Splits the image."
-msgstr ""
+msgstr "Розділити зображення."
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
 msgid "Wavelet Decompose"
@@ -156,8 +164,8 @@ msgstr "Розклад на вейвлети"
 
 #: ../../reference_manual/main_menu/image_menu.rst:47
 msgid "Does :ref:`wavelet_decompose` on the current layer."
-msgstr ""
+msgstr "Виконує дію :ref:`wavelet_decompose` над поточним шаром."
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
 msgid "Separates the image into channels"
-msgstr ""
+msgstr "Розділити зображення на канали."
