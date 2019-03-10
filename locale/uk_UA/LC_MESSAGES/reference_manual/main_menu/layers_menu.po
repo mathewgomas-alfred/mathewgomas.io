@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___main_menu___layers_menu\n"
+"Project-Id-Version: docs_krita_org_reference_manual___main_menu___layers_menu"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-25 21:51+0200\n"
+"PO-Revision-Date: 2019-03-09 20:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -38,6 +38,8 @@ msgid ""
 "These are the topmenu options are related to Layer Management, check out "
 "that page first, if you haven't."
 msgstr ""
+"Це пункти основного меню, які пов'язано із керуванням шарами. Спочатку"
+" ознайомтеся із цією сторінкою, якщо ви цього ще не зробили."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:20
 msgid "Cut Layer (3.0+)"
@@ -62,6 +64,7 @@ msgstr "Вставити шар (3.0+)"
 #: ../../reference_manual/main_menu/layers_menu.rst:25
 msgid "Pastes the whole layer if any of the top two actions have been taken."
 msgstr ""
+"Вставити увесь шар після виконання будь-якої з двох наведених вище дій."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:27
 #: ../../reference_manual/main_menu/layers_menu.rst:41
@@ -71,7 +74,7 @@ msgstr ""
 #: ../../reference_manual/main_menu/layers_menu.rst:102
 #: ../../reference_manual/main_menu/layers_menu.rst:118
 msgid "Organizes the following actions:"
-msgstr ""
+msgstr "Містити такі підпункти:"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:29
 msgid "Paint Layer"
@@ -95,7 +98,7 @@ msgstr "Дублювати шар або маску"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:34
 msgid "Duplicates the layer."
-msgstr ""
+msgstr "Дублювати шар."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:35
 msgid "Cut Selection to New Layer"
@@ -103,7 +106,7 @@ msgstr "Вирізати позначене до нового шару"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:36
 msgid "Single action for cut+paste"
-msgstr ""
+msgstr "Об'єднаний пункт для дії вирізати+вставити."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:38
 msgid "New"
@@ -115,15 +118,15 @@ msgstr "Скопіювати позначене до нового шару"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:38
 msgid "Single action for copy+paste"
-msgstr ""
+msgstr "Об'єднаний пункт для дії копіювати+вставити."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:43
 msgid "Save Layer or Mask"
-msgstr ""
+msgstr "Зберегти шар або маску"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:44
 msgid "Saves the Layer or Mask as a separate image."
-msgstr ""
+msgstr "Зберегти шар або маску як окреме зображення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:45
 msgid "Save Vector Layer as SVG"
@@ -131,7 +134,7 @@ msgstr "Зберегти векторний шар як SVG"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:46
 msgid "Save the currently selected vector layer as an SVG."
-msgstr ""
+msgstr "Зберегти поточний позначений векторний шар як SVG."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:47
 msgid "Save Group Layers"
@@ -139,7 +142,7 @@ msgstr "Зберегти групи шарів"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:48
 msgid "Saves the top-level group layers as single-layer images."
-msgstr ""
+msgstr "Зберегти групу шарів верхнього рівня як зображення із одним шаром."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:49
 msgid "Import Layer"
@@ -147,13 +150,15 @@ msgstr "Імпортувати шар"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:50
 msgid "Import an image as a layer into the current file."
-msgstr ""
+msgstr "Імпортувати зображення як шар до поточного файла."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:52
 msgid ""
 "Import an image as a specific layer type. The following layer types are "
 "supported:"
 msgstr ""
+"Імпортувати зображення як шар вказаного типу. Передбачено підтримку таких"
+" типів шарів:"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:54
 msgid "Paint layer"
@@ -184,15 +189,15 @@ msgstr "Маска вибору"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:62
 msgid "Convert a layer to..."
-msgstr ""
+msgstr "Перетворити шар на…"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:64
 msgid "Convert to Paint Layer"
-msgstr ""
+msgstr "Перетворити на шар малювання"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:65
 msgid "Convert a mask or vector layer to a paint layer."
-msgstr ""
+msgstr "Перетворити маску або векторний шар на шар малювання."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:67
 msgid ""
@@ -200,12 +205,18 @@ msgid ""
 "grayscale first, and these grayscale values are used to drive the "
 "transparency."
 msgstr ""
+"Перетворити шар на маску прозорості. Зображення спочатку буде перетворено на"
+" зображення у відтінках сірого, а потім ці значення відтінків сірого буде"
+" використано для створення прозорості."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:69
 msgid ""
 "Convert a layer to a filter mask. The image will be converted to grayscale "
 "first, and these grayscale values are used to drive the filter effect area."
 msgstr ""
+"Перетворити шар на маску фільтрування. Зображення спочатку буде перетворено"
+" на зображення у відтінках сірого, потім отримані значення буде використано"
+" для визначення області застосування ефекту фільтрування."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:71
 msgid ""
@@ -213,6 +224,9 @@ msgid ""
 "grayscale first, and these grayscale values are used to drive the selected "
 "area."
 msgstr ""
+"Перетворити шар на маску вибору. Зображення спочатку буде перетворено на"
+" зображення у відтінках сірого, а потім ці значення відтінків сірого буде"
+" використано для визначення області позначення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:72
 msgid "Convert Group to Animated Layer"
@@ -223,6 +237,7 @@ msgid ""
 "This takes the images in the group layer and makes them into frames of an "
 "animated layer."
 msgstr ""
+"Використати зображення у групі шарів і зробити з них кадри анімованого шару."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert"
@@ -234,7 +249,7 @@ msgstr "Перетворити простір кольорів шару"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "This only converts the color space of the layer, not the image."
-msgstr ""
+msgstr "Перетворити простір кольорів шару, а не усього зображення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:80
 msgid "All layers"
@@ -258,7 +273,7 @@ msgstr "Невидимі шари"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:85
 msgid "Select all invisible layers, useful for cleaning up a sketch."
-msgstr ""
+msgstr "Позначити усі невидимі шари. Корисно для чищення ескіза."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:86
 msgid "Locked Layers"
@@ -286,7 +301,7 @@ msgstr "Швидко згрупувати (3.0+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:95
 msgid "Adds all selected layers to a group."
-msgstr ""
+msgstr "Додати усі позначені шари до групи."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:96
 msgid "Quick Clipping Group (3.0+)"
@@ -297,6 +312,7 @@ msgid ""
 "Adds all selected layers to a group and adds a alpha-inherited layer above "
 "it."
 msgstr ""
+"Додати позначені шари до групи і додати шар успадкованої прозорості над ними."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:99
 msgid "Group"
@@ -308,7 +324,7 @@ msgstr "Швидко розгрупувати"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:99
 msgid "Ungroups the activated layer."
-msgstr ""
+msgstr "Розгрупувати активований шар."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:104
 msgid "Mirror Layer Horizontally"
@@ -316,7 +332,7 @@ msgstr "Віддзеркалити шар горизонтально"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:105
 msgid "Mirror the layer horizontally using the image center."
-msgstr ""
+msgstr "Віддзеркалити шар горизонтально відносного центра зображення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:106
 msgid "Mirror Layer Vertically"
@@ -324,7 +340,7 @@ msgstr "Віддзеркалити шар вертикально"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:107
 msgid "Mirror the layer vertically using the image center."
-msgstr ""
+msgstr "Віддзеркалити шар вертикально відносного центра зображення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:108
 msgid "Rotate"
@@ -332,7 +348,7 @@ msgstr "Обернути"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:109
 msgid "Rotate the layer around the image center."
-msgstr ""
+msgstr "Обернути шар відносно центра зображення."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:110
 msgid "Scale Layer"
@@ -344,6 +360,8 @@ msgstr ""
 msgid ""
 "Scale the layer by the given amounts using the given interpolation filter."
 msgstr ""
+"Масштабувати шар за вказаним значенням, використовуючи заданий фільтр"
+" інтерполяції."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:112
 msgid "Shear Layer"
@@ -351,7 +369,7 @@ msgstr "Перекосити шар"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:113
 msgid "Shear the layer pixels by the given X and Y angles."
-msgstr ""
+msgstr "Перекосити пікселі шару за вказаними кутами повороту X та Y."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Transform"
@@ -363,7 +381,7 @@ msgstr "Змістити шар"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset the layer pixels by a given amount."
-msgstr ""
+msgstr "Зсунути пікселі шару на вказаний вектор."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:120
 msgid "Split Alpha"
@@ -374,6 +392,8 @@ msgid ""
 "Split the image transparency into a mask. This is useful when you wish to "
 "edit the transparency separately."
 msgstr ""
+"Відокремити прозорі області зображення у маску. Корисно, якщо ви хочете"
+" виконати редагування прозорих ділянок окремо."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:122
 msgid "Split Layer"
@@ -381,7 +401,7 @@ msgstr "Поділ шару"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
 msgid "Split the layer into given color fields."
-msgstr ""
+msgstr "Розділити шар на задані поля кольорів."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid "Split..."
@@ -396,6 +416,8 @@ msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
 "making."
 msgstr ""
+"Складна функціональна можливість для створення шарів-клонів для пришвидшення"
+" створення спрайтів."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
 msgid "Edit Metadata"
@@ -403,7 +425,7 @@ msgstr "Змінити метадані"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:128
 msgid "Each layer can have its own metadata."
-msgstr ""
+msgstr "У кожного шару можуть бути власні метадані."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:129
 msgid "Histogram"
@@ -411,7 +433,7 @@ msgstr "Гістограма"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
-msgstr ""
+msgstr "Показати гістограму."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:131
 msgid "Merge With Layer Below"
@@ -419,7 +441,7 @@ msgstr "Об'єднати з шаром нижче"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:132
 msgid "Merge a layer down."
-msgstr ""
+msgstr "Об'єднати шар із нижнім."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:133
 msgid "Flatten Layer"
@@ -427,7 +449,7 @@ msgstr "Звести шар"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:134
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
-msgstr ""
+msgstr "Звести групу шарів або звести маски до будь-якого іншого шару."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:135
 msgid "Rasterize Layer"
@@ -435,7 +457,7 @@ msgstr "Растеризувати шар"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "For making vectors into raster layers."
-msgstr ""
+msgstr "Для перетворення векторних шарів на растрові."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Flatten Image"
@@ -445,8 +467,8 @@ msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten all layers into one."
-msgstr ""
+msgstr "Зводить усі шари у один."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Set the PS-style layerstyle"
-msgstr ""
+msgstr "Встановити стиль шарів у форматі Photoshop."
