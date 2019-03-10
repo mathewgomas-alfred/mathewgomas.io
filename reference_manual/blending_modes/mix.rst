@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard Overlay, Normal, Overlay and Parallel.
+        Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard Overlay, Interpolation, Interpolation2x, Normal, Overlay, Parallel, Penumbra A, B, C and D.
 
 .. metadata-placeholder
 
@@ -38,7 +38,7 @@ Interpolation
 Subtract 0.5f by 1/4 of cosine of base layer subtracted by 1/4 of cosine of blend layer assuming 0-1 range.
 The result is similar to Allanon mode, but with more contrast and functional difference to 50% opacity.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Interpolation_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Interpolation**.
@@ -51,10 +51,10 @@ Interpolation - 2X
 
 Applies Interpolation blend mode to base and blend layers, then duplicate to repeat interpolation blending.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Interpolation_X2_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Allanon**.
+   Left: **Normal**. Right: **Interpolation - 2X**.
 
 .. index:: ! Alpha Darken
 .. _bm_alpha_darken:
@@ -246,10 +246,10 @@ Penumbra A
 
 Creates a linear penumbra falloff. This means most tones will be in the midtone ranges.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Penumbra_A_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Parallel**.
+   Left: **Normal**. Right: **Penumbra A**.
    
 .. index:: ! Penumbra B
 .. _bm_penumbra_b:
@@ -259,10 +259,10 @@ Penumbra B
 
 Penumbra A with source and destination layer swapped.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Penumbra_B_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Parallel**.
+   Left: **Normal**. Right: **Penumbra B**.
    
 .. index:: ! Penumbra C
 .. _bm_penumbra_c:
@@ -272,10 +272,10 @@ Penumbra C
 
 Creates a penumbra-like falloff using arc-tangent formula. This means most tones will be in the midtone ranges.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Penumbra_C_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Parallel**.
+   Left: **Normal**. Right: **Penumbra C**.
    
 .. index:: ! Penumbra D
 .. _bm_penumbra_d:
@@ -285,7 +285,7 @@ Penumbra D
 
 Penumbra C with source and destination layer swapped.
 
-.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Penumbra_D_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Parallel**.
+   Left: **Normal**. Right: **Penumbra D**.
