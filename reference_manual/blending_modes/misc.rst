@@ -40,7 +40,7 @@ Copy
 Copies the previous layer exactly.
 Useful for when using filters and filter-masks.
 
-.. figure:: /images/blending_modes/Blending_modes_Copy_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/misc/Blending_modes_Copy_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Copy**.
@@ -58,7 +58,7 @@ Specifically, it will take the specific channel from the upper layer and copy th
 
 So, if you want the brush to only affect the red channel, set the blending mode to 'copy red'.
 
-.. figure:: /images/blending_modes/Krita_Filter_layer_invert_greenchannel.png
+.. figure:: /images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel.png
    :align: center
    :figwidth: 500
 
@@ -66,19 +66,19 @@ So, if you want the brush to only affect the red channel, set the blending mode 
 
 This can also be done with filter layers. So if you quickly want to flip a layer's green channel, make an invert filter layer with 'copy green' above it.
 
-.. figure:: /images/blending_modes/Blending_modes_Copy_Red_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/misc/Blending_modes_Copy_Red_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Copy Red**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Copy_Green_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/misc/Blending_modes_Copy_Green_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Copy Green**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Copy_Blue_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/misc/Blending_modes_Copy_Blue_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Copy Blue**.
@@ -91,7 +91,7 @@ Dissolve
 
 Instead of using transparency, this blending mode will use a random dithering pattern to make the transparent areas look sort of transparent.
 
-.. figure:: /images/blending_modes/Blending_modes_Dissolve_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/misc/Blending_modes_Dissolve_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Dissolve**.

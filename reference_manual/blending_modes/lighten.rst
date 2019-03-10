@@ -27,7 +27,7 @@ Similar to Divide.
 Inverts the top layer, and divides the lower layer by the inverted top layer.
 This results in a image with emphasized highlights, like Dodging would do in traditional darkroom photography.
 
-.. figure:: /images/blending_modes/Blending_modes_Color_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Color_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Color Dodge**.
@@ -40,7 +40,7 @@ Gamma Illumination
 
 Inverted Gamma Dark blending mode.
 
-.. figure:: /images/blending_modes/Blending_modes_Gamma_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Gamma_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Gamma Light**.
@@ -54,7 +54,7 @@ Gamma Light
 
 Outputs the upper layer as power of the lower layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Gamma_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Gamma_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Gamma Light**.
@@ -72,7 +72,7 @@ Hard light checks if the colour on the upperlayer has a lightness above 0.5. Unl
 
 Effectively, this decreases contrast.
 
-.. figure:: /images/blending_modes/Blending_modes_Hard_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Hard_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hard Light**.
@@ -84,7 +84,7 @@ Lighten
 
 With the darken, the upper layer's colors are checked for their lightness. Only if they are Lighter than the underlying color on the lower layer, will they be visible.
 
-.. figure:: /images/blending_modes/Blending_modes_Lighten_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Lighten_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Lighten**.
@@ -94,7 +94,7 @@ With the darken, the upper layer's colors are checked for their lightness. Only 
 Lighter Color
 ~~~~~~~~~~~~~
 
-.. figure:: /images/blending_modes/Blending_modes_Lighter_Color_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Lighter_Color_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Lighter Color**.
@@ -109,7 +109,7 @@ Exactly the same as :ref:`bm_addition`.
 
 Put in for compatibility purposes.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -121,7 +121,7 @@ Easy Dodge
 
 Aims to solve issues with Color Dodge blending mode by using a formula which falloff is similar to Dodge, but the falloff rate is softer. It is within the range of 0.0f and 1.0f unlike Color Dodge mode.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -133,7 +133,7 @@ Flatlight
 
 The spreadout variation of Vivid Light mode which range is between 0.0f and 1.0f.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -145,7 +145,7 @@ Fog Lighten (IFS Illusions)
 
 Lightens the image in a way that there is a 'fog' in the end result. This is due to the unique property of fog lighten in which midtones combined are lighter than non-midtones blend.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -159,17 +159,17 @@ Similar to :ref:`bm_overlay`.
 
 Combines :ref:`bm_linear_dodge` and :ref:`bm_linear_burn`. When the lightness of the upper-pixel is higher than 0.5, it uses Linear dodge, if not, Linear burn to blend the pixels.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Linear Light**.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Light_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Light_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Linear Light**.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Light**.
@@ -181,7 +181,7 @@ P-Norm A
 
 P-Norm A is similar to Screen blending mode which slightly darken images, and the falloff is more consistent all-around in terms of outline of values. Can be used an alternative to screen blending mode at times.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -193,7 +193,7 @@ P-Norm B
 
 P-Norm B is similar to Screen blending mode which slightly darken images, and the falloff is more consistent all-around in terms of outline of values. The falloff is sharper in P-Norm B than in P-Norm A. Can be used an alternative to screen blending mode at times.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -206,17 +206,17 @@ Pin Light
 Checks which is darker the lower layer's pixel or the upper layer's double so bright.
 Then checks which is brighter of that result or the inversion of the doubled lower layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Pin Light**.
 
-.. figure:: /images/blending_modes/Blending_modes_Pin_Light_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Pin_Light_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Pin Light**.
 
-.. figure:: /images/blending_modes/Blending_modes_Pin_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Pin_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Pin Light**.
@@ -232,17 +232,17 @@ Mathematically, Screen takes both layers, inverts them, then multiplies them, an
 
 This results in light tones being more opaque and dark tones transparent.
 
-.. figure:: /images/blending_modes/Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Screen**.
 
-.. figure:: /images/blending_modes/Blending_modes_Screen_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Screen_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Screen**.
 
-.. figure:: /images/blending_modes/Blending_modes_Screen_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Screen_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Screen**.
@@ -256,13 +256,13 @@ These are less harsh versions of Hard Light, not resulting in full black or full
 
 The SVG version is slightly different to the Photoshop version in that it uses a slightly different bit of formula when the lightness of the lower pixel is lower than 25%, this prevents the strength of the brightness increase.
 
-.. figure:: /images/blending_modes/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Soft Light (Photoshop)**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Soft Light (SVG)**.
@@ -272,13 +272,13 @@ Soft Light (IFS Illusions) & Soft Light (Pegtop-Delphi)
 
 These are alternative versions of standard softlight modes which are made to solve discontinuities seen with the standard blend modes. Sometimes, these modes offer subtle advantages by offering more contrast within some areas, and these advantages are more or less noticeable within different color spaces and depth. 
 
-.. figure:: /images/blending_modes/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Soft Light (IFS Illusions)**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Soft Light (Pegtop-Delphi)**.
@@ -290,7 +290,7 @@ Super Light
 
 Smoother variation of Hard Light blending mode with more contrast in it.
 
-.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Vivid_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Vivid Light**.
@@ -302,7 +302,7 @@ Tint (IFS Illusions)
 
 Basically, the blending mode only ends in shades of tints. This means that it's very useful for painting light colors while still in the range of tints.
 
-.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Vivid_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Vivid Light**.
@@ -320,7 +320,7 @@ Mixes both Color Dodge and Burn blending modes. If the color of the upper layer 
 
     This algorithm doesn't use color dodge and burn, we don't know WHAT it does do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`
 
-.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/lighten/Blending_modes_Vivid_Light_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Vivid Light**.

@@ -24,7 +24,7 @@ Allanon
 Blends the upper layer as half-transparent with the lower.
 (It add the two layers together and then halves the value)
 
-.. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Allanon**.
@@ -38,7 +38,7 @@ Interpolation
 Subtract 0.5f by 1/4 of cosine of base layer subtracted by 1/4 of cosine of blend layer assuming 0-1 range.
 The result is similar to Allanon mode, but with more contrast and functional difference to 50% opacity.
 
-.. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Interpolation**.
@@ -51,7 +51,7 @@ Interpolation - 2X
 
 Applies Interpolation blend mode to base and blend layers, then duplicate to repeat interpolation blending.
 
-.. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Allanon**.
@@ -64,7 +64,7 @@ Alpha Darken
 
 As far as I can tell this seems to premultiply the alpha, as is common in some file-formats.
 
-.. figure:: /images/blending_modes/Blending_modes_Alpha_Darken_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Alpha_Darken_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Alpha Darken**.
@@ -77,7 +77,7 @@ Behind
 
 Does the opposite of normal, and tries to have the upper layer rendered below the lower layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Behind_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Behind_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Behind**.
@@ -90,7 +90,7 @@ Erase
 
 This subtracts the opaque pixels of the upper layer from the lower layer, effectively erasing.
 
-.. figure:: /images/blending_modes/Blending_modes_Erase_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Erase_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Erase**.
@@ -103,7 +103,7 @@ Geometric Mean
 
 This blending mode multiplies the top layer with the bottom, and then outputs the square root of that.
 
-.. figure:: /images/blending_modes/Blending_modes_Geometric_Mean_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Geometric_Mean_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Geometric Mean**.
@@ -116,7 +116,7 @@ Grain Extract
 
 Similar to subtract, the colors of the upper layer are subtracted from the colors of the lower layer, and then 50% grey is added.
 
-.. figure:: /images/blending_modes/Blending_modes_Grain_Extract_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Grain_Extract_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Grain Extract**.
@@ -129,7 +129,7 @@ Grain Merge
 
 Similar to addition, the colors of the upper layer are added to the colors, and then 50% grey is subtracted.
 
-.. figure:: /images/blending_modes/Blending_modes_Grain_Merge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Grain_Merge_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Grain Merge**.
@@ -142,7 +142,7 @@ Greater
 
 A blending mode which checks whether the painted color is painted with a higher opacity than the existing colors. If so, it paints over them, if not, it doesn't paint at all.
 
-.. image:: /images/blending_modes/Greaterblendmode.gif
+.. image:: /images/blending_modes/mix/Greaterblendmode.gif
    :align: center
 
 .. index:: ! Hard Mix
@@ -155,7 +155,7 @@ Similar to Overlay.
 
 Mixes both Color Dodge and Burn blending modes. If the color of the upper layer is darker than 50%, the blending mode will be Burn, if not the blending mode will be Color Dodge.
 
-.. figure:: /images/blending_modes/Blending_modes_Hard_Mix_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Hard_Mix_Sample_image_with_dots.png
    :figwidth: 800
    :align: center
    
@@ -168,7 +168,7 @@ Hard Mix (Photoshop)
 
 This is the hard mix blending mode as it is implemented in photoshop.
 
-.. figure:: /images/blending_modes/Krita_4_0_hard_mix_ps.png
+.. figure:: /images/blending_modes/mix/Krita_4_0_hard_mix_ps.png
    :figwidth: 800
    :align: center
    
@@ -186,7 +186,7 @@ Hard Overlay
 
 Similar to Hard light but hard light use Screen when the value is above 50%. Divide gives better results than Screen, especially on floating point images..
 
-.. figure:: /images/blending_modes/Blending_modes_Hard_Overlay_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Hard_Overlay_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hard Overlay**.
@@ -201,7 +201,7 @@ As you may have guessed this is the default Blending mode for all layers.
 
 In this mode, the computer checks on the upper layer how transparent a pixel is, which colour it is, and then mixes the colour of the upper layer with the lower layer proportional to the transparency.
 
-.. figure:: /images/blending_modes/Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity.
@@ -218,7 +218,7 @@ Overlay checks if the colour on the upperlayer has a lightness above 0.5. If so,
 
 This is useful for deepening shadows and highlights.
 
-.. figure:: /images/blending_modes/Blending_modes_Overlay_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Overlay_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Overlay**.
@@ -233,7 +233,7 @@ This one first takes the percentage in two decimal behind the comma for both lay
 It then adds the two values.
 Divides 2 by the sum.
 
-.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Parallel**.
@@ -246,7 +246,7 @@ Penumbra A
 
 Creates a linear penumbra falloff. This means most tones will be in the midtone ranges.
 
-.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Parallel**.
@@ -259,7 +259,7 @@ Penumbra B
 
 Penumbra A with source and destination layer swapped.
 
-.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Parallel**.
@@ -272,7 +272,7 @@ Penumbra C
 
 Creates a penumbra-like falloff using arc-tangent formula. This means most tones will be in the midtone ranges.
 
-.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Parallel**.
@@ -285,7 +285,7 @@ Penumbra D
 
 Penumbra C with source and destination layer swapped.
 
-.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Parallel**.

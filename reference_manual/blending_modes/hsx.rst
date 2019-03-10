@@ -56,35 +56,35 @@ Color, HSV, HSI, HSL, HSY
 
 This takes the Luminosity/Value/Intensity/Lightness of the colours on the lower layer, and combines them with the Saturation and Hue of the upper pixels. We refer to Color HSY as 'Color' in line with other applications.
 
-.. figure:: /images/blending_modes/Blending_modes_Color_HSI_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSI_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Color HSI**.
 
-.. figure:: /images/blending_modes/Blending_modes_Color_HSI_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSI_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Color HSI**.
 
-.. figure:: /images/blending_modes/Blending_modes_Color_HSI_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSI_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Color HSI**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Color_HSL_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSL_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Color HSL**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Color_HSV_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSV_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Color HSV**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Color_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Color_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Color**.
@@ -101,25 +101,25 @@ Hue HSV, HSI, HSL, HSY
 Takes the saturation and tone of the lower layer and combines them with the hue of the upper-layer.
 Tone in this case being either Value, Lightness, Intensity or Luminosity.
 
-.. figure:: /images/blending_modes/Blending_modes_Hue_HSI_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Hue_HSI_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hue HSI**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Hue_HSL_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Hue_HSL_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hue HSL**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Hue_HSV_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Hue_HSV_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hue HSV**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Hue_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Hue_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Hue**.
@@ -136,25 +136,25 @@ Increase Value, Lightness, Intensity or Luminosity.
 Similar to lighten, but specific to tone.
 Checks whether the upper layer's pixel has a higher tone than the lower layer's pixel. If so, the intensity is increased, if not, the lower layer's tone is maintained.
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Intensity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Intensity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Intensity**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Lightness_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Lightness_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Lightness**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Value_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Value_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Value**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Luminosity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Luminosity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Luminosity**.
@@ -172,25 +172,25 @@ Increase Saturation HSI, HSV, HSL, HSY
 Similar to lighten, but specific to Saturation.
 Checks whether the upper layer's pixel has a higher Saturation than the lower layer's pixel. If so, the Saturation is increased, if not, the lower layer's Saturation is maintained.
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Saturation_HSI_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Saturation_HSI_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Saturation HSI**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Saturation_HSL_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Saturation_HSL_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Saturation HSL**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Saturation_HSV_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Saturation_HSV_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Saturation HSV**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Increase_Saturation_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Saturation_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Increase Saturation**.
@@ -203,7 +203,7 @@ Intensity
 
 Takes the Hue and Saturation of the Lower layer and outputs them with the intensity of the upper layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Intensity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Intensity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Intensity**.
@@ -215,7 +215,7 @@ Value
 
 Takes the Hue and Saturation of the Lower layer and outputs them with the Value of the upper layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Value_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Value_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Value**.
@@ -227,7 +227,7 @@ Lightness
 
 Takes the Hue and Saturation of the Lower layer and outputs them with the Lightness of the upper layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Lightness_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Lightness_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Lightness**.
@@ -241,7 +241,7 @@ As explained above, actually Luma, but called this way as it's in line with the 
 Takes the Hue and Saturation of the Lower layer and outputs them with the Luminosity of the upper layer. 
 The most preferred one of the four Tone blending modes, as this one gives fairly intuitive results for the Tone of a hue
 
-.. figure:: /images/blending_modes/Blending_modes_Luminosity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Luminosity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Luminosity**.
@@ -257,25 +257,25 @@ Saturation HSI, HSV, HSL, HSY
 
 Takes the Intensity and Hue of the lower layer, and outputs them with the HSI saturation of the upper layer.
 
-.. figure:: /images/blending_modes/Blending_modes_Saturation_HSI_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Saturation_HSI_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Saturation HSI**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Saturation_HSL_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Saturation_HSL_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Saturation HSL**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Saturation_HSV_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Saturation_HSV_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Saturation HSV**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Saturation_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Saturation_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Saturation**.
@@ -291,35 +291,35 @@ Decrease Value, Lightness, Intensity or Luminosity
 Similar to darken, but specific to tone.
 Checks whether the upper layer's pixel has a lower tone than the lower layer's pixel. If so, the tone is decreased, if not, the lower layer's tone is maintained.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Intensity_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Intensity_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Intensity**.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Intensity_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Intensity_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Intensity**.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Intensity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Intensity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Intensity**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Lightness_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Lightness_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Lightness**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Value_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Value_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Value**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Luminosity_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Luminosity_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Luminosity**.
@@ -336,35 +336,35 @@ Decrease Saturation HSI, HSV, HSL, HSY
 Similar to darken, but specific to Saturation.
 Checks whether the upper layer's pixel has a lower Saturation than the lower layer's pixel. If so, the Saturation is decreased, if not, the lower layer's Saturation is maintained.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_HSI_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_HSI_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation HSI**.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_HSI_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_HSI_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation HSI**.
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_HSI_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_HSI_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation HSI**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_HSL_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_HSL_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation HSL**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_HSV_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_HSV_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation HSV**.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Decrease_Saturation_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/hsx/Blending_modes_Decrease_Saturation_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Decrease Saturation**.

@@ -29,19 +29,19 @@ This results in a darkened effect that takes the colors of the lower layer into 
 
 1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, -0.2, -0.2) &rarr; Black(0, 0, 0)
 
-.. figure:: /images/blending_modes/Blending_modes_Burn_Gray_0.4_and_Gray_0.5_n.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Burn_Gray_0.4_and_Gray_0.5_n.png
    :align: center
 
    Left: **Normal**. Right: **Burn**.
 
 1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = (0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)
 
-.. figure:: /images/blending_modes/Blending_modes_Burn_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Burn_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Burn**.
 
-.. figure:: /images/blending_modes/Blending_modes_Burn_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Burn_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Burn**.
@@ -54,7 +54,7 @@ Easy Burn
 
 Aims to solve issues with Color Burn blending mode by using a formula which falloff is similar to Dodge, but the falloff rate is softer. It is within the range of 0.0f and 1.0f unlike Color Burn mode.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -67,7 +67,7 @@ Fog Darken (IFS Illusions)
 
 Darken the image in a way that there is a 'fog' in the end result. This is due to the unique property of fog darken in which midtones combined are lighter than non-midtones blend.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
@@ -82,19 +82,19 @@ With the darken, the upper layer's colors are checked for their lightness. Only 
 
 Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = (no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)
 
-.. figure:: /images/blending_modes/Blending_modes_Darken_Gray_0.4_and_Gray_0.5_n.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Darken_Gray_0.4_and_Gray_0.5_n.png
    :align: center
 
    Left: **Normal**. Right: **Darken**.
 
 Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? = (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)
 
-.. figure:: /images/blending_modes/Blending_modes_Darken_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Darken_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Darken**.
 
-.. figure:: /images/blending_modes/Blending_modes_Darken_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Darken_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Darken**.
@@ -105,7 +105,7 @@ Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? = (
 Darker Color
 ~~~~~~~~~~~~
 
-.. figure:: /images/blending_modes/Blending_modes_Darker_Color_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Darker_Color_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Darker Color**.
@@ -120,19 +120,19 @@ Divides 1 by the upper layer, and calculates the end result using that as the po
 
 Darker Gray(0.4, 0.4, 0.4)^[1 / Lighter Gray(0.5, 0.5, 0.5)] = Even Darker Gray(0.1600, 0.1600, 0.1600)
 
-.. figure:: /images/blending_modes/Blending_modes_Gamma_Dark_Gray_0.4_and_Gray_0.5_n.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Gamma_Dark_Gray_0.4_and_Gray_0.5_n.png
    :align: center
 
    Left: **Normal**. Right: **Gamma Dark**.
 
 Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = Green(0.1608, 0.4575, 0.0683)
 
-.. figure:: /images/blending_modes/Blending_modes_Gamma_Dark_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Gamma_Dark_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Gamma Dark**.
 
-.. figure:: /images/blending_modes/Blending_modes_Gamma_Dark_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Gamma_Dark_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Gamma Dark**.
@@ -147,19 +147,19 @@ Adds the values of the two layers together and then subtracts 1. Seems to produc
 
 [Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, -0.1000, -0.1000)  &rarr; Black(0, 0, 0)
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Burn_Gray_0.4_and_Gray_0.5.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Gray_0.4_and_Gray_0.5.png
    :align: center
 
    Left: **Normal**. Right: **Linear Burn**.
 
 [Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = (0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Burn_Light_blue_and_Orange.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Light_blue_and_Orange.png
    :align: center
 
    Left: **Normal**. Right: **Linear Burn**.
 
-.. figure:: /images/blending_modes/Blending_modes_Linear_Burn_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Linear Burn**.
@@ -167,13 +167,13 @@ Adds the values of the two layers together and then subtracts 1. Seems to produc
 .. index:: ! Shade
 .. _bm_shade:
 
-Tint (IFS Illusions)
-~~~~~~~~~~~~~~~~~~~~
+Shade (IFS Illusions)
+~~~~~~~~~~~~~~~~~~~~~
 
 Basically, the blending mode only ends in shades of shades. This means that it's very useful for painting shading colors while still in the range of shades.
 
 
-.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Vivid Light**.
