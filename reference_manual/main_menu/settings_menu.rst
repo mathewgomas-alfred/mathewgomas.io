@@ -35,7 +35,7 @@ Dockers
 
 Krita subdivides the access of many of its features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brushkit.  
 
-Learning to use dockers effectively is a key concept to maximizing your time using Krita.  
+Learning to use dockers effectively is a key concept to optimizing your time using Krita.  
 
 .. index:: Themes, Theme, Look and Feel
 

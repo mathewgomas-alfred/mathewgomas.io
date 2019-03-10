@@ -34,7 +34,7 @@ Multiplication (Operator: * )
     Usage: ``50*100``
     Output: ``5000``
 Division (Operator: / )
-    Just multiplies the numbers.
+    Just divides the numbers.
     Usage: ``50/100``
     Output: ``0.5``
 Exponent (Operator: ^ )

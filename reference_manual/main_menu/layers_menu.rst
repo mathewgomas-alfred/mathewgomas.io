@@ -15,7 +15,7 @@
 Layers
 ======
 
-These are the topmenu options are related to Layer Management, check out that page first, if you haven't.
+These are the topmenu options are related to Layer Management, check out :ref:`that page <layers_and_masks>` first, if you haven't.
 
 Cut Layer (3.0+)
     Cuts the whole layer rather than just the pixels.

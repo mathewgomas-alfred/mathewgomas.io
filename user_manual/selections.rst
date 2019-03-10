@@ -30,8 +30,8 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
     :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use :kbd:`Shift + Z` to undo last point.
     :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
     :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool                                                                                                                                                   
-    :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color, Adjust the fuzziness to allow more changes in the field of color, by default limited to the current layer."
-    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with enter or connecting back to the first point."
+    :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color. Adjust the :guilabel:`Fuzziness` to allow more changes in the field of color, by default limited to the current layer."
+    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with :kbd:`Enter` or connecting back to the first point."
 
 .. note::
     
@@ -89,7 +89,7 @@ saved as grayscale. You might want to switch to the Mask display mode if it is d
 Selection from layer transparency
 ---------------------------------
 
-You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting “Select Opaque” from the context menu.
+You can create a selection based on a layer's transparency by right-clicking on the layer in the layer docker and selecting :guilabel:`Select Opaque` from the context menu.
 
 Pixel and Vector Selection Types
 --------------------------------
@@ -102,7 +102,7 @@ When creating a selection, you can select what type of selection you
 want from the Mode in the selection tool options: Pixel or Vector.
 
 Vector selections can modify as any other vector shape with the
-“Shape Handle” tool, if you try to paint on a vector selection it will be converted into a pixel selection. Pixel selections can be painted with any tool. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the selections menu. Krita will add a new vector layer for this shape.
+“Shape Handle” tool, if you try to paint on a vector selection it will be converted into a pixel selection. Pixel selections can be painted with any tool. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the :guilabel:`Selection` menu. Krita will add a new vector layer for this shape.
 
 One of
 the most common reasons to use vector selections is that they give you
