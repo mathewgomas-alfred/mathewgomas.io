@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Page about the negative blending modes in Krita: Additive Subtractive, Arcus Tangent, Difference, Equivalence and Exclusion.
+        Page about the negative blending modes in Krita: Additive Subtractive, Arcus Tangent, Difference, Equivalence, Exclusion, Negation.
 
 .. metadata-placeholder
 
@@ -92,7 +92,7 @@ Negation
 
 The absolute of the 1.0f value subtracted by base subtracted by the blend layer. abs(1.0f - Base - Blend)
 
-.. figure:: /images/blending_modes/negative/Blending_modes_Exclusion_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/negative/Blending_modes_Negation_Sample_image_with_dots.png
    :align: center
 
    Left: **Normal**. Right: **Negation**.
