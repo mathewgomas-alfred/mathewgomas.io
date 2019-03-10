@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Page about the darken blending modes in Krita: Darken, Burn, Darker Color, Gamma Dark and Linear Burn.
+        Page about the darken blending modes in Krita: Darken, Burn, Easy Burn, Fog Darken, Darker Color, Gamma Dark, Linear Burn and Shade.
 
 .. metadata-placeholder
 
@@ -54,10 +54,10 @@ Easy Burn
 
 Aims to solve issues with Color Burn blending mode by using a formula which falloff is similar to Dodge, but the falloff rate is softer. It is within the range of 0.0f and 1.0f unlike Color Burn mode.
 
-.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Easy_Burn_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+   Left: **Normal**. Right: **Easy Burn**
    
 .. index:: ! Fog Darken
 .. _bm_fog_darken:
@@ -67,10 +67,10 @@ Fog Darken (IFS Illusions)
 
 Darken the image in a way that there is a 'fog' in the end result. This is due to the unique property of fog darken in which midtones combined are lighter than non-midtones blend.
 
-.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Fog_Darken_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+   Left: **Normal**. Right: **Fog Darken** (exactly the same as Addition).
 
 .. index:: ! Darken
 .. _bm_darken:
@@ -173,7 +173,7 @@ Shade (IFS Illusions)
 Basically, the blending mode only ends in shades of shades. This means that it's very useful for painting shading colors while still in the range of shades.
 
 
-.. figure:: /images/blending_modes/darken/Blending_modes_Linear_Burn_Sample_image_with_dots.png
+.. figure:: /images/blending_modes/darken/Blending_modes_Shade_Sample_image_with_dots.png
    :align: center
 
-   Left: **Normal**. Right: **Vivid Light**.
+   Left: **Normal**. Right: **Shade**.
