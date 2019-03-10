@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Maria Luisac
+             - Reptorian <reptillia39@live.com>
    :license: GNU free documentation license 1.3 or later.
 
 
@@ -30,6 +31,20 @@ This results in a image with emphasized highlights, like Dodging would do in tra
    :align: center
 
    Left: **Normal**. Right: **Color Dodge**.
+
+.. index:: ! Gamma Illumination
+.. _bm_gamma_illumination:
+
+Gamma Illumination
+~~~~~~~~~~~~~~~~~~
+
+Inverted Gamma Dark blending mode.
+
+.. figure:: /images/blending_modes/Blending_modes_Gamma_Light_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Gamma Light**.
+
 
 .. index:: ! Gamma Light
 .. _bm_gamma_light:
@@ -98,6 +113,42 @@ Put in for compatibility purposes.
    :align: center
 
    Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+   
+.. _bm_easy_dodge:
+   
+Easy Dodge
+~~~~~~~~~~
+
+Aims to solve issues with Color Dodge blending mode by using a formula which falloff is similar to Dodge, but the falloff rate is softer. It is within the range of 0.0f and 1.0f unlike Color Dodge mode.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+   
+.. _bm_flatlight:
+   
+Flatlight
+~~~~~~~~~
+
+The spreadout variation of Vivid Light mode which range is between 0.0f and 1.0f.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+
+.. _bm_fog_lighten:
+
+Fog Lighten (IFS Illusions)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lightens the image in a way that there is a 'fog' in the end result. This is due to the unique property of fog lighten in which midtones combined are lighter than non-midtones blend.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
 
 .. _bm_linear_light:
 
@@ -122,6 +173,30 @@ Combines :ref:`bm_linear_dodge` and :ref:`bm_linear_burn`. When the lightness of
    :align: center
 
    Left: **Normal**. Right: **Linear Light**.
+   
+.. _bm_p-norm_a:
+
+P-Norm A
+~~~~~~~~
+
+P-Norm A is similar to Screen blending mode which slightly darken images, and the falloff is more consistent all-around in terms of outline of values. Can be used an alternative to screen blending mode at times.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+
+.. _bm_p-norm_b:
+
+P-Norm B
+~~~~~~~~
+
+P-Norm B is similar to Screen blending mode which slightly darken images, and the falloff is more consistent all-around in terms of outline of values. The falloff is sharper in P-Norm B than in P-Norm A. Can be used an alternative to screen blending mode at times.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
 
 .. _bm_pin_light:
 
@@ -191,6 +266,46 @@ The SVG version is slightly different to the Photoshop version in that it uses a
    :align: center
 
    Left: **Normal**. Right: **Soft Light (SVG)**.
+
+Soft Light (IFS Illusions) & Soft Light (Pegtop-Delphi)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These are alternative versions of standard softlight modes which are made to solve discontinuities seen with the standard blend modes. Sometimes, these modes offer subtle advantages by offering more contrast within some areas, and these advantages are more or less noticeable within different color spaces and depth. 
+
+.. figure:: /images/blending_modes/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Soft Light (IFS Illusions)**.
+
+
+.. figure:: /images/blending_modes/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Soft Light (Pegtop-Delphi)**.
+   
+.. _bm_super_light:
+
+Super Light
+~~~~~~~~~~~
+
+Smoother variation of Hard Light blending mode with more contrast in it.
+
+.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Vivid Light**.
+
+.. _bm_tint:
+
+Tint (IFS Illusions)
+~~~~~~~~~~~~~~~~~~~~
+
+Basically, the blending mode only ends in shades of tints. This means that it's very useful for painting light colors while still in the range of tints.
+
+.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Vivid Light**.
 
 .. _bm_vivid_light:
 

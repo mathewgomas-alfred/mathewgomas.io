@@ -5,6 +5,7 @@
 .. metadata-placeholder
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+             - Reptorian <reptillia39@live.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Quadratic
@@ -37,6 +38,8 @@ The freeze blending mode. Inversion of the reflect blending mode.
 Freeze-Reflect
 ~~~~~~~~~~~~~~
 
+Mix of Freeze and Reflect blend mode.
+
 .. figure:: /images/blending_modes/Blending_modes_Q_Freeze_Reflect_Light_blue_and_Orange.png
    :align: center
 
@@ -46,6 +49,8 @@ Freeze-Reflect
 
 Glow
 ~~~~
+
+Reflect Blend Mode with source and destination layers swapped. 
 
 .. figure:: /images/blending_modes/Blending_modes_Q_Glow_Light_blue_and_Orange.png
    :align: center
@@ -57,6 +62,8 @@ Glow
 Glow-Heat
 ~~~~~~~~~
 
+Mix of Glow and Heat blend mode.
+
 .. figure:: /images/blending_modes/Blending_modes_Q_Glow_Heat_Light_blue_and_Orange.png
    :align: center
 
@@ -66,6 +73,9 @@ Glow-Heat
 
 Heat
 ~~~~
+
+The Heat Blend Mode. Inversion of the Glow Blend Mode.
+
 
 .. figure:: /images/blending_modes/Blending_modes_Q_Heat_Light_blue_and_Orange.png
    :align: center
@@ -77,6 +87,8 @@ Heat
 Heat-Glow
 ~~~~~~~~~
 
+Mix of Heat, and Glow blending mode.
+
 .. figure:: /images/blending_modes/Blending_modes_Q_Heat_Glow_Light_blue_and_Orange.png
    :align: center
 
@@ -86,6 +98,8 @@ Heat-Glow
 
 Heat-Glow and Freeze-Reflect Hybrid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Mix of the continuous quadratic blending modes. Very similar to overlay, and sometimes provides better result than overlay.
 
 .. figure:: /images/blending_modes/Blending_modes_Q_Heat_Glow_Freeze_Reflect_Light_blue_and_Orange.png
    :align: center
@@ -97,6 +111,8 @@ Heat-Glow and Freeze-Reflect Hybrid
 Reflect
 ~~~~~~~
 
+Reflect is essentially Color Dodge Blending mode with quadratic falloff.
+
 
 .. figure:: /images/blending_modes/Blending_modes_Q_Reflect_Light_blue_and_Orange.png
    :align: center
@@ -107,6 +123,8 @@ Reflect
 
 Reflect-Freeze
 ~~~~~~~~~~~~~~
+
+Mix of Reflect and Freeze blend mode.
 
 .. figure:: /images/blending_modes/Blending_modes_Q_Reflect_Freeze_Light_blue_and_Orange.png
    :align: center

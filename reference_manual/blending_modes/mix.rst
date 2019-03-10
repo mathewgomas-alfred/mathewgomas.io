@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Maria Luisac
+             - Reptorian <reptillia39@live.com>
    :license: GNU free documentation license 1.3 or later.
 
 
@@ -22,6 +23,33 @@ Allanon
 
 Blends the upper layer as half-transparent with the lower.
 (It add the two layers together and then halves the value)
+
+.. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Allanon**.
+
+.. index:: ! Interpolation
+.. _bm_interpolation:
+
+Interpolation
+~~~~~~~~~~~~~
+
+Subtract 0.5f by 1/4 of cosine of base layer subtracted by 1/4 of cosine of blend layer assuming 0-1 range.
+The result is similar to Allanon mode, but with more contrast and functional difference to 50% opacity.
+
+.. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Interpolation**.
+   
+.. index:: ! Interpolation2x
+.. _bm_interpolation2x:
+
+Interpolation - 2X
+~~~~~~~~~~~~~~~~~~
+
+Applies Interpolation blend mode to base and blend layers, then duplicate to repeat interpolation blending.
 
 .. figure:: /images/blending_modes/Blending_modes_Allanon_Sample_image_with_dots.png
    :align: center
@@ -210,3 +238,54 @@ Divides 2 by the sum.
 
    Left: **Normal**. Right: **Parallel**.
 
+.. index:: ! Penumbra A
+.. _bm_penumbra_a:
+
+Penumbra A
+~~~~~~~~~~
+
+Creates a linear penumbra falloff. This means most tones will be in the midtone ranges.
+
+.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Parallel**.
+   
+.. index:: ! Penumbra B
+.. _bm_penumbra_b:
+
+Penumbra B
+~~~~~~~~~~
+
+Penumbra A with source and destination layer swapped.
+
+.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Parallel**.
+   
+.. index:: ! Penumbra C
+.. _bm_penumbra_c:
+
+Penumbra C
+~~~~~~~~~~
+
+Creates a penumbra-like falloff using arc-tangent formula. This means most tones will be in the midtone ranges.
+
+.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Parallel**.
+   
+.. index:: ! Penumbra D
+.. _bm_penumbra_d:
+
+Penumbra D
+~~~~~~~~~~
+
+Penumbra C with source and destination layer swapped.
+
+.. figure:: /images/blending_modes/Blending_modes_Parallel_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Parallel**.

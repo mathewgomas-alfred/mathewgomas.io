@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Maria Luisac
+             - Reptorian <reptillia39@live.com>
    :license: GNU free documentation license 1.3 or later.
 
 
@@ -44,6 +45,32 @@ This results in a darkened effect that takes the colors of the lower layer into 
    :align: center
 
    Left: **Normal**. Right: **Burn**.
+
+.. index:: ! Easy Burn
+.. _bm_easy_burn:
+
+Easy Burn
+~~~~~~~~~
+
+Aims to solve issues with Color Burn blending mode by using a formula which falloff is similar to Dodge, but the falloff rate is softer. It is within the range of 0.0f and 1.0f unlike Color Burn mode.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
+   
+.. index:: ! Fog Darken
+.. _bm_fog_darken:
+   
+Fog Darken (IFS Illusions)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Darken the image in a way that there is a 'fog' in the end result. This is due to the unique property of fog darken in which midtones combined are lighter than non-midtones blend.
+
+.. figure:: /images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition).
 
 .. index:: ! Darken
 .. _bm_darken:
@@ -136,3 +163,17 @@ Adds the values of the two layers together and then subtracts 1. Seems to produc
    :align: center
 
    Left: **Normal**. Right: **Linear Burn**.
+   
+.. index:: ! Shade
+.. _bm_shade:
+
+Tint (IFS Illusions)
+~~~~~~~~~~~~~~~~~~~~
+
+Basically, the blending mode only ends in shades of shades. This means that it's very useful for painting shading colors while still in the range of shades.
+
+
+.. figure:: /images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Vivid Light**.

@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Maria Luisac
+             - Reptorian <reptillia39@live.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Negative
@@ -83,3 +84,15 @@ This multiplies the two layers, adds the source, and then subtracts the multiple
 
    Left: **Normal**. Right: **Exclusion**.
 
+.. index:: ! Negation
+.. _bm_negation:
+   
+Negation
+~~~~~~~~~
+
+The absolute of the 1.0f value subtracted by base subtracted by the blend layer. abs(1.0f - Base - Blend)
+
+.. figure:: /images/blending_modes/Blending_modes_Exclusion_Sample_image_with_dots.png
+   :align: center
+
+   Left: **Normal**. Right: **Negation**.
