@@ -88,8 +88,8 @@ to write a proper driver for each operating system.
 .. warning::
     Because drivers modify the operating system a little, you will always need to restart your computer when installing or deinstalling a driver, so don’t forget to do this! Conversely, because Krita isn’t a driver, you don’t need to even deinstall it to reset the configuration, just rename or delete the configuration file.
 
-Where it can go wrong
----------------------
+Where it can go wrong: Windows
+------------------------------
 
 Krita automatically connects to your tablet if the drivers are
 installed. When things go wrong, usually the problem isn't with Krita.
@@ -109,6 +109,22 @@ Windows 10 updates
 
 Sometimes a Windows 10 update can mess up tablet drivers. In that case,
 reinstalling the drivers should work.
+
+Wacom Tablets
+-------------
+
+There are two known problems with Wacom tablets and Windows. 
+
+The first is that if you have customized the driver settings, then sometimes,
+often after a driver update, but that is not necessary, the driver breaks.
+Resetting the driver to the default settings and then loading your settings
+from a backup will solve this problem.
+
+The second is that for some reason it might be necessary to change the display
+priority order. You might have to make your Cintiq screen your primary screen,
+or, on the other hand, make it the secondary screen. Double check in the Wacom
+settings utility that the tablet in the Cintiq is associated with the Cintiq
+screen.
 
 Broken Drivers
 ~~~~~~~~~~~~~~
