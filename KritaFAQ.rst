@@ -348,7 +348,7 @@ You can reset the Workspace by pressing the right most button on the toolbar, th
 
 Or you can right-click on any docker title bar or open space in any toolbar, and select Toolbox. It's the first option.
 
-Also, you can check the Settings menu, it has got a lot of interesting stuff, then go to the Dockers menu and select Toolbox.
+Also, you can check the :guilabel:`Settings` menu, it has got a lot of interesting stuff, then go to the Dockers menu and select :guilabel:`Toolbox`.
 
 Tool icons size is too big
 --------------------------
@@ -393,7 +393,7 @@ Right-click a brush in the brush docker and assign it a tag. Then right-click on
 Can Krita load Photoshop Brushes?
 ---------------------------------
 
-Yes, but there are limitations. You can load ABR files by using the by using the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the brush editor. Since Adobe hasn’t disclosed the file format specification, we depend on reverse-engineering to figure out what to load, and currently that’s limited to basic features.
+Yes, but there are limitations. You can load ABR files by using the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the brush editor. Since Adobe hasn’t disclosed the file format specification, we depend on reverse-engineering to figure out what to load, and currently that’s limited to basic features.
 
 Krita is slow
 =============
@@ -433,7 +433,7 @@ Slow Brushes
 Slowdown after a been working for a while
 -----------------------------------------
 
-Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of ram in :menuselection:`Settings --> Configure Krita --> Performance --> Advanced Tab`.
+Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of RAM in :menuselection:`Settings --> Configure Krita --> Performance --> Advanced Tab`.
 
 Tools
 =====

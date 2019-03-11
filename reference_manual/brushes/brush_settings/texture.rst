@@ -55,7 +55,7 @@ Cutoff
 
 Invert Pattern
     Invert the pattern.
-    
+
     .. image:: /images/en/Krita_2_9_brushengine_texture_06.png
 
 Brightness and Contrast

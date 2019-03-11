@@ -105,7 +105,7 @@ In-memory
         * For 1 second of 4K UltraHD@ 25 FPS, you will need 800 extra MiB of Memory.
 
 On-disk
-    Animation frames are stored in the hard disk in the same folder as the swap file. The cache is stored in a compressed way. A little amount of extra ram is needed.
+    Animation frames are stored in the hard disk in the same folder as the swap file. The cache is stored in a compressed way. A little amount of extra RAM is needed.
 
     Since data transfer speed of the hard drive is slow. You might want to limit the :guilabel:`Cached Frame Size` to be able to play your video at 25 fps. A limit of 2500 px is usually a good choice.
 
