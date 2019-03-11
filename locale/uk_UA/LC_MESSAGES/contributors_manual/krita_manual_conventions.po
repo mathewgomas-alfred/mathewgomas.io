@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_contributors_manual___krita_manual_conventions\n"
+"Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_conventi"
+"ons\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-03 08:22+0200\n"
+"PO-Revision-Date: 2019-03-10 21:04+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -246,12 +246,16 @@ msgid ""
 "Sometimes you need to link to a subsection of a page, add a label above the "
 "heading in that case."
 msgstr ""
+"Іноді потрібне посилання на підрозділ сторінки. Для створення такого"
+" посилання додайте мітку над заголовком."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:109
 msgid ""
 "Headers should not end with punctuation, as the header will be used as the "
 "link name when linking to a label."
 msgstr ""
+"Заголовки не повинні завершуватися символами пунктуації, оскільки заголовок"
+" буде використано як замінник посилання у тексті."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:112
 msgid "Linking"
@@ -262,12 +266,18 @@ msgid ""
 "Linking is done with ``:ref:`label_name```. When you need an alternative "
 "link text, you use ``:ref:`actual text shown <label_name>```."
 msgstr ""
+"Посилання слід вказувати так: ``:ref:`назва_мітки```. Якщо замість самої"
+" мітки має бути показано якийсь текст, користуйтеся таким форматом:"
+" ``:ref:`показаний текст <назва_мітки>```."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:116
 msgid ""
 "Linking to external pages is done with ```url`_`` and ```link name "
 "<url>`_``, which'll become `link name <url>`_."
 msgstr ""
+"Для посилань на зовнішні сторінки використовується команда ```адреса`_`` або"
+" ```назва посилання "
+"<адреса>`_``, яку буде показано так: `назва посилання <адреса>`_."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:118
 msgid ""
@@ -288,6 +298,8 @@ msgid ""
 "Footnotes can be made in 3 ways, the most common one is with autonumbering, "
 "as per reference:"
 msgstr ""
+"Підрядкові посилання можна створювати у три способи. Найпоширенішим є спосіб"
+" із автоматичною нумерацією посилань:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:125
 msgid ""
@@ -374,6 +386,8 @@ msgid ""
 "You can make text *emphasized* and **strong** with a single asterisk and "
 "double respectively::"
 msgstr ""
+"Ви можете робити фрагмент тексту *курсивним* або **напівжирним** за допомогою"
+" однією або двох зірочок, відповідно::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:182
 msgid "You cannot do both ***emphasized and strong***, so take a pick."
@@ -386,6 +400,9 @@ msgid ""
 "You can :sub:`subscript text` and :sup:`superscript text` by using ``:sub:"
 "`text``` and ``:sup:`text```"
 msgstr ""
+"Можна створювати :sub:`нижні індекси` та :sup:`верхні індекси` за допомогою"
+" команд ``:sub:"
+"`текст``` та ``:sup:`текст```"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:186
 msgid ""
@@ -399,6 +416,8 @@ msgid ""
 "Avoid randomly bolding words. It does *not* make the text easier or "
 "friendlier to read."
 msgstr ""
+"Уникайте випадкового позначення слів зміною стилю шрифту. Текст із частою"
+" зміною ваги шрифту *не* простіше читати."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:196
 msgid "Substitution References"
@@ -668,23 +687,28 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:370
 msgid "Something that is important to note, but is not necessarily negative."
-msgstr ""
+msgstr "Це щось, що варто зауважити, але не обов'язково у негативному сенсі."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:374
 msgid "This is in general when something is negative."
-msgstr ""
+msgstr "Загалом, це щось негативне."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:378
 msgid ""
 "General attention grabber. Use this when the subject is more important than "
 "warning, but not as important that is could get a dataloss."
 msgstr ""
+"Загальне привернення уваги. Скористайтеся цим, якщо тема є важливою, але не"
+" такою важливою, як, наприклад, втрата даних."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:382
 msgid ""
 "This is for things that could cause dataloss, like forgetting to save, or "
 "that python currently has no undo functionality."
 msgstr ""
+"Це форматування для випадків, коли можлива втрата даних, зокрема через те, що"
+" дані не було збережено, або через те, що у додатках Python ще не передбачено"
+" можливості скасовування дій."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:386
 msgid ""
@@ -701,7 +725,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
 msgid "generic admonition that can have any text."
-msgstr ""
+msgstr "загальне попередження із довільним текстом."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:394
 msgid "This looks like the following::"

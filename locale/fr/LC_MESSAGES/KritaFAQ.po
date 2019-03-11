@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
+"POT-Creation-Date: 2019-03-10 03:30+0100\n"
 "PO-Revision-Date: 2019-02-27 00:45+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -144,7 +144,8 @@ msgstr "Apparemment pour contourner le problème il faut soit... "
 #: ../../KritaFAQ.rst:71
 #, fuzzy
 #| msgid "Turn off OpenGL in settings → configure Krita → display."
-msgid "Turn off OpenGL in Settings --> Configure Krita --> Display."
+msgid ""
+"Turn off OpenGL in :menuselection:`Settings --> Configure Krita --> Display`."
 msgstr "Désactiver OpenGL dans le menu Paramètres/Configurer Krita/Afficher."
 
 #: ../../KritaFAQ.rst:72
@@ -258,11 +259,23 @@ msgstr ""
 "kritadisplayrc."
 
 #: ../../KritaFAQ.rst:110
+#, fuzzy
+#| msgid ""
+#| "If the config was causing a crash, don't delete but instead rename and "
+#| "send us the file so we can figure out what caused the crash."
 msgid ""
 "If the configuration was causing a crash, don't delete the mentioned file, "
 "but instead rename and send it to us in order for us to figure what caused "
-"the crash. .. If you have installed Krita through the Windows store, the "
-"kritarc file will be in another location"
+"the crash."
+msgstr ""
+"Si vous rencontrez un crash causé par votre configuration, ne l'effacez pas, "
+"renommez-le et envoyez-le nous pour que nous puissions trouver la cause du "
+"crash."
+
+#: ../../KritaFAQ.rst:113
+msgid ""
+"If you have installed Krita through the Windows store, the kritarc file will "
+"be in another location"
 msgstr ""
 
 #: ../../KritaFAQ.rst:115
@@ -354,7 +367,7 @@ msgid ""
 "It might be that your download got corrupted and is missing files (common "
 "with bad wifi and bad internet connection in general), in that case, try to "
 "find a better internet connection before trying to download again. Krita "
-"should be around 80 to 100 mb in size when downloading."
+"should be around 80 to 100 MB in size when downloading."
 msgstr ""
 "Le téléchargement de Krita a pu être corrompu et des fichiers sont manquants "
 "(c'est courant dans le cas où la connexion internet ou la réception wifi "
@@ -385,7 +398,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Some unzippers don't unpack our zipfiles correctly. The native ones on "
-"windows, OSX and most linux distributions should be just fine, and we "
+"Windows, OSX and most Linux distributions should be just fine, and we "
 "recommend using them."
 msgstr ""
 "Certains logiciels archiveurs n'extraient pas les fichiers ZIP correctement. "
@@ -418,7 +431,7 @@ msgid ""
 "panning. Nvidia and recent Intel GPUs give the best results. Make sure your "
 "OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s are known to "
 "be troublesome, especially with the proprietary drivers on Linux. However, "
-"it works perfectly with the Radeon free driver on linux for supported AMD "
+"it works perfectly with the Radeon free driver on Linux for supported AMD "
 "GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the "
 "best results, some examples:"
 msgstr ""
@@ -747,7 +760,7 @@ msgstr "Dans le menu :menuselection:`Paramètres --> Configuration de Krita`"
 #: ../../KritaFAQ.rst:225
 #, fuzzy
 #| msgid "Switch to :guilabel:`Window`"
-msgid "On General page, switch to :guilabel:`Window` tab."
+msgid "On :guilabel:`General` page, switch to :guilabel:`Window` tab."
 msgstr "Dans l'onglet :guilabel:`Fenêtre`"
 
 #: ../../KritaFAQ.rst:226
@@ -785,7 +798,8 @@ msgstr ""
 #: ../../KritaFAQ.rst:240
 msgid ""
 "On Windows, you need to either install the Wintab drivers for your tablet, "
-"or enable the Windows 8 Pointer Input option in Krita's settings."
+"or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's "
+"settings."
 msgstr ""
 
 #: ../../KritaFAQ.rst:242
@@ -1042,7 +1056,7 @@ msgstr "Touchez la tablette avec votre stylet pour que Krita le reconnaisse"
 #| "the correct value or enter it manually and press OK."
 msgid ""
 "You will see a special dialog asking for the real screen resolution. Choose "
-"the correct value or enter it manually and press OK."
+"the correct value or enter it manually and press :guilabel:`OK`."
 msgstr ""
 "Vous allez voir une boîte de dialogue spéciale demandant la résolution "
 "réelle de l'écran. Choisissez la valeur correcte et entrez-la manuellement "
@@ -1088,7 +1102,7 @@ msgstr ""
 #| "this will reset your tablets configuration so you will need to "
 #| "recalibrate/reconfigure it."
 msgid ""
-"This will reset your tablets configuration, thus you will need to "
+"This will reset your tablet's configuration, thus you will need to "
 "recalibrate/reconfigure it."
 msgstr ""
 "Cela va réinitialiser la configuration de votre tablette, vous devrez donc "
@@ -1323,7 +1337,7 @@ msgstr ""
 #: ../../KritaFAQ.rst:380
 #, fuzzy
 msgid ""
-"Then go into the paintoppressets folder and remove the latest created file "
+"Then go into the *paintoppresets* folder and remove the latest created file "
 "that you made of your preset."
 msgstr ""
 "Allez ensuite dans le dossier paintoppresets et supprimez le dernier fichier "
@@ -1406,7 +1420,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:403
 msgid ""
-"Something else is hogging the cpu or the memory: spotify and other electron "
+"Something else is hogging the CPU or the memory: spotify and other electron "
 "apps have been known to do this."
 msgstr ""
 
@@ -1425,7 +1439,7 @@ msgstr ""
 #: ../../KritaFAQ.rst:405
 #, fuzzy
 msgid ""
-"you are working on images that are too big for your hardware (dimensions, "
+"You are working on images that are too big for your hardware (dimensions, "
 "channel depth or number of layers)"
 msgstr ""
 "Vous travaillez sur une image trop grande pour votre matériel (au niveau "
@@ -1433,12 +1447,12 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:406
 #, fuzzy
-msgid "you do not have canvas acceleration enabled"
+msgid "You do not have canvas acceleration enabled"
 msgstr "Vous n'avez pas l'accélération matérielle activée"
 
 #: ../../KritaFAQ.rst:408
 #, fuzzy
-msgid "Please also check this page: https://phabricator.kde.org/T7199"
+msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
 msgstr "Veuillez aussi lire cette page: https://phabricator.kde.org/T7199"
 
 #: ../../KritaFAQ.rst:411
@@ -1521,7 +1535,7 @@ msgid ""
 "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
 "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
 "Configure Krita --> Performance`. This isn't needed if you've got an AMD "
-"threadrippercpu."
+"Threadripper™ CPU."
 msgstr ""
 "Pour AMD (Krita 2.9.10 et suivants), cochez \"Disable vector optimizations "
 "(for AMD CPUs)\" dans Paramètres → Configuration de Krita → Performance"
@@ -1529,7 +1543,7 @@ msgstr ""
 #: ../../KritaFAQ.rst:425
 #, fuzzy
 msgid ""
-"It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 gig "
+"It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
 msgstr ""
 "Krita est un programme gourmand au niveau mémoire vive, de 2GB de RAM est le "
@@ -1636,8 +1650,8 @@ msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
 "than the image resolution, it may feel that the result is blurry compared to "
-"the preview. See https://forum.kde.org/viewtopic.php?f=139&t=127269 for more "
-"info."
+"the preview. See `this page <https://forum.kde.org/viewtopic.php?"
+"f=139&t=127269>`_ for more info."
 msgstr ""
 "L'outil de transformation créé un aperçu que vous éditez avant de calculer "
 "la version finale. Puisque cet aperçu utilise la résolution de l'écran au "
@@ -1900,14 +1914,6 @@ msgstr "https://answers.launchpad.net/krita-ru/+faqs"
 
 #~ msgid "Just copy the files over!"
 #~ msgstr "Copiez simplement les fichiers d'un dossier à l'autre !"
-
-#~ msgid ""
-#~ "If the config was causing a crash, don't delete but instead rename and "
-#~ "send us the file so we can figure out what caused the crash."
-#~ msgstr ""
-#~ "Si vous rencontrez un crash causé par votre configuration, ne l'effacez "
-#~ "pas, renommez-le et envoyez-le nous pour que nous puissions trouver la "
-#~ "cause du crash."
 
 #~ msgid ""
 #~ "First, search your filesystem for kritarc. If it's nowhere to be found, "

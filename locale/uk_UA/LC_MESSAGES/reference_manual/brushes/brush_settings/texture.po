@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
 "___texture\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-09 10:50+0200\n"
+"POT-Creation-Date: 2019-03-10 03:30+0100\n"
+"PO-Revision-Date: 2019-03-10 08:29+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -34,8 +34,9 @@ msgid ".. image:: images/en/Krita_2_9_brushengine_texture_07.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_texture_07.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:0
-msgid ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
-msgstr ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_texture_01.png"
+msgid ".. image:: images/en/Krita_2_9_brushengine_texture_06.png"
+msgstr ".. image:: images/en/Krita_2_9_brushengine_texture_06.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:1
 msgid "The texture brush settings option in Krita."
@@ -120,8 +121,8 @@ msgid ""
 "Cutoff policy will determine what range and where the strength will affect "
 "the textured outcome."
 msgstr ""
-"Правила обрізання визначають, у якому діапазоні і де потужність ефекту буде"
-" застосовано до текстурованих результатів обробки."
+"Правила обрізання визначають, у якому діапазоні і де потужність ефекту буде "
+"застосовано до текстурованих результатів обробки."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:42
 msgid "Disabled"
@@ -157,66 +158,75 @@ msgid ""
 "darkest values being cut away, leaving only the lightest. The last example "
 "is the pattern without cutoff."
 msgstr ""
-"Обрізання — це… діапазон відтінків сірого кольору, яким можна обмежити"
-" текстуру. Це також впливає на обмеження потужності. У наведеному нижче"
-" прикладі ми бачимо результати зміни діапазону. Спочатку, права ліва стрілка"
-" є близькою до лівої, отже ми бачимо лише найтемніші точки. Далі, маємо три"
-" зображення із ширшим діапазоном, а під ними ще три, де ми пересували лише"
-" ліву стрілку, обрізаючи темні пікселі і лишаючи лише найсвітліші. На"
-" останньому малюнку бачимо візерунок без обрізання."
+"Обрізання — це… діапазон відтінків сірого кольору, яким можна обмежити "
+"текстуру. Це також впливає на обмеження потужності. У наведеному нижче "
+"прикладі ми бачимо результати зміни діапазону. Спочатку, права ліва стрілка "
+"є близькою до лівої, отже ми бачимо лише найтемніші точки. Далі, маємо три "
+"зображення із ширшим діапазоном, а під ними ще три, де ми пересували лише "
+"ліву стрілку, обрізаючи темні пікселі і лишаючи лише найсвітліші. На "
+"останньому малюнку бачимо візерунок без обрізання."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:54
 msgid "Cutoff"
 msgstr "Обрізання"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:57
-msgid ""
-"Invert the pattern. .. image:: /images/en/Krita_2_9_brushengine_texture_06."
-"png"
-msgstr ""
-"Інвертувати візерунок. .. image:: /images/en/"
-"Krita_2_9_brushengine_texture_06.png"
+#| msgid "Invert Pattern"
+msgid "Invert the pattern."
+msgstr "Інвертувати візерунок."
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:58
+#: ../../reference_manual/brushes/brush_settings/texture.rst:59
 msgid "Invert Pattern"
 msgstr "Інвертувати візерунок"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:61
+#| msgid "Brightness and Contrast .. versionadded:: 3.3.1"
+msgid "Brightness and Contrast"
+msgstr "Яскравість і контрастність"
+
+#: ../../reference_manual/brushes/brush_settings/texture.rst:65
 msgid ""
 "Adjust the pattern with a simple brightness/contrast filter to make it "
 "easier to use. Because Subtract and Multiply work differently, it's "
 "recommended to use different values with each:"
 msgstr ""
-"Скоригуйте візерунок простим фільтром яскравості-контрастності для полегшення"
-" його використання. Оскільки режими віднімання та множення працюють у різний"
-" спосіб, рекомендуємо використовувати різні значення для кожного з цих"
-" режимів:"
+"Скоригуйте візерунок простим фільтром яскравості-контрастності для "
+"полегшення його використання. Оскільки режими віднімання та множення "
+"працюють у різний спосіб, рекомендуємо використовувати різні значення для "
+"кожного з цих режимів:"
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:63
-msgid "Brightness and Contrast .. versionadded:: 3.3.1"
-msgstr "Яскравість і контрастність .. versionadded:: 3.3.1"
+#: ../../reference_manual/brushes/brush_settings/texture.rst:67
+msgid ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
+msgstr ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:66
+#: ../../reference_manual/brushes/brush_settings/texture.rst:70
 msgid "Strength"
 msgstr "Потужність"
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:68
+#: ../../reference_manual/brushes/brush_settings/texture.rst:72
 msgid ""
 "This allows you to set the texture to Sensors. It will use the cutoff to "
 "continuously draw lighter values of the texture (making the result darker)"
 msgstr ""
-"Цей параметр надає вам змогу встановити для текстури режим «Датчики». У ньому"
-" використовуватиметься обрізання для неперервного малювання світліших"
-" елементів текстури (ще зробить результат темнішим)."
+"Цей параметр надає вам змогу встановити для текстури режим «Датчики». У "
+"ньому використовуватиметься обрізання для неперервного малювання світліших "
+"елементів текстури (ще зробить результат темнішим)."
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:71
+#: ../../reference_manual/brushes/brush_settings/texture.rst:75
 msgid ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
 
-#: ../../reference_manual/brushes/brush_settings/texture.rst:74
+#: ../../reference_manual/brushes/brush_settings/texture.rst:78
 msgid ""
 "`David Revoy describing the texture feature (old) <http://www.davidrevoy.com/"
 "article107/textured-brush-in-floss-digital-painting>`_"
 msgstr ""
 "`David Revoy описує можливість використання текстур (давнє відео) <http://"
 "www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_"
+
+#~ msgid ""
+#~ "Invert the pattern. .. image:: /images/en/"
+#~ "Krita_2_9_brushengine_texture_06.png"
+#~ msgstr ""
+#~ "Інвертувати візерунок. .. image:: /images/en/"
+#~ "Krita_2_9_brushengine_texture_06.png"

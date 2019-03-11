@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___colors___color_space_size\n"
+"Project-Id-Version: docs_krita_org_general_concepts___colors___color_space_siz"
+"e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 08:11+0200\n"
+"PO-Revision-Date: 2019-03-10 16:43+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -40,20 +40,26 @@ msgid ""
 "Using Krita's color space browser, you can see that there's many different "
 "space sizes."
 msgstr ""
+"За допомогою навігатора простором кольорів Krita можна бачити, що існує"
+" багато розмірів простору кольорів."
 
 #: ../../general_concepts/colors/color_space_size.rst:25
 msgid "How do these affect your image, and why would you use them?"
 msgstr ""
+"Як ці розміри впливають на ваше зображення і чому слід використовувати той чи"
+" інший простір?"
 
 #: ../../general_concepts/colors/color_space_size.rst:27
 msgid "The primary reason to use a large space is for three reasons:"
-msgstr ""
+msgstr "Існує три основних причини використовувати більший простір кольорів:"
 
 #: ../../general_concepts/colors/color_space_size.rst:29
 msgid ""
 "Even though you can't see the colors, the computer program does understand "
 "them and can do color maths with it."
 msgstr ""
+"Хоча ви не можете бачити деякі кольори, комп'ютерна програма може працювати з"
+" ними і виконувати з ними математичні дії."
 
 #: ../../general_concepts/colors/color_space_size.rst:30
 msgid ""
@@ -62,6 +68,11 @@ msgid ""
 "To get the best conversion, having your image in a space that encompasses "
 "both your screen profile as your printer profile."
 msgstr ""
+"Для обміну між програмами і пристроями: більшість профілів CMYK є трохи"
+" більшими за наш типовий простір кольорів sRGB у деяких місцях, а у інших"
+" місцях є меншими. Для отримання кращих результатів при перетворенні краще"
+" зберігати ваше зображення у просторі, який є ширшим як за профіль вашого"
+" екрана, так і за профіль вашого принтера."
 
 #: ../../general_concepts/colors/color_space_size.rst:31
 msgid ""
@@ -69,10 +80,13 @@ msgid ""
 "have larger amounts of colors they can show (spoiler: they already do), and "
 "this allows you to be prepared for that."
 msgstr ""
+"Для архівування. Іншими словами, можливо, у майбутньому монітори"
+" показуватимуть більше кольорів, ніж зараз (спойлер: деякі з них вже можуть"
+" це робити), і до цього слід бути готовим."
 
 #: ../../general_concepts/colors/color_space_size.rst:33
 msgid "Let's compare the following gradients in different spaces:"
-msgstr ""
+msgstr "Давайте порівняємо показані нижче градієнти у різних просторах:"
 
 #: ../../general_concepts/colors/color_space_size.rst:37
 msgid ""
@@ -98,6 +112,11 @@ msgid ""
 "should give an approximation of the actual colors. On the right, we have an "
 "sRGB png that was converted in Krita from the base file."
 msgstr ""
+"Ліворуч ми бачимо вкритий дефектами файл із керуванням кольорами jpeg із"
+" долученим профілем ACES sRGBtrc v2 (або ні, якщо ні, тоді ви можете бачити"
+" точну різницю між кольорами ясніше). Це має показати наближення справжніх"
+" кольорів. Праворуч показано PNG sRGB, який було перетворено у Krita з"
+" базового файла."
 
 #: ../../general_concepts/colors/color_space_size.rst:43
 msgid ""
@@ -106,6 +125,10 @@ msgid ""
 "mid-tone of the RGB colorspace, and this is because the primaries are "
 "further apart."
 msgstr ""
+"Кожен з градієнтів є градієнтом від максимального до заданого каналу. Як"
+" можна бачити, середній тон простору кольорів ACES є набагато яскравішим за"
+" середній тон простору кольорів RGB. Причиною є те, що основні кольори цих"
+" просторів є дуже віддаленими."
 
 #: ../../general_concepts/colors/color_space_size.rst:45
 msgid ""
@@ -114,12 +137,19 @@ msgid ""
 "mixes and gradients. In particular, when color correcting, the bigger space "
 "can help with giving more precise information."
 msgstr ""
+"Для нас це означає, що коли ми починаємо змішування або застосування"
+" фільтрів, Krita може виводити значення поза межею видимих, а також"
+" створювати точніші суміші та градієнти. Зокрема, при виправленні кольорів"
+" більший простір кольорів може допомогти із отриманням точнішої інформації."
 
 #: ../../general_concepts/colors/color_space_size.rst:47
 msgid ""
 "If you have a display profile that uses a LUT, then you can use perceptual "
 "to give an indication of how your image will look."
 msgstr ""
+"Якщо у вас є профіль дисплея, який використовує таблицю пошуку (LUT), ви"
+" можете скористатися придатністю до сприйняття для того, щоб мати індикатор"
+" того, як виглядатиме ваше зображення."
 
 #: ../../general_concepts/colors/color_space_size.rst:49
 msgid ""
@@ -127,3 +157,6 @@ msgid ""
 "want to see banding, so make sure to have at the least 16bit per channel "
 "when choosing a bigger space."
 msgstr ""
+"Недоліком більших просторів є те, що для них потрібна більше точність, якщо"
+" ви не хочете бачити сегментацію, отже вам слід використовувати принаймні 16"
+" бітів на канал, якщо виберете більший простір."
