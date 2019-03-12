@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-10 16:42+0000\n"
+"PO-Revision-Date: 2019-03-11 17:47+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-IgnoreConsistency: Arch\n"
+"X-POFile-SpellExtra: wiki Fedora krita aurman chmod LXDE AppImage Yast\n"
+"X-POFile-SpellExtra: Snap OSX dnf Kubuntu calligra OpenSUSE Mac aur Ubuntu\n"
+"X-POFile-SpellExtra: Appimages Arch channel Gnome Molch Nautilus apt KRA\n"
+"X-POFile-SpellExtra: bash exe XCF PackageKit appimage setup Discover\n"
+"X-POFile-SpellExtra: Moritz Krita SO install Revoy kra pacman\n"
 
 #: ../../user_manual/getting_started/installation.rst:1
 msgid "Detailed steps on how to install Krita"
@@ -27,7 +33,7 @@ msgstr "Instalação"
 
 #: ../../user_manual/getting_started/installation.rst:21
 msgid "Windows"
-msgstr "Janelas"
+msgstr "Windows"
 
 #: ../../user_manual/getting_started/installation.rst:23
 msgid ""
@@ -36,13 +42,16 @@ msgid ""
 "of your OS. Go to the `KDE <http://download.kde.org/stable/krita/>`__ "
 "download directory to get the portable zip-file version of Krita instead of "
 "the setup.exe installer."
-msgstr ""
+msgstr "Os utilizadores do Windows podem obter as últimas versões na nossa `página Web <https://krita.org/download/>`_ Carregue em 64 bits ou 32 bits, de acordo com a arquitectura do seu SO. Vá à pasta de transferências do `KDE <http://download.kde.org/stable/krita/>`__ para obter o pacote ZIP portátil do Krita, em vez do instalador 'setup.exe'."
 
 #: ../../user_manual/getting_started/installation.rst:31
 msgid ""
 "Krita requires Windows Vista or newer. INTEL GRAPHICS CARD USERS: IF YOU SEE "
 "A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!"
-msgstr "O Krita precisa do Windows Vista ou posterior. UTILIZADORES DE PLACAS GRÁFICAS DA INTEL: SE OBSERVAR UMA JANELA PRETA OU BRANCA: ACTUALIZE OS SEUS CONTROLADORES!"
+msgstr ""
+"O Krita precisa do Windows Vista ou posterior. UTILIZADORES DE PLACAS "
+"GRÁFICAS DA INTEL: SE OBSERVAR UMA JANELA PRETA OU BRANCA: ACTUALIZE OS SEUS "
+"CONTROLADORES!"
 
 #: ../../user_manual/getting_started/installation.rst:35
 msgid "Linux"
@@ -55,7 +64,7 @@ msgid ""
 "KDE, Gnome, LXDE -- even though it is a KDE application and needs the KDE "
 "libraries. You might also want to install the KDE system settings module and "
 "tweak the gui theme and fonts used, depending on your distributions"
-msgstr ""
+msgstr "Muitas distribuições de Linux já têm pacotes para a última versão do Krita. Algumas vezes poderá ter de activar um repositório extra. O Krita funciona perfeitamente em qualquer ambiente de trabalho: KDE, Gnome, LXDE -- mesmo sendo uma aplicação do KDE e necessitando das bibliotecas do KDE. Poderá também querer instalar o módulo de configuração do sistema do KDE e ajustar o tema e tipos de letra usados, dependendo das suas distribuições"
 
 #: ../../user_manual/getting_started/installation.rst:45
 msgid "Nautilus/Nemo file extensions"
@@ -65,7 +74,9 @@ msgstr "Extensões de ficheiros do Nautilus/Nemo"
 msgid ""
 "Put here at the beginning, before we start on the many distro specific ways "
 "to get the program itself."
-msgstr "Coloque-se aqui no início, antes de ver as diversas formas específicas da distribuição para obter o programa em si."
+msgstr ""
+"Coloque-se aqui no início, antes de ver as diversas formas específicas da "
+"distribuição para obter o programa em si."
 
 #: ../../user_manual/getting_started/installation.rst:50
 msgid ""
@@ -73,11 +84,11 @@ msgid ""
 "Nautilus and it's derivatives need an extension. `We recommend Moritz "
 "Molch's extensions for XCF, KRA, ORA and PSD thumbnails <http://moritzmolch."
 "com/1749>`__."
-msgstr ""
+msgstr "Desde Abril de 2016, o Dolphin do KDE mostra as miniaturas do .kra e do .ora por omissão, mas o Nautilus e os seus derivados precisam de uma extensão. `Recomendamos as extensões do Moritz Molch para as miniaturas em XCF, KRA, ORA e PSD <http://moritzmolch.com/1749>`__."
 
 #: ../../user_manual/getting_started/installation.rst:56
 msgid "Appimages"
-msgstr ""
+msgstr "Appimages"
 
 #: ../../user_manual/getting_started/installation.rst:58
 msgid ""
@@ -86,19 +97,19 @@ msgid ""
 "Just download the appimage, and then use the file properties or the bash "
 "command chmod to make the appimage executable. Double click it, and enjoy "
 "Krita. (Or run it in the terminal with ./appimagename.appimage)"
-msgstr ""
+msgstr "Para o Krita 3.0 e posteriores, tente primeiro a AppImage da página Web em primeiro lugar. **90% das vezes esta é de longe a forma mais simples de obter o último Krita.** Basta obter a AppImage e depois usar as propriedades de ficheiros ou a linha de comandos do 'bash' com o 'chmod' para tornar a AppImage executável. Faça duplo-click sobre ela e desfrute do Krita. (Ou execute-o no terminal com o comando ./nome-appimage.appimage)"
 
 #: ../../user_manual/getting_started/installation.rst:65
 msgid "Open the terminal into the folder you have the appimage."
-msgstr ""
+msgstr "Abra o terminal na pasta onde tem o ficheiro 'appimage'."
 
 #: ../../user_manual/getting_started/installation.rst:66
 msgid "Make it executable"
-msgstr ""
+msgstr "Torne-o executável"
 
 #: ../../user_manual/getting_started/installation.rst:72
 msgid "Run Krita!"
-msgstr ""
+msgstr "Execute o Krita!"
 
 #: ../../user_manual/getting_started/installation.rst:78
 msgid ""
@@ -106,11 +117,11 @@ msgid ""
 "fiddling with repositories and dependencies, at the cost of a slight bit "
 "more diskspace taken up (And this size would only be bigger if you were "
 "using Plasma to begin with)."
-msgstr ""
+msgstr "As Appimages são ISO's com todas as bibliotecas necessárias, o que significa que que não existem interferências com os repositórios e dependências, em detrimento da ocupação de um bocado mais de espaço em disco (Sendo que este ficheiro só seria maior se estivesse a usar o Plasma, em primeiro lugar)."
 
 #: ../../user_manual/getting_started/installation.rst:84
 msgid "Ubuntu and Kubuntu"
-msgstr ""
+msgstr "Ubuntu e Kubuntu"
 
 #: ../../user_manual/getting_started/installation.rst:86
 msgid ""
@@ -118,23 +129,23 @@ msgid ""
 "fine. However, by default, only a very old version of Krita is available. "
 "You should either use the appimage, or the snap available from Ubuntu's app "
 "store."
-msgstr ""
+msgstr "Não interessa qual a versão do Ubuntu que use; o Krita irá funcionar bem em ambas. Contudo, por omissão, só está disponível uma versão muito antiga do Krita. Deverá usar a AppImage ou o pacote Snap disponível na loja de aplicações da Ubuntu."
 
 #: ../../user_manual/getting_started/installation.rst:92
 msgid "OpenSUSE"
-msgstr ""
+msgstr "OpenSUSE"
 
 #: ../../user_manual/getting_started/installation.rst:94
 msgid "The latest stable builds are available from KDE:Extra repo:"
-msgstr ""
+msgstr "As últimas versões estáveis estão disponíveis no repositório KDE:Extra:"
 
 #: ../../user_manual/getting_started/installation.rst:96
 msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
-msgstr ""
+msgstr "http://download.opensuse.org/repositories/KDE:/Extra/"
 
 #: ../../user_manual/getting_started/installation.rst:99
 msgid "Krita is also in the official repos, you can install it from Yast."
-msgstr ""
+msgstr "O Krita também existe nos repositórios oficiais; podê-lo-á instalar a partir do Yast."
 
 #: ../../user_manual/getting_started/installation.rst:102
 msgid "Fedora"
@@ -145,96 +156,96 @@ msgid ""
 "Krita is in the official repos as **calligra-krita**, you can install it by "
 "using packagekit (Add/Remove Software) or by writing the following command "
 "in terminal."
-msgstr ""
+msgstr "O Krita consta nos repositórios oficiais como **calligra-krita**; podê-lo-á instalar se usar o PackageKit (Adicionar/Remover Aplicações) ou se invocar o seguinte comando no terminal."
 
 #: ../../user_manual/getting_started/installation.rst:106
 msgid "``dnf install krita``"
-msgstr ""
+msgstr "``dnf install krita``"
 
 #: ../../user_manual/getting_started/installation.rst:108
 msgid ""
 "You can also use the software center such as gnome software center or "
 "Discover to install Krita"
-msgstr ""
+msgstr "Também poderá usar um centro de aplicações, como o Centro de Aplicações do Gnome ou o Discover para instalar o Krita"
 
 #: ../../user_manual/getting_started/installation.rst:111
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: ../../user_manual/getting_started/installation.rst:113
 msgid ""
 "The latest version of Krita available in Debian is 3.1.1. To install Krita "
 "type the following line in terminal"
-msgstr ""
+msgstr "A última versão do Krita disponível no Debian é a 3.1.1. Para instalar o Krita, escreva a seguinte linha no terminal"
 
 #: ../../user_manual/getting_started/installation.rst:116
 msgid "``apt install krita``"
-msgstr ""
+msgstr "``apt install krita``"
 
 #: ../../user_manual/getting_started/installation.rst:120
 msgid "Arch"
-msgstr "Arquitectura"
+msgstr "Arch"
 
 #: ../../user_manual/getting_started/installation.rst:122
 msgid ""
 "Arch Linux provides krita package in the Extra repository. You can install "
 "Krita by using the following command"
-msgstr ""
+msgstr "O Arch Linux oferece o pacote do Krita no repositório Extra. Poderá instalar o Krita se usar o seguinte comando"
 
 #: ../../user_manual/getting_started/installation.rst:125
 msgid "``pacman -S krita``"
-msgstr ""
+msgstr "``pacman -S krita``"
 
 #: ../../user_manual/getting_started/installation.rst:127
 msgid ""
 "You can install the most recent build of Krita using an aur helper such as "
 "aurman. For example ``aurman -S krita-beta``"
-msgstr ""
+msgstr "Poderá instalar a versão mais recente do Krita se usar um utilitário do 'aur', como o 'aurman'. Por exemplo, ``aurman -S krita-beta``"
 
 #: ../../user_manual/getting_started/installation.rst:131
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../../user_manual/getting_started/installation.rst:134
 msgid ""
 "Mac OSX is very experimental right now and unstable, don't use it for "
 "production purpose"
-msgstr ""
+msgstr "O Mac OSX é muito experimental nesta altura e, por isso, bastante instável; não o use para fins de produção"
 
 #: ../../user_manual/getting_started/installation.rst:136
 msgid ""
 "You can download the latest binary if you want from our `website <https://"
 "krita.org/download/krita-desktop/>`__. It has only been reported to work "
 "with Mac OSX 10.9."
-msgstr ""
+msgstr "Poderá obter o último binário, se o desejar, a partir da nossa `página Web <https://krita.org/download/krita-desktop/>`__. Foi validado que funciona com o Mac OSX 10.9."
 
 #: ../../user_manual/getting_started/installation.rst:141
 msgid "Source"
-msgstr "Origem"
+msgstr "Código"
 
 #: ../../user_manual/getting_started/installation.rst:143
 msgid ""
 "While it is certainly more difficult to compile Krita from source than it is "
 "to install from prebuilt packages, there are certain advantages that might "
 "make the effort worth it:"
-msgstr ""
+msgstr "Embora seja certamente mais difícil de compilar o Krita a partir do código do que é instalá-lo a partir de pacotes pré-compilados, existem certas vantagens que poderão fazer com que isso valha a pena:"
 
 #: ../../user_manual/getting_started/installation.rst:147
 msgid ""
 "You can follow the development of Krita on the foot. If you compile Krita "
 "regularly from the development repository, you will be able to play with all "
 "the new features that the developers are working on."
-msgstr ""
+msgstr "Poderá seguir o desenvolvimento do Krita praticamente em cima da hora. Se compilar o Krita regulamente a partir do repositório de desenvolvimento, poderá brincar com todas as novas funcionalidades com que os programadores estão a trabalhar."
 
 #: ../../user_manual/getting_started/installation.rst:150
 msgid ""
 "You can compile optimized for your processor. Most pre-built packages are "
 "built for the lowest-common denominator."
-msgstr ""
+msgstr "Poderá compilar o código de forma optimizada para o seu processador. A maioria dos pacotes são compilados com o mínimo denominador comum."
 
 #: ../../user_manual/getting_started/installation.rst:152
 msgid "You will be getting all the bug fixes as soon as possible as well."
-msgstr ""
+msgstr "Irá obter todas as correcções de erros assim que possível."
 
 #: ../../user_manual/getting_started/installation.rst:153
 msgid ""
@@ -242,7 +253,7 @@ msgid ""
 "are being developed and you can test bug fixes for us. This is hugely "
 "important, which is why our regular testers get their name in the about box "
 "just like developers."
-msgstr ""
+msgstr "Poderá ajudar os programadores se nos der as suas opiniões sobre funcionalidades, à medida que ambas vão sendo desenvolvidas, podendo testar as correcções de erros por nós. Isto é bastante importante, e é por isso que os nossos responsáveis regulares pelos testes têm o seu nome no campo 'Acerca', tal como os programadores."
 
 #: ../../user_manual/getting_started/installation.rst:158
 msgid ""
@@ -251,7 +262,7 @@ msgid ""
 "might mean less stability for a while, or things shown in the user interface "
 "that don't work. But in practice, there is seldom really bad instability, "
 "and if it is, it's easy for you to go back to a revision that does work."
-msgstr ""
+msgstr "Obviamente, existem também desvantagens: quando compilar a partir do repositório de código actual, irá também obter as funcionalidades inacabadas. Isso poderá significar uma menor estabilidade durante algum tempo ou coisas na interface que não funcionam de todo. Contudo, na prática é raro haver uma instabilidade realmente má e, caso exista, será simples para você voltar para uma versão que funcione."
 
 #: ../../user_manual/getting_started/installation.rst:165
 msgid ""
@@ -259,29 +270,29 @@ msgid ""
 "build instructions from the excellent illustrated `guide <http://www."
 "davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__ by "
 "David Revoy."
-msgstr ""
+msgstr "Por isso... Se quiser começar a compilar a partir do código, comece pelas últimas instruções de compilação com o excelente `guia ilustrado <http://www.davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__ de David Revoy."
 
 #: ../../user_manual/getting_started/installation.rst:170
 msgid ""
 "There is more information and troubleshooting help on the `Calligra <https://"
 "community.kde.org/Calligra/Building>`__ wiki."
-msgstr ""
+msgstr "Existem mais informações e ajuda de resolução de problemas na `wiki do Calligra <https://community.kde.org/Calligra/Building>`__."
 
 #: ../../user_manual/getting_started/installation.rst:173
 msgid ""
 "If you encounter any problems, or if you are new to compiling software, "
 "don't hesitate to contact the Krita developers. There are three main "
 "communication channels:"
-msgstr ""
+msgstr "Se encontrar algum problema, ou se for novo na compilação de aplicações, não hesite em contactar os programadores do Krita. Existem três canais de comunicação principais:"
 
 #: ../../user_manual/getting_started/installation.rst:177
 msgid "irc: irc.freenode.net, channel #krita"
-msgstr ""
+msgstr "IRC: irc.freenode.net, channel #krita"
 
 #: ../../user_manual/getting_started/installation.rst:178
 msgid "`mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__"
-msgstr ""
+msgstr "`lista de correio <https://mail.kde.org/mailman/listinfo/kimageshop>`__"
 
 #: ../../user_manual/getting_started/installation.rst:179
 msgid "`forums <http://forum.kde.org/viewforum.php?f=136>`__"
-msgstr ""
+msgstr "`fóruns <http://forum.kde.org/viewforum.php?f=136>`__"
