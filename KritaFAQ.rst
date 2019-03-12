@@ -405,7 +405,7 @@ There is a myriad of reasons why this might be. Below is a short checklist.
 -  You are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
 -  You do not have canvas acceleration enabled
 
-Please also check `this page <https://phabricator.kde.org/T7199>`_
+Please also check `this page <https://phabricator.kde.org/T7199>`__
 
 Slow start-up
 -------------
@@ -441,7 +441,7 @@ Tools
 Why does the Transform Tool give a good result and then get blurry upon finalizing?
 -----------------------------------------------------------------------------------
 
-The transform tool makes a preview that you edit before computing the finalized version. As this preview is using the screen resolution rather than the image resolution, it may feel that the result is blurry compared to the preview. See `this page <https://forum.kde.org/viewtopic.php?f=139&t=127269>`_ for more info.
+The transform tool makes a preview that you edit before computing the finalized version. As this preview is using the screen resolution rather than the image resolution, it may feel that the result is blurry compared to the preview. See `this page <https://forum.kde.org/viewtopic.php?f=139&t=127269>`__ for more info.
 
 
 License, rights and the Krita Foundation
