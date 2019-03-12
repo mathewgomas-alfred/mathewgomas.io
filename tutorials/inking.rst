@@ -151,7 +151,7 @@ If you are interested in super-thin lines, it might be better to make your ink a
 .. image:: /images/en/inking/Inking_aliasresize.png
     :alt: aliased resize
 
-This might be a little of an odd way of working, but it does make drawing thin lines trivial, and it's cheaper to buy ram so you can make HUGE images than to spent hours on trying to color the thin lines precisely, especially as colorize mask will not be able to deal with thin anti-aliased lines very well.
+This might be a little of an odd way of working, but it does make drawing thin lines trivial, and it's cheaper to buy RAM so you can make HUGE images than to spent hours on trying to color the thin lines precisely, especially as colorize mask will not be able to deal with thin anti-aliased lines very well.
 
 
 .. tip:: David Revoy made a set of his own inking tips for krita and explains them in this `youtube video <https://www.youtube.com/watch?v=xvQ5l0edsq4>`_.

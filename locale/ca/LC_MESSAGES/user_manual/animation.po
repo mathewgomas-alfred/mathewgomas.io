@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___animation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-09 03:31+0100\n"
-"PO-Revision-Date: 2019-03-07 22:48+0100\n"
+"PO-Revision-Date: 2019-03-11 18:07+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 # skip-rule: t-sp_2p
 #: ../../<rst_epilog>:4
@@ -65,14 +65,6 @@ msgstr "Corbes d'animació"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:32
-#, fuzzy
-#| msgid ""
-#| "To create an animation curve (currently only for opacity) expand the “New "
-#| "Frame” button in the “Animation” dock and click “Add Opacity Keyframe”. "
-#| "You can now edit the keyframed value for opacity directly in the “Layers” "
-#| "dock, adding more keyframes will by default fade from the last to the "
-#| "next upcoming keyframe in the timeline over the frames between them. See :"
-#| "ref:`animation curves <animation_curves_docker>` for details"
 msgid ""
 "To create an animation curve (currently only for opacity) expand the :"
 "guilabel:`New Frame` button in the :guilabel:`Animation` dock and click :"
@@ -83,13 +75,13 @@ msgid ""
 "for details"
 msgstr ""
 "Per a crear una corba d'animació (actualment només per opacitat) "
-"s'expandeixi el botó “Fotograma nou“ a l'acoblador “Animació“ i feu clic a "
-"“Afegeix un fotograma clau d'opacitat“. Ara podreu editar el valor del "
-"fotograma clau directament per a l'opacitat a l'acoblador “Capes“, afegint-"
-"hi més fotogrames clau, s'esvairan de manera predeterminada des de l'últim "
-"fotograma clau al següent més proper seguint en la línia de temps sobre els "
-"fotogrames entre ells. Per a més detalls, vegeu :ref:`corbes d'animació "
-"<animation_curves_docker>`."
+"s'expandeixi el botó :guilabel:`Fotograma nou` a l'acoblador :guilabel:"
+"`Animació` i feu clic a :guilabel:`Afegeix un fotograma clau d'opacitat`. "
+"Ara podreu editar el valor del fotograma clau directament per a l'opacitat a "
+"l'acoblador «Capes», afegint-hi més fotogrames clau, s'esvairan de manera "
+"predeterminada des de l'últim fotograma clau al següent més proper seguint "
+"en la línia de temps sobre els fotogrames entre ells. Per a més detalls, "
+"vegeu :ref:`corbes d'animació <animation_curves_docker>`."
 
 #: ../../user_manual/animation.rst:40
 msgid "Workflow"
@@ -182,7 +174,7 @@ msgid ""
 msgstr ""
 "A la primera pestanya, escriurem una bona relació com 1280x1024, establint "
 "el ppp a 72 (després de tot, això ho fem per a les pantalles) i el títol del "
-"document 'cicle de caminar'."
+"document «cicle de caminar»."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:79
@@ -203,13 +195,6 @@ msgstr ""
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:82
-#, fuzzy
-#| msgid ""
-#| "Krita has a bunch of functionality for meta-data, starting at the :"
-#| "guilabel:`create document` screen. The title will be automatically used "
-#| "as a suggestion for saving and the description can be used by databases, "
-#| "or for you to leave comments behind. Not many people use it individually, "
-#| "but it can be useful for working in larger groups."
 msgid ""
 "Krita has a bunch of functionality for meta-data, starting at the :guilabel:"
 "`Create Document` screen. The title will be automatically used as a "
@@ -224,10 +209,8 @@ msgstr ""
 "servir gaire gent, però pot ser útil per a treballar en grups grans."
 
 #: ../../user_manual/animation.rst:84
-#, fuzzy
-#| msgid "Then hit create!"
 msgid "Then hit :guilabel:`Create`!"
-msgstr "Després premeu crea!"
+msgstr "Després premeu :guilabel:`Crea`!"
 
 #: ../../user_manual/animation.rst:86
 msgid ""
@@ -276,8 +259,8 @@ msgid ""
 "'environment' and the top 'walkcycle' by double clicking their names in the "
 "layer docker."
 msgstr ""
-"Tenim configurades dues capes transparents. Anomenem el primer 'entorn' i la "
-"part superior 'Cicle de caminar' fent doble clic en els seus noms a "
+"Tenim configurades dues capes transparents. Anomenem el primer «entorn» i la "
+"part superior «Cicle de caminar» fent doble clic en els seus noms a "
 "l'acoblador capa."
 
 #: ../../user_manual/animation.rst:110
@@ -302,7 +285,7 @@ msgid ""
 "Then, select the 'walkcycle' layer and draw a head and torso (you can use "
 "any brush for this)."
 msgstr ""
-"Després, seleccioneu la capa 'Cicle de caminar' i dibuixeu un cap i un tors "
+"Després, seleccioneu la capa «Cicle de caminar» i dibuixeu un cap i un tors "
 "(per això, podeu utilitzar qualsevol pinzell)."
 
 # skip-rule: t-apo_ini,t-apo_fin
@@ -312,7 +295,7 @@ msgid ""
 "doesn't actually see the 'walkcycle' layer as an animated layer at all!"
 msgstr ""
 "Ara, seleccionant un fotograma nou no es crearà un fotograma nou "
-"automàticament. El Krita, en realitat no veu la capa 'Cicle de caminar' com "
+"automàticament. El Krita, en realitat no veu la capa «Cicle de caminar» com "
 "una capa animada en absolut!"
 
 #: ../../user_manual/animation.rst:123
@@ -320,17 +303,13 @@ msgid ".. image:: images/en/Introduction_to_animation_06.png"
 msgstr ".. image:: images/en/Introduction_to_animation_06.png"
 
 #: ../../user_manual/animation.rst:124
-#, fuzzy
-#| msgid ""
-#| "We can make it animatable by adding a frame to the timeline. |mouseright| "
-#| "a frame in the timeline to get a context menu. Choose New Frame"
 msgid ""
 "We can make it animatable by adding a frame to the timeline. |mouseright| a "
 "frame in the timeline to get a context menu. Choose :guilabel:`New Frame`."
 msgstr ""
 "Podem fer-ho animable afegint un fotograma a la línia de temps. Feu clic amb "
 "el |mouseright| sobre un fotograma a la línia de temps per obtenir un menú "
-"contextual. Trieu Fotograma nou"
+"contextual. Trieu :guilabel:`Fotograma nou`."
 
 #: ../../user_manual/animation.rst:128
 msgid ".. image:: images/en/Introduction_to_animation_07.png"
@@ -355,7 +334,7 @@ msgid ""
 "with :kbd:`Shift + ↑` to move the frame contents up."
 msgstr ""
 "Utilitzeu Copia el fotograma per a copiar el primer fotograma al segon. "
-"Després, utilitzeu la drecera :kbd:`Majús + ↑` per a moure el contingut del "
+"Després, utilitzeu la drecera :kbd:`Majús. + ↑` per a moure el contingut del "
 "fotograma cap amunt."
 
 #: ../../user_manual/animation.rst:138
@@ -445,7 +424,7 @@ msgid ""
 "otherwise it won't be copied along."
 msgstr ""
 ":kbd:`Ctrl + arrossega`. Haureu d'assegurar-vos que el primer fotograma "
-"sigui 'taronja', en cas contrari no es copiarà."
+"sigui «taronja», en cas contrari no es copiarà."
 
 #: ../../user_manual/animation.rst:170
 msgid "Now then..."
@@ -571,16 +550,13 @@ msgstr ".. image:: images/en/Introduction_to_animation_18.png"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:220
-#, fuzzy
-#| msgid ""
-#| "You can show any given layer in the timeline by doing on the layer in the "
-#| "layer docker, and toggling :guilabel:`show in timeline`."
 msgid ""
 "You can show any given layer in the timeline by doing |mouseright| on the "
 "layer in the layer docker, and toggling :guilabel:`Show in Timeline`."
 msgstr ""
-"Podeu mostrar qualsevol capa donada a la línia de temps fent-ho sobre la "
-"capa a l'acoblador capa, i alternant :guilabel:`Mostra a la línia de temps`."
+"Podeu mostrar qualsevol capa donada a la línia de temps fent clic |"
+"mouseright| sobre la capa a l'acoblador capa, i alternant :guilabel:`Mostra "
+"a la línia de temps`."
 
 #: ../../user_manual/animation.rst:224
 msgid ".. image:: images/en/Introduction_to_animation_19.png"
@@ -680,7 +656,7 @@ msgid ""
 "First let us take a sprite sheet from Open Game Art.(This is the Libre Pixel "
 "Cup male walkcycle)"
 msgstr ""
-"Primer prenguem un full d'sprites d'Open Game Art. (Aquest és el cicle de "
+"Primer prenguem un full de sprites d'Open Game Art. (Aquest és el cicle de "
 "caminar masculí de la Libre Pixel Cup)"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe

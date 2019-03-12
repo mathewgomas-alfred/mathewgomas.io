@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
+"POT-Creation-Date: 2019-03-10 03:30+0100\n"
 "PO-Revision-Date: 2019-03-07 09:28\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -130,7 +130,10 @@ msgid "The possible workarounds for this is to do either of the following:"
 msgstr "目前的解决办法有两种："
 
 #: ../../KritaFAQ.rst:71
-msgid "Turn off OpenGL in Settings --> Configure Krita --> Display."
+#, fuzzy
+#| msgid "Turn off OpenGL in Settings --> Configure Krita --> Display."
+msgid ""
+"Turn off OpenGL in :menuselection:`Settings --> Configure Krita --> Display`."
 msgstr ""
 "在菜单 → Settings (设置) → Configure Krita (配置 Krita) → Display (显示) 页"
 "面，关闭“Canvas Graphics Acceleration (画布图形加速)”。"
@@ -217,15 +220,30 @@ msgid ""
 msgstr "在某些情况下你可能还要移除“kritaopenglrc”和“kritadisplayrc”文件。"
 
 #: ../../KritaFAQ.rst:110
+#, fuzzy
+#| msgid ""
+#| "If the configuration was causing a crash, don't delete the mentioned "
+#| "file, but instead rename and send it to us in order for us to figure what "
+#| "caused the crash. .. If you have installed Krita through the Windows "
+#| "store, the kritarc file will be in another location"
 msgid ""
 "If the configuration was causing a crash, don't delete the mentioned file, "
 "but instead rename and send it to us in order for us to figure what caused "
-"the crash. .. If you have installed Krita through the Windows store, the "
-"kritarc file will be in another location"
+"the crash."
 msgstr ""
 "如果你对 Krita 进行配置之后发生了崩溃，不要删除上述文件。将其重命名之后发送一"
 "份给我们，这样可以帮助我们查明造成崩溃的原因。如果你从 Windows Store 安装 "
 "Krita，kritarc 文件会被存放在另外的位置"
+
+#: ../../KritaFAQ.rst:113
+#, fuzzy
+#| msgid ""
+#| "If you installed Krita in the Windows Store, your custom resources will "
+#| "be in a location like:"
+msgid ""
+"If you have installed Krita through the Windows store, the kritarc file will "
+"be in another location"
+msgstr "如果你从 Windows Store 安装 Krita，你的自定义资源会在如下位置："
 
 #: ../../KritaFAQ.rst:115
 msgid ""
@@ -297,11 +315,17 @@ msgid "Causes for this could be the following:"
 msgstr "造成问题的原因可能是："
 
 #: ../../KritaFAQ.rst:139
+#, fuzzy
+#| msgid ""
+#| "It might be that your download got corrupted and is missing files (common "
+#| "with bad wifi and bad internet connection in general), in that case, try "
+#| "to find a better internet connection before trying to download again. "
+#| "Krita should be around 80 to 100 mb in size when downloading."
 msgid ""
 "It might be that your download got corrupted and is missing files (common "
 "with bad wifi and bad internet connection in general), in that case, try to "
 "find a better internet connection before trying to download again. Krita "
-"should be around 80 to 100 mb in size when downloading."
+"should be around 80 to 100 MB in size when downloading."
 msgstr ""
 "你下载到的 Krita 软件包是损坏的，因此缺少了这部分文件。在网络不稳定，例如在使"
 "用信号较差的 WiFi 时，下载文件比较容易损坏。你可以找网络稳定可靠的场所重新下"
@@ -320,9 +344,14 @@ msgstr ""
 "其他问题，我们建议你联系计算机专业人员对其进行检查。"
 
 #: ../../KritaFAQ.rst:141
+#, fuzzy
+#| msgid ""
+#| "Some unzippers don't unpack our zipfiles correctly. The native ones on "
+#| "windows, OSX and most linux distributions should be just fine, and we "
+#| "recommend using them."
 msgid ""
 "Some unzippers don't unpack our zipfiles correctly. The native ones on "
-"windows, OSX and most linux distributions should be just fine, and we "
+"Windows, OSX and most Linux distributions should be just fine, and we "
 "recommend using them."
 msgstr ""
 "某些解压缩工具无法正确处理我们的压缩包。Windows、OSX 和绝大多数的 Linux 发行"
@@ -341,12 +370,21 @@ msgid "What Graphics Cards does Krita support?"
 msgstr "Krita 支持什么显卡？"
 
 #: ../../KritaFAQ.rst:147
+#, fuzzy
+#| msgid ""
+#| "Krita can use OpenGL to accelerate painting and canvas zooming, rotation "
+#| "and panning. Nvidia and recent Intel GPUs give the best results. Make "
+#| "sure your OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s "
+#| "are known to be troublesome, especially with the proprietary drivers on "
+#| "Linux. However, it works perfectly with the Radeon free driver on linux "
+#| "for supported AMD GPU. Try to get a graphics card that can support OpenGL "
+#| "3.2 or above for the best results, some examples:"
 msgid ""
 "Krita can use OpenGL to accelerate painting and canvas zooming, rotation and "
 "panning. Nvidia and recent Intel GPUs give the best results. Make sure your "
 "OpenGL drivers support OpenGL 3.2 as the minimum. AMD/ATI GPU’s are known to "
 "be troublesome, especially with the proprietary drivers on Linux. However, "
-"it works perfectly with the Radeon free driver on linux for supported AMD "
+"it works perfectly with the Radeon free driver on Linux for supported AMD "
 "GPU. Try to get a graphics card that can support OpenGL 3.2 or above for the "
 "best results, some examples:"
 msgstr ""
@@ -596,7 +634,9 @@ msgid "On the menu, select :menuselection:`Settings --> Configure Krita`"
 msgstr "在菜单上选择 :menuselection:`设置 --> 配置 Krita`"
 
 #: ../../KritaFAQ.rst:225
-msgid "On General page, switch to :guilabel:`Window` tab."
+#, fuzzy
+#| msgid "On General page, switch to :guilabel:`Window` tab."
+msgid "On :guilabel:`General` page, switch to :guilabel:`Window` tab."
 msgstr "在常规页面上，切换到 :guilabel:`窗口` 标签页"
 
 #: ../../KritaFAQ.rst:226
@@ -630,9 +670,14 @@ msgstr ""
 "正确配置后，Krita 不需要任何设置即可正常使用。"
 
 #: ../../KritaFAQ.rst:240
+#, fuzzy
+#| msgid ""
+#| "On Windows, you need to either install the Wintab drivers for your "
+#| "tablet, or enable the Windows 8 Pointer Input option in Krita's settings."
 msgid ""
 "On Windows, you need to either install the Wintab drivers for your tablet, "
-"or enable the Windows 8 Pointer Input option in Krita's settings."
+"or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's "
+"settings."
 msgstr ""
 "在 Windows 下面，你可以安装数位板的驱动程序来使用 wintab 驱动，也可以在 "
 "Krita 的设置里面启用 Windows 8+ 指针输入。"
@@ -812,9 +857,13 @@ msgid "Touch a tablet with your stylus so Krita would recognize it."
 msgstr "用压感笔触碰数位板，这时 Krita 会自动对其进行识别。"
 
 #: ../../KritaFAQ.rst:302
+#, fuzzy
+#| msgid ""
+#| "You will see a special dialog asking for the real screen resolution. "
+#| "Choose the correct value or enter it manually and press OK."
 msgid ""
 "You will see a special dialog asking for the real screen resolution. Choose "
-"the correct value or enter it manually and press OK."
+"the correct value or enter it manually and press :guilabel:`OK`."
 msgstr ""
 "Krita 会弹出一个对话框来询问正确的显示器分辨率。选择正确的数值或者手动输入，"
 "然后点击确定 (OK)。"
@@ -848,8 +897,12 @@ msgstr ""
 "的设置了。"
 
 #: ../../KritaFAQ.rst:311
+#, fuzzy
+#| msgid ""
+#| "This will reset your tablets configuration, thus you will need to "
+#| "recalibrate/reconfigure it."
 msgid ""
-"This will reset your tablets configuration, thus you will need to "
+"This will reset your tablet's configuration, thus you will need to "
 "recalibrate/reconfigure it."
 msgstr "这个操作会将数位板的全部设置进行复位，因此你将需要重新配置或校准它。"
 
@@ -1018,8 +1071,12 @@ msgstr ""
 "源文件夹`。"
 
 #: ../../KritaFAQ.rst:380
+#, fuzzy
+#| msgid ""
+#| "Then go into the paintoppressets folder and remove the latest created "
+#| "file that you made of your preset."
 msgid ""
-"Then go into the paintoppressets folder and remove the latest created file "
+"Then go into the *paintoppresets* folder and remove the latest created file "
 "that you made of your preset."
 msgstr "然后进入“paintoppressets”文件夹，删除你刚才创建的的预设文件。"
 
@@ -1075,7 +1132,7 @@ msgstr "造成 Krita 运行缓慢的原因有很多，下面仅列出一些常�
 
 #: ../../KritaFAQ.rst:403
 msgid ""
-"Something else is hogging the cpu or the memory: spotify and other electron "
+"Something else is hogging the CPU or the memory: spotify and other electron "
 "apps have been known to do this."
 msgstr ""
 
@@ -1088,19 +1145,27 @@ msgstr ""
 "等。"
 
 #: ../../KritaFAQ.rst:405
+#, fuzzy
+#| msgid ""
+#| "you are working on images that are too big for your hardware (dimensions, "
+#| "channel depth or number of layers)"
 msgid ""
-"you are working on images that are too big for your hardware (dimensions, "
+"You are working on images that are too big for your hardware (dimensions, "
 "channel depth or number of layers)"
 msgstr ""
 "图像太大，这可以是尺寸太大、颜色通道深度太高、图层数目过多等，你的硬件性能不"
 "足以流畅地处理它。"
 
 #: ../../KritaFAQ.rst:406
-msgid "you do not have canvas acceleration enabled"
+#, fuzzy
+#| msgid "you do not have canvas acceleration enabled"
+msgid "You do not have canvas acceleration enabled"
 msgstr "你没有在 Krita 中启用画布加速功能"
 
 #: ../../KritaFAQ.rst:408
-msgid "Please also check this page: https://phabricator.kde.org/T7199"
+#, fuzzy
+#| msgid "Please also check this page: https://phabricator.kde.org/T7199"
+msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
 msgstr "更多详情：https://phabricator.kde.org/T7199"
 
 #: ../../KritaFAQ.rst:411
@@ -1151,19 +1216,29 @@ msgid "For NVidia, try a 16-bit floating point color space."
 msgstr "如果是 Nvidia 显卡，可以尝试使用 16 位浮点的色彩空间。"
 
 #: ../../KritaFAQ.rst:424
+#, fuzzy
+#| msgid ""
+#| "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
+#| "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
+#| "Configure Krita --> Performance`. This isn't needed if you've got an AMD "
+#| "threadrippercpu."
 msgid ""
 "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
 "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
 "Configure Krita --> Performance`. This isn't needed if you've got an AMD "
-"threadrippercpu."
+"Threadripper™ CPU."
 msgstr ""
 "如果是较为老旧的 AMD CPU，请禁用矢量优化，此功能在 AMD CPU上有问题：:"
 "menuselection:`设置 --> 配置 Krita --> 性能`。如果使用的是教新的 "
 "Threadripper AMD CPU，你不需要更改此选项。"
 
 #: ../../KritaFAQ.rst:425
+#, fuzzy
+#| msgid ""
+#| "It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 "
+#| "gig is the preferable minimum."
 msgid ""
-"It's a fairly memory hungry program, so 2GB of ram is the minimum, and 4 gig "
+"It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
 msgstr ""
 "Krita 是一个相当消耗内存的应用程序，2 GB 的内存是最低限度，我们建议至少要有 "
@@ -1231,12 +1306,19 @@ msgid ""
 msgstr "为什么变形工具在操作过程中图像很清晰，但输出结果时却变得比较模糊？"
 
 #: ../../KritaFAQ.rst:444
+#, fuzzy
+#| msgid ""
+#| "The transform tool makes a preview that you edit before computing the "
+#| "finalized version. As this preview is using the screen resolution rather "
+#| "than the image resolution, it may feel that the result is blurry compared "
+#| "to the preview. See https://forum.kde.org/viewtopic.php?f=139&t=127269 "
+#| "for more info."
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
 "than the image resolution, it may feel that the result is blurry compared to "
-"the preview. See https://forum.kde.org/viewtopic.php?f=139&t=127269 for more "
-"info."
+"the preview. See `this page <https://forum.kde.org/viewtopic.php?"
+"f=139&t=127269>`_ for more info."
 msgstr ""
 "变形工具在输出结果之前会生成预览图像。预览以屏幕分辨率为准，输出结果则以图像"
 "分辨率为准，因此可能会发生实际结果看起来比预览模糊的现象。详情请看：https://"

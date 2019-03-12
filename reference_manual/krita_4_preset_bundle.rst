@@ -170,6 +170,6 @@ Adding textures is not only useful for the 3D artist or video-game artist: in ma
 Stamps
 ------
 
-The stamps are bit similar to the texture category. Stamps often paint a pattern that is easier to recognize than if you tried to paint it manually. The results appear more as decorations than for normal painting methods. .
+The stamps are bit similar to the texture category. Stamps often paint a pattern that is easier to recognize than if you tried to paint it manually. The results appear more as decorations than for normal painting methods.
 
 .. image:: /images/en/Krita4_z-brush-family.jpg

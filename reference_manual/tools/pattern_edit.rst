@@ -21,7 +21,7 @@ Pattern Editing Tool
 
     The pattern editing tool has been removed in 4.0, currently there's no way to edit pattern fills for vectors
 
-The Pattern editing tool works on Vector Shapes that use a Pattern fill. On these shapes, The Pattern Editing Tool allows you to change the size, ratio and origin of a pattern.
+The Pattern editing tool works on Vector Shapes that use a Pattern fill. On these shapes, the Pattern Editing Tool allows you to change the size, ratio and origin of a pattern.
 
 On Canvas-editing
 -----------------

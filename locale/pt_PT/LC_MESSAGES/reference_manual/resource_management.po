@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-08 01:15+0000\n"
+"PO-Revision-Date: 2019-03-11 17:39+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en krita guilabel image Kritamouseleft Bundles\n"
+"X-POFile-SpellExtra: Brushpreset images filters nomeparcial alt Creating\n"
+"X-POFile-SpellExtra: Tags Nomemarca menuselection bundle kbd Enter Krita\n"
+"X-POFile-SpellExtra: Kritamousescroll icons mousescroll Manageresources\n"
+"X-POFile-SpellExtra: mouseleft\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -55,7 +60,7 @@ msgid ""
 "has variety of resources and also has a good resource management starting "
 "from 2.9, making it really easy for artists to share and collate all the "
 "resources together"
-msgstr ""
+msgstr "Os recursos são pedaços modulares de dados, como predefinições de pincéis ou padrões. O Krita tem uma grande variedade de recursos e também tem uma boa gestão de recursos desde a versão 2.9, tornando-se simples para os artistas partilharem e recolher todos os recursos em conjunto"
 
 #: ../../reference_manual/resource_management.rst:21
 msgid "Bundles"
@@ -83,20 +88,20 @@ msgid ""
 "brush preset docker, pattern docker etc. you can |mouseleft| the plus icon "
 "in the docker and add a tag name. in addition to adding you can rename and "
 "delete a tag as well."
-msgstr ""
+msgstr "O Krita também tem um sistema robusto de criação de marcas para poder gerir os recursos na hora enquanto pinta. Todos os recursos do Krita poderão ser marcados. Estas marcas poderão ser adicionadas com o gestor de recursos, mas também com as áreas acopláveis respectivas, como a área de predefinições de pincéis, a área de padrões, etc. Poderá carregar com o |mouseleft| sobre o sinal '+' da área acoplável e adicionar o nome de uma marca. Para além de adicionar marcas, poderá mudar os seus nomes e apagá-las."
 
 #: ../../reference_manual/resource_management.rst:33
 msgid ""
 "Resources can belong to one or more tags.  For example, you may have a Brush "
 "Preset of a favorite **Ink Pen** variant and have it tagged so it shows in "
 "up in your Inking, Painting, Comics and Favorites groups of brushes."
-msgstr ""
+msgstr "Os recursos poderão pertencer a uma ou mais marcas. Por exemplo, poderá ter uma Predefinição de Pincel de uma variante favorita da **Caneta de Tinta** e tê-la marcada, para que apareça nos seus grupos de pincéis de Pintura, Tintas, Bandas Desenhadas e Favoritos."
 
 #: ../../reference_manual/resource_management.rst:34
 msgid ""
 "Brushes in the \"Predefined\" tab of the Brush Settings Editor can be also "
 "tagged and grouped for convenience."
-msgstr ""
+msgstr "Os pincéis na página \"Predefinido\" do Editor de Configurações dos Pincéis também podem ser marcados e agrupados por conveniência."
 
 #: ../../reference_manual/resource_management.rst:37
 msgid "Filtering"
@@ -107,11 +112,11 @@ msgid ""
 "Some dockers, for example the brush preset docker as shown below, have a "
 "resource filter, which functions like a powerful search bar for the resource "
 "in question."
-msgstr ""
+msgstr "Algumas áreas acopláveis, como por exemplo a área de predefinições dos pincéis apresentada em baixo, têm um filtro de recursos, que funciona como uma barra de pesquisa poderosa para o recurso em questão."
 
 #: ../../reference_manual/resource_management.rst:43
 msgid ".. image:: images/en/Brushpreset-filters.png"
-msgstr ""
+msgstr ".. image:: images/en/Brushpreset-filters.png"
 
 #: ../../reference_manual/resource_management.rst:44
 msgid ""
@@ -119,35 +124,35 @@ msgid ""
 "you want. When you select any tag from the tag dropdown and want to include "
 "brush presets from other tags as well then you can add filters the following "
 "way:"
-msgstr ""
+msgstr "Poderá indicar o nome do pincel ou o nome da marca para obter rapidamente uma lista das predefinições de pincéis que deseja. Quando seleccionar qualquer marca na lista de marcas e quiser também incluir as predefinições de pincéis das outras marcas, então poderá adicionar filtros da seguinte forma:"
 
 #: ../../reference_manual/resource_management.rst:46
 msgid ""
 "To filter based on the partial, case insensitive name of the resources you "
 "can add ``partialname`` or ``!partialname``"
-msgstr ""
+msgstr "Para filtrar com base no nome parcial e sem distinção entre maiúsculas e minúsculas, poderá adicionar ``nomeparcial`` ou ``!nomeparcial``"
 
 #: ../../reference_manual/resource_management.rst:47
 msgid ""
 "To include other Tags type the respective name of the tag in square brackets "
 "like this ``[Tagname]`` or to exclude a tag type ``![Tagname]``."
-msgstr ""
+msgstr "Para incluir outras marcas, escreva o nome respectivo da marca entre parêntesis rectos, como por exemplo ``[Nomemarca]`` ou para excluir uma marca, escreva ``![Nomemarca]``."
 
 #: ../../reference_manual/resource_management.rst:48
 msgid ""
 "For case sensitive matching of preset name type ``\"Preset name\"`` or ``! "
 "\"Preset name\"`` to exclude."
-msgstr ""
+msgstr "Para a correspondência com distinção de maiúsculas ou minúsculas do nome da predefinição, escreva ``\"Nome da predefinição\"`` ou ``! \"Nome da predefinição\"`` para excluir."
 
 #: ../../reference_manual/resource_management.rst:51
 msgid "An incredibly quick way to save a group or brushes into a tag is to:"
-msgstr ""
+msgstr "Uma forma incrivelmente rápida de gravar um grupo ou pincéis individuais numa marca é:"
 
 #: ../../reference_manual/resource_management.rst:53
 msgid ""
 "Create a new tag by |mouseleft| on the green plus sign.  This will empty out "
 "the contents of the Brush Preset docker."
-msgstr ""
+msgstr "Criar uma nova marca com o |mouseleft| sobre o sinal '+' verde. Isto irá esvaziar o conteúdo da área de Predefinições dos Pincéis."
 
 #: ../../reference_manual/resource_management.rst:54
 msgid ""
@@ -156,14 +161,14 @@ msgid ""
 "to group.  For instance: if you type **Pencil** in the filter box you will "
 "get all Brush Presets with **Pencil** somewhere in their name.  Now you have "
 "all the Pencil-related Brush Presets together in one place."
-msgstr ""
+msgstr "Use o :guilabel:`Filtro de Recursos`, no fundo da área de :guilabel:`Predefinições dos Pincéis` ou no :guilabel:`Editor de Predefinições de Pincéis`, para escrever o que deseja agrupar. Por exemplo: se escrever **Lápis** no campo de filtragem, irá obter todas as Predefinições de Pincéis com **Lápis** algures no nome. Agora terá todas as Predefinições de Pincéis relacionadas com Lápis num único local."
 
 #: ../../reference_manual/resource_management.rst:55
 msgid ""
 "To finish, click the :guilabel:`Save` button (small disk icon to the right "
 "of the :guilabel:`Resource Filter` box) or press :kbd:`Enter` and all the "
 "items will be saved with the new tag you created."
-msgstr ""
+msgstr "Para terminar, carregue no botão :guilabel:`Gravar` (o pequeno ícone da disquete à direita da área do :guilabel:`Filtro de Recursos`) ou carregue em :kbd:`Enter` para que todos os itens sejam gravados com a nova marca criada por si."
 
 #: ../../reference_manual/resource_management.rst:57
 msgid ""
@@ -171,11 +176,11 @@ msgid ""
 "you have to work with all you have to do is use the pull-down and select "
 "'''Pencils'''.  The Resource Filter works the same way in other parts of "
 "Krita so be on the lookout for it!"
-msgstr ""
+msgstr "Agora, sempre que quiser abrir a sua \"caixa de lápis digital\" e ver o que tem ao seu dispor é usar a lista e seleccionar '''Lápis'''. O Filtro de Recursos funciona da mesma forma que outras partes do Krita, por isso esteja atento a ele!"
 
 #: ../../reference_manual/resource_management.rst:60
 msgid "Resource Zooming"
-msgstr ""
+msgstr "Ampliação dos Recursos"
 
 #: ../../reference_manual/resource_management.rst:60
 msgid ""
@@ -183,18 +188,18 @@ msgid ""
 "and pattern to be small you can make them bigger or '''zoom in'''. All "
 "resource selectors can be zoomed in and out of, by hovering over the "
 "selector and using :kbd:`Ctrl +` |mousescroll|"
-msgstr ""
+msgstr "Se achar que as miniaturas dos recursos, como os quadrados de cores ou dos padrões dos pincéis, são pequenas, podê-las-á tornar maiores, ou seja, '''ampliá-las'''. Todos os selectores de recursos podem ser ampliados ou reduzidos, ao passar o cursor sobre o selector e usando o :kbd:`Ctrl +` |mousescroll|"
 
 #: ../../reference_manual/resource_management.rst:63
 msgid "Managing Resources"
-msgstr ""
+msgstr "Gestão dos Recursos"
 
 #: ../../reference_manual/resource_management.rst:65
 msgid ""
 "As mentioned earlier Krita has a flexible resource management system. "
 "Starting from version 2.9 you can share various resources mentioned above by "
 "sharing a single compressed zip file created within Krita."
-msgstr ""
+msgstr "Como foi mencionado anteriormente, o Krita tem um sistema flexível de gestão de recursos. A começar pela versão 2.9, poderá partilhar vários recursos mencionados acima, partilhando um único ficheiro ZIP comprimido criado dentro do Krita."
 
 #: ../../reference_manual/resource_management.rst:67
 msgid ""
@@ -202,11 +207,11 @@ msgid ""
 "easy for the artists to prepare these bundle files. You can open manage "
 "resource section by going to :menuselection:`Settings`   then :menuselection:"
 "`Manage Resources`"
-msgstr ""
+msgstr "A secção de gestão de recursos na configuração foi também remodelada para facilitar aos artistas preparar estes ficheiros de pacotes. Poderá abrir a secção de gestão de recursos se for a :menuselection:`Configuração` e a :menuselection:`Gerir os Recursos`"
 
 #: ../../reference_manual/resource_management.rst:73
 msgid "Importing Bundles"
-msgstr ""
+msgstr "Importação de Pacotes"
 
 #: ../../reference_manual/resource_management.rst:75
 msgid ""
@@ -218,22 +223,22 @@ msgid ""
 "need the bundle you can temporarily make it inactive by selecting it and "
 "clicking on the arrow button, this will move it to the :guilabel:`Inactive` "
 "section."
-msgstr ""
+msgstr "Para importar um pacote, carregue no botão :guilabel:`Importar Pacotes/Recursos` no canto superior direito da janela. Seleccione o formato de ficheiros .bundle no tipo de ficheiros, caso não esteja já seleccionado, escolha a pasta para onde transferiu o pacote, seleccione-o e carregue em Abrir. Assim que tiver importado o pacote, o mesmo será apresentado na secção do :guilabel:`Pacote Activo`. Se não precisar do pacote, podê-lo-á tornar temporariamente inactivo, seleccionando-o e carregando no botão da seta, sendo que ele irá passar para a secção :guilabel:`Inactivo`."
 
 #: ../../reference_manual/resource_management.rst:79
 msgid "Creating your own Bundle"
-msgstr ""
+msgstr "Criar o seu Próprio Pacote"
 
 #: ../../reference_manual/resource_management.rst:81
 msgid ""
 "You can create your own bundle from the resources of your choice. Click on "
 "the :guilabel:`Create bundle` button, This will open a dialog box as shown "
 "below"
-msgstr ""
+msgstr "Poderá criar o seu próprio pacote a partir dos recursos à sua escolha. Carregue no botão :guilabel:`Criar um pacote`. O mesmo irá abrir uma janela como aparece abaixo"
 
 #: ../../reference_manual/resource_management.rst:84
 msgid ".. image:: images/en/Creating-bundle.png"
-msgstr ""
+msgstr ".. image:: images/en/Creating-bundle.png"
 
 #: ../../reference_manual/resource_management.rst:85
 msgid ""
@@ -242,7 +247,7 @@ msgid ""
 "a list of available resources. Choose the type of resource you wish to add "
 "in to the bundle from the drop-down above and add it to the bundle by "
 "selecting a resource and clicking on the arrow button."
-msgstr ""
+msgstr "A secção do lado esquerdo serve para preencher informações sobre o pacote, como o nome do autor, a página Web, o e-mail, o ícone do pacote, etc., enquanto o lado direito mostra uma lista com os recursos disponíveis. Escolha o tipo de recurso que deseja adicionar ao grupo na lista acima e adicione-o ao pacote, seleccionando para tal um recurso e carregando no botão da seta."
 
 #: ../../reference_manual/resource_management.rst:90
 msgid ""
@@ -250,7 +255,7 @@ msgid ""
 "are adding to the bundle. If you don't provide the brush tips then the brush "
 "presets loaded from this bundle will have a 'X' mark on the thumbnail "
 "denoting that the texture is missing. And the brush preset won't be the same"
-msgstr ""
+msgstr "Certifique-se que adiciona as pontas dos pincéis usadas na predefinição respectiva da operação de pintura que estará a adicionar ao grupo. Se não oferecer as pontas de pincéis, então as predefinições de pincéis carregadas neste pacote terão uma marca 'X' na miniatura, que identifica que a textura está em falta. Por outro lado, a predefinição do pincel não será a mesma"
 
 #: ../../reference_manual/resource_management.rst:92
 msgid ""
@@ -258,11 +263,11 @@ msgid ""
 "the save button, the bundle will be saved in the location you have "
 "specified. You can then share this bundle with other artists or load it on "
 "other workstations."
-msgstr ""
+msgstr "Assim que tiver adicionado todos os recursos, poderá criar um pacote se carregar no botão para gravar, sendo que o pacote será gravado na localização indicada por si. Poderá então partilhar este pacote com os outros artistas ou carregá-lo noutras estações de trabalho."
 
 #: ../../reference_manual/resource_management.rst:95
 msgid "Deleting Backup files"
-msgstr ""
+msgstr "Apagar as Cópias de Segurança"
 
 #: ../../reference_manual/resource_management.rst:97
 msgid ""
@@ -270,11 +275,11 @@ msgid ""
 "physical copy of the preset. It just adds it to a black list so that Next "
 "time when you start Krita the presets from this list are not loaded. To "
 "delete the brushes from this list click on delete backup files"
-msgstr ""
+msgstr "Quando necessitar de apagar uma predefinição do Krita, o mesmo não irá apagar de facto a cópia física da predefinição. Simplesmente adiciona-a a uma lista de proibições para que, da próxima vez que iniciar o Krita, as predefinições desta lista não sejam carregadas. Para apagar os pincéis desta lista, carregue no botão para apagar as cópias de segurança"
 
 #: ../../reference_manual/resource_management.rst:100
 msgid "Deleting Imported Bundles"
-msgstr ""
+msgstr "Apagar os Pacotes Importados"
 
 #: ../../reference_manual/resource_management.rst:102
 msgid ""
@@ -284,8 +289,8 @@ msgid ""
 "explorer. Go inside the bundles folder and delete the bundle file which you "
 "don't need any more. The next time you start Krita the bundle and its "
 "associated resources will not be loaded."
-msgstr ""
+msgstr "No caso de desejar apagar de forma permanente os pacotes que tiver importado, carregue no botão :guilabel:`Abrir a Pasta de Recursos` na janela para :guilabel:`Gerir os Recursos`. Isto irá abrir a pasta de recursos no seu gestor / explorador de ficheiros. Vá dentro da pasta de pacotes e apague o ficheiro do pacote que não necessita mais. Da próxima vez que iniciar o Krita, o pacote e os seus recursos associados não serão carregados."
 
 #: ../../reference_manual/resource_management.rst:105
 msgid "Resource Types in Krita"
-msgstr ""
+msgstr "Tipos de Recursos no Krita"

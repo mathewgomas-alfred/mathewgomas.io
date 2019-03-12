@@ -90,11 +90,7 @@ Types of Layers
 .. image:: /images/en/500px-Krita-types-of-layers.png
     :width: 600
 
-The image above shows the various types of layers in :ref:`layer_docker`, Each
-layer type has a different purpose for example all the vector elements can be
-only placed on a vector layer and similarly normal raster elements are mostly
-on the paint layer, :ref:`cat_layers_and_masks` page contains more information
-about these types layers.
+The image above shows the various types of layers in :ref:`layer_docker`. Each layer type has a different purpose for example all the vector elements can be only placed on a vector layer and similarly normal raster elements are mostly on the paint layer, :ref:`cat_layers_and_masks` page contains more information about these types layers.
 
 Now Let us see how these layers are composited in Krita.
 
@@ -160,7 +156,7 @@ without actually changing the original source image permanently, the
 changes are just added as filters or masks over the original image while
 keeping it intact, this helps a lot when your workflow requires constant
 back and forth. You can go back to original image with a click of a
-button, Just hide the filter or mask you have your initial image.
+button. Just hide the filter or mask you have your initial image.
 
 You can add various filters to a layer with Filter mask, or add Filter
 layer which will affect the whole image. Layers can also be transformed non-destructively with the transformation masks, and even have portions temporarily hidden with a Transparent Mask. Non-destructive effects like these are very useful when you change your mind later, or need to make a set of variations of a given image.

@@ -233,6 +233,7 @@ When Krita Starts
     .. versionadded:: 4.1
 Save session when Krita closes
     Save the current open windows, documents and the like into the current session when closing Krita so you can resume where you left off.
+
     .. versionadded:: 4.1
 Upon importing Images as Layers, convert to the image color space.
     This makes sure that layers are the same color space as the image, necessary for saving to PSD.

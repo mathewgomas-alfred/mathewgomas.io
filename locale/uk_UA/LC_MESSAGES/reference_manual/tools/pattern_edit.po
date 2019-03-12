@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___pattern_edit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-05 03:33+0100\n"
-"PO-Revision-Date: 2019-03-09 11:04+0200\n"
+"POT-Creation-Date: 2019-03-10 03:30+0100\n"
+"PO-Revision-Date: 2019-03-10 16:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -55,6 +55,9 @@ msgid ""
 "these shapes, The Pattern Editing Tool allows you to change the size, ratio "
 "and origin of a pattern."
 msgstr ""
+"Інструмент редагування візерунків працює із векторними формами, які "
+"заповнено візерунком. На цих формах інструмент редагування візерунків "
+"уможливлює зміну розміру, пропорцій та походження візерунка."
 
 #: ../../reference_manual/tools/pattern_edit.rst:27
 msgid "On Canvas-editing"
@@ -65,6 +68,9 @@ msgid ""
 "You can change the origin by click dragging the upper node, this is only "
 "possible in Tiled mode."
 msgstr ""
+"Щоб змінити походження візерунка наведіть вказівник миші на верхній вузол, "
+"натисніть і утримуйте ліву кнопку миші і перетягніть вузол. Це можливо лише "
+"у режимі «Плиткою»."
 
 #: ../../reference_manual/tools/pattern_edit.rst:31
 msgid ""
@@ -72,6 +78,10 @@ msgid ""
 "no way to constrain the ratio in on-canvas editing, this is only possible in "
 "Original and Tiled mode."
 msgstr ""
+"Щоб змінити розмір і пропорції, затисніть і перетягніть нижній вузол. Під "
+"час редагування безпосередньо на полотні не передбачено можливості обмеження "
+"пропорцій (фіксування співвідношення висота-ширина). Така зміна пропорцій "
+"можлива лише у режимі «Оригінал» і «Плиткою»."
 
 #: ../../reference_manual/tools/pattern_edit.rst:34
 msgid "Tool Options"
@@ -105,8 +115,8 @@ msgstr "Мозаїка (типовий):"
 #: ../../reference_manual/tools/pattern_edit.rst:46
 msgid "This will let the pattern appear tiled in the x and y direction."
 msgstr ""
-"За допомогою цього режиму можна створити мозаїку з плиток із візерунком у"
-" напрямках осей x та y."
+"За допомогою цього режиму можна створити мозаїку з плиток із візерунком у "
+"напрямках осей x та y."
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "Repeat:"
@@ -119,12 +129,12 @@ msgstr "Розтягнути:"
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "This will stretch the Pattern image to the shape."
 msgstr ""
-"За допомогою цього режиму можна розтягнути зображення візерунка до розмірів"
-" форми."
+"За допомогою цього режиму можна розтягнути зображення візерунка до розмірів "
+"форми."
 
 #: ../../reference_manual/tools/pattern_edit.rst:51
 msgid "pattern origin. This can be set to"
-msgstr ""
+msgstr "Оригінал візерунка. Можливі варіанти:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:53
 msgid "Top-left"
@@ -224,8 +234,8 @@ msgstr "Висота у пікселях."
 
 #: ../../reference_manual/tools/pattern_edit.rst:81
 msgid ""
-"And then there's Patterns, which is a mini pattern docker, and where you can "
-"pick the pattern used for the fill."
+"And then there's :guilabel:`Patterns`, which is a mini pattern docker, and "
+"where you can pick the pattern used for the fill."
 msgstr ""
-"Крім того, передбачено :guilabel:`Візерунки` — невеличку бічну панель, за"
-" допомогою якої ви можете вибрати візерунок для заповнення."
+"Крім того, передбачено :guilabel:`Візерунки` — невеличку бічну панель, за "
+"допомогою якої ви можете вибрати візерунок для заповнення."

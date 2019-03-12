@@ -6,11 +6,11 @@
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___getting_started___starting_krita\n"
+"Project-Id-Version: docs_krita_org_user_manual___getting_started___starting_kr"
+"ita\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 00:18+0100\n"
+"PO-Revision-Date: 2019-03-11 22:18+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 # skip-rule: t-sp_2p
 #: ../../<rst_epilog>:22
@@ -52,6 +52,11 @@ msgid ""
 "you want to open an existing image, either use :menuselection:`File --> "
 "Open` or drag the image from your computer into Krita's window."
 msgstr ""
+"De manera predeterminada no hi haurà llenç ni un document nou obert. Per a "
+"crear un llenç nou, haureu de crear un document nou des del menú :guilabel:"
+"`Fitxer`. Si voleu obrir una imatge existent, empreu :menuselection:`Fitxer "
+"--> Obre` o arrossegueu la imatge des del vostre ordinador cap a la finestra "
+"del Krita."
 
 #: ../../user_manual/getting_started/starting_krita.rst:30
 msgid "Creating a New Document"
@@ -59,21 +64,24 @@ msgstr "Crear un document nou"
 
 #: ../../user_manual/getting_started/starting_krita.rst:32
 msgid "A new document can be created as follows."
-msgstr ""
+msgstr "Es pot crear un document nou de la manera següent."
 
 #: ../../user_manual/getting_started/starting_krita.rst:34
 msgid "Click on :guilabel:`File` from the application menu at the top."
 msgstr ""
+"Feu clic a :guilabel:`Fitxer` des del menú de l'aplicació a la part superior."
 
 #: ../../user_manual/getting_started/starting_krita.rst:35
 msgid ""
 "Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + "
 "N`."
 msgstr ""
+"Després feu clic a :guilabel:`Nova`. O podeu fer-ho prement la drecera :kbd:"
+"`Ctrl + N`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:36
 msgid "Now you will get a New Document dialog box as shown below:"
-msgstr ""
+msgstr "Ara obtindreu un diàleg de Document nou com es mostra a continuació:"
 
 #: ../../user_manual/getting_started/starting_krita.rst:39
 msgid ".. image:: images/en/Krita_newfile.png"
@@ -84,6 +92,8 @@ msgid ""
 "Krita is a pretty complex program that can handle a lot of different files, "
 "so let's go through this step by step:"
 msgstr ""
+"El Krita és un programa força complex que admet molts fitxers diferents, de "
+"manera que vegem-ho pas a pas:"
 
 #: ../../user_manual/getting_started/starting_krita.rst:43
 msgid "Custom Document"
@@ -94,6 +104,9 @@ msgid ""
 "From this section you can create a document according to your requirements: "
 "you can specify the dimensions, color model, depth, resolution, etc."
 msgstr ""
+"Des d'aquesta secció podreu crear un document segons els vostres requisits: "
+"podeu especificar les dimensions, el model de color, la profunditat, la "
+"resolució, etc."
 
 #: ../../user_manual/getting_started/starting_krita.rst:47
 msgid ""
@@ -102,12 +115,19 @@ msgid ""
 "file, and Krita will use it for the auto-save functionality as well. If you "
 "leave it empty, the document will be referred to as 'Unnamed' by default."
 msgstr ""
+"En el camp de la part superior de la pestanya :guilabel:`Dimensions`, podreu "
+"definir un nom per al document nou. Aquest nom apareixerà a les metadades "
+"del fitxer, i el Krita també el farà servir per a la característica de "
+"desament automàtic. Si el deixeu buit, el document s'anomenarà «Sense nom» "
+"de manera predeterminada."
 
 #: ../../user_manual/getting_started/starting_krita.rst:49
 msgid ""
 "From the Predefined drop-down you can select predefined pixel sizes and PPI "
 "(pixels per inch)."
 msgstr ""
+"Des del menú desplegable predefinit podreu seleccionar mides de píxels "
+"predefinides i els PPP (píxels per polzada)."
 
 #: ../../user_manual/getting_started/starting_krita.rst:51
 msgid ""
@@ -116,6 +136,10 @@ msgid ""
 "predefined preset for your future use by giving a name in the Save As field "
 "and clicking on the Save button."
 msgstr ""
+"Podeu establir dimensions personalitzades i l'orientació del document des "
+"dels camps d'entrada a sota del menú desplegable predefinit. També es pot "
+"desar com a nova configuració amb valors predefinits per al seu ús futur, "
+"indicant un nom al camp «Desa com a» i fent clic al botó «Desa»."
 
 #: ../../user_manual/getting_started/starting_krita.rst:53
 msgid ""
@@ -123,6 +147,9 @@ msgid ""
 "can select the color model and the bit-depth. Check :ref:"
 "`color_management_settings` for more info."
 msgstr ""
+"A sota trobarem la secció Color del diàleg Document nou, on podreu "
+"seleccionar el model de color i la profunditat de bits. Per a més "
+"informació, vegeu :ref:`color_management_settings`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:55
 msgid ""
@@ -130,16 +157,20 @@ msgid ""
 "amount of layers you want in the new document. Krita remembers the amount of "
 "layers you picked last time, so be careful."
 msgstr ""
+"A la pestanya :guilabel:`Contingut`, podreu seleccionar el color de fons i "
+"la quantitat de capes que voleu en el document nou. El Krita recordarà la "
+"quantitat de capes que vàreu seleccionar l'última vegada, de manera que aneu "
+"amb compte."
 
 #: ../../user_manual/getting_started/starting_krita.rst:57
 msgid ""
 "Finally, there's a description box, useful to note down what you are going "
 "to do."
-msgstr ""
+msgstr "Finalment, hi ha un quadre de descripció útil per anotar el que fareu."
 
 #: ../../user_manual/getting_started/starting_krita.rst:60
 msgid "Create From Clipboard"
-msgstr "Crea des del porta-retalls"
+msgstr "Crear des del porta-retalls"
 
 #: ../../user_manual/getting_started/starting_krita.rst:62
 msgid ""
@@ -147,6 +178,9 @@ msgid ""
 "clipboard, like a screenshot. It will have all the fields set to match the "
 "clipboard image."
 msgstr ""
+"Aquesta secció permet crear un document des d'una imatge que hi ha al porta-"
+"retalls, com ara una captura de pantalla. Tindreu tots els camps establerts "
+"per a coincidir amb la imatge del porta-retalls."
 
 #: ../../user_manual/getting_started/starting_krita.rst:65
 msgid "Templates:"
@@ -158,6 +192,10 @@ msgid ""
 "are just .kra files which are saved in a special location, so they can be "
 "pulled up by Krita quickly."
 msgstr ""
+"Es tracta de categories separades en què es proporcionen valors "
+"predeterminats especials. Les plantilles són només fitxers .kra, els quals "
+"es desen en una ubicació especial, de manera que el Krita els podrà treure "
+"amb rapidesa."
 
 #: ../../user_manual/getting_started/starting_krita.rst:69
 msgid ""
@@ -166,6 +204,11 @@ msgid ""
 "will add your current document as a new template, including all its "
 "properties along with the layers and layer contents."
 msgstr ""
+"Podeu crear el vostre propi fitxer de plantilla des de qualsevol fitxer ."
+"kra, emprant :menuselection:`Fitxer --> Crea una plantilla des de la imatge` "
+"des del menú superior. Això afegirà el document actual com una plantilla "
+"nova, incloent totes les seves propietats juntament amb les capes i el "
+"contingut de la capa."
 
 #: ../../user_manual/getting_started/starting_krita.rst:71
 msgid ""
@@ -173,10 +216,13 @@ msgid ""
 "should now have a white canvas in front of you (or whichever background "
 "color you chose in the dialog)."
 msgstr ""
+"Un cop hagueu creat un document nou segons la vostra preferència, ara "
+"hauríeu de tenir un llenç blanc al davant (o el color del fons que heu triat "
+"al diàleg)."
 
 #: ../../user_manual/getting_started/starting_krita.rst:74
 msgid "How to use brushes"
-msgstr ""
+msgstr "Com emprar els pinzells"
 
 #: ../../user_manual/getting_started/starting_krita.rst:76
 msgid ""
@@ -185,6 +231,11 @@ msgid ""
 "when you start Krita, but if for some reason it is not, you can click on "
 "this |toolfreehandbrush| icon from the toolbar and activate the brush tool."
 msgstr ""
+"Ara, simplement premeu sobre la part del llenç. Si tot és correcte, hauríeu "
+"de poder-hi dibuixar! L'eina de pinzell hauria d'estar seleccionada de "
+"manera predeterminada quan inicieu el Krita, però si per alguna raó no ho "
+"està, podeu fer clic sobre la icona |toolfreehandbrush| de la barra d'eines "
+"i activeu l'eina de pinzell."
 
 #: ../../user_manual/getting_started/starting_krita.rst:79
 msgid ""
@@ -192,12 +243,18 @@ msgid ""
 "docker named Brush Presets (or on top, press :kbd:`F6` to find this one) "
 "with all these cute squares with pens and crayons."
 msgstr ""
+"Per descomptat, voldreu fer servir pinzells diferents. A la vostra dreta, hi "
+"ha un acoblador anomenat Valors predeterminats de pinzell (o a sobre, premeu "
+"la drecera :kbd:`F6` per a trobar-lo) amb tots aquests bonics quadrats amb "
+"bolígrafs i llapis de colors."
 
 #: ../../user_manual/getting_started/starting_krita.rst:81
 msgid ""
 "If you want to tweak the presets, check the Brush Editor in the toolbar. You "
 "can also access the Brush Editor with :kbd:`F5`."
 msgstr ""
+"Si voleu ajustar els valors predeterminats, marqueu l'Editor de pinzells a "
+"la barra d'eines. També hi podreu accedir amb la drecera :kbd:`F5`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:84
 msgid ".. image:: images/en/Krita_Brush_Preset_Docker.png"
@@ -208,10 +265,13 @@ msgid ""
 "Tick any of the squares to choose a brush, and then draw on the canvas. To "
 "change color, click the triangle in the Advanced Color Selector docker."
 msgstr ""
+"Toqueu qualsevol dels quadrats per a triar un pinzell i, després dibuixeu "
+"sobre el llenç. Per a canviar el color, feu clic al triangle de l'acoblador "
+"«Selector avançat del color»."
 
 #: ../../user_manual/getting_started/starting_krita.rst:88
 msgid "Erasing"
-msgstr ""
+msgstr "Esborrar"
 
 #: ../../user_manual/getting_started/starting_krita.rst:90
 msgid ""
@@ -219,16 +279,22 @@ msgid ""
 "eraser toggle. By toggling the :kbd:`E` key, your current brush switches "
 "between erasing and painting."
 msgstr ""
+"Hi ha valors predefinits de pinzell per esborrar, però sovint és més ràpid "
+"utilitzar la goma. S'activa amb la drecera :kbd:`E`, el pinzell actual "
+"alternarà entre esborrar i pintar."
 
 #: ../../user_manual/getting_started/starting_krita.rst:92
 msgid ""
 "This erasing method works with most of the tools. You can erase using the "
 "line tool, rectangle tool, and even the gradient tool."
 msgstr ""
+"Aquest mètode d'esborrat funciona amb la majoria de les eines. Podeu "
+"esborrar emprant l'eina de línia, l'eina de rectangle i, fins i tot, l'eina "
+"de degradat."
 
 #: ../../user_manual/getting_started/starting_krita.rst:95
 msgid "Saving and opening files"
-msgstr ""
+msgstr "Desar i obrir fitxers"
 
 #: ../../user_manual/getting_started/starting_krita.rst:97
 msgid ""
@@ -237,6 +303,10 @@ msgid ""
 "computer programs: the top-menu of :guilabel:`File`, and then :guilabel:"
 "`Save`."
 msgstr ""
+"Ara, una vegada hàgiu descobert com dibuixar alguna cosa en el Krita, "
+"voldreu desar-ho. L'opció de desar està en el mateix lloc que en tots els "
+"altres programes d'ordinador: el menú :guilabel:`Fitxer` i després :guilabel:"
+"`Desa` a la part superior."
 
 #: ../../user_manual/getting_started/starting_krita.rst:99
 msgid ""
@@ -245,12 +315,19 @@ msgid ""
 "everything). And then hit :guilabel:`Save`. Some older versions of Krita "
 "have a bug and require you to manually type the extension."
 msgstr ""
+"Seleccioneu la carpeta on voleu tenir el vostre dibuix i seleccioneu el "
+"format de fitxer que voleu emprar («.kra» és el format predeterminat del "
+"Krita i es desarà tot). I, després premeu :guilabel:`Desa`. Algunes versions "
+"antigues del Krita tenen un error i requereixen que s'escrigui manualment "
+"l'extensió."
 
 #: ../../user_manual/getting_started/starting_krita.rst:101
 msgid ""
 "If you want to show off your image on the internet, check out the :ref:"
 "`saving_for_the_web` tutorial."
 msgstr ""
+"Si voleu mostrar la vostra imatge a Internet, vegeu la guia d'aprenentatge :"
+"ref:`saving_for_the_web`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:103
 msgid ""
@@ -258,3 +335,6 @@ msgid ""
 "`basic_concepts` for an introduction as Krita as a medium, or just go out "
 "and explore Krita!"
 msgstr ""
+"Vegeu :ref:`navigation` per a més informació bàsica, :ref:`basic_concepts` "
+"per a una introducció del Krita com a suport, o simplement sortiu i exploreu "
+"el Krita!"

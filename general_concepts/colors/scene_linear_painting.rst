@@ -105,7 +105,7 @@ Overall, this is something that will take a little while getting used to, but yo
 
 Finally, there’s the **issue of size**.
 
-16 bit float per channel images are big. 32 bit float per channel images are bigger. This means that they will eat ram and that painting and filtering will be slower. This is something that will fix itself over the years, but not many people have such a high-end pc yet, so it can be a blocker.
+16 bit float per channel images are big. 32 bit float per channel images are bigger. This means that they will eat RAM and that painting and filtering will be slower. This is something that will fix itself over the years, but not many people have such a high-end pc yet, so it can be a blocker.
 
 So the issues are tools, expectations and size.
 
