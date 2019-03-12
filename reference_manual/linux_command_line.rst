@@ -37,9 +37,9 @@ importfilename
    
    Export a file selects the export option.
 
-.. option:: --exportfilename
+.. option:: --export-filename <filename>
    
-   Exportfilename says that the following word is the filename it should be exported to.
+   Export filename says that the following word is the filename it should be exported to.
 
    Replace this with the name of the output file. Use a different extension to change the fileformat.
 
@@ -47,7 +47,19 @@ Example:
 
 ``krita final.png --export --export-filename final.jpg``
 
-This piece of code takes the file ``file.png`` and saves it as ``file.jpg``.
+This line takes the file ``file.png`` and saves it as ``file.jpg``.
+
+.. option:: --export-sequence
+   
+   .. versionadded:: 4.2
+   
+   Export animation to the given filename and exit
+   
+   If a KRA file has no animation, then this command prints "This file has no animation." error and does nothing.
+   
+   ``krita --export-sequence --export-filename file.png test.kra``
+   
+   This line takes the animation in test.kra, and uses the value of --export-filename (file.png), to determine the sequence fileformat('png') and the frame prefix ('file').
 
 PDF export
 ----------
