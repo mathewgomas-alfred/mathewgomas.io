@@ -4,7 +4,7 @@
 User Manual
 ###########
 
-Discover Krita’s features through an online manual. Guides to help you transition from other applications. 
+Discover Krita’s features through an online manual. Guides to help you transition from other applications.
 
 .. toctree::
    :maxdepth: 2
@@ -29,3 +29,4 @@ Discover Krita’s features through an online manual. Guides to help you transit
    user_manual/snapping
    user_manual/animation
    user_manual/japanese_animation_template
+   user_manual/gamut_masks

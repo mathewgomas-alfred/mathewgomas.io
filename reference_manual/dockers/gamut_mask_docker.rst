@@ -47,7 +47,7 @@ Editing
 
 If you choose to create a new mask, edit, or duplicate selected mask, the mask template documents opens as a new view (1).
 
-There you can modify the mask with standard vector tools, or create any vector shape supported by Krita.
+There you can create new shapes and modify the mask with standard vector tools (:ref:`vector_graphics`).
 
 Fill in the fields at (2).
 
