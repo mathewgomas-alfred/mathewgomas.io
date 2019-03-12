@@ -37,7 +37,6 @@ and get the zip-file instead of the setup.exe installer.
 
 .. warning::
    Krita requires Windows Vista or newer.
-   INTEL GRAPHICS CARD USERS: IF YOU SEE A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!
 
 Linux
 -----
@@ -136,12 +135,9 @@ the latest git version.
 OS X
 ----
 
-.. warning::
-   Mac OSX is very experimental right now and unstable, don't use it for production purpose
-
-You can download the latest binary if you want from our
-`website <https://krita.org/download/krita-desktop/>`__. It has only
-been reported to work with Mac OSX 10.9.
+You can download the latest binary from our
+`website <https://krita.org/download/krita-desktop/>`__.
+The binaries work only with Mac OSX version 10.12 and newer.
 
 Source
 ------
