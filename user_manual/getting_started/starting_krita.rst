@@ -44,53 +44,13 @@ A new document can be created as follows.
 
 .. image:: /images/en/Krita_newfile.png
 
-Krita is a pretty complex program that can handle a lot of different files, so
-let's go through this step by step:
+Click on the :guilabel:`Custom Document` section and in the :guilabel:`Dimensions`
+tab choose A4(300ppi) or any size that you prefer from the :guilabel:`predefined` drop down
+To know more about the other sections such as create document from clipboard and
+templates see :ref:`create_new_document`.
 
-Custom Document
-~~~~~~~~~~~~~~~
-
-From this section you can create a document according to your requirements: you
-can specify the dimensions, color model, bit depth, resolution, etc.
-
-In the top-most field of the :guilabel:`Dimensions` tab, from the Predefined
-drop-down you can select predefined pixel sizes and PPI (pixels per inch). You
-can also set custom dimensions and the orientation of the document from the
-input fields below the predefined drop-down. This can also be saved as a new
-predefined preset for your future use by giving a name in the Save As field and
-clicking on the Save button. Below we find the Color section of the new
-document dialog box, where you can select the color model and the bit-depth.
-Check :ref:`color_management_settings` for more info.
-
-On the :guilabel:`Content` tab, you can define a name for your new document.
-This name will appear in the metadata of the file, and Krita will use it for
-the auto-save functionality as well. If you leave it empty, the document will
-be referred to as 'Unnamed' by default. You can select the background color and
-the amount of layers you want in the new document. Krita remembers the amount
-of layers you picked last time, so be careful.
-
-Finally, there's a description box, useful to note down what you are going to do.
-
-Create From Clipboard
-~~~~~~~~~~~~~~~~~~~~~
-
-This section allows you to create a document from an image that is in your
-clipboard, like a screenshot. It will have all the fields set to match the
-clipboard image.
-
-Templates:
-~~~~~~~~~~
-
-These are separate categories where we deliver special defaults. Templates are
-just .kra files which are saved in a special location, so they can be pulled up
-by Krita quickly. You can make your own template file from any .kra file, by
-using :menuselection:`File --> Create Template From Image` in the top menu.
-This will add your current document as a new template, including all its
-properties along with the layers and layer contents.
-
-Once you have created a new document according to your preference, you should
-now have a white canvas in front of you (or whichever background color you
-chose in the dialog).
+Make sure that the color profile is RGB and depth is set to 8-bit integer/channel in the color section.
+For advanced information about the color and color management refer to :ref:`general_concept_color`.
 
 How to use brushes
 ------------------
