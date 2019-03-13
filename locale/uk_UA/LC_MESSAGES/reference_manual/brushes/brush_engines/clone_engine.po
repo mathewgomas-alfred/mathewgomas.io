@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___clone_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__clone_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 19:10+0200\n"
+"PO-Revision-Date: 2019-03-12 18:33+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -36,11 +36,11 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:1
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:18
 msgid "The Clone Brush Engine manual page."
-msgstr ""
+msgstr "Розділ підручника щодо рушія пензлів клонування."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
-msgstr ""
+msgstr "Рушій пензлів клонування"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
@@ -64,6 +64,8 @@ msgid ""
 "To see the source, you need to set the brush-cursor settings to brush "
 "outline."
 msgstr ""
+"Щоб бачити джерело, вам слід налаштувати у параметрах вказівника-пензля показ"
+" ескіза пензля."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:38
 msgid ""
@@ -76,7 +78,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:42
 msgid ":kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7"
-msgstr ""
+msgstr ":kbd:`Ctrl + Alt +` |mouseleft| тимчасово вимкнено з версії 2.9.7"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:45
 msgid "Settings"
@@ -107,18 +109,21 @@ msgid ""
 "This turns the clone brush into a healing brush: often used for removing "
 "blemishes in photo retouching, and maybe blemishes in painting."
 msgstr ""
+"Перетворює пензель клонування у лікувальний пензель. Часто використовується"
+" для вилучення дефектів при ретушуванні фотографії. Може бути використано для"
+" усування дефектів при малюванні."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:57
 msgid "Only works when there's a perspective grid visible."
-msgstr ""
+msgstr "Працює, лише якщо є видимою ґратка перспективи."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:59
 msgid "Perspective correction"
-msgstr ""
+msgstr "Виправлення перспективи"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:60
 msgid "This feature is currently disabled"
-msgstr ""
+msgstr "Цю можливість у поточній версії вимкнено."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:61
 msgid "Source Point move."
@@ -129,8 +134,10 @@ msgid ""
 "This will determine whether you will replicate the source point per dab or "
 "per stroke. Can be useful when used with the healing brush."
 msgstr ""
+"Цей параметр визначає, відтворюватиметься початкова точка мазка чи штриха."
+" Може бути корисним, якщо використовується у поєднанні із лікувальним пензлем."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
-msgstr ""
+msgstr "Позначте цей пункт, якщо клонувати слід усі шари, а не лише активний."

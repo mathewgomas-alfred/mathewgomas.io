@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-12 14:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,11 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-POFile-SpellExtra: FFMpeg\n"
+"X-POFile-SpellExtra: FFMpeg Chrome guilabel Flash menuselection high MKV\n"
+"X-POFile-SpellExtra: palettegen export baseline OSX FFMPeg VLC gif usr bin\n"
+"X-POFile-SpellExtra: Keka FFMPEG exe ffmpeg Krita FFmpeg Player\n"
 
 #: ../../reference_manual/render_animation.rst:1
 msgid "How to use the render animation command in Krita."
-msgstr ""
+msgstr "Como usar o comando para desenhar uma animação no Krita."
 
 #: ../../reference_manual/render_animation.rst:17
 #: ../../reference_manual/render_animation.rst:42
@@ -31,7 +33,7 @@ msgstr "Desenhar a Animação"
 msgid ""
 "Render animation allows you to render your animation to an image sequence, "
 "gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` ."
-msgstr ""
+msgstr "O desenho da animação permite-lhe gerar uma sequência de imagens da sua animação para um ficheiro GIF, MP4, MKV ou OGG. Substitui a opção :guilabel:`Exportar a Animação` ."
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
@@ -43,7 +45,7 @@ msgid ""
 "export process. For example, if your computer has a hiccup, and one frame "
 "saves out weird, first saving the image sequence allows you to only resave "
 "that one weird frame before rendering."
-msgstr ""
+msgstr "Para desenhar num formato de ficheiro animado, o Krita irá primeiro desenhar uma sequência de PNG's e depois irá usar o FFMpeg, que já é realmente bom na codificação de ficheiros de vídeo, para representar essa sequência num formato de ficheiros animado. A razão para esse processo em dois passos é que os ficheiros da animação podem ser realmente complexos e realmente grandes, sendo esta forma a que lhe permite manter melhor o controlo sobre o processo de exportação. Por exemplo, se o seu computador tiver um problema e uma imagem sair estranha, a gravação em primeiro lugar da sequência de imagens permite-lhe gravar de novo apenas essa imagem estragada antes de gerar a animação."
 
 #: ../../reference_manual/render_animation.rst:23
 msgid ""
@@ -51,21 +53,21 @@ msgid ""
 "before you can start rendering. If you only do throwaway animations, you can "
 "use a spot on your hard-drive with enough room and select :guilabel:`Delete "
 "Sequence After Rendering`"
-msgstr ""
+msgstr "Isto significa que terá de encontrar um bom local onde colocar as suas imagens antes de iniciar o desenho. Se só cria animações descartáveis, poderá usar um local no seu disco rígido com bastante espaço e seleccionar a opção :guilabel:`Apagar a Sequência Após o Desenho`"
 
 #: ../../reference_manual/render_animation.rst:26
 msgid "Image Sequence"
-msgstr ""
+msgstr "Sequência de Imagens"
 
 #: ../../reference_manual/render_animation.rst:28
 msgid "Base Name"
-msgstr ""
+msgstr "Nome de Base"
 
 #: ../../reference_manual/render_animation.rst:29
 msgid ""
 "The base name of your image sequence. This will get suffixed with a number "
 "depending on the frame."
-msgstr ""
+msgstr "O nome de base da sua sequência de imagens. Isto irá obter um sufixo com um número que depende da imagem."
 
 #: ../../reference_manual/render_animation.rst:30
 msgid "File Format"
@@ -75,17 +77,17 @@ msgstr "Formato do Ficheiro"
 msgid ""
 "The fileformat to export the sequence to. When rendering we enforce png. The "
 "usual export options can be modified with :guilabel:`...`."
-msgstr ""
+msgstr "O formato do ficheiro para o qual exportar a sequência. Ao desenhar, será forçado o uso do PNG. Podem-se modificar as opções de exportação normais com o :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:32
 msgid "Render Location"
-msgstr ""
+msgstr "Localização do Desenho"
 
 #: ../../reference_manual/render_animation.rst:33
 msgid ""
 "Where you render the image sequence to. Some people prefer to use a flash-"
 "drive or perhaps a harddrive that is fast."
-msgstr ""
+msgstr "Para onde será gravada a sequência de imagens. Algumas pessoas preferem usar um disco Flash ou um disco rígido que seja rápido."
 
 #: ../../reference_manual/render_animation.rst:34
 msgid "First Frame"
@@ -96,7 +98,7 @@ msgid ""
 "The first frame of the range of frame you wish to adjust. Automatically set "
 "to the first frame of your current selection in the timeline. This is useful "
 "when you only want to re-render a little part."
-msgstr ""
+msgstr "A primeira imagem da gama de imagens que pretende ajustar. Configurada automaticamente com a primeira imagem da sua selecção actual na linha temporal. Isto é útil quando só pretende desenhar de novo uma pequena parte."
 
 #: ../../reference_manual/render_animation.rst:36
 msgid "Last Frame"
@@ -107,11 +109,11 @@ msgid ""
 "As above, the last frame of the range of frame you wish to adjust. "
 "Automatically set to the last frame of your current selection in the "
 "timeline."
-msgstr ""
+msgstr "Como acontece acima, a última imagem da gama de imagens que pretende ajustar. Configurada automaticamente com a última imagem da sua selecção actual na linha temporal."
 
 #: ../../reference_manual/render_animation.rst:39
 msgid "Naming Sequence starts with"
-msgstr ""
+msgstr "A Sequência de Nomes começa em"
 
 #: ../../reference_manual/render_animation.rst:39
 msgid ""
@@ -120,17 +122,17 @@ msgid ""
 "so rendering from 8 to 10 with starting point 3 will give you images named "
 "11 and 15. Useful for programs that don't understand sequences starting with "
 "0, or for precision output."
-msgstr ""
+msgstr "As imagens terão um nome baseado no :guilabel:`Nome de Base`  acima e adicionando o número da imagem. Isto permite-lhe definir onde começa o número da imagem, pelo que se desejar exportar a imagem 8 à 10, com um ponto inicial igual 3, irá ter as imagens de 11 a 13. É útil para os programas que não compreendam as sequências que comecem em 0 ou para resultados com precisão."
 
 #: ../../reference_manual/render_animation.rst:44
 msgid "Render As"
-msgstr ""
+msgstr "Desenhar Como"
 
 #: ../../reference_manual/render_animation.rst:45
 msgid ""
 "The file format to render to. All except gif have extra options that can be "
 "manipulated via :guilabel:`...`."
-msgstr ""
+msgstr "O formato do ficheiro que será gerado. Todos os formatos, excepto o GIF, têm opções extra que poderão ser manipuladas com o :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:46
 msgid "File"
@@ -138,7 +140,7 @@ msgstr "Ficheiro"
 
 #: ../../reference_manual/render_animation.rst:47
 msgid "Location and name of the rendered animation."
-msgstr ""
+msgstr "A localização e o nome da animação desenhada."
 
 #: ../../reference_manual/render_animation.rst:48
 msgid "FFMpeg"
@@ -149,29 +151,29 @@ msgid ""
 "The location where your have ffmpeg. If you don't have this, Krita cannot "
 "render an animation. For proper gif support, you will need ffmpeg 2.6, as we "
 "use its palettegen functionality."
-msgstr ""
+msgstr "A localização onde se encontra o 'ffmpeg'. Se não o tiver, o Krita não conseguirá desenhar uma animação. Para o suporte adequado para GIF, será necessário o FFMpeg 2.6, já que é usada a sua função 'palettegen'."
 
 #: ../../reference_manual/render_animation.rst:51
 msgid "Delete Sequence After Rendering"
-msgstr ""
+msgstr "Apagar a Sequência Após o Desenho"
 
 #: ../../reference_manual/render_animation.rst:51
 msgid ""
 "Delete the prerendered image sequence after done rendering. This allows you "
 "to choose whether to try and save some space, or to save the sequence for "
 "when encoding fails."
-msgstr ""
+msgstr "Apaga a sequência de imagens pré-desenhada após o desenho. Isto permite-lhe escolher se deseja experimentar e poupar algum espaço ou gravar a sequência quando a codificação falha."
 
 #: ../../reference_manual/render_animation.rst:55
 msgid ""
 "None of the video formats support saving from images with a transparent "
 "background, so Krita will try to fill it with something. You should add a "
 "background color yourself to avoid it from using, say, black."
-msgstr ""
+msgstr "Nenhum dos formatos de vídeo suportam a gravação a partir de imagens com um fundo transparente, como tal o Krita irá tentar preenchê-lo com algo. Poderá adicionar você mesmo uma cor de fundo para evitar que seja usado, por exemplo, o preto."
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "Configuração do Krita para Exportar as Animações"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -181,22 +183,22 @@ msgid ""
 "will use is free and called FFMpeg. The following instructions will explain "
 "how to get it and set it up. The setup is a one-time thing so you won't have "
 "to do it again."
-msgstr ""
+msgstr "Terá de obter uma aplicação extra e associá-la ao Krita para funcionar. A aplicação é relativamente grande (50MB), sendo por isso que os programadores do Krita não o incluem com a aplicação normal. A aplicação que será usada é gratuita e chama-se FFMpeg. As seguintes instruções irão explicar como obtê-la e configurá-la. A configuração é algo que é feito uma única vez, sendo que não terá de o fazer de novo."
 
 #: ../../reference_manual/render_animation.rst:63
 msgid "Step 1 - Downloading FFMpeg"
-msgstr ""
+msgstr "Passo 1 - Obter o FFMpeg"
 
 #: ../../reference_manual/render_animation.rst:66
 #: ../../reference_manual/render_animation.rst:86
 msgid "For Windows"
-msgstr ""
+msgstr "Para o Windows"
 
 #: ../../reference_manual/render_animation.rst:68
 msgid ""
 "Go to the ffmpeg website (http://ffmpeg.org/download.html). The URL that had "
 "the link for me was here... https://ffmpeg.zeranoe.com/builds/"
-msgstr ""
+msgstr "Vá à página Web do FFMpeg (http://ffmpeg.org/download.html). O URL que tinha a ligação para o autor da documentação estava aqui... https://ffmpeg.zeranoe.com/builds/"
 
 #: ../../reference_manual/render_animation.rst:70
 msgid ""
@@ -206,12 +208,12 @@ msgid ""
 "If you bought a computer in the past 5 years, you probably want the 64-bit "
 "version. Make sure you get a exe file, if you hover over the options they "
 "will give more information about what exactly you are downloading."
-msgstr ""
+msgstr "Tenha atenção ao anúncio extremamente irritante da Google que parece um botão de transferência! Não existe nenhum botão grande para o que é necessário. Pode transferir a versão ESTÁTICA em 64 bits ou a versão ESTÁTICA em 32 bits que aparece mais abaixo na página. Se comprou um computador nos últimos 5 anos, provavelmente irá desejar a versão a 64 bits. Certifique-se que obtém um ficheiro .exe; caso passe o cursor sobre as opções, elas irão dar mais alguma informação sobre o que está a transferir ao certo."
 
 #: ../../reference_manual/render_animation.rst:73
 #: ../../reference_manual/render_animation.rst:93
 msgid "For OSX"
-msgstr ""
+msgstr "Para o OSX"
 
 #: ../../reference_manual/render_animation.rst:75
 msgid ""
@@ -220,23 +222,23 @@ msgid ""
 "under the FFmpeg heading. You will also need an archiving utility that "
 "supports .7z, since ffmpeg provides their OSX builds in .7z format. If you "
 "don't have one, try something like Keka (http://www.kekaosx.com)."
-msgstr ""
+msgstr "Por favor, veja a secção acima. Contudo, o FFMpeg é obtido a partir do https://evermeet.cx/ffmpeg/ em alternativa. Basta escolher o pequeno botão verde à esquerda debaixo do cabeçalho do FFmpeg. Irá também necessitar de um utilitário de descompressão de pacotes que suporte o .7z, dado que o 'ffmpeg' oferece as suas versões para OSX no formato .7z. Se não tiver um utilitário desses, experimente algum como o Keka (http://www.kekaosx.com)."
 
 #: ../../reference_manual/render_animation.rst:78
 #: ../../reference_manual/render_animation.rst:98
 msgid "For Linux"
-msgstr ""
+msgstr "Para o Linux"
 
 #: ../../reference_manual/render_animation.rst:80
 msgid ""
 "FFMPeg can be installed from the repositories on most Linux systems. Version "
 "2.6 is required for proper gif support, as we use the palettegen "
 "functionality."
-msgstr ""
+msgstr "O FFMPeg pode ser instalado a partir dos repositórios das maior parte dos sistemas Linux. É necessária a versão 2.6 para o suporte adequado para GIF's, dado que é usada a funcionalidade 'palettegen'."
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
-msgstr ""
+msgstr "Passo 2 - Descomprimir e Associar ao Krita"
 
 #: ../../reference_manual/render_animation.rst:88
 msgid ""
@@ -244,14 +246,14 @@ msgid ""
 "just ffmpeg. Let's put this folder in a easy to find location. go to your C:"
 "\\ and place it there. You can put it wherever you want, but that is where I "
 "put it."
-msgstr ""
+msgstr "Descomprima o pacote que acabou de transferir. Mude o nome comprido da pasta para apenas 'ffmpeg'. Coloque essa pasta num local fácil de encontrar. Vá à sua unidade C:\\ e coloque-a lá. Poderá colocá-la onde desejar, de qualquer forma, mas para o exemplo assume-se este local."
 
 #: ../../reference_manual/render_animation.rst:90
 msgid ""
 "Open Krita back up and go to :menuselection:`File --> Render Animation`. "
 "Click the :guilabel:`Browse`  button on the last item called FFMpeg. Select "
 "this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` ."
-msgstr ""
+msgstr "Abra o Krita de novo e vá a :menuselection:`Ficheiro --> Desenhar a Animação`. Carregue no botão :guilabel:`Escolher`  no último item chamado FFMpeg. Seleccione este ficheiro ``C:/ffmpeg/bin/ffmpeg.exe``  e carregue em :guilabel:`OK` ."
 
 #: ../../reference_manual/render_animation.rst:95
 msgid ""
@@ -259,23 +261,23 @@ msgid ""
 "to it in the FFMPEG location in Krita like ``/Users/user/Downloads/ffmpeg`` "
 "(assuming you downloaded and extracted the .7z file to /Users/user/"
 "Downloads)."
-msgstr ""
+msgstr "Depois de obter o FFMpeg, só precisa de o extrair e apontar para ele na localização do FFMPEG no Krita, como por exemplo ``/Utilizadores/utilizador/Transferências/ffmpeg`` (assumindo que transferiu e extraiu o ficheiro .7z para /Utilizadores/utilizador/Transferências)."
 
 #: ../../reference_manual/render_animation.rst:100
 msgid ""
 "FFMpeg is, if installed from the repositories, usually found in ``/usr/bin/"
 "ffmpeg``"
-msgstr ""
+msgstr "O FFMpeg está, se tiver sido instalado a partir dos repositórios, localizado normalmente em ``/usr/bin/ffmpeg``"
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "Passo 3 - Experimentar uma animação"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
 "ffmpeg.exe is what Krita uses to do all of its animation export magic. Now "
 "that it is hooked up, let us test it out."
-msgstr ""
+msgstr "O 'ffmpeg.exe' é o que o Krita usa para fazer toda a sua magia de exportação de animações. Agora que isso está tudo configurado, vamos experimentar."
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""
@@ -284,14 +286,14 @@ msgid ""
 "it will save with the \"File\" menu below. I just saved it to my desktop and "
 "called it \"export.gif\". When it is done, you should be able to open it up "
 "and see the animation."
-msgstr ""
+msgstr "Vamos criar um GIF animado. Na janela para Desenhar a Animação, mude o campo :guilabel:`Desenhar Como` como \"imagem GIF\". Escolha a localização do ficheiro onde será gravada com o menu \"Ficheiro\" abaixo. No caso do autor, foi gravado no ecrã e atribuiu-se o nome \"export.gif\". Quando terminar, deverá ser possível abri-lo e ver a animação."
 
 #: ../../reference_manual/render_animation.rst:111
 msgid ""
 "By default, FFMPEG will render MP4 files with a too new codec, which means "
 "that windows media player won't be able to play it. So for windows, select "
 "\"baseline\" for the profile instead of \"high422\" before rendering."
-msgstr ""
+msgstr "Por omissão, o FFMPEG irá desenhar os ficheiros MP4 com um codificador bastante recente, o que significa que provavelmente o Windows Media Player não o conseguirá abrir. Por isso, no caso do Windows, seleccione o perfil \"baseline\" em vez do \"high422\" antes de o desenhar."
 
 #: ../../reference_manual/render_animation.rst:115
 msgid ""
@@ -299,4 +301,4 @@ msgid ""
 "Chrome for your web browser, you can drag the video file into that and the "
 "video should play. Otherwise you will need to get a program like VLC to see "
 "the video."
-msgstr ""
+msgstr "O OSX não vem com qualquer aplicação para ler ficheiros MP4 e MKV. Se usar o Chrome como navegador Web, poderá arrastar o ficheiro do vídeo para dentro dele e o vídeo deverá começar a reproduzir. Caso contrário, irá precisar de um programa como o VLC para ver o vídeo."

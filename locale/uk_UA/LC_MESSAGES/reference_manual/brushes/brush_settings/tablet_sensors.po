@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_settings___tablet_sensors\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
+"___tablet_sensors\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-03 11:19+0200\n"
+"PO-Revision-Date: 2019-03-12 17:27+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -59,7 +59,7 @@ msgstr "Нахил за X"
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:23
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:25
 msgid "How much the brush is affected by stylus angle, if supported."
-msgstr ""
+msgstr "Рівень впливу кута нахилу стила, якщо такий реєструється, на пензель."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:24
 msgid "Y-tilt"
@@ -74,6 +74,9 @@ msgid ""
 "How much the brush is affected by stylus direction. The pen point pointing "
 "towards the user is 0°, and can vary from -180° to +180°."
 msgstr ""
+"Рівень впливу напрямку руху стила, якщо такий реєструється, на пензель. Кут"
+" пера, яке спрямовано на користувача, вважається рівним 0°. Діапазоном зміни"
+" кута є значення від -180° до +180°."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:28
 msgid "Tilt-elevation"
@@ -84,6 +87,8 @@ msgid ""
 "How much the brush is affected by stylus perpendicularity. 0° is the stylus "
 "horizontal, 90° is the stylus vertical."
 msgstr ""
+"Рівень впливу кута підвищення стила щодо поверхні планшета на пензель. 0° —"
+" стило розташовано горизонтально, 90° — стило розташовано вертикально."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:30
 msgid "Speed"
@@ -114,7 +119,7 @@ msgstr "Обертання"
 msgid ""
 "How much a brush is affected by how the stylus is rotated, if supported by "
 "the tablet."
-msgstr ""
+msgstr "Рівень впливу кута обертання, якщо такий реєструється, на пензель."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:36
 msgid "Distance"
@@ -149,6 +154,8 @@ msgid ""
 "A randomness value that is per stroke. Useful for getting color and size "
 "variation in on speed-paint brushes."
 msgstr ""
+"Значення випадковості для кожного мазка. Корисно для впровадження варіації"
+" кольору і розміру для пензлів для малювання на швидкість."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:44
 msgid "Fade"
@@ -158,6 +165,7 @@ msgstr "Згасання"
 msgid ""
 "How much the brush is affected over length, proportional to the brush tine."
 msgstr ""
+"Вплив довжини малювання, пропорційно до руху вістря пензля, на пензель."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:46
 msgid "Perspective"
@@ -165,9 +173,9 @@ msgstr "Перспектива"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:47
 msgid "How much the brush is affected by the perspective assistant."
-msgstr ""
+msgstr "Вплив допоміжного інструмента перспективи на пензель."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:49
 msgid ""
 "How much the brush is affected by the wheel on airbrush-simulating stylii."
-msgstr ""
+msgstr "Вплив коліщатка на стилах, які імітують аерограф, на пензель."

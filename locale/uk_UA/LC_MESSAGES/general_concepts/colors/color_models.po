@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___color_models\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-28 22:48+0200\n"
+"PO-Revision-Date: 2019-03-12 20:29+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,6 +33,9 @@ msgid ""
 "Krita has many different color spaces and models. Following here is a brief "
 "explanation of each, and their use-cases."
 msgstr ""
+"У Krita передбачено підтримку багатьох різних просторів і моделей кольорів."
+" Нижче наведено короткий опис кожного з цих просторів та вказано області"
+" використання відповідної моделі кольорів."
 
 #: ../../general_concepts/colors/color_models.rst:22
 msgid "RGB"
@@ -62,14 +65,19 @@ msgid ""
 "So that could be images for the web, buttons, avatars, or just portfolio "
 "images."
 msgstr ""
+"Отже, це можуть бути зображення для інтернету, кнопок, аватарів або просто"
+" зображення для портфоліо."
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
 msgstr ""
+"Або зображення для відеоігор, де спрайти і текстури найкраще зберігати у RGB."
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
 msgstr ""
+"Або зображення для просторового представлення, візуальних ефектів та"
+" комп'ютерної анімації."
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
@@ -186,10 +194,13 @@ msgid ""
 "These are not included as their own color spaces in Krita. However, they do "
 "show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
+"Ці моделі не включено як власні простори кольорів у Krita. Втім, їхні пункти"
+" можна побачити у засобах визначення режимів змішування та вибору кольорів."
+" Отже, короткий огляд:"
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr ""
+msgstr "--Зображення зв'язку між RGB та HSV тощо."
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -259,7 +270,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:77
 msgid "Grayscale"
-msgstr "Тони сірого"
+msgstr "Відтінки сірого"
 
 #: ../../general_concepts/colors/color_models.rst:79
 msgid ""
@@ -273,6 +284,9 @@ msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
+"Корисний для створення текстур, але може бути використаний будь-де, де немає"
+" сенсу виходити за межі відтінків сірого кольору, зокрема у чорно-білих"
+" коміксах."
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -315,6 +329,8 @@ msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
 msgstr ""
+"Крім того, існують відмінності між «розфарбованим сірим» і «нейтральним"
+" сірим», залежно від профілю."
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
@@ -363,7 +379,7 @@ msgstr "YCrCb"
 
 #: ../../general_concepts/colors/color_models.rst:138
 msgid "Luminosity, Red-chroma, Blue-chroma"
-msgstr ""
+msgstr "Світність, червона компонента, синя компонента"
 
 #: ../../general_concepts/colors/color_models.rst:140
 msgid "YCrCb stands for"
@@ -375,7 +391,7 @@ msgstr "Y'/Y"
 
 #: ../../general_concepts/colors/color_models.rst:143
 msgid "Luma/Luminosity, thus, the amount of light a color reflects."
-msgstr ""
+msgstr "Світність, таким чином, є часткою потоку світла, який відбиває колір."
 
 #: ../../general_concepts/colors/color_models.rst:144
 msgid "Cr"
@@ -385,6 +401,8 @@ msgstr "Cr"
 msgid ""
 "Red Chroma. This value measures how red a color is versus how green it is."
 msgstr ""
+"Червона компонента. Це значення є виміром червоності кольору за шкалою"
+" червоний-зелений."
 
 #: ../../general_concepts/colors/color_models.rst:147
 msgid "Cb"
@@ -394,6 +412,8 @@ msgstr "Cb"
 msgid ""
 "Blue Chroma. This value measures how blue a color is versus how yellow it is."
 msgstr ""
+"Синя компонента. Це значення є виміром того, наскільки колір є синім за"
+" шкалою синій-жовтий."
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
@@ -423,7 +443,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
-msgstr ""
+msgstr "Майже неможливо пояснити, що таке XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:166
 msgid "is equal to green."
@@ -435,7 +455,7 @@ msgstr "Z"
 
 #: ../../general_concepts/colors/color_models.rst:168
 msgid "akin to blue."
-msgstr ""
+msgstr "щось схоже на синій."
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "X"
@@ -465,7 +485,7 @@ msgstr "L\\*"
 
 #: ../../general_concepts/colors/color_models.rst:182
 msgid "Lightness, similar to luminosity in this case."
-msgstr ""
+msgstr "Освітленість у цьому випадку є подібною до світності."
 
 #: ../../general_concepts/colors/color_models.rst:183
 msgid "a\\*"

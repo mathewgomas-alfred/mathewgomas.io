@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___bit_depth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-09 21:41+0200\n"
+"PO-Revision-Date: 2019-03-12 20:13+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -37,24 +37,34 @@ msgid ""
 "Bit depth basically refers to the amount of working memory per pixel you "
 "reserve for an image."
 msgstr ""
+"Якщо просто, бітову глибину пов'язано із об'ємом робочої пам'яті, який"
+" потрібен для зберігання одного пікселя зображення."
 
 #: ../../general_concepts/colors/bit_depth.rst:19
 msgid ""
 "Like how having a A2 paper in real life can allow for much more detail in "
 "the end drawing, it does take up more of your desk than a simple A4 paper."
 msgstr ""
+"Подібно до того, як звичайний листок паперу формату A2 може вмістити набагато"
+" більше деталей малюнка, ніж простий листок паперу формату A4, хоча займає"
+" більше місця, зображення з більшою бітовою глибиною є одночасно і"
+" об'ємнішими за зображення із малою бітовою глибиною."
 
 #: ../../general_concepts/colors/bit_depth.rst:21
 msgid ""
 "However, this does not just refer to the size of the image, but also how "
 "much precision you need per colour."
 msgstr ""
+"Втім, ця відмінність полягає не лише у розмірі файла зображення. Справа ще й"
+" у тому, наскільки точно вам потрібно передати кольори."
 
 #: ../../general_concepts/colors/bit_depth.rst:23
 msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
 msgstr ""
+"З ілюстративною метою давайте обговоримо деякі речі, частина з яких навіть не"
+" є доступним у Krita:"
 
 #: ../../general_concepts/colors/bit_depth.rst:26
 msgid "Indexed Colour."
@@ -66,6 +76,10 @@ msgid ""
 "contains a number for each color. The palette size is defined in bits, "
 "because the computer can only store data in bit-sizes."
 msgstr ""
+"У застарілих програмах було передбачено режим, коли комп'ютер мав зберігати у"
+" кожному зображенні палітру, у якій кожному з кольорів зображення відповідало"
+" певне число. Розмір такої палітри визначається у бітах, оскільки комп'ютер"
+" може зберігати дані лише у бітовій формі."
 
 #: ../../general_concepts/colors/bit_depth.rst:36
 msgid "1bit"
@@ -96,6 +110,8 @@ msgid ""
 "256 colors in total. 8bit images are commonly used in games to save on "
 "memory for textures and sprites."
 msgstr ""
+"Загалом 256 кольорів. 8-бітові зображення широко використовуються у іграх з"
+" метою заощадження пам'яті на текстурах та спрайтах."
 
 #: ../../general_concepts/colors/bit_depth.rst:43
 msgid ""
@@ -129,6 +145,8 @@ msgid ""
 "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
+"Також відомий як Hi-color або 16-бітовий колір. Спадок застарілих систем, вже"
+" не використовується поза межами обслуговування специфічних дисплеїв."
 
 #: ../../general_concepts/colors/bit_depth.rst:56
 msgid "8bit per channel"
@@ -139,6 +157,9 @@ msgid ""
 "Also known as \"True Color\", \"Millions of colors\" or \"24bit/32bit\". The "
 "standard for many screens, and the lowest bit-depth Krita can handle."
 msgstr ""
+"Також відомий як «True Color» («справжній колір»), «Мільйон кольорів» або"
+" «24-бітовий/32-бітовий». Стандартний режим для багатьох екранів і одночасно"
+" режим із найменшою бітовою глибиною, підтримку якого передбачено у Krita."
 
 #: ../../general_concepts/colors/bit_depth.rst:58
 msgid "16bit per channel."

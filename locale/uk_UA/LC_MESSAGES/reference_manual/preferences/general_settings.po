@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___preferences___general_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
+"POT-Creation-Date: 2019-03-12 03:34+0100\n"
 "PO-Revision-Date: 2019-03-06 08:11+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -471,90 +471,89 @@ msgid "When Krita Starts"
 msgstr "Під час запуску Krita"
 
 #: ../../reference_manual/preferences/general_settings.rst:187
+msgid ""
+"Save the current open windows, documents and the like into the current "
+"session when closing Krita so you can resume where you left off."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:188
 msgid "Save session when Krita closes"
 msgstr "Зберігати сеанс під час закриття Krita"
 
-#: ../../reference_manual/preferences/general_settings.rst:187
-msgid ""
-"Save the current open windows, documents and the like into the current "
-"session when closing Krita so you can resume where you left off. .. "
-"versionadded:: 4.1"
-msgstr ""
-
-#: ../../reference_manual/preferences/general_settings.rst:189
+#: ../../reference_manual/preferences/general_settings.rst:190
 msgid "Autosave Every"
 msgstr "Автозбереження кожні"
 
-#: ../../reference_manual/preferences/general_settings.rst:190
+#: ../../reference_manual/preferences/general_settings.rst:191
 msgid ""
 "Here the user can specify how often Krita should autosave the file, you can "
 "tick the checkbox to turn it off. For Windows these files are saved in the "
 "%TEMP% directory. If you are on Linux it is stored in /home/'username'."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:191
+#: ../../reference_manual/preferences/general_settings.rst:192
 msgid "Compress \\*.kra files more."
 msgstr "Стискати файли \\*.kra."
 
-#: ../../reference_manual/preferences/general_settings.rst:192
+#: ../../reference_manual/preferences/general_settings.rst:193
 msgid ""
 "This increases the zip compression on the saved Krita files, which makes "
 "them lighter on disk, but this takes longer to load."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:193
+#: ../../reference_manual/preferences/general_settings.rst:194
 msgid "Upon importing Images as Layers, convert to the image color space."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:194
+#: ../../reference_manual/preferences/general_settings.rst:195
 msgid ""
 "This makes sure that layers are the same color space as the image, necessary "
 "for saving to PSD."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:195
+#: ../../reference_manual/preferences/general_settings.rst:196
 msgid "Undo Stack Size"
 msgstr "Розмір буфера скасування"
 
-#: ../../reference_manual/preferences/general_settings.rst:196
+#: ../../reference_manual/preferences/general_settings.rst:197
 msgid ""
 "This is the number of undo commands Krita remembers. You can set the value "
 "to 0 for unlimited undos."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:197
+#: ../../reference_manual/preferences/general_settings.rst:198
 msgid "Favorite Presets"
 msgstr "Улюблені набори"
 
-#: ../../reference_manual/preferences/general_settings.rst:198
+#: ../../reference_manual/preferences/general_settings.rst:199
 msgid ""
 "This determines the amount of presets that can be used in the pop-up palette."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:199
+#: ../../reference_manual/preferences/general_settings.rst:200
 msgid "Create Backup File"
 msgstr "Створити файл резервної копії"
 
-#: ../../reference_manual/preferences/general_settings.rst:200
+#: ../../reference_manual/preferences/general_settings.rst:201
 msgid "When selected Krita will try to save a backup file in case of a crash."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:201
+#: ../../reference_manual/preferences/general_settings.rst:202
 msgid "Hide splash screen on startup."
 msgstr "Ховати вікно вітання під час запуску."
 
-#: ../../reference_manual/preferences/general_settings.rst:202
+#: ../../reference_manual/preferences/general_settings.rst:203
 msgid ""
 "This'll hide the splash screen automatically once Krita is fully loaded."
 msgstr ""
 "Автоматично приховати екран вітання повністю, щойно завантаження Krita буде "
 "завершено."
 
-#: ../../reference_manual/preferences/general_settings.rst:203
+#: ../../reference_manual/preferences/general_settings.rst:204
 msgid "Enable Native File Dialog"
 msgstr "Увімкнути природне вікно роботи з файлами"
 
-#: ../../reference_manual/preferences/general_settings.rst:204
+#: ../../reference_manual/preferences/general_settings.rst:205
 msgid ""
 "This allows you to use the system file dialog. By default turned off because "
 "we cannot seem to get native file dialogues 100% bugfree."
@@ -563,11 +562,11 @@ msgstr ""
 "файлами. Типово вимкнено, оскільки, здається, повністю усунути вади, "
 "пов'язані із такими вікнами, неможливо."
 
-#: ../../reference_manual/preferences/general_settings.rst:205
+#: ../../reference_manual/preferences/general_settings.rst:206
 msgid "Maximum brush size"
 msgstr "Макс. розмір пензля"
 
-#: ../../reference_manual/preferences/general_settings.rst:206
+#: ../../reference_manual/preferences/general_settings.rst:207
 msgid ""
 "This allows you to set the maximum brush size to a size of up to 10.000 "
 "pixels. Do be careful with using this, as a 10.000 size pixel can very "
@@ -575,11 +574,11 @@ msgid ""
 "words, this might be slow."
 msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:208
+#: ../../reference_manual/preferences/general_settings.rst:209
 msgid "Krita will recalculate the cache when you're not doing anything."
 msgstr "Krita оновлюватиме кеш, коли ви не виконуватимете ніяких дій."
 
-#: ../../reference_manual/preferences/general_settings.rst:212
+#: ../../reference_manual/preferences/general_settings.rst:213
 msgid ""
 "This is now in the :ref:`performance_settings` under :guilabel:`Animation "
 "Cache`."

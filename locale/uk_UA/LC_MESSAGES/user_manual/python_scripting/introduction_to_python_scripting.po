@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___python_scripting___introduction_to_python_scripting\n"
+"Project-Id-Version: docs_krita_org_user_manual___python_scripting___introducti"
+"on_to_python_scripting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-03-02 22:39+0200\n"
+"PO-Revision-Date: 2019-03-12 20:35+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -66,6 +66,9 @@ msgid ""
 "Krita. For that we'll first start with the basics: How to run Python "
 "commands in the scripter."
 msgstr ""
+"Натомість у цьому розділі ми зосередимося на тому, як скористатися Python для"
+" автоматизації та розширення можливостей Krita. Для цього ми розпочнемо з"
+" основ — того, як віддавати команди Python у скриптері."
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:35
 msgid "How to Enable the Scripter Plugin"
@@ -93,18 +96,25 @@ msgid ""
 "The scripter will pop up with a text editor window on top and an output "
 "window below. Input the following in the text area:"
 msgstr ""
+"Скриптер відкриє вікно текстового редактора згори і вікно виведення даних"
+" унизу. Введіть такі команди до області редагування тексту:"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:48
 msgid ""
 "Press the big play button or press :kbd:`Ctrl + R` to run the script. Then, "
 "below, in the output area the following should show up::"
 msgstr ""
+"Натисніть білу кнопку відтворення або комбінацію клавіш :kbd:`Ctrl + R`, щоб"
+" наказати програмі виконати сценарій. Далі, у області виведення даних має"
+" з'явитися ось що::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:53
 msgid ""
 "Now we have a console that can run functions like print() from the Python "
 "environment - but how do we use it to manage Krita?"
 msgstr ""
+"Гаразд, маємо консоль, у якій можна запускати функції, подібні до print(), у"
+" середовищі Python. Але як скористатися нею для керування Krita?"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:56
 msgid "Running basic Krita commands"
