@@ -67,7 +67,7 @@ For Windows
 
 Go to the ffmpeg website (http://ffmpeg.org/download.html). The URL that had the link for me was here... https://ffmpeg.zeranoe.com/builds/
 
-Watch out for the extremely annoying google ad that looks like a download button! There is no big button for what we need. Either get the 64-bit STATIC version or 32-bit STATIC version that is shown later down the page. If you bought a computer in the past 5 years, you probably want the 64-bit version. Make sure you get a exe file, if you hover over the options they will give more information about what exactly you are downloading.
+Watch out for the extremely annoying google and that looks like a download button! There is no big button for what we need. Either get the 64-bit STATIC version or 32-bit STATIC version that is shown later down the page. If you bought a computer in the past 5 years, you probably want the 64-bit version. Make sure you get a exe file, if you hover over the options they will give more information about what exactly you are downloading.
 
 For OSX
 ^^^^^^^

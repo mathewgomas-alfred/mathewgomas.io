@@ -54,7 +54,7 @@ Swirl Clock Wise
 Move
     Nudges the area to the painting direction.
 Color Deformation
-    This seems to randomly rearrange the pixels underneath the brush,
+    This seems to randomly rearrange the pixels underneath the brush.
 Lens Zoom In
     Literally paints a enlarged version of the area.
 Lens Zoom Out

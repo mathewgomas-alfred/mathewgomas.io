@@ -155,7 +155,7 @@ even more!
 
 At the top right of the icon library, there are three sliders. They allow
 you to adjust the tool icon. The top two are the same Hue and Saturation
-as in HSL adjustment, ad the lowest slider is a super simple levels
+as in HSL adjustment, and the lowest slider is a super simple levels
 filter. This is done this way because the levels filter allows
 maintaining the darkest shadows and brightest highlights on a tool icon,
 making it much better for quick adjustments.
@@ -179,10 +179,10 @@ engines. It then shows a tag section where you can select the tags, the
 preset list and the search bar.
 
 Underneath that there's a plus icon, which when pressed gives you the
-full list of Krita's engines. Selecting an engine from the list will for
+full list of Krita's engines. Selecting an engine from the list will show the brushes for
 that engine.
 
-The trashcan icon does the same as it does in the preset docker: delete , or
+The trashcan icon does the same as it does in the preset docker: delete, or
 rather, blacklist a preset so it won't show up in the list.
 
 Section C - The Scratch pad
@@ -296,7 +296,7 @@ The first two are regular, the rest with different multiplication types.
    each other. Notice how thick it is.
 #. The size takes the maximum value from the values of the fade and
    distance sensors.
-#. The size takes the minimum value from the values of the face and
+#. The size takes the minimum value from the values of the fade and
    distance sensors.
 #. The size is calculated by having the largest of the values subtracted
    with the smallest of the values.
@@ -367,14 +367,14 @@ Example: Making an inking brush
    :ref:`opacity <option_opacity_n_flow>`
    option in the right-hand list. The settings should now be changed to
    a big curve. This is the sensor curve.
-#. Uncheck the :guilabel:`enable pen settings` checkbox.
+#. Uncheck the :guilabel:`Enable Pen Settings` checkbox.
 #. Test on the scratch pad... there still seems to be something
    affecting opacity. This is due to the
    :ref:`flow <option_opacity_n_flow>`
    option.
 #. Select the Flow option from the list on the right hand. Flow is like
    Opacity, except that Flow is per dab, and opacity is per stroke.
-#. Uncheck the :guilabel:`enable pen settings` checkbox here as well. Test again.
+#. Uncheck the :guilabel:`Enable Pen Settings` checkbox here as well. Test again.
 #. Now you should be getting somewhere towards an inking brush. It is
    still too small however, and kinda grainy looking. Click :ref:`Brush Tip <option_brush_tip>` in the
    brush engine options.
