@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-12 03:34+0100\n"
+"POT-Creation-Date: 2019-03-13 03:40+0100\n"
 "PO-Revision-Date: 2019-03-12 17:36+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -1033,17 +1033,14 @@ msgstr ""
 "Det är första alternativet."
 
 #: ../../KritaFAQ.rst:351
-#| msgid ""
-#| "Also, you can check the Settings menu, it has got a lot of interesting "
-#| "stuff, then go to the Dockers menu and select Toolbox."
 msgid ""
 "Also, you can check the :guilabel:`Settings` menu, it has got a lot of "
 "interesting stuff, then go to the Dockers menu and select :guilabel:"
 "`Toolbox`."
 msgstr ""
-"Det går också att kontrollera menyn :guilabel:`Inställningar`, den har en hel"
-" del intressanta saker, och därefter gå till panelmenyn och välja"
-" :guilabel:`Verktygslåda`."
+"Det går också att kontrollera menyn :guilabel:`Inställningar`, den har en "
+"hel del intressanta saker, och därefter gå till panelmenyn och välja :"
+"guilabel:`Verktygslåda`."
 
 #: ../../KritaFAQ.rst:354
 msgid "Tool icons size is too big"
@@ -1181,7 +1178,9 @@ msgid "You do not have canvas acceleration enabled"
 msgstr "Du har inte acceleration av duken aktiverad"
 
 #: ../../KritaFAQ.rst:408
-msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
+#, fuzzy
+#| msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
+msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr "Titta också på `den här sidan: <https://phabricator.kde.org/T7199>`_"
 
 #: ../../KritaFAQ.rst:411
@@ -1283,13 +1282,6 @@ msgid "Slowdown after a been working for a while"
 msgstr "Långsamhet efter att ha arbetat en stund"
 
 #: ../../KritaFAQ.rst:436
-#| msgid ""
-#| "Once you have the slowdown, click on the image-dimensions in the status "
-#| "bar. It will tell you how much RAM Krita is using, if it has hit the "
-#| "limit, or whether it has started swapping. Swapping can slow down a "
-#| "program a lot, so either work on smaller images or turn up the maximum "
-#| "amount of ram in :menuselection:`Settings --> Configure Krita --> "
-#| "Performance --> Advanced Tab`."
 msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
@@ -1318,12 +1310,19 @@ msgstr ""
 "när det slutförs?"
 
 #: ../../KritaFAQ.rst:444
+#, fuzzy
+#| msgid ""
+#| "The transform tool makes a preview that you edit before computing the "
+#| "finalized version. As this preview is using the screen resolution rather "
+#| "than the image resolution, it may feel that the result is blurry compared "
+#| "to the preview. See `this page <https://forum.kde.org/viewtopic.php?"
+#| "f=139&t=127269>`_ for more info."
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
 "than the image resolution, it may feel that the result is blurry compared to "
 "the preview. See `this page <https://forum.kde.org/viewtopic.php?"
-"f=139&t=127269>`_ for more info."
+"f=139&t=127269>`__ for more info."
 msgstr ""
 "Transformeringsverktyget skapar en förhandsgranskning som kan redigeras "
 "innan den slutliga versionen beräknas. Eftersom förhandsgranskningen "
@@ -1444,4 +1443,3 @@ msgstr "Referens"
 #: ../../KritaFAQ.rst:488
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"
-

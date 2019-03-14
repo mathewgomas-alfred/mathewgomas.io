@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___file_formats___file_gih\n"
+"Project-Id-Version: docs_krita_org_general_concepts___file_formats___file_gih"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 08:26+0200\n"
+"PO-Revision-Date: 2019-03-13 20:11+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:1
 msgid "The Gimp Image Hose file format in Krita."
-msgstr ""
+msgstr "Формат файлів футляра зображень GIMP (GIH) у Krita."
 
 #: ../../general_concepts/file_formats/file_gih.rst:15
 msgid "\\*.gih"
@@ -34,6 +34,9 @@ msgid ""
 "The GIMP image hose format. Krita can open and save these, as well as import "
 "via the :ref:`predefined brush tab <predefined_brush_tip>`."
 msgstr ""
+"Формат футляра зображень GIMP. Krita може відкривати і зберігати файли у"
+" цьому форматі, а також імпортувати дані за допомогою :ref:`вкладки"
+" стандартних пензлів <predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
 msgid ""
@@ -41,6 +44,9 @@ msgid ""
 "and then set some options to make it specify how to output the multiple "
 "images."
 msgstr ""
+"«Футляр» означає, що у файлі цього формату можна зберігати декілька"
+" зображень, встановлюючи певні параметри, які визначають спосіб виведення цих"
+" зображень для показу."
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid ".. image:: images/en/Gih-examples.png"
@@ -48,11 +54,11 @@ msgstr ".. image:: images/en/Gih-examples.png"
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid "From top to bottom: Incremental, Pressure and Random"
-msgstr ""
+msgstr "Згори вниз: «Доповнювальний», «Тиск» і «Випадковий»"
 
 #: ../../general_concepts/file_formats/file_gih.rst:27
 msgid "Gimp image hose format options:"
-msgstr ""
+msgstr "Варіанти формату футляра зображень GIMP:"
 
 #: ../../general_concepts/file_formats/file_gih.rst:29
 msgid "Constant"
@@ -60,7 +66,7 @@ msgstr "Сталий"
 
 #: ../../general_concepts/file_formats/file_gih.rst:30
 msgid "This'll use the first image, no matter what."
-msgstr ""
+msgstr "Цей варіант означає «перше зображення», байдуже яке."
 
 #: ../../general_concepts/file_formats/file_gih.rst:31
 msgid "Incremental"
@@ -71,6 +77,9 @@ msgid ""
 "This'll paint the image layers in sequence. This is good for images that can "
 "be strung together to create a pattern."
 msgstr ""
+"Цей варіант означає «малювати шари зображення як послідовність». Цей варіант"
+" є придатним для зображень, які можна накласти одне на одне для створення"
+" візерунка."
 
 #: ../../general_concepts/file_formats/file_gih.rst:33
 msgid "Pressure"
@@ -81,6 +90,8 @@ msgid ""
 "This'll paint the images depending on pressure. This is good for brushes "
 "imitating the hairs of a natural brush."
 msgstr ""
+"Цей варіант передбачає малювання зображень залежно від тиску. Придатний для"
+" пензлів, які імітують волосинки справжнього пензля."
 
 #: ../../general_concepts/file_formats/file_gih.rst:35
 msgid "Random"
@@ -92,6 +103,9 @@ msgid ""
 "speedpainting as well as images that generate texture. Or perhaps more "
 "graphical symbols."
 msgstr ""
+"Цей варіант передбачає випадкове малювання зображень. Придатний для збірок"
+" зображень, які використовуються у малюванні на швидкість, а також зображень"
+" для створення текстури, або, можливо, більш графічних символів."
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "Angle"
@@ -100,6 +114,8 @@ msgstr "Кут"
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "This'll use the dragging angle to determine with image to draw."
 msgstr ""
+"Цей варіант використовує кут інерції для визначення зображення, яке слід"
+" намалювати."
 
 #: ../../general_concepts/file_formats/file_gih.rst:40
 msgid ""
@@ -108,6 +124,9 @@ msgid ""
 "it up in the UI) and the ability to choose whether or not to generate the "
 "mask from the colors."
 msgstr ""
+"При експортуванні файла Krita у форматі .gih, ви також зможете встановити"
+" типовий інтервал, назву (дуже важливо для пошуку зображення у графічному"
+" інтерфейсі) та можливість визначити, чи слід створювати маску з кольорів."
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
 msgid "Use Color as Mask"
@@ -119,9 +138,14 @@ msgid ""
 "whitest as transparent. Untick this if you are using colored images for the "
 "brush."
 msgstr ""
+"За допомогою цього пункту можна перетворити найтемніші кольори зображення на"
+" повністю непрозорі ділянки, а найбіліші — на прозорі. Позначте цей пункт,"
+" якщо використовуєте розфарбовані зображення для пензля."
 
 #: ../../general_concepts/file_formats/file_gih.rst:45
 msgid ""
 "We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to "
 "create your own gih brush."
 msgstr ""
+"Ми присвятили спеціальний :ref:`розділ підказок «Кінчики пензлів Krita» <"
+"brush_tip_animated_brush>` тому, як створити власний пензель gih."
