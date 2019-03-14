@@ -45,16 +45,16 @@ importfilename
 
 Example:
 
-``krita final.png --export --export-filename final.jpg``
+``krita file.png --export --export-filename final.jpg``
 
-This piece of code takes the file ``file.png`` and saves it as ``file.jpg``.
+This piece of code takes the file ``file.png`` and saves it as ``final.jpg``.
 
 PDF export
 ----------
 
 Pdf export looks a bit different, using the ``--export-pdf`` option.
 
-``krita final.png --export-pdf --export-filename final.pdf``
+``krita file.png --export-pdf --export-filename final.pdf``
 
 export-pdf exports the file ``file.png`` as a pdf file.
 
@@ -90,7 +90,7 @@ Open krita and automatically open the given template(s). This allows you to, for
 
    Selects the template option
 
-   All templates are saved with the .desktop extension. You can find templates in the .kde/share/apps/krita/template or in the install folder of Krita.
+   All templates are saved with the .desktop extension. You can find templates in the .local/share/krita/template or in the install folder of Krita.
 
    ``krita --template BD-EuroTemplate.desktop``
 

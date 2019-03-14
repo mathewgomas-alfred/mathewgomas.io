@@ -306,7 +306,7 @@ Section F - Miscellaneous options
 
 Temporarily Save Tweaks to Preset (Dirty Presets)
     This enables dirty presets. Dirty presets store the tweaks you make
-    as long as this session of Krita is active. After that, the revert
+    as long as this session of Krita is active. After that, they revert
     to default. Dirtied presets can be recognized by the icon in the
     top-left of the preset. 
 
@@ -419,7 +419,7 @@ Changing the amount of pressure you need to put on a brush to make it full size.
     To do this, select the :ref:`size <option_size>`
     option, and press the pressure sensor from the list next to the curve. The curve should look like a straight line. Now if you want a brush that gets big with little pressure, tick on the curve to make a point, and drag the point to the upper-left. The more the point is to the upper-left, the more extreme the effect. If you want instead a brush that you have to press really hard on to get to full size, drag the dot to the lower-right. Such a brush is useful for fine details. Don't forget to save the changes to your brush when done.
 Making the fine lines look even softer by using the flow option.
-    To do this, select the flow option, and turn back on the enable pen settings check box. Now if you test this, it is indeed a bit softer, but maybe a bit too much. Click on the curve to make a dot, and drag that dot to the top-left, half-way the horizontal of the first square of the grid. Now, if you test, the thin lines are much softer, but the hard your press, the harder the brush becomes.
+    To do this, select the flow option, and turn back on the :guilabel:`Enable Pen Settings` check box. Now if you test this, it is indeed a bit softer, but maybe a bit too much. Click on the curve to make a dot, and drag that dot to the top-left, half-way the horizontal of the first square of the grid. Now, if you test, the thin lines are much softer, but the hard your press, the harder the brush becomes.
 
 Sharing Brushes
 ---------------

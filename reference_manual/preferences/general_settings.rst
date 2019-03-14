@@ -31,7 +31,7 @@ Cursor Shape
 Select a cursor shape to use while the brush tools are used. This cursor will always be visible on the canvas. It is usually set to a type exactly where your pen nib is at. The available cursor types are shown below.
 
 Tool Icon
-    Shows the currently selected tool icon,even for the freehand brush. 
+    Shows the currently selected tool icon, even for the freehand brush. 
     
     .. image:: /images/en/Settings_cursor_tool_icon.png
 
@@ -172,7 +172,7 @@ Kinetic Scrolling (Needs Restart)
 Miscellaneous
 -------------
 
-When Krita Starts
+When Krita starts
     This is the option for handling user sessions. It has the following options:
 
     Open Default Window

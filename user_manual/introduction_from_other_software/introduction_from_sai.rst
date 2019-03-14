@@ -78,7 +78,7 @@ Another, somewhat amusing misconception is that Krita's brush engine is not very
 
 This is not quite true. It's rather that we don't have our brush settings in a docker but a drop-down on the toolbar. The easiest way to access this is with :kbd:`F5`. As you can see, it's actually quite complex. We have more than a dozen brush engines, which are a type of brush you can make. The ones you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color Smudge Brush (brush) and the filter brush (dodge, burn).
 
-A simple inking brush recipe for example is to take a pixel brush, uncheck the 'enable pen-settings' on opacity and flow, and uncheck everything but size from the option list. Then, go into brush-tip, pick :ref:`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue bar if you want to input numbers), turn on anti-aliasing under the brush icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and the spacing number to 0.8.
+A simple inking brush recipe for example is to take a pixel brush, uncheck the :guilabel:`Enable Pen Settings` on opacity and flow, and uncheck everything but size from the option list. Then, go into brush-tip, pick :ref:`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue bar if you want to input numbers), turn on anti-aliasing under the brush icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and the spacing number to 0.8.
 
 You can configure the brushes in a lot of detail, and share the packs with others. Importing of packs and brushes can be done via the :menuselection:`Settings --> Manage Resources`, where you can import .bundle files or .kpp files.
 

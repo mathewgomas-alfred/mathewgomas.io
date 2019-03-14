@@ -48,7 +48,7 @@ To get the audio file included when you are exporting, you need to include it in
 Packages needed for Audio on Linux
 ----------------------------------
 
-The following packages are necessary for havng the audio support on Linux:
+The following packages are necessary for having the audio support on Linux:
 
 
 For people who build Krita on Linux:
