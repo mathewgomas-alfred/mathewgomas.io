@@ -17,8 +17,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:1
 msgid ""
-"Overview of maths operations that can be used in Krita spinboxes and number"
-" inputs."
+"Overview of maths operations that can be used in Krita spinboxes and number "
+"inputs."
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:17
@@ -27,10 +27,10 @@ msgstr "Matematické vstupy"
 
 #: ../../reference_manual/maths_input.rst:19
 msgid ""
-"Also known as Numerical Input boxes. You can make Krita do simple maths for"
-" you in the places where we have number input. Just select the number in a"
-" spinbox, or right-click a slider to activate number input. It doesn't do"
-" unit conversion yet, but this is planned."
+"Also known as Numerical Input boxes. You can make Krita do simple maths for "
+"you in the places where we have number input. Just select the number in a "
+"spinbox, or right-click a slider to activate number input. It doesn't do "
+"unit conversion yet, but this is planned."
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:22
@@ -47,8 +47,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:29
 msgid ""
-"Just subtracts the last number from the first. Usage: ``50-100`` Output:"
-" ``50``"
+"Just subtracts the last number from the first. Usage: ``50-100`` Output: "
+"``50``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:30
@@ -73,8 +73,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:41
 msgid ""
-"Makes the last number the exponent of the first and calculates the result."
-" Usage: ``2^8`` Output: ``256``"
+"Makes the last number the exponent of the first and calculates the result. "
+"Usage: ``2^8`` Output: ``256``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:42
@@ -110,8 +110,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:57
 msgid ""
-"Inverse function of the sine, gives you the angle which the sine equals the"
-" argument. Usage: ``asin(0.76)`` Output: ``50``"
+"Inverse function of the sine, gives you the angle which the sine equals the "
+"argument. Usage: ``asin(0.76)`` Output: ``50``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:58
@@ -120,8 +120,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:61
 msgid ""
-"Inverse function of the cosine, gives you the angle which the cosine equals"
-" the argument. Usage: ``acos(0.64)`` Output: ``50``"
+"Inverse function of the cosine, gives you the angle which the cosine equals "
+"the argument. Usage: ``acos(0.64)`` Output: ``50``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:62
@@ -130,8 +130,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:65
 msgid ""
-"Inverse function of the tangent, gives you the angle which the tangent equals"
-" the argument. Usage: ``atan(1.19)`` Output: ``50``"
+"Inverse function of the tangent, gives you the angle which the tangent "
+"equals the argument. Usage: ``atan(1.19)`` Output: ``50``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:66
@@ -149,8 +149,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:73
 msgid ""
-"Gives you given values using e as the exponent. Usage: ``exp(1)`` Output:"
-" ``2.7183``"
+"Gives you given values using e as the exponent. Usage: ``exp(1)`` Output: "
+"``2.7183``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:74
@@ -159,8 +159,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:77
 msgid ""
-"Gives you the natural logarithm, which means it has the inverse functionality"
-" to exp(). Usage: ``ln(2)`` Output: ``0.6931``"
+"Gives you the natural logarithm, which means it has the inverse "
+"functionality to exp(). Usage: ``ln(2)`` Output: ``0.6931``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:79
@@ -173,7 +173,8 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:84
 msgid ""
-"Gives you logarithms of the given value. Usage: ``log10(50)`` Output: ``0.64``"
+"Gives you logarithms of the given value. Usage: ``log10(50)`` Output: "
+"``0.64``"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:86
@@ -186,9 +187,9 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:91
 msgid ""
-"The order of operations is a globally agreed upon reading order for"
-" interpreting mathematical expressions. It solves how to read an expression"
-" like:"
+"The order of operations is a globally agreed upon reading order for "
+"interpreting mathematical expressions. It solves how to read an expression "
+"like:"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:93
@@ -197,21 +198,21 @@ msgstr "``2+3*4``"
 
 #: ../../reference_manual/maths_input.rst:95
 msgid ""
-"You could read it as 2+3 = 5, and then 5*4 =20. Or you could say 3*4 = 12 and"
-" then 2+12 = 14."
+"You could read it as 2+3 = 5, and then 5*4 =20. Or you could say 3*4 = 12 "
+"and then 2+12 = 14."
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:97
 msgid ""
-"The order of operations itself is Exponents, Multiplication, Addition,"
-" Subtraction. So we first multiply, and then add, making the answer to the"
-" above 14, and this is how Krita will interpret the above."
+"The order of operations itself is Exponents, Multiplication, Addition, "
+"Subtraction. So we first multiply, and then add, making the answer to the "
+"above 14, and this is how Krita will interpret the above."
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:99
 msgid ""
-"We can use brackets to specify certain operations go first, so to get 20 from"
-" the above expression, we do the following:"
+"We can use brackets to specify certain operations go first, so to get 20 "
+"from the above expression, we do the following:"
 msgstr ""
 
 #: ../../reference_manual/maths_input.rst:101
@@ -229,8 +230,7 @@ msgstr "Chyby"
 
 #: ../../reference_manual/maths_input.rst:108
 msgid ""
-"Sometimes, you see the result becoming red. This means you made a mistake and"
-" Krita cannot parse your maths expression. Simply click the input box and try"
-" again."
+"Sometimes, you see the result becoming red. This means you made a mistake "
+"and Krita cannot parse your maths expression. Simply click the input box and "
+"try again."
 msgstr ""
-

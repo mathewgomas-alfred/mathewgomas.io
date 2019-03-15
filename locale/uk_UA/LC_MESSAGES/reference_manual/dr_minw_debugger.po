@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___dr_minw_debugger\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-22 15:45+0200\n"
+"PO-Revision-Date: 2019-03-14 08:31+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -58,6 +58,8 @@ msgid ""
 "The information on this page applies only to the Windows release of Krita "
 "3.1 Beta 3 (3.0.92) and later."
 msgstr ""
+"Відомості з цієї сторінки стосуються лише випусків Krita для Windows версії"
+" 3.1 Beta 3 (3.0.92) та новіших версій."
 
 #: ../../reference_manual/dr_minw_debugger.rst:26
 msgid "Getting a Backtrace"
@@ -68,6 +70,8 @@ msgid ""
 "There are some additions to Krita which makes getting a backtrace much "
 "easier on Windows."
 msgstr ""
+"Існують додаткові до Krita програми, які значно спрощують отримання даних"
+" трасування у Windows."
 
 #: ../../reference_manual/dr_minw_debugger.rst:32
 msgid ""
@@ -75,6 +79,9 @@ msgid ""
 "time, ranging from a few seconds to a few minutes, before the crash dialog "
 "appears."
 msgstr ""
+"Після аварії Krita може не відповідати на запити протягом певного часу, від"
+" декількох секунд до декількох хвилин, перш ніж ви побачите діалогове вікно"
+" повідомлення щодо аварійного завершення роботи."
 
 #: ../../reference_manual/dr_minw_debugger.rst:36
 msgid "An example of the crash dialog"
@@ -94,18 +101,24 @@ msgid ""
 "Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the "
 "address bar and press Enter."
 msgstr ""
+"Відкрийте Провідник Windows, введіть ``%LocalAppData%`` (без лапок) у смужці"
+" адреси і натисніть клавішу :kbd:`Enter`."
 
 #: ../../reference_manual/dr_minw_debugger.rst:44
 msgid ""
 "Find the file ``kritacrash.log`` (it might appear as simply ``kritacrash`` "
 "depending on your settings.)"
 msgstr ""
+"Знайдіть файл ``kritacrash.log`` (може мати назву ``kritacrash``, залежно від"
+" параметрів роботи програми)"
 
 #: ../../reference_manual/dr_minw_debugger.rst:45
 msgid ""
 "Open the file with Notepad and scroll to the bottom, then scroll up to the "
 "first occurrence of “Error occurred on <time>” or the dashes."
 msgstr ""
+"Відкрийте файл у Notepad і гортайте його вміст до кінця, потім підніміться"
+" трохи вгору до першого запису «Error occurred on <час>» або рядка з дефісів."
 
 #: ../../reference_manual/dr_minw_debugger.rst:49
 msgid "Start of backtrace"
@@ -126,6 +139,8 @@ msgid ""
 "The text starting from this line to the end of the file is the most recent "
 "backtrace."
 msgstr ""
+"Текст від цього рядка і до кінця файла і є найсвіжішими даними зворотного"
+" трасування."
 
 #: ../../reference_manual/dr_minw_debugger.rst:59
 msgid ""
@@ -148,6 +163,8 @@ msgid ""
 "Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT debugger "
 "is not needed for getting the backtrace."
 msgstr ""
+"Починаючи з Krita 3.1 Beta 3 (3.0.92), зовнішній засіб діагностики JIT"
+" DrMingw вже не потрібне для отримання даних зворотного трасування."
 
 #: ../../reference_manual/dr_minw_debugger.rst:67
 msgid "Using the Debug Package"

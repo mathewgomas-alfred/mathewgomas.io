@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___audio_for_animation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-28 03:20+0100\n"
-"PO-Revision-Date: 2019-02-20 11:24+0200\n"
+"PO-Revision-Date: 2019-03-14 19:27+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../reference_manual/audio_for_animation.rst:1
 msgid "The audio playback with animation in Krita."
@@ -33,12 +33,18 @@ msgid ""
 "Audio for animation is an unfinished feature. It has multiple bugs and may "
 "not work on your system."
 msgstr ""
+"Можливість додавання звукового супроводу до анімацій є можливістю, яка"
+" перебуває у розробці. Відомі декілька вад у реалізації, усе описане може не"
+" працювати у вашій системі."
 
 #: ../../reference_manual/audio_for_animation.rst:23
 msgid ""
 "You can add audio files to your animation to help sync lips or music. This "
 "functionality is available in the timeline docker."
 msgstr ""
+"Ви можете додати звукові файли до вашої анімації для синхронізації руху губ"
+" або музичного супроводу. Доступ до цієї можливості можна отримати за"
+" допомогою бічної панелі монтажного столу."
 
 #: ../../reference_manual/audio_for_animation.rst:26
 msgid "Importing Audio Files"
@@ -49,12 +55,17 @@ msgid ""
 "Krita supports MP3, OGM, and WAV audio files. When you open up your timeline "
 "docker, there will be a speaker button in the top left area."
 msgstr ""
+"У Krita передбачено підтримку файлів звукових даних у форматах MP3, OGM та"
+" WAV. Доступ до завантаження звукових даних відкриває кнопка із зображенням"
+" гучномовця у верхньому лівому куті бічної панелі монтажного столу."
 
 #: ../../reference_manual/audio_for_animation.rst:30
 msgid ""
 "If you press the speaker button, you will get the available audio options "
 "for the animation."
 msgstr ""
+"Якщо ви натиснете цю кнопку, програма покаже доступні можливості звукового"
+" супроводу анімації."
 
 #: ../../reference_manual/audio_for_animation.rst:32
 msgid "Open"
@@ -103,16 +114,18 @@ msgstr ""
 
 #: ../../reference_manual/audio_for_animation.rst:49
 msgid "Packages needed for Audio on Linux"
-msgstr ""
+msgstr "Пакунки, які слід встановити для уможливлення роботи зі звуком у Linux"
 
 #: ../../reference_manual/audio_for_animation.rst:51
 msgid ""
 "The following packages are necessary for havng the audio support on Linux:"
 msgstr ""
+"Для реалізації підтримки звукового супроводу у Linux необхідними є такі"
+" пакунки:"
 
 #: ../../reference_manual/audio_for_animation.rst:54
 msgid "For people who build Krita on Linux:"
-msgstr ""
+msgstr "Для тих, хто збирає Krita у Linux:"
 
 #: ../../reference_manual/audio_for_animation.rst:56
 msgid "libasound2-dev"

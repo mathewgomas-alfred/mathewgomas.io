@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___shape_edit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 21:14+0200\n"
+"PO-Revision-Date: 2019-03-14 15:31+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -386,6 +386,8 @@ msgid ""
 "Make the selected node smooth. The two side handles will always point in "
 "opposite directions, and their length will stay the same."
 msgstr ""
+"Зробити позначений вузол гладким. Напрям елементів керування при цьому завжди"
+" лишатиметься протилежним, а довжина вусів буде завжди однаковою."
 
 #: ../../reference_manual/tools/shape_edit.rst:112
 msgid "Insert Point"
@@ -428,6 +430,8 @@ msgid ""
 "Make the current segment a curve: It'll add side nodes for this segment to "
 "the nodes attached to it."
 msgstr ""
+"Перетворити поточний сегмент на криволінійний. Додасть елементи керування"
+" кривою до вузлів, які є кінцями сегмента."
 
 #: ../../reference_manual/tools/shape_edit.rst:124
 msgid "Make Line Point"
@@ -438,6 +442,8 @@ msgid ""
 "Turn the selected node into a sharp corner: This will remove the side "
 "handles."
 msgstr ""
+"Перетворити поточний вузол на прямолінійний. Вилучить елементи керування"
+" кривою з вузла."
 
 #: ../../reference_manual/tools/shape_edit.rst:126
 msgid "Make Curve Point"
@@ -471,7 +477,7 @@ msgstr "З'єднати сегментом"
 
 #: ../../reference_manual/tools/shape_edit.rst:133
 msgid "Join two nodes that are only attached on one side with a segment."
-msgstr ""
+msgstr "З'єднати два вузли, кожен з яких є кінцевим вузлом сегмента."
 
 #: ../../reference_manual/tools/shape_edit.rst:135
 msgid "Line Segment Editing"
@@ -486,6 +492,8 @@ msgid ""
 "Merge two nodes into one, if the nodes are adjacent or if both nodes are "
 "only attached on one side with a segment."
 msgstr ""
+"Об'єднати два вузли у один, якщо вузли є сусідніми або кожен з вузлів є"
+" кінцевим вузлом сегмента."
 
 #: ../../reference_manual/tools/shape_edit.rst:138
 msgid "Rectangle Shapes"
@@ -500,6 +508,9 @@ msgid ""
 "Rectangle shapes are the ones made with the :ref:`rectangle_tool`. It has "
 "extra options to make rounded corners easy."
 msgstr ""
+"Прямокутними є форми, які створено за допомогою інструмента"
+" :ref:`rectangle_tool`. Для цього інструмента передбачено додаткові"
+" параметри, які уможливлюють просте створення заокруглених кутів."
 
 #: ../../reference_manual/tools/shape_edit.rst:144
 msgid "Corner radius x"

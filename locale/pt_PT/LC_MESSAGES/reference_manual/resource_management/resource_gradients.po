@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-13 17:58+0000\n"
+"PO-Revision-Date: 2019-03-14 14:26+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Kritastopgradient en GradientToolbarPanel mouseright\n"
+"X-POFile-SpellExtra: icons Krita Kritastopsuddenchange image\n"
+"X-POFile-SpellExtra: Kritamouseleft Kritamouseright Kritagradienthsvcw\n"
+"X-POFile-SpellExtra: Kritasegmentgradientoptions images Kritanewgradient\n"
+"X-POFile-SpellExtra: alt mouseleft KritaEditingCustomGradient\n"
+"X-POFile-SpellExtra: Kritagradientsegmentblending Kritamovestop\n"
 
 #: ../../<generated>:1
 msgid "HSV counter-clock wise."
@@ -81,7 +87,7 @@ msgstr "Aceder a um Gradiente"
 msgid ""
 "The Gradients configuration panel is accessed by clicking the Gradients icon "
 "(usually the icon next to the disk)."
-msgstr "O painel de configuração dosd Gradientes é acedido ao carregar no ícone de Gradientes (normalmente o ícone a seguir ao disco)."
+msgstr "O painel de configuração dos Gradientes é acedido ao carregar no ícone de Gradientes (normalmente o ícone a seguir ao disco)."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:24
 msgid ".. image:: images/en/Gradient_Toolbar_Panel.png"
@@ -92,7 +98,7 @@ msgid ""
 "Gradients are configurations of blending between colors.  Krita provides "
 "over a dozen preset dynamic gradients for you to choose from.  In addition, "
 "you can design and save your own."
-msgstr ""
+msgstr "Os gradientes são configurações de mistura entre cores. O Krita oferece cerca de uma dúzia de gradientes dinâmicos predefinidos por onde escolher. Para além disso, poderá desenhar e criar os seus próprios."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:27
 msgid "Some typical uses of gradients are:"
@@ -114,7 +120,7 @@ msgstr "Como uma fonte de cores para o pincel de pixels."
 msgid ""
 "There is no gradients docker. They can only be accessed through the gradient "
 "\"quick-menu\" in the toolbar."
-msgstr "Não existe nenhuma área de gradientes. Só poderá aceder aos mesmos através do \"menu rápido\" de gradientes na barra de ferramentas"
+msgstr "Não existe nenhuma área de gradientes. Só poderá aceder aos mesmos através do \"menu rápido\" de gradientes na barra de ferramentas."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:36
 msgid "Editing a Gradient"
@@ -128,79 +134,79 @@ msgstr "O Krita tem dois tipos de gradientes:"
 msgid ""
 "Segmented Gradients, which are compatible with GIMP, have many different "
 "features but are also a bit complicated to make."
-msgstr ""
+msgstr "Os Gradientes Segmentados, que são compatíveis com o GIMP, têm muitas funcionalidades diferentes mas também são um pouco complicados de criar."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:41
 msgid ""
 "Stop Gradients, which are saved as SVG files and similar to how most "
 "applications do their gradients, but has less features than the segmented "
 "gradient."
-msgstr ""
+msgstr "Os Gradientes com Paragens, que são gravados como ficheiros SVG e são semelhantes ao que a maioria das aplicações usa nos seus gradientes, mas que têm menos funcionalidades que os gradientes segmentados."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:43
 msgid ""
 "Initially we could only make segmented gradients in Krita, but in 3.0.2 we "
 "can also make stop gradients."
-msgstr ""
+msgstr "Inicialmente, só era possível criar gradientes segmentados, mas no 3.0.2 passámos também a poder criar do outro tipo."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:48
 msgid ""
 "You can make a new gradient by going into the drop-down and selecting the "
 "gradient type you wish to have. By default Krita will make a stop-gradient."
-msgstr ""
+msgstr "Poderá criar um novo gradiente se for à lista e seleccionar o tipo de gradiente que deseja ter. Por omissão, o Krita irá criar um gradiente com paragens."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:51
 msgid "Stop Gradients"
-msgstr ""
+msgstr "Gradientes com Paragens"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:56
 msgid "Stop gradients are very straight forward:"
-msgstr ""
+msgstr "Estes gradientes são bastante intuitivos:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:58
 msgid "|mouseleft| on the gradient to add a stop."
-msgstr ""
+msgstr "Use o |mouseleft| sobre o gradiente para adicionar uma paragem."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:59
 msgid "|mouseleft| on the stops to select them, and drag to move them."
-msgstr ""
+msgstr "Use o |mouseleft| nas paragens para as seleccionar e arraste-as para as mover."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:60
 msgid ""
 "|mouseright| on the stops to remove them. A stop gradient will not allow you "
 "to remove stops if there's only two left."
-msgstr ""
+msgstr "Use o |mouseright| sobre as paragens para as remover. Um gradiente com paragens não lhe permitirá remover paragens, caso já só existam duas."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:65
 msgid ""
 "A selected stop can have its color and transparency changed using the color "
 "button and the opacity slider below."
-msgstr ""
+msgstr "Uma dada paragem poderá modificar a sua própria cor e transparência, usando o botão de cores e a barra de opacidade abaixo."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:70
 msgid ""
 "As per SVG spec, you can make a sudden change between stops by moving them "
 "close together. The stops will overlap, but you can still drag them around."
-msgstr ""
+msgstr "De acordo com a norma SVG, poderá criar uma mudança brusca entre paragens, movendo umas para perto das outras. As paragens sobrepor-se-ão, mas poderá continuar a arrastá-las à mesma."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:73
 msgid "Segmented Gradients"
-msgstr ""
+msgstr "Gradientes Segmentados"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:76
 msgid ".. image:: images/en/Krita_Editing_Custom_Gradient.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Editing_Custom_Gradient.png"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:77
 msgid ""
 "Segmented gradients are a bit more tricky. Instead of going from color to "
 "color, it allows you to define segments, which each can have a begin and end "
 "color."
-msgstr ""
+msgstr "Os gradientes segmentados têm mais alguns truques. Em vez de irem de uma cor para outra, é permitida a definição de segmentos, onde cada qual poderá ter uma cor inicial e final."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:79
 msgid "|mouseright| the gradient to call up this menu:"
-msgstr ""
+msgstr "Use o |mouseright| sobre o gradiente para invocar este menu:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:84
 msgid "Split Segment"
@@ -211,76 +217,76 @@ msgid ""
 "This splits the current segment in two, using the white arrow, the segment "
 "middle as the place to split. It will also use the color at the white arrow "
 "to define the new colors in place in the new segments."
-msgstr ""
+msgstr "Isto separa o segmento actual em dois, usando a seta branca e com o centro do segmento como o local de divisão. Também irá usar a cor na seta branca para definir as novas cores no local dos novos segmentos."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:86
 msgid "Duplicate segment"
-msgstr ""
+msgstr "Duplicar o segmento"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:87
 msgid ""
 "Similar to split, but instead the two new segments are copies of the old one."
-msgstr ""
+msgstr "É semelhante à divisão, mas neste caso os dois novos segmentos são réplicas do antigo."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:88
 msgid "Mirror segment."
-msgstr ""
+msgstr "Espelho do segmento."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:89
 msgid "Mirrors the segment colors."
-msgstr ""
+msgstr "Cria um espelho das cores do segmento."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:91
 msgid "Remove segment"
-msgstr ""
+msgstr "Remover o segmento"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:91
 msgid "Removes the segment."
-msgstr ""
+msgstr "Remove o segmento."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:93
 msgid ""
 "|mouseleft| + dragging the black arrows will resize the segments attaching "
 "to those arrows. |mouseleft| + dragging the white arrows will change the mid "
 "point of that segment, changing the way how the mixture is made."
-msgstr ""
+msgstr "Use o |mouseleft| + arraste as setas pretas para dimensionar os segmentos associados a essas setas. Use o |mouseleft| + arraste as setas brancas para modificar o ponto central desse segmento, mudando a forma como é feita a mistura."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:95
 msgid ""
 "At the bottom, you can set the color and transparency of either part of the "
 "segment."
-msgstr ""
+msgstr "No fundo, poderá definir a cor e a transparência de qualquer parte do segmento."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:97
 msgid "You can also set the blending. The first is the interpolation mode:"
-msgstr ""
+msgstr "Poderá também definir a mistura. A primeira opção é o modo de interpolação:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:102
 msgid "Linear - Does a linear blending between both segments."
-msgstr ""
+msgstr "Linear - Cria uma mistura linear entre ambos os segmentos."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:103
 msgid "Curved - This causes the mix to ease-in and out faster."
-msgstr ""
+msgstr "Curvada - Isto faz com que exista uma aceleração ou desaceleração da mistura."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:104
 msgid ""
 "Sine - Uses a sine function. This causes the mix to ease in and out slower."
-msgstr ""
+msgstr "Seno - Usa uma função sinusoidal. Isto faz com que a mistura acelere ou desacelere com uma progressão mais lenta."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:105
 msgid ""
 "Sphere, increasing - This puts emphasis on the later color during the mix."
-msgstr ""
+msgstr "Esférica com aumento - Isto coloca alguma ênfase sobre a última cor, durante a mistura."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:106
 msgid ""
 "Sphere, decreasing - This puts emphasis on the first color during the mix."
-msgstr ""
+msgstr "Esférica com diminuição - Isto coloca alguma ênfase sobre a primeira cor, durante a mistura."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:108
 msgid "Finally, there's the model:"
-msgstr ""
+msgstr "Finalmente, aparece o modelo:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:113
 msgid "RGB"
@@ -288,19 +294,19 @@ msgstr "RGB"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:114
 msgid "Does the blending in RGB model."
-msgstr ""
+msgstr "Faz a mistura com base no modelo RGB."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:115
 msgid "HSV clockwise"
-msgstr ""
+msgstr "HSV horário"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:116
 msgid ""
 "Blends the two colors using the HSV model, and follows the hue clockwise "
 "(red-yellow-green-cyan-blue-purple). The above screenshot is an example of "
 "this."
-msgstr ""
+msgstr "Mistura as duas cores com base no modelo HSV, seguindo a tonalidade no sentido dos ponteiros do relógio (vermelho-amarelo-verde-cíano-azul-roxo). A imagem acima é um exemplo deste caso."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:118
 msgid "Blends the color as the previous options, but then counter-clockwise."
-msgstr ""
+msgstr "Mistura a cor como nas opções acima, mas no sentido contrário aos ponteiros do relógio."
