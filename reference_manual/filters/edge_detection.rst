@@ -17,7 +17,7 @@ Edge Detection
 
 Edge detection filters focus on finding sharp contrast or border between colors in an image to create edges or lines.
 
-Since 4.0 there's only two edge detection filters.
+Since 4.0 there are only two edge detection filters.
 
 Edge Detection
 --------------

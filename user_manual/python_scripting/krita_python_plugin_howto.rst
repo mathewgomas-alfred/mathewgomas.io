@@ -27,7 +27,7 @@ These mini-tutorials are written for people with a basic understanding of python
 Getting Krita to recognize your plugin
 --------------------------------------
 
-A script in Krita has two components - the script directory (holding your script's Python files) and a ".desktop" file that Krita uses to load and register your script. For Krita to load your script both of these must put be in the pykrita subdirectory of your Krita resources folder (on Linux  ~/.local/share/krita/pykrita). To find your resources folder start Krita and click the :menuselection:`Settings --> Manage Resources menu item`. This will open a dialog box. Click the :guilabel:`Open Resources Folder` button. This should open a file manager on your system at your Krita resources folder. See the `API <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/index.html>`_ docs under "Auto starting scripts".  If there is no pykrita subfolder in the Krita resources directory use your file manager to create one. 
+A script in Krita has two components - the script directory (holding your script's Python files) and a ".desktop" file that Krita uses to load and register your script. For Krita to load your script both of these must put be in the pykrita subdirectory of your Krita resources folder (on Linux  ~/.local/share/krita/pykrita). To find your resources folder start Krita and click the :menuselection:`Settings --> Manage Resources` menu item. This will open a dialog box. Click the :guilabel:`Open Resources Folder` button. This should open a file manager on your system at your Krita resources folder. See the `API <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/index.html>`_ docs under "Auto starting scripts".  If there is no pykrita subfolder in the Krita resources directory use your file manager to create one. 
 
 Scripts are identified by a file that ends in a .desktop extension that contain information about the script itself.
 
@@ -140,7 +140,7 @@ So...
 
 if you now restart Krita, you will have an action called "My Script". It still doesn't do anything, because we haven't connected it to a script.
 
-So, lets make a simple export document script. Add the following to the extension class, make sure it is above where you add the extension to Krita:
+So, let's make a simple export document script. Add the following to the extension class, make sure it is above where you add the extension to Krita:
 
 .. code:: python
 
@@ -172,14 +172,14 @@ Then, to connect the action to the new export document:
         action.triggered.connect(self.exportDocument)
 
 
-This is an example of a `signal/slot connection <http://doc.qt.io/qt-5/signalsandslots.html>`_, which QT applications like Krita use a lot. We'll go over how to make our own signals and slots a bit later.
+This is an example of a `signal/slot connection <http://doc.qt.io/qt-5/signalsandslots.html>`_, which Qt applications like Krita use a lot. We'll go over how to make our own signals and slots a bit later.
 
 Restart Krita and your new action ought to now export the document.
 
 Creating configurable keyboard shortcuts
 ----------------------------------------
 
-Now, your new action doesn't show up in :menuselection:`Settings --> configure Krita --> Keyboard Shortcuts`.
+Now, your new action doesn't show up in :menuselection:`Settings --> Configure Krita --> Keyboard Shortcuts`.
 
 Krita, for various reasons, only adds actions to the shortcuts menu when they are present in an .action file. The action file to get our action to be added to shortcuts should look like this:
 
@@ -215,7 +215,7 @@ icon
 text
  The text that it will show in the shortcut editor.
 whatsThis
- The text it will show when a QT application specifically calls for 'what is this', which is a help action.
+ The text it will show when a Qt application specifically calls for 'what is this', which is a help action.
 toolTip
  The tool tip, this will show up on hover-over.
 iconText
@@ -223,13 +223,13 @@ iconText
 activationFlags
  This determines when an action is disabled or not.
 activationConditions
- No clue
+ This determines activation conditions (e.g. activate only when selection is editable). See `the code <https://cgit.kde.org/krita.git/tree/libs/ui/kis_action.h#n76>`_ for examples.
 shortcut
  Default shortcut.
 isCheckable
  Whether it is a checkbox or not.
 statusTip
- No Clue.
+ The status tip that is displayed on a status bar.
 
 Save this file as "myplugin.action" where myplugin is the name of your plugin. The action file should be saved, not in the pykrita resources folder, but rather in a resources folder named "actions". (So, share/pykrita is where the python plugins and desktop files go, and share/actions is where the action files go) Restart Krita. The shortcut should now show up in the shortcut action list.
 
@@ -263,11 +263,11 @@ For the addDockWidgetFactory...
 DockWidgetFactoryBase.DockRight
  The location. These can be DockTornOff, DockTop, DockBottom, DockRight, DockLeft, or DockMinimized
 MyDocker
- Replace this with the class name of the docker your wanna add.
+ Replace this with the class name of the docker you want to add.
 
-So, if we add our export document function we created in the extension section to this docker code, how do we allow the user to activate it? First, we'll need to do some QT GUI coding: Let's add a button!
+So, if we add our export document function we created in the extension section to this docker code, how do we allow the user to activate it? First, we'll need to do some Qt GUI coding: Let's add a button!
 
-Krita standardly uses pyQT, but their documentation is pretty bad, mostly because the regular QT documentation is really good, and you'll often find that the pyQT documentation of a class, say, `QWidget <http://pyqt.sourceforge.net/Docs/PyQt4/qwidget.html>`_ is like a weird copy of the regular `QT documentation <http://doc.qt.io/qt-5/qwidget.html>`_ for that class.
+By default, Krita uses PyQt, but its documentation is pretty bad, mostly because the regular Qt documentation is really good, and you'll often find that the PyQT documentation of a class, say, `QWidget <http://pyqt.sourceforge.net/Docs/PyQt4/qwidget.html>`_ is like a weird copy of the regular `Qt documentation <http://doc.qt.io/qt-5/qwidget.html>`_ for that class.
 
 Anyway, what we need to do first is that we need to create a QWidget, it's not very complicated, under setWindowTitle, add:
 
@@ -301,13 +301,13 @@ Qt has several `layouts <http://doc.qt.io/qt-5/qlayout.html>`_, but the `QHBoxLa
 
 Restart Krita and the button should now be laid out nicely.
 
-PyQT Signals and Slots
+PyQt Signals and Slots
 ----------------------
 
-We've already been using pyqt signals and slots already, but there are times where you want to create your own signals and slots.
-`As pyQt's documentation is pretty difficult to understand <http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ qt, we're explaining it here:
+We've already been using PyQt signals and slots already, but there are times where you want to create your own signals and slots.
+`As pyQt's documentation is pretty difficult to understand <http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ Qt, we're explaining it here:
 
-All python functions you make in pyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sends a boolean. How do we get our function to accept that boolean?
+All python functions you make in PyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sends a boolean. How do we get our function to accept that boolean?
 
 First, make sure you have the right import for making custom slots:
 
@@ -315,7 +315,7 @@ First, make sure you have the right import for making custom slots:
 
 (If there's from ``PyQt5.QtCore import *`` already in the list of imports, then you won't have to do this, of course)
 
-Then, you need to add a pyQt slot definition before your function:
+Then, you need to add a PyQt slot definition before your function:
 
 .. code:: python
 
@@ -327,7 +327,7 @@ Then, you need to add a pyQt slot definition before your function:
         print("The checkbox is"+enabledString)
 
 
-Then, when you ave created your checkbox, you can do something like myCheckbox.toggled.connect(self.myFunction)
+Then, when you have created your checkbox, you can do something like myCheckbox.toggled.connect(self.myFunction)
 
 Similarly, to make your own PyQt signals, you do the following:
 

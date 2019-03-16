@@ -35,7 +35,9 @@ If you press the speaker button, you will get the available audio options for th
 * Volume slider
 
 Krita saves the location of your audio file. If you move the audio file or rename it, Krita will not be able to find it. Krita will tell you the file was moved or deleted the next time you try to open the Krita file up.
+
 Using Audio
+-----------
 
 After you import the audio, you can scrub through the timeline and it will play the audio chunk at the time spot. When you press the Play button, the entire the audio file will playback as it will in the final version. There is no visual display of the audio file on the screen, so you will need to use your ears and the scrubbing functionality to position frames.
 

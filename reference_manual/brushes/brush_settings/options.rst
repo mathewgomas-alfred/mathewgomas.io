@@ -75,7 +75,7 @@ This parameter allows you to set the random placing of a brush-dab. You can affe
 X
     The scattering on the angle you are drawing from.
 Y
-    The scattering, perpendicular tot he drawing angle (has the most effect)
+    The scattering, perpendicular to the drawing angle (has the most effect)
 
 .. image:: /images/en/Krita_2_9_brushengine_scatter.png
 
@@ -173,8 +173,8 @@ This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_02.png
 
-;Isotropic.
-:Instead of the spacing being related to the ratio of the brush, it will be on diameter only.
+Isotropic
+    Instead of the spacing being related to the ratio of the brush, it will be on diameter only.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_01.png
 
