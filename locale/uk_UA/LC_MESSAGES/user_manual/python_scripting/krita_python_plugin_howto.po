@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_user_manual___python_scripting___krita_python_plugin_howto\n"
+"Project-Id-Version: docs_krita_org_user_manual___python_scripting___krita_pyth"
+"on_plugin_howto\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-02 22:41+0200\n"
+"PO-Revision-Date: 2019-03-15 20:58+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -129,6 +129,9 @@ msgid ""
 "of 3 (``-DENABLE_PYTHON_2=ON`` in the cmake configuration), then this plugin "
 "will not show up in the list."
 msgstr ""
+"Визначає сумісність із Python 2. Якщо Krita було зібрано з використанням"
+" Python 2, а не 3 (``-DENABLE_PYTHON_2=ON`` у налаштуваннях cmake), пункт"
+" цього додатка у списку показано не буде."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:55
 msgid "X-Krita-Manual"
@@ -163,6 +166,8 @@ msgid ""
 "Krita python plugins need to be python modules, so make sure there's an "
 "__init__.py script, containing something like..."
 msgstr ""
+"Додатки мовою Python до Krita мають бути модулями Python, тому має бути"
+" скрипт __init__.py, який міститиме код, подібний до такого:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:69
 msgid ""
@@ -178,7 +183,7 @@ msgstr "Summary"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:74
 msgid "In summary, if you want to create a script called *myplugin*:"
-msgstr ""
+msgstr "Загалом, якщо ви хочете створити сценарій із назвою *myplugin*:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:77
 msgid "in your Krita *resources/pykrita* directory create"
@@ -194,27 +199,27 @@ msgstr "файл із назвою *myplugin.desktop*"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:80
 msgid "in the *myplugin* folder create"
-msgstr ""
+msgstr "у теці *myplugin* створіть"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:80
 msgid "a file called *__init__.py*"
-msgstr ""
+msgstr "файл із назвою *__init__.py*"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:81
 msgid "a file called *myplugin.py*"
-msgstr ""
+msgstr "файл із назвою *myplugin.py*"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:82
 msgid "in the *__init__.py* file put this code:"
-msgstr ""
+msgstr "у файлі *__init__.py* впишіть такий код:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:88
 msgid "in the desktop file put this code::"
-msgstr ""
+msgstr "до файла desktop впишіть такий код::"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:98
 msgid "write your script in the ''myplugin/myplugin.py'' file."
-msgstr ""
+msgstr "запишіть ваш сценарій до файла ''myplugin/myplugin.py''."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:101
 msgid "Creating an extension"
@@ -227,6 +232,10 @@ msgid ""
 "run on Krita start. They are made by extending the Extension class, and the "
 "most barebones extension looks like this:"
 msgstr ""
+"`Розширення <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/"
+"libkis/html/classExtension.html>`_ є відносно простими сценаріями python, які"
+" запускаються під час завантаження Krita. Розширення створюються розширенням"
+" класу Extension. Найпростіше розширення виглядає так:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:124
 msgid ""
@@ -234,6 +243,9 @@ msgid ""
 "actions to Krita, so we can access our script from the :guilabel:`Tools` "
 "menu."
 msgstr ""
+"Цей код, звичайно ж, не виконує ніяких дій. Типово, у createActions додають"
+" дії для Krita, отже, доступ до нашого сценарію можна отримати за допомогою"
+" меню :guilabel:`Інструменти`."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:126
 msgid ""
@@ -245,6 +257,13 @@ msgid ""
 "every Window that is created and pass the right window object that we have "
 "to use."
 msgstr ""
+"Спочатку, створімо `дію <https://api.kde.org/extragear-api/graphics-"
+"apidocs/krita/libs/libkis/html/classAction.html>`_. Зробити це дуже просто за"
+" допомогою `Window.createAction() <https://api.kde.org/extragear-api/graphics-"
+"apidocs/krita/libs/libkis/html/classWindow."
+"html#a72ec58e53844076c1461966c34a9115c>`_. Krita викликатиме createActions"
+" для кожного створеного вікна Window і передаватиме відповідний об'єкт вікна,"
+" яким нам слід користуватися."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:128
 msgid "So..."
@@ -259,6 +278,8 @@ msgid ""
 "This should be replaced with a unique id that Krita will use to find the "
 "action."
 msgstr ""
+"Це слід замінити унікальним ідентифікатором, який Krita використовуватиме для"
+" пошуку дії."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:139
 msgid "\"My Script\""
@@ -273,12 +294,18 @@ msgid ""
 "if you now restart Krita, you will have an action called \"My Script\". It "
 "still doesn't do anything, because we haven't connected it to a script."
 msgstr ""
+"якщо ви перезапустите Krita, ви побачите дію із назвою «My Script». Її вибір"
+" все ще не призводитиме до якихось наслідків, оскільки ми ще не пов'язали її"
+" зі сценарієм."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:143
 msgid ""
 "So, lets make a simple export document script. Add the following to the "
 "extension class, make sure it is above where you add the extension to Krita:"
 msgstr ""
+"Отже, створімо простий сценарій експортування документа. Додайте вказаний"
+" нижче код до класу extension. Переконайтеся, що код розташовано вище місця"
+" додавання розширення до Krita:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:159
 msgid "And add the import for QFileDialog above with the imports:"
@@ -295,10 +322,13 @@ msgid ""
 "signalsandslots.html>`_, which QT applications like Krita use a lot. We'll "
 "go over how to make our own signals and slots a bit later."
 msgstr ""
+"Це приклад `з'єднання сигнал-слот <http://doc.qt.io/qt-5/signalsandslots.html"
+">`_, який широко використовується у програмах Qt, зокрема Krita. Питання"
+" створення наших власних сигналів і слотів ми обговоримо нижче."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:177
 msgid "Restart Krita and your new action ought to now export the document."
-msgstr ""
+msgstr "Перезапустіть Krita. Ваша нова дія тепер може експортувати документ."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:180
 msgid "Creating configurable keyboard shortcuts"
@@ -309,6 +339,8 @@ msgid ""
 "Now, your new action doesn't show up in :menuselection:`Settings --> "
 "configure Krita --> Keyboard Shortcuts`."
 msgstr ""
+"Вашої нової дії немає у списку :menuselection:`Параметри --> Налаштувати"
+" Krita --> Клавіатурні скорочення`."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:184
 msgid ""
@@ -316,6 +348,9 @@ msgid ""
 "they are present in an .action file. The action file to get our action to be "
 "added to shortcuts should look like this:"
 msgstr ""
+"Krita, з різних причин, додає пункти дій до меню клавіатурних скорочень, лише"
+" якщо їх записано до файла .action. Файл action, який слід додати, щоб нашу"
+" дію було додано до списку дій для скорочень, має виглядати десь так:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:209
 msgid "<text>My Scripts</text>"
@@ -326,6 +361,8 @@ msgid ""
 "This will create a sub-category under scripts called \"My Scripts\" to add "
 "your shortcuts to."
 msgstr ""
+"У результаті буде створено підкатегорію у сценаріях із назвою «My Scripts»"
+" для додавання ваших клавіатурних скорочень."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:211
 msgid "name"
@@ -336,6 +373,8 @@ msgid ""
 "This should be the unique id you made for your action when creating it in "
 "the setup of the extension."
 msgstr ""
+"Це має бути унікальний ідентифікатор, який ви створили для вашої дії під час"
+" створення її у налаштування у розширенні."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:213
 msgid "icon"
@@ -346,6 +385,9 @@ msgid ""
 "the name of a possible icon. These will only show up on KDE plasma, because "
 "Gnome and Windows users complained they look ugly."
 msgstr ""
+"назва можливої піктограми. Піктограми буде показано лише у Плазмі KDE,"
+" оскільки користувачі GNOME і Windows скаржилися на те, що ці піктограми"
+" виглядають потворно."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:215
 msgid "text"
@@ -364,6 +406,9 @@ msgid ""
 "The text it will show when a QT application specifically calls for 'what is "
 "this', which is a help action."
 msgstr ""
+"Текст, який буде показано, коли програма на основі Qt викличе дію «Що це?»,"
+" яка є одним із різновидів контекстної довідки і викликати яку можна за"
+" допомогою відповідного пункту у меню «Довідка»."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:219
 msgid "toolTip"
@@ -372,6 +417,8 @@ msgstr "toolTip"
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:220
 msgid "The tool tip, this will show up on hover-over."
 msgstr ""
+"Підказка, яку буде показано на контекстній панелі у відповідь на наведення"
+" вказівника миші."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:221
 msgid "iconText"
@@ -398,7 +445,7 @@ msgstr "activationConditions"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:226
 msgid "No clue"
-msgstr ""
+msgstr "Гадки не маю, що таке."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:227
 msgid "shortcut"
@@ -422,7 +469,7 @@ msgstr "statusTip"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:232
 msgid "No Clue."
-msgstr ""
+msgstr "Гадки не маю, що таке."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:234
 msgid ""
@@ -445,6 +492,12 @@ msgid ""
 "an extension. Dockers are in some ways a little easier, but they also "
 "require more use of widgets. This is the barebones docker code:"
 msgstr ""
+"Створення нетипової `бічної панелі <https://api.kde.org/extragear-api/graphics"
+"-"
+"apidocs/krita/libs/libkis/html/classDockWidget.html>`_ дуже схоже на"
+" створення розширення. Певним чином, створення бічних панелей є простішим,"
+" але для них треба ширше використовувати віджети. Ось базовий код бічної"
+" панелі:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:257
 msgid ""
@@ -452,6 +505,9 @@ msgid ""
 "canvasChanged always needs to be present, but you don't have to do anything "
 "with it, so hence just 'pass'."
 msgstr ""
+"Заголовок вікна, який буде показано у списку бічних панелей у Krita."
+" canvasChanged має бути завжди, але робити з ним щось не обов'язково, отже,"
+" просто «пропускаємо» його."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:259
 msgid "For the addDockWidgetFactory..."
@@ -466,6 +522,8 @@ msgid ""
 "Replace this with an unique ID for your docker that Krita uses to keep track "
 "of it."
 msgstr ""
+"Замініть цей рядок на унікальний ідентифікатор вашої бічної панелі, яким"
+" Krita користуватиметься для стеження за нею."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:263
 msgid "DockWidgetFactoryBase.DockRight"
@@ -485,7 +543,7 @@ msgstr "MyDocker"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:266
 msgid "Replace this with the class name of the docker your wanna add."
-msgstr ""
+msgstr "Замініть цей рядок назвою класу бічної панелі, яку ви хочете додати."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:268
 msgid ""
@@ -493,6 +551,10 @@ msgid ""
 "section to this docker code, how do we allow the user to activate it? First, "
 "we'll need to do some QT GUI coding: Let's add a button!"
 msgstr ""
+"Отже, нехай ми додали нашу функцію експортування документа, яку ми створили у"
+" розділі, який присвячено розширенням, до коду цієї бічної панелі. Як"
+" дозволити користувачу активувати її? Спершу, додамо трохи коду графічного"
+" інтерфейсу Qt, а саме, створимо кнопку!"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:270
 msgid ""
@@ -509,6 +571,8 @@ msgid ""
 "Anyway, what we need to do first is that we need to create a QWidget, it's "
 "not very complicated, under setWindowTitle, add:"
 msgstr ""
+"Що б там не було, спочатку нам слід створити QWidget. Це не складно: під"
+" setWindowTitle додайте таке:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:279
 msgid "Then, we create a button:"
@@ -529,12 +593,16 @@ msgid ""
 "If we now restart Krita, we'll have a new docker and in that docker there's "
 "a button. Clicking on the button will call up the export function."
 msgstr ""
+"Якщо тепер перезапустити Krita, ми побачимо нову бічну панелі і кнопку на"
+" ній. Натискання кнопки викличе функцію експортування."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:293
 msgid ""
 "However, the button looks aligned a bit oddly. That's because our mainWidget "
 "has no layout. Let's quickly do that:"
 msgstr ""
+"Втім, кнопку не вирівняно. Причиною цього є те, що у нашого mainWidget немає"
+" компонування. Давайте його швиденько додамо:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:300
 msgid ""
@@ -542,10 +610,14 @@ msgid ""
 "`QHBoxLayout and the QVBoxLayout <http://doc.qt.io/qt-5/qboxlayout.html>`_ "
 "are the easiest to use, they just arrange widgets horizontally or vertically."
 msgstr ""
+"У Qt передбачено декілька `варіантів компонувань <"
+"http://doc.qt.io/qt-5/qlayout.html>`_, але найпростішими у користуванні є"
+" `QHBoxLayout та QVBoxLayout <http://doc.qt.io/qt-5/qboxlayout.html>`_."
+" Використання цих компонувань вирівнює віджети горизонтально або вертикально."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:302
 msgid "Restart Krita and the button should now be laid out nicely."
-msgstr ""
+msgstr "Перезапустіть Krita. Тепер кнопку має бути вирівняно належним чином."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:305
 msgid "PyQT Signals and Slots"
@@ -571,6 +643,7 @@ msgstr ""
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:312
 msgid "First, make sure you have the right import for making custom slots:"
 msgstr ""
+"Спочатку, правильно сформуємо імпортування для створення нетипових слотів:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:314
 msgid "``from PyQt5.QtCore import pyqtSlot``"
@@ -581,24 +654,30 @@ msgid ""
 "(If there's from ``PyQt5.QtCore import *`` already in the list of imports, "
 "then you won't have to do this, of course)"
 msgstr ""
+"(Якщо у списку імпортування вже є from ``PyQt5.QtCore import *``, цього,"
+" звичайно ж, уже не треба робити)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:318
 msgid "Then, you need to add a pyQt slot definition before your function:"
-msgstr ""
+msgstr "Далі, вам слід додати визначення слоту pyQt перед вашою функцією:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:330
 msgid ""
 "Then, when you ave created your checkbox, you can do something like "
 "myCheckbox.toggled.connect(self.myFunction)"
 msgstr ""
+"Далі, коли вами створено пункт для позначки, ви можете скористатися,"
+" наприклад, myCheckbox.toggled.connect(self.myFunction)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:332
 msgid "Similarly, to make your own PyQt signals, you do the following:"
 msgstr ""
+"Подібним же чином, для створення власних сигналів PyQt слід скористатися"
+" таким кодом:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:344
 msgid "and use the right import:"
-msgstr ""
+msgstr "і використовувати належне імпортування:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:346
 msgid "``from PyQt5.QtCore import pyqtSignal``"
@@ -609,6 +688,8 @@ msgid ""
 "To emit or create slots for objects that aren't standard python objects, you "
 "only have to put their names between quotation marks."
 msgstr ""
+"Для видання та створення слотів для об'єктів, які не є стандартними об'єктами"
+" Python достатньо взяти їхні назви у лапки."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:351
 msgid "Conclusion"
@@ -627,3 +708,6 @@ msgid ""
 "As always, read the code carefully and read the API docs for python, Krita "
 "and Qt carefully to see what is possible, and you'll get pretty far."
 msgstr ""
+"Як завжди, ретельно знайомтеся з кодом і уважно читайте документацію з"
+" програмного інтерфейсу Python, Krita та Qt, щоб краще знати можливості цих"
+" інструментів, і ви зможете зробити доволі багато."
