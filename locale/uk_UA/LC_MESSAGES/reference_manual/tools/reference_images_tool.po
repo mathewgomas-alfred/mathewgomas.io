@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___tools___reference_images_tool\n"
+"Project-Id-Version: docs_krita_org_reference_manual___tools___reference_images"
+"_tool\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-28 03:20+0100\n"
-"PO-Revision-Date: 2019-02-22 15:59+0200\n"
+"PO-Revision-Date: 2019-03-16 20:28+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -55,6 +55,9 @@ msgid ""
 "You can use it to load images from your disk as reference, which can then be "
 "moved around freely on the canvas and placed wherever. Tool Options"
 msgstr ""
+"Інструмент еталонних зображень є замінником бічної панелі еталонних"
+" зображень. Ви можете скористатися ним для завантаження еталонних зображень з"
+" диска і наступного пересування цих зображень полотном. Параметри інструмента"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:24
 msgid "Add reference image"
@@ -95,6 +98,7 @@ msgstr "Зберігати співвідношення"
 #: ../../reference_manual/tools/reference_images_tool.rst:33
 msgid "When toggled this will force the image to not get distorted."
 msgstr ""
+"Якщо позначено, програма примусово запобігатиме викривленню зображення."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:34
 msgid "Opacity"
@@ -113,6 +117,8 @@ msgid ""
 "Desaturate the image. This is useful if you only want to focus on the light/"
 "shadow instead of getting distracted by the colors."
 msgstr ""
+"Зменшити насиченість зображення. Корисно, якщо ви хочете зосередитися на"
+" світлі і тінях, не відволікаючи увагу на кольори."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:39
 msgid "How is the reference image stored."
@@ -127,6 +133,8 @@ msgid ""
 "Store this reference image into the kra file. This is recommended for small "
 "vital files you'd easily lose track of otherwise."
 msgstr ""
+"Зберегти це еталонне зображення до файла kra. Рекомендовано для малих"
+" критично важливих файлів, які можуть легко загубитися."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:44
 msgid "Storage mode"
@@ -142,6 +150,9 @@ msgid ""
 "it loads this file. This is recommended for big files, or files that change "
 "a lot."
 msgstr ""
+"Створити лише посилання на еталонне зображення. Krita відкриватиме еталонне"
+" зображення з диска під час кожного завантаження цього файла. Рекомендовано"
+" для великих файлів або для файлів, до яких часто вносять зміни."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid ""
@@ -159,3 +170,5 @@ msgid ""
 "To hide all reference images temporarily use :menuselection:`View --> Show "
 "Reference Images`."
 msgstr ""
+"Щоб тимчасово приховати усі еталонні зображення, скористайтеся пунктом меню"
+" :menuselection:`Перегляд --> Показати еталонні зображення`."

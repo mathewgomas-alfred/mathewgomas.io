@@ -10,7 +10,7 @@ msgstr ""
 "ttings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-15 03:36+0100\n"
-"PO-Revision-Date: 2019-03-15 07:03+0200\n"
+"PO-Revision-Date: 2019-03-16 09:57+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -108,7 +108,6 @@ msgstr ""
 "кінчика пера стила. Доступні типи курсорів показано нижче."
 
 #: ../../reference_manual/preferences/general_settings.rst:34
-#| msgid "Shows the currently selected tool icon,even for the freehand brush."
 msgid "Shows the currently selected tool icon, even for the freehand brush."
 msgstr ""
 "Показувати піктограму поточного вибраного інструмента, навіть для пензля "
@@ -192,6 +191,9 @@ msgid ""
 "shape will optionally show in the middle of a painting stroke as well. The "
 "available outline shape types are shown below.(pictures will come soon)"
 msgstr ""
+"Виберіть форму контуру, якою слід скористатися для інструментів пензля. Якщо"
+" захочете, цю форму курсора буде показано посередині штриха малювання."
+" Доступні форми контурів показано нижче."
 
 #: ../../reference_manual/preferences/general_settings.rst:86
 msgid "No Outline"
@@ -236,6 +238,11 @@ msgid ""
 "making, it will show up only after the brush stroke is finished. This option "
 "works only when Brush Outline is selected as the Cursor Shape."
 msgstr ""
+"Якщо позначено цей пункт, програма показуватиме контур пензля під час"
+" малювання штриха. Якщо пункт не буде позначено, контур не буде показано під"
+" час створення штриха — програма покаже його, лише коли створення штриха буде"
+" завершено. Цей пункт працюватиме, лише якщо для пункту :guilabel:`Контур"
+" пензля` вибрано значення :guilabel:`Форма курсора`."
 
 #: ../../reference_manual/preferences/general_settings.rst:105
 msgid "Show Outline"
@@ -255,6 +262,10 @@ msgid ""
 "brush diameter, and not the current one as affected by sensors such as "
 "pressure. This makes the cursor a little less noisy to use."
 msgstr ""
+"За допомогою цього пункту можна обмежити розмір контуру максимальним можливим"
+" діаметром пензля, а не поточним діаметром, на який впливають значення"
+" датчиків, зокрема тиску. Використання цього пункту зробить курсор менш"
+" шумним."
 
 #: ../../reference_manual/preferences/general_settings.rst:116
 msgid "Window Settings"
@@ -500,7 +511,6 @@ msgstr ""
 "Показати засіб керування сеансами безпосередньо, щоб ви могли вибрати сеанс."
 
 #: ../../reference_manual/preferences/general_settings.rst:184
-#| msgid "When Krita Starts"
 msgid "When Krita starts"
 msgstr "Під час запуску Krita"
 

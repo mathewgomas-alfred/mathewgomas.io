@@ -96,18 +96,15 @@ msgid "Example:"
 msgstr "Приклад:"
 
 #: ../../reference_manual/linux_command_line.rst:48
-#| msgid "``krita final.png --export --export-filename final.jpg``"
 msgid "``krita file.png --export --export-filename final.jpg``"
 msgstr "``krita file.png --export --export-filename final.jpg``"
 
 #: ../../reference_manual/linux_command_line.rst:50
-#| msgid ""
-#| "This piece of code takes the file ``file.png`` and saves it as ``file."
-#| "jpg``."
 msgid ""
 "This piece of code takes the file ``file.png`` and saves it as ``final.jpg``."
 msgstr ""
-"Цей фрагмент коду обробляє файл ``file.png`` і зберігає його як ``final.jpg``."
+"Цей фрагмент коду обробляє файл ``file.png`` і зберігає його як ``final."
+"jpg``."
 
 #: ../../reference_manual/linux_command_line.rst:53
 msgid "PDF export"
@@ -120,7 +117,6 @@ msgstr ""
 "скористатися параметром ``--export-pdf``."
 
 #: ../../reference_manual/linux_command_line.rst:57
-#| msgid "``krita final.png --export-pdf --export-filename final.pdf``"
 msgid "``krita file.png --export-pdf --export-filename final.pdf``"
 msgstr "``krita file.png --export-pdf --export-filename final.pdf``"
 
@@ -175,10 +171,6 @@ msgid "Selects the template option"
 msgstr "Вибір шаблона"
 
 #: ../../reference_manual/linux_command_line.rst:93
-#| msgid ""
-#| "All templates are saved with the .desktop extension. You can find "
-#| "templates in the .kde/share/apps/krita/template or in the install folder "
-#| "of Krita."
 msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
 "in the .local/share/krita/template or in the install folder of Krita."
