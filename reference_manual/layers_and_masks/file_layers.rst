@@ -35,4 +35,4 @@ File Layers can currently not be painted on. If you want to transform a file lay
 
 .. versionadded:: 4.0
 
-    You can turn any set of layers into a file layer by right-clicking them and doing :menuselection:`convert --> convert to file layer`. It will then open a save prompt for the file location and when done will save the file and replace the layer with a file layer pointing at that file.
+    You can turn any set of layers into a file layer by right-clicking them and doing :menuselection:`Convert --> to File Layer`. It will then open a save prompt for the file location and when done will save the file and replace the layer with a file layer pointing at that file.

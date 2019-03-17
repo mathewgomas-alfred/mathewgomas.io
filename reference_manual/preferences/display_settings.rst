@@ -73,7 +73,7 @@ Pixel Grid
 
 .. versionadded:: 4.0
 
-This allows configuring a automatic pixel-by-pixel gid, which is very useful for doing pixel art.
+This allows configuring an automatic pixel-by-pixel grid, which is very useful for doing pixel art.
 
 Color
     The color of the grid.

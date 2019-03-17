@@ -79,7 +79,7 @@ Then we align the other heads and transform them by using the transform tool opt
 
 (330° here is 360°-30°)
 
-Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`image --> rotate --> custom rotation`
+Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`Image --> Rotate --> Custom Rotation`
  and fill in 30° clockwise:
 
 .. image:: /images/en/category_projection/projection_image_19.png 

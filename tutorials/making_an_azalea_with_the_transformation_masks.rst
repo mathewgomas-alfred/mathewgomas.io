@@ -23,11 +23,11 @@ I like drawing flowers because they are a bit of an unappreciated subject, yet a
 
 Today’s flower is the Azalea flower. These flowers are usually pink to red and appear in clusters, the clusters allow me to exercise with transform masks!
 
-I got an image from Wikipedia for reference, mostly because it’s public domain, and as an artist I find it important to respect other artists. You can copy it and, if you already have a canvas, :menuselection:`edit --> paste as new image` or :menuselection:`new --> from clipboard`.
+I got an image from Wikipedia for reference, mostly because it’s public domain, and as an artist I find it important to respect other artists. You can copy it and, if you already have a canvas, :menuselection:`Edit --> Paste into New Image` or :menuselection:`New --> Create from Clipboard`.
 
 Then, if you didn’t have a new canvas make one. I made an a5 300dpi canvas. This is not very big, but we’re only practicing. I also have the background colour set to a yellow-greyish colour (#CAC5B3), partly because it reminds me of paper, and partly because bright screen white can strain the eyes and make it difficult to focus on values and colours while painting. Also, due to the lack of strain on the eyes, you’ll find yourself soothed a bit. Other artists use #c0c0c0, or even more different values.
 
-So, if you go to :menuselection:`window --> tile`, you will find that now your reference image and your working canvas are side by side. The reason I am using this instead of the docker is because I am lazy and don’t feel like saving the wikipedia image. We’re not going to touch the image much.
+So, if you go to :menuselection:`Window --> Tile`, you will find that now your reference image and your working canvas are side by side. The reason I am using this instead of the docker is because I am lazy and don’t feel like saving the wikipedia image. We’re not going to touch the image much.
 
 Let’s get to drawing!
 ---------------------
@@ -99,7 +99,7 @@ Now do the same thing for the leaves.
 
 Now, if you select the original paint layers and draw on them, you can see that all clone masks are immediately updated!
 
-Above you can see there’s been a new view added so we can focus on painting the flower and at the same time see how it’ll look. You can make a new view by going :menuselection:`window --> new view` and selecting the name of your current canvas (save first!). Views can be rotated and mirrored differently.
+Above you can see there’s been a new view added so we can focus on painting the flower and at the same time see how it’ll look. You can make a new view by going :menuselection:`Window --> New View` and selecting the name of your current canvas (save first!). Views can be rotated and mirrored differently.
 
 Now continue painting the original flowers and leaves, and we’ll move over to adding extra shadow to make it seem more lifelike!
 

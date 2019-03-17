@@ -65,7 +65,7 @@ The color will always become black in the end, and will work with Plain Color, G
 Hue, Saturation, Value
 ~~~~~~~~~~~~~~~~~~~~~~
 
-These parameters allow you to do a HSV adjustment filter on the :ref:`option_source` and control it with Sensors.
+These parameters allow you to do an HSV adjustment filter on the :ref:`option_source` and control it with Sensors.
 
 .. image:: /images/en/Krita_2_9_brushengine_HSV_01.png
 

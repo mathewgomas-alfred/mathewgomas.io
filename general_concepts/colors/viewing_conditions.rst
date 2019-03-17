@@ -51,7 +51,7 @@ For example, if you are designing a print for a red t-shirt that's not bright re
    :align: center
 
 
-But when you get the t-shit from the printer, you notice that all your colors look off, mismatched, and maybe too yellowish (and when did that T-Shirt become purple?).
+But when you get the t-shirt from the printer, you notice that all your colors look off, mismatched, and maybe too yellowish (and when did that T-Shirt become purple?).
 
 This is where white points come in.
 

@@ -76,7 +76,7 @@ On the first tab, we type in a nice ratio like 1280x1024, set the dpi to
 72 (we're making this for screens after all) and title the document
 'walkcycle'.
 
-In the second tab, we choose a nice background color, and set the background to canvas-color. This means that Krita will automatically fill in any transparent bits with the background color. You can change this in :menuselection:`image --> image properties`. This seems to be most useful to people doing animation, as the layer you do animation on MUST be semi-transparent to get onion skinning working.
+In the second tab, we choose a nice background color, and set the background to canvas-color. This means that Krita will automatically fill in any transparent bits with the background color. You can change this in :menuselection:`Image --> Image Properties`. This seems to be most useful to people doing animation, as the layer you do animation on MUST be semi-transparent to get onion skinning working.
 
 .. note::
     Krita has a bunch of functionality for meta-data, starting at the :guilabel:`Create Document` screen. The title will be automatically used as a suggestion for saving and the description can be used by databases, or for you to leave comments behind. Not many people use it individually, but it can be useful for working in larger groups.
