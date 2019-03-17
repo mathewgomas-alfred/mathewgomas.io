@@ -131,7 +131,7 @@ icon showing up in the timeline docker.
 
 .. image:: /images/en/Introduction_to_animation_08.png
 
-Use the to copy frame to copy the
+Use the :guilabel:`Copy Frame` button to copy the
 first frame onto the second. Then, use the with :kbd:`Shift + ↑` to move the
 frame contents up.
 
@@ -154,16 +154,16 @@ and both colors can be configured in the onion skin docker.
 Now, we're gonna draw the two
 extremes of the walkcycle. These are the pose where both legs are as far
 apart as possible, and the pose where one leg is full stretched and the
-other pulled in, read to take the next step.
+other pulled in, ready to take the next step.
 
 Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but here
 comes a tricky bit:
 
 .. image:: /images/en/Introduction_to_animation_12.png
 
-:kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy...
+:kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy...
 
--  :kbd:`Ctrl + |mouseleft|` to select all the frames you want to select.
+-  :kbd:`Ctrl +` |mouseleft| to select all the frames you want to select.
 -  :kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange',
    otherwise it won't be copied along.
 
@@ -210,7 +210,7 @@ layer. So we make a new layer, and name it hands and...
 
 .. image:: /images/en/Introduction_to_animation_17.png
 
-Our walkcycle is gone from the time-line docker! This is a feature
+Our walkcycle is gone from the timeline docker! This is a feature
 actually. A full animation can have so many little parts that an
 animator might want to remove the layers they're not working on from the
 timeline docker. So you manually have to add them.
@@ -250,7 +250,7 @@ sequence:
 
 For example, you can use
 `VirtualDub <http://www.virtualdub.org/>`__\ (Windows) and open all the
-frames and then go to File → Export → GIF
+frames and then go to :menuselection:`File --> Export --> GIF`.
 
 Enjoy your walkcycle!
 
@@ -263,10 +263,10 @@ Importing animation frames
 
 You can import animation frames in Krita 3.0.
 
-First let us take a sprite sheet from Open Game Art.(This is the Libre
+First let us take a sprite sheet from Open Game Art. (This is the Libre
 Pixel Cup male walkcycle)
 
-And we'll use :menuselection:`Image --> Split Image to split up the sprite sheet`.
+And we'll use :menuselection:`Image --> Split Image` to split up the sprite sheet.
 
 .. image:: /images/en/Animation_split_spritesheet.png
 
@@ -292,7 +292,7 @@ Step
     even. As you can see, the window gives feedback on how much fps the
     imported animation would be with the currently given step.
 
-Press OK, and your animation should be imported as a new layer.
+Press :guilabel:`OK`, and your animation should be imported as a new layer.
 
 .. image:: /images/en/Animation_import_done.png
 
