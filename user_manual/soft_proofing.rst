@@ -40,7 +40,7 @@ There you can set the following options:
 Profile, Depth, Space
     Of these, only the profile is really important. This will serve as the profile you are proofing to. In a professional print workflow, this profile should be determined by the printing house.
 Intent
-    Set the proofing Intent. It uses the same intents as the intents mentioned in the :ref:`color managed workflow <color_manged_workflow>`.
+    Set the proofing Intent. It uses the same intents as the intents mentioned in the :ref:`color managed workflow <color_managed_workflow>`.
 
     .. figure:: /images/en/Softproofing_adaptationstate.png
         :align: center
