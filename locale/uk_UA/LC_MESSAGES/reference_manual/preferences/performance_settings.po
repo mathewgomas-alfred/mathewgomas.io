@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___preferences___performance_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___preferences___performanc"
+"e_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-12 03:34+0100\n"
-"PO-Revision-Date: 2019-03-15 21:12+0200\n"
+"POT-Creation-Date: 2019-03-17 03:34+0100\n"
+"PO-Revision-Date: 2019-03-17 08:36+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -36,10 +36,10 @@ msgstr "Параметри швидкодії"
 #: ../../reference_manual/preferences/performance_settings.rst:18
 msgid ""
 ":program:`Krita`, as a painting program, juggles a lot of data around, like "
-"the brushes you use, the colours you picked, but primarily, each pixel in "
-"your image. Due to this, how :program:`Krita` organises where it stores all "
+"the brushes you use, the colors you picked, but primarily, each pixel in "
+"your image. Due to this, how :program:`Krita` organizes where it stores all "
 "the data can really speed up :program:`Krita` while painting, just like "
-"having an organised artist's workplace can really speed up the painting "
+"having an organized artist's workplace can really speed up the painting "
 "process in real life."
 msgstr ""
 
@@ -89,12 +89,12 @@ msgstr ""
 #: ../../reference_manual/preferences/performance_settings.rst:32
 msgid ""
 "A feature for advanced computer users. This allows :program:`Krita` to "
-"organise the area it takes up on the virtual working desk before putting its "
+"organize the area it takes up on the virtual working desk before putting its "
 "data on there. Like how a painter has a standard spot for their canvas, :"
 "program:`Krita` also benefits from giving certain data it uses its place (a "
-"memory pool), so that it can find them easily, and it doesn't get lost "
-"amongst the other data (memory fragmentation). It will then also not have to "
-"spent time finding a spot for this data."
+"memory pool), so that it can find them easily, and it doesn't get lost among "
+"the other data (memory fragmentation). It will then also not have to spent "
+"time finding a spot for this data."
 msgstr ""
 
 #: ../../reference_manual/preferences/performance_settings.rst:34
@@ -227,7 +227,8 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/preferences/performance_settings.rst:70
-msgid "Debuglogging of OpenGL framerate"
+#| msgid "Debuglogging of OpenGL framerate"
+msgid "Debug logging of OpenGL framerate"
 msgstr "Діагностичне журналювання частоти кадрів OpenGL"
 
 #: ../../reference_manual/preferences/performance_settings.rst:71
@@ -246,19 +247,21 @@ msgstr ""
 "штриха пензлем на полотні."
 
 #: ../../reference_manual/preferences/performance_settings.rst:74
-msgid "Disable vector optimisations (For AMD CPUs)"
+#| msgid "Disable vector optimisations (For AMD CPUs)"
+msgid "Disable vector optimizations (for AMD CPUs)"
 msgstr "Вимкнути векторні оптимізації (для процесорів AMD)"
 
 #: ../../reference_manual/preferences/performance_settings.rst:75
 msgid ""
-"Vector optimisations are a special way of asking the CPU to do maths, these "
-"have names such as SIMD and AVX. These optimisations can make Krita a lt "
+"Vector optimizations are a special way of asking the CPU to do maths, these "
+"have names such as SIMD and AVX. These optimizations can make Krita a lot "
 "faster when painting, except when you have a AMD CPU under windows. There "
 "seems to be something strange going on there, so just deactivate them then."
 msgstr ""
 
 #: ../../reference_manual/preferences/performance_settings.rst:76
-msgid "Enable Progress Reporting"
+#| msgid "Enable Progress Reporting"
+msgid "Enable progress reporting"
 msgstr "Увімкнути звітування щодо поступу"
 
 #: ../../reference_manual/preferences/performance_settings.rst:77

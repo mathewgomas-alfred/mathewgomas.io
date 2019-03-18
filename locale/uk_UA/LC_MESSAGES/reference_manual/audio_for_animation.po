@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___audio_for_animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 03:36+0100\n"
-"PO-Revision-Date: 2019-03-16 10:50+0200\n"
+"POT-Creation-Date: 2019-03-17 03:34+0100\n"
+"PO-Revision-Date: 2019-03-17 08:38+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -84,18 +84,26 @@ msgid "Volume slider"
 msgstr "Повзунок гучності"
 
 #: ../../reference_manual/audio_for_animation.rst:37
+#| msgid ""
+#| "Krita saves the location of your audio file. If you move the audio file "
+#| "or rename it, Krita will not be able to find it. Krita will tell you the "
+#| "file was moved or deleted the next time you try to open the Krita file "
+#| "up. Using Audio"
 msgid ""
 "Krita saves the location of your audio file. If you move the audio file or "
 "rename it, Krita will not be able to find it. Krita will tell you the file "
-"was moved or deleted the next time you try to open the Krita file up. Using "
-"Audio"
+"was moved or deleted the next time you try to open the Krita file up."
 msgstr ""
-"Krita зберігає дані щодо розташування файла звукових даних. Якщо ви"
-" пересунете звуковий файл або перейменуєте його, Krita не зможе його знайти."
-" Krita повідомить вам, що файл пересунуто або вилучено наступного разу, коли"
-" ви спробуєте відкрити файл у Krita. Користування звуковими даними"
+"Krita зберігає дані щодо розташування файла звукових даних. Якщо ви "
+"пересунете звуковий файл або перейменуєте його, Krita не зможе його знайти. "
+"Krita повідомить вам, що файл пересунуто або вилучено наступного разу, коли "
+"ви спробуєте відкрити файл у Krita."
 
 #: ../../reference_manual/audio_for_animation.rst:40
+msgid "Using Audio"
+msgstr "Користування звуковими даними"
+
+#: ../../reference_manual/audio_for_animation.rst:42
 msgid ""
 "After you import the audio, you can scrub through the timeline and it will "
 "play the audio chunk at the time spot. When you press the Play button, the "
@@ -103,81 +111,81 @@ msgid ""
 "is no visual display of the audio file on the screen, so you will need to "
 "use your ears and the scrubbing functionality to position frames."
 msgstr ""
-"Пілся імпортування звукових даних ви можете перетягнути курсор на монтажному"
-" столі, і програма відтворить звуковий фрагмент у відповідній позиції. Якщо"
-" ви натиснете кнопку «Пуск», буде відтворено увесь звуковий файл, так, як це"
-" відбудеться у остаточній версії. Візуального відповідника звукового файла на"
-" екрані показано не буде, отже, вам доведеться скористатися вашим слухом та"
-" функціональними можливостями перетягування для точного позиціювання кадрів."
+"Пілся імпортування звукових даних ви можете перетягнути курсор на монтажному "
+"столі, і програма відтворить звуковий фрагмент у відповідній позиції. Якщо "
+"ви натиснете кнопку «Пуск», буде відтворено увесь звуковий файл, так, як це "
+"відбудеться у остаточній версії. Візуального відповідника звукового файла на "
+"екрані показано не буде, отже, вам доведеться скористатися вашим слухом та "
+"функціональними можливостями перетягування для точного позиціювання кадрів."
 
-#: ../../reference_manual/audio_for_animation.rst:44
+#: ../../reference_manual/audio_for_animation.rst:46
 msgid "Exporting with Audio"
 msgstr "Експортування даних зі звуком"
 
-#: ../../reference_manual/audio_for_animation.rst:46
+#: ../../reference_manual/audio_for_animation.rst:48
 msgid ""
 "To get the audio file included when you are exporting, you need to include "
 "it in the Render Animation options. In the :menuselection:`File --> Render "
 "Animation` options there is a checkbox :guilabel:`Include Audio`. Make sure "
 "that is checked before you export and you should be good to go."
 msgstr ""
-"Щоб звуковий файл було включено до експортованих даних, вам слід позначити"
-" відповідний пункт у параметрах обробки анімації. У вікні, яке відкривається"
-" пунктом меню :menuselection:`Файл --> Обробити анімацію`, передбачено пункт"
-" :guilabel:`Включити звук`. Не забудьте позначити його, перш ніж натиснете"
-" кнопку експортування даних, і усе буде як слід."
+"Щоб звуковий файл було включено до експортованих даних, вам слід позначити "
+"відповідний пункт у параметрах обробки анімації. У вікні, яке відкривається "
+"пунктом меню :menuselection:`Файл --> Обробити анімацію`, передбачено пункт :"
+"guilabel:`Включити звук`. Не забудьте позначити його, перш ніж натиснете "
+"кнопку експортування даних, і усе буде як слід."
 
-#: ../../reference_manual/audio_for_animation.rst:49
+#: ../../reference_manual/audio_for_animation.rst:51
 msgid "Packages needed for Audio on Linux"
 msgstr "Пакунки, які слід встановити для уможливлення роботи зі звуком у Linux"
 
-#: ../../reference_manual/audio_for_animation.rst:51
+#: ../../reference_manual/audio_for_animation.rst:53
 msgid ""
 "The following packages are necessary for having the audio support on Linux:"
 msgstr ""
 "Для реалізації підтримки звукового супроводу у Linux необхідними є такі "
 "пакунки:"
 
-#: ../../reference_manual/audio_for_animation.rst:54
+#: ../../reference_manual/audio_for_animation.rst:56
 msgid "For people who build Krita on Linux:"
 msgstr "Для тих, хто збирає Krita у Linux:"
 
-#: ../../reference_manual/audio_for_animation.rst:56
+#: ../../reference_manual/audio_for_animation.rst:58
 msgid "libasound2-dev"
 msgstr "libasound2-dev"
 
-#: ../../reference_manual/audio_for_animation.rst:57
+#: ../../reference_manual/audio_for_animation.rst:59
 msgid "libgstreamer1.0-dev gstreamer1.0-pulseaudio"
 msgstr "libgstreamer1.0-dev gstreamer1.0-pulseaudio"
 
-#: ../../reference_manual/audio_for_animation.rst:58
+#: ../../reference_manual/audio_for_animation.rst:60
 msgid "libgstreamer-plugins-base1.0-dev"
 msgstr "libgstreamer-plugins-base1.0-dev"
 
-#: ../../reference_manual/audio_for_animation.rst:59
+#: ../../reference_manual/audio_for_animation.rst:61
 msgid "libgstreamer-plugins-good1.0-dev"
 msgstr "libgstreamer-plugins-good1.0-dev"
 
-#: ../../reference_manual/audio_for_animation.rst:60
+#: ../../reference_manual/audio_for_animation.rst:62
 msgid "libgstreamer-plugins-bad1.0-dev"
 msgstr "libgstreamer-plugins-bad1.0-dev"
 
-#: ../../reference_manual/audio_for_animation.rst:62
+#: ../../reference_manual/audio_for_animation.rst:64
 msgid "For people who use Krita on Linux:"
 msgstr "Для тих, хто користується Krita у Linux:"
 
-#: ../../reference_manual/audio_for_animation.rst:64
+#: ../../reference_manual/audio_for_animation.rst:66
 msgid "libqt5multimedia5-plugins"
 msgstr "libqt5multimedia5-plugins"
 
-#: ../../reference_manual/audio_for_animation.rst:65
+#: ../../reference_manual/audio_for_animation.rst:67
 msgid "libgstreamer-plugins-base1.0"
 msgstr "libgstreamer-plugins-base1.0"
 
-#: ../../reference_manual/audio_for_animation.rst:66
+#: ../../reference_manual/audio_for_animation.rst:68
 msgid "libgstreamer-plugins-good1.0"
 msgstr "libgstreamer-plugins-good1.0"
 
-#: ../../reference_manual/audio_for_animation.rst:67
+#: ../../reference_manual/audio_for_animation.rst:69
 msgid "libgstreamer-plugins-bad1.0"
 msgstr "libgstreamer-plugins-bad1.0"

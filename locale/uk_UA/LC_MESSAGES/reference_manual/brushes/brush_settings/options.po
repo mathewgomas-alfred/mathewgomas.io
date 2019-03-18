@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
 "___options\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-16 11:15+0200\n"
+"POT-Creation-Date: 2019-03-17 03:34+0100\n"
+"PO-Revision-Date: 2019-03-17 08:39+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -137,8 +137,8 @@ msgstr ""
 msgid ""
 "Pressure -- An interesting one that can create an alternative looking line."
 msgstr ""
-"Тиск — цікава залежність, яка може бути використана для створення"
-" альтернативних варіантів ліній."
+"Тиск — цікава залежність, яка може бути використана для створення "
+"альтернативних варіантів ліній."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:71
 msgid "Scatter"
@@ -149,9 +149,9 @@ msgid ""
 "This parameter allows you to set the random placing of a brush-dab. You can "
 "affect them with Sensors."
 msgstr ""
-"За допомогою цього параметра можна визначити випадкове розташування мазка"
-" пензлем. Можна також визначити вплив на випадкове розташування датчиків"
-" стила."
+"За допомогою цього параметра можна визначити випадкове розташування мазка "
+"пензлем. Можна також визначити вплив на випадкове розташування датчиків "
+"стила."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:75
 msgid "X"
@@ -166,11 +166,13 @@ msgid "Y"
 msgstr "Y"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
+#| msgid ""
+#| "The scattering, perpendicular tot he drawing angle (has the most effect)"
 msgid ""
-"The scattering, perpendicular tot he drawing angle (has the most effect)"
+"The scattering, perpendicular to the drawing angle (has the most effect)"
 msgstr ""
-"Дисперсія перпендикулярно до кута малювання (найбільше впливає на вигляд"
-" мазка)"
+"Дисперсія перпендикулярно до кута малювання (найбільше впливає на вигляд "
+"мазка)"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
 msgid ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
@@ -358,17 +360,21 @@ msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
 #: ../../reference_manual/brushes/brush_settings/options.rst:172
 msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
 msgstr ""
-"Надає змогу впливати :ref:`датчикам <sensors>` на значення :ref:`параметра"
-" кінчика пензля <option_brush_tip>`."
+"Надає змогу впливати :ref:`датчикам <sensors>` на значення :ref:`параметра "
+"кінчика пензля <option_brush_tip>`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:175
 msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:176
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
+msgid "Isotropic"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
 msgid ""
-";Isotropic. :Instead of the spacing being related to the ratio of the brush, "
-"it will be on diameter only."
+"Instead of the spacing being related to the ratio of the brush, it will be "
+"on diameter only."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:180
@@ -384,5 +390,5 @@ msgid ""
 "Allows you to change the ratio of the brush and bind it to parameters. This "
 "also works for predefined brushes."
 msgstr ""
-"Надає вам змогу змінити пропорції пензля і пов'язати їх із параметрами."
-" Працює і для стандартних пензлів."
+"Надає вам змогу змінити пропорції пензля і пов'язати їх із параметрами. "
+"Працює і для стандартних пензлів."

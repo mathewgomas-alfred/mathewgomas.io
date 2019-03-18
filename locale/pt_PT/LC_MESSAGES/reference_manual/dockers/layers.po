@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-17 16:23+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: layer en guilabel image Kritamouseleft kbd images alt\n"
+"X-POFile-SpellExtra: Ins icons blendingmodes ref layerstyle Up Enter Page\n"
+"X-POFile-SpellExtra: mouseright Krita layersandmasks Kritamouseright Down\n"
+"X-POFile-SpellExtra: edit KritaLayersDocker mouseleft\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -35,7 +39,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:1
 msgid "Overview of the layers docker."
-msgstr ""
+msgstr "Introdução à área das camadas."
 
 #: ../../reference_manual/dockers/layers.rst:17
 msgid "Layers"
@@ -43,18 +47,18 @@ msgstr "Camadas"
 
 #: ../../reference_manual/dockers/layers.rst:20
 msgid ".. image:: images/en/Krita_Layers_Docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Layers_Docker.png"
 
 #: ../../reference_manual/dockers/layers.rst:21
 msgid ""
 "The Layers docker is for one of the core concepts of Krita: :ref:`Layer "
 "Management <layers_and_masks>`. You can add, delete, rename, duplicate and "
 "do many other things to layers here."
-msgstr ""
+msgstr "A área das Camadas é um dos conceitos mais básicos do Krita: a :ref:`Gestão de Camadas <layers_and_masks>`. Poderá adicionar, apagar, mudar o nome, duplicar e fazer muitas mais coisas com as camadas aqui."
 
 #: ../../reference_manual/dockers/layers.rst:24
 msgid "The Layer Stack"
-msgstr ""
+msgstr "A Pilha de Camadas"
 
 #: ../../reference_manual/dockers/layers.rst:26
 msgid ""
@@ -63,7 +67,7 @@ msgid ""
 "visibility, edit state, alpha inheritance and rename layers. You can open "
 "and close groups, and you can drag and drop layers, either to reorder them, "
 "or to put them in groups."
-msgstr ""
+msgstr "Poderá seleccionar aqui a camada activa. Se usar o :kbd:`Shift` e o :kbd:`Ctrl`, poderá seleccionar várias camadas, arrastá-las e largá-las. Poderá também alterar a visibilidade, modificar o estado, a herança do alfa e mudar os nomes das camadas. Poderá abrir e fechar os grupos, podendo ainda arrastar e largar as camadas, seja para as reordenar ou para as colocar em grupos."
 
 #: ../../reference_manual/dockers/layers.rst:28
 msgid "Name"
@@ -73,7 +77,7 @@ msgstr "Nome"
 msgid ""
 "The Layer name, just do double- |mouseleft| to make it editable, and press :"
 "kbd:`Enter` to finish editing."
-msgstr ""
+msgstr "O nome da Camada; faça duplo-click com o |mouseleft| para a tornar editável e carregue em :kbd:`Enter` para terminar a edição."
 
 #: ../../reference_manual/dockers/layers.rst:30
 msgid "Label"
@@ -84,7 +88,7 @@ msgid ""
 "This is a color that you can set on the layer. |mouseright| the layer to get "
 "a context menu to assign a color to it. You can then later filter on these "
 "colors."
-msgstr ""
+msgstr "Esta é uma cor que poderá atribuir à camada. Use o |mouseright| sobre a camada para obter um menu de contexto, onde poderá atribuir uma cor a ela. Poderá então filtrar com base nessas cores."
 
 #: ../../reference_manual/dockers/layers.rst:32
 msgid "Blending Mode"
@@ -92,7 +96,7 @@ msgstr "Modo de Mistura"
 
 #: ../../reference_manual/dockers/layers.rst:33
 msgid "This will set the :ref:`blending_modes` of the layer."
-msgstr ""
+msgstr "Isto irá definir os :ref:`blending_modes` da camada."
 
 #: ../../reference_manual/dockers/layers.rst:34
 msgid "Opacity"
@@ -100,7 +104,7 @@ msgstr "Opacidade"
 
 #: ../../reference_manual/dockers/layers.rst:35
 msgid "This will set the opacity of the whole layer."
-msgstr ""
+msgstr "Isto irá configurar a opacidade da camada inteira."
 
 #: ../../reference_manual/dockers/layers.rst:36
 msgid "Visibility"
@@ -108,32 +112,32 @@ msgstr "Visibilidade"
 
 #: ../../reference_manual/dockers/layers.rst:37
 msgid "An eye-icon. Clicking this can hide a whole layer."
-msgstr ""
+msgstr "Um ícone com um olho. Se carregar neste, poderá esconder uma camada inteira."
 
 #: ../../reference_manual/dockers/layers.rst:38
 msgid "Edit State (Or layer Locking)"
-msgstr ""
+msgstr "Editar o Estado (Ou Bloquear a Camada)"
 
 #: ../../reference_manual/dockers/layers.rst:39
 msgid ""
 "A lock Icon. Clicking this will prevent the layer from being edited, useful "
 "when handling large amounts of layers."
-msgstr ""
+msgstr "Um ícone com um cadeado. Se carregar neste, irá impedir a camada de ser editada; isto é útil quando estiver a lidar com grandes quantidades de camadas."
 
 #: ../../reference_manual/dockers/layers.rst:40
 msgid "Alpha Lock"
-msgstr ""
+msgstr "Bloqueio do Alfa"
 
 #: ../../reference_manual/dockers/layers.rst:41
 msgid ""
 "This will prevent the alpha of the layer being edited. In more plain terms: "
 "This will prevent the transparency of a layer being changed. Useful in "
 "colouring images."
-msgstr ""
+msgstr "Isto irá impedir que o canal do alfa da camada seja modificado. Em termos mais simples: isto irá impedir que a transparência da camada seja modificada. Isso é útil ao colorir as imagens."
 
 #: ../../reference_manual/dockers/layers.rst:42
 msgid "Pass-through mode"
-msgstr ""
+msgstr "Modo à passagem"
 
 #: ../../reference_manual/dockers/layers.rst:43
 msgid ""
@@ -141,27 +145,27 @@ msgid ""
 "of the layers within affect the layers outside the group. Doesn't work with "
 "masks currently, therefore these have a strike-through on group layers set "
 "to pass-through."
-msgstr ""
+msgstr "Só está disponível nas Camadas de Grupos, isto permite-lhe ter os modos de mistura das camadas dentro do grupo a afectar as camadas fora dele. Não funciona directamente com as máscaras; por isso é que têm um traço sobre as camadas de grupo configuradas no modo à passagem."
 
 #: ../../reference_manual/dockers/layers.rst:44
 msgid "Alpha Inheritance"
-msgstr ""
+msgstr "Herança do Alfa"
 
 #: ../../reference_manual/dockers/layers.rst:45
 msgid ""
 "This will use the alpha of all the peers of this layer as a transparency "
 "mask. For a full explanation see :ref:`layers_and_masks`."
-msgstr ""
+msgstr "Isto irá usar o valor do alfa de todos os pontos desta camada como uma máscara de transparência. Para uma explicação completa, consulte as :ref:`layers_and_masks`."
 
 #: ../../reference_manual/dockers/layers.rst:46
 msgid "Open or Close Layers"
-msgstr ""
+msgstr "Abrir ou Fechar as Camadas"
 
 #: ../../reference_manual/dockers/layers.rst:47
 msgid ""
 "(An Arrow Icon) This will allow you to access sub-layers of a layer. Seen "
 "with masks and groups."
-msgstr ""
+msgstr "(Um Ícone com uma Seta) Isto permitir-lhe-á aceder às sub-camadas de uma camada. Vê-se nas máscaras e nos grupos."
 
 #: ../../reference_manual/dockers/layers.rst:48
 msgid "Onion Skin"
@@ -171,7 +175,7 @@ msgstr "Pele de Cebola"
 msgid ""
 "This is only available on :ref:`animated layers <animation>`, and toggles "
 "the onion skin feature."
-msgstr ""
+msgstr "Isto só está disponível nas :ref:`camadas animadas <animation>` e activa ou desactiva a funcionalidade de pele de cebola."
 
 #: ../../reference_manual/dockers/layers.rst:51
 msgid "Layer Style"
@@ -181,7 +185,7 @@ msgstr "Estilo da Camada"
 msgid ""
 "This is only available on layers which have a :ref:`layer_style` assigned. "
 "The button allows you to switch between on/off quickly."
-msgstr ""
+msgstr "Isto só está disponível nas camadas que tiverem atribuído um :ref:`layer_style`. O botão permite-lhe activar ou desactivar rapidamente."
 
 #: ../../reference_manual/dockers/layers.rst:53
 msgid ""
@@ -191,19 +195,19 @@ msgid ""
 "be ticked after which you can type in a name. Krita will automatically add a "
 "number behind the layer-names. You can change other layer properties like "
 "visibility, opacity, lock states etc too."
-msgstr ""
+msgstr "Para editar estas propriedades várias camadas de uma vez, carregue na opção de propriedades, quando tiver várias camadas seleccionadas, ou carregue em :kbd:`F3`. Nesse caso, para alterar os nomes de todas as camadas, deverá assinalar a opção antes do guilabel:`nome`, a partir da qal poderá escrever um nome. O Krita irá adicionar automaticamente um número atrás dos nomes das camadas. Também poderá alterar outras propriedades da camada, como a visibilidade, a opacidade, os estados de bloqueio, etc."
 
 #: ../../reference_manual/dockers/layers.rst:57
 msgid ".. image:: images/en/Krita-multi-layer-edit.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-multi-layer-edit.png"
 
 #: ../../reference_manual/dockers/layers.rst:59
 msgid "Lower buttons"
-msgstr ""
+msgstr "Botões inferiores"
 
 #: ../../reference_manual/dockers/layers.rst:61
 msgid "These are buttons for doing layer operations."
-msgstr ""
+msgstr "Estes são botões para criar operações com camadas."
 
 #: ../../reference_manual/dockers/layers.rst:63
 msgid "Add"
@@ -213,7 +217,7 @@ msgstr "Adicionar"
 msgid ""
 "Will by default add a new Paint Layer, but using the little arrow, you can "
 "call a sub-menu with the other layer types."
-msgstr ""
+msgstr "Irá por omissão criar uma nova Camada de Pintura, mas se usar a pequena seta, irá invocar um submenu com os outros tipos de camadas."
 
 #: ../../reference_manual/dockers/layers.rst:65
 msgid "Duplicate"
@@ -223,35 +227,35 @@ msgstr "Duplicar"
 msgid ""
 "Will Duplicate the active layer(s). Can be quickly invoked with :kbd:`Ctrl` "
 "+ |mouseleft| + drag."
-msgstr ""
+msgstr "Irá duplicar as camadas activas. Poderá ser invocado rapidamente com :kbd:`Ctrl` + |mouseleft| + arrastamento."
 
 #: ../../reference_manual/dockers/layers.rst:67
 msgid "Move layer up."
-msgstr ""
+msgstr "Subir a camada."
 
 #: ../../reference_manual/dockers/layers.rst:68
 msgid ""
 "Will move the active layer up. Will switch them out and in groups when "
 "coming across them."
-msgstr ""
+msgstr "Irá subir a camada activa. Irá trocá-las e, no caso de grupos, irá atravessá-los a todos."
 
 #: ../../reference_manual/dockers/layers.rst:69
 msgid "Move layer down."
-msgstr ""
+msgstr "Descer a camada."
 
 #: ../../reference_manual/dockers/layers.rst:70
 msgid ""
 "Will move the active layer down. Will switch them out and in groups when "
 "coming across them."
-msgstr ""
+msgstr "Irá descer a camada activa. Irá trocá-las e, no caso de grupos, irá atravessá-los a todos."
 
 #: ../../reference_manual/dockers/layers.rst:71
 msgid "Layer properties."
-msgstr ""
+msgstr "Propriedades da camada."
 
 #: ../../reference_manual/dockers/layers.rst:72
 msgid "Will open the layer properties window."
-msgstr ""
+msgstr "Irá abrir a janela de propriedades da camada."
 
 #: ../../reference_manual/dockers/layers.rst:74
 msgid "Delete"
@@ -261,79 +265,79 @@ msgstr "Apagar"
 msgid ""
 "Will delete the active layer(s). For safety reasons, you can only delete "
 "visible layers."
-msgstr ""
+msgstr "Irá apagar as camadas activas de momento. Por razões de segurança, só poderá remover camadas visíveis."
 
 #: ../../reference_manual/dockers/layers.rst:77
 msgid "Hot keys and Sticky Keys"
-msgstr ""
+msgstr "Combinações de Teclas e Teclas Fixas"
 
 #: ../../reference_manual/dockers/layers.rst:79
 msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
-msgstr ""
+msgstr ":kbd:`Shift + Ctrl` para seleccionar as várias camadas."
 
 #: ../../reference_manual/dockers/layers.rst:80
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, "
 "for you to drag and drop."
-msgstr ""
+msgstr ":kbd:`Ctrl` + |mouseleft| + arrastamento - faz um duplicado das camadas seleccionadas, para você poder arrastar e largar."
 
 #: ../../reference_manual/dockers/layers.rst:81
 msgid ""
 ":kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, "
 "layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on "
 "a single layer with a mask will merge down the mask into the layer."
-msgstr ""
+msgstr ":kbd:`Ctrl + E` para reunir abaixo uma camada.  Isto também reúne as camadas seleccionadas, os estilos de camadas e irá manter as máscaras de selecção intactas. Se usar o :kbd:`Ctrl + E` sobre uma única camada com uma máscara, irá reunir a máscara com a camada."
 
 #: ../../reference_manual/dockers/layers.rst:82
 msgid ":kbd:`Ctrl + Shift + E` merges all layers."
-msgstr ""
+msgstr ":kbd:`Ctrl + Shift + E` reúne todas as camadas."
 
 #: ../../reference_manual/dockers/layers.rst:83
 msgid ""
 ":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
 "picking colours directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
 "multiple layers."
-msgstr ""
+msgstr ":kbd:`R` + |mouseleft| permite-lhe seleccionar as camadas na área de desenho, de forma semelhante à extracção de cores directamente na área de desenho. Use o :kbd:`Shift + R` + |mouseleft| para várias camadas."
 
 #: ../../reference_manual/dockers/layers.rst:84
 msgid ":kbd:`Ins` for adding a new layer."
-msgstr ""
+msgstr ":kbd:`Ins` para adicionar uma nova camada."
 
 #: ../../reference_manual/dockers/layers.rst:85
 msgid ""
 ":kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, "
 "they are put into the group layer."
-msgstr ""
+msgstr ":kbd:`Ctrl + G` irá criar uma camada de grupo. Se estiverem seleccionadas várias camadas, serão colocadas na camada do grupo."
 
 #: ../../reference_manual/dockers/layers.rst:86
 msgid ""
 ":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
 "selected layers added into the group, and a new layer added on top with "
 "alpha-inheritance turned on, ready for painting!"
-msgstr ""
+msgstr ":kbd:`Ctrl + Shift + G` irá configurar rapidamente um grupo de recorte, com as camadas seleccionadas a serem adicionadas ao grupo, sendo depois adicionada uma nova camada no topo com a herança do alfa activada, ficando assim pronta a pintar!"
 
 #: ../../reference_manual/dockers/layers.rst:87
 msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
-msgstr ""
+msgstr ":kbd:`Ctrl + Alt + G` irá desagrupar as camadas dentro de um grupo."
 
 #: ../../reference_manual/dockers/layers.rst:88
 msgid ""
 ":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This "
 "will maintain between layers till the same action is repeated again."
-msgstr ""
+msgstr ":kbd:`Alt` + |mouseleft| sobre a miniatura para uma vista isolada de uma camada. Esta manter-se-á entre as camadas até repetir a mesma acção de novo."
 
 #: ../../reference_manual/dockers/layers.rst:89
 msgid ""
 ":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
 "layer."
-msgstr ""
+msgstr ":kbd:`Shift` + |mouseleft| sobre o ícone do olho para esconder todas menos a camada actual."
 
 #: ../../reference_manual/dockers/layers.rst:90
 msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
-msgstr ""
+msgstr ":kbd:`Page Up` e :kbd:`Page Down` para mudar de camadas."
 
 #: ../../reference_manual/dockers/layers.rst:91
 msgid ""
 ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
 "layers up and down."
-msgstr ""
+msgstr ":kbd:`Ctrl + Page Up` e :kbd:`Ctrl + Page Down` para subir ou descer as camadas seleccionadas."
