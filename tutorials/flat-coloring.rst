@@ -12,20 +12,20 @@
 Flat Coloring
 =============
 
-So you've got a cool black on white drawing, and now you want to color it! The thing we’ll aim for in this tutorial is to get your lineart colored in with flat colors. So no shading just yet. We’ll be going through some techniques for preparing the lineart, and we’ll be using the layer docker to put each colour on a separate layer, so we can easily access each colour when we add shading.
+So you've got a cool black on white drawing, and now you want to color it! The thing we’ll aim for in this tutorial is to get your line art colored in with flat colors. So no shading just yet. We’ll be going through some techniques for preparing the line art, and we’ll be using the layer docker to put each color on a separate layer, so we can easily access each color when we add shading.
 
 .. note:: This tutorial is adapted from this `tutorial <http://theratutorial.tumblr.com/post/66584924501/flat-colouring-in-the-kingdom-of-2d-layers-are>`_ by the original author.
 
 Understanding Layers
 --------------------
 
-To fill lineart comfortably, it's best to take advantage of the layerstack. The layer stack is pretty awesome, and it's one of those features that make digital art super-convenient.
+To fill line art comfortably, it's best to take advantage of the layerstack. The layer stack is pretty awesome, and it's one of those features that make digital art super-convenient.
 
-In traditional art, it is not uncommon to first draw the full background before drawing the subject. Or to first draw a line art and then colour it in. Computers have a similar way of working.
+In traditional art, it is not uncommon to first draw the full background before drawing the subject. Or to first draw a line art and then color it in. Computers have a similar way of working.
 
 In programming, if you tell a computer to draw a red circle, and then afterwards tell it to draw a smaller yellow circle, you will see the small yellow circle overlap the red circle. Switch the commands around, and you will not see the yellow circle at all: it was drawn before the red circle and thus ‘behind’ it.
 
-This is referred to as the “drawing order”. So like the traditional artist, the computer will first draw the images that are behind everything, and layer the subject and foreground on top of it. The layer docker is a way for you to control the drawing order of multiple images, so for example, you can have your lineart drawn later than your colors, meaning that the lines will be drawn over the colors, making it easier to make it neat!
+This is referred to as the “drawing order”. So like the traditional artist, the computer will first draw the images that are behind everything, and layer the subject and foreground on top of it. The layer docker is a way for you to control the drawing order of multiple images, so for example, you can have your line art drawn later than your colors, meaning that the lines will be drawn over the colors, making it easier to make it neat!
 
 Other things that a layer stack can do are blending the colors of different layers differently with blending modes, using a filter in the layer stack, or using a mask that allows you to make parts transparent.
 
@@ -34,24 +34,24 @@ Other things that a layer stack can do are blending the colors of different laye
 Preparing your line-art
 -----------------------
 
-Put the new layer underneath the layer containing the lineart (drag and drop or use the up/down arrows for that), and draw on it.
+Put the new layer underneath the layer containing the line art (drag and drop or use the up/down arrows for that), and draw on it.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart14.png
     :alt: layer structure for flatting in krita
 
-…And notice nothing happening. This is because the white isn’t transparent. You wouldn’t really want it to either, how else would you make convincing highlights? So what we first need to do to colour in our drawing is prepare our lineart. There’s several methods of doing so, each with varying qualities.
+…And notice nothing happening. This is because the white isn’t transparent. You wouldn’t really want it to either, how else would you make convincing highlights? So what we first need to do to color in our drawing is prepare our line art. There’s several methods of doing so, each with varying qualities.
 
 The Multiply Blending Mode
 --------------------------
 
-So, typically, to get a black and white lineart usable for colouring, you can set the blending mode of the lineart layer to Multiply. You do this by selecting the layer and going to the drop down that says **Normal** and setting that to **Multiply**.
+So, typically, to get a black and white line art usable for coloring, you can set the blending mode of the line art layer to Multiply. You do this by selecting the layer and going to the drop down that says **Normal** and setting that to **Multiply**.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart1.png
-   :alt: blend mode setup of lineart flat coloring
+   :alt: blend mode setup of line art flat coloring
 
 And then you should be able to see your colors!
 
-Multiply is not a perfect solution however. For example, if through some image editing magic I make the lineart blue, it results into this:
+Multiply is not a perfect solution however. For example, if through some image editing magic I make the line art blue, it results into this:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart2.png
     :alt: effects of multiply blend mode
@@ -97,27 +97,27 @@ This isn't completely undesirable, and a lot of artists use this effect to add a
 Advantages
 """"""""""
 
-Easy, can work to your benefit even with coloured lines by softening the look of the lines while keeping nice contrast.
+Easy, can work to your benefit even with colored lines by softening the look of the lines while keeping nice contrast.
 
 Disadvantages
 """""""""""""
 
-Not actually transparent. Is a little funny with coloured lines.
+Not actually transparent. Is a little funny with colored lines.
 
 Using Selections
 ----------------
 
 The second method is one where we'll make it actually transparent. In other programs this would be done via the channel docker, but Krita doesn't do custom channels, instead it uses Selection Masks to store custom selections.
 
-1. duplicate your lineart layer.
+1. Duplicate your line art layer.
 
-2. convert the duplicate to a selection mask. |mouseright| the layer, then :menuselection:`Convert --> to Selection Mask`.
+2. Convert the duplicate to a selection mask. |mouseright| the layer, then :menuselection:`Convert --> to Selection Mask`.
 
     .. image:: /images/en/flat-coloring/Krita_filling_lineart_selection_1.png
 
 3. Invert the selection mask. :menuselection:`Select --> Invert Selection`.
 
-4. Make a new layer, and do :menuselection:`Edit --> Fill with foreground color`.
+4. Make a new layer, and do :menuselection:`Edit --> Fill with Foreground Color`.
 
     .. image:: /images/en/flat-coloring/Krita_filling_lineart_selection_2.png
 
@@ -131,18 +131,18 @@ Actual transparency.
 Disadvantages
 """""""""""""
 
-Doesn't work when the lineart is coloured.
+Doesn't work when the line art is colored.
 
 Using Masks
 -----------
 
 This is a simpler variation of the above.
 
-1. Make a filled layer underneath the lineart layer.
+1. Make a filled layer underneath the line art layer.
 
     .. image:: /images/en/flat-coloring/Krita_filling_lineart_mask_1.png
 
-2. Convert the lineart layer to a transparency mask |mouseright| the layer, then :menuselection:`Convert --> to Transparency Mask`.
+2. Convert the line art layer to a transparency mask |mouseright| the layer, then :menuselection:`Convert --> to Transparency Mask`.
 
     .. image:: /images/en/flat-coloring/Krita_filling_lineart_mask_2.png
 
@@ -158,21 +158,21 @@ Actual transparency. You can also very easily doodle a pattern on the filled lay
 Disadvantages
 """""""""""""
 
-Doesn't work when the lineart is coloured already. We can still get faster.
+Doesn't work when the line art is colored already. We can still get faster.
 
 Using Color to Alpha
 --------------------
 
-By far the fastest way to get transparent lineart.
+By far the fastest way to get transparent line art.
 
-1. Select the line art layer and apply the color to alpha filter. :menuselection:`Filter --> Colors --> Color to Alpha`. The default values should be sufficient for lineart.
+1. Select the line art layer and apply the color to alpha filter. :menuselection:`Filter --> Colors --> Color to Alpha`. The default values should be sufficient for line art.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart_color_to_alpha.png
 
 Advantages
 """"""""""
 
-Actual transparency. Works with coloured line art as well, because it removes the white specifically.
+Actual transparency. Works with colored line art as well, because it removes the white specifically.
 
 Disadvantages
 """""""""""""
@@ -183,7 +183,7 @@ You'll have to lock the layer transparency or separate out the alpha via the rig
 Colouring the image
 ===================
 
-Much like preparing the line art, there's many different ways of colouring a layer.
+Much like preparing the line art, there's many different ways of coloring a layer.
 
 You could for example fill in everything by hand, but while that is very precise it also takes a lot of work. Let's take a look at the other options, shall we?
 
@@ -193,18 +193,18 @@ Fill Tool
 .. image:: /images/icons/fill_tool.svg
     :alt: fill-tool icon
 
-In most cases the fill-tool can’t deal with the anti-aliasing (the soft edge in your lineart to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the colour two pixels.
+In most cases the fill-tool can’t deal with the anti-aliasing (the soft edge in your line art to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the color two pixels.
 
-Threshold decides when the fill-tool should consider a different colour pixel to be a border. And the feathering adds a extra soft border to the fill.
+Threshold decides when the fill-tool should consider a different color pixel to be a border. And the feathering adds a extra soft border to the fill.
 
-Now, if you click on a gapless-part of the image with your preferred colour…(Remember to set the opacity to 1.0!)
+Now, if you click on a gapless-part of the image with your preferred color… (Remember to set the opacity to 1.0!)
 
-Depending on your lineart, you can do flats pretty quickly. But setting the threshold low can result in little artifacts around where lines meet:
+Depending on your line art, you can do flats pretty quickly. But setting the threshold low can result in little artifacts around where lines meet:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart7.png
     :alt: colors filled with fill tool
 
-However, setting the threshold high can end with the fill not recognising some of the lighter lines. Besides these little artifacts can be removed with the brush easily.
+However, setting the threshold high can end with the fill not recognizing some of the lighter lines. Besides these little artifacts can be removed with the brush easily.
 
 Advantages
 """"""""""
@@ -264,7 +264,7 @@ Select the path tool (|path tool|), and set the tool options to fill=foreground 
 By clicking and holding, you can influence how curvy a line draw with the path tool is going to be. Letting go of the mouse button confirms the action, and then you’re free to draw the next point.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart8.png
-    :alt: filling color in lineart using path tool
+    :alt: filling color in line art using path tool
 
 You can also erase with a geometric tool. Just press :kbd:`E` or the eraser button.
 
@@ -274,7 +274,7 @@ You can also erase with a geometric tool. Just press :kbd:`E` or the eraser butt
 Advantages
 """"""""""
 
-Quicker than using the brush or selections. Also decent with lineart that contains gaps.
+Quicker than using the brush or selections. Also decent with line art that contains gaps.
 
 Disadvantages
 """""""""""""
@@ -298,7 +298,7 @@ So it works like this:
 .. image:: /images/en/flat-coloring/Krita_filling_lineart10.png
     :alt: coloring with colorise mask
 
-When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the lineart semi-transparent and painting the flaws away with a pixel art brush.
+When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the line art semi-transparent and painting the flaws away with a pixel art brush.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart11.png
     :alt: result from the colorise mask
@@ -316,7 +316,7 @@ Finally, press **Ok** and you should get the following. Each color patch it on a
 Advantages
 """"""""""
 
-Works with anti aliased lineart. Really quick to get the base work done. Can auto-close gaps.
+Works with anti aliased line art. Really quick to get the base work done. Can auto-close gaps.
 
 Disadvantages
 """""""""""""
@@ -326,4 +326,4 @@ No anti aliasing of it’s own. You have to choose between getting details right
 Conclusion
 ----------
 
-I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled lineart is better than a badly shaded one, so keep practising to get the best out of these techniques!
+I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled line art is better than a badly shaded one, so keep practising to get the best out of these techniques!

@@ -65,4 +65,4 @@ Real Color
 
 This is important if you have a working colour space that is larger than your device space: At the least, if you do not want colour banding.
 
-And while you can attempt to create all your images a 32bit float, this will quickly take up your ram. Therefore, it's important to consider which bit depth you will use for what kind of image.
+And while you can attempt to create all your images a 32bit float, this will quickly take up your RAM. Therefore, it's important to consider which bit depth you will use for what kind of image.

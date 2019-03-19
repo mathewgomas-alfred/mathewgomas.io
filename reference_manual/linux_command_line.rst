@@ -41,7 +41,7 @@ importfilename
    
    Exportfilename says that the following word is the filename it should be exported to.
 
-   Replace this with the name of the output file. Use a different extension to change the fileformat.
+   Replace this with the name of the output file. Use a different extension to change the file format.
 
 Example:
 

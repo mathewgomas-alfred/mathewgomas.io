@@ -42,7 +42,7 @@ We do the same thing for saturation, so that the darkened color is also slightly
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_05.png
     :alt: result of the brush that we made
 
-The others are done with the smudge brush engine, but   a similar setup, though using color rate on distance instead. Do note that it’s very hard to shade realistic fur, so keep a good eye on your form shadow. You can also use this with grass, feathers and other vegetation:
+The others are done with the smudge brush engine, but a similar setup, though using color rate on distance instead. Do note that it’s very hard to shade realistic fur, so keep a good eye on your form shadow. You can also use this with grass, feathers and other vegetation:
 
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_06.png
     :alt: using the fur brush to make grass and hair

@@ -28,7 +28,7 @@ Configuration
 
     .. note ::
 
-        Some system locals don't allow you to read the configuration files. This is due to a bug in OCIO. If you are using linux you can fix this. If you start Krita form the terminal with the ``LC_ALL=C krita`` flag set, you should be able to read the configuration files.
+        Some system locals don't allow you to read the configuration files. This is due to a bug in OCIO. If you are using Linux you can fix this. If you start Krita from the terminal with the ``LC_ALL=C krita`` flag set, you should be able to read the configuration files.
 
 Input Color Space
     What the color space of the image is. Usually sRGB or Linear.

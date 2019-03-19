@@ -139,7 +139,7 @@ In toolbar
     Gives you the tool options in the toolbar, next to the brush settings. You can open it with :kbd:`\\`.
 
 Switch Control/Alt Selection Modifiers
-    This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
+    This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-:kbd:`Alt` key on their keyboard.
 
 Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
@@ -150,7 +150,7 @@ Kinetic Scrolling (Needs Restart)
     .. figure:: /images/en/Krita_4_0_kinetic_scrolling.gif
        :align: center
 
-       Kinetic scrolling on the brush chooser drop-down with activation mode set to `guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.
+       Kinetic scrolling on the brush chooser drop-down with activation mode set to :guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.
 
     Activation
         How it is activated.
@@ -188,7 +188,7 @@ Save session when Krita closes
 
     .. versionadded:: 4.1
 Autosave Every
-    Here the user can specify how often Krita should autosave the file, you can tick the checkbox to turn it off. For Windows these files are saved in the %TEMP% directory. If you are on Linux it is stored in /home/'username'.
+    Here the user can specify how often Krita should autosave the file. You can tick the checkbox to turn it off. For Windows, these files are saved in the %TEMP% directory. If you are on Linux they are stored in /home/'username'.
 Compress \*.kra files more.
     This increases the zip compression on the saved Krita files, which makes them lighter on disk, but this takes longer to load.
 Upon importing Images as Layers, convert to the image color space.
@@ -204,7 +204,7 @@ Hide splash screen on startup.
 Enable Native File Dialog
     This allows you to use the system file dialog. By default turned off because we cannot seem to get native file dialogues 100% bugfree.
 Maximum brush size
-    This allows you to set the maximum brush size to a size of up to 10.000 pixels. Do be careful with using this, as a 10.000 size pixel can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow.
+    This allows you to set the maximum brush size to a size of up to 10.000 pixels. Do be careful with using this, as a 10.000 pixel size can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow.
 Recalculate animation cache in background.
     Krita will recalculate the cache when you're not doing anything.
 

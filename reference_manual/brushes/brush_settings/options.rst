@@ -173,7 +173,7 @@ This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_02.png
 
-Isotropic
+Isotropic spacing
     Instead of the spacing being related to the ratio of the brush, it will be on diameter only.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_01.png

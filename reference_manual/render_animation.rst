@@ -18,7 +18,7 @@ Render Animation
 
 Render animation allows you to render your animation to an image sequence, gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` .
 
-For rendering to an animated fileformat, Krita will first render to a png sequence and then use FFMpeg, which is really good at encoding into video files, to render that sequence to an animated fileformat. The reason for this two-step process is that animation files can be really complex and really big, and this is the best way to allow you to keep control over the export process. For example, if your computer has a hiccup, and one frame saves out weird, first saving the image sequence allows you to only resave that one weird frame before rendering.
+For rendering to an animated file format, Krita will first render to a png sequence and then use FFMpeg, which is really good at encoding into video files, to render that sequence to an animated file format. The reason for this two-step process is that animation files can be really complex and really big, and this is the best way to allow you to keep control over the export process. For example, if your computer has a hiccup, and one frame saves out weird, first saving the image sequence allows you to only resave that one weird frame before rendering.
 
 This means that you will need to find a good place to stick your frames before you can start rendering. If you only do throwaway animations, you can use a spot on your hard-drive with enough room and select :guilabel:`Delete Sequence After Rendering` 
 
@@ -28,13 +28,13 @@ Image Sequence
 Base Name
     The base name of your image sequence. This will get suffixed with a number depending on the frame.
 File Format
-    The fileformat to export the sequence to. When rendering we enforce png. The usual export options can be modified with :guilabel:`...`.
+    The file format to export the sequence to. When rendering we enforce png. The usual export options can be modified with :guilabel:`...`.
 Render Location
     Where you render the image sequence to. Some people prefer to use a flash-drive or perhaps a harddrive that is fast.
 First Frame
-    The first frame of the range of frame you wish to adjust. Automatically set to the first frame of your current selection in the timeline. This is useful when you only want to re-render a little part.
+    The first frame of the range of frames you wish to adjust. Automatically set to the first frame of your current selection in the timeline. This is useful when you only want to re-render a little part.
 Last Frame
-    As above, the last frame of the range of frame you wish to adjust. Automatically set to the last frame of your current selection in the timeline.
+    As above, the last frame of the range of frames you wish to adjust. Automatically set to the last frame of your current selection in the timeline.
 Naming Sequence starts with
     The frames are named by using :guilabel:`Base Name`  above and adding a number for the frame. This allows you to set where the frame number starts, so rendering from 8 to 10 with starting point 3 will give you images named 11 and 15. Useful for programs that don't understand sequences starting with 0, or for precision output.
 
@@ -65,14 +65,14 @@ Step 1 - Downloading FFMpeg
 For Windows
 ^^^^^^^^^^^
 
-Go to the ffmpeg website (http://ffmpeg.org/download.html). The URL that had the link for me was here... https://ffmpeg.zeranoe.com/builds/
+Go to the `ffmpeg website <http://ffmpeg.org/download.html>`_. The URL that had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_
 
 Watch out for the extremely annoying google and that looks like a download button! There is no big button for what we need. Either get the 64-bit STATIC version or 32-bit STATIC version that is shown later down the page. If you bought a computer in the past 5 years, you probably want the 64-bit version. Make sure you get a exe file, if you hover over the options they will give more information about what exactly you are downloading.
 
 For OSX
 ^^^^^^^
 
-Please see the section above. However, FFmpeg is obtained from https://evermeet.cx/ffmpeg/ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since ffmpeg provides their OSX builds in .7z format. If you don't have one, try something like Keka (http://www.kekaosx.com).
+Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since ffmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <http://www.kekaosx.com>`_.
 
 For Linux
 ^^^^^^^^^

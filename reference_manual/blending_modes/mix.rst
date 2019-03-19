@@ -156,7 +156,7 @@ Hard Overlay
 
 .. versionadded:: 4.0
 
-Similar to Hard light but hard light use Screen when the value is above 50%. Divide gives better results than Screen, especially on floating point images..
+Similar to Hard light but hard light use Screen when the value is above 50%. Divide gives better results than Screen, especially on floating point images.
 
 .. figure:: /images/blending_modes/Blending_modes_Hard_Overlay_Sample_image_with_dots.png
    :align: center
