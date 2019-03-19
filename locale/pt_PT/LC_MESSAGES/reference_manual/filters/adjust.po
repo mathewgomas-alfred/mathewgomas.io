@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-18 16:29+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en guilabel image kbd images adjustment Dodge Hue\n"
+"X-POFile-SpellExtra: Máx Mín Burn HSL Levels Desaturate saturation\n"
+"X-POFile-SpellExtra: American ASCCDL crosschannelfilter Kritafiltersasccdl\n"
+"X-POFile-SpellExtra: Color filter Krita sRGB ITU\n"
 
 #: ../../<generated>:1
 msgid "Power"
@@ -23,11 +27,11 @@ msgstr "Potência"
 
 #: ../../reference_manual/filters/adjust.rst:None
 msgid ".. image:: images/en/Krita_filters_asc_cdl.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_filters_asc_cdl.png"
 
 #: ../../reference_manual/filters/adjust.rst:1
 msgid "Overview of the adjust filters."
-msgstr ""
+msgstr "Introdução aos filtros de ajuste."
 
 #: ../../reference_manual/filters/adjust.rst:16
 msgid "Adjust"
@@ -37,21 +41,21 @@ msgstr "Ajustar"
 msgid ""
 "The Adjustment filters are image-wide and are for manipulating colors and "
 "contrast."
-msgstr ""
+msgstr "Os filtros de Ajuste são ao nível da imagem e servem para manipular as cores e o contraste."
 
 #: ../../reference_manual/filters/adjust.rst:23
 msgid "Dodge"
-msgstr ""
+msgstr "Desvio"
 
 #: ../../reference_manual/filters/adjust.rst:25
 msgid ""
 "An image-wide dodge-filter. Dodge is named after a trick in traditional dark-"
 "room photography that gave the same results."
-msgstr ""
+msgstr "Um filtro de desvio ao nível da imagem. O desvio deriva esse nome de um truque na revelação fotográfica que criava os mesmos resultados."
 
 #: ../../reference_manual/filters/adjust.rst:28
 msgid ".. image:: images/en/Dodge-filter.png"
-msgstr ""
+msgstr ".. image:: images/en/Dodge-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:29
 #: ../../reference_manual/filters/adjust.rst:47
@@ -61,7 +65,7 @@ msgstr "Sombras"
 #: ../../reference_manual/filters/adjust.rst:30
 #: ../../reference_manual/filters/adjust.rst:48
 msgid "The effect will mostly apply to dark tones."
-msgstr ""
+msgstr "O efeito irá aparecer principalmente nos tons mais escuros."
 
 #: ../../reference_manual/filters/adjust.rst:31
 #: ../../reference_manual/filters/adjust.rst:49
@@ -71,17 +75,17 @@ msgstr "Meios-tons"
 #: ../../reference_manual/filters/adjust.rst:32
 #: ../../reference_manual/filters/adjust.rst:50
 msgid "The effect will apply to mostly midtones."
-msgstr ""
+msgstr "O efeito aplicar-se-á principalmente nos tons intermédios."
 
 #: ../../reference_manual/filters/adjust.rst:33
 #: ../../reference_manual/filters/adjust.rst:51
 msgid "Highlights"
-msgstr "Realces"
+msgstr "Tons Claros"
 
 #: ../../reference_manual/filters/adjust.rst:34
 #: ../../reference_manual/filters/adjust.rst:52
 msgid "This will apply the effect on the highlights only."
-msgstr ""
+msgstr "Isto irá aplicar o efeito apenas nos tons mais claros."
 
 #: ../../reference_manual/filters/adjust.rst:36
 #: ../../reference_manual/filters/adjust.rst:54
@@ -91,21 +95,21 @@ msgstr "Exposição"
 #: ../../reference_manual/filters/adjust.rst:36
 #: ../../reference_manual/filters/adjust.rst:54
 msgid "The strength at which this filter is applied."
-msgstr ""
+msgstr "A potência com que é aplicado este filtro."
 
 #: ../../reference_manual/filters/adjust.rst:41
 msgid "Burn"
-msgstr "Gravar"
+msgstr "Queimadura"
 
 #: ../../reference_manual/filters/adjust.rst:43
 msgid ""
 "An image-wide burn-filter. Burn is named after a trick in traditional dark-"
 "room photography that gave similar results."
-msgstr ""
+msgstr "Um filtro de queimadura ao nível da imagem. A queimadura deriva esse nome de um truque na revelação fotográfica que criava os mesmos resultados."
 
 #: ../../reference_manual/filters/adjust.rst:46
 msgid ".. image:: images/en/Burn-filter.png"
-msgstr ""
+msgstr ".. image:: images/en/Burn-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:59
 msgid "Levels"
@@ -118,11 +122,11 @@ msgid ""
 "can even set an output and input range of tones for the image.A histogram is "
 "displayed to show you the tonal distribution. The default shortcut for "
 "levels filter is :kbd:`Ctrl + L` ."
-msgstr ""
+msgstr "Este filtro permite-lhe modificar directamente os níveis dos valores de tonalidade de uma imagem, manipulando as barras deslizantes para os tons claros, intermédios e sombras. Poderá até definir uma gama de tonas à saída e entrada para a imagem. Um histograma aparece para lhe mostrar a distribuição de tons. O atalho por omissão para o filtro de níveis é o :kbd:`Ctrl + L` ."
 
 #: ../../reference_manual/filters/adjust.rst:65
 msgid ".. image:: images/en/Levels-filter.png"
-msgstr ""
+msgstr ".. image:: images/en/Levels-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:66
 msgid ""
@@ -130,18 +134,18 @@ msgid ""
 "images. If the scanned lineart is light you can slide the black triangle to "
 "right to make it darker or if you want to remove the grey areas you can "
 "slide the white slider to left."
-msgstr ""
+msgstr "Isto é muito útil para fazer uma limpeza inicial das imagens digitalizadas ou em tons de cinzento. Se a imagem digitalizada for clara, poderá arrastar o triângulo preto para a direita, para o tornar mais escuro ou, se quiser remover as áreas a cinzento, poderá deslocar a barra para a esquerda."
 
 #: ../../reference_manual/filters/adjust.rst:68
 msgid ""
 "Auto levels is a quick way to adjust tone of an image. If you want to change "
 "the settings later you can click on the :guilabel:`Create Filter Mask` "
 "button to add the levels as a filter mask."
-msgstr ""
+msgstr "Os níveis automáticos são uma forma rápida de ajustar o tom de uma imagem. Se quiser alterar depois a configuração, poderá carregar no botão para :guilabel:`Criar uma Máscara de Filtragem` para adicionar os níveis com uma máscara de filtragem."
 
 #: ../../reference_manual/filters/adjust.rst:74
 msgid "Color Adjustment Curves"
-msgstr ""
+msgstr "Curvas de Ajuste das Cores"
 
 #: ../../reference_manual/filters/adjust.rst:76
 msgid ""
@@ -153,15 +157,15 @@ msgid ""
 "by adjusting the curves to give it more warmer look, similarly a snowy "
 "mountain scene can be made to look cooler by adjusting the blues and greens. "
 "The default shortcut for this filter is :kbd:`Ctrl + M` ."
-msgstr ""
+msgstr "Este filtro permite-lhe ajustar cada um dos canais, manipulando as curvas. Até poderá ajustar o canal alfa e da luminosidade através deste filtro. Isto é usado com bastante frequência pelos artistas como um filtro de pós-processamento, para elevar ligeiramente o espírito da pintra, ajustando a cor global. Por exemplo, uma cena com um dragão a cuspir fogo poderá ser tornado mais vermelho e amarelo, ajustando para tal as curvas de forma a dar-lhe uma aparência mais quente; da mesma forma, uma cena numa montanha com neve poder-se-á tornar mais fria, ajustando os tons azuis e verdes. O atalho por omissão para este filtro é o :kbd:`Ctrl + M` ."
 
 #: ../../reference_manual/filters/adjust.rst:81
 msgid "Since 4.1 this filter can also handle Hue and Saturation curves."
-msgstr ""
+msgstr "Desde o 4.1, este filtro pode também lidar com as curvas da Matiz e da Saturação."
 
 #: ../../reference_manual/filters/adjust.rst:84
 msgid ".. image:: images/en/Color-adjustment-curve.png"
-msgstr ""
+msgstr ".. image:: images/en/Color-adjustment-curve.png"
 
 #: ../../reference_manual/filters/adjust.rst:88
 msgid "Cross-channel color adjustment"
@@ -172,59 +176,59 @@ msgid ""
 "Sometimes, when you are adjusting the colors for an image, you want bright "
 "colors to be more saturated, or have a little bit of brightness in the "
 "purples."
-msgstr ""
+msgstr "Em alguns casos, quando estiver a ajustar as cores de uma imagem, poderá querer que as cores claras fiquem mais saturadas ou que tenham um pouco mais de brilho nos tons púrpura."
 
 #: ../../reference_manual/filters/adjust.rst:94
 msgid "The Cross-channel color adjustment filter allows you to do this."
-msgstr ""
+msgstr "O filtro de ajustes de cores entre Canais permite-lhe fazer isso."
 
 #: ../../reference_manual/filters/adjust.rst:96
 msgid ""
 "At the top, there's two drop downs. The first one is to choose which :"
 "guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop "
 "down is what channel you use to control which parts are modified."
-msgstr ""
+msgstr "No topo, existem duas listas. A primeira serve para escolher o :guilabel:`Canal` que deseja modificar. A lista do :guilabel:`Canal de Controlo` define qual o canal que usa para controlar as partes que foram modificadas."
 
 #: ../../reference_manual/filters/adjust.rst:99
 msgid ".. image:: images/en/cross_channel_filter.png"
-msgstr ""
+msgstr ".. image:: images/en/cross_channel_filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:100
 msgid ""
 "The curve, on the horizontal axis, represents the driver channel, while the "
 "vertical axis represent the channel you wish to modify."
-msgstr ""
+msgstr "A curva, no eixo horizontal, representa o canal de controlo, enquanto o eixo vertical representa o canal que deseja modificar."
 
 #: ../../reference_manual/filters/adjust.rst:102
 msgid ""
 "So if you wish to increase the saturation in the lighter parts, you pick :"
 "guilabel:`Saturation` in the first drop down, and :guilabel:`Lightness` as "
 "the driver channel. Then, pull up the right end to the top."
-msgstr ""
+msgstr "Por isso, se quiser aumentar a saturação nos tons mais claros, poderá escolher a :guilabel:`Saturação` na primeira lista e a :guilabel:`Luminosidade` como o canal de controlo. Neste caso, puxe o extremo direito para o topo."
 
 #: ../../reference_manual/filters/adjust.rst:104
 msgid ""
 "If you wish to desaturate everything but the teal/blues, you select :"
 "guilabel:`Saturation` for the channel and :guilabel:`Hue` for the driver. "
 "Then put a dot in the middle and pull down the dots on either sides."
-msgstr ""
+msgstr "Se quiser reduzir a saturação de tudo menos os verde-azulados e os azuis, poderá seleccionar a :guilabel:`Saturação` para o canal e a :guilabel:`Matiz` para o controlo. Depois coloque um ponto no meio e puxe os pontos para baixo em ambos os extremos."
 
 #: ../../reference_manual/filters/adjust.rst:107
 msgid "Brightness/Contrast curves"
-msgstr ""
+msgstr "Curvas de brilho/contraste"
 
 #: ../../reference_manual/filters/adjust.rst:109
 msgid ""
 "This filter allows you to adjust the brightness and contrast of the image by "
 "adjusting the curves."
-msgstr ""
+msgstr "Este filtro permite-lhe ajustar o brilho e o contraste da imagem, ajustando para tal as curvas."
 
 #: ../../reference_manual/filters/adjust.rst:113
 msgid ""
 "These have been removed in Krita 4.0, because the Color Adjustment filter "
 "can do the same. Old files with brightness/contrast curves will be loaded as "
 "Color Adjustment curves"
-msgstr ""
+msgstr "Estas foram removidas no Krita 4.0, dado que o filtro de Ajuste de Cores pode fazer exactamente o mesmo. Os ficheiros antigos com as curvas de brilho/contraste serão carregados como curvas do Ajuste de Cores"
 
 #: ../../reference_manual/filters/adjust.rst:118
 msgid "Color Balance"
@@ -235,26 +239,26 @@ msgid ""
 "This filter allows you to control the color balance of the image by "
 "adjusting the sliders for Shadows, Midtones and Highlights. The default "
 "shortcut for this filter is :kbd:`Ctrl + B` ."
-msgstr ""
+msgstr "Este filtro permite-lhe controlar o balanceamento de cores da imagem, ajustando as barras deslizantes para as Sombras, Tons Intermédios e Tons Claros. O atalho por omissão para este filtro é o :kbd:`Ctrl + B` ."
 
 #: ../../reference_manual/filters/adjust.rst:123
 msgid ".. image:: images/en/Color-balance.png"
-msgstr ""
+msgstr ".. image:: images/en/Color-balance.png"
 
 #: ../../reference_manual/filters/adjust.rst:127
 msgid "Desaturate"
-msgstr ""
+msgstr "Reduzir a Saturação"
 
 #: ../../reference_manual/filters/adjust.rst:129
 msgid ""
 "Image-wide desaturation filter. Will make any image Greyscale. Has several "
 "choices by which logic the colors are turned to grey. The default shortcut "
 "for this filter is :kbd:`Ctrl + Shift + U` ."
-msgstr ""
+msgstr "Um filtro de redução da saturação a nível da imagem. Irá transformar qualquer imagem em tons de cinzento. Tem diversas opções, nas quais a lógica é que as cores passam a cinzento. O atalho por omissão para esse filtro é o :kbd:`Ctrl + Shift + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:133
 msgid ".. image:: images/en/Desaturate-filter.png"
-msgstr ""
+msgstr ".. image:: images/en/Desaturate-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:134
 msgid "Lightness"
@@ -262,27 +266,27 @@ msgstr "Luminosidade"
 
 #: ../../reference_manual/filters/adjust.rst:135
 msgid "This will turn colors to grey using the HSL model."
-msgstr ""
+msgstr "Isto irá transformar as cores em cinzento, usando o modelo HSL."
 
 #: ../../reference_manual/filters/adjust.rst:136
 msgid "Luminosity (ITU-R BT.709)"
-msgstr ""
+msgstr "Luminosidade (ITU-R BT.709)"
 
 #: ../../reference_manual/filters/adjust.rst:137
 msgid ""
 "Will turn the color to grey by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.709."
-msgstr ""
+msgstr "Isto irá transformar as cores em cinzento, usando a quantidade de peso apropriada por canal, de acordo com a ITU-R BT.709."
 
 #: ../../reference_manual/filters/adjust.rst:138
 msgid "Luminosity (ITU-R BT.601)"
-msgstr ""
+msgstr "Luminosidade (ITU-R BT.601)"
 
 #: ../../reference_manual/filters/adjust.rst:139
 msgid ""
 "Will turn the color to grey by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.601."
-msgstr ""
+msgstr "Isto irá transformar as cores em cinzento, usando a quantidade de peso apropriada por canal, de acordo com a ITU-R BT.601."
 
 #: ../../reference_manual/filters/adjust.rst:140
 msgid "Average"
@@ -290,7 +294,7 @@ msgstr "Média"
 
 #: ../../reference_manual/filters/adjust.rst:141
 msgid "Will make an average of all channels."
-msgstr ""
+msgstr "Irá calcular uma média de todos os canais."
 
 #: ../../reference_manual/filters/adjust.rst:142
 msgid "Min"
@@ -298,7 +302,7 @@ msgstr "Mín"
 
 #: ../../reference_manual/filters/adjust.rst:143
 msgid "Subtracts all from one another to find the grey value."
-msgstr ""
+msgstr "Subtrai tudo uns dos outros, para descobrir o valor do cinzento."
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Max"
@@ -306,7 +310,7 @@ msgstr "Máx"
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Adds all channels together to get a grey-value"
-msgstr ""
+msgstr "Adiciona todos os canais em conjunto para obter um valor de cinzento"
 
 #: ../../reference_manual/filters/adjust.rst:150
 msgid "Invert"
@@ -317,7 +321,7 @@ msgid ""
 "This filter like the name suggests inverts the color values in the image.So "
 "white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), "
 "etc. The default shortcut for this filter is :kbd:`Ctrl + I`."
-msgstr ""
+msgstr "Este filtro, como o nome indica, inverte os valores das cores na imagem. Como tal, o branco (1, 1, 1) fica preto (0, 0, 0), o amarelo (1, 1, 0) fica azul (0, 1, 1), etc. O atalho por omissão para este filtro é o :kbd:`Ctrl + I`."
 
 #: ../../reference_manual/filters/adjust.rst:158
 msgid "Auto Contrast"
@@ -325,7 +329,7 @@ msgstr "Contraste Automático"
 
 #: ../../reference_manual/filters/adjust.rst:160
 msgid "Tries to adjust the contrast the universally acceptable levels."
-msgstr ""
+msgstr "Tenta ajustar o contraste para níveis aceitáveis universais."
 
 #: ../../reference_manual/filters/adjust.rst:165
 msgid "HSV/HSL Adjustment"
@@ -335,11 +339,11 @@ msgstr "Ajuste do HSV/HSL"
 msgid ""
 "With this filter, you can adjust the Hue, Saturation, Value or Lightness, "
 "through sliders. The default shortcut for this filter is :kbd:`Ctrl + U` ."
-msgstr ""
+msgstr "Com este filtro, poderá ajustar a Matiz, Saturação, Valor ou Luminosidade através de barras deslizantes. O atalho por omissão para este filtro é o :kbd:`Ctrl + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:170
 msgid ".. image:: images/en/Hue-saturation-filter.png"
-msgstr ""
+msgstr ".. image:: images/en/Hue-saturation-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:174
 msgid "Threshold"
@@ -350,24 +354,24 @@ msgid ""
 "A simple black and white threshold filter that uses sRGB luminosity. It'll "
 "convert any image to a image with only black and white, with the input "
 "number indicating the threshold value at which black becomes white."
-msgstr ""
+msgstr "Um filtro limitador simples a preto-e-branco que usa a luminosidade do sRGB. Irá converte qualquer imagem para uma imagem apenas com o preto e branco, sendo que o número de entrada indica o valor-limite a partir do qual o preto fica branco."
 
 #: ../../reference_manual/filters/adjust.rst:181
 msgid "Slope, Offset, Power"
-msgstr ""
+msgstr "Inclinação, Deslocamento, Potência"
 
 #: ../../reference_manual/filters/adjust.rst:183
 msgid ""
 "A different kind of color balance filter, with three color selectors, which "
 "will have the same shape as the one used in settings."
-msgstr ""
+msgstr "Um tipo diferente de filtro de balanceamento de cores, com três selectores de cores, os quais terão a mesma forma que a usada na configuração."
 
 #: ../../reference_manual/filters/adjust.rst:185
 msgid ""
 "This filter is particular because it has been defined by the American "
 "Society for Cinema as \"ASC_CDL\", meaning that it is a standard way of "
 "describing a color balance method."
-msgstr ""
+msgstr "Este filtro é particular por ter sido definido pela American Society for Cinema (Sociedade Americana do Cinema) como \"ASC_CDL\", o que significa que é uma forma-padrão de descrever um método de balanceamento de cores."
 
 #: ../../reference_manual/filters/adjust.rst:191
 msgid "Slope"
@@ -377,7 +381,7 @@ msgstr "Inclinação"
 msgid ""
 "This represents a multiplication and determine the adjustment of the "
 "brighter colors in an image."
-msgstr ""
+msgstr "Isto representa uma multiplicação e define o ajuste das cores mais claras numa imagem."
 
 #: ../../reference_manual/filters/adjust.rst:193
 msgid "Offset"
@@ -387,10 +391,10 @@ msgstr "Posição"
 msgid ""
 "This determines how much the bottom is offset from the top, and so "
 "determines the color of the darkest colors."
-msgstr ""
+msgstr "Isto define quanto é que o fundo está desviado do topo, determinando assim a cor dos tons mais escuros."
 
 #: ../../reference_manual/filters/adjust.rst:196
 msgid ""
 "This represents a power function, and determines the adjustment of the mid-"
 "tone to dark colors of an image."
-msgstr ""
+msgstr "Isto representa uma função de potência, determinando o ajuste dos tons intermédios para as cores escuras de uma imagem."

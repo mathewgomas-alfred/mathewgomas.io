@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 03:31+0100\n"
-"PO-Revision-Date: 2019-03-12 10:59+0100\n"
+"POT-Creation-Date: 2019-03-18 03:34+0100\n"
+"PO-Revision-Date: 2019-03-18 08:29+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,6 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 18.12.3\n"
+
+# skip-rule: t-sp_2p
+#: ../../<rst_epilog>:2
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_right.png\n"
+#| "   :alt: mouseright"
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
 
 # skip-rule: t-sp_2p
 #: ../../<rst_epilog>:4
@@ -178,11 +190,18 @@ msgstr ""
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:79
+#| msgid ""
+#| "In the second tab, we choose a nice background color, and set the "
+#| "background to canvas-color. This means that Krita will automatically fill "
+#| "in any transparent bits with the background color. You can change this "
+#| "in :menuselection:`image --> image properties`. This seems to be most "
+#| "useful to people doing animation, as the layer you do animation on MUST "
+#| "be semi-transparent to get onion skinning working."
 msgid ""
 "In the second tab, we choose a nice background color, and set the background "
 "to canvas-color. This means that Krita will automatically fill in any "
 "transparent bits with the background color. You can change this in :"
-"menuselection:`image --> image properties`. This seems to be most useful to "
+"menuselection:`Image --> Image Properties`. This seems to be most useful to "
 "people doing animation, as the layer you do animation on MUST be semi-"
 "transparent to get onion skinning working."
 msgstr ""
@@ -329,12 +348,16 @@ msgstr ".. image:: images/en/Introduction_to_animation_08.png"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:134
+#| msgid ""
+#| "Use the to copy frame to copy the first frame onto the second. Then, use "
+#| "the with :kbd:`Shift + ↑` to move the frame contents up."
 msgid ""
-"Use the to copy frame to copy the first frame onto the second. Then, use the "
-"with :kbd:`Shift + ↑` to move the frame contents up."
+"Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
+"second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgstr ""
-"Utilitzeu Copia el fotograma per a copiar el primer fotograma al segon. "
-"Després, utilitzeu la drecera :kbd:`Majús. + ↑` per a moure el contingut del "
+"Utilitzeu el botó :guilabel:`Copia el fotograma` per a copiar el primer"
+" fotograma al segon. Després, utilitzeu la drecera :kbd:`Majús. + ↑` per a"
+" moure el contingut del "
 "fotograma cap amunt."
 
 #: ../../user_manual/animation.rst:138
@@ -379,14 +402,18 @@ msgid ".. image:: images/en/Introduction_to_animation_11.png"
 msgstr ".. image:: images/en/Introduction_to_animation_11.png"
 
 #: ../../user_manual/animation.rst:154
+#| msgid ""
+#| "Now, we're gonna draw the two extremes of the walkcycle. These are the "
+#| "pose where both legs are as far apart as possible, and the pose where one "
+#| "leg is full stretched and the other pulled in, read to take the next step."
 msgid ""
 "Now, we're gonna draw the two extremes of the walkcycle. These are the pose "
 "where both legs are as far apart as possible, and the pose where one leg is "
-"full stretched and the other pulled in, read to take the next step."
+"full stretched and the other pulled in, ready to take the next step."
 msgstr ""
 "Ara, dibuixarem els dos extrems del cicle de caminar. Aquestes seran les "
 "postures en les que totes dues cames estan el més separades possible, i la "
-"postura on una cama està completament estirada i l'altra arronsada, llegiu "
+"postura on una cama està completament estirada i l'altra arronsada, llest "
 "per a fer el següent pas."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
@@ -404,17 +431,21 @@ msgstr ".. image:: images/en/Introduction_to_animation_12.png"
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:164
+#| msgid ""
+#| ":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
 msgid ""
-":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
+":kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy..."
 msgstr ""
-":kbd:`Ctrl + |mouseleft|` també selecciona i desselecciona els fotogrames, "
+":kbd:`Ctrl +` |mouseleft| també selecciona i desselecciona els fotogrames, "
 "per a copiar..."
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:166
-msgid ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
+#| msgid ""
+#| ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
+msgid ":kbd:`Ctrl +` |mouseleft| to select all the frames you want to select."
 msgstr ""
-":kbd:`Ctrl + |mouseleft|` per a seleccionar tots els fotogrames que voleu "
+":kbd:`Ctrl +` |mouseleft| per a seleccionar tots els fotogrames que voleu "
 "seleccionar."
 
 # skip-rule: t-acc_obe,t-apo_ini
@@ -532,8 +563,13 @@ msgid ".. image:: images/en/Introduction_to_animation_17.png"
 msgstr ".. image:: images/en/Introduction_to_animation_17.png"
 
 #: ../../user_manual/animation.rst:213
+#| msgid ""
+#| "Our walkcycle is gone from the time-line docker! This is a feature "
+#| "actually. A full animation can have so many little parts that an animator "
+#| "might want to remove the layers they're not working on from the timeline "
+#| "docker. So you manually have to add them."
 msgid ""
-"Our walkcycle is gone from the time-line docker! This is a feature actually. "
+"Our walkcycle is gone from the timeline docker! This is a feature actually. "
 "A full animation can have so many little parts that an animator might want "
 "to remove the layers they're not working on from the timeline docker. So you "
 "manually have to add them."
@@ -621,13 +657,17 @@ msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:251
+#| msgid ""
+#| "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+#| "(Windows) and open all the frames and then go to File → Export → GIF"
 msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
-"(Windows) and open all the frames and then go to File → Export → GIF"
+"(Windows) and open all the frames and then go to :menuselection:`File --> "
+"Export --> GIF`."
 msgstr ""
 "Per exemple, podeu utilitzar el `VirtualDub <http://www.virtualdub.org/>`__"
-"\\ (Windows), obrir tots els fotogrames i després anar a «Fitxer → Exporta → "
-"GIF»"
+"\\ (Windows), obrir tots els fotogrames i després anar a "
+":menuselection:`Fitxer --> Exporta --> GIF`."
 
 #: ../../user_manual/animation.rst:255
 msgid "Enjoy your walkcycle!"
@@ -652,21 +692,27 @@ msgid "You can import animation frames in Krita 3.0."
 msgstr "Al Krita 3.0 podeu importar fotogrames d'animació."
 
 #: ../../user_manual/animation.rst:266
+#| msgid ""
+#| "First let us take a sprite sheet from Open Game Art.(This is the Libre "
+#| "Pixel Cup male walkcycle)"
 msgid ""
-"First let us take a sprite sheet from Open Game Art.(This is the Libre Pixel "
-"Cup male walkcycle)"
+"First let us take a sprite sheet from Open Game Art. (This is the Libre "
+"Pixel Cup male walkcycle)"
 msgstr ""
 "Primer prenguem un full de sprites d'Open Game Art. (Aquest és el cicle de "
 "caminar masculí de la Libre Pixel Cup)"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:269
+#| msgid ""
+#| "And we'll use :menuselection:`Image --> Split Image to split up the "
+#| "sprite sheet`."
 msgid ""
-"And we'll use :menuselection:`Image --> Split Image to split up the sprite "
-"sheet`."
+"And we'll use :menuselection:`Image --> Split Image` to split up the sprite "
+"sheet."
 msgstr ""
-"I l'utilitzarem :menuselection:`Imatge --> Divideix la imatge per a dividir "
-"el full de sprite`."
+"I l'utilitzarem :menuselection:`Imatge --> Divideix la imatge` per a dividir "
+"el full de sprite."
 
 #: ../../user_manual/animation.rst:272
 msgid ".. image:: images/en/Animation_split_spritesheet.png"
@@ -741,9 +787,12 @@ msgid "Step"
 msgstr "Pas"
 
 #: ../../user_manual/animation.rst:295
-msgid "Press OK, and your animation should be imported as a new layer."
+#| msgid "Press OK, and your animation should be imported as a new layer."
+msgid ""
+"Press :guilabel:`OK`, and your animation should be imported as a new layer."
 msgstr ""
-"Premeu D'acord i la vostra animació s'hauria d'importar com una capa nova."
+"Premeu :guilabel:`D'acord` i la vostra animació s'hauria d'importar com una "
+"capa nova."
 
 #: ../../user_manual/animation.rst:298
 msgid ".. image:: images/en/Animation_import_done.png"

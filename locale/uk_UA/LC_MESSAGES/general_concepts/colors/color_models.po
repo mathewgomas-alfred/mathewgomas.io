@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___color_models\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-12 20:29+0200\n"
+"PO-Revision-Date: 2019-03-18 16:08+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -51,6 +51,9 @@ msgid ""
 "computer screens. Adding Red, Green and Blue light together results in "
 "White, and is thus named the additive color wheel."
 msgstr ""
+"Це найефективніші основні кольори для змішування кольорів світла, зокрема для"
+" моніторів комп'ютерів. Додавання червоного, зеленого і синього світла дає"
+" білий колір, тому коло кольорів у цьому випадку називають адитивним."
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
@@ -212,6 +215,8 @@ msgid ""
 "is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
 "blue."
 msgstr ""
+"Відтінок кольору або те, чи є колір червоним, жовтим, зеленим тощо. Відтінки"
+" у Krita поділено на 360 градусів, 0 — червоний, 120 — зелений, а 240 — синій."
 
 #: ../../general_concepts/colors/color_models.rst:63
 msgid "Saturation"
@@ -235,6 +240,8 @@ msgid ""
 "Sometimes known as Brightness. Measurement of how much the pixel needs to "
 "light up. Also measured from 0 to 100."
 msgstr ""
+"Іноді ще називають яскравістю. Міра того, наскільки піксель потребує"
+" освітлення. Також може мати значення від 0 до 100."
 
 #: ../../general_concepts/colors/color_models.rst:67
 msgid "Lightness"
@@ -245,6 +252,9 @@ msgid ""
 "Where a color aligns between white and black. This value is non-linear, and "
 "puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
+"Міра того, де колір розміщено між білим і чорним. Це значення є нелінійним."
+" Усі найнасиченіші можливі кольори розташовано на рівні значення 50. Діапазон"
+" значень — від 0 до 100."
 
 #: ../../general_concepts/colors/color_models.rst:69
 msgid "Intensity"
@@ -255,6 +265,8 @@ msgid ""
 "Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
 "than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
+"Величина, яка є подібно до освітленості, але за нею жовтий (1,1,0) є"
+" світлішим за синій (0,0,1). Діапазон значень — від 0 до 100."
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid "Luma (Y')"
@@ -302,6 +314,9 @@ msgid ""
 "four colors, and adding them all adds up to black instead of white. This is "
 "thus also called a 'subtractive' color space."
 msgstr ""
+"Це простір кольорів для принтерів. На відміну від комп'ютерних моніторів, у"
+" принтерах використовують ці чотири кольори. Додавання усіх цих кольорів дає"
+" чорний, а не білий колір. Це так званий «різницевий» простір кольорів."
 
 #: ../../general_concepts/colors/color_models.rst:104
 #: ../../general_concepts/colors/color_models.rst:117
@@ -429,6 +444,11 @@ msgid ""
 "open source ICC profiles for this color space. It's unusable without one, "
 "and also probably very untested."
 msgstr ""
+"У пакунку Krita немає профілю ICC для YCrCb, оскільки для цього простору"
+" кольорів не існує профілів ICC із відкритим ліцензуванням. Без такого"
+" профілю простір кольорів є непридатним до користування і через це, ймовірно,"
+" навіть наявність профілю не врятує ситуацію через вади у реалізації,"
+" оскільки належне тестування роботи у просторі не виконувалося."
 
 #: ../../general_concepts/colors/color_models.rst:158
 msgid "XYZ"
@@ -440,6 +460,10 @@ msgid ""
 "color perception. In doing so, they made the first color spaces, with XYZ "
 "being the one best at approximating human vision."
 msgstr ""
+"Ще у 1931 року CIE (Інститутом кольору і світла) було виконано дослідження зі"
+" сприйняття людиною кольорів. У результаті дослідження було створено перші"
+" простори кольорів. Одним із найкращих створених просторів у сенсі наближення"
+" параметрів зору людини виявився простір XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
@@ -470,6 +494,9 @@ msgid ""
 "XYZ is used as a baseline reference for all other profiles and models. All "
 "color conversions are done in XYZ, and all profiles coordinates match XYZ."
 msgstr ""
+"XYZ використовується як базова форма посилання на будь-які інші профілі і"
+" моделі. Усі перетворення кольорів виконуються у XYZ, і усі координати"
+" профілів співвідносяться із XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:177
 msgid "L\\*a\\*b\\*"
@@ -496,6 +523,8 @@ msgid ""
 "a\\* in this case is the measurement of how magenta a color is versus how "
 "green it is."
 msgstr ""
+"a\\* у цьому випадку — міра того, наскільки малиновим є колір щодо зеленого"
+" кольору."
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid "b\\*"
@@ -506,6 +535,7 @@ msgid ""
 "b\\* in this case is a measurement of how yellow a color is versus how blue "
 "a color is."
 msgstr ""
+"b\\* у цьому випадку — міра того, наскільки жовтим є колір відносно синього."
 
 #: ../../general_concepts/colors/color_models.rst:188
 msgid ""
@@ -521,6 +551,8 @@ msgid ""
 "L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
 "specifically uses CIELAB d50."
 msgstr ""
+"L\\*a\\*b\\* технічно збігається із LAB у Photoshop. Якщо бути точним, у"
+" Photoshop використано CIELAB d50."
 
 #: ../../general_concepts/colors/color_models.rst:193
 msgid "Filters and blending modes."

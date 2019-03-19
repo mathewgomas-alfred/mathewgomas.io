@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 03:31+0100\n"
+"POT-Creation-Date: 2019-03-18 03:34+0100\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -13,6 +13,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
+
+#: ../../<rst_epilog>:2
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -129,7 +135,7 @@ msgid ""
 "In the second tab, we choose a nice background color, and set the background "
 "to canvas-color. This means that Krita will automatically fill in any "
 "transparent bits with the background color. You can change this in :"
-"menuselection:`image --> image properties`. This seems to be most useful to "
+"menuselection:`Image --> Image Properties`. This seems to be most useful to "
 "people doing animation, as the layer you do animation on MUST be semi-"
 "transparent to get onion skinning working."
 msgstr ""
@@ -242,8 +248,8 @@ msgstr ""
 
 #: ../../user_manual/animation.rst:134
 msgid ""
-"Use the to copy frame to copy the first frame onto the second. Then, use the "
-"with :kbd:`Shift + ↑` to move the frame contents up."
+"Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
+"second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgstr ""
 
 #: ../../user_manual/animation.rst:138
@@ -284,7 +290,7 @@ msgstr ""
 msgid ""
 "Now, we're gonna draw the two extremes of the walkcycle. These are the pose "
 "where both legs are as far apart as possible, and the pose where one leg is "
-"full stretched and the other pulled in, read to take the next step."
+"full stretched and the other pulled in, ready to take the next step."
 msgstr ""
 
 #: ../../user_manual/animation.rst:159
@@ -299,11 +305,11 @@ msgstr ""
 
 #: ../../user_manual/animation.rst:164
 msgid ""
-":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
+":kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy..."
 msgstr ""
 
 #: ../../user_manual/animation.rst:166
-msgid ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
+msgid ":kbd:`Ctrl +` |mouseleft| to select all the frames you want to select."
 msgstr ""
 
 #: ../../user_manual/animation.rst:167
@@ -404,7 +410,7 @@ msgstr ""
 
 #: ../../user_manual/animation.rst:213
 msgid ""
-"Our walkcycle is gone from the time-line docker! This is a feature actually. "
+"Our walkcycle is gone from the timeline docker! This is a feature actually. "
 "A full animation can have so many little parts that an animator might want "
 "to remove the layers they're not working on from the timeline docker. So you "
 "manually have to add them."
@@ -474,7 +480,8 @@ msgstr ""
 #: ../../user_manual/animation.rst:251
 msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
-"(Windows) and open all the frames and then go to File → Export → GIF"
+"(Windows) and open all the frames and then go to :menuselection:`File --> "
+"Export --> GIF`."
 msgstr ""
 
 #: ../../user_manual/animation.rst:255
@@ -497,14 +504,14 @@ msgstr ""
 
 #: ../../user_manual/animation.rst:266
 msgid ""
-"First let us take a sprite sheet from Open Game Art.(This is the Libre Pixel "
-"Cup male walkcycle)"
+"First let us take a sprite sheet from Open Game Art. (This is the Libre "
+"Pixel Cup male walkcycle)"
 msgstr ""
 
 #: ../../user_manual/animation.rst:269
 msgid ""
-"And we'll use :menuselection:`Image --> Split Image to split up the sprite "
-"sheet`."
+"And we'll use :menuselection:`Image --> Split Image` to split up the sprite "
+"sheet."
 msgstr ""
 
 #: ../../user_manual/animation.rst:272
@@ -564,7 +571,8 @@ msgid "Step"
 msgstr ""
 
 #: ../../user_manual/animation.rst:295
-msgid "Press OK, and your animation should be imported as a new layer."
+msgid ""
+"Press :guilabel:`OK`, and your animation should be imported as a new layer."
 msgstr ""
 
 #: ../../user_manual/animation.rst:298

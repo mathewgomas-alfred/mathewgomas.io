@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_tutorials___flat-coloring\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-16 03:28+0100\n"
-"PO-Revision-Date: 2019-03-12 20:38+0200\n"
+"PO-Revision-Date: 2019-03-18 21:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -205,6 +205,9 @@ msgid ""
 "com/post/66584924501/flat-colouring-in-the-kingdom-of-2d-layers-are>`_ by "
 "the original author."
 msgstr ""
+"Цей розділ підручника написано на основі `цього підручника <"
+"http://theratutorial.tumblr."
+"com/post/66584924501/flat-colouring-in-the-kingdom-of-2d-layers-are>`_."
 
 #: ../../tutorials/flat-coloring.rst:20
 msgid "Understanding Layers"
@@ -423,6 +426,8 @@ msgid ""
 "This isn't completely undesirable, and a lot of artists use this effect to "
 "add a little richness to their colors."
 msgstr ""
+"Цей ефект не є повністю небажаним. Багато художників використовують його для"
+" того, щоб дещо збагатити кольори зображення."
 
 #: ../../tutorials/flat-coloring.rst:98 ../../tutorials/flat-coloring.rst:127
 #: ../../tutorials/flat-coloring.rst:154 ../../tutorials/flat-coloring.rst:173
@@ -461,30 +466,33 @@ msgstr ""
 
 #: ../../tutorials/flat-coloring.rst:112
 msgid "duplicate your lineart layer."
-msgstr "здублюйте ваш шар графіки."
+msgstr "Здублюйте ваш шар графіки."
 
 #: ../../tutorials/flat-coloring.rst:114
 msgid ""
 "convert the duplicate to a selection mask. |mouseright| the layer, then :"
 "menuselection:`Convert --> to Selection Mask`."
 msgstr ""
-"перетворіть дублікат на маску вибору. |mouseright| на пункті шару, далі :"
+"Перетворіть дублікат на маску вибору. |mouseright| на пункті шару, далі :"
 "menuselection:`Перетворити --> на маску вибору`."
 
 #: ../../tutorials/flat-coloring.rst:118
 msgid ""
 "Invert the selection mask. :menuselection:`Select --> Invert Selection`."
 msgstr ""
+"Інвертуйте маску позначення. :menuselection:`Вибір --> Інвертувати вибір`."
 
 #: ../../tutorials/flat-coloring.rst:120
 msgid ""
 "Make a new layer, and do :menuselection:`Edit --> Fill with foreground "
 "color`."
 msgstr ""
+"Створіть шар і скористайтеся пунктом меню :menuselection:`Зміни --> Заповнити"
+" кольором переднього плану`."
 
 #: ../../tutorials/flat-coloring.rst:124
 msgid "And you should now have the line art on a separate layer."
-msgstr ""
+msgstr "Тепер графіку має бути розташовано на окремому шарі."
 
 #: ../../tutorials/flat-coloring.rst:129
 msgid "Actual transparency."
@@ -504,19 +512,23 @@ msgstr "Це простіший різновид описаного вище."
 
 #: ../../tutorials/flat-coloring.rst:141
 msgid "Make a filled layer underneath the lineart layer."
-msgstr ""
+msgstr "Створіть заповнений шар під шаром графіки."
 
 #: ../../tutorials/flat-coloring.rst:145
 msgid ""
 "Convert the lineart layer to a transparency mask |mouseright| the layer, "
 "then :menuselection:`Convert --> to Transparency Mask`."
 msgstr ""
+"Перетворіть шар графіки на маску прозорості: клацніть |mouseright| на пункті"
+" шару, виберіть пункт :menuselection:`Перетворити --> на маску прозорості`."
 
 #: ../../tutorials/flat-coloring.rst:149
 msgid ""
 "Invert the transparency mask by going to :menuselection:`Filter --> Adjust --"
 "> Invert`"
 msgstr ""
+"Оберніть маску прозорості за допомогою пункту меню :menuselection:`Фільтр -->"
+" Скоригувати --> Інвертувати`"
 
 #: ../../tutorials/flat-coloring.rst:156
 msgid ""
@@ -535,7 +547,7 @@ msgstr "Перетворення кольору на альфу (канал пр
 
 #: ../../tutorials/flat-coloring.rst:166
 msgid "By far the fastest way to get transparent lineart."
-msgstr ""
+msgstr "У поточній версії, найшвидший спосіб створити прозору графіку."
 
 #: ../../tutorials/flat-coloring.rst:168
 msgid ""
@@ -564,7 +576,7 @@ msgstr ""
 
 #: ../../tutorials/flat-coloring.rst:184
 msgid "Colouring the image"
-msgstr ""
+msgstr "Розфарбовування зображення"
 
 #: ../../tutorials/flat-coloring.rst:186
 msgid ""

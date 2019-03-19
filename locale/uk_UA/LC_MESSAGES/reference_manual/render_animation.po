@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___render_animation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-14 03:27+0100\n"
-"PO-Revision-Date: 2019-02-19 19:46+0200\n"
+"PO-Revision-Date: 2019-03-18 20:58+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:1
 msgid "How to use the render animation command in Krita."
-msgstr ""
+msgstr "Як користуватися командою обробки анімації у Krita."
 
 #: ../../reference_manual/render_animation.rst:17
 #: ../../reference_manual/render_animation.rst:42
@@ -34,6 +34,9 @@ msgid ""
 "Render animation allows you to render your animation to an image sequence, "
 "gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` ."
 msgstr ""
+"Засіб обробки анімації надає вам змогу зберегти вашу анімацію як"
+" послідовність зображень, файл gif, mp4, mkv або ogg. Цей засіб замінив собою"
+" пункт меню :guilabel:`Експортувати анімацію`."
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
@@ -68,6 +71,8 @@ msgid ""
 "The base name of your image sequence. This will get suffixed with a number "
 "depending on the frame."
 msgstr ""
+"Базова назва вашої послідовності зображень. До цієї назви буде додано суфікс"
+" номера кадру."
 
 #: ../../reference_manual/render_animation.rst:30
 msgid "File Format"
@@ -78,6 +83,9 @@ msgid ""
 "The fileformat to export the sequence to. When rendering we enforce png. The "
 "usual export options can be modified with :guilabel:`...`."
 msgstr ""
+"Формат файлів для експортування послідовності зображень. Під час обробки буде"
+" примусово використано формат png. Змінити параметри експортування можна"
+" натисканням кнопки :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:32
 msgid "Render Location"
@@ -88,6 +96,8 @@ msgid ""
 "Where you render the image sequence to. Some people prefer to use a flash-"
 "drive or perhaps a harddrive that is fast."
 msgstr ""
+"Місце, куди слід зберегти послідовність зображень. Дехто надає перевагу"
+" флешці або швидкому диску."
 
 #: ../../reference_manual/render_animation.rst:34
 msgid "First Frame"
@@ -133,6 +143,8 @@ msgid ""
 "The file format to render to. All except gif have extra options that can be "
 "manipulated via :guilabel:`...`."
 msgstr ""
+"Формат файлів для обробки. Для усіх форматів, окрім gif, передбачено"
+" додаткові параметри, змінити які можна натисканням кнопки :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:46
 msgid "File"
@@ -173,7 +185,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "Налаштовування Krita на експортування анімацій"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -235,6 +247,9 @@ msgid ""
 "2.6 is required for proper gif support, as we use the palettegen "
 "functionality."
 msgstr ""
+"FFMPeg у більшості дистрибутивів Linux можна встановити зі сховищ пакунків."
+" Для забезпечення належної підтримки gif слід встановити принаймні версію"
+" 2.6, оскільки ми використовуємо можливості palettegen."
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
@@ -268,16 +283,22 @@ msgid ""
 "FFMpeg is, if installed from the repositories, usually found in ``/usr/bin/"
 "ffmpeg``"
 msgstr ""
+"FFMpeg, якщо пакунок встановлено зі сховищ пакунків, зазвичай, встановлюється"
+" як ``/usr/bin/"
+"ffmpeg``"
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "Крок 3 — тестування анімації"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
 "ffmpeg.exe is what Krita uses to do all of its animation export magic. Now "
 "that it is hooked up, let us test it out."
 msgstr ""
+"Для виконання усіх дій із експортування анімації Krita використовує"
+" ffmpeg.exe. Коли ми встановлено усі потрібні компоненти, варто виконати"
+" тестування."
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""

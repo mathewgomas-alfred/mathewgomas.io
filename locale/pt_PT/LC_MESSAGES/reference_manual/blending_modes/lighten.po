@@ -39,7 +39,10 @@ msgid ""
 "Page about the lighten blending modes in Krita: Color Dodge, Gamma Light, "
 "Hard Light, Lighten, Lighter Color, Linear Dodge, Linear Light, Pin Light, "
 "Screen, Soft Light and Vivid Light."
-msgstr "Página sobre os modos de mistura por aclaramento no Krita: Desvio de Cores, Gama da Luz, Luz Forte, Aclarar, Cor Mais Clara, Desvio Linear, Luz Linear, Luz Pontual, Ecrã, Luz Suave e Luz Viva."
+msgstr ""
+"Página sobre os modos de mistura por aclaramento no Krita: Desvio de Cores, "
+"Gama da Luz, Luz Forte, Aclarar, Cor Mais Clara, Desvio Linear, Luz Linear, "
+"Luz Pontual, Ecrã, Luz Suave e Luz Viva."
 
 #: ../../reference_manual/blending_modes/lighten.rst:15
 #: ../../reference_manual/blending_modes/lighten.rst:68
@@ -59,13 +62,19 @@ msgid ""
 "Similar to Divide. Inverts the top layer, and divides the lower layer by the "
 "inverted top layer. This results in a image with emphasized highlights, like "
 "Dodging would do in traditional darkroom photography."
-msgstr "Semelhante à Divisão. Inverte a camada de topo e divide a camada inferior pela camada de topo invertida. Isto resulta numa imagem com os tons claros realçados, como o Desvio de Cor iria fazer na fotografia tradicional em salas escuras."
+msgstr ""
+"Semelhante à Divisão. Inverte a camada de topo e divide a camada inferior "
+"pela camada de topo invertida. Isto resulta numa imagem com os tons claros "
+"realçados, como o Desvio de Cor iria fazer na fotografia tradicional em "
+"salas escuras."
 
 #: ../../reference_manual/blending_modes/lighten.rst:32
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Color_Dodge_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Color_Dodge_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Color_Dodge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:32
 msgid "Left: **Normal**. Right: **Color Dodge**."
@@ -83,7 +92,9 @@ msgstr "Devolve a camada superior como uma potência da camada inferior."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Gamma_Light_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Gamma_Light_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Gamma_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:45
 msgid "Left: **Normal**. Right: **Gamma Light**."
@@ -97,14 +108,20 @@ msgstr "Luz Forte"
 msgid ""
 "Similar to Overlay. A combination of the Multiply and Screen blending modes, "
 "switching between both at a middle-lightness."
-msgstr "Semelhante à Sobreposição. Uma combinação dos modos de Multiplicação e Ecrã; poderá mudar entre ambos no valor médio da luminosidade."
+msgstr ""
+"Semelhante à Sobreposição. Uma combinação dos modos de Multiplicação e Ecrã; "
+"poderá mudar entre ambos no valor médio da luminosidade."
 
 #: ../../reference_manual/blending_modes/lighten.rst:56
 msgid ""
 "Hard light checks if the colour on the upperlayer has a lightness above 0.5. "
 "Unlike overlay, if the pixel is lighter than 0.5,it is blended like in "
 "Multiply mode, if not the pixel is blended like in Screen mode."
-msgstr "A Luz Forte verifica se a cor na camada superior tem uma luminosidade superior a 0,5. Ao contrário da Sobreposição, se o pixel for mais claro que 0,5, será misturado como no modo de Multiplicação; caso contrário, será misturado como no modo de Ecrã."
+msgstr ""
+"A Luz Forte verifica se a cor na camada superior tem uma luminosidade "
+"superior a 0,5. Ao contrário da Sobreposição, se o pixel for mais claro que "
+"0,5, será misturado como no modo de Multiplicação; caso contrário, será "
+"misturado como no modo de Ecrã."
 
 #: ../../reference_manual/blending_modes/lighten.rst:58
 msgid "Effectively, this decreases contrast."
@@ -114,7 +131,9 @@ msgstr "Efectivamente, isto reduz o contraste."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Hard_Light_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Hard_Light_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Hard_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:63
 msgid "Left: **Normal**. Right: **Hard Light**."
@@ -125,13 +144,18 @@ msgid ""
 "With the darken, the upper layer's colors are checked for their lightness. "
 "Only if they are Lighter than the underlying color on the lower layer, will "
 "they be visible."
-msgstr "Com o escurecimento as cores da camada superior são analisadas na sua luminosidade. Só se forem mais claras que a cor subjacente da camada inferior é que ficarão visíveis."
+msgstr ""
+"Com o escurecimento as cores da camada superior são analisadas na sua "
+"luminosidade. Só se forem mais claras que a cor subjacente da camada "
+"inferior é que ficarão visíveis."
 
 #: ../../reference_manual/blending_modes/lighten.rst:75
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Lighten_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Lighten_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Lighten_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:75
 msgid "Left: **Normal**. Right: **Lighten**."
@@ -145,7 +169,9 @@ msgstr "Cor Mais Clara"
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Lighter_Color_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Lighter_Color_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Lighter_Color_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:85
 msgid "Left: **Normal**. Right: **Lighter Color**."
@@ -167,12 +193,16 @@ msgstr "Existe por questões de compatibilidade."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:100
 msgid ""
 "Left: **Normal**. Right: **Linear Dodge** (exactly the same as Addition)."
-msgstr "Esquerda: **Normal**. Direita: **Desvio Linear** (exactamente igual à Adição)."
+msgstr ""
+"Esquerda: **Normal**. Direita: **Desvio Linear** (exactamente igual à "
+"Adição)."
 
 #: ../../reference_manual/blending_modes/lighten.rst:105
 msgid "Linear Light"
@@ -187,13 +217,18 @@ msgid ""
 "Combines :ref:`bm_linear_dodge` and :ref:`bm_linear_burn`. When the "
 "lightness of the upper-pixel is higher than 0.5, it uses Linear dodge, if "
 "not, Linear burn to blend the pixels."
-msgstr "Combina o :ref:`bm_linear_dodge` com o :ref:`bm_linear_burn`. Quando a luminosidade do pixel superior for superior a 0,5, usa o Desvio Linear; caso contrário, aplica a Queimadura linear para misturar os pixels."
+msgstr ""
+"Combina o :ref:`bm_linear_dodge` com o :ref:`bm_linear_burn`. Quando a "
+"luminosidade do pixel superior for superior a 0,5, usa o Desvio Linear; caso "
+"contrário, aplica a Queimadura linear para misturar os pixels."
 
 #: ../../reference_manual/blending_modes/lighten.rst:114
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:114
 #: ../../reference_manual/blending_modes/lighten.rst:119
@@ -205,13 +240,17 @@ msgstr "Esquerda: **Normal**. Direita: **Luz Linear**."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Light_Light_blue_and_Orange.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Light_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Light_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:124
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Linear_Light_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Linear_Light_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Linear_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:129
 msgid "Pin Light"
@@ -222,13 +261,18 @@ msgid ""
 "Checks which is darker the lower layer's pixel or the upper layer's double "
 "so bright. Then checks which is brighter of that result or the inversion of "
 "the doubled lower layer."
-msgstr "Verifica qual é mais escuro entre o pixel da camada inferior e a superior em dobro. Depois verifica qual é mais brilhante entre esse resultado e a inversão da camada inferior em dobro."
+msgstr ""
+"Verifica qual é mais escuro entre o pixel da camada inferior e a superior em "
+"dobro. Depois verifica qual é mais brilhante entre esse resultado e a "
+"inversão da camada inferior em dobro."
 
 #: ../../reference_manual/blending_modes/lighten.rst:137
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:137
 #: ../../reference_manual/blending_modes/lighten.rst:142
@@ -240,13 +284,17 @@ msgstr "Esquerda: **Normal**. Direita: **Luz Pontual**."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Pin_Light_Light_blue_and_Orange.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Pin_Light_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Pin_Light_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:147
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Pin_Light_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Pin_Light_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Pin_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:152
 msgid "Screen"
@@ -260,18 +308,24 @@ msgstr "A nível de percepção, é o oposto da :ref:`bm_multiply`."
 msgid ""
 "Mathematically, Screen takes both layers, inverts them, then multiplies "
 "them, and finally inverts them again."
-msgstr "Matematicamente, o Ecrã recebe as duas camadas, inverte-as, depois multiplica-as e finalmente inverte-as de novo."
+msgstr ""
+"Matematicamente, o Ecrã recebe as duas camadas, inverte-as, depois "
+"multiplica-as e finalmente inverte-as de novo."
 
 #: ../../reference_manual/blending_modes/lighten.rst:158
 msgid ""
 "This results in light tones being more opaque and dark tones transparent."
-msgstr "Isto resulta nos tons claros ficarem mais opacos e os mais escuros ficarem mais transparentes."
+msgstr ""
+"Isto resulta nos tons claros ficarem mais opacos e os mais escuros ficarem "
+"mais transparentes."
 
 #: ../../reference_manual/blending_modes/lighten.rst:163
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Screen_Gray_0.4_and_Gray_0.5."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Screen_Gray_0.4_and_Gray_0.5."
+"png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:163
 #: ../../reference_manual/blending_modes/lighten.rst:168
@@ -283,13 +337,17 @@ msgstr "Esquerda: **Normal**. Direita: **Ecrã**."
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Screen_Light_blue_and_Orange."
 "png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Screen_Light_blue_and_Orange.png"
+msgstr ""
+".. image:: images/blending_modes/Blending_modes_Screen_Light_blue_and_Orange."
+"png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:173
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Screen_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Screen_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Screen_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:178
 msgid "Soft Light (Photoshop) & Soft Light SVG"
@@ -299,7 +357,9 @@ msgstr "Luz Suave (Photoshop) & Luz Suave SVG"
 msgid ""
 "These are less harsh versions of Hard Light, not resulting in full black or "
 "full white."
-msgstr "Estas são as versões menos marcantes da Luz Forte, resultando no preto total ou branco total."
+msgstr ""
+"Estas são as versões menos marcantes da Luz Forte, resultando no preto total "
+"ou branco total."
 
 #: ../../reference_manual/blending_modes/lighten.rst:182
 msgid ""
@@ -307,13 +367,19 @@ msgid ""
 "uses a slightly different bit of formula when the lightness of the lower "
 "pixel is lower than 25%, this prevents the strength of the brightness "
 "increase."
-msgstr "A versão em SVG é ligeiramente diferentes da versão em Photoshop na medida em que usa uma fórmula ligeiramente diferente, quando a luminosidade do pixel inferior for abaixo de 25%; isto impede que a potência do brilho aumente."
+msgstr ""
+"A versão em SVG é ligeiramente diferentes da versão em Photoshop na medida "
+"em que usa uma fórmula ligeiramente diferente, quando a luminosidade do "
+"pixel inferior for abaixo de 25%; isto impede que a potência do brilho "
+"aumente."
 
 #: ../../reference_manual/blending_modes/lighten.rst:187
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:187
 msgid "Left: **Normal**. Right: **Soft Light (Photoshop)**."
@@ -323,7 +389,9 @@ msgstr "Esquerda: **Normal**. Direita: **Luz Suave (Photoshop)**."
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:193
 msgid "Left: **Normal**. Right: **Soft Light (SVG)**."
@@ -351,13 +419,18 @@ msgstr ""
 msgid ""
 "This algorithm doesn't use color dodge and burn, we don't know WHAT it does "
 "do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`"
-msgstr "Este algoritmo não usa o desvio de cores e a queimadura; não sabemos o QUE faz mas, para o Desvio da Cor e a Queimadura, é necessário usar a :ref:`bm_hard_mix`"
+msgstr ""
+"Este algoritmo não usa o desvio de cores e a queimadura; não sabemos o QUE "
+"faz mas, para o Desvio da Cor e a Queimadura, é necessário usar a :ref:"
+"`bm_hard_mix`"
 
 #: ../../reference_manual/blending_modes/lighten.rst:211
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Vivid_Light_Sample_image_with_dots.png"
-msgstr ".. image:: images/blending_modes/Blending_modes_Vivid_Light_Sample_image_with_dots.png"
+msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Vivid_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:211
 msgid "Left: **Normal**. Right: **Vivid Light**."
