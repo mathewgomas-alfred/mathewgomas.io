@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-19 14:31+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,24 +17,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-IgnoreConsistency: Flow\n"
+"X-POFile-SpellExtra: en guilabel image TransformToolOptionsLiquify kbd\n"
+"X-POFile-SpellExtra: images alt TransformToolOptions\n"
+"X-POFile-SpellExtra: Kritatransformsperspective Kritatransformsrecursive\n"
+"X-POFile-SpellExtra: icons TransformToolOptionsWarp tooltransform\n"
+"X-POFile-SpellExtra: Kritatransformscage ref Kritatransformsfree\n"
+"X-POFile-SpellExtra: Kritatransformsdeformvsliquefy deformbrushengine\n"
+"X-POFile-SpellExtra: Kritatransformsliquefy Krita transformtool\n"
+"X-POFile-SpellExtra: Kritatransformswarp demãos\n"
 
 #: ../../<rst_epilog>:46
 msgid ""
 ".. image:: images/icons/transform_tool.svg\n"
 "   :alt: tooltransform"
 msgstr ""
+".. image:: images/icons/transform_tool.svg\n"
+"   :alt: ferramenta de transformação"
 
 #: ../../reference_manual/tools/transform.rst:1
 msgid "Krita's transform tool reference."
-msgstr ""
+msgstr "Referência à ferramenta de transformação do Krita."
 
 #: ../../reference_manual/tools/transform.rst:18
 msgid "Transform Tool"
-msgstr ""
+msgstr "Ferramenta de Transformação"
 
 #: ../../reference_manual/tools/transform.rst:20
 msgid "|tooltransform|"
-msgstr ""
+msgstr "|tooltransform|"
 
 #: ../../reference_manual/tools/transform.rst:22
 msgid ""
@@ -43,7 +53,7 @@ msgid ""
 "addition, you have the option to apply advanced transforms such as "
 "Perspective, Warp, Cage and Liquid. These are all powerful options and will "
 "give you complete control over your selections/layers."
-msgstr ""
+msgstr "A ferramenta de Transformação permite-lhe transformar rapidamente a selecção ou camada actual. As opções de transformação básicas incluem o dimensionamento, a rotação e a inclinação básicas. Para além disso, tem a opção de aplicar transformações avançadas, como a Perspectiva, a Envolvência e a Liquidificação. Estas são todas opções poderosas e dar-lhe-ão um controlo completo sobre as suas selecções/camadas."
 
 #: ../../reference_manual/tools/transform.rst:24
 msgid ""
@@ -52,42 +62,42 @@ msgid ""
 "rotations by moving the mouse above or to the left of the handles and "
 "dragging it. You can also click anywhere inside the selection or layer and "
 "move it by dragging the mouse."
-msgstr ""
+msgstr "Quando invocar da primeira vez a ferramenta, irão aparecer pegas nos cantos e lados, as quais poderá usar para dimensionar a sua selecção ou camada. Poderá efectuar rotações se mover o rato para cima ou para a esquerda das pegas e arrastando as mesmas. Também poderá carregar em qualquer lado dentro da selecção ou camada e movê-lo ao arrastar o rato."
 
 #: ../../reference_manual/tools/transform.rst:26
 msgid ""
 "You can fine-tune the transform tool parameters using tool options docker. "
 "The parameters are split between five tabs: Free Transform, Warp, "
 "Perspective, Cage and Liquify."
-msgstr ""
+msgstr "Poderá afinar os parâmetros da ferramenta de transformação com a área de opções da ferramenta. Os parâmetros são divididos entre cinco páginas: Transformação Livre, Fuga, Perspectiva, Envolvência e Liquidificação."
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid ".. image:: images/en/Transform_Tool_Options.png"
-msgstr ""
+msgstr ".. image:: images/en/Transform_Tool_Options.png"
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid "Free Transform docker"
-msgstr ""
+msgstr "Área de Transformação Livre"
 
 #: ../../reference_manual/tools/transform.rst:33
 msgid "Free transform"
-msgstr ""
+msgstr "Transformação livre"
 
 #: ../../reference_manual/tools/transform.rst:35
 msgid ""
 "This allows you to do basic rotation, resizing, flipping, and even "
 "perspective skewing if you hold :kbd:`Ctrl`.Holding the :kbd:`Shift` key "
 "will maintain your aspect ratio throughout the transform."
-msgstr ""
+msgstr "Isto permite-lhe fazer alguma rotação, dimensionamento, inversão e desvio em perspectiva básicos se mantiver pressionado o :kbd:`Ctrl`. Se mantiver carregada a tecla :kbd:`Shift`, irá manter as suas proporções ao longo da transformação."
 
 #: ../../reference_manual/tools/transform.rst:39
 msgid ".. image:: images/en/Krita_transforms_free.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_free.png"
 
 #: ../../reference_manual/tools/transform.rst:39
 #: ../../reference_manual/tools/transform.rst:67
 msgid "Free transform in action."
-msgstr ""
+msgstr "A transformação livre em acção."
 
 #: ../../reference_manual/tools/transform.rst:41
 msgid ""
@@ -95,13 +105,13 @@ msgid ""
 "vertically and rotating 90 degrees left and right. Furthermore, the button "
 "to the left of the anchor point widget allows you to choose whether to "
 "always transform using the anchor point, or not."
-msgstr ""
+msgstr "Se olhar para o fundo, existem botões rápidos para inverter na horizontal, na vertical e rodando em 90 graus para a esquerda e direita. Para além disso, o botão à esquerda do item do ponto da âncora permite-lhe escolher se deseja transformar sempre com base no ponto da âncora ou não."
 
 #: ../../reference_manual/tools/transform.rst:43
 msgid ""
 "`Video of how to use the anchor point for resizing. <https://www.youtube.com/"
 "watch?v=grzccBVd0O8>`_"
-msgstr ""
+msgstr "`Vídeo sobre o uso do ponto da âncora para o dimensionamento. <https://www.youtube.com/watch?v=grzccBVd0O8>`_"
 
 #: ../../reference_manual/tools/transform.rst:46
 msgid "Perspective"
@@ -112,21 +122,21 @@ msgid ""
 "While free transform has some perspective options, the perspective transform "
 "allows for maximum control. You can drag the corner points, or even the "
 "designated vanishing point."
-msgstr ""
+msgstr "Embora a transformação livre tenha algumas opções de perspectiva, a transformação em perspectiva permite o máximo de controlo. Poderá arrastar os pontos dos cantos ou até mesmo o ponto de fuga designado."
 
 #: ../../reference_manual/tools/transform.rst:50
 msgid ""
 "You can also change the size, shear and position transform while remaining "
 "in perspective with the tool-options."
-msgstr ""
+msgstr "Também poderá modificar o tamanho, a inclinação e a posição enquanto se mantém em perspectiva com as opções da ferramenta."
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid ".. image:: images/en/Krita_transforms_perspective.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_perspective.png"
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid "Perspective transform"
-msgstr ""
+msgstr "Transformação em perspectiva"
 
 #: ../../reference_manual/tools/transform.rst:57
 msgid "Warp"
@@ -136,26 +146,26 @@ msgstr "Fuga"
 msgid ""
 "Warp allows you to deform the image by dragging from a grid or choosing the "
 "dragging points yourself."
-msgstr ""
+msgstr "A Fuga permite-lhe deformar a imagem,, arrastando uma grelha ou escolhendo você mesmo os pontos do arrastamento."
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid ".. image:: images/en/Transform_Tool_Options_Warp.png"
-msgstr ""
+msgstr ".. image:: images/en/Transform_Tool_Options_Warp.png"
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid "Warp Option"
-msgstr ""
+msgstr "Opção de Fuga"
 
 #: ../../reference_manual/tools/transform.rst:67
 msgid ".. image:: images/en/Krita_transforms_warp.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_warp.png"
 
 #: ../../reference_manual/tools/transform.rst:69
 msgid ""
 "There's warp options: Rigid, Affine and Similtude. These change the "
 "algorithm used to determine the strength of the deformation. The flexibility "
 "determines, how strong the effect of moving these point are."
-msgstr ""
+msgstr "Existem as seguintes opções de fuga: Rígida, Afinidade, Semelhança. Estes alteram o algoritmo usado para determinar a potência da deformação. A flexibilidade define quão forte é o efeito de mover estes pontos."
 
 #: ../../reference_manual/tools/transform.rst:72
 msgid "Anchor Points"
@@ -163,7 +173,7 @@ msgstr "Pontos-Âncora"
 
 #: ../../reference_manual/tools/transform.rst:74
 msgid "You can divide these either by subdivision or drawing custom points."
-msgstr ""
+msgstr "Poderá dividir estes através de uma sub-divisão ou do desenho de pontos personalizados."
 
 #: ../../reference_manual/tools/transform.rst:76
 msgid "Subdivision"
@@ -171,7 +181,7 @@ msgstr "Sub-divisão"
 
 #: ../../reference_manual/tools/transform.rst:77
 msgid "This allows you to subdivide the selected area into a grid."
-msgstr ""
+msgstr "Isto permite-lhe subdividir a área seleccionada numa grelha."
 
 #: ../../reference_manual/tools/transform.rst:79
 msgid "Draw"
@@ -181,7 +191,7 @@ msgstr "Desenhar"
 msgid ""
 "Draw the anchor points yourself. Locking the points will put you in "
 "transform mode. Unlocking the points back into edit mode."
-msgstr ""
+msgstr "Desenhe os pontos da âncora você mesmo. Se bloquear os pontos, ficará no modo de transformação. Se desbloquear os pontos, voltará para o modo de edição."
 
 #: ../../reference_manual/tools/transform.rst:82
 msgid "Cage"
@@ -192,25 +202,25 @@ msgid ""
 "Create a cage around an image, and when it's closed, you can use it to "
 "deform the image. If you have at the least 3 points on the canvas, you can "
 "choose to switch between deforming and editing the existing points."
-msgstr ""
+msgstr "Cria uma envolvência sobre a imagem e, quando estiver fechada, podê-la-á usar para deformar a imagem. Se tiver pelo menos 3 pontos na área de desenho, poderá optar entre a deformação e a edição dos pontos existentes."
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid ".. image:: images/en/Krita_transforms_cage.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_cage.png"
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid "Transforming a straight banana to be curved with the cage tool"
-msgstr ""
+msgstr "Transformação de uma banana direita numa curvada com a ferramenta da envolvência"
 
 #: ../../reference_manual/tools/transform.rst:91
 msgid "Hotkeys"
-msgstr ""
+msgstr "Combinações de Teclas"
 
 #: ../../reference_manual/tools/transform.rst:93
 msgid ""
 "Both Cage and Warp use little nodes. These nodes can be selected and "
 "deselected together by pressing :kbd:`Ctrl` before clicking nodes."
-msgstr ""
+msgstr "Tanto o modo de Envolvência como o de Fuga usam pequenos nós. Estes podem ser seleccionados e deseleccionados em conjunto se carregar no :kbd:`Ctrl` antes de carregar nos nós."
 
 #: ../../reference_manual/tools/transform.rst:95
 msgid ""
@@ -218,21 +228,21 @@ msgid ""
 "Rotating is done by pressing and dragging the cursor outside the bounding "
 "box and scaling the same, only one presses :kbd:`Ctrl` before doing the "
 "motion."
-msgstr ""
+msgstr "Depois podê-los-á mover, carregando o cursor dentro da área envolvente. A rotação é feita ao carregar e arrastar o cursor para fora da área envolvente e a mudança de escala é igual, com a diferença que o utilizador carrega em :kbd:`Ctrl` antes de efectuar o movimento."
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Liquify"
-msgstr "Liquidificar"
+msgstr "Liquidificação"
 
 #: ../../reference_manual/tools/transform.rst:103
 msgid ".. image:: images/en/Transform_Tool_Options_Liquify.png"
-msgstr ""
+msgstr ".. image:: images/en/Transform_Tool_Options_Liquify.png"
 
 #: ../../reference_manual/tools/transform.rst:104
 msgid ""
 "Like our deform brush, the liquify brush allows you to draw the deformations "
 "straight on the canvas."
-msgstr ""
+msgstr "Como o nosso pincel de deformação, o pincel de liquidificação permite-lhe desenhar as deformações a direito na área de desenho."
 
 #: ../../reference_manual/tools/transform.rst:106
 msgid "Move"
@@ -240,7 +250,7 @@ msgstr "Mover"
 
 #: ../../reference_manual/tools/transform.rst:107
 msgid "Drag the image along the brush stroke."
-msgstr ""
+msgstr "Arrasta a imagem ao longo do traço do pincel."
 
 #: ../../reference_manual/tools/transform.rst:108
 msgid "Scale"
@@ -248,7 +258,7 @@ msgstr "Escala"
 
 #: ../../reference_manual/tools/transform.rst:109
 msgid "Grow/Shrink the image under the cursor."
-msgstr ""
+msgstr "Aumenta/diminui a imagem debaixo do cursor."
 
 #: ../../reference_manual/tools/transform.rst:110
 msgid "Rotate"
@@ -256,7 +266,7 @@ msgstr "Rodar"
 
 #: ../../reference_manual/tools/transform.rst:111
 msgid "Twirl the image under the cursor"
-msgstr ""
+msgstr "Rodar a imagem sob o cursor"
 
 #: ../../reference_manual/tools/transform.rst:112
 msgid "Offset"
@@ -264,7 +274,7 @@ msgstr "Posição"
 
 #: ../../reference_manual/tools/transform.rst:113
 msgid "Shift the image under the cursor."
-msgstr ""
+msgstr "Desloca a imagem sob o cursor."
 
 #: ../../reference_manual/tools/transform.rst:115
 msgid "Undo"
@@ -272,19 +282,19 @@ msgstr "Desfazer"
 
 #: ../../reference_manual/tools/transform.rst:115
 msgid "Erases the actions of other tools."
-msgstr ""
+msgstr "Apaga as acções das outras ferramentas."
 
 #: ../../reference_manual/tools/transform.rst:119
 msgid ".. image:: images/en/Krita_transforms_liquefy.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_liquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:119
 msgid "Liquify used to turn an apple into a pear"
-msgstr ""
+msgstr "Uso da liquidificação para transformar uma maçã numa pêra"
 
 #: ../../reference_manual/tools/transform.rst:121
 msgid "In the options for each brush there are:"
-msgstr ""
+msgstr "Nas opções de cada pincel existe:"
 
 #: ../../reference_manual/tools/transform.rst:123
 msgid "Mode"
@@ -295,7 +305,7 @@ msgid ""
 "This is either :guilabel:`Wash` or :guilabel:`Build up`. :guilabel:`Wash` "
 "will normalize the effect to be between none, and the amount parameter as "
 "maximum. :guilabel:`Build up` will just add on until it's impossible."
-msgstr ""
+msgstr "Este poderá ser por :guilabel:`Lavagem` ou :guilabel:`Composição`. A :guilabel:`Lavagem` irá normalizar o efeito entre um valor nulo e o parâmetro de quantidade como valor máximo. A :guilabel:`Composição` simplesmente irá adicionar até que seja impossível."
 
 #: ../../reference_manual/tools/transform.rst:125
 msgid "Size"
@@ -305,7 +315,7 @@ msgstr "Tamanho"
 msgid ""
 "The brush size. The button to the right allow you to let it scale with "
 "pressure."
-msgstr ""
+msgstr "O tamanho do pincel. O botão à direita permite-lhe ajustar a escala de acordo com a pressão."
 
 #: ../../reference_manual/tools/transform.rst:127
 msgid "Amount"
@@ -315,15 +325,15 @@ msgstr "Quantidade"
 msgid ""
 "The strength of the brush. The button to the right lets it scale with tablet "
 "pressure."
-msgstr ""
+msgstr "A potência do pincel. O botão à direita permite-lhe ajustar a escala de acordo com a pressão da tablete."
 
 #: ../../reference_manual/tools/transform.rst:129
 msgid "Flow"
-msgstr "Flow"
+msgstr "Fluxo"
 
 #: ../../reference_manual/tools/transform.rst:130
 msgid "Only applicable with :guilabel:`Build up`."
-msgstr ""
+msgstr "Só se aplica com a :guilabel:`Composição`."
 
 #: ../../reference_manual/tools/transform.rst:131
 msgid "Spacing"
@@ -331,7 +341,7 @@ msgstr "Espaço"
 
 #: ../../reference_manual/tools/transform.rst:132
 msgid "The spacing of the liquify dabs."
-msgstr ""
+msgstr "O espaço entre demãos da liquidificação."
 
 #: ../../reference_manual/tools/transform.rst:134
 msgid "Reverse"
@@ -341,15 +351,15 @@ msgstr "Inversa"
 msgid ""
 "Reverses the action, so grow becomes shrink, rotate results in clockwise "
 "becoming counter-clockwise."
-msgstr ""
+msgstr "Inverte a acção, de modo que o crescimento transforma-se em redução, a rotação no sentido dos ponteiros do relógio passa a ser no sentido inverso."
 
 #: ../../reference_manual/tools/transform.rst:138
 msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:138
 msgid "liquify on the left and deform brush on the right."
-msgstr ""
+msgstr "liquidificação à esquerda e pincel de deformação à direita."
 
 #: ../../reference_manual/tools/transform.rst:140
 msgid ""
@@ -358,37 +368,37 @@ msgid ""
 "little faster, note that it speeds up with the less information it needs to "
 "process, so working with liquefy within a selection or using liquefy on a "
 "separate layer with little on it will greatly enhance the speed."
-msgstr ""
+msgstr "O Krita também tem um :ref:`deform_brush_engine`, que é muito mais rápido que a liquidificação, mas com menor qualidade. Se estiver a tentar tornar a liquidificação um pouco mais rápida, lembre-se que ela acelera mais quanto menor for a informação que precisa de processar; como tal, trabalhar com a liquidificação dentro de uma selecção ou usar a liquidificação sobre uma camada separada com pouca informação nela, irá aumentar em grande medida a velocidade."
 
 #: ../../reference_manual/tools/transform.rst:143
 msgid "Recursive Transform"
-msgstr ""
+msgstr "Transformação Recursiva"
 
 #: ../../reference_manual/tools/transform.rst:144
 msgid ""
 "The little spider icon on the lower-left of the transform tool options is "
 "the :guilabel:`Recursive Transform`."
-msgstr ""
+msgstr "O pequeno ícone da aranha, no extremo inferior-esquerdo das opções da ferramenta de transformação é a :guilabel:`Transformação Recursiva`."
 
 #: ../../reference_manual/tools/transform.rst:148
 msgid ".. image:: images/en/Krita_transforms_recursive.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_recursive.png"
 
 #: ../../reference_manual/tools/transform.rst:148
 msgid ""
 "Recursive transform transforms all the layers in the group, so with this "
 "apple, both the lineart as the fill will be transformed."
-msgstr ""
+msgstr "A transformação recursiva transforma todas as camadas num grupo; por isso, com esta maçã, tanto os desenhos das linhas como o preenchimento serão transformados."
 
 #: ../../reference_manual/tools/transform.rst:150
 msgid ""
 "Recursive transform, when toggled, allows you to mass-transform all the "
 "layers in a group when only transforming the group."
-msgstr ""
+msgstr "A transformação recursiva, quando for activada, permite-lhe transformar em massa todas as camadas num grupo quando só estiver a transformar o grupo."
 
 #: ../../reference_manual/tools/transform.rst:153
 msgid "Continuous Transform"
-msgstr ""
+msgstr "Transformação Contínua"
 
 #: ../../reference_manual/tools/transform.rst:155
 msgid ""
@@ -397,7 +407,7 @@ msgid ""
 "continue it. This is the *continuous transform*. You can press :kbd:`Esc` to "
 "cancel this and start a new transform, or press :guilabel:`Reset` in the "
 "tool options while no transform is active."
-msgstr ""
+msgstr "Se aplicar uma transformaçaõ, e tentar iniciar directamente uma nova a seguir, o Krita irá tentar invocar de novo a transformação anterior, para que a possa retomar. Esta é a *transformação contínua*. Poderá carregar em :kbd:`Esc` para cancelar esta e iniciar uma nova, ou carregar em :guilabel:`Reiniciar` nas opções da ferramenta enquanto não estiver activa nenhuma transformação."
 
 #: ../../reference_manual/tools/transform.rst:158
 msgid "Transformation Masks"
@@ -407,4 +417,4 @@ msgstr "Máscaras de Transformação"
 msgid ""
 "These allow you make non-destructive transforms, check :ref:`here "
 "<transformation_masks>` for more info."
-msgstr ""
+msgstr "Isto permite-lhe fazer transformações não destrutivas; consulte mais informações :ref:`aqui <transformation_masks>`."

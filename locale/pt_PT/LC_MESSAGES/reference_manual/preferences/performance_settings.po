@@ -44,7 +44,10 @@ msgid ""
 "These preferences allow you to configure :program:`Krita's` organisation, "
 "but all do require you to restart :program:`Krita`, so it can do this "
 "organisation properly."
-msgstr "Estas preferências permitem-lhe configurar a organização do :program:`Krita'`, mas todas elas obrigam a que reinicie o :program:`Krita`, para que possa fazer esta organização de forma adequada."
+msgstr ""
+"Estas preferências permitem-lhe configurar a organização do :program:"
+"`Krita'`, mas todas elas obrigam a que reinicie o :program:`Krita`, para que "
+"possa fazer esta organização de forma adequada."
 
 #: ../../reference_manual/preferences/performance_settings.rst:23
 msgid "RAM"
@@ -68,7 +71,12 @@ msgid ""
 "dedicate to :program:`Krita`. :program:`Krita` will then reserve them on "
 "start-up. This does mean that if you change any of the given options, you "
 "need to restart :program:`Krita` so it can make this reservation."
-msgstr "Esta configuração permite-lhe escolher quanta da sua secretária virtual irá dedicar ao :program:`Krita`. O :program:`Krita` irá então reservar esse espaço no arranque. Isto significa que, se alterar alguma das opçẽos indicadas, terá de reiniciar o :program:`Krita` para que possa fazer essa reserva."
+msgstr ""
+"Esta configuração permite-lhe escolher quanta da sua secretária virtual irá "
+"dedicar ao :program:`Krita`. O :program:`Krita` irá então reservar esse "
+"espaço no arranque. Isto significa que, se alterar alguma das opçẽos "
+"indicadas, terá de reiniciar o :program:`Krita` para que possa fazer essa "
+"reserva."
 
 #: ../../reference_manual/preferences/performance_settings.rst:29
 msgid "Memory Limit"
@@ -108,14 +116,21 @@ msgid ""
 "you spending more time looking for a place where you will put the new layer "
 "or that reference you just took out of the storage. This happens for :"
 "program:`Krita` as well, making it slower."
-msgstr "No lado oposto, ao não reservar nenhum espaço para a sua área de desenho, fará com que você perca mais tempo à procura de um local onde irá colcoar a nova camada ou essa referência que foi buscar ao armazenamento. Isto também acontece com o :program:`Krita`, tornando-o mais lento."
+msgstr ""
+"No lado oposto, ao não reservar nenhum espaço para a sua área de desenho, "
+"fará com que você perca mais tempo à procura de um local onde irá colcoar a "
+"nova camada ou essa referência que foi buscar ao armazenamento. Isto também "
+"acontece com o :program:`Krita`, tornando-o mais lento."
 
 #: ../../reference_manual/preferences/performance_settings.rst:38
 msgid ""
 "This is recommended to be a size of one layer of your image, e.g. if you "
 "usually paint on the image of 3000x3000x8bit-ARGB, the pool should be "
 "something like 36 MiB."
-msgstr "Recomenda-se que seja o tamanho de uma camada da sua imagem; p.ex., se normalmente pinta sobre uma imagem de 3000 x 3000 x 8bits-ARGB, o espaço deverá ser algo equivalente a 36 MiB."
+msgstr ""
+"Recomenda-se que seja o tamanho de uma camada da sua imagem; p.ex., se "
+"normalmente pinta sobre uma imagem de 3000 x 3000 x 8bits-ARGB, o espaço "
+"deverá ser algo equivalente a 36 MiB."
 
 #: ../../reference_manual/preferences/performance_settings.rst:39
 msgid "Internal Pool"
@@ -125,7 +140,9 @@ msgstr "Espaço Interno"
 msgid ""
 "As :program:`Krita` does this on start-up, you will need to restart :program:"
 "`Krita` to have this change affect anything."
-msgstr "Dado que o :program:`Krita` faz isto no arranque, terá de reiniciar o :program:`Krita` para ter esta alteração a afectar tudo."
+msgstr ""
+"Dado que o :program:`Krita` faz isto no arranque, terá de reiniciar o :"
+"program:`Krita` para ter esta alteração a afectar tudo."
 
 #: ../../reference_manual/preferences/performance_settings.rst:42
 msgid ""
@@ -168,7 +185,12 @@ msgid ""
 "Location can make a difference, for example, Solid State Drives (SSD) are "
 "faster than Hard Disk Drives (HDD). Some people even like to use USB-sticks "
 "for the swap file location."
-msgstr "Isto define onde será guardado o Ficheiro de Memória Virtual no seu disco rígido. A localização poderá fazer toda a diferença;  por exemplo, os Discos de Estado Sólido (SSD) são mais rápidos que os Discos Rígidos Mecânicos (HDD). Algumas pessoas até preferem usar cartões USB para a localização do ficheiro de memória virtual."
+msgstr ""
+"Isto define onde será guardado o Ficheiro de Memória Virtual no seu disco "
+"rígido. A localização poderá fazer toda a diferença;  por exemplo, os Discos "
+"de Estado Sólido (SSD) são mais rápidos que os Discos Rígidos Mecânicos "
+"(HDD). Algumas pessoas até preferem usar cartões USB para a localização do "
+"ficheiro de memória virtual."
 
 #: ../../reference_manual/preferences/performance_settings.rst:54
 msgid "Advanced"
@@ -182,7 +204,10 @@ msgstr "Multitarefa"
 msgid ""
 "Since 4.0, Krita supports multithreading for the animation cache and "
 "handling the drawing of brush tips when using the pixel brush."
-msgstr "Desde o 4.0, o Krita tem suporte multi-tarefa para a 'cache' de animações e para tratar do desenho das pontas do pincel, quando é usado o pincel de pixels."
+msgstr ""
+"Desde o 4.0, o Krita tem suporte multi-tarefa para a 'cache' de animações e "
+"para tratar do desenho das pontas do pincel, quando é usado o pincel de "
+"pixels."
 
 #: ../../reference_manual/preferences/performance_settings.rst:61
 msgid "CPU Limit"
@@ -190,7 +215,9 @@ msgstr "Limite do CPU"
 
 #: ../../reference_manual/preferences/performance_settings.rst:62
 msgid "The amount of cores you want to allow Krita to use when multithreading."
-msgstr "O número de núcleos do CPU que deseja permitir que o Krita use quando executar várias tarefas."
+msgstr ""
+"O número de núcleos do CPU que deseja permitir que o Krita use quando "
+"executar várias tarefas."
 
 #: ../../reference_manual/preferences/performance_settings.rst:64
 msgid "Frame Rendering Clones Limit"
@@ -226,7 +253,8 @@ msgstr "Registo de depuração da taxa de imagens do OpenGL"
 
 #: ../../reference_manual/preferences/performance_settings.rst:71
 msgid "Will show the canvas framerate on the canvas when active."
-msgstr "Irá mostrar a taxa de imagens na área de desenho, quando estiver activa."
+msgstr ""
+"Irá mostrar a taxa de imagens na área de desenho, quando estiver activa."
 
 #: ../../reference_manual/preferences/performance_settings.rst:72
 msgid "Debug logging for brush rendering speed."
@@ -235,7 +263,9 @@ msgstr "Depuração do registo para a velocidade de desenho do pincel."
 #: ../../reference_manual/preferences/performance_settings.rst:73
 msgid ""
 "Will show numbers indicating how fast the last brush stroke was on canvas."
-msgstr "Irá mostrar números que indicam quão rápido foi o último traço do pincel na área de desenho."
+msgstr ""
+"Irá mostrar números que indicam quão rápido foi o último traço do pincel na "
+"área de desenho."
 
 #: ../../reference_manual/preferences/performance_settings.rst:74
 msgid "Disable vector optimizations (for AMD CPUs)"
@@ -267,7 +297,10 @@ msgid ""
 "This enables performance logging, which is then saved to the ``Log`` folder "
 "in your ``working directory``. Your working directory is where the auto save "
 "is saved at as well."
-msgstr "Isto acitva o registo de perforamamce, o qual será então gravado na pasta ``Log`` da sua ``pasta de trabalho``. A sua pasta de trabalho será onde é feita também a gravação automática."
+msgstr ""
+"Isto acitva o registo de perforamamce, o qual será então gravado na pasta "
+"``Log`` da sua ``pasta de trabalho``. A sua pasta de trabalho será onde é "
+"feita também a gravação automática."
 
 #: ../../reference_manual/preferences/performance_settings.rst:81
 msgid "Performance logging"
@@ -277,7 +310,9 @@ msgstr "Registo da performance"
 msgid ""
 "So for unnamed files, this is the ``$home`` folder in Linux, and the ``%TEMP"
 "%`` folder in windows."
-msgstr "Igual, mas para ficheiros sem nome; esta é a pasta ``$home`` no Linux e a pasta ``%TEMP%`` no Windows."
+msgstr ""
+"Igual, mas para ficheiros sem nome; esta é a pasta ``$home`` no Linux e a "
+"pasta ``%TEMP%`` no Windows."
 
 #: ../../reference_manual/preferences/performance_settings.rst:84
 msgid "Animation Cache"
@@ -287,7 +322,10 @@ msgstr "'Cache' da Animação"
 msgid ""
 "The animation cache is the space taken up by animation frames in the memory "
 "of the computer. A cache in this sense is a cache of precalculated images."
-msgstr "A 'cache' de animações é o espaço ocupado pelas imagens de uma dada animação na memória do computador. Uma 'cache', neste sentido, é uma 'cache' de imagens pré-calculadas."
+msgstr ""
+"A 'cache' de animações é o espaço ocupado pelas imagens de uma dada animação "
+"na memória do computador. Uma 'cache', neste sentido, é uma 'cache' de "
+"imagens pré-calculadas."
 
 #: ../../reference_manual/preferences/performance_settings.rst:90
 msgid ""
@@ -328,11 +366,15 @@ msgstr ""
 msgid ""
 "Please make sure your computer has enough RAM *above* the amount you "
 "requested in the general tab. Otherwise you might face system freezes."
-msgstr "Por favor, certifique-se que o seu computador tem RAM suficiente *acima* do valor pedido na página Geral. Caso contrário, poderá obter bloqueios do sistema."
+msgstr ""
+"Por favor, certifique-se que o seu computador tem RAM suficiente *acima* do "
+"valor pedido na página Geral. Caso contrário, poderá obter bloqueios do "
+"sistema."
 
 #: ../../reference_manual/preferences/performance_settings.rst:104
 msgid "For 1 second of FullHD @ 25 FPS you will need 200 extra MiB of Memory"
-msgstr "Para 1 segundo de FullHD @ 25 IPS, irá precisar de 200 MiB extra de memória"
+msgstr ""
+"Para 1 segundo de FullHD @ 25 IPS, irá precisar de 200 MiB extra de memória"
 
 #: ../../reference_manual/preferences/performance_settings.rst:105
 msgid "In-memory"
@@ -341,14 +383,19 @@ msgstr "Na memória"
 #: ../../reference_manual/preferences/performance_settings.rst:105
 msgid ""
 "For 1 second of 4K UltraHD@ 25 FPS, you will need 800 extra MiB of Memory."
-msgstr "Para 1 segundo de UltraHD 4K @ 25 IPS, irá precisar de 800 MiB extra de memória"
+msgstr ""
+"Para 1 segundo de UltraHD 4K @ 25 IPS, irá precisar de 800 MiB extra de "
+"memória"
 
 #: ../../reference_manual/preferences/performance_settings.rst:108
 msgid ""
 "Animation frames are stored in the hard disk in the same folder as the swap "
 "file. The cache is stored in a compressed way. A little amount of extra RAM "
 "is needed."
-msgstr "As imagens da animação são guardadas no disco rígido, na mesma pasta que o ficheiro de memória virtual. A 'cache' é guardada de forma comprimida. Também é necessária uma pequena quantidade de RAM extra."
+msgstr ""
+"As imagens da animação são guardadas no disco rígido, na mesma pasta que o "
+"ficheiro de memória virtual. A 'cache' é guardada de forma comprimida. "
+"Também é necessária uma pequena quantidade de RAM extra."
 
 #: ../../reference_manual/preferences/performance_settings.rst:110
 msgid "On-disk"
@@ -359,7 +406,11 @@ msgid ""
 "Since data transfer speed of the hard drive is slow. You might want to limit "
 "the :guilabel:`Cached Frame Size` to be able to play your video at 25 fps. A "
 "limit of 2500 px is usually a good choice."
-msgstr "Dado que a velocidade de transferência dos dados do disco rígido é lenta, poderá querer limitar o :guilabel:`Tamanho das Imagens em 'Cache'` para poder reproduzir o seu vídeo a 25 imagens por segundo. Um limite de 2500 px é normalmente uma boa escolha."
+msgstr ""
+"Dado que a velocidade de transferência dos dados do disco rígido é lenta, "
+"poderá querer limitar o :guilabel:`Tamanho das Imagens em 'Cache'` para "
+"poder reproduzir o seu vídeo a 25 imagens por segundo. Um limite de 2500 px "
+"é normalmente uma boa escolha."
 
 #: ../../reference_manual/preferences/performance_settings.rst:113
 msgid "Cache Generation Options"

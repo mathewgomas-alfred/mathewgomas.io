@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 17:03+0100\n"
+"PO-Revision-Date: 2019-03-19 12:02+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
 msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
@@ -37,28 +37,37 @@ msgid ""
 "Bit depth basically refers to the amount of working memory per pixel you "
 "reserve for an image."
 msgstr ""
+"Bitdiepte verwijst in feite naar de hoeveelheid werkgeheugen per pixel die "
+"u reserveert voor een afbeelding."
 
 #: ../../general_concepts/colors/bit_depth.rst:19
 msgid ""
 "Like how having a A2 paper in real life can allow for much more detail in "
 "the end drawing, it does take up more of your desk than a simple A4 paper."
 msgstr ""
+"Zoals het hebben van een A2 papiervel in het echt die in staat stelt veel "
+"meer detail in de eindtekening te stoppen, het neemt meer van uw bureau "
+"dan een eenvoudig A4 papierblad."
 
 #: ../../general_concepts/colors/bit_depth.rst:21
 msgid ""
 "However, this does not just refer to the size of the image, but also how "
 "much precision you need per colour."
 msgstr ""
+"Dit verwijst niet alleen naar de grootte van de afbeelding, maar ook hoeveel "
+"precisie u nodig hebt per kleur."
 
 #: ../../general_concepts/colors/bit_depth.rst:23
 msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
 msgstr ""
+"Om dit te illustreren zal ik het kort hebben over iets dat zelfs niet "
+"in Krita beschikbaar is:"
 
 #: ../../general_concepts/colors/bit_depth.rst:26
 msgid "Indexed Colour."
-msgstr ""
+msgstr "Geïndexeerde kleur."
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -66,6 +75,9 @@ msgid ""
 "contains a number for each color. The palette size is defined in bits, "
 "because the computer can only store data in bit-sizes."
 msgstr ""
+"In oudere programma's had de computer per afbeelding, een palet dat "
+"een aantal voor elke kleur bezat. De paletgrootte is gedefinieerd in "
+"bits, omdat de computer gegevens alleen in bit-groottes kan opslaan."
 
 #: ../../general_concepts/colors/bit_depth.rst:36
 msgid "1bit"
@@ -73,17 +85,19 @@ msgstr "1 bit"
 
 #: ../../general_concepts/colors/bit_depth.rst:37
 msgid "Only two colors in total, usually black and white."
-msgstr ""
+msgstr "Slechts twee kleuren in totaal, gewoonlijk zwart en wit."
 
 #: ../../general_concepts/colors/bit_depth.rst:38
 msgid "4bit (16 colors)"
-msgstr ""
+msgstr "4bits (16 kleuren)"
 
 #: ../../general_concepts/colors/bit_depth.rst:39
 msgid ""
 "16 colors in total, these are famous as many early games were presented in "
 "this color palette."
 msgstr ""
+"16 kleuren in totaal, deze zijn beroemd omdat veel vroege spellen "
+"gepresenteerd werden in dit kleurpalet."
 
 #: ../../general_concepts/colors/bit_depth.rst:41
 msgid "8bit"
@@ -104,11 +118,11 @@ msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:46
 msgid "Real Color"
-msgstr ""
+msgstr "Echte kleur"
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Rgbcolorcube_3.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ""
@@ -120,7 +134,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:54
 msgid "4bit per channel (not supported by Krita)"
-msgstr ""
+msgstr "4 bits per kanaal (niet ondersteund door Krita)"
 
 #: ../../general_concepts/colors/bit_depth.rst:55
 msgid ""

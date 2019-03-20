@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___lighten\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___lighten"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-03 15:54+0200\n"
+"PO-Revision-Date: 2019-03-19 21:30+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -91,6 +91,9 @@ msgid ""
 "Similar to Overlay. A combination of the Multiply and Screen blending modes, "
 "switching between both at a middle-lightness."
 msgstr ""
+"Подібний до «Накладання». Поєднання режимі змішування «Множення» та «Екран»"
+" із перемиканням між"
+" режимами на середньому значенні освітленості."
 
 #: ../../reference_manual/blending_modes/lighten.rst:56
 msgid ""
@@ -121,6 +124,9 @@ msgid ""
 "Only if they are Lighter than the underlying color on the lower layer, will "
 "they be visible."
 msgstr ""
+"При застосуванні ефекту потемнішання виконується перевірка освітленості"
+" кольорів верхнього шару. Ці кольори будуть видимими, лише якщо вони є"
+" світлішими за кольори нижнього шару."
 
 #: ../../reference_manual/blending_modes/lighten.rst:75
 msgid ""
@@ -281,6 +287,8 @@ msgstr ""
 msgid ""
 "This results in light tones being more opaque and dark tones transparent."
 msgstr ""
+"Використання цього режиму змішування призводить до того, що світлі тони"
+" стають більш непрозорими, а темні — прозорими."
 
 #: ../../reference_manual/blending_modes/lighten.rst:163
 msgid ""
@@ -369,6 +377,9 @@ msgid ""
 "layer is darker than 50%, the blending mode will be Burn, if not the "
 "blending mode will be Color Dodge."
 msgstr ""
+"Поєднує режими висвітлювання кольорів та вигоряння. Якщо колір верхнього шару"
+" є темнішим за 50%, режимом змішування буде «вигоряння», а якщо ні —"
+" «висвітлювання кольорів»."
 
 #: ../../reference_manual/blending_modes/lighten.rst:206
 msgid ""

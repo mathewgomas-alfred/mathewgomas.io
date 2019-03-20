@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___dockers___animation_curve\n"
+"Project-Id-Version: docs_krita_org_reference_manual___dockers___animation_curv"
+"e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-21 14:06+0200\n"
+"PO-Revision-Date: 2019-03-19 12:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -42,6 +42,9 @@ msgid ""
 "The Animation Curve docker allows you to edit tweened sections by means of "
 "interpolation curves. As of this time of writing, it can only edit opacity."
 msgstr ""
+"За допомогою бічної панелі кривих анімації ви можете редагувати проміжні"
+" кадри анімації на основі кривих інтерполяції (наближення). На момент"
+" написання цього розділу можна було редагувати лише непрозорість."
 
 #: ../../reference_manual/dockers/animation_curve.rst:19
 msgid ""
@@ -82,26 +85,28 @@ msgid ""
 "If you select a dot of the curve, you can move it around to shift its place "
 "in the time-line or its value."
 msgstr ""
+"Після позначення точки на кривій ви можете пересувати її з метою зміни"
+" розташування на шкалі часу або значення."
 
 #: ../../reference_manual/dockers/animation_curve.rst:32
 msgid "On the top, you can select the method of smoothing:"
-msgstr ""
+msgstr "У верхній частині ви можете вибрати метод згладжування:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:34
 msgid "Hold Value"
-msgstr ""
+msgstr "Утримувати значення"
 
 #: ../../reference_manual/dockers/animation_curve.rst:35
 msgid "This keeps the value the same until there's a new keyframe."
-msgstr ""
+msgstr "Зберігає значення без змін, аж до нового ключового кадру."
 
 #: ../../reference_manual/dockers/animation_curve.rst:36
 msgid "Linear Interpolation (Default)"
-msgstr ""
+msgstr "Лінійна інтерполяція (типовий варіант)"
 
 #: ../../reference_manual/dockers/animation_curve.rst:37
 msgid "This gives a straight interpolation between two values."
-msgstr ""
+msgstr "Створює лінійну інтерполяцію між двома значеннями."
 
 #: ../../reference_manual/dockers/animation_curve.rst:39
 msgid "Custom interpolation"
@@ -119,6 +124,8 @@ msgid ""
 "So, for example, making a 100% opacity keyframe on frame 0 and a 0% opacity "
 "one on frame 24 gives the following result:"
 msgstr ""
+"Отже, наприклад, встановлення 100% непрозорості для ключового кадру 0 і 0%"
+" непрозорості для кадру 24 дає такий результат:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:44
 msgid ".. image:: images/en/Ghost_linear.gif"
@@ -154,11 +161,11 @@ msgstr ".. image:: images/en/Animation_curves_3.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:55
 msgid "The above shows an ease-in curve."
-msgstr ""
+msgstr "Вище показано криву із наростанням."
 
 #: ../../reference_manual/dockers/animation_curve.rst:57
 msgid "And convex/concave examples:"
-msgstr ""
+msgstr "І опуклі та увігнуті приклади:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:60
 msgid ".. image:: images/en/Ghost_concave_in-out.gif"
@@ -190,3 +197,5 @@ msgid ""
 "Opacity has currently 255 as maximum in the curve editor, as that's how "
 "opacity is stored internally"
 msgstr ""
+"У редакторі кривих значення непрозорості обмежено 255 через особливості"
+" зберігання цього значення на внутрішньому рівні у програмі."

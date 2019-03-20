@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-20 00:52+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: en image Kritamouseleft Colorglossexample images alt\n"
+"X-POFile-SpellExtra: Scumbling icons gif Colormix Colorscumble\n"
+"X-POFile-SpellExtra: Kritacpbmixing scumbling ref Smudging Colorsmudge\n"
+"X-POFile-SpellExtra: Glazing optionbrushtip Colorgloss optiontexture\n"
+"X-POFile-SpellExtra: glazing colorcategory Digicolormixer Krita\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -27,51 +32,51 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_1.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_1.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_2.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_2.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_3.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_3.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_4.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_4.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_mix.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_mix.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_smudge.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_smudge.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_scumble2.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_scumble2.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_scumble.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_scumble.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Krita_cpb_mixing.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Krita_cpb_mixing.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Digi_colormixer.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Digi_colormixer.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:1
 msgid "Color Mixing in a digital media."
-msgstr ""
+msgstr "Mistura de Cores em suportes digitais."
 
 #: ../../general_concepts/colors/color_mixing.rst:17
 msgid "Mixing Colors"
@@ -93,11 +98,11 @@ msgid ""
 "In both traditional and digital painting, mixing techniques can be divided "
 "into *two major categories*: let's call them **\"on-canvas\"** and **\"off-"
 "canvas\"**."
-msgstr ""
+msgstr "Tanto na pintura tradicional como na digital, as técnicas de mistura poder-se-ão dividir em *duas grandes categorias*: serão referidas como **\"na área de desenho\"** ou **\"fora da área de desenho\"**."
 
 #: ../../general_concepts/colors/color_mixing.rst:24
 msgid "On-Canvas Mixing"
-msgstr ""
+msgstr "Mistura na Área de Desenho"
 
 #: ../../general_concepts/colors/color_mixing.rst:26
 msgid ""
@@ -112,7 +117,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_mixing.rst:29
 msgid "Glazing"
-msgstr ""
+msgstr "'Glazing' (Vitral)"
 
 #: ../../general_concepts/colors/color_mixing.rst:35
 msgid ""
@@ -121,7 +126,7 @@ msgid ""
 "painting we can also use glazing to mix colors directly on our canvas. This "
 "is one of the most fundamental and commonly used mixing techniques in "
 "digital painting."
-msgstr ""
+msgstr "Na pintura tradicional, o **glazing** ou vitral corresponde à sobreposição de diversas camadas semi-transparentes para criar misturas de cores na própria área de desenho. Da mesma forma, na pintura digital, podemos usar o vitral para misturar as cores directamente na nossa área de desenho. Esta é uma das técnicas de mistura mais fundamentais e normalmente usadas na pintura digital."
 
 #: ../../general_concepts/colors/color_mixing.rst:37
 msgid ""
@@ -139,25 +144,25 @@ msgid ""
 "a lower setting. Subtly different than opacity, :ref:`flow "
 "<option_opacity_n_flow>` is transparency per dab instead of stroke, and so "
 "it gives us softer strokes without giving up control."
-msgstr ""
+msgstr "Podemos misturar ainda mais facilmente com o vitral quando usamos o **fluxo** do nosso pincel com um valor mais baixo. Sendo ligeiramente diferente da opacidade, o :ref:`fluxo <option_opacity_n_flow>` é a transparência por demão em vez de ser por traço e, como tal, produz traços mais suaves sem perder o controlo."
 
 #: ../../general_concepts/colors/color_mixing.rst:41
 msgid ""
 "Furthermore, we can combine glazing with various **blending modes** to "
 "achieve different, interesting effects. For example, glazing with the "
 "**multiply** blending mode to create nice shadows:"
-msgstr ""
+msgstr "Para além disso, podemos combinar o efeito de vitral com vários **modos de mistura** para obter efeitos diferentes e interessantes. Por exemplo, o vitral com o modo de mistura por **multiplicação** para criar sombras interessantes:"
 
 #: ../../general_concepts/colors/color_mixing.rst:46
 msgid "Staring with line art and base colors."
-msgstr ""
+msgstr "Começar com desenhos de linhas e cores de base."
 
 #: ../../general_concepts/colors/color_mixing.rst:51
 msgid ""
 "Using a semi-transparent brush that's set to multiply, we can add colored "
 "layers to suggest shadows and mid-tones. The multiply blending mode will "
 "darken and interact with each base color differently."
-msgstr ""
+msgstr "Se usar um pincel semi-transparente configurado para multiplicação, podemos adicionar camadas coloridas para gerir sombras e tons intermédios. O modo de mistura por multiplicação irá escurecer e interagir com cada cor de base de forma diferente."
 
 #: ../../general_concepts/colors/color_mixing.rst:56
 msgid ""
@@ -165,18 +170,18 @@ msgid ""
 "and lay down more layers. Not only does this help you define the different "
 "planes and forms that are so crucial for creating a sense of depth and three-"
 "dimensionality, it also gives quite a nice, painterly effect!"
-msgstr ""
+msgstr "Depois, usando um pincel com um baixo fluxo (~0,30), podemos escolher as cores resultantes e dispor mais camadas. Não só isso o ajuda a definir os diferentes planos e formas que são tão cruciais para criar uma sensação de profundidade e tridimensionalidade, mas também nos dá um efeito bonito de pintura!"
 
 #: ../../general_concepts/colors/color_mixing.rst:62
 msgid ""
 "Continue with a lower opacity and flow to create even smoother gradients. "
 "Make your **edges** as sharp or smooth as your subject matter and art style "
 "demands!"
-msgstr ""
+msgstr "Continue com uma opacidade e um fluxo menores para criar gradientes ainda mais suaves. Torne as suas **arestas** tão vincadas ou suaves quanto exige a matéria do assunto ou do estilo artístico."
 
 #: ../../general_concepts/colors/color_mixing.rst:65
 msgid "Smudging"
-msgstr ""
+msgstr "'Smudging' (Mistura)"
 
 #: ../../general_concepts/colors/color_mixing.rst:71
 msgid ""
@@ -185,53 +190,53 @@ msgid ""
 "the color(s) under the brush. It's a very powerful type of brush that gives "
 "a lovely painterly effect. *Performance wise, it's a bit more demanding and "
 "slower than the regular pixel brush.*"
-msgstr ""
+msgstr "A **misutura de manchas** é feita com o :ref:`color_smudge_brush_engine`, um motor de pincéis especial que lhe permite misturar a cor do seu pincel actual com as cores debaixo do pincel. É um tipo de pincel muito poderoso que lhe origina um efeito de pintura bastante agradável. *A nível de performance, é um pouco mais exigente e mais lento que o pincel de pixels normal.*"
 
 #: ../../general_concepts/colors/color_mixing.rst:73
 msgid ""
 "If you *remove all paint from a smudge brush*, you get a simple-yet-powerful "
 "smudge effect:"
-msgstr ""
+msgstr "Se *remover toda a tinta de um pincel de manchas*, irá obter um efeito manchado simples mas poderoso:"
 
 #: ../../general_concepts/colors/color_mixing.rst:79
 msgid ""
 "Different smudge brushes have different effects, so be sure to try them all "
 "out!"
-msgstr ""
+msgstr "Os diferentes estilos de manchas têm diferentes efeitos; por isso, certifique-se que os experimenta a todos!"
 
 #: ../../general_concepts/colors/color_mixing.rst:82
 msgid "Scumbling"
-msgstr ""
+msgstr "'Scumbling' (Pintura Parcial)"
 
 #: ../../general_concepts/colors/color_mixing.rst:84
 msgid ""
 "**Scumbling** is similar to glazing, except instead of having a semi-opaque "
 "layer, we use layers of **textured** or **patterned** paint."
-msgstr ""
+msgstr "O **Scumbling** ou pintura parcial é semelhante ao vitral, com a diferença que em vez de ter uma camada semi-opaca, usamos camadas de tinta com **textura** ou **padrões**."
 
 #: ../../general_concepts/colors/color_mixing.rst:89
 msgid ""
 "Like most painting programs, Krita allows you to pick a :ref:"
 "`option_brush_tip`, which can be used to create a textured effect like that "
 "of scumbling."
-msgstr ""
+msgstr "Como na maioria dos programas de pintura, o Krita permite-lhe escolher uma :ref:`option_brush_tip`, a qual poderá ser usada para criar um efeito de textura semelhante ao do 'scumbling'."
 
 #: ../../general_concepts/colors/color_mixing.rst:95
 msgid ""
 "Krita's brush engines also allow you to use :ref:`option_texture`. This "
 "allows you to create interesting and stylized screentone-like effects."
-msgstr ""
+msgstr "Os motores de pincéis do Krita também lhe permitem usar a :ref:`option_texture`. Isto permite-lhe criar efeitos de tons de ecrã interessantes e com estilo."
 
 #: ../../general_concepts/colors/color_mixing.rst:97
 msgid ""
 "With glazing can get you pretty far when it comes to *defining planes and "
 "forms*, scumbling is the best method to *create texture and to break up big "
 "pasty flats* in your painting."
-msgstr ""
+msgstr "Com o 'glazing' ou vitral, poderá ir mais além no que diz respeito à *definição de planos e formas*, enquanto que o 'scumbling' é o melhor método para *criar texturas e quebrar zonas planas de pastel* na sua pintura."
 
 #: ../../general_concepts/colors/color_mixing.rst:100
 msgid "Off-Canvas Mixing"
-msgstr ""
+msgstr "Mistura Fora da Área de Desenho"
 
 #: ../../general_concepts/colors/color_mixing.rst:102
 msgid ""
@@ -248,7 +253,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_mixing.rst:105
 msgid "Color Picker Blending"
-msgstr ""
+msgstr "Mistura no Selector de Cores"
 
 #: ../../general_concepts/colors/color_mixing.rst:109
 msgid ""
@@ -331,7 +336,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_mixing.rst:130
 msgid "The Digital Colors Mixer"
-msgstr ""
+msgstr "A Mistura de Cores Digitais"
 
 #: ../../general_concepts/colors/color_mixing.rst:132
 msgid ""
@@ -355,13 +360,13 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_mixing.rst:141
 msgid "Other Tips"
-msgstr ""
+msgstr "Outras Sugestões"
 
 #: ../../general_concepts/colors/color_mixing.rst:143
 msgid ""
 "Outside of making it easier to create smooth gradients, mixing has another "
 "benefit: It allows you to create a cohesive piece."
-msgstr ""
+msgstr "Para além de facilitar a criação de gradientes suaves, a mistura tem outra vantagem: permite-lhe criar uma peça coesa."
 
 #: ../../general_concepts/colors/color_mixing.rst:145
 msgid ""
