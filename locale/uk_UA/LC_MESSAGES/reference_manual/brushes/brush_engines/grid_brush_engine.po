@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___grid_brush_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__grid_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-10 03:30+0100\n"
-"PO-Revision-Date: 2019-03-16 20:33+0200\n"
+"PO-Revision-Date: 2019-03-20 14:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color."
@@ -137,6 +137,8 @@ msgid ""
 "Forces vertical borders in the particle space, between which the particle "
 "needs to squeeze itself."
 msgstr ""
+"Примусово визначає вертикальні межі простору для частки, у які програма має"
+" вмістити цю частку."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
 msgid "Horizontal Border"
@@ -147,6 +149,8 @@ msgid ""
 "Forces a horizontal borders in the particle space, between which the "
 "particle needs to squeeze itself."
 msgstr ""
+"Примусово визначає горизонтальні межі простору для частки, у які програма має"
+" вмістити цю частку."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Jitter Borders"
@@ -154,7 +158,7 @@ msgstr "Нестійкі межі"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Randomizes the border values with the Border values given as maximums."
-msgstr ""
+msgstr "Створює випадкові межі максимальних значень для параметрів обмеження."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:60
 msgid "Particle Type"
@@ -219,6 +223,10 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Визначає випадкові значення відтінку насиченості і значення, де дисперсія"
+" визначається повзунками. Чим більшим є значення на повзунку, тим сильніше"
+" колір відхилятиметься від кольору переднього плану. Відхилення може"
+" відбуватися за або проти годинникової стрілки."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:82
 msgid "Random Opacity"
@@ -238,13 +246,15 @@ msgstr "Містить параметри кольору для окремих �
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:86
 msgid "Sample Input Layer."
-msgstr "Шар зразка."
+msgstr "Шар зразка"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:87
 msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Визначає, що еталонним для кольорів є підлеглий шар, а не колір переднього"
+" плану."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:88
 msgid "Fill Background"

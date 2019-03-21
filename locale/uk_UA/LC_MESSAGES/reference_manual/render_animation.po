@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___render_animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 03:27+0100\n"
-"PO-Revision-Date: 2019-03-18 20:58+0200\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-20 08:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -40,9 +40,9 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
-"For rendering to an animated fileformat, Krita will first render to a png "
+"For rendering to an animated file format, Krita will first render to a png "
 "sequence and then use FFMpeg, which is really good at encoding into video "
-"files, to render that sequence to an animated fileformat. The reason for "
+"files, to render that sequence to an animated file format. The reason for "
 "this two-step process is that animation files can be really complex and "
 "really big, and this is the best way to allow you to keep control over the "
 "export process. For example, if your computer has a hiccup, and one frame "
@@ -79,9 +79,12 @@ msgid "File Format"
 msgstr "Формат файла"
 
 #: ../../reference_manual/render_animation.rst:31
+#| msgid ""
+#| "The fileformat to export the sequence to. When rendering we enforce png. "
+#| "The usual export options can be modified with :guilabel:`...`."
 msgid ""
-"The fileformat to export the sequence to. When rendering we enforce png. The "
-"usual export options can be modified with :guilabel:`...`."
+"The file format to export the sequence to. When rendering we enforce png. "
+"The usual export options can be modified with :guilabel:`...`."
 msgstr ""
 "Формат файлів для експортування послідовності зображень. Під час обробки "
 "буде примусово використано формат png. Змінити параметри експортування можна "
@@ -105,7 +108,7 @@ msgstr "Перший кадр"
 
 #: ../../reference_manual/render_animation.rst:35
 msgid ""
-"The first frame of the range of frame you wish to adjust. Automatically set "
+"The first frame of the range of frames you wish to adjust. Automatically set "
 "to the first frame of your current selection in the timeline. This is useful "
 "when you only want to re-render a little part."
 msgstr ""
@@ -116,7 +119,7 @@ msgstr "Останній кадр"
 
 #: ../../reference_manual/render_animation.rst:37
 msgid ""
-"As above, the last frame of the range of frame you wish to adjust. "
+"As above, the last frame of the range of frames you wish to adjust. "
 "Automatically set to the last frame of your current selection in the "
 "timeline."
 msgstr ""
@@ -208,8 +211,8 @@ msgstr "У Windows"
 
 #: ../../reference_manual/render_animation.rst:68
 msgid ""
-"Go to the ffmpeg website (http://ffmpeg.org/download.html). The URL that had "
-"the link for me was here... https://ffmpeg.zeranoe.com/builds/"
+"Go to the `ffmpeg website <http://ffmpeg.org/download.html>`_. The URL that "
+"had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_"
 msgstr ""
 
 #: ../../reference_manual/render_animation.rst:70
@@ -229,11 +232,11 @@ msgstr "У OSX"
 
 #: ../../reference_manual/render_animation.rst:75
 msgid ""
-"Please see the section above. However, FFmpeg is obtained from https://"
-"evermeet.cx/ffmpeg/ instead. Just pick the big green button on the left "
-"under the FFmpeg heading. You will also need an archiving utility that "
-"supports .7z, since ffmpeg provides their OSX builds in .7z format. If you "
-"don't have one, try something like Keka (http://www.kekaosx.com)."
+"Please see the section above. However, FFmpeg is obtained from `here "
+"<https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on "
+"the left under the FFmpeg heading. You will also need an archiving utility "
+"that supports .7z, since ffmpeg provides their OSX builds in .7z format. If "
+"you don't have one, try something like `Keka <http://www.kekaosx.com>`_."
 msgstr ""
 
 #: ../../reference_manual/render_animation.rst:78
