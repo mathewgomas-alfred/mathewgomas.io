@@ -36,7 +36,7 @@ Press :guilabel:`Add Contact Info`  to add an entry in the box. By default it wi
 Using the new profile
 ---------------------
 
-To use a profile for your current drawing, go to :menuselection:`Settings --> Active Author Profile`  And select the name you gave your profile. Then, when pressing save on your current document, you will be able to see your last author profile as the last person who saved it in :menuselection:`File --> Document Information --> Author` 
+To use a profile for your current drawing, go to :menuselection:`Settings --> Active Author Profile` and select the name you gave your profile. Then, when pressing :guilabel:`Save` on your current document, you will be able to see your last author profile as the last person who saved it in :menuselection:`File --> Document Information --> Author` 
 
 Exporting author metadata to Jpeg and Png
 -----------------------------------------

@@ -225,7 +225,7 @@ the layer docker, and toggling :guilabel:`Show in Timeline`.
 Exporting
 ~~~~~~~~~
 
-When you are done, select :menuselection:`File --> Export Animation`
+When you are done, select :menuselection:`File --> Render Animation`
 
 .. image:: /images/en/Introduction_to_animation_20.png
 

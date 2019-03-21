@@ -16,7 +16,7 @@
 
 .csv is the abbreviation for Comma Separated Values. It is an open, plain text spreadsheet format. Since the .csv format is a plain text itself, it is possible to use a spreadsheet program or even a text editor to edit the .csv file.
 
-Krita supports the .csv version used by TVPaint, to transfer layered animation between these two softwares and probably with others, like Blender. This is not an image sequence format, so use the document loading and saving functions in Krita instead of the :guilabel:`import animation sequence` and :guilabel:`export animation` menu items.
+Krita supports the .csv version used by TVPaint, to transfer layered animation between these two softwares and probably with others, like Blender. This is not an image sequence format, so use the document loading and saving functions in Krita instead of the :guilabel:`Import animation frames` and :guilabel:`Render Animation` menu items.
 
 The format consists of a text file with .csv extension, together with a folder under the same name and a .frames extension. The .csv file and the folder must be on the same path location. The text file contains the parameters for the scene, like the field resolution and frame rate, and also contains the exposure sheet for the layers. The folder contains :ref:`file_png` picture files. Unlike image sequences, a key frame instance is only a single file and the exposure sheet links it to one or more frames on the timeline.
 
