@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-17 19:32+0100\n"
+"PO-Revision-Date: 2019-03-21 21:02+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../reference_manual/preferences.rst:1
 msgid "Krita's settings and preferences options."
-msgstr ""
+msgstr "Kritas inställningar och alternativ."
 
 #: ../../reference_manual/preferences.rst:16
 msgid "Preferences"
@@ -33,6 +33,11 @@ msgid ""
 "settings are under the topleft menu area, as you would expect of any program "
 "under MacOS."
 msgstr ""
+"Krita är mycket anpassningsbart och gör många inställningar och alternativ"
+" tillgängliga för att anpassa via inställningsområdet. Inställningarna kan"
+" kommas åt via :menuselection:`Inställningar --> Anpassa Krita`. På MacOS,"
+" finns inställningarna under menyområdet längst upp till vänster, som man kan"
+" förvänta sig för alla program på MacOS."
 
 #: ../../reference_manual/preferences.rst:20
 msgid ""
@@ -42,6 +47,11 @@ msgid ""
 "synchronize them from one computer to another, you can just copy this file. "
 "It even works across platforms!"
 msgstr ""
+"Kritas inställningar sparas i filen ``kritarc``. Filen finns i ``"
+"%LOCALAPPDATA%\\`` på Windows, ``~/.config`` på Linux, och"
+" ``~/Library/Preferences`` på OS X. Om man vill säkerhetskopiera sina egna"
+" inställningar eller synkronisera dem från en dator till en annan, kan filen"
+" bara kopieras. Det fungerar till och med mellan plattformar."
 
 #: ../../reference_manual/preferences.rst:22
 msgid ""
@@ -65,3 +75,6 @@ msgid ""
 "also be backed up in the same way. This is discussed further in the "
 "shortcuts section."
 msgstr ""
+"Egna genvägar sparas i en separat fil ``kritashortcutsrc`` som också kan"
+" säkerhetskopieras på samma sätt. Det beskrivs ytterligare i genvägsavsnittet."
+

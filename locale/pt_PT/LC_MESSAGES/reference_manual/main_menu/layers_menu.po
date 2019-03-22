@@ -34,7 +34,10 @@ msgstr "Camadas"
 msgid ""
 "These are the topmenu options are related to Layer Management, check out :"
 "ref:`that page <layers_and_masks>` first, if you haven't."
-msgstr "Estas são as opções do menu de topo que se relacionam com a Gestão de Camadas; consulte :ref:`esta página <layers_and_masks>` primeiro, caso não o tenha feito."
+msgstr ""
+"Estas são as opções do menu de topo que se relacionam com a Gestão de "
+"Camadas; consulte :ref:`esta página <layers_and_masks>` primeiro, caso não o "
+"tenha feito."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:20
 msgid "Cut Layer (3.0+)"
@@ -58,7 +61,9 @@ msgstr "Colar a Camada (3.0+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:25
 msgid "Pastes the whole layer if any of the top two actions have been taken."
-msgstr "Cola toda a camada se alguma das opções acima tiver sido previamente executada."
+msgstr ""
+"Cola toda a camada se alguma das opções acima tiver sido previamente "
+"executada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:27
 #: ../../reference_manual/main_menu/layers_menu.rst:41
@@ -150,7 +155,9 @@ msgstr "Importa uma imagem como uma camada no ficheiro actual."
 msgid ""
 "Import an image as a specific layer type. The following layer types are "
 "supported:"
-msgstr "Importa uma imagem como um tipo de camada específico. São suportados os seguintes tipos de camadas:"
+msgstr ""
+"Importa uma imagem como um tipo de camada específico. São suportados os "
+"seguintes tipos de camadas:"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:54
 msgid "Paint layer"
@@ -196,20 +203,29 @@ msgid ""
 "Convert a layer to a transparency mask. The image will be converted to "
 "grayscale first, and these grayscale values are used to drive the "
 "transparency."
-msgstr "Converte uma camada para uma máscara de transparência. A imagem será convertida primeiro para tons de cinzento, sendo que esses valores de tons de cinzento serão usados para conduzir a transparência."
+msgstr ""
+"Converte uma camada para uma máscara de transparência. A imagem será "
+"convertida primeiro para tons de cinzento, sendo que esses valores de tons "
+"de cinzento serão usados para conduzir a transparência."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:69
 msgid ""
 "Convert a layer to a filter mask. The image will be converted to grayscale "
 "first, and these grayscale values are used to drive the filter effect area."
-msgstr "Converte uma camada para uma máscara de filtragem. A imagem será convertida primeiro para tons de cinzento, sendo que esses valores de tons de cinzento serão usados para conduzir a área de efeito do filtro."
+msgstr ""
+"Converte uma camada para uma máscara de filtragem. A imagem será convertida "
+"primeiro para tons de cinzento, sendo que esses valores de tons de cinzento "
+"serão usados para conduzir a área de efeito do filtro."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:71
 msgid ""
 "Convert a layer to a selection mask. The image will be converted to "
 "grayscale first, and these grayscale values are used to drive the selected "
 "area."
-msgstr "Converte uma camada para uma máscara de selecção. A imagem será convertida primeiro para tons de cinzento, sendo que esses valores de tons de cinzento serão usados para conduzir a área seleccionada."
+msgstr ""
+"Converte uma camada para uma máscara de selecção. A imagem será convertida "
+"primeiro para tons de cinzento, sendo que esses valores de tons de cinzento "
+"serão usados para conduzir a área seleccionada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:72
 msgid "Convert Group to Animated Layer"
@@ -219,7 +235,9 @@ msgstr "Converter o Grupo para uma Camada Animada"
 msgid ""
 "This takes the images in the group layer and makes them into frames of an "
 "animated layer."
-msgstr "Isto pega nas imagens da camada do grupo e transforma-as em imagens de uma camada animada."
+msgstr ""
+"Isto pega nas imagens da camada do grupo e transforma-as em imagens de uma "
+"camada animada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert"
@@ -255,7 +273,9 @@ msgstr "Camadas Invisíveis"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:85
 msgid "Select all invisible layers, useful for cleaning up a sketch."
-msgstr "Selecciona todas as camadas invisíveis, o que pode ser útil para limpar um rascunho."
+msgstr ""
+"Selecciona todas as camadas invisíveis, o que pode ser útil para limpar um "
+"rascunho."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:86
 msgid "Locked Layers"
@@ -293,7 +313,9 @@ msgstr "Grupo de Recorte Rápido (3.0+)"
 msgid ""
 "Adds all selected layers to a group and adds a alpha-inherited layer above "
 "it."
-msgstr "Adiciona todas as camadas seleccionadas a um grupo e adiciona uma camada com herança do alfa por cima."
+msgstr ""
+"Adiciona todas as camadas seleccionadas a um grupo e adiciona uma camada com "
+"herança do alfa por cima."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:99
 msgid "Group"
@@ -338,7 +360,9 @@ msgstr "Escala da Camada"
 #: ../../reference_manual/main_menu/layers_menu.rst:111
 msgid ""
 "Scale the layer by the given amounts using the given interpolation filter."
-msgstr "Ajusta a escala da camada pelos valores indicados, usando o filtro de interpolação indicado."
+msgstr ""
+"Ajusta a escala da camada pelos valores indicados, usando o filtro de "
+"interpolação indicado."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:112
 msgid "Shear Layer"
@@ -346,7 +370,8 @@ msgstr "Inclinar a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:113
 msgid "Shear the layer pixels by the given X and Y angles."
-msgstr "Inclina os pixels da camada de acordo com os ângulos em X e Y indicados."
+msgstr ""
+"Inclina os pixels da camada de acordo com os ângulos em X e Y indicados."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Transform"
@@ -368,7 +393,9 @@ msgstr "Divisão do Alfa"
 msgid ""
 "Split the image transparency into a mask. This is useful when you wish to "
 "edit the transparency separately."
-msgstr "Divide a transparência da imagem para uma máscara. Isto é útil quando quiser editar a transparência em separado."
+msgstr ""
+"Divide a transparência da imagem para uma máscara. Isto é útil quando quiser "
+"editar a transparência em separado."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:122
 msgid "Split Layer"
@@ -390,7 +417,9 @@ msgstr "Lista de Clones"
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
 "making."
-msgstr "Uma funcionalidade complexa para gerar camadas de clonagem para a criação rápida de bonecos animados."
+msgstr ""
+"Uma funcionalidade complexa para gerar camadas de clonagem para a criação "
+"rápida de bonecos animados."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
 msgid "Edit Metadata"
@@ -422,7 +451,9 @@ msgstr "Achatar a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:134
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
-msgstr "Projecta todos os elementos de uma Camada de Grupo ou as máscaras numa outra camada."
+msgstr ""
+"Projecta todos os elementos de uma Camada de Grupo ou as máscaras numa outra "
+"camada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:135
 msgid "Rasterize Layer"
