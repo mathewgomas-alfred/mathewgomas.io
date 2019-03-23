@@ -20,7 +20,7 @@ To have a playback of the animation, you need to use the animation docker.
 
 The first big box represents the current Frame. The frames are counted with programmer's counting so they start at 0.
 
-Then there's two boxes for you change the playback range here.So, if you want to do a 10 frame animation, set the end to 10, and then Krita will cycle through the frames 0 to 10.
+Then there are two boxes for you to change the playback range here. So, if you want to do a 10 frame animation, set the end to 10, and then Krita will cycle through the frames 0 to 10.
 
 The bar in the middle is filled with playback options, and each of these can also be hot-keyed. The difference between a keyframe and a normal frame in this case is that a normal frame is empty, while a keyframe is filled.
 

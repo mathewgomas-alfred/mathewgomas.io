@@ -33,8 +33,8 @@ Unlike Photoshop, Krita makes a difference between brush-tips and
 brush-presets. Tips are only a stamp of sorts, while the preset uses a
 tip and many other settings to create the full brush.
 
-The Brush settings dropdown
----------------------------
+The Brush settings drop-down
+----------------------------
 
 To start, the Brush Settings Editor panel can be accessed in the
 toolbar, between the :guilabel:`Blending Modes` button on the right and the :guilabel:`Patterns`
@@ -44,13 +44,13 @@ it.
 When you open Brush Settings Editor panel you will see something like
 this:
 
-Tour of the brush settings dropdown
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tour of the brush settings drop-down
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/en/Krita_4_0_Brush_Settings_Layout.svg
    :width: 800
 
-The brush settings drop down is divided into six areas,
+The brush settings drop-down is divided into six areas,
 
 Section A - General Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -167,14 +167,14 @@ Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The preset chooser is much the same as the preset docker and the
-preset dropdown on :kbd:`F6`. It's unique in that it allows you to filter by
+preset drop-down on :kbd:`F6`. It's unique in that it allows you to filter by
 engine and this is also where you can create brushes for an engine from
 scratch.
 
 It is by default collapsed, so you will need to press the arrow at the
 top left of the brush engine to show it.
 
-The top drop down is set to “all” by default, which means it shows all
+The top drop-down is set to “all” by default, which means it shows all
 engines. It then shows a tag section where you can select the tags, the
 preset list and the search bar.
 
@@ -189,7 +189,7 @@ Section C - The Scratch pad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you tweak your brushes, you want to be able to check what each
-setting does. That's why, to the right of the settings drop down, there
+setting does. That's why, to the right of the settings drop-down, there
 is a scratch pad.
 
 It is by default collapsed, so you will have to press the arrow at the
@@ -463,7 +463,7 @@ dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
-settings dropdown (:kbd:`F5`) and then go to the “brush-tip” option. There,
+settings drop-down (:kbd:`F5`) and then go to the “brush-tip” option. There,
 select predefined brush, and then the “import” button to call up the
 file dialog.
 

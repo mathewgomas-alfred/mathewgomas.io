@@ -23,7 +23,7 @@ This tool allows you to choose a point from the canvas and make the color of tha
 
 There are several options shown in the :guilabel:`Tool Options` docker when the :guilabel:`Color Picker` tool is active:
 
-The first drop down box allows you to select whether you want to sample from all visible layers or only the active layer. You can choose to have your selection update the current foreground color, to be added into a color palette, or to do both.
+The first drop-down box allows you to select whether you want to sample from all visible layers or only the active layer. You can choose to have your selection update the current foreground color, to be added into a color palette, or to do both.
 
 .. versionadded:: 4.1
 

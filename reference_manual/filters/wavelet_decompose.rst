@@ -19,7 +19,7 @@ Wavelet decompose uses wavelet scales to turn the current layer into a set of la
 
 You can find it under :menuselection:`Layers`.
 
-When you select it, it will ask for the amount of wavelet scales. More scales, more different layers. Press okay, and t will generate a group layer containing the layers with their proper blending modes:
+When you select it, it will ask for the amount of wavelet scales. More scales, more different layers. Press :guilabel:`OK`, and it will generate a group layer containing the layers with their proper blending modes:
 
 .. image:: /images/en/Wavelet_decompose.png
    :align: center

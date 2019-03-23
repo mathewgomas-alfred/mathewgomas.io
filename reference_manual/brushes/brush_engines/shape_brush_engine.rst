@@ -33,7 +33,7 @@ Experiment Option
 Speed
     This makes the outputted contour jaggy. The higher the speed, the jaggier.
 Smooth
-    Smoothens the output contour. This sows down the brush, but the higher the smooth, the smoother the contour.
+    Smoothens the output contour. This slows down the brush, but the higher the smooth, the smoother the contour.
 Displace
     This displaces the shape. The slow the movement, the higher the displacement and expansion. Fast movements shrink the shape.
 Winding Fill

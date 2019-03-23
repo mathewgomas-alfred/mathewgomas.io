@@ -31,7 +31,7 @@ Masked brush is new feature that is only available in the :ref:`pixel_brush_engi
 :ref:`option_brush_tip`
     Like with normal brush tip you can choose any brush tip and change it size, spacing, and rotation. Masking brush size is relative to main brush size. This means when you change your brush size masking tip will be changed to keep the ratio.
 
-    :ref:`Blending mode (dropdown inside Brush tip)<blending_modes>`:
+    :ref:`Blending mode (drop-down inside Brush tip)<blending_modes>`:
         Blending modes changes how tips are combined.
     
     .. image:: /images/en/Masking-brush2.jpg

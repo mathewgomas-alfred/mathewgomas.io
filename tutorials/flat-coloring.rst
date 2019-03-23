@@ -44,7 +44,7 @@ Put the new layer underneath the layer containing the line art (drag and drop or
 The Multiply Blending Mode
 --------------------------
 
-So, typically, to get a black and white line art usable for coloring, you can set the blending mode of the line art layer to Multiply. You do this by selecting the layer and going to the drop down that says **Normal** and setting that to **Multiply**.
+So, typically, to get a black and white line art usable for coloring, you can set the blending mode of the line art layer to Multiply. You do this by selecting the layer and going to the drop-down that says **Normal** and setting that to **Multiply**.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart1.png
    :alt: blend mode setup of line art flat coloring

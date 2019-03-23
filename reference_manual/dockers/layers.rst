@@ -38,7 +38,7 @@ Visibility
 Edit State (Or layer Locking)
     A lock Icon. Clicking this will prevent the layer from being edited, useful when handling large amounts of layers.
 Alpha Lock
-    This will prevent the alpha of the layer being edited. In more plain terms: This will prevent the transparency of a layer being changed. Useful in colouring images.
+    This will prevent the alpha of the layer being edited. In more plain terms: This will prevent the transparency of a layer being changed. Useful in coloring images.
 Pass-through mode
     Only available on Group Layers, this allows you to have the blending modes of the layers within affect the layers outside the group. Doesn't work with masks currently, therefore these have a strike-through on group layers set to pass-through.
 Alpha Inheritance
@@ -80,7 +80,7 @@ Hot keys and Sticky Keys
 * :kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, for you to drag and drop.
 * :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
 * :kbd:`Ctrl + Shift + E` merges all layers.
-* :kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to picking colours directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for multiple layers.
+* :kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for multiple layers.
 * :kbd:`Ins` for adding a new layer. 
 * :kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, they are put into the group layer.
 * :kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!

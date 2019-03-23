@@ -42,11 +42,11 @@ HSI
 HSY'
     Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like `Rec 709 <http://en.wikipedia.org/wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
 
-Then, under shape, you can select one of the shapes available within that colour model.
+Then, under shape, you can select one of the shapes available within that color model.
 
 .. note::
 
-    Triangle is in all colour models because to a certain extent, it is a wildcard shape: All colour models look the same in an equilateral triangle selector.
+    Triangle is in all color models because to a certain extent, it is a wildcard shape: All color models look the same in an equilateral triangle selector.
 
 Luma Coefficients
 ~~~~~~~~~~~~~~~~~
@@ -147,9 +147,9 @@ The history patches remember which colors you've drawn on canvas with. They can 
 Common Patches
 ~~~~~~~~~~~~~~
 
-The common patches are generated from the image, and are the most common colour in the image. The hotkey for them on canvas is :kbd:`U`.
+The common patches are generated from the image, and are the most common color in the image. The hotkey for them on canvas is :kbd:`U`.
 
 External Info
 -------------
 
-`HSI and HSY for Krita’s advanced colour selector. <http://wolthera.info/?p=726>`_
+`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?p=726>`_

@@ -41,7 +41,7 @@ Some dockers, for example the brush preset docker as shown below, have a resourc
 
 .. image:: /images/en/Brushpreset-filters.png
 
-You can enter brush name, tag name to quickly pull up a list of brush preset you want. When you select any tag from the tag dropdown and want to include brush presets from other tags as well then you can add filters the following way: 
+You can enter brush name, tag name to quickly pull up a list of brush preset you want. When you select any tag from the tag drop-down and want to include brush presets from other tags as well then you can add filters the following way: 
 
 * To filter based on the partial, case insensitive name of the resources you can add ``partialname`` or ``!partialname``
 * To include other Tags type the respective name of the tag in square brackets like this ``[Tagname]`` or to exclude a tag type ``![Tagname]``.
