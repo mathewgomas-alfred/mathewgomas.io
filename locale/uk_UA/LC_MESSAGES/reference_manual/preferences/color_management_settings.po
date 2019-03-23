@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___preferences___color_management_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___preferences___color_mana"
+"gement_settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 14:41+0200\n"
+"PO-Revision-Date: 2019-03-22 21:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -51,6 +51,7 @@ msgstr "Типова модель кольору для нових зображ�
 #: ../../reference_manual/preferences/color_management_settings.rst:30
 msgid "Choose the default model you prefer for all your images."
 msgstr ""
+"Вибір типової моделі, яку слід використовувати для усіх ваших зображень."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:33
 msgid "When Pasting Into Krita From Other Applications"
@@ -64,13 +65,15 @@ msgstr ""
 
 #: ../../reference_manual/preferences/color_management_settings.rst:37
 msgid "Assume sRGB"
-msgstr ""
+msgstr "Припускати sRGB"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:38
 msgid ""
 "This option will show the pasted image in the default Krita ICC profile of "
 "sRGB."
 msgstr ""
+"За допомогою цього пункту можна визначити, що вставлене зображення буде"
+" показано із використанням типового профілю ICC Krita — sRGB."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:39
 msgid "Assume monitor profile"
@@ -93,6 +96,8 @@ msgid ""
 "Krita will ask the user each time an image is pasted, what to do with it. "
 "This is the default."
 msgstr ""
+"Krita питатиме користувача про те, що слід зробити, під час кожного"
+" вставлення зображення. Це типова поведінка програми."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:46
 msgid ""
@@ -109,6 +114,9 @@ msgid ""
 "This option will turn on Blackpoint Compensation for the conversion. BPC is "
 "explained by the maintainer of LCMS as following:"
 msgstr ""
+"За допомогою цього пункту можна увімкнути компенсацію точки чорного кольору"
+" для перетворення. Ось пояснення щодо компенсації точки чорного кольору від"
+" супровідника LCMS:"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:53
 msgid ""
@@ -145,6 +153,8 @@ msgid ""
 "This option when selected will tell Krita to use the ICC profile selected in "
 "your system preferences."
 msgstr ""
+"Якщо позначено цей пункт, Krita використовуватиме профіль ICC, який вибрано у"
+" налаштуваннях вашої системи."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:65
 msgid "Screen Profiles"
@@ -188,3 +198,5 @@ msgid ""
 "For indepth details about how to use softproofing, check out :ref:`the page "
 "on softproofing <soft_proofing>`."
 msgstr ""
+"Щоб дізнатися більше про використання проби кольорів, ознайомтеся із"
+" :ref:`розділом щодо проби кольорів <soft_proofing>`."

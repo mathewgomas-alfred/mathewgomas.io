@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_tutorials___making_an_azalea_with_the_transformation_masks\n"
+"Project-Id-Version: docs_krita_org_tutorials___making_an_azalea_with_the_trans"
+"formation_masks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-18 03:34+0100\n"
-"PO-Revision-Date: 2019-03-07 17:37+0200\n"
+"PO-Revision-Date: 2019-03-22 20:22+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -163,7 +163,7 @@ msgid ""
 "   :alt: remove extra areas with the eraser"
 msgstr ""
 ".. image:: images/en/making-azalea/Azelea_14_alphainheritance_5.png\n"
-"   :alt: Вилучення зайвих ділянок за допомогою ґумки"
+"   :alt: Вилучення зайвих ділянок за допомогою гумки"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:None
 msgid ""
@@ -176,11 +176,11 @@ msgstr ""
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:1
 msgid "Tutorial for making azalea with the help of transform masks"
-msgstr ""
+msgstr "Підручник зі створення азалій за допомогою масок перетворення"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:13
 msgid "Making An Azalea With The Transformation Masks"
-msgstr ""
+msgstr "Створення азалій за допомогою масок перетворення"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:18
 msgid "This page was ported from the original post on the main page"
@@ -200,6 +200,9 @@ msgid ""
 "yet allow for a lot of practice in terms of rendering. Also, you can explore "
 "cool tricks in Krita with them."
 msgstr ""
+"Автору подобається малювати квіти, оскільки вони є дещо недооціненим"
+" об'єктом, хоча надають змогу попрактикуватися у сенсі обробки. Крім того, за"
+" їх допомогою ви зможете оволодіти чудовими трюками у Krita."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:24
 msgid ""
@@ -207,6 +210,9 @@ msgid ""
 "and appear in clusters, the clusters allow me to exercise with transform "
 "masks!"
 msgstr ""
+"Сьогоднішньою квіткою будуть азалії. Ці квіти мають рожево-червоне"
+" забарвлення і цвітуть суцвіттями. Суцвіття дозволять нам повправлятися із"
+" масками перетворення!"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:26
 msgid ""
@@ -307,6 +313,10 @@ msgid ""
 "fact so powerful, that when you first use them, you can’t even begin to "
 "grasp where to use them."
 msgstr ""
+"Маски перетворення є насправді потужною можливістю, яку реалізовано у"
+" програмі, починаючи з версії 2.9. Фактично, вони такі потужні, що коли ви"
+" вперше ними скористаєтеся, ви лише почнете розуміти, де ними можна"
+" скористатися."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:70
 msgid ""
@@ -314,6 +324,9 @@ msgid ""
 "layer, and have it be completely dynamic! This includes our clone layer "
 "flowers!"
 msgstr ""
+"Маски перетворення надають нам змогу виконувати дію з перетворення над шаром,"
+" будь-яким заданим шаром, і виконувати її повністю динамічно! Це стосується"
+" навіть наших квітів з шару клонування!"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:72
 msgid "How to use them:"
@@ -324,12 +337,16 @@ msgid ""
 "|mouseright| the layer you want to do the transform on, and add a "
 "**Transform mask.**"
 msgstr ""
+"Клацніть |mouseright| на пункті шару, над яким слід виконати перетворення, і"
+" виберіть у контекстному меню пункт :guilabel:`Маска перетворення`."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:76
 msgid ""
 "A transform mask should now have been added. You can recognise them by the "
 "little ‘scissor’ icon."
 msgstr ""
+"Тепер додано маску перетворення. Ви можете розпізнати її за маленькою"
+" піктограмою ножиць."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:81
 msgid ""
@@ -359,6 +376,8 @@ msgstr ""
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:90
 msgid "We continue on making our clusters till we have a nice arrangement."
 msgstr ""
+"Ми продовжуємо створювати наші суцвіття, аж доки не досягнемо красивого"
+" компонування."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:95
 msgid "Now do the same thing for the leaves."
@@ -369,6 +388,8 @@ msgid ""
 "Now, if you select the original paint layers and draw on them, you can see "
 "that all clone masks are immediately updated!"
 msgstr ""
+"Тепер, якщо ви виберете початкові шари малювання і малюватимете на них, усі"
+" маски у шарах клонування буде негайно оновлено!"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:102
 msgid ""
@@ -383,6 +404,8 @@ msgid ""
 "Now continue painting the original flowers and leaves, and we’ll move over "
 "to adding extra shadow to make it seem more lifelike!"
 msgstr ""
+"Тепер продовжимо малювання початкових квіток і листя. Ми перейдемо до"
+" додавання додаткової тіні для надання реалістичності зображенню!"
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:109
 msgid ""
@@ -412,18 +435,24 @@ msgid ""
 "Then press the last icon in the layer stack, the alpha-inherit button, to "
 "activate alpha-inheritance."
 msgstr ""
+"Потім натиснемо останню піктограму у стосі шарів, кнопку успадкування"
+" прозорості для вмикання успадкування прозорості."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:123
 msgid ""
 "Set the layer to *multiply* then, so it’ll look like everything’s darker "
 "blue."
 msgstr ""
+"Далі, встановіть режим змішування :guilabel:`Множення`, щоб тони синього"
+" виглядали темнішими."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:128
 msgid ""
 "Then, with multiply and alpha inheritance on, use an eraser to remove the "
 "areas where there should be no shadow."
 msgstr ""
+"Тепер, коли увімкнено режим множення та успадкування прозорості,"
+" скористайтеся гумкою для вилучення ділянок, де не повинно бути тіней."
 
 #: ../../tutorials/making_an_azalea_with_the_transformation_masks.rst:133
 msgid ""
@@ -457,3 +486,8 @@ msgid ""
 "(Caution: It will freeze up Krita if your version is below 2.9.4. The speed-"
 "ups in 2.9.4 are due to this file.)"
 msgstr ""
+"Ви можете отримати створений файл `тут <https://share.kde.org/public.php?"
+"service=files&t=48c601aaf17271d7ca516c44cbe8590e>`_ для подальшого його"
+" вивчення! (Попередження: якщо ви скористаєтеся Krita версії, яка є нижчою за"
+" 2.9.4 програма просто зависне. Пришвидшення роботи версії 2.9.4 є"
+" результатом створення цього файла.)"

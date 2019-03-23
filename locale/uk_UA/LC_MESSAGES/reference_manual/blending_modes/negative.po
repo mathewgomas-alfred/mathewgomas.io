@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___negative\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___negativ"
+"e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-19 21:31+0200\n"
+"PO-Revision-Date: 2019-03-22 18:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -26,6 +26,8 @@ msgid ""
 "Page about the negative blending modes in Krita: Additive Subtractive, Arcus "
 "Tangent, Difference, Equivalence and Exclusion."
 msgstr ""
+"Розділ, який присвячено негативним режимам змішування у Krita:"
+" Додавання-віднімання, Вигин арки, Різниця, Рівновага і Виключення."
 
 #: ../../reference_manual/blending_modes/negative.rst:15
 msgid "Negative"
@@ -44,6 +46,7 @@ msgstr "Додавання-віднімання"
 #: ../../reference_manual/blending_modes/negative.rst:24
 msgid "Subtract the square root of the lower layer from the upper layer."
 msgstr ""
+"Відняти квадратний корінь зі значення нижнього шару від верхнього шару."
 
 #: ../../reference_manual/blending_modes/negative.rst:29
 msgid ""
@@ -66,6 +69,9 @@ msgid ""
 "Divides the lower layer by the top. Then divides this by Pi. Then uses that "
 "in an Arc tangent function, and multiplies it by two."
 msgstr ""
+"Ділення значень нижнього шару на значення верхнього шару. Далі, ділення"
+" результату на π. Потім застосування функції арктангенса і множення"
+" результату на 2."
 
 #: ../../reference_manual/blending_modes/negative.rst:43
 msgid ""
@@ -88,6 +94,8 @@ msgid ""
 "Checks per pixel of which layer the pixel-value is highest/lowest, and then "
 "subtracts the lower value from the higher-value."
 msgstr ""
+"Перевірка за пікселями, у якого з шарів значення пікселів більші, потім"
+" віднімання меншого значення від більшого."
 
 #: ../../reference_manual/blending_modes/negative.rst:57
 msgid ""
@@ -110,6 +118,8 @@ msgid ""
 "Subtracts the underlying layer from the upper-layer. Then inverts that. "
 "Seems to produce the same result as :ref:`bm_difference`."
 msgstr ""
+"Віднімання нижнього шару від верхнього, потім інверсія результату. Здається,"
+" дає той самий результат, що і :ref:`bm_difference`."
 
 #: ../../reference_manual/blending_modes/negative.rst:71
 msgid ""

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___instant_preview\n"
-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
 "PO-Revision-Date: 2019-03-21 12:33+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
@@ -33,14 +33,14 @@ msgstr "Okamžitý náhľad"
 
 #: ../../reference_manual/instant_preview.rst:17
 msgid ""
-"Instant Preview (previously known under the code name Level Of Detail/LOD"
-" strokes) is Krita's special speed-up mechanism that was funded by the 2015"
-" Kickstarter. Krita slows down with really large images due to the large"
-" amount of data it's crunching in painting these images. Instant Preview"
-" works by taking a smaller version of the canvas, and drawing the feedback on"
-" there while Krita calculates the real stroke in the background. This means"
-" that if you have a 4k screen and are working on a 4k image at 100% zoom, you"
-" won't feel any speed up."
+"Instant Preview (previously known under the code name Level Of Detail/LOD "
+"strokes) is Krita's special speed-up mechanism that was funded by the 2015 "
+"Kickstarter. Krita slows down with really large images due to the large "
+"amount of data it's crunching in painting these images. Instant Preview "
+"works by taking a smaller version of the canvas, and drawing the feedback on "
+"there while Krita calculates the real stroke in the background. This means "
+"that if you have a 4k screen and are working on a 4k image at 100% zoom, you "
+"won't feel any speed up."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:20
@@ -49,10 +49,10 @@ msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:24
 msgid ""
-"Instant Preview requires OpenGL 3.0 support at minimum. So if you don't have"
-" :guilabel:`high-quality` scaling available in :menuselection:`Settings -->"
-" Configure Krita --> Display --> Display scaling filter`, then you won't be"
-" able to use Instant Preview either."
+"Instant Preview requires OpenGL 3.0 support at minimum. So if you don't "
+"have :guilabel:`high-quality` scaling available in :menuselection:`Settings "
+"--> Configure Krita --> Display --> Display scaling filter`, then you won't "
+"be able to use Instant Preview either."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:29
@@ -65,38 +65,38 @@ msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:31
 msgid ""
-"Instant Preview is activated in two places: The view menu (:kbd:`Shift + L`),"
-" and the settings of the given paintop by default. This is because Instant"
-" Preview has different limitations with different paint operations."
+"Instant Preview is activated in two places: The view menu (:kbd:`Shift + "
+"L`), and the settings of the given paintop by default. This is because "
+"Instant Preview has different limitations with different paint operations."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:33
 msgid ""
-"For example, the overlay mode in the color smudge brush will disable the"
-" ability to have Instant Preview on the brush, so does using 'fade' sensor"
-" for size."
+"For example, the overlay mode in the color smudge brush will disable the "
+"ability to have Instant Preview on the brush, so does using 'fade' sensor "
+"for size."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:35
 msgid ""
-"Similarly, the auto-spacing, fuzzy sensor in size, use of density in"
-" brush-tip and the use of texture paintops will make it more difficult to"
-" determine a stroke, and thus will give a feeling of 'popping' when the"
-" stroke is finished."
+"Similarly, the auto-spacing, fuzzy sensor in size, use of density in brush-"
+"tip and the use of texture paintops will make it more difficult to determine "
+"a stroke, and thus will give a feeling of 'popping' when the stroke is "
+"finished."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:37
 msgid ""
-"When you check the brush settings, the Instant Preview checkbox will have a"
-" \\* behind it. Hovering over it will give you a list of options that are"
-" affecting the Instant Preview mode."
+"When you check the brush settings, the Instant Preview checkbox will have a "
+"\\* behind it. Hovering over it will give you a list of options that are "
+"affecting the Instant Preview mode."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:41
 msgid ""
-"|mouseleft| this pop-up will give a slider, which can be used to determine"
-" the threshold size at which instant preview activates. By default this"
-" 100px. This is useful for brushes that are optimised to work on small sizes."
+"|mouseleft| this pop-up will give a slider, which can be used to determine "
+"the threshold size at which instant preview activates. By default this "
+"100px. This is useful for brushes that are optimised to work on small sizes."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:47
@@ -105,10 +105,10 @@ msgstr ".. image:: images/en/Lod_position2.png"
 
 #: ../../reference_manual/instant_preview.rst:47
 msgid ""
-"The Instant Preview checkbox at the bottom of the brush settings editor will"
-" give you feedback when there's settings active that can't be previewed"
-" right. Hover over it to get more detail. In this case, the issue is that"
-" auto-spacing is on."
+"The Instant Preview checkbox at the bottom of the brush settings editor will "
+"give you feedback when there's settings active that can't be previewed "
+"right. Hover over it to get more detail. In this case, the issue is that "
+"auto-spacing is on."
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:50
@@ -138,4 +138,3 @@ msgstr "Filtre."
 #: ../../reference_manual/instant_preview.rst:58
 msgid "Animation."
 msgstr "Animácia."
-

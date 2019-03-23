@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_settings___locked_brush_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
+"___locked_brush_settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-21 07:58+0200\n"
+"PO-Revision-Date: 2019-03-22 20:54+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -49,6 +49,11 @@ msgid ""
 "you lock the texture parameter. That way, all brush-preset you select will "
 "now share the same texture!"
 msgstr ""
+"Зазвичай, зміна набору пензлів змінює усі параметри пензля. Заблоковані"
+" набори є способом заборонити Krita змінювати усі параметри. Отже, якщо ви"
+" хочете, щоб текстура була однаковою для усіх пензлів, слід заблокувати"
+" параметр текстури. Після цього усі набори пензлів використовуватимуть"
+" однакову текстуру!"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:22
 msgid "Locking a brush parameter"
@@ -63,6 +68,10 @@ msgid ""
 "To lock an option, |mouseright| the little lock icon next to the parameter "
 "name, and set it to 'Lock'. It will now be highlighted to show it's locked:"
 msgstr ""
+"Щоб заблокувати параметр, клацніть |mouseright| на малій піктограмі замка"
+" поряд із назвою параметра і встановіть для нього значення"
+" :guilabel:`Заблокувати`. Пункт параметра буде підсвічено, щоб показати, що"
+" його заблоковано:"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:29
 msgid ".. image:: images/en/Krita_2_9_brushengine_locking_02.png"
@@ -70,7 +79,7 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_locking_02.png"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:30
 msgid "And on the canvas, it will show that the texture-option is locked."
-msgstr ""
+msgstr "І на полотні буде показано, що параметр текстури зафіксовано."
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:33
 msgid ".. image:: images/en/Krita_2_9_brushengine_locking_04.png"
@@ -78,7 +87,7 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_locking_04.png"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:35
 msgid "Unlocking a brush parameter"
-msgstr ""
+msgstr "Розблокування параметра пензля"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:37
 msgid "To *unlock*, |mouseright| the icon again."
@@ -103,7 +112,13 @@ msgid ""
 "the active brush preset. So if your brush had no texture on, using this "
 "option will revert it to having no texture."
 msgstr ""
+"Вибір цього варіант призведе до вилучення усіх значень заблокованого"
+" параметра і заміни цих значень значеннями активного набору пензлів. Отже,"
+" якщо у вашого пензля не було текстури, використання цього варіанта призведе"
+" до повернення до варіанта без текстури."
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:46
 msgid "This will keep the settings of the parameter even though it's unlocked."
 msgstr ""
+"Вибір цього варіанта призведе до того, що значення параметра зберігаються,"
+" навіть якщо його розблоковано."
