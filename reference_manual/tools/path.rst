@@ -26,7 +26,7 @@ On a vector layer, you can click on a previously inserted control point to modif
 
 Pressing :kbd:`Del` will remove the currently selected control point from the curve. Double-click the |mouseleft| on any point of the curve or press :kbd:`Enter` to finish drawing, or press :kbd:`Esc` to cancel the entire curve. You can use :kbd:`Ctrl` while keeping the |mouseleft| pressed to move the entire curve to a different position.
 
-While drawing :kbd:`Ctrl` while dragging will push the handles both way. :kbd:`Alt` will create a sharp corner, and :kbd:`Shift` will allow you to make a handle while at the end of the curve. |mouseright| will undo the last added point.
+While drawing :kbd:`Ctrl` while dragging will push the handles both ways. :kbd:`Alt` will create a sharp corner, and :kbd:`Shift` will allow you to make a handle while at the end of the curve. |mouseright| will undo the last added point.
 
 Tool Options
 ------------

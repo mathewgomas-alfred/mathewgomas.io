@@ -15,7 +15,7 @@
 Crop Tool
 =========
 
-The crop tool can be used to crop an image or layer. To get started,  choose the Crop tool and then click once to select the entire canvas. Using this method you ensure that you don't inadvertently grab outside of the visible canvas as part of the crop. You can then use the options below to refine your crop. Press enter to finalize the crop action, or use the crop in the tool options docker.
+The crop tool can be used to crop an image or layer. To get started, choose the :guilabel:`Crop` tool and then click once to select the entire canvas. Using this method you ensure that you don't inadvertently grab outside of the visible canvas as part of the crop. You can then use the options below to refine your crop. Press :kbd:`Enter` to finalize the crop action, or use the :guilabel:`Crop` button in the tool options docker.
 
 At its most basic, the crop tool allows you to size a rectangle around an area and reduce your image or layer to only that content which is contained within that area. There are several options which give a bit more flexibility and precision.
 
@@ -33,4 +33,4 @@ Decoration
 Continuous Crop
 ---------------
 
-If you crop an image, and try to start a new one directly afterwards, Krita will attempt to recall the previous crop, so you can continue it. This is the *continuous crop* . You can press :kbd:`Esc` to cancel this and crop anew.
+If you crop an image, and try to start a new one directly afterwards, Krita will attempt to recall the previous crop, so you can continue it. This is the *continuous crop*. You can press :kbd:`Esc` to cancel this and crop anew.
