@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-17 19:57+0100\n"
+"PO-Revision-Date: 2019-03-23 09:00+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -30,10 +30,12 @@ msgid ""
 ".. image:: images/icons/polygon_tool.svg\n"
 "   :alt: toolpolygon"
 msgstr ""
+".. image:: images/icons/polygon_tool.svg\n"
+"   :alt: polygonverktyg"
 
 #: ../../reference_manual/tools/polygon.rst:1
 msgid "Krita's polygon tool reference."
-msgstr ""
+msgstr "Referens för Kritas polygonverktyg."
 
 #: ../../reference_manual/tools/polygon.rst:15
 msgid "Polygon Tool"
@@ -41,7 +43,7 @@ msgstr "Polygonverktyg"
 
 #: ../../reference_manual/tools/polygon.rst:17
 msgid "|toolpolygon|"
-msgstr ""
+msgstr "|toolpolygon|"
 
 #: ../../reference_manual/tools/polygon.rst:19
 msgid ""
@@ -49,11 +51,16 @@ msgid ""
 "starting point and successive vertices, then double-click or press :kbd:"
 "`Enter` to connect the last vertex to the starting point."
 msgstr ""
+"Det går att rita polygoner med det här verktyget. Klicka på |mouseleft| för"
+" att indikera startpunkten och följande knutpunkter, dubbelklicka därefter"
+" eller tryck på :kbd:`Enter` för att ansluta den sista knutpunkten till"
+" startpunkten."
 
 #: ../../reference_manual/tools/polygon.rst:21
 msgid ":kbd:`Shift +` |mouseleft| undoes the last clicked point."
-msgstr ""
+msgstr ":kbd:`Shift +` |mouseleft| ångrar senast klickade punkt."
 
 #: ../../reference_manual/tools/polygon.rst:24
 msgid "Tool Options"
 msgstr "Verktygsalternativ"
+

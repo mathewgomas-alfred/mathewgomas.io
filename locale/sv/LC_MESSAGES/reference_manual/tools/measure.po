@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-17 19:51+0100\n"
+"PO-Revision-Date: 2019-03-23 08:38+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -30,10 +30,12 @@ msgid ""
 ".. image:: images/icons/measure_tool.svg\n"
 "   :alt: toolmeasure"
 msgstr ""
+".. image:: images/icons/measure_tool.svg\n"
+"   :alt: verktygsmått"
 
 #: ../../reference_manual/tools/measure.rst:1
 msgid "Krita's measure tool reference."
-msgstr ""
+msgstr "Referens för Kritas mätverktyg."
 
 #: ../../reference_manual/tools/measure.rst:16
 msgid "Measure Tool"
@@ -41,7 +43,7 @@ msgstr "Mätverktyg"
 
 #: ../../reference_manual/tools/measure.rst:18
 msgid "|toolmeasure|"
-msgstr ""
+msgstr "|verktygsmått|"
 
 #: ../../reference_manual/tools/measure.rst:20
 msgid ""
@@ -51,6 +53,11 @@ msgid ""
 "shown on the Tool Options docker. You can choose the length units from the "
 "drop-down list."
 msgstr ""
+"Verktyget används för att mäta avstånd och vinklar. Klicka på |mouseleft| för"
+" att ange första ändpunkten eller vinkelspetsen, håll knappen nedtryckt, dra"
+" till den andra ändpunkten och släpp knappen. Resultatet visas på"
+" verktygsalternativens panel. Det går att välja längdenheter i"
+" kombinationslistan."
 
 #: ../../reference_manual/tools/measure.rst:23
 msgid "Tool Options"
@@ -61,3 +68,7 @@ msgid ""
 "The measure tool-options allow you to change between the units used. Unit "
 "conversion varies depending on the DPI setting of a document."
 msgstr ""
+"Mätverktygets alternativ gör det möjligt att byta mellan använda enheter."
+" Enhetskonvertering varierar beroende på dokumentets inställning av"
+" punkter/tum."
+
