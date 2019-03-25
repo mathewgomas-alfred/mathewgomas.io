@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_tutorials___krita-brush-"
-"tips___animated_brushes\n"
+"Project-Id-Version: docs_krita_org_tutorials___krita-brush-tips___animated_bru"
+"shes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-16 20:34+0200\n"
+"PO-Revision-Date: 2019-03-24 19:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -86,18 +86,25 @@ msgid ""
 "I was messing with the brushes and noticed there is like an option for it "
 "being \"animated\". What does it mean and how do I use it?"
 msgstr ""
+"Під час вивчення пензлів мною було виявлено, що у програмі є пункт «анімації»"
+" пензля. Як він працює і як ним користуватися?"
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:22
 msgid ""
 "Basically, they’re what is officially called an ‘image hose’, and they’re "
 "quite fun. They are basically a brush-tip with multiple image files."
 msgstr ""
+"На базовому рівні, анімація — те, що офіційно називається «футляром"
+" зображень». Працювати із нею доволі цікаво. Якщо просто, це кінчик пензля із"
+" декількома файлами зображень."
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:24
 msgid ""
 "The typical way to make them is to first draw the ‘frames’ on a small "
 "canvas, per layer:"
 msgstr ""
+"Типовий спосіб користування такий: ви спочатку малюєте декілька «кадрів» на"
+" малому полотні для кожного шару:"
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:30
 msgid ""
@@ -116,10 +123,13 @@ msgid ""
 "Go into the brush settings (:kbd:`F5`), and go to predefined brush-tips, and "
 "click stamp. You will get this window."
 msgstr ""
+"Перейдіть до параметрів пензля (:kbd:`F5`), виберіть стандартні кінчики"
+" пензлів і натисніть пункт штампа. У відповідь буде відкрито показане нижче"
+" вікно."
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:42
 msgid "And then use style **animated** and selection mode set to **random**."
-msgstr ""
+msgstr "Скористайтеся стилем **Анімація** і режимом позначення **Випадкове**."
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:44
 msgid ""
@@ -127,10 +137,14 @@ msgid ""
 "images, angle based selection, pressure based selection, and incremental "
 "selection (I have no idea what constant does)."
 msgstr ""
+"У Krita використовується формат футляра зображень GIMP, який уможливлює"
+" випадковий вибір зображень, вибір на основі кута нахилу пензля, вибір на"
+" основі даних щодо тиску та нарощувальний вибір."
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:49
 msgid "Then select the above brush and your new leafy-brush tip."
 msgstr ""
+"Далі, виберіть створений раніше пензель і ваш новий кінчик «leafy-brush»."
 
 #: ../../tutorials/krita-brush-tips/animated_brushes.rst:54
 msgid "And use it to paint trees! (for example)"
@@ -144,3 +158,10 @@ msgid ""
 "above instructions, but for each layer, create a different cross-section of "
 "the brush to correspond with the amount of pressure applied."
 msgstr ""
+"Ви також можете скористатися анімованими кінчиками пензля для імітації,"
+" наприклад, кінчиків пензлів із щетинками, які варіюються від дуже тонких"
+" щетинок до повністю непрозорого штампу, залежно від тиску, імітуючи"
+" малювання сухим пензлем. Для створення такого кінчика пензля вам слід"
+" виконати наведені вище настанови, але для кожного шару слід створити різні"
+" перерізи для кінчиків пензля, вибір яких залежатиме від прикладеного до"
+" пензля тиску."

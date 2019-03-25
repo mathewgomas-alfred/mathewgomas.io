@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___resource_management___resource_gradients\n"
+"Project-Id-Version: docs_krita_org_reference_manual___resource_management___re"
+"source_gradients\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-22 21:35+0200\n"
+"PO-Revision-Date: 2019-03-24 21:32+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -100,6 +100,9 @@ msgid ""
 "over a dozen preset dynamic gradients for you to choose from.  In addition, "
 "you can design and save your own."
 msgstr ""
+"Градієнти — налаштування переходу між кольорами. У Krita передбачено з"
+" десяток готових динамічних градієнтів — ви можете вибрати будь-який. Крім"
+" того, ви можете створювати і зберігати власні градієнти."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:27
 msgid "Some typical uses of gradients are:"
@@ -139,6 +142,8 @@ msgid ""
 "Segmented Gradients, which are compatible with GIMP, have many different "
 "features but are also a bit complicated to make."
 msgstr ""
+"Сегментовані градієнти, які сумісні з GIMP, дуже гнучкі у налаштовуванні, але"
+" дещо складні у створенні."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:41
 msgid ""
@@ -146,18 +151,27 @@ msgid ""
 "applications do their gradients, but has less features than the segmented "
 "gradient."
 msgstr ""
+"Градієнти із контрольними точками, які зберігаються у форматі файлів SVG і"
+" подібні до тих градієнтів, які можна зустріти у більшості інших програм."
+" Втім, їхні можливості не такі широкі як у сегментованих градієнтів."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:43
 msgid ""
 "Initially we could only make segmented gradients in Krita, but in 3.0.2 we "
 "can also make stop gradients."
 msgstr ""
+"У початкових версіях Krita було передбачено лише сегментовані градієнти, але,"
+" починаючи з версії 3.0.2, у програмі реалізовано підтримку градієнтів із"
+" контрольними точками."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:48
 msgid ""
 "You can make a new gradient by going into the drop-down and selecting the "
 "gradient type you wish to have. By default Krita will make a stop-gradient."
 msgstr ""
+"Ви можете створити градієнт за допомогою спадного списку. Виберіть тип"
+" градієнта, який вам потрібен. Типово, Krita створить градієнт із"
+" контрольними точками."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:51
 msgid "Stop Gradients"
@@ -199,6 +213,9 @@ msgid ""
 "As per SVG spec, you can make a sudden change between stops by moving them "
 "close together. The stops will overlap, but you can still drag them around."
 msgstr ""
+"Відповідно до специфікації SVG ви можете створювати різку зміну між"
+" контрольними точками, пересунувши їх одна до одної. Контрольні точки"
+" накладуться одна на одну, але ви все одно можете їх розтягнути."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:73
 msgid "Segmented Gradients"
@@ -214,6 +231,9 @@ msgid ""
 "color, it allows you to define segments, which each can have a begin and end "
 "color."
 msgstr ""
+"Сегментовані градієнти є дещо складнішими. Замість переходу від кольору до"
+" кольору, програма надає вам змогу визначити сегменти, кожен з яких може мати"
+" власний початковий і кінцевий колір."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:79
 msgid "|mouseright| the gradient to call up this menu:"
@@ -229,6 +249,9 @@ msgid ""
 "middle as the place to split. It will also use the color at the white arrow "
 "to define the new colors in place in the new segments."
 msgstr ""
+"Розділити поточний сегмент на два за допомогою білої стрілочки. Місцем поділу"
+" буде середина сегмента. Також програма використає колір у позиції білої"
+" стрілочки для визначення нових кольорів для нових сегментів."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:86
 msgid "Duplicate segment"
@@ -263,6 +286,10 @@ msgid ""
 "to those arrows. |mouseleft| + dragging the white arrows will change the mid "
 "point of that segment, changing the way how the mixture is made."
 msgstr ""
+"Натискання |mouseleft| + перетягування чорних стрілочок змінює розміри"
+" сегментів, які пов'язано із цими стрілочками. Натискання |mouseleft| +"
+" перетягування білих стрілочок змінює розташування середньої точки сегмента,"
+" змінюючи спосіб, у який виконується змішування."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:95
 msgid ""
@@ -323,6 +350,9 @@ msgid ""
 "(red-yellow-green-cyan-blue-purple). The above screenshot is an example of "
 "this."
 msgstr ""
+"Змішує два кольори на основі моделі HSV із переходом за відтінком за"
+" годинниковою стрілкою (червоний-жовтий-зелений-блакитний-синій-пурпуровий)."
+" Приклад наведено на знімку вікна вище."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:118
 msgid "Blends the color as the previous options, but then counter-clockwise."

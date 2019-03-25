@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___bristle_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__bristle_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-19 12:20+0200\n"
+"PO-Revision-Date: 2019-03-24 19:24+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -70,9 +70,9 @@ msgid ""
 "Lower opacity areas have lower-opacity bristles. With this brush, this may "
 "give the illusion that lower-opacity areas have fewer bristles."
 msgstr ""
-"На ділянках із низькою непрозорістю непрозорість бризок також буде низькою. "
+"На ділянках із низькою непрозорістю непрозорість щетинок також буде низькою. "
 "Для цього пензля це може створити ілюзію того, що на ділянках із низькою "
-"непрозорістю менше бризок."
+"непрозорістю менше щетинок."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:31
 msgid ""
@@ -99,6 +99,9 @@ msgid ""
 "To decrease bristle density, you can also just use an autobrush and decrease "
 "the brush tip's density, or increase its randomness."
 msgstr ""
+"Щоб зменшити щільність щетинок, ви також можете просто скористатися"
+" автопензлем і зменшити щільність кінчика пензля або збільшити його"
+" випадковість."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:39
 msgid ".. image:: images/en/Krita-tutorial7-B.I.1.png"
@@ -116,6 +119,8 @@ msgstr "Ядро цього окремо взятого рушія пензлі�
 msgid ""
 "Think of it as pressing down on a brush to make the bristles further apart."
 msgstr ""
+"Це можна уявляти як роботу звичайного пензля: коли ви натискаєте на пензель,"
+" щетинки розходяться."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:48
 msgid ""
@@ -129,6 +134,8 @@ msgid ""
 "Use smaller values if you want a \"dense\" brush, i.e. you don't want to see "
 "so many bristles within the center."
 msgstr ""
+"Використовуйте менші значення, якщо вам потрібен «щільний» пензель, тобто"
+" якщо ви не хочете бачити так багато щетинок у центрі."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:50
 msgid "Scale"
@@ -144,11 +151,11 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:53
 msgid "Adds a jaggy look to the trailing lines."
-msgstr "Надає зубчастого вигляду лініям бризок."
+msgstr "Надає зубчастого вигляду лініям щетинок."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:55
 msgid "At 0.00, all the bristles basically remain completely parallel."
-msgstr "При значенні 0.00 усі лінії бризок лишаються повністю паралельними."
+msgstr "При значенні 0.00 усі лінії щетинок лишаються повністю паралельними."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
 msgid "Random Offset"
@@ -229,7 +236,7 @@ msgid ""
 "to \"touch the canvas\" will be painted."
 msgstr ""
 "Це можливість для планшетів. Якщо пункт позначено, буде намальовано лише "
-"бризки, які могли «торкнутися полотна»."
+"щетинки, які могли «торкнутися полотна»."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:72
 msgid "Connect Hairs"
@@ -256,7 +263,7 @@ msgid ""
 "This \"composes the bristle colors within one dab,\" but explains that the "
 "effect is \"probably subtle.\""
 msgstr ""
-"«Компонує кольори бризок у один мазок», але пояснити наслідки застосування "
+"«Компонує кольори щетинок у один мазок», але пояснити наслідки застосування "
 "цього ефекту «ймовірно, складно»."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:80
@@ -335,11 +342,11 @@ msgstr "Вага тиску"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:110
 msgid "Bristle length weight"
-msgstr "Вага відстані розбризкування"
+msgstr "Вага відстані щетинками"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:111
 msgid "Bristle ink amount weight"
-msgstr "Вага частки чорнила для розбризкування"
+msgstr "Вага частки чорнила для щетинок"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:112
 msgid "Ink depletion curve weight"

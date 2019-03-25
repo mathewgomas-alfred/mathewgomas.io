@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-17 03:34+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-25 00:48+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:1
 msgid "Guide on all the specifics of creating Krita python plugins."
-msgstr ""
+msgstr "Guia sobre todos detalhes específicos de criação de 'plugins' em Python do Krita."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:19
 msgid "How to make a Krita Python plugin"
-msgstr ""
+msgstr "Como criar um 'plugin' do Krita em Python"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:21
 msgid ""
@@ -38,18 +38,18 @@ msgid ""
 "Okay, so even if you know python really well, there are some little details "
 "to getting Krita to recognize a python plugin. So this page will give an "
 "overview how to create the various types of python script unique to Krita."
-msgstr ""
+msgstr "Ok, por isso mesmo que conheça o Python realmente bem, existem alguns pequenos detalhes para ter o Krita a reconhecer um 'plugin' em Python. Como tal, esta página irá dar uma antevisão sobre como criar os diversos tipos de programas em Python únicos no Krita."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:25
 msgid ""
 "These mini-tutorials are written for people with a basic understanding of "
 "python, and in such a way to encourage experimentation instead of plainly "
 "copy and pasting code, so read the text carefully."
-msgstr ""
+msgstr "Estes mini-tutoriais são criados para pessoas com uma compreensão básica do Python, e de forma a encorajar as experiências em vez de simplesmente copiar e colar o código; por isso, leia o texto com cuidado."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:28
 msgid "Getting Krita to recognize your plugin"
-msgstr ""
+msgstr "Ter o Krita a reconhecer o seu 'plugin'"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:30
 msgid ""
@@ -71,41 +71,41 @@ msgstr ""
 msgid ""
 "Scripts are identified by a file that ends in a .desktop extension that "
 "contain information about the script itself."
-msgstr ""
+msgstr "Os programas são identificados por um ficheiro que termina numa extensão .desktop, que contém informações sobre o programa em si."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:34
 msgid ""
 "Therefore, for each proper plugin you will need to create a folder, and a "
 "desktop file."
-msgstr ""
+msgstr "Como tal, para cada tipo de 'plugin' adequado, terá de criar uma pasta e um ficheiro .desktop."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:36
 msgid "The desktop file should look as follows::"
-msgstr ""
+msgstr "O ficheiro .desktop deverá parecer o seguinte::"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:47
 msgid "Type"
-msgstr "Tipo"
+msgstr "Type"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:48
 msgid "This should always be service."
-msgstr ""
+msgstr "Este deverá ter sempre o valor 'service'."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:49
 msgid "ServiceTypes"
-msgstr ""
+msgstr "ServiceTypes"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:50
 msgid "This should always be Krita/PythonPlugin for python plugins."
-msgstr ""
+msgstr "Este deverá ser sempre 'Krita/PythonPlugin' para os 'plugins' em Python."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:51
 msgid "X-KDE-Library"
-msgstr ""
+msgstr "X-KDE-Library"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:52
 msgid "This should be the name of the plugin folder you just created."
-msgstr ""
+msgstr "Este deverá ser o nome da pasta do 'plugin' que acabou de criar."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:53
 msgid "X-Python-2-Compatible"

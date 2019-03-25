@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___colors___color_managed_workflow\n"
+"Project-Id-Version: docs_krita_org_general_concepts___colors___color_managed_w"
+"orkflow\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-22 03:26+0100\n"
-"PO-Revision-Date: 2019-03-22 21:04+0200\n"
+"PO-Revision-Date: 2019-03-24 15:04+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -873,6 +873,11 @@ msgid ""
 "best performance under 16bit float, because NVidia cards convert to floating "
 "point internally. When it does not need to do that, it speeds up!"
 msgstr ""
+"Деякі графічні картки, зокрема картки виробництва NVidia, демонструють кращу"
+" швидкодію із 16-бітовими дійсними значенням каналів кольорів, оскільки на"
+" картках NVidia на внутрішньому рівні виконується перетворення значень на"
+" дійсні числа. Якщо не потрібно виконувати додаткове перетворення, робота"
+" пришвидшується!"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:260
 msgid ""
@@ -1171,6 +1176,8 @@ msgstr "sRGB або лінійні відтінки сірого для груб
 msgid ""
 "This one is tricky, but in the end it'll be sRGB for the regular player."
 msgstr ""
+"Тут все не так просто, але, врешті, для звичайного гравця результатом буде"
+" sRGB."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:364
 msgid ""
@@ -1232,6 +1239,11 @@ msgid ""
 "images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
 ">`_"
 msgstr ""
+"`Приклад з Panda3d того, як зображення із закодованою гамою без 3D-обробки"
+" призводить до сповіщення щодо виконання кодування гами може призвести до"
+" надто темних зображень <https://www.panda3d.org/blog/the-new-opengl-features-"
+"in-panda3d-1-9/"
+">`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:377
 msgid ""

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___working_with_images\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-03-11 10:05+0100\n"
+"PO-Revision-Date: 2019-03-24 12:10+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -36,6 +36,8 @@ msgid ""
 "Computers work with files and as a painting program, Krita works with images "
 "as the type of file it creates and manipulates."
 msgstr ""
+"Els ordinadors funcionen amb fitxers i com un programa de pintura, el Krita "
+"treballa amb imatges com el tipus de fitxer que crea i manipula."
 
 #: ../../user_manual/working_with_images.rst:23
 msgid "What do Images Contain?"
@@ -46,6 +48,9 @@ msgid ""
 "If you have a text document, it of course contains letters, strung in the "
 "right order, so the computer loads them as coherent sentences."
 msgstr ""
+"Si teniu un document de text, per descomptat contindrà lletres, enfilades en "
+"l'ordre correcte, de manera que l'ordinador les carregui com a frases "
+"coherents."
 
 #: ../../user_manual/working_with_images.rst:29
 msgid "Raster Data"
@@ -58,10 +63,15 @@ msgid ""
 "contain several of such layers, that get overlaid on top of each other so "
 "make the final image."
 msgstr ""
+"Aquestes són les dades principals de les capes de pintura que creeu. Així que "
+"aquests seran els traços amb el pinzell de pintura i de prop es veuran "
+"pixelats. Un fitxer de múltiples capes contindrà diverses d'aquestes capes, "
+"que se superposen una sobre l'altra per a crear la imatge final."
 
 #: ../../user_manual/working_with_images.rst:36
 msgid "A single layer file will usually only contain raster data."
 msgstr ""
+"Un fitxer d'una sola capa generalment només contindrà dades rasteritzades."
 
 #: ../../user_manual/working_with_images.rst:39
 msgid "Vector Data"
@@ -75,6 +85,11 @@ msgid ""
 "vector data is much more editable, lighter, but at the same time it's also "
 "much more CPU intensive."
 msgstr ""
+"Aquestes són operacions matemàtiques que li diuen a l'ordinador que dibuixi "
+"píxels en un lloc. Això els farà molt més escalables, perquè simplement li "
+"diu a l'operació que faci les coordenades 4 vegades més grans per "
+"escalar-les. A causa d'aquest vector, les dades són molt més editables, més "
+"lleugeres, però alhora també requereixen molt més ús de la CPU."
 
 #: ../../user_manual/working_with_images.rst:48
 msgid "Operation Data"
@@ -89,6 +104,13 @@ msgid ""
 "transparency masks and layer effects from PSD, but not load or save "
 "transform masks."
 msgstr ""
+"Coses com les capes de filtratge, que li diuen al Krita que canviï els colors "
+"d'una capa, però també les màscares de transparència, grup de capes i les "
+"màscares de transformació es guarden en arxius de múltiples capes. La "
+"possibilitat de carregar-depèn del programari que va fer inicialment "
+"l'arxiu. Així que Krita pot carregar i desar grups, màscares de "
+"transparència i efectes de capa des PSD, però no pot carregar o desar "
+"màscares de transformació."
 
 #: ../../user_manual/working_with_images.rst:58
 msgid "Metadata"
@@ -154,6 +176,7 @@ msgstr "120 PPP"
 #: ../../user_manual/working_with_images.rst:93
 msgid "This is often used as a standard for low-quality posters."
 msgstr ""
+"Aquest s'utilitza sovint com un estàndard per a cartells de baixa qualitat."
 
 #: ../../user_manual/working_with_images.rst:94
 msgid "300 PPI"
@@ -162,6 +185,7 @@ msgstr "300 PPP"
 #: ../../user_manual/working_with_images.rst:95
 msgid "This is the minimum you should use for quality prints."
 msgstr ""
+"Aquest és el mínim que haureu d'utilitzar per a impressions de qualitat."
 
 #: ../../user_manual/working_with_images.rst:97
 msgid "600 PPI"
@@ -169,7 +193,7 @@ msgstr "600 PPP"
 
 #: ../../user_manual/working_with_images.rst:97
 msgid "The quality used for line art for comics."
-msgstr ""
+msgstr "La qualitat emprada per a la línia artística dels còmics."
 
 #: ../../user_manual/working_with_images.rst:100
 msgid "Color depth"
@@ -200,7 +224,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:116
 msgid "Author and Description"
-msgstr ""
+msgstr "Autor i descripció"
 
 #: ../../user_manual/working_with_images.rst:119
 msgid ".. image:: images/en/document_information_screen.png"
@@ -228,7 +252,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:133
 msgid "Setting the canvas background color"
-msgstr ""
+msgstr "Ajustar el color de fons del llenç"
 
 #: ../../user_manual/working_with_images.rst:135
 msgid ""
@@ -250,11 +274,12 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:148
 msgid "Basic transforms"
-msgstr ""
+msgstr "Transformacions bàsiques"
 
 #: ../../user_manual/working_with_images.rst:150
 msgid "There are some basic transforms available in the image menu."
 msgstr ""
+"Al menú de la imatge hi ha disponibles algunes transformacions bàsiques."
 
 #: ../../user_manual/working_with_images.rst:152
 msgid "Shear Image"
@@ -262,7 +287,7 @@ msgstr "Inclina la imatge"
 
 #: ../../user_manual/working_with_images.rst:153
 msgid "This will allow you to skew the whole image and its layers."
-msgstr ""
+msgstr "Això permet desplaçar la imatge sencera i les seves capes."
 
 #: ../../user_manual/working_with_images.rst:154
 msgid "Rotate"
@@ -270,11 +295,11 @@ msgstr "Gira"
 
 #: ../../user_manual/working_with_images.rst:155
 msgid "This will allow you to rotate the image and all its layers quickly."
-msgstr ""
+msgstr "Això permet girar la imatge i totes les seves capes AMB rapidesa."
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "Mirror Horizontal/Vertical"
-msgstr ""
+msgstr "Emmiralla horitzontalment/verticalment"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "This will allow you to mirror the whole image with all its layers."
@@ -282,11 +307,11 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:159
 msgid "But there are more options than that..."
-msgstr ""
+msgstr "Però hi ha més opcions que aquestes..."
 
 #: ../../user_manual/working_with_images.rst:162
 msgid "Cropping and resizing the canvas"
-msgstr ""
+msgstr "Escapça i canvia la mida del llenç."
 
 #: ../../user_manual/working_with_images.rst:164
 msgid ""
@@ -324,7 +349,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:185
 msgid "Resizing the canvas"
-msgstr ""
+msgstr "Canviar la mida del llenç"
 
 #: ../../user_manual/working_with_images.rst:187
 msgid ""
@@ -355,7 +380,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:209
 msgid "Resizing the image"
-msgstr ""
+msgstr "Canviar la mida de la imatge"
 
 #: ../../user_manual/working_with_images.rst:211
 msgid ""
@@ -380,7 +405,7 @@ msgstr ".. image:: images/en/Scale_Image_to_New_Size.png"
 
 #: ../../user_manual/working_with_images.rst:226
 msgid "Separating Images."
-msgstr ""
+msgstr "Separar les imatges."
 
 #: ../../user_manual/working_with_images.rst:229
 msgid ".. image:: images/en/Separate_Image.png"
@@ -409,7 +434,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:243
 msgid "Saving, Exporting and Opening Files"
-msgstr ""
+msgstr "Desar, exportar i obrir fitxers"
 
 #: ../../user_manual/working_with_images.rst:245
 msgid ""
