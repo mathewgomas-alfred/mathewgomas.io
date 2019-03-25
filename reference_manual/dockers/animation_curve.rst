@@ -16,14 +16,14 @@ Animation Curves Docker
 
 The Animation Curve docker allows you to edit tweened sections by means of interpolation curves. As of this time of writing, it can only edit opacity.
 
-The idea is that sometimes what you want to animated can be expressed as a value. This allows the computer to do maths on the values, and automate tasks, like interpolation, also known as 'Tweening'. Because these are values, like percentage opacity, and animation happens over time, that means we can visualise the way the values are interpolated as a curve graph, and also edit the graph that way.
+The idea is that sometimes what you want to animate can be expressed as a value. This allows the computer to do maths on the values, and automate tasks, like interpolation, also known as 'Tweening'. Because these are values, like percentage opacity, and animation happens over time, that means we can visualise the way the values are interpolated as a curve graph, and also edit the graph that way.
 
 But, when you first open this docker, there's no curves visible!
-You will first need to add opacity keyframes to the active animation layer. You can do this by using the animation docker and selection 'add new opacity frame'.
+You will first need to add opacity keyframes to the active animation layer. You can do this by using the animation docker and selection :guilabel:`Add new keyframe`.
 
 .. image:: /images/en/Animation_curves_1.png
 
-Opacity should create a bright red curve line in the docker. On the left, in the layer list, you will see that the active layer has an outline of its properties: A red 'opacity' has appeared. Pressing the red dot will hide the current curve, which'll be more useful in the future when more properties can be animated.
+Opacity should create a bright red curve line in the docker. On the left, in the layer list, you will see that the active layer has an outline of its properties: A red :guilabel:`Opacity` has appeared. Pressing the red dot will hide the current curve, which'll be more useful in the future when more properties can be animated.
 
 .. image:: /images/en/Animation_curves_2.png
 
@@ -42,7 +42,7 @@ So, for example, making a 100% opacity keyframe on frame 0 and a 0% opacity one 
 
 .. image:: /images/en/Ghost_linear.gif
 
-If we select frame 12 and press :guilabel:`Add New Keyframe` A new opacity keyframe is added on that spot. We can set this frame to 100% and set frame 0 to 0% for this effect.
+If we select frame 12 and press :guilabel:`Add New Keyframe` a new opacity keyframe will be added on that spot. We can set this frame to 100% and set frame 0 to 0% for this effect.
 
 .. image:: /images/en/Ghost_linear_in-out.gif
 

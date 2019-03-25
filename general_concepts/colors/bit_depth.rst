@@ -40,7 +40,7 @@ In older programs, the computer would have per image, a palette that contains a 
 8bit
     256 colors in total. 8bit images are commonly used in games to save on memory for textures and sprites.
 
-However,  this is not available in Krita. Krita instead works with channels, and counts how many colors per channel you need (described in terms of ''bits per channel''). This is called 'real color'.
+However, this is not available in Krita. Krita instead works with channels, and counts how many colors per channel you need (described in terms of ''bits per channel''). This is called 'real color'.
 
 Real Color
 ----------
@@ -60,7 +60,7 @@ Real Color
 16bit float
     Similar to 16bit, but with more range and less precision. Where 16bit only allows coordinates like [1, 4, 3], 16bit float has coordinates like [0.15, 0.70, 0.3759], with [1.0,1.0,1.0] representing white. Because of the differences between floating point and integer type variables, and because Scene-referred imaging allows for negative values, you have about 10-11bits of precision per channel in 16 bit floating point compared to 16 bit in 16 bit int (this is 2048 values per channel in the 0-1 range). Required for HDR/Scene referred images, and often known as 'half floating point'.
 32bit float
-    similar to 16bit float but with even higher precision. The native color depth of OpenColor IO, and thus faster than 16bit float in HDR images, if not heavier. Because of the nature of floating point type variables, 32bit float is roughly equal to 23-24 bits of precision per channel (16777216 values per channel in the 0-1 range), but with a much wider range (it can go far above 1), necessary for HDR/Scene-referred values. It is also known as 'single floating point'.
+    Similar to 16bit float but with even higher precision. The native color depth of OpenColor IO, and thus faster than 16bit float in HDR images, if not heavier. Because of the nature of floating point type variables, 32bit float is roughly equal to 23-24 bits of precision per channel (16777216 values per channel in the 0-1 range), but with a much wider range (it can go far above 1), necessary for HDR/Scene-referred values. It is also known as 'single floating point'.
 
 
 This is important if you have a working colour space that is larger than your device space: At the least, if you do not want colour banding.

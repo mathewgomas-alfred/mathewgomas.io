@@ -26,7 +26,7 @@ Masked brush is new feature that is only available in the :ref:`pixel_brush_engi
    :align: center
 
 .. note::
-    due to technological constraints, the masked brush only works in the wash painting mode. However, do remember that flow works as opacity does in the build-up painting mode.
+    Due to technological constraints, the masked brush only works in the wash painting mode. However, do remember that flow works as opacity does in the build-up painting mode.
 
 :ref:`option_brush_tip`
     Like with normal brush tip you can choose any brush tip and change it size, spacing, and rotation. Masking brush size is relative to main brush size. This means when you change your brush size masking tip will be changed to keep the ratio.
@@ -52,8 +52,8 @@ Masked brush is new feature that is only available in the :ref:`pixel_brush_engi
 
 .. topic:: Difference from :ref:`option_texture`
 
-    You don’t need seamless texture to make cool looking brush
-    Stroke generates on the fly, it always different
-    Brush strokes looks same on any brush size
-    Easier to fill some areas with solid color but harder to make it hard textured
+    - You don’t need seamless texture to make cool looking brush
+    - Stroke generates on the fly, it always different
+    - Brush strokes looks same on any brush size
+    - Easier to fill some areas with solid color but harder to make it hard textured
  

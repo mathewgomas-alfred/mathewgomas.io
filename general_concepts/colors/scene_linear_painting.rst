@@ -57,7 +57,7 @@ Okay, but why isn’t this all the rage then?
 
 Simply put, because while it’s easier in the long run, you will also have to drop tools and change habits...
 
-In particular, there’s many a tool in a digital painter’s toolbox that has **hard-coded assumptions about black and white**.
+In particular, there are many tools in a digital painter’s toolbox that have **hard-coded assumptions about black and white**.
 
 A very simple but massive problem is one with **inversion**. Inverting colors is done code-wise by taking the color for white and subtracting the color you want to invert from it. It’s used in many blending modes. But often the color white is hardcoded in these filters. There’s currently no application out there that allows you to define the value range that inversion is done with, so inverting is useless. And that also means the filters and blending modes that use it, such as (but not limited to)...
 

@@ -262,7 +262,7 @@ If you like painting, have a decent amount of ram, and are looking to start your
 Exporting
 ---------
 
-when you have finished your image and are ready to export it, you can modify the color space to optimize it:
+When you have finished your image and are ready to export it, you can modify the color space to optimize it:
 
 If you are preparing an image for the web:
 

@@ -34,11 +34,11 @@ Tablet Tester
 
 .. versionadded:: 4.1
 
-This is a special feature for debugging tablet input. When you click on it, it will open a window with two sections. The left section is the **Drawing Area** and the right the **Text Output**.
+This is a special feature for debugging tablet input. When you click on it, it will open a window with two sections. The left section is the **Drawing Area** and the right is the **Text Output**.
 
 If you draw over the Drawing Area, you will see a line appear. If your tablet is working it should be both a red and blue line.
 
-The red line represents mouse events. Mouse events are the most basic event that Krita can pick up. However, mouse events have crude coordinates and have no pressure sensitivity.
+The red line represents mouse events. Mouse events are the most basic events that Krita can pick up. However, mouse events have crude coordinates and have no pressure sensitivity.
 
 The blue line represents the tablet events. The tablet events only show up when Krita can access your tablet. These have more precise coordinates and access to sensors like pressure sensitivity.
 
