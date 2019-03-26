@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-26 00:12+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-IgnoreConsistency: Comment\n"
+"X-POFile-SpellExtra: images image Kritamouseleft alt icons en dx family\n"
+"X-POFile-SpellExtra: text dy kbd font pts DPI size style pt tspan\n"
+"X-POFile-SpellExtra: textkerning guilabel options tooltext kerning tool\n"
+"X-POFile-SpellExtra: spacing letter Enter letterandwordspacing word Krita\n"
+"X-POFile-SpellExtra: Text align example adjust anchor mouseleft\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -30,18 +36,20 @@ msgid ""
 ".. image:: images/icons/text-tool.svg\n"
 "   :alt: tooltext"
 msgstr ""
+".. image:: images/icons/text-tool.svg\n"
+"   :alt: ferramenta de texto"
 
 #: ../../reference_manual/tools/text.rst:0
 msgid ".. image:: images/en/Krita_4_0_text_kerning.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_4_0_text_kerning.png"
 
 #: ../../reference_manual/tools/text.rst:0
 msgid ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
 
 #: ../../reference_manual/tools/text.rst:1
 msgid "Krita's text tool reference."
-msgstr ""
+msgstr "A referência da ferramenta de texto do Krita."
 
 #: ../../reference_manual/tools/text.rst:16
 msgid "Text Tool"
@@ -49,24 +57,24 @@ msgstr "Ferramenta de Texto"
 
 #: ../../reference_manual/tools/text.rst:18
 msgid "|tooltext|"
-msgstr ""
+msgstr "|tooltext|"
 
 #: ../../reference_manual/tools/text.rst:20
 msgid "This tool allows you to add text to your artwork."
-msgstr ""
+msgstr "Esta ferramenta permite-lhe adicionar texto à sua obra."
 
 #: ../../reference_manual/tools/text.rst:22
 msgid ""
 "You use it by doing |mouseleft| + drag to create a rectangular selection. "
 "When releasing |mouseleft| a default text will be created and the text "
 "editor window will pop-up."
-msgstr ""
+msgstr "Pode usá-lo com o |mouseleft| + arrastamento para criar uma selecção rectangular. Ao libertar o |mouseleft|, será criado um texto predefinido e a janela do editor de texto irá aparecer."
 
 #: ../../reference_manual/tools/text.rst:24
 msgid ""
 "Hovering over other text shapes will highlight their bounding box. |"
 "mouseleft| on a highlighted text will select it as the active text."
-msgstr ""
+msgstr "Se passar o cursor sobre outras formas de texto, irá realçar a sua área envolvente. O |mouseleft| sobre um texto realçado seleccioná-lo-á como o texto activo."
 
 #: ../../reference_manual/tools/text.rst:27
 msgid "Tool Options"
@@ -74,13 +82,13 @@ msgstr "Opções da Ferramenta"
 
 #: ../../reference_manual/tools/text.rst:30
 msgid ".. image:: images/en/Krita-tool-options-text.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-tool-options-text.png"
 
 #: ../../reference_manual/tools/text.rst:32
 msgid ""
 "This contains features with which to create new texts, the following items "
 "are available:"
-msgstr ""
+msgstr "Isto contém funcionalidades com as quais poderá criar novos textos, sendo que estão disponíveis os seguintes itens:"
 
 #: ../../reference_manual/tools/text.rst:34
 msgid "Font"
@@ -88,11 +96,11 @@ msgstr "Tipo de Letra"
 
 #: ../../reference_manual/tools/text.rst:35
 msgid "The letter type used by newly created texts."
-msgstr ""
+msgstr "O tipo de letra usado para os textos acabados de criar."
 
 #: ../../reference_manual/tools/text.rst:36
 msgid "Size in pt"
-msgstr ""
+msgstr "Tamanho em pt"
 
 #: ../../reference_manual/tools/text.rst:37
 msgid ""
@@ -100,7 +108,7 @@ msgid ""
 "a common standard for fonts that is measured 72 points per inch. It "
 "therefore will stay proportionally the same size if you increase or decrease "
 "canvas dpi."
-msgstr ""
+msgstr "O tamanho das letras usado pelos textos acabados de criar. O valor é em 'pts' (pontos), que é uma norma comum para os tipos de letra, cujo valor é de 72 pontos por polegada. Como tal, manter-se-á proporcionalmente com o mesmo tamanho se aumentar ou diminuir o valor do DPI da área de desenho."
 
 #: ../../reference_manual/tools/text.rst:38
 msgid "Create new texts with..."
@@ -108,7 +116,7 @@ msgstr "Criar textos novos com..."
 
 #: ../../reference_manual/tools/text.rst:38
 msgid "Anchor/Align text to the left/middle/right"
-msgstr ""
+msgstr "Ancorar/Alinhar o texto à esquerda/centro/direita"
 
 #: ../../reference_manual/tools/text.rst:39
 msgid ""
@@ -116,7 +124,7 @@ msgid ""
 "the right. This is called text-anchor because svg 1.1's multiline text only "
 "uses text-anchor, and this is a slight bit different than text-align (and "
 "also the reason justify isn't available at the moment)."
-msgstr ""
+msgstr "O alinhamento do texto. Isto permite-lhe alinhar o texto à esquerda, centrá-lo ou alinhá-lo à direita. Isto é chamado de âncora do texto, porque o texto multi-linhas do SVG 1.1 só usa o 'text-anchor', e esta é uma ligeira diferença face ao 'text-align' (e também a razão pela qual a justificação do texto não está disponível de momento)."
 
 #: ../../reference_manual/tools/text.rst:41
 msgid "Edit Text"
@@ -127,7 +135,7 @@ msgid ""
 "This will summon the text editor for the currently selected shape. This can "
 "be quickly invoked with either pressing :kbd:`Enter` or Double - |mouseleft| "
 "the shape."
-msgstr ""
+msgstr "Isto irá invocar o editor de texto para a forma seleccionada de momento. O mesmo poderá ser invocado se carregar no :kbd:`Enter` ou fizer duplo-click com o |mouseleft| sobre a forma."
 
 #: ../../reference_manual/tools/text.rst:44
 msgid "Text Editor"
@@ -137,15 +145,15 @@ msgstr "Editor de Texto"
 msgid ""
 "A small window for all your text editing needs. The Text Editor has two "
 "tabs: Rich text and SVG source."
-msgstr ""
+msgstr "Uma pequena janela para todas as suas necessidade de edição de texto. O Editor de Texto tem duas páginas: o Texto Formatado e o Código SVG."
 
 #: ../../reference_manual/tools/text.rst:49
 msgid ".. image:: images/en/Text-editor-example.png"
-msgstr ""
+msgstr ".. image:: images/en/Text-editor-example.png"
 
 #: ../../reference_manual/tools/text.rst:50
 msgid "Activating"
-msgstr ""
+msgstr "Activação"
 
 #: ../../reference_manual/tools/text.rst:52
 msgid ""
@@ -155,20 +163,20 @@ msgid ""
 "area. There is no word wrapping, so for now the box you draw will not have "
 "an effect on the results. Once your text is created, you can edit the text "
 "from two ways:"
-msgstr ""
+msgstr "Poderá usar a ferramenta do Texto para criar uma caixa de texto. Existem algumas opções nas área de opções da ferramenta, caso queira personalizar a forma como será adicionado o texto. Terá de arrastar um rectângulo sobre a área de desenho para criar a área de texto. Não existe nenhuma mudança de linha; por isso, neste momento, a caixa que desenhar não fará nenhum efeito sobre os resultados. Assim que tiver criado o seu texto, poderá editar o texto de duas formas:"
 
 #: ../../reference_manual/tools/text.rst:54
 msgid ""
 "Select the text with the shape selection tool (first tool). Press the :kbd:"
 "`Enter` key. The text editor will appear."
-msgstr ""
+msgstr "Seleccione o texto com a ferramenta de selecção de formas (a primeira ferramenta). Carregue na tecla :kbd:`Enter`. O editor de texto irá aparecer."
 
 #: ../../reference_manual/tools/text.rst:55
 msgid ""
 "Select the text with the shape selection tool (first tool). Then click the "
 "Text tool. In the tool options there is an :guilabel:`Edit Text` button. "
 "When you click that the text editor window will appear."
-msgstr ""
+msgstr "Seleccione o texto com a ferramenta de selecção de formas (a primeira ferramenta). Depois carregue na ferramenta de Texto. Nas opções da ferramenta existe um botão :guilabel:`Editar o Texto`. Quando carregar nele, a janela do editor de texto irá aparecer."
 
 #: ../../reference_manual/tools/text.rst:58
 msgid "Editing"
@@ -179,7 +187,7 @@ msgid ""
 "If you are unfamiliar with the way svg text works, use the rich text tab, it "
 "will allow you to edit the text as you see it, at the cost of not having all "
 "functionality."
-msgstr ""
+msgstr "Se não estiver familiarizado com a forma como o texto em SVG funciona, use a página de texto formatado. Ela permitir-lhe-á editar o texto à medida que o vê, com o custo de não ter todas as funcionalidades."
 
 #: ../../reference_manual/tools/text.rst:60
 msgid ""
@@ -187,13 +195,13 @@ msgid ""
 "the SVG source. Do note that certain things, like stroke, fill, letter-"
 "spacing don't convert back to the rich text editor, so do be careful when "
 "switching back."
-msgstr ""
+msgstr "Se estiver um pouco mais familiarizado com o texto em SVG, poderá editar directamente o código do SVG. Lembre-se que certas coisas, como os traços, o preenchimento, o espaço entre letras não revertem ao editor de texto formatado, por isso tenha cuidado ao voltar atrás."
 
 #: ../../reference_manual/tools/text.rst:62
 msgid ""
 "Press :guilabel:`Save` as you're done with your edits to preview them on "
 "canvas."
-msgstr ""
+msgstr "Carregue em :guilabel:`Gravar` assim que terminar com as suas edições para as antever na área de desenho."
 
 #: ../../reference_manual/tools/text.rst:64
 msgid "File"
@@ -201,104 +209,104 @@ msgstr "Ficheiro"
 
 #: ../../reference_manual/tools/text.rst:66
 msgid "Save :kbd:`Ctrl + S`"
-msgstr ""
+msgstr "Gravar :kbd:`Ctrl + S`"
 
 #: ../../reference_manual/tools/text.rst:67
 msgid "Save current edits to the text on canvas."
-msgstr ""
+msgstr "Grava as edições actuais no texto da área de desenho."
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close :kbd:`Ctrl + W`"
-msgstr ""
+msgstr "Fechar :kbd:`Ctrl + W`"
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close the editor"
-msgstr ""
+msgstr "Fecha o editor"
 
 #: ../../reference_manual/tools/text.rst:72
 msgid "Basic editing functions"
-msgstr ""
+msgstr "Funções básicas de edição"
 
 #: ../../reference_manual/tools/text.rst:74
 msgid "Undo :kbd:`Ctrl + Z`"
-msgstr ""
+msgstr "Desfazer :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/tools/text.rst:75
 msgid "Undo the last action in the text editor."
-msgstr ""
+msgstr "Anula a última acção no editor de texto."
 
 #: ../../reference_manual/tools/text.rst:76
 msgid "Redo :kbd:`Ctrl + Shift + Z`"
-msgstr ""
+msgstr "Refazer :kbd:`Ctrl + Shift + Z`"
 
 #: ../../reference_manual/tools/text.rst:77
 msgid "Redo the last undone action in the text editor."
-msgstr ""
+msgstr "Repete a última acção anulada no editor de texto."
 
 #: ../../reference_manual/tools/text.rst:78
 msgid "Cut :kbd:`Ctrl + X`"
-msgstr ""
+msgstr "Cortar :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/tools/text.rst:79
 msgid "Cut selected text to the clipboard."
-msgstr ""
+msgstr "Corta o texto seleccionado para a área de transferência."
 
 #: ../../reference_manual/tools/text.rst:80
 msgid "Copy :kbd:`Ctrl + C`"
-msgstr ""
+msgstr "Copiar :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/tools/text.rst:81
 msgid "Copy selected text to the clipboard."
-msgstr ""
+msgstr "Copia o texto seleccionado para a área de transferência."
 
 #: ../../reference_manual/tools/text.rst:82
 msgid "Paste :kbd:`Ctrl + V`"
-msgstr ""
+msgstr "Colar :kbd:`Ctrl + V`"
 
 #: ../../reference_manual/tools/text.rst:83
 msgid "Paste text from the clipboard."
-msgstr ""
+msgstr "Cola o texto da área de transferência."
 
 #: ../../reference_manual/tools/text.rst:84
 msgid "Select all :kbd:`Ctrl + A`"
-msgstr ""
+msgstr "Seleccionar tudo :kbd:`Ctrl + A`"
 
 #: ../../reference_manual/tools/text.rst:85
 msgid "Select all text in the active editor."
-msgstr ""
+msgstr "Selecciona todo o texto no editor activo."
 
 #: ../../reference_manual/tools/text.rst:86
 msgid "Deselect :kbd:`Ctrl + Shift + A`"
-msgstr ""
+msgstr "Deseleccionar :kbd:`Ctrl + Shift + A`"
 
 #: ../../reference_manual/tools/text.rst:87
 msgid "Deselect any selected text."
-msgstr ""
+msgstr "Deselecciona todo o texto que esteja seleccionado."
 
 #: ../../reference_manual/tools/text.rst:88
 msgid "Find :kbd:`Ctrl + F`"
-msgstr ""
+msgstr "Procurar :kbd:`Ctrl + F`"
 
 #: ../../reference_manual/tools/text.rst:89
 msgid ""
 "Pops up a window with an input to find the given text in the active editor."
-msgstr ""
+msgstr "Abre uma janela com um campo para procurar o texto indicado no editor activo."
 
 #: ../../reference_manual/tools/text.rst:90
 msgid "Find Next :kbd:`F3`"
-msgstr ""
+msgstr "Procurar o Seguinte :kbd:`F3`"
 
 #: ../../reference_manual/tools/text.rst:91
 msgid "Searches for the next text using the last search key."
-msgstr ""
+msgstr "Procura pelo texto seguinte com a última chave de pesquisa."
 
 #: ../../reference_manual/tools/text.rst:92
 msgid "Find Previous :kbd:`Shift + F3`"
-msgstr ""
+msgstr "Procurar o Anterior :kbd:`Shift + F3`"
 
 #: ../../reference_manual/tools/text.rst:93
 msgid "Searches for the last text using the last search key."
-msgstr ""
+msgstr "Procura pelo texto anterior com a última chave de pesquisa."
 
 #: ../../reference_manual/tools/text.rst:95
 msgid "Edit"
@@ -306,13 +314,13 @@ msgstr "Editar"
 
 #: ../../reference_manual/tools/text.rst:95
 msgid "Replace... :kbd:`Ctrl + R`"
-msgstr ""
+msgstr "Substituir... :kbd:`Ctrl + R`"
 
 #: ../../reference_manual/tools/text.rst:95
 msgid ""
 "Pops up a dialog with two inputs: The string you wish to find, and the "
 "string you wish to replace it with. Will always replace ALL found instances."
-msgstr ""
+msgstr "Abre uma janela com dois campos: O texto que deseja procurar e o texto que deseja usar como substituição. Irá sempre substituir TODAS as instâncias encontradas."
 
 #: ../../reference_manual/tools/text.rst:97
 msgid "View"
@@ -320,19 +328,19 @@ msgstr "Ver"
 
 #: ../../reference_manual/tools/text.rst:99
 msgid "Zoom Out :kbd:`Ctrl + -`"
-msgstr ""
+msgstr "Reduzir :kbd:`Ctrl + -`"
 
 #: ../../reference_manual/tools/text.rst:100
 msgid "Zoom out the text."
-msgstr ""
+msgstr "Reduz o texto."
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom In :kbd:`Ctrl + +`"
-msgstr ""
+msgstr "Ampliar :kbd:`Ctrl + +`"
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom in the text."
-msgstr ""
+msgstr "Amplia o texto."
 
 #: ../../reference_manual/tools/text.rst:104
 msgid "Insert"
@@ -340,13 +348,13 @@ msgstr "Inserir"
 
 #: ../../reference_manual/tools/text.rst:107
 msgid "Special Character... :kbd:`Alt + Shift + C`"
-msgstr ""
+msgstr "Carácter Especial... :kbd:`Alt + Shift + C`"
 
 #: ../../reference_manual/tools/text.rst:107
 msgid ""
 "Pops up a dialog that allows you to search for special characters that are "
 "difficult to type in with your keyboard."
-msgstr ""
+msgstr "Apresenta uma janela que lhe permite procurar por caracteres especiais que sejam difíceis de escrever no seu teclado."
 
 #: ../../reference_manual/tools/text.rst:109
 msgid "Format"
@@ -354,61 +362,61 @@ msgstr "Formato"
 
 #: ../../reference_manual/tools/text.rst:111
 msgid "Bold :kbd:`Ctrl + B`"
-msgstr ""
+msgstr "Negrito :kbd:`Ctrl + B`"
 
 #: ../../reference_manual/tools/text.rst:112
 msgid "Set the font-weight to **bold**."
-msgstr ""
+msgstr "Configura a espessura do texto para **negrito**."
 
 #: ../../reference_manual/tools/text.rst:113
 msgid "Italic :kbd:`Ctrl + I`"
-msgstr ""
+msgstr "Itálico :kbd:`Ctrl + I`"
 
 #: ../../reference_manual/tools/text.rst:114
 msgid "Sets the selected text *italic*."
-msgstr ""
+msgstr "Converte o texto seleccionado em *itálico*."
 
 #: ../../reference_manual/tools/text.rst:115
 msgid "Underline :kbd:`Ctrl + U`"
-msgstr ""
+msgstr "Sublinhado :kbd:`Ctrl + U`"
 
 #: ../../reference_manual/tools/text.rst:116
 msgid "Underline the selected text."
-msgstr ""
+msgstr "Sublinha o texto seleccionado."
 
 #: ../../reference_manual/tools/text.rst:117
 msgid "Strike-Through"
-msgstr ""
+msgstr "Traçado"
 
 #: ../../reference_manual/tools/text.rst:118
 msgid "Adds a strike-through text decoration."
-msgstr ""
+msgstr "Adiciona uma decoração de texto traçado."
 
 #: ../../reference_manual/tools/text.rst:119
 msgid "Superscript :kbd:`Ctrl + Shift + P`"
-msgstr ""
+msgstr "Sobrescrito :kbd:`Ctrl + Shift + P`"
 
 #: ../../reference_manual/tools/text.rst:120
 msgid "Sets the text to super-script baseline."
-msgstr ""
+msgstr "Configura o texto para ficar elevado acima da linha de texto."
 
 #: ../../reference_manual/tools/text.rst:121
 msgid "Subscript :kbd:`Ctrl + Shift + B`"
-msgstr ""
+msgstr "Subscrito :kbd:`Ctrl + Shift + B`"
 
 #: ../../reference_manual/tools/text.rst:122
 msgid "Sets the text to subscript baseline."
-msgstr ""
+msgstr "Configura o texto para ficar abaixo da linha de texto."
 
 #: ../../reference_manual/tools/text.rst:123
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: ../../reference_manual/tools/text.rst:124
 msgid ""
 "Sets the font weight a little more specifically. Possibilities are... Light, "
 "Normal, Bold, and Black."
-msgstr ""
+msgstr "Configura a espessura do texto de uma forma um pouco mais específica. As possibilidades são... Leve, Normal, Negrito e Escuro."
 
 #: ../../reference_manual/tools/text.rst:125
 msgid "Align Left"
@@ -416,23 +424,23 @@ msgstr "Alinhar à Esquerda"
 
 #: ../../reference_manual/tools/text.rst:126
 msgid "Align the selected paragraph to the left."
-msgstr ""
+msgstr "Alinha o parágrafo seleccionado à esquerda."
 
 #: ../../reference_manual/tools/text.rst:127
 msgid "Align Center :kbd:`Ctrl + Alt + C`"
-msgstr ""
+msgstr "Centrar :kbd:`Ctrl + Alt + C`"
 
 #: ../../reference_manual/tools/text.rst:128
 msgid "Center the selected paragraph."
-msgstr ""
+msgstr "Alinha o parágrafo seleccionado ao centro."
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align Right :kbd:`Ctrl + Alt + R`"
-msgstr ""
+msgstr "Alinhar à Direita :kbd:`Ctrl + Alt + R`"
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align the selected paragraph to the right."
-msgstr ""
+msgstr "Alinha o parágrafo seleccionado à direita."
 
 #: ../../reference_manual/tools/text.rst:132
 msgid "Settings"
@@ -444,15 +452,15 @@ msgstr "Configuração..."
 
 #: ../../reference_manual/tools/text.rst:135
 msgid "Calls up the text-editor settings dialog."
-msgstr ""
+msgstr "Invoca a janela de configuração do editor de texto."
 
 #: ../../reference_manual/tools/text.rst:138
 msgid "Text Editor Settings"
-msgstr ""
+msgstr "Configuração do Editor de Texto"
 
 #: ../../reference_manual/tools/text.rst:140
 msgid "The settings that can be configured for the text editor."
-msgstr ""
+msgstr "As definições que podem ser configuradas para o editor de texto."
 
 #: ../../reference_manual/tools/text.rst:142
 msgid "Editor Mode"
@@ -462,11 +470,11 @@ msgstr "Modo do Editor"
 msgid ""
 "Whether you want both the Rich Text Editor and the SVG Source Editor, or "
 "only one of either."
-msgstr ""
+msgstr "Se quer tanto o Editor de Texto Formatado como o Editor de Código SVG ou apenas um deles."
 
 #: ../../reference_manual/tools/text.rst:145
 msgid "Here you can configure the syntax highlighting for the SVG source."
-msgstr ""
+msgstr "Aqui poderá configurar o realce de sintaxe para o código SVG."
 
 #: ../../reference_manual/tools/text.rst:147
 msgid "Keyword"
@@ -474,7 +482,7 @@ msgstr "Palavra-Chave"
 
 #: ../../reference_manual/tools/text.rst:148
 msgid "These highlights important characters like <, /, and >"
-msgstr ""
+msgstr "Isto realça os caracteres importantes como o <, /, e o >"
 
 #: ../../reference_manual/tools/text.rst:149
 msgid "Element"
@@ -484,7 +492,7 @@ msgstr "Elemento"
 msgid ""
 "The format for highlighting the element tag name. **text** and **tspan** are "
 "examples of element names."
-msgstr ""
+msgstr "O formato para realçar o nome da marca do elemento. **text** e **tspan** são exemplos de nomes de elementos."
 
 #: ../../reference_manual/tools/text.rst:151
 msgid "Attribute"
@@ -494,7 +502,7 @@ msgstr "Atributo"
 msgid ""
 "The format for highlighting the attributes of the tag. For example, font-"
 "family, when it isn't in the style tag is usually written as an attribute."
-msgstr ""
+msgstr "O formato para realçar os atributos da marca. Por exemplo, o 'font-family', quando não está na marca 'style', normalmente é escrito como um atributo."
 
 #: ../../reference_manual/tools/text.rst:153
 msgid "Value"
@@ -502,7 +510,7 @@ msgstr "Valor"
 
 #: ../../reference_manual/tools/text.rst:154
 msgid "The format for highlighting value of attributes."
-msgstr ""
+msgstr "O formato para o valor de realce dos atributos."
 
 #: ../../reference_manual/tools/text.rst:155
 msgid "Comment"
@@ -512,15 +520,15 @@ msgstr "Comentário"
 msgid ""
 "This highlights xml comments, which are written as following: ``<!-- This is "
 "an xml comment -->``. Comments are pieces of text that never get interpreted."
-msgstr ""
+msgstr "Isto realça os comentários do XML, que são escritos da seguinte forma: ``<!-- Isto é um comentário em XML -->``. Os comentários são pedaços de texto que nunca ficam interpretados."
 
 #: ../../reference_manual/tools/text.rst:157
 msgid "Editor Text Color"
-msgstr ""
+msgstr "Cor do Texto do Editor"
 
 #: ../../reference_manual/tools/text.rst:158
 msgid "The main color of the editor."
-msgstr ""
+msgstr "A cor principal do editor."
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Colors"
@@ -528,11 +536,11 @@ msgstr "Cores"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Editor background color"
-msgstr ""
+msgstr "Cor de fundo do editor"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "The main background color of the editor."
-msgstr ""
+msgstr "A cor de fundo principal do editor."
 
 #: ../../reference_manual/tools/text.rst:163
 msgid "Fonts"
@@ -545,11 +553,11 @@ msgid ""
 "languages properly, but these might not be useful for you. You just tick the "
 "writing systems which you use yourself, and the font drop-down will only "
 "show fonts that have full support for that language."
-msgstr ""
+msgstr "Isto permite-lhe filtrar a selecção dos tipos de letra no editor pelo sistema de escrita. Alguns sistemas têm um conjunto de tipos de letra específicos para mostrar as línguas estrangeiras de forma adequadas, mas poderão não ser úteis para si. Basta assinalar os sistemas de escrita que usa para si, e as listas de tipos de letra só irão mostrar as que tiverem suporte total para essa língua."
 
 #: ../../reference_manual/tools/text.rst:166
 msgid "Fine typographic control with the SVG Source tab"
-msgstr ""
+msgstr "Controlo tipográfico fino com a página do Código SVG"
 
 #: ../../reference_manual/tools/text.rst:168
 msgid ""
@@ -558,17 +566,17 @@ msgid ""
 "do that, you will first need to go to the text editor settings and enable "
 "either :guilabel:`SVG Source` or :guilabel:`Both`. The Rich Text editor will "
 "lose some information, so if you go all out, use :guilabel:`SVG Source`."
-msgstr ""
+msgstr "Como tal, o editor de texto formatado não consegue controlar todas as funcionalidades que o texto em SVG permite. Para tal, terá de alterar directamente o código em SVG. Mas, para o fazer, primeiro tem de ir à configuração do editor de texto e activar o :guilabel:`Código SVG` ou :guilabel:`Ambos`. O editor de Texto Formatado irá perder alguma informação; por isso, se quer ir com tudo, use o :guilabel:`Código SVG`."
 
 #: ../../reference_manual/tools/text.rst:171
 msgid "Word-spacing, Letter-spacing and Kerning"
-msgstr ""
+msgstr "Espaço entre palavras, entre letras e sobreposição"
 
 #: ../../reference_manual/tools/text.rst:173
 msgid ""
 "These three are written and read from the rich text tab, but have no sliders "
 "associated with them, because there was no time."
-msgstr ""
+msgstr "Estes três são gravados e lidos da página de texto formatado, mas não têm barras associadas a eles, porque não houve tempo."
 
 #: ../../reference_manual/tools/text.rst:176
 msgid ""
@@ -576,22 +584,22 @@ msgid ""
 "Kerning>`_ behaves slightly differently than font-kerning in css. Krita by "
 "default uses the auto property for this, which means it is on. To turn it "
 "off use kerning:0 in the style section of the text."
-msgstr ""
+msgstr "A `Sobreposição, no SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty Kerning>`_ comporta-se de forma ligeiramente diferente do 'font-kerning' do CSS. O Krita usa por omissão a propriedade 'auto' para isto, o que significa que está ligado. Para desligar a sobreposição, use 'kerning:0' na secção de estilo do texto."
 
 #: ../../reference_manual/tools/text.rst:185
 msgid "Kerning"
-msgstr ""
+msgstr "Sobreposição"
 
 #: ../../reference_manual/tools/text.rst:187
 msgid "Letter-spacing"
-msgstr ""
+msgstr "Espaço entre letras"
 
 #: ../../reference_manual/tools/text.rst:188
 msgid ""
 "This is the distance between letters in pts, usually. Just write ``letter-"
 "spacing`` in the style and add a distance in pts behind it. A negative value "
 "will decrease the value between words."
-msgstr ""
+msgstr "Esta é a distância entre letras em pontos, normalmente. Basta escrever ``letter-spacing`` no estilo e adicionar uma distância em 'pt' atrás dela. Um valor negativo irá diminuir o valor entre palavras."
 
 #: ../../reference_manual/tools/text.rst:190
 msgid ""
@@ -599,15 +607,15 @@ msgid ""
 "``word-spacing: 0;`` will have it use only the width of the space character "
 "for that font. A negative value will decrease the amount of space between "
 "words:"
-msgstr ""
+msgstr "Esta é a distância extra entre palavras, que será por omissão em 'pts' (pontos). Por omissão, o ``word-spacing: 0;`` irá usar apenas a largura do carácter de espaço para esse tipo de letra. Um valor negativo irá diminuir a quantidade de espaço entre palavras:"
 
 #: ../../reference_manual/tools/text.rst:204
 msgid "Word-spacing"
-msgstr ""
+msgstr "Espaço entre palavras"
 
 #: ../../reference_manual/tools/text.rst:207
 msgid "x, y, dx, dy"
-msgstr ""
+msgstr "x, y, dx, dy"
 
 #: ../../reference_manual/tools/text.rst:209
 msgid ""
@@ -615,52 +623,52 @@ msgid ""
 "However, they CANNOT be reliably converted to the format of the rich text "
 "editor, because the rich text editor uses these to figure out if a line is a "
 "new-line and thus writes to these."
-msgstr ""
+msgstr "Estes são controlos ainda mais detalhados que podem ser usados para posicionar o texto. Contudo, NÃO podem ser convertidos de forma fiável para o formato do editor de texto formatado, porque este editor usa-as para descobrir se uma linha é uma nova linha e se escreve então para estas."
 
 #: ../../reference_manual/tools/text.rst:211
 msgid "X and Y"
-msgstr ""
+msgstr "X e Y"
 
 #: ../../reference_manual/tools/text.rst:212
 msgid ""
 "X and Y are absolute coordinates. But because you cannot change the absolute "
 "coordinates of the text from the editor, these get added to the position "
 "when they show up in a tspan."
-msgstr ""
+msgstr "O X e o Y são coordenadas absolutas. Mas como não consegue mudar as coordenadas absolutas do texto no editor, estas são adicionadas à posição onde aparecem num 'tspan'."
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "dx and dy"
-msgstr ""
+msgstr "dx e dy"
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "These are relative coordinates to the position of the previous letter."
-msgstr ""
+msgstr "Estas são as coordenadas relativas à posição da letra anterior."
 
 #: ../../reference_manual/tools/text.rst:217
 msgid "Font-stretch and Small-caps"
-msgstr ""
+msgstr "Esticamento do texto e Capitalização"
 
 #: ../../reference_manual/tools/text.rst:219
 msgid ""
 "These can also be stored and written to the rich text tab's internal format, "
 "but they don't get used in the on screen text object."
-msgstr ""
+msgstr "Estas também poderão ser gravadas e lidas no formato interno da página de texto formatado, mas não são usadas no objecto de texto no ecrã."
 
 #: ../../reference_manual/tools/text.rst:222
 msgid ""
 "Dominant Baseline, Alignment baseline, Font-size-adjust, Writing mode, Glyph-"
 "orientation, rotate"
-msgstr ""
+msgstr "Linha de base dominante, Linha de base do alinhamento, Ajuste do tamanho do texto, Modo de escrita, Orientação dos símbolos, Rotação"
 
 #: ../../reference_manual/tools/text.rst:224
 msgid ""
 "These are not stored in the rich text right now, and while they can be "
 "written into the SVG text, the SVG text-shape doesn't do anything with them."
-msgstr ""
+msgstr "Estas não são gravadas no texto formatado neste momento e, embora possam ser gravadas no texto em SVG, a forma do texto não fará nada com elas."
 
 #: ../../reference_manual/tools/text.rst:226
 msgid ""
 "Krita generates font-size-adjust for the font when coming from rich text, as "
 "this can help designers when they want to use the SVG source as a basis for "
 "later adjustments."
-msgstr ""
+msgstr "O Krita gera um 'font-size-adjust' para o texto quando vier do texto formatado, dado que isto poderá ajudar os 'designers' quando quiserem usar o código em SVG como base para ajustes posteriores."

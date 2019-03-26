@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___loading_saving_brushes\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"POT-Creation-Date: 2019-03-25 03:46+0100\n"
 "PO-Revision-Date: 2019-03-24 09:17+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -20,13 +20,13 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../user_manual/loading_saving_brushes.rst:0
-msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
-msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
-
 #: ../../user_manual/loading_saving_brushes.rst:None
 msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
 msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+
+#: ../../user_manual/loading_saving_brushes.rst:0
+msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -85,7 +85,6 @@ msgstr ""
 "пензля."
 
 #: ../../user_manual/loading_saving_brushes.rst:37
-#| msgid "The Brush settings dropdown"
 msgid "The Brush settings drop-down"
 msgstr "Спадний список властивостей пензля"
 
@@ -108,12 +107,10 @@ msgstr ""
 "Після відкриття панелі редактора параметрів пензля ви побачите щось таке:"
 
 #: ../../user_manual/loading_saving_brushes.rst:48
-#| msgid "Tour of the brush settings dropdown"
 msgid "Tour of the brush settings drop-down"
 msgstr "Огляд спадного списку параметрів пензля"
 
 #: ../../user_manual/loading_saving_brushes.rst:53
-#| msgid "The brush settings drop down is divided into six areas,"
 msgid "The brush settings drop-down is divided into six areas,"
 msgstr "Спадну панель параметрів пензля поділено на шість областей:"
 
@@ -409,11 +406,6 @@ msgid "Section B - The Preset Chooser"
 msgstr "Розділ B — Засіб вибору набору пензлів"
 
 #: ../../user_manual/loading_saving_brushes.rst:169
-#| msgid ""
-#| "The preset chooser is much the same as the preset docker and the preset "
-#| "dropdown on :kbd:`F6`. It's unique in that it allows you to filter by "
-#| "engine and this is also where you can create brushes for an engine from "
-#| "scratch."
 msgid ""
 "The preset chooser is much the same as the preset docker and the preset drop-"
 "down on :kbd:`F6`. It's unique in that it allows you to filter by engine and "
@@ -434,10 +426,6 @@ msgstr ""
 "ліворуч від пункту рушія пензлів, щоб програма показала його."
 
 #: ../../user_manual/loading_saving_brushes.rst:177
-#| msgid ""
-#| "The top drop down is set to “all” by default, which means it shows all "
-#| "engines. It then shows a tag section where you can select the tags, the "
-#| "preset list and the search bar."
 msgid ""
 "The top drop-down is set to “all” by default, which means it shows all "
 "engines. It then shows a tag section where you can select the tags, the "
@@ -471,10 +459,6 @@ msgid "Section C - The Scratch pad"
 msgstr "Розділ C — Нотатник для чернеток"
 
 #: ../../user_manual/loading_saving_brushes.rst:191
-#| msgid ""
-#| "When you tweak your brushes, you want to be able to check what each "
-#| "setting does. That's why, to the right of the settings drop down, there "
-#| "is a scratch pad."
 msgid ""
 "When you tweak your brushes, you want to be able to check what each setting "
 "does. That's why, to the right of the settings drop-down, there is a scratch "
@@ -1214,12 +1198,6 @@ msgstr ""
 "до теки з файлом kpp і відкрийте його, щоб імпортувати дані."
 
 #: ../../user_manual/loading_saving_brushes.rst:464
-#| msgid ""
-#| "If there are brush tips and patterns coming with the file, do the same "
-#| "with pattern via the pattern docker, and for the brush-tip go to the "
-#| "settings dropdown (:kbd:`F5`) and then go to the “brush-tip” option. "
-#| "There, select predefined brush, and then the “import” button to call up "
-#| "the file dialog."
 msgid ""
 "If there are brush tips and patterns coming with the file, do the same with "
 "pattern via the pattern docker, and for the brush-tip go to the settings "
