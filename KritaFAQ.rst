@@ -435,6 +435,15 @@ Slowdown after a been working for a while
 
 Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of RAM in :menuselection:`Settings --> Configure Krita --> Performance --> Advanced Tab`.
 
+Animation
+=========
+
+Why is my animation black in my video player
+--------------------------------------------
+
+You did not render the animation using the "baseline" option and you are using the default Windows media player. Re-render using the baseline option or use a better video player application, like VLC. Check `this useful diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-manual-783473428>`__
+
+
 Tools
 =====
 
