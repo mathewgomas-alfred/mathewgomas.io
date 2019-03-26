@@ -222,8 +222,8 @@ on the links and the two halves will separate.
 .. image:: /images/en/Scale_Image_to_New_Size.png
 
 
-Separating Images.
-~~~~~~~~~~~~~~~~~~
+Separating Images
+~~~~~~~~~~~~~~~~~
 
 .. image:: /images/en/Separate_Image.png
 

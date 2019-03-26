@@ -32,7 +32,7 @@ Simply put:
 
 You can:
 
-* Use different shapes for different effects.Be aware that complex brush shapes will draw more slowly though, while the effects aren't always visible (since in the end, you're passing over an area with a certain number of bristles).
+* Use different shapes for different effects. Be aware that complex brush shapes will draw more slowly though, while the effects aren't always visible (since in the end, you're passing over an area with a certain number of bristles).
 * To decrease bristle density, you can also just use an autobrush and decrease the brush tip's density, or increase its randomness.
 
 .. image:: /images/en/Krita-tutorial7-B.I.1.png
@@ -91,7 +91,7 @@ Saturation
     .. image:: /images/en/Krita-tutorial7-B.I.3-1.png
 
 Soak Ink
-    The brush will pick up colors from other brushes. You don't need to have Ink depletion checked to activate this option, you just have to check Soak Ink. What this does is cause the bristles of the brush to take on the colors of the first area they touch. Since the Bristle brush is made up of independent bristles, you can basically take on several colors at the same time.
+    The brush will pick up colors from other brushes. You don't need to have :guilabel:`Ink depletion` checked to activate this option, you just have to check :guilabel:`Soak ink`. What this does is cause the bristles of the brush to take on the colors of the first area they touch. Since the Bristle brush is made up of independent bristles, you can basically take on several colors at the same time.
 
     .. note::
         
@@ -103,7 +103,7 @@ Soak Ink
     .. warning::
         Be aware that this feature is a bit buggy though. It's supposed to take the color from the current layer, but some buggy behavior causes it to often use the last layer you've painted on (with a non-Bristle brush?) as source. To avoid these weird behaviors, stick to just one layer, or paint something on the current active layer first with another brush (such as a Pixel brush).
 
-Weighted saturation.
+Weighted saturation
     Works by modifying the saturation with the following:
     
     * Pressure weight

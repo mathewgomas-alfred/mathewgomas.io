@@ -20,7 +20,7 @@ The palette docker displays various color swatches for quick use. Since 4.0, it 
 
 .. image:: /images/en/Palette-docker.png
 
-You can choose from various default palette or you can add your own colors to the palette.
+You can choose from various default palettes or you can add your own colors to the palette.
 
 To choose from the default palettes click on the icon in the bottom left corner of the docker, it will show a list of pre-loaded color palettes.
 You can click on one and to load it into the docker, or click on import resources (folder icon) to load your own color palette. Creating a new palette can be done by filling out the :guilabel:`name` input, pressing :guilabel:`Save` and selecting your new palette from the list.

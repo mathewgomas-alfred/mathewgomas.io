@@ -50,8 +50,8 @@ Onion Skin
 Layer Style
     This is only available on layers which have a :ref:`layer_style` assigned. The button allows you to switch between on/off quickly.
 
-To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press :kbd:`F3`
-There, to change the names of all layers, the checkbox before :guilabel:`name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer-names. You can change other layer properties like visibility, opacity, lock states etc too.
+To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press :kbd:`F3`.
+There, to change the names of all layers, the checkbox before :guilabel:`Name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer names. You can change other layer properties like visibility, opacity, lock states, etc. too.
 
 .. image:: /images/en/Krita-multi-layer-edit.png
 
