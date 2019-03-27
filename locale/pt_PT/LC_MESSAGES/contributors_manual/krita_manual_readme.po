@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"PO-Revision-Date: 2019-03-26 17:31+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,18 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: phabricator krita Online diff repository POT program\n"
+"X-POFile-SpellExtra: draft master ref kritamarkupconventions Identity\n"
+"X-POFile-SpellExtra: Auditar Sphinx restructuredText versionchanged org\n"
+"X-POFile-SpellExtra: makingchangessphinx grep Phabricator Krita deprecated\n"
+"X-POFile-SpellExtra: documentation Mediawiki bugzilla kimageshop\n"
+"X-POFile-SpellExtra: versionadded push Diff ePub\n"
 
 #: ../../contributors_manual/krita_manual_readme.rst:1
 msgid "Contributor's Readme for the Krita Manual"
-msgstr ""
+msgstr "README dos Contribuintes para o Manual do Krita"
 
 #: ../../contributors_manual/krita_manual_readme.rst:24
 msgid "Krita Manual Contribution Guide"
-msgstr ""
+msgstr "Guia de Contribuições para o Manual do Krita"
 
 #: ../../contributors_manual/krita_manual_readme.rst:26
 msgid "Welcome to our new documentation!"
-msgstr ""
+msgstr "Bem-vindo(a) à nossa nova documentação!"
 
 #: ../../contributors_manual/krita_manual_readme.rst:28
 msgid ""
@@ -38,17 +44,17 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:30
 msgid "The manual will include:"
-msgstr ""
+msgstr "O manual irá incluir:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:32
 msgid "A reference manual for Krita"
-msgstr ""
+msgstr "Um manual de referência para o Krita"
 
 #: ../../contributors_manual/krita_manual_readme.rst:33
 msgid ""
 "This one is probably what everyone is expecting when they type in docs.krita."
 "org. Dry, basic, 'what does this button do' type of information."
-msgstr ""
+msgstr "Este é o que provavelmente todos estarão à espera quando escreverem 'docs.krita.org'. Directo, básico, com informações do tipo 'o que faz este botão'."
 
 #: ../../contributors_manual/krita_manual_readme.rst:35
 msgid ""
@@ -69,7 +75,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:38
 msgid "General concept tutorials."
-msgstr ""
+msgstr "Tutoriais com conceitos gerais."
 
 #: ../../contributors_manual/krita_manual_readme.rst:39
 msgid ""
@@ -82,7 +88,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:40
 msgid "A list of known tutorials and video tutorials"
-msgstr ""
+msgstr "Uma lista com tutoriais conhecidos e vídeos."
 
 #: ../../contributors_manual/krita_manual_readme.rst:41
 msgid ""
@@ -95,7 +101,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:42
 msgid "Contributor's Manual"
-msgstr ""
+msgstr "Manual do Contribuinte"
 
 #: ../../contributors_manual/krita_manual_readme.rst:43
 msgid ""
@@ -110,14 +116,14 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:44
 msgid "krita.org tutorials"
-msgstr ""
+msgstr "Tutoriais do krita.org"
 
 #: ../../contributors_manual/krita_manual_readme.rst:45
 msgid ""
 "There have been a bunch of tutorials on the krita.org and the krita-"
 "foundation.tumblr.com, the former focusing on explaining how to use a new "
 "feature and the later stimulated by user request."
-msgstr ""
+msgstr "Foram feitos alguns tutoriais no krita.org e no krita-foundation.tumblr.com, focando-se o primeiro na explicação de uma nova funcionalidade e o último foi resultante de pedidos de utilizadores."
 
 #: ../../contributors_manual/krita_manual_readme.rst:47
 msgid "FAQ"
@@ -132,11 +138,11 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:50
 msgid "For first timers"
-msgstr ""
+msgstr "Para os primeiros utilizadores"
 
 #: ../../contributors_manual/krita_manual_readme.rst:52
 msgid "Unlike Mediawiki, Sphinx works more like how we write code for Krita."
-msgstr ""
+msgstr "Ao contrário do Mediawiki, o Sphinx funciona mais como se escrevêssemos código para o Krita."
 
 #: ../../contributors_manual/krita_manual_readme.rst:54
 msgid ""
@@ -152,7 +158,7 @@ msgstr ""
 msgid ""
 "If you have no idea where to begin, make a Kde identity account and make a "
 "post on `the forum <https://forum.kde.org/viewforum.php?f=136>`_."
-msgstr ""
+msgstr "Se não tiver nenhuma ideia por onde começar, crie uma conta no Identity do KDE e faça uma publicação no `fórum <https://forum.kde.org/viewforum.php?f=136>`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:58
 msgid ""
@@ -164,44 +170,44 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:63
 msgid "Making changes"
-msgstr ""
+msgstr "Fazer alterações"
 
 #: ../../contributors_manual/krita_manual_readme.rst:65
 msgid ""
 "Because we use Git, there's only a few people who can put things into the "
 "version control system, so if you want to make changes you will need to put "
 "it up for review."
-msgstr ""
+msgstr "Dado que usamos o Git, existem só algumas pessoas que conseguem colocar coisas no sistema de controlo de versões; por isso, se quiser fazer alterações, terá de as disponibilizar para revisão."
 
 #: ../../contributors_manual/krita_manual_readme.rst:68
 msgid "If you are not familiar with Git"
-msgstr ""
+msgstr "Se estiver familiarizado com o Git"
 
 #: ../../contributors_manual/krita_manual_readme.rst:70
 msgid "Get the source text from the `repository`_."
-msgstr ""
+msgstr "Transfira o texto do código a partir do `repository`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:72
 msgid "Save a copy of the text as it existed originally."
-msgstr ""
+msgstr "Grave uma cópia do texto, como existia originalmente."
 
 #: ../../contributors_manual/krita_manual_readme.rst:74
 msgid "Modify it."
-msgstr ""
+msgstr "Modifique-o."
 
 #: ../../contributors_manual/krita_manual_readme.rst:75
 msgid "Tools to check whether your modifications work."
-msgstr ""
+msgstr "Ferramentas para verificar se as suas modificações resultam."
 
 #: ../../contributors_manual/krita_manual_readme.rst:77
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break"
-msgstr ""
+msgstr "Poderá usar o `Editor Online do Sphinx <https://livesphinx.herokuapp.com/>`_ para verificar se as suas alterações não estragam nada"
 
 #: ../../contributors_manual/krita_manual_readme.rst:79
 msgid "Bundle up the items into a zip."
-msgstr ""
+msgstr "Reúna todos os itens num ZIP."
 
 #: ../../contributors_manual/krita_manual_readme.rst:81
 msgid ""
@@ -212,15 +218,15 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:83
 msgid "Upload the zip on phabricator."
-msgstr ""
+msgstr "Envie o ZIP para o Phabricator."
 
 #: ../../contributors_manual/krita_manual_readme.rst:85
 msgid "First, go to phabricator.kde.org and log in with your identity account."
-msgstr ""
+msgstr "Primeiro vá a phabricator.kde.org e autentique-se com a sua conta do Identity."
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
 msgid "Go to the `Manual Project Workboard`_ and there create a new task."
-msgstr ""
+msgstr "Vá ao `Quadro do Projecto do Manual`_ e crie lá uma nova tarefa."
 
 #: ../../contributors_manual/krita_manual_readme.rst:87
 msgid ""
@@ -238,45 +244,45 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:91
 msgid "If you are familiar with Git"
-msgstr ""
+msgstr "Se estiver familiarizado com o Git"
 
 #: ../../contributors_manual/krita_manual_readme.rst:93
 msgid "Get the source from the `repository`_ using :program:`Git` clone"
-msgstr ""
+msgstr "Transfira o código do `repository`_ com o :program:`Git` clone"
 
 #: ../../contributors_manual/krita_manual_readme.rst:94
 msgid "Make changes"
-msgstr ""
+msgstr "Faça as alterações"
 
 #: ../../contributors_manual/krita_manual_readme.rst:95
 msgid "Build locally (optional)"
-msgstr ""
+msgstr "Compile localmente (opcional)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:96
 msgid "Generate a git diff."
-msgstr ""
+msgstr "Crie um 'git diff'."
 
 #: ../../contributors_manual/krita_manual_readme.rst:98
 msgid ""
 "Go to the source directory in your terminal and write ``git diff > ../mydiff."
 "diff`` this will make a diff file in the folder above."
-msgstr ""
+msgstr "Vá à pasta de código no seu terminal e escreva``git diff > ../diferencas.diff``. Isto irá criar um ficheiro do Diff na pasta acima."
 
 #: ../../contributors_manual/krita_manual_readme.rst:100
 msgid "Create a review request on phabricator"
-msgstr ""
+msgstr "Crie um pedido de revisão no Phabricator"
 
 #: ../../contributors_manual/krita_manual_readme.rst:102
 msgid "Login into `phabricator`_ with your identity account."
-msgstr ""
+msgstr "Autentique-se no `phabricator`_ com a sua conta do Identity."
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
 msgid "Go to differential."
-msgstr ""
+msgstr "Vá ao diferencial."
 
 #: ../../contributors_manual/krita_manual_readme.rst:104
 msgid "Upper-right --> \"Star\" menu --> Create Review Request."
-msgstr ""
+msgstr "Canto superior-direito --> Menu \"estrela\" --> Criar um Pedido de Revisão."
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid ""
@@ -287,33 +293,33 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:106
 msgid "Confirm the file is correct."
-msgstr ""
+msgstr "Confirme que o ficheiro está correcto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:107
 msgid "Then in the next screen:"
-msgstr ""
+msgstr "Depois, no ecrã seguinte:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:109
 msgid "Add in Title/Short Summary."
-msgstr ""
+msgstr "Adicione no Título/Resumo Curto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
 msgid "Tell us what you changed in the summary."
-msgstr ""
+msgstr "Diga-nos o que alterou no resumo."
 
 #: ../../contributors_manual/krita_manual_readme.rst:111
 msgid "(Optional) put your email in the comment if you want attribution."
-msgstr ""
+msgstr "(Opcional) coloque o seu e-mail no comentário, caso deseje alguma atribuição."
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid ""
 "Phabricator has a system that automatically tags the review request with the "
 "Krita Manual team."
-msgstr ""
+msgstr "O Phabricator tem um sistema que marca automaticamente o pedido de revisão com a equipa do Manual do Krita."
 
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid "General philosophy"
-msgstr ""
+msgstr "Filosofia geral"
 
 #: ../../contributors_manual/krita_manual_readme.rst:117
 msgid ""
@@ -325,7 +331,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:120
 msgid "Demographics and target audience(s)"
-msgstr ""
+msgstr "Demografia e audiências-alvo"
 
 #: ../../contributors_manual/krita_manual_readme.rst:122
 msgid ""
@@ -336,33 +342,33 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:124
 msgid "Despite that, we know a couple of things about our users:"
-msgstr ""
+msgstr "Apesar disso, sabemos algumas coisas sobre os nossos utilizadores:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:126
 msgid "They are artists. This is explicitly the type of users that we target."
-msgstr ""
+msgstr "Eles são artistas. Isto é explicitamente o tipo de utilizadores em que nos focamos."
 
 #: ../../contributors_manual/krita_manual_readme.rst:128
 msgid "Therefore, we know they prefer pretty pictures."
-msgstr ""
+msgstr "Como tal, sabemos que eles preferem imagens bonitas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:129
 msgid "They are visual."
-msgstr ""
+msgstr "Eles são visuais."
 
 #: ../../contributors_manual/krita_manual_readme.rst:130
 msgid "They are trying to achieve pretty pictures."
-msgstr ""
+msgstr "Eles estão a tentar obter imagens bonitas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:132
 msgid ""
 "Therefore, the implicit goal of each page would be to get the feature used "
 "for pretty pictures."
-msgstr ""
+msgstr "Como tal, o objectivo implícito de cada página seria obter a funcionalidade usada para imagens bonitas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:134
 msgid "Other than that, we've observed the following groups:"
-msgstr ""
+msgstr "Para além disso, observámos os seguintes grupos:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:136
 msgid ""
@@ -409,52 +415,52 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:144
 msgid "From these four groups..."
-msgstr ""
+msgstr "A partir destes quatro grupos..."
 
 #: ../../contributors_manual/krita_manual_readme.rst:146
 msgid ""
 "there's only one that is technical. Which is why we need the concept pages, "
 "so that we can create a solid base to write our manual texts on top of."
-msgstr ""
+msgstr "só existe um que é técnico. É por isso que precisamos das páginas do conceito, para que possamos criar uma base sólida para escrever os nossos textos do manual."
 
 #: ../../contributors_manual/krita_manual_readme.rst:147
 msgid ""
 "three of them likely have previous experience with software and may need "
 "migration guides and be told how."
-msgstr ""
+msgstr "três deles provavelmente terão alguma experiência prévia com as aplicações e poderão necessitar de guias de migração e explicar como se faz."
 
 #: ../../contributors_manual/krita_manual_readme.rst:148
 msgid ""
 "two of them need to know how to get Krita to cooperate with other software."
-msgstr ""
+msgstr "dois deles precisam de saber como ter o Krita a cooperar com outras aplicações."
 
 #: ../../contributors_manual/krita_manual_readme.rst:149
 msgid ""
 "two of them have no clue what they are doing and may need to be guided "
 "through the most basic of steps."
-msgstr ""
+msgstr "dois deles não fazem a ideia do que estão a fazer e poderão ter de ser conduzidos pelos passos mais básicos."
 
 #: ../../contributors_manual/krita_manual_readme.rst:151
 msgid "From that we can get the following rules:"
-msgstr ""
+msgstr "A partir daí, ficamos com as seguintes regras:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:154
 msgid "General Writing"
-msgstr ""
+msgstr "Escrita Geral"
 
 #: ../../contributors_manual/krita_manual_readme.rst:156
 msgid "Use American English if possible."
-msgstr ""
+msgstr "Use o Inglês dos EUA, se possível."
 
 #: ../../contributors_manual/krita_manual_readme.rst:157
 msgid ""
 "We use American English in the manual, in accordance to Krita's UI being "
 "American English by default."
-msgstr ""
+msgstr "Usamos o Inglês dos EUA no manual, de acordo com a interface do Krita ser em Inglês dos EUA por omissão."
 
 #: ../../contributors_manual/krita_manual_readme.rst:158
 msgid "Keep the language polite, but do not use academic language."
-msgstr ""
+msgstr "Mantenha a linguagem educada, mas não use linguagem académica."
 
 #: ../../contributors_manual/krita_manual_readme.rst:159
 msgid ""
@@ -467,7 +473,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:160
 msgid "Avoid using gifs (open for debate)"
-msgstr ""
+msgstr "Evite usar GIF's (aberto a debate)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:161
 msgid ""
@@ -475,21 +481,21 @@ msgid ""
 "images. Similarly, gifs can sometimes carry too much of the burden of "
 "explanation. If you can't help but use gifs, at the least notify the reader "
 "of this in the introduction of the page."
-msgstr ""
+msgstr "A razão é que as pessoas com epilepsia podem ser afectadas por imagens em movimento rápido. De forma semelhante, os GIF's podem às vezes trazer muita da responsabilidade da explicação. Se não conseguir outra forma que não seja através de GIF's, ao menos notifique o leitor deste facto na introdução da página."
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid "Keep it translation compatible"
-msgstr ""
+msgstr "Mantenha o texto compatível com traduções"
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
 "This consists of using svg for infographics, and using the appropriate "
 "markup for a given text."
-msgstr ""
+msgstr "Isto consiste no uso do SVG para gráficos informativos, e usando a formatação adequada para um dado texto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:166
 msgid "Regarding photos and paintings"
-msgstr ""
+msgstr "Detalhes sobre as fotografias e pinturas"
 
 #: ../../contributors_manual/krita_manual_readme.rst:168
 msgid ""
@@ -516,29 +522,29 @@ msgstr ""
 msgid ""
 "Photos can still be used for photobashing and the like, but only if it's "
 "obviously used in the context of photobashing."
-msgstr ""
+msgstr "As fotografias ainda podem continuar a ser usadas para fins lúdicos ou outros fins semelhantes, mas só se estiver obviamente nesse contexto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:173
 msgid "Regarding images in general"
-msgstr ""
+msgstr "Detalhes sobre as imagens em geral"
 
 #: ../../contributors_manual/krita_manual_readme.rst:175
 msgid ""
 "Avoid text in the images and use the caption instead. You can do this with "
 "the figure directive."
-msgstr ""
+msgstr "Evite texto nas imagens e use os títulos em alternativa. Poderá fazer isto com a instrução 'figure'."
 
 #: ../../contributors_manual/krita_manual_readme.rst:176
 msgid ""
 "If you do need to use text, make either an SVG, so the text inside can be "
 "manipulated easier, or try to minimize the amount of text."
-msgstr ""
+msgstr "Se não precisar de usar o texto, crie um SVG, para que o texto dentro dele possa ser manipulado com maior facilidade ou tente minimizar a quantidade de texto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:177
 msgid ""
 "Try to make your images high quality/cute. Let's give people the idea that "
 "they are using a program for drawing!"
-msgstr ""
+msgstr "Tente criar as suas imagens com alta qualidade/bonitas. Convém dar a ideia às pessoas de que estão a usar um programa de desenho!"
 
 #: ../../contributors_manual/krita_manual_readme.rst:178
 msgid ""
@@ -554,96 +560,96 @@ msgstr "Protocolo"
 
 #: ../../contributors_manual/krita_manual_readme.rst:183
 msgid "So here we line out all the boring workflows."
-msgstr ""
+msgstr "Como tal, iremos descrever aqui todos os procedimentos aborrecidos."
 
 #: ../../contributors_manual/krita_manual_readme.rst:186
 msgid "Tagging and Branches"
-msgstr ""
+msgstr "Marcação e Ramificações"
 
 #: ../../contributors_manual/krita_manual_readme.rst:188
 msgid "Adding and removing text will be done in the ``draft`` branch."
-msgstr ""
+msgstr "A adição e remoção de texto será feita na ramificação ``draft``."
 
 #: ../../contributors_manual/krita_manual_readme.rst:190
 msgid ""
 "Proofreading results for old pages will be considered as bugfixes and thus "
 "will go into the ``master`` branch and merged into the ``draft`` branch as "
 "necessary."
-msgstr ""
+msgstr "Os resultados de revisão das páginas antigas serão considerados correcções de erros e, como tal, irão para a ramificação ``master`` e serão reunidas com a ramificação ``draft`` de acordo com as necessidades."
 
 #: ../../contributors_manual/krita_manual_readme.rst:192
 msgid "Before the ``draft`` branch is merged for a given release:"
-msgstr ""
+msgstr "Antes de a ramificação ``draft`` ser reunida para uma dada versão:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:194
 msgid "The master branch will be tagged with the old version."
-msgstr ""
+msgstr "A ramificação ``master`` será marcada com a versão antiga."
 
 #: ../../contributors_manual/krita_manual_readme.rst:195
 msgid ""
 "The draft branch is first double checked that it has updated version number "
 "and updated epub cover."
-msgstr ""
+msgstr "A ramificação ``draft`` é verificada com atenção para saber se tem o número de versão actualizado e se actualizou a capa do ePub."
 
 #: ../../contributors_manual/krita_manual_readme.rst:197
 msgid ""
 "The ``draft`` branch will not be merged until the day before a release to "
 "keep the pages intact for long enough."
-msgstr ""
+msgstr "A ramificação ``draft`` não será reunida até ao dia antes de um dado lançamento, para manter as páginas intactas durante algum tempo."
 
 #: ../../contributors_manual/krita_manual_readme.rst:199
 msgid ""
 "Each release will have a version of the epub uploaded as part of the release "
 "process. .. Where do we get the POT files from? Even the translated versions?"
-msgstr ""
+msgstr "Cada lançamento terá uma versão do ePub enviada como parte do processo de migração... De onde é que obtemos os ficheiros POT? Mesmo as versões traduzidas?"
 
 #: ../../contributors_manual/krita_manual_readme.rst:203
 msgid "Removing Pages"
-msgstr ""
+msgstr "Remover as Páginas"
 
 #: ../../contributors_manual/krita_manual_readme.rst:205
 msgid "If a feature is removed in a certain version, the corresponding pages."
-msgstr ""
+msgstr "Se uma dada funcionalidade for removida numa determinada versão, as páginas correspondentes."
 
 #: ../../contributors_manual/krita_manual_readme.rst:207
 msgid "Will first be marked deprecated."
-msgstr ""
+msgstr "Serão primeiro marcadas como obsoletas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:209
 msgid "This can be done as so::"
-msgstr ""
+msgstr "Isto poderá ser feito da seguinte forma::"
 
 #: ../../contributors_manual/krita_manual_readme.rst:215
 msgid "Will be linked on a page called 'deprecated'"
-msgstr ""
+msgstr "Será associada a uma página chamada 'deprecated' (obsoleta)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:216
 msgid ""
 "If the next version rolls around all the pages linked in the deprecated "
 "section will be removed."
-msgstr ""
+msgstr "Se a próxima versão entrar, todas as páginas ligadas à secção obsoleta serão removidas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:219
 msgid "Adding Pages"
-msgstr ""
+msgstr "Adicionar Páginas"
 
 #: ../../contributors_manual/krita_manual_readme.rst:221
 msgid "Ensure that it is located in the right place."
-msgstr ""
+msgstr "Certifique-se que se encontra no local correcto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:222
 msgid ""
 "Follow the :ref:`krita_markup_conventions` to ensure the page is formatted "
 "correctly."
-msgstr ""
+msgstr "Siga as :ref:`krita_markup_conventions` para garantir que a página está formatada correctamente."
 
 #: ../../contributors_manual/krita_manual_readme.rst:223
 msgid "Add the page to the TOC."
-msgstr ""
+msgstr "Adicione a página ao índice analítico."
 
 #: ../../contributors_manual/krita_manual_readme.rst:224
 msgid "If the feature is new, add in versionadded::"
-msgstr ""
+msgstr "Se a funcionalidade nova, adicione no 'versionadded'::"
 
 #: ../../contributors_manual/krita_manual_readme.rst:230
 msgid ""
@@ -655,72 +661,72 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:234
 msgid "Changing Pages"
-msgstr ""
+msgstr "Modificar as Páginas"
 
 #: ../../contributors_manual/krita_manual_readme.rst:236
 msgid ""
 "If you fully rewrite a page, as opposed to proofreading it, the resulting "
 "page should be reviewed."
-msgstr ""
+msgstr "Se remodelar por completo uma página, em vez de a rever simplesmente, a página resultante deverá ser revista."
 
 #: ../../contributors_manual/krita_manual_readme.rst:238
 msgid ""
 "If you change a page because a feature has changed, and you have commit "
 "access, the change can be pushed without review (unless you feel more "
 "comfortable with a review), but you should add::"
-msgstr ""
+msgstr "Se mudar uma página porque mudou uma funcionalidade, e caso tenha acesso de escrita, a modificação poderá ser enviada por 'push' sem revisões (a menos que se sinta mais confortável com uma revisão), mas deverá adicionar::"
 
 #: ../../contributors_manual/krita_manual_readme.rst:244
 msgid ""
 "In all cases, check if you want to add yourself to the author field in the "
 "metadata section on top."
-msgstr ""
+msgstr "Em todos os casos, verifique se se deseja adicionar a si mesmo no campo de autor, na secção de meta-dados no topo."
 
 #: ../../contributors_manual/krita_manual_readme.rst:246
 msgid ""
 "Using deprecated, versionadded and versionchanged with the version number "
 "allows us to easily search the manual for these terms with grep:"
-msgstr ""
+msgstr "Usando o 'deprecated', o 'versionadded' e o 'versionchanged' com o número de versão, permite-nos pesquisar facilmente no manual por estes termos com o 'grep':"
 
 #: ../../contributors_manual/krita_manual_readme.rst:253
 msgid "Faulty pages"
-msgstr ""
+msgstr "Páginas com problemas"
 
 #: ../../contributors_manual/krita_manual_readme.rst:255
 msgid "If a page slips through the cracks, either..."
-msgstr ""
+msgstr "Se uma página passar nos pingos da chuva, então..."
 
 #: ../../contributors_manual/krita_manual_readme.rst:257
 msgid "Make a review request per the :ref:`making_changes_sphinx` section."
-msgstr ""
+msgstr "Faça um pedido de revisão pela secção :ref:`making_changes_sphinx`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:258
 msgid "Make a task at the `Manual Project Workboard`_."
-msgstr ""
+msgstr "Crie uma tarefa no `Quadro do Projecto Manual`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:259
 msgid ""
 "Make a bug at `bugzilla`_ under the project Krita in the section "
 "'documentation'."
-msgstr ""
+msgstr "Crie um erro no `bugzilla`_ no projecto Krita, na secção 'documentation' (documentação)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:262
 msgid "Proofreading"
-msgstr ""
+msgstr "Revisão de textos"
 
 #: ../../contributors_manual/krita_manual_readme.rst:264
 msgid "There are two types of proofreading that needs to be done."
-msgstr ""
+msgstr "Existem dois tipos de revisões que precisam de ser feitas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:266
 msgid ""
 "The most important one is **reviewing changes people make**. You can do this "
 "on phabricator in two ways:"
-msgstr ""
+msgstr "A mais importante é **rever as alterações feitas pelas pessoas**. Poderá fazer isto no Phabricator de duas formas:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:268
 msgid "Reviewing patches in differential."
-msgstr ""
+msgstr "Remover as modificações no diferencial."
 
 #: ../../contributors_manual/krita_manual_readme.rst:270
 msgid ""
@@ -744,14 +750,14 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:274
 msgid "Auditing changes in the manual."
-msgstr ""
+msgstr "Auditar as modificações no manual."
 
 #: ../../contributors_manual/krita_manual_readme.rst:276
 msgid ""
 "Auditing changes happens after the fact. You can audit a change by going to "
 "the commit message (from the repository page, go to history and then click "
 "on an entry), where you will be able to make comments on the changes made."
-msgstr ""
+msgstr "A auditoria de alterações ocorre após o sucedido. Poderá auditar uma modificação se for à mensagem de modificação (na página do repositório, vá ao histórico e depois carregue num elemento), onde poderá fazer comentários sobre as alterações efectuadas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:278
 msgid ""
@@ -770,17 +776,17 @@ msgid ""
 "The second major way the manual needs to be proofread is **over the whole "
 "file**. Many of the pages have only been checked for correctness but not for "
 "style and grammar."
-msgstr ""
+msgstr "A segunda forma mais importante em que o manual precisa de ser revisto é **em todo o ficheiro**. Muitas das páginas só foram verificadas a nível de correcção, mas não a nível de estilo e gramática."
 
 #: ../../contributors_manual/krita_manual_readme.rst:282
 msgid ""
 "For this you will need to follow the :ref:`making_changes_sphinx` section, "
 "so that you can have full access to the pages and edit them."
-msgstr ""
+msgstr "Para tal, irá precisar de seguir a secção :ref:`making_changes_sphinx`, para que possa ter acesso total às páginas e editá-las."
 
 #: ../../contributors_manual/krita_manual_readme.rst:285
 msgid "Translating"
-msgstr ""
+msgstr "Tradução"
 
 #: ../../contributors_manual/krita_manual_readme.rst:287
 msgid ""
@@ -808,7 +814,7 @@ msgid ""
 "online. Translator teams which are confident in the state of their "
 "translation should contact the main Krita team via the kimageshop "
 "mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this."
-msgstr ""
+msgstr "As traduções terminadas também precisam de ser adicionadas ao programa de compilação para aparecerem 'online'. As equipas de traduções que estão confiantes com o estado das suas traduções deverão contactar a equipa principal do Krita com a lista de correio 'kimageshop' (kimageshop@kde.org) ou em foundation@krita.org, para conseguir isto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:294
 msgid "Other"
@@ -817,4 +823,4 @@ msgstr "Outro"
 #: ../../contributors_manual/krita_manual_readme.rst:296
 msgid ""
 "For restructured text conventions, check :ref:`krita_markup_conventions` ."
-msgstr ""
+msgstr "Para as convenções de restructuredText, consulte a página :ref:`krita_markup_conventions` ."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"POT-Creation-Date: 2019-03-26 03:35+0100\n"
 "PO-Revision-Date: 2019-02-22 11:36+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -20,17 +20,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 18.12.2\n"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
-msgid ".. image:: images/en/Masking-brush2.jpg"
-msgstr ".. image:: images/en/Masking-brush2.jpg"
-
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
 msgid ".. image:: images/en/Masking-brush1.jpg"
 msgstr ".. image:: images/en/Masking-brush1.jpg"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid "Difference from :ref:`option_texture`"
-msgstr "Verschil met :ref:`option_texture`"
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
+msgid ".. image:: images/en/Masking-brush2.jpg"
+msgstr ".. image:: images/en/Masking-brush2.jpg"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
 msgid ""
@@ -53,7 +49,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
 msgid ""
-"due to technological constraints, the masked brush only works in the wash "
+"Due to technological constraints, the masked brush only works in the wash "
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
 msgstr ""
@@ -132,9 +128,22 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
+msgid "You don’t need seamless texture to make cool looking brush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:56
+msgid "Stroke generates on the fly, it always different"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:57
+msgid "Brush strokes looks same on any brush size"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:58
 msgid ""
-"You don’t need seamless texture to make cool looking brush Stroke generates "
-"on the fly, it always different Brush strokes looks same on any brush size "
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
 msgstr ""
+
+#~ msgid "Difference from :ref:`option_texture`"
+#~ msgstr "Verschil met :ref:`option_texture`"

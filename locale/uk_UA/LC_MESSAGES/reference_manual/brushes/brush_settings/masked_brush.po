@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_settings___masked_brush\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
+"___masked_brush\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-24 16:36+0200\n"
+"POT-Creation-Date: 2019-03-26 03:35+0100\n"
+"PO-Revision-Date: 2019-03-26 07:16+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,17 +21,13 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
-msgid ".. image:: images/en/Masking-brush2.jpg"
-msgstr ".. image:: images/en/Masking-brush2.jpg"
-
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
 msgid ".. image:: images/en/Masking-brush1.jpg"
 msgstr ".. image:: images/en/Masking-brush1.jpg"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid "Difference from :ref:`option_texture`"
-msgstr "Відмінності від :ref:`option_texture`"
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
+msgid ".. image:: images/en/Masking-brush2.jpg"
+msgstr ".. image:: images/en/Masking-brush2.jpg"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
 msgid ""
@@ -61,8 +57,12 @@ msgstr ""
 "альтернативою до текстури для створення виразних і текстурованих пензлів."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
+#| msgid ""
+#| "due to technological constraints, the masked brush only works in the wash "
+#| "painting mode. However, do remember that flow works as opacity does in "
+#| "the build-up painting mode."
 msgid ""
-"due to technological constraints, the masked brush only works in the wash "
+"Due to technological constraints, the masked brush only works in the wash "
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
 msgstr ""
@@ -157,13 +157,36 @@ msgstr ""
 "зменшити."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
+msgid "You don’t need seamless texture to make cool looking brush"
+msgstr ""
+"Вам не потрібна безшовна текстура для створення чудового вигляду пензля."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:56
+msgid "Stroke generates on the fly, it always different"
+msgstr "Мазок створюється на льоту і завжди є неповторним."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:57
+msgid "Brush strokes looks same on any brush size"
+msgstr "Мазки пензлем виглядають однаково для усіх розмірів пензля."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:58
 msgid ""
-"You don’t need seamless texture to make cool looking brush Stroke generates "
-"on the fly, it always different Brush strokes looks same on any brush size "
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
 msgstr ""
-"Вам не потрібна безшовна текстура для створення чудового вигляду пензля. "
-"Мазок створюється на льоту і завжди є неповторним. Мазки пензлем виглядають "
-"однаково для усіх розмірів пензля. Простіше заповнювати певні ділянки "
-"суцільним кольором, але важче жорстко текстурувати ділянку."
+"Простіше заповнювати певні ділянки суцільним кольором, але важче жорстко"
+" текстурувати ділянку."
+
+#~ msgid "Difference from :ref:`option_texture`"
+#~ msgstr "Відмінності від :ref:`option_texture`"
+
+#~ msgid ""
+#~ "You don’t need seamless texture to make cool looking brush Stroke "
+#~ "generates on the fly, it always different Brush strokes looks same on any "
+#~ "brush size Easier to fill some areas with solid color but harder to make "
+#~ "it hard textured"
+#~ msgstr ""
+#~ "Вам не потрібна безшовна текстура для створення чудового вигляду пензля. "
+#~ "Мазок створюється на льоту і завжди є неповторним. Мазки пензлем "
+#~ "виглядають однаково для усіх розмірів пензля. Простіше заповнювати певні "
+#~ "ділянки суцільним кольором, але важче жорстко текстурувати ділянку."

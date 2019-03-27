@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___dockers___palette_docker\n"
+"Project-Id-Version: docs_krita_org_reference_manual___dockers___palette_docker"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-25 21:52+0200\n"
+"PO-Revision-Date: 2019-03-26 21:50+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -42,6 +42,9 @@ msgid ""
 "The palette docker displays various color swatches for quick use. Since 4.0, "
 "it also supports editing palettes and organizing colors into groups."
 msgstr ""
+"На бічній панелі буде показано зразки різноманітних кольорів для пришвидшення"
+" їхнього вибору. Починаючи з версії 4.0, передбачено також редагування палітр"
+" та упорядковування кольорів за групами."
 
 #: ../../reference_manual/dockers/palette_docker.rst:22
 msgid ".. image:: images/en/Palette-docker.png"
@@ -52,6 +55,7 @@ msgid ""
 "You can choose from various default palette or you can add your own colors "
 "to the palette."
 msgstr ""
+"Ви можете вибрати одну з типових палітр або додати власні кольори до палітри."
 
 #: ../../reference_manual/dockers/palette_docker.rst:25
 msgid ""
@@ -65,7 +69,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/palette_docker.rst:28
 msgid "Selecting colors is done by |mouseleft| on a swatch."
-msgstr ""
+msgstr "Вибрати колір можна клацання на його зразку за допомогою |mouseleft|."
 
 #: ../../reference_manual/dockers/palette_docker.rst:29
 msgid ""
@@ -90,6 +94,7 @@ msgstr ""
 #: ../../reference_manual/dockers/palette_docker.rst:35
 msgid "Pressing the :guilabel:`+` icon will allow you to add a new swatch."
 msgstr ""
+"Натисканням піктограми :guilabel:`+` ви можете додати новий зразок кольору."
 
 #: ../../reference_manual/dockers/palette_docker.rst:36
 msgid "Pressing the Folder icon will allow you to add a new group."
@@ -98,6 +103,8 @@ msgstr "Натисканням піктограми теки ви можете �
 #: ../../reference_manual/dockers/palette_docker.rst:38
 msgid "The edit and new color dialogs ask for the following:"
 msgstr ""
+"У діалогових вікнах редагування та нового кольору можна вказати такі"
+" параметри:"
 
 #: ../../reference_manual/dockers/palette_docker.rst:40
 msgid "Color"
@@ -124,10 +131,13 @@ msgid ""
 "The ID is a number that can be used to index colors. Where Name can be "
 "something like \"Pastel Peach\", ID will probably be something like \"RY75\"."
 msgstr ""
+"Ідентифікатор — номер, який може бути використано для індексування кольорів."
+" Назвою може бути щось подібне до «Пастельний персиковий. Ідентифікатором"
+" може бути запис, подібний до «RY75»."
 
 #: ../../reference_manual/dockers/palette_docker.rst:47
 msgid "Spot color"
-msgstr ""
+msgstr "Колір плями"
 
 #: ../../reference_manual/dockers/palette_docker.rst:47
 msgid ""
@@ -143,12 +153,18 @@ msgid ""
 "by hovering your mouse over the palette and scrolling while holding :kbd:"
 "`Ctrl`."
 msgstr ""
+"Якщо вам здається, що розмір плашок кольорів є надто малим, ви можете"
+" збільшити розмір. Наведіть вказівник миші на палітру і покрутіть коліщатком"
+" миші, утримуючи натиснутою клавішу :kbd:"
+"`Ctrl`."
 
 #: ../../reference_manual/dockers/palette_docker.rst:51
 msgid ""
 "Krita's native palette format is since 4.0 :ref:`file_kpl`. It also supports "
 "importing..."
 msgstr ""
+"Власним форматом палітр Krita, починаючи з версії 4.0, є :ref:`file_kpl`. У"
+" програмі також передбачено можливість імпортування даних..."
 
 #: ../../reference_manual/dockers/palette_docker.rst:53
 msgid "Gimp Palettes (.gpl)"
