@@ -25,7 +25,7 @@ Starting from 2.9 Krita has a new format to manage resources it is called ''Bund
 Tags
 ----
 
-Krita also has a robust tagging system for you to manage the resources on the fly while painting.All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. you can |mouseleft| the plus icon in the docker and add a tag name. in addition to adding you can rename and delete a tag as well.
+Krita also has a robust tagging system for you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. you can |mouseleft| the plus icon in the docker and add a tag name. in addition to adding you can rename and delete a tag as well.
 
 .. image:: /images/en/Tags-krita.png
    :align: center

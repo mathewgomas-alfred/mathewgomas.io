@@ -73,7 +73,7 @@ Using an arithmetic blending type, Dulling is great for more smooth type of pain
 .. image:: /images/en/Krita_2.9_brushengine_smudge_length_01.png
 
 Strength
-    Affects how much the smudge length takes from the previous dab it's sampling. This means that smudge-length at 1.0 will never decrease, but smudge-lengths under that will decrease based on spacing and opacity/flow.
+    Affects how much the smudge length takes from the previous dab its sampling. This means that smudge-length at 1.0 will never decrease, but smudge-lengths under that will decrease based on spacing and opacity/flow.
 
 .. image:: /images/en/Krita_2.9_brushengine_smudge_length_02.png
 

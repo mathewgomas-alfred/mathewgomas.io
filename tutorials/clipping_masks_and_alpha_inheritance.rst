@@ -74,7 +74,7 @@ Now there’s an easier way to set up alpha inheritance. If you select a layer o
     :width: 800
 
 The fact that alpha inheritance can use the composited transparency from a combination of layers means that you can have a layer with the erase-blending mode in between, and have that affect the area that the layer above is clipped to.
-Above, the image of the right is exactly the same as the left, except with the erase-layer hidden. Filters can also affect the alpha inheritance:
+Above, the lower image is exactly the same as the upper one, except with the erase-layer hidden. Filters can also affect the alpha inheritance:
 
 .. image:: /images/en/clipping-masks/Tut_clip_blur.gif
     :alt: filter layers and alpha inheritance

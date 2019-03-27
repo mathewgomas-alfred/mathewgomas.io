@@ -32,7 +32,7 @@ You can fine-tune the transform tool parameters using tool options docker. The p
 Free transform
 --------------
 
-This allows you to do basic rotation, resizing, flipping, and even perspective skewing if you hold :kbd:`Ctrl`.Holding the :kbd:`Shift` key will maintain your aspect ratio throughout the transform.
+This allows you to do basic rotation, resizing, flipping, and even perspective skewing if you hold :kbd:`Ctrl`. Holding the :kbd:`Shift` key will maintain your aspect ratio throughout the transform.
 
 .. figure:: /images/en/Krita_transforms_free.png 
 

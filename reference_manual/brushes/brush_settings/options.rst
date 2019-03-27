@@ -101,7 +101,7 @@ So, if you want to lock the diameter of the brush, lock the Brush-tip. Locking t
 
 .. image:: /images/en/Krita_2_9_brushengine_size_01.png
 
-Also popular are setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`
+Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`
 
 .. image:: /images/en/Krita_2_9_brushengine_size_02.png
 
@@ -159,7 +159,7 @@ Flow map
 Gradient
 ~~~~~~~~
 
-Exactly the same as using Source:Gradient with Mix, but only available for the Color Smudge Brush.
+Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush.
 
 .. index:: Spacing
 .. _option_spacing:

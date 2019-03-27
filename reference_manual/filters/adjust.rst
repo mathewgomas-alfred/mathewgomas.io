@@ -58,7 +58,7 @@ Exposure
 Levels
 ------
 
-This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. you can even set an output and input range of tones for the image.A histogram is displayed to show you the tonal distribution.
+This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. you can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
 The default shortcut for levels filter is :kbd:`Ctrl + L` .
 
 .. image:: /images/en/Levels-filter.png
@@ -149,7 +149,7 @@ Max
 Invert
 ------
 
-This filter like the name suggests inverts the color values in the image.So white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), etc.
+This filter like the name suggests inverts the color values in the image. So white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), etc.
 The default shortcut for this filter is :kbd:`Ctrl + I`.
 
 .. index:: Contrast
