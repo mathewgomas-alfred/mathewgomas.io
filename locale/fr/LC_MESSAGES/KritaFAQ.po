@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-13 03:40+0100\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
 "PO-Revision-Date: 2019-03-06 14:26+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -1629,10 +1629,27 @@ msgstr ""
 "Paramètres → Configuration de Krita → Performance"
 
 #: ../../KritaFAQ.rst:439
+msgid "Animation"
+msgstr ""
+
+#: ../../KritaFAQ.rst:442
+msgid "Why is my animation black in my video player"
+msgstr ""
+
+#: ../../KritaFAQ.rst:444
+msgid ""
+"You did not render the animation using the \"baseline\" option and you are "
+"using the default Windows media player. Re-render using the baseline option "
+"or use a better video player application, like VLC. Check `this useful "
+"diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-"
+"issues-manual-783473428>`__"
+msgstr ""
+
+#: ../../KritaFAQ.rst:448
 msgid "Tools"
 msgstr "Outils"
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:451
 #, fuzzy
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
@@ -1641,7 +1658,7 @@ msgstr ""
 "Pourquoi l'outil de Transformation affiche un résultat correct qui ensuite "
 "devient flou lorsqu'on l'applique?"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:453
 #, fuzzy
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
@@ -1656,29 +1673,29 @@ msgstr ""
 "à l'aperçu. Voir https://forum.kde.org/viewtopic.php?f=139&t=127269 pour "
 "plus d'info."
 
-#: ../../KritaFAQ.rst:448
+#: ../../KritaFAQ.rst:457
 #, fuzzy
 #| msgid "License, rights and the Krita foundation"
 msgid "License, rights and the Krita Foundation"
 msgstr "License, droits et la Krita Foundation"
 
-#: ../../KritaFAQ.rst:451
+#: ../../KritaFAQ.rst:460
 #, fuzzy
 msgid "Who owns Krita?"
 msgstr "A qui appartient Krita?"
 
-#: ../../KritaFAQ.rst:453
+#: ../../KritaFAQ.rst:462
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
 msgstr ""
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:465
 #, fuzzy
 msgid "Who and what is Kiki?"
 msgstr "Qui est Kiki?"
 
-#: ../../KritaFAQ.rst:458
+#: ../../KritaFAQ.rst:467
 #, fuzzy
 #| msgid ""
 #| "Kiki is a squirrel. She’s our mascot and has been designed by Tyson Tan. "
@@ -1693,12 +1710,12 @@ msgstr ""
 "Nous avons choisi un écureuil après avoir découvert que `krita` en Albanais "
 "signifie écureuil."
 
-#: ../../KritaFAQ.rst:461
+#: ../../KritaFAQ.rst:470
 #, fuzzy
 msgid "Why is Krita Free?"
 msgstr "Pourquoi Krita est-il gratuit?"
 
-#: ../../KritaFAQ.rst:463
+#: ../../KritaFAQ.rst:472
 #, fuzzy
 msgid ""
 "Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE "
@@ -1712,12 +1729,12 @@ msgstr ""
 "Windows Store si vous voulez supporter le développement de Krita, ou si vous "
 "voulez bénéficier des mises à jour automatiques."
 
-#: ../../KritaFAQ.rst:466
+#: ../../KritaFAQ.rst:475
 #, fuzzy
 msgid "Can I use Krita commercially?"
 msgstr "Puis-je utiliser Krita commercialement?"
 
-#: ../../KritaFAQ.rst:468
+#: ../../KritaFAQ.rst:477
 #, fuzzy
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
@@ -1735,7 +1752,7 @@ msgstr ""
 "game artistes travaillant sur des jeux commerciaux, par des scientifiques "
 "pour leurs recherches, ou encore par des étudiants en milieu éducatif."
 
-#: ../../KritaFAQ.rst:470
+#: ../../KritaFAQ.rst:479
 #, fuzzy
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
@@ -1746,22 +1763,22 @@ msgstr ""
 "vous devez obligatoirement partager vos modifications avec nous. La licence "
 "GNU GPL de Krita garantie cette liberté. Personne n'a le droit de la retirer."
 
-#: ../../KritaFAQ.rst:476
+#: ../../KritaFAQ.rst:485
 #, fuzzy
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "Puis-je avoir Krita sur iPad? ou sur Android?"
 
-#: ../../KritaFAQ.rst:478
+#: ../../KritaFAQ.rst:487
 msgid "Not at this point in time."
 msgstr ""
 
-#: ../../KritaFAQ.rst:481
+#: ../../KritaFAQ.rst:490
 #, fuzzy
 #| msgid "Who owns Krita?"
 msgid "Who translates Krita"
 msgstr "A qui appartient Krita?"
 
-#: ../../KritaFAQ.rst:483
+#: ../../KritaFAQ.rst:492
 #, fuzzy
 #| msgid ""
 #| "Krita is a `KDE application <http://www.kde.org/>`__ — and proud of it! "
@@ -1788,11 +1805,11 @@ msgstr ""
 
 # #-#-#-#-#  katecloseexceptplugin.po (katepart4)  #-#-#-#-# | msgid "&View Difference"
 # #-#-#-#-#  ktexteditor5.po (katepart4)  #-#-#-#-# | msgid "&View Difference"
-#: ../../KritaFAQ.rst:486
+#: ../../KritaFAQ.rst:495
 msgid "Reference"
 msgstr "Référence"
 
-#: ../../KritaFAQ.rst:488
+#: ../../KritaFAQ.rst:497
 #, fuzzy
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"

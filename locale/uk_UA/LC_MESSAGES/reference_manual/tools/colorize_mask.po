@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___colorize_mask\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-26 03:35+0100\n"
-"PO-Revision-Date: 2019-03-17 08:36+0200\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"PO-Revision-Date: 2019-03-27 08:05+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -51,6 +51,24 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -100,24 +118,6 @@ msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_11.png"
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-
 #: ../../reference_manual/tools/colorize_mask.rst:1
 msgid "How to use the colorize mask in Krita."
 msgstr "Як користуватися масками розфарбовування у Krita."
@@ -147,6 +147,11 @@ msgid ""
 "\"disableColorizeMaskFeature=false\" to the top. Then restart Krita. Its "
 "official incarnation is in 4.0."
 msgstr ""
+"Цю можливість було реалізовано ще у версії 3.1, але типово вимкнено, оскільки"
+" алгоритм заповнення ще не було оптимізовано для загального використання. Щоб"
+" увімкнути можливість, відкрийте для редагування ваш файл налаштувань Krita і"
+" додайте на його початку рядок «disableColorizeMaskFeature=false». Потім"
+" перезапустіть Krita. Офіційно можливість з'явилася, починаючи з версії 4.0."
 
 #: ../../reference_manual/tools/colorize_mask.rst:26
 msgid "Usage"

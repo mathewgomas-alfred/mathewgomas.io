@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___working_with_images\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-03-24 12:10+0100\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"PO-Revision-Date: 2019-03-27 19:53+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -121,6 +121,8 @@ msgid ""
 "Metadata is information like the creation date, author, description and also "
 "information like DPI."
 msgstr ""
+"Les metadades són informació com la data de creació, autor, descripció i "
+"també informació com el PPP."
 
 #: ../../user_manual/working_with_images.rst:64
 msgid "Image size"
@@ -133,10 +135,14 @@ msgid ""
 "be remembered and the higher the bit depth of the color, the heavier the "
 "resulting file will be."
 msgstr ""
+"La mida de la imatge és la dimensió i la resolució del llenç. La mida de la "
+"imatge té una efecte directe en la mida de fitxer del document del Krita. "
+"Com més píxels cal recordar i com més gran sigui la profunditat de bits del "
+"color, més gran serà el fitxer resultant."
 
 #: ../../user_manual/working_with_images.rst:72
 msgid "DPI/PPI"
-msgstr "DPI/PPP"
+msgstr "DPI/PPI (PPP)"
 
 #: ../../user_manual/working_with_images.rst:74
 msgid ""
@@ -145,6 +151,12 @@ msgid ""
 "it is actually putting 300 dots of colors in an area equal to an Inch. This "
 "means the number of pixels your artwork has in a relative area of an inch."
 msgstr ""
+"**DPI** vol dir *punts per polsada*, **PPI** vol dir *píxels per polsada* (la "
+"traducció és **PPP** per a ambdós). En la industria de la impressió, se "
+"suposa que la vostra impressora imprimeix a 300 **DPI**. Això vol dir que en "
+"realitat s'estan col·locant 300 punts de colors en una àrea igual que una "
+"polzada. Això indicarà la quantitat de píxels que té la vostra obra d'art en "
+"una àrea relativa d'una polzada."
 
 #: ../../user_manual/working_with_images.rst:80
 msgid ""
@@ -152,6 +164,10 @@ msgid ""
 "should keep **PPI** in mind. According to the **PPI** you have set, the "
 "printers can decide how large your image should be on a piece of paper."
 msgstr ""
+"Els **DPI** són referents de la impressora, i els artistes mentre creen obres "
+"d'art haurien de tenir en compte els **PPI**. Segons els **PPI** que heu "
+"definit, les impressores podran decidir la mida de la vostra imatge en un "
+"tros de paper."
 
 #: ../../user_manual/working_with_images.rst:85
 msgid "Some standards:"
@@ -164,14 +180,19 @@ msgid ""
 "the retina devices. None the less, when making an image for computer "
 "consumption, this is the default."
 msgstr ""
+"Aquests són els PPI predeterminats dels monitors com ho assumeixen tots els "
+"programes. No és totalment correcte, ja que la majoria de monitors actuals "
+"tenen 125 PPI o fins i tot 300 PPI per als dispositius de retina. Tot i "
+"això, quan es crea una imatge per al consum des de l'ordinador, aquest és el "
+"valor predeterminat."
 
 #: ../../user_manual/working_with_images.rst:90
 msgid "72 PPI"
-msgstr "72 PPP"
+msgstr "72 PPI"
 
 #: ../../user_manual/working_with_images.rst:92
 msgid "120 PPI"
-msgstr "120 PPP"
+msgstr "120 PPI"
 
 #: ../../user_manual/working_with_images.rst:93
 msgid "This is often used as a standard for low-quality posters."
@@ -180,7 +201,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:94
 msgid "300 PPI"
-msgstr "300 PPP"
+msgstr "300 PPI"
 
 #: ../../user_manual/working_with_images.rst:95
 msgid "This is the minimum you should use for quality prints."
@@ -189,7 +210,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:97
 msgid "600 PPI"
-msgstr "600 PPP"
+msgstr "600 PPI"
 
 #: ../../user_manual/working_with_images.rst:97
 msgid "The quality used for line art for comics."
@@ -207,10 +228,17 @@ msgid ""
 "if used right. For example, having a line art layer in grayscale can half "
 "the memory costs."
 msgstr ""
+"Repassem la profunditat de color a la :ref:`pàgina Gestió del color<general_"
+"concept_color>`. Cal entendre que el Krita té espais de color de la imatge i "
+"espais de color de la capa, els últims poden estalviar memòria si "
+"s'utilitzen correctament. Per exemple, tenir una capa d'art lineal en escala "
+"de grisos pot reduir a la meitat els costos de memòria."
 
 #: ../../user_manual/working_with_images.rst:108
 msgid "Image color space vs layer color space vs conversion."
 msgstr ""
+"Espai de color de la imatge enfront de l'espai de color de la capa enfront la "
+"conversió."
 
 #: ../../user_manual/working_with_images.rst:110
 msgid ""
@@ -221,6 +249,13 @@ msgid ""
 "to :menuselection:`Image --> Convert Image Color Space` this will convert "
 "all the layers color space as well."
 msgstr ""
+"Degut a que hi ha una diferència entre l'espai de color de la imatge i "
+"l'espai de color de la capa, només podreu canviar l'espai de color de la "
+"imatge a :menuselection:`Imatge --> Propietats`, el qual deixarà les capes "
+"soles. Però si voleu canviar l'espai de color del fitxer, incloses totes les "
+"capes, podreu fer-ho anant a :menuselection:`Imatge --> Converteix l'espai "
+"de color de la imatge`, això també convertirà tot l'espai de color de les "
+"capes."
 
 #: ../../user_manual/working_with_images.rst:116
 msgid "Author and Description"
@@ -241,6 +276,15 @@ msgid ""
 "of ±60 seconds. You can empty it in the document info dialog and of course "
 "by unzipping you .kra file and editing the metadata there."
 msgstr ""
+"El Krita desarà automàticament qui va crear la imatge en les metadades de la "
+"imatge. Juntament amb altres dades com la data i hora de creació i "
+"modificació, el Krita també mostrarà el temps d'edició d'un document en el "
+"diàleg d'informació del document, útil per a il·lustradors professionals i "
+"pintors per velocitat que volen realitzar un seguiment del temps que han "
+"treballat en el disseny gràfic per a fins de facturació. Detecta quan no heu "
+"realitzat accions durant un temps i té una precisió de ± 60 segons. Podeu "
+"netejar-ho des del diàleg d'informació del document i, per descomptat, "
+"descomprimint des de ZIP el vostre fitxer .kra i editant les metadades."
 
 #: ../../user_manual/working_with_images.rst:130
 msgid ""
@@ -249,6 +293,10 @@ msgid ""
 "Configure Krita --> Author Information`. Profiles can be switched under :"
 "menuselection:`Settings --> Active Author Profile`."
 msgstr ""
+"Aquestes coses es poden editar a :menuselection:`Fitxer --> Informació del "
+"document`, i per a la informació de l'autor :menuselection:`Arranjament --> "
+"Configura el Krita --> Informació de l'autor`. Els perfils es poden canviar "
+"sota :menuselection:`Arranjament --> Perfil actiu d'autor`."
 
 #: ../../user_manual/working_with_images.rst:133
 msgid "Setting the canvas background color"
@@ -263,6 +311,12 @@ msgid ""
 "PNG and JPG export use this color as the default color to fill in "
 "transparency if you do not want to export transparency."
 msgstr ""
+"Podeu establir el color de fons del llenç mitjançant :menuselection:`Imatge "
+"--> Color i transparència del fons de la imatge`. Això permet canviar a un "
+"color de fons no transparent i canviar el color. També és útil per a certs "
+"formats de fitxer que forcen un color de fons en lloc de la transparència. "
+"Les exportacions a PNG i JPG empraran aquest color com el color "
+"predeterminat per omplir la transparència si no la voleu exportar."
 
 #: ../../user_manual/working_with_images.rst:142
 msgid ""
@@ -271,6 +325,10 @@ msgid ""
 "file options, will allow you to work in a slightly more comfortable "
 "environment, where transparency isn't depicted with checkered boxes."
 msgstr ""
+"Si veniu des d'un programa com :program:`Paint Tool Sai`, llavors utilitzeu "
+"aquesta opció o utilitzeu :guilabel:`Estableix el color de fons del llenç` a "
+"les opcions del fitxer nou, permetent-vos treballar en un entorn una mica "
+"més còmode, on la transparència no es representarà amb caixes a quadres."
 
 #: ../../user_manual/working_with_images.rst:148
 msgid "Basic transforms"
@@ -303,7 +361,7 @@ msgstr "Emmiralla horitzontalment/verticalment"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "This will allow you to mirror the whole image with all its layers."
-msgstr ""
+msgstr "Això permetrà reflectir tota la imatge amb totes les seves capes."
 
 #: ../../user_manual/working_with_images.rst:159
 msgid "But there are more options than that..."
@@ -311,17 +369,19 @@ msgstr "Però hi ha més opcions que aquestes..."
 
 #: ../../user_manual/working_with_images.rst:162
 msgid "Cropping and resizing the canvas"
-msgstr "Escapça i canvia la mida del llenç."
+msgstr "Escapça i canvia la mida del llenç"
 
 #: ../../user_manual/working_with_images.rst:164
 msgid ""
 "You can crop and image with the :ref:`crop_tool`, to cut away extra space "
 "and improve the composition."
 msgstr ""
+"Podeu escapçar la imatge amb l':ref:`crop_tool`, per a retallar l'espai extra "
+"i millorar la composició."
 
 #: ../../user_manual/working_with_images.rst:168
 msgid "Trimming"
-msgstr ""
+msgstr "Ajustar"
 
 #: ../../user_manual/working_with_images.rst:170
 msgid ""
@@ -330,6 +390,10 @@ msgid ""
 "image into the layer and want to resize the canvas to the extent of this "
 "layer."
 msgstr ""
+"Utilitzant :menuselection:`Imatge --> Ajusta a la capa`, el Krita canviarà la "
+"mida de la imatge a les dimensions de la capa seleccionada. És útil per a "
+"quan enganxeu una imatge massa gran a dins de la capa i voleu canviar la "
+"mida del llenç a les dimensions d'aquesta capa."
 
 #: ../../user_manual/working_with_images.rst:174
 msgid ""
@@ -339,6 +403,12 @@ msgid ""
 "layer stack and choosing :guilabel:`Select Opaque`. :menuselection:`Image --"
 "> Trim to Selection` will then crop the canvas to the selection bounding box."
 msgstr ""
+":menuselection:`Imatge --> Ajusta a la selecció` és un cosí més ràpid que "
+"l'eina d'escapçar. Aquesta ens ajudarà a canviar la mida del llenç a les "
+"dimensions de qualsevol selecció activa. Això és especialment útil en fer "
+"clic dret a la capa sobre la pila de capes i seleccionant "
+":guilabel:`Selecciona opac`. Fent :menuselection:`Imatge --> Ajusta a la "
+"selecció` després, es retallarà el llenç al limit del contenidor."
 
 #: ../../user_manual/working_with_images.rst:180
 msgid ""
@@ -346,6 +416,9 @@ msgid ""
 "will trim all layers to the size of the image, making your files lighter by "
 "getting rid of invisible data."
 msgstr ""
+":menuselection:`Imatge --> Ajusta a la mida de la imatge` en realitat és per "
+"a les capes, i ajustarà totes les capes a la mida de la imatge, fent que els "
+"vostres fitxers siguin més lleugers desfent-se de les dades invisibles."
 
 #: ../../user_manual/working_with_images.rst:185
 msgid "Resizing the canvas"
@@ -356,6 +429,9 @@ msgid ""
 "You can also resize the canvas via :menuselection:`Image --> Resize Canvas` "
 "(or :kbd:`Ctrl + Alt + C`). The dialog box is shown below."
 msgstr ""
+"També podeu canviar la mida del llenç mitjançant :menuselection:`Imatge --> "
+"Redimensiona el llenç` (o :kbd:`Ctrl + Alt + C`). El diàleg es mostra a "
+"continuació."
 
 #: ../../user_manual/working_with_images.rst:191
 msgid ".. image:: images/en/Resize_Canvas.png"
@@ -369,6 +445,11 @@ msgid ""
 "the current image goes (if you press the left-button, it'll go to the center "
 "left, and the new canvas space will be added to the right of the image)."
 msgstr ""
+"En aquest sentit, les proporcions restringides s'asseguraran que l'alçada i "
+"amplada romanguin en proporció entre si. El desplaçament indica on s'afegirà "
+"l'espai nou del llenç al voltant de la imatge actual. Bàsicament, decidireu "
+"on va la imatge actual (si premeu el botó esquerre, anireu al centre "
+"esquerra i l'espai nou del llenç s'afegirà a la dreta de la imatge)."
 
 #: ../../user_manual/working_with_images.rst:199
 msgid ""
@@ -377,6 +458,10 @@ msgid ""
 "Clicking this will extend the canvas in that direction. You can see the "
 "arrow marked in red in the example below"
 msgstr ""
+"Una altra manera de canviar la mida del llenç segons calgui mentre es "
+"dibuixa, és quan es desplaça des del final del llenç, veureu aparèixer una "
+"fletxa. En fer-hi clic, s'estendrà el llenç en aquesta direcció. Veureu la "
+"fletxa marcada en vermell en el següent exemple"
 
 #: ../../user_manual/working_with_images.rst:209
 msgid "Resizing the image"
@@ -391,6 +476,12 @@ msgid ""
 "get in and do some detail work at 300 or 400 PPI this is where you would "
 "make the change."
 msgstr ""
+":guilabel:`Escala la imatge a una mida nova` permet canviar la mida de tota "
+"la imatge. A més, el més important aquí és que podreu canviar la resolució o "
+"*augmentar* la vostra imatge. Així que, per exemple, si inicialment estàveu "
+"treballant amb 72 PPI per a bloquejar formes grans i colors, imatges, etc. I "
+"ara realment voleu canviar i fer un treball detallat a 300 o 400 PPI, aquí "
+"és on faríeu el canvi."
 
 #: ../../user_manual/working_with_images.rst:218
 msgid ""
@@ -398,14 +489,19 @@ msgid ""
 "the aspect ratio is maintained. To disconnect the chain, just click on the "
 "links and the two halves will separate."
 msgstr ""
+"Igual que en tots els altres diàlegs on apareix un enllaç de cadena, quan la "
+"cadena està vinculada, la relació d'aspecte es mantindrà. Per a desconnectar "
+"la cadena, simplement feu clic sobre els enllaços i les dues meitats se "
+"separaran."
 
 #: ../../user_manual/working_with_images.rst:224
 msgid ".. image:: images/en/Scale_Image_to_New_Size.png"
 msgstr ".. image:: images/en/Scale_Image_to_New_Size.png"
 
 #: ../../user_manual/working_with_images.rst:226
-msgid "Separating Images."
-msgstr "Separar les imatges."
+#| msgid "Separating Images."
+msgid "Separating Images"
+msgstr "Separar les imatges"
 
 #: ../../user_manual/working_with_images.rst:229
 msgid ".. image:: images/en/Separate_Image.png"
@@ -416,6 +512,8 @@ msgid ""
 "This powerful image manipulation feature lets you separate an image into its "
 "different components or channels."
 msgstr ""
+"Aquesta potent característica per a la manipulació de les imatges permet "
+"separar una imatge en els seus diferents components o canals."
 
 #: ../../user_manual/working_with_images.rst:233
 msgid ""
@@ -424,6 +522,11 @@ msgid ""
 "colored output, is to set two of the channels to the addition :ref:"
 "`blending_modes`."
 msgstr ""
+"Això és útil per a les persones que treballen en la impressió o per a les "
+"persones que manipulen les textures dels jocs. No hi ha cap característica "
+"per a la combinació, però el que podeu fer, si utilitzeu una sortida en "
+"color, és configurar dos dels canals per a l'addició amb els "
+":ref:`blending_modes`."
 
 #: ../../user_manual/working_with_images.rst:238
 msgid ""
@@ -431,6 +534,9 @@ msgid ""
 "and copy blue blending modes, with using the red one for the red channel "
 "image, etc."
 msgstr ""
+"Per a les imatges en escala de grisos en l'espai RGB, podeu utilitzar els "
+"modes de barreja copia el vermell, copia el verd i copia el blau, utilitzant "
+"el vermell per al canal vermell de la imatge, etc."
 
 #: ../../user_manual/working_with_images.rst:243
 msgid "Saving, Exporting and Opening Files"
@@ -443,6 +549,11 @@ msgid ""
 "of their file in the RAM. Thus, when saving, Krita takes its copy and copies "
 "it over the existing file. There's a couple of tricks you can do with saving."
 msgstr ""
+"Quan el Krita crea o obre un fitxer, aquest tindrà una còpia a la memòria del "
+"fitxer que està editant. Això forma part de la manera com treballen els "
+"ordinadors: fan una còpia del seu fitxer a la RAM. Així, en desar, el Krita "
+"prendrà la seva còpia i la copiarà sobre el fitxer existent. Hi ha un parell "
+"de trucs que podeu fer amb el desament."
 
 #: ../../user_manual/working_with_images.rst:252
 msgid ""
@@ -450,6 +561,8 @@ msgid ""
 "drive. If the image hadn't been saved before, Krita will ask you where to "
 "save it."
 msgstr ""
+"El Krita desa la imatge actual a la seva memòria en un lloc definit del disc "
+"dur. Si la imatge no s'havia desat abans, el Krita preguntarà on desar-la."
 
 #: ../../user_manual/working_with_images.rst:253
 msgid "Save"
@@ -464,6 +577,8 @@ msgid ""
 "Make a copy of your current file by saving it with a different name. Krita "
 "will switch to the newly made file as its active document."
 msgstr ""
+"Fa una còpia del vostre fitxer actual desant-lo amb un nom diferent. El Krita "
+"canviarà al fitxer acabat de crear com el seu document actiu."
 
 #: ../../user_manual/working_with_images.rst:258
 msgid "Open"
@@ -471,7 +586,7 @@ msgstr "Obre"
 
 #: ../../user_manual/working_with_images.rst:259
 msgid "Open a saved file. Fairly straightforward."
-msgstr ""
+msgstr "Obre un fitxer desat. Molt senzill."
 
 #: ../../user_manual/working_with_images.rst:261
 msgid ""
@@ -479,6 +594,9 @@ msgid ""
 "you are working on a layered file, but only need to save a flattened version "
 "of it to a certain location."
 msgstr ""
+"Desa un fitxer en una ubicació nova sense obrir-lo. És útil per a quan esteu "
+"treballant en un fitxer de capes, però només necessiteu desar una versió "
+"aplanada d'aquest en una ubicació determinada."
 
 #: ../../user_manual/working_with_images.rst:262
 msgid "Export"
@@ -490,6 +608,9 @@ msgid ""
 "saved it to, so that when pressing 'save' it asks you where to save it. This "
 "is also called 'import' in other programs."
 msgstr ""
+"Això és una mica estrany, però obre un fitxer i oblida on el vau desar, de "
+"manera que al prémer «desa» se us demanarà a on desar-lo. En altres "
+"programes a això també se li diu «importa»."
 
 #: ../../user_manual/working_with_images.rst:266
 msgid "Open Existing Document As Untitled Document"
@@ -504,6 +625,8 @@ msgid ""
 "Makes a new copy of the current image. Similar to Open Existing Document As "
 "Untitled Document, but then with already opened files."
 msgstr ""
+"Realitza una còpia nova de la imatge actual. Similar a Obre un document "
+"existent com a un document sense títol, però ho fa amb els fitxers ja oberts."
 
 #: ../../user_manual/working_with_images.rst:272
 msgid "Save Incremental Version"
@@ -514,12 +637,16 @@ msgid ""
 "Saves the current image as 'filename'\\_XXX.kra and switches the current "
 "document to it."
 msgstr ""
+"Desa la imatge actual com a «nom_fitxer»\\_XXX.kra i canvia al document "
+"actual."
 
 #: ../../user_manual/working_with_images.rst:275
 msgid ""
 "Copies and renames the last saved version of your file to a back-up file and "
 "saves your document under the original name."
 msgstr ""
+"Copia i reanomena l'última versió desada del vostre fitxer en un fitxer de "
+"còpia de seguretat i desa el vostre document amb el nom original."
 
 #: ../../user_manual/working_with_images.rst:276
 msgid "Save Incremental Backup"
@@ -532,3 +659,8 @@ msgid ""
 "of the layers. This will help you to recover as much as possible data from "
 "the file. On Windows, you will need to rename it to filename.zip to open it."
 msgstr ""
+"Atès que el format de fitxer del Krita és un fitxer de dades comprimides, en "
+"cas d'un fitxer corrupte o malmès, podreu obrir-lo amb els gestors de "
+"fitxers i extreure el contingut de les capes. Això us ajudarà a recuperar la "
+"major quantitat possible de dades del fitxer. Al Windows, haureu de "
+"canviar-li el nom a nom_fitxer.zip per a poder-lo obrir."
