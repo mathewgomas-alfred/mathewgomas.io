@@ -33,7 +33,7 @@ Images that are meant for viewing on a screen:
 * Or for Video games, both sprites and textures are best in RGB there.
 * Or for 3d rendering, visual effects and cg animation.
 
-And for the working space. A working space is an RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colours while also being able to view them correctly on multiple screens.
+And for the working space. A working space is an RGB gamut that is really large and predictable, meaning it's good for image manipulation. You use this next to a profiled monitor. This way you can have precise colors while also being able to view them correctly on multiple screens.
 
 Blending modes in RGB
 ~~~~~~~~~~~~~~~~~~~~~
@@ -69,7 +69,7 @@ Lightness
 Intensity
     Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter than blue (0,0,1). Ranges from 0 to 100.
 Luma (Y')
-    Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine its lightness. Ranges from 0 to 100. Luma is well known for being used in film-colour spaces.
+    Similar to lightness and Intensity, except it weights the red, green and blue components based real-life measurements of how much light a color reflects to determine its lightness. Ranges from 0 to 100. Luma is well known for being used in film-color spaces.
 
 .. _model_gray:
 
@@ -185,12 +185,12 @@ a\*
 b\*
     b\* in this case is a measurement of how yellow a color is versus how blue a color is.
 
-L\*a\*b\* is supposed to be a more comprehensible variety of XYZ and the most 'complete' of all color spaces. It's often used as an in between colour space in conversion, but even more as the correct color space to do color-balancing in. It's far easier to adjust the contrast and color tone in L*a*b*.
+L\*a\*b\* is supposed to be a more comprehensible variety of XYZ and the most 'complete' of all color spaces. It's often used as an in between color space in conversion, but even more as the correct color space to do color-balancing in. It's far easier to adjust the contrast and color tone in L*a*b*.
 
 L\*a\*b\* is technically the same as Photoshop's LAB. Photoshop specifically uses CIELAB d50.
 
-Filters and blending modes.
----------------------------
+Filters and blending modes
+--------------------------
 
 Maybe you have noticed that blending modes in LAB don't work like they do in RGB or CMYK. This is because the blending modes work by doing a bit of maths on the color coordinates, and because color coordinates are different per color space, the blending modes look different.
 

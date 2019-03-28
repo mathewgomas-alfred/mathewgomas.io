@@ -18,7 +18,7 @@ Bit depth basically refers to the amount of working memory per pixel you reserve
 
 Like how having a A2 paper in real life can allow for much more detail in the end drawing, it does take up more of your desk than a simple A4 paper.
 
-However, this does not just refer to the size of the image, but also how much precision you need per colour.
+However, this does not just refer to the size of the image, but also how much precision you need per color.
 
 To illustrate this, I'll briefly talk about something that is not even available in Krita:
 
@@ -63,6 +63,6 @@ Real Color
     Similar to 16bit float but with even higher precision. The native color depth of OpenColor IO, and thus faster than 16bit float in HDR images, if not heavier. Because of the nature of floating point type variables, 32bit float is roughly equal to 23-24 bits of precision per channel (16777216 values per channel in the 0-1 range), but with a much wider range (it can go far above 1), necessary for HDR/Scene-referred values. It is also known as 'single floating point'.
 
 
-This is important if you have a working colour space that is larger than your device space: At the least, if you do not want colour banding.
+This is important if you have a working color space that is larger than your device space: At the least, if you do not want color banding.
 
 And while you can attempt to create all your images a 32bit float, this will quickly take up your RAM. Therefore, it's important to consider which bit depth you will use for what kind of image.
