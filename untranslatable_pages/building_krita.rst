@@ -6,13 +6,13 @@
 
     :authors: - Boudewijn Rempt <boud@valdyas.org>
               - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
-              - images by David Revoy
+              - images and latter parts by David Revoy <info@davidrevoy.com>
     :license: GNU free documentation license 1.3 or later.
     
 .. _building_krita:
 
 ==========================
-Building krita from Source
+Building Krita from Source
 ==========================
 
 If you want to help developing Krita, or if you want to run the latest version of Krita on macOS, you need to know how to build Krita yourself. If you merely want to run the latest version of Krita on Windows or Linux, to test a bug or play with, you can use the `nightly build for Windows <https://binary-factory.kde.org/job/Krita_Nightly_Windows_Build/>`_ or the `nightly build for Linux <https://binary-factory.kde.org/job/Krita_Nightly_Appimage_Build/>`_
@@ -107,7 +107,7 @@ For example, for Ubuntu, you can start with:
     
 Which will install all the depedancies of the version of Krita in the repositories.
 
-However, the development version might use different dependancies, to find these, you can use the apt-cache search:
+However, the development version might use different dependencies, to find these, you can use the apt-cache search:
 
 .. code:: console
 
@@ -130,28 +130,136 @@ If all dependencies have been installed, cmake will output something like this:
     -- Generating done
     -- Build files have been written to: /home/boud/dev/b-krita
 
-Until that is shown, cmake has not succeeded and you cannot build Krita. When this is shown, you can build Krita:
+**Until that is shown, cmake has not succeeded and you cannot build Krita.** When this is shown, you can build Krita:
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
 
 .. code:: console
 
     you@yourcomputer:~/kritadev/build> make
-    you@yourcomputer:~/kritadev/build> make install
+    
+You can speed this up by enabling multithreading. To do so, you first figure out how many threads your processor can handle:
 
+.. code:: console
+
+    cat /proc/cpuinfo | grep processor | wc -l
+    
+Then, add the resulting number with -j (for 'Jobs') at the end, so for example:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/build> make -j4
+
+Installing
+~~~~~~~~~~
 .. image:: /images/en/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
 
-When these commands have succeeded, you can run Krita:
+When the build has fully succeeded, you can install:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/build> make install
+
+And when that is complete, you can run Krita:
 
 .. code::
 
     you@yourcomputer:~/kritadev/build>../install/bin/krita
+    
+Enviroment Variables
+~~~~~~~~~~~~~~~~~~~~
+
+Now, to get Krita to work by just typing ``krita`` into the terminal, we'll need to set up some environment variables. This will allow your system to know where Krita is located.
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_007-making-path_by-deevad.jpg
+
+Let's show to your system the right path, inside a terminal, copy line by line :
+
+.. code:: console
+
+    export KDEDIRS=$HOME/kritadev/install:$KDEDIRS
+    export PATH=$HOME/kritadev/install/bin:$PATH
+
+You will now be able to run Krita by typing ``krita`` into the terminal.
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
+
+Environment variables are never permanent. So we need to configure the system to set them each time you login. To set them at any login, write them with your favorite text editor at the end of your :file:`~/.profile` file (on certain distributions, the profile is named xprofile , check the hidden files in your :file:`home/{your-user-name}` folder).
+
+Updating
+~~~~~~~~
+.. image:: /images/en/cat_guide/Krita-building_for-cats_009-want-update_by-deevad.jpg
+
+Now, Krita is in constant development, so you will want to update your build from time to time. Maybe a cool feature got in, or a bug was fixed, or you just want the latest source.
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_010-git-update_by-deevad.jpg
+
+First, we get the new source from the git repository:
+
+.. code:: console
+
+    you@yourcomputer:~> cd ~/kritadev/src/
+    you@yourcomputer:~/kritadev/src> git pull
+    
+If you want to get the code from a specific branch, you will need to ``checkout`` that branch first:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/src> git checkout <name of the branch>
+    you@yourcomputer:~/kritadev/src> git pull
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_011-git-update-success_by-deevad.jpg
+
+Then, we build again:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/src> cd ~/kritadev/build/
+    you@yourcomputer:~/kritadev/build> make install
+
+If you update daily, you might want to automate these command by making your own minimal bash script.
+
+Trouble Shooting
+~~~~~~~~~~~~~~~~
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+
+The recent development version might break, or sometime be just unusable. Experimental changes are made daily.
+
+This will affect your productivity if you don't know how to 'go back in time' (for example your favorite brush doesn't work anymore).
+
+But if you know how to do it, *no issue can really affect you*, because you know how to come back to a previous state. 
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+
+To travel the source in time we need to read the timeline history. The terminal tool for it is ``git log``.
+
+.. code:: console
+
+    you@yourcomputer:~> cd ~/kritadev/src/
+    you@yourcomputer:~/kritadev/src> git log
+
+With git log, you can consult all the last changes to the code, the 'commit'. What we're interested in is the long identification number, the 'git hash' (such as ``cca5819b19e0da3434192c5b352285b987a48796``). You can scroll the ``git log``, copy the ID number then quit(letter :kbd:`Q` on keyboard). Then time-travel in your source directory: 
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/src> git checkout cca5819b19e0da3434192c5b352285b987a48796
+    you@yourcomputer:~/kritadev/src> git pull
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
+
+To update again to the actual and 'fresh from a minute ago' source-code named ``master``, simply ask git to come back to it with ``git checkout`` then ``pull`` to update :
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/src> git checkout master
+    you@yourcomputer:~/kritadev/src> git pull
 
 Common problems
 ~~~~~~~~~~~~~~~
 .. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+
+Outside of the source being unstable, there's the following common problems:
 
 * The most common problem is a missing dependency. Install it. A missing dependency is not an "error" that you need to report to the other Krita developers.
 
