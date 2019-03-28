@@ -5,6 +5,8 @@
 .. metadata-placeholder
 
     :authors: - Boudewijn Rempt <boud@valdyas.org>
+              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+              - images by David Revoy
     :license: GNU free documentation license 1.3 or later.
     
 .. _building_krita:
@@ -118,7 +120,7 @@ However, the development version might use different dependancies, to find these
     libquazip5-dev - C++ wrapper for ZIP/UNZIP (development files, Qt5 build)
     libquazip5-headers - C++ wrapper for ZIP/UNZIP (development header files, Qt5 build)
 
-You will want to get the 'dev' library here, because you're doing dev, and then Krita is using Qt5, so select that one.
+You will want to get the 'dev' library here, because you're doing dev, and then Krita is using Qt5, so select that one. If this doesn't help, check the `packages search<https://packages.ubuntu.com/>`_.
 
 If all dependencies have been installed, cmake will output something like this:
 
