@@ -35,7 +35,7 @@ Building on Linux
 
 This page only deals with building Krita on Linux. However, some remarks are the same for all operating systems, especially when it comes to running cmake and dealing with errors. You need to be familiar with using a terminal. 
 
-There are two options: you can either build Krita in your home directory, or use `Docker <https://cgit.kde.org/scratch/dkazakov/krita-docker-env.git/tree/README.md">`_, which makes setting up a development environment easier. 
+There are two options: you can either build Krita in your home directory, or use `Docker <https://cgit.kde.org/scratch/dkazakov/krita-docker-env.git/tree/README.md>`_, which makes setting up a development environment easier. 
 
 Preparing your development environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,7 +79,7 @@ Configuring the Build
 
     you@yourcomputer:~/kritadev> cd build
 
-Krita uses cmake (https://cmake.org) to define how Krita is built on various platforms. You first need to run cmake to generate the build system, in the kritadevs/build directory, then run make to make Krita, then run make install to install krita.
+Krita uses cmake (https://cmake.org) to define how Krita is built on various platforms. You first need to run cmake to generate the build system, in the :file:`kritadevs/build` directory, then run make to make Krita, then run make install to install krita.
 
 .. code::
 
@@ -107,7 +107,7 @@ For example, for Ubuntu, you can start with:
     
 Which will install all the depedancies of the version of Krita in the repositories.
 
-However, the development version might use different dependencies, to find these, you can use the apt-cache search:
+However, the development version might use different dependencies, to find these, you can use ``apt-cache search``:
 
 .. code:: console
 
@@ -226,11 +226,11 @@ Trouble Shooting
 
 The recent development version might break, or sometime be just unusable. Experimental changes are made daily.
 
-This will affect your productivity if you don't know how to 'go back in time' (for example your favorite brush doesn't work anymore).
+This will affect your productivity if you don't know how to 'go back in time' (for example, your favorite brush doesn't work anymore).
 
 But if you know how to do it, *no issue can really affect you*, because you know how to come back to a previous state. 
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+.. image:: /images/en/cat_guide/Krita-building_for-cats_013_by-deevad.jpg
 
 To travel the source in time we need to read the timeline history. The terminal tool for it is ``git log``.
 
