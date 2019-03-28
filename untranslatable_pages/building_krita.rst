@@ -33,10 +33,12 @@ Building on Linux
 
 This page only deals with building Krita on Linux. However, some remarks are the same for all operating systems, especially when it comes to running cmake and dealing with errors. You need to be familiar with using a terminal. 
 
-There are two options: you can either build Krita in your home directory, or use <a href="https://cgit.kde.org/scratch/dkazakov/krita-docker-env.git/tree/README.md">Docker</a>, which makes setting up a development environment easier. 
+There are two options: you can either build Krita in your home directory, or use `Docker <https://cgit.kde.org/scratch/dkazakov/krita-docker-env.git/tree/README.md">`_, which makes setting up a development environment easier. 
 
 Preparing your development environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_001-init-dir_001_by-deevad.jpg
 
 The most convenient layout is as follows:
 
@@ -58,6 +60,8 @@ Note: type in what's shown after '>' in the following commands
 Getting the Source Code
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: /images/en/cat_guide/Krita-building_for-cats_002-git-clone_001_by-deevad.jpg
+
 Open a terminal and enter the build root. Clone Krita from kde's git infrastructure (not github):
 
 .. code::
@@ -65,7 +69,10 @@ Open a terminal and enter the build root. Clone Krita from kde's git infrastruct
     you@yourcomputer:~/kritadev> git clone git://anongit.kde.org/krita.git
 
 Configuring the Build
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_004-configure_001_by-deevad.jpg
+
 .. code::
 
     you@yourcomputer:~/kritadev> cd build
@@ -75,6 +82,8 @@ Krita uses cmake (https://cmake.org) to define how Krita is built on various pla
 .. code::
 
     you@yourcomputer:~/kritadev/build>cmake ../krita -DCMAKE_INSTALL_PREFIX=/path/to/kritadev/install  -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    
+.. image:: /images/en/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
 
 Unless you have installed all the dependencies Krita needs, on first running cmake, cmake will complain about missing dependencies. For instance:
 
@@ -98,10 +107,14 @@ If all dependencies have been installed, cmake will output something like this:
 
 Until that is shown, cmake has not succeeded and you cannot build Krita. When this is shown, you can build Krita:
 
+.. image:: /images/en/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
+
 .. code::
 
     you@yourcomputer:~/kritadev/build> make
     you@yourcomputer:~/kritadev/build> make install
+
+.. image:: /images/en/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
 
 When these commands have succeeded, you can run Krita:
 
@@ -109,8 +122,11 @@ When these commands have succeeded, you can run Krita:
 
     you@yourcomputer:~/kritadev/build>../install/bin/krita
 
+.. image:: /images/en/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
+
 Common problems
 ~~~~~~~~~~~~~~~
+.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
 
 * The most common problem is a missing dependency. Install it. A missing dependency is not an "error" that you need to report to the other Krita developers.
 
