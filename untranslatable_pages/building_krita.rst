@@ -50,7 +50,7 @@ we will call the "kritadev" folder your build root.
 
 Note: type in what's shown after '>' in the following commands
 
-.. code::
+.. code:: console
 
     you@yourcomputer:~>mkdir kritadev
     you@yourcomputer:~/>cd kritadev
@@ -64,7 +64,7 @@ Getting the Source Code
 
 Open a terminal and enter the build root. Clone Krita from kde's git infrastructure (not github):
 
-.. code::
+.. code:: console
 
     you@yourcomputer:~/kritadev> git clone git://anongit.kde.org/krita.git
 
@@ -73,7 +73,7 @@ Configuring the Build
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_004-configure_001_by-deevad.jpg
 
-.. code::
+.. code:: console
 
     you@yourcomputer:~/kritadev> cd build
 
@@ -97,9 +97,32 @@ Unless you have installed all the dependencies Krita needs, on first running cma
     
 This is not an error, and you can fix this by installing the missing package using your distribution's package manager. Do not download these packages manually from the source website and build them manually. Do use your distribution's package manager to find the right packages.
 
-If all dependencies have been installed, cmake will output something like this:
+For example, for Ubuntu, you can start with:
 
 .. code::
+
+    you@yourcomputer:~/kritadev/build>apt-get build-dep krita
+    
+Which will install all the depedancies of the version of Krita in the repositories.
+
+However, the development version might use different dependancies, to find these, you can use the apt-cache search:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/build>apt-cache search quazip
+    libquazip-dev - C++ wrapper for ZIP/UNZIP (development files, Qt4 build)
+    libquazip-doc - C++ wrapper for ZIP/UNZIP (documentation)
+    libquazip-headers - C++ wrapper for ZIP/UNZIP (development header files)
+    libquazip1 - C++ wrapper for ZIP/UNZIP (Qt4 build)
+    libquazip5-1 - C++ wrapper for ZIP/UNZIP (Qt5 build)
+    libquazip5-dev - C++ wrapper for ZIP/UNZIP (development files, Qt5 build)
+    libquazip5-headers - C++ wrapper for ZIP/UNZIP (development header files, Qt5 build)
+
+You will want to get the 'dev' library here, because you're doing dev, and then Krita is using Qt5, so select that one.
+
+If all dependencies have been installed, cmake will output something like this:
+
+.. code:: console
 
     -- Configuring done
     -- Generating done
@@ -109,7 +132,7 @@ Until that is shown, cmake has not succeeded and you cannot build Krita. When th
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
 
-.. code::
+.. code:: console
 
     you@yourcomputer:~/kritadev/build> make
     you@yourcomputer:~/kritadev/build> make install
