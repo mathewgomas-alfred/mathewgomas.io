@@ -166,8 +166,8 @@ And when that is complete, you can run Krita:
 
     you@yourcomputer:~/kritadev/build>../install/bin/krita
     
-Enviroment Variables
-~~~~~~~~~~~~~~~~~~~~
+Environment Variables
+~~~~~~~~~~~~~~~~~~~~~
 
 Now, to get Krita to work by just typing ``krita`` into the terminal, we'll need to set up some environment variables. This will allow your system to know where Krita is located.
 
@@ -198,15 +198,15 @@ First, we get the new source from the git repository:
 
 .. code:: console
 
-    you@yourcomputer:~> cd ~/kritadev/src/
-    you@yourcomputer:~/kritadev/src> git pull
+    you@yourcomputer:~> cd ~/kritadev/krita/
+    you@yourcomputer:~/kritadev/krita> git pull
     
 If you want to get the code from a specific branch, you will need to ``checkout`` that branch first:
 
 .. code:: console
 
-    you@yourcomputer:~/kritadev/src> git checkout <name of the branch>
-    you@yourcomputer:~/kritadev/src> git pull
+    you@yourcomputer:~/kritadev/krita> git checkout <name of the branch>
+    you@yourcomputer:~/kritadev/krita> git pull
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_011-git-update-success_by-deevad.jpg
 
@@ -214,7 +214,7 @@ Then, we build again:
 
 .. code:: console
 
-    you@yourcomputer:~/kritadev/src> cd ~/kritadev/build/
+    you@yourcomputer:~/kritadev/krita> cd ~/kritadev/build/
     you@yourcomputer:~/kritadev/build> make install
 
 If you update daily, you might want to automate these command by making your own minimal bash script.
@@ -236,15 +236,22 @@ To travel the source in time we need to read the timeline history. The terminal 
 
 .. code:: console
 
-    you@yourcomputer:~> cd ~/kritadev/src/
-    you@yourcomputer:~/kritadev/src> git log
+    you@yourcomputer:~> cd ~/kritadev/krita/
+    you@yourcomputer:~/kritadev/krita> git log
 
 With git log, you can consult all the last changes to the code, the 'commit'. What we're interested in is the long identification number, the 'git hash' (such as ``cca5819b19e0da3434192c5b352285b987a48796``). You can scroll the ``git log``, copy the ID number then quit(letter :kbd:`Q` on keyboard). Then time-travel in your source directory: 
 
 .. code:: console
 
-    you@yourcomputer:~/kritadev/src> git checkout cca5819b19e0da3434192c5b352285b987a48796
-    you@yourcomputer:~/kritadev/src> git pull
+    you@yourcomputer:~/kritadev/krita> git checkout cca5819b19e0da3434192c5b352285b987a48796
+    you@yourcomputer:~/kritadev/krita> git pull
+
+And, we build again:
+
+.. code:: console
+
+    you@yourcomputer:~/kritadev/krita> cd ~/kritadev/build/
+    you@yourcomputer:~/kritadev/build> make install
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
 
@@ -252,8 +259,9 @@ To update again to the actual and 'fresh from a minute ago' source-code named ``
 
 .. code:: console
 
-    you@yourcomputer:~/kritadev/src> git checkout master
-    you@yourcomputer:~/kritadev/src> git pull
+    you@yourcomputer:~/kritadev/krita> git checkout master
+    you@yourcomputer:~/kritadev/krita> git pull
+
 
 Common problems
 ~~~~~~~~~~~~~~~
