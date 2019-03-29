@@ -25,7 +25,7 @@ Airbrush
 
 .. image:: /images/en/Krita_2_9_brushengine_airbrush.png
 
-If you hold the brush still, but are still pressing down, this will keep adding colour onto the canvas. The lower the rate, the quicker the colour gets added.
+If you hold the brush still, but are still pressing down, this will keep adding color onto the canvas. The lower the rate, the quicker the color gets added.
 
 .. index:: Mirror
 .. _option_mirror:
@@ -121,14 +121,14 @@ Has a slight brush-decreasing effect, especially noticeable with soft-brush, and
 Source
 ------
 
-Picks the source-colour for the brush-dab.
+Picks the source-color for the brush-dab.
 
 Plain Color
     Current foreground color.
 Gradient
     Picks active gradient
 Uniform Random
-    Gives a random colour to each brush dab.
+    Gives a random color to each brush dab.
 Total Random
     Random noise pattern is now painted.
 Pattern
@@ -146,13 +146,13 @@ Allows you to affect the mix of the :ref:`option_source` color with Sensors. It 
 .. image:: /images/en/Krita_2_9_brushengine_mix_01.png
 
 Uses
-~~~
+~~~~
 
 .. image:: /images/en/Krita_2_9_brushengine_mix_02.png
 
 Flow map
-    The above example uses a :program:`Krita` painted flowmap in the 3d program :program:`Blender`.
-    a brush was set to source Gradient and Mix:Drawing angle. The gradient in question contained the 360° for normal map colours. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders.
+    The above example uses a :program:`Krita` painted flowmap in the 3D program :program:`Blender`.
+    A brush was set to :menuselection:`Source --> Gradient` and :menuselection:`Mix --> Drawing angle`. The gradient in question contained the 360° for normal map colors. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders.
 
 .. _option_gradient:
 

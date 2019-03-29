@@ -50,8 +50,8 @@ OS X
 
 The Screenshot hotkey on OS X is :kbd:`Shift + Command + 3`, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
 
-The appropriate file format for the job.
-----------------------------------------
+The appropriate file format for the job
+---------------------------------------
 
 Different file formats are better for certain types of images. In the end, we want to have images that look nice and have a low filesize, because that makes the manual easier to download or browse on the internet.
 
@@ -72,8 +72,8 @@ Greyscale images, even when they have a lot of gradients variation, should be PN
 
 **When in doubt, use PNG.**
 
-Optimising Images in quality and size.
---------------------------------------
+Optimising Images in quality and size
+-------------------------------------
 
 Now, while most image editors try to give good defaults on image sizes, we can often make them even smaller by using certain tools.
 
@@ -98,7 +98,7 @@ There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png
 
         pngquant --quality=80-100 image.png
 
-    Where *image* is replaced with the image file name. When you press enter, a new image will appear in the folder with the compressed results.
+    Where *image* is replaced with the image file name. When you press :kbd:`Enter`, a new image will appear in the folder with the compressed results.
     PNGQuant works for most images, but some images, like the color selectors don't do well with it, so always double check that the resulting image looks good, otherwise try one of the following options:
 `PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_
     A lossless PNG compressor. Usage::
@@ -165,7 +165,7 @@ Change the directory to the folder where the image is located and type::
 
     exiftool image
 
-where image is the file you'd like to examine. If you just type exif tool in any given folder it will output all the information it can give about any file it comes across. If you take a good look at some images, you'll see they contain author or location metadata. This can be a bit of a problem sometimes when it comes to privacy, and also the primary reason all meta-data gets stripped.
+where image is the file you'd like to examine. If you just type ``exiftool`` in any given folder it will output all the information it can give about any file it comes across. If you take a good look at some images, you'll see they contain author or location metadata. This can be a bit of a problem sometimes when it comes to privacy, and also the primary reason all metadata gets stripped.
 
 You can also use `ImageMagick's identify <https://www.imagemagick.org/script/identify.php>`_::
 

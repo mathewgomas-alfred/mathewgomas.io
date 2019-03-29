@@ -60,7 +60,7 @@ Because the colorize mask algorithm is slow, and we only need a part of our laye
    :width: 800
    :align: center
 
-Now the algorithm will be possibly a lot faster, allowing us to add strokes and press update in rapid succession:
+Now the algorithm will be possibly a lot faster, allowing us to add strokes and press :guilabel:`Update` in rapid succession:
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_06.png
    :width: 800
@@ -152,7 +152,7 @@ Clean-up strokes
        :width: 800
        :align: center
 
-Keystrokes
+Key strokes
     This palette keeps track of the colors used by the strokes. This is useful so you can switch back to colors easily. You can increase the swatch size by hovering over it with the mouse, and doing :kbd:`Ctrl +` |mousescroll|.
 Transparent
     This button is under the keystrokes palette, you can mark the selected color to be interpreted a 'transparent' with this. In the clean-up screenshot above, cyan had been marked as transparent.

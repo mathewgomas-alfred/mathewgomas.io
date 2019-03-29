@@ -171,7 +171,7 @@ Normal
 
 As you may have guessed this is the default Blending mode for all layers.
 
-In this mode, the computer checks on the upper layer how transparent a pixel is, which colour it is, and then mixes the colour of the upper layer with the lower layer proportional to the transparency.
+In this mode, the computer checks on the upper layer how transparent a pixel is, which color it is, and then mixes the color of the upper layer with the lower layer proportional to the transparency.
 
 .. figure:: /images/blending_modes/Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png
    :align: center
@@ -186,7 +186,7 @@ Overlay
 
 A combination of the Multiply and Screen blending modes, switching between both at a middle-lightness.
 
-Overlay checks if the colour on the upperlayer has a lightness above 0.5. If so, the pixel is blended like in Screen mode, if not the pixel is blended like in Multiply mode.
+Overlay checks if the color on the upperlayer has a lightness above 0.5. If so, the pixel is blended like in Screen mode, if not the pixel is blended like in Multiply mode.
 
 This is useful for deepening shadows and highlights.
 
