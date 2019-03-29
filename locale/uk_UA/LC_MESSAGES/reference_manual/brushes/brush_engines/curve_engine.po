@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___curve_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__curve_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-04 23:54+0200\n"
+"PO-Revision-Date: 2019-03-28 20:35+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -43,6 +43,10 @@ msgid ""
 "spaced lines. It has, among other things been used as a replacement for "
 "pressure sensitive strokes in lieu of a tablet."
 msgstr ""
+"Пензель криволінійного малювання — рушій пензлів, який створює штрихи, які"
+" складаються із рівномірно розподілених ліній. Ним можна скористатися, серед"
+" інших речей, як замінником мазків із чутливістю до тиску, якщо у вас немає"
+" планшета."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:25
 msgid "Settings"
@@ -76,6 +80,8 @@ msgid ""
 "You have access to 3 settings from the Lines tab, as well as 2 corresponding "
 "dynamics:"
 msgstr ""
+"Ви маєте доступ до 3 параметрів на вкладці :guilabel:`Лінії`, а також 2"
+" відповідних динамічних характеристик:"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:38
 msgid ""
@@ -86,23 +92,30 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:40
 msgid "Line width dynamics: use this to vary line width dynamically."
 msgstr ""
+"Динаміка товщини лінії: скористайтеся цим параметром для визначення"
+" параметрів динамічної зміни товщини лінії."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:42
 msgid ""
 "History size: this determines the distance for the formation of curve lines."
 msgstr ""
+"Розмір журналу: цей параметр визначає відстань для формування ліній кривої."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:44
 msgid ""
 "If you set this at low values, then the curve lines can only form over a "
 "small distances, so they won't be too visible."
 msgstr ""
+"Якщо ви встановите низьке значення, лінії кривої формуватимуться лише на"
+" малих відстанях, отже будуть не дуже помітними."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:45
 msgid ""
 "On the other hand, if you set this value too high, the curve lines will only "
 "start forming relatively \"late\"."
 msgstr ""
+"З іншого боку, якщо ви встановите надто велике значення, лінії кривих почнуть"
+" створюватися відносно «пізно»."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:46
 msgid ""
@@ -122,6 +135,8 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:50
 msgid "Curves opacity dynamics: use this to vary Curves opacity dynamically."
 msgstr ""
+"Динаміка непрозорості кривих: цим параметром можна скористатися для"
+" визначення параметрів динамічної зміни непрозорості кривих."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:52
 msgid "In addition, you have access to two checkboxes:"
@@ -131,12 +146,16 @@ msgstr "Крім того, ви маєте доступ до двох пункт
 msgid ""
 "Paint connection line, which toggles the visibility of the connection line"
 msgstr ""
+":guilabel:`Лінія з’єднання малюнка` перемикає видимість лінії з'єднання"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:55
 msgid ""
 "Smoothing, which... I have no idea actually. I don't see any differences "
 "with or without it. Maybe it's for tablets?"
 msgstr ""
+":guilabel:`Згладжування`, яке... Ну, навіть не знаю. Не бачу ніяких"
+" відмінностей між варіантом із позначеним і непозначеним пунктом. Можливо,"
+" він для планшетів?"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:58
 msgid ".. image:: images/en/Krita-tutorial6-I.1-2.png"
@@ -151,12 +170,17 @@ msgid ""
 "And here's the only section of this tutorial that anyone cares about: pretty "
 "lineart lines! For this:"
 msgstr ""
+"Ось і розділ цього підручника, заради якого ви усе це і читали: чудові лінії"
+" графіки! Щоб досягти цього:"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:64
 msgid ""
 "Use the Draw Dynamically mode: I tend to increase drag to at least 50. Vary "
 "Mass and Drag until you get the feel that's most comfortable for you."
 msgstr ""
+"Скористайтеся режимом динамічного малювання. Варто збільшити значення інерції"
+" до принаймні 50. Скоригуйте масу та інерцію, аж доки ви не отримаєте"
+" найкомфортніший варіант для себе."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:67
 msgid ".. image:: images/en/Krita-tutorial6-I.2-1.png"
@@ -166,6 +190,8 @@ msgstr ".. image:: images/en/Krita-tutorial6-I.2-1.png"
 msgid ""
 "Set line width to a higher value (ex.: 5), then turn line width dynamics on:"
 msgstr ""
+"Встановіть товщину лінії у більше значення (приклад: 5), потім увімкніть"
+" динаміку товщини лінії:"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:70
 msgid ""
@@ -180,6 +206,8 @@ msgid ""
 "If you're a mouse user hoping to get variable line width, set the Line Width "
 "dynamics to Speed."
 msgstr ""
+"Якщо ви користуєтеся мишею і хочете отримати змінну товщину лінії, встановіть"
+" динаміку товщини лінії у значення :guilabel:`Швидкість`."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:74
 msgid ".. image:: images/en/Krita-tutorial6-I.2-2.png"
@@ -190,6 +218,9 @@ msgid ""
 "Set Curves opacity to 0: This is the simplest way to turn off the Curve "
 "lines. That said, leaving them on will get you more \"expressive\" lines."
 msgstr ""
+"Встановіть непрозорість кривих у значення 0: це найпростіший спосіб вимикання"
+" ліній кривих. Інакше кажучи, лишивши їх увімкненими ви отримаєте «виразніші»"
+" лінії."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:78
 msgid "Additional tips:"
@@ -197,7 +228,7 @@ msgstr "Додаткові підказки:"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:80
 msgid "Zig-zag a lot if you want a lot of extra curves lines."
-msgstr ""
+msgstr "Рухайте пензель зигзагом, якщо хочете багато додаткових кривих ліній."
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:81
 msgid ""
@@ -229,6 +260,7 @@ msgstr "Встановіть непрозорість кривих у значе
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:88
 msgid "Optionally decrease History size to about 30"
 msgstr ""
+"Якщо хочете, зменшіть розмір журналу до значення, яке приблизно рівне 30"
 
 #: ../../reference_manual/brushes/brush_engines/curve_engine.rst:90
 msgid ""

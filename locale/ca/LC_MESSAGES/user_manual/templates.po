@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___templates\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-12 11:01+0100\n"
+"PO-Revision-Date: 2019-03-28 15:33+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,6 +37,10 @@ msgid ""
 "can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing "
 "Document and Untitled Document` but then with a nicer place in the UI."
 msgstr ""
+"Les plantilles només són fitxers .kra que es desen en una ubicació especial "
+"per tal que el Krita pugui arrencar ràpidament. Això és com :guilabel:`Obre "
+"un document existent com a un document sense títol` però amb un lloc millor "
+"a la interfície d'usuari."
 
 #: ../../user_manual/templates.rst:23
 msgid ""
@@ -52,7 +56,7 @@ msgstr ""
 
 #: ../../user_manual/templates.rst:25
 msgid "We have the following defaults:"
-msgstr ""
+msgstr "Tenim els valors predeterminats següents:"
 
 #: ../../user_manual/templates.rst:28
 msgid "Comic Templates"
@@ -67,26 +71,37 @@ msgid ""
 "them drawing over the panel. Use :guilabel:`Inherit Alpha` to clip the "
 "drawing by the panel."
 msgstr ""
+"Aquestes plantilles han estat dissenyades específicament perquè pugueu "
+"començar a dibuixar còmics. La plantilla de còmic es basa en un sistema "
+"vectorial i clons d'aquestes capes vectorials, les quals reflecteixen "
+"automàticament els canvis realitzats a les capes vectorials. Entre aquests "
+"dos, podreu dibuixar la vostra imatge sense por de dibuixar sobre el panell. "
+"Utilitzeu :guilabel:`Hereta l'alfa` per a escurçar el dibuix pel panell."
 
 #: ../../user_manual/templates.rst:32
 msgid "European Bande Desinée Template."
-msgstr ""
+msgstr "Plantilla per a còmics d'estil bandes Dessinée europeu."
 
 #: ../../user_manual/templates.rst:33
 msgid ""
 "This one is reminiscent of the system used by for example TinTin or Spirou "
 "et Fantasio. These panels focus on wide images, and horizontal cuts."
 msgstr ""
+"Aquesta és una reminiscència del sistema utilitzat per exemple per a TinTin o "
+"Spirou et Fantasio. Aquests panells se centren en imatges àmplies i retalls "
+"horitzontals."
 
 #: ../../user_manual/templates.rst:34
 msgid "US-style comics Template."
-msgstr "Plantilla de còmics d'estil americà."
+msgstr "Plantilla per a còmics d'estil americà."
 
 #: ../../user_manual/templates.rst:35
 msgid ""
 "This one is reminiscent of old DC and Marvel comics, such as Batman or "
 "Captain America. Nine images for quick story progression."
 msgstr ""
+"Aquesta és una reminiscència de antics còmics de DC i Marvel, com Batman o "
+"Capità Amèrica. Nou imatges per a una progressió ràpida de la història."
 
 #: ../../user_manual/templates.rst:36
 msgid "Manga Template."
@@ -98,6 +113,9 @@ msgid ""
 "and a thick horizontal gutter, ensuring that the reader finished the "
 "previous row before heading to the next."
 msgstr ""
+"Aquesta es basa en els còmics japonesos, i se centra en un canal vertical "
+"prim i un canal horitzontal gruixut, el qual garanteix que el lector acabi "
+"de veure la fila anterior abans de passar a la següent."
 
 #: ../../user_manual/templates.rst:39
 msgid "Waffle Iron Grid"
@@ -105,7 +123,7 @@ msgstr "Graella de ferro"
 
 #: ../../user_manual/templates.rst:39
 msgid "12 little panels at your disposal."
-msgstr ""
+msgstr "12 panells petits a la vostra disposició."
 
 #: ../../user_manual/templates.rst:42
 msgid "Design Templates"
@@ -116,6 +134,8 @@ msgid ""
 "These are templates for design and have various defaults with proper ppi at "
 "your disposal:"
 msgstr ""
+"Aquestes són plantilles per al disseny i tenen diversos valors predeterminats "
+"amb un PPI adequat a la vostra disposició:"
 
 #: ../../user_manual/templates.rst:46
 msgid "Cinema 16:10"
@@ -147,7 +167,7 @@ msgstr "Plantilles de rèflex digitals"
 
 #: ../../user_manual/templates.rst:56
 msgid "These have some default size for photos"
-msgstr ""
+msgstr "Aquestes tenen alguna mida predeterminada per a les fotografies."
 
 #: ../../user_manual/templates.rst:58
 msgid "Canon 55D"
@@ -176,3 +196,4 @@ msgstr "Plantilles de textura"
 #: ../../user_manual/templates.rst:67
 msgid "These are for making 3D textures, and are between 1024, to 4092."
 msgstr ""
+"Aquests són per a crear textures en 3D, i estan entre els 1024 fins als 4092."

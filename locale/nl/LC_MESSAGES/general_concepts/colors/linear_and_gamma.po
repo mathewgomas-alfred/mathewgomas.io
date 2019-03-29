@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 17:09+0100\n"
+"PO-Revision-Date: 2019-03-28 17:59+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:None
 msgid ".. image:: images/en/color_category/trc_gray_gradients.svg"
@@ -26,23 +26,23 @@ msgstr ".. image:: images/en/color_category/trc_gray_gradients.svg"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:None
 msgid ".. image:: images/en/color_category/Basicreading3trcsv2.svg"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Basicreading3trcsv2.svg"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:None
 msgid ".. image:: images/en/color_category/red_green_mixes_trc.svg"
-msgstr ""
+msgstr ".. image:: images/en/color_category/red_green_mixes_trc.svg"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:None
 msgid ".. image:: images/en/color_category/3trcsresult.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/3trcsresult.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:1
 msgid "The effect of gamma and linear."
-msgstr ""
+msgstr "Het effect van gamma en lineair."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:17
 msgid "Gamma and Linear"
-msgstr ""
+msgstr "Gamma en lineair"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:19
 msgid ""
@@ -51,6 +51,10 @@ msgid ""
 "perceive linearly. Rather, we find it more easy to distinguish between "
 "darker greys than we do between lighter greys."
 msgstr ""
+"De situatie waarover we nu praten, bij theoretisch praten, is wat we "
+"'lineair' zouden noemen. Elke stap helderheid is dezelfde waarde. Onze "
+"ogen zien niet lineair. We vinden het echter gemakkelijker het "
+"onderscheid te zien tussen donkere grijzen dan tussen lichtere grijzen."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:22
 msgid ""
@@ -65,7 +69,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
 msgid ".. image:: images/en/color_category/Pepper_tonecurves.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Pepper_tonecurves.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
 msgid ""
@@ -104,18 +108,21 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:40
 msgid "We can see this with the following experiment:"
-msgstr ""
+msgstr "We kunnen dit zien met het volgende experiment:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:46
 msgid ""
 ".. image:: images/en/color_category/Krita_2_9_colormanagement_blending_1.png"
 msgstr ""
+".. image:: images/en/color_category/Krita_2_9_colormanagement_blending_1.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:46
 msgid ""
 "**Left:** Colored circles blurred in a regular sRGB space. **Right:** "
 "Colored circles blurred in a linear space."
 msgstr ""
+"**Links:** gekleurde cirkels vervaagd in een reguliere sRGB ruimte. "
+"**Rechts:** gekleurde cirkels vervaagd in een lineaire ruimte."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:48
 msgid ""
@@ -125,12 +132,13 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:50
 msgid "This also counts for Krita's colour smudge brush:"
-msgstr ""
+msgstr "Dit geldt ook voor de kleur doezelende penseel van Krita:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
 ".. image:: images/en/color_category/Krita_2_9_colormanagement_blending_2.png"
 msgstr ""
+".. image:: images/en/color_category/Krita_2_9_colormanagement_blending_2.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
@@ -142,11 +150,11 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:59
 msgid "What is happening under the hood"
-msgstr ""
+msgstr "Wat gebeurt er onder de motorkap"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:62
 msgid "Imagine we want to mix red and green."
-msgstr ""
+msgstr "Stel je voor we willen rood en groen mixen."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:64
 msgid ""
@@ -182,7 +190,7 @@ msgstr "Blauw"
 #: ../../general_concepts/colors/linear_and_gamma.rst:78
 #: ../../general_concepts/colors/linear_and_gamma.rst:80
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:69
 #: ../../general_concepts/colors/linear_and_gamma.rst:70
@@ -190,7 +198,7 @@ msgstr ""
 #: ../../general_concepts/colors/linear_and_gamma.rst:80
 #: ../../general_concepts/colors/linear_and_gamma.rst:82
 msgid "0.0"
-msgstr ""
+msgstr "0.0"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:73
 msgid "We then average these coordinates over three mixes:"
@@ -211,17 +219,17 @@ msgstr "Mengsel3"
 #: ../../general_concepts/colors/linear_and_gamma.rst:78
 #: ../../general_concepts/colors/linear_and_gamma.rst:80
 msgid "0.75"
-msgstr ""
+msgstr "0.75"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:78
 #: ../../general_concepts/colors/linear_and_gamma.rst:80
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:78
 #: ../../general_concepts/colors/linear_and_gamma.rst:80
 msgid "0.25"
-msgstr ""
+msgstr "0.25"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:85
 msgid ""
