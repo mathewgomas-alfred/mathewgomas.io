@@ -160,7 +160,7 @@ Colors
         The main background color of the editor.
 
 Fonts
-    This allows you to filter the selection of fonts in the editor by writing system. Some systems have a lot of fonts specifically for showing foreign languages properly, but these might not be useful for you. You just tick the writing systems which you use yourself, and the font dropdown will only show fonts that have full support for that language.
+    This allows you to filter the selection of fonts in the editor by writing system. Some systems have a lot of fonts specifically for showing foreign languages properly, but these might not be useful for you. You just tick the writing systems which you use yourself, and the font drop-down will only show fonts that have full support for that language.
 
 Fine typographic control with the SVG Source tab
 ------------------------------------------------

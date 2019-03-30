@@ -29,16 +29,16 @@ Adding new patterns
 -------------------
 
 You can add new patterns via the pattern docker, or the pattern-quick-access menu in the toolbar.
-At the bottom of the docker, beneath the resource-filter input field, there's the 'import resource' and 'delete resource' buttons. Select the former to add png or jpg files to the pattern list.
+At the bottom of the docker, beneath the resource-filter input field, there are the :guilabel:`Import resource` and :guilabel:`Delete resource` buttons. Select the former to add png or jpg files to the pattern list.
 
-Similarly, removing patterns can be done by pressing the 'delete resource' button. Krita will not delete the actual file then, but rather black list it, and thus not load it.
+Similarly, removing patterns can be done by pressing the :guilabel::`Delete resource` button. Krita will not delete the actual file then, but rather black list it, and thus not load it.
 
 Temporary patterns and generating patterns from the canvas
 ----------------------------------------------------------
 
 You can use the pattern drop-down to generate patterns from the canvas but also to make temporary ones.
 
-First, draw a pattern and open the pattern-drop down.
+First, draw a pattern and open the pattern drop-down.
 
 .. image:: /images/en/Generating_custom_patterns1.png
    :align: center
@@ -50,7 +50,7 @@ Then go into :guilabel:`custom` and first press :guilabel:`Update` to show the p
 
 Then, click either :guilabel:`Use as Pattern` to use it as a temporary pattern, or :guilabel:`Add to predefined patterns` to save it into your pattern resources!
 
-You can then start using it in Krita by for example making a canvas and doing :guilabel:`edit --> fill with pattern`.
+You can then start using it in Krita by for example making a canvas and doing :guilabel:`Edit --> Fill with Pattern`.
 
 .. image:: /images/en/Generating_custom_patterns3.png
    :align: center

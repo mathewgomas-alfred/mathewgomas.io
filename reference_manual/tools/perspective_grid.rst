@@ -25,7 +25,7 @@ The perspective grid tool allows you to draw and manipulate grids on the canvas 
 
 .. image:: /images/en/Perspectivegrid.png
 
-The grid can be manipulated by pulling on any of its four corners. The grid can be extended by clicking and dragging a midpoint of one of its edges. This will allow you to expand the grid at other angles.This process can be repeated on any subsequent grid or grid section. You can join the corners of two grids by dragging one onto the other. Once they are joined they will always move together, they cannot be separated. You can delete any grid by clicking on the red X at its center. This tool can be used to build reference for complex scenes.
+The grid can be manipulated by pulling on any of its four corners. The grid can be extended by clicking and dragging a midpoint of one of its edges. This will allow you to expand the grid at other angles. This process can be repeated on any subsequent grid or grid section. You can join the corners of two grids by dragging one onto the other. Once they are joined they will always move together, they cannot be separated. You can delete any grid by clicking on the red X at its center. This tool can be used to build reference for complex scenes.
 
 * As displayed while the Perspective Grid tool is active: *
 

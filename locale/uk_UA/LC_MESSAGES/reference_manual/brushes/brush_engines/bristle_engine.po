@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_engines___bristle_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-02 09:15+0200\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"PO-Revision-Date: 2019-03-27 07:58+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -22,8 +22,8 @@ msgstr ""
 "X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
-msgid "Weighted saturation."
-msgstr "Зважене насичення."
+msgid "Weighted saturation"
+msgstr "Зважене насичення"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:0
 msgid ".. image:: images/en/Krita-tutorial7-B.I.3-1.png"
@@ -70,6 +70,9 @@ msgid ""
 "Lower opacity areas have lower-opacity bristles. With this brush, this may "
 "give the illusion that lower-opacity areas have fewer bristles."
 msgstr ""
+"На ділянках із низькою непрозорістю непрозорість щетинок також буде низькою. "
+"Для цього пензля це може створити ілюзію того, що на ділянках із низькою "
+"непрозорістю менше щетинок."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:31
 msgid ""
@@ -85,17 +88,25 @@ msgstr "Можете зробити так:"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:35
 msgid ""
-"Use different shapes for different effects.Be aware that complex brush "
+"Use different shapes for different effects. Be aware that complex brush "
 "shapes will draw more slowly though, while the effects aren't always visible "
 "(since in the end, you're passing over an area with a certain number of "
 "bristles)."
 msgstr ""
+"Скористатися різними формами для різних ефектів. Втім, слід мати на увазі, "
+"що пензлі складних форм малюють набагато повільніше, а ефекти від їхнього "
+"використання не завжди є очевидними (оскільки врешті-решт ви просто "
+"покриваєте фарбою певну ділянку зображення за допомогою певної кількості "
+"щетинок на пензлі)."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:36
 msgid ""
 "To decrease bristle density, you can also just use an autobrush and decrease "
 "the brush tip's density, or increase its randomness."
 msgstr ""
+"Щоб зменшити щільність щетинок, ви також можете просто скористатися "
+"автопензлем і зменшити щільність кінчика пензля або збільшити його "
+"випадковість."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:39
 msgid ".. image:: images/en/Krita-tutorial7-B.I.1.png"
@@ -113,6 +124,8 @@ msgstr "Ядро цього окремо взятого рушія пензлі�
 msgid ""
 "Think of it as pressing down on a brush to make the bristles further apart."
 msgstr ""
+"Це можна уявляти як роботу звичайного пензля: коли ви натискаєте на пензель, "
+"щетинки розходяться."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:48
 msgid ""
@@ -120,12 +133,18 @@ msgid ""
 "For example, a value of 4 will multiply your base brush size by 4, but the "
 "bristles will be 4 times more spaced apart."
 msgstr ""
+"Більші значення, на базовому рівні, даватимуть більші пензлі і більші "
+"інтервали між щетинками. Наприклад, значення 4 призведе до множення базового "
+"розміру пензля на 4, але також збільшить у чотири рази порожнє місце між "
+"щетинками."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:49
 msgid ""
 "Use smaller values if you want a \"dense\" brush, i.e. you don't want to see "
 "so many bristles within the center."
 msgstr ""
+"Використовуйте менші значення, якщо вам потрібен «щільний» пензель, тобто "
+"якщо ви не хочете бачити так багато щетинок у центрі."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:50
 msgid "Scale"
@@ -136,14 +155,16 @@ msgid ""
 "Negative values have the same effect as corresponding positive values: -1.00 "
 "will look like 1.00, etc."
 msgstr ""
+"Від'ємні значення працюють так само, як і додатні: -1.00 дає такий самий "
+"вигляд, як 1.00."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:53
 msgid "Adds a jaggy look to the trailing lines."
-msgstr ""
+msgstr "Надає зубчастого вигляду лініям щетинок."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:55
 msgid "At 0.00, all the bristles basically remain completely parallel."
-msgstr ""
+msgstr "При значенні 0.00 усі лінії щетинок лишаються повністю паралельними."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:56
 msgid "Random Offset"
@@ -155,10 +176,13 @@ msgid ""
 "increase the brush size a bit because of the bristles spreading around, but "
 "not by much."
 msgstr ""
+"При інших значення відстань між щетинками буде випадковою. Використання "
+"великих значень дещо збільшує розміри пензля через розсіювання щетинок, але "
+"не набагато."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:57
 msgid "Negative values have the same effect as corresponding positive values."
-msgstr ""
+msgstr "Від'ємні значення працюють так само, як і додатні."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:58
 msgid "Shear"
@@ -182,6 +206,10 @@ msgid ""
 "expands or compresses them into a denser area, whereas density takes a fixed "
 "area and determines the number of bristles in it. See the difference?"
 msgstr ""
+"Цей параметр керує щільністю щетинок. За значенням масштабу програма розсіює "
+"щетинки або стискає їх у меншу ділянку, а за значенням щільності "
+"використовує сталу площу ділянки, але визначає кількість щетинок у ній. "
+"Бачите різницю?"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:64
 msgid ".. image:: images/en/Krita-tutorial7-B.I.2-1.png"
@@ -192,6 +220,8 @@ msgid ""
 "This one maps \"Scale\" to mouse speed, thus simulating pressure with a "
 "graphics tablet!"
 msgstr ""
+"Цей пункт пов'язує «Масштаб» зі швидкістю руху вказівника миші, таким чином "
+"імітуючи роботу графічного планшета!"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:68
 msgid "Mouse Pressure"
@@ -202,6 +232,8 @@ msgid ""
 "Rather, it uses the \"distance between two events\" to determine scale. "
 "Faster drawing, larger distances."
 msgstr ""
+"Для визначення масштабу використовується «відстань між двома подіями». Чим "
+"швидше малювання, тим більшою буде відстань."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:69
 msgid ""
@@ -209,6 +241,9 @@ msgid ""
 "opacity, rotation etc.) so you still have to map those independently to "
 "something else."
 msgstr ""
+"Це значення не впливає на обробку вхідного «тиску» для усіх інших параметрів "
+"(розміру, непрозорості, обертання, тощо), тому вам доведеться пов'язати тиск "
+"із цими параметрами окремо."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:70
 msgid "Threshold"
@@ -219,6 +254,8 @@ msgid ""
 "This is a tablet feature. When you turn this on, only bristles that are able "
 "to \"touch the canvas\" will be painted."
 msgstr ""
+"Це можливість для планшетів. Якщо пункт позначено, буде намальовано лише "
+"щетинки, які могли «торкнутися полотна»."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:72
 msgid "Connect Hairs"
@@ -245,6 +282,8 @@ msgid ""
 "This \"composes the bristle colors within one dab,\" but explains that the "
 "effect is \"probably subtle.\""
 msgstr ""
+"«Компонує кольори щетинок у один мазок», але пояснити наслідки застосування "
+"цього ефекту «ймовірно, складно»."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:80
 msgid ".. image:: images/en/Krita-tutorial7-B.I.2-2.png"
@@ -259,6 +298,8 @@ msgid ""
 "This simulated ink depletion over drawing time. The value dictates how long "
 "it will take. The curve dictates the speed."
 msgstr ""
+"Імітує вичерпання чорнила під час малювання. Значення визначає, на скільки "
+"може вистачити чорнила. Крива визначає швидкість вичерпання чорнила."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:86
 msgid "Opacity"
@@ -279,12 +320,20 @@ msgstr "Насиченість"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:94
 msgid ""
-"The brush will pick up colors from other brushes. You don't need to have Ink "
-"depletion checked to activate this option, you just have to check Soak Ink. "
-"What this does is cause the bristles of the brush to take on the colors of "
-"the first area they touch. Since the Bristle brush is made up of independent "
-"bristles, you can basically take on several colors at the same time."
+"The brush will pick up colors from other brushes. You don't need to have :"
+"guilabel:`Ink depletion` checked to activate this option, you just have to "
+"check :guilabel:`Soak ink`. What this does is cause the bristles of the "
+"brush to take on the colors of the first area they touch. Since the Bristle "
+"brush is made up of independent bristles, you can basically take on several "
+"colors at the same time."
 msgstr ""
+"Пензель братиме кольори з інших пензлів. Вам не доведеться позначати пункт :"
+"guilabel:`Вичерпання чорнила` для активації цього пункту, достатньо "
+"позначити пункт :guilabel:`Всмоктати чорнило`. Використання цього пункту "
+"призведе до того, що щетинки пензля всотуватимуть кольори першої ділянки, "
+"якої вони торкнуться. Оскільки щетинковий пензель створено із незалежних "
+"щетинок, ви, на базовому рівні, можете взяти з полотна декілька кольорів "
+"одночасно."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:98
 msgid ""
@@ -292,6 +341,9 @@ msgid ""
 "using a brush with 4.00 scale for example, it will only take the colors in "
 "the 1/4 area closest to the center."
 msgstr ""
+"Кольори буде взяти лише з немасштабованої ділянки пензля, отже, якщо ви, "
+"наприклад, використовуєте пензель із масштабом 4.00, кольори буде взято лише "
+"із розташованої у центрі 1/4 площі ділянки пензля."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:99
 msgid "When the source is transparent, the bristles take black color."
@@ -309,6 +361,12 @@ msgid ""
 "avoid these weird behaviors, stick to just one layer, or paint something on "
 "the current active layer first with another brush (such as a Pixel brush)."
 msgstr ""
+"Втім, слід мати на увазі, що у поточній версії ця можливість не позбавлена "
+"вад. Пензель мав би брати колір із поточного шару, але через вади часто бере "
+"колір з останнього шару, на якому ви малювали (за допомогою пензля, "
+"відмінного від щетинкового?). Щоб уникнути цієї проблеми, користуйтеся лише "
+"одним шаром або намалюйте спочатку щось на поточному активному шарі іншим "
+"пензлем (наприклад піксельним пензлем)."
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:107
 msgid "Works by modifying the saturation with the following:"
@@ -320,11 +378,11 @@ msgstr "Вага тиску"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:110
 msgid "Bristle length weight"
-msgstr "Вага відстані розбризкування"
+msgstr "Вага відстані щетинками"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:111
 msgid "Bristle ink amount weight"
-msgstr "Вага частки чорнила для розбризкування"
+msgstr "Вага частки чорнила для щетинок"
 
 #: ../../reference_manual/brushes/brush_engines/bristle_engine.rst:112
 msgid "Ink depletion curve weight"

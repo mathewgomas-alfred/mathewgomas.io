@@ -40,7 +40,7 @@ You’ll find that there are a number of people are almost always around: the co
 
 Krita’s team spans the globe, but most development happens in Europe and Russia.
 
-Krita is part of the larger KDE community. The KDE® Community is a free software community dedicated to creating an open and user-friendly computing experience, offering an advanced graphical desktop, a wide variety of applications for communication, work, education and entertainment and a platform to easily build new applications upon. The KDE contributors guide is relevant for Krita contributors, too, and can be found here: http://archive.flossmanuals.net/kde-guide/ .
+Krita is part of the larger KDE community. The KDE® Community is a free software community dedicated to creating an open and user-friendly computing experience, offering an advanced graphical desktop, a wide variety of applications for communication, work, education and entertainment and a platform to easily build new applications upon. The KDE contributors guide is relevant for Krita contributors, too, and can be found `here <https://archive.flossmanuals.net/kde-guide/>`_.
 
 The Krita Foundation was created to support development of Krita. The Krita Foundation has sponsored Dmitry’s work on Krita since 2013.
 
@@ -85,7 +85,7 @@ Phabricator serves the following purposes for the Krita team:
 Bugzilla: the Bug Tracker
 -------------------------
 
-Krita shares the bug tracker with the rest of the KDE community. Krita bugs are found under the Krita product. There are two kinds of reports in the bug tracker: bugs and wishes. See the chapters on Bug Reporting and Bug Triaging on how to handle bugs. Wishes are feature requests. Do not report feature requests in bugzilla unless a developer has asked you to. See the chapter on Feature Requests for what is needed to create a good feature request.
+Krita shares the bug tracker with the rest of the KDE community. Krita bugs are found under the Krita product. There are two kinds of reports in the bug tracker: bugs and wishes. See the chapters on :ref:`Bug Reporting <bugs_reporting>` and :ref:`Bug Triaging <triaging_bugs>` on how to handle bugs. Wishes are feature requests. Do not report feature requests in bugzilla unless a developer has asked you to. See the chapter on :ref:`Feature Requests <developing_features>` for what is needed to create a good feature request.
 
 Sprints
 -------

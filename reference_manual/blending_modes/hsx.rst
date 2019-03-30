@@ -20,7 +20,7 @@ HSI
 ~~~
 
 HSI is a color coordinate system, using Hue, Saturation and Intensity to categorize a color.
-Hue is roughly the wavelength, whether the colour is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
+Hue is roughly the wavelength, whether the color is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
 Saturation is the measurement of how close a color is to grey.
 Intensity, in this case is the tone of the color. What makes intensity special is that it recognises yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
 
@@ -54,7 +54,7 @@ HSX Blending Modes
 Color, HSV, HSI, HSL, HSY
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This takes the Luminosity/Value/Intensity/Lightness of the colours on the lower layer, and combines them with the Saturation and Hue of the upper pixels. We refer to Color HSY as 'Color' in line with other applications.
+This takes the Luminosity/Value/Intensity/Lightness of the colors on the lower layer, and combines them with the Saturation and Hue of the upper pixels. We refer to Color HSY as 'Color' in line with other applications.
 
 .. figure:: /images/blending_modes/hsx/Blending_modes_Color_HSI_Gray_0.4_and_Gray_0.5.png
    :align: center

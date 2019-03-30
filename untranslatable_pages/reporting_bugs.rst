@@ -7,7 +7,7 @@
     :authors: - Boudewijn Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
 
-.. _reporting_bugs:
+.. _bugs_reporting:
 
 ==============
 Reporting Bugs

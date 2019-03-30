@@ -30,7 +30,7 @@ OpenGL is a bit of code especially for graphics cards. Graphics cards a dedicate
 **For Krita 3.3 or later:** On Windows, Krita also supports using Direct3D instead with the help of the ANGLE library. ANGLE works by converting the OpenGL functions that Krita makes use of to the equivalent in Direct3D. It may (or may not) be slower than native OpenGL, but it has better compatibility with typical Windows graphics drivers.
 
 Enable OpenGL **(For Krita 3.3 or later: Reworded as *Canvas Graphics Acceleration*)**
-    Selecting this checkbox will enable the OpenGL / ANGLE canvas drawing mode. With a decent graphics card this should give faster feedback on brushes and tools. Also the canvas operations like Rotate,Zoom and Pan should be considerably faster. 
+    Selecting this checkbox will enable the OpenGL / ANGLE canvas drawing mode. With a decent graphics card this should give faster feedback on brushes and tools. Also the canvas operations like Rotate, Zoom and Pan should be considerably faster. 
 For Krita 3.3 or later:
     Renderer
         *On Windows:* You can switch between native OpenGL or ANGLE Direct3D 11 rendering. The usual recommendation is to leave it as "Auto", which Krita will decide the best to use based on some internal compatibility checking. Changes to this option require a restart of Krita to take effect.
@@ -40,9 +40,9 @@ Scaling Mode
     The user can choose which scaling mode to use while zooming the canvas. The choice here only affects the way the image is displayed during canvas operations and has no effect on how Krita scales an image when a transformation is applied.
     
     Nearest Neighbour
-        This is the fastest and crudest filtering method . While fast, this results in a large number of artifacts - 'blockiness' during magnification, and aliasing and shimmering during minification.
+        This is the fastest and crudest filtering method. While fast, this results in a large number of artifacts - 'blockiness' during magnification, and aliasing and shimmering during minification.
     Bilinear Filtering
-        This is the next step up.This removes the 'blockiness' seen during magnification and gives a smooth looking result. For most purposes this should be a good trade-off between speed and quality.
+        This is the next step up. This removes the 'blockiness' seen during magnification and gives a smooth looking result. For most purposes this should be a good trade-off between speed and quality.
     Trilinear Filtering
         This should give a little better result than Bilinear Filtering.
     High Quality Filtering
@@ -78,7 +78,7 @@ Size
 Color
     The user can set the colors for the checkers over here. 
 Move Checkers When Scrolling 
-    When selected the checkers will move along with opaque elements of an image during canvas Panning, Zooming,etc.  Otherwise the checkers remain stationary and only the opaque parts of an image will move. 
+    When selected the checkers will move along with opaque elements of an image during canvas Panning, Zooming, etc.  Otherwise the checkers remain stationary and only the opaque parts of an image will move. 
 
 Canvas Border
 -------------
@@ -93,7 +93,7 @@ Pixel Grid
 
 .. versionadded:: 4.0
 
-This allows configuring a automatic pixel-by-pixel gid, which is very useful for doing pixel art.
+This allows configuring an automatic pixel-by-pixel grid, which is very useful for doing pixel art.
 
 Color
     The color of the grid.

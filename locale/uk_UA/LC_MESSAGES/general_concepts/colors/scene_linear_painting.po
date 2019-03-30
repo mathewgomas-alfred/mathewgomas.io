@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___colors___scene_linear_painting\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 03:31+0100\n"
-"PO-Revision-Date: 2019-03-07 20:19+0200\n"
+"POT-Creation-Date: 2019-03-26 03:35+0100\n"
+"PO-Revision-Date: 2019-03-27 16:49+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:1
 msgid "Scene Linear painting in Krita"
@@ -46,6 +46,8 @@ msgstr ""
 #: ../../general_concepts/colors/scene_linear_painting.rst:20
 msgid "Floating Point - So 16bit or 32bit floating point per channel."
 msgstr ""
+"Із дійсними значеннями для компонентів кольорів — 16- або 32-бітові дійсні "
+"числа із рухомою крапкою для кожного з каналів."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:22
 msgid ""
@@ -157,6 +159,8 @@ msgid ""
 "Filters are more powerful and give nicer results in this space. It is far "
 "more easy to get nice blurring and bokeh results."
 msgstr ""
+"У цьому просторі фільтри є потужнішими і дають кращі результати. Тут "
+"набагато простіше отримати якісне розмивання або ефект боке."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:50
 msgid ""
@@ -191,10 +195,12 @@ msgid ""
 "Simply put, because while it’s easier in the long run, you will also have to "
 "drop tools and change habits..."
 msgstr ""
+"Якщо простіше, оскільки так буде краще у перспективі, вам також доведеться "
+"забути про деякі інструменти і змінити звички…"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:60
 msgid ""
-"In particular, there’s many a tool in a digital painter’s toolbox that has "
+"In particular, there are many tools in a digital painter’s toolbox that have "
 "**hard-coded assumptions about black and white**."
 msgstr ""
 
@@ -222,19 +228,24 @@ msgstr ""
 #: ../../general_concepts/colors/scene_linear_painting.rst:66
 msgid "Color-dodge (divides the lower color with an inversion of the top one)"
 msgstr ""
+"Висвітлення кольорів (ділить колір нижнього шару на обернений колір "
+"верхнього)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:67
 msgid ""
 "Color-burn (inverts the lower color and then divides it by the top color)"
 msgstr ""
+"Вигоряння кольорів (інвертує колір нижнього шару і ділить його на колі "
+"верхнього)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:68
 msgid "Hardlight (A different way of doing overlay, including the inversion)"
-msgstr ""
+msgstr "Яскраве світло (інший спосіб створення накладки, включає інверсію)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:69
 msgid "Softlight (Uses several inversions along the way)"
 msgstr ""
+"Розсіяне світло (використовує для отримання результату декілька інверсій)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:71
 msgid ""
@@ -297,6 +308,8 @@ msgstr ""
 #: ../../general_concepts/colors/scene_linear_painting.rst:87
 msgid "The second big problem is that **black doesn’t work quite the same**."
 msgstr ""
+"Іншою великою проблемою є те, що **чорний колір працює не зовсім так, як "
+"раніше**."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:89
 msgid ""
@@ -331,10 +344,12 @@ msgid ""
 "Make a special brush that is more opaque than the regular sketching brushes "
 "you use."
 msgstr ""
+"Створити особливий пензель, який є непрозорішим за звичайні ескізні пензлі, "
+"якими ви користуєтеся."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:97
 msgid "Or conversely, sketch with white instead."
-msgstr ""
+msgstr "Або навпаки, створюєте ескізи білим."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:98
 msgid ""
@@ -355,7 +370,7 @@ msgstr "Нарешті, існує **проблема розміру**."
 #: ../../general_concepts/colors/scene_linear_painting.rst:104
 msgid ""
 "16 bit float per channel images are big. 32 bit float per channel images are "
-"bigger. This means that they will eat ram and that painting and filtering "
+"bigger. This means that they will eat RAM and that painting and filtering "
 "will be slower. This is something that will fix itself over the years, but "
 "not many people have such a high-end pc yet, so it can be a blocker."
 msgstr ""
@@ -409,6 +424,8 @@ msgid ""
 "Select either a 16bit or 32bit image. By default Krita will select a linear "
 "sRGB profile. This is fine."
 msgstr ""
+"Виберіть 16-бітове або 32-бітове зображення. Типово, Krita вибере лінійний "
+"профіль sRGB. І це нас задовольняє."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:125
 msgid ""

@@ -68,7 +68,7 @@ Hard Light
 Similar to Overlay.
 A combination of the Multiply and Screen blending modes, switching between both at a middle-lightness.
 
-Hard light checks if the colour on the upperlayer has a lightness above 0.5. Unlike overlay, if the pixel is lighter than 0.5,it is blended like in Multiply mode, if not the pixel is blended like in Screen mode.
+Hard light checks if the color on the upperlayer has a lightness above 0.5. Unlike overlay, if the pixel is lighter than 0.5, it is blended like in Multiply mode, if not the pixel is blended like in Screen mode.
 
 Effectively, this decreases contrast.
 

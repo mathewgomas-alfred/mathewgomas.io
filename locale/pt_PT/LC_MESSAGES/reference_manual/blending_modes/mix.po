@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-20 09:27+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: image BlendingmodesAlphaDarkenSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesGrainMergeSampleimagewithdots hardmixps\n"
+"X-POFile-SpellExtra: BlendingmodesOverlaySampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesHardOverlaySampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesNormal gif blendingmodes\n"
+"X-POFile-SpellExtra: BlendingmodesHardMixSampleimagewithdots Photoshop\n"
+"X-POFile-SpellExtra: images OpacitySampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesGeometricMeanSampleimagewithdots\n"
+"X-POFile-SpellExtra: Greaterblendmode Krita\n"
+"X-POFile-SpellExtra: BlendingmodesGrainExtractSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesEraseSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesAllanonSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesBehindSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesParallelSampleimagewithdots\n"
 
 #: ../../reference_manual/blending_modes/mix.rst:None
 msgid ".. image:: images/blending_modes/Greaterblendmode.gif"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Greaterblendmode.gif"
 
 #: ../../reference_manual/blending_modes/mix.rst:1
 msgid ""
@@ -27,6 +41,9 @@ msgid ""
 "Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard "
 "Overlay, Normal, Overlay and Parallel."
 msgstr ""
+"Página sobre os modos de mistura no Krita: Allanon, Escurecimento do Alfa, "
+"Atrás, Apagar, Média Geométrica, Extracção do Grão, Junção do Grão, Maior, "
+"Mistura Forte, Sobreposição Forte, Normal, Sobreposição e Paralela."
 
 #: ../../reference_manual/blending_modes/mix.rst:15
 msgid "Mix"
@@ -41,16 +58,20 @@ msgid ""
 "Blends the upper layer as half-transparent with the lower. (It add the two "
 "layers together and then halves the value)"
 msgstr ""
+"Mistura a camada superior de forma semi-transparente com a inferior. "
+"(Adiciona as duas camadas em conjunto e depois calcula a metade do valor)"
 
 #: ../../reference_manual/blending_modes/mix.rst:29
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Allanon_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Allanon_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:29
 msgid "Left: **Normal**. Right: **Allanon**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Allanon**."
 
 #: ../../reference_manual/blending_modes/mix.rst:35
 msgid "Alpha Darken"
@@ -61,16 +82,20 @@ msgid ""
 "As far as I can tell this seems to premultiply the alpha, as is common in "
 "some file-formats."
 msgstr ""
+"Tanto quanto se sabe, isto parece pré-multiplicar o alfa, dado que é comum "
+"em alguns formatos de ficheiros."
 
 #: ../../reference_manual/blending_modes/mix.rst:42
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:42
 msgid "Left: **Normal**. Right: **Alpha Darken**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Escurecimento do Alfa**."
 
 #: ../../reference_manual/blending_modes/mix.rst:48
 msgid "Behind"
@@ -81,16 +106,20 @@ msgid ""
 "Does the opposite of normal, and tries to have the upper layer rendered "
 "below the lower layer."
 msgstr ""
+"Faz o oposto do normal e tentar ter a camada superior desenhada atrás da "
+"camada actual."
 
 #: ../../reference_manual/blending_modes/mix.rst:55
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Behind_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Behind_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:55
 msgid "Left: **Normal**. Right: **Behind**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Atrás**."
 
 #: ../../reference_manual/blending_modes/mix.rst:61
 msgid "Erase"
@@ -101,16 +130,20 @@ msgid ""
 "This subtracts the opaque pixels of the upper layer from the lower layer, "
 "effectively erasing."
 msgstr ""
+"Isto subtrai os pixels opacos da camada superior da camada inferior, "
+"apagando de facto."
 
 #: ../../reference_manual/blending_modes/mix.rst:68
 msgid ""
 ".. image:: images/blending_modes/Blending_modes_Erase_Sample_image_with_dots."
 "png"
 msgstr ""
+".. image:: images/blending_modes/Blending_modes_Erase_Sample_image_with_dots."
+"png"
 
 #: ../../reference_manual/blending_modes/mix.rst:68
 msgid "Left: **Normal**. Right: **Erase**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Apagar**."
 
 #: ../../reference_manual/blending_modes/mix.rst:74
 msgid "Geometric Mean"
@@ -121,16 +154,20 @@ msgid ""
 "This blending mode multiplies the top layer with the bottom, and then "
 "outputs the square root of that."
 msgstr ""
+"Este modo de mistura multiplica a camada superior com a inferior, calculando "
+"depois a raiz quadrada do valor."
 
 #: ../../reference_manual/blending_modes/mix.rst:81
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:81
 msgid "Left: **Normal**. Right: **Geometric Mean**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Média Geométrica**."
 
 #: ../../reference_manual/blending_modes/mix.rst:87
 msgid "Grain Extract"
@@ -141,16 +178,20 @@ msgid ""
 "Similar to subtract, the colors of the upper layer are subtracted from the "
 "colors of the lower layer, and then 50% grey is added."
 msgstr ""
+"Similar à subtracção, sendo que as cores da camada superior são subtraídas à "
+"camada inferior, sendo depois adicionado 50% de cinzento."
 
 #: ../../reference_manual/blending_modes/mix.rst:94
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Grain_Extract_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Grain_Extract_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:94
 msgid "Left: **Normal**. Right: **Grain Extract**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Extracção do Grão**."
 
 #: ../../reference_manual/blending_modes/mix.rst:100
 msgid "Grain Merge"
@@ -161,16 +202,20 @@ msgid ""
 "Similar to addition, the colors of the upper layer are added to the colors, "
 "and then 50% grey is subtracted."
 msgstr ""
+"Similar à adição, sendo que as cores da camada superior são somadas à camada "
+"inferior, sendo depois subtraído 50% de cinzento."
 
 #: ../../reference_manual/blending_modes/mix.rst:107
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Grain_Merge_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Grain_Merge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:107
 msgid "Left: **Normal**. Right: **Grain Merge**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Junção do Grão**."
 
 #: ../../reference_manual/blending_modes/mix.rst:113
 msgid "Greater"
@@ -182,6 +227,9 @@ msgid ""
 "higher opacity than the existing colors. If so, it paints over them, if not, "
 "it doesn't paint at all."
 msgstr ""
+"Um modo de mistura que verifica se a cor pintada é pintada com uma opacidade "
+"maior que as existentes. Se for o caso, pinta sobre elas, caso contrário não "
+"pinta de todo."
 
 #: ../../reference_manual/blending_modes/mix.rst:124
 msgid "Hard Mix"
@@ -189,7 +237,7 @@ msgstr "Mistura Forte"
 
 #: ../../reference_manual/blending_modes/mix.rst:126
 msgid "Similar to Overlay."
-msgstr ""
+msgstr "Similar à Camada Sobreposta."
 
 #: ../../reference_manual/blending_modes/mix.rst:128
 msgid ""
@@ -197,16 +245,21 @@ msgid ""
 "layer is darker than 50%, the blending mode will be Burn, if not the "
 "blending mode will be Color Dodge."
 msgstr ""
+"Mistura ambos os modos de Desvio de Cor e Queimadura. Se a cor da camada "
+"superior for mais escura que 50%, o modo de mistura será a Queimadura; caso "
+"contrário, será o Desvio de Cor."
 
 #: ../../reference_manual/blending_modes/mix.rst:134
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Hard_Mix_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Hard_Mix_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:134
 msgid "Left: **Normal**. Right: **Hard Mix**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Mistura Forte**."
 
 #: ../../reference_manual/blending_modes/mix.rst:139
 msgid "Hard Mix (Photoshop)"
@@ -215,22 +268,28 @@ msgstr "Mistura Forte (Photoshop)"
 #: ../../reference_manual/blending_modes/mix.rst:141
 msgid "This is the hard mix blending mode as it is implemented in photoshop."
 msgstr ""
+"Este é o modo de mistura forte, tal como está implementado no Photoshop."
 
 #: ../../reference_manual/blending_modes/mix.rst:147
 msgid ".. image:: images/blending_modes/Krita_4_0_hard_mix_ps.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/Krita_4_0_hard_mix_ps.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:147
 msgid ""
 "**Left**: Dots are mixed in with the normal blending mode, on the **Right**: "
 "Dots are mixed in with hardmix."
 msgstr ""
+"**Esquerda**: Os pontos estão misturados com o modo de mistura normal. "
+"**Direita**: Os pontos estão misturados com a mistura forte."
 
 #: ../../reference_manual/blending_modes/mix.rst:149
 msgid ""
 "This add the two values, and then checks if the value is above the maximum. "
 "If so it will output the maximum, otherwise the minimum."
 msgstr ""
+"Isto adiciona os dois valores, verificando depois se o valor está acima do "
+"máximo. Se for o caso, devolve o valor máximo; caso contrário, devolve o "
+"mínimo."
 
 #: ../../reference_manual/blending_modes/mix.rst:155
 msgid "Hard Overlay"
@@ -239,19 +298,23 @@ msgstr "Sobreposição Forte"
 #: ../../reference_manual/blending_modes/mix.rst:159
 msgid ""
 "Similar to Hard light but hard light use Screen when the value is above 50%. "
-"Divide gives better results than Screen, especially on floating point "
-"images.."
+"Divide gives better results than Screen, especially on floating point images."
 msgstr ""
+"Semelhante à Luz Forte, mas a Luz Forte usa o Ecrã quando o valor for acima "
+"de 50%. A Divisão gera melhores resultados que o Ecrã, especialmente nas "
+"imagens de vírgula flutuante."
 
 #: ../../reference_manual/blending_modes/mix.rst:164
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:164
 msgid "Left: **Normal**. Right: **Hard Overlay**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Sobreposição Forte**."
 
 #: ../../reference_manual/blending_modes/mix.rst:170
 msgid "Normal"
@@ -261,6 +324,8 @@ msgstr "Normal"
 msgid ""
 "As you may have guessed this is the default Blending mode for all layers."
 msgstr ""
+"Como poderá ter percebido, este é o modo de mistura predefinido para todas "
+"as camadas."
 
 #: ../../reference_manual/blending_modes/mix.rst:174
 msgid ""
@@ -268,16 +333,22 @@ msgid ""
 "is, which colour it is, and then mixes the colour of the upper layer with "
 "the lower layer proportional to the transparency."
 msgstr ""
+"Neste modo, o computador verifica na camada superior quão transparente é um "
+"dado pixel, qual a sua cor, e então mistura a cor da camada superior com a "
+"camada inferior, na proporção da sua transparência."
 
 #: ../../reference_manual/blending_modes/mix.rst:179
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:179
 msgid "Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity."
 msgstr ""
+"Esquerda: **Normal** 100% Opacidade. Direita: **Normal** 50% Opacidade."
 
 #: ../../reference_manual/blending_modes/mix.rst:185
 msgid "Overlay"
@@ -288,6 +359,8 @@ msgid ""
 "A combination of the Multiply and Screen blending modes, switching between "
 "both at a middle-lightness."
 msgstr ""
+"Uma combinação dos modos de mistura Multiplicação e Ecrã, alternando entre "
+"ambos a meio da luminosidade."
 
 #: ../../reference_manual/blending_modes/mix.rst:189
 msgid ""
@@ -295,20 +368,25 @@ msgid ""
 "so, the pixel is blended like in Screen mode, if not the pixel is blended "
 "like in Multiply mode."
 msgstr ""
+"A Sobreposição verifica se a cor na camada superior tem uma luminosidade "
+"acima de 0,5. Se for o caso, o pixel é misturado como no modo do Ecrã; caso "
+"contrário, o pixel é misturado como no modo de Multiplicação."
 
 #: ../../reference_manual/blending_modes/mix.rst:191
 msgid "This is useful for deepening shadows and highlights."
-msgstr ""
+msgstr "Isto é útil para aprofundar as sombras e os tons claros."
 
 #: ../../reference_manual/blending_modes/mix.rst:196
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Overlay_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:196
 msgid "Left: **Normal**. Right: **Overlay**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Sobreposição**."
 
 #: ../../reference_manual/blending_modes/mix.rst:202
 msgid "Parallel"
@@ -319,13 +397,18 @@ msgid ""
 "This one first takes the percentage in two decimal behind the comma for both "
 "layers. It then adds the two values. Divides 2 by the sum."
 msgstr ""
+"Este modo primeiro extrai a percentagem com duas casas decimais atrás da "
+"vírgula para ambas as camadas. Depois adiciona os dois valores e finalmente "
+"divide 2 pela soma."
 
 #: ../../reference_manual/blending_modes/mix.rst:211
 msgid ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Parallel_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/"
+"Blending_modes_Parallel_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:211
 msgid "Left: **Normal**. Right: **Parallel**."
-msgstr ""
+msgstr "Esquerda: **Normal**. Direita: **Paralela**."

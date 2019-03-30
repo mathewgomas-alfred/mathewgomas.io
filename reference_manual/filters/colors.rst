@@ -15,7 +15,7 @@
 Color
 =====
 
-Similar to the Adjust filters, the color filter are image wide color operations.
+Similar to the Adjust filters, the color filters are image wide color operations.
 
 .. index:: ! Color to Alpha
 .. _filter_color_to_alpha:
@@ -57,4 +57,4 @@ This filter checks for all the channels of a each single color and set all but t
 Minimize Channel
 ----------------
 
-This is reverse to Maximise channel, it checks all the channels of a each single color and sets all but the lowest to 0.
+This is reverse to Maximize channel, it checks all the channels of a each single color and sets all but the lowest to 0.

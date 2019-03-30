@@ -15,7 +15,7 @@
 Performance Settings
 ====================
 
-:program:`Krita`, as a painting program, juggles a lot of data around, like the brushes you use, the colours you picked, but primarily, each pixel in your image. Due to this, how :program:`Krita` organises where it stores all the data can really speed up :program:`Krita` while painting, just like having an organised artist's workplace can really speed up the painting process in real life.
+:program:`Krita`, as a painting program, juggles a lot of data around, like the brushes you use, the colors you picked, but primarily, each pixel in your image. Due to this, how :program:`Krita` organizes where it stores all the data can really speed up :program:`Krita` while painting, just like having an organized artist's workplace can really speed up the painting process in real life.
 
 These preferences allow you to configure :program:`Krita's` organisation, but all do require you to restart :program:`Krita`, so it can do this organisation properly.
 
@@ -29,7 +29,7 @@ These settings allow you to choose how much of your virtual desk you dedicate to
 Memory Limit
     This is the maximum space :program:`Krita` will reserve on your RAM on startup. It's both available in percentages and Bytes, so you can specify precisely. :program:`Krita` will not take up more space than this, making it safe for you to run an internet browser or music on the background.
 Internal Pool
-    A feature for advanced computer users. This allows :program:`Krita` to organise the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses its place (a memory pool), so that it can find them easily, and it doesn't get lost amongst the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
+    A feature for advanced computer users. This allows :program:`Krita` to organize the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses its place (a memory pool), so that it can find them easily, and it doesn't get lost among the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
 
     Increasing this of course means there's more space for this type of data, but like how filling up your working desk with only one big canvas will make it difficult to find room for your paints and brushes, having a large internal pool will result in :program:`Krita` not knowing where to put the other non-specific data.
 
@@ -67,13 +67,13 @@ Other
 ~~~~~
 Limit frames per second while painting.
     This makes the canvas update less often, which means Krita can spend more time calculating other things. Some people find fewer updates unnerving to watch however, hence this is configurable.
-Debuglogging of OpenGL framerate
+Debug logging of OpenGL framerate
     Will show the canvas framerate on the canvas when active.
 Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
-Disable vector optimisations (For AMD CPUs)
-    Vector optimisations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimisations can make Krita a lt faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactivate them then.
-Enable Progress Reporting
+Disable vector optimizations (for AMD CPUs)
+    Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactivate them then.
+Enable progress reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging
     This enables performance logging, which is then saved to the ``Log`` folder in your ``working directory``. Your working directory is where the auto save is saved at as well.

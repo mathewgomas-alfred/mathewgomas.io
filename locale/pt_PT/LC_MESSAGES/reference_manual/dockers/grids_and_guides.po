@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-28 18:01+0000\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-20 09:26+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: templates en Gridsudvision Krita image menuselection\n"
+"X-POFile-SpellExtra: kbd Guides jpg gridtool images ref px\n"
+"X-POFile-IgnoreConsistency: Type\n"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:1
 msgid "Overview of the grids and guides docker."
@@ -45,7 +48,7 @@ msgstr "Grelhas"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:26
 msgid ""
-"Grids in Krita can currently only be orthogonal and diagonal.. There is a "
+"Grids in Krita can currently only be orthogonal and diagonal. There is a "
 "single grid per canvas, and it is saved within the document. Thus it can be "
 "saved in a :ref:`templates`."
 msgstr ""
@@ -223,13 +226,17 @@ msgstr ""
 "esquerda, cria uma guia vertical, enquanto se arrastar do topo cria uma guia "
 "horizontal."
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:79
+#: ../../reference_manual/dockers/grids_and_guides.rst:80
+msgid "Editing Guides"
+msgstr "Editar as Guias"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:82
 msgid ""
-"Editing Guides Place your cursor above a guide on the canvas. If the guides "
-"are not locked, your cursor will change to a double arrow. In that case, "
-"click and drag to move the guide. To lock and unlock the guides, open the "
-"Grid and Guides Docker. Ensure that the Guides tab is selected. From here "
-"you can lock the guides, enable snapping, and change the line style."
+"Place your cursor above a guide on the canvas. If the guides are not locked, "
+"your cursor will change to a double arrow. In that case, click and drag to "
+"move the guide. To lock and unlock the guides, open the Grid and Guides "
+"Docker. Ensure that the Guides tab is selected. From here you can lock the "
+"guides, enable snapping, and change the line style."
 msgstr ""
 "Edição de Guias Coloque o seu cursor sobre uma guia na área de desenho. Se "
 "as guias não estiverem bloqueadas, o seu cursor irá mudar para uma seta "
@@ -238,7 +245,7 @@ msgstr ""
 "página de Guias está seleccionada. A partir daqui, poderá bloquear as guias, "
 "activar o ajuste e mudar o estilo da linha."
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:85
+#: ../../reference_manual/dockers/grids_and_guides.rst:87
 msgid ""
 "Currently, it is not possible to create or to move guides to precise "
 "positions. The only way to achieve that for now is to zoom in on the canvas, "
@@ -248,14 +255,14 @@ msgstr ""
 "única forma de conseguir isso por agora é ampliar a área de desenho ou usar "
 "a grelha e o ajuste para colocar a guia."
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:88
+#: ../../reference_manual/dockers/grids_and_guides.rst:90
 msgid "Removing Guides"
 msgstr "Remover as Guias"
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:90
+#: ../../reference_manual/dockers/grids_and_guides.rst:92
 msgid ""
 "Click on the guide you want to remove and drag it outside of the canvas "
 "area. When you release your mouse or stylus, the guide will be removed."
 msgstr ""
-"Carregue na guia que desea remover e arraste-a para forma da área de "
+"Carregue na guia que deseja remover e arraste-a para forma da área de "
 "desenho. Quando largar o botão do rato ou o lápis, a guia será removida."

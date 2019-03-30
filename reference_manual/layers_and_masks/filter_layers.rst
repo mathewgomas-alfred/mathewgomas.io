@@ -28,4 +28,4 @@ Unlike Filter Masks though, Filter Layers apply to the entire canvas for the lay
 You can edit the settings for a filter layer, by double clicking on it in the Layers docker.
 
 .. note::
-    Only Krita native filters (the ones in the Filter menu) can be used with Filter Layers. Filter Layers are not supported using the externally integrated G'Mic filters.
+    Only Krita native filters (the ones in the :guilabel:`Filters` menu) can be used with Filter Layers. Filter Layers are not supported using the externally integrated G'Mic filters.

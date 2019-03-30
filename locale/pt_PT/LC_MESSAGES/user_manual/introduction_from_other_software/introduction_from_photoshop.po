@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-02-19 09:59+0000\n"
+"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"PO-Revision-Date: 2019-03-27 10:46+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,7 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-POFile-SpellExtra: en icons Krita image Kritamouseleft\n"
+"X-POFile-SpellExtra: en icons Krita image Kritamouseleft XXX LUT HDR color\n"
+"X-POFile-SpellExtra: guilabel saves menuselection Kritamousemiddle jpg Ins\n"
+"X-POFile-SpellExtra: EXR images alt KritaColorSelectorTypes popuppalette\n"
+"X-POFile-SpellExtra: lut multibrush transform Studio Painter ASL Settings\n"
+"X-POFile-SpellExtra: dependant Kritabasicassistants view management kbd\n"
+"X-POFile-SpellExtra: Enter alpha Photoshop hdr Kritamousescroll mask\n"
+"X-POFile-SpellExtra: mousescroll Kritamouseright mousemiddle kra painting\n"
+"X-POFile-SpellExtra: mouseleft ranslação CS mouseright\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -52,15 +59,15 @@ msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
 msgid ".. image:: images/en/Settings-curves.jpg"
-msgstr ""
+msgstr ".. image:: images/en/Settings-curves.jpg"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
 msgid ".. image:: images/en/Krita-popuppalette.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-popuppalette.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
 msgid ".. image:: images/en/Krita-incremental-saves.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-incremental-saves.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
 msgid ".. image:: images/en/Krita-color-to-alpha.png"
@@ -72,15 +79,16 @@ msgstr ".. image:: images/en/Krita-multibrush.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
 msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:1
 msgid "This is a introduction to Krita for users coming from Photoshop."
 msgstr ""
+"Esta é uma introdução ao Krita para os utilizadores que vêm do Photoshop."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:20
 msgid "Introduction to Krita coming from Photoshop"
-msgstr ""
+msgstr "Introdução ao Krita para quem vem do Photoshop"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:23
 msgid "Introduction"
@@ -99,19 +107,32 @@ msgid ""
 "the tools that are relevant to digital painting. When you get used to Krita, "
 "you will find that Krita has some features that are not part of PS."
 msgstr ""
+"Este documento dá-lhe uma introdução ao Krita para os utilizadores que têm "
+"estado a usar o Photoshop. A intenção é torná-lo produtivo no Krita o mais "
+"rapidamente possível, e facilitar a conversão de hábitos antigos em novos. "
+"Esta introdução foi criada com o Krita na versão 2.9 e o Photoshop CS2 e CS3 "
+"em mente. Mas ainda que as coisas possam mudar no futuro, os conceitos "
+"básicos provavelmente manter-se-ão iguais. A primeira coisa a recordar é que "
+"o Krita é uma aplicação de pintura em 2D, enquanto o Photoshop (PS) é um "
+"programa de manipulação de imagens. Isto significa que o PS tema mais "
+"funcionalidades que o Krita de um modo geral, mas o Krita tem as ferramentas "
+"que são relevantes para a pintura digital. Quando se habituar ao Krita, irá "
+"descobrir que o Krita tem algumas funcionalidades que não fazem parte do PS."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:30
 msgid "Krita Basics"
-msgstr ""
+msgstr "Bases do Krita"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:32
 msgid ""
 "This chapter covers how you use Krita in the basic operations compared to PS."
 msgstr ""
+"Este capítulo cobre como é que você usa o Krita nas operações básicas em "
+"comparação com o PS."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:35
 msgid "View and Display"
-msgstr ""
+msgstr "Visualização e Apresentação"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:38
 msgid "Navigation"
@@ -119,29 +140,36 @@ msgstr "Navegação"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:40
 msgid "In Krita you can navigate your document using all these methods:"
-msgstr ""
+msgstr "No Krita, poderá navegar pelo seu documento com todos estes métodos:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:42
 msgid ""
 "'*Mouse wheel*': |mousescroll| down and up for zoom, and press |mousemiddle| "
 "down to pan your document."
 msgstr ""
+"'*Roda do rato*': pode usar o |mousescroll| para cima e para baixo, no caso "
+"da ampliação, e carregue no |mousemiddle| para se posicionar no seu "
+"documento."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:43
 msgid "'*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard"
-msgstr ""
+msgstr "'*Teclado*': com o :kbd:`+` e o :kbd:`-` no seu teclado numérico"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:44
 msgid ""
 "As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + Space` to zoom, and :"
 "kbd:`Space` to pan."
 msgstr ""
+"Como no Photoshop, Painter, Manga Studio: :kbd:`Ctrl + Espaço` para ampliar "
+"e :kbd:`Espaço` para se posicionar."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:48
 msgid ""
 "If you add :kbd:`Alt` and so do a :kbd:`Ctrl + Alt + Space` you’ll have a "
 "discrete zoom."
 msgstr ""
+"Se adicionar o :kbd:`Alt` e assim fizer um :kbd:`Ctrl + Alt + Espaço`, irá "
+"obter uma ampliação discreta."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:51
 msgid "Rotation"
@@ -152,6 +180,8 @@ msgid ""
 "Rotate the canvas with :kbd:`Shift + Space`, or :kbd:`Ctrl + [` and :kbd:"
 "`Ctrl + ]` or with 4 or 6. Reset the rotation with 5."
 msgstr ""
+"Rode a área de desenho com o :kbd:`Shift + Espaço`, ou o :kbd:`Ctrl + [` e :"
+"kbd:`Ctrl + ]`, ou ainda com o 4 e o 6. Reponha a rotação com o 5."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:56
 msgid "Mirror"
@@ -161,10 +191,12 @@ msgstr "Espelho"
 msgid ""
 "Press :kbd:`M` to see your drawing or painting mirrored in the viewport."
 msgstr ""
+"Carregue em :kbd:`M` para ver o seu desenho ou pintura espelhado na área de "
+"visualização."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:61
 msgid "Move and Transform"
-msgstr ""
+msgstr "Mover e Transformar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:63
 msgid ""
@@ -174,6 +206,12 @@ msgid ""
 "pressing the :kbd:`T` key for the move tool (think ‘T’ranslate) or :kbd:"
 "`Ctrl + T` for transform tool."
 msgstr ""
+"O Movimento e Transformação do conteúdo é feito através de ferramentas no "
+"Krita. Podê-las-á encontrar na barra de ferramentas. Se estiver "
+"familiarizado com a forma de mover as camadas no PS, mantendo para tal "
+"carregada a tecla :kbd:`Ctrl`, poderá fazer o mesmo no Krita se carregar na "
+"tecla :kbd:`T` para a ferramenta Mover (pense em ‘T’ranslação) ou :kbd:`Ctrl "
+"+ T` para a ferramenta de transformação."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:66
 msgid ""
@@ -182,14 +220,21 @@ msgid ""
 "guilabel:`Transform` tool, do not right-click on the on-canvas widget: all "
 "the option are in the :guilabel:`Tool Options` docker."
 msgstr ""
+"Carregue em :kbd:`B` para voltar à ferramenta do pincel, quando terminar a "
+"transformação ou translação. Para descobrir como fazer deformações avançadas "
+"com a ferramenta :guilabel:`Transformar`, não carregue com o botão direito "
+"sobre o elemento na área de desenho: todas as opções estão na área de :"
+"guilabel:`Opções da Ferramenta`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:69
 msgid "Changes can be applied with :kbd:`Enter` for the Transform tool."
 msgstr ""
+"As modificações poderão ser aplicadas com o :kbd:`Enter` para a ferramenta "
+"de Transformação."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:73
 msgid "Move tool changes are auto-applied."
-msgstr ""
+msgstr "As alterações da ferramenta Mover são aplicadas automaticamente."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:76
 msgid "Selections"
@@ -203,49 +248,59 @@ msgid ""
 "select tool is active. These sub tools are represented as icons. You can "
 "switch to those sub modes by pressing:"
 msgstr ""
+"Como no PS, poderá usar o :kbd:`Alt` ou o :kbd:`Shift` durante uma selecção "
+"para remover ou adicionar selecções à selecção activa. O Krita também lhe "
+"oferece sub-ferramentas para este fim, podendo seleccioná-las nas :guilabel:"
+"`Opções da Ferramenta`, caso esteja activa uma dada ferramenta de selecção. "
+"Estas sub-ferramentas são representadas por ícones. Poderá mudar par esses "
+"sub-modos se carregar:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:81
 msgid ":kbd:`R` to replace selection"
-msgstr ""
+msgstr ":kbd:`R` para substituir a selecção"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:82
 msgid ":kbd:`T` to intersect"
-msgstr ""
+msgstr ":kbd:`T` para intersectar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:83
 msgid ""
 ":kbd:`A` to add to the selection (this is the one you will want to use often)"
 msgstr ""
+":kbd:`A` para adicionar à selecção (esta é a que irá querer usar com mais "
+"frequência)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:84
 msgid ":kbd:`S` to subtract from the selection (the other one popular)"
-msgstr ""
+msgstr ":kbd:`S` para subtrair da selecção (a outra opção conhecida)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:86
 msgid "Or hold:"
-msgstr ""
+msgstr "Ou mantenha carregado:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:88
 msgid ":kbd:`Alt` to subtract from the selection"
-msgstr ""
+msgstr ":kbd:`Alt` para subtrair da selecção"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:89
 msgid ":kbd:`Shift` to add to the selection"
-msgstr ""
+msgstr ":kbd:`Shift` para adicionar à selecção"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:90
 msgid ":kbd:`Alt + Shift` to intersect"
-msgstr ""
+msgstr ":kbd:`Alt + Shift` para intersectar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:94
 msgid ""
 "You cannot press :kbd:`Ctrl` to move the content of the selection (you have "
 "to press :kbd:`T` or select the :guilabel:`Move Tool`)."
 msgstr ""
+"Não consegue carregar no :kbd:`Ctrl` para mover o conteúdo da selecção (tem "
+"de carregar no :kbd:`T` ou seleccionar a :guilabel:`Ferramenta para Mover`)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:96
 msgid "Some other tips:"
-msgstr ""
+msgstr "Algumas outras dicas:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:98
 msgid ""
@@ -253,6 +308,9 @@ msgid ""
 "pixels), right-click on the layer docker, and choose :guilabel:`Select "
 "Opaque`."
 msgstr ""
+"Se quiser converter uma camada para uma selecção (seleccionar os pixels "
+"visíveis), carregue com o botão direito sobre a área de camadas e escolha :"
+"guilabel:`Selecção Opaca`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:99
 msgid ""
@@ -260,18 +318,25 @@ msgid ""
 "‘closed’, you will be able to do it or by using a double-click, or by using "
 "a :kbd:`Shift` - |mouseleft| ."
 msgstr ""
+"Se usar uma ferramenta de selecção poligonal, ou uma selecção que precise de "
+"estar 'fechada', será capaz de o fazer, usando para tal um duplo-click ou "
+"usando o :kbd:`Shift` - |mouseleft| ."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:101
 msgid ""
 "You can scale selection. To do this, choose :menuselection:`Select --> "
 "Scale`."
 msgstr ""
+"Poderá ajustar a escala da selecção. Para o fazer, escolha :menuselection:"
+"`Seleccionar --> Escala`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:105
 msgid ""
 "Also, in the :guilabel:`Select` menu there are more classical options to "
 "grow, shrink, feather, border, etc."
 msgstr ""
+"Também no menu :guilabel:`Seleccionar`, existem opções mais clássicas para "
+"aumentar, diminuir, suavizar, definir contornos, etc."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:107
 msgid ""
@@ -279,19 +344,24 @@ msgid ""
 "menu) you can scale/rotate/transform/move or paint on selection like on "
 "regular greyscale layer."
 msgstr ""
+"Se activar a opção :guilabel:`Mostrar a Máscara de Selecção Global` (menu :"
+"guilabel:`Seleccionar`), poderá ajustar a escala/rodar/transformar/mover ou "
+"pintar na selecção, como numa camada de tons de cinzento normal."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:109
 msgid ":kbd:`Ctrl + H`: Show / Hide selection (same shortcut)"
-msgstr ""
+msgstr ":kbd:`Ctrl + H`: Mostrar / Esconder a selecção (é o mesmo atalho)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:110
 msgid ":kbd:`Ctrl + A`: Select All"
-msgstr ""
+msgstr ":kbd:`Ctrl + A`: Seleccionar Tudo"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:111
 msgid ""
 ":kbd:`Ctrl + Shift + A`: deselect All (and not :kbd:`Ctrl + D` as in PS)"
 msgstr ""
+":kbd:`Ctrl + Shift + A`: Deseleccionar Tudo (e não o :kbd:`Ctrl + D` como no "
+"PS)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:113
 msgid ""
@@ -299,6 +369,10 @@ msgid ""
 "from a selection after a :kbd:`Ctrl + C`, :kbd:`Ctrl + V` so you do not have "
 "to worry about not being able to paint outside the pasted element."
 msgstr ""
+"Nota para os utilizadores do Gimp: o Krita auto-expande e auto-fixa as novas "
+"camadas criadas a partir de uma selecção, após um :kbd:`Ctrl + C`, :kbd:"
+"`Ctrl + V`, pelo que não terá de se preocupar sobre não ser capaz de pintar "
+"fora do elemento colado."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:117
 msgid ""
@@ -307,41 +381,50 @@ msgid ""
 "the :guilabel:`Move tool` so this shortcut is not functional right now. You "
 "have to use the button on the :guilabel:`Tool Options`."
 msgstr ""
+"Não funciona como se pretende neste momento. A intersecção é um modo de "
+"selecção que usa o :kbd:`T` como atalho. Contudo, o :kbd:`T` também é usado "
+"para mudar para a :guilabel:`ferramenta Mover`, pelo que este atalho não "
+"está funcional neste momento. Tem de usar o botão nas :guilabel:`Opções da "
+"Ferramenta`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:120
 msgid "Layer Handling"
-msgstr ""
+msgstr "Tratamento das Camadas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:122
 msgid "The most common shortcuts are very similar in PS and Krita:"
-msgstr ""
+msgstr "Os atalhos mais comuns são muito semelhantes no PS e no Krita:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:124
 msgid ":kbd:`Ctrl + J`: duplicate"
-msgstr ""
+msgstr ":kbd:`Ctrl + J`: duplicar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:125
 msgid ":kbd:`Ctrl + E`: merge down"
-msgstr ""
+msgstr ":kbd:`Ctrl + E`: reunir abaixo"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:126
 msgid ""
 ":kbd:`Ctrl + Shift + E`: flattens all (not :kbd:`Ctrl + Shift + M` as in PS)"
 msgstr ""
+":kbd:`Ctrl + Shift + E`: achatar tudo (não o :kbd:`Ctrl + Shift + M` como no "
+"PS)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:127
 msgid ":kbd:`Ins`: insert a new paint layer"
-msgstr ""
+msgstr ":kbd:`Ins`: inserir uma nova camada de pintura"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:128
 msgid ""
 ":kbd:`Ctrl + G`: create new layer group and move selected layers to this "
 "group"
 msgstr ""
+":kbd:`Ctrl + G`: criar um grupo de camadas e mover as camadas seleccionadas "
+"para este grupo"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:131
 msgid "Groups and Blending Mode (Composite Mode):"
-msgstr ""
+msgstr "Grupos e Modo de Mistura (Modo de Composição):"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:133
 msgid ""
@@ -354,10 +437,19 @@ msgid ""
 "way is more predictable according to some artists,  compositing-wise. The PS "
 "way leads to a cleaner and better ordered layer stack visually wise."
 msgstr ""
+"O modo de mistura em grupo no Krita tem prioridade sobre as camadas-filhas e "
+"substitui-se a elas. Isto poderá ser surpreendente para os utilizadores do "
+"Photoshop. No Photoshop poderá usar os grupos simplesmente para arrumar a "
+"sua pilha de camadas e manter o modo de mistura da composição da sua camada "
+"através de toda a pilha. No Krita, a composição irá acontecer ao primeiro "
+"nível dentro do grupo, depois tendo em conta o modo de mistura do grupo em "
+"si. Ambos os sistemas têm prós e contras. A forma do Krita é mais "
+"previsível, de acordo com alguns artistas, a nível de composição. A forma do "
+"PS conduz a uma pilha de camadas mais arrumada a nível visual."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:137
 msgid "Multi Layer Transform or Move"
-msgstr ""
+msgstr "Transformação ou Movimento Multi-Camadas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:139
 msgid ""
@@ -367,10 +459,15 @@ msgid ""
 "layers inside on the fly.  You can not apply filters to group to affect "
 "multiple layers."
 msgstr ""
+"Pode seleccionar várias camadas na pilha se mantiver carregado o :kbd:"
+"`Shift`, como no PS, e se mover a camada para dentro de um grupo, poderá "
+"mover ou transformar o grupo inteiro - incluindo fazer uma selecção no grupo "
+"e cortar todas as sub-camadas dentro dele na hora. Não poderá aplicar "
+"filtros ao grupo para afectar várias camadas."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:142
 msgid "Clipping Masks"
-msgstr ""
+msgstr "Máscaras de Recorte"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:144
 msgid ""
@@ -380,6 +477,12 @@ msgid ""
 "above with the :guilabel:`Inherit alpha` option. This will create the same "
 "effect as the “clipping mask” PS feature."
 msgstr ""
+"O Krita não tem nenhuma máscara de recorte, mas existe um truque que envolve "
+"grupos de camadas e a :guilabel:`Herança do alfa` (veja o ícone do alfa). "
+"Coloque uma camada com a forma com que deseja recortar a outra, no fundo de "
+"um grupo, e as camadas acima com a opção :guilabel:`Herdar o alfa` activa. "
+"Isto irá criar o mesmo efeito que a funcionalidade do PS para a \"máscara de "
+"recorte\"."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:146
 msgid ""
@@ -387,26 +490,35 @@ msgid ""
 "by :kbd:`Ctrl + Shift + G` shortcut. It creates a group with base layer and "
 "a layer above it with inherit alpha option checked by default."
 msgstr ""
+"Este processo de organizar os grupos para a herança do alfa pode ser feito "
+"automaticamente com o atalho :kbd:`Ctrl + Shift + G`. Ele cria um grupo com "
+"a camada de base e uma camada acima dela com a opção de herança do alfa "
+"assinalada por omissão."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:149
 msgid "Pass-through mode"
-msgstr ""
+msgstr "Modo à passagem"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:151
 msgid ""
 "This is available in Krita, but not implemented as a blending mode. Rather, "
 "it is an option next to ‘inherit alpha’ on group layers."
 msgstr ""
+"Isto está disponível no Krita, mas não está implementado como um modo de "
+"mistura. Em vez disso, é uma opção a seguir à ‘herança do alfa’ nas camadas "
+"de grupo."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:154
 msgid "Smart Layers"
-msgstr ""
+msgstr "Camadas Inteligentes"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:156
 msgid ""
 "Instead of having smart layers that you can do non-destructive transforms "
 "on, Krita has the following set of functionality:"
 msgstr ""
+"Em vez de ter camadas inteligentes nas quais poderá fazer transformações não-"
+"destrutivas, o Krita tem o seguinte conjunto de funcionalidades:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:158
 msgid "File Layers"
@@ -417,6 +529,8 @@ msgid ""
 "These are layers which point to an outside file, and will get automatically "
 "updated if the outside file changes."
 msgstr ""
+"Estas são camadas que apontam para um ficheiro exterior, sendo "
+"automaticamente actualizadas caso o ficheiro exterior mude."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:160
 msgid "Clone Layers"
@@ -428,16 +542,21 @@ msgid ""
 "creating them. They get updated automatically when the original layer "
 "updates."
 msgstr ""
+"Estas são camadas que são uma ‘instância’ da camada que seleccionou ao criá-"
+"las. Elas são actualizadas automaticamente quando a camada original for "
+"actualizada."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:162
 msgid "Transform Masks"
-msgstr ""
+msgstr "Máscaras de Transformação"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:163
 msgid ""
 "These can be used to non-destructive transform all layer types, including "
 "the file and clone layers."
 msgstr ""
+"Estas podem ser usadas para transformar de forma não-destrutiva todos os "
+"tipos de camadas, incluindo as camadas de ficheiros e de clonagem."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:165
 msgid "Filter Masks"
@@ -448,10 +567,13 @@ msgid ""
 "Like adjustment layers, these can apply filters non-destructively to all "
 "layer types, including file and clone layers."
 msgstr ""
+"Como as camadas de ajuste, estas podem aplicar filtros de forma não-"
+"destrutiva em todos os tipos de camadas, incluindo as camas de ficheiros e "
+"de clonagem."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:168
 msgid "Layer styles"
-msgstr ""
+msgstr "Estilos de camadas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:170
 msgid ""
@@ -459,6 +581,10 @@ msgid ""
 "layer type and selecting ‘layer style’ from the context menu. Krita can open "
 "and save ASL files, but not all layer style functionality is there yet."
 msgstr ""
+"Poderá aplicar estilos de camadas do Photoshop no Krita se carregar com o "
+"botão direito sobre qualquer tipo de camada e seleccionar o ‘estilo da "
+"camada’ no menu de contexto. O Krita pode abrir e gravar os ficheiros ASL, "
+"mas nem todas as funcionalidades de estilos de camadas se encontra lá."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:173
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:384
@@ -470,23 +596,30 @@ msgid ""
 "Layers and groups can be exported. See the :guilabel:`Layer` top menu for "
 "this and many other options."
 msgstr ""
+"Poderá exportar as camadas e os grupos. Veja o menu de topo :guilabel:"
+"`Camada` para estas e muitas outras opções."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:177
 msgid ""
 "Krita has at least 5 times more blending modes than PS. They are sorted by "
-"categories in the drop down menu. You can use the checkbox to add your most "
+"categories in the drop-down menu. You can use the checkbox to add your most "
 "used to the Favorite categories."
 msgstr ""
+"O Krita tem pelo menos 5 vezes mais modos de mistura que o PS. Estes estão "
+"ordenados por categorias no menu. Poderá usar a opção de marcação para "
+"adicionar os mais usados às categorias Favoritas."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:180
 msgid "Paint tools"
-msgstr ""
+msgstr "Ferramentas de pintura"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:182
 msgid ""
 "This is Krita's strong point. There are many paint tools and they have a lot "
 "of options."
 msgstr ""
+"Este é o ponto forte do Krita. Existem muitas ferramentas de pintura e as "
+"mesmas têm montes de opções."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:185
 msgid "Tools"
@@ -505,6 +638,17 @@ msgid ""
 "fine tune, and build your own presets using the :guilabel:`Edit Brush "
 "Settings` icon on the top tool bar."
 msgstr ""
+"No Krita, existe um paradigma completamente diferente para definir como se "
+"comparam as ‘ferramentas’ ao PS. Ao contrário do PS, não irá encontrar o "
+"pincel, a borracha, o clone, o borrão, etc. Em vez disso, ria'encontrar uma "
+"*forma de criar* os seus traços na área de desenho: desenho livre, linhas, "
+"rectângulos, círculos, multi-pincéis, etc. Quando tiver seleccionado a "
+"‘forma de traçar’, poderá escolher a *forma de pintar*: apagar / clonar / "
+"borrar, etc. - tudo isto faz parte da *forma como a pintura* é gerida pelas "
+"opções dos motores de pincéis. Estas opções são gravadas em *predefinições*, "
+"as quais poderá encontrar nas :guilabel:`Predefinições do pincel`.  Poderá "
+"afinar ou compor as suas próprias predefinições com o ícone :guilabel:"
+"`Editar a Configuração do Pincel` na barra de ferramentas de topo."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:190
 msgid "Erasing"
@@ -517,45 +661,58 @@ msgid ""
 "pressing :kbd:`E` again you’ll be back to the last blending mode you had "
 "selected before pressing :kbd:`E` the first time."
 msgstr ""
+"No Krita, a borracha não é uma ferramenta; é um modo  de mistura (ou modo de "
+"composição). Poderá modificar cada pincel que tem para apagar se carregar "
+"em :kbd:`E`. Ao carregar em :kbd:`E` de novo, irá voltar ao último modo de "
+"mistura que seleccionou antes de carregar em :kbd:`E` da primeira vez."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:195
 msgid "Useful shortcuts"
-msgstr ""
+msgstr "Atalhos úteis"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:197
 msgid ""
 ":kbd:`Shift`:  Grow or Shrink the brush size (or :kbd:`[` and :kbd:`]`)."
 msgstr ""
+":kbd:`Shift`:  Aumentar ou diminuir o tamanho do pincel (ou :kbd:`[` e :kbd:"
+"`]`)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:198
 msgid ""
 ":kbd:`/`: Switch last preset selected and current (ex: a pencil preset, and "
 "an eraser preset)."
 msgstr ""
+":kbd:`/`: Alterna entre a última predefinição seleccionada e a actual (ex.: "
+"uma predefinição de lápis e uma predefinição de borracha)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:199
 msgid ""
 ":kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active "
 "color"
 msgstr ""
+":kbd:`K` e :kbd:`L`:  incrementa o valor Mais Escuro e Mais Claro da cor "
+"activa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:200
 msgid ":kbd:`I` and :kbd:`O`: increment opacity plus or minus."
-msgstr ""
+msgstr ":kbd:`I` e :kbd:`O`: incrementa ou decrementa a opacidade."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:201
 msgid ":kbd:`D`: Reset color to black/foreground and white/background"
-msgstr ""
+msgstr ":kbd:`D`: Repõe a cor como preto/principal e branco/findo"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:202
 msgid ":kbd:`X`: Switch background and foreground colors"
-msgstr ""
+msgstr ":kbd:`X`: Alterna entre a cor de fundo e a principal"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:203
 msgid ""
 ":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default "
 "keyboard shortcuts for accessing the on-canvas color selector."
 msgstr ""
+":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: um conjunto de "
+"atalhos de teclado predefinidos para aceder ao selector de cores na área de "
+"desenho."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:207
 msgid ""
@@ -567,10 +724,17 @@ msgid ""
 "the shortcut configuration in :menuselection:`Settings --> Configure "
 "Shortcuts`."
 msgstr ""
+"Algumas pessoas olham para estes atalhos como algo infeliz. A razão para tal "
+"é que pretendem ser usados durante a pintura e o :kbd:`Shift`-esquerdo está "
+"no extremo oposto do :kbd:`I`, do :kbd:`M` e do :kbd:`N`. Por isso, para um "
+"pintor destro, isto é muito difícil de fazer, enquanto se usa o lápis com a "
+"mão direita. Lembre-se que poderá atribuir de novo qualquer atalho, usando a "
+"configuração de atalhos em :menuselection:`Configuração --> Configurar os "
+"Atalhos`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:210
 msgid "Stabilization / Path Smoothing"
-msgstr ""
+msgstr "Estabilização / Suavização de Caminhos"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:212
 msgid ""
@@ -578,10 +742,13 @@ msgid ""
 "Options, more settings for smoothing the path and stabilization of  your "
 "brush strokes are available."
 msgstr ""
+"Se usar a ferramenta ‘pintar com pincel’ à mão, que poderá encontrar nas "
+"Opções da Ferramenta, ficarão mais opções disponíveis para suavizar o "
+"caminho e para estabilizar os seus traços do pincel."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:215
 msgid "Global pressure curve"
-msgstr ""
+msgstr "Curva de pressão global"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:217
 msgid ""
@@ -589,32 +756,38 @@ msgid ""
 "when you paint, you can set a softer or harder curve here: :menuselection:"
 "`Settings --> Configure Krita --> Tablet settings`"
 msgstr ""
+"Se achar que a sensação do Krita é demasiado forte ou fraca, no que diz "
+"respeito à pressão quando está a pintar, poderá definir uma curva mais fraca "
+"ou mais forte aqui: :menuselection:`Configuração --> Configurar o Krita --> "
+"Configuração da tablete`"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:220
 msgid "Adjustment"
-msgstr ""
+msgstr "Ajuste"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:222
 msgid ""
 "Like in PS, you can use the classic filters to adjust many things while "
 "painting:"
 msgstr ""
+"Como no PS, poderá usar os filtros clássicos para ajustar muitas coisas "
+"durante a pintura:"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:224
 msgid ":kbd:`Ctrl + L` : Levels"
-msgstr ""
+msgstr ":kbd:`Ctrl + L` : Níveis"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:225
 msgid ":kbd:`Ctrl + U`: HSV adjustment"
-msgstr ""
+msgstr ":kbd:`Ctrl + U`: Ajuste do HSV"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:226
 msgid ":kbd:`Ctrl + I`: Invert"
-msgstr ""
+msgstr ":kbd:`Ctrl + I`: Inversão"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:229
 msgid "Dodge / Burn / Blur Tools"
-msgstr ""
+msgstr "Ferramentas de Desvio / Queimadura / Borrão"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:231
 msgid ""
@@ -622,6 +795,9 @@ msgid ""
 "available via the Filter Brush Engine, which allows you to apply the "
 "majority of Krita's filters in brush form."
 msgstr ""
+"Ao contrário do Photoshop, onde estas são ferramentas separadas, estas estão "
+"disponíveis através do Motor de Pincéis de Filtragem, o qual lhe permite "
+"aplicar a maioria dos filtros do Krita sob a forma de pincéis."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:234
 msgid "Themes"
@@ -634,10 +810,15 @@ msgid ""
 "like the color outside your viewport go to: :menuselection:`Settings --> "
 "Configure Krita --> Display`, and change the Canvas border color."
 msgstr ""
+"Se não gostar do tema predefinido escuro do Krita, vá a: :menuselection:"
+"`Configuração --> Temas` e escolha um tema mais claro ou mais escuro. Se não "
+"gostar da cor fora da sua área de visualização, vá a: :menuselection:"
+"`Configuração --> Configurar o Krita --> Apresentação` e mude a cor do "
+"contorno da área de desenho."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:239
 msgid "What Krita Has Over Photoshop"
-msgstr ""
+msgstr "O que o Krita Tem a Mais que o Photoshop"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:241
 msgid ""
@@ -646,6 +827,11 @@ msgid ""
 "found in more generalized image manipulation applications such as PS. Here "
 "is a short list of the most important ones."
 msgstr ""
+"Como foi mencionado na introdução, o Krita é uma aplicação de pintura "
+"especializada. Como tal, também tem ferramentas especializadas para pintar. "
+"Algumas ferramentas semelhantes não são encontradas nas aplicações de "
+"manipulação de imagens mais generalizadas, como o PS. Aqui está uma breve "
+"lista das mais importantes."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:244
 msgid "Brush Engines"
@@ -661,10 +847,18 @@ msgid ""
 "editor, which is accessible via the toolbar, but it's much easier to just "
 "press :kbd:`F5`."
 msgstr ""
+"O Krita tem uma grande quantidade de motores de pincéis. Estes motores "
+"definem vários métodos para definir como os pixels ficam na sua área de "
+"desenho. Os motores de pincéis com nomes como Grelha, Partículas, Rabisco e "
+"outros trazer-lhe-ão novas experiências sobre como funcionam os pincéis, bem "
+"como uma nova panóplia de resultados possíveis. Poderá começar a "
+"personalizar os pincéis, usando o editor de configuração do pincel, o qual "
+"está acessível através da barra de ferramentas, mas é muito mais fácil do "
+"que carregar apenas no :kbd:`F5`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:249
 msgid "Tags for brush presets"
-msgstr ""
+msgstr "Marcas para as predefinições dos pincéis"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:251
 msgid ""
@@ -672,20 +866,26 @@ msgid ""
 "any amount of tags and be in any group. You can make tag for blending "
 "brushes, for texture brushes, for effect brushes, favorites etc."
 msgstr ""
+"Esta é uma forma muito útil de configurar as predefinições dos pincéis. Cada "
+"um dos pincéis poderá ter várias marcas e estar em qualquer grupo. Poderá "
+"criar uma marca para os pincéis de mistura, para os pincéis de texturas, "
+"para os pincéis de efeitos, para os favoritos, etc."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:254
 msgid "Settings curves"
-msgstr ""
+msgstr "Curvas de configuração"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:256
 msgid ""
 "You can set setting to pressure (speed/distance/tilt/random/etc.) relation "
 "for each brush setting."
 msgstr ""
+"Poderá definir a configuração da relação da pressão (velocidade/distância/"
+"desvio/aleatório/etc.) para cada uma das configurações de pincéis."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:262
 msgid "The Pop-up Palette"
-msgstr ""
+msgstr "A Paleta Instantânea"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:267
 msgid ""
@@ -696,6 +896,13 @@ msgid ""
 "preset docker by workflow, and quickly access the right brushes for the "
 "workflow you need for your image."
 msgstr ""
+"Fácil de encontrar no |mouseright|, a paleta instantânea permite-lhe aceder "
+"rapidamente aos pincéis, ao histórico de cores e a uma selector de cores a "
+"curta distância. Os pincéis são definidos com base nas marcas e, se carregar "
+"no botão de configuração em baixo e à direita, irá invocar uma lista para "
+"mudar as marcas. Isto permite-lhe marcar os pincéis na área de predefinições "
+"de forma processual, acedendo rapidamente aos pincéis correctos, com base "
+"nos procedimentos que precisa para a sua imagem."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:270
 msgid "Transformations"
@@ -709,18 +916,24 @@ msgid ""
 "masks to apply transforms non-destructively to any layer type, raster, "
 "vector group, you name it."
 msgstr ""
+"A ferramenta de transformação do Krita pode efectuar transformações sobre um "
+"grupo e afectar as camadas-filhas. Existem diversos modos, como o livre, a "
+"perspectiva, a fuga, a envolvência e a liquidificação. Para além disso, "
+"poderá usar as máscaras de transformação para aplicar as transformações de "
+"forma não-destrutiva para qualquer tipo de camada - rasterizada, vectorial, "
+"de grupo, o que quiser."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:279
 msgid ".. image:: images/en/Krita-transform-mask.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-transform-mask.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:279
 msgid "Transform masks allows non-destructive transforms"
-msgstr ""
+msgstr "As máscaras de transformação permitem transformações não-destrutivas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:282
 msgid "Incremental Save"
-msgstr ""
+msgstr "Gravação Incremental"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:284
 msgid ""
@@ -729,26 +942,35 @@ msgid ""
 "key on the keyboard. Krita will increment the final number if the pattern "
 "\"_XXX\" is recognized at the end of the file's name."
 msgstr ""
+"Poderá gravar a sua obra com o padrão: nome-minha-obra_001.kra , nome-minha-"
+"obra_o02.kra, nome-minha-obra_003.kra  etc, se carregar numa única tecla do "
+"teclado. O Krita irá incrementar o número final se o padrão \"_XXX\" for "
+"reconhecido no fim do nome do ficheiro."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:289
 msgid ""
 "This feature allows you to avoid overwriting your files, and keep track to "
 "your older version and work in progress steps."
 msgstr ""
+"Esta funcionalidade permite-lhe evitar a sobreposição dos seus ficheiros, "
+"mantendo um registo das suas versões mais antigas e dos passos de trabalho "
+"em curso."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:292
 msgid "Color to alpha Filter"
-msgstr ""
+msgstr "Filtro de Cor para Alfa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:294
 msgid ""
 "If you want to delete the white of the paper from a scanned artwork, you can "
 "use this filter. It takes a color and turns it into pure transparency."
 msgstr ""
+"Se quiser apagar o branco do papel de uma obra digitalizada, poderá usar "
+"este filtro. Ele pega numa cor e transforma-a em transparência pura."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:300
 msgid "Many Blending Modes"
-msgstr ""
+msgstr "Muitos Modos de Mistura"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:302
 msgid ""
@@ -757,10 +979,14 @@ msgid ""
 "blending modes has been created to let you have fast access to the ones you "
 "use the most."
 msgstr ""
+"Se gostar de usar os modos de mistura, o Krita tem muitos -- mais de 70! Tem "
+"montes de oportunidades para experimentar. Foi criado um sistema especial de "
+"modos de mistura favoritos que lhe permite ter acesso rápido aos que usa "
+"mais."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:306
 msgid "Painting Assistants"
-msgstr ""
+msgstr "Assistentes de Pintura"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:308
 msgid ""
@@ -768,18 +994,22 @@ msgid ""
 "with a magnetic influence on your brush strokes. You can use them as rulers, "
 "but with other shapes than just straight."
 msgstr ""
+"O Krita tem muitos assistentes de pintura. Este é um tipo especial de formas "
+"vectoriais com uma influência magnética sobre os traços do seu pincel. Podê-"
+"los-á usar como réguas, mas também com outras formas que não sejam somente "
+"rectas."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:314
 msgid ".. image:: images/en/Krita_basic_assistants.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_basic_assistants.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:314
 msgid "Krita's vanishing point assistants in action"
-msgstr ""
+msgstr "Os assistentes do ponto de fuga do Krita em acção"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:317
 msgid "Multibrushes: Symmetry / Parallel / Mirrored / Snowflake"
-msgstr ""
+msgstr "Multi-Pincéis: Simetria / Paralelo / Espelho / Floco de Neve"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:319
 msgid ""
@@ -788,20 +1018,26 @@ msgid ""
 "mirroring what you paint, or duplicating it by any number around any axis. "
 "They can also be used in parallel mode."
 msgstr ""
+"A ferramenta de Multi-Pincéis do Krita permite-lhe pintar com vários pincéis "
+"ao mesmo tempo. Os movimentos dos pincéis que não sejam o pincel principal "
+"são criados ao reflectir o que você pinta, ou duplicando-os várias vezes em "
+"torno de um dado eixo. Também poderão ser usados num modo paralelo."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:325
 msgid "A Wide Variety of Color Selectors"
-msgstr ""
+msgstr "Uma Grande Variedade de Selectores de Cores"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:327
 msgid ""
 "The :guilabel:`Advanced Color Selector` docker offer you a wide choice of "
 "color selectors."
 msgstr ""
+"A área do :guilabel:`Selector de Cores Avançadas` oferece-lhe uma grande "
+"variedade de selectores de cores."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:333
 msgid "View dependent color filters"
-msgstr ""
+msgstr "Filtros de cores dependentes das janelas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:334
 msgid ""
@@ -811,18 +1047,23 @@ msgid ""
 "image in luminance grayscale, so that they instantly know the values of the "
 "image."
 msgstr ""
+"Se usar a área do LUT, o Krita permite-lhe ter um filtro de correcção de "
+"cores separado por cada janela. Embora isto seja decerto útil para quem faça "
+"correcções de cores no dia-a-dia, para um artista isto permite ver uma cópia "
+"da imagem com tons de cinzento da luminância, para que saibam "
+"instantaneamente os valores da imagem."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:340
 msgid ".. image:: images/en/Krita-view-dependant-lut-management.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-view-dependant-lut-management.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:340
 msgid "Using the LUT docker to change the colors per view"
-msgstr ""
+msgstr "Uso da área do LUT para mudar as cores por cada janela"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:343
 msgid "HDR color painting"
-msgstr ""
+msgstr "Pintura de cores HDR"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:345
 msgid ""
@@ -830,18 +1071,21 @@ msgid ""
 "the LUT docker to change the exposure on the view, Krita allows you to paint "
 "with HDR colors, and has native open exr support!"
 msgstr ""
+"Esta mesma área do LUT é o controlador da pintura com cores HDR. Se usar a "
+"área do LUT para mudar a exposição de uma dada janela, o Krita permite-lhe "
+"pintar com cores HDR, tendo o suporte nativo para o formato aberto EXR!"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:351
 msgid ".. image:: images/en/Krita-hdr-painting.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-hdr-painting.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:351
 msgid "Painting with HDR colors"
-msgstr ""
+msgstr "Pintura com cores HDR"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:354
 msgid "What Krita Does Not Have"
-msgstr ""
+msgstr "O Que o Krita Não Tem"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:356
 msgid ""
@@ -850,6 +1094,10 @@ msgid ""
 "things you can do in PS that you cannot do in Krita. This section gives a "
 "short list of these features."
 msgstr ""
+"Mais uma vez, o Krita é uma aplicação de pintura digital e o Photoshop é um "
+"programa de manipulação de imagens com algumas funcionalidades de pintura. "
+"Isto significa que existem coisas que consegue fazer no PS e que não "
+"consegue no Krita. Esta secção dá-lhe uma breve lista destas funcionalidades."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:359
 msgid "Filters"
@@ -862,10 +1110,14 @@ msgid ""
 "you often use in Photoshop. For example, there is no possibility to tweak a "
 "specific color in HSV adjustment."
 msgstr ""
+"O Krita tem um pacote bastante impressionante de filtros disponíveis, mas "
+"provavelmente irá sentir falta de um ou dois dos filtros especiais de ajuste "
+"de cores que usa com frequência no Photoshop. Por exemplo, não é possível de "
+"todo afinar uma cor específica no ajuste de HSV."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:364
 msgid "Automatic healing tool"
-msgstr ""
+msgstr "Ferramenta de restauro automático"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:366
 msgid ""
@@ -873,16 +1125,21 @@ msgid ""
 "called clone tool which can be used to do a healing correction, although not "
 "automatically."
 msgstr ""
+"O Krita não tem uma ferramenta de restauro automática. Tem, por outro lado, "
+"uma ferramenta de clonagem que pode ser usada para fazer uma correcção de "
+"restauro, ainda que não seja automática."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:369
 msgid "Macro Recording"
-msgstr ""
+msgstr "Gravação de Macros"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:371
 msgid ""
 "Macro recording and playback exists in Krita, but it is not working well at "
 "this time."
 msgstr ""
+"A gravação e reprodução de macros existe no Krita, mas não está a funcionar "
+"bem nesta altura."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:374
 msgid "Text Tool"
@@ -892,22 +1149,29 @@ msgstr "Ferramenta de Texto"
 msgid ""
 "The text tool in Krita is less advanced than the similar tool in Photoshop."
 msgstr ""
+"A ferramenta de texto no Krita é menos avançada que a mesma ferramenta no "
+"Photoshop."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:379
 msgid "Blending Modes While Transforming"
-msgstr ""
+msgstr "Modos de Mistura Durante a Transformação"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:381
 msgid ""
 "When you transform a layer or a selection in Krita, the transformation "
 "appears on the top of your layer stack ignoring the layer blending mode."
 msgstr ""
+"Quando transformar uma camada ou uma selecção no Krita, a transformação "
+"aparece no topo da sua pilha de camadas, ignorando o modo de mistura da "
+"camada."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:386
 msgid ""
 "Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing "
 "web image, etc"
 msgstr ""
+"Do mesmo modo, não consegue ‘Exportar para a Web’, o ‘Pronto para Imagem’ de "
+"imagens GIF ou a divisão de uma imagem da Web, etc"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:389
 msgid "Conclusion"
@@ -921,3 +1185,9 @@ msgid ""
 "we believe that the list of things possible in Photoshop but not in Krita "
 "will become shorter in time. We will maintain this document as this happens."
 msgstr ""
+"Se usar estas dicas, provavelmente estará a par do Krita em pouco tempo. Se "
+"descobrir outras coisas que valha a pena mencionar neste documento, nós os "
+"autores estaremos interessados em ouvir falar delas. O Krita vai sendo "
+"desenvolvido de forma rápida, por isso acreditamos que a lista de coisas "
+"possíveis no Photoshop mas não no Krita será cada vez mais reduzida com o "
+"tempo. Iremos mantendo este documento à medida que isto acontece."

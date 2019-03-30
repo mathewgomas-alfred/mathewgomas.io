@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
-"__spray_brush_engine\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___brushes___brush_engines___spray_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-02 03:22+0100\n"
-"PO-Revision-Date: 2019-03-11 22:19+0200\n"
+"PO-Revision-Date: 2019-03-23 08:51+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -119,6 +119,8 @@ msgstr "Кут"
 msgid ""
 "The angle of the spray size: works nice with aspect ratios other than 1.0."
 msgstr ""
+"Кут нахилу вісі ділянки розбризкування: добре працює зі співвідношеннями "
+"розмірів, які відрізняються від 1.0."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:49
 msgid "Scale"
@@ -134,7 +136,7 @@ msgstr "Інтервал"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Increases the spacing of the diameter's spray."
-msgstr ""
+msgstr "Збільшує інтервал розсіювання за діаметром."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:55
 msgid "Particles"
@@ -163,6 +165,7 @@ msgstr "Зміщення розсіювання"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:62
 msgid "Jitters the spray area around for extra randomness."
 msgstr ""
+"Додає нерівності області розбризкування для збільшення ефекту випадковості."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:64
 msgid "Gaussian Distribution"
@@ -173,6 +176,8 @@ msgid ""
 "Focuses the particles to paint in the center instead of evenly random over "
 "the spray area."
 msgstr ""
+"Збільшує концентрацію часток фарби у напрямку до центру, замість "
+"рівномірного випадкового розподілу ділянкою розбризкування."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:69
 msgid "Spray Shape"
@@ -183,6 +188,8 @@ msgid ""
 "If activated, this will generate a special particle. If not, the brush-tip "
 "will be the particle."
 msgstr ""
+"Якщо позначено, створює особливу частку. Якщо не позначено, часткою буде "
+"кінчик пензля."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:74
 msgid "Can be..."
@@ -249,6 +256,8 @@ msgid ""
 "Randomizes the particle size between 1x1 px and the given size of the "
 "particle in brush-tip or spray shape."
 msgstr ""
+"Встановити випадковий розмір частки від 1x1 пікселів до вказаного розміру "
+"для кінчика пензля або форми плями аерографа."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:96
 msgid "Fixed Rotation"
@@ -256,7 +265,7 @@ msgstr "Фіксоване обертання"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:97
 msgid "Gives a fixed rotation to the particle to work from."
-msgstr ""
+msgstr "Визначити фіксоване обертання частки."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:98
 msgid "Randomized Rotation"
@@ -275,6 +284,8 @@ msgid ""
 "How much the pressure affects the rotation of the particles. At 1.0 and high "
 "pressure it'll seem as if the particles are exploding from the middle."
 msgstr ""
+"Визначає, наскільки тиск впливає на обертання часток. При значенні 1.0 і "
+"високому значенні тиску створює ефекти вибуху часток з їхнього центру."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "Angle Weight"
@@ -283,6 +294,8 @@ msgstr "Вага кута"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "How much the spray area angle affects the particle angle."
 msgstr ""
+"Визначає, наскільки кут області розбризкування аерографа впливає на кут "
+"обертання частки."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:108
 msgid "Color Options"
@@ -298,6 +311,10 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Визначає випадкові значення відтінку насиченості і значення, де дисперсія "
+"визначається повзунками. Чим більшим є значення на повзунку, тим сильніше "
+"колір відхилятиметься від кольору переднього плану. Відхилення може "
+"відбуватися за або проти годинникової стрілки."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:112
 msgid "Random Opacity"
@@ -324,6 +341,8 @@ msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Використовувати як основу для кольорів підлеглий шар, а не шар переднього "
+"плану."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:118
 msgid "Fill Background"
@@ -331,10 +350,12 @@ msgstr "Заповнити тло"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:119
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Заповнює ділянку кольором тла до малювання часток."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:121
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
 msgstr ""
+"Надає частці випадкового кольору між кольором переднього плану, вказаного "
+"кольору або випадковим кольором та кольором тла."

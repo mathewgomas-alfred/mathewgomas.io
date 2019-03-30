@@ -6,11 +6,11 @@
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_user_manual___introduction_from_other_softw"
-"are___introduction_from_sai\n"
+"Project-Id-Version: "
+"docs_krita_org_user_manual___introduction_from_other_software___introduction_from_sai\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-11 18:06+0100\n"
+"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"PO-Revision-Date: 2019-03-24 12:06+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -107,7 +107,7 @@ msgid ""
 "Unlike Sai, these are tied to keyboard keys."
 msgstr ""
 "El Krita, igual que el Sai, permet invertir, girar i duplicar la vista. A "
-"diferència del Sai, aquestes accions disposen de dreceres de teclat."
+"diferència del Sai, aquestes accions estan lligades a dreceres de teclat."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:29
 msgid "Mirror"
@@ -145,9 +145,9 @@ msgid ""
 "mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit "
 "the zoom to page width."
 msgstr ""
-"Podeu utilitzar :kbd:`+` i :kbd:`-` per allunyar i apropar, o utilitzar "
-":kbd:`Ctrl` + |mousemiddle|. Utilitzeu 1, 2 o 3 per a restablir el zoom, "
-"ajustar el zoom a la pàgina o ajustar el zoom a l'amplada de la pàgina."
+"Podeu utilitzar :kbd:`+` i :kbd:`-` per allunyar i apropar, o utilitzar :kbd:"
+"`Ctrl` + |mousemiddle|. Utilitzeu 1, 2 o 3 per a restablir el zoom, ajustar "
+"el zoom a la pàgina o ajustar el zoom a l'amplada de la pàgina."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:36
 msgid ""
@@ -163,6 +163,10 @@ msgid ""
 "Sai. Go to :menuselection:`Settings --> Configure Toolbars`. There are two "
 "toolbars, but we'll add to the file toolbar."
 msgstr ""
+"També podeu posar aquestes ordres a la barra d'eines, de manera que "
+"s'assimilarà una mica al Sai. Aneu a :menuselection:`Arranjament --> "
+"Configura les barres d'eines`. Hi ha dues barres d'eines, però l'afegirem a "
+"la barra d'eines de fitxers."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:40
 msgid ""
@@ -174,6 +178,14 @@ msgid ""
 "press :guilabel:`OK`. When done right, the :guilabel:`Undo` should now be "
 "sandwiched between the save and the gradient icon."
 msgstr ""
+"Llavors, podeu escriure quelcom a la columna esquerra per a cercar-la. Així, "
+"per exemple, «desfés». Després seleccioneu l'acció «desfés el traç a mà "
+"alçada» i arrossegueu-la cap a la dreta. Seleccioneu l'acció a la dreta i "
+"feu clic a :menuselection:`Canvia el text`. Allà, alterneu :menuselection:"
+"`Oculta el text quan la barra d'eines mostri el text al costat de les "
+"icones` per evitar que l'acció mostri el text. A continuació, premeu :"
+"guilabel:`D'acord`. Quan hàgiu acabat, el :guilabel:`Desfés` hauria de ser "
+"intercalat entre la icona de desa i la de degradat."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:42
 msgid ""
@@ -183,9 +195,19 @@ msgid ""
 "`Mirror view` and perhaps :guilabel:`Smoothing: basic` and :guilabel:"
 "`Smoothing: stabilizer` to get nearly all the functionality of Sai's top bar "
 "in Krita's top bar. (Though, on smaller screens this will cause all the "
-"things in the brushes toolbar to hide inside a drop down to the right, so "
+"things in the brushes toolbar to hide inside a drop-down to the right, so "
 "you need to experiment a little)."
 msgstr ""
+"Podeu fer el mateix amb :guilabel:`Refés`, :guilabel:`Desselecciona`, :"
+"guilabel:`Inverteix la selecció`, :guilabel:`Allunya`, :guilabel:`Apropa`, :"
+"guilabel:`Reinicia el zoom`, :guilabel:`Gira a l'esquerra`, :guilabel:`Gira "
+"a la dreta`, :guilabel:`Visualització en mirall` i potser :guilabel:"
+"`Suavitzat: Bàsica` i :guilabel:`Suavitzat: Estabilitzadora` per obtenir "
+"gairebé totes les característiques de la barra superior del Sai a la barra "
+"superior del Krita. (Tot i que, a les pantalles més petites, això farà que "
+"totes les coses de la barra d'eines dels pinzells s'ocultin dins d'una "
+"llista desplegable a la dreta, de manera que necessiteu experimentar una "
+"mica)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:44
 msgid ""
@@ -193,6 +215,10 @@ msgid ""
 "available via the Toolbar configuration, you'll need to use the shortcuts :"
 "kbd:`Ctrl + H` and :kbd:`5` to toggle these."
 msgstr ""
+"Actualment, les ordres :guilabel:`Oculta la selecció`, :guilabel:`Reinicia "
+"el gir` no estan disponibles a través de la configuració de la barra "
+"d'eines, haureu d'utilitzar les dreceres :kbd:`Ctrl + H` i :kbd:`5` per "
+"alternar-les."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:48
 msgid ""
@@ -213,6 +239,11 @@ msgid ""
 "entry that says :kbd:`Ctrl` + |mouseleft| before :guilabel:`Pick foreground "
 "color from image` to get a window to set it to |mouseright|."
 msgstr ""
+"En realitat, ho podeu establir a :menuselection:`Arranjament --> Configura "
+"el Krita --> Arranjament d'entrada del llenç --> Invocació alternativa`. "
+"Simplement feu doble clic a l'entrada que digui :kbd:`Ctrl` + |mouseleft| "
+"abans de :guilabel:`Tria el color del primer pla des de la imatge` per "
+"obtenir un diàleg per establir-la a |mouseright|."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:57
 msgid ""
@@ -220,6 +251,9 @@ msgid ""
 "default. Combine these with the shortcut sheet for Paint tool Sai to get "
 "most of the functionality on familiar hotkeys."
 msgstr ""
+"El Krita 3.0 en realitat té un full d'entrada compatible amb el Paint-tool "
+"Sai. Combineu-los amb la drecera de full per al Paint tool Sai per obtenir "
+"la major part de la funcionalitat a les tecles d'accés ràpid conegudes."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:60
 msgid "Stabilizer"
@@ -231,6 +265,10 @@ msgid ""
 "Smoothing for more advanced tablets, and Stabilizer is much like Paint Tool "
 "Sai's. Just turn off :guilabel:`Delay` so that the dead-zone disappears."
 msgstr ""
+"Aquest és l'acoblador per a les opcions de l'eina del pinzell a mà alçada. "
+"Utilitzeu el Suavitzat bàsic per a les tauletes més avançades i si "
+"l'estabilitzador s'assembla molt al de Paint Tool Sai. Simplement desactiveu "
+"el :guilabel:`Retard` de manera que desaparegui la zona morta."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:65
 msgid "Transparency"
@@ -247,6 +285,15 @@ msgid ""
 "If you export a PNG or JPG, make sure to uncheck :guilabel:`Save "
 "transparency` and to make the background color white (it's black by default)."
 msgstr ""
+"Així que una de les coses que tiren a molts als usuaris del Paint Tool Sai "
+"és que el Krita fa servir els comprovadors per a mostrar la transparència, "
+"el qual en realitat no és tan infreqüent. Tot i així, si voleu que el fons "
+"del llenç sigui blanc, això serà possible. Simplement trieu :guilabel:`Fons: "
+"Com a color del llenç` al nou diàleg de la imatge i el fons de la imatge "
+"serà blanc. Es pot tornar transparent mitjançant :menuselection:`Imatge --> "
+"Canvia el color de fons de la imatge`. Si exporteu a PNG o JPG, assegureu-"
+"vos de desmarcar :guilabel:`Desa la transparència` i feu que el color de "
+"fons sigui blanc (de manera predeterminada és negre)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:72
 msgid ""
@@ -254,10 +301,13 @@ msgid ""
 "transparent with the :menuselection:`Color to Alpha Filter` under :"
 "menuselection:`Filters --> Colors --> Color to Alpha`"
 msgstr ""
+"Com en el Sai, podeu convertir amb rapidesa una imatge en blanc i negre a "
+"negre i transparent amb l'opció :menuselection:`Filtre de color a alfa` "
+"sota :menuselection:`Filtres --> Colors --> Color a alfa`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:75
 msgid "Brush Settings"
-msgstr "Arranjament de pinzell"
+msgstr "Ajustaments del pinzell"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:77
 msgid ""
@@ -265,6 +315,9 @@ msgid ""
 "very complex. After all, you can only change the Size, Flow and Opacity from "
 "the top bar."
 msgstr ""
+"Un altre concepte erroni, és que el motor de pinzells del Krita no és molt "
+"complex. Després de tot, des de la barra superior només podeu canviar la "
+"Mida, el Flux i l'Opacitat."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:79
 msgid ""
@@ -275,17 +328,33 @@ msgid ""
 "you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color "
 "Smudge Brush (brush) and the filter brush (dodge, burn)."
 msgstr ""
+"Això no és cert. Més aviat és que no tenim els ajustaments del nostre "
+"pinzell en un acoblador, sinó en una llista desplegable a la barra d'eines. "
+"La manera més fàcil d'accedir-hi és :kbd:`F5`. Com podeu veure, en realitat "
+"és força complex. Tenim més d'una dotzena de motors de pinzells, els quals "
+"són un tipus de pinzell que podeu crear. El que estàveu acostumat al Paint "
+"Tool Sai són el Pinzell de píxels (tinta), El pinzell d'esborronat del color "
+"(pinzell) i el Pinzell de filtratge (esvaïment, crema)."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:81
 msgid ""
 "A simple inking brush recipe for example is to take a pixel brush, uncheck "
-"the 'enable pen-settings' on opacity and flow, and uncheck everything but "
-"size from the option list. Then, go into brush-tip, pick :ref:"
+"the :guilabel:`Enable Pen Settings` on opacity and flow, and uncheck "
+"everything but size from the option list. Then, go into brush-tip, pick :ref:"
 "`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue "
 "bar if you want to input numbers), turn on anti-aliasing under the brush "
 "icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and "
 "the spacing number to 0.8."
 msgstr ""
+"Per exemple, una senzilla recepta del pinzell de tinta és prendre un pinzell "
+"de píxels, desmarqueu l'opció :guilabel:`Habilita els ajustaments de la "
+"ploma` en l'opacitat i el flux, i desmarqueu-ho tot excepte la mida a la "
+"llista d'opcions. A continuació, aneu a la punta del pinzell, escolliu :ref:"
+"`auto_brush_tip` des de les pestanyes i establiu la mida a 25 (feu clic dret "
+"a la barra blava si voleu introduir algun número), activeu l'antialiàsing "
+"sota la icona del pinzell, i establiu l'ombra 0,9. A continuació, com a "
+"últim toc, establiu el tipus d'espaiat a «Automàtic» i el número de "
+"l'espaiat a 0,8."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:83
 msgid ""
@@ -294,17 +363,25 @@ msgid ""
 "`Settings --> Manage Resources`, where you can import .bundle files or .kpp "
 "files."
 msgstr ""
+"Podeu configurar els pinzells amb molts detalls i compartir els paquets amb "
+"altres usuaris. La importació de paquets i pinzells es pot fer a través del :"
+"menuselection:`Arranjament --> Gestió de recursos`, des d'on podreu importar "
+"els fitxers «.bundle» o «.kpp»."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:86
 msgid "Erasing"
 msgstr "Esborrar"
 
+# skip-rule: punctuation-3period
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:88
 msgid ""
 "Erasing is a blending mode in Krita, much like the transparency mode of "
 "Paint Tool Sai. It's activated with :kbd:`E` or you can select it from the "
 "Blending Mode drop-down..."
 msgstr ""
+"L'esborrament és un mode de barreja en el Krita, igual que el mode de "
+"transparència del Paint Tool Sai. S'activa amb :kbd:`E` o el podeu "
+"seleccionar des del menú desplegable «Mode de barreja...»."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:91
 msgid "Blending Modes"
@@ -316,6 +393,10 @@ msgid ""
 "are amongst them except binary. To manage the blending modes, each of them "
 "has a little check-box that you can tick to add them to the favorites."
 msgstr ""
+"El Krita té molts modes de barreja i, per sort, s'hi troben tots els del "
+"Paint Tool Sai, excepte els binaris. Per a gestionar els modes de barreja, "
+"cadascun d'ells té una casella de selecció que podeu marcar per afegir-los "
+"als preferits."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:95
 msgid ""
@@ -324,6 +405,10 @@ msgid ""
 "replaces the relative brightness of color with the relative brightness of "
 "the color of the layer."
 msgstr ""
+"Múltiples, Pantalla, Superposició i Normal es troben entre els preferits. La "
+"lluminositat del Krita, en realitat és una mica diferent de la del Paint "
+"Tool Sai i substitueix la brillantor relativa del color amb la brillantor "
+"relativa del color de la capa."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:98
 msgid ""
@@ -331,6 +416,10 @@ msgid ""
 "dodge* mode. The Shade mode is the same as *Color Burn* and *Hard Mix* is "
 "the same as the lumi and shade mode."
 msgstr ""
+"El mode de lluminositat del Sai, en realitat és la mateixa que el mode "
+"*Addició* o *Esvaïment lineal* del Krita. El mode Ombra és el mateix que el "
+"*Cremat del color* i *Barreja forta* és el mateix que el mode Luminància i "
+"Ombra."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:101
 msgid "Layers"
@@ -338,7 +427,7 @@ msgstr "Capes"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:103
 msgid "Lock Alpha"
-msgstr ""
+msgstr "Bloqueja l'alfa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:104
 msgid "This is the checker box icon next to every layer."
@@ -354,6 +443,9 @@ msgid ""
 "For Clipping masks in Krita you'll need to put all your images in a single "
 "layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`"
 msgstr ""
+"Per a les màscares de retallat en el Krita, haureu de col·locar totes les "
+"vostres imatges en una sola capa i després prémer la icona «a» o prémer la "
+"drecera :kbd:`Ctrl + Majús. + G`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:107
 msgid "Ink layer"
@@ -374,16 +466,22 @@ msgid ""
 "groups as well as layers. If you have a selection and make a transparency "
 "mask, it will use the selection as a base."
 msgstr ""
+"Aquestes capes amb escala de grisos que permeten afectar la transparència, "
+"s'anomenen màscares de transparència en el Krita i, com al Paint Tool Sai, "
+"es poden aplicar tant a grups com a capes. Si teniu una selecció i feu una "
+"màscara de transparència, s'utilitzarà la selecció com a base."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:112
 msgid "Clearing a layer"
-msgstr "Esborrar una capa"
+msgstr "Netejar una capa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:112
 msgid ""
 "This is under :menuselection:`Edit --> Clear`, but you can also just press :"
 "kbd:`Del`."
 msgstr ""
+"Això està sota :menuselection:`Edita -> Neteja`, però també podeu prémer la "
+"drecera :kbd:`Supr.`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:115
 msgid "Mixing between two colors"
@@ -395,6 +493,9 @@ msgid ""
 "docker will be able to help you. Dragging the sliders will change how much "
 "of a color is mixed in."
 msgstr ""
+"Si us ha agradat aquest acoblador al Paint Tool Sai, l'acoblador Selector de "
+"color digital del Krita us ajudarà. Arrossegar els controls lliscants "
+"canviarà la quantitat de color que es barreja."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:120
 msgid "What do you get extra when using Krita?"
@@ -411,6 +512,11 @@ msgid ""
 "respond to tilt, rotation, speed, brushes that draw hatches and brushes that "
 "deform the colors. Krita's variety is quite big."
 msgstr ""
+"Ja heu conegut l'editor dels ajustaments del pinzell. Els pinzells d'esbós, "
+"els pinzells de reixa, Pinzells de deformació, pinzells de clonat, pinzells "
+"que són textures, pinzells que responen a la inclinació, rotació, velocitat, "
+"pinzells que dibuixen escotilles i pinzells que deformen els colors. La "
+"varietat al Krita és molt gran."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:128
 msgid "More color selectors"
@@ -425,6 +531,13 @@ msgid ""
 "Advanced Color Selector Settings` to change the shape and type of the main "
 "big color selector."
 msgstr ""
+"Podeu tenir controls lliscants HSV, controls lliscants RGB, un triangle en "
+"un anell de to. Però també podeu tenir controls lliscants HSI, HSL o HSY, "
+"controls lliscants CMYK, paletes, selectors rodons, selectors quadrats, "
+"selectors diminuts, selectors grans, historial del color i selectors "
+"d'ombra. Només cal anar a :menuselection:`Arranjament --> Configura el Krita "
+"--> Ajustaments per al selector avançat del color` per a canviar la forma i "
+"el tipus del gran selector de color principal."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:135
 msgid ""
@@ -432,6 +545,10 @@ msgid ""
 "and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. The "
 "big selector can be called with :kbd:`Shift + I` on canvas."
 msgstr ""
+"Podeu cridar l'historial del color amb la drecera :kbd:`H`, colors comuns "
+"amb :kbd:`U` i els dos selectors d'ombra amb :kbd:`Majús. + N` i :kbd:"
+"`Majús. + M`. El selector gran es pot cridar amb :kbd:`Majús. + I` sobre el "
+"llenç."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:138
 msgid "Geometric Tools"
@@ -444,13 +561,16 @@ msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:143
 msgid "Multibrush, Mirror Symmetry and Wrap Around"
-msgstr ""
+msgstr "Múltiples pinzells, simetria del mirall i ajust cíclic"
 
+# Nota: https://ca.wikipedia.org/wiki/Mandala
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:145
 msgid ""
 "These tools allow you to quickly paint a mirrored image, mandala or tiled "
 "texture in no time. Useful for backgrounds and abstract vignettes."
 msgstr ""
+"Aquestes eines permeten pintar amb rapidesa una imatge reflectida, una "
+"textura de mandala o en mosaic. Útil per a fons i vinyetes abstractes."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:151
 msgid "Assistants"
@@ -461,8 +581,8 @@ msgid ""
 "The painting assistants can help you to set up a perspective, or a "
 "concentric circle and snap to them with the brush."
 msgstr ""
-"Els assistents de pintura poden ajudar-vos a configurar una perspectiva, o un "
-"cercle concèntric i enganxar-los amb el pinzell."
+"Els assistents de pintura poden ajudar-vos a configurar una perspectiva, o "
+"un cercle concèntric i ajustar-los amb el pinzell."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:159
 msgid ""
@@ -482,11 +602,11 @@ msgstr "Bloquejar la capa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:164
 msgid "Lock the layer with the padlock so you don't draw on it."
-msgstr ""
+msgstr "Bloquejar la capa amb el cadenat per a que no s'hi dibuixi."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:167
 msgid "Quick Layer select"
-msgstr ""
+msgstr "Seleccionar ràpidament la capa"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:169
 msgid ""
@@ -494,6 +614,9 @@ msgid ""
 "layer underneath the cursor. Really useful when dealing with a large number "
 "of layers."
 msgstr ""
+"Si manteniu premuda la drecera :kbd:`R` i premeu un punt al vostre dibuix, "
+"el Krita seleccionarà la capa que hi ha sota el cursor. Molt útil quan es "
+"tracta amb una gran quantitat de capes."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:172
 msgid "Color Management"
@@ -506,6 +629,11 @@ msgid ""
 "docker to turn the colors grayscale in a separate view, so you can see the "
 "values instantly."
 msgstr ""
+"Això us permetrà preparar el vostre treball per imprimir o fer trucs amb "
+"l'acoblador LUT, de manera que pugueu diagnosticar millor la vostra imatge. "
+"Per exemple, utilitzant l'acoblador LUT per a convertir els colors a escala "
+"de grisos en una vista independent, de manera que pugueu veure els valors a "
+"l'instant."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:180
 msgid "Advanced Transform Tools"
@@ -516,10 +644,12 @@ msgid ""
 "Not just rotate and scale, but also cage, wrap, liquify and non-destructive "
 "transforms with the transform tool and masks."
 msgstr ""
+"No només girar i escalar, sinó també les transformacions de gàbia, ajusta, "
+"liqüescent i no destructives amb l'eina de transformació i les màscares."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:188
 msgid "More Filters and non-destructive filter layers and masks"
-msgstr ""
+msgstr "Més filtres, capes i màscares de filtratge no destructives"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:190
 msgid ""
@@ -527,6 +657,9 @@ msgid ""
 "In fact, with the filter layers and layer masks you can make them apply on "
 "the fly as you draw underneath."
 msgstr ""
+"Amb filtres com l'equilibri de color i les corbes, podeu crear capes d'ombra "
+"senzilles. De fet, amb les capes de filtratge i les màscares de capa, podreu "
+"crear-les i aplicar-les sobre la marxa mentre dibuixeu per sota."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:196
 msgid "Pop-up palette"
@@ -539,6 +672,11 @@ msgid ""
 "palette. It also keeps a little color selector and color history, so you can "
 "switch brushes on the fly."
 msgstr ""
+"Aquesta és la petita cosa circular que de manera predeterminada trobareu "
+"fent clic dret. Podeu organitzar els vostres pinzells amb etiquetes i "
+"utilitzar-les per omplir la paleta emergent. També manté el selector de "
+"color i historial del color, de manera que podreu canviar els pinzells sobre "
+"la marxa."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:204
 msgid "What does Krita lack compared to Paint Tool Sai?"
@@ -546,27 +684,27 @@ msgstr "Què falta en el Krita en comparació amb el Paint Tool Sai?"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:206
 msgid "Variable width vector lines"
-msgstr ""
+msgstr "Línies vectorials d'amplada variable."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:207
 msgid "The selection source option for layers"
-msgstr ""
+msgstr "L'opció de selecció de la font per a les capes"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:208
 msgid "Dynamic hard-edges for strokes (the fringe effect)"
-msgstr ""
+msgstr "Vores dinàmiques sòlides per als traços (l'efecte de franja)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:209
 msgid "No mix-docker."
-msgstr ""
+msgstr "No hi ha cap acoblador de barreja."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:210
 msgid "No Preset-tied stabilizer."
-msgstr ""
+msgstr "No hi ha lligat cap estabilitzador predefinit."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:211
 msgid "No per-preset hotkeys."
-msgstr ""
+msgstr "No hi ha tecles d'accés ràpid predefinides."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:214
 msgid "Conclusion"
@@ -577,5 +715,5 @@ msgid ""
 "I hope this introduction got you a little more excited to use Krita, if not "
 "feel a little more at home."
 msgstr ""
-"Espero que aquesta introducció us hagi entusiasmat una mica més per emprar el "
-"Krita, de no ser així, que us trobeu una mica més a casa."
+"Espero que aquesta introducció us hagi entusiasmat una mica més per emprar "
+"el Krita, de no ser així, que us trobeu una mica més a casa."

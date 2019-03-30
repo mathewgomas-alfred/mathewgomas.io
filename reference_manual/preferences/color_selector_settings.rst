@@ -17,7 +17,7 @@ Color Selector Settings
 
 These settings directly affect Advanced Color Selector Dockers and the same dialog box appears when the user clicks the settings button in that docker as well. They also affect certain hotkey actions.
 
-This settings menu has a dropdown for Advanced Color Selector, and Color Hotkeys.
+This settings menu has a drop-down for Advanced Color Selector, and Color Hotkeys.
 
 Advanced Color Selector
 -----------------------

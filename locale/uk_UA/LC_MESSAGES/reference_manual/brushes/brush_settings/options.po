@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_settings___options\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 20:27+0200\n"
+"POT-Creation-Date: 2019-03-28 03:35+0100\n"
+"PO-Revision-Date: 2019-03-26 21:56+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -27,7 +27,7 @@ msgstr ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:1
 msgid "Krita's Brush Engine options overview."
-msgstr ""
+msgstr "Огляд параметрів рушіїв пензлів Krita."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:18
 msgid "Options"
@@ -58,7 +58,7 @@ msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Mirror.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:38
 msgid "This allows you to mirror the Brush-tip with Sensors."
-msgstr ""
+msgstr "Надає змогу віддзеркалити кінчик пензля з використанням датчиків."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:40
 msgid "Horizontal"
@@ -66,7 +66,7 @@ msgstr "Горизонтально"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:41
 msgid "Mirrors the mask horizontally."
-msgstr ""
+msgstr "Віддзеркалює маску горизонтально."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:43
 msgid "Vertical"
@@ -74,7 +74,7 @@ msgstr "Вертикально"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:43
 msgid "Mirrors the mask vertically."
-msgstr ""
+msgstr "Віддзеркалює маску вертикально."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:46
 msgid ".. image:: images/en/Krita_2_9_brushengine_mirror.jpg"
@@ -85,6 +85,8 @@ msgid ""
 "Some examples of mirroring and using it in combination with :ref:"
 "`option_rotation`."
 msgstr ""
+"Декілька прикладів віддзеркалення та використання віддзеркалення у поєднанні "
+"з ефектом :ref:`option_rotation`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:52
 msgid "Rotation"
@@ -92,7 +94,7 @@ msgstr "Обертання"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:54
 msgid "This allows you to affect Angle of your brush-tip with Sensors."
-msgstr ""
+msgstr "Надає змогу впливати датчикам на кут вашого кінчика пензля."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:57
 msgid ".. image:: images/en/Krita_2_9_brushengine_rotation.png"
@@ -105,6 +107,7 @@ msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Rotation.png"
 #: ../../reference_manual/brushes/brush_settings/options.rst:60
 msgid "In the above example, several applications of the parameter."
 msgstr ""
+"У наведеному вище прикладі можна бачити декілька застосувань цього параметра."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:62
 msgid ""
@@ -119,21 +122,27 @@ msgstr ""
 msgid ""
 "Fuzzy -- Also very common, this gives a nice bit of randomness for texture."
 msgstr ""
+"Неточний — теж доволі загальна річ, яка надає певної випадковості текстурі."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:64
 msgid ""
 "Distance -- With careful editing of the Sensor curve, you can create nice "
 "patterns."
 msgstr ""
+"Відстань — за допомогою вдумливого редагування кривої датчика ви можете "
+"створювати чудові візерунки."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:65
 msgid "Fade -- This slowly fades the rotation from one into another."
 msgstr ""
+"Згасання — уможливлює повільне перетікання обертання з одного стану у інший."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:66
 msgid ""
 "Pressure -- An interesting one that can create an alternative looking line."
 msgstr ""
+"Тиск — цікава залежність, яка може бути використана для створення "
+"альтернативних варіантів ліній."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:71
 msgid "Scatter"
@@ -144,6 +153,9 @@ msgid ""
 "This parameter allows you to set the random placing of a brush-dab. You can "
 "affect them with Sensors."
 msgstr ""
+"За допомогою цього параметра можна визначити випадкове розташування мазка "
+"пензлем. Можна також визначити вплив на випадкове розташування датчиків "
+"стила."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:75
 msgid "X"
@@ -151,7 +163,7 @@ msgstr "X"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:76
 msgid "The scattering on the angle you are drawing from."
-msgstr ""
+msgstr "Дисперсія за кутом, під яким ви малюєте."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid "Y"
@@ -159,8 +171,10 @@ msgstr "Y"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid ""
-"The scattering, perpendicular tot he drawing angle (has the most effect)"
+"The scattering, perpendicular to the drawing angle (has the most effect)"
 msgstr ""
+"Дисперсія перпендикулярно до кута малювання (найбільше впливає на вигляд "
+"мазка)"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
 msgid ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
@@ -176,7 +190,7 @@ msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Sharpness.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:89
 msgid "Puts a threshold filter over the brush mask."
-msgstr ""
+msgstr "Накладає пороговий фільтр на маску пензля."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:94
 msgid "Size"
@@ -191,6 +205,7 @@ msgid ""
 "This parameter is not the diameter itself, but rather the curve for how it's "
 "affected."
 msgstr ""
+"Цей параметр не є самим діаметром, а, краще сказати, кривою впливу на нього."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:100
 msgid ""
@@ -208,7 +223,7 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:104
 msgid ""
-"Also popular are setting the size to the sensor fuzzy or perspective, with "
+"Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`"
 msgstr ""
 
@@ -222,7 +237,7 @@ msgstr "М’якість"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:113
 msgid "This allows you to affect Fade with Sensors."
-msgstr ""
+msgstr "Надає змогу впливати датчикам на згасання."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:116
 msgid ".. image:: images/en/Krita_2_9_brushengine_softness.png"
@@ -233,6 +248,8 @@ msgid ""
 "Has a slight brush-decreasing effect, especially noticeable with soft-brush, "
 "and is overall more noticeable on large brushes."
 msgstr ""
+"Має певний вплив на зменшення пензля, особливо помітний із м'якими пензлями "
+"і, загалом, більш помітний для великих пензлів."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:122
 msgid "Source"
@@ -240,7 +257,7 @@ msgstr "Джерело"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:124
 msgid "Picks the source-colour for the brush-dab."
-msgstr ""
+msgstr "Вибирає колір джерела для мазка пензлем."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:126
 msgid "Plain Color"
@@ -248,7 +265,7 @@ msgstr "Звичайний колір"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:127
 msgid "Current foreground color."
-msgstr ""
+msgstr "Поточний колір переднього плану."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:128
 #: ../../reference_manual/brushes/brush_settings/options.rst:160
@@ -257,7 +274,7 @@ msgstr "Градієнтний"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:129
 msgid "Picks active gradient"
-msgstr ""
+msgstr "Вибирає активний градієнт"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:130
 msgid "Uniform Random"
@@ -265,7 +282,7 @@ msgstr "Однорідний випадковий"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:131
 msgid "Gives a random colour to each brush dab."
-msgstr ""
+msgstr "Надає кожному мазку пензля випадкового кольору."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:132
 msgid "Total Random"
@@ -273,7 +290,7 @@ msgstr "Повністю випадковий"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:133
 msgid "Random noise pattern is now painted."
-msgstr ""
+msgstr "Вмикає режим малювання випадковим візерунком."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:134
 msgid "Pattern"
@@ -282,6 +299,7 @@ msgstr "Візерунок"
 #: ../../reference_manual/brushes/brush_settings/options.rst:135
 msgid "Uses active pattern, but alignment is different per stroke."
 msgstr ""
+"Використовує активний візерунок, але міняє вирівнювання для кожного штриха."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:137
 msgid "Locked Pattern"
@@ -289,7 +307,7 @@ msgstr "Фіксований візерунок"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:137
 msgid "Locks the pattern to the brushdab"
-msgstr ""
+msgstr "Фіксує візерунок для мазка пензлем."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:142
 msgid "Mix"
@@ -327,12 +345,12 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:155
 msgid "Flow map"
-msgstr ""
+msgstr "Карта потоку"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:162
 msgid ""
-"Exactly the same as using Source:Gradient with Mix, but only available for "
-"the Color Smudge Brush."
+"Exactly the same as using :menuselection:`Source --> Gradient` with :"
+"guilabel:`Mix`, but only available for the Color Smudge Brush."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:168
@@ -346,16 +364,24 @@ msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
 #: ../../reference_manual/brushes/brush_settings/options.rst:172
 msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
 msgstr ""
+"Надає змогу впливати :ref:`датчикам <sensors>` на значення :ref:`параметра "
+"кінчика пензля <option_brush_tip>`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:175
 msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:176
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
+msgid "Isotropic spacing"
+msgstr "Ізотропний інтервал"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
 msgid ""
-";Isotropic. :Instead of the spacing being related to the ratio of the brush, "
-"it will be on diameter only."
+"Instead of the spacing being related to the ratio of the brush, it will be "
+"on diameter only."
 msgstr ""
+"Усуває залежність інтервалу від співвідношення розмірів пензля. Інтервал "
+"залежатиме лише від діаметра пензля."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:180
 msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_01.png"
@@ -370,3 +396,5 @@ msgid ""
 "Allows you to change the ratio of the brush and bind it to parameters. This "
 "also works for predefined brushes."
 msgstr ""
+"Надає вам змогу змінити пропорції пензля і пов'язати їх із параметрами. "
+"Працює і для стандартних пензлів."

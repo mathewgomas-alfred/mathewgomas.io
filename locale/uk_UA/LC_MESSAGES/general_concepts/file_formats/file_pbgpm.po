@@ -10,7 +10,7 @@ msgstr ""
 "docs_krita_org_general_concepts___file_formats___file_pbgpm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 08:28+0200\n"
+"PO-Revision-Date: 2019-03-17 19:44+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -39,12 +39,20 @@ msgid ""
 "They are designed to save images in a way that the result can be read as an "
 "ascii file, from back when email clients couldn't read images reliably."
 msgstr ""
+".pbm, .pgm, .ppm — серія форматів файлів зі схожою базовою логікою. Ці "
+"формати розроблено для зберігання зображень у такий спосіб, щоб результатом "
+"був текстовий файл із символами ASCII. Формат було розроблено у часи, коли "
+"клієнтські програми для роботи із електронною поштою не могли ще читати дані "
+"зображень належним чином."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:20
 msgid ""
 "They are very old file formats, and not used outside of very specialised "
 "usecases, such as embedding images inside code."
 msgstr ""
+"Це дуже старі формати файлів, їхнє використання дуже спеціалізоване. "
+"Зокрема, ці формати файлів використовуються для безпосереднього вбудовування "
+"зображень до програмного коду."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:22
 msgid ".pbm"
@@ -53,6 +61,7 @@ msgstr ".pbm"
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
 msgid "one-bit and can only show strict black and white."
 msgstr ""
+"однобітовий, може бути використано для показу лише чорного і білого кольорів."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
 msgid ".pgm"
@@ -60,8 +69,8 @@ msgstr ".pgm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
 msgid "can show 255 values of gray (8bit)."
-msgstr ""
+msgstr "можна використовувати 255 відтінків сірого (8-бітовий)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
 msgid "can show 8bit rgb values."
-msgstr ""
+msgstr "можна використовувати 8-бітові кольори RGB."

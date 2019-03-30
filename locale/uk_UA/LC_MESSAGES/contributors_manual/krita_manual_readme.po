@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_readme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-11 22:32+0200\n"
+"PO-Revision-Date: 2019-03-28 21:31+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -38,6 +38,10 @@ msgid ""
 "Mediawiki to Sphinx. This latter change is because Sphinx allows us to "
 "handle translations much better than mediawiki can."
 msgstr ""
+"Ми спочатку перенесли дані з userbase.kde.org на docs.krita.org, а потім "
+"перейшли з Mediawiki на Sphinx. Цю заміну було виконано, оскільки Sphinx "
+"надає нам змогу значно розширити можливості роботи з перекладами, порівняно "
+"із можливостями mediawiki."
 
 #: ../../contributors_manual/krita_manual_readme.rst:30
 msgid "The manual will include:"
@@ -52,6 +56,8 @@ msgid ""
 "This one is probably what everyone is expecting when they type in docs.krita."
 "org. Dry, basic, 'what does this button do' type of information."
 msgstr ""
+"Це, ймовірно, те, що кожен очікує побачити, коли введе адресу docs.krita."
+"org. Короткий, базовий тип відомостей «для чого призначено цю кнопку»."
 
 #: ../../contributors_manual/krita_manual_readme.rst:35
 msgid ""
@@ -206,6 +212,9 @@ msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break"
 msgstr ""
+"Ви можете скористатися `інтернет-редактором Sphinx <https://livesphinx."
+"herokuapp.com/>`_, щоб переконатися, що внесені вами зміни не порушують "
+"синтаксичних правил"
 
 #: ../../contributors_manual/krita_manual_readme.rst:79
 msgid "Bundle up the items into a zip."
@@ -319,12 +328,16 @@ msgstr "Повідомте у резюме про суть ваших змін."
 #: ../../contributors_manual/krita_manual_readme.rst:111
 msgid "(Optional) put your email in the comment if you want attribution."
 msgstr ""
+"(Необов'язково) Додайте до коментаря вашу адресу електронної пошти, якщо "
+"хочете, щоб внесок було підписано із його використанням."
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid ""
 "Phabricator has a system that automatically tags the review request with the "
 "Krita Manual team."
 msgstr ""
+"У Phabricator передбачено систему, яка автоматично позначає запит щодо "
+"рецензування і спрямовує його до команди розробників підручника з Krita."
 
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid "General philosophy"
@@ -351,7 +364,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:124
 msgid "Despite that, we know a couple of things about our users:"
-msgstr ""
+msgstr "Незважаючи на це, ми дещо знаємо про наших користувачів:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:126
 msgid "They are artists. This is explicitly the type of users that we target."
@@ -359,7 +372,7 @@ msgstr "Вони художники. Це саме той тип користу�
 
 #: ../../contributors_manual/krita_manual_readme.rst:128
 msgid "Therefore, we know they prefer pretty pictures."
-msgstr ""
+msgstr "Тому ми знаємо, що вони надають перевагу зображенням."
 
 #: ../../contributors_manual/krita_manual_readme.rst:129
 msgid "They are visual."
@@ -374,10 +387,12 @@ msgid ""
 "Therefore, the implicit goal of each page would be to get the feature used "
 "for pretty pictures."
 msgstr ""
+"Тому неявною метою створення кожної сторінки підручника має бути "
+"використання певної можливості для отримання ілюстративних прикладів."
 
 #: ../../contributors_manual/krita_manual_readme.rst:134
 msgid "Other than that, we've observed the following groups:"
-msgstr ""
+msgstr "Крім того, нашими цільовими групами є такі:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:136
 msgid ""
@@ -466,6 +481,8 @@ msgid ""
 "We use American English in the manual, in accordance to Krita's UI being "
 "American English by default."
 msgstr ""
+"У підручнику ми використовуємо американську англійську, оскільки базовий "
+"інтерфейс користувача Krita використовує американську англійську."
 
 #: ../../contributors_manual/krita_manual_readme.rst:158
 msgid "Keep the language polite, but do not use academic language."
@@ -569,7 +586,7 @@ msgstr "Протокол"
 
 #: ../../contributors_manual/krita_manual_readme.rst:183
 msgid "So here we line out all the boring workflows."
-msgstr ""
+msgstr "Отже, тут ми розповідаємо про усі нудні робочі процедури."
 
 #: ../../contributors_manual/krita_manual_readme.rst:186
 msgid "Tagging and Branches"
@@ -577,7 +594,7 @@ msgstr "Мітки і гілки"
 
 #: ../../contributors_manual/krita_manual_readme.rst:188
 msgid "Adding and removing text will be done in the ``draft`` branch."
-msgstr ""
+msgstr "Додавання і вилучення тексту виконується у гілці ``draft``."
 
 #: ../../contributors_manual/krita_manual_readme.rst:190
 msgid ""
@@ -588,11 +605,11 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:192
 msgid "Before the ``draft`` branch is merged for a given release:"
-msgstr ""
+msgstr "Перш ніж гілку ``draft`` буде об'єднано із гілкою певного випуску:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:194
 msgid "The master branch will be tagged with the old version."
-msgstr ""
+msgstr "Гілка master позначається міткою старої версії."
 
 #: ../../contributors_manual/krita_manual_readme.rst:195
 msgid ""
@@ -619,10 +636,11 @@ msgstr "Вилучення сторінок"
 #: ../../contributors_manual/krita_manual_readme.rst:205
 msgid "If a feature is removed in a certain version, the corresponding pages."
 msgstr ""
+"Якщо у певній версії вилучено якусь можливість програми, відповідні сторінки"
 
 #: ../../contributors_manual/krita_manual_readme.rst:207
 msgid "Will first be marked deprecated."
-msgstr "Спочатку сторінку буде позначено як застарілу."
+msgstr "Буде спочатку позначено як застарілі."
 
 #: ../../contributors_manual/krita_manual_readme.rst:209
 msgid "This can be done as so::"
@@ -630,13 +648,15 @@ msgstr "Зробити це можна так::"
 
 #: ../../contributors_manual/krita_manual_readme.rst:215
 msgid "Will be linked on a page called 'deprecated'"
-msgstr ""
+msgstr "Їх буде пов'язано зі сторінкою із назвою «deprecated»"
 
 #: ../../contributors_manual/krita_manual_readme.rst:216
 msgid ""
 "If the next version rolls around all the pages linked in the deprecated "
 "section will be removed."
 msgstr ""
+"Після виходу наступної версії усі сторінки, які пов'язано із застарілим "
+"розділом «deprecated», буде вилучено."
 
 #: ../../contributors_manual/krita_manual_readme.rst:219
 msgid "Adding Pages"
@@ -651,6 +671,8 @@ msgid ""
 "Follow the :ref:`krita_markup_conventions` to ensure the page is formatted "
 "correctly."
 msgstr ""
+"Виконуєте настанови з розділу :ref:`krita_markup_conventions`, щоб "
+"забезпечити належне форматування сторінки."
 
 #: ../../contributors_manual/krita_manual_readme.rst:223
 msgid "Add the page to the TOC."
@@ -658,7 +680,7 @@ msgstr "Додайте сторінку до таблиці змісту."
 
 #: ../../contributors_manual/krita_manual_readme.rst:224
 msgid "If the feature is new, add in versionadded::"
-msgstr ""
+msgstr "Якщо можливість є новою, додайте versionadded::"
 
 #: ../../contributors_manual/krita_manual_readme.rst:230
 msgid ""
@@ -677,6 +699,8 @@ msgid ""
 "If you fully rewrite a page, as opposed to proofreading it, the resulting "
 "page should be reviewed."
 msgstr ""
+"Якщо ви повністю переписали сторінку, а не просто вичитали її, результат має "
+"пройти рецензування."
 
 #: ../../contributors_manual/krita_manual_readme.rst:238
 msgid ""
@@ -690,6 +714,8 @@ msgid ""
 "In all cases, check if you want to add yourself to the author field in the "
 "metadata section on top."
 msgstr ""
+"У всіх випадках можете додати ваше ім'я до поля авторів у розділі метаданих "
+"на початку сторінки."
 
 #: ../../contributors_manual/krita_manual_readme.rst:246
 msgid ""
@@ -708,16 +734,19 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_readme.rst:257
 msgid "Make a review request per the :ref:`making_changes_sphinx` section."
 msgstr ""
+"Створіть запит щодо рецензування за настановами розділу :ref:"
+"`making_changes_sphinx`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:258
 msgid "Make a task at the `Manual Project Workboard`_."
-msgstr ""
+msgstr "Створіть запис завдання на `Manual Project Workboard`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:259
 msgid ""
 "Make a bug at `bugzilla`_ under the project Krita in the section "
 "'documentation'."
 msgstr ""
+"Створіть запис вади у `bugzilla`_, проект Krita, розділ «documentation»."
 
 #: ../../contributors_manual/krita_manual_readme.rst:262
 msgid "Proofreading"
@@ -759,7 +788,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:274
 msgid "Auditing changes in the manual."
-msgstr ""
+msgstr "Ревізія змін у підручнику."
 
 #: ../../contributors_manual/krita_manual_readme.rst:276
 msgid ""
@@ -833,5 +862,5 @@ msgstr "Інше"
 msgid ""
 "For restructured text conventions, check :ref:`krita_markup_conventions` ."
 msgstr ""
-"Настанови щодо форматування тексту у коді restructured наведено у розділі"
-" :ref:`krita_markup_conventions`."
+"Настанови щодо форматування тексту у коді restructured наведено у розділі :"
+"ref:`krita_markup_conventions`."

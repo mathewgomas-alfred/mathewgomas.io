@@ -31,7 +31,7 @@ Cursor Shape
 Select a cursor shape to use while the brush tools are used. This cursor will always be visible on the canvas. It is usually set to a type exactly where your pen nib is at. The available cursor types are shown below.
 
 Tool Icon
-    Shows the currently selected tool icon,even for the freehand brush. 
+    Shows the currently selected tool icon, even for the freehand brush. 
     
     .. image:: /images/en/Settings_cursor_tool_icon.png
 
@@ -148,7 +148,7 @@ Brush Flow Mode
     In Krita 4.2 the behaviour of flow in combination with opacity was changed. This allows you to turn it back to the 4.1 behaviour. This will however be removed in future versions.
 
 Switch Control/Alt Selection Modifiers
-    This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-::kbd:`Alt` key on their keyboard.
+    This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right-:kbd:`Alt` key on their keyboard.
 
 Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
@@ -163,7 +163,7 @@ Kinetic Scrolling (Needs Restart)
     .. figure:: /images/en/Krita_4_0_kinetic_scrolling.gif
        :align: center
 
-       Kinetic scrolling on the brush chooser drop-down with activation mode set to `guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.
+       Kinetic scrolling on the brush chooser drop-down with activation mode set to :guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.
 
     Activation
         How it is activated.
@@ -220,7 +220,7 @@ Use Zip64
 Miscellaneous
 -------------
 
-When Krita Starts
+When Krita starts
     This is the option for handling user sessions. It has the following options:
 
     Open Default Window
@@ -250,7 +250,7 @@ Hide splash screen on startup.
 Enable Native File Dialog
     This allows you to use the system file dialog. By default turned off because we cannot seem to get native file dialogues 100% bugfree.
 Maximum brush size
-    This allows you to set the maximum brush size to a size of up to 10.000 pixels. Do be careful with using this, as a 10.000 size pixel can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow.
+    This allows you to set the maximum brush size to a size of up to 10.000 pixels. Do be careful with using this, as a 10.000 pixel size can very quickly be a full gigabyte of data being manipulated, per dab. In other words, this might be slow.
 Recalculate animation cache in background.
     Krita will recalculate the cache when you're not doing anything.
 

@@ -19,7 +19,9 @@ Reference Images Tool
 .. versionadded:: 4.1
 
 The reference images tool is a replacement for the reference images docker. You can use it to load images from your disk as reference, which can then be moved around freely on the canvas and placed wherever.
+
 Tool Options
+------------
 
 Add reference image
     Load a single image to display on the canvas.

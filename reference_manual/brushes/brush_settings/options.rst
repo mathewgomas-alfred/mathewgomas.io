@@ -25,7 +25,7 @@ Airbrush
 
 .. image:: /images/en/Krita_2_9_brushengine_airbrush.png
 
-If you hold the brush still, but are still pressing down, this will keep adding colour onto the canvas. The lower the rate, the quicker the colour gets added.
+If you hold the brush still, but are still pressing down, this will keep adding color onto the canvas. The lower the rate, the quicker the color gets added.
 
 .. index:: Mirror
 .. _option_mirror:
@@ -75,7 +75,7 @@ This parameter allows you to set the random placing of a brush-dab. You can affe
 X
     The scattering on the angle you are drawing from.
 Y
-    The scattering, perpendicular tot he drawing angle (has the most effect)
+    The scattering, perpendicular to the drawing angle (has the most effect)
 
 .. image:: /images/en/Krita_2_9_brushengine_scatter.png
 
@@ -101,7 +101,7 @@ So, if you want to lock the diameter of the brush, lock the Brush-tip. Locking t
 
 .. image:: /images/en/Krita_2_9_brushengine_size_01.png
 
-Also popular are setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`
+Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`
 
 .. image:: /images/en/Krita_2_9_brushengine_size_02.png
 
@@ -121,14 +121,14 @@ Has a slight brush-decreasing effect, especially noticeable with soft-brush, and
 Source
 ------
 
-Picks the source-colour for the brush-dab.
+Picks the source-color for the brush-dab.
 
 Plain Color
     Current foreground color.
 Gradient
     Picks active gradient
 Uniform Random
-    Gives a random colour to each brush dab.
+    Gives a random color to each brush dab.
 Total Random
     Random noise pattern is now painted.
 Pattern
@@ -146,20 +146,20 @@ Allows you to affect the mix of the :ref:`option_source` color with Sensors. It 
 .. image:: /images/en/Krita_2_9_brushengine_mix_01.png
 
 Uses
-~~~
+~~~~
 
 .. image:: /images/en/Krita_2_9_brushengine_mix_02.png
 
 Flow map
-    The above example uses a :program:`Krita` painted flowmap in the 3d program :program:`Blender`.
-    a brush was set to source Gradient and Mix:Drawing angle. The gradient in question contained the 360° for normal map colours. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders.
+    The above example uses a :program:`Krita` painted flowmap in the 3D program :program:`Blender`.
+    A brush was set to :menuselection:`Source --> Gradient` and :menuselection:`Mix --> Drawing angle`. The gradient in question contained the 360° for normal map colors. Flow maps are used in several Shaders, such as brushed metal, hair and certain river-shaders.
 
 .. _option_gradient:
 
 Gradient
 ~~~~~~~~
 
-Exactly the same as using Source:Gradient with Mix, but only available for the Color Smudge Brush.
+Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush.
 
 .. index:: Spacing
 .. _option_spacing:
@@ -173,8 +173,8 @@ This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_02.png
 
-;Isotropic.
-:Instead of the spacing being related to the ratio of the brush, it will be on diameter only.
+Isotropic spacing
+    Instead of the spacing being related to the ratio of the brush, it will be on diameter only.
 
 .. image:: /images/en/Krita_2_9_brushengine_spacing_01.png
 

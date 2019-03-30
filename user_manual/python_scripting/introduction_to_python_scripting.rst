@@ -90,7 +90,7 @@ Those pages may look like a lot of jargon at first. This is because Krita's API 
 
 Let's see how this stuff works in more detail. Let's take a look at the second link, the `Krita class reference <https://api.kde.org/extragear-api/graphics-apidocs/krita/libs/libkis/html/classKrita.html#aa55507903d088013ced2df8c74f28a63>`_. There we can see all the functions available to the Krita instance. If you type dir(Krita.instance()) in Python, it should match this page very closely - you can view the documentation of the functions createDocument(), activeWindow(), and action() which we used above. 
 
-One of the more confusing things is seeing all the C++ classes that Krita uses, including the Qt classes that start with Q. But here is the beauty fo SIP: it tries to make the translation from these classes into Python as simple and straightforward as possible. For example, you can see that the function filters() returns a QStringList. However, SIP converts those QStringLists into regular python list of strings!
+One of the more confusing things is seeing all the C++ classes that Krita uses, including the Qt classes that start with Q. But here is the beauty of SIP: it tries to make the translation from these classes into Python as simple and straightforward as possible. For example, you can see that the function filters() returns a QStringList. However, SIP converts those QStringLists into regular python list of strings!
 
 .. code:: python
 

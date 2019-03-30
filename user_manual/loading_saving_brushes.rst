@@ -33,8 +33,8 @@ Unlike Photoshop, Krita makes a difference between brush-tips and
 brush-presets. Tips are only a stamp of sorts, while the preset uses a
 tip and many other settings to create the full brush.
 
-The Brush settings dropdown
----------------------------
+The Brush settings drop-down
+----------------------------
 
 To start, the Brush Settings Editor panel can be accessed in the
 toolbar, between the :guilabel:`Blending Modes` button on the right and the :guilabel:`Patterns`
@@ -44,13 +44,13 @@ it.
 When you open Brush Settings Editor panel you will see something like
 this:
 
-Tour of the brush settings dropdown
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tour of the brush settings drop-down
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: /images/en/Krita_4_0_Brush_Settings_Layout.svg
    :width: 800
 
-The brush settings drop down is divided into six areas,
+The brush settings drop-down is divided into six areas,
 
 Section A - General Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -155,7 +155,7 @@ even more!
 
 At the top right of the icon library, there are three sliders. They allow
 you to adjust the tool icon. The top two are the same Hue and Saturation
-as in HSL adjustment, ad the lowest slider is a super simple levels
+as in HSL adjustment, and the lowest slider is a super simple levels
 filter. This is done this way because the levels filter allows
 maintaining the darkest shadows and brightest highlights on a tool icon,
 making it much better for quick adjustments.
@@ -167,29 +167,29 @@ Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The preset chooser is much the same as the preset docker and the
-preset dropdown on :kbd:`F6`. It's unique in that it allows you to filter by
+preset drop-down on :kbd:`F6`. It's unique in that it allows you to filter by
 engine and this is also where you can create brushes for an engine from
 scratch.
 
 It is by default collapsed, so you will need to press the arrow at the
 top left of the brush engine to show it.
 
-The top drop down is set to “all” by default, which means it shows all
+The top drop-down is set to “all” by default, which means it shows all
 engines. It then shows a tag section where you can select the tags, the
 preset list and the search bar.
 
 Underneath that there's a plus icon, which when pressed gives you the
-full list of Krita's engines. Selecting an engine from the list will for
+full list of Krita's engines. Selecting an engine from the list will show the brushes for
 that engine.
 
-The trashcan icon does the same as it does in the preset docker: delete , or
+The trashcan icon does the same as it does in the preset docker: delete, or
 rather, blacklist a preset so it won't show up in the list.
 
 Section C - The Scratch pad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When you tweak your brushes, you want to be able to check what each
-setting does. That's why, to the right of the settings drop down, there
+setting does. That's why, to the right of the settings drop-down, there
 is a scratch pad.
 
 It is by default collapsed, so you will have to press the arrow at the
@@ -296,7 +296,7 @@ The first two are regular, the rest with different multiplication types.
    each other. Notice how thick it is.
 #. The size takes the maximum value from the values of the fade and
    distance sensors.
-#. The size takes the minimum value from the values of the face and
+#. The size takes the minimum value from the values of the fade and
    distance sensors.
 #. The size is calculated by having the largest of the values subtracted
    with the smallest of the values.
@@ -306,7 +306,7 @@ Section F - Miscellaneous options
 
 Temporarily Save Tweaks to Preset (Dirty Presets)
     This enables dirty presets. Dirty presets store the tweaks you make
-    as long as this session of Krita is active. After that, the revert
+    as long as this session of Krita is active. After that, they revert
     to default. Dirtied presets can be recognized by the icon in the
     top-left of the preset. 
 
@@ -367,14 +367,14 @@ Example: Making an inking brush
    :ref:`opacity <option_opacity_n_flow>`
    option in the right-hand list. The settings should now be changed to
    a big curve. This is the sensor curve.
-#. Uncheck the :guilabel:`enable pen settings` checkbox.
+#. Uncheck the :guilabel:`Enable Pen Settings` checkbox.
 #. Test on the scratch pad... there still seems to be something
    affecting opacity. This is due to the
    :ref:`flow <option_opacity_n_flow>`
    option.
 #. Select the Flow option from the list on the right hand. Flow is like
    Opacity, except that Flow is per dab, and opacity is per stroke.
-#. Uncheck the :guilabel:`enable pen settings` checkbox here as well. Test again.
+#. Uncheck the :guilabel:`Enable Pen Settings` checkbox here as well. Test again.
 #. Now you should be getting somewhere towards an inking brush. It is
    still too small however, and kinda grainy looking. Click :ref:`Brush Tip <option_brush_tip>` in the
    brush engine options.
@@ -419,7 +419,7 @@ Changing the amount of pressure you need to put on a brush to make it full size.
     To do this, select the :ref:`size <option_size>`
     option, and press the pressure sensor from the list next to the curve. The curve should look like a straight line. Now if you want a brush that gets big with little pressure, tick on the curve to make a point, and drag the point to the upper-left. The more the point is to the upper-left, the more extreme the effect. If you want instead a brush that you have to press really hard on to get to full size, drag the dot to the lower-right. Such a brush is useful for fine details. Don't forget to save the changes to your brush when done.
 Making the fine lines look even softer by using the flow option.
-    To do this, select the flow option, and turn back on the enable pen settings check box. Now if you test this, it is indeed a bit softer, but maybe a bit too much. Click on the curve to make a dot, and drag that dot to the top-left, half-way the horizontal of the first square of the grid. Now, if you test, the thin lines are much softer, but the hard your press, the harder the brush becomes.
+    To do this, select the flow option, and turn back on the :guilabel:`Enable Pen Settings` check box. Now if you test this, it is indeed a bit softer, but maybe a bit too much. Click on the curve to make a dot, and drag that dot to the top-left, half-way the horizontal of the first square of the grid. Now, if you test, the thin lines are much softer, but the hard your press, the harder the brush becomes.
 
 Sharing Brushes
 ---------------
@@ -463,7 +463,7 @@ dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
-settings dropdown (:kbd:`F5`) and then go to the “brush-tip” option. There,
+settings drop-down (:kbd:`F5`) and then go to the “brush-tip” option. There,
 select predefined brush, and then the “import” button to call up the
 file dialog.
 

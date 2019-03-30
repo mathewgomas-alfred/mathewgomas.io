@@ -47,13 +47,13 @@ We can see this with the following experiment:
 
 Colored circles, half blurred. In a gamma-corrected environment, this gives an odd black border. In a linear environment, this gives us a nice gradation.
 
-This also counts for Krita's colour smudge brush:
+This also counts for Krita's color smudge brush:
 
 .. figure:: /images/en/color_category/Krita_2_9_colormanagement_blending_2.png
    :figwidth: 500
    :align: center
    
-   That's right, the 'muddying' of colours as is a common complaint by digital painters everywhere, is in fact, a gamma-corrected colourspace mucking up your colours. If you had been working in LAB to avoid this, be sure to try out a linear rgb colour space.
+   That's right, the 'muddying' of colors as is a common complaint by digital painters everywhere, is in fact, a gamma-corrected colorspace mucking up your colors. If you had been working in LAB to avoid this, be sure to try out a linear rgb color space.
 
 What is happening under the hood
 --------------------------------
@@ -61,7 +61,7 @@ What is happening under the hood
 
 Imagine we want to mix red and green.
 
-First, we would need the color coordinates of red and green inside our colour space's color model. So, that'd be...
+First, we would need the color coordinates of red and green inside our color space's color model. So, that'd be...
 
 ===== === ===== ====
 Color Red Green Blue
@@ -82,7 +82,7 @@ We then average these coordinates over three mixes:
 | Blue  | 0.0 | 0.0  |  0.0 |  0.0 |  0.0  |
 +-------+-----+------+------+------+-------+
 
-But to figure out how these colours look on screen, we first put the individual values through the TRC of the color-space we're working with:
+But to figure out how these colors look on screen, we first put the individual values through the TRC of the color-space we're working with:
 
 
 .. image:: /images/en/color_category/Basicreading3trcsv2.svg  
@@ -96,7 +96,7 @@ Then we fill in the values into the correct spot. Compare these to the values of
    :align: center
 
 
-And this is why colour mixtures are lighter and softer in linear space. Linear space is more physically correct, but sRGB is more efficient in terms of space, so hence why many images have an sRGB TRC encoded into them.
+And this is why color mixtures are lighter and softer in linear space. Linear space is more physically correct, but sRGB is more efficient in terms of space, so hence why many images have an sRGB TRC encoded into them.
 In case this still doesn't make sense: *sRGB gives largely* **darker** *values than linear space for the same coordinates.*
 
 So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear trc, a mix using srgb trc and a mix using lab L* trc.

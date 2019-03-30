@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 03:25+0100\n"
-"PO-Revision-Date: 2019-02-28 14:21+0000\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-20 09:24+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -82,7 +82,7 @@ msgstr ""
 #: ../../reference_manual/linux_command_line.rst:44
 msgid ""
 "Replace this with the name of the output file. Use a different extension to "
-"change the fileformat."
+"change the file format."
 msgstr ""
 "Substitua isto pelo nome do ficheiro de saída. Use uma extensão diferente "
 "para mudar o formato do ficheiro."
@@ -92,15 +92,15 @@ msgid "Example:"
 msgstr "Exemplo:"
 
 #: ../../reference_manual/linux_command_line.rst:48
-msgid "``krita final.png --export --export-filename final.jpg``"
-msgstr "``krita final.png --export --export-filename final.jpg``"
+msgid "``krita file.png --export --export-filename final.jpg``"
+msgstr "``krita ficheiro.png --export --export-filename final.jpg``"
 
 #: ../../reference_manual/linux_command_line.rst:50
 msgid ""
-"This piece of code takes the file ``file.png`` and saves it as ``file.jpg``."
+"This piece of code takes the file ``file.png`` and saves it as ``final.jpg``."
 msgstr ""
 "Este pedaço de código recebe o ficheiro ``ficheiro.png`` e grava-o como "
-"``ficheiro.jpg``."
+"``final.jpg``."
 
 #: ../../reference_manual/linux_command_line.rst:53
 msgid "PDF export"
@@ -113,8 +113,8 @@ msgstr ""
 "pdf``."
 
 #: ../../reference_manual/linux_command_line.rst:57
-msgid "``krita final.png --export-pdf --export-filename final.pdf``"
-msgstr "``krita final.png --export-pdf --export-filename final.pdf``"
+msgid "``krita file.png --export-pdf --export-filename final.pdf``"
+msgstr "``krita ficheiro.png --export-pdf --export-filename final.pdf``"
 
 #: ../../reference_manual/linux_command_line.rst:59
 msgid "export-pdf exports the file ``file.png`` as a pdf file."
@@ -167,11 +167,11 @@ msgstr "Selecciona a opção do modelo"
 #: ../../reference_manual/linux_command_line.rst:93
 msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
-"in the .kde/share/apps/krita/template or in the install folder of Krita."
+"in the .local/share/krita/template or in the install folder of Krita."
 msgstr ""
 "Todos os modelos estão gravados com a extensão .desktop. Poderá encontrar os "
-"modelos na pasta '.kde/share/apps/krita/template' ou na pasta de instalação "
-"do Krita."
+"modelos na pasta '.local/share/apps/krita/template' ou na pasta de "
+"instalação do Krita."
 
 #: ../../reference_manual/linux_command_line.rst:95
 msgid "``krita --template BD-EuroTemplate.desktop``"

@@ -18,7 +18,7 @@ Reference Images Docker
 
 .. deprecated:: 4.0
     
-    This docker was removed in Krita 4.0 due to crashes on windows. :ref:`The reference images tool in 4.1 replaces it. <reference_images_tool>`
+    This docker was removed in Krita 4.0 due to crashes on Windows. :ref:`The reference images tool in 4.1 replaces it. <reference_images_tool>`
 
 .. image:: /images/en/400px-Krita_Reference_Images_Browse_Docker.png
 
@@ -33,7 +33,7 @@ Browsing
 
 Browsing gives you a small file browser, so you can navigate to the map where the image you want to use as reference is located.
 
-There's an image strip beneath the browser, allowing you to select the image which you want to use. Double click to load it in the image tab.
+There's an image strip beneath the browser, allowing you to select the image which you want to use. Double click to load it in the :guilabel:`Image` tab.
 
 Image
 -----

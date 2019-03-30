@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___preferences___display_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___preferences___display_se"
+"ttings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-21 08:05+0200\n"
+"POT-Creation-Date: 2019-03-28 03:35+0100\n"
+"PO-Revision-Date: 2019-03-28 08:46+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -40,6 +40,8 @@ msgstr ".. image:: images/en/Krita_Preferences_Display.png"
 #: ../../reference_manual/preferences/display_settings.rst:21
 msgid "Here various settings for the rendering of Krita can be edited."
 msgstr ""
+"За допомогою цієї сторінки можна редагувати різноманітні параметри Krita, "
+"які пов'язано із обробкою зображення."
 
 #: ../../reference_manual/preferences/display_settings.rst:24
 msgid "OpenGL"
@@ -49,6 +51,8 @@ msgstr "OpenGL"
 msgid ""
 "**For Krita 3.3 or later: Reworded as \"*Canvas Graphics Acceleration*\"**"
 msgstr ""
+"**У Krita 3.3 і новіших версіях замінено на \"*Прискорення графіки на "
+"полотні*\"**"
 
 #: ../../reference_manual/preferences/display_settings.rst:28
 msgid ""
@@ -57,6 +61,11 @@ msgid ""
 "calculations, which Krita uses a lot. All modern computer have graphics "
 "cards."
 msgstr ""
+"OpenGL — програмна бібліотека, яку спеціально створено для роботи з "
+"відеокартками. Відеокартки — спеціальний тип обладнання, який допомагає "
+"комп'ютеру виконувати обчислення, які пов'язано із виведенням графічних "
+"даних на екран, тобто тип обладнання, який широко використовує Krita. Усі "
+"сучасні комп'ютери обладнано відеокартками."
 
 #: ../../reference_manual/preferences/display_settings.rst:30
 msgid ""
@@ -66,20 +75,38 @@ msgid ""
 "may (or may not) be slower than native OpenGL, but it has better "
 "compatibility with typical Windows graphics drivers."
 msgstr ""
+"**Krita 3.3 або новіші версії:** у Windows у Krita також передбачено "
+"підтримку використання Direct3D на основі бібліотеки ANGLE. ANGLE виконує "
+"свою роботу, транслюючи функції OpenGL, які використовує Krita у "
+"еквівалентні функції Direct3D. Цей спосіб може працювати повільніше (чи "
+"швидше) за OpenGL, але точно є суміснішим для типових драйверів до "
+"відеокарток у Windows."
 
 #: ../../reference_manual/preferences/display_settings.rst:32
 msgid ""
 "Enable OpenGL **(For Krita 3.3 or later: Reworded as *Canvas Graphics "
 "Acceleration*)**"
 msgstr ""
+"Увімкнути OpenGL **(У Krita 3.3 і новіших версіях замінено на *Прискорення "
+"графіки на полотні*)**"
 
 #: ../../reference_manual/preferences/display_settings.rst:33
+#| msgid ""
+#| "Selecting this checkbox will enable the OpenGL / ANGLE canvas drawing "
+#| "mode. With a decent graphics card this should give faster feedback on "
+#| "brushes and tools. Also the canvas operations like Rotate,Zoom and Pan "
+#| "should be considerably faster."
 msgid ""
 "Selecting this checkbox will enable the OpenGL / ANGLE canvas drawing mode. "
 "With a decent graphics card this should give faster feedback on brushes and "
-"tools. Also the canvas operations like Rotate,Zoom and Pan should be "
+"tools. Also the canvas operations like Rotate, Zoom and Pan should be "
 "considerably faster."
 msgstr ""
+"Позначення цього пункту увімкне режим малювання полотна за допомогою "
+"OpenGL / ANGLE. Якщо ви користуєтеся якісною відеокарткою, це має "
+"пришвидшити роботу пензлів та інших інструментів програми. Крім того, має "
+"бути значно пришвидшено роботу дій з полотном, зокрема обертання, "
+"масштабування та панорамування."
 
 #: ../../reference_manual/preferences/display_settings.rst:35
 msgid "For Krita 3.3 or later:"
@@ -96,6 +123,12 @@ msgid ""
 "will decide the best to use based on some internal compatibility checking. "
 "Changes to this option require a restart of Krita to take effect."
 msgstr ""
+"*У Windows:* ви можете перемикати систему між використанням OpenGL та "
+"обробкою зображення за допомогою Direct3D 11 у ANGLE. Звичайною "
+"рекомендацією є використання значення :guilabel:`Авто`, яке надасть змогу "
+"Krita вибрати найкращий варіант на основі вбудованої перевірки сумісності. "
+"Для набуття чинності зміна значення у цьому пункті потребуватиме перезапуску "
+"Krita."
 
 #: ../../reference_manual/preferences/display_settings.rst:37
 msgid "Use Texture Buffer"
@@ -107,6 +140,10 @@ msgid ""
 "things up a bit. Although for now, this feature may be broken on some AMD/"
 "Radeon cards and may work fine on some Intel graphics cards."
 msgstr ""
+"За допомогою цього пункту можна наказати системі використати можливості "
+"відеокартки з буферизації для певного пришвидшення обробки. Хоча у поточній "
+"версії ця можливість може працювати недостатньо якісно на деяких картках AMD/"
+"Radeon, вона добре працює на деяких відеокартках Intel."
 
 #: ../../reference_manual/preferences/display_settings.rst:40
 msgid ""
@@ -115,28 +152,47 @@ msgid ""
 "operations and has no effect on how Krita scales an image when a "
 "transformation is applied."
 msgstr ""
+"Користувач може вибрати режим масштабування, який буде використано для зміни "
+"масштабу на полотні. Вибраний за допомогою цього пункту варіант "
+"стосуватиметься лише способу показу зображення під час виконання дій з "
+"полотном і не впливатиме на те, як Krita масштабуватиме зображення при "
+"заостосуванні перетворення."
 
 #: ../../reference_manual/preferences/display_settings.rst:42
 msgid "Nearest Neighbour"
 msgstr "Найближчий сусідній"
 
 #: ../../reference_manual/preferences/display_settings.rst:43
+#| msgid ""
+#| "This is the fastest and crudest filtering method . While fast, this "
+#| "results in a large number of artifacts - 'blockiness' during "
+#| "magnification, and aliasing and shimmering during minification."
 msgid ""
-"This is the fastest and crudest filtering method . While fast, this results "
+"This is the fastest and crudest filtering method. While fast, this results "
 "in a large number of artifacts - 'blockiness' during magnification, and "
 "aliasing and shimmering during minification."
 msgstr ""
+"Це найшвидший і найгрубіший спосіб фільтрування. Хоча спосіб і є швидким, "
+"його застосування призводить до великої кількості дефектів — появи «блоків» "
+"під час збільшення та злиття і блимання під час зменшення."
 
 #: ../../reference_manual/preferences/display_settings.rst:44
 msgid "Bilinear Filtering"
 msgstr "Білінійне фільтрування"
 
 #: ../../reference_manual/preferences/display_settings.rst:45
+#| msgid ""
+#| "This is the next step up.This removes the 'blockiness' seen during "
+#| "magnification and gives a smooth looking result. For most purposes this "
+#| "should be a good trade-off between speed and quality."
 msgid ""
-"This is the next step up.This removes the 'blockiness' seen during "
+"This is the next step up. This removes the 'blockiness' seen during "
 "magnification and gives a smooth looking result. For most purposes this "
 "should be a good trade-off between speed and quality."
 msgstr ""
+"Це наступний крок. Надає змогу уникнути появи блоків, які помітні під час "
+"збільшення, і дає згладжений на вигляд результат. Для більшості випадків це "
+"має бути непоганий компроміс між швидкістю і якістю."
 
 #: ../../reference_manual/preferences/display_settings.rst:46
 msgid "Trilinear Filtering"
@@ -144,7 +200,7 @@ msgstr "Трилінійне фільтрування"
 
 #: ../../reference_manual/preferences/display_settings.rst:47
 msgid "This should give a little better result than Bilinear Filtering."
-msgstr ""
+msgstr "Має давати кращий результат за білінійне фільтрування."
 
 #: ../../reference_manual/preferences/display_settings.rst:49
 msgid "Scaling Mode"
@@ -160,10 +216,13 @@ msgid ""
 "suggests, this setting provides the best looking image during canvas "
 "operations."
 msgstr ""
+"Цей пункт доступний, лише якщо у драйверах до вашої відеокартки передбачено "
+"підтримку OpenGL 3.0. Як можна зрозуміти із назви, за допомогою цього пункту "
+"можна досягти найякіснішого зображення під час дій з полотном."
 
 #: ../../reference_manual/preferences/display_settings.rst:52
 msgid "Transparency Checkboxes"
-msgstr ""
+msgstr "Пункти керування прозорістю"
 
 #: ../../reference_manual/preferences/display_settings.rst:54
 msgid ""
@@ -171,6 +230,11 @@ msgid ""
 "transparency can't be seen. So to indicate transparency at the lowest layer, "
 "we use a checker pattern. This part allows you to configure it."
 msgstr ""
+"У Krita передбачено підтримку прозорості шарів. Звичайно ж, проблемою є те, "
+"що прозорість неможливо побачити. Отже, щоб позначити прозорість на "
+"найнижчому шарі, ми використовуємо картатий візерунок, подібний до "
+"шахівниці. За допомогою цієї частини панелі налаштувань ви можете "
+"налаштувати цей картатий візерунок."
 
 #: ../../reference_manual/preferences/display_settings.rst:56
 msgid "Size"
@@ -181,6 +245,8 @@ msgid ""
 "This sets the size of the checkers which show up in transparent parts of an "
 "image."
 msgstr ""
+"Визначає розмір клітинок у картатому візерунку, який позначатиме прозорі "
+"частини зображення."
 
 #: ../../reference_manual/preferences/display_settings.rst:58
 #: ../../reference_manual/preferences/display_settings.rst:66
@@ -190,18 +256,27 @@ msgstr "Колір"
 
 #: ../../reference_manual/preferences/display_settings.rst:59
 msgid "The user can set the colors for the checkers over here."
-msgstr ""
+msgstr "Тут можна вибрати кольори картатого замінника прозорих ділянок."
 
 #: ../../reference_manual/preferences/display_settings.rst:61
 msgid "Move Checkers When Scrolling"
-msgstr "Пересувати позначки під час гортання"
+msgstr "Пересувати шахівницю під час гортання"
 
 #: ../../reference_manual/preferences/display_settings.rst:61
+#| msgid ""
+#| "When selected the checkers will move along with opaque elements of an "
+#| "image during canvas Panning, Zooming,etc.  Otherwise the checkers remain "
+#| "stationary and only the opaque parts of an image will move."
 msgid ""
 "When selected the checkers will move along with opaque elements of an image "
-"during canvas Panning, Zooming,etc.  Otherwise the checkers remain "
+"during canvas Panning, Zooming, etc.  Otherwise the checkers remain "
 "stationary and only the opaque parts of an image will move."
 msgstr ""
+"Якщо позначено, картате зображення прозорості пересуватиметься разом із "
+"непрозорими елементами зображення під час панорамування полотном, зміни "
+"масштабу тощо. Якщо ж пункт не буде позначено, картата шахівниця "
+"лишатиметься стаціонарною, пересуватимуться лише непрозорі частини "
+"зображення."
 
 #: ../../reference_manual/preferences/display_settings.rst:64
 msgid "Canvas Border"
@@ -212,6 +287,8 @@ msgid ""
 "The user can select the color for the canvas i.e. the space beyond a "
 "document's boundaries."
 msgstr ""
+"Користувач може вибрати колір полотна, тобто колір простору за межами "
+"документа."
 
 #: ../../reference_manual/preferences/display_settings.rst:69
 msgid "Hide Scrollbars"
@@ -220,6 +297,8 @@ msgstr "Приховати смужки гортання"
 #: ../../reference_manual/preferences/display_settings.rst:69
 msgid "Selecting this will hide the scrollbars in all view modes."
 msgstr ""
+"Позначення цього пункту призведе до приховування смужок гортання в усіх "
+"режимах перегляду."
 
 #: ../../reference_manual/preferences/display_settings.rst:72
 msgid "Pixel Grid"
@@ -227,13 +306,15 @@ msgstr "Піксельна сітка"
 
 #: ../../reference_manual/preferences/display_settings.rst:76
 msgid ""
-"This allows configuring a automatic pixel-by-pixel gid, which is very useful "
-"for doing pixel art."
+"This allows configuring an automatic pixel-by-pixel grid, which is very "
+"useful for doing pixel art."
 msgstr ""
+"Цей пункт надає змогу налаштувати автоматичну ґратку за пікселями, яка дуже "
+"корисно для створення піксель-арту."
 
 #: ../../reference_manual/preferences/display_settings.rst:79
 msgid "The color of the grid."
-msgstr ""
+msgstr "Колір ґратки."
 
 #: ../../reference_manual/preferences/display_settings.rst:81
 msgid "Start Showing at"
@@ -245,6 +326,9 @@ msgid ""
 "showing it when the image is zoomed out a lot will make the grid overwhelm "
 "the image, and is thus counter productive."
 msgstr ""
+"Цей пункт визначає рівень масштабування, за якого програма почне показувати "
+"піксельну ґратку. Показ ґратки за малих значень масштабу заважає показу "
+"самого зображення, тому є позбавленим сенсу."
 
 #: ../../reference_manual/preferences/display_settings.rst:84
 msgid "Miscellaneous"
@@ -259,6 +343,8 @@ msgid ""
 "This is supposed to determine what to do when only a single channel is "
 "selected in the channels docker, but it doesn't seem to work."
 msgstr ""
+"Цей пункт призначено для визначення поведінки програми, якщо на бічній "
+"панелі каналів вибрано лише один канал."
 
 #: ../../reference_manual/preferences/display_settings.rst:88
 msgid "Enable Curve Anti-Aliasing"
@@ -269,6 +355,8 @@ msgid ""
 "This allows anti-aliasing on previewing curves, like the ones for the circle "
 "tool, or the path tool."
 msgstr ""
+"Цей пункт уможливлює використання згладжування на кривих попереднього "
+"перегляду, зокрема для інструментів побудови кіл та контурів."
 
 #: ../../reference_manual/preferences/display_settings.rst:90
 msgid "Enable Selection Outline Anti-Aliasing"
@@ -279,6 +367,8 @@ msgid ""
 "This allows automatic anti-aliasing on selection. It makes the selection "
 "feel less jaggy and more precise."
 msgstr ""
+"Цей пункт уможливлює автоматичне згладжування на позначних ділянках. Надає "
+"позначеним ділянкам плавнішого та точнішого вигляду."
 
 #: ../../reference_manual/preferences/display_settings.rst:92
 msgid "Hide window scrollbars."
@@ -286,8 +376,10 @@ msgstr "Приховати смужки гортання"
 
 #: ../../reference_manual/preferences/display_settings.rst:93
 msgid "Hides the scrollbars on the canvas."
-msgstr ""
+msgstr "Приховує смужки гортання на полотні."
 
 #: ../../reference_manual/preferences/display_settings.rst:95
 msgid "This disables the thumbnail that you get when hovering over a layer."
 msgstr ""
+"За допомогою цього пункту можна вимкнути мініатюру, яку програма показує при "
+"наведенні вказівника миші на пункт шару."

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
 "__color_smudge_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 03:31+0100\n"
-"PO-Revision-Date: 2019-03-11 22:37+0200\n"
+"POT-Creation-Date: 2019-03-28 03:35+0100\n"
+"PO-Revision-Date: 2019-03-28 08:47+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -46,6 +46,9 @@ msgid ""
 "The Color Smudge Brush is a brush engine that allows you to mix colors by "
 "smearing or dulling. A very powerful brush engine to the painter."
 msgstr ""
+"Пензель розмазування кольорів є рушієм пензлів, за допомогою якого ви можете "
+"змішувати кольори розтиранням або матуванням. Це дуже потужний рушій пензлів "
+"для художника."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:26
 msgid "Options"
@@ -112,6 +115,9 @@ msgid ""
 "How much of the foreground color is added to the smudging mix. Works "
 "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`"
 msgstr ""
+"Визначає наскільки значним буде вплив кольору переднього плану на суміш, яку "
+"буде отримано у результаті розмазування. Працює разом із :ref:"
+"`option_smudge_length` та :ref:`option_smudge_radius`"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
 msgid ".. image:: images/en/Krita_2_9_brushengine_colorrate_04.png"
@@ -137,15 +143,17 @@ msgstr ".. image:: images/en/Krita_2.9_brush_engine_smudge_length_03.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:66
 msgid "Smearing"
-msgstr "Розмивання"
+msgstr "Розтирання"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:67
 msgid "Great for making brushes that have a very impasto oil feel to them."
 msgstr ""
+"Чудовий режим для створення пензлів, результати малювання якими "
+"виглядатимуть як результати малювання олійною фарбою."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:69
 msgid "Dulling"
-msgstr "Притуплення"
+msgstr "Матування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:69
 msgid "Named so because it dulls strong colors."
@@ -156,6 +164,8 @@ msgid ""
 "Using an arithmetic blending type, Dulling is great for more smooth type of "
 "painting."
 msgstr ""
+"Із використанням арифметичного типу змішування, «Притуплення» є чудовим для "
+"згладженого типу малювання."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:74
 msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_01.png"
@@ -166,11 +176,19 @@ msgid "Strength"
 msgstr "Потужність"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:76
+#| msgid ""
+#| "Affects how much the smudge length takes from the previous dab it's "
+#| "sampling. This means that smudge-length at 1.0 will never decrease, but "
+#| "smudge-lengths under that will decrease based on spacing and opacity/flow."
 msgid ""
-"Affects how much the smudge length takes from the previous dab it's "
-"sampling. This means that smudge-length at 1.0 will never decrease, but "
-"smudge-lengths under that will decrease based on spacing and opacity/flow."
+"Affects how much the smudge length takes from the previous dab its sampling. "
+"This means that smudge-length at 1.0 will never decrease, but smudge-lengths "
+"under that will decrease based on spacing and opacity/flow."
 msgstr ""
+"Впливає на залежність вигляду мазка розмазування від довжини руху пензлем. "
+"Це означає, що значення довжини розмазування 1.0 вказуватиме на те, що мазок "
+"не змінюватиметься із довжиною, а менші значення — на те, що мазок "
+"зменшуватиметься залежно від інтервалу та значень непрозорості/потоку."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:79
 msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_02.png"
@@ -185,12 +203,17 @@ msgid ""
 "The :guilabel:`Smudge Radius` allows you to sample a larger radius when "
 "using smudge-length in :guilabel:`Dulling` mode."
 msgstr ""
+"За допомогою параметра :guilabel:`Радіус розмазування` ви можете створити "
+"зразок більшого радіуса, коли використовуєте довжину розмазування у режимі :"
+"guilabel:`Матування`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:87
 msgid ""
 "The slider is percentage of the brush-size. You can have it modified with :"
 "guilabel:`Sensors`."
 msgstr ""
+"Значення на повзунку є часткою розміру пензля. Змінити його можна за "
+"допомогою пункту :guilabel:`Датчики`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:90
 msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_radius_01.png"
@@ -205,6 +228,8 @@ msgid ""
 "Overlay is a toggle that determine whether or not the smudge brush will "
 "sample all layers (overlay on), or only the current one."
 msgstr ""
+":guilabel:`Накладка` — перемикач, який визначає, буде використовувати "
+"пензель для розмазування усі шари (увімкнено) чи лише поточний (вимкнено)."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:97
 msgid "Tutorial: Color Smudge Brushes"
@@ -215,6 +240,8 @@ msgid ""
 "I recommend at least skimming over the first part to get an idea of what "
 "does what."
 msgstr ""
+"Рекомендуємо ознайомитися принаймні із першою частиною, щоб зрозуміти, як "
+"працює цей рушій пензлів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:102
 msgid "Overview and settings"
@@ -222,25 +249,31 @@ msgstr "Огляд і параметри"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:105
 msgid "Overview: Smearing and Dulling"
-msgstr ""
+msgstr "Огляд: розтирання та матування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:107
 msgid ""
 "The Color Smudge Brush offers 2 modes, accessible from the :guilabel:`Smudge "
 "Rate` section:"
 msgstr ""
+"У роботі пензля розмазування кольорів передбачено два режим, доступ до яких "
+"можна отримати з розділу :guilabel:`Режим розмазування`:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:109
 msgid ""
 "Smearing: This mode mixes colors by smudging (\"smearing\") the area "
 "underneath."
 msgstr ""
+"Розтирання: у цьому режимі кольори змішуються розмазуванням («розтиранням») "
+"ділянки під ними."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:110
 msgid ""
 "Dulling: In his mode, the brush \"picks up\" the color underneath it, mixes "
 "it with its own color, then paints with it."
 msgstr ""
+"Матування: у цьому режимі пензель «вбирає» колір під ним, змішує його із "
+"власним кольором, а потім малює сумішшю."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:113
 msgid ".. image:: images/en/Krita-tutorial5-I.1.png"
@@ -251,6 +284,8 @@ msgid ""
 "To better demonstrate the smudge function, I turned the color rate function "
 "off."
 msgstr ""
+"Для отримання кращої демонстрації функції розмазування вимкнемо можливість "
+"зміни кольорів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:120
 msgid ".. image:: images/en/Krita-tutorial5-I.2.png"
@@ -263,12 +298,16 @@ msgstr "Загальна поведінка:"
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:123
 msgid "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)"
 msgstr ""
+"Зняття позначки з пункту зміни кольорів встановлює зміну розмазування у "
+"значення 1.00 (а не 0.00)"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:124
 msgid ""
 "Opacity: Below 0.50, there is practically no smudging left: keep opacity "
 "over 0.50."
 msgstr ""
+"Непрозорість: нижча за 0.50 — практично ніякого розмазування, — "
+"використовуйте значення непрозорості, які є більшими за 0.50."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:126
 msgid "Differences:"
@@ -302,10 +341,12 @@ msgid ""
 "The other settings should be pretty obvious from the pictures, so I'll spare "
 "you some walls of text."
 msgstr ""
+"Інші параметри мають бути доволі зрозумілими із ілюстрацій, тому можемо "
+"уникнути зайвої текстової частини."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:136
 msgid "Color Rate, Gradient and Blending modes"
-msgstr ""
+msgstr "Зміна кольорів, градієнт і режими змішування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:139
 msgid ".. image:: images/en/Krita-tutorial5-I.3.png"
@@ -316,6 +357,9 @@ msgid ""
 "Again, most of the settings behaviors should be obvious from the pictures. "
 "Just remember to keep :guilabel:`Opacity` over 0.50."
 msgstr ""
+"Знову ж таки, залежність від параметрів має бути очевидною з ілюстрацій. "
+"Просто пам'ятайте, що варто тримати значення :guilabel:`Непрозорість` "
+"більшим за 0.50."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:143
 msgid "Brush tips"
@@ -325,6 +369,8 @@ msgstr "Кінчики пензлів"
 msgid ""
 "The Color Smudge Brush has all the same brush tip options as the Pixel Brush!"
 msgstr ""
+"Для пензля розмазування кольорів передбачено ті самі параметри кінчика "
+"пензля, що і для піксельного пензля!"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:148
 msgid ".. image:: images/en/Krita-tutorial5-I.4.png"
@@ -336,16 +382,22 @@ msgid ""
 "is lower, so for low-opacity brush tips, increase the opacity and smudge/"
 "color rates."
 msgstr ""
+"Пам'ятайте, що ефекти розмазування є слабшими, якщо непрозорість кінчика "
+"пензля не є високою. Тому для кінчиків пензля зі низькою непрозорістю варто "
+"збільшити непрозорість і відношення розмазування/зміна кольору."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:152
 msgid "Scatter and other shape dynamics"
-msgstr ""
+msgstr "Розсіювання та інша динаміка форми"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:154
 msgid ""
 "The Color Smudge Brush shares the following dynamics with the Pixel Brush: "
 "Opacity, Size, Spacing, Rotation, and Scatter."
 msgstr ""
+"Пензель розмазування кольорів використовує такі спільні із піксельним "
+"пензлем динамічні параметри: непрозорість, розмір, інтервал, обертання та "
+"розсіювання."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:156
 msgid ""
@@ -353,6 +405,8 @@ msgid ""
 "the Pixel Brush. In particular, the Scatter option becomes much more "
 "significant."
 msgstr ""
+"Втім, через ефекти розмазування результат буде іншим, якщо порівнювати із "
+"піксельним пензлем. Зокрема, параметр розсіювання стає набагато значущішим."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:159
 msgid ".. image:: images/en/Krita-tutorial5-I.5-1.png"
@@ -368,6 +422,9 @@ msgid ""
 "of 5.00 for a tiny round brush, but for bigger brushes, you may want to get "
 "it down to 0.50 or less."
 msgstr ""
+"Розсіювання є пропорційним до розміру пензля. Нормальним вважається "
+"розсіювання у 5.00 для малого круглого пензля, але для більших пензлів варто "
+"зменшити його до 0.50 або навіть меншого значення."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:163
 msgid ""
@@ -380,6 +437,8 @@ msgid ""
 "For scattering, the brush picks up colors within a certain distance, not the "
 "color directly under the paintbrush:"
 msgstr ""
+"Для ефекту розсіювання пензель братиме кольори на певній відстані, не "
+"безпосередньо під кінчиком пензля:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:167
 msgid ".. image:: images/en/Krita-tutorial5-I.5-2.png"
@@ -387,7 +446,7 @@ msgstr ".. image:: images/en/Krita-tutorial5-I.5-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:169
 msgid "Other color behaviors: Gradient, Blending modes, Overlay mode"
-msgstr ""
+msgstr "Інша поведінка кольорів: градієнт, режими змішування, режим накладання"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:172
 msgid "Gradient"
@@ -399,6 +458,9 @@ msgid ""
 "menuselection:`Color --> Mix` for the Pixel brush: the color will vary "
 "between the colors of the gradient."
 msgstr ""
+"Градієнт еквівалентний до використання :menuselection:`Джерело --> Градієнт` "
+"і :menuselection:`Колір --> Суміш` для піксельного пензля: колір "
+"змінюватиметься між кінцевими кольорами градієнта."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:177
 msgid ".. image:: images/en/Krita-tutorial5-I.6-1.png"
@@ -406,21 +468,23 @@ msgstr ".. image:: images/en/Krita-tutorial5-I.6-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:178
 msgid "You can either:"
-msgstr ""
+msgstr "Ви можете або"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:180
 msgid ""
 "Leave the default :menuselection:`Foreground --> Background gradient` "
 "setting, and just change the foreground and background colors"
 msgstr ""
+"Не змінювати типового параметра :menuselection:`Передній план --> Градієнт "
+"тла`, а просто змінити кольори переднього плану і тла"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:181
 msgid "Select a more specific gradient"
-msgstr "Виберіть специфічніший градієнт"
+msgstr "Вибрати специфічніший градієнт"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:182
 msgid "Or make custom gradients."
-msgstr "Або створіть нетипові градієнти."
+msgstr "Або створити нетипові градієнти."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:185
 msgid "Blending Modes"
@@ -431,12 +495,17 @@ msgid ""
 "Blending Modes work just like with the Pixel Brush. The color used though is "
 "the color from Color rate."
 msgstr ""
+"Режими змішування працюють так само, як для піксельного пензля. Втім, "
+"використаний колір буде кольором з пункту «Зміна кольорів»."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:189
 msgid ""
 "Color Blending modes with the smudge brush are even harder to predict than "
 "with the pixel brush, so I'll leave you to experiment on your own."
 msgstr ""
+"Результати застосування режимі змішування кольорів для пензля розмазування "
+"передбачити ще складніше, ніж для піксельного пензля; тому раджу вам "
+"спробувати їх власноруч і вибрати бажаний самостійно."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:192
 msgid "Overlay Mode"
@@ -458,17 +527,20 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:199
 msgid "Use cases: Smudging and blending"
-msgstr ""
+msgstr "Користування: розмазування і змішування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:201
 msgid "This part describes use cases with color rate off."
 msgstr ""
+"У цій частині описано користування інструментом із вимкненою зміною кольорів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:203
 msgid ""
 "I won't explain the settings for dynamics in detail, as you can find the "
 "explanations in the :ref:`Pixel Brush tutorial <pixel_brush_engine>`."
 msgstr ""
+"Не будемо детально описувати параметри динаміки, відповідні пояснення можна "
+"знайти у :ref:`розділі щодо піксельного пензля <pixel_brush_engine>`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:206
 msgid "Smudging effects"
@@ -505,7 +577,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:221
 msgid "Some settings for Smearing"
-msgstr ""
+msgstr "Деякі з параметрів для розтирання"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:223
 msgid ""
@@ -516,7 +588,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:226
 msgid "Some settings for Dulling"
-msgstr ""
+msgstr "Деякі з параметрів для матування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:228
 msgid ""
@@ -533,7 +605,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:232
 msgid "Textured blending"
-msgstr ""
+msgstr "Текстурне змішування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:234
 msgid ""
@@ -553,7 +625,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
 msgid "And/or Scatter:"
-msgstr ""
+msgstr "І/Або розсіювання:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
 msgid ""
@@ -590,6 +662,8 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:248
 msgid "However, the Color Smudge brush is very good at \"textured blending\":"
 msgstr ""
+"Втім, пензель розмазування кольорів дає чудові результати для "
+"«текстурованого змішування»."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:251
 msgid ".. image:: images/en/Krita-tutorial5-II.3.png"
@@ -598,14 +672,17 @@ msgstr ".. image:: images/en/Krita-tutorial5-II.3.png"
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:252
 msgid "Basically you can paint first and add textured transitions after."
 msgstr ""
+"Загалом, ви можете спочатку щось намалювати, а текстуровані переходи додати "
+"пізніше."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:255
 msgid "Use cases: Coloring"
-msgstr ""
+msgstr "Користування: розфарбовування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:257
 msgid "For this last section, :guilabel:`Color Rate` is on."
 msgstr ""
+"У останньому розділі пункт :guilabel:`Зміна кольорів` вважається позначеним."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:260
 msgid "Layer options"
@@ -616,10 +693,12 @@ msgid ""
 "Before we get started, notice that you have several possibilities for your "
 "set up:"
 msgstr ""
+"Перш ніж ми розпочнемо, зауважте, що існує декілька можливих варіантів "
+"налаштовування:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:264
 msgid "Shading on the same layer"
-msgstr ""
+msgstr "Ретушування на тому самому шарі"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:265
 msgid ""
@@ -663,15 +742,15 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:280
 msgid "Basically:"
-msgstr ""
+msgstr "Загалом"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:282
 msgid "It may look great when you're coloring on a blank canvas"
-msgstr ""
+msgstr "Розфарбовування на порожньому полотні може виглядати чудово"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:283
 msgid "But it won't look so great when you add something underneath"
-msgstr ""
+msgstr "Але усе вже не так чудово, якщо ви додаєте щось під розфарбоване"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:286
 msgid ".. image:: images/en/Krita-tutorial5-III.1-2.png"
@@ -717,8 +796,8 @@ msgstr "М'які відтінки"
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:300
 msgid "Suppose you want more or less smooth color transitions. You can either:"
 msgstr ""
-"Припустімо, вам потрібні більш-менш плавні переходи кольорів. Ви можете"
-" скористатися одним із таких варіантів:"
+"Припустімо, вам потрібні більш-менш плавні переходи кольорів. Ви можете "
+"скористатися одним із таких варіантів:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:302
 msgid ""
@@ -739,10 +818,12 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:305
 msgid "Optional: turn on :guilabel:`Rotation` for smoother blending"
 msgstr ""
+"Необов'язково: увімкніть :guilabel:`Обертання` для надання змішуванню "
+"плавності"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:306
 msgid "Optional: turn on :guilabel:`Scatter` for certain effects"
-msgstr ""
+msgstr "Необов'язково: увімкніть :guilabel:`Розсіювання` для певних ефектів"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:307
 msgid ""
@@ -794,7 +875,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:326
 msgid "Smearing mode with high smudge and color rates"
-msgstr ""
+msgstr "Режим розтирання із високими значеннями розмазування та зміни кольорів"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:326
 msgid ""

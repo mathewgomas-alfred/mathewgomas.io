@@ -17,7 +17,7 @@ This category is for graphics file-formats. While most file-formats can be looke
 
 In this category we try to describe these in a manner that can be read by beginners.
 
-Generally, there are the following features that people pay attention to in regards to fileformats:
+Generally, there are the following features that people pay attention to in regards to file formats:
 
 Compression
 -----------
@@ -37,16 +37,16 @@ Then, there's proper working file formats like Krita's ``.kra``, Gimp's ``xcf``,
 Metadata
 --------
 
-Metadata is the ability of a fileformat to contain information outside of the actual image contents. This can be human readable data, like the date of creation, the name of the author, a description of the image, but also computer readable data, like an icc-profile which tells the computer about the qualities of how the colors inside the file should be read.
+Metadata is the ability of a file format to contain information outside of the actual image contents. This can be human readable data, like the date of creation, the name of the author, a description of the image, but also computer readable data, like an icc-profile which tells the computer about the qualities of how the colors inside the file should be read.
 
 Openness
 --------
 
 This is a bit of an odd quality, but it's about how easy it to open or recover the file, and how widely it's supported.
 
-Most internal fileformats, like PSD are completely closed, and it's really difficult for human outsiders to recover the data inside without opening photoshop. Other examples are camera raw files which have different properties per camera manufacturer.
+Most internal file formats, like PSD are completely closed, and it's really difficult for human outsiders to recover the data inside without opening photoshop. Other examples are camera raw files which have different properties per camera manufacturer.
 
-SVG, as a vector fileformat, is on the other end of the spectrum, and can be opened with any text-editor and edited.
+SVG, as a vector file format, is on the other end of the spectrum, and can be opened with any text-editor and edited.
 
 Most formats are in-between, and thus there's also a matter of how widely supported the format is. jpg and png cannot be read or edited by human eyes, but the vast majority of programs can open them, meaning the owner has easy access to them.
 

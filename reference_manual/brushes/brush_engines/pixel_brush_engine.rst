@@ -17,7 +17,7 @@ Pixel Brush Engine
 
 .. image:: /images/icons/pixelbrush.svg 
 
-Brushes are ordered alphabetically. The brush that is selected by default when you start with Krita is the '''Pixel Brush'''. The pixel brush is the traditional mainstay of digital art. This brush paints impressions of the brush tip along your stroke with a greater or smaller density. 
+Brushes are ordered alphabetically. The brush that is selected by default when you start with Krita is the :guilabel:`Pixel Brush`. The pixel brush is the traditional mainstay of digital art. This brush paints impressions of the brush tip along your stroke with a greater or smaller density. 
 
 
 .. image:: /images/en/Krita_Pixel_Brush_Settings_Popup.png 
@@ -65,7 +65,7 @@ The color will always become black in the end, and will work with Plain Color, G
 Hue, Saturation, Value
 ~~~~~~~~~~~~~~~~~~~~~~
 
-These parameters allow you to do a HSV adjustment filter on the :ref:`option_source` and control it with Sensors.
+These parameters allow you to do an HSV adjustment filter on the :ref:`option_source` and control it with Sensors.
 
 .. image:: /images/en/Krita_2_9_brushengine_HSV_01.png
 

@@ -27,4 +27,4 @@ We then gloss the shadow parties with the *basic_tip_default*. So you can get re
 .. image:: /images/en/brush-tips/Krita-brushtips-hair_03.png
     :alt: brush-tip dialog
 
-However, if you want an easy hair brush, just take the *fill_round*, go to the brush-tip pick predefined and select *A2-sparkle-1* as the brush tip. You can fiddle with the spacing below the selection of predefined brushtip to space the brush, but I believe the default should be fine enough to get result 2.
+However, if you want an easy hair brush, just take the *fill_round*, go to the brush-tip, pick predefined and select *A2-sparkle-1* as the brush tip. You can fiddle with the spacing below the selection of predefined brushtip to space the brush, but I believe the default should be fine enough to get result.

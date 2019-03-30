@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-10 03:30+0100\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
 "PO-Revision-Date: 2019-03-02 16:12-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
-"Language: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -820,8 +820,9 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:351
 msgid ""
-"Also, you can check the Settings menu, it has got a lot of interesting "
-"stuff, then go to the Dockers menu and select Toolbox."
+"Also, you can check the :guilabel:`Settings` menu, it has got a lot of "
+"interesting stuff, then go to the Dockers menu and select :guilabel:"
+"`Toolbox`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:354
@@ -903,8 +904,8 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:396
 msgid ""
-"Yes, but there are limitations. You can load ABR files by using the by using "
-"the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
+"Yes, but there are limitations. You can load ABR files by using the :"
+"guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
 "brush editor. Since Adobe hasn’t disclosed the file format specification, we "
 "depend on reverse-engineering to figure out what to load, and currently "
 "that’s limited to basic features."
@@ -942,7 +943,7 @@ msgid "You do not have canvas acceleration enabled"
 msgstr ""
 
 #: ../../KritaFAQ.rst:408
-msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
+msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr ""
 
 #: ../../KritaFAQ.rst:411
@@ -1039,60 +1040,77 @@ msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
 "whether it has started swapping. Swapping can slow down a program a lot, so "
-"either work on smaller images or turn up the maximum amount of ram in :"
+"either work on smaller images or turn up the maximum amount of RAM in :"
 "menuselection:`Settings --> Configure Krita --> Performance --> Advanced "
 "Tab`."
 msgstr ""
 
 #: ../../KritaFAQ.rst:439
-msgid "Tools"
+msgid "Animation"
 msgstr ""
 
 #: ../../KritaFAQ.rst:442
+msgid "Why is my animation black in my video player"
+msgstr ""
+
+#: ../../KritaFAQ.rst:444
+msgid ""
+"You did not render the animation using the \"baseline\" option and you are "
+"using the default Windows media player. Re-render using the baseline option "
+"or use a better video player application, like VLC. Check `this useful "
+"diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-"
+"issues-manual-783473428>`__"
+msgstr ""
+
+#: ../../KritaFAQ.rst:448
+msgid "Tools"
+msgstr ""
+
+#: ../../KritaFAQ.rst:451
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:453
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
 "than the image resolution, it may feel that the result is blurry compared to "
 "the preview. See `this page <https://forum.kde.org/viewtopic.php?"
-"f=139&t=127269>`_ for more info."
+"f=139&t=127269>`__ for more info."
 msgstr ""
 
-#: ../../KritaFAQ.rst:448
+#: ../../KritaFAQ.rst:457
 msgid "License, rights and the Krita Foundation"
 msgstr ""
 
-#: ../../KritaFAQ.rst:451
+#: ../../KritaFAQ.rst:460
 msgid "Who owns Krita?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:453
+#: ../../KritaFAQ.rst:462
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
 msgstr ""
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:465
 msgid "Who and what is Kiki?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:458
+#: ../../KritaFAQ.rst:467
 msgid ""
 "Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson "
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
 "word for Squirrel."
 msgstr ""
 
-#: ../../KritaFAQ.rst:461
+#: ../../KritaFAQ.rst:470
 msgid "Why is Krita Free?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:463
+#: ../../KritaFAQ.rst:472
 msgid ""
 "Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE "
 "community. We believe that good tools should be available for all artists. "
@@ -1100,11 +1118,11 @@ msgid ""
 "development or want to have automatic updates to newer versions."
 msgstr ""
 
-#: ../../KritaFAQ.rst:466
+#: ../../KritaFAQ.rst:475
 msgid "Can I use Krita commercially?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:468
+#: ../../KritaFAQ.rst:477
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
 "can license your art however you want. Krita’s GPL license applies to "
@@ -1114,26 +1132,26 @@ msgid ""
 "educational institutions."
 msgstr ""
 
-#: ../../KritaFAQ.rst:470
+#: ../../KritaFAQ.rst:479
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
 "your modifications with us. Krita’s GNU GPL license guarantees you this "
 "freedom. Nobody is ever permitted to take it away."
 msgstr ""
 
-#: ../../KritaFAQ.rst:476
+#: ../../KritaFAQ.rst:485
 msgid "Can I get Krita for iPad? for Android?"
 msgstr ""
 
-#: ../../KritaFAQ.rst:478
+#: ../../KritaFAQ.rst:487
 msgid "Not at this point in time."
 msgstr ""
 
-#: ../../KritaFAQ.rst:481
+#: ../../KritaFAQ.rst:490
 msgid "Who translates Krita"
 msgstr ""
 
-#: ../../KritaFAQ.rst:483
+#: ../../KritaFAQ.rst:492
 msgid ""
 "Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! That "
 "means that Krita’s translations are done by `KDE localization teams <http://"
@@ -1143,10 +1161,10 @@ msgid ""
 "code that make Krita harder to translate."
 msgstr ""
 
-#: ../../KritaFAQ.rst:486
+#: ../../KritaFAQ.rst:495
 msgid "Reference"
 msgstr ""
 
-#: ../../KritaFAQ.rst:488
+#: ../../KritaFAQ.rst:497
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr ""

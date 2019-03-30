@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___painting_with_assistants\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 03:37+0100\n"
-"PO-Revision-Date: 2019-03-11 11:03+0100\n"
+"PO-Revision-Date: 2019-03-24 09:01+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -46,6 +46,9 @@ msgid ""
 "freehand brush tool. In the tool options of free hand brush, you can toggle :"
 "guilabel:`Snap to Assistants` to turn on snapping."
 msgstr ""
+"Poden funcionar com una forma de vista prèvia, o podeu ajustar-los amb "
+"l'eina del pinzell a mà alçada. En les opcions d'eines del pinzell a mà "
+"alçada, podeu alternar :guilabel:`Ajusta als assistents` per activar l'ajust."
 
 #: ../../user_manual/painting_with_assistants.rst:30
 msgid ""
@@ -72,6 +75,8 @@ msgid ""
 "There are several types in Krita. You can select a type of assistant via the "
 "tool options docker."
 msgstr ""
+"Hi ha diversos tipus en el Krita. Podeu seleccionar un tipus d'assistent a "
+"través de l'acoblador opcions de l'eina."
 
 #: ../../user_manual/painting_with_assistants.rst:43
 msgid "Ellipse"
@@ -86,12 +91,16 @@ msgid ""
 "This assistant consists of three points: the first two are the axis of the "
 "ellipse, and the last one is to determine its width."
 msgstr ""
+"Aquest assistent consta de tres punts: els dos primers són l'eix de "
+"l'el·lipse i l'últim és per a determinar la seva amplada."
 
 #: ../../user_manual/painting_with_assistants.rst:51
 msgid ""
 "The same an ellipse, but allows for making ellipses that are concentric to "
 "each other."
 msgstr ""
+"El mateix una el·lipse, però es permet crear el·lipsis que són concèntriques "
+"entre si."
 
 #: ../../user_manual/painting_with_assistants.rst:52
 msgid "Concentric Ellipse"
@@ -104,6 +113,9 @@ msgid ""
 "snap to perfectly horizontal or vertical lines. Press :kbd:`Shift` while "
 "holding the third handle, and it'll snap to a perfect circle."
 msgstr ""
+"Si premeu :kbd:`Majús.` mentre sosteniu les dues primeres nanses, "
+"s'ajustaran perfectament les línies horitzontals o verticals. Premeu :kbd:"
+"`Majús.` mentre sosteniu la tercera nansa, i s'ajustarà a un cercle perfecte."
 
 #: ../../user_manual/painting_with_assistants.rst:61
 msgid "Perspective"
@@ -111,19 +123,23 @@ msgstr "Perspectiva"
 
 #: ../../user_manual/painting_with_assistants.rst:63
 msgid "This ruler takes four points and creates a perspective grid."
-msgstr ""
+msgstr "Aquesta regla pren quatre punts i crea una quadrícula de perspectiva."
 
 #: ../../user_manual/painting_with_assistants.rst:65
 msgid ""
 "This grid can be used with the 'perspective' sensor, which can influence "
 "brushes."
 msgstr ""
+"Aquesta quadrícula es pot utilitzar amb el sensor de «perspectiva», el qual "
+"pot influir en els pinzells."
 
 #: ../../user_manual/painting_with_assistants.rst:68
 msgid ""
 "If you press :kbd:`Shift` while holding any of the corner handles, they'll "
 "snap to one of the other corner handles, in sets."
 msgstr ""
+"Si premeu :kbd:`Majús.` mentre sosteniu qualsevol de les nanses de "
+"cantonada, s'ajustaran a una de les altres nanses de cantonada, en conjunts."
 
 #: ../../user_manual/painting_with_assistants.rst:74
 #: ../../user_manual/painting_with_assistants.rst:78
@@ -132,11 +148,11 @@ msgstr "Regle"
 
 #: ../../user_manual/painting_with_assistants.rst:76
 msgid "There are three assistants in this group:"
-msgstr ""
+msgstr "En aquest grup hi ha tres assistents:"
 
 #: ../../user_manual/painting_with_assistants.rst:79
 msgid "Helps create a straight line between two points."
-msgstr ""
+msgstr "Ajuda a crear una línia recta entre dos punts."
 
 #: ../../user_manual/painting_with_assistants.rst:81
 msgid "Infinite Ruler"
@@ -146,12 +162,15 @@ msgstr "Regle infinit"
 msgid ""
 "Extrapolates a straight line beyond the two visible points on the canvas."
 msgstr ""
+"Extrapola una línia recta més enllà dels dos punts visibles en el llenç."
 
 #: ../../user_manual/painting_with_assistants.rst:84
 msgid ""
 "This ruler allows you to draw a line parallel to the line between the two "
 "points anywhere on the canvas."
 msgstr ""
+"Aquesta regla permet dibuixar una línia paral·lela a la línia entre els dos "
+"punts en qualsevol lloc del llenç."
 
 #: ../../user_manual/painting_with_assistants.rst:85
 msgid "Parallel Ruler"
@@ -162,6 +181,8 @@ msgid ""
 "If you press :kbd:`Shift` while holding the first two handles, they will "
 "snap to perfectly horizontal or vertical lines."
 msgstr ""
+"Si premeu :kbd:`Majús.` mentre sosteniu les dues primeres nanses, "
+"s'ajustaran perfectament les línies horitzontals o verticals."
 
 #: ../../user_manual/painting_with_assistants.rst:93
 msgid "Spline"
@@ -173,6 +194,10 @@ msgid ""
 "cubic bezier curve. You can then draw along the curve, snapping your brush "
 "stroke directly to the curve line. Perfect curves every time!"
 msgstr ""
+"Aquest assistent permet col·locar i ajustar quatre punts per a crear una "
+"corba de Bezier cúbica. Després podreu dibuixar al llarg de la corba, "
+"ajustant el traç del pinzell directament a la línia de la corba. Corbes "
+"perfectes cada vegada!"
 
 #: ../../user_manual/painting_with_assistants.rst:99
 msgid ""
@@ -181,6 +206,10 @@ msgid ""
 "holding the third or fourth handle, they will snap relative to the handle "
 "they are attached to."
 msgstr ""
+"Si premeu :kbd:`Majús.` mentre sosteniu les dues primeres nanses, "
+"s'ajustaran perfectament les línies horitzontals o verticals. Premeu :kbd:"
+"`Majús.` mentre sosteniu la tercera o quarta nansa, s'ajustaran en relació "
+"amb on estan adjuntades."
 
 #: ../../user_manual/painting_with_assistants.rst:107
 msgid "Vanishing Point"
@@ -192,16 +221,21 @@ msgid ""
 "horizon line. A preview line is drawn and all your snapped lines are drawn "
 "to this line."
 msgstr ""
+"Aquest assistent permet crear un punt de fuga, normalment utilitzat per a "
+"una línia de l'horitzó. Es dibuixa una línia de vista prèvia i totes les "
+"línies que s'hi ajustin seran dibuixades en aquesta línia."
 
 #: ../../user_manual/painting_with_assistants.rst:112
 msgid ""
 "It is one point, with four helper points to align it to previously created "
 "perspective lines."
 msgstr ""
+"És un punt, amb quatre punts d'ajuda per alinear amb les línies de "
+"perspectiva creades prèviament."
 
 #: ../../user_manual/painting_with_assistants.rst:115
 msgid "They are made and manipulated with the :ref:`assistant_tool`."
-msgstr ""
+msgstr "Estan creats i manipulats amb l':ref:`assistant_tool`."
 
 #: ../../user_manual/painting_with_assistants.rst:117
 msgid ""
@@ -209,10 +243,13 @@ msgid ""
 "perfectly horizontal or vertical lines depending on the position of where it "
 "previously was."
 msgstr ""
+"Si premeu :kbd:`Majús.` mentre manteniu premuda la nansa central, "
+"s'ajustaran perfectament les línies horitzontals o verticals, depenent de la "
+"posició on es trobava anteriorment."
 
 #: ../../user_manual/painting_with_assistants.rst:123
 msgid "The vanishing point assistant also shows several general lines."
-msgstr ""
+msgstr "L'assistent del punt de fuga també mostra diverses línies generals."
 
 #: ../../user_manual/painting_with_assistants.rst:125
 msgid ""
@@ -220,6 +257,9 @@ msgid ""
 "assistant, it will be selected. This means you can modify the amount of "
 "lines shown in the tool options of the :ref:`assistant_tool`."
 msgstr ""
+"Quan acabeu de crear, o quan acabeu de moure un punt de fuga a l'assistent, "
+"aquest serà seleccionat. Això vol dir que podeu modificar la quantitat de "
+"línies que es mostren a les opcions de l'eina de l':ref:`assistant_tool`."
 
 #: ../../user_manual/painting_with_assistants.rst:130
 msgid "Fish Eye Point"
@@ -233,6 +273,12 @@ msgid ""
 "of both. Or combine one with a parallel ruler and a vanishing point, or even "
 "one with two vanishing points. The possibilities are quite large."
 msgstr ""
+"Igual que amb l'assistent del punt de fuga, aquest assistent és per a un "
+"conjunt de línies paral·leles en un espai en 3D. Llavors, per a utilitzar-lo "
+"de manera efectiva, utilitzeu-ne dos, on el segon estarà a un angle de 90 "
+"graus del primer, i afegiu un punt de fuga al centre de tots dos. O combineu-"
+"ne un amb un regle paral·lel i un punt de fuga, o fins i tot un amb dos "
+"punts de fuga. Les possibilitats són molt grans."
 
 #: ../../user_manual/painting_with_assistants.rst:139
 msgid ""
@@ -241,6 +287,10 @@ msgid ""
 "assistant. This is so you can use it in edge-cases like panoramas with "
 "relative ease."
 msgstr ""
+"Aquest assistent no només donarà retroalimentació/ajust entre els punts de "
+"fuga, sinó que també donarà retroalimentació a l'esquerra i dreta relatives "
+"de l'assistent. Això és perquè pugueu utilitzar-lo en casos extrems com "
+"panorames amb una facilitat relativa."
 
 #: ../../user_manual/painting_with_assistants.rst:149
 msgid "Tutorials"
@@ -251,10 +301,12 @@ msgid ""
 "Check out this in depth discussion and tutorial on https://www.youtube.com/"
 "watch?v=OhEv2pw3EuI"
 msgstr ""
+"Feu una ullada a aquest debat en profunditat i guia d'aprenentatge a https://"
+"www.youtube.com/watch?v=OhEv2pw3EuI"
 
 #: ../../user_manual/painting_with_assistants.rst:157
 msgid "Setting up Krita for technical drawing-like perspectives"
-msgstr ""
+msgstr "Ajustar el Krita per a perspectives de dibuix tècnic"
 
 #: ../../user_manual/painting_with_assistants.rst:159
 msgid ""
@@ -262,22 +314,29 @@ msgid ""
 "offers, here is an example of how using these assistants you can set up "
 "Krita for technical drawing."
 msgstr ""
+"Ara que heu vist la gran varietat d'assistents de dibuix que ofereix el "
+"Krita, aquí teniu un exemple de com utilitzar-los i configurar el Krita per "
+"al dibuix tècnic."
 
 #: ../../user_manual/painting_with_assistants.rst:163
 msgid ""
 "This tutorial below should give you an idea of how to set up the assistants "
 "for specific types of technical views."
 msgstr ""
+"Aquesta guia d'aprenentatge us donarà una idea sobre com configurar els "
+"assistents per a tipus específics de vistes tècniques."
 
 #: ../../user_manual/painting_with_assistants.rst:166
 msgid ""
 "If you want to instead do the true projection, check out :ref:`the "
 "projection category <cat_projection>`."
 msgstr ""
+"Si en canvi voleu fer la veritable projecció, comproveu :ref:`la categoria "
+"de projecció <cat_projection>`."
 
 #: ../../user_manual/painting_with_assistants.rst:169
 msgid "Orthographic"
-msgstr ""
+msgstr "Ortogràfica"
 
 #: ../../user_manual/painting_with_assistants.rst:171
 msgid ""
@@ -285,20 +344,26 @@ msgid ""
 "the front. Typically, you try to keep everything in exact scale with each "
 "other, unlike perspective deformation."
 msgstr ""
+"Ortogràfica és un mode en què intenteu mirar quelcom des de l'esquerra o el "
+"davant. En general, intenteu mantenir-ho tot en l'escala exacta entre si, a "
+"diferència de amb la deformació de la perspectiva."
 
 #: ../../user_manual/painting_with_assistants.rst:175
 msgid ""
 "The key assistant you want to use here is the Parallel Ruler. You can set "
 "these up horizontally or vertically, so you always have access to a Grid."
 msgstr ""
+"L'assistent clau que voldreu utilitzar aquí és la regla paral·lela. Podeu "
+"configurar-les horitzontalment o verticalment, de manera que sempre tindreu "
+"accés a una quadrícula."
 
 #: ../../user_manual/painting_with_assistants.rst:180
 msgid "Axonometric"
-msgstr ""
+msgstr "Axonomètrica"
 
 #: ../../user_manual/painting_with_assistants.rst:182
 msgid "All of these are set up using three Parallel Rulers."
-msgstr ""
+msgstr "Totes aquestes es configuren amb tres regles paral·leles."
 
 #: ../../user_manual/painting_with_assistants.rst:185
 msgid ".. image:: images/en/Assistants_oblique.png"
@@ -309,6 +374,8 @@ msgid ""
 "For oblique, set two parallel rulers to horizontal and vertical, and one to "
 "an angle, representing depth."
 msgstr ""
+"Per a obliqua, establiu dues regles paral·leles a horitzontal i vertical, i "
+"una a un angle, representant la profunditat."
 
 #: ../../user_manual/painting_with_assistants.rst:188
 msgid "Oblique"
@@ -325,10 +392,15 @@ msgid ""
 "projection where the diagonal values are a 116.565° from the main. The "
 "latter can be easily set up by snapping the assistants to a grid."
 msgstr ""
+"La perspectiva isomètrica tècnicament té les tres regles establertes a 120° "
+"una de l'altra. Excepte quan és un joc isomètric, llavors és un tipus de "
+"projecció dimètrica on els valors de la diagonal estan a 116,565° de la "
+"principal. Aquesta última es pot configurar amb facilitat ajustant-la amb "
+"els assistents a una quadrícula."
 
 #: ../../user_manual/painting_with_assistants.rst:197
 msgid "Dimetric & Isometric"
-msgstr ""
+msgstr "Dimètrica i isomètrica"
 
 #: ../../user_manual/painting_with_assistants.rst:200
 msgid ".. image:: images/en/Assistants_trimetric.png"
@@ -339,14 +411,16 @@ msgid ""
 "Is when all the angles are slightly different. Often looks like a slightly "
 "angled isometric."
 msgstr ""
+"És quan tots els angles són lleugerament diferents. Sovint sembla una "
+"isomètrica lleugerament angulosa."
 
 #: ../../user_manual/painting_with_assistants.rst:203
 msgid "Trimetric"
-msgstr ""
+msgstr "Trimétrica"
 
 #: ../../user_manual/painting_with_assistants.rst:206
 msgid "Linear Perspective"
-msgstr ""
+msgstr "Perspectiva lineal"
 
 #: ../../user_manual/painting_with_assistants.rst:209
 msgid ".. image:: images/en/Assistants_1_point_perspective.png"
@@ -357,10 +431,12 @@ msgid ""
 "A 1 point perspective is set up using 1 vanishing point, and two crossing "
 "perpendicular parallel rulers."
 msgstr ""
+"Una perspectiva d'1 punt es configura utilitzant 1 punt de fuga i dues "
+"regles paral·leles perpendiculars que es creuen."
 
 #: ../../user_manual/painting_with_assistants.rst:212
 msgid "1 Point Perspective"
-msgstr ""
+msgstr "Perspectiva d'1 punt"
 
 #: ../../user_manual/painting_with_assistants.rst:215
 msgid ".. image:: images/en/Assistants_2_point_perspective.png"
@@ -372,10 +448,13 @@ msgid ""
 "parallel ruler. Often, putting the vanishing points outside the frame a "
 "little can decrease the strength of it."
 msgstr ""
+"Una perspectiva de 2 punts es configura utilitzant 2 punts de fuga i 1 regle "
+"vertical paral·lel. Sovint, col·locar els punts de fuga fora del marc pot "
+"fer disminuir la seva força."
 
 #: ../../user_manual/painting_with_assistants.rst:219
 msgid "2 Point Perspective"
-msgstr ""
+msgstr "Perspectiva de 2 punts"
 
 #: ../../user_manual/painting_with_assistants.rst:222
 msgid ".. image:: images/en/Assistants_2_pointperspective_02.png"
@@ -387,15 +466,16 @@ msgstr ".. image:: images/en/Assistants_3_point_perspective.png"
 
 #: ../../user_manual/painting_with_assistants.rst:226
 msgid "3 Point Perspective"
-msgstr ""
+msgstr "Perspectiva de 3 punts"
 
 #: ../../user_manual/painting_with_assistants.rst:226
 msgid "A 3 point perspective is set up using 3 vanishing point rulers."
 msgstr ""
+"Una perspectiva de 3 punts es configura utilitzant 3 regles del punt de fuga."
 
 #: ../../user_manual/painting_with_assistants.rst:229
 msgid "Logic of the vanishing point"
-msgstr ""
+msgstr "Lògica del punt de fuga"
 
 #: ../../user_manual/painting_with_assistants.rst:231
 msgid ""
@@ -404,12 +484,18 @@ msgid ""
 "meet. This means that a 1 point perspective and 2 point perspective are "
 "virtually the same."
 msgstr ""
+"Hi ha un petit secret que les guies d'aprenentatge de la perspectiva no "
+"sempre expliquen, i aquest és que un punt de fuga és el punt on es troben "
+"dues línies paral·leles. Això vol dir que una perspectiva d'1 punt i una "
+"perspectiva de 2 punts són pràcticament el mateix."
 
 #: ../../user_manual/painting_with_assistants.rst:233
 msgid ""
 "We can prove this via a little experiment. That good old problem: drawing a "
 "rail-road."
 msgstr ""
+"Ho podem demostrar mitjançant un petit experiment. Aquest bon problema "
+"antic: dibuixar un via de ferrocarril."
 
 #: ../../user_manual/painting_with_assistants.rst:236
 msgid ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
@@ -421,6 +507,9 @@ msgid ""
 "beam is going to be, as perspective projection will make them look closer "
 "together."
 msgstr ""
+"Probablement estigueu familiaritzat amb el problema: Com determinar on anirà "
+"el següent llamp, ja que la projecció en perspectiva farà que es vegin més "
+"junts."
 
 #: ../../user_manual/painting_with_assistants.rst:240
 msgid ""
@@ -428,6 +517,9 @@ msgid ""
 "diagonally across. After all, those lines are parallel, meaning that the "
 "exact same distance is used."
 msgstr ""
+"Normalment, la solució és dibuixar una línia al mig i després dibuixar "
+"línies en diagonal que travessin. Després de tot, aquestes línies són "
+"paral·leles, el qual vol dir que s'utilitza la mateixa distància exacta."
 
 #: ../../user_manual/painting_with_assistants.rst:243
 msgid ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
@@ -439,12 +531,17 @@ msgid ""
 "instead, and we use the alignment handles to align it to the diagonal of the "
 "beam, and to the horizontal (here marked with red)."
 msgstr ""
+"Però com són paral·leles, podem utilitzar un assistent del punt de fuga, i "
+"utilitzarem les nanses d'alineació per alinear-les amb la diagonal del llamp "
+"i amb l'horitzontal (aquí marcada amb vermell)."
 
 #: ../../user_manual/painting_with_assistants.rst:247
 msgid ""
 "That diagonal can then in turn be used to determine the position of the "
 "beams:"
 msgstr ""
+"Aquesta diagonal es podrà utilitzar després per a determinar la posició dels "
+"llamps:"
 
 #: ../../user_manual/painting_with_assistants.rst:251
 msgid ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
@@ -457,10 +554,14 @@ msgid ""
 "in a linear perspective. Therefore, Krita allows you to set vanishing points "
 "yourself instead of forcing you to only use a few."
 msgstr ""
+"A causa que qualsevol conjunt de línies té un punt de fuga (fora del pla a "
+"la vista del mapa), pot haver-hi una quantitat infinita de punts de fuga en "
+"una perspectiva lineal. Per tant, el Krita permet establir punts de fuga en "
+"lloc d'obligar-vos a utilitzar-ne només uns pocs."
 
 #: ../../user_manual/painting_with_assistants.rst:255
 msgid "Fish Eye perspective"
-msgstr ""
+msgstr "Perspectiva de l'ull de peix"
 
 #: ../../user_manual/painting_with_assistants.rst:257
 msgid ""
@@ -468,12 +569,18 @@ msgid ""
 "difference being that in a fish-eye perspective, any parallel set of lines "
 "has two vanishing points, each for one side."
 msgstr ""
+"La perspectiva d'ull de peix funciona de manera molt similar a la "
+"perspectiva lineal, la gran diferència és que en una perspectiva d'ull de "
+"peix, en qualsevol conjunt de línies paral·leles té dos punts de fuga, "
+"cadascun per un costat."
 
 #: ../../user_manual/painting_with_assistants.rst:261
 msgid ""
 "So, to set them up, the easiest way is one horizontal, one vertical, on the "
 "same spot, and one vanishing point assistant in the middle."
 msgstr ""
+"Llavors, per a configurar-les, la forma més fàcil és una horitzontal i una "
+"vertical en el mateix lloc, i un assistent de punt de fuga en el mig."
 
 #: ../../user_manual/painting_with_assistants.rst:265
 msgid ".. image:: images/en/Fish-eye.gif"
@@ -484,3 +591,5 @@ msgid ""
 "But, you can also make one horizontal one that is just as big as the other "
 "horizontal one, and put it halfway:"
 msgstr ""
+"Però, també pots crear-ne una en horitzontal que sigui tan gran com l'altra "
+"en horitzontal, i posar-la al mig:"

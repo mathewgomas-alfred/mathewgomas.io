@@ -120,7 +120,7 @@ Line Segment Editing
     Segment To Line
         Make the current segment a straight line.
     Segment To Curve
-        Make the current segment a curve: It'll add side nodes for this segment to the nodes attached to it.
+        Make the current segment a curve: It'll add side handles for this segment to the nodes attached to it.
     Make Line Point
         Turn the selected node into a sharp corner: This will remove the side handles.
     Make Curve Point

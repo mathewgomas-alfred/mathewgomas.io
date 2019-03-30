@@ -31,7 +31,7 @@ As we've said before, the Krita interface is very malleable and the way that you
    :width: 1000
    :align: center
 
-- **A** -- Traditional '''File''' or action menu found in most windowed applications
+- **A** -- Traditional :guilabel:`File` or action menu found in most windowed applications
 - **B** -- Toolbar - This is where you can choose your brushes, set parameters such as opacity and size and other settings.
 - **C** -- Sidebars for the Movable Panels/Dockers.  In some applications, these are known as Dockable areas. Krita also allows you to dock panels at the top and/or bottom as well.
 - **D** -- Status Bar - This space shows you preferred mode for showing selection i.e. marching ants or mask mode, your selected brush preset, :ref:`Color Space <color_managed_workflow>`, image size and provides a convenient zoom control.

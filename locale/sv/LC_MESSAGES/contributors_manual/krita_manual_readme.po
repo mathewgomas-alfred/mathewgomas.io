@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-03 19:40+0100\n"
+"PO-Revision-Date: 2019-03-20 20:24+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:1
 msgid "Contributor's Readme for the Krita Manual"
-msgstr ""
+msgstr "Viktigt för bidragsgivare till Kritas handbok"
 
 #: ../../contributors_manual/krita_manual_readme.rst:24
 msgid "Krita Manual Contribution Guide"
-msgstr ""
+msgstr "Bidragshandledning för Kritas handbok"
 
 #: ../../contributors_manual/krita_manual_readme.rst:26
 msgid "Welcome to our new documentation!"
-msgstr "Välkommen till vår nya dokumentation."
+msgstr "Välkommen till vår nya dokumentation!"
 
 #: ../../contributors_manual/krita_manual_readme.rst:28
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:38
 msgid "General concept tutorials."
-msgstr ""
+msgstr "Handledningar om generella begrepp."
 
 #: ../../contributors_manual/krita_manual_readme.rst:39
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:40
 msgid "A list of known tutorials and video tutorials"
-msgstr ""
+msgstr "En lista över kända handledningar och videohandledningar"
 
 #: ../../contributors_manual/krita_manual_readme.rst:41
 msgid ""
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:42
 msgid "Contributor's Manual"
-msgstr ""
+msgstr "Handbok för bidragsgivare"
 
 #: ../../contributors_manual/krita_manual_readme.rst:43
 msgid ""
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:44
 msgid "krita.org tutorials"
-msgstr ""
+msgstr "krita.org tutorials"
 
 #: ../../contributors_manual/krita_manual_readme.rst:45
 msgid ""
@@ -137,6 +137,8 @@ msgstr "För nybörjare"
 #: ../../contributors_manual/krita_manual_readme.rst:52
 msgid "Unlike Mediawiki, Sphinx works more like how we write code for Krita."
 msgstr ""
+"I motsats till Mediawiki, fungerar Sphinx mer på samma sätt som vi skriver "
+"kod för Krita."
 
 #: ../../contributors_manual/krita_manual_readme.rst:54
 msgid ""
@@ -191,17 +193,19 @@ msgstr "Ändra den."
 
 #: ../../contributors_manual/krita_manual_readme.rst:75
 msgid "Tools to check whether your modifications work."
-msgstr ""
+msgstr "Verktyg för att kontrollera om dina ändringar fungerar."
 
 #: ../../contributors_manual/krita_manual_readme.rst:77
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break"
 msgstr ""
+"Du kan använda `Sphinx-editorn på nätet <https://livesphinx.herokuapp.com/"
+">`_ för att kontrollera att dina ändringar inte tar sönder någonting."
 
 #: ../../contributors_manual/krita_manual_readme.rst:79
 msgid "Bundle up the items into a zip."
-msgstr ""
+msgstr "Packa ihop objekten i en zip-fil."
 
 #: ../../contributors_manual/krita_manual_readme.rst:81
 msgid ""
@@ -212,15 +216,16 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:83
 msgid "Upload the zip on phabricator."
-msgstr ""
+msgstr "Ladda upp zip-filen till phabricator."
 
 #: ../../contributors_manual/krita_manual_readme.rst:85
 msgid "First, go to phabricator.kde.org and log in with your identity account."
 msgstr ""
+"Gå först till phabricator.kde.org och logga in med din identitets konto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
 msgid "Go to the `Manual Project Workboard`_ and there create a new task."
-msgstr ""
+msgstr "Gå till `Manual Project Workboard`_ och skapa en ny uppgift."
 
 #: ../../contributors_manual/krita_manual_readme.rst:87
 msgid ""
@@ -242,7 +247,7 @@ msgstr "Om du är bekant med Git"
 
 #: ../../contributors_manual/krita_manual_readme.rst:93
 msgid "Get the source from the `repository`_ using :program:`Git` clone"
-msgstr ""
+msgstr "Hämta källkoden från `arkivet`_ genom att använda :program:`Git` clone"
 
 #: ../../contributors_manual/krita_manual_readme.rst:94
 msgid "Make changes"
@@ -250,11 +255,11 @@ msgstr "Utför ändringar"
 
 #: ../../contributors_manual/krita_manual_readme.rst:95
 msgid "Build locally (optional)"
-msgstr ""
+msgstr "Bygg lokalt (valfritt)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:96
 msgid "Generate a git diff."
-msgstr ""
+msgstr "Generera en jämförelse i git."
 
 #: ../../contributors_manual/krita_manual_readme.rst:98
 msgid ""
@@ -264,19 +269,19 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:100
 msgid "Create a review request on phabricator"
-msgstr ""
+msgstr "Skapa en granskningsförfrågan på phabricator"
 
 #: ../../contributors_manual/krita_manual_readme.rst:102
 msgid "Login into `phabricator`_ with your identity account."
-msgstr ""
+msgstr "Logga in på `phabricator`_ med din identitets konto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
 msgid "Go to differential."
-msgstr ""
+msgstr "Gå till differential."
 
 #: ../../contributors_manual/krita_manual_readme.rst:104
 msgid "Upper-right --> \"Star\" menu --> Create Review Request."
-msgstr ""
+msgstr "Uppe till höger --> \"stjärnmenyn\" --> Create Review Request."
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid ""
@@ -291,7 +296,7 @@ msgstr "Bekräfta att filen är riktig."
 
 #: ../../contributors_manual/krita_manual_readme.rst:107
 msgid "Then in the next screen:"
-msgstr ""
+msgstr "Därefter, på nästa skärm:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:109
 msgid "Add in Title/Short Summary."
@@ -299,7 +304,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
 msgid "Tell us what you changed in the summary."
-msgstr ""
+msgstr "Tala om för oss vad du ändrade i sammanfattningen."
 
 #: ../../contributors_manual/krita_manual_readme.rst:111
 msgid "(Optional) put your email in the comment if you want attribution."
@@ -336,23 +341,25 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:124
 msgid "Despite that, we know a couple of things about our users:"
-msgstr ""
+msgstr "Trots det, vet vi en del om våra användare:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:126
 msgid "They are artists. This is explicitly the type of users that we target."
 msgstr ""
+"De är konstnärer. Det är den sortens användare som vi explicit riktar oss "
+"mot."
 
 #: ../../contributors_manual/krita_manual_readme.rst:128
 msgid "Therefore, we know they prefer pretty pictures."
-msgstr ""
+msgstr "Därför vet vi att de fördrar snygga bilder."
 
 #: ../../contributors_manual/krita_manual_readme.rst:129
 msgid "They are visual."
-msgstr ""
+msgstr "De är visuella."
 
 #: ../../contributors_manual/krita_manual_readme.rst:130
 msgid "They are trying to achieve pretty pictures."
-msgstr ""
+msgstr "De försöker åstadkomma snygga bilder."
 
 #: ../../contributors_manual/krita_manual_readme.rst:132
 msgid ""
@@ -362,7 +369,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:134
 msgid "Other than that, we've observed the following groups:"
-msgstr ""
+msgstr "Förutom det har vi observerat följande grupper:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:136
 msgid ""
@@ -436,7 +443,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:151
 msgid "From that we can get the following rules:"
-msgstr ""
+msgstr "Från detta kan vi erhålla följande regler:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:154
 msgid "General Writing"
@@ -444,17 +451,19 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:156
 msgid "Use American English if possible."
-msgstr ""
+msgstr "Använd amerikansk engelska om möjligt."
 
 #: ../../contributors_manual/krita_manual_readme.rst:157
 msgid ""
 "We use American English in the manual, in accordance to Krita's UI being "
 "American English by default."
 msgstr ""
+"Vi använder amerikansk engelska i handboken, eftersom Kritas "
+"användargränssnitt standardmässigt är på amerikansk engelska."
 
 #: ../../contributors_manual/krita_manual_readme.rst:158
 msgid "Keep the language polite, but do not use academic language."
-msgstr ""
+msgstr "Håll språket hövligt, men använd inte akademiskt språk."
 
 #: ../../contributors_manual/krita_manual_readme.rst:159
 msgid ""
@@ -467,7 +476,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:160
 msgid "Avoid using gifs (open for debate)"
-msgstr ""
+msgstr "Undvik användning av gif (öppet för diskussion)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:161
 msgid ""
@@ -479,7 +488,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid "Keep it translation compatible"
-msgstr ""
+msgstr "Håll det översättningskompatibelt"
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
@@ -710,17 +719,19 @@ msgstr "Korrekturläsning"
 
 #: ../../contributors_manual/krita_manual_readme.rst:264
 msgid "There are two types of proofreading that needs to be done."
-msgstr ""
+msgstr "Det finns två sorters korrekturgranskning som måste göras."
 
 #: ../../contributors_manual/krita_manual_readme.rst:266
 msgid ""
 "The most important one is **reviewing changes people make**. You can do this "
 "on phabricator in two ways:"
 msgstr ""
+"Den viktigaste är att **granska ändringar som personer gör**. Det kan man "
+"göra på phabricator på två olika sätt:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:268
 msgid "Reviewing patches in differential."
-msgstr ""
+msgstr "Granska programfixar i differential."
 
 #: ../../contributors_manual/krita_manual_readme.rst:270
 msgid ""

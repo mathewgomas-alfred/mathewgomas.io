@@ -21,7 +21,7 @@ These blending modes are based on simple maths.
 Addition
 ~~~~~~~~
 
-Adds the numerical values of two colours together:
+Adds the numerical values of two colors together:
 
 Yellow(1, 1, 0) + Blue(0, 0, 1) = White(1, 1, 1)
 
@@ -115,7 +115,7 @@ Multiply
 Multiplies the two colors with each other, but does not go beyond the upper limit.
 
 This is often used to color in a black and white lineart.
-One puts the black and white lineart on top, and sets the layer to 'Multiply', and then draw in color on a layer beneath. Multiply will all the colour to go through.
+One puts the black and white lineart on top, and sets the layer to 'Multiply', and then draw in color on a layer beneath. Multiply will all the color to go through.
 
 White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)
 

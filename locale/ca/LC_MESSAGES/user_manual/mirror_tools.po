@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___mirror_tools\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-11 10:19+0100\n"
+"PO-Revision-Date: 2019-03-24 08:16+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr "Com s'utilitzen les eines d'emmirallar el llenç en el Krita."
 
 #: ../../user_manual/mirror_tools.rst:16
 msgid "Mirror Tools"
-msgstr "Eines de mirall"
+msgstr "Eines d'emmirallar"
 
 #: ../../user_manual/mirror_tools.rst:18
 msgid ""
@@ -33,6 +33,10 @@ msgid ""
 "to the other side. The Mirror Tools are accessed along the toolbar. You can "
 "move the location of the mirror line by grabbing the handle."
 msgstr ""
+"Dibuixeu en un costat d'una línia del mirall mentre l'eina d'emmirallar "
+"copiarà el resultat a l'altre costat. A les eines d'emmirallar s'hi accedeix "
+"al llarg de la barra d'eines. Podeu moure la ubicació de la línia del mirall "
+"prenent la nansa."
 
 #: ../../user_manual/mirror_tools.rst:21
 msgid ".. image:: images/en/Mirror-tool.png"
@@ -46,38 +50,53 @@ msgid ""
 "traces strokes, such as the :ref:`line_tool` and the :ref:`path_tool`, and "
 "even with the Multibrush Tool."
 msgstr ""
+"Les eines d'emmirallar donen un resultat similar a l':ref:`multibrush_tool`, "
+"però a diferència del pinzell múltiple, el qual només fa pinzellades com l':"
+"ref:`freehand_brush_tool`, les eines d'emmirallar es poden utilitzar amb "
+"qualsevol altra eina que faci traços de pinzell, com ara l':ref:`line_tool` "
+"i l':ref:`path_tool`, i fins i tot amb l'eina múltiples pinzells."
 
 #: ../../user_manual/mirror_tools.rst:24
 msgid ""
 "**Horizontal Mirror Tool** - Mirror the results along the horizontal axis."
 msgstr ""
+"**Eina d'emmirallament horitzontal**: Reflecteix el resultat al llarg de "
+"l'eix horitzontal."
 
 #: ../../user_manual/mirror_tools.rst:27
 msgid "**Vertical Mirror Tool** - Mirror the results along the vertical axis."
 msgstr ""
+"**Eina d'emmirallament vertical**: Reflecteix el resultat al llarg de l'eix "
+"vertical."
 
 #: ../../user_manual/mirror_tools.rst:30
 msgid ""
 "There are additional options for each tool. You can access these by the "
 "clicking the drop-down arrow located on the right of each tool."
 msgstr ""
+"Hi ha opcions addicionals per a cada eina. Hi podreu accedir fent clic a la "
+"fletxa desplegable situada a la dreta de cada eina."
 
 #: ../../user_manual/mirror_tools.rst:33
 msgid ""
 "Hide Mirror Line (toggle) -- Locks the mirror axis and hides the axis line"
 msgstr ""
+"Oculta la línia X/Y del mirall (alternar): bloqueja l'eix del mirall i "
+"oculta la línia de l'eix."
 
 #: ../../user_manual/mirror_tools.rst:35
 msgid "Lock (toggle) - hides the move icon on the axis line."
 msgstr ""
+"Desbloqueja/Bloqueja (alternar): oculta la icona de moviment a la línia de "
+"l'eix."
 
 #: ../../user_manual/mirror_tools.rst:36
 msgid "Move to Canvas Center - Moves the axis line to the center of the canvas"
-msgstr ""
+msgstr "Mou al centre del llenç: mou la línia de l'eix al centre del llenç."
 
 #: ../../user_manual/mirror_tools.rst:40
 msgid "Mirroring along a rotated line"
-msgstr ""
+msgstr "Emmirallar al llarg d'una línia girada"
 
 #: ../../user_manual/mirror_tools.rst:42
 msgid ""
@@ -86,3 +105,7 @@ msgid ""
 "`multibrush_tool` and its various parameters, it has more advanced options "
 "besides basic symmetry."
 msgstr ""
+"L'eina d'emmirallar només pot reflectir al llarg d'una línia perfectament "
+"vertical o horitzontal. Per a reflectir al llarg d'una línia que es troba en "
+"un angle girat, utilitzeu :ref:`multibrush_tool` i els seus diversos "
+"paràmetres, disposa d'opcions més avançades a més de la simetria bàsica."

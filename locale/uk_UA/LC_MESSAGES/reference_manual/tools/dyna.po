@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___dyna\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 18:51+0200\n"
+"POT-Creation-Date: 2019-03-14 03:27+0100\n"
+"PO-Revision-Date: 2019-03-14 07:10+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -46,6 +46,9 @@ msgid ""
 "smoothing results as the normal freehand brush. There are a couple options "
 "that you can change."
 msgstr ""
+"Додає нетипову динаміку згладжування до вашого пензля. Ефект чимось подібний "
+"до згладжування у звичайному пензлі для довільного малювання. Передбачено "
+"декілька параметрів, значення яких ви можете змінювати."
 
 #: ../../reference_manual/tools/dyna.rst:22
 msgid "Mass"
@@ -56,16 +59,20 @@ msgid ""
 "Average your movement to make it appear smoother. Higher values will make "
 "your brush move slower."
 msgstr ""
+"Усереднення руху для надання йому згладженості. Більші значення — "
+"повільніший рух пензля."
 
 #: ../../reference_manual/tools/dyna.rst:25
 msgid "Drag"
-msgstr "Зсув"
+msgstr "Інерція"
 
 #: ../../reference_manual/tools/dyna.rst:25
 msgid ""
 "A rubberband effect that will help your lines come back to your cursor. "
-"lower values will make the effect more extreme."
+"Lower values will make the effect more extreme."
 msgstr ""
+"Ефект пружності, який повертає ваші лінії до вказівника. Менші значення "
+"роблять ефект екстремальнішим."
 
 #: ../../reference_manual/tools/dyna.rst:27
 msgid "Recommended values are around 0.02 Mass and 0.92 Drag."

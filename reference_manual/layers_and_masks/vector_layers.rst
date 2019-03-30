@@ -21,12 +21,12 @@ Vector Layers
 
 .. warning::
     
-    This page is outdated. check :ref:`vector_graphics` for a better overview.
+    This page is outdated. Check :ref:`vector_graphics` for a better overview.
 
 What is a Vector Layer?
 -----------------------
 
-A Vector Layers, also known as a shape layer, is a type of layer that contains only vector elements.
+A Vector Layers, also known as a shape layer, is a type of layers that contains only vector elements.
 
 This is how vector layers will appear in the :program:`Krita` Layers docker. 
 
@@ -133,7 +133,7 @@ To the right of that is the solid square. This sets the fill to be a solid color
 
 Under the **X** is a button that shows a pattern. This inside area will be filled with a pattern. A pattern can be chosen by pressing the arrows next to the long button. The two other buttons are for **fill rules**: the way a self-overlapping path is filled.
 
-* The button with the inner square blank toggles even-odd mode, where every filled region of the path is next to an unfilled one, like this :
+* The button with the inner square blank toggles even-odd mode, where every filled region of the path is next to an unfilled one, like this:
 
 .. image:: /images/en/400px-Fill_rule_even-odd.svg.png
 
@@ -141,4 +141,4 @@ Under the **X** is a button that shows a pattern. This inside area will be fille
 
 .. image:: /images/en/400px-Fill_rule_non-zero.svg.png
 
-For more (and better) information about fill rules check http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke.html#Attributes-Fill-Rule Inkscape manual.
+For more (and better) information about fill rules check the `Inkscape manual <http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke.html#Attributes-Fill-Rule>`_.

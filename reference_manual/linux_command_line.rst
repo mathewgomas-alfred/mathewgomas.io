@@ -41,11 +41,11 @@ importfilename
    
    Export filename says that the following word is the filename it should be exported to.
 
-   Replace this with the name of the output file. Use a different extension to change the fileformat.
+   Replace this with the name of the output file. Use a different extension to change the file format.
 
 Example:
 
-``krita final.png --export --export-filename final.jpg``
+``krita file.png --export --export-filename final.jpg``
 
 This line takes the file ``file.png`` and saves it as ``file.jpg``.
 
@@ -61,12 +61,13 @@ This line takes the file ``file.png`` and saves it as ``file.jpg``.
    
    This line takes the animation in test.kra, and uses the value of --export-filename (file.png), to determine the sequence fileformat('png') and the frame prefix ('file').
 
+
 PDF export
 ----------
 
 Pdf export looks a bit different, using the ``--export-pdf`` option.
 
-``krita final.png --export-pdf --export-filename final.pdf``
+``krita file.png --export-pdf --export-filename final.pdf``
 
 export-pdf exports the file ``file.png`` as a pdf file.
 
@@ -102,7 +103,7 @@ Open krita and automatically open the given template(s). This allows you to, for
 
    Selects the template option
 
-   All templates are saved with the .desktop extension. You can find templates in the .kde/share/apps/krita/template or in the install folder of Krita.
+   All templates are saved with the .desktop extension. You can find templates in the .local/share/krita/template or in the install folder of Krita.
 
    ``krita --template BD-EuroTemplate.desktop``
 

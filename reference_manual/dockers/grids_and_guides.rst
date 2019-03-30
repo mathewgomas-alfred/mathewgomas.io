@@ -23,7 +23,7 @@ This docker controls the look and the visibility of both the Grid and the Guides
 Grids
 -----
 
-Grids in Krita can currently only be orthogonal and diagonal.. There is a single grid per canvas, and it is saved within the document. Thus it can be saved in a :ref:`templates`.
+Grids in Krita can currently only be orthogonal and diagonal. There is a single grid per canvas, and it is saved within the document. Thus it can be saved in a :ref:`templates`.
 
 Show Grid
     Shows or hides the grid.
@@ -77,6 +77,8 @@ To create a guide, you need both the rulers and the guides to be visible.
 To create a guide, move your cursor over a ruler and drag in the direction of the canvas. A line will appear. Dragging from the left ruler creates a vertical guide, and dragging from the top ruler creates a horizontal guide.
 
 Editing Guides
+~~~~~~~~~~~~~~
+
 Place your cursor above a guide on the canvas. If the guides are not locked, your cursor will change to a double arrow. In that case, click and drag to move the guide.
 To lock and unlock the guides, open the Grid and Guides Docker. Ensure that the Guides tab is selected. From here you can lock the guides, enable snapping, and change the line style.
 

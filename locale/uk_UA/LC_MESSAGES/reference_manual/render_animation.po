@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___render_animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 19:46+0200\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-22 22:01+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:1
 msgid "How to use the render animation command in Krita."
-msgstr ""
+msgstr "Як користуватися командою обробки анімації у Krita."
 
 #: ../../reference_manual/render_animation.rst:17
 #: ../../reference_manual/render_animation.rst:42
@@ -34,12 +34,15 @@ msgid ""
 "Render animation allows you to render your animation to an image sequence, "
 "gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` ."
 msgstr ""
+"Засіб обробки анімації надає вам змогу зберегти вашу анімацію як "
+"послідовність зображень, файл gif, mp4, mkv або ogg. Цей засіб замінив собою "
+"пункт меню :guilabel:`Експортувати анімацію`."
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
-"For rendering to an animated fileformat, Krita will first render to a png "
+"For rendering to an animated file format, Krita will first render to a png "
 "sequence and then use FFMpeg, which is really good at encoding into video "
-"files, to render that sequence to an animated fileformat. The reason for "
+"files, to render that sequence to an animated file format. The reason for "
 "this two-step process is that animation files can be really complex and "
 "really big, and this is the best way to allow you to keep control over the "
 "export process. For example, if your computer has a hiccup, and one frame "
@@ -68,6 +71,8 @@ msgid ""
 "The base name of your image sequence. This will get suffixed with a number "
 "depending on the frame."
 msgstr ""
+"Базова назва вашої послідовності зображень. До цієї назви буде додано суфікс "
+"номера кадру."
 
 #: ../../reference_manual/render_animation.rst:30
 msgid "File Format"
@@ -75,9 +80,12 @@ msgstr "Формат файла"
 
 #: ../../reference_manual/render_animation.rst:31
 msgid ""
-"The fileformat to export the sequence to. When rendering we enforce png. The "
-"usual export options can be modified with :guilabel:`...`."
+"The file format to export the sequence to. When rendering we enforce png. "
+"The usual export options can be modified with :guilabel:`...`."
 msgstr ""
+"Формат файлів для експортування послідовності зображень. Під час обробки "
+"буде примусово використано формат png. Змінити параметри експортування можна "
+"натисканням кнопки :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:32
 msgid "Render Location"
@@ -88,6 +96,8 @@ msgid ""
 "Where you render the image sequence to. Some people prefer to use a flash-"
 "drive or perhaps a harddrive that is fast."
 msgstr ""
+"Місце, куди слід зберегти послідовність зображень. Дехто надає перевагу "
+"флешці або швидкому диску."
 
 #: ../../reference_manual/render_animation.rst:34
 msgid "First Frame"
@@ -95,7 +105,7 @@ msgstr "Перший кадр"
 
 #: ../../reference_manual/render_animation.rst:35
 msgid ""
-"The first frame of the range of frame you wish to adjust. Automatically set "
+"The first frame of the range of frames you wish to adjust. Automatically set "
 "to the first frame of your current selection in the timeline. This is useful "
 "when you only want to re-render a little part."
 msgstr ""
@@ -106,7 +116,7 @@ msgstr "Останній кадр"
 
 #: ../../reference_manual/render_animation.rst:37
 msgid ""
-"As above, the last frame of the range of frame you wish to adjust. "
+"As above, the last frame of the range of frames you wish to adjust. "
 "Automatically set to the last frame of your current selection in the "
 "timeline."
 msgstr ""
@@ -133,6 +143,8 @@ msgid ""
 "The file format to render to. All except gif have extra options that can be "
 "manipulated via :guilabel:`...`."
 msgstr ""
+"Формат файлів для обробки. Для усіх форматів, окрім gif, передбачено "
+"додаткові параметри, змінити які можна натисканням кнопки :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:46
 msgid "File"
@@ -173,7 +185,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "Налаштовування Krita на експортування анімацій"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -196,13 +208,15 @@ msgstr "У Windows"
 
 #: ../../reference_manual/render_animation.rst:68
 msgid ""
-"Go to the ffmpeg website (http://ffmpeg.org/download.html). The URL that had "
-"the link for me was here... https://ffmpeg.zeranoe.com/builds/"
+"Go to the `ffmpeg website <http://ffmpeg.org/download.html>`_. The URL that "
+"had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_"
 msgstr ""
+"Перейдіть на `сайт ffmpeg <http://ffmpeg.org/download.html>`_. Адреса "
+"пакунків для Windows — <https://ffmpeg.zeranoe.com/builds/>`_"
 
 #: ../../reference_manual/render_animation.rst:70
 msgid ""
-"Watch out for the extremely annoying google ad that looks like a download "
+"Watch out for the extremely annoying google and that looks like a download "
 "button! There is no big button for what we need. Either get the 64-bit "
 "STATIC version or 32-bit STATIC version that is shown later down the page. "
 "If you bought a computer in the past 5 years, you probably want the 64-bit "
@@ -217,11 +231,11 @@ msgstr "У OSX"
 
 #: ../../reference_manual/render_animation.rst:75
 msgid ""
-"Please see the section above. However, FFmpeg is obtained from https://"
-"evermeet.cx/ffmpeg/ instead. Just pick the big green button on the left "
-"under the FFmpeg heading. You will also need an archiving utility that "
-"supports .7z, since ffmpeg provides their OSX builds in .7z format. If you "
-"don't have one, try something like Keka (http://www.kekaosx.com)."
+"Please see the section above. However, FFmpeg is obtained from `here "
+"<https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on "
+"the left under the FFmpeg heading. You will also need an archiving utility "
+"that supports .7z, since ffmpeg provides their OSX builds in .7z format. If "
+"you don't have one, try something like `Keka <http://www.kekaosx.com>`_."
 msgstr ""
 
 #: ../../reference_manual/render_animation.rst:78
@@ -235,6 +249,9 @@ msgid ""
 "2.6 is required for proper gif support, as we use the palettegen "
 "functionality."
 msgstr ""
+"FFMPeg у більшості дистрибутивів Linux можна встановити зі сховищ пакунків. "
+"Для забезпечення належної підтримки gif слід встановити принаймні версію "
+"2.6, оскільки ми використовуємо можливості palettegen."
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
@@ -268,16 +285,20 @@ msgid ""
 "FFMpeg is, if installed from the repositories, usually found in ``/usr/bin/"
 "ffmpeg``"
 msgstr ""
+"FFMpeg, якщо пакунок встановлено зі сховищ пакунків, зазвичай, "
+"встановлюється як ``/usr/bin/ffmpeg``"
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "Крок 3 — тестування анімації"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
 "ffmpeg.exe is what Krita uses to do all of its animation export magic. Now "
 "that it is hooked up, let us test it out."
 msgstr ""
+"Для виконання усіх дій із експортування анімації Krita використовує ffmpeg."
+"exe. Коли ми встановлено усі потрібні компоненти, варто виконати тестування."
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""

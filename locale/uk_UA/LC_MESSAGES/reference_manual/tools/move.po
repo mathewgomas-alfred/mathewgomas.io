@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___move\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-25 21:52+0200\n"
+"PO-Revision-Date: 2019-03-12 16:54+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -62,7 +62,7 @@ msgstr "Пересунути поточний шар"
 
 #: ../../reference_manual/tools/move.rst:23
 msgid "Anything that is on the selected layer will be moved"
-msgstr ""
+msgstr "Буде пересунуто усе на позначеному шарі."
 
 #: ../../reference_manual/tools/move.rst:24
 msgid "Move layer with content"
@@ -73,6 +73,8 @@ msgid ""
 "Any content contained on the layer that is resting under the four-headed "
 "Move cursor will be moved"
 msgstr ""
+"Буде пересунуто усе, що міститься на шарі, який розташовано під "
+"чотиристрілковим вказівником для пересування."
 
 #: ../../reference_manual/tools/move.rst:26
 msgid "Move the whole group"
@@ -84,6 +86,9 @@ msgid ""
 "might result in slow and, sometimes, jerky movements. Use this option "
 "sparingly or only when necessary."
 msgstr ""
+"Буде пересунуто усе на усіх шарах. Залежно від кількості шарів, це може "
+"призвести до уповільнення та, іноді, пересування ривками. Користуйтеся цим "
+"варіантом обережно або лише за потреби."
 
 #: ../../reference_manual/tools/move.rst:28
 msgid "Shortcut move distance (3.0+)"
@@ -94,6 +99,9 @@ msgid ""
 "This allows you to set how much, and in which units, the :kbd:`&larr;`, :kbd:"
 "`&uarr;`, :kbd:`&rarr;` and :kbd:`&darr;` actions will move the layer."
 msgstr ""
+"За допомогою цього пункту ви можете вказати на скільки і у яких одиницях "
+"стрілки :kbd:`&larr;`, :kbd:`&uarr;`, :kbd:`&rarr;` і :kbd:`&darr;` "
+"пересуватимуть шар."
 
 #: ../../reference_manual/tools/move.rst:30
 msgid "Large Move Scale (3.0+)"
@@ -104,6 +112,8 @@ msgid ""
 "Allows you to multiply the movement of the Shortcut Move Distance when "
 "pressing :kbd:`Shift` before pressing a direction key."
 msgstr ""
+"Надає вам змогу помножити відстань пересування за клавіатурним скороченням, "
+"якщо перед натисканням клавіші напрямку натиснуто клавішу :kbd:`Shift`."
 
 #: ../../reference_manual/tools/move.rst:32
 msgid "Show coordinates"
@@ -114,6 +124,8 @@ msgid ""
 "When toggled will show the coordinates of the top-left pixel of the moved "
 "layer in a floating window."
 msgstr ""
+"Якщо позначено, програма показуватиме координати верхнього лівого пікселя "
+"пересунутого шару у рухомому вікні."
 
 #: ../../reference_manual/tools/move.rst:35
 msgid ""
@@ -122,6 +134,11 @@ msgid ""
 "`Shift`, then click, then move, all layers will be moved, with the movement "
 "constrained to the horizontal and vertical directions"
 msgstr ""
+"Якщо ви натиснете ліву кнопку миші, потім натиснете клавішу :kbd:`Shift`, а "
+"далі пересунете шар, рух буде обмежено горизонтальним або вертикальним "
+"напрямком. Якщо ви натиснете клавішу :kbd:`Shift`, натиснете ліву кнопку "
+"миші, потім пересунете вказівник, буде пересунуто усі шари із обмеженням "
+"руху горизонтальним або вертикальним напрямком."
 
 #: ../../reference_manual/tools/move.rst:37
 msgid "Constrained movement"
@@ -130,4 +147,4 @@ msgstr "Обмежене пересування"
 #: ../../reference_manual/tools/move.rst:40
 msgid ""
 "Gives the top-left coordinate of the layer, can also be manually edited."
-msgstr ""
+msgstr "Показує верхню ліву координату шару, також можна редагувати вручну."

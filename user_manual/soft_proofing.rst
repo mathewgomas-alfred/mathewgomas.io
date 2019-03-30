@@ -33,14 +33,14 @@ So ideally, you would do the image in RGB, and use all your favorite RGB tools, 
     
     On the left, the original, on the right, a view where soft proofing is turned on. The difference is subtle due to the lack of really bright colors, but the soft proofed version is slightly less blueish in the whites of the flowers and slightly less saturated in the greens of the leaves.
 
-You can toggle soft proofing on any image using :kbd:`Ctrl + Y`. Unlike other programs, this is per-view, so that you can look at your image non-proofed and proofed, side by side. The settings are also per image, and saved into the .kra file. You can set the proofing options in :menuselection:`image --> image properties --> Soft Proofing`.
+You can toggle soft proofing on any image using :kbd:`Ctrl + Y`. Unlike other programs, this is per-view, so that you can look at your image non-proofed and proofed, side by side. The settings are also per image, and saved into the .kra file. You can set the proofing options in :menuselection:`Image --> Image Properties --> Soft Proofing`.
 
 There you can set the following options:
 
 Profile, Depth, Space
     Of these, only the profile is really important. This will serve as the profile you are proofing to. In a professional print workflow, this profile should be determined by the printing house.
 Intent
-    Set the proofing Intent. It uses the same intents as the intents mentioned in the color managed workflow.
+    Set the proofing Intent. It uses the same intents as the intents mentioned in the :ref:`color managed workflow <color_managed_workflow>`.
 
     .. figure:: /images/en/Softproofing_adaptationstate.png
         :align: center

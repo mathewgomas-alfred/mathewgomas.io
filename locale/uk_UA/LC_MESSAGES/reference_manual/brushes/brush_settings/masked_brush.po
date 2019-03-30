@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_settings___masked_brush\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-07 03:33+0100\n"
-"PO-Revision-Date: 2019-02-21 17:16+0200\n"
+"POT-Creation-Date: 2019-03-28 03:35+0100\n"
+"PO-Revision-Date: 2019-03-26 07:16+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,17 +21,13 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid ".. image:: images/en/Masking-brush1.jpg"
-msgstr ".. image:: images/en/Masking-brush1.jpg"
-
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid "Difference from :ref:`option_texture`"
-msgstr "Відмінності від :ref:`option_texture`"
-
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
 msgid ".. image:: images/en/Masking-brush2.jpg"
 msgstr ".. image:: images/en/Masking-brush2.jpg"
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
+msgid ".. image:: images/en/Masking-brush1.jpg"
+msgstr ".. image:: images/en/Masking-brush1.jpg"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
 msgid ""
@@ -53,13 +49,22 @@ msgid ""
 "One brush tip will be a mask for your primary brush tip. A masked brush is a "
 "good alternative to texture for creating expressive and textured brushes."
 msgstr ""
+"Пензель маскування є новою можливістю, яка доступна лише для інструмента :"
+"ref:`pixel_brush_engine`. Реалізується можливість через додаткові параметри, "
+"які буде показано у редакторі пензлів. Пензлі маскування надають вам змогу "
+"поєднувати два кінчика пензля у одному мазку. Один із кінчиків пензлів буде "
+"маскою для основного кінчика пензля. Пензель маскування є чудовою "
+"альтернативою до текстури для створення виразних і текстурованих пензлів."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
 msgid ""
-"due to technological constraints, the masked brush only works in the wash "
+"Due to technological constraints, the masked brush only works in the wash "
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
 msgstr ""
+"Через технологічні обмеження пензель маскування працює лише у режимі "
+"малювання аквареллю. Втім, слід пам'ятати, що у режимі надмальовування потік "
+"працює як непрозорість."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:32
 msgid ""
@@ -68,9 +73,14 @@ msgid ""
 "This means when you change your brush size masking tip will be changed to "
 "keep the ratio."
 msgstr ""
+"Як і зі звичайним кінчиком пензля, ви можете вибрати будь-який кінчик пензля "
+"і змінити його розмір, інтервал та обертання. Розмір пензля маскування "
+"задається відносно розміру основного пензля. Це означає, що коли ви змінюєте "
+"розмір вашого пензля, розмір кінчика пензля маскування також змінюється зі "
+"збереженням початкового співвідношення розмірів."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
-msgid ":ref:`Blending mode (dropdown inside Brush tip)<blending_modes>`:"
+msgid ":ref:`Blending mode (drop-down inside Brush tip)<blending_modes>`:"
 msgstr ""
 ":ref:`Режим змішування (спадний список у пункті кінчика "
 "пензля)<blending_modes>`:"
@@ -101,6 +111,9 @@ msgid ""
 "default. Flow can be quite aggressive on subtract mode, so it might be an "
 "idea to turn it off there."
 msgstr ""
+"Непрозорість і потік другого кінчика пензля. Його, типово, буде пов'язано із "
+"датчиком планшета. Потік може бути доволі агресивним у різницевому режимі, "
+"тому зв'язок із датчиком, можливо, варто вимкнути."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:44
 msgid ":ref:`option_ratio`"
@@ -136,11 +149,40 @@ msgid ""
 "The scatter option. The default is quite high, so don't forget to turn it "
 "lower."
 msgstr ""
+"Параметр розсіювання. Типове значення є доволі високим, тому можете його "
+"зменшити."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
+msgid "You don’t need seamless texture to make cool looking brush"
+msgstr ""
+"Вам не потрібна безшовна текстура для створення чудового вигляду пензля."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:56
+msgid "Stroke generates on the fly, it always different"
+msgstr "Мазок створюється на льоту і завжди є неповторним."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:57
+msgid "Brush strokes looks same on any brush size"
+msgstr "Мазки пензлем виглядають однаково для усіх розмірів пензля."
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:58
 msgid ""
-"You don’t need seamless texture to make cool looking brush Stroke generates "
-"on the fly, it always different Brush strokes looks same on any brush size "
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
 msgstr ""
+"Простіше заповнювати певні ділянки суцільним кольором, але важче жорстко "
+"текстурувати ділянку."
+
+#~ msgid "Difference from :ref:`option_texture`"
+#~ msgstr "Відмінності від :ref:`option_texture`"
+
+#~ msgid ""
+#~ "You don’t need seamless texture to make cool looking brush Stroke "
+#~ "generates on the fly, it always different Brush strokes looks same on any "
+#~ "brush size Easier to fill some areas with solid color but harder to make "
+#~ "it hard textured"
+#~ msgstr ""
+#~ "Вам не потрібна безшовна текстура для створення чудового вигляду пензля. "
+#~ "Мазок створюється на льоту і завжди є неповторним. Мазки пензлем "
+#~ "виглядають однаково для усіх розмірів пензля. Простіше заповнювати певні "
+#~ "ділянки суцільним кольором, але важче жорстко текстурувати ділянку."

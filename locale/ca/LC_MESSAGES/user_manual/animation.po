@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-09 03:31+0100\n"
-"PO-Revision-Date: 2019-03-11 18:07+0100\n"
+"POT-Creation-Date: 2019-03-22 03:26+0100\n"
+"PO-Revision-Date: 2019-03-28 15:35+0100\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,6 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 18.12.3\n"
+
+# skip-rule: t-sp_2p
+#: ../../<rst_epilog>:2
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
 
 # skip-rule: t-sp_2p
 #: ../../<rst_epilog>:4
@@ -113,7 +122,7 @@ msgstr ""
 "El :ref:`timeline_docker`. Veureu i controlareu tots els fotogrames de la "
 "vostra animació. L'acoblador línia de temps també conté característiques per "
 "a gestionar les capes. La capa creada en l'acoblador línia de temps també "
-"apareixerà a l'acoblador Capa normal."
+"apareixerà a l'acoblador de capes normal."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:52
@@ -182,7 +191,7 @@ msgid ""
 "In the second tab, we choose a nice background color, and set the background "
 "to canvas-color. This means that Krita will automatically fill in any "
 "transparent bits with the background color. You can change this in :"
-"menuselection:`image --> image properties`. This seems to be most useful to "
+"menuselection:`Image --> Image Properties`. This seems to be most useful to "
 "people doing animation, as the layer you do animation on MUST be semi-"
 "transparent to get onion skinning working."
 msgstr ""
@@ -261,7 +270,7 @@ msgid ""
 msgstr ""
 "Tenim configurades dues capes transparents. Anomenem el primer «entorn» i la "
 "part superior «Cicle de caminar» fent doble clic en els seus noms a "
-"l'acoblador capa."
+"l'acoblador de capes."
 
 #: ../../user_manual/animation.rst:110
 msgid ".. image:: images/en/Introduction_to_animation_04.png"
@@ -330,12 +339,12 @@ msgstr ".. image:: images/en/Introduction_to_animation_08.png"
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:134
 msgid ""
-"Use the to copy frame to copy the first frame onto the second. Then, use the "
-"with :kbd:`Shift + ↑` to move the frame contents up."
+"Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
+"second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgstr ""
-"Utilitzeu Copia el fotograma per a copiar el primer fotograma al segon. "
-"Després, utilitzeu la drecera :kbd:`Majús. + ↑` per a moure el contingut del "
-"fotograma cap amunt."
+"Utilitzeu el botó :guilabel:`Copia el fotograma` per a copiar el primer "
+"fotograma al segon. Després, utilitzeu la drecera :kbd:`Majús. + ↑` per a "
+"moure el contingut del fotograma cap amunt."
 
 #: ../../user_manual/animation.rst:138
 msgid "We can see the difference by turning on the onionskinning:"
@@ -382,11 +391,11 @@ msgstr ".. image:: images/en/Introduction_to_animation_11.png"
 msgid ""
 "Now, we're gonna draw the two extremes of the walkcycle. These are the pose "
 "where both legs are as far apart as possible, and the pose where one leg is "
-"full stretched and the other pulled in, read to take the next step."
+"full stretched and the other pulled in, ready to take the next step."
 msgstr ""
 "Ara, dibuixarem els dos extrems del cicle de caminar. Aquestes seran les "
 "postures en les que totes dues cames estan el més separades possible, i la "
-"postura on una cama està completament estirada i l'altra arronsada, llegiu "
+"postura on una cama està completament estirada i l'altra arronsada, llest "
 "per a fer el següent pas."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
@@ -405,16 +414,16 @@ msgstr ".. image:: images/en/Introduction_to_animation_12.png"
 # skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:164
 msgid ""
-":kbd:`Ctrl + |mouseleft|` also selects and deselects frames, so to copy..."
+":kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy..."
 msgstr ""
-":kbd:`Ctrl + |mouseleft|` també selecciona i desselecciona els fotogrames, "
+":kbd:`Ctrl +` |mouseleft| també selecciona i desselecciona els fotogrames, "
 "per a copiar..."
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/animation.rst:166
-msgid ":kbd:`Ctrl + |mouseleft|` to select all the frames you want to select."
+msgid ":kbd:`Ctrl +` |mouseleft| to select all the frames you want to select."
 msgstr ""
-":kbd:`Ctrl + |mouseleft|` per a seleccionar tots els fotogrames que voleu "
+":kbd:`Ctrl +` |mouseleft| per a seleccionar tots els fotogrames que voleu "
 "seleccionar."
 
 # skip-rule: t-acc_obe,t-apo_ini
@@ -533,7 +542,7 @@ msgstr ".. image:: images/en/Introduction_to_animation_17.png"
 
 #: ../../user_manual/animation.rst:213
 msgid ""
-"Our walkcycle is gone from the time-line docker! This is a feature actually. "
+"Our walkcycle is gone from the timeline docker! This is a feature actually. "
 "A full animation can have so many little parts that an animator might want "
 "to remove the layers they're not working on from the timeline docker. So you "
 "manually have to add them."
@@ -555,8 +564,8 @@ msgid ""
 "layer in the layer docker, and toggling :guilabel:`Show in Timeline`."
 msgstr ""
 "Podeu mostrar qualsevol capa donada a la línia de temps fent clic |"
-"mouseright| sobre la capa a l'acoblador capa, i alternant :guilabel:`Mostra "
-"a la línia de temps`."
+"mouseright| sobre la capa a l'acoblador de capes, i alternant "
+":guilabel:`Mostra a la línia de temps`."
 
 #: ../../user_manual/animation.rst:224
 msgid ".. image:: images/en/Introduction_to_animation_19.png"
@@ -568,9 +577,10 @@ msgstr "Exportant"
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:228
-msgid "When you are done, select :menuselection:`File --> Export Animation`"
+msgid "When you are done, select :menuselection:`File --> Render Animation`"
 msgstr ""
-"Quan hàgiu acabat, seleccioneu :menuselection:`Fitxer --> Exporta l'animació`"
+"Quan hàgiu acabat, seleccioneu :menuselection:`Fitxer --> Renderitza una "
+"animació`"
 
 #: ../../user_manual/animation.rst:231
 msgid ".. image:: images/en/Introduction_to_animation_20.png"
@@ -623,11 +633,12 @@ msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 #: ../../user_manual/animation.rst:251
 msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
-"(Windows) and open all the frames and then go to File → Export → GIF"
+"(Windows) and open all the frames and then go to :menuselection:`File --> "
+"Export --> GIF`."
 msgstr ""
 "Per exemple, podeu utilitzar el `VirtualDub <http://www.virtualdub.org/>`__"
-"\\ (Windows), obrir tots els fotogrames i després anar a «Fitxer → Exporta → "
-"GIF»"
+"\\ (Windows), obrir tots els fotogrames i després anar a :menuselection:"
+"`Fitxer --> Exporta --> GIF`."
 
 #: ../../user_manual/animation.rst:255
 msgid "Enjoy your walkcycle!"
@@ -653,8 +664,8 @@ msgstr "Al Krita 3.0 podeu importar fotogrames d'animació."
 
 #: ../../user_manual/animation.rst:266
 msgid ""
-"First let us take a sprite sheet from Open Game Art.(This is the Libre Pixel "
-"Cup male walkcycle)"
+"First let us take a sprite sheet from Open Game Art. (This is the Libre "
+"Pixel Cup male walkcycle)"
 msgstr ""
 "Primer prenguem un full de sprites d'Open Game Art. (Aquest és el cicle de "
 "caminar masculí de la Libre Pixel Cup)"
@@ -662,11 +673,11 @@ msgstr ""
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/animation.rst:269
 msgid ""
-"And we'll use :menuselection:`Image --> Split Image to split up the sprite "
-"sheet`."
+"And we'll use :menuselection:`Image --> Split Image` to split up the sprite "
+"sheet."
 msgstr ""
-"I l'utilitzarem :menuselection:`Imatge --> Divideix la imatge per a dividir "
-"el full de sprite`."
+"I l'utilitzarem :menuselection:`Imatge --> Divideix la imatge` per a dividir "
+"el full de sprite."
 
 #: ../../user_manual/animation.rst:272
 msgid ".. image:: images/en/Animation_split_spritesheet.png"
@@ -729,21 +740,23 @@ msgid ""
 "the window gives feedback on how much fps the imported animation would be "
 "with the currently given step."
 msgstr ""
-"Indica la diferència entre l'animació importada i la velocitat de fotogrames "
-"del document. Aquesta animació té 8 fotogrames grans i els fps del document "
-"són de 24 fotogrames, per la qual cosa hauria d'haver un pas de 3 per a "
-"mantenir-se uniforme. Com podeu veure, la finestra proporciona informació "
-"sobre la quantitat de fps que tindrà l'animació importada amb el pas actual "
-"fet."
+"Indica la diferència entre l'animació importada i la velocitat dels "
+"fotogrames del document. Aquesta animació té 8 fotogrames grans i els fps "
+"del document són de 24 fotogrames, per la qual cosa hauria d'haver un pas de "
+"3 per a mantenir-se uniforme. Com podeu veure, la finestra proporciona "
+"informació sobre la quantitat de fps que tindrà l'animació importada amb el "
+"pas actual fet."
 
 #: ../../user_manual/animation.rst:293
 msgid "Step"
 msgstr "Pas"
 
 #: ../../user_manual/animation.rst:295
-msgid "Press OK, and your animation should be imported as a new layer."
+msgid ""
+"Press :guilabel:`OK`, and your animation should be imported as a new layer."
 msgstr ""
-"Premeu D'acord i la vostra animació s'hauria d'importar com una capa nova."
+"Premeu :guilabel:`D'acord` i la vostra animació s'hauria d'importar com una "
+"capa nova."
 
 #: ../../user_manual/animation.rst:298
 msgid ".. image:: images/en/Animation_import_done.png"
@@ -764,6 +777,6 @@ msgid ""
 "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"
 "tiles>`_"
 msgstr ""
-"`La font al wiki de suports per al cicle de caminar masculí de la Libre "
-"Pixel Cup <http://opengameart.org/content/liberated-pixel-cup-lpc-base-"
-"assets-sprites-map-tiles>`_"
+"`La font al MediaWiki per al cicle de caminar masculí de la Libre Pixel Cup "
+"<http://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-"
+"map-tiles>`_"

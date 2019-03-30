@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
-"PO-Revision-Date: 2019-03-03 19:32+0100\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"PO-Revision-Date: 2019-03-21 20:20+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -49,6 +49,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: mushjul"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Horisontella linjaler"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/en/sample.png\n"
@@ -56,10 +60,6 @@ msgid ""
 msgstr ""
 ".. image:: images/en/sample.png\n"
 "   :alt: en bild."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Horisontella linjaler"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -74,6 +74,8 @@ msgid ""
 "This details the style conventions for using restructured text for the Krita "
 "Manual."
 msgstr ""
+"Detta beskriver stilkonventioner för användning av omstrukturerad text för "
+"Kritas handbok."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:20
 msgid ""
@@ -82,6 +84,10 @@ msgid ""
 "sourceforge, to save a copy to your harddrive (sourceforge has, at this time "
 "of writing, some issues with server uptime):"
 msgstr ""
+"Rekommendationen är att titta på den `officiella specifikationen <http://"
+"docutils.sourceforge.net/rst.html>`_ för omstrukturerad text, och eftersom "
+"den finns på sourceforge, spara en kopia på din hårddisk (sourceforge har "
+"vissa problem med serverns tillgänglighet när det här skrivs):"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:23
 msgid ""
@@ -106,6 +112,8 @@ msgid ""
 "`Text Cheatsheet <http://docutils.sourceforge.net/docs/user/rst/cheatsheet."
 "txt>`_"
 msgstr ""
+"`Textfusklapp <http://docutils.sourceforge.net/docs/user/rst/cheatsheet."
+"txt>`_"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:27
 msgid ""
@@ -148,6 +156,10 @@ msgid ""
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
 msgstr ""
+"`Sphinx' sida om omstrukturerad text <http://www.sphinx-doc.org/en/master/"
+"usage/restructuredtext/index.html>`_ : Den är användbar för de specifika "
+"sphinx-direktiven och rollerna som används för att exempelvis generera "
+"innehållsförteckningen."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:34
 msgid ""
@@ -155,6 +167,9 @@ msgid ""
 "docs multiple ways to do things. This document specifies the suggested "
 "conventions to go with."
 msgstr ""
+"Det finns skillnader mellan den officiella omstrukturerad text och sphinx-"
+"dokumentens flera sätt att göra saker. Dokumentet specificerar föreslagna "
+"konventioner att följa."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:36
 msgid "Contents"
@@ -166,13 +181,15 @@ msgstr "Metadata"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:41
 msgid "Each page should start with the following three things:"
-msgstr ""
+msgstr "Varje sida ska börja med följande tre saker:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:44
 msgid ""
 "This is a general description of the page. It will be converted to an html "
 "meta tag which will be used by search engines::"
 msgstr ""
+"Det är en allmän beskrivning av sidan. Den konverteras till en HTML-metatagg "
+"som används av söktjänster::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:49
 msgid "A meta description"
@@ -185,6 +202,10 @@ msgid ""
 "machines. The license of the whole manual is GDL 1.3 and should also be "
 "mentioned here::"
 msgstr ""
+"Den är bara till för att hålla reda på vem som redigerade sidan och ge "
+"erkännanden. Den ska vara i en kommentar så att den inte kommer att bli "
+"lättläst maskinellt. Hela handbokens licens är GDL 1.3 och ska också nämnas "
+"här::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:58
 msgid "A list of authors and a license."
@@ -197,6 +218,10 @@ msgid ""
 "people who are not sure what the exact name is of the term they are looking "
 "for. They are defined as follows::"
 msgstr ""
+"De är termer åtskilda av kommatecken som sidan kommer att indexeras som i :"
+"ref:`genindex`. Det genererade indexet är mycket användbart för både PDF "
+"samt de som inte är helt säkra på vad det exakta namnet på termen som de "
+"söker. De definieras på följande sätt::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:63
 msgid "Indexing terms."
@@ -207,12 +232,16 @@ msgid ""
 "This is so we can easily link to the page using ``:ref:`label_name```. Try "
 "to make this a nice variable name::"
 msgstr ""
+"Den är till för att enkelt kunna länka till sidan med användning av ``:ref:"
+"`label_name```. Försök att göra den till ett snyggt variabelnamn::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:70
 msgid ""
 "After the label you will need to add a heading, as ``:ref:`label_name``` "
 "will refer to the heading to fill out it's link-text."
 msgstr ""
+"Efter etiketten måste en rubrik läggas till, eftersom ``:ref:`label_name``` "
+"hänvisar till rubriken för att fylla i sin länktext."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:71
 msgid "A label."
@@ -224,7 +253,7 @@ msgstr "Rubriker"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:76
 msgid "Headings will be done in the following order::"
-msgstr ""
+msgstr "Rubriker görs i följande ordning::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:105
 msgid ""
@@ -232,18 +261,26 @@ msgid ""
 "reStructuredText conversion. If you need more than 4 headings, ask yourself "
 "first if the page hasn't gotten too complicated and needs splitting up."
 msgstr ""
+"Konventionerna har mer eller mindre bestämts av pandocs konvertering av "
+"mediawiki till omstrukturerad text. Om det behövs mer än fyra rubriker, "
+"fundera först på om sidan inte har blivit för komplicerad och behöver delas "
+"upp."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:107
 msgid ""
 "Sometimes you need to link to a subsection of a page, add a label above the "
 "heading in that case."
 msgstr ""
+"Ibland behöver man länka till en delsektion på en sida. Lägg till en etikett "
+"ovanför rubriken i detta fall."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:109
 msgid ""
 "Headers should not end with punctuation, as the header will be used as the "
 "link name when linking to a label."
 msgstr ""
+"Rubriker ska inte sluta med interpunktion, eftersom rubriken används som "
+"länknamn vid länkning till en etikett."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:112
 msgid "Linking"
@@ -254,12 +291,16 @@ msgid ""
 "Linking is done with ``:ref:`label_name```. When you need an alternative "
 "link text, you use ``:ref:`actual text shown <label_name>```."
 msgstr ""
+"Länkning görs med ``:ref:`etikettnamn```. När en alternativ länktext behövs, "
+"används ``:ref:`verklig visad text <etikettnamn>```."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:116
 msgid ""
 "Linking to external pages is done with ```url`_`` and ```link name "
 "<url>`_``, which'll become `link name <url>`_."
 msgstr ""
+"Länkning till externa sidor görs med ```webbadress`_`` och ```länknamn "
+"<webbadress>`_``, vilket blir `länknamn <webbadress>`_."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:118
 msgid ""
@@ -280,11 +321,14 @@ msgid ""
 "Footnotes can be made in 3 ways, the most common one is with autonumbering, "
 "as per reference:"
 msgstr ""
+"Fotnoter kan skapas på tre sätt, det vanligaste är med automatisk numrering, "
+"som med en referens:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:125
 msgid ""
 "[#]_ is a reference to footnote 1, and [#]_ is a reference to footnote 2."
 msgstr ""
+"[#]_ är en referens till fotnot 1, och [#]_ är en referens till fotnot 2."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:128
 msgid "This is footnote 1."
@@ -300,7 +344,7 @@ msgstr "Detta är fotnot 3."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:132
 msgid "[#]_ is a reference to footnote 3."
-msgstr ""
+msgstr "[#]_ är en referens till fotnot 3."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:134
 msgid "Here is a citation reference: [CIT2002]_ ."

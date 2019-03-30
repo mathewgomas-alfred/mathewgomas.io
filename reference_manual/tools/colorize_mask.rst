@@ -17,9 +17,9 @@ Colorize Mask
 
 |toolcolorizemask|
 
-A tool for quickly coloring lineart, the Colorize Mask Editing tool can be found next to the gradient tool on your toolbox.
+A tool for quickly coloring line art, the Colorize Mask Editing tool can be found next to the gradient tool on your toolbox.
 
-This feature is technically already in 3.1, but disabled by default because we had not optimised the filling algorithm for production use yet. To enable it, find your krita configuration file, open it in notepad, and add "disableColorizeMaskFeature=false" to the top. Then restart Krita. Its official incarnation is in 4.0.
+This feature is technically already in 3.1, but disabled by default because we had not optimized the filling algorithm for production use yet. To enable it, find your krita configuration file, open it in notepad, and add "disableColorizeMaskFeature=false" to the top. Then restart Krita. Its official incarnation is in 4.0.
 
 
 Usage
@@ -27,7 +27,7 @@ Usage
 
 This tool works in conjunction with the colorize mask, and the usage is as follows:
 
-For this example, we'll be using the ghost lady also used to explain masks on the basic concepts page.
+For this example, we'll be using the ghost lady also used to explain masks on :ref:`the basic concepts page <basic_concepts>`.
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_01.png
    :width: 800
@@ -35,8 +35,8 @@ For this example, we'll be using the ghost lady also used to explain masks on th
 
 This image has the line art for the lady separated from the background, and what's more, the background is made up of two layers: one main and one for the details. 
 
-First, select the colorize mask editing tool while having the lineart layer selected. |mouseleft| the canvas will add a colorize mask to the layer.
-You can also |mouseright| the line art layer, and then :menuselection:`Add --> Colorize Mask`. The line art will suddenly become really weird, this is the prefiltering which are filters through which we put the lineart to make the algorithm easier to use. The tool options overview below shows which options control that.
+First, select the colorize mask editing tool while having the line art layer selected. |mouseleft| the canvas will add a colorize mask to the layer.
+You can also |mouseright| the line art layer, and then :menuselection:`Add --> Colorize Mask`. The line art will suddenly become really weird, this is the prefiltering which are filters through which we put the line art to make the algorithm easier to use. The tool options overview below shows which options control that.
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_02.png
    :width: 800
@@ -60,7 +60,7 @@ Because the colorize mask algorithm is slow, and we only need a part of our laye
    :width: 800
    :align: center
 
-Now the algorithm will be possibly a lot faster, allowing us to add strokes and press update in rapid succession:
+Now the algorithm will be possibly a lot faster, allowing us to add strokes and press :guilabel:`Update` in rapid succession:
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_06.png
    :width: 800
@@ -74,7 +74,7 @@ To see the final result, disable :guilabel:`Edit Key Strokes` or toggle the seco
 
 If you want to edit the strokes again, re-enable :guilabel:`Edit Key Strokes`.
 
-Now, the colorize mask, being a mask, can also be added to a group of line art layers. It will then use the composition of the whole group as the line art. This is perfect for our background which has two separate line art layers. It also means that the colorize mask will be disabled when added to a group with pass-through enabled, because those have no final composition. You can recognise a disabled colorize mask because its name is stricken through.
+Now, the colorize mask, being a mask, can also be added to a group of line art layers. It will then use the composition of the whole group as the line art. This is perfect for our background which has two separate line art layers. It also means that the colorize mask will be disabled when added to a group with pass-through enabled, because those have no final composition. You can recognize a disabled colorize mask because its name is stricken through.
 
 To add a colorize mask to a group, select the group and |mouseleft| the canvas with the Colorize Mask editing tool, or |mouseright| the layer to :menuselection:`Add --> Colorize Mask`.
 
@@ -116,7 +116,7 @@ Tool Options
 Update
     Run the colorize mask algorithm. The progress bar for updates on a colorize mask shows only in the layer docker.
 Edit key strokes
-    Put the mask into edit mode. In edit mode, it will also show the 'pre-filtering' on the line-art, which is for example a blur filter for gap closing.
+    Put the mask into edit mode. In edit mode, it will also show the 'prefiltering' on the line art, which is for example a blur filter for gap closing.
 Show output
     Show the output of the colorize mask. If :guilabel:`Edit key strokes` is active, this will be shown semi-transparently, so it will be easy to recognise the difference between the strokes and the output.
     
@@ -152,7 +152,7 @@ Clean-up strokes
        :width: 800
        :align: center
 
-Keystrokes
+Key strokes
     This palette keeps track of the colors used by the strokes. This is useful so you can switch back to colors easily. You can increase the swatch size by hovering over it with the mouse, and doing :kbd:`Ctrl +` |mousescroll|.
 Transparent
     This button is under the keystrokes palette, you can mark the selected color to be interpreted a 'transparent' with this. In the clean-up screenshot above, cyan had been marked as transparent.

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___filters___edge_detection\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-21 08:24+0200\n"
+"POT-Creation-Date: 2019-03-17 03:34+0100\n"
+"PO-Revision-Date: 2019-03-25 22:24+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -43,10 +43,13 @@ msgid ""
 "Edge detection filters focus on finding sharp contrast or border between "
 "colors in an image to create edges or lines."
 msgstr ""
+"Акцент у фільтрах виявлення країв зроблено на виявленні різкого контрасту "
+"або межі між кольоровими областями на зображенні і створенні там країв або "
+"ліній."
 
 #: ../../reference_manual/filters/edge_detection.rst:20
-msgid "Since 4.0 there's only two edge detection filters."
-msgstr ""
+msgid "Since 4.0 there are only two edge detection filters."
+msgstr "Починаючи з версії 4.0, передбачено лише два фільтри виявлення країв."
 
 #: ../../reference_manual/filters/edge_detection.rst:27
 msgid ""
@@ -72,6 +75,8 @@ msgid ""
 "The convolution kernel formula for the edge detection. The difference "
 "between these is subtle, but still worth experimenting with."
 msgstr ""
+"Формула ядра згортки для виявлення країв. Відмінність між цими варіантами "
+"ледве помітка, але варта того, щоб поекспериментувати."
 
 #: ../../reference_manual/filters/edge_detection.rst:38
 #: ../../reference_manual/filters/edge_detection.rst:81
@@ -84,6 +89,8 @@ msgid ""
 "A Kernel that is not square unlike the other two, and while this makes it "
 "fast, it doesn't take diagonal pixels into account."
 msgstr ""
+"Ядро, яке не є квадратним, на відміну від двох інших. Хоча це робить його "
+"швидшим, його використання призводить до ігнорування діагональних пікселів."
 
 #: ../../reference_manual/filters/edge_detection.rst:40
 #: ../../reference_manual/filters/edge_detection.rst:83
@@ -96,6 +103,9 @@ msgid ""
 "A square kernel that includes the diagonal pixels just as strongly as the "
 "orthogonal pixels. Gives a very strong effect."
 msgstr ""
+"Квадратне ядро, використання якого призводить до враховування діагональних "
+"пікселів у тій самій пропорції, що і ортогональних пікселів. Дає дуже "
+"сильний ефект."
 
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
@@ -113,6 +123,9 @@ msgid ""
 "A square kernel that includes the diagonal pixels slightly less strong than "
 "the orthogonal pixels. Gives a more subtle effect than Prewitt."
 msgstr ""
+"Квадратне ядро, використання якого призводить до враховування діагональних "
+"пікселів у дещо меншій пропорції, порівняно із ортогональними пікселями. Дає "
+"дещо тонший ефект за ядро Прюїтта."
 
 #: ../../reference_manual/filters/edge_detection.rst:46
 msgid "The output."

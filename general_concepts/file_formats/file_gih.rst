@@ -16,7 +16,7 @@
 
 The GIMP image hose format. Krita can open and save these, as well as import via the :ref:`predefined brush tab <predefined_brush_tip>`.
 
-Image Hose means that this fileformat allows you to store multiple images and then set some options to make it specify how to output the multiple images.
+Image Hose means that this file format allows you to store multiple images and then set some options to make it specify how to output the multiple images.
 
 .. figure:: /images/en/Gih-examples.png
    :figwidth: 640px

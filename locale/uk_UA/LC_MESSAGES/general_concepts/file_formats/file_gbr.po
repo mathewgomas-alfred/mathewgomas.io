@@ -10,7 +10,7 @@ msgstr ""
 "docs_krita_org_general_concepts___file_formats___file_gbr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 08:24+0200\n"
+"PO-Revision-Date: 2019-03-19 21:22+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -34,10 +34,14 @@ msgid ""
 "The GIMP brush format. Krita can open, save and use these files as :ref:"
 "`predefined brushes <predefined_brush_tip>`."
 msgstr ""
+"Формат файлів пензлів GIMP. Krita може відкривати, зберігати і "
+"використовувати файли у цьому форматі як :ref:`попередньо визначені пензлі "
+"<predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:19
 msgid "There's three things that you can decide upon when exporting a \\*.gbr:"
 msgstr ""
+"Існує три речі, які слід визначити під час експортування даних до \\*.gbr:"
 
 #: ../../general_concepts/file_formats/file_gbr.rst:21
 msgid "Name"
@@ -48,6 +52,8 @@ msgid ""
 "This name is different from the file name, and will be shown inside Krita as "
 "the name of the brush."
 msgstr ""
+"Ця назва відрізняється від назви файла. Її буде показано у Krita як назву "
+"пензля."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:23
 msgid "Spacing"
@@ -55,7 +61,7 @@ msgstr "Інтервал"
 
 #: ../../general_concepts/file_formats/file_gbr.rst:24
 msgid "This sets the default spacing."
-msgstr ""
+msgstr "Встановлює типовий інтервал для пензля."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:26
 msgid "Use color as mask"
@@ -67,8 +73,13 @@ msgid ""
 "whitest as transparent. Untick this if you are using colored images for the "
 "brush"
 msgstr ""
+"Позначення цього пункту зробить найтемніші ділянки зображення видимими, а "
+"найсвітліші — прозорими. Зніміть позначку з цього пункту, якщо ви "
+"використовуєте для пензля кольорове зображення."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:28
 msgid ""
 ".gbr brushes are otherwise unremarkable, and limited to 8bit color precision."
 msgstr ""
+"Загалом, пензлі .gbr не є ніяким чином видатними. Кольори у них обмежено 8-"
+"бітовою точністю на канал."

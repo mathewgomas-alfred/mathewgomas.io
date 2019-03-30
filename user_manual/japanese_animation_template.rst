@@ -78,7 +78,7 @@ Finished keys, you will begin to draw the inbetweens. If you feel Krita is becom
 After finalizing keys and cleaning up unnecessary layers, add
 inbetweenings, using Time sheet and inbetweening drafts as reference.
 
-This is its correspondence with Time sheetL
+This is its correspondence with Time sheet.
 
 .. image:: /images/en/Inbetweening.png
 

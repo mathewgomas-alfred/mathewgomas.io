@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___blending_modes___misc\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-03 13:59+0200\n"
+"PO-Revision-Date: 2019-03-23 21:48+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -53,6 +53,9 @@ msgid ""
 "Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-"
 "detail/>`_."
 msgstr ""
+"Математично стійкий режим змішування для нормальних карт з використанням "
+"`переорієнтованого змішування нормальних карт <http://blog.selfshadow.com/"
+"publications/blending-in-detail/>`_."
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -88,12 +91,17 @@ msgid ""
 "destination channel. Specifically, it will take the specific channel from "
 "the upper layer and copy that over to the lower layers."
 msgstr ""
+"Це режим змішування, який просто копіює/змішує канал джерела до каналу "
+"призначення. Якщо точніше, у цьому режимі програма бере певний канал з "
+"верхнього шару і копіює його значення до нижчих шарів."
 
 #: ../../reference_manual/blending_modes/misc.rst:59
 msgid ""
 "So, if you want the brush to only affect the red channel, set the blending "
 "mode to 'copy red'."
 msgstr ""
+"Отже, якщо ви хочете, щоб пензель впливав лише на канал червоного кольору, "
+"встановіть режим змішування :guilabel:`Копіювати червоний`."
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid ""
@@ -104,6 +112,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid "The copy red, green and blue blending modes also work on filter-layers."
 msgstr ""
+"Режими змішування із копіюванням червоного, зеленого та синього також "
+"працюють на шарах фільтрування."
 
 #: ../../reference_manual/blending_modes/misc.rst:67
 msgid ""
@@ -111,6 +121,10 @@ msgid ""
 "layer's green channel, make an invert filter layer with 'copy green' above "
 "it."
 msgstr ""
+"Крім того, результату можна досягти за допомогою шарів фільтрування. Отже, "
+"якщо ви хочете швидко віддзеркалити канал зеленого кольору шару, створіть "
+"шар фільтрування із інверсією за допомогою створення шару фільтрування :"
+"guilabel:`Копіювати зелений` над шаром, який слід фільтрувати."
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid ""
@@ -157,6 +171,9 @@ msgid ""
 "Instead of using transparency, this blending mode will use a random "
 "dithering pattern to make the transparent areas look sort of transparent."
 msgstr ""
+"Замість використання прозорості, цей режим змішування використовує "
+"випадковий розсіяний візерунок, роблячи прозорі ділянки розсіяним набором "
+"прозорих ділянок."
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid ""

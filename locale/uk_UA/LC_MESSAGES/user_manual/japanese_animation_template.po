@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_user_manual___japanese_animation_template\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-01 07:26+0200\n"
+"POT-Creation-Date: 2019-03-15 03:36+0100\n"
+"PO-Revision-Date: 2019-03-17 13:53+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -35,16 +35,22 @@ msgid ""
 "the assumption that it was used in co-production, so please customize its "
 "things like layer folders according to scale and details of your works."
 msgstr ""
+"Цей шаблон призначено для створення анімацій у японському стилі. Його "
+"розроблено для використання у спільному виробництві, тому, будь ласка, "
+"налаштуйте його параметри, зокрема теки шарів, відповідно до масштабу та "
+"параметрів вашої роботи."
 
 #: ../../user_manual/japanese_animation_template.rst:26
 msgid "Basic structure of its layers"
-msgstr "Базова структура його шарів"
+msgstr "Базова структура шарів"
 
 #: ../../user_manual/japanese_animation_template.rst:28
 msgid ""
 "Layers are organized so that your work will start from lower layers go to "
 "higher layers, except for coloring layers."
 msgstr ""
+"Шари упорядковано так, щоб ваша робота розпочиналася з нижніх шарів і "
+"переходила до верхніх, окрім шарів розфарбовування."
 
 #: ../../user_manual/japanese_animation_template.rst:32
 msgid ".. image:: images/en/Layer_Organization.png"
@@ -52,7 +58,7 @@ msgstr ".. image:: images/en/Layer_Organization.png"
 
 #: ../../user_manual/japanese_animation_template.rst:34
 msgid "Its layer contents"
-msgstr "Вміст його шарів"
+msgstr "Вміст шарів"
 
 #: ../../user_manual/japanese_animation_template.rst:36
 msgid "from the bottom"
@@ -68,6 +74,9 @@ msgid ""
 "separate layers in case you have to print it out and continue your drawing "
 "traditionally."
 msgstr ""
+"Ці шари є різновидом паперу для компонування. На окремих шарах додано "
+"отвори, які будуть зручними, якщо ви захочете надрукувати роботу і "
+"продовжити малювання у традиційний спосіб."
 
 #: ../../user_manual/japanese_animation_template.rst:40
 msgid "Layout (Background)"
@@ -78,10 +87,13 @@ msgid ""
 "These layers will contain background scenery or layouts which are scanned "
 "from a traditional drawing. If you don't use them, you can remove them."
 msgstr ""
+"На цих шарах міститься тло сцени або зображення, які було скановано з "
+"традиційного малюнка. Якщо ви не користуєтеся такими шарами, можете вилучити "
+"їх."
 
 #: ../../user_manual/japanese_animation_template.rst:42
 msgid "Key drafts"
-msgstr ""
+msgstr "Чернетки ключових кадрів"
 
 #: ../../user_manual/japanese_animation_template.rst:43
 msgid "These layers are used to draw layouts digitally."
@@ -89,17 +101,19 @@ msgstr "Ці шари використовуються для цифрового
 
 #: ../../user_manual/japanese_animation_template.rst:44
 msgid "Keys"
-msgstr ""
+msgstr "Ключові кадри"
 
 #: ../../user_manual/japanese_animation_template.rst:45
 msgid ""
 "Where you add some details to the layouts and arrange them to draw \"keys\" "
 "of animation."
 msgstr ""
+"Тут ви можете додати деталі компонування і упорядкувати їх для малювання "
+"ключових кадрів анімації."
 
 #: ../../user_manual/japanese_animation_template.rst:46
 msgid "Inbetweening"
-msgstr ""
+msgstr "Проміжні кадри"
 
 #: ../../user_manual/japanese_animation_template.rst:47
 msgid ""
@@ -107,25 +121,33 @@ msgid ""
 "unnecessary details to finalize keys (To be accurate, I finish finalization "
 "of keys before beginning to add inbetweens)"
 msgstr ""
+"Тут ви можете додавати проміжні кадри до ключових для обробки "
+"розфарбовування та вилучати непотрібні деталі для завершення ключових кадрів "
+"(якщо бути точнішим, автор шаблона завершує ключові кадри ще до того, як "
+"починає додавати проміжні)."
 
 #: ../../user_manual/japanese_animation_template.rst:48
 msgid "Coloring (under Inbetweening)"
-msgstr ""
+msgstr "Розфарбування (під проміжними кадрами)"
 
 #: ../../user_manual/japanese_animation_template.rst:49
 msgid ""
 "Where you fill areas with colors according to specification of inbetweens."
 msgstr ""
+"Тут ви можете заповнити ділянки кольорами відповідно до специфікації "
+"проміжних кадрів."
 
 #: ../../user_manual/japanese_animation_template.rst:50
 msgid "Time Sheet and Composition sheet"
-msgstr ""
+msgstr "Розкладка за часом та композиція"
 
 #: ../../user_manual/japanese_animation_template.rst:51
 msgid ""
 "This contains a time sheet and composition sheet. Please rotate them before "
 "using."
 msgstr ""
+"Тут міститься розкладка за часом і розкладка композиції. Будь ласка, "
+"поверніть їх потрібним чином, перш ніж користуватися."
 
 #: ../../user_manual/japanese_animation_template.rst:53
 msgid "Color set"
@@ -136,6 +158,8 @@ msgid ""
 "This contains colors used to draw main and auxiliary line art and fill "
 "highlight or shadows. You can add them to your palette."
 msgstr ""
+"Тут містяться кольори для малювання основної та допоміжної графіки та "
+"заповнення для виблисків і тіней. Можете додати ці кольори до вашої палітри."
 
 #: ../../user_manual/japanese_animation_template.rst:56
 msgid "Basic steps to make animation"
@@ -147,6 +171,11 @@ msgid ""
 "assign them into Time sheet) --> adjust them on Timeline --> add frames to "
 "draw drafts for inbetweening if you need them --> Start drawing Keys"
 msgstr ""
+"Чернетка ключових кадрів → прив'язка кадрів до розкладки за часом (або "
+"коригування ключових кадрів на розкладкою за часом, а потім прив'язка їх до "
+"розкладки за часом) → коригування ключових кадрів у розкладці за часом → "
+"додавання кадрів для малювання чернеток для проміжних кадрів, якщо вони "
+"потрібні → малювання ключових кадрів"
 
 #: ../../user_manual/japanese_animation_template.rst:61
 msgid ".. image:: images/en/Keys_drafts.png"
@@ -154,7 +183,7 @@ msgstr ".. image:: images/en/Keys_drafts.png"
 
 #: ../../user_manual/japanese_animation_template.rst:62
 msgid "You can add layers and add them to timeline."
-msgstr ""
+msgstr "Ви можете додавати шари і додавати їх на монтажний стіл."
 
 #: ../../user_manual/japanese_animation_template.rst:65
 msgid ".. image:: images/en/Add_Timeline_1.png"
@@ -170,6 +199,9 @@ msgid ""
 "Animation, and 12 drawing per second and 8 drawings per second, which are "
 "used in Limited Animation, on the Timeline docker."
 msgstr ""
+"Причиною є відмінність між 24 кадрами за секунду, які використовуються у "
+"повноцінній анімації, та 12 кадрів за секунду і 8 кадрів за секунду, які "
+"використовуються у обмеженій анімації, на бічній панелі монтажного столу."
 
 #: ../../user_manual/japanese_animation_template.rst:71
 msgid ".. image:: images/en/24_12_and_8_drawing_per_sec.png"
@@ -185,6 +217,14 @@ msgid ""
 "used to specify darker shadows. However, probably you have to increase or "
 "decrease these layers according to your work."
 msgstr ""
+"Це відповідність між монтажним столом та розкладкою за часом. «Чорний» шар "
+"призначено для малювання звичайної графіки, «Червоний» шар призначено для "
+"малювання червоної допоміжної графіки, яка використовується для позначення "
+"виблисків, «Синій» шар призначено для малювання синьої допоміжної графіки, "
+"яку використовують для визначення тіней, а шар «Тіней» призначено для "
+"малювання світло-зеленої допоміжної графіки, який використовується для "
+"визначення темніших тіней. Втім, ймовірно, вам слід збільшити або зменшити "
+"кількість цих шарів, відповідно до вашої роботи."
 
 #: ../../user_manual/japanese_animation_template.rst:75
 msgid ".. image:: images/en/Time_sheet_1.png"
@@ -196,16 +236,23 @@ msgid ""
 "becoming slow, I recommend you to merge key drafts and keys, as well as to "
 "remove any unnecessary layers."
 msgstr ""
+"Завершивши роботу із ключовими кадрами, ви можете перейти до малювання "
+"проміжних кадрів. Якщо вам здається, що Krita починає працювати повільніше, "
+"рекомендуємо об'єднати чернетки ключових кадрів і ключові кадри, а також "
+"вилучити усі непотрібні шари."
 
 #: ../../user_manual/japanese_animation_template.rst:78
 msgid ""
 "After finalizing keys and cleaning up unnecessary layers, add inbetweenings, "
 "using Time sheet and inbetweening drafts as reference."
 msgstr ""
+"Після завершення ключових кадрів та спорожнення непотрібних шарів, додайте "
+"проміжні кадри за допомогою розкладки за часом та чернетки проміжних кадрів "
+"для наступної обробки."
 
 #: ../../user_manual/japanese_animation_template.rst:81
-msgid "This is its correspondence with Time sheetL"
-msgstr ""
+msgid "This is its correspondence with Time sheet."
+msgstr "Це відповідність розкладці за часом."
 
 #: ../../user_manual/japanese_animation_template.rst:84
 msgid ".. image:: images/en/Inbetweening.png"
@@ -216,16 +263,23 @@ msgid ""
 "Once the vector functionality of Krita becomes better, I recommend you to "
 "use vector to finalize inbetweening."
 msgstr ""
+"Щойно можливості використання векторної графіки у Krita буде поліпшено, "
+"рекомендуємо вам скористатися векторним шаром для створення остаточних "
+"версій проміжних кадрів."
 
 #: ../../user_manual/japanese_animation_template.rst:87
 msgid ""
 "If you do the colors in Krita, please use Coloring group layer. If you do "
 "colors in other software, I recommend to export frames as .TGA files."
 msgstr ""
+"Якщо ви виконуєте розфарбовування у Krita, будь ласка, скористайтеся групою "
+"шарів розфарбовування. Якщо ви розфарбовуватимете зображення в іншому "
+"програмному забезпеченні, рекомендую експортувати кадри у форматі файлів ."
+"TGA."
 
 #: ../../user_manual/japanese_animation_template.rst:91
 msgid "Resolution"
-msgstr ""
+msgstr "Роздільна здатність"
 
 #: ../../user_manual/japanese_animation_template.rst:93
 msgid ""
@@ -234,9 +288,17 @@ msgid ""
 "Studio. However, if you stick to digital, 150-120 dpi is enough to make "
 "animation. So you can decrease its resolution according to your need."
 msgstr ""
+"Цей шаблон створено із роздільною здатністю 300 точок на дюйм, оскільки "
+"результати потрібно було друкувати для наступної традиційної роботи, яка усе "
+"ще відіграє важливу роль у студійній роботи над японською анімацією. Втім, "
+"якщо ви хочете обмежитися лише цифровим варіантом, для створення анімації "
+"достатньо 150-120 точок на дюйм. Отже, ви можете зменшити роздільність "
+"зображення, відповідно до ваших потреб."
 
 #: ../../user_manual/japanese_animation_template.rst:95
 msgid ""
 "Originally written by Saisho Kazuki, Japanese professional animator, and "
 "translated by Tokiedian, KDE contributor."
 msgstr ""
+"Оригінальну версію написано Саїсьо Кадзукі, професійним японським "
+"аніматором. Переклад здійснено Tokiedian, учасником розробки KDE."

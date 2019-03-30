@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___preferences___general_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-03-06 08:11+0200\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-20 08:11+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -82,18 +82,20 @@ msgid ""
 "You can access the General Category of the preferences by first going to  :"
 "menuselection:`Settings --> Configure Krita`."
 msgstr ""
+"Доступ до загальної категорії параметрів програми можна отримати за "
+"допомогою пункту меню :menuselection:`Параметри --> Налаштувати Krita`."
 
 #: ../../reference_manual/preferences/general_settings.rst:24
 msgid "Cursor Settings"
-msgstr "Параметра вказівника"
+msgstr "Параметра курсора"
 
 #: ../../reference_manual/preferences/general_settings.rst:26
 msgid "Customize the drawing cursor here:"
-msgstr "Тут можна налаштувати вказівник для малювання:"
+msgstr "Тут можна налаштувати курсор для малювання:"
 
 #: ../../reference_manual/preferences/general_settings.rst:29
 msgid "Cursor Shape"
-msgstr "Форма вказівника"
+msgstr "Форма курсора"
 
 #: ../../reference_manual/preferences/general_settings.rst:31
 msgid ""
@@ -101,10 +103,15 @@ msgid ""
 "will always be visible on the canvas. It is usually set to a type exactly "
 "where your pen nib is at. The available cursor types are shown below."
 msgstr ""
+"Вибрати форму курсора, яку слід використовувати для пензлів. Цей вказівник "
+"буде завжди видимим на полотні. Зазвичай, встановлюється відповідно до типу "
+"кінчика пера стила. Доступні типи курсорів показано нижче."
 
 #: ../../reference_manual/preferences/general_settings.rst:34
-msgid "Shows the currently selected tool icon,even for the freehand brush."
+msgid "Shows the currently selected tool icon, even for the freehand brush."
 msgstr ""
+"Показувати піктограму поточного вибраного інструмента, навіть для пензля "
+"довільного малювання."
 
 #: ../../reference_manual/preferences/general_settings.rst:36
 msgid "Tool Icon"
@@ -112,7 +119,7 @@ msgstr "Піктограма інструмента"
 
 #: ../../reference_manual/preferences/general_settings.rst:39
 msgid "Shows a generic cursor."
-msgstr "Показувати звичайний вказівник."
+msgstr "Показувати звичайний курсор."
 
 #: ../../reference_manual/preferences/general_settings.rst:41
 msgid "Arrow"
@@ -136,7 +143,7 @@ msgstr "Показати невеличку білу плямку із чорн�
 
 #: ../../reference_manual/preferences/general_settings.rst:55
 msgid "Show no cursor, useful for tablet-monitors."
-msgstr "Не показувати вказівник. Зручно для сенсорних моніторів."
+msgstr "Не показувати курсор. Зручно для сенсорних моніторів."
 
 #: ../../reference_manual/preferences/general_settings.rst:57
 msgid "No Cursor"
@@ -184,6 +191,9 @@ msgid ""
 "shape will optionally show in the middle of a painting stroke as well. The "
 "available outline shape types are shown below.(pictures will come soon)"
 msgstr ""
+"Виберіть форму контуру, якою слід скористатися для інструментів пензля. Якщо "
+"захочете, цю форму курсора буде показано посередині штриха малювання. "
+"Доступні форми контурів показано нижче."
 
 #: ../../reference_manual/preferences/general_settings.rst:86
 msgid "No Outline"
@@ -199,7 +209,7 @@ msgstr "Круговий контур"
 
 #: ../../reference_manual/preferences/general_settings.rst:89
 msgid "Gives a circular outline approximating the brush size."
-msgstr ""
+msgstr "Додає круговий контур апроксимації розміру пензля."
 
 #: ../../reference_manual/preferences/general_settings.rst:90
 msgid "Preview Outline"
@@ -207,11 +217,11 @@ msgstr "Контур перегляду"
 
 #: ../../reference_manual/preferences/general_settings.rst:91
 msgid "Gives an outline based on the actual shape of the brush."
-msgstr ""
+msgstr "Додає контур на основі справжньої форми пензля."
 
 #: ../../reference_manual/preferences/general_settings.rst:93
 msgid "Gives a circular outline with a tilt-indicator."
-msgstr ""
+msgstr "Додає круговий контур із індикатором нахилу."
 
 #: ../../reference_manual/preferences/general_settings.rst:95
 msgid "Tilt Outline"
@@ -228,6 +238,11 @@ msgid ""
 "making, it will show up only after the brush stroke is finished. This option "
 "works only when Brush Outline is selected as the Cursor Shape."
 msgstr ""
+"Якщо позначено цей пункт, програма показуватиме контур пензля під час "
+"малювання штриха. Якщо пункт не буде позначено, контур не буде показано під "
+"час створення штриха — програма покаже його, лише коли створення штриха буде "
+"завершено. Цей пункт працюватиме, лише якщо для пункту :guilabel:`Контур "
+"пензля` вибрано значення :guilabel:`Форма курсора`."
 
 #: ../../reference_manual/preferences/general_settings.rst:105
 msgid "Show Outline"
@@ -235,7 +250,7 @@ msgstr "Показати обрис"
 
 #: ../../reference_manual/preferences/general_settings.rst:105
 msgid "Used to be called \"Show Outline When Painting\""
-msgstr ""
+msgstr "Раніше мав назву «Показувати обрис під час малювання»"
 
 #: ../../reference_manual/preferences/general_settings.rst:107
 msgid "Use effective outline size"
@@ -247,6 +262,10 @@ msgid ""
 "brush diameter, and not the current one as affected by sensors such as "
 "pressure. This makes the cursor a little less noisy to use."
 msgstr ""
+"За допомогою цього пункту можна обмежити розмір контуру максимальним "
+"можливим діаметром пензля, а не поточним діаметром, на який впливають "
+"значення датчиків, зокрема тиску. Використання цього пункту зробить курсор "
+"менш шумним."
 
 #: ../../reference_manual/preferences/general_settings.rst:116
 msgid "Window Settings"
@@ -261,6 +280,9 @@ msgid ""
 "This can be either tabbed like :program:`GIMP` or :program:`Painttool Sai`, "
 "or subwindows, like :program:`Photoshop`."
 msgstr ""
+"Це може бути інтерфейс із вкладками, подібний до інтерфейсу :program:`GIMP` "
+"або :program:`Painttool Sai`, чи із допоміжними вікнами, як у :program:"
+"`Photoshop`."
 
 #: ../../reference_manual/preferences/general_settings.rst:120
 msgid "Background image"
@@ -268,7 +290,7 @@ msgstr "Зображення на тлі"
 
 #: ../../reference_manual/preferences/general_settings.rst:121
 msgid "Allows you to set a picture background for subwindow mode."
-msgstr ""
+msgstr "Надає вам змогу встановити тло зображення у режимі із підвікнами."
 
 #: ../../reference_manual/preferences/general_settings.rst:122
 msgid "Window Background"
@@ -276,7 +298,7 @@ msgstr "Тло вікна"
 
 #: ../../reference_manual/preferences/general_settings.rst:123
 msgid "Set the colour of the subwindow canvas area."
-msgstr ""
+msgstr "Встановити колір ділянки полотна у підвікні."
 
 #: ../../reference_manual/preferences/general_settings.rst:124
 msgid "Don't show contents when moving sub-windows"
@@ -287,6 +309,8 @@ msgid ""
 "This gives an outline when moving windows to work around ugly glitches with "
 "certain graphics-cards."
 msgstr ""
+"Використовувати контур при переміщенні вікон, щоб запобігти небажаним "
+"ефектам при використанні деяких відеокарток."
 
 #: ../../reference_manual/preferences/general_settings.rst:126
 msgid "Show on-canvas popup messages"
@@ -297,6 +321,9 @@ msgid ""
 "Whether or not you want to see the on-canvas pop-up messages that tell you "
 "whether you are in tabbed mode, rotating the canvas, or mirroring it."
 msgstr ""
+"За допомогою цього пункту можна визначити, чи слід показувати контекстні "
+"повідомлення на полотні, які інформуватимуть щодо переходу до режиму з "
+"вкладками, обертання полотна або його віддзеркалення."
 
 #: ../../reference_manual/preferences/general_settings.rst:128
 msgid "Enable Hi-DPI support"
@@ -307,6 +334,9 @@ msgid ""
 "Attempt to use the Hi-DPI support. It is an option because we are still "
 "experiencing bugs on windows."
 msgstr ""
+"Спробувати скористатися підтримкою екранів із високою роздільною здатністю. "
+"Типово цю можливість не увімкнено, оскільки і досі усунено не усі вади у "
+"Windows."
 
 #: ../../reference_manual/preferences/general_settings.rst:131
 msgid "Allow only one instance of Krita"
@@ -321,6 +351,13 @@ msgid ""
 "allowing multiple instances, but if you can't think of any, just keep this "
 "option on."
 msgstr ""
+"Екземпляр — одинарний пункт на панелі керування задачами системи. Якщо буде "
+"позначено цей пункт, Krita перевірятиме, чи не запущено вже екземпляр Krita, "
+"коли ви наказуватимете програмі відкрити нові документи. Якщо буде виявлено "
+"запущений екземпляр, програма відкриватиме усі документи у цьому екземплярі "
+"програми. Існує декілька можливих застосувань випадку із одночасним запуском "
+"декількох екземплярів програми. Якщо ви не плануєте ними користуватися, "
+"просто залиште цей пункт позначеним."
 
 #: ../../reference_manual/preferences/general_settings.rst:134
 msgid "Tool options"
@@ -343,6 +380,9 @@ msgid ""
 "Gives you the tool options in the toolbar, next to the brush settings. You "
 "can open it with :kbd:`\\\\`."
 msgstr ""
+"Додає параметри інструмента на панель інструментів, поряд із параметрами "
+"пензля. Вікно параметрів інструмента можна відкрити за допомогою натискнання "
+"клавіші :kbd:`\\\\`."
 
 #: ../../reference_manual/preferences/general_settings.rst:142
 msgid "Switch Control/Alt Selection Modifiers"
@@ -352,8 +392,12 @@ msgstr "Перемкнути модифікатори позначення Ctrl/
 msgid ""
 "This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when "
 "modifying selections. Useful for those used to Gimp instead of Photoshop, or "
-"Lefties without a right-::kbd:`Alt` key on their keyboard."
+"Lefties without a right-:kbd:`Alt` key on their keyboard."
 msgstr ""
+"За допомогою цього пункту можна обміняти призначення клавіш :kbd:`Ctrl` і :"
+"kbd:`Alt` при внесенні змін до позначених ділянок. Корисно для тих, хто звик "
+"користуватися GIMP, а не Photoshop, або для шульг без правої клавіші :kbd:"
+"`Alt` на клавіатурі їхнього комп'ютера."
 
 #: ../../reference_manual/preferences/general_settings.rst:145
 msgid "Enable Touchpainting"
@@ -365,6 +409,10 @@ msgid ""
 "capacitive touch and a stylus, and then this can interfere. In that case, "
 "just toggle this."
 msgstr ""
+"Уможливлює малювання пальцем на ємнісних сенсорних екранах. На деяких "
+"пристроях передбачено одночасно ємнісний сенсорний екран та керування за "
+"допомогою стила. Це може бути причиною потенційного конфлікту. Якщо маєте "
+"проблеми конфлікту режимів керування, перемкніть цей пункт."
 
 #: ../../reference_manual/preferences/general_settings.rst:148
 msgid "This enables kinetic scrolling for scrollable areas."
@@ -372,10 +420,14 @@ msgstr "Вмикає кінетичне гортання у придатних �
 
 #: ../../reference_manual/preferences/general_settings.rst:153
 msgid ""
-"Kinetic scrolling on the brush chooser drop-down with activation mode set to "
-"`guilabel:`On Click Drag`, with this disabled all of these clicks would lead "
-"to a brush being selected regardless of drag motion."
+"Kinetic scrolling on the brush chooser drop-down with activation mode set "
+"to :guilabel:`On Click Drag`, with this disabled all of these clicks would "
+"lead to a brush being selected regardless of drag motion."
 msgstr ""
+"Кінетичне гортання у спадному списку вибору пензля із режимом активації, "
+"який встановлено у значення :guilabel:`Перетягування з клацанням` із "
+"непозначеним цим пунктом призведуть до того, що програма вибиратиме пензель, "
+"незалежно від того, що виконується рух з перетягуванням."
 
 #: ../../reference_manual/preferences/general_settings.rst:156
 msgid "How it is activated."
@@ -396,6 +448,8 @@ msgstr "Сенсорне перетягування"
 #: ../../reference_manual/preferences/general_settings.rst:161
 msgid "Will activate if it can recognise a touch event. May not always work."
 msgstr ""
+"Активується, якщо буде розпізнано подію торкання сенсорного екрана. Працює "
+"не завжди."
 
 #: ../../reference_manual/preferences/general_settings.rst:163
 msgid "Activation"
@@ -407,7 +461,7 @@ msgstr "Перетягування з клацанням"
 
 #: ../../reference_manual/preferences/general_settings.rst:163
 msgid "Will activate when it can recognise a click event, will always work."
-msgstr ""
+msgstr "Активується, якщо буде розпізнано подію клацання. Працює завжди."
 
 #: ../../reference_manual/preferences/general_settings.rst:165
 msgid "Sensitivity"
@@ -418,6 +472,8 @@ msgid ""
 "How quickly the feature activates, this effective determines the length of "
 "the drag."
 msgstr ""
+"Наскільки швидко активується можливість. Визначає мінімальну довжину "
+"перетягування на сенсорному екрані."
 
 #: ../../reference_manual/preferences/general_settings.rst:168
 msgid "Kinetic Scrolling (Needs Restart)"
@@ -429,7 +485,7 @@ msgstr "Показати смужку гортання"
 
 #: ../../reference_manual/preferences/general_settings.rst:168
 msgid "Whether to show scrollbars when doing this."
-msgstr ""
+msgstr "Визначає, чи слід показувати смужки гортання."
 
 #: ../../reference_manual/preferences/general_settings.rst:173
 msgid "Miscellaneous"
@@ -439,6 +495,8 @@ msgstr "Різне"
 msgid ""
 "This is the option for handling user sessions. It has the following options:"
 msgstr ""
+"Цю вкладку пов'язано із роботою сеансів користувача. Тут розміщено такі "
+"пункти:"
 
 #: ../../reference_manual/preferences/general_settings.rst:178
 msgid "Open Default Window"
@@ -447,6 +505,7 @@ msgstr "Відкрити типове вікно"
 #: ../../reference_manual/preferences/general_settings.rst:179
 msgid "This opens the regular empty window with the last used workspace."
 msgstr ""
+"Відкривати звичайне порожнє вікно із останнім використаним робочим простором."
 
 #: ../../reference_manual/preferences/general_settings.rst:180
 msgid "Load Previous Session"
@@ -457,6 +516,9 @@ msgid ""
 "Load the last opened session. If you have :guilabel:`Save session when Krita "
 "closes` toggled, this becomes the last files you had open and the like."
 msgstr ""
+"Завантажити останній відкритий сеанс. Якщо позначено пункт :guilabel:"
+"`Зберігати сеанс при закритті Krita`, буде відкрито останні файли, над якими "
+"ви працювали та відтворено інші параметри роботи."
 
 #: ../../reference_manual/preferences/general_settings.rst:183
 msgid "Show Session Manager"
@@ -465,96 +527,117 @@ msgstr "Показати керування сеансами"
 #: ../../reference_manual/preferences/general_settings.rst:183
 msgid "Show the session manager directly so you can pick a session."
 msgstr ""
+"Показати засіб керування сеансами безпосередньо, щоб ви могли вибрати сеанс."
 
 #: ../../reference_manual/preferences/general_settings.rst:184
-msgid "When Krita Starts"
+msgid "When Krita starts"
 msgstr "Під час запуску Krita"
-
-#: ../../reference_manual/preferences/general_settings.rst:187
-msgid "Save session when Krita closes"
-msgstr "Зберігати сеанс під час закриття Krita"
 
 #: ../../reference_manual/preferences/general_settings.rst:187
 msgid ""
 "Save the current open windows, documents and the like into the current "
-"session when closing Krita so you can resume where you left off. .. "
-"versionadded:: 4.1"
+"session when closing Krita so you can resume where you left off."
 msgstr ""
+"Зберегти дані щодо поточних відкритих вікон, документів та інші параметри до "
+"поточного сеансу при закритті вікна Krita, щоб потім можна було відновити "
+"роботу з того самого місця, на якому її було завершено."
 
-#: ../../reference_manual/preferences/general_settings.rst:189
+#: ../../reference_manual/preferences/general_settings.rst:188
+msgid "Save session when Krita closes"
+msgstr "Зберігати сеанс під час закриття Krita"
+
+#: ../../reference_manual/preferences/general_settings.rst:190
 msgid "Autosave Every"
 msgstr "Автозбереження кожні"
 
-#: ../../reference_manual/preferences/general_settings.rst:190
-msgid ""
-"Here the user can specify how often Krita should autosave the file, you can "
-"tick the checkbox to turn it off. For Windows these files are saved in the "
-"%TEMP% directory. If you are on Linux it is stored in /home/'username'."
-msgstr ""
-
 #: ../../reference_manual/preferences/general_settings.rst:191
+msgid ""
+"Here the user can specify how often Krita should autosave the file. You can "
+"tick the checkbox to turn it off. For Windows, these files are saved in the "
+"%TEMP% directory. If you are on Linux they are stored in /home/'username'."
+msgstr ""
+"За допомогою цього пункту користувач може вибрати частоту автоматичного "
+"збереження файла у Krita. Також можна позначити пункт вимикання "
+"автоматичного збереження. У Windows файли резервних копій зберігатимуться до "
+"каталогу %TEMP%. Якщо ви працюєте у Linux, ці файли буде збережено до /"
+"home/«ім'я користувача»."
+
+#: ../../reference_manual/preferences/general_settings.rst:192
 msgid "Compress \\*.kra files more."
 msgstr "Стискати файли \\*.kra."
 
-#: ../../reference_manual/preferences/general_settings.rst:192
+#: ../../reference_manual/preferences/general_settings.rst:193
 msgid ""
 "This increases the zip compression on the saved Krita files, which makes "
 "them lighter on disk, but this takes longer to load."
 msgstr ""
-
-#: ../../reference_manual/preferences/general_settings.rst:193
-msgid "Upon importing Images as Layers, convert to the image color space."
-msgstr ""
+"Збільшує ступінь стискання zip для збережених файлів Krita, отже зменшує "
+"розмір файлів на диску, але збільшує тривалість завантаження цих файлів."
 
 #: ../../reference_manual/preferences/general_settings.rst:194
+msgid "Upon importing Images as Layers, convert to the image color space."
+msgstr ""
+"Під час імпортування зображень як шарів перетворювати простір кольорів "
+"зображення."
+
+#: ../../reference_manual/preferences/general_settings.rst:195
 msgid ""
 "This makes sure that layers are the same color space as the image, necessary "
 "for saving to PSD."
 msgstr ""
+"Це забезпечує використання для шарів того самого простору кольорів, що і для "
+"зображення. Необхідно для збереження до формату PSD."
 
-#: ../../reference_manual/preferences/general_settings.rst:195
+#: ../../reference_manual/preferences/general_settings.rst:196
 msgid "Undo Stack Size"
 msgstr "Розмір буфера скасування"
 
-#: ../../reference_manual/preferences/general_settings.rst:196
+#: ../../reference_manual/preferences/general_settings.rst:197
 msgid ""
 "This is the number of undo commands Krita remembers. You can set the value "
 "to 0 for unlimited undos."
 msgstr ""
+"Це кількість команд журналу скасовування-повернення дій, які "
+"запам'ятовуватиме Krita. Встановіть значення 0, якщо програма має "
+"запам'ятовувати усі дії."
 
-#: ../../reference_manual/preferences/general_settings.rst:197
+#: ../../reference_manual/preferences/general_settings.rst:198
 msgid "Favorite Presets"
 msgstr "Улюблені набори"
 
-#: ../../reference_manual/preferences/general_settings.rst:198
+#: ../../reference_manual/preferences/general_settings.rst:199
 msgid ""
 "This determines the amount of presets that can be used in the pop-up palette."
 msgstr ""
+"Визначає кількість наборів пензлів, якими можна користуватися за допомогою "
+"контекстної палітри."
 
-#: ../../reference_manual/preferences/general_settings.rst:199
+#: ../../reference_manual/preferences/general_settings.rst:200
 msgid "Create Backup File"
 msgstr "Створити файл резервної копії"
 
-#: ../../reference_manual/preferences/general_settings.rst:200
+#: ../../reference_manual/preferences/general_settings.rst:201
 msgid "When selected Krita will try to save a backup file in case of a crash."
 msgstr ""
+"Якщо позначено, Krita намагатиметься зберегти файл резервної копії, якщо "
+"станеться аварійне завершення роботи програми."
 
-#: ../../reference_manual/preferences/general_settings.rst:201
+#: ../../reference_manual/preferences/general_settings.rst:202
 msgid "Hide splash screen on startup."
 msgstr "Ховати вікно вітання під час запуску."
 
-#: ../../reference_manual/preferences/general_settings.rst:202
+#: ../../reference_manual/preferences/general_settings.rst:203
 msgid ""
 "This'll hide the splash screen automatically once Krita is fully loaded."
 msgstr ""
 "Автоматично приховати екран вітання повністю, щойно завантаження Krita буде "
 "завершено."
 
-#: ../../reference_manual/preferences/general_settings.rst:203
+#: ../../reference_manual/preferences/general_settings.rst:204
 msgid "Enable Native File Dialog"
 msgstr "Увімкнути природне вікно роботи з файлами"
 
-#: ../../reference_manual/preferences/general_settings.rst:204
+#: ../../reference_manual/preferences/general_settings.rst:205
 msgid ""
 "This allows you to use the system file dialog. By default turned off because "
 "we cannot seem to get native file dialogues 100% bugfree."
@@ -563,24 +646,32 @@ msgstr ""
 "файлами. Типово вимкнено, оскільки, здається, повністю усунути вади, "
 "пов'язані із такими вікнами, неможливо."
 
-#: ../../reference_manual/preferences/general_settings.rst:205
+#: ../../reference_manual/preferences/general_settings.rst:206
 msgid "Maximum brush size"
 msgstr "Макс. розмір пензля"
 
-#: ../../reference_manual/preferences/general_settings.rst:206
+#: ../../reference_manual/preferences/general_settings.rst:207
 msgid ""
 "This allows you to set the maximum brush size to a size of up to 10.000 "
-"pixels. Do be careful with using this, as a 10.000 size pixel can very "
+"pixels. Do be careful with using this, as a 10.000 pixel size can very "
 "quickly be a full gigabyte of data being manipulated, per dab. In other "
 "words, this might be slow."
 msgstr ""
+"За допомогою цього пункту можна встановити максимальний розмір пензля у "
+"значення, яке не перевищує 10000 пікселів. Слід бути обережним із "
+"визначенням розміру пензля, оскільки розмір у 10000 пікселів може призвести "
+"до потреби у роботі з цілим гігабайтом пам'яті для кожного мазка. Іншими "
+"словами, використання пензлів великих розмірів може значно уповільнити "
+"роботу програми."
 
-#: ../../reference_manual/preferences/general_settings.rst:208
+#: ../../reference_manual/preferences/general_settings.rst:209
 msgid "Krita will recalculate the cache when you're not doing anything."
 msgstr "Krita оновлюватиме кеш, коли ви не виконуватимете ніяких дій."
 
-#: ../../reference_manual/preferences/general_settings.rst:212
+#: ../../reference_manual/preferences/general_settings.rst:213
 msgid ""
 "This is now in the :ref:`performance_settings` under :guilabel:`Animation "
 "Cache`."
 msgstr ""
+"Цей пункт у нових версіях переміщено до параметрів :ref:"
+"`performance_settings` і названо :guilabel:`Кеш анімації`."

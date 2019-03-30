@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-20 02:09+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: animationdocker en Imagen icons Timelineinsertkeys\n"
+"X-POFile-SpellExtra: guilabel image Kritamouseleft kbd Kritamouseright\n"
+"X-POFile-SpellExtra: Krita program images mouseleft alt mouseright ref\n"
+"X-POFile-SpellExtra: Timelinedocker menuselection Flash camad\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -35,19 +39,19 @@ msgstr ""
 
 #: ../../reference_manual/dockers/timeline.rst:None
 msgid ".. image:: images/en/Timeline_docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Timeline_docker.png"
 
 #: ../../reference_manual/dockers/timeline.rst:None
 msgid ".. image:: images/en/Timeline_insertkeys.png"
-msgstr ""
+msgstr ".. image:: images/en/Timeline_insertkeys.png"
 
 #: ../../reference_manual/dockers/timeline.rst:1
 msgid "Overview of the timeline docker."
-msgstr ""
+msgstr "Introdução à área da linha temporal."
 
 #: ../../reference_manual/dockers/timeline.rst:17
 msgid "Timeline Docker"
-msgstr ""
+msgstr "Área da Linha Temporal"
 
 #: ../../reference_manual/dockers/timeline.rst:19
 msgid ""
@@ -58,6 +62,13 @@ msgid ""
 "timings that define your animation. In other words, the Timeline Docker is "
 "the digital equivalent to a traditional animator's \"dope sheet\"."
 msgstr ""
+"A **Área da Linha Temporal** funciona em conjunto com a :ref:"
+"`animation_docker` na base das ferramentas de animação do :program:`Krita`. "
+"Embora a Área de Animação ofereça o acesso aos controlos fundamentais para "
+"reproduzir e editar as animações, a Área da Linha Temporal contém as imagens "
+"com as camadas e alguns tempos específicos que definem a sua animação. Por "
+"outras palavras, a Área da Linha Temporal é o equivalente digital às "
+"\"folhas de exposição\" de um animador tradicional."
 
 #: ../../reference_manual/dockers/timeline.rst:25
 msgid "Legend:"
@@ -73,10 +84,18 @@ msgid ""
 "timeline. Each layer has properties that can also be toggled here (visible, "
 "locked, show onion skins, etc.)."
 msgstr ""
+"**A. Lista de Camadas --** Esta área contém um sub-conjunto das camadas do "
+"seu documento actual. A camada activa de momento aparece sempre e poderá ser "
+"\"fixada\" à linha temporal, usando a acção do menu :guilabel:`Mostrar na "
+"Linha Temporal`. Da mesma forma, as Camadas que são criadas através da Linha "
+"Temporal ou adicionadas através do submenu :guilabel:`Adicionar uma Camada "
+"Existente` são automaticamente fixadas à linha temporal. Cada camada tem "
+"propriedades que também poderão ser activadas/desactivadas aqui (visível, "
+"bloqueada, mostrar as peles de cebola, etc.)."
 
 #: ../../reference_manual/dockers/timeline.rst:30
 msgid "**Active Layer**"
-msgstr ""
+msgstr "**Camada Activa**"
 
 #: ../../reference_manual/dockers/timeline.rst:30
 msgid ""
@@ -86,6 +105,11 @@ msgid ""
 "table in order to not disturb the user when scrubbing and editing frame "
 "positions on the timeline."
 msgstr ""
+"Uma linha realçada na tabela mostra a camada activa de momento. Uma pessoa "
+"poderá mudar a camada que está activa se carregar no nome da camada dentro "
+"do cabeçalho esquerdo. *Não* é possível mudar a camada activa se carregar "
+"dentro da tabela, para não incomodar o utilizador quando estiver a arrastar "
+"e a editar as posições das imagens na linha temporal."
 
 #: ../../reference_manual/dockers/timeline.rst:32
 msgid ""
@@ -98,6 +122,15 @@ msgid ""
 "played back at any speed, depending on the :ref:`animation_docker`'s *frame "
 "rate* and *play speed* settings."
 msgstr ""
+"**B. Tabela de Imagens --** A Tabela de Imagens é uma grelha grande de "
+"células que poderão conter uma única imagem ou estarem vazias. Cada linha da "
+"Tabela de Imagens representa uma *camada da animação* e cada coluna "
+"representa o *tempo da imagem*. Como acontece na Lista de Camadas, a camad "
+"aactual está realçada em toda a Tabela de Imagens. É importante perceber que "
+"s tempos das imagens não se baseiam em unidades de tempo, como os segundos, "
+"mas baseiam-se no número de imagens que poderão ser reproduzidas a qualquer "
+"velocidade, dependendo da *taxa de imagens* da :ref:`animation_docker` e da "
+"configuração da *velocidade de reprodução*."
 
 #: ../../reference_manual/dockers/timeline.rst:34
 msgid ""
@@ -107,6 +140,12 @@ msgid ""
 "Table will bring up a helpful context menu for adding, removing, copying, "
 "and pasting frames or adjusting timing with holds."
 msgstr ""
+"Poderá mover as imagens pela linha temporal, bastando para tal carregar com "
+"o botão esquerdo e arrastar uma imagem para outra posição, mesmo entre "
+"camadas. Para além disso, se mantiver carregado o :kbd:`Ctrl` enquanto move, "
+"irá criar uma cópia. Se carregar em qualquer local da Tabela de Imagens com "
+"o botão direito, irá abrir um menu de contexto útil para adicionar, remover, "
+"copiar e colar imagens ou ajustar os seus tempos com suspensões."
 
 #: ../../reference_manual/dockers/timeline.rst:37
 msgid ""
@@ -117,20 +156,30 @@ msgid ""
 "currently selection. Finally, it is also possible to have multiple non-"
 "contiguous/separate selections if needed."
 msgstr ""
+"As imagens realçadas a laranja representa uma selecção ou uma selecção "
+"múltipla, a qual poderá ser criada com o rato ou o teclado. Enquanto tiver "
+"seleccionadas várias imagens, se carregar com o botão direito em qualquer "
+"lado da Tabela de Imagens, irá obter um menu de contexto que lhe permitirá "
+"adicionar ou remover imagens ou suspensões dentro da selecção actual. "
+"Finalmente, também é possível ter selecções não-contíguas/separadas, caso "
+"seja necessário."
 
 #: ../../reference_manual/dockers/timeline.rst:39
 msgid "**Current Selection:**"
-msgstr ""
+msgstr "**Selecção Actual:**"
 
 #: ../../reference_manual/dockers/timeline.rst:39
 msgid ""
 "*WARNING:* Painting always happens only in the *active frame* (represented "
 "by a small dot), which is not necessarily part of your current selection."
 msgstr ""
+"*ATENÇÃO:* A pintura ocorre sempre apenas na *imagem activa* (representada "
+"por um pequeno ponto), que não faz necessariamente parte da sua selecção "
+"actual."
 
 #: ../../reference_manual/dockers/timeline.rst:42
 msgid "**Keys, Blanks, and Holds:**"
-msgstr ""
+msgstr "**Chaves, Brancas e Suspensões:**"
 
 #: ../../reference_manual/dockers/timeline.rst:42
 msgid ""
@@ -143,6 +192,16 @@ msgid ""
 "frames can be set per-frame by the animator using the right-click menu, and "
 "is a matter of personal workflow."
 msgstr ""
+"A Área da Linha Temporal agora mostra-nos ainda mais informações úteis sobre "
+"o que existe lá, assim como o que não existe. As **Imagens-chave** que "
+"contêm os desenhos ainda são apresentadas como *blocos preenchidos* dentro "
+"de uma célula, enquanto as imagens **em branco** ou vazias são desenhadas "
+"com um *contorno vazio*. No Krita, cada imagem desenhada é retida "
+"automaticamente até à próxima imagem; estas **suspensões** são agora "
+"apresentadas de forma clara com uma *linha colorida* em todas as imagens "
+"suspensas. A cor das imagens poderá ser definida por cada imagem pelo "
+"animador, usando o menu do botão direito, e é uma questão de funcionamento "
+"pessoal."
 
 #: ../../reference_manual/dockers/timeline.rst:44
 msgid ""
@@ -153,10 +212,17 @@ msgid ""
 "smaller subdivisions have small single-line marks. Each major notch is "
 "marked with a helpful *frame number*."
 msgstr ""
+"**C. Cabeçalho de Tempos da Imagem --** O Cabeçalho de Tempos das Imagens é "
+"uma régua no topo da Tabela de Imagens. Este cabeçalho está dividido em "
+"pequenas secções com cunhas que se baseiam na *taxa de imagens* actual "
+"(definida na :ref:`animation_docker`). Os múltiplos inteiros da taxa de "
+"imagens têm uma marca subtil com duas linhas, enquanto as sub-divisões "
+"menores têm pequenas marcas com linhas individuais. Cada cunha maior está "
+"marcada com um *número de imagem* útil."
 
 #: ../../reference_manual/dockers/timeline.rst:47
 msgid "**Cached Frames:**"
-msgstr ""
+msgstr "**Imagens em 'Cache':**"
 
 #: ../../reference_manual/dockers/timeline.rst:47
 msgid ""
@@ -169,6 +235,15 @@ msgid ""
 "to cache our animation frames for the smoothest possible experience when "
 "scrubbing through or playing back your animation."
 msgstr ""
+"O Cabeçalho de Tempos das Imagens também mostra informações importantes, "
+"sobre quais as imagens que estão de momento *em cache*. Quando se diz que "
+"algo está *em cache*, significa que está armazenado na memória do seu "
+"dispositivo (RAM) para um acesso extra-rápido. As imagens em 'cache' são "
+"mostradas no cabeçalho com um rectângulo cinzento-claro pequeno em cada "
+"coluna. Embora essa informação nem sempre seja crítica para os artistas, é "
+"útil saber que o Krita está a trabalhar nos bastidores para colocar as "
+"imagens da nossa animação em 'cache', para obter uma experiência o mais "
+"suave possível quando percorrer ou reproduzir a sua animação."
 
 #: ../../reference_manual/dockers/timeline.rst:49
 msgid ""
@@ -176,6 +251,9 @@ msgid ""
 "which controls the current frame time and, as such, what is currently "
 "displayed in the viewport."
 msgstr ""
+"**D. Arrastamento da Hora Actual --** Uma coluna realçada na Tabela de "
+"Imagens que controla o tempo da imagem actual e, como tal, o que aparece de "
+"momento na área de visualização."
 
 #: ../../reference_manual/dockers/timeline.rst:52
 msgid ""
@@ -183,14 +261,17 @@ msgid ""
 "frame is always marked with a small circle inside. All drawing, painting, "
 "and image editing operations happen on this frame only!"
 msgstr ""
+"Uma imagem da *camada activa* na posição da *hora actual*. A imagem activa "
+"está sempre marcada com um pequeno círculo dentro dela. Todos os desenhos, "
+"pinturas e operações de edição de imagens ocorrem apenas nesta imagem!"
 
 #: ../../reference_manual/dockers/timeline.rst:54
 msgid "**Active Frame:**"
-msgstr ""
+msgstr "**Imagem Activa:**"
 
 #: ../../reference_manual/dockers/timeline.rst:54
 msgid "*WARNING:* Don't mix the active frame up with the current selection!"
-msgstr ""
+msgstr "*ATENÇÃO:* Não confunda a imagem activa com a selecção actual!"
 
 #: ../../reference_manual/dockers/timeline.rst:56
 msgid ""
@@ -199,6 +280,11 @@ msgid ""
 "Timeline' here to pin the active layer to the Timeline. (This menu also "
 "shows up when right-clicking on layers inside of the Layer List.)"
 msgstr ""
+"**E. Menu de Camadas --** Um pequeno menu para manipular as camadas de "
+"animação. Poderá criar novas camadas, adicionar ou remover as existentes e "
+"poderá ainda activar a opção 'Mostrar na Linha Temporal' aqui para fixar a "
+"camada activa à Linha Temporal. (Este menu também aparece quando carregar "
+"com o botão direito sobre as camadas dentro da Lista de Camadas.)"
 
 #: ../../reference_manual/dockers/timeline.rst:58
 msgid ""
@@ -206,6 +292,9 @@ msgid ""
 "sources. This is where you can open or close audio sources and control "
 "output volume/muting."
 msgstr ""
+"**F. Menu do Áudio:** Outro pequeno menu para animar em conjunto com as "
+"fontes de áudio. Aqui é onde podeerá abrir as fontes de áudio e controlar o "
+"volume/silêncio à saída."
 
 #: ../../reference_manual/dockers/timeline.rst:60
 msgid ""
@@ -213,6 +302,9 @@ msgid ""
 "centered around the current frame time. Click-dragging starting on the zoom "
 "handle controls the zoom level."
 msgstr ""
+"**G. Pega de Ampliaçã:** Isto permite-lhe ampliar e reduzir a Tabela de "
+"Imagens, centrada em torno da hora da imagem actual. Se carregar e arrastar "
+"a pega de ampliação, irá controlar o nível da mesma."
 
 #: ../../reference_manual/dockers/timeline.rst:63
 msgid "Usage:"
@@ -226,10 +318,17 @@ msgid ""
 "that there's no animation going on at all on that layer and it will keep the "
 "image static over the whole animation."
 msgstr ""
+"Como se usa a Área da Linha Temporal não é imediatamente óbvio, porque o :"
+"program:`Krita` não cria automaticamente uma imagem-chave a partir do seu "
+"desenho inicial. De facto, *até que crie uma imagem-chave numa camada*, o "
+"Krita asume que não existe qualquer espécie de animação em curso e que irá "
+"manter a imagem estática ao longo de toda a animação."
 
 #: ../../reference_manual/dockers/timeline.rst:67
 msgid "So, to make our first *animated layer*, we need to make a key frame!"
 msgstr ""
+"Então, para criar a nossa primeira *camada animada*, é preciso criar uma "
+"imagem-chave!"
 
 #: ../../reference_manual/dockers/timeline.rst:69
 msgid ""
@@ -239,6 +338,12 @@ msgid ""
 "active and drawing on the canvas will make it appear as a *solid, colored "
 "rectangle*."
 msgstr ""
+"Se carregar com o |mouseright| em qualquer quadrado da área da linha "
+"temporal e seleccionar :guilabel:`Criar uma Imagem Vazia`. Aparecerá uma "
+"imagem em branco (uma na qual ainda não tenha desenhado nada) como um "
+"*contorno vazio* em vez de uma caixa sólida, tornando essa a imagem activa "
+"e, ao desenhar na área de desenho, fará com que apareça como um *rectângulo "
+"preenchido e colorido*."
 
 #: ../../reference_manual/dockers/timeline.rst:71
 msgid ""
@@ -248,10 +353,18 @@ msgid ""
 "select :guilabel:`Show in Timeline`. This way you can choose which layers "
 "are important and which are only minor."
 msgstr ""
+"Para manter uma camada visível na Área da Linha Temporal, independentemente "
+"de qual a camada seleccionada, seleccione a camada na Área de Camadas para "
+"que apareça na área em questão, e depois use o |mouseright| nela com a Lista "
+"de Camadas da Área da Linha Temporal e seleccione :guilabel:`Mostrar na "
+"Linha Temporal`. Desta forma, poderá escolher quais as camadas que são "
+"importantes e as que são menos relevantes."
 
 #: ../../reference_manual/dockers/timeline.rst:73
 msgid "You can drag and drop the frame around to a different empty frame slot."
 msgstr ""
+"Poderá arrastar e largar a imagem para a posição de uma imagem vazia "
+"diferente."
 
 #: ../../reference_manual/dockers/timeline.rst:75
 msgid ""
@@ -260,6 +373,10 @@ msgid ""
 "select :guilabel:`Create Duplicate Frame` to create a new copy of the "
 "previous frame."
 msgstr ""
+"Para adicionar uma única imagem nova, tanto poderá carregar com o botão "
+"direito sobre uma posição de imagem vazia e seleccionar :guilabel:`Criar uma "
+"Imagem Vazia`, para criar uma imagem em branco, ou seleccionar :guilabel:"
+"`Criar uma Imagem Duplicada` para criar uma nova cópia da imagem anterior."
 
 #: ../../reference_manual/dockers/timeline.rst:77
 msgid ""
@@ -268,6 +385,11 @@ msgid ""
 "animation. The current color selection is remembered for new frames so that "
 "you can easily make a set of colored frames and then switch to another color."
 msgstr ""
+"Também poderá alterar a cor das imagens, para que possa identificar "
+"facilmente as imagens importantes ou distinguir entre as diferentes secções "
+"da sua animação. A selecção da cor actual é recordada para as novas imagens, "
+"para que possa criar facilmente um conjunto de imagens coloridas e depois "
+"mudar para outra cor."
 
 #: ../../reference_manual/dockers/timeline.rst:79
 msgid ""
@@ -277,6 +399,11 @@ msgid ""
 "the option of built in timing for quickly creating a series of 1s, 2s, 3s, "
 "etc. These settings are saved between uses."
 msgstr ""
+"Também é possível adicionar várias imagens-chave, usando o botão direito na "
+"Tabela de Imagens e seleccionando :menuselection:`Imagens-Chave --> Inserir "
+"Várias Imagens-Chave`. Com esta opção, poderá definir um conjunto de imagens "
+"a adicionar com a opção incorporada de tempos para criar rapidamente uma "
+"série de 1s, 2s, 3s, etc. Estas definições são gravadas entre utilizações."
 
 #: ../../reference_manual/dockers/timeline.rst:81
 msgid ""
@@ -286,6 +413,12 @@ msgid ""
 "menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add "
 "new frames to each layer that's currently visible in the Timeline Docker."
 msgstr ""
+"Em vez da Tabela de Imagens, se carregar no Cabeçalho dos Tempos da Imagem, "
+"poderá ter acesso a mais algumas opções que lhe permitem adicionar ou "
+"remover colunas inteiras de imagens ou suspensões de uma vez. Por exemplo, "
+"se seleccionar as :menuselection:`Colunas de Imagens-Chave --> Inserir uma "
+"Coluna de Imagens-Chave à Esquerda` irá adicionar novas imagens a cada "
+"camada que esteja visível de momento na Área da Linha Temporal."
 
 #: ../../reference_manual/dockers/timeline.rst:86
 msgid ""
@@ -296,6 +429,13 @@ msgid ""
 "held in this way (a.k.a. \"holds\") are displayed as a continuous line in "
 "the Frame Table."
 msgstr ""
+"O :program:`Krita` só regista as mudanças de imagens-chave. Isto não é como "
+"funciona o :program:`Flash`, onde tem de indicar manualmente quanto tempo "
+"irá durar uma imagem-chave. Em vez disso, o :program:`Krita` apenas assume "
+"que o espaço entre a imagem-chave 1 e a imagem-chave 2 é suposto estar "
+"preenchido com a imagem-chave 1. As imagens que são suspensas desta forma "
+"(conhecidas por \"suspensões\") são apresentadas como uma linha contínua na "
+"Tabela de Imagens."
 
 #: ../../reference_manual/dockers/timeline.rst:88
 msgid ""
@@ -304,113 +444,143 @@ msgid ""
 "guilabel:`Remove Frames and Pull` will delete the selected frames and pull "
 "or shift all subsequent frames back/left as much as possible."
 msgstr ""
+"Para apagar imagens, use o |mouseright| sobre a imagem e carregue em :"
+"guilabel:`Remover as Imagens-Chave`. Isto irá apagar todas as imagens "
+"seleccionadas. De forma semelhante, se seleccionar a opção :guilabel:"
+"`Remover as Imagens e Puxar`, irá apagar as imagens seleccionadas e puxar ou "
+"desviar todas as imagens subsequentes para trás/esquerda o máximo possível."
 
 #: ../../reference_manual/dockers/timeline.rst:90
 msgid ""
 "To manually play your animation back and forward using your mouse, a concept "
 "called *scrubbing*, you click-drag within the Frame Timing Header."
 msgstr ""
+"Para reproduzir manualmente a sua animação para trás e para a frente com o "
+"seu rato, existe um conceito de *arrastamento*, onde poderá carregar e "
+"arrastar dentro do Cabeçalho do Tempo da Imagem."
 
 #: ../../reference_manual/dockers/timeline.rst:93
 msgid "GUI Actions:"
-msgstr ""
+msgstr "Acções da GUI:"
 
 #: ../../reference_manual/dockers/timeline.rst:95
 msgid "**Layer List**"
-msgstr ""
+msgstr "**Lista de Camadas**"
 
 #: ../../reference_manual/dockers/timeline.rst:97
 msgid "|mouseleft| : Select active layer."
-msgstr ""
+msgstr "|mouseleft| : Selecciona a camada activa."
 
 #: ../../reference_manual/dockers/timeline.rst:98
 msgid "|mouseright| : Layers Menu (add/remove/show layers, etc.)."
 msgstr ""
+"|mouseright| : Menu de Camadas (adicionar/remover/mostrar as camadas, etc.)."
 
 #: ../../reference_manual/dockers/timeline.rst:100
 msgid "**Frame Timing Header**"
-msgstr ""
+msgstr "**Cabeçalho do Tempo da Imagem**"
 
 #: ../../reference_manual/dockers/timeline.rst:102
 msgid "|mouseleft| : Move to time and select frame of the active layer."
 msgstr ""
+"|mouseleft| : Move para um dado instante de tempo e selecciona a imagem da "
+"camada activa."
 
 #: ../../reference_manual/dockers/timeline.rst:103
 msgid ""
 "|mouseleft| :kbd:`drag` : Scrub through time and select frame of the active "
 "layer."
 msgstr ""
+"|mouseleft| :kbd:`arrastamento` : Arrastar ao longo do tempo e seleccionar a "
+"imagem da camada activa."
 
 #: ../../reference_manual/dockers/timeline.rst:104
 msgid ""
 "|mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold "
 "columns)."
 msgstr ""
+"|mouseright| : Menu de Colunas da Imagen (inserir/remover/copiar/colar "
+"colunas e colunas de suspensão)."
 
 #: ../../reference_manual/dockers/timeline.rst:107
 msgid ""
 "|mouseleft| : Selects a single frame or slot and switches time, but *does "
 "not switch active layer*."
 msgstr ""
+"|mouseleft| : Selecciona uma única imagem ou espaço livre e troca o tempo, "
+"mas *não muda a camada activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:108
 msgid ":kbd:`Space` + |mouseleft| : Pan."
-msgstr ""
+msgstr ":kbd:`Espaço` + |mouseleft| : Posicionamento."
 
 #: ../../reference_manual/dockers/timeline.rst:109
 msgid "**Frames Table: all**"
-msgstr ""
+msgstr "**Tabela de Imagens: todas**"
 
 #: ../../reference_manual/dockers/timeline.rst:109
 msgid ":kbd:`Space` + |mouseright| : Zoom."
-msgstr ""
+msgstr ":kbd:`Espaço` + |mouseright| : Ampliação."
 
 #: ../../reference_manual/dockers/timeline.rst:111
 msgid "**Frames Table (On Empty Slot).**"
-msgstr ""
+msgstr "**Tabela de Imagens (Num Espaço Vazio).**"
 
 #: ../../reference_manual/dockers/timeline.rst:113
 msgid ""
 "|mouseright| : Frames menu (insert/copy/paste frames and insert/remove "
 "holds)."
 msgstr ""
+"|mouseright| : Menu de Imagens (inserir/copiar/colar imagens e inserir/"
+"remover suspensões)."
 
 #: ../../reference_manual/dockers/timeline.rst:114
 msgid ""
 "|mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the "
 "last selected, but *does not switch active layer*."
 msgstr ""
+"|mouseleft| + :kbd:`arrastamento` : Selecciona várias imagens e troca o "
+"tempo para a última seleccionada, mas *não muda a camada activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:115
 msgid ""
 ":kbd:`Shift` + |mouseleft| : Select all frames between the active and the "
 "clicked frame."
 msgstr ""
+":kbd:`Shift` + |mouseleft| : Selecciona todas as imagens entre a activa e "
+"onde se carregou."
 
 #: ../../reference_manual/dockers/timeline.rst:116
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click"
 "+drag` them into place."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| : Selecciona as imagens individuais em conjunto. :"
+"kbd:`click+arrastamento` para as colocar no lugar."
 
 #: ../../reference_manual/dockers/timeline.rst:118
 msgid "**Frames Table (On Existing Frame)**"
-msgstr ""
+msgstr "**Tabela de Imagens (Numa Imagem Existente)**"
 
 #: ../../reference_manual/dockers/timeline.rst:120
 msgid ""
 "|mouseright| : Frames menu (remove/copy/paste frames and insert/remove "
 "holds)."
 msgstr ""
+"|mouseright| : Menu de imagens (remover/copiar/colar imagens e inserir/"
+"remover suspensões)."
 
 #: ../../reference_manual/dockers/timeline.rst:121
 msgid "|mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames."
 msgstr ""
+"|mouseleft| + :kbd:`arrastamento` : *Mover* uma imagem ou várias imagens."
 
 #: ../../reference_manual/dockers/timeline.rst:122
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
 msgstr ""
+":kbd:`Ctrl` + |mouseleft| :kbd:`arrastamento` : Copiar uma imagem ou várias "
+"imagens."
 
 #: ../../reference_manual/dockers/timeline.rst:123
 msgid ""
@@ -419,3 +589,7 @@ msgid ""
 "your animation, but don't want to select all the frame to the right of a "
 "particular frame!)"
 msgstr ""
+":kbd:`Alt` + :kbd:`arrastamento` : Move as imagens seleccionadas e *todas* "
+"as imagens à direita das mesmas. (Isto é útil quando precisa de limpar algum "
+"espaço na sua animação, mas não quer seleccionar todas as imagens à direita "
+"de uma imagem em particular!)"

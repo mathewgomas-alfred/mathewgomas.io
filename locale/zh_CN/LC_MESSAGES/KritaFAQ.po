@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-10 03:30+0100\n"
+"POT-Creation-Date: 2019-03-27 03:36+0100\n"
 "PO-Revision-Date: 2019-03-07 09:28\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -1010,9 +1010,14 @@ msgstr ""
 "箱”即可。"
 
 #: ../../KritaFAQ.rst:351
+#, fuzzy
+#| msgid ""
+#| "Also, you can check the Settings menu, it has got a lot of interesting "
+#| "stuff, then go to the Dockers menu and select Toolbox."
 msgid ""
-"Also, you can check the Settings menu, it has got a lot of interesting "
-"stuff, then go to the Dockers menu and select Toolbox."
+"Also, you can check the :guilabel:`Settings` menu, it has got a lot of "
+"interesting stuff, then go to the Dockers menu and select :guilabel:"
+"`Toolbox`."
 msgstr "你还可以进入“设置”菜单，在“工具面板”子菜单中勾选“工具箱”。"
 
 #: ../../KritaFAQ.rst:354
@@ -1110,9 +1115,16 @@ msgid "Can Krita load Photoshop Brushes?"
 msgstr "Krita 可以加载 Photoshop 笔刷吗？"
 
 #: ../../KritaFAQ.rst:396
+#, fuzzy
+#| msgid ""
+#| "Yes, but there are limitations. You can load ABR files by using the by "
+#| "using the :guilabel:`Import` button in the :guilabel:`Predefined brush` "
+#| "tab in the brush editor. Since Adobe hasn’t disclosed the file format "
+#| "specification, we depend on reverse-engineering to figure out what to "
+#| "load, and currently that’s limited to basic features."
 msgid ""
-"Yes, but there are limitations. You can load ABR files by using the by using "
-"the :guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
+"Yes, but there are limitations. You can load ABR files by using the :"
+"guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
 "brush editor. Since Adobe hasn’t disclosed the file format specification, we "
 "depend on reverse-engineering to figure out what to load, and currently "
 "that’s limited to basic features."
@@ -1165,7 +1177,7 @@ msgstr "你没有在 Krita 中启用画布加速功能"
 #: ../../KritaFAQ.rst:408
 #, fuzzy
 #| msgid "Please also check this page: https://phabricator.kde.org/T7199"
-msgid "Please also check `this page <https://phabricator.kde.org/T7199>`_"
+msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr "更多详情：https://phabricator.kde.org/T7199"
 
 #: ../../KritaFAQ.rst:411
@@ -1282,11 +1294,19 @@ msgid "Slowdown after a been working for a while"
 msgstr "使用一段时间后程序变慢"
 
 #: ../../KritaFAQ.rst:436
+#, fuzzy
+#| msgid ""
+#| "Once you have the slowdown, click on the image-dimensions in the status "
+#| "bar. It will tell you how much RAM Krita is using, if it has hit the "
+#| "limit, or whether it has started swapping. Swapping can slow down a "
+#| "program a lot, so either work on smaller images or turn up the maximum "
+#| "amount of ram in :menuselection:`Settings --> Configure Krita --> "
+#| "Performance --> Advanced Tab`."
 msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
 "whether it has started swapping. Swapping can slow down a program a lot, so "
-"either work on smaller images or turn up the maximum amount of ram in :"
+"either work on smaller images or turn up the maximum amount of RAM in :"
 "menuselection:`Settings --> Configure Krita --> Performance --> Advanced "
 "Tab`."
 msgstr ""
@@ -1296,16 +1316,33 @@ msgstr ""
 "限制：:menuselection:`设置 --> 配置 Krita --> 性能 --> 高级`。"
 
 #: ../../KritaFAQ.rst:439
+msgid "Animation"
+msgstr ""
+
+#: ../../KritaFAQ.rst:442
+msgid "Why is my animation black in my video player"
+msgstr ""
+
+#: ../../KritaFAQ.rst:444
+msgid ""
+"You did not render the animation using the \"baseline\" option and you are "
+"using the default Windows media player. Re-render using the baseline option "
+"or use a better video player application, like VLC. Check `this useful "
+"diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-"
+"issues-manual-783473428>`__"
+msgstr ""
+
+#: ../../KritaFAQ.rst:448
 msgid "Tools"
 msgstr "工具"
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:451
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
 msgstr "为什么变形工具在操作过程中图像很清晰，但输出结果时却变得比较模糊？"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:453
 #, fuzzy
 #| msgid ""
 #| "The transform tool makes a preview that you edit before computing the "
@@ -1318,21 +1355,21 @@ msgid ""
 "finalized version. As this preview is using the screen resolution rather "
 "than the image resolution, it may feel that the result is blurry compared to "
 "the preview. See `this page <https://forum.kde.org/viewtopic.php?"
-"f=139&t=127269>`_ for more info."
+"f=139&t=127269>`__ for more info."
 msgstr ""
 "变形工具在输出结果之前会生成预览图像。预览以屏幕分辨率为准，输出结果则以图像"
 "分辨率为准，因此可能会发生实际结果看起来比预览模糊的现象。详情请看：https://"
 "forum.kde.org/viewtopic.php?f=139&t=127269"
 
-#: ../../KritaFAQ.rst:448
+#: ../../KritaFAQ.rst:457
 msgid "License, rights and the Krita Foundation"
 msgstr "许可证、权利和 Krita 基金会"
 
-#: ../../KritaFAQ.rst:451
+#: ../../KritaFAQ.rst:460
 msgid "Who owns Krita?"
 msgstr "Krita 归谁所有？"
 
-#: ../../KritaFAQ.rst:453
+#: ../../KritaFAQ.rst:462
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
@@ -1340,11 +1377,11 @@ msgstr ""
 "Krita 商标的所有权归 Stichting Krita Foundation (Krita 有限责任基金会) 所有。"
 "Krita 源代码的版权归每一位贡献过源代码的人员所有。"
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:465
 msgid "Who and what is Kiki?"
 msgstr "Kiki 是谁？她是什么？"
 
-#: ../../KritaFAQ.rst:458
+#: ../../KritaFAQ.rst:467
 msgid ""
 "Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson "
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
@@ -1354,11 +1391,11 @@ msgstr ""
 "山)。“Krita”在阿尔巴尼亚语中的含义是松鼠，因此我们选择了一只松鼠作为我们的吉"
 "祥物。"
 
-#: ../../KritaFAQ.rst:461
+#: ../../KritaFAQ.rst:470
 msgid "Why is Krita Free?"
 msgstr "为什么 Krita 是自由/免费的？"
 
-#: ../../KritaFAQ.rst:463
+#: ../../KritaFAQ.rst:472
 msgid ""
 "Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE "
 "community. We believe that good tools should be available for all artists. "
@@ -1369,11 +1406,11 @@ msgstr ""
 "都应该得到使用优秀创作工具的机会。如果你想要支持 Krita 的开发，你也可以在 "
 "Windows Store 上购买支持自动更新的 Krita。"
 
-#: ../../KritaFAQ.rst:466
+#: ../../KritaFAQ.rst:475
 msgid "Can I use Krita commercially?"
 msgstr "我可以将 Krita 用于商业用途吗？"
 
-#: ../../KritaFAQ.rst:468
+#: ../../KritaFAQ.rst:477
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
 "can license your art however you want. Krita’s GPL license applies to "
@@ -1388,7 +1425,7 @@ msgstr ""
 "业游戏开发的游戏美术人员，以科研为目的的科学家，还是在校学生都可以自由地使用 "
 "Krita 来进行创作。"
 
-#: ../../KritaFAQ.rst:470
+#: ../../KritaFAQ.rst:479
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
 "your modifications with us. Krita’s GNU GPL license guarantees you this "
@@ -1398,19 +1435,19 @@ msgstr ""
 "动。Krita 的 GNU GPL 许可证赋予人们使用、研究、修改和分发 Krita 的自由，任何"
 "人无权剥夺这些自由。"
 
-#: ../../KritaFAQ.rst:476
+#: ../../KritaFAQ.rst:485
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "我可以在 iPad 或者安卓上使用 Krita 吗？"
 
-#: ../../KritaFAQ.rst:478
+#: ../../KritaFAQ.rst:487
 msgid "Not at this point in time."
 msgstr "现在还不行。"
 
-#: ../../KritaFAQ.rst:481
+#: ../../KritaFAQ.rst:490
 msgid "Who translates Krita"
 msgstr "谁为 Krita 提供翻译"
 
-#: ../../KritaFAQ.rst:483
+#: ../../KritaFAQ.rst:492
 msgid ""
 "Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! That "
 "means that Krita’s translations are done by `KDE localization teams <http://"
@@ -1425,10 +1462,10 @@ msgstr ""
 "修复给翻译工作带来困难的代码问题，让 Krita 的界面文字在任何一种语言下面都自然"
 "流畅。"
 
-#: ../../KritaFAQ.rst:486
+#: ../../KritaFAQ.rst:495
 msgid "Reference"
 msgstr "参考"
 
-#: ../../KritaFAQ.rst:488
+#: ../../KritaFAQ.rst:497
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"

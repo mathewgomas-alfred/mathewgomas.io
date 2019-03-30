@@ -83,10 +83,10 @@ Random Opacity
     Randomizes the opacity.
 Color Per Particle
     Has the color options be per particle instead of area.
-Sample Input Layer.
+Sample Input Layer
     Will use the underlying layer as reference for the colors instead of the foreground color.
 Fill Background
     Fills the area before drawing the particles with the background color.
-Mix with background color.
+Mix with background color
     Gives the particle a random color between foreground/input/random HSV and the background color.
  

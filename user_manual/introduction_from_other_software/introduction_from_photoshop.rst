@@ -176,7 +176,7 @@ Other
 
 Layers and groups can be exported. See the :guilabel:`Layer` top menu for this and many other options. 
 
-.. note:: Krita has at least 5 times more blending modes than PS. They are sorted by categories in the drop down menu. You can use the checkbox to add your most used to the Favorite categories.
+.. note:: Krita has at least 5 times more blending modes than PS. They are sorted by categories in the drop-down menu. You can use the checkbox to add your most used to the Favorite categories.
 
 Paint tools
 ~~~~~~~~~~~

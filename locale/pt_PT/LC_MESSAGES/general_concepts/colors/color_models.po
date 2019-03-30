@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-22 17:45+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: and en CIE image vs images HSI HSL CMYK Institute rgb\n"
+"X-POFile-SpellExtra: Cmykblackdifferences HSY Luma ICC Light YCrCb hsv\n"
+"X-POFile-SpellExtra: CIELAB Photoshop Ch colorcategory Krita Cb XYZ\n"
+"X-POFile-SpellExtra: portfólio avatars LAB Color of Cr azu\n"
 
 #: ../../general_concepts/colors/color_models.rst:1
 msgid "Color Models in Krita"
@@ -23,13 +27,15 @@ msgstr "Modelos de Cores no Krita:"
 
 #: ../../general_concepts/colors/color_models.rst:15
 msgid "Color Models"
-msgstr ""
+msgstr "Modelos de Cores"
 
 #: ../../general_concepts/colors/color_models.rst:17
 msgid ""
 "Krita has many different color spaces and models. Following here is a brief "
 "explanation of each, and their use-cases."
 msgstr ""
+"O Krita tem muitos espaços e modelos de cores diferentes. Segue-se uma breve "
+"explicação de cada um deles, bem como os seus casos de uso."
 
 #: ../../general_concepts/colors/color_models.rst:22
 msgid "RGB"
@@ -37,7 +43,7 @@ msgstr "RGB"
 
 #: ../../general_concepts/colors/color_models.rst:24
 msgid "Red, Green, Blue."
-msgstr ""
+msgstr "Vermelho, Verde, Azul."
 
 #: ../../general_concepts/colors/color_models.rst:26
 msgid ""
@@ -45,28 +51,37 @@ msgid ""
 "computer screens. Adding Red, Green and Blue light together results in "
 "White, and is thus named the additive color wheel."
 msgstr ""
+"Estas são as cores primárias mais eficientes para a mistura de cores com "
+"base na luz, como os ecrãs dos computadores. A adição da luz Vermelha, Verde "
+"e Azul em conjunto resulta em Branco e, por este motivo, é chamada de roda "
+"de cores aditiva."
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
-msgstr ""
+msgstr "O RGB é usado para dois fins:"
 
 #: ../../general_concepts/colors/color_models.rst:30
 msgid "Images that are meant for viewing on a screen:"
-msgstr ""
+msgstr "Imagens que são para ser vistas num ecrã:"
 
 #: ../../general_concepts/colors/color_models.rst:32
 msgid ""
 "So that could be images for the web, buttons, avatars, or just portfolio "
 "images."
 msgstr ""
+"Neste grupo, podem ser imagens para a Web, botões, avatars ou apenas imagens "
+"de portfólio."
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
 msgstr ""
+"Ou, no caso de jogos de computador, as imagens das personagens e texturas "
+"ficam melhores em RGB aí."
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
 msgstr ""
+"Ou, no caso da representação em 3D, efeitos visuais e animações gráficas."
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
@@ -75,10 +90,14 @@ msgid ""
 "this next to a profiled monitor. This way you can have precise colours while "
 "also being able to view them correctly on multiple screens."
 msgstr ""
+"Quanto ao espaço de trabalho, é um gamute RGB que é realmente grande e "
+"previsível, o que significa que é bom para a manipulação de imagens. Poderá "
+"usar isto num monitor com um perfil. Desta forma, poderá ter cores precisas, "
+"embora consiga à mesma vê-las correctamente em vários ecrãs."
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
-msgstr ""
+msgstr "Modos de mistura no RGB"
 
 #: ../../general_concepts/colors/color_models.rst:43
 #: ../../general_concepts/colors/color_models.rst:85
@@ -126,7 +145,7 @@ msgstr "B"
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:106
 msgid "R & G"
-msgstr ""
+msgstr "R & G"
 
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:106
@@ -163,7 +182,7 @@ msgstr "Cinzento"
 #: ../../general_concepts/colors/color_models.rst:119
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "0.25"
-msgstr ""
+msgstr "0,25"
 
 #: ../../general_concepts/colors/color_models.rst:49
 #: ../../general_concepts/colors/color_models.rst:89
@@ -176,17 +195,20 @@ msgstr "0,75"
 
 #: ../../general_concepts/colors/color_models.rst:55
 msgid "RGB models: HSV, HSL, HSI and HSY"
-msgstr ""
+msgstr "Modelos RGB: HSV, HSL, HSI e HSY"
 
 #: ../../general_concepts/colors/color_models.rst:57
 msgid ""
 "These are not included as their own color spaces in Krita. However, they do "
 "show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
+"Estes não estão incluídos como espaços de cores próprios no Krita. Contudo, "
+"eles aparecem de facto nos modos de mistura e selectores de cores; por isso, "
+"vejamos uma breve introdução:"
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr ""
+msgstr "--Imagens da relação rgb-hsv etc."
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -198,6 +220,9 @@ msgid ""
 "is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
 "blue."
 msgstr ""
+"O tom ou matiz de uma cor. Neste caso, se é vermelho, amarelo, verde, etc. A "
+"Matiz do Krita é medida em 360 graus, onde o 0 corresponde ao vermelho, o "
+"120 ao verde e o 240 ao azul."
 
 #: ../../general_concepts/colors/color_models.rst:63
 msgid "Saturation"
@@ -211,6 +236,11 @@ msgid ""
 "measurement of how close a color is to grey, and sometimes this value is "
 "called **Chroma**. Saturation ranges from 0 (grey) to 100 (pure color)."
 msgstr ""
+"Quão viva é uma cor. A saturação é ligeiramente diferente entre o HSV e os "
+"outros. No HSV, é uma medida da diferença entre as duas cores de base a "
+"serem usadas ou entre três cores de base. Nos outros, é uma medida de quão "
+"próxima uma cor está do cinzento e, em alguns casos, este valor chama-se "
+"**Croma**. A saturação vai de 0 (cinzento) até 100 (cor pura)."
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -221,16 +251,21 @@ msgid ""
 "Sometimes known as Brightness. Measurement of how much the pixel needs to "
 "light up. Also measured from 0 to 100."
 msgstr ""
+"Algumas vezes referido como Brilho. É uma medida de quanto é que o pixel "
+"precisa de se iluminar. Também é medido de 0 a 100."
 
 #: ../../general_concepts/colors/color_models.rst:67
 msgid "Lightness"
-msgstr "Luminosidade"
+msgstr "Ĩluminação"
 
 #: ../../general_concepts/colors/color_models.rst:68
 msgid ""
 "Where a color aligns between white and black. This value is non-linear, and "
 "puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
+"Onde é que uma dada cor se encontra alinhada com o branco ou o preto. Este "
+"valor é não-linear, e coloca as cores mais saturadas possíveis nos 50. O "
+"valor vai de 0 a 100."
 
 #: ../../general_concepts/colors/color_models.rst:69
 msgid "Intensity"
@@ -241,10 +276,12 @@ msgid ""
 "Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
 "than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
+"Semelhante à luminosidade, excepto que confirma que o amarelo (1, 1, 0) é "
+"mais claro que o azul (0, 0, 1). O intervalo vai de 0 a 100."
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid "Luma (Y')"
-msgstr ""
+msgstr "Luma (Y')"
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid ""
@@ -253,6 +290,11 @@ msgid ""
 "reflects to determine its lightness. Ranges from 0 to 100. Luma is well "
 "known for being used in film-colour spaces."
 msgstr ""
+"Semelhante à luminosidade e intensidade, com a diferença que aplica pesos "
+"sobre as componentes de vermelho, verde e azu com base nas medidas da vida "
+"real da quantidade de luz que uma cor reflecte para determinar a sua "
+"luminosidade. O seu valor vai de 0 a 100. O Luma é bastante conhecido pelo "
+"seu uso nos espaços de cores de filmes."
 
 #: ../../general_concepts/colors/color_models.rst:77
 msgid "Grayscale"
@@ -264,12 +306,18 @@ msgid ""
 "registering grey values, it only needs one channel of information, which in "
 "turn means the image becomes much lighter in memory consumption!"
 msgstr ""
+"Este espaço de cores guarda apenas valores de cinzento. Isto é útil porque, "
+"ao só registar valores de cinzento, só precisa de um canal de informação, "
+"que por sua vez significa que a imagem fica muito mais leve em consumo de "
+"memória!"
 
 #: ../../general_concepts/colors/color_models.rst:82
 msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
+"Isto é útil para as texturas, mas também para tudo o que precisa de ficar em "
+"tons de cinzento, como as bandas desenhadas a Preto e Branco."
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -277,7 +325,7 @@ msgstr "CMYK"
 
 #: ../../general_concepts/colors/color_models.rst:97
 msgid "Cyan, Magenta, Yellow, Key"
-msgstr ""
+msgstr "Cíano, Magenta, Amarelo, Chave"
 
 #: ../../general_concepts/colors/color_models.rst:99
 msgid ""
@@ -285,6 +333,9 @@ msgid ""
 "four colors, and adding them all adds up to black instead of white. This is "
 "thus also called a 'subtractive' color space."
 msgstr ""
+"Este é o espaço de cores das impressoras. Ao contrário dos computadores, as "
+"impressoras têm estas quatro cores, e a adição de todas gera preto em vez de "
+"branco. É por isso é que é chamado de espaço de cores 'subtractivo'."
 
 #: ../../general_concepts/colors/color_models.rst:104
 #: ../../general_concepts/colors/color_models.rst:117
@@ -312,6 +363,8 @@ msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
 msgstr ""
+"Existe também uma diferença entre o 'cinzento colorido' e o 'cinzento "
+"neutro', dependendo do perfil."
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
@@ -323,19 +376,19 @@ msgstr "50%"
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "75%"
-msgstr ""
+msgstr "75%"
 
 #: ../../general_concepts/colors/color_models.rst:119
 msgid "Colored Gray"
-msgstr ""
+msgstr "Cinzento Colorido"
 
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "Neutral Gray"
-msgstr ""
+msgstr "Cinzento Neutro"
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ".. image:: images/en/color_category/Cmyk_black_differences.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Cmyk_black_differences.png"
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ""
@@ -344,6 +397,11 @@ msgid ""
 "a yellow look to the strokes. Again, another good reason to work in RGB and "
 "let the conversion be done by the printing house."
 msgstr ""
+"No Krita, existe também o facto de que a cor predefinida é um preto perfeito "
+"no RGB, que é depois convertido para o nosso CMYK predefinido de uma forma "
+"engraçada, atribuindo um aspecto amarelo aos traços. Mais uma vez, outra boa "
+"razão para trabalhar em RGB e deixar que a conversão seja feita pela casa de "
+"impressão."
 
 #: ../../general_concepts/colors/color_models.rst:130
 msgid ""
@@ -353,26 +411,32 @@ msgid ""
 "relative colorimetric intent. Or you can just give the workspace rgb image "
 "to your printer and let them handle the work."
 msgstr ""
+"Embora o CMYK tenha um 'gamute' mais pequeno que o RGB, continua a ser "
+"recomendado o uso de um perfil de espaço de trabalho em RGB para fazer as "
+"suas edições. Depois disso, poderá convertê-lo para o perfil CMYK da sua "
+"impressora, usando a tentativa de desenho por percepção ou colorimétrica "
+"relativa. Ou poderá ainda enviar a imagem RGB do espaço de trabalho para a "
+"sua impressora e deixar que seja ela a ter o trabalho."
 
 #: ../../general_concepts/colors/color_models.rst:136
 msgid "YCrCb"
-msgstr ""
+msgstr "YCrCb"
 
 #: ../../general_concepts/colors/color_models.rst:138
 msgid "Luminosity, Red-chroma, Blue-chroma"
-msgstr ""
+msgstr "Luminosidade, Croma-Vermelho, Croma-Azul"
 
 #: ../../general_concepts/colors/color_models.rst:140
 msgid "YCrCb stands for"
-msgstr ""
+msgstr "O YCrCb significa"
 
 #: ../../general_concepts/colors/color_models.rst:142
 msgid "Y'/Y"
-msgstr ""
+msgstr "Y'/Y"
 
 #: ../../general_concepts/colors/color_models.rst:143
 msgid "Luma/Luminosity, thus, the amount of light a color reflects."
-msgstr ""
+msgstr "Luma/Luminosidade; como tal, a quantidade de luz que uma cor reflecte."
 
 #: ../../general_concepts/colors/color_models.rst:144
 msgid "Cr"
@@ -382,6 +446,7 @@ msgstr "Cr"
 msgid ""
 "Red Chroma. This value measures how red a color is versus how green it is."
 msgstr ""
+"O Croma Vermelho. Este valor mede quão vermelha é uma cor vs quão verde é."
 
 #: ../../general_concepts/colors/color_models.rst:147
 msgid "Cb"
@@ -390,7 +455,7 @@ msgstr "Cb"
 #: ../../general_concepts/colors/color_models.rst:147
 msgid ""
 "Blue Chroma. This value measures how blue a color is versus how yellow it is."
-msgstr ""
+msgstr "O Croma Azul. Este valor mede quão azul é uma cor vs quão amarela é."
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
@@ -399,6 +464,10 @@ msgid ""
 "lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, "
 "and leave the Y channel in full quality."
 msgstr ""
+"Este espaço de cores é frequentemente usado na fotografia e nas "
+"implementações (correctas) do JPEG. Como humano, é muito mais sensível à "
+"luminosidade das cores, e é por isso que o JPEG tenta comprimir os canais Cr "
+"e Ch, deixando o canal Y com toda a qualidade."
 
 #: ../../general_concepts/colors/color_models.rst:153
 msgid ""
@@ -406,6 +475,9 @@ msgid ""
 "open source ICC profiles for this color space. It's unusable without one, "
 "and also probably very untested."
 msgstr ""
+"O Krita não fornece nenhum perfil ICC para o YCrCb com a justificação que "
+"não existem perfis ICC de código aberto para este espaço de cores. É inútil "
+"sem ter um, e provavelmente não estará muito testado."
 
 #: ../../general_concepts/colors/color_models.rst:158
 msgid "XYZ"
@@ -417,14 +489,17 @@ msgid ""
 "color perception. In doing so, they made the first color spaces, with XYZ "
 "being the one best at approximating human vision."
 msgstr ""
+"Em 1931, o CIE (Institute of Color and Light) estava a estudar a percepção "
+"humana da cor. Ao fazê-lo, criaram os primeiros espaços de cores, sendo o "
+"XYZ o que mais se aproximava da visão humana."
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
-msgstr ""
+msgstr "É quase impossível explicar realmente o que é o XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:166
 msgid "is equal to green."
-msgstr ""
+msgstr "é igual ao verde."
 
 #: ../../general_concepts/colors/color_models.rst:167
 msgid "Z"
@@ -432,7 +507,7 @@ msgstr "Z"
 
 #: ../../general_concepts/colors/color_models.rst:168
 msgid "akin to blue."
-msgstr ""
+msgstr "semelhante ao azul."
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "X"
@@ -440,49 +515,53 @@ msgstr "X"
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "is supposed to be red."
-msgstr ""
+msgstr "é suposto ser vermelho."
 
 #: ../../general_concepts/colors/color_models.rst:172
 msgid ""
 "XYZ is used as a baseline reference for all other profiles and models. All "
 "color conversions are done in XYZ, and all profiles coordinates match XYZ."
 msgstr ""
+"O XYZ é usado como uma referência de base para todos os outros perfis e "
+"modelos. Todas as conversões de cores são feitas em XYZ e as coordenadas de "
+"todos os perfis correspondem ao XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:177
 msgid "L\\*a\\*b\\*"
-msgstr ""
+msgstr "L\\*a\\*b\\*"
 
 #: ../../general_concepts/colors/color_models.rst:179
 msgid "Stands for:"
-msgstr ""
+msgstr "Significa:"
 
 #: ../../general_concepts/colors/color_models.rst:181
 msgid "L\\*"
-msgstr ""
+msgstr "L\\*"
 
 #: ../../general_concepts/colors/color_models.rst:182
 msgid "Lightness, similar to luminosity in this case."
-msgstr ""
+msgstr "Iluminação, semelhante à luminosidade neste caso."
 
 #: ../../general_concepts/colors/color_models.rst:183
 msgid "a\\*"
-msgstr ""
+msgstr "a\\*"
 
 #: ../../general_concepts/colors/color_models.rst:184
 msgid ""
 "a\\* in this case is the measurement of how magenta a color is versus how "
 "green it is."
 msgstr ""
+"O 'a\\*' neste caso é a medida de quão magenta é uma cor vs quão verde."
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid "b\\*"
-msgstr ""
+msgstr "b\\*"
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid ""
 "b\\* in this case is a measurement of how yellow a color is versus how blue "
 "a color is."
-msgstr ""
+msgstr "O 'b\\*' neste caso é a medida de quão amarelo é uma cor vs quão azul."
 
 #: ../../general_concepts/colors/color_models.rst:188
 msgid ""
@@ -492,16 +571,23 @@ msgid ""
 "balancing in. It's far easier to adjust the contrast and color tone in "
 "L*a*b*."
 msgstr ""
+"O L\\*a\\*b\\* é suposto ser uma variedade mais compreensível do XYZ e é o "
+"mais 'completo' de todos os espaços de cores. Normalmente é usado como um "
+"espaço de cores intermédio na conversão, mas ainda mais como o espaço de "
+"cores correcto onde efectuar o balanceamento de branco. É muito mais fácil "
+"ajustar o contraste e a tonalidade da cor no L*a*b*."
 
 #: ../../general_concepts/colors/color_models.rst:190
 msgid ""
 "L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
 "specifically uses CIELAB d50."
 msgstr ""
+"O L\\*a\\*b\\* é tecnicamente igual ao LAB do Photoshop. O mesmo usa em "
+"específico o CIELAB d50."
 
 #: ../../general_concepts/colors/color_models.rst:193
 msgid "Filters and blending modes."
-msgstr ""
+msgstr "Filtros e modos de mistura."
 
 #: ../../general_concepts/colors/color_models.rst:195
 msgid ""
@@ -510,3 +596,8 @@ msgid ""
 "on the color coordinates, and because color coordinates are different per "
 "color space, the blending modes look different."
 msgstr ""
+"Talvez tenha reparado que os modos de mistura não funcionam como acontece no "
+"RGB ou no CMYK. Isto acontece porque os modos de mistura funcionam através "
+"de um conjunto de contas sobre as coordenadas das cores e, como as "
+"coordenadas das cores são diferentes por cada espaço de cores, os modos de "
+"mistura parecem diferentes."

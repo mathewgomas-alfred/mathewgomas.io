@@ -25,7 +25,7 @@ Starting from 2.9 Krita has a new format to manage resources it is called ''Bund
 Tags
 ----
 
-Krita also has a robust tagging system for you to manage the resources on the fly while painting.All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. you can |mouseleft| the plus icon in the docker and add a tag name. in addition to adding you can rename and delete a tag as well.
+Krita also has a robust tagging system for you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. you can |mouseleft| the plus icon in the docker and add a tag name. in addition to adding you can rename and delete a tag as well.
 
 .. image:: /images/en/Tags-krita.png
    :align: center
@@ -41,7 +41,7 @@ Some dockers, for example the brush preset docker as shown below, have a resourc
 
 .. image:: /images/en/Brushpreset-filters.png
 
-You can enter brush name, tag name to quickly pull up a list of brush preset you want. When you select any tag from the tag dropdown and want to include brush presets from other tags as well then you can add filters the following way: 
+You can enter brush name, tag name to quickly pull up a list of brush preset you want. When you select any tag from the tag drop-down and want to include brush presets from other tags as well then you can add filters the following way: 
 
 * To filter based on the partial, case insensitive name of the resources you can add ``partialname`` or ``!partialname``
 * To include other Tags type the respective name of the tag in square brackets like this ``[Tagname]`` or to exclude a tag type ``![Tagname]``.
@@ -54,10 +54,10 @@ An incredibly quick way to save a group or brushes into a tag is to:
 #. Use the :guilabel:`Resource Filter` at the bottom of the :guilabel:`Brush Presets` dock or :guilabel:`Brush Settings Editor` to type in what you want to group.  For instance: if you type **Pencil** in the filter box you will get all Brush Presets with **Pencil** somewhere in their name.  Now you have all the Pencil-related Brush Presets together in one place.
 #. To finish, click the :guilabel:`Save` button (small disk icon to the right of the :guilabel:`Resource Filter` box) or press :kbd:`Enter` and all the items will be saved with the new tag you created.  
 
-Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select '''Pencils'''.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
+Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select :guilabel:`Pencils`.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
 
 Resource Zooming
-    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or '''zoom in'''. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|
+    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or :guilabel:`Zoom in`. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|
 
 Managing Resources
 ------------------
@@ -78,7 +78,7 @@ Select .bundle file format from the file type if it is not already selected, bro
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button, This will open a dialog box as shown below
+You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button. This will open a dialog box as shown below
 
 .. image:: /images/en/Creating-bundle.png
 

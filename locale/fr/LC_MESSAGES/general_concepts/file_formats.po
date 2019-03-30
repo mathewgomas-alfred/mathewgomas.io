@@ -1,17 +1,18 @@
+# Vincent Pinon <vpinon@kde.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-27 00:55+0100\n"
-"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
-"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"PO-Revision-Date: 2019-03-12 00:10+0100\n"
+"Last-Translator: Vincent Pinon <vpinon@kde.org>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
@@ -44,7 +45,7 @@ msgstr ""
 #: ../../general_concepts/file_formats.rst:20
 msgid ""
 "Generally, there are the following features that people pay attention to in "
-"regards to fileformats:"
+"regards to file formats:"
 msgstr ""
 
 #: ../../general_concepts/file_formats.rst:23
@@ -103,11 +104,11 @@ msgstr ""
 
 #: ../../general_concepts/file_formats.rst:38
 msgid "Metadata"
-msgstr ""
+msgstr "Métadonnées"
 
 #: ../../general_concepts/file_formats.rst:40
 msgid ""
-"Metadata is the ability of a fileformat to contain information outside of "
+"Metadata is the ability of a file format to contain information outside of "
 "the actual image contents. This can be human readable data, like the date of "
 "creation, the name of the author, a description of the image, but also "
 "computer readable data, like an icc-profile which tells the computer about "
@@ -126,7 +127,7 @@ msgstr ""
 
 #: ../../general_concepts/file_formats.rst:47
 msgid ""
-"Most internal fileformats, like PSD are completely closed, and it's really "
+"Most internal file formats, like PSD are completely closed, and it's really "
 "difficult for human outsiders to recover the data inside without opening "
 "photoshop. Other examples are camera raw files which have different "
 "properties per camera manufacturer."
@@ -134,8 +135,8 @@ msgstr ""
 
 #: ../../general_concepts/file_formats.rst:49
 msgid ""
-"SVG, as a vector fileformat, is on the other end of the spectrum, and can be "
-"opened with any text-editor and edited."
+"SVG, as a vector file format, is on the other end of the spectrum, and can "
+"be opened with any text-editor and edited."
 msgstr ""
 
 #: ../../general_concepts/file_formats.rst:51

@@ -19,7 +19,7 @@ These are the brush tip or textures used in the brush presets. They can be png f
 
 .. note::
 
-    currently Krita only import a brush texture from abr file , you have to recreate the brushes by adding appropriate values in size, spacing etc. to recreate the brushes
+    Currently Krita only import a brush texture from abr file, you have to recreate the brushes by adding appropriate values in size, spacing etc.
 
 They can be modified/tagged in the brush preset editor.
 
@@ -45,9 +45,9 @@ For some time Photoshop has been using the ABR format to compile brushes into a 
 #. Change the name of the brush at the very top of the Brush Editor Settings dialog.  Something like "Trees - Tall Evergreen" would be appropriate.
 #. Click the "Save to Presets" button
 #. Now that you have a "Tall Evergreen" brush safely saved you can experiment with the settings to see if there is anything you would like to change, for instance, by altering the size setting and the pressure parameter you could set the brush to change the tree size depending on the pressure you were using with your stylus (assuming you have a stylus!).
-#. Once you're satisfied with your brush and its settings you need to do one last thing (but click Overwrite Preset first!)
+#. Once you're satisfied with your brush and its settings you need to do one last thing (but click :guilabel:`Overwrite Brush` first!)
 
-It's time now to create the Brush Preview graphic.  The simplest and easiest way to do this for a brush of this type is to clear out the ScratchPad using the "Reset" button.  Now, center your cursor in the Brush Preview square at the top of the ScratchPad and click once.  You should see an image of your texture (in this case it would be the evergreen tree.  In order to work correctly though the entire image should fit comfortably within the square.  This might mean that you have to tweak the size of the brush.  Once you have something you are happy with then click the :guilabel:`Overwrite Preset` button and your brush and its preview image will be saved.
+It's time now to create the Brush Preview graphic. The simplest and easiest way to do this for a brush of this type is to clear out the ScratchPad using the :guilabel:`Reset` button. Now, center your cursor in the Brush Preview square at the top of the ScratchPad and click once. You should see an image of your texture (in this case it would be the evergreen tree). In order to work correctly though the entire image should fit comfortably within the square. This might mean that you have to tweak the size of the brush. Once you have something you are happy with then click the :guilabel:`Overwrite Brush` button and your brush and its preview image will be saved.
 
 An alternative method that requires a little more work but gives you greater control of the outcome is the following:
 

@@ -58,7 +58,7 @@ Exposure
 Levels
 ------
 
-This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. you can even set an output and input range of tones for the image.A histogram is displayed to show you the tonal distribution.
+This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. you can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
 The default shortcut for levels filter is :kbd:`Ctrl + L` .
 
 .. image:: /images/en/Levels-filter.png
@@ -93,13 +93,13 @@ Sometimes, when you are adjusting the colors for an image, you want bright color
 
 The Cross-channel color adjustment filter allows you to do this.
 
-At the top, there's two drop downs. The first one is to choose which :guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop down is what channel you use to control which parts are modified.
+At the top, there are two drop-downs. The first one is to choose which :guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop down is what channel you use to control which parts are modified.
 
 .. image:: /images/en/cross_channel_filter.png
 
 The curve, on the horizontal axis, represents the driver channel, while the vertical axis represent the channel you wish to modify.
 
-So if you wish to increase the saturation in the lighter parts, you pick :guilabel:`Saturation` in the first drop down, and :guilabel:`Lightness` as the driver channel. Then, pull up the right end to the top.
+So if you wish to increase the saturation in the lighter parts, you pick :guilabel:`Saturation` in the first drop-down, and :guilabel:`Lightness` as the driver channel. Then, pull up the right end to the top.
 
 If you wish to desaturate everything but the teal/blues, you select :guilabel:`Saturation` for the channel and :guilabel:`Hue` for the driver. Then put a dot in the middle and pull down the dots on either sides.
 
@@ -149,7 +149,7 @@ Max
 Invert
 ------
 
-This filter like the name suggests inverts the color values in the image.So white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), etc.
+This filter like the name suggests inverts the color values in the image. So white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), etc.
 The default shortcut for this filter is :kbd:`Ctrl + I`.
 
 .. index:: Contrast

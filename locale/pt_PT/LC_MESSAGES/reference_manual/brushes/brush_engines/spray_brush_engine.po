@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-02 03:22+0100\n"
-"PO-Revision-Date: 2019-02-19 09:58+0000\n"
+"PO-Revision-Date: 2019-03-17 17:27+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: optionsize optionshapedyna optionairbrush\n"
+"X-POFile-SpellExtra: optionopacitynflow icons etiver image optionrotation\n"
+"X-POFile-SpellExtra: guilabel px optionbrushtip optionsprayshape\n"
+"X-POFile-SpellExtra: optioncolorspray blendingmodes optionsprayarea images\n"
+"X-POFile-SpellExtra: spraybrush ref\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color."
@@ -23,19 +28,20 @@ msgstr "Mistura com a cor de fundo."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:1
 msgid "The Spray Brush Engine manual page."
-msgstr ""
+msgstr "A página de manual do Motor de Pincéis de Spray."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:16
 msgid "Spray Brush Engine"
-msgstr ""
+msgstr "Motor de Pincéis de Spray"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:19
 msgid ".. image:: images/icons/spraybrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/spraybrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:20
 msgid "A brush that can spray particles around in its brush area."
 msgstr ""
+"Um pincel que poderá pulverizar partículas à volta da área do seu pincel."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:23
 msgid "Options"
@@ -43,15 +49,17 @@ msgstr "Opções"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:25
 msgid ":ref:`option_spray_area`"
-msgstr ""
+msgstr ":ref:`option_spray_area`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:26
 msgid ":ref:`option_spray_shape`"
-msgstr ""
+msgstr ":ref:`option_spray_shape`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:27
 msgid ":ref:`option_brush_tip` (Used as particle if spray shape is not active)"
 msgstr ""
+":ref:`option_brush_tip` (Usada como partícula se a forma do spray não "
+"estiver seleccionada)"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:28
 msgid ":ref:`option_opacity_n_flow`"
@@ -67,11 +75,11 @@ msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:31
 msgid ":ref:`option_shape_dyna`"
-msgstr ""
+msgstr ":ref:`option_shape_dyna`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:32
 msgid ":ref:`option_color_spray`"
-msgstr ""
+msgstr ":ref:`option_color_spray`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:33
 msgid ":ref:`option_rotation`"
@@ -87,7 +95,7 @@ msgstr "Área do 'Spray'"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:41
 msgid "The area in which the particles are sprayed."
-msgstr ""
+msgstr "A área na qual são pulverizadas as partículas."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:43
 msgid "Diameter"
@@ -95,7 +103,7 @@ msgstr "Diâmetro"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:44
 msgid "The size of the area."
-msgstr ""
+msgstr "O tamanho da área."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:45
 msgid "Aspect Ratio"
@@ -103,7 +111,7 @@ msgstr "Proporções"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:46
 msgid "It's aspect ratio: 1.0 is fully circular."
-msgstr ""
+msgstr "A sua proporção de dimensões: o 1,0 é completamente circular."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:47
 msgid "Angle"
@@ -113,6 +121,8 @@ msgstr "Ângulo"
 msgid ""
 "The angle of the spray size: works nice with aspect ratios other than 1.0."
 msgstr ""
+"O ângulo do tamanho do pincel: funciona bem com proporções de tamanho "
+"diferentes de 1,0."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:49
 msgid "Scale"
@@ -120,7 +130,7 @@ msgstr "Escala"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:50
 msgid "Scales the diameter up."
-msgstr ""
+msgstr "Aumenta a escala do diâmetro."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Spacing"
@@ -128,7 +138,7 @@ msgstr "Espaço"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Increases the spacing of the diameter's spray."
-msgstr ""
+msgstr "Aumenta o espaçamento dentro do diâmetro do 'spray'."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:55
 msgid "Particles"
@@ -140,7 +150,7 @@ msgstr "Quantidade"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:58
 msgid "Use a specified amount of particles."
-msgstr ""
+msgstr "Usa um número de partículas bem definido."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:59
 msgid "Density"
@@ -148,7 +158,7 @@ msgstr "Densidade"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:60
 msgid "Use a % amount of particles."
-msgstr ""
+msgstr "Uma quantidade em percentagem de partículas."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:61
 msgid "Jitter Movement"
@@ -157,6 +167,7 @@ msgstr "Movimento Súbito"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:62
 msgid "Jitters the spray area around for extra randomness."
 msgstr ""
+"Agita a área do 'spray' à volta, para obter alguma aleatoriedade extra."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:64
 msgid "Gaussian Distribution"
@@ -167,20 +178,24 @@ msgid ""
 "Focuses the particles to paint in the center instead of evenly random over "
 "the spray area."
 msgstr ""
+"Foca as partículas para se pintarem ao centro em vez de estarem dispersas "
+"aleatoriamente pela área do 'spray'."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:69
 msgid "Spray Shape"
-msgstr ""
+msgstr "Forma do 'Spray'"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:71
 msgid ""
 "If activated, this will generate a special particle. If not, the brush-tip "
 "will be the particle."
 msgstr ""
+"Se etiver activa, irá gerar uma partícula especial. Caso contrário, a ponta "
+"do pincel será a partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:74
 msgid "Can be..."
-msgstr ""
+msgstr "Pode ser..."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:76
 msgid "Ellipse"
@@ -208,11 +223,11 @@ msgstr "Imagem"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:82
 msgid "Width & Height"
-msgstr ""
+msgstr "Largura & Altura"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:83
 msgid "Decides the width and height of the particle."
-msgstr ""
+msgstr "Decide a largura e a altura da partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:84
 msgid "Proportional"
@@ -220,7 +235,7 @@ msgstr "Proporcional"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:85
 msgid "Locks Width & Height to be the same."
-msgstr ""
+msgstr "Bloqueia a Largura & Altura para ficarem iguais."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Texture"
@@ -228,55 +243,59 @@ msgstr "Textura"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Allows you to pick an image for the :guilabel:`Image shape`."
-msgstr ""
+msgstr "Permite-lhe escolher uma imagem para a :guilabel:`Forma da imagem`."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:92
 msgid "Shape Dynamics"
-msgstr ""
+msgstr "Parâmetros Dinâmicos da Forma"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:94
 msgid "Random Size"
-msgstr ""
+msgstr "Tamanho Aleatório"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:95
 msgid ""
 "Randomizes the particle size between 1x1 px and the given size of the "
 "particle in brush-tip or spray shape."
 msgstr ""
+"Gera um tamanho aleatório da partícula entre 1x1 px e o tamanho indicado da "
+"partícula na ponta do pincel ou na forma do 'spray'."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:96
 msgid "Fixed Rotation"
-msgstr ""
+msgstr "Rotação Fixa"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:97
 msgid "Gives a fixed rotation to the particle to work from."
-msgstr ""
+msgstr "Atribui uma rotação fixa à partícula quando a usar."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:98
 msgid "Randomized Rotation"
-msgstr ""
+msgstr "Rotação Aleatória"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:99
 msgid "Randomizes the rotation."
-msgstr ""
+msgstr "Atribui um ângulo de rotação aleatório."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:100
 msgid "Follow Cursor Weight"
-msgstr ""
+msgstr "Seguir o Peso do Cursor"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:101
 msgid ""
 "How much the pressure affects the rotation of the particles. At 1.0 and high "
 "pressure it'll seem as if the particles are exploding from the middle."
 msgstr ""
+"Quanto é que a pressão afecta a rotação das partículas. Em 1,0 e com uma "
+"pressão elevada, parecerá que as partículas explodiram a partir do centro."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "Angle Weight"
-msgstr ""
+msgstr "Peso do Ângulo"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "How much the spray area angle affects the particle angle."
-msgstr ""
+msgstr "Como é que o ângulo da área do 'spray' afecta o ângulo da partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:108
 msgid "Color Options"

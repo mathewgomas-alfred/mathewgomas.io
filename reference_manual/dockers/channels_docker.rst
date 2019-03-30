@@ -25,7 +25,7 @@ If you want to edit individual channels by their greyscale component, you will n
 
 #. Select the layer you want to break apart.
 #. Go to :menuselection:`Image --> Separate Image`
-#. Select the following options and click OK:
+#. Select the following options and click :guilabel:`OK`:
 
     #. Source: Current Layer
     #. Alpha Options: Create separate separation from alpha channel 

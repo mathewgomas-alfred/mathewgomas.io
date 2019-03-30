@@ -16,7 +16,7 @@ Dyna Brush Engine
 
 .. image:: /images/icons/dynabrush.svg
 
-Dyna brush uses dynamic setting like mass and drag to draw strokes. The results are fun and random spinning strokes.To experiment more with this brush you can play with values in 'dynamic settings' section of the brush editor under Dyna Brush.
+Dyna brush uses dynamic setting like mass and drag to draw strokes. The results are fun and random spinning strokes. To experiment more with this brush you can play with values in 'dynamic settings' section of the brush editor under Dyna Brush.
 
 .. deprecated:: 4.0
     

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_contributors_manual___optimising_images\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-03 08:24+0200\n"
+"PO-Revision-Date: 2019-03-26 22:34+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -35,6 +35,9 @@ msgid ""
 "particular it deals with making images for the manual, and how to optimise "
 "images."
 msgstr ""
+"Цей розділ є певним чином розширенням розділу :ref:`saving_for_the_web`. "
+"Зокрема, у ньому йдеться про те, як створювати зображення для підручника, та "
+"те, як оптимізувати зображення."
 
 #: ../../contributors_manual/optimising_images.rst:19
 msgid "Contents"
@@ -50,12 +53,17 @@ msgid ""
 "tools, then :ref:`saving_for_the_web` won't be very helpful: It only saves "
 "out the canvas contents, after all!"
 msgstr ""
+"Якщо вам потрібно зробити знімок вікна із усіма бічними панелями та "
+"інструментами, поради розділу :ref:`saving_for_the_web` не дуже допоможуть. "
+"Там ви знайдете лише настанови щодо того, як зберегти вміст полотна!"
 
 #: ../../contributors_manual/optimising_images.rst:26
 msgid ""
 "So, instead, we'll make a screenshot. Depending on your operating system, "
 "there are several screenshot utilities available."
 msgstr ""
+"Отже, нам слід зробити знімок вікна. Залежно від операційної системи, існує "
+"декілька інструментів для створення знімків вікон."
 
 #: ../../contributors_manual/optimising_images.rst:29
 #: ../../contributors_manual/optimising_images.rst:81
@@ -114,6 +122,9 @@ msgid ""
 "easy user-interface. Like many screenrecording programs it does show trouble "
 "on Wayland."
 msgstr ""
+"`Peek <https://github.com/phw/peek>`_ — для цієї програми передбачено "
+"пакунок appimage, вона має дуже простий інтерфейс. Як і багато інших програм "
+"для запису з екрана, має проблеми із Wayland."
 
 #: ../../contributors_manual/optimising_images.rst:49
 msgid "OS X"
@@ -125,6 +136,9 @@ msgid ""
 "`the official apple documentation <https://support.apple.com/en-us/"
 "HT201361>`_."
 msgstr ""
+"Комбінацією клавіш для створення знімків вікон у OS X є :kbd:`Shift + "
+"Command + 3`, відповідно до `офіційної документації Apple <https://support."
+"apple.com/en-us/HT201361>`_."
 
 #: ../../contributors_manual/optimising_images.rst:54
 msgid "The appropriate file format for the job."
@@ -136,6 +150,10 @@ msgid ""
 "we want to have images that look nice and have a low filesize, because that "
 "makes the manual easier to download or browse on the internet."
 msgstr ""
+"Для різних типів зображень варто використовувати різні типи файлів. Нам "
+"хочеться, щоб зображення виглядали красиво, а розмір файлів був якнайменшим, "
+"оскільки це спрощує отримання файла підручника та навігацію підручником у "
+"інтернеті."
 
 #: ../../contributors_manual/optimising_images.rst:58
 msgid "GUI screenshots"
@@ -214,6 +232,9 @@ msgid ""
 "Now, while most image editors try to give good defaults on image sizes, we "
 "can often make them even smaller by using certain tools."
 msgstr ""
+"Тепер, хоча у більшості редакторів зображень за типових значень параметрів "
+"створюються доволі якісно стиснуті зображення, часто ми можемо зробити ці "
+"зображення ще меншими за допомогою додаткових інструментів."
 
 #: ../../contributors_manual/optimising_images.rst:83
 msgid ""
@@ -221,6 +242,9 @@ msgid ""
 "<https://www.irfanview.com/>`_, but the dear writer of this document has no "
 "idea how to use it exactly."
 msgstr ""
+"Рекомендованим інструментом для цієї мети у Windows є `IrfranView <https://"
+"www.irfanview.com/>`_, але автор цього підручника не знає, що саме слід для "
+"зробити для досягнення мети."
 
 #: ../../contributors_manual/optimising_images.rst:85
 msgid "The other option is to use PNGCrush as mentioned in the linux section."
@@ -279,12 +303,16 @@ msgstr "`PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_"
 msgid ""
 "This will try the most common methods. Add ``-brute`` to try out all methods."
 msgstr ""
+"Буде виконано спробу використатися найбільш типові методи. Додайте ``-"
+"brute``, щоб наказати програмі спробувати усі методи."
 
 #: ../../contributors_manual/optimising_images.rst:111
 msgid ""
 "Another lossless PNG compressor which can be run after using PNGQuant, it is "
 "apparently originally a fork of png crush. Usage::"
 msgstr ""
+"Ще одним інструментом стискання PNG без втрат, яким можна скористатися після "
+"використання PNGQuant, є відгалуження png crush. Користування::"
 
 #: ../../contributors_manual/optimising_images.rst:116
 msgid "`Optipng <http://optipng.sourceforge.net/>`_"
@@ -324,6 +352,9 @@ msgid ""
 "ref:`lossy file format <lossy_compression>`, and that means that it uses "
 "psychological tricks to store its data."
 msgstr ""
+"JPEG доволі важко оптимізувати як слід. Причина полягає у тому, що це :ref:"
+"`формат зберігання із втратою даних <lossy_compression>`, а це означає, що "
+"для зберігання даних вже використовуються певні психологічні трюки."
 
 #: ../../contributors_manual/optimising_images.rst:130
 msgid ""
@@ -355,18 +386,24 @@ msgid ""
 "Sometimes, personal information gets embedded into an image file. "
 "Othertimes, we want to embed information into a file to document it better."
 msgstr ""
+"Іноді, до файлів зображення вбудовуються деякі особисті дані. А іноді, нам "
+"самим потрібно вбудувати певні дані для поліпшення документування файла."
 
 #: ../../contributors_manual/optimising_images.rst:144
 msgid ""
 "There are no less than 3 to 4 different ways of handling metadata, and "
 "metadata has different ways of handling certain files."
 msgstr ""
+"Існує не менше 3-4 різних способів роботи з метаданими. Крім того, обробка "
+"метаданих у різних типах файлів відбувається у різний спосіб."
 
 #: ../../contributors_manual/optimising_images.rst:146
 msgid ""
 "The most commonly used tool to edit metadata is :program:`ExifTool`, another "
 "is to use :program:`ImageMagick`."
 msgstr ""
+"Найпоширенішим інструментом для редагування метаданих є :program:`ExifTool`. "
+"Ще одним інструментом редагування є :program:`ImageMagick`."
 
 #: ../../contributors_manual/optimising_images.rst:149
 msgid "Windows and OS X"
@@ -447,6 +484,9 @@ msgid ""
 "This empties all tags exiftool can get to. You can also be specific and only "
 "remove a single tag: `exiftool -author= image.png`"
 msgstr ""
+"Ця програма спорожнює усі мітки, які може бути встановлено за допомогою "
+"exiftool. Ви також можете наказати їй спорожнити лише певну мітку: `exiftool "
+"-author= image.png`"
 
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "OptiPNG"
@@ -479,6 +519,8 @@ msgid ""
 "Sometimes we want to extract metadata, like an icc profile, before stripping "
 "everything. This is done by converting the image to the profile type:"
 msgstr ""
+"Іноді потрібно видобути метадані, зокрема профіль ICC, до вилучення зайвого. "
+"Це можна зробити перетворенням зображення до типу профілю:"
 
 #: ../../contributors_manual/optimising_images.rst:196
 msgid "First extract the metadata to a profile by converting::"
@@ -541,6 +583,8 @@ msgid ""
 "You can use dcterms:license for defining the document where the license is "
 "defined."
 msgstr ""
+"Ви можете скористатися полем dcterms:license для визначення документа із "
+"умовами ліцензування."
 
 #: ../../contributors_manual/optimising_images.rst:232
 msgid "For the GDPL::"
@@ -559,6 +603,9 @@ msgid ""
 "The problem with using properties is that they are a non-standard way to "
 "define a license, meaning that machines cannot do much with them."
 msgstr ""
+"Проблема із використанням властивостей полягає у тому, що властивості не є "
+"стандартним способом визначення умов ліцензування, тобто вони не підлягають "
+"обов'язковій машинній обробці."
 
 #: ../../contributors_manual/optimising_images.rst:245
 msgid "Using XMP"
@@ -576,14 +623,16 @@ msgid ""
 "We'll need to use the `XMP tags for exiftool <https://www.sno.phy.queensu.ca/"
 "~phil/exiftool/TagNames/XMP.html>`_."
 msgstr ""
+"Маємо скористатися `мітками XMP для exiftool <https://www.sno.phy.queensu.ca/"
+"~phil/exiftool/TagNames/XMP.html>`_."
 
 #: ../../contributors_manual/optimising_images.rst:251
 msgid "So that would look something like this::"
-msgstr ""
+msgstr "Отже, це виглядатиме десь так::"
 
 #: ../../contributors_manual/optimising_images.rst:255
 msgid "Another way of doing the marking is::"
-msgstr ""
+msgstr "Іншим способом виконати позначення є такий::"
 
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data (if there is any)::"
@@ -595,10 +644,12 @@ msgstr "Далі, вносимо зміни до файла-результату
 
 #: ../../contributors_manual/optimising_images.rst:266
 msgid "With imagemagick you can use the profile option again."
-msgstr ""
+msgstr "У imagemagick ви можете знову скористатися параметром профілю."
 
 #: ../../contributors_manual/optimising_images.rst:268
 msgid ""
 "The XMP definitions per license. You can generate an XMP file for the "
 "metadata on the creative commons website."
 msgstr ""
+"Визначення XMP за умовами ліцензування. Ви можете створити файл XMP для "
+"метаданих на сайті creative commons."
