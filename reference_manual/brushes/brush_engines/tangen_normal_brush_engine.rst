@@ -60,14 +60,14 @@ Tilt
 Direction
     Uses the drawing angle for the X and Y and Tilt-elevation for the Z, this allows you to draw flowmaps easily.
 Rotation
-    Uses rotation for the x and y, and tilt-elevation for the Z. Only available for specialized Pens.
+    Uses rotation for the X and Y, and tilt-elevation for the Z. Only available for specialized Pens.
 Elevation Sensitivity
     Allows you to change the range of the normal that are outputted. At 0 it will only paint the default normal, at 1 it will paint all the normals in a full hemisphere.
 
 Usage
 -----
 
-The Tangent Normal Map Brush Engine is best used with the Tilt Cursor, which can be set in :menuselection:`Settings --> configure Krita --> general --> Outline Shape --> Tilt Outline`.
+The Tangent Normal Map Brush Engine is best used with the Tilt Cursor, which can be set in :menuselection:`Settings --> Configure Krita --> General --> Outline Shape --> Tilt Outline`.
 
 Normal Map authoring workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,19 +79,19 @@ Normal Map authoring workflow
        
        Setting up a background with the default color.
 
-#. Set up group with a phongbumpmap-filter mask. Use the 'use normal map' checkbox on the filter to make it use normals.
+#. Set up group with a :guilabel:`Phong Bumpmap` filter mask. Use the :guilabel:`Use Normal map` checkbox on the filter to make it use normals.
 
     .. figure:: /images/en/Krita-normals-tutorial_2.png
        :figwidth: 500
        
-       Creating a phong bump map filterlayer, make sure to check 'use normalmap'.
+       Creating a phong bump map filter layer, make sure to check 'Use Normal map'.
 
     .. figure:: /images/en/Krita-normals-tutorial_3.png
        :figwidth: 500
        
        These settings give a nice daylight-esque lighting setup, with light 1 being the sun, light 3 being the light from the sky, and light 2 being the light from the ground.
 
-#. Make a 'normalize' filter layer or mask to normalize the normal map before feeding it into the phongbumpmap filter for the best results.
+#. Make a :guilabel:`Normalize` filter layer or mask to normalize the normal map before feeding it into the Phong bumpmap filter for the best results.
 #. Then, paint on layers in the group to get direct feedback. 
 
     .. figure:: /images/en/Krita-normals-tutoria_4.png
@@ -99,30 +99,30 @@ Normal Map authoring workflow
        
        Paint on the layer beneath the filters with the tangent normal brush to have them be converted in real time.
 
-#. Finally, when done, hide the phongbumpmap filter-layer (but keep the normalize filter layer!) , and export the normal map for use in 3d programs.
+#. Finally, when done, hide the Phong bumpmap filter layer (but keep the Normalize filter layer!), and export the normal map for use in 3d programs.
 
 Drawing Direction Maps
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Direction maps are made with the 'Direction' option in the Tangent Tilt options. These normal maps are used to distort textures in a 3d program (to simulate for example, the flow of water) or to create maps that indicate how hair and brushed metal is brushed. Krita can't currently give feedback on how a given direction map will influence a distortion or shader, but these maps are a little easier to read.
+Direction maps are made with the :guilabel:`Direction` option in the :guilabel:`Tangent Tilt` options. These normal maps are used to distort textures in a 3d program (to simulate for example, the flow of water) or to create maps that indicate how hair and brushed metal is brushed. Krita can't currently give feedback on how a given direction map will influence a distortion or shader, but these maps are a little easier to read.
 
-Just set the tangent-tilt option to direction, and draw. The direction your brush draws in will be the direction that is encoded in the colors.
+Just set the :guilabel:`Tangent Tilt` option to :guilabel:`Direction`, and draw. The direction your brush draws in will be the direction that is encoded in the colors.
 
 Only editing a single channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes you only want to edit a single channel. In that case set the blending mode of the brush to 'copy <channel>', with <channel> replaced with red, green or blue. These are under the misc section of the blending modes.
+Sometimes you only want to edit a single channel. In that case set the blending mode of the brush to :guilabel:`Copy <channel>`, with <channel> replaced with red, green or blue. These are under the :guilabel:`Misc` section of the blending modes.
 
-So, if you want the brush to only affect the red channel, set the blending mode to 'copy red'.
+So, if you want the brush to only affect the red channel, set the blending mode to :guilabel:`Copy Red`.
 
 .. figure:: /images/en/Krita_Filter_layer_invert_greenchannel.png
    :figwidth: 500
     
    The copy red, green and blue blending modes also work on filter-layers.
 
-This can also be done with filter layers. So if you quickly want to flip a layer's green channel, make an invert filter layer with 'copy green' above it.
+This can also be done with filter layers. So if you quickly want to flip a layer's green channel, make an invert filter layer with :guilabel:`Copy Green` above it.
 
 Mixing Normal Maps
 ~~~~~~~~~~~~~~~~~~
 
-For mixing two normal maps, Krita has the Combine Normal Map blending mode under 'misc'.
+For mixing two normal maps, Krita has the :guilabel:`Combine Normal Map` blending mode under :guilabel:`Misc`.

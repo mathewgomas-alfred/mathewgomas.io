@@ -89,7 +89,7 @@ the right hand side provides a list of available resources. Choose the type of r
 
     Make sure you add brush tips for used in the  respective paintop preset you are adding to the bundle. If you don't provide the brush tips then the brush presets loaded from this bundle will have a 'X' mark on the thumbnail denoting that the texture is missing. And the brush preset won't be the same
 
-Once you have added all the resources you can create bundle by clicking on the save button, the bundle will be saved in the location you have specified. You can then share this bundle with other artists or load it on other workstations.
+Once you have added all the resources you can create bundle by clicking on the :guilabel:`Save` button, the bundle will be saved in the location you have specified. You can then share this bundle with other artists or load it on other workstations.
 
 Deleting Backup files
 ---------------------
@@ -99,7 +99,7 @@ When you delete a preset from Krita. Krita doesn't actually delete the physical 
 Deleting Imported Bundles
 -------------------------
 
-In-case you wish to delete the bundles you have imported permanently click on the :guilabel:`Open Resource Folder` button in the :guilabel:`Manage Resources` dialog. This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
+In case you wish to delete the bundles you have imported permanently click on the :guilabel:`Open Resource Folder` button in the :guilabel:`Manage Resources` dialog. This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
 
 Resource Types in Krita
 -----------------------

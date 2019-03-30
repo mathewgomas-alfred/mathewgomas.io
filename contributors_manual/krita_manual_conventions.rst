@@ -67,7 +67,7 @@ Each page should start with the following three things:
 
         .. _label_name:
 
-    After the label you will need to add a heading, as ``:ref:`label_name``` will refer to the heading to fill out it's link-text.
+    After the label you will need to add a heading, as ``:ref:`label_name``` will refer to the heading to fill out its link-text.
 
 
 Headings
@@ -199,7 +199,7 @@ You can create a sort of shorthand for a piece of text or an image by doing::
 
     .. |shorthand| replace:: something or the other.
 
-which means that if you use ``|shorthand|``, in the text, it'll be replaced with 'something or the other'. This is useful for, images and text that needs to be formatted in a complicated way, like in the case of "LaTeX".
+which means that if you use ``|shorthand|``, in the text, it'll be replaced with 'something or the other'. This is useful for images and text that needs to be formatted in a complicated way, like in the case of "LaTeX".
 
 The krita documentation has ``|mouseleft|``, ``|mousemiddle|``, ``|mousescroll|`` and ``|mouseright|``, which'll turn into |mouseleft|, |mousemiddle|, |mousescroll| and |mouseright| respectively. These are defined in the sphinx conf.py, and are appended to each rst file.
 
