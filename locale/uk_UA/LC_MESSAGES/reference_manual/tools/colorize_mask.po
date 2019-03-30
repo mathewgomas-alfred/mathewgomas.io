@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___colorize_mask\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-03-27 08:05+0200\n"
+"POT-Creation-Date: 2019-03-29 03:40+0100\n"
+"PO-Revision-Date: 2019-03-29 20:01+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -51,24 +51,6 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -117,6 +99,24 @@ msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_11.png"
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:1
 msgid "How to use the colorize mask in Krita."
@@ -181,6 +181,8 @@ msgid ""
 "what's more, the background is made up of two layers: one main and one for "
 "the details."
 msgstr ""
+"На цьому зображенні графіку для леді відокремлено від тла, а крім того, тло"
+" створено з двох шарів: одного основного і одного для деталізації."
 
 #: ../../reference_manual/tools/colorize_mask.rst:38
 msgid ""
@@ -225,18 +227,24 @@ msgid ""
 "Now the algorithm will be possibly a lot faster, allowing us to add strokes "
 "and press update in rapid succession:"
 msgstr ""
+"Тепер алгоритм працюватиме, можливо, набагато швидше, що надасть нам змогу"
+" додавати штрихи і одразу натискати :guilabel:`Оновити`:"
 
 #: ../../reference_manual/tools/colorize_mask.rst:69
 msgid ""
 "To see the final result, disable :guilabel:`Edit Key Strokes` or toggle the "
 "second to last icon on the colorize mask."
 msgstr ""
+"Щоб переглянути остаточний результат, вимкніть :guilabel:`Редагувати ключові"
+" мазки` натисніть другу з кінця піктограму на пункті маски розфарбовування."
 
 #: ../../reference_manual/tools/colorize_mask.rst:75
 msgid ""
 "If you want to edit the strokes again, re-enable :guilabel:`Edit Key "
 "Strokes`."
 msgstr ""
+"Якщо ви захочете редагувати мазки знову, знову позначте пункт"
+" :guilabel:`Редагувати ключові мазки`."
 
 #: ../../reference_manual/tools/colorize_mask.rst:77
 msgid ""
@@ -255,6 +263,10 @@ msgid ""
 "canvas with the Colorize Mask editing tool, or |mouseright| the layer to :"
 "menuselection:`Add --> Colorize Mask`."
 msgstr ""
+"Щоб додати маску розфарбовування до групи, виберіть групу і клацніть"
+" |mouseleft| на полотні, вибравши інструмент редагування маски"
+" розфарбовування; або клацніть |mouseright| на шарі і виберіть"
+" :menuselection:`Додати --> Маска розфарбовування`."
 
 #: ../../reference_manual/tools/colorize_mask.rst:85
 msgid ""
@@ -262,6 +274,8 @@ msgid ""
 "menuselection:`Limit to Layer Bounds` because the background covers the "
 "whole image."
 msgstr ""
+"Тепер ми швидко додаємо мазки до тла. У нас немає потреби користуватися"
+" :menuselection:`Обмежити краями шару`, оскільки тло вкриває усе зображення."
 
 #: ../../reference_manual/tools/colorize_mask.rst:91
 msgid ""
@@ -269,6 +283,10 @@ msgid ""
 "colorize mask as long as they can draw. The Colorize Mask Editing tool is "
 "just the most convenient because you can get to the algorithm options."
 msgstr ""
+"Між іншим, ви можете скористатися іншими пензлями, інструменти також можуть"
+" працювати на масці розфарбовування, якщо вони можуть малювати. Інструмент"
+" редагування маски розфарбовування просто найзручніший, оскільки ви отримуєте"
+" доступ до параметрів алгоритму."
 
 #: ../../reference_manual/tools/colorize_mask.rst:93
 msgid "Out final result looks like this:"
@@ -280,6 +298,11 @@ msgid ""
 "--> to Paint Layer`. Then, :menuselection:`Layer --> Split --> Split Layer`. "
 "This will give separate color islands that you can easily edit:"
 msgstr ""
+"Тепер, коли усе зроблено, клацніть |mouseright| на масці розфарбовування і"
+" скористайтеся пунктом :menuselection:`Перетворити --> до шару малювання`."
+" Далі, скористайтеся пунктом :menuselection:`Шар --> Поділ --> Розділити"
+" шар`. У результаті буде отримано окремі кольорові ділянки, які ви зможете"
+" без проблем редагувати:"
 
 #: ../../reference_manual/tools/colorize_mask.rst:105
 msgid ""
@@ -294,6 +317,10 @@ msgid ""
 "and open to a different file format, nor convert the colorize mask to a "
 "paintlayer, you can keep working adjust the results."
 msgstr ""
+"Маски розфарбовування зберігаються до файла .kra, отже, доки ви не збережете"
+" дані у іншому форматі і не відкриєте його, і не перетворюватимете маску"
+" розфарбовування на шар малювання, ви можете працювати над коригуванням"
+" результатів застосування маски."
 
 #: ../../reference_manual/tools/colorize_mask.rst:114
 msgid "Tool Options"
@@ -309,6 +336,8 @@ msgid ""
 "Run the colorize mask algorithm. The progress bar for updates on a colorize "
 "mask shows only in the layer docker."
 msgstr ""
+"Виконати алгоритм маски розфарбовування. Смужку поступу для оновлень маски"
+" розфарбовування буде показано лише на бічній панелі шарів."
 
 #: ../../reference_manual/tools/colorize_mask.rst:118
 #: ../../reference_manual/tools/colorize_mask.rst:169
@@ -321,6 +350,9 @@ msgid ""
 "'prefiltering' on the line art, which is for example a blur filter for gap "
 "closing."
 msgstr ""
+"Перевести маску у режимі редагування. У режимі редагування буде також"
+" показано «попереднє фільтрування» графіки, що, наприклад, розмиватиме"
+" фільтрування для замикання проміжків."
 
 #: ../../reference_manual/tools/colorize_mask.rst:121
 msgid ""
@@ -401,11 +433,11 @@ msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:153
 msgid "Clean-up strokes"
-msgstr ""
+msgstr "Мазки очищення"
 
 #: ../../reference_manual/tools/colorize_mask.rst:155
 msgid "Keystrokes"
-msgstr ""
+msgstr "Ключові мазки"
 
 #: ../../reference_manual/tools/colorize_mask.rst:156
 msgid ""
@@ -434,12 +466,16 @@ msgid ""
 "The colorize mask layer has four properties. They are all the buttons on the "
 "right side of the layer:"
 msgstr ""
+"У шару маски розфарбовування чотири властивості. Доступ до усіх цих"
+" властивостей можна отримати за допомогою кнопок праворуч від пункту шару:"
 
 #: ../../reference_manual/tools/colorize_mask.rst:166
 msgid ""
 "The first button, it allows you to toggle whether you'll see the output from "
 "the colorize algorithm."
 msgstr ""
+"Перша кнопка. За її допомогою можна вмикати або вимикати перегляд результатів"
+" застосування алгоритму розфарбовування."
 
 #: ../../reference_manual/tools/colorize_mask.rst:167
 msgid "Lock"
@@ -462,6 +498,8 @@ msgid ""
 "The last button will force the colorize mask to update, even when you're in "
 "a different tool."
 msgstr ""
+"За допомогою останньої кнопки можна наказати програмі примусово оновити маску"
+" розфарбовування, навіть якщо ви працюєте із іншим інструментом."
 
 #: ../../reference_manual/tools/colorize_mask.rst:174
 msgid "Colorize masks cannot be animated."

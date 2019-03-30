@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-28 03:35+0100\n"
-"PO-Revision-Date: 2019-03-20 09:29+0000\n"
+"PO-Revision-Date: 2019-03-29 11:29+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -27,6 +27,7 @@ msgstr ""
 "X-POFile-SpellExtra: KritaPixelBrushSettingsSize Krita demão interessanet\n"
 "X-POFile-SpellExtra: brushenginerotation KritaPixelBrushSettingsRotation\n"
 "X-POFile-SpellExtra: KritaPixelBrushSettingsSpacing Blender isotrópico\n"
+"X-POFile-SpellExtra: guilabel menuselection\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
@@ -243,10 +244,6 @@ msgid ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:104
-#, fuzzy
-#| msgid ""
-#| "Also popular are setting the size to the sensor fuzzy or perspective, "
-#| "with the later in combination with a :ref:`assistant_perspective`"
 msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`"
@@ -386,16 +383,10 @@ msgid "Flow map"
 msgstr "Mapa de fluxo"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:162
-#, fuzzy
-#| msgid ""
-#| "Exactly the same as using Source:Gradient with Mix, but only available "
-#| "for the Color Smudge Brush."
 msgid ""
 "Exactly the same as using :menuselection:`Source --> Gradient` with :"
 "guilabel:`Mix`, but only available for the Color Smudge Brush."
-msgstr ""
-"É exactamente igual a usar a Origem:Gradiente com Mistura, mas só está "
-"disponível no Pincel de Manchas a Cores."
+msgstr "É exactamente igual a usar a :menuselection:`Origem --> Gradiente` com :guilabel:`Mistura`, mas só está disponível no Pincel de Manchas a Cores."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:168
 msgid "Spacing"
