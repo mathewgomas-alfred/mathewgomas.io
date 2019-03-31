@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_contributors_manual___krita_manual_conventions\n"
+"Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_conventi"
+"ons\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-03-28 22:02+0200\n"
+"POT-Creation-Date: 2019-03-30 03:35+0100\n"
+"PO-Revision-Date: 2019-03-30 16:50+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -53,10 +53,6 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: mousescroll"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Горизонтальні лінійки"
-
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/en/sample.png\n"
@@ -65,13 +61,17 @@ msgstr ""
 ".. image:: images/en/sample.png\n"
 "   :alt: зображення."
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Горизонтальні лінійки"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
 msgstr "Правила щодо коду reStructuredText для підручника з Krita"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:16
 msgid "Mark-up conventions for the Krita Manual"
-msgstr "Угоди щодо розмітки у підручнику з Krita"
+msgstr "Правила розмітки у підручнику з Krita"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:18
 msgid ""
@@ -88,6 +88,11 @@ msgid ""
 "sourceforge, to save a copy to your harddrive (sourceforge has, at this time "
 "of writing, some issues with server uptime):"
 msgstr ""
+"Рекомендуємо ознайомитися із `офіційною специфікацією <"
+"http://docutils.sourceforge.net/rst.html>`_ reStructuredText і, оскільки ця"
+" специфікація зберігається на sourceforge, збережіть копію на ваш диск (на"
+" час написання цього підручника у sourceforge є проблеми із працездатністю"
+" серверів):"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:23
 msgid ""
@@ -154,6 +159,10 @@ msgid ""
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
 msgstr ""
+"`Сторінка Sphinx щодо текстів restructured <"
+"http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ —"
+" корисна для вивчення специфічних для sphinx команд та їхнього використання"
+" для створення, наприклад, таблиці змісту підручника."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:34
 msgid ""
@@ -161,6 +170,9 @@ msgid ""
 "docs multiple ways to do things. This document specifies the suggested "
 "conventions to go with."
 msgstr ""
+"Існують відмінності між офіційною документацією reStructuredText та"
+" документацією sphinx, а також різні способи досягти того самого результату."
+" У цьому підручнику описано рекомендовані способи форматування."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:36
 msgid "Contents"
@@ -193,6 +205,9 @@ msgid ""
 "machines. The license of the whole manual is GDL 1.3 and should also be "
 "mentioned here::"
 msgstr ""
+"Просто для стеження за тим, хто редагував сторінку, та зазначення авторських"
+" прав. Дані має бути закоментовано, щоб комп'ютер не обробляв їх. Умовами"
+" ліцензування усього підручника є GDL 1.3, і про це також слід згадати::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:58
 msgid "A list of authors and a license."
@@ -205,6 +220,10 @@ msgid ""
 "people who are not sure what the exact name is of the term they are looking "
 "for. They are defined as follows::"
 msgstr ""
+"Це список термінів, які відокремлено комами, призначений для індексування"
+" сторінки у :ref:`genindex`. Створений покажчик є доволі корисним для"
+" підручника у форматі PDF, а також читачів, яким потрібен пошук значень та"
+" прикладів за термінами. Список термінів визначається так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:63
 msgid "Indexing terms."
@@ -215,12 +234,17 @@ msgid ""
 "This is so we can easily link to the page using ``:ref:`label_name```. Try "
 "to make this a nice variable name::"
 msgstr ""
+"Цей запис призначено для полегшення посилання на сторінку за допомогою коду"
+" ``:ref:`назва_мітки```. Намагайтеся використовувати прості для використання"
+" назви змінних::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:70
 msgid ""
 "After the label you will need to add a heading, as ``:ref:`label_name``` "
 "will refer to the heading to fill out it's link-text."
 msgstr ""
+"Після мітки слід додати заголовок, оскільки ``:ref:`назва_мітки```"
+" використовуватиме текст заголовка як замінник самого посилання."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:71
 msgid "A label."
@@ -240,6 +264,10 @@ msgid ""
 "reStructuredText conversion. If you need more than 4 headings, ask yourself "
 "first if the page hasn't gotten too complicated and needs splitting up."
 msgstr ""
+"Усі ці правила більшою чи меншою мірою визначила програма для перетворення"
+" даних mediawiki pandoc до reStructuredText. Якщо у вас більше 4 рівнів"
+" заголовків, переконайтеся, що сторінка не є надто складною і не потребує"
+" поділу на частини."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:107
 msgid ""
@@ -288,6 +316,11 @@ msgid ""
 "If this sounds confusing and difficult, it is because it is. That is also "
 "the exact reason why we'd like to avoid links like these."
 msgstr ""
+"Pandoc перетворює посилання на ```назва_посилання`__`` і потім додає `` .. __"
+" :url `` наприкінці документа. Це так зване «анонімне посилання», що означає,"
+" що залежно порядок посилань наприкінці документа залежатиме від від порядку"
+" посилань у тексті. Це може здатися незручним та складним, але як уже є. У"
+" цьому полягає причина того, що ми намагаємося уникати таких посилань."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:121
 msgid "Footnotes and further reading"
@@ -348,6 +381,13 @@ msgid ""
 "links, while reStructuredText suggests to use ``.. rubic:: Footnotes`` for "
 "specifically collecting footnotes as that plays nice with LaTeX."
 msgstr ""
+"Ми не використовуємо підрядкові посилання у підручнику через те, що вважаємо"
+" їх занадто академічними для наших читачів. Втім, ми збираємо посилання та"
+" документи, які викладають предмет сторінки ширше, наприкінці сторінки. У"
+" Sphinx передбачено команду ``.. seealso::`` для визначення зовнішніх"
+" посилань, а у reStructuredText використовують ``.. rubic:: Footnotes`` для"
+" спеціально зібраних підрядкових приміток, оскільки так зручніше для"
+" перетворення на код LaTeX."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:145
 msgid "Images"
@@ -370,12 +410,17 @@ msgid ""
 "A caption --  notice how the first letter of the caption in the directive is "
 "aligned with the :figwidth: option."
 msgstr ""
+"Підпис — зауважте, що перша літера підпису у команді вирівняна з параметром"
+" :figwidth:."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:172
 msgid ""
 "Images should go into the ``/images/en`` folder. By using ``/images`` "
 "instead of ``images``, sphinx will know the filepath isn't relative."
 msgstr ""
+"Зображення мають зберігатися у каталозі ``/images/en``. Використання"
+" ``/images`` замість ``images`` вказує sphinx на те, що шлях до файла не є"
+" відносним."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:175
 msgid "In-text Markup"
@@ -409,6 +454,9 @@ msgid ""
 "semantic markup in sphinx in any case, because that makes it easier for "
 "translators to make decisions about the nature of the text::"
 msgstr ""
+"Втім, користуйтеся цим дуже обережно! Бажано використовувати наявне"
+" семантичне форматування у sphinx за будь-яких умов, оскільки це полегшує"
+" перекладачам визначення того, для чого призначено текст::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:193
 msgid ""
@@ -435,6 +483,9 @@ msgid ""
 "with 'something or the other'. This is useful for, images and text that "
 "needs to be formatted in a complicated way, like in the case of \"LaTeX\"."
 msgstr ""
+"Це означає, що якщо ви використаєте ``|shorthand|``, у тексті його буде"
+" замінено на «something or the other». Це корисно для зображень і тексту,"
+" який має бути форматовано у складний спосіб, наприклад рядка «LaTeX»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:204
 msgid ""
@@ -443,12 +494,18 @@ msgid ""
 "mousemiddle|, |mousescroll| and |mouseright| respectively. These are defined "
 "in the sphinx conf.py, and are appended to each rst file."
 msgstr ""
+"У документації Krita використовуються ``|mouseleft|``, ``|mousemiddle|``,"
+" ``|mousescroll|`` та ``|mouseright|``, які перетворюються на |mouseleft|,"
+" |mousemiddle|, |mousescroll| і |mouseright|, відповідно. Ці коди визначено"
+" conf.py sphinx, вони додаються до кожного файла rst."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:206
 msgid ""
 "For links, if you reuse the same link over and over, you can write something "
 "like the following at the end of the file::"
 msgstr ""
+"Для посилань, якщо ви використовуєте посилання багато разів, ви можете"
+" написати щось подібне до такого наприкінці файла::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:211
 msgid ""
@@ -456,6 +513,10 @@ msgid ""
 "bugzilla with \"bugzilla\" used as the text of the link. ```Krita Manual`_`` "
 "will in turn link to docs.krita.org with the text \"Krita Manual\"."
 msgstr ""
+"Далі, коли використовуватимете посилання, просто введіть ```bugzilla`_``, щоб"
+" отримати посилання на багзіллу зі словом-замінником посилання у тексті"
+" «bugzilla». ```Krita Manual`_`` буде перетворено на посилання на"
+" docs.krita.org із текстом «Krita Manual»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:214
 msgid "Lists"
@@ -579,6 +640,8 @@ msgid ""
 "enumerating all the options in a docker and trying to add a simple "
 "explanation behind them."
 msgstr ""
+"Наше улюблене! Списки визначень особливо корисні при описів усіх пунктів на"
+" бічній панелі із короткими описами щодо кожного з них."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:293
 msgid "Definition"
@@ -652,6 +715,11 @@ msgid ""
 "best done with a list directive because that is just much easier to write "
 "and maintain."
 msgstr ""
+"Таблиці із повноцінною ґраткою найкраще використовувати, коли вам потрібні"
+" усі можливості таблиці: складні стовпчики та об'єднані рядки, але код таких"
+" таблиць є доволі складним. З цієї причини слід віддавати перевагу простому"
+" коду малих таблиць, а для довгих таблиць використовувати команду ``list``, з"
+" якою простіше працювати."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:352
 msgid "Admonishments and asides"
@@ -676,6 +744,9 @@ msgid ""
 "useful in the main text. Like, hint: these packages are named differently in "
 "openSuse versus Debian."
 msgstr ""
+"Підказки корисні для зазначення додаткових відомостей щодо теми, яких немає у"
+" основному тексті. Приклад підказки: «У openSuse ці пакунки мають інші назви,"
+" ніж у Debian»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:366
 msgid ""
@@ -683,6 +754,10 @@ msgid ""
 "your favourite document setup\", or \"use m to mirror the canvas and see "
 "errors more easily in your drawing\"."
 msgstr ""
+"Додаткові відомості щодо того, як щось зробити. Приклад: «Ви можете створити"
+" шаблон на основі ваших улюблених налаштувань документа» або «Скористайтеся"
+" клавішею M для віддзеркалення полотна — це полегшить виявлення помилок під"
+" час малювання»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:370
 msgid "Something that is important to note, but is not necessarily negative."
@@ -714,6 +789,8 @@ msgid ""
 "This should be for things that are dangerous for the computer in general, "
 "this includes things that can cause out of memory style freezes."
 msgstr ""
+"Цей варіант для речей, які є небезпечними для комп'ютера загалом, зокрема"
+" дій, які можуть призвести до «заморожування» системи через нестачу пам'яті."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:390
 msgid ""
@@ -721,6 +798,9 @@ msgid ""
 "manually given some situations, but our configuration does not do so by "
 "default."
 msgstr ""
+"Ймовірно, не використовуватимуться у цьому підручнику. Sphinx може створювати"
+" такі сповіщення за визначеними вручну умовами, але у нашому варіанті цю"
+" можливість типово вимкнено."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
 msgid "generic admonition that can have any text."
@@ -746,6 +826,15 @@ msgid ""
 "section. It is therefore better to use headings or the ``.. Topic::`` "
 "directive. Headings also make it easier to read."
 msgstr ""
+"Горизонтальні лінійки зазвичай використовують, коли різко змінюють тему. Такі"
+" лінійки часто зустрічаються у оповідальних текстах, зокрема повістях чи"
+" романах. Підручник з Krita є інструкцією та довідником, тому ми, зазвичай,"
+" не використовуємо довгих оповідань про те, які різні елементи програми"
+" взаємодіють між собою. У нашому підручнику довгі текстові фрагменти"
+" покликані пояснити, чому певні дії виконуються у певний спосіб. Зміна теми"
+" трапляється, коли ми переходимо до наступного розділу, а не перемикаємося на"
+" якусь пов'язану із основною темою річ. Тому краще користуватися заголовками"
+" або командою ``.. Topic::``. Крім того, заголовки простіше читати."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:416
 msgid "That said, horizontal rulers can be made with ``----``."
@@ -761,6 +850,9 @@ msgid ""
 "\"topic\", but where the topic is over several paragraphs, rubric itself "
 "only deals with the header, like so::"
 msgstr ""
+"Команда ``rubric`` є командою створення заголовка, який на перший погляд"
+" виглядає як команда «topic», але якщо тема (topic) складається з декількох"
+" абзаців, рубрика це сам заголовок. Ось так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:426
 msgid "So, when to use these?"
@@ -783,6 +875,8 @@ msgid ""
 "When the text is separated from the flow, so it goes into a different "
 "subject than the text itself is naturally going to."
 msgstr ""
+"Коли текст відокремлено від загального ходу думки сторінки, тобто він"
+" стосується іншої теми, поза межами теми сторінки."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:431
 msgid "Rubric"
@@ -793,6 +887,8 @@ msgid ""
 "When the text isn't separated from the flow, but it does not need a header "
 "either."
 msgstr ""
+"Коли текст відокремлено від загального ходу думки сторінки, але він не"
+" потребує окремого заголовка."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:434
 msgid "Admonishments"
@@ -804,6 +900,9 @@ msgid ""
 "and warning admonishments, as seeing them too often can make users blind to "
 "them."
 msgstr ""
+"Лише якщо є семантична відповідність. Це особливо важливо для попереджень"
+" щодо небезпеки, оскільки надто часте їхнє використання може призвести до"
+" того, що користувач не звертатиме на них уваги."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:437
 msgid "Code Snippets"
@@ -828,6 +927,9 @@ msgid ""
 "You can also use the ``.. code::`` directive. If you add the language name "
 "after it, it'll do the appropriate syntax highlighting::"
 msgstr ""
+"Ви також можете скористатися командою ``.. code::``. Якщо ви додасте після"
+" неї назву мови програмування, текст буде оброблено відповідно до правил"
+" підсвічування синтаксичних конструкцій мови::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:457
 msgid "Becomes"

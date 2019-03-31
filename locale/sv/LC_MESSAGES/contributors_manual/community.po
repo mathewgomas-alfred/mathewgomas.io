@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-03-20 20:03+0100\n"
+"PO-Revision-Date: 2019-03-30 16:45+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -130,7 +130,6 @@ msgstr ""
 "Europa och Ryssland."
 
 #: ../../contributors_manual/community.rst:43
-#, fuzzy
 #| msgid ""
 #| "Krita is part of the larger KDE community. The KDE® Community is a free "
 #| "software community dedicated to creating an open and user-friendly "
@@ -154,7 +153,7 @@ msgstr ""
 "skrivbord, ett stort antal program för kommunikation, arbete, utbildning och "
 "underhåll, samt en plattform för att enkelt bygga nya program. KDE:s "
 "handledning för bidragsgivare är också relevant för Kritas bidragsgivare, "
-"och är tillgänglig här: http://archive.flossmanuals.net/kde-guide/."
+"och är tillgänglig här: <https://archive.flossmanuals.net/kde-guide/>`_."
 
 #: ../../contributors_manual/community.rst:45
 msgid ""
@@ -317,7 +316,6 @@ msgid "Bugzilla: the Bug Tracker"
 msgstr "Bugzilla: felspåraren"
 
 #: ../../contributors_manual/community.rst:88
-#, fuzzy
 #| msgid ""
 #| "Krita shares the bug tracker with the rest of the KDE community. Krita "
 #| "bugs are found under the Krita product. There are two kinds of reports in "
@@ -338,11 +336,12 @@ msgid ""
 msgstr ""
 "Krita delar felspåraren med resten av KDE-gemenskapen. Fel i Krita finns "
 "under produkten Krita. Det finns två sorters felrapporter i felspåraren: fel "
-"och önskemål. Se kapitlen om felrapportering och felutprovning för hur fel "
+"och önskemål. Se kapitlen om :ref:`Felrapportering <bugs_reporting>` "
+"och :ref:`Felutprovning <triaging_bugs>` för hur fel "
 "hanteras. Önskemål är en funktionsförfrågningar. Rapportera inte en "
 "funktionsförfrågan i bugzilla om en utvecklare inte har bett dig göra det. "
-"Se kapitlet om funktionsförfrågningar för vad som behövs för att skapa en "
-"bra funktionsförfrågan."
+"Se kapitlet om  :ref:`funktionsförfrågningar <developing_features>` för "
+"vad som behövs för att skapa en bra funktionsförfrågan."
 
 #: ../../contributors_manual/community.rst:91
 msgid "Sprints"
@@ -360,3 +359,4 @@ msgstr ""
 "för att arbeta tillsammans med vår kodkonstruktion, UX-konstruktion, "
 "webbplatsen, eller vad som än behöver verklig personlig kontakt. Resor till "
 "spurter betalas oftast av KDE e.V., medan boende betalas av Krita-stiftelsen."
+

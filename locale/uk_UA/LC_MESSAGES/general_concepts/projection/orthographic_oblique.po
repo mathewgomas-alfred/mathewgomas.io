@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___projection___orthographic_oblique\n"
+"Project-Id-Version: docs_krita_org_general_concepts___projection___orthographi"
+"c_oblique\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-18 03:34+0100\n"
-"PO-Revision-Date: 2019-02-20 11:19+0200\n"
+"PO-Revision-Date: 2019-03-31 00:14+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 18.12.1\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:None
 msgid ".. image:: images/en/category_projection/projection-cube_01.svg"
@@ -123,12 +123,17 @@ msgid ""
 "schematic representation of an object, draw undeformed. Like the following "
 "example:"
 msgstr ""
+"Хоча назва доволі незвична, ви, ймовірно, знаєте, що означає слово"
+" «ортографічна». Це схематичне відтворення об'єкта, намальоване без"
+" деформації. Як у цьому прикладі:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:23
 msgid ""
 "This is a rectangle. We have a front, top and side view. Put into "
 "perspective it should look somewhat like this:"
 msgstr ""
+"Це прямокутник. Ми маємо вид спереду, вид згори і вид збоку. У перспективі це"
+" має виглядати якось так:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:28
 msgid ""
@@ -136,6 +141,8 @@ msgid ""
 "basis to start with when you find yourself in trouble with a pose. But we'll "
 "get to that in a bit."
 msgstr ""
+"Хоча ортографічні відтворення є дещо класичними, вони є доброю основою, якщо"
+" у вас виникають проблеми із позою. Але це ми обговоримо окремо."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:33
 msgid "Oblique"
@@ -151,14 +158,16 @@ msgstr ""
 #: ../../general_concepts/projection/orthographic_oblique.rst:40
 msgid "Then we can get a half-way view from looking from an angle, no?"
 msgstr ""
+"Далі, ми можемо отримати якийсь проміжний варіант перегляду під певним кутом,"
+" чи не так?"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:45
 msgid "If we do that for a lot of different sides…"
-msgstr ""
+msgstr "Якщо ми зробимо це для багатьох різних кутів…"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:50
 msgid "And we line up the sides we get a…"
-msgstr ""
+msgstr "І упорядкуємо отримані зображення, ми отримаємо…"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:55
 msgid ""
@@ -169,7 +178,7 @@ msgstr ""
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:57
 msgid "First, let's prepare our front and side views:"
-msgstr ""
+msgstr "Спочатку, приготуємо наші види спереду і збоку:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:62
 msgid ""
@@ -190,17 +199,19 @@ msgstr ""
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:66
 msgid "Eventually, you should have something like this:"
-msgstr ""
+msgstr "Нарешті, у вас має вийти щось таке:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:71
 msgid "And of course, let us not forget the top, it's pretty important:"
-msgstr ""
+msgstr "І, звичайно ж, не забуваймо про вид згори, — він є дуже важливим:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:78
 msgid ""
 "When you are using Krita, you can just use transform masks to rotate the "
 "side view for drawing the top-view."
 msgstr ""
+"Коли ви користуєтеся Krita, ви можете просто скористатися масками"
+" перетворення для обертання виду збоку для малювання виду згори."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:80
 msgid ""
@@ -220,7 +231,7 @@ msgstr ""
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:90
 msgid "We fix the top view now. Much better."
-msgstr ""
+msgstr "Тепер, ми виправимо вид згори. Набагато краще."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:92
 msgid ""
@@ -238,35 +249,37 @@ msgstr ""
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:103
 msgid "So, after some cleanup, we should have the following:"
-msgstr ""
+msgstr "Отже, після певного чищення, у нас має вийти щось таке:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:108
 msgid "Okay, now we're gonna use animation for the next bit."
-msgstr ""
+msgstr "Гаразд, тепер ми хочемо створити анімацію."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:110
 msgid "Set it up as follows:"
-msgstr ""
+msgstr "Налаштуємо усе так:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:115
 msgid ""
 "Both frontview and sideview are set up as 'visible in timeline' so we can "
 "always see them."
 msgstr ""
+"Вид спереду і вид збоку налаштовано як «видимі на монтажному столі», отже ми"
+" їх завжди бачитимемо."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:116
 msgid ""
 "Frontview has its visible frame on frame 0 and an empty-frame on frame 23."
-msgstr ""
+msgstr "Для виду спереду видимим кадром є кадр 0, а порожнім кадром є кадр 23."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:117
 msgid ""
 "Side view has its visible frame on frame 23 and an empty view on frame 0."
-msgstr ""
+msgstr "Для виду збоку видимим кадром є кадр 23, а порожнім кадром є кадр 0."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:118
 msgid "The end of the animation is set to 23."
-msgstr ""
+msgstr "Кінець анімації встановлено на кадрі 23."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:123
 msgid ""
@@ -285,6 +298,7 @@ msgstr ""
 #: ../../general_concepts/projection/orthographic_oblique.rst:130
 msgid "So, we draw our vertical guides again and determine a in-between..."
 msgstr ""
+"Отже, малюємо наші вертикальні напрямні знову і визначаємо проміжні кадри…"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:135
 msgid ""
@@ -294,7 +308,7 @@ msgstr ""
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:140
 msgid "And just like with the cube, we do this for all slices…"
-msgstr ""
+msgstr "І, як і з кубом, ми робимо це для усіх частин…"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:145
 msgid ""
