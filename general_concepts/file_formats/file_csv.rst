@@ -25,7 +25,7 @@ The format consists of a text file with .csv extension, together with a folder u
 
    A .csv file as a spreadsheet in :program:`LibreOffice Calc`
 
-Krita can both export and import this format. It is recommended to use 8bit sRGB colour space because that's the only colour space for :program:`TVPaint`. Layer groups and layer masks are also not supported.
+Krita can both export and import this format. It is recommended to use 8bit sRGB color space because that's the only color space for :program:`TVPaint`. Layer groups and layer masks are also not supported.
 
 TVPaint can only export this format by itself. In :program:`TVPaint 11`, use the :guilabel:`Export to...` option of the :guilabel:`File` menu, and on the upcoming :guilabel:`Export footage` window, use the :guilabel:`Clip: Layers structure` tab.
 

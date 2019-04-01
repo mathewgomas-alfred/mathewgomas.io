@@ -36,7 +36,7 @@ This is for example, the reason why museum exhibitioners can get really angry at
 
 Lighting is the other component of the viewing condition which can have dramatic effects. Lighting in particular affects the way how all colors look. For example, if you were to paint an image of sunflowers and poppies, print that out, and shine a bright yellow light on it, the sunflowers would become indistinguishable from the white background, and the poppies would look orange. This is called `metamerism <https://en.wikipedia.org/wiki/Metamerism_%28color%29>`_, and it's generally something you want to avoid in your color management pipeline.
 
-Examples where metamerism could become a problem is when you start matching colors from different sources together.
+An example where metamerism could become a problem is when you start matching colors from different sources together.
 
 
 .. figure:: /images/en/color_category/White_point_mix_up_ex1_01.svg 

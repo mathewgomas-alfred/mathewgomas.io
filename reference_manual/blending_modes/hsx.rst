@@ -134,7 +134,7 @@ Increase Value, Lightness, Intensity or Luminosity.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Similar to lighten, but specific to tone.
-Checks whether the upper layer's pixel has a higher tone than the lower layer's pixel. If so, the intensity is increased, if not, the lower layer's tone is maintained.
+Checks whether the upper layer's pixel has a higher tone than the lower layer's pixel. If so, the tone is increased, if not, the lower layer's tone is maintained.
 
 .. figure:: /images/blending_modes/Blending_modes_Increase_Intensity_Sample_image_with_dots.png
    :align: center
