@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 03:35+0100\n"
-"PO-Revision-Date: 2019-03-21 20:20+0100\n"
+"POT-Creation-Date: 2019-03-31 04:31+0200\n"
+"PO-Revision-Date: 2019-03-31 18:21+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -49,6 +49,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: mushjul"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Horisontella linjaler"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/en/sample.png\n"
@@ -56,10 +60,6 @@ msgid ""
 msgstr ""
 ".. image:: images/en/sample.png\n"
 "   :alt: en bild."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Horisontella linjaler"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -236,9 +236,12 @@ msgstr ""
 "`label_name```. Försök att göra den till ett snyggt variabelnamn::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:70
+#| msgid ""
+#| "After the label you will need to add a heading, as ``:ref:`label_name``` "
+#| "will refer to the heading to fill out it's link-text."
 msgid ""
 "After the label you will need to add a heading, as ``:ref:`label_name``` "
-"will refer to the heading to fill out it's link-text."
+"will refer to the heading to fill out its link-text."
 msgstr ""
 "Efter etiketten måste en rubrik läggas till, eftersom ``:ref:`label_name``` "
 "hänvisar till rubriken för att fylla i sin länktext."
@@ -443,8 +446,8 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:202
 msgid ""
 "which means that if you use ``|shorthand|``, in the text, it'll be replaced "
-"with 'something or the other'. This is useful for, images and text that "
-"needs to be formatted in a complicated way, like in the case of \"LaTeX\"."
+"with 'something or the other'. This is useful for images and text that needs "
+"to be formatted in a complicated way, like in the case of \"LaTeX\"."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:204
@@ -919,3 +922,4 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:548
 msgid "Wolthera"
 msgstr ""
+

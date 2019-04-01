@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-10 17:12+0100\n"
+"PO-Revision-Date: 2019-03-31 18:52+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -36,12 +36,18 @@ msgid ""
 "engine is an extremely simple, but quick brush, which can give the best "
 "performance of all Brush Engines."
 msgstr ""
+"Ett penselgränssnitt inspirerat av det vanliga arbetsflödet för konstnärer"
+" där en enkel stor pensel, som en markör, används för att fylla stora områden"
+" snabbt. Snabbpenselgränssnittet är en extremt enkel men snabb pensel, som"
+" kan ge bäst prestanda av alla penselgränssnitt."
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:22
 msgid ""
 "It can only change size, blending mode and spacing, and this allows for "
 "making big optimisations that aren't possible with other brush engines."
 msgstr ""
+"Den kan bara ändra storlek, blandningsläge och mellanrum, vilket tillåter"
+" stora optimeringar som inte är möjliga med andra penselgränssnitt."
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:25
 msgid ":ref:`blending_modes`"
@@ -61,7 +67,7 @@ msgstr "Pensel"
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:32
 msgid "The only parameter specific to this brush."
-msgstr ""
+msgstr "Den enda parameterns specifik för penseln."
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:34
 msgid "Diameter"
@@ -72,6 +78,8 @@ msgid ""
 "The size. This brush engine can only make round dabs, but it can make them "
 "really fast despite size."
 msgstr ""
+"Storleken. Penselgränssnittet kan bara göra runda klickar, men det kan göra"
+" dem mycket snabbt trots storleken."
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:37
 msgid "Spacing"
@@ -82,7 +90,11 @@ msgid ""
 "The spacing between the dabs. This brush engine is particular in that it's "
 "faster with a lower spacing, unlike all other brush engines."
 msgstr ""
+"Mellanrummet mellan klickarna. Det här penselgränssnittet är speciellt"
+" eftersom det är snabbare med mindre mellanrum, i motsats till alla andra"
+" penselgränssnitt."
 
 #: ../../reference_manual/brushes/brush_engines/quick_brush_engine.rst:40
 msgid "`Phabricator Task <https://phabricator.kde.org/T3492>`_"
 msgstr "`Phabricator uppgift <https://phabricator.kde.org/T3492>`_"
+

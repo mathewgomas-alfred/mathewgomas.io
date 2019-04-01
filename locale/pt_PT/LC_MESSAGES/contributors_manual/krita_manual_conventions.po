@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 03:35+0100\n"
-"PO-Revision-Date: 2019-03-26 01:22+0000\n"
+"POT-Creation-Date: 2019-03-31 04:31+0200\n"
+"PO-Revision-Date: 2019-03-31 13:28+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -23,7 +23,7 @@ msgstr ""
 "X-POFile-SpellExtra: Bugzilla Wolthera rst seealso Krita Kritamousescroll\n"
 "X-POFile-SpellExtra: reStructuredText mousescroll Kritamouseright Topic\n"
 "X-POFile-SpellExtra: url bugzilla alternativ mousemiddle Sourceforge GDL\n"
-"X-POFile-SpellExtra: backticks mouseleft\n"
+"X-POFile-SpellExtra: backticks mouseleft en Pandoc\n"
 "X-POFile-IgnoreConsistency: Table\n"
 
 #: ../../<rst_epilog>:2
@@ -58,6 +58,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: deslocamento do rato"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Réguas Horizontais"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/en/sample.png\n"
@@ -65,10 +69,6 @@ msgid ""
 msgstr ""
 ".. image:: images/en/sample.png\n"
 "   :alt: uma imagem."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Réguas Horizontais"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -247,7 +247,7 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:70
 msgid ""
 "After the label you will need to add a heading, as ``:ref:`label_name``` "
-"will refer to the heading to fill out it's link-text."
+"will refer to the heading to fill out its link-text."
 msgstr ""
 "Depois da legenda, terá de adicionar um cabeçalho, como por exemplo ``:ref:"
 "`nome_legenda``` para se referir ao cabeçalho como estando em texto de "
@@ -488,8 +488,8 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:202
 msgid ""
 "which means that if you use ``|shorthand|``, in the text, it'll be replaced "
-"with 'something or the other'. This is useful for, images and text that "
-"needs to be formatted in a complicated way, like in the case of \"LaTeX\"."
+"with 'something or the other'. This is useful for images and text that needs "
+"to be formatted in a complicated way, like in the case of \"LaTeX\"."
 msgstr ""
 "o que significa que, se usar o ``|atalho|`` no texto, será substituído por "
 "'uma coisa ou a outra'. Isto é útil para imagens e texto que precisem de ser "
