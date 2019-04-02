@@ -120,7 +120,7 @@ Multiple Document Mode
 Background image
     Allows you to set a picture background for subwindow mode.
 Window Background
-    Set the colour of the subwindow canvas area.
+    Set the color of the subwindow canvas area.
 Don't show contents when moving sub-windows
     This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
 Show on-canvas popup messages

@@ -51,11 +51,11 @@ Basic Shape Manipulation
 
 To edit the shape and colors of your vector element, you will need to use the basic shape manipulation tool.
 
-Once you have selected this tool. Click on the element you want to manipulate and you will see guides appear around your shape. 
+Once you have selected this tool, click on the element you want to manipulate and you will see guides appear around your shape. 
 
 .. image:: /images/en/Vectorguides.png
 
-There are four ways to manipulate your image using this tool and the guides on  your shape.
+There are four ways to manipulate your image using this tool and the guides on your shape.
 
 Transform/Move
 ~~~~~~~~~~~~~~

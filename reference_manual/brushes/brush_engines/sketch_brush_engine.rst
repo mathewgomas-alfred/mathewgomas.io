@@ -72,7 +72,7 @@ The density of the lines. This one is highly affected by the Brush-tip, as deter
 .. image:: /images/en/Krita_2.9_brushengine_sketch_density.png
 
 Use Distance Density
-    the further the line covered is from the center of the area of effect, the less the density of the resulting curve lines. 
+    The further the line covered is from the center of the area of effect, the less the density of the resulting curve lines. 
 Magnetify
     Magnetify is *on* by default. It's what causes curve lines to form between two close line sections, as though the curve lines are attracted to them like magnets.
     With Magnetify *off*, the curve line just forms on either side of the current active portion of your connection line. In other words, your line becomes fuzzier when another portion of the line is nearby, but the lines don't connect to said previous portion. 
@@ -83,6 +83,6 @@ Random Opacity
 Distance Opacity
     The distance based opacity. When you move your pen fast when painting, the opacity will be calculated based on the distance from the center of the effect area.
 Simple Mode
-    this mode exists for performance reasons, and doesn't affect the output in a visible way. Check this for large brushes or thick lines for faster rendering. 
+    This mode exists for performance reasons, and doesn't affect the output in a visible way. Check this for large brushes or thick lines for faster rendering. 
 Paint Connection Line
     What appears to be the connection line is usually made up of an actual connection line and many smaller curve lines. The many small curve lines make up the majority of the line. For this reason, the only time this option will make a visible difference is if you're drawing with 0% or near 0% density, and with a thick line width. The rest of the time, this option won't make a visible difference.
