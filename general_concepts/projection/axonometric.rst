@@ -55,17 +55,18 @@ On the vector layer, we select the straight line tool, start a line and then hol
 
 We then import some of the frames from the animation via :menuselection:`Layers --> Import/Export --> Import layer`.
 
-Then crop it by setting the crop tool to :guilabel:`Layer`, and use :menuselection:`Filters --> Colors --> Color to alpha`
- to remove any background. I also set the layers to 50% opacity. We then align the vectors to them:
+Then crop it by setting the crop tool to :guilabel:`Layer`, and use :menuselection:`Filters --> Colors --> Color to alpha` to remove any background. I also set the layers to 50% opacity. We then align the vectors to them:
 
 .. image:: /images/en/category_projection/projection_image_16.png 
    :align: center
 
-(Tip, to resize a vector but keep its angle, you just select it with the shape handling tool (the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`Shift` to constrain the ratio. This'll allow you to keep the angle)
+.. tip::
+
+    To resize a vector but keep its angle, you just select it with the shape handling tool (the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`Shift` to constrain the ratio. This'll allow you to keep the angle.
 
 The lower image is 'the back seen from the front', we'll be using this to determine where the ear should go.
 
-Now, we obviously have too little space, so select the crop tool, select 'image' and tick 'grow' and do the following:
+Now, we obviously have too little space, so select the crop tool, select :guilabel:`Image` and tick :guilabel:`Grow` and do the following:
 
 .. image:: /images/en/category_projection/projection_image_17.png 
    :align: center
@@ -79,8 +80,7 @@ Then we align the other heads and transform them by using the transform tool opt
 
 (330° here is 360°-30°)
 
-Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`Image --> Rotate --> Custom Rotation`
- and fill in 30° clockwise:
+Our rectangle we'll be working in slowly becomes visible. Now, this is a bit of a difficult angle to work at, so we go to :menuselection:`Image --> Rotate --> Custom Rotation` and fill in 30° clockwise:
 
 .. image:: /images/en/category_projection/projection_image_19.png 
    :align: center
@@ -109,7 +109,7 @@ Alternative axonometric with the transform tool
 
 Now, there's an alternative way of getting there that doesn't require as much space.
 
-We open our orthographic with 'open existing document as untitled document' so that we don't save over it.
+We open our orthographic with :guilabel:`Open existing Document as Untitled Document` so that we don't save over it.
 
 Our game-safe isometric has its angle at two pixels horizontal is one pixel vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 pixels (this is proportional)
 
@@ -140,7 +140,7 @@ As you can see, this version both looks more 3d as well as more creepy.
 
 That's because there are less steps involved as the previous version -- We're deriving our image directly from the orthographic view -- so there are less errors involved.
 
-The creepiness is because we've had the tiniest bit of stylisation in our sideview, so the eyes come out HUGE. This is because when we stylise the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
+The creepiness is because we've had the tiniest bit of stylisation in our side view, so the eyes come out HUGE. This is because when we stylise the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
 
 Generally, stylised stuff tends to fall apart in 3d view, and you might need to make some choices on how to make it work.
 
