@@ -1,0 +1,112 @@
+# translation of docs_krita_org_reference_manual___tools___polygonal_select.po to Slovak
+# Roman Paholik <wizzardsk@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: docs_krita_org_reference_manual___tools___polygonal_select"
+"\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-06 03:37+0100\n"
+"PO-Revision-Date: 2019-04-02 13:46+0200\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 18.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../../<generated>:1
+msgid "Anti-aliasing"
+msgstr "Vyhladzovanie"
+
+#: ../../<rst_epilog>:2
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+
+#: ../../<rst_epilog>:70
+msgid ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+msgstr ""
+".. image:: images/icons/polygonal_select_tool.svg\n"
+"   :alt: toolselectpolygon"
+
+#: ../../reference_manual/tools/polygonal_select.rst:1
+msgid "Krita's polygonal selection tool reference."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:16
+msgid "Polygonal Selection Tool"
+msgstr "Nástroj polygonálny výber"
+
+#: ../../reference_manual/tools/polygonal_select.rst:18
+msgid "|toolselectpolygon|"
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:20
+msgid ""
+"This tool, represented by a polygon with a dashed border, allows you to make"
+" :ref:`selections_basics` of a polygonal area point by point. Click where you"
+" want each point of the Polygon to be. Double click to end your polygon and"
+" finalize your selection area."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:24
+msgid "Hotkeys and Sticky keys"
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:26
+msgid ""
+":kbd:`R` sets the selection to 'replace' in the tool options, this is the"
+" default mode."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:27
+msgid ":kbd:`A` sets the selection to 'add' in the tool options."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:28
+msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:29
+msgid ""
+":kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can"
+" release the :kbd:`Shift` key while dragging, but it will still be set to"
+" 'add'. Same for the others."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:30
+msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:31
+msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:32
+msgid ""
+":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to "
+" 'intersect'."
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:36
+msgid ""
+"You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` instead"
+" by toggling the switch in the :ref:`general_settings`"
+msgstr ""
+
+#: ../../reference_manual/tools/polygonal_select.rst:39
+msgid "Tool Options"
+msgstr "Voľby nástroja"
+
+#: ../../reference_manual/tools/polygonal_select.rst:42
+msgid ""
+"This toggles whether or not to give selections feathered edges. Some people"
+" prefer hard-jagged edges for their selections."
+msgstr ""
