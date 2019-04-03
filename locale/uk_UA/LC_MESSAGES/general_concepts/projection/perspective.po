@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___projection___perspective\n"
+"Project-Id-Version: docs_krita_org_general_concepts___projection___perspective"
+"\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-31 21:34+0300\n"
+"POT-Creation-Date: 2019-04-02 03:46+0200\n"
+"PO-Revision-Date: 2019-04-02 22:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -118,6 +118,10 @@ msgid ""
 "of the maximum distortion that can be given to two parallel lines as they’re "
 "skewed toward the focal point."
 msgstr ""
+"Точка, у якій сходяться промені називається фокальною точкою (фокусом), а"
+" нескінченно віддалену точку у плоских малюнках пов'язано із цією точкою,"
+" оскільки це зображення максимального викривлення, якого можна надати двом"
+" паралельним лініями при перекошуванні до фокальної точки."
 
 #: ../../general_concepts/projection/perspective.rst:29
 msgid ""
@@ -127,6 +131,11 @@ msgid ""
 "this inversion happens, but our brains are used to this awkwardness since "
 "childhood and turn it around automatically."
 msgstr ""
+"Якщо можна бачити із рисунка, фокальна точка не є кінцевою точкою променів."
+" Це лише точка, проходячи крізь яку промені знову розходяться… Відмінність"
+" полягає лише у тому, що зображення після цієї точки є перевернутим. Таке"
+" перевертання зображення відбувається і у наших очах, але мозок звик до нього"
+" з дитинства, отже виконує зворотне перевертання зображення автоматично."
 
 #: ../../general_concepts/projection/perspective.rst:31
 msgid "Let’s see if we can perspectively project our box now."
@@ -144,8 +153,11 @@ msgid ""
 msgstr ""
 
 #: ../../general_concepts/projection/perspective.rst:41
+#| msgid ""
+#| "… to get three-point projection, but this is a bit much.(And I totally "
+#| "made a mistake in there…)"
 msgid ""
-"… to get three-point projection, but this is a bit much.(And I totally made "
+"… to get three-point projection, but this is a bit much. (And I totally made "
 "a mistake in there…)"
 msgstr ""
 "…щоб отримати триточкову проекцію, але це занадто. (І загалом неправильно…)"
@@ -163,9 +175,12 @@ msgid ""
 msgstr ""
 
 #: ../../general_concepts/projection/perspective.rst:50
+#| msgid ""
+#| "And now the workflow in gif-format…(don’t forget you can rotate the "
+#| "canvas with 4 and 6)"
 msgid ""
-"And now the workflow in gif-format…(don’t forget you can rotate the canvas "
-"with 4 and 6)"
+"And now the workflow in gif-format… (don’t forget you can rotate the canvas "
+"with :kbd:`4` and :kbd:`6`)"
 msgstr ""
 "А тепер, робоча процедура у форматі GIF… (не забувайте, що полотно можна "
 "обертати за допомогою клавіш :kbd:`4` та :kbd:`6`)"
@@ -193,18 +208,20 @@ msgstr "Гаразд, тепер ви знаєте, що це можна роб�
 
 #: ../../general_concepts/projection/perspective.rst:71
 msgid "The ortho graphics are being set to 45 and 135 degrees respectively."
-msgstr ""
+msgstr "Значення для обертання встановлено на 45 і 135 градусів відповідно."
 
 #: ../../general_concepts/projection/perspective.rst:73
 msgid ""
 "We draw horizontal lines on the originals, so that we can align vanishing "
 "point rulers to them."
 msgstr ""
+"Ми намалювали горизонтальні лінії на оригіналах, щоб вирівняти за ними"
+" лінійки нескінченно віддаленої точки."
 
 #: ../../general_concepts/projection/perspective.rst:78
 msgid ""
-"And from this, like with the shearing method, we start drawing.(don’t forget "
-"the top-views!)"
+"And from this, like with the shearing method, we start drawing. (Don’t "
+"forget the top-views!)"
 msgstr ""
 
 #: ../../general_concepts/projection/perspective.rst:80
@@ -232,7 +249,9 @@ msgstr ""
 "тривимірної графіки:"
 
 #: ../../general_concepts/projection/perspective.rst:97
-msgid "(above sculpted in blender using our orthographic reference)"
+#| msgid "(above sculpted in blender using our orthographic reference)"
+msgid ""
+"(The image above is sculpted in blender using our orthographic reference)"
 msgstr ""
 "Наведене вище зображення оброблено у Blender за допомогою нашого "
 "ортографічного еталона."
