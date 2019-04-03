@@ -44,7 +44,7 @@ Name
 ID
     The ID is a number that can be used to index colors. Where Name can be something like "Pastel Peach", ID will probably be something like "RY75".
 Spot color
-    Currently not used for anything within Krita itself, but spot colors are a toggle to keep track of colors that represent a real world paint that a printer can match. Keeping track of such colors is useful in a printing workflow, and it can also be used with python to recognise spot colors.
+    Currently not used for anything within Krita itself, but spot colors are a toggle to keep track of colors that represent a real world paint that a printer can match. Keeping track of such colors is useful in a printing workflow, and it can also be used with python to recognize spot colors.
 
 If you find the size of color swatches too small, you can increase the size by hovering your mouse over the palette and scrolling while holding :kbd:`Ctrl`.
 

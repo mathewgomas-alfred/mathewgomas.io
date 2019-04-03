@@ -73,7 +73,7 @@ How to use them:
 
 |mouseright| the layer you want to do the transform on, and add a **Transform mask.**
 
-A transform mask should now have been added. You can recognise them by the little ‘scissor’ icon.
+A transform mask should now have been added. You can recognize them by the little ‘scissor’ icon.
 
 .. image:: /images/en/making-azalea/Azelea_06_transformmask.png
     :alt: adding transform masks to the cloned layers

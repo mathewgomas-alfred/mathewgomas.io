@@ -158,9 +158,9 @@ Kinetic Scrolling (Needs Restart)
         Disabled
             Will never activated.
         On Touch Drag
-            Will activate if it can recognise a touch event. May not always work.
+            Will activate if it can recognize a touch event. May not always work.
         On Click Drag
-            Will activate when it can recognise a click event, will always work.
+            Will activate when it can recognize a click event, will always work.
 
     Sensitivity
         How quickly the feature activates, this effective determines the length of the drag.

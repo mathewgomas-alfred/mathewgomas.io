@@ -118,7 +118,7 @@ Update
 Edit key strokes
     Put the mask into edit mode. In edit mode, it will also show the 'prefiltering' on the line art, which is for example a blur filter for gap closing.
 Show output
-    Show the output of the colorize mask. If :guilabel:`Edit key strokes` is active, this will be shown semi-transparently, so it will be easy to recognise the difference between the strokes and the output.
+    Show the output of the colorize mask. If :guilabel:`Edit key strokes` is active, this will be shown semi-transparently, so it will be easy to recognize the difference between the strokes and the output.
     
     .. figure:: /images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png
        :width: 800
