@@ -105,7 +105,7 @@ For example, for Ubuntu, you can start with:
 
     you@yourcomputer:~/kritadev/build>apt-get build-dep krita
     
-Which will install all the depedancies of the version of Krita in the repositories.
+Which will install all the dependencies of the version of Krita in the repositories.
 
 However, the development version might use different dependencies, to find these, you can use ``apt-cache search``:
 
