@@ -2,8 +2,8 @@
 # Roman Paholik <wizzardsk@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
-"__pixel_brush_engine\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___brushes___brush_engines___pixel_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-24 03:29+0100\n"
 "PO-Revision-Date: 2019-04-02 08:40+0100\n"
@@ -30,10 +30,10 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:20
 msgid ""
-"Brushes are ordered alphabetically. The brush that is selected by default"
-" when you start with Krita is the :guilabel:`Pixel Brush`. The pixel brush is"
-" the traditional mainstay of digital art. This brush paints impressions of"
-" the brush tip along your stroke with a greater or smaller density."
+"Brushes are ordered alphabetically. The brush that is selected by default "
+"when you start with Krita is the :guilabel:`Pixel Brush`. The pixel brush is "
+"the traditional mainstay of digital art. This brush paints impressions of "
+"the brush tip along your stroke with a greater or smaller density."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:24
@@ -46,36 +46,36 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:27
 msgid ""
-"select a brush tip. This can be a generated brush tip (round, square,"
-" star-shaped), a predefined bitmap brush tip, a custom brush tip or a text."
+"select a brush tip. This can be a generated brush tip (round, square, star-"
+"shaped), a predefined bitmap brush tip, a custom brush tip or a text."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:28
 msgid ""
-"select the spacing: this determines how many impressions of the tip will be"
-" made along your stroke"
+"select the spacing: this determines how many impressions of the tip will be "
+"made along your stroke"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:29
 msgid ""
-"select the effects: the pressure of your stylus, your speed of painting or"
-" other inputs can change the size, the color, the opacity or other aspects of"
-" the currently painted brush tip instance -- some applications call that a"
-" \"dab\"."
+"select the effects: the pressure of your stylus, your speed of painting or "
+"other inputs can change the size, the color, the opacity or other aspects of "
+"the currently painted brush tip instance -- some applications call that a "
+"\"dab\"."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:30
 msgid ""
-"depending on the brush mode, the previously painted brush tip instance is"
-" mixed with the current one, causing a darker, more painterly stroke, or the"
-" complete stroke is computed and put on your layer. You will see the stroke"
-" grow while painting in both cases, of course!"
+"depending on the brush mode, the previously painted brush tip instance is "
+"mixed with the current one, causing a darker, more painterly stroke, or the "
+"complete stroke is computed and put on your layer. You will see the stroke "
+"grow while painting in both cases, of course!"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:32
 msgid ""
-"Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the"
-" default brush being the fastest mask."
+"Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the "
+"default brush being the fastest mask."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:34
@@ -164,8 +164,8 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_darken_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:63
 msgid ""
-"The color will always become black in the end, and will work with Plain"
-" Color, Gradient and Uniform random as source."
+"The color will always become black in the end, and will work with Plain "
+"Color, Gradient and Uniform random as source."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:66
@@ -174,8 +174,8 @@ msgstr "Odtieň, nasýtenie, hodnota"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:68
 msgid ""
-"These parameters allow you to do an HSV adjustment filter on the"
-" :ref:`option_source` and control it with Sensors."
+"These parameters allow you to do an HSV adjustment filter on the :ref:"
+"`option_source` and control it with Sensors."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
@@ -196,7 +196,6 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_HSV_02.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:79
 msgid ""
-"Having all three parameters on Fuzzy will help with rich color texture. In"
-" combination with :ref:`option_mix`, you can have even finer control."
+"Having all three parameters on Fuzzy will help with rich color texture. In "
+"combination with :ref:`option_mix`, you can have even finer control."
 msgstr ""
-

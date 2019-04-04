@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___projection___axonometric\n"
+"Project-Id-Version: docs_krita_org_general_concepts___projection___axonometric"
+"\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 03:34+0100\n"
-"PO-Revision-Date: 2019-04-01 22:14+0300\n"
+"POT-Creation-Date: 2019-04-03 03:42+0200\n"
+"PO-Revision-Date: 2019-04-03 15:01+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../general_concepts/projection/axonometric.rst:None
 msgid ".. image:: images/en/category_projection/projection-cube_07.svg"
@@ -209,49 +209,57 @@ msgid ""
 "`Layers --> Import/Export --> Import layer`."
 msgstr ""
 "Далі, імпортуємо деякі кадри з анімації за допомогою пункту меню :"
-"menuselection:`Шари --> Імпорт/Експорт --> Імпортувати шар`."
+"menuselection:`Шари --> Імпортування/Експортування --> Імпортувати шар`."
 
-#: ../../general_concepts/projection/axonometric.rst:59
+#: ../../general_concepts/projection/axonometric.rst:58
+#| msgid ""
+#| "Then crop it by setting the crop tool to :guilabel:`Layer`, and use :"
+#| "menuselection:`Filters --> Colors --> Color to alpha`"
 msgid ""
 "Then crop it by setting the crop tool to :guilabel:`Layer`, and use :"
-"menuselection:`Filters --> Colors --> Color to alpha`"
+"menuselection:`Filters --> Colors --> Color to alpha` to remove any "
+"background. I also set the layers to 50% opacity. We then align the vectors "
+"to them:"
 msgstr ""
 "Потім обріжемо його встановленням для інструмента обрізання значення :"
 "guilabel:`Шар` і вибором пункту меню :menuselection:`Фільтри --> Кольори --> "
-"Колір до альфи`"
+"Колір до альфи` для вилучення тла. Також автор встановив для шарів 50%"
+" непрозорості. Потім вирівняв вектори за головами:"
 
-#: ../../general_concepts/projection/axonometric.rst:59
+#: ../../general_concepts/projection/axonometric.rst:65
 msgid ""
-"to remove any background. I also set the layers to 50% opacity. We then "
-"align the vectors to them:"
+"To resize a vector but keep its angle, you just select it with the shape "
+"handling tool (the white arrow) drag on the corners of the bounding box to "
+"start moving them, and then press :kbd:`Shift` to constrain the ratio. "
+"This'll allow you to keep the angle."
 msgstr ""
-"для вилучення тла. Також автор встановив для шарів 50% непрозорості. Потім "
-"вирівняв вектори за головами:"
+"Щоб змірити розміри вектора, але зберегти його напрямок, ви можете позначити"
+" його за допомогою вказівника інструмента роботи з формами (білої стрілочки),"
+" почати перетягувати один з кутів обмежувальної рамки вектора, а потім"
+" натиснути клавішу :kbd:`Shift`, щоб зафіксувати співвідношення розмірів"
+" форми. Це надасть вам змогу не змінювати кут напрямку вектора."
 
-#: ../../general_concepts/projection/axonometric.rst:64
-msgid ""
-"(Tip, to resize a vector but keep its angle, you just select it with the "
-"shape handling tool (the white arrow) drag on the corners of the bounding "
-"box to start moving them, and then press :kbd:`Shift` to constrain the "
-"ratio. This'll allow you to keep the angle)"
-msgstr ""
-
-#: ../../general_concepts/projection/axonometric.rst:66
+#: ../../general_concepts/projection/axonometric.rst:67
 msgid ""
 "The lower image is 'the back seen from the front', we'll be using this to "
 "determine where the ear should go."
 msgstr ""
+"На нижчому зображенні показано «вид на задню частину спереду». Ми"
+" скористаємося ним для визначення місця для вуха."
 
-#: ../../general_concepts/projection/axonometric.rst:68
+#: ../../general_concepts/projection/axonometric.rst:69
+#| msgid ""
+#| "Now, we obviously have too little space, so select the crop tool, select "
+#| "'image' and tick 'grow' and do the following:"
 msgid ""
-"Now, we obviously have too little space, so select the crop tool, select "
-"'image' and tick 'grow' and do the following:"
+"Now, we obviously have too little space, so select the crop tool, select :"
+"guilabel:`Image` and tick :guilabel:`Grow` and do the following:"
 msgstr ""
 "Далі, у нас, очевидно, замало місця. Тому виберемо інструмент обрізання, "
 "виберемо :guilabel:`Зображення`, позначимо пункт :guilabel:`Збільшити` і "
 "зробимо так:"
 
-#: ../../general_concepts/projection/axonometric.rst:73
+#: ../../general_concepts/projection/axonometric.rst:74
 msgid ""
 "Grow is a more practical way of resizing the canvas in width and height "
 "immediately."
@@ -259,7 +267,7 @@ msgstr ""
 "Збільшення є практичнішим способом негайної зміни розмірів полотна за "
 "шириною і висотою."
 
-#: ../../general_concepts/projection/axonometric.rst:75
+#: ../../general_concepts/projection/axonometric.rst:76
 msgid ""
 "Then we align the other heads and transform them by using the transform tool "
 "options:"
@@ -267,7 +275,7 @@ msgstr ""
 "Далі, вирівняємо інші голови і перетворимо їх за допомогою параметрів "
 "інструмента перетворення:"
 
-#: ../../general_concepts/projection/axonometric.rst:80
+#: ../../general_concepts/projection/axonometric.rst:81
 msgid "(330° here is 360°-30°)"
 msgstr "(330° тут це 360°-30°)"
 
@@ -275,24 +283,28 @@ msgstr "(330° тут це 360°-30°)"
 msgid ""
 "Our rectangle we'll be working in slowly becomes visible. Now, this is a bit "
 "of a difficult angle to work at, so we go to :menuselection:`Image --> "
-"Rotate --> Custom Rotation`"
+"Rotate --> Custom Rotation` and fill in 30° clockwise:"
 msgstr ""
-
-#: ../../general_concepts/projection/axonometric.rst:83
-msgid "and fill in 30° clockwise:"
-msgstr ""
+"Наш прямокутник, над яким ми працюватимемо, повільно стає видимим. Оскільки"
+" його розташовано під незручним для роботи кутом, ми повернемо його за"
+" допомогою пункту меню :menuselection:`Зображення --> Обернути --> Обернути"
+" зображення`, вказавши обертання у 30° за годинниковою стрілкою:"
 
 #: ../../general_concepts/projection/axonometric.rst:90
 msgid ""
 "(of course, we could've just rotated the left two images 30°, this is mostly "
 "to be less confusing compared to the cube)"
 msgstr ""
+"(звичайно ж, ми могли б просто повернути два зображення ліворуч на 30°, це,"
+" здебільшого, простіше за роботу з паралелепіпедом)"
 
 #: ../../general_concepts/projection/axonometric.rst:92
 msgid ""
 "So, we do some cropping, some cleanup and add two parallel assistants like "
 "we did with the orthographic:"
 msgstr ""
+"Отже, ми виконали певне обрізання, чищення і додали дві допоміжні паралельні"
+" лінії, як це було раніше зроблено для ортографічної проекції:"
 
 #: ../../general_concepts/projection/axonometric.rst:97
 msgid ""
@@ -300,12 +312,19 @@ msgid ""
 "points in the drawing area. You can use the previews of the assistants for "
 "this to keep things clean, but I drew the lines anyway for your convenience."
 msgstr ""
+"Отже, ідея полягає у малюванні паралельних ліній з обох боків для пошуку"
+" точок на ділянці малювання. Ви можете скористатися просто попередніми"
+" переглядами допоміжних ліній, щоб не захаращувати зображення зайвими"
+" лініями, але автор намалював ці лінії, щоб зручніше було зрозуміти принципи"
+" роботи."
 
 #: ../../general_concepts/projection/axonometric.rst:102
 msgid ""
 "The best is to make a few sampling points, like with the eyebrows here, and "
 "then draw the eyebrow over it."
 msgstr ""
+"Найкраще створити декілька точок-зразків, як ми це зробили у нашому прикладі"
+" для брів, а потім намалювати за ними брови."
 
 #: ../../general_concepts/projection/axonometric.rst:108
 msgid "Alternative axonometric with the transform tool"
@@ -320,9 +339,12 @@ msgstr ""
 "потребує багато місця."
 
 #: ../../general_concepts/projection/axonometric.rst:112
+#| msgid ""
+#| "We open our orthographic with 'open existing document as untitled "
+#| "document' so that we don't save over it."
 msgid ""
-"We open our orthographic with 'open existing document as untitled document' "
-"so that we don't save over it."
+"We open our orthographic with :guilabel:`Open existing Document as Untitled "
+"Document` so that we don't save over it."
 msgstr ""
 "Ми відкриємо наші ортографічні проекції за допомогою пункту меню :guilabel:"
 "`Відкрити наявний документ як документ без назви`, щоб не зберігати зміни до "
@@ -334,6 +356,10 @@ msgid ""
 "vertical. So, we shear the ortho graphics with transform masks to -.5/+.5 "
 "pixels (this is proportional)"
 msgstr ""
+"Наша призначена для відеоігор ізометрія має вісі, які розташовано так, що"
+" двом пікселям за горизонталлю відповідає один піксель за вертикаллю. Отже,"
+" ми перекосимо графіку за допомогою масок перетворення до -.5/+.5 пікселів"
+" (пропорційно)."
 
 #: ../../general_concepts/projection/axonometric.rst:119
 msgid ""
@@ -378,17 +404,25 @@ msgstr ""
 #: ../../general_concepts/projection/axonometric.rst:143
 msgid ""
 "The creepiness is because we've had the tiniest bit of stylisation in our "
-"sideview, so the eyes come out HUGE. This is because when we stylise the "
+"side view, so the eyes come out HUGE. This is because when we stylise the "
 "side view of an eye, we tend to draw it not perfectly from the side, but "
 "rather slightly at an angle. If you look carefully at the turntable, the "
 "same problem crops up there as well."
 msgstr ""
+"Певна страхітливість є наслідком того, що ми використали дещо стилізований"
+" вид збоку, тому очі вийшли ВЕЛИЧЕЗНИМИ. Це тому, що стилізуючи вид збоку ока"
+" ми намагалися намалювати його не зовсім збоку, а під певним кутом. Якщо ви"
+" поглянете уважніше на обертальний круг, ви зможете помітити там ту саму"
+" проблему."
 
 #: ../../general_concepts/projection/axonometric.rst:145
 msgid ""
 "Generally, stylised stuff tends to fall apart in 3d view, and you might need "
 "to make some choices on how to make it work."
 msgstr ""
+"Загалом кажучи, стилізація псує просторові форми. Ймовірно, вам доведеться"
+" робити певний вибір щодо її використання, щоб мати змогу користуватися"
+" проекціями."
 
 #: ../../general_concepts/projection/axonometric.rst:147
 msgid ""
@@ -416,8 +450,18 @@ msgid ""
 "above, and it might be an idea to not just skew but also stretch the orthos "
 "a bit."
 msgstr ""
+"Результат виглядає дещо стиснутим, порівняно із результатом звичайної"
+" паралельної проекції, наведеним вище. Тому варто не лише перекосити"
+" ортографічні проекції, а і дещо розтягнути їх."
 
 #: ../../general_concepts/projection/axonometric.rst:164
 msgid "Let's continue with perspective projection in the next one!"
 msgstr ""
 "У наступному розділі ми продовжимо вправлятися зі проекцією перспективи!"
+
+#~ msgid ""
+#~ "to remove any background. I also set the layers to 50% opacity. We then "
+#~ "align the vectors to them:"
+#~ msgstr ""
+#~ "для вилучення тла. Також автор встановив для шарів 50% непрозорості. "
+#~ "Потім вирівняв вектори за головами:"

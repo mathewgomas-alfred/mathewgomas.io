@@ -2,10 +2,10 @@
 # Roman Paholik <wizzardsk@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
-"__sketch_brush_engine\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___brushes___brush_engines___sketch_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 03:25+0100\n"
+"POT-Creation-Date: 2019-04-03 03:42+0200\n"
 "PO-Revision-Date: 2019-04-02 08:47+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -103,27 +103,27 @@ msgstr "Posun mierky"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:55
 msgid ""
-"When curve lines are formed, this value roughly determines the distance from"
-" the curve lines to the connection lines:"
+"When curve lines are formed, this value roughly determines the distance from "
+"the curve lines to the connection lines:"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:57
 msgid ""
-"This is a bit misleading, because a value of 0% and a value of 100% give"
-" similar outputs, as do a value of say 30% and 70%. You could think that the"
-" actual value range is between 50% and 200%."
+"This is a bit misleading, because a value of 0% and a value of 100% give "
+"similar outputs, as do a value of say 30% and 70%. You could think that the "
+"actual value range is between 50% and 200%."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:58
 msgid ""
-"0% and 100% correspond to the curve lines touching the connection lines"
-" exactly."
+"0% and 100% correspond to the curve lines touching the connection lines "
+"exactly."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:59
 msgid ""
-"Above 100%, the curve lines will go further than the connection lines,"
-" forming a fuzzy effect."
+"Above 100%, the curve lines will go further than the connection lines, "
+"forming a fuzzy effect."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:62
@@ -140,8 +140,8 @@ msgstr "Hustota"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:70
 msgid ""
-"The density of the lines. This one is highly affected by the Brush-tip, as"
-" determined by the Distance Density toggle."
+"The density of the lines. This one is highly affected by the Brush-tip, as "
+"determined by the Distance Density toggle."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:73
@@ -154,8 +154,8 @@ msgstr "Použiť hustotu vzdialenosti"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:75
 msgid ""
-"the further the line covered is from the center of the area of effect, the"
-" less the density of the resulting curve lines."
+"The further the line covered is from the center of the area of effect, the "
+"less the density of the resulting curve lines."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:77
@@ -164,12 +164,12 @@ msgstr "Magnetizovať"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:77
 msgid ""
-"Magnetify is *on* by default. It's what causes curve lines to form between"
-" two close line sections, as though the curve lines are attracted to them"
-" like magnets. With Magnetify *off*, the curve line just forms on either side"
-" of the current active portion of your connection line. In other words, your"
-" line becomes fuzzier when another portion of the line is nearby, but the"
-" lines don't connect to said previous portion."
+"Magnetify is *on* by default. It's what causes curve lines to form between "
+"two close line sections, as though the curve lines are attracted to them "
+"like magnets. With Magnetify *off*, the curve line just forms on either side "
+"of the current active portion of your connection line. In other words, your "
+"line becomes fuzzier when another portion of the line is nearby, but the "
+"lines don't connect to said previous portion."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:79
@@ -186,8 +186,8 @@ msgstr "Náhodná nepriehľadnosť"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:82
 msgid ""
-"The curve lines get random opacity. This one is barely visible, so for the"
-" example I used line width 12 and 100% opacity."
+"The curve lines get random opacity. This one is barely visible, so for the "
+"example I used line width 12 and 100% opacity."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:83
@@ -196,9 +196,9 @@ msgstr "Nepriehľadnosť vzdialenosti"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:84
 msgid ""
-"The distance based opacity. When you move your pen fast when painting, the"
-" opacity will be calculated based on the distance from the center of the"
-" effect area."
+"The distance based opacity. When you move your pen fast when painting, the "
+"opacity will be calculated based on the distance from the center of the "
+"effect area."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:85
@@ -207,18 +207,17 @@ msgstr "Jednoduchý režim"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:86
 msgid ""
-"this mode exists for performance reasons, and doesn't affect the output in a"
-" visible way. Check this for large brushes or thick lines for faster"
-" rendering."
+"This mode exists for performance reasons, and doesn't affect the output in a "
+"visible way. Check this for large brushes or thick lines for faster "
+"rendering."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:88
 msgid ""
-"What appears to be the connection line is usually made up of an actual"
-" connection line and many smaller curve lines. The many small curve lines"
-" make up the majority of the line. For this reason, the only time this option"
-" will make a visible difference is if you're drawing with 0% or near 0%"
-" density, and with a thick line width. The rest of the time, this option"
-" won't make a visible difference."
+"What appears to be the connection line is usually made up of an actual "
+"connection line and many smaller curve lines. The many small curve lines "
+"make up the majority of the line. For this reason, the only time this option "
+"will make a visible difference is if you're drawing with 0% or near 0% "
+"density, and with a thick line width. The rest of the time, this option "
+"won't make a visible difference."
 msgstr ""
-

@@ -2,8 +2,8 @@
 # Roman Paholik <wizzardsk@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___dockers___lut_management"
-"\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___dockers___lut_management\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-20 03:39+0100\n"
 "PO-Revision-Date: 2019-04-02 09:47+0200\n"
@@ -34,8 +34,8 @@ msgstr ".. image:: images/en/LUT_Management_Docker.png"
 
 #: ../../reference_manual/dockers/lut_management.rst:20
 msgid ""
-"The Look Up Table (LUT) Management docker controls the high dynamic range"
-" (HDR) painting functionality."
+"The Look Up Table (LUT) Management docker controls the high dynamic range "
+"(HDR) painting functionality."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:22
@@ -44,9 +44,9 @@ msgstr "Použiť OpenColorIO"
 
 #: ../../reference_manual/dockers/lut_management.rst:23
 msgid ""
-"Use Open Color IO instead of Krita's internal color management. Open Color IO"
-" is a color management library. It is sometimes referred to as OCIO. This is"
-" required as Krita uses OCIO for its HDR functionality."
+"Use Open Color IO instead of Krita's internal color management. Open Color "
+"IO is a color management library. It is sometimes referred to as OCIO. This "
+"is required as Krita uses OCIO for its HDR functionality."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:24
@@ -67,10 +67,10 @@ msgstr "Nastavenie"
 
 #: ../../reference_manual/dockers/lut_management.rst:31
 msgid ""
-"Some system locals don't allow you to read the configuration files. This is"
-" due to a bug in OCIO. If you are using Linux you can fix this. If you start"
-" Krita from the terminal with the ``LC_ALL=C krita`` flag set, you should be"
-" able to read the configuration files."
+"Some system locals don't allow you to read the configuration files. This is "
+"due to a bug in OCIO. If you are using Linux you can fix this. If you start "
+"Krita from the terminal with the ``LC_ALL=C krita`` flag set, you should be "
+"able to read the configuration files."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:33
@@ -87,8 +87,8 @@ msgstr "Zobrazovacie zariadenie"
 
 #: ../../reference_manual/dockers/lut_management.rst:36
 msgid ""
-"The type of device you are using to view the colors. Typically sRGB for"
-" computer screens."
+"The type of device you are using to view the colors. Typically sRGB for "
+"computer screens."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:37
@@ -113,8 +113,8 @@ msgstr "Expozícia"
 
 #: ../../reference_manual/dockers/lut_management.rst:42
 msgid ""
-"Set the general exposure. On 0.0 at default. There's :kbd:`Y` to change this"
-" on the fly on canvas."
+"Set the general exposure. On 0.0 at default. There's :kbd:`Y` to change this "
+"on the fly on canvas."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:44
@@ -123,8 +123,8 @@ msgstr "Gama"
 
 #: ../../reference_manual/dockers/lut_management.rst:45
 msgid ""
-"Allows you to set the gamma. This is 1.0 by default. You can set this to"
-" change on the fly in canvas shortcuts."
+"Allows you to set the gamma. This is 1.0 by default. You can set this to "
+"change on the fly in canvas shortcuts."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:46
@@ -133,12 +133,12 @@ msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:47
 msgid ""
-"Locks the color to make sure it doesn't shift when changing exposure. May not"
-" be desired."
+"Locks the color to make sure it doesn't shift when changing exposure. May "
+"not be desired."
 msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:49
 msgid ""
-"This allows you to set the maximum and minimum brightness of the image,"
-" which'll adjust the exposure and gamma automatically to this."
+"This allows you to set the maximum and minimum brightness of the image, "
+"which'll adjust the exposure and gamma automatically to this."
 msgstr ""
