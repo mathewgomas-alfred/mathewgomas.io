@@ -33,7 +33,7 @@ For example, with threshold set to 255, and the removed color set to white, a 50
 .. image:: /images/en/Krita-color-to-alpha.png
    :align: center
 
-This filter is really useful in separating line-art from the white background.
+This filter is really useful in separating line art from the white background.
 
 .. _filter_color_transfer:
 

@@ -43,7 +43,7 @@ Preparing the line art
 
 If your images has a white or other single-tone background, you can use either of the following methods to prepare the art for coloring:
 
-Place the line-art at the top of the layer stack and set its layer blending mode to :guilabel:`Multiply`
+Place the line art at the top of the layer stack and set its layer blending mode to :guilabel:`Multiply`
 
 If you want to clean the line art a bit you can press :kbd:`Ctrl + L` or go to :menuselection:`Filters --> Adjust --> Levels`
 
@@ -76,12 +76,12 @@ Now apply the color adjustment filter, yes we still have lots of blue on the art
 
 You can learn more about doing a sketch from blue sketch to digital painting `here in a tutorial by David Revoy <http://www.davidrevoy.com/article239/cleaning-blue-lines-sketch-in-krita>`_.
 
-After you have a clean black and white line-art you may need to erase the white color and keep only black line-art, to achieve that go to :menuselection:`Filters --> Color --> Color to Alpha`. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
+After you have a clean black and white line art you may need to erase the white color and keep only black line art, to achieve that go to :menuselection:`Filters --> Color --> Color to Alpha`. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
 
 .. image:: /images/en/Color-to-alpha.png
     :alt: color to alpha dialog box
 
-This will convert the white color in your line-art to alpha i.e. it will make the white transparent leaving only the line art. Your line-art can be in grey-scale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
+This will convert the white color in your line art to alpha i.e. it will make the white transparent leaving only the line art. Your line art can be in grey-scale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
 
 Laying in Flat Colors
 ^^^^^^^^^^^^^^^^^^^^^
@@ -102,18 +102,18 @@ Add a layer underneath your line art layer and start painting with the brush, If
 Filling with Flood Fill tool
 """"""""""""""""""""""""""""
 
-The second method is to use the Flood fill tool to fill large parts of your line-art quickly. This method generally requires closed gaps in the line-art. To begin with this method place your line-art on a separate layer. Then activate the flood fill tool and set the grow selection to 2px, uncheck limit to current layer if previously checked.
+The second method is to use the Flood fill tool to fill large parts of your line art quickly. This method generally requires closed gaps in the line art. To begin with this method place your line art on a separate layer. Then activate the flood fill tool and set the grow selection to 2px, uncheck limit to current layer if previously checked.
 
 .. image:: /images/en/common-workflows/Floodfill-krita.png
     :alt: flood fill in krita
 
-Choose a color from color elector and just click on the area you want to fill the color. As we have expanded the fill with grow selection the color will be filled slightly underneath the line-art thus giving us a clean fill.
+Choose a color from color elector and just click on the area you want to fill the color. As we have expanded the fill with grow selection the color will be filled slightly underneath the line art thus giving us a clean fill.
 
 GMIC Colorise [Interactive]
 """""""""""""""""""""""""""
 
 The third method is to use take advantage of the integrated G'Mic filters. These are powerful filters that can dramatically improve your workflow and cut your down on your production time.
-To begin coloring with the GMIC colorize interactive, go to :menuselection:`Filter --> GMIC`. Choose :menuselection:`Filter --> G'Mic --> Black & white --> Colorize[interactive]` from the list of filters. Then select Line-art for :menuselection:`Input type, Image + Colors (2 Layers)` for output type, set the view resolution according to your need. If you have any specific color palette to use for coloring add the path for it in additional color palette. The example of the filter window with the required inputs is shown below.
+To begin coloring with the GMIC colorize interactive, go to :menuselection:`Filter --> GMIC`. Choose :menuselection:`Filter --> G'Mic --> Black & white --> Colorize[interactive]` from the list of filters. Then select Line art for :menuselection:`Input type, Image + Colors (2 Layers)` for output type, set the view resolution according to your need. If you have any specific color palette to use for coloring add the path for it in additional color palette. The example of the filter window with the required inputs is shown below.
 
 .. image:: /images/en/common-workflows/GMIC-colorize-interactive-krita.png
     :alt: G'MIC window in Krita

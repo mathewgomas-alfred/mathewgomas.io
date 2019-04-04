@@ -38,7 +38,7 @@ This allows you to do basic rotation, resizing, flipping, and even perspective s
 
    Free transform in action. 
 
-If you look at the bottom, there's quick buttons for flipping horizontally, vertically and rotating 90 degrees left and right. Furthermore, the button to the left of the anchor point widget allows you to choose whether to always transform using the anchor point, or not.
+If you look at the bottom, there are quick buttons for flipping horizontally, vertically and rotating 90 degrees left and right. Furthermore, the button to the left of the anchor point widget allows you to choose whether to always transform using the anchor point, or not.
 
 `Video of how to use the anchor point for resizing. <https://www.youtube.com/watch?v=grzccBVd0O8>`_
 
@@ -66,7 +66,7 @@ Warp allows you to deform the image by dragging from a grid or choosing the drag
 
    Free transform in action.
 
-There's warp options: Rigid, Affine and Similtude. These change the algorithm used to determine the strength of the deformation. The flexibility determines, how strong the effect of moving these point are.
+There are warp options: Rigid, Affine and Similtude. These change the algorithm used to determine the strength of the deformation. The flexibility determines, how strong the effect of moving these points are.
 
 Anchor Points
 ~~~~~~~~~~~~~

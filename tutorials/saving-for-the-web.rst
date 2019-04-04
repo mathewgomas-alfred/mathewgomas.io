@@ -34,7 +34,7 @@ Use this for images with a lot of different colors, like paintings.
 PNG
 """
 
-Use this for images with few colours or which are black and white, like comics and pixel-art. Select :guilabel:`Save as indexed PNG, if possible` to optimise even more.
+Use this for images with few colors or which are black and white, like comics and pixel-art. Select :guilabel:`Save as indexed PNG, if possible` to optimise even more.
 
 GIF
 """

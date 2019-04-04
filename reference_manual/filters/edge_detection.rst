@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Overview of the edgedetection filters.
+        Overview of the edge detection filters.
 
 .. metadata-placeholder
 
@@ -76,7 +76,7 @@ Height to Normal Map
 A filter that converts Height maps to Normal maps through the power of edge detection. It is also available for the filter layer or filter brush.
 
 Formula
-    The convolution kernel formula for the edgedetection. The difference between these is subtle, but still worth experimenting with.
+    The convolution kernel formula for the edge detection. The difference between these is subtle, but still worth experimenting with.
 
     Simple
         A Kernel that is not square unlike the other two, and while this makes it fast, it doesn't take diagonal pixels into account.

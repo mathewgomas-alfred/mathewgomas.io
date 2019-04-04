@@ -25,7 +25,7 @@ Today’s flower is the Azalea flower. These flowers are usually pink to red and
 
 I got an image from Wikipedia for reference, mostly because it’s public domain, and as an artist I find it important to respect other artists. You can copy it and, if you already have a canvas, :menuselection:`Edit --> Paste into New Image` or :menuselection:`New --> Create from Clipboard`.
 
-Then, if you didn’t have a new canvas make one. I made an a5 300dpi canvas. This is not very big, but we’re only practicing. I also have the background colour set to a yellow-greyish colour (#CAC5B3), partly because it reminds me of paper, and partly because bright screen white can strain the eyes and make it difficult to focus on values and colours while painting. Also, due to the lack of strain on the eyes, you’ll find yourself soothed a bit. Other artists use #c0c0c0, or even more different values.
+Then, if you didn’t have a new canvas make one. I made an A5 300dpi canvas. This is not very big, but we’re only practicing. I also have the background color set to a yellow-greyish color (#CAC5B3), partly because it reminds me of paper, and partly because bright screen white can strain the eyes and make it difficult to focus on values and colors while painting. Also, due to the lack of strain on the eyes, you’ll find yourself soothed a bit. Other artists use #c0c0c0, or even more different values.
 
 So, if you go to :menuselection:`Window --> Tile`, you will find that now your reference image and your working canvas are side by side. The reason I am using this instead of the docker is because I am lazy and don’t feel like saving the wikipedia image. We’re not going to touch the image much.
 
@@ -35,12 +35,12 @@ Let’s get to drawing!
 .. image:: /images/en/making-azalea/Azelea_01_trunk-.png
     :alt: starting with the trunk and reference image
 
-First we make a bunch of branches. I picked a slightly darker colour here than usual, because I know that I’ll be painting over these branches with the lighter colours later on. Look at the reference how branches are formed.
+First we make a bunch of branches. I picked a slightly darker color here than usual, because I know that I’ll be painting over these branches with the lighter colors later on. Look at the reference how branches are formed.
 
 .. image:: /images/en/making-azalea/Azelea_02_drawing-flowers.png
     :alt: making the outline of the flowers
 
-Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not colour pick the red, but we guess at it. This is good practice, so we can learn to analyse a colour as well as how to use our colour selector. If we’d only pick colours, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
+Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not color pick the red, but we guess at it. This is good practice, so we can learn to analyse a color as well as how to use our color selector. If we’d only pick colors, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
 
 .. image:: /images/en/making-azalea/Azelea_03_filling-flowers.png
     :alt: coloring the details and filling the flowers
@@ -130,7 +130,7 @@ Then, with multiply and alpha inheritance on, use an eraser to remove the areas 
 .. image:: /images/en/making-azalea/Azelea_14_alphainheritance_5.png
     :alt: remove extra areas with the eraser
 
-For the highlights use exactly the same method, AND exactly the same colour, but instead set the layer to Divide (you can find this amongst the Arithmetic blending modes). Using Divide has exactly the opposite effect as using multiply with the same colour. The benefit of this is that you can easily set up a complementary harmony in your shadows and highlights using these two.
+For the highlights use exactly the same method, AND exactly the same color, but instead set the layer to Divide (you can find this amongst the Arithmetic blending modes). Using Divide has exactly the opposite effect as using multiply with the same color. The benefit of this is that you can easily set up a complementary harmony in your shadows and highlights using these two.
 
 .. image:: /images/en/making-azalea/Azelea_15_alphainheritance_6.png
     :alt: add shadows and highlights with alpha inheritance technique

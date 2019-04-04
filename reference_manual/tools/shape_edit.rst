@@ -26,7 +26,7 @@ You can access the Edit Shapes tool by clicking on the icon in the toolbox, but 
 On Canvas Editing of Shapes
 ---------------------------
 
-As detailed further in the Tool Options, there's a difference between path shapes and specialised vector shapes that make it easy to have perfect ellipses, rectangles and more.
+As detailed further in the Tool Options, there's a difference between path shapes and specialized vector shapes that make it easy to have perfect ellipses, rectangles and more.
 
 Path Shapes
 ~~~~~~~~~~~

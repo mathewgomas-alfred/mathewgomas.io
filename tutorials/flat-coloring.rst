@@ -31,7 +31,7 @@ Other things that a layer stack can do are blending the colors of different laye
 
 .. tip:: Programmers talk about transparency as ''Alpha'', which is because the 'a' symbol is used to present transparency in the algorithms for painting one color on top of another. Usually when you see the word ''Alpha'' in a graphics program, just think of it as affecting the transparency.
 
-Preparing your line-art
+Preparing your line art
 -----------------------
 
 Put the new layer underneath the layer containing the line art (drag and drop or use the up/down arrows for that), and draw on it.
@@ -180,8 +180,8 @@ Disadvantages
 You'll have to lock the layer transparency or separate out the alpha via the right-click menu if you want to easily color it.
 
 
-Colouring the image
-===================
+Coloring the image
+==================
 
 Much like preparing the line art, there's many different ways of coloring a layer.
 
@@ -214,7 +214,7 @@ Pretty darn quick depending on the available settings.
 Disadvantages
 """""""""""""
 
-Again, not great with gaps or details. And it works best with aliased line-art.
+Again, not great with gaps or details. And it works best with aliased line art.
 
 Selections
 ----------

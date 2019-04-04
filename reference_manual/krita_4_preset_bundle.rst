@@ -52,14 +52,14 @@ These presets tends to emulate the effect of pencil on paper. They all have a th
 Inking
 ------
 
-For the black & white illustrator or the comic artist. The Inking brushes help you produce line-art and high contrast illustrations.
+For the black & white illustrator or the comic artist. The Inking brushes help you produce line art and high contrast illustrations.
 
 * Ink Precision: A thin line designed to take notes or draw tiny lines or details.
 * Ink Fineliner: A preset with a regular width to trace panels, technical details, or buildings.
 * Ink GPen: A preset with a dynamic on size to ink smoothly.
 * Ink Pen Rough: A preset for inking with a focus on having a realistic ink line with irregularities (texture of the paper, fiber of paper absorption).
 * Ink Brush Rough: A brush for inking with also a focus on getting the delicate paper texture appearing at low pressure, as if the brush slightly touch paper.
-* Ink Sumi-e : A brush with abilities at revealing the thin texture of each bristles, making the line highly expressive.
+* Ink Sumi-e: A brush with abilities at revealing the thin texture of each bristles, making the line highly expressive.
 
 .. image:: /images/en/Krita4_d-brush-family.jpg
 

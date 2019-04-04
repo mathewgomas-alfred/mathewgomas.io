@@ -17,7 +17,7 @@
 ======================
 .pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. They are designed to save images in a way that the result can be read as an ascii file, from back when email clients couldn't read images reliably.
 
-They are very old file formats, and not used outside of very specialised usecases, such as embedding images inside code.
+They are very old file formats, and not used outside of very specialized usecases, such as embedding images inside code.
 
 .pbm
     one-bit and can only show strict black and white.

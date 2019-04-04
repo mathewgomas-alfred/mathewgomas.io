@@ -33,7 +33,7 @@ The freehand brush tool's hotkey is :kbd:`B`.
 * You can also press :kbd:`V` as a stickykey for the straight-line tool.
 
 The hotkey can be edited in :menuselection:`Settings --> Configure Krita --> Configure Shortcuts`.
-The sticky-keys can be edited in :menuselection:`Settings --> Configure Krita --> Tablet Canvas Input`.
+The sticky-keys can be edited in :menuselection:`Settings --> Configure Krita --> Canvas Input Settings`.
 
 Tool Options
 ------------
@@ -58,7 +58,7 @@ Weighted smoothing:
     Distance
         The distance the brush needs to move before the first dab is drawn. (Literally the amount of events received by the tablet before the first dab is drawn.)
     Stroke Ending
-        This controls how much the line will attempt to reach the last known position of the cursor after the left-mouse button/or stylus is lifted. Will currently always result in a straight line, so use with caution)
+        This controls how much the line will attempt to reach the last known position of the cursor after the left-mouse button/or stylus is lifted. Will currently always result in a straight line, so use with caution.
     Smooth Pressure
         This will apply the smoothing on the pressure input as well, resulting in more averaged size for example.
     Scalable Distance
@@ -85,4 +85,4 @@ Assistants
 
 Ticking this will allow snapping to :ref:`assistant_tool`, and the hotkey to toggle it is :kbd:`Ctrl + Shift + L`. See :ref:`painting_with_assistants` for more information.
 
-The slider will determine the amount of snapping, with 1000 being perfect snapping, and 0 being no snapping at all. For situations where there is more than one assistant on the canvas, the defaultly ticked :guilabel:`Snap single` means that Krita will only snap to a single assistant at a time, preventing noise. Unticking it allows you to chain assistants together and snap along them.
+The slider will determine the amount of snapping, with 1000 being perfect snapping, and 0 being no snapping at all. For situations where there is more than one assistant on the canvas, the defaultly ticked :guilabel:`Snap Single` means that Krita will only snap to a single assistant at a time, preventing noise. Unticking it allows you to chain assistants together and snap along them.

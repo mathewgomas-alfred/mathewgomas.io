@@ -22,7 +22,7 @@ The Tangent Normal Brush Engine is an engine that is specifically designed for d
 
 A Normal map is an image that holds information for vectors. In particular, they hold information for Normal Vectors, which is the information for how the light bends on a surface. Because Normal Vectors are made up of 3 coordinates, just like colors, we can store and see this information as colors.
 
-Normals can be seen similar to the stylus on your tablet. Therefore, we can use the tilt-sensors that are available to some tablets to generate the colour of the normals, which can then be used by a 3d program to do lighting effects.
+Normals can be seen similar to the stylus on your tablet. Therefore, we can use the tilt-sensors that are available to some tablets to generate the color of the normals, which can then be used by a 3d program to do lighting effects.
 
 In short, you will be able to paint with surfaces instead of colors.
 
