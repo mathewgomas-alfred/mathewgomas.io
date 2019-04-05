@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___shape_edit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-15 03:36+0100\n"
-"PO-Revision-Date: 2019-03-30 19:23+0200\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"PO-Revision-Date: 2019-04-04 20:13+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -138,6 +138,9 @@ msgid ""
 "shapes and specialised vector shapes that make it easy to have perfect "
 "ellipses, rectangles and more."
 msgstr ""
+"Як докладніше оповідається у розділі щодо параметрів інструментів, існує"
+" відмінність між формами контурів та спеціалізованими векторними формами, які"
+" спрощують створення ідеальних еліпсів, прямокутників та інших фігур."
 
 #: ../../reference_manual/tools/shape_edit.rst:32
 #: ../../reference_manual/tools/shape_edit.rst:91
@@ -145,7 +148,8 @@ msgid "Path Shapes"
 msgstr "Форми контурів"
 
 #: ../../reference_manual/tools/shape_edit.rst:34
-msgid "Path shapes can be recognised by the different nodes they have."
+#| msgid "Path shapes can be recognised by the different nodes they have."
+msgid "Path shapes can be recognized by the different nodes they have."
 msgstr "Форми контурів можна визначити за вузлами, з яких вони складаються."
 
 #: ../../reference_manual/tools/shape_edit.rst:36
@@ -189,6 +193,9 @@ msgid ""
 "are touched by the rectangle will be selected. This combines with |"
 "mouseleft| + :kbd:`Shift` above."
 msgstr ""
+"|mouseleft| + перетягування створює прямокутник позначення. Буде позначено"
+" усі вузли, чиї елементи керування потрапляють до прямокутника. Це"
+" поєднується з |mouseleft| + :kbd:`Shift`, описаним вище."
 
 #: ../../reference_manual/tools/shape_edit.rst:50
 msgid "Selected Nodes"
@@ -220,6 +227,9 @@ msgid ""
 "Represented by a circle, the corner type allows you to have handles that can "
 "point in different directions and have different lengths."
 msgstr ""
+"Цю точку програма показує колом. Тип кутової точки надає вам змогу"
+" користуватися елементами керування, які вказують у різні боки і мають різні"
+" довжини."
 
 #: ../../reference_manual/tools/shape_edit.rst:58
 msgid "Smooth"

@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___filters___edge_detection\n"
+"Project-Id-Version: docs_krita_org_reference_manual___filters___edge_detection"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-17 03:34+0100\n"
-"PO-Revision-Date: 2019-03-29 20:29+0200\n"
+"PO-Revision-Date: 2019-04-04 19:39+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -176,6 +176,8 @@ msgid ""
 "This only detects changes going from right to left and thus only has right "
 "lines."
 msgstr ""
+"Виявляє зміни, які відбуваються у напрямку справа ліворуч, тому виявляє лише"
+" праві лінії."
 
 #: ../../reference_manual/filters/edge_detection.rst:56
 msgid "Left Edge"
@@ -186,6 +188,8 @@ msgid ""
 "This only detects changes going from left to right and thus only has left "
 "lines."
 msgstr ""
+"Виявляє зміни, які відбуваються у напрямку зліва праворуч, тому виявляє лише"
+" ліві лінії."
 
 #: ../../reference_manual/filters/edge_detection.rst:59
 msgid "Output"
@@ -200,6 +204,8 @@ msgid ""
 "This convolves into all directions and then tries to output the direction of "
 "the line in radians."
 msgstr ""
+"Згортає за усіма напрямками, а потім намагається вивести напрямок лінії у"
+" радіанах."
 
 #: ../../reference_manual/filters/edge_detection.rst:61
 #: ../../reference_manual/filters/edge_detection.rst:90
@@ -211,6 +217,8 @@ msgid ""
 "The radius of the edge detection. Default is 1 and going higher will "
 "increase the thickness of the lines."
 msgstr ""
+"Радіус кругу виявлення меж. Типовим є значення 1. Збільшення цього значення"
+" збільшує товщину ліній."
 
 #: ../../reference_manual/filters/edge_detection.rst:64
 msgid "Apply result to Alpha Channel."
@@ -238,6 +246,8 @@ msgid ""
 "The convolution kernel formula for the edgedetection. The difference between "
 "these is subtle, but still worth experimenting with."
 msgstr ""
+"Формула ядра згортки для виявлення країв Відмінність між цими варіантами "
+"ледве помітка, але варта того, щоб поекспериментувати."
 
 #: ../../reference_manual/filters/edge_detection.rst:88
 msgid "Channel"
@@ -247,6 +257,7 @@ msgstr "Канал"
 msgid ""
 "Which channel of the layer should be interpreted as the grayscale heightmap."
 msgstr ""
+"Визначає канал шару, який слід вважати картою висот у відтінках сірого."
 
 #: ../../reference_manual/filters/edge_detection.rst:91
 msgid ""
