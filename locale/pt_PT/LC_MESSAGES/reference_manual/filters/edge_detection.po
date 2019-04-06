@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-17 03:34+0100\n"
-"PO-Revision-Date: 2019-03-17 10:53+0000\n"
+"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"PO-Revision-Date: 2019-04-05 11:38+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -28,7 +28,7 @@ msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
 msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:1
-msgid "Overview of the edgedetection filters."
+msgid "Overview of the edge detection filters."
 msgstr "Introdução aos filtros de detecção de contornos."
 
 #: ../../reference_manual/filters/edge_detection.rst:16
@@ -78,6 +78,7 @@ msgstr ""
 "mistura da camada de filtragem configurado como Multiplicação"
 
 #: ../../reference_manual/filters/edge_detection.rst:36
+#: ../../reference_manual/filters/edge_detection.rst:79
 msgid ""
 "The convolution kernel formula for the edge detection. The difference "
 "between these is subtle, but still worth experimenting with."
@@ -252,14 +253,6 @@ msgstr ""
 "tal a potencialidade da detecção de contornos. Também está disponível para a "
 "camada de filtragem ou para o pincel de filtragem."
 
-#: ../../reference_manual/filters/edge_detection.rst:79
-msgid ""
-"The convolution kernel formula for the edgedetection. The difference between "
-"these is subtle, but still worth experimenting with."
-msgstr ""
-"A fórmula do núcleo de convolução para a detecção de contornos. A diferença "
-"entre estes é subtil, mas valerá à mesma a pena experimentar."
-
 #: ../../reference_manual/filters/edge_detection.rst:88
 msgid "Channel"
 msgstr "Canal"
@@ -292,3 +285,4 @@ msgstr ""
 "diferentes coordenadas normais de 3D. Isto é necessário principalmente pela "
 "diferença entre os mapas da normal do espaço de Mikkt (+X, +Y, +Z) e o mapa "
 "da normal padrão do OpenGL (+X, -Y, +Z)."
+

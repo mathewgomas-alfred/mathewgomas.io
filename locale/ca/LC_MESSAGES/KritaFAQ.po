@@ -4,20 +4,21 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_KritaFAQ\n"
+"Project-Id-Version: KritaFAQ\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-04-03 20:31+0200\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2019-04-05 20:22+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../KritaFAQ.rst:27
 msgid "Krita FAQ"
@@ -174,6 +175,7 @@ msgstr ""
 msgid "Linux"
 msgstr "Linux"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:85 ../../KritaFAQ.rst:101
 msgid ":file:`$HOME/.config/kritarc`"
 msgstr ":file:`$HOME/.config/kritarc`"
@@ -183,6 +185,7 @@ msgstr ":file:`$HOME/.config/kritarc`"
 msgid "Windows"
 msgstr "Windows"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:87
 msgid ":file:`%APPDATA%\\\\Local\\\\kritarc`"
 msgstr ":file:`%APPDATA%\\\\Local\\\\kritarc`"
@@ -191,6 +194,7 @@ msgstr ":file:`%APPDATA%\\\\Local\\\\kritarc`"
 msgid "MacOS X"
 msgstr "MacOS X"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:89 ../../KritaFAQ.rst:105
 msgid ":file:`$HOME/Library/Preferences/kritarc`"
 msgstr ":file:`$HOME/Library/Preferences/kritarc`"
@@ -217,6 +221,7 @@ msgstr ""
 "Per al Krita 3.0 i posteriors: Suprimiu/canvieu el nom del fitxer «kritarc», "
 "el qual es troba aquí:"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:103
 msgid ":file:`%LOCALAPPDATA%\\\\kritarc`"
 msgstr ":file:`%LOCALAPPDATA%\\\\kritarc`"
@@ -247,6 +252,7 @@ msgstr ""
 "Si heu instal·lat el Krita a través de la Windows Store, el fitxer «kritarc» "
 "es trobarà en un altre lloc"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:115
 msgid ""
 ":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{RANDOM STRING}\\\\LocalCache"
@@ -279,10 +285,12 @@ msgstr ""
 msgid "Where are my resources stored?"
 msgstr "A on s'emmagatzemen els meus recursos?"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:125 ../../KritaFAQ.rst:372
 msgid ":file:`$HOME/.local/share/krita/`"
 msgstr ":file:`$HOME/.local/share/krita/`"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:127
 msgid ":file:`%APPDATA%\\\\krita\\\\`"
 msgstr ":file:`%APPDATA%\\\\krita\\\\`"
@@ -291,6 +299,7 @@ msgstr ":file:`%APPDATA%\\\\krita\\\\`"
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:129 ../../KritaFAQ.rst:376
 msgid ":file:`~/Library/Application Support/Krita/`"
 msgstr ":file:`~/Library/Application Support/Krita/`"
@@ -303,6 +312,7 @@ msgstr ""
 "Si heu instal·lat el Krita a la Windows Store, els vostres recursos "
 "personalitzats estaran en una ubicació com:"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:132
 msgid ""
 ":file:`%LOCALAPPDATA%\\\\Packages\\\\49800Krita_{RANDOM STRING}\\\\LocalCache"
@@ -595,13 +605,16 @@ msgstr "Tauletes"
 
 #: ../../KritaFAQ.rst:236
 msgid "What tablets does Krita support?"
-msgstr ""
+msgstr "Quines taules dóna suport el Krita?"
 
 #: ../../KritaFAQ.rst:238
 msgid ""
 "Krita isn’t much fun without a pressure sensitive tablet. If the tablet has "
 "been properly configured, Krita should work out of the box."
 msgstr ""
+"El Krita no és molt divertit sense una tauleta sensible a la pressió. Si s'ha "
+"configurat correctament la tauleta, el Krita hauria de funcionar "
+"immediatament."
 
 #: ../../KritaFAQ.rst:240
 msgid ""
@@ -609,26 +622,33 @@ msgid ""
 "or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's "
 "settings."
 msgstr ""
+"Al Windows, necessitareu instal·lar els controladors de Wintab per a la "
+"vostra tauleta o habilitar l'opció :guilabel:`Entrada de l'apuntador de "
+"Windows 8+` als ajustaments del Krita."
 
 #: ../../KritaFAQ.rst:242
 msgid ""
 "You can find a community curated list of tablets supported by krita :ref:"
 "`here <list_supported_tablets>`."
 msgstr ""
+":ref:`Aquí <list_supported_tablets>` trobareu una llista creada per la "
+"comunitat de les tauletes admeses pel Krita."
 
 #: ../../KritaFAQ.rst:244
 msgid ""
 "If you're looking for information about tablets like the iPad or Android "
 "tablets, look :ref:`here <krita_android>`."
 msgstr ""
+"Si esteu cercant informació sobre tauletes com les tauletes iPad o Android, "
+"mireu :ref:`aquí <krita_android>`."
 
 #: ../../KritaFAQ.rst:248
 msgid "What if your tablet is not recognized by Krita?"
-msgstr ""
+msgstr "Què passa si la vostra tauleta no és reconeguda pel Krita?"
 
 #: ../../KritaFAQ.rst:253
 msgid "We would like to see the full output of the following commands:"
-msgstr ""
+msgstr "Ens agradaria veure la sortida completa de les següents ordres:"
 
 # skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:255
@@ -640,17 +660,18 @@ msgstr "``lsmod``"
 msgid "``xinput``"
 msgstr "``xinput``"
 
+# skip-rule: t-acc_obe,t-acc_tan
 #: ../../KritaFAQ.rst:257
 msgid "``xinput list-props`` (id can be fetched from the item 2)"
-msgstr ""
+msgstr "``xinput list-props`` (es pot obtenir l’ID des de l'element 2)"
 
 #: ../../KritaFAQ.rst:258
 msgid "Get the log of the tablet events (if applicable):"
-msgstr ""
+msgstr "Obteniu el registre dels esdeveniments de la tauleta (si correspon):"
 
 #: ../../KritaFAQ.rst:260
 msgid "Open a console application (e.g. Konsole on KDE)"
-msgstr ""
+msgstr "Obriu una aplicació de consola (p. ex., el Konsole al KDE)"
 
 #: ../../KritaFAQ.rst:261
 msgid ""
@@ -658,30 +679,38 @@ msgid ""
 "menuselection:`Settings --> Edit Current Profile --> Scrolling --> Unlimited "
 "Scrollback`)"
 msgstr ""
+"Establiu la quantitat de desplaçament a «sense limit» (per al "
+":program:`Konsole`: :menuselection:`Arranjament --> Edita el perfil actual "
+"--> Desplaçament --> Desplaçament sense limit`)"
 
 #: ../../KritaFAQ.rst:262
 msgid "Start Krita by typing 'krita' and create any document"
-msgstr ""
+msgstr "Inicieu el Krita escrivint «krita» i creeu qualsevol document"
 
 #: ../../KritaFAQ.rst:263 ../../KritaFAQ.rst:282
 msgid ""
 "Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the "
 "logging has started"
 msgstr ""
+"Premeu :kbd:`Ctrl + Majús. + T`, veureu un quadre de missatge indicant que el "
+"registre ha començat"
 
 #: ../../KritaFAQ.rst:264 ../../KritaFAQ.rst:283
 msgid "Try to reproduce your problem"
-msgstr ""
+msgstr "Intenteu reproduir el problema"
 
 #: ../../KritaFAQ.rst:265
 msgid "The console is now filled with the log. Attach it to a bug report"
 msgstr ""
+"La consola ara estarà plena amb el registre. Adjunteu-lo a un informe d'error"
 
 #: ../../KritaFAQ.rst:267
 msgid ""
 "Attach all this data to a bug report using public paste services like paste."
 "kde.org"
 msgstr ""
+"Adjunteu totes aquestes dades a un informe d'error utilitzant els serveis "
+"públics d'enganxament com «paste.kde.org»"
 
 #: ../../KritaFAQ.rst:273
 msgid ""
@@ -689,38 +718,54 @@ msgid ""
 "driver update, a Windows update or the installation of Razer gaming mouse "
 "driver breaks tablets."
 msgstr ""
+"Primer comproveu si el controlador de la vostra tauleta està correctament "
+"instal·lat. Sovint, una actualització del controlador, una actualització de "
+"Windows o la instal·lació del controlador del ratolí per a jocs de Razer "
+"trenca les tauletes."
 
 #: ../../KritaFAQ.rst:275
 msgid ""
 "Then check whether switching to the Windows 8 Pointer API makes a "
 "difference: :menuselection:`Settings --> Configure Krita --> Tablet`."
 msgstr ""
+"Després, comproveu si el canvi a l'API de l'apuntador de Windows 8 fa la "
+"diferència: :menuselection:`Arranjament --> Configura el Krita --> Tauleta`."
 
 #: ../../KritaFAQ.rst:277
 msgid ""
 "If you still have problems with Windows and your tablet, then we cannot help "
 "you without a tablet log."
 msgstr ""
+"Si encara teniu problemes amb Windows i la vostra tauleta, no us podrem "
+"ajudar sense un registre de la tauleta."
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:279
 msgid ""
 "Install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647."
 "aspx>`_ from the official Microsoft site"
 msgstr ""
+"Instal·leu `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb89664"
+"7.aspx>`_ des del lloc oficial de Microsoft"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../KritaFAQ.rst:280
 msgid "Start :program:`DebugView`"
-msgstr ""
+msgstr "Inicieu el :program:`DebugView`"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../KritaFAQ.rst:281
 msgid "Start :program:`Krita`"
-msgstr ""
+msgstr "Inicieu el :program:`Krita`"
 
 #: ../../KritaFAQ.rst:284
 msgid ""
 "Go back to DebugView and save its output to a file. Attach this file to a "
 "bug report or paste it using services like paste.kde.org."
 msgstr ""
+"Torneu al DebugView i deseu la seva sortida en un fitxer. Adjunteu aquest "
+"fitxer a un informe d'error o enganxeu-lo utilitzant serveis com "
+"«paste.kde.org»."
 
 #: ../../KritaFAQ.rst:287
 msgid ""
@@ -728,10 +773,16 @@ msgid ""
 "tablet didn't work over the past five years, the problem has been either a "
 "buggy driver or a broken driver installation, but not a bug in Krita."
 msgstr ""
+"No obstant això, en el 100\\% dels casos en què els usuaris de Windows van "
+"informar en els últims cinc anys que la seva tauleta no funcionava, el "
+"problema ha estat un controlador defectuós o una instal·lació malmesa del "
+"controlador, però no un error en el Krita."
 
 #: ../../KritaFAQ.rst:291
 msgid "How to fix a tablet offset on multiple screen setup on Windows"
 msgstr ""
+"Com arreglar un desplaçament de la tauleta en una configuració de múltiples "
+"pantalles al Windows"
 
 #: ../../KritaFAQ.rst:293
 msgid ""
@@ -741,33 +792,43 @@ msgid ""
 "monitor is present and when either a monitor or a tablet was connected after "
 "the system boot."
 msgstr ""
+"Si veieu que l'apuntador de la tauleta té un desplaçament quan treballeu amb "
+"el llenç del Krita, és molt probable que el Krita hagi obtingut una "
+"resolució de pantalla incorrecta des del sistema. Aquest problema passa quan "
+"hi ha un monitor extern i quan s'ha connectat un monitor o una tauleta "
+"després de l'arrencada del sistema."
 
 #: ../../KritaFAQ.rst:295
 msgid "You can fix this issue manually by:"
-msgstr ""
+msgstr "Podeu solucionar aquest problema manualment:"
 
 #: ../../KritaFAQ.rst:297
 msgid "Put your stylus away from the tablet."
-msgstr ""
+msgstr "Poseu el llapis lluny de la tauleta."
 
 #: ../../KritaFAQ.rst:298
 msgid ""
 "Start Krita without using a stylus, that is using a mouse or a keyboard."
 msgstr ""
+"Inicieu el Krita sense utilitzar un llapis, això serà utilitzant un ratolí o "
+"un teclat."
 
 #: ../../KritaFAQ.rst:299
 msgid "Press :kbd:`Shift` key and hold it."
-msgstr ""
+msgstr "Premeu la tecla :kbd:`Majús.` i manteniu-la premuda."
 
 #: ../../KritaFAQ.rst:300
 msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr ""
+msgstr "Toqueu la tauleta amb el llapis perquè el Krita ho reconegui."
 
 #: ../../KritaFAQ.rst:302
 msgid ""
 "You will see a special dialog asking for the real screen resolution. Choose "
 "the correct value or enter it manually and press :guilabel:`OK`."
 msgstr ""
+"Veureu un diàleg especial que demana per la resolució real de la pantalla. "
+"Trieu el valor correcte o introduïu-lo manualment i premeu "
+":guilabel:`D'acord`."
 
 #: ../../KritaFAQ.rst:304
 msgid ""
@@ -775,6 +836,9 @@ msgid ""
 "reachable, you might have to enter the total width of both screens plus the "
 "double height of your monitor in this field."
 msgstr ""
+"Si teniu una configuració dual del monitor i només s'accedeix a la meitat "
+"superior de la pantalla, és possible que hàgiu d'introduir en aquest camp "
+"l'amplada total d'ambdues pantalles més el doble de l'alçada del monitor."
 
 #: ../../KritaFAQ.rst:306
 msgid ""
@@ -782,6 +846,10 @@ msgid ""
 "can be caused by a faulty Wacom preference file which is not removed or "
 "replaced by reinstalling the drivers."
 msgstr ""
+"Si això no funciona, i si teniu una tauleta Wacom, es podria causar un "
+"desplaçament al llenç per culpa d'un fitxer defectuós de preferències de "
+"Wacom, el qual no s'ha eliminat o substituït en reinstal·lar els "
+"controladors."
 
 #: ../../KritaFAQ.rst:308
 msgid ""
@@ -789,22 +857,30 @@ msgid ""
 "preferences. This should allow Krita to detect the correct settings "
 "automatically."
 msgstr ""
+"Per a solucionar-ho, utilitzeu la «Utilitat de fitxer de preferències de la "
+"tauleta Wacom» per esborrar totes les preferències. Això hauria de permetre "
+"al Krita detectar automàticament els ajustaments correctes."
 
 #: ../../KritaFAQ.rst:311
 msgid ""
 "This will reset your tablet's configuration, thus you will need to "
 "recalibrate/reconfigure it."
 msgstr ""
+"Això restablirà la configuració de la tauleta, pel que haureu de tornar-la a "
+"calibrar/configurar."
 
 #: ../../KritaFAQ.rst:313
 msgid ""
 "*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer "
 "Input” <tablet_settings>`, but some features might not work with it."
 msgstr ""
+"*Per al Krita 3.3 o posterior:* podeu intentar :ref:`habilitar l'«Entrada de "
+"l'apuntador de Windows 8+» <tablet_settings>`, però és possible que algunes "
+"característiques no funcionin."
 
 #: ../../KritaFAQ.rst:316
 msgid "Microsoft Surface Pro and N-Trig"
-msgstr ""
+msgstr "Microsoft Surface Pro i N-Trig"
 
 #: ../../KritaFAQ.rst:318
 msgid ""
@@ -813,10 +889,15 @@ msgid ""
 "out of the box with Krita after you enable Windows Ink in :menuselection:"
 "`Settings --> Configure Krita --> Tablet`."
 msgstr ""
+"El Krita 3.3.0 i versions posteriors admeten l'API de Pointer de Windows "
+"(Windows Ink) de forma nativa. La vostra Surface Pro o una altra tauleta "
+"compatible amb N-Trig hauria de funcionar immediatament amb al Krita després "
+"d'habilitar Windows Ink a :menuselection:`Arranjament --> Configura el Krita "
+"--> Tauleta`."
 
 #: ../../KritaFAQ.rst:321
 msgid "Tablet Pro and the Surface Pro"
-msgstr ""
+msgstr "«Tablet Pro» i la tauleta Surface Pro"
 
 #: ../../KritaFAQ.rst:323
 msgid ""
@@ -825,6 +906,10 @@ msgid ""
 "buttons on screen. Krita 3.1 and above will have predefined shortcut "
 "profiles to work with Tablet Pro."
 msgstr ""
+"A diferència de l'empresa Wacom, la línia Surface de tauletes no té botons de "
+"maquinari que funcionin. El «Tablet Pro» és una utilitat (no gratuïta) que "
+"posa botons virtuals a la pantalla. El Krita 3.1 i superior tindrà perfils de "
+"drecera directe predefinits per a treballar amb el «Tablet Pro»."
 
 #: ../../KritaFAQ.rst:325
 msgid "http://tabletpro.net/"
@@ -833,12 +918,15 @@ msgstr "http://tabletpro.net/"
 #: ../../KritaFAQ.rst:327
 msgid "See http://www.youtube.com/watch?v=WKXZgYqC3tI for instructions."
 msgstr ""
+"Vegeu http://www.youtube.com/watch?v=WKXZgYqC3tI per a les instruccions."
 
 #: ../../KritaFAQ.rst:330
 msgid ""
 "Weird stuff happens on Windows, like ripples, rings, squiggles or "
 "poltergeists"
 msgstr ""
+"Succeeixen coses estranyes en el Windows, com ondulacions, anells, gargots o "
+"poltergeists"
 
 #: ../../KritaFAQ.rst:332
 msgid ""
@@ -846,6 +934,9 @@ msgid ""
 "settings can be annoying. This tool can help you set the settings correctly "
 "when you're using a tablet:"
 msgstr ""
+"El Windows ve amb un munt d'ajustaments perquè funcioni amb un bolígraf. Tots "
+"aquests ajustaments poden ser molestos. Aquesta eina pot ajudar-vos a "
+"establir correctament els ajustaments quan utilitzeu una tauleta:"
 
 #: ../../KritaFAQ.rst:334
 msgid "https://github.com/saveenr/Fix_My_Pen/releases"
@@ -853,7 +944,7 @@ msgstr "https://github.com/saveenr/Fix_My_Pen/releases"
 
 #: ../../KritaFAQ.rst:337
 msgid "Touch doesn't seem to work on Windows"
-msgstr ""
+msgstr "Sembla que el tàctil no funciona al Windows"
 
 #: ../../KritaFAQ.rst:339
 msgid ""
@@ -862,6 +953,11 @@ msgid ""
 "Choose HID (User interface devices or something like that). Choose Intel(R) "
 "Precise Touch Device. Right click, Disable it. Right click, Enable it."
 msgstr ""
+"Possiblement haureu d'inhabilitar i habilitar el controlador tàctil: aneu al "
+"gestor de dispositius. (Feu clic al botó :guilabel:`Inici` i escriviu "
+"«gestor de dispositius»). Trieu HID (dispositius amb interfície d'usuari o "
+"quelcom així). Trieu «Intel (R) Precise Touch Device». Feu-hi clic dret per "
+"inhabilitar-lo. Feu-hi clic dret per habilitar-lo."
 
 #: ../../KritaFAQ.rst:342
 msgid "Toolbox"
@@ -869,7 +965,7 @@ msgstr "Quadre d'eines"
 
 #: ../../KritaFAQ.rst:345
 msgid "Toolbox missing"
-msgstr ""
+msgstr "Falta el quadre d'eines"
 
 #: ../../KritaFAQ.rst:347
 msgid ""
@@ -877,12 +973,18 @@ msgid ""
 "toolbar, the Workspace switcher, and click on a desired Workspace from the "
 "list."
 msgstr ""
+"Podeu restablir l'espai de treball prement el botó que es troba més a la "
+"dreta a la barra d'eines, l'alternador de l'espai de treball, i feu clic "
+"sobre l'espai de treball desitjada de la llista."
 
 #: ../../KritaFAQ.rst:349
 msgid ""
 "Or you can right-click on any docker title bar or open space in any toolbar, "
 "and select Toolbox. It's the first option."
 msgstr ""
+"O pot fer clic dret sobre qualsevol barra de títol de l'acoblador o espai "
+"obert en qualsevol barra d'eines i seleccionar Quadre d'eines. És la primera "
+"opció."
 
 #: ../../KritaFAQ.rst:351
 msgid ""
@@ -890,24 +992,29 @@ msgid ""
 "interesting stuff, then go to the Dockers menu and select :guilabel:"
 "`Toolbox`."
 msgstr ""
+"A més, podeu marcar el menú :guilabel:`Arranjament`, té un munt de coses "
+"interessants, després aneu al menú Acobladors i seleccioneu "
+":guilabel:`Quadre d'eines`."
 
 #: ../../KritaFAQ.rst:354
 msgid "Tool icons size is too big"
-msgstr ""
+msgstr "La mida de les icones d'eina és massa gran"
 
 #: ../../KritaFAQ.rst:356
 msgid "Right click the toolbox to set the size."
-msgstr ""
+msgstr "Feu clic dret al quadre d'eines per establir la mida."
 
 #: ../../KritaFAQ.rst:359
 msgid "Krita can't get maximized"
-msgstr ""
+msgstr "El Krita no es pot maximitzar"
 
 #: ../../KritaFAQ.rst:361
 msgid ""
 "This happens when your dockers are placed in such a way that the window "
 "cannot be made less high. Rearrange your Workspace."
 msgstr ""
+"Això succeeix quan els acobladors es col·loquen de tal manera que la finestra "
+"no pot ser menys alta. Reorganitzeu el vostre espai de treball."
 
 #: ../../KritaFAQ.rst:364
 msgid "Resources"
@@ -918,11 +1025,14 @@ msgid ""
 "Is there a way to restore a default brush that I have mistakenly overwritten "
 "with new settings to default?"
 msgstr ""
+"Hi ha alguna manera de restaurar un pinzell predefinit que he sobreescrit per "
+"error amb ajustaments nous?"
 
 #: ../../KritaFAQ.rst:369
 msgid "Yes. First go to the resource folder, which is in"
-msgstr ""
+msgstr "Sí. Primer aneu a la carpeta de recursos, la qual es troba a"
 
+# skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../KritaFAQ.rst:374
 msgid ""
 ":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` or :file:`%APPDATA%\\"
@@ -940,12 +1050,16 @@ msgid ""
 "You can easily do this by going into :menuselection:`Settings --> Manage "
 "Resources --> Open Resource Folder`."
 msgstr ""
+"Podeu fer-ho amb facilitat anant a :menuselection:`Arranjament --> Gestiona "
+"els recursos --> Obre la carpeta de recursos`."
 
 #: ../../KritaFAQ.rst:380
 msgid ""
 "Then go into the *paintoppresets* folder and remove the latest created file "
 "that you made of your preset."
 msgstr ""
+"Després aneu a la carpeta *paintoppresets* i elimineu l'últim fitxer creat on "
+"vàreu fer el vostre valor predefinit."
 
 #: ../../KritaFAQ.rst:383
 msgid ""
@@ -953,10 +1067,14 @@ msgid ""
 "remove the previous paintoppreset so Krita will load it. (Yes, it is a bit "
 "of a convoluted system, but at the least you don't lose your brushes)"
 msgstr ""
+"Després d'això, torneu a la carpeta de recursos i editeu el fitxer de llista "
+"negra per a eliminar el pintat predefinit anterior, perquè el carregui el "
+"Krita. (Sí, és un sistema un xic complicat, però almenys no perdreu els "
+"pinzells)."
 
 #: ../../KritaFAQ.rst:389
 msgid "How do I set favorite presets?"
-msgstr ""
+msgstr "Com puc establir valors predefinits preferits?"
 
 #: ../../KritaFAQ.rst:391
 msgid ""
@@ -965,10 +1083,14 @@ msgid ""
 "the bottom-right of the palette, now you can pick the tag which contains the "
 "brush you assigned to it."
 msgstr ""
+"Feu clic dret sobre un pinzell a l'acoblador i assigneu-li una etiqueta. "
+"Després feu clic dret sobre el llenç per a cridar a la paleta emergent, feu "
+"clic a la segona icona situada més a la dreta a la part inferior dreta de la "
+"paleta, ara podreu triar l'etiqueta que conté el pinzell que voleu assignar."
 
 #: ../../KritaFAQ.rst:394
 msgid "Can Krita load Photoshop Brushes?"
-msgstr ""
+msgstr "Pot el Krita carregar els pinzells del Photoshop?"
 
 #: ../../KritaFAQ.rst:396
 msgid ""
@@ -978,6 +1100,11 @@ msgid ""
 "depend on reverse-engineering to figure out what to load, and currently "
 "that’s limited to basic features."
 msgstr ""
+"Sí, però hi ha limitacions. Podeu carregar fitxers els ABR utilitzant el botó "
+":guilabel:`Importa` a la pestanya :guilabel:`Pinzell predefinit` a l'editor "
+"de pinzells. Com Adobe no ha divulgat l'especificació del format de fitxer, "
+"depenem de l'enginyeria inversa per esbrinar què carregar, i actualment això "
+"està limitat a les característiques bàsiques."
 
 #: ../../KritaFAQ.rst:399
 msgid "Krita is slow"
@@ -987,42 +1114,55 @@ msgstr "El Krita és lent"
 msgid ""
 "There is a myriad of reasons why this might be. Below is a short checklist."
 msgstr ""
+"Hi ha una gran quantitat de raons pel que podria passar. A continuació es "
+"mostra una breu llista de comprovació."
 
 #: ../../KritaFAQ.rst:403
 msgid ""
 "Something else is hogging the CPU or the memory: spotify and other electron "
 "apps have been known to do this."
 msgstr ""
+"Quelcom està acaparant la CPU o la memòria: es coneix que «Spotify» i altres "
+"aplicacions electròniques ho fan."
 
 #: ../../KritaFAQ.rst:404
 msgid ""
 "You are running Windows, and have 3rdparty security software like Sandboxie "
 "or Total Defender installed"
 msgstr ""
+"Esteu executant el Windows i teniu instal·lat un programari de seguretat de "
+"tercers com el «Sandboxie» o el «Total Defender»"
 
 #: ../../KritaFAQ.rst:405
 msgid ""
 "You are working on images that are too big for your hardware (dimensions, "
 "channel depth or number of layers)"
 msgstr ""
+"Esteu treballant en imatges que són massa grans per al vostre maquinari "
+"(dimensions, profunditat del canal o el nombre de capes)"
 
 #: ../../KritaFAQ.rst:406
 msgid "You do not have canvas acceleration enabled"
-msgstr ""
+msgstr "No teniu habilitada l'acceleració del llenç."
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:408
 msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr ""
+"Si us plau, reviseu també `aquesta pàgina <https://phabricator.kde.org/T7199"
+">`__"
 
 #: ../../KritaFAQ.rst:411
 msgid "Slow start-up"
-msgstr ""
+msgstr "Inici lent"
 
 #: ../../KritaFAQ.rst:413
 msgid ""
 "You probably have too many resources installed. Deactivate some bundles "
 "under :menuselection:`Settings --> Manage Resources`."
 msgstr ""
+"Probablement teniu masses recursos instal·lats. Desactiveu alguns paquets "
+"sota :menuselection:`Arranjament --> Gestiona els recursos`."
 
 #: ../../KritaFAQ.rst:415
 msgid ""
@@ -1030,30 +1170,38 @@ msgid ""
 "files every time you start Krita. That takes ages. Either use the installer "
 "or tell Microsoft Security Essentials to make an exception for Krita."
 msgstr ""
+"Si utilitzeu el Windows amb l'arxiu zip portable, el Windows escanejarà tots "
+"els fitxers cada vegada que inicieu el Krita. Això comporta temps. Utilitzeu "
+"l'instal·lador o digueu-li al «Microsoft Security Essentials» que faci una "
+"excepció per al Krita."
 
 #: ../../KritaFAQ.rst:418
 msgid "Slow Brushes"
-msgstr ""
+msgstr "Pinzells lents"
 
 #: ../../KritaFAQ.rst:420
 msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
 msgstr ""
+"Comproveu si vàreu activar accidentalment l'estabilitzador a l'acoblador "
+"opcions de l'eina."
 
 #: ../../KritaFAQ.rst:421
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
 msgstr ""
+"Proveu amb un altre mode d'escalat com el trilineal. "
+":menuselection:`Arranjament --> Configura el Krita --> Pantalla`."
 
 #: ../../KritaFAQ.rst:422
 msgid "Try a lower channel depth than 16-bit."
-msgstr ""
+msgstr "Proveu amb una profunditat de canal inferior a 16 bits."
 
 #: ../../KritaFAQ.rst:423
 msgid "For NVidia, try a 16-bit floating point color space."
-msgstr ""
+msgstr "Per a NVidia, proveu amb un espai de color de coma flotant de 16 bits."
 
 #: ../../KritaFAQ.rst:424
 msgid ""
@@ -1062,46 +1210,60 @@ msgid ""
 "Configure Krita --> Performance`. This isn't needed if you've got an AMD "
 "Threadripper™ CPU."
 msgstr ""
+"Per a les CPU d'AMD més antigues (amb el Krita 2.9.10 i superiors), "
+"desactiveu les optimitzacions vectorials que es malmeten. "
+":menuselection:`Arranjament --> Configura el Krita --> Rendiment`. Això no "
+"és necessari si teniu una CPU Threadripper™ d'AMD."
 
 #: ../../KritaFAQ.rst:425
 msgid ""
 "It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
 msgstr ""
+"És un programa força afamat de memòria, de manera que 2GB de RAM és el mínim, "
+"i 4GB és el mínim preferible."
 
 #: ../../KritaFAQ.rst:426
 msgid "Check that nothing else is hogging your CPU"
-msgstr ""
+msgstr "Comproveu que res més està acaparant la CPU"
 
 #: ../../KritaFAQ.rst:427
 msgid ""
 "Check that Instant Preview is enabled if you're using bigger brushes (but "
 "for very small brushes, make sure is disabled)."
 msgstr ""
+"Comproveu que la vista prèvia instantània estigui habilitada si esteu "
+"utilitzant pinzells més grans (però per a pinzells molt petits, "
+"assegureu-vos que estigui inhabilitada)."
 
 #: ../../KritaFAQ.rst:428
 msgid "Set brush precision to 3 or auto."
-msgstr ""
+msgstr "Establiu la precisió del pinzell a 3 o automàtica."
 
 #: ../../KritaFAQ.rst:429
 msgid "Use a larger value for brush spacing."
-msgstr ""
+msgstr "Utilitzeu un valor més gran per a l'espai entre pinzells."
 
 #: ../../KritaFAQ.rst:430
 msgid ""
 "If all of this fails, record a video and post a link and description on the "
 "Krita forum."
 msgstr ""
+"Si tot això falla, enregistreu un vídeo i publiqueu un enllaç i una "
+"descripció en el fòrum del Krita."
 
 #: ../../KritaFAQ.rst:431
 msgid ""
 "Check whether OpenGL is enabled, and if it isn't, enable it. If it is "
 "enabled, and you are on Windows, try the Angle renderer. Or disable it."
 msgstr ""
+"Comproveu si l'OpenGL està habilitat, i si no ho està, habiliteu-lo. Si està "
+"habilitat i us trobeu a Windows, proveu amb el renderitzador Angle. O "
+"inhabiliteu-lo."
 
 #: ../../KritaFAQ.rst:434
 msgid "Slowdown after a been working for a while"
-msgstr ""
+msgstr "Desacceleració després d'estar treballant durant un temps"
 
 #: ../../KritaFAQ.rst:436
 msgid ""
@@ -1112,6 +1274,13 @@ msgid ""
 "menuselection:`Settings --> Configure Krita --> Performance --> Advanced "
 "Tab`."
 msgstr ""
+"Una vegada percebeu la desacceleració, feu clic sobre les dimensions de la "
+"imatge a la barra d'estat. Us indicarà la quantitat de RAM que està fent "
+"servir el Krita, si heu arribat al límit, o si ha començat amb la "
+"d'intercanvi. La memòria d'intercanvi pot alentir molt un programa, de "
+"manera que treballeu en imatges més petites o augmenteu la quantitat màxima "
+"de RAM a :menuselection:`Arranjament --> Configura el Krita --> Rendiment "
+"--> pestanya Avançat`."
 
 #: ../../KritaFAQ.rst:439
 msgid "Animation"
@@ -1119,8 +1288,9 @@ msgstr "Animació"
 
 #: ../../KritaFAQ.rst:442
 msgid "Why is my animation black in my video player"
-msgstr ""
+msgstr "Perquè la meva animació es veu en negre al meu reproductor de vídeo?"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:444
 msgid ""
 "You did not render the animation using the \"baseline\" option and you are "
@@ -1129,6 +1299,12 @@ msgid ""
 "diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-"
 "issues-manual-783473428>`__"
 msgstr ""
+"No heu renderitzat l'animació amb l'opció «línia base» i esteu utilitzant el "
+"reproductor de suports predeterminat de Windows. Torneu-lo a renderitzar "
+"utilitzant l'opció línia base o utilitzeu una millor aplicació de "
+"reproductor de vídeo, com el VLC. Vegeu `aquest útil diagrama "
+"<https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-"
+"manual-783473428>`__."
 
 #: ../../KritaFAQ.rst:448
 msgid "Tools"
@@ -1139,7 +1315,10 @@ msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
 msgstr ""
+"Per què l'eina de transformació dóna un bon resultat i després es torna "
+"borrosa en acabar?"
 
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:453
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
@@ -1148,6 +1327,12 @@ msgid ""
 "the preview. See `this page <https://forum.kde.org/viewtopic.php?"
 "f=139&t=127269>`__ for more info."
 msgstr ""
+"L'eina de transformació crea una vista prèvia del que editeu abans de "
+"calcular la versió finalitzada. Com aquesta vista prèvia està emprant la "
+"resolució de la pantalla en lloc de la resolució de la imatge, pot semblar "
+"que el resultat és borrós en comparació amb la vista prèvia. Per a més "
+"informació vegeu `aquesta pàgina <https://forum.kde.org/viewtopic.php?f=139&t"
+"=127269>`__."
 
 #: ../../KritaFAQ.rst:457
 msgid "License, rights and the Krita Foundation"
@@ -1184,7 +1369,7 @@ msgstr ""
 msgid "Why is Krita Free?"
 msgstr "Per què és lliure el Krita?"
 
-# skip-rules: t-acc_obe
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:472
 msgid ""
 "Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE "
@@ -1241,7 +1426,7 @@ msgstr "No en aquest moment."
 msgid "Who translates Krita"
 msgstr "Qui tradueix el Krita"
 
-# skip-rules: t-acc_obe
+# skip-rule: t-acc_obe
 #: ../../KritaFAQ.rst:492
 msgid ""
 "Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! That "
@@ -1266,3 +1451,5 @@ msgstr "Referència"
 #: ../../KritaFAQ.rst:497
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"
+
+
