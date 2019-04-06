@@ -183,7 +183,7 @@ You'll have to lock the layer transparency or separate out the alpha via the rig
 Coloring the image
 ==================
 
-Much like preparing the line art, there's many different ways of coloring a layer.
+Much like preparing the line art, there are many different ways of coloring a layer.
 
 You could for example fill in everything by hand, but while that is very precise it also takes a lot of work. Let's take a look at the other options, shall we?
 
@@ -296,12 +296,12 @@ So it works like this:
 4. Click update to see the results:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart10.png
-    :alt: coloring with colorise mask
+    :alt: coloring with colorize mask
 
 When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the line art semi-transparent and painting the flaws away with a pixel art brush.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart11.png
-    :alt: result from the colorise mask
+    :alt: result from the colorize mask
 
 Then, when you are done, split the layers via :menuselection:`Layers --> Split --> Split Layer`. There's a few options you can choose, but the following should be fine:
 

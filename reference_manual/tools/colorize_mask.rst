@@ -42,7 +42,7 @@ You can also |mouseright| the line art layer, and then :menuselection:`Add --> C
    :width: 800
    :align: center
 
-Now, You make strokes with brush colors, press :guilabel:`Update` in the tool options, or tick the last icon of the colorize mask properties. In the layer docker, you will be able to see a little progress bar appear on the colorize mask indicating how long it takes. The bigger your file, the longer it will take.
+Now, you make strokes with brush colors, press :guilabel:`Update` in the tool options, or tick the last icon of the colorize mask properties. In the layer docker, you will be able to see a little progress bar appear on the colorize mask indicating how long it takes. The bigger your file, the longer it will take.
 
 .. image:: /images/en/Krita_4_0_colorize_mask_usage_03.png
    :width: 800
@@ -138,7 +138,7 @@ Edge detection
        From left to right: an example with big black shadows on an object but no edge detection, the same example without the edit strokes enabled. Then the same example with edge detection enabled and set to 2px, and that same example with out edit strokes enabled.
 
 Gap close hint
-    While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the pre-filtered line art (that's the blurry haze) affects the color patches.
+    While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the prefiltered line art (that's the blurry haze) affects the color patches.
     
     .. figure:: /images/en/Krita_4_0_colorize_mask_gap_close_hint.png
        :width: 800

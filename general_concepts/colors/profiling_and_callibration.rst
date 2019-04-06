@@ -37,7 +37,7 @@ Most common CMYK workspace profile can usually fit all their colors within 8bit/
 
 Starting with 16bit/channel, we already have 65536 values instead of 256, so we can use workspace profiles with higher gamut range like Wide-gamut RGB or Pro-photo RGB, or even unlimited gamut like scRGB.
 
-But sRGB being a generic profile (even more as it comes from old CRT specifications..) , there are big chances that your monitor have actually a different color response curve, and so color profile.
+But sRGB being a generic profile (even more as it comes from old CRT specifications...), there are big chances that your monitor have actually a different color response curve, and so color profile.
 So when you are using sRGB workspace and have a proper screen profile loaded (see next point), Krita knows that the colors the file contains are within the sRGB color space, and converts those sRGB values to corresponding color values from your monitor profile to display the canvas.
 
 Note that when you export your file and view it in another software, this software has to do two things:

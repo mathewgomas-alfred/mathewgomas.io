@@ -58,7 +58,7 @@ Exposure
 Levels
 ------
 
-This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. you can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
+This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. You can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
 The default shortcut for levels filter is :kbd:`Ctrl + L` .
 
 .. image:: /images/en/Levels-filter.png
@@ -73,8 +73,8 @@ If you want to change the settings later you can click on the :guilabel:`Create 
 Color Adjustment Curves
 -----------------------
 
-This filter allows you to adjust each channel by manipulating the curves. You can even adjust the alpha channel and the lightness channel though this filter.
-This is used very often by artists as a post processing filter to slightly heighten the mood of the painting by adjust the overall color. For example a scene with fire breathing dragon may be made more red and yellow by adjusting the curves to give it more warmer look, similarly a snowy mountain scene can be made to look cooler by adjusting the blues and greens. The default shortcut for this filter is :kbd:`Ctrl + M` .
+This filter allows you to adjust each channel by manipulating the curves. You can even adjust the alpha channel and the lightness channel through this filter.
+This is used very often by artists as a post processing filter to slightly heighten the mood of the painting by adjust the overall color. For example a scene with fire breathing dragon may be made more red and yellow by adjusting the curves to give it more warmer look, similarly a snowy mountain scene can be made to look cooler by adjusting the blues and greens. The default shortcut for this filter is :kbd:`Ctrl + M`.
 
 .. versionchanged:: 4.1
 
@@ -182,7 +182,7 @@ Slope, Offset, Power
 
 A different kind of color balance filter, with three color selectors, which will have the same shape as the one used in settings.
 
-This filter is particular because it has been defined by the American Society for Cinema as "ASC_CDL", meaning that it is a standard way of describing a color balance method.
+This filter is particular useful because it has been defined by the American Society for Cinema as "ASC_CDL", meaning that it is a standard way of describing a color balance method.
 
 .. image:: /images/en/Krita_filters_asc_cdl.png
    :width: 800

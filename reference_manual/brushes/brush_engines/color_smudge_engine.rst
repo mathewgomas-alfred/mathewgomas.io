@@ -191,7 +191,7 @@ Color Blending modes with the smudge brush are even harder to predict than with 
 Overlay Mode
 """"""""""""
 
-By default, the Color Smudge Brush only takes information from the layer it is on. However, if you want it to take color information from All the layers, you can turn on the Overlay mode.
+By default, the Color Smudge Brush only takes information from the layer it is on. However, if you want it to take color information from all the layers, you can turn on the Overlay mode.
 
 Be aware though, that it does so by "picking up" bits of the layer underneath, which may mess up your drawing if you later make changes to the layer underneath.
 

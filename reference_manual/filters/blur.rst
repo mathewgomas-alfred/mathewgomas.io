@@ -19,7 +19,7 @@ below is an example of a blurred image. The image of Kiki on right is the result
 
 .. image:: /images/en/Blur.png
 
-There's many different filters for blurring:
+There are many different filters for blurring:
 
 Gaussian Blur
 -------------

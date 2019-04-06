@@ -93,7 +93,7 @@ Unless you have installed all the dependencies Krita needs, on first running cma
 
     -- The following RECOMMENDED packages have not been found:
 
-    * GSL , <http://www.gnu.org/software/gsl>
+    * GSL, <http://www.gnu.org/software/gsl>
     Required by Krita's Transform tool.
 
     
@@ -184,7 +184,7 @@ You will now be able to run Krita by typing ``krita`` into the terminal.
 
 .. image:: /images/en/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
-Environment variables are never permanent. So we need to configure the system to set them each time you login. To set them at any login, write them with your favorite text editor at the end of your :file:`~/.profile` file (on certain distributions, the profile is named xprofile , check the hidden files in your :file:`home/{your-user-name}` folder).
+Environment variables are never permanent. So we need to configure the system to set them each time you login. To set them at any login, write them with your favorite text editor at the end of your :file:`~/.profile` file (on certain distributions, the profile is named xprofile, check the hidden files in your :file:`home/{your-user-name}` folder).
 
 Updating
 ~~~~~~~~
