@@ -38,12 +38,16 @@ Tips
 ''''
 
 You can tell callgrind to focus only on the part of the code you want to optimize. This results in cleaner data.  For example, you may want to only monitor the performance when drawing a stroke. Unless the thing you're trying to optimize is the program startup, you can tell valgrind to run with the logging, or instrumentation, turned off at start:
- valgrind  --tool=callgrind --instr-atstart=no krita
+
+``valgrind  --tool=callgrind --instr-atstart=no krita``
 
 Instrumentation can then be activated and deactivated with callgrind_control. To begin performance monitoring:
- ``callgrind_control -i on``
+
+``callgrind_control -i on``
+
 And then to end it:
- ``callgrind_control -i off``
+
+``callgrind_control -i off``
 
 I usually write a few aliases in my .bashrc  (or .zshrc): 
 
@@ -83,7 +87,7 @@ Avoid:
         }
 
 Do:
-
+    
     .. code:: c++
 
         QColor c;
@@ -98,6 +102,7 @@ iterations, this is expensive as hell.
 An other example:
 
 Avoid:
+
     .. code:: c++
     
         for(y = 0 to height)
