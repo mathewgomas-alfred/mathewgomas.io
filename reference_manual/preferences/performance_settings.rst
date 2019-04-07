@@ -72,13 +72,13 @@ Debug logging of OpenGL framerate
 Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
 Disable vector optimizations (for AMD CPUs)
-    Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have a AMD CPU under windows. There seems to be something strange going on there, so just deactivate them then.
+    Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have a AMD CPU under Windows. There seems to be something strange going on there, so just deactivate them then.
 Enable progress reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging
     This enables performance logging, which is then saved to the ``Log`` folder in your ``working directory``. Your working directory is where the auto save is saved at as well.
 
-    So for unnamed files, this is the ``$home`` folder in Linux, and the ``%TEMP%`` folder in windows.
+    So for unnamed files, this is the ``$HOME`` folder in Linux, and the ``%TEMP%`` folder in Windows.
 
 Animation Cache
 ---------------
@@ -99,7 +99,7 @@ In-memory
 
     .. warning::
 
-        Please make sure your computer has enough RAM *above* the amount you requested in the general tab. Otherwise you might face system freezes.
+        Please make sure your computer has enough RAM *above* the amount you requested in the :guilabel:`General` tab. Otherwise you might face system freezes.
 
         * For 1 second of FullHD @ 25 FPS you will need 200 extra MiB of Memory
         * For 1 second of 4K UltraHD@ 25 FPS, you will need 800 extra MiB of Memory.

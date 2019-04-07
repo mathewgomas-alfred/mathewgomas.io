@@ -191,7 +191,7 @@ Color Blending modes with the smudge brush are even harder to predict than with 
 Overlay Mode
 """"""""""""
 
-By default, the Color Smudge Brush only takes information from the layer it is on. However, if you want it to take color information from All the layers, you can turn on the Overlay mode.
+By default, the Color Smudge Brush only takes information from the layer it is on. However, if you want it to take color information from all the layers, you can turn on the Overlay mode.
 
 Be aware though, that it does so by "picking up" bits of the layer underneath, which may mess up your drawing if you later make changes to the layer underneath.
 
@@ -226,7 +226,7 @@ Some settings for Dulling
 """""""""""""""""""""""""
 
 * Lowering the spacing will also make the smudging effect stronger, so find a right balance. 0.10 for most mid-sized round brushes should be fine.
-* Unlike Smearing, Dulling preserves the brush shape and size, so it won't "fade off" in size like Smearing brushes do. You can mimic that effect though with a simple size fade dynamic.
+* Unlike Smearing, Dulling preserves the brush shape and size, so it won't "fade off" in size like Smearing brushes do. You can mimic that effect through the simple size fade dynamic.
 
 Textured blending
 ^^^^^^^^^^^^^^^^^
@@ -239,7 +239,7 @@ In this case, what I refer to as "Blending" here is simply using one of the foll
     * For most mid-sized brushes you will probably want to lower the scatter rate to 0.50 or lower. Higher settings are okay for tiny brushes.
     * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see :ref:`option_brush_tip`)
  
-* Optional: Pile on size and other dynamics and vary brush tips In fact, the Color Smudge brush is not a blur brush, so smudging is not a very good method of "smooth" blending. To blend smoothly, you'll have better luck with:
+* Optional: Pile on size and other dynamics and vary brush tips. In fact, the Color Smudge brush is not a blur brush, so smudging is not a very good method of "smooth" blending. To blend smoothly, you'll have better luck with:
 * Building up the transition by painting with intermediate values, described later
 * Or using the "blur with feathered selection" method that I'll briefly mention at the end of this tutorial.
 

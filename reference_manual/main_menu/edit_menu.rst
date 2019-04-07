@@ -50,10 +50,10 @@ Edit
     Clear
         Clear the current layer. :kbd:`Del` 
 
-    Fill with Foreground Colour
+    Fill with Foreground Color
         Fills the layer or selection with the foreground color. :kbd:`Shift + Backspace` 
 
-    Fill with Background Colour
+    Fill with Background Color
         Fills the layer or selection with the background color. :kbd:`Backspace` 
 
     Fill with pattern

@@ -31,7 +31,7 @@ Size
 Angle
     The angle of the dot pattern.
 Invert
-    This inverts the intensity calculated per dot. Thus, dark colors will give tiny dots, and light colors big dots. This is useful in combination with inverting the   colors, and give a better pattern on glowy-effects.
+    This inverts the intensity calculated per dot. Thus, dark colors will give tiny dots, and light colors big dots. This is useful in combination with inverting the colors, and give a better pattern on glowy-effects.
 Anti-aliasing
     This makes the dots smooth, which is good for webgraphics. Sometimes, for print graphics, we want there to be no grays, so we turn off the anti-aliasing.
 
@@ -81,4 +81,4 @@ This filter decreases the amount of colors in an image. It does this per compone
 
 .. image:: /images/en/Posterize-filter.png
 
-The :guilabel:`steps` parameter determines how many colors are allowed per component.
+The :guilabel:`Steps` parameter determines how many colors are allowed per component.

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_engines___tangen_normal_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-22 22:09+0200\n"
+"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"PO-Revision-Date: 2019-04-05 19:50+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -57,6 +57,12 @@ msgid ""
 "uses of normal maps include faking detail where there is none, and to drive "
 "transformations (Flow Maps)."
 msgstr ""
+"Рушій пензлів дотичної нормалі — рушій, який було спеціально розроблено для "
+"малювання нормальних карт, зокрема їхнього тангенціального різновиду. Такі "
+"карти використовують у програмах для просторового моделювання та рушіях ігор "
+"для роботи із освітленням. Серед типових випадків використання нормальних "
+"карт є фіктивна деталізація там, де її немає, та перетворення із "
+"перетіканням (карти потоків)."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:23
 msgid ""
@@ -66,14 +72,24 @@ msgid ""
 "coordinates, just like colors, we can store and see this information as "
 "colors."
 msgstr ""
+"Нормальна карта — зображення, у якому зберігається інформація для векторних "
+"форм. Зокрема, у таких картах містяться дані для нормалей, тобто інформація "
+"щодо того, як відбивається світло від поверхні. Оскільки нормалі задаються "
+"трьома координатами, подібно до кольорів, цю інформацію можна зберігати та і "
+"переглядати які інформацію щодо кольорів."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:25
 msgid ""
 "Normals can be seen similar to the stylus on your tablet. Therefore, we can "
 "use the tilt-sensors that are available to some tablets to generate the "
-"colour of the normals, which can then be used by a 3d program to do lighting "
+"color of the normals, which can then be used by a 3d program to do lighting "
 "effects."
 msgstr ""
+"Дані нормалей можна отримувати зі стила вашого планшета. Тому ми можемо "
+"скористатися даними із датчиків нахилу, які реалізовано на деяких планшетах, "
+"для створення кольорів нормалей, які згодом може бути використано у "
+"програмах для просторового моделювання з метою відтворення ефектів "
+"освітлення."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:27
 msgid "In short, you will be able to paint with surfaces instead of colors."
@@ -82,6 +98,8 @@ msgstr "Якщо коротко, ви зможете малювати повер
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:29
 msgid "The following options are available to the tangent normal brush engine:"
 msgstr ""
+"Для налаштовування рушія пензлів дотичної нормалі можна скористатися такими "
+"параметрами:"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:31
 msgid ":ref:`option_brush_tip`"
@@ -137,7 +155,7 @@ msgstr ":ref:`option_texture`"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:46
 msgid "Specific Parameters to the Tangent Normal Brush Engine"
-msgstr ""
+msgstr "Специфічні для рушія пензлів дотичної нормалі параметри"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:50
 msgid "Tangent Tilt"
@@ -148,6 +166,8 @@ msgid ""
 "These are the options that determine how the normals are calculated from "
 "tablet input."
 msgstr ""
+"Це параметри, які визначають спосіб обчислення нормалей за вхідними даними з "
+"планшета."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:54
 msgid "Tangent Encoding"
@@ -160,6 +180,10 @@ msgid ""
 "green channel might need to be inverted (-Y), or that the green channel is "
 "actually storing the x-value (+X)."
 msgstr ""
+"За допомогою цього пункту ви можете встановити призначення кожного з "
+"кольорів. У різних програмах встановлюють різні координати для різних "
+"каналів. Типовими варіаціями є інверсія каналу зеленого кольору (-Y) або "
+"використання зеленого каналу для зберігання значення (+X)."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:56
 msgid "Tilt Options"
@@ -186,6 +210,8 @@ msgid ""
 "Uses the drawing angle for the X and Y and Tilt-elevation for the Z, this "
 "allows you to draw flowmaps easily."
 msgstr ""
+"Використовує кут малювання для X і Y та нахилу-сходження за Z, надає змогу "
+"спростити малювання карт потоків."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:62
 msgid "Rotation"
@@ -193,9 +219,11 @@ msgstr "Обертання"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:63
 msgid ""
-"Uses rotation for the x and y, and tilt-elevation for the Z. Only available "
+"Uses rotation for the X and Y, and tilt-elevation for the Z. Only available "
 "for specialized Pens."
 msgstr ""
+"Використовує обертання для X та Y і нахил-сходження для Z. Пункт доступний "
+"лише для спеціалізованих пер."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:65
 msgid "Elevation Sensitivity"
@@ -207,6 +235,9 @@ msgid ""
 "will only paint the default normal, at 1 it will paint all the normals in a "
 "full hemisphere."
 msgstr ""
+"Надає вам змогу змінити діапазон виведення для нормалі. Якщо вказано "
+"значення 0, програма малюватиме лише типову нормаль. Якщо вказано значення "
+"1, програма малюватиме усі нормалі у верхній півкулі."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:68
 msgid "Usage"
@@ -215,17 +246,21 @@ msgstr "Користування"
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:70
 msgid ""
 "The Tangent Normal Map Brush Engine is best used with the Tilt Cursor, which "
-"can be set in :menuselection:`Settings --> configure Krita --> general --> "
+"can be set in :menuselection:`Settings --> Configure Krita --> General --> "
 "Outline Shape --> Tilt Outline`."
 msgstr ""
+"Рушій пензлів дотичної нормалі найкраще використовувати з курсором нахилу, "
+"який можна налаштувати за допомогою пункту :menuselection:`Параметри --> "
+"Налаштувати Krita --> Загальне --> Форма контуру --> Контур нахилу`."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:73
 msgid "Normal Map authoring workflow"
-msgstr ""
+msgstr "Процедура створення нормальної карти"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:75
 msgid "Create an image with a background color of (128, 128, 255) blue/purple."
 msgstr ""
+"Створіть зображення із кольором тла (128, 128, 255) — синім/пурпуровим."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:80
 msgid "Setting up a background with the default color."
@@ -233,14 +268,19 @@ msgstr "Налаштовування типового кольору для тл
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:82
 msgid ""
-"Set up group with a phongbumpmap-filter mask. Use the 'use normal map' "
-"checkbox on the filter to make it use normals."
+"Set up group with a :guilabel:`Phong Bumpmap` filter mask. Use the :guilabel:"
+"`Use Normal map` checkbox on the filter to make it use normals."
 msgstr ""
+"Налаштуйте групу з маскою фільтрування :guilabel:`Рельєф за Фонгом`. "
+"Позначте пункт :guilabel:`Нормальне картографування` для фільтра, щоб "
+"наказати програмі використовувати нормалі."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:87
 msgid ""
-"Creating a phong bump map filterlayer, make sure to check 'use normalmap'."
+"Creating a phong bump map filter layer, make sure to check 'Use Normal map'."
 msgstr ""
+"Створення шару фільтрування :guilabel:`Рельєф за Фонгом`. Не забудьте "
+"позначити пункт :guilabel:`Нормальне картографування`."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:92
 msgid ""
@@ -248,28 +288,40 @@ msgid ""
 "the sun, light 3 being the light from the sky, and light 2 being the light "
 "from the ground."
 msgstr ""
+"За допомогою цих параметрів можна створити чудовий ефект денного освітлення. "
+"Значення 1 відповідає сонячному світлу, світло 3 — світло із неба, а світло "
+"2 — світло знизу."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:94
 msgid ""
-"Make a 'normalize' filter layer or mask to normalize the normal map before "
-"feeding it into the phongbumpmap filter for the best results."
+"Make a :guilabel:`Normalize` filter layer or mask to normalize the normal "
+"map before feeding it into the Phong bumpmap filter for the best results."
 msgstr ""
+"Створіть шар фільтрування або маску :guilabel:`Нормалізувати`, щоб "
+"нормалізувати нормальну карту до передавання її до фільтра рельєфу Фонга, "
+"щоб отримати кращі результати."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:95
 msgid "Then, paint on layers in the group to get direct feedback."
 msgstr ""
+"Далі, малюйте на шарах у групі для отримання безпосереднього результату."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:100
 msgid ""
 "Paint on the layer beneath the filters with the tangent normal brush to have "
 "them be converted in real time."
 msgstr ""
+"Малювання на шарі під фільтрами за допомогою пензля дотичної нормалі для "
+"отримання перетворення у режимі реального часу."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:102
 msgid ""
-"Finally, when done, hide the phongbumpmap filter-layer (but keep the "
-"normalize filter layer!) , and export the normal map for use in 3d programs."
+"Finally, when done, hide the Phong bumpmap filter layer (but keep the "
+"Normalize filter layer!), and export the normal map for use in 3d programs."
 msgstr ""
+"Нарешті, коли завершите, приховайте шар фільтрування рельєфу Фонга (але не "
+"приховуйте шар нормалізації!) і експортуйте нормальну кару для використання "
+"у програмах для роботи із просторовою графікою."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:105
 msgid "Drawing Direction Maps"
@@ -277,19 +329,30 @@ msgstr "Малювання карт напрямків"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:107
 msgid ""
-"Direction maps are made with the 'Direction' option in the Tangent Tilt "
-"options. These normal maps are used to distort textures in a 3d program (to "
-"simulate for example, the flow of water) or to create maps that indicate how "
-"hair and brushed metal is brushed. Krita can't currently give feedback on "
-"how a given direction map will influence a distortion or shader, but these "
-"maps are a little easier to read."
+"Direction maps are made with the :guilabel:`Direction` option in the :"
+"guilabel:`Tangent Tilt` options. These normal maps are used to distort "
+"textures in a 3d program (to simulate for example, the flow of water) or to "
+"create maps that indicate how hair and brushed metal is brushed. Krita can't "
+"currently give feedback on how a given direction map will influence a "
+"distortion or shader, but these maps are a little easier to read."
 msgstr ""
+"Карти напрямку створюють за допомогою пункту :guilabel:`Напрямок` у "
+"параметрах розділу :guilabel:`Нахил дотичної`. Ці нормальні карти "
+"використовують для викривлення тексту у програмі для просторового "
+"моделювання (наприклад, для імітації потоків води) або для створення карт, "
+"які показуватимуть зачіску чи полірування на металі. У поточній версії Krita "
+"не може показувати, як задана карта напрямків впливатиме на викривлення або "
+"тіні, але такі карти дещо простіше читати."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:109
 msgid ""
-"Just set the tangent-tilt option to direction, and draw. The direction your "
-"brush draws in will be the direction that is encoded in the colors."
+"Just set the :guilabel:`Tangent Tilt` option to :guilabel:`Direction`, and "
+"draw. The direction your brush draws in will be the direction that is "
+"encoded in the colors."
 msgstr ""
+"Просто встановіть у розділі :guilabel:`Нахил дотичної` значення :guilabel:"
+"`Напрямок` і малюйте. Напрям, у якому малюватиме ваш пензель, буде "
+"напрямком, який буде закодовано у кольорах."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:112
 msgid "Only editing a single channel"
@@ -298,15 +361,23 @@ msgstr "Редагування лише окремого каналу"
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:114
 msgid ""
 "Sometimes you only want to edit a single channel. In that case set the "
-"blending mode of the brush to 'copy <channel>', with <channel> replaced with "
-"red, green or blue. These are under the misc section of the blending modes."
+"blending mode of the brush to :guilabel:`Copy <channel>`, with <channel> "
+"replaced with red, green or blue. These are under the :guilabel:`Misc` "
+"section of the blending modes."
 msgstr ""
+"Іноді виникає потреба у редагуванні лише окремого каналу. У цьому випадку "
+"встановіть режим змішування для пензля у значення :guilabel:`Копіювати "
+"<канал>`, де <канал> слід замінити на червоний, зелений або синій. "
+"Відповідні пункти можна знайти у розділі :guilabel:`Інше` списку режимів "
+"змішування."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:116
 msgid ""
 "So, if you want the brush to only affect the red channel, set the blending "
-"mode to 'copy red'."
+"mode to :guilabel:`Copy Red`."
 msgstr ""
+"Отже, якщо ви хочете, щоб пензель впливав лише на канал червоного кольору, "
+"встановіть режим змішування :guilabel:`Копіювати червоний`."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
 msgid ".. image:: images/en/Krita_Filter_layer_invert_greenchannel.png"
@@ -315,13 +386,19 @@ msgstr ".. image:: images/en/Krita_Filter_layer_invert_greenchannel.png"
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
 msgid "The copy red, green and blue blending modes also work on filter-layers."
 msgstr ""
+"Режими змішування із копіюванням червоного, зеленого та синього також "
+"працюють на шарах фільтрування."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:123
 msgid ""
 "This can also be done with filter layers. So if you quickly want to flip a "
-"layer's green channel, make an invert filter layer with 'copy green' above "
-"it."
+"layer's green channel, make an invert filter layer with :guilabel:`Copy "
+"Green` above it."
 msgstr ""
+"Крім того, результату можна досягти за допомогою шарів фільтрування. Отже, "
+"якщо ви хочете швидко віддзеркалити канал зеленого кольору шару, створіть "
+"шар фільтрування із інверсією за допомогою створення шару фільтрування :"
+"guilabel:`Копіювати зелений` над шаром, який слід фільтрувати."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:126
 msgid "Mixing Normal Maps"
@@ -329,6 +406,8 @@ msgstr "Змішування нормальних карт"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:128
 msgid ""
-"For mixing two normal maps, Krita has the Combine Normal Map blending mode "
-"under 'misc'."
+"For mixing two normal maps, Krita has the :guilabel:`Combine Normal Map` "
+"blending mode under :guilabel:`Misc`."
 msgstr ""
+"Для змішування двох нормальних карт у Krita передбачено режим змішування :"
+"guilabel:`Поєднати нормальні картографування` у розділі :guilabel:`Інше`."

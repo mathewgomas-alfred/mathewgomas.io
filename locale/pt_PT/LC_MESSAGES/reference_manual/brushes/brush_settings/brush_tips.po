@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-17 19:35+0000\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"PO-Revision-Date: 2019-04-04 10:57+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -207,13 +207,13 @@ msgstr "Picos"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:82
 msgid ""
-"This decreases how much area the brush-covers over its size: It makes it "
+"This determines how much area the brush-covers over its size: It makes it "
 "noisy. In the example below, the brush is set with density 0%, 50% and 100% "
 "respectively."
 msgstr ""
-"Isto diminui a área que o pincel cobre sobre o seu tamanho: Torna-o ruidoso. "
-"No exemplo abaixo, o pincel está configurado com a densidade 0%, 50% e 100%, "
-"respectivamente."
+"Isto define a quantidade da área que o pincel cobre sobre o seu tamanho: "
+"Torna-o ruidoso. No exemplo abaixo, o pincel está configurado com a "
+"densidade 0%, 50% e 100%, respectivamente."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:84
 msgid "Density"
@@ -232,7 +232,7 @@ msgid "Randomness"
 msgstr "Aleatoriedade"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:90
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:142
 msgid "Spacing"
 msgstr "Espaço"
 
@@ -273,8 +273,8 @@ msgstr ""
 "de pintura. Esta opção é melhor usada em conjunto com o Espaço Automático."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:100
-msgid "Smooth lines."
-msgstr "Linhas suaves."
+msgid "Smooth lines"
+msgstr "Linhas suaves"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:103
 msgid "Precision"
@@ -306,27 +306,44 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:108
 msgid ""
 "For example: A brush with ''starting brush size'' 10 and ''delta'' 4, will "
-"have... precision 5 at size 10 precision 4 at size 14 precision 3 at size 18 "
-"precision 2 at size 22 precision 1 at sizes above 26."
+"have..."
 msgstr ""
-"Por exemplo: Um pincel com ''tamanho de pincel inicial'' 10 e ''delta'' 4, "
-"irá ter... precisão 5 com tamanho 10, precisão 4 com tamanho 14, precisão 3 "
-"com tamanho 18, precisão 2 com tamanho 22 e precisão 1 com tamanhos acima de "
-"26."
+"Por exemplo: Um pincel com um ''tamanho de pincel inicial'' igual a 10 e um "
+"''delta'' igual a 4, irá ter..."
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:110
+msgid "precision 5 at size 10"
+msgstr "precisão 5 com um tamanho 10"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:111
+msgid "precision 4 at size 14"
+msgstr "precisão 4 com um tamanho 14"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:112
+msgid "precision 3 at size 18"
+msgstr "precisão 3 com um tamanho 18"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:113
+msgid "precision 2 at size 22"
+msgstr "precisão 2 com um tamanho 22"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:114
 msgid "Auto (precision)"
 msgstr "Auto (precisão)"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:118
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:114
+msgid "precision 1 at sizes above 26."
+msgstr "precisão 1 com tamanhos acima de 26."
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:119
 msgid "Predefined Brushes"
 msgstr "Pincéis Predefinidos"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:121
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:122
 msgid ".. image:: images/en/Krita_Predefined_Brushes.png"
 msgstr ".. image:: images/en/Krita_Predefined_Brushes.png"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:122
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:123
 msgid ""
 "If you have used other applications like :program:`GIMP` or :program:"
 "`Photoshop`, you will have used this kind of brush. :program:`Krita` is "
@@ -336,32 +353,32 @@ msgstr ""
 "Se tiver usado outras aplicações como o :program:`GIMP` ou o :program:"
 "`Photoshop`, já terá usado este tipo de pincel. O :program:`Krita` é (em "
 "grande parte) compatível com os ficheiros de definições de pontas de pincéis "
-"destas aplicações."
+"destas aplicações:"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:124
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:131
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
 msgid "abr"
 msgstr "abr"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
 msgid "GIMP autobrush tip definitions"
 msgstr "Definições de pontas de pincéis automáticos do GIMP"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
 msgid ":ref:`file_gbr`"
 msgstr ":ref:`file_gbr`"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
 msgid "GIMP single bitmap brush tip. Can be black and white or colored."
 msgstr ""
 "A ponta de pincéis com imagens simples do GIMP. Pode ser a preto-e-branco ou "
 "colorida."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
 msgid ":ref:`file_gih`"
 msgstr ":ref:`file_gih`"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:130
 msgid ""
 "GIMP Image Hose brush tip: contains a series of brush tips that are painted "
 "randomly or in order after each other. Can be black and white or colored. :"
@@ -372,7 +389,7 @@ msgstr ""
 "Poderá ser a preto-e-branco ou colorida. O :program:`Krita` não suporta "
 "ainda todos os parâmetros."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:131
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
 msgid ""
 "Photoshop brush tip collections. We support many of the features of these "
 "brush files, though some advanced features are not supported yet."
@@ -381,7 +398,7 @@ msgstr ""
 "funcionalidades destes ficheiros de pontas de pincéis, se bem que algumas "
 "das funcionalidades avançadas não são ainda suportadas."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:133
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:134
 msgid ""
 "Note that the definition of ABR brushes has been reverse engineered since "
 "Adobe does not make the specification public. We strongly recommend every :"
@@ -394,7 +411,7 @@ msgstr ""
 "pontas de pincéis no formato GBR e GIH e os pincéis mais complexos como "
 "predefinições do :program:`Krita`."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:135
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:136
 msgid ""
 "All predefined brush tips are shown in one selector. There are four more "
 "options that influence the initial bitmap brush tip you start painting with:"
@@ -403,11 +420,11 @@ msgstr ""
 "mais quatro opções que influenciam a ponta do pincel por imagem com que "
 "começa a pintar:"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:137
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
 msgid "Scale"
 msgstr "Escala"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
 msgid ""
 "scales the brush tip. 1.0 is the native size of the brush tip. This can be "
 "fairly large! When painting with variable size (for instance governed by "
@@ -418,19 +435,19 @@ msgstr ""
 "tamanho variável (por exemplo, baseado na pressão), esta é a base para os "
 "cálculos."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
 msgid "Rotation"
 msgstr "Rotação"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
 msgid "initial rotation of the brush tip."
 msgstr "rotação inicial da ponta do pincel."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:142
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
 msgid "distance between the brush tip impressions."
 msgstr "distância entre as impressões das pontas do pincel."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:144
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:145
 msgid ""
 "for colored brushes, don't paint the actual colors, but make a grayscale "
 "brush tip that will be colored by your selected foreground/background color."

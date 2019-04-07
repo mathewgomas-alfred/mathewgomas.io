@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
 "PO-Revision-Date: 2019-03-07 09:28\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -48,23 +48,6 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -112,6 +95,23 @@ msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:1
@@ -205,7 +205,7 @@ msgstr ""
 #: ../../reference_manual/tools/colorize_mask.rst:63
 msgid ""
 "Now the algorithm will be possibly a lot faster, allowing us to add strokes "
-"and press update in rapid succession:"
+"and press :guilabel:`Update` in rapid succession:"
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:69
@@ -308,7 +308,7 @@ msgstr ""
 msgid ""
 "Show the output of the colorize mask. If :guilabel:`Edit key strokes` is "
 "active, this will be shown semi-transparently, so it will be easy to "
-"recognise the difference between the strokes and the output."
+"recognize the difference between the strokes and the output."
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:127
@@ -386,8 +386,10 @@ msgid "Clean-up strokes"
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:155
-msgid "Keystrokes"
-msgstr ""
+#, fuzzy
+#| msgid "Edit key strokes"
+msgid "Key strokes"
+msgstr "编辑关键描边"
 
 #: ../../reference_manual/tools/colorize_mask.rst:156
 msgid ""

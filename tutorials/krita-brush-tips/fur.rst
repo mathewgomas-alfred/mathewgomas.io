@@ -47,7 +47,7 @@ The others are done with the smudge brush engine, but a similar setup, though us
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_06.png
     :alt: using the fur brush to make grass and hair
 
-For example, if you use the mix option in the pixel brush, it’ll mix between the fore and background color. You can even attach a gradient to the color smudge brush and the pixel brush. for color smudge this is just the :guilabel:`Gradient` option, and it’ll use the active gradient. For the pixel brush, set the color-source to :guilabel:`Gradient` and use the mix option.
+For example, if you use the mix option in the pixel brush, it’ll mix between the fore and background color. You can even attach a gradient to the color smudge brush and the pixel brush. For color smudge, this is just the :guilabel:`Gradient` option, and it’ll use the active gradient. For the pixel brush, set the color-source to :guilabel:`Gradient` and use the mix option.
 
 .. image:: /images/en/brush-tips/Krita-brushtips-fur_07.png
     :alt: fur brush with the color source to gradient and mix option

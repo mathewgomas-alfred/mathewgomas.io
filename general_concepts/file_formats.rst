@@ -26,7 +26,7 @@ Compression is how the file-format tries to describe the image with as little da
 
 What we generally see is that formats that are small on disk either lose image quality, or require the computer to spend a lot of time thinking about how the image should look.
 
-Vector file-formats like ``svg`` are a typical example of the latter. They are really small because the technology used to create them is based on mathematics, so it only stores maths-variables and can achieve very high quality. The downside is that the computer needs to spend a lot of time thinking about how it should look, and sometimes different programs have different ways of interpreting the values. Furthermore, vector file-formats imply vector graphics, which is a very different way of working than Krita is specialised in.
+Vector file-formats like ``svg`` are a typical example of the latter. They are really small because the technology used to create them is based on mathematics, so it only stores maths-variables and can achieve very high quality. The downside is that the computer needs to spend a lot of time thinking about how it should look, and sometimes different programs have different ways of interpreting the values. Furthermore, vector file-formats imply vector graphics, which is a very different way of working than Krita is specialized in.
 
 :ref:`Lossy file formats <lossy_compression>`, like ``jpg`` or ``webp`` are an example of small on disk, but lowering the quality, and are best used for very particular types of images. Lossy thus means that the file format plays fast and loose with describing your image to reduce filesize.
 

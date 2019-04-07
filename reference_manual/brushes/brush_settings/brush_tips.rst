@@ -79,7 +79,7 @@ Spikes
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_spikes.png
 
 Density
-    This decreases how much area the brush-covers over its size: It makes it noisy. In the example below, the brush is set with density 0%, 50% and 100% respectively.
+    This determines how much area the brush-covers over its size: It makes it noisy. In the example below, the brush is set with density 0%, 50% and 100% respectively.
     
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_density.png
 
@@ -94,7 +94,7 @@ Auto (spacing)
     
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_spacing.png
 
-Smooth lines.
+Smooth lines
     This toggles the super-smooth anti-aliasing. In the below example, both strokes are drawn with a default brush with fade set to 0. On the left without smooth lines, and the right with. Very useful for inking brushes. This option is best used in combination with Auto Spacing.
 
     .. image:: /images/en/Krita_2_9_brushengine_brushtips_default_2.png
@@ -106,11 +106,12 @@ Auto (precision)
     This allows you to set the precision linked to the size. The first value is the brush size at which precision is last 5, and the second is the size-difference at which the precision will decrease.
 
     For example: A brush with ''starting brush size'' 10 and ''delta'' 4, will have...
-    precision 5 at size 10
-    precision 4 at size 14
-    precision 3 at size 18
-    precision 2 at size 22
-    precision 1 at sizes above 26.
+
+    - precision 5 at size 10
+    - precision 4 at size 14
+    - precision 3 at size 18
+    - precision 2 at size 22
+    - precision 1 at sizes above 26.
 
 .. _predefined_brush_tip:
 

@@ -26,12 +26,12 @@ You can access the Edit Shapes tool by clicking on the icon in the toolbox, but 
 On Canvas Editing of Shapes
 ---------------------------
 
-As detailed further in the Tool Options, there's a difference between path shapes and specialised vector shapes that make it easy to have perfect ellipses, rectangles and more.
+As detailed further in the Tool Options, there's a difference between path shapes and specialized vector shapes that make it easy to have perfect ellipses, rectangles and more.
 
 Path Shapes
 ~~~~~~~~~~~
 
-Path shapes can be recognised by the different nodes they have.
+Path shapes can be recognized by the different nodes they have.
 
 Paths in Krita are mostly bezier curves, and are made up of nodes. For straight lines, the nodes are connected by a line-segment and that's it. For curved lines, each node has a side handle to allow curving of that segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ .
 

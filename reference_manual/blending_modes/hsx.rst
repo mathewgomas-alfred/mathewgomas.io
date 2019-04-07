@@ -22,7 +22,7 @@ HSI
 HSI is a color coordinate system, using Hue, Saturation and Intensity to categorize a color.
 Hue is roughly the wavelength, whether the color is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
 Saturation is the measurement of how close a color is to grey.
-Intensity, in this case is the tone of the color. What makes intensity special is that it recognises yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
+Intensity, in this case is the tone of the color. What makes intensity special is that it recognizes yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
 
 HSL
 ~~~
@@ -134,7 +134,7 @@ Increase Value, Lightness, Intensity or Luminosity.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Similar to lighten, but specific to tone.
-Checks whether the upper layer's pixel has a higher tone than the lower layer's pixel. If so, the intensity is increased, if not, the lower layer's tone is maintained.
+Checks whether the upper layer's pixel has a higher tone than the lower layer's pixel. If so, the tone is increased, if not, the lower layer's tone is maintained.
 
 .. figure:: /images/blending_modes/hsx/Blending_modes_Increase_Intensity_Sample_image_with_dots.png
    :align: center

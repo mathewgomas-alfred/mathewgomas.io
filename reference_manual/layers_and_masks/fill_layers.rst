@@ -45,4 +45,4 @@ Simplex Noise
 Painting on a fill layer
 ------------------------
 
-A fill-layer is a single-channel layer, meaning it only has transparency. Therefore, you can erase and paint on fill-layers to make them semi-opaque, or for when you want to have a particular colour only. Being single channel, fill-layers are also a little bit less memory-consuming than regular 4-channel paint layers.
+A fill-layer is a single-channel layer, meaning it only has transparency. Therefore, you can erase and paint on fill-layers to make them semi-opaque, or for when you want to have a particular color only. Being single channel, fill-layers are also a little bit less memory-consuming than regular 4-channel paint layers.

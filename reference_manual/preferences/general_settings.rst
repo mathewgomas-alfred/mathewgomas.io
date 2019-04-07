@@ -124,7 +124,7 @@ Multiple Document Mode
 Background image
     Allows you to set a picture background for subwindow mode.
 Window Background
-    Set the colour of the subwindow canvas area.
+    Set the color of the subwindow canvas area.
 Don't show contents when moving sub-windows
     This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
 Show on-canvas popup messages
@@ -171,9 +171,9 @@ Kinetic Scrolling (Needs Restart)
         On Middle-Click Drag
             Will activate when using the middle mouse button.
         On Touch Drag
-            Will activate if it can recognise a touch event. May not always work.
+            Will activate if it can recognize a touch event. May not always work.
         On Click Drag
-            Will activate when it can recognise a click event, will always work.
+            Will activate when it can recognize a click event, will always work.
 
     Sensitivity
         How quickly the feature activates, this effective determines the length of the drag.

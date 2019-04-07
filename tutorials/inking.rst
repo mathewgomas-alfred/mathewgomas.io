@@ -133,13 +133,13 @@ Opacity down to 10%
 
 Put a white (just press :kbd:`Backspace`) layer underneath the sketch. Turn down the opacity of the sketch to a really low number and put a layer above it for inking.
 
-Make the sketch coloured.
-"""""""""""""""""""""""""
+Make the sketch colored
+"""""""""""""""""""""""
 
 Put a layer filled with a color you like between the inking and sketch layer. Then set that layer to ‘screen’ or ‘addition’, this will turn all the black lines into the color! If you have a transparent background, or put this layer into a group, be sure to tick the alpha-inherit symbol!
 
-Make the sketch coloured, alternative version
-"""""""""""""""""""""""""""""""""""""""""""""
+Make the sketch colored, alternative version
+""""""""""""""""""""""""""""""""""""""""""""
 
 Or, right-click the layer, go to layer properties, and untick ‘blue’. This works easier with a single layer sketch, while the above works best with multi-layer sketches.
 

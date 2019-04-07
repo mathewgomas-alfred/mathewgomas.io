@@ -22,7 +22,7 @@ However, this does not just refer to the size of the image, but also how much pr
 
 To illustrate this, I'll briefly talk about something that is not even available in Krita:
 
-Indexed Colour.
+Indexed Color
 ---------------
 
 In older programs, the computer would have per image, a palette that contains a number for each color. The palette size is defined in bits, because the computer can only store data in bit-sizes.

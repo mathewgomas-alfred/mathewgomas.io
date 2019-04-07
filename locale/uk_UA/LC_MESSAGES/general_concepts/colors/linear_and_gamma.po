@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___colors___linear_and_gamma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-22 22:07+0200\n"
+"POT-Creation-Date: 2019-03-29 03:40+0100\n"
+"PO-Revision-Date: 2019-03-30 19:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -102,10 +102,12 @@ msgid ""
 "However, this modification to give more space to darker values does lead to "
 "wonky color maths when mixing the colors."
 msgstr ""
+"Втім, ця модифікація для надання більшого місця для темніших значень "
+"призводить до ускладнення математики, пов'язаної зі змішуванням кольорів."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:40
 msgid "We can see this with the following experiment:"
-msgstr ""
+msgstr "Це можна бачити за допомогою наступного експерименту:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:46
 msgid ""
@@ -118,6 +120,8 @@ msgid ""
 "**Left:** Colored circles blurred in a regular sRGB space. **Right:** "
 "Colored circles blurred in a linear space."
 msgstr ""
+"**Ліворуч:** кольорові кола, розмиті у звичайному просторі sRGB. **Праворуч:"
+"** кольорові кола, розмиті у лінійному просторі."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:48
 msgid ""
@@ -126,8 +130,8 @@ msgid ""
 msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:50
-msgid "This also counts for Krita's colour smudge brush:"
-msgstr ""
+msgid "This also counts for Krita's color smudge brush:"
+msgstr "Це також стосується пензля розмазування кольорів Krita:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
@@ -137,10 +141,10 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
-"That's right, the 'muddying' of colours as is a common complaint by digital "
-"painters everywhere, is in fact, a gamma-corrected colourspace mucking up "
-"your colours. If you had been working in LAB to avoid this, be sure to try "
-"out a linear rgb colour space."
+"That's right, the 'muddying' of colors as is a common complaint by digital "
+"painters everywhere, is in fact, a gamma-corrected colorspace mucking up "
+"your colors. If you had been working in LAB to avoid this, be sure to try "
+"out a linear rgb color space."
 msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:59
@@ -153,9 +157,11 @@ msgstr "Припустімо, нам треба змішати червоний 
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:64
 msgid ""
-"First, we would need the color coordinates of red and green inside our "
-"colour space's color model. So, that'd be..."
+"First, we would need the color coordinates of red and green inside our color "
+"space's color model. So, that'd be..."
 msgstr ""
+"Спочатку, нам потрібні будуть координати кольору для червоного і зеленого у "
+"нашій моделі кольорів простору кольорів. Отже, це мають бути…"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:67
 msgid "Color"
@@ -228,19 +234,24 @@ msgstr "0.25"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:85
 msgid ""
-"But to figure out how these colours look on screen, we first put the "
+"But to figure out how these colors look on screen, we first put the "
 "individual values through the TRC of the color-space we're working with:"
 msgstr ""
+"Але для того, щоб визначити, як ці кольори виглядатимуть на екрані, нам "
+"спочатку слід передати окремі значення через криву відтворення кольорів "
+"простору кольорів, з яким ми працюємо:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:93
 msgid ""
 "Then we fill in the values into the correct spot. Compare these to the "
 "values of the mixture table above!"
 msgstr ""
+"Далі, ми заповнимо значення у відповідній плямі. Порівняйте їх зі значеннями "
+"у таблиці сумішей, яку наведено вище!"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:99
 msgid ""
-"And this is why colour mixtures are lighter and softer in linear space. "
+"And this is why color mixtures are lighter and softer in linear space. "
 "Linear space is more physically correct, but sRGB is more efficient in terms "
 "of space, so hence why many images have an sRGB TRC encoded into them. In "
 "case this still doesn't make sense: *sRGB gives largely* **darker** *values "
@@ -268,6 +279,8 @@ msgstr "scRGB (лінійний)"
 #: ../../general_concepts/colors/linear_and_gamma.rst:113
 msgid "All 'elle'-profiles ending in 'g10', such as *sRGB-elle-v2-g10.icc*."
 msgstr ""
+"Усі «elle»-профілі, назви яких завершуються на «g10», зокрема *sRGB-elle-v2-"
+"g10.icc*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:115
 msgid ""

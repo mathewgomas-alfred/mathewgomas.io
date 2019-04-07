@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-28 03:35+0100\n"
-"PO-Revision-Date: 2019-03-20 09:29+0000\n"
+"POT-Creation-Date: 2019-03-30 03:35+0100\n"
+"PO-Revision-Date: 2019-03-30 15:58+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -27,6 +27,7 @@ msgstr ""
 "X-POFile-SpellExtra: KritaPixelBrushSettingsSize Krita demão interessanet\n"
 "X-POFile-SpellExtra: brushenginerotation KritaPixelBrushSettingsRotation\n"
 "X-POFile-SpellExtra: KritaPixelBrushSettingsSpacing Blender isotrópico\n"
+"X-POFile-SpellExtra: guilabel menuselection\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
@@ -51,8 +52,8 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_airbrush.png"
 #: ../../reference_manual/brushes/brush_settings/options.rst:28
 msgid ""
 "If you hold the brush still, but are still pressing down, this will keep "
-"adding colour onto the canvas. The lower the rate, the quicker the colour "
-"gets added."
+"adding color onto the canvas. The lower the rate, the quicker the color gets "
+"added."
 msgstr ""
 "Se mantiver fixo o pincel, mas continuar a pressionar o mesmo para baixo, "
 "isto irá continuar a adicionar cor à área de desenho. Quanto mais baixa a "
@@ -243,10 +244,6 @@ msgid ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:104
-#, fuzzy
-#| msgid ""
-#| "Also popular are setting the size to the sensor fuzzy or perspective, "
-#| "with the later in combination with a :ref:`assistant_perspective`"
 msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`"
@@ -283,7 +280,7 @@ msgid "Source"
 msgstr "Origem"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:124
-msgid "Picks the source-colour for the brush-dab."
+msgid "Picks the source-color for the brush-dab."
 msgstr "Escolhe a cor de origem para a demão do pincel."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:126
@@ -308,7 +305,7 @@ msgid "Uniform Random"
 msgstr "Aleatório Uniforme"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:131
-msgid "Gives a random colour to each brush dab."
+msgid "Gives a random color to each brush dab."
 msgstr "Atribui uma cor aleatória a cada demão do pincel."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:132
@@ -358,9 +355,9 @@ msgstr ""
 msgid ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:148
-msgid "Uses ~~~"
-msgstr "Utilizações ~~~"
+#: ../../reference_manual/brushes/brush_settings/options.rst:149
+msgid "Uses"
+msgstr "Utilizações"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:152
 msgid ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
@@ -368,34 +365,30 @@ msgstr ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:154
 msgid ""
-"The above example uses a :program:`Krita` painted flowmap in the 3d program :"
-"program:`Blender`. a brush was set to source Gradient and Mix:Drawing angle. "
-"The gradient in question contained the 360° for normal map colours. Flow "
-"maps are used in several Shaders, such as brushed metal, hair and certain "
-"river-shaders."
+"The above example uses a :program:`Krita` painted flowmap in the 3D program :"
+"program:`Blender`. A brush was set to :menuselection:`Source --> Gradient` "
+"and :menuselection:`Mix --> Drawing angle`. The gradient in question "
+"contained the 360° for normal map colors. Flow maps are used in several "
+"Shaders, such as brushed metal, hair and certain river-shaders."
 msgstr ""
 "O exemplo acima usa um mapa de fluxo pintado pelo :program:`Krita` no "
-"programa de 3D :program:`Blender`. Foi definido um pincel com o Gradiente e "
-"o Mistura:Ângulo de Desenho originais. O gradiente em questão possuía os "
-"360° para as cores do mapa da normal. São usados os mapas de fluxo em "
-"diversos sistemas de sombreados, como o metal escovado, cabelos e diversos "
-"desenhadores de rios."
+"programa de 3D :program:`Blender`. Foi definido um pincel com o :"
+"menuselection:`Origem --> Gradiente` e o :menuselection:`Mistura --> Ângulo "
+"de desenho` originais. O gradiente em questão possuía os 360° para as cores "
+"do mapa da normal. São usados os mapas de fluxo em diversos sistemas de "
+"sombreados, como o metal escovado, cabelos e diversos desenhadores de rios."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:155
 msgid "Flow map"
 msgstr "Mapa de fluxo"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:162
-#, fuzzy
-#| msgid ""
-#| "Exactly the same as using Source:Gradient with Mix, but only available "
-#| "for the Color Smudge Brush."
 msgid ""
 "Exactly the same as using :menuselection:`Source --> Gradient` with :"
 "guilabel:`Mix`, but only available for the Color Smudge Brush."
 msgstr ""
-"É exactamente igual a usar a Origem:Gradiente com Mistura, mas só está "
-"disponível no Pincel de Manchas a Cores."
+"É exactamente igual a usar a :menuselection:`Origem --> Gradiente` com :"
+"guilabel:`Mistura`, mas só está disponível no Pincel de Manchas a Cores."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:168
 msgid "Spacing"

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___projection___perspective\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-24 21:45+0200\n"
+"POT-Creation-Date: 2019-04-02 03:46+0200\n"
+"PO-Revision-Date: 2019-04-03 14:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../general_concepts/projection/perspective.rst:None
 msgid ""
@@ -107,6 +107,9 @@ msgid ""
 "org/wiki/Lens_%28optics%29>`_ shows us, have the ability to turn parallel "
 "lightrays into converging ones."
 msgstr ""
+"Опуклі лінзи об'єктива, як показано на `чудовому зображенні у Вікіпедії "
+"<https://en.wikipedia.org/wiki/Lens_%28optics%29>`_, мають властивість "
+"збирати паралельні промені світла у одній точці."
 
 #: ../../general_concepts/projection/perspective.rst:27
 msgid ""
@@ -115,6 +118,10 @@ msgid ""
 "of the maximum distortion that can be given to two parallel lines as they’re "
 "skewed toward the focal point."
 msgstr ""
+"Точка, у якій сходяться промені називається фокальною точкою (фокусом), а "
+"нескінченно віддалену точку у плоских малюнках пов'язано із цією точкою, "
+"оскільки це зображення максимального викривлення, якого можна надати двом "
+"паралельним лініями при перекошуванні до фокальної точки."
 
 #: ../../general_concepts/projection/perspective.rst:29
 msgid ""
@@ -124,10 +131,17 @@ msgid ""
 "this inversion happens, but our brains are used to this awkwardness since "
 "childhood and turn it around automatically."
 msgstr ""
+"Якщо можна бачити із рисунка, фокальна точка не є кінцевою точкою променів. "
+"Це лише точка, проходячи крізь яку промені знову розходяться… Відмінність "
+"полягає лише у тому, що зображення після цієї точки є перевернутим. Таке "
+"перевертання зображення відбувається і у наших очах, але мозок звик до нього "
+"з дитинства, отже виконує зворотне перевертання зображення автоматично."
 
 #: ../../general_concepts/projection/perspective.rst:31
 msgid "Let’s see if we can perspectively project our box now."
 msgstr ""
+"Погляньмо, чи ми зможемо створити проекцію перспективи з нашого "
+"паралелепіпеда."
 
 #: ../../general_concepts/projection/perspective.rst:36
 msgid ""
@@ -137,16 +151,22 @@ msgid ""
 "projection, so only the horizontal lines get distorted. We can also distort "
 "the vertical lines"
 msgstr ""
+"Вийшло доволі добре. Як можете бачити, ми певним чином «об'єднали» дві грані "
+"у одну (результат показано пурпуровим бічним прямокутником), щоб нам легше "
+"було проектувати. Проектування обмежено однією або двома проекціями із "
+"нескінченно віддаленою точкою, отже викривляються лише горизонтальні лінії. "
+"Ми також можемо викривити і вертикальні лінії:"
 
 #: ../../general_concepts/projection/perspective.rst:41
 msgid ""
-"… to get three-point projection, but this is a bit much.(And I totally made "
+"… to get three-point projection, but this is a bit much. (And I totally made "
 "a mistake in there…)"
 msgstr ""
+"…щоб отримати триточкову проекцію, але це занадто. (І загалом неправильно…)"
 
 #: ../../general_concepts/projection/perspective.rst:43
 msgid "Let’s setup our perspective projection again…"
-msgstr ""
+msgstr "Налаштуймо проекцію перспективи ще раз…"
 
 #: ../../general_concepts/projection/perspective.rst:48
 msgid ""
@@ -155,12 +175,18 @@ msgid ""
 "vertical parallel rules to easily draw the straight lines from the view "
 "plane to where they intersect."
 msgstr ""
+"Як фокальну точку, ми будемо використовувати одну нескінченно віддалену "
+"точку. Намалюємо напрямку для площини проектування і налаштуємо "
+"горизонтальну і вертикальну паралельні лінійки для спрощення малювання "
+"прямих ліній з площини перегляду до точки перетину."
 
 #: ../../general_concepts/projection/perspective.rst:50
 msgid ""
-"And now the workflow in gif-format…(don’t forget you can rotate the canvas "
-"with 4 and 6)"
+"And now the workflow in gif-format… (don’t forget you can rotate the canvas "
+"with :kbd:`4` and :kbd:`6`)"
 msgstr ""
+"А тепер, робоча процедура у форматі GIF… (не забувайте, що полотно можна "
+"обертати за допомогою клавіш :kbd:`4` та :kbd:`6`)"
 
 #: ../../general_concepts/projection/perspective.rst:55
 msgid "Result:"
@@ -168,62 +194,76 @@ msgstr "Результат:"
 
 #: ../../general_concepts/projection/perspective.rst:60
 msgid "Looks pretty haughty, doesn’t he?"
-msgstr ""
+msgstr "Хлопець виглядає зарозумілим, чи не так?"
 
 #: ../../general_concepts/projection/perspective.rst:62
 msgid "And again, there’s technically a simpler setup here…"
-msgstr ""
+msgstr "І знову ж, технічно, можна зробити усе простіше…"
 
 #: ../../general_concepts/projection/perspective.rst:64
 msgid "Did you know you can use Krita to rotate in 3d? No?"
 msgstr ""
+"Чи ви знали, що Krita можна скористатися для просторового обертання? Ні?"
 
 #: ../../general_concepts/projection/perspective.rst:69
 msgid "Well, now you do."
-msgstr ""
+msgstr "Гаразд, тепер ви знаєте, що це можна робити."
 
 #: ../../general_concepts/projection/perspective.rst:71
 msgid "The ortho graphics are being set to 45 and 135 degrees respectively."
-msgstr ""
+msgstr "Значення для обертання встановлено на 45 і 135 градусів відповідно."
 
 #: ../../general_concepts/projection/perspective.rst:73
 msgid ""
 "We draw horizontal lines on the originals, so that we can align vanishing "
 "point rulers to them."
 msgstr ""
+"Ми намалювали горизонтальні лінії на оригіналах, щоб вирівняти за ними "
+"лінійки нескінченно віддаленої точки."
 
 #: ../../general_concepts/projection/perspective.rst:78
 msgid ""
-"And from this, like with the shearing method, we start drawing.(don’t forget "
-"the top-views!)"
+"And from this, like with the shearing method, we start drawing. (Don’t "
+"forget the top-views!)"
 msgstr ""
+"І, починаючи звідси, подібно до методу перекошування, розпочнімо малювати. "
+"(Не забудьте про вид згори!)"
 
 #: ../../general_concepts/projection/perspective.rst:80
 msgid "Which should get you something like this:"
-msgstr ""
+msgstr "Що дасть вам щось таке:"
 
 #: ../../general_concepts/projection/perspective.rst:85
 msgid "But again, the regular method is actually a bit easier..."
-msgstr ""
+msgstr "Втім, знову ж таки, звичайний спосіб, насправді, трохи простіший…"
 
 #: ../../general_concepts/projection/perspective.rst:87
 msgid ""
 "But now you might be thinking: gee, this is a lot of work… Can’t we make it "
 "easier with the computer somehow?"
 msgstr ""
+"Тепер, у вас може виникнути думка: «Оце тобі, доволі багато роботи… Чи не "
+"можна її якось полегшити за допомогою комп'ютера?»"
 
 #: ../../general_concepts/projection/perspective.rst:89
 msgid ""
 "Uhm, yes, that’s more or less why people spent time on developing 3d "
 "graphics technology:"
 msgstr ""
+"Угу, звичайно ж, саме на це розробники витрачають час на розробку технологій "
+"тривимірної графіки:"
 
 #: ../../general_concepts/projection/perspective.rst:97
-msgid "(above sculpted in blender using our orthographic reference)"
+msgid ""
+"(The image above is sculpted in blender using our orthographic reference)"
 msgstr ""
+"Наведене вище зображення оброблено у Blender за допомогою нашого "
+"ортографічного еталона."
 
 #: ../../general_concepts/projection/perspective.rst:99
 msgid ""
 "So let us look at what this technique can be practically used for in the "
 "next part..."
 msgstr ""
+"На практичне використання цієї методики ми поглянемо у наступному розділі "
+"підручника…"

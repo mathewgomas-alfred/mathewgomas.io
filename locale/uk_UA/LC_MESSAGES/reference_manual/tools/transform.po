@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___transform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-28 03:35+0100\n"
-"PO-Revision-Date: 2019-03-24 21:37+0200\n"
+"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"PO-Revision-Date: 2019-04-05 07:17+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -34,7 +34,7 @@ msgstr "Довідник з інструмента перетворення Krit
 
 #: ../../reference_manual/tools/transform.rst:18
 msgid "Transform Tool"
-msgstr "Засіб перетворення"
+msgstr "Інструмент перетворення"
 
 #: ../../reference_manual/tools/transform.rst:20
 msgid "|tooltransform|"
@@ -48,6 +48,13 @@ msgid ""
 "Perspective, Warp, Cage and Liquid. These are all powerful options and will "
 "give you complete control over your selections/layers."
 msgstr ""
+"За допомогою інструмента перетворення ви можете швидко перетворити поточну "
+"позначену ділянку або шар. Серед базових варіантів перетворення — зміна "
+"розмірів, обертання і перекошування. Крім того, ви можете застосувати "
+"складні перетворення, зокрема перетворення перспективи, викривлення, "
+"перетворення за ґраткою та розплавлення. Це дуже потужний інструмент, який "
+"надає вам повний контроль при роботі над позначеними фрагментами зображення "
+"та шарами."
 
 #: ../../reference_manual/tools/transform.rst:24
 msgid ""
@@ -57,6 +64,13 @@ msgid ""
 "dragging it. You can also click anywhere inside the selection or layer and "
 "move it by dragging the mouse."
 msgstr ""
+"Після першого використання цього інструмента у кутах та на сторонах буде "
+"показано елементи керування, якими ви можете скористатися для зміни розмірів "
+"позначеного фрагмента або шару. Ви можете виконувати обертання підведенням "
+"вказівника миші до елемента керування або розташуванням його ліворуч від "
+"елемента керування з наступним перетягуванням. Ви також можете натиснути "
+"ліву кнопку миші будь-де всередині позначеного фрагмента або шару і "
+"перетягнути його за допомогою вказівника миші."
 
 #: ../../reference_manual/tools/transform.rst:26
 msgid ""
@@ -64,6 +78,9 @@ msgid ""
 "The parameters are split between five tabs: Free Transform, Warp, "
 "Perspective, Cage and Liquify."
 msgstr ""
+"Ви можете скоригувати параметри інструмента перетворення за допомогою бічної "
+"панелі параметрів інструмента. Параметри поділено між п'ятьма вкладками: "
+"довільне перетворення, викривлення, перспектива, клітка і розплавлення."
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid ".. image:: images/en/Transform_Tool_Options.png"
@@ -83,6 +100,11 @@ msgid ""
 "perspective skewing if you hold :kbd:`Ctrl`. Holding the :kbd:`Shift` key "
 "will maintain your aspect ratio throughout the transform."
 msgstr ""
+"За допомогою цього перетворення ви можете виконувати базове обертання, зміну "
+"розмірів, віддзеркалення і навіть перекошування перспективи, якщо "
+"утримуватимете натиснутою клавішу :kbd:`Ctrl`. Утримування натиснутою "
+"клавіші :kbd:`Shift` надає змогу фіксувати співвідношення розмірів під час "
+"перетворення."
 
 #: ../../reference_manual/tools/transform.rst:39
 msgid ".. image:: images/en/Krita_transforms_free.png"
@@ -95,11 +117,16 @@ msgstr "Виконання довільного перетворення."
 
 #: ../../reference_manual/tools/transform.rst:41
 msgid ""
-"If you look at the bottom, there's quick buttons for flipping horizontally, "
-"vertically and rotating 90 degrees left and right. Furthermore, the button "
-"to the left of the anchor point widget allows you to choose whether to "
-"always transform using the anchor point, or not."
+"If you look at the bottom, there are quick buttons for flipping "
+"horizontally, vertically and rotating 90 degrees left and right. "
+"Furthermore, the button to the left of the anchor point widget allows you to "
+"choose whether to always transform using the anchor point, or not."
 msgstr ""
+"Якщо ви поглянете на нижню частину панелі, ви побачите кнопки для швидкого "
+"виконання віддзеркалення горизонтально, вертикально та обертання на 90 "
+"ліворуч і праворуч. Крім того, за допомогою кнопки, яку розташовано ліворуч "
+"від віджета точки прив'язки, ви можете визначити, чи завжди "
+"використовуватиме програма перетворення із точкою прив'язки."
 
 #: ../../reference_manual/tools/transform.rst:43
 msgid ""
@@ -119,6 +146,10 @@ msgid ""
 "allows for maximum control. You can drag the corner points, or even the "
 "designated vanishing point."
 msgstr ""
+"Хоча і у довільному перетворенні є можливості виконати перетворення "
+"перспективи. За допомогою інструмента перетворення перспективи ви отримуєте "
+"максимальний контроль над перетворенням. Ви можете перетягувати кутові точки "
+"або навіть призначати нескінченно віддалену точку."
 
 #: ../../reference_manual/tools/transform.rst:50
 msgid ""
@@ -162,10 +193,13 @@ msgstr ".. image:: images/en/Krita_transforms_warp.png"
 
 #: ../../reference_manual/tools/transform.rst:69
 msgid ""
-"There's warp options: Rigid, Affine and Similtude. These change the "
+"There are warp options: Rigid, Affine and Similtude. These change the "
 "algorithm used to determine the strength of the deformation. The flexibility "
-"determines, how strong the effect of moving these point are."
+"determines, how strong the effect of moving these points are."
 msgstr ""
+"Варіанти викривлення: тверде, афінне та подібність. Вибір варіанта змінює "
+"алгоритм, який використовується для визначення потужності деформації. "
+"Гнучкість визначає наскільки потужними будуть наслідки пересування цих точок."
 
 #: ../../reference_manual/tools/transform.rst:72
 msgid "Anchor Points"
@@ -195,6 +229,8 @@ msgid ""
 "Draw the anchor points yourself. Locking the points will put you in "
 "transform mode. Unlocking the points back into edit mode."
 msgstr ""
+"Намалювати точки прив'язки вручну. Блокування точок переведе програму у "
+"режим перетворення. Розблокування точок поверне її до режиму редагування."
 
 #: ../../reference_manual/tools/transform.rst:82
 msgid "Cage"
@@ -206,6 +242,10 @@ msgid ""
 "deform the image. If you have at the least 3 points on the canvas, you can "
 "choose to switch between deforming and editing the existing points."
 msgstr ""
+"Створіть клітку навколо зображення, а потім, коли її буде замкнено, ви "
+"можете скористатися нею для деформування зображення. Якщо у вас є принаймні "
+"3 точки на полотні, ви зможете перемикатися між режимами деформування та "
+"редагування наявних точок."
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid ".. image:: images/en/Krita_transforms_cage.png"
@@ -225,6 +265,9 @@ msgid ""
 "Both Cage and Warp use little nodes. These nodes can be selected and "
 "deselected together by pressing :kbd:`Ctrl` before clicking nodes."
 msgstr ""
+"У обох варіантах, клітки і викривлення, використовуються маленькі вузли. Ці "
+"вузли можна позначати або знімати з них позначення, натиснувши клавішу :kbd:"
+"`Ctrl` перед клацанням на вузлах."
 
 #: ../../reference_manual/tools/transform.rst:95
 msgid ""
@@ -233,6 +276,10 @@ msgid ""
 "box and scaling the same, only one presses :kbd:`Ctrl` before doing the "
 "motion."
 msgstr ""
+"Далі, ви можете пересувати вузли натисканням курсором всередині "
+"обмежувальної рамки. Обертання можна виконувати натисканням і перетягуванням "
+"курсором поза обмежувальною рамкою. Масштабування виконується так само, лише "
+"з натисканням клавіші :kbd:`Ctrl` перед пересуванням вказівника."
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Liquify"
@@ -247,6 +294,8 @@ msgid ""
 "Like our deform brush, the liquify brush allows you to draw the deformations "
 "straight on the canvas."
 msgstr ""
+"Подібно до пензля деформування, пензель розплавлення надає вам змогу "
+"малювати деформації безпосередньо на полотні."
 
 #: ../../reference_manual/tools/transform.rst:106
 msgid "Move"
@@ -310,6 +359,11 @@ msgid ""
 "will normalize the effect to be between none, and the amount parameter as "
 "maximum. :guilabel:`Build up` will just add on until it's impossible."
 msgstr ""
+"Цей параметр може мати значення :guilabel:`Змивання` або :guilabel:"
+"`Надбудова`. у режимі :guilabel:`Змивання` програма нормалізує ефект до "
+"середнього значення між нічим і максимальним параметром потужності. У "
+"режимі :guilabel:`Надбудова` програма просто додаватиме, аж доки це не стане "
+"неможливим."
 
 #: ../../reference_manual/tools/transform.rst:125
 msgid "Size"
@@ -369,7 +423,7 @@ msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:138
 msgid "liquify on the left and deform brush on the right."
-msgstr "розплавлення ліворуч і пензлем викривлення праворуч."
+msgstr "Розплавлення ліворуч і пензель викривлення праворуч."
 
 #: ../../reference_manual/tools/transform.rst:140
 msgid ""
@@ -379,6 +433,12 @@ msgid ""
 "process, so working with liquefy within a selection or using liquefy on a "
 "separate layer with little on it will greatly enhance the speed."
 msgstr ""
+"Крім того, у Krita передбачено :ref:`deform_brush_engine`, який працює "
+"набагато швидше за розплавлення, але дає менш якісні результати. Якщо ви "
+"хочете зробити розплавлення трохи швидшим, зауважте, що пришвидшення можна "
+"досягти зменшенням обсягу даних для обробки. Тому використання розплавлення "
+"для позначеного фрагмента або окремого шару, де майже нічого немає, може "
+"значно пришвидшити роботу перетворення."
 
 #: ../../reference_manual/tools/transform.rst:143
 msgid "Recursive Transform"
@@ -389,6 +449,9 @@ msgid ""
 "The little spider icon on the lower-left of the transform tool options is "
 "the :guilabel:`Recursive Transform`."
 msgstr ""
+"За допомогою розташованої внизу ліворуч панелі параметрів інструмента "
+"невеличкої піктограми із зображенням, подібним до павутини, можна виконати :"
+"guilabel:`Рекурсивне перетворення`."
 
 #: ../../reference_manual/tools/transform.rst:148
 msgid ".. image:: images/en/Krita_transforms_recursive.png"
@@ -399,12 +462,16 @@ msgid ""
 "Recursive transform transforms all the layers in the group, so with this "
 "apple, both the lineart as the fill will be transformed."
 msgstr ""
+"Рекурсивне перетворення перетворює усі шари у групі, тому у нашому прикладі "
+"з яблуком, буде перетворено графіку і заповнення."
 
 #: ../../reference_manual/tools/transform.rst:150
 msgid ""
 "Recursive transform, when toggled, allows you to mass-transform all the "
 "layers in a group when only transforming the group."
 msgstr ""
+"Рекурсивне перетворення, якщо його увімкнено, надає вам змогу пакетно "
+"перетворити усі шари у групі одним перетворенням пункту групи."
 
 #: ../../reference_manual/tools/transform.rst:153
 msgid "Continuous Transform"
@@ -418,6 +485,12 @@ msgid ""
 "cancel this and start a new transform, or press :guilabel:`Reset` in the "
 "tool options while no transform is active."
 msgstr ""
+"Якщо ви застосуєте перетворення, а потім одразу започаткуєте нове, Krita "
+"спробує згадати попереднє перетворення, тобто ви зможете його продовжити. Ця "
+"можливість називається *неперервне перетворення*. Ви можете натиснути "
+"клавішу :kbd:`Esc`, щоб скасувати цей режим і розпочати нове перетворення, "
+"або натиснути кнопку :guilabel:`Скинути` на панелі параметрів інструмента, "
+"доки не вибрано перетворення."
 
 #: ../../reference_manual/tools/transform.rst:158
 msgid "Transformation Masks"

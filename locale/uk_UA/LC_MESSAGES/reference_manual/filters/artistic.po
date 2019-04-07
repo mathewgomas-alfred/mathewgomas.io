@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___artistic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-14 19:57+0200\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"PO-Revision-Date: 2019-04-04 07:37+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,6 +33,8 @@ msgid ""
 "The artistic filter are characterised by taking an input, and doing a "
 "deformation on them."
 msgstr ""
+"Художній фільтр виконує перетворення на основі вхідних даних, застосовуючи "
+"до них певну деформацію."
 
 #: ../../reference_manual/filters/artistic.rst:21
 msgid "Halftone"
@@ -59,6 +61,8 @@ msgid ""
 "The colors used to paint the pattern. The first is the color of the dots, "
 "the second the color of the background."
 msgstr ""
+"Кольори, які буде використано для малювання візерунка. Перший колір є "
+"кольором крапок, а другий — кольором тла."
 
 #: ../../reference_manual/filters/artistic.rst:29
 msgid "Size"
@@ -69,6 +73,9 @@ msgid ""
 "The size of the cell in pixels. The maximum dot size will be using the "
 "diagonal as the cell size to make sure you can have pure black."
 msgstr ""
+"Розмір елементарної комірки у пікселях. Максимальний розмір крапки буде "
+"дорівнювати розміру діагоналі комірки, щоб можна було досягти повного "
+"заповнення ділянки чорним кольором."
 
 #: ../../reference_manual/filters/artistic.rst:31
 msgid "Angle"
@@ -86,8 +93,13 @@ msgstr "Інвертувати"
 msgid ""
 "This inverts the intensity calculated per dot. Thus, dark colors will give "
 "tiny dots, and light colors big dots. This is useful in combination with "
-"inverting the   colors, and give a better pattern on glowy-effects."
+"inverting the colors, and give a better pattern on glowy-effects."
 msgstr ""
+"За допомогою цього пункту можна інвертувати інтенсивність, обчислену на "
+"окрему крапку. У такий спосіб можна досягти того, що темнішим кольорам "
+"відповідатимуть менші крапки, а світлішим — більші. Корисно у поєднанні із "
+"інвертуванням кольорів, дає кращий візерунок для ефектів, які подібні до "
+"ефекту сяйва."
 
 #: ../../reference_manual/filters/artistic.rst:36
 msgid "Anti-aliasing"
@@ -99,6 +111,8 @@ msgid ""
 "print graphics, we want there to be no grays, so we turn off the anti-"
 "aliasing."
 msgstr ""
+"Згладжує крапки, добре для вебграфіки. Іноді, для друкованої графіки, нам не "
+"потрібні сірі тони, і ми вимикаємо згладжування."
 
 #: ../../reference_manual/filters/artistic.rst:39
 msgid "Index Color"
@@ -111,6 +125,11 @@ msgid ""
 "black and white gradient has index color applied to it so that the black and "
 "white gradient gets the color selected to different values."
 msgstr ""
+"Фільтр індексування кольорів виконує прив'язування вибраних користувачем "
+"кольорів до відтінків сірого на художньому творі. Як можна бачити з "
+"прикладу, який наведено нижче, до смужки під чорно-білим градієнтом "
+"прив'язано індексовані кольори, тому результатом для різних значень є різні "
+"наперед визначені кольори."
 
 #: ../../reference_manual/filters/artistic.rst:44
 msgid ".. image:: images/en/Gradient-pixelart.png"
@@ -121,6 +140,8 @@ msgid ""
 "You can choose the required colors and ramps in the index color filter "
 "dialog as shown below"
 msgstr ""
+"Ви можете вибрати потрібні кольори і рампи за допомогою вікна фільтра "
+"індексування кольорів, яке показано нижче."
 
 #: ../../reference_manual/filters/artistic.rst:48
 msgid ".. image:: images/en/Index-color-filter.png"
@@ -131,6 +152,8 @@ msgid ""
 "You can create index painting such as one shown below with the help of this "
 "filter"
 msgstr ""
+"За допомогою цього фільтра ви можете створювати індексовані зображення, "
+"подібні до наведеного нижче."
 
 #: ../../reference_manual/filters/artistic.rst:52
 msgid ".. image:: images/en/Kiki-pixel-art.png"
@@ -145,6 +168,8 @@ msgid ""
 "Makes the input-image pixely by creating small cells and inputting an "
 "average color."
 msgstr ""
+"Робить вхідне зображення піксельованим: створює малі комірки-пікселі, які "
+"заповнює середнім кольором зображення."
 
 #: ../../reference_manual/filters/artistic.rst:59
 msgid ".. image:: images/en/Pixelize-filter.png"
@@ -156,7 +181,7 @@ msgstr "Дощові краплі"
 
 #: ../../reference_manual/filters/artistic.rst:63
 msgid "Adds random raindrop-deformations to the input-image."
-msgstr ""
+msgstr "Додає на вхідне зображення випадкові деформації у формі крапель дощу."
 
 #: ../../reference_manual/filters/artistic.rst:66
 msgid "Oilpaint"
@@ -167,6 +192,8 @@ msgid ""
 "Does semi-posterisation to the input-image, with the 'brush-size' "
 "determining the size of the fields."
 msgstr ""
+"Виконує напівпостеризацію вхідного зображення. Розмір пензля визначає розмір "
+"полів постеризації."
 
 #: ../../reference_manual/filters/artistic.rst:71
 msgid ".. image:: images/en/Oilpaint-filter.png"
@@ -181,6 +208,8 @@ msgid ""
 "Determines how large the individual patches are. The lower, the more "
 "detailed."
 msgstr ""
+"Визначає розмір окремих мазків. Чим меншим буде це значення, тим "
+"деталізованішим буде результат."
 
 #: ../../reference_manual/filters/artistic.rst:75
 msgid "Smoothness"
@@ -188,7 +217,7 @@ msgstr "Плавність"
 
 #: ../../reference_manual/filters/artistic.rst:75
 msgid "Determines how much each patch's outline is smoothed out."
-msgstr ""
+msgstr "Визначає, наскільки згладженим буде контур кожного мазка."
 
 #: ../../reference_manual/filters/artistic.rst:78
 msgid "Posterize"
@@ -199,6 +228,8 @@ msgid ""
 "This filter decreases the amount of colors in an image. It does this per "
 "component (channel)."
 msgstr ""
+"Цей фільтр зменшує кількість кольорів на зображенні. Працює за компонентами "
+"(каналами) кольорів."
 
 #: ../../reference_manual/filters/artistic.rst:83
 msgid ".. image:: images/en/Posterize-filter.png"
@@ -206,6 +237,7 @@ msgstr ".. image:: images/en/Posterize-filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:84
 msgid ""
-"The :guilabel:`steps` parameter determines how many colors are allowed per "
+"The :guilabel:`Steps` parameter determines how many colors are allowed per "
 "component."
 msgstr ""
+"Параметр :guilabel:`Кроки` визначає кількість кольорів на один компонент."

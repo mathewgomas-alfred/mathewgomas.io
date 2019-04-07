@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_settings___brush_tips\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-22 22:12+0200\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"PO-Revision-Date: 2019-04-04 07:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -111,6 +111,8 @@ msgid ""
 "This is the ultimate generic type. The fade parameter produces the below "
 "results. Of the three auto brushes, this is the fastest."
 msgstr ""
+"Це найпростіший тип. Параметр згасання надає змогу створювати мазки, подібні "
+"до показаних нижче. З трьох автоматичних пензлів, цей є найшвидшим."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:39
 msgid "Default"
@@ -118,7 +120,7 @@ msgstr "Типовий"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:42
 msgid "This one's fade is controlled by a curve!"
-msgstr ""
+msgstr "Згасанням цього пензля керує крива!"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:43
 msgid "Soft"
@@ -129,6 +131,8 @@ msgid ""
 "This one uses the gaussian algorithm to determine the fade. Out of the three "
 "auto brushes, this is the slowest."
 msgstr ""
+"У цьому пензлі для визначення згасання використовується гаусів алгоритм. З "
+"трьох автоматичних пензлів, цей є найповільнішим."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:48
 msgid "Gaussian"
@@ -160,10 +164,14 @@ msgid ""
 "and unlock these settings. Fade has a different effect per mask-type, so "
 "don't be alarmed if it looks strange, perhaps you have the wrong mask-type."
 msgstr ""
+"встановлює м'якість пензля. Ви можете натиснути кнопку із зображенням "
+"ланцюга для блокування або розблокування цих параметрів. Згасання має різний "
+"ефект для різнити типів масок, отже не дивуйтеся тому, що воно може "
+"виглядати дивно, — можливо, ви маєте справу із не тим типом маски."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:65
 msgid "(With fade locked)"
-msgstr ""
+msgstr "(Із заблокованим згасанням)"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:67
 msgid "Fade"
@@ -172,6 +180,8 @@ msgstr "Згасання"
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:69
 msgid "(With fade separately horizontal and vertical)"
 msgstr ""
+"(Із різними параметрами згасання у горизонтальному та вертикальному "
+"напрямках)"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:72
 msgid "This changes the angle a which the brush is at."
@@ -183,7 +193,7 @@ msgstr "Кут"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:77
 msgid "This gives the amount of tips related to the ratio."
-msgstr ""
+msgstr "Дає кількість кінчиків відносно співвідношення розмірів."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:79
 msgid "Spikes"
@@ -191,10 +201,13 @@ msgstr "Шипи"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:82
 msgid ""
-"This decreases how much area the brush-covers over its size: It makes it "
+"This determines how much area the brush-covers over its size: It makes it "
 "noisy. In the example below, the brush is set with density 0%, 50% and 100% "
 "respectively."
 msgstr ""
+"Цей параметр визначає, яку частку площі пензля буде зафарбовано. Зменшення "
+"значення додає шумності. У наведеному нижче прикладі встановлено щільності "
+"0%, 50% та 100%, відповідно."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:84
 msgid "Density"
@@ -205,13 +218,15 @@ msgid ""
 "This changes the randomness of the density. In the example below, the brush "
 "is set with randomness 0%, 50% and 100% respectively."
 msgstr ""
+"Змінює параметри випадковості щільності. У наведеному нижче прикладі для "
+"пензля встановлено випадковість 0%, 50% та 100%, відповідно."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:88
 msgid "Randomness"
 msgstr "Випадковість"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:90
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:142
 msgid "Spacing"
 msgstr "Інтервал"
 
@@ -220,6 +235,8 @@ msgid ""
 "This affects how far brushes are spaced apart. In the below picture, the "
 "three examples on the left are with spacing 0, 1 and 5."
 msgstr ""
+"Впливає на відстань між послідовними зображеннями кінчика пензля у мазку. На "
+"наведеному нижче малюнку на трьох прикладах ліворуч маємо інтервал 0, 1 та 5."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:93
 msgid ""
@@ -228,6 +245,10 @@ msgid ""
 "picture, the three examples on right are with auto spacing, 0, 1 and 5 "
 "respectively."
 msgstr ""
+"Позначення цього пункту встановлює інший (квадратичний) алгоритм обчислення "
+"інтервалу для пензля. Результатом є точніше керування інтервалами. На "
+"наведеному нижче зображенні три приклади праворуч створено зі значеннями "
+"автоматичного інтервалу 0, 1 та 5, відповідно."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:95
 msgid "Auto (spacing)"
@@ -240,10 +261,15 @@ msgid ""
 "without smooth lines, and the right with. Very useful for inking brushes. "
 "This option is best used in combination with Auto Spacing."
 msgstr ""
+"Цей пункт вмикає надгладке згладжування. У наведеному нижче прикладі у обох "
+"випадках малювання відбувалося типовим пензлем із згасанням 0. Ліворуч "
+"результат без згладжування ліній, а праворуч — зі згладжуванням. Дуже зручно "
+"для пензлів для малювання чорнилом. Цей параметр варто використовувати у "
+"поєднанні із параметром автоматичного інтервалу."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:100
-msgid "Smooth lines."
-msgstr "Згладжувати лінії."
+msgid "Smooth lines"
+msgstr "Згладжувати лінії"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:103
 msgid "Precision"
@@ -256,6 +282,12 @@ msgid ""
 "a precision of 5 at all times, but a big filling brush for painting doesn't "
 "require such precision, and can be easily sped up by setting precision to 1."
 msgstr ""
+"Цей параметр відповідає за точність обробки зображення пензля. Чим нижчим "
+"буде його значення, тим швидше працюватиме пензель, але тим грубіше він "
+"виглядатиме. Варто завжди використовувати для пензлів для малювання чорнилом "
+"точність 5, але великий пензель для замальовування ділянок зображення не "
+"вимагає такої точності, — його можна легко пришвидшити, встановивши точність "
+"1."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:106
 msgid ""
@@ -263,107 +295,169 @@ msgid ""
 "the brush size at which precision is last 5, and the second is the size-"
 "difference at which the precision will decrease."
 msgstr ""
+"За допомогою цього пункту можна встановити зв'язок точності із розміром. "
+"Перше значення є розміром пензля, при якому точність складає 5, а друге — "
+"відмінність у розмірах, при якій точність буде зменшено."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:108
 msgid ""
 "For example: A brush with ''starting brush size'' 10 and ''delta'' 4, will "
-"have... precision 5 at size 10 precision 4 at size 14 precision 3 at size 18 "
-"precision 2 at size 22 precision 1 at sizes above 26."
+"have..."
 msgstr ""
+"Приклад: пензель із «початковим розміром пензля» 10 і «приростом» 4 матиме…"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:110
+msgid "precision 5 at size 10"
+msgstr "точність 5 при розмірі 10,"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:111
+msgid "precision 4 at size 14"
+msgstr "точність 4 при розмірі 14,"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:112
+msgid "precision 3 at size 18"
+msgstr "точність 3 при розмірі 18,"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:113
+msgid "precision 2 at size 22"
+msgstr "точність 2 при розмірі 22"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:114
 msgid "Auto (precision)"
 msgstr "Авто (точність)"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:118
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:114
+msgid "precision 1 at sizes above 26."
+msgstr "і точність 1 при розмірах, які перевищують 26."
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:119
 msgid "Predefined Brushes"
 msgstr "Попередньо визначені пензлі"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:121
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:122
 msgid ".. image:: images/en/Krita_Predefined_Brushes.png"
 msgstr ".. image:: images/en/Krita_Predefined_Brushes.png"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:122
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:123
 msgid ""
 "If you have used other applications like :program:`GIMP` or :program:"
 "`Photoshop`, you will have used this kind of brush. :program:`Krita` is "
 "(mostly) compatible with the brush tip definitions files of these "
 "applications:"
 msgstr ""
+"Якщо ви користувалися іншими програмами для малювання, зокрема :program:"
+"`GIMP` або :program:`Photoshop`, ви користуватиметеся цим типом пензлів. :"
+"program:`Krita` є (переважно) сумісною із файлами визначення кінчиків "
+"пензлів цих програм:"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:124
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:131
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
 msgid "abr"
 msgstr "abr"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
 msgid "GIMP autobrush tip definitions"
 msgstr "Визначення кінчика автопензля GIMP"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
 msgid ":ref:`file_gbr`"
 msgstr ":ref:`file_gbr`"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
 msgid "GIMP single bitmap brush tip. Can be black and white or colored."
 msgstr ""
+"Кінчик пензля GIMP у форматі одного растрового зображення. Може бути чорно-"
+"білим або кольоровим."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
 msgid ":ref:`file_gih`"
 msgstr ":ref:`file_gih`"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:130
 msgid ""
 "GIMP Image Hose brush tip: contains a series of brush tips that are painted "
 "randomly or in order after each other. Can be black and white or colored. :"
 "program:`Krita` does not yet support all the parameters yet."
 msgstr ""
+"Кінчик пензля з футляра зображень GIMP: містить набір кінчиків пензлів, які "
+"буде намальовано випадковим чином або за певним порядком. Може бути чорно-"
+"білим або кольоровим. У :program:`Krita` ще не передбачено підтримки усіх "
+"параметрів таких наборів."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:131
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
 msgid ""
 "Photoshop brush tip collections. We support many of the features of these "
 "brush files, though some advanced features are not supported yet."
 msgstr ""
+"Збірки кінчиків пензлів Photoshop. У нашій програмі передбачено підтримку "
+"багатьох із властивостей пензлів у таких файлах, але підтримку деяких "
+"складних можливостей усе ще не реалізовано."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:133
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:134
 msgid ""
 "Note that the definition of ABR brushes has been reverse engineered since "
 "Adobe does not make the specification public. We strongly recommend every :"
 "program:`Krita` user to share brush tips in GBR and GIH format and more "
 "complex brushes as :program:`Krita` presets."
 msgstr ""
+"Зауважте, що визначення пензлів ABR є результатом зворотної інженерії, "
+"оскільки компанія Adobe не оприлюднювала специфікації цього типу файлів. "
+"Наполегливо рекомендуємо усім користувачам :program:`Krita` оприлюднювати "
+"кінчики пензлів у форматах GBR та GIH, а складніші пензлі — у форматі набору "
+"пензлів :program:`Krita`."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:135
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:136
 msgid ""
 "All predefined brush tips are shown in one selector. There are four more "
 "options that influence the initial bitmap brush tip you start painting with:"
 msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:137
-msgid "Scale"
-msgstr "Масштабувати"
+"Усі попередньо визначені (стандартні) кінчики пензлів буде показано у одній "
+"таблиці. Передбачено чотири додаткових параметри, які впливають на "
+"початковий вигляд растрового кінчика пензля, з якого ви розпочинатимете "
+"малювання:"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
+msgid "Scale"
+msgstr "Масштаб"
+
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
 msgid ""
 "scales the brush tip. 1.0 is the native size of the brush tip. This can be "
 "fairly large! When painting with variable size (for instance governed by "
 "pressure), this is the base for the calculations."
 msgstr ""
+"визначає масштаб кінчика пензля. 1.0 — природний розмір кінчика пензля. Цей "
+"розмір може бути дуже великим! Під час малювання зі зміною розмірів пензля "
+"(наприклад, на основі даних щодо тиску з планшета), цей розмір є основою для "
+"інших обчислень."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
 msgid "Rotation"
 msgstr "Обертання"
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
 msgid "initial rotation of the brush tip."
 msgstr "початкове обертання кінчика пензля."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:142
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
 msgid "distance between the brush tip impressions."
 msgstr "відстань між мазками кінчика пензля."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:144
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:145
 msgid ""
 "for colored brushes, don't paint the actual colors, but make a grayscale "
 "brush tip that will be colored by your selected foreground/background color."
 msgstr ""
+"для кольорових пензлів, не малювати кольорами пензля, а створити кінчик "
+"пензля у відтінках сірого, а потім розфарбувати його кольором переднього "
+"плану або тла."
+
+#~ msgid ""
+#~ "For example: A brush with ''starting brush size'' 10 and ''delta'' 4, "
+#~ "will have... precision 5 at size 10 precision 4 at size 14 precision 3 at "
+#~ "size 18 precision 2 at size 22 precision 1 at sizes above 26."
+#~ msgstr ""
+#~ "Приклад: пензель із «початковим розміром пензля» 10 і «приростом» 4 "
+#~ "матиме точність 5 при розмірі 10, точність 4 при розмірі 14, точність 3 "
+#~ "при розмірі 18, точність 2 при розмірі 22 і точність 1 при розмірах, які "
+#~ "перевищують 26."

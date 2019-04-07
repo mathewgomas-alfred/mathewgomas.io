@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_engines___sketch_brush_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 03:25+0100\n"
-"PO-Revision-Date: 2019-03-11 22:23+0200\n"
+"POT-Creation-Date: 2019-04-03 03:42+0200\n"
+"PO-Revision-Date: 2019-04-03 14:19+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../<generated>:1
 msgid "Paint Connection Line"
@@ -41,6 +41,8 @@ msgstr ".. image:: images/icons/sketchbrush.svg"
 msgid ""
 "A line based brush engine, based on the Harmony brushes. Very messy and fun."
 msgstr ""
+"Рушій пензлів на основі ліній, засновано на пензлях Harmony. Дуже "
+"несподіваний і цікавий."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:25
 msgid "Parameters"
@@ -111,6 +113,8 @@ msgid ""
 "When curve lines are formed, this value roughly determines the distance from "
 "the curve lines to the connection lines:"
 msgstr ""
+"При формуванні кривих це значення приблизно визначає відстань від кривих до "
+"ліній з'єднання:"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:57
 msgid ""
@@ -118,18 +122,25 @@ msgid ""
 "similar outputs, as do a value of say 30% and 70%. You could think that the "
 "actual value range is between 50% and 200%."
 msgstr ""
+"Із цими значеннями доволі просто заплутатися: значення 0% і значення 100% "
+"дають схожі результати, так само, як значення, скажімо, 30% і 70%. Тому, "
+"можна вважати справжнім діапазоном значень усе від 50% до 200%."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:58
 msgid ""
 "0% and 100% correspond to the curve lines touching the connection lines "
 "exactly."
 msgstr ""
+"0% і 100% відповідають кривим лініям, які безпосередньо дотикаються ліній "
+"з'єднання."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:59
 msgid ""
 "Above 100%, the curve lines will go further than the connection lines, "
 "forming a fuzzy effect."
 msgstr ""
+"Значення понад 100% дають криві лінії, які йдуть дані за лінії з'єднання, "
+"створюючи ефект розпушення."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:62
 msgid ".. image:: images/en/Krita_2.9_brushengine_sketch_offset.png"
@@ -148,6 +159,8 @@ msgid ""
 "The density of the lines. This one is highly affected by the Brush-tip, as "
 "determined by the Distance Density toggle."
 msgstr ""
+"Щільність ліній. На це дуже впливає кінчик пензля, як це визначається "
+"перемикачем просторової зміну щільності."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:73
 msgid ".. image:: images/en/Krita_2.9_brushengine_sketch_density.png"
@@ -159,9 +172,11 @@ msgstr "Використовувати просторову зміну щіль�
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:75
 msgid ""
-"the further the line covered is from the center of the area of effect, the "
+"The further the line covered is from the center of the area of effect, the "
 "less the density of the resulting curve lines."
 msgstr ""
+"Чим далі перебуватиме лінія від центру ділянки дії ефекту, тим меншою буде "
+"щільність отриманих кривих ліній."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:77
 msgid "Magnetify"
@@ -176,6 +191,13 @@ msgid ""
 "line becomes fuzzier when another portion of the line is nearby, but the "
 "lines don't connect to said previous portion."
 msgstr ""
+"Типово намагнічування *увімкнено*. Намагнічування призводить до створення "
+"кривих між двома близькими сегментами лінії, — криві лінії притягаються "
+"подібно до магнітів. Якщо намагнічування буде *вимкнено*, програма просто "
+"формуватиме криву лінію на кожному із боків поточного активного сегмента "
+"лінії з'єднання. Іншими словами, ваша лінія ставатиме розпушенішою, коли "
+"поруч із нею перебуватиме інша частина лінії, але лінії не з'єднуватимуться "
+"із попередніми сегментами."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:79
 msgid "Random RGB"
@@ -194,6 +216,9 @@ msgid ""
 "The curve lines get random opacity. This one is barely visible, so for the "
 "example I used line width 12 and 100% opacity."
 msgstr ""
+"Криві лінії отримуватимуть випадковий рівень непрозорості. Наслідки "
+"застосування є ледве помітними, тому для прикладу автор використав товщину "
+"лінії 12 і 100% непрозорість."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:83
 msgid "Distance Opacity"
@@ -205,6 +230,9 @@ msgid ""
 "opacity will be calculated based on the distance from the center of the "
 "effect area."
 msgstr ""
+"Непрозорість на основі відстані. Коли ви швидко пересуваєте перо під час "
+"малювання, програма обчислюватиме непрозорість на основі даних щодо відстані "
+"від центру ділянки застосування ефекту."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:85
 msgid "Simple Mode"
@@ -212,10 +240,13 @@ msgstr "Простий режим"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:86
 msgid ""
-"this mode exists for performance reasons, and doesn't affect the output in a "
+"This mode exists for performance reasons, and doesn't affect the output in a "
 "visible way. Check this for large brushes or thick lines for faster "
 "rendering."
 msgstr ""
+"Цей режим реалізовано із міркувань швидкодії. Його використання не впливає "
+"на видимий результат. Позначте цей пункт для великих пензлів або товстих "
+"ліній, щоб програма обробляла зображення швидше."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:88
 msgid ""
@@ -226,6 +257,13 @@ msgid ""
 "density, and with a thick line width. The rest of the time, this option "
 "won't make a visible difference."
 msgstr ""
+"Те, що виглядає як лінія з'єднання, зазвичай, складається із самої лінії "
+"з'єднання та багатьох малих кривих ліній. Ця множина малих кривих ліній "
+"створює основну частину лінії. З цієї причини, єдиним випадком, коли "
+"використання цього пункту призводить до видимих наслідків, є випадок "
+"малювання зі щільністю 0% або щільністю, яка близька до 0%, та товстою "
+"лінією. В усіх інших випадках помітити наслідки застосування цього пункту "
+"дуже важко."
 
 #~ msgid "???"
 #~ msgstr "???"

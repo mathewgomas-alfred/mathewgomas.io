@@ -18,7 +18,7 @@ Advanced Color Selector
 .. image:: /images/en/Advancecolorselector.jpg
 
 
-As compared to other color selectors in Krita, Advance color selector provides more control and options to the user. To open Advance color selector choose :menuselection:`Settings --> Docker --> Advance Color Selector`. You can configure this docker by clicking on the little wrench icon on the top left corner. Clicking on the wrench will open a popup window with following tabs and options :
+As compared to other color selectors in Krita, Advanced color selector provides more control and options to the user. To open Advanced color selector choose :menuselection:`Settings --> Docker --> Advanced Color Selector`. You can configure this docker by clicking on the little wrench icon on the top left corner. Clicking on the wrench will open a popup window with following tabs and options:
 
 Color Selector
 --------------

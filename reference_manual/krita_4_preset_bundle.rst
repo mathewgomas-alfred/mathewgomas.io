@@ -38,7 +38,7 @@ Erasers
 Basics
 ------
 
-The basic brush family all use a basic circle for the brush tip with variation on opacity, flow or size. They are named Basic because this type of brush are the fundamental stones of every digital painting program. These brushes will work fast since they use simple properties. 
+The basic brush family all use a basic circle for the brush tip with a variation on opacity, flow or size. They are named Basic because brushes of this type are the fundamental stones of every digital painting program. These brushes will work fast since they use simple properties. 
 
 .. image:: /images/en/Krita4_b-brush-family.jpg
 
@@ -52,14 +52,14 @@ These presets tends to emulate the effect of pencil on paper. They all have a th
 Inking
 ------
 
-For the black & white illustrator or the comic artist. The Inking brushes help you produce line-art and high contrast illustrations.
+For the black & white illustrator or the comic artist. The Inking brushes help you produce line art and high contrast illustrations.
 
 * Ink Precision: A thin line designed to take notes or draw tiny lines or details.
 * Ink Fineliner: A preset with a regular width to trace panels, technical details, or buildings.
 * Ink GPen: A preset with a dynamic on size to ink smoothly.
 * Ink Pen Rough: A preset for inking with a focus on having a realistic ink line with irregularities (texture of the paper, fiber of paper absorption).
 * Ink Brush Rough: A brush for inking with also a focus on getting the delicate paper texture appearing at low pressure, as if the brush slightly touch paper.
-* Ink Sumi-e : A brush with abilities at revealing the thin texture of each bristles, making the line highly expressive.
+* Ink Sumi-e: A brush with abilities at revealing the thin texture of each bristle, making the line highly expressive.
 
 .. image:: /images/en/Krita4_d-brush-family.jpg
 
@@ -73,14 +73,14 @@ A small category with presets simulating a marker with a slight digital feeling 
 Dry Painting
 ------------
 
-The Dry Painting category is full set of brushes that appear like bristles. They do not interact with the color already on the canvas; that's why they are called "dry". They work as if you were painting on a dry artwork: the color replace, or overlay/glaze over the previous painting stroke. This brush emulate techniques that dry quickly as tempera or acrylics.
+The Dry Painting category is full set of brushes that appear like bristles. They do not interact with the color already on the canvas; that's why they are called "dry". They work as if you were painting on a dry artwork: the color replace, or overlay/glaze over the previous painting stroke. This brush emulates techniques that dry quickly as tempera or acrylics.
 
 .. image:: /images/en/Krita4_f-brush-family.jpg
 
 Dry Painting Textured
 ---------------------
 
-Almost the same family as the previous one, except this brush presets lay down a textured effect. They simulate this painting effects you can obtain with very thick painting on a brush caressing a canvas with a fabric texture. They help to build painterly background or add life in the last bright touch of colors.
+Almost the same family as the previous one, except these brush presets lay down a textured effect. They simulate the painting effect you can obtain with very thick painting on a brush caressing a canvas with fabric texture. This helps to build painterly background or add life in the last bright touch of colors.
 
 .. image:: /images/en/Krita4_g-brush-family.jpg
 
@@ -94,7 +94,7 @@ Still part of the dry family. These brushes focus on adding texture to the resul
 Wet painting
 ------------
 
-This family of brushes are wet in a sense they all interact with the color on the canvas. It triggers the feeling of having a wet artwork and mixing color at the same time. The category has variations with bristle effects or simple rounded brushes.
+This family of brushes is wet in a sense they all interact with the color on the canvas. It triggers the feeling of having a wet artwork and mixing color at the same time. The category has variations with bristle effects or simple rounded brushes.
 
 .. image:: /images/en/Krita4_i-brush-family.jpg
 
@@ -115,20 +115,20 @@ These brushes don't paint any colors. They interact with the color you already h
 Adjustments
 -----------
 
-This family of airbrushes have variations on the blending modes. Different blending modes will give different results depending on the effect you are trying to achieve.
+This family of airbrushes has variations on the blending modes. Different blending modes will give different results depending on the effect you are trying to achieve.
 
 * Color - Can help to re-color or desaturate a part of your artwork. It changes only the hue and saturation, not the value, of the pixels.
 * Dodge - Will assist you in creating effects such as neon or fire.
 * Lighten - Brightens only the area with the selected color: a good brush to paint depth of field (sfumato) and fog.
 * Multiply - Darkens all the time. A good brush to create a quick vignette effect around an artwork, or to manage big part in shadow.
-* Overlay - Burn helps to boost the contrast and overlay a color on some areas. 
+* Overlay - Burn helps to boost the contrast and overlay color on some areas.
 
 .. image:: /images/en/Krita4_l-brush-family.jpg
 
 Shapes
 ------
 
-Painting with ready-made shapes can help concept artists create happy-accidents and stimulate imagination. The Shape Fill tool is a bit specific: you can draw a silhouette of a shape and Krita fills it in real time. Painting shapes over an area  help fill it with random details. This is useful before painting over with more specific objects.
+Painting with ready-made shapes can help concept artists create happy-accidents and stimulate the imagination. The Shape Fill tool is a bit specific: you can draw a silhouette of shape and Krita fills it in real time. Painting shapes over an area helps fill it with random details. This is useful before painting over with more specific objects.
 
 .. image:: /images/en/Krita4_t-brush-family.jpg
 
@@ -170,6 +170,6 @@ Adding textures is not only useful for the 3D artist or video-game artist: in ma
 Stamps
 ------
 
-The stamps are bit similar to the texture category. Stamps often paint a pattern that is easier to recognize than if you tried to paint it manually. The results appear more as decorations than for normal painting methods.
+The stamps are a bit similar to the texture category. Stamps often paint a pattern that is easier to recognize than if you tried to paint it manually. The results appear more as decorations than for normal painting methods.
 
 .. image:: /images/en/Krita4_z-brush-family.jpg

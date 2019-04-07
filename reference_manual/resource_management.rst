@@ -25,7 +25,7 @@ Starting from 2.9 Krita has a new format to manage resources it is called ''Bund
 Tags
 ----
 
-Krita also has a robust tagging system for you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. you can |mouseleft| the plus icon in the docker and add a tag name. in addition to adding you can rename and delete a tag as well.
+Krita also has a robust tagging system for you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. You can |mouseleft| the plus icon in the docker and add a tag name. In addition to adding you can rename and delete a tag as well.
 
 .. image:: /images/en/Tags-krita.png
    :align: center
@@ -73,7 +73,7 @@ Importing Bundles
 ~~~~~~~~~~~~~~~~~
 
 To import a bundle click on :guilabel:`Import Bundles/Resources` button on the top right side of the dialog.
-Select .bundle file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click open. Once the bundle is imported it will be listed in the :guilabel:`Active Bundle` section, If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the :guilabel:`Inactive` section.
+Select .bundle file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click :guilabel:`Open`. Once the bundle is imported it will be listed in the :guilabel:`Active Bundle` section. If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the :guilabel:`Inactive` section.
 
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,24 +82,24 @@ You can create your own bundle from the resources of your choice. Click on the :
 
 .. image:: /images/en/Creating-bundle.png
 
-The left hand section is for filling up information about the bundle like author name, website, email , bundle icon, etc.
-the right hand side provides a list of available resources. Choose the type of resource you wish to add in to the bundle from the drop-down above and add it to the bundle by selecting a resource and clicking on the arrow button.
+The left hand section is for filling up information about the bundle like author name, website, email, bundle icon, etc.
+The right hand side provides a list of available resources. Choose the type of resource you wish to add in to the bundle from the drop-down above and add it to the bundle by selecting a resource and clicking on the arrow button.
 
 .. warning::
 
-    Make sure you add brush tips for used in the  respective paintop preset you are adding to the bundle. If you don't provide the brush tips then the brush presets loaded from this bundle will have a 'X' mark on the thumbnail denoting that the texture is missing. And the brush preset won't be the same
+    Make sure you add brush tips for used in the respective paintop presets you are adding to the bundle. If you don't provide the brush tips then the brush presets loaded from this bundle will have a 'X' mark on the thumbnail denoting that the texture is missing. And the brush preset won't be the same
 
-Once you have added all the resources you can create bundle by clicking on the save button, the bundle will be saved in the location you have specified. You can then share this bundle with other artists or load it on other workstations.
+Once you have added all the resources you can create bundle by clicking on the :guilabel:`Save` button, the bundle will be saved in the location you have specified. You can then share this bundle with other artists or load it on other workstations.
 
 Deleting Backup files
 ---------------------
 
-When you delete a preset from Krita. Krita doesn't actually delete the physical copy of the preset. It just adds it to a black list so that Next time when you start Krita the presets from this list are not loaded. To delete the brushes from this list click on delete backup files
+When you delete a preset from Krita, Krita doesn't actually delete the physical copy of the preset. It just adds it to a black list so that the next time when you start Krita the presets from this list are not loaded. To delete the brushes from this list click on :guilabel:`Delete Backup Files`.
 
 Deleting Imported Bundles
 -------------------------
 
-In-case you wish to delete the bundles you have imported permanently click on the :guilabel:`Open Resource Folder` button in the :guilabel:`Manage Resources` dialog. This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
+In case you wish to delete the bundles you have imported permanently click on the :guilabel:`Open Resource Folder` button in the :guilabel:`Manage Resources` dialog. This will open the resource folder in your file manager / explorer. Go inside the bundles folder and delete the bundle file which you don't need any more. The next time you start Krita the bundle and its associated resources will not be loaded.
 
 Resource Types in Krita
 -----------------------

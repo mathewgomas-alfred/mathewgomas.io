@@ -31,7 +31,7 @@ Other things that a layer stack can do are blending the colors of different laye
 
 .. tip:: Programmers talk about transparency as ''Alpha'', which is because the 'a' symbol is used to present transparency in the algorithms for painting one color on top of another. Usually when you see the word ''Alpha'' in a graphics program, just think of it as affecting the transparency.
 
-Preparing your line-art
+Preparing your line art
 -----------------------
 
 Put the new layer underneath the layer containing the line art (drag and drop or use the up/down arrows for that), and draw on it.
@@ -180,10 +180,10 @@ Disadvantages
 You'll have to lock the layer transparency or separate out the alpha via the right-click menu if you want to easily color it.
 
 
-Colouring the image
-===================
+Coloring the image
+==================
 
-Much like preparing the line art, there's many different ways of coloring a layer.
+Much like preparing the line art, there are many different ways of coloring a layer.
 
 You could for example fill in everything by hand, but while that is very precise it also takes a lot of work. Let's take a look at the other options, shall we?
 
@@ -214,7 +214,7 @@ Pretty darn quick depending on the available settings.
 Disadvantages
 """""""""""""
 
-Again, not great with gaps or details. And it works best with aliased line-art.
+Again, not great with gaps or details. And it works best with aliased line art.
 
 Selections
 ----------
@@ -296,12 +296,12 @@ So it works like this:
 4. Click update to see the results:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart10.png
-    :alt: coloring with colorise mask
+    :alt: coloring with colorize mask
 
 When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the line art semi-transparent and painting the flaws away with a pixel art brush.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart11.png
-    :alt: result from the colorise mask
+    :alt: result from the colorize mask
 
 Then, when you are done, split the layers via :menuselection:`Layers --> Split --> Split Layer`. There's a few options you can choose, but the following should be fine:
 

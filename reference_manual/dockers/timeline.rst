@@ -27,16 +27,18 @@ Legend:
 **A. Layer List --** This area contains some subset of the layers of your current document. The currently active layer is always shown and can be "pinned" to the timeline using the :guilabel:`Show in Timeline` menu action. Also, Layers that are created via the Timeline or added using the :guilabel:`Add Existing Layer` submenu are automatically pinned to the timeline. Each layer has properties that can also be toggled here (visible, locked, show onion skins, etc.). 
 
     * **Active Layer**
-        A highlighted row in the table show the currently active layer. One can change which layer is active by clicking on the layer's name within the left header. It is *not* possible to change active layer by clicking inside the table in order to not disturb the user when scrubbing and editing frame positions on the timeline.
+        A highlighted row in the table shows the current active layer. One can change which layer is active by clicking on the layer's name within the left header. It is *not* possible to change the active layer by clicking inside the table in order to not disturb the user when scrubbing and editing frame positions on the timeline.
 
 **B. Frame Table --** The Frame Table is a large grid of cells which can either hold a single frame or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame timing*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but are based on frames which can then be played back at any speed, depending on the :ref:`animation_docker`'s *frame rate* and *play speed* settings. 
 
 	Frames can be moved around the timeline by simply left-clicking and dragging from one frame to another slot, even across layers. Furthermore, holding :kbd:`Ctrl` while moving creates a copy. Right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, and pasting frames or adjusting timing with holds.
 
     * **Current Selection:**
-        Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding or removing frames or holds within the currently selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
+        Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding or removing frames or holds within the current selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
  
-        *WARNING:* Painting always happens only in the *active frame* (represented by a small dot), which is not necessarily part of your current selection.
+        .. warning::
+
+         Painting always happens only in the *active frame* (represented by a small dot), which is not necessarily part of your current selection.
 
     * **Keys, Blanks, and Holds:**
         The Timeline Docker now shows us even more useful information about both what is there as well as what is not. **Key frames** which contain drawings are still displayed as *filled blocks* within a cell, while **blank** or empty key frames are shown as a *hollow outline*. In Krita, every drawn frame is automatically held until the next frame; these **holds** are now clearly shown with a *colored line* across all held frames. The color of frames can be set per-frame by the animator using the right-click menu, and is a matter of personal workflow. 
@@ -50,8 +52,10 @@ Legend:
 
     * **Active Frame:** 
        A frame of the *active layer* at the *current time* position. The active frame is always marked with a small circle inside. All drawing, painting, and image editing operations happen on this frame only!
- 
-       *WARNING:* Don't mix the active frame up with the current selection!
+
+        .. warning::
+
+         Don't mix the active frame up with the current selection!
 
 **E. Layer Menu --** A small menu for manipulating animation layers. You can create new layers, add or remove existing ones, and you can set 'Show in Timeline' here to pin the active layer to the Timeline. (This menu also shows up when right-clicking on layers inside of the Layer List.)
 

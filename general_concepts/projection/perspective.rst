@@ -38,7 +38,7 @@ That went pretty well. As you can see we sorta ‘merged’ the two sides into o
 .. image:: /images/en/category_projection/projection-cube_13.svg 
    :align: center
 
-… to get three-point projection, but this is a bit much.(And I totally made a mistake in there…)
+… to get three-point projection, but this is a bit much. (And I totally made a mistake in there…)
 
 Let’s setup our perspective projection again…
 
@@ -47,7 +47,7 @@ Let’s setup our perspective projection again…
 
 We’ll be using a single vanishing point for our focal point. A guide line will be there for the projection plane, and we’re setting up horizontal and vertical parallel rules to easily draw the straight lines from the view plane to where they intersect.
 
-And now the workflow in gif-format…(don’t forget you can rotate the canvas with 4 and 6)
+And now the workflow in gif-format… (don’t forget you can rotate the canvas with :kbd:`4` and :kbd:`6`)
 
 .. image:: /images/en/category_projection/projection_animation_03.gif 
    :align: center
@@ -75,7 +75,7 @@ We draw horizontal lines on the originals, so that we can align vanishing point 
 .. image:: /images/en/category_projection/projection_image_34.png
    :align: center
 
-And from this, like with the shearing method, we start drawing.(don’t forget the top-views!)
+And from this, like with the shearing method, we start drawing. (Don’t forget the top-views!)
 
 Which should get you something like this:
 
@@ -94,6 +94,6 @@ Uhm, yes, that’s more or less why people spent time on developing 3d graphics 
 .. image:: /images/en/category_projection/projection_image_37.png
    :align: center
 
-(above sculpted in blender using our orthographic reference)
+(The image above is sculpted in blender using our orthographic reference)
 
 So let us look at what this technique can be practically used for in the next part...

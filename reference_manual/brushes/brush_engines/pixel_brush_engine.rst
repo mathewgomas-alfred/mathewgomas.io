@@ -56,7 +56,7 @@ Specific Parameters to the Pixel Brush Engine
 Darken
 ~~~~~~
 
-Allows you to Darken the source colour with Sensors.
+Allows you to Darken the source color with Sensors.
 
 .. image:: /images/en/Krita_2_9_brushengine_darken_01.png
 

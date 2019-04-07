@@ -59,9 +59,9 @@ First, let's prepare our front and side views:
 .. image:: /images/en/category_projection/projection_image_01.png 
    :align: center
 
-I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap to image borders` active via :kbd:`Shift` + :kbd:`S`
+I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap Image Bounds` active via :kbd:`Shift` + :kbd:`S`
 
-Then, by moving the mirror to the left, you can design a front-view from the sideview, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
+Then, by moving the mirror to the left, you can design a front view from the side view, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
 
 Eventually, you should have something like this: 
 
@@ -75,7 +75,7 @@ And of course, let us not forget the top, it's pretty important:
 
 .. tip::
 
-    When you are using Krita, you can just use transform masks to rotate the side view for drawing the top-view.
+    When you are using Krita, you can just use transform masks to rotate the side view for drawing the top view.
 
 The top view works as a method for debugging your orthos as well. If we take the red line to figure out the orthographics from, we see that our eyes are obviously too inset. Let's move them a bit more forward, to around the nose.
 
@@ -89,7 +89,7 @@ If you want to do precision position moving in the tool options docker, just sel
 
 We fix the top view now. Much better.
 
-For faces, the multiple slices are actually pretty important. So important even, that I have decided we should have these slices on separate layers. Thankfully, I chose to colour them, so all we need to do is go to :menuselection:`Layer --> Split Layer`
+For faces, the multiple slices are actually pretty important. So important even, that I have decided we should have these slices on separate layers. Thankfully, I chose to color them, so all we need to do is go to :menuselection:`Layer --> Split Layer`
 .
 
 .. image:: /images/en/category_projection/projection_image_06.png 
@@ -112,17 +112,17 @@ Set it up as follows:
 .. image:: /images/en/category_projection/projection_image_09.png 
    :align: center
 
-* Both frontview and sideview are set up as 'visible in timeline' so we can always see them.
-* Frontview has its visible frame on frame 0 and an empty-frame on frame 23.
+* Both front view and side view are set up as 'visible in timeline' so we can always see them.
+* Front view has its visible frame on frame 0 and an empty frame on frame 23.
 * Side view has its visible frame on frame 23 and an empty view on frame 0.
 * The end of the animation is set to 23.
 
 .. image:: /images/en/category_projection/projection_image_10.png 
    :align: center
 
-Krita can't animate a transformation on multiple layers on multiple frames yet, so let's just only transform the top layer. Add a semi-transparent layer where we draw the guide-lines.
+Krita can't animate a transformation on multiple layers on multiple frames yet, so let's just only transform the top layer. Add a semi-transparent layer where we draw the guidelines.
 
-Now, select frame 11 (halfway), add new frames from frontview, sideview and the guide-lines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top-view and use the transform tool to rotate it 45°.
+Now, select frame 11 (halfway), add new frames from front view, side view and the guidelines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top view and use the transform tool to rotate it 45°.
 
 .. image:: /images/en/category_projection/projection_image_11.png 
    :align: center
@@ -147,7 +147,8 @@ Eventually, if you have the top slices rotate every frame with 15°, you should 
 .. image:: /images/en/category_projection/projection_animation_01.gif 
    :align: center
 
-(Because our boy here is fully symmetrical, you can just animate one side and flip the frames for the other half)
-(While it is not necessary to follow all the steps in the theory section to understand the tutorial, I do recommend making a turn table sometime. It teaches you a lot about drawing 3/4th faces.
+Because our boy here is fully symmetrical, you can just animate one side and flip the frames for the other half.
+
+While it is not necessary to follow all the steps in the theory section to understand the tutorial, I do recommend making a turn table sometime. It teaches you a lot about drawing 3/4th faces.
 
 How about… we introduce the top view into the drawing itself?

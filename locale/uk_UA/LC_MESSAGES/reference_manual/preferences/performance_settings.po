@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___preferences___performance_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-17 03:34+0100\n"
-"PO-Revision-Date: 2019-03-17 08:36+0200\n"
+"POT-Creation-Date: 2019-04-03 03:42+0200\n"
+"PO-Revision-Date: 2019-04-03 07:15+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -49,6 +49,9 @@ msgid ""
 "but all do require you to restart :program:`Krita`, so it can do this "
 "organisation properly."
 msgstr ""
+"Ці налаштування надають вам змогу змінити організацію самої :program:"
+"`Krita`, але потребують перезапуску :program:`Krita` для належного "
+"застосування зміненої організації."
 
 #: ../../reference_manual/preferences/performance_settings.rst:23
 msgid "RAM"
@@ -120,6 +123,9 @@ msgid ""
 "usually paint on the image of 3000x3000x8bit-ARGB, the pool should be "
 "something like 36 MiB."
 msgstr ""
+"Рекомендованим значенням є розмір одного шару вашого зображення. Наприклад, "
+"якщо ви малюєте зображення 3000x3000x8-бітів-ARGB, буфер повинен бути "
+"розміром приблизно 36 МіБ."
 
 #: ../../reference_manual/preferences/performance_settings.rst:39
 msgid "Internal Pool"
@@ -130,6 +136,8 @@ msgid ""
 "As :program:`Krita` does this on start-up, you will need to restart :program:"
 "`Krita` to have this change affect anything."
 msgstr ""
+"Оскільки :program:`Krita` виконує цю дію під час запуску, вам доведеться "
+"перезапустити :program:`Krita`, щоб ця зміна набула чинності."
 
 #: ../../reference_manual/preferences/performance_settings.rst:42
 msgid ""
@@ -187,6 +195,8 @@ msgid ""
 "Since 4.0, Krita supports multithreading for the animation cache and "
 "handling the drawing of brush tips when using the pixel brush."
 msgstr ""
+"Починаючи з версії 4.0, у Krita передбачено багатопотокову обробку для кешу "
+"анімації та малювання кінчиків пензлів при використанні піксельного пензля."
 
 #: ../../reference_manual/preferences/performance_settings.rst:61
 msgid "CPU Limit"
@@ -253,7 +263,7 @@ msgstr "Вимкнути векторні оптимізації (для про�
 msgid ""
 "Vector optimizations are a special way of asking the CPU to do maths, these "
 "have names such as SIMD and AVX. These optimizations can make Krita a lot "
-"faster when painting, except when you have a AMD CPU under windows. There "
+"faster when painting, except when you have a AMD CPU under Windows. There "
 "seems to be something strange going on there, so just deactivate them then."
 msgstr ""
 
@@ -283,9 +293,11 @@ msgstr "Журналювання швидкодії"
 
 #: ../../reference_manual/preferences/performance_settings.rst:81
 msgid ""
-"So for unnamed files, this is the ``$home`` folder in Linux, and the ``%TEMP"
-"%`` folder in windows."
+"So for unnamed files, this is the ``$HOME`` folder in Linux, and the ``%TEMP"
+"%`` folder in Windows."
 msgstr ""
+"Отже, для файлів без назви це така ``$HOME`` у Linux і тека ``%TEMP%`` у "
+"Windows."
 
 #: ../../reference_manual/preferences/performance_settings.rst:84
 msgid "Animation Cache"
@@ -296,6 +308,8 @@ msgid ""
 "The animation cache is the space taken up by animation frames in the memory "
 "of the computer. A cache in this sense is a cache of precalculated images."
 msgstr ""
+"Кеш анімації це область пам'яті, яку займають кадри анімації у пам'яті "
+"комп'ютера. Кеш, у певному сенсі, є кешем попередньо оброблених зображень."
 
 #: ../../reference_manual/preferences/performance_settings.rst:90
 msgid ""
@@ -335,12 +349,18 @@ msgstr ""
 #: ../../reference_manual/preferences/performance_settings.rst:102
 msgid ""
 "Please make sure your computer has enough RAM *above* the amount you "
-"requested in the general tab. Otherwise you might face system freezes."
+"requested in the :guilabel:`General` tab. Otherwise you might face system "
+"freezes."
 msgstr ""
+"Переконайтеся, що на вашому комп'ютері достатньо оперативної пам'яті, "
+"*більше* за обсяг, який було визначено на вкладці :guilabel:`Загальне`. Якщо "
+"пам'яті буде недостатньо, система може «замерзнути»."
 
 #: ../../reference_manual/preferences/performance_settings.rst:104
 msgid "For 1 second of FullHD @ 25 FPS you will need 200 extra MiB of Memory"
 msgstr ""
+"Для однієї секунди анімації у форматі FullHD з 25 кадрами за секунду вам "
+"потрібно додатково 200 МіБ пам'яті."
 
 #: ../../reference_manual/preferences/performance_settings.rst:105
 msgid "In-memory"
@@ -350,6 +370,8 @@ msgstr "У пам'яті"
 msgid ""
 "For 1 second of 4K UltraHD@ 25 FPS, you will need 800 extra MiB of Memory."
 msgstr ""
+"Для однієї секунди анімації у форматі 4K UltraHD з 25 кадрами за секунду вам "
+"потрібно додатково 800 МіБ пам'яті."
 
 #: ../../reference_manual/preferences/performance_settings.rst:108
 msgid ""
@@ -357,6 +379,9 @@ msgid ""
 "file. The cache is stored in a compressed way. A little amount of extra RAM "
 "is needed."
 msgstr ""
+"Кадри анімації зберігаються на жорсткому диску у тій самій теці, що і файл "
+"резервної пам'яті на диску. Кеш зберігається у стисненому форматі. Для нього "
+"потрібно трохи додаткової пам'яті."
 
 #: ../../reference_manual/preferences/performance_settings.rst:110
 msgid "On-disk"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 03:34+0100\n"
-"PO-Revision-Date: 2019-03-18 11:59+0000\n"
+"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"PO-Revision-Date: 2019-04-04 10:54+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -185,7 +185,7 @@ msgid ""
 msgstr ""
 "Este é um ângulo um pouco estranho e, para além disso, não se alinha "
 "sensivelmente com os pixels; por isso, para os jogos de vídeo, é usado um "
-"ãngulo de 30° a partir do plano do chão."
+"ângulo de 30° a partir do plano do chão."
 
 #: ../../general_concepts/projection/axonometric.rst:47
 msgid "Alright, so, let's make an isometric out of our boy then."
@@ -214,37 +214,31 @@ msgstr ""
 "Iremos então importar algumas das imagens da animação através da opção :"
 "menuselection:`Camadas --> Importar/Exportar --> Importar uma camada`."
 
-#: ../../general_concepts/projection/axonometric.rst:59
+#: ../../general_concepts/projection/axonometric.rst:58
 msgid ""
 "Then crop it by setting the crop tool to :guilabel:`Layer`, and use :"
-"menuselection:`Filters --> Colors --> Color to alpha`"
+"menuselection:`Filters --> Colors --> Color to alpha` to remove any "
+"background. I also set the layers to 50% opacity. We then align the vectors "
+"to them:"
 msgstr ""
 "Depois iremos recortá-la, seleccionando a ferramenta de recorte como :"
 "guilabel:`Camada` e usando os :menuselection:`Filtros --> Cores --> Cor para "
-"o alfa`"
+"o alfa` para remover todo o fundo. Também foi configura a opacidade a 50%. "
+"Finalmente, alinham-se os vectores a eles:"
 
-#: ../../general_concepts/projection/axonometric.rst:59
+#: ../../general_concepts/projection/axonometric.rst:65
 msgid ""
-"to remove any background. I also set the layers to 50% opacity. We then "
-"align the vectors to them:"
+"To resize a vector but keep its angle, you just select it with the shape "
+"handling tool (the white arrow) drag on the corners of the bounding box to "
+"start moving them, and then press :kbd:`Shift` to constrain the ratio. "
+"This'll allow you to keep the angle."
 msgstr ""
-"para remover todo o fundo. Foi também configurada a opacidade de todas as "
-"camadas para 50%. Iremos então alinhar os vectores a elas:"
+"Para dimensionar um vector mas mantendo o seu ângulo, podê-lo-á seleccionar "
+"com a ferramenta de tratamento de formas - a seta branca - arraste os cantos "
+"da área envolvente para os começar a mover e depois carregue em :kbd:`Shift` "
+"para restringir as proporções. Isto permitir-lhe-á manter o ângulo."
 
-#: ../../general_concepts/projection/axonometric.rst:64
-msgid ""
-"(Tip, to resize a vector but keep its angle, you just select it with the "
-"shape handling tool (the white arrow) drag on the corners of the bounding "
-"box to start moving them, and then press :kbd:`Shift` to constrain the "
-"ratio. This'll allow you to keep the angle)"
-msgstr ""
-"(Sugestão: para dimensionar um vector mas mantendo o seu ângulo, podê-lo-á "
-"seleccionar com a ferramenta de tratamento de formas - a seta branca - "
-"arraste os cantos da área envolvente para os começar a mover e depois "
-"carregue em :kbd:`Shift` para restringir as proporções. Isto permitir-lhe-á "
-"manter o ângulo)"
-
-#: ../../general_concepts/projection/axonometric.rst:66
+#: ../../general_concepts/projection/axonometric.rst:67
 msgid ""
 "The lower image is 'the back seen from the front', we'll be using this to "
 "determine where the ear should go."
@@ -252,16 +246,16 @@ msgstr ""
 "A imagem inferior é 'a parte de trás vista de frente' e será usada para "
 "determinar onde irá ficar a orelha."
 
-#: ../../general_concepts/projection/axonometric.rst:68
+#: ../../general_concepts/projection/axonometric.rst:69
 msgid ""
-"Now, we obviously have too little space, so select the crop tool, select "
-"'image' and tick 'grow' and do the following:"
+"Now, we obviously have too little space, so select the crop tool, select :"
+"guilabel:`Image` and tick :guilabel:`Grow` and do the following:"
 msgstr ""
 "Agora, obviamente teremos pouco espaço, por isso seleccione a ferramenta de "
-"recorte, seleccione a 'imagem' e assinale a opção 'aumentar' e depois o "
-"seguinte:"
+"recorte, seleccione a :guilabel:`Imagem` e assinale a opção :guilabel:"
+"`Aumentar` e depois o seguinte:"
 
-#: ../../general_concepts/projection/axonometric.rst:73
+#: ../../general_concepts/projection/axonometric.rst:74
 msgid ""
 "Grow is a more practical way of resizing the canvas in width and height "
 "immediately."
@@ -269,7 +263,7 @@ msgstr ""
 "O Aumento é uma forma mais prática de dimensionar imediatamente a área de "
 "desenho na sua altura e largura."
 
-#: ../../general_concepts/projection/axonometric.rst:75
+#: ../../general_concepts/projection/axonometric.rst:76
 msgid ""
 "Then we align the other heads and transform them by using the transform tool "
 "options:"
@@ -277,7 +271,7 @@ msgstr ""
 "Depois iremos alinhar as outras cabeças e transformá-las com as opções da "
 "ferramenta de transformação:"
 
-#: ../../general_concepts/projection/axonometric.rst:80
+#: ../../general_concepts/projection/axonometric.rst:81
 msgid "(330° here is 360°-30°)"
 msgstr "(os 330° aqui são 360°-30°)"
 
@@ -285,15 +279,12 @@ msgstr "(os 330° aqui são 360°-30°)"
 msgid ""
 "Our rectangle we'll be working in slowly becomes visible. Now, this is a bit "
 "of a difficult angle to work at, so we go to :menuselection:`Image --> "
-"Rotate --> Custom Rotation`"
+"Rotate --> Rotate Image` and fill in 30° clockwise:"
 msgstr ""
 "O nosso rectângulo que estaremos a tratar lentamente vai ficando visível. "
 "Agora, este é um ângulo um pouco difícil de usar, por isso vamos a :"
-"menuselection:`Imagem --> Rodar --> Rotação Personalizada`"
-
-#: ../../general_concepts/projection/axonometric.rst:83
-msgid "and fill in 30° clockwise:"
-msgstr "e preencha então 30° no sentido horário (ponteiros do relógio):"
+"menuselection:`Imagem --> Rodar --> Rotação Personalizada` e preencher 30° "
+"no sentido horário (dos ponteiros do relógio):"
 
 #: ../../general_concepts/projection/axonometric.rst:90
 msgid ""
@@ -345,11 +336,11 @@ msgstr ""
 
 #: ../../general_concepts/projection/axonometric.rst:112
 msgid ""
-"We open our orthographic with 'open existing document as untitled document' "
-"so that we don't save over it."
+"We open our orthographic with :guilabel:`Open existing Document as Untitled "
+"Document` so that we don't save over it."
 msgstr ""
-"Iremos abrir a nossa projecção ortográfica com 'abrir um documento existente "
-"como um documento sem título' para não gravemos sobre ela."
+"Iremos abrir a nossa projecção ortográfica com :guilabel:`Abrir um Documento "
+"Existente como um Documento sem Título` para não gravemos sobre ela."
 
 #: ../../general_concepts/projection/axonometric.rst:114
 msgid ""
@@ -404,7 +395,7 @@ msgstr ""
 #: ../../general_concepts/projection/axonometric.rst:143
 msgid ""
 "The creepiness is because we've had the tiniest bit of stylisation in our "
-"sideview, so the eyes come out HUGE. This is because when we stylise the "
+"side view, so the eyes come out HUGE. This is because when we stylise the "
 "side view of an eye, we tend to draw it not perfectly from the side, but "
 "rather slightly at an angle. If you look carefully at the turntable, the "
 "same problem crops up there as well."

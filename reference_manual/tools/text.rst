@@ -49,7 +49,7 @@ A small window for all your text editing needs. The Text Editor has two tabs: Ri
 
 Activating
 
-    You can use the Text tool to first create a text box. There are a few options in the tool options if you want to customize how the text will be adding. You will need to drag a rectangle on the canvas to create the text area. There is no word wrapping, so for now the box you draw will not have an effect on the results. Once your text is created, you can edit the text from two ways:
+    You can use the Text tool to first create a text box. There are a few options in the tool options if you want to customize how the text will be adding. You will need to drag a rectangle on the canvas to create the text area. Once your text is created, you can edit the text from two ways:
     
     #. Select the text with the shape selection tool (first tool). Press the :kbd:`Enter` key. The text editor will appear.
     #. Select the text with the shape selection tool (first tool). Then click the Text tool. In the tool options there is an :guilabel:`Edit Text` button. When you click that the text editor window will appear. 
@@ -173,7 +173,7 @@ Word-spacing, Letter-spacing and Kerning
 These three are written and read from the rich text tab, but have no sliders associated with them, because there was no time.
 
 Kerning
-    `Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty Kerning>`_ behaves slightly differently than font-kerning in css. Krita by default uses the auto property for this, which means it is on. To turn it off use kerning:0 in the style section of the text.
+    `Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty>`_ behaves slightly differently than font-kerning in css. Krita by default uses the auto property for this, which means it is on. To turn it off use kerning:0 in the style section of the text.
 
     .. image:: /images/en/Krita_4_0_text_kerning.png
        :align: center
@@ -185,7 +185,7 @@ Kerning
         </text>
 
 Letter-spacing
-    This is the distance between letters in pts, usually. Just write ``letter-spacing`` in the style and add a distance in pts behind it. A negative value will decrease the value between words.
+    This is the distance between letters in pts, usually. Just write ``letter-spacing`` in the style and add a distance in pts behind it. A negative value will decrease the value between letters.
 Word-spacing
     This is the extra distance between words, defaulting to pts. By default, ``word-spacing: 0;`` will have it use only the width of the space character for that font. A negative value will decrease the amount of space between words:
 

@@ -29,7 +29,7 @@ Doesn't actually do anything.
 
 **Calligraphy**
 
-The drop-down menu holds your saved presets, the save button next to it allows you to save presets.
+The drop-down menu holds your saved presets, the :guilabel:`Save` button next to it allows you to save presets.
 
 Follow Selected Path
     If a stroke has been selected with the default tool, the calligraphy tool will follow this path.
