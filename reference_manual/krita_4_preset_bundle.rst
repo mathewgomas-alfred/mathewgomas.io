@@ -80,7 +80,7 @@ The Dry Painting category is full set of brushes that appear like bristles. They
 Dry Painting Textured
 ---------------------
 
-Almost the same family as the previous one, except this brush presets lay down a textured effect. They simulate this painting effects you can obtain with very thick painting on a brush caressing a canvas with fabric texture. They help to build painterly background or add life in the last bright touch of colors.
+Almost the same family as the previous one, except these brush presets lay down a textured effect. They simulate the painting effect you can obtain with very thick painting on a brush caressing a canvas with fabric texture. This helps to build painterly background or add life in the last bright touch of colors.
 
 .. image:: /images/en/Krita4_g-brush-family.jpg
 
@@ -128,7 +128,7 @@ This family of airbrushes has variations on the blending modes. Different blendi
 Shapes
 ------
 
-Painting with ready-made shapes can help concept artists create happy-accidents and stimulate the imagination. The Shape Fill tool is a bit specific: you can draw a silhouette of shape and Krita fills it in real time. Painting shapes over an area  help fill it with random details. This is useful before painting over with more specific objects.
+Painting with ready-made shapes can help concept artists create happy-accidents and stimulate the imagination. The Shape Fill tool is a bit specific: you can draw a silhouette of shape and Krita fills it in real time. Painting shapes over an area helps fill it with random details. This is useful before painting over with more specific objects.
 
 .. image:: /images/en/Krita4_t-brush-family.jpg
 
