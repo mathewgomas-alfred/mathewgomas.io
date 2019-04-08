@@ -326,4 +326,4 @@ No anti aliasing of it’s own. You have to choose between getting details right
 Conclusion
 ----------
 
-I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled line art is better than a badly shaded one, so keep practising to get the best out of these techniques!
+I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled line art is better than a badly shaded one, so keep practicing to get the best out of these techniques!
