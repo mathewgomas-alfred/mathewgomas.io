@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___colorize_mask\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"POT-Creation-Date: 2019-04-07 03:38+0200\n"
 "PO-Revision-Date: 2019-04-06 15:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -51,6 +51,24 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -99,24 +117,6 @@ msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_11.png"
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
 msgstr ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
-msgstr ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 
 #: ../../reference_manual/tools/colorize_mask.rst:1
 msgid "How to use the colorize mask in Krita."
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:45
 msgid ""
-"Now, You make strokes with brush colors, press :guilabel:`Update` in the "
+"Now, you make strokes with brush colors, press :guilabel:`Update` in the "
 "tool options, or tick the last icon of the colorize mask properties. In the "
 "layer docker, you will be able to see a little progress bar appear on the "
 "colorize mask indicating how long it takes. The bigger your file, the longer "
@@ -310,9 +310,9 @@ msgid ""
 "from the first image to the following took only 30 minutes, and would've "
 "taken quite a bit longer."
 msgstr ""
-"Таким чином, можна швидко намалювати картину. Завдяки масці розфарбовування"
-" малювання від першого зображення до наступного тривало лише 30 хвилин, а"
-" могло тривати набагато довше."
+"Таким чином, можна швидко намалювати картину. Завдяки масці розфарбовування "
+"малювання від першого зображення до наступного тривало лише 30 хвилин, а "
+"могло тривати набагато довше."
 
 #: ../../reference_manual/tools/colorize_mask.rst:111
 msgid ""
@@ -363,10 +363,10 @@ msgid ""
 "active, this will be shown semi-transparently, so it will be easy to "
 "recognize the difference between the strokes and the output."
 msgstr ""
-"Показати результат застосування маски розфарбовування. Якщо позначено пункт"
-" :guilabel:`Редагувати ключові мазки`, його буде показано напівпрозорим, отже"
-" вам буде просто визначити відмінність між мазками та результатами"
-" застосування маски."
+"Показати результат застосування маски розфарбовування. Якщо позначено пункт :"
+"guilabel:`Редагувати ключові мазки`, його буде показано напівпрозорим, отже "
+"вам буде просто визначити відмінність між мазками та результатами "
+"застосування маски."
 
 #: ../../reference_manual/tools/colorize_mask.rst:127
 #: ../../reference_manual/tools/colorize_mask.rst:165
@@ -416,7 +416,7 @@ msgid ""
 "While the algorithm is pretty good against gaps in contours, this will "
 "improve the gap recognition. The higher this value is, the bigger the gaps "
 "it will try to close, but a too high value can lead to other errors. Note "
-"how the pre-filtered line art (that's the blurry haze) affects the color "
+"how the prefiltered line art (that's the blurry haze) affects the color "
 "patches."
 msgstr ""
 
@@ -452,10 +452,10 @@ msgid ""
 "so you can switch back to colors easily. You can increase the swatch size by "
 "hovering over it with the mouse, and doing :kbd:`Ctrl +` |mousescroll|."
 msgstr ""
-"За допомогою цієї палітри можна стежити за кольорами, які використано у"
-" мазках. Це корисно для перемикання до вже використаних кольорів. Збільшити"
-" розмір пункту пробника можна наведенням на нього вказівника миші із"
-" наступним використанням комбінації :kbd:`Ctrl +` |mousescroll|."
+"За допомогою цієї палітри можна стежити за кольорами, які використано у "
+"мазках. Це корисно для перемикання до вже використаних кольорів. Збільшити "
+"розмір пункту пробника можна наведенням на нього вказівника миші із "
+"наступним використанням комбінації :kbd:`Ctrl +` |mousescroll|."
 
 #: ../../reference_manual/tools/colorize_mask.rst:158
 msgid "Transparent"
@@ -467,9 +467,9 @@ msgid ""
 "to be interpreted a 'transparent' with this. In the clean-up screenshot "
 "above, cyan had been marked as transparent."
 msgstr ""
-"Цю кнопку розташовано під палітрою ключових мазків. За її допомогою можна"
-" позначити вибраний колір як «прозорий». На знімку вікна із чищенням,"
-" наведеному вище, прозорим було вибрано блакитний колір."
+"Цю кнопку розташовано під палітрою ключових мазків. За її допомогою можна "
+"позначити вибраний колір як «прозорий». На знімку вікна із чищенням, "
+"наведеному вище, прозорим було вибрано блакитний колір."
 
 #: ../../reference_manual/tools/colorize_mask.rst:161
 msgid "Layer properties"

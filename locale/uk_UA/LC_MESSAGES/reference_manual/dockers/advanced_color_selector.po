@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___dockers___advanced_color_selector\n"
+"Project-Id-Version: docs_krita_org_reference_manual___dockers___advanced_color"
+"_selector\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-31 21:12+0300\n"
+"POT-Creation-Date: 2019-04-07 03:38+0200\n"
+"PO-Revision-Date: 2019-04-07 15:39+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -35,12 +35,12 @@ msgstr ".. image:: images/en/Advancecolorselector.jpg"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:21
 msgid ""
-"As compared to other color selectors in Krita, Advance color selector "
-"provides more control and options to the user. To open Advance color "
-"selector choose :menuselection:`Settings --> Docker --> Advance Color "
+"As compared to other color selectors in Krita, Advanced color selector "
+"provides more control and options to the user. To open Advanced color "
+"selector choose :menuselection:`Settings --> Docker --> Advanced Color "
 "Selector`. You can configure this docker by clicking on the little wrench "
 "icon on the top left corner. Clicking on the wrench will open a popup window "
-"with following tabs and options :"
+"with following tabs and options:"
 msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:24
@@ -104,6 +104,10 @@ msgid ""
 "has higher intensity than blue (0,0,1) but is the same intensity as cyan "
 "(0,1,1)."
 msgstr ""
+"Абревіатура від Hue (відтінок), Saturation (насиченість) та Intensity"
+" (інтенсивність). На відміну від HSL, тут інтенсивність визначається як сума"
+" значень компонентів RGB. Жовтий колір (1,1,0) має вищу інтенсивність за"
+" синій (0,0,1), але таку саму інтенсивність як блакитний (0,1,1)."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:43
 msgid "HSY'"
@@ -132,6 +136,9 @@ msgid ""
 "wildcard shape: All color models look the same in an equilateral triangle "
 "selector."
 msgstr ""
+"Трикутник використовують для усіх моделей кольорів, оскільки, до певної міри,"
+" це універсальна форма: усі моделі кольорів виглядають однаково на засобі"
+" вибору кольору за допомогою рівнобічного трикутника."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:52
 msgid "Luma Coefficients"
