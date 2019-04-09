@@ -60,28 +60,28 @@ There are four ways to manipulate your image using this tool and the guides on y
 Transform/Move
 ~~~~~~~~~~~~~~
 
-:.. image:: /images/en/Transform.png
+.. image:: /images/en/Transform.png
 
 This feature of the tool allows you to move your object by clicking and dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock your moves to one axis.
 
 Size/Stretch
 ~~~~~~~~~~~~
 
-:.. image:: /images/en/Resize.png
+.. image:: /images/en/Resize.png
 
 This feature of the tool allows you to stretch your shape.  Selecting a midpoint will allow stretching along one axis. Selecting a corner point will allow stretching across both axis. Holding :kbd:`Shift`  will allow you to scale your object. Holding :kbd:`Ctrl`  will cause your manipulation to be mirrored across your object.
 
 Rotate
 ~~~~~~
 
-:.. image:: /images/en/Rotatevector.png
+.. image:: /images/en/Rotatevector.png
 
 This feature of the tool will allow you to rotate your object around its center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 degree angles.
 
 Skew
 ~~~~
 
-:.. image:: /images/en/Skew.png
+.. image:: /images/en/Skew.png
 
 This feature of the tool will allow you to skew your object.
 
@@ -99,7 +99,7 @@ Double-click on a vector object to edit the specific points or curves which make
 Stroke and Fill
 ---------------
 
-In addition to being defined by points and curves, a shape also has two defining properties: **Fill** and **Stroke**. **Fill** defines the color, gradient, or pattern that fills the space inside of the shape object. '**Stroke**' defines the color, gradient, pattern, and thickness of the border along the edge of the shape. These two can be edited using the **Stroke and Fill** dock. The dock has two modes. One for stroke and one for fill. You can change modes by clicking in the dock on the filled square or the black line. the active mode will be shown by which is on top of the other.
+In addition to being defined by points and curves, a shape also has two defining properties: **Fill** and **Stroke**. **Fill** defines the color, gradient, or pattern that fills the space inside of the shape object. '**Stroke**' defines the color, gradient, pattern, and thickness of the border along the edge of the shape. These two can be edited using the **Stroke and Fill** dock. The dock has two modes. One for stroke and one for fill. You can change modes by clicking in the dock on the filled square or the black line. The active mode will be shown by which is on top of the other.
 
 Here is the dock with the fill element active. Notice the red line across the solid white square. This tells us that there is no fill assigned therefore the inside of the shape will be transparent.
 
@@ -116,7 +116,7 @@ The stroke properties dock will allow you to edit a different aspect of how the 
 
 .. image:: /images/en/Strokeprops.png
 
-The style selector allows you to choose different patters and line styles. The width option changes the thickness of the outline on your vector shape. The cap option changes how line endings appear. The join option changes how corners appear.
+The style selector allows you to choose different patterns and line styles. The width option changes the thickness of the outline on your vector shape. The cap option changes how line endings appear. The join option changes how corners appear.
 
 The Miter limit controls how harsh the corners of your object will display. The higher the number the more the corners will be allowed to stretch out past the points. Lower numbers will restrict the stroke to shorter and less sharp corners.
 

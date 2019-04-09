@@ -90,7 +90,7 @@ There are many ways to color a line art in Krita, but generally, these three are
 
 1. Paint blocks of color directly with block brushes.
 2. Fill with Flood fill Tool.
-3. Use one of the GMIC colorize comics filters.
+3. Use one of the G'MIC colorize comics filters.
 
 Blocking with brush
 """""""""""""""""""
@@ -113,7 +113,7 @@ GMIC Colorize [Interactive]
 """""""""""""""""""""""""""
 
 The third method is to use take advantage of the integrated G'Mic filters. These are powerful filters that can dramatically improve your workflow and cut you down on your production time.
-To begin coloring with the GMIC colorize interactive, go to :menuselection:`Filters --> G'MIC`. Choose :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[interactive]` from the list of filters. Then select Line art for :menuselection:`Input type, Image + Colors (2 Layers)` for output type, set the view resolution according to your need. If you have any specific color palette to use for coloring add the path for it in an additional color palette. The example of the filter window with the required inputs is shown below.
+To begin coloring with the G'MIC colorize interactive, go to :menuselection:`Filters --> G'MIC`. Choose :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[interactive]` from the list of filters. Then select Line art for :menuselection:`Input type, Image + Colors (2 Layers)` for output type, set the view resolution according to your need. If you have any specific color palette to use for coloring add the path for it in an additional color palette. The example of the filter window with the required inputs is shown below.
 
 .. image:: /images/en/common-workflows/GMIC-colorize-interactive-krita.png
     :alt: G'MIC window in Krita
@@ -125,14 +125,14 @@ Press **Apply** to begin the coloring, this will open a color selector **palette
 
 If you feel that the dots are a bit distracting you can press :kbd:`Tab` to reduce the size or hide the dots. to zoom out you can press :kbd:`Ctrl + ↓` and :kbd:`Ctrl + ↑` vice versa. Panning is done by |mousemiddle| + drag. Press :kbd:`Spacebar` to generate the colors. If you want to replace a color select the color by |mousemiddle| and pressing :kbd:`R` then you can select an alternate color from the palette.
 
-Once you have finished adding the desired flat colors you can press :kbd:`Enter` to apply the filter. Then don't forget to press **Ok** in the GMIC dialog box.
+Once you have finished adding the desired flat colors you can press :kbd:`Enter` to apply the filter. Then don't forget to press **Ok** in the G'MIC dialog box.
 
 The flats colors will be placed on a separate layer. You can check `this <http://www.davidrevoy.com/article240/gmic-line-art-colorization>`_ tutorial by David Revoy to know more about this technique.
 
 GMIC Colorize [comics]
 """"""""""""""""""""""
 
-Krita provides one more option to prepare flat colors through GMIC colorize comics filter. This technique needs some preparations before you run the GMIC filter. This layer extrapolates the color spots that you input below the line art
+Krita provides one more option to prepare flat colors through G'MIC colorize comics filter. This technique needs some preparations before you run the G'MIC filter. This layer extrapolates the color spots that you input below the line art
 
 You have to create two layers below the line art, one for the color spots indicating which color you need to be filled in the region and one for the final extrapolated output of the filter. Mark some colors spots in the layer beneath the line art. The layer setup can be seen in the image below.
 
@@ -141,12 +141,12 @@ You have to create two layers below the line art, one for the color spots indica
 
 The colors spots are marked in red in the image
 
-Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[comics]`. In the GMIC dialog box, select all for input and inplace (default) for output, select :guilabel`Lineart + color spots + extrapolated layers` for both input and output layers on the right-hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
+Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[comics]`. In the G'MIC dialog box, select all for input and inplace (default) for output, select :guilabel:`Lineart + color spots + extrapolated layers` for both input and output layers on the right-hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
 
 .. image:: /images/en/common-workflows/Colorise-comics-setting.png
     :alt: Colorize Interactive dialog and settings
 
-Press **Apply** and **Ok** to apply and exit the GMIC dialog. You'll now have flat colors beneath you line art.
+Press **Apply** and **Ok** to apply and exit the G'MIC dialog. You'll now have flat colors beneath you line art.
 More details about this technique can be found in the tutorial `at Timothée Giet's blog <http://timotheegiet.com/blog/comics/gmic-colorize-comics-working-in-krita.html>`_.
 
 Painting

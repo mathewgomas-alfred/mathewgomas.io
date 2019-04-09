@@ -124,7 +124,7 @@ Show output
        :width: 800
        :align: center
        
-       On the **Left**: :guilabel:`Show Output` is on, :guilabel:`Edit Strokes` is off. In the **Middle**: :guilabel:`Show Output` and :guilabel:`Edit Strokes` are on. On the **Right**: :guilabel:`Show Output` is off and :guilabel:`Edit Strokes` is on.]]
+       On the **Left**: :guilabel:`Show Output` is on, :guilabel:`Edit Key Strokes` is off. In the **Middle**: :guilabel:`Show Output` and :guilabel:`Edit Key Strokes` are on. On the **Right**: :guilabel:`Show Output` is off and :guilabel:`Edit Key Strokes` is on.
 
 Limit to layer bounds
     Limit the colorize mask to the combined layer bounds of the strokes and the line art it is filling. This can speed up the use of the mask on complicated compositions, such as comic pages.
@@ -135,7 +135,7 @@ Edge detection
        :width: 800
        :align: center
    
-       From left to right: an example with big black shadows on an object but no edge detection, the same example without the edit strokes enabled. Then the same example with edge detection enabled and set to 2px, and that same example with out edit strokes enabled.
+       From left to right: an example with big black shadows on an object but no edge detection, the same example without the edit key strokes enabled. Then the same example with edge detection enabled and set to 2px, and that same example without edit key strokes enabled.
 
 Gap close hint
     While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the prefiltered line art (that's the blurry haze) affects the color patches.
@@ -145,7 +145,7 @@ Gap close hint
        :align: center
        
        On the **Left**: :guilabel:`Gap close hint` is 0px. In the **Middle**: :guilabel:`Gap close hint` is 15px (the lines are 10px). On the **Right**: :guilabel:`Gap close hint` is 275px.
-Clean-up strokes
+Clean up
     This will attempt to handle messy strokes that overlap the line art where they shouldn't. At 0 no clean up is done, at 100% the clean-up is most aggressive.
 
     .. image:: /images/en/Krita_4_0_colorize_mask_clean_up.png

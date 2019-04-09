@@ -31,6 +31,6 @@ Onion Skin
 Auto Frame Mode
     Will make a frame out of any empty frame you are working on. Currently automatically copies the previous frame.
 Drop frames
-    This'll drop frames if you computer isn't fast enough to show all frames at once. This process is automatic, but the icon will become red if it's forced to do this.
+    This'll drop frames if your computer isn't fast enough to show all frames at once. This process is automatic, but the icon will become red if it's forced to do this.
 
 You can also set the speedup of the playback, which is different from the framerate.
