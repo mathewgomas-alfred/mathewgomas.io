@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___colors___scene_linear_painting\n"
+"Project-Id-Version: docs_krita_org_general_concepts___colors___scene_linear_pa"
+"inting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-26 03:35+0100\n"
-"PO-Revision-Date: 2019-04-02 21:02+0300\n"
+"PO-Revision-Date: 2019-04-08 21:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -307,6 +307,9 @@ msgid ""
 "So that is the blending modes. Many filters suffer from similar issues, and "
 "in many applications, filters aren’t adjusted to work with arbitrary whites."
 msgstr ""
+"Отже, це усе, що стосується режимів змішування. Багато фільтрів потерпають"
+" від подібних проблем у багатьох програма. Фільтри не коригують свою роботу"
+" на випадок довільно визначеного білого кольору."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:85
 msgid ""
@@ -314,6 +317,10 @@ msgid ""
 "using lanczos3, it’ll give a weird black halo to sharp contrasts in scene-"
 "linear. The bilinear interpolation filter will work just fine in this case."
 msgstr ""
+"Якщо йдеться про фільтри, при використанні інструмента перетворення слід"
+" також уникати вживання lanczos3, оскільки цей фільтр створює небажане чорне"
+" гало при підвищенні контрастності при лінійному малюванні сцен. Слід"
+" користуватися фільтром білінійної інтерполяції, який дає добрі результати."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:87
 msgid "The second big problem is that **black doesn’t work quite the same**."
@@ -327,6 +334,9 @@ msgid ""
 "overpower the other colors, so you should only add the tiniest amount of it "
 "to a mixture. White in contrast gets dirtied quite easily."
 msgstr ""
+"Якщо ви раніше змішували пігменти, ви вже знаєте, що чорний без проблем"
+" придушує інші кольори. Отже, вам слід додавати до суміші лише мізерні його"
+" частки. З іншого боку, білий колір доволі просто забруднити будь-яким іншим."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:91
 msgid ""
@@ -379,6 +389,7 @@ msgid ""
 "Overall, this is something that will take a little while getting used to, "
 "but you will get used to it soon enough."
 msgstr ""
+"Загалом, до цього слід звикнути, але звикання відбувається доволі швидко."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:102
 msgid "Finally, there’s the **issue of size**."
@@ -475,6 +486,8 @@ msgid ""
 "Picking regular colors is easy, but how do we pick the really bright colors? "
 "There are three ways of getting access to the really bright colors in Krita:"
 msgstr ""
+"Вибрати звичайні кольори просто, але як вибрати насправді яскраві кольори? У"
+" Krita існує три способи доступу до яскравих кольорів:"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:136
 msgid ""
@@ -494,6 +507,7 @@ msgid ""
 "And finally by picking a really bright color from an image that has such "
 "values."
 msgstr ""
+"І нарешті, взяти яскравий колір з зображення, де є такий яскравий колір."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:140
 msgid ""
