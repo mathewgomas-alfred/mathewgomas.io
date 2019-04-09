@@ -30,7 +30,7 @@ Raster and Vector
 
 Even though Krita is primarily a raster based application, it has some vector editing capabilities as well. If you are new to Digital painting medium, it is necessary that you know the concepts of raster and Vector.
 
-In digital imaging, a pixel (Picture Element) is a basic and lowest element of an Image. It is basically a grid of points each displaying specific color. Raster editing is manipulating and editing these pixels. For example when you take a 1-pixel brush which is colored black and painting on the white canvas in Krita you are actually changing the color of the pixel beneath your brush from white to black. When you zoom in and see a brush stroke you can notice many small squares with colors, these are pixels
+In digital imaging, a pixel (Picture Element) is a basic and lowest element of an Image. It is basically a grid of points each displaying specific color. Raster editing is manipulating and editing these pixels. For example when you take a 1-pixel brush which is colored black and painting on the white canvas in Krita you are actually changing the color of the pixel beneath your brush from white to black. When you zoom in and see a brush stroke you can notice many small squares with colors, these are pixels:
 
 .. image:: /images/en/Pixels-brushstroke.png
    :align: center
@@ -91,9 +91,9 @@ Dockers are little subwindows in :ref:`Krita's interface <navigation>`. They con
 .. image:: /images/en/Dockers.png
    :align: center
 
-The image above shows some of the dockers in Krita
+The image above shows some of the dockers in Krita.
 
-All the views and the dockers are held inside **Windows**
+All the views and the dockers are held inside **Windows**.
 
 Window
 ~~~~~~

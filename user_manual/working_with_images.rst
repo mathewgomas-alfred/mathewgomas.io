@@ -199,7 +199,7 @@ be added to the right of the image).
 Another way to resize the canvas according to the need while drawing is
 when you scroll away from the end of the canvas, you can see an arrow
 appear. Clicking this will extend the canvas in that direction. You can
-see the arrow marked in red in the example below
+see the arrow marked in red in the example below:
 
 .. image:: /images/en/Infinite-canvas.png
    :width: 700px

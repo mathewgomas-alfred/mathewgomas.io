@@ -46,7 +46,7 @@ These are templates for design and have various defaults with proper ppi at your
 * Cinema 16:10
 * Cinema 2.93:1
 * Presentation A3-landscape
-* Presentation A4 portrait.
+* Presentation A4 portrait
 * Screen 4:3
 * Web Design
 

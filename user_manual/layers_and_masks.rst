@@ -79,7 +79,7 @@ marked box in the context menu.
 
 Once you assign color labels to your layers, you can then filter layers
 having similar color label by clicking on one or more colors in the list
-from the drop-down situated at the top-right corner of the layer docker
+from the drop-down situated at the top-right corner of the layer docker.
 
 .. image:: /images/en/Layer-color-filters-menu.png
    :width:  500

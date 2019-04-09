@@ -95,7 +95,7 @@ The snap works for the following tools:
 #. Elliptical select
 #. Polygonal select
 #. Path select
-#. Guides themselves can be snapped to grids and vectors.
+#. Guides themselves can be snapped to grids and vectors
 
 Snapping doesn’t have a sensitivity yet, and by default is set to 10
 screen pixels.

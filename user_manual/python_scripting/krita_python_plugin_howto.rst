@@ -55,7 +55,7 @@ X-Python-2-Compatible
 X-Krita-Manual
  An Optional Value that will point to the manual item. This is shown in the Python Plugin manager. If it's `an HTML file it'll be shown as rich text <https://doc.qt.io/qt-5/richtext-html-subset.html>`_, if not, it'll be shown as plain text.
 Name
- The name that will show up in the Python Plugin Manager
+ The name that will show up in the Python Plugin Manager.
 Comment
  The description that will show up in the Python Plugin Manager.
 
@@ -138,7 +138,7 @@ So...
 "My Script"
  This is what will be visible in the tools menu.
 
-if you now restart Krita, you will have an action called "My Script". It still doesn't do anything, because we haven't connected it to a script.
+If you now restart Krita, you will have an action called "My Script". It still doesn't do anything, because we haven't connected it to a script.
 
 So, let's make a simple export document script. Add the following to the extension class, make sure it is above where you add the extension to Krita:
 
@@ -172,7 +172,7 @@ Then, to connect the action to the new export document:
         action.triggered.connect(self.exportDocument)
 
 
-This is an example of a `signal/slot connection <http://doc.qt.io/qt-5/signalsandslots.html>`_, which Qt applications like Krita use a lot. We'll go over how to make our own signals and slots a bit later.
+This is an example of a `signal/slot connection <https://doc.qt.io/qt-5/signalsandslots.html>`_, which Qt applications like Krita use a lot. We'll go over how to make our own signals and slots a bit later.
 
 Restart Krita and your new action ought to now export the document.
 
@@ -267,7 +267,7 @@ MyDocker
 
 So, if we add our export document function we created in the extension section to this docker code, how do we allow the user to activate it? First, we'll need to do some Qt GUI coding: Let's add a button!
 
-By default, Krita uses PyQt, but its documentation is pretty bad, mostly because the regular Qt documentation is really good, and you'll often find that the PyQT documentation of a class, say, `QWidget <http://pyqt.sourceforge.net/Docs/PyQt4/qwidget.html>`_ is like a weird copy of the regular `Qt documentation <http://doc.qt.io/qt-5/qwidget.html>`_ for that class.
+By default, Krita uses PyQt, but its documentation is pretty bad, mostly because the regular Qt documentation is really good, and you'll often find that the PyQT documentation of a class, say, `QWidget <https://www.riverbankcomputing.com/static/Docs/PyQt4/qwidget.html>`_ is like a weird copy of the regular `Qt documentation <https://doc.qt.io/qt-5/qwidget.html>`_ for that class.
 
 Anyway, what we need to do first is that we need to create a QWidget, it's not very complicated, under setWindowTitle, add:
 
@@ -282,7 +282,7 @@ Then, we create a button:
 
     buttonExportDocument = QPushButton("Export Document", mainWidget)
 
-Now, to connect the button to our function, we'll need to look at the signals in the documentation. `QPushButton <http://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of its own, but it does say it inherits 4 signals from `QAbstractButton <http://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that we can use those too. In our case, we want clicked.
+Now, to connect the button to our function, we'll need to look at the signals in the documentation. `QPushButton <https://doc.qt.io/qt-5/qpushbutton.html>`_ has no unique signals of its own, but it does say it inherits 4 signals from `QAbstractButton <https://doc.qt.io/qt-5/qabstractbutton.html#signals>`_, which means that we can use those too. In our case, we want clicked.
 
 .. code:: python
 
@@ -297,7 +297,7 @@ However, the button looks aligned a bit oddly. That's because our mainWidget has
     mainWidget.setLayout(QVBoxLayout())
     mainWidget.layout().addWidget(buttonExportDocument)
 
-Qt has several `layouts <http://doc.qt.io/qt-5/qlayout.html>`_, but the `QHBoxLayout and the QVBoxLayout <http://doc.qt.io/qt-5/qboxlayout.html>`_ are the easiest to use, they just arrange widgets horizontally or vertically.
+Qt has several `layouts <https://doc.qt.io/qt-5/qlayout.html>`_, but the `QHBoxLayout and the QVBoxLayout <https://doc.qt.io/qt-5/qboxlayout.html>`_ are the easiest to use, they just arrange widgets horizontally or vertically.
 
 Restart Krita and the button should now be laid out nicely.
 
@@ -305,7 +305,7 @@ PyQt Signals and Slots
 ----------------------
 
 We've already been using PyQt signals and slots already, but there are times where you want to create your own signals and slots.
-`As pyQt's documentation is pretty difficult to understand <http://pyqt.sourceforge.net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ Qt, we're explaining it here:
+`As pyQt's documentation is pretty difficult to understand <https://www.riverbankcomputing.com/static/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals and slots are created is very different from C++ Qt, we're explaining it here:
 
 All python functions you make in PyQt can be understood as slots, meaning that they can be connected to signals like Action.triggered or QPushButton.clicked. However, QCheckBox has a signal for toggled, which sends a boolean. How do we get our function to accept that boolean?
 
@@ -313,7 +313,7 @@ First, make sure you have the right import for making custom slots:
 
 ``from PyQt5.QtCore import pyqtSlot``
 
-(If there's from ``PyQt5.QtCore import *`` already in the list of imports, then you won't have to do this, of course)
+(If there's from ``PyQt5.QtCore import *`` already in the list of imports, then you won't have to do this, of course.)
 
 Then, you need to add a PyQt slot definition before your function:
 
@@ -341,7 +341,7 @@ Similarly, to make your own PyQt signals, you do the following:
         self.signal_name.emit(True)
 
 
-and use the right import:
+And use the right import:
 
 ``from PyQt5.QtCore import pyqtSignal``
 

@@ -23,7 +23,7 @@ Windows
 Windows users can download the latest releases from our
 `website. <https://krita.org/download/>`_ Click on 64bit
 or 32bit according to the architecture of your OS. Go to the
-`KDE <http://download.kde.org/stable/krita/>`__ download directory to
+`KDE <https://download.kde.org/stable/krita/>`__ download directory to
 get the portable zip-file version of Krita instead of the setup.exe
 installer.
 
@@ -39,7 +39,7 @@ you will have to enable an extra repository. Krita runs fine under on
 desktop: KDE, Gnome, LXDE -- even though it is a KDE application and
 needs the KDE libraries. You might also want to install the KDE
 system settings module and tweak the gui theme and fonts used, depending
-on your distributions
+on your distributions.
 
 Nautilus/Nemo file extensions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -50,7 +50,7 @@ ways to get the program itself.
 Since April 2016, KDE's Dolphin shows kra and ora thumbnails by
 default, but Nautilus and it's derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
-thumbnails <http://moritzmolch.com/1749>`__.
+thumbnails <https://moritzmolch.com/1749>`__.
 
 Appimages
 ~~~~~~~~~
@@ -63,7 +63,7 @@ Double click it, and enjoy Krita. (Or run it in the terminal with
 ./appimagename.appimage)
 
 - Open the terminal into the folder you have the appimage.
-- Make it executable
+- Make it executable:
 
 ::
 
@@ -93,7 +93,7 @@ OpenSUSE
 
 The latest stable builds are available from KDE:Extra repo:
 
--  http://download.opensuse.org/repositories/KDE:/Extra/
+-  https://download.opensuse.org/repositories/KDE:/Extra/
 
 .. note::
    Krita is also in the official repos, you can install it from Yast.
@@ -101,17 +101,17 @@ The latest stable builds are available from KDE:Extra repo:
 Fedora
 ~~~~~~
 
-Krita is in the official repos as **calligra-krita**, you can install it by using packagekit (Add/Remove Software) or by writing the following command in terminal.
+Krita is in the official repos as **calligra-krita**, you can install it by using packagekit (Add/Remove Software) or by writing the following command in terminal:
 
 ``dnf install krita``
 
-You can also use the software center such as gnome software center or Discover to install Krita
+You can also use the software center such as gnome software center or Discover to install Krita.
 
 Debian
 ~~~~~~
 
 The latest version of Krita available in Debian is 3.1.1.
-To install Krita type the following line in terminal
+To install Krita type the following line in terminal:
 
 ``apt install krita``
 
@@ -120,7 +120,7 @@ Arch
 ~~~~
 
 Arch Linux provides krita package in the Extra repository. You can
-install Krita by using the following command
+install Krita by using the following command:
 
 ``pacman -S krita``
 
@@ -131,7 +131,7 @@ OS X
 ----
 
 .. warning::
-   Mac OSX is very experimental right now and unstable, don't use it for production purpose
+   Mac OSX is very experimental right now and unstable, don't use it for production purpose.
 
 You can download the latest binary if you want from our
 `website <https://krita.org/download/krita-desktop/>`__. It has only
@@ -164,7 +164,7 @@ that does work.
 
 So... If you want to start compiling from source, begin with the latest
 build instructions from the excellent illustrated
-`guide <http://www.davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__
+`guide <https://www.davidrevoy.com/article193/compil-krita-from-source-code-on-linux-for-cats>`__
 by David Revoy.
 
 There is more information and troubleshooting help on the
@@ -176,4 +176,4 @@ communication channels:
 
 -  irc: irc.freenode.net, channel #krita
 -  `mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__
--  `forums <http://forum.kde.org/viewforum.php?f=136>`__
+-  `forums <https://forum.kde.org/viewforum.php?f=136>`__
