@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,10 +15,11 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___templates.pot\n"
+"Language: zh_CN\n"
 
 #: ../../user_manual/templates.rst:1
 msgid "How to use document templates in Krita."
-msgstr ""
+msgstr "如何在 Krita 中使用文档模板。"
 
 #: ../../user_manual/templates.rst:17
 msgid "Templates"
@@ -27,7 +27,7 @@ msgstr "模板"
 
 #: ../../user_manual/templates.rst:20
 msgid ".. image:: images/en/Krita_New_File_Template_A.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_New_File_Template_A.png"
 
 #: ../../user_manual/templates.rst:21
 msgid ""
@@ -35,6 +35,9 @@ msgid ""
 "can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing "
 "Document and Untitled Document` but then with a nicer place in the UI."
 msgstr ""
+"模板是被存放在一个特殊位置的 .kra 文件，用于供 Krita 快速调用。它们本质上和 :"
+"guilabel`把已有文档作为无标题文档打开`  功能差不多，但具备一个更有条理和显眼"
+"的界面。"
 
 #: ../../user_manual/templates.rst:23
 msgid ""
@@ -43,10 +46,12 @@ msgid ""
 "document as a new template, including all its properties along with the "
 "layers and layer contents."
 msgstr ""
+"您可以通过在文件菜单中使用 :guilabel:`从图像创建模板` ，从任何. kra 文件创建"
+"自己的模板文件。这会将当前文档添加为新模板，包括其所有属性、图层及图层内容。"
 
 #: ../../user_manual/templates.rst:25
 msgid "We have the following defaults:"
-msgstr ""
+msgstr "我们提供了下列默认模板："
 
 #: ../../user_manual/templates.rst:28
 msgid "Comic Templates"
@@ -61,45 +66,52 @@ msgid ""
 "them drawing over the panel. Use :guilabel:`Inherit Alpha` to clip the "
 "drawing by the panel."
 msgstr ""
+"这些模板是专门为绘制漫画而准备的。Krita 的漫画模板基于一组由矢量图层以及它们"
+"的克隆图层组成的系统。克隆图层会自动反映在矢量图层中发生的改动。你可以在两个"
+"图层之间绘制图像，这样就不必担心会画坏画框了。使用 :guilabel:`继承透明度` 可"
+"以把图像按每格画面进行剪贴。"
 
 #: ../../user_manual/templates.rst:32
 msgid "European Bande Desinée Template."
-msgstr ""
+msgstr "欧式 BD（比利时-法国）风格漫画模板"
 
 #: ../../user_manual/templates.rst:33
 msgid ""
 "This one is reminiscent of the system used by for example TinTin or Spirou "
 "et Fantasio. These panels focus on wide images, and horizontal cuts."
 msgstr ""
+"此模板效仿了丁丁历险记流派使用的画面系统。每格画面聚焦于横向裁切的宽图像。"
 
 #: ../../user_manual/templates.rst:34
 msgid "US-style comics Template."
-msgstr ""
+msgstr "美式漫画模板。"
 
 #: ../../user_manual/templates.rst:35
 msgid ""
 "This one is reminiscent of old DC and Marvel comics, such as Batman or "
 "Captain America. Nine images for quick story progression."
 msgstr ""
+"这个模板效仿经典 DC 和漫威漫画的风格 (如蝙蝠侠和美国队长等) 将页面划分为九格"
+"图像，适合表现迅速展开的故事情节。"
 
 #: ../../user_manual/templates.rst:36
 msgid "Manga Template."
-msgstr ""
+msgstr "日式漫画模板。"
 
 #: ../../user_manual/templates.rst:37
 msgid ""
 "This one is based on Japanese comics, and focuses on a thin vertical gutter "
 "and a thick horizontal gutter, ensuring that the reader finished the "
 "previous row before heading to the next."
-msgstr ""
+msgstr "此模板基于日式漫画，它的纵向区隔小，横向区隔大，用于引导读者逐行阅读。"
 
 #: ../../user_manual/templates.rst:39
 msgid "Waffle Iron Grid"
-msgstr ""
+msgstr "十二宫格"
 
 #: ../../user_manual/templates.rst:39
 msgid "12 little panels at your disposal."
-msgstr ""
+msgstr "有十二小格任你发挥。"
 
 #: ../../user_manual/templates.rst:42
 msgid "Design Templates"
@@ -109,27 +121,27 @@ msgstr "设计模板"
 msgid ""
 "These are templates for design and have various defaults with proper ppi at "
 "your disposal:"
-msgstr ""
+msgstr "这些是用于平面设计的模板，它们的默认 ppi 参数已设为各自用途的最佳值："
 
 #: ../../user_manual/templates.rst:46
 msgid "Cinema 16:10"
-msgstr ""
+msgstr "16:10 电影荧幕设计模板"
 
 #: ../../user_manual/templates.rst:47
 msgid "Cinema 2.93:1"
-msgstr ""
+msgstr "2.93:1 电影荧幕设计模板"
 
 #: ../../user_manual/templates.rst:48
 msgid "Presentation A3-landscape"
-msgstr ""
+msgstr "A3 横版设计模板"
 
 #: ../../user_manual/templates.rst:49
 msgid "Presentation A4 portrait."
-msgstr ""
+msgstr "A4 竖版设计模板"
 
 #: ../../user_manual/templates.rst:50
 msgid "Screen 4:3"
-msgstr ""
+msgstr "4:3 屏幕设计模板"
 
 #: ../../user_manual/templates.rst:51
 msgid "Web Design"
@@ -137,38 +149,36 @@ msgstr "网页设计"
 
 #: ../../user_manual/templates.rst:54
 msgid "DSLR templates"
-msgstr ""
+msgstr "单反相机模板"
 
 #: ../../user_manual/templates.rst:56
 msgid "These have some default size for photos"
-msgstr ""
+msgstr "这些是符合各种数码相机默认照片尺寸的模板"
 
 #: ../../user_manual/templates.rst:58
 msgid "Canon 55D"
-msgstr ""
+msgstr "Canon 55D"
 
 #: ../../user_manual/templates.rst:59
 msgid "Canon 5DMK3"
-msgstr ""
+msgstr "Canon 5DMK3"
 
 #: ../../user_manual/templates.rst:60
 msgid "Nikon D3000"
-msgstr ""
+msgstr "Nikon D3000"
 
 #: ../../user_manual/templates.rst:61
 msgid "Nikon D5000"
-msgstr ""
+msgstr "Nikon D5000"
 
 #: ../../user_manual/templates.rst:62
 msgid "Nikon D7000"
-msgstr ""
+msgstr "Nikon D7000"
 
 #: ../../user_manual/templates.rst:65
-#, fuzzy
-#| msgid "Texture Templates."
 msgid "Texture Templates"
-msgstr "纹理模板."
+msgstr "纹理模板"
 
 #: ../../user_manual/templates.rst:67
 msgid "These are for making 3D textures, and are between 1024, to 4092."
-msgstr ""
+msgstr "这些模板用于制作 3D 纹理，各模板的单边像素数目从 1024 到 4092 不等。"

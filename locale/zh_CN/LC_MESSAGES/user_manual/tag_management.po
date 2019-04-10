@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-04 03:37+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,14 +15,15 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___tag_management.pot\n"
+"Language: zh_CN\n"
 
 #: ../../user_manual/tag_management.rst:1
 msgid "Detailed steps on how to use the tags to organize resources in Krita."
-msgstr ""
+msgstr "详细介绍如何在 Krita 里面通过标签来管理资源。"
 
 #: ../../user_manual/tag_management.rst:16
 msgid "Tag Management"
-msgstr ""
+msgstr "标签管理"
 
 #: ../../user_manual/tag_management.rst:18
 msgid ""
@@ -35,26 +35,33 @@ msgid ""
 "and edit your own as well. The tags are managed similarly across the "
 "different types of resources."
 msgstr ""
+"Krita 通过标签来管理常见资源。你可以把标签指定给笔刷、渐变、图案，甚至笔尖。"
+"你可以在资源列表顶端的下拉菜单选取标签。选中一个标签后列表会过滤出被指定了该"
+"标签的所有资源。选中 :guilabel:`All` 标签将列出全部可用资源。Krita 已经预先提"
+"供了一些默认的标签。你也可以自行编辑或者创建新的标签。不同类型的资源都通过类"
+"似的标签系统进行管理。"
 
 #: ../../user_manual/tag_management.rst:20
 msgid ""
 "You can use tags together with the :ref:`Pop-up Palette <navigation>` for "
 "increased productivity."
-msgstr ""
+msgstr "你可以配合 :ref:`浮动画具板 <navigation>` 功能使用标签，提高工作效率。"
 
 #: ../../user_manual/tag_management.rst:23
 msgid ".. image:: images/en/Tag_Management.jpeg"
-msgstr ""
+msgstr ".. image:: images/en/Tag_Management.jpeg"
 
 #: ../../user_manual/tag_management.rst:25
 msgid ""
 "You can select different brush tags in the pop-up palette. This can be a "
 "quick way to access your favorite brushes."
 msgstr ""
+"你可以在浮动画具板中加载一个标签下面的笔刷预设，这样你就可以在画布上快速调用"
+"常用的笔刷了。"
 
 #: ../../user_manual/tag_management.rst:28
 msgid "Adding a New Tag for a Brush"
-msgstr ""
+msgstr "新建标签并指定给一个笔刷"
 
 #: ../../user_manual/tag_management.rst:30
 msgid ""
@@ -62,20 +69,26 @@ msgid ""
 "option to add a tag. Type in the name you want and press :kbd:`Enter`. You "
 "will need to go back to the :guilabel:`All` tag to start assigning brushes."
 msgstr ""
+"在预设列表的顶端，按标签下拉菜单右侧的 :guilabel:`标签` 按钮会弹出标签菜单，"
+"在“新建标签”输入框输入一个新标签的名称，然后点击右边的 :guilabel:`+` 按钮或者"
+"按 :kbd:`回车`以完成添加。接下来重新选择 :guilabel:`All` 标签，然后准备把预设"
+"指定到刚刚新建的标签。"
 
 #: ../../user_manual/tag_management.rst:33
 msgid "Assigning an Existing Tag to a Brush"
-msgstr ""
+msgstr "将已有标签指定给一个笔刷"
 
 #: ../../user_manual/tag_management.rst:35
 msgid ""
 "Right-click on a brush in the Brush Presets Docker. You will get an option "
 "to assign a tag to the brush."
 msgstr ""
+"在笔刷预设面板里右键单击一个笔刷，在弹出的菜单中选择“指定给标签”即可把该笔刷"
+"指定给某个标签。"
 
 #: ../../user_manual/tag_management.rst:38
 msgid "Changing a Tag's Name"
-msgstr ""
+msgstr "更改标签名称"
 
 #: ../../user_manual/tag_management.rst:40
 msgid ""
@@ -84,10 +97,14 @@ msgid ""
 "rename it. Press :kbd:`Enter` to confirm. All the existing brushes will "
 "remain in the newly named tag."
 msgstr ""
+"在标签下拉菜单中选中你需要改名的标签，然后点击该菜单右侧的 :guilabel:`标签` "
+"按钮，在弹出的菜单中即可找到重命名标签输入框。输入一个新名字，然后点击右边"
+"的 :guilabel:`+` 按钮或者按 :kbd:`回车`以完成修改。旧标签名下的所有笔刷预设将"
+"被继承过来。"
 
 #: ../../user_manual/tag_management.rst:43
 msgid "Deleting a Tag"
-msgstr ""
+msgstr "删除标签"
 
 #: ../../user_manual/tag_management.rst:44
 msgid ""
@@ -95,9 +112,11 @@ msgid ""
 "Press the :guilabel:`+` icon next to the tag. You will get an option to "
 "remove it."
 msgstr ""
+"在标签下拉菜单中选中你需要删除的标签，然后点击该菜单右侧的 :guilabel:`标签` "
+"按钮，在弹出的菜单中点击“删除此标签”。"
 
 #: ../../user_manual/tag_management.rst:47
 msgid ""
 "The default brushes that come with Krita cannot have their default tags "
 "removed."
-msgstr ""
+msgstr "你不能移除 Krita 自带笔刷的默认标签。"

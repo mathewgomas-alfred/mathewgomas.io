@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,14 +15,15 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___oncanvas_brush_editor.pot\n"
+"Language: zh_CN\n"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:1
 msgid "Using the oncanvas brush editor in Krita."
-msgstr ""
+msgstr "在 Krita 的画布上面使用笔刷编辑器。"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:16
 msgid "On-Canvas Brush Editor"
-msgstr ""
+msgstr "画布上的笔刷编辑器"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:19
 msgid ""
@@ -33,20 +33,24 @@ msgid ""
 "It's accessible from the pop-up palette, by ticking the lower-right arrow "
 "button."
 msgstr ""
+"你现在可能已经知道按 :kbd:`F5` 可以调用 Krita 的笔刷选项面板了。不过你有时候"
+"只需要快速修改一两个参数，有时候则需要在画布独占模式下也能修改一些笔刷选项。"
+"其实你也可以在画布上直接调用笔刷编辑器。它可以从浮动画具板的右下角箭头按钮处"
+"访问。"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:26
 msgid ".. image:: images/en/On_canvas_brush_editor.png"
-msgstr ""
+msgstr ".. image:: images/en/On_canvas_brush_editor.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:27
 msgid ""
 "You can change the amount of visible settings and their order by clicking "
 "the settings icon next to the brush name."
-msgstr ""
+msgstr "你可以单击笔刷名称右边的按钮来更改可见的选项。"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:31
 msgid ".. image:: images/en/On_canvas_brush_editor_2.png"
-msgstr ""
+msgstr ".. image:: images/en/On_canvas_brush_editor_2.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:32
 msgid ""
@@ -56,13 +60,16 @@ msgid ""
 "to adjust the order of the used settings, for when you think flow is more "
 "important than size."
 msgstr ""
+"左栏列出了所有尚未启用的选项，右栏则列出了所有已经启用的选项。你可以通过 :"
+"guilabel:`>` 和 :guilabel:`<` 按钮在两栏之间移动选项，用 The :guilabel:`上移"
+"` 和 :guilabel:`下移` 按钮来排列选项。你还可以直接拖动选项的位置。"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:38
 msgid ".. image:: images/en/On_canvas_brush_editor_3.png"
-msgstr ""
+msgstr ".. image:: images/en/On_canvas_brush_editor_3.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:39
 msgid ""
 "These set-ups are PER brush engine, so different brush engines can have "
 "different configurations."
-msgstr ""
+msgstr "每个笔刷预设的选项数值各自独立。每种笔刷引擎又有不同的可用选项。"

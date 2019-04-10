@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,10 +15,11 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___bit_depth.pot\n"
+"Language: zh_CN\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
 msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Kiki_lowbit.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:1
 msgid "Bit depth in Krita."
@@ -33,29 +33,31 @@ msgstr "位深度"
 msgid ""
 "Bit depth basically refers to the amount of working memory per pixel you "
 "reserve for an image."
-msgstr ""
+msgstr "位深度大体上指的是你为一张图片的每个像素保留的工作内存大小。"
 
 #: ../../general_concepts/colors/bit_depth.rst:19
 msgid ""
 "Like how having a A2 paper in real life can allow for much more detail in "
 "the end drawing, it does take up more of your desk than a simple A4 paper."
 msgstr ""
+"这就好象在现实世界里，一张 A2 纸能容纳比 A4 纸更多的图像细节，但也会占用更大"
+"的桌面面积。"
 
 #: ../../general_concepts/colors/bit_depth.rst:21
 msgid ""
 "However, this does not just refer to the size of the image, but also how "
 "much precision you need per color."
-msgstr ""
+msgstr "然而这不仅与图像大小有关，也与颜色的精度有关。"
 
 #: ../../general_concepts/colors/bit_depth.rst:23
 msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
-msgstr ""
+msgstr "为了便于描述，请容我通过一项 Krita 尚不具备的功能来进行说明："
 
 #: ../../general_concepts/colors/bit_depth.rst:26
 msgid "Indexed Color"
-msgstr ""
+msgstr "索引颜色"
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -63,34 +65,39 @@ msgid ""
 "contains a number for each color. The palette size is defined in bits, "
 "because the computer can only store data in bit-sizes."
 msgstr ""
+"在旧式程序中，计算机中的每个图像文件都内建了一个调色板，它记录了图像所用的颜"
+"色数目。这个调色板通过比特进行定义，因为计算机只能以比特为单位存储数据。"
 
 #: ../../general_concepts/colors/bit_depth.rst:36
 msgid "1bit"
-msgstr ""
+msgstr "1 位"
 
 #: ../../general_concepts/colors/bit_depth.rst:37
 msgid "Only two colors in total, usually black and white."
-msgstr ""
+msgstr "只包含两种颜色，通常是黑和白。"
 
 #: ../../general_concepts/colors/bit_depth.rst:38
 msgid "4bit (16 colors)"
-msgstr ""
+msgstr "4 位 (16 色)"
 
 #: ../../general_concepts/colors/bit_depth.rst:39
 msgid ""
 "16 colors in total, these are famous as many early games were presented in "
 "this color palette."
 msgstr ""
+"总共包含 16 种颜色，因为许多老游戏通过这类调色板呈现色彩，知名度也因此较高。"
 
 #: ../../general_concepts/colors/bit_depth.rst:41
 msgid "8bit"
-msgstr ""
+msgstr "8 位"
 
 #: ../../general_concepts/colors/bit_depth.rst:41
 msgid ""
 "256 colors in total. 8bit images are commonly used in games to save on "
 "memory for textures and sprites."
 msgstr ""
+"总共包含 256 种颜色。8 位图像可以节约纹理和拼合图的内存占用，因而被广泛用于游"
+"戏中。"
 
 #: ../../general_concepts/colors/bit_depth.rst:43
 msgid ""
@@ -98,14 +105,16 @@ msgid ""
 "and counts how many colors per channel you need (described in terms of "
 "''bits per channel''). This is called 'real color'."
 msgstr ""
+"不过 Krita 并不支持这类图像。Krita 以通道方式工作，它计算的是每个通道可以显示"
+"的颜色数目 (即“每通道位深度”)。这种处理方式叫做“真彩色”。"
 
 #: ../../general_concepts/colors/bit_depth.rst:46
 msgid "Real Color"
-msgstr ""
+msgstr "真彩色"
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Rgbcolorcube_3.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ""
@@ -114,30 +123,37 @@ msgid ""
 "the precision: Usually, each bit subdivides each section in the color cube "
 "meaning precision becomes a power of 2 bigger than the previous cube."
 msgstr ""
+"每通道 1、2、3 位的图像并不存在于任何实际图形应用中，但我们可以想象一下它们位"
+"数的差异会如何影响其精度：一般而言每个色彩通道增加一比特，色彩立方体中的方格"
+"都会被细分一次，细分后的精度为细分前的二次方。"
 
 #: ../../general_concepts/colors/bit_depth.rst:54
 msgid "4bit per channel (not supported by Krita)"
-msgstr ""
+msgstr "每通道 4 位 (Krita 不支持)"
 
 #: ../../general_concepts/colors/bit_depth.rst:55
 msgid ""
 "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
+"也称高彩色，或总计 16 位色彩。这是一个较旧的色彩系统，只被运用在某些特定显示"
+"器上。"
 
 #: ../../general_concepts/colors/bit_depth.rst:56
 msgid "8bit per channel"
-msgstr ""
+msgstr "每通道 8 位"
 
 #: ../../general_concepts/colors/bit_depth.rst:57
 msgid ""
 "Also known as \"True Color\", \"Millions of colors\" or \"24bit/32bit\". The "
 "standard for many screens, and the lowest bit-depth Krita can handle."
 msgstr ""
+"也称“真彩色”或“24 位、32 位”。这是大多数显示器的标准，也是 Krita 可以处理的最"
+"低的位深度。"
 
 #: ../../general_concepts/colors/bit_depth.rst:58
 msgid "16bit per channel."
-msgstr ""
+msgstr "每通道 16 位"
 
 #: ../../general_concepts/colors/bit_depth.rst:59
 msgid ""
@@ -147,10 +163,13 @@ msgid ""
 "doesn't have negative values possible, so it is 16bit precision, meaning "
 "that you have 65536 values per channel."
 msgstr ""
+"每通道 16 位比 8 位更进一步，能够处理连显示器都无法展现的细腻色彩变化。这种通"
+"道类型有时候也被叫做“高色深”，它的 16 位精度意味着每个通道能处理 65536 个颜色"
+"值而不存在负值。得益于这些特性，你能够得到更为平滑的颜色渐变。"
 
 #: ../../general_concepts/colors/bit_depth.rst:60
 msgid "16bit float"
-msgstr ""
+msgstr "16 位浮点"
 
 #: ../../general_concepts/colors/bit_depth.rst:61
 msgid ""
@@ -163,6 +182,12 @@ msgid ""
 "bit int (this is 2048 values per channel in the 0-1 range). Required for HDR/"
 "Scene referred images, and often known as 'half floating point'."
 msgstr ""
+"与 16 位类似，但此通道类型的范围相对更广而精度则相对较低。16 位只允许如 [1, "
+"4, 3] 这样的坐标，而16 位浮点则可以处理如  [0.15, 0.70, 0.3759] 这样的坐标，"
+"[1.0,1.0,1.0] 代表白。因为整数变量和浮点变量的差异，也因为场景参照图像允许负"
+"值，你在 16 位浮点下面可以得到 10 至 11 位的每通道色彩精度。相对的16 位整数下"
+"面每通道的色彩精度就是 16 位。16 位浮点的每个通道在 0 到 1 的区间中有 2048 个"
+"数值。这是 HDR 或场景参照图像必须的位深度，常常也被称作“半浮点”。"
 
 #: ../../general_concepts/colors/bit_depth.rst:63
 msgid ""
@@ -174,16 +199,22 @@ msgid ""
 "far above 1), necessary for HDR/Scene-referred values. It is also known as "
 "'single floating point'."
 msgstr ""
+"与 16 位浮点类似，但精度更高。这是 OpenColor IO 的内建色彩深度，因此它在 HDR "
+"图像的处理中要比 16 位浮点更快。由于浮点数据的特性，32 位浮点的每通道精度约"
+"为 23 到 24 位，在 0 到 1 的区间中有 16777216 个数值。但它的范围更宽，可以远"
+"超 1。这是 HDR 或场景参照图像必须的位深度，也被称作“单浮点”。"
 
 #: ../../general_concepts/colors/bit_depth.rst:64
 msgid "32bit float"
-msgstr ""
+msgstr "32 位浮点"
 
 #: ../../general_concepts/colors/bit_depth.rst:66
 msgid ""
 "This is important if you have a working color space that is larger than your "
 "device space: At the least, if you do not want color banding."
 msgstr ""
+"如果你的工作色彩空间大于你的设备色彩空间，那么上述知识会很重要——如果你不想见"
+"到颜色条纹的话。"
 
 #: ../../general_concepts/colors/bit_depth.rst:68
 msgid ""
@@ -191,3 +222,5 @@ msgid ""
 "quickly take up your RAM. Therefore, it's important to consider which bit "
 "depth you will use for what kind of image."
 msgstr ""
+"虽然你可以尝试运用 32 位浮点来创建你的全部图像，但这种通道类型很容易耗尽你的"
+"内存。因此我们应该针对不同的图像来选择不同的位深度。"

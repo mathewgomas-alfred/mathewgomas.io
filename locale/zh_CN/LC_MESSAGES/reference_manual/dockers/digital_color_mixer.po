@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,30 +15,31 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___dockers___digital_color_mixer.pot\n"
+"Language: zh_CN\n"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:1
 msgid "Overview of the digital color mixer docker."
-msgstr ""
+msgstr "数字混色器简介"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:16
 msgid "Digital Color Mixer"
-msgstr ""
+msgstr "数字混色器"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:19
 msgid ".. image:: images/en/Krita_Digital_Color_Mixer_Docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Digital_Color_Mixer_Docker.png"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:20
 msgid "This docker allows you to do simple mathematical color mixing."
-msgstr ""
+msgstr "这个面板允许您简单地进行数字混色。"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:22
 msgid "It works as follows:"
-msgstr ""
+msgstr "它按下文所述工作："
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:24
 msgid "You have on the left side the current color."
-msgstr ""
+msgstr "在左侧是您当前的颜色。"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:26
 msgid ""
@@ -52,3 +52,7 @@ msgid ""
 "Finally, the result color. Clicking this will change your current color to "
 "the result color."
 msgstr ""
+"而旁边有六列。 这些列中的每一列都包含三行：最低一行是将被混合的颜色，点击它，"
+"可以使用弹出的调色板设置不同的颜色。 上方的滑块表示混合颜色和当前颜色的比例。"
+"滑块越高，原来的颜色所占比例越高。最上方显示混色结果，点击以后可以设置为当前"
+"颜色。"

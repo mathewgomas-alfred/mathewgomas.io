@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,28 +15,31 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors.pot\n"
+"Language: zh_CN\n"
 
 #: ../../general_concepts/colors.rst:None
 msgid ""
 ".. image:: images/en/color_category/Krita_color_mixing_natural_order.png"
 msgstr ""
+".. image:: images/en/color_category/Krita_color_mixing_natural_order.png"
 
 #: ../../general_concepts/colors.rst:None
 msgid ""
 ".. image:: images/en/color_category/Krita_color_mixing_traditional_order.png"
 msgstr ""
+".. image:: images/en/color_category/Krita_color_mixing_traditional_order.png"
 
 #: ../../general_concepts/colors.rst:None
 msgid ".. image:: images/en/color_category/Rgbcolorcube_2.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Rgbcolorcube_2.png"
 
 #: ../../general_concepts/colors.rst:None
 msgid ".. image:: images/en/color_category/Rgbcolorcube_HSI.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Rgbcolorcube_HSI.png"
 
 #: ../../general_concepts/colors.rst:1
 msgid "The Colors Category."
-msgstr ""
+msgstr "色彩分类。"
 
 #: ../../general_concepts/colors.rst:16
 msgid "Colors"
@@ -45,7 +47,7 @@ msgstr "色彩"
 
 #: ../../general_concepts/colors.rst:18
 msgid "Okay, so... Let's talk **colors**!"
-msgstr ""
+msgstr "好了，那么……就让我们来谈论一下**色彩**吧！"
 
 #: ../../general_concepts/colors.rst:20
 msgid ""
@@ -57,6 +59,11 @@ msgid ""
 "thinking or working too hard. All of this becomes even more important the "
 "more colors we have access to!"
 msgstr ""
+"色彩不但看上去赏心悦目，它们对于绘画来说也至关重要。在绘画的时候我们都会希望"
+"能够便捷地调用和改变颜色，例如对不同的颜色进行 :ref:混合`mixing_colors` 或匹"
+"配等有趣的处理，以实现视觉上的**和谐**与**对比**。我们也会希望能够便捷地确定"
+"所需的色调而无需绞尽脑汁去思考。我们调用的颜色越多，这些与色彩相关的知识就显"
+"得越重要。"
 
 #: ../../general_concepts/colors.rst:22
 msgid ""
@@ -68,6 +75,10 @@ msgid ""
 "the wavelength and energy of light as it bounces around and eventually "
 "enters our eyes."
 msgstr ""
+"一般来说，我们首先要对颜色进行组织。我们常常会把自己对自然现象的观察经验用作"
+"依据。比如，我们倾向于按照在彩虹中的先后顺序排列色相，我们也倾向于按照由白到"
+"黑的方式理解亮度。自然现象本身又是物理原理的反映。色彩本质上是环境光进入肉眼"
+"后的视觉感知，色相的先后顺序与光线的波长有关，而亮度又与光线的能量强弱有关。"
 
 #: ../../general_concepts/colors.rst:28
 msgid ""
@@ -83,6 +94,13 @@ msgid ""
 "made **less saturated** (more gray or muted) by mixing with another color on "
 "the opposite side of the color wheel."
 msgstr ""
+"对于*传统介质*而言，我们按照颜色与其他颜色的混合结果来排列颜色 (**色相**)。首"
+"先是*减色法*下的三种**原色**：青、品红、黄。将原色中的任意两种混合后可以得到"
+"三种间色 (二次色)：紫、橙、绿。将间色与其他颜色混合后可以得到复色 (三次色)，"
+"如此类推。两种不同名称的颜色之间的色相变化可以被无限地细分下去，而把全部颜色"
+"按照色相的相邻关系连接起来便形成了所谓的*“色环”*。一种颜色与白混合后会被**减"
+"淡 (提高亮度)**，与黑混合后会被**加深 (降低亮度)**。一种颜色与色环上位置相反"
+"的另一种颜色混合后会**变灰 (降低饱和度)**。"
 
 #: ../../general_concepts/colors.rst:34
 msgid ""
@@ -95,10 +113,15 @@ msgid ""
 "black, and mixing all of the colored lights produces white. As such, we can "
 "make a list of possible primary color **intensities**:"
 msgstr ""
+"在计算机的数字化环境中我们也是通过类似的原则，按照*屏幕产生颜色的方式*来整理"
+"颜色。计算机屏幕的每个像素的颜色是通过组合不同亮度的*微小*的红、绿、蓝发光体"
+"来实现的。传统颜料在混合时亮度会**相减**，全部颜色混合后会得到浑浊的褐或灰。"
+"与之相对的，色光混合时亮度会**相加**——完全无光则为黑，全部色光混合后则为白。"
+"照此原则，我们把一种原色的几种可能的**亮度**组织成表："
 
 #: ../../general_concepts/colors.rst:37
 msgid ".. image:: images/en/color_category/percentages_red.svg"
-msgstr ""
+msgstr ".. image:: images/en/color_category/percentages_red.svg"
 
 #: ../../general_concepts/colors.rst:38
 msgid ""
@@ -108,10 +131,13 @@ msgid ""
 "and show the colors of light that are produced when they are added together! "
 "For example, here's a table showing various mixes of red and green:"
 msgstr ""
+"上表列出了不同亮度的红色光。电脑屏幕可以显示包括这些在内的许多不同亮度的红"
+"色。现在让我们引入另外两种原色：绿、蓝，把它们混合为不同的色光来感受*像素的魔"
+"法*。例如，下表列出了红和绿的多种混合结果。"
 
 #: ../../general_concepts/colors.rst:41
 msgid ".. image:: images/en/color_category/percentages_red_green.svg"
-msgstr ""
+msgstr ".. image:: images/en/color_category/percentages_red_green.svg"
 
 #: ../../general_concepts/colors.rst:42
 msgid ""
@@ -119,10 +145,12 @@ msgid ""
 "more tables* to show what happens when different amounts of blue are added "
 "into the mix:"
 msgstr ""
+"但这只是红和绿的组合，那么蓝色呢？下面我们准备了*更多的表格*来展现蓝色被加入"
+"后的结果："
 
 #: ../../general_concepts/colors.rst:45
 msgid ".. image:: images/en/color_category/percentages_red_green_blue.svg"
-msgstr ""
+msgstr ".. image:: images/en/color_category/percentages_red_green_blue.svg"
 
 #: ../../general_concepts/colors.rst:46
 msgid ""
@@ -132,6 +160,9 @@ msgid ""
 "color), we'd have gotten the `216 websafe colors <https://websafecolors.info/"
 "color-chart>`_!"
 msgstr ""
+"如果你用过诸如 Flash 等程序来制作互联网应用，你应该会对这种颜色组织方式感到熟"
+"悉。在这个例子中每个色彩通道的样品数为 5，如果把样品数提高到 6，我们就会得到 "
+"`216 网络安全颜色 <https://websafecolors.info/color-chart>`_!"
 
 #: ../../general_concepts/colors.rst:48
 msgid ""
@@ -141,6 +172,10 @@ msgid ""
 "time you think about it this way, but you can actually stack these tables "
 "based on the amount of blue and they become a **cube**!"
 msgstr ""
+"不过，通过表格来表现色彩总是觉得哪儿不对劲。这是因为我们的表格是*二维*的，需"
+"要混合的原色却有*三种*。其实我们可以通过*三维*方式来思考色彩。这种思路一开始"
+"可能会让人觉得有些跳跃，但如果把这些表格按照蓝的比例由上至下垂直叠放成一堆，"
+"它们就组成了一个**立方体**。"
 
 #: ../../general_concepts/colors.rst:54
 msgid ""
@@ -151,6 +186,11 @@ msgid ""
 "its axes, we say that our cube is in the RGB :ref:`RGB color model "
 "<model_rgb>`."
 msgstr ""
+"这个立方体里面填充的不是水、沙子或是*混凝土*之类的实体，它里面填充的是色彩。"
+"我们通常会把代表了抽象概念的立方体或其他三维物体理解成一个**空间**，色彩在这"
+"里也是一个相当*抽象*的概念，所以我们把这个填充了色彩的立方体叫做**色彩空间"
+"**。由于这个立方体的三个轴线为红 (R)、绿 (G)、蓝 (B)，我们便说它是一个 :ref:"
+"`RGB 色彩模型 <model_rgb>` 的色彩空间。"
 
 #: ../../general_concepts/colors.rst:56
 msgid ""
@@ -160,6 +200,9 @@ msgid ""
 "were to cut the cube in half as we balanced it, the line from the white "
 "point at the top to the black point at the bottom would be the **grayscale**."
 msgstr ""
+"色彩模型有许多种。如图，如果我们把立方体纯黑的一角放在最下方并平衡三个原色色"
+"轴，那么纯白的一角就会在最上方，如图指尖的位置。我们沿着平衡点切开这个立方"
+"体，连接顶上白点和底下黑点的那根线便是**灰度**直线。"
 
 #: ../../general_concepts/colors.rst:62
 msgid ""
@@ -169,6 +212,10 @@ msgid ""
 "vivid). The circle of colors around that middle axis of gray would then "
 "define the hue, with a different color in each direction."
 msgstr ""
+"请想象在立方体的中心有一串连贯的灰连接着立方体的白点和黑点。当我们从灰阶线上"
+"的任意一点向除了白点与黑点之外的立方体的表面移动时，颜色会变得越来越饱和 (鲜"
+"艳)。以灰阶轴上的任意一点为圆心画一个圆，则此灰阶的全部色相会被囊括在此圆中，"
+"圆的每个方向是一种颜色。"
 
 #: ../../general_concepts/colors.rst:64
 msgid ""
@@ -177,6 +224,9 @@ msgid ""
 "intensity), because it maps each unique color to the intensity of the "
 "primary colored lights that mix to create them."
 msgstr ""
+"这便是 :ref:`HSV、HSL、HSI 和 HSY 色彩模型 <model_rgb>` 的基本概念。例子中展"
+"现的是 **HSI 模型** (hue-色相、saturation-饱和度、intensity-强度)，它按照混合"
+"出某种颜色的三种原色色光的强度来整理颜色。"
 
 #: ../../general_concepts/colors.rst:66
 msgid ""
@@ -188,6 +238,12 @@ msgid ""
 "sliding scale. We call this a **perceptual model**, as it is based on how "
 "*we see color instead of how the color is generated*."
 msgstr ""
+"除此之外还有别的色彩模型，如 :ref:`model_lab`, 在该模型中我们首先定义一种颜色"
+"的灰阶值，然后再对其作进一步描述。前一个模型通过色相与饱和度进行描述，而这个"
+"模型则是通过红、绿、蓝、黄的纯度进行描述。对人类的大脑而言，红和绿、蓝和黄是"
+"两组相反的颜色。例如纯红里面一定不会含有任何绿，反之亦然。这个特性让它们非常"
+"适合被用作滑动条的*两个极端*。由于此模型*基于人类对于色彩的感知方式而非色彩本"
+"身的产生方式*，我们将其称作**可感知模型**。"
 
 #: ../../general_concepts/colors.rst:68
 msgid ""
@@ -195,6 +251,8 @@ msgid ""
 "and shapes as well. Krita allows you to do operations in different models "
 "and spaces, and we call this functionality **\"Color Management\"**."
 msgstr ""
+"色彩模型用于描述色彩空间，而色彩空间本身又有不同的体积和形状。Krita 可以让你"
+"在不同的色彩模型和色彩空间中进行作业，我们把这一功能称作**“色彩管理”**。"
 
 #: ../../general_concepts/colors.rst:70
 msgid ""
@@ -206,6 +264,10 @@ msgid ""
 "*manipulate colors like a computer can* is perhaps digital painting’s most "
 "unique quality!"
 msgstr ""
+"色彩管理是实现 :ref:`**CMYK** (减色法) <model_cmyk>` 支持所必须的功能。其实除"
+"了基本 CMYK 支持之外，色彩管理还有许多妙趣横生的用途。*以需要通过计算机才有可"
+"能实现的方式去控制色彩*本是数字绘画最为独特的一个方面，遗憾的是*某些*开发人员"
+"认为画手用不着那些功能。"
 
 #: ../../general_concepts/colors.rst:72
 msgid ""
@@ -215,6 +277,9 @@ msgid ""
 "and hope to fill it up with relatively short articles explaining color-"
 "related concepts in a light-hearted and visual manner."
 msgstr ""
+"Krita 完整的色彩管理功能让画手们可以对色彩进行*前所未有*的掌控，但网络上面向"
+"画手的色彩管理的教程少之又少。为了填补空白，我们为本分类撰写了一系列言简意"
+"赅、图文并茂的文章来对色彩管理的相关概念进行说明。"
 
 #: ../../general_concepts/colors.rst:74
 msgid ""
@@ -224,7 +289,10 @@ msgid ""
 "Management. Other than that, each article should stand on its own and can be "
 "taken in at your own direction and pace!"
 msgstr ""
+"我们建议你至少通读下一章节的 :ref:`色彩管理流程 <color_managed_workflow>` 页"
+"面。因为即使你不打算使用色彩管理功能，了解相关流程也会帮助你搞懂 Krita 的许多"
+"与颜色和色彩管理相关的功能。除此之外的其他页面请按需选读。"
 
 #: ../../general_concepts/colors.rst:76
 msgid "Topics:"
-msgstr ""
+msgstr "主题："

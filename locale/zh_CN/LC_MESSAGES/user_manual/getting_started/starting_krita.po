@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___getting_started___starting_krita.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:22
 msgid ""
@@ -23,21 +23,21 @@ msgid ""
 "   :alt: toolfreehandbrush"
 msgstr ""
 ".. image:: images/icons/freehand_brush_tool.svg\n"
-"   :alt: toolfreehandbrush"
+"   :alt: 手绘笔刷工具"
 
 #: ../../user_manual/getting_started/starting_krita.rst:None
 msgid ".. image:: images/en/Starting-krita.png"
-msgstr ""
+msgstr ".. image:: images/en/Starting-krita.png"
 
 #: ../../user_manual/getting_started/starting_krita.rst:1
 msgid ""
 "A simple guide to the first basic steps of using Krita: creating and saving "
 "an image."
-msgstr "使用 Krita 的第一个基本步骤：创建和保存图像。"
+msgstr "使用 Krita 的第一步：创建和保存图像。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:22
 msgid "Starting Krita"
-msgstr "启动 Krita"
+msgstr "开始使用 Krita"
 
 #: ../../user_manual/getting_started/starting_krita.rst:24
 msgid ""
@@ -46,9 +46,9 @@ msgid ""
 "you want to open an existing image, either use :menuselection:`File --> "
 "Open` or drag the image from your computer into Krita's window."
 msgstr ""
-"默认情况下不会打开画布或者新建文档。要创建新画布，您需要从 :guilabel:`文件` "
-"菜单新建文档。如果您想要打开已有图像，请使用 :menuselection:`文件 --> 打开` "
-"或者将图像文件从电脑拖拽到 Krita 窗口中。"
+"Krita 刚启动后不会显示画布，默认也不会自动新建文档。要显示画布，就要先从 :"
+"guilabel:`文件` 菜单创建一个新文档。要打开已有图像，请使用 :menuselection:`文"
+"件 --> 打开` 或者把图像文件拖进 Krita 的窗口。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:30
 msgid "Creating a New Document"
@@ -60,28 +60,29 @@ msgstr "可以按如下方式创建新文档。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:34
 msgid "Click on :guilabel:`File` from the application menu at the top."
-msgstr ""
+msgstr "在应用程序的顶部菜单点击 :guilabel:`文件`。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:35
 msgid ""
 "Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + "
 "N`."
-msgstr ""
+msgstr "然后点击 :guilabel:`新建`，或者直接按 :kbd:`Ctrl + N`。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:36
 msgid "Now you will get a New Document dialog box as shown below:"
-msgstr ""
+msgstr "Krita 会显示一个新建文档对话框："
 
 #: ../../user_manual/getting_started/starting_krita.rst:39
 msgid ".. image:: images/en/Krita_newfile.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_newfile.png"
 
 #: ../../user_manual/getting_started/starting_krita.rst:40
 msgid ""
 "Krita is a pretty complex program that can handle a lot of different files, "
 "so let's go through this step by step:"
 msgstr ""
-"Krita 是一个非常复杂的程序，它可以处理许多不同的文件，所以让我们一步一步来："
+"Krita 是一个相当复杂的程序，它可以处理许多不同的文件，下面让我们一步一步来讲"
+"解："
 
 #: ../../user_manual/getting_started/starting_krita.rst:43
 msgid "Custom Document"
@@ -92,6 +93,8 @@ msgid ""
 "From this section you can create a document according to your requirements: "
 "you can specify the dimensions, color model, depth, resolution, etc."
 msgstr ""
+"你可以在此页自定义将要新建的图像：你可以指定图像的尺寸、颜色模型、颜色深度、"
+"分辨率等。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:47
 msgid ""
@@ -100,12 +103,15 @@ msgid ""
 "file, and Krita will use it for the auto-save functionality as well. If you "
 "leave it empty, the document will be referred to as 'Unnamed' by default."
 msgstr ""
+"你可以在 :guilabel:`内容` 标签下的第一项为新文档指定一个名称。这个名称会显示"
+"在该文件的元数据里，Krita 也会在自动保存功能中使用该名称。如果留空，将默认使"
+"用“未命名”。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:49
 msgid ""
 "From the Predefined drop-down you can select predefined pixel sizes and PPI "
 "(pixels per inch)."
-msgstr ""
+msgstr "在“预设”下拉菜单中，你可以选择所需的像素尺寸和 PPI (像素每英寸)。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:51
 msgid ""
@@ -114,6 +120,9 @@ msgid ""
 "predefined preset for your future use by giving a name in the Save As field "
 "and clicking on the Save button."
 msgstr ""
+"在预设下拉菜单的下面有一系列输入框，你可以设置自定义尺寸、文档朝向等。在预设"
+"下拉菜单右边有“另存为”输入框，你可以把当前自定义文档设置用这个名字保存为新的"
+"预设项目。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:53
 msgid ""
@@ -121,6 +130,8 @@ msgid ""
 "can select the color model and the bit-depth. Check :ref:"
 "`color_management_settings` for more info."
 msgstr ""
+"再往下我们可以看到“颜色”区域，你可以在这里选择颜色模型和位深度。更多相关信息"
+"可查阅 :ref:`color_management_settings`。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:55
 msgid ""
@@ -128,16 +139,18 @@ msgid ""
 "amount of layers you want in the new document. Krita remembers the amount of "
 "layers you picked last time, so be careful."
 msgstr ""
+"在 :guilabel:`内容` 标签下面，你可以选择新建图像的背景色和图层数目。Krita 会"
+"记忆上次用过的图层数目，所以留个心眼。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:57
 msgid ""
 "Finally, there's a description box, useful to note down what you are going "
 "to do."
-msgstr ""
+msgstr "最后就是描述框，可以用来记录一些思路。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:60
 msgid "Create From Clipboard"
-msgstr ""
+msgstr "从剪贴板新建"
 
 #: ../../user_manual/getting_started/starting_krita.rst:62
 msgid ""
@@ -145,6 +158,8 @@ msgid ""
 "clipboard, like a screenshot. It will have all the fields set to match the "
 "clipboard image."
 msgstr ""
+"你可以在此页从剪贴板的图像新建文档，如屏幕截图。各个选项会自动按照该剪贴板文"
+"件进行设置。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:65
 msgid "Templates:"
@@ -156,6 +171,8 @@ msgid ""
 "are just .kra files which are saved in a special location, so they can be "
 "pulled up by Krita quickly."
 msgstr ""
+"我们为不同用途准备了特殊默认值的模板，它们按照用途被分为几个大类。模板是被保"
+"存在特殊位置的 .kra 文件，方便 Krita 快速调用。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:69
 msgid ""
@@ -164,6 +181,9 @@ msgid ""
 "will add your current document as a new template, including all its "
 "properties along with the layers and layer contents."
 msgstr ""
+"你可以用任意 .kra 来制作自己的模板，在顶部菜单选择 :menuselection:`文件 --> "
+"从图像创建模板`。这会把当前文档添加为一个新的模板，所有的属性包括图层和图层内"
+"容都将被保留。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:71
 msgid ""
@@ -171,10 +191,12 @@ msgid ""
 "should now have a white canvas in front of you (or whichever background "
 "color you chose in the dialog)."
 msgstr ""
+"在你按照需要新建一个文档后，窗口应该会显示一张白色的画布 (或者是你在前面指定"
+"的其他背景色)。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:74
 msgid "How to use brushes"
-msgstr ""
+msgstr "如何使用笔刷"
 
 #: ../../user_manual/getting_started/starting_krita.rst:76
 msgid ""
@@ -183,6 +205,9 @@ msgid ""
 "when you start Krita, but if for some reason it is not, you can click on "
 "this |toolfreehandbrush| icon from the toolbar and activate the brush tool."
 msgstr ""
+"现在点几下画布，如果一切正常，你应该可以在画布上进行绘画了！Krita 启动时会自"
+"动选择笔刷工具，如果没有，你可以在工具箱中点击 |toolfreehandbrush| 图标来启用"
+"笔刷工具。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:79
 msgid ""
@@ -190,26 +215,31 @@ msgid ""
 "docker named Brush Presets (or on top, press :kbd:`F6` to find this one) "
 "with all these cute squares with pens and crayons."
 msgstr ""
+"当然，你会想使用不同的笔刷。在画布右边有一个叫做“笔刷预设”的工具面板 (它也在"
+"工具栏里，按 :kbd:`F6` 弹出)，上面列出了代表各种笔刷的方块。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:81
 msgid ""
 "If you want to tweak the presets, check the Brush Editor in the toolbar. You "
 "can also access the Brush Editor with :kbd:`F5`."
 msgstr ""
+"如果想要对预设进行调整，可在工具栏里找到笔刷编辑器，按 :kbd:`F5` 也可以弹出。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:84
 msgid ".. image:: images/en/Krita_Brush_Preset_Docker.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Brush_Preset_Docker.png"
 
 #: ../../user_manual/getting_started/starting_krita.rst:85
 msgid ""
 "Tick any of the squares to choose a brush, and then draw on the canvas. To "
 "change color, click the triangle in the Advanced Color Selector docker."
 msgstr ""
+"点击任意一个方块就等于选中了该笔刷，可以使用它在画布上作画。要更改颜色，可以"
+"在高级拾色器的三角形色块里点击选择。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:88
 msgid "Erasing"
-msgstr ""
+msgstr "擦除"
 
 #: ../../user_manual/getting_started/starting_krita.rst:90
 msgid ""
@@ -217,16 +247,20 @@ msgid ""
 "eraser toggle. By toggling the :kbd:`E` key, your current brush switches "
 "between erasing and painting."
 msgstr ""
+"虽然我们也有用来擦除的笔刷预设，但切换笔刷到擦除模式更快。按下 :kbd:`E` 键，"
+"你可以在当前笔刷的绘制和擦除之间切换。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:92
 msgid ""
 "This erasing method works with most of the tools. You can erase using the "
 "line tool, rectangle tool, and even the gradient tool."
 msgstr ""
+"绝大多数工具也都可以使用擦除模式，你可以在直线工具、矩形工具，甚至渐变工具里"
+"切换成擦除模式。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:95
 msgid "Saving and opening files"
-msgstr ""
+msgstr "保存和打开文件"
 
 #: ../../user_manual/getting_started/starting_krita.rst:97
 msgid ""
@@ -235,6 +269,8 @@ msgid ""
 "computer programs: the top-menu of :guilabel:`File`, and then :guilabel:"
 "`Save`."
 msgstr ""
+"现在你已经知道怎么在 Krita 里作画了，你可能想要保存你的作品。保存功能的位置和"
+"所有其他软件一样：在顶部菜单点  :guilabel:`文件`，然后选择 :guilabel:`保存`。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:99
 msgid ""
@@ -243,12 +279,16 @@ msgid ""
 "everything). And then hit :guilabel:`Save`. Some older versions of Krita "
 "have a bug and require you to manually type the extension."
 msgstr ""
+"选择想要保存画作的文件夹，然后选择你想要使用的文件格式 ('.kra' 是 Krita 的默"
+"认格式，它可以完整保存画作)，最后点击 :guilabel:`保存` 即可。某些 Krita 的旧"
+"版本可能有一个程序问题，你必须手动输入文件的扩展名。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:101
 msgid ""
 "If you want to show off your image on the internet, check out the :ref:"
 "`saving_for_the_web` tutorial."
 msgstr ""
+"如果你想要在互联网上分享你的图像，请查阅 :ref:`saving_for_the_web` 教程。"
 
 #: ../../user_manual/getting_started/starting_krita.rst:103
 msgid ""
@@ -256,3 +296,5 @@ msgid ""
 "`basic_concepts` for an introduction as Krita as a medium, or just go out "
 "and explore Krita!"
 msgstr ""
+"你还可在 :ref:`界面导览` 一节学习更多基础知识，在 :ref:`basic_concepts` 学习"
+"在 Krita 里进行数字绘画的基本要点。现在开始大胆地探索使用 Krita 吧！"

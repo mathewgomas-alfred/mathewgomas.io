@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:50\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___filters___map.pot\n"
+"Language: zh_CN\n"
 
 #: ../../reference_manual/filters/map.rst:1
 msgid "Overview of the map filters."
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
-msgstr "映射"
+msgstr "贴图"
 
 #: ../../reference_manual/filters/map.rst:18
 msgid "Filters that are signified by them mapping the input image."
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
-msgstr "小瓦片"
+msgstr "拼贴"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
@@ -39,7 +39,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
-msgstr "Phong 凹凸贴图"
+msgstr "凹凸贴图和法线贴图"
 
 #: ../../reference_manual/filters/map.rst:33
 msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
-msgstr "标准化"
+msgstr "归一化"
 
 #: ../../reference_manual/filters/map.rst:46
 msgid ""

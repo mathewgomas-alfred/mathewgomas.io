@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,50 +15,51 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___getting_started___basic_concepts.pot\n"
+"Language: zh_CN\n"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Pixels-brushstroke.png"
-msgstr ""
+msgstr ".. image:: images/en/Pixels-brushstroke.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Dockers.png"
-msgstr ""
+msgstr ".. image:: images/en/Dockers.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Multi-window.png"
-msgstr ""
+msgstr ".. image:: images/en/Multi-window.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Canvas-krita.png"
-msgstr ""
+msgstr ".. image:: images/en/Canvas-krita.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Krita_ghostlady_1.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_ghostlady_1.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Krita_ghostlady_2.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_ghostlady_2.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Krita_ghostlady_3.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_ghostlady_3.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Krita_transforms_free.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_free.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
 msgid ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
-msgstr ""
+msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:1
 msgid "An overview of the basic concepts of Krita."
-msgstr "Krita 的基本概念概述。"
+msgstr "Krita 的基础概念简介。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:20
 msgid "Basic Concepts"
-msgstr "基本概念"
+msgstr "基础概念"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:22
 msgid ""
@@ -67,8 +67,8 @@ msgid ""
 "a brief introduction to the basic but important concepts required for "
 "getting started with digital painting in Krita."
 msgstr ""
-"如果这是您第一次涉足数字绘画，这个页面应该能为您简要介绍那些基本却十分重要的"
-"概念，它们对开始使用 Krita 进行数字绘画非常有帮助。"
+"如果你刚刚开始学习数字绘画，你可在本页面学到许多重要的基础概念，它们将帮助你"
+"使用 Krita 入门数字绘画。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:24
 msgid ""
@@ -78,10 +78,13 @@ msgid ""
 "functionality. Hopefully, it will help you grasp what buttons are for, even "
 "if you don't know the exact purpose of them."
 msgstr ""
+"这个页面非常长，因为它尽可能地涵盖了与 Krita 功能有关的重要方面，而 Krita 的"
+"功能非常强大。本页也可看作是 Krita 核心功能的使用指引，通过阅读本页，我们希望"
+"你能搞懂各个按钮的功能，即使是你并不掌握它们的工作原理。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:26
 msgid "Contents"
-msgstr "内容"
+msgstr "目录"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:29
 msgid "Raster and Vector"
@@ -93,8 +96,8 @@ msgid ""
 "vector editing capabilities as well. If you are new to Digital painting "
 "medium, it is necessary that you know the concepts of raster and Vector."
 msgstr ""
-"尽管 Krita 主要是基于栅格的应用程序，但它也有一些矢量编辑功能。如果你是数字绘"
-"画介质的新手，那么有必要了解一下栅格和矢量的概念。"
+"尽管 Krita 主要是基于栅格的应用程序，但它也具备一些矢量编辑功能。如果你是数字"
+"绘画的新手，那么就要首先理解栅格和矢量的概念。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:33
 msgid ""
@@ -106,6 +109,11 @@ msgid ""
 "beneath your brush from white to black. When you zoom in and see a brush "
 "stroke you can notice many small squares with colors, these are pixels"
 msgstr ""
+"在数字影像行业，像素是组成图像的最底层的基础元素。把数字图像放大后你会发现它"
+"呈网格状，每个网格可以单独呈现一种颜色，网格中的每一格就是一个像素。栅格图像"
+"编辑就是对这些像素操作编辑。在 Krita 里，当你使用一个大小为 1 像素的黑色笔刷"
+"在白色画布上作画时，你实际上是在把笔刷下面的像素的颜色从白改成了黑。如果你放"
+"大观察画出来的笔画，你可以看见许多小颜色方块，它们就是像素。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:38
 msgid ""
@@ -117,20 +125,25 @@ msgid ""
 "redraws the path and displays the newly formed shape to you. Hence you can "
 "re-size the vector shape to any extent without any loss in quality."
 msgstr ""
+"矢量图形与此相反，这种计算机图形基于数学表达式，它们与像素无关。例如，当你在 "
+"Krita 中的矢量图层上绘制矩形时，你实际上绘制的是一组路径，这组路径途经一组叫"
+"做“节点”的点，而这些点位于 x 轴和 y 轴上的特定坐标上。当你调整了图像大小或是"
+"移动了节点时，计算机会据此重新算出并绘制路径，然后显示由此形成的新形状。因"
+"此，你可以任意调整矢量形状的大小，而不会有图像质量的损失。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:40
 msgid "In Krita, everything which is not on a vector layer is raster based."
-msgstr ""
+msgstr "在 Krita 中，任何不在矢量图层中的内容都是基于栅格的。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:43
 msgid "Images, Views and Windows"
-msgstr ""
+msgstr "图像、视图和窗口"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:45
 msgid ""
 "In a painting program, there are three major containers that make up your "
 "work-space."
-msgstr ""
+msgstr "在绘画软件中，你的工作空间由三大部分组成。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:48
 msgid "Image"
@@ -138,7 +151,7 @@ msgstr "图像"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:50
 msgid "The most important one is the **Image**."
-msgstr ""
+msgstr "最重要的部分便是 **图像**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:52
 msgid ""
@@ -150,12 +163,19 @@ msgid ""
 "multiple images at once, you can switch between them via the :guilabel:"
 "`Window` menu."
 msgstr ""
+"这是你从文件对话框打开或新建的一份图像的独立副本，你在它上面进行编辑工作。"
+"Krita 允许你通过 :guilabel:`文件` 菜单把文件作为一个新的副本打开，或者将它保"
+"存为一个新文件，抑或是进行增量保存。一个图像文件包含了图层、色彩空间、画布尺"
+"寸、还有包含了作者、创建日期、DPI 等的元数据。Krita 可以同时打开多个文件，你"
+"可以在 :guilabel:`窗口` 菜单中进行切换。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:54
 msgid ""
 "Because the image is a working copy of the image on the hard drive, you can "
 "do a lot of little saving tricks with it:"
 msgstr ""
+"因为该图像是它在硬盘上的文件的工作副本，所以在保存时可以有下面的一些不同做"
+"法："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:56
 msgid "New"
@@ -166,6 +186,8 @@ msgid ""
 "Makes a new image. When you press :menuselection:`Save`, you make a new file "
 "on the hard drive."
 msgstr ""
+"创建一个新的图像。当你按下 :menuselection:`保存` 时，该图像被保存成硬盘上的一"
+"个新文件。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:58
 msgid "Open"
@@ -177,10 +199,12 @@ msgid ""
 "`Save`, you will overwrite the original existing image with your working "
 "copy."
 msgstr ""
+"在 Krita 内部生成现有图像文件的一个工作副本。在你按下 :menuselection:`保存` "
+"时，你将用此工作副本覆盖原始图像文件。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:60
 msgid "Open existing Document as Untitled Document"
-msgstr ""
+msgstr "将已有文档作为未命名文档打开"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:61
 msgid ""
@@ -188,6 +212,9 @@ msgid ""
 "request you to specify a saving location: you're making a new copy. This is "
 "similar to :menuselection:`Import` in other programs."
 msgstr ""
+"类似于 :menuselection:`打开`，但按下 :menuselection:`保存` 时将要求你指定一个"
+"新的保存位置，把它保存成一个不同的文件。这与其他软件的 :menuselection:`导入` "
+"类似。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:62
 msgid "Create Copy From Current Image"
@@ -198,6 +225,8 @@ msgid ""
 "Similar to :menuselection:`Open existing Document as Untitled Document` but "
 "with the currently selected image."
 msgstr ""
+"类似于 :menuselection:`将已有文档作为未命名文档打开`，但为当前显示的图像另存"
+"一个副本。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:65
 msgid "Save incremental"
@@ -208,6 +237,7 @@ msgid ""
 "Allows you to quickly make a snapshot of the current image by making a new "
 "file with a version number added to it."
 msgstr ""
+"让你可以快速保存当前图像的一个快照，快照的文件名会自动附加版本数字后缀。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:67
 msgid ""
@@ -217,6 +247,9 @@ msgid ""
 "back files and crash recovery. You can configure these in the general "
 "settings."
 msgstr ""
+"上述功能对于进行美术生产作业的人们来说相当有用，因为他们需要在不同文件之间来"
+"回切换，或在进行大幅修改前留下备份。Krita 还内建了基于自动保存、自动增量备份"
+"和崩溃恢复的一套完善的文件报分系统。你可以在常规设定中对它们进行更改。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:69
 msgid "You view the image via a **View**."
@@ -235,6 +268,10 @@ msgid ""
 "way to diagnose mistakes, like skewing to one side. Mirroring with :kbd:`M` "
 "makes such skewing easy to identify."
 msgstr ""
+"一个视图就是显示图像的窗口。Krita 允许你打开多个视图。你可以在不对图像本身进"
+"行任何更改的前提下操作视图的缩放、旋转、左右镜像和色彩的显示方式。这对于画手"
+"来说非常有用，因为他们需要通过改变查看图像的方式来分析画歪等作画失误。按 :"
+"kbd:`M` 可对画布进行左右镜像，便于发现画歪的情况。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:77
 msgid ""
@@ -242,14 +279,16 @@ msgid ""
 "drawing, and of course, there is zooming in and out for precision and rough "
 "work."
 msgstr ""
+"如果你在绘制某些曲线时觉得不顺手，你可以把视图旋转之后再画。你也当然可以在需"
+"要精雕细刻时放大视图，需要大笔勾勒时缩小视图。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid ".. image:: images/en/Krita_multiple_views.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_multiple_views.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid "Multiple views of the same image in Krita"
-msgstr ""
+msgstr "Krita 可以显示同一个图像的多个视图"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:84
 msgid ""
@@ -259,24 +298,30 @@ msgid ""
 "mode is active in the :ref:`settings <general_settings>`, via :menuselection:"
 "`Window --> Tile`."
 msgstr ""
+"如果要为一个图像显示多个视图，可到 :menuselection:`窗口 --> 新建视图 --> 图像"
+"名称`。你可以在 :guilabel:`窗口` 菜单，或者按 :kbd:`Ctrl + Tab` 来切换视图。"
+"如果需要并排显示多个视图，可到 :ref:`设置 <general_settings>`，在 :"
+"menuselection:`窗口 --> 多文档模式` 下拉菜单选中“子窗口”。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:87
 msgid "Dockers"
-msgstr "停靠栏"
+msgstr "工具面板"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:89
 msgid ""
 "Dockers are little subwindows in :ref:`Krita's interface <navigation>`. They "
 "contain useful tools, like the color selector, layer stack, tool options etc."
 msgstr ""
+"工具面板是 :ref:`Krita 界面 <navigation>` 的子窗口。它们包含了各种有用的工"
+"具，如拾色器、图层组、工具选项等。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:94
 msgid "The image above shows some of the dockers in Krita"
-msgstr ""
+msgstr "上图展示了 Krita 的部分工具面板。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:96
 msgid "All the views and the dockers are held inside **Windows**"
-msgstr ""
+msgstr "所有的视图和工具面板都被包含在**窗口**内部。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:99
 msgid "Window"
@@ -286,21 +331,23 @@ msgstr "窗口"
 msgid ""
 "If you've used a computer before, you know what windows are: They are big "
 "containers for your computer programs."
-msgstr ""
+msgstr "如果你以前使用过计算机，你应该对窗口很熟悉：它们是显示各种程序的容器。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:103
 msgid ""
 "Krita allows you to have multiple windows via :menuselection:`Window --> New "
 "Window`. You can then drag this to another monitor for multi-monitor use."
 msgstr ""
+"Krita 可以显示多个窗口，可到 :menuselection:`窗口 --> 新建窗口`。在多屏幕环境"
+"里你可以把窗口拖到另一个显示器上面。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:105
 msgid "The image below shows an example of multiple windows in Krita."
-msgstr ""
+msgstr "下图展示了 Krita 的多窗口状态。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:111
 msgid "Canvas in Krita"
-msgstr "Krita 中的画布"
+msgstr "Krita 的画布"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:113
 msgid ""
@@ -308,6 +355,8 @@ msgid ""
 "rectangular white area. This is called a canvas. You can see it in the image "
 "below. The area marked by a red rectangle is a canvas."
 msgstr ""
+"在 Krita 里新建一个文档后，你接下来会看到一个矩形的白色区域。这个区域就叫做画"
+"布。你可以在下图的红框中确认它的位置。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:118
 msgid ""
@@ -317,10 +366,13 @@ msgid ""
 "area, you just won't be able to see it. This data is stored in the "
 "**Layers**."
 msgstr ""
+"当你将画作保存为 JPG、PNG 等格式时，或者将图像打印出来时，只有在画布里面的内"
+"容才会被保存或打印，超出画布边框的内容会被忽略。不过 Krita 依然会保存超出画布"
+"边框的内容，你只是无法看到它们而已。画布的内容被保存在 **图层** 中。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:122
 msgid "Layers and Compositing"
-msgstr ""
+msgstr "图层和合成"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:124
 msgid ""
@@ -330,6 +382,9 @@ msgid ""
 "them to draw a circle after a square on the same spot, the circle will "
 "always be drawn later. This is called the **Drawing Order**."
 msgstr ""
+"就像是一个风景画家会先画出背景的天空，然后从最远的景物一步一步画到前景一样，"
+"计算机也会以类似方式处理你让它绘制的东西。如果你让计算机先画一个方形，然后在"
+"同一处再画一个圆形，圆形总是会被放在最后才画。这叫做 **绘制顺序**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:126
 msgid ""
@@ -338,30 +393,34 @@ msgid ""
 "allowing you to change the order they are drawn in, and all sorts of other "
 "effects. This is called **Compositing**."
 msgstr ""
+"通过图层组，你可以将不同的元素放在不同的图层上，通过对它们进行排序来控制它们"
+"的绘制顺序，还可以附加其他效果。这叫做 **合成**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:128
 msgid ""
 "This allows you to have line art above the colors, or trees before the "
 "mountains, and edit each without affecting the other."
 msgstr ""
+"你可以使用该功能把线稿置于底色之上，或者把树木放在远山前面，在编辑时它们不会"
+"互相影响。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:130
 msgid "Krita has many layer-types, each doing a slightly different thing:"
-msgstr ""
+msgstr "Krita 的图层有好几种，每种都有不同的功能："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:132
 msgid ":ref:`paint_layers`"
-msgstr ""
+msgstr ":ref:`paint_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:133
 msgid ""
 "Also known as raster layers, and the most common layer type, you will be "
 "painting on these."
-msgstr ""
+msgstr "也叫做栅格图层，是最常见的一种图层。你主要在这种图层上面作画。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:134
 msgid ":ref:`vector_layers`"
-msgstr ""
+msgstr ":ref:`vector_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:135
 msgid ""
@@ -369,58 +428,66 @@ msgid ""
 "typically more simple than raster graphics and with the benefit that you can "
 "deform them with less blurriness."
 msgstr ""
+"你在这种图层上面绘制矢量图形。矢量图形一般比栅格图像更简单，在变形后也不会变"
+"模糊。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:136
 msgid ":ref:`group_layers`"
-msgstr ""
+msgstr ":ref:`group_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:137
 msgid ""
 "These allow you to group several layers via drag and drop, so you can "
 "organize, move, apply masks and perform other actions on them together."
 msgstr ""
+"你可以把其他图层拖放到这种图层里组成一组，然后便可以对整组图层进行组织、移"
+"动、应用蒙版以及其他操作。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:138
 msgid ":ref:`clone_layers`"
-msgstr ""
+msgstr ":ref:`clone_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:139
 msgid ""
 "These are copies of the layer you selected when making them. They get "
 "updated automatically when changing the original."
 msgstr ""
+"它们是另一个图层的实时克隆，你创建它们时选中的图层就是它们的母本，所有对母本"
+"图层的修改都会立即反映到它的克隆图层上面。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:140
 msgid ":ref:`file_layers`"
-msgstr ""
+msgstr ":ref:`file_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:141
 msgid ""
 "These refer to an outside existing image, and update as soon as the outside "
 "image updates. Useful for logos and emblems that change a lot."
 msgstr ""
+"这些图层会引用外部的已有图像，所引用的外部图像一旦被更改，引用了它们的文件图"
+"层就会立即更新。对于引用徽标等要经常改变的元素很有用。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:142
 msgid ":ref:`fill_layers`"
-msgstr ""
+msgstr ":ref:`fill_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:143
 msgid ""
 "These layers are filled with something that Krita can make up on the fly, "
 "like colors or patterns."
-msgstr ""
+msgstr "这些图层填充了 Krita 能随时生成的内容，如颜色或图案等。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid ":ref:`filter_layers`"
-msgstr ""
+msgstr ":ref:`filter_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:145
 msgid "Adding a filter in the layer-stack. We discuss these later on."
-msgstr ""
+msgstr "给其他图层加上一个滤镜。我们会在以后对此展开介绍。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:147
 msgid "You can manipulate the content of the layers with **Tools**."
-msgstr ""
+msgstr "你可以用 **工具** 来操作图层里面的内容。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:150
 msgid "Tools"
@@ -432,10 +499,12 @@ msgid ""
 "the freehand brush, which is the default when you open Krita. There are "
 "roughly five types of tools in Krita:"
 msgstr ""
+"你可以使用工具来对图像的数据进行操作。最常用的工具自然是手绘笔刷，它也会在你"
+"打开 Krita 后默认选中。Krita 的工具可以笼统地被分为 5 大类："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:154
 msgid "Paint Tools"
-msgstr ""
+msgstr "绘画工具"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:155
 msgid ""
@@ -443,10 +512,12 @@ msgid ""
 "rectangles, circles and straight lines, but also freehand paths. These "
 "shapes then get used by the Brush engines to make shapes and drawing effects."
 msgstr ""
+"它们被用来在颜料图层上进行绘画。它们既可以描绘像矩形、圆形和直线等形状，也可"
+"以按手绘路径进行绘画。它们可以使用笔刷引擎来绘制出不同的形状和效果。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:156
 msgid "Vector Tools"
-msgstr ""
+msgstr "矢量工具"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:157
 msgid ""
@@ -455,10 +526,12 @@ msgid ""
 "draw shapes on the vector layers. These don't get a brush engine effect "
 "applied to them, though."
 msgstr ""
+"这些是位于工具箱最上面的一组工具，用来编辑矢量图形。除了手绘笔刷外所有的绘画"
+"工具都可以在矢量图层上面绘制形状，但笔刷引擎不能在这种图层上面产生效果。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:158
 msgid "Selection Tools"
-msgstr "选择工具"
+msgstr "选区工具"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:159
 msgid ""
@@ -468,39 +541,45 @@ msgid ""
 "traditional painting, but whereas using masking fluids and film is often "
 "messy and delicate, selections are far easier to use."
 msgstr ""
+"你可以用选区来限定可编辑的区域，以避免影响到不需要编辑的部分。你还可以更改当"
+"前选区的轮廓。选区就类似传统绘画的留白胶，但它们用起来很方便，不像留白胶那么"
+"脏乱。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:160
 msgid "Guide Tools"
-msgstr ""
+msgstr "导线工具"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:161
 msgid "These are tools like grids and assistants."
-msgstr ""
+msgstr "包括网格和辅助尺等。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid "Transform Tools"
-msgstr ""
+msgstr "变形工具"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
 msgid ""
 "These are tools that allow you to transform your image. More on that later."
-msgstr ""
+msgstr "你可以用这些工具对图像进行变形。我们以后会展开介绍。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:165
 msgid ""
 "All tools can be found in the toolbox, and information can be found in the "
 "tools section of the manual."
 msgstr ""
+"上面的这些工具都可以在工具箱中找到，相关信息可以在使用手册的工具章节找到。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:168
 msgid "Brush Engines"
-msgstr ""
+msgstr "笔刷引擎"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:170
 msgid ""
 "Brush engines, like mentioned before, take a path and tablet information and "
 "add effects to it, making a stroke."
 msgstr ""
+"笔刷引擎，正如前面所述，会根据绘制路径和数位板信息添加相应的效果，形成一个笔"
+"画。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:172
 msgid ""
@@ -511,22 +590,28 @@ msgid ""
 "engine drives the look and feel of the brush, and different brush engines "
 "have different results."
 msgstr ""
+"“引擎”是编程用语，它指的是一组相互关联的复杂代码，它们组成了某种功能的核心部"
+"分，同时还具备高度的可配置性。汽车的引擎为汽车提供动力，不同类型的引擎和我们"
+"对引擎调整会影响驾驶体验。而笔刷引擎控制的则是笔刷的形状和使用感受，不同的笔"
+"刷引擎能提供不同的绘画效果。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:174
 msgid ""
 "Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, "
 "all with different effects."
 msgstr ""
+"Krita 具备 :ref:`非常多样的笔刷引擎 <category_brush_engines>`，每一种的效果都"
+"不同。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
 msgid ".. image:: images/en/Krita_example_differentbrushengines.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_example_differentbrushengines.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
 msgid ""
 "**Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch "
 "brush"
-msgstr ""
+msgstr "**左图：** 像素笔刷，**中图：** 颜色涂抹笔刷，**右图：** 草图笔刷"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:181
 msgid ""
@@ -535,6 +620,9 @@ msgid ""
 "engine might be more useful. Even though it's slower to use than the Pixel "
 "Brush engine, its mixing of colors allows you to work faster."
 msgstr ""
+"举例来说，像素笔刷引擎比较简单，你可以用它进行绝大多数基本绘画工作，但如果你"
+"需要进行许多厚涂，颜色涂抹笔刷引擎可能会更有用。虽然它比像素笔刷引擎要慢，但"
+"它的混色特性可以让你画得更快。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:183
 msgid ""
@@ -543,6 +631,9 @@ msgid ""
 "big flats quickly. There are a lot of cool effects inside Krita's brush "
 "engines, so try them all out, and be sure to check the chapters on each."
 msgstr ""
+"如果你想要和上面完全不同的效果，草图笔刷引擎可以帮你绘制出潦草的线条，形状笔"
+"刷引擎可以让你快速铺开大范围的纯色。Krita 的笔刷引擎有许多有趣的效果，请试用"
+"它们，还有别忘了阅读使用手册中的相关章节。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:185
 msgid ""
@@ -551,10 +642,12 @@ msgid ""
 "into presets, which you can quickly access with :kbd:`F6` or the Brush "
 "Presets docker."
 msgstr ""
+"要调整笔刷效果，可到“笔刷选项”下拉面板，或按 via :kbd:`F5`。这些选项可被保存"
+"成预设，按 :kbd:`F6` 快速访问“笔刷预设” 工具面板。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:187
 msgid "Brushes draw with colors, but how do computers understand colors?"
-msgstr ""
+msgstr "笔刷可以画出各种颜色，那么计算机又是如何理解色彩的呢？"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:190
 msgid "Colors"
@@ -566,10 +659,12 @@ msgid ""
 "electromagnetic waves (light) bouncing off a surface, where the surface "
 "absorbs some of it."
 msgstr ""
+"人眼可以分辨几百万种颜色，它们是不同类型的电磁波 (光) 在物体的表面被部分吸收"
+"后反射形成的组合。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:197
 msgid ".. image:: images/en/Krita_basics_primaries.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_basics_primaries.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:197
 msgid ""
@@ -577,6 +672,8 @@ msgid ""
 "This difference means that printers benefit from color conversion before "
 "printing"
 msgstr ""
+"左图：CMY 色料减色法颜色，右图：RGB 色光加色法颜色。这种不同令打印机从印前色"
+"彩转换中受益。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:199
 msgid ""
@@ -588,6 +685,10 @@ msgid ""
 "mixing, our most efficient primaries are three fairly light colors: Cyan "
 "blue and Magenta red and Yellow (CMY)."
 msgstr ""
+"在传统绘画中我们使用颜料作画。不同的颜料会吸收不同波长的光，从而呈现出它们应"
+"有的颜色。但是混合的颜料越多，被吸收的光就越多，颜色也会变得越来越浑浊灰暗，"
+"所以我们也把颜料的混合原理叫做 **减色法**。基于这种原理，在传统颜料混色中最高"
+"效的三原色都是比较明亮的颜色：青、品红和黄 (CMY)。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:201
 msgid ""
@@ -598,6 +699,9 @@ msgid ""
 "white. This is why the three most efficient primaries, as used by computers "
 "are Red, Green and Blue (RGB)."
 msgstr ""
+"计算机同样使用三原色，它通过注明一种颜色中所含三原色的数量来保存颜色。但计算"
+"机的屏幕是发光体，把不同的色光混合后得到的光就越明亮，直到变为白色，所以它的"
+"混色原理叫做 **色光加色法**。计算机所用的最高效的三原色是红、绿、蓝 (RGB)。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:203
 msgid ""
@@ -605,10 +709,12 @@ msgid ""
 "the maximum depending on the bit-depth. These are called the **components** "
 "or **channels** depending on who you talk to."
 msgstr ""
+"计算机以像素为单位保存颜色的三原色数值。可用的颜色种类与颜色的 **分量** 或者 "
+"**通道** 的位深度有关。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:208
 msgid ".. image:: images/en/Krita_basic_channel_rose.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_basic_channel_rose.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:208
 msgid ""
@@ -617,6 +723,8 @@ msgid ""
 "leaves are much darker, indicating a lack of red, which is to be expected, "
 "as they are green."
 msgstr ""
+"上图是一张红玫瑰的图像中的红通道。我们可以看到花瓣是浅白色的，这意味着那些区"
+"域的红色含量高。茎叶的颜色很暗，意味着红色的含量少，因为它们是绿色的。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:210
 msgid ""
@@ -627,6 +735,10 @@ msgid ""
 "because the computer only needs to remember how white a color is. This is "
 "why grayscale is more efficient memory-wise."
 msgstr ""
+"尽管计算机默认使用 RGB，它们也可以把颜色转换成减色法的 CMYK，或者可感知的模型"
+"如 LAB。不管是哪种模型，本质上都是在描述颜色的相互关系，它们通常都包含了三个"
+"分量。灰阶是个例外，因为计算机只会在这个模型里保存一种颜色有多白，所以灰阶图"
+"比较节省内存。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:212
 msgid ""
@@ -634,16 +746,20 @@ msgid ""
 "grayscale images, but instead white just means how much Red, Green or Blue "
 "there is."
 msgstr ""
+"如果你把每个通道分离出来观察，你会发现它们看上去像是灰阶图，但它们实际上描述"
+"的是画面上的红、绿、蓝有多少。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:214
 msgid ""
 "Krita has a very complex color management system, which you can read more "
 "about :ref:`here <general_concept_color>`."
 msgstr ""
+"Krita 具备一个非常复杂的色彩管理系统，你可以在 :ref:`这里"
+"general_concept_color>` 查阅更多信息。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:217
 msgid "Transparency"
-msgstr "透明"
+msgstr "透明度"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:219
 msgid ""
@@ -652,6 +768,8 @@ msgid ""
 "all, there's no point in having multiple layers if you can't have "
 "transparency."
 msgstr ""
+"和红、绿、蓝一样，计算机也可以保存一个像素的透明程度。这对于前面提到过的 **合"
+"成** 非常重要，毕竟图层要是没有透明区域也就没有把它们分成多个图层的意义了。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:221
 msgid ""
@@ -660,6 +778,9 @@ msgid ""
 "short. The reason behind this is that the letter 'α' is used to represent it "
 "in programming."
 msgstr ""
+"透明度和颜色用同样的方式进行保存，所以它也有自己的通道。我们通常把这条通道叫"
+"做 **阿尔法通道** 或者简称为 **alpha**。这是因为希腊字母“α”被用于在编程中表示"
+"透明度。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:223
 msgid ""
@@ -669,26 +790,33 @@ msgid ""
 "completely transparent on all layers, Krita will instead show a checkerboard "
 "pattern, like the rose image to the left."
 msgstr ""
+"一些较老的程序默认不使用透明度。Krita 与之相反，它无法理解不带透明度的图像，"
+"并总是会给图像添加一个透明度通道。当某个像素在所有图层上都完全透明时，Krita "
+"会在它的背景上显示棋盘格图案，如上面的玫瑰图像所示。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:226
 msgid "Blending modes"
-msgstr ""
+msgstr "混色模式"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:228
 msgid ""
 "Because colors are stored as numbers you can do maths with them. We call "
 "this **Blending Modes** or **Compositing Modes**."
 msgstr ""
+"因为颜色是被保存成数字形式的，所以你可以对它们进行数学计算。我们把这叫做 **混"
+"色模式** 或者 **合成模式**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:230
 msgid ""
 "Blending modes can be done per layer or per brush stroke, and thus are also "
 "part of the compositing of layers."
 msgstr ""
+"混色模式可在每个图层之间或每一笔画之间进行。而笔刷绘制出来的颜色又会成为图层"
+"合成的一部分。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:233
 msgid "Multiply"
-msgstr "正片叠底"
+msgstr "相乘"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:233
 msgid ""
@@ -696,6 +824,8 @@ msgid ""
 "multiplies the components, leading to darker colors. This allows you to "
 "simulate the subtractive mixing, and thus makes painting shadows much easier."
 msgstr ""
+":menuselection:`相乘` 是一种常用的混色模式。它把两个图层的颜色分量相乘，得到"
+"更深的颜色。我们可以用它模拟减色混色法，这样可以更容易地画出阴影。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:235
 msgid "Addition"
@@ -706,10 +836,12 @@ msgid ""
 "Another common one is :menuselection:`Addition`, which adds one layer's "
 "components to the other, making it perfect for special glow effects."
 msgstr ""
+":menuselection:`加法` 也是一种常见的混色模式，它会把两个图层的颜色分量相加，"
+"非常合适用来营造发光特效。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:237
 msgid "Erasing"
-msgstr ""
+msgstr "擦除"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:238
 msgid ""
@@ -718,22 +850,29 @@ msgid ""
 "eraser. You can also use it on layers. Unlike the other blending modes, this "
 "one only affects the alpha channel, making things more transparent."
 msgstr ""
+":menuselection:`擦除` 是 Krita 的一种混色模式。Krita 没有单独的橡皮擦工具，但"
+"你可以随时按 :kbd:`E` 把当前笔刷切换到擦除模式。你也可以把图层设成擦除模式。"
+"和其他混色模式不同，它只针对透明度通道起效果，让像素变得更加透明。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:240
 msgid "Normal"
-msgstr "普通窗口"
+msgstr "正常"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:240
 msgid ""
 "The :menuselection:`Normal` blend mode just averages between colors "
 "depending on how transparent the topmost color is."
 msgstr ""
+":menuselection:`正常` 混合模式按照上层图层的透明度来决定如何分配两个图层的颜"
+"色。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:242
 msgid ""
 "Krita has 76 blending modes, each doing slightly different things. Head over "
 "to the :ref:`blending_modes` to learn more."
 msgstr ""
+"Krita 有 76 种混色模式，每种的效果都略有不同。想要进一步了解，请阅读 :ref:"
+"`blending_modes`。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:244
 msgid ""
@@ -741,16 +880,18 @@ msgid ""
 "images into channels. Like for example, we can use a grayscale image for the "
 "transparency. We call these **Masks**."
 msgstr ""
+"由于我们可以把通道看作是灰阶图像，我们也可以把灰阶图像转换成通道。例如，我们"
+"可以把一张灰阶图像用作透明度。我们把这叫做 **蒙版**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:247
 msgid "Masks"
-msgstr ""
+msgstr "蒙版"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:249
 msgid ""
 "Masks are a type of sub-effect applied to a layer, usually driven by a "
 "grayscale image."
-msgstr ""
+msgstr "蒙版是应用到某个图层上的附属效果，通常基于一张灰阶图像。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:251
 msgid ""
@@ -758,6 +899,8 @@ msgid ""
 "use a grayscale image to determine the transparency, where black makes "
 "everything transparent and white makes the pixel fully opaque."
 msgstr ""
+"蒙版的最主要类型是 :ref:`transparency_masks`，它用一张灰阶图像来确定透明度。"
+"纯黑意味着完全透明，纯白意味着完全不透明。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:253
 msgid ""
@@ -766,10 +909,13 @@ msgid ""
 "transparent without removing the underlying pixels. Furthermore, you can use "
 "masks to reveal or hide a whole group layer at once!"
 msgstr ""
+"你可以使用任意笔刷在蒙版上绘画，也可以把一个正常的颜料图层转换成蒙版。使用蒙"
+"版的意义在于你可以在不破坏原图像素的情况下把它们变为透明。你也可以用蒙版为整"
+"个图层分组施加透明度。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:255
 msgid "For example, we have a white ghost lady here:"
-msgstr ""
+msgstr "例如，这里有位白色的女鬼："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:260
 msgid ""
@@ -778,12 +924,15 @@ msgid ""
 "layer and add a transparency mask. Then, we select that mask and draw with a "
 "black and white linear gradient so that the black is below."
 msgstr ""
+"不过你很难搞清楚她是个鬼还是很白，要是能营造出她浮在空中的感觉就好了。要做到"
+"这一点，我们先在她所在图层上右键单击，添加一个透明度蒙版。然后我们选中该蒙"
+"版，用渐变工具从下到上做一次黑白渐变，黑色在画面下半部分。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:266
 msgid ""
 "Wherever the black is, there the lady now becomes transparent, turning her "
 "into a real ghost!"
-msgstr ""
+msgstr "只要黑色所到之处，她都会变成透明，这下她就变成名副其实的女鬼了！"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:268
 msgid ""
@@ -793,6 +942,9 @@ msgid ""
 "them as a local selection which is kind of like a mask, or convert them to a "
 "transparency mask."
 msgstr ""
+"蒙版这个名字最初起源于电影行业，它和前面提到的留白胶作用类似。Krita 的选区也"
+"是作为灰阶图像保存在程序内部的。你可以把选区保存成一个本地选区，这其实就是一"
+"种蒙版，也可以把它们转换成透明度蒙版。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:271
 msgid "Filters"
@@ -805,18 +957,21 @@ msgid ""
 "make Krita do all sorts of little operations on layers. We call these "
 "operations **Filters**."
 msgstr ""
+"我们之前说过你可以对颜色进行数学运算。你可以对某个像素、一组像素或者整个图层"
+"进行数学运算。你可以让 Krita 对图层进行各种各样的有趣处理。我们把这些处理叫"
+"做 **滤镜**。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:275
 msgid "Examples of such operations are:"
-msgstr ""
+msgstr "我们可以用下面的处理举例："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:277
 msgid "Desaturate"
-msgstr "去饱和"
+msgstr "去色"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:278
 msgid "This makes all the pixels turn gray."
-msgstr ""
+msgstr "这会把所有像素变成灰色。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:279
 msgid "Blur"
@@ -827,6 +982,7 @@ msgid ""
 "This averages the pixels with their neighbors, which removes sharp contrasts "
 "and makes the whole image look blurry."
 msgstr ""
+"这会把相邻的像素平均化，柔化硬边和强烈的反差，使得图像整体看起来模糊柔和。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:281
 msgid "Sharpen"
@@ -836,7 +992,7 @@ msgstr "锐化"
 msgid ""
 "This increases the contrast between pixels that had a pretty high contrast "
 "to begin with."
-msgstr ""
+msgstr "这会进一步增加本身反差较大的像素之间的反差。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:284
 msgid "Color to Alpha"
@@ -844,46 +1000,50 @@ msgstr "颜色转为透明度"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:284
 msgid "A popular filter which makes all of the chosen color transparent."
-msgstr ""
+msgstr "一个可以把选中的颜色变成透明的常用滤镜。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:289
 msgid ".. image:: images/en/Krita_basic_filter_brush.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_basic_filter_brush.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:289
 msgid "Different filter brushes being used on different parts of the image."
-msgstr ""
+msgstr "这张图像的不同部分被应用了不同的滤镜。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:291
 msgid ""
 "Krita has many more filters available: read about them :ref:`here <filters>`."
-msgstr ""
+msgstr "Krita 包含了大量滤镜，要进一步了解，请阅读 :ref:`相关章节 <filters>`。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:294
 msgid ":ref:`filter_brush_engine`"
-msgstr ""
+msgstr ":ref:`filter_brush_engine`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:296
 msgid ""
 "Because many of these operations are per pixel, Krita allows you to use the "
 "filter as part of the :ref:`filter_brush_engine`."
 msgstr ""
+"由于上述处理都是针对像素的，Krita 允许你在 :ref:`filter_brush_engine` 里面使"
+"用滤镜。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:298
 msgid ""
 "In most image manipulation software, these are separate tools, but Krita has "
 "it as a brush engine, allowing much more customization than usual."
 msgstr ""
+"在绝大多数图像处理软件中，滤镜和笔刷都是分开的不同的工具。但 Krita 把滤镜也整"
+"合在了笔刷引擎里面，让你可以定制更细腻的效果。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:300
 msgid ""
 "This means you can make a brush that desaturates pixels, or a brush that "
 "changes the hue of the pixels underneath."
-msgstr ""
+msgstr "这意味着你可以制作一个有去色效果的笔刷，或者是一个能改变色相的笔刷。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:303
 msgid "Filter Layers, Filter Masks and Layer Styles"
-msgstr ""
+msgstr "滤镜图层、滤镜蒙版和图层样式"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:305
 msgid ""
@@ -892,6 +1052,9 @@ msgid ""
 "layers underneath it in the same hierarchy. Transparency and transparency "
 "masks on Filter Layers affect where the layer is applied."
 msgstr ""
+"Krita 还允许你把滤镜应用到图层组上，作为 :ref:`filter_layers` 和 :ref:"
+"`filter_masks`。滤镜图层按照继承关系影响与其关联的图层。在滤镜图层上调整透明"
+"度和透明度蒙版可以影响它们作用的图层和区域。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:307
 msgid ""
@@ -899,6 +1062,7 @@ msgid ""
 "grayscale image. They will also affect all layers in a group, much like a "
 "transparency mask."
 msgstr ""
+"滤镜蒙版可以通过一张灰阶图像影响一个图层，或者一个分组，这和透明度蒙版类似。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:309
 msgid ""
@@ -910,6 +1074,11 @@ msgid ""
 "can keep on painting on the original layer and everything will get updated "
 "automatically!"
 msgstr ""
+"我们可以使用这些滤镜来让我们的女鬼看上去更加神秘。选中女鬼所在图层，创建一个"
+"克隆图层。我们在克隆图层上右键单击并添加一个滤镜蒙版，让它使用高斯模糊，半径"
+"为 10 像素左右。接下来我们把该克隆图层放到原图层后面，将混色模式设为“**颜色减"
+"淡**”，得到一种鬼魅般的幽光。你可以在原图层上继续作画，而刚才建立的特效会自动"
+"随之更新！"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:314
 msgid ""
@@ -918,10 +1087,12 @@ msgid ""
 "versatile. They are available by right clicking a layer and selecting 'layer "
 "style'."
 msgstr ""
+"图层特效或图层样式是 :program:`Photoshop` 的一种特殊滤镜蒙版，它们比一般蒙版"
+"更快，但用途并没有那么广泛。要使用它们，可右键单击一个图层并选择“图层样式”。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:317
 msgid "Transformations"
-msgstr "变换"
+msgstr "变形"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:319
 msgid ""
@@ -930,6 +1101,9 @@ msgid ""
 "transformations in the image and layer top menus, so that you may resize, "
 "flip and rotate the whole image."
 msgstr ""
+"**变形** 和滤镜一样是针对图像像素进行的处理。针对整个图像的和针对单个图层的变"
+"形操作被分别放在顶部菜单的两个组内，在那里你可以调整整个图像的大小、对其进行"
+"翻转和旋转。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:321
 msgid ""
@@ -937,6 +1111,9 @@ msgid ""
 "the :ref:`move_tool` which only moves a given layer. However, if you want "
 "more control, Krita offers a :ref:`transform_tool`."
 msgstr ""
+"Krita准备了 :ref:`crop_tool`，它只能用来修改画布大小；:ref:`move_tool`，它只"
+"能用来移动一个图层。如果你需要更多控制，Krita 还准备了 :ref:"
+"`transform_tool`。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:327
 msgid ""
@@ -945,10 +1122,13 @@ msgid ""
 "and liquify, which allow you to transform by drawing custom points or even "
 "by pretending it's a transforming brush."
 msgstr ""
+"这个工具可以用来对画布上的对象进行旋转、调整大小、透视变化等。你还可以使用更"
+"高级的变形工具，如通过绘制并拖动控制点进行变形的网面变形、外框变形、仿佛是一"
+"个变形笔刷一样的液化变形等。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:330
 msgid ":ref:`deform_brush_engine`"
-msgstr ""
+msgstr ":ref:`deform_brush_engine`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:332
 msgid ""
@@ -957,25 +1137,27 @@ msgid ""
 "version of the Liquify transform tool mode, but in exchange, its results are "
 "of much lower quality."
 msgstr ""
+"形变笔刷引擎和滤镜笔刷引擎类似，可以让你使用笔刷进行变形操作。形变笔刷就像是"
+"一个更快速的液化变形工具模式，但生成的图像品质要低许多。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
 msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
 msgid ""
 "Apple transformed into a pear with liquify on the left and deform brush on "
 "the right."
-msgstr ""
+msgstr "把一个苹果变形为梨形，左图使用了液化变形，右图使用了形变笔刷。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:339
 msgid ""
 "Furthermore, you can't apply the deform brush as a non-destructive mask."
-msgstr ""
+msgstr "还有一点，形变笔刷是不可以应用到非破坏性蒙版上的。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:342
 msgid ":ref:`transformation_masks`"
-msgstr ""
+msgstr ":ref:`transformation_masks`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:344
 msgid ""
@@ -984,10 +1166,13 @@ msgid ""
 "transform masks can't be driven by a grayscale image, for technical reasons. "
 "You can use transform masks to deform clone and file layers as well."
 msgstr ""
+"和滤镜一样，变形也可以被作为一种非破坏性操作应用到图层组里。但和滤镜还有透明"
+"度蒙版不同的是，变形蒙版由于技术限制，并非基于灰阶图像。你还可以使用变形蒙版"
+"来对克隆或文件图层进行变形。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:348
 msgid ":ref:`animation`"
-msgstr ""
+msgstr ":ref:`animation`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:353
 msgid ""
@@ -996,10 +1181,13 @@ msgid ""
 "do raster based animations, export those, and then turn them into movies or "
 "gifs."
 msgstr ""
+"Krita 从 3.0 版开始支持动画。你可以使用时间线、动画和洋葱皮工具面板，加上 "
+"Krita 原有的多样化笔刷来绘制基于栅格图像的动画，对它们进行导出并将它们转换为"
+"视频或 GIF 动画。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:356
 msgid "Assistants, Grids and Guides"
-msgstr ""
+msgstr "辅助尺、网格和导线"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:358
 msgid ""
@@ -1007,38 +1195,43 @@ msgid ""
 "program. Like how an illustrator in real life can have all sorts of "
 "equipment to make drawing easier, Krita also offers a variety of tools:"
 msgstr ""
+"介绍了这么多的技术性的内容，是不是快要忘记 Krita 是个绘画程序了呢？就好像现实"
+"中的插画师会运用各种工具来让画画变得更加容易，Krita 也提供了一系列绘画辅助工"
+"具："
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
 msgid ".. image:: images/en/Krita_basic_assistants.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_basic_assistants.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
 msgid "Krita's vanishing point assistants in action"
-msgstr ""
+msgstr "Krita 的消失点辅助尺正在工作"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:365
 msgid ":ref:`grids_and_guides_docker`"
-msgstr ""
+msgstr ":ref:`grids_and_guides_docker`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:366
 msgid ""
 "Very straightforward guiding tool which shows grids or guiding lines that "
 "can be configured."
-msgstr ""
+msgstr "非常直观的辅助线工具，用来显示网格和导线。具体显示方式可配置。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:367
 msgid ":ref:`snapping`"
-msgstr ""
+msgstr ":ref:`snapping`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:368
 msgid ""
 "You can snap to all sorts of things. Grids, guides, extensions, orthogonals, "
 "image centers and bounding boxes."
 msgstr ""
+"你可以把对象或绘画笔迹吸附到各种辅助工具上，网格、导线、延长线、正交线、图像"
+"中心点和外框等处。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:370
 msgid ":ref:`painting_with_assistants`"
-msgstr ""
+msgstr ":ref:`painting_with_assistants`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:370
 msgid ""
@@ -1047,20 +1240,24 @@ msgid ""
 "parallel lines and other easily forgotten but tricky to draw details. Krita "
 "allows you to snap to these via the tool options as well."
 msgstr ""
+"在数位板上面使用尺子相当不方便，而 Krita 专门为此准备了辅助尺工具。它们可以帮"
+"你绘制同心圆、透视、平行线，而无需跟复杂的绘画原理打交道。Krita 还有选项允许"
+"你吸附在这些辅助尺上进行绘画。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:372
 msgid ""
 "These guides are saved into Krita's native format, which means you can pick "
 "up your work easily afterwards."
 msgstr ""
+"这些辅助工具可以被保存到 Krita 的原生格式中，因此你可以随时继续之前的工作。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:375
 msgid "Customization"
-msgstr ""
+msgstr "定制化"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:377
 msgid "This leads to the final concept: customization."
-msgstr ""
+msgstr "我们要介绍的最后一个概念是定制化。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:379
 msgid ""
@@ -1068,6 +1265,8 @@ msgid ""
 "provides and saves your configurations as :ref:`resource_workspaces`. This "
 "is the button at the top right."
 msgstr ""
+"除了按照个人喜好自由安排工具面板外，Krita 还可以让你保存配置为工作空间 :ref:"
+"`resource_workspaces`。该按钮在窗口的右上角。"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:381
 msgid ""
@@ -1076,3 +1275,6 @@ msgid ""
 "`Settings --> Configure Krita --> Configure Shortcuts` and :menuselection:"
 "`Settings --> Configure Krita --> Canvas Input Settings`."
 msgstr ""
+"要配置工具栏，可到 :menuselection:`设置 --> 配置工具栏`；要配置快捷键，可到 :"
+"menuselection:`设置 --> 配置 Krita --> 键盘快捷键` 和 :menuselection:`设置 --"
+"> 配置 Krita --> 画布输入设置`。"

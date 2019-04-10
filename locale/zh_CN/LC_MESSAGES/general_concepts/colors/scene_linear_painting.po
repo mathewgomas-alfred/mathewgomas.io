@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-26 03:35+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,14 +15,15 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___scene_linear_painting.pot\n"
+"Language: zh_CN\n"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:1
 msgid "Scene Linear painting in Krita"
-msgstr ""
+msgstr "在 Krita 中进行场景线性绘画"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:15
 msgid "Scene Linear Painting"
-msgstr ""
+msgstr "场景线性绘画"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:17
 msgid ""
@@ -31,6 +31,8 @@ msgid ""
 "Linear Painting is doing digital painting in a peculiar type of colorspace. "
 "It is painting in a color space that is..."
 msgstr ""
+"场景线性绘画和我们之前提过的 HDR 绘画和场景参照绘画是一回事。场景线性绘画是在"
+"一种特定色彩空间下的数字绘画作业方式。该色彩空间必须满足下面的条件："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:19
 msgid ""
@@ -38,10 +40,12 @@ msgid ""
 "with the pixels you manipulate. (This is different from the pixels you see, "
 "but we’ll get to that later)"
 msgstr ""
+"线性 - 色彩空间不使用 gamma 编码，或者色调映射之类的会影响你正在操作的像素的"
+"功能 (这与你正在观察的像素不是一回事，我们会在后面讨论)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:20
 msgid "Floating Point - So 16bit or 32bit floating point per channel."
-msgstr ""
+msgstr "浮点 - 每色彩通道 16 位浮点或 32 位浮点。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:22
 msgid ""
@@ -51,6 +55,8 @@ msgid ""
 "anything, as long as the space is linear and the color depth is floating "
 "point."
 msgstr ""
+"这两项特性是最重要的。色彩空间的其他属性，像白点、色域的组成颜色等可以五花八"
+"门，但只要该空间是线性的，色彩位深是浮点的，那就行了。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:24
 msgid ""
@@ -59,6 +65,9 @@ msgid ""
 "colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as "
 "long as it is *linear* and in a *floating point bit depth*."
 msgstr ""
+"所以，场景线性不是一个特定的色彩空间，而是**一类**色彩空间。你的场景线性空间"
+"的色域可以是 sRGB/rec 709 的，也可以是 AdobeRGB 的，甚至是 rec 2020 的，只要"
+"它是*线性的*并*使用浮点位深度*即可。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:26
 msgid ""
@@ -74,6 +83,14 @@ msgid ""
 "world can see much more when they get used to the dark, or to the sun, so "
 "why not apply that to how we make our images?"
 msgstr ""
+"采用这两个因素的理由只有一个，让黑和白的数值可以随意设定。这听起来有点奇怪，"
+"但在任何光源下面的颜色都有一个极宽的明暗范围，你需要为一个场景选取合适白和黑"
+"的数值。“场景线性”里面的“场景”就是这么来的，不同场景的白和黑的数值不尽相同，"
+"就像是现实世界的这些不同场景的情况一样：一片月光下的花田、沐浴在暮光中的都"
+"市、阳光明媚的沙滩等。你需要在强调一个场景里面最重要的明暗对比，而自由选择白"
+"和黑的数值的能力就是进行这种处理的有力工具。就如同在现实生活中眼睛在适应黑暗"
+"之后能够看见比之前更多的细节一样。我们为什么不把这种功能应用到图像的制作中去"
+"呢？"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:28
 msgid ""
@@ -85,6 +102,11 @@ msgid ""
 "correction, but only at the end after you have applied filters and mixed "
 "colors!"
 msgstr ""
+"这也是为什么符合要求的空间必须是线性的。使用 gamma 校正和色调映射的色彩空间已"
+"经硬性规定了最重要的明暗对比区域，并为此选取了固定的白和黑的数值。线性空间不"
+"存在上述情况 ，所以更方便用户自行选择。虽然你终究需要把图像转换成 gamma 校正"
+"或色调映射的色彩空间，但那应该是完成混色和应用滤镜之后进行输出时才要做的最后"
+"一步。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:30
 msgid ""
@@ -96,6 +118,10 @@ msgid ""
 "often making the image too dark. Providing such a transform and allowing you "
 "to configure it is the prime function of color management."
 msgstr ""
+"其实在你处理包含阶调映射的图像时总会伴随着某种非破坏性的色彩转换，这便是显示"
+"或视图色彩转换。它好比一副你用来观看图像的望远镜，没了它，你的计算机就无法正"
+"确地解读图像的颜色，当然也就无法准确地呈现颜色，这往往会造成图像色彩昏暗。色"
+"彩管理的首要功能就是提供这种转换并允许用户进行调整。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:32
 msgid ""
@@ -106,10 +132,14 @@ msgid ""
 "in the lut docker can give much more complex transforms easily configurable "
 "and custom settings that can be shared between programs."
 msgstr ""
+"视图和显示转换功能也有很多类型。有些简单粗暴，有些则极为复杂，有些还需要在某"
+"种用法下面才能正确工作。ICC 色彩管理只能提供某些视图转换，而在 LUT 工具面板中"
+"的 OCIO 色彩管理可以进行更加复杂的转换，配置起来也很方便，自定义设置还可以和"
+"其他程序共用。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:38
 msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:38
 msgid ""
@@ -119,6 +149,10 @@ msgid ""
 "between the paws. Image by Wolthera van Hövell tot Westerflier, License: CC-"
 "BY-SA"
 msgstr ""
+"上图给出了一组例子进行对比。左图用一种较为简单粗暴的方式把原图从场景线性 "
+"sRGB 转换为了常规 sRGB，右图则通过 Blender 的电影 OCIO 配置进行了更精细化的转"
+"换。留意猫爪处的不同。图像作者：Wolthera van Hövell tot Westerflier，许可协"
+"议：CC-BY-SA"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:40
 msgid ""
@@ -129,28 +163,31 @@ msgid ""
 "color profile. Therefore you will need to switch to an ICC workflow if you "
 "wish to prepare for print."
 msgstr ""
+"但另一方面，对图像色彩进行解读和转换是 OCIO 的唯一功能。虽然 OCIO 可以快速进"
+"行复杂的转换，但它并不能理解图像原本的色彩空间，也不能理解 CMYK，也没有相应"
+"的 OCIO 色彩特性文件，所以在准备打印图像时必须切换至 ICC 工作流程。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:43
 msgid "Yes, but what is the point?"
-msgstr ""
+msgstr "那它有什么用呢？"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:45
 msgid "The point is making things easier in the long run:"
-msgstr ""
+msgstr "为了长远打算，使日后的工作更轻松："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:47
 msgid "It is easier to keep saturated non-muddy colors in a linear space."
-msgstr ""
+msgstr "高饱和度、非灰调的颜色在线性空间中更容易保持纯净。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:48
 msgid "The high bit depth makes it easier to get smoother color mixes."
-msgstr ""
+msgstr "高位深下更容易得到平滑的混色。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:49
 msgid ""
 "Filters are more powerful and give nicer results in this space. It is far "
 "more easy to get nice blurring and bokeh results."
-msgstr ""
+msgstr "滤镜在线性空间下的性能和效果都更好，更容易生成好看的模糊和光晕效果。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:50
 msgid ""
@@ -159,6 +196,9 @@ msgid ""
 "in, physics, not material) model of color where multiplying colors with one "
 "another is one of the main ways to calculate the effect of light."
 msgstr ""
+"相乘、相加之类的简单混色模式效果会突然变得极为好用。这是因为线性空间与色彩运"
+"算的物理学模型最为接近，在这个模型里光的效果本来就是通过将色彩数值的坐标相乘"
+"得出的。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:51
 msgid ""
@@ -167,28 +207,36 @@ msgid ""
 "colorspace. So you could use such images as a reference with little qualms, "
 "or make textures that play nice with such a renderer."
 msgstr ""
+"将绘画过程与其他图像如照片等的整合将更加方便，毕竟它们也在使用同类色彩空间。"
+"这让你在使用参考图像时不必担惊受怕，为渲染器等准备图像时也会更加得心应手。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:53
 msgid ""
 "So the advantages are prettier colors, cooler filter results, more control "
 "and easier interchange with other methods."
 msgstr ""
+"总的来说使用线性空间的好处是：更好看的颜色、更好用的滤镜、更好的色彩控制和在"
+"不同工作流程之间更方便的图像交换。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:56
 msgid "Okay, but why isn’t this all the rage then?"
-msgstr ""
+msgstr "那为什么都见不到人在用它？"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:58
 msgid ""
 "Simply put, because while it’s easier in the long run, you will also have to "
 "drop tools and change habits..."
 msgstr ""
+"简单来说，虽然线性空间是个长久之计，但它要求你必须在当下就抛弃熟悉的工具和摒"
+"弃多年的习惯。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:60
 msgid ""
 "In particular, there are many tools in a digital painter’s toolbox that have "
 "**hard-coded assumptions about black and white**."
 msgstr ""
+"尤其需要指出的是，在数字绘画工具箱中的许多工具都**对白和黑的特性作了硬性规定"
+"**。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:62
 msgid ""
@@ -200,33 +248,37 @@ msgid ""
 "inversion is done with, so inverting is useless. And that also means the "
 "filters and blending modes that use it, such as (but not limited to)..."
 msgstr ""
+"一个简单却很大的问题出在**反相**处理上面。颜色的反相在代码层面是用白减去被反"
+"相的颜色，许多混色模式和滤镜都在使用这种代码。问题是当前并没有软件允许用户设"
+"置反相操作的明度范围，它们全都硬性规定了白的数值，这么一来反相功能就废了。这"
+"也意味着使用这种代码的滤镜和混色模式也跟着废了，它们包括但不仅限于："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:64
 msgid "Screen (invert+multiply+invert)"
-msgstr ""
+msgstr "滤色 (反相+相乘+反相)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:65
 msgid ""
 "Overlay (screens values below midtone-value, in sRGB this would be middle "
 "gray)"
-msgstr ""
+msgstr "叠加 (对明度低于中间调的颜色进行滤色，在 sRGB 下使用中间灰)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:66
 msgid "Color-dodge (divides the lower color with an inversion of the top one)"
-msgstr ""
+msgstr "颜色减淡 (下层颜色与上层颜色的反相相除)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:67
 msgid ""
 "Color-burn (inverts the lower color and then divides it by the top color)"
-msgstr ""
+msgstr "颜色加深 (下层颜色的反相与上层颜色相除)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:68
 msgid "Hardlight (A different way of doing overlay, including the inversion)"
-msgstr ""
+msgstr "强光 (另一种进行叠加的算法，也用了反相)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:69
 msgid "Softlight (Uses several inversions along the way)"
-msgstr ""
+msgstr "柔光 (在运算过程中用了好几次反相)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:71
 msgid ""
@@ -235,6 +287,9 @@ msgid ""
 "(ditto), and Difference *are fine to use*, as long as the program you use "
 "doesn’t do weird clipping there."
 msgstr ""
+"另一方面，相乘、线性减淡/相加 (这两个其实是一回事)、相减、相除、调暗颜色 (仅"
+"对比色彩通道数值)、调亮颜色 (同上)、插值等模式*均可正常使用*，只要你的软件不"
+"对颜色进行什么怪异的操作就行。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:73
 msgid ""
@@ -242,6 +297,9 @@ msgid ""
 "something about the top value to allow scaling to white. HSV doesn’t have "
 "this problem. So it’s best to use an HSV color selector."
 msgstr ""
+"还有就是使用 HSL、HSI 和 HSY 模型的各种算法。这些模型必须假定一个最大明度为"
+"白，以此为准对空间进行等比缩放。HSV 不存在这种问题，所以最好使用 HSV 模型的拾"
+"色器。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:75
 msgid ""
@@ -252,14 +310,18 @@ msgid ""
 "about black and white, not with scene linear painting. The following "
 "blending modes use them:"
 msgstr ""
+"使用 HSY 的混色模式一直有着硬性规定使用 sRGB/rec709 明度值的毛病。虽然除此之"
+"外问题不大 (实际上它们在线性空间里能给出准确得多的结果)，但它们并不适合用于宽"
+"色域的色彩空间。也因为它们硬性规定了白和黑，所以也不适合用于场景线性绘画。使"
+"用 HSY 的混色模式如下："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:77
 msgid "Color"
-msgstr "彩色"
+msgstr "颜色"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:78
 msgid "Luminosity"
-msgstr "流明度"
+msgstr "光度"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:79
 msgid "Saturation"
@@ -267,17 +329,19 @@ msgstr "饱和度"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:80
 msgid "Darker Color (uses luminosity to determine the color)"
-msgstr ""
+msgstr "较暗颜色 (使用光度来决定颜色)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:81
 msgid "Lighter Color (Ditto)"
-msgstr ""
+msgstr "较亮颜色 (同上)"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:83
 msgid ""
 "So that is the blending modes. Many filters suffer from similar issues, and "
 "in many applications, filters aren’t adjusted to work with arbitrary whites."
 msgstr ""
+"混色模式的问题就这么多，可滤镜的问题也不少。大多数应用软件的滤镜并不能在自定"
+"义白下面正常工作。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:85
 msgid ""
@@ -285,10 +349,12 @@ msgid ""
 "using lanczos3, it’ll give a weird black halo to sharp contrasts in scene-"
 "linear. The bilinear interpolation filter will work just fine in this case."
 msgstr ""
+"说到滤镜 (过滤器)，在使用变形工具时你应该避免使用 lanczos3 过滤器，它会在场景"
+"线性的锐利明暗线上生成古怪的暗色光晕。双线性插值过滤器就不会有任何问题。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:87
 msgid "The second big problem is that **black doesn’t work quite the same**."
-msgstr ""
+msgstr "第二个大问题则是**黑的混色效果不同了**。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:89
 msgid ""
@@ -296,6 +362,8 @@ msgid ""
 "overpower the other colors, so you should only add the tiniest amount of it "
 "to a mixture. White in contrast gets dirtied quite easily."
 msgstr ""
+"如果你以前调过颜料，应该知道黑颜料特别容易压倒其他颜料，所以用一丁点儿就足够"
+"了。而白色则特别容易被弄脏。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:91
 msgid ""
@@ -304,12 +372,16 @@ msgid ""
 "additive nature of digital color theory, that becomes more obvious when "
 "working in linear."
 msgstr ""
+"可在场景线性颜色空间下面情况却恰恰相反。白占尽上风，而黑却特别容易被冲淡。这"
+"与数字色彩理论的加色模型有关，只是在线性空间下面变得尤其明显而已。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:93
 msgid ""
 "This makes sketching a bit different, after all, it’s really difficult to "
 "make marks now. To get around this, you can do the following:"
 msgstr ""
+"这会影响起草工作，毕竟现在想要留下点痕迹挺不容易的。要应对这个问题，你可以采"
+"用下列办法："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:95
 msgid ""
@@ -317,32 +389,34 @@ msgid ""
 "a neutral backdrop. For a linear space, 18% or 22% gray would be a good "
 "neutral."
 msgstr ""
+"在中性灰背景上起草。这本来就是一种值得推荐的习惯，因为它带来了中性的背景色。"
+"对于线性空间来说，18% 或 22% 的灰是理想的中性灰。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:96
 msgid ""
 "Make a special brush that is more opaque than the regular sketching brushes "
 "you use."
-msgstr ""
+msgstr "制作一个比你的常规起草笔刷透明度更低的笔刷。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:97
 msgid "Or conversely, sketch with white instead."
-msgstr ""
+msgstr "或者反过来用白来起草。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:98
 msgid ""
 "For painting, block out the shapes with a big opaque brush before you start "
 "doing your mixing."
-msgstr ""
+msgstr "对于绘画上色，可先用不透明的粗笔刷填满对象轮廓后再进行混色。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:100
 msgid ""
 "Overall, this is something that will take a little while getting used to, "
 "but you will get used to it soon enough."
-msgstr ""
+msgstr "万事开头难，这需要一点磨合的时间，但你应该可以很快适应。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:102
 msgid "Finally, there’s the **issue of size**."
-msgstr ""
+msgstr "最后的问题就是**文件体积**。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:104
 msgid ""
@@ -351,14 +425,17 @@ msgid ""
 "will be slower. This is something that will fix itself over the years, but "
 "not many people have such a high-end pc yet, so it can be a blocker."
 msgstr ""
+"每通道 16 位浮点的图像很大，而 32 位浮点的就更大了。它们要消耗大量的内存，绘"
+"画过程和滤镜的处理也会变慢。这些问题应该会随着科技的进步逐渐缓解，但当前不是"
+"每个人都有足够强大的计算机，所以这将是一个阻碍因素。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:106
 msgid "So the issues are tools, expectations and size."
-msgstr ""
+msgstr "所以问题出在：工具兼容性、定势思维还有文件体积上。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:109
 msgid "In Summary"
-msgstr ""
+msgstr "总结"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:111
 msgid ""
@@ -369,6 +446,9 @@ msgid ""
 "nicer filter results and better color mixtures as well as better "
 "interoperability with other scene-linear output."
 msgstr ""
+"场景线性绘画是指的是在浮点色彩深度的线性色彩空间下面作画。这种模式不会硬性规"
+"定白和黑的数值，所以你只能使用不会硬性规定白和黑的工具。它的优点是滤镜和混色"
+"的效果更好，与其他场景线性输出的互换性也更好。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:113
 msgid ""
@@ -377,26 +457,30 @@ msgid ""
 "the web, you make a copy of the image that goes through a display conversion "
 "or view transform that then gets saved to png or jpeg or tiff."
 msgstr ""
+"要想查看这样的图像，你要使用视图色彩转换，也叫做显示器转换。在为互联网输出图"
+"像时，你把通过显示器转换或视图转换显示的图像结果保存成 PNG 或 JPEG 或 TIFF 格"
+"式。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:116
 msgid "Getting to actual painting"
-msgstr ""
+msgstr "场景线性绘画实践"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:118
 msgid ""
 "Now we’ve covered the theory, let us look at a workflow for painting scene "
 "linear."
-msgstr ""
+msgstr "我们说完了理论，接下来就该介绍一下场景线性下面的绘画流程了。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:121
 msgid "Setting up the Canvas"
-msgstr ""
+msgstr "设置画布"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:123
 msgid ""
 "Select either a 16bit or 32bit image. By default Krita will select a linear "
 "sRGB profile. This is fine."
 msgstr ""
+"选择 16 位或 32 位浮点，Krita 会默认选择一个线性 sRGB 特性文件。这样就行了。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:125
 msgid ""
@@ -406,12 +490,18 @@ msgid ""
 "docker, turn on OCIO, select ‘OCIO’ and set the path to the downloaded OCIO "
 "config."
 msgstr ""
+"然后去下载一个 OCIO 配置文件。在这里我将使用 `Filmic Blender <https://"
+"sobotka.github.io/filmic-blender/>`_ ，因为它配置起来特别简单。把下载到的 "
+"ZIP 文件解压到方便找回的地方。打开 LUT 工具面板，启用 OCIO，选择“OCIO”并把路"
+"径指向刚才解压的 OCIO 配置文件夹。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:127
 msgid ""
 "Set the view to ‘Filmic log encoding’ and the look to ‘Base Contrast’. And "
 "now you can start painting!"
 msgstr ""
+"把视图一项设为“Filmic log encoding”，再把观看一项设为“Base Contrast”。现在你"
+"可以开始画画了！"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:129
 msgid ""
@@ -419,16 +509,20 @@ msgid ""
 "blending modes work. This will improve in the future. Other than that, "
 "everything else is the same."
 msgstr ""
+"给前文提到过的各种问题留个心眼。不是所有滤镜和混色模式都能正常工作。这些日后"
+"会得到改进。其他方面则一如既往。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:132
 msgid "Picking really bright colors"
-msgstr ""
+msgstr "如何拾取极亮颜色"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:134
 msgid ""
 "Picking regular colors is easy, but how do we pick the really bright colors? "
 "There are three ways of getting access to the really bright colors in Krita:"
 msgstr ""
+"拾取一般颜色很容易，但我们要如何去拾取非常亮的颜色呢？在 Krita 里面有三种获取"
+"极亮颜色的方法："
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:136
 msgid ""
@@ -436,18 +530,20 @@ msgid ""
 "range of colors in the color selectors. You can even hotkey the exposure in "
 "the canvas input settings."
 msgstr ""
+"把 LUT 面板里面的曝光调低。这将增加拾色器中的可见颜色范围。你还可以指定画布快"
+"捷键来控制曝光。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:137
 msgid ""
 "Or simply by opening the internal color selector by double clicking the dual "
 "color button and typing in values higher than 1 into the field."
-msgstr ""
+msgstr "或者通过双击双重颜色按钮打开内部拾色器，在明度一项输入大于 1 的数值。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:138
 msgid ""
 "And finally by picking a really bright color from an image that has such "
 "values."
-msgstr ""
+msgstr "最后从具有极亮色数值的图像中拾取它。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:140
 msgid ""
@@ -455,10 +551,12 @@ msgid ""
 "the least, until Krita’s new palette docker allows you to save the values "
 "properly."
 msgstr ""
+"接下来可以绘画了。在 Krita 的全新调色板面板就位之前，请先在画布上的一角留存所"
+"用颜色以代替目前无法正常保存该颜色的调色板。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:143
 msgid "Lighting based workflow"
-msgstr ""
+msgstr "基于光照的绘画流程"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:145
 msgid ""
@@ -466,6 +564,9 @@ msgid ""
 "of the image so that we can focus on the values of the image. We can do "
 "something similar with Scene Linear Painting."
 msgstr ""
+"我们对典型的基于明度的绘画流程已经很熟悉了。在这种流程里我们只需在图像的底色"
+"上面叠加灰，把注意力全部放在控制图像各处的明度上。我们也可以在场景线性绘画中"
+"进行类似操作。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:147
 msgid ""
@@ -477,10 +578,15 @@ msgid ""
 "separate layer and just use the multiply blending mode to get the right "
 "colors."
 msgstr ""
+"在基于明度的绘画流程里绘制调子图层就像是在画一张灰阶图，所画的部分都会让混合"
+"后的颜色变深。而在基于光照的绘画流程里光照图层的光是可以有颜色的，对象的固有"
+"色和光色相乘后得出混色结果。你可以先把光照图层中的对象画成全白，在白的基础上"
+"用其他颜色勾勒出整个对象的受光情况，在另一个图层上绘制对象的固有色，最后使用"
+"相乘混色模式就可以得到正确的颜色了。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:153
 msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:153
 msgid ""
@@ -489,6 +595,8 @@ msgid ""
 "luminosity based view. This cat is a nice example as it demonstrates why "
 "having textures and lighting separate could be interesting.)"
 msgstr ""
+"左图是光照图层和分离的底色图层，中图是这两个图层相乘混色后的效果，右图是混色"
+"后的明度图。这张猫图很好地展示了分开处理材质和光照的有趣之处。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:155
 msgid ""
@@ -497,6 +605,8 @@ msgid ""
 "grayscale as well as the lighting based version of the image next to one "
 "another."
 msgstr ""
+"你还可以在基于明度的绘画流程里利用光照原理。打开一个新视图，然后将明度分量设"
+"成光度。这样你就可以在基于明度法的流程里把灰阶图和光照图进行并列比较了。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:157
 msgid ""
@@ -506,10 +616,13 @@ msgid ""
 "just save them as EXR and import them as a layer. One of the examples where "
 "scene linear painting simplifies combining methods."
 msgstr ""
+"聪明的人会发现基于光照法的绘画流程跟 3D 渲染中的光照和底色差不多。这一点也没"
+"错，你可以在这里直接使用来自 3D 引擎输出的光照图，只需将它们保存为 EXR 然后作"
+"为图层导入即可。这也是场景线性绘画可以简化图像合并手段的一个例子。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:160
 msgid "Finishing up"
-msgstr "正在结束"
+msgstr "结语"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:162
 msgid ""
@@ -520,6 +633,10 @@ msgid ""
 "Blender or Natron. Then, in Blender it is enough to just use the same ocio "
 "config, select the right values and save the result as a png."
 msgstr ""
+"在你画完之后，你要把施加在图像上的视图转换进行应用 (如果你需要把图像发表到互"
+"联网上的话)。这个过程叫做 LUT Baking，目前 Krita 还不能做到。因此你要将图像另"
+"存为 EXR 文件，然后用 Blender 或者 Natron 打开。在 Blender 里面加载相同的 "
+"OCIO 配置，选择正确的参数并把结果保存为 PNG 图像。"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:164
 msgid ""
@@ -527,3 +644,5 @@ msgid ""
 "when working with others, you would save out in EXR so that others can use "
 "those."
 msgstr ""
+"在此阶段你还可以应用 Blender 和 Natron 的滤镜，如果需要协作，你应将图像保存"
+"为 EXR 格式以便他人使用。"

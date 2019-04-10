@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___color_mixing.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -23,59 +23,59 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_1.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_1.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_2.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_2.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_3.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_3.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_gloss_example_4.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_gloss_example_4.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_mix.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_mix.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_smudge.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_smudge.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_scumble2.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_scumble2.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Color_scumble.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Color_scumble.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Krita_cpb_mixing.gif"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Krita_cpb_mixing.gif"
 
 #: ../../general_concepts/colors/color_mixing.rst:None
 msgid ".. image:: images/en/color_category/Digi_colormixer.png"
-msgstr ""
+msgstr ".. image:: images/en/color_category/Digi_colormixer.png"
 
 #: ../../general_concepts/colors/color_mixing.rst:1
 msgid "Color Mixing in a digital media."
-msgstr ""
+msgstr "数字绘画中的颜色混合。"
 
 #: ../../general_concepts/colors/color_mixing.rst:17
 msgid "Mixing Colors"
-msgstr ""
+msgstr "混合颜色"
 
 #: ../../general_concepts/colors/color_mixing.rst:19
 msgid ""
@@ -87,6 +87,10 @@ msgid ""
 "thanks to the variety of powerful tools in Krita, we can mimic all of these "
 "mixing techniques in digital painting."
 msgstr ""
+"跟真实画材类似， Krita 也有许多混合颜色的方式。传统美术工作者常常在画布上使"
+"用“厚涂”， “薄涂”和“排线”等混色技法，而他们使用的颜色又是从**调色板**上混合得"
+"来，颜色的混合甚至发生在**笔刷**的刷毛之间。通过进行少许实践和理论学习，我们"
+"可以借助 Krita 的各种功能强大的工具在数字绘画中模仿上述混色技法。"
 
 #: ../../general_concepts/colors/color_mixing.rst:21
 msgid ""
@@ -94,10 +98,12 @@ msgid ""
 "into *two major categories*: let's call them **\"on-canvas\"** and **\"off-"
 "canvas\"**."
 msgstr ""
+"不管是传统还是数字绘画，混色技法可以被区分为两大类：**“画布内”**和**画布外"
+"**。"
 
 #: ../../general_concepts/colors/color_mixing.rst:24
 msgid "On-Canvas Mixing"
-msgstr ""
+msgstr "画布内混色"
 
 #: ../../general_concepts/colors/color_mixing.rst:26
 msgid ""
@@ -109,10 +115,14 @@ msgid ""
 "mixing happens right on the canvas and is a great tool for artistic "
 "exploration and \"happy accidents\"."
 msgstr ""
+"画布内混色技法是作者在画布上直接混合多种颜色的美术技法。这种技法有多种形式，"
+"包括在其他颜色上方**层叠半透明颜色**、巧用**肌理**来改变颜色的感受效果、使用"
+"传统画材时甚至可以利用两块未干颜料之间的相互影响。总之：画布内混色是一种直接"
+"在画布上面进行混色的技法，它是探索创作的有用工具，有时还会带来一些意外收获。"
 
 #: ../../general_concepts/colors/color_mixing.rst:29
 msgid "Glazing"
-msgstr ""
+msgstr "厚涂法"
 
 #: ../../general_concepts/colors/color_mixing.rst:35
 msgid ""
@@ -122,6 +132,9 @@ msgid ""
 "is one of the most fundamental and commonly used mixing techniques in "
 "digital painting."
 msgstr ""
+"在传统绘画中，**厚涂法**是一种通过层叠多种半透明颜色来在画布上混色的技法。在"
+"数字绘画中我们也可以运用厚涂法在画布上直接混色。它也是数字绘画中最常用的基本"
+"混色技法。"
 
 #: ../../general_concepts/colors/color_mixing.rst:37
 msgid ""
@@ -132,6 +145,10 @@ msgid ""
 "one color over another we will get a color that is somewhere between those "
 "two colors, often leading to a nice mixture."
 msgstr ""
+"首先，我们在已有颜色的上方涂上一层半透明的其他颜色，然后按 :kbd:`Ctrl` + |"
+"mouseleft| (此快捷键可在画布输入设定中设置) 拾取**混合后的颜色**，用拾取到的"
+"颜色再画一层。混合后的颜色处于笔刷颜色和画布已有颜色之间，根据笔刷的 **透明度"
+"选项**而变化。如此反复操作，可以得到均匀的混合效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:39
 msgid ""
@@ -140,6 +157,10 @@ msgid ""
 "<option_opacity_n_flow>` is transparency per dab instead of stroke, and so "
 "it gives us softer strokes without giving up control."
 msgstr ""
+"我们可以调低笔刷的**流量**选项，让厚涂法用起来更得心应手。流量和透明度的特性"
+"略有不同：透明度以每一笔画的整体为单位，而 :ref:`flow "
+"<option_opacity_n_flow>` 按笔画内部每次笔尖作用为单位。调低流量选项可以让混色"
+"结果更均匀，又不至于失去对混色过程的精细掌控。"
 
 #: ../../general_concepts/colors/color_mixing.rst:41
 msgid ""
@@ -147,10 +168,12 @@ msgid ""
 "achieve different, interesting effects. For example, glazing with the "
 "**multiply** blending mode to create nice shadows:"
 msgstr ""
+"除此之外，我们还可以把厚涂法与**混合模式**配合使用，以实现其他有趣的效果。例"
+"如配合**乘法运算 (正片叠底)**模式来绘制柔和的阴影："
 
 #: ../../general_concepts/colors/color_mixing.rst:46
 msgid "Staring with line art and base colors."
-msgstr ""
+msgstr "首先勾画线稿并铺上底色。"
 
 #: ../../general_concepts/colors/color_mixing.rst:51
 msgid ""
@@ -158,6 +181,8 @@ msgid ""
 "layers to suggest shadows and mid-tones. The multiply blending mode will "
 "darken and interact with each base color differently."
 msgstr ""
+"选用一个半透明的笔刷，把混合模式设为乘法运算，这样笔刷会将它所影响的区域变"
+"暗，颜色的混合效果依底色变化。用这种方式我们可以方便地绘制中间调和阴影。"
 
 #: ../../general_concepts/colors/color_mixing.rst:56
 msgid ""
@@ -166,6 +191,8 @@ msgid ""
 "planes and forms that are so crucial for creating a sense of depth and three-"
 "dimensionality, it also gives quite a nice, painterly effect!"
 msgstr ""
+"接下来用一个低流量 (0.30 左右) 的笔刷，拾取混合后的颜色反复绘制。这样不但可以"
+"帮助我们区分不同的受光面来表现立体感和深度，还可以营造出一种厚涂的效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:62
 msgid ""
@@ -173,10 +200,12 @@ msgid ""
 "Make your **edges** as sharp or smooth as your subject matter and art style "
 "demands!"
 msgstr ""
+"继续调低透明度和流量来营造更平滑的渐变。按照绘画对象和绘画风格来处理**边缘**"
+"的锐利或柔顺程度。"
 
 #: ../../general_concepts/colors/color_mixing.rst:65
 msgid "Smudging"
-msgstr ""
+msgstr "涂抹法"
 
 #: ../../general_concepts/colors/color_mixing.rst:71
 msgid ""
@@ -186,28 +215,34 @@ msgid ""
 "a lovely painterly effect. *Performance wise, it's a bit more demanding and "
 "slower than the regular pixel brush.*"
 msgstr ""
+"**涂抹混色法** 是通过一个名为 :ref:`color_smudge_brush_engine` 的特殊笔刷引擎"
+"实现的，它可以把笔刷颜色和画布已有颜色进行混合，非常适合用来营造厚涂感。*性能"
+"方面，它比常规像素笔刷稍慢。*"
 
 #: ../../general_concepts/colors/color_mixing.rst:73
 msgid ""
 "If you *remove all paint from a smudge brush*, you get a simple-yet-powerful "
 "smudge effect:"
-msgstr ""
+msgstr "如果*涂抹笔刷上没有颜料*，可以产生简单但明显的涂抹效果："
 
 #: ../../general_concepts/colors/color_mixing.rst:79
 msgid ""
 "Different smudge brushes have different effects, so be sure to try them all "
 "out!"
-msgstr ""
+msgstr "不同的涂抹笔刷效果不尽相同，每一种都试试看吧！"
 
 #: ../../general_concepts/colors/color_mixing.rst:82
 msgid "Scumbling"
-msgstr ""
+msgstr "薄涂法"
 
 #: ../../general_concepts/colors/color_mixing.rst:84
 msgid ""
 "**Scumbling** is similar to glazing, except instead of having a semi-opaque "
 "layer, we use layers of **textured** or **patterned** paint."
 msgstr ""
+"**薄涂法**和厚涂法一样，都是混合颜色的技法。它们的不同之处在于厚涂法使用半透"
+"明的颜色进行多次层叠，而薄涂法使用一层具有某种**肌理**或**图案**不透明颜料进"
+"行混色。"
 
 #: ../../general_concepts/colors/color_mixing.rst:89
 msgid ""
@@ -215,12 +250,15 @@ msgid ""
 "`option_brush_tip`, which can be used to create a textured effect like that "
 "of scumbling."
 msgstr ""
+"和绝大多数绘画软件一样，Krita 可以通过指定 :ref:`option_brush_tip` 来绘制薄涂"
+"法所需的带有肌理的效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:95
 msgid ""
 "Krita's brush engines also allow you to use :ref:`option_texture`. This "
 "allows you to create interesting and stylized screentone-like effects."
 msgstr ""
+"Krita 的笔刷引擎还可以指定 :ref:`option_texture` 来绘制有趣的风格化网点效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:97
 msgid ""
@@ -228,10 +266,12 @@ msgid ""
 "forms*, scumbling is the best method to *create texture and to break up big "
 "pasty flats* in your painting."
 msgstr ""
+"厚涂法可以有效地*勾画受光面和形体*，薄涂法则有利于*营造肌理和为扁平的色块增添"
+"变化*。"
 
 #: ../../general_concepts/colors/color_mixing.rst:100
 msgid "Off-Canvas Mixing"
-msgstr ""
+msgstr "画布外混色"
 
 #: ../../general_concepts/colors/color_mixing.rst:102
 msgid ""
@@ -245,10 +285,16 @@ msgid ""
 "selecting fresh new colors without mixing at all is both easy and free*), "
 "Krita has a few very useful and unique features for off-canvas mixing."
 msgstr ""
+"**画布外**混色技法一直是世界各地画手的核心技能。我们对画手的刻板印象就是一手"
+"拿着**画笔**，一手拿着**调色板**。不管是在使用油画、水彩还是其他的传统画材，"
+"为了能对颜色进行绝对的控制，我们总得在**画布之外**的某个地方，如调色版、碟"
+"子、罐子之类的对颜料进行混合。虽然我们倾向于在数字绘画时忽略这一点 (因为我们"
+"可以直接选取纯粹的颜色，既方便也不用花钱)，Krita 还是为画布外混色提供了一些独"
+"特的功能。"
 
 #: ../../general_concepts/colors/color_mixing.rst:105
 msgid "Color Picker Blending"
-msgstr ""
+msgstr "拾色器混色"
 
 #: ../../general_concepts/colors/color_mixing.rst:109
 msgid ""
@@ -261,6 +307,10 @@ msgid ""
 "combination with on-canvas techniques like glazing and scumbling to produce "
 "smooth blends of color."
 msgstr ""
+"Krita 和绝大多数美术图形程序一样，具备 :ref:`color_picker_tool` 来对画布上的"
+"任意像素进行便捷的颜色采样。拾色器虽然并不起眼，但它可能是除笔刷之外数字绘画"
+"工作者最重要、最常用的工具。拾色器是颜色混合工作的核心，它与厚涂、薄涂等画布"
+"内混色技法配合使用，可以营造出柔顺的颜色混合效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:111
 msgid ""
@@ -269,6 +319,8 @@ msgid ""
 "**radius** of pixels, Krita's Color Picker also has a unique **blending** "
 "feature: a powerful and intuitive tool for off-canvas color mixing!"
 msgstr ""
+"然而这个小工具的本领还远不止如此！Krita 的拾色器可被设为拾取以一定像素**为半"
+"径区域**内的平均颜色，它还有强大而直观的**混色**功能来辅助画布外混色。"
 
 #: ../../general_concepts/colors/color_mixing.rst:117
 msgid ""
@@ -278,6 +330,9 @@ msgid ""
 "quickly \"soak up\" some portion of the sampled color*, which is then mixed "
 "with your current brush color."
 msgstr ""
+"拾色器混色功能改变了数字绘画领域数十年来的拾色方式。相比起以往用新颜色直接替"
+"换当前笔刷颜色的做法，*混色功能让你可以便捷地“蘸取”一定量的新采样颜色*，并把"
+"它与当前笔刷的颜色混合。"
 
 #: ../../general_concepts/colors/color_mixing.rst:119
 msgid ""
@@ -291,6 +346,10 @@ msgid ""
 "Color Picker's \"blend\" option controls: what percentage of sampled color "
 "is mixed together with your current brush color!"
 msgstr ""
+"你可以把拾色器混色功能当作传统颜料笔刷去理解。如果你把笔刷先蘸取蓝颜料，然后"
+"再去蘸取红颜料，那么画出来的不会是纯红，而是一种混合了蓝和红的中间紫。这种紫"
+"的色调由蘸取的红和蓝颜料的比例决定。拾色器的混色选项所控制的便是此比例：新采"
+"样颜色与当前笔刷颜色混合时所占的百分比。"
 
 #: ../../general_concepts/colors/color_mixing.rst:121
 msgid ""
@@ -304,6 +363,11 @@ msgid ""
 "depth, mix from a preselected palette of colors in another layer/document, "
 "etc."
 msgstr ""
+"Krita 的拾色器混色功能不但在使用感觉上接近混合颜料，它还是完全在画布外进行"
+"的，具有独立的不透明度、流量、笔刷形状和其他笔刷选项。不仅如此，和绝大多数画"
+"布内混色技法不同，拾色器混色功能可以在画布上任意地方生效，让你可以随处混合颜"
+"色，如将环境中的天光反映到阴影中，营造空气透视，与其他图层或文档中的现有颜色"
+"进行混合等。"
 
 #: ../../general_concepts/colors/color_mixing.rst:123
 msgid ""
@@ -316,6 +380,10 @@ msgid ""
 "affects both your dedicated Color Picker Tool as well as the :kbd:`Ctrl +` |"
 "mouseleft| shortcut."
 msgstr ""
+"要使用拾色器混合功能，可在**工具选项**面板中调整“混色”选项。混色为 100% 时拾"
+"色器以传统模式工作 (以新采样颜色直接替换当前笔刷颜色)，为 50% 时混合出两者的"
+"中间色，更低的数值会让颜色的变化更加微妙。混色选项会同时影响拾色器和 :kbd:"
+"`Ctrl +` |mouseleft| 快捷键的功能。"
 
 #: ../../general_concepts/colors/color_mixing.rst:127
 msgid ""
@@ -328,10 +396,14 @@ msgid ""
 "using a **mouse**, but when painting with a **drawing tablet and pen** it "
 "can sometimes be desirable to use a slightly lower blend setting!"
 msgstr ""
+"在使用拾色器时按住不放并进行拖动可以在光标移动路径上的像素中拾取多次颜色。你"
+"可以利用这项特性实现如同把笔刷在颜料上划过搅拌的效果。虽然这摆弄起来很有意"
+"思，却也很容易拾取到不想要的颜色。如果混色选项的值被设得比较低，在需要精确选"
+"取某个像素的颜色时可以换成**鼠标**去点击，然后在绘画时再换回数位板。"
 
 #: ../../general_concepts/colors/color_mixing.rst:130
 msgid "The Digital Colors Mixer"
-msgstr ""
+msgstr "数字混色器"
 
 #: ../../general_concepts/colors/color_mixing.rst:132
 msgid ""
@@ -342,6 +414,10 @@ msgid ""
 "mixes colors! It contains 6 independent **color mixers** that mix your "
 "current brush color with any color of your choosing."
 msgstr ""
+"数字混色器被隐藏在 **工具面板** 菜单的深处 (:menuselection:`设置 --> 工具面"
+"板 --> 数字混色器`)，是用来进行画布外混色的有力工具。数字混色器与录音棚里的混"
+"音器面板有几分神似，不过它混合的不是音频而是颜色。它具有 6 条独立的**混色滑块"
+"**来把当前笔刷颜色与任意所需颜色进行混合。"
 
 #: ../../general_concepts/colors/color_mixing.rst:138
 msgid ""
@@ -352,16 +428,21 @@ msgid ""
 "changes to your current color, while colors towards the bottom will be much "
 "closer to the palette color of that channel."
 msgstr ""
+"点击每条混色滑块下方的**颜色按钮**即可在调色板中选取一种用来进行混色的颜色。"
+"每条混色滑块上方有一个**色块**，它显示的是该通道所选颜色与笔刷当前颜色混合后"
+"的颜色。混色滑块越接近顶端，混合结果就与当前笔刷颜色越接近，画出来的颜色变化"
+"也就越微妙。混色滑块越接近底端，混合结果就与该通道所选颜色越接近。"
 
 #: ../../general_concepts/colors/color_mixing.rst:141
 msgid "Other Tips"
-msgstr ""
+msgstr "其他提示"
 
 #: ../../general_concepts/colors/color_mixing.rst:143
 msgid ""
 "Outside of making it easier to create smooth gradients, mixing has another "
 "benefit: It allows you to create a cohesive piece."
 msgstr ""
+"除了可以画出平滑的渐变色，混色还有另一个功用：让画作的色调有序，衔接自然。"
 
 #: ../../general_concepts/colors/color_mixing.rst:145
 msgid ""
@@ -372,6 +453,9 @@ msgid ""
 "unexpected results which in turn can be a little discovery for the audience "
 "to delight over as they discover the world of your image."
 msgstr ""
+"绘画时并不需要毫无节制地引入新颜色。使用少数几种颜色并在它们之间进行混色即可"
+"调出更为协调的色彩，而协调的色彩又有利于为图像营造某种氛围。在这个基础上引入"
+"妙笔生花的重点色，还可以让观者可以在画作的世界中领略到更多色彩的妙趣。"
 
 #: ../../general_concepts/colors/color_mixing.rst:147
 msgid ""
@@ -381,6 +465,9 @@ msgid ""
 "create an interesting and fitting gray from hues that are roughly "
 "complementary (opposite each other on the hue wheel)."
 msgstr ""
+"学习了这么多混色的相关知识，下次在我们选用颜色的时候，与其随便在高级拾色器里"
+"拾取一种中性灰，何不利用 Krita 的各种混色工具来调出一种更具视觉趣味的，以主色"
+"色相的补色 (位于色环对面) 为基础的灰呢？"
 
 #: ../../general_concepts/colors/color_mixing.rst:149
 msgid ""
@@ -390,6 +477,9 @@ msgid ""
 "useful for different situations, and combining various techniques can be "
 "extremely powerful and fun!"
 msgstr ""
+"尽管画布内和画布外混色技法是两类完全不同的颜色混合方式，你并不需要在两者之间"
+"进行二选一。本文所介绍的混色技法各有各的优点和缺点，适用于不同的场合。把不同"
+"的混色技法配合运用，可以实现更为多变和有趣的效果。"
 
 #: ../../general_concepts/colors/color_mixing.rst:151
 msgid ""
@@ -400,3 +490,7 @@ msgid ""
 "corrected** one, though doing sketches and line art is easier to do in a "
 "gamma-corrected space."
 msgstr ""
+"最后，混色的效果在使用 :ref:`16 位以上的高位深色彩通道 <bit_depth>` 时效果更"
+"好，但这会消耗更多的 **内存**。使用 :ref:`线性色彩空间 <linear_and_gamma>` 的"
+"混色效果也会好于 **gamma 校正色彩空间**，不过起草和描线阶段在 gamma 校正空间"
+"中进行会更加方便。"
