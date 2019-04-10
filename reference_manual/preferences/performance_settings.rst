@@ -95,7 +95,7 @@ Cache Storage Backend
 ~~~~~~~~~~~~~~~~~~~~~
 
 In-memory
-    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with a huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount (say, 64GiB) of ram, do *not* use this option (and scale down your projects).
+    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with a huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount (say, 64GiB) of RAM, do *not* use this option (and scale down your projects).
 
     .. warning::
 

@@ -248,7 +248,7 @@ Krita has two modes of color management:
 
 Krita does a lot of color maths, often concerning the blending of colors. This color maths works best in linear color space, and linear color space requires a bit depth of at the least 16bit to work correctly. The disadvantage is that linear space can be confusing to work in.
 
-If you like painting, have a decent amount of ram, and are looking to start your baby-steps in taking advantage of Krita's color management, try upgrading from having all your images in sRGB built-in to sRGB-v2-elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color blending while opening up the possibility for you to start working in hdr!
+If you like painting, have a decent amount of RAM, and are looking to start your baby-steps in taking advantage of Krita's color management, try upgrading from having all your images in sRGB built-in to sRGB-v2-elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color blending while opening up the possibility for you to start working in hdr!
 
 
 .. note:: 

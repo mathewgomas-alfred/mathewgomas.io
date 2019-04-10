@@ -40,7 +40,7 @@ First we make a bunch of branches. I picked a slightly darker color here than us
 .. image:: /images/en/making-azalea/Azelea_02_drawing-flowers.png
     :alt: making the outline of the flowers
 
-Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not color pick the red, but we guess at it. This is good practice, so we can learn to analyse a color as well as how to use our color selector. If we’d only pick colors, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
+Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not color pick the red, but we guess at it. This is good practice, so we can learn to analyze a color as well as how to use our color selector. If we’d only pick colors, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
 
 .. image:: /images/en/making-azalea/Azelea_03_filling-flowers.png
     :alt: coloring the details and filling the flowers
@@ -60,7 +60,7 @@ Now, we will make clusters. What we’ll be doing is that we select a given flow
 .. image:: /images/en/making-azalea/Azelea_05_clonelayer.png
     :alt: create clone layers of the flowers
 
-You’ll quickly notice that our flowers are not good enough for a cluster: we need far more angles on the profile for example. if only there was a way to transform them… but we can’t do that with clone layers. Or can we?
+You’ll quickly notice that our flowers are not good enough for a cluster: we need far more angles on the profile for example. If only there was a way to transform them… but we can’t do that with clone layers. Or can we?
 
 Enter Transform Masks!
 ----------------------

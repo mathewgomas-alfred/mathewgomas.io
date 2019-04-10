@@ -27,7 +27,7 @@ As humans are the ones using computers, we have made it so that computers will g
    
    One of the most common issues people have with Krita's color management is the assigning of the right colorspace to the encoded TRC. Above, the center Pepper is the right one, where the encoded and assigned TRC are the same. To the left we have a Pepper encoded in sRGB, but assigned a linear profile, and to the right we have a Pepper encoded with a linear TRC and assigned an sRGB TRC. Image from `Pepper & Carrot <http://www.peppercarrot.com/>`_
 
-The following table shows how there's a lot of space being used by lighter values in a linear space compared to the default sRGB trc of our modern computers and other TRCs available in our delivered profiles:
+The following table shows how there's a lot of space being used by lighter values in a linear space compared to the default sRGB TRC of our modern computers and other TRCs available in our delivered profiles:
 
 .. image:: /images/en/color_category/trc_gray_gradients.svg
    :align: center
@@ -99,7 +99,7 @@ Then we fill in the values into the correct spot. Compare these to the values of
 And this is why color mixtures are lighter and softer in linear space. Linear space is more physically correct, but sRGB is more efficient in terms of space, so hence why many images have an sRGB TRC encoded into them.
 In case this still doesn't make sense: *sRGB gives largely* **darker** *values than linear space for the same coordinates.*
 
-So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear trc, a mix using srgb trc and a mix using lab L* trc.
+So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear TRC, a mix using sRGB TRC and a mix using LAB L* TRC.
 
 
 .. image:: /images/en/color_category/3trcsresult.png 
@@ -107,7 +107,7 @@ So different TRCs give different mixes between colors, in the following example,
    :align: center
 
 
-So, you might be asking, how do I tick this option? Is it in the settings somewhere? The answer is that we have several icc profiles that can be used for this kind of work:
+So, you might be asking, how do I tick this option? Is it in the settings somewhere? The answer is that we have several ICC profiles that can be used for this kind of work:
 
 * scRGB (linear)
 * All 'elle'-profiles ending in 'g10', such as *sRGB-elle-v2-g10.icc*.
@@ -118,5 +118,5 @@ If you use the color space browser, you can tell the TRC from the 'estimated gam
 
 Even if you do not paint much, but are for example making textures for a videogame or rendering, using a linear space is very beneficial and will speed up the renderer a little, for it won't have to convert images on its own.
 
-The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light greys get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB trc.
+The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light greys get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB TRC.
 

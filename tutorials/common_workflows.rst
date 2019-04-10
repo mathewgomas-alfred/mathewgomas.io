@@ -14,16 +14,16 @@
 Common Workflows
 ================
 
-Krita's main goal is to help artists create digital painting from scratch. Krita is used by comic artists, matte painters, texture artists, and illustrators around the world. This section explains some common workflow that artists use in Krita. When you open a new document in Krita for the first time, you can start painting instantly. The brush tool is selected by default and you just have to paint on the canvas. However, let us look at what artists do in Krita. Below are some of the common workflows used in Krita:
+Krita's main goal is to help artists create a digital painting from scratch. Krita is used by comic artists, matte painters, texture artists, and illustrators around the world. This section explains some common workflow that artists use in Krita. When you open a new document in Krita for the first time, you can start painting instantly. The brush tool is selected by default and you just have to paint on the canvas. However, let us look at what artists do in Krita. Below are some of the common workflows used in Krita:
 
 Speed Painting and Conceptualizing
 ----------------------------------
 
-Some artists work only on digital medium, sketching and visualizing concepts in Krita from scratch. As the name suggests a technique of painting done within matter of hours to quickly visualize the basic scene, character, look and feel of the environment or to denote the general mood and overall concept is called a **speed painting**. Finishing and finer details are not the main goal of this type of painting, but the representation of form value and layout is main goal.
+Some artists work only on the digital medium, sketching and visualizing concepts in Krita from scratch. As the name suggests a technique of painting done within a matter of hours to quickly visualize the basic scene, character, look and feel of the environment or to denote the general mood and overall concept is called a **speed painting**. Finishing and finer details are not the main goals of this type of painting, but the representation of form value and layout is the main goal.
 
-Some artists set time limit to complete the painting while some paint casually. Speed painting then can be taken forward by adding finer details and polish to create a final piece. Generally artists first block in the composition by adding patches and blobs of flat colors, defining the silhouette, etc. Krita has some efficient brushes for this situation, for example, the brush under **Block Tag** like Block fuzzy, Block basic, layout_block, etc.
+Some artists set a time limit to complete the painting while some paint casually. Speed painting then can be taken forward by adding finer details and polish to create a final piece. Generally, artists first block in the composition by adding patches and blobs of flat colors, defining the silhouette, etc. Krita has some efficient brushes for this situation, for example, the brush under **Block Tag** like Block fuzzy, Block basic, layout_block, etc.
 
-After the composition and a basic layout has been laid out the artists add as many details as possible in the given limited time, this requires a decent knowledge of forms, value perspective and proportions of the objects. Below is an example of speed paint done by `David Revoy <http://www.davidrevoy.com/>`_  done in an hours time.
+After the composition and a basic layout has been laid out the artists add as many details as possible in the given limited time, this requires a decent knowledge of forms, value perspective and proportions of the objects. Below is an example of speed paint done by `David Revoy <http://www.davidrevoy.com/>`_  in an hours time.
 
 .. image:: /images/en/Pepper-speedpaint-deevad.jpg
     :alt: speedpaint of pepper and carrot by deevad (David Revoy)
@@ -36,7 +36,7 @@ You can view the recorded speed painting demo for the above image `on Youtube <h
 Colorizing Line Art
 -------------------
 
-Often an artist for example a comic book colorist will need to take a pencil sketch or other line art of some sort and use Krita to paint underneath it. This can be either an image created digitally or something that was done outside the computer and has been scanned.
+Often an artist, for example, a comic book colorist will need to take a pencil sketch or other line art of some sort and use Krita to paint underneath it. This can be either an image created digitally or something that was done outside the computer and has been scanned.
 
 Preparing the line art
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -57,12 +57,12 @@ If you draw in blue pencils and then ink your line art you may need to remove th
 .. image:: /images/en/common-workflows/Color-adjustment-cw.png
     :alt: remove blue lines from image step 1
 
-Now select **Red** from the drop-down, click on the top right node on the graph and slide it all the way down. Or you can click on the top right node and enter **0** in the output field. Repeat this step for **Green** too.
+Now select **Red** from the drop-down, click on the top right node on the graph and slide it all the way down. Or you can click on the top right node and enter **0** in the input field. Repeat this step for **Green** too.
 
 .. image:: /images/en/common-workflows/Color-adjustment-02.png
     :alt: removing blue lines from scan step 2
 
-Now the whole drawing will have a blue overlay, zoom in and check if the blue pencil lines are still visible slightly, If you still see them, then go to **Blue** Channel in the color adjustment and shift the top right node towards left a bit, Or enter a value around 190 (one that removes the remaining rough lines) in the input box.
+Now the whole drawing will have a blue overlay, zoom in and check if the blue pencil lines are still visible slightly. If you still see them, then go to **Blue** Channel in the color adjustment and shift the top right node towards left a bit, Or enter a value around 190 (one that removes the remaining rough lines) in the input box.
 
 .. image:: /images/en/common-workflows/Color-adjustment-03.png
     :alt: remove blue lines from scans step 3
@@ -97,7 +97,7 @@ Blocking with brush
 
 The first is the more traditional method of taking a shape brush or using the geometric tools to lay in color. This would be similar to using an analog marker or brush on paper. There are various block brushes in Krita, you can select **Block** Tag from the drop-down in the brush presets docker and use the brushes listed there.
 
-Add a layer underneath your line art layer and start painting with the brush, If you want to correct any area you can press :kbd:`E` and convert the same brush into an eraser. You can also use a layer each for different colors for more flexibility.
+Add a layer underneath your line art layer and start painting with the brush. If you want to correct any area you can press :kbd:`E` and convert the same brush into an eraser. You can also use a layer each for different colors for more flexibility.
 
 Filling with Flood Fill tool
 """"""""""""""""""""""""""""
@@ -107,7 +107,7 @@ The second method is to use the Flood fill tool to fill large parts of your line
 .. image:: /images/en/common-workflows/Floodfill-krita.png
     :alt: flood fill in krita
 
-Choose a color from color elector and just click on the area you want to fill the color. As we have expanded the fill with grow selection the color will be filled slightly underneath the line art thus giving us a clean fill.
+Choose a color from color selector and just click on the area you want to fill the color. As we have expanded the fill with grow selection the color will be filled slightly underneath the line art thus giving us a clean fill.
 
 GMIC Colorize [Interactive]
 """""""""""""""""""""""""""
@@ -155,7 +155,7 @@ Painting
 Starting from chaos
 ^^^^^^^^^^^^^^^^^^^
 
-Here, you start by making a mess through random shapes and texture, then taking inspirations from the resulting chaos you can form various concepts. It is kind of like making things from clouds or finding recognizable shapes of things in abstract and random textures. Many concept artist work with this technique.
+Here, you start by making a mess through random shapes and texture, then taking inspirations from the resulting chaos you can form various concepts. It is kind of like making things from clouds or finding recognizable shapes of things in abstract and random textures. Many concept artists work with this technique.
 
 You can use brushes like the shape brush, or the spray brush to paint a lot of different shapes, and from the resulting noise, you let your brain pick out shapes and compositions.
 
@@ -183,7 +183,7 @@ Krita also has a real-time seamless tile mode to help texture artist prepare til
 Creating Pixel Art
 ------------------
 
-Krita can also be used to create high definition pixel painting. The pixel art look can be achieved by using Index color filter layer and overlaying dithering patterns. The general layer stack arrangement is as shown below.
+Krita can also be used to create a high definition pixel painting. The pixel art look can be achieved by using Index color filter layer and overlaying dithering patterns. The general layer stack arrangement is as shown below.
 
 .. image:: /images/en/common-workflows/Layer-docker-pixelart.png
     :alt: Layer stack setup for pixel art
