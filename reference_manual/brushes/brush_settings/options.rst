@@ -86,7 +86,16 @@ Sharpness
 
 .. image:: /images/en/Krita_Pixel_Brush_Settings_Sharpness.png
 
-Puts a threshold filter over the brush mask.
+Puts a threshold filter over the brush mask. This can be used for brush like strokes, but it also makes for good pixel art brushes.
+
+Strength
+    Controls the threshold, and can be controled by the sensors below.
+Softness
+    Controls the extra non-fully opaque pixels. This adds a little softness to the stroke.
+    
+.. versionchanged:: 4.2
+
+    The sensors now control the threshold instead of the subpixel precision, softness slider was added.
 
 .. _option_size:
 
