@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:50\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___introduction_from_other_software___introduction_from_photoshop."
 "pot\n"
-"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -136,7 +136,9 @@ msgstr ""
 "'*鼠标滚轮*'：|mousescroll| 上下滚动为缩放，按住 |mousemiddle| 平移画布。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:43
-msgid "'*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard"
+#, fuzzy
+#| msgid "'*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard"
+msgid "'*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard."
 msgstr "'*键盘*'：:kbd:`+` and :kbd:`-` 也可以缩放。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:44
@@ -610,26 +612,40 @@ msgstr ""
 "设)。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:199
+#, fuzzy
+#| msgid ""
+#| ":kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active "
+#| "color"
 msgid ""
-":kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active "
-"color"
+":kbd:`K` and :kbd:`L`: Increment Darker and Lighter value of the active "
+"color."
 msgstr ":kbd:`K` 和 :kbd:`L`：调暗或调亮当前颜色。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:200
-msgid ":kbd:`I` and :kbd:`O`: increment opacity plus or minus."
+#, fuzzy
+#| msgid ":kbd:`I` and :kbd:`O`: increment opacity plus or minus."
+msgid ":kbd:`I` and :kbd:`O`: Increment opacity plus or minus."
 msgstr ":kbd:`I` 和 :kbd:`O`：增大或者减小不透明度。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:201
-msgid ":kbd:`D`: Reset color to black/foreground and white/background"
+#, fuzzy
+#| msgid ":kbd:`D`: Reset color to black/foreground and white/background"
+msgid ":kbd:`D`: Reset color to black/foreground and white/background."
 msgstr ":kbd:`D`：重置前景色为黑，背景色为白。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:202
-msgid ":kbd:`X`: Switch background and foreground colors"
+#, fuzzy
+#| msgid ":kbd:`X`: Switch background and foreground colors"
+msgid ":kbd:`X`: Switch background and foreground colors."
 msgstr ":kbd:`X`：对调前景色和背景色"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:203
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default "
+#| "keyboard shortcuts for accessing the on-canvas color selector."
 msgid ""
-":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default "
+":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: A set of default "
 "keyboard shortcuts for accessing the on-canvas color selector."
 msgstr ""
 ":kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`：一组用来在画布上显示"
@@ -1036,9 +1052,13 @@ msgstr ""
 "的混色模式会被忽略。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:386
+#, fuzzy
+#| msgid ""
+#| "Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing "
+#| "web image, etc"
 msgid ""
 "Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing "
-"web image, etc"
+"web image, etc."
 msgstr ""
 "Krita 还不具备“为 Web 导出”，给 GIF 帧进行“图像就绪”或者分割网页图像等功能。"
 

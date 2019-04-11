@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 03:27+0100\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___python_scripting___introduction_to_python_scripting."
 "pot\n"
-"Language: zh_CN\n"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:1
 msgid "Introduction to using Krita's python plugin API."
@@ -261,7 +261,9 @@ msgstr ""
 "会把那些 QStringList 转换成正常的 Python 字符串。"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:101
-msgid "Outputs as ::"
+#, fuzzy
+#| msgid "Outputs as ::"
+msgid "Outputs as: ::"
 msgstr "输出为 ::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:112
@@ -291,7 +293,9 @@ msgstr ""
 "想要生成 Krita 所打开文件的信息报表，我们可以编写下面的脚本："
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:137
-msgid "we get an output like::"
+#, fuzzy
+#| msgid "we get an output like::"
+msgid "We get an output like::"
 msgstr "输出结果为::"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:147
@@ -320,14 +324,23 @@ msgstr ""
 "出一个程序类的信息。"
 
 #: ../../user_manual/python_scripting/introduction_to_python_scripting.rst:167
+#, fuzzy
+#| msgid ""
+#| "Finally, in addition to the LibKis documentation, the Qt documentation, "
+#| "since Krita uses PyQt to expose nearly all of the Qt API to Python. You "
+#| "can build entire windows with buttons and forms this way, using the very "
+#| "same tools that Krita is using! You can read the `Qt documentation "
+#| "<http://doc.qt.io/>`_ and the `PyQt documentation <http://pyqt."
+#| "sourceforge.net/Docs/PyQt5/>`_ for more info about this, and also "
+#| "definitely study the included plugins as well to see how they work."
 msgid ""
 "Finally, in addition to the LibKis documentation, the Qt documentation, "
 "since Krita uses PyQt to expose nearly all of the Qt API to Python. You can "
 "build entire windows with buttons and forms this way, using the very same "
-"tools that Krita is using! You can read the `Qt documentation <http://doc.qt."
-"io/>`_ and the `PyQt documentation <http://pyqt.sourceforge.net/Docs/PyQt5/"
-">`_ for more info about this, and also definitely study the included plugins "
-"as well to see how they work."
+"tools that Krita is using! You can read the `Qt documentation <https://doc."
+"qt.io/>`_ and the `PyQt documentation <https://www.riverbankcomputing.com/"
+"static/Docs/PyQt5/>`_ for more info about this, and also definitely study "
+"the included plugins as well to see how they work."
 msgstr ""
 "最后，除了 LibKis 文档之外，你可能还要使用 Qt 文档，因为 Krita 通过 PyQt 把 "
 "Qt API 的绝大多数功能与 Python 进行了对接。你可以调用这些与 Krita 所用的完全"

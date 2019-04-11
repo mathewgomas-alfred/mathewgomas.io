@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-22 03:26+0100\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___animation.pot\n"
-"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -66,6 +66,15 @@ msgid "Animation curves"
 msgstr "动画曲线"
 
 #: ../../user_manual/animation.rst:32
+#, fuzzy
+#| msgid ""
+#| "To create an animation curve (currently only for opacity) expand the :"
+#| "guilabel:`New Frame` button in the :guilabel:`Animation` dock and click :"
+#| "guilabel:`Add Opacity Keyframe`. You can now edit the keyframed value for "
+#| "opacity directly in the “Layers” dock, adding more keyframes will by "
+#| "default fade from the last to the next upcoming keyframe in the timeline "
+#| "over the frames between them. See :ref:`animation curves "
+#| "<animation_curves_docker>` for details"
 msgid ""
 "To create an animation curve (currently only for opacity) expand the :"
 "guilabel:`New Frame` button in the :guilabel:`Animation` dock and click :"
@@ -73,7 +82,7 @@ msgid ""
 "opacity directly in the “Layers” dock, adding more keyframes will by default "
 "fade from the last to the next upcoming keyframe in the timeline over the "
 "frames between them. See :ref:`animation curves <animation_curves_docker>` "
-"for details"
+"for details."
 msgstr ""
 "要创建动画曲线 (目前仅支持不透明度)，可在:guilabel:`动画` 面板点击 :guilabel:"
 "`创建空白帧` 按钮右侧的下箭头，在弹出的菜单中选择 :guilabel:`添加不透明度关键"
@@ -400,23 +409,33 @@ msgstr ""
 "线面板并排。"
 
 #: ../../user_manual/animation.rst:177
-msgid "Copy frame 0 to frame 2"
+#, fuzzy
+#| msgid "Copy frame 0 to frame 2"
+msgid "Copy frame 0 to frame 2."
 msgstr "确认动画帧 0 已被复制到 帧 2。"
 
 #: ../../user_manual/animation.rst:178
-msgid "Copy frame 1 to frame 3"
+#, fuzzy
+#| msgid "Copy frame 1 to frame 3"
+msgid "Copy frame 1 to frame 3."
 msgstr "确认动画帧 1 已被复制到 帧 3。"
 
 #: ../../user_manual/animation.rst:179
-msgid "In the animation docker, set the frame-rate to 4"
+#, fuzzy
+#| msgid "In the animation docker, set the frame-rate to 4"
+msgid "In the animation docker, set the frame-rate to 4."
 msgstr "在动画面板中，把帧率设为 4。"
 
 #: ../../user_manual/animation.rst:180
-msgid "select all frames in the timeline docker by dragging-selecting them."
+#, fuzzy
+#| msgid "select all frames in the timeline docker by dragging-selecting them."
+msgid "Select all frames in the timeline docker by dragging-selecting them."
 msgstr "用 Ctrl + 拖动在时间线里面选中所有 4 个帧。"
 
 #: ../../user_manual/animation.rst:181
-msgid "press play in the animation docker."
+#, fuzzy
+#| msgid "press play in the animation docker."
+msgid "Press play in the animation docker."
 msgstr "按下动画面板中的播放按钮。"
 
 #: ../../user_manual/animation.rst:182
@@ -440,7 +459,9 @@ msgstr ""
 "它后面的帧一起整体移动。"
 
 #: ../../user_manual/animation.rst:192
-msgid "Then draw inbetweens on each frame that you add"
+#, fuzzy
+#| msgid "Then draw inbetweens on each frame that you add"
+msgid "Then draw inbetweens on each frame that you add."
 msgstr "然后在已有动画帧之间的空时间槽中插入并绘制中间帧。"
 
 #: ../../user_manual/animation.rst:195
@@ -517,7 +538,9 @@ msgid "Exporting"
 msgstr "导出"
 
 #: ../../user_manual/animation.rst:228
-msgid "When you are done, select :menuselection:`File --> Render Animation`"
+#, fuzzy
+#| msgid "When you are done, select :menuselection:`File --> Render Animation`"
+msgid "When you are done, select :menuselection:`File --> Render Animation`."
 msgstr ""
 "动画制作完成后，接下来就要把它导出。在菜单栏选择 :menuselection:`文件 --> 渲"
 "染动画` 。"
@@ -699,8 +722,13 @@ msgid "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 msgstr "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 
 #: ../../user_manual/animation.rst:303
+#, fuzzy
+#| msgid ""
+#| "`The source for the libre pixel cup male walkmediawiki cycle <http://"
+#| "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"
+#| "tiles>`_"
 msgid ""
-"`The source for the libre pixel cup male walkmediawiki cycle <http://"
+"`The source for the libre pixel cup male walkmediawiki cycle <https://"
 "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"
 "tiles>`_"
 msgstr ""

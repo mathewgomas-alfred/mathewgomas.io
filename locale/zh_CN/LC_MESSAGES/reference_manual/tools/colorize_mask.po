@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-08 03:43+0200\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___tools___colorize_mask.pot\n"
-"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -48,6 +48,23 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/colorizemask_tool.svg\n"
 "   :alt: toolcolorizemask"
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ""
+".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
+msgstr ""
+
+#: ../../reference_manual/tools/colorize_mask.rst:0
+msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
+msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_01.png"
@@ -95,23 +112,6 @@ msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:None
 msgid ".. image:: images/en/Krita_4_0_colorize_mask_usage_12.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ""
-".. image:: images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_edge_detection.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_gap_close_hint.png"
-msgstr ""
-
-#: ../../reference_manual/tools/colorize_mask.rst:0
-msgid ".. image:: images/en/Krita_4_0_colorize_mask_clean_up.png"
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:1
@@ -318,10 +318,10 @@ msgstr "显示输出"
 
 #: ../../reference_manual/tools/colorize_mask.rst:127
 msgid ""
-"On the **Left**: :guilabel:`Show Output` is on, :guilabel:`Edit Strokes` is "
-"off. In the **Middle**: :guilabel:`Show Output` and :guilabel:`Edit Strokes` "
-"are on. On the **Right**: :guilabel:`Show Output` is off and :guilabel:`Edit "
-"Strokes` is on.]]"
+"On the **Left**: :guilabel:`Show Output` is on, :guilabel:`Edit Key Strokes` "
+"is off. In the **Middle**: :guilabel:`Show Output` and :guilabel:`Edit Key "
+"Strokes` are on. On the **Right**: :guilabel:`Show Output` is off and :"
+"guilabel:`Edit Key Strokes` is on."
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:129
@@ -349,9 +349,9 @@ msgstr ""
 #: ../../reference_manual/tools/colorize_mask.rst:138
 msgid ""
 "From left to right: an example with big black shadows on an object but no "
-"edge detection, the same example without the edit strokes enabled. Then the "
-"same example with edge detection enabled and set to 2px, and that same "
-"example with out edit strokes enabled."
+"edge detection, the same example without the edit key strokes enabled. Then "
+"the same example with edge detection enabled and set to 2px, and that same "
+"example without edit key strokes enabled."
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:141
@@ -382,7 +382,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:153
-msgid "Clean-up strokes"
+msgid "Clean up"
 msgstr ""
 
 #: ../../reference_manual/tools/colorize_mask.rst:155

@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-07 03:38+0200\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___profiling_and_callibration.pot\n"
-"Language: zh_CN\n"
 
 #: ../../<generated>:1
 msgid "soft-proofing"
@@ -26,7 +26,9 @@ msgid "Color Models in Krita"
 msgstr "Krita 的色彩模型"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:18
-msgid "Profiling and Calibration:"
+#, fuzzy
+#| msgid "Profiling and Calibration:"
+msgid "Profiling and Calibration"
 msgstr "特性化和校准"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:20
@@ -218,9 +220,20 @@ msgstr ""
 "进行特性化。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:71
+#, fuzzy
+#| msgid ""
+#| "Just profiling your screen means measuring the colors of your monitor "
+#| "with its native settings. and put those values in a color profile, which "
+#| "can be used by color-managed application to adapt source colors to the "
+#| "screen for optimal result. Calibrating and profiling means the same "
+#| "except that first you try to calibrate the screen colors to match a "
+#| "certain standard setting like sRGB or other more specific profiles. "
+#| "Calibrating is done first with hardware controls (lightness, contrast, "
+#| "gamma curves), and then with software that creates a vcgt (video card "
+#| "gamma table) to load in the GPU."
 msgid ""
 "Just profiling your screen means measuring the colors of your monitor with "
-"its native settings. and put those values in a color profile, which can be "
+"its native settings and put those values in a color profile, which can be "
 "used by color-managed application to adapt source colors to the screen for "
 "optimal result. Calibrating and profiling means the same except that first "
 "you try to calibrate the screen colors to match a certain standard setting "

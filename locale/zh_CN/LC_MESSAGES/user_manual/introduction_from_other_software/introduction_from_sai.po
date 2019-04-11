@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +17,6 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___introduction_from_other_software___introduction_from_sai."
 "pot\n"
-"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -270,10 +270,15 @@ msgstr ""
 "道`，将背景色设为白色 (默认状态为黑色)。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:72
+#, fuzzy
+#| msgid ""
+#| "Like Sai, you can quickly turn a black and white image to black and "
+#| "transparent with the :menuselection:`Color to Alpha Filter` under :"
+#| "menuselection:`Filters --> Colors --> Color to Alpha`"
 msgid ""
 "Like Sai, you can quickly turn a black and white image to black and "
 "transparent with the :menuselection:`Color to Alpha Filter` under :"
-"menuselection:`Filters --> Colors --> Color to Alpha`"
+"menuselection:`Filters --> Colors --> Color to Alpha`."
 msgstr ""
 "和在 SAI 里面一样，你可以把黑白图像的白色区域替换成透明区域。在顶部菜单栏找选"
 "择 :menuselection:`滤镜 --> 颜色 --> 颜色转为透明度`。"
@@ -398,9 +403,14 @@ msgid "Clipping group"
 msgstr "剪贴分组"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:106
+#, fuzzy
+#| msgid ""
+#| "For Clipping masks in Krita you'll need to put all your images in a "
+#| "single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + "
+#| "G`"
 msgid ""
 "For Clipping masks in Krita you'll need to put all your images in a single "
-"layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`"
+"layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`."
 msgstr ""
 "要在 Krita 里面使用剪贴蒙版，可将被剪贴的图层放在一个图层分组的底层，然后把分"
 "组内其他图层的 alpha 图标点亮。也可以在选中被剪贴的图层后按 :kbd:`Ctrl + "
@@ -636,15 +646,21 @@ msgid "Dynamic hard-edges for strokes (the fringe effect)"
 msgstr "动态笔刷硬边 (边缘效果)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:209
-msgid "No mix-docker."
+#, fuzzy
+#| msgid "No mix-docker."
+msgid "No mix-docker"
 msgstr "没有调色工具面板"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:210
-msgid "No Preset-tied stabilizer."
+#, fuzzy
+#| msgid "No Preset-tied stabilizer."
+msgid "No Preset-tied stabilizer"
 msgstr "防抖功能没有预设"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:211
-msgid "No per-preset hotkeys."
+#, fuzzy
+#| msgid "No per-preset hotkeys."
+msgid "No per-preset hotkeys"
 msgstr "不能为不同预设指定不同快捷键"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:214
