@@ -195,7 +195,7 @@ Fill Tool
 
 In most cases the fill-tool can’t deal with the anti-aliasing (the soft edge in your line art to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the color two pixels.
 
-Threshold decides when the fill-tool should consider a different color pixel to be a border. And the feathering adds a extra soft border to the fill.
+Threshold decides when the fill-tool should consider a different color pixel to be a border. And the feathering adds an extra soft border to the fill.
 
 Now, if you click on a gapless-part of the image with your preferred color… (Remember to set the opacity to 1.0!)
 
@@ -292,18 +292,18 @@ So it works like this:
 
 1. Select the colorize mask tool.
 2. Tick the layer you're using.
-3. Paint the colors your want to use on the colorize mask
+3. Paint the colors you want to use on the colorize mask
 4. Click update to see the results:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart10.png
     :alt: coloring with colorize mask
 
-When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the line art semi-transparent and painting the flaws away with a pixel art brush.
+When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by making the line art semi-transparent and painting the flaws away with a pixel art brush.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart11.png
     :alt: result from the colorize mask
 
-Then, when you are done, split the layers via :menuselection:`Layers --> Split --> Split Layer`. There's a few options you can choose, but the following should be fine:
+Then, when you are done, split the layers via :menuselection:`Layer --> Split --> Split Layer`. There are a few options you can choose, but the following should be fine:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart12.png
     :alt: slitting colors into islands
@@ -316,12 +316,12 @@ Finally, press **Ok** and you should get the following. Each color patch it on a
 Advantages
 """"""""""
 
-Works with anti aliased line art. Really quick to get the base work done. Can auto-close gaps.
+Works with anti-aliased line art. Really quick to get the base work done. Can auto-close gaps.
 
 Disadvantages
 """""""""""""
 
-No anti aliasing of it’s own. You have to choose between getting details right or the gaps auto-closed.
+No anti-aliasing of its own. You have to choose between getting details right or the gaps auto-closed.
 
 Conclusion
 ----------

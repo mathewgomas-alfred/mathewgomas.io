@@ -85,7 +85,7 @@ Step 2 - Unzipping and Linking to Krita
 For Windows
 ^^^^^^^^^^^
 
-Unzip the package that was just downloaded. Rename the long folder name to just ffmpeg. Let's put this folder in a easy to find location. go to your C:\ and place it there. You can put it wherever you want, but that is where I put it. 
+Unzip the package that was just downloaded. Rename the long folder name to just ffmpeg. Let's put this folder in a easy to find location. Go to your C:\ and place it there. You can put it wherever you want, but that is where I put it. 
 
 Open Krita back up and go to :menuselection:`File --> Render Animation`. Click the :guilabel:`Browse`  button on the last item called FFMpeg. Select this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` .
 
@@ -104,11 +104,11 @@ Step 3 - Testing out an animation
 
 ffmpeg.exe is what Krita uses to do all of its animation export magic. Now that it is hooked up, let us test it out.
 
-Let's make an animated GIF. in the Render Animation dialog, change the :guilabel:`Render As`  field to "GIF image". Choose the file location where it will save with the "File" menu below. I just saved it to my desktop and called it "export.gif". When it is done, you should be able to open it up and see the animation. 
+Let's make an animated GIF. In the Render Animation dialog, change the :guilabel:`Render As`  field to "GIF image". Choose the file location where it will save with the "File" menu below. I just saved it to my desktop and called it "export.gif". When it is done, you should be able to open it up and see the animation. 
 
 .. warning::
 
-    By default, FFMPEG will render MP4 files with a too new codec, which means that windows media player won't be able to play it. So for windows, select "baseline" for the profile instead of "high422" before rendering.
+    By default, FFMPEG will render MP4 files with a too new codec, which means that Windows Media Player won't be able to play it. So for Windows, select "baseline" for the profile instead of "high422" before rendering.
 
 .. note::
     

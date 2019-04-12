@@ -83,7 +83,7 @@ It usually works by attempting to covert a color to the reference color space XY
 
 From XYZ it can then be translated back into another device space, such as RGB (for screens), or CMYK (for printers).
 
-Krita has two systems dedicated to color management. On one hand we have **lcms2**, which deal with ICC profiles, and on the other we have **OCIO**, which deal with LUT color management.
+Krita has two systems dedicated to color management. On the one hand, we have **lcms2**, which deal with ICC profiles, and on the other, we have **OCIO**, which deal with LUT color management.
 
 To give a crude estimate, ICC profiles deal with keeping colors consistent over many interpretations of devices (screens, printers) by using a reference space, and OCIO deals with manipulating the interpretation of said colors.
 
@@ -101,7 +101,7 @@ Aesthetic or Look spaces
 Color managed workflow
 ----------------------
 
-Knowing this about these spaces of course doesn't give you an idea how to use them, but it does make it easier to explain how to use them. So let us look at a typical color management workflow:
+Knowing this about these spaces of course doesn't give you an idea of how to use them, but it does make it easier to explain how to use them. So let us look at a typical color management workflow:
 
 .. figure:: /images/en/color_category/Krita-colormanaged-workflow_text.svg
    :figwidth: 800
@@ -177,7 +177,7 @@ Absolute Colorimetric.
     The opposite to Perceptual, Absolute colorimetric will attempt to retain all the correct colors at whatever cost, which may result in awful looking colors. Recommended only for reproduction work. Doesn't work with Matrix Shaper profiles in Krita due to ICC v4 workflow standards.
 
 Relative Colorimetric
-    A in between solution between perceptual and absolute, relative will try to fit whatever colors it can match between color spaces. It does this by aligning the white and black points. It cuts off the rest to their respective borders. This is what all matrix shaper profiles default to during conversion, because the ICC v4 workflow specifies to only use Relative Colorimetric for matrix shaper profiles.
+    An in between solution between perceptual and absolute, relative will try to fit whatever colors it can match between color spaces. It does this by aligning the white and black points. It cuts off the rest to their respective borders. This is what all matrix shaper profiles default to during conversion, because the ICC v4 workflow specifies to only use Relative Colorimetric for matrix shaper profiles.
 
 Saturation
     Does anything to retain colorfulness, even hue will be sacrificed. Used in infographics. Doesn't work with Matrix Shaper profiles, defaults to relative colorimetric.
@@ -241,10 +241,10 @@ Krita has two modes of color management:
 * ICC works in terms of spaces relative to the CIEXYZ space, and requires an ICC profile.
 * OCIO works in terms of interpretation, and makes use of luts.
 * both can be made with a colorimeter.
-* If you want to have a properly color managed workflow, you have one made customly for the input device (your screen) and the output devices (your printer, or target screen). For web the output is always sRGB.
+* If you want to have a properly color managed workflow, you have one made customary for the input device (your screen) and the output devices (your printer, or target screen). For web the output is always sRGB.
 * Set up your screen profiles under :menuselection:`Settings --> Configure Krita --> Color management`.
 * Do NOT use screen profiles or other device profiles to draw in. Use a working space profile such as any of the elle profiles for this, as the color maths will be much more predictable and pleasant. Krita will convert between your screen and working space on the fly, allowing you to pick the correct colors. This turns your screen into binoculars to view the image.
-* Use the appropriate color management for the appropriate workflow. If you are working with Blender, you will be better off using OCIO, than ICC. IF you are working with Scribus or Photoshop, use ICC.
+* Use the appropriate color management for the appropriate workflow. If you are working with Blender, you will be better off using OCIO, than ICC. If you are working with Scribus or Photoshop, use ICC.
 
 Krita does a lot of color maths, often concerning the blending of colors. This color maths works best in linear color space, and linear color space requires a bit depth of at the least 16bit to work correctly. The disadvantage is that linear space can be confusing to work in.
 
@@ -319,7 +319,7 @@ Input
 Workingspace
     sRGB (the default screen profile) or any larger profile if you can spare the bit depth and like working in them.
 Output
-    sRGB, ICC version 2, sRGB trc for the internet, and a specialized CMYK profile from the printing house for the printed images.
+    sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK profile from the printing house for the printed images.
 
 Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, Artrage, Scribus, etc. and Krita.
 
