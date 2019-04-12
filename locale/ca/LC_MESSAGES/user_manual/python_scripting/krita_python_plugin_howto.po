@@ -179,7 +179,6 @@ msgid "Name"
 msgstr "Name"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:58
-#| msgid "The name that will show up in the Python Plugin Manager"
 msgid "The name that will show up in the Python Plugin Manager."
 msgstr "El nom que es mostrarà al gestor de connectors en Python."
 
@@ -326,9 +325,6 @@ msgid "This is what will be visible in the tools menu."
 msgstr "Això és el que serà visible al menú d'eines."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:141
-#| msgid ""
-#| "if you now restart Krita, you will have an action called \"My Script\". "
-#| "It still doesn't do anything, because we haven't connected it to a script."
 msgid ""
 "If you now restart Krita, you will have an action called \"My Script\". It "
 "still doesn't do anything, because we haven't connected it to a script."
@@ -356,19 +352,15 @@ msgstr "Després, per a connectar l'acció amb el nou document d'exportació:"
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:175
-#| msgid ""
-#| "This is an example of a `signal/slot connection <http://doc.qt.io/qt-5/"
-#| "signalsandslots.html>`_, which Qt applications like Krita use a lot. "
-#| "We'll go over how to make our own signals and slots a bit later."
 msgid ""
 "This is an example of a `signal/slot connection <https://doc.qt.io/qt-5/"
 "signalsandslots.html>`_, which Qt applications like Krita use a lot. We'll "
 "go over how to make our own signals and slots a bit later."
 msgstr ""
-"Aquest és un exemple d'una `connexió de senyal/ranura <https://doc.qt.io/qt-5/"
-"signalsandslots.html>`_, que les aplicacions Qt com el Krita utilitzen molt. "
-"Repassarem una mica més endavant com crear les nostres pròpies senyals i "
-"ranures."
+"Aquest és un exemple d'una `connexió de senyal/ranura <https://doc.qt.io/"
+"qt-5/signalsandslots.html>`_, que les aplicacions Qt com el Krita utilitzen "
+"molt. Repassarem una mica més endavant com crear les nostres pròpies senyals "
+"i ranures."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:177
 msgid "Restart Krita and your new action ought to now export the document."
@@ -617,13 +609,6 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:270
-#| msgid ""
-#| "By default, Krita uses PyQt, but its documentation is pretty bad, mostly "
-#| "because the regular Qt documentation is really good, and you'll often "
-#| "find that the PyQT documentation of a class, say, `QWidget <http://pyqt."
-#| "sourceforge.net/Docs/PyQt4/qwidget.html>`_ is like a weird copy of the "
-#| "regular `Qt documentation <http://doc.qt.io/qt-5/qwidget.html>`_ for that "
-#| "class."
 msgid ""
 "By default, Krita uses PyQt, but its documentation is pretty bad, mostly "
 "because the regular Qt documentation is really good, and you'll often find "
@@ -636,8 +621,8 @@ msgstr ""
 "documentació és força dolenta, principalment perquè la documentació de les "
 "Qt és realment bona, i sovint trobareu que la documentació de PyQt d'una "
 "classe, diu, el `QWidget <https://www.riverbankcomputing.com/static/Docs/"
-"PyQt4/qwidget.html>`_ és com una còpia estranya de la `documentació de les Qt "
-"<https://doc.qt.io/qt-5/qwidget.html>`_ per a aquesta classe."
+"PyQt4/qwidget.html>`_ és com una còpia estranya de la `documentació de les "
+"Qt <https://doc.qt.io/qt-5/qwidget.html>`_ per a aquesta classe."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:272
 msgid ""
@@ -653,13 +638,6 @@ msgstr "A continuació, crearem un botó:"
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:285
-#| msgid ""
-#| "Now, to connect the button to our function, we'll need to look at the "
-#| "signals in the documentation. `QPushButton <http://doc.qt.io/qt-5/"
-#| "qpushbutton.html>`_ has no unique signals of its own, but it does say it "
-#| "inherits 4 signals from `QAbstractButton <http://doc.qt.io/qt-5/"
-#| "qabstractbutton.html#signals>`_, which means that we can use those too. "
-#| "In our case, we want clicked."
 msgid ""
 "Now, to connect the button to our function, we'll need to look at the "
 "signals in the documentation. `QPushButton <https://doc.qt.io/qt-5/"
@@ -693,11 +671,6 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:300
-#| msgid ""
-#| "Qt has several `layouts <http://doc.qt.io/qt-5/qlayout.html>`_, but the "
-#| "`QHBoxLayout and the QVBoxLayout <http://doc.qt.io/qt-5/qboxlayout."
-#| "html>`_ are the easiest to use, they just arrange widgets horizontally or "
-#| "vertically."
 msgid ""
 "Qt has several `layouts <https://doc.qt.io/qt-5/qlayout.html>`_, but the "
 "`QHBoxLayout and the QVBoxLayout <https://doc.qt.io/qt-5/qboxlayout.html>`_ "
@@ -717,13 +690,6 @@ msgid "PyQt Signals and Slots"
 msgstr "Senyals i ranures de PyQt"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:307
-#| msgid ""
-#| "We've already been using PyQt signals and slots already, but there are "
-#| "times where you want to create your own signals and slots. `As pyQt's "
-#| "documentation is pretty difficult to understand <http://pyqt.sourceforge."
-#| "net/Docs/PyQt4/new_style_signals_slots.html>`_, and the way how signals "
-#| "and slots are created is very different from C++ Qt, we're explaining it "
-#| "here:"
 msgid ""
 "We've already been using PyQt signals and slots already, but there are times "
 "where you want to create your own signals and slots. `As pyQt's "
@@ -734,9 +700,10 @@ msgid ""
 msgstr ""
 "Ja hem estat emprant senyals i ranures de PyQt, però hi ha ocasions en les "
 "que voleu crear les vostres pròpies senyals i ranures. `Com la documentació "
-"de PyQt és força difícil d'entendre <https://www.riverbankcomputing.com/static"
-"/Docs/PyQt4/new_style_signals_slots.html>`_, i la forma en què es creen els "
-"senyals i les ranures és molt diferent del C++ de les Qt, ho expliquem aquí:"
+"de PyQt és força difícil d'entendre <https://www.riverbankcomputing.com/"
+"static/Docs/PyQt4/new_style_signals_slots.html>`_, i la forma en què es "
+"creen els senyals i les ranures és molt diferent del C++ de les Qt, ho "
+"expliquem aquí:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:310
 msgid ""
@@ -764,9 +731,6 @@ msgstr "``from PyQt5.QtCore import pyqtSlot``"
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:316
-#| msgid ""
-#| "(If there's from ``PyQt5.QtCore import *`` already in the list of "
-#| "imports, then you won't have to do this, of course)"
 msgid ""
 "(If there's from ``PyQt5.QtCore import *`` already in the list of imports, "
 "then you won't have to do this, of course.)"
@@ -795,7 +759,6 @@ msgstr ""
 "següent:"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:344
-#| msgid "and use the right import:"
 msgid "And use the right import:"
 msgstr "I utilitzeu la importació correcta:"
 
