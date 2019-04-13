@@ -171,7 +171,7 @@ msgstr "Aquestes haurien d'utilitzar PNG i, si és possible, GIF."
 
 #: ../../contributors_manual/optimising_images.rst:60
 msgid "Images that have a lot of flat colors."
-msgstr "Imatges que tenen un munt de colors plans"
+msgstr "Imatges que tenen un munt de colors plans."
 
 #: ../../contributors_manual/optimising_images.rst:61
 msgid "This should use png."
@@ -195,7 +195,7 @@ msgstr "Aquestes haurien de ser en JPG."
 
 #: ../../contributors_manual/optimising_images.rst:67
 msgid "Images with a lot of transparency."
-msgstr "Imatges amb un munt de transparència"
+msgstr "Imatges amb un munt de transparència."
 
 #: ../../contributors_manual/optimising_images.rst:67
 msgid "These should use PNG."
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Optimising PNG"
 msgstr "Optimitzar els PNG"
 
-# skip-rule: t-acc_obe
+# skip-rule: t-acc_obe,t-apo_fin
 #: ../../contributors_manual/optimising_images.rst:92
 msgid ""
 "There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/"
@@ -452,7 +452,7 @@ msgstr ""
 "No hi ha menys de 3 a 4 formes diferents de gestionar les metadades, i les "
 "metadades tenen diferents maneres de gestionar-se en certs fitxers."
 
-# skip-rule: t-acc_obe
+# skip-rule: t-acc_obe,t-sp_2p,t-2p_sp,t-apo_fin
 #: ../../contributors_manual/optimising_images.rst:146
 msgid ""
 "The most commonly used tool to edit metadata is :program:`ExifTool`, another "
@@ -706,6 +706,7 @@ msgstr ""
 "llicència Creative Commons triï generar un fitxer XMP adequat mentre trieu "
 "una llicència."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:249
 msgid ""
 "We'll need to use the `XMP tags for exiftool <https://www.sno.phy.queensu.ca/"
