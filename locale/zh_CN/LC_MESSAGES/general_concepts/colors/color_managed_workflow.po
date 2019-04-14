@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 03:44+0200\n"
+"POT-Creation-Date: 2019-04-13 03:33+0200\n"
 "PO-Revision-Date: 2019-04-09 18:50\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -16,14 +16,6 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___color_managed_workflow.pot\n"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ""
@@ -78,6 +70,14 @@ msgid ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -250,10 +250,15 @@ msgstr ""
 "然后再从 XYZ 转换到其他设备的色彩空间，如 RGB (用于屏幕) 或 CMYK (用于打印)。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
+#, fuzzy
+#| msgid ""
+#| "Krita has two systems dedicated to color management. On one hand we have "
+#| "**lcms2**, which deal with ICC profiles, and on the other we have "
+#| "**OCIO**, which deal with LUT color management."
 msgid ""
-"Krita has two systems dedicated to color management. On one hand we have "
-"**lcms2**, which deal with ICC profiles, and on the other we have **OCIO**, "
-"which deal with LUT color management."
+"Krita has two systems dedicated to color management. On the one hand, we "
+"have **lcms2**, which deal with ICC profiles, and on the other, we have "
+"**OCIO**, which deal with LUT color management."
 msgstr ""
 "Krita 有两套专门用于色彩管理的系统。一个是 **lcms2**，负责处理 ICC 特性文件。"
 "另一个则是 **OCIO**，负责处理 LUT 色彩管理。"
@@ -334,8 +339,13 @@ msgid "Color managed workflow"
 msgstr "色彩管理流程"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:104
+#, fuzzy
+#| msgid ""
+#| "Knowing this about these spaces of course doesn't give you an idea how to "
+#| "use them, but it does make it easier to explain how to use them. So let "
+#| "us look at a typical color management workflow:"
 msgid ""
-"Knowing this about these spaces of course doesn't give you an idea how to "
+"Knowing this about these spaces of course doesn't give you an idea of how to "
 "use them, but it does make it easier to explain how to use them. So let us "
 "look at a typical color management workflow:"
 msgstr ""
@@ -662,8 +672,16 @@ msgid "Relative Colorimetric"
 msgstr "相对比色"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:180
+#, fuzzy
+#| msgid ""
+#| "A in between solution between perceptual and absolute, relative will try "
+#| "to fit whatever colors it can match between color spaces. It does this by "
+#| "aligning the white and black points. It cuts off the rest to their "
+#| "respective borders. This is what all matrix shaper profiles default to "
+#| "during conversion, because the ICC v4 workflow specifies to only use "
+#| "Relative Colorimetric for matrix shaper profiles."
 msgid ""
-"A in between solution between perceptual and absolute, relative will try to "
+"An in between solution between perceptual and absolute, relative will try to "
 "fit whatever colors it can match between color spaces. It does this by "
 "aligning the white and black points. It cuts off the rest to their "
 "respective borders. This is what all matrix shaper profiles default to "
@@ -865,9 +883,14 @@ msgid "both can be made with a colorimeter."
 msgstr "ICC 特性文件和 LUT 查找表都可以使用色差计进行制作。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:244
+#, fuzzy
+#| msgid ""
+#| "If you want to have a properly color managed workflow, you have one made "
+#| "customly for the input device (your screen) and the output devices (your "
+#| "printer, or target screen). For web the output is always sRGB."
 msgid ""
 "If you want to have a properly color managed workflow, you have one made "
-"customly for the input device (your screen) and the output devices (your "
+"customary for the input device (your screen) and the output devices (your "
 "printer, or target screen). For web the output is always sRGB."
 msgstr ""
 "如果你想要组建一个完善的色彩管理流程，你必须自行为输入设备 (你的显示器) 和输"
@@ -897,9 +920,14 @@ msgstr ""
 "镜来查看图像一样。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:247
+#, fuzzy
+#| msgid ""
+#| "Use the appropriate color management for the appropriate workflow. If you "
+#| "are working with Blender, you will be better off using OCIO, than ICC. IF "
+#| "you are working with Scribus or Photoshop, use ICC."
 msgid ""
 "Use the appropriate color management for the appropriate workflow. If you "
-"are working with Blender, you will be better off using OCIO, than ICC. IF "
+"are working with Blender, you will be better off using OCIO, than ICC. If "
 "you are working with Scribus or Photoshop, use ICC."
 msgstr ""
 "你应该按照不同的色彩管理流程选用合适的色彩管理方式。如果你要与 Blender 协同工"
@@ -1149,8 +1177,12 @@ msgid "Output"
 msgstr "输出空间"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:322
+#, fuzzy
+#| msgid ""
+#| "sRGB, ICC version 2, sRGB trc for the internet, and a specialized CMYK "
+#| "profile from the printing house for the printed images."
 msgid ""
-"sRGB, ICC version 2, sRGB trc for the internet, and a specialized CMYK "
+"sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK "
 "profile from the printing house for the printed images."
 msgstr ""
 "sRGB，ICC 第 2 版，为互联网用途而设的 sRGB trc 空间，还有印刷公司提供的专供打"
