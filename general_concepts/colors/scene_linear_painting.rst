@@ -23,7 +23,7 @@ These are the two important characteristics. The colorspace has a few more prope
 
 So, *Scene Linear is not a single one colorspace, but a* **TYPE** *of colorspace*. You can have a scene linear space that uses the sRGB/rec 709 colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as long as it is *linear* and in a *floating point bit depth*.
 
-These two factors are for one reason: To make black and white arbitrary values. This might seem a bit weird. But when you are dealing with light-sources, you are dealing with a massive range of contrasts, and will have to decide afterwards which white and black you’d like to have. This is what the scene means in scene-linear, the relevant values are unique per scene, like a real world scene: a flowerfield lit by moonlight, a city in twilight or a sunny beach. You want to be able to put the right emphasis on the most important contrasting values, and being able to choose what is white and what is black is a very powerful tool here. After all, humans in the real world can see much more when they get used to the dark, or to the sun, so why not apply that to how we make our images?
+These two factors are for one reason: To make black and white arbitrary values. This might seem a bit weird. But when you are dealing with light-sources, you are dealing with a massive range of contrasts, and will have to decide afterwards which white and black you’d like to have. This is what the scene means in scene-linear, the relevant values are unique per scene, like a real world scene: a flower field lit by moonlight, a city in twilight or a sunny beach. You want to be able to put the right emphasis on the most important contrasting values, and being able to choose what is white and what is black is a very powerful tool here. After all, humans in the real world can see much more when they get used to the dark, or to the sun, so why not apply that to how we make our images?
 
 This is also why it needs to be Linear. Gamma and Tone-mapped color spaces are already choosing which contrast is the most important to you. But for that, they too need to choose what is white or black. Linear doesn’t make such assumptions, so much better for when you want to choose yourself. You will eventually want to stick your image through some tone-mapping or gamma correction, but only at the end after you have applied filters and mixed colors!
 
@@ -150,11 +150,11 @@ Where with the value based workflow you paint the image as if it were a grayscal
    :align: center
    :figwidth: 800
 
-   The leftmost image is both the lighting based one and the color layer separate, the middle with the two layers multiplied and the right a luminosity based view. This cat is a nice example as it demonstrates why having textures and lighting separate could be interesting.)
+   The leftmost image is both the lighting based one and the color layer separate, the middle with the two layers multiplied and the right a luminosity based view. This cat is a nice example as it demonstrates why having textures and lighting separate could be interesting.
 
 You can even combine this with a value based workflow by opening a new view and setting the component to luminosity. That way you can see both the grayscale as well as the lighting based version of the image next to one another.
 
-The keen minded will notice that a lighting based workflow kind of resembles the idea of a light-pass and a color pas in 3d rendering. And indeed, it is basically the same, so you can use lighting passes from 3d renders here, just save them as EXR and import them as a layer. One of the examples where scene linear painting simplifies combining methods.
+The keen minded will notice that a lighting based workflow kind of resembles the idea of a light pass and a color pass in 3d rendering. And indeed, it is basically the same, so you can use lighting passes from 3d renders here, just save them as EXR and import them as a layer. One of the examples where scene linear painting simplifies combining methods.
 
 Finishing up
 ~~~~~~~~~~~~

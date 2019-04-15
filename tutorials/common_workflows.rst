@@ -81,7 +81,7 @@ After you have a clean black and white line art you may need to erase the white 
 .. image:: /images/en/Color-to-alpha.png
     :alt: color to alpha dialog box
 
-This will convert the white color in your line art to alpha i.e. it will make the white transparent leaving only the line art. Your line art can be in grey-scale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
+This will convert the white color in your line art to alpha i.e. it will make the white transparent leaving only the line art. Your line art can be in greyscale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
 
 Laying in Flat Colors
 ^^^^^^^^^^^^^^^^^^^^^
@@ -146,7 +146,7 @@ Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[comic
 .. image:: /images/en/common-workflows/Colorise-comics-setting.png
     :alt: Colorize Interactive dialog and settings
 
-Press **Apply** and **Ok** to apply and exit the G'MIC dialog. You'll now have flat colors beneath you line art.
+Press **Apply** and **Ok** to apply and exit the G'MIC dialog. You'll now have flat colors beneath your line art.
 More details about this technique can be found in the tutorial `at Timothée Giet's blog <http://timotheegiet.com/blog/comics/gmic-colorize-comics-working-in-krita.html>`_.
 
 Painting
@@ -176,7 +176,7 @@ You can find more about this technique `here <http://www.davidrevoy.com/article1
 Preparing Tiles and Textures
 ----------------------------
 
-Many artists use Krita to create textures for 3d assets used for games animation etc. Krita has many texture template for you to choose and get started with creating textures. These templates have common sizes, bit depth and color profiles that are used for texturing workflow.
+Many artists use Krita to create textures for 3d assets used for games animation etc. Krita has many texture templates for you to choose and get started with creating textures. These templates have common sizes, bit depth and color profiles that are used for texturing workflow.
 
 Krita also has a real-time seamless tile mode to help texture artist prepare tiles and texture easily and check if it is seamless on the fly. The tiled mode is called wrap-around mode, to activate this mode you have press :kbd:`W`. No when you paint the canvas is tiled in real-time allowing you to create seamless pattern and texture, it is also easy to prepare interlocking patterns and motifs in this mode.
 
@@ -200,7 +200,7 @@ You can choose the required colors and ramps in the index color filter dialog as
 
 Dithering can be used to enhance the look of the art and to ease the banding occurred by the index color filter. Krita has a variety of dithering patterns by default, these can be found in pattern docker. You can use these patterns as fill layer, then set the blend mode to **overlay** and adjust the opacity according to your liking. Generally, an opacity range of 10% - 25% is ideal.
 
-Paint the artwork in grey-scale and add an index color filter layer at the top then add the dithering pattern fill layer below the index color filter but above the artwork layer, as shown in the layer stack arrangement above. You can paint or adjust the artwork at any stage as we have added the index color filter as a filter layer.
+Paint the artwork in greyscale and add an index color filter layer at the top then add the dithering pattern fill layer below the index color filter but above the artwork layer, as shown in the layer stack arrangement above. You can paint or adjust the artwork at any stage as we have added the index color filter as a filter layer.
 
 You can add different groups for different colors and add different dithering patterns for each group.
 
