@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_tutorials___flat-coloring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 03:33+0200\n"
+"POT-Creation-Date: 2019-04-14 03:33+0200\n"
 "PO-Revision-Date: 2019-04-13 08:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -35,6 +35,30 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
 "   :alt: mouseright"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:None
 msgid ""
@@ -156,30 +180,6 @@ msgid ""
 msgstr ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart13.png\n"
 "   :alt: Кольорові острови — результати поділу шарів"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:1
 msgid "Common workflows used in Krita"
@@ -680,10 +680,6 @@ msgstr ""
 "колір на два пікселі."
 
 #: ../../tutorials/flat-coloring.rst:198
-#| msgid ""
-#| "Threshold decides when the fill-tool should consider a different color "
-#| "pixel to be a border. And the feathering adds a extra soft border to the "
-#| "fill."
 msgid ""
 "Threshold decides when the fill-tool should consider a different color pixel "
 "to be a border. And the feathering adds an extra soft border to the fill."
@@ -900,7 +896,6 @@ msgid "Tick the layer you're using."
 msgstr "Позначте пункт шару, яким ви користуйтеся."
 
 #: ../../tutorials/flat-coloring.rst:295
-#| msgid "Paint the colors your want to use on the colorize mask"
 msgid "Paint the colors you want to use on the colorize mask"
 msgstr ""
 "Намалюйте щось кольорами, які ви використовуватимете для маски "
@@ -911,12 +906,6 @@ msgid "Click update to see the results:"
 msgstr "Натисніть кнопку :guilabel:`Оновити`, щоб переглянути результати:"
 
 #: ../../tutorials/flat-coloring.rst:301
-#| msgid ""
-#| "When you are satisfied, |mouseright| the colorize mask, and go to :"
-#| "menuselection:`Convert --> Paint Layer`. This will turn the colorize mask "
-#| "to a generic paint layer. Then, you can fix the last issues by aking the "
-#| "line art semi-transparent and painting the flaws away with a pixel art "
-#| "brush."
 msgid ""
 "When you are satisfied, |mouseright| the colorize mask, and go to :"
 "menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to "
@@ -931,10 +920,6 @@ msgstr ""
 "пензля для піксель-арту."
 
 #: ../../tutorials/flat-coloring.rst:306
-#| msgid ""
-#| "Then, when you are done, split the layers via :menuselection:`Layers --> "
-#| "Split --> Split Layer`. There's a few options you can choose, but the "
-#| "following should be fine:"
 msgid ""
 "Then, when you are done, split the layers via :menuselection:`Layer --> "
 "Split --> Split Layer`. There are a few options you can choose, but the "
@@ -955,9 +940,6 @@ msgstr ""
 "Тепер можна починати малювати!"
 
 #: ../../tutorials/flat-coloring.rst:319
-#| msgid ""
-#| "Works with anti aliased line art. Really quick to get the base work done. "
-#| "Can auto-close gaps."
 msgid ""
 "Works with anti-aliased line art. Really quick to get the base work done. "
 "Can auto-close gaps."
@@ -966,9 +948,6 @@ msgstr ""
 "Може автоматично закривати прогалини."
 
 #: ../../tutorials/flat-coloring.rst:324
-#| msgid ""
-#| "No anti aliasing of it’s own. You have to choose between getting details "
-#| "right or the gaps auto-closed."
 msgid ""
 "No anti-aliasing of its own. You have to choose between getting details "
 "right or the gaps auto-closed."

@@ -6,10 +6,10 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_general_concepts___colors___color_managed_w"
-"orkflow\n"
+"Project-Id-Version: "
+"docs_krita_org_general_concepts___colors___color_managed_workflow\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-13 03:33+0200\n"
+"POT-Creation-Date: 2019-04-14 03:33+0200\n"
 "PO-Revision-Date: 2019-04-13 22:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -20,6 +20,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ""
@@ -74,14 +82,6 @@ msgid ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -281,10 +281,6 @@ msgstr ""
 "(для екранів комп'ютерів) або CMYK (для принтерів)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
-#| msgid ""
-#| "Krita has two systems dedicated to color management. On one hand we have "
-#| "**lcms2**, which deal with ICC profiles, and on the other we have "
-#| "**OCIO**, which deal with LUT color management."
 msgid ""
 "Krita has two systems dedicated to color management. On the one hand, we "
 "have **lcms2**, which deal with ICC profiles, and on the other, we have "
@@ -381,10 +377,6 @@ msgid "Color managed workflow"
 msgstr "Процедура керування кольорами"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:104
-#| msgid ""
-#| "Knowing this about these spaces of course doesn't give you an idea how to "
-#| "use them, but it does make it easier to explain how to use them. So let "
-#| "us look at a typical color management workflow:"
 msgid ""
 "Knowing this about these spaces of course doesn't give you an idea of how to "
 "use them, but it does make it easier to explain how to use them. So let us "
@@ -964,10 +956,6 @@ msgid ""
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:247
-#| msgid ""
-#| "Use the appropriate color management for the appropriate workflow. If you "
-#| "are working with Blender, you will be better off using OCIO, than ICC. IF "
-#| "you are working with Scribus or Photoshop, use ICC."
 msgid ""
 "Use the appropriate color management for the appropriate workflow. If you "
 "are working with Blender, you will be better off using OCIO, than ICC. If "
@@ -984,12 +972,12 @@ msgid ""
 "requires a bit depth of at the least 16bit to work correctly. The "
 "disadvantage is that linear space can be confusing to work in."
 msgstr ""
-"Krita виконує багато математичних дій із числовими характеристиками кольорів."
-" Часто ці дії пов'язано зі змішуванням кольорів. Дії з кольорами найкраще"
-" виконувати у лінійному просторі кольорів, а для правильної роботи лінійного"
-" простору кольорів потрібна бітова глибина кольорів у принаймні 16 бітів."
-" Недоліком використання лінійних просторів є те, що іноді робота у них є дещо"
-" незвичною."
+"Krita виконує багато математичних дій із числовими характеристиками "
+"кольорів. Часто ці дії пов'язано зі змішуванням кольорів. Дії з кольорами "
+"найкраще виконувати у лінійному просторі кольорів, а для правильної роботи "
+"лінійного простору кольорів потрібна бітова глибина кольорів у принаймні 16 "
+"бітів. Недоліком використання лінійних просторів є те, що іноді робота у них "
+"є дещо незвичною."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:251
 msgid ""
@@ -999,13 +987,13 @@ msgid ""
 "icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color "
 "blending while opening up the possibility for you to start working in hdr!"
 msgstr ""
-"Якщо ви полюбляєте малювати, на вашому комп'ютері встановлено багато"
-" оперативної пам'яті і ви робите перші кроки у використанні усіх переваг"
-" керування кольорами у Krita, спробуйте перейти з використання у всіх ваших"
-" малюнках вбудованого профілю sRGB на профіль sRGB-v2-elle-g10.icc або"
-" rec2020-v2-elle-g10.icc із 16-бітовими дійсними значеннями для компонентів"
-" кольорів. Це надасть вам ширші можливості у змішуванні кольорів і відкриє"
-" для вас можливості роботи із широким динамічним діапазоном кольорів (HDR)!"
+"Якщо ви полюбляєте малювати, на вашому комп'ютері встановлено багато "
+"оперативної пам'яті і ви робите перші кроки у використанні усіх переваг "
+"керування кольорами у Krita, спробуйте перейти з використання у всіх ваших "
+"малюнках вбудованого профілю sRGB на профіль sRGB-v2-elle-g10.icc або "
+"rec2020-v2-elle-g10.icc із 16-бітовими дійсними значеннями для компонентів "
+"кольорів. Це надасть вам ширші можливості у змішуванні кольорів і відкриє "
+"для вас можливості роботи із широким динамічним діапазоном кольорів (HDR)!"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:256
 msgid ""
@@ -1229,9 +1217,6 @@ msgid "Output"
 msgstr "Вихідні дані"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:322
-#| msgid ""
-#| "sRGB, ICC version 2, sRGB trc for the internet, and a specialized CMYK "
-#| "profile from the printing house for the printed images."
 msgid ""
 "sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK "
 "profile from the printing house for the printed images."
