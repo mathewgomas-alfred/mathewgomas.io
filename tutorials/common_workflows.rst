@@ -102,7 +102,7 @@ Add a layer underneath your line art layer and start painting with the brush. If
 Filling with Flood Fill tool
 """"""""""""""""""""""""""""
 
-The second method is to use the Flood fill tool to fill large parts of your line art quickly. This method generally requires closed gaps in the line art. To begin with this method place your line art on a separate layer. Then activate the flood fill tool and set the grow selection to 2px, uncheck limit to current layer if previously checked.
+The second method is to use the Flood fill tool to fill large parts of your line art quickly. This method generally requires closed gaps in the line art. To begin with this method place your line art on a separate layer. Then activate the flood fill tool and set the :guilabel:`Grow selection` to 2px, uncheck :guilabel:`Limit to current layer` if previously checked.
 
 .. image:: /images/en/common-workflows/Floodfill-krita.png
     :alt: flood fill in krita

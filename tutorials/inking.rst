@@ -12,7 +12,7 @@
 Inking
 ======
 
-The first thing to realise about inking is that unlike anatomy, perspective, composition or color theory, you cannot compensate for lack of practice with study or reasoning. This is because all the magic in drawing lines happens from your shoulder to your fingers, very little of it happens in your head, and your lines improve with practice.
+The first thing to realize about inking is that unlike anatomy, perspective, composition or color theory, you cannot compensate for lack of practice with study or reasoning. This is because all the magic in drawing lines happens from your shoulder to your fingers, very little of it happens in your head, and your lines improve with practice.
 
 On the other hand, this can be a blessing. You don’t need to worry about whether you are smart enough, or are creative enough to be a good inker. Just dedicated. Doubtlessly, inking is the Hufflepuff of drawing disciplines.
 
@@ -76,7 +76,7 @@ The downside of these is that they cannot have line-variation, making them a bit
 
 You can also make small bezier curves with the :ref:`assistant_tool`, amongst the other tools there.
 
-Then, in the freehand brush tool options, you can tick **Assistants** and start a line that snaps to this assistant.
+Then, in the freehand brush tool options, you can tick :guilabel:`Snap to Assistants` and start a line that snaps to this assistant.
 
 Presets
 -------

@@ -58,17 +58,17 @@ Multiply is not a perfect solution however. For example, if through some image e
 
 This is because multiply literally multiplies the colors. So it uses maths!
 
-What it first does is take the values of the RGB channels, then divides them by the max (because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalised values. Finally, it takes the result and multiplies it with 255 again to get the result values.
+What it first does is take the values of the RGB channels, then divides them by the max (because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalized values. Finally, it takes the result and multiplies it with 255 again to get the result values.
 
 .. list-table::
     :header-rows: 1
 
     * -
       - Pink
-      - Pink (normalised)
+      - Pink (normalized)
       - Blue
-      - Blue (normalised)
-      - Normalised, multiplied
+      - Blue (normalized)
+      - Normalized, multiplied
       - Result
     * - Red
       - 222
@@ -284,7 +284,7 @@ Fiddly details aren’t easy to fill in with this. So I recommend skipping those
 Colorize Mask
 -------------
 
-So, this is a bit of an odd one. In the original tutorial, you'll see I'm suggesting using G'Mic, but that was a few years ago, and g'mic is a little unstable on windows. Therefore, the Krita developers have been attempting to make an internal tool doing the same.
+So, this is a bit of an odd one. In the original tutorial, you'll see I'm suggesting using G'Mic, but that was a few years ago, and G'Mic is a little unstable on windows. Therefore, the Krita developers have been attempting to make an internal tool doing the same.
 
 It is disabled in 3.1, but if you use 4.0 or later, it is in the toolbox. Check the Colorize Mask for more information.
 

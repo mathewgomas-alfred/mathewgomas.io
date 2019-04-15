@@ -24,4 +24,4 @@ When you select it, it will ask for the amount of wavelet scales. More scales, m
 .. image:: /images/en/Wavelet_decompose.png
    :align: center
 
-Adjust a given layer with middle gray to neutralise it, and merge everything with the :guilabel:`Grain Merge` blending mode to merge it into the end image properly.
+Adjust a given layer with middle gray to neutralize it, and merge everything with the :guilabel:`Grain Merge` blending mode to merge it into the end image properly.

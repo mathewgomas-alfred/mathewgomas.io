@@ -21,7 +21,7 @@ Previously referred to as HDR painting and Scene Referred painting, Scene Linear
 
 These are the two important characteristics. The colorspace has a few more properties than this, such as the white point, or more importantly, the colorants that make up the gamut. But here’s the thing, those two could be anything, as long as the space is linear and the color depth is floating point.
 
-So, *Scene Linear is not a single one colorspace, but a **TYPE** of colorspace*. You can have a scene linear space that uses the sRGB/rec 709 colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as long as it is *linear* and in a *floating point bit depth*.
+So, *Scene Linear is not a single one colorspace, but a* **TYPE** *of colorspace*. You can have a scene linear space that uses the sRGB/rec 709 colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as long as it is *linear* and in a *floating point bit depth*.
 
 These two factors are for one reason: To make black and white arbitrary values. This might seem a bit weird. But when you are dealing with light-sources, you are dealing with a massive range of contrasts, and will have to decide afterwards which white and black you’d like to have. This is what the scene means in scene-linear, the relevant values are unique per scene, like a real world scene: a flowerfield lit by moonlight, a city in twilight or a sunny beach. You want to be able to put the right emphasis on the most important contrasting values, and being able to choose what is white and what is black is a very powerful tool here. After all, humans in the real world can see much more when they get used to the dark, or to the sun, so why not apply that to how we make our images?
 
@@ -29,13 +29,13 @@ This is also why it needs to be Linear. Gamma and Tone-mapped color spaces are a
 
 In fact, there’s always a non-destructive sort of transform going on while you are working on your image which includes the tone-mapping. This is called a display or view transform, and they provide a sort of set of binoculars into the world of your image. Without it, your computer cannot show these colors properly; it doesn’t know how to interpret it properly, often making the image too dark. Providing such a transform and allowing you to configure it is the prime function of color management.
 
-Between different view and display transforms, there’s also a difference in types. Some are really naive, others are more sophisticated, and some need to be used in a certain manner to work properly. The ICC color management can only give a certain type of view transforms, while OCIO color management in the lut docker can give much more complex transforms easily configurable and custom settings that can be shared between programs.
+Between different view and display transforms, there’s also a difference in types. Some are really naive, others are more sophisticated, and some need to be used in a certain manner to work properly. The ICC color management can only give a certain type of view transforms, while OCIO color management in the LUT docker can give much more complex transforms easily configurable and custom settings that can be shared between programs.
 
 .. figure:: /images/en/color_category/Krita_scenelinear_cat_01.png
    :figwidth: 800
    :align: center
     
-   Above, an example of the more naive transform provided by going from scene-linear sRGB to regular sRGB, and to the right a more sophisticated transform coming from the filmic blender ocio configuration. Look at the difference between the paws. Image by Wolthera van Hövell tot Westerflier, License: CC-BY-SA
+   Above, an example of the more naive transform provided by going from scene-linear sRGB to regular sRGB, and to the right a more sophisticated transform coming from the filmic blender OCIO configuration. Look at the difference between the paws. Image by Wolthera van Hövell tot Westerflier, License: CC-BY-SA
 
 Conversely, transforming and interpreting your image’s colors is the only thing OCIO can do, and it can do it with really complex transforms, really fast. It doesn’t understand what your image’s color space is originally, doesn’t understand what CMYK is, and there’s also no such thing as a OCIO color profile. Therefore you will need to switch to an ICC workflow if you wish to prepare for print.
 
@@ -101,7 +101,7 @@ Overall, this is something that will take a little while getting used to, but yo
 
 Finally, there’s the **issue of size**.
 
-16 bit float per channel images are big. 32 bit float per channel images are bigger. This means that they will eat RAM and that painting and filtering will be slower. This is something that will fix itself over the years, but not many people have such a high-end pc yet, so it can be a blocker.
+16 bit float per channel images are big. 32 bit float per channel images are bigger. This means that they will eat RAM and that painting and filtering will be slower. This is something that will fix itself over the years, but not many people have such a high-end PC yet, so it can be a blocker.
 
 So the issues are tools, expectations and size.
 
@@ -110,7 +110,7 @@ In Summary
 
 Scene Linear Painting is painting an image in a color space that is linear and has a floating point bit depth. This does not assume anything about the values of black and white, so you can only use tools that don’t assume anything about the values of black and white. It has the advantage of having nicer filter results and better color mixtures as well as better interoperability with other scene-linear output.
 
-To be able to view such an image you use a view transform, also called a display conversion. Which means that if you wish to finalise your image for the web, you make a copy of the image that goes through a display conversion or view transform that then gets saved to png or jpeg or tiff.
+To be able to view such an image you use a view transform, also called a display conversion. Which means that if you wish to finalize your image for the web, you make a copy of the image that goes through a display conversion or view transform that then gets saved to png or jpeg or tiff.
 
 Getting to actual painting
 --------------------------
@@ -159,6 +159,6 @@ The keen minded will notice that a lighting based workflow kind of resembles the
 Finishing up
 ~~~~~~~~~~~~
 
-When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same ocio config, select the right values and save the result as a png. 
+When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same OCIO config, select the right values and save the result as a png. 
 
 You can even use some of Blender’s or Natron’s filters at this stage, and when working with others, you would save out in EXR so that others can use those.

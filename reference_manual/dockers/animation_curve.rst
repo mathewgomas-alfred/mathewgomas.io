@@ -16,7 +16,7 @@ Animation Curves Docker
 
 The Animation Curve docker allows you to edit tweened sections by means of interpolation curves. As of this time of writing, it can only edit opacity.
 
-The idea is that sometimes what you want to animate can be expressed as a value. This allows the computer to do maths on the values, and automate tasks, like interpolation, also known as 'Tweening'. Because these are values, like percentage opacity, and animation happens over time, that means we can visualise the way the values are interpolated as a curve graph, and also edit the graph that way.
+The idea is that sometimes what you want to animate can be expressed as a value. This allows the computer to do maths on the values, and automate tasks, like interpolation, also known as 'Tweening'. Because these are values, like percentage opacity, and animation happens over time, that means we can visualize the way the values are interpolated as a curve graph, and also edit the graph that way.
 
 But, when you first open this docker, there's no curves visible!
 You will first need to add opacity keyframes to the active animation layer. You can do this by using the animation docker and selection :guilabel:`Add new keyframe`.
