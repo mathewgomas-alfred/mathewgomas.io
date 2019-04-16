@@ -61,7 +61,7 @@ These are not included as their own color spaces in Krita. However, they do show
 Hue
     The tint of a color, or, whether it's red, yellow, green, etc. Krita's Hue is measured in 360 degrees, with 0 being red, 120 being green and 240 being blue.
 Saturation
-    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to grey, and sometimes this value is called **Chroma**. Saturation ranges from 0 (grey) to 100 (pure color).
+    How vibrant a color is. Saturation is slightly different between HSV and the others. In HSV it's a measurement of the difference between two base colors being used and three base colors being used. In the others it's a measurement of how close a color is to gray, and sometimes this value is called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color).
 Value
     Sometimes known as Brightness. Measurement of how much the pixel needs to light up. Also measured from 0 to 100.
 Lightness
@@ -76,8 +76,8 @@ Luma (Y')
 Grayscale
 ---------
 
-This color space only registers grey-values.
-This is useful, because by only registering grey values, it only needs one channel of information, which in turn means the image becomes much lighter in memory consumption!
+This color space only registers gray values.
+This is useful, because by only registering gray values, it only needs one channel of information, which in turn means the image becomes much lighter in memory consumption!
 
 This is useful for textures, but also anything else that needs to stay grayscale, like Black and White comics.
 

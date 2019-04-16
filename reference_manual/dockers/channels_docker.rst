@@ -21,7 +21,7 @@ The channel docker allows you to turn on and off the channels associated with th
 Editing Channels
 ----------------
 
-If you want to edit individual channels by their greyscale component, you will need to manually separate a layer. This can be done with a series of commands with the layer docker.
+If you want to edit individual channels by their grayscale component, you will need to manually separate a layer. This can be done with a series of commands with the layer docker.
 
 #. Select the layer you want to break apart.
 #. Go to :menuselection:`Image --> Separate Image`
@@ -29,7 +29,7 @@ If you want to edit individual channels by their greyscale component, you will n
 
     #. Source: Current Layer
     #. Alpha Options: Create separate separation from alpha channel 
-    #. Output to Greyscale, not color: unchecked
+    #. Output to Grayscale, not color: unchecked
 
 #. Hide your original layer
 #. Select All of the new channel layers and put them in a group layer (:menuselection:`Layer --> Quick Group`)

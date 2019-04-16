@@ -104,7 +104,7 @@ You can scale selection. To do this, choose :menuselection:`Select --> Scale`.
 
      Also, in the :guilabel:`Select` menu there are more classical options to grow, shrink, feather, border, etc.
 
-If you enable :guilabel:`Show Global Selection Mask` (:guilabel:`Select` menu) you can scale/rotate/transform/move or paint on selection like on regular greyscale layer.
+If you enable :guilabel:`Show Global Selection Mask` (:guilabel:`Select` menu) you can scale/rotate/transform/move or paint on selection like on regular grayscale layer.
 
 * :kbd:`Ctrl + H`: Show / Hide selection (same shortcut)
 * :kbd:`Ctrl + A`: Select All

@@ -25,7 +25,7 @@ Today’s flower is the Azalea flower. These flowers are usually pink to red and
 
 I got an image from Wikipedia for reference, mostly because it’s public domain, and as an artist I find it important to respect other artists. You can copy it and, if you already have a canvas, :menuselection:`Edit --> Paste into New Image` or :menuselection:`New --> Create from Clipboard`.
 
-Then, if you didn’t have a new canvas make one. I made an A5 300dpi canvas. This is not very big, but we’re only practicing. I also have the background color set to a yellow-greyish color (#CAC5B3), partly because it reminds me of paper, and partly because bright screen white can strain the eyes and make it difficult to focus on values and colors while painting. Also, due to the lack of strain on the eyes, you’ll find yourself soothed a bit. Other artists use #c0c0c0, or even more different values.
+Then, if you didn’t have a new canvas make one. I made an A5 300dpi canvas. This is not very big, but we’re only practicing. I also have the background color set to a yellow-grayish color (#CAC5B3), partly because it reminds me of paper, and partly because bright screen white can strain the eyes and make it difficult to focus on values and colors while painting. Also, due to the lack of strain on the eyes, you’ll find yourself soothed a bit. Other artists use #c0c0c0, or even more different values.
 
 So, if you go to :menuselection:`Window --> Tile`, you will find that now your reference image and your working canvas are side by side. The reason I am using this instead of the docker is because I am lazy and don’t feel like saving the wikipedia image. We’re not going to touch the image much.
 

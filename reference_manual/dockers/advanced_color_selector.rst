@@ -34,9 +34,9 @@ Here you can pick the hsx model you'll be using.
 There's a small blurb explaining the characteristic of each model, but let's go into detail:
 
 HSV
-    Stands for Hue, Saturation, Value. Saturation determines the difference between white, grey, black and the most colorful color. Value in turn measures either the difference between black and white, or the difference between black and the most colorful color.
+    Stands for Hue, Saturation, Value. Saturation determines the difference between white, gray, black and the most colorful color. Value in turn measures either the difference between black and white, or the difference between black and the most colorful color.
 HSL
-    Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% lightness. Saturation allows for shifting between grey and color.
+    Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% lightness. Saturation allows for shifting between gray and color.
 HSI
     This stands for Hue, Saturation and Intensity. Unlike HSL, this one determine the intensity as the sum of total rgb components. Yellow (1,1,0) has higher intensity than blue (0,0,1) but is the same intensity as cyan (0,1,1).
 HSY'

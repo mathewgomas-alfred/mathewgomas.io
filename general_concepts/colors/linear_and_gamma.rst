@@ -17,7 +17,7 @@ Gamma and Linear
 ================
    
 Now, the situation we talk about when talking theory is what we would call 'linear'. Each step of brightness is the same value.
-Our eyes do not perceive linearly. Rather, we find it more easy to distinguish between darker greys than we do between lighter greys.
+Our eyes do not perceive linearly. Rather, we find it more easy to distinguish between darker grays than we do between lighter grays.
 
 As humans are the ones using computers, we have made it so that computers will give more room to darker values in the coordinate system of the image. We call this 'gamma-encoding', because it is applying a gamma function to the TRC or transfer function of an image. The TRC in this case being the Tone Response Curve or Tone Reproduction Curve or Transfer function (because color management specialists hate themselves), which tells your computer or printer how much color corresponds to a certain value.
 
@@ -118,5 +118,5 @@ If you use the color space browser, you can tell the TRC from the 'estimated gam
 
 Even if you do not paint much, but are for example making textures for a videogame or rendering, using a linear space is very beneficial and will speed up the renderer a little, for it won't have to convert images on its own.
 
-The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light greys get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB TRC.
+The downside of linear space is of course that white seems very overpowered when mixing with black, because in a linear space, light grays get more room. In the end, while linear space is physically correct, and a boon to work in when you are dealing with physically correct renderers for videogames and raytracing, Krita is a tool and no-one will hunt you down for preferring the dark mixing of the sRGB TRC.
 

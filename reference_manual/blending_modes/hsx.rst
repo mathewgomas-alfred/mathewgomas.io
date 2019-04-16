@@ -21,14 +21,14 @@ HSI
 
 HSI is a color coordinate system, using Hue, Saturation and Intensity to categorize a color.
 Hue is roughly the wavelength, whether the color is red, yellow, green, cyan, blue or purple. It is measure in 360°, with 0 being red.
-Saturation is the measurement of how close a color is to grey.
+Saturation is the measurement of how close a color is to gray.
 Intensity, in this case is the tone of the color. What makes intensity special is that it recognizes yellow (rgb:1,1,0) having a higher combined rgb value than blue (rgb:0,0,1). This is a non-linear tone dimension, which means it's gamma-corrected.
 
 HSL
 ~~~
 
 HSL is also a color coordinate system. It describes colors in Hue, Saturation and Lightness.
-Lightness specifically puts both yellow (rgb:1,1,0), blue (rgb:0,0,1) and middle grey (rgb:0.5,0.5,0.5) at the same lightness (0.5).
+Lightness specifically puts both yellow (rgb:1,1,0), blue (rgb:0,0,1) and middle gray (rgb:0.5,0.5,0.5) at the same lightness (0.5).
 
 HSV
 ~~~

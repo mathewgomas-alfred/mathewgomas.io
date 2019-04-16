@@ -90,7 +90,7 @@ To give a crude estimate, ICC profiles deal with keeping colors consistent over 
 Within both we can identify the following color spaces:
 
 Device spaces
-    Device spaces are those describing your monitor, and have to be made using a little device that is called "colorimeter". This device, in combination with the right software, measures the strongest red, green and blue your screen can produce, as well as the white, black and grey it produces. Using these and several other measurements it creates an ICC profile unique to your screen. You set these in Krita's color management tab.
+    Device spaces are those describing your monitor, and have to be made using a little device that is called "colorimeter". This device, in combination with the right software, measures the strongest red, green and blue your screen can produce, as well as the white, black and gray it produces. Using these and several other measurements it creates an ICC profile unique to your screen. You set these in Krita's color management tab.
     By default we assume sRGB for screens, but it's very likely that your screen isn't exactly fitting sRGB, especially if you have a high quality screen, where it may be a bigger space instead. Device spaces are also why you should first consult with your printer what profile they expect. Many printing houses have their own device profiles for their printers, or may prefer doing color conversion themselves.
     You can read more about colorimeter usage :ref:`here <profiling_and_calibration>`.
 Working spaces
@@ -140,7 +140,7 @@ That said, for artists it is also very useful to understand the working spaces. 
 
 Similarly, Krita, as a program intended to make images from scratch, doesn't really worry about assigning workspaces after having made the image. But because you are using the screen as a binocular to look at your image, and to pick colors, you can see your screen's device space as an input space to the image. Hence why profiling your monitor and giving the profile to Krita in the settings can help with preparing your work for print and future ventures in the long run.
 
-Overall, it is kinda useful to keep things like viewing conditions in the back of your mind. Many professional artists use a mid-grey color as their default canvas background because they find they create much more dynamic images due to having improved their viewing conditions. It is also why a lot of graphics programs, including Krita, come with a dark theme nowadays. (Though, of course this might also be because dark themes can be considered cool, who knows.)
+Overall, it is kinda useful to keep things like viewing conditions in the back of your mind. Many professional artists use a mid-gray color as their default canvas background because they find they create much more dynamic images due to having improved their viewing conditions. It is also why a lot of graphics programs, including Krita, come with a dark theme nowadays. (Though, of course this might also be because dark themes can be considered cool, who knows.)
 
 .. _icc_profiles:
 

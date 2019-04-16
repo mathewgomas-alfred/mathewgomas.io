@@ -50,7 +50,7 @@ If you want to clean the line art a bit you can press :kbd:`Ctrl + L` or go to :
 .. image:: /images/en/Levels-filter.png
     :alt: level filter dialog
 
-You can clean the unwanted greys by moving the white triangle in the input levels section to left and darken the black by moving the black triangle to right.
+You can clean the unwanted grays by moving the white triangle in the input levels section to left and darken the black by moving the black triangle to right.
 
 If you draw in blue pencils and then ink your line art you may need to remove the blue lines first to do that go to :menuselection:`Filters --> Adjust --> Color adjustment` curves or press shortcut :kbd:`Ctrl + M`.
 
@@ -81,7 +81,7 @@ After you have a clean black and white line art you may need to erase the white 
 .. image:: /images/en/Color-to-alpha.png
     :alt: color to alpha dialog box
 
-This will convert the white color in your line art to alpha i.e. it will make the white transparent leaving only the line art. Your line art can be in greyscale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
+This will convert the white color in your line art to alpha i.e. it will make the white transparent leaving only the line art. Your line art can be in grayscale color space, this is a unique feature in Krita which allows you to keep a layer in a color-space independent from the image.
 
 Laying in Flat Colors
 ^^^^^^^^^^^^^^^^^^^^^
@@ -169,7 +169,7 @@ Starting from a value based underground
 
 This method finds its origins in old oil-painting practice: You first make an under-painting and then paint over it with color, having the dark underground shine through.
 
-With Krita you can use blending modes for this purpose. Choosing the color blending mode on a layer on top allows you to change the colors of the image without changing the relative luminosity. This is useful, because humans are much more sensitive to tonal differences than the difference in saturation and hue. This'll allow you to work in greyscale before going into color for the polishing phase.
+With Krita you can use blending modes for this purpose. Choosing the color blending mode on a layer on top allows you to change the colors of the image without changing the relative luminosity. This is useful, because humans are much more sensitive to tonal differences than the difference in saturation and hue. This'll allow you to work in grayscale before going into color for the polishing phase.
 
 You can find more about this technique `here <http://www.davidrevoy.com/article185/tutorial-getting-started-with-krita-1-3-bw-portrait>`_.
 
@@ -188,10 +188,10 @@ Krita can also be used to create a high definition pixel painting. The pixel art
 .. image:: /images/en/common-workflows/Layer-docker-pixelart.png
     :alt: Layer stack setup for pixel art
 
-The index color filter maps specific user-selected colors to the grey scale value of the artwork. You can see the example below, the strip below the black and white gradient has an index color applied to it so that the black and white gradient gets the color selected to different values.
+The index color filter maps specific user-selected colors to the grayscale value of the artwork. You can see the example below, the strip below the black and white gradient has an index color applied to it so that the black and white gradient gets the color selected to different values.
 
 .. image:: /images/en/common-workflows/Gradient-pixelart.png
-    :alt: color mapping in index color to greyscale
+    :alt: color mapping in index color to grayscale
 
 You can choose the required colors and ramps in the index color filter dialog as shown below.
 
@@ -200,7 +200,7 @@ You can choose the required colors and ramps in the index color filter dialog as
 
 Dithering can be used to enhance the look of the art and to ease the banding occurred by the index color filter. Krita has a variety of dithering patterns by default, these can be found in pattern docker. You can use these patterns as fill layer, then set the blend mode to **overlay** and adjust the opacity according to your liking. Generally, an opacity range of 10% - 25% is ideal.
 
-Paint the artwork in greyscale and add an index color filter layer at the top then add the dithering pattern fill layer below the index color filter but above the artwork layer, as shown in the layer stack arrangement above. You can paint or adjust the artwork at any stage as we have added the index color filter as a filter layer.
+Paint the artwork in grayscale and add an index color filter layer at the top then add the dithering pattern fill layer below the index color filter but above the artwork layer, as shown in the layer stack arrangement above. You can paint or adjust the artwork at any stage as we have added the index color filter as a filter layer.
 
 You can add different groups for different colors and add different dithering patterns for each group.
 

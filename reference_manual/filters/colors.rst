@@ -28,7 +28,7 @@ This filter allows you to make one single color transparent (alpha). By default 
 .. image:: /images/en/Color-to-alpha.png
 
 The Threshold indicates how much other colors will be considered mixture of the removed color and non-removed colors.
-For example, with threshold set to 255, and the removed color set to white, a 50% grey will be considered a mixture of black+white, and thus transformed in a 50% transparent black.
+For example, with threshold set to 255, and the removed color set to white, a 50% gray will be considered a mixture of black+white, and thus transformed in a 50% transparent black.
 
 .. image:: /images/en/Krita-color-to-alpha.png
    :align: center

@@ -38,7 +38,7 @@ Anti-aliasing
 Index Color
 -----------
 
-The index color filter maps specific user selected colors to the grey scale value of the artwork. You can see the example below, the strip below the black and white gradient has index color applied to it so that the black and white gradient gets the color selected to different values.
+The index color filter maps specific user selected colors to the grayscale value of the artwork. You can see the example below, the strip below the black and white gradient has index color applied to it so that the black and white gradient gets the color selected to different values.
 
 .. image:: /images/en/Gradient-pixelart.png
 

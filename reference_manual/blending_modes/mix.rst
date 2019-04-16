@@ -86,7 +86,7 @@ This blending mode multiplies the top layer with the bottom, and then outputs th
 Grain Extract
 ~~~~~~~~~~~~~
 
-Similar to subtract, the colors of the upper layer are subtracted from the colors of the lower layer, and then 50% grey is added.
+Similar to subtract, the colors of the upper layer are subtracted from the colors of the lower layer, and then 50% gray is added.
 
 .. figure:: /images/blending_modes/Blending_modes_Grain_Extract_Sample_image_with_dots.png
    :align: center
@@ -99,7 +99,7 @@ Similar to subtract, the colors of the upper layer are subtracted from the color
 Grain Merge
 ~~~~~~~~~~~
 
-Similar to addition, the colors of the upper layer are added to the colors, and then 50% grey is subtracted.
+Similar to addition, the colors of the upper layer are added to the colors, and then 50% gray is subtracted.
 
 .. figure:: /images/blending_modes/Blending_modes_Grain_Merge_Sample_image_with_dots.png
    :align: center

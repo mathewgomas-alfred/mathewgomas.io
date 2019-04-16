@@ -32,7 +32,7 @@ Reset the selector to a default stage.
 Absolute
 --------
 
-This changes the algorithm around so it gives proper values for the grey. Without absolute, it'll use HSV values for grey to the corresponding hue and lightness.
+This changes the algorithm around so it gives proper values for the gray. Without absolute, it'll use HSV values for gray to the corresponding hue and lightness.
 
 Usage
 -----

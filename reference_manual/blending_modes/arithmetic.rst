@@ -39,7 +39,7 @@ Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608, 1.2235
 
    Left: **Normal**. Right: **Addition**.
 
-Red(1, 0, 0) + Grey(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)
+Red(1, 0, 0) + Gray(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)
 
 .. figure:: /images/blending_modes/Blending_modes_Addition_Red_plus_gray.png
    :align: center
@@ -119,7 +119,7 @@ One puts the black and white lineart on top, and sets the layer to 'Multiply', a
 
 White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)
 
-White(1, 1, 1) x Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)
+White(1, 1, 1) x Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)
 
 Darker Gray(0.4, 0.4, 0.4) x Lighter Gray(0.5, 0.5, 0.5) = Even Darker Gray (0.2, 0.2, 0.2)
 
@@ -149,7 +149,7 @@ Subtracts the top layer from the bottom layer.
 
 White(1, 1, 1)_White(1, 1, 1) = Black(0, 0, 0)
 
-White(1, 1, 1)_Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)
+White(1, 1, 1)_Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)
 
 Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) &rarr; Black(0, 0, 0)
 
