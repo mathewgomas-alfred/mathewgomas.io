@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../tutorials/saving-for-the-web.rst:1
 msgid "Tutorial for saving images for the web"
-msgstr ""
+msgstr "为互联网用途保存图像的教程"
 
 #: ../../tutorials/saving-for-the-web.rst:13
 msgid "Saving For The Web"
-msgstr ""
+msgstr "为互联网保存图像"
 
 #: ../../tutorials/saving-for-the-web.rst:15
 msgid ""
@@ -35,16 +35,23 @@ msgid ""
 "only could look at ``*.kra`` files! So instead, we optimise our images for "
 "the web."
 msgstr ""
+"Krita 的默认保存格式是 :ref:`file_kra` 格式。此格式可以保存 Krita 能够对图像"
+"进行的一切操作：包括图层、滤镜、辅助尺、蒙版、色彩空间等。为了保存这么多的数"
+"据， ``*.kra`` 文件的体积一般都很大，对于上传到互联网来说很不方便。如果人们只"
+"能使用 ``*.kra`` 文件来查看图片，他们的流量肯定两下就用光了。因此我们需要为互"
+"联网用途优化输出的图像。"
 
 #: ../../tutorials/saving-for-the-web.rst:17
 msgid "There are a few steps involved:"
-msgstr ""
+msgstr "这涉及到下面几步："
 
 #: ../../tutorials/saving-for-the-web.rst:19
 msgid ""
 "Save as a ``.kra``. This is your working file and serves as a backup if you "
 "make any mistakes."
 msgstr ""
+"先把图像保存为一个 ``.kra`` 文件，这是你的工作文件，同时也作为应对操作失误的"
+"备份。"
 
 #: ../../tutorials/saving-for-the-web.rst:21
 msgid ""
@@ -54,6 +61,9 @@ msgid ""
 "don't be scared if Krita freezes for a few seconds. It'll become responsive "
 "soon enough."
 msgstr ""
+"平整全部图层为一层。可在 :menuselection:`图层 --> 平整图像` 或按 :kbd:`Ctrl` "
+"+ :kbd:`Shift` + :kbd:`E` 来进行。平整过程有时较慢，如果图像比较大，Krita 会"
+"有几秒钟没有反应，请不用担心！程序很快就会恢复响应。"
 
 #: ../../tutorials/saving-for-the-web.rst:23
 msgid ""
@@ -63,6 +73,10 @@ msgid ""
 "**RGB**, **8bit** and **sRGB-elle-v2-srgbtrc.icc** respectively. If you are "
 "coming from a linear space, uncheck **little CMS** optimisations"
 msgstr ""
+"将色彩空间转换为 8位 sRGB (如果之前不是)。这对于减小文件体积非常有用，而且 "
+"PNG 是无法保存高于 16 位的图像的。可在 :menuselection:`图像 --> 转换图像色彩"
+"空间` 将相应选项设为 **RGB**、**8 位** 和 **sRGB-elle-v2-srgbtrc.icc**。如果"
+"你使用了线性工作空间，不要勾选 **Little CMS 优化**。"
 
 #: ../../tutorials/saving-for-the-web.rst:25
 msgid ""
@@ -73,12 +87,16 @@ msgid ""
 "setting the **Resolution** under **Print Size** to **72** dots per inch. "
 "Then press **OK** to have everything resized."
 msgstr ""
+"调整大小。在 :menuselection:`图像 --> 缩放图像至新尺寸` 或使用 :kbd:`Ctrl` "
+"+ :kbd:`Alt` + :kbd:`I` 打开调整大小对话框。一般经验是把图像的宽高控制在 "
+"1200 像素以内。(这也是高清格式的尺寸)。你可以简单地通过把 **打印大小** 的 **"
+"分辨率** 改为 **72** dpi，然后点击 **确定** 即可调整图像整体大小。"
 
 #: ../../tutorials/saving-for-the-web.rst:27
 msgid ""
 "Save as a web-safe image format. There's three that are especially "
 "recommended:"
-msgstr ""
+msgstr "把图像另存为对网络安全的格式。有三种较好的选择："
 
 #: ../../tutorials/saving-for-the-web.rst:30
 msgid "JPG"
@@ -86,7 +104,7 @@ msgstr "JPG"
 
 #: ../../tutorials/saving-for-the-web.rst:32
 msgid "Use this for images with a lot of different colors, like paintings."
-msgstr ""
+msgstr "如果图像有大量不同的色彩，如传统绘画等，可选用此格式。"
 
 #: ../../tutorials/saving-for-the-web.rst:35
 msgid "PNG"
@@ -98,6 +116,8 @@ msgid ""
 "comics and pixel-art. Select :guilabel:`Save as indexed PNG, if possible` to "
 "optimise even more."
 msgstr ""
+"如果图像色彩不是特别丰富，如漫画那样的黑白或者像素图，可选用此格式。选中 :"
+"guilabel:`尝试保存为索引 PNG` 可进一步优化图像大小。"
 
 #: ../../tutorials/saving-for-the-web.rst:40
 msgid "GIF"
@@ -108,14 +128,16 @@ msgid ""
 "Only use this for animation (will be supported this year) or images with a "
 "super low color count, because they will get indexed."
 msgstr ""
+"仅用于动画 (今年将实现支持)，或颜色种类特别少的图像，因为这是一个索引图像格"
+"式。"
 
 #: ../../tutorials/saving-for-the-web.rst:45
 msgid "Saving with Transparency"
-msgstr ""
+msgstr "保留图像透明度"
 
 #: ../../tutorials/saving-for-the-web.rst:48
 msgid ".. image:: images/en/Save_with_transparency.png"
-msgstr ""
+msgstr ".. image:: images/en/Save_with_transparency.png"
 
 #: ../../tutorials/saving-for-the-web.rst:49
 msgid ""
@@ -126,7 +148,11 @@ msgid ""
 "`Filters --> Colors --> Color to Alpha`). Then, save as PNG and tick **Store "
 "alpha channel (transparency)**"
 msgstr ""
+"只有在使用 GIF 和 PNG 格式时才能保留图像的透明度。首先要确保你在 Krita 的画布"
+"上能看见代表透明像素的棋盘格 (要做到这一点，可以隐藏最底下的图层，或者 :"
+"menuselection:`图像 --> 图像背景色与透明度` ，或者 :menuselection:`滤镜 --> "
+"颜色 --> 颜色转为透明度`)。最后，保存为 PNG ，勾选 **存储透明度通道**。"
 
 #: ../../tutorials/saving-for-the-web.rst:51
 msgid "Save your image, upload, and show it off!"
-msgstr ""
+msgstr "点击保存，然后就可以把输出的图像上传并分享了！"

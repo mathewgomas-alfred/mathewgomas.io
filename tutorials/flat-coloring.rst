@@ -58,17 +58,17 @@ Multiply is not a perfect solution however. For example, if through some image e
 
 This is because multiply literally multiplies the colors. So it uses maths!
 
-What it first does is take the values of the RGB channels, then divides them by the max (because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalised values. Finally, it takes the result and multiplies it with 255 again to get the result values.
+What it first does is take the values of the RGB channels, then divides them by the max (because we're in 8bit, this is 255), a process we call normalising. Then it multiplies the normalized values. Finally, it takes the result and multiplies it with 255 again to get the result values.
 
 .. list-table::
     :header-rows: 1
 
     * -
       - Pink
-      - Pink (normalised)
+      - Pink (normalized)
       - Blue
-      - Blue (normalised)
-      - Normalised, multiplied
+      - Blue (normalized)
+      - Normalized, multiplied
       - Result
     * - Red
       - 222
@@ -195,7 +195,7 @@ Fill Tool
 
 In most cases the fill-tool can’t deal with the anti-aliasing (the soft edge in your line art to make it more smooth when zoomed out) In Krita you have the grow-shrink option. Setting that to say… 2 expands the color two pixels.
 
-Threshold decides when the fill-tool should consider a different color pixel to be a border. And the feathering adds a extra soft border to the fill.
+Threshold decides when the fill-tool should consider a different color pixel to be a border. And the feathering adds an extra soft border to the fill.
 
 Now, if you click on a gapless-part of the image with your preferred color… (Remember to set the opacity to 1.0!)
 
@@ -284,7 +284,7 @@ Fiddly details aren’t easy to fill in with this. So I recommend skipping those
 Colorize Mask
 -------------
 
-So, this is a bit of an odd one. In the original tutorial, you'll see I'm suggesting using G'Mic, but that was a few years ago, and g'mic is a little unstable on windows. Therefore, the Krita developers have been attempting to make an internal tool doing the same.
+So, this is a bit of an odd one. In the original tutorial, you'll see I'm suggesting using G'Mic, but that was a few years ago, and G'Mic is a little unstable on windows. Therefore, the Krita developers have been attempting to make an internal tool doing the same.
 
 It is disabled in 3.1, but if you use 4.0 or later, it is in the toolbox. Check the Colorize Mask for more information.
 
@@ -292,18 +292,18 @@ So it works like this:
 
 1. Select the colorize mask tool.
 2. Tick the layer you're using.
-3. Paint the colors your want to use on the colorize mask
+3. Paint the colors you want to use on the colorize mask
 4. Click update to see the results:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart10.png
     :alt: coloring with colorize mask
 
-When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by aking the line art semi-transparent and painting the flaws away with a pixel art brush.
+When you are satisfied, |mouseright| the colorize mask, and go to :menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to a generic paint layer. Then, you can fix the last issues by making the line art semi-transparent and painting the flaws away with a pixel art brush.
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart11.png
     :alt: result from the colorize mask
 
-Then, when you are done, split the layers via :menuselection:`Layers --> Split --> Split Layer`. There's a few options you can choose, but the following should be fine:
+Then, when you are done, split the layers via :menuselection:`Layer --> Split --> Split Layer`. There are a few options you can choose, but the following should be fine:
 
 .. image:: /images/en/flat-coloring/Krita_filling_lineart12.png
     :alt: slitting colors into islands
@@ -316,14 +316,14 @@ Finally, press **Ok** and you should get the following. Each color patch it on a
 Advantages
 """"""""""
 
-Works with anti aliased line art. Really quick to get the base work done. Can auto-close gaps.
+Works with anti-aliased line art. Really quick to get the base work done. Can auto-close gaps.
 
 Disadvantages
 """""""""""""
 
-No anti aliasing of it’s own. You have to choose between getting details right or the gaps auto-closed.
+No anti-aliasing of its own. You have to choose between getting details right or the gaps auto-closed.
 
 Conclusion
 ----------
 
-I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled line art is better than a badly shaded one, so keep practising to get the best out of these techniques!
+I hope this has given you a good idea of how to fill in flats using the various techniques, as well as getting a hand of different Krita features. Remember that a good flat filled line art is better than a badly shaded one, so keep practicing to get the best out of these techniques!

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:50\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,17 +19,19 @@ msgstr ""
 
 #: ../../general_concepts/file_formats/file_svg.rst:1
 msgid "The Scalable Vector Graphics file format in Krita."
-msgstr ""
+msgstr "介绍 Krita 中的可缩放矢量图形文件格式。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:15
 msgid "\\*.svg"
-msgstr ""
+msgstr "\\*.svg"
 
 #: ../../general_concepts/file_formats/file_svg.rst:17
 msgid ""
 ".svg, or Scalable Vector Graphics, is the most modern vector graphics "
 "interchange file format out there."
 msgstr ""
+".svg，或可缩放矢量图形 (Scalable Vector Graphics)，是目前最新型的矢量图形交换"
+"文件格式。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:19
 msgid ""
@@ -37,12 +39,15 @@ msgid ""
 "only stores coordinates and parameters for the maths involved with vector "
 "graphics."
 msgstr ""
+"作为矢量图形，SVG 非常轻量，因为它一般只会保存矢量图形计算所需的坐标和参数。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:21
 msgid ""
 "It is maintained by the w3c svg working group, who also maintain other open "
 "standards that make up our modern internet."
 msgstr ""
+"它由 W3C 组织的 SVG 工作组进行维护，该组织也在维护组建了当今互联网的各种开放"
+"标准。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:23
 msgid ""
@@ -54,6 +59,12 @@ msgid ""
 "will also use SVG to save vector data into its :ref:`internal format "
 "<file_kra>`."
 msgstr ""
+"虽然你可以用任意一个文本编辑器编辑它们，但最好的办法还是使用一个矢量图形软"
+"件，如 Inkscape。Krita 在 2.9 到 3.3 版支持从形状工具面板处导入 SVG 图像。从 "
+"4.0 版开始，Krita 可以正常导入 SVG 图像，也可以把 singlevector 类图层从 :"
+"menuselection:`图层 --> 导入/导出 --> 将矢量图层另存为 SVG…` 进行导出。从 "
+"4.0 版开始，Krita 也将使用 SVG 规范在其 :ref:`内部格式 <file_kra>` 中保存矢量"
+"图形数据。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:25
 msgid ""
@@ -61,3 +72,5 @@ msgid ""
 "considered a bit obscure compared to raster graphics, not a lot of websites "
 "accept them yet. Hosting them on your own webhost works just fine though."
 msgstr ""
+"SVG 是为互联网设计的，但遗憾的是由于矢量图形不如栅格图像流行，许多网站都尚未"
+"对其提供支持。但把它用在你自己的网站上是不会有问题的。"

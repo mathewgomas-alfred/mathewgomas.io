@@ -44,7 +44,7 @@ Key drafts
 Keys
     Where you add some details to the layouts and arrange them to draw "keys" of animation.
 Inbetweening
-    Where you add inbetweens to keys for the process of coloring, and remove unnecessary details to finalize keys (To be accurate, I finish finalization of keys before beginning to add inbetweens)
+    Where you add inbetweens to keys for the process of coloring, and remove unnecessary details to finalize keys (To be accurate, I finish finalization of keys before beginning to add inbetweens).
 Coloring (under Inbetweening)
     Where you fill areas with colors according to specification of inbetweens.
 Time Sheet and Composition sheet

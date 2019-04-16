@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/installation.rst:1
 msgid "Detailed steps on how to install Krita"
-msgstr ""
+msgstr "详细介绍如何安装 Krita。"
 
 #: ../../user_manual/getting_started/installation.rst:18
 msgid "Installation"
@@ -30,54 +30,89 @@ msgid "Windows"
 msgstr "Windows"
 
 #: ../../user_manual/getting_started/installation.rst:23
+#, fuzzy
+#| msgid ""
+#| "Windows users can download the latest releases from our `website. "
+#| "<https://krita.org/download/>`_ Click on 64bit or 32bit according to the "
+#| "architecture of your OS. Go to the `KDE <http://download.kde.org/stable/"
+#| "krita/>`__ download directory to get the portable zip-file version of "
+#| "Krita instead of the setup.exe installer."
 msgid ""
 "Windows users can download the latest releases from our `website. <https://"
 "krita.org/download/>`_ Click on 64bit or 32bit according to the architecture "
-"of your OS. Go to the `KDE <http://download.kde.org/stable/krita/>`__ "
+"of your OS. Go to the `KDE <https://download.kde.org/stable/krita/>`__ "
 "download directory to get the portable zip-file version of Krita instead of "
 "the setup.exe installer."
 msgstr ""
+"Windows 用户可从我们的 `网站 <https://krita.org/download/>`_ 下载最新版的 "
+"Krita。根据你的操作系统的架构选择 64 位或 32 位安装包。你还可以在 `KDE "
+"<http://download.kde.org/stable/krita/>`__ 的下载目录里找到无需安装的 ZIP 压"
+"缩包版本。"
 
 #: ../../user_manual/getting_started/installation.rst:31
 msgid ""
 "Krita requires Windows Vista or newer. INTEL GRAPHICS CARD USERS: IF YOU SEE "
 "A BLACK OR BLANK WINDOW: UPDATE YOUR DRIVERS!"
 msgstr ""
+"Krita 要求 Windows Vista 或以上版本。Intel 核芯显卡用户请注意：如果窗口是一片"
+"黑或者空白的，请更新你的显卡驱动！"
 
 #: ../../user_manual/getting_started/installation.rst:35
 msgid "Linux"
 msgstr "Linux"
 
 #: ../../user_manual/getting_started/installation.rst:37
+#, fuzzy
+#| msgid ""
+#| "Many Linux distributions package the latest version of Krita. Sometimes "
+#| "you will have to enable an extra repository. Krita runs fine under on "
+#| "desktop: KDE, Gnome, LXDE -- even though it is a KDE application and "
+#| "needs the KDE libraries. You might also want to install the KDE system "
+#| "settings module and tweak the gui theme and fonts used, depending on your "
+#| "distributions"
 msgid ""
 "Many Linux distributions package the latest version of Krita. Sometimes you "
 "will have to enable an extra repository. Krita runs fine under on desktop: "
 "KDE, Gnome, LXDE -- even though it is a KDE application and needs the KDE "
 "libraries. You might also want to install the KDE system settings module and "
-"tweak the gui theme and fonts used, depending on your distributions"
+"tweak the gui theme and fonts used, depending on your distributions."
 msgstr ""
+"许多 Linux 发行版已经打包了最新版本的 Krita。某些情况下你需要启用 extra 软件"
+"仓库。Krita 在各种桌面环境下均可运行，但作为一个 KDE 应用软件，它需要 KDE 软"
+"件库的支持。根据不同发行版的具体情况，调整界面的主题和字体可能需要安装 KDE 系"
+"统设置模块。"
 
 #: ../../user_manual/getting_started/installation.rst:45
 msgid "Nautilus/Nemo file extensions"
-msgstr ""
+msgstr "Nautilus/Nemo 文件缩略图扩展"
 
 #: ../../user_manual/getting_started/installation.rst:47
 msgid ""
 "Put here at the beginning, before we start on the many distro specific ways "
 "to get the program itself."
 msgstr ""
+"让我们先介绍完这一小点，接着才介绍如何在不同的发行版下面安装 Krita 本身。"
 
 #: ../../user_manual/getting_started/installation.rst:50
+#, fuzzy
+#| msgid ""
+#| "Since April 2016, KDE's Dolphin shows kra and ora thumbnails by default, "
+#| "but Nautilus and it's derivatives need an extension. `We recommend Moritz "
+#| "Molch's extensions for XCF, KRA, ORA and PSD thumbnails <http://"
+#| "moritzmolch.com/1749>`__."
 msgid ""
 "Since April 2016, KDE's Dolphin shows kra and ora thumbnails by default, but "
 "Nautilus and it's derivatives need an extension. `We recommend Moritz "
-"Molch's extensions for XCF, KRA, ORA and PSD thumbnails <http://moritzmolch."
+"Molch's extensions for XCF, KRA, ORA and PSD thumbnails <https://moritzmolch."
 "com/1749>`__."
 msgstr ""
+"从 2016 年 4 月起，KDE 的 Dolphin 默认可以显示 KRA 和 ORA 文件的缩略图。但 "
+"Nautilus 和它的派生软件需要安装扩展。我们推荐使用 Moritz Molch 开发的 XCF、"
+"KRA、ORA 和 PSD 缩略图扩展 <http://moritzmolch.com/1749>`__。"
 
 #: ../../user_manual/getting_started/installation.rst:56
 msgid "Appimages"
-msgstr ""
+msgstr "AppImage 软件包"
 
 #: ../../user_manual/getting_started/installation.rst:58
 msgid ""
@@ -87,18 +122,23 @@ msgid ""
 "command chmod to make the appimage executable. Double click it, and enjoy "
 "Krita. (Or run it in the terminal with ./appimagename.appimage)"
 msgstr ""
+"从 Krita 3.0 开始，我们建议首先尝试我们网站提供的 AppImage 包。**这是在绝大多"
+"数情况下用上 Krita 最新版的最简单方式**。只需下载该软件包，把文件属性改为可执"
+"行，双击运行即可。(也可以在命令行下面运行 ./软件包名称.appimage)"
 
 #: ../../user_manual/getting_started/installation.rst:65
 msgid "Open the terminal into the folder you have the appimage."
-msgstr ""
+msgstr "在该 AppImage 包所在目录打开命令行终端。"
 
 #: ../../user_manual/getting_started/installation.rst:66
-msgid "Make it executable"
-msgstr ""
+#, fuzzy
+#| msgid "Make it executable"
+msgid "Make it executable:"
+msgstr "标记为可执行文件"
 
 #: ../../user_manual/getting_started/installation.rst:72
 msgid "Run Krita!"
-msgstr ""
+msgstr "运行 Krita！"
 
 #: ../../user_manual/getting_started/installation.rst:78
 msgid ""
@@ -107,10 +147,13 @@ msgid ""
 "more diskspace taken up (And this size would only be bigger if you were "
 "using Plasma to begin with)."
 msgstr ""
+"AppImage 软件包本质上是包含了所有所需软件库的 ISO 镜像，无需跟发行版的软件仓"
+"库和软件依赖问题打交道，只需消耗一点磁盘空间 (你要是安装了 Plasma 这只会更"
+"大)。"
 
 #: ../../user_manual/getting_started/installation.rst:84
 msgid "Ubuntu and Kubuntu"
-msgstr ""
+msgstr "Ubuntu 和 Kubuntu"
 
 #: ../../user_manual/getting_started/installation.rst:86
 msgid ""
@@ -119,87 +162,119 @@ msgid ""
 "You should either use the appimage, or the snap available from Ubuntu's app "
 "store."
 msgstr ""
+"不管你在使用哪个版本的 Ubuntu，Krita 都能正常运行。但默认情况下它们只提供一个"
+"非常老旧的版本，所以你应该使用 AppImage 包或者 Ubuntu 软件商店提供的 SNAP "
+"包。"
 
 #: ../../user_manual/getting_started/installation.rst:92
 msgid "OpenSUSE"
-msgstr "openSUSE"
+msgstr "OpenSUSE"
 
 #: ../../user_manual/getting_started/installation.rst:94
 msgid "The latest stable builds are available from KDE:Extra repo:"
-msgstr ""
+msgstr "最新稳定版在 KDE:Extra 软件仓库里："
 
 #: ../../user_manual/getting_started/installation.rst:96
-msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
-msgstr ""
+#, fuzzy
+#| msgid "http://download.opensuse.org/repositories/KDE:/Extra/"
+msgid "https://download.opensuse.org/repositories/KDE:/Extra/"
+msgstr "http://download.opensuse.org/repositories/KDE:/Extra/"
 
 #: ../../user_manual/getting_started/installation.rst:99
 msgid "Krita is also in the official repos, you can install it from Yast."
-msgstr ""
+msgstr "Krita 也被包含在官方软件仓库里，你可以用 Yast 安装。"
 
 #: ../../user_manual/getting_started/installation.rst:102
 msgid "Fedora"
 msgstr "Fedora"
 
 #: ../../user_manual/getting_started/installation.rst:104
+#, fuzzy
+#| msgid ""
+#| "Krita is in the official repos as **calligra-krita**, you can install it "
+#| "by using packagekit (Add/Remove Software) or by writing the following "
+#| "command in terminal."
 msgid ""
 "Krita is in the official repos as **calligra-krita**, you can install it by "
 "using packagekit (Add/Remove Software) or by writing the following command "
-"in terminal."
+"in terminal:"
 msgstr ""
+"Krita 已被包含在官方的软件里，名称是 **calligra-krita**。你可以用 packagekit "
+"(添加/移除软件) 来安装，或者在命令行终端里输入下面的指令。"
 
 #: ../../user_manual/getting_started/installation.rst:106
 msgid "``dnf install krita``"
-msgstr ""
+msgstr "``dnf install krita``"
 
 #: ../../user_manual/getting_started/installation.rst:108
+#, fuzzy
+#| msgid ""
+#| "You can also use the software center such as gnome software center or "
+#| "Discover to install Krita"
 msgid ""
 "You can also use the software center such as gnome software center or "
-"Discover to install Krita"
-msgstr ""
+"Discover to install Krita."
+msgstr "你还可以使用各类软件中心，如 Gnome 软件中心或 Discover 来安装 Krita。"
 
 #: ../../user_manual/getting_started/installation.rst:111
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: ../../user_manual/getting_started/installation.rst:113
+#, fuzzy
+#| msgid ""
+#| "The latest version of Krita available in Debian is 3.1.1. To install "
+#| "Krita type the following line in terminal"
 msgid ""
 "The latest version of Krita available in Debian is 3.1.1. To install Krita "
-"type the following line in terminal"
-msgstr ""
+"type the following line in terminal:"
+msgstr "在 Debian 下面 Krita 的最新版是 3.1.1。用下面命令行终端指令安装："
 
 #: ../../user_manual/getting_started/installation.rst:116
 msgid "``apt install krita``"
-msgstr ""
+msgstr "``apt install krita``"
 
 #: ../../user_manual/getting_started/installation.rst:120
 msgid "Arch"
-msgstr "架构"
+msgstr "Arch"
 
 #: ../../user_manual/getting_started/installation.rst:122
+#, fuzzy
+#| msgid ""
+#| "Arch Linux provides krita package in the Extra repository. You can "
+#| "install Krita by using the following command"
 msgid ""
 "Arch Linux provides krita package in the Extra repository. You can install "
-"Krita by using the following command"
+"Krita by using the following command:"
 msgstr ""
+"Arch Linux 在它的 Extra 软件仓库里提供了 Krita。可通过下面的命令行指令安装 "
+"Krita："
 
 #: ../../user_manual/getting_started/installation.rst:125
 msgid "``pacman -S krita``"
-msgstr ""
+msgstr "``pacman -S krita``"
 
 #: ../../user_manual/getting_started/installation.rst:127
 msgid ""
 "You can install the most recent build of Krita using an aur helper such as "
 "aurman. For example ``aurman -S krita-beta``"
 msgstr ""
+"要安装最新构建的 Krita 版本，请使用 aur 助手软件，如 aurman：``aurman -S "
+"krita-beta``"
 
 #: ../../user_manual/getting_started/installation.rst:131
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../../user_manual/getting_started/installation.rst:134
+#, fuzzy
+#| msgid ""
+#| "Mac OSX is very experimental right now and unstable, don't use it for "
+#| "production purpose"
 msgid ""
 "Mac OSX is very experimental right now and unstable, don't use it for "
-"production purpose"
-msgstr ""
+"production purpose."
+msgstr "Mac OSX 支持目前处在试验阶段，因此并不稳定，切勿用于生产用途。"
 
 #: ../../user_manual/getting_started/installation.rst:136
 msgid ""
@@ -207,17 +282,19 @@ msgid ""
 "krita.org/download/krita-desktop/>`__. It has only been reported to work "
 "with Mac OSX 10.9."
 msgstr ""
+"你可以从我们 `网站 <https://krita.org/download/krita-desktop/>`__ 下载最新的"
+"软件包，它只在 Mac OSX 10.9 下工作。"
 
 #: ../../user_manual/getting_started/installation.rst:141
 msgid "Source"
-msgstr "原因"
+msgstr "源代码"
 
 #: ../../user_manual/getting_started/installation.rst:143
 msgid ""
 "While it is certainly more difficult to compile Krita from source than it is "
 "to install from prebuilt packages, there are certain advantages that might "
 "make the effort worth it:"
-msgstr ""
+msgstr "虽然从源代码编译 Krita 比安装预编译的软件包麻烦得多，但也有一些好处："
 
 #: ../../user_manual/getting_started/installation.rst:147
 msgid ""
@@ -225,16 +302,20 @@ msgid ""
 "regularly from the development repository, you will be able to play with all "
 "the new features that the developers are working on."
 msgstr ""
+"你可以密切跟随 Krita 的开发进度。如果你定期从开发代码仓库获取新代码编译 "
+"Krita，你可以试用许多正在开发的新功能。"
 
 #: ../../user_manual/getting_started/installation.rst:150
 msgid ""
 "You can compile optimized for your processor. Most pre-built packages are "
 "built for the lowest-common denominator."
 msgstr ""
+"你可以在编译时针对你的 CPU 进行优化，而绝大多数的预构建软件包只会以最小程度的"
+"优化进行编译。"
 
 #: ../../user_manual/getting_started/installation.rst:152
 msgid "You will be getting all the bug fixes as soon as possible as well."
-msgstr ""
+msgstr "你可以马上获得全部问题修复。"
 
 #: ../../user_manual/getting_started/installation.rst:153
 msgid ""
@@ -243,6 +324,8 @@ msgid ""
 "important, which is why our regular testers get their name in the about box "
 "just like developers."
 msgstr ""
+"你可以向我们的程序员提供反馈新功能的问题，帮助我们进行软件测试。这对软件开发"
+"来说至关重要，因此我们的关于对话框里会列出经常协助测试的人员名单。"
 
 #: ../../user_manual/getting_started/installation.rst:158
 msgid ""
@@ -252,20 +335,34 @@ msgid ""
 "that don't work. But in practice, there is seldom really bad instability, "
 "and if it is, it's easy for you to go back to a revision that does work."
 msgstr ""
+"当然这也有坏处：用开发中的代码进行构建也意味着会得到各种未完工的特性，有时候"
+"软件会变得不稳定，或者显示的界面有问题。不过极不稳定的情况并不多，切换回之前"
+"的修订也很简单。"
 
 #: ../../user_manual/getting_started/installation.rst:165
+#, fuzzy
+#| msgid ""
+#| "So... If you want to start compiling from source, begin with the latest "
+#| "build instructions from the excellent illustrated `guide <http://www."
+#| "davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__ by "
+#| "David Revoy."
 msgid ""
 "So... If you want to start compiling from source, begin with the latest "
-"build instructions from the excellent illustrated `guide <http://www."
-"davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`__ by "
-"David Revoy."
+"build instructions from the excellent illustrated `guide <https://www."
+"davidrevoy.com/article193/compil-krita-from-source-code-on-linux-for-"
+"cats>`__ by David Revoy."
 msgstr ""
+"如果你想要从源代码编译，可以阅读 David Revoy 编写的带有精美插图的`指引 "
+"<http://www.davidrevoy.com/article193/guide-building-krita-on-linux-for-"
+"cats>`__。"
 
 #: ../../user_manual/getting_started/installation.rst:170
 msgid ""
 "There is more information and troubleshooting help on the `Calligra <https://"
 "community.kde.org/Calligra/Building>`__ wiki."
 msgstr ""
+"更多相关信息和问题排除办法请查阅 `Calligra <https://community.kde.org/"
+"Calligra/Building>`__ 的 Wiki 页面。"
 
 #: ../../user_manual/getting_started/installation.rst:173
 msgid ""
@@ -273,15 +370,19 @@ msgid ""
 "don't hesitate to contact the Krita developers. There are three main "
 "communication channels:"
 msgstr ""
+"如果你遇到了问题，或者对软件编译并不熟悉，可以联系 Krita 的开发人员。我们有三"
+"个主要的联系渠道："
 
 #: ../../user_manual/getting_started/installation.rst:177
 msgid "irc: irc.freenode.net, channel #krita"
-msgstr ""
+msgstr "IRC：irc.freenode.net 的 #krita 频道"
 
 #: ../../user_manual/getting_started/installation.rst:178
 msgid "`mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__"
-msgstr ""
+msgstr "`邮件列表 <https://mail.kde.org/mailman/listinfo/kimageshop>`__"
 
 #: ../../user_manual/getting_started/installation.rst:179
-msgid "`forums <http://forum.kde.org/viewforum.php?f=136>`__"
-msgstr ""
+#, fuzzy
+#| msgid "`forums <http://forum.kde.org/viewforum.php?f=136>`__"
+msgid "`forums <https://forum.kde.org/viewforum.php?f=136>`__"
+msgstr "`论坛 <http://forum.kde.org/viewforum.php?f=136>`__"

@@ -101,6 +101,7 @@ Now for the uses:
 * You can also set Painting Mode to Build up, and Mode to Multiply, to make some colors have more depth. (see my grid example)
 * Vary Origin X and Origin Y while using the same patterns.
 * Use the Separations dynamic for more complex patterns. Add in Line Thickness and other dynamics for more effect.
-* Now, the Moiré pattern is quite boring on its own, but it is much more interesting with Crosshatching dynamics set on Fuzzy.** For more texture, set Line Thickness to Fuzzy, decrease Density a bit and increase Randomness and you get a nice gritty texture.
+* Now, the Moiré pattern is quite boring on its own, but it is much more interesting with Crosshatching dynamics set on Fuzzy.
+* For more texture, set Line Thickness to Fuzzy, decrease Density a bit and increase Randomness and you get a nice gritty texture.
 
 .. image:: /images/en/Krita-tutorial8-A.II.png

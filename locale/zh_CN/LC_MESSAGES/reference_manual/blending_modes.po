@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes.rst:1
 msgid "Overview of Krita's blending modes."
-msgstr ""
+msgstr "介绍 Krita 的各种混色模式。"
 
 #: ../../reference_manual/blending_modes.rst:16
 msgid "Blending Modes"
-msgstr "混合模式"
+msgstr "混色模式"
 
 #: ../../reference_manual/blending_modes.rst:18
 msgid ""
@@ -31,73 +31,76 @@ msgid ""
 "is above the other, the computer uses a bit of programming to decide how the "
 "combination of both layers will look."
 msgstr ""
+"混色模式有点不好解释。大体而言，当一个图层位于另一个图层之上时，计算机会通过"
+"混色模式的程序来决定两个图层合成之后的效果。"
 
 #: ../../reference_manual/blending_modes.rst:20
 msgid ""
 "Blending modes can not just apply to Layers, but also to individual strokes."
-msgstr ""
+msgstr "混色模式不但可以应用到图层，也可以应用到笔画之间。"
 
 #: ../../reference_manual/blending_modes.rst:23
 msgid "Favorites"
-msgstr "已收藏"
+msgstr "常用模式"
 
 #: ../../reference_manual/blending_modes.rst:25
 msgid ""
 "These are the blending modes that have been ticked as favorites, defaulting "
 "these are:"
 msgstr ""
+"在混色模式下拉菜单中被勾选的混色模式会被加入常用模式，默认的常用模式如下："
 
 #: ../../reference_manual/blending_modes.rst:27
 msgid ":ref:`bm_addition`"
-msgstr ""
+msgstr ":ref:`bm_addition`"
 
 #: ../../reference_manual/blending_modes.rst:28
 msgid ":ref:`bm_color_burn`"
-msgstr ""
+msgstr ":ref:`bm_color_burn`"
 
 #: ../../reference_manual/blending_modes.rst:29
 msgid ":ref:`bm_color`"
-msgstr ""
+msgstr ":ref:`bm_color`"
 
 #: ../../reference_manual/blending_modes.rst:30
 msgid ":ref:`bm_color_dodge`"
-msgstr ""
+msgstr ":ref:`bm_color_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:31
 msgid ":ref:`bm_darken`"
-msgstr ""
+msgstr ":ref:`bm_darken`"
 
 #: ../../reference_manual/blending_modes.rst:32
 msgid ":ref:`bm_erase`"
-msgstr ""
+msgstr ":ref:`bm_erase`"
 
 #: ../../reference_manual/blending_modes.rst:33
 msgid ":ref:`bm_lighten`"
-msgstr ""
+msgstr ":ref:`bm_lighten`"
 
 #: ../../reference_manual/blending_modes.rst:34
 msgid ":ref:`bm_luminosity`"
-msgstr ""
+msgstr ":ref:`bm_luminosity`"
 
 #: ../../reference_manual/blending_modes.rst:35
 msgid ":ref:`bm_multiply`"
-msgstr ""
+msgstr ":ref:`bm_multiply`"
 
 #: ../../reference_manual/blending_modes.rst:36
 msgid ":ref:`bm_normal`"
-msgstr ""
+msgstr ":ref:`bm_normal`"
 
 #: ../../reference_manual/blending_modes.rst:37
 msgid ":ref:`bm_overlay`"
-msgstr ""
+msgstr ":ref:`bm_overlay`"
 
 #: ../../reference_manual/blending_modes.rst:38
 msgid ":ref:`bm_saturation`"
-msgstr ""
+msgstr ":ref:`bm_saturation`"
 
 #: ../../reference_manual/blending_modes.rst:41
 msgid "Hotkeys associated with Blending modes"
-msgstr ""
+msgstr "混色模式的相关快捷键"
 
 #: ../../reference_manual/blending_modes.rst:43
 msgid ""
@@ -105,110 +108,112 @@ msgid ""
 "first need to use modifiers :kbd:`Alt + Shift`, then use the following "
 "hotkey to have the associated blending mode:"
 msgstr ""
+"在默认状态下，下列快捷键被指定给了各个混色模式。先按住 :kbd:`Alt + Shift` 修"
+"饰键，再按下这些快捷键中的一个，即可切换到对应的混色模式："
 
 #: ../../reference_manual/blending_modes.rst:47
 msgid ":kbd:`A` :ref:`bm_linear_burn`"
-msgstr ""
+msgstr ":kbd:`A` :ref:`bm_linear_burn`"
 
 #: ../../reference_manual/blending_modes.rst:48
 msgid ":kbd:`B` :ref:`bm_color_burn`"
-msgstr ""
+msgstr ":kbd:`B` :ref:`bm_color_burn`"
 
 #: ../../reference_manual/blending_modes.rst:49
 msgid ":kbd:`C` :ref:`bm_color`"
-msgstr ""
+msgstr ":kbd:`C` :ref:`bm_color`"
 
 #: ../../reference_manual/blending_modes.rst:50
 msgid ":kbd:`D` :ref:`bm_color_dodge`"
-msgstr ""
+msgstr ":kbd:`D` :ref:`bm_color_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:51
 msgid ":kbd:`E` :ref:`bm_difference`"
-msgstr ""
+msgstr ":kbd:`E` :ref:`bm_difference`"
 
 #: ../../reference_manual/blending_modes.rst:52
 msgid ":kbd:`F` :ref:`bm_soft_light`"
-msgstr ""
+msgstr ":kbd:`F` :ref:`bm_soft_light`"
 
 #: ../../reference_manual/blending_modes.rst:53
 msgid ":kbd:`I` :ref:`bm_dissolve`"
-msgstr ""
+msgstr ":kbd:`I` :ref:`bm_dissolve`"
 
 #: ../../reference_manual/blending_modes.rst:54
 msgid ":kbd:`J` :ref:`bm_linear_light`"
-msgstr ""
+msgstr ":kbd:`J` :ref:`bm_linear_light`"
 
 #: ../../reference_manual/blending_modes.rst:55
 msgid ":kbd:`K` :ref:`bm_darken`"
-msgstr ""
+msgstr ":kbd:`K` :ref:`bm_darken`"
 
 #: ../../reference_manual/blending_modes.rst:56
 msgid ":kbd:`L` :ref:`bm_hard_mix`"
-msgstr ""
+msgstr ":kbd:`L` :ref:`bm_hard_mix`"
 
 #: ../../reference_manual/blending_modes.rst:57
 msgid ":kbd:`M` :ref:`bm_multiply`"
-msgstr ""
+msgstr ":kbd:`M` :ref:`bm_multiply`"
 
 #: ../../reference_manual/blending_modes.rst:58
 msgid ":kbd:`O` :ref:`bm_overlay`"
-msgstr ""
+msgstr ":kbd:`O` :ref:`bm_overlay`"
 
 #: ../../reference_manual/blending_modes.rst:59
 msgid ":kbd:`Q` :ref:`bm_behind`"
-msgstr ""
+msgstr ":kbd:`Q` :ref:`bm_behind`"
 
 #: ../../reference_manual/blending_modes.rst:60
 msgid ":kbd:`R` :ref:`bm_normal`"
-msgstr ""
+msgstr ":kbd:`R` :ref:`bm_normal`"
 
 #: ../../reference_manual/blending_modes.rst:61
 msgid ":kbd:`S` :ref:`bm_screen`"
-msgstr ""
+msgstr ":kbd:`S` :ref:`bm_screen`"
 
 #: ../../reference_manual/blending_modes.rst:62
 msgid ":kbd:`T` :ref:`bm_saturation`"
-msgstr ""
+msgstr ":kbd:`T` :ref:`bm_saturation`"
 
 #: ../../reference_manual/blending_modes.rst:63
 msgid ":kbd:`U` :ref:`bm_hue`"
-msgstr ""
+msgstr ":kbd:`U` :ref:`bm_hue`"
 
 #: ../../reference_manual/blending_modes.rst:64
 msgid ":kbd:`V` :ref:`bm_vivid_light`"
-msgstr ""
+msgstr ":kbd:`V` :ref:`bm_vivid_light`"
 
 #: ../../reference_manual/blending_modes.rst:65
 msgid ":kbd:`W` :ref:`bm_exclusion`"
-msgstr ""
+msgstr ":kbd:`W` :ref:`bm_exclusion`"
 
 #: ../../reference_manual/blending_modes.rst:66
 msgid ":kbd:`X` :ref:`bm_linear_dodge`"
-msgstr ""
+msgstr ":kbd:`X` :ref:`bm_linear_dodge`"
 
 #: ../../reference_manual/blending_modes.rst:67
 msgid ":kbd:`Y` :ref:`bm_luminosity`"
-msgstr ""
+msgstr ":kbd:`Y` :ref:`bm_luminosity`"
 
 #: ../../reference_manual/blending_modes.rst:68
 msgid ":kbd:`Z` :ref:`bm_pin_light`"
-msgstr ""
+msgstr ":kbd:`Z` :ref:`bm_pin_light`"
 
 #: ../../reference_manual/blending_modes.rst:69
 msgid "Next Blending Mode :kbd:`+`"
-msgstr ""
+msgstr "下一个混色模式 :kbd:`+`"
 
 #: ../../reference_manual/blending_modes.rst:70
 msgid "Previous Blending Mode :kbd:`-`"
-msgstr ""
+msgstr "上一个混色模式 :kbd:`-`"
 
 #: ../../reference_manual/blending_modes.rst:73
 msgid "Available Blending Modes"
-msgstr "可用的混合模式"
+msgstr "可用的混色模式"
 
 #: ../../reference_manual/blending_modes.rst:83
 msgid "Basic blending modes:"
-msgstr ""
+msgstr "基本混色模式"
 
 #: ../../reference_manual/blending_modes.rst:84
 msgid "http://en.wikipedia.org/wiki/Blend_modes"
@@ -216,7 +221,7 @@ msgstr "http://en.wikipedia.org/wiki/Blend_modes"
 
 #: ../../reference_manual/blending_modes.rst:85
 msgid "Grain Extract/Grain Merge:"
-msgstr ""
+msgstr "颗粒抽取/颗粒合并："
 
 #: ../../reference_manual/blending_modes.rst:86
 msgid "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
@@ -224,7 +229,7 @@ msgstr "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
 
 #: ../../reference_manual/blending_modes.rst:87
 msgid "For most of Krita's mystery blendingmodes:"
-msgstr ""
+msgstr "介绍 Krita 最神秘的几种混色模式："
 
 #: ../../reference_manual/blending_modes.rst:88
 msgid "http://illusions.hu/effectwiki/doku.php?id=list_of_blendings"

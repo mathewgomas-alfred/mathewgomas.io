@@ -140,9 +140,9 @@ As you can see, this version both looks more 3d as well as more creepy.
 
 That's because there are less steps involved as the previous version -- We're deriving our image directly from the orthographic view -- so there are less errors involved.
 
-The creepiness is because we've had the tiniest bit of stylisation in our side view, so the eyes come out HUGE. This is because when we stylise the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
+The creepiness is because we've had the tiniest bit of stylisation in our side view, so the eyes come out HUGE. This is because when we stylize the side view of an eye, we tend to draw it not perfectly from the side, but rather slightly at an angle. If you look carefully at the turntable, the same problem crops up there as well.
 
-Generally, stylised stuff tends to fall apart in 3d view, and you might need to make some choices on how to make it work.
+Generally, stylized stuff tends to fall apart in 3d view, and you might need to make some choices on how to make it work.
 
 For example, we can just easily fix the side view (because we used transform masks, this is easy.)
 

@@ -42,7 +42,7 @@ Navigation
 In Krita you can navigate your document using all these methods:
 
 #. '*Mouse wheel*': |mousescroll| down and up for zoom, and press |mousemiddle| down to pan your document.
-#. '*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard
+#. '*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard.
 #. As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + Space` to zoom, and :kbd:`Space` to pan. 
     
     .. note::
@@ -198,11 +198,11 @@ Useful shortcuts
 
 * :kbd:`Shift`:  Grow or Shrink the brush size (or :kbd:`[` and :kbd:`]`).
 * :kbd:`/`: Switch last preset selected and current (ex: a pencil preset, and an eraser preset).
-* :kbd:`K` and :kbd:`L`:  increment Darker and Lighter value of the active color
-* :kbd:`I` and :kbd:`O`: increment opacity plus or minus.
-* :kbd:`D`: Reset color to black/foreground and white/background
-* :kbd:`X`: Switch background and foreground colors
-* :kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: a set of default keyboard shortcuts for accessing the on-canvas color selector.
+* :kbd:`K` and :kbd:`L`: Increment Darker and Lighter value of the active color.
+* :kbd:`I` and :kbd:`O`: Increment opacity plus or minus.
+* :kbd:`D`: Reset color to black/foreground and white/background.
+* :kbd:`X`: Switch background and foreground colors.
+* :kbd:`Shift + I` / :kbd:`Shift + N` / :kbd:`Shift + M`: A set of default keyboard shortcuts for accessing the on-canvas color selector.
 
 .. note::
 
@@ -385,7 +385,7 @@ When you transform a layer or a selection in Krita, the transformation appears o
 Other
 ~~~~~
 
-Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing web image, etc
+Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing web image, etc.
 
 Conclusion
 ----------

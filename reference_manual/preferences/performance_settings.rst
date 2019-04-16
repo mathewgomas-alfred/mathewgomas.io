@@ -22,16 +22,16 @@ These preferences allow you to configure :program:`Krita's` organisation, but al
 RAM
 ---
 
-RAM, or Random Access Memory, is the memory your computer is immediately using. The difference between RAM and the hard drive memory can be compared to the difference between having files on your desk and having files safely stored away in an archiving room: The files on your desk as much easier to access than the ones in your archive, and it takes time to pull new files from the archive. This is the same for you computer and RAM. Files need to be loaded into RAM before the computer can really use them, and storing and removing them from RAM takes time.
+RAM, or Random Access Memory, is the memory your computer is immediately using. The difference between RAM and the hard drive memory can be compared to the difference between having files on your desk and having files safely stored away in an archiving room: The files on your desk as much easier to access than the ones in your archive, and it takes time to pull new files from the archive. This is the same for your computer and RAM. Files need to be loaded into RAM before the computer can really use them, and storing and removing them from RAM takes time.
 
 These settings allow you to choose how much of your virtual desk you dedicate to :program:`Krita`. :program:`Krita` will then reserve them on start-up. This does mean that if you change any of the given options, you need to restart :program:`Krita` so it can make this reservation.
 
 Memory Limit
     This is the maximum space :program:`Krita` will reserve on your RAM on startup. It's both available in percentages and Bytes, so you can specify precisely. :program:`Krita` will not take up more space than this, making it safe for you to run an internet browser or music on the background.
 Internal Pool
-    A feature for advanced computer users. This allows :program:`Krita` to organize the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses its place (a memory pool), so that it can find them easily, and it doesn't get lost among the other data (memory fragmentation). It will then also not have to spent time finding a spot for this data.
+    A feature for advanced computer users. This allows :program:`Krita` to organize the area it takes up on the virtual working desk before putting its data on there. Like how a painter has a standard spot for their canvas, :program:`Krita` also benefits from giving certain data it uses its place (a memory pool), so that it can find them easily, and it doesn't get lost among the other data (memory fragmentation). It will then also not have to spend time finding a spot for this data.
 
-    Increasing this of course means there's more space for this type of data, but like how filling up your working desk with only one big canvas will make it difficult to find room for your paints and brushes, having a large internal pool will result in :program:`Krita` not knowing where to put the other non-specific data.
+    Increasing this, of course, means there's more space for this type of data, but like how filling up your working desk with only one big canvas will make it difficult to find room for your paints and brushes, having a large internal pool will result in :program:`Krita` not knowing where to put the other non-specific data.
 
     On the opposite end, not giving your canvas a spot at all, will result in you spending more time looking for a place where you will put the new layer or that reference you just took out of the storage. This happens for :program:`Krita` as well, making it slower.
 
@@ -46,9 +46,9 @@ Swapping
 --------
 
 File Size Limit
-    This determines the limit of the total space :program:`Krita` can take up in the virtual archive room. If :program:`Krita` hits the limit of both the memory limit above, and this Swap File limit, it can't do anything any more (and will freeze).
+    This determines the limit of the total space :program:`Krita` can take up in the virtual archive room. If :program:`Krita` hits the limit of both the memory limit above, and this Swap File limit, it can't do anything anymore (and will freeze).
 Swap File Location
-    This determines where the Swap File will be stored on you hard-drive. Location can make a difference, for example, Solid State Drives (SSD) are faster than Hard Disk Drives (HDD). Some people even like to use USB-sticks for the swap file location.
+    This determines where the Swap File will be stored on your hard-drive. Location can make a difference, for example, Solid State Drives (SSD) are faster than Hard Disk Drives (HDD). Some people even like to use USB-sticks for the swap file location.
 
 Advanced
 --------
@@ -59,9 +59,9 @@ Multithreading
 Since 4.0, Krita supports multithreading for the animation cache and handling the drawing of brush tips when using the pixel brush.
 
 CPU Limit
-    The amount of cores you want to allow Krita to use when multithreading.
+    The number of cores you want to allow Krita to use when multithreading.
 Frame Rendering Clones Limit
-    When rendering animations to frames, Krita multithreads by keeping a few copies of the image, with a maximum determined by the amount of cores your processor has. If you have a heavy animation file and lots of cores, the copies can be quite heavy on your machine, so in that case try lowering this value.
+    When rendering animations to frames, Krita multithreads by keeping a few copies of the image, with a maximum determined by the number of cores your processor has. If you have a heavy animation file and lots of cores, the copies can be quite heavy on your machine, so in that case try lowering this value.
 
 Other
 ~~~~~
@@ -72,11 +72,11 @@ Debug logging of OpenGL framerate
 Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
 Disable vector optimizations (for AMD CPUs)
-    Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have a AMD CPU under Windows. There seems to be something strange going on there, so just deactivate them then.
+    Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have an AMD CPU under Windows. There seems to be something strange going on there, so just deactivate them then.
 Enable progress reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging
-    This enables performance logging, which is then saved to the ``Log`` folder in your ``working directory``. Your working directory is where the auto save is saved at as well.
+    This enables performance logging, which is then saved to the ``Log`` folder in your ``working directory``. Your working directory is where the autosave is saved at as well.
 
     So for unnamed files, this is the ``$HOME`` folder in Linux, and the ``%TEMP%`` folder in Windows.
 
@@ -95,7 +95,7 @@ Cache Storage Backend
 ~~~~~~~~~~~~~~~~~~~~~
 
 In-memory
-    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount (say, 64GiB) of ram, do *not* use this option (and scale down your projects).
+    Animation frame cache will be stored in RAM, completely without any limitations. This is also the way it was handled before 4.1. This is only recommended for computers with a huge amount of RAM and animations that must show full-canvas full resolution 6k at 25 fps. If you do not have a huge amount (say, 64GiB) of RAM, do *not* use this option (and scale down your projects).
 
     .. warning::
 
@@ -107,7 +107,7 @@ In-memory
 On-disk
     Animation frames are stored in the hard disk in the same folder as the swap file. The cache is stored in a compressed way. A little amount of extra RAM is needed.
 
-    Since data transfer speed of the hard drive is slow. You might want to limit the :guilabel:`Cached Frame Size` to be able to play your video at 25 fps. A limit of 2500 px is usually a good choice.
+    Since data transfer speed of the hard drive is slow, you might want to limit the :guilabel:`Cached Frame Size` to be able to play your video at 25 fps. A limit of 2500 px is usually a good choice.
 
 Cache Generation Options
 ~~~~~~~~~~~~~~~~~~~~~~~~

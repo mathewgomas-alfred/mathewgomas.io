@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"POT-Creation-Date: 2019-04-10 03:45+0200\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -32,7 +32,7 @@ msgid ""
 "   :alt: mouseright"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
-"   :alt: mouseright"
+"   :alt: 鼠标右键"
 
 #: ../../<rst_epilog>:6
 msgid ""
@@ -40,63 +40,66 @@ msgid ""
 "   :alt: mousemiddle"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_middle.png\n"
-"   :alt: mousemiddle"
+"   :alt: 鼠标中间键"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita-color-to-alpha.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-color-to-alpha.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita-multibrush.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-multibrush.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita-view-dependant-lut-management.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-view-dependant-lut-management.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita_transforms_recursive.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_transforms_recursive.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita_ghostlady_3.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_ghostlady_3.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:None
 msgid ".. image:: images/en/Krita-popuppalette.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita-popuppalette.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:1
 msgid "This is a introduction to Krita for users coming from Paint Tool Sai."
-msgstr ""
+msgstr "面向从 Paint Tool SAI 迁移到 Krita 的用户的上手指南。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:17
 msgid "Introduction to Krita coming from Paint Tool Sai"
-msgstr ""
+msgstr "Paint Tool SAI 用户入门 Krita"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:20
 msgid "How do you do that in Krita?"
-msgstr ""
+msgstr "在 Krita 里面怎么进行某个操作？"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:22
 msgid ""
 "This section goes over the functionalities that Krita and Paint Tool Sai "
 "share, but shows how they slightly differ."
 msgstr ""
+"本小节将介绍 Krita 和 Paint Tool SAI 共通的功能，并之处它们之间的微小差异。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:25
 msgid "Canvas navigation"
-msgstr ""
+msgstr "画布视图控制"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:27
 msgid ""
 "Krita, just like Sai, allows you to flip, rotate and duplicate the view. "
 "Unlike Sai, these are tied to keyboard keys."
 msgstr ""
+"Krita 和 SAI 一样可以翻转、旋转和缩放画布视图。但和 SAI 不同的是这些功能被指"
+"定到了键盘快捷键。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:29
 msgid "Mirror"
@@ -104,7 +107,7 @@ msgstr "镜像"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:30
 msgid "This is tied to :kbd:`M` to flip."
-msgstr ""
+msgstr "要水平翻转画布显示，按 :kbd:`M`。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:31
 msgid "Rotate"
@@ -118,6 +121,10 @@ msgid ""
 "Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the rotation, "
 "press :kbd:`5`."
 msgstr ""
+"要按 15 度为单位左右旋转画布，可以按 :kbd:`4` 和 :kbd:`6`，也可以按 :kbd:"
+"`Ctrl + [` 和 :kbd:`Ctrl + ]`。要无级平滑旋转画布，可以按住 :kbd:`Shift + "
+"Space` + 拖拽，也可以按住 :kbd:`Shift` + |mousemiddle| + 拖拽。要重置画布旋"
+"转，按 :kbd:`5`。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:34
 msgid "Zoom"
@@ -129,12 +136,17 @@ msgid ""
 "mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit "
 "the zoom to page width."
 msgstr ""
+"要逐级缩放画布，可以按 :kbd:`+` 和 :kbd:`-`，也可以使用鼠标滚轮。要无级平滑缩"
+"放画布，按住 :kbd:`Ctrl` + |mousemiddle| 移动光标。要重置画布缩放，按 1 重置"
+"为原始大小、按 2 重置为适合页面大小、按 3重置为适合页面宽度。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:36
 msgid ""
 "You can use the Overview docker in :menuselection:`Settings --> Dockers` to "
 "quickly navigate over your image."
 msgstr ""
+"你也可以使用总览图面板来快速控制图像视图，在顶部菜单的 :menuselection:`设置 "
+"--> 工具面板` 处可以启用。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:38
 msgid ""
@@ -142,6 +154,9 @@ msgid ""
 "Sai. Go to :menuselection:`Settings --> Configure Toolbars`. There are two "
 "toolbars, but we'll add to the file toolbar."
 msgstr ""
+"你也可以把这些命令放在工具栏里，这样感觉就跟 SAI 比较像了。在顶部菜单 :"
+"menuselection:`设置 --> 配置工具栏` 处打开对话框 。Krita 有两个工具栏，在这里"
+"我们先假定你要添加按钮到文件/主工具栏 (file/mainToolbar) 。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:40
 msgid ""
@@ -153,6 +168,11 @@ msgid ""
 "press :guilabel:`OK`. When done right, the :guilabel:`Undo` should now be "
 "sandwiched between the save and the gradient icon."
 msgstr ""
+"在弹出的对话框中，在左栏的过滤框输入文字可搜索需要的按钮。例如输入“放大”，找"
+"到放大按钮，然后把它拖到右栏。如果界面有显示 :menuselection:`更改文字` 按钮，"
+"则可以在那里勾选 :menuselection:`当工具栏项目同时具有文字和图标时隐藏文字`，"
+"这样按钮将仅显示图标。完成后点击 :guilabel:`确定`，放大按钮就会被插入在你刚才"
+"拖放的位置了。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:42
 msgid ""
@@ -165,6 +185,12 @@ msgid ""
 "things in the brushes toolbar to hide inside a drop-down to the right, so "
 "you need to experiment a little)."
 msgstr ""
+"按照上述办法可以把 :guilabel:`撤销`、:guilabel:`重做`、:guilabel:`取消选择"
+"`、:guilabel:`反向选择`、:guilabel:`缩小`、:guilabel:`放大`、:guilabel:`重置"
+"缩放`、:guilabel:`向左旋转`、:guilabel:`向右旋转`、:guilabel:`镜像显示`、:"
+"guilabel:`笔刷平滑：基本`、:guilabel:`笔刷平滑：防抖` 等大部分 SAI 按排在顶部"
+"工具栏的功能给添加到 Krita 的对应位置。(不过在比较小的屏幕上面可能会把笔刷工"
+"具栏给挤成右边的一个下拉菜单，所以你要进行一些实验)。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:44
 msgid ""
@@ -172,16 +198,18 @@ msgid ""
 "available via the Toolbar configuration, you'll need to use the shortcuts :"
 "kbd:`Ctrl + H` and :kbd:`5` to toggle these."
 msgstr ""
+":guilabel:`隐藏选区` 等一些功能目前在配置工具栏对话框中不可用。可按 :kbd:"
+"`Ctrl + H` 进行切换。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:48
 msgid ""
 "Krita 3.0 currently doesn't allow changing the text in the toolbar, we're "
 "working on it."
-msgstr ""
+msgstr "Krita 3.0 之后无法更改工具栏的文本显示方式。我们正在处理这个问题。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:51
 msgid "Right click color picker"
-msgstr ""
+msgstr "右键拾色器"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:53
 msgid ""
@@ -190,6 +218,10 @@ msgid ""
 "entry that says :kbd:`Ctrl` + |mouseleft| before :guilabel:`Pick foreground "
 "color from image` to get a window to set it to |mouseright|."
 msgstr ""
+"你可以通过顶部菜单 :menuselection:`设置 --> 配置 Krita --> 画布输入设置 --> "
+"切换备选功能` 来设置右键拾色器。双击 :guilabel:`拾取合并图像的前景色` 功能"
+"的 :kbd:`Ctrl` + |mouseleft| 鼠标左键 一项，在弹出的选单里将它设成 |"
+"mouseright| 鼠标右键。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:57
 msgid ""
@@ -197,6 +229,9 @@ msgid ""
 "default. Combine these with the shortcut sheet for Paint tool Sai to get "
 "most of the functionality on familiar hotkeys."
 msgstr ""
+"Krita 3.0 之后已经预装了一组兼容 Paint Tool SAI 的画布输入方案，配合同样是预"
+"装的兼容 Paint Tool SAI 的快捷键方案使用，可以让 Krita 使用和 SAI 接近的快捷"
+"键。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:60
 msgid "Stabilizer"
@@ -208,10 +243,13 @@ msgid ""
 "Smoothing for more advanced tablets, and Stabilizer is much like Paint Tool "
 "Sai's. Just turn off :guilabel:`Delay` so that the dead-zone disappears."
 msgstr ""
+"在使用手绘笔刷工具时，防抖功能会被显示在工具选项面板。如果数位板性能较好，可"
+"以选用“基本”笔刷平滑模式；选用“防抖”则可以得到类似 SAI 的效果。关闭 :"
+"guilabel:`延迟` 选项则盲区不再生效。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:65
 msgid "Transparency"
-msgstr "透明"
+msgstr "透明区域"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:67
 msgid ""
@@ -224,17 +262,30 @@ msgid ""
 "If you export a PNG or JPG, make sure to uncheck :guilabel:`Save "
 "transparency` and to make the background color white (it's black by default)."
 msgstr ""
+"SAI 用户一个最不习惯的方面就是 Krita 用棋盘格来代表透明度，虽然实际上这才是比"
+"较通行的做法。当然你可以把画布背景设成白色。在新建文件对话框的内容页面选中 :"
+"guilabel:`背景：作为画布颜色`，这样图像的背景就会被固定为白色。在创建文件之"
+"后，你还可以在顶部菜单的 :menuselection:`图像 --> 图像背景色与透明度` 更改背"
+"景色。在导出 PNG 时如果不想要透明背景色，可以取消勾选 :guilabel:`保存透明度通"
+"道`，将背景色设为白色 (默认状态为黑色)。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:72
+#, fuzzy
+#| msgid ""
+#| "Like Sai, you can quickly turn a black and white image to black and "
+#| "transparent with the :menuselection:`Color to Alpha Filter` under :"
+#| "menuselection:`Filters --> Colors --> Color to Alpha`"
 msgid ""
 "Like Sai, you can quickly turn a black and white image to black and "
 "transparent with the :menuselection:`Color to Alpha Filter` under :"
-"menuselection:`Filters --> Colors --> Color to Alpha`"
+"menuselection:`Filters --> Colors --> Color to Alpha`."
 msgstr ""
+"和在 SAI 里面一样，你可以把黑白图像的白色区域替换成透明区域。在顶部菜单栏找选"
+"择 :menuselection:`滤镜 --> 颜色 --> 颜色转为透明度`。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:75
 msgid "Brush Settings"
-msgstr "笔刷设置"
+msgstr "笔刷选项"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:77
 msgid ""
@@ -242,6 +293,8 @@ msgid ""
 "very complex. After all, you can only change the Size, Flow and Opacity from "
 "the top bar."
 msgstr ""
+"有些人会误以为 Krita 的笔刷引擎过于简陋——毕竟在顶部工具栏里你只能更改笔刷大"
+"小、流量和不透明度。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:79
 msgid ""
@@ -252,6 +305,11 @@ msgid ""
 "you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color "
 "Smudge Brush (brush) and the filter brush (dodge, burn)."
 msgstr ""
+"不过这真是个天大的误会，因为 Krita 的笔刷引擎实在是太过强大，连工具面板都放不"
+"下，我们不得不把笔刷选项都藏到工具栏的一个下拉面板按钮里面了。你可以按 :kbd:"
+"`F5` 调出该面板，感受一下密集的恐怖。Krita 有十来种笔刷引擎，可以用来制作不同"
+"类型的笔刷。SAI 里面的常用笔刷类型可以找到对应的笔刷引擎：像素 (描线)、颜色涂"
+"抹 (画笔)、滤镜 (减淡和加深)。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:81
 msgid ""
@@ -263,6 +321,11 @@ msgid ""
 "icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and "
 "the spacing number to 0.8."
 msgstr ""
+"以一个简单的描线笔刷为例，你可以选取一个像素笔刷，取消勾选不透明度和流量的 :"
+"guilabel:`启用压感笔选项`，并取消勾选列表中除了大小之外的所有选项。接着来到笔"
+"尖页面，选中 :ref:`auto_brush_tip`，然后把直径设成 25 (要输入具体数值，可以单"
+"击蓝色滑动条)，勾选笔刷轮廓下方的“抗锯齿”选项，将“淡出”设成 0.9。最后将“间"
+"距”设成自动，并把数值设为 0.8。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:83
 msgid ""
@@ -271,10 +334,13 @@ msgid ""
 "`Settings --> Manage Resources`, where you can import .bundle files or .kpp "
 "files."
 msgstr ""
+"你可以对笔刷特性进行深入的配置，并且将成果与其他人分享。要导入笔刷文件或者资"
+"源包，可在顶部工具栏 :menuselection:`设置 --> 管理资源` 处导入 .bundle 或者 ."
+"kpp 文件。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:86
 msgid "Erasing"
-msgstr ""
+msgstr "擦除"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:88
 msgid ""
@@ -282,10 +348,12 @@ msgid ""
 "Paint Tool Sai. It's activated with :kbd:`E` or you can select it from the "
 "Blending Mode drop-down..."
 msgstr ""
+"和 Paint Tool SAI 一样，擦除在 Krita 里面是一种混色模式。你可以按 :kbd:`E` 切"
+"换，也可以从混色模式下拉菜单中选取。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:91
 msgid "Blending Modes"
-msgstr "混合模式"
+msgstr "混色模式"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:93
 msgid ""
@@ -293,6 +361,9 @@ msgid ""
 "are amongst them except binary. To manage the blending modes, each of them "
 "has a little check-box that you can tick to add them to the favorites."
 msgstr ""
+"Krita 有许多混色模式，而且巧合的是除了二进制模式外 SAI 的每个模式都可以在 "
+"Krita 里面找到对应的模式。要对把混色模式添加进常用分类或者从中移除，可以勾选"
+"或者取消勾选各个模式左边的复选框。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:95
 msgid ""
@@ -301,6 +372,8 @@ msgid ""
 "replaces the relative brightness of color with the relative brightness of "
 "the color of the layer."
 msgstr ""
+"相乘、滤色、叠加和正常模式都在常用分类中。Krita 的光度和 SAI 的略有不同，它把"
+"颜色的相对亮度替换成了图层中颜色的相对亮度。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:98
 msgid ""
@@ -308,6 +381,9 @@ msgid ""
 "dodge* mode. The Shade mode is the same as *Color Burn* and *Hard Mix* is "
 "the same as the lumi and shade mode."
 msgstr ""
+"SAI 的“光度”模式和 Krita 的 *相加* 或者 *线性减淡* 模式相同。SAI 的“阴影”模式"
+"和 Krita 的 *颜色加深* 模式相同。SAI 的“光度和阴影” 模式和Krita 的 *硬混合* "
+"模式相同。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:101
 msgid "Layers"
@@ -315,33 +391,42 @@ msgstr "图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:103
 msgid "Lock Alpha"
-msgstr ""
+msgstr "锁定透明度"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:104
 msgid "This is the checker box icon next to every layer."
 msgstr ""
+"Krita 的图层面板的每个图层右边都有一个 alpha 按钮。锁定透明度的开关就是那个。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:105
 msgid "Clipping group"
-msgstr ""
+msgstr "剪贴分组"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:106
+#, fuzzy
+#| msgid ""
+#| "For Clipping masks in Krita you'll need to put all your images in a "
+#| "single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + "
+#| "G`"
 msgid ""
 "For Clipping masks in Krita you'll need to put all your images in a single "
-"layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`"
+"layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`."
 msgstr ""
+"要在 Krita 里面使用剪贴蒙版，可将被剪贴的图层放在一个图层分组的底层，然后把分"
+"组内其他图层的 alpha 图标点亮。也可以在选中被剪贴的图层后按 :kbd:`Ctrl + "
+"Shift + G`，Krita 将自动生成一个剪贴分组。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:107
 msgid "Ink layer"
-msgstr ""
+msgstr "描线图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:108
 msgid "This is a vector layer in Krita, and also holds the text."
-msgstr ""
+msgstr "在 Krita 里面这是矢量图层，它还用来承载文字。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:109
 msgid "Masks"
-msgstr ""
+msgstr "蒙版"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:110
 msgid ""
@@ -350,20 +435,23 @@ msgid ""
 "groups as well as layers. If you have a selection and make a transparency "
 "mask, it will use the selection as a base."
 msgstr ""
+"用来影响透明度的灰阶图层在 Krita 里面叫做透明度蒙版。和 SAI 里面一样，透明蒙"
+"版可以应用到单个图层或者图层分组。如果你当前有一个活动选区，在创建透明度蒙版"
+"时将以该选区作为蒙版轮廓。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:112
 msgid "Clearing a layer"
-msgstr ""
+msgstr "清空图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:112
 msgid ""
 "This is under :menuselection:`Edit --> Clear`, but you can also just press :"
 "kbd:`Del`."
-msgstr ""
+msgstr "在顶部菜单的 :menuselection:`编辑 --> 清空`，或者按 :kbd:`Del`。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:115
 msgid "Mixing between two colors"
-msgstr ""
+msgstr "混合两种颜色"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:117
 msgid ""
@@ -371,14 +459,16 @@ msgid ""
 "docker will be able to help you. Dragging the sliders will change how much "
 "of a color is mixed in."
 msgstr ""
+"如果你喜欢 SAI 的这个工具面板，你也可以用 Krita 的“数字混色器”面板来实现类似"
+"的功能。拖动数字混色器的滑动条就可以更改混合颜色的比例。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:120
 msgid "What do you get extra when using Krita?"
-msgstr ""
+msgstr "Krita 相对 SAI 的优势"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:123
 msgid "More brush customization"
-msgstr ""
+msgstr "更丰富的笔刷定制空间"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:125
 msgid ""
@@ -387,10 +477,14 @@ msgid ""
 "respond to tilt, rotation, speed, brushes that draw hatches and brushes that "
 "deform the colors. Krita's variety is quite big."
 msgstr ""
+"刚才我们已经介绍过笔刷选项编辑器，它的选项非常丰富。你可以在里面找到包括草"
+"图、网格、形变、克隆等多样化的笔刷引擎，笔尖可以使用材质，可以感应笔压、倾"
+"斜、旋转、速度等，有些笔刷可以画出排线，有些笔刷可以改变颜色。而这些仅仅是 "
+"Krita 笔刷引擎的一部分功能。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:128
 msgid "More color selectors"
-msgstr ""
+msgstr "更多样的拾色器形式"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:130
 msgid ""
@@ -401,6 +495,10 @@ msgid ""
 "Advanced Color Selector Settings` to change the shape and type of the main "
 "big color selector."
 msgstr ""
+"除了常规的 HSV 滑动条、RGB 滑动条、色相环和它里面的明度饱和度三角外，你还可以"
+"使用 HSI、HSL、HSY'、CMYK 等滑动条，各种调色板，圆形和方形的拾色器，大型和小"
+"型的拾色器，颜色历史和光影拾色器等。你可以在顶部菜单的 :menuselection:`设置 "
+"--> 配置 Krita --> 拾色器设置` 里面配置高级拾色器。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:135
 msgid ""
@@ -408,56 +506,64 @@ msgid ""
 "and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. The "
 "big selector can be called with :kbd:`Shift + I` on canvas."
 msgstr ""
+"要显示颜色历史，按 :kbd:`H`，显示共通颜色，按 :kbd:`U`，显示两个光影拾色器，"
+"按 :kbd:`Shift + N` 或者 :kbd:`Shift + M`。在画布上显示高级拾色器，按 :kbd:"
+"`Shift + I`。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:138
 msgid "Geometric Tools"
-msgstr ""
+msgstr "几何形状工具"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:140
 msgid "Circles, rectangles, paths, Krita allows you to draw these easily."
-msgstr ""
+msgstr "你可以在 Krita 里面轻而易举地画出圆形、矩形、路径等。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:143
 msgid "Multibrush, Mirror Symmetry and Wrap Around"
-msgstr ""
+msgstr "多重画笔、镜像对称和环绕模式"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:145
 msgid ""
 "These tools allow you to quickly paint a mirrored image, mandala or tiled "
 "texture in no time. Useful for backgrounds and abstract vignettes."
 msgstr ""
+"这些工具可以帮助你快速绘制镜像图像、万花筒效果或者重复材质方块。对于绘制背景"
+"和抽象插图很有用。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:151
 msgid "Assistants"
-msgstr "助手"
+msgstr "辅助尺工具"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:153
 msgid ""
 "The painting assistants can help you to set up a perspective, or a "
 "concentric circle and snap to them with the brush."
 msgstr ""
+"绘画辅助尺工具可以帮助你建立透视或者同心圆等形状，然后把笔刷吸附到它们上面。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:159
 msgid ""
 ".. image:: images/en/Krita_basic_assistants.png\n"
 "   :alt: Krita's vanishing point assistants in action"
 msgstr ""
+".. image:: images/en/Krita_basic_assistants.png\n"
+"   :alt: Krita 的消失点辅助尺正在工作"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:159
 msgid "Krita's vanishing point assistants in action"
-msgstr ""
+msgstr "Krita 的消失点辅助尺正在工作"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:162
 msgid "Locking the Layer"
-msgstr ""
+msgstr "锁定图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:164
 msgid "Lock the layer with the padlock so you don't draw on it."
-msgstr ""
+msgstr "用图层面板里面的锁形图标可以锁定图层，避免在上面绘制。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:167
 msgid "Quick Layer select"
-msgstr ""
+msgstr "快速选择图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:169
 msgid ""
@@ -465,6 +571,8 @@ msgid ""
 "layer underneath the cursor. Really useful when dealing with a large number "
 "of layers."
 msgstr ""
+"按 :kbd:`R` 可以选中光标下方像素颜色所在的图层，这对于处理图层数目较多的图像"
+"很有帮助。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:172
 msgid "Color Management"
@@ -477,20 +585,25 @@ msgid ""
 "docker to turn the colors grayscale in a separate view, so you can see the "
 "values instantly."
 msgstr ""
+"此功能可以帮助你进行印前准备，或者使用 LUT 面板来更好地分析图像。例如，你可以"
+"为当前图像建立一个新视图，然后用 LUT 面板设定这个视图显示光度，便于即时观察图"
+"像的明暗变化。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:180
 msgid "Advanced Transform Tools"
-msgstr ""
+msgstr "高级变形工具"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:182
 msgid ""
 "Not just rotate and scale, but also cage, wrap, liquify and non-destructive "
 "transforms with the transform tool and masks."
 msgstr ""
+"在 Krita 里面你不止可以进行旋转和缩放变形，还可以使用外框、网面、液化变形。除"
+"此之外你还可以使用变形蒙版进行非破坏性变形。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:188
 msgid "More Filters and non-destructive filter layers and masks"
-msgstr ""
+msgstr "更丰富的滤镜选择和非破坏性滤镜和蒙版图层"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:190
 msgid ""
@@ -498,10 +611,12 @@ msgid ""
 "In fact, with the filter layers and layer masks you can make them apply on "
 "the fly as you draw underneath."
 msgstr ""
+"你可以使用颜色平衡和曲线等滤镜图层来建立简单的阴影图层。滤镜图层可以让你一边"
+"绘制一边自动把最新效果应用到它关联的图层上面。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:196
 msgid "Pop-up palette"
-msgstr ""
+msgstr "浮动画具板"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:198
 msgid ""
@@ -510,41 +625,51 @@ msgid ""
 "palette. It also keeps a little color selector and color history, so you can "
 "switch brushes on the fly."
 msgstr ""
+"在默认状态下，在画布上右键单击就会弹出这个圆形的浮动画具板。你可以给常用笔刷"
+"预设指定标签分组，然后把它们按组加载到浮动画具板，这样就切换笔刷就更加便利"
+"了。它上面还配有一个小型的拾色器和颜色历史。"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:204
 msgid "What does Krita lack compared to Paint Tool Sai?"
-msgstr ""
+msgstr "Krita 相对 SAI 的不足"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:206
 msgid "Variable width vector lines"
-msgstr ""
+msgstr "矢量线条的宽度不便调整"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:207
 msgid "The selection source option for layers"
-msgstr ""
+msgstr "图层不能直接引用外部选区源"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:208
 msgid "Dynamic hard-edges for strokes (the fringe effect)"
-msgstr ""
+msgstr "动态笔刷硬边 (边缘效果)"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:209
-msgid "No mix-docker."
-msgstr ""
+#, fuzzy
+#| msgid "No mix-docker."
+msgid "No mix-docker"
+msgstr "没有调色工具面板"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:210
-msgid "No Preset-tied stabilizer."
-msgstr ""
+#, fuzzy
+#| msgid "No Preset-tied stabilizer."
+msgid "No Preset-tied stabilizer"
+msgstr "防抖功能没有预设"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:211
-msgid "No per-preset hotkeys."
-msgstr ""
+#, fuzzy
+#| msgid "No per-preset hotkeys."
+msgid "No per-preset hotkeys"
+msgstr "不能为不同预设指定不同快捷键"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:214
 msgid "Conclusion"
-msgstr ""
+msgstr "结语"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:216
 msgid ""
 "I hope this introduction got you a little more excited to use Krita, if not "
 "feel a little more at home."
 msgstr ""
+"希望本文可以让你对 Krita 的特有功能有所期待，并在使用 Krita 时更加就手。"

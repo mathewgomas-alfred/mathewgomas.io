@@ -34,7 +34,7 @@ To create an animation curve (currently only for opacity) expand the
 Keyframe`. You can now edit the keyframed value for opacity directly in
 the “Layers” dock, adding more keyframes will by default fade from the
 last to the next upcoming keyframe in the timeline over the frames
-between them. See :ref:`animation curves <animation_curves_docker>` for details
+between them. See :ref:`animation curves <animation_curves_docker>` for details.
 
 Workflow
 ---------
@@ -174,11 +174,11 @@ Now then...
 
    squashed the timeline docker a bit to save space
 
-#. Copy frame 0 to frame 2
-#. Copy frame 1 to frame 3
-#. In the animation docker, set the frame-rate to 4
-#. select all frames in the timeline docker by dragging-selecting them.
-#. press play in the animation docker.
+#. Copy frame 0 to frame 2.
+#. Copy frame 1 to frame 3.
+#. In the animation docker, set the frame-rate to 4.
+#. Select all frames in the timeline docker by dragging-selecting them.
+#. Press play in the animation docker.
 #. Enjoy your first animation!
 
 Expanding upon your rough walkcycle
@@ -189,7 +189,7 @@ Expanding upon your rough walkcycle
 You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll move that frame and all others after it
 in one go.
 
-Then draw inbetweens on each frame that you add
+Then draw inbetweens on each frame that you add.
 
 .. image:: /images/en/Introduction_to_animation_16.png
 
@@ -225,7 +225,7 @@ the layer docker, and toggling :guilabel:`Show in Timeline`.
 Exporting
 ~~~~~~~~~
 
-When you are done, select :menuselection:`File --> Render Animation`
+When you are done, select :menuselection:`File --> Render Animation`.
 
 .. image:: /images/en/Introduction_to_animation_20.png
 
@@ -300,4 +300,4 @@ Reference
 ---------
 
 -  https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList
--  `The source for the libre pixel cup male walkmediawiki cycle <http://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles>`_
+-  `The source for the libre pixel cup male walkmediawiki cycle <https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles>`_

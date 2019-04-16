@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-06 03:35+0200\n"
-"PO-Revision-Date: 2019-04-06 09:43+0100\n"
+"POT-Creation-Date: 2019-04-15 03:31+0200\n"
+"PO-Revision-Date: 2019-04-13 10:48+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -39,30 +39,6 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
 "   :alt: botão direito"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:None
 msgid ""
@@ -157,7 +133,7 @@ msgstr ""
 #: ../../tutorials/flat-coloring.rst:None
 msgid ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart10.png\n"
-"   :alt: coloring with colorise mask"
+"   :alt: coloring with colorize mask"
 msgstr ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart10.png\n"
 "   :alt: coloração com a máscara de coloração"
@@ -165,7 +141,7 @@ msgstr ""
 #: ../../tutorials/flat-coloring.rst:None
 msgid ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart11.png\n"
-"   :alt: result from the colorise mask"
+"   :alt: result from the colorize mask"
 msgstr ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart11.png\n"
 "   :alt: resultado da máscara de coloração"
@@ -185,6 +161,30 @@ msgid ""
 msgstr ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart13.png\n"
 "   :alt: ilhas de cores resultantes da divisão das camadas"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:1
 msgid "Common workflows used in Krita"
@@ -659,8 +659,8 @@ msgstr "Colorir a imagem"
 
 #: ../../tutorials/flat-coloring.rst:186
 msgid ""
-"Much like preparing the line art, there's many different ways of coloring a "
-"layer."
+"Much like preparing the line art, there are many different ways of coloring "
+"a layer."
 msgstr ""
 "Tal como na preparação do desenho de linhas, existem muitas formas de "
 "colorir uma camada."
@@ -693,7 +693,7 @@ msgstr ""
 #: ../../tutorials/flat-coloring.rst:198
 msgid ""
 "Threshold decides when the fill-tool should consider a different color pixel "
-"to be a border. And the feathering adds a extra soft border to the fill."
+"to be a border. And the feathering adds an extra soft border to the fill."
 msgstr ""
 "O limite decide quando a ferramenta de preenchimento deverá considerar uma "
 "cor diferente como sendo um contorno. E a suavização ainda atribuir uma "
@@ -734,7 +734,9 @@ msgstr "Bastante rápido, dependendo da configuração disponível."
 msgid ""
 "Again, not great with gaps or details. And it works best with aliased line "
 "art."
-msgstr "Mais uma vez, não é óptimo com as lacunas ou detalhes. E funciona melhor com desenhos de linhas não-suavizados."
+msgstr ""
+"Mais uma vez, não é óptimo com as lacunas ou detalhes. E funciona melhor com "
+"desenhos de linhas não-suavizados."
 
 #: ../../tutorials/flat-coloring.rst:220
 msgid "Selections"
@@ -900,7 +902,7 @@ msgid "Tick the layer you're using."
 msgstr "Carregue na camada que está a usar."
 
 #: ../../tutorials/flat-coloring.rst:295
-msgid "Paint the colors your want to use on the colorize mask"
+msgid "Paint the colors you want to use on the colorize mask"
 msgstr "Pinte as cores que quer usar na máscara de coloração"
 
 #: ../../tutorials/flat-coloring.rst:296
@@ -911,7 +913,7 @@ msgstr "Carregue em Actualizar para ver os resultados:"
 msgid ""
 "When you are satisfied, |mouseright| the colorize mask, and go to :"
 "menuselection:`Convert --> Paint Layer`. This will turn the colorize mask to "
-"a generic paint layer. Then, you can fix the last issues by aking the line "
+"a generic paint layer. Then, you can fix the last issues by making the line "
 "art semi-transparent and painting the flaws away with a pixel art brush."
 msgstr ""
 "Quando estiver satisfeito, carregue com o |mouseright| sobre a máscara de "
@@ -922,8 +924,8 @@ msgstr ""
 
 #: ../../tutorials/flat-coloring.rst:306
 msgid ""
-"Then, when you are done, split the layers via :menuselection:`Layers --> "
-"Split --> Split Layer`. There's a few options you can choose, but the "
+"Then, when you are done, split the layers via :menuselection:`Layer --> "
+"Split --> Split Layer`. There are a few options you can choose, but the "
 "following should be fine:"
 msgstr ""
 "Depois, quando terminar, divida as camadas com a opção :menuselection:"
@@ -942,7 +944,7 @@ msgstr ""
 
 #: ../../tutorials/flat-coloring.rst:319
 msgid ""
-"Works with anti aliased line art. Really quick to get the base work done. "
+"Works with anti-aliased line art. Really quick to get the base work done. "
 "Can auto-close gaps."
 msgstr ""
 "Funciona com desenhos de linhas suavizados. É bastante rápido para ter o "
@@ -950,7 +952,7 @@ msgstr ""
 
 #: ../../tutorials/flat-coloring.rst:324
 msgid ""
-"No anti aliasing of it’s own. You have to choose between getting details "
+"No anti-aliasing of its own. You have to choose between getting details "
 "right or the gaps auto-closed."
 msgstr ""
 "Sem suavização própria. Terá de optar entre ficar com os detalhes corrigidos "
@@ -965,7 +967,7 @@ msgid ""
 "I hope this has given you a good idea of how to fill in flats using the "
 "various techniques, as well as getting a hand of different Krita features. "
 "Remember that a good flat filled line art is better than a badly shaded one, "
-"so keep practising to get the best out of these techniques!"
+"so keep practicing to get the best out of these techniques!"
 msgstr ""
 "Espero que isto lhe tenha dado uma boa ideia de como preencher partes planas "
 "com várias técnicas, assim como passar a conhecer um conjunto de "

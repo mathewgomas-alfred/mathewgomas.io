@@ -69,7 +69,7 @@ So one of the things that throw a lot of Paint Tool Sai users off is that Krita 
 .. image:: /images/en/Krita-color-to-alpha.png
    :align: center
 
-Like Sai, you can quickly turn a black and white image to black and transparent with the :menuselection:`Color to Alpha Filter` under :menuselection:`Filters --> Colors --> Color to Alpha`
+Like Sai, you can quickly turn a black and white image to black and transparent with the :menuselection:`Color to Alpha Filter` under :menuselection:`Filters --> Colors --> Color to Alpha`.
 
 Brush Settings
 ~~~~~~~~~~~~~~
@@ -103,7 +103,7 @@ Layers
 Lock Alpha
     This is the checker box icon next to every layer.
 Clipping group
-    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`
+    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`.
 Ink layer
     This is a vector layer in Krita, and also holds the text.
 Masks
@@ -206,9 +206,9 @@ What does Krita lack compared to Paint Tool Sai?
 * Variable width vector lines
 * The selection source option for layers
 * Dynamic hard-edges for strokes (the fringe effect)
-* No mix-docker.
-* No Preset-tied stabilizer.
-* No per-preset hotkeys.
+* No mix-docker
+* No Preset-tied stabilizer
+* No per-preset hotkeys
 
 Conclusion
 ----------

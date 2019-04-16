@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"POT-Creation-Date: 2019-04-09 03:44+0200\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,33 +19,33 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:1
 msgid "Overview of the advanced color selector docker."
-msgstr ""
+msgstr "高级拾色器简介"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:16
 msgid "Advanced Color Selector"
-msgstr "高级颜色选择面板"
+msgstr "高级拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:20
 msgid ".. image:: images/en/Advancecolorselector.jpg"
-msgstr ""
+msgstr ".. image:: images/en/Advancecolorselector.jpg"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:21
 msgid ""
-"As compared to other color selectors in Krita, Advance color selector "
-"provides more control and options to the user. To open Advance color "
-"selector choose :menuselection:`Settings --> Docker --> Advance Color "
+"As compared to other color selectors in Krita, Advanced color selector "
+"provides more control and options to the user. To open Advanced color "
+"selector choose :menuselection:`Settings --> Dockers --> Advanced Color "
 "Selector`. You can configure this docker by clicking on the little wrench "
 "icon on the top left corner. Clicking on the wrench will open a popup window "
-"with following tabs and options :"
+"with following tabs and options:"
 msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:24
 msgid "Color Selector"
-msgstr "颜色选择器"
+msgstr "拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:26
 msgid "Here you configure the main selector."
-msgstr ""
+msgstr "在这里, 您可以配置主拾色器。"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:29
 msgid "Type and Shape"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:32
 msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:33
 msgid ""
@@ -72,6 +72,8 @@ msgid ""
 "measures either the difference between black and white, or the difference "
 "between black and the most colorful color."
 msgstr ""
+"HSV 色彩空间代表着色相，饱和度，明度（有些时候被称为 HSB ）。S 指的是饱和度"
+"（Saturation），它控制纯色中混入黑色与白色的量。"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:38
 msgid "HSL"
@@ -123,7 +125,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:52
 msgid "Luma Coefficients"
-msgstr "Luma 系数"
+msgstr "光度系数"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:54
 msgid ""
@@ -203,7 +205,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:85
 msgid "Zoom selector UI"
-msgstr ""
+msgstr "显示浮动放大界面"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:87
 msgid ""
@@ -245,7 +247,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:99
 msgid "Shade selector"
-msgstr ""
+msgstr "光影拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:101
 msgid ""
@@ -255,7 +257,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:105
 msgid "Update Selector"
-msgstr ""
+msgstr "拾色器颜色更新条件"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:107
 msgid "This allows you to determine when the shade selector updates."
@@ -263,7 +265,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:110
 msgid "MyPaint Shade Selector"
-msgstr ""
+msgstr "显示 MyPaint 光影拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:112
 msgid ""
@@ -273,7 +275,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:116
 msgid "Simple Shade Selector"
-msgstr ""
+msgstr "简单光影拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:118
 msgid "This allows you to configure the simple shade selector in detail."
@@ -281,7 +283,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:121
 msgid "Color Patches"
-msgstr ""
+msgstr "色块"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:123
 msgid "This sets the options of the color patches."
@@ -359,7 +361,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:143
 msgid "History patches"
-msgstr ""
+msgstr "历史颜色色块"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:145
 msgid ""
@@ -369,7 +371,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:148
 msgid "Common Patches"
-msgstr ""
+msgstr "常见颜色色块"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:150
 msgid ""

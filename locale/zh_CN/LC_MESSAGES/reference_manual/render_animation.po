@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"POT-Creation-Date: 2019-04-13 03:33+0200\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "配置 Krita 以导出动画"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:63
 msgid "Step 1 - Downloading FFMpeg"
-msgstr ""
+msgstr "第一步 - 下载 FFMpeg"
 
 #: ../../reference_manual/render_animation.rst:66
 #: ../../reference_manual/render_animation.rst:86
@@ -235,12 +235,12 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
-msgstr ""
+msgstr "第二步 - 解压缩并与 Krita 建立联系"
 
 #: ../../reference_manual/render_animation.rst:88
 msgid ""
 "Unzip the package that was just downloaded. Rename the long folder name to "
-"just ffmpeg. Let's put this folder in a easy to find location. go to your C:"
+"just ffmpeg. Let's put this folder in a easy to find location. Go to your C:"
 "\\ and place it there. You can put it wherever you want, but that is where I "
 "put it."
 msgstr ""
@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "第三步 - 测试导出动画"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""
-"Let's make an animated GIF. in the Render Animation dialog, change the :"
+"Let's make an animated GIF. In the Render Animation dialog, change the :"
 "guilabel:`Render As`  field to \"GIF image\". Choose the file location where "
 "it will save with the \"File\" menu below. I just saved it to my desktop and "
 "called it \"export.gif\". When it is done, you should be able to open it up "
@@ -288,7 +288,7 @@ msgstr ""
 #: ../../reference_manual/render_animation.rst:111
 msgid ""
 "By default, FFMPEG will render MP4 files with a too new codec, which means "
-"that windows media player won't be able to play it. So for windows, select "
+"that Windows Media Player won't be able to play it. So for Windows, select "
 "\"baseline\" for the profile instead of \"high422\" before rendering."
 msgstr ""
 

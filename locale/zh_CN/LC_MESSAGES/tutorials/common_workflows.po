@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"POT-Creation-Date: 2019-04-11 03:44+0200\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -82,19 +82,19 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/en/common-workflows/Krita-GMIC-colorize-interactive.png\n"
-"   :alt: G'MIC colorise interactive window"
+"   :alt: G'MIC colorize interactive window"
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/en/common-workflows/Colorize-krita.png\n"
-"   :alt: G'MIC colorise comics layer setup"
+"   :alt: G'MIC colorize comics layer setup"
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/en/common-workflows/Colorise-comics-setting.png\n"
-"   :alt: Colorise Interactive dialog and settings"
+"   :alt: Colorize Interactive dialog and settings"
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:None
@@ -133,11 +133,11 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:15
 msgid "Common Workflows"
-msgstr ""
+msgstr "常用工作流程"
 
 #: ../../tutorials/common_workflows.rst:17
 msgid ""
-"Krita's main goal is to help artists create digital painting from scratch. "
+"Krita's main goal is to help artists create a digital painting from scratch. "
 "Krita is used by comic artists, matte painters, texture artists, and "
 "illustrators around the world. This section explains some common workflow "
 "that artists use in Krita. When you open a new document in Krita for the "
@@ -149,24 +149,24 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:20
 msgid "Speed Painting and Conceptualizing"
-msgstr ""
+msgstr "快速绘画和探索概念"
 
 #: ../../tutorials/common_workflows.rst:22
 msgid ""
-"Some artists work only on digital medium, sketching and visualizing concepts "
-"in Krita from scratch. As the name suggests a technique of painting done "
-"within matter of hours to quickly visualize the basic scene , character, "
-"look and feel of the environment or to denote the general mood and overall "
-"concept is called a **speed painting**. Finishing and finer details are not "
-"the main goal of this type of painting, but the representation of form value "
-"and layout is main goal."
+"Some artists work only on the digital medium, sketching and visualizing "
+"concepts in Krita from scratch. As the name suggests a technique of painting "
+"done within a matter of hours to quickly visualize the basic scene, "
+"character, look and feel of the environment or to denote the general mood "
+"and overall concept is called a **speed painting**. Finishing and finer "
+"details are not the main goals of this type of painting, but the "
+"representation of form value and layout is the main goal."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:24
 msgid ""
-"Some artists set time limit to complete the painting while some paint "
+"Some artists set a time limit to complete the painting while some paint "
 "casually. Speed painting then can be taken forward by adding finer details "
-"and polish to create a final piece. Generally artists first block in the "
+"and polish to create a final piece. Generally, artists first block in the "
 "composition by adding patches and blobs of flat colors, defining the "
 "silhouette, etc. Krita has some efficient brushes for this situation, for "
 "example, the brush under **Block Tag** like Block fuzzy, Block basic, "
@@ -176,10 +176,10 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:26
 msgid ""
 "After the composition and a basic layout has been laid out the artists add "
-"as much details as possible in the given limited time, this requires a "
+"as many details as possible in the given limited time, this requires a "
 "decent knowledge of forms, value perspective and proportions of the objects. "
 "Below is an example of speed paint done by `David Revoy <http://www."
-"davidrevoy.com/>`_  done in an hours time."
+"davidrevoy.com/>`_  in an hours time."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:32
@@ -196,23 +196,23 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:37
 msgid "Colorizing Line Art"
-msgstr ""
+msgstr "给线稿上色"
 
 #: ../../tutorials/common_workflows.rst:39
 msgid ""
-"Often an artist for example a comic book colorist will need to take a pencil "
-"sketch or other line art of some sort and use Krita to paint underneath it. "
-"This can be either an image created digitally or something that was done "
-"outside the computer and has been scanned."
+"Often an artist, for example, a comic book colorist will need to take a "
+"pencil sketch or other line art of some sort and use Krita to paint "
+"underneath it. This can be either an image created digitally or something "
+"that was done outside the computer and has been scanned."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:42
 msgid "Preparing the line art"
-msgstr ""
+msgstr "处理线稿"
 
 #: ../../tutorials/common_workflows.rst:44
 msgid ""
-"If your images has a white or other single-tone background, you can use "
+"If your images have a white or other single-tone background, you can use "
 "either of the following methods to prepare the art for coloring:"
 msgstr ""
 
@@ -238,7 +238,7 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:55
 msgid ""
 "If you draw in blue pencils and then ink your line art you may need to "
-"remove the blue lines first to do that go to :menuselection:`Filter --> "
+"remove the blue lines first to do that go to :menuselection:`Filters --> "
 "Adjust --> Color adjustment` curves or press shortcut :kbd:`Ctrl + M`."
 msgstr ""
 
@@ -246,13 +246,13 @@ msgstr ""
 msgid ""
 "Now select **Red** from the drop-down, click on the top right node on the "
 "graph and slide it all the way down. Or you can click on the top right node "
-"and enter **0** in the output field. Repeat this step for **Green** too."
+"and enter **0** in the input field. Repeat this step for **Green** too."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:65
 msgid ""
 "Now the whole drawing will have a blue overlay, zoom in and check if the "
-"blue pencil lines are still visible slightly, If you still see them, then go "
+"blue pencil lines are still visible slightly. If you still see them, then go "
 "to **Blue** Channel in the color adjustment and shift the top right node "
 "towards left a bit, Or enter a value around 190 (one that removes the "
 "remaining rough lines) in the input box."
@@ -261,9 +261,9 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:70
 msgid ""
 "Now apply the color adjustment filter, yes we still have lots of blue on the "
-"artwork be patient and move on to the next step. Go to :menuselection:"
-"`Filter --> Adjust --> Desaturate` or press :kbd:`Ctrl + Shift + U`. Now "
-"select max from the list."
+"artwork. Be patient and move on to the next step. Go to :menuselection:"
+"`Filters --> Adjust --> Desaturate` or press :kbd:`Ctrl + Shift + U`. Now "
+"select :guilabel:`Max` from the list."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:75
@@ -300,12 +300,12 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:87
 msgid "Laying in Flat Colors"
-msgstr ""
+msgstr "铺上底色"
 
 #: ../../tutorials/common_workflows.rst:89
 msgid ""
-"There are many ways to color a line art in Krita, but generally these three "
-"are the common among the artists."
+"There are many ways to color a line art in Krita, but generally, these three "
+"are common among the artists."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:91
@@ -317,7 +317,7 @@ msgid "Fill with Flood fill Tool."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:93
-msgid "Use one of the GMIC colorise comics filters."
+msgid "Use one of the G'MIC colorize comics filters."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:96
@@ -336,7 +336,7 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:100
 msgid ""
 "Add a layer underneath your line art layer and start painting with the "
-"brush, If you want to correct any area you can press :kbd:`E` and convert "
+"brush. If you want to correct any area you can press :kbd:`E` and convert "
 "the same brush into an eraser. You can also use a layer each for different "
 "colors for more flexibility."
 msgstr ""
@@ -356,34 +356,35 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:110
 msgid ""
-"Choose a color from color elector and just click on the area you want to "
+"Choose a color from color selector and just click on the area you want to "
 "fill the color. As we have expanded the fill with grow selection the color "
 "will be filled slightly underneath the line art thus giving us a clean fill."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:113
-msgid "GMIC Colorise [Interactive]"
+msgid "GMIC Colorize [Interactive]"
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:115
 msgid ""
 "The third method is to use take advantage of the integrated G'Mic filters. "
 "These are powerful filters that can dramatically improve your workflow and "
-"cut your down on your production time. To begin coloring with the GMIC "
-"colorize interactive, go to :menuselection:`Filter --> GMIC`. Choose :"
-"menuselection:`Filter --> G'Mic --> Black & white --> Colorize[interactive]` "
-"from the list of filters. Then select Line art for :menuselection:`Input "
-"type, Image + Colors (2 Layers)` for output type, set the view resolution "
-"according to your need. If you have any specific color palette to use for "
-"coloring add the path for it in additional color palette. The example of the "
-"filter window with the required inputs is shown below."
+"cut you down on your production time. To begin coloring with the G'MIC "
+"colorize interactive, go to :menuselection:`Filters --> G'MIC`. Choose :"
+"menuselection:`Filters --> G'MIC --> Black & white --> "
+"Colorize[interactive]` from the list of filters. Then select Line art for :"
+"menuselection:`Input type, Image + Colors (2 Layers)` for output type, set "
+"the view resolution according to your need. If you have any specific color "
+"palette to use for coloring add the path for it in an additional color "
+"palette. The example of the filter window with the required inputs is shown "
+"below."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:121
 msgid ""
 "Press **Apply** to begin the coloring, this will open a color selector "
 "**palette** window and a window showing your line art. Choose the color from "
-"the palette and click on the areas that needs to be filled with color like "
+"the palette and click on the areas that need to be filled with color like "
 "the example shown below."
 msgstr ""
 
@@ -400,7 +401,7 @@ msgstr ""
 #: ../../tutorials/common_workflows.rst:128
 msgid ""
 "Once you have finished adding the desired flat colors you can press :kbd:"
-"`Enter` to apply the filter. Then don't forget to press **Ok** in the GMIC "
+"`Enter` to apply the filter. Then don't forget to press **Ok** in the G'MIC "
 "dialog box."
 msgstr ""
 
@@ -417,9 +418,9 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:135
 msgid ""
-"Krita provides one more option to prepare flat colors through GMIC colorize "
+"Krita provides one more option to prepare flat colors through G'MIC colorize "
 "comics filter. This technique needs some preparations before you run the "
-"GMIC filter. This layer extrapolates the color spots that you input below "
+"G'MIC filter. This layer extrapolates the color spots that you input below "
 "the line art"
 msgstr ""
 
@@ -437,17 +438,17 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:144
 msgid ""
-"Now go to :menuselection:`Filter --> G'Mic --> Black & white --> "
-"Colorize[comics]`. In the GMIC dialog box, select all for input and inplace "
-"(default) for output, select :guilabel`Lineart + color spots + extrapolated "
-"layers` for both input and output layers on the right hand side. Smoothness "
+"Now go to :menuselection:`Filters --> G'MIC --> Black & white --> "
+"Colorize[comics]`. In the G'MIC dialog box, select all for input and inplace "
+"(default) for output, select :guilabel:`Lineart + color spots + extrapolated "
+"layers` for both input and output layers on the right-hand side. Smoothness "
 "is for filling gap tolerance and details the default is 0.5 you can adjust "
 "it according to your line art."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:149
 msgid ""
-"Press **Apply** and **Ok** to apply and exit the GMIC dialog. You'll now "
+"Press **Apply** and **Ok** to apply and exit the G'MIC dialog. You'll now "
 "have flat colors beneath you line art. More details about this technique can "
 "be found in the tutorial `at Timothée Giet's blog <http://timotheegiet.com/"
 "blog/comics/gmic-colorize-comics-working-in-krita.html>`_."
@@ -459,21 +460,21 @@ msgstr "绘画"
 
 #: ../../tutorials/common_workflows.rst:156
 msgid "Starting from chaos"
-msgstr ""
+msgstr "从混沌中开始"
 
 #: ../../tutorials/common_workflows.rst:158
 msgid ""
 "Here, you start by making a mess through random shapes and texture, then "
 "taking inspirations from the resulting chaos you can form various concepts. "
 "It is kind of like making things from clouds or finding recognizable shapes "
-"of things in abstract and random textures. Many concept artist work with "
+"of things in abstract and random textures. Many concept artists work with "
 "this technique."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:160
 msgid ""
 "You can use brushes like the shape brush, or the spray brush to paint a lot "
-"of different shapes, and from the resulting noise, you let you brain pick "
+"of different shapes, and from the resulting noise, you let your brain pick "
 "out shapes and compositions."
 msgstr ""
 
@@ -486,7 +487,7 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:168
 msgid "Starting from a value based underground"
-msgstr ""
+msgstr "从基于明度的画面基盘开始"
 
 #: ../../tutorials/common_workflows.rst:170
 msgid ""
@@ -500,9 +501,9 @@ msgid ""
 "With Krita you can use blending modes for this purpose. Choosing the color "
 "blending mode on a layer on top allows you to change the colors of the image "
 "without changing the relative luminosity. This is useful, because humans are "
-"much more sensitive to tonal differences than difference in saturation and "
-"hue. This'll allow you to work in greyscale before going into color for the "
-"polishing phase."
+"much more sensitive to tonal differences than the difference in saturation "
+"and hue. This'll allow you to work in greyscale before going into color for "
+"the polishing phase."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:174
@@ -513,13 +514,13 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:177
 msgid "Preparing Tiles and Textures"
-msgstr ""
+msgstr "制作拼贴画和材质"
 
 #: ../../tutorials/common_workflows.rst:179
 msgid ""
 "Many artists use Krita to create textures for 3d assets used for games "
 "animation etc. Krita has many texture template for you to choose and get "
-"started with creating textures. These template have common sizes, bit depth "
+"started with creating textures. These templates have common sizes, bit depth "
 "and color profiles that are used for texturing workflow."
 msgstr ""
 
@@ -527,7 +528,7 @@ msgstr ""
 msgid ""
 "Krita also has a real-time seamless tile mode to help texture artist prepare "
 "tiles and texture easily and check if it is seamless on the fly. The tiled "
-"mode is called wrap around mode , to activate this mode you have press :kbd:"
+"mode is called wrap-around mode, to activate this mode you have press :kbd:"
 "`W`. No when you paint the canvas is tiled in real-time allowing you to "
 "create seamless pattern and texture, it is also easy to prepare interlocking "
 "patterns and motifs in this mode."
@@ -535,21 +536,21 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:184
 msgid "Creating Pixel Art"
-msgstr ""
+msgstr "绘制像素画"
 
 #: ../../tutorials/common_workflows.rst:186
 msgid ""
-"Krita can also be used to create high definition pixel painting. The pixel "
+"Krita can also be used to create a high definition pixel painting. The pixel "
 "art look can be achieved by using Index color filter layer and overlaying "
 "dithering patterns. The general layer stack arrangement is as shown below."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:191
 msgid ""
-"The index color filter maps specific user selected colors to the grey scale "
+"The index color filter maps specific user-selected colors to the grey scale "
 "value of the artwork. You can see the example below, the strip below the "
-"black and white gradient has index color applied to it so that the black and "
-"white gradient gets the color selected to different values."
+"black and white gradient has an index color applied to it so that the black "
+"and white gradient gets the color selected to different values."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:196
@@ -563,14 +564,14 @@ msgid ""
 "Dithering can be used to enhance the look of the art and to ease the banding "
 "occurred by the index color filter. Krita has a variety of dithering "
 "patterns by default, these can be found in pattern docker. You can use these "
-"patterns as fill layer , then set the blend mode to **overlay** and adjust "
-"the opacity according to your liking. generally an opacity range of 10% - "
+"patterns as fill layer, then set the blend mode to **overlay** and adjust "
+"the opacity according to your liking. Generally, an opacity range of 10% - "
 "25% is ideal."
 msgstr ""
 
 #: ../../tutorials/common_workflows.rst:203
 msgid ""
-"Paint the artwork in grey-scale and add a index color filter layer at the "
+"Paint the artwork in grey-scale and add an index color filter layer at the "
 "top then add the dithering pattern fill layer below the index color filter "
 "but above the artwork layer, as shown in the layer stack arrangement above. "
 "You can paint or adjust the artwork at any stage as we have added the index "

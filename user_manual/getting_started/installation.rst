@@ -19,8 +19,7 @@ Installation
 
 Windows
 -------
-Windows users can download the latest releases from our
-`website. <https://krita.org/download/>`_ Click on the **All Download Versions**
+Windows users can download the latest releases from our `website. <https://krita.org/download/>`_ Click on the **All Download Versions**
 link in the download page to get either 64bit or 32bit according to the architecture of your OS. To determine the achitecture
 go to **Windows Control Panel** then click on the **System Icon**, your system type will be listed under the system section.
 
@@ -54,7 +53,7 @@ Nautilus/Nemo file extensions
 Since April 2016, KDE's Dolphin file manager shows kra and ora thumbnails by
 default, but Nautilus and it's derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
-thumbnails <http://moritzmolch.com/1749>`__.
+thumbnails <https://moritzmolch.com/1749>`__.
 
 Appimages
 ~~~~~~~~~
@@ -67,7 +66,7 @@ Double click it, and enjoy Krita. (Or run it in the terminal with
 ./appimagename.appimage)
 
 - Open the terminal into the folder you have the appimage.
-- Make it executable
+- Make it executable:
 
 ::
 
@@ -98,7 +97,7 @@ OpenSUSE
 
 The latest stable builds are available from KDE:Extra repo:
 
--  http://download.opensuse.org/repositories/KDE:/Extra/
+-  https://download.opensuse.org/repositories/KDE:/Extra/
 
 .. note::
    Krita is also in the official repos, you can install it from Yast.
@@ -110,13 +109,13 @@ Krita is in the official repos, you can install it by using packagekit (Add/Remo
 
 ``dnf install krita``
 
-You can also use the software center such as gnome software center or Discover to install Krita
+You can also use the software center such as gnome software center or Discover to install Krita.
 
 Debian
 ~~~~~~
 
 The latest version of Krita available in Debian is 3.1.1.
-To install Krita type the following line in terminal
+To install Krita type the following line in terminal:
 
 ``apt install krita``
 
@@ -125,7 +124,7 @@ Arch
 ~~~~
 
 Arch Linux provides krita package in the Extra repository. You can
-install Krita by using the following command
+install Krita by using the following command:
 
 ``pacman -S krita``
 
@@ -173,4 +172,4 @@ communication channels:
 
 -  irc: irc.freenode.net, channel #krita
 -  `mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__
--  `forums <http://forum.kde.org/viewforum.php?f=136>`__
+-  `forums <https://forum.kde.org/viewforum.php?f=136>`__

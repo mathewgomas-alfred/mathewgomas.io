@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-30 03:35+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:1
 msgid "How to make and optimise images for use in the manual."
-msgstr ""
+msgstr "如何为使用手册制作和优化图像。"
 
 #: ../../contributors_manual/optimising_images.rst:15
 msgid "Images for the Manual"
-msgstr ""
+msgstr "如何为使用手册准备图像"
 
 #: ../../contributors_manual/optimising_images.rst:17
 msgid ""
@@ -31,6 +31,8 @@ msgid ""
 "particular it deals with making images for the manual, and how to optimise "
 "images."
 msgstr ""
+"此页面对 :ref:`saving_for_the_web` 页面的补充。主要讨论如何为本使用手册制作图"
+"像和优化它们的大小。"
 
 #: ../../contributors_manual/optimising_images.rst:19
 msgid "Contents"
@@ -38,7 +40,7 @@ msgstr "内容"
 
 #: ../../contributors_manual/optimising_images.rst:22
 msgid "Tools for making screenshots"
-msgstr ""
+msgstr "截图工具"
 
 #: ../../contributors_manual/optimising_images.rst:24
 msgid ""
@@ -46,12 +48,15 @@ msgid ""
 "tools, then :ref:`saving_for_the_web` won't be very helpful: It only saves "
 "out the canvas contents, after all!"
 msgstr ""
+"如果你打算为屏幕显示的各种面板和工具进行截图，光靠 :ref:`saving_for_the_web` "
+"的指引显然不够，毕竟这只能保存画布上面的图像。"
 
 #: ../../contributors_manual/optimising_images.rst:26
 msgid ""
 "So, instead, we'll make a screenshot. Depending on your operating system, "
 "there are several screenshot utilities available."
 msgstr ""
+"因此我们要先对屏幕进行截图。根据操作系统不同，我们有几种不同的截图工具可用。"
 
 #: ../../contributors_manual/optimising_images.rst:29
 #: ../../contributors_manual/optimising_images.rst:81
@@ -63,6 +68,8 @@ msgid ""
 "Windows has a build-in screenshot tool. It is by default on the :kbd:`PrtSc` "
 "key. On laptops you will sometimes need to use the :kbd:`Fn` key."
 msgstr ""
+"Windows 自带了截图工具，在默认状况下按 :kbd:`PrtSc` 键即可调用。在笔记本上面"
+"可能要配合 :kbd:`Fn` 键使用。"
 
 #: ../../contributors_manual/optimising_images.rst:34
 #: ../../contributors_manual/optimising_images.rst:88
@@ -76,16 +83,18 @@ msgid ""
 "using the :kbd:`PrtSc` key, as well do other popular desktop environments. "
 "If, for whatever reason, you have no"
 msgstr ""
+"Gnome、KDE 和大多数流行的桌面环境也都自带了截图工具，按 :kbd:`PrtSc` 键即可调"
+"用。而如果系统无此功能："
 
 #: ../../contributors_manual/optimising_images.rst:38
 msgid "With imagemagick, you can use the following command::"
-msgstr ""
+msgstr "使用 imagemagick，输入下面的命令::"
 
 #: ../../contributors_manual/optimising_images.rst:40
 #: ../../contributors_manual/optimising_images.rst:219
 #: ../../contributors_manual/optimising_images.rst:240
 msgid "ImageMagick"
-msgstr ""
+msgstr "ImageMagick"
 
 #: ../../contributors_manual/optimising_images.rst:42
 msgid ""
@@ -94,10 +103,12 @@ msgid ""
 "videos. Furthermore, gifs are quite nice to show off features with release "
 "notes."
 msgstr ""
+"虽然我们出于无障碍原则应该尽量避免在手册中使用 GIF 动画，但有时也不得不用它制"
+"作短视频。GIF 动画在配合新版发行日志展现软件特性时很好用。"
 
 #: ../../contributors_manual/optimising_images.rst:44
 msgid "For making short gifs, you can use the following programs:"
-msgstr ""
+msgstr "要制作 GIF 短视频，可以使用下列程序："
 
 #: ../../contributors_manual/optimising_images.rst:46
 msgid ""
@@ -105,10 +116,12 @@ msgid ""
 "easy user-interface. Like many screenrecording programs it does show trouble "
 "on Wayland."
 msgstr ""
+"`Peek <https://github.com/phw/peek>`_ -- 它的界面友好，还提供了 appimage。和"
+"许多录屏软件一样，它在 Wayland 下面有点水土不服。"
 
 #: ../../contributors_manual/optimising_images.rst:49
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../../contributors_manual/optimising_images.rst:51
 msgid ""
@@ -116,10 +129,12 @@ msgid ""
 "`the official apple documentation <https://support.apple.com/en-us/"
 "HT201361>`_."
 msgstr ""
+"OS X 的截图快捷键为 :kbd:`Shift + Command + 3` ，详情请参阅 `苹果官方文档 "
+"<https://support.apple.com/en-us/HT201361>`_ 。"
 
 #: ../../contributors_manual/optimising_images.rst:54
 msgid "The appropriate file format for the job"
-msgstr ""
+msgstr "按用途选择合适的文件格式。"
 
 #: ../../contributors_manual/optimising_images.rst:56
 msgid ""
@@ -127,46 +142,48 @@ msgid ""
 "we want to have images that look nice and have a low filesize, because that "
 "makes the manual easier to download or browse on the internet."
 msgstr ""
+"不同的文件格式适合不同类型的图像。我们既要提高画质，也要减小体积，因为这样有"
+"利于互联网浏览和下载使用手册。"
 
 #: ../../contributors_manual/optimising_images.rst:58
 msgid "GUI screenshots"
-msgstr ""
+msgstr "软件界面截图"
 
 #: ../../contributors_manual/optimising_images.rst:59
 msgid "This should use png, and if possible, in gif."
-msgstr ""
+msgstr "应当使用 PNG，如果可能则使用 GIF。"
 
 #: ../../contributors_manual/optimising_images.rst:60
 msgid "Images that have a lot of flat colors."
-msgstr ""
+msgstr "以非渐变色为主的图像。"
 
 #: ../../contributors_manual/optimising_images.rst:61
 msgid "This should use png."
-msgstr ""
+msgstr "应当使用 PNG。"
 
 #: ../../contributors_manual/optimising_images.rst:62
 msgid "Grayscale images"
-msgstr ""
+msgstr "灰阶图像"
 
 #: ../../contributors_manual/optimising_images.rst:63
 msgid "These should be gif or png."
-msgstr ""
+msgstr "应当使用 GIF 或 PNG。"
 
 #: ../../contributors_manual/optimising_images.rst:64
 msgid "Images with a lot of gradients"
-msgstr ""
+msgstr "渐变色较多的图像"
 
 #: ../../contributors_manual/optimising_images.rst:65
 msgid "These should be JPG."
-msgstr ""
+msgstr "应当使用 JPG。"
 
 #: ../../contributors_manual/optimising_images.rst:67
 msgid "Images with a lot of transparency."
-msgstr ""
+msgstr "透明度较多的图像"
 
 #: ../../contributors_manual/optimising_images.rst:67
 msgid "These should use PNG."
-msgstr ""
+msgstr "应当使用 PNG。"
 
 #: ../../contributors_manual/optimising_images.rst:69
 msgid ""
@@ -176,6 +193,10 @@ msgid ""
 "PNG does a lot better with images with sharp contrasts, while in some cases "
 "we can even have less than 256 colors, so gif might be better."
 msgstr ""
+"上述惯例是由每种文件格式保存颜色的方式决定的。JPEG 使用一种 :ref:`不同的压缩"
+"方式 <lossy_compression>` ，它适合照片和渐变色较多的图像，但不适合对比强烈的"
+"场景。PNG 在处理具有锐利对比的图像时效果远好于前者。如果图像的颜色数目少于 "
+"256 种，则 GIF 会更加适合。"
 
 #: ../../contributors_manual/optimising_images.rst:71
 msgid ""
@@ -190,20 +211,27 @@ msgid ""
 "gif or PNG, instead of jpeg which could have nasty artifacts. (And, it is "
 "also a bit smaller)"
 msgstr ""
+"灰阶图像，不管渐变和颜色变化如何，都应使用 PNG。这是因为对于全彩图像而言，我"
+"们需要描述 3 到 5 种原色，而每种原色又有 256 种可能数值，这样一来图像会变得很"
+"大。JPEG 和其他有损格式通过心理学手段巧妙地削减了全彩图像展现内容所需的数据。"
+"但是灰阶图像只需描述亮度一组 256 个数值，特别适合 GIF 或 PNG，而 JPEG 此时反"
+"而容易产生伪像，文件体积也不具优势。"
 
 #: ../../contributors_manual/optimising_images.rst:73
 msgid "**When in doubt, use PNG.**"
-msgstr ""
+msgstr "**要是拿不定主意，请使用 PNG。**"
 
 #: ../../contributors_manual/optimising_images.rst:76
 msgid "Optimising Images in quality and size"
-msgstr ""
+msgstr "优化图像品质和尺寸。"
 
 #: ../../contributors_manual/optimising_images.rst:78
 msgid ""
 "Now, while most image editors try to give good defaults on image sizes, we "
 "can often make them even smaller by using certain tools."
 msgstr ""
+"虽然绝大多数图像编辑软件都会尽量减小文件体积，我们还可以通过其他工具来把图片"
+"变得更小。"
 
 #: ../../contributors_manual/optimising_images.rst:83
 msgid ""
@@ -211,14 +239,16 @@ msgid ""
 "<https://www.irfanview.com/>`_, but the dear writer of this document has no "
 "idea how to use it exactly."
 msgstr ""
+"在 Windows 下面人们经常推荐使用 `IrfranView <https://www.irfanview.com/>`_ ，"
+"但本文档的作者搞不懂怎么用它。"
 
 #: ../../contributors_manual/optimising_images.rst:85
 msgid "The other option is to use PNGCrush as mentioned in the linux section."
-msgstr ""
+msgstr "另一个选项则是 PNGCrush，参见 Linux 一节。"
 
 #: ../../contributors_manual/optimising_images.rst:91
 msgid "Optimising PNG"
-msgstr ""
+msgstr "优化 PNG 文件"
 
 #: ../../contributors_manual/optimising_images.rst:92
 msgid ""
@@ -227,20 +257,23 @@ msgid ""
 "(Using psychological tricks), and Lossless (trying to compress the data more "
 "conventionally). The following are however the most recommended:"
 msgstr ""
+"Linux 下面有多种 `PNG 优化工具 <https://css-ig.net/png-tools-overview>`_ 可供"
+"选用。它们分为两类：有损 (按心理学原则削减数据) 和无损 (用一般方式进行压缩)。"
+"推荐使用："
 
 #: ../../contributors_manual/optimising_images.rst:95
 msgid ""
 "A PNG compressor using lossy techniques to reduce the amount of colors used "
 "in a smart way."
-msgstr ""
+msgstr "此 PNG 压缩工具通过一些有损技术巧妙地降低了图像使用的颜色数目。"
 
 #: ../../contributors_manual/optimising_images.rst:97
 msgid "To use PNGquant, go to the folder of choice, and type::"
-msgstr ""
+msgstr "要使用 PNGquant，前往目标文件夹，然后输入::"
 
 #: ../../contributors_manual/optimising_images.rst:101
 msgid "`PNGQuant <https://pngquant.org/>`_"
-msgstr ""
+msgstr "`PNGQuant <https://pngquant.org/>`_"
 
 #: ../../contributors_manual/optimising_images.rst:101
 msgid ""
@@ -250,29 +283,37 @@ msgid ""
 "don't do well with it, so always double check that the resulting image looks "
 "good, otherwise try one of the following options:"
 msgstr ""
+"用实际文件名替换上述命令的 *image* 字段。按下 :kbd:`Enter`，压缩后的图像就会"
+"被生成在同一个文件夹里。PNGQuant 适用于大多数图像，但某些图像，如颜色选择器的"
+"截图就不合适了，所以记得复查它生成的图像是否正常，如果它不好用，可以尝试下面"
+"几个选项："
 
 #: ../../contributors_manual/optimising_images.rst:104
 msgid "A lossless PNG compressor. Usage::"
-msgstr ""
+msgstr "这是一个无损的 PNG 压缩工具。用法::"
 
 #: ../../contributors_manual/optimising_images.rst:108
 msgid "`PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_"
-msgstr ""
+msgstr "`PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_"
 
 #: ../../contributors_manual/optimising_images.rst:108
 msgid ""
 "This will try the most common methods. Add ``-brute`` to try out all methods."
 msgstr ""
+"该指令仅通过常见手段进行压缩，添加 ``-brute`` 参数后软件会使用一切可能手段进"
+"行压缩。"
 
 #: ../../contributors_manual/optimising_images.rst:111
 msgid ""
 "Another lossless PNG compressor which can be run after using PNGQuant, it is "
 "apparently originally a fork of png crush. Usage::"
 msgstr ""
+"这是一个无损的 PNG 压缩工具，一开始是 PNGCrush 的分支项目，可以在使用 "
+"PNGQuant 之后使用。用法::"
 
 #: ../../contributors_manual/optimising_images.rst:116
 msgid "`Optipng <http://optipng.sourceforge.net/>`_"
-msgstr ""
+msgstr "`Optipng <http://optipng.sourceforge.net/>`_"
 
 #: ../../contributors_manual/optimising_images.rst:116
 msgid ""
@@ -281,26 +322,28 @@ msgid ""
 "optimised version. You can avoid overwriting with the ``--out imageout.png`` "
 "command."
 msgstr ""
+"把 image 字段换成图像文件名。OptiPNG 会试用几种压缩算法，然后用优化后的图像**"
+"覆盖**原图。要避免覆盖，可使用 ``--out imageout.png`` 命令。"
 
 #: ../../contributors_manual/optimising_images.rst:119
 msgid "Optimising GIF"
-msgstr ""
+msgstr "优化 GIF 文件"
 
 #: ../../contributors_manual/optimising_images.rst:121
 msgid "`FFMPEG <http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html>`_"
-msgstr ""
+msgstr "`FFMPEG <http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html>`_"
 
 #: ../../contributors_manual/optimising_images.rst:122
 msgid "`Gifski <https://gif.ski/>`_"
-msgstr ""
+msgstr "`Gifski <https://gif.ski/>`_"
 
 #: ../../contributors_manual/optimising_images.rst:123
 msgid "`LossyGif <https://kornel.ski/lossygif>`_"
-msgstr ""
+msgstr "`LossyGif <https://kornel.ski/lossygif>`_"
 
 #: ../../contributors_manual/optimising_images.rst:126
 msgid "Optimising JPEG"
-msgstr ""
+msgstr "优化 JPEG 文件"
 
 #: ../../contributors_manual/optimising_images.rst:128
 msgid ""
@@ -308,6 +351,8 @@ msgid ""
 "ref:`lossy file format <lossy_compression>`, and that means that it uses "
 "psychological tricks to store its data."
 msgstr ""
+"JPEG 很难进行有效优化。这是因为它是一种 :ref:`有损文件格式 "
+"<lossy_compression>` ，意味着它通过心理学手段保存数据。"
 
 #: ../../contributors_manual/optimising_images.rst:130
 msgid ""
@@ -317,69 +362,80 @@ msgid ""
 "image somewhere that you can edit, and that only the final result is in JPEG "
 "and gets compressed further."
 msgstr ""
+"然而这些手段在图像具有很多强烈对比时很容易露馅，例如文字。JPEG 也不适合被反复"
+"保存。因此要确保图像已被另存为无损格式用于编辑，而只在输出最终结果时才用 "
+"JPEG 进行进一步压缩。"
 
 #: ../../contributors_manual/optimising_images.rst:135
 msgid "MacOS/ OS X"
-msgstr ""
+msgstr "MacOS/ OS X"
 
 #: ../../contributors_manual/optimising_images.rst:137
 msgid ""
 "`ImageOptim <https://imageoptim.com/mac>`_ -- A Graphical User Interface "
 "wrapper around commandline tools like PNGquant and gifski."
 msgstr ""
+"`ImageOptim <https://imageoptim.com/mac>`_ -- 一个为诸如 PNGquant 和 gifski "
+"等设计的图形界面。"
 
 #: ../../contributors_manual/optimising_images.rst:140
 msgid "Editing the metadata of a file"
-msgstr ""
+msgstr "编辑文件的元数据"
 
 #: ../../contributors_manual/optimising_images.rst:142
 msgid ""
 "Sometimes, personal information gets embedded into an image file. "
 "Othertimes, we want to embed information into a file to document it better."
 msgstr ""
+"个人信息有时候会不小心被嵌入到图像文件中，而有时候我们会用嵌入信息来辅助文件"
+"的整理记录工作。"
 
 #: ../../contributors_manual/optimising_images.rst:144
 msgid ""
 "There are no less than 3 to 4 different ways of handling metadata, and "
 "metadata has different ways of handling certain files."
-msgstr ""
+msgstr "处理元数据的工具有好几种，不同文件格式的元数据结构也不尽相同。"
 
 #: ../../contributors_manual/optimising_images.rst:146
 msgid ""
 "The most commonly used tool to edit metadata is :program:`ExifTool`, another "
 "is to use :program:`ImageMagick`."
 msgstr ""
+"用于编辑元数据的最常用工具是 :program:`ExifTool` ，除此之外还可以使用 :"
+"program:`ImageMagick` 。"
 
 #: ../../contributors_manual/optimising_images.rst:149
 msgid "Windows and OS X"
-msgstr ""
+msgstr "Windows 和 OS X"
 
 #: ../../contributors_manual/optimising_images.rst:151
 msgid ""
 "To get exiftool, `just get it from the website <https://www.sno.phy.queensu."
 "ca/~phil/exiftool/>`_."
 msgstr ""
+"要下载exiftool，可访问其网站 <https://www.sno.phy.queensu.ca/~phil/exiftool/"
+">`_ 。"
 
 #: ../../contributors_manual/optimising_images.rst:156
 msgid "On Linux, you can also install exiftool."
-msgstr ""
+msgstr "在 Linux 下面你还可以直接安装 exiftool。"
 
 #: ../../contributors_manual/optimising_images.rst:159
 msgid "Debian/Ubuntu"
-msgstr ""
+msgstr "Debian/Ubuntu"
 
 #: ../../contributors_manual/optimising_images.rst:159
 msgid "``sudo apt-get install libimage-exiftool-perl``"
-msgstr ""
+msgstr "``sudo apt-get install libimage-exiftool-perl``"
 
 #: ../../contributors_manual/optimising_images.rst:162
 msgid "Viewing Metadata"
-msgstr ""
+msgstr "查看元数据"
 
 #: ../../contributors_manual/optimising_images.rst:164
 msgid ""
 "Change the directory to the folder where the image is located and type::"
-msgstr ""
+msgstr "切换到图像文件所在的目录，然后输入::"
 
 #: ../../contributors_manual/optimising_images.rst:168
 msgid ""
@@ -390,83 +446,99 @@ msgid ""
 "sometimes when it comes to privacy, and also the primary reason all metadata "
 "gets stripped."
 msgstr ""
+"把 image 字段换成你需要的文件名。如果只输入 ``exiftool``，它会把当前目录下面"
+"的文件的元数据全部输出。仔细查看某些图像的元数据，你会不时发现它们包含了作者"
+"和位置元数据。这对于隐私来说会造成一些问题，因此我们有时需要清空全部元数据。"
 
 #: ../../contributors_manual/optimising_images.rst:170
 msgid ""
 "You can also use `ImageMagick's identify <https://www.imagemagick.org/script/"
 "identify.php>`_::"
 msgstr ""
+"你还可以使用 `ImageMagick 的 identify 参数 <https://www.imagemagick.org/"
+"script/identify.php>`_::"
 
 #: ../../contributors_manual/optimising_images.rst:175
 msgid "Stripping Metadata"
-msgstr ""
+msgstr "清空元数据"
 
 #: ../../contributors_manual/optimising_images.rst:177
 msgid ""
 "Stripping metadata from the example ``image.png`` can be done as follows:"
-msgstr ""
+msgstr "以 ``image.png`` 为例，元数据的清空方式如下："
 
 #: ../../contributors_manual/optimising_images.rst:180
 msgid "`exiftool -all= image.png`"
-msgstr ""
+msgstr "`exiftool -all= image.png`"
 
 #: ../../contributors_manual/optimising_images.rst:182
 msgid ""
 "`ExifTool <http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/"
 "Remove-EXIF-Metadata-from-Photos-with-exiftool>`_"
 msgstr ""
+"`ExifTool <http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/"
+"Remove-EXIF-Metadata-from-Photos-with-exiftool>`_"
 
 #: ../../contributors_manual/optimising_images.rst:182
 msgid ""
 "This empties all tags exiftool can get to. You can also be specific and only "
 "remove a single tag: `exiftool -author= image.png`"
 msgstr ""
+"这将清空 exiftool 所能处理的一切标签。你还可以指定移除一个单独标签："
+"`exiftool -author= image.png`"
 
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "OptiPNG"
-msgstr ""
+msgstr "OptiPNG"
 
 #: ../../contributors_manual/optimising_images.rst:185
 msgid "`optipng -strip image.png` This will strip and compress the png file."
 msgstr ""
+"`optipng -strip image.png` 指令会清空该 PNG 文件的元数据并对其进行压缩。"
 
 #: ../../contributors_manual/optimising_images.rst:188
 msgid ""
 "`ImageMagick <https://www.imagemagick.org/script/command-line-options."
 "php#strip>`_"
 msgstr ""
+"`ImageMagick <https://www.imagemagick.org/script/command-line-options."
+"php#strip>`_"
 
 #: ../../contributors_manual/optimising_images.rst:188
 msgid "`convert image.png --strip`"
-msgstr ""
+msgstr "`convert image.png --strip`"
 
 #: ../../contributors_manual/optimising_images.rst:191
 msgid "Extracting metadata"
-msgstr ""
+msgstr "提取元数据"
 
 #: ../../contributors_manual/optimising_images.rst:193
 msgid ""
 "Sometimes we want to extract metadata, like an icc profile, before stripping "
 "everything. This is done by converting the image to the profile type:"
 msgstr ""
+"我们有时需要把某些元数据提取出来，例如 ICC 配置文件，然后才清空全部元数据。图"
+"像可被直接转换为配置文件："
 
 #: ../../contributors_manual/optimising_images.rst:196
 msgid "First extract the metadata to a profile by converting::"
-msgstr ""
+msgstr "首先把图像的 ICC 元数据进行转换并提取为一个配置文件::"
 
 #: ../../contributors_manual/optimising_images.rst:200
 msgid "Then strip the file and readd the profile information::"
-msgstr ""
+msgstr "然后把源文件的元数据清空，再把 ICC 配置文件信息重新添加回去::"
 
 #: ../../contributors_manual/optimising_images.rst:203
 msgid ""
 "`ImageMagick's Convert <https://imagemagick.org/script/command-line-options."
 "php#profile>`_"
 msgstr ""
+"`ImageMagick's Convert <https://imagemagick.org/script/command-line-options."
+"php#profile>`_"
 
 #: ../../contributors_manual/optimising_images.rst:206
 msgid "Embedding description metadata"
-msgstr ""
+msgstr "嵌入描述元数据"
 
 #: ../../contributors_manual/optimising_images.rst:208
 msgid ""
@@ -475,22 +547,24 @@ msgid ""
 "there's no alt text to generate the alt-text. Another thing that you might "
 "want to embed is stuff like color space data."
 msgstr ""
+"描述元数据对于屏幕阅读器的用户来说非常有用，许多网页浏览器会在没有 alt 字串的"
+"情况下通过图像的描述元数据生成它。你或许也需要嵌入色彩空间之类的信息。"
 
 #: ../../contributors_manual/optimising_images.rst:210
 msgid "ExifTool"
-msgstr ""
+msgstr "ExifTool"
 
 #: ../../contributors_manual/optimising_images.rst:213
 msgid "Setting an exif value::"
-msgstr ""
+msgstr "设定一组 exif 数值::"
 
 #: ../../contributors_manual/optimising_images.rst:217
 msgid "Setting the PNG chunk for description::"
-msgstr ""
+msgstr "设置 PNG 区块描述::"
 
 #: ../../contributors_manual/optimising_images.rst:222
 msgid "Embedding license metadata"
-msgstr ""
+msgstr "嵌入许可证元数据"
 
 #: ../../contributors_manual/optimising_images.rst:224
 msgid ""
@@ -499,38 +573,40 @@ msgid ""
 "uploads it to another website, it is very likely the metadata is stripped "
 "with imagemagick."
 msgstr ""
+"嵌入许可证元数据的好处是可以永久标记某个文件的许可证。不过其他人在转载时很可"
+"能会通过 imagemagick 清空这些元数据。"
 
 #: ../../contributors_manual/optimising_images.rst:227
 msgid "Using Properties"
-msgstr ""
+msgstr "使用属性"
 
 #: ../../contributors_manual/optimising_images.rst:229
 msgid ""
 "You can use dcterms:license for defining the document where the license is "
 "defined."
-msgstr ""
+msgstr "你可以使用 dcterms:license 参数把许可证信息插入到文档规定的位置。"
 
 #: ../../contributors_manual/optimising_images.rst:232
 msgid "For the GDPL::"
-msgstr ""
+msgstr "用于 GDPL::"
 
 #: ../../contributors_manual/optimising_images.rst:236
 msgid "This defines a shorthand name and then license text."
-msgstr ""
+msgstr "这将定义一项属性名并填入许可证文本。"
 
 #: ../../contributors_manual/optimising_images.rst:238
 msgid "For Creative Commons BY-SA 4.0::"
-msgstr ""
+msgstr "用于 Creative Commons BY-SA 4.0::"
 
 #: ../../contributors_manual/optimising_images.rst:242
 msgid ""
 "The problem with using properties is that they are a non-standard way to "
 "define a license, meaning that machines cannot do much with them."
-msgstr ""
+msgstr "这种做法的问题是它并不符合许可证定义的规范，因此机器不能处理它们。"
 
 #: ../../contributors_manual/optimising_images.rst:245
 msgid "Using XMP"
-msgstr ""
+msgstr "使用 XMP"
 
 #: ../../contributors_manual/optimising_images.rst:247
 msgid ""
@@ -538,35 +614,42 @@ msgid ""
 "creativecommons.org/wiki/XMP>`_. You can ask the Creative Commons License "
 "choose to generate an appropriate XMP file for you when picking a license."
 msgstr ""
+"Creative Commons 网站建议我们 `使用 XMP 来定义许可证 <https://wiki."
+"creativecommons.org/wiki/XMP>`_ 。在 Creative Commons 网站上选取许可证时，可"
+"以要求它为你生成一个适合的 XMP 文件。"
 
 #: ../../contributors_manual/optimising_images.rst:249
 msgid ""
 "We'll need to use the `XMP tags for exiftool <https://www.sno.phy.queensu.ca/"
 "~phil/exiftool/TagNames/XMP.html>`_."
 msgstr ""
+"我们需要使用 `面向 exiftool 的 XMP 标签<https://www.sno.phy.queensu.ca/~phil/"
+"exiftool/TagNames/XMP.html>`_ 。"
 
 #: ../../contributors_manual/optimising_images.rst:251
 msgid "So that would look something like this::"
-msgstr ""
+msgstr "命令范例如下::"
 
 #: ../../contributors_manual/optimising_images.rst:255
 msgid "Another way of doing the marking is::"
-msgstr ""
+msgstr "或者也可以这样做 ::"
 
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data (if there is any)::"
-msgstr ""
+msgstr "首先提取元数据 (如有需要)::"
 
 #: ../../contributors_manual/optimising_images.rst:264
 msgid "Then modify the resulting file, and embed the image data::"
-msgstr ""
+msgstr "对生成的文件进行修改，然后把元数据嵌回到图像::"
 
 #: ../../contributors_manual/optimising_images.rst:266
 msgid "With imagemagick you can use the profile option again."
-msgstr ""
+msgstr "如果使用 imagemagick ，你可以使用 profile 参数。"
 
 #: ../../contributors_manual/optimising_images.rst:268
 msgid ""
 "The XMP definitions per license. You can generate an XMP file for the "
 "metadata on the creative commons website."
 msgstr ""
+"每个 XMP 标签定义一个许可证。你可以在 Creative Commons 网站上为图像的元数据生"
+"成 XMP 文件。"

@@ -98,7 +98,7 @@ One of the more confusing things is seeing all the C++ classes that Krita uses, 
 
     print(Krita.instance().filters())
 
-Outputs as ::
+Outputs as: ::
 
     ['asc-cdl', 'autocontrast', 'blur', 'burn', 'colorbalance', 'colortoalpha', 'colortransfer',
     'desaturate', 'dodge', 'edge detection', 'emboss', 'emboss all directions', 'emboss horizontal and vertical',
@@ -134,7 +134,7 @@ It is a list of something, sure, but how to use it? If we go back to the Krita a
         print(doc.name())
         print(" "+str(doc.width())+"x"+str(doc.height()))
 
-we get an output like::
+We get an output like::
 
     ==== Warning: Script not saved! ====
     Unnamed
@@ -164,7 +164,7 @@ The Python module ``inspect`` was designed for this sort of task. Here's a usefu
 
 
 
-Finally, in addition to the LibKis documentation, the Qt documentation, since Krita uses PyQt to expose nearly all of the Qt API to Python. You can build entire windows with buttons and forms this way, using the very same tools that Krita is using! You can read the `Qt documentation <http://doc.qt.io/>`_ and the `PyQt documentation <http://pyqt.sourceforge.net/Docs/PyQt5/>`_ for more info about this, and also definitely study the included plugins as well to see how they work.
+Finally, in addition to the LibKis documentation, the Qt documentation, since Krita uses PyQt to expose nearly all of the Qt API to Python. You can build entire windows with buttons and forms this way, using the very same tools that Krita is using! You can read the `Qt documentation <https://doc.qt.io/>`_ and the `PyQt documentation <https://www.riverbankcomputing.com/static/Docs/PyQt5/>`_ for more info about this, and also definitely study the included plugins as well to see how they work.
 
 
 Technical Details

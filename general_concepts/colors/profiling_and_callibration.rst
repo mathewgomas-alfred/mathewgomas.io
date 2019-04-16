@@ -13,9 +13,9 @@
 .. index:: Color, Profiling, Calibration
 .. _profiling_and_calibration:
 
-===========================
-Profiling and Calibration:
-===========================
+==========================
+Profiling and Calibration
+==========================
 
 So to make it simple, a color profile is just a file defining a set of colors inside a pure XYZ color cube.
 This "color set" can be used to define different things:
@@ -68,7 +68,7 @@ It's recommended not to change the "calibration" (contrast, brightness, you know
 To make your screen display more accurate colors, you can do one or two things:
 profile your screen or calibrate and profile it.
 
-Just profiling your screen means measuring the colors of your monitor with its native settings. and put those values in a color profile, which can be used by color-managed application to adapt source colors to the screen for optimal result.
+Just profiling your screen means measuring the colors of your monitor with its native settings and put those values in a color profile, which can be used by color-managed application to adapt source colors to the screen for optimal result.
 Calibrating and profiling means the same except that first you try to calibrate the screen colors to match a certain standard setting like sRGB or other more specific profiles. 
 Calibrating is done first with hardware controls (lightness, contrast, gamma curves), and then with software that creates a vcgt (video card gamma table) to load in the GPU.
 

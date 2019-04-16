@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-12 03:34+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,27 +19,29 @@ msgstr ""
 
 #: ../../user_manual/drawing_tablets.rst:0
 msgid ".. image:: images/en/Krita_tablet_stylus.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_stylus.png"
 
 #: ../../user_manual/drawing_tablets.rst:1
 msgid ""
 "Basic page describing drawing tablets, how to set them up for Krita and how "
 "to troubleshoot common tablet issues."
 msgstr ""
+"数位板使用基础页面。介绍如何针对 Krita 配置数位板，以及如何排除常见数位板问"
+"题。"
 
 #: ../../user_manual/drawing_tablets.rst:18
 msgid "Drawing Tablets"
-msgstr ""
+msgstr "数位板"
 
 #: ../../user_manual/drawing_tablets.rst:20
 msgid ""
 "This page is about drawing tablets, what they are, how they work, and where "
 "things can go wrong."
-msgstr ""
+msgstr "本页面介绍数位板——它们的用途、工作原理和遇到问题时的排除办法。"
 
 #: ../../user_manual/drawing_tablets.rst:24
 msgid "What are tablets?"
-msgstr ""
+msgstr "数位板是什么？"
 
 #: ../../user_manual/drawing_tablets.rst:26
 msgid ""
@@ -48,10 +50,13 @@ msgid ""
 "That’s why most people who draw digitally use a specialized piece of "
 "hardware known as a drawing tablet."
 msgstr ""
+"与铅笔和纸相比，用鼠标画画不仅不直观，还挺困难。更糟糕的是，长时间使用鼠标可"
+"能会导致腕管综合症。这就是为什么大多数从事数字绘画的人使用一种被称为“数位"
+"板”的专用输入设备。"
 
 #: ../../user_manual/drawing_tablets.rst:32
 msgid ".. image:: images/en/Krita_tablet_types.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_types.png"
 
 #: ../../user_manual/drawing_tablets.rst:33
 msgid ""
@@ -61,6 +66,9 @@ msgid ""
 "draw directly on the screen. These are better to use than a mouse because "
 "it’s more natural to draw with a stylus and generally better for your wrists."
 msgstr ""
+"数位板和键盘、鼠标一样，是接在计算机上的外部输入设备。大部分数位板看上去像块"
+"塑料板，配有一支可以感应光标位置和输入压力的压感笔，还有一些则是可以直接在屏"
+"幕上用压感笔作画的数位屏。它们在绘画时比鼠标感觉更自然，对手腕的劳损也更小。"
 
 #: ../../user_manual/drawing_tablets.rst:40
 msgid ""
@@ -69,6 +77,8 @@ msgid ""
 "smaller depending on the pressure you put on them, to create richer and more "
 "interesting strokes."
 msgstr ""
+"数位板和压感笔正确安装后，Krita 可以从它们那里获得压力等传感器信息，你可以通"
+"过施加的压力控制笔画的粗细，或者营造其他丰富有趣的笔触。"
 
 #: ../../user_manual/drawing_tablets.rst:46
 msgid ""
@@ -78,10 +88,14 @@ msgid ""
 "a finger. These tablets may not give good results and a pressure-sensitive "
 "tablet is recommended."
 msgstr ""
+"人们有时会把模拟手指触摸的电容笔跟真正数位板的压感笔搞混。一般来说，数位板的"
+"压感笔配有一个又硬又尖的笔尖，而模拟手指触摸的电容笔配有比较粗大的圆形橡胶笔"
+"尖，和指尖一样柔软又弹性。电容笔的绘画效果一般都不太好，所以我们建议使用真正"
+"的具有压力传感器的数位板。"
 
 #: ../../user_manual/drawing_tablets.rst:51
 msgid "Drivers and Pressure Sensitivity"
-msgstr ""
+msgstr "驱动程序和压力感应"
 
 #: ../../user_manual/drawing_tablets.rst:53
 msgid ""
@@ -90,6 +104,9 @@ msgid ""
 "doesn’t work! Or well, you can make strokes, but that pressure sensitivity "
 "you heard so much about doesn’t seem to work."
 msgstr ""
+"现在，你买了一款真正的数位板，迫不及待地想要在 Krita 里面使用它。你把数位板插"
+"入了 USB 接口，启动了 Krita……可这貌似并没有什么卵用。笔画虽然可以画得出来，可"
+"是你朝思暮想的压力感应却偏偏欠奉。"
 
 #: ../../user_manual/drawing_tablets.rst:58
 msgid ""
@@ -98,6 +115,9 @@ msgid ""
 "the website of the manufacturer. Go install it, and while you wait, we’ll go "
 "into the details of what it is!"
 msgstr ""
+"这是因为你还没有安装一个叫做“驱动程序”的东西。驱动程序一般会包含在数位板附带"
+"的光盘里，制造商也一般会在网站上提供驱动程序下载。执行它的安装程序后，可能需"
+"要等待一段时间才能安装完毕。让我们利用这点时间来说说驱动程序的来龙去脉吧！"
 
 #: ../../user_manual/drawing_tablets.rst:63
 msgid ""
@@ -107,6 +127,9 @@ msgid ""
 "an operating system called MacOS, and some people, including many of the "
 "developers use a system called Linux."
 msgstr ""
+"每台计算机都需要一个基本的软件系统来代替用户执行一些深奥繁琐的技术操作，这就"
+"是所谓的操作系统，简称 OS。绝大多数人使用的操作系统是 Windows，苹果设备的操作"
+"系统一般是 MacOS，而其余的一些人，包括许多程序员，习惯使用 Linux。"
 
 #: ../../user_manual/drawing_tablets.rst:69
 msgid ""
@@ -116,6 +139,10 @@ msgid ""
 "tablet. But to have those two communicate can be really difficult - so the "
 "operating system, works as a glue between the two."
 msgstr ""
+"虽然这几个操作系统各有特点，但它们的工作原理是大同小异的。现在，你想要在计算"
+"机上运行 Krita 这样的应用软件，然后想让 Krita 与数位板这样的外设硬件进行沟"
+"通。应用软件和硬件之间的直接沟通非常困难，而操作系统的作用就是在两者之间建立"
+"起一座桥梁。"
 
 #: ../../user_manual/drawing_tablets.rst:75
 msgid ""
@@ -124,10 +151,12 @@ msgid ""
 "to display things, and use the memory, and so on. Most importantly, it would "
 "like to get information from the tablet!"
 msgstr ""
+"每当你启动 Krita 之后，Krita 首先会与操作系统建立联系，要求它进行显示图像、调"
+"用内存等各种操作。不过现在最重要的是，Krita 要从数位板获取信息！"
 
 #: ../../user_manual/drawing_tablets.rst:81
 msgid ".. image:: images/en/Krita_tablet_drivermissing.png"
-msgstr ""
+msgstr ".. image:: images/en/Krita_tablet_drivermissing.png"
 
 #: ../../user_manual/drawing_tablets.rst:82
 msgid ""
@@ -137,6 +166,9 @@ msgid ""
 "right information about the tablet. The hardware manufacturer's job is to "
 "write a proper driver for each operating system."
 msgstr ""
+"然而操作系统表示它做不到，因为它并不了解你的数位板是如何工作的。通过安装驱动"
+"程序，操作系统才可以正确地识别数位板，然后给 Krita 提供所需的数位板信息。一般"
+"来说，数位板的制造商会负责为各个操作系统提供合适的驱动程序。"
 
 #: ../../user_manual/drawing_tablets.rst:89
 msgid ""
@@ -146,20 +178,25 @@ msgid ""
 "to even deinstall it to reset the configuration, just rename or delete the "
 "configuration file."
 msgstr ""
+"驱动程序会对操作系统进行一些更改，所以在安装或者卸载驱动之后你必需重新启动计"
+"算机才能生效，千万别忘了做这一步！而相对的是，Krita 并非驱动程序，如需重置 "
+"Krita 的设置，你只需重命名或者删除配置文件，无需卸载之后重新安装。"
 
 #: ../../user_manual/drawing_tablets.rst:92
 msgid "Where it can go wrong: Windows"
-msgstr ""
+msgstr "Windows 下面可能发生的问题"
 
 #: ../../user_manual/drawing_tablets.rst:94
 msgid ""
 "Krita automatically connects to your tablet if the drivers are installed. "
 "When things go wrong, usually the problem isn't with Krita."
 msgstr ""
+"如果驱动已经正确安装，Krita 会自动连接到数位板。数位板要是出现问题，一般都不"
+"是 Krita 造成的。"
 
 #: ../../user_manual/drawing_tablets.rst:98
 msgid "Surface pro tablets need two drivers"
-msgstr ""
+msgstr "Surface Pro 的数位板有两种不同驱动程序"
 
 #: ../../user_manual/drawing_tablets.rst:100
 msgid ""
@@ -170,24 +207,32 @@ msgid ""
 "`Windows 8+ Pointer Input` there. You don't need to install the wintab "
 "drivers anymore for n-trig based pens."
 msgstr ""
+"某些数位板，如 Surface Pro 等使用的是 N-trig 技术，它们具备两种驱动程序。一种"
+"是 N-trig 体系特有的 Windows Ink 驱动，另一种则是传统 Wintab 体系的驱动。"
+"Windows Ink 技术由操作系统提供原生支持，使用基于 N-Trig 技术的压感笔时无需安"
+"装 Wintab 驱动。Krita 从 3.3 版开始支持 Windows Ink 驱动程序，可在顶部菜单栏"
+"的 :menuselection:`设置 --> 配置 Krita --> 数位板设置` 里面勾选:guilabel:"
+"`Windows 8+ 指针输入`。"
 
 #: ../../user_manual/drawing_tablets.rst:108
 msgid "Windows 10 updates"
-msgstr ""
+msgstr "Windows 10 更新"
 
 #: ../../user_manual/drawing_tablets.rst:110
 msgid ""
 "Sometimes a Windows 10 update can mess up tablet drivers. In that case, "
 "reinstalling the drivers should work."
 msgstr ""
+"Windows 10 推送的更新有时会损坏数位板的驱动程序，重新安装驱动程序一般可以解决"
+"问题。"
 
 #: ../../user_manual/drawing_tablets.rst:114
 msgid "Wacom Tablets"
-msgstr ""
+msgstr "Wacom 数位板"
 
 #: ../../user_manual/drawing_tablets.rst:116
 msgid "There are two known problems with Wacom tablets and Windows."
-msgstr ""
+msgstr "Wacom 数位板在 Windows 下面有两个已知问题。"
 
 #: ../../user_manual/drawing_tablets.rst:118
 msgid ""
@@ -196,6 +241,8 @@ msgid ""
 "driver breaks. Resetting the driver to the default settings and then loading "
 "your settings from a backup will solve this problem."
 msgstr ""
+"首先，如果你修改过驱动程序设置，那么在更新驱动程序之后它可能会发生故障。这时"
+"先把驱动程序重置为默认设置，然后载入备份的设置，问题就可以得到解决。"
 
 #: ../../user_manual/drawing_tablets.rst:123
 msgid ""
@@ -205,10 +252,13 @@ msgid ""
 "check in the Wacom settings utility that the tablet in the Cintiq is "
 "associated with the Cintiq screen."
 msgstr ""
+"其次，你可能需要更改显示器的优先顺序。在某些情况下你要把 Cintiq 设为主屏幕，"
+"而另外一些情况下你要把它设成副屏幕。打开 Wacom 数位板属性，检查 Cintiq 的数位"
+"板是否和它的屏幕正确关联。"
 
 #: ../../user_manual/drawing_tablets.rst:130
 msgid "Broken Drivers"
-msgstr ""
+msgstr "糟糕的驱动程序"
 
 #: ../../user_manual/drawing_tablets.rst:132
 msgid ""
@@ -218,10 +268,13 @@ msgid ""
 "this, sadly. You will have to send a complaint to the manufacturer for this, "
 "or buy a better tablet with better quality drivers."
 msgstr ""
+"数位板的驱动程序是它们的制造商编写的。一些非常廉价的数位板，虽然它们的硬件没"
+"有问题，但配套的驱动程序却非常糟糕，无法正常工作。我们对此无能为力。你要么联"
+"系制造商反映问题，要么重新购买一块配有更好驱动程序的数位板。"
 
 #: ../../user_manual/drawing_tablets.rst:140
 msgid "Conflicting Drivers"
-msgstr ""
+msgstr "驱动程序冲突"
 
 #: ../../user_manual/drawing_tablets.rst:142
 msgid ""
@@ -231,10 +284,14 @@ msgid ""
 "bit better about this, but even Linux, where the drivers are often "
 "preinstalled, can't run two tablets with different drivers at once."
 msgstr ""
+"在 Windows 下面通常只能安装一个 Wintab 驱动程序。如果需要更换数位板硬件，请记"
+"得先卸载旧数位板的驱动程序，然后再安装新数位板的驱动程序。其他操作系统的表现"
+"会好一些，但即使是内建了大部分数位板驱动的 Linux，也无法同时识别两块使用了不"
+"同驱动程序的数位板。"
 
 #: ../../user_manual/drawing_tablets.rst:150
 msgid "Interfering software"
-msgstr ""
+msgstr "软件干扰"
 
 #: ../../user_manual/drawing_tablets.rst:152
 msgid ""
@@ -247,28 +304,33 @@ msgid ""
 "information. This type of software should be configured to leave Krita "
 "alone, or be deinstalled."
 msgstr ""
+"有一些软件会在 Krita 和操作系统之间建立一个安全层，Sandboxie 就是个例子。然"
+"而 Krita 无法在沙箱中与操作系统建立稳定的通信，所以在 Sandboxie 等软件中 "
+"Krita 会频繁出错。还有一些鼠标程序，如 Razer 实用程序等，它们会把数位板信息转"
+"换为鼠标信息，影响 Krita 和操作系统之间的正常通信。这些软件，要么把它们设置为"
+"不影响 Krita，要么干脆把它们卸载掉。"
 
 #: ../../user_manual/drawing_tablets.rst:161
 msgid ""
 "The following software has been reported to interfere with tablet events to "
 "Krita:"
-msgstr ""
+msgstr "根据用户反馈信息，下列软件会干扰 Krita 读取数位板事件："
 
 #: ../../user_manual/drawing_tablets.rst:164
 msgid "Sandboxie"
-msgstr ""
+msgstr "Sandboxie"
 
 #: ../../user_manual/drawing_tablets.rst:165
 msgid "Razer mouse utilities"
-msgstr ""
+msgstr "Razer 鼠标实用程序"
 
 #: ../../user_manual/drawing_tablets.rst:166
 msgid "AMD catalyst “game mode” (this broke the right click for someone)"
-msgstr ""
+msgstr "AMD Catalyst 驱动程序的“游戏模式” (可能造成右键失效)"
 
 #: ../../user_manual/drawing_tablets.rst:169
 msgid "Flicks (Wait circle showing up and then calling the popup palette)"
-msgstr ""
+msgstr "Flicks 手势 (出现等待圆圈，然后弹出浮动画具板)"
 
 #: ../../user_manual/drawing_tablets.rst:171
 msgid ""
@@ -280,10 +342,14 @@ msgid ""
 "forgot that people also draw with computers. So you will need to turn it off "
 "in the Windows flicks configuration."
 msgstr ""
+"如果你发现在 Windows 下面绘画时老是弹出浮动画具板，那么犯人很可能是 Flick 手"
+"势。Flicks 是 Windows 的一种手势功能，它把光标动作转换成键盘快捷键。在安装数"
+"位板驱动之后 Windows 会自动启用此功能，设计它的老兄是不是忘了人们是用数位板来"
+"画画的？可在 Windows Flicks 配置对话框中关闭此功能。"
 
 #: ../../user_manual/drawing_tablets.rst:180
 msgid "Wacom Double Click Sensitivity (Straight starts of lines)"
-msgstr ""
+msgstr "Wacom 双击时笔尖间距 (笔画的起始部分总是画成直线)"
 
 #: ../../user_manual/drawing_tablets.rst:182
 msgid ""
@@ -291,16 +357,18 @@ msgid ""
 "have a wacom tablet, it could be caused by the Wacom driver double-click "
 "detection."
 msgstr ""
+"如果你使用 Wacom 数位板，遇到了笔画的开头部分总是画成直线的情况，它可能是 "
+"Wacom 驱动程序的双击时笔尖间距的设置问题。"
 
 #: ../../user_manual/drawing_tablets.rst:186
 msgid ""
 "To fix this, go to the Wacom settings utility and lower the double click "
 "sensitivity."
-msgstr ""
+msgstr "要修复这个问题，打开 Wacom 数位板属性，调低“双击时笔尖间距”。"
 
 #: ../../user_manual/drawing_tablets.rst:190
 msgid "Supported Tablets"
-msgstr ""
+msgstr "支持的数位板"
 
 #: ../../user_manual/drawing_tablets.rst:192
 msgid ""
@@ -308,3 +376,6 @@ msgid ""
 "themselves, so they can reliably fix bugs with them. :ref:`We maintain a "
 "list of those here <list_supported_tablets>`."
 msgstr ""
+"Krita 支持的数位板一般都是我们的开发人员手头上已有的设备，只有这样我们才能可"
+"靠地修复它们的问题。:ref:`我们在这里维护着一个数位板支持情况的列表"
+"<list_supported_tablets>`。"

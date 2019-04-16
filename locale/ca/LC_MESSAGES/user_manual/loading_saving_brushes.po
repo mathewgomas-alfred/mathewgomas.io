@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-06 03:35+0200\n"
-"PO-Revision-Date: 2019-04-01 15:13+0200\n"
+"POT-Creation-Date: 2019-04-14 03:33+0200\n"
+"PO-Revision-Date: 2019-04-13 23:31+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 18.12.3\n"
 
-#: ../../user_manual/loading_saving_brushes.rst:None
-msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-
 #: ../../user_manual/loading_saving_brushes.rst:0
 msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
 msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+
+#: ../../user_manual/loading_saving_brushes.rst:None
+msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -212,21 +212,21 @@ msgid ""
 "the :guilabel:`reload` button. You can use it to revert to the original "
 "brush settings."
 msgstr ""
-"Si canvia un valor predefinit, apareixerà una icona al darrere del nom del "
-"motor. Aquest és el botó :guilabel:`Actualitza`. Podeu usar-lo per tornar "
-"als ajustaments originals del pinzell."
+"Si canvieu un predefinit, apareixerà una icona al darrere del nom del motor. "
+"Aquest és el botó :guilabel:`Actualitza`. Podeu usar-lo per tornar als "
+"ajustaments originals del pinzell."
 
 #: ../../user_manual/loading_saving_brushes.rst:101
 msgid "Saving a preset"
-msgstr "Desar un valor predefinit"
+msgstr "Desar un predefinit"
 
 #: ../../user_manual/loading_saving_brushes.rst:103
 msgid ""
 "On the right, there's :guilabel:`Save New Brush Preset` and :guilabel:"
 "`Overwrite Brush`."
 msgstr ""
-"A la dreta, hi ha :guilabel:`Desa el valor predefinit nou del pinzell` i :"
-"guilabel:`Sobreescriu el pinzell`."
+"A la dreta, hi ha :guilabel:`Desa el pinzell predefinit nou` i :guilabel:"
+"`Sobreescriu el pinzell`."
 
 #: ../../user_manual/loading_saving_brushes.rst:106
 msgid ""
@@ -235,9 +235,9 @@ msgid ""
 "intact. It will always make a timestamped back up in the resources folder."
 msgstr ""
 "Això només s'habilitarà si hi ha algun canvi. En prémer-lo, se solaparà el "
-"valor predefinit actual amb els nous ajustaments, mantenint el nom i la "
-"icona intactes. Sempre es realitzarà una còpia de seguretat amb marca de "
-"temps en la carpeta de recursos."
+"predefinit actual amb els nous ajustaments, mantenint el nom i la icona "
+"intactes. Sempre es realitzarà una còpia de seguretat amb marca de temps en "
+"la carpeta de recursos."
 
 #: ../../user_manual/loading_saving_brushes.rst:108
 msgid "Overwrite Brush"
@@ -249,21 +249,21 @@ msgid ""
 "preset. If no change was made, you will be making a copy of the current "
 "preset."
 msgstr ""
-"Prendrà el valor predefinit actual i tots els seus canvis i els desarà com a "
-"un valor predefinit nou. Si no s'ha produït cap canvi, fareu una còpia del "
-"valor predefinit actual."
+"Prendrà el predefinit actual i tots els seus canvis i els desarà com a un "
+"predefinit nou. Si no s'ha produït cap canvi, fareu una còpia del predefinit "
+"actual."
 
 #: ../../user_manual/loading_saving_brushes.rst:113
 msgid "Save New Brush Preset"
-msgstr "Desa el valor predefinit nou del pinzell"
+msgstr "Desa el pinzell predefinit nou"
 
 #: ../../user_manual/loading_saving_brushes.rst:115
 msgid ""
 "Save new preset will call up the following window, with a mini scratch pad, "
 "and all sorts of options to change the preset icon:"
 msgstr ""
-"Desa un valor predefinit nou, obrirà la següent finestra, amb un mini bloc "
-"des de zero i tot tipus d'opcions per canviar la icona de valor predefinit:"
+"Desar un predefinit nou obrirà la següent finestra, amb un mini bloc des de "
+"zero i tot tipus d'opcions per a canviar la icona predefinida:"
 
 #: ../../user_manual/loading_saving_brushes.rst:119
 msgid ".. image:: images/en/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
@@ -296,7 +296,7 @@ msgstr "Carrega les miniatures existents"
 
 #: ../../user_manual/loading_saving_brushes.rst:128
 msgid "This will load the existing thumbnail inside the preset."
-msgstr "Això carregarà la miniatura existent dins del valor predefinit."
+msgstr "Això carregarà la miniatura existent dins del predefinit."
 
 #: ../../user_manual/loading_saving_brushes.rst:130
 msgid "Load scratch pad thumbnail"
@@ -395,7 +395,7 @@ msgid ""
 "guilabel:`Save New Preset` dialog and Krita will save the new brush."
 msgstr ""
 "Si heu acabat amb tot, podeu prémer :guilabel:`Desa` al diàleg :guilabel:"
-"`Desa el nou valor predefinit` i el Krita desarà el pinzell nou."
+"`Desa el predefinit nou` i el Krita desarà el pinzell nou."
 
 #: ../../user_manual/loading_saving_brushes.rst:167
 msgid "Section B - The Preset Chooser"
@@ -446,9 +446,9 @@ msgid ""
 "The trashcan icon does the same as it does in the preset docker: delete, or "
 "rather, blacklist a preset so it won't show up in the list."
 msgstr ""
-"La icona de la paperera fa el mateix que a l'acoblador de valors "
-"predefinits: elimina, o més aviat, inclou a la llista negra un valor "
-"predefinit de manera que no aparegui a la llista."
+"La icona de la paperera fa el mateix que a l'acoblador Predefinits: elimina, "
+"o més aviat, inclou a la llista negra un predefinit de manera que no "
+"aparegui a la llista."
 
 #: ../../user_manual/loading_saving_brushes.rst:189
 msgid "Section C - The Scratch pad"
@@ -479,9 +479,9 @@ msgid ""
 "pad, this will load the dash area into the mini scratch pad of the Save New "
 "Preset dialog."
 msgstr ""
-"En desar un nou valor predefinit, podreu triar obtenir la icona des del bloc "
-"des de zero. Això carregarà l'àrea del tauler en el mini bloc des de zero "
-"del diàleg Desa el valor predefinit nou."
+"En desar un predefinit nou, podreu triar obtenir la icona des del bloc des "
+"de zero. Això carregarà l'àrea del tauler en el mini bloc des de zero del "
+"diàleg Desa el predefinit nou."
 
 #: ../../user_manual/loading_saving_brushes.rst:202
 msgid "The scratch pad has five buttons underneath it. These are in order for:"
@@ -501,8 +501,8 @@ msgid "Filling with the background color"
 msgstr "Omple amb el color de fons"
 
 #: ../../user_manual/loading_saving_brushes.rst:208
-msgid "Clearing everything on the scratch pad."
-msgstr "Netejar-ho tot al bloc des de zero."
+msgid "Clearing everything on the scratch pad"
+msgstr "Netejar-ho tot al bloc des de zero"
 
 #: ../../user_manual/loading_saving_brushes.rst:211
 msgid "Section D - The Options List"
@@ -651,8 +651,8 @@ msgid "Multiply"
 msgstr "Multiplica"
 
 #: ../../user_manual/loading_saving_brushes.rst:272
-msgid "Will multiply the two values, 0.5\\*0.7 = 0.35"
-msgstr "Multiplicarà els dos valors, 0,5\\*0,7 = 0,35"
+msgid "Will multiply the two values, 0.5\\*0.7 = 0.35."
+msgstr "Multiplicarà els dos valors, 0,5\\*0,7 = 0,35."
 
 #: ../../user_manual/loading_saving_brushes.rst:274
 msgid "Addition"
@@ -691,8 +691,8 @@ msgstr ""
 "resultat serà 0,5."
 
 #: ../../user_manual/loading_saving_brushes.rst:283
-msgid "Will subtract the smallest value from the largest, so 0.7-0.5 = 0.2"
-msgstr "Restarà el valor més petit del més gran, de manera que 0,7-0,5 = 0,2"
+msgid "Will subtract the smallest value from the largest, so 0.7-0.5 = 0.2."
+msgstr "Restarà el valor més petit del més gran, de manera que 0,7-0,5 = 0,2."
 
 #: ../../user_manual/loading_saving_brushes.rst:284
 msgid "Curves Calculation Mode"
@@ -775,7 +775,7 @@ msgstr ""
 "emmagatzemen els ajustos que realitzeu mentre aquesta sessió del Krita "
 "estigui activa. Després d'això, tornaran als predeterminats. Els valors "
 "predefinits en brut es poden reconèixer per la icona a la part superior "
-"esquerra del valor predefinit."
+"esquerra del predefinit."
 
 #: ../../user_manual/loading_saving_brushes.rst:316
 msgid "Temporarily Save Tweaks to Preset (Dirty Presets)"
@@ -790,7 +790,7 @@ msgid ""
 msgstr ""
 "La icona a la part superior esquerra dels primers dos valors predefinits "
 "indica que són «en brut», el qual vol dir que s'han realitzat ajustos al "
-"valor predefinit."
+"predefinit."
 
 #: ../../user_manual/loading_saving_brushes.rst:319
 msgid "Eraser Switch Size"
@@ -858,7 +858,7 @@ msgid ""
 "their position, and then left and right arrows to add or remove from the "
 "list. You can also drag and drop."
 msgstr ""
-"A la part superior es mostra el valor predefinit actualment actiu. Al costat "
+"A la part superior es mostra el predefinit actualment actiu. Al costat "
 "d'aquest hi ha un botó d'ajustaments, feu-hi clic per obtenir una llista "
 "dels ajustaments que es poden mostrar i organitzar per al motor de pinzells "
 "indicat. Feu servir les fletxes cap amunt i cap avall per ordenar la seva "
@@ -1014,7 +1014,7 @@ msgid ""
 "preset`."
 msgstr ""
 "Quan estigueu satisfet, aneu a la part superior esquerra i seleccioneu :"
-"guilabel::`Desa el valor predefinit nou`."
+"guilabel::`Desa el predefinit nou`."
 
 #: ../../user_manual/loading_saving_brushes.rst:406
 msgid ""
@@ -1022,7 +1022,7 @@ msgid ""
 "Preset”. Then, select :guilabel:`Load from Icon Library` to get the icon "
 "library. Choose a nice tool icon and press :guilabel:`OK`."
 msgstr ""
-"Obtindreu el diàleg per a desar valor predefinits. El nom del pinzell serà "
+"Obtindreu el diàleg per a desar el predefinit. El nom del pinzell serà "
 "quelcom com «My Preset». Després, seleccioneu guilabel:`Carrega des de la "
 "biblioteca d'icones` per obtenir la biblioteca d'icones. Trieu un bon icona "
 "d'eina i premeu :guilabel:`D'acord`."
@@ -1131,19 +1131,19 @@ msgstr ""
 
 #: ../../user_manual/loading_saving_brushes.rst:438
 msgid "Sharing a single preset"
-msgstr "Compartir un sol valor predefinit"
+msgstr "Compartir un sol predefinit"
 
 #: ../../user_manual/loading_saving_brushes.rst:440
 msgid "There are three types of resources a single preset can take:"
-msgstr "Hi ha tres tipus de recursos que pot tenir un sol valor predefinit:"
+msgstr "Hi ha tres tipus de recursos que pot tenir un sol predefinit:"
 
 #: ../../user_manual/loading_saving_brushes.rst:442
 msgid ""
 "A Paintoppreset file: This is the preset proper, with the icon and the "
 "curves stored inside."
 msgstr ""
-"Un fitxers de valors predefinits per a la pintura: aquest és el valor "
-"predefinit pròpiament dit, amb la icona i les corbes a dins."
+"Un fitxers de predefinits per a la pintura: aquest és el predefinit "
+"pròpiament dit, amb la icona i les corbes a dins."
 
 #: ../../user_manual/loading_saving_brushes.rst:444
 msgid ""
@@ -1194,9 +1194,9 @@ msgid ""
 "chooser on :kbd:`F6` and press the folder icon there. This will give a file "
 "dialog. Navigate to the kpp file and open it to import it."
 msgstr ""
-"Ara, si voleu utilitzar el valor predefinit únic, haureu d'anar al selector "
-"de valors predefinits a :kbd:`F6` i prémer la icona de carpeta. Això oferirà "
-"un diàleg de fitxers. Aneu al fitxer KPP i obriu-lo per importar."
+"Ara, si voleu utilitzar el predefinit únic, haureu d'anar al selector de "
+"predefinits en la drecera :kbd:`F6` i prémer la icona de carpeta. Això "
+"oferirà un diàleg de fitxers. Aneu al fitxer KPP i obriu-lo per importar."
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/loading_saving_brushes.rst:464
@@ -1252,8 +1252,8 @@ msgstr ""
 "carpetes, accepteu-ho."
 
 #: ../../user_manual/loading_saving_brushes.rst:484
-msgid "Restart Krita"
-msgstr "Torneu a iniciar el Krita"
+msgid "Restart Krita."
+msgstr "Torneu a iniciar el Krita."
 
 #: ../../user_manual/loading_saving_brushes.rst:485
 msgid "Enjoy your brushes!"

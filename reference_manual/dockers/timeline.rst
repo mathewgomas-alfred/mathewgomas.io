@@ -89,7 +89,7 @@ Instead of the Frame Table, right-clicking within the Frame Timing Header gives 
 
 :program:`Krita` only tracks key frame changes. This is unlike :program:`Flash` where you have to manually indicate how long a key frame will hold. Instead, :program:`Krita` just assumes that the space between key frame 1 and key frame 2 is supposed to be filled with key frame 1. Frames that are held in this way (a.k.a. "holds") are displayed as a continuous line in the Frame Table.
 
-To delete frames, |mouseright| the frame and press :guilabel:`Remove Keyframes`. This will delete all selected frames. Similarly, selecting :guilabel:`Remove Frames and Pull` will delete the selected frames and pull or shift all subsequent frames back/left as much as possible.
+To delete frames, |mouseright| the frame and press :guilabel:`Remove Keyframe`. This will delete all selected frames. Similarly, selecting :guilabel:`Remove Frame and Pull` will delete the selected frames and pull or shift all subsequent frames back/left as much as possible.
 
 To manually play your animation back and forward using your mouse, a concept called *scrubbing*, you click-drag within the Frame Timing Header.
 
@@ -108,6 +108,7 @@ GUI Actions:
     * |mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold columns).
 
 #. **Frames Table: all**
+
     * |mouseleft| : Selects a single frame or slot and switches time, but *does not switch active layer*.
     * :kbd:`Space` + |mouseleft| : Pan.
     * :kbd:`Space` + |mouseright| : Zoom.
@@ -124,4 +125,4 @@ GUI Actions:
     * |mouseright| : Frames menu (remove/copy/paste frames and insert/remove holds).
     * |mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames.
     * :kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames.
-    * :kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frame to the right of a particular frame!)
+    * :kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frames to the right of a particular frame!)

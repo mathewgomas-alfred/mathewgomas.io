@@ -8,11 +8,20 @@ You will need Python. I have version 3.6.3. Make sure to install PIP along with 
 
 After you install Python bring up a command prompt and type: `python --version`
 
-It should tell you the version and verify that Python is installed. Mine says 3.6.3
+It should tell you the version and verify that Python is installed. Mine says `Python 3.6.3`. If it says `Python 2.7.15` try replacing `python` with `python3`.
 
-Next you will need to install Sphinx so you can use it in projects. Type this from the command line: `pip install -U sphinx`
+Next you will need to install Sphinx so you can use it in projects. Type this from the command line: `python -m pip install --upgrade sphinx` 
 
-Note: On Kubuntu 17.10 you will need to install python3-pip, and then type `sudo pip3 install --prefix /usr/local sphinx` to get everything install to the proper location.
+On some Operating Systems, `pip` might not be installed by default with python, for that if you are on any Linux distribution you need to run 
+
+```bash
+$ sudo apt-get install python3-pip      # Ubuntu/Debian based
+$ sudo dnf install python3	            # Fedora based
+$ sudo pacman -S python-pip	            # Arch based
+$ sudo zypper install python3-pip		# OpenSuse based
+```
+
+
 
 After it is done you can make sure it is installed. Type this in the command line: `sphinx-build --version`
 

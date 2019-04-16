@@ -205,7 +205,7 @@ The scratch pad has five buttons underneath it. These are in order for:
 
 #. Adding a gradient to the scratch pad (useful for smudge brushes)
 #. Filling with the background color
-#. Clearing everything on the scratch pad.
+#. Clearing everything on the scratch pad
 
 Section D - The Options List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -269,7 +269,7 @@ Curves Calculation Mode
     0.5 and the other 0.7, then...
 
     Multiply
-        Will multiply the two values, 0.5\*0.7 = 0.35
+        Will multiply the two values, 0.5\*0.7 = 0.35.
     Addition
         Will add the two to a maximum of 1.0, so 0.5+0.7 = 1.2,
         which is then capped at 1.0.
@@ -281,7 +281,7 @@ Curves Calculation Mode
         0.5 and 0.7, the result is 0.5.
     Difference
         Will subtract the smallest value from the largest, so 0.7-0.5 =
-        0.2
+        0.2.
 
 It's maybe better to see with the following example:
 
@@ -481,5 +481,5 @@ Using a ZIP with the relevant files.
 #. Copy the brushes, paintoppresets and patterns folders from the zip
    file to the resource folder. You should get a prompt to merge the
    folders, agree to this.
-#. Restart Krita
+#. Restart Krita.
 #. Enjoy your brushes!

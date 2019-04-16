@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___dockers___timeline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-05 07:18+0300\n"
+"POT-Creation-Date: 2019-04-13 03:33+0200\n"
+"PO-Revision-Date: 2019-04-13 08:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -61,6 +61,13 @@ msgid ""
 "timings that define your animation. In other words, the Timeline Docker is "
 "the digital equivalent to a traditional animator's \"dope sheet\"."
 msgstr ""
+"**Бічна панель монтажного столу** працює у поєднанні із :ref:`бічною панеллю "
+"анімації <animation_docker>` у серці інструментів анімації :program:`Krita`. "
+"За допомогою бічної панелі анімації ви отримуєте доступ до базових елементів "
+"керування для відтворення та редагування анімацій, а бічна панель монтажного "
+"столу містить пункти шарів кадрів та специфічні засоби керування часом, які "
+"визначають вашу анімацію. Іншими словами, бічна панель монтажного столу є "
+"цифровим еквівалентом традиційного для мультиплікації «експозиційний аркуш»."
 
 #: ../../reference_manual/dockers/timeline.rst:25
 msgid "Legend:"
@@ -76,6 +83,14 @@ msgid ""
 "timeline. Each layer has properties that can also be toggled here (visible, "
 "locked, show onion skins, etc.)."
 msgstr ""
+"**A. Список шарів** — тут міститься певна підмножина шарів вашого поточного "
+"документа. Поточний активний шар буде показано завжди, його можна "
+"«пришпилити» до монтажного столу за допомогою пункту меню :guilabel:"
+"`Показати на монтажному столі`. Крім того, шари, які буде створено за "
+"допомогою монтажного столу або додано за допомогою підменю :guilabel:`Додати "
+"наявний шар`, буде автоматично пришпилено до монтажного столу. У кожного "
+"шару є властивості, які можна перемикати за допомогою списку шарів (видимий, "
+"заблокований, показувати кальки, тощо)."
 
 #: ../../reference_manual/dockers/timeline.rst:30
 msgid "**Active Layer**"
@@ -89,6 +104,11 @@ msgid ""
 "the table in order to not disturb the user when scrubbing and editing frame "
 "positions on the timeline."
 msgstr ""
+"Підсвічений рядок у таблиці позначає поточний активний шар. Змінити активний "
+"шар можна за допомогою клацання на пункті назви шару у заголовку ліворуч. "
+"*Не* можна змінювати активний шар за допомогою клацання у таблиці. Так "
+"зроблено, щоб не відволікати користувача під час гортання анімації "
+"перетягуванням та редагування позицій кадрів на монтажному столі."
 
 #: ../../reference_manual/dockers/timeline.rst:32
 msgid ""
@@ -101,6 +121,14 @@ msgid ""
 "played back at any speed, depending on the :ref:`animation_docker`'s *frame "
 "rate* and *play speed* settings."
 msgstr ""
+"**B. Таблиця кадрів** — велика таблиця, кожна комірка якої може містити "
+"окремий кадр або бути порожньою. Кожен рядок таблиці кадрів відповідає *шару "
+"анімації*, а кожен стовпчик — *розкладці кадрів*. Подібно до списку шарів, "
+"активний шар підсвічується в усій таблиці кадрів. Важливо розуміти, що "
+"розкладку кадрів побудовано не на одиницях часу, зокрема секундах, а на "
+"кадрах, які може бути відтворено з будь-якою швидкістю, залежно від "
+"визначеної на :ref:`панелі анімації <animation_docker>` *частоти кадрів* або "
+"*швидкості відтворення*."
 
 #: ../../reference_manual/dockers/timeline.rst:34
 msgid ""
@@ -110,6 +138,13 @@ msgid ""
 "Table will bring up a helpful context menu for adding, removing, copying, "
 "and pasting frames or adjusting timing with holds."
 msgstr ""
+"Кадри може бути пересунуто монтажним столом простим наведенням вказівника "
+"миші на кадр, натисканням лівої кнопки миші і перетягуванням кадру до іншого "
+"місця, навіть між шарами. Якщо натиснути і утримувати клавішу :kbd:`Ctrl` "
+"під час перетягування, буде створено копію. Клацанням правою кнопкою миші на "
+"таблиці кадрів можна викликати корисне контекстне меню для додавання, "
+"вилучення, копіювання та вставлення кадрів та коригування розкладки за часом "
+"з затримками."
 
 #: ../../reference_manual/dockers/timeline.rst:37
 msgid ""
@@ -120,6 +155,12 @@ msgid ""
 "current selection. Finally, it is also possible to have multiple non-"
 "contiguous/separate selections if needed."
 msgstr ""
+"Кадри, які позначено помаранчевим — поточний позначений діапазон або "
+"діапазони, які можна створити за допомогою миші або клавіатури. Якщо "
+"позначено декілька кадрів, клацання правою кнопкою миші будь-де у таблиці "
+"кадрів відкриє контекстне меню за допомогою якого ви можете додавати або "
+"вилучати кадри і затримки у поточному позначеному наборі. Нарешті, також "
+"можна створювати декілька відокремлених позначених діапазонів, якщо потрібно."
 
 #: ../../reference_manual/dockers/timeline.rst:41
 msgid "**Current Selection:**"
@@ -130,6 +171,9 @@ msgid ""
 "Painting always happens only in the *active frame* (represented by a small "
 "dot), which is not necessarily part of your current selection."
 msgstr ""
+"Малювання завжди відбуватиметься лише на *активному кадрі* (кадрі, який "
+"позначено маленькою крапкою), який не обов'язково має бути частиною "
+"поточного позначеного набору кадрів."
 
 #: ../../reference_manual/dockers/timeline.rst:44
 msgid "**Keys, Blanks, and Holds:**"
@@ -146,6 +190,14 @@ msgid ""
 "frames can be set per-frame by the animator using the right-click menu, and "
 "is a matter of personal workflow."
 msgstr ""
+"Нова версія бічної панелі монтажного столу показує додаткові відомості щодо "
+"показаних на ній і не показаних на ній кадрів. **Ключові кадри** містять "
+"малюнки, їх буде показано *заповненими блоками* у комірці, а **порожні "
+"ключові кадри** буде показано *порожнім контуром*. У Krita кожен "
+"намальований кадр затримуватиметься на екрані до наступного кадру; ці "
+"**затримки** буде явним чином показано *кольоровою лінією* між затриманими "
+"кадрами. Колір позначення кадрів художник-мультиплікатор може встановити за "
+"допомогою контекстного меню — це питання особистих уподобань."
 
 #: ../../reference_manual/dockers/timeline.rst:46
 msgid ""
@@ -156,6 +208,13 @@ msgid ""
 "smaller subdivisions have small single-line marks. Each major notch is "
 "marked with a helpful *frame number*."
 msgstr ""
+"**C. Заголовок розкладки за часом** — заголовок розкладки за часом — лінійка "
+"над таблицею кадрів. Цю смужку заголовка поділено на маленькі секції на "
+"основі поточної *частоти кадрів* (її можна встановити за допомогою :ref:"
+"`бічної панелі анімації <animation_docker>`). Позиції, кратні до частоти "
+"кадрів позначаються подвійною лінією, а кадри на проміжних позиціях — "
+"невеличкими одинарними лініями. Кожну основну поділку буде позначено зручним "
+"*номером кадру*."
 
 #: ../../reference_manual/dockers/timeline.rst:49
 msgid "**Cached Frames:**"
@@ -172,6 +231,14 @@ msgid ""
 "to cache our animation frames for the smoothest possible experience when "
 "scrubbing through or playing back your animation."
 msgstr ""
+"У заголовку розкладки кадрів буде показано важливі відомості щодо того, які "
+"кадри *кешовано*. Якщо якісь дані «кешовано», це означає, що їх збережено у "
+"робочій пам'яті вашого пристрою (RAM) для надшвидкого доступу. Кешовані "
+"кадри буде показано на панелі заголовка із невеличким світло-сірим "
+"прямокутничком у кожного з стовпчику. Хоча ці відомості не завжди є "
+"критичним для нас, художників, корисно знати, що Krita працює за сценою для "
+"кешування кадрів нашої анімації для забезпечення плавної анімації при "
+"перетягуванні або відтворенні."
 
 #: ../../reference_manual/dockers/timeline.rst:51
 msgid ""
@@ -179,6 +246,8 @@ msgid ""
 "which controls the current frame time and, as such, what is currently "
 "displayed in the viewport."
 msgstr ""
+"**D. Повзунок поточного часу** — підсвічений стовпчик у таблиці кадрів, який "
+"керує поточним кадром і, отже, тим, що буде показано на панелі перегляду."
 
 #: ../../reference_manual/dockers/timeline.rst:54
 msgid ""
@@ -186,6 +255,9 @@ msgid ""
 "frame is always marked with a small circle inside. All drawing, painting, "
 "and image editing operations happen on this frame only!"
 msgstr ""
+"Кадр *активного шару* у позиції *поточного часу*. Активний кадр завжди буде "
+"позначено маленьким кружечком у ньому. Усі дії з малювання та редагування "
+"зображення стосуватимуться лише цього кадру!"
 
 #: ../../reference_manual/dockers/timeline.rst:58
 msgid "**Active Frame:**"
@@ -202,6 +274,12 @@ msgid ""
 "Timeline' here to pin the active layer to the Timeline. (This menu also "
 "shows up when right-clicking on layers inside of the Layer List.)"
 msgstr ""
+"**E. Меню шарів** — невеличке меню для керування шарами анімації. За "
+"допомогою цього меню ви можете створювати шари, додавати і вилучати наявні "
+"шари,  також встановити властивість «Показувати на монтажному столі» для "
+"пришпилення активного шару до монтажного столу. (Це меню програма "
+"показуватиме, коли ви клацатимете правою кнопкою миші на шарах у списку "
+"шарів.)"
 
 #: ../../reference_manual/dockers/timeline.rst:62
 msgid ""
@@ -209,6 +287,9 @@ msgid ""
 "sources. This is where you can open or close audio sources and control "
 "output volume/muting."
 msgstr ""
+"**F. Меню звуку** — ще одне невеличке меню для анімацій зі звуковим "
+"супроводом. За його допомогою ви можете відкривати та закривати джерела "
+"звукових даних та керувати гучністю відтворення."
 
 #: ../../reference_manual/dockers/timeline.rst:64
 msgid ""
@@ -216,6 +297,10 @@ msgid ""
 "centered around the current frame time. Click-dragging starting on the zoom "
 "handle controls the zoom level."
 msgstr ""
+"**G. Керування масштабом** — за допомогою цього віджета ви можете "
+"збільшувати і зменшувати масштаб у таблиці кадрів. Центр масштабування буде "
+"розташовано у позиції поточному кадру. Клацання з перетягуванням керує "
+"рівнем масштабу."
 
 #: ../../reference_manual/dockers/timeline.rst:67
 msgid "Usage:"
@@ -229,6 +314,12 @@ msgid ""
 "that there's no animation going on at all on that layer and it will keep the "
 "image static over the whole animation."
 msgstr ""
+"Спосіб використання бічної панелі монтажного столу не є зовсім очевидним, "
+"оскільки :program:`Krita` не створює ключового кадру автоматично з вашого "
+"початкового малюнку. Фактично, *доки ви не створите ключового кадру на "
+"шарі*, Krita припускатиме, що анімація на поточному шарі взагалі не "
+"створюється, і триматиме зображення статичним протягом усього періоду "
+"відтворення анімації."
 
 #: ../../reference_manual/dockers/timeline.rst:71
 msgid "So, to make our first *animated layer*, we need to make a key frame!"
@@ -244,6 +335,12 @@ msgid ""
 "active and drawing on the canvas will make it appear as a *solid, colored "
 "rectangle*."
 msgstr ""
+"Клацніть |mouseright| на будь-якому прямокутничку на бічній панелі "
+"монтажного столу і виберіть пункт :guilabel:`Створити порожній кадр`. "
+"З'явиться порожній кадр (кадр, на якому ви ще не малювали), який буде "
+"позначено *порожньою рамкою* а не заповненим блоком. Програма зробить цей "
+"кадр активним, а малювання на полотні перетворить кадр на *прямокутник, який "
+"буде зафарбовано*."
 
 #: ../../reference_manual/dockers/timeline.rst:75
 msgid ""
@@ -253,6 +350,12 @@ msgid ""
 "select :guilabel:`Show in Timeline`. This way you can choose which layers "
 "are important and which are only minor."
 msgstr ""
+"Щоб шар був видимим на бічній панелі монтажного столу, незалежно від того, "
+"який з шарів позначено, позначте цей шар на бічній панелі шарів, щоб його "
+"було показано на бічній панелі монтажного столу, далі клацніть |mouseright| "
+"на його пункті у списку шарів бічної панелі монтажного столу і виберіть у "
+"меню пункт :guilabel:`Показати на монтажному столі`. У такий спосіб можна "
+"визначити важливі і другорядні шари."
 
 #: ../../reference_manual/dockers/timeline.rst:77
 msgid "You can drag and drop the frame around to a different empty frame slot."
@@ -265,6 +368,10 @@ msgid ""
 "select :guilabel:`Create Duplicate Frame` to create a new copy of the "
 "previous frame."
 msgstr ""
+"Щоб додати одинарний новий кадр, або клацніть правою кнопкою миші на полі "
+"порожнього кадру і виберіть пункт :guilabel:`Створити порожній кадр`, щоб "
+"створити новий порожній кадр, або виберіть пункт  :guilabel:`Створити кадр-"
+"дублікат`, щоб створити нову копію попереднього кадру."
 
 #: ../../reference_manual/dockers/timeline.rst:81
 msgid ""
@@ -273,6 +380,10 @@ msgid ""
 "animation. The current color selection is remembered for new frames so that "
 "you can easily make a set of colored frames and then switch to another color."
 msgstr ""
+"Ви також можете змінити колір кадрів, щоб було простіше виявити важливі "
+"кадри або розрізнити різні частини вашої анімації. Поточний вибір кольору "
+"запам'ятовується для нових кадрів, отже ви зможете без проблем створити "
+"набір розфарбованих кадрів, а потім перемкнутися на інший колір."
 
 #: ../../reference_manual/dockers/timeline.rst:83
 msgid ""
@@ -282,6 +393,12 @@ msgid ""
 "the option of built in timing for quickly creating a series of 1s, 2s, 3s, "
 "etc. These settings are saved between uses."
 msgstr ""
+"Крім того. можна додавати декілька ключових кадрів клацанням правою кнопкою "
+"миші на таблиці кадрів із наступним вибором :menuselection:`Ключові кадри --"
+"> Вставити декілька ключових кадрів`. Ви можете вказати кількість кадрів, "
+"які буде додано із можливістю визначення проміжків часу для швидкого "
+"створення послідовностей кадрів у 1 секунду, 2 секунди, 3 секунди тощо. "
+"Програма запам'ятовує останні вказані параметри."
 
 #: ../../reference_manual/dockers/timeline.rst:85
 msgid ""
@@ -291,6 +408,13 @@ msgid ""
 "menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add "
 "new frames to each layer that's currently visible in the Timeline Docker."
 msgstr ""
+"Якщо ви клацнете правою кнопкою миші на заголовку розкладки кадрів, замість "
+"таблиці кадрів, ви отримаєте доступ до ще декількох пунктів дій, за "
+"допомогою яких ви зможете додати або вилучити цілі стовпчики кадрів або "
+"затримок одночасно. Наприклад, якщо вибрати пункт :menuselection:`Стовпчики "
+"ключових кадрів --> Вставити стовпчик ключових кадрів ліворуч`, програма "
+"додасть нові кадри у кожному шарі, який є видимим на бічній панелі "
+"монтажного столу."
 
 #: ../../reference_manual/dockers/timeline.rst:90
 msgid ""
@@ -301,20 +425,34 @@ msgid ""
 "held in this way (a.k.a. \"holds\") are displayed as a continuous line in "
 "the Frame Table."
 msgstr ""
+":program:`Krita` стежить лише за змінами у ключових кадрах. Ця поведінка "
+"відрізняється від поведінки :program:`Flash`, де вам слід вручну вказувати "
+"затримку для кожного ключового кадру. :program:`Krita` просто припускає, що "
+"між ключовим кадром 1 і ключовим кадром 2 кадр буде заповнено вмістом "
+"ключового кадру 1. Кадри, які затримуються у такий спосіб (ми називаємо такі "
+"кадри «затримками») буде показано яка неперервну лінію у таблиці кадрів."
 
 #: ../../reference_manual/dockers/timeline.rst:92
 msgid ""
 "To delete frames, |mouseright| the frame and press :guilabel:`Remove "
-"Keyframes`. This will delete all selected frames. Similarly, selecting :"
-"guilabel:`Remove Frames and Pull` will delete the selected frames and pull "
-"or shift all subsequent frames back/left as much as possible."
+"Keyframe`. This will delete all selected frames. Similarly, selecting :"
+"guilabel:`Remove Frame and Pull` will delete the selected frames and pull or "
+"shift all subsequent frames back/left as much as possible."
 msgstr ""
+"Щоб вилучити кадри, клацніть |mouseright| на одному з кадрів набору і "
+"виберіть пункт :guilabel:`Вилучити ключові кадри`. У відповідь буде вилучено "
+"усі позначені кадри. Так само, вибір пункту :guilabel:`Вилучити кадр і "
+"зсунути` призведе до вилучення позначених кадрів і зсуванні усіх наступних "
+"кадрів назад або ліворуч на місце вилучених."
 
 #: ../../reference_manual/dockers/timeline.rst:94
 msgid ""
 "To manually play your animation back and forward using your mouse, a concept "
 "called *scrubbing*, you click-drag within the Frame Timing Header."
 msgstr ""
+"Для відтворення анімації вручну у прямому та зворотному порядку можна "
+"скористатися *тяганням*: ви просто затискаєте і перетягуєте за допомогою "
+"вказівника миші позицію на заголовку розкладки кадрів за часом."
 
 #: ../../reference_manual/dockers/timeline.rst:97
 msgid "GUI Actions:"
@@ -353,8 +491,14 @@ msgid ""
 "|mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold "
 "columns)."
 msgstr ""
+"|mouseright| : меню стовпчиків кадрів (додати, вилучити, копіювати, вставити "
+"стовпчики кадрів і стовпчики затримок)."
 
-#: ../../reference_manual/dockers/timeline.rst:111
+#: ../../reference_manual/dockers/timeline.rst:110
+msgid "**Frames Table: all**"
+msgstr "**Таблиця кадрів: усі**"
+
+#: ../../reference_manual/dockers/timeline.rst:112
 msgid ""
 "|mouseleft| : Selects a single frame or slot and switches time, but *does "
 "not switch active layer*."
@@ -362,23 +506,19 @@ msgstr ""
 "|mouseleft| : позначення окремого кадру або слоту та перемикання часу, але "
 "*без перемикання активного шару*."
 
-#: ../../reference_manual/dockers/timeline.rst:112
+#: ../../reference_manual/dockers/timeline.rst:113
 msgid ":kbd:`Space` + |mouseleft| : Pan."
 msgstr ":kbd:`Пробіл` + |mouseleft| : панорамування."
 
-#: ../../reference_manual/dockers/timeline.rst:113
-msgid "**Frames Table: all**"
-msgstr "**Таблиця кадрів: усі**"
-
-#: ../../reference_manual/dockers/timeline.rst:113
+#: ../../reference_manual/dockers/timeline.rst:114
 msgid ":kbd:`Space` + |mouseright| : Zoom."
 msgstr ":kbd:`Пробіл` + |mouseright| : масштабування."
 
-#: ../../reference_manual/dockers/timeline.rst:115
+#: ../../reference_manual/dockers/timeline.rst:116
 msgid "**Frames Table (On Empty Slot).**"
 msgstr "**Таблиця кадрів (на порожньому слоті).**"
 
-#: ../../reference_manual/dockers/timeline.rst:117
+#: ../../reference_manual/dockers/timeline.rst:118
 msgid ""
 "|mouseright| : Frames menu (insert/copy/paste frames and insert/remove "
 "holds)."
@@ -386,7 +526,7 @@ msgstr ""
 "|mouseright|: меню кадрів (вставити, копіювати, вставити з буфера та "
 "вставити або вилучити затримки)."
 
-#: ../../reference_manual/dockers/timeline.rst:118
+#: ../../reference_manual/dockers/timeline.rst:119
 msgid ""
 "|mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the "
 "last selected, but *does not switch active layer*."
@@ -395,7 +535,7 @@ msgstr ""
 "перемикання часу на останній позначений кадр, але *без перемикання активного "
 "шару*."
 
-#: ../../reference_manual/dockers/timeline.rst:119
+#: ../../reference_manual/dockers/timeline.rst:120
 msgid ""
 ":kbd:`Shift` + |mouseleft| : Select all frames between the active and the "
 "clicked frame."
@@ -403,7 +543,7 @@ msgstr ""
 ":kbd:`Shift` + |mouseleft| : позначення усіх кадрів між активним і кадром, "
 "на якому ви клацнули."
 
-#: ../../reference_manual/dockers/timeline.rst:120
+#: ../../reference_manual/dockers/timeline.rst:121
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click"
 "+drag` them into place."
@@ -411,11 +551,11 @@ msgstr ""
 ":kbd:`Ctrl` + |mouseleft| : позначення групи окремих кадрів. :kbd:`Клацання "
 "+ перетягування` для пересування їх на місце."
 
-#: ../../reference_manual/dockers/timeline.rst:122
+#: ../../reference_manual/dockers/timeline.rst:123
 msgid "**Frames Table (On Existing Frame)**"
 msgstr "**Таблиця кадрів (на наявному кадрі)**"
 
-#: ../../reference_manual/dockers/timeline.rst:124
+#: ../../reference_manual/dockers/timeline.rst:125
 msgid ""
 "|mouseright| : Frames menu (remove/copy/paste frames and insert/remove "
 "holds)."
@@ -423,22 +563,25 @@ msgstr ""
 "|mouseright| : меню кадрів (вилучення, копіювання, вставлення кадрів та "
 "вставлення або вилучення затримок)."
 
-#: ../../reference_manual/dockers/timeline.rst:125
+#: ../../reference_manual/dockers/timeline.rst:126
 msgid "|mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames."
 msgstr ""
-"|mouseleft| + :kbd:`і перетягування` : *пересунути* кадр або декілька кадрів."
-
-#: ../../reference_manual/dockers/timeline.rst:126
-msgid ""
-":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
-msgstr ""
-":kbd:`Ctrl` + |mouseleft| :kbd:`і перетягування` : копіювати кадр або "
-"декілька кадрів."
+"|mouseleft| + :kbd:`перетягування` : *пересунути* кадр або декілька кадрів."
 
 #: ../../reference_manual/dockers/timeline.rst:127
 msgid ""
+":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
+msgstr ""
+":kbd:`Ctrl` + |mouseleft| + :kbd:`перетягування` : копіювати кадр або "
+"декілька кадрів."
+
+#: ../../reference_manual/dockers/timeline.rst:128
+msgid ""
 ":kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to "
 "the right of it. (This is useful for when you need to clear up some space in "
-"your animation, but don't want to select all the frame to the right of a "
+"your animation, but don't want to select all the frames to the right of a "
 "particular frame!)"
 msgstr ""
+":kbd:`Alt` + :kbd:`перетягування`: пересунути позначені кадри та *усі* кадри "
+"праворуч від них. (Корисно, якщо вам потрібно спорожнити трохи місця у ваші "
+"анімації, але ви не хочете позначати усі кадри праворуч від певного кадру!)"

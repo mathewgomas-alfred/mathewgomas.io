@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-07 09:28\n"
+"PO-Revision-Date: 2019-04-09 18:50\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../general_concepts/file_formats/file_png.rst:1
 msgid "The Portable Network Graphics file format in Krita."
-msgstr ""
+msgstr "Krita 中的可移植网络图像文件格式。"
 
 #: ../../general_concepts/file_formats/file_png.rst:17
 msgid "\\*.png"
-msgstr ""
+msgstr "\\*.png"
 
 #: ../../general_concepts/file_formats/file_png.rst:19
 msgid ""
@@ -31,6 +31,8 @@ msgid ""
 "`file_gif` and with that and :ref:`file_jpg` it makes up the three main "
 "formats that are widely supported on the internet."
 msgstr ""
+".png，也称可移植网络图形，是一种 :ref:`file_gif` 格式的新型替代方案。它们和 :"
+"ref:`file_jpg` 一起是目前互联网上三种受支持程度最广的图像文件格式。"
 
 #: ../../general_concepts/file_formats/file_png.rst:21
 msgid ""
@@ -41,6 +43,10 @@ msgid ""
 "colors. Grayscale images will do better in png as well as images with a lot "
 "of text and sharp contrasts, like comics."
 msgstr ""
+"png 是一种 :ref:`无损 <lossless_compression>` 文件格式，这意味着它可以完美地"
+"保持你的图像的全部色彩。它的高画质带来了较大的文件体积，在保存含有大量渐变和"
+"不同颜色的图像时建议使用 :ref:`file_jpg` 。灰阶和含有大量文字和强烈色彩对比的"
+"图像，如漫画等，在保存为 PNG 时效果更好。"
 
 #: ../../general_concepts/file_formats/file_png.rst:23
 msgid ""
@@ -49,3 +55,6 @@ msgid ""
 "animation support to png, apng and mng, the former is unofficial and the "
 "latter too complicated, so neither have really taken off yet."
 msgstr ""
+"PNG 和 :ref:`file_gif`一样支持索引颜色，但它却不能和 :ref:`file_gif`一样支持"
+"动画。目前有两种为 PNG 提供动画支持的方式，它们是 APNG 和 MNG。前者并非官方项"
+"目，而后者又过于复杂，它们至今都没有真正得到推广。"
