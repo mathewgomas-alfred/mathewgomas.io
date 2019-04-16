@@ -182,7 +182,7 @@ Relative Colorimetric
 Saturation
     Does anything to retain colorfulness, even hue will be sacrificed. Used in infographics. Doesn't work with Matrix Shaper profiles, defaults to relative colorimetric.
 
-*ICC profile version* is the last thing to keep in mind when dealing with ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the later giving better results in doing color maths, but the former being more widely supported (as seen below in 'interoperability with other programs'. This is also why Krita defaults to V2, and we recommend using V2 when you aren't certain if the other programs you are using support V4.
+*ICC profile version* is the last thing to keep in mind when dealing with ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the later giving better results in doing color maths, but the former being more widely supported (as seen below in 'Interaction with other applications'). This is also why Krita defaults to V2, and we recommend using V2 when you aren't certain if the other programs you are using support V4.
 
 LUT docker and HDR imaging
 --------------------------
@@ -345,7 +345,7 @@ Output
 
 The CMYK profiles are different per printer, and even per paper or ink-type so don't be presumptuous and ask ahead for them, instead of doing something like trying to paint in any random CMYK profile. As mentioned in the viewing conditions section, you want to keep your options open.
 
-You can set the advanced color selector to transform to a given profile via :menuselection:`Settings --> Configure Krita --> Advanced color selector settings`. There, tick :guilabel:`Color selector uses a different color space than the image` and select the CMYK profile you are aiming for. This will limit your colors a little bit, but keep all the nice filter and blending options from RGB.
+You can set the advanced color selector to transform to a given profile via :menuselection:`Settings --> Configure Krita --> Color Selector Settings`. There, tick :guilabel:`Color Selector Uses Different Color Space than Image` and select the CMYK profile you are aiming for. This will limit your colors a little bit, but keep all the nice filter and blending options from RGB.
 
 Games
 ~~~~~

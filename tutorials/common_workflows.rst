@@ -123,7 +123,7 @@ Press **Apply** to begin the coloring, this will open a color selector **palette
 .. image:: /images/en/common-workflows/Krita-GMIC-colorize-interactive.png
     :alt: G'MIC colorize interactive window
 
-If you feel that the dots are a bit distracting you can press :kbd:`Tab` to reduce the size or hide the dots. to zoom out you can press :kbd:`Ctrl + ↓` and :kbd:`Ctrl + ↑` vice versa. Panning is done by |mousemiddle| + drag. Press :kbd:`Spacebar` to generate the colors. If you want to replace a color select the color by |mousemiddle| and pressing :kbd:`R` then you can select an alternate color from the palette.
+If you feel that the dots are a bit distracting you can press :kbd:`Tab` to reduce the size or hide the dots. To zoom out you can press :kbd:`Ctrl + ↓` and :kbd:`Ctrl + ↑` vice versa. Panning is done by |mousemiddle| + drag. Press :kbd:`Spacebar` to generate the colors. If you want to replace a color select the color by |mousemiddle| and pressing :kbd:`R` then you can select an alternate color from the palette.
 
 Once you have finished adding the desired flat colors you can press :kbd:`Enter` to apply the filter. Then don't forget to press **Ok** in the G'MIC dialog box.
 
@@ -141,7 +141,7 @@ You have to create two layers below the line art, one for the color spots indica
 
 The colors spots are marked in red in the image
 
-Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[comics]`. In the G'MIC dialog box, select all for input and inplace (default) for output, select :guilabel:`Lineart + color spots + extrapolated layers` for both input and output layers on the right-hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
+Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize[comics]`. In the G'MIC dialog box, select :guilabel:`All` for input and :guilabel:`In place (default)` for output, select :guilabel:`Lineart + color spots + extrapolated layers` for both input and output layers on the right-hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
 
 .. image:: /images/en/common-workflows/Colorise-comics-setting.png
     :alt: Colorize Interactive dialog and settings
@@ -178,7 +178,7 @@ Preparing Tiles and Textures
 
 Many artists use Krita to create textures for 3d assets used for games animation etc. Krita has many texture templates for you to choose and get started with creating textures. These templates have common sizes, bit depth and color profiles that are used for texturing workflow.
 
-Krita also has a real-time seamless tile mode to help texture artist prepare tiles and texture easily and check if it is seamless on the fly. The tiled mode is called wrap-around mode, to activate this mode you have press :kbd:`W`. No when you paint the canvas is tiled in real-time allowing you to create seamless pattern and texture, it is also easy to prepare interlocking patterns and motifs in this mode.
+Krita also has a real-time seamless tile mode to help texture artist prepare tiles and texture easily and check if it is seamless on the fly. The tiled mode is called wrap-around mode, to activate this mode you have press :kbd:`W`. Now when you paint the canvas is tiled in real-time allowing you to create seamless pattern and texture, it is also easy to prepare interlocking patterns and motifs in this mode.
 
 Creating Pixel Art
 ------------------
