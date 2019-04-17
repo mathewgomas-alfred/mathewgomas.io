@@ -75,6 +75,7 @@ Manage Resources
 Manage the resources. You can read more about it :ref:`here <resource_management>`.
 
 .. index:: Language
+.. _switch_application_language:
 
 Switch Application Language
 ---------------------------
