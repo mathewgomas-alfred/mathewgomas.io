@@ -135,10 +135,14 @@ Under the **X** is a button that shows a pattern. This inside area will be fille
 
 * The button with the inner square blank toggles even-odd mode, where every filled region of the path is next to an unfilled one, like this:
 
-.. image:: /images/en/400px-Fill_rule_even-odd.svg.png
+.. figure:: /images/en/Fill_rule_even-odd.svg
+   :figwidth: 500
+   :align: center
 
 * The button with the inner square filled toggles non zero mode, where most of the time a self overlapping path is entirely filled except when it overlaps with a sub-path of a different direction that 'decrease the level of overlapping' so that the region between the two is considered outside the path and remain unfilled, like this:
 
-.. image:: /images/en/400px-Fill_rule_non-zero.svg.png
+.. figure:: /images/en/Fill_rule_non-zero.svg
+   :figwidth: 500
+   :align: center
 
 For more (and better) information about fill rules check the `Inkscape manual <http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke.html#Attributes-Fill-Rule>`_.
