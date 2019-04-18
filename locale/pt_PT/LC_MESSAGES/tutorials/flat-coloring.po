@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-15 03:31+0200\n"
+"POT-Creation-Date: 2019-04-16 03:38+0200\n"
 "PO-Revision-Date: 2019-04-13 10:48+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -39,6 +39,30 @@ msgid ""
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
 "   :alt: botão direito"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+msgstr ""
+".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
+
+#: ../../tutorials/flat-coloring.rst:0
+msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
+msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:None
 msgid ""
@@ -161,30 +185,6 @@ msgid ""
 msgstr ""
 ".. image:: images/en/flat-coloring/Krita_filling_lineart13.png\n"
 "   :alt: ilhas de cores resultantes da divisão das camadas"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-msgstr ""
-".. image:: images/en/flat-coloring/Krita_filling_lineart_selection_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_1.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_2.png"
-
-#: ../../tutorials/flat-coloring.rst:0
-msgid ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
-msgstr ".. image:: images/en/flat-coloring/Krita_filling_lineart_mask_3.png"
 
 #: ../../tutorials/flat-coloring.rst:1
 msgid "Common workflows used in Krita"
@@ -363,10 +363,16 @@ msgstr ""
 "faz contas matemáticas!"
 
 #: ../../tutorials/flat-coloring.rst:61
+#, fuzzy
+#| msgid ""
+#| "What it first does is take the values of the RGB channels, then divides "
+#| "them by the max (because we're in 8bit, this is 255), a process we call "
+#| "normalising. Then it multiplies the normalised values. Finally, it takes "
+#| "the result and multiplies it with 255 again to get the result values."
 msgid ""
 "What it first does is take the values of the RGB channels, then divides them "
 "by the max (because we're in 8bit, this is 255), a process we call "
-"normalising. Then it multiplies the normalised values. Finally, it takes the "
+"normalising. Then it multiplies the normalized values. Finally, it takes the "
 "result and multiplies it with 255 again to get the result values."
 msgstr ""
 "O que ele faz primeiro é pegar nos valores dos canais RGB, dividi-los pelo "
@@ -380,7 +386,9 @@ msgid "Pink"
 msgstr "Rosa"
 
 #: ../../tutorials/flat-coloring.rst:68
-msgid "Pink (normalised)"
+#, fuzzy
+#| msgid "Pink (normalised)"
+msgid "Pink (normalized)"
 msgstr "Rosa (normalizado)"
 
 #: ../../tutorials/flat-coloring.rst:69 ../../tutorials/flat-coloring.rst:87
@@ -388,11 +396,15 @@ msgid "Blue"
 msgstr "Azul"
 
 #: ../../tutorials/flat-coloring.rst:70
-msgid "Blue (normalised)"
+#, fuzzy
+#| msgid "Blue (normalised)"
+msgid "Blue (normalized)"
 msgstr "Azul (normalizado)"
 
 #: ../../tutorials/flat-coloring.rst:71
-msgid "Normalised, multiplied"
+#, fuzzy
+#| msgid "Normalised, multiplied"
+msgid "Normalized, multiplied"
 msgstr "Normalizado, multiplicado"
 
 #: ../../tutorials/flat-coloring.rst:72
@@ -870,9 +882,15 @@ msgid "Colorize Mask"
 msgstr "Máscara de Coloração"
 
 #: ../../tutorials/flat-coloring.rst:287
+#, fuzzy
+#| msgid ""
+#| "So, this is a bit of an odd one. In the original tutorial, you'll see I'm "
+#| "suggesting using G'Mic, but that was a few years ago, and g'mic is a "
+#| "little unstable on windows. Therefore, the Krita developers have been "
+#| "attempting to make an internal tool doing the same."
 msgid ""
 "So, this is a bit of an odd one. In the original tutorial, you'll see I'm "
-"suggesting using G'Mic, but that was a few years ago, and g'mic is a little "
+"suggesting using G'Mic, but that was a few years ago, and G'Mic is a little "
 "unstable on windows. Therefore, the Krita developers have been attempting to "
 "make an internal tool doing the same."
 msgstr ""

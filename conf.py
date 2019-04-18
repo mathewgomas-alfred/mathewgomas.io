@@ -94,6 +94,19 @@ html_extra_path = ['.htaccess', '404.php'] # copy over .htaccess file to each la
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
+# languages to exclude from smartquotes transformation. Requested by catalan translators due l':ref:`<crop_tool>` getting rendered as l"crop tool.
+smartquotes_excludes = {'languages':[
+                                    'ja',
+                                    'ca',
+                                    'fr'
+                                    ],
+                        'builders': [
+                                    'man',
+                                    'text'
+                                    ]
+                        }
+
+
 # A string of reStructuredText that will be included at the end of every source file that is read.
 # This is a possible place to add substitutions that should be available in every file (another being rst_prolog).
 rst_epilog = """

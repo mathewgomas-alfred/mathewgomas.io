@@ -43,7 +43,7 @@ An example where metamerism could become a problem is when you start matching co
    :figwidth: 500
    :align: center
 
-For example, if you are designing a print for a red t-shirt that's not bright red, but not super greyish red either. And you want to make sure the colors of the print match the color of the t-shirt, so you make a dummy background layer that is approximately that red, as correctly as you can observe it, and paint on layers above that dummy layer. When you are done, you hide this dummy layer and sent the image with a transparent background to the press.
+For example, if you are designing a print for a red t-shirt that's not bright red, but not super grayish red either. And you want to make sure the colors of the print match the color of the t-shirt, so you make a dummy background layer that is approximately that red, as correctly as you can observe it, and paint on layers above that dummy layer. When you are done, you hide this dummy layer and sent the image with a transparent background to the press.
 
 
 .. figure:: /images/en/color_category/White_point_mixup_ex1_02.png 

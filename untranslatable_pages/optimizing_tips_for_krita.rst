@@ -78,7 +78,7 @@ For instance:
 
 Avoid:
 
-    .. code:: c++
+    .. code:: cpp
     
         for(whatever)
         {
@@ -88,7 +88,7 @@ Avoid:
 
 Do:
     
-    .. code:: c++
+    .. code:: cpp
 
         QColor c;
         for(whatever)
@@ -103,7 +103,7 @@ An other example:
 
 Avoid:
 
-    .. code:: c++
+    .. code:: cpp
     
         for(y = 0 to height)
         {
@@ -116,7 +116,7 @@ Avoid:
 
 Do:
 
-    .. code:: c++
+    .. code:: cpp
         
         KisHLineIterator it = dev->createHLineIterator(0, 0, width);
         for(y = 0 to height)
@@ -145,13 +145,15 @@ Profile guided optimization
 
 Profile guided optimization is something else though. It is a special way of compiling and linking, that the compiler and linker use profiling information to know how best to optimize the code. So code that is used a lot is compiled with -O3 (the most optimizations), while code that is not used a lot gets -Os (to take less space), and so forth. This is a very useful technique that was not available on Linux until last year, and the news today is that Firefox now builds properly with it and there is a nice noticeable speed improvement for Linux users.
 
-source: http://linux.slashdot.org/comments.pl?sid=2117150&cid=35987784<br />
-wikipedia: http://en.wikipedia.org/wiki/Profile-guided_optimization
+source:
+    http://linux.slashdot.org/comments.pl?sid=2117150&cid=35987784
+wikipedia:
+    http://en.wikipedia.org/wiki/Profile-guided_optimization
 
-.. code:: c++
+.. code:: cpp
     
     g++ -O3 -march=native -pg -fprofile-generate ...
-    //run my program's benchmark
+    // run my program's benchmark
     g++ -O3 -march=native -fprofile-use ...
 
 Links

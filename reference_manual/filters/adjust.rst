@@ -63,7 +63,7 @@ The default shortcut for levels filter is :kbd:`Ctrl + L` .
 
 .. image:: /images/en/Levels-filter.png
 
-This is very useful to do an initial cleanup of scanned lineart or greyscale images. If the scanned lineart is light you can slide the black triangle to right to make it darker or if you want to remove the grey areas you can slide the white slider to left.
+This is very useful to do an initial cleanup of scanned lineart or grayscale images. If the scanned lineart is light you can slide the black triangle to right to make it darker or if you want to remove the gray areas you can slide the white slider to left.
 
 Auto levels is a quick way to adjust tone of an image.
 If you want to change the settings later you can click on the :guilabel:`Create Filter Mask` button to add the levels as a filter mask.
@@ -126,23 +126,23 @@ The default shortcut for this filter is :kbd:`Ctrl + B` .
 Desaturate
 ----------
 
-Image-wide desaturation filter. Will make any image Greyscale.
-Has several choices by which logic the colors are turned to grey. The default shortcut for this filter is :kbd:`Ctrl + Shift + U` .
+Image-wide desaturation filter. Will make any image Grayscale.
+Has several choices by which logic the colors are turned to gray. The default shortcut for this filter is :kbd:`Ctrl + Shift + U` .
 
 .. image:: /images/en/Desaturate-filter.png
 
 Lightness
-    This will turn colors to grey using the HSL model.
+    This will turn colors to gray using the HSL model.
 Luminosity (ITU-R BT.709)
-    Will turn the color to grey by using the appropriate amount of weighting per channel according to ITU-R BT.709.
+    Will turn the color to gray by using the appropriate amount of weighting per channel according to ITU-R BT.709.
 Luminosity (ITU-R BT.601)
-    Will turn the color to grey by using the appropriate amount of weighting per channel according to ITU-R BT.601.
+    Will turn the color to gray by using the appropriate amount of weighting per channel according to ITU-R BT.601.
 Average
     Will make an average of all channels.
 Min
-    Subtracts all from one another to find the grey value.
+    Subtracts all from one another to find the gray value.
 Max
-    Adds all channels together to get a grey-value
+    Adds all channels together to get a gray value
 
 .. index:: Invert, Negative
 

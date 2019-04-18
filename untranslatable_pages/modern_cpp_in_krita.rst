@@ -48,13 +48,13 @@ Type Inference (auto)
 Motivation:
     If a function ``f`` has a return type Type, it is redundant to write a local variable ``Type x = f(y).``  Using auto declarations is a simplification in two ways scenarios.  First, it allows the programmer to write code without worrying about doing the manual type deduction, for example:
 
-    .. code:: c++
+    .. code:: cpp
 
         for( KoXmlReader::const_iterator x = iter.begin(),... ) { }
 
     versus:
 
-    .. code:: c++
+    .. code:: cpp
 
         for (auto x = iter.begin(), ...) { }
 
@@ -62,7 +62,7 @@ Motivation:
 
     A second important benefit of auto is that it allows the programmer to more easily refactor.  Suppose we have a function ``gimmeSomeStrings()`` which returns a ``QList<QString>``, and we access it somewhere else like this
 
-    .. code:: c++
+    .. code:: cpp
 
         auto someStrings = gimmeSomeStrings();
 
@@ -80,7 +80,7 @@ Range-based for loop
 Motivation:
     This is something a long time coming in C++.  It is a standardized replacement for Qt's foreach() construct, which works not only with Qt objects but all iterable C++ types.  
 
-    .. code:: c++
+    .. code:: cpp
 
         for (T x : list ) { ... }
 
@@ -94,7 +94,7 @@ Recommendation:
 
     On the other hand, there is a bad, dangerous  worst case performance hit when a detach/copy is triggered, and this is not easy to catch with standard syntax. In the blog post linked above, the discussion explains that is possible to get around this limitation by defining a macro ``const_()``, which will gives a new syntax to request the compiler use constant iterators: 
     
-    .. code:: c++
+    .. code:: cpp
 
         for (T x : _const(list) ) { ... }
 
@@ -108,7 +108,7 @@ Motivation:
 
     A second place initializer lists are used is in creating standard initial values for class members.  This takes the place of writing a lengthy constructor list like:
 
-    .. code:: c++
+    .. code:: cpp
 
         Type::Type() 
          : MemberString1("a")
@@ -134,13 +134,13 @@ Motivation:
 
     Old style:
 
-    .. code:: c++
+    .. code:: cpp
         
         connect(sender, SIGNAL (valueChanged(QString,QString)),  receiver, SLOT (updateValue(QString)) );
 
     New style:
 
-    .. code:: c++
+    .. code:: cpp
 
         connect(sender, &Sender::valueChanged, receiver, &Receiver::updateValue );
 
@@ -183,7 +183,7 @@ Recommendation:
 Motivation:
     A handwritten loop that looks for occurences of the number 20 and replaces it with 99 is routine, and will take several lines to write, including defining local variables. Instead, something like
 
-    .. code:: c++
+    .. code:: cpp
 
         std::replace (myvector.cbegin(), myvector.cend(), 20, 99);
 
@@ -201,13 +201,13 @@ enum class
 Motivation:
     These are a type-safe version of enums, and allows the programmer to associate several different types of data with an enum, such as a character.  This gives stricter type safety, for example, when it might be possible to accidentally convert a variable into a numeric type.  For example: 
 
-    .. code:: c++
+    .. code:: cpp
 
         enum class Color : char {Red = 'R', Green = 'G', Blue = 'B'};
 
     Other benefits of enum classes are that they can be forward-declared, and that the data can be any sort of constexpr.  For example, if one had a constexpr function ``color_symbol()`` that returned the symbol given some color data, the enum class members could be defined like:
 
-    .. code:: c++
+    .. code:: cpp
     
         enum class Color: char {Red = color_symbol({255, 0, 0}) ...}; 
 
@@ -237,7 +237,7 @@ nullptr
 Motivation:
     The use of nullptr as a default pointer initializer is a very small change in C++11, and mostly an aesthetic one. Technically, there are only a few things it prevents : it cannot be converted to a numeric type like ``int x = nullptr;``, and it cannot be used as a class type in a template, so the following is a compiler error: 
 
-    .. code:: c++
+    .. code:: cpp
 
         meta_type<class A, class B>; 
         meta_type<C, nullptr> x;  

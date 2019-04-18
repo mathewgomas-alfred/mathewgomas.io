@@ -25,7 +25,7 @@ Within image formats, examples of such compression is by for example 'indexed' c
 
 *Lossy* compression techniques are for when we want to *permanently* reduce the file size of an image. This is necessary for final products where having a small filesize is preferable such as a website. That the image will not be edited anymore after this allows for the use of the context of a pixel to be taken into account when compressing, meaning that we can rely on psychological and statistical tricks.
 
-One of the primary things JPEG for example does is chroma sub-sampling, that is, to split up the image into a greyscale and two color versions (one containing all red-green contrast and the other containing all blue-yellow contrast), and then it makes the latter two versions smaller. This works because humans are much more sensitive to differences in lightness than we are to differences in hue and saturation.
+One of the primary things JPEG for example does is chroma sub-sampling, that is, to split up the image into a grayscale and two color versions (one containing all red-green contrast and the other containing all blue-yellow contrast), and then it makes the latter two versions smaller. This works because humans are much more sensitive to differences in lightness than we are to differences in hue and saturation.
 
 Another thing it does is to use cosine waves to describe contrasts in an image. What this means is that JPEG and other lossy formats using this are *very good at describing gradients, but not very good at describing sharp contrasts*.
 
