@@ -22,6 +22,9 @@ Tablet
     Input Pressure Global Curve : This is the global curve setting that your tablet will use in Krita. The settings here will make your tablet feel soft or hard globally.
 Use Mouse Events for Right and Middle clicks.
     Some tablet devices don't tell us whether the side buttons on a stylus . If you have such a device, you can try activate this workaround. Krita will try to read right and middle-button clicks as if they were coming from a mouse instead of a tablet. It may or may not work on your device (depends on the tablet driver implementation). After changing this option Krita should be restarted.
+    
+    .. versionadded:: 4.2
+    
 For Krita 3.3 or later:Tablet Input API
     on Windows 8 or above only
 
@@ -45,7 +48,23 @@ Map to entire virtual screen
 Map to Custom Area
     Type in the numbers manually. Use this when you have tried the other options. You might even need to do trial and error if that is the case, but at the least you can configure it.
 
+    If you have a dual monitor setup and only the top half of the screen is reachable, you might have to enter the total width of both screens plus the double height of your monitor in this field.
 
+.. versionadded:: 4.2
+
+    To access this dialog in Krita versions older than 4.2, you had to do the following:
+
+    #. Put your stylus away from the tablet.
+    #. Start Krita without using a stylus, that is using a mouse or a keyboard.
+    #. Press :kbd:`Shift` key and hold it.
+    #. Touch a tablet with your stylus so Krita would recognize it.
+
+If adjusting this doesn't work, and if you have a Wacom tablet, an offset in the canvas can be caused by a faulty Wacom preference file which is not removed or replaced by reinstalling the drivers.
+
+To fix it, use the “Wacom Tablet Preference File Utility” to clear all the preferences. This should allow Krita to detect the correct settings automatically.
+
+.. warning::
+    Clearing all wacom preferences will reset your tablet's configuration, thus you will need to recalibrate/reconfigure it.
 
 Tablet Tester
 -------------

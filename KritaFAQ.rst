@@ -295,27 +295,9 @@ However, in 100\% of the cases where Windows users have reported that their tabl
 How to fix a tablet offset on multiple screen setup on Windows
 --------------------------------------------------------------
 
-If you see that your tablet pointer has an offset when working with Krita canvas, it might be highly probable that Krita got incorrect screen resolution from the system. That problem happens mostly when an external monitor is present and when either a monitor or a tablet was connected after the system boot.
+If you see that your tablet pointer has an offset when working with Krita canvas, it might be highly likely that Krita got an incorrect screen resolution from the system. That problem happens mostly when an external monitor is present and when either a monitor or a tablet was connected after the system booted.
 
-You can fix this issue manually by:
-
-#. Put your stylus away from the tablet.
-#. Start Krita without using a stylus, that is using a mouse or a keyboard.
-#. Press :kbd:`Shift` key and hold it.
-#. Touch a tablet with your stylus so Krita would recognize it.
-
-You will see a special dialog asking for the real screen resolution. Choose the correct value or enter it manually and press :guilabel:`OK`.
-
-If you have a dual monitor setup and only the top half of the screen is reachable, you might have to enter the total width of both screens plus the double height of your monitor in this field.
-
-If this didn't work, and if you have a Wacom tablet, an offset in the canvas can be caused by a faulty Wacom preference file which is not removed or replaced by reinstalling the drivers.
-
-To fix it, use the “Wacom Tablet Preference File Utility” to clear all the preferences. This should allow Krita to detect the correct settings automatically.
-
-.. warning::
-    This will reset your tablet's configuration, thus you will need to recalibrate/reconfigure it.
-
-*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer Input” <tablet_settings>`, but some features might not work with it.
+You can configure this by going to the :ref:`tablet_settings`.
 
 Microsoft Surface Pro and N-Trig
 --------------------------------
