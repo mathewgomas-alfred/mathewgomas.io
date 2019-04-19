@@ -9,6 +9,7 @@
 
 .. index:: Log Viewer, Debug
 .. _log_viewer_docker:
+.. _log_viewer:
 
 ==========
 Log Viewer

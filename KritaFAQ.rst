@@ -252,42 +252,25 @@ If you're looking for information about tablets like the iPad or Android tablets
 What if your tablet is not recognized by Krita?
 -----------------------------------------------
 
-Linux
-~~~~~
+First, check if you have installed drivers and the like. The :ref:`drawing_tablets` page has some explainations and descriptions of common issues. If none of those work, we would like to have a bug report at bugs.kde.org, with a tablet log. Here's how you make a tablet log:
 
-We would like to see the full output of the following commands:
+#. You need to have something to output the log to. On 4.2 you can use the :ref:`log_viewer` docker for this. Just open the log viewer, and enable logging.
+    
+    .. versionchanged:: 4.2
+    
+        The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or MacOS, or for Windows install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_ from the official Microsoft site, start DebugView and then start Krita.
+        
+        When using a terminal, make sure to enable 'unlimited scrollback'
+
+#. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging has started.
+#. Try to reproduce your problem, you will be able to see the log being created in the log viewer as you draw.
+#. Save the output from the log viewer into a txt file, and attach it to the bugreport.
+
+On Linux, it is also useful to have the following information:
 
 #. ``lsmod``
 #. ``xinput``
 #. ``xinput list-props`` (id can be fetched from the item 2)
-#. Get the log of the tablet events (if applicable):
-
-   #. Open a console application (e.g. Konsole on KDE)
-   #. Set the amount of scrollback to 'unlimited' (for :program:`Konsole`: :menuselection:`Settings --> Edit Current Profile --> Scrolling --> Unlimited Scrollback`)
-   #. Start Krita by typing 'krita' and create any document
-   #. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging has started
-   #. Try to reproduce your problem
-   #. The console is now filled with the log. Attach it to a bug report
-
-#. Attach all this data to a bug report using public paste services like
-   paste.kde.org
-
-Windows
-~~~~~~~
-
-First check whether your tablet's driver is correctly installed. Often, a driver update, a Windows update or the installation of Razer gaming mouse driver breaks tablets.
-
-Then check whether switching to the Windows 8 Pointer API makes a difference: :menuselection:`Settings --> Configure Krita --> Tablet`.
-
-If you still have problems with Windows and your tablet, then we cannot help you without a tablet log.
-
-#. Install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_ from the official Microsoft site
-#. Start :program:`DebugView`
-#. Start :program:`Krita`
-#. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging has started
-#. Try to reproduce your problem
-#. Go back to DebugView and save its output to a file. Attach this file
-   to a bug report or paste it using services like paste.kde.org.
 
 However, in 100\% of the cases where Windows users have reported that their tablet didn't work over the past five years, the problem has been either a buggy driver or a broken driver installation, but not a bug in Krita.
    
