@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:16+0200\n"
+"PO-Revision-Date: 2019-04-18 20:39+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -24,8 +24,8 @@ msgid ""
 "Page about the darken blending modes in Krita: Darken, Burn, Darker Color, "
 "Gamma Dark and Linear Burn."
 msgstr ""
-"Pàgina sobre els modes de barreja més foscos al Krita: Fosca, Crema, Color "
-"més fosc, Gamma fosca i Sobreexposició lineal."
+"Pàgina sobre els modes de barreja més foscos al Krita: Fosca, Cremat, Color "
+"més fosc, Gamma fosca i Cremat lineal."
 
 #: ../../reference_manual/blending_modes/darken.rst:15
 #: ../../reference_manual/blending_modes/darken.rst:52
@@ -34,7 +34,7 @@ msgstr "Fosca"
 
 #: ../../reference_manual/blending_modes/darken.rst:22
 msgid "Burn"
-msgstr "Crema"
+msgstr "Cremat"
 
 #: ../../reference_manual/blending_modes/darken.rst:24
 msgid "A variation on Divide, sometimes called 'Color Burn' in some programs."
@@ -53,6 +53,8 @@ msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
 "-0.2, -0.2) &rarr; Black(0, 0, 0)"
 msgstr ""
+"1_{[1_Gris fosc (0,4, 0,4, 0,4)] / Gris clar (0,5, 0,5, 0,5)} = (-0,2, -0,2,"
+" -0,2) &rarr; Negre (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:34
 msgid ""
@@ -66,13 +68,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:41
 #: ../../reference_manual/blending_modes/darken.rst:46
 msgid "Left: **Normal**. Right: **Burn**."
-msgstr "Esquerra: **Normal**. Dreta: **Crema**."
+msgstr "Esquerra: **Normal**. Dreta: **Cremat**."
 
 #: ../../reference_manual/blending_modes/darken.rst:36
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
 "(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
 msgstr ""
+"1_{[1_Blau clar (0,1608, 0,6274, 0,8274)] / Taronja (1, 0,5961, 0,0706)} ="
+" (0,1608, 0.3749, -1,4448) &rarr; Verd (0,1608, 0,3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:41
 msgid ""
@@ -170,6 +174,8 @@ msgid ""
 "Darker Gray(0.4, 0.4, 0.4)^[1 / Lighter Gray(0.5, 0.5, 0.5)] = Even Darker "
 "Gray(0.1600, 0.1600, 0.1600)"
 msgstr ""
+"Gris fosc (0,4, 0,4, 0,4)^[1 / Gris clar (0,5, 0,5, 0,5)] = Gris encara més"
+" fosc (0,1600, 0,1600, 0,1600)"
 
 #: ../../reference_manual/blending_modes/darken.rst:99
 msgid ""
@@ -190,6 +196,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = "
 "Green(0.1608, 0.4575, 0.0683)"
 msgstr ""
+"Blau clar (0,1608, 0,6274, 0,8274)^[1 / Taronja (1, 0,5961, 0,0706)] = Verd"
+" (0,1608, 0,4575, 0,0683)"
 
 #: ../../reference_manual/blending_modes/darken.rst:106
 msgid ""
@@ -209,7 +217,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:117
 msgid "Linear Burn"
-msgstr "Sobreexposició lineal"
+msgstr "Cremat lineal"
 
 #: ../../reference_manual/blending_modes/darken.rst:119
 msgid ""
@@ -222,6 +230,8 @@ msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
 "-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
 msgstr ""
+"[Gris fosc (0,4, 0,4, 0,4) + Gris clar (0,5, 0,5, 0,5)]_1 = (-0,1000,"
+" -0,1000, -0,1000)  &rarr; Negre (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:126
 msgid ""
@@ -235,13 +245,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:133
 #: ../../reference_manual/blending_modes/darken.rst:138
 msgid "Left: **Normal**. Right: **Linear Burn**."
-msgstr "Esquerra: **Normal**. Dreta: **Sobreexposició lineal**."
+msgstr "Esquerra: **Normal**. Dreta: **Cremat lineal**."
 
 #: ../../reference_manual/blending_modes/darken.rst:128
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
 "(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
+"[Blau clar (0,1608, 0,6274, 0,8274) + Taronja (1, 0,5961, 0,0706)]_1 ="
+" (0,1608, 0,2235, -0,1020) &rarr; Verd fosc (0,1608, 0,2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:133
 msgid ""
