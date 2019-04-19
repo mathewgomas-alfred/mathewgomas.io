@@ -20,6 +20,8 @@ Tablet Settings
 
 Tablet 
     Input Pressure Global Curve : This is the global curve setting that your tablet will use in Krita. The settings here will make your tablet feel soft or hard globally.
+Use Mouse Events for Right and Middle clicks.
+    Some tablet devices don't tell us whether the side buttons on a stylus . If you have such a device, you can try activate this workaround. Krita will try to read right and middle-button clicks as if they were coming from a mouse instead of a tablet. It may or may not work on your device (depends on the tablet driver implementation). After changing this option Krita should be restarted.
 For Krita 3.3 or later:Tablet Input API
     on Windows 8 or above only
 
@@ -27,6 +29,22 @@ For Krita 3.3 or later:Tablet Input API
         Use the WinTab API to receive tablet pen input. This is the API being used before Krita 3.3. This option is recommended for most Wacom tablets.
     Windows 8+ Pointer Input
         Use the Pointer Input messages to receive tablet pen input. This option depends on Windows Ink support from the tablet driver. This is a relatively new addition so it's still considered to be experimental, but it should work well enough for painting. You should try this if you are using an N-Trig device (e.g. recent Microsoft Surface devices) or if your tablet does not work well with WinTab.
+
+Advanced Tablet Settings for WinTab
+-----------------------------------
+
+
+.. image:: /images/advanced-settings-tablet.png
+
+When using multiple monitors or using a tablet that is also a screen, Krita will get conflicting information about how big your screen is, and sometimes if it has to choose itself, there will be a tablet offset. This window allows you to select the appropriate screen resolution.
+
+Use Information Provided by Tablet
+    Use the information as given by the tablet.
+Map to entire virtual screen
+    Use the information as given by Windows.
+Map to Custom Area
+    Type in the numbers manually. Use this when you have tried the other options. You might even need to do trial and error if that is the case, but at the least you can configure it.
+
 
 
 Tablet Tester
