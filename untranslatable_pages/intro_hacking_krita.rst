@@ -142,6 +142,8 @@ To push to invent.kde.org, you will not need to have SSH access setup, but you d
 
 So then, how does an aspiring contributor submit patches?:
 
+.. _forking_gitlab:
+
 Forking on Gitlab
 ~~~~~~~~~~~~~~~~~
 
@@ -158,6 +160,6 @@ Forking on Gitlab
 #. Once you're done, go to :menuselection:`merge requests` and press :guilabel:`new merge request`
 #. Tell us what you've done in detail.
 
-The Krita developers be informed of new merge requests, and will try to review your request as soon as possible. If you suspect your patch slipped through the cracks, don't hesitate to make contact us through the means described above.
+The Krita developers be informed of new merge requests, and will try to review your request as soon as possible. If you suspect your patch slipped through the cracks, don't hesitate to make contact us through the means described above. Check the :ref:`patch_review_guide` for further guidance.
 
 .. https://forum.kde.org/viewtopic.php?f=288&t=125955
