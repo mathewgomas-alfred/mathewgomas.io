@@ -161,7 +161,7 @@ maintaining the darkest shadows and brightest highlights on a tool icon,
 making it much better for quick adjustments.
 
 If you're done with everything, you can press :guilabel:`Save` in the :guilabel:`Save New
-Preset` dialog and Krita will save the new brush.
+Brush Preset` dialog and Krita will save the new brush.
 
 Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,9 +197,9 @@ top right of the brush settings to show it.
 
 When saving a new preset, you can choose to get the icon from the
 scratch pad, this will load the dash area into the mini scratch pad of
-the Save New Preset dialog.
+the Save New Brush Preset dialog.
 
-The scratch pad has five buttons underneath it. These are in order for:
+The scratch pad has four buttons underneath it. These are in order for:
 
 #. Showing the current brush image
 
@@ -400,8 +400,8 @@ Example: Making an inking brush
 Saving the new Brush
 ~~~~~~~~~~~~~~~~~~~~
 
-When you're satisfied, go to the upper left and select :guilabel::`Save new
-preset`.
+When you're satisfied, go to the upper left and select :guilabel:`Save New 
+Brush Preset`.
 
 You will get the save preset dialog. Name the brush something like “My
 Preset”. Then, select :guilabel:`Load from Icon Library` to get the icon library.
