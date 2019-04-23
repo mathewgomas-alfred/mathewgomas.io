@@ -141,7 +141,7 @@ To push to invent.kde.org, you will not need to have SSH access setup, but you d
 
     Since moving to the gitlab instance, we don't use ``git@git.kde.org:krita`` but rather ``git@invent.kde.org:kde/krita``. Gitlab will not be able to see your commits if you push to the former. You can use ``git remote set-url origin git@invent.kde.org:kde/krita`` to get everything pointing correctly.
 
-So then, how does an aspiring contributor submit patches?:
+So then, how does an aspiring contributor submit patches?
 
 .. _forking_gitlab:
 
@@ -165,22 +165,22 @@ Your fork will probably be located here:
         # for https access
         git clone https://invent.kde.org/<username>/krita.git
 
-You can also use the :guilabel:`Web IDE` to make your changes on invent.kde.org, but because Krita is a cpp program, we don't recommend this outside of typo fixes and doxygen. You wouldn't be able to see the effect of your changes, after all!
+    You can also use the :guilabel:`Web IDE` to make your changes directly on invent.kde.org, but because Krita is a c++ program, we don't recommend this outside of typo fixes and doxygen documentation strings. You wouldn't be able to see the effect of your changes, after all!
 
-#. Set up a new remote which points to the official repository, so you'll be able to update your master branch.
-
-    .. code-block:: bash
-
-            # for ssh access
-            git remote add upstream git@invent.kde.org:kde/krita.git
-            # for https access
-            git remote add upstream https://invent.kde.org/kde/krita.git
-
-    After that, you can see all of your links using:
+#. Set up a new remote which points to the official repository, so you'll be able to update your local master branch.
 
     .. code-block:: bash
 
-            git remote --verbose
+        # for ssh access
+        git remote add upstream git@invent.kde.org:kde/krita.git
+        # for https access
+        git remote add upstream https://invent.kde.org/kde/krita.git
+
+    After that, you can see all of your urls using:
+
+    .. code-block:: bash
+
+        git remote --verbose
 
     As you can see, `origin` points to your fork, while `upstream` points to the official repository.
 
@@ -188,61 +188,64 @@ You can also use the :guilabel:`Web IDE` to make your changes on invent.kde.org,
 
     .. code-block:: bash
 
-            git checkout -b "<username>/<description of the new feature>"
+        git checkout -b "<username>/<description of the new feature>"
 
 #. Make your first fix, push everything to your branch in your fork.
 
     .. code-block:: bash
 
-            # make sure you didn't leave any necessary debug or unfinished code
-            git diff
-            # stage all changes
-            git add .
-            # make sure all added files are the ones you want to have in your commit
-            git status
-            # commit changes (write a commit messages that follows the rules)
-            git commit
-            # push to your branch
-            git push
+        # make sure you didn't leave any unnecessary debug or unfinished code
+        git diff
+        # stage all changes
+        git add .
+        # make sure that all added files are the ones you want to have in your commit
+        git status
+        # commit changes (here, write a commit messages that follows the rules)
+        git commit
+        # push to your branch
+        git push
 
     .. attention::
 
-        Make sure all of your commits goes to your own branch, not onto master.
+        Make sure all of your commits go to your own branch, not onto master.
 
 
 
-#. Once you're done, login to KDE gitlab instance, go to :menuselection:`merge requests` and press :guilabel:`new merge request`
-#. Make sure your merge request is between your branch from your fork and the official master branch.
+#. Once you're done, login to the KDE gitlab instance, go to :menuselection:`merge requests` and press :guilabel:`new merge request`
+#. Make sure your merge request is between the branch from your fork and the official master branch.
 #. Write a detailed description about the changes that you are proposing with your merge request. If it is a change in the user interface, it would be good if you can provide screenshots through attachments.
+
+    .. tip::
+ 
+        The Krita repository has a merge request template that labels your request appropriately and gives a checklist of common formalities that all patches should adhere to. You can select it from the :guilabel:`Template` drop down.
 
 The Krita developers will be notified of new merge requests, and they will try to review your request as soon as possible. If you suspect your patch slipped through the cracks, don't hesitate to contact us through the means described above.
 
+Update the master branch in your fork
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Update the master in your fork
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-After working for some time, you may want to update the master branch of your fork to be in sync with master branch from the official repo.
+After working for some time, you may want to update the master branch of your fork to be in sync with master branch of the official repository.
 
 #. Checkout the master branch in your working environment.
 
     .. code-block:: bash
 
-            git checkout master
+        git checkout master
 
 #. Pull the changes from official repository.
 
     .. code-block:: bash
 
-            git pull --ff-only upstream master
+        git pull --ff-only upstream master
 
 
 #. Push it to your fork.
 
     .. code-block:: bash
 
-            git push
+        git push
 
-    The other possibility is to just delete the fork you worked previously on and create another one - it will be up-to-date with official repository master already.
+    The other possibility is to just delete the fork you worked previously on and create another one -- it will be up-to-date with official repository's master branch already.
 
 
 Label workflow
@@ -255,13 +258,13 @@ Make sure the state of your merge request is labeled correctly. The picture belo
 
 
 #. When you create a merge request, mark it with WIP to make sure no one will accidentally merge your request prematurely.
-#. When you finish your work, label it with ``Needs Review``. That will make developers know your merge request is ready.
-#. A Krita developer will read and test your merge request. After that they will write comments and label your merge request accordingly:
+#. When you finish your work, label it with ``Needs Review``. That will let developers know your merge request is ready.
+#. A Krita developer will read and test your merge request. After that they will write comments and label the merge request accordingly:
 
-    * if the merge request is ready to be merged, with ``Approved`` label;
-    * if it requires changes to proceed, with ``Needs Changes`` label.
+    * If the merge request is ready to be merged, with ``Approved`` label.
+    * If it requires changes to proceed, with ``Needs Changes`` label.
 
-#. If your merge request is in ``Needs Changes`` state, please follow the instruction of the reviewer and submit the code to your merge request. Add ``Needs Review`` label to your MR again.
+#. If your merge request is in ``Needs Changes`` state, please address the concerns of the reviewer and submit the code to your branch. Gitlab will update your merge request accordingly. Add ``Needs Review`` label to your MR again.
 #. When your merge request is in the ``Approved`` state, you can either merge the code yourself to master if you have developer access, or wait for KDE developer to do it for you.
 
     .. attention::
@@ -273,29 +276,29 @@ Make sure the state of your merge request is labeled correctly. The picture belo
 
 
 
-How to prepare your commits for merge request
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to prepare your commits for a merge request
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After merging to master, your commits should nicely fit in the Krita git history.
+After merging to master, your commits should fit nicely in the Krita git history.
 
-* Commit messages should clearly and concisely state what changes you made with that particular commit and why - see `How to Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`_.
+* Commit messages should clearly and concisely state what changes you made with that particular commit and why -- see `How to Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`_.
 
-* Every commit should be compilable and follow the KDE commit guidelines - see `KDE Commit Policy <https://community.kde.org/Policies/Commit_Policy>`_. 
+* Every commit should be compilable and follow the KDE commit guidelines -- see `KDE Commit Policy <https://community.kde.org/Policies/Commit_Policy>`_. 
 
 * Commits should be self-contained: if you code a bigger feature, it's better if you divide the code into bits that can possibly exist independently.
 
 * When you add new features during the development, it's fine to add new commits.
 
-* If you need to only fix previous commits, don't add new ones - instead, amend the ones that you made before and force-push your new commits to the branch in your fork.
+* If you only need to fix previous commits, don't add new ones -- instead, amend the ones that you made before and force-push your new commits to the branch in your fork.
 
     .. code-block:: bash
 
-            # if you already committed your changes...
-            git commit
-            # ...add all changed files the "staged" state
-            git add .
-            # and amend the previous commit
-            git commit --amend
+        # if you already committed your changes...
+        git commit
+        # ...add all changed files the "staged" state
+        git add .
+        # and amend the previous commit
+        git commit --amend
 
     .. note::
 
@@ -304,12 +307,12 @@ After merging to master, your commits should nicely fit in the Krita git history
 
 * When you want to reduce the number of commits:
 
-    * you can squash them before making a merge request,
+    * you can squash them before making a merge request.
     * if you have developer access, you can squash the commits just before merging with master.
-    * `Beginner's guide to rebasing and squashing <https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing#squashing>`_
+    * See the `Beginner's guide to rebasing and squashing <https://github.com/servo/servo/wiki/Beginner's-guide-to-rebasing-and-squashing#squashing>`_ for further guidance.
 
 * Your work should go to a new branch, instead of master.
 
-* Your commits will be rebased and put on master using fast-forward merge. If you need a manual merge (if, for example, you're working on a big feature) and you don't have the commit access, please contact a Krita developer.
+* Your commits will be rebased and put in master using fast-forward merge. If you need a manual merge (if, for example, you're working on a big feature) and you don't have the commit access, please contact a Krita developer.
 
 .. https://forum.kde.org/viewtopic.php?f=288&t=125955
