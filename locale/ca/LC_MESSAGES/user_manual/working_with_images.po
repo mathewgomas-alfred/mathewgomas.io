@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-13 22:11+0200\n"
+"PO-Revision-Date: 2019-04-22 16:35+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -64,9 +64,9 @@ msgid ""
 "make the final image."
 msgstr ""
 "Aquestes són les dades principals de les capes de pintura que creeu. Així "
-"que aquests seran els traços amb el pinzell de pintura i de prop es veuran "
-"pixelats. Un fitxer de múltiples capes contindrà diverses d'aquestes capes, "
-"que se superposen una sobre l'altra per a crear la imatge final."
+"que aquestes seran els traços amb el pinzell de pintura i de prop es veuran "
+"pixelades. Un fitxer de múltiples capes contindrà diverses d'aquestes capes, "
+"que se superposaran una sobre l'altra per a crear la imatge final."
 
 #: ../../user_manual/working_with_images.rst:36
 msgid "A single layer file will usually only contain raster data."
@@ -86,10 +86,10 @@ msgid ""
 "much more CPU intensive."
 msgstr ""
 "Aquestes són operacions matemàtiques que li diuen a l'ordinador que dibuixi "
-"píxels en un lloc. Això els farà molt més escalables, perquè simplement li "
-"diu a l'operació que faci les coordenades 4 vegades més grans per escalar-"
-"les. A causa d'aquestes dades vectorials, tot serà molt més editable, més "
-"lleuger, però alhora també es requerirà molt més ús de la CPU."
+"els píxels en un lloc. Això els farà molt més escalables, perquè simplement "
+"li diu a l'operació que faci les coordenades 4 vegades més grans per "
+"escalar-les. A causa d'aquestes dades vectorials, tot serà molt més "
+"editable, més lleuger, però alhora també es requerirà molt més ús de la CPU."
 
 #: ../../user_manual/working_with_images.rst:48
 msgid "Operation Data"
@@ -106,11 +106,11 @@ msgid ""
 msgstr ""
 "Coses com les capes de filtratge, que li diuen al Krita que canviï els "
 "colors d'una capa, però també les màscares de transparència, capa de grup i "
-"les màscares de transformació es guarden en arxius de múltiples capes. La "
-"possibilitat de carregar-depèn del programari que va fer inicialment "
-"l'arxiu. Així que Krita pot carregar i desar grups, màscares de "
-"transparència i efectes de capa des PSD, però no pot carregar o desar "
-"màscares de transformació."
+"les màscares de transformació es desen en fitxers de múltiples capes. La "
+"possibilitat de carregar-los dependrà del programari que va fer inicialment "
+"el fitxer. Així que el Krita podrà carregar i desar grups, màscares de "
+"transparència i efectes de capa des del PSD, però no podrà carregar o desar "
+"les màscares de transformació."
 
 #: ../../user_manual/working_with_images.rst:58
 msgid "Metadata"
@@ -122,7 +122,7 @@ msgid ""
 "information like DPI."
 msgstr ""
 "Les metadades són informació com la data de creació, autor, descripció i "
-"també informació com el PPP."
+"també informació com els PPP (DPI)."
 
 #: ../../user_manual/working_with_images.rst:64
 msgid "Image size"
@@ -136,7 +136,7 @@ msgid ""
 "resulting file will be."
 msgstr ""
 "La mida de la imatge és la dimensió i la resolució del llenç. La mida de la "
-"imatge té una efecte directe en la mida de fitxer del document del Krita. "
+"imatge tindrà una efecte directe en la mida de fitxer del document del Krita. "
 "Com més píxels cal recordar i com més gran sigui la profunditat de bits del "
 "color, més gran serà el fitxer resultant."
 
@@ -155,8 +155,8 @@ msgstr ""
 "(la traducció és **PPP** per a ambdós). En la industria de la impressió, se "
 "suposa que la vostra impressora imprimeix a 300 **DPI**. Això vol dir que en "
 "realitat s'estan col·locant 300 punts de colors en una àrea igual que una "
-"polzada. Això indicarà la quantitat de píxels que té la vostra obra d'art en "
-"una àrea relativa d'una polzada."
+"polzada. Això indicarà la quantitat de píxels que tindrà la vostra obra d'art "
+"en una àrea relativa d'una polzada."
 
 #: ../../user_manual/working_with_images.rst:80
 msgid ""
@@ -180,11 +180,11 @@ msgid ""
 "the retina devices. None the less, when making an image for computer "
 "consumption, this is the default."
 msgstr ""
-"Aquests són els PPI predeterminats dels monitors com ho assumeixen tots els "
+"Aquests són els PPI predeterminats dels monitors com ho assumiran tots els "
 "programes. No és totalment correcte, ja que la majoria de monitors actuals "
 "tenen 125 PPI o fins i tot 300 PPI per als dispositius de retina. Tot i "
-"això, quan es crea una imatge per al consum des de l'ordinador, aquest és el "
-"valor predeterminat."
+"això, quan es crea una imatge per al consum des de l'ordinador, aquest serà "
+"el valor predeterminat."
 
 #: ../../user_manual/working_with_images.rst:90
 msgid "72 PPI"
@@ -197,7 +197,7 @@ msgstr "120 PPI"
 #: ../../user_manual/working_with_images.rst:93
 msgid "This is often used as a standard for low-quality posters."
 msgstr ""
-"Aquest s'utilitza sovint com un estàndard per a cartells de baixa qualitat."
+"Aquests s'utilitzen sovint com un estàndard per a cartells de baixa qualitat."
 
 #: ../../user_manual/working_with_images.rst:94
 msgid "300 PPI"
@@ -206,7 +206,7 @@ msgstr "300 PPI"
 #: ../../user_manual/working_with_images.rst:95
 msgid "This is the minimum you should use for quality prints."
 msgstr ""
-"Aquest és el mínim que haureu d'utilitzar per a impressions de qualitat."
+"Aquests són el mínim que haureu d'utilitzar per a impressions de qualitat."
 
 #: ../../user_manual/working_with_images.rst:97
 msgid "600 PPI"
@@ -218,7 +218,7 @@ msgstr "La qualitat emprada per a la línia artística dels còmics."
 
 #: ../../user_manual/working_with_images.rst:100
 msgid "Color depth"
-msgstr "Profunditat de color"
+msgstr "Profunditat del color"
 
 #: ../../user_manual/working_with_images.rst:102
 msgid ""
@@ -228,12 +228,11 @@ msgid ""
 "if used right. For example, having a line art layer in grayscale can half "
 "the memory costs."
 msgstr ""
-"Repassem la profunditat de color a la :ref:`pàgina Gestió del "
-"color<general_concept_color>`. Cal entendre que el Krita té espais de color "
-"de la imatge i espais de color de la capa, els últims poden estalviar "
-"memòria si s'utilitzen correctament. Per exemple, tenir una capa amb la "
-"línia artística en escala de grisos pot reduir a la meitat els costos de "
-"memòria."
+"Repassem la profunditat de color a la :ref:`pàgina Gestió del color "
+"<general_concept_color>`. Cal entendre que el Krita té espais de color de la "
+"imatge i espais de color de la capa, els últims poden estalviar memòria si "
+"s'utilitzen correctament. Per exemple, tenir una capa amb la línia artística "
+"en escala de grisos pot reduir a la meitat el cost en memòria."
 
 #: ../../user_manual/working_with_images.rst:108
 msgid "Image color space vs layer color space vs conversion."
@@ -281,7 +280,7 @@ msgstr ""
 "imatge. Juntament amb altres dades com la data i hora de creació i "
 "modificació, el Krita també mostrarà el temps d'edició d'un document en el "
 "diàleg d'informació del document, útil per a il·lustradors professionals i "
-"pintors per velocitat que volen realitzar un seguiment del temps que han "
+"pintors que per velocitat volen realitzar un seguiment del temps que han "
 "treballat en el disseny gràfic per a fins de facturació. Detecta quan no heu "
 "realitzat accions durant un temps i té una precisió de ± 60 segons. Podeu "
 "netejar-ho des del diàleg d'informació del document i, per descomptat, "
@@ -326,10 +325,11 @@ msgid ""
 "file options, will allow you to work in a slightly more comfortable "
 "environment, where transparency isn't depicted with checkered boxes."
 msgstr ""
-"Si veniu des d'un programa com :program:`Paint Tool Sai`, llavors utilitzeu "
-"aquesta opció o utilitzeu :guilabel:`Estableix el color de fons del llenç` a "
-"les opcions del fitxer nou, permetent-vos treballar en un entorn una mica "
-"més còmode, on la transparència no es representarà amb caixes a quadres."
+"Si veniu des d'un programa com el :program:`Paint Tool Sai`, llavors "
+"utilitzeu aquesta opció o utilitzeu :guilabel:`Estableix el color de fons "
+"del llenç` a les opcions del fitxer nou, permetent-vos treballar en un "
+"entorn una mica més còmode, on la transparència no es representarà amb un "
+"tauler a quadres."
 
 #: ../../user_manual/working_with_images.rst:148
 msgid "Basic transforms"
@@ -346,7 +346,7 @@ msgstr "Inclina la imatge"
 
 #: ../../user_manual/working_with_images.rst:153
 msgid "This will allow you to skew the whole image and its layers."
-msgstr "Això permet desplaçar la imatge sencera i les seves capes."
+msgstr "Permet esbiaixar la imatge sencera i les seves capes."
 
 #: ../../user_manual/working_with_images.rst:154
 msgid "Rotate"
@@ -354,7 +354,7 @@ msgstr "Gira"
 
 #: ../../user_manual/working_with_images.rst:155
 msgid "This will allow you to rotate the image and all its layers quickly."
-msgstr "Això permet girar la imatge i totes les seves capes AMB rapidesa."
+msgstr "Permet girar la imatge i totes les seves capes amb rapidesa."
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "Mirror Horizontal/Vertical"
@@ -362,11 +362,11 @@ msgstr "Emmiralla horitzontalment/verticalment"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "This will allow you to mirror the whole image with all its layers."
-msgstr "Això permetrà reflectir tota la imatge amb totes les seves capes."
+msgstr "Permet reflectir tota la imatge amb totes les seves capes."
 
 #: ../../user_manual/working_with_images.rst:159
 msgid "But there are more options than that..."
-msgstr "Però hi ha més opcions que aquestes..."
+msgstr "Però hi ha més opcions a part d'aquestes..."
 
 #: ../../user_manual/working_with_images.rst:162
 msgid "Cropping and resizing the canvas"
@@ -501,7 +501,7 @@ msgstr ".. image:: images/en/Scale_Image_to_New_Size.png"
 
 #: ../../user_manual/working_with_images.rst:226
 msgid "Separating Images"
-msgstr "Separar les imatges"
+msgstr "Descompondre les imatges"
 
 #: ../../user_manual/working_with_images.rst:229
 msgid ".. image:: images/en/Separate_Image.png"
@@ -513,7 +513,7 @@ msgid ""
 "different components or channels."
 msgstr ""
 "Aquesta potent característica per a la manipulació de les imatges permet "
-"separar una imatge en els seus diferents components o canals."
+"descompondre una imatge en els seus diferents components o canals."
 
 #: ../../user_manual/working_with_images.rst:233
 msgid ""
@@ -535,7 +535,7 @@ msgid ""
 "image, etc."
 msgstr ""
 "Per a les imatges en escala de grisos en l'espai RGB, podeu utilitzar els "
-"modes de barreja copia el vermell, copia el verd i copia el blau, utilitzant "
+"modes de barreja Copia el vermell, Copia el verd i Copia el blau, utilitzant "
 "el vermell per al canal vermell de la imatge, etc."
 
 #: ../../user_manual/working_with_images.rst:243
@@ -549,11 +549,11 @@ msgid ""
 "of their file in the RAM. Thus, when saving, Krita takes its copy and copies "
 "it over the existing file. There's a couple of tricks you can do with saving."
 msgstr ""
-"Quan el Krita crea o obre un fitxer, aquest tindrà una còpia a la memòria "
-"del fitxer que està editant. Això forma part de la manera com treballen els "
+"Quan el Krita crea o obre un fitxer, mantindrà una còpia en memòria del "
+"fitxer que s'està editant. Això forma part de la manera com treballen els "
 "ordinadors: fan una còpia del seu fitxer a la RAM. Així, en desar, el Krita "
 "prendrà la seva còpia i la copiarà sobre el fitxer existent. Hi ha un parell "
-"de trucs que podeu fer amb el desament."
+"de trucs que podreu fer amb el desament."
 
 #: ../../user_manual/working_with_images.rst:252
 msgid ""
@@ -562,7 +562,7 @@ msgid ""
 "save it."
 msgstr ""
 "El Krita desa la imatge actual a la seva memòria en un lloc definit del disc "
-"dur. Si la imatge no s'havia desat abans, el Krita preguntarà on desar-la."
+"dur. Si la imatge no s'havia desat abans, el Krita preguntarà a on desar-la."
 
 #: ../../user_manual/working_with_images.rst:253
 msgid "Save"
@@ -614,7 +614,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:266
 msgid "Open Existing Document As Untitled Document"
-msgstr "Obre un document existent com a document sense títol"
+msgstr "Obre un document existent com a un document sense títol"
 
 #: ../../user_manual/working_with_images.rst:269
 msgid "Create Copy from Current Image"

@@ -143,6 +143,8 @@ To push to invent.kde.org, you will not need to have SSH access setup, but you d
 
 So then, how does an aspiring contributor submit patches?:
 
+.. _forking_gitlab:
+
 Forking on Gitlab
 ~~~~~~~~~~~~~~~~~
 

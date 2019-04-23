@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:16+0200\n"
+"PO-Revision-Date: 2019-04-22 22:25+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -24,8 +24,8 @@ msgid ""
 "Page about the darken blending modes in Krita: Darken, Burn, Darker Color, "
 "Gamma Dark and Linear Burn."
 msgstr ""
-"Pàgina sobre els modes de barreja més foscos al Krita: Fosca, Crema, Color "
-"més fosc, Gamma fosca i Sobreexposició lineal."
+"Pàgina sobre els modes de barreja més foscos al Krita: Fosca, Cremat, Color "
+"més fosc, Gamma fosca i Cremat lineal."
 
 #: ../../reference_manual/blending_modes/darken.rst:15
 #: ../../reference_manual/blending_modes/darken.rst:52
@@ -34,11 +34,13 @@ msgstr "Fosca"
 
 #: ../../reference_manual/blending_modes/darken.rst:22
 msgid "Burn"
-msgstr "Crema"
+msgstr "Cremat"
 
 #: ../../reference_manual/blending_modes/darken.rst:24
 msgid "A variation on Divide, sometimes called 'Color Burn' in some programs."
 msgstr ""
+"Una variació de Divideix, de vegades anomenada «Cremat del color» en alguns "
+"programes."
 
 #: ../../reference_manual/blending_modes/darken.rst:26
 msgid ""
@@ -47,12 +49,18 @@ msgid ""
 "lower layer into account, similar to the burn technique used in traditional "
 "darkroom photography."
 msgstr ""
+"Això inverteix la capa inferior, després la divideix per la capa superior i "
+"inverteix el resultat. Això dóna com a resultat un efecte fosc que té en "
+"compte els colors de la capa inferior, similar a la tècnica de cremat "
+"emprada en la cambra fosca de la fotografia tradicional."
 
 #: ../../reference_manual/blending_modes/darken.rst:29
 msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
 "-0.2, -0.2) &rarr; Black(0, 0, 0)"
 msgstr ""
+"1_{[1_Gris fosc (0,4, 0,4, 0,4)] / Gris clar (0,5, 0,5, 0,5)} = (-0,2, -0,2, "
+"-0,2) &rarr; Negre (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:34
 msgid ""
@@ -66,13 +74,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:41
 #: ../../reference_manual/blending_modes/darken.rst:46
 msgid "Left: **Normal**. Right: **Burn**."
-msgstr "Esquerra: **Normal**. Dreta: **Crema**."
+msgstr "Esquerra: **Normal**. Dreta: **Cremat**."
 
 #: ../../reference_manual/blending_modes/darken.rst:36
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
 "(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
 msgstr ""
+"1_{[1_Blau clar (0,1608, 0,6274, 0,8274)] / Taronja (1, 0,5961, 0,0706)} = "
+"(0,1608, 0.3749, -1,4448) &rarr; Verd (0,1608, 0,3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:41
 msgid ""
@@ -96,12 +106,17 @@ msgid ""
 "Only if they are darker than the underlying color on the lower layer, will "
 "they be visible."
 msgstr ""
+"Amb l'enfosquiment, els colors de la capa superior es verifiquen per la seva "
+"claredat. Només seran visibles si són més foscos que el color subjacent a la "
+"capa inferior."
 
 #: ../../reference_manual/blending_modes/darken.rst:56
 msgid ""
 "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
 "(no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)"
 msgstr ""
+"És el gris clar (0,5, 0,5, 0,5) més fosc que el gris fosc (0,4, 0,4, 0,4)? = "
+"(no, no, no) &rarr; Gris fosc (0,4, 0,4, 0,4)"
 
 #: ../../reference_manual/blending_modes/darken.rst:61
 msgid ""
@@ -122,6 +137,8 @@ msgid ""
 "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? "
 "= (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)"
 msgstr ""
+"És el taronja (1, 0,5961, 0,0706) més fosc que el blau clar (0,1608, 0,6274, "
+"0,8274)? = (no, sí, sí) &rarr; Verd (0,1608, 0,5961, 0,0706)"
 
 #: ../../reference_manual/blending_modes/darken.rst:68
 msgid ""
@@ -164,12 +181,16 @@ msgid ""
 "Divides 1 by the upper layer, and calculates the end result using that as "
 "the power of the lower layer."
 msgstr ""
+"Divideix 1 per la capa superior i calcula el resultat final utilitzant-lo com "
+"la potència de la capa inferior."
 
 #: ../../reference_manual/blending_modes/darken.rst:94
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4)^[1 / Lighter Gray(0.5, 0.5, 0.5)] = Even Darker "
 "Gray(0.1600, 0.1600, 0.1600)"
 msgstr ""
+"Gris fosc (0,4, 0,4, 0,4)^[1 / Gris clar (0,5, 0,5, 0,5)] = Gris encara més "
+"fosc (0,1600, 0,1600, 0,1600)"
 
 #: ../../reference_manual/blending_modes/darken.rst:99
 msgid ""
@@ -190,6 +211,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = "
 "Green(0.1608, 0.4575, 0.0683)"
 msgstr ""
+"Blau clar (0,1608, 0,6274, 0,8274)^[1 / Taronja (1, 0,5961, 0,0706)] = Verd "
+"(0,1608, 0,4575, 0,0683)"
 
 #: ../../reference_manual/blending_modes/darken.rst:106
 msgid ""
@@ -209,19 +232,23 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:117
 msgid "Linear Burn"
-msgstr "Sobreexposició lineal"
+msgstr "Cremat lineal"
 
 #: ../../reference_manual/blending_modes/darken.rst:119
 msgid ""
 "Adds the values of the two layers together and then subtracts 1. Seems to "
 "produce the same result as :ref:`bm_inverse_subtract`."
 msgstr ""
+"Afegeix els valors de les dues capes i després resta 1. Sembla que produeix "
+"el mateix resultat que :ref:`bm_inverse_subtract`."
 
 #: ../../reference_manual/blending_modes/darken.rst:121
 msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
 "-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
 msgstr ""
+"[Gris fosc (0,4, 0,4, 0,4) + Gris clar (0,5, 0,5, 0,5)]_1 = (-0,1000, "
+"-0,1000, -0,1000)  &rarr; Negre (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:126
 msgid ""
@@ -235,13 +262,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:133
 #: ../../reference_manual/blending_modes/darken.rst:138
 msgid "Left: **Normal**. Right: **Linear Burn**."
-msgstr "Esquerra: **Normal**. Dreta: **Sobreexposició lineal**."
+msgstr "Esquerra: **Normal**. Dreta: **Cremat lineal**."
 
 #: ../../reference_manual/blending_modes/darken.rst:128
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
 "(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
+"[Blau clar (0,1608, 0,6274, 0,8274) + Taronja (1, 0,5961, 0,0706)]_1 = "
+"(0,1608, 0,2235, -0,1020) &rarr; Verd fosc (0,1608, 0,2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:133
 msgid ""

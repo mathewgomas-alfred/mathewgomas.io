@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___layers_and_masks___vector_layers\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-10 07:03+0300\n"
+"POT-Creation-Date: 2019-04-19 03:37+0200\n"
+"PO-Revision-Date: 2019-04-19 07:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,6 +20,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:None
+msgid ".. image:: images/en/Fill_rule_even-odd.svg"
+msgstr ".. image:: images/en/Fill_rule_even-odd.svg"
+
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:None
+msgid ".. image:: images/en/Fill_rule_non-zero.svg"
+msgstr ".. image:: images/en/Fill_rule_non-zero.svg"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:1
 msgid "How to use vector layers in Krita."
@@ -393,11 +401,7 @@ msgstr ""
 "вимкнути режим шахівниці, коли кожна заповнена ділянка контуру має межувати "
 "із незаповненою, ось так:"
 
-#: ../../reference_manual/layers_and_masks/vector_layers.rst:139
-msgid ".. image:: images/en/400px-Fill_rule_even-odd.svg.png"
-msgstr ".. image:: images/en/400px-Fill_rule_even-odd.svg.png"
-
-#: ../../reference_manual/layers_and_masks/vector_layers.rst:140
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:142
 msgid ""
 "The button with the inner square filled toggles non zero mode, where most of "
 "the time a self overlapping path is entirely filled except when it overlaps "
@@ -412,11 +416,7 @@ msgstr ""
 "цими двома контурами вважається розташованою поза контуром і лишається "
 "незаповненою ось так:"
 
-#: ../../reference_manual/layers_and_masks/vector_layers.rst:143
-msgid ".. image:: images/en/400px-Fill_rule_non-zero.svg.png"
-msgstr ".. image:: images/en/400px-Fill_rule_non-zero.svg.png"
-
-#: ../../reference_manual/layers_and_masks/vector_layers.rst:144
+#: ../../reference_manual/layers_and_masks/vector_layers.rst:148
 msgid ""
 "For more (and better) information about fill rules check the `Inkscape "
 "manual <http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke."

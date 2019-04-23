@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-07 12:27+0100\n"
+"PO-Revision-Date: 2019-04-18 12:02+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -142,12 +142,6 @@ msgid ".. image:: images/en/Levels-filter.png"
 msgstr ".. image:: images/en/Levels-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:66
-#, fuzzy
-#| msgid ""
-#| "This is very useful to do an initial cleanup of scanned lineart or "
-#| "greyscale images. If the scanned lineart is light you can slide the black "
-#| "triangle to right to make it darker or if you want to remove the grey "
-#| "areas you can slide the white slider to left."
 msgid ""
 "This is very useful to do an initial cleanup of scanned lineart or grayscale "
 "images. If the scanned lineart is light you can slide the black triangle to "
@@ -312,11 +306,6 @@ msgid "Desaturate"
 msgstr "Reduzir a Saturação"
 
 #: ../../reference_manual/filters/adjust.rst:129
-#, fuzzy
-#| msgid ""
-#| "Image-wide desaturation filter. Will make any image Greyscale. Has "
-#| "several choices by which logic the colors are turned to grey. The default "
-#| "shortcut for this filter is :kbd:`Ctrl + Shift + U` ."
 msgid ""
 "Image-wide desaturation filter. Will make any image Grayscale. Has several "
 "choices by which logic the colors are turned to gray. The default shortcut "
@@ -336,8 +325,6 @@ msgid "Lightness"
 msgstr "Ĩluminação"
 
 #: ../../reference_manual/filters/adjust.rst:135
-#, fuzzy
-#| msgid "This will turn colors to grey using the HSL model."
 msgid "This will turn colors to gray using the HSL model."
 msgstr "Isto irá transformar as cores em cinzento, usando o modelo HSL."
 
@@ -346,10 +333,6 @@ msgid "Luminosity (ITU-R BT.709)"
 msgstr "Luminosidade (ITU-R BT.709)"
 
 #: ../../reference_manual/filters/adjust.rst:137
-#, fuzzy
-#| msgid ""
-#| "Will turn the color to grey by using the appropriate amount of weighting "
-#| "per channel according to ITU-R BT.709."
 msgid ""
 "Will turn the color to gray by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.709."
@@ -362,10 +345,6 @@ msgid "Luminosity (ITU-R BT.601)"
 msgstr "Luminosidade (ITU-R BT.601)"
 
 #: ../../reference_manual/filters/adjust.rst:139
-#, fuzzy
-#| msgid ""
-#| "Will turn the color to grey by using the appropriate amount of weighting "
-#| "per channel according to ITU-R BT.601."
 msgid ""
 "Will turn the color to gray by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.601."
@@ -386,8 +365,6 @@ msgid "Min"
 msgstr "Mín"
 
 #: ../../reference_manual/filters/adjust.rst:143
-#, fuzzy
-#| msgid "Subtracts all from one another to find the grey value."
 msgid "Subtracts all from one another to find the gray value."
 msgstr "Subtrai tudo uns dos outros, para descobrir o valor do cinzento."
 
@@ -396,8 +373,6 @@ msgid "Max"
 msgstr "Máx"
 
 #: ../../reference_manual/filters/adjust.rst:145
-#, fuzzy
-#| msgid "Adds all channels together to get a grey-value"
 msgid "Adds all channels together to get a gray value"
 msgstr "Adiciona todos os canais em conjunto para obter um valor de cinzento"
 

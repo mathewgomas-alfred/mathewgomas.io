@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-16 03:38+0200\n"
+"POT-Creation-Date: 2019-04-21 03:37+0200\n"
 "PO-Revision-Date: 2019-04-09 18:49\n"
 "Last-Translator: guoyunhe <i@guoyunhe.me>\n"
 "Language-Team: Chinese Simplified\n"
@@ -17,13 +17,13 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___loading_saving_brushes.pot\n"
 
-#: ../../user_manual/loading_saving_brushes.rst:None
-msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-
 #: ../../user_manual/loading_saving_brushes.rst:0
 msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
 msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+
+#: ../../user_manual/loading_saving_brushes.rst:None
+msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -344,9 +344,13 @@ msgstr ""
 "调整更方便。"
 
 #: ../../user_manual/loading_saving_brushes.rst:163
+#, fuzzy
+#| msgid ""
+#| "If you're done with everything, you can press :guilabel:`Save` in the :"
+#| "guilabel:`Save New Preset` dialog and Krita will save the new brush."
 msgid ""
 "If you're done with everything, you can press :guilabel:`Save` in the :"
-"guilabel:`Save New Preset` dialog and Krita will save the new brush."
+"guilabel:`Save New Brush Preset` dialog and Krita will save the new brush."
 msgstr ""
 "完成命名和图标后，在 :guilabel:`保存为新笔刷预设` 对话框点击 :guilabel:`保存"
 "`，Krita 就会把这个新笔刷保存到硬盘。"
@@ -417,17 +421,25 @@ msgid ""
 msgstr "它默认是折叠状态，你可以在笔刷选项面板的右上方点击右箭头按钮展开它。"
 
 #: ../../user_manual/loading_saving_brushes.rst:198
+#, fuzzy
+#| msgid ""
+#| "When saving a new preset, you can choose to get the icon from the scratch "
+#| "pad, this will load the dash area into the mini scratch pad of the Save "
+#| "New Preset dialog."
 msgid ""
 "When saving a new preset, you can choose to get the icon from the scratch "
 "pad, this will load the dash area into the mini scratch pad of the Save New "
-"Preset dialog."
+"Brush Preset dialog."
 msgstr ""
 "留意绘画区被虚线圈起的正方形区域，在保存新笔刷预设时可以把这个区域内的图像用"
 "作预设图标。在“保存为新笔刷”对话框里面，有一个按钮可以把此区域加载到它的迷你"
 "绘图。"
 
 #: ../../user_manual/loading_saving_brushes.rst:202
-msgid "The scratch pad has five buttons underneath it. These are in order for:"
+#, fuzzy
+#| msgid ""
+#| "The scratch pad has five buttons underneath it. These are in order for:"
+msgid "The scratch pad has four buttons underneath it. These are in order for:"
 msgstr "绘图区下面有 4 个按钮，它们依次是："
 
 #: ../../user_manual/loading_saving_brushes.rst:204
@@ -893,9 +905,13 @@ msgid "Saving the new Brush"
 msgstr "保存新笔刷"
 
 #: ../../user_manual/loading_saving_brushes.rst:403
+#, fuzzy
+#| msgid ""
+#| "When you're satisfied, go to the upper left and select :guilabel::`Save "
+#| "new preset`."
 msgid ""
-"When you're satisfied, go to the upper left and select :guilabel::`Save new "
-"preset`."
+"When you're satisfied, go to the upper left and select :guilabel:`Save New "
+"Brush Preset`."
 msgstr ""
 "你对结果感到满意后，可到笔刷选项面板右上角，单击 :guilabel::`保存为新笔刷` 按"
 "钮。"

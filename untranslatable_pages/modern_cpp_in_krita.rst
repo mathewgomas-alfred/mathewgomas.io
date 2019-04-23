@@ -1,4 +1,4 @@
-.. meta::
+bg.. meta::
     :description:
         Guide to using features from C++11, C++14 and beyond in Krita's codebase.
 
@@ -8,6 +8,8 @@
               - Boudewijn Rempt <boud@valdyas.org>
               - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
     :license: GNU free documentation license 1.3 or later.
+
+.. _modern_cpp_in_krita:
 
 ==================================================
 Modern C++ usage guidelines for the Krita codebase
@@ -245,10 +247,10 @@ Motivation:
     The most important to nullptr is simply that you are tagging your code - ''hey: there is a null pointer lurking around here, be careful!''
 
 Drawbacks:
-    It takes longer to type nullptr than it takes to type 0, and it's not so visually pleasing.  Converting the existing code base would be fairly laborious. Tiny benefits.
+    It takes longer to type nullptr than it takes to type 0, and it's not so visually pleasing.  Converting the existing code base would be very laborious and mess up git history. Tiny benefits.
 
 Recommendation:
-    100% up to the maintainer's preferences.
+    We do not use nullptr in Krita. Not in new code, and we don't refactor old code to use it. Also not Q_NULLPTR.
 
 Deleted, default, override, final
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

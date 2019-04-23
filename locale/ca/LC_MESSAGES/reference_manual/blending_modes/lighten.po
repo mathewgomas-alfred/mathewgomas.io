@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-30 03:35+0100\n"
-"PO-Revision-Date: 2019-04-15 19:17+0200\n"
+"PO-Revision-Date: 2019-04-22 22:24+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -36,7 +36,7 @@ msgstr "Aclarit"
 
 #: ../../reference_manual/blending_modes/lighten.rst:17
 msgid "Blending modes that lighten the image."
-msgstr ""
+msgstr "Modes de barreja que alleugen la imatge."
 
 #: ../../reference_manual/blending_modes/lighten.rst:23
 msgid "Color Dodge"
@@ -48,6 +48,10 @@ msgid ""
 "inverted top layer. This results in a image with emphasized highlights, like "
 "Dodging would do in traditional darkroom photography."
 msgstr ""
+"Similar a Divideix. Inverteix la capa superior i divideix la capa inferior "
+"per la capa superior invertida. Això dóna com a resultat una imatge amb "
+"èmfasi en les llums intenses, com ho faria Esvaeix en la cambra fosca de la "
+"fotografia tradicional."
 
 #: ../../reference_manual/blending_modes/lighten.rst:32
 msgid ""
@@ -67,7 +71,7 @@ msgstr "Llum gamma"
 
 #: ../../reference_manual/blending_modes/lighten.rst:40
 msgid "Outputs the upper layer as power of the lower layer."
-msgstr ""
+msgstr "Mostra la capa superior com a potència de la capa inferior."
 
 #: ../../reference_manual/blending_modes/lighten.rst:45
 msgid ""
@@ -90,6 +94,8 @@ msgid ""
 "Similar to Overlay. A combination of the Multiply and Screen blending modes, "
 "switching between both at a middle-lightness."
 msgstr ""
+"Similar a la superposició. Una combinació dels modes de barreja Multiplica i "
+"Pantalla, canviant entre tots dos en una claredat mitjana."
 
 #: ../../reference_manual/blending_modes/lighten.rst:56
 msgid ""
@@ -97,10 +103,15 @@ msgid ""
 "Unlike overlay, if the pixel is lighter than 0.5, it is blended like in "
 "Multiply mode, if not the pixel is blended like in Screen mode."
 msgstr ""
+"La llum forta comprova si el color a la capa superior té una claredat"
+" superior "
+"al 0,5. A diferència de la superposició, si el píxel és més clar que 0,5, es "
+"barrejarà com en la mode Multiplica, de ser així es barrejarà com en el mode "
+"Pantalla."
 
 #: ../../reference_manual/blending_modes/lighten.rst:58
 msgid "Effectively, this decreases contrast."
-msgstr ""
+msgstr "Efectivament, això fa disminuir el contrast."
 
 #: ../../reference_manual/blending_modes/lighten.rst:63
 msgid ""
@@ -120,6 +131,9 @@ msgid ""
 "Only if they are Lighter than the underlying color on the lower layer, will "
 "they be visible."
 msgstr ""
+"Amb l'enfosquiment, els colors de la capa superior es verifiquen per la seva "
+"claredat. Només seran visibles si són més clars que el color subjacent a la "
+"capa inferior."
 
 #: ../../reference_manual/blending_modes/lighten.rst:75
 msgid ""
@@ -155,11 +169,11 @@ msgstr "Esvaïment lineal"
 
 #: ../../reference_manual/blending_modes/lighten.rst:93
 msgid "Exactly the same as :ref:`bm_addition`."
-msgstr ""
+msgstr "Exactament el mateix que :ref:`bm_addition`."
 
 #: ../../reference_manual/blending_modes/lighten.rst:95
 msgid "Put in for compatibility purposes."
-msgstr ""
+msgstr "Posat per propòsits de compatibilitat."
 
 #: ../../reference_manual/blending_modes/lighten.rst:100
 msgid ""
@@ -190,6 +204,9 @@ msgid ""
 "lightness of the upper-pixel is higher than 0.5, it uses Linear dodge, if "
 "not, Linear burn to blend the pixels."
 msgstr ""
+"Combina :ref:`bm_linear_dodge` i :ref:`bm_linear_burn`. Quan la claredat del "
+"píxel superior és superior que 0,5, s'utilitzarà l'Esvaïment lineal, de no "
+"ser així s'emprarà el cremat lineal per a barrejar els píxels."
 
 #: ../../reference_manual/blending_modes/lighten.rst:114
 msgid ""
@@ -231,6 +248,10 @@ msgid ""
 "so bright. Then checks which is brighter of that result or the inversion of "
 "the doubled lower layer."
 msgstr ""
+"Comprova quins són els valors que proporcionen un píxel més fosc: el valor "
+"del píxel a la capa inferior o el de la capa superior amb doble brillantor. "
+"Després verifica quina és més brillant entre aquest resultat i la inversió "
+"de la capa inferior amb doble brillantor."
 
 #: ../../reference_manual/blending_modes/lighten.rst:137
 msgid ""
@@ -268,18 +289,21 @@ msgstr "Pantalla"
 
 #: ../../reference_manual/blending_modes/lighten.rst:154
 msgid "Perceptually the opposite of :ref:`bm_multiply`."
-msgstr ""
+msgstr "Perceptiblement el contrari que :ref:`bm_multiply`."
 
 #: ../../reference_manual/blending_modes/lighten.rst:156
 msgid ""
 "Mathematically, Screen takes both layers, inverts them, then multiplies "
 "them, and finally inverts them again."
 msgstr ""
+"Matemàticament, Pantalla pren ambdues capes, les inverteix, després les "
+"multiplica i finalment les inverteix de nou."
 
 #: ../../reference_manual/blending_modes/lighten.rst:158
 msgid ""
 "This results in light tones being more opaque and dark tones transparent."
 msgstr ""
+"Això fa que els tons clars siguin més opacs i els tons foscos transparents."
 
 #: ../../reference_manual/blending_modes/lighten.rst:163
 msgid ""
@@ -320,6 +344,8 @@ msgid ""
 "These are less harsh versions of Hard Light, not resulting in full black or "
 "full white."
 msgstr ""
+"Aquestes són versions menys dures que la Llum forta, que no donen com a "
+"resultat el negre o blanc total."
 
 #: ../../reference_manual/blending_modes/lighten.rst:182
 msgid ""
@@ -328,6 +354,10 @@ msgid ""
 "pixel is lower than 25%, this prevents the strength of the brightness "
 "increase."
 msgstr ""
+"La versió SVG és lleugerament diferent de la versió del Photoshop, ja que "
+"utilitza una fórmula lleugerament diferent quan la claredat del píxel "
+"inferior és inferior al 25%, això evita que la intensitat de la brillantor "
+"augmenti."
 
 #: ../../reference_manual/blending_modes/lighten.rst:187
 msgid ""
@@ -367,12 +397,18 @@ msgid ""
 "layer is darker than 50%, the blending mode will be Burn, if not the "
 "blending mode will be Color Dodge."
 msgstr ""
+"Mescla ambdós modes de barreja Esvaïment del color i Cremat del color. Si el "
+"color de la capa superior és més fosc que el 50%, el mode de barreja serà "
+"Cremat del color, d'altra manera el mode de barreja serà Esvaïment del color."
 
 #: ../../reference_manual/blending_modes/lighten.rst:206
 msgid ""
 "This algorithm doesn't use color dodge and burn, we don't know WHAT it does "
 "do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`"
 msgstr ""
+"Aquest algoritme no utilitza Esvaïment del color i Cremat del color, no sabem "
+"QUÈ fa, però per a Esvaïment del color i Cremat del color necessitareu "
+"utilitzar la :ref:`bm_hard_mix`."
 
 #: ../../reference_manual/blending_modes/lighten.rst:211
 msgid ""

@@ -133,7 +133,7 @@ New feature branches are called 'name/number-shortdescription'. Examples: "rempt
 
 Originally this was lastname only, but some users have an endlessly long last name while others prefer using their kde identity name. The main purpose is to identify who is responsible for the work in the branch.
 
-Work in a feature branch continues till all major elements are done. A review request is done over the whole branch. Sometimes, for UI purposes, people check out the branch to test it.
+Work in a feature branch continues till all major elements are done. A :ref:`review request <patch_review_guide>` is done over the whole branch. Sometimes, for UI purposes, people check out the branch to test it.
 
 When the review is accepted, the branch is merged into master for further testing. When such a branch is merged, a mail needs to be sent to kimageshop@kde.org to notify everyone about this, you can do this automatically by adding 'CCMAIL:kimageshop@kde.org' to your merge commit.
 

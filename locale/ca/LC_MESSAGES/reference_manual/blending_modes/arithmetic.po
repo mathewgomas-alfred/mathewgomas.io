@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-15 19:16+0200\n"
+"PO-Revision-Date: 2019-04-22 22:26+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -33,7 +33,7 @@ msgstr "Aritmètic"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:16
 msgid "These blending modes are based on simple maths."
-msgstr ""
+msgstr "Aquests modes de barreja es basen en matemàtiques senzilles."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:22
 msgid "Addition"
@@ -41,7 +41,7 @@ msgstr "Addició"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:24
 msgid "Adds the numerical values of two colors together:"
-msgstr ""
+msgstr "Afegeix els valors numèrics de dos colors:"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:26
 msgid "Yellow(1, 1, 0) + Blue(0, 0, 1) = White(1, 1, 1)"
@@ -87,10 +87,8 @@ msgstr ""
 "Blending_modes_Addition_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:42
-#, fuzzy
-#| msgid "Red(1, 0, 0) + Grey(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
 msgid "Red(1, 0, 0) + Gray(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
-msgstr "Vermell (1, 0, 0) + Gris (0.5, 0.5, 0.5) = Rosa (1, 0.5, 0.5)"
+msgstr "Vermell (1, 0, 0) + Gris (0,5, 0,5, 0,5) = Rosa (1, 0,5, 0,5)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:47
 msgid ""
@@ -104,6 +102,9 @@ msgid ""
 "displayed. Therefore, white plus any other color results in white. On the "
 "other hand, black plus any other color results in the added color."
 msgstr ""
+"Quan el resultat de l'addició sigui més que 1, es mostrarà el color blanc. "
+"Per tant, el blanc més qualsevol altre color, resultarà en blanc. D'altra "
+"banda, el negre més qualsevol altre color, resultarà en el color afegit."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
 msgid ""
@@ -119,7 +120,7 @@ msgstr "Divideix"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:61
 msgid "Divides the numerical value from the lower color by the upper color."
-msgstr ""
+msgstr "Divideix el valor numèric del color inferior pel del color superior."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:63
 msgid "Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) &rarr; Red(1, 0, 0)"
@@ -180,6 +181,7 @@ msgstr "Resta inversa"
 msgid ""
 "This inverts the lower layer before subtracting it from the upper layer."
 msgstr ""
+"Aquesta inverteix la capa inferior abans de restar-la de la capa superior."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:91
 msgid ""
@@ -236,6 +238,7 @@ msgid ""
 "Multiplies the two colors with each other, but does not go beyond the upper "
 "limit."
 msgstr ""
+"Multiplica els dos colors entre si, però no va més enllà del límit superior."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:117
 msgid ""
@@ -243,14 +246,16 @@ msgid ""
 "and white lineart on top, and sets the layer to 'Multiply', and then draw in "
 "color on a layer beneath. Multiply will all the color to go through."
 msgstr ""
+"S'utilitza sovint per aplicar colors en una línia artística en blanc i negre. "
+"Es col·loca la línia artística en blanc i negre a la part superior, i "
+"estableix la capa a «Multiplica», i després es dibuixa en color en una capa "
+"a sota. La multiplicació permetrà que tots els colors passin a través seu."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:120
 msgid "White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)"
 msgstr "Blanc (1,1,1) x Blanc (1, 1, 1) = Blanc (1, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:122
-#, fuzzy
-#| msgid "White(1, 1, 1) x Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)"
 msgid "White(1, 1, 1) x Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)"
 msgstr "Blanc (1, 1, 1) x Gris (0,5, 0,5, 0,5) = Gris (0,5, 0,5, 0,5)"
 
@@ -306,15 +311,13 @@ msgstr "Sostreu"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:148
 msgid "Subtracts the top layer from the bottom layer."
-msgstr ""
+msgstr "Resta la capa superior de la capa inferior."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:150
 msgid "White(1, 1, 1)_White(1, 1, 1) = Black(0, 0, 0)"
 msgstr "Blanc (1, 1, 1)_Blanc (1, 1, 1) = Negre (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:152
-#, fuzzy
-#| msgid "White(1, 1, 1)_Grey(0.5, 0.5, 0.5) = Grey(0.5, 0.5, 0.5)"
 msgid "White(1, 1, 1)_Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)"
 msgstr "Blanc (1, 1, 1)_Gris (0,5, 0,5, 0,5) = Gris (0,5, 0,5, 0,5)"
 

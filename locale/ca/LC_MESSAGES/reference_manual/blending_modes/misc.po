@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:19+0200\n"
+"PO-Revision-Date: 2019-04-22 22:27+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,18 +37,22 @@ msgstr "Mapa de relleu"
 
 #: ../../reference_manual/blending_modes/misc.rst:23
 msgid "This filter seems to both multiply and respect the alpha of the input."
-msgstr ""
+msgstr "Aquest filtre sembla multiplicar i respectar l'alfa de l'entrada."
 
 #: ../../reference_manual/blending_modes/misc.rst:30
 msgid "Combine Normal Map"
-msgstr "Combina mapa normal"
+msgstr "Combina mapes normals"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/blending_modes/misc.rst:32
 msgid ""
 "Mathematically robust blending mode for normal maps, using `Reoriented "
 "Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-"
 "detail/>`_."
 msgstr ""
+"Mode de barreja matemàticament robust per a mapes normals, utilitzant la "
+"`Barreja de mapes normal reorientada <http://blog.selfshadow.com/publications"
+"/blending-in-detail/>`_."
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -59,6 +63,8 @@ msgid ""
 "Copies the previous layer exactly. Useful for when using filters and filter-"
 "masks."
 msgstr ""
+"Copia exactament la capa anterior. Útil per a quan s'utilitzen filtres i "
+"màscares de filtratge."
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid ""
@@ -82,12 +88,17 @@ msgid ""
 "destination channel. Specifically, it will take the specific channel from "
 "the upper layer and copy that over to the lower layers."
 msgstr ""
+"Aquesta és un mode de barreja que només copiarà/barrejarà un canal d'origen a "
+"un canal de destinació. Específicament, prendrà el canal específic de la "
+"capa superior i el copiarà a les capes inferiors."
 
 #: ../../reference_manual/blending_modes/misc.rst:59
 msgid ""
 "So, if you want the brush to only affect the red channel, set the blending "
 "mode to 'copy red'."
 msgstr ""
+"Per tant, si voleu que el pinzell només afecti el canal vermell, establiu el "
+"mode de barreja a «Copia el vermell»."
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid ""
@@ -98,6 +109,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid "The copy red, green and blue blending modes also work on filter-layers."
 msgstr ""
+"Els modes de barreja copia el vermell, verd i blau també funcionen sobre les "
+"capes de filtratge."
 
 #: ../../reference_manual/blending_modes/misc.rst:67
 msgid ""
@@ -105,6 +118,9 @@ msgid ""
 "layer's green channel, make an invert filter layer with 'copy green' above "
 "it."
 msgstr ""
+"Això també es pot fer amb les capes de filtratge. Per tant, si voleu canviar "
+"ràpidament el canal verd d'una capa, creeu una capa de filtratge invers amb "
+"un «Copia el verd» a sobre."
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid ""
@@ -151,6 +167,9 @@ msgid ""
 "Instead of using transparency, this blending mode will use a random "
 "dithering pattern to make the transparent areas look sort of transparent."
 msgstr ""
+"En lloc d'utilitzar la transparència, aquest mode de barreja utilitzarà un "
+"patró de juxtaposició a l'atzar per a fer que les àrees transparents semblin "
+"una mica transparents."
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid ""
