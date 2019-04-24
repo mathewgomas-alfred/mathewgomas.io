@@ -32,12 +32,12 @@ Select a cursor shape to use while the brush tools are used. This cursor will al
 
 Tool Icon
     Shows the currently selected tool icon, even for the freehand brush. 
-    
+
     .. image:: /images/en/Settings_cursor_tool_icon.png
 
 Arrow
     Shows a generic cursor.
-    
+
     .. image:: /images/en/Settings_cursor_arrow.png
 
 Crosshair
@@ -109,7 +109,7 @@ Use effective outline size
     .. versionadded:: 4.1
 
     This makes sure that the outline size will always be the maximum possible brush diameter, and not the current one as affected by sensors such as pressure. This makes the cursor a little less noisy to use.
-    
+
 Cursor Color:
     The default cursor color. This is mixed with the canvas image so that it will usually have a contrasting color, but sometimes this mixing does not work. This is usually due driver problems. When that happens, you can configure a more pleasant color here.
 
@@ -143,7 +143,7 @@ In docker (default)
     Gives you the tool options in a docker.
 In toolbar
     Gives you the tool options in the toolbar, next to the brush settings. You can open it with :kbd:`\\`.
-    
+
 Brush Flow Mode
     In Krita 4.2 the behaviour of flow in combination with opacity was changed. This allows you to turn it back to the 4.1 behaviour. This will however be removed in future versions.
 
