@@ -19,6 +19,7 @@ Discover Krita’s features through an online manual. Guides to help you transit
    user_manual/mirror_tools
    user_manual/painting_with_assistants
    user_manual/working_with_images
+   user_manual/autosave
    user_manual/templates
    user_manual/layers_and_masks
    user_manual/selections
