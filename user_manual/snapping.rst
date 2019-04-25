@@ -33,6 +33,9 @@ Grids
     grid docker. This doesn’t need the grid to be visible. Grids are
     saved per document, making this useful for aligning your art work to
     grids, as is the case for game sprites and grid-based designs.
+Pixel
+    This allows to snap to every pixel under the cursor. Similar to Grid
+    Snapping but with a grid having spacing = 1px and offset = 0px.
 Guides
     This allows you to snap to guides, which can be dragged out from the
     ruler. Guides do not need to be visible for this, and are saved per
