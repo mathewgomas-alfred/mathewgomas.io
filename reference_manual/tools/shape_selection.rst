@@ -7,6 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
              - Raghavendra Kamath
+	     - Alberto Eleuterio Flores Guerrero <barbanegra+bugs@posteo.mx>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Tools, Vector, Shape Selection
@@ -24,81 +25,133 @@ After you create vector shapes, you can use this tool to select, transform, and 
 
 Selection
 ---------
+Selecting shapes can be done by two types of actions:
 
-Selecting shapes works as follows. You can click on a shape to select a single shape. You can select multiple shapes with click drag.
+- |mouseleft| on a single shape to select it.
+- |mouseleft| and drag to select multiple shapes.  
+    - *Blue selection* (drag left to right): selects only shapes fully covered. 
+    - *Green selection* (drag right to left): selects all the touched shapes.
 
-There's two types of drag action, a *blue* one and a *green* one. The blue one is created by dragging from left to right, and will only select shapes that are fully covered by it. The green selection is created from right to left and will select all shapes it touches.
+.. figure:: /images/en/blue-and-green-selections.png
+   :align: center
+   :alt: Left: Blue selection. Right: Green selection.
+	 
+   Blue selection: left-to-right, selects fully covered images. --  Green selection: right-to-left, selects touched shapes.
+	 
+Placement, Scale, Angle and Distortion
+------------------------------------
 
-Rotating, Moving, Scaling, Skewing
-----------------------------------
+Once an object is selected, a dashed bounding box will appear around it. The box will also have square handles. You can use this bounding box to do adjust: placement, scale, angle and distortion of the selected object.
 
-Once an object is selected, a dashed box will appear around the object. There are handles that you can pull and stretch the box to scale it. If you move your cursor just outside the corner handles you can rotate the object. 
+.. figure:: /images/en/shapes-selection-properties.png
+   :align: center
+   :alt: Left to right: Placement, Scale, Angle and Distortion.
+
+   Left to right: Placement, Scale, Angle and Distortion.
+   
+Placement
+    |mouseleft| and hold inside the bounding box, while holding move the shape to the desired position.
+Scale
+    |mouseleft| and hold inside any of the square handles, move to adjust the dimensions of the object. 
+Angle
+    Place the cursor slightly outside any of the corner handles. |mouseleft| and drag to adjust the angle of the shape. 
+Distortion
+   Place the cursor slightly outside any of the middle handles. |mouseleft| and drag to skew the shape. 
 
 Tool Options
 ------------
 
-.. image:: /images/en/Vector-tool-options.png
-
 The tool options of this menu are quite involved, and separated over 3 tabs.
+
 
 Geometry
 ~~~~~~~~
+.. image:: /images/en/shape-selection-menu-geometry.png
+   :width: 400
+   :alt: Tool options: Geometry tool.
 
-Geometry is the first section. It allows you to precisely set the x, y, width and height.
 
-Anchor Lock
-    This is not implemented at the moment.
+Geometry is the first section in the tool options. This section allows you to set precisely the 'x' and 'y' coordinates, and also the width and height of the shape.
+
 Uniform scaling
-    When enabled, it will scale the stroke width with the shape, when not enabled, the stroke with will stay the same.
+    Enabled: when scaling, it will scale the stroke width with the shape.
+    
+    Not enabled: when scaling, the stroke width will stay the same.
 Global coordinates
     Determines whether the width and height bars use the width and height of the object, while taking transforms into account.
 Opacity
-    The general opacity, or transparency, of the object.
+    The general opacity, or transparency, of the object. Opacity for stroke and fill are explained in the next two sections.
 
+.. warning:: 
+
+    Anchor Lock is not implemented at the moment.
+
+    
 Stroke
 ~~~~~~
+.. image:: /images/en/shape-selection-menu-stroke.png
+   :width: 400
+   :alt: Tool options: Stroke tool.
 
-The stroke tab determines how stroke around the object should look.
 
-The first set of buttons to choose is the fill of the stroke. This has the same features as the fill of the shape, so scroll down a bit for details on that.
+The stroke tab determines how the stroke around the object should look.
 
-Then, there's the settings for the stroke style.
+The first set of buttons allows us to set the fill of the stroke: *None*, *Color* and *Gradient*; this same options exist for the fill of the shape, please refer to the following "**Fill**" section for more details on how to use both of them.
+
+Then, there are the settings for the stroke style:
 
 Thickness
-    The width of the stroke is determined by this entry. When creating a shape, Krita will use the current brush size to determine the width of the stroke.
+    Sets the width of the stroke. When creating a shape, Krita will use the current brush size to determine the width of the stroke.
 Cap and corner style
-    If you press the button after the thickness entry, you will be able to set the stroke cap and the stroke corner style.
+    Sets the stroke cap and stroke corner style, this can be accessed by pressing the three dots button next to the thickness entry.
 Line-style
-    Determines whether the stroke is solid or uses dashes and dots.
+    Sets the line style of the stroke: *solid*, *dashes*, *dots*, or mixes of *dashes and dots*.
 Markers
-    Which markers can be added to the stroke. Markers are little figures that will appear at the start, end or all the nodes in between depending on your configuration.
+    Adds markers to the stroke. Markers are little figures that will appear at the start, end or all the nodes in between, depending on your configuration.
 
 Fill
 ~~~~
+.. image:: /images/en/shape-selection-menu-fill.png
+   :width: 400
+   :alt: Tool options: Fill tool.
 
-The fill of the shape. As this has the same features as the fill of the stroke, this is explained here as well.
+This section is about the color that fills the shape. As mentioned above in the **Stroke** section, the features are the same for both the fill of the stroke and the fill of the shape. Here is the explanation for both:
 
-A fill can be a flat color, a gradient or a pattern. Or it can be nothing (transparent)
+A fill can be: *solid color*, *gradient*, or *none* (transparent)
 
 None
     No fill. It's transparent.
 Color
     A flat color, you can select a new one by pressing the color button.
 Gradient
-    This one has a few more options.
+    As the name implies this type fills the shape with a gradient. It has the following options:
 
     Type
         A linear or radial gradient.
     Repeat
         How the gradient repeats itself.
     Preset
-        A quick menu for choosing a base gradient to edit.
+        A menu for selecting a base gradient from a set of predefined gradient presets, which can be edited as desired.
+    Save Gradient 
+        A quick way for saving the current gradient as a preset.
+    Stops Options Line
+        A representation of how the gradient colors should look. 
+        The stops are represented by triangles. There are two stops by default one at the beginning and one at the end. You can create more stops just by clicking anywhere on the line. To select a stop |mouseleft| inside the triangle. To delete the stops, |mouseleft| drag them to left or right until the end of the line.
+    Flip Gradient 
+        A quick way to invert the order of the gradient.
+    Stop 
+        Choose a color for the current selected stop.
+    Opacity 
+        Choose the opacity for the current selected stop. 
 
+.. hint:: 
+
+    When a stop triangle is selected, it is highlighted with a slight blue outline. The selected stop triangle will change its color and opacity accordingly when this options are changed.
+
+.. hint::
+   
     You can edit the gradient in two ways. The first one is the actual gradient in the docker that you can manipulate. Vectors always use stop-gradients.
     The other way to edit gradients is editing their position on canvas.
-
-Patterns
-    Patterns aren't implemented yet.
 
 Right-click menu
 ----------------
@@ -107,4 +160,4 @@ The shape selection tool has a nice right click menu that gives you several feat
 
 .. image:: /images/en/Vector-right-click-menu.png
 
-If you have multiple objects selected you can perform "Logical Operators" on them, or boolean operations as they are commonly called. It will be the last item on the right-click menu. You can combine, subtract, intersect, or split the objects.
+If you have multiple objects selected you can perform "Logical Operators" on them, or boolean operations as they are commonly called. It will be the last item on the right-click menu. You can unite, intersect, subtract, or split the selected objects.
