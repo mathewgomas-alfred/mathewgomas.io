@@ -42,7 +42,7 @@ Guides
     document. This is useful for comic panels and similar print-layouts,
     though we recommend Scribus for more intensive work.
 
-.. image:: /images/en/Snap-orthogonal.png
+.. image:: /images/snapping/Snap-orthogonal.png
 
 Orthogonal (Vector Only)
     This allows you to snap to a horizontal or vertical line from
@@ -51,12 +51,12 @@ Orthogonal (Vector Only)
     path). This is useful for aligning object horizontally or
     vertically, like with comic panels.
 
-.. image:: /images/en/Snap-node.png
+.. image:: /images/snapping/Snap-node.png
 
 Node (Vector Only)
     This snaps a vector node or an object to the nodes of another path.
 
-.. image:: /images/en/Snap-extension.png
+.. image:: /images/snapping/Snap-extension.png
 
 Extension (Vector Only)
     When we draw an open path, the last nodes on either side can be
@@ -64,7 +64,7 @@ Extension (Vector Only)
     direction of the node depends on its side handles in path editing
     mode.
 
-.. image:: /images/en/Snap-intersection.png
+.. image:: /images/snapping/Snap-intersection.png
 
 Intersection (Vector Only)
     This allows you to snap to an intersection of two vectors.

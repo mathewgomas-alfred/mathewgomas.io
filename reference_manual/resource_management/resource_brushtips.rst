@@ -36,7 +36,7 @@ For some time Photoshop has been using the ABR format to compile brushes into a 
 #. Open the Brush Settings Editor (:kbd:`F5` )
 #. Click on the tab "Predefined" next to "Auto".  This will change the editor to show a scrollable screen of thumbnail images, most will be black on a white background.  At the bottom of the window are two icons: 
 
-    .. image:: /images/en/600px-BSE_Predefined_Window.png
+    .. image:: /images/brushes/600px-BSE_Predefined_Window.png
 
 #. Click on the blue file folder on the left and then navigate to where you saved your .ABR file and open it.
 #. If everything went fine you will see a number of new thumbnails show up at the bottom of the window.  In our case, they would all be thumbnails representing different types of trees.  Your job now is to decide which of these you want to have as Brush Presets (Just like your Pencil) or you think you'll only use sporadically.

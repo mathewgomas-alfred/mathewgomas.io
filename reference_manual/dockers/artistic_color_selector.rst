@@ -21,7 +21,7 @@ A color selector inspired by traditional color wheel and workflows.
 Usage
 -----
 
-.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker.png
+.. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker.png
 
   Artistic color selector with a gamut mask
 
@@ -45,7 +45,7 @@ Color wheel preferences
 -----------------------
 
 .. _artistic_color_selector_docker_fig_wheel_preferences:
-.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker_3.png
+.. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker_3.png
 
    Color wheel preferences
 
@@ -67,7 +67,7 @@ Reset to default (5)
 Selector settings
 -----------------
 
-.. figure:: /images/en/Krita_Artistic_Color_Selector_Docker_2.png
+.. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker_2.png
 
   Selector settings menu
 

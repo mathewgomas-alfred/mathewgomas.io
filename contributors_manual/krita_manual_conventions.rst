@@ -146,14 +146,14 @@ Images
 
 Use the image directive for images without captions::
 
-    .. image:: /images/en/sample.png
+    .. image:: /images/sample.png
        :width: 800
        :align: center
        :alt: an image.
 
 And figure directives for images with captions::
 
-    .. figure:: /images/en/sample.png
+    .. figure:: /images/sample.png
        :figwidth: 800
        :align: center
        :alt: an image.
@@ -162,14 +162,14 @@ And figure directives for images with captions::
 
 The latter gives:
 
- .. figure:: /images/en/sample.png
+ .. figure:: /images/sample.png
     :figwidth: 800
     :align: center
     :alt: an image.
 
     A caption --  notice how the first letter of the caption in the directive is aligned with the :figwidth: option.
 
-Images should go into the ``/images/en`` folder. By using ``/images`` instead of ``images``, sphinx will know the filepath isn't relative.
+Images should go into the ``/images`` folder. By using ``/images`` instead of ``images``, sphinx will know the filepath isn't relative.
 
 In-text Markup
 --------------

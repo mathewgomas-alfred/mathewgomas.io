@@ -18,7 +18,7 @@ General Settings
 
 You can access the General Category of the preferences by first going to  :menuselection:`Settings --> Configure Krita`.
 
-    .. image:: /images/en/Krita_Preferences_General.png
+    .. image:: /images/preferences/Krita_Preferences_General.png
 
 Cursor Settings
 ---------------
@@ -33,49 +33,49 @@ Select a cursor shape to use while the brush tools are used. This cursor will al
 Tool Icon
     Shows the currently selected tool icon, even for the freehand brush. 
 
-    .. image:: /images/en/Settings_cursor_tool_icon.png
+    .. image:: /images/preferences/Settings_cursor_tool_icon.png
 
 Arrow
     Shows a generic cursor.
 
-    .. image:: /images/en/Settings_cursor_arrow.png
+    .. image:: /images/preferences/Settings_cursor_arrow.png
 
 Crosshair
     Shows a precision reticule.
 
-    .. image:: /images/en/Settings_cursor_crosshair.png
+    .. image:: /images/preferences/Settings_cursor_crosshair.png
 
 Small circle
 
     Shows a small white dot with a black outline.
 
-    .. image:: /images/en/Settings_cursor_small_circle.png
+    .. image:: /images/preferences/Settings_cursor_small_circle.png
 
 No Cursor
     Show no cursor, useful for tablet-monitors.
 
-    .. image:: /images/en/Settings_cursor_no_cursor.png
+    .. image:: /images/preferences/Settings_cursor_no_cursor.png
 
 Triangle Right-Handed.
 
     Gives a small white triangle with a black border.
 
-    .. image:: /images/en/Settings_cursor_triangle_righthanded.png
+    .. image:: /images/preferences/Settings_cursor_triangle_righthanded.png
 
 Triangle Left-Handed.
     Same as above but mirrored.
 
-    .. image:: /images/en/Settings_cursor_triangle_lefthanded.png
+    .. image:: /images/preferences/Settings_cursor_triangle_lefthanded.png
 
 Black Pixel
     Gives a single black pixel.
 
-    .. image:: /images/en/Settings_cursor_black_pixel.png
+    .. image:: /images/preferences/Settings_cursor_black_pixel.png
 
 White Pixel
     Gives a single white pixel.
 
-    .. image:: /images/en/Settings_cursor_white_pixel.png
+    .. image:: /images/preferences/Settings_cursor_white_pixel.png
 
 
 Outline Shape
@@ -160,7 +160,7 @@ Enable Touchpainting
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
 
-    .. figure:: /images/en/Krita_4_0_kinetic_scrolling.gif
+    .. figure:: /images/preferences/Krita_4_0_kinetic_scrolling.gif
        :align: center
 
        Kinetic scrolling on the brush chooser drop-down with activation mode set to :guilabel:`On Click Drag`, with this disabled all of these clicks would lead to a brush being selected regardless of drag motion.

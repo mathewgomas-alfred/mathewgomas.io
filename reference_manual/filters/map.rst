@@ -29,7 +29,7 @@ Tiles the input image, using its own layer as output.
 Phong Bumpmap
 -------------
 
-.. image:: /images/en/Krita-normals-tutoria_4.png
+.. image:: /images/brushes/Krita-normals-tutoria_4.png
 
 Uses the input image as a height-map to output a 3d something, using the phong-lambert shading model. Useful for checking one's height maps during game texturing. Checking the :guilabel:`Normal Map` box will make it use all channels and interpret them as a normal map.
 
@@ -50,7 +50,7 @@ This filter takes the input pixels, puts them into a 3d vector, and then normali
 Gradient Map
 ------------
 
-.. image:: /images/en/Krita_filter_gradient_map.png
+.. image:: /images/filters/Krita_filter_gradient_map.png
 
 Maps the lightness of the input to the selected gradient. Useful for fancy artistic effects.
 

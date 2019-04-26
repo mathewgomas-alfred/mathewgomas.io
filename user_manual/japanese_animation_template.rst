@@ -28,7 +28,7 @@ Basic structure of its layers
 Layers are organized so that your work will start from lower layers go
 to higher layers, except for coloring layers. 
 
-.. image:: /images/en/Layer_Organization.png
+.. image:: /images/animation/Layer_Organization.png
 
 Its layer contents
 ==================
@@ -57,21 +57,21 @@ Basic steps to make animation
 
 Key draft --> assign them into Time sheet (or adjust them on Timeline, then assign them into Time sheet) --> adjust them on Timeline --> add frames to draw drafts for inbetweening if you need them --> Start drawing Keys
 
-.. image:: /images/en/Keys_drafts.png
+.. image:: /images/animation/Keys_drafts.png
 
 You can add layers and add them to timeline.
 
-.. image:: /images/en/Add_Timeline_1.png
+.. image:: /images/animation/Add_Timeline_1.png
 
-.. image:: /images/en/Add_Timeline_2.png
+.. image:: /images/animation/Add_Timeline_2.png
 
 This is due difference between 24 drawing per second, which is used in Full Animation, and 12 drawing per second and 8 drawings per second, which are used in Limited Animation, on the Timeline docker.
 
-.. image:: /images/en/24_12_and_8_drawing_per_sec.png
+.. image:: /images/animation/24_12_and_8_drawing_per_sec.png
 
 This is correspondence between Timeline and Time sheet. "Black" layer is to draw main line art which are used ordinary line art, "Red" layer is to draw red auxiliary linearts which are used to specify highlights, "Blue" layer is to draw blue auxiliary linearts which are used to specify shadows, and "Shadow" layer is to draw light green auxiliary line art which are used to specify darker shadows. However, probably you have to increase or decrease these layers according to your work. 
 
-.. image:: /images/en/Time_sheet_1.png
+.. image:: /images/animation/Time_sheet_1.png
 
 Finished keys, you will begin to draw the inbetweens. If you feel Krita is becoming slow, I recommend you to merge key drafts and keys, as well as to remove any unnecessary layers.
 
@@ -80,7 +80,7 @@ inbetweenings, using Time sheet and inbetweening drafts as reference.
 
 This is its correspondence with Time sheet.
 
-.. image:: /images/en/Inbetweening.png
+.. image:: /images/animation/Inbetweening.png
 
 Once the vector functionality of Krita becomes better, I recommend you to use vector to finalize inbetweening.
 

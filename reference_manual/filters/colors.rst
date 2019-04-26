@@ -25,12 +25,12 @@ Color to Alpha
 
 This filter allows you to make one single color transparent (alpha). By default when you run this filter white is selected, you can choose a color that you want to make transparent from the color selector
 
-.. image:: /images/en/Color-to-alpha.png
+.. image:: /images/filters/Color-to-alpha.png
 
 The Threshold indicates how much other colors will be considered mixture of the removed color and non-removed colors.
 For example, with threshold set to 255, and the removed color set to white, a 50% gray will be considered a mixture of black+white, and thus transformed in a 50% transparent black.
 
-.. image:: /images/en/Krita-color-to-alpha.png
+.. image:: /images/filters/Krita-color-to-alpha.png
    :align: center
 
 This filter is really useful in separating line art from the white background.
@@ -43,7 +43,7 @@ Color Transfer
 This filter converts the colors of the image to colors from the reference image.
 This is a quick way to change a color combination of an artwork to an already saved image or a reference image.
 
-.. image:: /images/en/Color-transfer.png
+.. image:: /images/filters/Color-transfer.png
 
 .. _filter_maximize_channel:
 

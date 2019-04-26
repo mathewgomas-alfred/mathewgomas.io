@@ -14,11 +14,11 @@
 Onion Skin Docker
 =================
 
-.. image:: /images/en/Onion_skin_docker.png
+.. image:: /images/dockers/Onion_skin_docker.png
 
 To make animation easier, it helps to see both the next frame as well as the previous frame sort of layered on top of the current. This is called *onion-skinning*.
 
-.. image:: /images/en/Onion_skin_01.png
+.. image:: /images/dockers/Onion_skin_01.png
 
 Basically, they are images that represent the frames before and after the current frame, usually colored or tinted.
 
@@ -28,7 +28,7 @@ The term onionskin comes from the fact that onions are semi-transparent. In trad
 
 Onion-skinning is a digital implementation of such a workflow, and it’s very useful when trying to animate.
 
-.. image:: /images/en/Onion_skin_02.png
+.. image:: /images/dockers/Onion_skin_02.png
 
 The slider and the button with zero offset control the master opacity and visibility of all the onion skins. The boxes at the top allow you to toggle them on and off quickly, the main slider in the middle is a sort of ‘master transparency’ while the sliders to the side allow you to control the transparency per keyframe offset.
 

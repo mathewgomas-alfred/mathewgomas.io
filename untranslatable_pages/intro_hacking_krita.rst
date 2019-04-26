@@ -52,7 +52,7 @@ Here's some links to get your started.
 Building Krita
 --------------
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
 
 To get started, all you need to do is get a copy of Krita and build it! This is not all that much much different from building something off GitHub... except that Krita is a very large compared to most software.  There are :ref:`build guides <building_krita>` to get you going on various platforms, but of course Linux is easiest.
 
@@ -253,7 +253,7 @@ Label workflow
 
 Make sure the state of your merge request is labeled correctly. The picture below shows the basic label workflow that your merge request should go through:
 
-.. image:: /images/Merge_Request_Label_Workflow.png
+.. image:: /images/untranslatable/Merge_Request_Label_Workflow.png
     :width: 1000px
 
 

@@ -27,7 +27,7 @@ A naive person would suggest the following solution: do your work within the CMY
 
 So ideally, you would do the image in RGB, and use all your favorite RGB tools, and let the computer do a conversion to a given CMYK space on the fly, just for preview. This is possible, and is what we call ''Soft Proofing''.
 
-.. figure:: /images/en/Softproofing_regularsoftproof.png
+.. figure:: /images/softproofing/Softproofing_regularsoftproof.png
     :align: center
     :figwidth: 800
     
@@ -42,7 +42,7 @@ Profile, Depth, Space
 Intent
     Set the proofing Intent. It uses the same intents as the intents mentioned in the :ref:`color managed workflow <color_managed_workflow>`.
 
-    .. figure:: /images/en/Softproofing_adaptationstate.png
+    .. figure:: /images/softproofing/Softproofing_adaptationstate.png
         :align: center
         :figwidth: 800
     
@@ -65,7 +65,7 @@ The out of gamut warning, or gamut alarm, is an extra option on top of Soft-Proo
 
 This can be useful to determine where certain contrasts are being lost, and to allow you to change it slowly to a less contrasted image.
 
-.. figure:: /images/en/Softproofing_gamutwarnings.png
+.. figure:: /images/softproofing/Softproofing_gamutwarnings.png
     :align: center
     :figwidth: 800
     

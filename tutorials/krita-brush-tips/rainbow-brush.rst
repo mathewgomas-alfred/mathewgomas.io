@@ -21,12 +21,12 @@ Yes there is.
 
 First, select the fill_circle:
 
-.. image:: /images/en/brush-tips/Brushtip-Rainbow.png
+.. image:: /images/brush-tips/Brushtip-Rainbow.png
     :alt: selecting fill circle for brush tip
 
 Then, press :kbd:`F5` to open the brush editor, and toggle **Hue**.
 
-.. image:: /images/en/brush-tips/Brushtip-Rainbow_2.png
+.. image:: /images/brush-tips/Brushtip-Rainbow_2.png
     :alt: toggle hue in the brush parameter
 
 This should allow you to change the color depending on the pressure.
@@ -35,7 +35,7 @@ This should allow you to change the color depending on the pressure.
 
 Uncheck **Pressure** and check **Distance** to make the rainbow paint itself over distance. The slider below can be |mouseright| to change the value with keyboard input.
 
-.. image:: /images/en/brush-tips/Brushtip-Rainbow_3.png
+.. image:: /images/brush-tips/Brushtip-Rainbow_3.png
     :alt: select distance parameter for the hue
 
 When you are satisfied, give the brush a new name and save it.

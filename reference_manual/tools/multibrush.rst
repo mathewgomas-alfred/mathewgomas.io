@@ -23,7 +23,7 @@ The settings for the tool will be found in the tool options dock.
 
 The multibrush tool has three modes and the settings for each can be found in the tool options dock. Symmetry and mirror reflect over an axis which can be set in the tool options dock. The default axis is the center of the canvas.
 
-.. image:: /images/en/Krita-multibrush.png
+.. image:: /images/tools/Krita-multibrush.png
    :align: center
 
 The three modes are:

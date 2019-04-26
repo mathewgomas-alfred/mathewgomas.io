@@ -21,33 +21,33 @@ Colors are pretty, and they're also *pretty* fundamental to painting. When paint
 
 Naturally, the first thing we do is organize the colors, usually based on what we see in nature. For example, we tend to order hues in the order that they appear in a rainbow, and we think about brightness of values as a tonal range from white to black. Of course, nature itself is tied to physics, and the order of hues and the concept of brightness has everything to do with the wavelength and energy of light as it bounces around and eventually enters our eyes.
 
-.. image:: /images/en/color_category/Krita_color_mixing_natural_order.png
+.. image:: /images/color_category/Krita_color_mixing_natural_order.png
    :align: center
 
 
 In the case of *traditional media*, we order the colors (**hues**) by how they result from mixes of other colors, starting with the *subtractive* **primary colors**: cyan, magenta, yellow. Mixing each primary color with each other reveals three secondary colors: violet, orange, and green. Mixing between those colors creates tertiary colors, and so on - the variations of hues between each named color are practically limitless! Thinking of colors in this way creates a circle of hues that artists call *"the color wheel"*! Each one of these hues can be made **lighter (tint)** or **darker (shade)** by mixing with white or black, respectively, and any color can be made **less saturated** (more gray or muted) by mixing with another color on the opposite side of the color wheel.
  
-.. image:: /images/en/color_category/Krita_color_mixing_traditional_order.png
+.. image:: /images/color_category/Krita_color_mixing_traditional_order.png
    :align: center
 
 
 In the digital world of computers color is treated similarly, and we order colors by the *way the screen generates them*; each **pixel** of color on our screen is produced by combining *super tiny* red, green, and blue lights of varying intensities. Unlike mixing paint, where light intensity is subtracted by pigment and mixing all the colors together produces a muddy brown or gray, *mixing lights is additive* - no light at all is obviously black, and mixing all of the colored lights produces white. As such, we can make a list of possible primary color **intensities**:
 
-.. image:: /images/en/color_category/percentages_red.svg
+.. image:: /images/color_category/percentages_red.svg
 
 Shown above is a table of different intensities of red light. Our screens can certainly create a lot of shades of red, but we only start to see *the power of pixels* when we add in the other primary colors, green and blue, and show the colors of light that are produced when they are added together! For example, here's a table showing various mixes of red and green:
 
-.. image:: /images/en/color_category/percentages_red_green.svg
+.. image:: /images/color_category/percentages_red_green.svg
 
 But that's just red and green, what about blue? I guess we can make *even more tables* to show what happens when different amounts of blue are added into the mix:
 
-.. image:: /images/en/color_category/percentages_red_green_blue.svg
+.. image:: /images/color_category/percentages_red_green_blue.svg
 
 This way of ordering colors is probably familiar to you if you have used some programs for making internet applications, like Flash. In fact, if we had made 6 samples instead of 5 per "channel" (that is, per each primary color), we'd have gotten the `216 websafe colors <https://websafecolors.info/color-chart>`_!
 
 Showing the colors in a bunch of tables just *feels wrong*, though, doesn't it? That's because, while our tables are *2D*, as we are mixing *three* primary colors, color can be thought of as *3D*! It’s a bit odd the first time you think about it this way, but you can actually stack these tables based on the amount of blue and they become a **cube**!
 
-.. image:: /images/en/color_category/Rgbcolorcube_2.png
+.. image:: /images/color_category/Rgbcolorcube_2.png
    :align: center
 
 
@@ -55,7 +55,7 @@ This cube is not filled with water, or sand, or even *concrete*, but colors! Col
 
 There are many more color models. For example, if we were to balance our cube on the black corner, the white corner would be right under our finger at the very top of the cube. And as geometry and maths would have it, if we were to cut the cube in half as we balanced it, the line from the white point at the top to the black point at the bottom would be the **grayscale**.
 
-.. image:: /images/en/color_category/Rgbcolorcube_HSI.png
+.. image:: /images/color_category/Rgbcolorcube_HSI.png
    :align: center
 
 

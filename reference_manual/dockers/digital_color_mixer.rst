@@ -15,7 +15,7 @@
 Digital Color Mixer
 ===================
 
-.. image:: /images/en/Krita_Digital_Color_Mixer_Docker.png
+.. image:: /images/dockers/Krita_Digital_Color_Mixer_Docker.png
 
 This docker allows you to do simple mathematical color mixing.
 

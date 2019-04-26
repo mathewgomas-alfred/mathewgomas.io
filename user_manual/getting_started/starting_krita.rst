@@ -30,7 +30,7 @@ section of the welcome screen. This will open the new file dialog box. If you
 want to open an existing image, either use :menuselection:`File --> Open` or
 drag the image from your computer into Krita's window.
 
-.. image:: /images/en/Starting-krita.png
+.. image:: /images/Starting-krita.png
    :width: 800
 
 Creating a New Document
@@ -42,7 +42,7 @@ A new document can be created as follows.
 #. Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + N`.
 #. Now you will get a New Document dialog box as shown below:
 
-.. image:: /images/en/Krita_newfile.png
+.. image:: /images/Krita_newfile.png
 
 Click on the :guilabel:`Custom Document` section and in the :guilabel:`Dimensions`
 tab choose A4(300ppi) or any size that you prefer from the :guilabel:`predefined` drop down
@@ -68,7 +68,7 @@ these cute squares with pens and crayons.
 If you want to tweak the presets, check the Brush Editor in the toolbar. You
 can also access the Brush Editor with :kbd:`F5`.
 
-.. image:: /images/en/Krita_Brush_Preset_Docker.png
+.. image:: /images/dockers/Krita_Brush_Preset_Docker.png
 
 Tick any of the squares to choose a brush, and then draw on the canvas. To
 change color, click the triangle in the Advanced Color Selector docker.

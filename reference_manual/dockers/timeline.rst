@@ -18,7 +18,7 @@ Timeline Docker
 
 The **Timeline Docker** works in tandem with the :ref:`animation_docker` at the heart of :program:`Krita`'s animation tools. While the Animation Docker provides access to the fundamental controls for playing back and editing animations, the Timeline Docker contains the layered frames and specific timings that define your animation. In other words, the Timeline Docker is the digital equivalent to a traditional animator's "dope sheet".
 
-.. image:: /images/en/Timeline_docker.png
+.. image:: /images/dockers/Timeline_docker.png
    :align: center
 
 Legend:
@@ -84,7 +84,7 @@ It's also possible to add multiple key frames by right-clicking inside the Frame
 
 Instead of the Frame Table, right-clicking within the Frame Timing Header gives you access to a few more options which allow you to add or remove entire columns of frames or holds at a time. For example, selecting :menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add new frames to each layer that's currently visible in the Timeline Docker.
 
-.. image:: /images/en/Timeline_insertkeys.png
+.. image:: /images/dockers/Timeline_insertkeys.png
    :align: center
 
 :program:`Krita` only tracks key frame changes. This is unlike :program:`Flash` where you have to manually indicate how long a key frame will hold. Instead, :program:`Krita` just assumes that the space between key frame 1 and key frame 2 is supposed to be filled with key frame 1. Frames that are held in this way (a.k.a. "holds") are displayed as a continuous line in the Frame Table.

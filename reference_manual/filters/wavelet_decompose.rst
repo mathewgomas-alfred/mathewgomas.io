@@ -21,7 +21,7 @@ You can find it under :menuselection:`Layers`.
 
 When you select it, it will ask for the amount of wavelet scales. More scales, more different layers. Press :guilabel:`OK`, and it will generate a group layer containing the layers with their proper blending modes:
 
-.. image:: /images/en/Wavelet_decompose.png
+.. image:: /images/filters/Wavelet_decompose.png
    :align: center
 
 Adjust a given layer with middle gray to neutralize it, and merge everything with the :guilabel:`Grain Merge` blending mode to merge it into the end image properly.

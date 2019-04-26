@@ -22,7 +22,7 @@ The palette docker displays various color swatches for quick use. It also suppor
 
     The palette docker was overhauled in 4.2, allowing for grid ordering, storing palette in the document and more.
 
-.. image:: /images/en/Palette-docker.png
+.. image:: /images/dockers/Palette-docker.png
 
 You can choose from various default palettes or you can add your own colors to the palette.
 

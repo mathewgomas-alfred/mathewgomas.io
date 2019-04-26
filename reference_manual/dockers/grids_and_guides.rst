@@ -55,7 +55,7 @@ Main Style
 Div Style
     Controls the look of the grid’s “subdivision” lines.
 
-.. image:: /images/en/Grid_sudvision.png
+.. image:: /images/dockers/Grid_sudvision.png
 
 The grid's base size is 64 pixels. With a subdivision of 2, the main grid lines are 128 px away from one another, and the intermediate lines have a different look.
 
@@ -64,7 +64,7 @@ Guides
 
 Guides are horizontal and vertical reference lines. You can use them to place and align layers accurately on the canvas.
 
-.. image:: /images/en/Guides.jpg
+.. image:: /images/dockers/Guides.jpg
 
 Creating Guides
 ~~~~~~~~~~~~~~~

@@ -15,7 +15,7 @@
 Patterns
 ========
 
-.. image:: /images/en/Krita_Patterns.png 
+.. image:: /images/patterns/Krita_Patterns.png 
    :align: center
 
 Patterns are small raster files that tile. They can be used as following:
@@ -40,19 +40,19 @@ You can use the pattern drop-down to generate patterns from the canvas but also 
 
 First, draw a pattern and open the pattern drop-down.
 
-.. image:: /images/en/Generating_custom_patterns1.png
+.. image:: /images/patterns/Generating_custom_patterns1.png
    :align: center
 
 Then go into :guilabel:`custom` and first press :guilabel:`Update` to show the pattern in the docker. Check if it's right. Here, you can also choose whether you use this layer only, or the whole image. Since 3.0.2, Krita will take into account the active selection as well when getting the information of the two.
 
-.. image:: /images/en/Generating_custom_patterns2.png
+.. image:: /images/patterns/Generating_custom_patterns2.png
    :align: center
 
 Then, click either :guilabel:`Use as Pattern` to use it as a temporary pattern, or :guilabel:`Add to predefined patterns` to save it into your pattern resources!
 
 You can then start using it in Krita by for example making a canvas and doing :guilabel:`Edit --> Fill with Pattern`.
 
-.. image:: /images/en/Generating_custom_patterns3.png
+.. image:: /images/patterns/Generating_custom_patterns3.png
    :align: center
 
 :ref:`pattern_docker`

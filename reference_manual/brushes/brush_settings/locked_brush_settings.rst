@@ -21,22 +21,22 @@ Normally, a changing to a different brush preset will change all brush settings.
 Locking a brush parameter
 -------------------------
 
-.. image:: /images/en/Krita_2_9_brushengine_locking_01.png
+.. image:: /images/brushes/Krita_2_9_brushengine_locking_01.png
 
 To lock an option, |mouseright| the little lock icon next to the parameter name, and set it to :guilabel:`Lock`. It will now be highlighted to show it's locked:
 
-.. image:: /images/en/Krita_2_9_brushengine_locking_02.png
+.. image:: /images/brushes/Krita_2_9_brushengine_locking_02.png
 
 And on the canvas, it will show that the texture-option is locked.
 
-.. image:: /images/en/Krita_2_9_brushengine_locking_04.png
+.. image:: /images/brushes/Krita_2_9_brushengine_locking_04.png
 
 Unlocking a brush parameter
 ---------------------------
 
 To *unlock*, |mouseright| the icon again.
 
-.. image:: /images/en/Krita_2_9_brushengine_locking_03.png
+.. image:: /images/brushes/Krita_2_9_brushengine_locking_03.png
 
 There will be two options:
 

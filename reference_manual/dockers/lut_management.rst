@@ -15,7 +15,7 @@
 LUT Management
 ==============
 
-.. image:: /images/en/LUT_Management_Docker.png
+.. image:: /images/dockers/LUT_Management_Docker.png
 
 The Look Up Table (LUT) Management docker controls the high dynamic range (HDR) painting functionality.
 

@@ -74,20 +74,20 @@ click on the layer and choose one of the given colors from the context
 menu. To remove an already existing color label you can click on the 'x'
 marked box in the context menu.
 
-.. image:: /images/en/Layer-color-filters.png
+.. image:: /images/layers/Layer-color-filters.png
    :width:  400
 
 Once you assign color labels to your layers, you can then filter layers
 having similar color label by clicking on one or more colors in the list
 from the drop-down situated at the top-right corner of the layer docker.
 
-.. image:: /images/en/Layer-color-filters-menu.png
+.. image:: /images/layers/Layer-color-filters-menu.png
    :width:  600
 
 Types of Layers
 ---------------
 
-.. image:: /images/en/500px-Krita-types-of-layers.png
+.. image:: /images/layers/500px-Krita-types-of-layers.png
     :width: 600
 
 The image above shows the various types of layers in :ref:`layer_docker`. Each layer type has a different purpose for example all the vector elements can be only placed on a vector layer and similarly normal raster elements are mostly on the paint layer, :ref:`cat_layers_and_masks` page contains more information about these types layers.
@@ -111,9 +111,9 @@ layers within the group are considered as if they are outside of that
 particular group in the layer stack, however, the visibility of the
 layers in a group depends on the visibility of the group.
 
-.. image:: /images/en/Passthrough-mode_.png
+.. image:: /images/layers/Passthrough-mode_.png
 
-.. image:: /images/en/Layer-composite.png
+.. image:: /images/layers/Layer-composite.png
 
 The groups in a PSD file saved from Photoshop have pass-through mode on
 by default unless they are specifically set with other blending modes.
@@ -126,7 +126,7 @@ Inherit Alpha or Clipping layers
 There is a clipping feature in Krita called inherit alpha. It is denoted
 by an alpha icon in the layer stack. 
 
-.. image:: /images/en/Inherit-alpha-02.png
+.. image:: /images/layers/Inherit-alpha-02.png
 
 It can be somewhat hard to figure out how the inherit alpha feature
 works in Krita for the first time. Once you click on the inherit alpha
@@ -141,9 +141,9 @@ separately, hence the layer which is the lowest layer in a group becomes
 the bounding layer and the content of the layers above this layer clips
 to it if inherit alpha is enabled.
 
-.. image:: /images/en/Inherit-alpha-krita.jpg
+.. image:: /images/layers/Inherit-alpha-krita.jpg
 
-.. image:: /images/en/Krita-tutorial2-I.1-2.png
+.. image:: /images/layers/Krita-tutorial2-I.1-2.png
 
 You can also enable alpha inheritance to a group layer.
 
@@ -167,12 +167,12 @@ layer which will affect the whole image. Layers can also be transformed non-dest
 These filters and masks are accessible through the right click menu (as
 shown in the image below) and the Plus icon on the layer docker.
 
-.. image:: /images/en/Layer-right-click.png
+.. image:: /images/layers/Layer-right-click.png
 
 You can also add a filter as a mask from filter dialog itself, by
 clicking on the :guilabel:`Create Filter Mask` button.
 
-.. image:: /images/en/Filtermask-button.png
+.. image:: /images/layers/Filtermask-button.png
 
 All the filters and masks can also be applied over a group too, thus
 making it easy to non-destructively edit multiple layers at once. In the

@@ -40,7 +40,7 @@ There are two options: you can either build Krita in your home directory, or use
 Preparing your development environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_001-init-dir_001_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_001-init-dir_001_by-deevad.jpg
 
 The most convenient layout is as follows:
 
@@ -62,7 +62,7 @@ Note: type in what's shown after '>' in the following commands
 Getting the Source Code
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_002-git-clone_001_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_002-git-clone_001_by-deevad.jpg
 
 Open a terminal and enter the build root. Clone Krita from kde's git infrastructure (not github):
 
@@ -73,7 +73,7 @@ Open a terminal and enter the build root. Clone Krita from kde's git infrastruct
 Configuring the Build
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_004-configure_001_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_004-configure_001_by-deevad.jpg
 
 .. code:: console
 
@@ -85,7 +85,7 @@ Krita uses cmake (https://cmake.org) to define how Krita is built on various pla
 
     you@yourcomputer:~/kritadev/build>cmake ../krita -DCMAKE_INSTALL_PREFIX=/path/to/kritadev/install  -DCMAKE_BUILD_TYPE=RelWithDebInfo
     
-.. image:: /images/en/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
 
 Unless you have installed all the dependencies Krita needs, on first running cmake, cmake will complain about missing dependencies. For instance:
 
@@ -132,7 +132,7 @@ If all dependencies have been installed, cmake will output something like this:
 
 **Until that is shown, cmake has not succeeded and you cannot build Krita.** When this is shown, you can build Krita:
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
 
 .. code:: console
 
@@ -152,7 +152,7 @@ Then, add the resulting number with -j (for 'Jobs') at the end, so for example:
 
 Installing
 ~~~~~~~~~~
-.. image:: /images/en/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
 
 When the build has fully succeeded, you can install:
 
@@ -171,7 +171,7 @@ Environment Variables
 
 Now, to get Krita to work by just typing ``krita`` into the terminal, we'll need to set up some environment variables. This will allow your system to know where Krita is located.
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_007-making-path_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_007-making-path_by-deevad.jpg
 
 Let's show to your system the right path, inside a terminal, copy line by line :
 
@@ -182,17 +182,17 @@ Let's show to your system the right path, inside a terminal, copy line by line :
 
 You will now be able to run Krita by typing ``krita`` into the terminal.
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
 Environment variables are never permanent. So we need to configure the system to set them each time you login. To set them at any login, write them with your favorite text editor at the end of your :file:`~/.profile` file (on certain distributions, the profile is named xprofile, check the hidden files in your :file:`home/{your-user-name}` folder).
 
 Updating
 ~~~~~~~~
-.. image:: /images/en/cat_guide/Krita-building_for-cats_009-want-update_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_009-want-update_by-deevad.jpg
 
 Now, Krita is in constant development, so you will want to update your build from time to time. Maybe a cool feature got in, or a bug was fixed, or you just want the latest source.
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_010-git-update_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_010-git-update_by-deevad.jpg
 
 First, we get the new source from the git repository:
 
@@ -208,7 +208,7 @@ If you want to get the code from a specific branch, you will need to ``checkout`
     you@yourcomputer:~/kritadev/krita> git checkout <name of the branch>
     you@yourcomputer:~/kritadev/krita> git pull
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_011-git-update-success_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_011-git-update-success_by-deevad.jpg
 
 Then, we build again:
 
@@ -222,7 +222,7 @@ If you update daily, you might want to automate these command by making your own
 Trouble Shooting
 ~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
 
 The recent development version might break, or sometime be just unusable. Experimental changes are made daily.
 
@@ -230,7 +230,7 @@ This will affect your productivity if you don't know how to 'go back in time' (f
 
 But if you know how to do it, *no issue can really affect you*, because you know how to come back to a previous state. 
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_013_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_013_by-deevad.jpg
 
 To travel the source in time we need to read the timeline history. The terminal tool for it is ``git log``.
 
@@ -253,7 +253,7 @@ And, we build again:
     you@yourcomputer:~/kritadev/krita> cd ~/kritadev/build/
     you@yourcomputer:~/kritadev/build> make install
 
-.. image:: /images/en/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_intro_by-deevad.jpg
 
 To update again to the actual and 'fresh from a minute ago' source-code named ``master``, simply ask git to come back to it with ``git checkout`` then ``pull`` to update :
 
@@ -265,7 +265,7 @@ To update again to the actual and 'fresh from a minute ago' source-code named ``
 
 Common problems
 ~~~~~~~~~~~~~~~
-.. image:: /images/en/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_012-git-update-fail_by-deevad.jpg
 
 Outside of the source being unstable, there's the following common problems:
 

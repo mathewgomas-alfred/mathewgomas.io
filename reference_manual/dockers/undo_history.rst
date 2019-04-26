@@ -15,7 +15,7 @@
 Undo History
 ============
 
-.. image:: /images/en/Krita_Undo_History_Docker.png
+.. image:: /images/dockers/Krita_Undo_History_Docker.png
 
 This docker allows you to quickly shift between undo states, and even go back in time far more quickly that rapidly reusing :kbd:`Ctrl + Z`
 

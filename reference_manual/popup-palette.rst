@@ -15,7 +15,7 @@ Pop-up Palette
 
 The Pop-up Palette is a feature unique to Krita amongst the digital painting applications. It is designed to increase productivity and save time of the artists by providing quick access to some of the most frequently used tools and features in Krita. The Pop-up palette can be accessed by |mouseright| on the canvas. A circular palette similar to what is shown in the image below will spawn at the position your mouse cursor.
 
-.. image:: /images/en/popup-palette-detail.svg
+.. image:: /images/popup-palette-detail.svg
 
 As shown in the image above, the pop-up palette has the following tools and quick access shortcuts integrated into it
 

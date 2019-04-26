@@ -31,7 +31,7 @@ First off, the line produced by the Curve brush is made up of 2 sections:
 * The curve lines I think, which are the extra fancy lines that form at curves. The curve lines are formed by connecting one point of the curve to a point earlier on the curve. This also means that if you are drawing a straight line, these lines won't be visible, since they'll overlap with the connection line. Drawing faster gives you wider curves areas.
 
 
-.. image:: /images/en/Krita-tutorial6-I.1-1.png
+.. image:: /images/brushes/Krita-tutorial6-I.1-1.png
 
 You have access to 3 settings from the Lines tab, as well as 2 corresponding dynamics:
 
@@ -54,7 +54,7 @@ In addition, you have access to two checkboxes:
 * Paint connection line, which toggles the visibility of the connection line
 * Smoothing, which... I have no idea actually. I don't see any differences with or without it. Maybe it's for tablets?
 
-.. image:: /images/en/Krita-tutorial6-I.1-2.png
+.. image:: /images/brushes/Krita-tutorial6-I.1-2.png
 
 Drawing variable-width lines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -63,14 +63,14 @@ And here's the only section of this tutorial that anyone cares about: pretty lin
 
 * Use the Draw Dynamically mode: I tend to increase drag to at least 50. Vary Mass and Drag until you get the feel that's most comfortable for you.
 
-.. image:: /images/en/Krita-tutorial6-I.2-1.png
+.. image:: /images/brushes/Krita-tutorial6-I.2-1.png
 
 * Set line width to a higher value (ex.: 5), then turn line width dynamics on:
 
     * If you're a tablet user, just set this to Pressure (this should be selected by default so just turn on the Line Width dynamics). I can't check myself, but a tablet user confirmed to me that it works well enough with Draw Dynamically.
     * If you're a mouse user hoping to get variable line width, set the Line Width dynamics to Speed.
 
-.. image:: /images/en/Krita-tutorial6-I.2-2.png
+.. image:: /images/brushes/Krita-tutorial6-I.2-2.png
 
 * Set Curves opacity to 0: This is the simplest way to turn off the Curve lines. That said, leaving them on will get you more "expressive" lines.
 
@@ -89,9 +89,9 @@ Alternative:
 
 The curve lines will fill out the area they cover completely, resulting in a line with variable widths. Anyway, here are some comparisons:
 
-.. image:: /images/en/Krita-tutorial6-I.2-3.png
+.. image:: /images/brushes/Krita-tutorial6-I.2-3.png
 
 And here are examples of what you can do with this brush:
 
-.. image:: /images/en/Krita-tutorial6-I.2-4.png
+.. image:: /images/brushes/Krita-tutorial6-I.2-4.png
 

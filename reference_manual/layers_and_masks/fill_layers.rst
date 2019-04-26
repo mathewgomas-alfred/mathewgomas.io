@@ -18,7 +18,7 @@ Fill Layers
 
 A Fill Layer is a special layer that Krita generates on-the-fly that can contain either a pattern or a solid color.
 
-.. image:: /images/en/Fill_Layer.png
+.. image:: /images/layers/Fill_Layer.png
 
 Pattern
     This fills the layer with a predefined pattern or texture that has been loaded into Krita through the Resource Management interface.  Patterns can be a simple and interesting way to add texture to your drawing or painting, helping to recreate the look of watercolor paper, linen, canvas, hardboard, stone or an infinite other number of options.  For example if you want to take a digital painting and finish it off with the appearance of it being on canvas you can add a Fill Layer with the Canvas texture from the texture pack below and set the opacity very low so the "threads" of the pattern are just barley visible.  The effect is quite convincing. 

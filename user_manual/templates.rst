@@ -16,7 +16,7 @@
 Templates
 =========
 
-.. image:: /images/en/Krita_New_File_Template_A.png
+.. image:: /images/Krita_New_File_Template_A.png
 
 Templates are just .kra files which are saved in a special location so it can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing Document and Untitled Document` but then with a nicer place in the UI.
 

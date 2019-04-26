@@ -19,7 +19,7 @@ Shape Edit Tool
 
 The shape editing tool is for editing vector shapes. In Krita versions before 4.0 it would only show up in the docker when you had a vector shape selected. In Krita 4.0, this tool is always visible and has the Shape Properties docker as a part of it.
 
-.. image:: /images/en/Shape-editing-tool-example.png
+.. image:: /images/tools/Shape-editing-tool-example.png
 
 You can access the Edit Shapes tool by clicking on the icon in the toolbox, but you can also access it by pressing :kbd:`Enter` when in the Shape Selection tool and having a shape selected that can be most efficiently edited with the edit shapes tool (right now, that's all shapes but text).
 
@@ -81,7 +81,7 @@ Shapes that aren't path shapes only have a single type of node: A small diamond 
 Tool Options
 ------------
 
-.. image:: /images/en/Shape-editing-tool-tool-options.png
+.. image:: /images/tools/Shape-editing-tool-tool-options.png
 
 Path shapes have options. The top left options are for converting to different anchor point types. The bottom left options are for adding or removing points. The top right options are for converting the line to different types. The bottom right options are for breaking and joining line segments.
 

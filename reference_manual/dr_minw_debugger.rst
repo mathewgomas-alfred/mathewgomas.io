@@ -31,7 +31,7 @@ There are some additions to Krita which makes getting a backtrace much easier on
         
     When there is a crash, Krita might appear to be unresponsive for a short time, ranging from a few seconds to a few minutes, before the crash dialog appears.
     
-    .. figure:: /images/en/Mingw-crash-screen.png
+    .. figure:: /images/Mingw-crash-screen.png
     
         An example of the crash dialog
         
@@ -39,18 +39,18 @@ There are some additions to Krita which makes getting a backtrace much easier on
 
 #. Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the address bar and press :kbd:`Enter`.
 
-    .. image:: /images/en/Mingw-explorer-path.png
+    .. image:: /images/Mingw-explorer-path.png
     
 #. Find the file ``kritacrash.log`` (it might appear as simply ``kritacrash`` depending on your settings.) 
 #. Open the file with Notepad and scroll to the bottom, then scroll up to the first occurrence of “Error occurred on <time>” or the dashes.
 
-    .. figure:: /images/en/Mingw-crash-log-start.png
+    .. figure:: /images/Mingw-crash-log-start.png
     
         Start of backtrace
 
     Check the time and make sure it matches the time of the crash. 
     
-    .. figure:: /images/en/Mingw-crash-log-end.png
+    .. figure:: /images/Mingw-crash-log-end.png
         
         End of backtrace
             
@@ -72,8 +72,8 @@ Starting from 3.1 Beta 3, the debug package contains only the debug symbols sepa
 * Make sure you’ve downloaded the same version of debug package for the portable package you intend to debug / get a better (sort of) backtrace.
 * Extract the files inside the Krita install directory, where the sub-directories `bin`, `lib` and `share` is located, like in the figures below:
 
-    .. image:: /images/en/Mingw-dbg7zip.png
+    .. image:: /images/Mingw-dbg7zip.png
     
-    .. image:: /images/en/Mingw-dbg7zip-dir.png
+    .. image:: /images/Mingw-dbg7zip-dir.png
 
 * After extracting the files, check the ``bin`` dir and make sure you see the ``.debug`` dir inside. If you don't see it, you probably extracted to the wrong place.

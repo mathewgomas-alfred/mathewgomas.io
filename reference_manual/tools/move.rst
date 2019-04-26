@@ -34,7 +34,7 @@ Show coordinates
 Constrained movement
     If you click, then press :kbd:`Shift`, then move the layer, movement is constrained to the horizontal and vertical directions. If you press :kbd:`Shift`, then click, then move, all layers will be moved, with the movement constrained to the horizontal and vertical directions
 
-    .. image:: /images/en/Movetool_coordinates.png
+    .. image:: /images/tools/Movetool_coordinates.png
 
 Position
     Gives the top-left coordinate of the layer, can also be manually edited.

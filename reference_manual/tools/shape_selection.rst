@@ -32,18 +32,18 @@ Selecting shapes can be done by two types of actions:
     - *Blue selection* (drag left to right): selects only shapes fully covered. 
     - *Green selection* (drag right to left): selects all the touched shapes.
 
-.. figure:: /images/en/blue-and-green-selections.png
+.. figure:: /images/tools/blue-and-green-selections.png
    :align: center
    :alt: Left: Blue selection. Right: Green selection.
 	 
    Blue selection: left-to-right, selects fully covered images. --  Green selection: right-to-left, selects touched shapes.
 	 
 Placement, Scale, Angle and Distortion
-------------------------------------
+--------------------------------------
 
 Once an object is selected, a dashed bounding box will appear around it. The box will also have square handles. You can use this bounding box to do adjust: placement, scale, angle and distortion of the selected object.
 
-.. figure:: /images/en/shapes-selection-properties.png
+.. figure:: /images/tools/shapes-selection-properties.png
    :align: center
    :alt: Left to right: Placement, Scale, Angle and Distortion.
 
@@ -66,7 +66,7 @@ The tool options of this menu are quite involved, and separated over 3 tabs.
 
 Geometry
 ~~~~~~~~
-.. image:: /images/en/shape-selection-menu-geometry.png
+.. image:: /images/tools/shape-selection-menu-geometry.png
    :width: 400
    :alt: Tool options: Geometry tool.
 
@@ -89,7 +89,7 @@ Opacity
     
 Stroke
 ~~~~~~
-.. image:: /images/en/shape-selection-menu-stroke.png
+.. image:: /images/tools/shape-selection-menu-stroke.png
    :width: 400
    :alt: Tool options: Stroke tool.
 
@@ -111,7 +111,7 @@ Markers
 
 Fill
 ~~~~
-.. image:: /images/en/shape-selection-menu-fill.png
+.. image:: /images/tools/shape-selection-menu-fill.png
    :width: 400
    :alt: Tool options: Fill tool.
 
@@ -158,6 +158,6 @@ Right-click menu
 
 The shape selection tool has a nice right click menu that gives you several features. If you have an object selected, you can perform various functions like cutting, copying, or moving the object to the front or back.
 
-.. image:: /images/en/Vector-right-click-menu.png
+.. image:: /images/vector/Vector-right-click-menu.png
 
 If you have multiple objects selected you can perform "Logical Operators" on them, or boolean operations as they are commonly called. It will be the last item on the right-click menu. You can unite, intersect, subtract, or split the selected objects.

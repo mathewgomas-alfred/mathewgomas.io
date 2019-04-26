@@ -12,7 +12,7 @@
 Making An Azalea With The Transformation Masks
 ==============================================
 
-.. image:: /images/en/making-azalea/Krita-screencast-azaleas.png
+.. image:: /images/making-azalea/Krita-screencast-azaleas.png
     :alt: making azalea with transform masks
 
 .. note:: This page was ported from the original post on the main page
@@ -32,22 +32,22 @@ So, if you go to :menuselection:`Window --> Tile`, you will find that now your r
 Let’s get to drawing!
 ---------------------
 
-.. image:: /images/en/making-azalea/Azelea_01_trunk-.png
+.. image:: /images/making-azalea/Azelea_01_trunk-.png
     :alt: starting with the trunk and reference image
 
 First we make a bunch of branches. I picked a slightly darker color here than usual, because I know that I’ll be painting over these branches with the lighter colors later on. Look at the reference how branches are formed.
 
-.. image:: /images/en/making-azalea/Azelea_02_drawing-flowers.png
+.. image:: /images/making-azalea/Azelea_02_drawing-flowers.png
     :alt: making the outline of the flowers
 
 Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not color pick the red, but we guess at it. This is good practice, so we can learn to analyze a color as well as how to use our color selector. If we’d only pick colors, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
 
-.. image:: /images/en/making-azalea/Azelea_03_filling-flowers.png
+.. image:: /images/making-azalea/Azelea_03_filling-flowers.png
     :alt: coloring the details and filling the flowers
 
 I chose to make the flower shape opaque quickly by using the *behind* blending mode. This’ll mean Krita is painting the new pixels behind the old ones. Very useful for quickly filling up shapes, just don’t forget to go back to *normal* once you’re done.
 
-.. image:: /images/en/making-azalea/Azelea_04_finished-setup.png
+.. image:: /images/making-azalea/Azelea_04_finished-setup.png
     :alt: finished setup for making azalea
 
 Now, we’ll put the flowers in the upper left corner, and group them. You can group by making a group layer, and selecting the flower layers in your docker with :kbd:`Ctrl` + |mouseleft| and dragging them into the group. The reason why we’re putting them in the upper left corner is because we’ll be selecting them a lot, and Krita allows you to select layers with kbd:`R` + |mouseleft| on the canvas quickly. Just hold :kbd:`R` and |mouseleft| the pixels belonging to the layer you want, and Krita will select the layer in the layer docker.
@@ -57,7 +57,7 @@ Clone Layers
 
 Now, we will make clusters. What we’ll be doing is that we select a given flower and then make a new clone layer. A clone layer is a layer that is literally a clone of the original. They can’t be edited themselves, but edit the original and the clone layer will follow suit. Clone Layers, and File layers, are our greatest friends when it comes to transform masks, and you’ll see why in a moment.
 
-.. image:: /images/en/making-azalea/Azelea_05_clonelayer.png
+.. image:: /images/making-azalea/Azelea_05_clonelayer.png
     :alt: create clone layers of the flowers
 
 You’ll quickly notice that our flowers are not good enough for a cluster: we need far more angles on the profile for example. If only there was a way to transform them… but we can’t do that with clone layers. Or can we?
@@ -75,26 +75,26 @@ How to use them:
 
 A transform mask should now have been added. You can recognize them by the little ‘scissor’ icon.
 
-.. image:: /images/en/making-azalea/Azelea_06_transformmask.png
+.. image:: /images/making-azalea/Azelea_06_transformmask.png
     :alt: adding transform masks to the cloned layers
 
 Now, with the transform mask selected, select the |tooltransform|, and rotate our clone layer. Apply the transform. You know you’re successful when you can hide the transform mask, and the layer goes back to its original state!
 
 You can even go and edit your transform! Just activate the |tooltransform| again while on a transform mask, and you will see the original transform so you can edit it. If you go to a different transform operation however, you will reset the transform completely, so watch out.
 
-.. image:: /images/en/making-azalea/Azelea_07_clusters.png
+.. image:: /images/making-azalea/Azelea_07_clusters.png
     :alt: adding more clusters
 
 We’ll be only using affine transformations in this tutorial (which are the regular and perspective transform), but this can also be done with warp, cage and liquify, which’ll have a bit of a delay (3 seconds to be precise). This is to prevent your computer from being over-occupied with these more complex transforms, so you can keep on painting.
 
 We continue on making our clusters till we have a nice arrangement.
 
-.. image:: /images/en/making-azalea/Azelea_08_leaves.png
+.. image:: /images/making-azalea/Azelea_08_leaves.png
     :alt: making leaves
 
 Now do the same thing for the leaves.
 
-.. image:: /images/en/making-azalea/Azelea_09_paintingoriginals.png
+.. image:: /images/making-azalea/Azelea_09_paintingoriginals.png
     :alt: painting originals
 
 Now, if you select the original paint layers and draw on them, you can see that all clone masks are immediately updated!
@@ -103,7 +103,7 @@ Above you can see there’s been a new view added so we can focus on painting th
 
 Now continue painting the original flowers and leaves, and we’ll move over to adding extra shadow to make it seem more lifelike!
 
-.. image:: /images/en/making-azalea/Azelea_10_alphainheritance_1.png
+.. image:: /images/making-azalea/Azelea_10_alphainheritance_1.png
     :alt: using the alpha inheritance
 
 We’re now going to use *Alpha Inheritance*. Alpha inheritance is an ill-understood concept, because a lot of programs use *clipping masks* instead, which clip the layer’s alpha using only the alpha of the first next layer.
@@ -112,27 +112,27 @@ Alpha inheritance, however, uses all layers in a stack, so all the layers in the
 
 But for us, alpha inheritance is useful, because we can use all clone-layers in a cluster (if you grouped them), transformed or not, for clipping. Just draw a light blue square over all the flowers in a given cluster.
 
-.. image:: /images/en/making-azalea/Azelea_11_alphainheritance_2.png
+.. image:: /images/making-azalea/Azelea_11_alphainheritance_2.png
     :alt: clipping the cluster with alpha inheritance
 
 Then press the last icon in the layer stack, the alpha-inherit button, to activate alpha-inheritance.
 
-.. image:: /images/en/making-azalea/Azelea_12_alphainheritance_3.png
+.. image:: /images/making-azalea/Azelea_12_alphainheritance_3.png
     :alt: activate alpha inheritance
 
 Set the layer to *multiply* then, so it’ll look like everything’s darker blue.
 
-.. image:: /images/en/making-azalea/Azelea_13_alphainheritance_4.png
+.. image:: /images/making-azalea/Azelea_13_alphainheritance_4.png
     :alt: multiplying the clipped shape
 
 Then, with multiply and alpha inheritance on, use an eraser to remove the areas where there should be no shadow.
 
-.. image:: /images/en/making-azalea/Azelea_14_alphainheritance_5.png
+.. image:: /images/making-azalea/Azelea_14_alphainheritance_5.png
     :alt: remove extra areas with the eraser
 
 For the highlights use exactly the same method, AND exactly the same color, but instead set the layer to Divide (you can find this amongst the Arithmetic blending modes). Using Divide has exactly the opposite effect as using multiply with the same color. The benefit of this is that you can easily set up a complementary harmony in your shadows and highlights using these two.
 
-.. image:: /images/en/making-azalea/Azelea_15_alphainheritance_6.png
+.. image:: /images/making-azalea/Azelea_15_alphainheritance_6.png
     :alt: add shadows and highlights with alpha inheritance technique
 
 Do this with all clusters and leaves, and maybe on the whole plant (you will first need to stick it into a group layer given the background is opaque) and you’re done!

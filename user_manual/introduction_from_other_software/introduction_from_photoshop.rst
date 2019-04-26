@@ -257,13 +257,13 @@ Settings curves
 
 You can set setting to pressure (speed/distance/tilt/random/etc.) relation for each brush setting.
 
-.. image:: /images/en/Settings-curves.jpg
+.. image:: /images/brushes/Settings-curves.jpg
    :align: center
 
 The Pop-up Palette
 ~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/Krita-popuppalette.png
+.. image:: /images/Krita-popuppalette.png
    :align: center
 
 Easily to be found on |mouseright|, the pop-up palette allows you to quickly access brushes, color history and a color selector within arm's reach. The brushes are determined by tag, and pressing the lower-right configure button calls a drop-down to change tags. This allows you to tag brushes in the preset docker by workflow, and quickly access the right brushes for the workflow you need for your image.
@@ -274,7 +274,7 @@ Transformations
 The Krita transformation tool can perform transformations on a group and affect child layers. There are several modes, like free, perspective, warp, the powerful cage and even liquify.
 Furthermore, you can use transformation masks to apply transforms non-destructively to any layer type, raster, vector group, you name it.
 
-.. figure:: /images/en/Krita-transform-mask.png
+.. figure:: /images/layers/Krita-transform-mask.png
    :align: center
    :figwidth: 800
 
@@ -285,7 +285,7 @@ Incremental Save
 
 You can save your artwork with the pattern : myartworksname_001.kra , myartworksname_002.kra, myartworksname_003.kra  etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
 
-.. image:: /images/en/Krita-incremental-saves.png
+.. image:: /images/Krita-incremental-saves.png
    :align: center
 
 This feature allows you to avoid overwriting your files, and keep track to your older version and work in progress steps.
@@ -295,7 +295,7 @@ Color to alpha Filter
 
 If you want to delete the white of the paper from a scanned artwork, you can use this filter. It takes a color and turns it into pure transparency. 
 
-.. image:: /images/en/Krita-color-to-alpha.png
+.. image:: /images/filters/Krita-color-to-alpha.png
    :align: center
 
 Many Blending Modes
@@ -309,7 +309,7 @@ Painting Assistants
 
 Krita has many painting assistants. This is a special type vector shapes with a magnetic influence on your brush strokes. You can use them as rulers, but with other shapes than just straight.
 
-.. figure:: /images/en/Krita_basic_assistants.png
+.. figure:: /images/assistants/Krita_basic_assistants.png
    :align: center
    :figwidth: 800
 
@@ -320,7 +320,7 @@ Multibrushes: Symmetry / Parallel / Mirrored / Snowflake
 
 Krita's Multibrush tool allows you to paint with multiple brushes at the same time. Movements of the brushes other than the main brush is created by mirroring what you paint, or duplicating it by any number around any axis. They can also be used in parallel mode.
 
-.. image:: /images/en/Krita-multibrush.png
+.. image:: /images/tools/Krita-multibrush.png
    :align: center
 
 A Wide Variety of Color Selectors
@@ -328,14 +328,14 @@ A Wide Variety of Color Selectors
 
 The :guilabel:`Advanced Color Selector` docker offer you a wide choice of color selectors. 
 
-.. image:: /images/en/Krita_Color_Selector_Types.png
+.. image:: /images/dockers/Krita_Color_Selector_Types.png
    :align: center
 
 View dependent color filters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Using the LUT docker, Krita allows you to have a separate color correction filter per view. While this is certainly useful to people who do color correction in daily life, to the artist this allows for seeing a copy of the image in luminance grayscale, so that they instantly know the values of the image.
 
-.. figure:: /images/en/Krita-view-dependant-lut-management.png
+.. figure:: /images/Krita-view-dependant-lut-management.png
    :align: center
    :figwidth: 800
 
@@ -346,7 +346,7 @@ HDR color painting
 
 This same LUT docker is the controller for painting with HDR colors. Using the LUT docker to change the exposure on the view, Krita allows you to paint with HDR colors, and has native open exr support!
 
-.. figure:: /images/en/Krita-hdr-painting.png
+.. figure:: /images/Krita-hdr-painting.png
    :align: center
    :figwidth: 800
 

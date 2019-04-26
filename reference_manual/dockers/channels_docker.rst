@@ -14,7 +14,7 @@
 Channels
 ========
 
-.. image:: /images/en/Krita_Channels_Docker.png
+.. image:: /images/dockers/Krita_Channels_Docker.png
 
 The channel docker allows you to turn on and off the channels associated with the color space that you are using. Each channel has an enabled and disabled checkbox. You cannot edit individual layer channels from this docker. 
 

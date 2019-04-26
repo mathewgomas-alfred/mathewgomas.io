@@ -15,7 +15,7 @@
 Specific Color Selector
 =======================
 
-.. image:: /images/en/Krita_Specific_Color_Selector_Docker.png
+.. image:: /images/dockers/Krita_Specific_Color_Selector_Docker.png
 
 The specific color selector allows you to choose specific colors within a color space.
 

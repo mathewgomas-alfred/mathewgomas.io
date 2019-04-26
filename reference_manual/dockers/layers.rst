@@ -16,7 +16,7 @@
 Layers
 ======
 
-.. image:: /images/en/Krita_Layers_Docker.png
+.. image:: /images/dockers/Krita_Layers_Docker.png
 
 The Layers docker is for one of the core concepts of Krita: :ref:`Layer Management <layers_and_masks>`. You can add, delete, rename, duplicate and do many other things to layers here.
 
@@ -53,7 +53,7 @@ Layer Style
 To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press :kbd:`F3`.
 There, to change the names of all layers, the checkbox before :guilabel:`Name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer names. You can change other layer properties like visibility, opacity, lock states, etc. too.
 
-.. image:: /images/en/Krita-multi-layer-edit.png
+.. image:: /images/layers/Krita-multi-layer-edit.png
 
 Lower buttons
 -------------

@@ -26,7 +26,7 @@ Hovering over other text shapes will highlight their bounding box. |mouseleft| o
 Tool Options
 ------------
 
-.. image:: /images/en/Krita-tool-options-text.png
+.. image:: /images/tools/Krita-tool-options-text.png
 
 Create new texts with...
     This contains features with which to create new texts, the following items are available:
@@ -45,7 +45,7 @@ Text Editor
 
 A small window for all your text editing needs. The Text Editor has two tabs: Rich text and SVG source.
 
-.. image:: /images/en/Text-editor-example.png
+.. image:: /images/tools/Text-editor-example.png
 
 Activating
 
@@ -175,7 +175,7 @@ These three are written and read from the rich text tab, but have no sliders ass
 Kerning
     `Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty>`_ behaves slightly differently than font-kerning in css. Krita by default uses the auto property for this, which means it is on. To turn it off use kerning:0 in the style section of the text.
 
-    .. image:: /images/en/Krita_4_0_text_kerning.png
+    .. image:: /images/tools/Krita_4_0_text_kerning.png
        :align: center
 
     ::
@@ -189,7 +189,7 @@ Letter-spacing
 Word-spacing
     This is the extra distance between words, defaulting to pts. By default, ``word-spacing: 0;`` will have it use only the width of the space character for that font. A negative value will decrease the amount of space between words:
 
-    .. image:: /images/en/Krita_4_0_letter_and_word_spacing.png
+    .. image:: /images/tools/Krita_4_0_letter_and_word_spacing.png
        :align: center
 
     ::

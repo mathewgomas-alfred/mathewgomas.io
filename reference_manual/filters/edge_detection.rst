@@ -26,7 +26,7 @@ Edge Detection
 
 A general edge detection filter that encapsulates all other filters. Edge detection filters that were separate before 4.0 have been folded into this one. It is also available for filter layers and filter brushes.
 
-.. figure:: /images/en/Krita_4_0_edge_detection.png
+.. figure:: /images/filters/Krita_4_0_edge_detection.png
    :align: center
    :figwidth: 800
    
@@ -70,7 +70,7 @@ Height to Normal Map
 
 .. versionadded:: 4.0
 
-.. image:: /images/en/Krita_4_0_height_to_normal_map.png
+.. image:: /images/filters/Krita_4_0_height_to_normal_map.png
    :align: center
 
 A filter that converts Height maps to Normal maps through the power of edge detection. It is also available for the filter layer or filter brush.

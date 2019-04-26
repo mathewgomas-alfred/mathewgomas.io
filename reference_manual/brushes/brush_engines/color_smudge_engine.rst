@@ -50,7 +50,7 @@ Color Rate
 
 How much of the foreground color is added to the smudging mix. Works together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`
 
-.. image:: /images/en/Krita_2_9_brushengine_colorrate_04.png
+.. image:: /images/brushes/Krita_2_9_brushengine_colorrate_04.png
 
 .. _option_smudge_length:
 
@@ -61,7 +61,7 @@ Affects smudging and allows you to set it to Sensors.
 
 There's two major types:
 
-.. image:: /images/en/Krita_2.9_brush_engine_smudge_length_03.png
+.. image:: /images/brushes/Krita_2.9_brush_engine_smudge_length_03.png
 
 Smearing
     Great for making brushes that have a very impasto oil feel to them.
@@ -70,12 +70,12 @@ Dulling
 
 Using an arithmetic blending type, Dulling is great for more smooth type of painting.
 
-.. image:: /images/en/Krita_2.9_brushengine_smudge_length_01.png
+.. image:: /images/brushes/Krita_2.9_brushengine_smudge_length_01.png
 
 Strength
     Affects how much the smudge length takes from the previous dab its sampling. This means that smudge-length at 1.0 will never decrease, but smudge-lengths under that will decrease based on spacing and opacity/flow.
 
-.. image:: /images/en/Krita_2.9_brushengine_smudge_length_02.png
+.. image:: /images/brushes/Krita_2.9_brushengine_smudge_length_02.png
 
 .. _option_smudge_radius:
 
@@ -86,7 +86,7 @@ The :guilabel:`Smudge Radius` allows you to sample a larger radius when using sm
 
 The slider is percentage of the brush-size. You can have it modified with :guilabel:`Sensors`.
 
-.. image:: /images/en/Krita_2.9_brushengine_smudge_radius_01.png
+.. image:: /images/brushes/Krita_2.9_brushengine_smudge_radius_01.png
 
 Overlay
 ~~~~~~~
@@ -109,14 +109,14 @@ The Color Smudge Brush offers 2 modes, accessible from the :guilabel:`Smudge Rat
 * Smearing: This mode mixes colors by smudging ("smearing") the area underneath.
 * Dulling: In his mode, the brush "picks up" the color underneath it, mixes it with its own color, then paints with it. 
 
-.. image:: /images/en/Krita-tutorial5-I.1.png
+.. image:: /images/brushes/Krita-tutorial5-I.1.png
 
 Smudge Length
 ^^^^^^^^^^^^^
 
 To better demonstrate the smudge function, I turned the color rate function off.
 
-.. image:: /images/en/Krita-tutorial5-I.2.png
+.. image:: /images/brushes/Krita-tutorial5-I.2.png
 
 Common behaviors:
 
@@ -135,7 +135,7 @@ The other settings should be pretty obvious from the pictures, so I'll spare you
 Color Rate, Gradient and Blending modes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: /images/en/Krita-tutorial5-I.3.png
+.. image:: /images/brushes/Krita-tutorial5-I.3.png
 
 Again, most of the settings behaviors should be obvious from the pictures. Just remember to keep :guilabel:`Opacity` over 0.50.
 
@@ -144,7 +144,7 @@ Brush tips
 
 The Color Smudge Brush has all the same brush tip options as the Pixel Brush!
 
-.. image:: /images/en/Krita-tutorial5-I.4.png
+.. image:: /images/brushes/Krita-tutorial5-I.4.png
 
 Just remember that the smudge effects are weaker when a brush tip's opacity is lower, so for low-opacity brush tips, increase the opacity and smudge/color rates.
 
@@ -155,7 +155,7 @@ The Color Smudge Brush shares the following dynamics with the Pixel Brush: Opaci
 
 However, because of the Smudge effects, the outcome will be different from the Pixel Brush. In particular, the Scatter option becomes much more significant.
 
-.. image:: /images/en/Krita-tutorial5-I.5-1.png
+.. image:: /images/brushes/Krita-tutorial5-I.5-1.png
 
 A few things to note:
 
@@ -163,7 +163,7 @@ A few things to note:
 * You may notice the lines with the :guilabel:`Smearing` option. Those are caused by the fact that it picked up the hard lines of the rectangle.
 * For scattering, the brush picks up colors within a certain distance, not the color directly under the paintbrush:
 
-.. image:: /images/en/Krita-tutorial5-I.5-2.png
+.. image:: /images/brushes/Krita-tutorial5-I.5-2.png
 
 Other color behaviors: Gradient, Blending modes, Overlay mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -173,7 +173,7 @@ Gradient
 
 Gradient is equivalent to the :menuselection:`Source --> Gradient` and :menuselection:`Color --> Mix` for the Pixel brush: the color will vary between the colors of the gradient. 
 
-.. image:: /images/en/Krita-tutorial5-I.6-1.png
+.. image:: /images/brushes/Krita-tutorial5-I.6-1.png
 
 You can either:
 
@@ -213,7 +213,7 @@ For simple smudging:
 
 * Smudge away
 
-.. image:: /images/en/Krita-tutorial5-II.2.png
+.. image:: /images/brushes/Krita-tutorial5-II.2.png
 
 When using lower opacity brush tips, remember to "compensate" for the less visible effects by increasing both :guilabel:`Smudge Rate` and :guilabel:`Opacity`, if necessary to maximum.
 
@@ -247,7 +247,7 @@ I've tried to achieve smooth blending with Color Smudge brush by adding rotation
 
 However, the Color Smudge brush is very good at "textured blending":
 
-.. image:: /images/en/Krita-tutorial5-II.3.png
+.. image:: /images/brushes/Krita-tutorial5-II.3.png
 
 Basically you can paint first and add textured transitions after.
 
@@ -270,7 +270,7 @@ Before we get started, notice that you have several possibilities for your set u
 
 * Shading on a separate layer, using Overlay mode. Use this only if you're fairly sure you don't need to adjust the layer below, or the colors may become a mess.
 
-.. image:: /images/en/Krita-tutorial5-III.1-1.png
+.. image:: /images/brushes/Krita-tutorial5-III.1-1.png
 
 Issue with transparency
 """""""""""""""""""""""
@@ -282,7 +282,7 @@ Basically:
 * It may look great when you're coloring on a blank canvas
 * But it won't look so great when you add something underneath
 
-.. image:: /images/en/Krita-tutorial5-III.1-2.png
+.. image:: /images/brushes/Krita-tutorial5-III.1-2.png
 
 The solution is pretty simple though:
 
@@ -292,7 +292,7 @@ The solution is pretty simple though:
     * Or color in the shape on a new layer and make use of alpha-inheritance
 * For the last solution, use colors that contrast highly with what you're using for best effect. For example, shade in the darkest shadow area first, or the lightest highlights, and use the color smudge brush for the contrasting color.
 
-.. image:: /images/en/Krita-tutorial5-III.1-3.png
+.. image:: /images/brushes/Krita-tutorial5-III.1-3.png
 
 Soft-shading
 ~~~~~~~~~~~~
@@ -306,14 +306,14 @@ Suppose you want more or less smooth color transitions. You can either:
 * Optional: turn on :guilabel:`Scatter` for certain effects
 * Optional: fiddle with :guilabel:`Size` and :guilabel:`Opacity` dynamics as necessary.
 
-.. image:: /images/en/Krita-tutorial5-III.2-1.png
+.. image:: /images/brushes/Krita-tutorial5-III.2-1.png
 
 This remains, in fact, a so-so way of making smooth transitions. It's best to build up intermediate values instead. Here:
 
 * I first passed over the blue area three times with a red color. I select 3 shades.
 * I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then used them in succession
 
-.. image:: /images/en/Krita-tutorial5-III.2-2.png
+.. image:: /images/brushes/Krita-tutorial5-III.2-2.png
 
 Painting: thick oil style
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -327,15 +327,15 @@ This is mainly achieved with the Smearing mode on. Basically:
    
 * Add Size/Rotation/Scatter dynamics as needed. When you do this, increase smudge and color rates to compensate for increased color mixing.
 
-.. image:: /images/en/Krita-tutorial5-III.3-1.png
+.. image:: /images/brushes/Krita-tutorial5-III.3-1.png
 
 One thing I really like to do is to set different foreground and background colors, then turn on :menuselection:`Gradient --> Fuzzy`. Alternatively, just paint with different colors in succession (bottom-right example).
 
-.. image:: /images/en/Krita-tutorial5-III.3-2.png
+.. image:: /images/brushes/Krita-tutorial5-III.3-2.png
 
 Here's some final random stuff. With pixel brushes, you can get all sorts of frill designs by using elongated brushes and setting the dynamics to rotation. You won't get that with Color Smudge Brushes. Instead you'll get something that looks more like... yarn. Which is cool too. Here, I just used oval brushes and :menuselection:`Rotation --> Distance`.
 
-.. image:: /images/en/Krita-tutorial5-III.3-3.png
+.. image:: /images/brushes/Krita-tutorial5-III.3-3.png
 
 Painting: Digital watercolor style
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -346,7 +346,7 @@ When I say "digital watercolor", it refers to a style often seen online, i.e. a 
 * Vary the brush tip fade value as well.
 * When using :guilabel:`Scatter` or other dynamics, you can choose to set smudge and color values to high or low values, for different outcomes.
 
-.. image:: /images/en/Krita-tutorial5-III.4.png
+.. image:: /images/brushes/Krita-tutorial5-III.4.png
 
 Blurring
 ~~~~~~~~
@@ -358,7 +358,7 @@ You can:
 
 If you want even smoother effects, well, just use blur. Gaussian blur to be exact.
 
-.. image:: /images/en/Krita-tutorial5-III.5.png
+.. image:: /images/brushes/Krita-tutorial5-III.5.png
 
 And there you go. That last little trick concludes this tutorial.
 

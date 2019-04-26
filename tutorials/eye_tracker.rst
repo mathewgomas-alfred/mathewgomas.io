@@ -136,7 +136,7 @@ economically. Running in full screen mode and getting rid of unused menus
 and toolbars are the first steps that you can take. Here's the screenshot
 of our layout:
 
-.. image:: /images/en/eyetracker_layout_screenshot.png
+.. image:: /images/eyetracker_layout_screenshot.png
    :width: 800
    :align: center
    :alt: Screenshot of Krita when used with an eye tracker.

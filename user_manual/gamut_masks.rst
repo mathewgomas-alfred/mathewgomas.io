@@ -40,7 +40,7 @@ Selecting a gamut mask
 
 For selecting and managing gamut masks open the :ref:`gamut_mask_docker`:  :menuselection:`Settings --> Dockers --> Gamut Masks`.
 
-.. figure:: /images/en/Krita_Gamut_Mask_Docker.png
+.. figure:: /images/dockers/Krita_Gamut_Mask_Docker.png
 
     Gamut Masks docker
 
@@ -60,7 +60,7 @@ You can rotate an existing mask directly in the color selector, by dragging the 
 
 The mask can be toggled off and on again by the toggle mask button in the top left corner (1).
 
-.. figure:: /images/en/GamutMasks_Selectors.png
+.. figure:: /images/dockers/GamutMasks_Selectors.png
 
   Advanced and Artistic color selectors with a gamut mask
 
@@ -87,7 +87,7 @@ There you can create new shapes and modify the mask with standard vector tools (
 
 You can :guilabel:`Preview` the mask in the color selector (4). If you are satisfied with your changes, :guilabel:`Save` the mask (5). :guilabel:`Cancel` (3) will close the editing view without saving your changes.
 
-.. figure:: /images/en/Krita_Gamut_Mask_Docker_2.png
+.. figure:: /images/dockers/Krita_Gamut_Mask_Docker_2.png
 
   Editing a gamut mask
 

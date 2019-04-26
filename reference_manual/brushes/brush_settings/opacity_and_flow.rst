@@ -18,18 +18,18 @@ Opacity and Flow
 
 Opacity and flow are parameters for the transparency of a brush.
 
-.. image:: /images/en/Krita_Pixel_Brush_Settings_Flow.png
+.. image:: /images/brushes/Krita_Pixel_Brush_Settings_Flow.png
 
 They are interlinked with the painting mode setting.
 
-.. image:: /images/en/Krita_2_9_brushengine_opacity-flow_02.png
+.. image:: /images/brushes/Krita_2_9_brushengine_opacity-flow_02.png
 
 Opacity
     The transparency of a stroke.
 Flow
     The transparency of separate dabs. Finally separated from Opacity in 2.9
 
-.. image:: /images/en/Krita_2_9_brushengine_opacity-flow_01.png
+.. image:: /images/brushes/Krita_2_9_brushengine_opacity-flow_01.png
 
 
 .. versionchanged:: 4.2
@@ -41,7 +41,7 @@ Flow
     2. Set the maximum value on flow to 0.5
     3. Adjusting the pressure curve to be concave.
     
-    .. image:: /images/en/flow_opacity_adapt_flow_preset.gif
+    .. image:: /images/brushes/flow_opacity_adapt_flow_preset.gif
 
 
 
@@ -53,7 +53,7 @@ Build-up
 Wash
     Will treat opacity as stroke transparency instead of dab-transparency.
 
-.. image:: /images/en/Krita_2_9_brushengine_opacity-flow_03.png
+.. image:: /images/brushes/Krita_2_9_brushengine_opacity-flow_03.png
 
 where the other images of this page had all three strokes set to painting mode: wash, this one is set to build-up.
 

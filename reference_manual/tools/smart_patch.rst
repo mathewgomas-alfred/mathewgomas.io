@@ -21,7 +21,7 @@ The smart patch tool allows you to seamlessly remove elements from the image. It
 
 You can see it as a smarter version of the clone brush.
 
-.. image:: /images/en/Smart-patch.gif
+.. image:: /images/tools/Smart-patch.gif
 
 The smart patch tool has the following tool options:
 

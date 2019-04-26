@@ -17,7 +17,7 @@ Color Space Size
 Using Krita's color space browser, you can see that there are many different space sizes.
 
 
-.. figure:: /images/en/color_category/Basiccolormanagement_compare4spaces.png 
+.. figure:: /images/color_category/Basiccolormanagement_compare4spaces.png 
    :figwidth: 800
    :align: center
 
@@ -33,9 +33,9 @@ There are three primary reasons to use a large space:
 Let's compare the following gradients in different spaces:
 
 
-.. image:: /images/en/color_category/Basiccolormanagement_gradientsin4spaces_v2.jpg 
+.. image:: /images/color_category/Basiccolormanagement_gradientsin4spaces_v2.jpg 
 
-.. image:: /images/en/color_category/Basiccolormanagement_gradientsin4spaces_nonmanaged.png 
+.. image:: /images/color_category/Basiccolormanagement_gradientsin4spaces_nonmanaged.png 
 
 
 On the left we have an artifact-ridden color managed jpeg file with an ACES sRGBtrc v2 profile attached (or not, if not, then you can see the exact different between the colors more clearly). This should give an approximation of the actual colors. On the right, we have an sRGB png that was converted in Krita from the base file.

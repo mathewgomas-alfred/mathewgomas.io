@@ -20,7 +20,7 @@ The artistic filter are characterised by taking an input, and doing a deformatio
 Halftone
 --------
 
-.. image:: /images/en/Krita_halftone_filter.png
+.. image:: /images/filters/Krita_halftone_filter.png
 
 The halftone filter is a filter that converts the colors to a halftone dot pattern.
 
@@ -40,22 +40,22 @@ Index Color
 
 The index color filter maps specific user selected colors to the grayscale value of the artwork. You can see the example below, the strip below the black and white gradient has index color applied to it so that the black and white gradient gets the color selected to different values.
 
-.. image:: /images/en/Gradient-pixelart.png
+.. image:: /images/common-workflows/Gradient-pixelart.png
 
 You can choose the required colors and ramps in the index color filter dialog as shown below 
 
-.. image:: /images/en/Index-color-filter.png
+.. image:: /images/filters/Index-color-filter.png
 
 You can create index painting such as one shown below with the help of this filter
 
-.. image:: /images/en/Kiki-pixel-art.png
+.. image:: /images/common-workflows/Kiki-pixel-art.png
 
 Pixelize
 --------
 
 Makes the input-image pixely by creating small cells and inputting an average color.
 
-.. image:: /images/en/Pixelize-filter.png
+.. image:: /images/filters/Pixelize-filter.png
 
 Raindrops
 ---------
@@ -67,7 +67,7 @@ Oilpaint
 
 Does semi-posterisation to the input-image, with the 'brush-size' determining the size of the fields.
 
-.. image:: /images/en/Oilpaint-filter.png
+.. image:: /images/filters/Oilpaint-filter.png
 
 Brush-size
     Determines how large the individual patches are. The lower, the more detailed.
@@ -79,6 +79,6 @@ Posterize
 
 This filter decreases the amount of colors in an image. It does this per component (channel).
 
-.. image:: /images/en/Posterize-filter.png
+.. image:: /images/filters/Posterize-filter.png
 
 The :guilabel:`Steps` parameter determines how many colors are allowed per component.

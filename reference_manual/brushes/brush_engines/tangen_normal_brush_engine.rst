@@ -74,19 +74,19 @@ Normal Map authoring workflow
 
 #. Create an image with a background color of (128, 128, 255) blue/purple. 
 
-    .. figure:: /images/en/Krita-normals-tutorial_1.png
+    .. figure:: /images/brushes/Krita-normals-tutorial_1.png
        :figwidth: 500
        
        Setting up a background with the default color.
 
 #. Set up group with a :guilabel:`Phong Bumpmap` filter mask. Use the :guilabel:`Use Normal map` checkbox on the filter to make it use normals.
 
-    .. figure:: /images/en/Krita-normals-tutorial_2.png
+    .. figure:: /images/brushes/Krita-normals-tutorial_2.png
        :figwidth: 500
        
        Creating a phong bump map filter layer, make sure to check 'Use Normal map'.
 
-    .. figure:: /images/en/Krita-normals-tutorial_3.png
+    .. figure:: /images/brushes/Krita-normals-tutorial_3.png
        :figwidth: 500
        
        These settings give a nice daylight-esque lighting setup, with light 1 being the sun, light 3 being the light from the sky, and light 2 being the light from the ground.
@@ -94,7 +94,7 @@ Normal Map authoring workflow
 #. Make a :guilabel:`Normalize` filter layer or mask to normalize the normal map before feeding it into the Phong bumpmap filter for the best results.
 #. Then, paint on layers in the group to get direct feedback. 
 
-    .. figure:: /images/en/Krita-normals-tutoria_4.png
+    .. figure:: /images/brushes/Krita-normals-tutoria_4.png
        :figwidth: 500
        
        Paint on the layer beneath the filters with the tangent normal brush to have them be converted in real time.
@@ -115,7 +115,7 @@ Sometimes you only want to edit a single channel. In that case set the blending 
 
 So, if you want the brush to only affect the red channel, set the blending mode to :guilabel:`Copy Red`.
 
-.. figure:: /images/en/Krita_Filter_layer_invert_greenchannel.png
+.. figure:: /images/brushes/Krita_Filter_layer_invert_greenchannel.png
    :figwidth: 500
     
    The copy red, green and blue blending modes also work on filter-layers.

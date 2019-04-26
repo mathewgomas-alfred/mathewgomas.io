@@ -16,7 +16,7 @@
 Tablet Settings
 ===============
 
-.. image:: /images/en/Krita_Preferences_Tablet_Settings.png
+.. image:: /images/preferences/Krita_Preferences_Tablet_Settings.png
 
 Tablet 
     Input Pressure Global Curve : This is the global curve setting that your tablet will use in Krita. The settings here will make your tablet feel soft or hard globally.
@@ -37,7 +37,7 @@ Advanced Tablet Settings for WinTab
 -----------------------------------
 
 
-.. image:: /images/advanced-settings-tablet.png
+.. image:: /images/preferences/advanced-settings-tablet.png
 
 When using multiple monitors or using a tablet that is also a screen, Krita will get conflicting information about how big your screen is, and sometimes if it has to choose itself, there will be a tablet offset. This window allows you to select the appropriate screen resolution.
 

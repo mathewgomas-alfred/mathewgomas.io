@@ -23,7 +23,7 @@ They can function as a preview shape, or you can snap onto them with the
 freehand brush tool. In the tool options of free hand brush, you can
 toggle :guilabel:`Snap to Assistants` to turn on snapping.
 
-.. figure:: /images/en/Krita_basic_assistants.png
+.. figure:: /images/assistants/Krita_basic_assistants.png
    :alt: Krita's vanishing point assistants in action
    :width: 800
 
@@ -181,13 +181,13 @@ Axonometric
 
 All of these are set up using three Parallel Rulers.
 
-.. image:: /images/en/Assistants_oblique.png
+.. image:: /images/assistants/Assistants_oblique.png
 
 Oblique
     For oblique, set two parallel rulers to horizontal and vertical, and
     one to an angle, representing depth.
 
-.. image:: /images/en/Assistants_dimetric.png
+.. image:: /images/assistants/Assistants_dimetric.png
 
 Dimetric & Isometric
     Isometric perspective has technically all three rulers set up at
@@ -196,7 +196,7 @@ Dimetric & Isometric
     from the main. The latter can be easily set up by snapping the
     assistants to a grid.
 
-.. image:: /images/en/Assistants_trimetric.png
+.. image:: /images/assistants/Assistants_trimetric.png
 
 Trimetric
     Is when all the angles are slightly different. Often looks like a
@@ -205,22 +205,22 @@ Trimetric
 Linear Perspective
 ~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/Assistants_1_point_perspective.png
+.. image:: /images/assistants/Assistants_1_point_perspective.png
 
 1 Point Perspective
     A 1 point perspective is set up using 1 vanishing point, and two
     crossing perpendicular parallel rulers.
 
-.. image:: /images/en/Assistants_2_point_perspective.png
+.. image:: /images/assistants/Assistants_2_point_perspective.png
 
 2 Point Perspective
     A 2 point perspective is set up using 2 vanishing point and 1
     vertical parallel ruler. Often, putting the vanishing points outside
     the frame a little can decrease the strength of it.
 
-.. image:: /images/en/Assistants_2_pointperspective_02.png
+.. image:: /images/assistants/Assistants_2_pointperspective_02.png
 
-.. image:: /images/en/Assistants_3_point_perspective.png
+.. image:: /images/assistants/Assistants_3_point_perspective.png
 
 3 Point Perspective
     A 3 point perspective is set up using 3 vanishing point rulers.
@@ -232,14 +232,14 @@ There's a little secret that perspective tutorials don't always tell you, and th
 
 We can prove this via a little experiment. That good old problem: drawing a rail-road.
 
-.. image:: /images/en/Assistants_vanishing_point_logic_01.png
+.. image:: /images/assistants/Assistants_vanishing_point_logic_01.png
 
 You are probably familiar
 with the problem: How to determine where the next beam is going to be, as perspective projection will make them look closer together.
 
 Typically, the solution is to draw a line in the middle and then draw lines diagonally across. After all, those lines are parallel, meaning that the exact same distance is used.
 
-.. image:: /images/en/Assistants_vanishing_point_logic_02.png
+.. image:: /images/assistants/Assistants_vanishing_point_logic_02.png
 
 But because they are parallel, we can use a vanishing point assistant instead, and we use the alignment handles to align it to the diagonal of the beam, and to the
 horizontal (here marked with red).
@@ -247,7 +247,7 @@ horizontal (here marked with red).
 That diagonal can then in turn be used to determine the position of the
 beams:
 
-.. image:: /images/en/Assistants_vanishing_point_logic_03.png
+.. image:: /images/assistants/Assistants_vanishing_point_logic_03.png
 
 Because any given set of lines has a vanishing point (outside of the ones flat on the view-plane), there can be an infinite amount of vanishing points in a linear perspective. Therefore, Krita allows you to set vanishing points yourself instead of forcing you to only use a few.
 
@@ -261,9 +261,9 @@ lines has two vanishing points, each for one side.
 So, to set them up, the easiest way is one horizontal, one vertical, on
 the same spot, and one vanishing point assistant in the middle.
 
-.. image:: /images/en/Fish-eye.gif
+.. image:: /images/assistants/Fish-eye.gif
 
 But, you can also make one horizontal one that is just as big as the
 other horizontal one, and put it halfway:
 
-.. image:: /images/en/Assistants_fish-eye_2_02.png
+.. image:: /images/assistants/Assistants_fish-eye_2_02.png

@@ -30,7 +30,7 @@ A Vector Layers, also known as a shape layer, is a type of layers that contains 
 
 This is how vector layers will appear in the :program:`Krita` Layers docker. 
 
-.. image:: /images/en/Vectorlayer.png
+.. image:: /images/vector/Vectorlayer.png
 
 It shows the vector contents of the layer on the left side. The icon showing the page with the red bookmark denotes that it is a vector layer. To the right of that is the layer name. Next are the layer visibility and accessibility icons. Clicking the "eye" will toggle visibility. Clicking the lock into a closed position will lock the content and editing will no longer be allowed until it is clicked again and the lock on the layer is released.
 
@@ -53,35 +53,35 @@ To edit the shape and colors of your vector element, you will need to use the ba
 
 Once you have selected this tool, click on the element you want to manipulate and you will see guides appear around your shape. 
 
-.. image:: /images/en/Vectorguides.png
+.. image:: /images/vector/Vectorguides.png
 
 There are four ways to manipulate your image using this tool and the guides on your shape.
 
 Transform/Move
 ~~~~~~~~~~~~~~
 
-.. image:: /images/en/Transform.png
+.. image:: /images/vector/Transform.png
 
 This feature of the tool allows you to move your object by clicking and dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock your moves to one axis.
 
 Size/Stretch
 ~~~~~~~~~~~~
 
-.. image:: /images/en/Resize.png
+.. image:: /images/vector/Resize.png
 
 This feature of the tool allows you to stretch your shape.  Selecting a midpoint will allow stretching along one axis. Selecting a corner point will allow stretching across both axis. Holding :kbd:`Shift`  will allow you to scale your object. Holding :kbd:`Ctrl`  will cause your manipulation to be mirrored across your object.
 
 Rotate
 ~~~~~~
 
-.. image:: /images/en/Rotatevector.png
+.. image:: /images/vector/Rotatevector.png
 
 This feature of the tool will allow you to rotate your object around its center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 degree angles.
 
 Skew
 ~~~~
 
-.. image:: /images/en/Skew.png
+.. image:: /images/vector/Skew.png
 
 This feature of the tool will allow you to skew your object.
 
@@ -94,7 +94,7 @@ Point and Curve Shape Manipulation
 
 Double-click on a vector object to edit the specific points or curves which make up the shape. Click and drag a point to move it around the canvas. Click and drag along a line to curve it between two points. Holding :kbd:`Ctrl`  will lock your moves to one axis.
 
-.. image:: /images/en/Pointcurvemanip.png
+.. image:: /images/vector/Pointcurvemanip.png
 
 Stroke and Fill
 ---------------
@@ -103,18 +103,18 @@ In addition to being defined by points and curves, a shape also has two defining
 
 Here is the dock with the fill element active. Notice the red line across the solid white square. This tells us that there is no fill assigned therefore the inside of the shape will be transparent.
 
-.. image:: /images/en/Strokeandfill.png
+.. image:: /images/vector/Strokeandfill.png
 
 Here is the dock with the stroke element active. 
 
-.. image:: /images/en/Strokeandfillstroke.png
+.. image:: /images/vector/Strokeandfillstroke.png
 
 Editing Stroke Properties
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The stroke properties dock will allow you to edit a different aspect of how the outline of your vector shape looks.
 
-.. image:: /images/en/Strokeprops.png
+.. image:: /images/vector/Strokeprops.png
 
 The style selector allows you to choose different patterns and line styles. The width option changes the thickness of the outline on your vector shape. The cap option changes how line endings appear. The join option changes how corners appear.
 
@@ -125,7 +125,7 @@ Editing Fill Properties
 
 All of the fill properties are contained in the **Stroke and Fill** dock.
 
-.. image:: /images/en/Strokeandfill.png
+.. image:: /images/vector/Strokeandfill.png
 
 The large red **X** button will set the fill to none causing the area inside of the vector shape to be transparent. 
 
@@ -135,13 +135,13 @@ Under the **X** is a button that shows a pattern. This inside area will be fille
 
 * The button with the inner square blank toggles even-odd mode, where every filled region of the path is next to an unfilled one, like this:
 
-.. figure:: /images/en/Fill_rule_even-odd.svg
+.. figure:: /images/vector/Fill_rule_even-odd.svg
    :figwidth: 500
    :align: center
 
 * The button with the inner square filled toggles non zero mode, where most of the time a self overlapping path is entirely filled except when it overlaps with a sub-path of a different direction that 'decrease the level of overlapping' so that the region between the two is considered outside the path and remain unfilled, like this:
 
-.. figure:: /images/en/Fill_rule_non-zero.svg
+.. figure:: /images/vector/Fill_rule_non-zero.svg
    :figwidth: 500
    :align: center
 

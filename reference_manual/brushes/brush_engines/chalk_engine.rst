@@ -25,6 +25,6 @@ As per the developers this brush uses a different algorithm than the Pixel Brush
 
 So there you go, this brush is here for algorithmic demonstration purposes. Don't lose sleep because you can't figure out what it's for, it Really doesn't do much. For the sake of description, here's what it does:
 
-.. image:: /images/en/Krita-tutorial7-C.png
+.. image:: /images/brushes/Krita-tutorial7-C.png
 
 Yeah, that's it, a round brush with some chalky texture, and the option to fade in opacity and saturation. That's it.

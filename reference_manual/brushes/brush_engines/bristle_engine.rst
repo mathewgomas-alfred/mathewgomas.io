@@ -35,7 +35,7 @@ You can:
 * Use different shapes for different effects. Be aware that complex brush shapes will draw more slowly though, while the effects aren't always visible (since in the end, you're passing over an area with a certain number of bristles).
 * To decrease bristle density, you can also just use an autobrush and decrease the brush tip's density, or increase its randomness.
 
-.. image:: /images/en/Krita-tutorial7-B.I.1.png
+.. image:: /images/brushes/Krita-tutorial7-B.I.1.png
 
 Bristle Options
 ---------------
@@ -60,7 +60,7 @@ Shear
 Density
     This controls the density of bristles. Scale takes a number of bristles and expands or compresses them into a denser area, whereas density takes a fixed area and determines the number of bristles in it. See the difference? 
 
-.. image:: /images/en/Krita-tutorial7-B.I.2-1.png
+.. image:: /images/brushes/Krita-tutorial7-B.I.2-1.png
 
 Mouse Pressure
     This one maps "Scale" to mouse speed, thus simulating pressure with a graphics tablet!
@@ -76,7 +76,7 @@ Anti-Aliasing
 Composite Bristles
     This "composes the bristle colors within one dab," but explains that the effect is "probably subtle."
 
-.. image:: /images/en/Krita-tutorial7-B.I.2-2.png
+.. image:: /images/brushes/Krita-tutorial7-B.I.2-2.png
 
 Ink Depletion
 -------------
@@ -88,7 +88,7 @@ Opacity
 Saturation
     The brush will be desaturated to simulate ink-depletion.
 
-    .. image:: /images/en/Krita-tutorial7-B.I.3-1.png
+    .. image:: /images/brushes/Krita-tutorial7-B.I.3-1.png
 
 Soak Ink
     The brush will pick up colors from other brushes. You don't need to have :guilabel:`Ink depletion` checked to activate this option, you just have to check :guilabel:`Soak ink`. What this does is cause the bristles of the brush to take on the colors of the first area they touch. Since the Bristle brush is made up of independent bristles, you can basically take on several colors at the same time.
@@ -98,7 +98,7 @@ Soak Ink
         * It will only take colors in the unscaled area of the brush, so if you're using a brush with 4.00 scale for example, it will only take the colors in the 1/4 area closest to the center. 
         * When the source is transparent, the bristles take black color.
  
-    .. image:: /images/en/Krita-tutorial7-B.I.3-2.png
+    .. image:: /images/brushes/Krita-tutorial7-B.I.3-2.png
 
     .. warning::
         Be aware that this feature is a bit buggy though. It's supposed to take the color from the current layer, but some buggy behavior causes it to often use the last layer you've painted on (with a non-Bristle brush?) as source. To avoid these weird behaviors, stick to just one layer, or paint something on the current active layer first with another brush (such as a Pixel brush).

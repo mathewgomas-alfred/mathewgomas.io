@@ -17,7 +17,7 @@ Task Sets Docker
 
 Task sets are for sharing a set of steps, like a tutorial. You make them with the task-set docker.
 
-.. image:: /images/en/Task-set.png
+.. image:: /images/dockers/Task-set.png
 
 Task sets can record any kind of command also available via the shortcut manager. It can not record strokes, like the macro recorder can. However, you can play macros with the tasksets!
 

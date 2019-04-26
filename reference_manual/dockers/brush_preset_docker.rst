@@ -15,7 +15,7 @@
 Preset Docker
 =============
 
-.. image:: /images/en/Krita_Brush_Preset_Docker.png
+.. image:: /images/dockers/Krita_Brush_Preset_Docker.png
 
 This docker allows you to switch the current brush you're using, as well as tagging the brushes.
 

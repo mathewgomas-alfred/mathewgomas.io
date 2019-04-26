@@ -19,7 +19,7 @@ Snap Settings
     
     This docker has been removed in Krita 3.0. For more information on how to do this instead, consult the :ref:`snapping page <snapping>`.
 
-.. image:: /images/en/Krita_Snap_Settings_Docker.png
+.. image:: /images/dockers/Krita_Snap_Settings_Docker.png
 
 This is docker only applies for Vector Layers. Snapping determines where a vector shape will snap. The little number box is for snapping to a grid.
 

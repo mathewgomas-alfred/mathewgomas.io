@@ -28,7 +28,7 @@ and paper. Even worse, extended mouse use can result in carpal tunnel
 syndrome. That’s why most people who draw digitally use a specialized
 piece of hardware known as a drawing tablet.
 
-.. image:: /images/en/Krita_tablet_types.png
+.. image:: /images/Krita_tablet_types.png
 
 A drawing tablet is a piece of hardware that you can plug into your
 machine, much like a keyboard or mouse. It usually looks like a plastic
@@ -45,7 +45,7 @@ more interesting strokes.
 .. note::
     Sometimes, people confuse finger-touch styluses with a proper tablet. You can tell the difference because a drawing tablet stylus usually has a pointy nib, while a stylus made for finger-touch has a big rubbery round nib, like a finger. These tablets may not give good results and a pressure-sensitive tablet is recommended.
     
-    .. image:: /images/en/Krita_tablet_stylus.png
+    .. image:: /images/Krita_tablet_stylus.png
 
 Drivers and Pressure Sensitivity
 --------------------------------
@@ -77,7 +77,7 @@ operating system, so it can ask it for a lot of these things: It would
 like to display things, and use the memory, and so on. Most importantly,
 it would like to get information from the tablet!
 
-.. image:: /images/en/Krita_tablet_drivermissing.png
+.. image:: /images/Krita_tablet_drivermissing.png
 
 But it can’t! Turns out your operating system doesn’t know much about
 tablets. That’s what drivers are for. Installing a driver gives the

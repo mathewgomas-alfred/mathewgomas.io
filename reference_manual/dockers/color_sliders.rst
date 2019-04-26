@@ -21,7 +21,7 @@ Color Sliders
 
 A small docker with Hue, Saturation and Lightness bars.
 
-.. image:: /images/en/Color-slider-docker.png
+.. image:: /images/dockers/Color-slider-docker.png
 
 You can configure this docker via :menuselection:`Settings --> Configure Krita --> Color Selector Settings --> Color Sliders`.
 

@@ -115,7 +115,7 @@ space of the file including all the layers you can do it by going to
 Author and Description
 ----------------------
 
-.. image:: /images/en/document_information_screen.png
+.. image:: /images/document_information_screen.png
 
 Krita will automatically save who created the image into your image's
 metadata. Along with the other data such as time and date of creation
@@ -187,7 +187,7 @@ Resizing the canvas
 You can also resize the canvas via :menuselection:`Image --> Resize Canvas` (or :kbd:`Ctrl + Alt +
 C`). The dialog box is shown below.
 
-.. image:: /images/en/Resize_Canvas.png
+.. image:: /images/Resize_Canvas.png
 
 In this, constraint proportions will make sure the height and width stay
 in proportion to each other as you change them. Offset indicates
@@ -201,7 +201,7 @@ when you scroll away from the end of the canvas, you can see an arrow
 appear. Clicking this will extend the canvas in that direction. You can
 see the arrow marked in red in the example below:
 
-.. image:: /images/en/Infinite-canvas.png
+.. image:: /images/Infinite-canvas.png
    :width: 700px
 
 
@@ -219,13 +219,13 @@ Like all other dialogs where a chain link appears, when the chain is
 linked the aspect ratio is maintained. To disconnect the chain, just click
 on the links and the two halves will separate.
 
-.. image:: /images/en/Scale_Image_to_New_Size.png
+.. image:: /images/Scale_Image_to_New_Size.png
 
 
 Separating Images
 ~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/Separate_Image.png
+.. image:: /images/Separate_Image.png
 
 This powerful image manipulation feature lets you separate an image into
 its different components or channels.

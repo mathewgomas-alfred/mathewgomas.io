@@ -23,7 +23,7 @@ By default, it will use the "Anonymous" profile, which contains nothing. To crea
 
 You can then fill out the fields.
 
-.. figure:: /images/en/Krita_4_0_preferences_author_page.png
+.. figure:: /images/preferences/Krita_4_0_preferences_author_page.png
    :align: center
    :figwidth: 800
 

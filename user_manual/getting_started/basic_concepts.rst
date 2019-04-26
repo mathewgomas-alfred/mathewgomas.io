@@ -33,7 +33,7 @@ Even though Krita is regarded primarily a raster based application, it has some 
 
 In digital imaging, a pixel (Picture Element) is a basic and lowest element of an Image. It is basically a grid of points each displaying specific color. Raster editing is manipulating and editing these pixels. For example when you take a 1-pixel brush which is colored black and painting on the white canvas in Krita you are actually changing the color of the pixel beneath your brush from white to black. When you zoom in and see a brush stroke you can notice many small squares with colors, these are pixels:
 
-.. image:: /images/en/Pixels-brushstroke.png
+.. image:: /images/Pixels-brushstroke.png
    :align: center
 
 In contrast to raster images, vector graphic images are based on mathematical expressions. They are independent of the pixels. For example, when you draw a rectangle on a :ref:`vector layer <vector_layers>` in Krita you are actually drawing paths passing through points that are called nodes, which are located on specific coordinates on the 'x' and 'y' axes. When you re-size or move these points the computer calculates and redraws the path and displays the newly formed shape to you. Hence you can re-size the vector shape to any extent without any loss in quality. In Krita, everything which is not on a vector layer is raster based.
@@ -76,7 +76,7 @@ A view is a window onto your image. Krita allows you to have multiple views, and
 
 If you have trouble drawing certain curves you will enjoy using rotation for drawing, and of course, there is zooming in and out for precision and rough work.
 
-.. figure:: /images/en/Krita_multiple_views.png
+.. figure:: /images/Krita_multiple_views.png
    :align: center
 
    Multiple views of the same image in Krita
@@ -88,7 +88,7 @@ Dockers
 
 Dockers are little subwindows in :ref:`Krita's interface <navigation>`. They contain useful tools, like the color selector, layer stack, tool options, et cetera.
 
-.. image:: /images/en/Dockers.png
+.. image:: /images/dockers/Dockers.png
    :align: center
 
 The image above shows some of the dockers in Krita.
@@ -104,7 +104,7 @@ Krita allows you to have multiple windows via :menuselection:`Window --> New Win
 
 The image below shows an example of multiple windows in Krita.
 
-.. image:: /images/en/Multi-window.png
+.. image:: /images/Multi-window.png
    :align: center
 
 Canvas in Krita
@@ -112,7 +112,7 @@ Canvas in Krita
 
 When you create a new document in Krita for the first time you will see a rectangular white area. This is called a canvas. You can see it in the image below. The area marked by a red rectangle is a canvas.
 
-.. image:: /images/en/Canvas-krita.png
+.. image:: /images/Canvas-krita.png
    :align: center
 
 When you save the painting as jpg, png et cetera or take a print out of the painting, only the content inside this area is taken into consideration. Anything beyond it is ignored. Krita does store information beyond this area, you just won't be able to see it.
@@ -173,7 +173,7 @@ Engine is a term Krita developers use to describe a complex interacting set of c
 
 Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, all with different effects.
 
-.. figure:: /images/en/Krita_example_differentbrushengines.png
+.. figure:: /images/brushes/Krita_example_differentbrushengines.png
    :align: center
 
    **Left:** pixel brush, **Center:** color smudge brush, **Right:** sket ceterah brush
@@ -191,7 +191,7 @@ Colors
 
 Humans can see a few million colors, which are combinations of electromagnetic waves (light) bouncing off a surface, where the surface absorbs some of it.
 
-.. figure:: /images/en/Krita_basics_primaries.png
+.. figure:: /images/Krita_basics_primaries.png
    :align: center
 
    Subtractive CMY colors on the left and additive RGB colors on the right.  This difference means that printers benefit from color conversion before printing
@@ -202,7 +202,7 @@ A computer also uses three primaries and uses a specific amount of each primary 
 
 Per pixel, a computer then stores the value of each of these primaries, with the maximum depending on the bit-depth. These are called the **components** or **channels** depending on who you talk to.
 
-.. figure:: /images/en/Krita_basic_channel_rose.png
+.. figure:: /images/Krita_basic_channel_rose.png
    :align: left
 
    This is the red-channel of an image of a red rose. As you can see, the petals are white here, indicating that those areas contain full red. The leaves are much darker, indicating a lack of red, which is to be expected, as they are green.
@@ -254,13 +254,13 @@ You can paint on masks with any of the brushes, or convert a normal paint-layer 
 
 For example, we have a white ghost lady here:
 
-.. image:: /images/en/Krita_ghostlady_1.png
+.. image:: /images/Krita_ghostlady_1.png
    :align: center
 
 But you can't really tell whether she's a ghost lady or just really really white. If only we could give the idea that she floats.
 We right-click the layer and add a transparency mask. Then, we select that mask and draw with a black and white linear gradient so that the black is below.
 
-.. image:: /images/en/Krita_ghostlady_2.png
+.. image:: /images/Krita_ghostlady_2.png
    :align: center
 
 Wherever the black is, there the lady now becomes transparent, turning her into a real ghost!
@@ -283,7 +283,7 @@ Sharpen
 Color to Alpha
  A popular filter which makes all of the chosen color transparent.
 
-.. figure:: /images/en/Krita_basic_filter_brush.png
+.. figure:: /images/Krita_basic_filter_brush.png
    :align: right
 
    Different filter brushes being used on different parts of the image.
@@ -308,7 +308,7 @@ Masks, on the other hand, can affect one single layer and are driven by a graysc
 
 We can use these filters to make our ghost lady look even more ethereal, by selecting the ghost lady's layer, and then creating a clone layer. We then right click and add a filter mask and use gaussian blur set to 10 or so pixels.  The clone layer is then put behind the original layer, and set to the blending mode '**Color Dodge**', giving her a definite spooky glow. You can keep on painting on the original layer and everything will get updated automatically!
 
-.. image:: /images/en/Krita_ghostlady_3.png
+.. image:: /images/Krita_ghostlady_3.png
    :align: center
 
 Layer Effects or Layer Styles are filterm masks popularised by :program:`Photoshop's` that are a little faster than regular masks, but not as versatile. They are available by right clicking a layer and selecting 'layer style'.
@@ -321,7 +321,7 @@ Transformations
 We also have the :ref:`crop_tool`, which only affects the canvas size, and the :ref:`move_tool` which only moves a given layer.
 However, if you want more control, Krita offers a :ref:`transform_tool`.
 
-.. image:: /images/en/Krita_transforms_free.png 
+.. image:: /images/tools/Krita_transforms_free.png 
    :align: center
 
 With this tool you can rotate and resize on the canvas, or put it in perspective. Or you can use advanced transform tools, like the warp, cage and liquify, which allow you to transform by drawing custom points or even by pretending it's a transforming brush.
@@ -331,7 +331,7 @@ With this tool you can rotate and resize on the canvas, or put it in perspective
 
 Like the filter brush engine, Krita also has a Deform Brush Engine, which allows you to transform with a brush. The deform is like a much faster version of the Liquify transform tool mode, but in exchange, its results are of much lower quality.
 
-.. figure:: /images/en/Krita_transforms_deformvsliquefy.png
+.. figure:: /images/tools/Krita_transforms_deformvsliquefy.png
    :align: center
 
    Apple transformed into a pear with liquify on the left and deform brush on the right.
@@ -347,7 +347,7 @@ You can use transform masks to deform clone and file layers as well.
 :ref:`animation`
 ----------------
 
-.. image:: /images/en/Introduction_to_animation_walkcycle_02.gif
+.. image:: /images/animation/Introduction_to_animation_walkcycle_02.gif
    :align: center
 
 From version 3.0 onwards, Krita got raster animation support. You can use the timeline, animation and onionskin dockers, plus Krita's amazing variety of brushes to do raster based animations, export those, and then turn them into movies or gifs.
@@ -357,7 +357,7 @@ Assistants, Grids and Guides
 
 With all this technical stuff, you might forget that Krita is a painting program. Like how when working with traditional medium, as an illustrator we can have all sorts of equipment to make drawing easier, Krita also offers a variety of tools:
 
-.. figure:: /images/en/Krita_basic_assistants.png
+.. figure:: /images/assistants/Krita_basic_assistants.png
    :align: center
 
    Krita's vanishing point assistants in action

@@ -20,7 +20,7 @@ A lot actually, rather, white points describe a type of viewing condition.
 
 So, usually what we mean by viewing conditions is the lighting and decoration of the room that you are viewing the image in. Our eyes try to make sense of both the colors that you are looking at actively (the colors of the image) and the colors you aren't looking at actively (the colors of the room), which means that both sets of colors affect how the image looks.
 
-.. figure:: /images/en/color_category/Meisje_met_de_parel_viewing.png
+.. figure:: /images/color_category/Meisje_met_de_parel_viewing.png
    :figwidth: 800
    :align: center
    
@@ -30,7 +30,7 @@ This is for example, the reason why museum exhibitioners can get really angry at
 
 
 
-.. figure:: /images/en/color_category/Krita_example_metamerism.png 
+.. figure:: /images/color_category/Krita_example_metamerism.png 
    :figwidth: 500
    :align: center
 
@@ -39,14 +39,14 @@ Lighting is the other component of the viewing condition which can have dramatic
 An example where metamerism could become a problem is when you start matching colors from different sources together.
 
 
-.. figure:: /images/en/color_category/White_point_mix_up_ex1_01.svg 
+.. figure:: /images/color_category/White_point_mix_up_ex1_01.svg 
    :figwidth: 500
    :align: center
 
 For example, if you are designing a print for a red t-shirt that's not bright red, but not super grayish red either. And you want to make sure the colors of the print match the color of the t-shirt, so you make a dummy background layer that is approximately that red, as correctly as you can observe it, and paint on layers above that dummy layer. When you are done, you hide this dummy layer and sent the image with a transparent background to the press.
 
 
-.. figure:: /images/en/color_category/White_point_mixup_ex1_02.png 
+.. figure:: /images/color_category/White_point_mixup_ex1_02.png 
    :figwidth: 300
    :align: center
 
@@ -62,7 +62,7 @@ Your computer screen on the other hand, has a black body temperature of 6500K, a
 
 What's worse, Printers print on the basis of using a white point of D50, the color of white paper under direct sunlight.
 
-.. figure:: /images/en/color_category/White_point_mix_up_ex1_03.svg 
+.. figure:: /images/color_category/White_point_mix_up_ex1_03.svg 
    :figwidth: 500
    :align: center
 
@@ -70,7 +70,7 @@ What's worse, Printers print on the basis of using a white point of D50, the col
 So, by eye-balling your t-shirt's color during the evening, you took its red color as transformed by the yellowish light. Had you made your observation in diffuse sunlight of an overcast (which is also roughly D65), or made it in direct sunlight light and painted your picture with a profile set to D50, the color would have been much closer, and thus your design would not be as yellowish.
 
 
-.. figure:: /images/en/color_category/White_point_mixup_ex1_03.png
+.. figure:: /images/color_category/White_point_mixup_ex1_03.png
    :figwidth: 500
    :align: center
    
@@ -82,7 +82,7 @@ Another example where metamerism messes things up is with screen projections.
 
 We have a presentation where we mark one type of item with red, another with yellow and yet another with purple. On a computer the differences between the colors are very obvious.
 
-.. figure:: /images/en/color_category/Krita_metamerism_presentation.svg 
+.. figure:: /images/color_category/Krita_metamerism_presentation.svg 
    :figwidth: 800
    :align: center
 

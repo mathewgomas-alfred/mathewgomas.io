@@ -35,7 +35,7 @@ In fact, there’s always a non-destructive sort of transform going on while you
 
 Between different view and display transforms, there’s also a difference in types. Some are really naive, others are more sophisticated, and some need to be used in a certain manner to work properly. The ICC color management can only give a certain type of view transforms, while OCIO color management in the LUT docker can give much more complex transforms easily configurable and custom settings that can be shared between programs.
 
-.. figure:: /images/en/color_category/Krita_scenelinear_cat_01.png
+.. figure:: /images/color_category/Krita_scenelinear_cat_01.png
    :figwidth: 800
    :align: center
     
@@ -149,7 +149,7 @@ So, we have our typical value based workflow, where we only paint the grays of t
 
 Where with the value based workflow you paint the image as if it were a grayscale of what you intended to paint, with a lighting based workflow you paint as if all the objects are white. The effect of the color of an object can be determined by multiplying its base color with the color of the light. So you could paint objects as if they were white, paint the colors on a separate layer and just use the multiply blending mode to get the right colors.
 
-.. figure:: /images/en/color_category/Krita_scenelinear_cat_02.png
+.. figure:: /images/color_category/Krita_scenelinear_cat_02.png
    :align: center
    :figwidth: 800
 

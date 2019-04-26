@@ -25,18 +25,18 @@ Notice how I mentioned up there that the magic happens between your shoulders an
 
 You can in fact, make different strokes depending on which muscles and joints you use to make the movement: The Fingers, the wrist and lower-arm muscles, the elbow and upper-arm muscles or the shoulder and back muscles.
 
-.. image:: /images/en/inking/Stroke_fingers.gif
+.. image:: /images/inking/Stroke_fingers.gif
     :alt: finger movement
 
-.. image:: /images/en/inking/Stroke_wrist.gif
+.. image:: /images/inking/Stroke_wrist.gif
     :alt: wrist movement
 
 Generally, the lower down the arm the easier it is to make precise strokes, but also the less durable the joints are for long term use. We tend to start off using our fingers and wrist a lot during drawing, because it’s easier to be precise this way. But it’s difficult to make long strokes, and furthermore, your fingers and wrist get tired far quicker.
 
-.. image:: /images/en/inking/Stroke_arm.gif
+.. image:: /images/inking/Stroke_arm.gif
     :alt: arm movement
 
-.. image:: /images/en/inking/Stroke_shoulder.gif
+.. image:: /images/inking/Stroke_shoulder.gif
     :alt: stroke shoulder movement
 
 Your shoulders and elbows on the other hand are actually quite good at handling stress, and if you use your whole hand you will be able to make long strokes far more easily. People who do calligraphy need shoulder based strokes to make those lovely flourishes (personally, I can recommend improving your handwriting as a way to improve inking), and train their arms so they can do both big and small strokes with the full arm.
@@ -50,7 +50,7 @@ Stroke smoothing
 
 So, if the above is the secret to drawing long strokes, that would be why people having been inking lovely drawings for years without any smoothing? Then, surely, it is decadence to use something like stroke smoothing, a short-cut for the lazy?
 
-.. figure:: /images/en/inking/Stroke_rigger.gif
+.. figure:: /images/inking/Stroke_rigger.gif
     :alt: rigger brush demonstration
 
     Example of how a rigger brush can smooth the original movement (here in red)
@@ -93,7 +93,7 @@ Texture
 
 Do you make smooth ‘wet’ strokes? Or do you make textured ones? For the longest time, smooth strokes were preferred, as that would be less of a headache when entering the coloring phase. Within Krita there are several methods to color these easily, the colorize mask being the prime example, so textured becomes a viable option even for the lazy amongst us.
 
-.. figure:: /images/en/inking/Inking_patterned.png
+.. figure:: /images/inking/Inking_patterned.png
     :alt: type of strokes
 
     Left: No texture, Center: Textured, Right: Predefined Brush tip
@@ -103,22 +103,22 @@ Pressure curve
 
 Of course, the nicest lines are made with pressure sensitivity, so they dynamically change from thick to thin. However, different types of curves on the pressure give different results. The typical example is a slightly concave line to create a brush that more easily makes thin lines.
 
-.. figure:: /images/en/inking/Ink_gpen.png
+.. figure:: /images/inking/Ink_gpen.png
     :alt: pressure curve for ink gpen
 
     Ink_Gpen_25 is a good example of a brush with a concave pressure curve. This curve makes it easier to make thin lines.
 
-.. figure:: /images/en/inking/Ink_convex.png
+.. figure:: /images/inking/Ink_convex.png
     :alt: convex inking brush
 
     conversely, here's a convex brush. The strokes are much rounder
 
-.. figure:: /images/en/inking/Ink_fill_circle.png
+.. figure:: /images/inking/Ink_fill_circle.png
     :alt: ink fill circle
 
     Fill_circle combines both into an s-curve, this allows for very dynamic brush strokes
 
-.. figure:: /images/en/inking/Ink_speed.png
+.. figure:: /images/inking/Ink_speed.png
     :alt: inverse convex to speed parameter
 
     Pressure isn't the only thing you can do interesting things with, adding an inverse convex curve to speed can add a nice touch to your strokes
@@ -148,7 +148,7 @@ Super-thin lines
 
 If you are interested in super-thin lines, it might be better to make your ink at double or even triple the size you usually work at, and, only use an aliased pixel brush. Then, when the ink is finished, use the fill tool to fill in flats on a separate layer, split the layer via :menuselection:`Layer --> Split --> Layer Split`, and then resize to the original size.
 
-.. image:: /images/en/inking/Inking_aliasresize.png
+.. image:: /images/inking/Inking_aliasresize.png
     :alt: aliased resize
 
 This might be a little of an odd way of working, but it does make drawing thin lines trivial, and it's cheaper to buy RAM so you can make HUGE images than to spent hours on trying to color the thin lines precisely, especially as colorize mask will not be able to deal with thin anti-aliased lines very well.

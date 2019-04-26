@@ -16,7 +16,7 @@ Python Plugin Manager
 
 This is part of Krita's python support.
 
-.. image:: /images/en/Krita_4_0_preferences_python_plugin_manager.png
+.. image:: /images/preferences/Krita_4_0_preferences_python_plugin_manager.png
    :width: 800
    :align: center
 

@@ -23,32 +23,32 @@ Basically, they’re what is officially called an ‘image hose’, and they’r
 
 The typical way to make them is to first draw the ‘frames’ on a small canvas, per layer:
 
-.. image:: /images/en/brush-tips/Krita-animtedbrush.png
+.. image:: /images/brush-tips/Krita-animtedbrush.png
     :alt: krita Animated brush tip layer setup
     :width: 800
 
 You can use :kbd:`Alt` + |mouseleft| on the layer thumbnails to isolate layers without hiding them.
 
-.. image:: /images/en/brush-tips/Krita-animtedbrush1.png
+.. image:: /images/brush-tips/Krita-animtedbrush1.png
     :alt: Animated brush tips isolated layers
 
 When done you should have a mess like this.
 
 Go into the brush settings (:kbd:`F5`), and go to predefined brush-tips, and click stamp. You will get this window.
 
-.. image:: /images/en/brush-tips/Krita-animtedbrush2.png
+.. image:: /images/brush-tips/Krita-animtedbrush2.png
     :alt: Predefined brush tips dialog
 
 And then use style **animated** and selection mode set to **random**.
 
 Krita uses Gimp’s image hose format which allows for random selection of the images, angle based selection, pressure based selection, and incremental selection (I have no idea what constant does).
 
-.. image:: /images/en/brush-tips/Krita-animtedbrush3.png
+.. image:: /images/brush-tips/Krita-animtedbrush3.png
     :alt: Animated brush image dialog
 
 Then select the above brush and your new leafy-brush tip.
 
-.. image:: /images/en/brush-tips/Krita-animtedbrush4.png
+.. image:: /images/brush-tips/Krita-animtedbrush4.png
     :alt: Result of an animated brush
 
 And use it to paint trees! (for example)

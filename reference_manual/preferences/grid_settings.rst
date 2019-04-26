@@ -20,7 +20,7 @@ Grid Settings
 
 Settings->configure Krita->Grid
 
-.. image:: /images/en/Krita_Preferences_Grid.png
+.. image:: /images/preferences/Krita_Preferences_Grid.png
 
 Fine tune the settings of the grid-tool grid here.
 

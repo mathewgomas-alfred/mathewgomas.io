@@ -121,7 +121,7 @@ There's also a difference between 'colored gray' and 'neutral gray' depending on
 | Neutral Gray | 0.0  | 0.0  | 0.0  | 0.25 | 0.0 | 0.0 | 0.0 | 0.5 | 0.0  | 0.0  | 0.0  | 0.75 |
 +--------------+------+------+------+------+-----+-----+-----+-----+------+------+------+------+
 
-.. figure:: /images/en/color_category/Cmyk_black_differences.png
+.. figure:: /images/color_category/Cmyk_black_differences.png
    :figwidth: 500
    :align: center
 

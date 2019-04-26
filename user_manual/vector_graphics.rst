@@ -22,7 +22,7 @@ What are vector graphics?
 
 Krita is primarily a raster graphics editing tool, which means that most of the editing changes the values of the pixels on the raster that makes up the image.
 
-.. image:: /images/en/Pixels-brushstroke.png
+.. image:: /images/Pixels-brushstroke.png
 
 Vector graphics on the other hand use mathematics to describe a shape. Because it uses a formula, vector graphics can be resized to any size.
 

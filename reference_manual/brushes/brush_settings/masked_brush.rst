@@ -22,7 +22,7 @@ Masked Brush
 
 Masked brush is new feature that is only available in the :ref:`pixel_brush_engine`. They are additional settings you will see in the brush editor. Masked brushes allow you to combine two brush tips in one stroke. One brush tip will be a mask for your primary brush tip. A masked brush is a good alternative to texture for creating expressive and textured brushes.
 
-.. image:: /images/en/Masking-brush1.jpg
+.. image:: /images/brushes/Masking-brush1.jpg
    :align: center
 
 .. note::
@@ -34,7 +34,7 @@ Masked brush is new feature that is only available in the :ref:`pixel_brush_engi
     :ref:`Blending mode (drop-down inside Brush tip)<blending_modes>`:
         Blending modes changes how tips are combined.
     
-    .. image:: /images/en/Masking-brush2.jpg
+    .. image:: /images/brushes/Masking-brush2.jpg
        :align: center
 
 :ref:`option_size`

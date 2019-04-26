@@ -27,7 +27,7 @@ Tags
 
 Krita also has a robust tagging system for you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. You can |mouseleft| the plus icon in the docker and add a tag name. In addition to adding you can rename and delete a tag as well.
 
-.. image:: /images/en/Tags-krita.png
+.. image:: /images/resources/Tags-krita.png
    :align: center
 
 * Resources can belong to one or more tags.  For example, you may have a Brush Preset of a favorite **Ink Pen** variant and have it tagged so it shows in up in your Inking, Painting, Comics and Favorites groups of brushes.
@@ -39,7 +39,7 @@ Filtering
 
 Some dockers, for example the brush preset docker as shown below, have a resource filter, which functions like a powerful search bar for the resource in question.
 
-.. image:: /images/en/Brushpreset-filters.png
+.. image:: /images/brushes/Brushpreset-filters.png
 
 You can enter brush name, tag name to quickly pull up a list of brush preset you want. When you select any tag from the tag drop-down and want to include brush presets from other tags as well then you can add filters the following way: 
 
@@ -66,7 +66,7 @@ As mentioned earlier Krita has a flexible resource management system. Starting f
 
 The manage resources section in the settings was also revamped for making it easy for the artists to prepare these bundle files. You can open manage resource section by going to :menuselection:`Settings`   then :menuselection:`Manage Resources` 
 
-.. image:: /images/en/Manageresources.png
+.. image:: /images/resources/Manageresources.png
    :align: center
 
 Importing Bundles
@@ -80,7 +80,7 @@ Creating your own Bundle
 
 You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button. This will open a dialog box as shown below
 
-.. image:: /images/en/Creating-bundle.png
+.. image:: /images/resources/Creating-bundle.png
 
 The left hand section is for filling up information about the bundle like author name, website, email, bundle icon, etc.
 The right hand side provides a list of available resources. Choose the type of resource you wish to add in to the bundle from the drop-down above and add it to the bundle by selecting a resource and clicking on the arrow button.

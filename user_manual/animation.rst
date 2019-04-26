@@ -70,7 +70,7 @@ Setup
 
 First, we make a new file: 
 
-.. image:: /images/en/Introduction_to_animation_01.png
+.. image:: /images/animation/Introduction_to_animation_01.png
 
 On the first tab, we type in a nice ratio like 1280x1024, set the dpi to
 72 (we're making this for screens after all) and title the document
@@ -86,7 +86,7 @@ Then hit :guilabel:`Create`!
 Then, to get all the necessary tools for animation, select the workspace
 switcher: 
 
-.. figure:: /images/en/Introduction_to_animation_02.png
+.. figure:: /images/animation/Introduction_to_animation_02.png
 
     The red arrow points at the workspace switcher.
     
@@ -94,7 +94,7 @@ And select the animation workspace.
 
 Which should result in this: 
 
-.. image:: /images/en/Introduction_to_animation_03.png
+.. image:: /images/animation/Introduction_to_animation_03.png
 
 The animation workspace adds the timeline, animation and onion skin
 dockers at the bottom.
@@ -106,12 +106,12 @@ We have two transparent layers set up. Let's name the bottom one
 'environment' and the top 'walkcycle' by double clicking their names in
 the layer docker.
 
-.. image:: /images/en/Introduction_to_animation_04.png
+.. image:: /images/animation/Introduction_to_animation_04.png
 
 Use the straight line tool to draw a single horizontal line. This is
 the ground.
 
-.. image:: /images/en/Introduction_to_animation_05.png
+.. image:: /images/animation/Introduction_to_animation_05.png
 
 Then, select the 'walkcycle' layer and draw a head and torso (you can use any brush for this).
 
@@ -119,17 +119,17 @@ Now, selecting a new frame will not make a new frame automatically.
 Krita doesn't actually see the 'walkcycle' layer as an animated layer at
 all!
 
-.. image:: /images/en/Introduction_to_animation_06.png
+.. image:: /images/animation/Introduction_to_animation_06.png
 
 We can make it animatable by adding a frame to the timeline. |mouseright| a frame in
 the timeline to get a context menu. Choose :guilabel:`New Frame`.
 
-.. image:: /images/en/Introduction_to_animation_07.png
+.. image:: /images/animation/Introduction_to_animation_07.png
 
 You can see it has become an animated layer because of the onion skin
 icon showing up in the timeline docker.
 
-.. image:: /images/en/Introduction_to_animation_08.png
+.. image:: /images/animation/Introduction_to_animation_08.png
 
 Use the :guilabel:`Copy Frame` button to copy the
 first frame onto the second. Then, use the with :kbd:`Shift + ↑` to move the
@@ -137,19 +137,19 @@ frame contents up.
 
 We can see the difference by turning on the onionskinning:
 
-.. image:: /images/en/Introduction_to_animation_09.png
+.. image:: /images/animation/Introduction_to_animation_09.png
 
 Now, you should see the previous frame as red.
 
 .. warning::
     Krita sees white as a color, not as transparent, so make sure the animation layer you are working on is transparent in the bits where there's no drawing. You can fix the situation by use the :ref:`filter_color_to_alpha` filter, but prevention is best.
 
-.. image:: /images/en/Introduction_to_animation_10.png
+.. image:: /images/animation/Introduction_to_animation_10.png
 
 Future frames are drawn in green,
 and both colors can be configured in the onion skin docker.
 
-.. image:: /images/en/Introduction_to_animation_11.png
+.. image:: /images/animation/Introduction_to_animation_11.png
 
 Now, we're gonna draw the two
 extremes of the walkcycle. These are the pose where both legs are as far
@@ -159,7 +159,7 @@ other pulled in, ready to take the next step.
 Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but here
 comes a tricky bit:
 
-.. image:: /images/en/Introduction_to_animation_12.png
+.. image:: /images/animation/Introduction_to_animation_12.png
 
 :kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy...
 
@@ -169,7 +169,7 @@ comes a tricky bit:
 
 Now then...
 
-.. figure:: /images/en/Introduction_to_animation_13.png
+.. figure:: /images/animation/Introduction_to_animation_13.png
    :width: 580
 
    squashed the timeline docker a bit to save space
@@ -184,14 +184,14 @@ Now then...
 Expanding upon your rough walkcycle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/Introduction_to_animation_14.png
+.. image:: /images/animation/Introduction_to_animation_14.png
 
 You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll move that frame and all others after it
 in one go.
 
 Then draw inbetweens on each frame that you add.
 
-.. image:: /images/en/Introduction_to_animation_16.png
+.. image:: /images/animation/Introduction_to_animation_16.png
 
 You'll find that the more frames you add, the more difficult it becomes to keep track of the onion skins.
 
@@ -200,7 +200,7 @@ can change how many frames are visible at once, by toggling them on the
 top row. The bottom row is for controlling transparency, while below
 there you can modify the colors and extremity of the coloring.
 
-.. image:: /images/en/Introduction_to_animation_15.png
+.. image:: /images/animation/Introduction_to_animation_15.png
 
 Animating with multiple layers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -208,36 +208,36 @@ Animating with multiple layers
 Okay, our walkcycle is missing some hands, let's add them on a separate
 layer. So we make a new layer, and name it hands and...
 
-.. image:: /images/en/Introduction_to_animation_17.png
+.. image:: /images/animation/Introduction_to_animation_17.png
 
 Our walkcycle is gone from the timeline docker! This is a feature
 actually. A full animation can have so many little parts that an
 animator might want to remove the layers they're not working on from the
 timeline docker. So you manually have to add them.
 
-.. image:: /images/en/Introduction_to_animation_18.png
+.. image:: /images/animation/Introduction_to_animation_18.png
 
 You can show any given layer in the timeline by doing |mouseright| on the layer in
 the layer docker, and toggling :guilabel:`Show in Timeline`.
 
-.. image:: /images/en/Introduction_to_animation_19.png
+.. image:: /images/animation/Introduction_to_animation_19.png
 
 Exporting
 ~~~~~~~~~
 
 When you are done, select :menuselection:`File --> Render Animation`.
 
-.. image:: /images/en/Introduction_to_animation_20.png
+.. image:: /images/animation/Introduction_to_animation_20.png
 
 It's recommended to save out your file as a png, and preferably in its
 own folder. Krita can currently only export png sequences.
 
-.. image:: /images/en/Introduction_to_animation_21.png
+.. image:: /images/animation/Introduction_to_animation_21.png
 
 When pressing done, you can see the status of the export in the status
 bar below.
 
-.. image:: /images/en/Introduction_to_animation_22.png
+.. image:: /images/animation/Introduction_to_animation_22.png
 
 The images should be saved out as filenameXXX.png, giving their frame
 number.
@@ -246,7 +246,7 @@ Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux,
 OSX, Windows), or any other gif creator to make a gif out of your image
 sequence:
 
-.. image:: /images/en/Introduction_to_animation_walkcycle_02.gif
+.. image:: /images/animation/Introduction_to_animation_walkcycle_02.gif
 
 For example, you can use
 `VirtualDub <http://www.virtualdub.org/>`__\ (Windows) and open all the
@@ -268,17 +268,17 @@ Pixel Cup male walkcycle)
 
 And we'll use :menuselection:`Image --> Split Image` to split up the sprite sheet.
 
-.. image:: /images/en/Animation_split_spritesheet.png
+.. image:: /images/animation/Animation_split_spritesheet.png
 
 The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical slices and 0 horizontal slices. Give it a proper name and save it as png.
 
 Then, make a new canvas, and select :menuselection:`File --> Import Animation Frames`. This will give you a little window. Select :guilabel:`Add images`. This should get you a file browser where you can select your images.
 
-.. image:: /images/en/Animation_import_sprites.png
+.. image:: /images/animation/Animation_import_sprites.png
 
 You can select multiple images at once.
 
-.. image:: /images/en/Animation_set_everything.png
+.. image:: /images/animation/Animation_set_everything.png
 
 The frames are currently automatically
 ordered. You can set the ordering with the top-left two drop-down boxes.
@@ -294,7 +294,7 @@ Step
 
 Press :guilabel:`OK`, and your animation should be imported as a new layer.
 
-.. image:: /images/en/Animation_import_done.png
+.. image:: /images/animation/Animation_import_done.png
 
 Reference
 ---------

@@ -15,7 +15,7 @@
 Advanced Color Selector
 =======================
 
-.. image:: /images/en/Advancecolorselector.jpg
+.. image:: /images/dockers/Advancecolorselector.jpg
 
 
 As compared to other color selectors in Krita, Advanced color selector provides more control and options to the user. To open Advanced color selector choose :menuselection:`Settings --> Dockers --> Advanced Color Selector`. You can configure this docker by clicking on the little wrench icon on the top left corner. Clicking on the wrench will open a popup window with following tabs and options:
@@ -32,7 +32,7 @@ Here you configure the main selector.
 Type and Shape
 ~~~~~~~~~~~~~~
 
-.. image:: /images/en/Krita_Color_Selector_Types.png
+.. image:: /images/dockers/Krita_Color_Selector_Types.png
 
 Here you can pick the hsx model you'll be using.
 There's a small blurb explaining the characteristic of each model, but let's go into detail:

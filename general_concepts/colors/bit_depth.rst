@@ -28,7 +28,7 @@ Indexed Color
 In older programs, the computer would have per image, a palette that contains a number for each color. The palette size is defined in bits, because the computer can only store data in bit-sizes.
 
  
-.. figure:: /images/en/color_category/Kiki_lowbit.png 
+.. figure:: /images/color_category/Kiki_lowbit.png 
    :figwidth: 453
    :align: center
 
@@ -45,7 +45,7 @@ However, this is not available in Krita. Krita instead works with channels, and 
 Real Color
 ----------
 
-.. figure:: /images/en/color_category/Rgbcolorcube_3.png
+.. figure:: /images/color_category/Rgbcolorcube_3.png
    :figwidth: 800
    :align: center
 

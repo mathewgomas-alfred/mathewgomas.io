@@ -18,7 +18,7 @@ The Perspective Projection tutorial is one of the Kickstarter 2015 tutorial rewa
 
 The tutorial is a bit image heavy, and technical, but I hope the skill it teaches will be really useful to anyone trying to get a grasp on a complicated pose. Enjoy, and don't forget to thank `Raghukamath <http://www.raghukamath.com/>`_ for choosing this topic!
 
-.. figure:: /images/en/category_projection/projection-cube_09.svg 
+.. figure:: /images/category_projection/projection-cube_09.svg 
    :align: center
 
 .. toctree::

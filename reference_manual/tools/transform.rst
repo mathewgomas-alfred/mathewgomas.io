@@ -25,7 +25,7 @@ When you first invoke the tool,  handles will appear at the corners and sides, w
 
 You can fine-tune the transform tool parameters using tool options docker. The parameters are split between five tabs: Free Transform, Warp, Perspective, Cage and Liquify.
 
-.. figure:: /images/en/Transform_Tool_Options.png
+.. figure:: /images/tools/Transform_Tool_Options.png
 
    Free Transform docker 
 
@@ -34,7 +34,7 @@ Free transform
 
 This allows you to do basic rotation, resizing, flipping, and even perspective skewing if you hold :kbd:`Ctrl`. Holding the :kbd:`Shift` key will maintain your aspect ratio throughout the transform.
 
-.. figure:: /images/en/Krita_transforms_free.png 
+.. figure:: /images/tools/Krita_transforms_free.png 
 
    Free transform in action. 
 
@@ -49,7 +49,7 @@ While free transform has some perspective options, the perspective transform all
 
 You can also change the size, shear and position transform while remaining in perspective with the tool-options.
 
-.. figure:: /images/en/Krita_transforms_perspective.png 
+.. figure:: /images/tools/Krita_transforms_perspective.png 
 
    Perspective transform
 
@@ -58,11 +58,11 @@ Warp
 
 Warp allows you to deform the image by dragging from a grid or choosing the dragging points yourself.
 
-.. figure:: /images/en/Transform_Tool_Options_Warp.png
+.. figure:: /images/tools/Transform_Tool_Options_Warp.png
 
    Warp Option
 
-.. figure:: /images/en/Krita_transforms_warp.png 
+.. figure:: /images/tools/Krita_transforms_warp.png 
 
    Free transform in action.
 
@@ -83,7 +83,7 @@ Cage
 
 Create a cage around an image, and when it's closed, you can use it to deform the image. If you have at the least 3 points on the canvas, you can choose to switch between deforming and editing the existing points. 
 
-.. figure:: /images/en/Krita_transforms_cage.png 
+.. figure:: /images/tools/Krita_transforms_cage.png 
 
     Transforming a straight banana to be curved with the cage tool
 
@@ -111,7 +111,7 @@ Then you can move them by pressing the cursor inside the bounding box. Rotating 
 Liquify
 -------
 
-.. image:: /images/en/Transform_Tool_Options_Liquify.png
+.. image:: /images/tools/Transform_Tool_Options_Liquify.png
 
 Like our deform brush, the liquify brush allows you to draw the deformations straight on the canvas.
 
@@ -126,7 +126,7 @@ Offset
 Undo
     Erases the actions of other tools.
 
-.. figure:: /images/en/Krita_transforms_liquefy.png 
+.. figure:: /images/tools/Krita_transforms_liquefy.png 
 
    Liquify used to turn an apple into a pear
 
@@ -145,7 +145,7 @@ Spacing
 Reverse
     Reverses the action, so grow becomes shrink, rotate results in clockwise becoming counter-clockwise.
 
-.. figure:: /images/en/Krita_transforms_deformvsliquefy.png 
+.. figure:: /images/tools/Krita_transforms_deformvsliquefy.png 
 
    liquify on the left and deform brush on the right.
 
@@ -155,7 +155,7 @@ Recursive Transform
 -------------------
 The little spider icon on the lower-left of the transform tool options is the :guilabel:`Recursive Transform`.
 
-.. figure:: /images/en/Krita_transforms_recursive.png
+.. figure:: /images/tools/Krita_transforms_recursive.png
 
     Recursive transform transforms all the layers in the group, so with this apple, both the lineart as the fill will be transformed.
 

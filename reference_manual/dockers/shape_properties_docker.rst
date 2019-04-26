@@ -14,7 +14,7 @@
 Shape Properties Docker
 =======================
 
-.. image:: /images/en/Krita_Shape_Properties_Docker.png
+.. image:: /images/dockers/Krita_Shape_Properties_Docker.png
 
 .. deprecated:: 4.0
 

@@ -17,12 +17,12 @@ Orthographic
 
 Despite the fancy name, you probably know what orthographic is. It is a schematic representation of an object, draw undeformed. Like the following example:
 
-.. image:: /images/en/category_projection/projection-cube_01.svg 
+.. image:: /images/category_projection/projection-cube_01.svg 
    :align: center
 
 This is a rectangle. We have a front, top and side view. Put into perspective it should look somewhat like this:
 
-.. image:: /images/en/category_projection/projection-cube_02.svg 
+.. image:: /images/category_projection/projection-cube_02.svg 
    :align: center
 
 While orthographic representations are kinda boring, they're also a good basis to start with when you find yourself in trouble with a pose. But we'll get to that in a bit.
@@ -34,29 +34,29 @@ Oblique
 
 So, if we can say that the front view is the viewer looking at the front, and the side view is the viewer directly looking at the side. (The perpendicular line being the view plane it is projected on)
 
-.. image:: /images/en/category_projection/projection-cube_03.svg 
+.. image:: /images/category_projection/projection-cube_03.svg 
    :align: center
 
 Then we can get a half-way view from looking from an angle, no?
 
-.. image:: /images/en/category_projection/projection-cube_04.svg 
+.. image:: /images/category_projection/projection-cube_04.svg 
    :align: center
 
 If we do that for a lot of different sides…
 
-.. image:: /images/en/category_projection/projection-cube_05.svg 
+.. image:: /images/category_projection/projection-cube_05.svg 
    :align: center
 
 And we line up the sides we get a…
 
-.. image:: /images/en/category_projection/projection-cube_06.svg 
+.. image:: /images/category_projection/projection-cube_06.svg 
    :align: center
 
 But cubes are boring. I am suspecting that projection is so ignored because no tutorial applies it to an object where you actually might NEED projection. Like a face.
 
 First, let's prepare our front and side views:
 
-.. image:: /images/en/category_projection/projection_image_01.png 
+.. image:: /images/category_projection/projection_image_01.png 
    :align: center
 
 I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap Image Bounds` active via :kbd:`Shift` + :kbd:`S`
@@ -65,12 +65,12 @@ Then, by moving the mirror to the left, you can design a front view from the sid
 
 Eventually, you should have something like this: 
 
-.. image:: /images/en/category_projection/projection_image_02.png 
+.. image:: /images/category_projection/projection_image_02.png 
    :align: center
 
 And of course, let us not forget the top, it's pretty important:
 
-.. image:: /images/en/category_projection/projection_image_03.png 
+.. image:: /images/category_projection/projection_image_03.png 
    :align: center
 
 .. tip::
@@ -79,12 +79,12 @@ And of course, let us not forget the top, it's pretty important:
 
 The top view works as a method for debugging your orthos as well. If we take the red line to figure out the orthographics from, we see that our eyes are obviously too inset. Let's move them a bit more forward, to around the nose.
 
-.. image:: /images/en/category_projection/projection_image_04.png 
+.. image:: /images/category_projection/projection_image_04.png 
    :align: center
 
 If you want to do precision position moving in the tool options docker, just select 'position' and the input box for the X. Pressing down then moves the transformed selection left. With Krita 3.0 you can just use the move tool for this and the arrow keys. Using transform here can be more convenient if you also have to squash and stretch an eye.
 
-.. image:: /images/en/category_projection/projection_image_05.png 
+.. image:: /images/category_projection/projection_image_05.png 
    :align: center
 
 We fix the top view now. Much better.
@@ -92,24 +92,24 @@ We fix the top view now. Much better.
 For faces, the multiple slices are actually pretty important. So important even, that I have decided we should have these slices on separate layers. Thankfully, I chose to color them, so all we need to do is go to :menuselection:`Layer --> Split Layer`
 .
 
-.. image:: /images/en/category_projection/projection_image_06.png 
+.. image:: /images/category_projection/projection_image_06.png 
    :align: center
 
 This'll give you a few awkwardly named layers… rename them by selecting all and mass changing the name in the properties editor:
 
-.. image:: /images/en/category_projection/projection_image_07.png 
+.. image:: /images/category_projection/projection_image_07.png 
    :align: center
 
 So, after some cleanup, we should have the following:
 
-.. image:: /images/en/category_projection/projection_image_08.png 
+.. image:: /images/category_projection/projection_image_08.png 
    :align: center
 
 Okay, now we're gonna use animation for the next bit.
 
 Set it up as follows:
 
-.. image:: /images/en/category_projection/projection_image_09.png 
+.. image:: /images/category_projection/projection_image_09.png 
    :align: center
 
 * Both front view and side view are set up as 'visible in timeline' so we can always see them.
@@ -117,34 +117,34 @@ Set it up as follows:
 * Side view has its visible frame on frame 23 and an empty view on frame 0.
 * The end of the animation is set to 23.
 
-.. image:: /images/en/category_projection/projection_image_10.png 
+.. image:: /images/category_projection/projection_image_10.png 
    :align: center
 
 Krita can't animate a transformation on multiple layers on multiple frames yet, so let's just only transform the top layer. Add a semi-transparent layer where we draw the guidelines.
 
 Now, select frame 11 (halfway), add new frames from front view, side view and the guidelines. And turn on the onion skin by toggling the lamp symbols. We copy the frame for the top view and use the transform tool to rotate it 45°.
 
-.. image:: /images/en/category_projection/projection_image_11.png 
+.. image:: /images/category_projection/projection_image_11.png 
    :align: center
 
 So, we draw our vertical guides again and determine a in-between...
 
-.. image:: /images/en/category_projection/projection_image_12.png 
+.. image:: /images/category_projection/projection_image_12.png 
    :align: center
 
 This is about how far you can get with only the main slice, so rotate the rest as well.
 
-.. image:: /images/en/category_projection/projection_image_13.png 
+.. image:: /images/category_projection/projection_image_13.png 
    :align: center
 
 And just like with the cube, we do this for all slices…
 
-.. image:: /images/en/category_projection/projection_image_14.png 
+.. image:: /images/category_projection/projection_image_14.png 
    :align: center
 
 Eventually, if you have the top slices rotate every frame with 15°, you should be able to make a turn table, like this:
 
-.. image:: /images/en/category_projection/projection_animation_01.gif 
+.. image:: /images/category_projection/projection_animation_01.gif 
    :align: center
 
 Because our boy here is fully symmetrical, you can just animate one side and flip the frames for the other half.

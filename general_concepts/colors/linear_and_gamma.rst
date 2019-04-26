@@ -21,7 +21,7 @@ Our eyes do not perceive linearly. Rather, we find it more easy to distinguish b
 
 As humans are the ones using computers, we have made it so that computers will give more room to darker values in the coordinate system of the image. We call this 'gamma-encoding', because it is applying a gamma function to the TRC or transfer function of an image. The TRC in this case being the Tone Response Curve or Tone Reproduction Curve or Transfer function (because color management specialists hate themselves), which tells your computer or printer how much color corresponds to a certain value.
 
-.. figure:: /images/en/color_category/Pepper_tonecurves.png
+.. figure:: /images/color_category/Pepper_tonecurves.png
    :align: center
    :figwidth: 800
    
@@ -29,7 +29,7 @@ As humans are the ones using computers, we have made it so that computers will g
 
 The following table shows how there's a lot of space being used by lighter values in a linear space compared to the default sRGB TRC of our modern computers and other TRCs available in our delivered profiles:
 
-.. image:: /images/en/color_category/trc_gray_gradients.svg
+.. image:: /images/color_category/trc_gray_gradients.svg
    :align: center
 
 If you look at linear of rec 709 TRCs, you can see there's quite a jump between the darker shades and the lighter shades, while if we look at the Lab L* TRC or the sRGB TRC, which seem more evenly spaced.
@@ -39,7 +39,7 @@ However, this modification to give more space to darker values does lead to wonk
 
 We can see this with the following experiment:
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_blending_1.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_blending_1.png
    :figwidth: 500
    :align: center
    
@@ -49,7 +49,7 @@ Colored circles, half blurred. In a gamma-corrected environment, this gives an o
 
 This also counts for Krita's color smudge brush:
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_blending_2.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_blending_2.png
    :figwidth: 500
    :align: center
    
@@ -85,14 +85,14 @@ We then average these coordinates over three mixes:
 But to figure out how these colors look on screen, we first put the individual values through the TRC of the color-space we're working with:
 
 
-.. image:: /images/en/color_category/Basicreading3trcsv2.svg  
+.. image:: /images/color_category/Basicreading3trcsv2.svg  
    :width: 800
    :align: center
 
 
 Then we fill in the values into the correct spot. Compare these to the values of the mixture table above!
 
-.. image:: /images/en/color_category/red_green_mixes_trc.svg
+.. image:: /images/color_category/red_green_mixes_trc.svg
    :align: center
 
 
@@ -102,7 +102,7 @@ In case this still doesn't make sense: *sRGB gives largely* **darker** *values t
 So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear TRC, a mix using sRGB TRC and a mix using LAB L* TRC.
 
 
-.. image:: /images/en/color_category/3trcsresult.png 
+.. image:: /images/color_category/3trcsresult.png 
    :width: 800
    :align: center
 

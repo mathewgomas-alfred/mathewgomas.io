@@ -16,7 +16,7 @@
 Display Settings
 ================
 
-.. image:: /images/en/Krita_Preferences_Display.png
+.. image:: /images/preferences/Krita_Preferences_Display.png
 
 Here various settings for the rendering of Krita can be edited.
 

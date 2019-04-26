@@ -41,7 +41,7 @@ Emboss with Variable depth
 
 Embosses with a depth that can be set through the dialog box shown below.
 
-.. image:: /images/en/Emboss-variable-depth.png
+.. image:: /images/filters/Emboss-variable-depth.png
 
 Emboss Horizontal and Vertical
 ------------------------------

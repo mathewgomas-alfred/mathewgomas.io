@@ -73,11 +73,11 @@ Display Modes
 In the bottom left-hand corner of the status bar there is a button to toggle how the selection is displayed. The two display modes are the following: (Marching) Ants and Mask. The red color with Mask can be changed in the preferences. You can edit the color under :menuselection:`Settings --> Configure Krita --> Display --> Selection Overlay`. If there is no selection,
 this button will not do anything.
 
-.. image:: /images/en/Ants-displayMode.jpg
+.. image:: /images/selection/Ants-displayMode.jpg
 
 Ants display mode (default) is best if you want to see the areas that are not selected.
 
-.. image:: /images/en/Mask-displayMode.jpg
+.. image:: /images/selection/Mask-displayMode.jpg
 
 Mask display mode is good if you are interested in seeing the various transparency levels for your selection. For example, when you have a selection with very soft edges due using feathering.
 
@@ -90,7 +90,7 @@ Global Selection Mask (Painting a Selection)
 
 The global Selection Mask is your selection that appears on the layers docker. By default, this is hidden, so you will need to make it visible via :menuselection:`Select --> Show Global Selection Mask`.
 
-.. image:: /images/en/Global-selection-mask.jpg
+.. image:: /images/selection/Global-selection-mask.jpg
 
 Once the global Selection Mask is shown, you will need to create a selection. The benefit of using this is that you can paint your
 selection using any of the normal painting tools, inlcuding the transform and move. The information is saved as grayscale.
@@ -115,7 +115,7 @@ Pixel and Vector Selection Types
 
 Vector selections allow you to modify your selection with vector anchor tools. Pixel selections allow you to modify selections with pixel information. They both have their benefits and disadvantages. You can convert one type of selection to another.
 
-.. image:: /images/en/Vector-pixel-selections.jpg
+.. image:: /images/selection/Vector-pixel-selections.jpg
 
 When creating a selection, you can select what type of selection you want from the Mode in the selection tool options: Pixel or Vector. By default this will be a vector.
 

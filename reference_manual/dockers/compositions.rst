@@ -18,7 +18,7 @@ Compositions
 
 The compositions docker allows you to save the configurations of your layers being visible and invisible, allowing you to save several configurations of your layers.
 
-.. image:: /images/en/Composition-docker.png
+.. image:: /images/dockers/Composition-docker.png
 
 Adding new compositions
     You do this by setting your layers as you wish, then pressing the plus sign.

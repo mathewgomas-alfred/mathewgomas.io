@@ -14,7 +14,7 @@
 Animation Docker
 ================
 
-.. image:: /images/en/Animation_docker.png
+.. image:: /images/dockers/Animation_docker.png
 
 To have a playback of the animation, you need to use the animation docker.
 

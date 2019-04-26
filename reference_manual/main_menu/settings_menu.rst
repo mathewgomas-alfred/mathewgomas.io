@@ -90,7 +90,7 @@ Configure Toolbars
 
 Krita allows you to highly customize the Toolbar interface.  You can add, remove and change the order of nearly everything to fit your style of work.  To get started, choose :menuselection:`Settings --> Configure Toolbars`
 
-.. image:: /images/en/Configure_Toolbars_Krita.png 
+.. image:: /images/preferences/Configure_Toolbars_Krita.png 
    :align: center
 
 The dialog is broken down into three main sections:
@@ -106,7 +106,7 @@ Use the arrows between the *Available* and *Current* actions sections to move it
 
 Here we've added :menuselection:`Select Opaque` , :menuselection:`Local Selection` ,  :menuselection:`Transparency Mask` , :guilabel:`Isolate Layer` , :menuselection:`Show Assistant Previews` .  This is just an example of a couple of options that are used frequently and might trim your workflow.   This is what it looks like in the configuration tool:
 
-.. image:: /images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png 
+.. image:: /images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png 
    :align: center
 
 You'll notice that some of the items are text only and some only icons.  This is determined by whether the particular item has an associated icon in Krita.  You can select anything from the *Available* section and move it to the *Current* one and rearrange to fit your own workflow.  
@@ -118,7 +118,7 @@ Toolbars shown.
 
 At this time Krita does not support the ability to create additional toolbars. The ones available are:
 
-.. image:: /images/en/Toolbars_Shown.png 
+.. image:: /images/preferences/Toolbars_Shown.png 
    :align: center
 
 Although not really advisable, you can turn them off (but why would you..really?)

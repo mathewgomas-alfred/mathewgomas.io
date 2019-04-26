@@ -47,7 +47,7 @@ this:
 Tour of the brush settings drop-down
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: /images/en/Krita_4_0_Brush_Settings_Layout.svg
+.. image:: /images/brushes/Krita_4_0_Brush_Settings_Layout.svg
    :width: 800
 
 The brush settings drop-down is divided into six areas,
@@ -115,7 +115,7 @@ Save New Brush Preset
 Save new preset will call up the following window, with a mini scratch
 pad, and all sorts of options to change the preset icon:
 
-.. image:: /images/en/Krita_4_0_Save_New_Brush_Preset_Dialog.png
+.. image:: /images/brushes/Krita_4_0_Save_New_Brush_Preset_Dialog.png
 
 The image on the left is a mini scratchpad, you can draw on it with the
 current brush, allowing small modifications on the fly.
@@ -141,7 +141,7 @@ The Icon Library
 
 To make making presets icons faster, Krita got an icon library.
 
-.. image:: /images/en/Krita_4_0_Preset_Icon_Library_Dialog.png
+.. image:: /images/brushes/Krita_4_0_Preset_Icon_Library_Dialog.png
 
 It allows you to select tool icons, and an optional small emblem. When
 you press :guilabel:`OK` it will load the resulting combination into the mini
@@ -285,7 +285,7 @@ Curves Calculation Mode
 
 It's maybe better to see with the following example:
 
-.. image:: /images/en/Krita_4_0_brush_curve_calculation_mode.png
+.. image:: /images/brushes/Krita_4_0_brush_curve_calculation_mode.png
 
 The first two are regular, the rest with different multiplication types.
 
@@ -310,7 +310,7 @@ Temporarily Save Tweaks to Preset (Dirty Presets)
     to default. Dirtied presets can be recognized by the icon in the
     top-left of the preset. 
 
-    .. figure:: /images/en/Krita_4_0_dirty_preset_icon.png
+    .. figure:: /images/brushes/Krita_4_0_dirty_preset_icon.png
        :figwidth: 450
 
        The icon in the top left of the first two presets indicate it is “Dirty”, meaning there are tweaks made to the preset.

@@ -24,7 +24,7 @@ Dodge
 
 An image-wide dodge-filter. Dodge is named after a trick in traditional dark-room photography that gave the same results.
 
-.. image:: /images/en/Dodge-filter.png
+.. image:: /images/filters/Dodge-filter.png
 
 Shadows
     The effect will mostly apply to dark tones.
@@ -42,7 +42,7 @@ Burn
 
 An image-wide burn-filter. Burn is named after a trick in traditional dark-room photography that gave similar results.
 
-.. image:: /images/en/Burn-filter.png
+.. image:: /images/filters/Burn-filter.png
 
 Shadows
     The effect will mostly apply to dark tones.
@@ -61,7 +61,7 @@ Levels
 This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. You can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
 The default shortcut for levels filter is :kbd:`Ctrl + L` .
 
-.. image:: /images/en/Levels-filter.png
+.. image:: /images/filters/Levels-filter.png
 
 This is very useful to do an initial cleanup of scanned lineart or grayscale images. If the scanned lineart is light you can slide the black triangle to right to make it darker or if you want to remove the gray areas you can slide the white slider to left.
 
@@ -80,7 +80,7 @@ This is used very often by artists as a post processing filter to slightly heigh
 
     Since 4.1 this filter can also handle Hue and Saturation curves.
 
-.. image:: /images/en/Color-adjustment-curve.png
+.. image:: /images/filters/Color-adjustment-curve.png
 
 .. index:: ! Cross Channel Color Adjustment, Driving Adjustment by channel
 
@@ -95,7 +95,7 @@ The Cross-channel color adjustment filter allows you to do this.
 
 At the top, there are two drop-downs. The first one is to choose which :guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop down is what channel you use to control which parts are modified.
 
-.. image:: /images/en/cross_channel_filter.png
+.. image:: /images/filters/cross_channel_filter.png
 
 The curve, on the horizontal axis, represents the driver channel, while the vertical axis represent the channel you wish to modify.
 
@@ -120,7 +120,7 @@ Color Balance
 This filter allows you to control the color balance of the image by adjusting the sliders for Shadows, Midtones and Highlights.
 The default shortcut for this filter is :kbd:`Ctrl + B` .
 
-.. image:: /images/en/Color-balance.png
+.. image:: /images/filters/Color-balance.png
 .. index:: Saturation, Desaturation, Gray
 
 Desaturate
@@ -129,7 +129,7 @@ Desaturate
 Image-wide desaturation filter. Will make any image Grayscale.
 Has several choices by which logic the colors are turned to gray. The default shortcut for this filter is :kbd:`Ctrl + Shift + U` .
 
-.. image:: /images/en/Desaturate-filter.png
+.. image:: /images/filters/Desaturate-filter.png
 
 Lightness
     This will turn colors to gray using the HSL model.
@@ -166,7 +166,7 @@ HSV/HSL Adjustment
 
 With this filter, you can adjust the Hue, Saturation, Value or Lightness, through sliders. The default shortcut for this filter is :kbd:`Ctrl + U` .
 
-.. image:: /images/en/Hue-saturation-filter.png
+.. image:: /images/filters/Hue-saturation-filter.png
 
 .. index:: Threshold, Black and White
 
@@ -184,7 +184,7 @@ A different kind of color balance filter, with three color selectors, which will
 
 This filter is particular useful because it has been defined by the American Society for Cinema as "ASC_CDL", meaning that it is a standard way of describing a color balance method.
 
-.. image:: /images/en/Krita_filters_asc_cdl.png
+.. image:: /images/filters/Krita_filters_asc_cdl.png
    :width: 800
    :align: center
 

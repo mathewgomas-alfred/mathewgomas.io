@@ -27,7 +27,7 @@ A Tour of the Krita Interface
 
 As we've said before, the Krita interface is very malleable and the way that you choose to configure the work surface may not resemble those shown below, but we can use these as a starting point.
 
-.. image:: /images/en/Interface-tour.svg
+.. image:: /images/Interface-tour.svg
    :width: 1000
    :align: center
 
@@ -75,7 +75,7 @@ Sliders
 -------
 Krita uses these to control values like brush size, opacity, flow, Hue, Saturation, etc... Below is an example of a Krita slider.
 
-.. image:: /images/en/Krita_Opacity_Slider.png
+.. image:: /images/Krita_Opacity_Slider.png
 
 The total range is represented from left to right and blue bar gives an indication of where in the possible range the current value is. Clicking anywhere, left or right, of that slider will change the current number to something lower (to the left) or higher (to the right).
 
@@ -85,7 +85,7 @@ Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller 
 
 Toolbars
 --------
-.. image:: /images/en/Krita_Toolbar.png
+.. image:: /images/Krita_Toolbar.png
 
 Toolbars are where some of the important actions and menus are placed so that they are readily and quickly available for the artist while painting.
 
@@ -97,12 +97,12 @@ Workspace Chooser
 
 The button on the very right of the Toolbar is the workspace chooser. This allows you to load and save common configurations of the user interface in Krita. There are a few common workspaces that come with Krita.
 
-.. image:: /images/en/workspace-chooser-button.svg
+.. image:: /images/workspace-chooser-button.svg
 
 Pop-up Palette
 --------------
 
-.. image:: /images/en/Krita-popuppalette.png
+.. image:: /images/Krita-popuppalette.png
    :align: center
 
 :ref:`Pop-up Palette <pop-up_palette>` is a feature unique to Krita, designed to increase the productivity of the artist. It is a circular menu for quickly choosing brushes, foreground and background colors, recent colors while painting. To access the palette you have to just |mouseright| on the canvas. The palette will spawn at the position of the brush tip or cursor.

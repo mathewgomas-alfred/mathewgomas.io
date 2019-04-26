@@ -29,7 +29,7 @@ This tool works in conjunction with the colorize mask, and the usage is as follo
 
 For this example, we'll be using the ghost lady also used to explain masks on :ref:`the basic concepts page <basic_concepts>`.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_01.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_01.png
    :width: 800
    :align: center 
 
@@ -38,37 +38,37 @@ This image has the line art for the lady separated from the background, and what
 First, select the colorize mask editing tool while having the line art layer selected. |mouseleft| the canvas will add a colorize mask to the layer.
 You can also |mouseright| the line art layer, and then :menuselection:`Add --> Colorize Mask`. The line art will suddenly become really weird, this is the prefiltering which are filters through which we put the line art to make the algorithm easier to use. The tool options overview below shows which options control that.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_02.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_02.png
    :width: 800
    :align: center
 
 Now, you make strokes with brush colors, press :guilabel:`Update` in the tool options, or tick the last icon of the colorize mask properties. In the layer docker, you will be able to see a little progress bar appear on the colorize mask indicating how long it takes. The bigger your file, the longer it will take.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_03.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_03.png
    :width: 800
    :align: center
 
 We want to have the blue transparent. In the tool options of the colorize editing tool you will see a small palette. These are the colors already used. You can remove colors here, or mark a single color as standing for transparent, by selecting it and pressing "transparent". Updating the mask will still show the blue stroke, but the result will be transparent:
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_04.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_04.png
    :width: 800
    :align: center
 
 Because the colorize mask algorithm is slow, and we only need a part of our layer to be filled to fill the whole ghost lady figure, we can make use of :guilabel:`Limit to layer bounds`. This will limit Colorize Mask to use the combined size of the line art and the coloring key strokes. Therefore, make sure that the colorizing keystrokes only take up as much as they really need.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_05.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_05.png
    :width: 800
    :align: center
 
 Now the algorithm will be possibly a lot faster, allowing us to add strokes and press :guilabel:`Update` in rapid succession:
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_06.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_06.png
    :width: 800
    :align: center
 
 To see the final result, disable :guilabel:`Edit Key Strokes` or toggle the second to last icon on the colorize mask.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_07.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_07.png
    :width: 800
    :align: center
 
@@ -78,13 +78,13 @@ Now, the colorize mask, being a mask, can also be added to a group of line art l
 
 To add a colorize mask to a group, select the group and |mouseleft| the canvas with the Colorize Mask editing tool, or |mouseright| the layer to :menuselection:`Add --> Colorize Mask`.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_08.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_08.png
    :width: 800
    :align: center
 
 Now, we add strokes to the background quickly. We do not need to use the :menuselection:`Limit to Layer Bounds` because the background covers the whole image.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_09.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_09.png
    :width: 800
    :align: center
 
@@ -92,19 +92,19 @@ For the record, you can use other brushes and tools also work on the colorize ma
 
 Out final result looks like this:
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_10.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_10.png
    :width: 800
    :align: center
 
 Now we are done, |mouseright| the colorize mask and :menuselection:`Convert --> to Paint Layer`. Then, :menuselection:`Layer --> Split --> Split Layer`. This will give separate color islands that you can easily edit:
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_11.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_11.png
    :width: 800
    :align: center
 
 This way we can very quickly paint the image. Due to the colorize mask going from the first image to the following took only 30 minutes, and would've taken quite a bit longer.
 
-.. image:: /images/en/Krita_4_0_colorize_mask_usage_12.png
+.. image:: /images/tools/Krita_4_0_colorize_mask_usage_12.png
    :width: 800
    :align: center
 
@@ -120,7 +120,7 @@ Edit key strokes
 Show output
     Show the output of the colorize mask. If :guilabel:`Edit key strokes` is active, this will be shown semi-transparently, so it will be easy to recognize the difference between the strokes and the output.
     
-    .. figure:: /images/en/Krita_4_0_colorize_mask_show_output_edit_strokes.png
+    .. figure:: /images/tools/Krita_4_0_colorize_mask_show_output_edit_strokes.png
        :width: 800
        :align: center
        
@@ -131,7 +131,7 @@ Limit to layer bounds
 Edge detection
     Activate this for line art with large solid areas, for example shadows on an object. For the best use, set the value to the thinnest lines on the image. In the image below, note how edge detection affects the big black areas:
 
-    .. figure:: /images/en/Krita_4_0_colorize_mask_edge_detection.png
+    .. figure:: /images/tools/Krita_4_0_colorize_mask_edge_detection.png
        :width: 800
        :align: center
    
@@ -140,7 +140,7 @@ Edge detection
 Gap close hint
     While the algorithm is pretty good against gaps in contours, this will improve the gap recognition. The higher this value is, the bigger the gaps it will try to close, but a too high value can lead to other errors. Note how the prefiltered line art (that's the blurry haze) affects the color patches.
     
-    .. figure:: /images/en/Krita_4_0_colorize_mask_gap_close_hint.png
+    .. figure:: /images/tools/Krita_4_0_colorize_mask_gap_close_hint.png
        :width: 800
        :align: center
        
@@ -148,7 +148,7 @@ Gap close hint
 Clean up
     This will attempt to handle messy strokes that overlap the line art where they shouldn't. At 0 no clean up is done, at 100% the clean-up is most aggressive.
 
-    .. image:: /images/en/Krita_4_0_colorize_mask_clean_up.png
+    .. image:: /images/tools/Krita_4_0_colorize_mask_clean_up.png
        :width: 800
        :align: center
 

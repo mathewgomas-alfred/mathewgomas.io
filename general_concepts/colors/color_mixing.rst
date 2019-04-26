@@ -28,7 +28,7 @@ On-canvas mixing techniques are ones where multiple colors are combined directly
 Glazing
 ~~~~~~~
 
-.. image:: /images/en/color_category/Color_gloss.gif
+.. image:: /images/color_category/Color_gloss.gif
    :align: center
 
 
@@ -40,22 +40,22 @@ We can mix even more easily with glazing when we set our brush's **flow** to a l
 
 Furthermore, we can combine glazing with various **blending modes** to achieve different, interesting effects. For example, glazing with the **multiply** blending mode to create nice shadows:
 
-.. image:: /images/en/color_category/Color_gloss_example_1.png
+.. image:: /images/color_category/Color_gloss_example_1.png
    :align: center
 
 Staring with line art and base colors.
 
-.. image:: /images/en/color_category/Color_gloss_example_2.png
+.. image:: /images/color_category/Color_gloss_example_2.png
    :align: center
 
 Using a semi-transparent brush that's set to multiply, we can add colored layers to suggest shadows and mid-tones. The multiply blending mode will darken and interact with each base color differently.
 
-.. image:: /images/en/color_category/Color_gloss_example_3.png
+.. image:: /images/color_category/Color_gloss_example_3.png
    :align: center
 
 Then, using a brush with low flow (~0.30), we can pick the resulting colors and lay down more layers. Not only does this help you define the different planes and forms that are so crucial for creating a sense of depth and three-dimensionality, it also gives quite a nice, painterly effect!
 
-.. image:: /images/en/color_category/Color_gloss_example_4.png
+.. image:: /images/color_category/Color_gloss_example_4.png
    :align: center
 
 
@@ -64,7 +64,7 @@ Continue with a lower opacity and flow to create even smoother gradients. Make y
 Smudging
 ~~~~~~~~
 
-.. image:: /images/en/color_category/Color_mix.gif
+.. image:: /images/color_category/Color_mix.gif
    :align: center
 
 
@@ -72,7 +72,7 @@ Smudging
 
 If you *remove all paint from a smudge brush*, you get a simple-yet-powerful smudge effect:
 
-.. image:: /images/en/color_category/Color_smudge.gif
+.. image:: /images/color_category/Color_smudge.gif
    :align: center
 
 
@@ -83,12 +83,12 @@ Scumbling
 
 **Scumbling** is similar to glazing, except instead of having a semi-opaque layer, we use layers of **textured** or **patterned** paint.
 
-.. image:: /images/en/color_category/Color_scumble2.gif
+.. image:: /images/color_category/Color_scumble2.gif
    :align: center
 
 Like most painting programs, Krita allows you to pick a :ref:`option_brush_tip`, which can be used to create a textured effect like that of scumbling.
 
-.. image:: /images/en/color_category/Color_scumble.gif
+.. image:: /images/color_category/Color_scumble.gif
    :align: center
 
 
@@ -110,7 +110,7 @@ Krita, like almost every art and graphics program, has a :ref:`color_picker_tool
 
 And still, there is more to this little tool than meets the eye! Not only can you configure Krita's color picker to sample from the average color of a **radius** of pixels, Krita's Color Picker also has a unique **blending** feature: a powerful and intuitive tool for off-canvas color mixing!
 
-.. image:: /images/en/color_category/Krita_cpb_mixing.gif
+.. image:: /images/color_category/Krita_cpb_mixing.gif
    :align: center
 
 
@@ -131,7 +131,7 @@ The Digital Colors Mixer
 
 Somewhat hidden away in the **Dockers** menu (:menuselection:`Settings --> Dockers --> Digital Colors Mixer`), this can be a useful tool for off-canvas mixing. The Digital Colors Mixer looks a little bit like an audio mixing board that you'd see in a recording studio, but instead of mixing music it mixes colors! It contains 6 independent **color mixers** that mix your current brush color with any color of your choosing.
 
-.. image:: /images/en/color_category/Digi_colormixer.png
+.. image:: /images/color_category/Digi_colormixer.png
    :align: center
 
 

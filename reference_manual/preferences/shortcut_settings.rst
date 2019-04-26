@@ -27,7 +27,7 @@ Shortcut List
 Load/Save Shortcuts Profiles
     The bottom row of buttons contains commands for exporting and import keyboard shortcuts.
 
-.. image:: /images/en/Krita_Configure_Shortcuts.png
+.. image:: /images/preferences/Krita_Configure_Shortcuts.png
 
 Configuration
 -------------

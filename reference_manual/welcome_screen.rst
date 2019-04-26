@@ -17,7 +17,7 @@ When you open Krita, starting from version 4.1.3, you will be greeted by a welco
 This screen makes it easy for you to get started with Krita, as it provides a collection
 of shortcuts for the most common tasks that you will probably be doing when you open Krita.
 
-.. image:: /images/en/welcome_screen.png
+.. image:: /images/welcome_screen.png
    :width: 800
 
 The screen is divided into 4 sections:

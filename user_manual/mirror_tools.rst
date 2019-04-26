@@ -17,7 +17,7 @@ Mirror Tools
 
 Draw on one side of a mirror line while the Mirror Tool copies the results to the other side. The Mirror Tools are accessed along the toolbar. You can move the location of the mirror line by grabbing the handle.
 
-.. image:: /images/en/Mirror-tool.png
+.. image:: /images/Mirror-tool.png
 
 Mirror Tools give a similar result to the :ref:`multibrush_tool`, but unlike the Multibrush which only traces brush strokes like the :ref:`freehand_brush_tool`, the Mirror Tools can be used with any other tool that traces strokes, such as the :ref:`line_tool` and the :ref:`path_tool`, and even with the Multibrush Tool.
 

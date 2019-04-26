@@ -66,7 +66,7 @@ Transparency
 
 So one of the things that throw a lot of Paint Tool Sai users off is that Krita uses checkers to display transparency, which is actually not that uncommon. Still, if you want to have the canvas background to be white, this is possible. Just choose :guilabel:`Background: As Canvas Color` in the new image dialogue and the image background will be white. You can turn it back to transparent via :menuselection:`Image --> Change image background color`. If you export a PNG or JPG, make sure to uncheck :guilabel:`Save transparency` and to make the background color white (it's black by default).
 
-.. image:: /images/en/Krita-color-to-alpha.png
+.. image:: /images/filters/Krita-color-to-alpha.png
    :align: center
 
 Like Sai, you can quickly turn a black and white image to black and transparent with the :menuselection:`Color to Alpha Filter` under :menuselection:`Filters --> Colors --> Color to Alpha`.
@@ -129,7 +129,7 @@ More color selectors
 
 You can have HSV sliders, RGB sliders, triangle in a hue ring. But you can also have HSI, HSL or HSY' sliders, CMYK sliders, palettes, round selectors, square selectors, tiny selectors, big selectors, color history and shade selectors. Just go into :menuselection:`Settings --> Configure Krita --> Advanced Color Selector Settings` to change the shape and type of the main big color selector.
 
-.. image:: /images/en/Krita_Color_Selector_Types.png
+.. image:: /images/dockers/Krita_Color_Selector_Types.png
    :align: center
 
 You can call the color history with :kbd:`H`, common colors with :kbd:`U` and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. The big selector can be called with :kbd:`Shift + I` on canvas.
@@ -144,7 +144,7 @@ Multibrush, Mirror Symmetry and Wrap Around
 
 These tools allow you to quickly paint a mirrored image, mandala or tiled texture in no time. Useful for backgrounds and abstract vignettes.
 
-.. image:: /images/en/Krita-multibrush.png
+.. image:: /images/tools/Krita-multibrush.png
    :align: center
 
 Assistants
@@ -152,7 +152,7 @@ Assistants
 
 The painting assistants can help you to set up a perspective, or a concentric circle and snap to them with the brush.
 
-.. figure:: /images/en/Krita_basic_assistants.png
+.. figure:: /images/assistants/Krita_basic_assistants.png
    :alt: Krita's vanishing point assistants in action
    :width: 800
 
@@ -173,7 +173,7 @@ Color Management
 
 This allows you to prepare your work for print, or to do tricks with the LUT docker so you can diagnose your image better. For example, using the LUT docker to turn the colors grayscale in a separate view, so you can see the values instantly.
 
-.. image:: /images/en/Krita-view-dependant-lut-management.png
+.. image:: /images/Krita-view-dependant-lut-management.png
    :align: center
 
 Advanced Transform Tools
@@ -181,7 +181,7 @@ Advanced Transform Tools
 
 Not just rotate and scale, but also cage, wrap, liquify and non-destructive transforms with the transform tool and masks.
 
-.. image:: /images/en/Krita_transforms_recursive.png
+.. image:: /images/tools/Krita_transforms_recursive.png
    :align: center
 
 More Filters and non-destructive filter layers and masks
@@ -189,7 +189,7 @@ More Filters and non-destructive filter layers and masks
 
 With filters like color balance and curves you can make easy shadow layers. In fact, with the filter layers and layer masks you can make them apply on the fly as you draw underneath.
 
-.. image:: /images/en/Krita_ghostlady_3.png
+.. image:: /images/Krita_ghostlady_3.png
    :align: center
 
 Pop-up palette
@@ -197,7 +197,7 @@ Pop-up palette
 
 This is the little circular thing that is by default on the right click. You can organize your brushes in tags, and use those tags to fill up the pop-up palette. It also keeps a little color selector and color history, so you can switch brushes on the fly.
 
-.. image:: /images/en/Krita-popuppalette.png
+.. image:: /images/Krita-popuppalette.png
    :align: center
 
 What does Krita lack compared to Paint Tool Sai?

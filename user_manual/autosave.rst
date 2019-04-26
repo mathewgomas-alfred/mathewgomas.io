@@ -46,7 +46,7 @@ AutoSave is what happens when you've worked for a bit and not saved your work yo
 
 If you close Krita without saving, your unsaved work is lost and cannot be retrieved. Closing Krita normally also means that autosave files are removed.
 
-.. image:: /images/en/file_config_page.png
+.. image:: /images/file_config_page.png
 
 There are two possibilities:
 
@@ -64,7 +64,7 @@ A hidden autosave file will be named like ``.krita-12549-document_1-autosave.kra
 
 If Krita crashes before you had saved your file, then the next time you start Krita, you will see the file in a dialog that shows up as soon as Krita starts. You can select to restore the files, or to delete them. 
 
-.. image:: /images/en/autosave_unnamed_restore.png
+.. image:: /images/autosave_unnamed_restore.png
 
 If Krita crashed, and you're on Windows and your ``%TEMP%`` folder gets cleared, you will have lost your work. Windows does not clear the ``%TEMP%`` folder by default, but you can enable this feature in Settings. Applications like Disk Cleanup or cCleaner will also clear the ``%TEMP%`` folder. Again, if Krita crashes, and you haven't saved your work, and you have something enabled that clear your ``%TEMP%`` folder, you will have lost your work.
 
@@ -83,7 +83,7 @@ By default, named AutoSave files are hiden. Named AutoSave files are placed in t
 
 If you start Krita again after it crashed and try to open your original file, Krita will ask you whether to open the AutoSave file instead:
 
-.. image:: /images/en/autosave_named_restore.png
+.. image:: /images/autosave_named_restore.png
 
 If you choose "no", the AutoSave file will be removed. The work done since the last time you saved your file yourself is lost and cannot be retrieved.
 
@@ -111,13 +111,13 @@ If you have opened a file, made changes, then save it, or save a new file after 
 
 You can disable this mechanism in the File tab of the General Settings page of the Configure Krita dialog, which is in the Settings menu (Linux, Windows) or in the Application menu (macOS). By default, Backup files are enabled. 
 
-.. image:: /images/en/file_config_page.png
+.. image:: /images/file_config_page.png
 
 By default, a Backup file will be in the same folder as your original file. You can also choose to save Backup files in the User folder or the ``%TEMP%`` folder; this is not as safe because if you edit two files with the same name in two different folders, their backups will overwrite each other.
 
 By default, a Backup file will have ``~`` as suffix, to distinguish it from an ordinary file. If you are using Windows, you will have to enable "show file extensions" in Windows Explorer to see the extension. 
 
-.. image:: /images/en/file_and_backup_file.png
+.. image:: /images/file_and_backup_file.png
 
 If you want to open the Backup file, you will have to rename it in your file manager. Make sure the extension ends with ``.kra``.
 
@@ -128,7 +128,7 @@ Incremental Backup Files
 
 Incremental Backup files are similar to ordinary Backup files: the last saved state is copied to another file just before saving. However, instead of overwriting the Backup file, the Backup files are numbered:
 
-.. image:: /images/en/save_incremental_backup.png
+.. image:: /images/save_incremental_backup.png
 
 Use this when you want to keep various known good states of your image throughout your painting process. This takes more disk space, of course.
 
@@ -139,4 +139,4 @@ Incremental Version Files
 
 Incremental Version works a bit like Incremental Backup, but it leaves the original files alone. Instead it will save a new file with a file number:
 
-.. image:: /images/en/save_incremental_version.png
+.. image:: /images/save_incremental_version.png

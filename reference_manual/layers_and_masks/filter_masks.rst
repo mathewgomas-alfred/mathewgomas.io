@@ -17,13 +17,13 @@ Filter Masks
 
 Filter masks show an area of their layer with a filter (such as blur, levels, brightness / contrast etc.). For example, if you select an area of a paint layer and add a Filter Layer, you will be asked to choose a filter. If you choose the blur filter, you will see the area you selected blurred.
 
-.. image:: /images/en/Krita_ghostlady_2.png
+.. image:: /images/Krita_ghostlady_2.png
    :width: 800
    :align: center
 
 With filter masks, we can for example make this ghost-lady more ethereal by putting a clone layer underneath, and setting a lens-blur filter on it.
 
-.. image:: /images/en/Krita_ghostlady_3.png
+.. image:: /images/Krita_ghostlady_3.png
    :width: 800
    :align: center
 

@@ -15,7 +15,7 @@
 Patterns Docker
 ===============
 
-.. image:: /images/en/Krita_Patterns_Docker.png
+.. image:: /images/dockers/Krita_Patterns_Docker.png
 
 This docker allows you to select the global pattern. Using the open-file button you can import patterns. Some common shortcuts are the following:
 

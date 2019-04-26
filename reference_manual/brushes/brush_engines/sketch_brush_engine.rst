@@ -45,7 +45,7 @@ Line Width
 
 The width of the rendered lines.
 
-.. image:: /images/en/Krita_2_9_brushengine_sketch_linewidth.png
+.. image:: /images/brushes/Krita_2_9_brushengine_sketch_linewidth.png
 
 .. _option_offset_scale:
 
@@ -58,9 +58,9 @@ When curve lines are formed, this value roughly determines the distance from the
 * 0% and 100% correspond to the curve lines touching the connection lines exactly.
 * Above 100%, the curve lines will go further than the connection lines, forming a fuzzy effect.
 
-.. image:: /images/en/Krita_2.9_brushengine_sketch_offset.png
+.. image:: /images/brushes/Krita_2.9_brushengine_sketch_offset.png
 
-.. image:: /images/en/Krita-sketch_offset_scale2.png
+.. image:: /images/brushes/Krita-sketch_offset_scale2.png
 
 .. _option_sketch_density:
 
@@ -69,7 +69,7 @@ Density
 
 The density of the lines. This one is highly affected by the Brush-tip, as determined by the Distance Density toggle.
 
-.. image:: /images/en/Krita_2.9_brushengine_sketch_density.png
+.. image:: /images/brushes/Krita_2.9_brushengine_sketch_density.png
 
 Use Distance Density
     The further the line covered is from the center of the area of effect, the less the density of the resulting curve lines. 

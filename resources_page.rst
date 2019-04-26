@@ -22,55 +22,55 @@ Brush Packs
 
 .. list-table::
 
-        * - .. figure:: /images/en/resource_packs/Resources-deevadBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-deevadBrushes.jpg
                :target: https://github.com/Deevad/deevad-krita-brushpresets
                
                David Revoy
-          - .. figure:: /images/en/resource_packs/Resources-mirandaBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-mirandaBrushes.jpg
                :target: https://drive.google.com/open?id=1hrH4xzMRwzV0SBEt2K8faqZ_YUX-AdyJ
                
                Ramon Miranda
-          - .. figure:: /images/en/resource_packs/Resources-conceptBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-conceptBrushes.jpg
                :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
                
                Concept art & Illustration Pack
-        * - .. figure:: /images/en/resource_packs/Resources-aldyBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-aldyBrushes.jpg
                :target: http://al-dy.deviantart.com/art/Aldys-Brush-Pack-for-Krita-196128561
                
                Al-dy
-          - .. figure:: /images/en/resource_packs/Resources-vascoBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-vascoBrushes.jpg
                :target: https://vascobasque.com/modular-brushset/
                
                Vasco Basqué
-          - .. figure:: /images/en/resource_packs/Resources-meemodrawsBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-meemodrawsBrushes.jpg
                :target: http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
                
                Meemodraws
-        * - .. figure:: /images/en/resource_packs/Resources-stalcryBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-stalcryBrushes.jpg
                :target: http://stalcry.deviantart.com/art/Krita-Custom-Brushes-350338351
                
                Stalcry
-          - .. figure:: /images/en/resource_packs/Resources-woltheraBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-woltheraBrushes.jpg
                :target: https://forum.kde.org/viewtopic.php?f=274&t=125125
                
                Wolthera
-          - .. figure:: /images/en/resource_packs/Resources-nylnook.jpg
+          - .. figure:: /images/resource_packs/Resources-nylnook.jpg
                :target: http://nylnook.com/en/blog/krita-brushes-pack-v2/
                
                Nylnook
-        * - .. figure:: /images/en/resource_packs/Resources-hushcoilBrushes.png
+        * - .. figure:: /images/resource_packs/Resources-hushcoilBrushes.png
                :target: http://hushcoil.tumblr.com/kritabrushes/
                
                Hushcoil
-          - .. figure:: /images/en/resource_packs/Resources-raghukamathBrushes.png
+          - .. figure:: /images/resource_packs/Resources-raghukamathBrushes.png
                :target: https://github.com/raghukamath/krita-brush-presets
                
                Raghukamath
-          - .. figure:: /images/en/resource_packs/Resources-GDQuestBrushes.jpeg
+          - .. figure:: /images/resource_packs/Resources-GDQuestBrushes.jpeg
                :target: https://github.com/GDquest/free-krita-brushes/releases/
                
                GDQuest
-        * - .. figure:: /images/en/resource_packs/Resources-iForce73Brushes.png
+        * - .. figure:: /images/resource_packs/Resources-iForce73Brushes.png
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
           -
           
@@ -81,11 +81,11 @@ Texture Packs
 
 .. list-table::
 
-        * - .. figure:: /images/en/resource_packs/Resources-deevadTextures.jpg
+        * - .. figure:: /images/resource_packs/Resources-deevadTextures.jpg
                :target: https://www.davidrevoy.com/article156/texture-pack-1
                
                David Revoy
-          - .. figure:: /images/en/resource_packs/Resources-deevadTextures2.jpg
+          - .. figure:: /images/resource_packs/Resources-deevadTextures2.jpg
                :target: https://www.davidrevoy.com/article263/five-traditional-textures
 
                David Revoy
@@ -95,7 +95,7 @@ External tutorials
 
 .. list-table::
 
-        * - .. figure:: /images/en/resource_packs/simon_pixel_art_course.png
+        * - .. figure:: /images/resource_packs/simon_pixel_art_course.png
                :target: https://www.udemy.com/learn-to-create-pixel-art-from-zero/?couponCode=OTHER_75
                
                Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy

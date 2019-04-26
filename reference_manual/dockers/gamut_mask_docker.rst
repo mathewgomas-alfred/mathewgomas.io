@@ -15,7 +15,7 @@
 Gamut Masks Docker
 ==================
 
-.. image:: /images/en/Krita_Gamut_Mask_Docker.png
+.. image:: /images/dockers/Krita_Gamut_Mask_Docker.png
 
 .. versionadded:: 4.2
 
@@ -68,7 +68,7 @@ Description
 
  The mask is intended to be composed of basic vector shapes. Although interesting results might arise from using advanced vector drawing techniques, not all features are guaranteed to work properly (e.g. grouping, vector text, etc.).
 
-.. image:: /images/en/Krita_Gamut_Mask_Docker_2.png
+.. image:: /images/dockers/Krita_Gamut_Mask_Docker_2.png
 
 External Info
 -------------

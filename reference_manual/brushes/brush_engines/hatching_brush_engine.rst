@@ -34,7 +34,7 @@ The brush tip simply defines the area where the hatching will be rendered.
 * Vary the brush shape or texture for a variety of effects. Decreasing the density of the autobrush will give a grainy texture to your hatching, for example.
 * The :guilabel:`Size` dynamic affects the brush tip, not the hatching thickness.
 
-.. image:: /images/en/Krita-tutorial8-A.I.1.png
+.. image:: /images/brushes/Krita-tutorial8-A.I.1.png
 
 Hatching preferences
 ~~~~~~~~~~~~~~~~~~~~
@@ -49,7 +49,7 @@ The three options are:
 
 The output is slightly different depending on whether the first two options are checked, but the difference isn't enough for you to worry about. I recommend just keeping the first two options checked.
 
-.. image:: /images/en/Krita-tutorial8-A.I.2.png
+.. image:: /images/brushes/Krita-tutorial8-A.I.2.png
 
 Hatching options
 ~~~~~~~~~~~~~~~~
@@ -71,7 +71,7 @@ This is where the main hatching options go. They're intuitive enough:
   
 * Origin X and Origin Y: The hatching has a fixed location, painting acts as though you're revealing the existing hatching underneath. To nudge the hatching, you can tweak these two values. You can get various grid effects this way.
 
-.. image:: /images/en/Krita-tutorial8-A.I.3-1.png
+.. image:: /images/brushes/Krita-tutorial8-A.I.3-1.png
 
 Finally, we have the hatching styles:
 
@@ -86,7 +86,7 @@ The Crosshatching dynamic only works if you have already chosen a crosshatching 
 * With most hatching styles, using crosshatching dynamics basically gets you the same hatching style, minus the occasional line.
 * The exception is with Moire, which will produce a different pattern.
 
-.. image:: /images/en/Krita-tutorial8-A.I.3-2.png
+.. image:: /images/brushes/Krita-tutorial8-A.I.3-2.png
 
 Use cases
 ---------
@@ -104,4 +104,4 @@ Now for the uses:
 * Now, the Moiré pattern is quite boring on its own, but it is much more interesting with Crosshatching dynamics set on Fuzzy.
 * For more texture, set Line Thickness to Fuzzy, decrease Density a bit and increase Randomness and you get a nice gritty texture.
 
-.. image:: /images/en/Krita-tutorial8-A.II.png
+.. image:: /images/brushes/Krita-tutorial8-A.II.png

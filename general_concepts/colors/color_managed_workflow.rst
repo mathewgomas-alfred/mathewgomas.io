@@ -41,14 +41,14 @@ The following results come from painting:
 
 Even though all groups had the same assignment, each group's result looks different.
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_group1.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_group1.png
    :figwidth: 500
    :align: center
 
 
 Group 1 had vermillion red, citron yellow and ultramarine blue to their disposal. This means their triangle looks nice and red, but their circle's green is muddy. This is because ultramarine is too dark of a blue to create nice greens with.
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_group2.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_group2.png
    :figwidth: 500
    :align: center
 
@@ -56,14 +56,14 @@ Group 1 had vermillion red, citron yellow and ultramarine blue to their disposal
 Group 2 had magenta red, citron yellow and cerulean blue. Magenta is a type of red that is closer to pink, opposed to vermillion, which is closer to orange. However, their green looks nice because cerulean is a much lighter blue.
 
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_group3.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_group3.png
    :figwidth: 500
    :align: center
 
 
 Group 3 had vermillion red, citron yellow, emerald green and cerulean blue. They didn't mix their green, and thus ended up with a purer color.
 
-.. figure:: /images/en/color_category/Krita_2_9_colormanagement_group4.png
+.. figure:: /images/color_category/Krita_2_9_colormanagement_group4.png
    :figwidth: 500
    :align: center
 
@@ -103,7 +103,7 @@ Color managed workflow
 
 Knowing this about these spaces of course doesn't give you an idea of how to use them, but it does make it easier to explain how to use them. So let us look at a typical color management workflow:
 
-.. figure:: /images/en/color_category/Krita-colormanaged-workflow_text.svg
+.. figure:: /images/color_category/Krita-colormanaged-workflow_text.svg
    :figwidth: 800
    :align: center
 
@@ -126,7 +126,7 @@ Therefore, without a profiled monitor, you actually don't know what the actual c
 So what does this mean?
 -----------------------
 
-.. figure:: /images/en/color_category/Krita-colormanaged-workflow_krita_text.svg
+.. figure:: /images/color_category/Krita-colormanaged-workflow_krita_text.svg
    :figwidth: 300
    :align: right
    
@@ -152,7 +152,7 @@ An ICC profile is a set of coordinates describing the extremities of the device 
 Matrix Shaper profiles.
     These are delivered alongside Krita. Matrix shaper profiles are made by setting parameters and interpolating between these to get the exact size of the color space. Due to this, Krita's color space browser can give you a lot of information on these profiles. Such profiles are also preferable as working space.
     
-    .. figure:: /images/en/color_category/Kiki_matrix_profile.png 
+    .. figure:: /images/color_category/Kiki_matrix_profile.png 
        :figwidth: 500
        :align: center
 
@@ -161,7 +161,7 @@ Matrix Shaper profiles.
 cLUT profiles
     These are fairly rare, and primarily used to describe printer profiles, such as CMYK. cLUT, or Color Look-up Table profiles store far more data than Matrix shaper profiles, so they can hold data of little particularities caused by, for example, unexpected results from mixing pigments. This is a far more organic approach to describing a color space, hence why a lot of programs that don't care for color management much don't support these.
     
-    .. figure:: /images/en/color_category/Kiki_cLUTprofiles.png 
+    .. figure:: /images/color_category/Kiki_cLUTprofiles.png 
        :figwidth: 500
        :align: center
 
@@ -188,7 +188,7 @@ LUT docker and HDR imaging
 --------------------------
 
 
-.. figure:: /images/en/LUT_Management_Docker.png
+.. figure:: /images/dockers/LUT_Management_Docker.png
    :figwidth: 300
    :align: center
 
@@ -200,7 +200,7 @@ You can set the workingspace of the image under input color space, and the displ
 Component, exposure, gamma, whitepoint and blackpoint are knobs which allows you to modify the display filter.
 
 
-.. figure:: /images/en/color_category/Krita_HDR_1.svg
+.. figure:: /images/color_category/Krita_HDR_1.svg
    :figwidth: 800
    :align: center
 
@@ -216,7 +216,7 @@ This means that there's potentially blacker blacks than screen black, and white 
 The LUT docker allows us to control this display-filter and modify the distortion. This is useful when we start modifying images that are made with scene referred values, such as HDR photos, or images coming out of a render engine.
 
 
-.. figure:: /images/en/color_category/Krita_HDR2.svg
+.. figure:: /images/color_category/Krita_HDR2.svg
    :figwidth: 800
    :align: center
 
@@ -310,7 +310,7 @@ Webcomic
 ~~~~~~~~
 
 
-.. image:: /images/en/color_category/Krita-colormanaged-workflow_webcomic.svg
+.. image:: /images/color_category/Krita-colormanaged-workflow_webcomic.svg
    :width: 800
    :align: center
 
@@ -332,7 +332,7 @@ For the final for the web, convert the image to sRGB 8bit, srgbtrc, do not embed
 Print
 ~~~~~
 
-.. image:: /images/en/color_category/Krita-colormanaged-workflow_print.svg
+.. image:: /images/color_category/Krita-colormanaged-workflow_print.svg
    :width: 800
    :align: center
 
@@ -350,7 +350,7 @@ You can set the advanced color selector to transform to a given profile via :men
 Games
 ~~~~~
 
-.. image:: /images/en/color_category/Krita-colormanaged-workflow_games.svg
+.. image:: /images/color_category/Krita-colormanaged-workflow_games.svg
    :width: 800
    :align: center
 

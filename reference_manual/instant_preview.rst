@@ -23,7 +23,7 @@ Activating Instant Preview
     
     Instant Preview requires OpenGL 3.0 support at minimum. So if you don't have :guilabel:`high-quality` scaling available in :menuselection:`Settings --> Configure Krita --> Display --> Display scaling filter`, then you won't be able to use Instant Preview either.
     
-.. figure:: /images/en/Lod_position.png
+.. figure:: /images/brushes/Lod_position.png
    :align: right
     
    The Global Instant Preview toggle is under the view menu
@@ -40,7 +40,7 @@ When you check the brush settings, the Instant Preview checkbox will have a \* b
     
     |mouseleft| this pop-up will give a slider, which can be used to determine the threshold size at which instant preview activates. By default this 100px. This is useful for brushes that are optimised to work on small sizes.
 
-.. figure:: /images/en/Lod_position2.png
+.. figure:: /images/brushes/Lod_position2.png
    :figwidth: 500
    :align: center
    

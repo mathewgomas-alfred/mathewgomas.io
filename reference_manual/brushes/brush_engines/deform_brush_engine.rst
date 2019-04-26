@@ -37,7 +37,7 @@ Options
 Deform Options
 --------------
 
-.. figure:: /images/en/Krita_deform_brush_examples.png
+.. figure:: /images/brushes/Krita_deform_brush_examples.png
 
     1: undeformed, 2: Move, 3: Grow, 4: Shrink, 5: Swirl Counter Clock Wise, 6: Swirl Clockwise, 7: Lens Zoom In, 8: Lens Zoom Out
 
@@ -60,14 +60,14 @@ Lens Zoom In
 Lens Zoom Out
     Paints a minimized version of the area.
 
-.. figure:: /images/en/Krita_deform_brush_colordeform.png
+.. figure:: /images/brushes/Krita_deform_brush_colordeform.png
 
     Showing color deform.
 
 Deform Amount
     Defines the strength of the deformation.
 
-.. figure:: /images/en/Krita_deform_brush_bilinear.png
+.. figure:: /images/brushes/Krita_deform_brush_bilinear.png
     
     Bilinear Interpolation
 
@@ -76,7 +76,7 @@ Bilinear Interpolation
 Use Counter
     Slows down the deformation subtlety.
 
-.. figure:: /images/en/Krita_deform_brush_useundeformed.png
+.. figure:: /images/brushes/Krita_deform_brush_useundeformed.png
 
     Without 'use undeformed' to the left and with to the right
     

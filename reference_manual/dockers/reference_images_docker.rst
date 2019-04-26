@@ -20,9 +20,9 @@ Reference Images Docker
     
     This docker was removed in Krita 4.0 due to crashes on Windows. :ref:`The reference images tool in 4.1 replaces it. <reference_images_tool>`
 
-.. image:: /images/en/400px-Krita_Reference_Images_Browse_Docker.png
+.. image:: /images/dockers/400px-Krita_Reference_Images_Browse_Docker.png
 
-.. image:: /images/en/400px-Krita_Reference_Images_Image_Docker.png
+.. image:: /images/dockers/400px-Krita_Reference_Images_Image_Docker.png
 
 This docker allows you to pick an image from outside of Krita and use it as a reference. Even better, you can pick colors from it directly.
 
