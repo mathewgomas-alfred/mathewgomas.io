@@ -10,6 +10,10 @@
              - Lundin
    :license: GNU free documentation license 1.3 or later.
 
+.. outline: - components in krita related to animation.
+            - How to understand animation in krita
+            - making a walkcycle in Krita
+
 .. index:: Animation
 .. _animation:
 
@@ -25,22 +29,6 @@ is there.
 To access the animation features, the easiest way is to change your
 workspace to Animation. This will make the animation dockers and
 workflow appear.
-
-.. note::
-
-    .. versionadded:: 4.1
-
-        The Timeline docker looks a bit different from the screenshots shown in this tutorial, however you should be able to follow it if you take care to select options mentioned in text.
-
-Animation curves
-----------------
-
-To create an animation curve (currently only for opacity) expand the
-:guilabel:`New Frame` button in the :guilabel:`Animation` dock and click :guilabel:`Add Opacity
-Keyframe`. You can now edit the keyframed value for opacity directly in
-the “Layers” dock, adding more keyframes will by default fade from the
-last to the next upcoming keyframe in the timeline over the frames
-between them. See :ref:`animation curves <animation_curves_docker>` for details.
 
 Workflow
 ---------
@@ -61,6 +49,35 @@ For this workflow, there are three important dockers:
 #. The :ref:`onion_skin_docker`. This docker controls
    the look of the onion skin, which in turn is useful for seeing the
    previous frame.
+#. The :ref:`animation_curves_docker`. This docker allows you to do minor
+   tweening for animation curves.
+
+Furthermore, especially when you want to do a big animation, that is, any animation longer than 3 seconds, you will need to think about how you are going to approach this. Krita is specialised in frame by frame animation, and because of this Krita keeps all the frames in memory. This means that animation files will eat up all of your computer's working memory(RAM). If you don't know what working memory is, you probably have too little to do a long sequence in Krita. Therefore, you need to take a page from professional animation and do some planning!
+
+Typically, most animation projects start with a script or at the very least an outline of actions that will happen. You can do this in any kind of text editor you like. The next step is to create a *Story Board*. They are sketches of the basic composition of each scene, with some extra notes on what is going to move, like camera movement, character movement, notes on audio, notes on color. These seem closer to a comic than an animation, but the key difference between the two is that in comics the composition is made to help the reader move their eyes over the page, while in animation the viewer's eyes will stay in relatively the same spot, so consequetive storyboard frames will have their most important elements in relatively the same place. If that seems a little abstract, don't worry. You can make a story board by using the animation functions, but the key here is that you use as little frames as possible. Export the story board using the render animation option.
+
+Then, the next step is to make an *animatic*. An animatic is basically the storyboard, but then animated. You are best off doing this in a video editor like KDENLive or Openshot, or even windows movie maker. If you want to put everything together into one big animation you will need to learn how to use such a program to begin with, as Krita doesn't have extensive video and audio montage functions.
+
+Doing the animatic will allow you to see how the animation can be subdivided into small clips. If you are just starting out, you are best off limiting yourself to 12 frames per second. Then, a 10 second clip would be 120 frames. Try to figure out if you can subdivide your animation idea into clips of 10 seconds or shorter. You can import the story board frames associated with a specific clip by going to :menuselection:`File --> Import Animation Frames`. From there, slowly start building up your animation. During the sketching phase it may also help to work on a low resolution, like 800x450 pixels. High resolution only starts mattering when you are doing line art, after all. And it will be hard to get to that point if you don't even have a rough outline.
+
+Always keep an eye on the memory consumption. You can see the memory consumption in the status bar, by clicking the resolution label. This label should also have a little progress bar that shows how much memory Krita is using at this moment. Don't let the memory bar get full: it will lead to Krita slowing down and sometimes it might even mean Krita won't be able to export the animation on your specific machine. You can reduce memory consumption by:
+
+#. Merging together layers. Yes, you cannot afford to have a layer for every single change. Often, the less layers, the better.
+#. In some cases by going to :menuselection:`Image --> Crop Layers to Image Size`, this will crop all layers to remove sections that are outside the canvas.
+#. Rarely, certain layers don't need to be full color, especially if they're just black and white. You can then go to :menuselection:`Layers --> Convert --> Convert Layer Color Space` and convert the layer to a grayscale one. This will half the amount of RAM this specific layer will take up.
+#. Working smaller. Even if you imagined yourself animating in the 4K resolution, you might need to accept your computer just cannot handle this. Try going a step lower, on animations, even a 20% reduction can make a huge difference in memory consumption, while not being a huge difference in resolution.
+
+Also watch out that other programs on your computer aren't hogging all the RAM. Webbrowsers and chat programs tend to be the biggest culprits here, especially if you are streaming music or videos. If you are hurting for memory, see if you can get these functions to work on a seperate device like a phone instead.
+
+Another thing you will want to do is make a ton of backups. Every time you hit an important section with an animation, like you finished the line art, or you did a pretty tricky section, you will want to use :menuselection:`File --> Incremental Backup` to make a seperate copy of the current file to continue working in. This way, if the animation file gets corrupt, which could happen due a power outage, or a cat jumping on the keyboard, you will still have a snapshot of the last important section. Other backup techniques, like copying the files to a cloud service, or to a backup harddrive are also very recommended.
+
+.. tip::
+
+   And while we're at it, whenever you've hit a milestone, don't forget to take a break as well! Doing big projects like animations take a lot of effort and concentration, so taking breaks is important to recharge yourself.
+
+When you are done, you will want to use :guilabel:`Render Animation` again. Now either export a frame sequence or a small video file, and then compose all of the frame sequences and video files together in the video editor. Then you can render it to webm, and upload it to your favorite video hosting website.
+
+This may all seem a little complicated, but if your computer doesn't have a lot of resources, you have got to be be resourceful yourself!
 
 Introduction to animation: How to make a walkcycle
 --------------------------------------------------
