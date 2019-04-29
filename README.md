@@ -64,7 +64,9 @@ Send translation to editor
 You can use a free translation tool like https://localise.biz/free/poeditor to edit PO files.
 Watch out. This program might add a 'zxx' as the language to the outputted PO file. That will need to be corrected if that happens. Translators can send you back the PO files when they are done. We have a command that can turn them into MO files later, so translators don't have to worry about that.
 
-Images can be translated if a language wants to provide their own images. All the images are stored in the images folder on the project root. The images are separated out by language. For the finished PO file, the translator will need to provide an image file, and a translation for the image that references the correct location in the PO file. Many images won't need a translation, so images can be left untranslated or just the alternate text can be translated.
+Images can be translated if a translation team wants to provide their own images. All images in the image folder are by default for 'en'. When you want to translate a specific image, go into that folder and add another folder with your language code to add in the translated versions of images. So Sphinx will search for a dutch version of `/images/Pixels-brushstroke.png` at `/images/nl/Pixels-brushstroke.png` and for a dutch version of `/images/dockers/Krita-tutorial2-I.1-2.png` in `/images/dockers/nl/Krita-tutorial2-I.1-2.png`.
+
+Many images won't need a translation, so images can be left untranslated or just the alternate text can be translated.
 
 
 

@@ -13,8 +13,9 @@
 .. Website shorthands. Sphinx/reStructuredText prefers it if you use shorthands when repeating websites.
 
 .. _phabricator : https://phabricator.kde.org
+.. _KDE_gitlab : https://invent.kde.org/
 .. _Manual Project Workboard : https://phabricator.kde.org/project/view/135/
-.. _repository : https://phabricator.kde.org/source/websites-docs-krita-org/
+.. _repository : https://invent.kde.org/websites/docs-krita-org/tree/master
 .. _bugzilla : https://bugs.kde.org/   
    
 .. _krita_manual_contributors_guide:
@@ -87,29 +88,24 @@ If you are not familiar with Git
     3. Explain what you did and use drag and drop to move the zip file to the input textbox. That should upload it. We will also need the email address you associate with your kde identity account.
     4. Then, if the changes are accepted, someone with commit access will unpack those files into the manual folder and push the differences using the mail address.
 
-If you are familiar with Git
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating merge requests with gitlab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This one is a bit technical, but much more comfortable for the manual maintainers. If you have a lot of changes you want to contribute, we recommend trying to follow these instructions.
 
-1. Get the source from the `repository`_ using :program:`Git` clone
-2. Make changes
-3. Build locally (optional)
-4. Generate a git diff.
+#. Get a KDE identity.
+#. Login to `KDE_gitlab`_.
+#. Go to the `repository`_ and press :guilabel:`fork`, and clone into the namespace of your nickname.
+#. You should be redirected to the fork of your repository now. Typically it's located at ``invent.kde.org/YOUR_KDE_LOGIN_NAME/docs-krita-org``.
+#. Now, there's two options to edit your fork of the manual.
 
-   Go to the source directory in your terminal and write ``git diff > ../mydiff.diff`` this will make a diff file in the folder above.
+    If you are comfortable with git, you can clone the repository locally with :guilabel:`git clone`. The repository page has the urls you can perform git clone from, and you can then push to your fork. The advantage of this is that you can use all the tools on your computer to edit these text files as well as build the manual locally to check for errors.
 
-5. Create a review request on phabricator
+    If you are not comfortable with git, gitlab has the web IDE. To access this, go to :menuselection:`repository --> files` and there click :guilabel:`web IDE`. Find the files and make your changes. Then when done press 'commit', then :guilabel:`stage all changes` and write a nice message in the commit section with the changes your made. The downside is that right now there's no way to tell if you made errors with the mark up using this method.
 
-   1. Login into `phabricator`_ with your identity account.
-   2. Go to differential.
-   3. Upper-right --> "Star" menu --> Create Review Request.
-   4. Upload the diff you made, select the correct repository (``websites-docs-krita-org``, easier to find with ``Krita.org Documentation Website``, *make sure you do not select docs-kde-org!*).
-   5. Confirm the file is correct.
-   6. Then in the next screen:
+#. Finally, go to the original repository, and then to merge request. Select the fork that you made your changes in and make a merge request. Label the request with ``Needs Review``, that way the manual maintainers know your changes are ready to be reviewed and possibly merged.
+#. You might get feedback on your merge request if it has mistakes. Just fix the mistakes in your branch, gitlab will update the merge request, and then mark the merge request with ``Ǹeeds Review`` again.
 
-        1. Add in Title/Short Summary.
-        2. Tell us what you changed in the summary.
-        3. (Optional) put your email in the comment if you want attribution.
-        4. Phabricator has a system that automatically tags the review request with the Krita Manual team.
+For more detailed information, check out :ref:`forking_gitlab` in the technical section.
 
 General philosophy
 ------------------
@@ -254,7 +250,7 @@ Faulty pages
 
 If a page slips through the cracks, either...
 
-* Make a review request per the :ref:`making_changes_sphinx` section.
+* Make a merge request per the :ref:`making_changes_sphinx` section.
 * Make a task at the `Manual Project Workboard`_.
 * Make a bug at `bugzilla`_ under the project Krita in the section 'documentation'.
 
@@ -263,19 +259,19 @@ Proofreading
 
 There are two types of proofreading that needs to be done.
 
-The most important one is **reviewing changes people make**. You can do this on phabricator in two ways:
+The most important one is **reviewing changes people make**. You can do this on `KDE_gitlab`_ in two ways:
 
-1. Reviewing patches in differential.
+1. Reviewing merge requests
 
-    Reviewing patches is done in differential. Patch reviewing is usually done by programmers to find mistakes in each other's code, but because programming code is text based just like regular text, we can use patch reviewing to check against typos as well!
+   You can help review merge requests. request reviewing is usually done by programmers to find mistakes in each other's code, but because programming code is text based just like regular text, we can use this to check against typos as well!
 
-    A patch, or diff, is an amount of changes done in a document (added, removed) put into a machine readable file. When someone submits a review request (on system like gitlab or github this is a merge or pull request), people who maintain the original files will have to look them over and can make comments about things needing to change. This allows them to comment on things like typos, over-complicated writing but also things that are incorrect. After a patch has been accepted it can be pushed into the version control system.
+    A merge request, is an amount of changes done in a document (added, removed) put into a machine readable file. When someone submits a review request (on system like gitlab or github this is a merge or pull request), people who maintain the original files will have to look them over and can make comments about things needing to change. This allows them to comment on things like typos, over-complicated writing but also things that are incorrect. After a patch has been accepted it can be pushed into the version control system.
 
-2. Auditing changes in the manual.
+2. Commenting on changes in the manual.
 
-    Auditing changes happens after the fact. You can audit a change by going to the commit message (from the repository page, go to history and then click on an entry), where you will be able to make comments on the changes made.
+    Commenting changes happens after the fact. You can comment on a change by going to the commit message (from the repository page, go to history and then click on an entry), where you will be able to make comments on the changes made.
 
-In both cases, the interface consists of the difference being shown, with on the left the old version, and on the right the new version. Lines that have been added will be marked in green while lines that have been removed will be marked with red. You can click a line to add an 'inline' comment. Usually, when reviewing you go over the whole set of changes making comments where needed. To submit the inline comments, go to the bottom here you can add a general comment. When you submit the general comment all the inline comments will be submitted along side of it.
+In both cases, the interface consists of the difference being shown, with on the left the old version, and on the right the new version. Lines that have been added will be marked in green while lines that have been removed will be marked with red. You can click a speech bubble icon to add an 'inline' comment.
 
 The second major way the manual needs to be proofread is **over the whole file**. Many of the pages have only been checked for correctness but not for style and grammar.
 
@@ -287,6 +283,8 @@ Translating
 Translation of the manual is handled by the `KDE localization community <https://l10n.kde.org/>`_. To join the translation effort, go to the localization site, select the list of `translation teams <https://l10n.kde.org/teams-list.php>`_, select the language you wish to translate for, and follow the instructions on the team page to get in contact with fellow translators.
 
 The localization team has access to the PO files for this manual, which is a file type used by translation programs like POEdit and Lokalize. A translation team is able to work together on translating these files and uploading them to the translations SVN. A special script will then take the translations from the SVN and bring them to the manual section to be incorporated on a daily basis.
+
+Images can be translated if a translation team wants to provide their own images. All images in the image folder are by default for 'en'. When you want to translate a specific image, go into that folder and add another folder with your language code to add in the translated versions of images. So Sphinx will search for a dutch version of :file:`/images/Pixels-brushstroke.png` at :file:`/images/nl/Pixels-brushstroke.png` and for a dutch version of :file:`/images/dockers/Krita-tutorial2-I.1-2.png` in :file:`/images/dockers/nl/Krita-tutorial2-I.1-2.png`.
 
 Finished translations also need to be added to the build script to show up online. Translator teams which are confident in the state of their translation should contact the main Krita team via the kimageshop mailinglist(kimageshop@kde.org), or foundation@krita.org, to accomplish this.
 
