@@ -29,7 +29,7 @@ Opacity
 Flow
     The transparency of separate dabs. Finally separated from Opacity in 2.9
 
-.. image:: /images/brushes/Krita_2_9_brushengine_opacity-flow_01.png
+.. image:: /images/brushes/Krita_4_2_brushengine_opacity-flow_01.svg
 
 
 .. versionchanged:: 4.2
