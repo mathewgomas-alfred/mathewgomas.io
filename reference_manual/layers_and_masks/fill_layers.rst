@@ -31,6 +31,8 @@ Color
 Simplex Noise
     .. versionadded:: 4.2
     
+    .. image:: /images/layers/fill_layer_simplex_noise.png
+    
     A noise generator that isn't Perline Noise (which is what typical 'clouds' generation is), but it looks similar and can actually loop. Uses the OpenSimplex code.
     
     Looping
