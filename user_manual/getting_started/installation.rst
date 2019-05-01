@@ -19,23 +19,33 @@ Installation
 
 Windows
 -------
-Windows users can download the latest releases from our `website. <https://krita.org/download/>`_ Click on the **All Download Versions**
-link in the download page to get either 64bit or 32bit according to the architecture of your OS. To determine the achitecture
-go to **Windows Control Panel** then click on the **System Icon**, your system type will be listed under the system section.
+Windows users can download Krita from the website, the Windows Store, or Steam.
 
-We also provide paid versions of Krita for windows platform. You will get automatic updates when new versions of Krita comes out.
-After deduction of the Store fee, the money will support Krita development. For the Windows store version you will need Windows 10.
-Please check these links for windows as well as steam stores —
+The versions on the Store and Steam cost money, but are `functionally identical
+<https://krita.org/en/item/krita-available-from-the-windows-store/>`_ to the
+(free) website version. Unlike the website version, however, both paid versions
+get automatic updates when new versions of Krita comes out. After deduction of
+the Store fee, the purchase cost supports Krita development.
 
-- `Windows Store <https://www.microsoft.com/en-us/store/p/krita/9n6x57zgrw96>`_
-- `Steam Store <https://store.steampowered.com/app/280680/Krita_Gemini/>`_
+Website:
+    The latest version is always on our `website <https://krita.org/download/>`_.
+
+    The page will try to automatically recommend the correct architecture (64- or 32-bit), but you can select "All Download Versions" to get more choices. To determine your computer architecture manually, go to :menuselection:`Settings --> About`. Your architecture will be listed as the :guilabel:`System Type` in the :guilabel:`Device Specifications` section.
+        
+    Krita by default downloads an **installer EXE**, but you can also download a **portable zip-file** version instead. Unlike the installer version, this portable version does not show previews in Windows Explorer automatically. To get these previews with the portable version, also install Krita's **Windows Shell Extension** extension (available on the download page).
+
+    These files are also available from the `KDE download directory <http://download.kde.org/stable/krita/>`_.
+Windows Store:
+    For a small fee, you can download Krita `from the Windows Store <https://www.microsoft.com/store/productId/9N6X57ZGRW96>`_. This version requires Windows 10.
+Steam:
+    For a small fee, you can also download Krita `from Steam <https://store.steampowered.com/app/280680/Krita/>`_. 
 
 
 To download a portable version of Krita go to the `KDE <http://download.kde.org/stable/krita/>`__ download directory
 and get the zip-file instead of the setup.exe installer.
 
-.. warning::
-   Krita requires Windows Vista or newer.
+.. note::
+   Krita requires Windows 7 or newer. The Store version requires Windows 10.
 
 Linux
 -----
