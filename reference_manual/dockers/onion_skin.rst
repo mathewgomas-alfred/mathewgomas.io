@@ -24,6 +24,10 @@ Basically, they are images that represent the frames before and after the curren
 
 You can toggle them by clicking the lightbulb icon on a layer that is animated (so, has frames), and isn’t fully opaque. (Krita will consider white to be white, not transparent, so don’t animated on an opaque layer if you want onion skins.)
 
+.. versionchanged:: 4.2
+
+   Since 4.2 onion skins are disabled on layers whose default pixel is fully opaque. These layers can currently only be created by using :guilabel:`background as raster layer` in the :guilabel:`content` section of the new image dialog. Just don't try to animate on a layer like this if you rely on onion skins, instead make a new one.
+
 The term onionskin comes from the fact that onions are semi-transparent. In traditional animation animators would make their initial animations on semitransparent paper on top of an light-table (of the special animators variety), and they’d start with so called keyframes, and then draw frames in between. For that, they would place said keyframes below the frame they were working on, and the light table would make the lines of the keyframes shine through, so they could reference them.
 
 Onion-skinning is a digital implementation of such a workflow, and it’s very useful when trying to animate.
