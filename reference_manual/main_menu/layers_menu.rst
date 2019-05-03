@@ -128,6 +128,11 @@ Edit Metadata
     Each layer can have its own metadata.
 Histogram
     Shows a histogram.
+
+    .. deprecated:: 4.2
+
+       Removed. Use the :ref:`histogram_docker` instead.
+
 Merge With Layer Below
     Merge a layer down.
 Flatten Layer
