@@ -76,7 +76,8 @@ Delete
 Hot keys and Sticky Keys
 ------------------------
 
-* :kbd:`Shift + Ctrl` for selecting multiple layers.
+* :kbd:`Shift` for selecting multiple contiguous layers.
+* :kbd:`Ctrl` for select or deselect layer without affecting other layers selection.
 * :kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, for you to drag and drop.
 * :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
 * :kbd:`Ctrl + Shift + E` merges all layers.
@@ -85,8 +86,7 @@ Hot keys and Sticky Keys
 * :kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, they are put into the group layer.
 * :kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!
 * :kbd:`Ctrl + Alt + G` will ungroup layers inside a group.
-* :kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This will maintain between layers till the same action is repeated again.
-* :kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current layer.
+* :kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain between layers till the same action is repeated again.
 * :kbd:`Page Up` and :kbd:`Page Down` for switching between layers.
 * :kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected layers up and down.
 
