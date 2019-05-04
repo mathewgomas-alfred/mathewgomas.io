@@ -154,7 +154,8 @@ Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
 
 .. versionadded:: 4.2
-    Activate transform tool after pasting.
+    Activate transform tool after pasting
+    
         A convenience feature. When enabling this, the transform tool will activate after pasting for quick moving or rotating.
 
 Kinetic Scrolling (Needs Restart)
@@ -243,8 +244,9 @@ Favorite Presets
     This determines the amount of presets that can be used in the pop-up palette.
 Hide splash screen on startup.
     This'll hide the splash screen automatically once Krita is fully loaded.
+
     .. deprecated:: 4.1
-    
+
         Deprecated because Krita now has a welcome widget when no canvas is open.
 
 Enable Native File Dialog

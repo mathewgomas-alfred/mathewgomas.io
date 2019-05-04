@@ -252,7 +252,7 @@ If you're looking for information about tablets like the iPad or Android tablets
 What if your tablet is not recognized by Krita?
 -----------------------------------------------
 
-First, check if you have installed drivers and the like. The :ref:`drawing_tablets` page has some explainations and descriptions of common issues. If none of those work, we would like to have a bug report at bugs.kde.org, with a tablet log. Here's how you make a tablet log:
+First, check if you have installed drivers and the like. The :ref:`drawing_tablets` page has some explanations and descriptions of common issues. If none of those work, we would like to have a bug report at bugs.kde.org, with a tablet log. Here's how you make a tablet log:
 
 #. You need to have something to output the log to. On 4.2 you can use the :ref:`log_viewer` docker for this. Just open the log viewer, and enable logging.
     

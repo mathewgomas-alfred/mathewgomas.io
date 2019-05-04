@@ -64,7 +64,7 @@ For exporting HDR animations, we support saving HDR to the new codec for mp4 and
 HDR Metadata
 ~~~~~~~~~~~~
 
-This is in the render animation screen. It configures the SMPTE ST.2086 or Master Display Color Volumes metadata and is required for the HDR video to be transfered properly to the screen by video players and the cable.
+This is in the render animation screen. It configures the SMPTE ST.2086 or Master Display Color Volumes metadata and is required for the HDR video to be transferred properly to the screen by video players and the cable.
 
 Master Display
     The colorspace characteristics of the display on for which your image was made, typically also the display that you used to paint the image with. There's two default values for common display color spaces, and a custom value, which will enable the :guilabel:`Display` options.
@@ -83,5 +83,5 @@ Display
 MaxCLL
     The value of the brightest pixel of your animation in nits.
 MaxFALL
-    The avarage 'brightest value' of the whole animation.
+    The average 'brightest value' of the whole animation.
             

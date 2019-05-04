@@ -45,7 +45,7 @@ A new document can be created as follows.
 .. image:: /images/Krita_newfile.png
 
 Click on the :guilabel:`Custom Document` section and in the :guilabel:`Dimensions`
-tab choose A4(300ppi) or any size that you prefer from the :guilabel:`predefined` drop down
+tab choose A4 (300ppi) or any size that you prefer from the :guilabel:`predefined` drop down
 To know more about the other sections such as create document from clipboard and
 templates see :ref:`create_new_document`.
 

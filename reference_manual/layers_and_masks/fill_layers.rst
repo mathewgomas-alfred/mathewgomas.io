@@ -40,7 +40,7 @@ Simplex Noise
     Frequency
         The frequency of the waves used to generate the pattern. Higher frequency results in a finer noise pattern.
     Ratio
-        The ratio of the waves in the x and y dimensions. This makes the noise have a retangular appearance.
+        The ratio of the waves in the x and y dimensions. This makes the noise have a rectangular appearance.
     Use Custom Seed
         The seed for the random component. You can input any value or text here, and it will always try to use this value to generate the random values with(which then are always the same for a given seed).
 

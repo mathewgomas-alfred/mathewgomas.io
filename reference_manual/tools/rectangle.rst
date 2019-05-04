@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Tools, Ractangle
+.. index:: Tools, Rectangle
 .. _rectangle_tool:
 
 ==============
@@ -65,6 +65,9 @@ Ratio
 
 .. versionadded:: 4.2
     Round X
+
         The horizontal radius of the rectangle corners.
+
     Round Y
+
         The vertical radius of the rectangle corners.

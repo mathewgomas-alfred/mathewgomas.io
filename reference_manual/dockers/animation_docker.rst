@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Animation, Animation Playback, Play/Pauze, Framerate, FPS, Speed
+.. index:: Animation, Animation Playback, Play/Pause, Framerate, FPS, Speed
 .. _animation_docker:
 
 ================

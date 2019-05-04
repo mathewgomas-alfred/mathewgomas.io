@@ -21,9 +21,9 @@ Allows you to create a set of clone layers quickly. These are ordered in terms o
 \+ Elements
     The amount of elements that should be generated using a positive of the offset.
 X offset
-    The X offset in pixels. Use this in combination with Y offset to position a clone using Carthesian coordinates.
+    The X offset in pixels. Use this in combination with Y offset to position a clone using Cartesian coordinates.
 Y offset
-    The Y offset in pixels. Use this in combination with X offset to position a clone using Carthesian coordinates.
+    The Y offset in pixels. Use this in combination with X offset to position a clone using Cartesian coordinates.
 Distance
     The line-distance of the original origin to the clones origin. Use this in combination with angle to position a clone using a polar coordinate system.
 Angle
