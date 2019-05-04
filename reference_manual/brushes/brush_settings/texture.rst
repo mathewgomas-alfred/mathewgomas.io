@@ -24,9 +24,11 @@ Pattern
     Which pattern you'll be using. 
 Scale
     The size of the pattern. 1.0 is 100%.
+
     .. image:: /images/brushes/Krita_2_9_brushengine_texture_05.png
 Horizontal Offset & Vertical Offset
     How much a brush is offset, random offset sets a new per stroke.
+
     .. image:: /images/brushes/Krita_2_9_brushengine_texture_04.png
 Texturing mode
     Multiply

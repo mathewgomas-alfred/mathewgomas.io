@@ -176,11 +176,11 @@ Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, all 
 .. figure:: /images/brushes/Krita_example_differentbrushengines.png
    :align: center
 
-   **Left:** pixel brush, **Center:** color smudge brush, **Right:** sket ceterah brush
+   **Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch brush
 
 For example, the pixel-brush engine is simple and allows you to do most of your basic work, but if you do a lot of painting, the color smudge brush engine might be more useful. Even though it's slower to use than the Pixel Brush engine, its mixing of colors allows you to work faster when you need to blend and mix colors.
 
-If you want something totally different from that, the sket ceterah brush engine helps with making messy lines, and the shape brush engine allows you to make big flats quickly. There are a lot of cool effects inside Krita's brush engines, so try them all out, and be sure to check the chapters on each.
+If you want something totally different from that, the sketch brush engine helps with making messy lines, and the shape brush engine allows you to make big flats quickly. There are a lot of cool effects inside Krita's brush engines, so try them all out, and be sure to check the chapters on each.
 
 You can configure these effects via the Brush Settings drop-down, which can be quickly accessed via :kbd:`F5`. These configurations can then be saved into presets, which you can quickly access with :kbd:`F6` or the Brush Presets docker.
 

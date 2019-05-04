@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Split Alpha: how to work with color and alpha channels of the layer seperately
+        Split Alpha: how to work with color and alpha channels of the layer separately
 
 .. metadata-placeholder
 

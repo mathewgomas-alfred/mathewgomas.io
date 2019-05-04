@@ -194,7 +194,7 @@ Autosave Every
 Unnamed autosave files are hidden by default
     This determines whether the filename of autosaves has a period prepended to the name. On Linux and Mac OS this is a technique to ensure the file is hidden by default.
 Create Backup File
-    When selected Krita will, upon save, rename the original file as a backup file and save the current image to the original name. The result is that you will have saved the image, and there will be a copy of the image that is saved seperately as a backup. This is useful in case of crashes during saves.
+    When selected Krita will, upon save, rename the original file as a backup file and save the current image to the original name. The result is that you will have saved the image, and there will be a copy of the image that is saved separately as a backup. This is useful in case of crashes during saves.
 Backup File Location
     The default location these backups should be stored.
     

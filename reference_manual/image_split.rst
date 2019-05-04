@@ -23,8 +23,9 @@ Vertical Lines
 
 .. versionadded:: 4.2
     Sort Direction
+
         Whether to number the files using the following directions:
-        
+
             horizontal
                 left to right, top to bottom
             vertical
