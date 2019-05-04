@@ -17,7 +17,7 @@ Krita is a sketching and painting program designed for digital artists. Our visi
   interoperates with other applications.
 
 Krita's tools are developed keeping the above vision in mind. Although it has
-features that overlap with other raster editors its intended pupose is to
+features that overlap with other raster editors its intended purpose is to
 provide robust tool for digital painting and creating artworks from scratch. As
 you learn about Krita, keep in mind that it is not intended as a replacement
 for Photoshop. This means that the other programs may have more features than
