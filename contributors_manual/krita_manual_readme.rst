@@ -96,7 +96,7 @@ This one is a bit technical, but much more comfortable for the manual maintainer
 #. Login to `KDE_gitlab`_.
 #. Go to the `repository`_ and press :guilabel:`fork`, and clone into the namespace of your nickname.
 #. You should be redirected to the fork of your repository now. Typically it's located at ``invent.kde.org/YOUR_KDE_LOGIN_NAME/docs-krita-org``.
-#. Now, there's two options to edit your fork of the manual.
+#. Now, there are two options to edit your fork of the manual.
 
     If you are comfortable with git, you can clone the repository locally with :guilabel:`git clone`. The repository page has the urls you can perform git clone from, and you can then push to your fork. The advantage of this is that you can use all the tools on your computer to edit these text files as well as build the manual locally to check for errors.
 

@@ -45,7 +45,7 @@ Performs the AND operation for the base and blend layer. Similar to multiply ble
 CONVERSE
 ~~~~~~~~
 
-Performs the inverse of IMPLIES operation for the base and blend layer. Similar to screen mode with blend layer and base layer inverted.
+Performs the inverse of IMPLICATION operation for the base and blend layer. Similar to screen mode with blend layer and base layer inverted.
 
 .. figure:: /images/blending_modes/binary/Blend_modes_CONVERSE_map.png
    :align: center
@@ -57,23 +57,23 @@ Performs the inverse of IMPLIES operation for the base and blend layer. Similar 
 
    Left: **Base Layer**. Middle: **Blend Layer**. Right: **CONVERSE**.
 
-.. index:: ! IMPLIES
-.. _bm_IMPLIES:
+.. index:: ! IMPLICATION
+.. _bm_IMPLICATION:
 
-IMPLIES
-~~~~~~~
+IMPLICATION
+~~~~~~~~~~~
 
-Performs the IMPLIES operation for the base and blend layer. Similar to screen mode with base layer inverted.
+Performs the IMPLICATION operation for the base and blend layer. Similar to screen mode with base layer inverted.
 
 .. figure:: /images/blending_modes/binary/Blend_modes_IMPLIES_map.png
    :align: center
 
-   Left: **Base Layer**. Middle: **Blend Layer**. Right: **IMPLIES**.
+   Left: **Base Layer**. Middle: **Blend Layer**. Right: **IMPLICATION**.
    
 .. figure:: /images/blending_modes/binary/Blending_modes_IMPLIES_Gradients.png
    :align: center
 
-   Left: **Base Layer**. Middle: **Blend Layer**. Right: **IMPLIES**.
+   Left: **Base Layer**. Middle: **Blend Layer**. Right: **IMPLICATION**.
    
 .. index:: ! NAND
 .. _bm_NAND:

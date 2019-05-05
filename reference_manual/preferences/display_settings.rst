@@ -57,7 +57,7 @@ HDR
 
     These settings are only available when using Windows.
     
-Since 4.2 Krita can not just edit floating point images, but also render them on screen in a way that a HDR capable setup can show them as HDR images.
+Since 4.2 Krita can not just edit floating point images, but also render them on screen in a way that an HDR capable setup can show them as HDR images.
 
 The HDR settings will show you the display format that Krita can handle, and the current output format. You will want to set the preferred output format to the one closest to what your display can handle to make full use of it.
 

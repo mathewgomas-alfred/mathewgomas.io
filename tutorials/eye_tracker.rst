@@ -48,16 +48,16 @@ you'll need to know before you start:
 
 - Switching the mode doesn't automatically start the operation. You need
   an extra action for that. In our case, this action is "dwelling".
-  For example, to start a program, you switch to left double click mode and
+  For example, to start a program, you switch to the left double click mode and
   then dwell on the icon for the application to activate the double click.
-  Adjusting the dwell time is an important trade off: shorter dwell times allow
+  Adjusting the dwell time is an important tradeoff: shorter dwell times allow
   for faster work but are also more error-prone.
 
 
 Requirements
 ------------
 
-Beside the -obvious- requirement of having an eye tracker device, you will
+Besides the `obvious` requirement of having an eye tracker device, you will
 also need a control program that will let you interact with the device. When
 you obtain the device, such a program will most probably be provided to you
 but that program might not be sufficient for using the device with Krita.
@@ -132,7 +132,7 @@ Layout
 ------
 
 Since the interface elements need to be large, you have to use the screen area
-economically. Running in full screen mode and getting rid of unused menus
+economically. Running in full-screen mode and getting rid of unused menus
 and toolbars are the first steps that you can take. Here's the screenshot
 of our layout:
 

@@ -146,12 +146,12 @@ Gradient
 
 .. hint:: 
 
-    When a stop triangle is selected, it is highlighted with a slight blue outline. The selected stop triangle will change its color and opacity accordingly when this options are changed.
+    When a stop triangle is selected, it is highlighted with a slight blue outline. The selected stop triangle will change its color and opacity accordingly when these options are changed.
 
 .. hint::
    
     You can edit the gradient in two ways. The first one is the actual gradient in the docker that you can manipulate. Vectors always use stop-gradients.
-    The other way to edit gradients is editing their position on canvas.
+    The other way to edit gradients is editing their position on the canvas.
 
 Right-click menu
 ----------------

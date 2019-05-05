@@ -128,7 +128,7 @@ Aims to solve issues with Color Dodge blending mode by using a formula which fal
    
 .. _bm_flatlight:
    
-Flatlight
+Flat Light
 ~~~~~~~~~
 
 The spreadout variation of Vivid Light mode which range is between 0.0f and 1.0f.

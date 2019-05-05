@@ -26,7 +26,7 @@ Additionally, you can export your work to other formats, for compatibility with 
 
 If you save your work, Krita will ask you where it should save on your computer. By default, this is the Pictures folder in your User folder: this is true for all operating systems.
 
-If you use "Save As" your image will be saved under a new name. The original file under its own name are not deleted. From now on, your file will be saved under the new name.
+If you use "Save As" your image will be saved under a new name. The original file under its own name will not be deleted. From now on, your file will be saved under the new name.
 
 If you use "Export" using a new filename, a new file will be created with a new name. The file you have open will keep the new name, and the next time you save it, it will be saved under the old name.
 
@@ -68,7 +68,7 @@ If Krita crashes before you had saved your file, then the next time you start Kr
 
 If Krita crashed, and you're on Windows and your ``%TEMP%`` folder gets cleared, you will have lost your work. Windows does not clear the ``%TEMP%`` folder by default, but you can enable this feature in Settings. Applications like Disk Cleanup or cCleaner will also clear the ``%TEMP%`` folder. Again, if Krita crashes, and you haven't saved your work, and you have something enabled that clear your ``%TEMP%`` folder, you will have lost your work.
 
-If Krita doesn't crash, and you close Krita without saving your work, Krita will remove the AutoSave file: you work will be gone and cannot be retrieved.
+If Krita doesn't crash, and you close Krita without saving your work, Krita will remove the AutoSave file: your work will be gone and cannot be retrieved.
 
 If you save your work and continue, or close Krita and do save your work, the AutoSave file will be removed.
 
@@ -79,13 +79,13 @@ If you had already saved your work, Krita will create a named AutoSave file.
 
 A hidden named autosave file will look like ``.myimage.kra-autosave.kra``.
 
-By default, named AutoSave files are hiden. Named AutoSave files are placed in the same folder as the file you were working on. 
+By default, named AutoSave files are hidden. Named AutoSave files are placed in the same folder as the file you were working on. 
 
 If you start Krita again after it crashed and try to open your original file, Krita will ask you whether to open the AutoSave file instead:
 
 .. image:: /images/autosave_named_restore.png
 
-If you choose "no", the AutoSave file will be removed. The work done since the last time you saved your file yourself is lost and cannot be retrieved.
+If you choose "no", the AutoSave file will be removed. The work that has been done since the last time you saved your file yourself will be lost and cannot be retrieved.
 
 If you choose "yes", the AutoSave file will be opened, then removed. The file you have open will have the name of your original file. The file will be set to Modified, so the next time you try to close Krita, Krita will ask you whether you want to save the file. If you choose No, your work is irretrievably gone. It cannot be restored.
 
@@ -115,7 +115,7 @@ You can disable this mechanism in the File tab of the General Settings page of t
 
 By default, a Backup file will be in the same folder as your original file. You can also choose to save Backup files in the User folder or the ``%TEMP%`` folder; this is not as safe because if you edit two files with the same name in two different folders, their backups will overwrite each other.
 
-By default, a Backup file will have ``~`` as suffix, to distinguish it from an ordinary file. If you are using Windows, you will have to enable "show file extensions" in Windows Explorer to see the extension. 
+By default, a Backup file will have ``~`` as a suffix, to distinguish it from an ordinary file. If you are using Windows, you will have to enable "show file extensions" in Windows Explorer to see the extension. 
 
 .. image:: /images/file_and_backup_file.png
 
@@ -137,6 +137,6 @@ Do not be confused: Krita does not save the current state of your work to the la
 Incremental Version Files
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Incremental Version works a bit like Incremental Backup, but it leaves the original files alone. Instead it will save a new file with a file number:
+Incremental Version works a bit like Incremental Backup, but it leaves the original files alone. Instead, it will save a new file with a file number:
 
 .. image:: /images/save_incremental_version.png

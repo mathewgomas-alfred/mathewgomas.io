@@ -442,7 +442,7 @@ There are three types of resources a single preset can take:
 #. A Paintoppreset file: This is the preset proper, with the icon and
    the curves stored inside.
 #. A Brush file: This is the brush tip. When using masked brushes,
-   there's two of these.
+   there are two of these.
 #. A Pattern file: this is when you are using textures.
 
 So when you have a brush that uses unique predefined tips for either

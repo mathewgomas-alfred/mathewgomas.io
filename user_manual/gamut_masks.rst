@@ -18,7 +18,7 @@ Gamut Masks
 
 Gamut masking is an approach to color formalized by James Gurney, based on the idea that any color scheme can be expressed as shapes cut out from the color wheel.
 
-It originates in the world of traditional painting,as a form of planning and premixing palettes. However, it translates well into digital art, enabling you to explore and analyze color, plan color schemes and guide your color choices.
+It originates in the world of traditional painting, as a form of planning and premixing palettes. However, it translates well into digital art, enabling you to explore and analyze color, plan color schemes and guide your color choices.
 
 How does it work?
 
@@ -77,7 +77,7 @@ Editing/creating a custom gamut mask
 
   To rotate a mask around the center point use the rotation slider in the color selector.
 
-If you choose to create a new mask, edit, or duplicate selected mask, the mask template documents opens as a new view (1).
+If you choose to create a new mask, edit, or duplicate selected mask, the mask template documents open as a new view (1).
 
 There you can create new shapes and modify the mask with standard vector tools (:ref:`vector_graphics`). Please note, that the mask is intended to be composed of basic vector shapes. Although interesting results might arise from using advanced vector drawing techniques, not all features are guaranteed to work properly (e.g. grouping, vector text, etc.).
 

@@ -59,7 +59,7 @@ Smudge Length
 
 Affects smudging and allows you to set it to Sensors.
 
-There's two major types:
+There are two major types:
 
 .. image:: /images/brushes/Krita_2.9_brush_engine_smudge_length_03.png
 

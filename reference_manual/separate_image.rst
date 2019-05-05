@@ -27,10 +27,10 @@ Source
 Alpha Options
     What to do with the alpha channel. All Krita images have an alpha channel, which is the transparency. How should it be handled when separating?
 
-        Copy Alpha Channel to Each separate channel as an apha channel.
+        Copy Alpha Channel to Each separate channel as an alpha channel.
             This adds the transparency of the original source to all the separation layers.
         Discard Alpha Channel
-            Just get rid of the alpha alltogether.
+            Just get rid of the alpha altogether.
         Create separate separation from alpha channel.
             Create a separate layer with the alpha channel as a grayscale layer.
 

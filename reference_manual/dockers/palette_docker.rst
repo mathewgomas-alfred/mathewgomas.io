@@ -29,7 +29,7 @@ You can choose from various default palettes or you can add your own colors to t
 To choose from the default palettes click on the icon in the bottom left corner of the docker, it will show a list of pre-loaded color palettes.
 You can click on one and to load it into the docker, or click on import resources to load your own color palette from a file. Creating a new palette can be done by pressing the :guilabel:`+`. Fill out the :guilabel:`name` input, pressing :guilabel:`Save` and Krita will select your new palette for you.
 
-Since 4.2 Krita's color palettes are not just a list of colors to store, but also a grid to organize them on. That's why you will get a grid with 'transparency checkers', indicating that there is no entry. To add an entry, just click a swatch and a new entry will be added with a default name and the current foreground color..
+Since 4.2 Krita's color palettes are not just a list of colors to store, but also a grid to organize them on. That's why you will get a grid with 'transparency checkers', indicating that there is no entry. To add an entry, just click a swatch and a new entry will be added with a default name and the current foreground color.
 
 * Selecting colors is done by |mouseleft| on a swatch.
 * Pressing the delete icon will remove the selected swatch or group. When removing a group, Krita will always ask whether you'd like to keep the swatches. If so, the group will be merged with the default group.

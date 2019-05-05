@@ -22,7 +22,7 @@ Basic Concepts
 
 If this is your first foray into digital painting, this page should give you a brief introduction to the basic but important concepts required for getting started with digital painting in Krita.
 
-Although very lengthy, this page tries to give a brief overview of some of the krita's most important functionality; it tries to help you grasp the functions of various menu and buttons in Krita without going into minute details.
+Although very lengthy, this page tries to give a brief overview of some of the Krita's most important functionality; it tries to help you grasp the functions of various menu and buttons in Krita without going into minute details.
 
 .. contents::
 
@@ -142,7 +142,7 @@ Krita has many layer-types, each layer type is unique and has its own usecase:
 :ref:`fill_layers`
  These layers are filled with something that Krita can make up on the fly, like colors or patterns.
 :ref:`filter_layers`
- These layer type help us to apply some filters which will affect a composite image made from all the layers beneath them.
+ These layers help us to apply some filters which will affect a composite image made from all the layers beneath them.
 
 You can manipulate the content of the layers with **Tools**.
 
@@ -311,7 +311,7 @@ We can use these filters to make our ghost lady look even more ethereal, by sele
 .. image:: /images/Krita_ghostlady_3.png
    :align: center
 
-Layer Effects or Layer Styles are filterm masks popularised by :program:`Photoshop's` that are a little faster than regular masks, but not as versatile. They are available by right clicking a layer and selecting 'layer style'.
+Layer Effects or Layer Styles are filter masks popularised by :program:`Photoshop's` that are a little faster than regular masks, but not as versatile. They are available by right clicking a layer and selecting 'layer style'.
 
 Transformations
 ---------------
@@ -355,7 +355,7 @@ From version 3.0 onwards, Krita got raster animation support. You can use the ti
 Assistants, Grids and Guides
 ----------------------------
 
-With all this technical stuff, you might forget that Krita is a painting program. Like how when working with traditional medium, as an illustrator we can have all sorts of equipment to make drawing easier, Krita also offers a variety of tools:
+With all this technical stuff, you might forget that Krita is a painting program. Like how when working with traditional medium, as an illustrator, you can have all sorts of equipment to make drawing easier, Krita also offers a variety of tools:
 
 .. figure:: /images/assistants/Krita_basic_assistants.png
    :align: center
