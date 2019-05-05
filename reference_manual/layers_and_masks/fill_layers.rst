@@ -42,7 +42,7 @@ Simplex Noise
     Ratio
         The ratio of the waves in the x and y dimensions. This makes the noise have a rectangular appearance.
     Use Custom Seed
-        The seed for the random component. You can input any value or text here, and it will always try to use this value to generate the random values with(which then are always the same for a given seed).
+        The seed for the random component. You can input any value or text here, and it will always try to use this value to generate the random values with (which then are always the same for a given seed).
 
 Painting on a fill layer
 ------------------------

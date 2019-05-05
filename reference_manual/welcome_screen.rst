@@ -22,17 +22,17 @@ of shortcuts for the most common tasks that you will probably be doing when you 
 
 The screen is divided into 4 sections:
 
-- The "Start" section there are links to create new document as well to open
-  and existing document.
+- The :guilabel:`Start` section there are links to create new document as well to open
+  an existing document.
 
-- The "Recent Documents" section has a list of recently opened documents from
+- The :guilabel:`Recent Documents` section has a list of recently opened documents from
   your previous sessions in Krita.
 
-- The "Community Section" provides some links to get help, Supporting
+- The :guilabel:`Community` section provides some links to get help, Supporting
   development of Krita, Source code of Krita and to links to interact with our
   user community
 
-- The "News Section", which is disabled by default, when enabled provides you
+- The :guilabel:`News` section, which is disabled by default, when enabled provides you
   with latest news feeds fetched from Krita website, this will help you stay up
   to date with the release news and other events happening in our community.
 

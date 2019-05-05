@@ -23,8 +23,8 @@ How to work with alpha channel of the layer
 #. |mouseright| the paint layer in the layers docker.
 #. Choose :menuselection:`Split Alpha --> Alpha into Mask`
 #. Use your preferred paint tool to paint on the Transparency Mask. Black paints transparency (see-through), white paints opacity (visible). Gray values paint semi-transparency.
-#. If you would like to isolate alpha channel, enter Isolated Mode by |mouseright| + :menuselection:`Isolated Mode` (or :kbd:`Alt` + |mouseleft|)
-#. When finished editing the Transparency Mask, |mouseright| on it and select :menuselection:`Split Alpha->Write as Alpha`
+#. If you would like to isolate alpha channel, enter Isolated Mode by |mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)
+#. When finished editing the Transparency Mask, |mouseright| on it and select :menuselection:`Split Alpha --> Write as Alpha`
 
 How to save a PNG texture and keep color values in fully transparent areas
 --------------------------------------------------------------------------
