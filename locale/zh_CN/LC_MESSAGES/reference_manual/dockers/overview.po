@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,24 +17,46 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___dockers___overview.pot\n"
 
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
 #: ../../reference_manual/dockers/overview.rst:1
 msgid "Overview of the overview docker."
 msgstr "“总览图”面板简介"
 
-#: ../../reference_manual/dockers/overview.rst:15
+#: ../../reference_manual/dockers/overview.rst:11
+#: ../../reference_manual/dockers/overview.rst:16
 msgid "Overview"
 msgstr "总览图"
 
-#: ../../reference_manual/dockers/overview.rst:18
-msgid ".. image:: images/en/Krita_Overview_Docker.png"
-msgstr ".. image:: images/en/Krita_Overview_Docker.png"
+#: ../../reference_manual/dockers/overview.rst:11
+msgid "Navigation"
+msgstr ""
 
 #: ../../reference_manual/dockers/overview.rst:19
+msgid ".. image:: images/dockers/Krita_Overview_Docker.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/overview.rst:20
 msgid ""
 "This docker allows you to see a full overview of your image. You can also "
 "use it to navigate and zoom in and out quickly. Dragging the view-rectangle "
-"allows you quickly move the view. Dragging the zoom-slider allows you "
-"quickly change the zoom."
+"allows you quickly move the view."
 msgstr ""
-"此面板可供你查看图像的总览。您还可以使用它快速导航、放大和缩小。拖动视图矩形"
-"可以快速移动视图，而拖动缩放滑块可以快速缩放。"
+
+#: ../../reference_manual/dockers/overview.rst:22
+msgid ""
+"There are furthermore basic navigation functions: Dragging the zoom-slider "
+"allows you quickly change the zoom."
+msgstr ""
+
+#: ../../reference_manual/dockers/overview.rst:26
+msgid ""
+"Toggling the mirror button will allow you to mirror the view of the canvas "
+"(but not the full image itself) and dragging the rotate slider allows you to "
+"adjust the rotation of the viewport. To reset the rotation, |mouseright| the "
+"slider to edit the number, and type '0'."
+msgstr ""

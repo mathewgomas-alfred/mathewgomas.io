@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-05 11:56+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -36,6 +36,16 @@ msgid ""
 msgstr ""
 "A referência da ferramenta de pincel de desenho à mão do Krita, incluindo "
 "como usar o estabilizador no Krita."
+
+#: ../../reference_manual/tools/freehand_brush.rst:12
+#, fuzzy
+#| msgid "Freehand Brush Tool"
+msgid "Freehand Brush"
+msgstr "Ferramenta do Pincel de Traço Livre à Mão"
+
+#: ../../reference_manual/tools/freehand_brush.rst:12
+msgid "Freehand"
+msgstr ""
 
 #: ../../reference_manual/tools/freehand_brush.rst:17
 msgid "Freehand Brush Tool"
@@ -116,6 +126,29 @@ msgstr ""
 #: ../../reference_manual/tools/freehand_brush.rst:39
 msgid "Tool Options"
 msgstr "Opções da Ferramenta"
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+#: ../../reference_manual/tools/freehand_brush.rst:79
+msgid "Stabilizer"
+msgstr "Estabilizador"
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+#, fuzzy
+#| msgid "Basic Smoothing."
+msgid "Basic Smooth"
+msgstr "Suavização Básica."
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+#, fuzzy
+#| msgid "No Smoothing."
+msgid "No Smoothing"
+msgstr "Sem Suavização."
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+#, fuzzy
+#| msgid "Weighted smoothing:"
+msgid "Weighted Smoothing"
+msgstr "Suavização ponderada:"
 
 #: ../../reference_manual/tools/freehand_brush.rst:45
 msgid "Smoothing"
@@ -277,9 +310,11 @@ msgstr ""
 "Semelhante a :guilabel:`Suavizar a Pressão`, isto permite que os dados "
 "gerados à entrada (pressão, velocidade, desvio) sejam mais suaves."
 
-#: ../../reference_manual/tools/freehand_brush.rst:79
-msgid "Stabilizer"
-msgstr "Estabilizador"
+#: ../../reference_manual/tools/freehand_brush.rst:81
+#, fuzzy
+#| msgid "Assistants"
+msgid "Painting Assistants"
+msgstr "Assistentes"
 
 #: ../../reference_manual/tools/freehand_brush.rst:84
 msgid "Assistants"

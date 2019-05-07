@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
-"PO-Revision-Date: 2019-02-25 13:06+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 12:08+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Layerstyle (2.9.5+)"
@@ -28,9 +28,65 @@ msgstr "Lagenstijl (2.9.5+)"
 msgid "The layers menu in Krita."
 msgstr "Het menu Lagen in Krita."
 
+#: ../../reference_manual/main_menu/layers_menu.rst:11
 #: ../../reference_manual/main_menu/layers_menu.rst:16
 msgid "Layers"
 msgstr "Lagen"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:75
+msgid "Convert"
+msgstr "Converteren"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:115
+msgid "Transform"
+msgstr "Transformeren"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Histogram"
+msgstr "Histogram"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Cut Layer (3.0+)"
+msgid "Cut Layer"
+msgstr "Laag knippen"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Copy Layer (3.0+)"
+msgid "Copy Layer"
+msgstr "Laag kopiëren"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Paint Layer"
+msgid "Paste Layer"
+msgstr "Laag plakken"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Import Layer"
+msgid "Import"
+msgstr "Importeren"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Import/Export"
+msgid "Export"
+msgstr "Exporteren"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Edit Metadata"
+msgid "Metadata"
+msgstr "Metagegevens"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Flatten Layer"
+msgid "Flatten"
+msgstr "Plat maken"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#| msgid "Layerstyle (2.9.5+)"
+msgid "Layer Style"
+msgstr "Laagstijlen"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:18
 msgid ""
@@ -224,10 +280,6 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
-msgid "Convert"
-msgstr "Converteren"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert Layer Color Space"
 msgstr "Kleurruimte van laag converteren"
 
@@ -351,10 +403,6 @@ msgid "Shear the layer pixels by the given X and Y angles."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
-msgid "Transform"
-msgstr "Transformeren"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset Layer"
 msgstr "Offset van laag"
 
@@ -377,7 +425,7 @@ msgid "Split Layer"
 msgstr "Laag splitsen"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
-msgid "Split the layer into given color fields."
+msgid ":ref:`Split the layer <split_layer>` into given color fields."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
@@ -391,7 +439,7 @@ msgstr "Kloont een array"
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
-"making."
+"making. See :ref:`clones_array` for more details."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
@@ -402,46 +450,46 @@ msgstr "Metagegevens bewerken"
 msgid "Each layer can have its own metadata."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:129
-msgid "Histogram"
-msgstr "Histogram"
-
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:131
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Removed. Use the :ref:`histogram_docker` instead."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"
 msgstr "Met onderliggende laag samenvoegen"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:132
+#: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Merge a layer down."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:133
+#: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten Layer"
 msgstr "Laag waar andere lagen in terecht komen"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:134
+#: ../../reference_manual/main_menu/layers_menu.rst:139
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:135
+#: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Rasterize Layer"
 msgstr "Laag voor rasteriseren"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:136
+#: ../../reference_manual/main_menu/layers_menu.rst:141
 msgid "For making vectors into raster layers."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:137
+#: ../../reference_manual/main_menu/layers_menu.rst:142
 msgid "Flatten Image"
 msgstr "Afbeelding plat maken"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:138
+#: ../../reference_manual/main_menu/layers_menu.rst:143
 msgid "Flatten all layers into one."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:140
+#: ../../reference_manual/main_menu/layers_menu.rst:145
 msgid "Set the PS-style layerstyle"
 msgstr ""

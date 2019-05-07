@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___tools___similar_select\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-29 15:00+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -28,6 +28,18 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 
+#: ../../<rst_epilog>:4
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_left.png\n"
+#| "   :alt: mouseleft"
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+
 #: ../../<rst_epilog>:78
 msgid ""
 ".. image:: images/icons/similar_select_tool.svg\n"
@@ -39,6 +51,20 @@ msgstr ""
 #: ../../reference_manual/tools/similar_select.rst:1
 msgid "Krita's similar color selection tool reference."
 msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+#, fuzzy
+#| msgid "Similar Color Selection Tool"
+msgid "Similar Selection"
+msgstr "Nástroj výberu podobnej farby"
 
 #: ../../reference_manual/tools/similar_select.rst:16
 msgid "Similar Color Selection Tool"
@@ -98,16 +124,26 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/similar_select.rst:35
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:36
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
 msgstr ""
 
-#: ../../reference_manual/tools/similar_select.rst:38
+#: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
 msgstr "Možnosti nástroja"
 
-#: ../../reference_manual/tools/similar_select.rst:41
+#: ../../reference_manual/tools/similar_select.rst:46
 msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."

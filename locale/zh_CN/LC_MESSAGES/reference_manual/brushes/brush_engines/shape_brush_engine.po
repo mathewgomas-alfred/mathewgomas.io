@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,48 +20,62 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Hard Edge"
-msgstr "硬边缘"
+msgstr "硬边"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:1
 msgid "The Shape Brush Engine manual page."
-msgstr ""
+msgstr "介绍 Krita 的形状笔刷引擎。"
 
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:16
 msgid "Shape Brush Engine"
-msgstr "轮廓笔刷引擎"
+msgstr "形状笔刷引擎"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Experiment Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Al.Chemy"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:19
 msgid ".. image:: images/icons/shapebrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/shapebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:20
 msgid "An Al.chemy inspired brush-engine. Good for making chaos with!"
 msgstr ""
+"这是一个受 Al.chemy 项目启发的笔刷引擎，可以画出各种让人眼花缭乱的交织色块。"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:23
 msgid "Parameters"
-msgstr "参数"
+msgstr "可用选项"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:25
 msgid ":ref:`option_experiment`"
-msgstr ""
+msgstr ":ref:`option_experiment`"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:26
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:31
 msgid "Experiment Option"
-msgstr ""
+msgstr "实验选项"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:33
 msgid "Speed"
-msgstr "速率"
+msgstr "速度"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:34
 msgid ""
 "This makes the outputted contour jaggy. The higher the speed, the jaggier."
-msgstr ""
+msgstr "控制生成轮廓时的处理速度。速度越快，生成的轮廓线越粗糙。"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:35
 msgid "Smooth"
@@ -72,16 +86,19 @@ msgid ""
 "Smoothens the output contour. This slows down the brush, but the higher the "
 "smooth, the smoother the contour."
 msgstr ""
+"对生成的轮廓线进行平滑，数值越高，轮廓线越平滑，但也会拖慢笔刷处理速度。"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:37
 msgid "Displace"
-msgstr "顶替"
+msgstr "位移"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:38
 msgid ""
 "This displaces the shape. The slow the movement, the higher the displacement "
 "and expansion. Fast movements shrink the shape."
 msgstr ""
+"此选项会一边生成形状一边进行位移，绘制动作越慢，形状的位移程度和扩张程度就越"
+"大。绘制动作加快时形状会变小。"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:39
 msgid "Winding Fill"
@@ -93,7 +110,9 @@ msgid ""
 "'even-odd' fill rule, which means that where normally crossing into the "
 "shape created transparent areas, it now will not."
 msgstr ""
+"勾选此项将使用“非零”填充规则而不是“奇偶”填充规则。这意味着形状的轮廓线交错时"
+"不再生成透明的区域。"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:42
 msgid "Removes the anti-aliasing, to get a pixelized line."
-msgstr ""
+msgstr "移除抗锯齿效果，得到纯色像素化硬边。"

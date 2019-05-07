@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-28 15:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -28,6 +28,18 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: botão esquerdo"
 
+#: ../../<rst_epilog>:4
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_left.png\n"
+#| "   :alt: mouseleft"
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: botão esquerdo"
+
 #: ../../<rst_epilog>:66
 msgid ""
 ".. image:: images/icons/rectangular_select_tool.svg\n"
@@ -39,6 +51,24 @@ msgstr ""
 #: ../../reference_manual/tools/rectangular_select.rst:1
 msgid "Krita's rectangular selection tool reference."
 msgstr "A referência da ferramenta de selecção rectangular do Krita."
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Rectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+#, fuzzy
+#| msgid "Rectangular Selection Tool"
+msgid "Rectangular Selection"
+msgstr "Ferramenta de Selecção Rectangular"
 
 #: ../../reference_manual/tools/rectangular_select.rst:16
 msgid "Rectangular Selection Tool"
@@ -132,6 +162,18 @@ msgstr ""
 "`intersecção`."
 
 #: ../../reference_manual/tools/rectangular_select.rst:39
+#, fuzzy
+#| msgid ":kbd:`Alt` after starting the selection, allows you to move it."
+msgid "Hovering over a selection allows you to move it."
+msgstr ":kbd:`Alt`, após iniciar a selecção, permite movê-la."
+
+#: ../../reference_manual/tools/rectangular_select.rst:40
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:44
 msgid ""
 "So to subtract a perfect square, you do :kbd:`Alt +` |mouseleft|, then "
 "release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to "
@@ -141,7 +183,7 @@ msgstr ""
 "mouseleft|, largando depois a tecla :kbd:`Alt` enquanto arrasta e carregando "
 "em :kbd:`Shift` para restringir."
 
-#: ../../reference_manual/tools/rectangular_select.rst:44
+#: ../../reference_manual/tools/rectangular_select.rst:49
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
@@ -149,15 +191,15 @@ msgstr ""
 "Poderá mudar o comportamento da tecla :kbd:`Alt` para usar como alternativa "
 "o :kbd:`Ctrl`, comutando o interruptor na :ref:`general_settings`"
 
-#: ../../reference_manual/tools/rectangular_select.rst:47
+#: ../../reference_manual/tools/rectangular_select.rst:52
 msgid "Tool Options"
 msgstr "Opções da Ferramenta"
 
-#: ../../reference_manual/tools/rectangular_select.rst:49
+#: ../../reference_manual/tools/rectangular_select.rst:54
 msgid "Anti-aliasing"
 msgstr "Suavização"
 
-#: ../../reference_manual/tools/rectangular_select.rst:50
+#: ../../reference_manual/tools/rectangular_select.rst:55
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."
@@ -165,11 +207,11 @@ msgstr ""
 "Isto indica se são usados contornos leves nas selecções. Algumas pessoas "
 "preferem arestas vincadas para as suas selecções."
 
-#: ../../reference_manual/tools/rectangular_select.rst:51
+#: ../../reference_manual/tools/rectangular_select.rst:56
 msgid "Width"
 msgstr "Largura"
 
-#: ../../reference_manual/tools/rectangular_select.rst:52
+#: ../../reference_manual/tools/rectangular_select.rst:57
 msgid ""
 "Gives the current width. Use the lock to force the next selection made to "
 "this width."
@@ -177,11 +219,11 @@ msgstr ""
 "Indica a largura actual. Use o cadeado para forçar a próxima selecção a ter "
 "esta largura."
 
-#: ../../reference_manual/tools/rectangular_select.rst:53
+#: ../../reference_manual/tools/rectangular_select.rst:58
 msgid "Height"
 msgstr "Altura"
 
-#: ../../reference_manual/tools/rectangular_select.rst:54
+#: ../../reference_manual/tools/rectangular_select.rst:59
 msgid ""
 "Gives the current height. Use the lock to force the next selection made to "
 "this height."
@@ -189,11 +231,11 @@ msgstr ""
 "Indica a altura actual. Use o cadeado para forçar a próxima selecção a ter "
 "esta altura."
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid "Ratio"
 msgstr "Taxa"
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
@@ -201,18 +243,18 @@ msgstr ""
 "Indica a proporção de tamanho actual. Use o cadeado para forçar a próxima "
 "selecção a manter estas proporções."
 
-#: ../../reference_manual/tools/rectangular_select.rst:60
+#: ../../reference_manual/tools/rectangular_select.rst:65
 msgid "Round X"
 msgstr "Arredondamento em X"
 
-#: ../../reference_manual/tools/rectangular_select.rst:61
+#: ../../reference_manual/tools/rectangular_select.rst:66
 msgid "The horizontal radius of the rectangle corners."
 msgstr "O raio horizontal dos cantos rectangulares."
 
-#: ../../reference_manual/tools/rectangular_select.rst:62
+#: ../../reference_manual/tools/rectangular_select.rst:67
 msgid "Round Y"
 msgstr "Arredondamento em Y"
 
-#: ../../reference_manual/tools/rectangular_select.rst:63
+#: ../../reference_manual/tools/rectangular_select.rst:68
 msgid "The vertical radius of the rectangle corners."
 msgstr "O raio vertical dos cantos rectangulares."

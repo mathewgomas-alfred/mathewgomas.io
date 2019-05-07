@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___map\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-02 10:30+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -19,6 +19,10 @@ msgstr ""
 msgid "Overview of the map filters."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr ""
+
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
 msgstr "Mapa"
@@ -27,20 +31,45 @@ msgstr "Mapa"
 msgid "Filters that are signified by them mapping the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
+msgstr "Malé dlaždice"
+
+#: ../../reference_manual/filters/map.rst:20
+#, fuzzy
+#| msgid "Small Tiles"
+msgid "Tiles"
 msgstr "Malé dlaždice"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Phong Bumpmap"
+msgid "Bumpmap"
+msgstr "PhongBumpmap"
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Normalize"
+msgid "Normal Map"
+msgstr "Normalizovať"
+
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "PhongBumpmap"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 msgstr ".. image:: images/en/Krita-normals-tutoria_4.png"
 
 #: ../../reference_manual/filters/map.rst:34
@@ -59,6 +88,7 @@ msgstr "Zaoblené rohy"
 msgid "Adds little corners to the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Normalizovať"
@@ -70,12 +100,21 @@ msgid ""
 "normal maps and some minor image-editing functions."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Mapa prechodov"
 
+#: ../../reference_manual/filters/map.rst:48
+#, fuzzy
+#| msgid "Gradient Map"
+msgid "Gradient"
+msgstr "Mapa prechodov"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
 msgstr ".. image:: images/en/Krita_filter_gradient_map.png"
 
 #: ../../reference_manual/filters/map.rst:55

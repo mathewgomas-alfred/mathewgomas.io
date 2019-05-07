@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,20 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:1
 msgid "The Pixel Brush Engine manual page."
-msgstr ""
+msgstr "介绍 Krita 的像素笔刷引擎。"
 
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:16
 msgid "Pixel Brush Engine"
 msgstr "像素笔刷引擎"
 
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr ""
+
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:19
 msgid ".. image:: images/icons/pixelbrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/pixelbrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:20
 msgid ""
@@ -37,26 +42,31 @@ msgid ""
 "the traditional mainstay of digital art. This brush paints impressions of "
 "the brush tip along your stroke with a greater or smaller density."
 msgstr ""
+"Krita 的笔刷列表是按照字母进行排序的。你启动 Krita 后默认选中的是一个 :"
+"guilabel:`像素笔刷` 。像素笔刷是数字美术的必备工具。它在你的笔迹上按照压力留"
+"下或大或小，或硬或软的笔画。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:24
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Popup.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:25
 msgid "Let's first review these mechanics:"
-msgstr ""
+msgstr "现在让我们复习一下像素笔刷的工作机制："
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:27
 msgid ""
 "select a brush tip. This can be a generated brush tip (round, square, star-"
 "shaped), a predefined bitmap brush tip, a custom brush tip or a text."
 msgstr ""
+"笔尖：笔尖可以使用自动生成的笔尖，它们可以被制作成圆形、矩形、星形等形状，也"
+"可以使用预制的位图笔尖、还可以把自定义文字作为笔尖。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:28
 msgid ""
 "select the spacing: this determines how many impressions of the tip will be "
 "made along your stroke"
-msgstr ""
+msgstr "间距：此项控制一条笔画中上的笔尖印迹的疏密程度。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:29
 msgid ""
@@ -65,6 +75,8 @@ msgid ""
 "the currently painted brush tip instance -- some applications call that a "
 "\"dab\"."
 msgstr ""
+"效果：你可以把笔刷的颜色、不透明度等选项映射到压感笔的压力、绘制速度等传感器"
+"上，从而实现更丰富多变的效果。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:30
 msgid ""
@@ -73,95 +85,101 @@ msgid ""
 "complete stroke is computed and put on your layer. You will see the stroke "
 "grow while painting in both cases, of course!"
 msgstr ""
+"在“绘画模式”选项中可以切换“堆积”和“冲刷”两种模式。大致上说，在堆积模式下同一"
+"条笔画在同一位置反复描绘会使颜色不断加深；而在冲刷模式下同一条笔画的笔迹无论"
+"如何重叠也会保持颜色均匀，直到画下一笔时才会在重叠位置加深。详情请参考： :"
+"ref:`option_opacity_n_flow` 。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:32
 msgid ""
 "Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the "
 "default brush being the fastest mask."
 msgstr ""
+"像素笔刷引擎从 Krita 4.0 版开始使用多线程笔尖，而“默认”笔尖蒙版的处理速度是三"
+"种蒙版中最快的。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:34
 msgid "Available Options:"
-msgstr ""
+msgstr "可用笔刷选项："
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:36
 msgid ":ref:`option_brush_tip`"
-msgstr ""
+msgstr ":ref:`option_brush_tip`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:37
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:38
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:39
 msgid ":ref:`option_size`"
-msgstr ""
+msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:40
 msgid ":ref:`option_ratio`"
-msgstr ""
+msgstr ":ref:`option_ratio`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:41
 msgid ":ref:`option_spacing`"
-msgstr ""
+msgstr ":ref:`option_spacing`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:42
 msgid ":ref:`option_mirror`"
-msgstr ""
+msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:43
 msgid ":ref:`option_softness`"
-msgstr ""
+msgstr ":ref:`option_softness`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:44
 msgid ":ref:`option_sharpness`"
-msgstr ""
+msgstr ":ref:`option_sharpness`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:45
 msgid ":ref:`option_rotation`"
-msgstr ""
+msgstr ":ref:`option_rotation`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:46
 msgid ":ref:`option_scatter`"
-msgstr ""
+msgstr ":ref:`option_scatter`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:47
 msgid ":ref:`option_source`"
-msgstr ""
+msgstr ":ref:`option_source`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:48
 msgid ":ref:`option_mix`"
-msgstr ""
+msgstr ":ref:`option_mix`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:49
 msgid ":ref:`option_airbrush`"
-msgstr ""
+msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:50
 msgid ":ref:`option_texture`"
-msgstr ""
+msgstr ":ref:`option_texture`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:51
 msgid ":ref:`option_masked_brush`"
-msgstr ""
+msgstr ":ref:`option_masked_brush`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:54
 msgid "Specific Parameters to the Pixel Brush Engine"
-msgstr ""
+msgstr "像素笔刷引擎的特有选项"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:57
 msgid "Darken"
-msgstr "模糊"
+msgstr "变暗"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:59
 msgid "Allows you to Darken the source color with Sensors."
-msgstr ""
+msgstr "此选项控制传感器对来源颜色变暗效果的影响。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:62
-msgid ".. image:: images/en/Krita_2_9_brushengine_darken_01.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_darken_01.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:63
@@ -169,31 +187,35 @@ msgid ""
 "The color will always become black in the end, and will work with Plain "
 "Color, Gradient and Uniform random as source."
 msgstr ""
+"启用变暗选项后，笔刷的颜色会越画越暗，直到变黑。此选项可以与纯色、渐变和笔尖"
+"随机等来源颜色配合使用。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:66
 msgid "Hue, Saturation, Value"
-msgstr "色调、饱和度、亮度"
+msgstr "色相、饱和度、明度"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:68
 msgid ""
 "These parameters allow you to do an HSV adjustment filter on the :ref:"
 "`option_source` and control it with Sensors."
 msgstr ""
+"这些选项可以在 :ref:`option_source` 颜色上面应用 HSV 调整滤镜，并通过传感器控"
+"制其效果。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
-msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_01.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:72
 msgid "Works with Plain Color, Gradient and Uniform random as source."
-msgstr ""
+msgstr "它们可以和纯色、渐变和笔尖随机等来源颜色配合使用。"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:75
 msgid "Uses"
-msgstr "使用"
+msgstr "用例"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:78
-msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_02.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_02.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:79
@@ -201,3 +223,5 @@ msgid ""
 "Having all three parameters on Fuzzy will help with rich color texture. In "
 "combination with :ref:`option_mix`, you can have even finer control."
 msgstr ""
+"将这三个选项配合随机度传感器使用可以绘制出颜色丰富多变的肌理。你还可以把它们"
+"与 :ref:`option_mix` 选项配合使用，进行更细腻的控制。"

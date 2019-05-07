@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___color_smudge_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__color_smudge_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-08 03:43+0200\n"
-"PO-Revision-Date: 2019-04-08 07:06+0300\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"PO-Revision-Date: 2019-05-06 07:11+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,9 +33,22 @@ msgstr ""
 msgid "The Color Smudge Brush Engine manual page."
 msgstr "Сторінка підручника щодо рушія пензлів розмазування."
 
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:18
 msgid "Color Smudge Brush Engine"
 msgstr "Рушій пензлів розмазування кольорів"
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
+msgid "Brush Engine"
+msgstr "Рушій пензлів"
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
+msgid "Color Mixing"
+msgstr "Змішування кольорів"
+
+#: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:13
+msgid "Smudge"
+msgstr "Розмазування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:22
 msgid ".. image:: images/icons/colorsmudge.svg"
@@ -120,8 +133,8 @@ msgstr ""
 "`option_smudge_length` та :ref:`option_smudge_radius`"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
-msgid ".. image:: images/en/Krita_2_9_brushengine_colorrate_04.png"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_colorrate_04.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_colorrate_04.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_colorrate_04.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:58
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:115
@@ -134,12 +147,13 @@ msgstr ""
 "Впливає на розмазування і надає змогу визначити його за допомогою датчиків."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:62
-msgid "There's two major types:"
+#| msgid "There's two major types:"
+msgid "There are two major types:"
 msgstr "Передбачено два основних типи:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:65
-msgid ".. image:: images/en/Krita_2.9_brush_engine_smudge_length_03.png"
-msgstr ".. image:: images/en/Krita_2.9_brush_engine_smudge_length_03.png"
+msgid ".. image:: images/brushes/Krita_2.9_brush_engine_smudge_length_03.png"
+msgstr ".. image:: images/brushes/Krita_2.9_brush_engine_smudge_length_03.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:66
 msgid "Smearing"
@@ -168,8 +182,8 @@ msgstr ""
 "згладженого типу малювання."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:74
-msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_01.png"
-msgstr ".. image:: images/en/Krita_2.9_brushengine_smudge_length_01.png"
+msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_01.png"
+msgstr ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:76
 msgid "Strength"
@@ -187,8 +201,8 @@ msgstr ""
 "зменшуватиметься залежно від інтервалу та значень непрозорості/потоку."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:79
-msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_length_02.png"
-msgstr ".. image:: images/en/Krita_2.9_brushengine_smudge_length_02.png"
+msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_02.png"
+msgstr ".. image:: images/brushes/Krita_2.9_brushengine_smudge_length_02.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:83
 msgid "Smudge Radius"
@@ -212,8 +226,8 @@ msgstr ""
 "допомогою пункту :guilabel:`Датчики`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:90
-msgid ".. image:: images/en/Krita_2.9_brushengine_smudge_radius_01.png"
-msgstr ".. image:: images/en/Krita_2.9_brushengine_smudge_radius_01.png"
+msgid ".. image:: images/brushes/Krita_2.9_brushengine_smudge_radius_01.png"
+msgstr ".. image:: images/brushes/Krita_2.9_brushengine_smudge_radius_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:92
 msgid "Overlay"
@@ -272,8 +286,8 @@ msgstr ""
 "власним кольором, а потім малює сумішшю."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:113
-msgid ".. image:: images/en/Krita-tutorial5-I.1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:117
 msgid ""
@@ -284,8 +298,8 @@ msgstr ""
 "зміни кольорів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:120
-msgid ".. image:: images/en/Krita-tutorial5-I.2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:121
 msgid "Common behaviors:"
@@ -357,8 +371,8 @@ msgid "Color Rate, Gradient and Blending modes"
 msgstr "Зміна кольорів, градієнт і режими змішування"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:139
-msgid ".. image:: images/en/Krita-tutorial5-I.3.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.3.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.3.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.3.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:140
 msgid ""
@@ -381,8 +395,8 @@ msgstr ""
 "пензля, що і для піксельного пензля!"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:148
-msgid ".. image:: images/en/Krita-tutorial5-I.4.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.4.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.4.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.4.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:149
 msgid ""
@@ -417,8 +431,8 @@ msgstr ""
 "піксельним пензлем. Зокрема, параметр розсіювання стає набагато значущішим."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:159
-msgid ".. image:: images/en/Krita-tutorial5-I.5-1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.5-1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.5-1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.5-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:160
 msgid "A few things to note:"
@@ -452,8 +466,8 @@ msgstr ""
 "безпосередньо під кінчиком пензля:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:167
-msgid ".. image:: images/en/Krita-tutorial5-I.5-2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.5-2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.5-2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.5-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:169
 msgid "Other color behaviors: Gradient, Blending modes, Overlay mode"
@@ -474,8 +488,8 @@ msgstr ""
 "змінюватиметься між кінцевими кольорами градієнта."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:177
-msgid ".. image:: images/en/Krita-tutorial5-I.6-1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-I.6-1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-I.6-1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-I.6-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:178
 msgid "You can either:"
@@ -582,8 +596,8 @@ msgid "Smudge away"
 msgstr "Розмазування назовні"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:217
-msgid ".. image:: images/en/Krita-tutorial5-II.2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-II.2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-II.2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-II.2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:218
 msgid ""
@@ -717,8 +731,8 @@ msgstr ""
 "«текстурованого змішування»."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:251
-msgid ".. image:: images/en/Krita-tutorial5-II.3.png"
-msgstr ".. image:: images/en/Krita-tutorial5-II.3.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-II.3.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-II.3.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:252
 msgid "Basically you can paint first and add textured transitions after."
@@ -788,8 +802,8 @@ msgstr ""
 "підлеглого шару, інакше кольори буде зіпсовано додатковим редагуванням."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:274
-msgid ".. image:: images/en/Krita-tutorial5-III.1-1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.1-1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.1-1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.1-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:276
 msgid "Issue with transparency"
@@ -818,8 +832,8 @@ msgid "But it won't look so great when you add something underneath"
 msgstr "Але усе вже не так чудово, якщо ви додаєте щось під розфарбоване"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:286
-msgid ".. image:: images/en/Krita-tutorial5-III.1-2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.1-2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.1-2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.1-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:287
 msgid "The solution is pretty simple though:"
@@ -859,8 +873,8 @@ msgstr ""
 "кольору."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:296
-msgid ".. image:: images/en/Krita-tutorial5-III.1-3.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.1-3.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.1-3.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.1-3.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:298
 msgid "Soft-shading"
@@ -913,8 +927,8 @@ msgstr ""
 "guilabel:`Непрозорість`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:310
-msgid ".. image:: images/en/Krita-tutorial5-III.2-1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.2-1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.2-1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.2-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:311
 msgid ""
@@ -941,8 +955,8 @@ msgstr ""
 "`Ctrl` + |mouseleft|, а потім послідовно використав їх для плавних переходів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:317
-msgid ".. image:: images/en/Krita-tutorial5-III.2-2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.2-2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.2-2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.2-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:319
 msgid "Painting: thick oil style"
@@ -987,8 +1001,8 @@ msgstr ""
 "компенсувати збільшення змішування кольорів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:331
-msgid ".. image:: images/en/Krita-tutorial5-III.3-1.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.3-1.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.3-1.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.3-1.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:332
 msgid ""
@@ -1002,8 +1016,8 @@ msgstr ""
 "(приклад внизу праворуч)."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:335
-msgid ".. image:: images/en/Krita-tutorial5-III.3-2.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.3-2.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.3-2.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.3-2.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:336
 msgid ""
@@ -1021,8 +1035,8 @@ msgstr ""
 "овальний кінчик пензля та динаміку :menuselection:`Обертання --> Відстань`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:339
-msgid ".. image:: images/en/Krita-tutorial5-III.3-3.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.3-3.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.3-3.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.3-3.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:341
 msgid "Painting: Digital watercolor style"
@@ -1062,8 +1076,8 @@ msgstr ""
 "кольорів для отримання різних результатів."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:350
-msgid ".. image:: images/en/Krita-tutorial5-III.4.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.4.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.4.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.4.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:352
 msgid "Blurring"
@@ -1090,8 +1104,8 @@ msgstr ""
 "скористайтеся розмиванням. Якщо бути точним, ефектом гаусового розмивання."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:362
-msgid ".. image:: images/en/Krita-tutorial5-III.5.png"
-msgstr ".. image:: images/en/Krita-tutorial5-III.5.png"
+msgid ".. image:: images/brushes/Krita-tutorial5-III.5.png"
+msgstr ".. image:: images/brushes/Krita-tutorial5-III.5.png"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:363
 msgid "And there you go. That last little trick concludes this tutorial."

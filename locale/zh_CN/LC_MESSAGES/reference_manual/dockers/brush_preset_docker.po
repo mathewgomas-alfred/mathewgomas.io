@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -31,10 +31,26 @@ msgid ""
 "   :alt: mouseright"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
-"   :alt: mouseright"
+"   :alt: 鼠标右键"
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:1
 msgid "Overview of the brush presets docker."
+msgstr "介绍 Krita 的笔刷预设工具面板。"
+
+#: ../../reference_manual/dockers/brush_preset_docker.rst:11
+msgid "Brush Preset"
+msgstr ""
+
+#: ../../reference_manual/dockers/brush_preset_docker.rst:11
+msgid "Brush"
+msgstr ""
+
+#: ../../reference_manual/dockers/brush_preset_docker.rst:11
+msgid "Presets"
+msgstr ""
+
+#: ../../reference_manual/dockers/brush_preset_docker.rst:11
+msgid "Paintop Presets"
 msgstr ""
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:16
@@ -42,7 +58,7 @@ msgid "Preset Docker"
 msgstr "笔刷预设"
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:19
-msgid ".. image:: images/en/Krita_Brush_Preset_Docker.png"
+msgid ".. image:: images/dockers/Krita_Brush_Preset_Docker.png"
 msgstr ""
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:20
@@ -50,10 +66,12 @@ msgid ""
 "This docker allows you to switch the current brush you're using, as well as "
 "tagging the brushes."
 msgstr ""
+"你可以通过此工具面板切换笔刷和对它们的标签进行管理。如需了解各个自带笔刷的用"
+"法，可参考 :ref:`krita_4_preset_bundle` 。"
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:22
 msgid "Just |mouseleft| on an icon to switch to that brush!"
-msgstr ""
+msgstr "在一个笔刷上左键单击 |mouseleft| 可以切换到该笔刷。"
 
 #: ../../reference_manual/dockers/brush_preset_docker.rst:25
 msgid "Tagging"
@@ -62,3 +80,6 @@ msgstr "标签管理"
 #: ../../reference_manual/dockers/brush_preset_docker.rst:27
 msgid "|mouseright| a brush to add a tag or remove a tag."
 msgstr ""
+"在一个笔刷上右键单击 |mouseright| 可以添加或者移除标签。详细的操作方式请参考"
+"用户手册的 :ref:`标签管理页面 <tag_management>` 和 :ref:`资源管理页面 "
+"<resource_management>` 。"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-20 10:48+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:14+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,11 +18,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:1
 msgid "Overview of the grids and guides docker."
 msgstr "Overzicht van de vastzetter Rasters en hulplijnen."
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#: ../../reference_manual/dockers/grids_and_guides.rst:63
+msgid "Guides"
+msgstr "Hulplijnen"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#| msgid "Grids"
+msgid "Grid"
+msgstr "Raster"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#| msgid "Isometric"
+msgid "Isometric Grid"
+msgstr "Isometrisch raster"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+msgid "Orthogonal Grid"
+msgstr "Orthogonaal raster"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:17
 msgid "Grids and Guides Docker"
@@ -156,7 +175,7 @@ msgid "Controls the look of the grid’s “subdivision” lines."
 msgstr ""
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:59
-msgid ".. image:: images/en/Grid_sudvision.png"
+msgid ".. image:: images/dockers/Grid_sudvision.png"
 msgstr ""
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:60
@@ -166,10 +185,6 @@ msgid ""
 "different look."
 msgstr ""
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:63
-msgid "Guides"
-msgstr "Hulplijnen"
-
 #: ../../reference_manual/dockers/grids_and_guides.rst:65
 msgid ""
 "Guides are horizontal and vertical reference lines. You can use them to "
@@ -177,7 +192,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:68
-msgid ".. image:: images/en/Guides.jpg"
+msgid ".. image:: images/dockers/Guides.jpg"
 msgstr ""
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:70

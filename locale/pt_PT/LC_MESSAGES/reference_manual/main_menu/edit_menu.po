@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-28 12:11+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -22,37 +22,47 @@ msgstr ""
 msgid "The edit menu in Krita."
 msgstr "O menu de edição no Krita."
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:16
 msgid "Edit"
 msgstr "Editar"
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:19
 msgid "Undo"
 msgstr "Desfazer"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:22
+msgid "Redo"
+msgstr "Refazer"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:25
+msgid "Cut"
+msgstr "Cortar"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:28
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:40
+msgid "Paste"
+msgstr "Colar"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
 msgstr "Anula a última acção. :kbd:`Ctrl + Z`"
 
-#: ../../reference_manual/main_menu/edit_menu.rst:22
-msgid "Redo"
-msgstr "Refazer"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
 msgstr "Repete a última acção anulada. :kbd:`Ctrl + shift+ Z`"
 
-#: ../../reference_manual/main_menu/edit_menu.rst:25
-msgid "Cut"
-msgstr "Cortar"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
 msgstr "Corta a selecção ou camada. :kbd:`Ctrl + X`"
-
-#: ../../reference_manual/main_menu/edit_menu.rst:28
-msgid "Copy"
-msgstr "Copiar"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
@@ -85,10 +95,6 @@ msgstr "Copiar Reunido"
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
 msgstr "Copia a selecção por todas as camadas. :kbd:`Ctrl + Shift + C`"
-
-#: ../../reference_manual/main_menu/edit_menu.rst:40
-msgid "Paste"
-msgstr "Colar"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"

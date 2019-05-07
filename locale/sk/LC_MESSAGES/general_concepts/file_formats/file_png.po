@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___file_formats___file_pngm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-01 14:11+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -19,6 +19,22 @@ msgstr ""
 #: ../../general_concepts/file_formats/file_png.rst:1
 msgid "The Portable Network Graphics file format in Krita."
 msgstr "Súborový formát Portable Network Graphics v Krita."
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+#, fuzzy
+#| msgid "\\*.png"
+msgid "*.png"
+msgstr "\\*.png"
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+#, fuzzy
+#| msgid "\\*.png"
+msgid "png"
+msgstr "\\*.png"
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+msgid "portable network graphics"
+msgstr ""
 
 #: ../../general_concepts/file_formats/file_png.rst:17
 msgid "\\*.png"
@@ -47,4 +63,12 @@ msgid ""
 "png doesn't support animation. There have been two attempts at giving "
 "animation support to png, apng and mng, the former is unofficial and the "
 "latter too complicated, so neither have really taken off yet."
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_png.rst:25
+msgid ""
+"Since 4.2 we support saving HDR to PNG as according to the `W3C PQ HDR PNG "
+"standard <https://www.w3.org/TR/png-hdr-pq/>`_. To save as such files, "
+"toggle :guilabel:`Save as HDR image (Rec. 2020 PQ)`, which will convert your "
+"image to the Rec 2020 PQ color space and then save it as a special HDR png."
 msgstr ""

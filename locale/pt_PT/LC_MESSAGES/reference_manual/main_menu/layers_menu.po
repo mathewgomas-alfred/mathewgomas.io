@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-01 14:25+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -27,9 +27,73 @@ msgstr "Estilo de camadas (2.9.5+)"
 msgid "The layers menu in Krita."
 msgstr "O menu de camadas no Krita."
 
+#: ../../reference_manual/main_menu/layers_menu.rst:11
 #: ../../reference_manual/main_menu/layers_menu.rst:16
 msgid "Layers"
 msgstr "Camadas"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:75
+msgid "Convert"
+msgstr "Converter"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:115
+msgid "Transform"
+msgstr "Transformar"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Histogram"
+msgstr "Histograma"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Cut Layer (3.0+)"
+msgid "Cut Layer"
+msgstr "Cortar a Camada (3.0+)"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Copy Layer (3.0+)"
+msgid "Copy Layer"
+msgstr "Copiar a Camada (3.0+)"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Paint Layer"
+msgid "Paste Layer"
+msgstr "Camada de Pintura"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Import Layer"
+msgid "Import"
+msgstr "Importar uma Camada"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Import/Export"
+msgid "Export"
+msgstr "Importar/Exportar"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Edit Metadata"
+msgid "Metadata"
+msgstr "Editar os Meta-Dados"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Flatten Layer"
+msgid "Flatten"
+msgstr "Achatar a Camada"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Layerstyle (2.9.5+)"
+msgid "Layer Style"
+msgstr "Estilo de camadas (2.9.5+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:18
 msgid ""
@@ -241,10 +305,6 @@ msgstr ""
 "camada animada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
-msgid "Convert"
-msgstr "Converter"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert Layer Color Space"
 msgstr "Converter o Espaço de Cores da Camada"
 
@@ -375,10 +435,6 @@ msgstr ""
 "Inclina os pixels da camada de acordo com os ângulos em X e Y indicados."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
-msgid "Transform"
-msgstr "Transformar"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset Layer"
 msgstr "Deslocamento da Camada"
 
@@ -403,7 +459,9 @@ msgid "Split Layer"
 msgstr "Dividir a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
-msgid "Split the layer into given color fields."
+#, fuzzy
+#| msgid "Split the layer into given color fields."
+msgid ":ref:`Split the layer <split_layer>` into given color fields."
 msgstr "Divide a camada pelos campos de cores indicados."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
@@ -415,9 +473,13 @@ msgid "Clones Array"
 msgstr "Lista de Clones"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
+#, fuzzy
+#| msgid ""
+#| "A complex bit of functionality to generate clone-layers for quick sprite "
+#| "making."
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
-"making."
+"making. See :ref:`clones_array` for more details."
 msgstr ""
 "Uma funcionalidade complexa para gerar camadas de clonagem para a criação "
 "rápida de bonecos animados."
@@ -430,48 +492,48 @@ msgstr "Editar os Meta-Dados"
 msgid "Each layer can have its own metadata."
 msgstr "Cada camada poderá ter os seus próprios meta-dados."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:129
-msgid "Histogram"
-msgstr "Histograma"
-
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
 msgstr "Mostra um histograma."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:131
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Removed. Use the :ref:`histogram_docker` instead."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"
 msgstr "Reunir com a Camada Abaixo"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:132
+#: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Merge a layer down."
 msgstr "Reune uma camada com os valores abaixo."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:133
+#: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten Layer"
 msgstr "Achatar a Camada"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:134
+#: ../../reference_manual/main_menu/layers_menu.rst:139
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
 msgstr ""
 "Projecta todos os elementos de uma Camada de Grupo ou as máscaras numa outra "
 "camada."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:135
+#: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Rasterize Layer"
 msgstr "Rasterizar a Camada"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:136
+#: ../../reference_manual/main_menu/layers_menu.rst:141
 msgid "For making vectors into raster layers."
 msgstr "Para transformar camadas vectoriais em rasterizadas."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:137
+#: ../../reference_manual/main_menu/layers_menu.rst:142
 msgid "Flatten Image"
 msgstr "Achatar a Imagem"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:138
+#: ../../reference_manual/main_menu/layers_menu.rst:143
 msgid "Flatten all layers into one."
 msgstr "Projecta todas as camadas numa só."
 
-#: ../../reference_manual/main_menu/layers_menu.rst:140
+#: ../../reference_manual/main_menu/layers_menu.rst:145
 msgid "Set the PS-style layerstyle"
 msgstr "Aplica o estilo de camadas ao estilo do PS"

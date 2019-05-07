@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 17:14+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 13:34+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,11 +18,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../general_concepts/file_formats/file_bmp.rst:1
 msgid "The Bitmap file format."
 msgstr "Het bestandsformaat Bitmap."
+
+#: ../../general_concepts/file_formats/file_bmp.rst:10
+msgid "*.bmp"
+msgstr "*.bmp"
+
+#: ../../general_concepts/file_formats/file_bmp.rst:10
+msgid "BMP"
+msgstr "BMP"
+
+#: ../../general_concepts/file_formats/file_bmp.rst:10
+msgid "Bitmap Fileformat"
+msgstr "Bestandsformaat Bitmap"
 
 #: ../../general_concepts/file_formats/file_bmp.rst:15
 msgid "\\*.bmp"
@@ -33,6 +45,9 @@ msgid ""
 ".bmp, or Bitmap, is the simplest raster file format out there, and, being "
 "patent-free, most programs can open and save bitmap files."
 msgstr ""
+".bmp of bitmap, is het eenvoudigste rasterbestandsformaat beschikbaar en, "
+"zonder patent, kunnen de meeste programma's bitmapbestanden openen en "
+"opslaan."
 
 #: ../../general_concepts/file_formats/file_bmp.rst:19
 msgid ""
@@ -40,3 +55,6 @@ msgid ""
 "reputation for being very heavy. If you need a lossless file format, we "
 "actually recommend :ref:`file_png`."
 msgstr ""
+"De meeste programma's comprimeren bitmapbestanden niet, wat leidt tot een "
+"reputatie, dat BMP zeer zwaar is. Als u een bestandsformaat zonder verlies "
+"nodig heeft, dan bevelen we in werkelijkheid aan :ref:`file_png`."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-07 03:38+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-07 12:31+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -20,17 +20,29 @@ msgstr ""
 "X-POFile-SpellExtra: images\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Lens-blur-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Lens-blur-filter.png"
+msgid ".. image:: images/filters/Lens-blur-filter.png"
 msgstr ".. image:: images/en/Lens-blur-filter.png"
 
 #: ../../reference_manual/filters/blur.rst:1
 msgid "Overview of the blur filters."
 msgstr "Introdução aos filtros de borrão."
 
+#: ../../reference_manual/filters/blur.rst:10
 #: ../../reference_manual/filters/blur.rst:15
 #: ../../reference_manual/filters/blur.rst:39
 msgid "Blur"
 msgstr "Borrar"
+
+#: ../../reference_manual/filters/blur.rst:10
+#: ../../reference_manual/filters/blur.rst:25
+msgid "Gaussian Blur"
+msgstr "Borrão Gaussiano"
+
+#: ../../reference_manual/filters/blur.rst:10
+msgid "Filters"
+msgstr ""
 
 #: ../../reference_manual/filters/blur.rst:17
 msgid ""
@@ -45,16 +57,14 @@ msgstr ""
 "resultado da aplicação do filtro de borrão à imagem da esquerda"
 
 #: ../../reference_manual/filters/blur.rst:21
-msgid ".. image:: images/en/Blur.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Blur.png"
+msgid ".. image:: images/filters/Blur.png"
 msgstr ".. image:: images/en/Blur.png"
 
 #: ../../reference_manual/filters/blur.rst:22
 msgid "There are many different filters for blurring:"
 msgstr "Existem diversos filtros diferentes para borrões:"
-
-#: ../../reference_manual/filters/blur.rst:25
-msgid "Gaussian Blur"
-msgstr "Borrão Gaussiano"
 
 #: ../../reference_manual/filters/blur.rst:27
 msgid ""
@@ -65,7 +75,9 @@ msgstr ""
 "borrão."
 
 #: ../../reference_manual/filters/blur.rst:30
-msgid ".. image:: images/en/Gaussian-blur.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Gaussian-blur.png"
+msgid ".. image:: images/filters/Gaussian-blur.png"
 msgstr ".. image:: images/en/Gaussian-blur.png"
 
 #: ../../reference_manual/filters/blur.rst:32
@@ -83,7 +95,9 @@ msgstr ""
 "é normalmente usado para criar os efeitos de objectos em rápido movimento."
 
 #: ../../reference_manual/filters/blur.rst:37
-msgid ".. image:: images/en/Motion-blur.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Motion-blur.png"
+msgid ".. image:: images/filters/Motion-blur.png"
 msgstr ".. image:: images/en/Motion-blur.png"
 
 #: ../../reference_manual/filters/blur.rst:41
@@ -91,7 +105,9 @@ msgid "This filter creates a regular blur"
 msgstr "Este filtro cria um borrão normal"
 
 #: ../../reference_manual/filters/blur.rst:44
-msgid ".. image:: images/en/Blur-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Blur-filter.png"
+msgid ".. image:: images/filters/Blur-filter.png"
 msgstr ".. image:: images/en/Blur-filter.png"
 
 #: ../../reference_manual/filters/blur.rst:46

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___main_menu___select_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 03:25+0100\n"
-"PO-Revision-Date: 2019-02-22 06:26+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:45+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,6 +24,10 @@ msgstr ""
 #: ../../reference_manual/main_menu/select_menu.rst:1
 msgid "The select menu in Krita."
 msgstr "Меню вибору у Krita."
+
+#: ../../reference_manual/main_menu/select_menu.rst:11
+msgid "Selection"
+msgstr "Позначення"
 
 #: ../../reference_manual/main_menu/select_menu.rst:16
 msgid "Select Menu"
@@ -55,53 +59,64 @@ msgstr "Повторно позначити область, позначення
 
 #: ../../reference_manual/main_menu/select_menu.rst:28
 msgid "Invert Selection"
-msgstr ""
-"Інвертувати позначене\n"
-"інвертування позначеного"
+msgstr "Інвертувати позначене"
 
 #: ../../reference_manual/main_menu/select_menu.rst:30
 msgid "Inverts the selection."
 msgstr "Інвертувати позначення."
 
 #: ../../reference_manual/main_menu/select_menu.rst:31
-msgid "Convert raster selection to vector selection."
-msgstr "Перетворити растрове позначення на векторне."
+msgid "Convert to Vector Selection."
+msgstr "Перетворити на векторний вибір"
 
 #: ../../reference_manual/main_menu/select_menu.rst:33
-msgid "--"
-msgstr "--"
+msgid ""
+"This converts a raster selection to a vector selection. Any layers of "
+"transparency there might have been are removed."
+msgstr ""
+"За допомогою цього пункту можна перетворити растрове позначення на векторне "
+"позначення. Усі шари прозорості буде при цьому вилучено."
 
 #: ../../reference_manual/main_menu/select_menu.rst:34
+msgid "Convert to Raster Selection."
+msgstr "Перетворити позначене на растр"
+
+#: ../../reference_manual/main_menu/select_menu.rst:36
+msgid "This converts a vector selection to a raster selection."
+msgstr ""
+"За допомогою цього пункту можна перетворити векторне позначення на растрове."
+
+#: ../../reference_manual/main_menu/select_menu.rst:37
 msgid "Convert Shapes to Vector Selection"
 msgstr "Перетворити позначені форми на векторні дані"
 
-#: ../../reference_manual/main_menu/select_menu.rst:36
+#: ../../reference_manual/main_menu/select_menu.rst:39
 msgid "Convert vector shape to vector selection"
 msgstr "Перетворити векторну форму на векторне позначення."
 
-#: ../../reference_manual/main_menu/select_menu.rst:37
+#: ../../reference_manual/main_menu/select_menu.rst:40
 msgid "Convert to shape"
 msgstr "Перетворити на форму"
 
-#: ../../reference_manual/main_menu/select_menu.rst:39
+#: ../../reference_manual/main_menu/select_menu.rst:42
 msgid "Converts vector selection to vector shape."
 msgstr "Перетворити векторну позначену області на векторну форму."
 
-#: ../../reference_manual/main_menu/select_menu.rst:40
+#: ../../reference_manual/main_menu/select_menu.rst:43
 msgid "Display Selection"
 msgstr "Показати вибране"
 
-#: ../../reference_manual/main_menu/select_menu.rst:42
+#: ../../reference_manual/main_menu/select_menu.rst:45
 msgid "Display the selection. If turned off selections will be invisible."
 msgstr ""
 "Показати позначене. Якщо зняти позначку з цього пункту, позначені області "
 "лишатимуться невидимими."
 
-#: ../../reference_manual/main_menu/select_menu.rst:43
+#: ../../reference_manual/main_menu/select_menu.rst:46
 msgid "Show Global Selection Mask"
 msgstr "Показати маску загального вибору"
 
-#: ../../reference_manual/main_menu/select_menu.rst:45
+#: ../../reference_manual/main_menu/select_menu.rst:48
 msgid ""
 "Shows the global selection as a selection mask in the layers docker. This is "
 "necessary to be able to select it for painting on."
@@ -110,27 +125,27 @@ msgstr ""
 "шарів. Такий пункт є обов'язковим для уможливлення його позначення для "
 "малювання на позначеній області."
 
-#: ../../reference_manual/main_menu/select_menu.rst:46
+#: ../../reference_manual/main_menu/select_menu.rst:49
 msgid "Scale"
 msgstr "Масштабувати"
 
-#: ../../reference_manual/main_menu/select_menu.rst:48
+#: ../../reference_manual/main_menu/select_menu.rst:51
 msgid "Scale the selection"
 msgstr "Масштабувати позначений фрагмент"
 
-#: ../../reference_manual/main_menu/select_menu.rst:49
+#: ../../reference_manual/main_menu/select_menu.rst:52
 msgid "Select from Color Range"
 msgstr "Позначити на основі діапазону кольорів"
 
-#: ../../reference_manual/main_menu/select_menu.rst:51
+#: ../../reference_manual/main_menu/select_menu.rst:54
 msgid "Select from a certain color range."
 msgstr "Позначити на основі певного діапазону кольорів."
 
-#: ../../reference_manual/main_menu/select_menu.rst:52
+#: ../../reference_manual/main_menu/select_menu.rst:55
 msgid "Select Opaque"
 msgstr "Вибрати непрозорість"
 
-#: ../../reference_manual/main_menu/select_menu.rst:54
+#: ../../reference_manual/main_menu/select_menu.rst:57
 msgid ""
 "Select all opaque (non-transparent) pixels in the current active layer. If "
 "there's already a selection, this will add the new selection to the old one, "
@@ -142,11 +157,11 @@ msgstr ""
 "пікселі декількох шарів у одній області позначення. Напіврозорі (або "
 "напівнепрозорі) пікселі буде позначено наполовину."
 
-#: ../../reference_manual/main_menu/select_menu.rst:55
+#: ../../reference_manual/main_menu/select_menu.rst:58
 msgid "Feather Selection"
 msgstr "Вигладити позначене"
 
-#: ../../reference_manual/main_menu/select_menu.rst:57
+#: ../../reference_manual/main_menu/select_menu.rst:60
 msgid ""
 "Feathering in design means to soften sharp borders. So this adds a soft "
 "border to the existing selection."
@@ -154,27 +169,27 @@ msgstr ""
 "У дизайні «вигладжування» — пом'якшення різких країв. За допомогою цього "
 "пункту можна додати м'який перехід для наявного позначення."
 
-#: ../../reference_manual/main_menu/select_menu.rst:58
+#: ../../reference_manual/main_menu/select_menu.rst:61
 msgid "Grow Selection"
 msgstr "Збільшити вибране"
 
-#: ../../reference_manual/main_menu/select_menu.rst:60
+#: ../../reference_manual/main_menu/select_menu.rst:63
 msgid "Make the selection a few pixels bigger."
 msgstr "Збільшити позначену область на декілька пікселів."
 
-#: ../../reference_manual/main_menu/select_menu.rst:61
+#: ../../reference_manual/main_menu/select_menu.rst:64
 msgid "Shrink Selection"
 msgstr "Зменшити вибране"
 
-#: ../../reference_manual/main_menu/select_menu.rst:63
+#: ../../reference_manual/main_menu/select_menu.rst:66
 msgid "Make the selection a few pixels smaller."
 msgstr "Зменшити позначену область на декілька пікселів."
 
-#: ../../reference_manual/main_menu/select_menu.rst:64
+#: ../../reference_manual/main_menu/select_menu.rst:67
 msgid "Border Selection"
 msgstr "Вибір меж"
 
-#: ../../reference_manual/main_menu/select_menu.rst:66
+#: ../../reference_manual/main_menu/select_menu.rst:69
 msgid ""
 "Take the current selection and remove the insides so you only have a border "
 "selected."
@@ -182,11 +197,14 @@ msgstr ""
 "Вилучити усю внутрішню частину позначеної області так, щоб позначеною "
 "лишилася лише її межа."
 
-#: ../../reference_manual/main_menu/select_menu.rst:67
+#: ../../reference_manual/main_menu/select_menu.rst:70
 msgid "Smooth"
 msgstr "Згладжування"
 
-#: ../../reference_manual/main_menu/select_menu.rst:69
+#: ../../reference_manual/main_menu/select_menu.rst:72
 msgid "Make the selection a little smoother. This removes jiggle."
 msgstr ""
 "Трохи згладити межу позначеної області. Надає змогу вилучити гострі виступи."
+
+#~ msgid "--"
+#~ msgstr "--"

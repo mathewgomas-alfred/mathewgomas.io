@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___dockers___onion_skin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-24 09:19+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 20:12+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,13 +24,21 @@ msgstr ""
 msgid "Overview of the onion skin docker."
 msgstr "Огляд бічної панелі кальки."
 
+#: ../../reference_manual/dockers/onion_skin.rst:10
+msgid "Animation"
+msgstr "Анімація"
+
+#: ../../reference_manual/dockers/onion_skin.rst:10
+msgid "Onion Skin"
+msgstr "Калька"
+
 #: ../../reference_manual/dockers/onion_skin.rst:15
 msgid "Onion Skin Docker"
 msgstr "Бічна панель кальки"
 
 #: ../../reference_manual/dockers/onion_skin.rst:18
-msgid ".. image:: images/en/Onion_skin_docker.png"
-msgstr ".. image:: images/en/Onion_skin_docker.png"
+msgid ".. image:: images/dockers/Onion_skin_docker.png"
+msgstr ".. image:: images/dockers/Onion_skin_docker.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:19
 msgid ""
@@ -43,8 +51,8 @@ msgstr ""
 "подібна до декількох листків кальки із зображенням, накладених один на одний."
 
 #: ../../reference_manual/dockers/onion_skin.rst:22
-msgid ".. image:: images/en/Onion_skin_01.png"
-msgstr ".. image:: images/en/Onion_skin_01.png"
+msgid ".. image:: images/dockers/Onion_skin_01.png"
+msgstr ".. image:: images/dockers/Onion_skin_01.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:23
 msgid ""
@@ -67,7 +75,21 @@ msgstr ""
 "непрозорим. (Krita вважає білий колір білим, а не прозорим, тому не анімуйте "
 "непрозорий шар, якщо ви хочете використовувати можливості кальки.)"
 
-#: ../../reference_manual/dockers/onion_skin.rst:27
+#: ../../reference_manual/dockers/onion_skin.rst:29
+msgid ""
+"Since 4.2 onion skins are disabled on layers whose default pixel is fully "
+"opaque. These layers can currently only be created by using :guilabel:"
+"`background as raster layer` in the :guilabel:`content` section of the new "
+"image dialog. Just don't try to animate on a layer like this if you rely on "
+"onion skins, instead make a new one."
+msgstr ""
+"Починаючи з версії 4.2, кальки вимкнено для шарів, типовий піксель яких є "
+"повністю непрозорим. Такі шари у поточній версії можна створити лише за "
+"допомогою позначення пункту :guilabel:`Тло як растровий шар` у розділі :"
+"guilabel:`Вміст` діалогового вікна створення зображення. Просто не створюйте "
+"анімацій на подібних шарах, якщо хочете користуватися кальками."
+
+#: ../../reference_manual/dockers/onion_skin.rst:31
 msgid ""
 "The term onionskin comes from the fact that onions are semi-transparent. In "
 "traditional animation animators would make their initial animations on "
@@ -85,7 +107,7 @@ msgstr ""
 "працюють, а стіл із підсвічуванням забезпечує просвічування ключових кадрів, "
 "отже, їх дуже просто використати як еталонні."
 
-#: ../../reference_manual/dockers/onion_skin.rst:29
+#: ../../reference_manual/dockers/onion_skin.rst:33
 msgid ""
 "Onion-skinning is a digital implementation of such a workflow, and it’s very "
 "useful when trying to animate."
@@ -93,11 +115,11 @@ msgstr ""
 "Воскові кальки у Krita є цифровою реалізацією звичайних кальок. Вони дуже "
 "корисні під час анімування."
 
-#: ../../reference_manual/dockers/onion_skin.rst:32
-msgid ".. image:: images/en/Onion_skin_02.png"
-msgstr ".. image:: images/en/Onion_skin_02.png"
+#: ../../reference_manual/dockers/onion_skin.rst:36
+msgid ".. image:: images/dockers/Onion_skin_02.png"
+msgstr ".. image:: images/dockers/Onion_skin_02.png"
 
-#: ../../reference_manual/dockers/onion_skin.rst:33
+#: ../../reference_manual/dockers/onion_skin.rst:37
 msgid ""
 "The slider and the button with zero offset control the master opacity and "
 "visibility of all the onion skins. The boxes at the top allow you to toggle "
@@ -111,7 +133,7 @@ msgstr ""
 "посередині визначає певний рівень основної прозорості, а повзунки обабіч "
 "нього надають вам змогу керувати прозорістю кальки окремих кадрів."
 
-#: ../../reference_manual/dockers/onion_skin.rst:35
+#: ../../reference_manual/dockers/onion_skin.rst:39
 msgid ""
 "Tint controls how strongly the frames are tinted, the first screen has 100%, "
 "which creates a silhouette, while below you can still see a bit of the "
@@ -121,7 +143,7 @@ msgstr ""
 "Перший кадр матиме 100% відтінок, який створюватиме чіткий силует, а кальки "
 "під ним можуть мати лише частку початкових кольорів, наприклад у 50%."
 
-#: ../../reference_manual/dockers/onion_skin.rst:37
+#: ../../reference_manual/dockers/onion_skin.rst:41
 msgid "Previous and next frame allows you set the colors."
 msgstr ""
 "Пункти попереднього і наступного кадрів надають вам змогу встановити кольори."

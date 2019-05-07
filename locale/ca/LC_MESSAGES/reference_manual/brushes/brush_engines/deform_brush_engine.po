@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 03:27+0100\n"
-"PO-Revision-Date: 2019-04-15 19:36+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Use Undeformed Image"
@@ -27,9 +27,22 @@ msgstr "Usa la imatge no deformada"
 msgid "The Deform Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de deformació."
 
+#: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:16
 msgid "Deform Brush Engine"
 msgstr "Motor del pinzell de deformació"
+
+#: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:11
+msgid "Deform"
+msgstr "Deforma"
+
+#: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:11
+msgid "Liquify"
+msgstr "Liqüescent"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:19
 msgid ".. image:: images/icons/deformbrush.svg"
@@ -41,6 +54,10 @@ msgid ""
 "It's quite similar to the :ref:`liquify_mode`, but where liquify has higher "
 "quality, the deform brush has the speed."
 msgstr ""
+"El Pinzell de deformació és un pinzell que permet tirar i empènyer dels "
+"píxels que hi ha al voltant. És força similar al :ref:`liquify_mode`, però "
+"on el liqüescent té millor qualitat, el pinzell de deformació té la "
+"velocitat."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:24
 msgid "Options"
@@ -79,18 +96,23 @@ msgid "Deform Options"
 msgstr "Opcions de la deformació"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:42
-msgid ".. image:: images/en/Krita_deform_brush_examples.png"
-msgstr ".. image:: images/en/Krita_deform_brush_examples.png"
+msgid ".. image:: images/brushes/Krita_deform_brush_examples.png"
+msgstr ".. image:: images/brushes/Krita_deform_brush_examples.png"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:42
 msgid ""
 "1: undeformed, 2: Move, 3: Grow, 4: Shrink, 5: Swirl Counter Clock Wise, 6: "
 "Swirl Clockwise, 7: Lens Zoom In, 8: Lens Zoom Out"
 msgstr ""
+"1: Sense deformar, 2: Mou, 3: Creix, 4: Encongeix, 5: Remolí en el sentit "
+"antihorari, 6: Remolí en el sentit horari, 7: Apropa el zoom de la lent, 8: "
+"Allunya el zoom de la lent"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:44
 msgid "These decide what strangeness may happen underneath your brush cursor."
 msgstr ""
+"Això decideix quin serà l'efecte estrany que succeirà sota el cursor del "
+"vostre pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:46
 msgid "Grow"
@@ -98,7 +120,7 @@ msgstr "Creix"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:47
 msgid "This bubbles up the area underneath the brush-cursor."
-msgstr ""
+msgstr "Genera una bombolla a l'àrea que es troba sota el cursor del pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:48
 msgid "Shrink"
@@ -106,23 +128,23 @@ msgstr "Encongeix"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:49
 msgid "This pinches the Area underneath the brush-cursor."
-msgstr ""
+msgstr "Pessiga l'àrea que es troba sota el cursor del pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:50
 msgid "Swirl Counter Clock Wise"
-msgstr ""
+msgstr "Remolí en el sentit antihorari"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:51
 msgid "Swirls the area counter clock wise."
-msgstr ""
+msgstr "Genera un remolí en el sentit antihorari sobre l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:52
 msgid "Swirl Clock Wise"
-msgstr ""
+msgstr "Remolí en el sentit horari"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:53
 msgid "Swirls the area clockwise."
-msgstr ""
+msgstr "Genera un remolí en el sentit horari sobre l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:54
 msgid "Move"
@@ -130,7 +152,7 @@ msgstr "Mou"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:55
 msgid "Nudges the area to the painting direction."
-msgstr ""
+msgstr "Empeny l'àrea cap a la direcció de la pintura."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:56
 msgid "Color Deformation"
@@ -139,6 +161,8 @@ msgstr "Deformació del color"
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:57
 msgid "This seems to randomly rearrange the pixels underneath the brush."
 msgstr ""
+"Sembla que torna a organitzar de forma aleatòria els píxels que es troben "
+"sota el cursor del pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:58
 msgid "Lens Zoom In"
@@ -146,7 +170,7 @@ msgstr "Apropa el zoom de la lent"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:59
 msgid "Literally paints a enlarged version of the area."
-msgstr ""
+msgstr "Pinta literalment una versió allargada de l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Lens Zoom Out"
@@ -154,15 +178,15 @@ msgstr "Allunya el zoom de la lent"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:61
 msgid "Paints a minimized version of the area."
-msgstr ""
+msgstr "Pinta una versió minimitzada de l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:65
-msgid ".. image:: images/en/Krita_deform_brush_colordeform.png"
-msgstr ".. image:: images/en/Krita_deform_brush_colordeform.png"
+msgid ".. image:: images/brushes/Krita_deform_brush_colordeform.png"
+msgstr ".. image:: images/brushes/Krita_deform_brush_colordeform.png"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:65
 msgid "Showing color deform."
-msgstr ""
+msgstr "Demostració de la deformació del color."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Deform Amount"
@@ -170,11 +194,11 @@ msgstr "Quantitat de deformació"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:68
 msgid "Defines the strength of the deformation."
-msgstr ""
+msgstr "Defineix la força de la deformació."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:72
-msgid ".. image:: images/en/Krita_deform_brush_bilinear.png"
-msgstr ".. image:: images/en/Krita_deform_brush_bilinear.png"
+msgid ".. image:: images/brushes/Krita_deform_brush_bilinear.png"
+msgstr ".. image:: images/brushes/Krita_deform_brush_bilinear.png"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:72
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:74
@@ -183,7 +207,7 @@ msgstr "Interpolació bilineal"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:75
 msgid "Smoothens the result. This causes calculation errors in 16bit."
-msgstr ""
+msgstr "Suavitza el resultat. Això causa errors de càlcul en els 16 bits."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:77
 msgid "Use Counter"
@@ -191,15 +215,16 @@ msgstr "Usa el comptador"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:77
 msgid "Slows down the deformation subtlety."
-msgstr ""
+msgstr "Desaccelera de forma subtil la deformació."
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:81
-msgid ".. image:: images/en/Krita_deform_brush_useundeformed.png"
-msgstr ".. image:: images/en/Krita_deform_brush_useundeformed.png"
+msgid ".. image:: images/brushes/Krita_deform_brush_useundeformed.png"
+msgstr ".. image:: images/brushes/Krita_deform_brush_useundeformed.png"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:81
 msgid "Without 'use undeformed' to the left and with to the right"
 msgstr ""
+"Sense l'opció «Usa la imatge no deformada» a l'esquerra i amb ella a la dreta"
 
 #: ../../reference_manual/brushes/brush_engines/deform_brush_engine.rst:84
 msgid ""
@@ -207,3 +232,7 @@ msgid ""
 "works better with some deform options than others. Move for example seems to "
 "almost stop working, but it works really well with Grow."
 msgstr ""
+"Crea mostres de la versió anterior de la imatge en lloc de l'actual. Això "
+"funciona millor amb algunes opcions de la deformació que amb altres. Amb "
+"l'opció Mou, per exemple, sembla que deixa de funcionar, però resulta "
+"realment bé amb l'opció Creix."

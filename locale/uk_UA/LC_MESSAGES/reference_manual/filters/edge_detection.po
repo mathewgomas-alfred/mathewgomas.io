@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___filters___edge_detection\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-05 18:42+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:41+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -26,17 +26,28 @@ msgid "XYZ"
 msgstr "XYZ"
 
 #: ../../reference_manual/filters/edge_detection.rst:None
-msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
-msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+msgid ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
+msgstr ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:1
 msgid "Overview of the edge detection filters."
 msgstr "Огляд фільтрів виявлення країв."
 
+#: ../../reference_manual/filters/edge_detection.rst:11
 #: ../../reference_manual/filters/edge_detection.rst:16
 #: ../../reference_manual/filters/edge_detection.rst:23
 msgid "Edge Detection"
 msgstr "Виявлення країв"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+#: ../../reference_manual/filters/edge_detection.rst:40
+#: ../../reference_manual/filters/edge_detection.rst:83
+msgid "Prewitt"
+msgstr "Прюїтт"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+msgid "Sobel"
+msgstr "Собель"
 
 #: ../../reference_manual/filters/edge_detection.rst:18
 msgid ""
@@ -63,8 +74,8 @@ msgstr ""
 "фільтрування."
 
 #: ../../reference_manual/filters/edge_detection.rst:33
-msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_edge_detection.png"
+msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
+msgstr ".. image:: images/filters/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
 msgid ""
@@ -100,11 +111,6 @@ msgid ""
 msgstr ""
 "Ядро, яке не є квадратним, на відміну від двох інших. Хоча це робить його "
 "швидшим, його використання призводить до ігнорування діагональних пікселів."
-
-#: ../../reference_manual/filters/edge_detection.rst:40
-#: ../../reference_manual/filters/edge_detection.rst:83
-msgid "Prewitt"
-msgstr "Прюїтт"
 
 #: ../../reference_manual/filters/edge_detection.rst:41
 #: ../../reference_manual/filters/edge_detection.rst:84
@@ -242,6 +248,14 @@ msgstr ""
 "Виявлення країв буде застосовано до копії зображення у відтінках сірого, а "
 "дані буде виведено до альфа-каналу зображення, тобто буде виведено лише "
 "лінії країв."
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+msgid "Height Map"
+msgstr "Карта висот"
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+msgid "Normal Map"
+msgstr "Нормальне картографування"
 
 #: ../../reference_manual/filters/edge_detection.rst:69
 msgid "Height to Normal Map"

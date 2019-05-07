@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
 "PO-Revision-Date: 2019-04-18 12:14+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -44,6 +44,10 @@ msgstr "Matemática"
 msgid "These blending modes are based on simple maths."
 msgstr "Estes modos matemáticos são baseados em contas matemáticas simples."
 
+#: ../../reference_manual/blending_modes/arithmetic.rst:18
+msgid "Addition (Blending Mode)"
+msgstr ""
+
 #: ../../reference_manual/blending_modes/arithmetic.rst:22
 msgid "Addition"
 msgstr "Adição"
@@ -65,8 +69,12 @@ msgstr ""
 "Mais Claro (0,9, 0,9, 0,9)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:33
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Addition_Gray_0.4_and_Gray_0.5_n.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -88,8 +96,12 @@ msgstr ""
 "1,2235, 0,8980) &rarr; Amarelo Muito Claro(1, 1, 0,8980)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:40
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Addition_Light_blue_and_Orange.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Light_blue_and_Orange.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -100,8 +112,12 @@ msgid "Red(1, 0, 0) + Gray(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
 msgstr "Vermelho(1, 0, 0) + Cinzento(0,5, 0,5, 0,5) = Rosa(1, 0,5, 0,5)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:47
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/Blending_modes_Addition_Red_plus_gray.png"
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Addition_Red_plus_gray.png"
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Addition_Red_plus_gray.png"
 msgstr ""
 ".. image:: images/blending_modes/Blending_modes_Addition_Red_plus_gray.png"
 
@@ -116,8 +132,12 @@ msgstr ""
 "adicionar o preto a qualquer cor, irá obter essa cor adicionada."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Addition_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -146,8 +166,12 @@ msgstr ""
 "Mais Claro(0,8, 0,8, 0,8)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:70
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Divide_Gray_0.4_and_Gray_0.5_n.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Divide_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -168,16 +192,24 @@ msgstr ""
 "1,0525, 11,7195) &rarr; Água(0,1608, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Divide_Light_blue_and_Orange.png"
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Divide_Light_blue_and_Orange."
-"png"
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Divide_Light_blue_and_Orange.png"
 msgstr ""
 ".. image:: images/blending_modes/Blending_modes_Divide_Light_blue_and_Orange."
 "png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:82
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Divide_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Divide_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -201,8 +233,12 @@ msgstr ""
 "-0,1, -0,1) &rarr; Preto(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:96
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -223,16 +259,24 @@ msgstr ""
 "0,2235, -0,102) &rarr; Verde Escuro(0,1608, 0,2235, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
 msgstr ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:108
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Inverse_Subtract_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -278,8 +322,12 @@ msgstr ""
 "Mais Escuro(0,2, 0,2, 0,2)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:129
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Multiply_Gray_0.4_and_Gray_0.5_n.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -300,16 +348,24 @@ msgstr ""
 "Verde(0,1608, 0,3740, 0,0584)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Multiply_Light_blue_and_Orange.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Light_blue_and_Orange.png"
 msgstr ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Multiply_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:141
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Multiply_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -340,8 +396,12 @@ msgstr ""
 "-0,1) &rarr; Preto(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:159
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -362,16 +422,24 @@ msgstr ""
 "0,0313, 0,7568) &rarr; Azul(0, 0,0313, 0,7568)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Subtract_Light_blue_and_Orange.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Light_blue_and_Orange.png"
 msgstr ""
 ".. image:: images/blending_modes/"
 "Blending_modes_Subtract_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:171
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Subtract_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"

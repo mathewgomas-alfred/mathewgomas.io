@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___preferences___g_mic_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-09 20:06+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 16:31+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,6 +24,22 @@ msgstr ""
 #: ../../reference_manual/preferences/g_mic_settings.rst:1
 msgid "How to setup G'Mic in Krita."
 msgstr "Як налаштувати спільну роботу G'Mic і Krita."
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:10
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:10
+msgid "Settings"
+msgstr "Параметри"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:10
+msgid "Filters"
+msgstr "Фільтри"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:10
+msgid "G'Mic"
+msgstr "G'Mic"
 
 #: ../../reference_manual/preferences/g_mic_settings.rst:15
 msgid "G'Mic Settings"
@@ -77,3 +93,48 @@ msgstr ""
 #: ../../reference_manual/preferences/g_mic_settings.rst:26
 msgid "Then restart Krita."
 msgstr "Далі, перезапустіть Krita."
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:30
+msgid "Updates to G'Mic"
+msgstr "Оновлення G'Mic"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:32
+msgid ""
+"There is a refresh button at the bottom of the G'Mic window that will update "
+"your version. You will need an internet connection to download the latest "
+"version."
+msgstr ""
+"У нижній частині вікна G'Mic розташовано кнопку оновлення, за допомогою якої "
+"можна оновити вашу версію. Для отримання найсвіжішої версії програми "
+"потрібне з'єднання з інтернетом."
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:34
+msgid ""
+"If you have issues downloading the update through the plugin, you can also "
+"do it manually. If you are trying to update and get an error, copy the URL "
+"that is displayed in the error dialog. It will be to a \".gmic\" file. "
+"Download it from from your web browser and place the file in one of the "
+"following directories."
+msgstr ""
+"Якщо у вас виникають проблеми із отриманням оновлено за допомогою цього "
+"додатка, ви можете отримати ці оновлення вручну. Якщо у відповідь на спробу "
+"оновлення програма повідомляє про помилку, скопіюйте показану у діалоговому "
+"вікні помилки адресу. Вона вказуватиме на файл «.gmic». Отримайте цей файл "
+"за допомогою свого браузера і збережіть його до одного з вказаних нижче "
+"каталогів."
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:36
+msgid "Windows : %APPDATA%/gmic/update2XX.gmic"
+msgstr "Windows : %APPDATA%/gmic/update2XX.gmic"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:37
+msgid "Linux : $HOME/.config/gmic/update2XX.gmic"
+msgstr "Linux : $HOME/.config/gmic/update2XX.gmic"
+
+#: ../../reference_manual/preferences/g_mic_settings.rst:39
+msgid ""
+"Load up the G'Mic plugin and press the refresh button for the version to "
+"update."
+msgstr ""
+"Завантажте додаток G'Mic і натисніть кнопку оновлення, щоб оновити додаток "
+"до сучаснішої версії."

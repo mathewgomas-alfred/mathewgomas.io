@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-25 16:09+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -37,6 +37,10 @@ msgstr ""
 msgid "Misc"
 msgstr "Diversos"
 
+#: ../../reference_manual/blending_modes/misc.rst:17
+msgid "Bumpmap (Blending Mode)"
+msgstr ""
+
 #: ../../reference_manual/blending_modes/misc.rst:21
 msgid "Bumpmap"
 msgstr "Mapa de Relevo"
@@ -46,8 +50,15 @@ msgid "This filter seems to both multiply and respect the alpha of the input."
 msgstr ""
 "Este filtro parece multiplicar e respeitar o valor do 'alfa' à entrada."
 
+#: ../../reference_manual/blending_modes/misc.rst:25
 #: ../../reference_manual/blending_modes/misc.rst:30
 msgid "Combine Normal Map"
+msgstr "Combinar o Mapa da Normal"
+
+#: ../../reference_manual/blending_modes/misc.rst:25
+#, fuzzy
+#| msgid "Combine Normal Map"
+msgid "Normal Map"
 msgstr "Combinar o Mapa da Normal"
 
 #: ../../reference_manual/blending_modes/misc.rst:32
@@ -59,6 +70,10 @@ msgstr ""
 "Um modo de mistura robusto a nível matemático para os mapas da normal, "
 "usando a `Mistura do Mapa da Normal Reorientado <http://blog.selfshadow.com/"
 "publications/blending-in-detail/>`_."
+
+#: ../../reference_manual/blending_modes/misc.rst:34
+msgid "Copy (Blending Mode)"
+msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -73,9 +88,13 @@ msgstr ""
 "de filtragem."
 
 #: ../../reference_manual/blending_modes/misc.rst:46
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Copy_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
-"png"
+".. image:: images/blending_modes/misc/"
+"Blending_modes_Copy_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
 "png"
@@ -83,6 +102,24 @@ msgstr ""
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid "Left: **Normal**. Right: **Copy**."
 msgstr "Esquerda: **Normal**. Direita: **Cópia**."
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy Red"
+msgstr "Copiar"
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+#, fuzzy
+#| msgid "Copy Red, Green, Blue"
+msgid "Copy Green"
+msgstr "Copiar o Vermelho, Verde, Azul"
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy Blue"
+msgstr "Copiar"
 
 #: ../../reference_manual/blending_modes/misc.rst:54
 msgid "Copy Red, Green, Blue"
@@ -107,8 +144,13 @@ msgstr ""
 "modo de mistura para 'copiar o vermelho'."
 
 #: ../../reference_manual/blending_modes/misc.rst:65
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel."
+#| "png"
 msgid ""
-".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
+".. image:: images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel."
+"png"
 msgstr ""
 ".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
 
@@ -129,8 +171,12 @@ msgstr ""
 "filtragem de inversão com o 'copiar o verde' por cima."
 
 #: ../../reference_manual/blending_modes/misc.rst:72
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Copy_Red_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Red_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -141,8 +187,12 @@ msgid "Left: **Normal**. Right: **Copy Red**."
 msgstr "Esquerda: **Normal**. Direita: **Copiar o Vermelho**."
 
 #: ../../reference_manual/blending_modes/misc.rst:78
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Copy_Green_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Green_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -153,8 +203,12 @@ msgid "Left: **Normal**. Right: **Copy Green**."
 msgstr "Esquerda: **Normal**. Direita: **Copiar o Verde**."
 
 #: ../../reference_manual/blending_modes/misc.rst:84
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"
@@ -164,6 +218,7 @@ msgstr ""
 msgid "Left: **Normal**. Right: **Copy Blue**."
 msgstr "Esquerda: **Normal**. Direita: **Copiar o Azul**."
 
+#: ../../reference_manual/blending_modes/misc.rst:86
 #: ../../reference_manual/blending_modes/misc.rst:90
 msgid "Dissolve"
 msgstr "Dissolver"
@@ -178,8 +233,12 @@ msgstr ""
 "espécie de transparência."
 
 #: ../../reference_manual/blending_modes/misc.rst:97
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/blending_modes/"
+#| "Blending_modes_Dissolve_Sample_image_with_dots.png"
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Dissolve_Sample_image_with_dots.png"
 msgstr ""
 ".. image:: images/blending_modes/"

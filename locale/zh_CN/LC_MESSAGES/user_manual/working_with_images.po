@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,33 @@ msgstr ""
 "docs_krita_org_user_manual___working_with_images.pot\n"
 
 #: ../../user_manual/working_with_images.rst:None
-msgid ".. image:: images/en/Infinite-canvas.png"
-msgstr ".. image:: images/en/Infinite-canvas.png"
+msgid ".. image:: images/Infinite-canvas.png"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:1
 msgid "Detailed steps on how images work in Krita"
 msgstr "详细介绍在 Krita 里面如何处理图像。"
+
+#: ../../user_manual/working_with_images.rst:12
+#: ../../user_manual/working_with_images.rst:58
+msgid "Metadata"
+msgstr "元数据"
+
+#: ../../user_manual/working_with_images.rst:12
+msgid "Image"
+msgstr ""
+
+#: ../../user_manual/working_with_images.rst:12
+msgid "Document"
+msgstr ""
+
+#: ../../user_manual/working_with_images.rst:12
+msgid "Raster"
+msgstr ""
+
+#: ../../user_manual/working_with_images.rst:12
+msgid "Vector"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:17
 msgid "Working with Images"
@@ -38,7 +59,7 @@ msgstr ""
 
 #: ../../user_manual/working_with_images.rst:23
 msgid "What do Images Contain?"
-msgstr "图像包含哪些内容？"
+msgstr "图像文件包含的数据"
 
 #: ../../user_manual/working_with_images.rst:25
 msgid ""
@@ -61,8 +82,8 @@ msgid ""
 "make the final image."
 msgstr ""
 "这里保存了颜料图层的主要数据。你用手绘笔刷工具绘制的笔画和颜色就被存放在这"
-"里。栅格图像记录了每一个像素的颜色，在放大后图像会产生马赛克。有些文件包含了"
-"多个这样的图层，它们从上到下依次叠放组成了最终图像。"
+"里。栅格图像记录了每一个像素的颜色，图像被放大时会产生马赛克。多图层文档可以"
+"包含多个栅格图层，它们从上到下依次叠放组成了最终图像。"
 
 #: ../../user_manual/working_with_images.rst:36
 msgid "A single layer file will usually only contain raster data."
@@ -82,7 +103,8 @@ msgid ""
 msgstr ""
 "这里保存的是一些数学运算，计算机通过这些运算决定如何绘制画面，这个特点使得它"
 "们具有更好的伸缩性。你只需要告诉该运算把坐标值增大 4 倍，生成的图像就可以跟着"
-"放大。矢量数据体积更小，可编辑性也更好，但代价是消耗更多的 CPU 资源。"
+"放大，而放大后的细节不会有任何损失。矢量数据的体积更小，可编辑性也更好，但代"
+"价是消耗更多的 CPU 资源。"
 
 #: ../../user_manual/working_with_images.rst:48
 msgid "Operation Data"
@@ -97,14 +119,10 @@ msgid ""
 "transparency masks and layer effects from PSD, but not load or save "
 "transform masks."
 msgstr ""
-"这里保存了软件在多个图层中进行的操作，例如用来调整其他图层颜色的滤镜图层、透"
-"明度蒙版、分组图层和变形蒙版等。不同软件的操作数据存在差异，Krita 对这些数据"
-"的支持情况取决于文件是由哪些软件生成的。例如，Krita 可以载入和保存 PSD 文件的"
-"分组、透明度蒙版和图层样式，但无法载入和保存它的变形蒙版。"
-
-#: ../../user_manual/working_with_images.rst:58
-msgid "Metadata"
-msgstr "元数据"
+"这里保存了软件在各种图层中进行的操作，例如用来调整其他图层颜色的滤镜图层、透"
+"明度蒙版、分组图层和变形蒙版等。不同软件的操作数据格式有所差别，Krita 对这些"
+"数据的支持情况取决于文件是由哪些软件生成的。例如，Krita 能够载入和保存 PSD 文"
+"件的分组、透明度蒙版和图层样式，但无法载入和保存它的变形蒙版。"
 
 #: ../../user_manual/working_with_images.rst:60
 msgid ""
@@ -125,8 +143,8 @@ msgid ""
 "be remembered and the higher the bit depth of the color, the heavier the "
 "resulting file will be."
 msgstr ""
-"图像大小包括了画布的尺寸和分辨率。图像大小直接影响 Krita 文档的体积。需要记录"
-"的像素越多，颜色的位深度越高，则生成的文件体积越大。"
+"图像大小包括了两个方面：画布的尺寸和分辨率，它们的大小直接影响 Krita 文档的体"
+"积。需要记录的像素越多，颜色的位深度越高，则生成的文件体积越大。"
 
 #: ../../user_manual/working_with_images.rst:72
 msgid "DPI/PPI"
@@ -140,9 +158,10 @@ msgid ""
 "means the number of pixels your artwork has in a relative area of an inch."
 msgstr ""
 "**DPI** 是 *Dots Per Inch*，每英寸点数的缩写，而 **PPI** 是 *Pixel Per "
-"Inch*，每英寸像素的缩写。在印刷行业里面，如果一台打印机按 300 **DPI** 进行打"
-"印，它在每平方英寸的面积里面会打印 300 个墨点。这个参数决定了图像的像素大小和"
-"印刷尺寸之间的关系。"
+"Inch*，每英寸像素的缩写。DPI 与打印的精细程度有关，而 PPI 则与打印尺寸有关。"
+"在印刷行业里面，如果一台打印机按 300 **DPI** 进行打印，它在每平方英寸的面积里"
+"面可以打印 300 个墨点。为了发挥出这台打印机的真正性能，打印的图像至少要在每平"
+"方英寸的面积里提供 300 个像素的信息。"
 
 #: ../../user_manual/working_with_images.rst:80
 msgid ""
@@ -150,8 +169,10 @@ msgid ""
 "should keep **PPI** in mind. According to the **PPI** you have set, the "
 "printers can decide how large your image should be on a piece of paper."
 msgstr ""
-"** DPI ** 是打印机自己的问题，绘制画作的画手应该关注 **PPI **。打印机会通过一"
-"张图像的 **PPI** 来决定它在纸张上的大小。"
+"**DPI** 是打印机的特性决定的，它并不直接影响图像的打印尺寸大小。真正对打印大"
+"小起决定作用的是 **PPI** ，它直接描述了像素和打印尺寸之间的关系。换句话说，一"
+"张图像的 **PPI** 决定了它每个像素被打印在纸张上的大小，而 **DPI** 反映了一台"
+"打印机的打印精细程度。画手在创作时更应关注 **PPI** 。"
 
 #: ../../user_manual/working_with_images.rst:85
 msgid "Some standards:"
@@ -235,8 +256,8 @@ msgid "Author and Description"
 msgstr "作者和描述信息"
 
 #: ../../user_manual/working_with_images.rst:119
-msgid ".. image:: images/en/document_information_screen.png"
-msgstr ".. image:: images/en/document_information_screen.png"
+msgid ".. image:: images/document_information_screen.png"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:120
 msgid ""
@@ -249,11 +270,10 @@ msgid ""
 "of ±60 seconds. You can empty it in the document info dialog and of course "
 "by unzipping you .kra file and editing the metadata there."
 msgstr ""
-"Krita 会自动把图像的创建者保存到该文件的元数据里面。Krita 除了会在文档信息对"
-"话框显示文件的创建、修改日期和时间外，还能显示文档的总编辑时间长度，方便按工"
-"时计费的情形。如果你有一段时间没有进行操作，Krita 会检测到并停止计时，精度达 "
-"±60 秒。你可以在文件信息对话框清空该信息，也可以在解压缩该文件后编辑它的元数"
-"据。"
+"Krita 会自动把图像的创建者保存到文件的元数据。Krita 的文档信息对话框除了显示"
+"文件的创建、修改日期和时间外，还能显示文档的总编辑时间长度，方便按工时计费。"
+"如果你有一段时间没有进行操作，Krita 会及时发现并停止计时，精度为 ±60 秒。你可"
+"以在文件信息对话框清空计时信息，也可以在解压缩该文件后编辑相关的元数据。"
 
 #: ../../user_manual/working_with_images.rst:130
 msgid ""
@@ -262,9 +282,9 @@ msgid ""
 "Configure Krita --> Author Information`. Profiles can be switched under :"
 "menuselection:`Settings --> Active Author Profile`."
 msgstr ""
-"要编辑文档信息，可到菜单栏的 :menuselection:`文件 --> 文档信息`。要编辑作者信"
-"息，可到菜单栏的 :menuselection:`设置 --> 配置 Krita --> 作者`。要切换作者档"
-"案，可到菜单栏的 :menuselection:`设置 --> 当前作者档案`。"
+"要编辑文档信息，可在菜单栏点击 :menuselection:`文件 --> 文档信息`。要编辑作者"
+"信息，可在菜单栏点击 :menuselection:`设置 --> 配置 Krita --> 作者`。要切换作"
+"者档案，可在菜单栏点击 :menuselection:`设置 --> 当前作者档案`。"
 
 #: ../../user_manual/working_with_images.rst:133
 msgid "Setting the canvas background color"
@@ -279,7 +299,7 @@ msgid ""
 "PNG and JPG export use this color as the default color to fill in "
 "transparency if you do not want to export transparency."
 msgstr ""
-"要设置画布的背景色，可到菜单栏的 :menuselection:`图像 --> 图像背景色与透明度"
+"要设置画布的背景色，在菜单栏点击 :menuselection:`图像 --> 图像背景色与透明度"
 "`，你可以在这里更改背景色，或者把背景色改为不透明。这对于那些强制使用不透明背"
 "景的图像格式有用。如果你不保存透明度，PNG 和 JPG 在导出时会使用此颜色作为背"
 "景。"
@@ -291,9 +311,9 @@ msgid ""
 "file options, will allow you to work in a slightly more comfortable "
 "environment, where transparency isn't depicted with checkered boxes."
 msgstr ""
-"如果你习惯使用 :program:`Paint Tool Sai` 这样的程序，不想见到透明度棋盘格背"
-"景，你可以使用上述选项，或者在新建文件对话框的内容页面中通过 :guilabel:`背景"
-"色` 和 :guilabel:`背景不透明度` 选项进行更改。"
+"如果你习惯使用 :program:`Paint Tool SAI` 这样的程序，不希望见到透明度棋盘格背"
+"景，你可以调整上述选项，也可以在新建文件对话框的“内容”页面中通过 :guilabel:`"
+"背景色` 和 :guilabel:`背景不透明度` 选项更改新文档的默认值。"
 
 #: ../../user_manual/working_with_images.rst:148
 msgid "Basic transforms"
@@ -309,7 +329,7 @@ msgstr "切变图像"
 
 #: ../../user_manual/working_with_images.rst:153
 msgid "This will allow you to skew the whole image and its layers."
-msgstr "此功能可以把整个图像和它所含的图层进行斜向扭曲。"
+msgstr "此功能可以把图像和所含的全部图层进行斜向扭曲。"
 
 #: ../../user_manual/working_with_images.rst:154
 msgid "Rotate"
@@ -317,7 +337,7 @@ msgstr "旋转"
 
 #: ../../user_manual/working_with_images.rst:155
 msgid "This will allow you to rotate the image and all its layers quickly."
-msgstr "此功能可以把图像和它所含全部图层进行旋转。"
+msgstr "此功能可以把图像和所含的全部图层进行旋转。"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "Mirror Horizontal/Vertical"
@@ -325,7 +345,7 @@ msgstr "水平/垂直翻转"
 
 #: ../../user_manual/working_with_images.rst:157
 msgid "This will allow you to mirror the whole image with all its layers."
-msgstr "此功能可以把整个图像以及所含全部图层进行翻转。"
+msgstr "此功能可以把图像和所含的全部图层进行翻转。"
 
 #: ../../user_manual/working_with_images.rst:159
 msgid "But there are more options than that..."
@@ -354,9 +374,9 @@ msgid ""
 "image into the layer and want to resize the canvas to the extent of this "
 "layer."
 msgstr ""
-"使用菜单栏中 :menuselection:`图像 --> 修剪至当前图层`，Krita 会把图像的尺寸调"
-"整为当前已选中图层的大小。如果你粘贴进来的内容超出了图像的尺寸，你可以使用此"
-"功能把图像尺寸扩展至所粘贴图层的大小。"
+"使用菜单栏中 :menuselection:`图像 --> 修剪至当前图层`，Krita 可以把图像的尺寸"
+"调整为当前已选中图层的大小。如果你粘贴进来的内容超出了图像的尺寸，你可以使用"
+"此功能把图像尺寸扩展至所粘贴图层的大小。"
 
 #: ../../user_manual/working_with_images.rst:174
 msgid ""
@@ -367,9 +387,10 @@ msgid ""
 "> Trim to Selection` will then crop the canvas to the selection bounding box."
 msgstr ""
 "菜单栏的 :menuselection:`图像 --> 修剪至选区` 功能是裁切工具的一种快速替代"
-"品，它可以把画布尺寸调整为当前活动选区的大小。其中一种用法是在图层面板的图层"
-"上右键单击，选择 :guilabel:`选择不透明区域`，然后在菜单栏选择 :menuselection:"
-"`图像 --> 修剪至选区`，这样会按照该选区的水平和垂直大小对图像进行裁切。"
+"品，它可以把画布尺寸调整为当前活动选区的大小。其中一种用法是在图层列表上右键"
+"单击一个图层，选择 :guilabel:`选择不透明区域`，然后在菜单栏选择 :"
+"menuselection:`图像 --> 修剪至选区`，这样即可按照该选区 (也就是所选图层的内容"
+"边界) 的水平和垂直大小对图像进行裁切。"
 
 #: ../../user_manual/working_with_images.rst:180
 msgid ""
@@ -377,8 +398,8 @@ msgid ""
 "will trim all layers to the size of the image, making your files lighter by "
 "getting rid of invisible data."
 msgstr ""
-"菜单栏的 :menuselection:`图像 --> 修剪至图像大小` 可以用来把全部图层按照图像"
-"尺寸进行修剪，去除图像边框之外的不可见区域的内容，减小文件的体积。"
+"菜单栏的 :menuselection:`图像 --> 修剪至图像大小` 功能可以按照图像尺寸对所有"
+"图层进行修剪，去除图像边框之外的不可见区域的内容，减小文件的体积。"
 
 #: ../../user_manual/working_with_images.rst:185
 msgid "Resizing the canvas"
@@ -393,8 +414,8 @@ msgstr ""
 "Alt + C` ) 来对画布的大小进行调整。该对话框显示如下。"
 
 #: ../../user_manual/working_with_images.rst:191
-msgid ".. image:: images/en/Resize_Canvas.png"
-msgstr ".. image:: images/en/Resize_Canvas.png"
+msgid ".. image:: images/Resize_Canvas.png"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:192
 msgid ""
@@ -404,26 +425,21 @@ msgid ""
 "the current image goes (if you press the left-button, it'll go to the center "
 "left, and the new canvas space will be added to the right of the image)."
 msgstr ""
-":guilabel:`保持宽高比` 选项可确保图像的宽度和高度和修改之前保持一致。:"
-"guilabel:`偏移` 选项决定画布四周各个方向的尺寸增减量，也就是控制当前图像相对"
-"于新尺寸的位置。点击 :guilabel:`锚点` 的任意一个方向可以让当前图像沿该边 "
-"(角) 对齐。例如，点击左边箭头，则水平方向上的全部大小的增减会发生在图像右边。"
+":guilabel:`保持宽高比` 选项可确保图像的宽度和高度和修改之前保持相同的比例。:"
+"guilabel:`偏移` 选项决定了画布四周各个方向的尺寸增减量，也就是控制当前画布相"
+"对于修改后画布的位置。点击 :guilabel:`锚点` 的任意一个方向可以让当前画布与修"
+"改后画布沿该边 (角) 对齐。例如，点击左边箭头，则画布在水平方向上的全部大小增"
+"减会发生在它的右边。"
 
 #: ../../user_manual/working_with_images.rst:199
-#, fuzzy
-#| msgid ""
-#| "Another way to resize the canvas according to the need while drawing is "
-#| "when you scroll away from the end of the canvas, you can see an arrow "
-#| "appear. Clicking this will extend the canvas in that direction. You can "
-#| "see the arrow marked in red in the example below"
 msgid ""
 "Another way to resize the canvas according to the need while drawing is when "
 "you scroll away from the end of the canvas, you can see an arrow appear. "
 "Clicking this will extend the canvas in that direction. You can see the "
 "arrow marked in red in the example below:"
 msgstr ""
-"调整图像大小的另一个办法是在画布上往一个方向滚动，直至在那个方向的边框处出现"
-"一个箭头按钮。点击它，画布就会向该方向扩展。示例如下："
+"调整图像大小的另一个办法是把画布视图朝一个方向滚动，直到在那个方向的边框处出"
+"现一个箭头按钮。点击它，画布就会朝该方向扩展。示例如下："
 
 #: ../../user_manual/working_with_images.rst:209
 msgid "Resizing the image"
@@ -453,16 +469,16 @@ msgstr ""
 "点击该按钮可以解除锁定，让你可以单独控制宽度和高度的数值。"
 
 #: ../../user_manual/working_with_images.rst:224
-msgid ".. image:: images/en/Scale_Image_to_New_Size.png"
-msgstr ".. image:: images/en/Scale_Image_to_New_Size.png"
+msgid ".. image:: images/Scale_Image_to_New_Size.png"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:226
 msgid "Separating Images"
 msgstr "分离图像"
 
 #: ../../user_manual/working_with_images.rst:229
-msgid ".. image:: images/en/Separate_Image.png"
-msgstr ".. image:: images/en/Separate_Image.png"
+msgid ".. image:: images/Separate_Image.png"
+msgstr ""
 
 #: ../../user_manual/working_with_images.rst:230
 msgid ""
@@ -486,8 +502,8 @@ msgid ""
 "and copy blue blending modes, with using the red one for the red channel "
 "image, etc."
 msgstr ""
-"如果是 RGB 色彩空间下面的通道灰阶图像，我们可以依次把红、绿、蓝通道的混色模式"
-"设为“复制红色”、“复制绿色”、“复制蓝色”。"
+"对于从 RGB 图像分离得到的各通道灰阶图像，我们可以依次把红、绿、蓝通道的图像的"
+"混色模式设为“复制红通道”、“复制绿通道”、“复制蓝通道”。"
 
 #: ../../user_manual/working_with_images.rst:243
 msgid "Saving, Exporting and Opening Files"
@@ -501,9 +517,9 @@ msgid ""
 "it over the existing file. There's a couple of tricks you can do with saving."
 msgstr ""
 "Krita 在创建或者打开一个文件之后，它会把该文件的数据保存一份副本到内存里，以"
-"供它编辑时调用。这是计算机的工作原理所决定的：它们要把使用的文件先加载到内存"
-"里面才能对其进行操作。所以在保存文件时，Krita 会用该文件在内存里面的副本覆盖"
-"硬盘上的已有文件。在进行保存操作时你可以有下面一些选项可用："
+"供它编辑时使用。这是计算机的工作原理所决定的：它们要把文件加载到内存里面才能"
+"对其进行操作。在保存文件时，Krita 会用内存中的副本覆盖硬盘上的已有文件。图像"
+"的打开和保存操作有下面几种："
 
 #: ../../user_manual/working_with_images.rst:252
 msgid ""
@@ -527,8 +543,8 @@ msgid ""
 "Make a copy of your current file by saving it with a different name. Krita "
 "will switch to the newly made file as its active document."
 msgstr ""
-"把当前打开的文件在另一个位置保存为副本。保存结束后 Krita 会打开该新文件继续编"
-"辑。"
+"把当前打开的文件在另一个位置保存为副本。保存结束后 Krita 会切换到该新文件继续"
+"编辑。"
 
 #: ../../user_manual/working_with_images.rst:258
 msgid "Open"
@@ -544,9 +560,9 @@ msgid ""
 "you are working on a layered file, but only need to save a flattened version "
 "of it to a certain location."
 msgstr ""
-"把一个文件保存一个副本到新位置，但保存后不打开它，而是继续使用当前文件进行编"
-"辑。如果你在处理一个多图层文件，然后需要输出一个平整后的图像，这个功能将非常"
-"有用。"
+"把一个文件保存一个副本到新位置，但保存后不切换到导出的文件，而是继续使用当前"
+"文件进行编辑。如果你在处理一个多图层文件，需要输出一个平整后的图像与他人分"
+"享，这个功能将非常有用。"
 
 #: ../../user_manual/working_with_images.rst:262
 msgid "Export"
@@ -574,8 +590,8 @@ msgid ""
 "Makes a new copy of the current image. Similar to Open Existing Document As "
 "Untitled Document, but then with already opened files."
 msgstr ""
-"为当前图像制作一个副本。和“将已有文档作为无标题文档打开”类似，但对象则是已经"
-"打开了的文件。"
+"为当前图像制作一个副本。和“将已有文档作为无标题文档打开”类似，但对象换成了当"
+"前打开了的文件。"
 
 #: ../../user_manual/working_with_images.rst:272
 msgid "Save Incremental Version"
@@ -585,14 +601,13 @@ msgstr "保存增量版本"
 msgid ""
 "Saves the current image as 'filename'\\_XXX.kra and switches the current "
 "document to it."
-msgstr "将当前图像保存为“文件名” \\_XXX.kra 并将当前文档切换到该图像。"
+msgstr "将当前图像保存为“文件名 \\_XXX.kra”，并将当前文档切换到该图像。"
 
 #: ../../user_manual/working_with_images.rst:275
 msgid ""
 "Copies and renames the last saved version of your file to a back-up file and "
 "saves your document under the original name."
-msgstr ""
-"将上次保存的版本复制一份，重命名为一个备份文件，然后用原文件名保存当前图像。"
+msgstr "将上次保存的版本复制一份并重命名为备份文件，然后用当前图像覆盖原文件。"
 
 #: ../../user_manual/working_with_images.rst:276
 msgid "Save Incremental Backup"

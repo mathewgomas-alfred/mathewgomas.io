@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 03:45+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-27 03:03+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -20,16 +20,23 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "X-Source-Language: C\n"
 
-#: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Krita.png"
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
 msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+msgid ".. image:: images/preferences/Configure_Toolbars_Krita.png"
 msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Toolbars_Shown.png"
+msgid ""
+".. image:: images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+msgstr ""
+
+#: ../../reference_manual/main_menu/settings_menu.rst:None
+msgid ".. image:: images/preferences/Toolbars_Shown.png"
 msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:1
@@ -45,6 +52,11 @@ msgid ""
 "The Settings Menu houses the configurable options in Krita and where you "
 "determine most of the \"look and feel\" of the application."
 msgstr ""
+
+#: ../../reference_manual/main_menu/settings_menu.rst:21
+#: ../../reference_manual/main_menu/settings_menu.rst:34
+msgid "Dockers"
+msgstr "Panneaux"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:24
 #: ../../reference_manual/main_menu/settings_menu.rst:31
@@ -70,10 +82,6 @@ msgid ""
 "`configure_toolbars` below for more."
 msgstr ""
 
-#: ../../reference_manual/main_menu/settings_menu.rst:34
-msgid "Dockers"
-msgstr "Panneaux"
-
 #: ../../reference_manual/main_menu/settings_menu.rst:36
 msgid ""
 "Krita subdivides the access of many of its features into functional panels "
@@ -88,9 +96,20 @@ msgid ""
 "using Krita."
 msgstr ""
 
+#: ../../reference_manual/main_menu/settings_menu.rst:40
 #: ../../reference_manual/main_menu/settings_menu.rst:43
 msgid "Themes"
 msgstr "Thèmes"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+#, fuzzy
+#| msgid "Themes"
+msgid "Theme"
+msgstr "Thèmes"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+msgid "Look and Feel"
+msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:45
 msgid ""
@@ -187,12 +206,20 @@ msgid ""
 "<resource_management>`."
 msgstr ""
 
+#: ../../reference_manual/main_menu/settings_menu.rst:77
+msgid "Language"
+msgstr ""
+
 #: ../../reference_manual/main_menu/settings_menu.rst:81
 msgid "Switch Application Language"
 msgstr "Changer la langue de l'application"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:83
 msgid "If you wish to use Krita in a different translation."
+msgstr ""
+
+#: ../../reference_manual/main_menu/settings_menu.rst:85
+msgid "Toolbar"
 msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:89
@@ -290,4 +317,10 @@ msgstr ""
 msgid ""
 "Although not really advisable, you can turn them off (but why would you.."
 "really?)"
+msgstr ""
+
+#: ../../reference_manual/main_menu/settings_menu.rst:126
+msgid ""
+"Finally, Toolbars also can be moved. You can do this by |mouseright| and "
+"dragging the handler at the left side of the toolbar."
 msgstr ""

@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___brushes___brush_engines___clone_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-03-13 16:29+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 20:10+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -38,9 +38,18 @@ msgstr ""
 msgid "The Clone Brush Engine manual page."
 msgstr "Розділ підручника щодо рушія пензлів клонування."
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
 msgstr "Рушій пензлів клонування"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Brush Engine"
+msgstr "Рушій пензлів"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Clone Tool"
+msgstr "Інструмент клонування"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
@@ -149,7 +158,23 @@ msgstr ""
 "Цей параметр визначає, відтворюватиметься початкова точка мазка чи штриха. "
 "Може бути корисним, якщо використовується у поєднанні із лікувальним пензлем."
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
+msgid "Source Point reset before a new stroke"
+msgstr "Скидання початкової точки перед новим мазком"
+
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
+msgid ""
+"This will reset the source point everytime you make a new stroke. So if you "
+"were cloning a part in one stroke, having this active will allow you to "
+"clone the same part again in a single stroke, instead of using the source "
+"point as a permanent offset."
+msgstr ""
+"За допомогою цього пункту можна скидати початкову точку кожного разу, коли "
+"ви робите новий мазок. Отже, якщо ви клонуєте якусь частину зображення одним "
+"мазком, якщо позначено цей пункт, ви зможете клонувати ту саму частину "
+"наступним мазком, не використовуючи сталий відступ від початкової точки."
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
 msgstr "Позначте цей пункт, якщо клонувати слід усі шари, а не лише активний."

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-07 18:48+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:29+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,24 +18,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "XYZ"
 msgstr "XYZ"
 
 #: ../../reference_manual/filters/edge_detection.rst:None
-msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
-msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+#| msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+msgid ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
+msgstr ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:1
 msgid "Overview of the edge detection filters."
 msgstr "Overzicht van de randdetectiefilters."
 
+#: ../../reference_manual/filters/edge_detection.rst:11
 #: ../../reference_manual/filters/edge_detection.rst:16
 #: ../../reference_manual/filters/edge_detection.rst:23
 msgid "Edge Detection"
 msgstr "Randdetectie"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+#: ../../reference_manual/filters/edge_detection.rst:40
+#: ../../reference_manual/filters/edge_detection.rst:83
+msgid "Prewitt"
+msgstr "Prewitt"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+msgid "Sobel"
+msgstr "Sobel"
 
 #: ../../reference_manual/filters/edge_detection.rst:18
 msgid ""
@@ -55,8 +67,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/edge_detection.rst:33
-msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_edge_detection.png"
+#| msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
+msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
+msgstr ".. image:: images/filters/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
 msgid ""
@@ -84,11 +97,6 @@ msgid ""
 "A Kernel that is not square unlike the other two, and while this makes it "
 "fast, it doesn't take diagonal pixels into account."
 msgstr ""
-
-#: ../../reference_manual/filters/edge_detection.rst:40
-#: ../../reference_manual/filters/edge_detection.rst:83
-msgid "Prewitt"
-msgstr "Prewitt"
 
 #: ../../reference_manual/filters/edge_detection.rst:41
 #: ../../reference_manual/filters/edge_detection.rst:84
@@ -203,6 +211,16 @@ msgid ""
 "output will be onto the alpha channel of the image, meaning it will output "
 "lines only."
 msgstr ""
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+#| msgid "Height to Normal Map"
+msgid "Height Map"
+msgstr "Hoogte kaart"
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+#| msgid "Height to Normal Map"
+msgid "Normal Map"
+msgstr "Normale kaart"
 
 #: ../../reference_manual/filters/edge_detection.rst:69
 msgid "Height to Normal Map"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-16 03:38+0200\n"
-"PO-Revision-Date: 2019-02-22 14:09+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:02+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -31,6 +31,24 @@ msgstr ""
 #: ../../reference_manual/dockers/animation_curve.rst:1
 msgid "Overview of the animation curves docker."
 msgstr "Overzicht van de vastzetter Animatiekrommen."
+
+#: ../../reference_manual/dockers/animation_curve.rst:10
+msgid "Animation"
+msgstr ""
+
+#: ../../reference_manual/dockers/animation_curve.rst:10
+#| msgid "Animation Curves Docker"
+msgid "Animation Curves"
+msgstr "Animatiekrommen"
+
+#: ../../reference_manual/dockers/animation_curve.rst:10
+#| msgid "Custom interpolation"
+msgid "Interpolation"
+msgstr "Interpolatie"
+
+#: ../../reference_manual/dockers/animation_curve.rst:10
+msgid "Tweening"
+msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:15
 msgid "Animation Curves Docker"
@@ -61,8 +79,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:25
-msgid ".. image:: images/en/Animation_curves_1.png"
-msgstr ".. image:: images/en/Animation_curves_1.png"
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Animation_curves_1.png"
+msgstr ".. image:: images/dockers/Animation_curves_1.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:26
 msgid ""
@@ -74,8 +93,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:29
-msgid ".. image:: images/en/Animation_curves_2.png"
-msgstr ".. image:: images/en/Animation_curves_2.png"
+#| msgid ".. image:: images/en/Animation_curves_2.png"
+msgid ".. image:: images/dockers/Animation_curves_2.png"
+msgstr ".. image:: images/dockers/Animation_curves_2.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:30
 msgid ""
@@ -121,8 +141,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:44
-msgid ".. image:: images/en/Ghost_linear.gif"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Ghost_linear.gif"
+msgstr ".. image:: images/dockers/Ghost_linear.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:45
 msgid ""
@@ -132,7 +153,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:48
-msgid ".. image:: images/en/Ghost_linear_in-out.gif"
+msgid ".. image:: images/dockers/Ghost_linear_in-out.gif"
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:49
@@ -145,36 +166,42 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:52
-msgid ".. image:: images/en/Ghost_ease_in-out.gif"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Ghost_ease_in-out.gif"
+msgstr ".. image:: images/dockers/Ghost_ease_in-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:54
-msgid ".. image:: images/en/Animation_curves_3.png"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Animation_curves_3.png"
+msgstr ".. image:: images/dockers/Animation_curves_3.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:55
 msgid "The above shows an ease-in curve."
-msgstr ""
+msgstr "Het bovenstaande toont een ingevoegde kromme."
 
 #: ../../reference_manual/dockers/animation_curve.rst:57
 msgid "And convex/concave examples:"
 msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:60
-msgid ".. image:: images/en/Ghost_concave_in-out.gif"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Ghost_concave_in-out.gif"
+msgstr ".. image:: images/dockers/Ghost_concave_in-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:62
-msgid ".. image:: images/en/Animation_curves_4.png"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Animation_curves_4.png"
+msgstr ".. image:: images/dockers/Animation_curves_4.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:64
-msgid ".. image:: images/en/Ghost_convex_int-out.gif"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Ghost_convex_int-out.gif"
+msgstr ".. image:: images/dockers/Ghost_convex_int-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:66
-msgid ".. image:: images/en/Animation_curves_5.png"
-msgstr ""
+#| msgid ".. image:: images/en/Animation_curves_1.png"
+msgid ".. image:: images/dockers/Animation_curves_5.png"
+msgstr ".. image:: images/dockers/Animation_curves_5.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:67
 msgid ""

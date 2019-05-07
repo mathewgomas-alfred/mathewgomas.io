@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -31,19 +31,54 @@ msgid ""
 "   :alt: mouseright"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
-"   :alt: mouseright"
+"   :alt: 鼠标右键"
 
 #: ../../reference_manual/dockers/layers.rst:1
 msgid "Overview of the layers docker."
-msgstr "“图层”面板简介"
+msgstr "介绍 Krita 的图层工具面板。"
 
+#: ../../reference_manual/dockers/layers.rst:12
 #: ../../reference_manual/dockers/layers.rst:17
 msgid "Layers"
 msgstr "图层"
 
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:30
+msgid "Label"
+msgstr "标签"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:32
+msgid "Blending Mode"
+msgstr "混色模式"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:40
+msgid "Alpha Lock"
+msgstr "透明度锁定"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:44
+msgid "Alpha Inheritance"
+msgstr "继承透明度"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:48
+msgid "Onion Skin"
+msgstr "洋葱皮视图"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:51
+msgid "Layer Style"
+msgstr "图层样式"
+
+#: ../../reference_manual/dockers/layers.rst:12
+msgid "Passthrough Mode"
+msgstr ""
+
 #: ../../reference_manual/dockers/layers.rst:20
-msgid ".. image:: images/en/Krita_Layers_Docker.png"
-msgstr ".. image:: images/en/Krita_Layers_Docker.png"
+msgid ".. image:: images/dockers/Krita_Layers_Docker.png"
+msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:21
 msgid ""
@@ -51,12 +86,13 @@ msgid ""
 "Management <layers_and_masks>`. You can add, delete, rename, duplicate and "
 "do many other things to layers here."
 msgstr ""
-"图层面板是 Krita :ref:`图层管理 <layers_and_masks>` 的核心概念之一。您可以在"
-"这里对图层进行诸如添加、删除、重命名、复制等操作。"
+"图层面板是 Krita :ref:`图层管理功能 <layers_and_masks>` 的核心。你可以使用此"
+"面板新增、删除、重命名、复制图层，并对它们进行混色、分组、分配颜色标签、应用"
+"蒙版等各种相关操作。"
 
 #: ../../reference_manual/dockers/layers.rst:24
 msgid "The Layer Stack"
-msgstr "图层组"
+msgstr "图层列表"
 
 #: ../../reference_manual/dockers/layers.rst:26
 msgid ""
@@ -66,20 +102,21 @@ msgid ""
 "and close groups, and you can drag and drop layers, either to reorder them, "
 "or to put them in groups."
 msgstr ""
+"你可以在图层列表中单击选择当前图层，拖放改变图层顺序。按住 :kbd:`Shift` 和 :"
+"kbd:`Ctrl` 可以进行多选，被选中的多个图层可以一起进行拖放。图层可以被分组、分"
+"组可以被展开和折叠。你还可以在这里重命名图层、更改图层可见性、锁定状态、继承"
+"透明度等。"
 
 #: ../../reference_manual/dockers/layers.rst:28
 msgid "Name"
-msgstr "文件名"
+msgstr "名称"
 
 #: ../../reference_manual/dockers/layers.rst:29
 msgid ""
 "The Layer name, just do double- |mouseleft| to make it editable, and press :"
 "kbd:`Enter` to finish editing."
 msgstr ""
-
-#: ../../reference_manual/dockers/layers.rst:30
-msgid "Label"
-msgstr "标签"
+"图层的名称。双击 |mouseleft| 可以重命名图层名称， :kbd:`回车` 结束编辑。"
 
 #: ../../reference_manual/dockers/layers.rst:31
 msgid ""
@@ -87,14 +124,12 @@ msgid ""
 "a context menu to assign a color to it. You can then later filter on these "
 "colors."
 msgstr ""
-
-#: ../../reference_manual/dockers/layers.rst:32
-msgid "Blending Mode"
-msgstr "混合模式"
+"你可以给图层指定一个颜色标签，然后通过颜色标签对它们进行过滤。在图层上右键单"
+"击 |mouseright| 弹出菜单，从中可以选择需要的颜色。"
 
 #: ../../reference_manual/dockers/layers.rst:33
 msgid "This will set the :ref:`blending_modes` of the layer."
-msgstr ""
+msgstr "通过此下拉菜单可以设置图层的 :ref:`blending_modes` ，默认为“正常”。"
 
 #: ../../reference_manual/dockers/layers.rst:34
 msgid "Opacity"
@@ -102,7 +137,7 @@ msgstr "不透明度"
 
 #: ../../reference_manual/dockers/layers.rst:35
 msgid "This will set the opacity of the whole layer."
-msgstr ""
+msgstr "此选项控制图层整体的不透明度。"
 
 #: ../../reference_manual/dockers/layers.rst:36
 msgid "Visibility"
@@ -110,22 +145,19 @@ msgstr "可见性"
 
 #: ../../reference_manual/dockers/layers.rst:37
 msgid "An eye-icon. Clicking this can hide a whole layer."
-msgstr "一个眼睛图标的按钮。单击可以隐藏整个图层。"
+msgstr "图层左边的“眼睛”图标。点击可以切换图层的显示/隐藏状态。"
 
 #: ../../reference_manual/dockers/layers.rst:38
 msgid "Edit State (Or layer Locking)"
-msgstr "编辑状态（或图层锁定）"
+msgstr "图层编辑锁定状态"
 
 #: ../../reference_manual/dockers/layers.rst:39
 msgid ""
 "A lock Icon. Clicking this will prevent the layer from being edited, useful "
 "when handling large amounts of layers."
 msgstr ""
-"一个以锁为图标的按钮。点击该按钮将组织图层被编辑，这在处理大量图层时很有用。"
-
-#: ../../reference_manual/dockers/layers.rst:40
-msgid "Alpha Lock"
-msgstr "Alpha（透明度）锁定"
+"图层右边的“挂锁”图标，点击可以切换图层的编辑锁定状态。锁定时图标会被点亮，此"
+"时图层将无法编辑。在处理大量图层时可以通过图层锁定来避免在错误的图层上编辑。"
 
 #: ../../reference_manual/dockers/layers.rst:41
 msgid ""
@@ -133,10 +165,12 @@ msgid ""
 "This will prevent the transparency of a layer being changed. Useful in "
 "coloring images."
 msgstr ""
+"图层最右边的棋盘格图标，点击可以切换图层的透明度锁定状态。锁定时图标会被点"
+"亮，图层的透明部分将不会发生改变。在上色时非常有用。"
 
 #: ../../reference_manual/dockers/layers.rst:42
 msgid "Pass-through mode"
-msgstr "直通模式"
+msgstr "穿透模式"
 
 #: ../../reference_manual/dockers/layers.rst:43
 msgid ""
@@ -145,46 +179,46 @@ msgid ""
 "masks currently, therefore these have a strike-through on group layers set "
 "to pass-through."
 msgstr ""
-
-#: ../../reference_manual/dockers/layers.rst:44
-msgid "Alpha Inheritance"
-msgstr "Alpha（透明度）继承"
+"分组图层最右边的“砖墙”图标，控制分组内部图层的混色模式能否穿透分组影响到外面"
+"的图层。启用时图标上会显示“穿透”箭头，分组的混色模式会自动停用，分组内部的混"
+"色模式将影响到分组下方的外部图层。此功能目前不兼容分组蒙版，如果分组启用了穿"
+"透模式，则该分组的蒙版名称会被划掉。"
 
 #: ../../reference_manual/dockers/layers.rst:45
 msgid ""
 "This will use the alpha of all the peers of this layer as a transparency "
 "mask. For a full explanation see :ref:`layers_and_masks`."
 msgstr ""
+"图层右边的“Alpha 字母”图标，点击可以切换该图层的继承透明度选项。启用后图标会"
+"被点亮，该图层的不透明区域将被它下方所有图层的不透明区域的组合体所限制。详情"
+"可参考  :ref:`layers_and_masks` 一节。"
 
 #: ../../reference_manual/dockers/layers.rst:46
 msgid "Open or Close Layers"
-msgstr ""
+msgstr "展开和折叠子图层"
 
 #: ../../reference_manual/dockers/layers.rst:47
 msgid ""
 "(An Arrow Icon) This will allow you to access sub-layers of a layer. Seen "
 "with masks and groups."
-msgstr ""
-
-#: ../../reference_manual/dockers/layers.rst:48
-msgid "Onion Skin"
-msgstr "洋葱皮视图"
+msgstr "图层名称左边的小箭头。点击可以展开/折叠图层的子图层或者蒙版。"
 
 #: ../../reference_manual/dockers/layers.rst:49
 msgid ""
 "This is only available on :ref:`animated layers <animation>`, and toggles "
 "the onion skin feature."
-msgstr "这只适用于 :ref:`动画图层 <animation>`，用于打开洋葱皮视图。"
-
-#: ../../reference_manual/dockers/layers.rst:51
-msgid "Layer Style"
-msgstr "图层样式"
+msgstr ""
+"图层名称右边的“灯泡”图标，只在 :ref:`动画图层 <animation>` 上显示，用于打开和"
+"关闭洋葱皮视图。启用后图标会被点亮，动画图层将会按照洋葱皮视图的设置显示过去"
+"帧和未来帧。"
 
 #: ../../reference_manual/dockers/layers.rst:51
 msgid ""
 "This is only available on layers which have a :ref:`layer_style` assigned. "
 "The button allows you to switch between on/off quickly."
-msgstr "仅在包含 :ref:`layer_style`的图层中显示。该按钮允许您快速切换。"
+msgstr ""
+"图层名称右边的“Fx”图标，只在带有 :ref:`layer_style` 的图层上显示。点击可以切"
+"换图层样式的显示/隐藏。"
 
 #: ../../reference_manual/dockers/layers.rst:53
 msgid ""
@@ -195,30 +229,34 @@ msgid ""
 "number behind the layer names. You can change other layer properties like "
 "visibility, opacity, lock states, etc. too."
 msgstr ""
+"你可以同时编辑多个图层的上述属性。选中多个图层后，点击图层面板底部最右边的“属"
+"性”按钮，或者右键选择“属性”，或者按 :kbd:`F3` 都可以打开“图层属性”对话框。在"
+"此对话框中进行的改动将应用到所有选中的图层上。对图层名称的统一改动会自动添加"
+"数字后缀。"
 
 #: ../../reference_manual/dockers/layers.rst:57
-msgid ".. image:: images/en/Krita-multi-layer-edit.png"
+msgid ".. image:: images/layers/Krita-multi-layer-edit.png"
 msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:59
 msgid "Lower buttons"
-msgstr ""
+msgstr "下排按钮"
 
 #: ../../reference_manual/dockers/layers.rst:61
 msgid "These are buttons for doing layer operations."
-msgstr ""
+msgstr "图层面板的最下面有一排按钮，它们用于进行一些图层操作。"
 
 #: ../../reference_manual/dockers/layers.rst:63
 msgid "Add"
-msgstr "添加"
+msgstr "新建"
 
 #: ../../reference_manual/dockers/layers.rst:64
 msgid ""
 "Will by default add a new Paint Layer, but using the little arrow, you can "
 "call a sub-menu with the other layer types."
 msgstr ""
-"默认情况下, 将添加新的“颜料图层”， 但点击旁边的小箭头，可弹出子菜单以供选择其"
-"他图层类型。"
+"点击“+”按钮将新建一个颜料图层，点击旁边的小箭头则会弹出子菜单，从中可以选择其"
+"他类型的图层。"
 
 #: ../../reference_manual/dockers/layers.rst:65
 msgid "Duplicate"
@@ -229,8 +267,8 @@ msgid ""
 "Will Duplicate the active layer(s). Can be quickly invoked with :kbd:`Ctrl` "
 "+ |mouseleft| + drag."
 msgstr ""
-"将会复制图层。可以在按下 :kbd:`Ctrl` 的同时按住 |mouseleft| 拖动触发这个功"
-"能。"
+"创建当前图层的副本。按住 :kbd:`Ctrl` 左键拖动 |mouseleft| 可以把副本直接复制"
+"到拖动位置。"
 
 #: ../../reference_manual/dockers/layers.rst:67
 msgid "Move layer up."
@@ -240,7 +278,8 @@ msgstr "向上移动图层"
 msgid ""
 "Will move the active layer up. Will switch them out and in groups when "
 "coming across them."
-msgstr "将向上移动活动图层。遇到图层组时，将会被移入或移出。"
+msgstr ""
+"将向上移动选定图层。遇到图层分组的上下边界时，将把图层移入或者移出分组。"
 
 #: ../../reference_manual/dockers/layers.rst:69
 msgid "Move layer down."
@@ -250,7 +289,8 @@ msgstr "向下移动图层"
 msgid ""
 "Will move the active layer down. Will switch them out and in groups when "
 "coming across them."
-msgstr "将向下移动活动图层。遇到图层组时，将会被移入或移出。"
+msgstr ""
+"将向下移动选定图层。遇到图层分组的上下边界时，将把图层移入或者移出分组。"
 
 #: ../../reference_manual/dockers/layers.rst:71
 msgid "Layer properties."
@@ -258,7 +298,7 @@ msgstr "图层属性"
 
 #: ../../reference_manual/dockers/layers.rst:72
 msgid "Will open the layer properties window."
-msgstr "图层属性窗口将被打开。"
+msgstr "打开“图层属性”对话框。"
 
 #: ../../reference_manual/dockers/layers.rst:74
 msgid "Delete"
@@ -268,22 +308,22 @@ msgstr "删除"
 msgid ""
 "Will delete the active layer(s). For safety reasons, you can only delete "
 "visible layers."
-msgstr "活动图层将被删除。出于安全考虑，您只能删除可见图层。"
+msgstr "删除选定图层。为保险起见，只有可见图层才能被删除。"
 
 #: ../../reference_manual/dockers/layers.rst:77
 msgid "Hot keys and Sticky Keys"
-msgstr "快捷键和粘滞键"
+msgstr "快捷键和功能键"
 
 #: ../../reference_manual/dockers/layers.rst:79
 msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
-msgstr "按下 :kbd:`Shift + Ctrl` 以选择多个图层。"
+msgstr "按住 :kbd:`Ctrl` 或者 :kbd:`Shift` 点击可以选择多个图层。"
 
 #: ../../reference_manual/dockers/layers.rst:80
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, "
 "for you to drag and drop."
 msgstr ""
-"按下 :kbd:`Ctrl 同时按住 |mouseleft| 拖动以创建选中图层的副本，供您拖放。"
+"按住 :kbd:`Ctrl` + 左键拖放 |mouseleft| 可以把图层复制一份副本到拖放位置。"
 
 #: ../../reference_manual/dockers/layers.rst:81
 msgid ""
@@ -291,10 +331,12 @@ msgid ""
 "layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on "
 "a single layer with a mask will merge down the mask into the layer."
 msgstr ""
+"按 :kbd:`Ctrl + E` 向下合并一个图层，或者合并全部选中的图层以及图层样式。不影"
+"响选区蒙版。在带有蒙版的单个图层上按 :kbd:`Ctrl + E` 将把蒙版与图层合并。"
 
 #: ../../reference_manual/dockers/layers.rst:82
 msgid ":kbd:`Ctrl + Shift + E` merges all layers."
-msgstr "按下 :kbd:`Ctrl + Shft + E` 以合并所有图层。"
+msgstr "按 :kbd:`Ctrl + Shft + E` 可以合并所有图层。"
 
 #: ../../reference_manual/dockers/layers.rst:83
 msgid ""
@@ -302,18 +344,20 @@ msgid ""
 "picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
 "multiple layers."
 msgstr ""
+"在画布上按 :kbd:`R` + 左键单击 |mouseleft| 会选中单击处颜色所在的图层。在画布"
+"上按 :kbd:`Shift + R` + 左键单击 |mouseleft| 可以选中单击处颜色所在的多个图"
+"层。"
 
 #: ../../reference_manual/dockers/layers.rst:84
 msgid ":kbd:`Ins` for adding a new layer."
-msgstr "按下 :kbd:`Ins` 以添加新图层。"
+msgstr "按 :kbd:`Insert` 可以新增一个颜料图层。"
 
 #: ../../reference_manual/dockers/layers.rst:85
 msgid ""
 ":kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, "
 "they are put into the group layer."
 msgstr ""
-"按下 :kbd:`Ctrl + G` 将创建一个图层组。如果选择了多个图层, 则会将其放入图层"
-"组。"
+"按 :kbd:`Ctrl + G` 将创建一个分组图层，并把当前选中的图层放到这个分组里。"
 
 #: ../../reference_manual/dockers/layers.rst:86
 msgid ""
@@ -321,31 +365,36 @@ msgid ""
 "selected layers added into the group, and a new layer added on top with "
 "alpha-inheritance turned on, ready for painting!"
 msgstr ""
+"按 :kbd:`Ctrl + Shift + G` 将新建一个剪贴分组。当前选中的图层会被移到分组内部"
+"作为最底层，在它上面会新建一个颜料图层并启用继承透明度。"
 
 #: ../../reference_manual/dockers/layers.rst:87
 msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
-msgstr "按下 :kbd:`Ctrl + Alt + G` 以取消图层编组。"
+msgstr "按 :kbd:`Ctrl + Alt + G` 将把选中的图层移出分组。"
 
 #: ../../reference_manual/dockers/layers.rst:88
 msgid ""
 ":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This "
 "will maintain between layers till the same action is repeated again."
 msgstr ""
+"按住 :kbd:`Alt` + 左键单击 |mouseleft| 图层名称将单独显示该图层。反复点击可来"
+"回切换单独显示状态。"
 
 #: ../../reference_manual/dockers/layers.rst:89
 msgid ""
 ":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
 "layer."
 msgstr ""
+"按 :kbd:`Shift` + 左键单击 |mouseleft| “眼睛”图标将隐藏除当前图层外的所有图"
+"层。"
 
 #: ../../reference_manual/dockers/layers.rst:90
 msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
-msgstr "按下 :kbd:`Page Up` 以及 :kbd:`Page Down` 以在图层间切换。"
+msgstr "按 :kbd:`Page Up` 和 :kbd:`Page Down` 可以上下切换图层。"
 
 #: ../../reference_manual/dockers/layers.rst:91
 msgid ""
 ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
 "layers up and down."
 msgstr ""
-"按下 :kbd:`Ctrl + Page Up` 以及 :kbd:`Ctrl + Page Down` 以上下移动选中的图"
-"层。"
+"按 :kbd:`Ctrl + Page Up` 和 :kbd:`Ctrl + Page Down` 可以上下移动选中的图层。"

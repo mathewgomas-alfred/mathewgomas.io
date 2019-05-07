@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:40+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,15 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:1
 msgid "The Filter Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell amb filtratge."
 
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:17
 msgid "Filter Brush Engine"
 msgstr "Motor del pinzell amb filtratge"
+
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
+msgid "Filters"
+msgstr "Filtres"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:20
 msgid ".. image:: images/icons/filterbrush.svg"
@@ -39,6 +48,12 @@ msgid ""
 "amount of filters you'd never thought you wanted to use for a drawing are "
 "possible in brush form too!"
 msgstr ""
+"On en altres programes teniu una eina d'«Esvaïment», «Difuminat» i "
+"«Aguditza», el Krita té un motor de pinzell especial per a aquesta "
+"finalitat: el motor del pinzell amb filtratge. A més d'això, derivat de la "
+"gran integració dels filtres al Krita, és possible utilitzar una quantitat "
+"enorme de filtres en forma de pinzell que mai pensaríeu voler utilitzar per "
+"a dibuixar!"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:24
 msgid "Options"
@@ -47,6 +62,8 @@ msgstr "Opcions"
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:26
 msgid "The filter brush has of course some basic brush-system parameters:"
 msgstr ""
+"El pinzell amb filtratge òbviament té alguns paràmetres bàsics del sistema "
+"de pinzells:"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:28
 msgid ":ref:`option_brush_tip`"

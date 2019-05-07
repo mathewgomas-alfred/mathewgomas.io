@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___main_menu___image_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-09 20:52+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -28,6 +28,46 @@ msgstr "Розділити зображення"
 #: ../../reference_manual/main_menu/image_menu.rst:1
 msgid "The image menu in Krita."
 msgstr "Меню «Зображення» у Krita."
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Image"
+msgstr "Зображення"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Canvas Projection Color"
+msgstr "Колір проекції на полотні"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Trim"
+msgstr "Обрізання"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Resize"
+msgstr "Змінити розмір"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Scale"
+msgstr "Масштаб"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Mirror"
+msgstr "Віддзеркалення"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Transform"
+msgstr "Перетворення"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Convert Color Space"
+msgstr "Перетворити простір кольорів"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Offset"
+msgstr "Зсув"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Split Channels"
+msgstr "Розділити канали"
 
 #: ../../reference_manual/main_menu/image_menu.rst:16
 msgid "Image Menu"
@@ -156,8 +196,8 @@ msgid "Image Split"
 msgstr "Поділ зображень"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
-msgid "Splits the image."
-msgstr "Розділити зображення."
+msgid "Calls up the :ref:`image_split` dialog."
+msgstr "Викликає діалогове вікно :ref:`image_split`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
 msgid "Wavelet Decompose"
@@ -168,5 +208,8 @@ msgid "Does :ref:`wavelet_decompose` on the current layer."
 msgstr "Виконує дію :ref:`wavelet_decompose` над поточним шаром."
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
-msgid "Separates the image into channels"
-msgstr "Розділити зображення на канали."
+msgid ":ref:`Separates <separate_image>` the image into channels"
+msgstr ":ref:`Розділити <separate_image>` зображення на канали."
+
+#~ msgid "Splits the image."
+#~ msgstr "Розділити зображення."

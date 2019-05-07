@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-05 11:57+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -20,16 +20,55 @@ msgstr ""
 "X-POFile-SpellExtra: Hi Kikilowbit IO images Rgbcolorcube True\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
-msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
+msgid ".. image:: images/color_category/Kiki_lowbit.png"
 msgstr ".. image:: images/en/color_category/Kiki_lowbit.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:1
 msgid "Bit depth in Krita."
 msgstr "A profundidade de cor no Krita."
 
+#: ../../general_concepts/colors/bit_depth.rst:10
 #: ../../general_concepts/colors/bit_depth.rst:15
 msgid "Bit Depth"
 msgstr "Profundidade de Cor"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:26
+msgid "Indexed Color"
+msgstr "Cor Indexada"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:46
+msgid "Real Color"
+msgstr "Cor Real"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Real Color"
+msgid "Color"
+msgstr "Cor Real"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Bit Depth"
+msgid "Color Bit Depth"
+msgstr "Profundidade de Cor"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Real Color"
+msgid "Deep Color"
+msgstr "Cor Real"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Floating Point Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Channels"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:17
 msgid ""
@@ -63,10 +102,6 @@ msgid ""
 msgstr ""
 "Para ilustrar isto, iremos falar brevemente sobre algo que não está sequer "
 "disponível no Krita:"
-
-#: ../../general_concepts/colors/bit_depth.rst:26
-msgid "Indexed Color"
-msgstr "Cor Indexada"
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -120,12 +155,10 @@ msgstr ""
 "canais, e conta quantas cores por canal precisa (descrito em termos de "
 "''bits por canal''). Isto é chamado de 'cor real'."
 
-#: ../../general_concepts/colors/bit_depth.rst:46
-msgid "Real Color"
-msgstr "Cor Real"
-
 #: ../../general_concepts/colors/bit_depth.rst:52
-msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+msgid ".. image:: images/color_category/Rgbcolorcube_3.png"
 msgstr ".. image:: images/en/color_category/Rgbcolorcube_3.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:52

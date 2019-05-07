@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-04 11:05+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,6 +23,10 @@ msgstr ""
 msgid "Overview of the map filters."
 msgstr "Introdução aos filtros por mapa."
 
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr ""
+
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
 msgstr "Mapa"
@@ -32,8 +36,15 @@ msgid "Filters that are signified by them mapping the input image."
 msgstr ""
 "Os filtros cuja significância está associada (mapeada) na imagem de entrada."
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
+msgstr "Padrões Pequenos"
+
+#: ../../reference_manual/filters/map.rst:20
+#, fuzzy
+#| msgid "Small Tiles"
+msgid "Tiles"
 msgstr "Padrões Pequenos"
 
 #: ../../reference_manual/filters/map.rst:25
@@ -42,12 +53,30 @@ msgstr ""
 "Cria padrões da imagem de entrada, usando a sua própria camada como "
 "resultado."
 
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Phong Bumpmap"
+msgid "Bumpmap"
+msgstr "Mapa de Relevo Phong"
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Normalize"
+msgid "Normal Map"
+msgstr "Normalizar"
+
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "Mapa de Relevo Phong"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 msgstr ".. image:: images/en/Krita-normals-tutoria_4.png"
 
 #: ../../reference_manual/filters/map.rst:34
@@ -71,6 +100,7 @@ msgstr "Cantos Arredondados"
 msgid "Adds little corners to the input image."
 msgstr "Adiciona pequenos cantos à imagem de entrada."
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Normalizar"
@@ -86,12 +116,21 @@ msgstr ""
 "Isto é útil para os mapas da normal e para algumas pequenas funções de "
 "edição da imagem."
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Mapa do Gradiente"
 
+#: ../../reference_manual/filters/map.rst:48
+#, fuzzy
+#| msgid "Gradient Map"
+msgid "Gradient"
+msgstr "Mapa do Gradiente"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
 msgstr ".. image:: images/en/Krita_filter_gradient_map.png"
 
 #: ../../reference_manual/filters/map.rst:55

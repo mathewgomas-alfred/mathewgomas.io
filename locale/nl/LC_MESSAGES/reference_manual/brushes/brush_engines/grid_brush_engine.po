@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-22 03:26+0100\n"
-"PO-Revision-Date: 2019-03-22 11:17+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 17:50+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color"
@@ -28,9 +28,18 @@ msgstr "Met achtergrondkleur mengen"
 msgid "The Grid Brush Engine manual page."
 msgstr "De handleidingpagina rasterpenseel-engine."
 
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:17
 msgid "Grid Brush Engine"
 msgstr "Rasterpenseel-engine"
+
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
+msgid "Brush Engine"
+msgstr "Penseel-engine"
+
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
+msgid "Grid"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:21
 msgid ".. image:: images/icons/gridbrush.svg"
@@ -58,23 +67,23 @@ msgstr "Opties"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:29
 msgid ":ref:`option_size_grid`"
-msgstr ""
+msgstr ":ref:`option_size_grid`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:30
 msgid ":ref:`option_particle_type`"
-msgstr ""
+msgstr ":ref:`option_particle_type`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:31
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:32
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:33
 msgid ":ref:`option_color_grid`"
-msgstr ""
+msgstr ":ref:`option_color_grid`"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:38
 msgid "Brush Size"
@@ -86,7 +95,7 @@ msgstr "Rasterbreedte"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:41
 msgid "Width of the cursor area"
-msgstr ""
+msgstr "Breedte van cursorgebied"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:42
 msgid "Grid Height"

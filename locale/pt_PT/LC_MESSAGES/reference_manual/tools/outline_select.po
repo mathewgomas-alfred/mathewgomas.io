@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-22 12:01+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -32,6 +32,18 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: botão esquerdo"
 
+#: ../../<rst_epilog>:4
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_left.png\n"
+#| "   :alt: mouseleft"
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: botão esquerdo"
+
 #: ../../<rst_epilog>:74
 msgid ""
 ".. image:: images/icons/outline_select_tool.svg\n"
@@ -43,6 +55,24 @@ msgstr ""
 #: ../../reference_manual/tools/outline_select.rst:1
 msgid "Krita's outline selection tool reference."
 msgstr "A referência da ferramenta de selecção de contornos do Krita."
+
+#: ../../reference_manual/tools/outline_select.rst:13
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/outline_select.rst:13
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/outline_select.rst:13
+msgid "Freehand"
+msgstr ""
+
+#: ../../reference_manual/tools/outline_select.rst:13
+#, fuzzy
+#| msgid "Outline Selection Tool"
+msgid "Outline Select"
+msgstr "Ferramenta de Selecção pelo Contorno"
 
 #: ../../reference_manual/tools/outline_select.rst:18
 msgid "Outline Selection Tool"
@@ -112,6 +142,16 @@ msgstr ""
 "`intersecção`."
 
 #: ../../reference_manual/tools/outline_select.rst:37
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+
+#: ../../reference_manual/tools/outline_select.rst:38
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/outline_select.rst:42
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
@@ -119,11 +159,11 @@ msgstr ""
 "Poderá mudar o comportamento da tecla :kbd:`Alt` para usar como alternativa "
 "o :kbd:`Ctrl`, comutando o interruptor na :ref:`general_settings`"
 
-#: ../../reference_manual/tools/outline_select.rst:40
+#: ../../reference_manual/tools/outline_select.rst:45
 msgid "Tool Options"
 msgstr "Opções da Ferramenta"
 
-#: ../../reference_manual/tools/outline_select.rst:43
+#: ../../reference_manual/tools/outline_select.rst:48
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."

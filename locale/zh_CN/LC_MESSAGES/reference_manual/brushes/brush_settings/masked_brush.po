@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-21 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,12 @@ msgstr ""
 "docs_krita_org_reference_manual___brushes___brush_settings___masked_brush."
 "pot\n"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
-msgid ".. image:: images/en/Masking-brush2.jpg"
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
+msgid ".. image:: images/brushes/Masking-brush1.jpg"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid ".. image:: images/en/Masking-brush1.jpg"
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
+msgid ".. image:: images/brushes/Masking-brush2.jpg"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
@@ -31,10 +31,20 @@ msgid ""
 "How to use the masked brush functionality in Krita. This functionality is "
 "not unlike the dual brush option from photoshop."
 msgstr ""
+"如何在 Krita 中使用蒙版笔刷功能。此功能类似于 Photoshop 的双重笔刷选项。"
 
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:18
 msgid "Masked Brush"
 msgstr "蒙版笔刷"
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
+msgid "Dual Brush"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
+msgid "Stacked Brush"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:23
 msgid ""
@@ -44,6 +54,10 @@ msgid ""
 "One brush tip will be a mask for your primary brush tip. A masked brush is a "
 "good alternative to texture for creating expressive and textured brushes."
 msgstr ""
+"蒙版笔刷是一项只在 :ref:`pixel_brush_engine` 中可用的新功能。你可以在笔刷编辑"
+"器的选项列表里找到它。蒙版笔刷可以让你把两个笔尖融合在一个笔刷中使用。其中一"
+"个笔尖将作为主要笔尖，而另一个笔尖将作为主要笔尖的蒙版。蒙版笔刷可以代替单纯"
+"的纹理画出表现力更丰富的带纹理笔画。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
 msgid ""
@@ -51,6 +65,8 @@ msgid ""
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
 msgstr ""
+"由于技术的限制，蒙版笔刷只能在冲刷绘画模式下工作。提示：流量在冲刷模式下的作"
+"用和不透明度在堆积模式下的作用是相同的。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:32
 msgid ""
@@ -59,30 +75,33 @@ msgid ""
 "This means when you change your brush size masking tip will be changed to "
 "keep the ratio."
 msgstr ""
+"和正常笔尖一样，你可以为蒙版笔刷选择任意笔尖，调整笔刷的大小、间距、旋转等。"
+"蒙版笔刷的大小与主笔刷的大小保持相对关系，笔刷大小发生改变时蒙版笔尖的大小也"
+"会按相同比例发生变化。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid ":ref:`Blending mode (drop-down inside Brush tip)<blending_modes>`:"
-msgstr ""
+msgstr ":ref:`混色模式 (笔尖页面下拉菜单) <blending_modes>` ："
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid "Blending modes changes how tips are combined."
-msgstr ""
+msgstr "混色模式控制主副笔尖的融合方式。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:38
 msgid ":ref:`option_brush_tip`"
-msgstr ""
+msgstr ":ref:`option_brush_tip`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:40
 msgid ":ref:`option_size`"
-msgstr ""
+msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:41
 msgid "The size sensor option of the second tip."
-msgstr ""
+msgstr "副笔尖的传感器选项。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:42
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:43
 msgid ""
@@ -90,55 +109,59 @@ msgid ""
 "default. Flow can be quite aggressive on subtract mode, so it might be an "
 "idea to turn it off there."
 msgstr ""
+"副笔尖的不透明度和流量。此项默认映射到一个传感器。在蒙版笔刷的混色模式为“减"
+"去”时，流量的效果可能比较激进，此时可考虑关闭流量传感器。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:44
 msgid ":ref:`option_ratio`"
-msgstr ""
+msgstr ":ref:`option_ratio`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:45
 msgid "This affects the brush ratio on a given brush."
-msgstr ""
+msgstr "此选项影响笔刷形状的水平和垂直比例。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:46
 msgid ":ref:`option_mirror`"
-msgstr ""
+msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:47
 msgid "The Mirror option of the second tip."
-msgstr ""
+msgstr "副笔刷的镜像选项。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:48
 msgid ":ref:`option_rotation`"
-msgstr ""
+msgstr ":ref:`option_rotation`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:49
 msgid "The rotation option of the second tip. Best set to \"fuzzy dab\"."
-msgstr ""
+msgstr "副笔刷的旋转选项。最好把它映射到传感器的“随机度 (笔尖)”。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:51
 msgid ":ref:`option_scatter`"
-msgstr ""
+msgstr ":ref:`option_scatter`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:51
 msgid ""
 "The scatter option. The default is quite high, so don't forget to turn it "
 "lower."
-msgstr ""
+msgstr "控制笔尖在笔迹上的分散程度。默认值比较高，可以把它调低后使用。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
 msgid "You don’t need seamless texture to make cool looking brush"
-msgstr ""
+msgstr "你无需为了制作好看的蒙版笔刷而使用可以无缝衔接的纹理。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:56
 msgid "Stroke generates on the fly, it always different"
-msgstr ""
+msgstr "蒙版笔刷的笔画是实时生成的，它的笔迹不会过于雷同。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:57
 msgid "Brush strokes looks same on any brush size"
-msgstr ""
+msgstr "蒙版笔刷的笔画在任意大小下均可保持观感一致。"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:58
 msgid ""
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
 msgstr ""
+"蒙版笔刷可以比较容易地给一定的区域填满实色，但想在实色上留下固有纹理比较困"
+"难。"

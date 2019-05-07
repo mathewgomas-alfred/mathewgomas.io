@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-28 03:35+0100\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
 "PO-Revision-Date: 2019-03-29 11:30+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -27,21 +27,55 @@ msgstr "Esconder a área da miniatura da camada"
 msgid "Display settings in Krita."
 msgstr "Configuração da visualização no Krita."
 
+#: ../../reference_manual/preferences/display_settings.rst:12
+#: ../../reference_manual/preferences/display_settings.rst:24
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+#: ../../reference_manual/preferences/display_settings.rst:84
+msgid "Canvas Border"
+msgstr "Contorno da Área de Desenho"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Preferences"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+#, fuzzy
+#| msgid "Display Settings"
+msgid "Settings"
+msgstr "Configuração da Aparência"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+#, fuzzy
+#| msgid "Transparency Checkboxes"
+msgid "Transparency Checkers"
+msgstr "Opções de Transparência"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Canvas Graphics Acceleration"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+#, fuzzy
+#| msgid "Display Settings"
+msgid "Display"
+msgstr "Configuração da Aparência"
+
 #: ../../reference_manual/preferences/display_settings.rst:17
 msgid "Display Settings"
 msgstr "Configuração da Aparência"
 
 #: ../../reference_manual/preferences/display_settings.rst:20
-msgid ".. image:: images/en/Krita_Preferences_Display.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Preferences_Display.png"
+msgid ".. image:: images/preferences/Krita_Preferences_Display.png"
 msgstr ".. image:: images/en/Krita_Preferences_Display.png"
 
 #: ../../reference_manual/preferences/display_settings.rst:21
 msgid "Here various settings for the rendering of Krita can be edited."
 msgstr "Aqui poderá editar várias definições para o desenho no Krita."
-
-#: ../../reference_manual/preferences/display_settings.rst:24
-msgid "OpenGL"
-msgstr "OpenGL"
 
 #: ../../reference_manual/preferences/display_settings.rst:26
 msgid ""
@@ -201,11 +235,67 @@ msgstr ""
 "diz o nome, esta opção oferece a imagem com melhor aparência durante as "
 "operações com a área de desenho."
 
-#: ../../reference_manual/preferences/display_settings.rst:52
+#: ../../reference_manual/preferences/display_settings.rst:54
+msgid "HDR"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:58
+msgid "These settings are only available when using Windows."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:60
+msgid ""
+"Since 4.2 Krita can not just edit floating point images, but also render "
+"them on screen in a way that an HDR capable setup can show them as HDR "
+"images."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:62
+msgid ""
+"The HDR settings will show you the display format that Krita can handle, and "
+"the current output format. You will want to set the preferred output format "
+"to the one closest to what your display can handle to make full use of it."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:64
+#, fuzzy
+#| msgid "Display Settings"
+msgid "Display Format"
+msgstr "Configuração da Aparência"
+
+#: ../../reference_manual/preferences/display_settings.rst:65
+msgid ""
+"The format your display is in by default. If this isn't higher than 8bit, "
+"there's a good chance your monitor is not an HDR monitor as far as Krita can "
+"tell. This can be a hardware issue, but also a graphics driver issue. Check "
+"if other HDR applications, or the system HDR settings are configured "
+"correctly."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:66
+msgid "Current Output format"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:67
+msgid "What Krita is rendering the canvas to currently."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:69
+msgid "Preferred Output Format"
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:69
+msgid ""
+"Which surface type you prefer. This should be ideally the closest to the "
+"display format, but perhaps due to driver issues you might want to try other "
+"formats. This requires a restart."
+msgstr ""
+
+#: ../../reference_manual/preferences/display_settings.rst:72
 msgid "Transparency Checkboxes"
 msgstr "Opções de Transparência"
 
-#: ../../reference_manual/preferences/display_settings.rst:54
+#: ../../reference_manual/preferences/display_settings.rst:74
 msgid ""
 "Krita supports layer transparency. Of course, the nasty thing is that "
 "transparency can't be seen. So to indicate transparency at the lowest layer, "
@@ -216,11 +306,11 @@ msgstr ""
 "transparência na camada mais abaixo, é usado um padrão em xadrez. Esta parte "
 "permite-lhe configurá-la."
 
-#: ../../reference_manual/preferences/display_settings.rst:56
+#: ../../reference_manual/preferences/display_settings.rst:76
 msgid "Size"
 msgstr "Tamanho"
 
-#: ../../reference_manual/preferences/display_settings.rst:57
+#: ../../reference_manual/preferences/display_settings.rst:77
 msgid ""
 "This sets the size of the checkers which show up in transparent parts of an "
 "image."
@@ -228,21 +318,21 @@ msgstr ""
 "Isto define o tamanho do xadrez que aparece nas partes transparentes de uma "
 "imagem."
 
-#: ../../reference_manual/preferences/display_settings.rst:58
-#: ../../reference_manual/preferences/display_settings.rst:66
 #: ../../reference_manual/preferences/display_settings.rst:78
+#: ../../reference_manual/preferences/display_settings.rst:86
+#: ../../reference_manual/preferences/display_settings.rst:98
 msgid "Color"
 msgstr "Cor"
 
-#: ../../reference_manual/preferences/display_settings.rst:59
+#: ../../reference_manual/preferences/display_settings.rst:79
 msgid "The user can set the colors for the checkers over here."
 msgstr "O utilizador pode definir as cores do padrão em xadrez aqui."
 
-#: ../../reference_manual/preferences/display_settings.rst:61
+#: ../../reference_manual/preferences/display_settings.rst:81
 msgid "Move Checkers When Scrolling"
 msgstr "Mover o Xadrez no Deslocamento"
 
-#: ../../reference_manual/preferences/display_settings.rst:61
+#: ../../reference_manual/preferences/display_settings.rst:81
 msgid ""
 "When selected the checkers will move along with opaque elements of an image "
 "during canvas Panning, Zooming, etc.  Otherwise the checkers remain "
@@ -253,11 +343,7 @@ msgstr ""
 "contrário, os padrões em xadrez ficarão estáticos e só se irão mover as "
 "partes opacas da imagem."
 
-#: ../../reference_manual/preferences/display_settings.rst:64
-msgid "Canvas Border"
-msgstr "Contorno da Área de Desenho"
-
-#: ../../reference_manual/preferences/display_settings.rst:67
+#: ../../reference_manual/preferences/display_settings.rst:87
 msgid ""
 "The user can select the color for the canvas i.e. the space beyond a "
 "document's boundaries."
@@ -265,21 +351,21 @@ msgstr ""
 "O utilizador pode seleccionar a cor da área de desenho, i.e. o espaço para "
 "lá dos limites de um documento."
 
-#: ../../reference_manual/preferences/display_settings.rst:69
+#: ../../reference_manual/preferences/display_settings.rst:89
 msgid "Hide Scrollbars"
 msgstr "Esconder as Barras de Deslocamento"
 
-#: ../../reference_manual/preferences/display_settings.rst:69
+#: ../../reference_manual/preferences/display_settings.rst:89
 msgid "Selecting this will hide the scrollbars in all view modes."
 msgstr ""
 "Se seleccionar isto, irá esconder as barras de deslocamento em todos os "
 "modos de visualização."
 
-#: ../../reference_manual/preferences/display_settings.rst:72
+#: ../../reference_manual/preferences/display_settings.rst:92
 msgid "Pixel Grid"
 msgstr "Grelha de Pixels"
 
-#: ../../reference_manual/preferences/display_settings.rst:76
+#: ../../reference_manual/preferences/display_settings.rst:96
 msgid ""
 "This allows configuring an automatic pixel-by-pixel grid, which is very "
 "useful for doing pixel art."
@@ -287,15 +373,15 @@ msgstr ""
 "Isto permite configurar uma grelha pixel-por-pixel automática, o que é muito "
 "útil para gráficos com pixels."
 
-#: ../../reference_manual/preferences/display_settings.rst:79
+#: ../../reference_manual/preferences/display_settings.rst:99
 msgid "The color of the grid."
 msgstr "A cor da grelha."
 
-#: ../../reference_manual/preferences/display_settings.rst:81
+#: ../../reference_manual/preferences/display_settings.rst:101
 msgid "Start Showing at"
 msgstr "Começar a Mostrar em"
 
-#: ../../reference_manual/preferences/display_settings.rst:81
+#: ../../reference_manual/preferences/display_settings.rst:101
 msgid ""
 "This determines the zoom level at which the pixel grid starts showing, as "
 "showing it when the image is zoomed out a lot will make the grid overwhelm "
@@ -305,15 +391,15 @@ msgstr ""
 "pixels, já que, quando a imagem é bastante reduzida, fará com que a grelha "
 "se sobreponha à imagem, o que se torna contraproducente."
 
-#: ../../reference_manual/preferences/display_settings.rst:84
+#: ../../reference_manual/preferences/display_settings.rst:104
 msgid "Miscellaneous"
 msgstr "Diversos"
 
-#: ../../reference_manual/preferences/display_settings.rst:86
+#: ../../reference_manual/preferences/display_settings.rst:106
 msgid "Color Channels in Color"
 msgstr "Canais de Cores a Cores"
 
-#: ../../reference_manual/preferences/display_settings.rst:87
+#: ../../reference_manual/preferences/display_settings.rst:107
 msgid ""
 "This is supposed to determine what to do when only a single channel is "
 "selected in the channels docker, but it doesn't seem to work."
@@ -321,11 +407,11 @@ msgstr ""
 "Isto é suporto determinar o que fazer quando só está seleccionado um canal "
 "na área de canais, mas não parece estar a funcionar."
 
-#: ../../reference_manual/preferences/display_settings.rst:88
+#: ../../reference_manual/preferences/display_settings.rst:108
 msgid "Enable Curve Anti-Aliasing"
 msgstr "Activar a Suavização da Curva"
 
-#: ../../reference_manual/preferences/display_settings.rst:89
+#: ../../reference_manual/preferences/display_settings.rst:109
 msgid ""
 "This allows anti-aliasing on previewing curves, like the ones for the circle "
 "tool, or the path tool."
@@ -333,11 +419,11 @@ msgstr ""
 "Isto permite a suavização na antevisão das curvas, como as da ferramenta de "
 "círculos ou de caminhos."
 
-#: ../../reference_manual/preferences/display_settings.rst:90
+#: ../../reference_manual/preferences/display_settings.rst:110
 msgid "Enable Selection Outline Anti-Aliasing"
 msgstr "Activar a Suavização do Contorno de Selecção"
 
-#: ../../reference_manual/preferences/display_settings.rst:91
+#: ../../reference_manual/preferences/display_settings.rst:111
 msgid ""
 "This allows automatic anti-aliasing on selection. It makes the selection "
 "feel less jaggy and more precise."
@@ -345,15 +431,15 @@ msgstr ""
 "Isto permite uma suavização automática na selecção. Cria menos perturbações "
 "na selecção, tornando-a mais precisa."
 
-#: ../../reference_manual/preferences/display_settings.rst:92
+#: ../../reference_manual/preferences/display_settings.rst:112
 msgid "Hide window scrollbars."
 msgstr "Esconder as barras de deslocamento da janela."
 
-#: ../../reference_manual/preferences/display_settings.rst:93
+#: ../../reference_manual/preferences/display_settings.rst:113
 msgid "Hides the scrollbars on the canvas."
 msgstr "Esconde as barras de deslocamento na área de desenho."
 
-#: ../../reference_manual/preferences/display_settings.rst:95
+#: ../../reference_manual/preferences/display_settings.rst:115
 msgid "This disables the thumbnail that you get when hovering over a layer."
 msgstr ""
 "Isto desactiva a miniatura que obtém ao passar o cursor sobre uma camada."

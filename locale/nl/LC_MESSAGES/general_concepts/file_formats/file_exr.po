@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-19 17:16+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 13:36+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,11 +18,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../general_concepts/file_formats/file_exr.rst:1
 msgid "The EXR file format as exported by Krita."
 msgstr "Het bestandsformaat EXR zoals geëxporteerd door Krita."
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "EXR"
+msgstr "EXR"
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "HDR Fileformat"
+msgstr "HDR-bestandsformaat"
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "OpenEXR"
+msgstr "OpenEXR"
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "*.exr"
+msgstr "*.exr"
 
 #: ../../general_concepts/file_formats/file_exr.rst:15
 msgid "\\*.exr"
@@ -34,6 +50,10 @@ msgid ""
 "bit depths <bit_depth>`, and due to the library made to load and save these "
 "images being fully open source, the main interchange format as well."
 msgstr ""
+".exr is het primaire bestandsformaat voor opslaan en laden van :ref:"
+"`floating point bit depths <bit_depth>`, en vanwege de bibliotheek gemaakt "
+"om deze afbeeldingen te laden en op te slaan die volledig open-source is, is "
+"het ook het hoofduitwisselingsformaat."
 
 #: ../../general_concepts/file_formats/file_exr.rst:19
 msgid ""
@@ -44,6 +64,13 @@ msgid ""
 "conditions, such as sunsets very accurately. These exr files can then be "
 "used inside a renderer to create realistic lighting."
 msgstr ""
+"Floating point bit-depths worden gebruikt door de computergraphicsindustry "
+"om scene gerefereerde waarden op te slaan, die gemaakt kunnen worden via een "
+"camera- of een computerrenderer. Scene gerefereerde waarden betekent dat het "
+"bestand waarden kan hebben witter dan wit, wat op zijn beurt betekent dat "
+"zo'n bestand zeer accuraat belichtingscondities kan opnemen zoals "
+"zonsondergangen. Deze exr-bestanden kunnen dan gebruikt worden binnen een "
+"renderer om realistische belichting aan te maken."
 
 #: ../../general_concepts/file_formats/file_exr.rst:21
 msgid ""
@@ -51,3 +78,6 @@ msgid ""
 "paint with scene referred values) and interchange with applications like "
 "Blender, Mari, Nuke and Natron."
 msgstr ""
+"Krita kan exr laden en opslaan met als doel overschilderen (ja, Krita kan "
+"schilderen met scene gerefereerde waarden) en uitwisselen met toepassingen "
+"zoals Blender, Mari, Nuke en Natron."

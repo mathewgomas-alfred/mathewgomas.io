@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -29,6 +29,10 @@ msgstr ""
 msgid "Overview of vector graphics in Krita."
 msgstr "介绍 Krita 里面的矢量图形功能。"
 
+#: ../../user_manual/vector_graphics.rst:11
+msgid "Vector"
+msgstr ""
+
 #: ../../user_manual/vector_graphics.rst:16
 msgid "Vector Graphics"
 msgstr "矢量图形"
@@ -42,7 +46,7 @@ msgstr ""
 
 #: ../../user_manual/vector_graphics.rst:21
 msgid "What are vector graphics?"
-msgstr "什么是矢量图形？"
+msgstr "矢量图形介绍"
 
 #: ../../user_manual/vector_graphics.rst:23
 msgid ""
@@ -50,20 +54,20 @@ msgid ""
 "the editing changes the values of the pixels on the raster that makes up the "
 "image."
 msgstr ""
-"Krita 总体来说是一个栅格图像编辑工具，它的编辑操作主要针对构成图像的栅格数据"
-"中的像素进行数值修改。"
+"Krita 总体来说是一个栅格图像编辑工具，它主要针对图像的栅格数据进行像素编辑操"
+"作。"
 
 #: ../../user_manual/vector_graphics.rst:26
-msgid ".. image:: images/en/Pixels-brushstroke.png"
-msgstr ".. image:: images/en/Pixels-brushstroke.png"
+msgid ".. image:: images/Pixels-brushstroke.png"
+msgstr ""
 
 #: ../../user_manual/vector_graphics.rst:27
 msgid ""
 "Vector graphics on the other hand use mathematics to describe a shape. "
 "Because it uses a formula, vector graphics can be resized to any size."
 msgstr ""
-"而矢量图形和栅格图像不同，它通过数学运算来描述形状。而正是因为它使用的是数学"
-"算式，矢量图形可以被缩放成任意尺寸而不会损失精度。"
+"和使用像素的栅格图像不同，矢量图形通过数学运算来描述形状。而正是因为它使用的"
+"是数学算式，矢量图形可以被缩放成任意尺寸而不会损失精度。"
 
 #: ../../user_manual/vector_graphics.rst:29
 msgid ""
@@ -120,7 +124,8 @@ msgstr ""
 msgid ""
 "All of these will use the current brush size to determine stroke thickness, "
 "as well as the current foreground and background color."
-msgstr "所有上述工具都会使用当前笔刷、前景色和背景色等来决定生成的图形的样式。"
+msgstr ""
+"所有上述工具都会使用当前笔刷大小、前景色和背景色等来决定生成图形的样式。"
 
 #: ../../user_manual/vector_graphics.rst:44
 msgid ""
@@ -143,9 +148,9 @@ msgid ""
 "This can be modified with the arrange docker, or with the :guilabel:`Select "
 "Shapes` tool."
 msgstr ""
-"一个矢量图层所包含的图形有属于它们自己一套的层级关系，就像是图像的图层的层级"
-"关系一样。不同的形状可以相互遮挡，我们可以使用“矢量图形排列”工具面板或者 :"
-"guilabel:`形状选取工具` 来对矢量图形进行排序。"
+"每个矢量图层所包含的图形都有一套层级关系，这就像是图层的层级关系一样。矢量形"
+"状可以互相遮挡，我们可以使用“矢量图形排列”工具面板或者 :guilabel:`形状选取工"
+"具` 来对矢量图形进行排序。"
 
 #: ../../user_manual/vector_graphics.rst:51
 msgid ""
@@ -153,8 +158,8 @@ msgid ""
 "allows you to precisely align shapes, for example, have them aligned to the "
 "center, or have an even spacing between all the shapes."
 msgstr ""
-"你还可以在矢量图形排列面板里面组合或者拆散形状，对各个形状进行精确对齐，例如"
-"把它们沿中心对齐，或者以均匀间距分布等。"
+"你还可以通过矢量图形排列面板组合或者拆散形状，对各个形状进行精确对齐，例如把"
+"它们沿中心对齐，或者以均匀间距分布等。"
 
 #: ../../user_manual/vector_graphics.rst:54
 msgid "Editing shapes"
@@ -187,15 +192,15 @@ msgstr "填充"
 msgid ""
 "You can change the fill of a shape by selecting it and changing the active "
 "foreground color."
-msgstr "要更改一个矢量形状的填充色，先选中它，然后更改当前的前景色。"
+msgstr "要更改一个矢量形状的填充色，可以先选中它，然后更改当前的前景色。"
 
 #: ../../user_manual/vector_graphics.rst:65
 msgid ""
 "You can also change it by going into the tool options of the :guilabel:"
 "`Select Shapes` tool and going to the :guilabel:`Fill` tab."
 msgstr ""
-"你还可以在 :guilabel:`形状选取工具` 的工具选项面板切换到 :guilabel:`填充` 页"
-"面更改填充色。"
+"你还可以在 :guilabel:`形状选取工具` 的工具选项切换到 :guilabel:`填充` 页面更"
+"改填充色。"
 
 #: ../../user_manual/vector_graphics.rst:67
 msgid ""
@@ -241,7 +246,7 @@ msgid ""
 "tool, but for text this is the :guilabel:`Text` tool."
 msgstr ""
 "在选中了一个矢量形状时，对它再次双击可以切换到用于编辑该形状的对应工具。一般"
-"情况下这会切换到 :guilabel:`形状编辑工具` 而双击文字形状时则会切换到 :"
+"情况下这会切换到 :guilabel:`形状编辑工具` ，而双击文字形状时则会切换到 :"
 "guilabel:`文字` 工具。"
 
 #: ../../user_manual/vector_graphics.rst:86
@@ -266,9 +271,9 @@ msgid ""
 "can open SVGs just fine. This is important as SVG is the most popular vector "
 "format."
 msgstr ""
-"Krita 4.0 版引入的其中一项重大变化是从 ODG 规范转向 SVG 规范。Krita 把矢量图"
-"形按 SVG 格式保存在 KRA 文件中，当然也就可以正常打开 SVG 文件。这项变化之所以"
-"值得一提，是因为 SVG 是目前适用范围最广的矢量图像格式。"
+"Krita 从 4.0 版开始从 ODG 规范转向 SVG 规范。Krita 会把矢量图形按 SVG 格式保"
+"存在 KRA 文件中，也可以正常打开 SVG 文件。这项变化之所以值得一提，是因为 SVG "
+"是目前适用范围最广的矢量图像格式。"
 
 #: ../../user_manual/vector_graphics.rst:94
 msgid "Inkscape"
@@ -282,4 +287,4 @@ msgid ""
 msgstr ""
 "你可以把矢量图形从 Krita 复制粘贴到 Inkscape，也可以反过来从 Inkscape 复制粘"
 "贴到 Krita。不过 Krita 仅支持 SVG 1.1 版的特性，如果使用了网格渐变，跨程序转"
-"移后的效果并不总能保持一致。"
+"移后的效果无法保证一致。"

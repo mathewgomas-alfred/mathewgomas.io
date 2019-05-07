@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-04-15 19:51+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:47+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Hard Edge"
@@ -27,9 +27,22 @@ msgstr "Vora sòlida"
 msgid "The Shape Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de formes."
 
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:16
 msgid "Shape Brush Engine"
 msgstr "Motor del pinzell de formes"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Experiment Brush Engine"
+msgstr "Motor del pinzell per experimentar"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Al.Chemy"
+msgstr "Al.Chemy"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:19
 msgid ".. image:: images/icons/shapebrush.svg"
@@ -37,7 +50,7 @@ msgstr ".. image:: images/icons/shapebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:20
 msgid "An Al.chemy inspired brush-engine. Good for making chaos with!"
-msgstr ""
+msgstr "Un motor de pinzell inspirat en «Al.chemy». Bo per a crear el caos!"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:23
 msgid "Parameters"
@@ -63,6 +76,8 @@ msgstr "Velocitat"
 msgid ""
 "This makes the outputted contour jaggy. The higher the speed, the jaggier."
 msgstr ""
+"Farà que el contorn resultant sigui irregular. Com més gran sigui la "
+"velocitat, més irregular serà."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:35
 msgid "Smooth"
@@ -73,6 +88,8 @@ msgid ""
 "Smoothens the output contour. This slows down the brush, but the higher the "
 "smooth, the smoother the contour."
 msgstr ""
+"Suavitzarà el contorn resultant. Això frenarà el pinzell, però com més gran "
+"sigui el suavitzat, més suau serà el contorn."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:37
 msgid "Displace"
@@ -83,6 +100,8 @@ msgid ""
 "This displaces the shape. The slow the movement, the higher the displacement "
 "and expansion. Fast movements shrink the shape."
 msgstr ""
+"Desplaçarà la forma. Com més lent sigui el moviment, més gran serà el "
+"desplaçament i l'expansió. Els moviments ràpids faran encongir la forma."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:39
 msgid "Winding Fill"
@@ -94,7 +113,11 @@ msgid ""
 "'even-odd' fill rule, which means that where normally crossing into the "
 "shape created transparent areas, it now will not."
 msgstr ""
+"Dóna l'opció d'utilitzar les regles de farciment «diferent de zero» en lloc "
+"de la regla de farciment «parell imparell», el qual vol dir quan normalment "
+"es creua dins d'àrees transparents creades per la forma, ara deixaria de fer-"
+"ho."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:42
 msgid "Removes the anti-aliasing, to get a pixelized line."
-msgstr ""
+msgstr "Elimina l'antialiàsing per obtenir una línia pixelada."

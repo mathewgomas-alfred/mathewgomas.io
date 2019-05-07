@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-27 01:16+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -35,8 +35,17 @@ msgstr ""
 msgid "The Clone Brush Engine manual page."
 msgstr ""
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Clone Tool"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
@@ -127,7 +136,19 @@ msgid ""
 "per stroke. Can be useful when used with the healing brush."
 msgstr ""
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
+msgid "Source Point reset before a new stroke"
+msgstr ""
+
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
+msgid ""
+"This will reset the source point everytime you make a new stroke. So if you "
+"were cloning a part in one stroke, having this active will allow you to "
+"clone the same part again in a single stroke, instead of using the source "
+"point as a permanent offset."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
 msgstr ""

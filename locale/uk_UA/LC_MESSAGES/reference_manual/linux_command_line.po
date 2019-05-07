@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___linux_command_line\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-20 08:13+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 19:53+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -20,9 +20,17 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
+#: ../../reference_manual/linux_command_line.rst:None
+msgid "New in version 3.3:"
+msgstr "Нове у версії 3.3:"
+
 #: ../../reference_manual/linux_command_line.rst:1
 msgid "Overview of Krita's command line options."
 msgstr "Огляд параметрів командного рядка Krita."
+
+#: ../../reference_manual/linux_command_line.rst:11
+msgid "Command Line"
+msgstr "Командний рядок"
 
 #: ../../reference_manual/linux_command_line.rst:16
 msgid "Linux Command Line"
@@ -77,11 +85,11 @@ msgstr "Експортування файла визначається пара�
 
 #: ../../reference_manual/linux_command_line.rst:42
 msgid ""
-"Exportfilename says that the following word is the filename it should be "
+"Export filename says that the following word is the filename it should be "
 "exported to."
 msgstr ""
 "Exportfilename вказує, що наступним словом є назва файла, до якого слід "
-"еспортувати дані."
+"експортувати дані."
 
 #: ../../reference_manual/linux_command_line.rst:44
 msgid ""
@@ -100,58 +108,84 @@ msgid "``krita file.png --export --export-filename final.jpg``"
 msgstr "``krita file.png --export --export-filename final.jpg``"
 
 #: ../../reference_manual/linux_command_line.rst:50
-msgid ""
-"This piece of code takes the file ``file.png`` and saves it as ``final.jpg``."
+msgid "This line takes the file ``file.png`` and saves it as ``file.jpg``."
 msgstr ""
-"Цей фрагмент коду обробляє файл ``file.png`` і зберігає його як ``final."
-"jpg``."
+"Цей фрагмент коду обробляє файл ``file.png`` і зберігає його як ``file.jpg``."
 
-#: ../../reference_manual/linux_command_line.rst:53
+#: ../../reference_manual/linux_command_line.rst:56
+msgid "Export animation to the given filename and exit"
+msgstr "Експортувати анімацію до файла із вказаною назвою і вийти"
+
+#: ../../reference_manual/linux_command_line.rst:58
+msgid ""
+"If a KRA file has no animation, then this command prints \"This file has no "
+"animation.\" error and does nothing."
+msgstr ""
+"Якщо у файлі KRA не зберігаються дані анімації, цією командою буде виведено "
+"повідомлення «У цьому файлі не міститься анімації.», а програма не "
+"виконуватиме ніяких дій."
+
+#: ../../reference_manual/linux_command_line.rst:60
+msgid "``krita --export-sequence --export-filename file.png test.kra``"
+msgstr "``krita --export-sequence --export-filename file.png test.kra``"
+
+#: ../../reference_manual/linux_command_line.rst:62
+msgid ""
+"This line takes the animation in test.kra, and uses the value of --export-"
+"filename (file.png), to determine the sequence fileformat('png') and the "
+"frame prefix ('file')."
+msgstr ""
+"У результаті виконання цієї команди для анімації у файлі test.kra, за "
+"використання значення --export-filename (file.png), буде створено "
+"послідовність зображень у вказаному форматі («png») із вказаним префіксом "
+"назви кадру («file»)."
+
+#: ../../reference_manual/linux_command_line.rst:66
 msgid "PDF export"
 msgstr "Експортування до PDF"
 
-#: ../../reference_manual/linux_command_line.rst:55
+#: ../../reference_manual/linux_command_line.rst:68
 msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
 msgstr ""
 "Експортування до PDF виглядає дещо інакше. Для його виконання слід "
 "скористатися параметром ``--export-pdf``."
 
-#: ../../reference_manual/linux_command_line.rst:57
+#: ../../reference_manual/linux_command_line.rst:70
 msgid "``krita file.png --export-pdf --export-filename final.pdf``"
 msgstr "``krita file.png --export-pdf --export-filename final.pdf``"
 
-#: ../../reference_manual/linux_command_line.rst:59
+#: ../../reference_manual/linux_command_line.rst:72
 msgid "export-pdf exports the file ``file.png`` as a pdf file."
 msgstr "export-pdf експортує файл ``file.png`` як файл PDF."
 
-#: ../../reference_manual/linux_command_line.rst:63
+#: ../../reference_manual/linux_command_line.rst:76
 msgid "This has been removed from 3.1 because the results were incorrect."
 msgstr ""
 "Цей параметр було вилучено, починаючи з версії 3.1, оскільки результати його "
 "застосування були некоректними."
 
-#: ../../reference_manual/linux_command_line.rst:66
+#: ../../reference_manual/linux_command_line.rst:79
 msgid "Open with Custom Screen DPI"
 msgstr "Відкриття із нетиповою роздільністю для екрана"
 
-#: ../../reference_manual/linux_command_line.rst:68
-#: ../../reference_manual/linux_command_line.rst:74
+#: ../../reference_manual/linux_command_line.rst:81
+#: ../../reference_manual/linux_command_line.rst:87
 msgid "Open Krita with specified Screen DPI."
 msgstr "Відкриття вікна Krita із вказаною роздільністю екрана."
 
-#: ../../reference_manual/linux_command_line.rst:76
+#: ../../reference_manual/linux_command_line.rst:89
 msgid "For example:"
 msgstr "Приклад:"
 
-#: ../../reference_manual/linux_command_line.rst:78
+#: ../../reference_manual/linux_command_line.rst:91
 msgid "``krita --dpi <72,72>``"
 msgstr "``krita --dpi <72,72>``"
 
-#: ../../reference_manual/linux_command_line.rst:81
+#: ../../reference_manual/linux_command_line.rst:94
 msgid "Open template"
 msgstr "Відкриття шаблона"
 
-#: ../../reference_manual/linux_command_line.rst:83
+#: ../../reference_manual/linux_command_line.rst:96
 msgid ""
 "Open krita and automatically open the given template(s). This allows you to, "
 "for example, create a shortcut to Krita that opens a given template, so you "
@@ -162,15 +196,15 @@ msgstr ""
 "відкриття Krita із заданим шаблоном, щоб можна було негайно перейти до "
 "роботи з ним!"
 
-#: ../../reference_manual/linux_command_line.rst:85
+#: ../../reference_manual/linux_command_line.rst:98
 msgid "``krita --template templatename.desktop``"
 msgstr "``krita --template назва_шаблона.desktop``"
 
-#: ../../reference_manual/linux_command_line.rst:91
+#: ../../reference_manual/linux_command_line.rst:104
 msgid "Selects the template option"
 msgstr "Вибір шаблона"
 
-#: ../../reference_manual/linux_command_line.rst:93
+#: ../../reference_manual/linux_command_line.rst:106
 msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
 "in the .local/share/krita/template or in the install folder of Krita."
@@ -178,46 +212,46 @@ msgstr ""
 "Усі шаблони зберігаються із суфіксом назви .desktop. Знайти шаблони можна у "
 "теці .local/share/krita/template або у теці встановлення Krita."
 
-#: ../../reference_manual/linux_command_line.rst:95
+#: ../../reference_manual/linux_command_line.rst:108
 msgid "``krita --template BD-EuroTemplate.desktop``"
 msgstr "``krita --template BD-EuroTemplate.desktop``"
 
-#: ../../reference_manual/linux_command_line.rst:97
+#: ../../reference_manual/linux_command_line.rst:110
 msgid "This opens the European BD comic template with Krita."
 msgstr "Ця команда відкриває шаблон коміксів European BD за допомогою Krita."
 
-#: ../../reference_manual/linux_command_line.rst:99
+#: ../../reference_manual/linux_command_line.rst:112
 msgid "``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``"
 msgstr "``krita --template BD-EuroTemplate.desktop BD-EuroTemplate.desktop``"
 
-#: ../../reference_manual/linux_command_line.rst:101
+#: ../../reference_manual/linux_command_line.rst:114
 msgid "This opens the European BD template twice, in separate documents."
 msgstr "Ця команда відкриває шаблон European BD двічі, в окремих документах."
 
-#: ../../reference_manual/linux_command_line.rst:104
+#: ../../reference_manual/linux_command_line.rst:117
 msgid "Start up"
 msgstr "Запуск"
 
-#: ../../reference_manual/linux_command_line.rst:112
+#: ../../reference_manual/linux_command_line.rst:125
 msgid "starts krita without showing the splash screen."
 msgstr "Запускає Krita без показу вікна вітання."
 
-#: ../../reference_manual/linux_command_line.rst:116
+#: ../../reference_manual/linux_command_line.rst:129
 msgid "starts krita in canvasonly mode."
 msgstr "Запускає Krita у режимі показу лише полотна."
 
-#: ../../reference_manual/linux_command_line.rst:120
+#: ../../reference_manual/linux_command_line.rst:133
 msgid "starts krita in fullscreen mode."
 msgstr "запускає krita у повноекранному режимі."
 
-#: ../../reference_manual/linux_command_line.rst:124
+#: ../../reference_manual/linux_command_line.rst:137
 msgid "starts krita with the given workspace. So for example..."
 msgstr "Запускає krita із вказаним робочим простором. Отже, наприклад…"
 
-#: ../../reference_manual/linux_command_line.rst:126
+#: ../../reference_manual/linux_command_line.rst:139
 msgid "`` krita --workspace Animation``"
 msgstr "`` krita --workspace Animation``"
 
-#: ../../reference_manual/linux_command_line.rst:128
+#: ../../reference_manual/linux_command_line.rst:141
 msgid "Starts Krita in the Animation workspace."
 msgstr "Запускає Krita із робочим простором Animation."

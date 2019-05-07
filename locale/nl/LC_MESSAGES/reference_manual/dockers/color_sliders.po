@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-22 14:18+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:12+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,15 +18,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/dockers/color_sliders.rst:1
 msgid "Overview of the color sliders docker."
 msgstr "Overzicht van de vastzetter Kleurschuifregelaars."
 
+#: ../../reference_manual/dockers/color_sliders.rst:11
 #: ../../reference_manual/dockers/color_sliders.rst:16
 msgid "Color Sliders"
 msgstr "Kleurschuifregelaars"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Color"
+msgstr "Kleur"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+#| msgid "Color Sliders"
+msgid "Color Selector"
+msgstr "Kleurenkiezer"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Hue"
+msgstr "Tint"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Saturation"
+msgstr "Verzadiging"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Value"
+msgstr "Waarde"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Brightness"
+msgstr "Helderheid"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Lightness"
+msgstr "Lichtheid"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Intensity"
+msgstr "Intensiteit"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Luma"
+msgstr "Luma"
+
+#: ../../reference_manual/dockers/color_sliders.rst:11
+msgid "Luminosity"
+msgstr "Lichtkracht"
 
 #: ../../reference_manual/dockers/color_sliders.rst:20
 msgid ""
@@ -39,8 +81,9 @@ msgid "A small docker with Hue, Saturation and Lightness bars."
 msgstr ""
 
 #: ../../reference_manual/dockers/color_sliders.rst:25
-msgid ".. image:: images/en/Color-slider-docker.png"
-msgstr ".. image:: images/en/Color-slider-docker.png"
+#| msgid ".. image:: images/en/Color-slider-docker.png"
+msgid ".. image:: images/dockers/Color-slider-docker.png"
+msgstr ".. image:: images/dockers/Color-slider-docker.png"
 
 #: ../../reference_manual/dockers/color_sliders.rst:26
 msgid ""

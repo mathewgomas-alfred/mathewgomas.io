@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-02-25 12:17+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:29+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,11 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/filters/map.rst:1
 msgid "Overview of the map filters."
 msgstr "Overzicht van de kaart makende filters."
+
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr "Filters"
 
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
@@ -32,20 +36,40 @@ msgstr "Kaart"
 msgid "Filters that are signified by them mapping the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
-msgstr "Kleine tegels"
+msgstr "Kleine stenen"
+
+#: ../../reference_manual/filters/map.rst:20
+#| msgid "Small Tiles"
+msgid "Tiles"
+msgstr "Stenen"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
 msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+#| msgid "Phong Bumpmap"
+msgid "Bumpmap"
+msgstr "Bumpmap"
+
+#: ../../reference_manual/filters/map.rst:27
+#| msgid "Normalize"
+msgid "Normal Map"
+msgstr "Normale kaart"
 
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "Phong Bumpmap"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:34
@@ -64,6 +88,7 @@ msgstr "Hoeken afronden"
 msgid "Adds little corners to the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Normaliseren"
@@ -75,12 +100,18 @@ msgid ""
 "normal maps and some minor image-editing functions."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Kleurverloopkaart"
 
+#: ../../reference_manual/filters/map.rst:48
+#| msgid "Gradient Map"
+msgid "Gradient"
+msgstr "Kleurverloop"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:55

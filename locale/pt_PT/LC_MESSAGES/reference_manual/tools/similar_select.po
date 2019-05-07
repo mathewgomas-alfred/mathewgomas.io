@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-20 09:23+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -32,6 +32,18 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: botão esquerdo"
 
+#: ../../<rst_epilog>:4
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_left.png\n"
+#| "   :alt: mouseleft"
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: botão esquerdo"
+
 #: ../../<rst_epilog>:78
 msgid ""
 ".. image:: images/icons/similar_select_tool.svg\n"
@@ -43,6 +55,20 @@ msgstr ""
 #: ../../reference_manual/tools/similar_select.rst:1
 msgid "Krita's similar color selection tool reference."
 msgstr "A referência da ferramenta de selecção de cores semelhantes do Krita."
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+#, fuzzy
+#| msgid "Similar Color Selection Tool"
+msgid "Similar Selection"
+msgstr "Ferramenta de Selecção de Cores Semelhantes"
 
 #: ../../reference_manual/tools/similar_select.rst:16
 msgid "Similar Color Selection Tool"
@@ -119,6 +145,16 @@ msgstr ""
 "`intersecção`."
 
 #: ../../reference_manual/tools/similar_select.rst:35
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:36
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
@@ -126,11 +162,11 @@ msgstr ""
 "Poderá mudar o comportamento da tecla :kbd:`Alt` para usar como alternativa "
 "o :kbd:`Ctrl`, comutando o interruptor na :ref:`general_settings`"
 
-#: ../../reference_manual/tools/similar_select.rst:38
+#: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
 msgstr "Opções da Ferramenta"
 
-#: ../../reference_manual/tools/similar_select.rst:41
+#: ../../reference_manual/tools/similar_select.rst:46
 msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."

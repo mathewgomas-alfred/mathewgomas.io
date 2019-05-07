@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,12 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___tools___multibrush.pot\n"
 
+#: ../../<rst_epilog>:2
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+
 #: ../../<rst_epilog>:40
 msgid ""
 ".. image:: images/icons/multibrush_tool.svg\n"
@@ -26,11 +32,32 @@ msgstr ""
 "   :alt: toolmultibrush"
 
 #: ../../reference_manual/tools/multibrush.rst:None
-msgid ".. image:: images/en/Krita-multibrush.png"
+msgid ".. image:: images/tools/Krita-multibrush.png"
 msgstr ""
 
 #: ../../reference_manual/tools/multibrush.rst:1
 msgid "Krita's multibrush tool reference."
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+#: ../../reference_manual/tools/multibrush.rst:31
+msgid "Symmetry"
+msgstr "提示数对称分布"
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Multibrush"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Mandala"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Rotational Symmetry"
 msgstr ""
 
 #: ../../reference_manual/tools/multibrush.rst:16
@@ -66,10 +93,6 @@ msgstr ""
 msgid "The three modes are:"
 msgstr ""
 
-#: ../../reference_manual/tools/multibrush.rst:31
-msgid "Symmetry"
-msgstr "提示数对称分布"
-
 #: ../../reference_manual/tools/multibrush.rst:32
 msgid ""
 "Symmetry will reflect your brush around the axis at even intervals. The "
@@ -94,7 +117,7 @@ msgid ""
 "radius distance."
 msgstr ""
 
-#: ../../reference_manual/tools/multibrush.rst:38
+#: ../../reference_manual/tools/multibrush.rst:37
 msgid "Snowflake"
 msgstr "雪花型"
 
@@ -105,6 +128,19 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/multibrush.rst:40
+msgid "Copy Translate"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:40
+msgid ""
+"This allows you to set the position of the copies relative to your own "
+"cursor. To set the position of the copies, first toggle :guilabel:`Add`, and "
+"then |mouseleft| the canvas to place copies relative to the multibrush "
+"origin. Finally, press :guilabel:`Add` again, and start drawing to see the "
+"copy translate in action."
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:42
 msgid ""
 "The assistant and smoothing options work the same as in the :ref:"
 "`freehand_brush_tool`, though only on the real brush and not its copies."

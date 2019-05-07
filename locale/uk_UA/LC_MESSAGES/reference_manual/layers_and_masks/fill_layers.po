@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___layers_and_masks___fill_layers\n"
+"Project-Id-Version: docs_krita_org_reference_manual___layers_and_masks___fill_"
+"layers\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-05 07:19+0300\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"PO-Revision-Date: 2019-05-06 07:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,9 +21,25 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:0
+msgid ".. image:: images/layers/fill_layer_simplex_noise.png"
+msgstr ".. image:: images/layers/fill_layer_simplex_noise.png"
+
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:1
 msgid "How to use fill layers in Krita."
 msgstr "Як користуватися шарами заповнення у Krita."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+msgid "Layers"
+msgstr "Шари"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+msgid "Fill"
+msgstr "Заповнення"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+msgid "Generator"
+msgstr "Породжувач"
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:17
 msgid "Fill Layers"
@@ -38,8 +54,8 @@ msgstr ""
 "може містити або заповнення візерунком, або заповнення суцільним кольором."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:22
-msgid ".. image:: images/en/Fill_Layer.png"
-msgstr ".. image:: images/en/Fill_Layer.png"
+msgid ".. image:: images/layers/Fill_Layer.png"
+msgstr ".. image:: images/layers/Fill_Layer.png"
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:24
 msgid ""
@@ -93,11 +109,75 @@ msgstr ""
 "Другий варіант не такий творчий, але виконує своє завдання. Заповнення шару "
 "вибраним кольором."
 
-#: ../../reference_manual/layers_and_masks/fill_layers.rst:32
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:36
+msgid ""
+"A noise generator that isn't Perline Noise (which is what typical 'clouds' "
+"generation is), but it looks similar and can actually loop. Uses the "
+"OpenSimplex code."
+msgstr ""
+"Генератор шуму, який не є шумом Перліна (шумом, який є типовим у «хмарах»), "
+"але виглядає подібно і може породжувати циклічні структури. Використовує код "
+"OpenSimplex."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:38
+msgid "Looping"
+msgstr "Цикл"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:39
+msgid "Whether or not to force the pattern to loop."
+msgstr "Визначає, чи слід примусово циклічно повторювати візерунок."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:40
+msgid "Frequency"
+msgstr "Частота"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:41
+msgid ""
+"The frequency of the waves used to generate the pattern. Higher frequency "
+"results in a finer noise pattern."
+msgstr ""
+"Частота хвиль для створення візерунка. Вища частота дає тендітнішу структуру "
+"шуму."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:42
+msgid "Ratio"
+msgstr "Пропорція"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:43
+msgid ""
+"The ratio of the waves in the x and y dimensions. This makes the noise have "
+"a rectangular appearance."
+msgstr ""
+"Співвідношення хвиль у напрямках x та y. Надає шуму прямокутної структури."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+msgid "Simplex Noise"
+msgstr "Симплекс-шум"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+msgid "Use Custom Seed"
+msgstr "Використати нетиповий ініціатор"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+#| msgid ""
+#| "The seed for the random component. You can input any value or text here, "
+#| "and it will always try to use this value to generate the random values "
+#| "with(which then are always the same for a given seed)."
+msgid ""
+"The seed for the random component. You can input any value or text here, and "
+"it will always try to use this value to generate the random values with "
+"(which then are always the same for a given seed)."
+msgstr ""
+"Початкове число для компоненти випадкових чисел. У це поле ви можете ввести "
+"будь-яке значення або текст. Програма скористається цим значенням для "
+"створення послідовності псевдовипадкових чисел (яка завжди є однаковою для "
+"того самого початкового числа)."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:48
 msgid "Painting on a fill layer"
 msgstr "Малювання на шарі заповнення"
 
-#: ../../reference_manual/layers_and_masks/fill_layers.rst:34
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:50
 msgid ""
 "A fill-layer is a single-channel layer, meaning it only has transparency. "
 "Therefore, you can erase and paint on fill-layers to make them semi-opaque, "

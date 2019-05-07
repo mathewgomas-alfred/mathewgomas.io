@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-27 02:46+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "Overview of the map filters."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr ""
+
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
 msgstr "Carte"
@@ -32,20 +36,43 @@ msgstr "Carte"
 msgid "Filters that are signified by them mapping the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
+msgstr "Petites tuiles"
+
+#: ../../reference_manual/filters/map.rst:20
+#, fuzzy
+#| msgid "Small Tiles"
+msgid "Tiles"
 msgstr "Petites tuiles"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Phong Bumpmap"
+msgid "Bumpmap"
+msgstr "Modèle de Phong"
+
+#: ../../reference_manual/filters/map.rst:27
+#, fuzzy
+#| msgid "Normalize"
+msgid "Normal Map"
+msgstr "Normaliser"
+
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "Modèle de Phong"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:34
@@ -64,6 +91,7 @@ msgstr "Coins arrondis"
 msgid "Adds little corners to the input image."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Normaliser"
@@ -75,12 +103,19 @@ msgid ""
 "normal maps and some minor image-editing functions."
 msgstr ""
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Dégradé"
 
+#: ../../reference_manual/filters/map.rst:48
+#, fuzzy
+#| msgid "Gradient Map"
+msgid "Gradient"
+msgstr "Dégradé"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:55

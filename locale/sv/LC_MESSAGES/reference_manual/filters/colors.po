@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-03-11 20:15+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:18+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -18,12 +18,16 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: ../../reference_manual/filters/colors.rst:None
-msgid ".. image:: images/en/Krita-color-to-alpha.png"
-msgstr ".. image:: images/en/Krita-color-to-alpha.png"
+msgid ".. image:: images/filters/Krita-color-to-alpha.png"
+msgstr ".. image:: images/filters/Krita-color-to-alpha.png"
 
 #: ../../reference_manual/filters/colors.rst:1
 msgid "Overview of the color filters."
-msgstr ""
+msgstr "Översikt av färgfiltren."
+
+#: ../../reference_manual/filters/colors.rst:11
+msgid "Filters"
+msgstr "Filter"
 
 #: ../../reference_manual/filters/colors.rst:16
 msgid "Color"
@@ -34,7 +38,10 @@ msgid ""
 "Similar to the Adjust filters, the color filters are image wide color "
 "operations."
 msgstr ""
+"I liket med justeringsfiltren är färgfiltren färgoperationer över hela "
+"bilden."
 
+#: ../../reference_manual/filters/colors.rst:20
 #: ../../reference_manual/filters/colors.rst:24
 msgid "Color to Alpha"
 msgstr "Färg till alfa"
@@ -45,10 +52,13 @@ msgid ""
 "default when you run this filter white is selected, you can choose a color "
 "that you want to make transparent from the color selector"
 msgstr ""
+"Filtret låter dig gör en enskild färg genomskinlig (alfa). Normalt är vit "
+"valt när filtret körs, men man kan välja en färg som man vill göra "
+"genomskinlig i färgväljaren."
 
 #: ../../reference_manual/filters/colors.rst:29
-msgid ".. image:: images/en/Color-to-alpha.png"
-msgstr ".. image:: images/en/Color-to-alpha.png"
+msgid ".. image:: images/filters/Color-to-alpha.png"
+msgstr ".. image:: images/filters/Color-to-alpha.png"
 
 #: ../../reference_manual/filters/colors.rst:30
 msgid ""
@@ -57,12 +67,18 @@ msgid ""
 "255, and the removed color set to white, a 50% gray will be considered a "
 "mixture of black+white, and thus transformed in a 50% transparent black."
 msgstr ""
+"Tröskeln anger hur mycket andra färger anses vara en blandning av den "
+"borttagna färgen och icke borttagna färger. Med tröskeln exempelvis inställt "
+"till 255, och den borttagna färgen inställd till vit, anses 50 % grå vara en "
+"blandning av svart+vit, och därigenom omvandlad till 50 % genomskinlig svart."
 
 #: ../../reference_manual/filters/colors.rst:36
 msgid ""
 "This filter is really useful in separating line art from the white "
 "background."
 msgstr ""
+"Filtret är mycket användbart för att skilja teckningar från den vita "
+"bakgrunden."
 
 #: ../../reference_manual/filters/colors.rst:41
 msgid "Color Transfer"
@@ -74,10 +90,13 @@ msgid ""
 "image. This is a quick way to change a color combination of an artwork to an "
 "already saved image or a reference image."
 msgstr ""
+"Filtret konverterar bildens färger till färger från referensbilden. Det är "
+"ett snabbt sätt att ändra färgkombinationen hos ett alster till en redan "
+"sparad bild eller en referensbild."
 
 #: ../../reference_manual/filters/colors.rst:47
-msgid ".. image:: images/en/Color-transfer.png"
-msgstr ".. image:: images/en/Color-transfer.png"
+msgid ".. image:: images/filters/Color-transfer.png"
+msgstr ".. image:: images/filters/Color-transfer.png"
 
 #: ../../reference_manual/filters/colors.rst:51
 msgid "Maximize Channel"
@@ -88,6 +107,8 @@ msgid ""
 "This filter checks for all the channels of a each single color and set all "
 "but the highest value to 0."
 msgstr ""
+"Filtret undersöker alla kanaler för varje enskild färg och ändrar alla utom "
+"det högsta värdet till 0."
 
 #: ../../reference_manual/filters/colors.rst:58
 msgid "Minimize Channel"
@@ -98,3 +119,5 @@ msgid ""
 "This is reverse to Maximize channel, it checks all the channels of a each "
 "single color and sets all but the lowest to 0."
 msgstr ""
+"Omvändning av Maximera kanal. Det undersöker alla kanaler för varje enskild "
+"färg och ändrar alla utom det lägsta till 0."

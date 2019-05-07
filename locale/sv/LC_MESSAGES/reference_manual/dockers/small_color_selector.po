@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-25 20:45+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:28+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -21,13 +21,22 @@ msgstr ""
 msgid "Overview of the small color selector docker."
 msgstr "Översikt av den lilla färgväljarpanelen."
 
+#: ../../reference_manual/dockers/small_color_selector.rst:11
 #: ../../reference_manual/dockers/small_color_selector.rst:16
 msgid "Small Color Selector"
 msgstr "Liten färgväljare"
 
+#: ../../reference_manual/dockers/small_color_selector.rst:11
+msgid "Color"
+msgstr "Färg"
+
+#: ../../reference_manual/dockers/small_color_selector.rst:11
+msgid "Color Selector"
+msgstr "Färgväljare"
+
 #: ../../reference_manual/dockers/small_color_selector.rst:19
-msgid ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
-msgstr ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
+msgid ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:20
 msgid ""
@@ -37,3 +46,14 @@ msgid ""
 msgstr ""
 "Det här är Kritas enklaste färgväljare. Till vänster finns en rad med "
 "färgtonen, och till höger en fyrkant där värde och färgmättnad kan väljas."
+
+#: ../../reference_manual/dockers/small_color_selector.rst:24
+msgid ""
+"The small color selector is the only selector which can show HDR values. "
+"When your build of Krita is HDR enabled and you are on Windows, you can drag "
+"the slider at the bottom to increase the 'nits' of the colors in the small "
+"selector. This is the direct value of the brightness of the colors, and you "
+"need a value above 100 (100 being the maximum value used for the brightest "
+"value of sRGB colors), to have an HDR color. The small color selector will "
+"also select wide gamut values."
+msgstr ""

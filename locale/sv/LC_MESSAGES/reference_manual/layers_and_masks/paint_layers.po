@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-12 17:51+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:29+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -21,6 +21,22 @@ msgstr ""
 msgid "How to use paint layers in Krita."
 msgstr "Hur man använder målarlager i Krita."
 
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:15
+msgid "Layers"
+msgstr "Lager"
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:15
+msgid "Paint Layer"
+msgstr "Målarlager"
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:15
+msgid "Raster"
+msgstr "Rastrering"
+
+#: ../../reference_manual/layers_and_masks/paint_layers.rst:15
+msgid "Bitmap"
+msgstr "Bitavbildning"
+
 #: ../../reference_manual/layers_and_masks/paint_layers.rst:20
 msgid "Paint Layers"
 msgstr "Målarlager"
@@ -33,6 +49,12 @@ msgid ""
 "In short, a paint layer, also called a pixel, bitmap or raster layer, is a "
 "bitmap image (an image made up of many points of color)."
 msgstr ""
+"Målarlager är den vanligaste lagertypen som används i digitalmålning eller "
+"programvara för bildmanipulering som Krita. Om du någonsin har använd lager "
+"i :program:`Photoshop` eller :program:`Gimp`, är du van vid hur de fungerar. "
+"I korthet är ett målarlager, som också kallas ett bildpunkts-, "
+"bitavbildnings-, eller rastreringslager, en bitavbildningsbild (en bild "
+"skapad av många färgpunkter)."
 
 #: ../../reference_manual/layers_and_masks/paint_layers.rst:24
 msgid ""
@@ -41,6 +63,10 @@ msgid ""
 "paint layers don't scale well when enlarged (they pixelate), and any effects "
 "that have been applied can't be edited."
 msgstr ""
+"Målarlager tillåter att man applicerar många avancerade effekter såsom "
+"kladda, smeta och förvrängning. Det gör dem till de mest flexibla lagren. "
+"Dock skalas inte målarlager väl när de förstoras (de blir korniga), och alla "
+"eventuella effekter som har appliceras kan inte redigeras."
 
 #: ../../reference_manual/layers_and_masks/paint_layers.rst:26
 msgid ""
@@ -51,6 +77,12 @@ msgid ""
 "of the non-destructive layer capabilities of filter, transparency and "
 "transform masks."
 msgstr ""
+"För att hantera nackdelarna, arbetar digitalkonstnärer oftast med stort "
+"antal bildpunkter/tum (PPI). Det är inte ovanligt att se PPI-inställningar "
+"på 400 till 600 PPI för en duk med hög detaljnoggrannhet. För att bekämpa "
+"problemet med att applicerade effekter inte kan redigeras är det bäst att "
+"dra nytta av icke-destruktiv lagerfunktionalitet hos filter, "
+"genomskinlighets- och transformeringsmasker."
 
 #: ../../reference_manual/layers_and_masks/paint_layers.rst:28
 msgid ""
@@ -61,7 +93,14 @@ msgid ""
 "get a paint layer. Of course you can always choose the :guilabel:`New layer` "
 "drop-down to get another type."
 msgstr ""
+"Så länge som duken har tillräcklig upplösning/storlek, och så länge som man "
+"inte behöver gå tillbaka och justera en effekt som tidigare skapats, är ett "
+"målarlager dock oftast lagertypen som man behöver. Om man klickar på ikonen :"
+"guilabel:`Nytt lager` i lagerpanelen får man ett målarlager. Man kan förstås "
+"alltid välja kombinationsrutan :guilabel:`Nytt lager` för att få en annan "
+"typ."
 
 #: ../../reference_manual/layers_and_masks/paint_layers.rst:30
 msgid "The hotkey for adding a new paint layer is :kbd:`Ins`."
 msgstr ""
+"Snabbtangenten för att lägga till ett nytt målarlager är :kbd:`Insert`."

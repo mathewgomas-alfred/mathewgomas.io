@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-10 17:20+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:19+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,11 +23,24 @@ msgstr "Hård kant"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:1
 msgid "The Shape Brush Engine manual page."
-msgstr ""
+msgstr "Manualsidan för formpenselgränssnittet."
 
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:16
 msgid "Shape Brush Engine"
-msgstr ""
+msgstr "Formpenselgränssnitt"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Penselgränssnitt"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Experiment Brush Engine"
+msgstr "Experimentellt penselgränssnitt"
+
+#: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:11
+msgid "Al.Chemy"
+msgstr "Al.Chemy"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:19
 msgid ".. image:: images/icons/shapebrush.svg"
@@ -35,7 +48,7 @@ msgstr ".. image:: images/icons/shapebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:20
 msgid "An Al.chemy inspired brush-engine. Good for making chaos with!"
-msgstr ""
+msgstr "Ett penselgränssnitt inspirerat av Al.chemy. Bra för att skapa kaos!"
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:23
 msgid "Parameters"
@@ -60,7 +73,7 @@ msgstr "Hastighet"
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:34
 msgid ""
 "This makes the outputted contour jaggy. The higher the speed, the jaggier."
-msgstr ""
+msgstr "Gör utmatad kontur taggig. Ju högre hastighet desto taggigare."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:35
 msgid "Smooth"
@@ -71,6 +84,8 @@ msgid ""
 "Smoothens the output contour. This slows down the brush, but the higher the "
 "smooth, the smoother the contour."
 msgstr ""
+"Jämnar ut utmatad kontur. Gör penseln långsammare, men ju större jämnhet "
+"desto jämnare blir konturen."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:37
 msgid "Displace"
@@ -81,6 +96,8 @@ msgid ""
 "This displaces the shape. The slow the movement, the higher the displacement "
 "and expansion. Fast movements shrink the shape."
 msgstr ""
+"Förskjuter formen. Ju långsammare rörelse, desto större förskjutning och "
+"expansion. Snabba rörelser krymper formen."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:39
 msgid "Winding Fill"
@@ -92,7 +109,10 @@ msgid ""
 "'even-odd' fill rule, which means that where normally crossing into the "
 "shape created transparent areas, it now will not."
 msgstr ""
+"Ger alternativet att använda ifyllnadsregeln 'icke-noll' istället för 'jämn-"
+"udda', vilket betyder att om man normalt korsar in i genomskinliga områden "
+"skapade av formen, gör man inte längre det."
 
 #: ../../reference_manual/brushes/brush_engines/shape_brush_engine.rst:42
 msgid "Removes the anti-aliasing, to get a pixelized line."
-msgstr ""
+msgstr "Tar bort kantutjämning, för att få en bildpunktslinje."

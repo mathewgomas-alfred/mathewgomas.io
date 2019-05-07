@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,15 +23,24 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../reference_manual/instant_preview.rst:1
 msgid "How the Instant Preview technology in Krita works."
-msgstr ""
+msgstr "介绍 Krita 的即时预览技术的工作原理。"
 
+#: ../../reference_manual/instant_preview.rst:10
 #: ../../reference_manual/instant_preview.rst:15
 msgid "Instant Preview"
 msgstr "即时预览功能"
+
+#: ../../reference_manual/instant_preview.rst:10
+msgid "Performance"
+msgstr ""
+
+#: ../../reference_manual/instant_preview.rst:10
+msgid "Lag"
+msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:17
 msgid ""
@@ -44,6 +53,10 @@ msgid ""
 "that if you have a 4k screen and are working on a 4k image at 100% zoom, you "
 "won't feel any speed up."
 msgstr ""
+"即时预览功能是 Krita 针对大型画面和大型笔刷的特殊加速功能。它的工作原理是先直"
+"接采样视图显示的画面，画出大致的预览效果，而与此同时在后台对实际的全尺寸图像"
+"进行处理，在处理完成后替换掉之前的预览效果。换句话说，如果视图正在按实际大小 "
+"(100% 缩放) 显示，这个功能不会带来任何加速效果。"
 
 #: ../../reference_manual/instant_preview.rst:20
 msgid "Activating Instant Preview"
@@ -56,14 +69,17 @@ msgid ""
 "--> Configure Krita --> Display --> Display scaling filter`, then you won't "
 "be able to use Instant Preview either."
 msgstr ""
+"即时预览功能需要显卡支持 OpenGL 3.0 以上。如果在菜单栏的 :menuselection:`设"
+"置 --> 配置 Krita --> 显示 --> 视图缩放算法` 选单中没有 :guilabel:`高质量` 选"
+"项，你将无法使用此功能。"
 
 #: ../../reference_manual/instant_preview.rst:29
-msgid ".. image:: images/en/Lod_position.png"
+msgid ".. image:: images/brushes/Lod_position.png"
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:29
 msgid "The Global Instant Preview toggle is under the view menu"
-msgstr ""
+msgstr "Krita 的全局即时预览功能开关可以在“视图”菜单里找到。"
 
 #: ../../reference_manual/instant_preview.rst:31
 msgid ""
@@ -71,6 +87,10 @@ msgid ""
 "L`), and the settings of the given paintop by default. This is because "
 "Instant Preview has different limitations with different paint operations."
 msgstr ""
+"即时预览功能有两个开关，全局开关和笔刷开关，这两个开关必须同时打开才能启用即"
+"时预览。全局开关在“视图”菜单中，也可以通过 :kbd:`Shift + L` 快捷键进行切换。"
+"笔刷开关在笔刷选项控制面板 (F5) 的最底处可以找到。有些笔刷选项则会强制关闭该"
+"功能，这是因为它们并不适宜配合即时预览功能使用。"
 
 #: ../../reference_manual/instant_preview.rst:33
 msgid ""
@@ -78,6 +98,8 @@ msgid ""
 "ability to have Instant Preview on the brush, so does using 'fade' sensor "
 "for size."
 msgstr ""
+"例如，颜色涂抹笔刷引擎使用覆盖模式时、大小选项映射到淡化传感器时都会禁用笔刷"
+"的即时预览功能。"
 
 #: ../../reference_manual/instant_preview.rst:35
 msgid ""
@@ -86,6 +108,10 @@ msgid ""
 "a stroke, and thus will give a feeling of 'popping' when the stroke is "
 "finished."
 msgstr ""
+"有时即使该功能不被强制禁用，也会造成一些问题。例如使用笔尖自动间距时、大小映"
+"射到随机度传感器时、笔尖调整密度选项时、在笔刷引擎中使用纹理时，即时预览的效"
+"果均不理想，笔画渲染结束并切换的瞬间会明显察觉到预览效果和最终结果存在较大差"
+"别。"
 
 #: ../../reference_manual/instant_preview.rst:37
 msgid ""
@@ -93,6 +119,8 @@ msgid ""
 "\\* behind it. Hovering over it will give you a list of options that are "
 "affecting the Instant Preview mode."
 msgstr ""
+"在笔刷选项面板 (F5) 中，在“即时预览”字样上点击鼠标左键和右键可以发现一些隐藏"
+"的相关提示和功能。"
 
 #: ../../reference_manual/instant_preview.rst:41
 msgid ""
@@ -100,9 +128,13 @@ msgid ""
 "the threshold size at which instant preview activates. By default this "
 "100px. This is useful for brushes that are optimised to work on small sizes."
 msgstr ""
+"|mouseleft| 左键单击或者悬浮在“即时预览”字样上方可以查看该功能是否可用，在不"
+"可用时还会提示当前笔刷大小和触发功能的阈值。右键单击则可以调整该阈值，默认为 "
+"100 px。大小低于此阈值的笔刷将无法启用即时预览功能。此功能对于那些要在特定大"
+"小下面工作的笔刷很有用。"
 
 #: ../../reference_manual/instant_preview.rst:47
-msgid ".. image:: images/en/Lod_position2.png"
+msgid ".. image:: images/brushes/Lod_position2.png"
 msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:47
@@ -112,31 +144,33 @@ msgid ""
 "right. Hover over it to get more detail. In this case, the issue is that "
 "auto-spacing is on."
 msgstr ""
+"笔刷即时预览功能的开关位置。你可以在它的文字上悬停或者左键单击来查看相关信"
+"息，右键单击可以调整阈值。"
 
 #: ../../reference_manual/instant_preview.rst:50
 msgid "Tools that benefit from Instant Preview"
-msgstr "即时预览受益工具"
+msgstr "即时预览功能生效工具"
 
 #: ../../reference_manual/instant_preview.rst:52
 msgid "The following tools benefit from Instant Preview:"
-msgstr ""
+msgstr "即使预览功能在下列工具中生效："
 
 #: ../../reference_manual/instant_preview.rst:54
 msgid "The Freehand brush tool."
-msgstr ""
+msgstr "手绘笔刷工具"
 
 #: ../../reference_manual/instant_preview.rst:55
 msgid "The geometric tools."
-msgstr ""
+msgstr "几何图形工具"
 
 #: ../../reference_manual/instant_preview.rst:56
 msgid "The Move Tool."
-msgstr ""
+msgstr "移动工具"
 
 #: ../../reference_manual/instant_preview.rst:57
 msgid "The Filters."
-msgstr ""
+msgstr "滤镜"
 
 #: ../../reference_manual/instant_preview.rst:58
 msgid "Animation."
-msgstr "动画."
+msgstr "动画"

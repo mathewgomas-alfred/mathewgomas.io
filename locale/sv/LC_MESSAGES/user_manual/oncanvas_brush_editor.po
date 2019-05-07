@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-08 03:41+0100\n"
-"PO-Revision-Date: 2019-03-07 18:36+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:29+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,11 +19,19 @@ msgstr ""
 
 #: ../../user_manual/oncanvas_brush_editor.rst:1
 msgid "Using the oncanvas brush editor in Krita."
-msgstr ""
+msgstr "Användning av penseleditorn på duken i Krita."
+
+#: ../../user_manual/oncanvas_brush_editor.rst:11
+msgid "Brush Settings"
+msgstr "Penselinställningar"
+
+#: ../../user_manual/oncanvas_brush_editor.rst:11
+msgid "Pop-up Palette"
+msgstr "Palettruta"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:16
 msgid "On-Canvas Brush Editor"
-msgstr ""
+msgstr "Penseleditor på duken"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:19
 msgid ""
@@ -33,20 +41,27 @@ msgid ""
 "It's accessible from the pop-up palette, by ticking the lower-right arrow "
 "button."
 msgstr ""
+"Kritas penseleditor finns, som du kanske redan vet, på :kbd:`F5`. Dock vill "
+"man ibland bara ändra en enstaka parameter snabbt, kanske till och med när "
+"bara duken visas. Penseleditorn på duken, eller penselsiktlinjesindikatorn "
+"möjliggör det. Den är tillgänglig från palettrutan, genom att klicka på "
+"pilknappen längst ner till höger."
 
 #: ../../user_manual/oncanvas_brush_editor.rst:26
-msgid ".. image:: images/en/On_canvas_brush_editor.png"
-msgstr ".. image:: images/en/On_canvas_brush_editor.png"
+msgid ".. image:: images/On_canvas_brush_editor.png"
+msgstr ".. image:: images/On_canvas_brush_editor.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:27
 msgid ""
 "You can change the amount of visible settings and their order by clicking "
 "the settings icon next to the brush name."
 msgstr ""
+"Antalet synliga inställningar och deras ordning kan ändras genom att klicka "
+"på inställningsikonen intill penselnamnet."
 
 #: ../../user_manual/oncanvas_brush_editor.rst:31
-msgid ".. image:: images/en/On_canvas_brush_editor_2.png"
-msgstr ".. image:: images/en/On_canvas_brush_editor_2.png"
+msgid ".. image:: images/On_canvas_brush_editor_2.png"
+msgstr ".. image:: images/On_canvas_brush_editor_2.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:32
 msgid ""
@@ -56,13 +71,20 @@ msgid ""
 "to adjust the order of the used settings, for when you think flow is more "
 "important than size."
 msgstr ""
+"Till vänster finns alla oanvända inställningar, och till höger finns använda "
+"inställningar. Man kan använda knapparna :guilabel:`>` och :guilabel:`<` för "
+"att flytta en inställning mellan de två kolumnerna. Knapparna :guilabel:"
+"`Upp` och :guilabel:`Ner` tillåter att ordningen av använda inställningar "
+"ändras, när flödet anses viktigare än storleken."
 
 #: ../../user_manual/oncanvas_brush_editor.rst:38
-msgid ".. image:: images/en/On_canvas_brush_editor_3.png"
-msgstr ".. image:: images/en/On_canvas_brush_editor_3.png"
+msgid ".. image:: images/On_canvas_brush_editor_3.png"
+msgstr ".. image:: images/On_canvas_brush_editor_3.png"
 
 #: ../../user_manual/oncanvas_brush_editor.rst:39
 msgid ""
 "These set-ups are PER brush engine, so different brush engines can have "
 "different configurations."
 msgstr ""
+"Inställningarna gäller per penselgränssnitt, så olika penselgränssnitt kan "
+"ha olika inställningar."

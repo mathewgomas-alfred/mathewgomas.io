@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-27 11:11+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -42,12 +42,51 @@ msgstr ""
 msgid "Overview of the layers docker."
 msgstr "Introdução à área das camadas."
 
+#: ../../reference_manual/dockers/layers.rst:12
 #: ../../reference_manual/dockers/layers.rst:17
 msgid "Layers"
 msgstr "Camadas"
 
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:30
+msgid "Label"
+msgstr "Legenda"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:32
+msgid "Blending Mode"
+msgstr "Modo de Mistura"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:40
+msgid "Alpha Lock"
+msgstr "Bloqueio do Alfa"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:44
+msgid "Alpha Inheritance"
+msgstr "Herança do Alfa"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:48
+msgid "Onion Skin"
+msgstr "Pele de Cebola"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:51
+msgid "Layer Style"
+msgstr "Estilo da Camada"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#, fuzzy
+#| msgid "Pass-through mode"
+msgid "Passthrough Mode"
+msgstr "Modo à passagem"
+
 #: ../../reference_manual/dockers/layers.rst:20
-msgid ".. image:: images/en/Krita_Layers_Docker.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Layers_Docker.png"
+msgid ".. image:: images/dockers/Krita_Layers_Docker.png"
 msgstr ".. image:: images/en/Krita_Layers_Docker.png"
 
 #: ../../reference_manual/dockers/layers.rst:21
@@ -91,10 +130,6 @@ msgstr ""
 "O nome da Camada; faça duplo-click com o |mouseleft| para a tornar editável "
 "e carregue em :kbd:`Enter` para terminar a edição."
 
-#: ../../reference_manual/dockers/layers.rst:30
-msgid "Label"
-msgstr "Legenda"
-
 #: ../../reference_manual/dockers/layers.rst:31
 msgid ""
 "This is a color that you can set on the layer. |mouseright| the layer to get "
@@ -104,10 +139,6 @@ msgstr ""
 "Esta é uma cor que poderá atribuir à camada. Use o |mouseright| sobre a "
 "camada para obter um menu de contexto, onde poderá atribuir uma cor a ela. "
 "Poderá então filtrar com base nessas cores."
-
-#: ../../reference_manual/dockers/layers.rst:32
-msgid "Blending Mode"
-msgstr "Modo de Mistura"
 
 #: ../../reference_manual/dockers/layers.rst:33
 msgid "This will set the :ref:`blending_modes` of the layer."
@@ -143,10 +174,6 @@ msgstr ""
 "editada; isto é útil quando estiver a lidar com grandes quantidades de "
 "camadas."
 
-#: ../../reference_manual/dockers/layers.rst:40
-msgid "Alpha Lock"
-msgstr "Bloqueio do Alfa"
-
 #: ../../reference_manual/dockers/layers.rst:41
 msgid ""
 "This will prevent the alpha of the layer being edited. In more plain terms: "
@@ -173,10 +200,6 @@ msgstr ""
 "funciona directamente com as máscaras; por isso é que têm um traço sobre as "
 "camadas de grupo configuradas no modo à passagem."
 
-#: ../../reference_manual/dockers/layers.rst:44
-msgid "Alpha Inheritance"
-msgstr "Herança do Alfa"
-
 #: ../../reference_manual/dockers/layers.rst:45
 msgid ""
 "This will use the alpha of all the peers of this layer as a transparency "
@@ -198,10 +221,6 @@ msgstr ""
 "(Um Ícone com uma Seta) Isto permitir-lhe-á aceder às sub-camadas de uma "
 "camada. Vê-se nas máscaras e nos grupos."
 
-#: ../../reference_manual/dockers/layers.rst:48
-msgid "Onion Skin"
-msgstr "Pele de Cebola"
-
 #: ../../reference_manual/dockers/layers.rst:49
 msgid ""
 "This is only available on :ref:`animated layers <animation>`, and toggles "
@@ -209,10 +228,6 @@ msgid ""
 msgstr ""
 "Isto só está disponível nas :ref:`camadas animadas <animation>` e activa ou "
 "desactiva a funcionalidade de pele de cebola."
-
-#: ../../reference_manual/dockers/layers.rst:51
-msgid "Layer Style"
-msgstr "Estilo da Camada"
 
 #: ../../reference_manual/dockers/layers.rst:51
 msgid ""
@@ -240,7 +255,9 @@ msgstr ""
 "visibilidade, a opacidade, os estados de bloqueio, etc."
 
 #: ../../reference_manual/dockers/layers.rst:57
-msgid ".. image:: images/en/Krita-multi-layer-edit.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita-multi-layer-edit.png"
+msgid ".. image:: images/layers/Krita-multi-layer-edit.png"
 msgstr ".. image:: images/en/Krita-multi-layer-edit.png"
 
 #: ../../reference_manual/dockers/layers.rst:59

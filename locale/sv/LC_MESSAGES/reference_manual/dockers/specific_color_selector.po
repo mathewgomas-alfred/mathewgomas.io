@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-10 20:50+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,25 +19,39 @@ msgstr ""
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:1
 msgid "Overview of the specific color selector docker."
-msgstr ""
+msgstr "Översikt av den specifika färgväljarpanelen."
 
+#: ../../reference_manual/dockers/specific_color_selector.rst:11
 #: ../../reference_manual/dockers/specific_color_selector.rst:16
 msgid "Specific Color Selector"
 msgstr "Specifik färgväljare"
 
+#: ../../reference_manual/dockers/specific_color_selector.rst:11
+msgid "Color"
+msgstr "Färg"
+
+#: ../../reference_manual/dockers/specific_color_selector.rst:11
+msgid "Color Selector"
+msgstr "Färgväljare"
+
+#: ../../reference_manual/dockers/specific_color_selector.rst:11
+msgid "Color Space"
+msgstr "Färgrymd"
+
 #: ../../reference_manual/dockers/specific_color_selector.rst:19
-msgid ".. image:: images/en/Krita_Specific_Color_Selector_Docker.png"
-msgstr ".. image:: images/en/Krita_Specific_Color_Selector_Docker.png"
+msgid ".. image:: images/dockers/Krita_Specific_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Specific_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:20
 msgid ""
 "The specific color selector allows you to choose specific colors within a "
 "color space."
 msgstr ""
+"Den specifika färgväljaren låter dig välja specifika färger inom en färgrymd."
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:23
 msgid "Color Space Chooser"
-msgstr ""
+msgstr "Färgrymdsväljare"
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:25
 msgid ""
@@ -46,6 +60,9 @@ msgid ""
 "pick your color. Use the checkbox 'show color space selector' to hide this "
 "feature."
 msgstr ""
+"Ganska rättfram. Denna färgrymdsväljare låter dig välja färgrymd, bitdjup "
+"och ICC-profil som färgen ska hämtas från. Använd kryssrutan 'visa "
+"färgrymdsväljare' för att dölja funktionen."
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:29
 msgid "Sliders"
@@ -57,10 +74,12 @@ msgid ""
 "these will go from 0 to 1.0, with the decimals deciding the difference "
 "between colors."
 msgstr ""
+"De ändras per färgrymd. Om 16-bitars flyttal eller 32-bitars flyttal väljes, "
+"går de från 0 till 1,0, och decimalerna bestämmer skillnaden mellan färger."
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:35
 msgid "Hex Color Selector"
-msgstr ""
+msgstr "Hexadecimal färgväljare"
 
 #: ../../reference_manual/dockers/specific_color_selector.rst:37
 msgid ""
@@ -68,3 +87,6 @@ msgid ""
 "allows you to input hex color codes, and receive the RGB, CMYK, LAB, XYZ or "
 "YCrCb equivalent, and the other way around!"
 msgstr ""
+"Bara tillgänglig för färgrymder med djupet 8 bitar. Den låter dig mata in "
+"hexadecimala färgkoder, och få deras ekvivalens i RGB, CMYK, LAB, XYZ eller "
+"YCrCb, och motsatsen."

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___bit_depth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-01 13:03+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -16,16 +16,55 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
-msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
+msgid ".. image:: images/color_category/Kiki_lowbit.png"
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:1
 msgid "Bit depth in Krita."
 msgstr "Bitová hĺbka v Krita."
 
+#: ../../general_concepts/colors/bit_depth.rst:10
 #: ../../general_concepts/colors/bit_depth.rst:15
 msgid "Bit Depth"
 msgstr "Bitová hĺbka"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:26
+#, fuzzy
+#| msgid "Real Color"
+msgid "Indexed Color"
+msgstr "Skutočné farby"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:46
+msgid "Real Color"
+msgstr "Skutočné farby"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Real Color"
+msgid "Color"
+msgstr "Skutočné farby"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Bit Depth"
+msgid "Color Bit Depth"
+msgstr "Bitová hĺbka"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#, fuzzy
+#| msgid "Real Color"
+msgid "Deep Color"
+msgstr "Skutočné farby"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Floating Point Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Channels"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:17
 msgid ""
@@ -50,12 +89,6 @@ msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
 msgstr ""
-
-#: ../../general_concepts/colors/bit_depth.rst:26
-#, fuzzy
-#| msgid "Real Color"
-msgid "Indexed Color"
-msgstr "Skutočné farby"
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -99,12 +132,8 @@ msgid ""
 "''bits per channel''). This is called 'real color'."
 msgstr ""
 
-#: ../../general_concepts/colors/bit_depth.rst:46
-msgid "Real Color"
-msgstr "Skutočné farby"
-
 #: ../../general_concepts/colors/bit_depth.rst:52
-msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+msgid ".. image:: images/color_category/Rgbcolorcube_3.png"
 msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:52

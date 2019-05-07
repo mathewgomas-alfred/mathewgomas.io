@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,22 @@ msgstr ""
 msgid "The EXR file format as exported by Krita."
 msgstr "Krita 导出的 EXR 文件格式。"
 
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "EXR"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "HDR Fileformat"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "OpenEXR"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_exr.rst:10
+msgid "*.exr"
+msgstr ""
+
 #: ../../general_concepts/file_formats/file_exr.rst:15
 msgid "\\*.exr"
 msgstr "\\*.exr"
@@ -31,8 +47,8 @@ msgid ""
 "bit depths <bit_depth>`, and due to the library made to load and save these "
 "images being fully open source, the main interchange format as well."
 msgstr ""
-".exr 是用来保存和载入 :ref:`浮点位深度 <bit_depth>`图像的首选文件格式。由于保"
-"存和载入 EXR 的程序库也全都是开源软件，它也是图像交换的最常用格式。"
+".exr 是用来保存和载入 :ref:`浮点位深度 <bit_depth>` 图像的首选文件格式。由于"
+"保存和载入 EXR 的程序库也全都是开源软件，它也是图像交换的最常用格式。"
 
 #: ../../general_concepts/file_formats/file_exr.rst:19
 msgid ""
@@ -54,5 +70,5 @@ msgid ""
 "paint with scene referred values) and interchange with applications like "
 "Blender, Mari, Nuke and Natron."
 msgstr ""
-"Krita 可以为了临摹而载入或保存 EXR 文件 (Krita 可以进行场景参照绘画)，也可以"
-"用于与 Blender、Mari、Nuke 和 Natron 等软件的图像互换。"
+"Krita 可以为临摹、拼接、合成而载入或保存 EXR 文件 (Krita 可以进行场景参照绘"
+"画)，也可以用于与 Blender、Mari、Nuke 和 Natron 等软件进行配合。"

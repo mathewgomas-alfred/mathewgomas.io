@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,37 +21,47 @@ msgstr ""
 msgid "The edit menu in Krita."
 msgstr ""
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:16
 msgid "Edit"
 msgstr "编辑菜单"
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:19
 msgid "Undo"
 msgstr "撤销"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:22
+msgid "Redo"
+msgstr "重做"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:25
+msgid "Cut"
+msgstr "剪切"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:28
+msgid "Copy"
+msgstr "复制"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:40
+msgid "Paste"
+msgstr "粘贴"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
 msgstr ""
 
-#: ../../reference_manual/main_menu/edit_menu.rst:22
-msgid "Redo"
-msgstr "重做"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
 msgstr ""
 
-#: ../../reference_manual/main_menu/edit_menu.rst:25
-msgid "Cut"
-msgstr "剪切"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
 msgstr ""
-
-#: ../../reference_manual/main_menu/edit_menu.rst:28
-msgid "Copy"
-msgstr "复制"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
@@ -82,10 +92,6 @@ msgstr "复制已合并"
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
 msgstr ""
-
-#: ../../reference_manual/main_menu/edit_menu.rst:40
-msgid "Paste"
-msgstr "粘贴"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"

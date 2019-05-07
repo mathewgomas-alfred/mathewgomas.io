@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___dockers___layers\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-03-27 07:58+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -40,13 +40,48 @@ msgstr ""
 msgid "Overview of the layers docker."
 msgstr "Огляд бічної панелі шарів."
 
+#: ../../reference_manual/dockers/layers.rst:12
 #: ../../reference_manual/dockers/layers.rst:17
 msgid "Layers"
 msgstr "Шари"
 
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:30
+msgid "Label"
+msgstr "Мітка"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:32
+msgid "Blending Mode"
+msgstr "Режим змішування"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:40
+msgid "Alpha Lock"
+msgstr "Блокування прозорості"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:44
+msgid "Alpha Inheritance"
+msgstr "Успадкування прозорості"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:48
+msgid "Onion Skin"
+msgstr "Калька"
+
+#: ../../reference_manual/dockers/layers.rst:12
+#: ../../reference_manual/dockers/layers.rst:51
+msgid "Layer Style"
+msgstr "Стилі шарів"
+
+#: ../../reference_manual/dockers/layers.rst:12
+msgid "Passthrough Mode"
+msgstr "Режим передавання"
+
 #: ../../reference_manual/dockers/layers.rst:20
-msgid ".. image:: images/en/Krita_Layers_Docker.png"
-msgstr ".. image:: images/en/Krita_Layers_Docker.png"
+msgid ".. image:: images/dockers/Krita_Layers_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Layers_Docker.png"
 
 #: ../../reference_manual/dockers/layers.rst:21
 msgid ""
@@ -90,10 +125,6 @@ msgstr ""
 "Назва шару. Двічі клацніть |mouseleft|, щоб редагувати назву, і натисніть :"
 "kbd:`Enter`, щоб завершити редагування."
 
-#: ../../reference_manual/dockers/layers.rst:30
-msgid "Label"
-msgstr "Мітка"
-
 #: ../../reference_manual/dockers/layers.rst:31
 msgid ""
 "This is a color that you can set on the layer. |mouseright| the layer to get "
@@ -103,10 +134,6 @@ msgstr ""
 "Це колір, який ви можете встановити для шару. Клацніть |mouseright| на "
 "пункті шару, щоб відкрити контекстне меню для призначення для нього кольору. "
 "Пізніше можна фільтрувати за кольоровими мітками."
-
-#: ../../reference_manual/dockers/layers.rst:32
-msgid "Blending Mode"
-msgstr "Режим змішування"
 
 #: ../../reference_manual/dockers/layers.rst:33
 msgid "This will set the :ref:`blending_modes` of the layer."
@@ -140,10 +167,6 @@ msgstr ""
 "Піктограма із замком. Натискання цієї піктограми блокуватиме шар від "
 "редагування. Корисно під час роботи із великою кількістю шарів."
 
-#: ../../reference_manual/dockers/layers.rst:40
-msgid "Alpha Lock"
-msgstr "Блокування прозорості"
-
 #: ../../reference_manual/dockers/layers.rst:41
 msgid ""
 "This will prevent the alpha of the layer being edited. In more plain terms: "
@@ -168,10 +191,6 @@ msgstr ""
 "шарів поза групою. У поточній версії не працює з масками, тому маски буде "
 "закреслено у групах шарів, які працюють у режимі передавання."
 
-#: ../../reference_manual/dockers/layers.rst:44
-msgid "Alpha Inheritance"
-msgstr "Успадкування прозорості"
-
 #: ../../reference_manual/dockers/layers.rst:45
 msgid ""
 "This will use the alpha of all the peers of this layer as a transparency "
@@ -193,10 +212,6 @@ msgstr ""
 "(Піктограма зі стрілкою) За її допомогою можна отримувати доступ до підшарів "
 "шару. Є видимим для масок і груп."
 
-#: ../../reference_manual/dockers/layers.rst:48
-msgid "Onion Skin"
-msgstr "Калька"
-
 #: ../../reference_manual/dockers/layers.rst:49
 msgid ""
 "This is only available on :ref:`animated layers <animation>`, and toggles "
@@ -204,10 +219,6 @@ msgid ""
 msgstr ""
 "Доступний лише для :ref:`анімованих шарів <animation>`, перемикає можливість "
 "використання кальки."
-
-#: ../../reference_manual/dockers/layers.rst:51
-msgid "Layer Style"
-msgstr "Стилі шарів"
 
 #: ../../reference_manual/dockers/layers.rst:51
 msgid ""
@@ -235,8 +246,8 @@ msgstr ""
 "стан блокування тощо."
 
 #: ../../reference_manual/dockers/layers.rst:57
-msgid ".. image:: images/en/Krita-multi-layer-edit.png"
-msgstr ".. image:: images/en/Krita-multi-layer-edit.png"
+msgid ".. image:: images/layers/Krita-multi-layer-edit.png"
+msgstr ".. image:: images/layers/Krita-multi-layer-edit.png"
 
 #: ../../reference_manual/dockers/layers.rst:59
 msgid "Lower buttons"

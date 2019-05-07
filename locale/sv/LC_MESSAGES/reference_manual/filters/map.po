@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-11 20:21+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:25+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,11 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:1
 msgid "Overview of the map filters."
-msgstr ""
+msgstr "Översikt av avbildningsfiltren."
+
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr "Filter"
 
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
@@ -27,23 +31,40 @@ msgstr "Avbildning"
 
 #: ../../reference_manual/filters/map.rst:18
 msgid "Filters that are signified by them mapping the input image."
-msgstr ""
+msgstr "Filter betecknade av att de avbildar indatabilden."
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
 msgstr "Små rutor"
 
+#: ../../reference_manual/filters/map.rst:20
+msgid "Tiles"
+msgstr "Rutor"
+
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
-msgstr ""
+msgstr "Skapar rutor på indatabilden, med sitt eget lager som resultat."
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr "Höjdavbildning"
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Bumpmap"
+msgstr "Bulavbildning"
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Normal Map"
+msgstr "Normal avbildning"
 
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "Phong bulavbildning"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
-msgstr ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 
 #: ../../reference_manual/filters/map.rst:34
 msgid ""
@@ -52,6 +73,11 @@ msgid ""
 "game texturing. Checking the :guilabel:`Normal Map` box will make it use all "
 "channels and interpret them as a normal map."
 msgstr ""
+"Använder indatabilden som en höjdavbildning för att ge ett tredimensionellt "
+"resultat, genom att använda skuggningsmodellen phong-lambert. Användbart för "
+"att kontrollera sina höjdavbildningar när strukturer för spel skapas. Att "
+"markera rutan :guilabel:`Normal avbildning` gör att alla kanaler används och "
+"tolkas som en normal avbildning."
 
 #: ../../reference_manual/filters/map.rst:37
 msgid "Round Corners"
@@ -59,8 +85,9 @@ msgstr "Rundade hörn"
 
 #: ../../reference_manual/filters/map.rst:39
 msgid "Adds little corners to the input image."
-msgstr ""
+msgstr "Lägger till små hörn i indatabilden."
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Normalisera"
@@ -71,20 +98,31 @@ msgid ""
 "normalizes (makes the vector size exactly 1) the values. This is helpful for "
 "normal maps and some minor image-editing functions."
 msgstr ""
+"Filtret tar bildpunkterna i indata, placerar dem i en tredimensionell "
+"vektor, och normaliserar därefter värdena (gör vektorstorleken exakt lika "
+"med ett). Det är till hjälp för normala avbildningar och vissa mindre "
+"bildredigeringsfunktioner."
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Toningsavbildning"
 
+#: ../../reference_manual/filters/map.rst:48
+msgid "Gradient"
+msgstr "Toning"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
-msgstr ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
+msgstr ".. image:: images/filters/Krita_filter_gradient_map.png"
 
 #: ../../reference_manual/filters/map.rst:55
 msgid ""
 "Maps the lightness of the input to the selected gradient. Useful for fancy "
 "artistic effects."
 msgstr ""
+"Avbildar ljushet hos indata till vald toning. Användbart för snygga "
+"konstnärliga effekter."
 
 #: ../../reference_manual/filters/map.rst:57
 msgid ""
@@ -92,3 +130,6 @@ msgid ""
 "gradients and change them on the fly, as well as use the gradient map filter "
 "as a filter layer or filter brush."
 msgstr ""
+"I 3.x kunde man bara välja fördefinierade toningar. I 4.0 kan man välja "
+"toningarna och ändra dem i farten, samt använda toningsavbildningsfiltret "
+"som ett filterlager eller filterpensel."

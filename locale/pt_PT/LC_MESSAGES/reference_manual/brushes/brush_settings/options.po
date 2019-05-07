@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 03:35+0100\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
 "PO-Revision-Date: 2019-03-30 15:58+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -30,7 +30,9 @@ msgstr ""
 "X-POFile-SpellExtra: guilabel menuselection\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
+msgid ".. image:: images/brushes/Krita_3_0_1_Brush_engine_ratio.png"
 msgstr ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:1
@@ -41,12 +43,15 @@ msgstr "Introdução às opções do Motor de Pincéis do Krita."
 msgid "Options"
 msgstr "Opções"
 
+#: ../../reference_manual/brushes/brush_settings/options.rst:20
 #: ../../reference_manual/brushes/brush_settings/options.rst:24
 msgid "Airbrush"
 msgstr "Pincel de 'spray'"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:27
-msgid ".. image:: images/en/Krita_2_9_brushengine_airbrush.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_airbrush.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_airbrush.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_airbrush.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:28
@@ -59,12 +64,15 @@ msgstr ""
 "isto irá continuar a adicionar cor à área de desenho. Quanto mais baixa a "
 "taxa, mais rapidamente é adicionada a cor."
 
+#: ../../reference_manual/brushes/brush_settings/options.rst:30
 #: ../../reference_manual/brushes/brush_settings/options.rst:34
 msgid "Mirror"
 msgstr "Espelho"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:37
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Mirror.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Mirror.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Mirror.png"
 msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Mirror.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:38
@@ -88,7 +96,9 @@ msgid "Mirrors the mask vertically."
 msgstr "Cria um espelho na vertical da máscara."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:46
-msgid ".. image:: images/en/Krita_2_9_brushengine_mirror.jpg"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_mirror.jpg"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mirror.jpg"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_mirror.jpg"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:47
@@ -109,11 +119,15 @@ msgstr ""
 "Isto permite-lhe afectar o ângulo da ponta do seu pincel com os sensores."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:57
-msgid ".. image:: images/en/Krita_2_9_brushengine_rotation.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_rotation.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_rotation.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_rotation.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:59
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Rotation.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Rotation.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Rotation.png"
 msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Rotation.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:60
@@ -192,7 +206,9 @@ msgid ""
 msgstr "A dispersão, perpendicular ao ângulo de desenho (tem o maior efeito)"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
-msgid ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_scatter.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:85
@@ -200,22 +216,53 @@ msgid "Sharpness"
 msgstr "Afiamento"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:88
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Sharpness.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Sharpness.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Sharpness.png"
 msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Sharpness.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:89
-msgid "Puts a threshold filter over the brush mask."
-msgstr "Coloca um filtro limitador sobre a máscara do pincel."
+msgid ""
+"Puts a threshold filter over the brush mask. This can be used for brush like "
+"strokes, but it also makes for good pixel art brushes."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:91
+msgid "Strength"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:92
+msgid "Controls the threshold, and can be controlled by the sensors below."
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:94
+#: ../../reference_manual/brushes/brush_settings/options.rst:120
+msgid "Softness"
+msgstr "Suavidade"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:94
+msgid ""
+"Controls the extra non-fully opaque pixels. This adds a little softness to "
+"the stroke."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:98
+msgid ""
+"The sensors now control the threshold instead of the subpixel precision, "
+"softness slider was added."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:103
 msgid "Size"
 msgstr "Tamanho"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:97
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Size.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:106
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Size.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Size.png"
 msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Size.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:98
+#: ../../reference_manual/brushes/brush_settings/options.rst:107
 msgid ""
 "This parameter is not the diameter itself, but rather the curve for how it's "
 "affected."
@@ -223,7 +270,7 @@ msgstr ""
 "Este parâmetro não é o diâmetro em si; é sim a curva pela qual o mesmo é "
 "afectado."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:100
+#: ../../reference_manual/brushes/brush_settings/options.rst:109
 msgid ""
 "So, if you want to lock the diameter of the brush, lock the Brush-tip. "
 "Locking the size parameter will only lock this curve. Allowing this curve to "
@@ -239,11 +286,13 @@ msgstr ""
 "linhas finas, tente usar uma curva côncava configurada com base na pressão. "
 "Desta forma, terá de carregar com força para obter linhas grossas."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:103
-msgid ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:112
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:104
+#: ../../reference_manual/brushes/brush_settings/options.rst:113
 msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`"
@@ -251,23 +300,23 @@ msgstr ""
 "Também recorrente é a definição do tamanho do sensor como difusa ou "
 "perspectiva, com o último em conjunto com um :ref:`assistant_perspective`"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:107
-msgid ".. image:: images/en/Krita_2_9_brushengine_size_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:116
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_size_02.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_02.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_size_02.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:111
-msgid "Softness"
-msgstr "Suavidade"
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:113
+#: ../../reference_manual/brushes/brush_settings/options.rst:122
 msgid "This allows you to affect Fade with Sensors."
 msgstr "Isto permite-lhe afectar o Desvanecimento com os Sensores."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:116
-msgid ".. image:: images/en/Krita_2_9_brushengine_softness.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:125
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_softness.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_softness.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_softness.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:117
+#: ../../reference_manual/brushes/brush_settings/options.rst:126
 msgid ""
 "Has a slight brush-decreasing effect, especially noticeable with soft-brush, "
 "and is overall more noticeable on large brushes."
@@ -275,68 +324,68 @@ msgstr ""
 "Tem um ligeiro efeito de redução do pincel, o que é particularmente notório "
 "com o pincel suave, e ainda mais com pincéis grandes."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:122
+#: ../../reference_manual/brushes/brush_settings/options.rst:131
 msgid "Source"
 msgstr "Origem"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:124
+#: ../../reference_manual/brushes/brush_settings/options.rst:133
 msgid "Picks the source-color for the brush-dab."
 msgstr "Escolhe a cor de origem para a demão do pincel."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:126
+#: ../../reference_manual/brushes/brush_settings/options.rst:135
 msgid "Plain Color"
 msgstr "Cor Simples"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:127
+#: ../../reference_manual/brushes/brush_settings/options.rst:136
 msgid "Current foreground color."
 msgstr "A cor principal actual."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:128
-#: ../../reference_manual/brushes/brush_settings/options.rst:160
+#: ../../reference_manual/brushes/brush_settings/options.rst:137
+#: ../../reference_manual/brushes/brush_settings/options.rst:169
 msgid "Gradient"
 msgstr "Gradiente"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:129
+#: ../../reference_manual/brushes/brush_settings/options.rst:138
 msgid "Picks active gradient"
 msgstr "Escolhe o gradiente activo"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:130
+#: ../../reference_manual/brushes/brush_settings/options.rst:139
 msgid "Uniform Random"
 msgstr "Aleatório Uniforme"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:131
+#: ../../reference_manual/brushes/brush_settings/options.rst:140
 msgid "Gives a random color to each brush dab."
 msgstr "Atribui uma cor aleatória a cada demão do pincel."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:132
+#: ../../reference_manual/brushes/brush_settings/options.rst:141
 msgid "Total Random"
 msgstr "Aleatório Total"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:133
+#: ../../reference_manual/brushes/brush_settings/options.rst:142
 msgid "Random noise pattern is now painted."
 msgstr "É agora pintado um padrão de ruído aleatório."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:134
+#: ../../reference_manual/brushes/brush_settings/options.rst:143
 msgid "Pattern"
 msgstr "Padrão"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:135
+#: ../../reference_manual/brushes/brush_settings/options.rst:144
 msgid "Uses active pattern, but alignment is different per stroke."
 msgstr "Usa o padrão activo, mas o alinhamento é diferente por cada traço."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:137
+#: ../../reference_manual/brushes/brush_settings/options.rst:146
 msgid "Locked Pattern"
 msgstr "Padrão Bloqueado"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:137
+#: ../../reference_manual/brushes/brush_settings/options.rst:146
 msgid "Locks the pattern to the brushdab"
 msgstr "Bloqueia o padrão à demão da pintura"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:142
+#: ../../reference_manual/brushes/brush_settings/options.rst:151
 msgid "Mix"
 msgstr "Mistura"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:144
+#: ../../reference_manual/brushes/brush_settings/options.rst:153
 msgid ""
 "Allows you to affect the mix of the :ref:`option_source` color with Sensors. "
 "It will work with Plain Color and Gradient as source. If Plain Color is "
@@ -351,19 +400,23 @@ msgstr ""
 "seleccionado um Gradiente, irá escolher um ponto no gradiente como cor de "
 "pintura, de acordo com os sensores seleccionados."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:147
-msgid ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:156
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mix_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:149
+#: ../../reference_manual/brushes/brush_settings/options.rst:158
 msgid "Uses"
 msgstr "Utilizações"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:152
-msgid ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:161
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mix_02.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:154
+#: ../../reference_manual/brushes/brush_settings/options.rst:163
 msgid ""
 "The above example uses a :program:`Krita` painted flowmap in the 3D program :"
 "program:`Blender`. A brush was set to :menuselection:`Source --> Gradient` "
@@ -378,11 +431,11 @@ msgstr ""
 "do mapa da normal. São usados os mapas de fluxo em diversos sistemas de "
 "sombreados, como o metal escovado, cabelos e diversos desenhadores de rios."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:155
+#: ../../reference_manual/brushes/brush_settings/options.rst:164
 msgid "Flow map"
 msgstr "Mapa de fluxo"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:162
+#: ../../reference_manual/brushes/brush_settings/options.rst:171
 msgid ""
 "Exactly the same as using :menuselection:`Source --> Gradient` with :"
 "guilabel:`Mix`, but only available for the Color Smudge Brush."
@@ -390,28 +443,33 @@ msgstr ""
 "É exactamente igual a usar a :menuselection:`Origem --> Gradiente` com :"
 "guilabel:`Mistura`, mas só está disponível no Pincel de Manchas a Cores."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:168
+#: ../../reference_manual/brushes/brush_settings/options.rst:173
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
 msgid "Spacing"
 msgstr "Espaço"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:171
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:180
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Spacing.png"
 msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:172
+#: ../../reference_manual/brushes/brush_settings/options.rst:181
 msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
 msgstr ""
 "Isto permite-lhe afectar o :ref:`option_brush_tip` com os :ref:`sensors`."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:175
-msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:184
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_spacing_02.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:177
+#: ../../reference_manual/brushes/brush_settings/options.rst:186
 msgid "Isotropic spacing"
 msgstr "Espaço isotrópico"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:177
+#: ../../reference_manual/brushes/brush_settings/options.rst:186
 msgid ""
 "Instead of the spacing being related to the ratio of the brush, it will be "
 "on diameter only."
@@ -419,18 +477,24 @@ msgstr ""
 "Em vez de o espaço ser relacionado com a taxa do pincel, será apenas baseado "
 "no diâmetro."
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:180
-msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:189
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_01.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_spacing_01.png"
 msgstr ".. image:: images/en/Krita_2_9_brushengine_spacing_01.png"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:185
+#: ../../reference_manual/brushes/brush_settings/options.rst:190
+#: ../../reference_manual/brushes/brush_settings/options.rst:194
 msgid "Ratio"
 msgstr "Taxa"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:187
+#: ../../reference_manual/brushes/brush_settings/options.rst:196
 msgid ""
 "Allows you to change the ratio of the brush and bind it to parameters. This "
 "also works for predefined brushes."
 msgstr ""
 "Permite-lhe também alterar a taxa do pincel e associá-la aos parâmetros. "
 "Isto também funciona para os pincéis predefinidos."
+
+#~ msgid "Puts a threshold filter over the brush mask."
+#~ msgstr "Coloca um filtro limitador sobre a máscara do pincel."

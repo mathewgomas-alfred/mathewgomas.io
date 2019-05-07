@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-04 11:05+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -20,6 +20,18 @@ msgstr ""
 "X-POFile-SpellExtra: freehandbrushtool multibrushtool mirrortools images\n"
 "X-POFile-SpellExtra: alt ref\n"
 
+#: ../../<rst_epilog>:2
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/multibrush_tool.svg\n"
+#| "   :alt: toolmultibrush"
+msgid ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/multibrush_tool.svg\n"
+"   :alt: ferramenta multi-pincéis"
+
 #: ../../<rst_epilog>:40
 msgid ""
 ".. image:: images/icons/multibrush_tool.svg\n"
@@ -29,12 +41,37 @@ msgstr ""
 "   :alt: ferramenta multi-pincéis"
 
 #: ../../reference_manual/tools/multibrush.rst:None
-msgid ".. image:: images/en/Krita-multibrush.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita-multibrush.png"
+msgid ".. image:: images/tools/Krita-multibrush.png"
 msgstr ".. image:: images/en/Krita-multibrush.png"
 
 #: ../../reference_manual/tools/multibrush.rst:1
 msgid "Krita's multibrush tool reference."
 msgstr "A referência da ferramenta multi-pincéis do Krita."
+
+#: ../../reference_manual/tools/multibrush.rst:11
+#: ../../reference_manual/tools/multibrush.rst:31
+msgid "Symmetry"
+msgstr "Simetria"
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+#, fuzzy
+#| msgid "Multibrush Tool"
+msgid "Multibrush"
+msgstr "Ferramenta Multi-Pincel"
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Mandala"
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:11
+msgid "Rotational Symmetry"
+msgstr ""
 
 #: ../../reference_manual/tools/multibrush.rst:16
 msgid "Multibrush Tool"
@@ -80,10 +117,6 @@ msgstr ""
 msgid "The three modes are:"
 msgstr "Os três modos são:"
 
-#: ../../reference_manual/tools/multibrush.rst:31
-msgid "Symmetry"
-msgstr "Simetria"
-
 #: ../../reference_manual/tools/multibrush.rst:32
 msgid ""
 "Symmetry will reflect your brush around the axis at even intervals. The "
@@ -114,7 +147,7 @@ msgstr ""
 "A translação irá desenhar o número de instâncias configurado em torno do "
 "cursor, com a distância definida pelo raio."
 
-#: ../../reference_manual/tools/multibrush.rst:38
+#: ../../reference_manual/tools/multibrush.rst:37
 msgid "Snowflake"
 msgstr "Floco de Neve"
 
@@ -127,6 +160,21 @@ msgstr ""
 "modo de simetria+espelho na barra."
 
 #: ../../reference_manual/tools/multibrush.rst:40
+#, fuzzy
+#| msgid "Translate"
+msgid "Copy Translate"
+msgstr "Translação"
+
+#: ../../reference_manual/tools/multibrush.rst:40
+msgid ""
+"This allows you to set the position of the copies relative to your own "
+"cursor. To set the position of the copies, first toggle :guilabel:`Add`, and "
+"then |mouseleft| the canvas to place copies relative to the multibrush "
+"origin. Finally, press :guilabel:`Add` again, and start drawing to see the "
+"copy translate in action."
+msgstr ""
+
+#: ../../reference_manual/tools/multibrush.rst:42
 msgid ""
 "The assistant and smoothing options work the same as in the :ref:"
 "`freehand_brush_tool`, though only on the real brush and not its copies."

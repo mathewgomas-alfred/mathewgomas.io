@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___main_menu___edit_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-02 12:05+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -19,37 +19,47 @@ msgstr ""
 msgid "The edit menu in Krita."
 msgstr ""
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:16
 msgid "Edit"
 msgstr "Upraviť"
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:19
 msgid "Undo"
 msgstr "Späť"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:22
+msgid "Redo"
+msgstr "Znovu"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:25
+msgid "Cut"
+msgstr "Vystrihnúť"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:28
+msgid "Copy"
+msgstr "Kopírovať"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:40
+msgid "Paste"
+msgstr "Vložiť"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
 msgstr ""
 
-#: ../../reference_manual/main_menu/edit_menu.rst:22
-msgid "Redo"
-msgstr "Znovu"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
 msgstr ""
 
-#: ../../reference_manual/main_menu/edit_menu.rst:25
-msgid "Cut"
-msgstr "Vystrihnúť"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
 msgstr ""
-
-#: ../../reference_manual/main_menu/edit_menu.rst:28
-msgid "Copy"
-msgstr "Kopírovať"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
@@ -80,10 +90,6 @@ msgstr "Kopírovať zlúčené"
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
 msgstr ""
-
-#: ../../reference_manual/main_menu/edit_menu.rst:40
-msgid "Paste"
-msgstr "Vložiť"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"

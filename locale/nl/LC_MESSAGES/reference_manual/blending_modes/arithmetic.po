@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-02-19 17:26+0100\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"PO-Revision-Date: 2019-05-06 10:47+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,13 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:1
 msgid ""
 "Page about the arithmetic blending modes in Krita: Addition, Divide, Inverse "
 "Subtract, Multiply and Subtract."
 msgstr ""
+"Pagina over de rekenkundige mengmodes in Krita: Optellen, Delen, Omgekeerd "
+"aftrekken, vermenigvuldigen en Aftrekken."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:14
 msgid "Arithmetic"
@@ -32,7 +34,12 @@ msgstr "Rekenen"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:16
 msgid "These blending modes are based on simple maths."
-msgstr ""
+msgstr "Deze mengmodi zijn gebaseerd op eenvoudig rekenen."
+
+#: ../../reference_manual/blending_modes/arithmetic.rst:18
+#| msgid "Addition(Blending Mode)"
+msgid "Addition (Blending Mode)"
+msgstr "Optellen (Mengmodus)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:22
 msgid "Addition"
@@ -40,23 +47,27 @@ msgstr "Optellen"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:24
 msgid "Adds the numerical values of two colors together:"
-msgstr ""
+msgstr "Telt de numerieke waarden van twee kleuren op:"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:26
 msgid "Yellow(1, 1, 0) + Blue(0, 0, 1) = White(1, 1, 1)"
-msgstr ""
+msgstr "Geel(1, 1, 0) + Blauw(0, 0, 1) = Wit(1, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:28
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray "
 "(0.9, 0.9, 0.9)"
 msgstr ""
+"Donker grijs(0.4, 0.4, 0.4) + Lichter grijs(0.5, 0.5, 0.5) = Nog lichter "
+"grijs (0.9, 0.9, 0.9)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:33
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Addition_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:33
 #: ../../reference_manual/blending_modes/arithmetic.rst:40
@@ -73,9 +84,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:40
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Addition_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:42
 msgid "Red(1, 0, 0) + Gray(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
@@ -83,8 +96,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:47
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Addition_Red_plus_gray.png"
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Addition_Red_plus_gray.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Addition_Red_plus_gray.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:49
 msgid ""
@@ -95,10 +111,10 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Addition_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:59
@@ -121,9 +137,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:70
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Divide_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Divide_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:70
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
@@ -139,15 +157,19 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Divide_Light_blue_and_Orange."
-"png"
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Divide_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Divide_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:82
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Divide_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Divide_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:87
 msgid "Inverse Subtract"
@@ -166,9 +188,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:96
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:96
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
@@ -184,15 +208,19 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:108
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Inverse_Subtract_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Inverse_Subtract_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:113
 msgid "Multiply"
@@ -227,9 +255,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:129
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Multiply_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:129
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
@@ -245,15 +275,19 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Multiply_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:141
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Multiply_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Multiply_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:146
 msgid "Subtract"
@@ -279,9 +313,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:159
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:159
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
@@ -297,12 +333,16 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Subtract_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:171
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Sample_image_with_dots.png"
 msgstr ""
+".. image:: images/blending_modes/arithmetic/"
+"Blending_modes_Subtract_Sample_image_with_dots.png"

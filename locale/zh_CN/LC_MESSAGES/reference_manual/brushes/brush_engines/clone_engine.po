@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Clone from all visible layers."
-msgstr ""
+msgstr "克隆全部可见图层"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -28,20 +28,29 @@ msgid ""
 "   :alt: mouseleft"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
-"   :alt: mouseleft"
+"   :alt: 鼠标左键"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:1
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:18
 msgid "The Clone Brush Engine manual page."
-msgstr ""
+msgstr "介绍 Krita 的克隆笔刷引擎。"
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
 msgstr "克隆笔刷引擎"
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Clone Tool"
+msgstr ""
+
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/clonebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:31
 msgid ""
@@ -51,16 +60,22 @@ msgid ""
 "copy or clone the source to a different area. Other applications normally "
 "have a separate tool for this, Krita has a brush engine for this."
 msgstr ""
+"此笔刷引擎可以绘制出一个颜料图层的某个区域的复制品，它在修改照片和纹理时非常"
+"有用。使用此引擎的笔刷时要线选定一处源图像，然后便可以在别处将源图像原封不动"
+"地进行重现。其他软件通常有一个专门的工具来实现这种操作，而 Krita 则是通过笔刷"
+"引擎来实现。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:34
 msgid "Usage and Hotkeys"
-msgstr ""
+msgstr "用法和快捷键"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:36
 msgid ""
 "To see the source, you need to set the brush-cursor settings to brush "
 "outline."
 msgstr ""
+"在某些版本中，要在绘制时看见采样源的位置，你要将光标的轮廓形状设为“预览轮"
+"廓” (默认值)。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:38
 msgid ""
@@ -70,26 +85,29 @@ msgid ""
 "new clone source point on the layer that was active when you selected the "
 "clone op."
 msgstr ""
+"在使用克隆笔刷引擎时，:kbd:`Ctrl +` 鼠标左键 |mouseleft| 可在当前图层选取新的"
+"克隆来源点，按 :kbd:`Ctrl + Alt +` 鼠标左键 |mouseleft| 可在之前一个选中的图"
+"层选取新的克隆来源点。 "
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:42
 msgid ":kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7"
-msgstr ""
+msgstr ":kbd:`Ctrl + Alt +` 鼠标左键 |mouseleft| 快捷键从 2.9.7 开始停用。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:45
 msgid "Settings"
-msgstr "设置"
+msgstr "可用笔刷设置"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:47
 msgid ":ref:`option_size`"
-msgstr ""
+msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:48
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:49
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:52
 msgid "Painting mode"
@@ -97,37 +115,53 @@ msgstr "绘画模式"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:54
 msgid "Healing"
-msgstr "合拢"
+msgstr "修复"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:55
 msgid ""
 "This turns the clone brush into a healing brush: often used for removing "
 "blemishes in photo retouching, and maybe blemishes in painting."
 msgstr ""
+"此选项会将克隆笔刷变为修复笔刷，一般用于在修改照片时用于移除污点等不理想的部"
+"分，也可以用于画作。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:57
 msgid "Only works when there's a perspective grid visible."
-msgstr ""
+msgstr "此选项只在透视网格可见时生效。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:59
 msgid "Perspective correction"
-msgstr ""
+msgstr "透视修正"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:60
 msgid "This feature is currently disabled"
-msgstr ""
+msgstr "此功能目前已停用。"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:61
 msgid "Source Point move."
-msgstr ""
+msgstr "来源点移动"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:62
 msgid ""
 "This will determine whether you will replicate the source point per dab or "
 "per stroke. Can be useful when used with the healing brush."
 msgstr ""
+"此选项决定每一条笔画复制来源点一次，还是每次笔尖印迹复制来源点一次。在使用修"
+"复笔刷时可以发挥作用。"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
+msgid "Source Point reset before a new stroke"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
 msgid ""
-"Tick this to force cloning of all layers instead of just the active one."
+"This will reset the source point everytime you make a new stroke. So if you "
+"were cloning a part in one stroke, having this active will allow you to "
+"clone the same part again in a single stroke, instead of using the source "
+"point as a permanent offset."
 msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
+msgid ""
+"Tick this to force cloning of all layers instead of just the active one."
+msgstr "勾选此项后将从所有图层进行克隆，而不仅限于当前图层。"

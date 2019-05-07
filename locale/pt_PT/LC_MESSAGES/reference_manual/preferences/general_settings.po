@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-04 03:36+0200\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
 "PO-Revision-Date: 2019-04-04 10:57+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -32,52 +32,130 @@ msgid "Recalculate animation cache in background."
 msgstr "Recalcular a 'cache' de animações em segundo plano."
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Krita_Preferences_General.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_Preferences_General.png"
+msgid ".. image:: images/preferences/Krita_Preferences_General.png"
 msgstr ".. image:: images/en/Krita_Preferences_General.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_tool_icon.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_tool_icon.png"
+msgid ".. image:: images/preferences/Settings_cursor_tool_icon.png"
 msgstr ".. image:: images/en/Settings_cursor_tool_icon.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_arrow.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_arrow.png"
+msgid ".. image:: images/preferences/Settings_cursor_arrow.png"
 msgstr ".. image:: images/en/Settings_cursor_arrow.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_crosshair.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_crosshair.png"
+msgid ".. image:: images/preferences/Settings_cursor_crosshair.png"
 msgstr ".. image:: images/en/Settings_cursor_crosshair.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_small_circle.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_small_circle.png"
+msgid ".. image:: images/preferences/Settings_cursor_small_circle.png"
 msgstr ".. image:: images/en/Settings_cursor_small_circle.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_no_cursor.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_no_cursor.png"
+msgid ".. image:: images/preferences/Settings_cursor_no_cursor.png"
 msgstr ".. image:: images/en/Settings_cursor_no_cursor.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_triangle_righthanded.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_triangle_righthanded.png"
+msgid ".. image:: images/preferences/Settings_cursor_triangle_righthanded.png"
 msgstr ".. image:: images/en/Settings_cursor_triangle_righthanded.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_triangle_lefthanded.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_triangle_lefthanded.png"
+msgid ".. image:: images/preferences/Settings_cursor_triangle_lefthanded.png"
 msgstr ".. image:: images/en/Settings_cursor_triangle_lefthanded.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_black_pixel.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_black_pixel.png"
+msgid ".. image:: images/preferences/Settings_cursor_black_pixel.png"
 msgstr ".. image:: images/en/Settings_cursor_black_pixel.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Settings_cursor_white_pixel.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Settings_cursor_white_pixel.png"
+msgid ".. image:: images/preferences/Settings_cursor_white_pixel.png"
 msgstr ".. image:: images/en/Settings_cursor_white_pixel.png"
 
 #: ../../reference_manual/preferences/general_settings.rst:0
-msgid ".. image:: images/en/Krita_4_0_kinetic_scrolling.gif"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_4_0_kinetic_scrolling.gif"
+msgid ".. image:: images/preferences/Krita_4_0_kinetic_scrolling.gif"
 msgstr ".. image:: images/en/Krita_4_0_kinetic_scrolling.gif"
 
 #: ../../reference_manual/preferences/general_settings.rst:1
 msgid "General Preferences in Krita."
 msgstr "Preferências Gerais no Krita."
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+msgid "Preferences"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "Cursor Settings"
+msgid "Settings"
+msgstr "Configuração do Cursor"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "No Cursor"
+msgid "Cursor"
+msgstr "Sem Cursor"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "Autosave Every"
+msgid "Autosave"
+msgstr "Gravar Automaticamente a Cada"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+msgid "Tabbed Documents"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+msgid "Subwindow Documents"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+msgid "Pop up palette"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "Enable Native File Dialog"
+msgid "File Dialog"
+msgstr "Activar a Janela de Ficheiros Nativa"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "Maximum brush size"
+msgid "Maximum Brush Size"
+msgstr "Tamanho máximo do pincel"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+#, fuzzy
+#| msgid "Kinetic Scrolling (Needs Restart)"
+msgid "Kinetic Scrolling"
+msgstr "Deslocamento Cinético (É Necessário Reiniciar)"
+
+#: ../../reference_manual/preferences/general_settings.rst:12
+msgid "Sessions"
+msgstr ""
 
 #: ../../reference_manual/preferences/general_settings.rst:17
 msgid "General Settings"
@@ -275,15 +353,27 @@ msgstr ""
 "possível do pincel, e não o actual a ser afectado pelos sensores como a "
 "pressão. Isto torna o cursor um pouco menos incómodo de usar."
 
-#: ../../reference_manual/preferences/general_settings.rst:116
+#: ../../reference_manual/preferences/general_settings.rst:114
+msgid ""
+"The default cursor color. This is mixed with the canvas image so that it "
+"will usually have a contrasting color, but sometimes this mixing does not "
+"work. This is usually due driver problems. When that happens, you can "
+"configure a more pleasant color here."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:115
+msgid "Cursor Color:"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:120
 msgid "Window Settings"
 msgstr "Configuração da Janela"
 
-#: ../../reference_manual/preferences/general_settings.rst:118
+#: ../../reference_manual/preferences/general_settings.rst:122
 msgid "Multiple Document Mode"
 msgstr "Modo de Múltiplos Documentos"
 
-#: ../../reference_manual/preferences/general_settings.rst:119
+#: ../../reference_manual/preferences/general_settings.rst:123
 msgid ""
 "This can be either tabbed like :program:`GIMP` or :program:`Painttool Sai`, "
 "or subwindows, like :program:`Photoshop`."
@@ -291,27 +381,27 @@ msgstr ""
 "Isto poderá ser em páginas, como o :program:`GIMP` ou o :program:`Painttool "
 "Sai`, ou em sub-janelas, como o :program:`Photoshop`."
 
-#: ../../reference_manual/preferences/general_settings.rst:120
+#: ../../reference_manual/preferences/general_settings.rst:124
 msgid "Background image"
 msgstr "Imagem de fundo"
 
-#: ../../reference_manual/preferences/general_settings.rst:121
+#: ../../reference_manual/preferences/general_settings.rst:125
 msgid "Allows you to set a picture background for subwindow mode."
 msgstr "Permite-lhe definir um fundo da imagem para o modo em sub-janelas."
 
-#: ../../reference_manual/preferences/general_settings.rst:122
+#: ../../reference_manual/preferences/general_settings.rst:126
 msgid "Window Background"
 msgstr "Fundo da Janela"
 
-#: ../../reference_manual/preferences/general_settings.rst:123
+#: ../../reference_manual/preferences/general_settings.rst:127
 msgid "Set the color of the subwindow canvas area."
 msgstr "Define a cor da área de desenho da sub-janela."
 
-#: ../../reference_manual/preferences/general_settings.rst:124
+#: ../../reference_manual/preferences/general_settings.rst:128
 msgid "Don't show contents when moving sub-windows"
 msgstr "Não mostrar os conteúdos ao mover as sub-janelas"
 
-#: ../../reference_manual/preferences/general_settings.rst:125
+#: ../../reference_manual/preferences/general_settings.rst:129
 msgid ""
 "This gives an outline when moving windows to work around ugly glitches with "
 "certain graphics-cards."
@@ -319,11 +409,11 @@ msgstr ""
 "Isto gera um contorno ao mover as janelas, para evitar algumas "
 "interferências feias com certas placas gráficas."
 
-#: ../../reference_manual/preferences/general_settings.rst:126
+#: ../../reference_manual/preferences/general_settings.rst:130
 msgid "Show on-canvas popup messages"
 msgstr "Mostrar as mensagens na área de desenho"
 
-#: ../../reference_manual/preferences/general_settings.rst:127
+#: ../../reference_manual/preferences/general_settings.rst:131
 msgid ""
 "Whether or not you want to see the on-canvas pop-up messages that tell you "
 "whether you are in tabbed mode, rotating the canvas, or mirroring it."
@@ -332,11 +422,11 @@ msgstr ""
 "que lhe dizem se está no modo em páginas, a rodar a área de desenho ou a "
 "espelhá-la."
 
-#: ../../reference_manual/preferences/general_settings.rst:128
+#: ../../reference_manual/preferences/general_settings.rst:132
 msgid "Enable Hi-DPI support"
 msgstr "Activar o suporte para Hi-DPI"
 
-#: ../../reference_manual/preferences/general_settings.rst:129
+#: ../../reference_manual/preferences/general_settings.rst:133
 msgid ""
 "Attempt to use the Hi-DPI support. It is an option because we are still "
 "experiencing bugs on windows."
@@ -344,11 +434,11 @@ msgstr ""
 "Tentativa de uso do suporte de Hi-DPI (alta densidade). É uma opção, porque "
 "ainda estamos a ter alguns problemas no Windows."
 
-#: ../../reference_manual/preferences/general_settings.rst:131
+#: ../../reference_manual/preferences/general_settings.rst:135
 msgid "Allow only one instance of Krita"
 msgstr "Permitir apenas uma instância do Krita"
 
-#: ../../reference_manual/preferences/general_settings.rst:131
+#: ../../reference_manual/preferences/general_settings.rst:135
 msgid ""
 "An instance is a single entry in your system's task manager. Turning this "
 "option makes sure that Krita will check if there's an instance of Krita open "
@@ -364,23 +454,25 @@ msgstr ""
 "casos de uso obscuros que permitem várias instâncias, mas se não se "
 "conseguir lembrar de nenhum, simplesmente deixe esta opção ligada."
 
-#: ../../reference_manual/preferences/general_settings.rst:134
-msgid "Tool options"
+#: ../../reference_manual/preferences/general_settings.rst:140
+#, fuzzy
+#| msgid "Tool options"
+msgid "Tools Settings"
 msgstr "Opções da ferramenta"
 
-#: ../../reference_manual/preferences/general_settings.rst:136
+#: ../../reference_manual/preferences/general_settings.rst:142
 msgid "In docker (default)"
 msgstr "Na área acoplável (por omissão)"
 
-#: ../../reference_manual/preferences/general_settings.rst:137
+#: ../../reference_manual/preferences/general_settings.rst:143
 msgid "Gives you the tool options in a docker."
 msgstr "Oferece-lhe as opções da ferramenta numa área acoplável."
 
-#: ../../reference_manual/preferences/general_settings.rst:139
+#: ../../reference_manual/preferences/general_settings.rst:145
 msgid "In toolbar"
 msgstr "Na barra de ferramentas"
 
-#: ../../reference_manual/preferences/general_settings.rst:139
+#: ../../reference_manual/preferences/general_settings.rst:145
 msgid ""
 "Gives you the tool options in the toolbar, next to the brush settings. You "
 "can open it with :kbd:`\\\\`."
@@ -388,11 +480,22 @@ msgstr ""
 "Oferece-lhe as opções da ferramenta na barra de ferramentas, a seguir à "
 "configuração do pincel. Podê-la-á abrir com o :kbd:`\\\\`."
 
-#: ../../reference_manual/preferences/general_settings.rst:142
+#: ../../reference_manual/preferences/general_settings.rst:148
+msgid "Brush Flow Mode"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:148
+msgid ""
+"In Krita 4.2 the behaviour of flow in combination with opacity was changed. "
+"This allows you to turn it back to the 4.1 behaviour. This will however be "
+"removed in future versions."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:151
 msgid "Switch Control/Alt Selection Modifiers"
 msgstr "Mudar os Modificadores de Selecção Control/Alt"
 
-#: ../../reference_manual/preferences/general_settings.rst:142
+#: ../../reference_manual/preferences/general_settings.rst:151
 msgid ""
 "This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` buttons when "
 "modifying selections. Useful for those used to Gimp instead of Photoshop, or "
@@ -402,11 +505,11 @@ msgstr ""
 "modificar as selecções. É útil para os que estão habituados ao Gimp em vez "
 "do Photoshop, ou para esquerdinos sem um :kbd:`Alt` à direita no seu teclado."
 
-#: ../../reference_manual/preferences/general_settings.rst:145
+#: ../../reference_manual/preferences/general_settings.rst:154
 msgid "Enable Touchpainting"
 msgstr "Activar a Pintura por Toque"
 
-#: ../../reference_manual/preferences/general_settings.rst:145
+#: ../../reference_manual/preferences/general_settings.rst:154
 msgid ""
 "This allows finger painting with capacitive screens. Some devices have both "
 "capacitive touch and a stylus, and then this can interfere. In that case, "
@@ -416,11 +519,21 @@ msgstr ""
 "suporta tanto o toque com o dedo como com um lápis, e isso pode interferir "
 "entre si. Nesse caso, basta ajustar esta opção."
 
-#: ../../reference_manual/preferences/general_settings.rst:148
+#: ../../reference_manual/preferences/general_settings.rst:156
+msgid "Activate transform tool after pasting"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:159
+msgid ""
+"A convenience feature. When enabling this, the transform tool will activate "
+"after pasting for quick moving or rotating."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:162
 msgid "This enables kinetic scrolling for scrollable areas."
 msgstr "Isto activa o deslocamento cinético nas áreas com deslocamento."
 
-#: ../../reference_manual/preferences/general_settings.rst:153
+#: ../../reference_manual/preferences/general_settings.rst:167
 msgid ""
 "Kinetic scrolling on the brush chooser drop-down with activation mode set "
 "to :guilabel:`On Click Drag`, with this disabled all of these clicks would "
@@ -431,47 +544,49 @@ msgstr ""
 "opção desactivada, todos estes 'clicks' iriam levar à selecção de um pincel, "
 "independentemente do movimento de arrastamento."
 
-#: ../../reference_manual/preferences/general_settings.rst:156
+#: ../../reference_manual/preferences/general_settings.rst:170
 msgid "How it is activated."
 msgstr "Como é activado."
 
-#: ../../reference_manual/preferences/general_settings.rst:158
-msgid "Disabled"
-msgstr "Desactivado"
+#: ../../reference_manual/preferences/general_settings.rst:172
+#, fuzzy
+#| msgid "On Click Drag"
+msgid "On Middle-Click Drag"
+msgstr "Ao Arrastar com 'Click'"
 
-#: ../../reference_manual/preferences/general_settings.rst:159
-msgid "Will never activated."
-msgstr "Nunca será activado."
+#: ../../reference_manual/preferences/general_settings.rst:173
+msgid "Will activate when using the middle mouse button."
+msgstr ""
 
-#: ../../reference_manual/preferences/general_settings.rst:160
+#: ../../reference_manual/preferences/general_settings.rst:174
 msgid "On Touch Drag"
 msgstr "Ao Arrastar o Toque"
 
-#: ../../reference_manual/preferences/general_settings.rst:161
+#: ../../reference_manual/preferences/general_settings.rst:175
 msgid "Will activate if it can recognize a touch event. May not always work."
 msgstr ""
 "Será activado se puder reconhecer um evento de toque. Poderá nem sempre "
 "funcionar."
 
-#: ../../reference_manual/preferences/general_settings.rst:163
+#: ../../reference_manual/preferences/general_settings.rst:177
 msgid "Activation"
 msgstr "Activação"
 
-#: ../../reference_manual/preferences/general_settings.rst:163
+#: ../../reference_manual/preferences/general_settings.rst:177
 msgid "On Click Drag"
 msgstr "Ao Arrastar com 'Click'"
 
-#: ../../reference_manual/preferences/general_settings.rst:163
+#: ../../reference_manual/preferences/general_settings.rst:177
 msgid "Will activate when it can recognize a click event, will always work."
 msgstr ""
 "Será activado quando puder reconhecer um evento de toque; irá sempre "
 "funcionar."
 
-#: ../../reference_manual/preferences/general_settings.rst:165
+#: ../../reference_manual/preferences/general_settings.rst:179
 msgid "Sensitivity"
 msgstr "Importância"
 
-#: ../../reference_manual/preferences/general_settings.rst:166
+#: ../../reference_manual/preferences/general_settings.rst:180
 msgid ""
 "How quickly the feature activates, this effective determines the length of "
 "the drag."
@@ -479,94 +594,147 @@ msgstr ""
 "Com que rapidez será activada a funcionalidade; isto efectivamente a duração "
 "do arrastamento."
 
-#: ../../reference_manual/preferences/general_settings.rst:168
+#: ../../reference_manual/preferences/general_settings.rst:182
 msgid "Kinetic Scrolling (Needs Restart)"
 msgstr "Deslocamento Cinético (É Necessário Reiniciar)"
 
-#: ../../reference_manual/preferences/general_settings.rst:168
-msgid "Show Scrollbar"
+#: ../../reference_manual/preferences/general_settings.rst:182
+#, fuzzy
+#| msgid "Show Scrollbar"
+msgid "Hide Scrollbar"
 msgstr "Mostrar a Barra de Deslocamento"
 
-#: ../../reference_manual/preferences/general_settings.rst:168
+#: ../../reference_manual/preferences/general_settings.rst:182
 msgid "Whether to show scrollbars when doing this."
 msgstr "Se deve ou não mostrar as barras de deslocamento ao fazer isto."
 
-#: ../../reference_manual/preferences/general_settings.rst:173
-msgid "Miscellaneous"
-msgstr "Diversos"
-
-#: ../../reference_manual/preferences/general_settings.rst:176
-msgid ""
-"This is the option for handling user sessions. It has the following options:"
-msgstr ""
-"Esta é a opção para lidar com as sessões do utilizador. Tem as seguintes "
-"opções:"
-
-#: ../../reference_manual/preferences/general_settings.rst:178
-msgid "Open Default Window"
-msgstr "Abrir a Janela Predefinida"
-
-#: ../../reference_manual/preferences/general_settings.rst:179
-msgid "This opens the regular empty window with the last used workspace."
-msgstr "Isto abre a janela vazia normal com o último espaço de trabalho usado."
-
-#: ../../reference_manual/preferences/general_settings.rst:180
-msgid "Load Previous Session"
-msgstr "Carregar a Sessão Anterior"
-
-#: ../../reference_manual/preferences/general_settings.rst:181
-msgid ""
-"Load the last opened session. If you have :guilabel:`Save session when Krita "
-"closes` toggled, this becomes the last files you had open and the like."
-msgstr ""
-"Carrega a última sessão aberta. Se tiver a opção :guilabel:`Gravar a sessão "
-"quando o Krita fechar` comutada, serão os últimos ficheiros, entre outras "
-"coisas que tinha aberto."
-
-#: ../../reference_manual/preferences/general_settings.rst:183
-msgid "Show Session Manager"
-msgstr "Mostrar o Gestor de Sessões"
-
-#: ../../reference_manual/preferences/general_settings.rst:183
-msgid "Show the session manager directly so you can pick a session."
-msgstr "Mostra directamente o gestor de sessões para que possa escolher uma."
-
-#: ../../reference_manual/preferences/general_settings.rst:184
-msgid "When Krita starts"
-msgstr "Quando o Krita é iniciado"
-
 #: ../../reference_manual/preferences/general_settings.rst:187
-msgid ""
-"Save the current open windows, documents and the like into the current "
-"session when closing Krita so you can resume where you left off."
+#, fuzzy
+#| msgid "While Painting..."
+msgid "File Handling"
+msgstr "Enquanto Pinta..."
+
+#: ../../reference_manual/preferences/general_settings.rst:191
+#, fuzzy
+#| msgid "Enable Touchpainting"
+msgid "Enable Autosaving"
+msgstr "Activar a Pintura por Toque"
+
+#: ../../reference_manual/preferences/general_settings.rst:192
+msgid "Determines whether or not Krita should periodically autosave."
 msgstr ""
-"Grava as janelas, documentos e outras coisas abertas de momento na sessão "
-"actual, ao fechar o Krita, para que possa prosseguir onde parou."
 
-#: ../../reference_manual/preferences/general_settings.rst:188
-msgid "Save session when Krita closes"
-msgstr "Gravar a sessão quando o Krita fechar"
-
-#: ../../reference_manual/preferences/general_settings.rst:190
+#: ../../reference_manual/preferences/general_settings.rst:193
 msgid "Autosave Every"
 msgstr "Gravar Automaticamente a Cada"
 
-#: ../../reference_manual/preferences/general_settings.rst:191
+#: ../../reference_manual/preferences/general_settings.rst:194
+#, fuzzy
+#| msgid ""
+#| "Here the user can specify how often Krita should autosave the file. You "
+#| "can tick the checkbox to turn it off. For Windows, these files are saved "
+#| "in the %TEMP% directory. If you are on Linux they are stored in /"
+#| "home/'username'."
 msgid ""
-"Here the user can specify how often Krita should autosave the file. You can "
-"tick the checkbox to turn it off. For Windows, these files are saved in the "
-"%TEMP% directory. If you are on Linux they are stored in /home/'username'."
+"Here the user can specify how often Krita should autosave the file, you can "
+"tick the checkbox to turn it off. For Windows these files are saved in the "
+"%TEMP% directory. If you are on Linux it is stored in /home/'username'."
 msgstr ""
 "Aqui o utilizador poderá definir com que frequência o Krita deverá gravar "
 "automaticamente o ficheiro. Poderá assinalar a opção para desligar a "
 "gravação automática. Para o Windows, estes ficheiros são gravados na pasta "
 "%TEMP%. Se estiver no Linux, são gravadas em /home/'utilizador'."
 
-#: ../../reference_manual/preferences/general_settings.rst:192
+#: ../../reference_manual/preferences/general_settings.rst:195
+msgid "Unnamed autosave files are hidden by default"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:196
+msgid ""
+"This determines whether the filename of autosaves has a period prepended to "
+"the name. On Linux and Mac OS this is a technique to ensure the file is "
+"hidden by default."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:197
+msgid "Create Backup File"
+msgstr "Criar um Ficheiro de Cópia de Segurança"
+
+#: ../../reference_manual/preferences/general_settings.rst:198
+msgid ""
+"When selected Krita will, upon save, rename the original file as a backup "
+"file and save the current image to the original name. The result is that you "
+"will have saved the image, and there will be a copy of the image that is "
+"saved separately as a backup. This is useful in case of crashes during saves."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:200
+msgid "The default location these backups should be stored."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:202
+msgid "Same Folder as Original File"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:203
+msgid "Store the file in the same folder as the original file was stored."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:204
+msgid "User Folder"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:205
+msgid ""
+"This is the main folder of your computer. On Linux and Mac OS this is the "
+"'Home' folder, on Windows, the 'My Documents Folder'."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:207
+msgid "Backup File Location"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:207
+msgid "Temporary File Folder"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:207
+msgid ""
+"This stored the file in the temp folder. Temp folders are special folders of "
+"which the contents are emptied when you shut down your computer. If you "
+"don't particularly care about your backup files and want them to be "
+"'cleaned' automatically, this is the best place. If you want your backup "
+"files to be kept indefinitely, this is a wrong choice."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:209
+#, fuzzy
+#| msgid "Create Backup File"
+msgid "Backup File Suffix"
+msgstr "Criar um Ficheiro de Cópia de Segurança"
+
+#: ../../reference_manual/preferences/general_settings.rst:210
+msgid ""
+"The suffix that will be placed after the full filename. 'filename.kra' will "
+"then be saved as 'filename.kra~', ensuring the files won't show up in "
+"Krita's open file dialog."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:211
+msgid "Number of Backup Files Kept"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:212
+msgid ""
+"Number of backup files Krita keeps, by default this is only one, but this "
+"can be up to 99. Krita will then number the backup files."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:213
 msgid "Compress \\*.kra files more."
 msgstr "Comprimir mais os ficheiros \\*.kra."
 
-#: ../../reference_manual/preferences/general_settings.rst:193
+#: ../../reference_manual/preferences/general_settings.rst:214
 msgid ""
 "This increases the zip compression on the saved Krita files, which makes "
 "them lighter on disk, but this takes longer to load."
@@ -575,13 +743,77 @@ msgstr ""
 "que poderá torná-los mais pequenos no disco, mas que poderá levar mais tempo "
 "a carregar."
 
-#: ../../reference_manual/preferences/general_settings.rst:194
+#: ../../reference_manual/preferences/general_settings.rst:216
+msgid "Kra files are zip files. Zip64 allows you to use"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:217
+msgid "Use Zip64"
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:222
+msgid "Miscellaneous"
+msgstr "Diversos"
+
+#: ../../reference_manual/preferences/general_settings.rst:225
+msgid ""
+"This is the option for handling user sessions. It has the following options:"
+msgstr ""
+"Esta é a opção para lidar com as sessões do utilizador. Tem as seguintes "
+"opções:"
+
+#: ../../reference_manual/preferences/general_settings.rst:227
+msgid "Open Default Window"
+msgstr "Abrir a Janela Predefinida"
+
+#: ../../reference_manual/preferences/general_settings.rst:228
+msgid "This opens the regular empty window with the last used workspace."
+msgstr "Isto abre a janela vazia normal com o último espaço de trabalho usado."
+
+#: ../../reference_manual/preferences/general_settings.rst:229
+msgid "Load Previous Session"
+msgstr "Carregar a Sessão Anterior"
+
+#: ../../reference_manual/preferences/general_settings.rst:230
+msgid ""
+"Load the last opened session. If you have :guilabel:`Save session when Krita "
+"closes` toggled, this becomes the last files you had open and the like."
+msgstr ""
+"Carrega a última sessão aberta. Se tiver a opção :guilabel:`Gravar a sessão "
+"quando o Krita fechar` comutada, serão os últimos ficheiros, entre outras "
+"coisas que tinha aberto."
+
+#: ../../reference_manual/preferences/general_settings.rst:232
+msgid "Show Session Manager"
+msgstr "Mostrar o Gestor de Sessões"
+
+#: ../../reference_manual/preferences/general_settings.rst:232
+msgid "Show the session manager directly so you can pick a session."
+msgstr "Mostra directamente o gestor de sessões para que possa escolher uma."
+
+#: ../../reference_manual/preferences/general_settings.rst:233
+msgid "When Krita starts"
+msgstr "Quando o Krita é iniciado"
+
+#: ../../reference_manual/preferences/general_settings.rst:236
+msgid ""
+"Save the current open windows, documents and the like into the current "
+"session when closing Krita so you can resume where you left off."
+msgstr ""
+"Grava as janelas, documentos e outras coisas abertas de momento na sessão "
+"actual, ao fechar o Krita, para que possa prosseguir onde parou."
+
+#: ../../reference_manual/preferences/general_settings.rst:237
+msgid "Save session when Krita closes"
+msgstr "Gravar a sessão quando o Krita fechar"
+
+#: ../../reference_manual/preferences/general_settings.rst:239
 msgid "Upon importing Images as Layers, convert to the image color space."
 msgstr ""
 "Após importar as Imagens como Camadas, converta para o espaço de cores da "
 "imagem."
 
-#: ../../reference_manual/preferences/general_settings.rst:195
+#: ../../reference_manual/preferences/general_settings.rst:240
 msgid ""
 "This makes sure that layers are the same color space as the image, necessary "
 "for saving to PSD."
@@ -589,11 +821,11 @@ msgstr ""
 "Isto garante que as camadas são do mesmo espaço de cores que a imagem, o que "
 "é necessário para gravar no PSD."
 
-#: ../../reference_manual/preferences/general_settings.rst:196
+#: ../../reference_manual/preferences/general_settings.rst:241
 msgid "Undo Stack Size"
 msgstr "Tamanho da Pilha de Anulações"
 
-#: ../../reference_manual/preferences/general_settings.rst:197
+#: ../../reference_manual/preferences/general_settings.rst:242
 msgid ""
 "This is the number of undo commands Krita remembers. You can set the value "
 "to 0 for unlimited undos."
@@ -601,43 +833,41 @@ msgstr ""
 "Isto é o número de comandos 'Desfazer' que o Krita recorda. Poderá definir o "
 "valor como 0 para anulações ilimitadas."
 
-#: ../../reference_manual/preferences/general_settings.rst:198
+#: ../../reference_manual/preferences/general_settings.rst:243
 msgid "Favorite Presets"
 msgstr "Predefinições Favoritas"
 
-#: ../../reference_manual/preferences/general_settings.rst:199
+#: ../../reference_manual/preferences/general_settings.rst:244
 msgid ""
 "This determines the amount of presets that can be used in the pop-up palette."
 msgstr ""
 "Isto define o número de predefinições que podem ser usadas na paleta "
 "instantânea."
 
-#: ../../reference_manual/preferences/general_settings.rst:200
-msgid "Create Backup File"
-msgstr "Criar um Ficheiro de Cópia de Segurança"
-
-#: ../../reference_manual/preferences/general_settings.rst:201
-msgid "When selected Krita will try to save a backup file in case of a crash."
-msgstr ""
-"Quando estiver seleccionado, o Krita irá tentar gravar um ficheiro de cópia "
-"de segurança, em caso de estoiro."
-
-#: ../../reference_manual/preferences/general_settings.rst:202
-msgid "Hide splash screen on startup."
-msgstr "Esconder o ecrã inicial no arranque."
-
-#: ../../reference_manual/preferences/general_settings.rst:203
+#: ../../reference_manual/preferences/general_settings.rst:246
+#, fuzzy
+#| msgid ""
+#| "This'll hide the splash screen automatically once Krita is fully loaded."
 msgid ""
 "This'll hide the splash screen automatically once Krita is fully loaded."
 msgstr ""
 "Isto irá esconder o ecrã inicial automaticamente assim que o Krita for "
 "carregado por completo."
 
-#: ../../reference_manual/preferences/general_settings.rst:204
+#: ../../reference_manual/preferences/general_settings.rst:250
+msgid "Hide splash screen on startup."
+msgstr "Esconder o ecrã inicial no arranque."
+
+#: ../../reference_manual/preferences/general_settings.rst:250
+msgid ""
+"Deprecated because Krita now has a welcome widget when no canvas is open."
+msgstr ""
+
+#: ../../reference_manual/preferences/general_settings.rst:252
 msgid "Enable Native File Dialog"
 msgstr "Activar a Janela de Ficheiros Nativa"
 
-#: ../../reference_manual/preferences/general_settings.rst:205
+#: ../../reference_manual/preferences/general_settings.rst:253
 msgid ""
 "This allows you to use the system file dialog. By default turned off because "
 "we cannot seem to get native file dialogues 100% bugfree."
@@ -646,11 +876,11 @@ msgstr ""
 "desligada, porque não parece ser possível ter janelas de ficheiros nativas "
 "100% livres de erros."
 
-#: ../../reference_manual/preferences/general_settings.rst:206
+#: ../../reference_manual/preferences/general_settings.rst:254
 msgid "Maximum brush size"
 msgstr "Tamanho máximo do pincel"
 
-#: ../../reference_manual/preferences/general_settings.rst:207
+#: ../../reference_manual/preferences/general_settings.rst:255
 msgid ""
 "This allows you to set the maximum brush size to a size of up to 10.000 "
 "pixels. Do be careful with using this, as a 10.000 pixel size can very "
@@ -662,16 +892,28 @@ msgstr ""
 "de 10 000 pixels pode corresponder facilmente a um gigabyte completo de "
 "dados. Por outras palavras, isto poderá ficar realmente lento."
 
-#: ../../reference_manual/preferences/general_settings.rst:209
+#: ../../reference_manual/preferences/general_settings.rst:257
 msgid "Krita will recalculate the cache when you're not doing anything."
 msgstr ""
 "Õ Krita irá tentar calcular de novo a 'cache' quando não estiver a fazer "
 "nada."
 
-#: ../../reference_manual/preferences/general_settings.rst:213
+#: ../../reference_manual/preferences/general_settings.rst:261
 msgid ""
 "This is now in the :ref:`performance_settings` under :guilabel:`Animation "
 "Cache`."
 msgstr ""
 "Isto está agora na :ref:`performance_settings` em :guilabel:`'Cache' da "
 "Animação`."
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid "Will never activated."
+#~ msgstr "Nunca será activado."
+
+#~ msgid ""
+#~ "When selected Krita will try to save a backup file in case of a crash."
+#~ msgstr ""
+#~ "Quando estiver seleccionado, o Krita irá tentar gravar um ficheiro de "
+#~ "cópia de segurança, em caso de estoiro."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 03:45+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-29 11:59+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,16 +23,29 @@ msgstr ""
 "X-POFile-SpellExtra: reatribuir ref Blender\n"
 "X-POFile-IgnoreConsistency: Blender\n"
 
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Krita.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Configure_Toolbars_Krita.png"
+msgid ".. image:: images/preferences/Configure_Toolbars_Krita.png"
 msgstr ".. image:: images/en/Configure_Toolbars_Krita.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+msgid ""
+".. image:: images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
 msgstr ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Toolbars_Shown.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Toolbars_Shown.png"
+msgid ".. image:: images/preferences/Toolbars_Shown.png"
 msgstr ".. image:: images/en/Toolbars_Shown.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:1
@@ -50,6 +63,11 @@ msgid ""
 msgstr ""
 "O menu de Configuração aloja as opções configuráveis no Krita e é onde "
 "define a maior parte da \"aparência e comportamento\" da aplicação."
+
+#: ../../reference_manual/main_menu/settings_menu.rst:21
+#: ../../reference_manual/main_menu/settings_menu.rst:34
+msgid "Dockers"
+msgstr "Áreas Acopláveis"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:24
 #: ../../reference_manual/main_menu/settings_menu.rst:31
@@ -88,10 +106,6 @@ msgstr ""
 "de abrir o menu para esse efeito. Veja mais informações abaixo em :ref:"
 "`configure_toolbars`."
 
-#: ../../reference_manual/main_menu/settings_menu.rst:34
-msgid "Dockers"
-msgstr "Áreas Acopláveis"
-
 #: ../../reference_manual/main_menu/settings_menu.rst:36
 msgid ""
 "Krita subdivides the access of many of its features into functional panels "
@@ -113,9 +127,20 @@ msgstr ""
 "Aprender a usar as áreas acopláveis de forma eficaz é um conceito-chave para "
 "optimizar o seu tempo no uso do Krita."
 
+#: ../../reference_manual/main_menu/settings_menu.rst:40
 #: ../../reference_manual/main_menu/settings_menu.rst:43
 msgid "Themes"
 msgstr "Temas"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+#, fuzzy
+#| msgid "Themes"
+msgid "Theme"
+msgstr "Temas"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+msgid "Look and Feel"
+msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:45
 msgid ""
@@ -236,6 +261,10 @@ msgstr ""
 "Faz a gestão dos recursos. Poderá ler mais sobre o assunto :ref:`aqui "
 "<resource_management>`."
 
+#: ../../reference_manual/main_menu/settings_menu.rst:77
+msgid "Language"
+msgstr ""
+
 #: ../../reference_manual/main_menu/settings_menu.rst:81
 msgid "Switch Application Language"
 msgstr "Mudar a Língua da Aplicação"
@@ -243,6 +272,12 @@ msgstr "Mudar a Língua da Aplicação"
 #: ../../reference_manual/main_menu/settings_menu.rst:83
 msgid "If you wish to use Krita in a different translation."
 msgstr "Se desejar usar o Krita numa tradução diferente."
+
+#: ../../reference_manual/main_menu/settings_menu.rst:85
+#, fuzzy
+#| msgid "The Toolbar"
+msgid "Toolbar"
+msgstr "A Barra de Ferramentas"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:89
 msgid "Configure Toolbars"
@@ -371,3 +406,9 @@ msgid ""
 msgstr ""
 "Ainda que não seja de facto aconselhável, podê-las-á desligar (se bem que... "
 "porquê?"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:126
+msgid ""
+"Finally, Toolbars also can be moved. You can do this by |mouseright| and "
+"dragging the handler at the left side of the toolbar."
+msgstr ""

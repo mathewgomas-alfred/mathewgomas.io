@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,18 @@ msgstr ""
 #: ../../general_concepts/file_formats/file_ora.rst:1
 msgid "The Open Raster Archive file format as exported by Krita."
 msgstr "Krita 导出的开放栅格图像归档文件格式。"
+
+#: ../../general_concepts/file_formats/file_ora.rst:10
+msgid "*.ora"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_ora.rst:10
+msgid "ORA"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_ora.rst:10
+msgid "Open Raster Archive"
+msgstr ""
 
 #: ../../general_concepts/file_formats/file_ora.rst:15
 msgid "\\*.ora"
@@ -38,7 +50,7 @@ msgstr ""
 "它旨在替代 :ref:`file_psd`，因为后者并不是为了交换数据这个目的设计的。和 :"
 "ref:`file_kra` 一样，ORA 格式大致基于 Open Document 文件结构，所以它本质上是"
 "一个包含了一组 XML 和 PNG 文件的 ZIP 文件。它使用 :ref:`file_png` 而非 Krita "
-"那样通过二进制数据编码图像的理由是保持文件格式的开放性和易支持性。"
+"那样通过二进制数据编码图像，此举是为了保持文件格式的开放性和易支持性。"
 
 #: ../../general_concepts/file_formats/file_ora.rst:19
 msgid ""

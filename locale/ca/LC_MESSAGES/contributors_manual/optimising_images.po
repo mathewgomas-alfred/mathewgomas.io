@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributors_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-18 19:27+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:59+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,11 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../contributors_manual/optimising_images.rst:1
 msgid "How to make and optimise images for use in the manual."
 msgstr "Com crear i optimitzar les imatges per a utilitzar-les en el manual."
+
+#: ../../contributors_manual/optimising_images.rst:10
+msgid "Metadata"
+msgstr "Metadades"
+
+#: ../../contributors_manual/optimising_images.rst:10
+msgid "Optimising Images"
+msgstr "Optimitzar les imatges"
 
 #: ../../contributors_manual/optimising_images.rst:15
 msgid "Images for the Manual"
@@ -103,6 +111,10 @@ msgstr "Amb ImageMagick, podreu utilitzar la següent ordre::"
 #: ../../contributors_manual/optimising_images.rst:240
 msgid "ImageMagick"
 msgstr "ImageMagick"
+
+#: ../../contributors_manual/optimising_images.rst:40
+msgid "import -depth 8 -dither <filename.png>"
+msgstr "import -depth 8 -dither <nom_fitxer_imatge.png>"
 
 #: ../../contributors_manual/optimising_images.rst:42
 msgid ""
@@ -305,6 +317,10 @@ msgstr ""
 msgid "To use PNGquant, go to the folder of choice, and type::"
 msgstr "Per utilitzar el PNGquant, aneu a la carpeta escollida i escriviu::"
 
+#: ../../contributors_manual/optimising_images.rst:99
+msgid "pngquant --quality=80-100 image.png"
+msgstr "pngquant --quality=80-100 imatge.png"
+
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:101
 msgid "`PNGQuant <https://pngquant.org/>`_"
@@ -318,7 +334,7 @@ msgid ""
 "don't do well with it, so always double check that the resulting image looks "
 "good, otherwise try one of the following options:"
 msgstr ""
-"On «*image*» se substituirà amb el nom del fitxer d'imatge. En prémer :kbd:"
+"On «*imatge*» se substituirà amb el nom del fitxer d'imatge. En prémer :kbd:"
 "`Retorn`, apareixerà una imatge nova a la carpeta amb el resultat de la "
 "compressió. El PNGQuant funciona per a la majoria de les imatges, però en "
 "algunes, com els selectors de color, no ho fan gaire bé, pel que verifiqueu "
@@ -328,6 +344,10 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:104
 msgid "A lossless PNG compressor. Usage::"
 msgstr "Un compressor PNG sense pèrdua. Ús::"
+
+#: ../../contributors_manual/optimising_images.rst:106
+msgid "pngcrush image.png imageout.png"
+msgstr "pngcrush imatge.png imatge_sortida.png"
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:108
@@ -351,6 +371,10 @@ msgstr ""
 "d'utilitzar el PNGQuant, aparentment és originalment una bifurcació del "
 "PNGCrush. Ús::"
 
+#: ../../contributors_manual/optimising_images.rst:114
+msgid "optipng image.png"
+msgstr "optipng imatge.png"
+
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:116
 msgid "`Optipng <http://optipng.sourceforge.net/>`_"
@@ -364,8 +388,8 @@ msgid ""
 "optimised version. You can avoid overwriting with the ``--out imageout.png`` "
 "command."
 msgstr ""
-"On «*image*» serà el nom del fitxer. Després procedirà a provar diversos "
-"algoritmes de compressió i **sobreescriurà** el fitxer image.png amb la "
+"On «*imatge*» serà el nom del fitxer. Després procedirà a provar diversos "
+"algoritmes de compressió i **sobreescriurà** el fitxer imatge.png amb la "
 "versió optimitzada. Podeu evitar sobreescriure'l amb l'ordre ``--out "
 "imatge_sortida.png``."
 
@@ -496,6 +520,10 @@ msgid ""
 "Change the directory to the folder where the image is located and type::"
 msgstr "Canvieu el directori a la carpeta on es troba la imatge i escriviu::"
 
+#: ../../contributors_manual/optimising_images.rst:166
+msgid "exiftool image"
+msgstr "exiftool imatge"
+
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:168
 msgid ""
@@ -506,7 +534,7 @@ msgid ""
 "sometimes when it comes to privacy, and also the primary reason all metadata "
 "gets stripped."
 msgstr ""
-"On «*image*» és el fitxer que us agradaria examinar. Si només escriviu "
+"On «*imatge*» és el fitxer que us agradaria examinar. Si només escriviu "
 "``exiftool`` en una carpeta determinada, es generarà tota la informació que "
 "pugui proporcionar sobre qualsevol fitxer que trobi. Si observeu bé algunes "
 "imatges, veureu que contenen metadades sobre l'autor o ubicació. De vegades, "
@@ -521,6 +549,10 @@ msgid ""
 msgstr ""
 "També podeu utilitzar l'ordre `«identify» de l'ImageMagick <https://www."
 "imagemagick.org/script/identify.php>`_::"
+
+#: ../../contributors_manual/optimising_images.rst:172
+msgid "identify -verbose image"
+msgstr "identify -verbose imatge"
 
 #: ../../contributors_manual/optimising_images.rst:175
 msgid "Stripping Metadata"
@@ -598,11 +630,19 @@ msgstr ""
 msgid "First extract the metadata to a profile by converting::"
 msgstr "Primer extraieu les metadades a un perfil fent la conversió::"
 
+#: ../../contributors_manual/optimising_images.rst:198
+msgid "convert image.png image_profile.icc"
+msgstr "convert imatge.png perfil_imatge.icc"
+
 #: ../../contributors_manual/optimising_images.rst:200
 msgid "Then strip the file and readd the profile information::"
 msgstr ""
 "Després descarteu dades del fitxer i torneu a afegir la informació del "
 "perfil::"
+
+#: ../../contributors_manual/optimising_images.rst:202
+msgid "convert -profile image_profile.icc image.png"
+msgstr "convert -profile perfil_imatge.icc imatge.png"
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/optimising_images.rst:203
@@ -637,9 +677,25 @@ msgstr "ExifTool"
 msgid "Setting an exif value::"
 msgstr "Establir un valor Exif::"
 
+#: ../../contributors_manual/optimising_images.rst:215
+msgid ""
+"convert -set exif:ImageDescription \"An image description\" image.png "
+"image_modified.png"
+msgstr ""
+"convert -set exif:ImageDescription \"Una descripció de la imatge\" imatge."
+"png imatge_modificada.png"
+
 #: ../../contributors_manual/optimising_images.rst:217
 msgid "Setting the PNG chunk for description::"
 msgstr "Establir el fragment PNG per a la descripció::"
+
+#: ../../contributors_manual/optimising_images.rst:219
+msgid ""
+"convert -set Description \"An image description\" image.png image_modified."
+"png"
+msgstr ""
+"convert -set Description \"Una descripció de la imatge\" imatge.png "
+"imatge_modificada.png"
 
 #: ../../contributors_manual/optimising_images.rst:222
 msgid "Embedding license metadata"
@@ -673,6 +729,14 @@ msgstr ""
 msgid "For the GDPL::"
 msgstr "Per a la GDPL::"
 
+#: ../../contributors_manual/optimising_images.rst:234
+msgid ""
+"convert -set dcterms:license \"GDPL 1.3+ https://www.gnu.org/licenses/"
+"fdl-1.3.txt\" image.png"
+msgstr ""
+"convert -set dcterms:license \"GDPL 1.3+ https://www.gnu.org/licenses/"
+"fdl-1.3.txt\" imatge.png"
+
 #: ../../contributors_manual/optimising_images.rst:236
 msgid "This defines a shorthand name and then license text."
 msgstr "Això defineix un nom abreujat i després el text de la llicència."
@@ -680,6 +744,14 @@ msgstr "Això defineix un nom abreujat i després el text de la llicència."
 #: ../../contributors_manual/optimising_images.rst:238
 msgid "For Creative Commons BY-SA 4.0::"
 msgstr "Per a la Creative Commons BY-SA 4.0::"
+
+#: ../../contributors_manual/optimising_images.rst:240
+msgid ""
+"convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/"
+"licenses/by-sa/4.0/\" image.png"
+msgstr ""
+"convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/"
+"licenses/by-sa/4.0/\" imatge.png"
 
 #: ../../contributors_manual/optimising_images.rst:242
 msgid ""
@@ -719,13 +791,43 @@ msgstr ""
 msgid "So that would look something like this::"
 msgstr "Així doncs, veurem alguna cosa així::"
 
+# skip-rule: t-pu_sp
+#: ../../contributors_manual/optimising_images.rst:253
+msgid ""
+"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
+"sa/4.0\" -UsageTerms=\"This work is licensed under a <a rel=\"license\" href="
+"\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Attribution-ShareAlike 4.0 International License</a>.\" -Copyright=\"CC-BY-"
+"SA-NC 4.0\" image.png"
+msgstr ""
+"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
+"sa/4.0\" -UsageTerms=\"This work is licensed under a <a rel=\"license\" href="
+"\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
+"Attribution-ShareAlike 4.0 International License</a>.\" -Copyright=\"CC-BY-"
+"SA-NC 4.0\" imatge.png"
+
 #: ../../contributors_manual/optimising_images.rst:255
 msgid "Another way of doing the marking is::"
 msgstr "Una altra manera de fer el marcatge és::"
 
+#: ../../contributors_manual/optimising_images.rst:257
+msgid ""
+"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
+"sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" "
+"image.png"
+msgstr ""
+"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
+"sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" "
+"imatge.png"
+
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data (if there is any)::"
 msgstr "Primer extraieu les dades (si n'hi ha)::"
+
+# skip-rule: t-acc_obe
+#: ../../contributors_manual/optimising_images.rst:262
+msgid "convert image.png image_meta.xmp"
+msgstr "convert imatge.png metadades_imatge.xmp"
 
 #: ../../contributors_manual/optimising_images.rst:264
 msgid "Then modify the resulting file, and embed the image data::"
@@ -735,6 +837,10 @@ msgstr ""
 #: ../../contributors_manual/optimising_images.rst:266
 msgid "With imagemagick you can use the profile option again."
 msgstr "Amb l'ImageMagick podreu tornar a utilitzar l'opció del perfil."
+
+#: ../../contributors_manual/optimising_images.rst:266
+msgid "convert -profile image_meta.xmp image.png"
+msgstr "convert -profile metadades_imatge.xmp imatge.png"
 
 #: ../../contributors_manual/optimising_images.rst:268
 msgid ""

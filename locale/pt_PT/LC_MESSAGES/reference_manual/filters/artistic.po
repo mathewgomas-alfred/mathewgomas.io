@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-18 12:05+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -24,6 +24,19 @@ msgstr ""
 msgid "Overview of the artistic filters."
 msgstr "Introdução aos filtros artísticos."
 
+#: ../../reference_manual/filters/artistic.rst:11
+#: ../../reference_manual/filters/artistic.rst:21
+msgid "Halftone"
+msgstr "Meios-Tons"
+
+#: ../../reference_manual/filters/artistic.rst:11
+msgid "Filters"
+msgstr ""
+
+#: ../../reference_manual/filters/artistic.rst:11
+msgid "HD Index Painting"
+msgstr ""
+
 #: ../../reference_manual/filters/artistic.rst:16
 msgid "Artistic"
 msgstr "Artístico"
@@ -36,12 +49,10 @@ msgstr ""
 "Os filtros artísticos caracterizam-se por receber dados à entrada e aplicar "
 "uma deformação sobre os mesmos."
 
-#: ../../reference_manual/filters/artistic.rst:21
-msgid "Halftone"
-msgstr "Meios-Tons"
-
 #: ../../reference_manual/filters/artistic.rst:24
-msgid ".. image:: images/en/Krita_halftone_filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_halftone_filter.png"
+msgid ".. image:: images/filters/Krita_halftone_filter.png"
 msgstr ".. image:: images/en/Krita_halftone_filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:25
@@ -131,7 +142,9 @@ msgstr ""
 "cor seleccionada com valores diferentes."
 
 #: ../../reference_manual/filters/artistic.rst:44
-msgid ".. image:: images/en/Gradient-pixelart.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Gradient-pixelart.png"
+msgid ".. image:: images/common-workflows/Gradient-pixelart.png"
 msgstr ".. image:: images/en/Gradient-pixelart.png"
 
 #: ../../reference_manual/filters/artistic.rst:45
@@ -143,7 +156,9 @@ msgstr ""
 "como aparece em baixo"
 
 #: ../../reference_manual/filters/artistic.rst:48
-msgid ".. image:: images/en/Index-color-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Index-color-filter.png"
+msgid ".. image:: images/filters/Index-color-filter.png"
 msgstr ".. image:: images/en/Index-color-filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:49
@@ -155,7 +170,9 @@ msgstr ""
 "deste filtro"
 
 #: ../../reference_manual/filters/artistic.rst:52
-msgid ".. image:: images/en/Kiki-pixel-art.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Kiki-pixel-art.png"
+msgid ".. image:: images/common-workflows/Kiki-pixel-art.png"
 msgstr ".. image:: images/en/Kiki-pixel-art.png"
 
 #: ../../reference_manual/filters/artistic.rst:54
@@ -171,7 +188,9 @@ msgstr ""
 "à entrada uma cor média."
 
 #: ../../reference_manual/filters/artistic.rst:59
-msgid ".. image:: images/en/Pixelize-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Pixelize-filter.png"
+msgid ".. image:: images/filters/Pixelize-filter.png"
 msgstr ".. image:: images/en/Pixelize-filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:61
@@ -196,7 +215,9 @@ msgstr ""
 "a definir o tamanho dos campos."
 
 #: ../../reference_manual/filters/artistic.rst:71
-msgid ".. image:: images/en/Oilpaint-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Oilpaint-filter.png"
+msgid ".. image:: images/filters/Oilpaint-filter.png"
 msgstr ".. image:: images/en/Oilpaint-filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:72
@@ -232,7 +253,9 @@ msgstr ""
 "cada componente (canal)."
 
 #: ../../reference_manual/filters/artistic.rst:83
-msgid ".. image:: images/en/Posterize-filter.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Posterize-filter.png"
+msgid ".. image:: images/filters/Posterize-filter.png"
 msgstr ".. image:: images/en/Posterize-filter.png"
 
 #: ../../reference_manual/filters/artistic.rst:84

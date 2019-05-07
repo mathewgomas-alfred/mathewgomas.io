@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-21 03:37+0200\n"
-"PO-Revision-Date: 2019-04-21 17:38+0200\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"PO-Revision-Date: 2019-05-04 16:27+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../user_manual/loading_saving_brushes.rst:0
-msgid ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
-msgstr ".. image:: images/en/Krita_4_0_dirty_preset_icon.png"
+msgid ".. image:: images/brushes/Krita_4_0_dirty_preset_icon.png"
+msgstr ".. image:: images/brushes/Krita_4_0_dirty_preset_icon.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:None
-msgid ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
-msgstr ".. image:: images/en/Krita_4_0_Brush_Settings_Layout.svg"
+msgid ".. image:: images/brushes/Krita_4_0_Brush_Settings_Layout.svg"
+msgstr ".. image:: images/brushes/Krita_4_0_Brush_Settings_Layout.svg"
 
 #: ../../user_manual/loading_saving_brushes.rst:1
 msgid ""
@@ -34,6 +34,10 @@ msgid ""
 msgstr ""
 "Guia detallada sobre el diàleg de configuració del pinzell al Krita, així "
 "sobre com crear els vostres propis pinzells i com compartir-los."
+
+#: ../../user_manual/loading_saving_brushes.rst:12
+msgid "Brush Settings"
+msgstr "Ajustaments del pinzell"
 
 #: ../../user_manual/loading_saving_brushes.rst:17
 msgid "Loading and Saving Brushes"
@@ -155,10 +159,10 @@ msgstr ""
 "l'esquerra i que augmenta fins a aconseguir la pressió màxima a mesura que "
 "va cap a la dreta. D'aquesta manera, es pot mostrar l'efecte dels sensors de "
 "Pressió, Angle de dibuix, Distància, Esvaïment i Toc difús, però cap dels "
-"altres. Per a alguns motors de pinzell no es pot mostrar res. Per a les "
-"eines pinzell amb esborronat del color, amb filtratge i de clonat, es mostra "
-"un patró de línia altern perquè aquests motors de pinzell utilitzen els "
-"píxels que ja es troben en el llenç per a canviar el seu efecte."
+"altres. Per a alguns motors de pinzell no es pot mostrar res. Per als "
+"pinzells amb esborronat del color, amb filtratge i l'eina de clonatge, es "
+"mostra un patró de línia altern perquè aquests motors de pinzell utilitzen "
+"els píxels que ja es troben en el llenç per a canviar el seu efecte."
 
 #: ../../user_manual/loading_saving_brushes.rst:75
 msgid ""
@@ -265,8 +269,8 @@ msgstr ""
 "zero i tot tipus d'opcions per a canviar la icona predefinida:"
 
 #: ../../user_manual/loading_saving_brushes.rst:119
-msgid ".. image:: images/en/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
-msgstr ".. image:: images/en/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
+msgid ".. image:: images/brushes/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
+msgstr ".. image:: images/brushes/Krita_4_0_Save_New_Brush_Preset_Dialog.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:120
 msgid ""
@@ -345,8 +349,8 @@ msgstr ""
 "disposa d'una biblioteca d'icones."
 
 #: ../../user_manual/loading_saving_brushes.rst:145
-msgid ".. image:: images/en/Krita_4_0_Preset_Icon_Library_Dialog.png"
-msgstr ".. image:: images/en/Krita_4_0_Preset_Icon_Library_Dialog.png"
+msgid ".. image:: images/brushes/Krita_4_0_Preset_Icon_Library_Dialog.png"
+msgstr ".. image:: images/brushes/Krita_4_0_Preset_Icon_Library_Dialog.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:146
 msgid ""
@@ -406,10 +410,10 @@ msgid ""
 "down on :kbd:`F6`. It's unique in that it allows you to filter by engine and "
 "this is also where you can create brushes for an engine from scratch."
 msgstr ""
-"El selector del predefinit és gairebé el mateix que l'acoblador Predefinits "
-"i la llista desplegable Predefinits sobre la tecla :kbd:`F6`. És únic, ja "
-"que permet filtrar per motor i també podreu crear pinzells per a un motor "
-"des de zero."
+"El selector del predefinit és gairebé el mateix que l'acoblador Pinzells "
+"predefinits i la llista desplegable Predefinits sobre la tecla :kbd:`F6`. És "
+"únic, ja que permet filtrar per motor i també podreu crear pinzells per a un "
+"motor des de zero."
 
 #: ../../user_manual/loading_saving_brushes.rst:174
 msgid ""
@@ -445,9 +449,9 @@ msgid ""
 "The trashcan icon does the same as it does in the preset docker: delete, or "
 "rather, blacklist a preset so it won't show up in the list."
 msgstr ""
-"La icona de la paperera fa el mateix que a l'acoblador Predefinits: elimina, "
-"o més aviat, inclou a la llista negra un predefinit de manera que no "
-"aparegui a la llista."
+"La icona de la paperera fa el mateix que a l'acoblador Pinzells predefinits: "
+"elimina, o més aviat, inclou a la llista negra un predefinit de manera que "
+"no aparegui a la llista."
 
 #: ../../user_manual/loading_saving_brushes.rst:189
 msgid "Section C - The Scratch pad"
@@ -705,8 +709,8 @@ msgid "It's maybe better to see with the following example:"
 msgstr "Potser serà millor veure-ho amb el següent exemple:"
 
 #: ../../user_manual/loading_saving_brushes.rst:289
-msgid ".. image:: images/en/Krita_4_0_brush_curve_calculation_mode.png"
-msgstr ".. image:: images/en/Krita_4_0_brush_curve_calculation_mode.png"
+msgid ".. image:: images/brushes/Krita_4_0_brush_curve_calculation_mode.png"
+msgstr ".. image:: images/brushes/Krita_4_0_brush_curve_calculation_mode.png"
 
 #: ../../user_manual/loading_saving_brushes.rst:290
 msgid ""
@@ -1142,9 +1146,13 @@ msgstr ""
 "dit, amb la icona i les corbes a dins."
 
 #: ../../user_manual/loading_saving_brushes.rst:444
+#, fuzzy
+#| msgid ""
+#| "A Brush file: This is the brush tip. When using masked brushes, there's "
+#| "two of these."
 msgid ""
-"A Brush file: This is the brush tip. When using masked brushes, there's two "
-"of these."
+"A Brush file: This is the brush tip. When using masked brushes, there are "
+"two of these."
 msgstr ""
 "Un fitxer de pinzell: és la punta del pinzell. Quan utilitzeu pinzells "
 "emmascarats, n'hi haurà dos d'aquests."

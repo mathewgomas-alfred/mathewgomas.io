@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:26+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:43+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Clone from all visible layers."
@@ -36,9 +36,18 @@ msgstr ""
 msgid "The Clone Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de clonat."
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
 msgstr "Motor del pinzell de clonat"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Clone Tool"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
@@ -52,6 +61,12 @@ msgid ""
 "copy or clone the source to a different area. Other applications normally "
 "have a separate tool for this, Krita has a brush engine for this."
 msgstr ""
+"El pinzell de clonat és un motor de pinzell que permet pintar amb la "
+"duplicació d'una secció d'una capa de pintura. Això és útil en la "
+"manipulació de fotografies i textures. Haureu de seleccionar un origen i "
+"després podreu pintar per a copiar o clonar l'origen en una àrea diferent. "
+"Les altres aplicacions normalment tenen una eina separada per a això, però "
+"el Krita té un motor de pinzell dedicat."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:34
 msgid "Usage and Hotkeys"
@@ -62,6 +77,8 @@ msgid ""
 "To see the source, you need to set the brush-cursor settings to brush "
 "outline."
 msgstr ""
+"Per a veure l'origen, haureu d'establir els ajustaments del cursor del "
+"pinzell per al contorn del pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:38
 msgid ""
@@ -71,10 +88,18 @@ msgid ""
 "new clone source point on the layer that was active when you selected the "
 "clone op."
 msgstr ""
+"L'eina de clonatge ara pot clonar des de la projecció i és possible canviar "
+"la capa de clonat d'origen. Premeu Press :kbd:`Ctrl + Alt + feu` |mouseleft| "
+"per a seleccionar un nou origen del clonat sobre la capa actual. Utilitzeu "
+"el :kbd:`Ctrl +` feu |mouseleft| per a seleccionar un nou punt d'origen del "
+"clonat sobre la capa que estava activa quan vàreu seleccionar l'operació de "
+"clonatge."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:42
 msgid ":kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7"
 msgstr ""
+"La drecera :kbd:`Ctrl + Alt + feu` |mouseleft| s'ha inhabilitat temporalment "
+"a la versió 2.9.7"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:45
 msgid "Settings"
@@ -105,10 +130,13 @@ msgid ""
 "This turns the clone brush into a healing brush: often used for removing "
 "blemishes in photo retouching, and maybe blemishes in painting."
 msgstr ""
+"Transforma el pinzell de clonat en un pinzell corrector: normalment "
+"s'utilitza per eliminar les imperfeccions del retoc fotogràfic i "
+"probablement els defectes en el repintat."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:57
 msgid "Only works when there's a perspective grid visible."
-msgstr ""
+msgstr "Només funciona quan hi ha visible una quadrícula de perspectiva."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:59
 msgid "Perspective correction"
@@ -116,19 +144,35 @@ msgstr "Correcció de la perspectiva"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:60
 msgid "This feature is currently disabled"
-msgstr ""
+msgstr "Aquesta característica actualment està inhabilitada"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:61
 msgid "Source Point move."
-msgstr "Moviment de punt origen."
+msgstr "Moviment del punt d'origen."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:62
 msgid ""
 "This will determine whether you will replicate the source point per dab or "
 "per stroke. Can be useful when used with the healing brush."
 msgstr ""
+"Determinarà si replicareu el punt d'origen per toc o per traç. Pot ser útil "
+"quan s'utilitza amb el pinzell corrector."
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
+msgid "Source Point reset before a new stroke"
+msgstr "Reinicia el punt d'origen abans de cada traç nou"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
 msgid ""
+"This will reset the source point everytime you make a new stroke. So if you "
+"were cloning a part in one stroke, having this active will allow you to "
+"clone the same part again in a single stroke, instead of using the source "
+"point as a permanent offset."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
+msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
 msgstr ""
+"Marqueu-ho per a forçar el clonatge de totes les capes en lloc de només "
+"l'activa."

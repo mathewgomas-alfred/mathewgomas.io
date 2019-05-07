@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,14 @@ msgstr ""
 msgid "How to use the canvas mirroring tools in Krita."
 msgstr "如何在 Krita 中使用画布对称绘画工具。"
 
+#: ../../user_manual/mirror_tools.rst:11
+msgid "Mirror"
+msgstr ""
+
+#: ../../user_manual/mirror_tools.rst:11
+msgid "Symmetry"
+msgstr ""
+
 #: ../../user_manual/mirror_tools.rst:16
 msgid "Mirror Tools"
 msgstr "对称绘画工具"
@@ -31,12 +39,12 @@ msgid ""
 "to the other side. The Mirror Tools are accessed along the toolbar. You can "
 "move the location of the mirror line by grabbing the handle."
 msgstr ""
-"此工具可以让你在镜像轴线的一侧绘画时，画面的另一半自动生成对称的图案。你可以"
-"从顶部工具栏里面找到它们的按钮。你还可以拖动镜像轴线的原型手柄来移动轴线。"
+"此工具可以让你在镜像轴线的一侧绘画时，在画面的另一边自动生成对称的图案。你可"
+"以从工具栏里面找到它的两个按钮。你还可以拖动镜像轴线的圆形手柄来移动轴线。"
 
 #: ../../user_manual/mirror_tools.rst:21
-msgid ".. image:: images/en/Mirror-tool.png"
-msgstr ".. image:: images/en/Mirror-tool.png"
+msgid ".. image:: images/Mirror-tool.png"
+msgstr ""
 
 #: ../../user_manual/mirror_tools.rst:22
 msgid ""
@@ -46,10 +54,9 @@ msgid ""
 "traces strokes, such as the :ref:`line_tool` and the :ref:`path_tool`, and "
 "even with the Multibrush Tool."
 msgstr ""
-"对称绘画工具的使用效果和 :ref:`multibrush_tool` 类似，不同之处在于，多重笔刷"
-"工具只能跟跟踪 :ref:`freehand_brush_tool` 一类的笔刷操作，而对称绘画工具可以"
-"跟踪任何使用笔画的工具，如 :ref:`line_tool`、:ref:`path_tool`，甚至多重笔刷工"
-"具本身。"
+"对称绘画工具的使用效果和 :ref:`multibrush_tool` 类似，但多重笔刷工具只能跟跟"
+"踪 :ref:`freehand_brush_tool` 一类的笔刷操作，而对称绘画工具可以跟踪任何使用"
+"笔画的工具，如 :ref:`line_tool`、:ref:`path_tool`，甚至多重笔刷工具本身。"
 
 #: ../../user_manual/mirror_tools.rst:24
 msgid ""
@@ -67,28 +74,22 @@ msgid ""
 msgstr "两种对称工具都有附加选项，你可以单击它们按钮右侧的下拉箭头来调用。"
 
 #: ../../user_manual/mirror_tools.rst:33
-#, fuzzy
-#| msgid ""
-#| "Hide Mirror Line (toggle) -- Locks the mirror axis and hides the axis line"
 msgid ""
 "Hide Mirror Line (toggle) -- Locks the mirror axis and hides the axis line."
-msgstr "隐藏对称线 (开关) - 锁定并隐藏镜像轴线"
+msgstr "隐藏对称线 (开关) - 锁定并隐藏镜像轴线。"
 
 #: ../../user_manual/mirror_tools.rst:35
 msgid "Lock (toggle) - hides the move icon on the axis line."
-msgstr "锁定 (开关) -- 隐藏轴线上的移动图标。"
+msgstr "锁定 (开关) -- 隐藏轴线上的移动手柄图标。"
 
 #: ../../user_manual/mirror_tools.rst:36
-#, fuzzy
-#| msgid ""
-#| "Move to Canvas Center - Moves the axis line to the center of the canvas"
 msgid ""
 "Move to Canvas Center - Moves the axis line to the center of the canvas."
-msgstr "移动轴线到画布中心 - 将轴线移动到画布的中心"
+msgstr "移动轴线到画布中心 - 将轴线移动到画布的中心。"
 
 #: ../../user_manual/mirror_tools.rst:40
 msgid "Mirroring along a rotated line"
-msgstr "沿倾斜轴线对称"
+msgstr "轴线倾斜的对称绘画"
 
 #: ../../user_manual/mirror_tools.rst:42
 msgid ""
@@ -97,6 +98,6 @@ msgid ""
 "`multibrush_tool` and its various parameters, it has more advanced options "
 "besides basic symmetry."
 msgstr ""
-"对称绘画工具只能沿着一条完全垂直或者水平的轴线进行镜像。如需沿着斜线进行镜"
+"对称绘画工具只能沿着一条完全垂直或者水平的轴线进行工作。如需沿着斜线进行镜"
 "像，请使用 :ref:`multibrush_tool` 和它提供的其他各种参数。除了基本对称功能"
-"外，它还具备许多高级的选项。"
+"外，它还提供了更多高级的选项。"

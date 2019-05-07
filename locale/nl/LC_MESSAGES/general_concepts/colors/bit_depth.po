@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-07 18:47+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 13:28+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,19 +18,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
-msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
-msgstr ".. image:: images/en/color_category/Kiki_lowbit.png"
+msgid ".. image:: images/color_category/Kiki_lowbit.png"
+msgstr ".. image:: images/color_category/Kiki_lowbit.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:1
 msgid "Bit depth in Krita."
 msgstr "Bitdiepte in Krita."
 
+#: ../../general_concepts/colors/bit_depth.rst:10
 #: ../../general_concepts/colors/bit_depth.rst:15
 msgid "Bit Depth"
 msgstr "Bitdiepte"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:26
+msgid "Indexed Color"
+msgstr "Geïndexeerde kleur"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:46
+msgid "Real Color"
+msgstr "Echte kleur"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color"
+msgstr "Kleur"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Bit Depth"
+msgstr "Bitdiepte kleur"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Deep Color"
+msgstr "Diepte kleur"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Floating Point Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Channels"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:17
 msgid ""
@@ -64,10 +95,6 @@ msgid ""
 msgstr ""
 "Om dit te illustreren zal ik het kort hebben over iets dat zelfs niet in "
 "Krita beschikbaar is:"
-
-#: ../../general_concepts/colors/bit_depth.rst:26
-msgid "Indexed Color"
-msgstr "Geïndexeerde kleur"
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -116,13 +143,9 @@ msgid ""
 "''bits per channel''). This is called 'real color'."
 msgstr ""
 
-#: ../../general_concepts/colors/bit_depth.rst:46
-msgid "Real Color"
-msgstr "Echte kleur"
-
 #: ../../general_concepts/colors/bit_depth.rst:52
-msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
-msgstr ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+msgid ".. image:: images/color_category/Rgbcolorcube_3.png"
+msgstr ".. image:: images/color_category/Rgbcolorcube_3.png"
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ""

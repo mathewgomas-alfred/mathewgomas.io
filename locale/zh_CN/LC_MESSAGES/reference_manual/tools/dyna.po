@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 03:27+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -27,6 +27,14 @@ msgstr ""
 
 #: ../../reference_manual/tools/dyna.rst:1
 msgid "Krita's dynamic brush tool reference."
+msgstr "介绍 Krita 的力学笔刷工具。"
+
+#: ../../reference_manual/tools/dyna.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/dyna.rst:11
+msgid "Dyna"
 msgstr ""
 
 #: ../../reference_manual/tools/dyna.rst:16
@@ -35,7 +43,7 @@ msgstr "力学笔刷工具"
 
 #: ../../reference_manual/tools/dyna.rst:18
 msgid "|tooldyna|"
-msgstr ""
+msgstr "|tooldyna|"
 
 #: ../../reference_manual/tools/dyna.rst:20
 msgid ""
@@ -43,27 +51,30 @@ msgid ""
 "smoothing results as the normal freehand brush. There are a couple options "
 "that you can change."
 msgstr ""
+"此笔刷工具能够为笔刷的运动路径加入重量和拽引两种力学上的影响因素，提供一定的"
+"平滑效果。它手绘笔刷的防抖效果类似，但又有微妙的区别。"
 
 #: ../../reference_manual/tools/dyna.rst:22
 msgid "Mass"
-msgstr "质量"
+msgstr "重量"
 
 #: ../../reference_manual/tools/dyna.rst:23
 msgid ""
 "Average your movement to make it appear smoother. Higher values will make "
 "your brush move slower."
-msgstr ""
+msgstr "模拟笔尖的重量，笔尖越重，惯性越大，笔尖的移动就会有一种滞后的平滑感。"
 
 #: ../../reference_manual/tools/dyna.rst:25
 msgid "Drag"
-msgstr "拖曳"
+msgstr "拽引"
 
 #: ../../reference_manual/tools/dyna.rst:25
 msgid ""
 "A rubberband effect that will help your lines come back to your cursor. "
 "Lower values will make the effect more extreme."
 msgstr ""
+"笔刷因为“重量”被“甩出”后回到光标下方的速度。数值越低，甩动效果就越明显。"
 
 #: ../../reference_manual/tools/dyna.rst:27
 msgid "Recommended values are around 0.02 Mass and 0.92 Drag."
-msgstr ""
+msgstr "建议数值为：重量 0.02 ，拽引 0.92 。"

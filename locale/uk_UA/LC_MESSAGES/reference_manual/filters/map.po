@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___map\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-03-23 21:27+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:48+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "Overview of the map filters."
 msgstr "Огляд фільтрів карти."
 
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
+msgstr "Фільтри"
+
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
 msgstr "Карта"
@@ -34,9 +38,14 @@ msgstr ""
 "Фільтри, які характеризуються тим, що створюють своєрідні картки вхідного "
 "зображення."
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
 msgstr "Мала плитка"
+
+#: ../../reference_manual/filters/map.rst:20
+msgid "Tiles"
+msgstr "Плитки"
 
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
@@ -44,13 +53,25 @@ msgstr ""
 "Створює мозаїку з вхідного зображення, використовуючи власний шар для "
 "виведення даних."
 
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr "Карта висот"
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Bumpmap"
+msgstr "Рельєф"
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Normal Map"
+msgstr "Нормальне картографування"
+
 #: ../../reference_manual/filters/map.rst:30
 msgid "Phong Bumpmap"
 msgstr "Рельєф за Фонгом"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
-msgstr ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 
 #: ../../reference_manual/filters/map.rst:34
 msgid ""
@@ -73,6 +94,7 @@ msgstr "Заокруглити кути"
 msgid "Adds little corners to the input image."
 msgstr "Додає малі кутики до вхідного зображення."
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
 msgstr "Нормалізувати"
@@ -88,13 +110,18 @@ msgstr ""
 "Корисно для створення нормалізованих карт та деяких незначних функцій із "
 "редагування зображень."
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
 msgstr "Карта градієнта"
 
+#: ../../reference_manual/filters/map.rst:48
+msgid "Gradient"
+msgstr "Градієнт"
+
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
-msgstr ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
+msgstr ".. image:: images/filters/Krita_filter_gradient_map.png"
 
 #: ../../reference_manual/filters/map.rst:55
 msgid ""

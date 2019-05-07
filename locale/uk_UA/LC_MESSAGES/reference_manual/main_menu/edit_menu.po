@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___main_menu___edit_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-05 07:20+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -24,37 +24,49 @@ msgstr ""
 msgid "The edit menu in Krita."
 msgstr "Меню «Зміни» у Krita."
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:16
 msgid "Edit"
 msgstr "Зміни"
 
+#: ../../reference_manual/main_menu/edit_menu.rst:11
 #: ../../reference_manual/main_menu/edit_menu.rst:19
 msgid "Undo"
 msgstr "Вернути"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:22
+msgid "Redo"
+msgstr "Повторити"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:25
+msgid "Cut"
+msgstr "Вирізати"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:28
+msgid "Copy"
+msgstr "Копіювати"
+
+#: ../../reference_manual/main_menu/edit_menu.rst:11
+#: ../../reference_manual/main_menu/edit_menu.rst:40
+msgid "Paste"
+msgstr ""
+"Вставити\n"
+"вставлення"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
 msgstr "Скасувати останню дію. :kbd:`Ctrl + Z`"
 
-#: ../../reference_manual/main_menu/edit_menu.rst:22
-msgid "Redo"
-msgstr "Повторити"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
 msgstr "Повторити останню скасовану дію. :kbd:`Ctrl + Shift+ Z`"
 
-#: ../../reference_manual/main_menu/edit_menu.rst:25
-msgid "Cut"
-msgstr "Вирізати"
-
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
 msgstr "Вирізати позначену область або шар. :kbd:`Ctrl + X`"
-
-#: ../../reference_manual/main_menu/edit_menu.rst:28
-msgid "Copy"
-msgstr "Копіювати"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
@@ -87,12 +99,6 @@ msgstr "Копіювати об’єднаним"
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
 msgstr "Копіювати позначене в усіх шарах. :kbd:`Ctrl + Shift + C`"
-
-#: ../../reference_manual/main_menu/edit_menu.rst:40
-msgid "Paste"
-msgstr ""
-"Вставити\n"
-"вставлення"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-07 03:38+0200\n"
-"PO-Revision-Date: 2019-04-07 18:47+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:27+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,20 +18,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Lens-blur-filter.png"
-msgstr ".. image:: images/en/Lens-blur-filter.png"
+#| msgid ".. image:: images/en/Lens-blur-filter.png"
+msgid ".. image:: images/filters/Lens-blur-filter.png"
+msgstr ".. image:: images/filters/Lens-blur-filter.png"
 
 #: ../../reference_manual/filters/blur.rst:1
 msgid "Overview of the blur filters."
 msgstr "Overzicht van de filters voor vervagen."
 
+#: ../../reference_manual/filters/blur.rst:10
 #: ../../reference_manual/filters/blur.rst:15
 #: ../../reference_manual/filters/blur.rst:39
 msgid "Blur"
 msgstr "Vervagen"
+
+#: ../../reference_manual/filters/blur.rst:10
+#: ../../reference_manual/filters/blur.rst:25
+msgid "Gaussian Blur"
+msgstr "Gaussiaans vervagen"
+
+#: ../../reference_manual/filters/blur.rst:10
+msgid "Filters"
+msgstr "Filters"
 
 #: ../../reference_manual/filters/blur.rst:17
 msgid ""
@@ -42,16 +53,13 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/blur.rst:21
-msgid ".. image:: images/en/Blur.png"
-msgstr ".. image:: images/en/Blur.png"
+#| msgid ".. image:: images/en/Blur.png"
+msgid ".. image:: images/filters/Blur.png"
+msgstr ".. image:: images/filters/Blur.png"
 
 #: ../../reference_manual/filters/blur.rst:22
 msgid "There are many different filters for blurring:"
 msgstr "Er zijn veel verschillende filters voor vervagen:"
-
-#: ../../reference_manual/filters/blur.rst:25
-msgid "Gaussian Blur"
-msgstr "Gaussiaans vervagen"
 
 #: ../../reference_manual/filters/blur.rst:27
 msgid ""
@@ -60,8 +68,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/blur.rst:30
-msgid ".. image:: images/en/Gaussian-blur.png"
-msgstr ".. image:: images/en/Gaussian-blur.png"
+#| msgid ".. image:: images/en/Gaussian-blur.png"
+msgid ".. image:: images/filters/Gaussian-blur.png"
+msgstr ".. image:: images/filters/Gaussian-blur.png"
 
 #: ../../reference_manual/filters/blur.rst:32
 msgid "Motion Blur"
@@ -75,16 +84,18 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/blur.rst:37
-msgid ".. image:: images/en/Motion-blur.png"
-msgstr ""
+#| msgid ".. image:: images/en/Gaussian-blur.png"
+msgid ".. image:: images/filters/Motion-blur.png"
+msgstr ".. image:: images/filters/Motion-blur.png"
 
 #: ../../reference_manual/filters/blur.rst:41
 msgid "This filter creates a regular blur"
-msgstr ""
+msgstr "Dit filter maakt een reguliere vervaging"
 
 #: ../../reference_manual/filters/blur.rst:44
-msgid ".. image:: images/en/Blur-filter.png"
-msgstr ""
+#| msgid ".. image:: images/en/Lens-blur-filter.png"
+msgid ".. image:: images/filters/Blur-filter.png"
+msgstr ".. image:: images/filters/Blur-filter.png"
 
 #: ../../reference_manual/filters/blur.rst:46
 msgid "Lens Blur"

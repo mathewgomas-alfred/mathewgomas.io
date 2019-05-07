@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,55 @@ msgstr ""
 "docs_krita_org_general_concepts___colors___bit_depth.pot\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
-msgid ".. image:: images/en/color_category/Kiki_lowbit.png"
-msgstr ".. image:: images/en/color_category/Kiki_lowbit.png"
+msgid ".. image:: images/color_category/Kiki_lowbit.png"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:1
 msgid "Bit depth in Krita."
-msgstr "Krita 中的位深度"
+msgstr "Krita 中的颜色位深度"
 
+#: ../../general_concepts/colors/bit_depth.rst:10
 #: ../../general_concepts/colors/bit_depth.rst:15
 msgid "Bit Depth"
-msgstr "位深度"
+msgstr "颜色位深度"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:26
+msgid "Indexed Color"
+msgstr "索引颜色"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+#: ../../general_concepts/colors/bit_depth.rst:46
+msgid "Real Color"
+msgstr "真彩色"
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Bit Depth"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Deep Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Floating Point Color"
+msgstr ""
+
+#: ../../general_concepts/colors/bit_depth.rst:10
+msgid "Color Channels"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:17
 msgid ""
 "Bit depth basically refers to the amount of working memory per pixel you "
 "reserve for an image."
-msgstr "位深度大体上指的是你为一张图片的每个像素保留的工作内存大小。"
+msgstr ""
+"颜色位深度大体上指的是你为一张图片的每个像素保留的工作内存大小。颜色的位深度"
+"越高，图像中能同时出现的颜色种类就越多，但图像占用的内存也会更大。"
 
 #: ../../general_concepts/colors/bit_depth.rst:19
 msgid ""
@@ -47,17 +80,17 @@ msgstr ""
 msgid ""
 "However, this does not just refer to the size of the image, but also how "
 "much precision you need per color."
-msgstr "然而这不仅与图像大小有关，也与颜色的精度有关。"
+msgstr ""
+"然而图像体积只是位深度影响的一个方面，它影响的另外一个方面则是颜色运算的精确"
+"程度。"
 
 #: ../../general_concepts/colors/bit_depth.rst:23
 msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
-msgstr "为了便于描述，请容我通过一项 Krita 尚不具备的功能来进行说明："
-
-#: ../../general_concepts/colors/bit_depth.rst:26
-msgid "Indexed Color"
-msgstr "索引颜色"
+msgstr ""
+"要把颜色位深度的概念讲清楚，我们还得从 Krita 已经不支持的，来自计算机图像技术"
+"黎明期的一种旧式颜色系统说起："
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -65,8 +98,9 @@ msgid ""
 "contains a number for each color. The palette size is defined in bits, "
 "because the computer can only store data in bit-sizes."
 msgstr ""
-"在旧式程序中，计算机中的每个图像文件都内建了一个调色板，它记录了图像所用的颜"
-"色数目。这个调色板通过比特进行定义，因为计算机只能以比特为单位存储数据。"
+"在非常老旧的计算机系统中，每个图像文件都内建有一个调色板，它记录了图像包含的"
+"每种颜色的数值，所以也叫“颜色索引”，而这种颜色系统也因此被称为“索引颜色”。调"
+"色板的大小以位数来进行定义，因为计算机只能按一定的位数为单位存储数据。"
 
 #: ../../general_concepts/colors/bit_depth.rst:36
 msgid "1bit"
@@ -74,7 +108,7 @@ msgstr "1 位"
 
 #: ../../general_concepts/colors/bit_depth.rst:37
 msgid "Only two colors in total, usually black and white."
-msgstr "只包含两种颜色，通常是黑和白。"
+msgstr "只包含两种颜色，通常是黑白。"
 
 #: ../../general_concepts/colors/bit_depth.rst:38
 msgid "4bit (16 colors)"
@@ -96,7 +130,7 @@ msgid ""
 "256 colors in total. 8bit images are commonly used in games to save on "
 "memory for textures and sprites."
 msgstr ""
-"总共包含 256 种颜色。8 位图像可以节约纹理和拼合图的内存占用，因而被广泛用于游"
+"总共包含 256 种颜色。8 位图像可以有效控制纹理和拼合图的内存占用，被广泛用于游"
 "戏中。"
 
 #: ../../general_concepts/colors/bit_depth.rst:43
@@ -105,16 +139,12 @@ msgid ""
 "and counts how many colors per channel you need (described in terms of "
 "''bits per channel''). This is called 'real color'."
 msgstr ""
-"不过 Krita 并不支持这类图像。Krita 以通道方式工作，它计算的是每个通道可以显示"
+"不过 Krita 并不支持索引颜色，它把颜色分为通道，位数在这里控制每个通道可以显示"
 "的颜色数目 (即“每通道位深度”)。这种处理方式叫做“真彩色”。"
 
-#: ../../general_concepts/colors/bit_depth.rst:46
-msgid "Real Color"
-msgstr "真彩色"
-
 #: ../../general_concepts/colors/bit_depth.rst:52
-msgid ".. image:: images/en/color_category/Rgbcolorcube_3.png"
-msgstr ".. image:: images/en/color_category/Rgbcolorcube_3.png"
+msgid ".. image:: images/color_category/Rgbcolorcube_3.png"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ""
@@ -123,9 +153,9 @@ msgid ""
 "the precision: Usually, each bit subdivides each section in the color cube "
 "meaning precision becomes a power of 2 bigger than the previous cube."
 msgstr ""
-"每通道 1、2、3 位的图像并不存在于任何实际图形应用中，但我们可以想象一下它们位"
-"数的差异会如何影响其精度：一般而言每个色彩通道增加一比特，色彩立方体中的方格"
-"都会被细分一次，细分后的精度为细分前的二次方。"
+"每通道 1、2、3 位的图像实际并不存在，但我们可以通过想象它们来理解位数的差异会"
+"如何影响颜色精度：颜色通道每增加一位，色彩立方体中的方格都会被细分一次，细分"
+"后的精度为细分前的二次方。"
 
 #: ../../general_concepts/colors/bit_depth.rst:54
 msgid "4bit per channel (not supported by Krita)"
@@ -136,8 +166,8 @@ msgid ""
 "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
-"也称高彩色，或总计 16 位色彩。这是一个较旧的色彩系统，只被运用在某些特定显示"
-"器上。"
+"也称高彩色，或总计 16 位颜色。这是一个比较老旧的颜色系统，只被运用在某些特殊"
+"的显示器上。"
 
 #: ../../general_concepts/colors/bit_depth.rst:56
 msgid "8bit per channel"
@@ -148,8 +178,8 @@ msgid ""
 "Also known as \"True Color\", \"Millions of colors\" or \"24bit/32bit\". The "
 "standard for many screens, and the lowest bit-depth Krita can handle."
 msgstr ""
-"也称“真彩色”或“24 位、32 位”。这是大多数显示器的标准，也是 Krita 可以处理的最"
-"低的位深度。"
+"也称“真彩色”或“24 位、32 位颜色”。这是大多数计算机显示器的标准，也是 Krita 可"
+"以处理的最低的颜色通道位深度。"
 
 #: ../../general_concepts/colors/bit_depth.rst:58
 msgid "16bit per channel."
@@ -164,8 +194,8 @@ msgid ""
 "that you have 65536 values per channel."
 msgstr ""
 "每通道 16 位比 8 位更进一步，能够处理连显示器都无法展现的细腻色彩变化。这种通"
-"道类型有时候也被叫做“高色深”，它的 16 位精度意味着每个通道能处理 65536 个颜色"
-"值而不存在负值。得益于这些特性，你能够得到更为平滑的颜色渐变。"
+"道类型有时候也被叫做“高色深”，它的每个通道能处理 65536 种颜色数值。如果不存在"
+"负值，它具有 16 位的精度。得益于这些特性，你能够得到更为平滑的颜色渐变。"
 
 #: ../../general_concepts/colors/bit_depth.rst:60
 msgid "16bit float"

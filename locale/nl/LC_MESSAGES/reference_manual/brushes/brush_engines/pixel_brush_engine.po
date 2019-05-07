@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-02-21 13:23+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 17:57+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,15 +18,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:1
 msgid "The Pixel Brush Engine manual page."
 msgstr "De handleidingpagina Pixelpenseel-engine."
 
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:16
 msgid "Pixel Brush Engine"
 msgstr "Pixelpenseel-engine"
+
+#: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Penseel-engine"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:19
 msgid ".. image:: images/icons/pixelbrush.svg"
@@ -41,8 +46,8 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:24
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
-msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Popup.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Popup.png"
+msgstr ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Popup.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:25
 msgid "Let's first review these mechanics:"
@@ -84,71 +89,71 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:34
 msgid "Available Options:"
-msgstr ""
+msgstr "Beschikbare opties:"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:36
 msgid ":ref:`option_brush_tip`"
-msgstr ""
+msgstr ":ref:`option_brush_tip`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:37
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:38
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:39
 msgid ":ref:`option_size`"
-msgstr ""
+msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:40
 msgid ":ref:`option_ratio`"
-msgstr ""
+msgstr ":ref:`option_ratio`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:41
 msgid ":ref:`option_spacing`"
-msgstr ""
+msgstr ":ref:`option_spacing`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:42
 msgid ":ref:`option_mirror`"
-msgstr ""
+msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:43
 msgid ":ref:`option_softness`"
-msgstr ""
+msgstr ":ref:`option_softness`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:44
 msgid ":ref:`option_sharpness`"
-msgstr ""
+msgstr ":ref:`option_sharpness`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:45
 msgid ":ref:`option_rotation`"
-msgstr ""
+msgstr ":ref:`option_rotation`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:46
 msgid ":ref:`option_scatter`"
-msgstr ""
+msgstr ":ref:`option_scatter`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:47
 msgid ":ref:`option_source`"
-msgstr ""
+msgstr ":ref:`option_source`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:48
 msgid ":ref:`option_mix`"
-msgstr ""
+msgstr ":ref:`option_mix`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:49
 msgid ":ref:`option_airbrush`"
-msgstr ""
+msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:50
 msgid ":ref:`option_texture`"
-msgstr ""
+msgstr ":ref:`option_texture`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:51
 msgid ":ref:`option_masked_brush`"
-msgstr ""
+msgstr ":ref:`option_masked_brush`"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:54
 msgid "Specific Parameters to the Pixel Brush Engine"
@@ -163,8 +168,8 @@ msgid "Allows you to Darken the source color with Sensors."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:62
-msgid ".. image:: images/en/Krita_2_9_brushengine_darken_01.png"
-msgstr ""
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_darken_01.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_darken_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:63
 msgid ""
@@ -183,8 +188,8 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
-msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_01.png"
-msgstr ""
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:72
 msgid "Works with Plain Color, Gradient and Uniform random as source."
@@ -195,8 +200,8 @@ msgid "Uses"
 msgstr "Gebruiken"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:78
-msgid ".. image:: images/en/Krita_2_9_brushengine_HSV_02.png"
-msgstr ""
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_02.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_HSV_02.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:79
 msgid ""

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-03 03:22+0100\n"
-"PO-Revision-Date: 2019-04-09 18:50\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,43 @@ msgstr ""
 
 #: ../../reference_manual/filters/map.rst:1
 msgid "Overview of the map filters."
+msgstr "介绍 Krita 的映射类滤镜。"
+
+#: ../../reference_manual/filters/map.rst:11
+msgid "Filters"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:16
 msgid "Map"
-msgstr "贴图"
+msgstr "映射"
 
 #: ../../reference_manual/filters/map.rst:18
 msgid "Filters that are signified by them mapping the input image."
-msgstr ""
+msgstr "这是一组对输入图像数值进行映射的滤镜。"
 
+#: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
 msgid "Small Tiles"
 msgstr "拼贴"
 
+#: ../../reference_manual/filters/map.rst:20
+msgid "Tiles"
+msgstr ""
+
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
+msgstr "对图像进行拼贴，使用自身图层进行输出。"
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Height Map"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Bumpmap"
+msgstr ""
+
+#: ../../reference_manual/filters/map.rst:27
+msgid "Normal Map"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:30
@@ -42,7 +63,7 @@ msgid "Phong Bumpmap"
 msgstr "凹凸贴图和法线贴图"
 
 #: ../../reference_manual/filters/map.rst:33
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:34
@@ -52,6 +73,9 @@ msgid ""
 "game texturing. Checking the :guilabel:`Normal Map` box will make it use all "
 "channels and interpret them as a normal map."
 msgstr ""
+"使用输入图像作为高度图，用于输出到 3D 程序的 Phong-Lambert 着色模型中使用。在"
+"制作游戏纹理时可以用来检查高度图的效果。勾选 :guilabel:`使用法线贴图` 选框"
+"后，将使用所有的通道并把它们解析为法线贴图。"
 
 #: ../../reference_manual/filters/map.rst:37
 msgid "Round Corners"
@@ -59,11 +83,12 @@ msgstr "圆角"
 
 #: ../../reference_manual/filters/map.rst:39
 msgid "Adds little corners to the input image."
-msgstr ""
+msgstr "为输入图像添加小圆角。"
 
+#: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
 msgid "Normalize"
-msgstr "归一化"
+msgstr "标准化"
 
 #: ../../reference_manual/filters/map.rst:46
 msgid ""
@@ -71,20 +96,27 @@ msgid ""
 "normalizes (makes the vector size exactly 1) the values. This is helpful for "
 "normal maps and some minor image-editing functions."
 msgstr ""
+"此滤镜从输入颜色中获取数值，将它们放在一个 3D 矢量中，然后对其进行标准化 (把"
+"矢量大小强制为 1)，在法线贴图和一些少见的图像编辑功能中会用到。"
 
+#: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
 msgid "Gradient Map"
-msgstr "渐变贴图"
+msgstr "渐变映射"
+
+#: ../../reference_manual/filters/map.rst:48
+msgid "Gradient"
+msgstr ""
 
 #: ../../reference_manual/filters/map.rst:54
-msgid ".. image:: images/en/Krita_filter_gradient_map.png"
+msgid ".. image:: images/filters/Krita_filter_gradient_map.png"
 msgstr ""
 
 #: ../../reference_manual/filters/map.rst:55
 msgid ""
 "Maps the lightness of the input to the selected gradient. Useful for fancy "
 "artistic effects."
-msgstr ""
+msgstr "把输入的亮度范围映射到选定的渐变，可以用来营造有趣的艺术效果。"
 
 #: ../../reference_manual/filters/map.rst:57
 msgid ""
@@ -92,3 +124,5 @@ msgid ""
 "gradients and change them on the fly, as well as use the gradient map filter "
 "as a filter layer or filter brush."
 msgstr ""
+"在 3.x 版中你只能选择预制的渐变。在 4.0 版中你可以选择并随时调整渐变。你也可"
+"以把渐变映射滤镜作为滤镜图层或者滤镜笔刷。"

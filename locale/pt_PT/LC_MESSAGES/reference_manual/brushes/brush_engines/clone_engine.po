@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-25 15:18+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -37,9 +37,20 @@ msgstr ""
 msgid "The Clone Brush Engine manual page."
 msgstr "A página de manual do Motor de Pincéis por Clonagem."
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
 msgstr "Motor de Pincéis por Clonagem"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+#, fuzzy
+#| msgid "Clone Brush Engine"
+msgid "Brush Engine"
+msgstr "Motor de Pincéis por Clonagem"
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
+msgid "Clone Tool"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
@@ -148,7 +159,19 @@ msgstr ""
 "Isto irá definir se vai replicar o ponto de origem por demão ou por traço. "
 "Pode ser útil quando for usado com o pincel de restauro."
 
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
+msgid "Source Point reset before a new stroke"
+msgstr ""
+
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
+msgid ""
+"This will reset the source point everytime you make a new stroke. So if you "
+"were cloning a part in one stroke, having this active will allow you to "
+"clone the same part again in a single stroke, instead of using the source "
+"point as a permanent offset."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
 msgstr ""

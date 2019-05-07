@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,19 @@ msgstr ""
 msgid "Overview of the artistic filters."
 msgstr ""
 
+#: ../../reference_manual/filters/artistic.rst:11
+#: ../../reference_manual/filters/artistic.rst:21
+msgid "Halftone"
+msgstr "半调"
+
+#: ../../reference_manual/filters/artistic.rst:11
+msgid "Filters"
+msgstr ""
+
+#: ../../reference_manual/filters/artistic.rst:11
+msgid "HD Index Painting"
+msgstr ""
+
 #: ../../reference_manual/filters/artistic.rst:16
 msgid "Artistic"
 msgstr "艺术效果"
@@ -31,12 +44,8 @@ msgid ""
 "deformation on them."
 msgstr ""
 
-#: ../../reference_manual/filters/artistic.rst:21
-msgid "Halftone"
-msgstr "半调"
-
 #: ../../reference_manual/filters/artistic.rst:24
-msgid ".. image:: images/en/Krita_halftone_filter.png"
+msgid ".. image:: images/filters/Krita_halftone_filter.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:25
@@ -100,21 +109,15 @@ msgid "Index Color"
 msgstr "索引颜色"
 
 #: ../../reference_manual/filters/artistic.rst:41
-#, fuzzy
-#| msgid ""
-#| "The index color filter maps specific user selected colors to the grey "
-#| "scale value of the artwork. You can see the example below, the strip "
-#| "below the black and white gradient has index color applied to it so that "
-#| "the black and white gradient gets the color selected to different values."
 msgid ""
 "The index color filter maps specific user selected colors to the grayscale "
 "value of the artwork. You can see the example below, the strip below the "
 "black and white gradient has index color applied to it so that the black and "
 "white gradient gets the color selected to different values."
-msgstr "像素化"
+msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:44
-msgid ".. image:: images/en/Gradient-pixelart.png"
+msgid ".. image:: images/common-workflows/Gradient-pixelart.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:45
@@ -124,7 +127,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:48
-msgid ".. image:: images/en/Index-color-filter.png"
+msgid ".. image:: images/filters/Index-color-filter.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:49
@@ -134,7 +137,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:52
-msgid ".. image:: images/en/Kiki-pixel-art.png"
+msgid ".. image:: images/common-workflows/Kiki-pixel-art.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:54
@@ -148,7 +151,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:59
-msgid ".. image:: images/en/Pixelize-filter.png"
+msgid ".. image:: images/filters/Pixelize-filter.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:61
@@ -170,7 +173,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:71
-msgid ".. image:: images/en/Oilpaint-filter.png"
+msgid ".. image:: images/filters/Oilpaint-filter.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:72
@@ -202,7 +205,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:83
-msgid ".. image:: images/en/Posterize-filter.png"
+msgid ".. image:: images/filters/Posterize-filter.png"
 msgstr ""
 
 #: ../../reference_manual/filters/artistic.rst:84

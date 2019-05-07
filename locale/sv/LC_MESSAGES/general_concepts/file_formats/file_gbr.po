@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-07 18:05+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:29+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,19 @@ msgstr ""
 
 #: ../../general_concepts/file_formats/file_gbr.rst:1
 msgid "The Gimp Brush file format as used in Krita."
-msgstr ""
+msgstr "GIMP-penselfilformatet som det används i Krita."
+
+#: ../../general_concepts/file_formats/file_gbr.rst:10
+msgid "Gimp Brush"
+msgstr "Gimp-pensel"
+
+#: ../../general_concepts/file_formats/file_gbr.rst:10
+msgid "GBR"
+msgstr "GBR"
+
+#: ../../general_concepts/file_formats/file_gbr.rst:10
+msgid "*.gbr"
+msgstr "*.gbr"
 
 #: ../../general_concepts/file_formats/file_gbr.rst:15
 msgid "\\*.gbr"
@@ -30,10 +42,12 @@ msgid ""
 "The GIMP brush format. Krita can open, save and use these files as :ref:"
 "`predefined brushes <predefined_brush_tip>`."
 msgstr ""
+"GIMP-penselfilformatet. Krita kan öppna, spara och använda filerna som :ref:"
+"`fördefinierade penslar <predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:19
 msgid "There's three things that you can decide upon when exporting a \\*.gbr:"
-msgstr ""
+msgstr "Det finns tre saker man kan bestämma när en \\*.gbr exporteras:"
 
 #: ../../general_concepts/file_formats/file_gbr.rst:21
 msgid "Name"
@@ -44,6 +58,7 @@ msgid ""
 "This name is different from the file name, and will be shown inside Krita as "
 "the name of the brush."
 msgstr ""
+"Namnet skiljer sig från filnamnet, och visas inne i Krita som penselns namn."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:23
 msgid "Spacing"
@@ -51,7 +66,7 @@ msgstr "Mellanrum"
 
 #: ../../general_concepts/file_formats/file_gbr.rst:24
 msgid "This sets the default spacing."
-msgstr ""
+msgstr "Det ställer in förvalt mellanrum."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:26
 msgid "Use color as mask"
@@ -63,8 +78,12 @@ msgid ""
 "whitest as transparent. Untick this if you are using colored images for the "
 "brush"
 msgstr ""
+"Det ändrar de mörkaste värdena på bilden till de som målar, och de ljusaste "
+"till genomskinliga. Avmarkera det om färglagda bilder används för penseln."
 
 #: ../../general_concepts/file_formats/file_gbr.rst:28
 msgid ""
 ".gbr brushes are otherwise unremarkable, and limited to 8bit color precision."
 msgstr ""
+"Annars är .gbr-penslar alldagliga, och begränsade till 8 bitars "
+"färgprecision."

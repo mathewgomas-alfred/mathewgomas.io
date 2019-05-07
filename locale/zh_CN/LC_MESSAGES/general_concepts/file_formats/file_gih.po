@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,6 +21,22 @@ msgstr ""
 msgid "The Gimp Image Hose file format in Krita."
 msgstr "Krita 中的 GIMP 图像管道文件格式。"
 
+#: ../../general_concepts/file_formats/file_gih.rst:10
+msgid "Image Hose"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:10
+msgid "Gimp Image Hose"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:10
+msgid "GIH"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_gih.rst:10
+msgid "*.gih"
+msgstr ""
+
 #: ../../general_concepts/file_formats/file_gih.rst:15
 msgid "\\*.gih"
 msgstr "\\*.gih"
@@ -31,7 +47,7 @@ msgid ""
 "via the :ref:`predefined brush tab <predefined_brush_tip>`."
 msgstr ""
 "GIMP 图像管道格式。Krita 不但可以打开和保存这种文件，还可以在 :ref:`预制形状"
-"笔刷选项卡 <predefined_brush_tip>`导入它们。"
+"笔刷选项卡 <predefined_brush_tip>` 处导入它们。"
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
 msgid ""
@@ -43,8 +59,8 @@ msgstr ""
 "这几个图像。"
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
-msgid ".. image:: images/en/Gih-examples.png"
-msgstr ".. image:: images/en/Gih-examples.png"
+msgid ".. image:: images/brushes/Gih-examples.png"
+msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid "From top to bottom: Incremental, Pressure and Random"
@@ -109,8 +125,8 @@ msgid ""
 "it up in the UI) and the ability to choose whether or not to generate the "
 "mask from the colors."
 msgstr ""
-"把 Krita 文件导出为 .gih 时，你可以选择默认间距、名称 (方便在界面中发现它) 和"
-"是否用图像颜色生成蒙版。"
+"把 Krita 文件导出为 .gih 时，你可以选择默认间距、名称 (起个方便在列表中发现的"
+"名字) 和是否用图像颜色生成蒙版。"
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
 msgid "Use Color as Mask"

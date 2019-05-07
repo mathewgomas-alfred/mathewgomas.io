@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 03:22+0100\n"
-"PO-Revision-Date: 2019-02-22 14:39+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:21+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,23 +18,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:1
 msgid "Overview of the small color selector docker."
 msgstr "Overzicht van de vastzetter De kleine kleurenkiezer."
 
+#: ../../reference_manual/dockers/small_color_selector.rst:11
 #: ../../reference_manual/dockers/small_color_selector.rst:16
 msgid "Small Color Selector"
 msgstr "Kleine kleurenkiezer"
 
+#: ../../reference_manual/dockers/small_color_selector.rst:11
+msgid "Color"
+msgstr "Kleur"
+
+#: ../../reference_manual/dockers/small_color_selector.rst:11
+#| msgid "Small Color Selector"
+msgid "Color Selector"
+msgstr "Kleurenkiezer"
+
 #: ../../reference_manual/dockers/small_color_selector.rst:19
-msgid ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
-msgstr ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
+#| msgid ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
+msgid ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:20
 msgid ""
 "This is Krita's most simple color selector. On the left there's a bar with "
 "the hue, and on the right a square where you can pick the value and "
 "saturation."
+msgstr ""
+
+#: ../../reference_manual/dockers/small_color_selector.rst:24
+msgid ""
+"The small color selector is the only selector which can show HDR values. "
+"When your build of Krita is HDR enabled and you are on Windows, you can drag "
+"the slider at the bottom to increase the 'nits' of the colors in the small "
+"selector. This is the direct value of the brightness of the colors, and you "
+"need a value above 100 (100 being the maximum value used for the brightest "
+"value of sRGB colors), to have an HDR color. The small color selector will "
+"also select wide gamut values."
 msgstr ""

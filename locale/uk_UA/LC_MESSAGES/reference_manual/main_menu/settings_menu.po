@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___main_menu___settings_menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-18 03:45+0200\n"
-"PO-Revision-Date: 2019-03-28 08:46+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 19:40+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -21,17 +21,27 @@ msgstr ""
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 19.03.70\n"
 
-#: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Krita.png"
-msgstr ".. image:: images/en/Configure_Toolbars_Krita.png"
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
-msgstr ".. image:: images/en/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+msgid ".. image:: images/preferences/Configure_Toolbars_Krita.png"
+msgstr ".. image:: images/preferences/Configure_Toolbars_Krita.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
-msgid ".. image:: images/en/Toolbars_Shown.png"
-msgstr ".. image:: images/en/Toolbars_Shown.png"
+msgid ""
+".. image:: images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+msgstr ""
+".. image:: images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:None
+msgid ".. image:: images/preferences/Toolbars_Shown.png"
+msgstr ".. image:: images/preferences/Toolbars_Shown.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:1
 msgid "The settings menu in Krita."
@@ -49,6 +59,11 @@ msgstr ""
 "За допомогою меню «Параметри» ви можете отримати доступ до параметрів "
 "налаштовування Krita та визначення більшої частини того, як виглядає і "
 "поводиться програма."
+
+#: ../../reference_manual/main_menu/settings_menu.rst:21
+#: ../../reference_manual/main_menu/settings_menu.rst:34
+msgid "Dockers"
+msgstr "Бічні панелі"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:24
 #: ../../reference_manual/main_menu/settings_menu.rst:31
@@ -87,10 +102,6 @@ msgstr ""
 "панелей — для цього не треба буде відкривати ніяке меню. Щоб дізнатися про "
 "це більше, ознайомтеся із розділом :ref:`configure_toolbars`."
 
-#: ../../reference_manual/main_menu/settings_menu.rst:34
-msgid "Dockers"
-msgstr "Бічні панелі"
-
 #: ../../reference_manual/main_menu/settings_menu.rst:36
 msgid ""
 "Krita subdivides the access of many of its features into functional panels "
@@ -112,9 +123,18 @@ msgstr ""
 "Добрі знання щодо бічних панелей є ключем до оптимізації ваших робочих "
 "процесів у Krita."
 
+#: ../../reference_manual/main_menu/settings_menu.rst:40
 #: ../../reference_manual/main_menu/settings_menu.rst:43
 msgid "Themes"
 msgstr "Теми"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+msgid "Theme"
+msgstr "Тема"
+
+#: ../../reference_manual/main_menu/settings_menu.rst:40
+msgid "Look and Feel"
+msgstr "Вигляд і поведінка"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:45
 msgid ""
@@ -234,6 +254,10 @@ msgid ""
 msgstr ""
 "Керування ресурсами. Докладніше про це :ref:`тут <resource_management>`."
 
+#: ../../reference_manual/main_menu/settings_menu.rst:77
+msgid "Language"
+msgstr "Мова"
+
 #: ../../reference_manual/main_menu/settings_menu.rst:81
 msgid "Switch Application Language"
 msgstr "Перемкнути мову програми"
@@ -241,6 +265,10 @@ msgstr "Перемкнути мову програми"
 #: ../../reference_manual/main_menu/settings_menu.rst:83
 msgid "If you wish to use Krita in a different translation."
 msgstr "Якщо ви хочете змінити переклад інтерфейсу Krita на інший."
+
+#: ../../reference_manual/main_menu/settings_menu.rst:85
+msgid "Toolbar"
+msgstr "Панель інструментів"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:89
 msgid "Configure Toolbars"
@@ -371,3 +399,12 @@ msgid ""
 msgstr ""
 "Хоча ми не радимо цього робити, ви можете вимкнути показ усіх цих панелей "
 "(але навіщо?)."
+
+#: ../../reference_manual/main_menu/settings_menu.rst:126
+msgid ""
+"Finally, Toolbars also can be moved. You can do this by |mouseright| and "
+"dragging the handler at the left side of the toolbar."
+msgstr ""
+"Нарешті, панелі інструментів можна пересувати. Зробити це можна натиснувши |"
+"mouseright| і перетягнувши панель за елемент керування на лівому боці панелі "
+"інструментів."

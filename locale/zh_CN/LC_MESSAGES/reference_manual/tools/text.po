@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -34,15 +34,27 @@ msgstr ""
 "   :alt: tooltext"
 
 #: ../../reference_manual/tools/text.rst:0
-msgid ".. image:: images/en/Krita_4_0_text_kerning.png"
+msgid ".. image:: images/tools/Krita_4_0_text_kerning.png"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:0
-msgid ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
+msgid ".. image:: images/tools/Krita_4_0_letter_and_word_spacing.png"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:1
 msgid "Krita's text tool reference."
+msgstr ""
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Text"
+msgstr ""
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Vector"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:16
@@ -75,7 +87,7 @@ msgid "Tool Options"
 msgstr "工具选项"
 
 #: ../../reference_manual/tools/text.rst:30
-msgid ".. image:: images/en/Krita-tool-options-text.png"
+msgid ".. image:: images/tools/Krita-tool-options-text.png"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:32
@@ -142,7 +154,7 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:49
-msgid ".. image:: images/en/Text-editor-example.png"
+msgid ".. image:: images/tools/Text-editor-example.png"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:50
@@ -578,6 +590,14 @@ msgid ""
 "kerning:0 in the style section of the text."
 msgstr ""
 
+#: ../../reference_manual/tools/text.rst:183
+msgid ""
+"<text style=\"kerning:0; font-family:Dancing Script; font-size:18pt; font-"
+"size-adjust:0.265625\">\n"
+"    <tspan>No Kerning on Valhalla Tower.</tspan>\n"
+"</text>"
+msgstr ""
+
 #: ../../reference_manual/tools/text.rst:185
 msgid "Kerning"
 msgstr ""
@@ -599,6 +619,22 @@ msgid ""
 "``word-spacing: 0;`` will have it use only the width of the space character "
 "for that font. A negative value will decrease the amount of space between "
 "words:"
+msgstr ""
+
+#: ../../reference_manual/tools/text.rst:197
+msgid ""
+"<text style=\"font-family:Noto Serif; font-size:12pt; font-size-"
+"adjust:0.389915; text-anchor:middle\">\n"
+"    <tspan>No Adjustment.</tspan>\n"
+"    <tspan style=\"letter-spacing:2\" x=\"0\" dy=\"22pt\">Letter spacing: 2</"
+"tspan>\n"
+"    <tspan style=\"letter-spacing:-2\" x=\"0\" dy=\"22pt\">Letter spacing: "
+"-2</tspan>\n"
+"    <tspan style=\"word-spacing:5\" x=\"0\" dy=\"22pt\">Word spacing: 5</"
+"tspan>\n"
+"    <tspan style=\"word-spacing:-5\" x=\"0\" dy=\"22pt\">Word spacing: -5</"
+"tspan>\n"
+"</text>"
 msgstr ""
 
 #: ../../reference_manual/tools/text.rst:204

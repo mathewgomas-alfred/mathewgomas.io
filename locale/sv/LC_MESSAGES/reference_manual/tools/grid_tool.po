@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
-"PO-Revision-Date: 2019-03-17 19:50+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -30,10 +30,20 @@ msgid ""
 ".. image:: images/icons/grid_tool.svg\n"
 "   :alt: toolgrid"
 msgstr ""
+".. image:: images/icons/grid_tool.svg\n"
+"   :alt: rutnätsverktyg"
 
 #: ../../reference_manual/tools/grid_tool.rst:1
 msgid "Krita's grid tool reference."
 msgstr "Referens för Kritas rutnätsverktyg."
+
+#: ../../reference_manual/tools/grid_tool.rst:11
+msgid "Tools"
+msgstr "Verktyg"
+
+#: ../../reference_manual/tools/grid_tool.rst:11
+msgid "Grid"
+msgstr "Rutnät"
 
 #: ../../reference_manual/tools/grid_tool.rst:16
 msgid "Grid Tool"
@@ -41,11 +51,11 @@ msgstr "Rutnätsverktyg"
 
 #: ../../reference_manual/tools/grid_tool.rst:18
 msgid "|toolgrid|"
-msgstr ""
+msgstr "|rutnätsverktyg|"
 
 #: ../../reference_manual/tools/grid_tool.rst:22
 msgid "Deprecated in 3.0, use the :ref:`grids_and_guides_docker` instead."
-msgstr ""
+msgstr "Avråds från i 3.0, använd :ref:`grids_and_guides_docker` istället."
 
 #: ../../reference_manual/tools/grid_tool.rst:24
 msgid ""
@@ -54,6 +64,11 @@ msgid ""
 "the grid visible. Now you must have noticed the tool icon for your pointer "
 "has changed to icon similar to move tool."
 msgstr ""
+"När man klickar på rutnätsredigeringsverktyget visas ett meddelande som "
+"talat om att man måste trycka på :kbd:`Enter` for att aktivera rutnätet. "
+"Tryck på :kbd:`Enter` för att göra rutnätet synligt. Nu ska man märka att "
+"pekarens verktygsikon har ändrats till en ikon som liknar "
+"förflyttningsverktyget."
 
 #: ../../reference_manual/tools/grid_tool.rst:27
 msgid ""
@@ -61,3 +76,6 @@ msgid ""
 "mouseleft| + drag on the canvas. In order to move the grid you have to "
 "press :kbd:`Alt` and then |mouseleft| + drag."
 msgstr ""
+"För att ändra rutnätets mellanrum, tryck ner och håll :kbd:`Ctrl` och använd "
+"därefter vänster musknapp och dra på duken. För att flytta rutnätet måste :"
+"kbd:`Alt` hållas nere och vänster musknapp användas."

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-02-25 13:03+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 12:07+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Separate Image"
@@ -27,6 +27,49 @@ msgstr "Afbeelding scheiden"
 #: ../../reference_manual/main_menu/image_menu.rst:1
 msgid "The image menu in Krita."
 msgstr "Het menu Afbeelding in Krita."
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+#| msgid "Image Menu"
+msgid "Image"
+msgstr "Afbeelding"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Canvas Projection Color"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Trim"
+msgstr "Trim"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+#| msgid "Resize Canvas"
+msgid "Resize"
+msgstr "Grootte wijzigen"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Scale"
+msgstr "Schaal"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Mirror"
+msgstr "Spiegelen"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Transform"
+msgstr "Transformeren"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Convert Color Space"
+msgstr ""
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+#| msgid "Offset Image"
+msgid "Offset"
+msgstr "Offset"
+
+#: ../../reference_manual/main_menu/image_menu.rst:11
+msgid "Split Channels"
+msgstr "Kanalen splitsen"
 
 #: ../../reference_manual/main_menu/image_menu.rst:16
 msgid "Image Menu"
@@ -146,7 +189,7 @@ msgid "Image Split"
 msgstr "Splitsing van afbeelding"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
-msgid "Splits the image."
+msgid "Calls up the :ref:`image_split` dialog."
 msgstr ""
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
@@ -158,5 +201,5 @@ msgid "Does :ref:`wavelet_decompose` on the current layer."
 msgstr ""
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
-msgid "Separates the image into channels"
+msgid ":ref:`Separates <separate_image>` the image into channels"
 msgstr ""

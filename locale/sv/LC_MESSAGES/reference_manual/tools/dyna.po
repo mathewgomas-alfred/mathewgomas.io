@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-14 03:27+0100\n"
-"PO-Revision-Date: 2019-03-17 19:45+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:27+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,10 +22,20 @@ msgid ""
 ".. image:: images/icons/dyna_tool.svg\n"
 "   :alt: tooldyna"
 msgstr ""
+".. image:: images/icons/dyna_tool.svg\n"
+"   :alt: dynamikverktyg"
 
 #: ../../reference_manual/tools/dyna.rst:1
 msgid "Krita's dynamic brush tool reference."
-msgstr ""
+msgstr "Referens för Kritas dynamiska penselverktyg."
+
+#: ../../reference_manual/tools/dyna.rst:11
+msgid "Tools"
+msgstr "Verktyg"
+
+#: ../../reference_manual/tools/dyna.rst:11
+msgid "Dyna"
+msgstr "Dynamisk"
 
 #: ../../reference_manual/tools/dyna.rst:16
 msgid "Dynamic Brush Tool"
@@ -33,7 +43,7 @@ msgstr "Dynamiskt penselverktyg"
 
 #: ../../reference_manual/tools/dyna.rst:18
 msgid "|tooldyna|"
-msgstr ""
+msgstr "|dynamikverktyg|"
 
 #: ../../reference_manual/tools/dyna.rst:20
 msgid ""
@@ -41,6 +51,9 @@ msgid ""
 "smoothing results as the normal freehand brush. There are a couple options "
 "that you can change."
 msgstr ""
+"Lägg till anpassad utjämningsdynamik i penseln. Det ger liknande "
+"utjämningsresultat som den normala frihandspenseln. Det finns några "
+"alternativ som man kan ändra."
 
 #: ../../reference_manual/tools/dyna.rst:22
 msgid "Mass"
@@ -51,6 +64,8 @@ msgid ""
 "Average your movement to make it appear smoother. Higher values will make "
 "your brush move slower."
 msgstr ""
+"Ta medelvärdet av rörelsen för att få den att verka jämnare. Större värden "
+"gör att penseln rör sig långsammare."
 
 #: ../../reference_manual/tools/dyna.rst:25
 msgid "Drag"
@@ -61,7 +76,9 @@ msgid ""
 "A rubberband effect that will help your lines come back to your cursor. "
 "Lower values will make the effect more extreme."
 msgstr ""
+"En gummibandseffekt som hjälper till med att få linjer att komma tillbaka "
+"till markören. Små värden gör effekten extremare."
 
 #: ../../reference_manual/tools/dyna.rst:27
 msgid "Recommended values are around 0.02 Mass and 0.92 Drag."
-msgstr ""
+msgstr "Rekommenderade värden är omkring Massa 0,02 och Dra 0,92."

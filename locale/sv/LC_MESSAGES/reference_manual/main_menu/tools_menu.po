@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-17 16:34+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:18+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -21,13 +21,21 @@ msgstr ""
 msgid "The tools menu in Krita."
 msgstr "Verktygsmenyn i Krita."
 
+#: ../../reference_manual/main_menu/tools_menu.rst:11
+msgid "Macro"
+msgstr "Makro"
+
+#: ../../reference_manual/main_menu/tools_menu.rst:11
+msgid "Scripts"
+msgstr "Skript"
+
 #: ../../reference_manual/main_menu/tools_menu.rst:17
 msgid "Tools Menu"
 msgstr "Menyn Verktyg"
 
 #: ../../reference_manual/main_menu/tools_menu.rst:19
 msgid "This contains three things."
-msgstr ""
+msgstr "Den innehåller tre saker."
 
 #: ../../reference_manual/main_menu/tools_menu.rst:22
 msgid "Scripting"
@@ -38,6 +46,8 @@ msgid ""
 "When you have python scripting enabled and have scripts toggled, this is "
 "where most scripts are stored by default."
 msgstr ""
+"När Python-skript är aktiverade och skript är aktiverade, är det platsen där "
+"de flesta skript normalt lagars."
 
 #: ../../reference_manual/main_menu/tools_menu.rst:27
 msgid "Recording"
@@ -45,7 +55,7 @@ msgstr "Inspelning"
 
 #: ../../reference_manual/main_menu/tools_menu.rst:31
 msgid "The recording and macro features are unmaintained and buggy."
-msgstr ""
+msgstr "Inspelnings- och makrofunktionerna underhålls inte och är felbenägna."
 
 #: ../../reference_manual/main_menu/tools_menu.rst:33
 msgid ""
@@ -53,6 +63,9 @@ msgid ""
 "pressing stop. This feature can only record brush strokes. The resulting "
 "file is stored as a \\*.kritarec file."
 msgstr ""
+"Spela in ett makro. Man gör det genom att klicka på start, rita något och "
+"därefter klicka på stopp. Funktionen kan bara spela in penseldrag. Den "
+"resulterande filen lagras som en \\*.kritarec-fil."
 
 #: ../../reference_manual/main_menu/tools_menu.rst:36
 msgid "Macros"
@@ -63,3 +76,5 @@ msgid ""
 "Play back or edit a krita rec file. The edit can only change the brush "
 "preset on strokes or add and remove filters."
 msgstr ""
+"Spela upp eller redigera en Krita rec-fil. Redigering kan bara ändra "
+"penselförinställning för drag eller lägga till och ta bort filter."

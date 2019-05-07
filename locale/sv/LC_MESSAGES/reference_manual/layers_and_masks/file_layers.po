@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-18 03:34+0100\n"
-"PO-Revision-Date: 2019-03-12 17:48+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:19+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -21,9 +21,18 @@ msgstr ""
 msgid "How to use file layers in Krita."
 msgstr "Hur man använder fillager i Krita."
 
+#: ../../reference_manual/layers_and_masks/file_layers.rst:12
 #: ../../reference_manual/layers_and_masks/file_layers.rst:17
 msgid "File Layers"
 msgstr "Fillager"
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:12
+msgid "Layers"
+msgstr "Lager"
+
+#: ../../reference_manual/layers_and_masks/file_layers.rst:12
+msgid "External File"
+msgstr "Extern fil"
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:19
 msgid ""
@@ -33,10 +42,15 @@ msgid ""
 "original image will break the file layer. If Krita cannot find the original "
 "file, it'll ask you where to find it. File layers cannot display animations."
 msgstr ""
+"Fillager är referenser till filer utanför dokumentet: om referensdokumentet "
+"uppdateras, kommer fillagret att uppdateras. Ta inte bort originalfilen på "
+"datorn när den väl har lagts till i Krita. Om originalfilen tas bort slutar "
+"fillagret fungera. Om Krita inte kan hitta originalfilen, frågar den dig om "
+"var den kan hittas. Fillager kan inte visa animeringar."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:21
 msgid "File Layers have the following scaling options:"
-msgstr ""
+msgstr "Fillager har följande skalningsalternativ:"
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:23
 msgid "No Scaling"
@@ -44,7 +58,7 @@ msgstr "Ingen skalning"
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:24
 msgid "This'll import the file layer with the full pixel-size."
-msgstr ""
+msgstr "Importerar fillagret med hela bildpunktsstorleken."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:25
 msgid "Scale to Image Size"
@@ -54,7 +68,7 @@ msgstr "Skala till bildstorlek"
 msgid ""
 "Scales the file layer to fit exactly within the canvas boundaries of the "
 "image."
-msgstr ""
+msgstr "Skalar fillagret så att det passar exakt inom bildens dukgränser."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:28
 msgid "Adapt to image resolution"
@@ -68,12 +82,19 @@ msgid ""
 "precisely on the 300dpi image. Useful for comics, where the ink-layer is "
 "preferred to be at a higher resolution than the colors."
 msgstr ""
+"Om det importerade lagret och bilden har olika upplösning, skalas fillagret "
+"genom att skala upplösningen. Med andra ord, importeras en A4-bild med 600 "
+"punkter/tum på en A4-bild med 300 punkter/tum, så skalas fillagret så att "
+"det passar in exakt på bilden med 300 punkter/tum. Användbart för serier, "
+"där man föredrar att bläcklagret har en högre upplösning än färgerna."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:30
 msgid ""
 "File Layers can currently not be painted on. If you want to transform a file "
 "layer, you need to apply a transformation mask to it and use that."
 msgstr ""
+"Fillager kan för närvarande inte målas på. Om man vill transformera ett "
+"fillager, måste en transformeringsmask användas för det."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:34
 msgid ""
@@ -81,6 +102,10 @@ msgid ""
 "icon. Pressing that will open the file pointed at in Krita if it hadn't yet. "
 "Using the properties you can make the file layer point to a different file."
 msgstr ""
+"I lagerpanelen finns en liten katalogikon, bara intill fillagret. Genom att "
+"klicka på den öppnas filen som pekas på i Krita, om den inte redan var "
+"öppen. Genom att använda egenskaperna kan man få fillagret att peka på en "
+"annan fil."
 
 #: ../../reference_manual/layers_and_masks/file_layers.rst:38
 msgid ""
@@ -89,3 +114,7 @@ msgid ""
 "prompt for the file location and when done will save the file and replace "
 "the layer with a file layer pointing at that file."
 msgstr ""
+"Man kan omvandla vilken mängd lager som helst till ett fillager genom att "
+"högerklicka på dem och utföra :menuselection:`Konvertera --> till fillager`. "
+"Då visas en fråga om platsen filen ska sparas, och när det är klart sparas "
+"filen och lagren ersätts med ett fillager som pekar på filen."

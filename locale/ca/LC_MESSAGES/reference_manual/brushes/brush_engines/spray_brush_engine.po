@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-02 03:22+0100\n"
-"PO-Revision-Date: 2019-04-18 17:02+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:49+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color."
@@ -27,9 +27,18 @@ msgstr "Mescla amb el color de fons."
 msgid "The Spray Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell d'esprai."
 
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:16
 msgid "Spray Brush Engine"
 msgstr "Motor del pinzell d'esprai"
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
+msgid "Airbrush"
+msgstr "Aerògraf"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:19
 msgid ".. image:: images/icons/spraybrush.svg"
@@ -97,7 +106,7 @@ msgstr "Diàmetre"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:44
 msgid "The size of the area."
-msgstr ""
+msgstr "La mida de l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:45
 msgid "Aspect Ratio"
@@ -294,6 +303,9 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Assigna valors aleatoris a l'HSV amb la força dels controls lliscants. Com "
+"més gran sigui el valor, més es desviarà el color del color de primer pla, "
+"amb la direcció indicada seguint el sentit horari o antihorari."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:112
 msgid "Random Opacity"
@@ -301,7 +313,7 @@ msgstr "Opacitat aleatòria"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:113
 msgid "Randomizes the opacity."
-msgstr ""
+msgstr "Assigna valors aleatoris a l'opacitat."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:114
 msgid "Color Per Particle"
@@ -310,6 +322,8 @@ msgstr "Color per partícula"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:115
 msgid "Has the color options be per particle instead of area."
 msgstr ""
+"Disposa de les opcions de color per aplicar-los per partícula en comptes de "
+"a l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:116
 msgid "Sample Input Layer."
@@ -320,6 +334,8 @@ msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Utilitzarà la capa subjacent com a referència per als colors en comptes "
+"d'utilitzar el color de primer pla."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:118
 msgid "Fill Background"
@@ -327,10 +343,12 @@ msgstr "Emplena el fons"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:119
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Omplirà l'àrea amb el color de fons abans de dibuixar les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:121
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
 msgstr ""
+"Assigna a la partícula un color aleatori entre el color de primer pla/"
+"entrada/HSV aleatori i el color de fons."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -42,39 +42,57 @@ msgstr ""
 "   :alt: mousemiddle"
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Interface-tour.png"
-msgstr ".. image:: images/en/Interface-tour.png"
+msgid ".. image:: images/Interface-tour.svg"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Krita-popuppalette.png"
-msgstr ".. image:: images/en/Krita-popuppalette.png"
+msgid ".. image:: images/Krita-popuppalette.png"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:1
 msgid "Overview of Krita navigation."
-msgstr "Krita 界面导览。"
+msgstr "界面结构"
 
+#: ../../user_manual/getting_started/navigation.rst:13
 #: ../../user_manual/getting_started/navigation.rst:18
 #: ../../user_manual/getting_started/navigation.rst:43
 msgid "Navigation"
-msgstr "界面导览"
+msgstr "视图控制"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+#: ../../user_manual/getting_started/navigation.rst:103
+msgid "Pop-up Palette"
+msgstr "浮动画具板"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Zoom"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Rotate"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Pan"
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Workspace"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:21
 msgid "Interface"
-msgstr "界面"
+msgstr "界面设计思路"
 
 #: ../../user_manual/getting_started/navigation.rst:23
 msgid ""
-"Krita provides an ample choice for the artists to arrange the workspace. An "
-"artist can snap and arrange the elements of the workspace, much like "
-"snapping together Lego blocks.  Krita provides a set of construction kit "
-"parts in the form of Dockers and Toolbars. Every set of elements can be "
-"shown, hidden, moved and rearranged that let the artist easily customize "
-"their own user interface experience."
+"Krita's interface is very flexible and provides an ample choice for the "
+"artists to arrange the elements of the workspace. An artist can snap and "
+"arrange the elements, much like snapping together Lego blocks. Krita "
+"provides a set of construction kit parts in the form of Dockers and "
+"Toolbars. Every set of elements can be shown, hidden, moved and rearranged "
+"that let the artists easily customize their own user interface experience."
 msgstr ""
-"Krita 为画手提供了充分的自由去组织自己的工作空间。你可以对工作空间的各个部件"
-"进行拖放和吸附，就好像玩乐高积木一样。Krita 为工作空间准备了一系列构成部件，"
-"它们有的是工具面板的形式，有的是工具栏的形式。每个部件都可被显示或者隐藏，移"
-"动或者重排，让画手可以轻松地打造属于自己的用户界面体验。"
 
 #: ../../user_manual/getting_started/navigation.rst:26
 msgid "A Tour of the Krita Interface"
@@ -83,22 +101,16 @@ msgstr "Krita 的界面导览。"
 #: ../../user_manual/getting_started/navigation.rst:28
 msgid ""
 "As we've said before, the Krita interface is very malleable and the way that "
-"you choose to configure the work surface may not resemble those above but, "
-"at least this we can use these as a starting point."
+"you choose to configure the work surface may not resemble those shown below, "
+"but we can use these as a starting point."
 msgstr ""
-"我们刚刚说过 Krita 的界面极具弹性，你想要配置的工作空间与下图所示可能并不一"
-"致，不过我们先通过它来举例说明。"
 
 #: ../../user_manual/getting_started/navigation.rst:34
-#, fuzzy
-#| msgid ""
-#| "**A** -- Traditional :guilabel:`File` or action menu found in most "
-#| "windowed applications"
 msgid ""
 "**A** -- Traditional :guilabel:`File` or action menu found in most windowed "
 "applications."
 msgstr ""
-"**A** -- 传统的 :guilabel:`文件` 或者操作菜单栏，绝大多数窗口应用程序都会显示"
+"**A** -- 传统的 :guilabel:`文件` 或者功能菜单栏，绝大多数窗口应用程序都会显示"
 "此部件。"
 
 #: ../../user_manual/getting_started/navigation.rst:35
@@ -111,49 +123,33 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:36
 msgid ""
-"**C** -- Sidebars for the Movable Panels/Dockers.  In some applications, "
+"**C** -- Sidebars for the Movable Panels/Dockers. In some applications, "
 "these are known as Dockable areas. Krita also allows you to dock panels at "
 "the top and/or bottom as well."
 msgstr ""
-"**C** -- 侧栏，用来拖放工具面板。某些程序把它们叫做可拖放空间。Krita 允许把工"
-"具面板吸附在画布的上下左右四边。"
 
 #: ../../user_manual/getting_started/navigation.rst:37
 msgid ""
-"**D** -- Status Bar - This space shows you preferred mode for showing "
+"**D** -- Status Bar - This space shows the preferred mode for showing "
 "selection i.e. marching ants or mask mode, your selected brush preset, :ref:"
 "`Color Space <color_managed_workflow>`, image size and provides a convenient "
 "zoom control."
 msgstr ""
-"**D** -- 状态栏 - 显示和切换选区的吗蚁线或蒙版显示模式，当前选中的笔刷预设，:"
-"ref:`色彩空间<color_managed_workflow>`，图像大小和一组画布缩放控制按钮。"
 
 #: ../../user_manual/getting_started/navigation.rst:38
-#, fuzzy
-#| msgid ""
-#| "**E** -- Floating Panel/Docker - These can be \"popped\" in and out of "
-#| "their docks at any time in order to see a greater range of options.  A "
-#| "good example of this would be the :ref:`brush_preset_docker` or the :ref:"
-#| "`palette_docker`"
 msgid ""
 "**E** -- Floating Panel/Docker - These can be \"popped\" in and out of their "
-"docks at any time in order to see a greater range of options.  A good "
-"example of this would be the :ref:`brush_preset_docker` or the :ref:"
-"`palette_docker`."
+"docks at any time in order to see a greater range of options. A good example "
+"of this would be the :ref:`brush_preset_docker` or the :ref:`palette_docker`."
 msgstr ""
-"**E** -- 浮动工具面板 - 工具面板可以随时脱离停靠位置自由浮动，方便显示更多的"
-"选项，:ref:`brush_preset_docker` 和 the :ref:`palette_docker` 都很适合浮动显"
-"示。"
 
 #: ../../user_manual/getting_started/navigation.rst:40
 msgid ""
 "Your canvas sits in the middle and unlike traditional paper or even most "
-"digital painting apps, Krita provides the artist with a scrolling canvas of "
-"infinite size (not that you'll need it of course!).  The standard navigation "
-"tools are as follows:"
+"digital painting applications, Krita provides the artist with a scrolling "
+"canvas of infinite size (not that you'll need it of course!). The standard "
+"navigation tools are as follows:"
 msgstr ""
-"画布显示在窗口的正中间，但和真实纸张或绝大多数其他软件不同，Krita 的画布可以"
-"无限大小滚动。常用的视图控制工具如下："
 
 #: ../../user_manual/getting_started/navigation.rst:44
 msgid ""
@@ -170,7 +166,9 @@ msgstr "平移"
 msgid ""
 "This can be done through |mousemiddle|, :kbd:`Space +` |mouseleft| and :kbd:"
 "`the directional keys`."
-msgstr "按 |mousemiddle|，:kbd:`空格键 +` |mouseleft| 和 :kbd:`方向键`。"
+msgstr ""
+"按住中间键 |mousemiddle| 移动光标，或者按住 :kbd:`空格键 +` 鼠标左键拖动 |"
+"mouseleft| 即可平移画布视图。"
 
 #: ../../user_manual/getting_started/navigation.rst:48
 msgid "Zooming"
@@ -182,8 +180,9 @@ msgid ""
 "`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| can allow for direct zooming "
 "with the stylus."
 msgstr ""
-"按 :kbd:`+` 和 :kbd:`-` 可进行逐级缩放。按住 :kbd:`Ctrl + 空格键` 或者 :kbd:"
-"`Ctrl +` |mousemiddle| 可用压感笔进行无级缩放。"
+"按键盘 :kbd:`+` 和 :kbd:`-` 可进行逐级缩放。按住 :kbd:`Ctrl + 空格键` 或者按"
+"住 :kbd:`Ctrl + 中间键` |mousemiddle| 可用鼠标或压感笔光标上下移动进行无级缩"
+"放。"
 
 #: ../../user_manual/getting_started/navigation.rst:50
 msgid "Mirroring"
@@ -191,13 +190,11 @@ msgstr "镜像"
 
 #: ../../user_manual/getting_started/navigation.rst:51
 msgid ""
-"You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a "
+"You can mirror the view can be quickly done via :kbd:`M` key. Mirroring is a "
 "great technique that seasoned digital artists use to quickly review the "
 "composition of their work to ensure that it \"reads\" well, even when "
 "flipped horizontally."
 msgstr ""
-"按 :kbd:`M` 可以快速镜像显示画布视图。你可以通过镜像功能快速检查画面左右翻转"
-"后有无画歪。"
 
 #: ../../user_manual/getting_started/navigation.rst:53
 msgid "Rotating"
@@ -210,16 +207,14 @@ msgid ""
 "Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |"
 "mousemiddle|. To reset rotation use :kbd:`5` ."
 msgstr ""
-"画布可被旋转显示而无需对图像进行实际变形。按 :kbd:`Ctrl + [` 或者 :kbd:`4` 可"
-"逆时针逐级旋转，按 :kbd:`Ctrl + ]` 或者 :kbd:`6` 可顺时针逐级旋转。按住 :kbd:"
-"`Shift + 空格键` 或者 :kbd:`Shift +` |mousemiddle| 可用鼠标或压感笔进行无级旋"
-"转。按 :kbd:`5` 可以重置旋转。"
+"画布可以旋转显示，而无需对图像进行实际变形。按 :kbd:`Ctrl + [` 或者 :kbd:`4` "
+"可逆时针逐级旋转，按 :kbd:`Ctrl + ]` 或者 :kbd:`6` 可顺时针逐级旋转。按住 :"
+"kbd:`Shift + 空格键` 或者 :kbd:`Shift + 中间键` |mousemiddle| 可用鼠标或压感"
+"笔进行无级旋转。按 :kbd:`5` 可以重置旋转。"
 
 #: ../../user_manual/getting_started/navigation.rst:55
-#, fuzzy
-#| msgid "You can also find these under :menuselection:`View --> Canvas`"
 msgid "You can also find these under :menuselection:`View --> Canvas`."
-msgstr "上述工具也可以在 :menuselection:`视图 --> 画布` 菜单里找到。"
+msgstr "上述工具也可以在菜单栏的 :menuselection:`视图 --> 画布` 里面找到。"
 
 #: ../../user_manual/getting_started/navigation.rst:58
 msgid "Dockers"
@@ -228,21 +223,17 @@ msgstr "工具面板"
 #: ../../user_manual/getting_started/navigation.rst:60
 msgid ""
 "Krita subdivides many of its options into functional panels called Dockers "
-"(aka Docks)."
-msgstr "Krita 把它的许多功能分类显示在工具面板上。"
+"(also known as Docks)."
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:62
 msgid ""
 "Dockers are small windows that can contain, for example, things like the "
-"layer stack, Color Palette or Brush Presets. Think of them as the painter's "
-"palette, or his water, or his brushkit. They can be activated by choosing "
-"the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu.  There "
-"you will find a long list of available options."
+"layer stack, Color Palette or list of Brush Presets. Think of them as the "
+"painter's palette, or his water, or his brush kit. They can be activated by "
+"choosing the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu. "
+"There you will find a long list of available options."
 msgstr ""
-"工具面板是一些小窗口，它们可以显示不同的功能，如图层组、调色板和笔刷预设等。"
-"你可以把它们跟画家的调色板、水缸、画笔等实物联系起来。要显示或者隐藏它们，可"
-"进入 :guilabel:`设置` 菜单 的 the :guilabel:`工具面板` 子菜单，在那里你会找到"
-"所有可用的面板。"
 
 #: ../../user_manual/getting_started/navigation.rst:64
 msgid ""
@@ -252,10 +243,10 @@ msgstr "要移除某个工具面板，点击该面板右上角的 **x** 按钮�
 
 #: ../../user_manual/getting_started/navigation.rst:66
 msgid ""
-"Dockers, as the name implied, can be docked into the main interface. You can "
+"Dockers, as the name implies, can be docked into the main interface. You can "
 "do this by dragging the docker to the sides of the canvas (or top or bottom "
 "if you prefer)."
-msgstr "工具面板可以被拖放并停靠到画布的上下左右四边上。"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:68
 msgid ""
@@ -263,8 +254,8 @@ msgid ""
 "that you will want to explore as you start delving deeper into the "
 "application."
 msgstr ""
-"工具面板包含了许多 Krita 强大的“隐藏功能”，随着你逐渐深入本软件，你应该大胆地"
-"探索和使用它们。"
+"工具面板包含了许多 Krita 强大的“隐藏功能”，我们鼓励你大胆地进行探索和尝试，这"
+"将有助于你更好地掌握软件的使用方式。"
 
 #: ../../user_manual/getting_started/navigation.rst:70
 msgid ""
@@ -272,14 +263,14 @@ msgid ""
 "according to the needs of your workflow, and then save these arrangements as "
 "Workspaces."
 msgstr ""
-"你可以按照你的绘画流程任意组合排列工具面板，然后把界面的组织状态保存为工作空"
-"间。"
+"你可以按照自己的使用习惯任意组合、排列工具面板，然后把界面的显示状态保存为工"
+"作空间。"
 
 #: ../../user_manual/getting_started/navigation.rst:72
 msgid ""
 "Dockers can be prevented from docking by pressing :kbd:`Ctrl` before "
 "starting to drag the docker."
-msgstr "要防止工具面板吸附停靠，按住 :kbd:`Ctrl` 再开始拖动。"
+msgstr "要防止工具面板停靠到画布边缘，请按住 :kbd:`Ctrl` 再拖动它们。"
 
 #: ../../user_manual/getting_started/navigation.rst:75
 msgid "Sliders"
@@ -290,29 +281,28 @@ msgid ""
 "Krita uses these to control values like brush size, opacity, flow, Hue, "
 "Saturation, etc... Below is an example of a Krita slider."
 msgstr ""
-"Krita 使用滑动条来控制笔刷大小、不透明度、流量，还有调整色相、饱和度等。下面"
+"Krita 使用滑动条来控制笔刷大小、不透明度、流量、调整色相、饱和度等数值。下面"
 "是一个 Krita 滑动条的例子。"
 
 #: ../../user_manual/getting_started/navigation.rst:79
-msgid ".. image:: images/en/Krita_Opacity_Slider.png"
-msgstr ".. image:: images/en/Krita_Opacity_Slider.png"
+msgid ".. image:: images/Krita_Opacity_Slider.png"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:80
 msgid ""
 "The total range is represented from left to right and blue bar gives an "
-"indication of where in the possible range the current value is.  Clicking "
+"indication of where in the possible range the current value is. Clicking "
 "anywhere, left or right, of that slider will change the current number to "
 "something lower (to the left) or higher (to the right)."
 msgstr ""
-"滑动条从左到右的宽度涵盖了它所控制的数值范围，蓝色的部分反映了当前数值。在滑"
-"动条的任意位置上点击，滑动条的数值会随之增大 (向右) 或者减小 (向左)。"
 
 #: ../../user_manual/getting_started/navigation.rst:82
 msgid ""
 "To input a specific number, |mouseright| the slider. A number can now be "
 "entered directly for even greater precision."
 msgstr ""
-"要输入一个特定的数值，在滑动条上点击 |mouseright|，然后输入一个精确的数值。"
+"要输入一个特定的数值，在滑动条上点击鼠标右键 |mouseright|，然后输入一个精确的"
+"数值。"
 
 #: ../../user_manual/getting_started/navigation.rst:84
 msgid ""
@@ -321,23 +311,23 @@ msgid ""
 "changes the value in whole numbers or multiples of 5."
 msgstr ""
 "按住 :kbd:`Shift` 拖动滑动条可进行微调，按住 :kbd:`Ctrl` 拖动滑动条则以整数"
-"或 5 的倍数改变数值。"
+"或 5 的倍数逐级改变数值。"
 
 #: ../../user_manual/getting_started/navigation.rst:87
 msgid "Toolbars"
 msgstr "工具栏"
 
 #: ../../user_manual/getting_started/navigation.rst:89
-msgid ".. image:: images/en/Krita_Toolbar.png"
-msgstr ".. image:: images/en/Krita_Toolbar.png"
+msgid ".. image:: images/Krita_Toolbar.png"
+msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:90
 msgid ""
 "Toolbars are where some of the important actions and menus are placed so "
 "that they are readily and quickly available for the artist while painting."
 msgstr ""
-"工具栏包括了一些重要的功能，各个按钮和菜单经过精心安排，以便画手绘画时随时调"
-"用。"
+"工具栏包括了一些重要的功能，每个按钮和菜单的位置经过了精心安排，以便在绘画时"
+"随手调用。"
 
 #: ../../user_manual/getting_started/navigation.rst:92
 msgid ""
@@ -346,8 +336,8 @@ msgid ""
 "Putting these to effective use can really speed up the Artist's workflow, "
 "especially for users of Tablet-Monitors and Tablet-PCs."
 msgstr ""
-"要进一步学习工具栏的相关知识，可阅读使用手册的 :ref:`工具栏章节"
-"<configure_toolbars>`。熟悉使用工具栏可以提高绘画流程的效率，尤其是在使用数位"
+"要进一步学习工具栏的相关知识，可阅读使用手册的 :ref:`工具栏 "
+"<configure_toolbars>` 章节。熟练使用工具栏可以提高绘画效率，尤其是在使用数位"
 "屏和笔式电脑时。"
 
 #: ../../user_manual/getting_started/navigation.rst:96
@@ -356,30 +346,26 @@ msgstr "工作空间选单"
 
 #: ../../user_manual/getting_started/navigation.rst:98
 msgid ""
-"The button on the very right of the toolbar is the workspace chooser. This "
+"The button on the very right of the Toolbar is the workspace chooser. This "
 "allows you to load and save common configurations of the user interface in "
 "Krita. There are a few common workspaces that come with Krita."
 msgstr ""
-"工具栏最右侧的按钮就是工作空间选单。你可以在里面载入和保存 Krita 的用户界面配"
-"置情况。Krita 也预装了一些常用的工作空间预设。"
 
 #: ../../user_manual/getting_started/navigation.rst:101
-msgid "Pop-up Palette"
-msgstr "浮动画具板"
-
-#: ../../user_manual/getting_started/navigation.rst:106
-msgid ""
-"Pop-up Palette is a unique feature in Krita designed to increase "
-"productivity of the artist. It is a circular menu for quickly choosing "
-"brushes, foreground and background colors, recent colors while painting. To "
-"access the palette you have to just |mouseright| on the canvas. The palette "
-"will spawn at the place of the brush tip or cursor."
+msgid ".. image:: images/workspace-chooser-button.svg"
 msgstr ""
-"浮动画具板是 Krita 为提高绘画工作效率打造的特色功能。它是一个圆形面板，你可以"
-"在绘画时通过它快速选取笔刷、前景色和背景色、最近用过的颜色等。只需在画布上单"
-"击 |mouseright|，浮动画具板便会在在光标位置弹出。"
 
 #: ../../user_manual/getting_started/navigation.rst:108
+msgid ""
+":ref:`Pop-up Palette <pop-up_palette>` is a feature unique to Krita, "
+"designed to increase the productivity of the artist. It is a circular menu "
+"for quickly choosing brushes, foreground and background colors, recent "
+"colors while painting. To access the palette you have to just |mouseright| "
+"on the canvas. The palette will spawn at the position of the brush tip or "
+"cursor."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:110
 msgid ""
 "By tagging your brush presets you can add particular sets of brushes to this "
 "palette. For example, if you add some inking brush presets to inking tag you "
@@ -387,28 +373,21 @@ msgid ""
 "inking brushes in the palette."
 msgstr ""
 "你可以给你的笔刷预设指定标签，然后以标签为组在浮动画具板上加载笔刷预设。例"
-"如，如果你把 Inking 标签指定给某个描线用的笔刷预设，打开浮动画具板，在里面选"
-"择 Inking 标签，它便会显示出该标签里面的全部笔刷。"
-
-#: ../../user_manual/getting_started/navigation.rst:110
-msgid ""
-"You can :ref:`tag <tag_management>` brush presets via the :ref:"
-"`brush_preset_docker`, check out the resource overview page to know more "
-"about tagging in general."
-msgstr ""
-"要给笔刷预设指定 :ref:`标签 <tag_management>`，请使用 :ref:"
-"`brush_preset_docker`。要进一步学习标签的相关知识，可阅读使用手册的资源管理页"
-"面。"
+"如，你可以把 Inking (描线) 标签指定给几个描线常用的笔刷预设，然后在浮动画具板"
+"加载该标签，它便会显示这几个笔刷预设。"
 
 #: ../../user_manual/getting_started/navigation.rst:112
 msgid ""
-"If you call up the pop-up palette again, you can click the wrench icon, and "
+"You can :ref:`tag <tag_management>` brush presets via the :ref:"
+"`brush_preset_docker`, check out the :ref:`resource overview page "
+"<resource_management>` to know more about tagging in general."
+msgstr ""
+
+#: ../../user_manual/getting_started/navigation.rst:114
+msgid ""
+"If you call up the pop-up palette again, you can click the tag icon, and "
 "select the tag. In fact, you can make multiple tags and switch between them. "
 "When you need more than ten presets, go into :menuselection:`Settings --> "
-"Configure Krita --> General --> Favorite presets` and change the number of "
-"presets from 10 to something you feel comfortable."
+"Configure Krita --> General --> Miscellaneous --> Number of Palette Presets` "
+"and change the number of presets from 10 to something you feel comfortable."
 msgstr ""
-"在给笔刷预设指定标签之后，重新打开浮动画具板，点击上面的标签按钮，从中选取想"
-"要的标签。你可以指定几组不同的标签然后在它们之间切换使用。如需显示超过 10 个"
-"笔刷预设，请到 :menuselection:`设置 --> 配置 Krita --> 常规 --> 其他 --> 浮动"
-"画具板预设个数`，把它从 10 改为你想要的数值。"

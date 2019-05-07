@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___blending_modes___misc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-03-23 21:48+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,6 +33,10 @@ msgstr ""
 msgid "Misc"
 msgstr "Інше"
 
+#: ../../reference_manual/blending_modes/misc.rst:17
+msgid "Bumpmap (Blending Mode)"
+msgstr "Рельєф (режим змішування)"
+
 #: ../../reference_manual/blending_modes/misc.rst:21
 msgid "Bumpmap"
 msgstr "Рельєф"
@@ -43,9 +47,14 @@ msgstr ""
 "Використання цього фільтра призводить до множення кольорів із врахуванням "
 "прозорості вхідних пікселів."
 
+#: ../../reference_manual/blending_modes/misc.rst:25
 #: ../../reference_manual/blending_modes/misc.rst:30
 msgid "Combine Normal Map"
 msgstr "Створити нормальне картографування"
+
+#: ../../reference_manual/blending_modes/misc.rst:25
+msgid "Normal Map"
+msgstr "Нормальне картографування"
 
 #: ../../reference_manual/blending_modes/misc.rst:32
 msgid ""
@@ -56,6 +65,10 @@ msgstr ""
 "Математично стійкий режим змішування для нормальних карт з використанням "
 "`переорієнтованого змішування нормальних карт <http://blog.selfshadow.com/"
 "publications/blending-in-detail/>`_."
+
+#: ../../reference_manual/blending_modes/misc.rst:34
+msgid "Copy (Blending Mode)"
+msgstr "Копіювання (режим змішування)"
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -71,15 +84,27 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
-"png"
+".. image:: images/blending_modes/misc/"
+"Blending_modes_Copy_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
-"png"
+".. image:: images/blending_modes/misc/"
+"Blending_modes_Copy_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid "Left: **Normal**. Right: **Copy**."
 msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Копіювання**."
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+msgid "Copy Red"
+msgstr "Копіювання червоного"
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+msgid "Copy Green"
+msgstr "Копіювання зеленого"
+
+#: ../../reference_manual/blending_modes/misc.rst:48
+msgid "Copy Blue"
+msgstr "Копіювання синього"
 
 #: ../../reference_manual/blending_modes/misc.rst:54
 msgid "Copy Red, Green, Blue"
@@ -105,9 +130,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid ""
-".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
+".. image:: images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel."
+"png"
 msgstr ""
-".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
+".. image:: images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel."
+"png"
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid "The copy red, green and blue blending modes also work on filter-layers."
@@ -128,10 +155,10 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Red_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Red_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:72
@@ -140,10 +167,10 @@ msgstr "Ліворуч: **звичайне змішування**. Правор�
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Green_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Green_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:78
@@ -152,16 +179,17 @@ msgstr "Ліворуч: **звичайне змішування**. Правор�
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid "Left: **Normal**. Right: **Copy Blue**."
 msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Копіювання синього**."
 
+#: ../../reference_manual/blending_modes/misc.rst:86
 #: ../../reference_manual/blending_modes/misc.rst:90
 msgid "Dissolve"
 msgstr "Розчинити"
@@ -177,10 +205,10 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Dissolve_Sample_image_with_dots.png"
 msgstr ""
-".. image:: images/blending_modes/"
+".. image:: images/blending_modes/misc/"
 "Blending_modes_Dissolve_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:97

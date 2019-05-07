@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-02-20 15:14+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 17:33+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,11 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/blending_modes.rst:1
 msgid "Overview of Krita's blending modes."
 msgstr "Overzicht van mengmodi van Krita."
+
+#: ../../reference_manual/blending_modes.rst:10
+msgid "Blending Modes!"
+msgstr "Mengmodi!"
 
 #: ../../reference_manual/blending_modes.rst:16
 msgid "Blending Modes"
@@ -104,131 +108,137 @@ msgstr "Sneltoetsen geassocieerd met mengmodi"
 
 #: ../../reference_manual/blending_modes.rst:43
 msgid ""
-"Defaultly the following hotkeys are associated with blending modes. You "
-"first need to use modifiers :kbd:`Alt + Shift`, then use the following "
+"Defaultly the following hotkeys are associated with blending modes used for "
+"painting. Note: these shortcuts do not change the blending mode of the "
+"current layer."
+msgstr ""
+
+#: ../../reference_manual/blending_modes.rst:45
+msgid ""
+"You first need to use modifiers :kbd:`Alt + Shift`, then use the following "
 "hotkey to have the associated blending mode:"
 msgstr ""
 
-#: ../../reference_manual/blending_modes.rst:47
+#: ../../reference_manual/blending_modes.rst:48
 msgid ":kbd:`A` :ref:`bm_linear_burn`"
 msgstr ":kbd:`A` :ref:`bm_linear_burn`"
 
-#: ../../reference_manual/blending_modes.rst:48
+#: ../../reference_manual/blending_modes.rst:49
 msgid ":kbd:`B` :ref:`bm_color_burn`"
 msgstr ":kbd:`B` :ref:`bm_color_burn`"
 
-#: ../../reference_manual/blending_modes.rst:49
+#: ../../reference_manual/blending_modes.rst:50
 msgid ":kbd:`C` :ref:`bm_color`"
 msgstr ":kbd:`C` :ref:`bm_color`"
 
-#: ../../reference_manual/blending_modes.rst:50
+#: ../../reference_manual/blending_modes.rst:51
 msgid ":kbd:`D` :ref:`bm_color_dodge`"
 msgstr ":kbd:`D` :ref:`bm_color_dodge`"
 
-#: ../../reference_manual/blending_modes.rst:51
+#: ../../reference_manual/blending_modes.rst:52
 msgid ":kbd:`E` :ref:`bm_difference`"
 msgstr ":kbd:`E` :ref:`bm_difference`"
 
-#: ../../reference_manual/blending_modes.rst:52
+#: ../../reference_manual/blending_modes.rst:53
 msgid ":kbd:`F` :ref:`bm_soft_light`"
 msgstr ":kbd:`F` :ref:`bm_soft_light`"
 
-#: ../../reference_manual/blending_modes.rst:53
+#: ../../reference_manual/blending_modes.rst:54
 msgid ":kbd:`I` :ref:`bm_dissolve`"
 msgstr ":kbd:`I` :ref:`bm_dissolve`"
 
-#: ../../reference_manual/blending_modes.rst:54
+#: ../../reference_manual/blending_modes.rst:55
 msgid ":kbd:`J` :ref:`bm_linear_light`"
 msgstr ":kbd:`J` :ref:`bm_linear_light`"
 
-#: ../../reference_manual/blending_modes.rst:55
+#: ../../reference_manual/blending_modes.rst:56
 msgid ":kbd:`K` :ref:`bm_darken`"
 msgstr ":kbd:`K` :ref:`bm_darken`"
 
-#: ../../reference_manual/blending_modes.rst:56
+#: ../../reference_manual/blending_modes.rst:57
 msgid ":kbd:`L` :ref:`bm_hard_mix`"
 msgstr ":kbd:`L` :ref:`bm_hard_mix`"
 
-#: ../../reference_manual/blending_modes.rst:57
+#: ../../reference_manual/blending_modes.rst:58
 msgid ":kbd:`M` :ref:`bm_multiply`"
 msgstr ":kbd:`M` :ref:`bm_multiply`"
 
-#: ../../reference_manual/blending_modes.rst:58
+#: ../../reference_manual/blending_modes.rst:59
 msgid ":kbd:`O` :ref:`bm_overlay`"
 msgstr ":kbd:`O` :ref:`bm_overlay`"
 
-#: ../../reference_manual/blending_modes.rst:59
+#: ../../reference_manual/blending_modes.rst:60
 msgid ":kbd:`Q` :ref:`bm_behind`"
 msgstr ":kbd:`Q` :ref:`bm_behind`"
 
-#: ../../reference_manual/blending_modes.rst:60
+#: ../../reference_manual/blending_modes.rst:61
 msgid ":kbd:`R` :ref:`bm_normal`"
 msgstr ":kbd:`R` :ref:`bm_normal`"
 
-#: ../../reference_manual/blending_modes.rst:61
+#: ../../reference_manual/blending_modes.rst:62
 msgid ":kbd:`S` :ref:`bm_screen`"
 msgstr ":kbd:`S` :ref:`bm_screen`"
 
-#: ../../reference_manual/blending_modes.rst:62
+#: ../../reference_manual/blending_modes.rst:63
 msgid ":kbd:`T` :ref:`bm_saturation`"
 msgstr ":kbd:`T` :ref:`bm_saturation`"
 
-#: ../../reference_manual/blending_modes.rst:63
+#: ../../reference_manual/blending_modes.rst:64
 msgid ":kbd:`U` :ref:`bm_hue`"
 msgstr ":kbd:`U` :ref:`bm_hue`"
 
-#: ../../reference_manual/blending_modes.rst:64
+#: ../../reference_manual/blending_modes.rst:65
 msgid ":kbd:`V` :ref:`bm_vivid_light`"
 msgstr ":kbd:`V` :ref:`bm_vivid_light`"
 
-#: ../../reference_manual/blending_modes.rst:65
+#: ../../reference_manual/blending_modes.rst:66
 msgid ":kbd:`W` :ref:`bm_exclusion`"
 msgstr ":kbd:`W` :ref:`bm_exclusion`"
 
-#: ../../reference_manual/blending_modes.rst:66
+#: ../../reference_manual/blending_modes.rst:67
 msgid ":kbd:`X` :ref:`bm_linear_dodge`"
 msgstr ":kbd:`X` :ref:`bm_linear_dodge`"
 
-#: ../../reference_manual/blending_modes.rst:67
+#: ../../reference_manual/blending_modes.rst:68
 msgid ":kbd:`Y` :ref:`bm_luminosity`"
 msgstr ":kbd:`Y` :ref:`bm_luminosity`"
 
-#: ../../reference_manual/blending_modes.rst:68
+#: ../../reference_manual/blending_modes.rst:69
 msgid ":kbd:`Z` :ref:`bm_pin_light`"
 msgstr ":kbd:`Z` :ref:`bm_pin_light`"
 
-#: ../../reference_manual/blending_modes.rst:69
+#: ../../reference_manual/blending_modes.rst:70
 msgid "Next Blending Mode :kbd:`+`"
 msgstr "Volgende mengmodus :kbd:`+`"
 
-#: ../../reference_manual/blending_modes.rst:70
+#: ../../reference_manual/blending_modes.rst:71
 msgid "Previous Blending Mode :kbd:`-`"
 msgstr "Vorige mengmodus :kbd:`-`"
 
-#: ../../reference_manual/blending_modes.rst:73
+#: ../../reference_manual/blending_modes.rst:74
 msgid "Available Blending Modes"
 msgstr "Beschikbare mengmodi"
 
-#: ../../reference_manual/blending_modes.rst:83
+#: ../../reference_manual/blending_modes.rst:84
 msgid "Basic blending modes:"
 msgstr "Basis mengmodi:"
 
-#: ../../reference_manual/blending_modes.rst:84
+#: ../../reference_manual/blending_modes.rst:85
 msgid "http://en.wikipedia.org/wiki/Blend_modes"
 msgstr "http://en.wikipedia.org/wiki/Blend_modes"
 
-#: ../../reference_manual/blending_modes.rst:85
+#: ../../reference_manual/blending_modes.rst:86
 msgid "Grain Extract/Grain Merge:"
 msgstr ""
 
-#: ../../reference_manual/blending_modes.rst:86
+#: ../../reference_manual/blending_modes.rst:87
 msgid "http://docs.gimp.org/en/gimp-concepts-layer-modes.html"
 msgstr ""
 
-#: ../../reference_manual/blending_modes.rst:87
+#: ../../reference_manual/blending_modes.rst:88
 msgid "For most of Krita's mystery blendingmodes:"
 msgstr ""
 
-#: ../../reference_manual/blending_modes.rst:88
+#: ../../reference_manual/blending_modes.rst:89
 msgid "http://illusions.hu/effectwiki/doku.php?id=list_of_blendings"
 msgstr ""

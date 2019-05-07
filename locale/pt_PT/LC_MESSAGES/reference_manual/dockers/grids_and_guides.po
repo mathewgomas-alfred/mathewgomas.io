@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-20 09:26+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -23,6 +23,29 @@ msgstr ""
 #: ../../reference_manual/dockers/grids_and_guides.rst:1
 msgid "Overview of the grids and guides docker."
 msgstr "Introdução à área de grelhas e guias."
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#: ../../reference_manual/dockers/grids_and_guides.rst:63
+msgid "Guides"
+msgstr "Guias"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#, fuzzy
+#| msgid "Grids"
+msgid "Grid"
+msgstr "Grelhas"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#, fuzzy
+#| msgid "Isometric"
+msgid "Isometric Grid"
+msgstr "Isométrica"
+
+#: ../../reference_manual/dockers/grids_and_guides.rst:12
+#, fuzzy
+#| msgid "An orthogonal grid."
+msgid "Orthogonal Grid"
+msgstr "Uma grelha ortogonal."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:17
 msgid "Grids and Guides Docker"
@@ -169,7 +192,9 @@ msgid "Controls the look of the grid’s “subdivision” lines."
 msgstr "Controla a aparência das linhas de “sub-divisões” da grelha."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:59
-msgid ".. image:: images/en/Grid_sudvision.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Grid_sudvision.png"
+msgid ".. image:: images/dockers/Grid_sudvision.png"
 msgstr ".. image:: images/en/Grid_sudvision.png"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:60
@@ -182,10 +207,6 @@ msgstr ""
 "linhas principais da grelha estão a 128px umas das outras, tendo as linhas "
 "intermédias um aspecto diferente."
 
-#: ../../reference_manual/dockers/grids_and_guides.rst:63
-msgid "Guides"
-msgstr "Guias"
-
 #: ../../reference_manual/dockers/grids_and_guides.rst:65
 msgid ""
 "Guides are horizontal and vertical reference lines. You can use them to "
@@ -195,7 +216,9 @@ msgstr ""
 "colocar e alinhar as camadas de forma precisa na área de desenho."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:68
-msgid ".. image:: images/en/Guides.jpg"
+#, fuzzy
+#| msgid ".. image:: images/en/Guides.jpg"
+msgid ".. image:: images/dockers/Guides.jpg"
 msgstr ".. image:: images/en/Guides.jpg"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:70

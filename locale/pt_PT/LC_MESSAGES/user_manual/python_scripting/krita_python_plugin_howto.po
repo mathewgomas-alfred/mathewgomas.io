@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-10 11:09+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -43,6 +43,24 @@ msgid "Guide on all the specifics of creating Krita python plugins."
 msgstr ""
 "Guia sobre todos detalhes específicos de criação de 'plugins' em Python do "
 "Krita."
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Python"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Python Scripting"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+#, fuzzy
+#| msgid "\"My Script\""
+msgid "Scripting"
+msgstr "\"O Meu Programa\""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Plugin"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:19
 msgid "How to make a Krita Python plugin"
@@ -135,6 +153,18 @@ msgstr ""
 msgid "The desktop file should look as follows::"
 msgstr "O ficheiro .desktop deverá parecer o seguinte::"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:38
+msgid ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"X-Krita-Manual=myPluginManual.html\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:47
 msgid "Type"
 msgstr "Type"
@@ -215,6 +245,11 @@ msgstr ""
 "certifique-se que existe um programa __init__.py, que contenha algo do "
 "género..."
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:68
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:87
+msgid "from .myplugin import *"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:69
 msgid ""
 "Where .myplugin is the name of the main file of your plugin. If you restart "
@@ -268,6 +303,17 @@ msgstr "no ficheiro *__init__.py* coloque este código:"
 msgid "in the desktop file put this code::"
 msgstr "no ficheiro .desktop coloque este código::"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:90
+msgid ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:98
 msgid "write your script in the ''myplugin/myplugin.py'' file."
 msgstr "grave o seu programa no ficheiro ''meuplugin/meuplugin.py''."
@@ -288,6 +334,27 @@ msgstr ""
 "simples que executam no arranque do Python. São criados através da herança "
 "da classe Extension, sendo que o código de extensão mais básico parece-se "
 "algo com o seguinte:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:123
+msgid ""
+"from krita import *\n"
+"\n"
+"class MyExtension(Extension):\n"
+"\n"
+"    def __init__(self, parent):\n"
+"        #This is initialising the parent, always  important when "
+"subclassing.\n"
+"        super().__init__(parent)\n"
+"\n"
+"    def setup(self):\n"
+"        pass\n"
+"\n"
+"    def createActions(self, window):\n"
+"        pass\n"
+"\n"
+"# And add the extension to Krita's list of extensions:\n"
+"Krita.instance().addExtension(MyExtension(Krita.instance()))"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:124
 msgid ""
@@ -320,6 +387,13 @@ msgstr ""
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:128
 msgid "So..."
 msgstr "Assim..."
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:135
+msgid ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\", \"tools/scripts"
+"\")"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:136
 msgid "\"myAction\""
@@ -358,13 +432,42 @@ msgstr ""
 "Adicione o seguinte à classe da extensão, certificando-se que é acima onde "
 "adiciona a extensão ao Krita:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:158
+msgid ""
+"def exportDocument(self):\n"
+"    # Get the document:\n"
+"    doc =  Krita.instance().activeDocument()\n"
+"    # Saving a non-existent document causes crashes, so lets check for that "
+"first.\n"
+"    if doc is not None:\n"
+"        # This calls up the save dialog. The save dialog returns a tuple.\n"
+"        fileName = QFileDialog.getSaveFileName()[0]\n"
+"        # And export the document to the fileName location.\n"
+"        # InfoObject is a dictionary with specific export options, but when "
+"we make an empty one Krita will use the export defaults.\n"
+"        doc.exportImage(fileName, InfoObject())"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:159
 msgid "And add the import for QFileDialog above with the imports:"
 msgstr "E adicione a importação para o QFileDialog com as importações:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:165
+msgid ""
+"from krita import *\n"
+"from PyQt5.QtWidgets import QFileDialog"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:166
 msgid "Then, to connect the action to the new export document:"
 msgstr "Depois, para associar a acção à nova exportação de documento:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:174
+msgid ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\")\n"
+"    action.triggered.connect(self.exportDocument)"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:175
 msgid ""
@@ -404,6 +507,29 @@ msgstr ""
 "quando estão presentes num ficheiro .action. O ficheiro .action necessário "
 "para ter a nossa acção adicionadas aos atalhos dever-se-á parecer com o "
 "seguinte:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:208
+msgid ""
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<ActionCollection version=\"2\" name=\"Scripts\">\n"
+"    <Actions category=\"Scripts\">\n"
+"        <text>My Scripts</text>\n"
+"\n"
+"        <Action name=\"myAction\">\n"
+"        <icon></icon>\n"
+"        <text>My Script</text>\n"
+"        <whatsThis></whatsThis>\n"
+"        <toolTip></toolTip>\n"
+"        <iconText></iconText>\n"
+"        <activationFlags>10000</activationFlags>\n"
+"        <activationConditions>0</activationConditions>\n"
+"        <shortcut>ctrl+alt+shift+p</shortcut>\n"
+"        <isCheckable>false</isCheckable>\n"
+"        <statusTip></statusTip>\n"
+"        </Action>\n"
+"    </Actions>\n"
+"</ActionCollection>"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:209
 msgid "<text>My Scripts</text>"
@@ -563,6 +689,24 @@ msgstr ""
 "pouco mais simples, mas também necessitam mais do uso de elementos gráficos. "
 "Isto é o código básico de uma área acoplável:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:256
+msgid ""
+"from PyQt5.QtWidgets import *\n"
+"from krita import *\n"
+"\n"
+"class MyDocker(DockWidget):\n"
+"\n"
+"    def __init__(self):\n"
+"        super().__init__()\n"
+"        self.setWindowTitle(\"My Docker\")\n"
+"\n"
+"    def canvasChanged(self, canvas):\n"
+"        pass\n"
+"\n"
+"Krita.instance().addDockWidgetFactory(DockWidgetFactory(\"myDocker\", "
+"DockWidgetFactoryBase.DockRight, MyDocker))"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:257
 msgid ""
 "The window title is how it will appear in the docker list in Krita. "
@@ -645,9 +789,19 @@ msgstr ""
 "De qualquer forma, o que precisamos de fazer primeiro é criar um QWidget; "
 "não é muito complicado - em 'setWindowTitle', adicione:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:278
+msgid ""
+"mainWidget = QWidget(self)\n"
+"self.setWidget(mainWidget)"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:279
 msgid "Then, we create a button:"
 msgstr "Depois criamos um botão:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:284
+msgid "buttonExportDocument = QPushButton(\"Export Document\", mainWidget)"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:285
 msgid ""
@@ -665,6 +819,10 @@ msgstr ""
 "html#signals>`_, o que significa que também poderemos usar esses. No nosso "
 "caso, queremos o 'clicked'."
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:290
+msgid "buttonExportDocument.clicked.connect(self.exportDocument)"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:291
 msgid ""
 "If we now restart Krita, we'll have a new docker and in that docker there's "
@@ -681,6 +839,12 @@ msgid ""
 msgstr ""
 "Contudo, o botão parece um bocado mal alinhado. Isto é porque o nosso "
 "'mainWidget' não tem nenhum 'layout' (disposição). Vamos tratar já disso:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:299
+msgid ""
+"mainWidget.setLayout(QVBoxLayout())\n"
+"mainWidget.layout().addWidget(buttonExportDocument)"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:300
 msgid ""
@@ -756,6 +920,16 @@ msgstr ""
 "Depois, precisa de adicionar uma definição de 'slot' do PyQt antes da sua "
 "função:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:329
+msgid ""
+"@pyqtSlot(bool)\n"
+"def myFunction(self, enabled):\n"
+"    enabledString = \"disabled\"\n"
+"    if (enabled == True):\n"
+"        enabledString = \"enabled\"\n"
+"    print(\"The checkbox is\"+enabledString)"
+msgstr ""
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:330
 msgid ""
 "Then, when you have created your checkbox, you can do something like "
@@ -769,6 +943,16 @@ msgid "Similarly, to make your own PyQt signals, you do the following:"
 msgstr ""
 "De forma semelhante, para criar os seus próprios 'signals' do PyQt, poderá "
 "fazer o seguinte:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:343
+msgid ""
+"# signal name is added to the member variables of the class\n"
+"signal_name = pyqtSignal(bool, name='signalName')\n"
+"\n"
+"def emitMySignal(self):\n"
+"    # And this is how you trigger the signal to be emitted.\n"
+"    self.signal_name.emit(True)"
+msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:344
 msgid "And use the right import:"
@@ -787,10 +971,20 @@ msgstr ""
 "normais, só terá de colocar os seus nomes entre aspas."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:351
+msgid "A note on unit tests"
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
+msgid ""
+"If you want to write unit tests for your plugin, have a look at the `mock "
+"krita module <https://github.com/rbreu/krita-python-mock>`_."
+msgstr ""
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:357
 msgid "Conclusion"
 msgstr "Conclusão"
 
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:359
 msgid ""
 "Okay, so that covers all the Krita specific details for creating python "
 "plugins. It doesn't handle how to parse the pixel data, or best practices "
@@ -802,7 +996,7 @@ msgstr ""
 "práticas com os documentos, mas tiver alguma experiência com o Python, "
 "deverá ser capaz de começar a criar os seus próprios 'plugins'."
 
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:355
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:361
 msgid ""
 "As always, read the code carefully and read the API docs for python, Krita "
 "and Qt carefully to see what is possible, and you'll get pretty far."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-05 11:38+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -24,17 +24,30 @@ msgid "XYZ"
 msgstr "XYZ"
 
 #: ../../reference_manual/filters/edge_detection.rst:None
-msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+msgid ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
 msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:1
 msgid "Overview of the edge detection filters."
 msgstr "Introdução aos filtros de detecção de contornos."
 
+#: ../../reference_manual/filters/edge_detection.rst:11
 #: ../../reference_manual/filters/edge_detection.rst:16
 #: ../../reference_manual/filters/edge_detection.rst:23
 msgid "Edge Detection"
 msgstr "Detecção de Contornos"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+#: ../../reference_manual/filters/edge_detection.rst:40
+#: ../../reference_manual/filters/edge_detection.rst:83
+msgid "Prewitt"
+msgstr "Prewitt"
+
+#: ../../reference_manual/filters/edge_detection.rst:11
+msgid "Sobel"
+msgstr ""
 
 #: ../../reference_manual/filters/edge_detection.rst:18
 msgid ""
@@ -61,7 +74,9 @@ msgstr ""
 "pincéis de filtragem."
 
 #: ../../reference_manual/filters/edge_detection.rst:33
-msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
+msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
 msgstr ".. image:: images/en/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
@@ -99,11 +114,6 @@ msgid ""
 msgstr ""
 "Um núcleo que não é quadrado como os outros dois e, embora funcione "
 "rapidamente, não tem os pixels diagonais em conta."
-
-#: ../../reference_manual/filters/edge_detection.rst:40
-#: ../../reference_manual/filters/edge_detection.rst:83
-msgid "Prewitt"
-msgstr "Prewitt"
 
 #: ../../reference_manual/filters/edge_detection.rst:41
 #: ../../reference_manual/filters/edge_detection.rst:84
@@ -239,6 +249,18 @@ msgstr ""
 "A detecção de contornos será usada sobre uma cópia em tons de cinzento da "
 "imagem, sendo o resultado injectado no canal alfa da imagem, o que significa "
 "que só irá gerar linhas."
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+#, fuzzy
+#| msgid "Height to Normal Map"
+msgid "Height Map"
+msgstr "Mapa de Altura à Normal"
+
+#: ../../reference_manual/filters/edge_detection.rst:66
+#, fuzzy
+#| msgid "Height to Normal Map"
+msgid "Normal Map"
+msgstr "Mapa de Altura à Normal"
 
 #: ../../reference_manual/filters/edge_detection.rst:69
 msgid "Height to Normal Map"

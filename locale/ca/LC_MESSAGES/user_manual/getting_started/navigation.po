@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-18 19:32+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:16+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 # skip-rule: t-sp_2p
 #: ../../<rst_epilog>:2
@@ -48,34 +48,64 @@ msgstr ""
 "   :alt: mousemiddle"
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Interface-tour.png"
-msgstr ".. image:: images/en/Interface-tour.png"
+msgid ".. image:: images/Interface-tour.svg"
+msgstr ".. image:: images/Interface-tour.svg"
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Krita-popuppalette.png"
-msgstr ".. image:: images/en/Krita-popuppalette.png"
+msgid ".. image:: images/Krita-popuppalette.png"
+msgstr ".. image:: images/Krita-popuppalette.png"
 
 #: ../../user_manual/getting_started/navigation.rst:1
 msgid "Overview of Krita navigation."
 msgstr "Visió general de la navegació al Krita."
 
+#: ../../user_manual/getting_started/navigation.rst:13
 #: ../../user_manual/getting_started/navigation.rst:18
 #: ../../user_manual/getting_started/navigation.rst:43
 msgid "Navigation"
 msgstr "Navegació"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+#: ../../user_manual/getting_started/navigation.rst:103
+msgid "Pop-up Palette"
+msgstr "Paleta emergent"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Zoom"
+msgstr "Fer «zoom»"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Rotate"
+msgstr "Girar"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Pan"
+msgstr "Desplaçar"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Workspace"
+msgstr "Espai de treball"
 
 #: ../../user_manual/getting_started/navigation.rst:21
 msgid "Interface"
 msgstr "Interfície"
 
 #: ../../user_manual/getting_started/navigation.rst:23
+#, fuzzy
+#| msgid ""
+#| "Krita provides an ample choice for the artists to arrange the workspace. "
+#| "An artist can snap and arrange the elements of the workspace, much like "
+#| "snapping together Lego blocks.  Krita provides a set of construction kit "
+#| "parts in the form of Dockers and Toolbars. Every set of elements can be "
+#| "shown, hidden, moved and rearranged that let the artist easily customize "
+#| "their own user interface experience."
 msgid ""
-"Krita provides an ample choice for the artists to arrange the workspace. An "
-"artist can snap and arrange the elements of the workspace, much like "
-"snapping together Lego blocks.  Krita provides a set of construction kit "
-"parts in the form of Dockers and Toolbars. Every set of elements can be "
-"shown, hidden, moved and rearranged that let the artist easily customize "
-"their own user interface experience."
+"Krita's interface is very flexible and provides an ample choice for the "
+"artists to arrange the elements of the workspace. An artist can snap and "
+"arrange the elements, much like snapping together Lego blocks. Krita "
+"provides a set of construction kit parts in the form of Dockers and "
+"Toolbars. Every set of elements can be shown, hidden, moved and rearranged "
+"that let the artists easily customize their own user interface experience."
 msgstr ""
 "El Krita proporciona una àmplia selecció per a que els artistes organitzin "
 "l'espai de treball. Un artista pot ajustar i organitzar els elements de "
@@ -90,10 +120,15 @@ msgid "A Tour of the Krita Interface"
 msgstr "Una gira per la interfície del Krita"
 
 #: ../../user_manual/getting_started/navigation.rst:28
+#, fuzzy
+#| msgid ""
+#| "As we've said before, the Krita interface is very malleable and the way "
+#| "that you choose to configure the work surface may not resemble those "
+#| "above but, at least this we can use these as a starting point."
 msgid ""
 "As we've said before, the Krita interface is very malleable and the way that "
-"you choose to configure the work surface may not resemble those above but, "
-"at least this we can use these as a starting point."
+"you choose to configure the work surface may not resemble those shown below, "
+"but we can use these as a starting point."
 msgstr ""
 "Com ja hem dit anteriorment, la interfície del Krita és molt manejable i la "
 "manera que trieu de configurar la superfície de treball pot no semblar-se a "
@@ -117,7 +152,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:36
 msgid ""
-"**C** -- Sidebars for the Movable Panels/Dockers.  In some applications, "
+"**C** -- Sidebars for the Movable Panels/Dockers. In some applications, "
 "these are known as Dockable areas. Krita also allows you to dock panels at "
 "the top and/or bottom as well."
 msgstr ""
@@ -127,7 +162,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:37
 msgid ""
-"**D** -- Status Bar - This space shows you preferred mode for showing "
+"**D** -- Status Bar - This space shows the preferred mode for showing "
 "selection i.e. marching ants or mask mode, your selected brush preset, :ref:"
 "`Color Space <color_managed_workflow>`, image size and provides a convenient "
 "zoom control."
@@ -140,9 +175,8 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:38
 msgid ""
 "**E** -- Floating Panel/Docker - These can be \"popped\" in and out of their "
-"docks at any time in order to see a greater range of options.  A good "
-"example of this would be the :ref:`brush_preset_docker` or the :ref:"
-"`palette_docker`."
+"docks at any time in order to see a greater range of options. A good example "
+"of this would be the :ref:`brush_preset_docker` or the :ref:`palette_docker`."
 msgstr ""
 "**E** -- Plafó/Acoblador flotant: aquests poden «obrir-se» dins i fora dels "
 "seus acobladors en qualsevol moment per a veure un ampli ventall de les "
@@ -152,9 +186,9 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:40
 msgid ""
 "Your canvas sits in the middle and unlike traditional paper or even most "
-"digital painting apps, Krita provides the artist with a scrolling canvas of "
-"infinite size (not that you'll need it of course!).  The standard navigation "
-"tools are as follows:"
+"digital painting applications, Krita provides the artist with a scrolling "
+"canvas of infinite size (not that you'll need it of course!). The standard "
+"navigation tools are as follows:"
 msgstr ""
 "El vostre llenç es troba al mig i, a diferència del paper tradicional o fins "
 "i tot de la majoria de les aplicacions de pintura digital, el Krita "
@@ -202,15 +236,15 @@ msgstr "Emmirallar"
 
 #: ../../user_manual/getting_started/navigation.rst:51
 msgid ""
-"You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a "
+"You can mirror the view can be quickly done via :kbd:`M` key. Mirroring is a "
 "great technique that seasoned digital artists use to quickly review the "
 "composition of their work to ensure that it \"reads\" well, even when "
 "flipped horizontally."
 msgstr ""
-"Podeu emmirallar la vista amb rapidesa mitjançant :kbd:`M`. Emmirallar és "
-"una gran tècnica que els artistes digitals amb experiència fan servir per a "
-"revisar ràpidament la composició del seu treball per assegurar-se que es "
-"«vegi» bé, fins i tot quan es volteja horitzontalment."
+"Podeu emmirallar la vista amb rapidesa mitjançant la tecla :kbd:`M`. "
+"Emmirallar és una gran tècnica que els artistes digitals amb experiència fan "
+"servir per a revisar ràpidament la composició del seu treball per assegurar-"
+"se que es «vegi» bé, fins i tot quan es volteja horitzontalment."
 
 #: ../../user_manual/getting_started/navigation.rst:53
 msgid "Rotating"
@@ -239,7 +273,7 @@ msgstr "Acobladors"
 #: ../../user_manual/getting_started/navigation.rst:60
 msgid ""
 "Krita subdivides many of its options into functional panels called Dockers "
-"(aka Docks)."
+"(also known as Docks)."
 msgstr ""
 "El Krita subdivideix moltes de les seves opcions en plafons funcionals "
 "anomenats Acobladors."
@@ -247,16 +281,17 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:62
 msgid ""
 "Dockers are small windows that can contain, for example, things like the "
-"layer stack, Color Palette or Brush Presets. Think of them as the painter's "
-"palette, or his water, or his brushkit. They can be activated by choosing "
-"the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu.  There "
-"you will find a long list of available options."
+"layer stack, Color Palette or list of Brush Presets. Think of them as the "
+"painter's palette, or his water, or his brush kit. They can be activated by "
+"choosing the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu. "
+"There you will find a long list of available options."
 msgstr ""
 "Els acobladors són petites finestres que poden contenir, per exemple, coses "
-"com la pila de capes, la paleta de colors o els pinzells predefinits. Penseu-"
-"hi com la paleta d'un pintor, en la seva aigua o en el seu pinzell. Es poden "
-"activar escollint el menú :guilabel:`Arranjament` i el submenú :guilabel:"
-"`Acobladors`. Hi trobareu una llarga llista d'opcions disponibles."
+"com la pila de capes, la Paleta de colors o la llista de Pinzells "
+"predefinits. Penseu-hi com la paleta d'un pintor, en la seva aigua o en el "
+"seu pinzell. Es poden activar escollint el menú :guilabel:`Arranjament` i el "
+"submenú :guilabel:`Acobladors`. Hi trobareu una llarga llista d'opcions "
+"disponibles."
 
 #: ../../user_manual/getting_started/navigation.rst:64
 msgid ""
@@ -268,7 +303,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:66
 msgid ""
-"Dockers, as the name implied, can be docked into the main interface. You can "
+"Dockers, as the name implies, can be docked into the main interface. You can "
 "do this by dragging the docker to the sides of the canvas (or top or bottom "
 "if you prefer)."
 msgstr ""
@@ -318,13 +353,13 @@ msgstr ""
 "mostra un control lliscant del Krita."
 
 #: ../../user_manual/getting_started/navigation.rst:79
-msgid ".. image:: images/en/Krita_Opacity_Slider.png"
-msgstr ".. image:: images/en/Krita_Opacity_Slider.png"
+msgid ".. image:: images/Krita_Opacity_Slider.png"
+msgstr ".. image:: images/Krita_Opacity_Slider.png"
 
 #: ../../user_manual/getting_started/navigation.rst:80
 msgid ""
 "The total range is represented from left to right and blue bar gives an "
-"indication of where in the possible range the current value is.  Clicking "
+"indication of where in the possible range the current value is. Clicking "
 "anywhere, left or right, of that slider will change the current number to "
 "something lower (to the left) or higher (to the right)."
 msgstr ""
@@ -358,8 +393,8 @@ msgid "Toolbars"
 msgstr "Barres d'eines"
 
 #: ../../user_manual/getting_started/navigation.rst:89
-msgid ".. image:: images/en/Krita_Toolbar.png"
-msgstr ".. image:: images/en/Krita_Toolbar.png"
+msgid ".. image:: images/Krita_Toolbar.png"
+msgstr ".. image:: images/Krita_Toolbar.png"
 
 #: ../../user_manual/getting_started/navigation.rst:90
 msgid ""
@@ -388,26 +423,34 @@ msgstr "Triar l'espai de treball"
 
 #: ../../user_manual/getting_started/navigation.rst:98
 msgid ""
-"The button on the very right of the toolbar is the workspace chooser. This "
+"The button on the very right of the Toolbar is the workspace chooser. This "
 "allows you to load and save common configurations of the user interface in "
 "Krita. There are a few common workspaces that come with Krita."
 msgstr ""
-"El botó que es troba a la dreta de la barra d'eines és el selector de "
+"El botó que es troba a la dreta de la Barra d'eines és el selector de "
 "l'espai de treball. Aquest permet carregar i desar les configuracions "
 "habituals de la interfície d'usuari en el Krita. Hi ha alguns espais de "
 "treball habituals que ja vénen amb el Krita."
 
 #: ../../user_manual/getting_started/navigation.rst:101
-msgid "Pop-up Palette"
-msgstr "Paleta emergent"
+msgid ".. image:: images/workspace-chooser-button.svg"
+msgstr ".. image:: images/workspace-chooser-button.svg"
 
-#: ../../user_manual/getting_started/navigation.rst:106
+#: ../../user_manual/getting_started/navigation.rst:108
+#, fuzzy
+#| msgid ""
+#| "Pop-up Palette is a unique feature in Krita designed to increase "
+#| "productivity of the artist. It is a circular menu for quickly choosing "
+#| "brushes, foreground and background colors, recent colors while painting. "
+#| "To access the palette you have to just |mouseright| on the canvas. The "
+#| "palette will spawn at the place of the brush tip or cursor."
 msgid ""
-"Pop-up Palette is a unique feature in Krita designed to increase "
-"productivity of the artist. It is a circular menu for quickly choosing "
-"brushes, foreground and background colors, recent colors while painting. To "
-"access the palette you have to just |mouseright| on the canvas. The palette "
-"will spawn at the place of the brush tip or cursor."
+":ref:`Pop-up Palette <pop-up_palette>` is a feature unique to Krita, "
+"designed to increase the productivity of the artist. It is a circular menu "
+"for quickly choosing brushes, foreground and background colors, recent "
+"colors while painting. To access the palette you have to just |mouseright| "
+"on the canvas. The palette will spawn at the position of the brush tip or "
+"cursor."
 msgstr ""
 "La paleta emergent és una característica única del Krita, dissenyada per "
 "augmentar la productivitat de l'artista. És un menú circular per escollir "
@@ -416,7 +459,7 @@ msgstr ""
 "llenç. La paleta apareixerà al lloc de la punta del pinzell o del punter del "
 "ratolí."
 
-#: ../../user_manual/getting_started/navigation.rst:108
+#: ../../user_manual/getting_started/navigation.rst:110
 msgid ""
 "By tagging your brush presets you can add particular sets of brushes to this "
 "palette. For example, if you add some inking brush presets to inking tag you "
@@ -428,23 +471,31 @@ msgstr ""
 "a l'etiqueta tintes, podreu canviar les etiquetes per a tintes a la paleta "
 "emergent i obtindreu tots els pinzells de tinta a la paleta."
 
-#: ../../user_manual/getting_started/navigation.rst:110
-msgid ""
-"You can :ref:`tag <tag_management>` brush presets via the :ref:"
-"`brush_preset_docker`, check out the resource overview page to know more "
-"about tagging in general."
-msgstr ""
-"Podeu establir una :ref:`etiqueta <tag_management>` amb pinzells predefinits "
-"mitjançant l':ref:`brush_preset_docker`, consulteu la pàgina de resum del "
-"recurs per a saber més sobre l'etiquetatge en general."
-
 #: ../../user_manual/getting_started/navigation.rst:112
 msgid ""
-"If you call up the pop-up palette again, you can click the wrench icon, and "
+"You can :ref:`tag <tag_management>` brush presets via the :ref:"
+"`brush_preset_docker`, check out the :ref:`resource overview page "
+"<resource_management>` to know more about tagging in general."
+msgstr ""
+"Podeu establir una :ref:`etiqueta <tag_management>` amb pinzells predefinits "
+"mitjançant l':ref:`brush_preset_docker`, reviseu la :ref:`pàgina de resum "
+"del recurs <resource_management>` per a saber més sobre l'etiquetatge en "
+"general."
+
+#: ../../user_manual/getting_started/navigation.rst:114
+#, fuzzy
+#| msgid ""
+#| "If you call up the pop-up palette again, you can click the wrench icon, "
+#| "and select the tag. In fact, you can make multiple tags and switch "
+#| "between them. When you need more than ten presets, go into :menuselection:"
+#| "`Settings --> Configure Krita --> General --> Favorite presets` and "
+#| "change the number of presets from 10 to something you feel comfortable."
+msgid ""
+"If you call up the pop-up palette again, you can click the tag icon, and "
 "select the tag. In fact, you can make multiple tags and switch between them. "
 "When you need more than ten presets, go into :menuselection:`Settings --> "
-"Configure Krita --> General --> Favorite presets` and change the number of "
-"presets from 10 to something you feel comfortable."
+"Configure Krita --> General --> Miscellaneous --> Number of Palette Presets` "
+"and change the number of presets from 10 to something you feel comfortable."
 msgstr ""
 "Si torneu a fer servir la paleta emergent, podreu fer clic a la icona de "
 "clau anglesa i seleccionar l'etiqueta. De fet, podeu crear múltiples "

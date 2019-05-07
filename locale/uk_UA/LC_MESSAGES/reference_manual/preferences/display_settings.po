@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___preferences___display_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___preferences___display_se"
+"ttings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-28 03:35+0100\n"
-"PO-Revision-Date: 2019-03-28 08:46+0200\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"PO-Revision-Date: 2019-05-06 07:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -29,23 +29,49 @@ msgstr "Приховати контекстну підказку мініатю�
 msgid "Display settings in Krita."
 msgstr "Параметри показу у Krita."
 
+#: ../../reference_manual/preferences/display_settings.rst:12
+#: ../../reference_manual/preferences/display_settings.rst:24
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+#: ../../reference_manual/preferences/display_settings.rst:84
+msgid "Canvas Border"
+msgstr "Рамка полотна"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Settings"
+msgstr "Параметри"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Transparency Checkers"
+msgstr "Пункти керування прозорістю"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Canvas Graphics Acceleration"
+msgstr "Прискорення графіки на полотні"
+
+#: ../../reference_manual/preferences/display_settings.rst:12
+msgid "Display"
+msgstr "Показ"
+
 #: ../../reference_manual/preferences/display_settings.rst:17
 msgid "Display Settings"
 msgstr "Параметри показу"
 
 #: ../../reference_manual/preferences/display_settings.rst:20
-msgid ".. image:: images/en/Krita_Preferences_Display.png"
-msgstr ".. image:: images/en/Krita_Preferences_Display.png"
+msgid ".. image:: images/preferences/Krita_Preferences_Display.png"
+msgstr ".. image:: images/preferences/Krita_Preferences_Display.png"
 
 #: ../../reference_manual/preferences/display_settings.rst:21
 msgid "Here various settings for the rendering of Krita can be edited."
 msgstr ""
 "За допомогою цієї сторінки можна редагувати різноманітні параметри Krita, "
 "які пов'язано із обробкою зображення."
-
-#: ../../reference_manual/preferences/display_settings.rst:24
-msgid "OpenGL"
-msgstr "OpenGL"
 
 #: ../../reference_manual/preferences/display_settings.rst:26
 msgid ""
@@ -207,11 +233,87 @@ msgstr ""
 "підтримку OpenGL 3.0. Як можна зрозуміти із назви, за допомогою цього пункту "
 "можна досягти найякіснішого зображення під час дій з полотном."
 
-#: ../../reference_manual/preferences/display_settings.rst:52
+#: ../../reference_manual/preferences/display_settings.rst:54
+msgid "HDR"
+msgstr "HDR"
+
+#: ../../reference_manual/preferences/display_settings.rst:58
+msgid "These settings are only available when using Windows."
+msgstr "Цими параметрами можна скористатися лише у середовищі Windows."
+
+#: ../../reference_manual/preferences/display_settings.rst:60
+#| msgid ""
+#| "Since 4.2 Krita can not just edit floating point images, but also render "
+#| "them on screen in a way that a HDR capable setup can show them as HDR "
+#| "images."
+msgid ""
+"Since 4.2 Krita can not just edit floating point images, but also render "
+"them on screen in a way that an HDR capable setup can show them as HDR "
+"images."
+msgstr ""
+"Починаючи з версії 4.2, Krita не просто редагує зображення із дійсними "
+"значеннями кольорів, але і обробляє їх для показу на екрані так, що за "
+"конфігурації із усіма можливостями HDR зображення було показано як справжні "
+"зображення HDR."
+
+#: ../../reference_manual/preferences/display_settings.rst:62
+msgid ""
+"The HDR settings will show you the display format that Krita can handle, and "
+"the current output format. You will want to set the preferred output format "
+"to the one closest to what your display can handle to make full use of it."
+msgstr ""
+"У параметрах HDR ви зможете побачити формат показу, з яким може працювати "
+"Krita, і поточний формат виведення даних. Вам варто встановити бажаний "
+"формат виведення даних якомога ближчим до того, який може бути використано "
+"на вашому дисплеї, щоб повністю використати його можливості."
+
+#: ../../reference_manual/preferences/display_settings.rst:64
+msgid "Display Format"
+msgstr "Формат показу"
+
+#: ../../reference_manual/preferences/display_settings.rst:65
+msgid ""
+"The format your display is in by default. If this isn't higher than 8bit, "
+"there's a good chance your monitor is not an HDR monitor as far as Krita can "
+"tell. This can be a hardware issue, but also a graphics driver issue. Check "
+"if other HDR applications, or the system HDR settings are configured "
+"correctly."
+msgstr ""
+"Формат, у якому типово працює ваш дисплей. Якщо значення тут не перевищують "
+"8-бітових, дуже ймовірно, що ваш монітор не може показувати кольори широкого "
+"динамічного діапазону (HDR), принаймні, наскільки це відомо Krita. Причиною "
+"цього можуть бути проблеми не лише із обладнанням, але і з драйверами до "
+"графічної картки. Перевірте, чи працюють інші програми з можливостями показу "
+"HDR та чи налаштовано належним чином загальносистемні параметри HDR."
+
+#: ../../reference_manual/preferences/display_settings.rst:66
+msgid "Current Output format"
+msgstr "Поточний формат виведення"
+
+#: ../../reference_manual/preferences/display_settings.rst:67
+msgid "What Krita is rendering the canvas to currently."
+msgstr "Визначає, що саме Krita обробляє для показу на полотні."
+
+#: ../../reference_manual/preferences/display_settings.rst:69
+msgid "Preferred Output Format"
+msgstr "Бажаний формат виведення"
+
+#: ../../reference_manual/preferences/display_settings.rst:69
+msgid ""
+"Which surface type you prefer. This should be ideally the closest to the "
+"display format, but perhaps due to driver issues you might want to try other "
+"formats. This requires a restart."
+msgstr ""
+"Визначає бажаний для вас тип поверхні. Ідеально, має бути якомога ближчим до "
+"формату показу, але, ймовірно, через проблеми із драйвером вам можуть "
+"знадобитися інші формати. Зміна значення цього параметра потребуватиме "
+"перезапуску програми."
+
+#: ../../reference_manual/preferences/display_settings.rst:72
 msgid "Transparency Checkboxes"
 msgstr "Пункти керування прозорістю"
 
-#: ../../reference_manual/preferences/display_settings.rst:54
+#: ../../reference_manual/preferences/display_settings.rst:74
 msgid ""
 "Krita supports layer transparency. Of course, the nasty thing is that "
 "transparency can't be seen. So to indicate transparency at the lowest layer, "
@@ -223,11 +325,11 @@ msgstr ""
 "шахівниці. За допомогою цієї частини панелі налаштувань ви можете "
 "налаштувати цей картатий візерунок."
 
-#: ../../reference_manual/preferences/display_settings.rst:56
+#: ../../reference_manual/preferences/display_settings.rst:76
 msgid "Size"
 msgstr "Розмір"
 
-#: ../../reference_manual/preferences/display_settings.rst:57
+#: ../../reference_manual/preferences/display_settings.rst:77
 msgid ""
 "This sets the size of the checkers which show up in transparent parts of an "
 "image."
@@ -235,21 +337,21 @@ msgstr ""
 "Визначає розмір клітинок у картатому візерунку, який позначатиме прозорі "
 "частини зображення."
 
-#: ../../reference_manual/preferences/display_settings.rst:58
-#: ../../reference_manual/preferences/display_settings.rst:66
 #: ../../reference_manual/preferences/display_settings.rst:78
+#: ../../reference_manual/preferences/display_settings.rst:86
+#: ../../reference_manual/preferences/display_settings.rst:98
 msgid "Color"
 msgstr "Колір"
 
-#: ../../reference_manual/preferences/display_settings.rst:59
+#: ../../reference_manual/preferences/display_settings.rst:79
 msgid "The user can set the colors for the checkers over here."
 msgstr "Тут можна вибрати кольори картатого замінника прозорих ділянок."
 
-#: ../../reference_manual/preferences/display_settings.rst:61
+#: ../../reference_manual/preferences/display_settings.rst:81
 msgid "Move Checkers When Scrolling"
 msgstr "Пересувати шахівницю під час гортання"
 
-#: ../../reference_manual/preferences/display_settings.rst:61
+#: ../../reference_manual/preferences/display_settings.rst:81
 msgid ""
 "When selected the checkers will move along with opaque elements of an image "
 "during canvas Panning, Zooming, etc.  Otherwise the checkers remain "
@@ -261,11 +363,7 @@ msgstr ""
 "лишатиметься стаціонарною, пересуватимуться лише непрозорі частини "
 "зображення."
 
-#: ../../reference_manual/preferences/display_settings.rst:64
-msgid "Canvas Border"
-msgstr "Рамка полотна"
-
-#: ../../reference_manual/preferences/display_settings.rst:67
+#: ../../reference_manual/preferences/display_settings.rst:87
 msgid ""
 "The user can select the color for the canvas i.e. the space beyond a "
 "document's boundaries."
@@ -273,21 +371,21 @@ msgstr ""
 "Користувач може вибрати колір полотна, тобто колір простору за межами "
 "документа."
 
-#: ../../reference_manual/preferences/display_settings.rst:69
+#: ../../reference_manual/preferences/display_settings.rst:89
 msgid "Hide Scrollbars"
 msgstr "Приховати смужки гортання"
 
-#: ../../reference_manual/preferences/display_settings.rst:69
+#: ../../reference_manual/preferences/display_settings.rst:89
 msgid "Selecting this will hide the scrollbars in all view modes."
 msgstr ""
 "Позначення цього пункту призведе до приховування смужок гортання в усіх "
 "режимах перегляду."
 
-#: ../../reference_manual/preferences/display_settings.rst:72
+#: ../../reference_manual/preferences/display_settings.rst:92
 msgid "Pixel Grid"
 msgstr "Піксельна сітка"
 
-#: ../../reference_manual/preferences/display_settings.rst:76
+#: ../../reference_manual/preferences/display_settings.rst:96
 msgid ""
 "This allows configuring an automatic pixel-by-pixel grid, which is very "
 "useful for doing pixel art."
@@ -295,15 +393,15 @@ msgstr ""
 "Цей пункт надає змогу налаштувати автоматичну ґратку за пікселями, яка дуже "
 "корисно для створення піксель-арту."
 
-#: ../../reference_manual/preferences/display_settings.rst:79
+#: ../../reference_manual/preferences/display_settings.rst:99
 msgid "The color of the grid."
 msgstr "Колір ґратки."
 
-#: ../../reference_manual/preferences/display_settings.rst:81
+#: ../../reference_manual/preferences/display_settings.rst:101
 msgid "Start Showing at"
 msgstr "Почати показ з"
 
-#: ../../reference_manual/preferences/display_settings.rst:81
+#: ../../reference_manual/preferences/display_settings.rst:101
 msgid ""
 "This determines the zoom level at which the pixel grid starts showing, as "
 "showing it when the image is zoomed out a lot will make the grid overwhelm "
@@ -313,15 +411,15 @@ msgstr ""
 "піксельну ґратку. Показ ґратки за малих значень масштабу заважає показу "
 "самого зображення, тому є позбавленим сенсу."
 
-#: ../../reference_manual/preferences/display_settings.rst:84
+#: ../../reference_manual/preferences/display_settings.rst:104
 msgid "Miscellaneous"
 msgstr "Різне"
 
-#: ../../reference_manual/preferences/display_settings.rst:86
+#: ../../reference_manual/preferences/display_settings.rst:106
 msgid "Color Channels in Color"
 msgstr "Канали кольорів у кольорі"
 
-#: ../../reference_manual/preferences/display_settings.rst:87
+#: ../../reference_manual/preferences/display_settings.rst:107
 msgid ""
 "This is supposed to determine what to do when only a single channel is "
 "selected in the channels docker, but it doesn't seem to work."
@@ -329,11 +427,11 @@ msgstr ""
 "Цей пункт призначено для визначення поведінки програми, якщо на бічній "
 "панелі каналів вибрано лише один канал."
 
-#: ../../reference_manual/preferences/display_settings.rst:88
+#: ../../reference_manual/preferences/display_settings.rst:108
 msgid "Enable Curve Anti-Aliasing"
 msgstr "Увімкнути згладжування кривих"
 
-#: ../../reference_manual/preferences/display_settings.rst:89
+#: ../../reference_manual/preferences/display_settings.rst:109
 msgid ""
 "This allows anti-aliasing on previewing curves, like the ones for the circle "
 "tool, or the path tool."
@@ -341,11 +439,11 @@ msgstr ""
 "Цей пункт уможливлює використання згладжування на кривих попереднього "
 "перегляду, зокрема для інструментів побудови кіл та контурів."
 
-#: ../../reference_manual/preferences/display_settings.rst:90
+#: ../../reference_manual/preferences/display_settings.rst:110
 msgid "Enable Selection Outline Anti-Aliasing"
 msgstr "Увімкнути згладжування контуру позначеного"
 
-#: ../../reference_manual/preferences/display_settings.rst:91
+#: ../../reference_manual/preferences/display_settings.rst:111
 msgid ""
 "This allows automatic anti-aliasing on selection. It makes the selection "
 "feel less jaggy and more precise."
@@ -353,15 +451,15 @@ msgstr ""
 "Цей пункт уможливлює автоматичне згладжування на позначних ділянках. Надає "
 "позначеним ділянкам плавнішого та точнішого вигляду."
 
-#: ../../reference_manual/preferences/display_settings.rst:92
+#: ../../reference_manual/preferences/display_settings.rst:112
 msgid "Hide window scrollbars."
 msgstr "Приховати смужки гортання"
 
-#: ../../reference_manual/preferences/display_settings.rst:93
+#: ../../reference_manual/preferences/display_settings.rst:113
 msgid "Hides the scrollbars on the canvas."
 msgstr "Приховує смужки гортання на полотні."
 
-#: ../../reference_manual/preferences/display_settings.rst:95
+#: ../../reference_manual/preferences/display_settings.rst:115
 msgid "This disables the thumbnail that you get when hovering over a layer."
 msgstr ""
 "За допомогою цього пункту можна вимкнути мініатюру, яку програма показує при "

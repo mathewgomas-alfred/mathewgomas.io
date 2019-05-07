@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,18 @@ msgstr ""
 #: ../../general_concepts/file_formats/file_psd.rst:1
 msgid "The Photoshop file format as exported by Krita."
 msgstr "介绍由 Krita 导出的 Photoshop 文件格式。"
+
+#: ../../general_concepts/file_formats/file_psd.rst:10
+msgid "*.psd"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_psd.rst:10
+msgid "PSD"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_psd.rst:10
+msgid "Photoshop Document"
+msgstr ""
 
 #: ../../general_concepts/file_formats/file_psd.rst:15
 msgid "\\*.psd"
@@ -47,8 +59,8 @@ msgid ""
 msgstr ""
 ".psd 和 :ref:`file_pdf`、:ref:`file_tif`、:ref:`file_exr`、:ref:`file_ora` "
 "和 :ref:`file_svg` 等图像交换文件格式不同，在网上是找不到它的官方规范文件的。"
-"这意味着其他软件想使用它，必须对其进行逆向工程。还有就是作为一种内建格式，它"
-"的文件结构缺乏明显的指导思想，只关注如何把新版本正在关注的功能给添加进来。"
+"这意味着其他软件想使用它，必须对其进行逆向工程。不仅如此，作为一种内建格式，"
+"它的文件结构缺乏明显的指导思想，只关注如何把新版本正在炒作的功能给添加进来。"
 "PSD 文件就像是 Photoshop 清奇思路的化身，大家虽然都在用它，却也都在嫌弃它。"
 
 #: ../../general_concepts/file_formats/file_psd.rst:21
@@ -60,10 +72,10 @@ msgid ""
 "psd is an internal file-format without online specs, it is impossible to "
 "have any program outside it support it 100%."
 msgstr ""
-"由于 .psd 被用作一种图像交换格式，人们使用图像程序时往往会为某个程序竟然不支"
-"持打开 PSD 文件而感到困惑。你有时候会听到用户说某个程序很糟糕，因为它不能良好"
-"地支持 PSD 格式。但考虑到 PSD 是一种未公布规范的内建文件格式，其他软件永远也"
-"不可能做到对其完美支持。"
+"由于 .psd 被用作一种图像交换格式，人们往往会对某个图像程序竟然不支持打开 PSD "
+"文件而感到困惑。你有时候会听到用户说某个程序很糟糕，因为它不能良好地支持 PSD "
+"格式云云。但考虑到 PSD 是一种未公布规范的内建文件格式，其他软件永远也不可能做"
+"到对其完美支持。"
 
 #: ../../general_concepts/file_formats/file_psd.rst:23
 msgid ""
@@ -72,16 +84,16 @@ msgid ""
 "never support vector and text layers, as these are just too difficult to "
 "program properly."
 msgstr ""
-"Krita 支持 PSD 格式的栅格图层、混色模式、图层央视、透明度蒙版等功能，但不能，"
-"也不会支持它的矢量和文本图层，因为相关编程过于困难。"
+"Krita 支持 PSD 格式的栅格图层、混色模式、图层样式、透明度蒙版等功能，但 "
+"Krita 并不能，也不打算支持它的矢量和文本图层，因为相关编程过于困难。"
 
 #: ../../general_concepts/file_formats/file_psd.rst:25
 msgid ""
 "We recommend using any other file format instead of psd if possible, with a "
 "strong preference towards :ref:`file_ora` or :ref:`file_tif`."
 msgstr ""
-"我们建议，尽量使用其他格式取代 PSD 作为图像交换文件格式，如 :ref:`file_ora` "
-"或 :ref:`file_tif` 都是有力候补。"
+"我们建议尽量使用其他格式取代 PSD 作为图像交换文件格式，如 :ref:`file_ora` "
+"和 :ref:`file_tif` 都是有力候补。"
 
 #: ../../general_concepts/file_formats/file_psd.rst:27
 msgid ""

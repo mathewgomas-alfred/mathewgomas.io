@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,12 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+
 #: ../../<rst_epilog>:66
 msgid ""
 ".. image:: images/icons/rectangular_select_tool.svg\n"
@@ -35,6 +41,22 @@ msgstr ""
 
 #: ../../reference_manual/tools/rectangular_select.rst:1
 msgid "Krita's rectangular selection tool reference."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Rectangle"
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Rectangular Selection"
 msgstr ""
 
 #: ../../reference_manual/tools/rectangular_select.rst:16
@@ -112,74 +134,84 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/rectangular_select.rst:39
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:40
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/rectangular_select.rst:44
 msgid ""
 "So to subtract a perfect square, you do :kbd:`Alt +` |mouseleft|, then "
 "release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to "
 "constrain."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:44
+#: ../../reference_manual/tools/rectangular_select.rst:49
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:47
+#: ../../reference_manual/tools/rectangular_select.rst:52
 msgid "Tool Options"
 msgstr "工具选项"
 
-#: ../../reference_manual/tools/rectangular_select.rst:49
+#: ../../reference_manual/tools/rectangular_select.rst:54
 msgid "Anti-aliasing"
 msgstr "抗锯齿"
 
-#: ../../reference_manual/tools/rectangular_select.rst:50
+#: ../../reference_manual/tools/rectangular_select.rst:55
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:51
+#: ../../reference_manual/tools/rectangular_select.rst:56
 msgid "Width"
 msgstr "宽度"
 
-#: ../../reference_manual/tools/rectangular_select.rst:52
+#: ../../reference_manual/tools/rectangular_select.rst:57
 msgid ""
 "Gives the current width. Use the lock to force the next selection made to "
 "this width."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:53
+#: ../../reference_manual/tools/rectangular_select.rst:58
 msgid "Height"
 msgstr "高度"
 
-#: ../../reference_manual/tools/rectangular_select.rst:54
+#: ../../reference_manual/tools/rectangular_select.rst:59
 msgid ""
 "Gives the current height. Use the lock to force the next selection made to "
 "this height."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid "Ratio"
 msgstr "份额"
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:60
+#: ../../reference_manual/tools/rectangular_select.rst:65
 msgid "Round X"
 msgstr "圆角 X"
 
-#: ../../reference_manual/tools/rectangular_select.rst:61
+#: ../../reference_manual/tools/rectangular_select.rst:66
 msgid "The horizontal radius of the rectangle corners."
 msgstr ""
 
-#: ../../reference_manual/tools/rectangular_select.rst:62
+#: ../../reference_manual/tools/rectangular_select.rst:67
 msgid "Round Y"
 msgstr "圆角 Y"
 
-#: ../../reference_manual/tools/rectangular_select.rst:63
+#: ../../reference_manual/tools/rectangular_select.rst:68
 msgid "The vertical radius of the rectangle corners."
 msgstr ""

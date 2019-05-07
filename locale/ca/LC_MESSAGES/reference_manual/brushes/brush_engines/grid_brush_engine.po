@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-22 03:26+0100\n"
-"PO-Revision-Date: 2019-04-15 20:35+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Mix with background color"
@@ -27,9 +27,18 @@ msgstr "Mescla amb el color de fons"
 msgid "The Grid Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de reixa."
 
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:17
 msgid "Grid Brush Engine"
 msgstr "Motor del pinzell de reixa"
+
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:12
+msgid "Grid"
+msgstr "Reixa"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:21
 msgid ".. image:: images/icons/gridbrush.svg"
@@ -40,12 +49,16 @@ msgid ""
 "The grid brush engine draws shapes on a grid. It helps you produce retro and "
 "halftone effects."
 msgstr ""
+"El motor del pinzell de reixa dibuixa formes sobre una quadrícula. Això "
+"ajudarà a produir efectes retro i amb tons mitjans."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:24
 msgid ""
 "If you're looking to setup a grid for snapping, head to :ref:"
 "`grids_and_guides_docker`."
 msgstr ""
+"Si esteu cercant com configurar una quadrícula per ajustar-hi el vostre "
+"treball, aneu a l':ref:`grids_and_guides_docker`."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:27
 msgid "Options"
@@ -81,7 +94,7 @@ msgstr "Amplada de la reixa"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:41
 msgid "Width of the cursor area"
-msgstr ""
+msgstr "L'amplada de l'àrea del cursor."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:42
 msgid "Grid Height"
@@ -89,7 +102,7 @@ msgstr "Alçada de la reixa"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:43
 msgid "Height of the cursor area"
-msgstr ""
+msgstr "L'alçada de l'àrea del cursor."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:44
 msgid "Division"
@@ -99,6 +112,8 @@ msgstr "Divisió"
 msgid ""
 "Subdivides the cursor area and uses the resulting area to draw the particles."
 msgstr ""
+"Subdivideix l'àrea del cursor i utilitza l'àrea resultant per a dibuixar les "
+"partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:46
 msgid "Division by pressure"
@@ -109,6 +124,8 @@ msgid ""
 "The more you press, the more subdivisions. Uses Division as the finest "
 "subdivision possible."
 msgstr ""
+"Com més premeu, apareixeran més subdivisions. Utilitzeu l'opció Divisió com "
+"a la millor subdivisió possible."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:48
 msgid "Scale"
@@ -116,7 +133,7 @@ msgstr "Escala"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:49
 msgid "Scales up the area."
-msgstr ""
+msgstr "Ajusta l'escala a l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:50
 msgid "Vertical Border"
@@ -127,6 +144,8 @@ msgid ""
 "Forces vertical borders in the particle space, between which the particle "
 "needs to squeeze itself."
 msgstr ""
+"Força l'ús de vores verticals a l'espai per a les partícules, entre les "
+"quals hauran de romandre les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:52
 msgid "Horizontal Border"
@@ -137,6 +156,8 @@ msgid ""
 "Forces a horizontal borders in the particle space, between which the "
 "particle needs to squeeze itself."
 msgstr ""
+"Força l'ús de vores horitzontals a l'espai per a les partícules, entre les "
+"quals hauran de romandre les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Jitter Borders"
@@ -145,6 +166,8 @@ msgstr "Vores Jitter"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:55
 msgid "Randomizes the border values with the Border values given as maximums."
 msgstr ""
+"Ajusta de forma aleatòria els valors de les vores en funció dels valors "
+"indicats com a màxims."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:60
 msgid "Particle Type"
@@ -152,7 +175,7 @@ msgstr "Tipus de partícula"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:62
 msgid "Decides the shape of the particle."
-msgstr ""
+msgstr "S'empra per a decidir la forma per a les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:64
 msgid "Ellipse"
@@ -160,7 +183,7 @@ msgstr "El·lipse"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:65
 msgid "Fills the area with an ellipse."
-msgstr ""
+msgstr "Omplirà l'àrea d'una el·lipse."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:66
 msgid "Rectangle"
@@ -168,7 +191,7 @@ msgstr "Rectangle"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:67
 msgid "Fills the area."
-msgstr ""
+msgstr "Omplirà l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:68
 msgid "Line"
@@ -178,6 +201,8 @@ msgstr "Línia"
 msgid ""
 "Draws lines from the lower left to the upper right corner of the particle"
 msgstr ""
+"Dibuixa línies des de la cantonada inferior esquerra fins a la superior "
+"dreta de les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:70
 msgid "Pixel"
@@ -185,7 +210,7 @@ msgstr "Píxel"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:71
 msgid "Looks like an aliased line on high resolutions."
-msgstr ""
+msgstr "En altes resolucions sembla com una línia pixelada."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Anti-aliased Pixel"
@@ -193,7 +218,7 @@ msgstr "Píxel amb antialiàsing"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:73
 msgid "Fills the area with little polygons."
-msgstr ""
+msgstr "Omplirà l'àrea amb petits polígons."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:78
 msgid "Color Options"
@@ -209,6 +234,9 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Assigna valors aleatoris a l'HSV amb la força dels controls lliscants. Com "
+"més gran sigui el valor, més es desviarà el color del color de primer pla, "
+"amb la direcció indicada seguint el sentit horari o antihorari."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:82
 msgid "Random Opacity"
@@ -216,7 +244,7 @@ msgstr "Opacitat aleatòria"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:83
 msgid "Randomizes the opacity."
-msgstr ""
+msgstr "Assigna valors aleatoris a l'opacitat."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:84
 msgid "Color Per Particle"
@@ -225,6 +253,8 @@ msgstr "Color per partícula"
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:85
 msgid "Has the color options be per particle instead of area."
 msgstr ""
+"Disposa de les opcions de color per aplicar-los per partícula en comptes de "
+"a l'àrea."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:86
 msgid "Sample Input Layer"
@@ -235,6 +265,8 @@ msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Utilitzarà la capa subjacent com a referència per als colors en comptes "
+"d'utilitzar el color de primer pla."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:88
 msgid "Fill Background"
@@ -242,10 +274,12 @@ msgstr "Emplena el fons"
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:89
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Omplirà l'àrea amb el color de fons abans de dibuixar les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/grid_brush_engine.rst:91
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
 msgstr ""
+"Assigna a la partícula un color aleatori entre el color de primer pla/"
+"entrada/HSV aleatori i el color de fons."

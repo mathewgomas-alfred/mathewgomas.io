@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___dockers___advanced_color_selector\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-17 07:30+0300\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-05 08:16+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -25,13 +25,23 @@ msgstr ""
 msgid "Overview of the advanced color selector docker."
 msgstr "Огляд бічної панелі розширеного вибору кольорів."
 
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
 #: ../../reference_manual/dockers/advanced_color_selector.rst:16
 msgid "Advanced Color Selector"
 msgstr "Розширений вибір кольору"
 
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
+#: ../../reference_manual/dockers/advanced_color_selector.rst:24
+msgid "Color Selector"
+msgstr "Вибір кольору"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
+msgid "Color"
+msgstr "Колір"
+
 #: ../../reference_manual/dockers/advanced_color_selector.rst:20
-msgid ".. image:: images/en/Advancecolorselector.jpg"
-msgstr ".. image:: images/en/Advancecolorselector.jpg"
+msgid ".. image:: images/dockers/Advancecolorselector.jpg"
+msgstr ".. image:: images/dockers/Advancecolorselector.jpg"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:21
 msgid ""
@@ -51,23 +61,29 @@ msgstr ""
 "панелі. Після натискання піктограми із гайковим ключем програма відкриє "
 "контекстне вікно із такими вкладками та пунктами:"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:24
-msgid "Color Selector"
-msgstr "Вибір кольору"
-
 #: ../../reference_manual/dockers/advanced_color_selector.rst:26
 msgid "Here you configure the main selector."
 msgstr "Тут ви можете налаштувати основний засіб вибору."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:29
+#: ../../reference_manual/dockers/advanced_color_selector.rst:28
+msgid "Show Color Selector"
+msgstr "Показати панель вибору кольору"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:31
+msgid ""
+"This allows you to configure whether to show or hide the main color selector."
+msgstr ""
+"Надає вам змогу визначити, чи буде показано головний засіб вибору кольору."
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:34
 msgid "Type and Shape"
 msgstr "Тип і форма"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:32
-msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
-msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
+#: ../../reference_manual/dockers/advanced_color_selector.rst:37
+msgid ".. image:: images/dockers/Krita_Color_Selector_Types.png"
+msgstr ".. image:: images/dockers/Krita_Color_Selector_Types.png"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:33
+#: ../../reference_manual/dockers/advanced_color_selector.rst:38
 msgid ""
 "Here you can pick the hsx model you'll be using. There's a small blurb "
 "explaining the characteristic of each model, but let's go into detail:"
@@ -76,11 +92,11 @@ msgstr ""
 "невеличкі підказки, які пояснюють основні характеристики кожної з моделей, "
 "але розберемо усе докладніше:"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:36
+#: ../../reference_manual/dockers/advanced_color_selector.rst:41
 msgid "HSV"
 msgstr "HSV"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:37
+#: ../../reference_manual/dockers/advanced_color_selector.rst:42
 msgid ""
 "Stands for Hue, Saturation, Value. Saturation determines the difference "
 "between white, gray, black and the most colorful color. Value in turn "
@@ -92,11 +108,11 @@ msgstr ""
 "кольорами. Значення є виміром або відмінності між чорним і білим, або "
 "відмінності між чорним і яскравішим кольором."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:38
+#: ../../reference_manual/dockers/advanced_color_selector.rst:43
 msgid "HSL"
 msgstr "HSL"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:39
+#: ../../reference_manual/dockers/advanced_color_selector.rst:44
 msgid ""
 "Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% "
 "lightness. Saturation allows for shifting between gray and color."
@@ -105,11 +121,11 @@ msgstr ""
 "(освітленість). Усі насичені кольори мають значення освітленості 50%. "
 "Насиченість надає змогу визначити місце кольору між сірим і насиченим."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:40
+#: ../../reference_manual/dockers/advanced_color_selector.rst:45
 msgid "HSI"
 msgstr "HSI"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:41
+#: ../../reference_manual/dockers/advanced_color_selector.rst:46
 msgid ""
 "This stands for Hue, Saturation and Intensity. Unlike HSL, this one "
 "determine the intensity as the sum of total rgb components. Yellow (1,1,0) "
@@ -121,11 +137,11 @@ msgstr ""
 "значень компонентів RGB. Жовтий колір (1,1,0) має вищу інтенсивність за "
 "синій (0,0,1), але таку саму інтенсивність як блакитний (0,1,1)."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:43
+#: ../../reference_manual/dockers/advanced_color_selector.rst:48
 msgid "HSY'"
 msgstr "HSY'"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:43
+#: ../../reference_manual/dockers/advanced_color_selector.rst:48
 msgid ""
 "Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of "
 "true luminosity. (Luminosity being the measurement of relative lightness). "
@@ -140,7 +156,7 @@ msgstr ""
 "обчислення яскравості. Через це, HSY' може бути найкращим з точки зору "
 "інтуїтивності засобом вибору кольору або найгіршим."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:45
+#: ../../reference_manual/dockers/advanced_color_selector.rst:50
 msgid ""
 "Then, under shape, you can select one of the shapes available within that "
 "color model."
@@ -148,7 +164,7 @@ msgstr ""
 "Далі, під формою ви можете вибрати одну з форм, які є доступними для моделі "
 "кольорів."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:49
+#: ../../reference_manual/dockers/advanced_color_selector.rst:54
 msgid ""
 "Triangle is in all color models because to a certain extent, it is a "
 "wildcard shape: All color models look the same in an equilateral triangle "
@@ -158,11 +174,11 @@ msgstr ""
 "міри, це універсальна форма: усі моделі кольорів виглядають однаково на "
 "засобі вибору кольору за допомогою рівнобічного трикутника."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:52
+#: ../../reference_manual/dockers/advanced_color_selector.rst:57
 msgid "Luma Coefficients"
 msgstr "Коефіцієнти яскравості"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:54
+#: ../../reference_manual/dockers/advanced_color_selector.rst:59
 msgid ""
 "This allows you to edit the Luma coefficients for the HSY model selectors to "
 "your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ "
@@ -173,16 +189,16 @@ msgstr ""
 "601 <http://en.wikipedia.org/wiki/Rec._601>`_ замість Rec 709? За допомогою "
 "цих пунктів ви можете це зробити!"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:56
+#: ../../reference_manual/dockers/advanced_color_selector.rst:61
 msgid "By default, the Luma coefficients should add up to 1 at maximum."
 msgstr ""
 "Типово, коефіцієнти яскравості у сумі мають давати число, яке не перевищує 1."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:59
+#: ../../reference_manual/dockers/advanced_color_selector.rst:64
 msgid "Gamma"
 msgstr "Гама"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:59
+#: ../../reference_manual/dockers/advanced_color_selector.rst:64
 msgid ""
 "The HSY selector is linearised, this setting allows you to choose how much "
 "gamma is applied to the Luminosity for the gui element. 1.0 is fully linear, "
@@ -192,11 +208,11 @@ msgstr ""
 "яку частину гами буде застосовано до світності для елемента графічного "
 "інтерфейсу. 1.0 — повністю лінійний, 2.2 — типовий."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:62
+#: ../../reference_manual/dockers/advanced_color_selector.rst:67
 msgid "Color Space"
 msgstr "Простір кольорів"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:64
+#: ../../reference_manual/dockers/advanced_color_selector.rst:69
 msgid ""
 "This allows you to set the overall color space for the Advanced Color "
 "Selector."
@@ -204,7 +220,7 @@ msgstr ""
 "Цей інструмент надає вам змогу встановити загальний простір кольорів для "
 "засобу розширеного вибору кольору."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:67
+#: ../../reference_manual/dockers/advanced_color_selector.rst:72
 msgid ""
 "You can pick only sRGB colors in advanced color selector regardless of the "
 "color space of advanced color selector. This is a bug."
@@ -213,23 +229,23 @@ msgstr ""
 "незалежно від простору кольорів розширеного засобу вибору кольору. Це вада "
 "програми."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:70
+#: ../../reference_manual/dockers/advanced_color_selector.rst:75
 msgid "Behaviour"
 msgstr "Поведінка"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:73
+#: ../../reference_manual/dockers/advanced_color_selector.rst:78
 msgid "When docker resizes"
 msgstr "При зміні розмірів панелі"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:75
+#: ../../reference_manual/dockers/advanced_color_selector.rst:80
 msgid "This determines the behavior of the widget as it becomes smaller."
 msgstr "Визначає поведінку віджета при зменшенні."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:77
+#: ../../reference_manual/dockers/advanced_color_selector.rst:82
 msgid "Change to Horizontal"
 msgstr "Змінити на горизонтальне"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:78
+#: ../../reference_manual/dockers/advanced_color_selector.rst:83
 msgid ""
 "This'll arrange the shade selector horizontal to the main selector. Only "
 "works with the MyPaint shade selector"
@@ -238,27 +254,27 @@ msgstr ""
 "горизонтально на основній панелі засобу вибору. Працює лише із засобом "
 "вибору відтінків MyPaint."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:79
+#: ../../reference_manual/dockers/advanced_color_selector.rst:84
 msgid "Hide Shade Selector"
 msgstr "Приховати вибір відтінку"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:80
+#: ../../reference_manual/dockers/advanced_color_selector.rst:85
 msgid "This hides the shade selector."
 msgstr "Приховує засіб вибору відтінків."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:82
+#: ../../reference_manual/dockers/advanced_color_selector.rst:87
 msgid "Do nothing"
 msgstr "Нічого не робити"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:82
+#: ../../reference_manual/dockers/advanced_color_selector.rst:87
 msgid "Does nothing, just resizes."
 msgstr "Не робити нічого, просто змінити розмір."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:85
+#: ../../reference_manual/dockers/advanced_color_selector.rst:90
 msgid "Zoom selector UI"
 msgstr "Панель вибору масштабу"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+#: ../../reference_manual/dockers/advanced_color_selector.rst:92
 msgid ""
 "If your have set the docker size considerably smaller to save space, this "
 "option might be helpful to you. This allows you to set whether or not the "
@@ -270,19 +286,19 @@ msgstr ""
 "надаватиме засіб вибору вам масштабований перегляд із визначеним вами "
 "масштабом. Ви можете вибрати такі варіанти для засобу масштабування:"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:89
+#: ../../reference_manual/dockers/advanced_color_selector.rst:94
 msgid "when pressing middle mouse button"
 msgstr "при натисканні середньої кнопки миші"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:90
+#: ../../reference_manual/dockers/advanced_color_selector.rst:95
 msgid "on mouse over"
 msgstr "при наведенні вказівника"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:91
+#: ../../reference_manual/dockers/advanced_color_selector.rst:96
 msgid "never"
 msgstr "ніколи"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:93
+#: ../../reference_manual/dockers/advanced_color_selector.rst:98
 msgid ""
 "The size given here, is also the size of the Main Color Selector and the "
 "MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:"
@@ -292,11 +308,11 @@ msgstr ""
 "панелі вибору відтінків MyPaint, коли ви їх викликаєте за допомогою "
 "комбінацій клавіш :kbd:`Shift + I` і :kbd:`Shift + M`, відповідно."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:96
+#: ../../reference_manual/dockers/advanced_color_selector.rst:101
 msgid "Hide Pop-up on click"
 msgstr "Ховати контекстне вікно після клацання"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:96
+#: ../../reference_manual/dockers/advanced_color_selector.rst:101
 msgid ""
 "This allows you to let the pop-up selectors called with the above hotkeys to "
 "disappear upon clicking them instead of having to leave the pop-up boundary. "
@@ -307,11 +323,11 @@ msgstr ""
 "комбінацій клавіш, замість залишення їх збоку від панелі вибору кольору. "
 "Корисно для пришвидшення роботи."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:99
+#: ../../reference_manual/dockers/advanced_color_selector.rst:104
 msgid "Shade selector"
 msgstr "Вибір відтінку"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:101
+#: ../../reference_manual/dockers/advanced_color_selector.rst:106
 msgid ""
 "Shade selector options. The shade selectors are useful to decide upon new "
 "shades of color."
@@ -319,21 +335,21 @@ msgstr ""
 "Параметри засобу вибору відтінку. Засоби вибору відтінку корисні для вибору "
 "серед нових відтінків кольору."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:105
+#: ../../reference_manual/dockers/advanced_color_selector.rst:110
 msgid "Update Selector"
 msgstr "Вибір варіанта оновлення"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:107
+#: ../../reference_manual/dockers/advanced_color_selector.rst:112
 msgid "This allows you to determine when the shade selector updates."
 msgstr ""
 "За допомогою цього пункту ви можете визначити, коли слід оновлювати дані у "
 "засобі вибору відтінку."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:110
+#: ../../reference_manual/dockers/advanced_color_selector.rst:115
 msgid "MyPaint Shade Selector"
 msgstr "Інструмент вибору відтінків MyPaint"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:112
+#: ../../reference_manual/dockers/advanced_color_selector.rst:117
 msgid ""
 "Ported from MyPaint, and extended with all color models. Default hotkey is :"
 "kbd:`Shift+ M`"
@@ -341,23 +357,23 @@ msgstr ""
 "Портовано з MyPaint і розширено на усі моделі кольорів. Типовим клавіатурним "
 "скороченням для виклику є :kbd:`Shift + M`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:116
+#: ../../reference_manual/dockers/advanced_color_selector.rst:121
 msgid "Simple Shade Selector"
 msgstr "Простий засіб вибору відтінків"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:118
+#: ../../reference_manual/dockers/advanced_color_selector.rst:123
 msgid "This allows you to configure the simple shade selector in detail."
 msgstr "Надає вам змогу точно налаштувати простий засіб вибору відтінків."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:121
+#: ../../reference_manual/dockers/advanced_color_selector.rst:126
 msgid "Color Patches"
 msgstr "Набори кольорів"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:123
+#: ../../reference_manual/dockers/advanced_color_selector.rst:128
 msgid "This sets the options of the color patches."
 msgstr "Встановлює параметри наборів кольорів."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:125
+#: ../../reference_manual/dockers/advanced_color_selector.rst:130
 msgid ""
 "Both Color History and Colors From the Image have similar options which will "
 "be explained below."
@@ -365,11 +381,11 @@ msgstr ""
 "Обидва засоби, журнал кольорів і кольори з зображення, мають однакові "
 "параметри, пояснення щодо яких наведено нижче."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:127
+#: ../../reference_manual/dockers/advanced_color_selector.rst:132
 msgid "Show"
 msgstr "Показати"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:128
+#: ../../reference_manual/dockers/advanced_color_selector.rst:133
 msgid ""
 "This is a radio button to show or hide the section. It also determines "
 "whether or not the colors are visible with the advanced color selector "
@@ -378,35 +394,35 @@ msgstr ""
 "Це перемикач показу або приховування розділу. Він також визначає те, чи "
 "будуть кольори видимими на бічній панелі розширеного засобу вибору кольору."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:129
+#: ../../reference_manual/dockers/advanced_color_selector.rst:134
 msgid "Size"
 msgstr "Розмір"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:130
+#: ../../reference_manual/dockers/advanced_color_selector.rst:135
 msgid "The size of the color boxes can be set here."
 msgstr "За допомогою цього пункту можна визначити розмір квадратиків кольорів."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:131
+#: ../../reference_manual/dockers/advanced_color_selector.rst:136
 msgid "Patch Count"
 msgstr "Кількість наборів"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:132
+#: ../../reference_manual/dockers/advanced_color_selector.rst:137
 msgid "The number of patches to display."
 msgstr "Кількість пунктів кольорів, які слід показувати."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:133
+#: ../../reference_manual/dockers/advanced_color_selector.rst:138
 msgid "Direction"
 msgstr "Напрямок"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:134
+#: ../../reference_manual/dockers/advanced_color_selector.rst:139
 msgid "The direction of the patches, Horizontal or Vertical."
 msgstr "Напрямок наборів, горизонтальний або вертикальний."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:135
+#: ../../reference_manual/dockers/advanced_color_selector.rst:140
 msgid "Allow Scrolling"
 msgstr "Дозволити гортання"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:136
+#: ../../reference_manual/dockers/advanced_color_selector.rst:141
 msgid ""
 "Whether to allow scrolling in the section or not when there are too many "
 "patches."
@@ -414,19 +430,19 @@ msgstr ""
 "Визначає, чи буде уможливлено гортання розділу, якщо у ньому надто багато "
 "пунктів кольорів."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:137
+#: ../../reference_manual/dockers/advanced_color_selector.rst:142
 msgid "Number of Columns/Rows"
 msgstr "Кількість стовпчиків/рядків"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:138
+#: ../../reference_manual/dockers/advanced_color_selector.rst:143
 msgid "The number of Columns or Rows to show in the section."
 msgstr "Кількість стовпчиків або рядків, які слід показувати у цьому розділі."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+#: ../../reference_manual/dockers/advanced_color_selector.rst:145
 msgid "Update After Every Stroke"
 msgstr "Оновлювати після кожного мазка"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+#: ../../reference_manual/dockers/advanced_color_selector.rst:145
 msgid ""
 "This is only available for Colors From the Image and tells the docker "
 "whether to update the section after every stroke or not, as after each "
@@ -436,11 +452,11 @@ msgstr ""
 "визначити, чи оновлюватиме програма розділ після кожного мазка, як після "
 "кожного мазка змінюється колір на зображенні."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:143
+#: ../../reference_manual/dockers/advanced_color_selector.rst:148
 msgid "History patches"
 msgstr "Журнал кольорів"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:145
+#: ../../reference_manual/dockers/advanced_color_selector.rst:150
 msgid ""
 "The history patches remember which colors you've drawn on canvas with. They "
 "can be quickly called with :kbd:`H`"
@@ -449,11 +465,11 @@ msgstr ""
 "Швидко викликати панель журналу можна за допомогою натискання клавіші :kbd:"
 "`H`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:148
+#: ../../reference_manual/dockers/advanced_color_selector.rst:153
 msgid "Common Patches"
 msgstr "Типовий набір"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:150
+#: ../../reference_manual/dockers/advanced_color_selector.rst:155
 msgid ""
 "The common patches are generated from the image, and are the most common "
 "color in the image. The hotkey for them on canvas is :kbd:`U`."
@@ -462,11 +478,40 @@ msgstr ""
 "найтиповіші кольори зображення. Викликати панель типового набору можна "
 "натисканням клавіші :kbd:`U`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:153
+#: ../../reference_manual/dockers/advanced_color_selector.rst:158
+msgid "Gamut masking"
+msgstr "Маскування діапазону кольорів"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:164
+msgid ""
+"Gamut masking is available only when the selector shape is set to wheel."
+msgstr ""
+"Маскуванням діапазону кольорів можна скористатися, лише якщо для форми "
+"засобу вибору кольорів встановлено значення «коло»."
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:166
+msgid ""
+"You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
+msgstr ""
+"Вибирати маски діапазону кольорів та керувати такими масками можна за "
+"допомогою :ref:`бічної панелі масок діапазону кольорів <gamut_mask_docker>`."
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:168
+msgid ""
+"In the gamut masking toolbar at the top of the selector you can toggle the "
+"selected mask off and on (left button). You can also rotate the mask with "
+"the rotation slider (right)."
+msgstr ""
+"За допомогою панелі керування маскою діапазону кольорів, розташованої у "
+"верхній частині панелі вибору кольору, ви можете увімкнути або вимкнути "
+"вибрану маску (ліва кнопка). Ви також можете обертати маску за допомогою "
+"повзунка обертання (праворуч)."
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:173
 msgid "External Info"
 msgstr "Сторонні відомості"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:155
+#: ../../reference_manual/dockers/advanced_color_selector.rst:175
 msgid ""
 "`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?"
 "p=726>`_"

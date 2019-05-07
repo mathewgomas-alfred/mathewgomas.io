@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-15 19:47+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:46+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Iterations"
@@ -27,9 +27,14 @@ msgstr "Iteracions"
 msgid "The Particle Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de partícules."
 
+#: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:16
 msgid "Particle Brush Engine"
 msgstr "Motor del pinzell de partícules"
+
+#: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:19
 msgid ".. image:: images/icons/particlebrush.svg"
@@ -41,6 +46,10 @@ msgid ""
 "random and crazy over drawing distance. Gives very intricate lines best used "
 "for special effects."
 msgstr ""
+"Un pinzell que dibuixa cables emprant paràmetres. Aquests cables es tornaran "
+"cada vegada més aleatoris i desordenats al llarg de la distància del dibuix. "
+"Genera línies molt enredades que s'utilitzen millor per als efectes "
+"especials."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:23
 msgid "Options"
@@ -72,7 +81,7 @@ msgstr "Partícules"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:35
 msgid "How many particles there's drawn."
-msgstr ""
+msgstr "Quantes partícules s'hauran de dibuixar."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:36
 msgid "Opacity Weight"
@@ -81,26 +90,35 @@ msgstr "Ponderació de l'opacitat"
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:37
 msgid "The Opacity of all particles. Is influenced by the painting mode."
 msgstr ""
+"L'Opacitat de totes les partícules. Està influenciada pel mode amb el que es "
+"pinta."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:38
 msgid "Dx Scale (Distance X Scale)"
-msgstr ""
+msgstr "Escala dx (escala X de la distància)"
 
+# skip-rule: barb-igual
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:39
 msgid ""
 "How much the horizontal cursor distance affects the placing of the pixel. Is "
 "unstable on negative values. 1.0 is equal."
 msgstr ""
+"Quant afectarà la distància horitzontal del cursor a la col·locació del "
+"píxel. Amb valors negatius serà inestable, mentre que l'1,0 resultarà en "
+"igual."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:40
 msgid "Dy Scale (Distance Y Scale)"
-msgstr ""
+msgstr "Escala dy (escala Y de la distància)"
 
+# skip-rule: barb-igual
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:41
 msgid ""
 "How much the vertical cursor distance affects the placing of the pixel. Is "
 "unstable on negative values. 1.0 is equal."
 msgstr ""
+"Quant afectarà la distància vertical del cursor a la col·locació del píxel. "
+"Amb valors negatius serà inestable, mentre que l'1,0 resultarà en igual."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:42
 msgid "Gravity"
@@ -111,6 +129,8 @@ msgid ""
 "Multiplies with the previous particle's position, to find the new particle's "
 "position."
 msgstr ""
+"Es multiplica amb la posició de la partícula anterior per a trobar la "
+"posició de la partícula nova."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:45
 msgid ""
@@ -119,3 +139,7 @@ msgid ""
 "higher iteration is, the faster and more randomly a particle moves over "
 "time, giving a messier result."
 msgstr ""
+"Com més gran sigui el valor, més gran serà l'acceleració interna, amb la "
+"partícula més allunyada del pinzell es tindrà una acceleració més elevada. "
+"Això vol dir que, com més gran sigui la iteració, més ràpid i més aleatori "
+"serà el moviment d'una partícula, donant un resultat més desordenat."

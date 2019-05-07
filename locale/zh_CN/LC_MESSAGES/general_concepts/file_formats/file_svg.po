@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-25 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:50\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,18 @@ msgstr ""
 #: ../../general_concepts/file_formats/file_svg.rst:1
 msgid "The Scalable Vector Graphics file format in Krita."
 msgstr "介绍 Krita 中的可缩放矢量图形文件格式。"
+
+#: ../../general_concepts/file_formats/file_svg.rst:10
+msgid "SVG"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:10
+msgid "*.svg"
+msgstr ""
+
+#: ../../general_concepts/file_formats/file_svg.rst:10
+msgid "Scalable Vector Graphics Format"
+msgstr ""
 
 #: ../../general_concepts/file_formats/file_svg.rst:15
 msgid "\\*.svg"
@@ -46,7 +58,7 @@ msgid ""
 "It is maintained by the w3c svg working group, who also maintain other open "
 "standards that make up our modern internet."
 msgstr ""
-"它由 W3C 组织的 SVG 工作组进行维护，该组织也在维护组建了当今互联网的各种开放"
+"它由 W3C 组织的 SVG 工作组进行维护，该组织还在维护构建了当今互联网的各种开放"
 "标准。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:23
@@ -61,10 +73,10 @@ msgid ""
 msgstr ""
 "虽然你可以用任意一个文本编辑器编辑它们，但最好的办法还是使用一个矢量图形软"
 "件，如 Inkscape。Krita 在 2.9 到 3.3 版支持从形状工具面板处导入 SVG 图像。从 "
-"4.0 版开始，Krita 可以正常导入 SVG 图像，也可以把 singlevector 类图层从 :"
-"menuselection:`图层 --> 导入/导出 --> 将矢量图层另存为 SVG…` 进行导出。从 "
-"4.0 版开始，Krita 也将使用 SVG 规范在其 :ref:`内部格式 <file_kra>` 中保存矢量"
-"图形数据。"
+"4.0 版开始，Krita 可以正常导入 SVG 图像，也可以把 singlevector 类图层从菜单栏"
+"的 :menuselection:`图层 --> 导入/导出 --> 将矢量图层另存为 SVG…` 进行导出。"
+"从 4.0 版开始，Krita 也将使用 SVG 规范在其 :ref:`内部格式 <file_kra>` 中保存"
+"矢量图形数据。"
 
 #: ../../general_concepts/file_formats/file_svg.rst:25
 msgid ""

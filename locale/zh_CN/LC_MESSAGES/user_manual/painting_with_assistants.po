@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-04 03:37+0100\n"
-"PO-Revision-Date: 2019-04-09 18:50\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,22 +18,28 @@ msgstr ""
 "docs_krita_org_user_manual___painting_with_assistants.pot\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Assistants_fish-eye_2_02.png"
-msgstr ".. image:: images/en/Assistants_fish-eye_2_02.png"
+msgid ".. image:: images/assistants/Assistants_fish-eye_2_02.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:2
 msgid "How to use the painting assistants in Krita to draw perspectives."
 msgstr "如何在 Krita 里面使用绘画辅助尺工具来绘制几何形状和透视。"
 
+#: ../../user_manual/painting_with_assistants.rst:12
+msgid "Painting Assistants"
+msgstr ""
+
 #: ../../user_manual/painting_with_assistants.rst:17
 msgid "Painting with Assistants"
-msgstr "借助辅助工具绘画"
+msgstr "绘画辅助尺"
 
 #: ../../user_manual/painting_with_assistants.rst:19
 msgid ""
 "The assistant system allows you to have a little help while drawing straight "
 "lines or circles."
-msgstr "Krita 的绘画辅助尺系统可以帮你画好直线、圆形等几何图形，甚至透视。"
+msgstr ""
+"Krita 的绘画辅助尺工具可以在你绘制直线、圆形等几何图形，甚至透视关系时提供一"
+"定的辅助。"
 
 #: ../../user_manual/painting_with_assistants.rst:22
 msgid ""
@@ -41,17 +47,15 @@ msgid ""
 "freehand brush tool. In the tool options of free hand brush, you can toggle :"
 "guilabel:`Snap to Assistants` to turn on snapping."
 msgstr ""
-"它们可以作为预览形状显示在画布上面，你也可以把手绘笔刷等工具吸附到它们上面。"
-"在手绘笔刷工具的工具选项面板，勾选 :guilabel:`吸附到辅助尺` 即可启用吸附功"
-"能。"
+"你可以把它们用作目标形状的预览图，也可以把手绘笔刷等工具吸附到它们上面。要启"
+"用笔刷吸附功能，可在手绘笔刷工具的工具选项里面勾选 :guilabel:`吸附到辅助尺"
+"` 。"
 
 #: ../../user_manual/painting_with_assistants.rst:30
 msgid ""
-".. image:: images/en/Krita_basic_assistants.png\n"
+".. image:: images/assistants/Krita_basic_assistants.png\n"
 "   :alt: Krita's vanishing point assistants in action"
 msgstr ""
-".. image:: images/en/Krita_basic_assistants.png\n"
-"   :alt: Krita 的消失点辅助尺正在工作"
 
 #: ../../user_manual/painting_with_assistants.rst:30
 msgid "Krita's vanishing point assistants in action"
@@ -59,18 +63,19 @@ msgstr "Krita 的消失点辅助尺正在工作"
 
 #: ../../user_manual/painting_with_assistants.rst:32
 msgid "The following assistants are available in Krita:"
-msgstr "Krita 提供了下列绘画辅助尺："
+msgstr "接下来我们将介绍 Krita 提供的各种绘画辅助尺。"
 
 #: ../../user_manual/painting_with_assistants.rst:35
 msgid "Types"
-msgstr "类型"
+msgstr "辅助尺类型"
 
 #: ../../user_manual/painting_with_assistants.rst:37
 msgid ""
 "There are several types in Krita. You can select a type of assistant via the "
 "tool options docker."
 msgstr ""
-"Krita 提供了几种不同类型的绘画辅助尺，你可以在它的工具选项面板进行选用。"
+"Krita 的绘画辅助尺工具可以创建几种不同的形状，你可以在它的工具选项面板按需选"
+"用。"
 
 #: ../../user_manual/painting_with_assistants.rst:43
 msgid "Ellipse"
@@ -91,7 +96,10 @@ msgstr ""
 msgid ""
 "The same an ellipse, but allows for making ellipses that are concentric to "
 "each other."
-msgstr "和椭圆类似，但可以绘制多个相互同轴的椭圆。"
+msgstr ""
+"和椭圆类似，但可以绘制多个相互同轴的椭圆。使用此辅助尺时，你只需先创建一个参"
+"考椭圆，然后切换到笔刷工具，在工具选项中勾选“吸附到辅助尺”，即可画出与参考椭"
+"圆同轴的新椭圆。"
 
 #: ../../user_manual/painting_with_assistants.rst:52
 msgid "Concentric Ellipse"
@@ -104,12 +112,12 @@ msgid ""
 "snap to perfectly horizontal or vertical lines. Press :kbd:`Shift` while "
 "holding the third handle, and it'll snap to a perfect circle."
 msgstr ""
-"在编辑已创建的绘画辅助尺时，你可以使用 :kbd:`Shift` 作为修饰键 (注意：目前在"
-"创建时不能使用修饰键)。在拖动轴线两端控制点时按住 :kbd:`Shift` 可以把轴线吸附"
-"到水平线或者垂直线上。在拖动第三个控制点时按住 :kbd:`Shift` 可以把辅助尺变成"
-"圆形。"
+"在 **编辑** 已有椭圆或鱼眼点辅助尺时，先拖动轴线两端控制点再按住 :kbd:"
+"`Shift` 可以把轴线吸附到水平线或者垂直线上。在拖动第三个控制点时按住 :kbd:"
+"`Shift` 可以把辅助尺变成圆形。(注意：目前在 **创建** 辅助尺时 Shift 无效)。"
 
 #: ../../user_manual/painting_with_assistants.rst:61
+#: ../../user_manual/painting_with_assistants.rst:154
 msgid "Perspective"
 msgstr "透视"
 
@@ -121,15 +129,16 @@ msgstr "此辅助尺通过四个点创建一个透视网格。"
 msgid ""
 "This grid can be used with the 'perspective' sensor, which can influence "
 "brushes."
-msgstr "创建的网格可以和“透视”传感器配合使用，该传感器会影响笔刷的作用。"
+msgstr ""
+"此辅助尺创建的网格可以和“透视”传感器配合使用，该传感器会影响笔刷的空间效果。"
 
 #: ../../user_manual/painting_with_assistants.rst:68
 msgid ""
 "If you press :kbd:`Shift` while holding any of the corner handles, they'll "
 "snap to one of the other corner handles, in sets."
 msgstr ""
-"在编辑过程中，如果在拖动四角的控制点时按住 :kbd:`Shift` ，它们将吸附到水平方"
-"向上另一个角的高度。"
+"在 **编辑** 已有透视辅助尺时，先拖动四角的控制点然后按住 :kbd:`Shift` ，它们"
+"将吸附到水平方向上另一个角的高度。(注意：目前在 **创建** 辅助尺时 Shift 无效)"
 
 #: ../../user_manual/painting_with_assistants.rst:74
 #: ../../user_manual/painting_with_assistants.rst:78
@@ -142,7 +151,7 @@ msgstr "这个组别里面有三种辅助尺："
 
 #: ../../user_manual/painting_with_assistants.rst:79
 msgid "Helps create a straight line between two points."
-msgstr "帮助你画出两点之间的一根直线。"
+msgstr "辅助绘制两点之间的一条直线。"
 
 #: ../../user_manual/painting_with_assistants.rst:81
 msgid "Infinite Ruler"
@@ -151,13 +160,15 @@ msgstr "无限直线"
 #: ../../user_manual/painting_with_assistants.rst:81
 msgid ""
 "Extrapolates a straight line beyond the two visible points on the canvas."
-msgstr "按照给定的两点推演出横穿画布的一根直线。"
+msgstr "辅助绘制穿过两点横贯画布的一条直线。"
 
 #: ../../user_manual/painting_with_assistants.rst:84
 msgid ""
 "This ruler allows you to draw a line parallel to the line between the two "
 "points anywhere on the canvas."
-msgstr "此工具让你画出一根平行于所指定的两点延长线的直线。"
+msgstr ""
+"先创建一条参考直线，然后切换为笔刷工具，打开吸附功能，即可绘制该参考直线的平"
+"行线。"
 
 #: ../../user_manual/painting_with_assistants.rst:85
 msgid "Parallel Ruler"
@@ -168,8 +179,8 @@ msgid ""
 "If you press :kbd:`Shift` while holding the first two handles, they will "
 "snap to perfectly horizontal or vertical lines."
 msgstr ""
-"在编辑已有平行线辅助尺时，在拖动控制点时按住 :kbd:`Shift` ，控制点将吸附到水"
-"平线和垂直线上。"
+"在 **编辑** 已有平行线辅助尺时，先拖动控制点再按住 :kbd:`Shift` ，控制点将吸"
+"附到水平线和垂直线上。(注意：目前在 **创建** 辅助尺时 Shift 无效)"
 
 #: ../../user_manual/painting_with_assistants.rst:93
 msgid "Spline"
@@ -181,8 +192,8 @@ msgid ""
 "cubic bezier curve. You can then draw along the curve, snapping your brush "
 "stroke directly to the curve line. Perfect curves every time!"
 msgstr ""
-"此辅助尺通过四个控制点画出一条贝塞尔曲线。把笔刷吸附到创建的曲线路径上面，你"
-"也可以随时画出自信而有力的曲线。"
+"此辅助尺通过四个控制点画出一条贝塞尔曲线，你可以把笔刷吸附到曲线上，方便绘制"
+"路径精确的曲线。"
 
 #: ../../user_manual/painting_with_assistants.rst:99
 msgid ""
@@ -191,9 +202,10 @@ msgid ""
 "holding the third or fourth handle, they will snap relative to the handle "
 "they are attached to."
 msgstr ""
-"在编辑曲线时，如果在拖动曲线两端的控制点时按住 :kbd:`Shift` ，你可以把这两个"
-"点水平或者垂直对齐。在拖动其他两个点时按住 :kbd:`Shift` ，你可以把该点与它连"
-"接的点水平或者垂直对齐。"
+"在 **编辑** 已有曲线辅助尺时，先拖动曲线两端的控制点再按住 :kbd:`Shift` ，你"
+"可以把这两个点水平或者垂直对齐。在拖动其他两个点时按住 :kbd:`Shift` ，你可以"
+"把该点与它连接的点水平或者垂直对齐。(注意：目前在 **创建** 辅助尺时 Shift 无"
+"效)"
 
 #: ../../user_manual/painting_with_assistants.rst:107
 msgid "Vanishing Point"
@@ -205,8 +217,8 @@ msgid ""
 "horizon line. A preview line is drawn and all your snapped lines are drawn "
 "to this line."
 msgstr ""
-"此辅助尺可以创建一个消失点，通常用于地平线。画完消失点后切换至笔刷工具，辅助"
-"尺将为你显示预览线，你绘制的笔画将被吸附到该预览线上。"
+"此辅助尺可以创建一个消失点，通常放在地平线上。放置消失点后切换至笔刷工具，辅"
+"助尺将为你显示透视预览线，你绘制的笔画也会被吸附到预览线上。"
 
 #: ../../user_manual/painting_with_assistants.rst:112
 msgid ""
@@ -225,12 +237,12 @@ msgid ""
 "perfectly horizontal or vertical lines depending on the position of where it "
 "previously was."
 msgstr ""
-"在拖动消失点时按住 :kbd:`Shift` ，消失点将按照它之前的相对位置吸附到水平或者"
-"垂直线上。"
+"在拖动 **已有** 消失点时按住 :kbd:`Shift` ，消失点将按照它之前的相对位置吸附"
+"到水平或者垂直线上。(注意：目前在 **创建** 辅助尺时 Shift 无效)"
 
 #: ../../user_manual/painting_with_assistants.rst:123
 msgid "The vanishing point assistant also shows several general lines."
-msgstr "消失点辅助尺还会显示几条参考线。"
+msgstr "消失点辅助尺可以显示额外的参考线。"
 
 #: ../../user_manual/painting_with_assistants.rst:125
 msgid ""
@@ -253,10 +265,10 @@ msgid ""
 "of both. Or combine one with a parallel ruler and a vanishing point, or even "
 "one with two vanishing points. The possibilities are quite large."
 msgstr ""
-"和消失点辅助尺一样，此辅助尺会在一个立体空间中显示一组平行线。你可以创建两个"
-"垂直的鱼眼点辅助尺，或者在鱼眼点中间添加一个消失点辅助尺，也可以用一个鱼眼"
-"点、一个平行直线和一个消失点辅助尺配合使用。你可以随心所欲地搭配使用不同的辅"
-"助尺。"
+"和消失点辅助尺一样，此辅助尺会在一个立体空间中显示一组平行线。它有下面几种典"
+"型用法：第一种，创建两个垂直且互相重合的鱼眼点辅助尺；第二种，在鱼眼点中间添"
+"加一个消失点辅助尺；第三种，用一个鱼眼点、一条平行直线和一个消失点辅助尺配合"
+"使用。你可以搭配其他辅助尺使用鱼眼点，大胆地进行实验吧！"
 
 #: ../../user_manual/painting_with_assistants.rst:139
 msgid ""
@@ -265,12 +277,12 @@ msgid ""
 "assistant. This is so you can use it in edge-cases like panoramas with "
 "relative ease."
 msgstr ""
-"此辅助尺不止会在与它的两个消失点中间的位置提供反馈和吸附，还可以在它们的左右"
+"此辅助尺不仅可以在它的两个消失点之间的位置提供反馈和吸附，还可以在它们的左右"
 "两侧提供反馈和吸附，你可以利用这个特性来绘制全景透视。"
 
 #: ../../user_manual/painting_with_assistants.rst:149
 msgid "Tutorials"
-msgstr "教程"
+msgstr "相关教程"
 
 #: ../../user_manual/painting_with_assistants.rst:151
 msgid ""
@@ -280,9 +292,13 @@ msgstr ""
 "有关此功能的深入探讨和视频教程，可访问：https://www.youtube.com/watch?"
 "v=OhEv2pw3EuI"
 
+#: ../../user_manual/painting_with_assistants.rst:154
+msgid "Technical Drawing"
+msgstr ""
+
 #: ../../user_manual/painting_with_assistants.rst:157
 msgid "Setting up Krita for technical drawing-like perspectives"
-msgstr "为技术图纸透视设置 Krita"
+msgstr "技术图纸透视设置范例"
 
 #: ../../user_manual/painting_with_assistants.rst:159
 msgid ""
@@ -290,14 +306,16 @@ msgid ""
 "offers, here is an example of how using these assistants you can set up "
 "Krita for technical drawing."
 msgstr ""
-"我们在前面已经介绍了 Krita 提供的各种绘画辅助尺。现在我们将介绍如何使用它们来"
-"绘制技术图纸风格的画面。"
+"我们在前面已经介绍了 Krita 提供的各种绘画辅助尺。接下来我们将示范如何使用它们"
+"来绘制技术图纸风格的画面。"
 
 #: ../../user_manual/painting_with_assistants.rst:163
 msgid ""
 "This tutorial below should give you an idea of how to set up the assistants "
 "for specific types of technical views."
-msgstr "本教程将传授如何为不同类型的技术图纸风格配置绘画辅助尺。"
+msgstr ""
+"如果你想绘制某些类型的技术图纸风格画面，你可以在本教程找到对应的绘画辅助尺配"
+"置方式。"
 
 #: ../../user_manual/painting_with_assistants.rst:166
 msgid ""
@@ -309,7 +327,7 @@ msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:169
 msgid "Orthographic"
-msgstr "正交透视"
+msgstr "正交投影"
 
 #: ../../user_manual/painting_with_assistants.rst:171
 msgid ""
@@ -317,44 +335,44 @@ msgid ""
 "the front. Typically, you try to keep everything in exact scale with each "
 "other, unlike perspective deformation."
 msgstr ""
-"正交透视是一种从从斜前方观察的透视方式。在典型情况下你要保持前后物体的比例相"
-"同，不发生透视扭曲。"
+"正交投影是一种从物体的正面或者侧面进行观察的方式。在典型情况下你要保持前后物"
+"体的比例相同，不要发生透视变形。"
 
 #: ../../user_manual/painting_with_assistants.rst:175
 msgid ""
 "The key assistant you want to use here is the Parallel Ruler. You can set "
 "these up horizontally or vertically, so you always have access to a Grid."
 msgstr ""
-"这种透视法主要使用平行直线辅助尺。你可以把它们按水平方向或者垂直方向放置，形"
-"成笔刷可以吸附的立体网格。"
+"这种扁平的图纸主要使用平行直线辅助尺。在水平方向和垂直方向各放置一组平行线，"
+"即可形成笔刷可以吸附的平面网格。"
 
 #: ../../user_manual/painting_with_assistants.rst:180
 msgid "Axonometric"
-msgstr "轴测透视"
+msgstr "轴测图"
 
 #: ../../user_manual/painting_with_assistants.rst:182
 msgid "All of these are set up using three Parallel Rulers."
-msgstr "此类透视法都可以通过平行直线辅助尺实现。"
+msgstr "轴测图有许多种，但都可以通过平行直线辅助尺实现。"
 
 #: ../../user_manual/painting_with_assistants.rst:185
-msgid ".. image:: images/en/Assistants_oblique.png"
-msgstr ".. image:: images/en/Assistants_oblique.png"
+msgid ".. image:: images/assistants/Assistants_oblique.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:187
 msgid ""
 "For oblique, set two parallel rulers to horizontal and vertical, and one to "
 "an angle, representing depth."
 msgstr ""
-"如需制作斜轴测图，可先在水平方向和垂直方向上放置两个平行直线辅助尺，然后在倾"
-"斜方向上再放置一个平行直线辅助尺来代表深度。"
+"如需制作斜轴测图，可先在水平方向和垂直方向上各放置一个平行直线辅助尺，然后在"
+"倾斜方向上再放置一个平行直线辅助尺来代表深度。"
 
 #: ../../user_manual/painting_with_assistants.rst:188
 msgid "Oblique"
 msgstr "斜轴测"
 
 #: ../../user_manual/painting_with_assistants.rst:191
-msgid ".. image:: images/en/Assistants_dimetric.png"
-msgstr ".. image:: images/en/Assistants_dimetric.png"
+msgid ".. image:: images/assistants/Assistants_dimetric.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:193
 msgid ""
@@ -363,17 +381,17 @@ msgid ""
 "projection where the diagonal values are a 116.565° from the main. The "
 "latter can be easily set up by snapping the assistants to a grid."
 msgstr ""
-"等轴测透视就是把前面说的那三个平行直线辅助尺以 120° 的夹角摆放。而游戏里面用"
-"的等轴测透视在这个基础上有一点变化，即两条斜线和垂直线之间的夹角为 116.565°，"
-"这可以通过把辅助尺吸附到网格来实现。"
+"等轴测透视就是把斜轴测的三条平行直线辅助尺以 120° 的夹角摆放。游戏常用的二轴"
+"测透视在这个基础上有一点变化，即两条斜线和垂直线之间的夹角为 116.565°，这可以"
+"通过把辅助尺吸附到网格来实现。"
 
 #: ../../user_manual/painting_with_assistants.rst:197
 msgid "Dimetric & Isometric"
 msgstr "二轴测和等轴测"
 
 #: ../../user_manual/painting_with_assistants.rst:200
-msgid ".. image:: images/en/Assistants_trimetric.png"
-msgstr ".. image:: images/en/Assistants_trimetric.png"
+msgid ".. image:: images/assistants/Assistants_trimetric.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:202
 msgid ""
@@ -392,22 +410,24 @@ msgid "Linear Perspective"
 msgstr "线性透视"
 
 #: ../../user_manual/painting_with_assistants.rst:209
-msgid ".. image:: images/en/Assistants_1_point_perspective.png"
-msgstr ".. image:: images/en/Assistants_1_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_1_point_perspective.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:211
 msgid ""
 "A 1 point perspective is set up using 1 vanishing point, and two crossing "
 "perpendicular parallel rulers."
-msgstr "单点透视可以通过一个消失点和一组水平和垂直方向的平行直线辅助尺构建。"
+msgstr ""
+"要组建单点透视，先在画面中间放置一个消失点辅助尺，然后在水平和垂直方向上各放"
+"置一条平行直线辅助尺。"
 
 #: ../../user_manual/painting_with_assistants.rst:212
 msgid "1 Point Perspective"
 msgstr "单点透视"
 
 #: ../../user_manual/painting_with_assistants.rst:215
-msgid ".. image:: images/en/Assistants_2_point_perspective.png"
-msgstr ".. image:: images/en/Assistants_2_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_2_point_perspective.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:217
 msgid ""
@@ -415,20 +435,20 @@ msgid ""
 "parallel ruler. Often, putting the vanishing points outside the frame a "
 "little can decrease the strength of it."
 msgstr ""
-"二点透视通过两个消失点和一个垂直平行直线辅助尺构建。两个消失点放置在画面两边"
-"的距离越远，透视的强烈程度也就越小。"
+"要组建二点透视，可在画面两侧各放置一个消失点辅助尺，然后在垂直方向上放置一条"
+"平行直线辅助尺。两个消失点之间的距离越远，透视的强烈程度也就越小。"
 
 #: ../../user_manual/painting_with_assistants.rst:219
 msgid "2 Point Perspective"
 msgstr "二点透视"
 
 #: ../../user_manual/painting_with_assistants.rst:222
-msgid ".. image:: images/en/Assistants_2_pointperspective_02.png"
-msgstr ".. image:: images/en/Assistants_2_pointperspective_02.png"
+msgid ".. image:: images/assistants/Assistants_2_pointperspective_02.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:224
-msgid ".. image:: images/en/Assistants_3_point_perspective.png"
-msgstr ".. image:: images/en/Assistants_3_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_3_point_perspective.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:226
 msgid "3 Point Perspective"
@@ -440,7 +460,7 @@ msgstr "三点透视通过三个消失点辅助尺进行构建。"
 
 #: ../../user_manual/painting_with_assistants.rst:229
 msgid "Logic of the vanishing point"
-msgstr "消失点的工作逻辑"
+msgstr "消失点的原理和用法"
 
 #: ../../user_manual/painting_with_assistants.rst:231
 msgid ""
@@ -449,18 +469,22 @@ msgid ""
 "meet. This means that a 1 point perspective and 2 point perspective are "
 "virtually the same."
 msgstr ""
-"这里有一处非常有用的知识，但许多透视教程往往会忽略它，那就是一个消失点是空间"
-"中两条平行线交汇的点。因此单点透视和二点透视实际上是一回事。"
+"一个消失点是空间中两条平行线交汇的点。这是一个非常有用的知识点，但许多透视教"
+"程往往会忽略它。它意味着单点透视和二点透视实际上是一回事。(注意：由于原文省略"
+"了太多步骤，译者并没有真正领会最后这句话的意思，译文已经按照标准二点透视原理"
+"尽可能地补充了缺少的步骤)"
 
 #: ../../user_manual/painting_with_assistants.rst:233
 msgid ""
 "We can prove this via a little experiment. That good old problem: drawing a "
 "rail-road."
-msgstr "我们可以通过下面的小实验来证明。让我们挑战一个永恒的课题：画一条铁路。"
+msgstr ""
+"我们可以通过一个小实验来证明这种说法。这个实验便是我们永恒的课题：画一条通向"
+"地平线的铁路。"
 
 #: ../../user_manual/painting_with_assistants.rst:236
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
-msgstr ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_01.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:237
 msgid ""
@@ -469,7 +493,8 @@ msgid ""
 "together."
 msgstr ""
 "你可能对将要遇到的困难并不陌生：怎么确定下一根枕木的位置呢？透视原理决定了它"
-"们离得越远，挤得越近。"
+"们离得越远，挤得越近。你当然可以依靠直觉来描绘，但怎么画才能得到精确的效果"
+"呢？"
 
 #: ../../user_manual/painting_with_assistants.rst:240
 msgid ""
@@ -478,13 +503,13 @@ msgid ""
 "exact same distance is used."
 msgstr ""
 "一般来说，解决方案是画面左侧外部的地平线上建立一个消失点，从该消失点引出一条"
-"斜线，连接到到第一根枕木与右侧铁轨的交点。在两条铁轨位于地平线的交汇点上画一"
-"根垂直线，把它与之前所画的斜线相交在一点。通过这个点画一根水平线。这条水平线"
-"便是第二根枕木所在的位置。如此类推。"
+"斜线，连接到到第一根枕木与右侧铁轨的交点。然后在两条铁轨位于地平线的交汇点上"
+"画一根垂直线，把它与之前所画的斜线相交在一点。最后通过这个点画一根水平线。这"
+"条水平线便是第二根枕木所在的位置了。后面的枕木如此类推。"
 
 #: ../../user_manual/painting_with_assistants.rst:243
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
-msgstr ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_02.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:244
 msgid ""
@@ -492,19 +517,19 @@ msgid ""
 "instead, and we use the alignment handles to align it to the diagonal of the "
 "beam, and to the horizontal (here marked with red)."
 msgstr ""
-"不过因为枕木是平行的，所以我们可以使用消失点辅助尺。把其中一条对齐线的两个控"
-"制点各自放在枕木在对角线上的两个点上，把另一调对齐线放在地平线上 (如图红线所"
-"示)。"
+"不过因为枕木是平行的，所以我们可以使用消失点辅助尺的对齐线功能。把其中一条对"
+"齐线的两个控制点各自放在枕木在对角线上的两个点上，把另一条对齐线放在地平线的"
+"铁轨交点 (如图红线所示)。"
 
 #: ../../user_manual/painting_with_assistants.rst:247
 msgid ""
 "That diagonal can then in turn be used to determine the position of the "
 "beams:"
-msgstr "然后斜线就可以用来确定枕木的位置了："
+msgstr "这样我们便利用了横穿第一根枕木对角线的斜线来确定其他枕木的位置："
 
 #: ../../user_manual/painting_with_assistants.rst:251
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
-msgstr ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_03.png"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:252
 msgid ""
@@ -534,12 +559,12 @@ msgid ""
 "So, to set them up, the easiest way is one horizontal, one vertical, on the "
 "same spot, and one vanishing point assistant in the middle."
 msgstr ""
-"要构建一组鱼眼透视，最简单的办法就是在水平和垂直方向上建立两个位置相同的鱼眼"
-"点辅助尺，然后把一个消失点辅助尺放置在中间。"
+"要构建一组鱼眼透视，最简单的办法就是在水平和垂直方向上建立两个位置重合的鱼眼"
+"点辅助尺，然后把一个消失点辅助尺放置在它们的正中间。"
 
 #: ../../user_manual/painting_with_assistants.rst:265
-msgid ".. image:: images/en/Fish-eye.gif"
-msgstr ".. image:: images/en/Fish-eye.gif"
+msgid ".. image:: images/assistants/Fish-eye.gif"
+msgstr ""
 
 #: ../../user_manual/painting_with_assistants.rst:266
 msgid ""

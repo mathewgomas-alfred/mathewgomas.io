@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___tools___similar_select\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-20 08:13+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -33,6 +33,14 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+
 #: ../../<rst_epilog>:78
 msgid ""
 ".. image:: images/icons/similar_select_tool.svg\n"
@@ -44,6 +52,18 @@ msgstr ""
 #: ../../reference_manual/tools/similar_select.rst:1
 msgid "Krita's similar color selection tool reference."
 msgstr "Довідник із інструмента позначення подібного Krita."
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Tools"
+msgstr "Інструменти"
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Selection"
+msgstr "Позначення"
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Similar Selection"
+msgstr "Позначення подібного"
 
 #: ../../reference_manual/tools/similar_select.rst:16
 msgid "Similar Color Selection Tool"
@@ -126,6 +146,20 @@ msgstr ""
 "«перетин»."
 
 #: ../../reference_manual/tools/similar_select.rst:35
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+"Наведення вказівника на позначену ділянку надасть вам змогу пересунути її."
+
+#: ../../reference_manual/tools/similar_select.rst:36
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+"Клацання |mouseright| відкриває меню швидкого доступу для позначеної "
+"ділянки, у якому, серед інших пунктів, є і пункт редагування позначеної "
+"ділянки."
+
+#: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
@@ -134,11 +168,11 @@ msgstr ""
 "так, щоб натискати замість цієї клавіші клавішу :kbd:`Ctrl`. Для цього "
 "призначено спеціальний пункт на сторінці :ref:`general_settings`."
 
-#: ../../reference_manual/tools/similar_select.rst:38
+#: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
 msgstr "Параметри інструмента"
 
-#: ../../reference_manual/tools/similar_select.rst:41
+#: ../../reference_manual/tools/similar_select.rst:46
 msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."

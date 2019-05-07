@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -21,9 +21,14 @@ msgstr ""
 msgid "Color Models in Krita"
 msgstr "Krita 的色彩模型"
 
+#: ../../general_concepts/colors/color_models.rst:10
 #: ../../general_concepts/colors/color_models.rst:15
 msgid "Color Models"
 msgstr "色彩模型"
+
+#: ../../general_concepts/colors/color_models.rst:10
+msgid "Color"
+msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:17
 msgid ""
@@ -48,15 +53,15 @@ msgid ""
 "White, and is thus named the additive color wheel."
 msgstr ""
 "红绿蓝是光色混合时最有效的三原色，计算机的屏幕便是使用此模型。将红绿蓝混合后"
-"得到白，因此这种模型也被叫做加色法模型。"
+"得到白，因此这种模型也被叫做“加色法”模型。"
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
-msgstr "RGB  模型有两种用途："
+msgstr "RGB 模型有两类用途："
 
 #: ../../general_concepts/colors/color_models.rst:30
 msgid "Images that are meant for viewing on a screen:"
-msgstr "用于在屏幕上观看的图像："
+msgstr "第一类是用于在屏幕上观看的图像："
 
 #: ../../general_concepts/colors/color_models.rst:32
 msgid ""
@@ -66,7 +71,7 @@ msgstr "用于互联网的图像，如按钮、图标和头像等。"
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
-msgstr "用于视频游戏的图像，如像素拼合图和材质等用 RGB 模型效果最好。"
+msgstr "用于视频游戏的图像，如像素拼合图和材质等使用 RGB 模型的效果最好。"
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
@@ -79,9 +84,9 @@ msgid ""
 "this next to a profiled monitor. This way you can have precise colors while "
 "also being able to view them correctly on multiple screens."
 msgstr ""
-"还有就是用作工作空间。RGB 色域更为宽广和可预测，在该模型下建立的工作空间对于"
-"图像处理更加有利。最好可以在一个带有色彩特性文件的显示器上使用此模型，这样不"
-"但可以得到准确的颜色，还可以确保在其他屏幕上的观察效果保持一致。"
+"第二类是用作工作空间。RGB 的色域更加宽广且容易预测，在该模型下建立的工作空间"
+"对于图像处理更加有利。最好可以在一个带有色彩特性文件的显示器上使用此模型，这"
+"样不但可以得到准确的颜色，还可以确保在其他屏幕上的显示效果保持一致。"
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
@@ -195,7 +200,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr "——给 RGB-HSV 关系图等预留的位置。"
+msgstr "(给 RGB-HSV 关系图等预留的位置)"
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -215,13 +220,6 @@ msgid "Saturation"
 msgstr "饱和度 (Saturation)"
 
 #: ../../general_concepts/colors/color_models.rst:64
-#, fuzzy
-#| msgid ""
-#| "How vibrant a color is. Saturation is slightly different between HSV and "
-#| "the others. In HSV it's a measurement of the difference between two base "
-#| "colors being used and three base colors being used. In the others it's a "
-#| "measurement of how close a color is to grey, and sometimes this value is "
-#| "called **Chroma**. Saturation ranges from 0 (grey) to 100 (pure color)."
 msgid ""
 "How vibrant a color is. Saturation is slightly different between HSV and the "
 "others. In HSV it's a measurement of the difference between two base colors "
@@ -230,8 +228,8 @@ msgid ""
 "called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
 "颜色的鲜艳程度。饱和度在 HSV 模型中的作用与其他几个模型略有差别。在 HSV 模型"
-"中是两种原色和三种原色数值差值的指标；在别的模型中是颜色与灰接近程度的指标，"
-"有时也称作**色品**。饱和度的范围从 0 (灰) 到 100 (纯色) 。"
+"中饱和度是两种原色和三种原色数值差值的指标；在别的模型中是颜色与灰接近程度的"
+"指标，有时也称作 **色品** 。饱和度的范围从 0 (灰) 到 100 (纯色) 。"
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -252,8 +250,8 @@ msgid ""
 "Where a color aligns between white and black. This value is non-linear, and "
 "puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
-"颜色在白与黑之间的位置。这是一个非线性数值，范围从 0 到 100，饱和度最高的颜色"
-"位于 50。"
+"颜色在白与黑之间的相对位置。这是一个非线性数值，范围从 0 到 100，饱和度最高的"
+"颜色位于 50。"
 
 #: ../../general_concepts/colors/color_models.rst:69
 msgid "Intensity"
@@ -286,25 +284,21 @@ msgid "Grayscale"
 msgstr "灰阶模型"
 
 #: ../../general_concepts/colors/color_models.rst:79
-#, fuzzy
-#| msgid ""
-#| "This color space only registers grey-values. This is useful, because by "
-#| "only registering grey values, it only needs one channel of information, "
-#| "which in turn means the image becomes much lighter in memory consumption!"
 msgid ""
 "This color space only registers gray values. This is useful, because by only "
 "registering gray values, it only needs one channel of information, which in "
 "turn means the image becomes much lighter in memory consumption!"
 msgstr ""
-"此色彩空间只记录灰阶数值。它的有用之处在于只需要一条通道，图像的内存消耗灰大"
-"幅减少。"
+"此色彩空间只记录灰度数值。它的有用之处在于只需要一条通道，因此图像消耗的内存"
+"会少得多。"
 
 #: ../../general_concepts/colors/color_models.rst:82
 msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
-"这对于制作纹理很有用，也适用于任何需要保持灰阶颜色的图像，如黑白漫画等。"
+"灰度图常被用于制作纹理和贴图，也适用于任何需要限制颜色为灰度的图像，如黑白漫"
+"画等。"
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -320,8 +314,8 @@ msgid ""
 "four colors, and adding them all adds up to black instead of white. This is "
 "thus also called a 'subtractive' color space."
 msgstr ""
-"这是用于打印机的色彩空间。和计算机屏幕不同，打印机使用的是这四种颜色，它们混"
-"合后得到的是黑而不是白。因此这也被称作“减色法”色彩空间。"
+"这是用于打印机的色彩空间。和计算机屏幕的红绿蓝三原色混合后得到白不同，打印机"
+"使用这四种颜色作为原色，它们混合后得到黑。因此这也被称作“减色法”模型。"
 
 #: ../../general_concepts/colors/color_models.rst:104
 #: ../../general_concepts/colors/color_models.rst:117
@@ -348,7 +342,7 @@ msgstr "K"
 msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
-msgstr "根据特性文件具体情况，“彩灰”和“中性灰”又会有所差异。"
+msgstr "根据特性文件具体情况，灰色存在“彩色灰”和“中性灰”的差异。"
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
@@ -364,15 +358,15 @@ msgstr "75%"
 
 #: ../../general_concepts/colors/color_models.rst:119
 msgid "Colored Gray"
-msgstr "彩灰"
+msgstr "彩色灰"
 
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "Neutral Gray"
 msgstr "中性灰"
 
 #: ../../general_concepts/colors/color_models.rst:128
-msgid ".. image:: images/en/color_category/Cmyk_black_differences.png"
-msgstr ".. image:: images/en/color_category/Cmyk_black_differences.png"
+msgid ".. image:: images/color_category/Cmyk_black_differences.png"
+msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ""
@@ -381,9 +375,9 @@ msgid ""
 "a yellow look to the strokes. Again, another good reason to work in RGB and "
 "let the conversion be done by the printing house."
 msgstr ""
-"Krita 的默认颜色是 RGB 模型下面的纯黑，由于算法问题它被转成 CMYK 模型时会导致"
-"画出来的笔画偏黄。这也是为什么我们应该在 RGB 模型下面工作，让印刷公司来进行色"
-"彩转换。"
+"Krita 的默认颜色是纯黑，它在 RGB 模型下面显示正常。可由于算法问题，它在 CMYK "
+"模型下面画出来的笔画会偏黄。这也是为什么我们应该在 RGB 模型下面工作，把色彩转"
+"换环节交给印刷公司来完成。"
 
 #: ../../general_concepts/colors/color_models.rst:130
 msgid ""
@@ -394,12 +388,12 @@ msgid ""
 "to your printer and let them handle the work."
 msgstr ""
 "尽管 CMYK 的色域比 RGB 的要小，但我们依然建议使用 RGB 工作空间特性文件来编辑"
-"图像。你可以在事后把成品图像通过可感知或相对比色模式转换至打印机的 CMYK 配置"
-"文件。你还可以直接把 RGB 图像输出到打印机，让它自行完成转换。"
+"图像。你可以在编辑完成之后把成品图像通过可感知模式或者相对比色模式转换到打印"
+"机的 CMYK 配置文件。你还可以直接把 RGB 图像输出到打印机，让它自行完成转换。"
 
 #: ../../general_concepts/colors/color_models.rst:136
 msgid "YCrCb"
-msgstr "YCrCb"
+msgstr "YCrCb 模型"
 
 #: ../../general_concepts/colors/color_models.rst:138
 msgid "Luminosity, Red-chroma, Blue-chroma"
@@ -415,7 +409,7 @@ msgstr "Y'/Y"
 
 #: ../../general_concepts/colors/color_models.rst:143
 msgid "Luma/Luminosity, thus, the amount of light a color reflects."
-msgstr "光度 (Luma/Luminosity) 。某种颜色反射的光量。"
+msgstr "光度 (Luma/Luminosity) 。颜色反射的光量。"
 
 #: ../../general_concepts/colors/color_models.rst:144
 msgid "Cr"
@@ -424,7 +418,7 @@ msgstr "Cr"
 #: ../../general_concepts/colors/color_models.rst:145
 msgid ""
 "Red Chroma. This value measures how red a color is versus how green it is."
-msgstr "红色品 (Red Chroma)。某种颜色中红和绿的比例。"
+msgstr "红色品 (Red Chroma)。颜色所含红和绿的比例。"
 
 #: ../../general_concepts/colors/color_models.rst:147
 msgid "Cb"
@@ -433,7 +427,7 @@ msgstr "Cb"
 #: ../../general_concepts/colors/color_models.rst:147
 msgid ""
 "Blue Chroma. This value measures how blue a color is versus how yellow it is."
-msgstr "蓝色品 (Blue Chroma)。某种颜色中蓝和黄的比例。"
+msgstr "蓝色品 (Blue Chroma)。颜色所含蓝和黄的比例。"
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
@@ -442,8 +436,9 @@ msgid ""
 "lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, "
 "and leave the Y channel in full quality."
 msgstr ""
-"此色彩空间常用于摄影和符合规范的 JPEG 实现方式。人类对亮度比色彩更为敏感，所"
-"以 JPEG 会对 Cr 和 Cb 通道进行压缩，但保持 Y 通道的品质不变。"
+"此色彩空间常用于摄影，符合规范的 JPEG 算法也通过它来处理颜色。这是因为人类对"
+"亮度的敏感程度要高于色彩，JPEG 利用了这一特性，只针对 Cr 和 Cb 两个颜色通道进"
+"行有损压缩，但保持 Y 通道的品质不变。"
 
 #: ../../general_concepts/colors/color_models.rst:153
 msgid ""
@@ -451,13 +446,12 @@ msgid ""
 "open source ICC profiles for this color space. It's unusable without one, "
 "and also probably very untested."
 msgstr ""
-"Krita 并未预装用于 YCrCb 的 ICC 特性文件，这是因为该色彩空间并无开源的 ICC 特"
-"性文件可用。缺少该色彩空间造成了 Krita 严重缺乏相关方面的测试，且在使用该空间"
-"时工作效果不稳定。"
+"Krita 并未自带用于 YCrCb 的 ICC 特性文件，这是因为该色彩空间并无开源的 ICC 特"
+"性文件可用。这造成了 Krita 严重缺乏相关测试，且在使用该空间时工作效果不稳定。"
 
 #: ../../general_concepts/colors/color_models.rst:158
 msgid "XYZ"
-msgstr "XYZ"
+msgstr "XYZ 模型"
 
 #: ../../general_concepts/colors/color_models.rst:160
 msgid ""
@@ -471,7 +465,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
-msgstr "XYZ 空间的道理很难讲清楚，下面的介绍并不精确。"
+msgstr "XYZ 空间的定义非常复杂，下面的介绍只是大概情况，并不精确。"
 
 #: ../../general_concepts/colors/color_models.rst:166
 msgid "is equal to green."
@@ -503,7 +497,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:177
 msgid "L\\*a\\*b\\*"
-msgstr "L\\*a\\*b\\*"
+msgstr "L\\*a\\*b\\* 模型"
 
 #: ../../general_concepts/colors/color_models.rst:179
 msgid "Stands for:"
@@ -546,8 +540,8 @@ msgid ""
 "L*a*b*."
 msgstr ""
 "L\\*a\\*b\\* 空间应该是 XYZ 空间的一个更易理解的变种，也是在所有色彩空间中色"
-"域覆盖最为完全的一种。它常被用作色彩转换的过渡空间，更是进行色彩平衡作业的正"
-"确色彩空间。在 L*a*b 空间中调整对比和色调远比其他方案要来的简单。"
+"域覆盖程度最为完整的一种。它常被用作色彩转换的过渡空间，也是色彩平衡作业应该"
+"采用的色彩空间。在 L*a*b 空间中调整反差和色调远比其他方案要来的简单。"
 
 #: ../../general_concepts/colors/color_models.rst:190
 msgid ""
@@ -559,7 +553,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:193
 msgid "Filters and blending modes"
-msgstr "滤镜和混色模式。"
+msgstr "滤镜和混色模式"
 
 #: ../../general_concepts/colors/color_models.rst:195
 msgid ""
@@ -568,6 +562,6 @@ msgid ""
 "on the color coordinates, and because color coordinates are different per "
 "color space, the blending modes look different."
 msgstr ""
-"你可能会发现在 LAB 空间下面混色模式的作用和在 RGB 或 CMYK 空间下面不一样。这"
-"是因为混色模式使用色彩坐标进行数学运算，而每个色彩空间的坐标系统都不一样，因"
-"此混色结果也会有所不同。"
+"你可能会发现在 LAB 空间下面混色模式的效果与在 RGB 或者 CMYK 空间下面的不一"
+"样。这是因为混色模式使用色彩坐标进行数学运算，而每个色彩空间的坐标系统都不一"
+"样，因此混色结果也会有所不同。"

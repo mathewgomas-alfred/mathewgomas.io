@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___transform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-05 07:17+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 19:50+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -31,6 +31,14 @@ msgstr ""
 #: ../../reference_manual/tools/transform.rst:1
 msgid "Krita's transform tool reference."
 msgstr "Довідник з інструмента перетворення Krita."
+
+#: ../../reference_manual/tools/transform.rst:13
+msgid "Tools"
+msgstr "Інструменти"
+
+#: ../../reference_manual/tools/transform.rst:13
+msgid "Transform"
+msgstr "Перетворити"
 
 #: ../../reference_manual/tools/transform.rst:18
 msgid "Transform Tool"
@@ -83,8 +91,8 @@ msgstr ""
 "довільне перетворення, викривлення, перспектива, клітка і розплавлення."
 
 #: ../../reference_manual/tools/transform.rst:30
-msgid ".. image:: images/en/Transform_Tool_Options.png"
-msgstr ".. image:: images/en/Transform_Tool_Options.png"
+msgid ".. image:: images/tools/Transform_Tool_Options.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options.png"
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid "Free Transform docker"
@@ -107,8 +115,8 @@ msgstr ""
 "перетворення."
 
 #: ../../reference_manual/tools/transform.rst:39
-msgid ".. image:: images/en/Krita_transforms_free.png"
-msgstr ".. image:: images/en/Krita_transforms_free.png"
+msgid ".. image:: images/tools/Krita_transforms_free.png"
+msgstr ".. image:: images/tools/Krita_transforms_free.png"
 
 #: ../../reference_manual/tools/transform.rst:39
 #: ../../reference_manual/tools/transform.rst:67
@@ -160,8 +168,8 @@ msgstr ""
 "змінити розмір, перекошування та позицію перетворення."
 
 #: ../../reference_manual/tools/transform.rst:54
-msgid ".. image:: images/en/Krita_transforms_perspective.png"
-msgstr ".. image:: images/en/Krita_transforms_perspective.png"
+msgid ".. image:: images/tools/Krita_transforms_perspective.png"
+msgstr ".. image:: images/tools/Krita_transforms_perspective.png"
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid "Perspective transform"
@@ -180,16 +188,16 @@ msgstr ""
 "ґратки або вибором власних контрольних точок."
 
 #: ../../reference_manual/tools/transform.rst:63
-msgid ".. image:: images/en/Transform_Tool_Options_Warp.png"
-msgstr ".. image:: images/en/Transform_Tool_Options_Warp.png"
+msgid ".. image:: images/tools/Transform_Tool_Options_Warp.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options_Warp.png"
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid "Warp Option"
 msgstr "Параметр викривлення"
 
 #: ../../reference_manual/tools/transform.rst:67
-msgid ".. image:: images/en/Krita_transforms_warp.png"
-msgstr ".. image:: images/en/Krita_transforms_warp.png"
+msgid ".. image:: images/tools/Krita_transforms_warp.png"
+msgstr ".. image:: images/tools/Krita_transforms_warp.png"
 
 #: ../../reference_manual/tools/transform.rst:69
 msgid ""
@@ -248,8 +256,8 @@ msgstr ""
 "редагування наявних точок."
 
 #: ../../reference_manual/tools/transform.rst:88
-msgid ".. image:: images/en/Krita_transforms_cage.png"
-msgstr ".. image:: images/en/Krita_transforms_cage.png"
+msgid ".. image:: images/tools/Krita_transforms_cage.png"
+msgstr ".. image:: images/tools/Krita_transforms_cage.png"
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid "Transforming a straight banana to be curved with the cage tool"
@@ -257,10 +265,44 @@ msgstr ""
 "Перетворення прямого банана на кривий за допомогою інструмента «Клітка»"
 
 #: ../../reference_manual/tools/transform.rst:91
+msgid "Adjust Granularity"
+msgstr "Скоригувати подільність"
+
+#: ../../reference_manual/tools/transform.rst:95
+msgid ""
+"This adjusts the precision of the cage transform grid. Lower precision gives "
+"more speed but also gives less precise results."
+msgstr ""
+"За допомогою цього пункту можна скоригувати точність ґратки перетворення "
+"«Клітка». Нижчі значення точності пришвидшуватимуть обробку, але результати "
+"перетворення будуть менш точними."
+
+#: ../../reference_manual/tools/transform.rst:97
+msgid "Preview"
+msgstr "Перегляд"
+
+#: ../../reference_manual/tools/transform.rst:98
+msgid ""
+"Adjusts the granularity of the preview. It is recommended to have this lower "
+"than the :guilabel:`Real` value, as it speeds up adjusting."
+msgstr ""
+"Змінює подільність (зернистість) зображення попереднього перегляду. "
+"Рекомендуємо використовувати значення, які є меншими за значення :guilabel:"
+"`Дійсна`, оскільки це пришвидшує коригування."
+
+#: ../../reference_manual/tools/transform.rst:100
+msgid "Real"
+msgstr "Дійсна"
+
+#: ../../reference_manual/tools/transform.rst:100
+msgid "Adjusts the granularity of the final result."
+msgstr "Коригує подільність остаточного результату."
+
+#: ../../reference_manual/tools/transform.rst:103
 msgid "Hotkeys"
 msgstr "Клавіатурні скорочення"
 
-#: ../../reference_manual/tools/transform.rst:93
+#: ../../reference_manual/tools/transform.rst:105
 msgid ""
 "Both Cage and Warp use little nodes. These nodes can be selected and "
 "deselected together by pressing :kbd:`Ctrl` before clicking nodes."
@@ -269,7 +311,7 @@ msgstr ""
 "вузли можна позначати або знімати з них позначення, натиснувши клавішу :kbd:"
 "`Ctrl` перед клацанням на вузлах."
 
-#: ../../reference_manual/tools/transform.rst:95
+#: ../../reference_manual/tools/transform.rst:107
 msgid ""
 "Then you can move them by pressing the cursor inside the bounding box. "
 "Rotating is done by pressing and dragging the cursor outside the bounding "
@@ -281,15 +323,15 @@ msgstr ""
 "курсором поза обмежувальною рамкою. Масштабування виконується так само, лише "
 "з натисканням клавіші :kbd:`Ctrl` перед пересуванням вказівника."
 
-#: ../../reference_manual/tools/transform.rst:100
+#: ../../reference_manual/tools/transform.rst:112
 msgid "Liquify"
 msgstr "Розплавити"
 
-#: ../../reference_manual/tools/transform.rst:103
-msgid ".. image:: images/en/Transform_Tool_Options_Liquify.png"
-msgstr ".. image:: images/en/Transform_Tool_Options_Liquify.png"
+#: ../../reference_manual/tools/transform.rst:115
+msgid ".. image:: images/tools/Transform_Tool_Options_Liquify.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options_Liquify.png"
 
-#: ../../reference_manual/tools/transform.rst:104
+#: ../../reference_manual/tools/transform.rst:116
 msgid ""
 "Like our deform brush, the liquify brush allows you to draw the deformations "
 "straight on the canvas."
@@ -297,63 +339,63 @@ msgstr ""
 "Подібно до пензля деформування, пензель розплавлення надає вам змогу "
 "малювати деформації безпосередньо на полотні."
 
-#: ../../reference_manual/tools/transform.rst:106
+#: ../../reference_manual/tools/transform.rst:118
 msgid "Move"
 msgstr "Пересунути"
 
-#: ../../reference_manual/tools/transform.rst:107
+#: ../../reference_manual/tools/transform.rst:119
 msgid "Drag the image along the brush stroke."
 msgstr "Перетягнути зображення уздовж мазка пензлем."
 
-#: ../../reference_manual/tools/transform.rst:108
+#: ../../reference_manual/tools/transform.rst:120
 msgid "Scale"
 msgstr "Масштабувати"
 
-#: ../../reference_manual/tools/transform.rst:109
+#: ../../reference_manual/tools/transform.rst:121
 msgid "Grow/Shrink the image under the cursor."
 msgstr "Розтягнути або стиснути зображення під вказівником."
 
-#: ../../reference_manual/tools/transform.rst:110
+#: ../../reference_manual/tools/transform.rst:122
 msgid "Rotate"
 msgstr "Обернути"
 
-#: ../../reference_manual/tools/transform.rst:111
+#: ../../reference_manual/tools/transform.rst:123
 msgid "Twirl the image under the cursor"
 msgstr "Обернути зображення під вказівником."
 
-#: ../../reference_manual/tools/transform.rst:112
+#: ../../reference_manual/tools/transform.rst:124
 msgid "Offset"
 msgstr "Зміщення"
 
-#: ../../reference_manual/tools/transform.rst:113
+#: ../../reference_manual/tools/transform.rst:125
 msgid "Shift the image under the cursor."
 msgstr "Зсунути зображення під вказівником."
 
-#: ../../reference_manual/tools/transform.rst:115
+#: ../../reference_manual/tools/transform.rst:127
 msgid "Undo"
 msgstr "Вернути"
 
-#: ../../reference_manual/tools/transform.rst:115
+#: ../../reference_manual/tools/transform.rst:127
 msgid "Erases the actions of other tools."
 msgstr "Скасувати результат дії інших інструментів."
 
-#: ../../reference_manual/tools/transform.rst:119
-msgid ".. image:: images/en/Krita_transforms_liquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_liquefy.png"
+#: ../../reference_manual/tools/transform.rst:131
+msgid ".. image:: images/tools/Krita_transforms_liquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_liquefy.png"
 
-#: ../../reference_manual/tools/transform.rst:119
+#: ../../reference_manual/tools/transform.rst:131
 msgid "Liquify used to turn an apple into a pear"
 msgstr "Використання розплавлення для перетворення яблука на грушу"
 
-#: ../../reference_manual/tools/transform.rst:121
+#: ../../reference_manual/tools/transform.rst:133
 msgid "In the options for each brush there are:"
 msgstr "У параметрах для кожного пензля є такі:"
 
-#: ../../reference_manual/tools/transform.rst:123
+#: ../../reference_manual/tools/transform.rst:135
 msgid "Mode"
 msgstr "Режим"
 
-#: ../../reference_manual/tools/transform.rst:124
+#: ../../reference_manual/tools/transform.rst:136
 msgid ""
 "This is either :guilabel:`Wash` or :guilabel:`Build up`. :guilabel:`Wash` "
 "will normalize the effect to be between none, and the amount parameter as "
@@ -365,11 +407,11 @@ msgstr ""
 "режимі :guilabel:`Надбудова` програма просто додаватиме, аж доки це не стане "
 "неможливим."
 
-#: ../../reference_manual/tools/transform.rst:125
+#: ../../reference_manual/tools/transform.rst:137
 msgid "Size"
 msgstr "Розмір"
 
-#: ../../reference_manual/tools/transform.rst:126
+#: ../../reference_manual/tools/transform.rst:138
 msgid ""
 "The brush size. The button to the right allow you to let it scale with "
 "pressure."
@@ -377,11 +419,11 @@ msgstr ""
 "Розмір пензля. За допомогою кнопки, яку розташовано праворуч, можна "
 "масштабувати пензель за тиском стила."
 
-#: ../../reference_manual/tools/transform.rst:127
+#: ../../reference_manual/tools/transform.rst:139
 msgid "Amount"
 msgstr "Величина"
 
-#: ../../reference_manual/tools/transform.rst:128
+#: ../../reference_manual/tools/transform.rst:140
 msgid ""
 "The strength of the brush. The button to the right lets it scale with tablet "
 "pressure."
@@ -389,27 +431,27 @@ msgstr ""
 "Потужність пензля. За допомогою кнопки праворуч можна масштабувати "
 "потужність за тиском стила на планшет."
 
-#: ../../reference_manual/tools/transform.rst:129
+#: ../../reference_manual/tools/transform.rst:141
 msgid "Flow"
 msgstr "Потік"
 
-#: ../../reference_manual/tools/transform.rst:130
+#: ../../reference_manual/tools/transform.rst:142
 msgid "Only applicable with :guilabel:`Build up`."
 msgstr "Можна застосовувати лише у режимі надбудови."
 
-#: ../../reference_manual/tools/transform.rst:131
+#: ../../reference_manual/tools/transform.rst:143
 msgid "Spacing"
 msgstr "Інтервал"
 
-#: ../../reference_manual/tools/transform.rst:132
+#: ../../reference_manual/tools/transform.rst:144
 msgid "The spacing of the liquify dabs."
 msgstr "Інтервал між мазками розплавлення."
 
-#: ../../reference_manual/tools/transform.rst:134
+#: ../../reference_manual/tools/transform.rst:146
 msgid "Reverse"
 msgstr "Зворотній"
 
-#: ../../reference_manual/tools/transform.rst:134
+#: ../../reference_manual/tools/transform.rst:146
 msgid ""
 "Reverses the action, so grow becomes shrink, rotate results in clockwise "
 "becoming counter-clockwise."
@@ -417,15 +459,15 @@ msgstr ""
 "Обертає дію: розтягування стає стисканням, обертання з обертання за "
 "годинниковою стрілкою перетворюється на обертання проти годинникової стрілки."
 
-#: ../../reference_manual/tools/transform.rst:138
-msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
+#: ../../reference_manual/tools/transform.rst:150
+msgid ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
 
-#: ../../reference_manual/tools/transform.rst:138
+#: ../../reference_manual/tools/transform.rst:150
 msgid "liquify on the left and deform brush on the right."
 msgstr "Розплавлення ліворуч і пензель викривлення праворуч."
 
-#: ../../reference_manual/tools/transform.rst:140
+#: ../../reference_manual/tools/transform.rst:152
 msgid ""
 "Krita also has a :ref:`deform_brush_engine` which is much faster than "
 "liquify, but has less quality. If you are attempting to make liquefy a "
@@ -440,11 +482,11 @@ msgstr ""
 "для позначеного фрагмента або окремого шару, де майже нічого немає, може "
 "значно пришвидшити роботу перетворення."
 
-#: ../../reference_manual/tools/transform.rst:143
+#: ../../reference_manual/tools/transform.rst:155
 msgid "Recursive Transform"
 msgstr "Рекурсивне перетворення"
 
-#: ../../reference_manual/tools/transform.rst:144
+#: ../../reference_manual/tools/transform.rst:156
 msgid ""
 "The little spider icon on the lower-left of the transform tool options is "
 "the :guilabel:`Recursive Transform`."
@@ -453,11 +495,11 @@ msgstr ""
 "невеличкої піктограми із зображенням, подібним до павутини, можна виконати :"
 "guilabel:`Рекурсивне перетворення`."
 
-#: ../../reference_manual/tools/transform.rst:148
-msgid ".. image:: images/en/Krita_transforms_recursive.png"
-msgstr ".. image:: images/en/Krita_transforms_recursive.png"
+#: ../../reference_manual/tools/transform.rst:160
+msgid ".. image:: images/tools/Krita_transforms_recursive.png"
+msgstr ".. image:: images/tools/Krita_transforms_recursive.png"
 
-#: ../../reference_manual/tools/transform.rst:148
+#: ../../reference_manual/tools/transform.rst:160
 msgid ""
 "Recursive transform transforms all the layers in the group, so with this "
 "apple, both the lineart as the fill will be transformed."
@@ -465,7 +507,7 @@ msgstr ""
 "Рекурсивне перетворення перетворює усі шари у групі, тому у нашому прикладі "
 "з яблуком, буде перетворено графіку і заповнення."
 
-#: ../../reference_manual/tools/transform.rst:150
+#: ../../reference_manual/tools/transform.rst:162
 msgid ""
 "Recursive transform, when toggled, allows you to mass-transform all the "
 "layers in a group when only transforming the group."
@@ -473,11 +515,11 @@ msgstr ""
 "Рекурсивне перетворення, якщо його увімкнено, надає вам змогу пакетно "
 "перетворити усі шари у групі одним перетворенням пункту групи."
 
-#: ../../reference_manual/tools/transform.rst:153
+#: ../../reference_manual/tools/transform.rst:165
 msgid "Continuous Transform"
 msgstr "Неперервне перетворення"
 
-#: ../../reference_manual/tools/transform.rst:155
+#: ../../reference_manual/tools/transform.rst:167
 msgid ""
 "If you apply a transformation, and try to start a new one directly "
 "afterwards, Krita will attempt to recall the previous transform, so you can "
@@ -492,11 +534,11 @@ msgstr ""
 "або натиснути кнопку :guilabel:`Скинути` на панелі параметрів інструмента, "
 "доки не вибрано перетворення."
 
-#: ../../reference_manual/tools/transform.rst:158
+#: ../../reference_manual/tools/transform.rst:170
 msgid "Transformation Masks"
 msgstr "Маски перетворення"
 
-#: ../../reference_manual/tools/transform.rst:160
+#: ../../reference_manual/tools/transform.rst:172
 msgid ""
 "These allow you make non-destructive transforms, check :ref:`here "
 "<transformation_masks>` for more info."

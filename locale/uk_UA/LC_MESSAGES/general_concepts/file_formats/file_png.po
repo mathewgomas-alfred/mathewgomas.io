@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___file_formats___file_png\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-03-20 08:13+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 09:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,6 +24,18 @@ msgstr ""
 #: ../../general_concepts/file_formats/file_png.rst:1
 msgid "The Portable Network Graphics file format in Krita."
 msgstr "Формат файлів Portable Network Graphics у Krita."
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+msgid "*.png"
+msgstr "*.png"
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+msgid "png"
+msgstr "png"
+
+#: ../../general_concepts/file_formats/file_png.rst:11
+msgid "portable network graphics"
+msgstr "portable network graphics"
 
 #: ../../general_concepts/file_formats/file_png.rst:17
 msgid "\\*.png"
@@ -68,3 +80,17 @@ msgstr ""
 "анімації. Було дві спроби реалізувати підтримку анімації у png, apng та mng. "
 "Перша з них була неофіційною, друга — надто складною, тому жоден із них так "
 "і не набув популярності."
+
+#: ../../general_concepts/file_formats/file_png.rst:25
+msgid ""
+"Since 4.2 we support saving HDR to PNG as according to the `W3C PQ HDR PNG "
+"standard <https://www.w3.org/TR/png-hdr-pq/>`_. To save as such files, "
+"toggle :guilabel:`Save as HDR image (Rec. 2020 PQ)`, which will convert your "
+"image to the Rec 2020 PQ color space and then save it as a special HDR png."
+msgstr ""
+"Починаючи з версії 4.2, передбачено підтримку збереження даних із широким "
+"динамічним діапазоном до PNG відповідно до `стандарту W3C PQ HDR PNG "
+"<https://www.w3.org/TR/png-hdr-pq/>`_. Щоб зберегти файли у цьому форматі, "
+"позначте пункт :guilabel:`Зберегти як зображення HDR (Rec. 2020 PQ)`. У "
+"результаті зображення буде перетворено до простору кольорів Rec 2020 PQ, а "
+"потім збережено до спеціалізованого файла PNG із HDR."

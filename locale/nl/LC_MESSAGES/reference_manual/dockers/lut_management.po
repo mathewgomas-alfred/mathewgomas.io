@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-02-22 14:29+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 11:16+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Set white and black points"
@@ -28,13 +28,23 @@ msgstr "Wit en zwartpunten instellen"
 msgid "Overview of the LUT management docker."
 msgstr "Overzicht van de vastzetter LUT-beheer."
 
+#: ../../reference_manual/dockers/lut_management.rst:11
 #: ../../reference_manual/dockers/lut_management.rst:16
 msgid "LUT Management"
 msgstr "LUT-beheer"
 
+#: ../../reference_manual/dockers/lut_management.rst:11
+msgid "Look Up Table"
+msgstr ""
+
+#: ../../reference_manual/dockers/lut_management.rst:11
+msgid "OCIO"
+msgstr "OCIO"
+
 #: ../../reference_manual/dockers/lut_management.rst:19
-msgid ".. image:: images/en/LUT_Management_Docker.png"
-msgstr ".. image:: images/en/LUT_Management_Docker.png"
+#| msgid ".. image:: images/en/LUT_Management_Docker.png"
+msgid ".. image:: images/dockers/LUT_Management_Docker.png"
+msgstr ".. image:: images/dockers/LUT_Management_Docker.png"
 
 #: ../../reference_manual/dockers/lut_management.rst:20
 msgid ""
@@ -44,7 +54,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/lut_management.rst:22
 msgid "Use OpenColorIO"
-msgstr ""
+msgstr "OpenColorIO gebruiken"
 
 #: ../../reference_manual/dockers/lut_management.rst:23
 msgid ""

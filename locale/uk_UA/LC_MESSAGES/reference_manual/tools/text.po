@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___text\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-05 07:17+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:06+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -37,16 +37,28 @@ msgstr ""
 "   :alt: tooltext"
 
 #: ../../reference_manual/tools/text.rst:0
-msgid ".. image:: images/en/Krita_4_0_text_kerning.png"
-msgstr ".. image:: images/en/Krita_4_0_text_kerning.png"
+msgid ".. image:: images/tools/Krita_4_0_text_kerning.png"
+msgstr ".. image:: images/tools/Krita_4_0_text_kerning.png"
 
 #: ../../reference_manual/tools/text.rst:0
-msgid ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
-msgstr ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
+msgid ".. image:: images/tools/Krita_4_0_letter_and_word_spacing.png"
+msgstr ".. image:: images/tools/Krita_4_0_letter_and_word_spacing.png"
 
 #: ../../reference_manual/tools/text.rst:1
 msgid "Krita's text tool reference."
 msgstr "Довідник з інструмента «Текст» Krita"
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Tools"
+msgstr "Інструменти"
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Text"
+msgstr "Текст"
+
+#: ../../reference_manual/tools/text.rst:11
+msgid "Vector"
+msgstr "Вектор"
 
 #: ../../reference_manual/tools/text.rst:16
 msgid "Text Tool"
@@ -85,8 +97,8 @@ msgid "Tool Options"
 msgstr "Параметри інструмента"
 
 #: ../../reference_manual/tools/text.rst:30
-msgid ".. image:: images/en/Krita-tool-options-text.png"
-msgstr ".. image:: images/en/Krita-tool-options-text.png"
+msgid ".. image:: images/tools/Krita-tool-options-text.png"
+msgstr ".. image:: images/tools/Krita-tool-options-text.png"
 
 #: ../../reference_manual/tools/text.rst:32
 msgid ""
@@ -169,8 +181,8 @@ msgstr ""
 "редактора є дві вкладки: «Форматований текст» та «Код SVG»."
 
 #: ../../reference_manual/tools/text.rst:49
-msgid ".. image:: images/en/Text-editor-example.png"
-msgstr ".. image:: images/en/Text-editor-example.png"
+msgid ".. image:: images/tools/Text-editor-example.png"
+msgstr ".. image:: images/tools/Text-editor-example.png"
 
 #: ../../reference_manual/tools/text.rst:50
 msgid "Activating"
@@ -671,6 +683,18 @@ msgstr ""
 "використано варіант «auto», тобто кернінґ буде увімкнено. Щоб вимкнути "
 "кернінґ скористайтеся записом kerning:0 у розділі стилю тексту."
 
+#: ../../reference_manual/tools/text.rst:183
+msgid ""
+"<text style=\"kerning:0; font-family:Dancing Script; font-size:18pt; font-"
+"size-adjust:0.265625\">\n"
+"    <tspan>No Kerning on Valhalla Tower.</tspan>\n"
+"</text>"
+msgstr ""
+"<text style=\"kerning:0; font-family:Dancing Script; font-size:18pt; font-"
+"size-adjust:0.265625\">\n"
+"    <tspan>No Kerning on Valhalla Tower.</tspan>\n"
+"</text>"
+
 #: ../../reference_manual/tools/text.rst:185
 msgid "Kerning"
 msgstr "Кернінґ"
@@ -700,6 +724,34 @@ msgstr ""
 "значенням є ``word-spacing: 0;``, тобто використовують ширину символу "
 "пробілу у шрифті. Від'ємне значення призведе до зменшення відстані між "
 "словами:"
+
+#: ../../reference_manual/tools/text.rst:197
+msgid ""
+"<text style=\"font-family:Noto Serif; font-size:12pt; font-size-"
+"adjust:0.389915; text-anchor:middle\">\n"
+"    <tspan>No Adjustment.</tspan>\n"
+"    <tspan style=\"letter-spacing:2\" x=\"0\" dy=\"22pt\">Letter spacing: 2</"
+"tspan>\n"
+"    <tspan style=\"letter-spacing:-2\" x=\"0\" dy=\"22pt\">Letter spacing: "
+"-2</tspan>\n"
+"    <tspan style=\"word-spacing:5\" x=\"0\" dy=\"22pt\">Word spacing: 5</"
+"tspan>\n"
+"    <tspan style=\"word-spacing:-5\" x=\"0\" dy=\"22pt\">Word spacing: -5</"
+"tspan>\n"
+"</text>"
+msgstr ""
+"<text style=\"font-family:Noto Serif; font-size:12pt; font-size-"
+"adjust:0.389915; text-anchor:middle\">\n"
+"    <tspan>Без коригування.</tspan>\n"
+"    <tspan style=\"letter-spacing:2\" x=\"0\" dy=\"22pt\">Інтервал між "
+"літерами: 2</tspan>\n"
+"    <tspan style=\"letter-spacing:-2\" x=\"0\" dy=\"22pt\">Інтервал між "
+"літерами: -2</tspan>\n"
+"    <tspan style=\"word-spacing:5\" x=\"0\" dy=\"22pt\">Інтервал між "
+"словами: 5</tspan>\n"
+"    <tspan style=\"word-spacing:-5\" x=\"0\" dy=\"22pt\">Інтервал між "
+"словами: -5</tspan>\n"
+"</text>"
 
 #: ../../reference_manual/tools/text.rst:204
 msgid "Word-spacing"

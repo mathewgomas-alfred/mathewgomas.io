@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_user_manual___getting_started___navigation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-10 07:04+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 13:37+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -46,21 +46,43 @@ msgstr ""
 "   :alt: mousemiddle"
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Interface-tour.png"
-msgstr ".. image:: images/en/Interface-tour.png"
+msgid ".. image:: images/Interface-tour.svg"
+msgstr ".. image:: images/Interface-tour.svg"
 
 #: ../../user_manual/getting_started/navigation.rst:None
-msgid ".. image:: images/en/Krita-popuppalette.png"
-msgstr ".. image:: images/en/Krita-popuppalette.png"
+msgid ".. image:: images/Krita-popuppalette.png"
+msgstr ".. image:: images/Krita-popuppalette.png"
 
 #: ../../user_manual/getting_started/navigation.rst:1
 msgid "Overview of Krita navigation."
 msgstr "Огляд навігації у Krita."
 
+#: ../../user_manual/getting_started/navigation.rst:13
 #: ../../user_manual/getting_started/navigation.rst:18
 #: ../../user_manual/getting_started/navigation.rst:43
 msgid "Navigation"
 msgstr "Навігація"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+#: ../../user_manual/getting_started/navigation.rst:103
+msgid "Pop-up Palette"
+msgstr "Контекстна палітра"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Zoom"
+msgstr "Масштаб"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Rotate"
+msgstr "Обертання"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Pan"
+msgstr "Панорамування"
+
+#: ../../user_manual/getting_started/navigation.rst:13
+msgid "Workspace"
+msgstr "Робочий простір"
 
 #: ../../user_manual/getting_started/navigation.rst:21
 msgid "Interface"
@@ -68,20 +90,20 @@ msgstr "Інтерфейс"
 
 #: ../../user_manual/getting_started/navigation.rst:23
 msgid ""
-"Krita provides an ample choice for the artists to arrange the workspace. An "
-"artist can snap and arrange the elements of the workspace, much like "
-"snapping together Lego blocks.  Krita provides a set of construction kit "
-"parts in the form of Dockers and Toolbars. Every set of elements can be "
-"shown, hidden, moved and rearranged that let the artist easily customize "
-"their own user interface experience."
+"Krita's interface is very flexible and provides an ample choice for the "
+"artists to arrange the elements of the workspace. An artist can snap and "
+"arrange the elements, much like snapping together Lego blocks. Krita "
+"provides a set of construction kit parts in the form of Dockers and "
+"Toolbars. Every set of elements can be shown, hidden, moved and rearranged "
+"that let the artists easily customize their own user interface experience."
 msgstr ""
-"Krita надає художникам якнайширші можливості з упорядковування робочого "
-"простору. Художник може зліпити або упорядкувати елементи робочого простору "
-"подібно до з'єднування блоків конструкторів Леґо. У Krita передбачено набір "
-"частин для побудови інтерфейсу у формі бічних панелей та панелей "
-"інструментів. Кожен набір елементів можна показати, приховати, пересунути "
-"або переупорядкувати. Це надає можливість художнику без проблем створити "
-"зручний для нього інтерфейс для малювання."
+"Інтерфейс Krita є дуже гнучким, він надає художникам якнайширші можливості з "
+"упорядковування робочого простору. Художник може зліпити або упорядкувати "
+"елементи інтерфейсу подібно до з'єднування блоків конструкторів Леґо. У "
+"Krita передбачено набір частин для побудови інтерфейсу у формі бічних "
+"панелей та панелей інструментів. Кожен набір елементів можна показати, "
+"приховати, пересунути або переупорядкувати. Це надає можливість художнику "
+"без проблем створити зручний для нього інтерфейс для малювання."
 
 #: ../../user_manual/getting_started/navigation.rst:26
 msgid "A Tour of the Krita Interface"
@@ -90,12 +112,12 @@ msgstr "Огляд інтерфейсу Krita"
 #: ../../user_manual/getting_started/navigation.rst:28
 msgid ""
 "As we've said before, the Krita interface is very malleable and the way that "
-"you choose to configure the work surface may not resemble those above but, "
-"at least this we can use these as a starting point."
+"you choose to configure the work surface may not resemble those shown below, "
+"but we can use these as a starting point."
 msgstr ""
 "Як ми вже зауважували, інтерфейс Krita є дуже гнучким, отже спосіб, у який "
 "ви вирішите налаштувати ваш робочий простір, може значно відрізнятися від "
-"наведеного вище, але, принаймні, ми можемо скористатися типовим робочим "
+"наведеного нижче, але, принаймні, ми можемо скористатися типовим робочим "
 "простором як вихідним пунктом."
 
 #: ../../user_manual/getting_started/navigation.rst:34
@@ -116,7 +138,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:36
 msgid ""
-"**C** -- Sidebars for the Movable Panels/Dockers.  In some applications, "
+"**C** -- Sidebars for the Movable Panels/Dockers. In some applications, "
 "these are known as Dockable areas. Krita also allows you to dock panels at "
 "the top and/or bottom as well."
 msgstr ""
@@ -126,7 +148,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:37
 msgid ""
-"**D** -- Status Bar - This space shows you preferred mode for showing "
+"**D** -- Status Bar - This space shows the preferred mode for showing "
 "selection i.e. marching ants or mask mode, your selected brush preset, :ref:"
 "`Color Space <color_managed_workflow>`, image size and provides a convenient "
 "zoom control."
@@ -138,9 +160,8 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:38
 msgid ""
 "**E** -- Floating Panel/Docker - These can be \"popped\" in and out of their "
-"docks at any time in order to see a greater range of options.  A good "
-"example of this would be the :ref:`brush_preset_docker` or the :ref:"
-"`palette_docker`."
+"docks at any time in order to see a greater range of options. A good example "
+"of this would be the :ref:`brush_preset_docker` or the :ref:`palette_docker`."
 msgstr ""
 "**E** — Рухома панель — такі панелі можуть будь-коли розкриватися і "
 "згортатися з бічних панелей для перегляду широкого діапазону параметрів. "
@@ -150,9 +171,9 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:40
 msgid ""
 "Your canvas sits in the middle and unlike traditional paper or even most "
-"digital painting apps, Krita provides the artist with a scrolling canvas of "
-"infinite size (not that you'll need it of course!).  The standard navigation "
-"tools are as follows:"
+"digital painting applications, Krita provides the artist with a scrolling "
+"canvas of infinite size (not that you'll need it of course!). The standard "
+"navigation tools are as follows:"
 msgstr ""
 "Ваше полотно розташовано посередині і, на відміну від традиційного паперу "
 "або навіть більшості програм для малювання, у Krita у розпорядження "
@@ -199,7 +220,7 @@ msgstr "Зберігання копій даних"
 
 #: ../../user_manual/getting_started/navigation.rst:51
 msgid ""
-"You can mirror the view can be quickly done via :kbd:`M`.   Mirroring is a "
+"You can mirror the view can be quickly done via :kbd:`M` key. Mirroring is a "
 "great technique that seasoned digital artists use to quickly review the "
 "composition of their work to ensure that it \"reads\" well, even when "
 "flipped horizontally."
@@ -241,7 +262,7 @@ msgstr "Бічні панелі"
 #: ../../user_manual/getting_started/navigation.rst:60
 msgid ""
 "Krita subdivides many of its options into functional panels called Dockers "
-"(aka Docks)."
+"(also known as Docks)."
 msgstr ""
 "У Krita багато інструментів розподілено між функціональними панелями, які ми "
 "називатимемо бічними панелями."
@@ -249,10 +270,10 @@ msgstr ""
 #: ../../user_manual/getting_started/navigation.rst:62
 msgid ""
 "Dockers are small windows that can contain, for example, things like the "
-"layer stack, Color Palette or Brush Presets. Think of them as the painter's "
-"palette, or his water, or his brushkit. They can be activated by choosing "
-"the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu.  There "
-"you will find a long list of available options."
+"layer stack, Color Palette or list of Brush Presets. Think of them as the "
+"painter's palette, or his water, or his brush kit. They can be activated by "
+"choosing the :guilabel:`Settings` menu and the :guilabel:`Dockers` sub-menu. "
+"There you will find a long list of available options."
 msgstr ""
 "Бічні панелі — віконця, у яких можуть міститися, наприклад, стос шарів, "
 "палітра кольорів або набори пензлів. Вони подібні до палітри, акварелі або "
@@ -270,7 +291,7 @@ msgstr ""
 
 #: ../../user_manual/getting_started/navigation.rst:66
 msgid ""
-"Dockers, as the name implied, can be docked into the main interface. You can "
+"Dockers, as the name implies, can be docked into the main interface. You can "
 "do this by dragging the docker to the sides of the canvas (or top or bottom "
 "if you prefer)."
 msgstr ""
@@ -320,13 +341,13 @@ msgstr ""
 "Нижче наведено приклад повзунка у Krita."
 
 #: ../../user_manual/getting_started/navigation.rst:79
-msgid ".. image:: images/en/Krita_Opacity_Slider.png"
-msgstr ".. image:: images/en/Krita_Opacity_Slider.png"
+msgid ".. image:: images/Krita_Opacity_Slider.png"
+msgstr ".. image:: images/Krita_Opacity_Slider.png"
 
 #: ../../user_manual/getting_started/navigation.rst:80
 msgid ""
 "The total range is represented from left to right and blue bar gives an "
-"indication of where in the possible range the current value is.  Clicking "
+"indication of where in the possible range the current value is. Clicking "
 "anywhere, left or right, of that slider will change the current number to "
 "something lower (to the left) or higher (to the right)."
 msgstr ""
@@ -358,8 +379,8 @@ msgid "Toolbars"
 msgstr "Панелі інструментів"
 
 #: ../../user_manual/getting_started/navigation.rst:89
-msgid ".. image:: images/en/Krita_Toolbar.png"
-msgstr ".. image:: images/en/Krita_Toolbar.png"
+msgid ".. image:: images/Krita_Toolbar.png"
+msgstr ".. image:: images/Krita_Toolbar.png"
 
 #: ../../user_manual/getting_started/navigation.rst:90
 msgid ""
@@ -388,7 +409,7 @@ msgstr "Вибір робочого простору"
 
 #: ../../user_manual/getting_started/navigation.rst:98
 msgid ""
-"The button on the very right of the toolbar is the workspace chooser. This "
+"The button on the very right of the Toolbar is the workspace chooser. This "
 "allows you to load and save common configurations of the user interface in "
 "Krita. There are a few common workspaces that come with Krita."
 msgstr ""
@@ -398,25 +419,26 @@ msgstr ""
 "постачається декілька типових робочих просторів."
 
 #: ../../user_manual/getting_started/navigation.rst:101
-msgid "Pop-up Palette"
-msgstr "Контекстна палітра"
-
-#: ../../user_manual/getting_started/navigation.rst:106
-msgid ""
-"Pop-up Palette is a unique feature in Krita designed to increase "
-"productivity of the artist. It is a circular menu for quickly choosing "
-"brushes, foreground and background colors, recent colors while painting. To "
-"access the palette you have to just |mouseright| on the canvas. The palette "
-"will spawn at the place of the brush tip or cursor."
-msgstr ""
-"Контекстна палітра є унікальною можливістю Krita, яку розроблено для "
-"підвищення ефективності роботи художника. Це кругове меню для пришвидшення "
-"вибору пензлів, кольорів переднього і заднього планів та нещодавно "
-"використаних кольорів під час малювання. Для отримання доступу до палітри "
-"вам достатньо клацнути |mouseright| на полотні. Палітру буде показано у "
-"позиції кінчика пензля або вказівника миші."
+msgid ".. image:: images/workspace-chooser-button.svg"
+msgstr ".. image:: images/workspace-chooser-button.svg"
 
 #: ../../user_manual/getting_started/navigation.rst:108
+msgid ""
+":ref:`Pop-up Palette <pop-up_palette>` is a feature unique to Krita, "
+"designed to increase the productivity of the artist. It is a circular menu "
+"for quickly choosing brushes, foreground and background colors, recent "
+"colors while painting. To access the palette you have to just |mouseright| "
+"on the canvas. The palette will spawn at the position of the brush tip or "
+"cursor."
+msgstr ""
+":ref:`Контекстна палітра <pop-up_palette>` є унікальною можливістю Krita, "
+"яку розроблено для підвищення ефективності роботи художника. Це кругове меню "
+"для пришвидшення вибору пензлів, кольорів переднього і заднього планів та "
+"нещодавно використаних кольорів під час малювання. Для отримання доступу до "
+"палітри вам достатньо клацнути |mouseright| на полотні. Палітру буде "
+"показано у позиції кінчика пензля або вказівника миші."
+
+#: ../../user_manual/getting_started/navigation.rst:110
 msgid ""
 "By tagging your brush presets you can add particular sets of brushes to this "
 "palette. For example, if you add some inking brush presets to inking tag you "
@@ -428,27 +450,28 @@ msgstr ""
 "для малювання чорнилом до мітки «чорнило», ви зможете змінити на палітрі "
 "мітку на «чорнило» і отримати на палітрі усі пензлі для малювання чорнилом."
 
-#: ../../user_manual/getting_started/navigation.rst:110
-msgid ""
-"You can :ref:`tag <tag_management>` brush presets via the :ref:"
-"`brush_preset_docker`, check out the resource overview page to know more "
-"about tagging in general."
-msgstr ""
-"Ви можете встановити :ref:`мітки <tag_management>` для наборів пензлів за "
-"допомогою :ref:`панелі наборів пензлів <brush_preset_docker>` Ознайомтеся зі "
-"сторінкою огляду ресурсів, щоб дізнатися більше про мітки."
-
 #: ../../user_manual/getting_started/navigation.rst:112
 msgid ""
-"If you call up the pop-up palette again, you can click the wrench icon, and "
+"You can :ref:`tag <tag_management>` brush presets via the :ref:"
+"`brush_preset_docker`, check out the :ref:`resource overview page "
+"<resource_management>` to know more about tagging in general."
+msgstr ""
+"Ви можете встановити :ref:`мітки <tag_management>` для наборів пензлів за "
+"допомогою :ref:`панелі наборів пензлів <brush_preset_docker>` Ознайомтеся "
+"зі :ref:`сторінкою огляду ресурсів <resource_management>`, щоб дізнатися "
+"більше про мітки."
+
+#: ../../user_manual/getting_started/navigation.rst:114
+msgid ""
+"If you call up the pop-up palette again, you can click the tag icon, and "
 "select the tag. In fact, you can make multiple tags and switch between them. "
 "When you need more than ten presets, go into :menuselection:`Settings --> "
-"Configure Krita --> General --> Favorite presets` and change the number of "
-"presets from 10 to something you feel comfortable."
+"Configure Krita --> General --> Miscellaneous --> Number of Palette Presets` "
+"and change the number of presets from 10 to something you feel comfortable."
 msgstr ""
 "Якщо ви знову викличете контекстну палітру, ви можете натиснути піктограму з "
-"гайковим ключем і вибрати мітку. Фактично, ви можете створити декілька міток "
-"і перемикатися між ними. Якщо вам потрібно більше за 10 наборів пензлів, "
+"міткою і вибрати мітку. Фактично, ви можете створити декілька міток і "
+"перемикатися між ними. Якщо вам потрібно більше за 10 наборів пензлів, "
 "перейдіть на сторінку налаштувань :menuselection:`Параметри --> Налаштувати "
-"Krita --> Загальне --> Улюблені набори` і змініть кількість наборів з 10 на "
-"будь-яку іншу кількість."
+"Krita --> Загальне --> Інше --> Кількість наборів палітр` і змініть "
+"кількість наборів з 10 на будь-яку іншу кількість."

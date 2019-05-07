@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-20 03:39+0100\n"
-"PO-Revision-Date: 2019-02-27 12:00+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-04-26 11:35+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 18.12.3\n"
 
 #: ../../<generated>:1
 msgid "Fuzziness"
@@ -28,6 +28,18 @@ msgstr "Vaagheid"
 msgid ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
+msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: muislinks"
+
+#: ../../<rst_epilog>:4
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/icons/Krita_mouse_left.png\n"
+#| "   :alt: mouseleft"
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
 msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: muislinks"
@@ -44,13 +56,27 @@ msgstr ""
 msgid "Krita's similar color selection tool reference."
 msgstr "Verwijzing naar hulpmiddel Selectie gelijkwaardige kleur van Krita."
 
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Tools"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+msgid "Selection"
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:11
+#, fuzzy
+#| msgid "Similar Color Selection Tool"
+msgid "Similar Selection"
+msgstr "Hulpmiddel Selectie gelijkwaardige kleur"
+
 #: ../../reference_manual/tools/similar_select.rst:16
 msgid "Similar Color Selection Tool"
 msgstr "Hulpmiddel Selectie gelijkwaardige kleur"
 
 #: ../../reference_manual/tools/similar_select.rst:18
 msgid "|toolselectsimilar|"
-msgstr ""
+msgstr "|toolselectsimilar|"
 
 #: ../../reference_manual/tools/similar_select.rst:20
 msgid ""
@@ -102,16 +128,26 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/similar_select.rst:35
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:36
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+
+#: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
 msgstr ""
 
-#: ../../reference_manual/tools/similar_select.rst:38
+#: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
 msgstr "Hulpmiddelopties"
 
-#: ../../reference_manual/tools/similar_select.rst:41
+#: ../../reference_manual/tools/similar_select.rst:46
 msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."

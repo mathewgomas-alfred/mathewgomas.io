@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-02-22 14:11+0100\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-06 11:03+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,19 +18,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/dockers/animation_docker.rst:1
 msgid "Overview of the animation docker."
 msgstr "Overzicht van de vastzetter Animatie."
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+#| msgid "Animation Docker"
+msgid "Animation"
+msgstr "Animatie"
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+#| msgid "Animation Docker"
+msgid "Animation Playback"
+msgstr "Animatie afspelen"
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+msgid "Play/Pause"
+msgstr "Afspelen/pauzeren"
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+msgid "Framerate"
+msgstr "Framesnelheid"
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+msgid "FPS"
+msgstr "FPS"
+
+#: ../../reference_manual/dockers/animation_docker.rst:10
+msgid "Speed"
+msgstr "Snelheid"
 
 #: ../../reference_manual/dockers/animation_docker.rst:15
 msgid "Animation Docker"
 msgstr "Vastzetter Animatie"
 
 #: ../../reference_manual/dockers/animation_docker.rst:18
-msgid ".. image:: images/en/Animation_docker.png"
-msgstr ".. image:: images/en/Animation_docker.png"
+#| msgid ".. image:: images/en/Animation_docker.png"
+msgid ".. image:: images/dockers/Animation_docker.png"
+msgstr ".. image:: images/dockers/Animation_docker.png"
 
 #: ../../reference_manual/dockers/animation_docker.rst:19
 msgid ""
@@ -65,7 +92,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/animation_docker.rst:29
 msgid "Onion Skin"
-msgstr ""
+msgstr "Uienschil"
 
 #: ../../reference_manual/dockers/animation_docker.rst:30
 msgid "Opens the :ref:`onion_skin_docker` if it wasn't open before."

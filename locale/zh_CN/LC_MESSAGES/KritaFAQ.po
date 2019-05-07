@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-27 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,14 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/docs_krita_org_KritaFAQ.pot\n"
+
+#: ../../KritaFAQ.rst:20
+msgid "FAQ"
+msgstr ""
+
+#: ../../KritaFAQ.rst:20
+msgid "Frequently Asked Questions"
+msgstr ""
 
 #: ../../KritaFAQ.rst:27
 msgid "Krita FAQ"
@@ -164,7 +172,7 @@ msgid ""
 msgstr "不同的操作系统下面 Krita 保存设置文件的路径不同："
 
 #: ../../KritaFAQ.rst:84 ../../KritaFAQ.rst:100 ../../KritaFAQ.rst:124
-#: ../../KritaFAQ.rst:251 ../../KritaFAQ.rst:371
+#: ../../KritaFAQ.rst:341
 msgid "Linux"
 msgstr "Linux"
 
@@ -173,7 +181,7 @@ msgid ":file:`$HOME/.config/kritarc`"
 msgstr ":file:`$HOME/.config/kritarc`"
 
 #: ../../KritaFAQ.rst:86 ../../KritaFAQ.rst:102 ../../KritaFAQ.rst:126
-#: ../../KritaFAQ.rst:271 ../../KritaFAQ.rst:373
+#: ../../KritaFAQ.rst:343
 msgid "Windows"
 msgstr "Windows"
 
@@ -263,7 +271,7 @@ msgstr ""
 msgid "Where are my resources stored?"
 msgstr "我的资源保存在哪里？"
 
-#: ../../KritaFAQ.rst:125 ../../KritaFAQ.rst:372
+#: ../../KritaFAQ.rst:125 ../../KritaFAQ.rst:342
 msgid ":file:`$HOME/.local/share/krita/`"
 msgstr ":file:`$HOME/.local/share/krita/`"
 
@@ -275,7 +283,7 @@ msgstr ":file:`%APPDATA%\\\\krita\\\\`"
 msgid "Mac OS X"
 msgstr "Mac OS X"
 
-#: ../../KritaFAQ.rst:129 ../../KritaFAQ.rst:376
+#: ../../KritaFAQ.rst:129 ../../KritaFAQ.rst:346
 msgid ":file:`~/Library/Application Support/Krita/`"
 msgstr ":file:`~/Library/Application Support/Krita/`"
 
@@ -525,7 +533,7 @@ msgstr ""
 "你可以将 Krita 添加到白名单中，`根据这些说明进行操作 <https://docs.microsoft."
 "com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/"
 "customize-controlled-folders-exploit-guard#allow-specific-apps-to-make-"
-"changes-to-controlled-folders>`_."
+"changes-to-controlled-folders>`_ 。"
 
 #: ../../KritaFAQ.rst:196
 msgid "Can krita work with 8 bit (indexed) images?"
@@ -619,15 +627,30 @@ msgid ""
 "and selecting a size."
 msgstr "你还可以在工具箱上点击右键，然后更改工具箱的图标大小。"
 
-#: ../../KritaFAQ.rst:233
+#: ../../KritaFAQ.rst:232
+msgid ""
+"Windows: In fullscreen mode, why is there a thin gap at the bottom of the "
+"window?"
+msgstr ""
+
+#: ../../KritaFAQ.rst:234
+msgid ""
+"When :ref:`Canvas Graphics Acceleration <display_settings>` is set to "
+"OpenGL, you may see a thin gap at the bottom of the window which you can see "
+"through. This is done deliberately to work around a bug causing menus and "
+"dropdowns to be unusable. If you find it distracting, you can consider "
+"changing the Renderer to Direct3D 11 which doesn't require this workaround."
+msgstr ""
+
+#: ../../KritaFAQ.rst:238
 msgid "Tablets"
 msgstr "数位板"
 
-#: ../../KritaFAQ.rst:236
+#: ../../KritaFAQ.rst:241
 msgid "What tablets does Krita support?"
 msgstr "Krita 支持哪些数位板？"
 
-#: ../../KritaFAQ.rst:238
+#: ../../KritaFAQ.rst:243
 msgid ""
 "Krita isn’t much fun without a pressure sensitive tablet. If the tablet has "
 "been properly configured, Krita should work out of the box."
@@ -635,7 +658,7 @@ msgstr ""
 "要发挥 Krita 的潜力，一块具备压力感应功能的数位板非常重要。数位板在操作系统中"
 "正确配置后，Krita 不需要任何设置即可正常使用。"
 
-#: ../../KritaFAQ.rst:240
+#: ../../KritaFAQ.rst:245
 msgid ""
 "On Windows, you need to either install the Wintab drivers for your tablet, "
 "or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's "
@@ -644,7 +667,7 @@ msgstr ""
 "在 Windows 下面，你可以安装数位板的驱动程序来使用 Wintab 驱动，也可以在 "
 "Krita 的设置里面启用 :guilabel:`Windows 8+ 指针输入` 选项。"
 
-#: ../../KritaFAQ.rst:242
+#: ../../KritaFAQ.rst:247
 msgid ""
 "You can find a community curated list of tablets supported by krita :ref:"
 "`here <list_supported_tablets>`."
@@ -652,7 +675,7 @@ msgstr ""
 "在 :ref:`这里 <list_supported_tablets>` 你可以找到一个由社区维护的数位板支持"
 "列表。"
 
-#: ../../KritaFAQ.rst:244
+#: ../../KritaFAQ.rst:249
 msgid ""
 "If you're looking for information about tablets like the iPad or Android "
 "tablets, look :ref:`here <krita_android>`."
@@ -660,118 +683,72 @@ msgstr ""
 "如果你想要了解关于 iPad 和安卓平板的信息，请参阅 :ref:`这里 "
 "<krita_android>`。"
 
-#: ../../KritaFAQ.rst:248
+#: ../../KritaFAQ.rst:253
 msgid "What if your tablet is not recognized by Krita?"
 msgstr "Krita 不识别数位板怎么办？"
 
-#: ../../KritaFAQ.rst:253
-msgid "We would like to see the full output of the following commands:"
-msgstr "请在终端里运行下列命令，并将完整的输出结果反馈给我们："
-
 #: ../../KritaFAQ.rst:255
-msgid "``lsmod``"
-msgstr "``lsmod``"
-
-#: ../../KritaFAQ.rst:256
-msgid "``xinput``"
-msgstr "``xinput``"
+msgid ""
+"First, check if you have installed drivers and the like. The :ref:"
+"`drawing_tablets` page has some explanations and descriptions of common "
+"issues. If none of those work, we would like to have a bug report at bugs."
+"kde.org, with a tablet log. Here's how you make a tablet log:"
+msgstr ""
 
 #: ../../KritaFAQ.rst:257
-msgid "``xinput list-props`` (id can be fetched from the item 2)"
-msgstr "``xinput list-props`` (id 可以通过 xinput 查到)"
-
-#: ../../KritaFAQ.rst:258
-msgid "Get the log of the tablet events (if applicable):"
-msgstr "获取该数位板的事件日志 (如果可能的话)："
-
-#: ../../KritaFAQ.rst:260
-msgid "Open a console application (e.g. Konsole on KDE)"
-msgstr "打开一个终端应用程序，例如在 KDE 下面的 Konsole"
+msgid ""
+"You need to have something to output the log to. On 4.2 you can use the :ref:"
+"`log_viewer` docker for this. Just open the log viewer, and enable logging."
+msgstr ""
 
 #: ../../KritaFAQ.rst:261
 msgid ""
-"Set the amount of scrollback to 'unlimited' (for :program:`Konsole`: :"
-"menuselection:`Settings --> Edit Current Profile --> Scrolling --> Unlimited "
-"Scrollback`)"
+"The log viewer got added to Krita in 4.2, so for older versions of Krita, "
+"you will need to either run Krita in the terminal if you have Linux or "
+"MacOS, or for Windows install `DebugView <http://technet.microsoft.com/en-us/"
+"sysinternals/bb896647.aspx>`_ from the official Microsoft site, start "
+"DebugView and then start Krita."
 msgstr ""
-"设置回滚行数为“无限” (对于 :program:`Konsole`: :menuselection:`设置 --> 编辑"
-"当前配置 --> 滚动 --> 无限回滚`)"
 
-#: ../../KritaFAQ.rst:262
-msgid "Start Krita by typing 'krita' and create any document"
-msgstr "输入“krita”启动 Krita 程序，然后随便新建一个文档"
-
-#: ../../KritaFAQ.rst:263 ../../KritaFAQ.rst:282
-msgid ""
-"Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the "
-"logging has started"
+#: ../../KritaFAQ.rst:263
+msgid "When using a terminal, make sure to enable 'unlimited scrollback'"
 msgstr ""
-"在 Krita 里面按 :kbd:`Ctrl + Shift + T`，你会见到信息显示“已启用数位板事件记"
-"录”"
-
-#: ../../KritaFAQ.rst:264 ../../KritaFAQ.rst:283
-msgid "Try to reproduce your problem"
-msgstr "试着重现你遇到的数位板问题"
 
 #: ../../KritaFAQ.rst:265
-msgid "The console is now filled with the log. Attach it to a bug report"
+msgid ""
+"Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the "
+"logging has started."
 msgstr ""
-"现在终端窗口已经被数位板事件日志填满。把它们全部拷贝下来附到问题报告中。"
+
+#: ../../KritaFAQ.rst:266
+msgid ""
+"Try to reproduce your problem, you will be able to see the log being created "
+"in the log viewer as you draw."
+msgstr ""
 
 #: ../../KritaFAQ.rst:267
 msgid ""
-"Attach all this data to a bug report using public paste services like paste."
-"kde.org"
-msgstr "把全部上述数据通过 paste.kde.org 的服务附到问题报告中"
+"Save the output from the log viewer into a txt file, and attach it to the "
+"bugreport."
+msgstr ""
+
+#: ../../KritaFAQ.rst:269
+msgid "On Linux, it is also useful to have the following information:"
+msgstr ""
+
+#: ../../KritaFAQ.rst:271
+msgid "``lsmod``"
+msgstr "``lsmod``"
+
+#: ../../KritaFAQ.rst:272
+msgid "``xinput``"
+msgstr "``xinput``"
 
 #: ../../KritaFAQ.rst:273
-msgid ""
-"First check whether your tablet's driver is correctly installed. Often, a "
-"driver update, a Windows update or the installation of Razer gaming mouse "
-"driver breaks tablets."
-msgstr ""
-"首先检查数位板驱动程序是否已经正确安装。有些时候，其他硬件的驱动程序更新、"
-"Windows 更新、安装 Razer 游戏鼠标驱动程序等操作也会影响数位板的工作。"
+msgid "``xinput list-props`` (id can be fetched from the item 2)"
+msgstr "``xinput list-props`` (id 可以通过 xinput 查到)"
 
 #: ../../KritaFAQ.rst:275
-msgid ""
-"Then check whether switching to the Windows 8 Pointer API makes a "
-"difference: :menuselection:`Settings --> Configure Krita --> Tablet`."
-msgstr ""
-"试试切换到 Windows 8 指针 API：:menuselection:`设置 --> 配置 Krita --> 数位板"
-"`。"
-
-#: ../../KritaFAQ.rst:277
-msgid ""
-"If you still have problems with Windows and your tablet, then we cannot help "
-"you without a tablet log."
-msgstr "如果之后还是不行，请向我们提供数位板日志以便分析。"
-
-#: ../../KritaFAQ.rst:279
-msgid ""
-"Install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647."
-"aspx>`_ from the official Microsoft site"
-msgstr ""
-"从微软官方网站下载并安装 `DebugView <http://technet.microsoft.com/en-us/"
-"sysinternals/bb896647.aspx>`"
-
-#: ../../KritaFAQ.rst:280
-msgid "Start :program:`DebugView`"
-msgstr "启动 :program:`DebugView`"
-
-#: ../../KritaFAQ.rst:281
-msgid "Start :program:`Krita`"
-msgstr "启动 :program:`Krita`"
-
-#: ../../KritaFAQ.rst:284
-msgid ""
-"Go back to DebugView and save its output to a file. Attach this file to a "
-"bug report or paste it using services like paste.kde.org."
-msgstr ""
-"回到 DebugView 并将它的输出保存成文件，再把该文件附到问题报告中，也可以把内容"
-"粘贴到类似 paste.kde.org 的服务。"
-
-#: ../../KritaFAQ.rst:287
 msgid ""
 "However, in 100\\% of the cases where Windows users have reported that their "
 "tablet didn't work over the past five years, the problem has been either a "
@@ -781,98 +758,28 @@ msgstr ""
 "一个是因为 Krita 的问题造成的。它们要么是驱动程序自身的问题，要么是驱动程序安"
 "装的问题。"
 
-#: ../../KritaFAQ.rst:291
+#: ../../KritaFAQ.rst:279
 msgid "How to fix a tablet offset on multiple screen setup on Windows"
 msgstr "在 Windows 下面使用多屏幕时，如何修复数位板的偏移问题"
 
-#: ../../KritaFAQ.rst:293
+#: ../../KritaFAQ.rst:281
 msgid ""
 "If you see that your tablet pointer has an offset when working with Krita "
-"canvas, it might be highly probable that Krita got incorrect screen "
+"canvas, it might be highly likely that Krita got an incorrect screen "
 "resolution from the system. That problem happens mostly when an external "
 "monitor is present and when either a monitor or a tablet was connected after "
-"the system boot."
+"the system booted."
 msgstr ""
-"如果你在画布上工作时发现数位板的定位有偏移，那么 Krita 很可能从系统处获取了错"
-"误的屏幕分辨率。这很可能是因为有外置显示器或者数位板在系统启动之后才被连接到"
-"了计算机。"
 
-#: ../../KritaFAQ.rst:295
-msgid "You can fix this issue manually by:"
-msgstr "可以通过下面的办法手动解决这个问题。"
-
-#: ../../KritaFAQ.rst:297
-msgid "Put your stylus away from the tablet."
-msgstr "将压感笔移出数位板感应区域。"
-
-#: ../../KritaFAQ.rst:298
-msgid ""
-"Start Krita without using a stylus, that is using a mouse or a keyboard."
-msgstr "用键盘、鼠标等非压感笔设备启动 Krita。"
-
-#: ../../KritaFAQ.rst:299
-msgid "Press :kbd:`Shift` key and hold it."
-msgstr "按住 :kbd:`Shift` 键不放。"
-
-#: ../../KritaFAQ.rst:300
-msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr "用压感笔触碰数位板，这时 Krita 会自动对其进行识别。"
-
-#: ../../KritaFAQ.rst:302
-msgid ""
-"You will see a special dialog asking for the real screen resolution. Choose "
-"the correct value or enter it manually and press :guilabel:`OK`."
+#: ../../KritaFAQ.rst:283
+msgid "You can configure this by going to the :ref:`tablet_settings`."
 msgstr ""
-"Krita 会弹出一个对话框来询问正确的显示器分辨率。选择正确的数值或者手动输入，"
-"然后点击 :guilabel:`确定`。"
 
-#: ../../KritaFAQ.rst:304
-msgid ""
-"If you have a dual monitor setup and only the top half of the screen is "
-"reachable, you might have to enter the total width of both screens plus the "
-"double height of your monitor in this field."
-msgstr ""
-"如果在双显示器配置下数位板只能在屏幕的上半部分移动，你可能要输入两个显示器的"
-"宽度之和或者高度之和。"
-
-#: ../../KritaFAQ.rst:306
-msgid ""
-"If this didn't work, and if you have a Wacom tablet, an offset in the canvas "
-"can be caused by a faulty Wacom preference file which is not removed or "
-"replaced by reinstalling the drivers."
-msgstr ""
-"如果还是不行，而你使用的是 Wacom 数位板，那么偏移可能是错误的 Wacom 设置文件"
-"造成的。卸载、重装 Wacom 驱动程序是不会删除、替换这个文件的，所以还需要一些额"
-"外操作。"
-
-#: ../../KritaFAQ.rst:308
-msgid ""
-"To fix it, use the “Wacom Tablet Preference File Utility” to clear all the "
-"preferences. This should allow Krita to detect the correct settings "
-"automatically."
-msgstr ""
-"使用“Wacom 数位板设置文件工具”来清空全部设置。这样 Krita 就可以自动检测到正确"
-"的设置了。"
-
-#: ../../KritaFAQ.rst:311
-msgid ""
-"This will reset your tablet's configuration, thus you will need to "
-"recalibrate/reconfigure it."
-msgstr "这个操作会将数位板的全部设置进行复位，因此你将需要重新配置或校准它。"
-
-#: ../../KritaFAQ.rst:313
-msgid ""
-"*For Krita 3.3 or later:* You can try to :ref:`enable “Windows 8+ Pointer "
-"Input” <tablet_settings>`, but some features might not work with it."
-msgstr ""
-"＊Krita 3.3 及更高版本＊可以尝试在 Krita 的设置里面 :ref:`启用 “Windows 8+ 指"
-"针输入” <tablet_settings>`，但某些功能将无法使用。"
-
-#: ../../KritaFAQ.rst:316
+#: ../../KritaFAQ.rst:286
 msgid "Microsoft Surface Pro and N-Trig"
 msgstr "Microsoft Surface Pro 和 NTrig"
 
-#: ../../KritaFAQ.rst:318
+#: ../../KritaFAQ.rst:288
 msgid ""
 "Krita 3.3.0 and later supports the Windows Pointer API (Windows Ink) "
 "natively. Your Surface Pro or other N-Trig enabled pen tablet should work "
@@ -883,11 +790,11 @@ msgstr ""
 "功能，你的 Surface Pro 或者其他使用了 n-trig 技术的平板电脑即可使用 Krita 正"
 "常工作。:menuselection:`设置 --> 配置 Krita --> 数位板`。"
 
-#: ../../KritaFAQ.rst:321
+#: ../../KritaFAQ.rst:291
 msgid "Tablet Pro and the Surface Pro"
 msgstr "Tablet Pro 和 Surface Pro"
 
-#: ../../KritaFAQ.rst:323
+#: ../../KritaFAQ.rst:293
 msgid ""
 "Unlike Wacom's Companion, the Surface line of tablets doesn't have working "
 "hardware buttons. Tablet Pro is a (non-free) utility that puts virtual "
@@ -899,21 +806,21 @@ msgstr ""
 "它并非自由软件。Krita 3.1 和之后的版本为 Tablet Pro 提供了预设的快捷键配置方"
 "案。"
 
-#: ../../KritaFAQ.rst:325
+#: ../../KritaFAQ.rst:295
 msgid "http://tabletpro.net/"
 msgstr "http://tabletpro.net/"
 
-#: ../../KritaFAQ.rst:327
+#: ../../KritaFAQ.rst:297
 msgid "See http://www.youtube.com/watch?v=WKXZgYqC3tI for instructions."
 msgstr "如需详细指导，请参考 http://www.youtube.com/watch?v=WKXZgYqC3tI"
 
-#: ../../KritaFAQ.rst:330
+#: ../../KritaFAQ.rst:300
 msgid ""
 "Weird stuff happens on Windows, like ripples, rings, squiggles or "
 "poltergeists"
 msgstr "在 Windows 下面使用数位板会出现涟漪、圆环、乱涂或者其他怪事"
 
-#: ../../KritaFAQ.rst:332
+#: ../../KritaFAQ.rst:302
 msgid ""
 "Windows comes with a lot of settings to make it work with a pen. All these "
 "settings can be annoying. This tool can help you set the settings correctly "
@@ -922,15 +829,15 @@ msgstr ""
 "Windows 为笔式输入设备内建了花样繁多的设置和配套功能，但它们没有一个是好东"
 "西。这个工具可以帮助你在使用数位板时进行正确设置："
 
-#: ../../KritaFAQ.rst:334
+#: ../../KritaFAQ.rst:304
 msgid "https://github.com/saveenr/Fix_My_Pen/releases"
 msgstr "https://github.com/saveenr/Fix_My_Pen/releases"
 
-#: ../../KritaFAQ.rst:337
+#: ../../KritaFAQ.rst:307
 msgid "Touch doesn't seem to work on Windows"
 msgstr "触摸在 Windows 下面似乎不起作用"
 
-#: ../../KritaFAQ.rst:339
+#: ../../KritaFAQ.rst:309
 msgid ""
 "You might have to disable and enable the touch driver: go to the device "
 "manager. (Click the :guilabel:`Start` button and type device manager). "
@@ -941,15 +848,15 @@ msgstr ""
 "输入设备管理器)。选择符合 HID 标准(的用户控制设备或类似项目) 或者 Intel(R) 精"
 "确触摸设备等设备。点击右键，禁用该设备。再点击右键，启用该设备。"
 
-#: ../../KritaFAQ.rst:342
+#: ../../KritaFAQ.rst:312
 msgid "Toolbox"
 msgstr "工具框"
 
-#: ../../KritaFAQ.rst:345
+#: ../../KritaFAQ.rst:315
 msgid "Toolbox missing"
 msgstr "工具箱不见了"
 
-#: ../../KritaFAQ.rst:347
+#: ../../KritaFAQ.rst:317
 msgid ""
 "You can reset the Workspace by pressing the right most button on the "
 "toolbar, the Workspace switcher, and click on a desired Workspace from the "
@@ -958,7 +865,7 @@ msgstr ""
 "你可以点击工具栏最右端的按钮，从列出的工作空间中选中一个，随后 Krita 的界面将"
 "会依照该工作空间的配置复位。"
 
-#: ../../KritaFAQ.rst:349
+#: ../../KritaFAQ.rst:319
 msgid ""
 "Or you can right-click on any docker title bar or open space in any toolbar, "
 "and select Toolbox. It's the first option."
@@ -966,7 +873,7 @@ msgstr ""
 "你也可以在工具栏的空白区域或者任意工具面板的标题栏上点击右键，勾选第二项“工具"
 "箱”即可。"
 
-#: ../../KritaFAQ.rst:351
+#: ../../KritaFAQ.rst:321
 msgid ""
 "Also, you can check the :guilabel:`Settings` menu, it has got a lot of "
 "interesting stuff, then go to the Dockers menu and select :guilabel:"
@@ -975,19 +882,19 @@ msgstr ""
 "你还可以进入 :guilabel:`设置` 菜单，在“工具面板”子菜单中勾选 :guilabel:`工具"
 "箱`。"
 
-#: ../../KritaFAQ.rst:354
+#: ../../KritaFAQ.rst:324
 msgid "Tool icons size is too big"
 msgstr "工具图标太大了"
 
-#: ../../KritaFAQ.rst:356
+#: ../../KritaFAQ.rst:326
 msgid "Right click the toolbox to set the size."
 msgstr "在工具箱上点击右键即可指定图标大小。"
 
-#: ../../KritaFAQ.rst:359
+#: ../../KritaFAQ.rst:329
 msgid "Krita can't get maximized"
 msgstr "Krita 无法最大化"
 
-#: ../../KritaFAQ.rst:361
+#: ../../KritaFAQ.rst:331
 msgid ""
 "This happens when your dockers are placed in such a way that the window "
 "cannot be made less high. Rearrange your Workspace."
@@ -996,21 +903,21 @@ msgstr ""
 "推挤而超出屏幕大小，此时 Krita 将无法最大化。请重新安排工作空间中的各个工具面"
 "板。"
 
-#: ../../KritaFAQ.rst:364
+#: ../../KritaFAQ.rst:334
 msgid "Resources"
 msgstr "资源"
 
-#: ../../KritaFAQ.rst:367
+#: ../../KritaFAQ.rst:337
 msgid ""
 "Is there a way to restore a default brush that I have mistakenly overwritten "
 "with new settings to default?"
 msgstr "我不小心把自带笔刷的预设给覆盖掉了，可以恢复它原来的选项吗？"
 
-#: ../../KritaFAQ.rst:369
+#: ../../KritaFAQ.rst:339
 msgid "Yes. First go to the resource folder, which is in"
 msgstr "可以。首先进入资源目录："
 
-#: ../../KritaFAQ.rst:374
+#: ../../KritaFAQ.rst:344
 msgid ""
 ":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` or :file:`%APPDATA%\\"
 "\\Roaming\\\\krita\\\\`"
@@ -1018,11 +925,11 @@ msgstr ""
 ":file:`user\\\\Appdata\\\\Roaming\\\\krita\\\\` 或者 :file:`%APPDATA%\\"
 "\\Roaming\\\\krita\\\\`"
 
-#: ../../KritaFAQ.rst:376
+#: ../../KritaFAQ.rst:346
 msgid "OSX"
 msgstr "OSX"
 
-#: ../../KritaFAQ.rst:378
+#: ../../KritaFAQ.rst:348
 msgid ""
 "You can easily do this by going into :menuselection:`Settings --> Manage "
 "Resources --> Open Resource Folder`."
@@ -1030,13 +937,13 @@ msgstr ""
 "你也可以通过另一种方式来访问它： :menuselection:`设置 --> 管理资源 --> 打开资"
 "源文件夹`。"
 
-#: ../../KritaFAQ.rst:380
+#: ../../KritaFAQ.rst:350
 msgid ""
 "Then go into the *paintoppresets* folder and remove the latest created file "
 "that you made of your preset."
 msgstr "然后进入 *paintoppressets* 文件夹，删除你刚才创建的的预设文件。"
 
-#: ../../KritaFAQ.rst:383
+#: ../../KritaFAQ.rst:353
 msgid ""
 "After that go back to the resources folder and edit the blacklist file to "
 "remove the previous paintoppreset so Krita will load it. (Yes, it is a bit "
@@ -1046,11 +953,11 @@ msgstr ""
 "会重新加载默认预设。(这个系统有点麻烦，不过至少你不会因为误操作而彻底丢失笔刷"
 "预设)"
 
-#: ../../KritaFAQ.rst:389
+#: ../../KritaFAQ.rst:359
 msgid "How do I set favorite presets?"
 msgstr "常用预设如何设置？"
 
-#: ../../KritaFAQ.rst:391
+#: ../../KritaFAQ.rst:361
 msgid ""
 "Right-click a brush in the brush docker and assign it a tag. Then right-"
 "click on canvas to call popup palette, click the second right-most icon on "
@@ -1061,11 +968,11 @@ msgstr ""
 "右键呼叫浮动画具板，在画具板的右下角点击靠近内侧的图标，选择刚才笔刷分配到的"
 "标签即可加载它。"
 
-#: ../../KritaFAQ.rst:394
+#: ../../KritaFAQ.rst:364
 msgid "Can Krita load Photoshop Brushes?"
 msgstr "Krita 可以加载 Photoshop 笔刷吗？"
 
-#: ../../KritaFAQ.rst:396
+#: ../../KritaFAQ.rst:366
 msgid ""
 "Yes, but there are limitations. You can load ABR files by using the :"
 "guilabel:`Import` button in the :guilabel:`Predefined brush` tab in the "
@@ -1077,23 +984,23 @@ msgstr ""
 "加载 ABR 笔刷。但由于 Adobe 从未公开过他们笔刷的文件格式规范，我们只得通过逆"
 "向工程来摸索加载的方式。目前可以加载的内容仅限基本功能。"
 
-#: ../../KritaFAQ.rst:399
+#: ../../KritaFAQ.rst:369
 msgid "Krita is slow"
 msgstr "Krita 运行缓慢"
 
-#: ../../KritaFAQ.rst:401
+#: ../../KritaFAQ.rst:371
 msgid ""
 "There is a myriad of reasons why this might be. Below is a short checklist."
 msgstr "造成 Krita 运行缓慢的原因有很多，下面仅列出一些常见情况。"
 
-#: ../../KritaFAQ.rst:403
+#: ../../KritaFAQ.rst:373
 msgid ""
 "Something else is hogging the CPU or the memory: spotify and other electron "
 "apps have been known to do this."
 msgstr ""
 "其他程序正在占用 CPU 或者内存：Spotify 和其他 Electron 应用会造成该现象。"
 
-#: ../../KritaFAQ.rst:404
+#: ../../KritaFAQ.rst:374
 msgid ""
 "You are running Windows, and have 3rdparty security software like Sandboxie "
 "or Total Defender installed"
@@ -1101,7 +1008,7 @@ msgstr ""
 "你正在运行 Windows，并且安装了第三方安全软件，如 Sandboxie 或 Total Defender "
 "等。"
 
-#: ../../KritaFAQ.rst:405
+#: ../../KritaFAQ.rst:375
 msgid ""
 "You are working on images that are too big for your hardware (dimensions, "
 "channel depth or number of layers)"
@@ -1109,26 +1016,26 @@ msgstr ""
 "图像太大，这可以是尺寸太大、颜色通道深度太高、图层数目过多等，你的硬件性能不"
 "足以流畅地处理它。"
 
-#: ../../KritaFAQ.rst:406
+#: ../../KritaFAQ.rst:376
 msgid "You do not have canvas acceleration enabled"
 msgstr "你没有在 Krita 中启用画布加速功能"
 
-#: ../../KritaFAQ.rst:408
+#: ../../KritaFAQ.rst:378
 msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr "请参照 `此页面 <https://phabricator.kde.org/T7199>`__"
 
-#: ../../KritaFAQ.rst:411
+#: ../../KritaFAQ.rst:381
 msgid "Slow start-up"
 msgstr "启动速度缓慢"
 
-#: ../../KritaFAQ.rst:413
+#: ../../KritaFAQ.rst:383
 msgid ""
 "You probably have too many resources installed. Deactivate some bundles "
 "under :menuselection:`Settings --> Manage Resources`."
 msgstr ""
 "你可能安装了太多资源。请禁用一部分资源：:menuselection:`设置 --> 管理资源`。"
 
-#: ../../KritaFAQ.rst:415
+#: ../../KritaFAQ.rst:385
 msgid ""
 "If you're using Windows with the portable zip file, Windows will scan all "
 "files every time you start Krita. That takes ages. Either use the installer "
@@ -1138,17 +1045,17 @@ msgstr ""
 "Krita 时扫描解压后的每一个文件，拖慢启动速度。你可以使用安装包版的 Krita，或"
 "者在 Microsoft Security Essentials 里面将 Krita 和它的文件夹设为例外。"
 
-#: ../../KritaFAQ.rst:418
+#: ../../KritaFAQ.rst:388
 msgid "Slow Brushes"
 msgstr "笔刷绘制缓慢"
 
-#: ../../KritaFAQ.rst:420
+#: ../../KritaFAQ.rst:390
 msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
 msgstr "检查笔刷的工具选项，看看是否不小心打开了防抖功能。"
 
-#: ../../KritaFAQ.rst:421
+#: ../../KritaFAQ.rst:391
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
@@ -1156,15 +1063,15 @@ msgstr ""
 "换用另一个缩放模式，如三线性算法过滤：:menuselection:`设置 --> 配置 Krita --"
 "> 显示页面`。"
 
-#: ../../KritaFAQ.rst:422
+#: ../../KritaFAQ.rst:392
 msgid "Try a lower channel depth than 16-bit."
 msgstr "尝试使用 16 位以下的通道色深。"
 
-#: ../../KritaFAQ.rst:423
+#: ../../KritaFAQ.rst:393
 msgid "For NVidia, try a 16-bit floating point color space."
 msgstr "如果是 Nvidia 显卡，可以尝试使用 16 位浮点的色彩空间。"
 
-#: ../../KritaFAQ.rst:424
+#: ../../KritaFAQ.rst:394
 msgid ""
 "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
 "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
@@ -1175,7 +1082,7 @@ msgstr ""
 "menuselection:`设置 --> 配置 Krita --> 性能`。如果使用的是教新的 "
 "Threadripper AMD CPU，你不需要更改此选项。"
 
-#: ../../KritaFAQ.rst:425
+#: ../../KritaFAQ.rst:395
 msgid ""
 "It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
@@ -1183,32 +1090,32 @@ msgstr ""
 "Krita 是一个相当消耗内存的应用程序，2 GB 的内存是最低限度，我们建议至少要有 "
 "4 GB 内存。"
 
-#: ../../KritaFAQ.rst:426
+#: ../../KritaFAQ.rst:396
 msgid "Check that nothing else is hogging your CPU"
 msgstr "检查有没有其他程序在占用 CPU 资源"
 
-#: ../../KritaFAQ.rst:427
+#: ../../KritaFAQ.rst:397
 msgid ""
 "Check that Instant Preview is enabled if you're using bigger brushes (but "
 "for very small brushes, make sure is disabled)."
 msgstr "如果你正在使用较大的笔刷，请启用即时预览。(使用很小的笔刷时请禁用它)。"
 
-#: ../../KritaFAQ.rst:428
+#: ../../KritaFAQ.rst:398
 msgid "Set brush precision to 3 or auto."
 msgstr "将笔刷精度设置为 3 或者自动。"
 
-#: ../../KritaFAQ.rst:429
+#: ../../KritaFAQ.rst:399
 msgid "Use a larger value for brush spacing."
 msgstr "增大笔刷间隔数值。"
 
-#: ../../KritaFAQ.rst:430
+#: ../../KritaFAQ.rst:400
 msgid ""
 "If all of this fails, record a video and post a link and description on the "
 "Krita forum."
 msgstr ""
 "如果这些办法都没用，请为此录制一段视频并配上说明，发表到 Krita 的论坛上。"
 
-#: ../../KritaFAQ.rst:431
+#: ../../KritaFAQ.rst:401
 msgid ""
 "Check whether OpenGL is enabled, and if it isn't, enable it. If it is "
 "enabled, and you are on Windows, try the Angle renderer. Or disable it."
@@ -1216,11 +1123,11 @@ msgstr ""
 "检查是否已经启用了 OpenGL，如果没有，请启用它。如果 OpenGL 已经启用，而你的操"
 "作系统是 Windows，请换用 ANGLE 渲染器，或者干脆禁用 OpenGL。"
 
-#: ../../KritaFAQ.rst:434
+#: ../../KritaFAQ.rst:404
 msgid "Slowdown after a been working for a while"
 msgstr "使用一段时间后程序变慢"
 
-#: ../../KritaFAQ.rst:436
+#: ../../KritaFAQ.rst:406
 msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
@@ -1234,15 +1141,15 @@ msgstr ""
 "因此会极大地拖慢程序的运行速度。你可以尝试缩小图像的尺寸，也可以尝试提高内存"
 "限制：:menuselection:`设置 --> 配置 Krita --> 性能 --> 高级`。"
 
-#: ../../KritaFAQ.rst:439
+#: ../../KritaFAQ.rst:409
 msgid "Animation"
 msgstr "动画"
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:412
 msgid "Why is my animation black in my video player"
 msgstr "为什么动画在我的视频播放器里只有一片黑"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:414
 msgid ""
 "You did not render the animation using the \"baseline\" option and you are "
 "using the default Windows media player. Re-render using the baseline option "
@@ -1253,19 +1160,19 @@ msgstr ""
 "你没有选用“baseline”选项渲染动画，而你的默认视频播放器是 Windows Media "
 "Player。你可以换用 baseline 选项或着换用更好的视频播放应用程序，如 VLC。详情"
 "可参考 `此流程图 <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-"
-"rendering-issues-manual-783473428>`__。"
+"rendering-issues-manual-783473428>`__ 。"
 
-#: ../../KritaFAQ.rst:448
+#: ../../KritaFAQ.rst:418
 msgid "Tools"
 msgstr "工具"
 
-#: ../../KritaFAQ.rst:451
+#: ../../KritaFAQ.rst:421
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
 msgstr "为什么变形工具在操作过程中图像很清晰，但输出结果时却变得比较模糊？"
 
-#: ../../KritaFAQ.rst:453
+#: ../../KritaFAQ.rst:423
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
@@ -1274,18 +1181,18 @@ msgid ""
 "f=139&t=127269>`__ for more info."
 msgstr ""
 "变形工具在输出结果之前会生成预览图像。预览以屏幕分辨率为准，输出结果则以图像"
-"分辨率为准，因此可能会发生实际结果看起来比预览模糊的现象。详情请看：https://"
-"forum.kde.org/viewtopic.php?f=139&t=127269"
+"分辨率为准，因此可能会发生实际结果看起来比预览模糊的现象。详情请参考 `此页面 "
+"<https://forum.kde.org/viewtopic.php?f=139&t=127269>`__ 。"
 
-#: ../../KritaFAQ.rst:457
+#: ../../KritaFAQ.rst:427
 msgid "License, rights and the Krita Foundation"
 msgstr "许可证、权利和 Krita 基金会"
 
-#: ../../KritaFAQ.rst:460
+#: ../../KritaFAQ.rst:430
 msgid "Who owns Krita?"
 msgstr "Krita 归谁所有？"
 
-#: ../../KritaFAQ.rst:462
+#: ../../KritaFAQ.rst:432
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
@@ -1293,11 +1200,11 @@ msgstr ""
 "Krita 商标的所有权归 Stichting Krita Foundation (Krita 有限责任基金会) 所有。"
 "Krita 源代码的版权归每一位贡献过源代码的人员所有。"
 
-#: ../../KritaFAQ.rst:465
+#: ../../KritaFAQ.rst:435
 msgid "Who and what is Kiki?"
 msgstr "Kiki 是谁？她是什么？"
 
-#: ../../KritaFAQ.rst:467
+#: ../../KritaFAQ.rst:437
 msgid ""
 "Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson "
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
@@ -1307,26 +1214,26 @@ msgstr ""
 "山)。“Krita”在阿尔巴尼亚语中的含义是松鼠，因此我们选择了一只松鼠作为我们的吉"
 "祥物。"
 
-#: ../../KritaFAQ.rst:470
+#: ../../KritaFAQ.rst:440
 msgid "Why is Krita Free?"
 msgstr "为什么 Krita 是自由/免费的？"
 
-#: ../../KritaFAQ.rst:472
+#: ../../KritaFAQ.rst:442
 msgid ""
 "Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE "
 "community. We believe that good tools should be available for all artists. "
 "You can also buy Krita on the Windows Store if you want to support Krita's "
 "development or want to have automatic updates to newer versions."
 msgstr ""
-"Krita 是 KDE 社区开发的一款`自由软件<http://www.gnu.org/>`。我们认为任何作者"
-"都应该得到使用优秀创作工具的机会。如果你想要支持 Krita 的开发，你也可以在 "
-"Windows Store 上购买支持自动更新的 Krita。"
+"Krita 是 KDE 社区开发的一款 `自由软件 <http://www.gnu.org/>`_ 。我们认为任何"
+"作者都应该得到使用优秀创作工具的机会。如果你想要支持 Krita 的开发，你也可以"
+"在 Windows Store 上购买支持自动更新的 Krita。"
 
-#: ../../KritaFAQ.rst:475
+#: ../../KritaFAQ.rst:445
 msgid "Can I use Krita commercially?"
 msgstr "我可以将 Krita 用于商业用途吗？"
 
-#: ../../KritaFAQ.rst:477
+#: ../../KritaFAQ.rst:447
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
 "can license your art however you want. Krita’s GPL license applies to "
@@ -1341,7 +1248,7 @@ msgstr ""
 "业游戏开发的游戏美术人员，以科研为目的的科学家，还是在校学生都可以自由地使用 "
 "Krita 来进行创作。"
 
-#: ../../KritaFAQ.rst:479
+#: ../../KritaFAQ.rst:449
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
 "your modifications with us. Krita’s GNU GPL license guarantees you this "
@@ -1351,19 +1258,19 @@ msgstr ""
 "动。Krita 的 GNU GPL 许可证赋予人们使用、研究、修改和分发 Krita 的自由，任何"
 "人无权剥夺这些自由。"
 
-#: ../../KritaFAQ.rst:485
+#: ../../KritaFAQ.rst:455
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "我可以在 iPad 或者安卓上使用 Krita 吗？"
 
-#: ../../KritaFAQ.rst:487
+#: ../../KritaFAQ.rst:457
 msgid "Not at this point in time."
 msgstr "现在还不行。"
 
-#: ../../KritaFAQ.rst:490
+#: ../../KritaFAQ.rst:460
 msgid "Who translates Krita"
 msgstr "谁为 Krita 提供翻译"
 
-#: ../../KritaFAQ.rst:492
+#: ../../KritaFAQ.rst:462
 msgid ""
 "Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! That "
 "means that Krita’s translations are done by `KDE localization teams <http://"
@@ -1378,10 +1285,10 @@ msgstr ""
 "出或修复给翻译工作带来困难的代码问题，让 Krita 的界面文字在任何一种语言下面都"
 "自然流畅。"
 
-#: ../../KritaFAQ.rst:495
+#: ../../KritaFAQ.rst:465
 msgid "Reference"
 msgstr "参考"
 
-#: ../../KritaFAQ.rst:497
+#: ../../KritaFAQ.rst:467
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"

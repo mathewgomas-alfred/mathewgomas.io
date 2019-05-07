@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-18 17:00+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:50+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,31 +17,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:0
-msgid ".. image:: images/en/Krita-normals-tutorial_1.png"
-msgstr ".. image:: images/en/Krita-normals-tutorial_1.png"
+msgid ".. image:: images/brushes/Krita-normals-tutorial_1.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutorial_1.png"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:0
-msgid ".. image:: images/en/Krita-normals-tutorial_2.png"
-msgstr ".. image:: images/en/Krita-normals-tutorial_2.png"
+msgid ".. image:: images/brushes/Krita-normals-tutorial_2.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutorial_2.png"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:0
-msgid ".. image:: images/en/Krita-normals-tutorial_3.png"
-msgstr ".. image:: images/en/Krita-normals-tutorial_3.png"
+msgid ".. image:: images/brushes/Krita-normals-tutorial_3.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutorial_3.png"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:0
-msgid ".. image:: images/en/Krita-normals-tutoria_4.png"
-msgstr ".. image:: images/en/Krita-normals-tutoria_4.png"
+msgid ".. image:: images/brushes/Krita-normals-tutoria_4.png"
+msgstr ".. image:: images/brushes/Krita-normals-tutoria_4.png"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:1
 msgid "The Tangent Normal Brush Engine manual page."
 msgstr "La pàgina del manual per al motor del pinzell de tangent normal."
 
+#: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:16
 msgid "Tangent Normal Brush Engine"
 msgstr "Motor del pinzell de tangent normal"
+
+#: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:11
+msgid "Brush Engine"
+msgstr "Motor de pinzell"
+
+#: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:11
+msgid "Normal Map"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:20
 msgid ".. image:: images/icons/tangentnormal.svg"
@@ -309,12 +318,14 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
-msgid ".. image:: images/en/Krita_Filter_layer_invert_greenchannel.png"
-msgstr ".. image:: images/en/Krita_Filter_layer_invert_greenchannel.png"
+msgid ".. image:: images/brushes/Krita_Filter_layer_invert_greenchannel.png"
+msgstr ".. image:: images/brushes/Krita_Filter_layer_invert_greenchannel.png"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:121
 msgid "The copy red, green and blue blending modes also work on filter-layers."
 msgstr ""
+"Els modes de barreja copia el vermell, verd i blau també funcionen sobre les "
+"capes de filtratge."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:123
 msgid ""
@@ -322,6 +333,9 @@ msgid ""
 "layer's green channel, make an invert filter layer with :guilabel:`Copy "
 "Green` above it."
 msgstr ""
+"Això també es pot fer amb les capes de filtratge. Per tant, si voleu canviar "
+"ràpidament el canal verd d'una capa, creeu una capa de filtratge invers amb "
+"un :guilabel:`Copia el verd` a sobre."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:126
 msgid "Mixing Normal Maps"

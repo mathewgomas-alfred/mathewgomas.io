@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___adjust\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-17 07:30+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 15:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -25,12 +25,16 @@ msgid "Power"
 msgstr "Потужність"
 
 #: ../../reference_manual/filters/adjust.rst:None
-msgid ".. image:: images/en/Krita_filters_asc_cdl.png"
-msgstr ".. image:: images/en/Krita_filters_asc_cdl.png"
+msgid ".. image:: images/filters/Krita_filters_asc_cdl.png"
+msgstr ".. image:: images/filters/Krita_filters_asc_cdl.png"
 
 #: ../../reference_manual/filters/adjust.rst:1
 msgid "Overview of the adjust filters."
 msgstr "Огляд фільтрів коригування."
+
+#: ../../reference_manual/filters/adjust.rst:11
+msgid "Filters"
+msgstr "Фільтри"
 
 #: ../../reference_manual/filters/adjust.rst:16
 msgid "Adjust"
@@ -44,6 +48,7 @@ msgstr ""
 "Фільтри коригування застосовуються до усього зображення. Їх призначено для "
 "керування кольорами і контрастністю."
 
+#: ../../reference_manual/filters/adjust.rst:20
 #: ../../reference_manual/filters/adjust.rst:23
 msgid "Dodge"
 msgstr "Висвітлювання"
@@ -57,8 +62,8 @@ msgstr ""
 "у традиційному фотомистецтві."
 
 #: ../../reference_manual/filters/adjust.rst:28
-msgid ".. image:: images/en/Dodge-filter.png"
-msgstr ".. image:: images/en/Dodge-filter.png"
+msgid ".. image:: images/filters/Dodge-filter.png"
+msgstr ".. image:: images/filters/Dodge-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:29
 #: ../../reference_manual/filters/adjust.rst:47
@@ -100,6 +105,7 @@ msgstr "Експозиція"
 msgid "The strength at which this filter is applied."
 msgstr "Потужність застосування фільтра."
 
+#: ../../reference_manual/filters/adjust.rst:38
 #: ../../reference_manual/filters/adjust.rst:41
 msgid "Burn"
 msgstr "Вигорання"
@@ -113,8 +119,12 @@ msgstr ""
 "традиційному фотомистецтві."
 
 #: ../../reference_manual/filters/adjust.rst:46
-msgid ".. image:: images/en/Burn-filter.png"
-msgstr ".. image:: images/en/Burn-filter.png"
+msgid ".. image:: images/filters/Burn-filter.png"
+msgstr ".. image:: images/filters/Burn-filter.png"
+
+#: ../../reference_manual/filters/adjust.rst:56
+msgid "Levels Filter"
+msgstr "Фільтр рівнів"
 
 #: ../../reference_manual/filters/adjust.rst:59
 msgid "Levels"
@@ -136,8 +146,8 @@ msgstr ""
 "L` ."
 
 #: ../../reference_manual/filters/adjust.rst:65
-msgid ".. image:: images/en/Levels-filter.png"
-msgstr ".. image:: images/en/Levels-filter.png"
+msgid ".. image:: images/filters/Levels-filter.png"
+msgstr ".. image:: images/filters/Levels-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:66
 msgid ""
@@ -161,9 +171,18 @@ msgstr ""
 "потрібно змінити параметри пізніше, ви можете натиснути кнопку :guilabel:"
 "`Створити маску фільтрування` для додавання рівнів як масок фільтрування."
 
+#: ../../reference_manual/filters/adjust.rst:71
 #: ../../reference_manual/filters/adjust.rst:74
 msgid "Color Adjustment Curves"
 msgstr "Криві коригування кольорів"
+
+#: ../../reference_manual/filters/adjust.rst:71
+msgid "RGB Curves"
+msgstr "Криві RGB"
+
+#: ../../reference_manual/filters/adjust.rst:71
+msgid "Curves Filter"
+msgstr "Фільтр кривих"
 
 #: ../../reference_manual/filters/adjust.rst:76
 msgid ""
@@ -193,8 +212,16 @@ msgstr ""
 "насиченості."
 
 #: ../../reference_manual/filters/adjust.rst:84
-msgid ".. image:: images/en/Color-adjustment-curve.png"
-msgstr ".. image:: images/en/Color-adjustment-curve.png"
+msgid ".. image:: images/filters/Color-adjustment-curve.png"
+msgstr ".. image:: images/filters/Color-adjustment-curve.png"
+
+#: ../../reference_manual/filters/adjust.rst:85
+msgid "Cross Channel Color Adjustment"
+msgstr "Міжканальне коригування кольорів"
+
+#: ../../reference_manual/filters/adjust.rst:85
+msgid "Driving Adjustment by channel"
+msgstr "Провідне коригування за каналом"
 
 #: ../../reference_manual/filters/adjust.rst:88
 msgid "Cross-channel color adjustment"
@@ -227,8 +254,8 @@ msgstr ""
 "буде використано для керування тим, до яких частин вносяться зміни."
 
 #: ../../reference_manual/filters/adjust.rst:99
-msgid ".. image:: images/en/cross_channel_filter.png"
-msgstr ".. image:: images/en/cross_channel_filter.png"
+msgid ".. image:: images/filters/cross_channel_filter.png"
+msgstr ".. image:: images/filters/cross_channel_filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:100
 msgid ""
@@ -282,6 +309,7 @@ msgstr ""
 "яскравості-контрастності буде завантажено як файли із кривими користування "
 "кольорів."
 
+#: ../../reference_manual/filters/adjust.rst:115
 #: ../../reference_manual/filters/adjust.rst:118
 msgid "Color Balance"
 msgstr "Баланс кольорів"
@@ -298,8 +326,21 @@ msgstr ""
 "B`."
 
 #: ../../reference_manual/filters/adjust.rst:123
-msgid ".. image:: images/en/Color-balance.png"
-msgstr ".. image:: images/en/Color-balance.png"
+msgid ".. image:: images/filters/Color-balance.png"
+msgstr ".. image:: images/filters/Color-balance.png"
+
+#: ../../reference_manual/filters/adjust.rst:124
+#: ../../reference_manual/filters/adjust.rst:162
+msgid "Saturation"
+msgstr "Насиченість"
+
+#: ../../reference_manual/filters/adjust.rst:124
+msgid "Desaturation"
+msgstr "Зменшення насичення"
+
+#: ../../reference_manual/filters/adjust.rst:124
+msgid "Gray"
+msgstr "Сірий"
 
 #: ../../reference_manual/filters/adjust.rst:127
 msgid "Desaturate"
@@ -317,10 +358,11 @@ msgstr ""
 "скороченням для цього фільтра є :kbd:`Ctrl + Shift + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:133
-msgid ".. image:: images/en/Desaturate-filter.png"
-msgstr ".. image:: images/en/Desaturate-filter.png"
+msgid ".. image:: images/filters/Desaturate-filter.png"
+msgstr ".. image:: images/filters/Desaturate-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:134
+#: ../../reference_manual/filters/adjust.rst:162
 msgid "Lightness"
 msgstr "Освітленість"
 
@@ -376,9 +418,14 @@ msgstr "Макс."
 msgid "Adds all channels together to get a gray value"
 msgstr "Додає усі канали для отримання значення сірого."
 
+#: ../../reference_manual/filters/adjust.rst:147
 #: ../../reference_manual/filters/adjust.rst:150
 msgid "Invert"
 msgstr "Інвертувати"
+
+#: ../../reference_manual/filters/adjust.rst:147
+msgid "Negative"
+msgstr "Негатив"
 
 #: ../../reference_manual/filters/adjust.rst:152
 msgid ""
@@ -391,6 +438,10 @@ msgstr ""
 "синім (0,1,1), тощо. Типовим клавіатурним скороченням для цього фільтра є :"
 "kbd:`Ctrl + I`."
 
+#: ../../reference_manual/filters/adjust.rst:155
+msgid "Contrast"
+msgstr "Контрастність"
+
 #: ../../reference_manual/filters/adjust.rst:158
 msgid "Auto Contrast"
 msgstr "Автоконтрастність"
@@ -399,6 +450,22 @@ msgstr "Автоконтрастність"
 msgid "Tries to adjust the contrast the universally acceptable levels."
 msgstr ""
 "Намагається скоригувати контрастність до універсальних прийнятних значень."
+
+#: ../../reference_manual/filters/adjust.rst:162
+msgid "Hue"
+msgstr "Відтінок"
+
+#: ../../reference_manual/filters/adjust.rst:162
+msgid "Value"
+msgstr "Значення"
+
+#: ../../reference_manual/filters/adjust.rst:162
+msgid "Brightness"
+msgstr "Яскравість"
+
+#: ../../reference_manual/filters/adjust.rst:162
+msgid "Chroma"
+msgstr "Колірність"
 
 #: ../../reference_manual/filters/adjust.rst:165
 msgid "HSV/HSL Adjustment"
@@ -414,12 +481,17 @@ msgstr ""
 "клавіатурним скороченням для фільтра є комбінація клавіш :kbd:`Ctrl + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:170
-msgid ".. image:: images/en/Hue-saturation-filter.png"
-msgstr ".. image:: images/en/Hue-saturation-filter.png"
+msgid ".. image:: images/filters/Hue-saturation-filter.png"
+msgstr ".. image:: images/filters/Hue-saturation-filter.png"
 
+#: ../../reference_manual/filters/adjust.rst:171
 #: ../../reference_manual/filters/adjust.rst:174
 msgid "Threshold"
 msgstr "Поріг"
+
+#: ../../reference_manual/filters/adjust.rst:171
+msgid "Black and White"
+msgstr "Чорно-білий"
 
 #: ../../reference_manual/filters/adjust.rst:176
 msgid ""
@@ -430,6 +502,14 @@ msgstr ""
 "Прости чорно-білий пороговий фільтр, який використовує значення світності "
 "sRGB. Перетворює будь-яке зображення на чорно-біле, вхідне число визначає "
 "порогове значення, яке розмежовує області чорного і білого кольорів."
+
+#: ../../reference_manual/filters/adjust.rst:178
+msgid "ASC CDL"
+msgstr "ASC CDL"
+
+#: ../../reference_manual/filters/adjust.rst:178
+msgid "Slope Offset Power Curves"
+msgstr "Криві нахилу, зсуву, сили"
 
 #: ../../reference_manual/filters/adjust.rst:181
 msgid "Slope, Offset, Power"

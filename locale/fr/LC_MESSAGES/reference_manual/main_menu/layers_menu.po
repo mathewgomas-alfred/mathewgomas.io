@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-02-27 03:02+0100\n"
 "Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
 "Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
@@ -28,9 +28,63 @@ msgstr ""
 msgid "The layers menu in Krita."
 msgstr ""
 
+#: ../../reference_manual/main_menu/layers_menu.rst:11
 #: ../../reference_manual/main_menu/layers_menu.rst:16
 msgid "Layers"
 msgstr "Calques"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:75
+msgid "Convert"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:115
+msgid "Transform"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Histogram"
+msgstr "Histogramme"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Split Layer"
+msgid "Cut Layer"
+msgstr "Séparer le calque"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Split Layer"
+msgid "Copy Layer"
+msgstr "Séparer le calque"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#, fuzzy
+#| msgid "Rasterize Layer"
+msgid "Paste Layer"
+msgstr "Pixéliser le calque"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Import"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Export"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Metadata"
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Flatten"
+msgstr "Aplatir"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Layer Style"
+msgstr "Style du calque"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:18
 msgid ""
@@ -224,10 +278,6 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
-msgid "Convert"
-msgstr ""
-
-#: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert Layer Color Space"
 msgstr ""
 
@@ -351,10 +401,6 @@ msgid "Shear the layer pixels by the given X and Y angles."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
-msgid "Transform"
-msgstr ""
-
-#: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset Layer"
 msgstr ""
 
@@ -377,7 +423,7 @@ msgid "Split Layer"
 msgstr "Séparer le calque"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
-msgid "Split the layer into given color fields."
+msgid ":ref:`Split the layer <split_layer>` into given color fields."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
@@ -391,7 +437,7 @@ msgstr ""
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
-"making."
+"making. See :ref:`clones_array` for more details."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
@@ -402,46 +448,46 @@ msgstr ""
 msgid "Each layer can have its own metadata."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:129
-msgid "Histogram"
-msgstr "Histogramme"
-
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:131
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Removed. Use the :ref:`histogram_docker` instead."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:132
+#: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Merge a layer down."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:133
+#: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten Layer"
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:134
+#: ../../reference_manual/main_menu/layers_menu.rst:139
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:135
+#: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Rasterize Layer"
 msgstr "Pixéliser le calque"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:136
+#: ../../reference_manual/main_menu/layers_menu.rst:141
 msgid "For making vectors into raster layers."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:137
+#: ../../reference_manual/main_menu/layers_menu.rst:142
 msgid "Flatten Image"
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:138
+#: ../../reference_manual/main_menu/layers_menu.rst:143
 msgid "Flatten all layers into one."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:140
+#: ../../reference_manual/main_menu/layers_menu.rst:145
 msgid "Set the PS-style layerstyle"
 msgstr ""

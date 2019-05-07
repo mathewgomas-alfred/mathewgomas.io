@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_user_manual___python_scripting___krita_python_plugin_howto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-10 07:01+0300\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -24,6 +24,22 @@ msgstr ""
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:1
 msgid "Guide on all the specifics of creating Krita python plugins."
 msgstr "Настанови щодо специфіки створення додатків до Krita мовою Python."
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Python"
+msgstr "Python"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Python Scripting"
+msgstr "Сценарії на Python"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Scripting"
+msgstr "Скрипти"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:14
+msgid "Plugin"
+msgstr "Додаток"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:19
 msgid "How to make a Krita Python plugin"
@@ -118,6 +134,26 @@ msgstr ""
 msgid "The desktop file should look as follows::"
 msgstr "Вміст файл desktop має бути таким::"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:38
+msgid ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"X-Krita-Manual=myPluginManual.html\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+msgstr ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"X-Krita-Manual=myPluginManual.html\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:47
 msgid "Type"
 msgstr "Type"
@@ -200,6 +236,11 @@ msgstr ""
 "Додатки мовою Python до Krita мають бути модулями Python, тому має бути "
 "скрипт __init__.py, який міститиме код, подібний до такого:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:68
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:87
+msgid "from .myplugin import *"
+msgstr "from .myplugin import *"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:69
 msgid ""
 "Where .myplugin is the name of the main file of your plugin. If you restart "
@@ -254,6 +295,24 @@ msgstr "у файлі *__init__.py* впишіть такий код:"
 msgid "in the desktop file put this code::"
 msgstr "до файла desktop впишіть такий код::"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:90
+msgid ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+msgstr ""
+"[Desktop Entry]\n"
+"Type=Service\n"
+"ServiceTypes=Krita/PythonPlugin\n"
+"X-KDE-Library=myplugin\n"
+"X-Python-2-Compatible=false\n"
+"Name=My Own Plugin\n"
+"Comment=Our very own plugin."
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:98
 msgid "write your script in the ''myplugin/myplugin.py'' file."
 msgstr "запишіть ваш сценарій до файла ''myplugin/myplugin.py''."
@@ -273,6 +332,43 @@ msgstr ""
 "libkis/html/classExtension.html>`_ є відносно простими сценаріями python, "
 "які запускаються під час завантаження Krita. Розширення створюються "
 "розширенням класу Extension. Найпростіше розширення виглядає так:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:123
+msgid ""
+"from krita import *\n"
+"\n"
+"class MyExtension(Extension):\n"
+"\n"
+"    def __init__(self, parent):\n"
+"        #This is initialising the parent, always  important when "
+"subclassing.\n"
+"        super().__init__(parent)\n"
+"\n"
+"    def setup(self):\n"
+"        pass\n"
+"\n"
+"    def createActions(self, window):\n"
+"        pass\n"
+"\n"
+"# And add the extension to Krita's list of extensions:\n"
+"Krita.instance().addExtension(MyExtension(Krita.instance()))"
+msgstr ""
+"from krita import *\n"
+"\n"
+"class MyExtension(Extension):\n"
+"\n"
+"    def __init__(self, parent):\n"
+"        #Ініціалізація parent, завжди важливо, якщо створюємо підклас.\n"
+"        super().__init__(parent)\n"
+"\n"
+"    def setup(self):\n"
+"        pass\n"
+"\n"
+"    def createActions(self, window):\n"
+"        pass\n"
+"\n"
+"# І додаємо розширення до списку розширень Krita:\n"
+"Krita.instance().addExtension(MyExtension(Krita.instance()))"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:124
 msgid ""
@@ -305,6 +401,16 @@ msgstr ""
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:128
 msgid "So..."
 msgstr "Отже…"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:135
+msgid ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\", \"tools/scripts"
+"\")"
+msgstr ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\", \"tools/scripts"
+"\")"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:136
 msgid "\"myAction\""
@@ -344,14 +450,62 @@ msgstr ""
 "нижче код до класу extension. Переконайтеся, що код розташовано вище місця "
 "додавання розширення до Krita:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:158
+msgid ""
+"def exportDocument(self):\n"
+"    # Get the document:\n"
+"    doc =  Krita.instance().activeDocument()\n"
+"    # Saving a non-existent document causes crashes, so lets check for that "
+"first.\n"
+"    if doc is not None:\n"
+"        # This calls up the save dialog. The save dialog returns a tuple.\n"
+"        fileName = QFileDialog.getSaveFileName()[0]\n"
+"        # And export the document to the fileName location.\n"
+"        # InfoObject is a dictionary with specific export options, but when "
+"we make an empty one Krita will use the export defaults.\n"
+"        doc.exportImage(fileName, InfoObject())"
+msgstr ""
+"def exportDocument(self):\n"
+"    # Отримуємо документ:\n"
+"    doc =  Krita.instance().activeDocument()\n"
+"    # Збереження документа, якого не існує, призведе до аварійного "
+"завершення роботи, отже, спочатку перевіримо.\n"
+"    if doc is not None:\n"
+"        # Викликаємо діалогове вікно зберігання. Об'єкт повертає кортеж "
+"значень.\n"
+"        fileName = QFileDialog.getSaveFileName()[0]\n"
+"        # І експортуємо документ до розташування fileName.\n"
+"        # InfoObject є словником зі специфічними параметрами експортування, "
+"але коли ми створюємо порожній, Krita використовуватиме типові параметри "
+"експортування.\n"
+"        doc.exportImage(fileName, InfoObject())"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:159
 msgid "And add the import for QFileDialog above with the imports:"
 msgstr "І додайте імпортування QFileDialog згори:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:165
+msgid ""
+"from krita import *\n"
+"from PyQt5.QtWidgets import QFileDialog"
+msgstr ""
+"from krita import *\n"
+"from PyQt5.QtWidgets import QFileDialog"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:166
 msgid "Then, to connect the action to the new export document:"
 msgstr ""
 "Далі, для встановлення з'єднання дій із новим експортованим документом:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:174
+msgid ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\")\n"
+"    action.triggered.connect(self.exportDocument)"
+msgstr ""
+"def createActions(self, window):\n"
+"    action = window.createAction(\"myAction\", \"My Script\")\n"
+"    action.triggered.connect(self.exportDocument)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:175
 msgid ""
@@ -388,6 +542,48 @@ msgstr ""
 "Krita, з різних причин, додає пункти дій до меню клавіатурних скорочень, "
 "лише якщо їх записано до файла .action. Файл action, який слід додати, щоб "
 "нашу дію було додано до списку дій для скорочень, має виглядати десь так:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:208
+msgid ""
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<ActionCollection version=\"2\" name=\"Scripts\">\n"
+"    <Actions category=\"Scripts\">\n"
+"        <text>My Scripts</text>\n"
+"\n"
+"        <Action name=\"myAction\">\n"
+"        <icon></icon>\n"
+"        <text>My Script</text>\n"
+"        <whatsThis></whatsThis>\n"
+"        <toolTip></toolTip>\n"
+"        <iconText></iconText>\n"
+"        <activationFlags>10000</activationFlags>\n"
+"        <activationConditions>0</activationConditions>\n"
+"        <shortcut>ctrl+alt+shift+p</shortcut>\n"
+"        <isCheckable>false</isCheckable>\n"
+"        <statusTip></statusTip>\n"
+"        </Action>\n"
+"    </Actions>\n"
+"</ActionCollection>"
+msgstr ""
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<ActionCollection version=\"2\" name=\"Scripts\">\n"
+"    <Actions category=\"Scripts\">\n"
+"        <text>My Scripts</text>\n"
+"\n"
+"        <Action name=\"myAction\">\n"
+"        <icon></icon>\n"
+"        <text>My Script</text>\n"
+"        <whatsThis></whatsThis>\n"
+"        <toolTip></toolTip>\n"
+"        <iconText></iconText>\n"
+"        <activationFlags>10000</activationFlags>\n"
+"        <activationConditions>0</activationConditions>\n"
+"        <shortcut>ctrl+alt+shift+p</shortcut>\n"
+"        <isCheckable>false</isCheckable>\n"
+"        <statusTip></statusTip>\n"
+"        </Action>\n"
+"    </Actions>\n"
+"</ActionCollection>"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:209
 msgid "<text>My Scripts</text>"
@@ -550,6 +746,38 @@ msgstr ""
 "але для них треба ширше використовувати віджети. Ось базовий код бічної "
 "панелі:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:256
+msgid ""
+"from PyQt5.QtWidgets import *\n"
+"from krita import *\n"
+"\n"
+"class MyDocker(DockWidget):\n"
+"\n"
+"    def __init__(self):\n"
+"        super().__init__()\n"
+"        self.setWindowTitle(\"My Docker\")\n"
+"\n"
+"    def canvasChanged(self, canvas):\n"
+"        pass\n"
+"\n"
+"Krita.instance().addDockWidgetFactory(DockWidgetFactory(\"myDocker\", "
+"DockWidgetFactoryBase.DockRight, MyDocker))"
+msgstr ""
+"from PyQt5.QtWidgets import *\n"
+"from krita import *\n"
+"\n"
+"class MyDocker(DockWidget):\n"
+"\n"
+"    def __init__(self):\n"
+"        super().__init__()\n"
+"        self.setWindowTitle(\"My Docker\")\n"
+"\n"
+"    def canvasChanged(self, canvas):\n"
+"        pass\n"
+"\n"
+"Krita.instance().addDockWidgetFactory(DockWidgetFactory(\"myDocker\", "
+"DockWidgetFactoryBase.DockRight, MyDocker))"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:257
 msgid ""
 "The window title is how it will appear in the docker list in Krita. "
@@ -631,9 +859,21 @@ msgstr ""
 "Що б там не було, спочатку нам слід створити QWidget. Це не складно: під "
 "setWindowTitle додайте таке:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:278
+msgid ""
+"mainWidget = QWidget(self)\n"
+"self.setWidget(mainWidget)"
+msgstr ""
+"mainWidget = QWidget(self)\n"
+"self.setWidget(mainWidget)"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:279
 msgid "Then, we create a button:"
 msgstr "Далі, ми створимо кнопку:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:284
+msgid "buttonExportDocument = QPushButton(\"Export Document\", mainWidget)"
+msgstr "buttonExportDocument = QPushButton(\"Export Document\", mainWidget)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:285
 msgid ""
@@ -651,6 +891,10 @@ msgstr ""
 "qabstractbutton.html#signals>`_, що означає, що ми можемо ними скористатися. "
 "Нам потрібен сигнал clicked."
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:290
+msgid "buttonExportDocument.clicked.connect(self.exportDocument)"
+msgstr "buttonExportDocument.clicked.connect(self.exportDocument)"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:291
 msgid ""
 "If we now restart Krita, we'll have a new docker and in that docker there's "
@@ -666,6 +910,14 @@ msgid ""
 msgstr ""
 "Втім, кнопку не вирівняно. Причиною цього є те, що у нашого mainWidget немає "
 "компонування. Давайте його швиденько додамо:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:299
+msgid ""
+"mainWidget.setLayout(QVBoxLayout())\n"
+"mainWidget.layout().addWidget(buttonExportDocument)"
+msgstr ""
+"mainWidget.setLayout(QVBoxLayout())\n"
+"mainWidget.layout().addWidget(buttonExportDocument)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:300
 msgid ""
@@ -735,6 +987,22 @@ msgstr ""
 msgid "Then, you need to add a PyQt slot definition before your function:"
 msgstr "Далі, вам слід додати визначення слоту pyQt перед вашою функцією:"
 
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:329
+msgid ""
+"@pyqtSlot(bool)\n"
+"def myFunction(self, enabled):\n"
+"    enabledString = \"disabled\"\n"
+"    if (enabled == True):\n"
+"        enabledString = \"enabled\"\n"
+"    print(\"The checkbox is\"+enabledString)"
+msgstr ""
+"@pyqtSlot(bool)\n"
+"def myFunction(self, enabled):\n"
+"    enabledString = \"disabled\"\n"
+"    if (enabled == True):\n"
+"        enabledString = \"enabled\"\n"
+"    print(\"The checkbox is\"+enabledString)"
+
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:330
 msgid ""
 "Then, when you have created your checkbox, you can do something like "
@@ -748,6 +1016,22 @@ msgid "Similarly, to make your own PyQt signals, you do the following:"
 msgstr ""
 "Подібним же чином, для створення власних сигналів PyQt слід скористатися "
 "таким кодом:"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:343
+msgid ""
+"# signal name is added to the member variables of the class\n"
+"signal_name = pyqtSignal(bool, name='signalName')\n"
+"\n"
+"def emitMySignal(self):\n"
+"    # And this is how you trigger the signal to be emitted.\n"
+"    self.signal_name.emit(True)"
+msgstr ""
+"# до змінних учасників класу додаємо назву сигналу\n"
+"signal_name = pyqtSignal(bool, name='signalName')\n"
+"\n"
+"def emitMySignal(self):\n"
+"    # І ось, як ви вмикаєте надсилання сигналу.\n"
+"    self.signal_name.emit(True)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:344
 msgid "And use the right import:"
@@ -766,10 +1050,22 @@ msgstr ""
 "об'єктами Python достатньо взяти їхні назви у лапки."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:351
+msgid "A note on unit tests"
+msgstr "Зауваження щодо тестів модулів"
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
+msgid ""
+"If you want to write unit tests for your plugin, have a look at the `mock "
+"krita module <https://github.com/rbreu/krita-python-mock>`_."
+msgstr ""
+"Якщо ви хочете написати тести модулів для вашого додатка, ознайомтеся із "
+"`цим модулем krita <https://github.com/rbreu/krita-python-mock>`_."
+
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:357
 msgid "Conclusion"
 msgstr "Висновки"
 
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:359
 msgid ""
 "Okay, so that covers all the Krita specific details for creating python "
 "plugins. It doesn't handle how to parse the pixel data, or best practices "
@@ -782,7 +1078,7 @@ msgstr ""
 "роботи з Python, за допомогою нашої документації ви зможете розпочати "
 "створення власних додатків."
 
-#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:355
+#: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:361
 msgid ""
 "As always, read the code carefully and read the API docs for python, Krita "
 "and Qt carefully to see what is possible, and you'll get pretty far."

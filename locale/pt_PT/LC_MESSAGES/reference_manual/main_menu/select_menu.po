@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-22 03:25+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-03-03 11:57+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -21,6 +21,12 @@ msgstr ""
 #: ../../reference_manual/main_menu/select_menu.rst:1
 msgid "The select menu in Krita."
 msgstr "O menu Seleccionar no Krita."
+
+#: ../../reference_manual/main_menu/select_menu.rst:11
+#, fuzzy
+#| msgid "Grow Selection"
+msgid "Selection"
+msgstr "Aumentar a Selecção"
 
 #: ../../reference_manual/main_menu/select_menu.rst:16
 msgid "Select Menu"
@@ -59,43 +65,59 @@ msgid "Inverts the selection."
 msgstr "Inverte a selecção."
 
 #: ../../reference_manual/main_menu/select_menu.rst:31
-msgid "Convert raster selection to vector selection."
-msgstr "Converte a selecção rasterizada para vectorial."
+#, fuzzy
+#| msgid "Convert Shapes to Vector Selection"
+msgid "Convert to Vector Selection."
+msgstr "Converter as Formas para uma Selecção Vectorial"
 
 #: ../../reference_manual/main_menu/select_menu.rst:33
-msgid "--"
-msgstr "--"
+msgid ""
+"This converts a raster selection to a vector selection. Any layers of "
+"transparency there might have been are removed."
+msgstr ""
 
 #: ../../reference_manual/main_menu/select_menu.rst:34
-msgid "Convert Shapes to Vector Selection"
+#, fuzzy
+#| msgid "Convert Shapes to Vector Selection"
+msgid "Convert to Raster Selection."
 msgstr "Converter as Formas para uma Selecção Vectorial"
 
 #: ../../reference_manual/main_menu/select_menu.rst:36
+#, fuzzy
+#| msgid "Convert raster selection to vector selection."
+msgid "This converts a vector selection to a raster selection."
+msgstr "Converte a selecção rasterizada para vectorial."
+
+#: ../../reference_manual/main_menu/select_menu.rst:37
+msgid "Convert Shapes to Vector Selection"
+msgstr "Converter as Formas para uma Selecção Vectorial"
+
+#: ../../reference_manual/main_menu/select_menu.rst:39
 msgid "Convert vector shape to vector selection"
 msgstr "Converte a forma vectorial para uma selecção vectorial"
 
-#: ../../reference_manual/main_menu/select_menu.rst:37
+#: ../../reference_manual/main_menu/select_menu.rst:40
 msgid "Convert to shape"
 msgstr "Converter para Forma"
 
-#: ../../reference_manual/main_menu/select_menu.rst:39
+#: ../../reference_manual/main_menu/select_menu.rst:42
 msgid "Converts vector selection to vector shape."
 msgstr "Converte a selecção vectorial para uma forma vectorial."
 
-#: ../../reference_manual/main_menu/select_menu.rst:40
+#: ../../reference_manual/main_menu/select_menu.rst:43
 msgid "Display Selection"
 msgstr "Mostrar a Selecção"
 
-#: ../../reference_manual/main_menu/select_menu.rst:42
+#: ../../reference_manual/main_menu/select_menu.rst:45
 msgid "Display the selection. If turned off selections will be invisible."
 msgstr ""
 "Mostra a selecção. Se estiver desligada, as selecções ficarão invisíveis."
 
-#: ../../reference_manual/main_menu/select_menu.rst:43
+#: ../../reference_manual/main_menu/select_menu.rst:46
 msgid "Show Global Selection Mask"
 msgstr "Mostrar a Máscara de Selecção Global"
 
-#: ../../reference_manual/main_menu/select_menu.rst:45
+#: ../../reference_manual/main_menu/select_menu.rst:48
 msgid ""
 "Shows the global selection as a selection mask in the layers docker. This is "
 "necessary to be able to select it for painting on."
@@ -103,27 +125,27 @@ msgstr ""
 "Mostra a selecção global como uma máscara de selecção na área de camadas. "
 "Isto é necessário para poder seleccioná-la para pintura."
 
-#: ../../reference_manual/main_menu/select_menu.rst:46
+#: ../../reference_manual/main_menu/select_menu.rst:49
 msgid "Scale"
 msgstr "Escala"
 
-#: ../../reference_manual/main_menu/select_menu.rst:48
+#: ../../reference_manual/main_menu/select_menu.rst:51
 msgid "Scale the selection"
 msgstr "Ajusta a escala da selecção"
 
-#: ../../reference_manual/main_menu/select_menu.rst:49
+#: ../../reference_manual/main_menu/select_menu.rst:52
 msgid "Select from Color Range"
 msgstr "Seleccionar de uma Gama de Cores"
 
-#: ../../reference_manual/main_menu/select_menu.rst:51
+#: ../../reference_manual/main_menu/select_menu.rst:54
 msgid "Select from a certain color range."
 msgstr "Aplica a selecção apenas numa dada gama de cores."
 
-#: ../../reference_manual/main_menu/select_menu.rst:52
+#: ../../reference_manual/main_menu/select_menu.rst:55
 msgid "Select Opaque"
 msgstr "Selecção Opaca"
 
-#: ../../reference_manual/main_menu/select_menu.rst:54
+#: ../../reference_manual/main_menu/select_menu.rst:57
 msgid ""
 "Select all opaque (non-transparent) pixels in the current active layer. If "
 "there's already a selection, this will add the new selection to the old one, "
@@ -136,11 +158,11 @@ msgstr ""
 "única selecção. Os pixels semi-transparentes (ou semi-opacos) ficarão semi-"
 "seleccionados."
 
-#: ../../reference_manual/main_menu/select_menu.rst:55
+#: ../../reference_manual/main_menu/select_menu.rst:58
 msgid "Feather Selection"
 msgstr "Selecção Leve"
 
-#: ../../reference_manual/main_menu/select_menu.rst:57
+#: ../../reference_manual/main_menu/select_menu.rst:60
 msgid ""
 "Feathering in design means to soften sharp borders. So this adds a soft "
 "border to the existing selection."
@@ -148,27 +170,27 @@ msgstr ""
 "A selecção leve significa que os contornos da selecção existente ficam "
 "suavizados."
 
-#: ../../reference_manual/main_menu/select_menu.rst:58
+#: ../../reference_manual/main_menu/select_menu.rst:61
 msgid "Grow Selection"
 msgstr "Aumentar a Selecção"
 
-#: ../../reference_manual/main_menu/select_menu.rst:60
+#: ../../reference_manual/main_menu/select_menu.rst:63
 msgid "Make the selection a few pixels bigger."
 msgstr "Torna a selecção alguns pixels maior."
 
-#: ../../reference_manual/main_menu/select_menu.rst:61
+#: ../../reference_manual/main_menu/select_menu.rst:64
 msgid "Shrink Selection"
 msgstr "Encolher a Selecção"
 
-#: ../../reference_manual/main_menu/select_menu.rst:63
+#: ../../reference_manual/main_menu/select_menu.rst:66
 msgid "Make the selection a few pixels smaller."
 msgstr "Torna a selecção alguns pixels menor."
 
-#: ../../reference_manual/main_menu/select_menu.rst:64
+#: ../../reference_manual/main_menu/select_menu.rst:67
 msgid "Border Selection"
 msgstr "Selecção do Contorno"
 
-#: ../../reference_manual/main_menu/select_menu.rst:66
+#: ../../reference_manual/main_menu/select_menu.rst:69
 msgid ""
 "Take the current selection and remove the insides so you only have a border "
 "selected."
@@ -176,11 +198,14 @@ msgstr ""
 "Pega na selecção actual e remove o interior para que possa ter apenas uma "
 "selecção do contorno."
 
-#: ../../reference_manual/main_menu/select_menu.rst:67
+#: ../../reference_manual/main_menu/select_menu.rst:70
 msgid "Smooth"
 msgstr "Suave"
 
-#: ../../reference_manual/main_menu/select_menu.rst:69
+#: ../../reference_manual/main_menu/select_menu.rst:72
 msgid "Make the selection a little smoother. This removes jiggle."
 msgstr ""
 "Torna a selecção um pouco mais suave. Isto elimina alguns desalinhamentos."
+
+#~ msgid "--"
+#~ msgstr "--"

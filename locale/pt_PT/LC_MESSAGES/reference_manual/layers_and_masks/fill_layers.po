@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
+"POT-Creation-Date: 2019-05-06 03:34+0200\n"
 "PO-Revision-Date: 2019-04-06 09:40+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -18,9 +18,29 @@ msgstr ""
 "X-POFile-SpellExtra: en FillLayer Krita image images Revoy\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:0
+#, fuzzy
+#| msgid ".. image:: images/en/Fill_Layer.png"
+msgid ".. image:: images/layers/fill_layer_simplex_noise.png"
+msgstr ".. image:: images/en/Fill_Layer.png"
+
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:1
 msgid "How to use fill layers in Krita."
 msgstr "Como usar as camadas de preenchimento no Krita."
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+#, fuzzy
+#| msgid "Fill Layers"
+msgid "Layers"
+msgstr "Camadas de Preenchimento"
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+msgid "Fill"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:12
+msgid "Generator"
+msgstr ""
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:17
 msgid "Fill Layers"
@@ -35,7 +55,9 @@ msgstr ""
 "e que poderá conter um padrão ou uma cor única."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:22
-msgid ".. image:: images/en/Fill_Layer.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Fill_Layer.png"
+msgid ".. image:: images/layers/Fill_Layer.png"
 msgstr ".. image:: images/en/Fill_Layer.png"
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:24
@@ -89,11 +111,61 @@ msgstr ""
 "A segunda opção não é tão interessante, mas faz o que é necessário. Preenche "
 "a camada com uma cor previamente seleccionada."
 
-#: ../../reference_manual/layers_and_masks/fill_layers.rst:32
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:36
+msgid ""
+"A noise generator that isn't Perline Noise (which is what typical 'clouds' "
+"generation is), but it looks similar and can actually loop. Uses the "
+"OpenSimplex code."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:38
+msgid "Looping"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:39
+msgid "Whether or not to force the pattern to loop."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:40
+msgid "Frequency"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:41
+msgid ""
+"The frequency of the waves used to generate the pattern. Higher frequency "
+"results in a finer noise pattern."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:42
+msgid "Ratio"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:43
+msgid ""
+"The ratio of the waves in the x and y dimensions. This makes the noise have "
+"a rectangular appearance."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+msgid "Simplex Noise"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+msgid "Use Custom Seed"
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:45
+msgid ""
+"The seed for the random component. You can input any value or text here, and "
+"it will always try to use this value to generate the random values with "
+"(which then are always the same for a given seed)."
+msgstr ""
+
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:48
 msgid "Painting on a fill layer"
 msgstr "Pintura sobre uma camada de preenchimento"
 
-#: ../../reference_manual/layers_and_masks/fill_layers.rst:34
+#: ../../reference_manual/layers_and_masks/fill_layers.rst:50
 msgid ""
 "A fill-layer is a single-channel layer, meaning it only has transparency. "
 "Therefore, you can erase and paint on fill-layers to make them semi-opaque, "

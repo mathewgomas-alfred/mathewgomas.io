@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-30 03:35+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,23 +18,24 @@ msgstr ""
 "docs_krita_org_reference_manual___brushes___brush_settings___options.pot\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Krita_3_0_1_Brush_engine_ratio.png"
+msgid ".. image:: images/brushes/Krita_3_0_1_Brush_engine_ratio.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:1
 msgid "Krita's Brush Engine options overview."
-msgstr ""
+msgstr "介绍 Krita 笔刷引擎选项列表中的各种选项的功能。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:18
 msgid "Options"
-msgstr "选项"
+msgstr "选项介绍"
 
+#: ../../reference_manual/brushes/brush_settings/options.rst:20
 #: ../../reference_manual/brushes/brush_settings/options.rst:24
 msgid "Airbrush"
 msgstr "喷枪"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:27
-msgid ".. image:: images/en/Krita_2_9_brushengine_airbrush.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_airbrush.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:28
@@ -43,18 +44,21 @@ msgid ""
 "adding color onto the canvas. The lower the rate, the quicker the color gets "
 "added."
 msgstr ""
+"勾选喷枪选项后，按下笔刷原地不动，颜色依然会被源源不断地添加到画布上。频率越"
+"低，颜色被添加到画布上的速度就越慢。"
 
+#: ../../reference_manual/brushes/brush_settings/options.rst:30
 #: ../../reference_manual/brushes/brush_settings/options.rst:34
 msgid "Mirror"
 msgstr "镜像"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:37
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Mirror.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Mirror.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:38
 msgid "This allows you to mirror the Brush-tip with Sensors."
-msgstr ""
+msgstr "此选项可以把笔尖按照传感器的数值进行镜像。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:40
 msgid "Horizontal"
@@ -62,7 +66,7 @@ msgstr "垂直"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:41
 msgid "Mirrors the mask horizontally."
-msgstr ""
+msgstr "将笔刷的蒙版水平镜像。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:43
 msgid "Vertical"
@@ -70,17 +74,17 @@ msgstr "水平"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:43
 msgid "Mirrors the mask vertically."
-msgstr ""
+msgstr "将笔刷的蒙版垂直镜像。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:46
-msgid ".. image:: images/en/Krita_2_9_brushengine_mirror.jpg"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mirror.jpg"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:47
 msgid ""
 "Some examples of mirroring and using it in combination with :ref:"
 "`option_rotation`."
-msgstr ""
+msgstr "上图是镜像选项与 :ref:`option_rotation` 选项搭配使用时的效果。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:52
 msgid "Rotation"
@@ -88,19 +92,19 @@ msgstr "旋转"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:54
 msgid "This allows you to affect Angle of your brush-tip with Sensors."
-msgstr ""
+msgstr "此选项控制传感器对笔刷角度的影响。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:57
-msgid ".. image:: images/en/Krita_2_9_brushengine_rotation.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_rotation.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:59
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Rotation.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Rotation.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:60
 msgid "In the above example, several applications of the parameter."
-msgstr ""
+msgstr "在上面的例子中，我们给出了五种不同传感器对笔刷旋转的影响。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:62
 msgid ""
@@ -110,26 +114,29 @@ msgid ""
 "more tablet focused effect, where with Tilt the 0° is at 12 o'clock, Drawing "
 "angle uses 3 o'clock as 0°."
 msgstr ""
+"笔迹走向：这是一个比较常用的传感器，经常和梳状笔刷配合使用。值得一提的是它不"
+"需要数位板就能生效。压感笔的笔身倾斜和笔身旋转有时候也会被用来得到类似的效"
+"果，但笔身倾斜把 12 点钟方向作为 0°，而笔迹走向把 3 点钟方向作为 0°。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:63
 msgid ""
 "Fuzzy -- Also very common, this gives a nice bit of randomness for texture."
-msgstr ""
+msgstr "随机度：也是一组比较常用的传感器，方便给纹理添加一点随机变化。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:64
 msgid ""
 "Distance -- With careful editing of the Sensor curve, you can create nice "
 "patterns."
-msgstr ""
+msgstr "距离：如果你对这个传感器曲线进行精心编辑，你可以通过它画出好看的图案。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:65
 msgid "Fade -- This slowly fades the rotation from one into another."
-msgstr ""
+msgstr "淡化：让旋转效果的过渡更加平滑。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:66
 msgid ""
 "Pressure -- An interesting one that can create an alternative looking line."
-msgstr ""
+msgstr "压力：可以画出不同风格的笔画。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:71
 msgid "Scatter"
@@ -140,55 +147,85 @@ msgid ""
 "This parameter allows you to set the random placing of a brush-dab. You can "
 "affect them with Sensors."
 msgstr ""
+"此选项控制笔尖印迹的随机分散程度，你可以通过传感器影响分散程度。下图从左到右"
+"依次为：同时在 X 轴和 Y 轴上分散，仅在 X 轴上分散，仅在 Y 轴上分散，X 轴和 Y "
+"轴分散度映射到压力，X 轴和 Y 轴分散度映射到距离。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:75
 msgid "X"
-msgstr "X"
+msgstr "X 轴"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:76
 msgid "The scattering on the angle you are drawing from."
-msgstr ""
+msgstr "在你绘画笔迹的方向上分散。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid "Y"
-msgstr "Y"
+msgstr "Y 轴"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid ""
 "The scattering, perpendicular to the drawing angle (has the most effect)"
-msgstr ""
+msgstr "在与你绘画笔迹垂直的方向上分散。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
-msgid ".. image:: images/en/Krita_2_9_brushengine_scatter.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_scatter.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:85
 msgid "Sharpness"
-msgstr "锐度"
+msgstr "锐利度"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:88
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Sharpness.png"
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Sharpness.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:89
-msgid "Puts a threshold filter over the brush mask."
+msgid ""
+"Puts a threshold filter over the brush mask. This can be used for brush like "
+"strokes, but it also makes for good pixel art brushes."
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:91
+msgid "Strength"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:92
+msgid "Controls the threshold, and can be controlled by the sensors below."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:94
-msgid "Size"
-msgstr "大小"
+#: ../../reference_manual/brushes/brush_settings/options.rst:120
+msgid "Softness"
+msgstr "柔和度"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:97
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Size.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:94
+msgid ""
+"Controls the extra non-fully opaque pixels. This adds a little softness to "
+"the stroke."
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:98
 msgid ""
-"This parameter is not the diameter itself, but rather the curve for how it's "
-"affected."
+"The sensors now control the threshold instead of the subpixel precision, "
+"softness slider was added."
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:100
+#: ../../reference_manual/brushes/brush_settings/options.rst:103
+msgid "Size"
+msgstr "大小"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:106
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Size.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:107
+msgid ""
+"This parameter is not the diameter itself, but rather the curve for how it's "
+"affected."
+msgstr "此项并非直接设定笔刷直径大小，而是控制传感器曲线对笔刷直径的影响。"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:109
 msgid ""
 "So, if you want to lock the diameter of the brush, lock the Brush-tip. "
 "Locking the size parameter will only lock this curve. Allowing this curve to "
@@ -197,101 +234,107 @@ msgid ""
 "concave curve set to pressure. That way you'll have to press hard for thick "
 "lines."
 msgstr ""
+"因此，如果你想要锁定笔刷的直径，你应该锁定“笔尖”选项。锁定“大小”选项只会锁定"
+"它的传感器曲线。你可以通过曲线来影响传感器的作用，打造具有某些特性的笔刷。例"
+"如，如果你不擅长勾画细线，你可以把压力曲线设为下凹的形状，这样你便需要更大的"
+"力气才能画出粗线条。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:103
-msgid ".. image:: images/en/Krita_2_9_brushengine_size_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:112
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_01.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:104
+#: ../../reference_manual/brushes/brush_settings/options.rst:113
 msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`"
 msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:107
-msgid ".. image:: images/en/Krita_2_9_brushengine_size_02.png"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:111
-msgid "Softness"
-msgstr "柔度"
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:113
-msgid "This allows you to affect Fade with Sensors."
-msgstr ""
+"大小选项还有另外两种常见用法。其中一种是把它映射到随机度，这样可以画出轮廓不"
+"那么均匀的线条。还有一种是把它映射到透视传感器，配合 :ref:"
+"`assistant_perspective` 辅助尺使用，可以把画出的线条粗细也按照辅助尺来进行透"
+"视变形。它们的效果如下所示。"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:116
-msgid ".. image:: images/en/Krita_2_9_brushengine_softness.png"
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_02.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:117
+#: ../../reference_manual/brushes/brush_settings/options.rst:122
+msgid "This allows you to affect Fade with Sensors."
+msgstr "此项用于控制传感器对笔尖淡化程度的影响。"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:125
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_softness.png"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:126
 msgid ""
 "Has a slight brush-decreasing effect, especially noticeable with soft-brush, "
 "and is overall more noticeable on large brushes."
 msgstr ""
+"它的副作用是让笔刷看起来变小了。笔刷的轮廓越柔和，直径越大，这种副作用就越明"
+"显。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:122
+#: ../../reference_manual/brushes/brush_settings/options.rst:131
 msgid "Source"
 msgstr "来源"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:124
+#: ../../reference_manual/brushes/brush_settings/options.rst:133
 msgid "Picks the source-color for the brush-dab."
-msgstr ""
+msgstr "选择笔尖颜色的来源方式。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:126
+#: ../../reference_manual/brushes/brush_settings/options.rst:135
 msgid "Plain Color"
 msgstr "纯色"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:127
+#: ../../reference_manual/brushes/brush_settings/options.rst:136
 msgid "Current foreground color."
-msgstr ""
+msgstr "使用当前的前景色。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:128
-#: ../../reference_manual/brushes/brush_settings/options.rst:160
+#: ../../reference_manual/brushes/brush_settings/options.rst:137
+#: ../../reference_manual/brushes/brush_settings/options.rst:169
 msgid "Gradient"
-msgstr "渐变色"
+msgstr "渐变"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:129
+#: ../../reference_manual/brushes/brush_settings/options.rst:138
 msgid "Picks active gradient"
-msgstr ""
+msgstr "使用当前的渐变。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:130
+#: ../../reference_manual/brushes/brush_settings/options.rst:139
 msgid "Uniform Random"
-msgstr ""
+msgstr "笔尖随机"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:131
+#: ../../reference_manual/brushes/brush_settings/options.rst:140
 msgid "Gives a random color to each brush dab."
-msgstr ""
+msgstr "给每个笔尖印迹一种随机颜色。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:132
+#: ../../reference_manual/brushes/brush_settings/options.rst:141
 msgid "Total Random"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:133
-msgid "Random noise pattern is now painted."
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:134
-msgid "Pattern"
-msgstr "花式"
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:135
-msgid "Uses active pattern, but alignment is different per stroke."
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:137
-msgid "Locked Pattern"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:137
-msgid "Locks the pattern to the brushdab"
-msgstr ""
+msgstr "笔画随机"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:142
+msgid "Random noise pattern is now painted."
+msgstr "整个笔画画出随机的颜色噪点。"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:143
+msgid "Pattern"
+msgstr "图案"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:144
+msgid "Uses active pattern, but alignment is different per stroke."
+msgstr "使用当前的图案，但图案的对齐每笔不同。"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:146
+msgid "Locked Pattern"
+msgstr "笔尖锁定图案"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:146
+msgid "Locks the pattern to the brushdab"
+msgstr "将图案锁定到笔尖。"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:151
 msgid "Mix"
 msgstr "混合"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:144
+#: ../../reference_manual/brushes/brush_settings/options.rst:153
 msgid ""
 "Allows you to affect the mix of the :ref:`option_source` color with Sensors. "
 "It will work with Plain Color and Gradient as source. If Plain Color is "
@@ -299,20 +342,23 @@ msgid ""
 "selected in color picker. If Gradient is selected, it chooses a point on the "
 "gradient to use as painting color according to the sensors selected."
 msgstr ""
+"此项用来控制传感器对 :ref:`option_source` 选项的混合效果的影响。它可以在纯色"
+"和渐变的来源下面工作。如果来源为纯色，则在前景色和背景色之间混合。如果来源是"
+"渐变，则按照传感器反馈选择渐变上的一处颜色。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:147
-msgid ".. image:: images/en/Krita_2_9_brushengine_mix_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:156
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mix_01.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:149
+#: ../../reference_manual/brushes/brush_settings/options.rst:158
 msgid "Uses"
+msgstr "用例"
+
+#: ../../reference_manual/brushes/brush_settings/options.rst:161
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_mix_02.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:152
-msgid ".. image:: images/en/Krita_2_9_brushengine_mix_02.png"
-msgstr ""
-
-#: ../../reference_manual/brushes/brush_settings/options.rst:154
+#: ../../reference_manual/brushes/brush_settings/options.rst:163
 msgid ""
 "The above example uses a :program:`Krita` painted flowmap in the 3D program :"
 "program:`Blender`. A brush was set to :menuselection:`Source --> Gradient` "
@@ -320,53 +366,65 @@ msgid ""
 "contained the 360° for normal map colors. Flow maps are used in several "
 "Shaders, such as brushed metal, hair and certain river-shaders."
 msgstr ""
+"上图左边是 :program:`Krita` 绘制的流向贴图，右边是该贴图在 :program:"
+"`Blender` 中的效果。笔刷选项为 :menuselection:`来源 --> 渐变` 和 :"
+"menuselection:`混合 --> 笔迹走向` 。 此处的渐变包含了 360° 的法线贴图颜色。一"
+"些着色器需要使用流向贴图来表现金属拉丝和流水效果。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:155
+#: ../../reference_manual/brushes/brush_settings/options.rst:164
 msgid "Flow map"
-msgstr ""
+msgstr "流向贴图"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:162
+#: ../../reference_manual/brushes/brush_settings/options.rst:171
 msgid ""
 "Exactly the same as using :menuselection:`Source --> Gradient` with :"
 "guilabel:`Mix`, but only available for the Color Smudge Brush."
 msgstr ""
+"效果与 :menuselection:`来源 --> 渐变` 配合 :guilabel:`混合` 使用时一样，但只"
+"在颜色涂抹笔刷引擎下可用。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:168
+#: ../../reference_manual/brushes/brush_settings/options.rst:173
+#: ../../reference_manual/brushes/brush_settings/options.rst:177
 msgid "Spacing"
 msgstr "间距"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:171
-msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Spacing.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:180
+msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Spacing.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:172
+#: ../../reference_manual/brushes/brush_settings/options.rst:181
 msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
 msgstr ""
+"此选项控制 :ref:`sensors` 对 :ref:`option_brush_tip` 间距的影响。下图为从左到"
+"右以此为将间距映射到压力、距离、速度、随机度传感器时的效果。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:175
-msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_02.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:184
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_spacing_02.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:177
+#: ../../reference_manual/brushes/brush_settings/options.rst:186
 msgid "Isotropic spacing"
-msgstr ""
+msgstr "各向同性间距"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:177
+#: ../../reference_manual/brushes/brush_settings/options.rst:186
 msgid ""
 "Instead of the spacing being related to the ratio of the brush, it will be "
 "on diameter only."
 msgstr ""
+"计算间距时不考虑笔尖的宽高比，只考虑笔尖的直径。下方左图为各向异性间距，右图"
+"为各向同性间距。"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:180
-msgid ".. image:: images/en/Krita_2_9_brushengine_spacing_01.png"
+#: ../../reference_manual/brushes/brush_settings/options.rst:189
+msgid ".. image:: images/brushes/Krita_2_9_brushengine_spacing_01.png"
 msgstr ""
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:185
+#: ../../reference_manual/brushes/brush_settings/options.rst:190
+#: ../../reference_manual/brushes/brush_settings/options.rst:194
 msgid "Ratio"
 msgstr "宽高比"
 
-#: ../../reference_manual/brushes/brush_settings/options.rst:187
+#: ../../reference_manual/brushes/brush_settings/options.rst:196
 msgid ""
 "Allows you to change the ratio of the brush and bind it to parameters. This "
 "also works for predefined brushes."
-msgstr ""
+msgstr "此项控制传感器对笔尖宽高比的影响，对预制形状笔刷也有效。"

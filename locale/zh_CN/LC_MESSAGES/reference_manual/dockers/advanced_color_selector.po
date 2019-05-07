@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-17 03:39+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -19,15 +19,25 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:1
 msgid "Overview of the advanced color selector docker."
-msgstr "高级拾色器简介"
+msgstr "介绍 Krita 的高级拾色器工具面板。"
 
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
 #: ../../reference_manual/dockers/advanced_color_selector.rst:16
 msgid "Advanced Color Selector"
 msgstr "高级拾色器"
 
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
+#: ../../reference_manual/dockers/advanced_color_selector.rst:24
+msgid "Color Selector"
+msgstr "拾色器"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:11
+msgid "Color"
+msgstr ""
+
 #: ../../reference_manual/dockers/advanced_color_selector.rst:20
-msgid ".. image:: images/en/Advancecolorselector.jpg"
-msgstr ".. image:: images/en/Advancecolorselector.jpg"
+msgid ".. image:: images/dockers/Advancecolorselector.jpg"
+msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:21
 msgid ""
@@ -38,76 +48,88 @@ msgid ""
 "icon on the top left corner. Clicking on the wrench will open a popup window "
 "with following tabs and options:"
 msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:24
-msgid "Color Selector"
-msgstr "拾色器"
+"这是 Krita 内建的最复杂的拾色器，它提供了大量可定制的选项。如果它没有显示，可"
+"点击菜单栏的 :menuselection:`设置 --> 工具面板 --> 高级拾色器` 启用。该面板的"
+"左上角有一个小按钮，点击后将打开高级拾色器的选项对话框，里面有多个选项页面可"
+"供配置。"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:26
 msgid "Here you configure the main selector."
-msgstr "在这里, 您可以配置主拾色器。"
+msgstr "你可以在此页面配置主拾色器的选项。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:29
-msgid "Type and Shape"
+#: ../../reference_manual/dockers/advanced_color_selector.rst:28
+msgid "Show Color Selector"
 msgstr ""
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:32
-msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
-msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
+#: ../../reference_manual/dockers/advanced_color_selector.rst:31
+msgid ""
+"This allows you to configure whether to show or hide the main color selector."
+msgstr ""
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:33
+#: ../../reference_manual/dockers/advanced_color_selector.rst:34
+msgid "Type and Shape"
+msgstr "色彩模型类型和形状"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:37
+msgid ".. image:: images/dockers/Krita_Color_Selector_Types.png"
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:38
 msgid ""
 "Here you can pick the hsx model you'll be using. There's a small blurb "
 "explaining the characteristic of each model, but let's go into detail:"
 msgstr ""
+"你可以在色彩模型类型下拉菜单选择使用哪种 HSX 模型。选中任意一种模型后都会在右"
+"边介绍其特性和目标用途。由于参考手册不受空间限制，我们会在这里进一步展开说"
+"明："
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:36
+#: ../../reference_manual/dockers/advanced_color_selector.rst:41
 msgid "HSV"
 msgstr "HSV"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:37
-#, fuzzy
-#| msgid ""
-#| "Stands for Hue, Saturation, Value. Saturation determines the difference "
-#| "between white, grey, black and the most colorful color. Value in turn "
-#| "measures either the difference between black and white, or the difference "
-#| "between black and the most colorful color."
+#: ../../reference_manual/dockers/advanced_color_selector.rst:42
 msgid ""
 "Stands for Hue, Saturation, Value. Saturation determines the difference "
 "between white, gray, black and the most colorful color. Value in turn "
 "measures either the difference between black and white, or the difference "
 "between black and the most colorful color."
 msgstr ""
-"HSV 色彩空间代表着色相，饱和度，明度（有些时候被称为 HSB ）。S 指的是饱和度"
-"（Saturation），它控制纯色中混入黑色与白色的量。"
+"HSV 是色相 (Hue)、饱和度 (Saturation)、明度 (Value) 的首字母缩写。饱和度反映"
+"了白灰黑和最鲜艳颜色之间的差别。明度反映了黑白之间或者黑与最鲜艳颜色之间的差"
+"别。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:38
+#: ../../reference_manual/dockers/advanced_color_selector.rst:43
 msgid "HSL"
 msgstr "HSL"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:39
+#: ../../reference_manual/dockers/advanced_color_selector.rst:44
 msgid ""
 "Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% "
 "lightness. Saturation allows for shifting between gray and color."
 msgstr ""
+"HSL 是色相 (Hue)、饱和度 (Saturation)、亮度 (Lightness) 的首字母缩写。在饱和"
+"度范围中，中间灰相当于最鲜艳的颜色。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:40
+#: ../../reference_manual/dockers/advanced_color_selector.rst:45
 msgid "HSI"
 msgstr "HSI"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:41
+#: ../../reference_manual/dockers/advanced_color_selector.rst:46
 msgid ""
 "This stands for Hue, Saturation and Intensity. Unlike HSL, this one "
 "determine the intensity as the sum of total rgb components. Yellow (1,1,0) "
 "has higher intensity than blue (0,0,1) but is the same intensity as cyan "
 "(0,1,1)."
 msgstr ""
+"HSL 是色相 (Hue)、饱和度 (Saturation)、强度 (Intensity) 的首字母缩写。强度是"
+"所有 RGB 分量的总和。因此黄 (1,1,0) 和青 (1,1,0) 的强度相等，而它们的强度都高"
+"于蓝 (0,0,1)。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:43
+#: ../../reference_manual/dockers/advanced_color_selector.rst:48
 msgid "HSY'"
 msgstr "HSY'"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:43
+#: ../../reference_manual/dockers/advanced_color_selector.rst:48
 msgid ""
 "Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of "
 "true luminosity. (Luminosity being the measurement of relative lightness). "
@@ -115,282 +137,337 @@ msgid ""
 "Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most "
 "intuitive selector to work with, or the most confusing."
 msgstr ""
+"HSL 是色相 (Hue)、饱和度 (Saturation)、光度 (Luminosity/Luma) 的首字母缩写。"
+"Luma 光度是一般 Luminosity 光度的 RGB 推测值，而一般光度本身则是相对亮度的指"
+"标。HSY' 使用 Luma 系数，如 `Rec 709 <http://en.wikipedia.org/wiki/Rec."
+"_709>`_ 来计算 Luma 光度的数值。HSY' 拾色器的效果最符合人类直觉，但其工作原理"
+"却最不容易理解。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:45
+#: ../../reference_manual/dockers/advanced_color_selector.rst:50
 msgid ""
 "Then, under shape, you can select one of the shapes available within that "
 "color model."
 msgstr ""
+"在左边显示了拾色器形状的位置其实是一个选单按钮，点击后可以在一系列不同拾色器"
+"形状中选取一种。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:49
+#: ../../reference_manual/dockers/advanced_color_selector.rst:54
 msgid ""
 "Triangle is in all color models because to a certain extent, it is a "
 "wildcard shape: All color models look the same in an equilateral triangle "
 "selector."
 msgstr ""
+"每个模型都有一个三角形的拾色器，因为在某种程度上说三角形是一种万能形状：所有"
+"颜色模型在等边三角形拾色器中看起来都是一样的。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:52
+#: ../../reference_manual/dockers/advanced_color_selector.rst:57
 msgid "Luma Coefficients"
-msgstr "光度系数"
+msgstr "Luma 系数"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:54
+#: ../../reference_manual/dockers/advanced_color_selector.rst:59
 msgid ""
 "This allows you to edit the Luma coefficients for the HSY model selectors to "
 "your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ "
 "instead of Rec 709? These boxes allow you to do that!"
 msgstr ""
+"你可以在此编辑 HSY 模型的 Luma 系数，默认值按照 Rec 709 规范设定，你也可以把"
+"它按照 `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ 进行更改。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:56
+#: ../../reference_manual/dockers/advanced_color_selector.rst:61
 msgid "By default, the Luma coefficients should add up to 1 at maximum."
-msgstr ""
+msgstr "在默认状态下，Luma 系数的总和的最大值为 1。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:59
+#: ../../reference_manual/dockers/advanced_color_selector.rst:64
 msgid "Gamma"
-msgstr "Gamma 分布"
+msgstr "Gamma"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:59
+#: ../../reference_manual/dockers/advanced_color_selector.rst:64
 msgid ""
 "The HSY selector is linearised, this setting allows you to choose how much "
 "gamma is applied to the Luminosity for the gui element. 1.0 is fully linear, "
 "2.2 is the default."
 msgstr ""
+"HSY 拾色器是线性的，此选项可以控制其界面中明度的 gamma。1.0 为完全线性，2.2 "
+"为默认值。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:62
+#: ../../reference_manual/dockers/advanced_color_selector.rst:67
 msgid "Color Space"
 msgstr "色彩空间"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:64
+#: ../../reference_manual/dockers/advanced_color_selector.rst:69
 msgid ""
 "This allows you to set the overall color space for the Advanced Color "
 "Selector."
 msgstr ""
+"你可以勾选“拾色器使用与图像不同的色彩空间”选项来设定高级拾色器使用的颜色空"
+"间。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:67
+#: ../../reference_manual/dockers/advanced_color_selector.rst:72
 msgid ""
 "You can pick only sRGB colors in advanced color selector regardless of the "
 "color space of advanced color selector. This is a bug."
 msgstr ""
+"无论为高级拾色器选中了哪种色彩空间，你拾取的总是 sRGB 空间的颜色，这是一个程"
+"序问题。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:70
+#: ../../reference_manual/dockers/advanced_color_selector.rst:75
 msgid "Behaviour"
 msgstr "行为"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:73
-msgid "When docker resizes"
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:75
-msgid "This determines the behavior of the widget as it becomes smaller."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:77
-msgid "Change to Horizontal"
-msgstr ""
-
 #: ../../reference_manual/dockers/advanced_color_selector.rst:78
+msgid "When docker resizes"
+msgstr "工具面板大小变化时"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:80
+msgid "This determines the behavior of the widget as it becomes smaller."
+msgstr "此项控制拾色器窗口部件在面板变大或者变小时的行为。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:82
+msgid "Change to Horizontal"
+msgstr "更改为水平布局"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:83
 msgid ""
 "This'll arrange the shade selector horizontal to the main selector. Only "
 "works with the MyPaint shade selector"
 msgstr ""
+"选中此项，则光影拾色器将被安排为与主拾色器水平并排。只在 MyPaint 光影拾色器下"
+"有效。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:79
+#: ../../reference_manual/dockers/advanced_color_selector.rst:84
 msgid "Hide Shade Selector"
-msgstr "隐藏光影选择器"
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:80
-msgid "This hides the shade selector."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:82
-msgid "Do nothing"
-msgstr "什么也不做"
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:82
-msgid "Does nothing, just resizes."
-msgstr ""
+msgstr "隐藏光影拾色器"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:85
+msgid "This hides the shade selector."
+msgstr "选中此项，则光影拾色器将被隐藏起来。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+msgid "Do nothing"
+msgstr "无动作"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+msgid "Does nothing, just resizes."
+msgstr "不进行任何改变，只调整大小。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:90
 msgid "Zoom selector UI"
 msgstr "显示浮动放大界面"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+#: ../../reference_manual/dockers/advanced_color_selector.rst:92
 msgid ""
 "If your have set the docker size considerably smaller to save space, this "
 "option might be helpful to you. This allows you to set whether or not the "
 "selector will give a zoomed view of the selector in a size specified by you, "
 "you have these options for the zoom selector:"
 msgstr ""
+"如果你为了节省空间而把高级拾色器的工具面板调整得非常小，这个选单应该会派上用"
+"场。你可以设置在特定条件下显示一套放大版拾色器界面，还可以调整放大后的界面大"
+"小。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:89
+#: ../../reference_manual/dockers/advanced_color_selector.rst:94
 msgid "when pressing middle mouse button"
-msgstr ""
+msgstr "按下鼠标中键时"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:90
+#: ../../reference_manual/dockers/advanced_color_selector.rst:95
 msgid "on mouse over"
-msgstr ""
+msgstr "鼠标悬停时"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:91
+#: ../../reference_manual/dockers/advanced_color_selector.rst:96
 msgid "never"
-msgstr "从不"
+msgstr "从不显示"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:93
+#: ../../reference_manual/dockers/advanced_color_selector.rst:98
 msgid ""
 "The size given here, is also the size of the Main Color Selector and the "
 "MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:"
 "`Shift + M`, respectively."
 msgstr ""
+"在“放大界面大小”一项中设置的数值同时控制了在画布上按 :kbd:`Shift + I` 显示的"
+"放大版主拾色器和按 :kbd:`Shift + M` 显示的放大版 MyPaint 光影拾色器的大小。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:96
+#: ../../reference_manual/dockers/advanced_color_selector.rst:101
 msgid "Hide Pop-up on click"
-msgstr ""
+msgstr "单击隐藏浮动放大界面"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:96
+#: ../../reference_manual/dockers/advanced_color_selector.rst:101
 msgid ""
 "This allows you to let the pop-up selectors called with the above hotkeys to "
 "disappear upon clicking them instead of having to leave the pop-up boundary. "
 "This is useful for faster working."
 msgstr ""
+"勾选此项，则上述快捷键弹出的浮动界面被在被单击后关闭，而不是在鼠标移开时关"
+"闭。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:99
+#: ../../reference_manual/dockers/advanced_color_selector.rst:104
 msgid "Shade selector"
 msgstr "光影拾色器"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:101
+#: ../../reference_manual/dockers/advanced_color_selector.rst:106
 msgid ""
 "Shade selector options. The shade selectors are useful to decide upon new "
 "shades of color."
-msgstr ""
+msgstr "光影拾色器选项页面。光影拾色器在你需要选取光影色时非常方便。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:105
+#: ../../reference_manual/dockers/advanced_color_selector.rst:110
 msgid "Update Selector"
 msgstr "拾色器颜色更新条件"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:107
-msgid "This allows you to determine when the shade selector updates."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:110
-msgid "MyPaint Shade Selector"
-msgstr "显示 MyPaint 光影拾色器"
-
 #: ../../reference_manual/dockers/advanced_color_selector.rst:112
+msgid "This allows you to determine when the shade selector updates."
+msgstr "此选项控制光影选择器在何时更新颜色。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:115
+msgid "MyPaint Shade Selector"
+msgstr "MyPaint 光影拾色器"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:117
 msgid ""
 "Ported from MyPaint, and extended with all color models. Default hotkey is :"
 "kbd:`Shift+ M`"
 msgstr ""
+"此功能移植自 MyPaint，并扩展至能够支持所有色彩模型。它的默认快捷键是 :kbd:"
+"`Shift+ M` 。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:116
+#: ../../reference_manual/dockers/advanced_color_selector.rst:121
 msgid "Simple Shade Selector"
 msgstr "简单光影拾色器"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:118
+#: ../../reference_manual/dockers/advanced_color_selector.rst:123
 msgid "This allows you to configure the simple shade selector in detail."
-msgstr ""
+msgstr "选中简单光影拾色器后，对话框中间会显示更多选项以供定制。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:121
+#: ../../reference_manual/dockers/advanced_color_selector.rst:126
 msgid "Color Patches"
 msgstr "色块"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:123
+#: ../../reference_manual/dockers/advanced_color_selector.rst:128
 msgid "This sets the options of the color patches."
-msgstr ""
+msgstr "色块的有关选项控制的色块的显示方式。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:125
+#: ../../reference_manual/dockers/advanced_color_selector.rst:130
 msgid ""
 "Both Color History and Colors From the Image have similar options which will "
 "be explained below."
-msgstr ""
+msgstr "“颜色历史”和“图像颜色显示”两个选项页面的内容相似，我们会在下面介绍。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:127
+#: ../../reference_manual/dockers/advanced_color_selector.rst:132
 msgid "Show"
 msgstr "显示"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:128
+#: ../../reference_manual/dockers/advanced_color_selector.rst:133
 msgid ""
 "This is a radio button to show or hide the section. It also determines "
 "whether or not the colors are visible with the advanced color selector "
 "docker."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:129
-msgid "Size"
-msgstr "尺寸"
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:130
-msgid "The size of the color boxes can be set here."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:131
-msgid "Patch Count"
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:132
-msgid "The number of patches to display."
-msgstr ""
-
-#: ../../reference_manual/dockers/advanced_color_selector.rst:133
-msgid "Direction"
-msgstr "方向"
+msgstr "上述两个页面顶部都有一个选框，控制是否在拾色器面板上显示相关颜色。"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:134
-msgid "The direction of the patches, Horizontal or Vertical."
-msgstr ""
+msgid "Size"
+msgstr "高度和宽度"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:135
-msgid "Allow Scrolling"
-msgstr ""
+msgid "The size of the color boxes can be set here."
+msgstr "通过高度和宽度来控制色块大小。"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:136
+msgid "Patch Count"
+msgstr "色块上限"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:137
+msgid "The number of patches to display."
+msgstr "显示的色块数量。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:138
+msgid "Direction"
+msgstr "布局"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:139
+msgid "The direction of the patches, Horizontal or Vertical."
+msgstr "控制色块的排列方式是水平还是垂直。"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+msgid "Allow Scrolling"
+msgstr "允许滚动"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:141
 msgid ""
 "Whether to allow scrolling in the section or not when there are too many "
 "patches."
-msgstr ""
+msgstr "此选项控制在相关色块太多时是否允许滚动。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:137
+#: ../../reference_manual/dockers/advanced_color_selector.rst:142
 msgid "Number of Columns/Rows"
-msgstr ""
+msgstr "行数和列数"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:138
+#: ../../reference_manual/dockers/advanced_color_selector.rst:143
 msgid "The number of Columns or Rows to show in the section."
-msgstr ""
+msgstr "显示相关色块的行数和列数。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+#: ../../reference_manual/dockers/advanced_color_selector.rst:145
 msgid "Update After Every Stroke"
-msgstr ""
+msgstr "每画一笔立即更新"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+#: ../../reference_manual/dockers/advanced_color_selector.rst:145
 msgid ""
 "This is only available for Colors From the Image and tells the docker "
 "whether to update the section after every stroke or not, as after each "
 "stroke the colors will change in the image."
 msgstr ""
+"此选项只在“图像颜色显示”页面可用。勾选后，拾色器面板会在每画一笔后立即更新颜"
+"色，因为每画一笔之后图像的颜色肯定会发生改变。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:143
+#: ../../reference_manual/dockers/advanced_color_selector.rst:148
 msgid "History patches"
-msgstr "历史颜色色块"
+msgstr "颜色历史色块"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:145
+#: ../../reference_manual/dockers/advanced_color_selector.rst:150
 msgid ""
 "The history patches remember which colors you've drawn on canvas with. They "
 "can be quickly called with :kbd:`H`"
 msgstr ""
+"颜色历史色块会记忆你在画布上画过的每一种颜色，它在画布上可以通过 :kbd:`H` 快"
+"捷键调用。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:148
+#: ../../reference_manual/dockers/advanced_color_selector.rst:153
 msgid "Common Patches"
 msgstr "常见颜色色块"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:150
+#: ../../reference_manual/dockers/advanced_color_selector.rst:155
 msgid ""
 "The common patches are generated from the image, and are the most common "
 "color in the image. The hotkey for them on canvas is :kbd:`U`."
 msgstr ""
+"常见颜色色块会显示画布上最常见的颜色，它在画布上可以通过 :kbd:`U` 快捷键调"
+"用。"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:153
-msgid "External Info"
+#: ../../reference_manual/dockers/advanced_color_selector.rst:158
+msgid "Gamut masking"
 msgstr ""
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:155
+#: ../../reference_manual/dockers/advanced_color_selector.rst:164
+msgid ""
+"Gamut masking is available only when the selector shape is set to wheel."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:166
+msgid ""
+"You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:168
+msgid ""
+"In the gamut masking toolbar at the top of the selector you can toggle the "
+"selected mask off and on (left button). You can also rotate the mask with "
+"the rotation slider (right)."
+msgstr ""
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:173
+msgid "External Info"
+msgstr "外部资料"
+
+#: ../../reference_manual/dockers/advanced_color_selector.rst:175
 msgid ""
 "`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?"
 "p=726>`_"
-msgstr ""
+msgstr "`Krita高级拾色器的 HSI 和 HSY 模式 <http://wolthera.info/?p=726>`_"

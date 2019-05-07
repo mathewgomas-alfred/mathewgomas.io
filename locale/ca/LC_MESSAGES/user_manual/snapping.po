@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-10 03:45+0200\n"
-"PO-Revision-Date: 2019-04-19 19:03+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 17:08+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,11 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../user_manual/snapping.rst:1
 msgid "How to use the snapping functionality in Krita."
 msgstr "Com utilitzar la funcionalitat d'ajust en el Krita."
+
+#: ../../user_manual/snapping.rst:10 ../../user_manual/snapping.rst:43
+msgid "Guides"
+msgstr "Guies"
+
+#: ../../user_manual/snapping.rst:10
+msgid "Snap"
+msgstr "Ajustar"
+
+#: ../../user_manual/snapping.rst:10
+msgid "Vector"
+msgstr "Vectors"
 
 #: ../../user_manual/snapping.rst:15
 msgid "Snapping"
@@ -78,6 +90,18 @@ msgid "Grids"
 msgstr "Quadrícules"
 
 #: ../../user_manual/snapping.rst:37
+msgid "Pixel"
+msgstr "Píxel"
+
+#: ../../user_manual/snapping.rst:37
+msgid ""
+"This allows to snap to every pixel under the cursor. Similar to Grid "
+"Snapping but with a grid having spacing = 1px and offset = 0px."
+msgstr ""
+"Això permet ajustar a cada píxel sota el cursor. Similar a Ajusta a la "
+"quadrícula però amb una quadrícula amb Espaiat = 1px i Desplaçament = 0px."
+
+#: ../../user_manual/snapping.rst:40
 msgid ""
 "This allows you to snap to guides, which can be dragged out from the ruler. "
 "Guides do not need to be visible for this, and are saved per document. This "
@@ -89,15 +113,11 @@ msgstr ""
 "document. Això és útil per a vinyetes i disposicions d'impressió similars "
 "per a còmics, encara que recomanem Scribus per a un treball més intensiu."
 
-#: ../../user_manual/snapping.rst:40
-msgid "Guides"
-msgstr "Guies"
+#: ../../user_manual/snapping.rst:46
+msgid ".. image:: images/snapping/Snap-orthogonal.png"
+msgstr ".. image:: images/snapping/Snap-orthogonal.png"
 
-#: ../../user_manual/snapping.rst:43
-msgid ".. image:: images/en/Snap-orthogonal.png"
-msgstr ".. image:: images/en/Snap-orthogonal.png"
-
-#: ../../user_manual/snapping.rst:45
+#: ../../user_manual/snapping.rst:48
 msgid ""
 "This allows you to snap to a horizontal or vertical line from existing "
 "vector objects’s nodes (Unless dealing with resizing the height or width "
@@ -110,27 +130,27 @@ msgstr ""
 "traç). Això és útil per alinear els objectes en horitzontal o vertical, com "
 "amb les vinyetes dels còmics."
 
-#: ../../user_manual/snapping.rst:49
+#: ../../user_manual/snapping.rst:52
 msgid "Orthogonal (Vector Only)"
 msgstr "Ortogonal (només vectors)"
 
-#: ../../user_manual/snapping.rst:52
-msgid ".. image:: images/en/Snap-node.png"
-msgstr ".. image:: images/en/Snap-node.png"
+#: ../../user_manual/snapping.rst:55
+msgid ".. image:: images/snapping/Snap-node.png"
+msgstr ".. image:: images/snapping/Snap-node.png"
 
-#: ../../user_manual/snapping.rst:54
+#: ../../user_manual/snapping.rst:57
 msgid "Node (Vector Only)"
 msgstr "Node (només vectors)"
 
-#: ../../user_manual/snapping.rst:54
+#: ../../user_manual/snapping.rst:57
 msgid "This snaps a vector node or an object to the nodes of another path."
 msgstr "Això ajusta un node o objecte vectorial amb els nodes d'un altra traç."
 
-#: ../../user_manual/snapping.rst:57
-msgid ".. image:: images/en/Snap-extension.png"
-msgstr ".. image:: images/en/Snap-extension.png"
+#: ../../user_manual/snapping.rst:60
+msgid ".. image:: images/snapping/Snap-extension.png"
+msgstr ".. image:: images/snapping/Snap-extension.png"
 
-#: ../../user_manual/snapping.rst:59
+#: ../../user_manual/snapping.rst:62
 msgid ""
 "When we draw an open path, the last nodes on either side can be "
 "mathematically extended. This option allows you to snap to that. The "
@@ -140,96 +160,96 @@ msgstr ""
 "estendre matemàticament. Aquesta opció permet ajustar-ho. La direcció del "
 "node dependrà de les seves nanses laterals en el mode edició del traç."
 
-#: ../../user_manual/snapping.rst:62
+#: ../../user_manual/snapping.rst:65
 msgid "Extension (Vector Only)"
 msgstr "Extensió (només vectors)"
 
-#: ../../user_manual/snapping.rst:65
-msgid ".. image:: images/en/Snap-intersection.png"
-msgstr ".. image:: images/en/Snap-intersection.png"
+#: ../../user_manual/snapping.rst:68
+msgid ".. image:: images/snapping/Snap-intersection.png"
+msgstr ".. image:: images/snapping/Snap-intersection.png"
 
-#: ../../user_manual/snapping.rst:66
+#: ../../user_manual/snapping.rst:69
 msgid "Intersection (Vector Only)"
 msgstr "Intersecció (només vectors)"
 
-#: ../../user_manual/snapping.rst:67
+#: ../../user_manual/snapping.rst:70
 msgid "This allows you to snap to an intersection of two vectors."
 msgstr "Això permet ajustar amb una intersecció de dos vectors."
 
-#: ../../user_manual/snapping.rst:68
+#: ../../user_manual/snapping.rst:71
 msgid "Bounding box (Vector Only)"
 msgstr "Contenidors (només vectors)"
 
-#: ../../user_manual/snapping.rst:69
+#: ../../user_manual/snapping.rst:72
 msgid "This allows you to snap to the bounding box of a vector shape."
 msgstr "Això permet ajustar amb el contenidor d'una forma vectorial."
 
-#: ../../user_manual/snapping.rst:71
+#: ../../user_manual/snapping.rst:74
 msgid "Image bounds"
 msgstr "Límits de la imatge"
 
-#: ../../user_manual/snapping.rst:71
+#: ../../user_manual/snapping.rst:74
 msgid "Allows you to snap to the vertical and horizontal borders of an image."
 msgstr ""
 "Això permet ajustar amb les vores verticals i horitzontals d'una imatge."
 
-#: ../../user_manual/snapping.rst:74
+#: ../../user_manual/snapping.rst:77
 msgid "Allows you to snap to the horizontal and vertical center of an image."
 msgstr "Això permet ajustar amb el centre vertical i horitzontal d'una imatge."
 
-#: ../../user_manual/snapping.rst:75
+#: ../../user_manual/snapping.rst:78
 msgid "Image center"
 msgstr "Centre de la imatge"
 
-#: ../../user_manual/snapping.rst:77
+#: ../../user_manual/snapping.rst:80
 msgid "The snap works for the following tools:"
 msgstr "L'ajustament funciona per a les següents eines:"
 
-#: ../../user_manual/snapping.rst:79
+#: ../../user_manual/snapping.rst:82
 msgid "Straight line"
 msgstr "Línia recta"
 
-#: ../../user_manual/snapping.rst:80
+#: ../../user_manual/snapping.rst:83
 msgid "Rectangle"
 msgstr "Rectangle"
 
-#: ../../user_manual/snapping.rst:81
+#: ../../user_manual/snapping.rst:84
 msgid "Ellipse"
 msgstr "El·lipse"
 
-#: ../../user_manual/snapping.rst:82
+#: ../../user_manual/snapping.rst:85
 msgid "Polyline"
 msgstr "Polilínia"
 
-#: ../../user_manual/snapping.rst:83
+#: ../../user_manual/snapping.rst:86
 msgid "Path"
 msgstr "Traç"
 
-#: ../../user_manual/snapping.rst:84
+#: ../../user_manual/snapping.rst:87
 msgid "Freehand path"
 msgstr "Traç a mà alçada"
 
-#: ../../user_manual/snapping.rst:85
+#: ../../user_manual/snapping.rst:88
 msgid "Polygon"
 msgstr "Polígon"
 
-#: ../../user_manual/snapping.rst:86
+#: ../../user_manual/snapping.rst:89
 msgid "Gradient"
 msgstr "Degradat"
 
-#: ../../user_manual/snapping.rst:87
+#: ../../user_manual/snapping.rst:90
 msgid "Shape Handling tool"
 msgstr "Eina per al maneig de les formes"
 
-#: ../../user_manual/snapping.rst:88
+#: ../../user_manual/snapping.rst:91
 msgid "The Text-tool"
 msgstr "L'eina de text"
 
-#: ../../user_manual/snapping.rst:89
+#: ../../user_manual/snapping.rst:92
 msgid "Assistant editing tools"
 msgstr "Eines per als assistents d'edició"
 
-#: ../../user_manual/snapping.rst:90
+#: ../../user_manual/snapping.rst:93
 msgid ""
 "The move tool (note that it snaps to the cursor position and not the "
 "bounding box of the layer, selection or whatever you are trying to move)"
@@ -237,31 +257,31 @@ msgstr ""
 "L'eina de moure (tingueu en compte que s'ajusta amb la posició del cursor i "
 "no amb el contenidor de la capa, selecció o el que intenteu moure)"
 
-#: ../../user_manual/snapping.rst:93
+#: ../../user_manual/snapping.rst:96
 msgid "The Transform tool"
 msgstr "L'eina de transformació"
 
-#: ../../user_manual/snapping.rst:94
+#: ../../user_manual/snapping.rst:97
 msgid "Rectangle select"
 msgstr "Selecció de rectangle"
 
-#: ../../user_manual/snapping.rst:95
+#: ../../user_manual/snapping.rst:98
 msgid "Elliptical select"
 msgstr "Selecció el·líptica"
 
-#: ../../user_manual/snapping.rst:96
+#: ../../user_manual/snapping.rst:99
 msgid "Polygonal select"
 msgstr "Selecció poligonal"
 
-#: ../../user_manual/snapping.rst:97
+#: ../../user_manual/snapping.rst:100
 msgid "Path select"
 msgstr "Selecció del traç"
 
-#: ../../user_manual/snapping.rst:98
+#: ../../user_manual/snapping.rst:101
 msgid "Guides themselves can be snapped to grids and vectors"
 msgstr "Les pròpies guies es poden ajustar amb les quadrícules i vectors"
 
-#: ../../user_manual/snapping.rst:100
+#: ../../user_manual/snapping.rst:103
 msgid ""
 "Snapping doesn’t have a sensitivity yet, and by default is set to 10 screen "
 "pixels."

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-24 03:29+0100\n"
-"PO-Revision-Date: 2019-03-17 19:40+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 11:30+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,23 @@ msgstr ""
 
 #: ../../reference_manual/tools/color_selector.rst:1
 msgid "Krita's color selector tool reference."
-msgstr ""
+msgstr "Referens för Kritas färgväljarverktyg."
+
+#: ../../reference_manual/tools/color_selector.rst:12
+msgid "Tools"
+msgstr "Verktyg"
+
+#: ../../reference_manual/tools/color_selector.rst:12
+msgid "Colors"
+msgstr "Färger"
+
+#: ../../reference_manual/tools/color_selector.rst:12
+msgid "Eyedropper"
+msgstr "Pipett"
+
+#: ../../reference_manual/tools/color_selector.rst:12
+msgid "Color Selector"
+msgstr "Färgväljare"
 
 #: ../../reference_manual/tools/color_selector.rst:17
 msgid "Color Selector Tool"
@@ -32,16 +48,21 @@ msgid ""
 "selected the Color Picker tool can also be quickly accessed by pressing :kbd:"
 "`Ctrl`."
 msgstr ""
+"Verktyget gör det möjligt att välja en punkt på duken och göra punktens färg "
+"den aktiva förgrundsfärgen. När ett målar- eller ritverktyg väljes, kan "
+"färgväljarverktyget snabbt kommas åt genom att trycka på :kbd:`Ctrl`."
 
 #: ../../reference_manual/tools/color_selector.rst:23
-msgid ".. image:: images/en/Color_Dropper_Tool_Options.png"
-msgstr ".. image:: images/en/Color_Dropper_Tool_Options.png"
+msgid ".. image:: images/tools/Color_Dropper_Tool_Options.png"
+msgstr ".. image:: images/tools/Color_Dropper_Tool_Options.png"
 
 #: ../../reference_manual/tools/color_selector.rst:24
 msgid ""
 "There are several options shown in the :guilabel:`Tool Options` docker when "
 "the :guilabel:`Color Picker` tool is active:"
 msgstr ""
+"Det finns flera alternativ som visas i panelen :guilabel:"
+"`Verktygsalternativ` när verktyget :guilabel:`Färgväljare` är aktivt:"
 
 #: ../../reference_manual/tools/color_selector.rst:26
 msgid ""
@@ -50,6 +71,10 @@ msgid ""
 "selection update the current foreground color, to be added into a color "
 "palette, or to do both."
 msgstr ""
+"Den första kombinationsrutan gör att man kan välja om samplingen ska göras "
+"från alla synliga lager eller bara det aktiva lagret. Det går att välja att "
+"markeringen uppdaterar aktuell förgrundsfärg, läggs till i en färgpalett, "
+"eller gör bådadera."
 
 #: ../../reference_manual/tools/color_selector.rst:30
 msgid ""
@@ -61,6 +86,13 @@ msgid ""
 "information about how the Color Picker's blend option can be used as a tool "
 "for off-canvas color mixing."
 msgstr ""
+"Sektionen i mitten innehåller några egenskaper som ändrar hur färgväljaren "
+"hämtar färg. Man kan ange en :guilabel:`Radie`, som medelvärdesbildar "
+"färgerna i området omkring markören, och man kan nu också ange procentvärdet "
+"guilabel:`Blandning`, som bestämmer hur mycket färg som \"sugs upp\" och "
+"blandas med aktuell färg. Läs :ref:`mixing_colors` för information om hur "
+"färgväljarens blandningsalternativ kan användas som verktyg för "
+"färgblandning utanför duken."
 
 #: ../../reference_manual/tools/color_selector.rst:32
 msgid ""
@@ -68,3 +100,6 @@ msgid ""
 "your most recently picked color. Color data can be shown as 8-bit numbers or "
 "percentages."
 msgstr ""
+"Allra längst ner finns informationsrutan, som visar information per kanal om "
+"den senast hämtade färgen. Färginformation kan visas som 8-bitars tal eller "
+"procentvärden."

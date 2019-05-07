@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_reference_manual___tools___rectangular_select\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-06 03:37+0100\n"
-"PO-Revision-Date: 2019-03-10 20:40+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-04 16:55+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -29,6 +29,14 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 
+#: ../../<rst_epilog>:4
+msgid ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+msgstr ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: mouseright"
+
 #: ../../<rst_epilog>:66
 msgid ""
 ".. image:: images/icons/rectangular_select_tool.svg\n"
@@ -40,6 +48,22 @@ msgstr ""
 #: ../../reference_manual/tools/rectangular_select.rst:1
 msgid "Krita's rectangular selection tool reference."
 msgstr "Довідник із інструмента прямокутного позначення Krita"
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Tools"
+msgstr "Інструменти"
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Selection"
+msgstr "Позначення"
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Rectangle"
+msgstr "Прямокутник"
+
+#: ../../reference_manual/tools/rectangular_select.rst:11
+msgid "Rectangular Selection"
+msgstr "Прямокутний вибір"
 
 #: ../../reference_manual/tools/rectangular_select.rst:16
 msgid "Rectangular Selection Tool"
@@ -142,6 +166,20 @@ msgstr ""
 "«перетин»."
 
 #: ../../reference_manual/tools/rectangular_select.rst:39
+msgid "Hovering over a selection allows you to move it."
+msgstr ""
+"Наведення вказівника на позначену ділянку надасть вам змогу пересунути її."
+
+#: ../../reference_manual/tools/rectangular_select.rst:40
+msgid ""
+"|mouseright| will open up a selection quick menu with amongst others the "
+"ability to edit the selection."
+msgstr ""
+"Клацання |mouseright| відкриває меню швидкого доступу для позначеної "
+"ділянки, у якому, серед інших пунктів, є і пункт редагування позначеної "
+"ділянки."
+
+#: ../../reference_manual/tools/rectangular_select.rst:44
 msgid ""
 "So to subtract a perfect square, you do :kbd:`Alt +` |mouseleft|, then "
 "release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to "
@@ -152,7 +190,7 @@ msgstr ""
 "під час перетягування вказівника і натиснути клавішу :kbd:`Shift` для "
 "встановлення режиму."
 
-#: ../../reference_manual/tools/rectangular_select.rst:44
+#: ../../reference_manual/tools/rectangular_select.rst:49
 msgid ""
 "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 "instead by toggling the switch in the :ref:`general_settings`"
@@ -161,15 +199,15 @@ msgstr ""
 "так, щоб натискати замість цієї клавіші клавішу :kbd:`Ctrl`. Для цього "
 "призначено спеціальний пункт на сторінці :ref:`general_settings`."
 
-#: ../../reference_manual/tools/rectangular_select.rst:47
+#: ../../reference_manual/tools/rectangular_select.rst:52
 msgid "Tool Options"
 msgstr "Параметри інструмента"
 
-#: ../../reference_manual/tools/rectangular_select.rst:49
+#: ../../reference_manual/tools/rectangular_select.rst:54
 msgid "Anti-aliasing"
 msgstr "Згладжування"
 
-#: ../../reference_manual/tools/rectangular_select.rst:50
+#: ../../reference_manual/tools/rectangular_select.rst:55
 msgid ""
 "This toggles whether or not to give selections feathered edges. Some people "
 "prefer hard-jagged edges for their selections."
@@ -177,11 +215,11 @@ msgstr ""
 "Цей пункт визначає, чи буде програма згладжувати межі позначеної ділянки. "
 "Дехто надає перевагу різким межам позначених ділянок."
 
-#: ../../reference_manual/tools/rectangular_select.rst:51
+#: ../../reference_manual/tools/rectangular_select.rst:56
 msgid "Width"
 msgstr "Ширина"
 
-#: ../../reference_manual/tools/rectangular_select.rst:52
+#: ../../reference_manual/tools/rectangular_select.rst:57
 msgid ""
 "Gives the current width. Use the lock to force the next selection made to "
 "this width."
@@ -189,11 +227,11 @@ msgstr ""
 "Задає поточну ширину. Скористайтеся кнопкою із замочком, щоб примусово "
 "задати для наступного позначення цю ширину."
 
-#: ../../reference_manual/tools/rectangular_select.rst:53
+#: ../../reference_manual/tools/rectangular_select.rst:58
 msgid "Height"
 msgstr "Висота"
 
-#: ../../reference_manual/tools/rectangular_select.rst:54
+#: ../../reference_manual/tools/rectangular_select.rst:59
 msgid ""
 "Gives the current height. Use the lock to force the next selection made to "
 "this height."
@@ -201,11 +239,11 @@ msgstr ""
 "Задає поточну висоту. Скористайтеся кнопкою із замочком, щоб примусово "
 "задати для наступного позначення цю висоту."
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid "Ratio"
 msgstr "Пропорція"
 
-#: ../../reference_manual/tools/rectangular_select.rst:56
+#: ../../reference_manual/tools/rectangular_select.rst:61
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
@@ -213,18 +251,18 @@ msgstr ""
 "Задає поточне співвідношення розмірів. Скористайтеся кнопкою із замочком, "
 "щоб примусово задати для наступного позначення це співвідношення розміру."
 
-#: ../../reference_manual/tools/rectangular_select.rst:60
+#: ../../reference_manual/tools/rectangular_select.rst:65
 msgid "Round X"
 msgstr "Округлення за X"
 
-#: ../../reference_manual/tools/rectangular_select.rst:61
+#: ../../reference_manual/tools/rectangular_select.rst:66
 msgid "The horizontal radius of the rectangle corners."
 msgstr "Горизонтальна напіввісь для згладжування кутів прямокутника."
 
-#: ../../reference_manual/tools/rectangular_select.rst:62
+#: ../../reference_manual/tools/rectangular_select.rst:67
 msgid "Round Y"
 msgstr "Округлення за Y"
 
-#: ../../reference_manual/tools/rectangular_select.rst:63
+#: ../../reference_manual/tools/rectangular_select.rst:68
 msgid "The vertical radius of the rectangle corners."
 msgstr "Вертикальна напіввісь для згладжування кутів прямокутника."

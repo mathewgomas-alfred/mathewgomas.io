@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-16 03:38+0200\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-18 12:16+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -27,9 +27,33 @@ msgstr ""
 msgid "Scene Linear painting in Krita"
 msgstr "Pintura de Cenas Lineares no Krita"
 
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
 #: ../../general_concepts/colors/scene_linear_painting.rst:15
 msgid "Scene Linear Painting"
 msgstr "Pintura de Cenas Lineares"
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
+#: ../../general_concepts/colors/scene_linear_painting.rst:81
+msgid "Color"
+msgstr "Cor"
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
+msgid "HDR"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
+msgid "High Dynamic Range"
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
+#, fuzzy
+#| msgid "Scene Linear Painting"
+msgid "Scene Linear"
+msgstr "Pintura de Cenas Lineares"
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:10
+msgid "Scene Referred"
+msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:17
 msgid ""
@@ -84,7 +108,14 @@ msgstr ""
 "use a rec 2020, desde que seja *linear* e que tenha uma *profundidade de "
 "cores de vírgula flutuante*."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:26
+#: ../../general_concepts/colors/scene_linear_painting.rst:28
+msgid ""
+"If you want to create images for display on an HDR canvas, you will need to "
+"select the rec 2020 space profile with a linear gamma. The default profile "
+"in Krita for that is :guilabel:`Rec2020-elle-V4-g10.icc`."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:30
 msgid ""
 "These two factors are for one reason: To make black and white arbitrary "
 "values. This might seem a bit weird. But when you are dealing with light-"
@@ -111,7 +142,7 @@ msgstr ""
 "ver muito mais quanto estão habituados ao escuro ou ao Sol; então porque não "
 "aplicar isso à forma como concebemos as nossas imagens?"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:28
+#: ../../general_concepts/colors/scene_linear_painting.rst:32
 msgid ""
 "This is also why it needs to be Linear. Gamma and Tone-mapped color spaces "
 "are already choosing which contrast is the most important to you. But for "
@@ -130,7 +161,7 @@ msgstr ""
 "de tons, mas só na fase final, depois de ter aplicado os filtros e misturado "
 "as cores!"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:30
+#: ../../general_concepts/colors/scene_linear_painting.rst:34
 msgid ""
 "In fact, there’s always a non-destructive sort of transform going on while "
 "you are working on your image which includes the tone-mapping. This is "
@@ -149,7 +180,7 @@ msgstr ""
 "O fornecimento desta transformação e a possibilidade de a configurar é a "
 "função principal da gestão de cores."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:32
+#: ../../general_concepts/colors/scene_linear_painting.rst:36
 msgid ""
 "Between different view and display transforms, there’s also a difference in "
 "types. Some are really naive, others are more sophisticated, and some need "
@@ -167,11 +198,13 @@ msgstr ""
 "facilmente configuráveis e outras opções personalizadas que poderão ser "
 "partilhadas entre programas."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:38
-msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
+#: ../../general_concepts/colors/scene_linear_painting.rst:42
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
+msgid ".. image:: images/color_category/Krita_scenelinear_cat_01.png"
 msgstr ".. image:: images/en/color_category/Krita_scenelinear_cat_01.png"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:38
+#: ../../general_concepts/colors/scene_linear_painting.rst:42
 msgid ""
 "Above, an example of the more naive transform provided by going from scene-"
 "linear sRGB to regular sRGB, and to the right a more sophisticated transform "
@@ -185,7 +218,7 @@ msgstr ""
 "Blender. Veja a diferença entre as patas. A imagem pertence a Wolthera van "
 "Hövell tot Westerflier, Licença: CC-BY-SA"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:40
+#: ../../general_concepts/colors/scene_linear_painting.rst:44
 msgid ""
 "Conversely, transforming and interpreting your image’s colors is the only "
 "thing OCIO can do, and it can do it with really complex transforms, really "
@@ -202,26 +235,26 @@ msgstr ""
 "Como tal, terá de mudar para um fluxo de trabalho do ICC se desejar preparar-"
 "se para a impressão."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:43
+#: ../../general_concepts/colors/scene_linear_painting.rst:47
 msgid "Yes, but what is the point?"
 msgstr "Sim, mas qual é a ideia?"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:45
+#: ../../general_concepts/colors/scene_linear_painting.rst:49
 msgid "The point is making things easier in the long run:"
 msgstr "A ideia é tornar as coisas mais simples a longo prazo:"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:47
+#: ../../general_concepts/colors/scene_linear_painting.rst:51
 msgid "It is easier to keep saturated non-muddy colors in a linear space."
 msgstr ""
 "É mais fácil manter as cores saturadas e não-lamacentas num espaço linear."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:48
+#: ../../general_concepts/colors/scene_linear_painting.rst:52
 msgid "The high bit depth makes it easier to get smoother color mixes."
 msgstr ""
 "A profundidade de cor elevada possibilita obter misturas de cores mais "
 "suaves."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:49
+#: ../../general_concepts/colors/scene_linear_painting.rst:53
 msgid ""
 "Filters are more powerful and give nicer results in this space. It is far "
 "more easy to get nice blurring and bokeh results."
@@ -229,7 +262,7 @@ msgstr ""
 "Os filtros são mais poderosos e geram resultados mais agradáveis neste "
 "espaço. É muito mais fácil obter borrões bonitos e resultados do Bokeh."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:50
+#: ../../general_concepts/colors/scene_linear_painting.rst:54
 msgid ""
 "Simple Blending Modes like Multiply or Addition are suddenly black magic. "
 "This is because Scene-Linear is the closest you can get to the physical (as "
@@ -242,7 +275,7 @@ msgstr ""
 "de cores umas pelas outras é uma forma das formas principais de calcular o "
 "efeito da luz."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:51
+#: ../../general_concepts/colors/scene_linear_painting.rst:55
 msgid ""
 "Combining painting with other image results such as photography and "
 "physically based rendering is much easier as they too work in such a type of "
@@ -255,7 +288,7 @@ msgstr ""
 "imagens como uma referência, com pequenos detalhes, ou criar texturas que "
 "lidem bem com um sistema de desenho como estes."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:53
+#: ../../general_concepts/colors/scene_linear_painting.rst:57
 msgid ""
 "So the advantages are prettier colors, cooler filter results, more control "
 "and easier interchange with other methods."
@@ -263,11 +296,11 @@ msgstr ""
 "Como tal, as vantagens são cores mais bonitas, resultados dos filtros mais "
 "agradáveis, mais controlo e intercâmbio mais fácil com outros métodos."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:56
+#: ../../general_concepts/colors/scene_linear_painting.rst:60
 msgid "Okay, but why isn’t this all the rage then?"
 msgstr "Ok, mas então porque é que isto não é o futuro?"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:58
+#: ../../general_concepts/colors/scene_linear_painting.rst:62
 msgid ""
 "Simply put, because while it’s easier in the long run, you will also have to "
 "drop tools and change habits..."
@@ -275,7 +308,7 @@ msgstr ""
 "De uma forma simples, porque embora seja mais fácil a longo prazo, também "
 "terá de deixar de usar determinadas ferramentas e mudar de hábitos..."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:60
+#: ../../general_concepts/colors/scene_linear_painting.rst:64
 msgid ""
 "In particular, there are many tools in a digital painter’s toolbox that have "
 "**hard-coded assumptions about black and white**."
@@ -283,7 +316,7 @@ msgstr ""
 "Em particular, existem demasiadas ferramentas que um pintor digital usa e "
 "que têm **presunções fixas sobre o que é o preto e o branco**."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:62
+#: ../../general_concepts/colors/scene_linear_painting.rst:66
 msgid ""
 "A very simple but massive problem is one with **inversion**. Inverting "
 "colors is done code-wise by taking the color for white and subtracting the "
@@ -302,11 +335,11 @@ msgstr ""
 "se também sobre os filtros e modos de mistura que a usam, como por exemplo "
 "(mas não só)..."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:64
+#: ../../general_concepts/colors/scene_linear_painting.rst:68
 msgid "Screen (invert+multiply+invert)"
 msgstr "Ecrã (inverter+multiplicar+inverter)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:65
+#: ../../general_concepts/colors/scene_linear_painting.rst:69
 msgid ""
 "Overlay (screens values below midtone-value, in sRGB this would be middle "
 "gray)"
@@ -314,29 +347,29 @@ msgstr ""
 "Sobreposição (ajusta os valores abaixo do valor médio; no sRGB, isso seria o "
 "cinzento médio)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:66
+#: ../../general_concepts/colors/scene_linear_painting.rst:70
 msgid "Color-dodge (divides the lower color with an inversion of the top one)"
 msgstr ""
 "Desvio de cores (divide a cor inferior por uma inversão da cor superior)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:67
+#: ../../general_concepts/colors/scene_linear_painting.rst:71
 msgid ""
 "Color-burn (inverts the lower color and then divides it by the top color)"
 msgstr ""
 "Queimadura de cores (inverte a cor inferior e depois divide-a pela cor do "
 "topo)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:68
+#: ../../general_concepts/colors/scene_linear_painting.rst:72
 msgid "Hardlight (A different way of doing overlay, including the inversion)"
 msgstr ""
 "Luz forte (Uma forma diferentes de fazer a sobreposição, incluindo a "
 "inversão)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:69
+#: ../../general_concepts/colors/scene_linear_painting.rst:73
 msgid "Softlight (Uses several inversions along the way)"
 msgstr "Luz suave (Usa diversas inversões ao longo do percurso)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:71
+#: ../../general_concepts/colors/scene_linear_painting.rst:75
 msgid ""
 "Conversely Multiply, Linear Dodge/Addition (they’re the same thing), "
 "Subtract, Divide, Darker (only compares colors’ channel values), Lighter "
@@ -348,7 +381,7 @@ msgstr ""
 "cores), o Aclaramento (igual) e a Diferença *são adequados para uso*, desde "
 "que o programa que usa não faça nenhum recorte estranho aí."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:73
+#: ../../general_concepts/colors/scene_linear_painting.rst:77
 msgid ""
 "Another one is HSL, HSI and HSY algorithms. They too need to assume "
 "something about the top value to allow scaling to white. HSV doesn’t have "
@@ -358,7 +391,7 @@ msgstr ""
 "algo sobre o valor do topo para permitir a escala para o branco. O HSV não "
 "tem esse problema. Por isso, é melhor usar um selector de cores HSV."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:75
+#: ../../general_concepts/colors/scene_linear_painting.rst:79
 msgid ""
 "For the blending modes that use HSY, there’s always the issue that they tend "
 "to be hardcoded to sRGB/Rec709 values, but are otherwise fine (and they give "
@@ -375,27 +408,23 @@ msgstr ""
 "são inadequados para pinturas de cenas lineares. Os seguintes modos de "
 "mistura usam-nos:"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:77
-msgid "Color"
-msgstr "Cor"
-
-#: ../../general_concepts/colors/scene_linear_painting.rst:78
+#: ../../general_concepts/colors/scene_linear_painting.rst:82
 msgid "Luminosity"
 msgstr "Luminosidade"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:79
+#: ../../general_concepts/colors/scene_linear_painting.rst:83
 msgid "Saturation"
 msgstr "Saturação"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:80
+#: ../../general_concepts/colors/scene_linear_painting.rst:84
 msgid "Darker Color (uses luminosity to determine the color)"
 msgstr "Cor Mais Escura (usa a luminosidade para determinar a cor)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:81
+#: ../../general_concepts/colors/scene_linear_painting.rst:85
 msgid "Lighter Color (Ditto)"
 msgstr "Cor Mais Clara (é igual)"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:83
+#: ../../general_concepts/colors/scene_linear_painting.rst:87
 msgid ""
 "So that is the blending modes. Many filters suffer from similar issues, and "
 "in many applications, filters aren’t adjusted to work with arbitrary whites."
@@ -404,7 +433,7 @@ msgstr ""
 "semelhantes e, em algumas aplicações, os filtros não estão ajustados para "
 "funcionar com brancos arbitrários."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:85
+#: ../../general_concepts/colors/scene_linear_painting.rst:89
 msgid ""
 "Speaking of filters, when using the transform tool, you should also avoid "
 "using lanczos3, it’ll give a weird black halo to sharp contrasts in scene-"
@@ -415,12 +444,12 @@ msgstr ""
 "contrastes fortes nas cenas lineares. O filtro de interpolação bi-linear irá "
 "funcionar perfeitamente neste caso."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:87
+#: ../../general_concepts/colors/scene_linear_painting.rst:91
 msgid "The second big problem is that **black doesn’t work quite the same**."
 msgstr ""
 "O segundo grande problema é que o **preto não parece ficar sempre igual**."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:89
+#: ../../general_concepts/colors/scene_linear_painting.rst:93
 msgid ""
 "If you have mixed pigments before, you will know that black can quite easily "
 "overpower the other colors, so you should only add the tiniest amount of it "
@@ -431,7 +460,7 @@ msgstr ""
 "mínimos a uma mistura. Em contraste, o branco fica sujo com grande "
 "facilidade."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:91
+#: ../../general_concepts/colors/scene_linear_painting.rst:95
 msgid ""
 "In a Scene Linear Color space, this is flipped. White is now more "
 "overpowering and black gets washed out super quickly. This relates to the "
@@ -443,7 +472,7 @@ msgstr ""
 "relaciona-se com a natureza aditiva da teoria da cor digital, a qual se "
 "torna mais óbvia quando se estiver a trabalhar em espaços lineares."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:93
+#: ../../general_concepts/colors/scene_linear_painting.rst:97
 msgid ""
 "This makes sketching a bit different, after all, it’s really difficult to "
 "make marks now. To get around this, you can do the following:"
@@ -451,7 +480,7 @@ msgstr ""
 "Isto torna os rascunhos um pouco diferentes; afinal de tudo, fica realmente "
 "difícil criar marcas agora. Para dar a volta a isto, poderá fazer o seguinte:"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:95
+#: ../../general_concepts/colors/scene_linear_painting.rst:99
 msgid ""
 "Sketch on a mid-gray background. This is recommended anyway, as it serves as "
 "a neutral backdrop. For a linear space, 18% or 22% gray would be a good "
@@ -461,7 +490,7 @@ msgstr ""
 "qualquer das formas, já que serve de cenário neutro. Para um espaço linear, "
 "um cinzento de 18% ou 22% será um bom tom neutro."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:96
+#: ../../general_concepts/colors/scene_linear_painting.rst:100
 msgid ""
 "Make a special brush that is more opaque than the regular sketching brushes "
 "you use."
@@ -469,11 +498,11 @@ msgstr ""
 "Crie um pincel especial que seja mais opaco que os pincéis de rascunhos "
 "normais que usam."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:97
+#: ../../general_concepts/colors/scene_linear_painting.rst:101
 msgid "Or conversely, sketch with white instead."
 msgstr "Ou de forma inversa, faça os rascunhos a branco."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:98
+#: ../../general_concepts/colors/scene_linear_painting.rst:102
 msgid ""
 "For painting, block out the shapes with a big opaque brush before you start "
 "doing your mixing."
@@ -481,7 +510,7 @@ msgstr ""
 "Para a pintura, bloqueie as formas com um pincel grande e opaco antes de "
 "começar a fazer as suas misturas."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:100
+#: ../../general_concepts/colors/scene_linear_painting.rst:104
 msgid ""
 "Overall, this is something that will take a little while getting used to, "
 "but you will get used to it soon enough."
@@ -489,11 +518,11 @@ msgstr ""
 "De um modo global, isto é algo que poderá levar algum tempo a habituar-se, "
 "mas que acontecera em breve o suficiente."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:102
+#: ../../general_concepts/colors/scene_linear_painting.rst:106
 msgid "Finally, there’s the **issue of size**."
 msgstr "Finalmente, existe a **questão do tamanho**."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:104
+#: ../../general_concepts/colors/scene_linear_painting.rst:108
 msgid ""
 "16 bit float per channel images are big. 32 bit float per channel images are "
 "bigger. This means that they will eat RAM and that painting and filtering "
@@ -506,16 +535,16 @@ msgstr ""
 "ao longo dos tempos, mas nem todas as pessoas têm um PC topo-de-gama ainda, "
 "pelo que poderá ser algo bloqueante."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:106
+#: ../../general_concepts/colors/scene_linear_painting.rst:110
 msgid "So the issues are tools, expectations and size."
 msgstr ""
 "Como tal, os problemas são as ferramentas, as expectativas e o tamanho."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:109
+#: ../../general_concepts/colors/scene_linear_painting.rst:113
 msgid "In Summary"
 msgstr "Em Resumo"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:111
+#: ../../general_concepts/colors/scene_linear_painting.rst:115
 msgid ""
 "Scene Linear Painting is painting an image in a color space that is linear "
 "and has a floating point bit depth. This does not assume anything about the "
@@ -532,7 +561,7 @@ msgstr ""
 "agradáveis, assim como uma melhor interoperabilidade com outros resultados "
 "de cenas lineares."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:113
+#: ../../general_concepts/colors/scene_linear_painting.rst:117
 msgid ""
 "To be able to view such an image you use a view transform, also called a "
 "display conversion. Which means that if you wish to finalize your image for "
@@ -545,11 +574,11 @@ msgstr ""
 "que passe por uma conversão da visualização ou transformação da janela, a "
 "qual poderá ser gravada em PNG, JPEG ou TIFF."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:116
+#: ../../general_concepts/colors/scene_linear_painting.rst:120
 msgid "Getting to actual painting"
 msgstr "Passar à pintura em si"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:118
+#: ../../general_concepts/colors/scene_linear_painting.rst:122
 msgid ""
 "Now we’ve covered the theory, let us look at a workflow for painting scene "
 "linear."
@@ -557,41 +586,27 @@ msgstr ""
 "Agora que cobrimos a teoria, vejamos um fluxo de trabalho para as pinturas "
 "de cenas lineares."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:121
+#: ../../general_concepts/colors/scene_linear_painting.rst:125
 msgid "Setting up the Canvas"
 msgstr "Configurar a Área de Desenho"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:123
-msgid ""
-"Select either a 16bit or 32bit image. By default Krita will select a linear "
-"sRGB profile. This is fine."
-msgstr ""
-"Seleccione então uma imagem de 16 bits ou 32 bits. Por omissão, o Krita irá "
-"seleccionar um perfil sRGB linear. Isto é aceitável."
-
-#: ../../general_concepts/colors/scene_linear_painting.rst:125
-msgid ""
-"Then, download an OCIO config. I will use `Filmic Blender <https://sobotka."
-"github.io/filmic-blender/>`_ here because it is quite simple to set up. "
-"Extract the downloaded zip somewhere you can find it back. Open the LUT "
-"docker, turn on OCIO, select ‘OCIO’ and set the path to the downloaded OCIO "
-"config."
-msgstr ""
-"Depois, transfira uma configuração do OCIO. Será usada aqui a `Filmic "
-"Blender <https://sobotka.github.io/filmic-blender/>`_, porque é bastante "
-"simples de configurar. Extraia o pacote ZIP transferido para um sítio que "
-"recorde mais tarde. Abra a área da LUT, active o OCIO, seleccione ‘OCIO’ e "
-"configure a localização da configuração do OCIO transferida."
-
 #: ../../general_concepts/colors/scene_linear_painting.rst:127
 msgid ""
-"Set the view to ‘Filmic log encoding’ and the look to ‘Base Contrast’. And "
-"now you can start painting!"
+"Select either a 16bit or 32bit image. By default Krita will select a linear "
+"sRGB profile. If you want to create images for HDR display, you will need to "
+"make sure that the profile selected is the :guilabel:`Rec2020-elle-V4-g10."
+"icc` profile. HDR images are standardised to use the rec 2020 gamut, which "
+"is much larger than sRGB in size, so this ensures you've got access to all "
+"the colors."
 msgstr ""
-"Configure a janela como ‘Codificação de fillme’ e a aparência como "
-"‘Contraste Básico’. E agora já poderá começar a pintar!"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:129
+msgid ""
+"If you're working on a non-HDR enabled monitor, you should enable ocio in "
+"the Lut Docker."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:131
 msgid ""
 "Keep in mind everything mentioned above. Not all filters and not all "
 "blending modes work. This will improve in the future. Other than that, "
@@ -601,11 +616,11 @@ msgstr ""
 "todos os modos de mistura funcionam. Isto irá melhorar no futuro. Fora isso, "
 "tudo o resto fica igual."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:132
+#: ../../general_concepts/colors/scene_linear_painting.rst:134
 msgid "Picking really bright colors"
 msgstr "Escolher cores realmente brilhantes"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:134
+#: ../../general_concepts/colors/scene_linear_painting.rst:136
 msgid ""
 "Picking regular colors is easy, but how do we pick the really bright colors? "
 "There are three ways of getting access to the really bright colors in Krita:"
@@ -614,7 +629,7 @@ msgstr ""
 "realmente brilhantes? Existem três formas de obter acesso a essas cores no "
 "Krita:"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:136
+#: ../../general_concepts/colors/scene_linear_painting.rst:138
 msgid ""
 "By lowering the exposure in the LUT docker. This will increase the visible "
 "range of colors in the color selectors. You can even hotkey the exposure in "
@@ -624,7 +639,13 @@ msgstr ""
 "visíveis nos selectores de cores. Poderá até associar combinações de teclas "
 "à exposição na configuração da entrada da área de desenho."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:137
+#: ../../general_concepts/colors/scene_linear_painting.rst:139
+msgid ""
+"By setting the nits slider in the :ref:`small_color_selector` higher than "
+"100."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:140
 msgid ""
 "Or simply by opening the internal color selector by double clicking the dual "
 "color button and typing in values higher than 1 into the field."
@@ -632,7 +653,7 @@ msgstr ""
 "Ou simplesmente abrindo o selector de cores interno, fazendo duplo-click "
 "sobre o botão de cores duplo e escrevendo valores superiores a 1 no campo."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:138
+#: ../../general_concepts/colors/scene_linear_painting.rst:141
 msgid ""
 "And finally by picking a really bright color from an image that has such "
 "values."
@@ -640,7 +661,7 @@ msgstr ""
 "E, finalmente, escolhendo uma cor realmente brilhante de uma imagem que "
 "possua esses valores."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:140
+#: ../../general_concepts/colors/scene_linear_painting.rst:143
 msgid ""
 "Then paint. It’s recommended to make a bunch of swatches in the corner, at "
 "the least, until Krita’s new palette docker allows you to save the values "
@@ -650,11 +671,11 @@ msgstr ""
 "cores no canto, pelo menos, até que a nova área da paleta do Krita lhe "
 "permita gravar os valores em condições."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:143
+#: ../../general_concepts/colors/scene_linear_painting.rst:146
 msgid "Lighting based workflow"
 msgstr "Fluxo baseado na iluminação"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:145
+#: ../../general_concepts/colors/scene_linear_painting.rst:148
 msgid ""
 "So, we have our typical value based workflow, where we only paint the grays "
 "of the image so that we can focus on the values of the image. We can do "
@@ -664,7 +685,7 @@ msgstr ""
 "os cinzentos da imagem, para que nos possamos focar nos valores da imagem. "
 "Poderemos fazer algo com a Pintura de Cenas Lineares."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:147
+#: ../../general_concepts/colors/scene_linear_painting.rst:150
 msgid ""
 "Where with the value based workflow you paint the image as if it were a "
 "grayscale of what you intended to paint, with a lighting based workflow you "
@@ -683,11 +704,13 @@ msgstr ""
 "simplesmente usar o modo de mistura por multiplicação para obter as cores "
 "correctas."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:153
-msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
+#: ../../general_concepts/colors/scene_linear_painting.rst:156
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
+msgid ".. image:: images/color_category/Krita_scenelinear_cat_02.png"
 msgstr ".. image:: images/en/color_category/Krita_scenelinear_cat_02.png"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:153
+#: ../../general_concepts/colors/scene_linear_painting.rst:156
 msgid ""
 "The leftmost image is both the lighting based one and the color layer "
 "separate, the middle with the two layers multiplied and the right a "
@@ -700,7 +723,7 @@ msgstr ""
 "demonstra porque é que ter as texturas e a iluminação separadas poderá ser "
 "interessante."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:155
+#: ../../general_concepts/colors/scene_linear_painting.rst:158
 msgid ""
 "You can even combine this with a value based workflow by opening a new view "
 "and setting the component to luminosity. That way you can see both the "
@@ -712,7 +735,7 @@ msgstr ""
 "ver tanto a escala de cinzentos como a versão baseada na iluminação ao lado "
 "uma da outra."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:157
+#: ../../general_concepts/colors/scene_linear_painting.rst:160
 msgid ""
 "The keen minded will notice that a lighting based workflow kind of resembles "
 "the idea of a light pass and a color pass in 3d rendering. And indeed, it is "
@@ -727,11 +750,11 @@ msgstr ""
 "camada. É um dos exemplos onde a pintura de cenas lineares simplifica os "
 "métodos de combinação."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:160
+#: ../../general_concepts/colors/scene_linear_painting.rst:163
 msgid "Finishing up"
 msgstr "Finalizar"
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:162
+#: ../../general_concepts/colors/scene_linear_painting.rst:165
 msgid ""
 "When you are done, you will want to apply the view transform you have been "
 "using to the image (at the least, if you want to post the end result on the "
@@ -747,7 +770,11 @@ msgstr ""
 "Blender ou no Natron. Depois, no Blender, bastará usar a mesma configuração "
 "do OCIO, seleccionar os valores correctos e gravar o resultado como um PNG."
 
-#: ../../general_concepts/colors/scene_linear_painting.rst:164
+#: ../../general_concepts/colors/scene_linear_painting.rst:167
+msgid "For saving HDR images, check the :ref:`hdr_display` page."
+msgstr ""
+
+#: ../../general_concepts/colors/scene_linear_painting.rst:169
 msgid ""
 "You can even use some of Blender’s or Natron’s filters at this stage, and "
 "when working with others, you would save out in EXR so that others can use "
@@ -755,3 +782,30 @@ msgid ""
 msgstr ""
 "Até poderá usar alguns dos filtros do Blender ou do Natron nesta fase e, ao "
 "lidar com outros poderá gravar em EXR, para que os outros possam vê-los."
+
+#~ msgid ""
+#~ "Select either a 16bit or 32bit image. By default Krita will select a "
+#~ "linear sRGB profile. This is fine."
+#~ msgstr ""
+#~ "Seleccione então uma imagem de 16 bits ou 32 bits. Por omissão, o Krita "
+#~ "irá seleccionar um perfil sRGB linear. Isto é aceitável."
+
+#~ msgid ""
+#~ "Then, download an OCIO config. I will use `Filmic Blender <https://"
+#~ "sobotka.github.io/filmic-blender/>`_ here because it is quite simple to "
+#~ "set up. Extract the downloaded zip somewhere you can find it back. Open "
+#~ "the LUT docker, turn on OCIO, select ‘OCIO’ and set the path to the "
+#~ "downloaded OCIO config."
+#~ msgstr ""
+#~ "Depois, transfira uma configuração do OCIO. Será usada aqui a `Filmic "
+#~ "Blender <https://sobotka.github.io/filmic-blender/>`_, porque é bastante "
+#~ "simples de configurar. Extraia o pacote ZIP transferido para um sítio que "
+#~ "recorde mais tarde. Abra a área da LUT, active o OCIO, seleccione ‘OCIO’ "
+#~ "e configure a localização da configuração do OCIO transferida."
+
+#~ msgid ""
+#~ "Set the view to ‘Filmic log encoding’ and the look to ‘Base Contrast’. "
+#~ "And now you can start painting!"
+#~ msgstr ""
+#~ "Configure a janela como ‘Codificação de fillme’ e a aparência como "
+#~ "‘Contraste Básico’. E agora já poderá começar a pintar!"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-05 03:37+0200\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:26\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,12 +23,20 @@ msgid ""
 "   :alt: toolfreehandbrush"
 msgstr ""
 ".. image:: images/icons/freehand_brush_tool.svg\n"
-"   :alt: toolfreehandbrush"
+"   :alt: 手绘笔刷工具"
 
 #: ../../reference_manual/tools/freehand_brush.rst:1
 msgid ""
 "Krita's freehand brush tool reference, containing how to use the stabilizer "
 "in krita."
+msgstr "介绍 Krita 的手绘笔刷工具和防抖功能的使用方法。"
+
+#: ../../reference_manual/tools/freehand_brush.rst:12
+msgid "Freehand Brush"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:12
+msgid "Freehand"
 msgstr ""
 
 #: ../../reference_manual/tools/freehand_brush.rst:17
@@ -37,13 +45,15 @@ msgstr "手绘笔刷工具"
 
 #: ../../reference_manual/tools/freehand_brush.rst:19
 msgid "|toolfreehandbrush|"
-msgstr ""
+msgstr "|toolfreehandbrush|"
 
 #: ../../reference_manual/tools/freehand_brush.rst:21
 msgid ""
 "The default tool you have selected on Krita start-up, and likely the tool "
 "that you will use the most."
 msgstr ""
+"手绘笔刷工具是 Krita 启动后默认选中的工具，它也应该是绝大多数用户在 Krita 中"
+"最常使用的工具。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:23
 msgid ""
@@ -52,14 +62,18 @@ msgid ""
 "tablet's input settings to control the brush-appearance. To switch the "
 "brush, make use of the brush-preset docker."
 msgstr ""
+"手绘笔刷工具可以在画布上随意绘画，不像直线、形状、曲线等工具那样存在诸多限"
+"制。它能使用数位板的传感器画出更具变化的笔画。如需切换笔刷，可使用笔刷预设工"
+"具面板，它默认在窗口的右下方。如需了解各个自带笔刷的用法，可参考 :ref:"
+"`krita_4_preset_bundle` 。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:27
 msgid "Hotkeys and Sticky keys"
-msgstr "快捷键和粘滞键"
+msgstr "快捷键和功能键"
 
 #: ../../reference_manual/tools/freehand_brush.rst:29
 msgid "The freehand brush tool's hotkey is :kbd:`B`."
-msgstr ""
+msgstr "手绘笔刷工具的快捷键是 :kbd:`B` ，它还有一些配套功能键，默认如下："
 
 #: ../../reference_manual/tools/freehand_brush.rst:31
 msgid ""
@@ -68,17 +82,19 @@ msgid ""
 "or right click to pick fore and background color respectively. Release the :"
 "kbd:`Ctrl` to return to the freehand brush tool."
 msgstr ""
+"按住 :kbd:`Ctrl` 可以暂时切换至拾色器。按住 Ctrl 时左键点击拾取前景色，右键点"
+"击拾取背景色。松开 Ctrl 切换回绘画状态。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:32
 msgid ""
 "The Primary setting is \"size\". (standardly invoked by :kbd:`Shift`) Press :"
 "kbd:`Shift` and drag outward to increase brush size. Drag inward to decrease "
 "it."
-msgstr ""
+msgstr "按住 :kbd:`Shift` 并左右拖拽，可以随时调整笔刷大小。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:33
 msgid "You can also press :kbd:`V` as a stickykey for the straight-line tool."
-msgstr ""
+msgstr "按住 :kbd:`V` 可以随时切换为直线工具。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:35
 msgid ""
@@ -86,14 +102,34 @@ msgid ""
 "Configure Shortcuts`. The sticky-keys can be edited in :menuselection:"
 "`Settings --> Configure Krita --> Canvas Input Settings`."
 msgstr ""
+"要更改快捷键，点击菜单栏的 :menuselection:`设置 --> 配置 Krita --> 键盘快捷键"
+"` ；要更改功能键，点击菜单栏的 :menuselection:`设置 --> 配置 Krita --> 画布输"
+"入设置` 。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:39
 msgid "Tool Options"
 msgstr "工具选项"
 
+#: ../../reference_manual/tools/freehand_brush.rst:41
+#: ../../reference_manual/tools/freehand_brush.rst:79
+msgid "Stabilizer"
+msgstr "防抖"
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+msgid "Basic Smooth"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+msgid "No Smoothing"
+msgstr ""
+
+#: ../../reference_manual/tools/freehand_brush.rst:41
+msgid "Weighted Smoothing"
+msgstr ""
+
 #: ../../reference_manual/tools/freehand_brush.rst:45
 msgid "Smoothing"
-msgstr "平滑"
+msgstr "笔刷平滑"
 
 #: ../../reference_manual/tools/freehand_brush.rst:47
 msgid ""
@@ -101,24 +137,28 @@ msgid ""
 "correct the stroke. Useful for people with shaky hands, or particularly "
 "difficult long lines."
 msgstr ""
+"笔刷平滑功能，在某些软件里面也叫“防抖”功能，它可以让软件对绘制的笔迹进行稳定"
+"处理。对于尚未练就稳定笔法的画手，或者在绘制又长又不顺手的线条时非常有帮助。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:49
 msgid "The following options can be selected:"
-msgstr ""
+msgstr "笔刷平滑功能具有下列模式和选项："
 
 #: ../../reference_manual/tools/freehand_brush.rst:51
 msgid "No Smoothing."
-msgstr "无平滑."
+msgstr "无"
 
 #: ../../reference_manual/tools/freehand_brush.rst:52
 msgid ""
 "The input from the tablet translates directly to the screen. This is the "
 "fastest option, and good for fine details."
 msgstr ""
+"关闭平滑功能，数位板的输入数据会被直接反映到屏幕上。此模式的速度最快，适合不"
+"喜欢笔刷延迟的画手，或者用来勾画微小细节。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:53
 msgid "Basic Smoothing."
-msgstr "基本平滑."
+msgstr "基本"
 
 #: ../../reference_manual/tools/freehand_brush.rst:54
 msgid ""
@@ -126,12 +166,14 @@ msgid ""
 "3. If you experience slightly jagged lines without any smoothing on, this "
 "option will apply a very little bit of smoothing to get rid of those lines."
 msgstr ""
+"此模式提供最基础的平滑效果，它可以消除快速绘制曲线时的分节、起角现象，也可以"
+"减轻低老式数位板的笔画抖动感 (如 Wacom 贵凡 3 等报告率较低的型号)。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:56
 msgid ""
 "This option allows you to use the following parameters to make the smoothing "
 "stronger or weaker:"
-msgstr ""
+msgstr "此模式通过权衡下列选项来控制平滑效果的强弱："
 
 #: ../../reference_manual/tools/freehand_brush.rst:58
 #: ../../reference_manual/tools/freehand_brush.rst:70
@@ -144,10 +186,13 @@ msgid ""
 "(Literally the amount of events received by the tablet before the first dab "
 "is drawn.)"
 msgstr ""
+"此选项控制笔画必须经过多长距离才会画出第一个笔尖印迹。也可以理解为 Krita 在接"
+"收到多少个数位板事件后才会画出第一个笔尖印迹。类似于延迟笔刷绘制，在计算笔迹"
+"的平均值后才画到画布上。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:60
 msgid "Stroke Ending"
-msgstr ""
+msgstr "笔末跟随"
 
 #: ../../reference_manual/tools/freehand_brush.rst:61
 msgid ""
@@ -155,6 +200,8 @@ msgid ""
 "position of the cursor after the left-mouse button/or stylus is lifted. Will "
 "currently always result in a straight line, so use with caution."
 msgstr ""
+"此选项控制在松开鼠标左键或者提起压感笔后，笔画跟随到光标最后位置的程度。目前"
+"只会以最短直线距离进行跟随，请小心使用。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:62
 msgid "Smooth Pressure"
@@ -164,23 +211,23 @@ msgstr "平滑压力"
 msgid ""
 "This will apply the smoothing on the pressure input as well, resulting in "
 "more averaged size for example."
-msgstr ""
+msgstr "勾选此选项后，压力传感器数据也会被平滑，得到更为均匀的笔画大小。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:65
 msgid "Weighted smoothing:"
-msgstr ""
+msgstr "权衡"
 
 #: ../../reference_manual/tools/freehand_brush.rst:65
 #: ../../reference_manual/tools/freehand_brush.rst:79
 msgid "Scalable Distance"
-msgstr "等比例距离"
+msgstr "随视图缩放距离"
 
 #: ../../reference_manual/tools/freehand_brush.rst:65
 #: ../../reference_manual/tools/freehand_brush.rst:79
 msgid ""
 "This makes it so that the numbers involved will be scaled along the zoom "
 "level."
-msgstr ""
+msgstr "勾选此选项后，所有距离数值均按照画布视图的缩放比例进行缩放。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:68
 msgid ""
@@ -189,46 +236,55 @@ msgid ""
 "draw a circle around your cursor and the line will be a bit behind your "
 "cursor while painting."
 msgstr ""
+"此模式会对数位板的所有输入数据进行平均化。它会在笔刷的周围显示一个圆圈，在圆"
+"圈内的输入将会被延迟并计算平均值，输入光标会在圆圈边缘带着圆圈移动。与权衡模"
+"式比较，权衡模式总是会画出整个输入笔迹，而防抖模式总是会丢失最后一段数据。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:71
 msgid "This is the strength of the smoothing."
-msgstr ""
+msgstr "此选项控制平滑的效果强度。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:72
 msgid "Delay"
-msgstr "推迟"
+msgstr "延迟"
 
 #: ../../reference_manual/tools/freehand_brush.rst:73
 msgid ""
 "This toggles and determines the size of the dead zone around the cursor. "
 "This can be used to create sharp corners with more control."
 msgstr ""
+"此选项控制输入延迟区域的开关和大小。如果和距离数值配合得当，一样可以画出锐利"
+"的转角。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:74
 msgid "Finish Line"
-msgstr ""
+msgstr "笔末挑尖"
 
 #: ../../reference_manual/tools/freehand_brush.rst:75
 msgid "This ensures that the line will be finished."
 msgstr ""
+"确保快速提笔时笔画末尾有平滑的挑尖效果，而不是戛然而止。只在延迟选项被关闭时"
+"才能启用。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:76
 msgid "Stabilize sensors"
-msgstr ""
+msgstr "稳定传感器"
 
 #: ../../reference_manual/tools/freehand_brush.rst:77
 msgid ""
 "Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, "
 "speed, tilt) to be smoother."
 msgstr ""
+"此选项和权衡模式的 :guilabel:`平滑压力` 选项类似，但它会平滑压力、速度、倾斜"
+"等各种传感器数据。"
 
-#: ../../reference_manual/tools/freehand_brush.rst:79
-msgid "Stabilizer"
-msgstr "防抖"
+#: ../../reference_manual/tools/freehand_brush.rst:81
+msgid "Painting Assistants"
+msgstr ""
 
 #: ../../reference_manual/tools/freehand_brush.rst:84
 msgid "Assistants"
-msgstr "助手"
+msgstr "吸附到辅助尺"
 
 #: ../../reference_manual/tools/freehand_brush.rst:86
 msgid ""
@@ -236,6 +292,9 @@ msgid ""
 "toggle it is :kbd:`Ctrl + Shift + L`. See :ref:`painting_with_assistants` "
 "for more information."
 msgstr ""
+"勾选此项后笔画将被吸附到 :ref:`assistant_tool` ，此选项的开关快捷键为 :kbd:"
+"`Ctrl + Shift + L` ，详细的使用方法可参考用户手册的 :ref:"
+"`painting_with_assistants` 一节 (此链接和前一个链接不同)。"
 
 #: ../../reference_manual/tools/freehand_brush.rst:88
 msgid ""
@@ -246,3 +305,7 @@ msgid ""
 "preventing noise. Unticking it allows you to chain assistants together and "
 "snap along them."
 msgstr ""
+"勾选 :guilabel:`吸附到辅助尺` 后会显示 :guilabel:`磁性` 和 :guilabel:`单一吸"
+"附` 选项。磁性设为 1000 时是完全吸附，设为 0 时是完全不吸附。“单一吸附”选项启"
+"用时，笔画只会吸附到单个辅助尺上，避免吸附失控。如需通过多个辅助尺的轮廓进行"
+"吸附，可以关闭此选项。"

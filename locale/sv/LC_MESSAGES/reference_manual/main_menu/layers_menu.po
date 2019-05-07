@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
-"PO-Revision-Date: 2019-03-17 16:33+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 09:07+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -25,9 +25,57 @@ msgstr ""
 msgid "The layers menu in Krita."
 msgstr ""
 
+#: ../../reference_manual/main_menu/layers_menu.rst:11
 #: ../../reference_manual/main_menu/layers_menu.rst:16
 msgid "Layers"
 msgstr "Lager"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:75
+msgid "Convert"
+msgstr "Konvertera"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:115
+msgid "Transform"
+msgstr "Transformera"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Histogram"
+msgstr "Histogram"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Cut Layer"
+msgstr "Klipp ut lager"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Copy Layer"
+msgstr "Kopiera lager"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Paste Layer"
+msgstr "Klistra in lager"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Import"
+msgstr "Importera"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Export"
+msgstr "Exportera"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Metadata"
+msgstr "Metadata"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Flatten"
+msgstr "Platta ut"
+
+#: ../../reference_manual/main_menu/layers_menu.rst:11
+msgid "Layer Style"
+msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:18
 msgid ""
@@ -221,10 +269,6 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
-msgid "Convert"
-msgstr "Konvertera"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert Layer Color Space"
 msgstr "Konvertera lagerfärgrymd"
 
@@ -348,10 +392,6 @@ msgid "Shear the layer pixels by the given X and Y angles."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
-msgid "Transform"
-msgstr "Transformera"
-
-#: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset Layer"
 msgstr "Positionera lager"
 
@@ -374,7 +414,7 @@ msgid "Split Layer"
 msgstr "Dela lager"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
-msgid "Split the layer into given color fields."
+msgid ":ref:`Split the layer <split_layer>` into given color fields."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
@@ -388,7 +428,7 @@ msgstr "Duplicerar fält"
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
-"making."
+"making. See :ref:`clones_array` for more details."
 msgstr ""
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
@@ -399,46 +439,46 @@ msgstr "Redigera metadata"
 msgid "Each layer can have its own metadata."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:129
-msgid "Histogram"
-msgstr "Histogram"
-
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:131
+#: ../../reference_manual/main_menu/layers_menu.rst:134
+msgid "Removed. Use the :ref:`histogram_docker` instead."
+msgstr ""
+
+#: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"
 msgstr "Sammanfoga med lager under"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:132
+#: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Merge a layer down."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:133
+#: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten Layer"
 msgstr "Platta ut lager"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:134
+#: ../../reference_manual/main_menu/layers_menu.rst:139
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:135
+#: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Rasterize Layer"
 msgstr "Rastrera lager"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:136
+#: ../../reference_manual/main_menu/layers_menu.rst:141
 msgid "For making vectors into raster layers."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:137
+#: ../../reference_manual/main_menu/layers_menu.rst:142
 msgid "Flatten Image"
 msgstr "Platta ut bild"
 
-#: ../../reference_manual/main_menu/layers_menu.rst:138
+#: ../../reference_manual/main_menu/layers_menu.rst:143
 msgid "Flatten all layers into one."
 msgstr ""
 
-#: ../../reference_manual/main_menu/layers_menu.rst:140
+#: ../../reference_manual/main_menu/layers_menu.rst:145
 msgid "Set the PS-style layerstyle"
 msgstr ""

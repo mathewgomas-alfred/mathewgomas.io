@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 03:36+0100\n"
-"PO-Revision-Date: 2019-04-09 18:49\n"
-"Last-Translator: guoyunhe <i@guoyunhe.me>\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-05 22:27\n"
+"Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,15 +20,24 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:1
 msgid "The Filter Brush Engine manual page."
-msgstr ""
+msgstr "Krita 的滤镜笔刷引擎介绍。"
 
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:17
 msgid "Filter Brush Engine"
 msgstr "滤镜笔刷引擎"
 
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
+msgid "Brush Engine"
+msgstr ""
+
+#: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:12
+msgid "Filters"
+msgstr ""
+
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:20
 msgid ".. image:: images/icons/filterbrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/filterbrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:21
 msgid ""
@@ -38,6 +47,10 @@ msgid ""
 "amount of filters you'd never thought you wanted to use for a drawing are "
 "possible in brush form too!"
 msgstr ""
+"你可能在其他软件中用过单独的“减淡工具”、“模糊工具”和“锐化工具”等特效工具。"
+"Krita 把类似的操作交给一种特殊的笔刷引擎处理，这便是滤镜笔刷引擎。顾名思义，"
+"这个笔刷引擎让你可以把滤镜效果作为笔刷使用。由于 Krita 自带了大量滤镜，你能通"
+"过该引擎实现的效果也非常丰富。大胆地进行实验吧！"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:24
 msgid "Options"
@@ -45,28 +58,28 @@ msgstr "选项"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:26
 msgid "The filter brush has of course some basic brush-system parameters:"
-msgstr ""
+msgstr "滤镜笔刷引擎也支持一些基本的笔刷选项："
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:28
 msgid ":ref:`option_brush_tip`"
-msgstr ""
+msgstr ":ref:`option_brush_tip`"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:29
 msgid ":ref:`blending_modes`"
-msgstr ""
+msgstr ":ref:`blending_modes`"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:30
 msgid ":ref:`option_opacity_n_flow`"
-msgstr ""
+msgstr ":ref:`option_opacity_n_flow`"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:31
 msgid ":ref:`option_size`"
-msgstr ""
+msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:32
 msgid ":ref:`option_mirror`"
-msgstr ""
+msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_engines/filter_brush_engine.rst:33
 msgid ":ref:`option_rotation`"
-msgstr ""
+msgstr ":ref:`option_rotation`"

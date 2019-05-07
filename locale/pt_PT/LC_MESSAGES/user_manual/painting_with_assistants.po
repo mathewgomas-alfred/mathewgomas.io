@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-04 03:37+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
 "PO-Revision-Date: 2019-04-01 13:58+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -26,13 +26,21 @@ msgstr ""
 "X-POFile-IgnoreConsistency: Oblique\n"
 
 #: ../../<rst_epilog>:1
-msgid ".. image:: images/en/Assistants_fish-eye_2_02.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_fish-eye_2_02.png"
+msgid ".. image:: images/assistants/Assistants_fish-eye_2_02.png"
 msgstr ".. image:: images/en/Assistants_fish-eye_2_02.png"
 
 #: ../../user_manual/painting_with_assistants.rst:2
 msgid "How to use the painting assistants in Krita to draw perspectives."
 msgstr ""
 "Como usar os assistentes de pintura no Krita para desenhar perspectivas."
+
+#: ../../user_manual/painting_with_assistants.rst:12
+#, fuzzy
+#| msgid "Painting with Assistants"
+msgid "Painting Assistants"
+msgstr "Pintura com Assistentes"
 
 #: ../../user_manual/painting_with_assistants.rst:17
 msgid "Painting with Assistants"
@@ -58,8 +66,12 @@ msgstr ""
 "ajuste."
 
 #: ../../user_manual/painting_with_assistants.rst:30
+#, fuzzy
+#| msgid ""
+#| ".. image:: images/en/Krita_basic_assistants.png\n"
+#| "   :alt: Krita's vanishing point assistants in action"
 msgid ""
-".. image:: images/en/Krita_basic_assistants.png\n"
+".. image:: images/assistants/Krita_basic_assistants.png\n"
 "   :alt: Krita's vanishing point assistants in action"
 msgstr ""
 ".. image:: images/en/Krita_basic_assistants.png\n"
@@ -126,6 +138,7 @@ msgstr ""
 "perfeito."
 
 #: ../../user_manual/painting_with_assistants.rst:61
+#: ../../user_manual/painting_with_assistants.rst:154
 msgid "Perspective"
 msgstr "Perspectiva"
 
@@ -313,6 +326,10 @@ msgstr ""
 "Consulte esta discussão aprofundada e o tutorial em https://www.youtube.com/"
 "watch?v=OhEv2pw3EuI"
 
+#: ../../user_manual/painting_with_assistants.rst:154
+msgid "Technical Drawing"
+msgstr ""
+
 #: ../../user_manual/painting_with_assistants.rst:157
 msgid "Setting up Krita for technical drawing-like perspectives"
 msgstr "Configuração do Krita para perspectivas de desenho técnico"
@@ -375,7 +392,9 @@ msgid "All of these are set up using three Parallel Rulers."
 msgstr "Todas estas são configuradas com três Réguas Paralelas."
 
 #: ../../user_manual/painting_with_assistants.rst:185
-msgid ".. image:: images/en/Assistants_oblique.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_oblique.png"
+msgid ".. image:: images/assistants/Assistants_oblique.png"
 msgstr ".. image:: images/en/Assistants_oblique.png"
 
 #: ../../user_manual/painting_with_assistants.rst:187
@@ -391,7 +410,9 @@ msgid "Oblique"
 msgstr "Oblíqua"
 
 #: ../../user_manual/painting_with_assistants.rst:191
-msgid ".. image:: images/en/Assistants_dimetric.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_dimetric.png"
+msgid ".. image:: images/assistants/Assistants_dimetric.png"
 msgstr ".. image:: images/en/Assistants_dimetric.png"
 
 #: ../../user_manual/painting_with_assistants.rst:193
@@ -412,7 +433,9 @@ msgid "Dimetric & Isometric"
 msgstr "Dimétrica & Isométrica"
 
 #: ../../user_manual/painting_with_assistants.rst:200
-msgid ".. image:: images/en/Assistants_trimetric.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_trimetric.png"
+msgid ".. image:: images/assistants/Assistants_trimetric.png"
 msgstr ".. image:: images/en/Assistants_trimetric.png"
 
 #: ../../user_manual/painting_with_assistants.rst:202
@@ -432,7 +455,9 @@ msgid "Linear Perspective"
 msgstr "Perspectiva Linear"
 
 #: ../../user_manual/painting_with_assistants.rst:209
-msgid ".. image:: images/en/Assistants_1_point_perspective.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_1_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_1_point_perspective.png"
 msgstr ".. image:: images/en/Assistants_1_point_perspective.png"
 
 #: ../../user_manual/painting_with_assistants.rst:211
@@ -448,7 +473,9 @@ msgid "1 Point Perspective"
 msgstr "Perspectiva de 1 Ponto"
 
 #: ../../user_manual/painting_with_assistants.rst:215
-msgid ".. image:: images/en/Assistants_2_point_perspective.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_2_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_2_point_perspective.png"
 msgstr ".. image:: images/en/Assistants_2_point_perspective.png"
 
 #: ../../user_manual/painting_with_assistants.rst:217
@@ -466,11 +493,15 @@ msgid "2 Point Perspective"
 msgstr "Perspectiva de 2 Pontos"
 
 #: ../../user_manual/painting_with_assistants.rst:222
-msgid ".. image:: images/en/Assistants_2_pointperspective_02.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_2_pointperspective_02.png"
+msgid ".. image:: images/assistants/Assistants_2_pointperspective_02.png"
 msgstr ".. image:: images/en/Assistants_2_pointperspective_02.png"
 
 #: ../../user_manual/painting_with_assistants.rst:224
-msgid ".. image:: images/en/Assistants_3_point_perspective.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_3_point_perspective.png"
+msgid ".. image:: images/assistants/Assistants_3_point_perspective.png"
 msgstr ".. image:: images/en/Assistants_3_point_perspective.png"
 
 #: ../../user_manual/painting_with_assistants.rst:226
@@ -506,7 +537,9 @@ msgstr ""
 "típico: desenhar um caminho de ferro."
 
 #: ../../user_manual/painting_with_assistants.rst:236
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_01.png"
 msgstr ".. image:: images/en/Assistants_vanishing_point_logic_01.png"
 
 #: ../../user_manual/painting_with_assistants.rst:237
@@ -530,7 +563,9 @@ msgstr ""
 "significa que é usada a mesma distância com exactidão."
 
 #: ../../user_manual/painting_with_assistants.rst:243
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_02.png"
 msgstr ".. image:: images/en/Assistants_vanishing_point_logic_02.png"
 
 #: ../../user_manual/painting_with_assistants.rst:244
@@ -552,7 +587,9 @@ msgstr ""
 "raios:"
 
 #: ../../user_manual/painting_with_assistants.rst:251
-msgid ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
+#, fuzzy
+#| msgid ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
+msgid ".. image:: images/assistants/Assistants_vanishing_point_logic_03.png"
 msgstr ".. image:: images/en/Assistants_vanishing_point_logic_03.png"
 
 #: ../../user_manual/painting_with_assistants.rst:252
@@ -591,7 +628,9 @@ msgstr ""
 "na vertical, no mesmo ponto, e um assistente do ponto de fuga no meio."
 
 #: ../../user_manual/painting_with_assistants.rst:265
-msgid ".. image:: images/en/Fish-eye.gif"
+#, fuzzy
+#| msgid ".. image:: images/en/Fish-eye.gif"
+msgid ".. image:: images/assistants/Fish-eye.gif"
 msgstr ".. image:: images/en/Fish-eye.gif"
 
 #: ../../user_manual/painting_with_assistants.rst:266

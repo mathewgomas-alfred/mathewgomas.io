@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 03:34+0100\n"
-"PO-Revision-Date: 2019-03-12 15:59+0100\n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-06 12:19+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/maths_input.rst:1
 msgid ""
@@ -27,6 +27,11 @@ msgid ""
 msgstr ""
 "Overzicht van rekenbewerkingen die gebruikt kunnen worden in "
 "draaischakelaars van Krita en invoer van getallen."
+
+#: ../../reference_manual/maths_input.rst:12
+#| msgid "Maths Input"
+msgid "Maths"
+msgstr "Berekeningen"
 
 #: ../../reference_manual/maths_input.rst:17
 msgid "Maths Input"
@@ -50,7 +55,7 @@ msgstr "Tel gewoon de getallen op. Gebruik: ``50+100`` Uitvoer: ``150``"
 
 #: ../../reference_manual/maths_input.rst:26
 msgid "Addition (Operator: + )"
-msgstr ""
+msgstr "Optellen (operator: + )"
 
 #: ../../reference_manual/maths_input.rst:29
 msgid ""
@@ -60,7 +65,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:30
 msgid "Subtraction (Operator: - )"
-msgstr ""
+msgstr "Aftrekken (operator: - )"
 
 #: ../../reference_manual/maths_input.rst:33
 msgid "Just multiplies the numbers. Usage: ``50*100`` Output: ``5000``"
@@ -68,7 +73,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:34
 msgid "Multiplication (Operator: * )"
-msgstr ""
+msgstr "Vermenigvuldigen (operator: * )"
 
 #: ../../reference_manual/maths_input.rst:37
 msgid "Just divides the numbers. Usage: ``50/100`` Output: ``0.5``"
@@ -76,7 +81,7 @@ msgstr "Deel gewoon de getallen. Gebruik: ``50/100`` Uitvoer: ``0.5``"
 
 #: ../../reference_manual/maths_input.rst:38
 msgid "Division (Operator: / )"
-msgstr ""
+msgstr "Delen (operator: / )"
 
 #: ../../reference_manual/maths_input.rst:41
 msgid ""
@@ -86,7 +91,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:42
 msgid "Exponent (Operator: ^ )"
-msgstr ""
+msgstr "Exponent (operator: ^ )"
 
 #: ../../reference_manual/maths_input.rst:45
 msgid ""
@@ -95,7 +100,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:46
 msgid "Sine (Operator: sin() )"
-msgstr ""
+msgstr "Sinus (operator: sin() )"
 
 #: ../../reference_manual/maths_input.rst:49
 msgid ""
@@ -104,7 +109,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:50
 msgid "Cosine (Operator: cos() )"
-msgstr ""
+msgstr "Cosinus (operator: cos() )"
 
 #: ../../reference_manual/maths_input.rst:53
 msgid ""
@@ -113,7 +118,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:54
 msgid "Tangent (Operator: tan() )"
-msgstr ""
+msgstr "Tangens (operator: tan() )"
 
 #: ../../reference_manual/maths_input.rst:57
 msgid ""
@@ -123,7 +128,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:58
 msgid "Arc Sine (Operator: asin() )"
-msgstr ""
+msgstr "Arcsinus (operator: asin() )"
 
 #: ../../reference_manual/maths_input.rst:61
 msgid ""
@@ -133,7 +138,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:62
 msgid "Arc Cosine (Operator: acos() )"
-msgstr ""
+msgstr "Arccosinus (operator: acos() )"
 
 #: ../../reference_manual/maths_input.rst:65
 msgid ""
@@ -143,7 +148,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:66
 msgid "Arc Tangent (Operator: atan() )"
-msgstr ""
+msgstr "Arctangens (operator: atan() )"
 
 #: ../../reference_manual/maths_input.rst:69
 msgid ""
@@ -152,7 +157,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:70
 msgid "Absolute (Operator: abs() )"
-msgstr ""
+msgstr "Absoluut (operator: abs() )"
 
 #: ../../reference_manual/maths_input.rst:73
 msgid ""
@@ -162,7 +167,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:74
 msgid "Exponent (Operator: exp() )"
-msgstr ""
+msgstr "Exponent (operator: exp() )"
 
 #: ../../reference_manual/maths_input.rst:77
 msgid ""
@@ -172,7 +177,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:79
 msgid "Natural Logarithm (Operator: ln() )"
-msgstr ""
+msgstr "Natuurlijke logaritme (operator: ln() )"
 
 #: ../../reference_manual/maths_input.rst:81
 msgid "The following are technically supported but bugged:"
@@ -186,7 +191,7 @@ msgstr ""
 
 #: ../../reference_manual/maths_input.rst:86
 msgid "Common Logarithm (Operator: log10() )"
-msgstr ""
+msgstr "Algemene logaritme (operator: log10() )"
 
 #: ../../reference_manual/maths_input.rst:89
 msgid "Order of Operations."
