@@ -224,7 +224,7 @@ The Krita developers will be notified of new merge requests, and they will try t
 Update the master branch in your fork
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After working for some time, you may want to update the master branch of your fork to be in sync with master branch of the official repository.
+After working for some time, you may want to update the master branch of your fork to be in sync with the master branch of the official repository.
 
 #. Checkout the master branch in your working environment.
 
