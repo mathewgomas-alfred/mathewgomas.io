@@ -232,7 +232,7 @@ After working for some time, you may want to update the master branch of your fo
 
         git checkout master
 
-#. Pull the changes from official repository.
+#. Pull changes from the official repository.
 
     .. code-block:: bash
 
