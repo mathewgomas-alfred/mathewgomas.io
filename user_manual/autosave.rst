@@ -42,7 +42,7 @@ See also
 AutoSave
 --------
 
-AutoSave is what happens when you've worked for a bit and not saved your work yourself: Krita will save your work for you. Autosave files are by default visible in your file manager. You can configure Krita 4.2 and up to create autosave files that are visible in your file manager. By default, Krita autosaves every fifteen minutes; you can configure that in the File tab of the General Settings page of the Configure Krita dialog, which is in the Settings menu (Linux, Windows) or in the Application menu (macOS).
+AutoSave is what happens when you've worked for a bit and not saved your work yourself: Krita will save your work for you. Autosave files are by default hidden in your file manager. You can configure Krita 4.2 and up to create autosave files that are visible in your file manager. By default, Krita autosaves every fifteen minutes; you can configure that in the File tab of the General Settings page of the Configure Krita dialog, which is in the Settings menu (Linux, Windows) or in the Application menu (macOS).
 
 If you close Krita without saving, your unsaved work is lost and cannot be retrieved. Closing Krita normally also means that autosave files are removed.
 

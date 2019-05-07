@@ -32,9 +32,9 @@ If you can confirm that the system understands your setup as an HDR setup, you c
 Painting in HDR
 ~~~~~~~~~~~~~~~
 
-To create a proper HDR image, you will need to make a canvas using a profile with rec 2020 gamut and a linear trc. :guilabel:`Rec2020-elle-V4-g10.icc` is the one we ship by default.
+To create a proper HDR image, you will need to make a canvas using a profile with rec 2020 gamut and a linear TRC. :guilabel:`Rec2020-elle-V4-g10.icc` is the one we ship by default.
 
-HDR images are standardized to use the Rec2020 gamut, and the PQ trc. However, a linear TRC is easier to edit images in, so we don't convert to PQ until we're satisfied with our image.
+HDR images are standardized to use the Rec2020 gamut, and the PQ TRC. However, a linear TRC is easier to edit images in, so we don't convert to PQ until we're satisfied with our image.
 
 For painting in this new exciting color space, check the :ref:`scene_linear_painting` page, which covers things like selecting colors, gotchas, which filters work and cool workflows.
 
