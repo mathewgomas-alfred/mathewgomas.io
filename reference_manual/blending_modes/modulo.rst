@@ -37,7 +37,7 @@ First, Base Layer is divided by the sum of blend layer and the minimum possible 
 Divisive Modulo - Continuous
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, Base Layer is divided by the sum of blend layer and the minimum possible value after zero. Then, performs a modulo calculation using the value found with the sum of blend layer and the minimum possible value after zero. As this is a continuous modes, anything between odd to even numbers are inverted.
+First, Base Layer is divided by the sum of blend layer and the minimum possible value after zero. Then, performs a modulo calculation using the value found with the sum of blend layer and the minimum possible value after zero. As this is a continuous mode, anything between odd to even numbers are inverted.
 
 .. figure:: /images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Continuous_Gradient_Comparison.png
    :align: center
@@ -63,7 +63,7 @@ Performs a modulo calculation using the sum of blend layer and the minimum possi
 Modulo - Continuous
 ~~~~~~~~~~~~~~~~~~~
 
-Performs a modulo calculation using the sum of blend layer and the minimum possible value after zero. As this is a continuous modes, anything between odd to even numbers are inverted.
+Performs a modulo calculation using the sum of blend layer and the minimum possible value after zero. As this is a continuous mode, anything between odd to even numbers are inverted.
 
 .. figure:: /images/blending_modes/modulo/Blending_modes_Modulo_Continuous_Gradient_Comparison.png
    :align: center
@@ -90,7 +90,7 @@ Performs a modulo calculation with the result of the sum of base and blend layer
 Modulo Shift - Continuous
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Performs a modulo calculation with the result of the sum of base and blend layer by the sum of blend layer with the minimum possible value after zero.  As this is a continuous modes, anything between odd to even numbers are inverted.
+Performs a modulo calculation with the result of the sum of base and blend layer by the sum of blend layer with the minimum possible value after zero.  As this is a continuous mode, anything between odd to even numbers are inverted.
 
 .. figure:: /images/blending_modes/modulo/Blending_modes_Modulo_Shift_Continuous_Gradient_Comparison.png
    :align: center

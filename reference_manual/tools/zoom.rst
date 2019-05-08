@@ -19,7 +19,7 @@ Zoom Tool
 
 The zoom tool allows you to zoom your canvas in and out discretely. It can be found at the bottom of the toolbox, and you just activate it by selecting the tool, and doing |mouseleft| on the canvas will zoom in, while |mouseright| will zoom out.
 
-You can reverse this behaviour in the :guilabel:`Tool Options`.
+You can reverse this behavior in the :guilabel:`Tool Options`.
 
 There's a number of hotkeys associated with this tool, which makes it easier to access from the other tools:
 

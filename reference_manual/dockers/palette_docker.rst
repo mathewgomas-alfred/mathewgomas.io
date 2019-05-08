@@ -47,7 +47,7 @@ Palette Name
 File name
     This is the file name of the palette, which should be file system friendly. (Avoid quotation marks, for example).
 Column Count
-    The amount of columns in this palette. This counts for all entries. IF you accidentally make it small than the amount of entries that take up columns, you can still make it bigger until the next restart of Krita. 
+    The amount of columns in this palette. This counts for all entries. If you accidentally make it smaller than the amount of entries that take up columns, you can still make it bigger until the next restart of Krita.
 Where is the palette stored:
     Whether to store said palette in the document or resource folder.
     

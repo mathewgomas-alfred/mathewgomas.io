@@ -96,7 +96,7 @@ Stroke
 
 The stroke tab determines how the stroke around the object should look.
 
-The first set of buttons allows us to set the fill of the stroke: *None*, *Color* and *Gradient*; this same options exist for the fill of the shape, please refer to the following "**Fill**" section for more details on how to use both of them.
+The first set of buttons allows us to set the fill of the stroke: *None*, *Color* and *Gradient*; the same options exist for the fill of the shape, please refer to the following "**Fill**" section for more details on how to use both of them.
 
 Then, there are the settings for the stroke style:
 

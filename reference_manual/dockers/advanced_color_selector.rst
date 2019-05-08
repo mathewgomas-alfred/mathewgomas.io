@@ -71,8 +71,8 @@ This allows you to set the overall color space for the Advanced Color Selector.
 .. warning::
     You can pick only sRGB colors in advanced color selector regardless of the color space of advanced color selector. This is a bug.
 
-Behaviour
----------
+Behavior
+--------
 
 When docker resizes
 ~~~~~~~~~~~~~~~~~~~

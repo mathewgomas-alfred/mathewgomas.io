@@ -53,13 +53,13 @@ Sliders 1, 2, and 3
     adjust the number of steps of the value scale, number of hue sectors and saturation rings on the wheel, respectively.
 
 Continuous Mode
-    The value scale and hue sectors can also be set to continuous mode (with the infinity icon on the right of the slider). If toggled on, the respective area shows a continuous gradient instead of the discreet swatches.
+    The value scale and hue sectors can also be set to continuous mode (with the infinity icon on the right of the slider). If toggled on, the respective area shows a continuous gradient instead of the discrete swatches.
 
 Invert saturation (4)
     changes the order of saturation rings within the the hue sectors. By default, the wheel has gray in the center and most saturated colors on the perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most saturated colors in the center.
 
 Reset to default (5)
-    loads default values for the sliders 1,2 and 3. These default values are configured in selector settings.
+    loads default values for the sliders 1, 2, and 3. These default values are configured in selector settings.
 
 
 .. _artistic_color_selector_docker_selector_settings:
@@ -87,7 +87,7 @@ Gamut Masking Behavior (4)
     The selector can be set either to :guilabel:`Enforce gamut mask`, so that colors outside the mask cannot be selected, or to :guilabel:`Just show the shapes`, where the mask is visible but color selection is not limited.
 
 Default Selector Steps Settings
-    Values the color wheel and value scale will be reset to when the :guilabel:`Reset to default` button in :ref:`artistic_color_selector_docker_wheel_preferences` is pressed.
+    Values the color wheel and value scale will be reset to default when the :guilabel:`Reset to default` button in :ref:`artistic_color_selector_docker_wheel_preferences` is pressed.
 
 External Info
 -------------

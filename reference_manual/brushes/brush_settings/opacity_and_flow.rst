@@ -35,7 +35,7 @@ Flow
 .. versionchanged:: 4.2
     In Krita 4.1 and below, the flow and opacity when combined with brush sensors would add up to one another, being only limited by the maximum opacity. This was unexpected compared to all other painting applications, so in 4.2 this finally got corrected to the flow and opacity multiplying, resulting in much more subtle strokes. This change can be switched back in the :ref:`tool_options_settings`, but we will be deprecating the old way in future versions.
     
-    The old behaviour can be simulated in the new system by...
+    The old behavior can be simulated in the new system by...
     
     1. Deactivating the sensors on opacity.
     2. Set the maximum value on flow to 0.5

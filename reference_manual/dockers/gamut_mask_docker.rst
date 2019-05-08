@@ -45,7 +45,7 @@ Delete mask (5)
 Editing
 -------
 
-If you choose to create a new mask, edit, or duplicate selected mask, the mask template documents opens as a new view (1).
+If you choose to create a new mask, edit, or duplicate selected mask, the mask template document will be opened as a new view (1).
 
 There you can create new shapes and modify the mask with standard vector tools (:ref:`vector_graphics`).
 
