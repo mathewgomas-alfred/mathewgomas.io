@@ -48,10 +48,10 @@ Check the FAQ
 
 If you've got a problem with Krita, first check the `FAQ <https://docs.krita.org/en/KritaFAQ.html>`_. See whether your problem is mentioned there. If it is, apply the solution. If that doesn't work for you, do not report a bug. Ask for help on `Krita's Forum <https://forums.kde.org>`_.
 
-Ask on Krita's Forum or IRC Chat Channel
-----------------------------------------
+Ask on ask.krita.org, Krita's Forum or IRC Chat Channel
+-------------------------------------------------------
 
-If uncertain, ask on `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or the `Krita Forum <https://forum.kde.org/krita>`_.
+If uncertain, ask on `ask.krita.org <https://ask.krita.org/>`_, `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or the `Krita Forum <https://forum.kde.org/krita>`_.
 
 Krita's chat channel is maintained on irc.freenode.net. Developers and users hang out to discuss Krita's development and help people who have questions.
 
@@ -98,7 +98,7 @@ Give all information. That means that you should give information about your ope
 
 The problem needs to be clearly stated:
 - what happened,
-- what had you expected to happen instead
+- what had you expected to happen instead,
 - how the problem can be reproduced.
 
 Give a concise and short description, then enumerate the steps needed to reproduce the problem. If you cannot reproduce the problem, and it isn't a crash, think twice before making the report: the developers likely cannot reproduce it either.
@@ -107,7 +107,7 @@ If at all possible, attach your original Krita file (the one that ends in .kra) 
 
 If you think it would be useful, you can also attach or link to a video. Note that the Krita developers and bug triagers are extremely busy, and that it takes less time to read a good description and a set of steps to reproduce than it takes to watch a video for clues for what is going on.
 
-When making a video or a screenshot, include the whole Krita windows, including the titlebar and the statusbar.
+When making a video or a screenshot, include the whole Krita window, including the titlebar and the statusbar.
 
 You're Not Done After You Have Filed the Report
 -----------------------------------------------
@@ -124,7 +124,7 @@ These are the most used statuses:
 - Confirmed: your bug is a bug, but there is no solution yet.
 - Assigned: your bug is a bug, someone is going to work on it. There probably will be a corresponding task on the https://phabricator.kde.org/project/view/8/ developer workboard.
 - Resolved/Fixed: your bug was a genuine problem in Krita's code. The developer has fixed the issue and the solution will be in the next release.
-- Duplicate: your bug has been reported before
+- Duplicate: your bug has been reported before.
 - Needinfo/WaitingForInfo. You need to provide more information. If you do not reply within a reasonable amount of time the bug will be closed.
 - Resolved/Invalid: your report was not about a bug.
 - Resolved/Upstream: the issue you observed is because of a bug in a library Krita uses, or a hardware driver, or your operating system. We cannot do anything about it.
