@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___image_split\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-05 15:42+0300\n"
+"PO-Revision-Date: 2019-05-07 07:57+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -42,6 +42,10 @@ msgid ""
 "allows you to evenly split a document up into several sections. This is "
 "useful for splitting up spritesheets for example."
 msgstr ""
+"Функціональна можливість поділу зображень, викликати яку можна за допомогою"
+" пункту меню :menuselection:`Зображення --> Поділ зображення`, надає вам"
+" змогу правильно поділити документ на декілька частин. Ця можливість,"
+" зокрема, корисна для поділу набору спрайтів."
 
 #: ../../reference_manual/image_split.rst:19
 msgid "Horizontal Lines"
@@ -52,6 +56,8 @@ msgid ""
 "The amount of horizontal lines to split at. 4 lines will mean that the image "
 "is split into 5 horizontal stripes."
 msgstr ""
+"Кількість горизонтальних ліній поділу. 4 лінії означатимуть, що зображення"
+" буде поділено на 5 частин."
 
 #: ../../reference_manual/image_split.rst:22
 msgid "Vertical Lines"
@@ -62,6 +68,8 @@ msgid ""
 "The amount of vertical lines to split at. 4 lines will mean that the image "
 "is split into 5 vertical stripes."
 msgstr ""
+"Кількість вертикальних ліній поділу. 4 лінії означатимуть, що зображення буде"
+" поділено на 5 частин."
 
 #: ../../reference_manual/image_split.rst:24
 msgid "Sort Direction"
@@ -69,7 +77,7 @@ msgstr "Напрямок упорядковування"
 
 #: ../../reference_manual/image_split.rst:27
 msgid "Whether to number the files using the following directions:"
-msgstr ""
+msgstr "Визначає нумерацію файлів з використанням таких напрямків:"
 
 #: ../../reference_manual/image_split.rst:29
 msgid "horizontal"
@@ -96,6 +104,8 @@ msgid ""
 "The prefix at which the files should be saved at. By default this is the "
 "current document name."
 msgstr ""
+"Префікс назв, з яким буде збережено файли. Типовим значенням префікса є назва"
+" поточного документа."
 
 #: ../../reference_manual/image_split.rst:36
 msgid "File Type"
@@ -110,3 +120,6 @@ msgid ""
 "This will result in all slices being saved automatically using the above "
 "prefix. Otherwise Krita will ask the name for each slice."
 msgstr ""
+"Це означає, що усі частини буде автоматично збережено з використанням"
+" вказаного вище префікса. Якщо пункт не буде позначено, Krita проситиме"
+" вказати назву для кожної частини."

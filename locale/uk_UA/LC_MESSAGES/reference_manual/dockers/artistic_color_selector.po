@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___dockers___artistic_color_selector\n"
+"Project-Id-Version: docs_krita_org_reference_manual___dockers___artistic_color"
+"_selector\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:19+0300\n"
+"PO-Revision-Date: 2019-05-07 20:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -60,6 +60,8 @@ msgstr "Бічна панель художнього вибору кольору
 #: ../../reference_manual/dockers/artistic_color_selector.rst:19
 msgid "A color selector inspired by traditional color wheel and workflows."
 msgstr ""
+"Засіб вибору на основі традиційного кола кольорів та традиційних робочих"
+" процесів."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:22
 msgid "Usage"
@@ -79,6 +81,9 @@ msgid ""
 "|mouseleft| changes foreground color (6). |mouseright| changes background "
 "color (7)."
 msgstr ""
+"Виберіть відтінок і насиченість на колі (5), а значення на шкалі значення"
+" (4). Клацання |mouseleft| змінює колір переднього плану (6). Клацання"
+" |mouseright| змінює колір тла (7)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:30
 msgid ""
@@ -86,6 +91,9 @@ msgid ""
 "(black&white circle) and on the value scale (black&white line). Last "
 "selected swatches are outlined."
 msgstr ""
+"Позначка вказуватиме розташування поточного кольору переднього плану на колі"
+" (чорно-білий кружечок) та на шкалі значення (чорно-біла лінія). Останні"
+" вибрані плашки буде позначено рамкою."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:32
 msgid ""
@@ -94,6 +102,10 @@ msgid ""
 "settings are found under :ref:"
 "`artistic_color_selector_docker_selector_settings` menu (3)."
 msgstr ""
+"Параметри кола можна визначити у меню :ref:"
+"`artistic_color_selector_docker_wheel_preferences` (2). Доступ до параметрів"
+" засобу вибору кольору здійснюється за допомогою меню :ref:"
+"`artistic_color_selector_docker_selector_settings` (3)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:35
 msgid "Gamut Masking"
@@ -103,12 +115,18 @@ msgstr "Маскування діапазону кольорів"
 msgid ""
 "You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
 msgstr ""
+"Вибрати маску діапазону кольорів та керувати масками діапазонів кольорів"
+" можна за допомогою :ref:`бічної панелі маски діапазону кольорів <"
+"gamut_mask_docker>`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:39
 msgid ""
 "In the gamut masking toolbar (1) you can toggle the selected mask off and on "
 "(left button). You can also rotate the mask with the rotation slider (right)."
 msgstr ""
+"За допомогою панелі інструментів маскування діапазону кольорів (1) ви можете"
+" вмикати і вимикати вибрану маску (ліва кнопка). Ви також можете обертати"
+" маску за допомогою повзунка обертання (праворуч)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:45
 #: ../../reference_manual/dockers/artistic_color_selector.rst:50
@@ -128,6 +146,8 @@ msgid ""
 "adjust the number of steps of the value scale, number of hue sectors and "
 "saturation rings on the wheel, respectively."
 msgstr ""
+"коригують кількість кроків на шкалі значення, кількість секторів відтінків та"
+" кілець насиченості на колі, відповідно."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:56
 msgid "Continuous Mode"
@@ -139,6 +159,10 @@ msgid ""
 "infinity icon on the right of the slider). If toggled on, the respective "
 "area shows a continuous gradient instead of the discreet swatches."
 msgstr ""
+"Для шкали значення і секторів відтінку також можна встановити неперервний"
+" режим (за допомогою піктограми нескінченності праворуч від повзунка). Якщо"
+" увімкнути цей режим, у відповідній області буде показано неперервний"
+" градієнт замість дискретних плашок."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:59
 msgid "Invert saturation (4)"
@@ -151,12 +175,19 @@ msgid ""
 "perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most "
 "saturated colors in the center."
 msgstr ""
+"Змінює порядок кілець насиченості у секторах відтінків. Типово, у центрі"
+" круга розташовуватиметься сірий, а більшість насичених кольорів"
+" розташовуватиметься на периметрі. Позначення пункту :guilabel:`Інвертувати"
+" насиченість` призведе до того, що сірий розташується на периметрі, а"
+" насиченіші кольори — у центрі."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:62
 msgid ""
 "loads default values for the sliders 1,2 and 3. These default values are "
 "configured in selector settings."
 msgstr ""
+"Завантажує типові значення для повзунків 1, 2 і 3. Ці типові значення"
+" налаштовано у параметрах засобу вибору кольору."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:63
 msgid "Reset to default (5)"
@@ -181,6 +212,8 @@ msgstr "Показувати індикатор кольору тла"
 #: ../../reference_manual/dockers/artistic_color_selector.rst:76
 msgid "toggles the bottom-right triangle with current background color."
 msgstr ""
+"Вмикає або вимикає показ поточного кольору тла у правому нижньому трикутнику"
+" панелі засобу вибору кольору."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:78
 msgid "Selector Appearance (1)"
@@ -195,6 +228,8 @@ msgid ""
 "If checked, the value scale includes a comparative gray scale with lightness "
 "percentage."
 msgstr ""
+"Якщо позначено, до шкали значення буде включено порівняльну шкалу сірого"
+" кольору із відсотковим значенням освітленості."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:81
 msgid ""
@@ -218,10 +253,14 @@ msgid ""
 "and the amount of gamma correction applied to the value scale (set to 1.0 "
 "for linear scale; see :ref:`linear_and_gamma`)."
 msgstr ""
+"Якщо простором кольорів засобу вибору кольору є HSY, ви можете встановити"
+" нетипові коефіцієнти яскравості кольору та величну виправлення гамми, яку"
+" буде застосовано до шкали значення (встановіть 1.0, щоб отримати лінійну"
+" шкалу; див. :ref:`linear_and_gamma`)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:87
 msgid "Gamut Masking Behavior (4)"
-msgstr ""
+msgstr "Поведінка маскування діапазону кольорів (4)"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:87
 msgid ""
@@ -229,6 +268,10 @@ msgid ""
 "colors outside the mask cannot be selected, or to :guilabel:`Just show the "
 "shapes`, where the mask is visible but color selection is not limited."
 msgstr ""
+"Для засобу вибору кольору можна встановити або :guilabel:`Примусову маску"
+" діапазону кольорів`, щоб кольори поза маскою не можна було вибрати, або"
+" :guilabel:`Показувати лише форми`, коли маска буде видимою, але вибір"
+" кольорів не обмежуватиметься."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:90
 msgid "Default Selector Steps Settings"
@@ -240,6 +283,10 @@ msgid ""
 "`Reset to default` button in :ref:"
 "`artistic_color_selector_docker_wheel_preferences` is pressed."
 msgstr ""
+"Значення на колі кольорів та значення на шкалі буде скинуто до типового, коли"
+" буде натиснуто кнопку :guilabel:"
+"`Повернутися до типового` на панелі :ref:`artistic_color_selector_docker_wheel"
+"_preferences`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:93
 msgid "External Info"
@@ -250,12 +297,18 @@ msgid ""
 "`HSI and HSY for Krita’s advanced colour selector by Wolthera van Hövell tot "
 "Westerflier <http://wolthera.info/?p=726>`_"
 msgstr ""
+"`HSI і HSY для розширеного засобу вибору кольорів Krita, автор — Wolthera van"
+" Hövell tot "
+"Westerflier <http://wolthera.info/?p=726>`_"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:95
 msgid ""
 "`The Color Wheel, Part 7 by James Gurney <https://gurneyjourney.blogspot."
 "com/2010/02/color-wheel-part-7.html>`_"
 msgstr ""
+"`Коло кольорів, частина 7, Джеймс Гурні (James Gurney) <"
+"https://gurneyjourney.blogspot."
+"com/2010/02/color-wheel-part-7.html>`_"
 
 #~ msgid ""
 #~ "A round selector that tries to give you the tools to select colors ramps "

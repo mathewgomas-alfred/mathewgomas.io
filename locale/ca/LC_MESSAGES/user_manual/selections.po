@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-04 16:47+0200\n"
+"PO-Revision-Date: 2019-05-07 21:01+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -227,7 +227,6 @@ msgid "Selections"
 msgstr "Seleccions"
 
 #: ../../user_manual/selections.rst:19
-#, fuzzy
 #| msgid ""
 #| "Selections allow you to pick a specific area of your artwork to change. "
 #| "There are many selection tools available that select in different ways. "
@@ -243,11 +242,12 @@ msgid ""
 "to quickly get colored and/or shaded shapes with hard edges."
 msgstr ""
 "Les seleccions permeten seleccionar una àrea específica de la vostra obra "
-"d'art per a canviar-la. Hi ha moltes eines de selecció disponibles que "
-"seleccionen de diferents maneres. Una vegada se selecciona una àrea, la "
-"majoria de les eines romandran dins d'aquesta àrea. En aquesta àrea podreu "
-"dibuixar o utilitzar degradats per obtenir ràpidament formes amb color i/o "
-"ombres amb vores sòlides."
+"d'art per a canviar-la. Això és útil per a quan voleu moure una secció, "
+"transformar-la o pintar-hi sense que afecti a les altres seccions. Hi ha "
+"moltes eines de selecció disponibles que seleccionen de diferents maneres. "
+"Una vegada se selecciona una àrea, la majoria de les eines romandran dins "
+"d'aquesta àrea. En aquesta àrea podreu dibuixar o utilitzar degradats per "
+"obtenir ràpidament formes amb color i/o ombres amb vores sòlides."
 
 #: ../../user_manual/selections.rst:22
 msgid "Creating Selections"
@@ -315,7 +315,7 @@ msgstr "R"
 
 #: ../../user_manual/selections.rst:49
 msgid "Replace the current selection."
-msgstr ""
+msgstr "Substitueix la selecció actual."
 
 #: ../../user_manual/selections.rst:51
 msgid "Intersect"
@@ -331,7 +331,7 @@ msgstr "--"
 
 #: ../../user_manual/selections.rst:51
 msgid "Get the overlapping section of both selections"
-msgstr ""
+msgstr "Obtenir la secció superposada d'ambdues seleccions."
 
 #: ../../user_manual/selections.rst:53
 msgid "Add"
@@ -347,7 +347,7 @@ msgstr "A"
 
 #: ../../user_manual/selections.rst:53
 msgid "Add the new selection to the current selection."
-msgstr ""
+msgstr "Afegeix la selecció nova a la selecció actual."
 
 #: ../../user_manual/selections.rst:55
 msgid "Subtract"
@@ -363,7 +363,7 @@ msgstr "S"
 
 #: ../../user_manual/selections.rst:55
 msgid "Subtract the selection from the current selection."
-msgstr ""
+msgstr "Sostreu la selecció de la selecció actual."
 
 #: ../../user_manual/selections.rst:57
 msgid "Symmetric Difference"
@@ -371,11 +371,11 @@ msgstr "Diferència simètrica"
 
 #: ../../user_manual/selections.rst:57
 msgid "Make a selection where both the new and current do not overlap."
-msgstr ""
+msgstr "Crea una selecció, on tant la nova com l'actual no se superposaran."
 
 #: ../../user_manual/selections.rst:61
 msgid "You can change this in :ref:`tool_options_settings`."
-msgstr ""
+msgstr "Podeu canviar-ho a :ref:`tool_options_settings`."
 
 #: ../../user_manual/selections.rst:63
 msgid ""
@@ -383,6 +383,9 @@ msgid ""
 "activated, you can move it. To quickly go into transform mode, |mouseright| "
 "and select :guilabel:`Edit Selection`."
 msgstr ""
+"Si passeu per sobre d'una selecció amb una eina de selecció i no s'activa cap "
+"selecció, podreu moure-la. Per anar ràpidament al mode de transformació, feu "
+"|mouseright| i seleccioneu :guilabel:`Edita la selecció`."
 
 #: ../../user_manual/selections.rst:66
 msgid "Removing Selections"
@@ -435,7 +438,6 @@ msgid ".. image:: images/selection/Mask-displayMode.jpg"
 msgstr ".. image:: images/selection/Mask-displayMode.jpg"
 
 #: ../../user_manual/selections.rst:82
-#, fuzzy
 #| msgid ""
 #| "Mask display mode is good if you are interested in seeing the various "
 #| "transparency levels for your selection. For example, you can create a "
@@ -447,13 +449,16 @@ msgid ""
 msgstr ""
 "El mode de visualització Màscara és bo si esteu interessat en veure els "
 "diferents nivells de transparència per a la vostra selecció. Per exemple, "
-"podreu crear una selecció amb un degradat."
+"quan teniu una selecció amb vores molt suaus a causa de l'ús de la selecció "
+"suau."
 
 #: ../../user_manual/selections.rst:86
 msgid ""
 "Mask mode is activated as well when a selection mask is the active layer so "
 "you can see the different selection levels."
 msgstr ""
+"El mode màscara també s'activa quan una màscara de selecció és la capa "
+"activa, de manera que veureu els diferents nivells de la selecció."
 
 #: ../../user_manual/selections.rst:89
 msgid "Global Selection Mask (Painting a Selection)"
@@ -475,7 +480,6 @@ msgid ".. image:: images/selection/Global-selection-mask.jpg"
 msgstr ".. image:: images/selection/Global-selection-mask.jpg"
 
 #: ../../user_manual/selections.rst:95
-#, fuzzy
 #| msgid ""
 #| "Once the global Selection Mask is shown, you will need to create a "
 #| "selection. The benefit of using this is that you can paint your selection "
@@ -490,15 +494,16 @@ msgid ""
 msgstr ""
 "Una vegada que es mostra la màscara de selecció global, haureu de crear una "
 "selecció. L'avantatge d'utilitzar-ho, és que podreu pintar la vostra "
-"selecció utilitzant qualsevol de les eines de pintura normals. La informació "
-"es desarà com a escala de grisos. És possible que vulgueu canviar al mode de "
-"visualització Màscara si us resulta difícil veure els resultats."
+"selecció utilitzant qualsevol de les eines de pintura normals, incloses la de "
+"transforma i mou. La informació es desarà com a escala de grisos."
 
 #: ../../user_manual/selections.rst:98
 msgid ""
 "You can enter the global selection mask mode quickly from the selection "
 "tools by doing |mouseright| and select :guilabel:`Edit Selection`."
 msgstr ""
+"Podeu entrar ràpidament al mode màscara de selecció global des de les eines "
+"de selecció fent |mouseright| i seleccionant :guilabel:`Edita la selecció`."
 
 #: ../../user_manual/selections.rst:101
 msgid "Selection from layer transparency"
@@ -520,6 +525,9 @@ msgid ""
 "menuselection:`Select --> Select Opaque`, where you can find specific "
 "actions for each."
 msgstr ""
+"També podeu fer això per a sumar, sostreure i intersectar anant a "
+":menuselection:`Selecciona --> Selecciona l'opac`, on trobareu accions "
+"específiques per a cadascuna."
 
 #: ../../user_manual/selections.rst:110
 msgid ""
@@ -529,6 +537,13 @@ msgid ""
 "kbd:`Ctrl + Shift + Alt` |mouseleft|. This works with any mask that has "
 "pixel or vector data (so everything but transform masks)."
 msgstr ""
+"Si voleu seleccionar ràpidament parts de les capes, podeu mantenir premudes "
+":kbd:`Ctrl + feu` |mouseleft| sobre la *miniatura* de la capa. Per afegir "
+"una selecció, premeu :kbd:`Ctrl + Majús. + feu` |mouseleft|, per eliminar "
+"premeu :kbd:`Ctrl + Alt + feu` |mouseleft| i per a intersectar premeu "
+":kbd:`Ctrl + Majús. + Alt + feu` |mouseleft|. Això funciona amb qualsevol "
+"màscara que tingui dades de píxels o vectorials (per tant, totes menys amb "
+"les màscares de transformació)."
 
 #: ../../user_manual/selections.rst:114
 msgid "Pixel and Vector Selection Types"
@@ -551,7 +566,6 @@ msgid ".. image:: images/selection/Vector-pixel-selections.jpg"
 msgstr ".. image:: images/selection/Vector-pixel-selections.jpg"
 
 #: ../../user_manual/selections.rst:120
-#, fuzzy
 #| msgid ""
 #| "When creating a selection, you can select what type of selection you want "
 #| "from the Mode in the selection tool options: Pixel or Vector."
@@ -561,10 +575,10 @@ msgid ""
 "this will be a vector."
 msgstr ""
 "Quan creeu una selecció, podreu seleccionar quin tipus de selecció voleu des "
-"del mode a les Opcions de l'eina per a la selecció: Píxels o Vectors."
+"del mode a les Opcions de l'eina per a la selecció: Píxels o Vectors. De "
+"manera predeterminada aquest serà vectors."
 
 #: ../../user_manual/selections.rst:122
-#, fuzzy
 #| msgid ""
 #| "Vector selections can modify as any other vector shape with the “Shape "
 #| "Handle” tool, if you try to paint on a vector selection it will be "
@@ -582,18 +596,16 @@ msgid ""
 "selections using the options in the :guilabel:`Selection` menu. Krita will "
 "add a new vector layer for this shape."
 msgstr ""
-"Les seleccions amb vectors poden modificar-se com qualsevol altra forma "
-"vectorial amb l'eina «Maneta de formes», si intenteu pintar sobre una "
-"selecció amb vectors es convertirà en una selecció amb píxels. Les "
-"seleccions amb píxels es poden pintar amb qualsevol eina. També podeu "
-"convertir les formes vectorials a la selecció. Al seu torn, les seleccions "
-"amb vectors es poden crear a partir de formes vectorials i les formes "
-"vectorials es poden convertir en seleccions amb vectors utilitzant les "
-"opcions en el menú :guilabel:`Selecció`. El Krita afegirà una capa vectorial "
-"nova per a aquesta forma."
+"Les seleccions amb vectors poden modificar-se com qualsevol altra :ref:`forma "
+"vectorial` amb l':ref:`shape_selection_tool`, si intenteu pintar sobre una "
+"màscara de selecció amb vectors, aquesta es convertirà en una selecció amb "
+"píxels. També podeu convertir les formes vectorials a la selecció. Al seu "
+"torn, les seleccions amb vectors es poden crear a partir de formes "
+"vectorials i les formes vectorials es poden convertir en seleccions amb "
+"vectors utilitzant les opcions en el menú :guilabel:`Selecció`. El Krita "
+"afegirà una capa vectorial nova per a aquesta forma."
 
 #: ../../user_manual/selections.rst:124
-#, fuzzy
 #| msgid ""
 #| "One of the most common reasons to use vector selections is that they give "
 #| "you the ability to move and transform a selection. Moving the selection "
@@ -609,11 +621,11 @@ msgid ""
 "to precisely adjust bezier curves or add corners to rectangular selections."
 msgstr ""
 "Una de les raons més habituals per a utilitzar les seleccions amb vectors és "
-"que us donen la capacitat de moure i transformar una selecció. Si moveu la "
-"selecció amb una selecció amb píxels, també es mourà el contingut de la "
-"capa. Si moveu la selecció sobre una selecció amb vectors, només es mourà la "
-"selecció. També podeu utilitzar l'eina d'edició de traços per a canviar els "
-"punts d'ancoratge a la selecció"
+"que us donen la capacitat de moure i transformar una selecció sense els tipus "
+"de defectes de reamidar que s'obtenen amb una selecció amb píxels. També "
+"podeu utilitzar l':ref:`shape_edit_tool` per a canviar els punts d'ancoratge "
+"a la selecció, el qual us permetrà ajustar amb precisió les corbes de Bezier "
+"o afegir cantonades a les seleccions rectangulars."
 
 #: ../../user_manual/selections.rst:126
 msgid ""
@@ -668,19 +680,27 @@ msgstr "Mostra o oculta la selecció -- :kbd:`Ctrl + H`"
 #: ../../user_manual/selections.rst:142
 msgid "Select Opaque -- :kbd:`Ctrl +` |mouseleft| on layer thumbnail."
 msgstr ""
+"Selecciona l'opac -- :kbd:`Ctrl + feu` |mouseleft| sobre la miniatura de la "
+"capa."
 
 #: ../../user_manual/selections.rst:143
 msgid ""
 "Select Opaque (Add) -- :kbd:`Ctrl + Shift` |mouseleft| on layer thumbnail."
 msgstr ""
+"Selecciona l'opac (afegeix) -- :kbd:`Ctrl + Majús. + feu` |mouseleft| sobre "
+"la miniatura de la capa."
 
 #: ../../user_manual/selections.rst:144
 msgid ""
 "Select Opaque (Subtract) -- :kbd:`Ctrl + Alt` |mouseleft| on layer thumbnail."
 msgstr ""
+"Selecciona l'opac (sostreu) -- :kbd:`Ctrl + Alt + feu` |mouseleft| sobre la "
+"miniatura de la capa."
 
 #: ../../user_manual/selections.rst:145
 msgid ""
 "Select Opaque (Intersect) -- :kbd:`Ctrl + Shift + Alt` |mouseleft| on layer "
 "thumbnail."
 msgstr ""
+"Selecciona l'opac (intersecta) -- :kbd:`Ctrl + Majús. + Alt + feu` "
+"|mouseleft| sobre la miniatura de la capa."

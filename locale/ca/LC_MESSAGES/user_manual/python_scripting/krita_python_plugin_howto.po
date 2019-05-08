@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 16:45+0200\n"
+"PO-Revision-Date: 2019-05-07 21:07+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1037,6 +1037,12 @@ msgid ""
 "    # And this is how you trigger the signal to be emitted.\n"
 "    self.signal_name.emit(True)"
 msgstr ""
+"# el nom de la senyal s'afegeix a les variables membres de la classe\n"
+"signal_name = pyqtSignal(bool, name='signalName')\n"
+"\n"
+"def emitMySignal(self):\n"
+"    # I així és com s'activa el senyal a emetre.\n"
+"    self.signal_name.emit(True)"
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:344
 msgid "And use the right import:"
@@ -1057,13 +1063,16 @@ msgstr ""
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:351
 msgid "A note on unit tests"
-msgstr ""
+msgstr "Una nota sobre les proves d'una unitat"
 
+# skip-rule: t-acc_obe
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:353
 msgid ""
 "If you want to write unit tests for your plugin, have a look at the `mock "
 "krita module <https://github.com/rbreu/krita-python-mock>`_."
 msgstr ""
+"Si voleu escriure proves de la unitat per al vostre connector, mireu al "
+"`mòdul «mock» del Krita <https://github.com/rbreu/krita-python-mock>`_."
 
 #: ../../user_manual/python_scripting/krita_python_plugin_howto.rst:357
 msgid "Conclusion"

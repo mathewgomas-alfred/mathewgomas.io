@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-04 17:02+0200\n"
+"PO-Revision-Date: 2019-05-07 21:10+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -130,6 +130,10 @@ msgid ""
 "functions of various menu and buttons in Krita without going into minute "
 "details."
 msgstr ""
+"Encara que és molt llarga, aquesta pàgina intenta oferir un breu resum "
+"d'algunes de les funcionalitats més importants del Krita. Intenta ajudar-vos "
+"a comprendre les funcions de diversos menús i botons en el Krita sense "
+"entrar minuciosament en els detalls."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:27
 msgid "Contents"
@@ -140,7 +144,6 @@ msgid "Raster and Vector"
 msgstr "Rasteritzat i vectors"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:32
-#, fuzzy
 #| msgid ""
 #| "Even though Krita is primarily a raster based application, it has some "
 #| "vector editing capabilities as well. If you are new to Digital painting "
@@ -151,10 +154,11 @@ msgid ""
 "medium, it is necessary that you first get yourself acquainted with the "
 "concepts of raster and :ref:`Vector <vector_graphics>` based images."
 msgstr ""
-"Tot i que el Krita és principalment una aplicació basada en el rasteritzat, "
-"també té algunes capacitats d'edició vectorial. Si sou nou al mitjà de la "
-"pintura digital, és necessari que conegueu els conceptes del rasteritzat i "
-"dels vectors."
+"Tot i que el Krita principalment es considera una aplicació basada en el "
+"rasteritzat, també té algunes capacitats d'edició vectorial. Si sou nou al "
+"mitjà de la pintura digital, és necessari que conegueu primer els conceptes "
+"de les imatges basades en el rasteritzat i els :ref:`vectors "
+"<vector_graphics>`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:34
 msgid ""
@@ -177,7 +181,6 @@ msgstr ""
 
 # skip-rule: barb-uns
 #: ../../user_manual/getting_started/basic_concepts.rst:39
-#, fuzzy
 #| msgid ""
 #| "In contrast, vector graphic work is based on mathematical expressions. "
 #| "They are independent of the pixel. For example, when you draw a rectangle "
@@ -198,14 +201,16 @@ msgid ""
 "shape to any extent without any loss in quality. In Krita, everything which "
 "is not on a vector layer is raster based."
 msgstr ""
-"En canvi, el treball gràfic vectorial es basa en expressions matemàtiques. "
-"Aquestes són independents del píxel. Per exemple, quan dibuixeu un rectangle "
-"en una capa vectorial en el Krita, en realitat, dibuixeu trajectes que "
-"passen per punts anomenats nodes que es troben en unes coordenades "
-"específiques dels eixos «X» i «Y». Quan torneu a reamidar o moure aquests "
-"punts, l'ordinador calcularà i tornarà a dibuixar el trajecte i us mostrarà "
-"la forma que ha pres. Per tant, podeu tornar a reamidar la forma vectorial "
-"en qualsevol mesura sense cap pèrdua de qualitat."
+"A diferència de les imatge ràster, En canvi, les imatges amb gràfics "
+"vectorials es basen en expressions matemàtiques. Aquestes són independents "
+"dels píxels. Per exemple, quan dibuixeu un rectangle en una :ref:`capa "
+"vectorial <vector_layers>` en el Krita, en realitat esteu dibuixant "
+"trajectes que passen per punts anomenats nodes, els quals es troben en unes "
+"coordenades específiques dels eixos «X» i «Y». Quan torneu a reamidar o "
+"moure aquests punts, l'ordinador calcularà i tornarà a dibuixar el trajecte "
+"i us mostrarà la forma que ha pres. Per tant, podeu tornar a reamidar la "
+"forma vectorial en qualsevol mesura sense cap pèrdua de qualitat. Al Krita, "
+"tot el que no es troba en una capa vectorial està basat en el rasteritzat."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:42
 msgid "Images, Views and Windows"
@@ -229,7 +234,6 @@ msgstr "El més important és la **imatge**."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:51
-#, fuzzy
 #| msgid ""
 #| "This is an individual copy of the image you opened or made via the file "
 #| "dialog, and where you edit your file. Krita can allow you to open the "
@@ -244,18 +248,13 @@ msgid ""
 "guilabel:`File` menu, or to save it as a new file, or make an incremental "
 "copy."
 msgstr ""
-"Aquesta és una còpia individual de la imatge que heu obert o creat "
-"mitjançant el diàleg de fitxer i on editareu el vostre fitxer. El Krita "
-"permet obrir el fitxer com a una còpia nova a través del menú :guilabel:"
-"`Fitxer`, desar-lo com a un fitxer nou o fer un desament incremental. Una "
-"imatge conté capes, un espai de color, una mida del llenç i metadades com "
-"ara el creador, dades creades i PPP (dpi). El Krita pot obrir múltiples "
-"imatges alhora, podreu canviar entre elles mitjançant el menú :guilabel:"
-"`Finestra`."
+"Aquesta és una còpia individual de la imatge que heu obert o creat mitjançant "
+"el diàleg de fitxer. El Krita permet obrir el fitxer com a una còpia nova a "
+"través del menú :guilabel:`Fitxer`, desar-lo com a un fitxer nou o crear un "
+"desament incremental."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:53
-#, fuzzy
 #| msgid ""
 #| "This is an individual copy of the image you opened or made via the file "
 #| "dialog, and where you edit your file. Krita can allow you to open the "
@@ -270,14 +269,10 @@ msgid ""
 "Krita can open multiple images at once, you can switch between them via the :"
 "guilabel:`Window` menu."
 msgstr ""
-"Aquesta és una còpia individual de la imatge que heu obert o creat "
-"mitjançant el diàleg de fitxer i on editareu el vostre fitxer. El Krita "
-"permet obrir el fitxer com a una còpia nova a través del menú :guilabel:"
-"`Fitxer`, desar-lo com a un fitxer nou o fer un desament incremental. Una "
-"imatge conté capes, un espai de color, una mida del llenç i metadades com "
-"ara el creador, dades creades i PPP (dpi). El Krita pot obrir múltiples "
-"imatges alhora, podreu canviar entre elles mitjançant el menú :guilabel:"
-"`Finestra`."
+"Una imatge conté dades relatives a les capes, l'espai de color de la imatge i "
+"de les capes, la mida del llenç i les metadades com ara el creador, la data "
+"de creació i els PPP. El Krita pot obrir múltiples imatges alhora, podreu "
+"canviar entre elles mitjançant el menú :guilabel:`Finestra`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:55
 msgid ""
@@ -357,7 +352,6 @@ msgstr ""
 "amb un número de versió afegit."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:68
-#, fuzzy
 #| msgid ""
 #| "These options are great for people doing production work, who need to "
 #| "switch between files quickly or have backup files in case they do "
@@ -374,9 +368,10 @@ msgstr ""
 "Aquestes opcions són excel·lents per a les persones que realitzen treballs "
 "de producció, les quals necessiten canviar entre fitxers amb rapidesa o "
 "tenir fitxers de còpia de seguretat en el cas de fer quelcom extrem. El "
-"Krita també té un sistema de còpia de seguretat dels fitxers en forma de "
+"Krita també té un sistema de còpia de seguretat dels fitxers en la forma de "
 "desament automàtic i fitxers de resguard i per a la recuperació de "
-"bloqueigs. Podeu configurar-los als ajustaments generals."
+"bloqueigs. Podeu configurar l'opció per a aquestes característiques als "
+"Ajustaments generals."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:70
 msgid "You view the image via a **View**."
@@ -384,7 +379,6 @@ msgstr "Veureu la imatge a través d'una **vista**."
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:75
-#, fuzzy
 #| msgid ""
 #| "A view is a window onto your image. Krita allows you to have multiple "
 #| "views, and you can manipulate the view to zoom, rotate and mirror and "
@@ -401,12 +395,12 @@ msgid ""
 "one side. Mirroring with :kbd:`M` makes such skewing easy to identify."
 msgstr ""
 "Una vista és una finestra amb la vostra imatge. El Krita permet tenir "
-"múltiples vistes i podreu manipular la vista per fer zoom, girar, emmirallar "
-"i modificar el color de manera que veureu la imatge sense editar-la. Això és "
-"molt útil per als artistes, ja que canviar la manera de veure la imatge és "
-"una manera comuna de diagnosticar els errors, com ara quan s'inclina cap a "
-"un costat. Emmirallar amb la drecera :kbd:`M` fa que aquesta inclinació "
-"sigui fàcil d'identificar."
+"múltiples vistes i podreu manipular la vista per a fer zoom, girar, "
+"emmirallar i modificar el color de manera que veureu la imatge sense "
+"editar-la. Això és molt útil per als artistes, ja que canviar la manera de "
+"veure la imatge és una manera habitual de diagnosticar alguns dels errors "
+"habituals, com ara quan s'inclina cap a un costat. Emmirallar amb la drecera "
+":kbd:`M` farà que aquesta inclinació sigui fàcil d'identificar."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:77
 msgid ""
@@ -555,14 +549,13 @@ msgstr ""
 "de les muntanyes, i editar-ne cadascun sense afectar a l'altre."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:130
-#, fuzzy
 #| msgid "Krita has many layer-types, each doing a slightly different thing:"
 msgid ""
 "Krita has many layer-types, each layer type is unique and has its own "
 "usecase:"
 msgstr ""
-"El Krita disposa de molts tipus de capes, cadascuna fa quelcom una mica "
-"diferent:"
+"El Krita disposa de molts tipus de capes, cada tipus de capa és únic i té el "
+"seu propi caràcter:"
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:132
@@ -570,7 +563,6 @@ msgid ":ref:`paint_layers`"
 msgstr ":ref:`paint_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:133
-#, fuzzy
 #| msgid ""
 #| "Also known as raster layers, and the most common layer type, you will be "
 #| "painting on these."
@@ -578,7 +570,7 @@ msgid ""
 "These are raster layers, and the most common and default layer type in "
 "Krita, you will be painting on these."
 msgstr ""
-"També conegudes com a capes ràster i el tipus de capa més comú, pintareu "
+"Aquestes són les capes ràster, i el tipus de capa més habitual, pintareu "
 "sobre aquestes."
 
 # skip-rule: t-acc_obe
@@ -629,7 +621,6 @@ msgid ":ref:`file_layers`"
 msgstr ":ref:`file_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:141
-#, fuzzy
 #| msgid ""
 #| "These refer to an outside existing image, and update as soon as the "
 #| "outside image updates. Useful for logos and emblems that change a lot."
@@ -637,7 +628,7 @@ msgid ""
 "These refer to an existing image outside of Krita and update as soon as the "
 "outside image updates. Useful for logos and emblems that change a lot."
 msgstr ""
-"Aquestes es refereixen a una imatge existent a l'exterior i s'actualitzen "
+"Aquestes es refereixen a una imatge existent a fora del Krita i s'actualitzen "
 "tan aviat com s'actualitza la imatge externa. Útil per a logotips i emblemes "
 "que canvien molt."
 
@@ -664,10 +655,12 @@ msgid ""
 "These layers help us to apply some filters which will affect a composite "
 "image made from all the layers beneath them."
 msgstr ""
+"Aquestes capes ens ajudaran a aplicar alguns filtres que afectaran a una "
+"imatge composta feta de totes les capes a sota seu."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:147
 msgid "You can manipulate the content of the layers with **Tools**."
-msgstr "Podeu manipular el contingut de les capes amb les **eines**."
+msgstr "Podeu manipular el contingut de les capes amb les **Eines**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:152
 msgid ""
@@ -699,7 +692,6 @@ msgid "Vector Tools"
 msgstr "Eines vectorials"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:157
-#, fuzzy
 #| msgid ""
 #| "This is the upper row of tools, which are used to edit vectors. "
 #| "Interestingly enough, all paint tools except the freehand brush allow you "
@@ -711,17 +703,17 @@ msgid ""
 "draw shapes on the vector layers. The resulting object won't use the brush "
 "preset for outline unlike the ones made with paint tools on normal layer."
 msgstr ""
-"Són la fila superior d'eines, les quals s'utilitzen per editar els vectors. "
-"Curiosament, totes les eines de pintura, excepte el pinzell a mà alçada, "
-"permeten dibuixar formes a les capes vectorials. No obstant això, a aquestes "
-"no se'ls aplica un efecte del motor de pinzells."
+"Aquestes són la fila superior d'eines, les quals s'utilitzen per editar els "
+"vectors. Curiosament, totes les eines de pintura, excepte el pinzell a mà "
+"alçada, permeten dibuixar formes a les capes vectorials. L'objecte resultant "
+"no utilitzarà el pinzell predefinit per als contorns a menys que no s'hagin "
+"creat amb les eines de pintura sobre una capa normal."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:158
 msgid "Selection Tools"
 msgstr "Eines de selecció"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:159
-#, fuzzy
 #| msgid ""
 #| "Selections allow you to edit a very specific area of the layer you are "
 #| "working on without affecting the others. The selection tools allow you "
@@ -737,10 +729,10 @@ msgid ""
 msgstr ""
 "Les seleccions permeten editar una àrea molt específica de la capa en la "
 "qual esteu treballant sense afectar a les altres. Les eines de selecció "
-"permeten modificar la selecció actual. Això no és diferent de l'ús de fluids "
-"d'emmascarament en la pintura tradicional, però mentre que emprar fluids i "
-"pel·lícula per a l'emmascarament sovint és desordenat i delicat, les "
-"seleccions són molt més fàcils d'emprar."
+"permeten dibuixar o modificar la selecció actual. Això no és com utilitzar "
+"els fluids d'emmascarament en el mètode de la pintura tradicional, però "
+"mentre que emprar fluids i pel·lícula per a l'emmascarament sovint és "
+"desordenat i delicat, les seleccions són molt més fàcils d'emprar."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:160
 msgid "Guide Tools"
@@ -755,7 +747,6 @@ msgid "Transform Tools"
 msgstr "Eines de transformació"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
-#, fuzzy
 #| msgid ""
 #| "These are tools that allow you to transform your image. More on that "
 #| "later."
@@ -763,11 +754,9 @@ msgid ""
 "These are tools that allow you to transform your layer or object on the "
 "canvas."
 msgstr ""
-"Aquestes són les eines que permeten transformar la imatge. Més sobre això "
-"més endavant."
+"Aquestes són les eines que permeten transformar la capa o objecte en el llenç."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:165
-#, fuzzy
 #| msgid ""
 #| "All tools can be found in the toolbox, and information can be found in "
 #| "the tools section of the manual."
@@ -775,15 +764,14 @@ msgid ""
 "All tools can be found in the toolbox, and information about individual "
 "tools can be found in the :ref:`tools <cat_tools>` section of the manual."
 msgstr ""
-"Totes les eines es troben al quadre d'eines i trobareu la informació a la "
-"secció d'eines del manual."
+"Totes les eines es troben al quadre d'eines i trobareu la informació sobre "
+"cada eina individual a la secció :ref:`Eines <cat_tools>` del manual."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:168
 msgid "Brush Engines"
 msgstr "Motors de pinzell"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:170
-#, fuzzy
 #| msgid ""
 #| "Brush engines, like mentioned before, take a path and tablet information "
 #| "and add effects to it, making a stroke."
@@ -792,10 +780,9 @@ msgid ""
 "add effects to it, making a stroke."
 msgstr ""
 "Els motors de pinzell, com s'ha mencionat anteriorment, prenen informació "
-"d'un traç i de la tauleta i li afegeixen els efectes, fent-ho en un traç."
+"d'un traç i de la tauleta, i li afegeixen els efectes, creant un traç."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:172
-#, fuzzy
 #| msgid ""
 #| "Engine is a term programmers use to describe a complex interacting set of "
 #| "code that is the core for a certain functionality, and is highly "
@@ -811,13 +798,13 @@ msgid ""
 "engine drives the look and feel of the brush, and different brush engines "
 "have different results."
 msgstr ""
-"El motor és un terme que els programadors utilitzen per a descriure un "
-"conjunt complex de codi interactiu que és el nucli d'una determinada "
-"funcionalitat i és altament configurable. En resum, com el motor del cotxe "
-"que conduïu; el cotxe, el tipus de motor i la seva configuració afectarà a "
-"la forma en què l'utilitzeu, el motor del pinzell impulsa l'aspecte i el "
-"comportament del pinzell i diferents motors de pinzell tenen resultats "
-"diferents."
+"El motor és un terme que els desenvolupadors del Krita utilitzen per a "
+"descriure un conjunt complex de codi interactiu, que és el nucli d'una "
+"determinada funcionalitat i és altament configurable. En resum, com el motor "
+"del cotxe que conduïu; el cotxe, el tipus de motor i la seva configuració "
+"afectarà a la forma en què l'utilitzeu, el motor del pinzell impulsa "
+"l'aspecte i el comportament del pinzell i diferents motors de pinzell tenen "
+"resultats diferents."
 
 # skip-rule: t-2p_sp,t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:174
@@ -833,7 +820,6 @@ msgid ".. image:: images/brushes/Krita_example_differentbrushengines.png"
 msgstr ".. image:: images/brushes/Krita_example_differentbrushengines.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
-#, fuzzy
 #| msgid ""
 #| "**Left:** pixel brush, **Center:** color smudge brush, **Right:** sket "
 #| "ceterah brush"
@@ -842,10 +828,9 @@ msgid ""
 "brush"
 msgstr ""
 "**Esquerra:** pinzell de píxels, **Centre:** pinzell amb esborronat del "
-"color, **Dreta** pinzell d'esbós"
+"color, **Dreta** pinzell d'esbós."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:181
-#, fuzzy
 #| msgid ""
 #| "For example, the pixel-brush engine is simple and allows you to do most "
 #| "of your basic work, but if you do a lot of painting, the color smudge "
@@ -862,10 +847,10 @@ msgstr ""
 "part del vostre treball bàsic, però si feu una gran quantitat de pintura, el "
 "motor del pinzell amb esborronat del color pot ser més útil. Encara que "
 "sigui més lent que utilitzar el motor del pinzell de píxels, la seva barreja "
-"de colors us permetrà treballar més ràpidament."
+"de colors us permetrà treballar més ràpid quan necessiteu barrejar i mesclar "
+"els colors."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:183
-#, fuzzy
 #| msgid ""
 #| "If you want something totally different from that, the sket ceterah brush "
 #| "engine helps with making messy lines, and the shape brush engine allows "
@@ -1383,7 +1368,6 @@ msgstr ""
 
 # skip-rule: t-apo_ini
 #: ../../user_manual/getting_started/basic_concepts.rst:309
-#, fuzzy
 #| msgid ""
 #| "We can use these filters to make our ghost lady look even more ethereal, "
 #| "by selecting the ghost lady's layer, and then creating a clone layer. We "
@@ -1412,7 +1396,6 @@ msgstr ""
 
 # skip-rule: t-sp_2p,t-2p_sp,t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:314
-#, fuzzy
 #| msgid ""
 #| "Layer Effects or Layer Styles are :program:`Photoshop's` unique brand of "
 #| "Filter Masks that are a little faster than regular masks, but not as "
@@ -1424,17 +1407,16 @@ msgid ""
 "versatile. They are available by right clicking a layer and selecting 'layer "
 "style'."
 msgstr ""
-"Els efectes de capa o els estils de la capa són marca exclusiva de :program:"
-"`Photoshop`. Les màscares de filtratge són una mica més ràpides que les "
-"màscares estàndard, però no tan versàtils. Estan disponibles fent clic dret "
-"sobre una capa i seleccionant «estil de capa»."
+"Els efectes de la capa o els estils de la capa són màscares de filtratge "
+"popularitzades pel :program:`Photoshop`, les quals són una mica més ràpides "
+"que les màscares estàndard, però no tan versàtils. Estan disponibles fent "
+"clic dret sobre una capa i seleccionant «Estil de la capa»."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:317
 msgid "Transformations"
 msgstr "Transformacions"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:319
-#, fuzzy
 #| msgid ""
 #| "**Transformations** are kind of like filters, in that these are "
 #| "operations done on the pixels of an image.  We have a regular image and "
@@ -1446,7 +1428,7 @@ msgid ""
 "transformations in the image and layer top menus, so that you may resize, "
 "flip and rotate the whole image."
 msgstr ""
-"Les **transformacions** són tipus de filtres, en aquestes es tracta "
+"Les **transformacions** són semblants als filtres, en aquestes es tracta "
 "d'operacions realitzades sobre els píxels d'una imatge. Tenim una imatge "
 "estàndard i una capa àmplia de transformacions en els menús de la imatge i "
 "la capa de a sobre, de manera que podreu reamidar, invertir i girar tota la "
@@ -1495,10 +1477,9 @@ msgstr ""
 "menor qualitat."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
-#, fuzzy
 #| msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 msgid ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
 msgid ""
@@ -1540,7 +1521,6 @@ msgid ":ref:`animation`"
 msgstr ":ref:`animation`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:353
-#, fuzzy
 #| msgid ""
 #| "In 3.0, Krita got raster animation support. You can use the timeline, "
 #| "animation and onionskin dockers, plus Krita's amazing variety of brushes "
@@ -1552,18 +1532,17 @@ msgid ""
 "of brushes to do raster based animations, export those, and then turn them "
 "into movies or gifs."
 msgstr ""
-"En la versió 3.0, el Krita va aconseguir una implementació de l'animació "
-"rasteritzada. Podeu utilitzar els acobladors Línia de temps, Animació i Pell "
-"de ceba, a més de l'increïble varietat de pinzells del Krita per a crear "
-"animacions basades en el rasteritzat; exportar-les i després convertir-les "
-"en pel·lícules o GIF."
+"A partir de la versió 3.0, el Krita va aconseguir una implementació per a "
+"l'animació rasteritzada. Podeu utilitzar els acobladors Línia de temps, "
+"Animació i Pell de ceba, a més de l'increïble varietat de pinzells del Krita "
+"per a crear animacions basades en el rasteritzat; exportar-les i després "
+"convertir-les en pel·lícules o GIF."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:356
 msgid "Assistants, Grids and Guides"
 msgstr "Assistents, quadrícules i guies"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:358
-#, fuzzy
 #| msgid ""
 #| "With all this technical stuff, you might forget that Krita is a painting "
 #| "program. Like how an illustrator in real life can have all sorts of "
@@ -1575,15 +1554,14 @@ msgid ""
 "offers a variety of tools:"
 msgstr ""
 "Amb tot aquest material tècnic, podríeu oblidar que el Krita és un programa "
-"de pintura. Igual que un il·lustrador a la vida real pot tenir tot tipus "
-"d'equipament per a facilitar el dibuix, el Krita també ofereix una varietat "
-"d'eines:"
+"de pintura. Igual que quan es treballa amb un mitjà tradicional, com un "
+"il·lustrador, disposareu de tot tipus d'equipament per a facilitar el "
+"dibuix, el Krita també ofereix una varietat d'eines:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
-#, fuzzy
 #| msgid ".. image:: images/en/Krita_basic_assistants.png"
 msgid ".. image:: images/assistants/Krita_basic_assistants.png"
-msgstr ".. image:: images/en/Krita_basic_assistants.png"
+msgstr ".. image:: images/assistants/Krita_basic_assistants.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
 msgid "Krita's vanishing point assistants in action"
@@ -1595,7 +1573,6 @@ msgid ":ref:`grids_and_guides_docker`"
 msgstr ":ref:`grids_and_guides_docker`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:366
-#, fuzzy
 #| msgid ""
 #| "Very straightforward guiding tool which shows grids or guiding lines that "
 #| "can be configured."
@@ -1603,8 +1580,8 @@ msgid ""
 "A very straightforward guiding tool which shows grids or guiding lines that "
 "can be configured."
 msgstr ""
-"Eina de guia molt senzilla que mostra les quadrícules o línies guia que es "
-"poden configurar."
+"Una eina de guia molt senzilla que mostra les quadrícules o línies guia que "
+"es poden configurar."
 
 # skip-rule: t-acc_obe
 #: ../../user_manual/getting_started/basic_concepts.rst:367
@@ -1638,7 +1615,6 @@ msgstr ""
 "l'eina."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:372
-#, fuzzy
 #| msgid ""
 #| "These guides are saved into Krita's native format, which means you can "
 #| "pick up your work easily afterwards."

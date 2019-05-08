@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___modulo\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___modulo"
+"\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 21:11+0300\n"
+"PO-Revision-Date: 2019-05-07 20:16+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -49,6 +49,8 @@ msgid ""
 "Furthermore, this would imply that modulo modes are beneficial for abstract "
 "art, and manipulation of gradients."
 msgstr ""
+"Крім того, з цього слідує, що режими залишків дають добрі результати для"
+" абстрактних творів та роботи з градієнтами."
 
 #: ../../reference_manual/blending_modes/modulo.rst:20
 #: ../../reference_manual/blending_modes/modulo.rst:24
@@ -113,6 +115,8 @@ msgid ""
 "Performs a modulo calculation using the sum of blend layer and the minimum "
 "possible value after zero."
 msgstr ""
+"Виконує обчислення залишку на основі суми значення шару змішування та"
+" мінімального можливого значення після нуля."
 
 #: ../../reference_manual/blending_modes/modulo.rst:58
 msgid ""
@@ -125,6 +129,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/modulo.rst:58
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo**."
 msgstr ""
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
+"**Залишок**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:60
 #: ../../reference_manual/blending_modes/modulo.rst:64
@@ -137,6 +143,9 @@ msgid ""
 "possible value after zero. As this is a continuous modes, anything between "
 "odd to even numbers are inverted."
 msgstr ""
+"Виконує обчислення залишку на основі суми значення шару змішування та"
+" мінімального можливого значення після нуля. Оскільки це неперервний режим."
+" усі значення між непарними і парними числами інвертуватимуться."
 
 #: ../../reference_manual/blending_modes/modulo.rst:71
 msgid ""
@@ -151,6 +160,8 @@ msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo - "
 "Continuous**."
 msgstr ""
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
+"**Залишок - неперервний**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:73
 #: ../../reference_manual/blending_modes/modulo.rst:77
@@ -174,6 +185,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/modulo.rst:85
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift**."
 msgstr ""
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
+"**Зсув за модулем**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:87
 #: ../../reference_manual/blending_modes/modulo.rst:91
@@ -201,3 +214,5 @@ msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift - "
 "Continuous**."
 msgstr ""
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
+"**Зсув за модулем - неперервний**."

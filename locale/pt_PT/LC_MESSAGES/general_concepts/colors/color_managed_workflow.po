@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
+"POT-Creation-Date: 2019-05-07 04:09+0200\n"
 "PO-Revision-Date: 2019-04-18 12:08+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -30,18 +30,6 @@ msgstr ""
 "X-POFile-SpellExtra: RawTheraphee VFX digiKam datafiles Look pngcrush Up\n"
 "X-POFile-SpellExtra: lut colormanagement Color up JPG optimizadores\n"
 "X-POFile-SpellExtra: Digikam Table\n"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-#, fuzzy
-#| msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-#, fuzzy
-#| msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 #, fuzzy
@@ -119,19 +107,30 @@ msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ""
 ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
 
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/en/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+#, fuzzy
+#| msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
+
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
 msgstr "Como funciona um processo gerido por cores."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "Color"
-msgstr ""
+msgstr "Cor"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
-#, fuzzy
 #| msgid "What is color management?"
 msgid "Color Management"
-msgstr "O que é a gestão de cores?"
+msgstr "Gestão de Cores"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 #, fuzzy
@@ -141,7 +140,7 @@ msgstr "Perfis ICC"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "OCIO"
-msgstr ""
+msgstr "OCIO"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:17
 msgid "Color Managed Workflow"

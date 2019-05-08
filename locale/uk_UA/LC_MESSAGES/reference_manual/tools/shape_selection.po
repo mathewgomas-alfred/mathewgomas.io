@@ -10,7 +10,7 @@ msgstr ""
 "\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-06 22:09+0300\n"
+"PO-Revision-Date: 2019-05-07 16:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -128,8 +128,8 @@ msgstr "Клацнути |mouseleft| на окремій формі для її 
 msgid ""
 "*Blue selection* (drag left to right): selects only shapes fully covered."
 msgstr ""
-"*Синє позначення* (перетягування зліва праворуч): позначає лише форми, які"
-" повністю потраплять до області позначення."
+"*Синє позначення* (перетягування зліва праворуч): позначає лише форми, які "
+"повністю потраплять до області позначення."
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "|mouseleft| and drag to select multiple shapes."
@@ -139,8 +139,8 @@ msgstr ""
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "*Green selection* (drag right to left): selects all the touched shapes."
 msgstr ""
-"*Зелене позначення* (перетягування справа ліворуч): позначає усі форми, хоч"
-" одна точка яких потрапляє до позначеної області."
+"*Зелене позначення* (перетягування справа ліворуч): позначає усі форми, хоч "
+"одна точка яких потрапляє до позначеної області."
 
 #: ../../reference_manual/tools/shape_selection.rst:39
 msgid ""
@@ -155,6 +155,9 @@ msgid ""
 "Blue selection: left-to-right, selects fully covered images. --  Green "
 "selection: right-to-left, selects touched shapes."
 msgstr ""
+"Синє позначення: зліва праворуч, позначає форми, які повністю потрапляють до"
+" намальованої зони. — Зелене позначення: справа ліворуч, позначає форми, хоч"
+" одна точка яких потрапляє до намальованої зони."
 
 #: ../../reference_manual/tools/shape_selection.rst:42
 msgid "Placement, Scale, Angle and Distortion"
@@ -166,6 +169,10 @@ msgid ""
 "box will also have square handles. You can use this bounding box to do "
 "adjust: placement, scale, angle and distortion of the selected object."
 msgstr ""
+"Після позначення, навколо об'єкта буде намальовано пунктирну обмежувальну"
+" рамку. На рамці буде показано квадратні елементи керування. Ви можете"
+" скористатися обмежувальною рамкою для таких коригувань: зміни розташування,"
+" масштабування, зміни кута повороту та викривлення позначеного об'єкта."
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid ""
@@ -188,6 +195,8 @@ msgid ""
 "|mouseleft| and hold inside the bounding box, while holding move the shape "
 "to the desired position."
 msgstr ""
+"Натискання |mouseleft| всередині обмежувальної рамки із утриманням кнопки під"
+" час пересування вказівника призводить до пересування форми."
 
 #: ../../reference_manual/tools/shape_selection.rst:54
 msgid "Scale"
@@ -198,6 +207,8 @@ msgid ""
 "|mouseleft| and hold inside any of the square handles, move to adjust the "
 "dimensions of the object."
 msgstr ""
+"Натискання |mouseleft| із утриманням натиснутої кнопки всередині квадратних"
+" елементів керування надає змогу скоригувати розміри об'єкта."
 
 #: ../../reference_manual/tools/shape_selection.rst:56
 msgid "Angle"
@@ -208,6 +219,9 @@ msgid ""
 "Place the cursor slightly outside any of the corner handles. |mouseleft| and "
 "drag to adjust the angle of the shape."
 msgstr ""
+"Якщо розташувати вказівник трохи зовні від кутових елементів керування,"
+" натиснути |mouseleft| і перетягнути вказівник, можна скоригувати кут"
+" повороту форми."
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid "Distortion"
@@ -218,6 +232,9 @@ msgid ""
 "Place the cursor slightly outside any of the middle handles. |mouseleft| and "
 "drag to skew the shape."
 msgstr ""
+"Якщо розташувати вказівник трохи зовні від будь-якого із середніх елементів"
+" керування, натиснути |mouseleft| і перетягнути вказівник, можна перекосити"
+" форму."
 
 #: ../../reference_manual/tools/shape_selection.rst:62
 msgid "Tool Options"
@@ -240,10 +257,15 @@ msgid ""
 "to set precisely the 'x' and 'y' coordinates, and also the width and height "
 "of the shape."
 msgstr ""
+"«Геометрія» є першим розділом параметрів інструмента. За допомогою цього"
+" розділу ви можете встановити точні значення координат X та Y форми, а також"
+" вказати ширину і висоту форми."
 
 #: ../../reference_manual/tools/shape_selection.rst:77
 msgid "Enabled: when scaling, it will scale the stroke width with the shape."
 msgstr ""
+"Увімкнено: при масштабуванні, товщина штрихів форми масштабується разом із"
+" формою."
 
 #: ../../reference_manual/tools/shape_selection.rst:78
 msgid "Uniform scaling"
@@ -298,6 +320,10 @@ msgid ""
 "please refer to the following \"**Fill**\" section for more details on how "
 "to use both of them."
 msgstr ""
+"За допомогою першого набору кнопок можна встановити заповнення штриха:"
+" *Немає*, *Колір* або *Градієнт*. Ті самі варіанти передбачено для заповнення"
+" форми. Будь ласка, зверніться до наступного розділу **Заповнення**, щоб"
+" дізнатися більше про використання цих варіантів."
 
 #: ../../reference_manual/tools/shape_selection.rst:101
 msgid "Then, there are the settings for the stroke style:"
@@ -325,6 +351,8 @@ msgid ""
 "Sets the stroke cap and stroke corner style, this can be accessed by "
 "pressing the three dots button next to the thickness entry."
 msgstr ""
+"Встановлює кінчик штриха та стиль кутів. Доступ до списку можна отримати"
+" натисканням кнопки з трьома крапками, розташованої поряд із пунктом товщини."
 
 #: ../../reference_manual/tools/shape_selection.rst:107
 msgid "Line-style"
@@ -335,6 +363,8 @@ msgid ""
 "Sets the line style of the stroke: *solid*, *dashes*, *dots*, or mixes of "
 "*dashes and dots*."
 msgstr ""
+"Встановлює стиль лінії штриха: *суцільний*, *риски*, *крапки* або суміш"
+" *рисок і крапок*."
 
 #: ../../reference_manual/tools/shape_selection.rst:110
 msgid "Markers"
@@ -350,7 +380,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:113
 msgid "Fill"
-msgstr "Заповнити"
+msgstr "Заповнення"
 
 #: ../../reference_manual/tools/shape_selection.rst:118
 msgid ""
@@ -358,6 +388,9 @@ msgid ""
 "the **Stroke** section, the features are the same for both the fill of the "
 "stroke and the fill of the shape. Here is the explanation for both:"
 msgstr ""
+"Цей розділ визначає як буде заповнено кольором форму. Як ми вже згадували у"
+" розділі **Штрих**, ці параметри є тотожними для заповнення штриха і"
+" заповнення форми. Тут наведено пояснення щодо обох цих заповнень:"
 
 #: ../../reference_manual/tools/shape_selection.rst:120
 msgid "A fill can be: *solid color*, *gradient*, or *none* (transparent)"
@@ -387,8 +420,8 @@ msgid ""
 "As the name implies this type fills the shape with a gradient. It has the "
 "following options:"
 msgstr ""
-"Якщо можна зрозуміти з назви, це тип заповнення форми градієнтом. Передбачено"
-" такі параметри:"
+"Якщо можна зрозуміти з назви, це тип заповнення форми градієнтом. "
+"Передбачено такі параметри:"
 
 #: ../../reference_manual/tools/shape_selection.rst:129
 msgid "Type"
@@ -415,8 +448,8 @@ msgid ""
 "A menu for selecting a base gradient from a set of predefined gradient "
 "presets, which can be edited as desired."
 msgstr ""
-"Меню для вибору базового градієнта із набору попередньо визначених варіантів,"
-" яке можна редагувати, якщо потрібно."
+"Меню для вибору базового градієнта із набору попередньо визначених "
+"варіантів, яке можна редагувати, якщо потрібно."
 
 #: ../../reference_manual/tools/shape_selection.rst:135
 msgid "Save Gradient"
@@ -439,6 +472,13 @@ msgid ""
 "delete the stops, |mouseleft| drag them to left or right until the end of "
 "the line."
 msgstr ""
+"Представлення того, як мають виглядати кольори градієнта. Контрольні точки"
+" буде позначено трикутниками. Дві точки є стандартними: одна вказує на"
+" початок, інша — на кінець. Ви можете створити додаткові точки клацанням у"
+" будь-якій точці лінії. Щоб вибрати контрольну точку, наведіть вказівник на"
+" середню частину трикутника і клацніть |mouseleft|. Щоб вилучити контрольну"
+" точку, наведіть на неї вказівник миші, натисніть |mouseleft| і перетягніть"
+" її за межі лінії."
 
 #: ../../reference_manual/tools/shape_selection.rst:140
 msgid "Flip Gradient"
@@ -471,13 +511,11 @@ msgid ""
 "outline. The selected stop triangle will change its color and opacity "
 "accordingly when these options are changed."
 msgstr ""
+"Позначений трикутник контрольної точки буде виокремлено світло-синім"
+" контуром. Трикутник позначеної точки змінює колір і непрозорість відповідно"
+" до зміни параметрів."
 
 #: ../../reference_manual/tools/shape_selection.rst:153
-#| msgid ""
-#| "You can edit the gradient in two ways. The first one is the actual "
-#| "gradient in the docker that you can manipulate. Vectors always use stop-"
-#| "gradients. The other way to edit gradients is editing their position on "
-#| "canvas."
 msgid ""
 "You can edit the gradient in two ways. The first one is the actual gradient "
 "in the docker that you can manipulate. Vectors always use stop-gradients. "

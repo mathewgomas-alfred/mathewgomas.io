@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-02-27 11:57+0100\n"
+"PO-Revision-Date: 2019-05-07 10:29+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,10 +18,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:2
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -29,8 +28,8 @@ msgid ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: muislinks"
 
 #: ../../<rst_epilog>:10
 msgid ""
@@ -41,7 +40,6 @@ msgstr ""
 "   :alt: toolshapeselection"
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -49,11 +47,10 @@ msgid ""
 ".. image:: images/tools/shape-selection-menu-geometry.png\n"
 "   :alt: Tool options: Geometry tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/tools/shape-selection-menu-geometry.png\n"
+"   :alt: Hulpmiddelopties: Geometriehulpmiddel."
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -61,11 +58,10 @@ msgid ""
 ".. image:: images/tools/shape-selection-menu-stroke.png\n"
 "   :alt: Tool options: Stroke tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/tools/shape-selection-menu-stroke.png\n"
+"   :alt: Hulpmiddelopties: Hulpmiddel streek."
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -73,8 +69,8 @@ msgid ""
 ".. image:: images/tools/shape-selection-menu-fill.png\n"
 "   :alt: Tool options: Fill tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/tools/shape-selection-menu-fill.png\n"
+"   :alt: Hulpmiddelopties: Hulpmiddel vullen."
 
 #: ../../reference_manual/tools/shape_selection.rst:1
 msgid "Krita's shape selection tool reference."
@@ -82,17 +78,16 @@ msgstr "Verwijzing naar hulpmiddel Selectie vorm van Krita."
 
 #: ../../reference_manual/tools/shape_selection.rst:13
 msgid "Tools"
-msgstr ""
+msgstr "Hulpmiddelen"
 
 #: ../../reference_manual/tools/shape_selection.rst:13
 msgid "Vector"
-msgstr ""
+msgstr "Vector"
 
 #: ../../reference_manual/tools/shape_selection.rst:13
-#, fuzzy
 #| msgid "Shape Selection Tool"
 msgid "Shape Selection"
-msgstr "Hulpmiddel Selectie vorm"
+msgstr "Selectie vorm"
 
 #: ../../reference_manual/tools/shape_selection.rst:18
 msgid "Shape Selection Tool"
@@ -144,7 +139,6 @@ msgid "*Green selection* (drag right to left): selects all the touched shapes."
 msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:39
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -152,8 +146,8 @@ msgid ""
 ".. image:: images/tools/blue-and-green-selections.png\n"
 "   :alt: Left: Blue selection. Right: Green selection."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/tools/blue-and-green-selections.png\n"
+"   :alt: Links: Blauwe selectie. Rechts: Groene selectie."
 
 #: ../../reference_manual/tools/shape_selection.rst:39
 msgid ""
@@ -173,7 +167,6 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:50
-#, fuzzy
 #| msgid ""
 #| ".. image:: images/icons/shape_select_tool.svg\n"
 #| "   :alt: toolshapeselection"
@@ -181,8 +174,8 @@ msgid ""
 ".. image:: images/tools/shapes-selection-properties.png\n"
 "   :alt: Left to right: Placement, Scale, Angle and Distortion."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: toolshapeselection"
+".. image:: images/tools/shapes-selection-properties.png\n"
+"   :alt: Links naar rechts: Plaatsing, Schaal, Hoek en Vervorming."
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid "Left to right: Placement, Scale, Angle and Distortion."
@@ -190,7 +183,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:52
 msgid "Placement"
-msgstr ""
+msgstr "Plaatsing"
 
 #: ../../reference_manual/tools/shape_selection.rst:53
 msgid ""
@@ -200,7 +193,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:54
 msgid "Scale"
-msgstr ""
+msgstr "Schaal"
 
 #: ../../reference_manual/tools/shape_selection.rst:55
 msgid ""
@@ -210,7 +203,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:56
 msgid "Angle"
-msgstr ""
+msgstr "Hoek"
 
 #: ../../reference_manual/tools/shape_selection.rst:57
 msgid ""
@@ -220,7 +213,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid "Distortion"
-msgstr ""
+msgstr "Vervorming"
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid ""
@@ -409,20 +402,18 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:135
-#, fuzzy
 #| msgid "Gradient"
 msgid "Save Gradient"
-msgstr "Kleurverloop"
+msgstr "Verloop opslaan"
 
 #: ../../reference_manual/tools/shape_selection.rst:136
 msgid "A quick way for saving the current gradient as a preset."
 msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:138
-#, fuzzy
 #| msgid "Tool Options"
 msgid "Stops Options Line"
-msgstr "Hulpmiddelopties"
+msgstr "Stopt lijnopties"
 
 #: ../../reference_manual/tools/shape_selection.rst:138
 msgid ""
@@ -435,10 +426,9 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:140
-#, fuzzy
 #| msgid "Gradient"
 msgid "Flip Gradient"
-msgstr "Kleurverloop"
+msgstr "Kleurverloop spiegelen"
 
 #: ../../reference_manual/tools/shape_selection.rst:141
 msgid "A quick way to invert the order of the gradient."
@@ -446,7 +436,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:142
 msgid "Stop"
-msgstr ""
+msgstr "Stoppen"
 
 #: ../../reference_manual/tools/shape_selection.rst:143
 msgid "Choose a color for the current selected stop."
