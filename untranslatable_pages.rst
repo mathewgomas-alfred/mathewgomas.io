@@ -18,7 +18,7 @@ Technical Pages
 
 .. epigraph::
 
-    "In my 20+ year experience managing projects i learned that tools or systems don't manage anything, people do. and if people need tools they'll get them or make them"
+    "In my 20+ year experience managing projects I learned that tools or systems don't manage anything, people do, and if people need tools they'll get them or make them"
     
     -- Ton Roosendaal, on #blendercoders 
 
