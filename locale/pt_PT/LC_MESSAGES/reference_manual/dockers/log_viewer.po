@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the Krita Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
@@ -12,9 +11,11 @@ msgstr ""
 "PO-Revision-Date: 2019-05-07 13:53+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../../<generated>:1
 msgid "Configure Logging"
@@ -34,19 +35,29 @@ msgid "Debug"
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:18
-msgid "The log viewer docker allows you to see debug output without access to a terminal. This is useful when trying to get a tablet log or to figure out if Krita is spitting out errors while a certain thing is happening."
+msgid ""
+"The log viewer docker allows you to see debug output without access to a "
+"terminal. This is useful when trying to get a tablet log or to figure out if "
+"Krita is spitting out errors while a certain thing is happening."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:20
-msgid "The log docker is used by pressing the :guilabel:`enable logging` button at the bottom."
+msgid ""
+"The log docker is used by pressing the :guilabel:`enable logging` button at "
+"the bottom."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:24
-msgid "When enabling logging, this output will not show up in the terminal. If you are missing debug output in the terminal, check that you didn't have the log docker enabled."
+msgid ""
+"When enabling logging, this output will not show up in the terminal. If you "
+"are missing debug output in the terminal, check that you didn't have the log "
+"docker enabled."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:26
-msgid "The docker is composed of a log area which shows the debug output, and four buttons at the bottom."
+msgid ""
+"The docker is composed of a log area which shows the debug output, and four "
+"buttons at the bottom."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:29
@@ -122,7 +133,10 @@ msgid "Save the log to a text file."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:54
-msgid "Configure which kind of debug is added. By default only warnings and simple debug statements are logged. You can enable the special debug messages for each area here."
+msgid ""
+"Configure which kind of debug is added. By default only warnings and simple "
+"debug statements are logged. You can enable the special debug messages for "
+"each area here."
 msgstr ""
 
 #: ../../reference_manual/dockers/log_viewer.rst:56

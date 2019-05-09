@@ -10,7 +10,7 @@ msgstr ""
 "\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-07 20:19+0300\n"
+"PO-Revision-Date: 2019-05-08 14:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/blending_modes/binary.rst:1
 msgid "Page about the binary blending modes in Krita:"
@@ -28,7 +28,7 @@ msgstr "Сторінка щодо двійкових режимів змішув
 #: ../../reference_manual/blending_modes/binary.rst:10
 #: ../../reference_manual/blending_modes/binary.rst:14
 msgid "Binary"
-msgstr "Двійковий"
+msgstr "Двійкові режими"
 
 #: ../../reference_manual/blending_modes/binary.rst:16
 msgid ""
@@ -39,6 +39,13 @@ msgid ""
 "using layers with very smooth surface. All binary modes have capitalized "
 "letters to distinguish themselves from other blending modes."
 msgstr ""
+"Двійкові режими є спеціальним класом режимів змішування, у яких для обчислень"
+" використовуються двійкові оператори. Двійкові режими не схожі на усі інші"
+" режими змішування, оскільки ці режими мають фрактальний атрибут зі спаданням"
+" інтенсивності, подібним до інших режимів змішування. Двійковими режимами"
+" можна скористатися для створення абстрактних творів, якщо використати шари"
+" із дуже плавною поверхнею. Назви усіх двійкових режимів записано великими"
+" літерами, щоб відрізнити їх від інших режимів змішування."
 
 #: ../../reference_manual/blending_modes/binary.rst:18
 msgid ""
@@ -46,12 +53,20 @@ msgid ""
 "values, then treat 1 or 0 as T or F respectively, and use binary operation "
 "to get the end result, and then convert the result back to decimal."
 msgstr ""
+"Що зрозуміти, як працюють двійкові режими, уявіть, що десяткові значення"
+" кольорів перетворюються на двійкові, потім 1 замінюють на «Так», а 0 — на"
+" «Ні», і використовують двійкову операцію, щоб отримати результат, який потім"
+" знову перетворюють на десяткове значення кольору."
 
 #: ../../reference_manual/blending_modes/binary.rst:22
 msgid ""
 "Binary blending modes do not work on float images or negative numbers! So, "
 "don't report bugs about using binary modes on unsupported color space."
 msgstr ""
+"Двійкові режими змішування не працюють для зображень із дробовими або"
+" від'ємними значеннями кольорів! Будь ласка, не повідомляйте про вади щодо"
+" двійкових режимів, якщо застосовуєте їх у просторі кольорів, де вони не"
+" працюють."
 
 #: ../../reference_manual/blending_modes/binary.rst:24
 #: ../../reference_manual/blending_modes/binary.rst:28
@@ -63,6 +78,8 @@ msgid ""
 "Performs the AND operation for the base and blend layer. Similar to multiply "
 "blending mode."
 msgstr ""
+"Виконує дію «І» для операндів, якими є значення у шарі основи і шарі"
+" змішування. Подібний до режиму змішування «Множення»."
 
 #: ../../reference_manual/blending_modes/binary.rst:35
 msgid ".. image:: images/blending_modes/binary/Blend_modes_AND_map.png"
@@ -90,6 +107,9 @@ msgid ""
 "Performs the inverse of IMPLICATION operation for the base and blend layer. "
 "Similar to screen mode with blend layer and base layer inverted."
 msgstr ""
+"Виконує дію оберненої імплікації над значеннями у шарі основи та шарі"
+" змішування. Режим, який подібний до режиму «Екран», у якому інвертовано"
+" значення шару злиття та значення шару основи."
 
 #: ../../reference_manual/blending_modes/binary.rst:53
 msgid ".. image:: images/blending_modes/binary/Blend_modes_CONVERSE_map.png"
@@ -118,6 +138,9 @@ msgid ""
 "Performs the IMPLICATION operation for the base and blend layer. Similar to "
 "screen mode with base layer inverted."
 msgstr ""
+"Виконує дію імплікації над значеннями у шарі основи та шарі змішування."
+" Режим, який подібний до режиму «Екран», у якому інвертовано значення шару"
+" основи."
 
 #: ../../reference_manual/blending_modes/binary.rst:71
 msgid ".. image:: images/blending_modes/binary/Blend_modes_IMPLIES_map.png"
@@ -146,6 +169,8 @@ msgid ""
 "Performs the inverse of AND operation for base and blend layer. Similar to "
 "the inverted multiply mode."
 msgstr ""
+"Виконує дію «НІ-І» для операндів, якими є значення у шарі основи і шарі"
+" змішування. Подібний до інверсії режиму змішування «Множення»."
 
 #: ../../reference_manual/blending_modes/binary.rst:89
 msgid ".. image:: images/blending_modes/binary/Blend_modes_NAND_map.png"
@@ -173,6 +198,8 @@ msgid ""
 "Performs the inverse of OR operation for base and blend layer. Similar to "
 "the inverted screen mode."
 msgstr ""
+"Виконує дію «заперечувальне АБО» для операндів, якими є значення у шарі"
+" основи і шарі змішування. Подібний до інверсії режиму змішування «Екран»."
 
 #: ../../reference_manual/blending_modes/binary.rst:107
 msgid ".. image:: images/blending_modes/binary/Blend_modes_NOR_map.png"
@@ -182,8 +209,8 @@ msgstr ".. image:: images/blending_modes/binary/Blend_modes_NOR_map.png"
 #: ../../reference_manual/blending_modes/binary.rst:112
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **NOR**."
 msgstr ""
-"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: **Запер."
-" АБО**."
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: **Запер. "
+"АБО**."
 
 #: ../../reference_manual/blending_modes/binary.rst:112
 msgid ""
@@ -201,6 +228,9 @@ msgid ""
 "Performs the inverse of CONVERSE operation for base and blend layer. Similar "
 "to the multiply mode with base layer and blend layer inverted."
 msgstr ""
+"Виконує дію «НІ-КОНВЕРСІЯ» для операндів, якими є значення у шарі основи і"
+" шарі змішування. Подібний до режиму змішування «Множення» із інверсією"
+" значень у шарі основи і у шарі змішування."
 
 #: ../../reference_manual/blending_modes/binary.rst:125
 msgid ""
@@ -212,8 +242,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/binary.rst:130
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **NOT CONVERSE**."
 msgstr ""
-"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
-"**НІ-КОНВЕРСІЯ**."
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: **НІ-"
+"КОНВЕРСІЯ**."
 
 #: ../../reference_manual/blending_modes/binary.rst:130
 msgid ""
@@ -233,6 +263,9 @@ msgid ""
 "Performs the inverse of IMPLICATION operation for base and blend layer. "
 "Similar to the multiply mode with the blend layer inverted."
 msgstr ""
+"Виконує дію «НІ-ІМПЛІКАЦІЯ» для операндів, якими є значення у шарі основи і"
+" шарі змішування. Подібний до режиму змішування «Множення» із інверсією"
+" значення у шарі змішування."
 
 #: ../../reference_manual/blending_modes/binary.rst:143
 msgid ""
@@ -245,8 +278,8 @@ msgstr ""
 msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **NOT IMPLICATION**."
 msgstr ""
-"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: "
-"**НІ-ІМПЛІКАЦІЯ**."
+"Ліворуч: **Базовий шар**. Посередині: **Шар змішування**. Праворуч: **НІ-"
+"ІМПЛІКАЦІЯ**."
 
 #: ../../reference_manual/blending_modes/binary.rst:148
 msgid ""
@@ -265,8 +298,8 @@ msgstr "АБО"
 msgid ""
 "Performs the OR operation for base and blend layer. Similar to screen mode."
 msgstr ""
-"Виконує дію логічного АБО над значеннями у базовому шарі та шарі злиття."
-" Режим, який подібний до режиму «Екран»."
+"Виконує дію логічного АБО над значеннями у шарі основи та шарі злиття. "
+"Режим, який подібний до режиму «Екран»."
 
 #: ../../reference_manual/blending_modes/binary.rst:161
 msgid ".. image:: images/blending_modes/binary/Blend_modes_OR_map.png"
@@ -300,6 +333,9 @@ msgid ""
 "Performs the XOR operation for base and blend layer. This mode has a special "
 "property that if you duplicate the blend layer twice, you get the base layer."
 msgstr ""
+"Виконує дію «виключне АБО» над значеннями у шарі основи і у шарі змішування."
+" У цього режиму є особливість: якщо ви дублюєте шар змішування і двічі"
+" виконаєте змішування, ви отримаєте початковий шар основи."
 
 #: ../../reference_manual/blending_modes/binary.rst:179
 msgid ".. image:: images/blending_modes/binary/Blend_modes_XOR_map.png"
@@ -322,6 +358,9 @@ msgid ""
 "special property that if you duplicate the blend layer twice, you get the "
 "base layer."
 msgstr ""
+"Виконує дію «виключне заперечувальне АБО» над значеннями у шарі основи і у"
+" шарі змішування. У цього режиму є особливість: якщо ви дублюєте шар"
+" змішування і двічі виконаєте змішування, ви отримаєте початковий шар основи."
 
 #: ../../reference_manual/blending_modes/binary.rst:197
 msgid ".. image:: images/blending_modes/binary/Blend_modes_XNOR_map.png"

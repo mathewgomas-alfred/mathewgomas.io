@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-05-08 03:36+0200\n"
 "PO-Revision-Date: 2019-03-27 11:11+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -341,10 +341,18 @@ msgid "Hot keys and Sticky Keys"
 msgstr "Combinações de Teclas e Teclas Fixas"
 
 #: ../../reference_manual/dockers/layers.rst:79
-msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
+#, fuzzy
+#| msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
+msgid ":kbd:`Shift` for selecting multiple contiguous layers."
 msgstr ":kbd:`Shift + Ctrl` para seleccionar as várias camadas."
 
 #: ../../reference_manual/dockers/layers.rst:80
+msgid ""
+":kbd:`Ctrl` for select or deselect layer without affecting other layers "
+"selection."
+msgstr ""
+
+#: ../../reference_manual/dockers/layers.rst:81
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, "
 "for you to drag and drop."
@@ -352,7 +360,7 @@ msgstr ""
 ":kbd:`Ctrl` + |mouseleft| + arrastamento - faz um duplicado das camadas "
 "seleccionadas, para você poder arrastar e largar."
 
-#: ../../reference_manual/dockers/layers.rst:81
+#: ../../reference_manual/dockers/layers.rst:82
 msgid ""
 ":kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, "
 "layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on "
@@ -363,11 +371,11 @@ msgstr ""
 "intactas. Se usar o :kbd:`Ctrl + E` sobre uma única camada com uma máscara, "
 "irá reunir a máscara com a camada."
 
-#: ../../reference_manual/dockers/layers.rst:82
+#: ../../reference_manual/dockers/layers.rst:83
 msgid ":kbd:`Ctrl + Shift + E` merges all layers."
 msgstr ":kbd:`Ctrl + Shift + E` reúne todas as camadas."
 
-#: ../../reference_manual/dockers/layers.rst:83
+#: ../../reference_manual/dockers/layers.rst:84
 msgid ""
 ":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
 "picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
@@ -377,11 +385,11 @@ msgstr ""
 "desenho, de forma semelhante à extracção de cores directamente na área de "
 "desenho. Use o :kbd:`Shift + R` + |mouseleft| para várias camadas."
 
-#: ../../reference_manual/dockers/layers.rst:84
+#: ../../reference_manual/dockers/layers.rst:85
 msgid ":kbd:`Ins` for adding a new layer."
 msgstr ":kbd:`Ins` para adicionar uma nova camada."
 
-#: ../../reference_manual/dockers/layers.rst:85
+#: ../../reference_manual/dockers/layers.rst:86
 msgid ""
 ":kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, "
 "they are put into the group layer."
@@ -389,7 +397,7 @@ msgstr ""
 ":kbd:`Ctrl + G` irá criar uma camada de grupo. Se estiverem seleccionadas "
 "várias camadas, serão colocadas na camada do grupo."
 
-#: ../../reference_manual/dockers/layers.rst:86
+#: ../../reference_manual/dockers/layers.rst:87
 msgid ""
 ":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
 "selected layers added into the group, and a new layer added on top with "
@@ -400,25 +408,21 @@ msgstr ""
 "adicionada uma nova camada no topo com a herança do alfa activada, ficando "
 "assim pronta a pintar!"
 
-#: ../../reference_manual/dockers/layers.rst:87
+#: ../../reference_manual/dockers/layers.rst:88
 msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
 msgstr ":kbd:`Ctrl + Alt + G` irá desagrupar as camadas dentro de um grupo."
 
-#: ../../reference_manual/dockers/layers.rst:88
+#: ../../reference_manual/dockers/layers.rst:89
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. "
+#| "This will maintain between layers till the same action is repeated again."
 msgid ""
-":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. This "
-"will maintain between layers till the same action is repeated again."
+":kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain "
+"between layers till the same action is repeated again."
 msgstr ""
 ":kbd:`Alt` + |mouseleft| sobre a miniatura para uma vista isolada de uma "
 "camada. Esta manter-se-á entre as camadas até repetir a mesma acção de novo."
-
-#: ../../reference_manual/dockers/layers.rst:89
-msgid ""
-":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
-"layer."
-msgstr ""
-":kbd:`Shift` + |mouseleft| sobre o ícone do olho para esconder todas menos a "
-"camada actual."
 
 #: ../../reference_manual/dockers/layers.rst:90
 msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
@@ -431,3 +435,10 @@ msgid ""
 msgstr ""
 ":kbd:`Ctrl + Page Up` e :kbd:`Ctrl + Page Down` para subir ou descer as "
 "camadas seleccionadas."
+
+#~ msgid ""
+#~ ":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
+#~ "layer."
+#~ msgstr ""
+#~ ":kbd:`Shift` + |mouseleft| sobre o ícone do olho para esconder todas "
+#~ "menos a camada actual."

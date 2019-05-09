@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the Krita Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
@@ -12,12 +11,17 @@ msgstr ""
 "PO-Revision-Date: 2019-05-07 13:53+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:1
-msgid "Page about the quadratic blending modes in Krita: Freeze, Freeze-Reflect, Glow, Glow-Heat, Heat, Heat-Glow, Heat-Glow/Freeze-Reflect Hybrid, Reflect and Reflect-Freeze."
+msgid ""
+"Page about the quadratic blending modes in Krita: Freeze, Freeze-Reflect, "
+"Glow, Glow-Heat, Heat, Heat-Glow, Heat-Glow/Freeze-Reflect Hybrid, Reflect "
+"and Reflect-Freeze."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:11
@@ -26,7 +30,9 @@ msgid "Quadratic"
 msgstr "Quadrática"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:19
-msgid "The quadratic blending modes are a set of modes intended to give various effects when adding light zones or overlaying shiny objects."
+msgid ""
+"The quadratic blending modes are a set of modes intended to give various "
+"effects when adding light zones or overlaying shiny objects."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:23
@@ -42,7 +48,9 @@ msgid "The freeze blending mode. Inversion of the reflect blending mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:33
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Freeze_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Freeze_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:33
@@ -58,7 +66,9 @@ msgid "Mix of Freeze and Reflect blend mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:46
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Freeze_Reflect_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Freeze_Reflect_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:46
@@ -74,7 +84,9 @@ msgid "Reflect Blend Mode with source and destination layers swapped."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:58
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Glow_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Glow_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:58
@@ -90,7 +102,9 @@ msgid "Mix of Glow and Heat blend mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:70
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Glow_Heat_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Glow_Heat_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:70
@@ -106,7 +120,9 @@ msgid "The Heat Blend Mode. Inversion of the Glow Blend Mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:83
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Heat_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:83
@@ -122,7 +138,9 @@ msgid "Mix of Heat, and Glow blending mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:95
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Heat_Glow_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Glow_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:95
@@ -134,11 +152,15 @@ msgid "Heat-Glow and Freeze-Reflect Hybrid"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:102
-msgid "Mix of the continuous quadratic blending modes. Very similar to overlay, and sometimes provides better result than overlay."
+msgid ""
+"Mix of the continuous quadratic blending modes. Very similar to overlay, and "
+"sometimes provides better result than overlay."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:107
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Heat_Glow_Freeze_Reflect_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Glow_Freeze_Reflect_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:107
@@ -150,11 +172,14 @@ msgid "Reflect"
 msgstr "Reflexão"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:114
-msgid "Reflect is essentially Color Dodge Blending mode with quadratic falloff."
+msgid ""
+"Reflect is essentially Color Dodge Blending mode with quadratic falloff."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:120
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Reflect_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Reflect_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:120
@@ -170,7 +195,9 @@ msgid "Mix of Reflect and Freeze blend mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:132
-msgid ".. image:: images/blending_modes/quadratic/Blending_modes_Q_Reflect_Freeze_Light_blue_and_Orange.png"
+msgid ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Reflect_Freeze_Light_blue_and_Orange.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/quadratic.rst:132

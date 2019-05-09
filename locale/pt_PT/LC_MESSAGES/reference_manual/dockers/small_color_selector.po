@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-02-26 01:53+0000\n"
+"PO-Revision-Date: 2019-05-08 17:29+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -12,6 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-POFile-SpellExtra: images KritaSmallColorSelectorDocker image en Krita\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: dockers sRGB HDR\n"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:1
 msgid "Overview of the small color selector docker."
@@ -27,15 +28,12 @@ msgid "Color"
 msgstr "Cor"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:11
-#| msgid "Small Color Selector"
 msgid "Color Selector"
 msgstr "Selecção de Cores"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:19
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
 msgid ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
-msgstr ".. image:: images/en/Krita_Small_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Small_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/small_color_selector.rst:20
 msgid ""
@@ -56,4 +54,4 @@ msgid ""
 "need a value above 100 (100 being the maximum value used for the brightest "
 "value of sRGB colors), to have an HDR color. The small color selector will "
 "also select wide gamut values."
-msgstr ""
+msgstr "O pequeno selector de cores é o único selector que consegue mostrar os valores HDR. Quando a sua versão do Krita tiver suporte para HDR e estiver no Windows, poderá arrastar a barra no fundo para aumentar os 'destaques' das cores no pequeno selector. Este é o valor directo do brilho das cores, e é necessário um valor acima de 100 (sendo 100 o valor máximo usado para o valor mais elevado das cores sRGB) para ter uma cor HDR. O pequeno selector de cores irá também seleccionar valores de gamute amplo."
