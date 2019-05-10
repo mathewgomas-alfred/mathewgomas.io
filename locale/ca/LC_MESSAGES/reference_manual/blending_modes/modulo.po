@@ -1,0 +1,217 @@
+# Translation of docs_krita_org_reference_manual___blending_modes___modulo.po to Catalan
+# Copyright (C) 2019 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: reference_manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"PO-Revision-Date: 2019-05-09 20:51+0200\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.04.0\n"
+
+#: ../../reference_manual/blending_modes/modulo.rst:1
+msgid "Page about the modulo blending modes in Krita:"
+msgstr "Pàgina sobre els modes de barreja mòdul al Krita:"
+
+#: ../../reference_manual/blending_modes/modulo.rst:10
+#: ../../reference_manual/blending_modes/modulo.rst:14
+#: ../../reference_manual/blending_modes/modulo.rst:47
+#: ../../reference_manual/blending_modes/modulo.rst:51
+msgid "Modulo"
+msgstr "Mòdul"
+
+#: ../../reference_manual/blending_modes/modulo.rst:16
+msgid ""
+"Modulo modes are special class of blending modes which loops values when the"
+" value of channel blend layer is less than the value of channel in base"
+" layers. All modes in modulo modes retains the absolute of the remainder if"
+" the value is greater than the maximum value or the value is less than"
+" minimum value. Continuous modes assume if the calculated value before modulo"
+" operation is within the range between a odd number to even number, then"
+" values are inverted in the end result, so values are perceived to be"
+" wave-like."
+msgstr ""
+"Els modes mòdul són una classe especial de modes de barreja que repeteixen "
+"valors quan el valor de la capa de la barreja de canals és menor que el "
+"valor del canal a les capes base. Tots els modes en els modes mòdul "
+"conserven l'absolut de la resta si el valor és més gran que el valor màxim o "
+"el valor és menor que el valor mínim. Els modes continus suposen que si el "
+"valor calculat abans de l'operació mòdul està dintre del rang entre un "
+"nombre imparell i un nombre parell, els valors s'invertiran en el resultat "
+"final, de manera que els valors es perceben com una ona."
+
+#: ../../reference_manual/blending_modes/modulo.rst:18
+msgid ""
+"Furthermore, this would imply that modulo modes are beneficial for abstract"
+" art, and manipulation of gradients."
+msgstr ""
+"A més, això implicaria que els modes mòdul són beneficiosos per a l'art "
+"abstracte i la manipulació dels degradats."
+
+#: ../../reference_manual/blending_modes/modulo.rst:20
+#: ../../reference_manual/blending_modes/modulo.rst:24
+msgid "Divisive Modulo"
+msgstr "Mòdul divisible"
+
+#: ../../reference_manual/blending_modes/modulo.rst:26
+msgid ""
+"First, Base Layer is divided by the sum of blend layer and the minimum"
+" possible value after zero. Then, performs a modulo calculation using the"
+" value found with the sum of blend layer and the minimum possible value after"
+" zero."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:31
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Gradien"
+"t_Comparison.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Gradien"
+"t_Comparison.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:31
+msgid ""
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Mòdul "
+"divisible**."
+
+#: ../../reference_manual/blending_modes/modulo.rst:33
+#: ../../reference_manual/blending_modes/modulo.rst:38
+msgid "Divisive Modulo - Continuous"
+msgstr "Mòdul divisible - Continu"
+
+#: ../../reference_manual/blending_modes/modulo.rst:40
+msgid ""
+"First, Base Layer is divided by the sum of blend layer and the minimum"
+" possible value after zero. Then, performs a modulo calculation using the"
+" value found with the sum of blend layer and the minimum possible value after"
+" zero. As this is a continuous modes, anything between odd to even numbers"
+" are inverted."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:45
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Continu"
+"ous_Gradient_Comparison.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Continu"
+"ous_Gradient_Comparison.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:45
+msgid ""
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo -"
+" Continuous**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Mòdul "
+"divisible - Continu**."
+
+#: ../../reference_manual/blending_modes/modulo.rst:53
+msgid ""
+"Performs a modulo calculation using the sum of blend layer and the minimum"
+" possible value after zero."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:58
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Gradient_Compari"
+"son.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Gradient_Compari"
+"son.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:58
+msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Mòdul**."
+
+#: ../../reference_manual/blending_modes/modulo.rst:60
+#: ../../reference_manual/blending_modes/modulo.rst:64
+msgid "Modulo - Continuous"
+msgstr "Mòdul - Continu"
+
+#: ../../reference_manual/blending_modes/modulo.rst:66
+msgid ""
+"Performs a modulo calculation using the sum of blend layer and the minimum"
+" possible value after zero. As this is a continuous modes, anything between"
+" odd to even numbers are inverted."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:71
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Continuous_Gradi"
+"ent_Comparison.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Continuous_Gradi"
+"ent_Comparison.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:71
+msgid ""
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo - Continuous**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Mòdul - "
+"Continu**."
+
+#: ../../reference_manual/blending_modes/modulo.rst:73
+#: ../../reference_manual/blending_modes/modulo.rst:77
+msgid "Modulo Shift"
+msgstr "Desplaçament de mòdul"
+
+#: ../../reference_manual/blending_modes/modulo.rst:79
+msgid ""
+"Performs a modulo calculation with the result of the sum of base and blend"
+" layer by the sum of blend layer with the minimum possible value after zero."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:85
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Gradient_C"
+"omparison.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Gradient_C"
+"omparison.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:85
+msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Desplaçament "
+"de mòdul**."
+
+#: ../../reference_manual/blending_modes/modulo.rst:87
+#: ../../reference_manual/blending_modes/modulo.rst:91
+msgid "Modulo Shift - Continuous"
+msgstr "Desplaçament de mòdul - Continu"
+
+#: ../../reference_manual/blending_modes/modulo.rst:93
+msgid ""
+"Performs a modulo calculation with the result of the sum of base and blend"
+" layer by the sum of blend layer with the minimum possible value after zero. "
+" As this is a continuous modes, anything between odd to even numbers are"
+" inverted."
+msgstr ""
+
+#: ../../reference_manual/blending_modes/modulo.rst:98
+msgid ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Continuous"
+"_Gradient_Comparison.png"
+msgstr ""
+".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Continuous"
+"_Gradient_Comparison.png"
+
+#: ../../reference_manual/blending_modes/modulo.rst:98
+msgid ""
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift -"
+" Continuous**."
+msgstr ""
+"Esquerra: **Capa base**. Enmig: **Capa de la barreja**. Dreta: **Desplaçament "
+"de mòdul - Continu**."
