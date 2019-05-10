@@ -275,6 +275,10 @@ Make sure the state of your merge request is labeled correctly. The picture belo
         * Read and test extensively all MRs before you approve or merge!
 
 
+.. note::
+    
+    In time of writing, setting labels on merge requests were only possible by contributors with write access to the official repository. (If you don't know what that means, that probably means you're not one of them). Because of that, when you create or change your merge request you need you get on IRC (see :ref:`the_krita_community`) and ask someone to label it for you. 
+
 
 How to prepare your commits for a merge request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
