@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-09 19:05+0200\n"
+"PO-Revision-Date: 2019-05-10 21:26+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -24,10 +24,6 @@ msgid ".. image:: images/blending_modes/mix/Greaterblendmode.gif"
 msgstr ".. image:: images/blending_modes/mix/Greaterblendmode.gif"
 
 #: ../../reference_manual/blending_modes/mix.rst:1
-#| msgid ""
-#| "Page about the mix blending modes in Krita: Allanon, Alpha Darken, "
-#| "Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard "
-#| "Mix, Hard Overlay, Normal, Overlay and Parallel."
 msgid ""
 "Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, "
 "Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard "
@@ -79,6 +75,10 @@ msgid ""
 "blend layer assuming 0-1 range. The result is similar to Allanon mode, but "
 "with more contrast and functional difference to 50% opacity."
 msgstr ""
+"Resteu 0,5f per 1/4 del cosinus de la capa base restada per 1/4 del cosinus"
+" de la capa de la barreja suposant un interval de 0 a 1. El resultat serà"
+" similar al mode Allanon, però amb més contrast i diferència funcional al 50%"
+" de l'opacitat."
 
 #: ../../reference_manual/blending_modes/mix.rst:44
 msgid ""
@@ -105,6 +105,8 @@ msgid ""
 "Applies Interpolation blend mode to base and blend layers, then duplicate to "
 "repeat interpolation blending."
 msgstr ""
+"Aplica el mode de barreja Interpolació a les capes base i de la barreja,"
+" després es duplica per a repetir la barreja per interpolació."
 
 #: ../../reference_manual/blending_modes/mix.rst:57
 msgid ""
@@ -170,7 +172,7 @@ msgstr "Esquerra: **Normal**. Dreta: **Darrere**."
 
 #: ../../reference_manual/blending_modes/mix.rst:85
 msgid "Erase (Blending Mode)"
-msgstr ""
+msgstr "Esborra (mode de barreja)"
 
 #: ../../reference_manual/blending_modes/mix.rst:89
 msgid "Erase"
@@ -273,7 +275,7 @@ msgstr "Esquerra: **Normal**. Dreta: **Fusió de gra**."
 
 #: ../../reference_manual/blending_modes/mix.rst:137
 msgid "Greater (Blending Mode)"
-msgstr ""
+msgstr "Engrandeix (mode de barreja)"
 
 #: ../../reference_manual/blending_modes/mix.rst:141
 msgid "Greater"
@@ -385,7 +387,7 @@ msgstr "Normal (mode de barreja)"
 
 #: ../../reference_manual/blending_modes/mix.rst:194
 msgid "Source Over"
-msgstr ""
+msgstr "Sobre l'origen"
 
 #: ../../reference_manual/blending_modes/mix.rst:198
 msgid "Normal"
@@ -499,6 +501,8 @@ msgid ""
 "Creates a linear penumbra falloff. This means most tones will be in the "
 "midtone ranges."
 msgstr ""
+"Crea un decaïment lineal de la penombra. Això vol dir que la majoria dels"
+" tons estaran en els intervals dels tons mitjans."
 
 #: ../../reference_manual/blending_modes/mix.rst:252
 msgid ""
@@ -519,7 +523,7 @@ msgstr "Penombra B"
 
 #: ../../reference_manual/blending_modes/mix.rst:260
 msgid "Penumbra A with source and destination layer swapped."
-msgstr ""
+msgstr "La Penombra A amb la capa d'origen i la de destinació intercanviades."
 
 #: ../../reference_manual/blending_modes/mix.rst:265
 msgid ""
@@ -543,6 +547,9 @@ msgid ""
 "Creates a penumbra-like falloff using arc-tangent formula. This means most "
 "tones will be in the midtone ranges."
 msgstr ""
+"Crea un decaïment similar a la penombra emprant una fórmula d'arc tangent."
+" Això vol dir que la majoria dels tons estaran en els intervals dels tons"
+" mitjans."
 
 #: ../../reference_manual/blending_modes/mix.rst:278
 msgid ""
@@ -563,7 +570,7 @@ msgstr "Penombra D"
 
 #: ../../reference_manual/blending_modes/mix.rst:286
 msgid "Penumbra C with source and destination layer swapped."
-msgstr ""
+msgstr "La Penombra C amb la capa d'origen i la de destinació intercanviades."
 
 #: ../../reference_manual/blending_modes/mix.rst:291
 msgid ""
