@@ -7,6 +7,7 @@
    :authors: - Scott Petrovic
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Hulmanen
+             - Raghavendra Kamath <raghu@raghukamath.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Selection
@@ -16,7 +17,7 @@
 Selections
 ==========
 
-Selections allow you to pick a specific area of your artwork to change. This is useful for when you want to move a section, transform it, or paint on it without affecting the other sections. There are many selection tools available that select in different ways. Once an area is selected, most tools will stay inside that area. On that area you can draw or use gradients to quickly get colored and/or shaded shapes with hard edges.
+Selections allow you to pick a specific area of your artwork to change. This is useful when you want to move a section of the painting, transform it, or paint on it without affecting the other sections. There are many selection tools available that select in different ways. Once an area is selected, most tools will stay inside that area. On that area you can draw or use gradients to quickly get colored and/or shaded shapes with hard edges. The selections in Krita are not limited to the canvas boundary, so you can also selection portions of the painting that are beyond the canvas boundary.
 
 Creating Selections
 -------------------
@@ -26,15 +27,15 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
 .. csv-table::
 
     :ref:`rectangle_selection_tool` , |toolselectrect|, Select the shape of a square.
-    :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.                                                                                                                                                  
+    :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.
     :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use :kbd:`Shift + Z` to undo last point.
-    :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
-    :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool.                                                                                                                                                  
+    :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.
+    :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool.
     :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color. Adjust the :guilabel:`Fuzziness` to allow more changes in the field of color, by default limited to the current layer."
     :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with :kbd:`Enter` or connecting back to the first point."
 
 .. note::
-    
+
     You can also use the transform tools on your selection, a great way to try different proportions on parts of your image.
 
 Editing Selections
@@ -66,6 +67,7 @@ Removing Selections
 -------------------
 
 If you want to delete the entire selection, the easiest way is to deselect everything. :menuselection:`Select --> Deselect`. Shortcut :kbd:`Ctrl + Shift + A`.
+When you have one of the selection tool active, and the mode of selection is in intersect, replace or symmetric difference then you can also deselect by just |mouseleft| anywhere on the canvas.
 
 Display Modes
 -------------
@@ -109,6 +111,8 @@ You can create a selection based on a layer's transparency by right-clicking on 
 
     If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft|, to remove :kbd:`Ctrl + Alt +` |mouseleft| and to intersect :kbd:`Ctrl + Shift + Alt` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
 
+
+.. _pixel_vector_selection:
 
 Pixel and Vector Selection Types
 --------------------------------
