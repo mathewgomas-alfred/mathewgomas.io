@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 15:49+0200\n"
+"PO-Revision-Date: 2019-05-11 14:13+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -47,6 +47,7 @@ msgstr ".. image:: images/icons/spraybrush.svg"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:20
 msgid "A brush that can spray particles around in its brush area."
 msgstr ""
+"Un pinzell que pot ruixar partícules al voltant de la seva àrea del pinzell."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:23
 msgid "Options"
@@ -63,6 +64,8 @@ msgstr ":ref:`option_spray_shape`"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:27
 msgid ":ref:`option_brush_tip` (Used as particle if spray shape is not active)"
 msgstr ""
+":ref:`option_brush_tip` (s'utilitza com a partícula si la forma del ruixat no "
+"està activada)"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:28
 msgid ":ref:`option_opacity_n_flow`"
@@ -94,11 +97,11 @@ msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:39
 msgid "Spray Area"
-msgstr "Àrea d'esprai"
+msgstr "Àrea de ruixat"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:41
 msgid "The area in which the particles are sprayed."
-msgstr ""
+msgstr "L'àrea on es polvoritzaran les partícules."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:43
 msgid "Diameter"
@@ -114,7 +117,7 @@ msgstr "Relació d'aspecte"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:46
 msgid "It's aspect ratio: 1.0 is fully circular."
-msgstr ""
+msgstr "La seva relació d'aspecte: L'1,0 serà completament circular."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:47
 msgid "Angle"
@@ -124,6 +127,8 @@ msgstr "Angle"
 msgid ""
 "The angle of the spray size: works nice with aspect ratios other than 1.0."
 msgstr ""
+"L'angle de la mida del ruixat: funciona bé amb relacions d'aspecte diferents "
+"d'1,0."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:49
 msgid "Scale"
@@ -131,7 +136,7 @@ msgstr "Escala"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:50
 msgid "Scales the diameter up."
-msgstr ""
+msgstr "Escala el diàmetre cap amunt."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Spacing"
@@ -139,7 +144,7 @@ msgstr "Espaiat"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Increases the spacing of the diameter's spray."
-msgstr ""
+msgstr "Fa augmentar l'espaiat de ruixat del diàmetre."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:55
 msgid "Particles"
@@ -151,7 +156,7 @@ msgstr "Comptador"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:58
 msgid "Use a specified amount of particles."
-msgstr ""
+msgstr "Empra una quantitat específica de partícules."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:59
 msgid "Density"
@@ -159,7 +164,7 @@ msgstr "Densitat"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:60
 msgid "Use a % amount of particles."
-msgstr ""
+msgstr "Empra una quantitat en % de partícules."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:61
 msgid "Jitter Movement"
@@ -167,7 +172,7 @@ msgstr "Moviment Jitter"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:62
 msgid "Jitters the spray area around for extra randomness."
-msgstr ""
+msgstr "Agita l'àrea de ruixat al voltant per a una aleatorietat addicional."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:64
 msgid "Gaussian Distribution"
@@ -178,16 +183,20 @@ msgid ""
 "Focuses the particles to paint in the center instead of evenly random over "
 "the spray area."
 msgstr ""
+"Enfoca les partícules per a pintar al centre en lloc d'uniformement a l'atzar "
+"sobre l'àrea de ruixat."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:69
 msgid "Spray Shape"
-msgstr "Forma d'esprai"
+msgstr "Forma del ruixat"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:71
 msgid ""
 "If activated, this will generate a special particle. If not, the brush-tip "
 "will be the particle."
 msgstr ""
+"Si està activada, generarà una partícula especial. Si no, la punta del "
+"pinzell serà la partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:74
 msgid "Can be..."
@@ -223,7 +232,7 @@ msgstr "Amplada i alçada"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:83
 msgid "Decides the width and height of the particle."
-msgstr ""
+msgstr "Decideix l'amplada i l'alçada de la partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:84
 msgid "Proportional"
@@ -231,7 +240,7 @@ msgstr "Proporcional"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:85
 msgid "Locks Width & Height to be the same."
-msgstr ""
+msgstr "Bloqueja l'amplada i l'alçada per a que siguin el mateix."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Texture"
@@ -239,7 +248,7 @@ msgstr "Textura"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Allows you to pick an image for the :guilabel:`Image shape`."
-msgstr ""
+msgstr "Permet triar una imatge per a la :guilabel:`Forma de la imatge`."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:92
 msgid "Shape Dynamics"
@@ -254,6 +263,8 @@ msgid ""
 "Randomizes the particle size between 1x1 px and the given size of the "
 "particle in brush-tip or spray shape."
 msgstr ""
+"Aleatoritza la mida de la partícula entre 1x1 px i la mida indicada de la "
+"partícula en forma de punta del pinzell o forma del ruixat."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:96
 msgid "Fixed Rotation"
@@ -261,7 +272,7 @@ msgstr "Gir fix"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:97
 msgid "Gives a fixed rotation to the particle to work from."
-msgstr ""
+msgstr "Dóna un gir fix a la partícula per a treballar."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:98
 msgid "Randomized Rotation"
@@ -269,7 +280,7 @@ msgstr "Gir aleatori"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:99
 msgid "Randomizes the rotation."
-msgstr ""
+msgstr "Aleatoritza el gir."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:100
 msgid "Follow Cursor Weight"
@@ -280,6 +291,8 @@ msgid ""
 "How much the pressure affects the rotation of the particles. At 1.0 and high "
 "pressure it'll seem as if the particles are exploding from the middle."
 msgstr ""
+"Quant afectarà la pressió en el gir de les partícules. A 1,0 i pressió alta, "
+"semblarà que les partícules estan explotant des del mig."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "Angle Weight"
@@ -287,7 +300,7 @@ msgstr "Estil d'angle"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "How much the spray area angle affects the particle angle."
-msgstr ""
+msgstr "Quant afecta l'angle de l'àrea de ruixat a l'angle de la partícula."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:108
 msgid "Color Options"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 15:46+0200\n"
+"PO-Revision-Date: 2019-05-11 13:55+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -54,19 +54,24 @@ msgstr ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Popup.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:25
 msgid "Let's first review these mechanics:"
-msgstr ""
+msgstr "Primer revisem aquests mecanismes:"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:27
 msgid ""
 "select a brush tip. This can be a generated brush tip (round, square, star-"
 "shaped), a predefined bitmap brush tip, a custom brush tip or a text."
 msgstr ""
+"Seleccioneu una punta del pinzell. Aquesta pot ser una punta del pinzell "
+"generada (rodona, quadrada, en forma d'estrella), una punta del pinzell de "
+"mapa de bits, una punta del pinzell personalitzada o una de text predefinida."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:28
 msgid ""
 "select the spacing: this determines how many impressions of the tip will be "
 "made along your stroke"
 msgstr ""
+"Seleccioneu l'espaiat: això determina quantes impressions de la punta es "
+"realitzaran al llarg del vostre traç."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:29
 msgid ""
@@ -75,6 +80,10 @@ msgid ""
 "the currently painted brush tip instance -- some applications call that a "
 "\"dab\"."
 msgstr ""
+"Seleccioneu els efectes: la pressió del llapis, la velocitat de pintura o "
+"altres entrades poden canviar la mida, el color, l'opacitat o altres "
+"aspectes de l'actual instància de la punta del pinzell mentre pinta -algunes "
+"aplicacions en diuen un «toc»-."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:30
 msgid ""
@@ -83,12 +92,18 @@ msgid ""
 "complete stroke is computed and put on your layer. You will see the stroke "
 "grow while painting in both cases, of course!"
 msgstr ""
+"Depenent del mode del pinzell, la instància de la punta del pinzell "
+"prèviament pintada es barrejarà amb l'actual, el qual produirà un traç més "
+"fosc i pictòric, o es calcularà tot el traç i es col·locarà a la capa. Per "
+"descomptat, veureu que el traç creix mentre pinteu en ambdós casos!"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:32
 msgid ""
 "Since 4.0, the Pixel Brush Engine has Multithreaded brush-tips, with the "
 "default brush being the fastest mask."
 msgstr ""
+"Des de la versió 4.0, el motor del pinzell de píxels té puntes de pinzell de "
+"multifil, i el pinzell predeterminat és la màscara més ràpida."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:34
 msgid "Available Options:"
@@ -168,7 +183,7 @@ msgstr "Fosca"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:59
 msgid "Allows you to Darken the source color with Sensors."
-msgstr ""
+msgstr "Permet enfosquir el color d'origen amb els Sensors."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:62
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_darken_01.png"
@@ -179,6 +194,8 @@ msgid ""
 "The color will always become black in the end, and will work with Plain "
 "Color, Gradient and Uniform random as source."
 msgstr ""
+"El color sempre es tornarà negre al final, i funcionarà amb el Color llis, "
+"Degradat i Uniforme aleatori com a origen."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:66
 msgid "Hue, Saturation, Value"
@@ -189,6 +206,8 @@ msgid ""
 "These parameters allow you to do an HSV adjustment filter on the :ref:"
 "`option_source` and control it with Sensors."
 msgstr ""
+"Aquests paràmetres permeten fer un filtre d'ajust HSV sobre "
+"l':ref:`option_source` i controlar-ho amb els Sensors."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:71
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
@@ -196,7 +215,7 @@ msgstr ".. image:: images/brushes/Krita_2_9_brushengine_HSV_01.png"
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:72
 msgid "Works with Plain Color, Gradient and Uniform random as source."
-msgstr ""
+msgstr "Funciona amb el Color llis, Degradat i Uniforme aleatori com a origen."
 
 #: ../../reference_manual/brushes/brush_engines/pixel_brush_engine.rst:75
 msgid "Uses"
@@ -211,3 +230,6 @@ msgid ""
 "Having all three parameters on Fuzzy will help with rich color texture. In "
 "combination with :ref:`option_mix`, you can have even finer control."
 msgstr ""
+"Tenir els tres paràmetres en Difusa ajudarà amb una textura de color rica. En "
+"combinació amb la :ref:`option_mix`, podreu tenir un control encara més "
+"precís."
