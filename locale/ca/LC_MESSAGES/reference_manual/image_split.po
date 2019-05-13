@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-11 16:10+0200\n"
+"PO-Revision-Date: 2019-05-12 13:25+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.0\n"
 
@@ -33,14 +33,17 @@ msgstr "Dividir"
 
 #: ../../reference_manual/image_split.rst:15
 msgid "Image Split"
-msgstr "Divisió de la imatge"
+msgstr "Dividir la imatge"
 
 #: ../../reference_manual/image_split.rst:17
 msgid ""
-"Found under :menuselection:`Image --> Image Split`, the Image Split function"
-" allows you to evenly split a document up into several sections. This is"
-" useful for splitting up spritesheets for example."
+"Found under :menuselection:`Image --> Image Split`, the Image Split function "
+"allows you to evenly split a document up into several sections. This is "
+"useful for splitting up spritesheets for example."
 msgstr ""
+"Es troba sota :menuselection:`Imatge --> Divideix la imatge`, aquesta funció "
+"permet dividir un document de manera uniforme en diverses seccions. Això és "
+"útil, per exemple, per a dividir en fulls de franges."
 
 #: ../../reference_manual/image_split.rst:19
 msgid "Horizontal Lines"
@@ -48,9 +51,11 @@ msgstr "Línies horitzontals"
 
 #: ../../reference_manual/image_split.rst:20
 msgid ""
-"The amount of horizontal lines to split at. 4 lines will mean that the image"
-" is split into 5 horizontal stripes."
+"The amount of horizontal lines to split at. 4 lines will mean that the image "
+"is split into 5 horizontal stripes."
 msgstr ""
+"La quantitat de línies horitzontals per a dividir. 4 línies voldrà dir que la "
+"imatge es dividirà en 5 franges horitzontals."
 
 #: ../../reference_manual/image_split.rst:22
 msgid "Vertical Lines"
@@ -58,17 +63,20 @@ msgstr "Línies verticals"
 
 #: ../../reference_manual/image_split.rst:22
 msgid ""
-"The amount of vertical lines to split at. 4 lines will mean that the image is"
-" split into 5 vertical stripes."
+"The amount of vertical lines to split at. 4 lines will mean that the image "
+"is split into 5 vertical stripes."
 msgstr ""
+"La quantitat de línies verticals per a dividir. 4 línies voldrà dir que la "
+"imatge es dividirà en 5 franges verticals."
 
 #: ../../reference_manual/image_split.rst:24
 msgid "Sort Direction"
-msgstr "Direcció d'ordenació"
+msgstr "Direcció de l'ordenació"
 
 #: ../../reference_manual/image_split.rst:27
 msgid "Whether to number the files using the following directions:"
 msgstr ""
+"Quan s'hauran d'enumerar els fitxers mitjançant les següents direccions:"
 
 #: ../../reference_manual/image_split.rst:29
 msgid "horizontal"
@@ -76,7 +84,7 @@ msgstr "Horitzontal"
 
 #: ../../reference_manual/image_split.rst:30
 msgid "left to right, top to bottom"
-msgstr ""
+msgstr "D'esquerra a dreta, de dalt a baix"
 
 #: ../../reference_manual/image_split.rst:31
 msgid "vertical"
@@ -84,7 +92,7 @@ msgstr "Vertical"
 
 #: ../../reference_manual/image_split.rst:32
 msgid "top to bottom, left to right"
-msgstr ""
+msgstr "De dalt a baix, d'esquerra a dreta"
 
 #: ../../reference_manual/image_split.rst:34
 msgid "Prefix"
@@ -92,9 +100,11 @@ msgstr "Prefix"
 
 #: ../../reference_manual/image_split.rst:35
 msgid ""
-"The prefix at which the files should be saved at. By default this is the"
-" current document name."
+"The prefix at which the files should be saved at. By default this is the "
+"current document name."
 msgstr ""
+"El prefix en el qual s'hauran de desar els fitxers. De manera predeterminada "
+"aquest serà el nom del document actual."
 
 #: ../../reference_manual/image_split.rst:36
 msgid "File Type"
@@ -102,10 +112,13 @@ msgstr "Tipus de fitxer"
 
 #: ../../reference_manual/image_split.rst:37
 msgid "Which file format to save to."
-msgstr ""
+msgstr "En quin format de fitxer s'haurà de desar."
 
 #: ../../reference_manual/image_split.rst:39
 msgid ""
-"This will result in all slices being saved automatically using the above"
-" prefix. Otherwise Krita will ask the name for each slice."
+"This will result in all slices being saved automatically using the above "
+"prefix. Otherwise Krita will ask the name for each slice."
 msgstr ""
+"Això resultarà en que totes les divisions es desin automàticament utilitzant "
+"el prefix anterior. Altrament, el Krita us demanarà el nom per a cada "
+"divisió."

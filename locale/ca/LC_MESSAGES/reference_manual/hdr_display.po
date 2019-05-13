@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-08 03:36+0200\n"
-"PO-Revision-Date: 2019-05-11 16:11+0200\n"
+"PO-Revision-Date: 2019-05-12 18:29+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.0\n"
 
@@ -33,7 +33,7 @@ msgstr "HDR"
 
 #: ../../reference_manual/hdr_display.rst:10
 msgid "High Dynamic Range"
-msgstr ""
+msgstr "Marge dinàmic elevat"
 
 #: ../../reference_manual/hdr_display.rst:10
 msgid "HDR display"
@@ -45,22 +45,36 @@ msgstr "Pantalla HDR"
 
 #: ../../reference_manual/hdr_display.rst:21
 msgid "Currently only available on Windows."
-msgstr "Actualment només està disponible a Windows."
+msgstr "Actualment només està disponible al Windows."
 
 #: ../../reference_manual/hdr_display.rst:23
 msgid ""
-"Since 4.2 Krita can not just edit high bitdepths images, but also render them"
-" on screen in a way that an HDR capable setup can show them as HDR images."
-" HDR images, to put it simply, are images with really bright colors. They do"
-" this by having a very large range of colors available, 16 bit and higher,"
-" and to understand the upper range of the available colors as brighter than"
-" the brightest white most screens can show. HDR screens, in turn, are screens"
-" which can show brighter colors than most screens can show, and can thus show"
-" the super-bright colors in these HDR images. This allows for images where"
-" bright things, like fire, sunsets, magic, look really spectacular! It also"
-" shows more subtle shadows and has a better contrast in lower color values,"
-" but this requires a sharper eye."
+"Since 4.2 Krita can not just edit high bitdepths images, but also render "
+"them on screen in a way that an HDR capable setup can show them as HDR "
+"images. HDR images, to put it simply, are images with really bright colors. "
+"They do this by having a very large range of colors available, 16 bit and "
+"higher, and to understand the upper range of the available colors as "
+"brighter than the brightest white most screens can show. HDR screens, in "
+"turn, are screens which can show brighter colors than most screens can show, "
+"and can thus show the super-bright colors in these HDR images. This allows "
+"for images where bright things, like fire, sunsets, magic, look really "
+"spectacular! It also shows more subtle shadows and has a better contrast in "
+"lower color values, but this requires a sharper eye."
 msgstr ""
+"A partir de la versió 4.2, el Krita no només podrà editar imatges amb una"
+" profunditat de bits alta, sinó que també podrà mostrar-les a la pantalla de"
+" manera que una configuració compatible amb HDR pugui mostrar-les com a"
+" imatges HDR. Les imatges HDR, en poques paraules, són imatges amb colors"
+" realment brillants. Fan això tenint una àmplia gamma de colors disponibles,"
+" de 16 bits o més, i per entendre la gamma superior de colors disponibles,"
+" més brillant que el blanc més brillant que la majoria de pantalles poden"
+" mostrar. Les pantalles HDR, al seu torn, són pantalles que poden mostrar"
+" colors més brillants del que la majoria de les pantalles poden mostrar i,"
+" per tant, poden mostrar colors súper brillants en aquestes imatges HDR. Això"
+" permet imatges on les coses brillants, com el foc, les postes de sol, la"
+" màgia, es veuran realment espectaculars! També mostra ombres més subtils i"
+" té un millor contrast en valors de color més baixos, però això requereix un"
+" ull més agut."
 
 #: ../../reference_manual/hdr_display.rst:26
 msgid "Configuring HDR"
@@ -68,22 +82,22 @@ msgstr "Configurar el HDR"
 
 #: ../../reference_manual/hdr_display.rst:28
 msgid ""
-"Krita cannot show HDR with any given monitor, you will need an HDR capable"
-" setup. HDR capable setups are screens which can show more than 100 nits,"
-" preferably a value like 1000 and can show the rec 2020 PQ space. You will"
-" need to have the appropriate display cable(otherwise the values are just"
-" turned into regular SDR) and a graphics card which supports HDR, as well as"
-" suitable drivers. You then also need to configure the system settings for"
-" HDR."
+"Krita cannot show HDR with any given monitor, you will need an HDR capable "
+"setup. HDR capable setups are screens which can show more than 100 nits, "
+"preferably a value like 1000 and can show the rec 2020 PQ space. You will "
+"need to have the appropriate display cable(otherwise the values are just "
+"turned into regular SDR) and a graphics card which supports HDR, as well as "
+"suitable drivers. You then also need to configure the system settings for "
+"HDR."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:30
 msgid ""
-"If you can confirm that the system understands your setup as an HDR setup,"
-" you can continue your :ref:`configuration in Krita<hdr_display_settings>`,"
-" in :menuselection:`Settings --> Configure Krita --> Display`. There, you"
-" need to select the preferred surface, which should be as close to the"
-" display format as possible. Then restart Krita."
+"If you can confirm that the system understands your setup as an HDR setup, "
+"you can continue your :ref:`configuration in Krita<hdr_display_settings>`, "
+"in :menuselection:`Settings --> Configure Krita --> Display`. There, you "
+"need to select the preferred surface, which should be as close to the "
+"display format as possible. Then restart Krita."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:33
@@ -92,23 +106,23 @@ msgstr "Pintar en HDR"
 
 #: ../../reference_manual/hdr_display.rst:35
 msgid ""
-"To create a proper HDR image, you will need to make a canvas using a profile"
-" with rec 2020 gamut and a linear TRC. :guilabel:`Rec2020-elle-V4-g10.icc` is"
-" the one we ship by default."
+"To create a proper HDR image, you will need to make a canvas using a profile "
+"with rec 2020 gamut and a linear TRC. :guilabel:`Rec2020-elle-V4-g10.icc` is "
+"the one we ship by default."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:37
 msgid ""
-"HDR images are standardized to use the Rec2020 gamut, and the PQ TRC."
-" However, a linear TRC is easier to edit images in, so we don't convert to PQ"
-" until we're satisfied with our image."
+"HDR images are standardized to use the Rec2020 gamut, and the PQ TRC. "
+"However, a linear TRC is easier to edit images in, so we don't convert to PQ "
+"until we're satisfied with our image."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:39
 msgid ""
-"For painting in this new exciting color space, check the"
-" :ref:`scene_linear_painting` page, which covers things like selecting"
-" colors, gotchas, which filters work and cool workflows."
+"For painting in this new exciting color space, check the :ref:"
+"`scene_linear_painting` page, which covers things like selecting colors, "
+"gotchas, which filters work and cool workflows."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:42
@@ -117,47 +131,48 @@ msgstr "Exportar en HDR"
 
 #: ../../reference_manual/hdr_display.rst:44
 msgid "Now for saving and loading."
-msgstr ""
+msgstr "Ara per a desar i carregar."
 
 #: ../../reference_manual/hdr_display.rst:46
 msgid ""
-"The kra file format can save the floating point image just fine, and is thus"
-" a good working file format."
+"The kra file format can save the floating point image just fine, and is thus "
+"a good working file format."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:48
 msgid ""
-"For sharing with other image editors, :ref:`file_exr` is recommended. For"
-" sharing with the web we currently only have :ref:`HDR png export <file_png"
-">`, but there's currently very little support for this standard. In the"
-" future we hope to see heif and avif support."
+"For sharing with other image editors, :ref:`file_exr` is recommended. For "
+"sharing with the web we currently only have :ref:`HDR png export "
+"<file_png>`, but there's currently very little support for this standard. In "
+"the future we hope to see heif and avif support."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:50
 msgid ""
-"For exporting HDR animations, we support saving HDR to the new codec for mp4"
-" and mkv: H.265. To use these options..."
+"For exporting HDR animations, we support saving HDR to the new codec for mp4 "
+"and mkv: H.265. To use these options..."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:52
 msgid "Get a version of FFMpeg that supports H.256"
-msgstr ""
+msgstr "Obtingueu una versió de FFMpeg que admeti el H.256."
 
 #: ../../reference_manual/hdr_display.rst:53
 msgid "Have an animation open."
-msgstr ""
+msgstr "Tingueu oberta una animació."
 
 #: ../../reference_manual/hdr_display.rst:54
 msgid ":menuselection:`File --> Render Animation`"
-msgstr ""
+msgstr ":menuselection:`Fitxer --> Renderitza una animació`."
 
 #: ../../reference_manual/hdr_display.rst:55
 msgid "Select :guilabel:`Video`"
-msgstr ""
+msgstr "Seleccioneu el :guilabel:`Vídeo`"
 
 #: ../../reference_manual/hdr_display.rst:56
 msgid "Select for :guilabel:`Render as`, 'MPEG-4 video' or 'Matroska'."
 msgstr ""
+"Seleccioneu per a :guilabel:`Renderitza com a`, vídeo «MPEG-4» o «Matroska»."
 
 #: ../../reference_manual/hdr_display.rst:57
 msgid "Press the configure button next to the file format dropdown."
@@ -169,7 +184,7 @@ msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:59
 msgid "Select for the :guilabel:`Profile`, 'main10'."
-msgstr ""
+msgstr "Seleccioneu per al :guilabel:`Perfil`, «main10»."
 
 #: ../../reference_manual/hdr_display.rst:60
 msgid ":guilabel:`HDR Mode` should now enable. Toggle it."
@@ -177,8 +192,8 @@ msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:61
 msgid ""
-"click :guilabel:`HDR Metadata` to configure the HDR metadata (options"
-" described below)."
+"click :guilabel:`HDR Metadata` to configure the HDR metadata (options "
+"described below)."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:62
@@ -191,9 +206,9 @@ msgstr "Metadades HDR"
 
 #: ../../reference_manual/hdr_display.rst:67
 msgid ""
-"This is in the render animation screen. It configures the SMPTE ST.2086 or"
-" Master Display Color Volumes metadata and is required for the HDR video to"
-" be transferred properly to the screen by video players and the cable."
+"This is in the render animation screen. It configures the SMPTE ST.2086 or "
+"Master Display Color Volumes metadata and is required for the HDR video to "
+"be transferred properly to the screen by video players and the cable."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:69
@@ -202,17 +217,17 @@ msgstr "Pantalla mestra"
 
 #: ../../reference_manual/hdr_display.rst:70
 msgid ""
-"The colorspace characteristics of the display on for which your image was"
-" made, typically also the display that you used to paint the image with."
-" There are two default values for common display color spaces, and a custom"
-" value, which will enable the :guilabel:`Display` options."
+"The colorspace characteristics of the display on for which your image was "
+"made, typically also the display that you used to paint the image with. "
+"There are two default values for common display color spaces, and a custom "
+"value, which will enable the :guilabel:`Display` options."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:72
 msgid ""
-"The precise colorspace characteristics for the display for which your image"
-" was made. If you do not have custom selected for :guilabel:`Master Display`,"
-" these are disabled as we can use predetermined values."
+"The precise colorspace characteristics for the display for which your image "
+"was made. If you do not have custom selected for :guilabel:`Master Display`, "
+"these are disabled as we can use predetermined values."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:74
@@ -221,8 +236,8 @@ msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:75
 msgid ""
-"The xyY x and xyY y value of the three chromacities of your screen. These"
-" define the gamut."
+"The xyY x and xyY y value of the three chromacities of your screen. These "
+"define the gamut."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:76
@@ -231,8 +246,8 @@ msgstr "Punt blanc"
 
 #: ../../reference_manual/hdr_display.rst:77
 msgid ""
-"The xyY x and xyY y value of the white point of your screen, this defines"
-" what is considered 'neutral grey'."
+"The xyY x and xyY y value of the white point of your screen, this defines "
+"what is considered 'neutral grey'."
 msgstr ""
 
 #: ../../reference_manual/hdr_display.rst:78
