@@ -41,6 +41,7 @@ importfilename
    
    Export filename says that the following word is the filename it should be exported to.
 
+exportfilename
    Replace this with the name of the output file. Use a different extension to change the file format.
 
 Example:
@@ -136,6 +137,6 @@ Start up
     
        starts krita with the given workspace. So for example...
     
-        `` krita --workspace Animation``
+        ``krita --workspace Animation``
         
         Starts Krita in the Animation workspace.

@@ -19,8 +19,8 @@ The Pop-up Palette is a feature unique to Krita amongst the digital painting app
 
 As shown in the image above, the pop-up palette has the following tools and quick access shortcuts integrated into it
 
-- Foreground color and Background color indicators on the top right of the palette.
-- A canvas rotation slider, which can help the artist quickly rotate the canvas while painting.
+- Foreground color and Background color indicators on the top left of the palette.
+- A canvas rotation circular slider, which can help the artist quickly rotate the canvas while painting.
 - A group of brush presets, based on the tag selected by the artist. By default the **My Favorite** tag is selected. By default only first 10 presets from the tag are shown, however you can change the number of brush presets shown by changing the value in the :ref:`Miscellaneous Settings Section <misc_settings>` of the dialog box.
 - Color Selector with which you can select the hue from the circular ring and lightness and saturation from the triangular area in the middle.
 - Color history area shows the most recent color swatches that you have used while painting.

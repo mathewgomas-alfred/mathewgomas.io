@@ -21,15 +21,16 @@ Horizontal Lines
 Vertical Lines
     The amount of vertical lines to split at. 4 lines will mean that the image is split into 5 vertical stripes. 
 
-.. versionadded:: 4.2
-    Sort Direction
+Sort Direction
 
-        Whether to number the files using the following directions:
+    .. versionadded:: 4.2
 
-            horizontal
-                left to right, top to bottom
-            vertical
-                top to bottom, left to right
+    Whether to number the files using the following directions:
+
+        horizontal
+            left to right, top to bottom
+        vertical
+            top to bottom, left to right
 
 Prefix
     The prefix at which the files should be saved at. By default this is the current document name.
