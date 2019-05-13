@@ -5703,7 +5703,6 @@ code.code-large,
 .rst-content .section ul,
 .rst-content .toctree-wrapper ul,
 article ul {
-    list-style: disc;
     line-height: 24px;
     margin-bottom: 24px;
 }
@@ -5712,7 +5711,6 @@ article ul {
 .rst-content .section ul li,
 .rst-content .toctree-wrapper ul li,
 article ul li {
-    list-style: disc;
     margin-left: 24px;
     margin-bottom: 0.25em;
 }
@@ -5731,32 +5729,11 @@ article ul li ul {
     margin-bottom: 0;
 }
 
-.wy-plain-list-disc li li,
-.rst-content .section ul li li,
-.rst-content .toctree-wrapper ul li li,
-article ul li li {
-    list-style: circle;
-}
-
-.wy-plain-list-disc li li li,
-.rst-content .section ul li li li,
-.rst-content .toctree-wrapper ul li li li,
-article ul li li li {
-    list-style: square;
-}
-
-.wy-plain-list-disc li ol li,
-.rst-content .section ul li ol li,
-.rst-content .toctree-wrapper ul li ol li,
-article ul li ol li {
-    list-style: decimal;
-}
 
 .wy-plain-list-decimal,
 .rst-content .section ol,
 .rst-content ol.arabic,
 article ol {
-    list-style: decimal;
     line-height: 24px;
     margin-bottom: 24px;
 }
@@ -5765,7 +5742,6 @@ article ol {
 .rst-content .section ol li,
 .rst-content ol.arabic li,
 article ol li {
-    list-style: decimal;
     margin-left: 24px;
 }
 
@@ -5783,12 +5759,22 @@ article ol li ul {
     margin-bottom: 0;
 }
 
-.wy-plain-list-decimal li ul li,
-.rst-content .section ol li ul li,
-.rst-content ol.arabic li ul li,
-article ol li ul li {
-    list-style: disc;
+ ol > li {
+	list-style: decimal;
+ }
+
+ol > li ol > li {
+	list-style: lower-alpha;
 }
+
+ul > li {
+ 	list-style: disc;
+ }
+
+ ul > li ul > li {
+ 	list-style: square;
+ }
+
 
 .wy-breadcrumbs {
     *zoom: 1;
