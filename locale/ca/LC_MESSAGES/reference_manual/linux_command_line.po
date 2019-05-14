@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-12 14:42+0200\n"
+"PO-Revision-Date: 2019-05-13 17:29+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../reference_manual/linux_command_line.rst:None
 msgid "New in version 3.3:"
@@ -41,9 +41,9 @@ msgid ""
 "without opening the program when using the Terminal. This option was "
 "disabled on Windows and OSX, but with 3.3 it is enabled for them!"
 msgstr ""
-"Com a programa nadiu de Linux, el Krita permet realitzar operacions sobre les "
-"imatges sense obrir el programa quan empreu el Terminal. Aquesta opció es va "
-"inhabilitar al Windows i OSX, però amb la versió 3.3 està habilitada!"
+"Com a programa nadiu de Linux, el Krita permet realitzar operacions sobre "
+"les imatges sense obrir el programa quan empreu el Terminal. Aquesta opció "
+"es va inhabilitar al Windows i OSX, però amb la versió 3.3 està habilitada!"
 
 #: ../../reference_manual/linux_command_line.rst:22
 msgid ""
@@ -110,8 +110,8 @@ msgstr "``krita fitxer.png --export --export-filename final.jpg``"
 #: ../../reference_manual/linux_command_line.rst:50
 msgid "This line takes the file ``file.png`` and saves it as ``file.jpg``."
 msgstr ""
-"Aquesta línia prendrà el fitxer ``fitxer.png`` i el desarà com al "
-"``fitxer.jpg``."
+"Aquesta línia prendrà el fitxer ``fitxer.png`` i el desarà com al ``fitxer."
+"jpg``."
 
 #: ../../reference_manual/linux_command_line.rst:56
 msgid "Export animation to the given filename and exit"
@@ -137,9 +137,9 @@ msgid ""
 "filename (file.png), to determine the sequence fileformat('png') and the "
 "frame prefix ('file')."
 msgstr ""
-"Aquesta línia pren l'animació a prova.kra, i utilitza el valor de "
-"--export-filename (fitxer.png), per a determinar el format de fitxer («PNG») "
-"de la seqüència i el prefix del marc («fitxer»)."
+"Aquesta línia pren l'animació a prova.kra, i utilitza el valor de --export-"
+"filename (fitxer.png), per a determinar el format de fitxer («PNG») de la "
+"seqüència i el prefix per al marc («fitxer»)."
 
 #: ../../reference_manual/linux_command_line.rst:66
 msgid "PDF export"
@@ -149,8 +149,8 @@ msgstr "Exportar a PDF"
 #: ../../reference_manual/linux_command_line.rst:68
 msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
 msgstr ""
-"L'exportació a PDF es veurà una mica diferent, emprant l'opció "
-"``--export-pdf``."
+"L'exportació a PDF es veurà una mica diferent, emprant l'opció ``--export-"
+"pdf``."
 
 # skip-rule: t-acc_obe
 #: ../../reference_manual/linux_command_line.rst:70
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../../reference_manual/linux_command_line.rst:79
 msgid "Open with Custom Screen DPI"
-msgstr "Obrir amb els PPP de la pantalla personalitzada"
+msgstr "Obrir amb els PPP a mida de la pantalla"
 
 #: ../../reference_manual/linux_command_line.rst:81
 #: ../../reference_manual/linux_command_line.rst:87
@@ -216,8 +216,8 @@ msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
 "in the .local/share/krita/template or in the install folder of Krita."
 msgstr ""
-"Totes les plantilles es desen amb l'extensió «.desktop». Les trobareu a "
-".local/share/krita/template o a la carpeta d'instal·lació del Krita."
+"Totes les plantilles es desen amb l'extensió «.desktop». Les trobareu a ."
+"local/share/krita/template o a la carpeta d'instal·lació del Krita."
 
 # skip-rule: t-acc_obe
 #: ../../reference_manual/linux_command_line.rst:108
@@ -263,7 +263,7 @@ msgstr "Iniciarà el Krita amb l'espai de treball indicat. Així, per exemple...
 # skip-rule: t-acc_obe
 #: ../../reference_manual/linux_command_line.rst:139
 msgid "`` krita --workspace Animation``"
-msgstr "`` krita --workspace Animació``"
+msgstr "``krita --workspace Animació``"
 
 #: ../../reference_manual/linux_command_line.rst:141
 msgid "Starts Krita in the Animation workspace."

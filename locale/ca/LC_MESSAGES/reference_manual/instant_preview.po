@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-12 18:05+0200\n"
+"PO-Revision-Date: 2019-05-13 17:24+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -61,9 +61,9 @@ msgstr ""
 "Krita s'alenteix amb les imatges realment grans a causa de la gran quantitat "
 "de dades que està processant en tornar a pintar aquestes imatges. La Vista "
 "prèvia instantània funciona prenent una versió més petita del llenç i "
-"dibuixant-hi la retroalimentació mentre el Krita calcula el traç real en el "
-"fons. Això vol dir que si teniu una pantalla en 4k i esteu treballant en una "
-"imatge de 4k amb un 100% de zoom, no notareu cap acceleració."
+"dibuixant-hi la retroalimentació mentre el Krita calcula el traç real en "
+"segon pla. Això vol dir que si teniu una pantalla en 4k i esteu treballant "
+"en una imatge de 4k amb un 100% de zoom, no notareu cap acceleració."
 
 #: ../../reference_manual/instant_preview.rst:20
 msgid "Activating Instant Preview"
@@ -98,9 +98,9 @@ msgid ""
 "L`), and the settings of the given paintop by default. This is because "
 "Instant Preview has different limitations with different paint operations."
 msgstr ""
-"La Vista prèvia instantània s'activa en dos llocs: el menú Visualitza "
-"(:kbd:`Majús. + L`) i als ajustaments de l'operació de pintat indicada de "
-"manera predeterminada. Això es deu al fet que la Vista prèvia instantània té "
+"La Vista prèvia instantània s'activa en dos llocs: el menú Visualitza (:kbd:"
+"`Majús. + L`) i als ajustaments de l'operació de pintat indicada de manera "
+"predeterminada. Això es deu al fet que la Vista prèvia instantània té "
 "diferents limitacions amb diferents operacions de pintat."
 
 #: ../../reference_manual/instant_preview.rst:33
@@ -120,8 +120,8 @@ msgid ""
 "a stroke, and thus will give a feeling of 'popping' when the stroke is "
 "finished."
 msgstr ""
-"De manera similar, l'espaiat automàtic, esvaeix al sensor de la mida, l'ús de "
-"la densitat a la punta del pinzell i l'ús d'operacions de pintat amb "
+"De manera similar, l'espaiat automàtic, esvaeix al sensor de la mida, l'ús "
+"de la densitat a la punta del pinzell i l'ús d'operacions de pintat amb "
 "textures dificultaran la determinació d'un traç i, per tant, donaran una "
 "sensació d'«esclat» quan es finalitzi el traç."
 
@@ -141,10 +141,10 @@ msgid ""
 "the threshold size at which instant preview activates. By default this "
 "100px. This is useful for brushes that are optimised to work on small sizes."
 msgstr ""
-"En fer |mouseleft| aquest emergent donarà un control lliscant, el qual es pot "
-"utilitzar per a determinar la mida del llindar en què s'activarà la Vista "
-"prèvia instantània. De manera predeterminada aquest serà 100 px. Això és "
-"útil per als pinzells que estan optimitzats per a treballar sobre mides "
+"En fer |mouseleft| aquest emergent donarà un control lliscant, el qual es "
+"podrà utilitzar per a determinar la mida del llindar en què s'activarà la "
+"Vista prèvia instantània. De manera predeterminada aquest serà 100 px. Això "
+"és útil per als pinzells que estan optimitzats per a treballar sobre mides "
 "petites."
 
 #: ../../reference_manual/instant_preview.rst:47
@@ -174,20 +174,20 @@ msgstr "Les següents eines es beneficien de la Vista prèvia instantània:"
 
 #: ../../reference_manual/instant_preview.rst:54
 msgid "The Freehand brush tool."
-msgstr "L'eina de pinzell a mà alçada."
+msgstr "L'eina de Pinzell a mà alçada."
 
 #: ../../reference_manual/instant_preview.rst:55
 msgid "The geometric tools."
-msgstr "Les eines geomètriques."
+msgstr "Les eines de Geometria."
 
 #: ../../reference_manual/instant_preview.rst:56
 msgid "The Move Tool."
-msgstr "L'eina de moure."
+msgstr "L'eina de Mou."
 
 #: ../../reference_manual/instant_preview.rst:57
 msgid "The Filters."
-msgstr "Els filtres."
+msgstr "Els Filtres."
 
 #: ../../reference_manual/instant_preview.rst:58
 msgid "Animation."
-msgstr "L'animació."
+msgstr "L'Animació."
