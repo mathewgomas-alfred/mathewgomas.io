@@ -2,9 +2,9 @@
 # Roman Paholik <wizzardsk@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___binary"
-"\n"
-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___blending_modes___binary\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
 "PO-Revision-Date: 2019-05-13 13:14+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
@@ -27,25 +27,25 @@ msgstr "Binárny"
 
 #: ../../reference_manual/blending_modes/binary.rst:16
 msgid ""
-"Binary modes are special class of blending modes which utilizes binary"
-" operators for calculations. Binary modes are unlike every other blending"
-" modes as these modes have a fractal attribute with falloff similar to other"
-" blending modes. Binary modes can be used for generation of abstract art"
-" using layers with very smooth surface. All binary modes have capitalized"
-" letters to distinguish themselves from other blending modes."
+"Binary modes are special class of blending modes which utilizes binary "
+"operators for calculations. Binary modes are unlike every other blending "
+"modes as these modes have a fractal attribute with falloff similar to other "
+"blending modes. Binary modes can be used for generation of abstract art "
+"using layers with very smooth surface. All binary modes have capitalized "
+"letters to distinguish themselves from other blending modes."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:18
 msgid ""
-"To clarify on how binary modes works, convert decimal values to binary"
-" values, then treat 1 or 0 as T or F respectively, and use binary operation"
-" to get the end result, and then convert the result back to decimal."
+"To clarify on how binary modes works, convert decimal values to binary "
+"values, then treat 1 or 0 as T or F respectively, and use binary operation "
+"to get the end result, and then convert the result back to decimal."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:22
 msgid ""
-"Binary blending modes do not work on float images or negative numbers! So,"
-" don't report bugs about using binary modes on unsupported color space."
+"Binary blending modes do not work on float images or negative numbers! So, "
+"don't report bugs about using binary modes on unsupported color space."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:24
@@ -55,8 +55,8 @@ msgstr "AND"
 
 #: ../../reference_manual/blending_modes/binary.rst:30
 msgid ""
-"Performs the AND operation for the base and blend layer. Similar to multiply"
-" blending mode."
+"Performs the AND operation for the base and blend layer. Similar to multiply "
+"blending mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:35
@@ -80,8 +80,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:48
 msgid ""
-"Performs the inverse of IMPLICATION operation for the base and blend layer."
-" Similar to screen mode with blend layer and base layer inverted."
+"Performs the inverse of IMPLICATION operation for the base and blend layer. "
+"Similar to screen mode with blend layer and base layer inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:53
@@ -105,8 +105,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:66
 msgid ""
-"Performs the IMPLICATION operation for the base and blend layer. Similar to"
-" screen mode with base layer inverted."
+"Performs the IMPLICATION operation for the base and blend layer. Similar to "
+"screen mode with base layer inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:71
@@ -130,8 +130,8 @@ msgstr "NAND"
 
 #: ../../reference_manual/blending_modes/binary.rst:84
 msgid ""
-"Performs the inverse of AND operation for base and blend layer. Similar to"
-" the inverted multiply mode."
+"Performs the inverse of AND operation for base and blend layer. Similar to "
+"the inverted multiply mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:89
@@ -155,8 +155,8 @@ msgstr "NOR"
 
 #: ../../reference_manual/blending_modes/binary.rst:102
 msgid ""
-"Performs the inverse of OR operation for base and blend layer. Similar to the"
-" inverted screen mode."
+"Performs the inverse of OR operation for base and blend layer. Similar to "
+"the inverted screen mode."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:107
@@ -180,8 +180,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:120
 msgid ""
-"Performs the inverse of CONVERSE operation for base and blend layer. Similar"
-" to the multiply mode with base layer and blend layer inverted."
+"Performs the inverse of CONVERSE operation for base and blend layer. Similar "
+"to the multiply mode with base layer and blend layer inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:125
@@ -196,8 +196,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:130
 msgid ""
-".. image:: images/blending_modes/binary/Blending_modes_NOT_CONVERSE_Gradients."
-"png"
+".. image:: images/blending_modes/binary/"
+"Blending_modes_NOT_CONVERSE_Gradients.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:132
@@ -207,8 +207,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:138
 msgid ""
-"Performs the inverse of IMPLICATION operation for base and blend layer."
-" Similar to the multiply mode with the blend layer inverted."
+"Performs the inverse of IMPLICATION operation for base and blend layer. "
+"Similar to the multiply mode with the blend layer inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:143
@@ -224,8 +224,8 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:148
 msgid ""
-".. image:: images/blending_modes/binary/Blending_modes_NOT_IMPLICATION_Gradien"
-"ts.png"
+".. image:: images/blending_modes/binary/"
+"Blending_modes_NOT_IMPLICATION_Gradients.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:150
@@ -263,8 +263,8 @@ msgstr "XOR"
 
 #: ../../reference_manual/blending_modes/binary.rst:174
 msgid ""
-"Performs the XOR operation for base and blend layer. This mode has a special"
-" property that if you duplicate the blend layer twice, you get the base layer."
+"Performs the XOR operation for base and blend layer. This mode has a special "
+"property that if you duplicate the blend layer twice, you get the base layer."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:179
@@ -283,8 +283,9 @@ msgstr "XNOR"
 
 #: ../../reference_manual/blending_modes/binary.rst:192
 msgid ""
-"Performs the XNOR operation for base and blend layer. This mode has a special"
-" property that if you duplicate the blend layer twice, you get the base layer."
+"Performs the XNOR operation for base and blend layer. This mode has a "
+"special property that if you duplicate the blend layer twice, you get the "
+"base layer."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/binary.rst:197

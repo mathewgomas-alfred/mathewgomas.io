@@ -2,9 +2,9 @@
 # Roman Paholik <wizzardsk@gmail.com>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___modulo"
-"\n"
-"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"Project-Id-Version: "
+"docs_krita_org_reference_manual___blending_modes___modulo\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
 "PO-Revision-Date: 2019-05-13 13:15+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
@@ -29,20 +29,20 @@ msgstr "Modulo"
 
 #: ../../reference_manual/blending_modes/modulo.rst:16
 msgid ""
-"Modulo modes are special class of blending modes which loops values when the"
-" value of channel blend layer is less than the value of channel in base"
-" layers. All modes in modulo modes retains the absolute of the remainder if"
-" the value is greater than the maximum value or the value is less than"
-" minimum value. Continuous modes assume if the calculated value before modulo"
-" operation is within the range between a odd number to even number, then"
-" values are inverted in the end result, so values are perceived to be"
-" wave-like."
+"Modulo modes are special class of blending modes which loops values when the "
+"value of channel blend layer is less than the value of channel in base "
+"layers. All modes in modulo modes retains the absolute of the remainder if "
+"the value is greater than the maximum value or the value is less than "
+"minimum value. Continuous modes assume if the calculated value before modulo "
+"operation is within the range between a odd number to even number, then "
+"values are inverted in the end result, so values are perceived to be wave-"
+"like."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:18
 msgid ""
-"Furthermore, this would imply that modulo modes are beneficial for abstract"
-" art, and manipulation of gradients."
+"Furthermore, this would imply that modulo modes are beneficial for abstract "
+"art, and manipulation of gradients."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:20
@@ -52,16 +52,16 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:26
 msgid ""
-"First, Base Layer is divided by the sum of blend layer and the minimum"
-" possible value after zero. Then, performs a modulo calculation using the"
-" value found with the sum of blend layer and the minimum possible value after"
-" zero."
+"First, Base Layer is divided by the sum of blend layer and the minimum "
+"possible value after zero. Then, performs a modulo calculation using the "
+"value found with the sum of blend layer and the minimum possible value after "
+"zero."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:31
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Gradien"
-"t_Comparison.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Divisive_Modulo_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:31
@@ -76,35 +76,35 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:40
 msgid ""
-"First, Base Layer is divided by the sum of blend layer and the minimum"
-" possible value after zero. Then, performs a modulo calculation using the"
-" value found with the sum of blend layer and the minimum possible value after"
-" zero. As this is a continuous mode, anything between odd to even numbers are"
-" inverted."
+"First, Base Layer is divided by the sum of blend layer and the minimum "
+"possible value after zero. Then, performs a modulo calculation using the "
+"value found with the sum of blend layer and the minimum possible value after "
+"zero. As this is a continuous mode, anything between odd to even numbers are "
+"inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:45
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Continu"
-"ous_Gradient_Comparison.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Divisive_Modulo_Continuous_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:45
 msgid ""
-"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo -"
-" Continuous**."
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo - "
+"Continuous**."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:53
 msgid ""
-"Performs a modulo calculation using the sum of blend layer and the minimum"
-" possible value after zero."
+"Performs a modulo calculation using the sum of blend layer and the minimum "
+"possible value after zero."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:58
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Gradient_Compari"
-"son.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Modulo_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:58
@@ -118,20 +118,21 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:66
 msgid ""
-"Performs a modulo calculation using the sum of blend layer and the minimum"
-" possible value after zero. As this is a continuous mode, anything between"
-" odd to even numbers are inverted."
+"Performs a modulo calculation using the sum of blend layer and the minimum "
+"possible value after zero. As this is a continuous mode, anything between "
+"odd to even numbers are inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:71
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Continuous_Gradi"
-"ent_Comparison.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Modulo_Continuous_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:71
 msgid ""
-"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo - Continuous**."
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo - "
+"Continuous**."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:73
@@ -141,14 +142,14 @@ msgstr "Modulo Shift"
 
 #: ../../reference_manual/blending_modes/modulo.rst:79
 msgid ""
-"Performs a modulo calculation with the result of the sum of base and blend"
-" layer by the sum of blend layer with the minimum possible value after zero."
+"Performs a modulo calculation with the result of the sum of base and blend "
+"layer by the sum of blend layer with the minimum possible value after zero."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:85
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Gradient_C"
-"omparison.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Modulo_Shift_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:85
@@ -162,20 +163,20 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:93
 msgid ""
-"Performs a modulo calculation with the result of the sum of base and blend"
-" layer by the sum of blend layer with the minimum possible value after zero. "
-" As this is a continuous mode, anything between odd to even numbers are"
-" inverted."
+"Performs a modulo calculation with the result of the sum of base and blend "
+"layer by the sum of blend layer with the minimum possible value after zero.  "
+"As this is a continuous mode, anything between odd to even numbers are "
+"inverted."
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:98
 msgid ""
-".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Continuous"
-"_Gradient_Comparison.png"
+".. image:: images/blending_modes/modulo/"
+"Blending_modes_Modulo_Shift_Continuous_Gradient_Comparison.png"
 msgstr ""
 
 #: ../../reference_manual/blending_modes/modulo.rst:98
 msgid ""
-"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift -"
-" Continuous**."
+"Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift - "
+"Continuous**."
 msgstr ""
