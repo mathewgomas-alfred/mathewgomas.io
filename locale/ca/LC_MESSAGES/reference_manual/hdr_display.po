@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-08 03:36+0200\n"
-"PO-Revision-Date: 2019-05-12 18:29+0200\n"
+"PO-Revision-Date: 2019-05-15 15:12+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<generated>:1
 msgid "MaxFALL"
@@ -90,6 +90,13 @@ msgid ""
 "suitable drivers. You then also need to configure the system settings for "
 "HDR."
 msgstr ""
+"El Krita no pot mostrar HDR amb cap dels monitors indicats, necessitareu una "
+"configuració capaç amb HDR. Les configuracions aptes per a HDR són les "
+"pantalles que poden mostrar més de 100 nits, preferiblement un valor com a "
+"1000 i que poden mostrar l'espai «rec 2020 PQ». Cal que tingueu el cable de "
+"pantalla adequat (en cas contrari, els valors només es convertiran en un SDR "
+"normal) i una targeta gràfica que admeti HDR, així com els controladors "
+"adequats. També haureu de configurar l'Arranjament del sistema per a HDR."
 
 #: ../../reference_manual/hdr_display.rst:30
 msgid ""
@@ -99,6 +106,12 @@ msgid ""
 "need to select the preferred surface, which should be as close to the "
 "display format as possible. Then restart Krita."
 msgstr ""
+"Si podeu confirmar que el sistema entén la configuració com una configuració "
+"HDR, podreu continuar la :ref:`configuració en el Krita <hdr_display_settings"
+">`, a :menuselection:`Arranjament --> Configura el Krita --> Pantalla`. Allà, "
+"haureu de seleccionar la superfície preferida, la qual hauria d'estar el més "
+"a prop possible del format de visualització. Després torneu a iniciar el "
+"Krita."
 
 #: ../../reference_manual/hdr_display.rst:33
 msgid "Painting in HDR"
@@ -110,6 +123,10 @@ msgid ""
 "with rec 2020 gamut and a linear TRC. :guilabel:`Rec2020-elle-V4-g10.icc` is "
 "the one we ship by default."
 msgstr ""
+"Per a crear una imatge HDR adequada, haureu de crear un llenç utilitzant un "
+"perfil amb la gamma «rec 2020» i un «TRC lineal». El "
+":guilabel:`Rec2020-elle-V4-g10.icc` és el que distribuïm de manera "
+"predeterminada."
 
 #: ../../reference_manual/hdr_display.rst:37
 msgid ""
@@ -117,6 +134,10 @@ msgid ""
 "However, a linear TRC is easier to edit images in, so we don't convert to PQ "
 "until we're satisfied with our image."
 msgstr ""
+"Les imatges HDR estan estandarditzades per utilitzar la gamma Rec2020 i el PQ "
+"TRC. No obstant això, un TRC lineal és més fàcil per editar les imatges, de "
+"manera que no convertirem a PQ fins que estiguem satisfets amb la nostra "
+"imatge."
 
 #: ../../reference_manual/hdr_display.rst:39
 msgid ""
@@ -124,6 +145,9 @@ msgid ""
 "`scene_linear_painting` page, which covers things like selecting colors, "
 "gotchas, which filters work and cool workflows."
 msgstr ""
+"Per a pintar en aquest nou i emocionant espai de color, vegeu la pàgina "
+":ref:`scene_linear_painting`, la qual cobreix aspectes com la selecció dels "
+"colors, trampes, quins filtres funcionen i fluxos de treball genials."
 
 #: ../../reference_manual/hdr_display.rst:42
 msgid "Exporting HDR"
@@ -138,6 +162,8 @@ msgid ""
 "The kra file format can save the floating point image just fine, and is thus "
 "a good working file format."
 msgstr ""
+"El format de fitxer KRA pot desar bé una imatge en coma flotant, i per tant "
+"és un bon format de fitxer per a treballar."
 
 #: ../../reference_manual/hdr_display.rst:48
 msgid ""
@@ -146,12 +172,18 @@ msgid ""
 "<file_png>`, but there's currently very little support for this standard. In "
 "the future we hope to see heif and avif support."
 msgstr ""
+"Per a compartir amb altres editors d'imatge, es recomana:ref:`file_exr`. Per "
+"a compartir amb la web, actualment només tenim :ref:`Exportació de PNG a HDR "
+"<file_png>`, però actualment hi ha molt poc suport per a aquest estàndard. "
+"En el futur esperem veure el suport de HEIF i AVIF."
 
 #: ../../reference_manual/hdr_display.rst:50
 msgid ""
 "For exporting HDR animations, we support saving HDR to the new codec for mp4 "
 "and mkv: H.265. To use these options..."
 msgstr ""
+"Per a exportar animacions a HDR, admetem desar HDR en el nou còdec per a MP4 "
+"i MKV: H.265. Per a utilitzar aquestes opcions..."
 
 #: ../../reference_manual/hdr_display.rst:52
 msgid "Get a version of FFMpeg that supports H.256"
@@ -167,38 +199,43 @@ msgstr ":menuselection:`Fitxer --> Renderitza una animació`."
 
 #: ../../reference_manual/hdr_display.rst:55
 msgid "Select :guilabel:`Video`"
-msgstr "Seleccioneu el :guilabel:`Vídeo`"
+msgstr "Seleccioneu el :guilabel:`Vídeo`."
 
 #: ../../reference_manual/hdr_display.rst:56
 msgid "Select for :guilabel:`Render as`, 'MPEG-4 video' or 'Matroska'."
 msgstr ""
-"Seleccioneu per a :guilabel:`Renderitza com a`, vídeo «MPEG-4» o «Matroska»."
+"Seleccioneu per a :guilabel:`Renderitza com a`, el vídeo «MPEG-4» o "
+"«Matroska»."
 
 #: ../../reference_manual/hdr_display.rst:57
 msgid "Press the configure button next to the file format dropdown."
 msgstr ""
+"Premeu el botó de configuració situat al costat del desplegable format de "
+"fitxer."
 
 #: ../../reference_manual/hdr_display.rst:58
 msgid "Select at the top 'H.265, MPEG-H Part 2 (HEVC)'"
-msgstr ""
+msgstr "Seleccioneu a la part superior «H.265, MPEG-H Part 2 (HEVC)»."
 
 #: ../../reference_manual/hdr_display.rst:59
 msgid "Select for the :guilabel:`Profile`, 'main10'."
-msgstr "Seleccioneu per al :guilabel:`Perfil`, «main10»."
+msgstr "Seleccioneu per al :guilabel:`Perfil`, el «main10»."
 
 #: ../../reference_manual/hdr_display.rst:60
 msgid ":guilabel:`HDR Mode` should now enable. Toggle it."
-msgstr ""
+msgstr "El :guilabel:`Mode HDR` hauria d'estar habilitat. Commuteu-lo."
 
 #: ../../reference_manual/hdr_display.rst:61
 msgid ""
 "click :guilabel:`HDR Metadata` to configure the HDR metadata (options "
 "described below)."
 msgstr ""
+"Feu clic a :guilabel:`Metadades HDR` per a configurar les metadades HDR (les "
+"opcions es descriuen a continuació)."
 
 #: ../../reference_manual/hdr_display.rst:62
 msgid "finally, when done, click 'render'."
-msgstr ""
+msgstr "Finalment, fes clic a «Renderitza»."
 
 #: ../../reference_manual/hdr_display.rst:65
 msgid "HDR Metadata"
@@ -210,10 +247,14 @@ msgid ""
 "Master Display Color Volumes metadata and is required for the HDR video to "
 "be transferred properly to the screen by video players and the cable."
 msgstr ""
+"Això està a la pantalla d'animació del renderitzador. Configura les metadades "
+"«SMPTE ST.2086» o «Master Display Color Volumes» i és necessari perquè el "
+"vídeo HDR es transfereixi correctament a la pantalla mitjançant els "
+"reproductors de vídeo i el cable."
 
 #: ../../reference_manual/hdr_display.rst:69
 msgid "Master Display"
-msgstr "Pantalla mestra"
+msgstr "Visualització mestra"
 
 #: ../../reference_manual/hdr_display.rst:70
 msgid ""
@@ -222,6 +263,11 @@ msgid ""
 "There are two default values for common display color spaces, and a custom "
 "value, which will enable the :guilabel:`Display` options."
 msgstr ""
+"Les característiques de l'espai de color de la pantalla on es va crear la "
+"imatge, normalment també la pantalla que vàreu utilitzar per a pintar la "
+"imatge. Hi ha dos valors predeterminats per als espais de color habituals "
+"per a la visualització, i un valor personalitzat, el qual habilitarà les "
+"opcions de :guilabel:`Pantalla`."
 
 #: ../../reference_manual/hdr_display.rst:72
 msgid ""
@@ -229,16 +275,22 @@ msgid ""
 "was made. If you do not have custom selected for :guilabel:`Master Display`, "
 "these are disabled as we can use predetermined values."
 msgstr ""
+"Les característiques precises de l'espai de color per a la pantalla en la "
+"qual es va realitzar la imatge. Si no teniu una selecció personalitzada per "
+"a la :guilabel:`Visualització Mestra`, aquestes estaran inhabilitades ja que "
+"podrem utilitzar els valors predeterminats."
 
 #: ../../reference_manual/hdr_display.rst:74
 msgid "Red/Green/Blue Primary"
-msgstr ""
+msgstr "Vermell/Verd/Blau primari"
 
 #: ../../reference_manual/hdr_display.rst:75
 msgid ""
 "The xyY x and xyY y value of the three chromacities of your screen. These "
 "define the gamut."
 msgstr ""
+"El valor «xyY x» i «xyY y» de les tres cromacitats de la vostra pantalla. "
+"Aquests definiran la gamma."
 
 #: ../../reference_manual/hdr_display.rst:76
 msgid "White Point"
@@ -249,6 +301,8 @@ msgid ""
 "The xyY x and xyY y value of the white point of your screen, this defines "
 "what is considered 'neutral grey'."
 msgstr ""
+"El valor «xyY x» i «xyY y» del punt blanc de la vostra pantalla, defineixen "
+"el que es considerarà «gris neutre»."
 
 #: ../../reference_manual/hdr_display.rst:78
 msgid "Min Luminance"
@@ -256,7 +310,7 @@ msgstr "Luminància mín."
 
 #: ../../reference_manual/hdr_display.rst:79
 msgid "The darkest value your screen can show in nits."
-msgstr ""
+msgstr "El valor més fosc que pot mostrar la vostra pantalla en nits."
 
 #: ../../reference_manual/hdr_display.rst:81
 msgid "Display"
@@ -268,7 +322,7 @@ msgstr "Luminància màx."
 
 #: ../../reference_manual/hdr_display.rst:81
 msgid "The brightest value your screen can show in nits."
-msgstr ""
+msgstr "El valor més brillant que pot mostrar la vostra pantalla en nits."
 
 #: ../../reference_manual/hdr_display.rst:83
 msgid "MaxCLL"
@@ -276,8 +330,8 @@ msgstr "MaxCLL"
 
 #: ../../reference_manual/hdr_display.rst:84
 msgid "The value of the brightest pixel of your animation in nits."
-msgstr ""
+msgstr "El valor del píxel més brillant de la vostra animació en nits."
 
 #: ../../reference_manual/hdr_display.rst:86
 msgid "The average 'brightest value' of the whole animation."
-msgstr ""
+msgstr "La mitjana del «valor més brillant» de tota l'animació."

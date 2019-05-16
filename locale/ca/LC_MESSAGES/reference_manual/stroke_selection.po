@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-12 14:35+0200\n"
+"PO-Revision-Date: 2019-05-15 20:26+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/Stroke_Selection_4.png"
@@ -37,7 +37,7 @@ msgstr "Traç"
 
 #: ../../reference_manual/stroke_selection.rst:15
 msgid "Stroke Selection"
-msgstr "Selecció de traç"
+msgstr "Seleccionar amb el traç"
 
 #: ../../reference_manual/stroke_selection.rst:17
 msgid ""
@@ -45,10 +45,13 @@ msgid ""
 "Selection allows you to do this. It's under :menuselection:`Edit --> Stroke "
 "Selection`"
 msgstr ""
+"De vegades, voldreu afegir una vora uniforme al voltant d'una selecció. La "
+"selecció de traç ho fa possible. Està sota :menuselection:`Edita --> "
+"Selecció de traç`."
 
 #: ../../reference_manual/stroke_selection.rst:19
 msgid "First make a selection and call up the menu:"
-msgstr ""
+msgstr "Primer feu una selecció i obriu el menú:"
 
 #: ../../reference_manual/stroke_selection.rst:22
 msgid ".. image:: images/Krita_stroke_selection_1.png"
@@ -60,10 +63,13 @@ msgid ""
 "with an even line. You can use the current foreground color, the background "
 "color or a custom color."
 msgstr ""
+"Les opcions principals són utilitzar el pinzell actual o alinear la selecció "
+"amb una línia uniforme. Podeu utilitzar el color de primer pla, de fons "
+"actual o un color personalitzat."
 
 #: ../../reference_manual/stroke_selection.rst:25
 msgid "Using the current brush allows you to use textured brushes:"
-msgstr ""
+msgstr "Emprar el pinzell actual permet utilitzar pinzells amb textura:"
 
 #: ../../reference_manual/stroke_selection.rst:28
 msgid ".. image:: images/Stroke_selection_2.png"
@@ -74,6 +80,8 @@ msgid ""
 "Lining the selection also allows you to set the background color, on top of "
 "the line width in pixels or inches:"
 msgstr ""
+"Alinear la selecció també permet establir el color de fons, a la part "
+"superior de l'amplada de la línia en píxels o polzades:"
 
 #: ../../reference_manual/stroke_selection.rst:32
 msgid ".. image:: images/Krita_stroke_selection_3.png"
@@ -81,4 +89,4 @@ msgstr ".. image:: images/Krita_stroke_selection_3.png"
 
 #: ../../reference_manual/stroke_selection.rst:33
 msgid "This creates nice silhouettes:"
-msgstr "Això crea boniques siluetes:"
+msgstr "Això crearà boniques siluetes:"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-11 15:34+0200\n"
+"PO-Revision-Date: 2019-05-15 20:40+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<generated>:1
 msgid "Palette to use for naming the layers"
@@ -41,11 +41,11 @@ msgstr "Dividir"
 
 #: ../../reference_manual/split_layer.rst:10
 msgid "Color Islands"
-msgstr ""
+msgstr "Illes de color"
 
 #: ../../reference_manual/split_layer.rst:15
 msgid "Split Layer"
-msgstr "Divisió de capa"
+msgstr "Dividir les capes"
 
 #: ../../reference_manual/split_layer.rst:16
 msgid ""
@@ -53,6 +53,9 @@ msgid ""
 "ref:`colorize_mask` and :kbd:`R` + |mouseleft| to select layers at the "
 "cursor."
 msgstr ""
+"Divideix una capa d'acord amb el color. Això és útil en combinació amb"
+" :ref:`colorize_mask` i :kbd:`R + feu` |mouseleft| per a seleccionar les"
+" capes al cursor."
 
 #: ../../reference_manual/split_layer.rst:18
 msgid "Put all new layers in a group layer"
@@ -60,7 +63,7 @@ msgstr "Situa totes les capes noves en una capa de grup"
 
 #: ../../reference_manual/split_layer.rst:19
 msgid "Put all the result layers into a new group."
-msgstr ""
+msgstr "Posa totes les capes del resultat dins d'un grup nou."
 
 #: ../../reference_manual/split_layer.rst:20
 msgid "Put every layer in its own, separate group layer"
@@ -68,7 +71,7 @@ msgstr "Situa cada capa en la seva pròpia capa de grup separada"
 
 #: ../../reference_manual/split_layer.rst:21
 msgid "Put each layer into its own group."
-msgstr ""
+msgstr "Posa cada capa dins del seu propi grup."
 
 #: ../../reference_manual/split_layer.rst:22
 msgid "Alpha-lock every new layer"
@@ -77,6 +80,8 @@ msgstr "Bloqueja l'alfa de cada capa nova"
 #: ../../reference_manual/split_layer.rst:23
 msgid "Enable the alpha-lock for each layer so it is easier to color."
 msgstr ""
+"Habilita bloqueja l'alfa per a cada capa, de manera que sigui més fàcil donar"
+" color."
 
 #: ../../reference_manual/split_layer.rst:24
 msgid "Hide the original layer"
@@ -85,24 +90,28 @@ msgstr "Oculta la capa original"
 #: ../../reference_manual/split_layer.rst:25
 msgid ""
 "Turns off the visibility on the original layer so you won't get confused."
-msgstr ""
+msgstr "Desactiva la visibilitat de la capa original perquè no us confongui."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/split_layer.rst:26
 msgid "Sort layers by amount of non-transparent pixels."
-msgstr "Ordena les capes segons la quantitat de píxels no transparents."
+msgstr "Ordena les capes segons la quantitat de píxels no transparents"
 
 #: ../../reference_manual/split_layer.rst:27
 msgid ""
 "This ensures that the layers with large color swathes will end up at the top."
 msgstr ""
+"Això garanteix que les capes amb grans mostres de color acabin a la part"
+" superior."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/split_layer.rst:28
 msgid "Disregard opacity."
-msgstr "Ignora l'opacitat."
+msgstr "Ignora l'opacitat"
 
 #: ../../reference_manual/split_layer.rst:29
 msgid "Whether to take into account transparency of a color."
-msgstr ""
+msgstr "Quan s'haurà de tenir en compte la transparència d'un color."
 
 #: ../../reference_manual/split_layer.rst:30
 msgid "Fuzziness"
@@ -115,9 +124,16 @@ msgid ""
 "anti-aliasing, because otherwise you would end up with a separate layer for "
 "each tiny pixel."
 msgstr ""
+"Com de precís haurà de ser l'algoritme. Com més gran sigui el difuminat,"
+" menys precís serà l'algoritme. Això és necessari per a dividir les capes amb"
+" antialiàsing, ja que d'altra manera acabaríeu amb una capa separada per a"
+" cada píxel petit."
 
 #: ../../reference_manual/split_layer.rst:33
 msgid ""
 "Select the palette to use for naming. Krita will compare the main color of a "
 "layer to each color in the palette to get the most appropriate name for it."
 msgstr ""
+"Seleccioneu la paleta a utilitzar per anomenar. El Krita compararà el color"
+" principal d'una capa amb cada color de la paleta per obtenir el nom més"
+" apropiat."

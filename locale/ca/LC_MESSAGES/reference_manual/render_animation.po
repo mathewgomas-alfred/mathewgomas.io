@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-11 15:35+0200\n"
+"PO-Revision-Date: 2019-05-15 20:04+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../reference_manual/render_animation.rst:1
 msgid "How to use the render animation command in Krita."
@@ -38,6 +38,9 @@ msgid ""
 "Render animation allows you to render your animation to an image sequence, "
 "gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` ."
 msgstr ""
+"La renderització de l'animació permet renderitzar la vostra animació a una "
+"seqüència d'imatges, un fitxer GIF, MP4, MKV o OGG. Substitueix "
+":guilabel:`Exporta l'animació`."
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
@@ -50,6 +53,16 @@ msgid ""
 "saves out weird, first saving the image sequence allows you to only resave "
 "that one weird frame before rendering."
 msgstr ""
+"Per a renderitzar a un format de fitxer animat, el Krita primer renderitzarà "
+"a una seqüència PNG i després emprarà el FFmpeg, el qual és realment bo per "
+"a codificar dintre de fitxers de vídeo, per a renderitzar aquesta seqüència "
+"a un format de fitxer animat. La raó d'aquest procés de dos passos és que "
+"els fitxers d'animació poden ser realment complexos i grans, i aquesta és la "
+"millor manera de permetre-us mantenir el control sobre el procés de "
+"l'exportació. Per exemple, si el vostre ordinador té algun problema, i un "
+"fotograma es desa de forma estranya, el desar primer la seqüència d'imatges "
+"només us permetrà tornar a desar aquest fotograma estrany abans de fer el "
+"renderitzat."
 
 #: ../../reference_manual/render_animation.rst:23
 msgid ""
@@ -58,6 +71,10 @@ msgid ""
 "use a spot on your hard-drive with enough room and select :guilabel:`Delete "
 "Sequence After Rendering`"
 msgstr ""
+"Això vol dir que haureu de trobar un bon lloc per enganxar els fotogrames "
+"abans de poder començar a renderitzar. Si només creeu animacions d'un sol "
+"ús, podeu utilitzar un lloc en el disc dur amb prou espai i seleccionar "
+":guilabel:`Suprimeix la seqüència després de renderitzar`."
 
 #: ../../reference_manual/render_animation.rst:26
 msgid "Image Sequence"
@@ -72,6 +89,8 @@ msgid ""
 "The base name of your image sequence. This will get suffixed with a number "
 "depending on the frame."
 msgstr ""
+"El nom base de la seqüència d'imatges. Això obtindrà un sufix amb un número "
+"depenent del fotograma."
 
 #: ../../reference_manual/render_animation.rst:30
 msgid "File Format"
@@ -82,16 +101,21 @@ msgid ""
 "The file format to export the sequence to. When rendering we enforce png. "
 "The usual export options can be modified with :guilabel:`...`."
 msgstr ""
+"El format de fitxer al qual exportar la seqüència. Durant el renderitzar "
+"forçarem PNG. Les opcions d'exportació habituals es poden ajustar amb "
+":guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:32
 msgid "Render Location"
-msgstr ""
+msgstr "Ubicació de renderitzat"
 
 #: ../../reference_manual/render_animation.rst:33
 msgid ""
 "Where you render the image sequence to. Some people prefer to use a flash-"
 "drive or perhaps a harddrive that is fast."
 msgstr ""
+"A on renderitzareu la seqüència d'imatges. Hi ha qui prefereix utilitzar una "
+"unitat flaix o potser un disc dur que sigui ràpid."
 
 #: ../../reference_manual/render_animation.rst:34
 msgid "First Frame"
@@ -103,6 +127,10 @@ msgid ""
 "to the first frame of your current selection in the timeline. This is useful "
 "when you only want to re-render a little part."
 msgstr ""
+"El primer fotograma de l'interval de fotogrames que voleu ajustar. "
+"S'estableix automàticament al primer fotograma de la vostra selecció actual "
+"a la línia de temps. Això és útil quan només voleu tornar a renderitzar una "
+"petita part."
 
 #: ../../reference_manual/render_animation.rst:36
 msgid "Last Frame"
@@ -114,10 +142,13 @@ msgid ""
 "Automatically set to the last frame of your current selection in the "
 "timeline."
 msgstr ""
+"Com a dalt, l'últim fotograma de l'interval de fotogrames que voleu ajustar. "
+"S'estableixi automàticament a l'últim fotograma de la vostra selecció actual "
+"a la línia de temps."
 
 #: ../../reference_manual/render_animation.rst:39
 msgid "Naming Sequence starts with"
-msgstr ""
+msgstr "La seqüència de noms comença amb"
 
 #: ../../reference_manual/render_animation.rst:39
 msgid ""
@@ -127,6 +158,12 @@ msgid ""
 "11 and 15. Useful for programs that don't understand sequences starting with "
 "0, or for precision output."
 msgstr ""
+"Els fotogrames s'anomenaran emprant el :guilabel:`Nom base` anterior i "
+"afegint un número per al fotograma. Això permet establir on comença el "
+"nombre de fotogrames, de manera que la representació de 8 a 10 amb el punt "
+"d'inici 3 us donarà les imatges amb els noms 11 i 15. És útil per a "
+"programes que no entenen les seqüències que comencen amb 0 o per a resultats "
+"precisos."
 
 #: ../../reference_manual/render_animation.rst:44
 msgid "Render As"
@@ -137,6 +174,8 @@ msgid ""
 "The file format to render to. All except gif have extra options that can be "
 "manipulated via :guilabel:`...`."
 msgstr ""
+"El format de fitxer per a renderitzar. Tots excepte el GIF tenen opcions "
+"addicionals que poden ser manipulades a través de :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:46
 msgid "File"
@@ -144,11 +183,11 @@ msgstr "Fitxer"
 
 #: ../../reference_manual/render_animation.rst:47
 msgid "Location and name of the rendered animation."
-msgstr ""
+msgstr "Ubicació i nom de l'animació renderitzada."
 
 #: ../../reference_manual/render_animation.rst:48
 msgid "FFMpeg"
-msgstr "FFMpeg"
+msgstr "FFmpeg"
 
 #: ../../reference_manual/render_animation.rst:49
 msgid ""
@@ -156,10 +195,13 @@ msgid ""
 "render an animation. For proper gif support, you will need ffmpeg 2.6, as we "
 "use its palettegen functionality."
 msgstr ""
+"La ubicació on teniu el «ffmpeg». Si no el teniu, el Krita no podrà "
+"renderitzar una animació. Per a un suport adequat del GIF, necessitareu el "
+"FFmpeg 2.6, ja que utilitzem la seva funcionalitat «palettegen»."
 
 #: ../../reference_manual/render_animation.rst:51
 msgid "Delete Sequence After Rendering"
-msgstr ""
+msgstr "Suprimeix la seqüència després de renderitzar"
 
 #: ../../reference_manual/render_animation.rst:51
 msgid ""
@@ -167,6 +209,9 @@ msgid ""
 "to choose whether to try and save some space, or to save the sequence for "
 "when encoding fails."
 msgstr ""
+"Suprimeix la seqüència d'imatges prerenderitzades després d'acabar el "
+"renderitzat. Això permet decidir si voleu estalviar espai o desar la "
+"seqüència per a quan falla la codificació."
 
 #: ../../reference_manual/render_animation.rst:55
 msgid ""
@@ -174,10 +219,14 @@ msgid ""
 "background, so Krita will try to fill it with something. You should add a "
 "background color yourself to avoid it from using, say, black."
 msgstr ""
+"Cap dels formats de vídeo admet el desament d'imatges amb un fons "
+"transparent, de manera que el Krita intentarà emplenar-lo amb alguna cosa. "
+"Haureu d'afegir un color de fons per evitar que utilitzi, per exemple, el "
+"negre."
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "Configurar el Krita per a exportar les animacions"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -188,21 +237,31 @@ msgid ""
 "how to get it and set it up. The setup is a one-time thing so you won't have "
 "to do it again."
 msgstr ""
+"Us caldrà descarregar una aplicació addicional i vincular-la amb el Krita "
+"perquè funcioni. L'aplicació és força gran (50 MB), de manera que els "
+"desenvolupadors del Krita no van voler empaquetar-les juntes. El programari "
+"que utilitzarem és gratuït i s'anomena FFmpeg. Les següents instruccions "
+"explicaran com obtenir-lo i configurar-lo. La configuració serà única, així "
+"que no ho haureu de tornar a fer."
 
 #: ../../reference_manual/render_animation.rst:63
 msgid "Step 1 - Downloading FFMpeg"
-msgstr ""
+msgstr "Pas 1: descarregar el FFmpeg"
 
 #: ../../reference_manual/render_animation.rst:66
 #: ../../reference_manual/render_animation.rst:86
 msgid "For Windows"
 msgstr "Per a Windows"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/render_animation.rst:68
 msgid ""
 "Go to the `ffmpeg website <http://ffmpeg.org/download.html>`_. The URL that "
 "had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_"
 msgstr ""
+"Aneu al `lloc web del FFmpeg <http://ffmpeg.org/download.html>`_. L'URL que "
+"tenia de l'enllaç per a mi està `aquí <https://ffmpeg.zeranoe.com/builds/"
+">`_..."
 
 #: ../../reference_manual/render_animation.rst:70
 msgid ""
@@ -213,12 +272,20 @@ msgid ""
 "version. Make sure you get a exe file, if you hover over the options they "
 "will give more information about what exactly you are downloading."
 msgstr ""
+"Compte amb l'extremadament molest Google, sembla un botó de descàrrega! No hi "
+"ha cap botó gran per al que necessitem. Obtingueu la versió ESTÀTICA de 64 "
+"bits o la versió ESTÀTICA de 32 bits que es mostra més endavant de la "
+"pàgina. Si heu comprat un ordinador en els últims 5 anys, és probable que "
+"vulgueu la versió de 64 bits. Assegureu-vos d'obtenir un fitxer EXE, si "
+"passeu el ratolí sobre les opcions, obtindreu més informació sobre el que "
+"descarregareu."
 
 #: ../../reference_manual/render_animation.rst:73
 #: ../../reference_manual/render_animation.rst:93
 msgid "For OSX"
 msgstr "Per a OSX"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/render_animation.rst:75
 msgid ""
 "Please see the section above. However, FFmpeg is obtained from `here "
@@ -227,6 +294,12 @@ msgid ""
 "that supports .7z, since ffmpeg provides their OSX builds in .7z format. If "
 "you don't have one, try something like `Keka <http://www.kekaosx.com>`_."
 msgstr ""
+"Consulteu l'anterior secció. No obstant això, el FFmpeg s'obté des d'`aquí "
+"<https://evermeet.cx/ffmpeg/>`_. Simplement seleccioneu el gran botó verd que "
+"hi ha a l'esquerra sota de la capçalera FFmpeg. També necessitareu una "
+"utilitat d'arxiu que admeti .7z, ja que el FFmpeg proporciona les seves "
+"compilacions OSX en aquest format. Si no es teniu una, proveu amb quelcom "
+"com el `Keka <http://www.kekaosx.com>`_."
 
 #: ../../reference_manual/render_animation.rst:78
 #: ../../reference_manual/render_animation.rst:98
@@ -239,10 +312,13 @@ msgid ""
 "2.6 is required for proper gif support, as we use the palettegen "
 "functionality."
 msgstr ""
+"El FFmpeg es pot instal·lar a partir dels repositoris en la majoria dels "
+"sistemes Linux. La versió 2.6 és necessària per al suport adequat del GIF, "
+"ja que utilitzem la funcionalitat «paletegen»."
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
-msgstr ""
+msgstr "Pas 2: Descomprimir i vincular-lo amb el Krita"
 
 #: ../../reference_manual/render_animation.rst:88
 msgid ""
@@ -251,14 +327,24 @@ msgid ""
 "\\ and place it there. You can put it wherever you want, but that is where I "
 "put it."
 msgstr ""
+"Descomprimiu el paquet que acabeu de descarregar. Reanomeneu el llarg nom de "
+"la carpeta a només «ffmpeg». Poseu aquesta carpeta en una ubicació fàcil de "
+"trobar. Aneu al vostre C:\\ i poseu-la allà. Podreu posar-la on vulgueu, "
+"però aquí és on la poso jo."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/render_animation.rst:90
 msgid ""
 "Open Krita back up and go to :menuselection:`File --> Render Animation`. "
 "Click the :guilabel:`Browse`  button on the last item called FFMpeg. Select "
 "this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` ."
 msgstr ""
+"Obriu el Krita de nou i aneu a :menuselection:`Fitxer --> Renderitza "
+"l'animació`. Feu clic al botó :guilabel:`Navega` sobre l'últim element "
+"anomenat FFmpeg. Seleccioneu aquest fitxer ``C:/ffmpeg/bin/ffmpeg.exe`` i "
+"feu clic a :guilabel:`D'acord`."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/render_animation.rst:95
 msgid ""
 "After downloading ffmpeg, you just need to extract it and then simply point "
@@ -266,22 +352,30 @@ msgid ""
 "(assuming you downloaded and extracted the .7z file to /Users/user/"
 "Downloads)."
 msgstr ""
+"Després de descarregar el FFmpeg, només necessitareu extreure'l i després "
+"assenyalar la seva ubicació al Krita com ``/Users/usuari/Baixades/ffmpeg`` "
+"(assumint que el vàreu descarregar i extreure a ``/Users/usuari/Baixades``)."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/render_animation.rst:100
 msgid ""
 "FFMpeg is, if installed from the repositories, usually found in ``/usr/bin/"
 "ffmpeg``"
 msgstr ""
+"El FFmpeg estarà, si s'instal·la des dels repositoris, generalment es trobarà "
+"a ``/usr/bin/ffmpeg``."
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "Pas 3: Provar una animació"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
 "ffmpeg.exe is what Krita uses to do all of its animation export magic. Now "
 "that it is hooked up, let us test it out."
 msgstr ""
+"El fitxer «ffmpeg.exe» és el que utilitzarà el Krita per a fer tota la seva "
+"màgica exportació de l'animació. Ara que està preparat, provem-ho."
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""
@@ -291,6 +385,11 @@ msgid ""
 "called it \"export.gif\". When it is done, you should be able to open it up "
 "and see the animation."
 msgstr ""
+"Crearem un GIF animat. En el diàleg Renderitza l'animació, canvieu el camp "
+":guilabel:`Renderitza` com a a «Imatge GIF». Trieu la ubicació del fitxer on "
+"es desarà amb el menú «Fitxer» a sota. Jo la vaig desar al meu escriptori i "
+"la vaig anomenar «exportació.gif». En acabar, hauríeu de poder-la obrir i "
+"veure l'animació."
 
 #: ../../reference_manual/render_animation.rst:111
 msgid ""
@@ -298,6 +397,10 @@ msgid ""
 "that Windows Media Player won't be able to play it. So for Windows, select "
 "\"baseline\" for the profile instead of \"high422\" before rendering."
 msgstr ""
+"De manera predeterminada, el FFmpeg renderitzarà els fitxers MP4 amb un còdec "
+"massa nou, el qual voldrà dir que el Windows Media Player no podrà "
+"reproduir-lo. De manera que per a Windows, seleccioneu «línia base» per al "
+"perfil en lloc de «high422» abans de renderitzar."
 
 #: ../../reference_manual/render_animation.rst:115
 msgid ""
@@ -306,3 +409,7 @@ msgid ""
 "video should play. Otherwise you will need to get a program like VLC to see "
 "the video."
 msgstr ""
+"L'OSX no ve amb cap programari per a reproduir fitxers MP4 i MKV. Si "
+"utilitzeu Chrome com al vostre navegador web, podreu arrossegar el fitxer de "
+"vídeo a aquest i el vídeo s'hauria de reproduir. En cas contrari, "
+"necessitareu obtenir un programa com VLC per a veure el vídeo."

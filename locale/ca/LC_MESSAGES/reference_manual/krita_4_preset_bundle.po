@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-11 16:09+0200\n"
+"PO-Revision-Date: 2019-05-15 18:50+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/brushes/Krita4_z-brush-family.jpg"
@@ -44,27 +44,35 @@ msgid ""
 "Krita comes with a large collection of brush presets. This collection was "
 "designed with many considerations:"
 msgstr ""
+"El Krita ve amb una gran col·lecció de pinzells predefinits. Aquesta "
+"col·lecció es va dissenyar amb moltes consideracions:"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:23
 msgid ""
 "Help the beginner and the advanced user with brushes that are ready-to-use."
 msgstr ""
+"Ajudar al principiant i a l'usuari avançat amb pinzells llestos per utilitzar."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:24
 msgid ""
 "Propose tools for the various ways Krita is used: Comic inking and coloring, "
 "Digital Painting, Mate Painting, Pixel Art, 3D texturing."
 msgstr ""
+"Proposar eines per a les diferents maneres en què s'utilitza el Krita: "
+"aplicar tinta i donar als còmics, pintura digital, pintura mat, pixel art, "
+"textura en 3D."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:25
 msgid "Show a sample of what the brush engines can do."
-msgstr ""
+msgstr "Ensenyar una mostra del que poden fer els motors de pinzell."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:27
 msgid ""
 "This page illustrates and describes the included default brush presets in "
 "Krita 4."
 msgstr ""
+"Aquesta pàgina il·lustra i descriu els pinzells predefinits predeterminats "
+"inclosos en el Krita 4."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:30
 msgid "Erasers"
@@ -75,6 +83,7 @@ msgid ""
 "The large one is for removing large portions of a layer (eg. a full "
 "character)"
 msgstr ""
+"El gran és per eliminar grans porcions d'una capa (p. ex., tot un caràcter)."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:33
 msgid ""
@@ -82,12 +91,17 @@ msgid ""
 "very specific shape so you will notice with the square shape of your cursor "
 "you are in eraser-mode."
 msgstr ""
+"El petit està dissenyat per emprar-se quan es dibuixen línies fines o "
+"s'aplica tinta. Té una forma molt específica, de manera que notareu que amb "
+"la forma quadrada del cursor es troba en mode esborrador."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:34
 msgid ""
 "The soft one is used to erase or fade out the part of a drawing with various "
 "levels of opacity."
 msgstr ""
+"El suau s'utilitza per esborrar o esvair la part d'un dibuix amb diversos "
+"nivells d'opacitat."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:37
 msgid ".. image:: images/brushes/Krita4_a-brush-family.png"
@@ -104,6 +118,11 @@ msgid ""
 "this type are the fundamental stones of every digital painting program. "
 "These brushes will work fast since they use simple properties."
 msgstr ""
+"La família de pinzells bàsics utilitza un cercle bàsic per a la punta del "
+"pinzell amb una variació sobre l'opacitat, el flux o la mida. S'anomena "
+"Bàsic perquè els pinzells d'aquest tipus són les pedres fonamentals de cara "
+"programa de pintura digital. Aquests pinzells treballaran ràpid ja que "
+"empren propietats senzilles."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:44
 msgid ".. image:: images/brushes/Krita4_b-brush-family.jpg"
@@ -122,6 +141,13 @@ msgid ""
 "artist to obtain specific effects; like quickly shading a large area of the "
 "drawing without having to manually crosshatch a lot of lines."
 msgstr ""
+"Aquests predefinits tendeixen a emular l'efecte del llapis sobre el paper. "
+"Tots tenen un pinzell fi que utilitza una textura de paper. Alguns se "
+"centren en ser realistes per ajudar a corregir un escanejat a llapis. Alguns "
+"se centren més en mostrar els efectes en el monitor de l'ordinador. Els dos "
+"últims (Tilted «Inclinat»/Quick Shade «Ombra ràpida») ajuden a l'artista a "
+"obtenir efectes específics; com ombrejar ràpidament una àrea gran del dibuix "
+"sense haver de fer ratlles manualment un munt de línies."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:51
 msgid ".. image:: images/brushes/Krita4_c-brush-family.jpg"
@@ -129,35 +155,46 @@ msgstr ".. image:: images/brushes/Krita4_c-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:53
 msgid "Inking"
-msgstr ""
+msgstr "Tintat"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:55
 msgid ""
 "For the black & white illustrator or the comic artist. The Inking brushes "
 "help you produce line art and high contrast illustrations."
 msgstr ""
+"Per a l'il·lustrador en blanc i negre o el dibuixant de còmics. Els pinzells "
+"de tinta ajuden a produir il·lustracions d'art lineal i d'alt contrast."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:57
 msgid ""
 "Ink Precision: A thin line designed to take notes or draw tiny lines or "
 "details."
 msgstr ""
+"Ink Precision «Precisió en tinta»: una línia prima dissenyada per prendre "
+"notes o dibuixar línies o detalls petits."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:58
 msgid ""
 "Ink Fineliner: A preset with a regular width to trace panels, technical "
 "details, or buildings."
 msgstr ""
+"Ink Fineliner «Línia fina en tinta»: un predefinit amb una amplada normal per "
+"a traçar panells, detalls tècnics o edificis."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:59
 msgid "Ink GPen: A preset with a dynamic on size to ink smoothly."
 msgstr ""
+"Ink GPen «GPen en tinta»: un predefinit amb una dinàmica sobre la mida per a "
+"tintar sense problemes."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:60
 msgid ""
 "Ink Pen Rough: A preset for inking with a focus on having a realistic ink "
 "line with irregularities (texture of the paper, fiber of paper absorption)."
 msgstr ""
+"Ink Pen Rough «Llapis aspre en tinta»: un predefinit per entintar amb un "
+"enfocament en tenir una línia de tinta realista amb irregularitats (textura "
+"del paper, absorció de la fibra del paper)."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:61
 msgid ""
@@ -165,12 +202,17 @@ msgid ""
 "delicate paper texture appearing at low pressure, as if the brush slightly "
 "touch paper."
 msgstr ""
+"Ink Brush Rough «Pinzell aspre en tinta»: un pinzell per tintar que també "
+"s'enfoca en aconseguir que aparegui la textura delicada del paper a baixa "
+"pressió, com si el pinzell toqués lleugerament el paper."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:62
 msgid ""
 "Ink Sumi-e: A brush with abilities at revealing the thin texture of each "
 "bristle, making the line highly expressive."
 msgstr ""
+"Ink Sumi-e «Sumi-e en tita»: un pinzell amb habilitats per a revelar la "
+"textura prima de cada pèl, fent que la línia sigui altament expressiva."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:65
 msgid ".. image:: images/brushes/Krita4_d-brush-family.jpg"
@@ -185,6 +227,8 @@ msgid ""
 "A small category with presets simulating a marker with a slight digital "
 "feeling to them."
 msgstr ""
+"Una petita categoria amb predefinits que simulen un marcador amb una lleugera "
+"sensació digital."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:72
 msgid ".. image:: images/brushes/Krita4_e-brush-family.jpg"
@@ -192,7 +236,7 @@ msgstr ".. image:: images/brushes/Krita4_e-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:74
 msgid "Dry Painting"
-msgstr ""
+msgstr "Pintura en sec"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:76
 msgid ""
@@ -202,6 +246,12 @@ msgid ""
 "color replace, or overlay/glaze over the previous painting stroke. This "
 "brush emulates techniques that dry quickly as tempera or acrylics."
 msgstr ""
+"La categoria Pintura en sec és un conjunt complet de pinzells que apareixen "
+"com pèls. No interactuen amb el color ja en el llenç -per això se'ls anomena "
+"«en sec»-. Funcionen com si estiguéssiu pintant en sec sobre una obra d'art: "
+"el color se substitueix o se superposa/esmalta sobre el traç de pintura "
+"anterior. Aquest pinzell emula tècniques que s'assequen ràpidament com al "
+"tremp d'ou o acrílica."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:79
 msgid ".. image:: images/brushes/Krita4_f-brush-family.jpg"
@@ -209,7 +259,7 @@ msgstr ".. image:: images/brushes/Krita4_f-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:81
 msgid "Dry Painting Textured"
-msgstr ""
+msgstr "Pintura en sec amb textura"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:83
 msgid ""
@@ -219,6 +269,11 @@ msgid ""
 "This helps to build painterly background or add life in the last bright "
 "touch of colors."
 msgstr ""
+"Gairebé la mateixa família que l'anterior, excepte que aquests pinzells "
+"predefinits estableixen un efecte amb textura. Simulen l'efecte de pintura "
+"que es pot obtenir amb pintura molt gruixuda i amb un pinzell que acaricia "
+"un llenç amb textura de tela. Això ajuda a construir un fons pictòric o "
+"afegir vida en l'últim toc brillant de colors."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:86
 msgid ".. image:: images/brushes/Krita4_g-brush-family.jpg"
@@ -226,14 +281,19 @@ msgstr ".. image:: images/brushes/Krita4_g-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:88
 msgid "Chalk, Pastel and Charcoal"
-msgstr ""
+msgstr "Guix, pastel i carbonet"
 
+# Nota: https://ca.wikipedia.org/wiki/Pintura_al_pastel
 #: ../../reference_manual/krita_4_preset_bundle.rst:90
 msgid ""
 "Still part of the dry family. These brushes focus on adding texture to the "
 "result. The type of texture you would obtain by using a dry tool such as "
 "chalk, charcoal or pastel and rubbing a textured paper."
 msgstr ""
+"Encara formen part de la família en sec. Aquests pinzells se centren en "
+"afegir textura al resultat. El tipus de textura que obtindríeu utilitzant "
+"una eina en sec com el guix, carbonet o pastel i fregant un paper per a "
+"donar textura."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:93
 msgid ".. image:: images/brushes/Krita4_h-brush-family.jpg"
@@ -241,7 +301,7 @@ msgstr ".. image:: images/brushes/Krita4_h-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:95
 msgid "Wet painting"
-msgstr ""
+msgstr "Pintura humida"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:97
 msgid ""
@@ -250,6 +310,10 @@ msgid ""
 "at the same time. The category has variations with bristle effects or simple "
 "rounded brushes."
 msgstr ""
+"Aquesta família de pinzells està humida en un sentit, tots interactuen amb el "
+"color del llenç. Provoca la sensació de tenir una obra d'art humida i "
+"mesclar els colors alhora. La categoria té variacions amb efectes de "
+"senzills pinzells de pèl o arrodonits."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:100
 msgid ".. image:: images/brushes/Krita4_i-brush-family.jpg"
@@ -257,7 +321,7 @@ msgstr ".. image:: images/brushes/Krita4_i-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:102
 msgid "Watercolors"
-msgstr "Colors de l'aigua"
+msgstr "Aquarel·les"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:104
 msgid ""
@@ -266,6 +330,10 @@ msgid ""
 "because these brushes are not able to do that. These brushes are good at "
 "simulating a fringe caused by the pigments and various effects."
 msgstr ""
+"Simular aquarel·les reals és altament complex. Aquests pinzells només simulen "
+"parcialment la textura de l'aquarel·la. No espereu una difusió boja del "
+"pigment perquè aquests pinzells no ho poden fer. Aquests pinzells són bons "
+"per a simular una franja causada pels pigments i diversos efectes."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:107
 msgid ".. image:: images/brushes/Krita4_j-brush-family.jpg"
@@ -273,7 +341,7 @@ msgstr ".. image:: images/brushes/Krita4_j-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:109
 msgid "Blender"
-msgstr ""
+msgstr "Blender"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:111
 msgid ""
@@ -283,6 +351,12 @@ msgid ""
 "smear. It helps to blend colors, blur details, or add style on a painting. "
 "Smearing pixels can help with creating smoke and many other effects."
 msgstr ""
+"Aquests pinzells no pinten cap color. Interactuen amb el color que ja teniu "
+"al llenç. No espereu que tinguin cap efecte sobre un llenç en blanc. Tots "
+"aquests predefinits donen un resultat diferent amb la forma en què "
+"esborronen o taquen. Ajuden a barrejar els colors, difuminar els detalls o "
+"afegir estil a una pintura. L'esborronat dels píxels pot ajudar a crear fum "
+"i molts altres efectes."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:114
 msgid ".. image:: images/brushes/Krita4_k-brush-family.jpg"
@@ -298,33 +372,46 @@ msgid ""
 "blending modes will give different results depending on the effect you are "
 "trying to achieve."
 msgstr ""
+"Aquesta família de aerògrafs té variacions en els modes de barreja. Diferents "
+"modes de barreja donaran diferents resultats depenent de l'efecte que "
+"estigueu tractant d'aconseguir."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:120
 msgid ""
 "Color - Can help to re-color or desaturate a part of your artwork. It "
 "changes only the hue and saturation, not the value, of the pixels."
 msgstr ""
+"Color: pot ajudar a canviar el color o a dessaturar una part de la vostra "
+"obra d'art. Només canvia el to i la saturació, no el valor dels píxels."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:121
 msgid "Dodge - Will assist you in creating effects such as neon or fire."
-msgstr ""
+msgstr "Dodge «Esvaeix»: us ajudarà a crear efectes com el neó o foc."
 
+# Nota: https://ca.wikipedia.org/wiki/Esfumat
 #: ../../reference_manual/krita_4_preset_bundle.rst:122
 msgid ""
 "Lighten - Brightens only the area with the selected color: a good brush to "
 "paint depth of field (sfumato) and fog."
 msgstr ""
+"Lighten «Aclareix»: només il·lumina l'àrea amb el color seleccionat: un bon "
+"pinzell per a pintar la profunditat del camp (esfumat) i la boira."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:123
 msgid ""
 "Multiply - Darkens all the time. A good brush to create a quick vignette "
 "effect around an artwork, or to manage big part in shadow."
 msgstr ""
+"Multiply «Multiplica»: enfosqueix tot el temps. Un bon pinzell per a crear un "
+"efecte ràpida de vinyeta al voltant d'una obra d'art o per a gestionar gran "
+"part de l'ombra."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:124
 msgid ""
 "Overlay - Burn helps to boost the contrast and overlay color on some areas."
 msgstr ""
+"Overlay «Superposa»: cremar ajuda a fer augmentar el contrast i a superposar "
+"el color en algunes àrees."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:127
 msgid ".. image:: images/brushes/Krita4_l-brush-family.jpg"
@@ -342,6 +429,12 @@ msgid ""
 "time. Painting shapes over an area helps fill it with random details. This "
 "is useful before painting over with more specific objects."
 msgstr ""
+"El pintar amb formes ja confeccionades pot ajudar els artistes conceptuals a "
+"crear accidents feliços i a estimular la imaginació. L'eina Shape Fill "
+"«Emplena la forma» és una mica específica: podreu dibuixar una silueta de la "
+"forma i el Krita l'emplenarà en temps real. Pintar formes sobre una àrea "
+"ajuda a emplenar-la amb detalls a l'atzar. Això és útil abans de pintar amb "
+"objectes més específics."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:134
 msgid ".. image:: images/brushes/Krita4_t-brush-family.jpg"
@@ -349,7 +442,7 @@ msgstr ".. image:: images/brushes/Krita4_t-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:136
 msgid "Pixel"
-msgstr "Píxel"
+msgstr "Píxels"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:138
 msgid ""
@@ -359,6 +452,11 @@ msgid ""
 "guidelines. A brush with aliasing is also perfect to fix the color island "
 "created by the Coloring-mask feature."
 msgstr ""
+"Podeu pensar que aquesta secció és específica de l'artista de píxels, però en "
+"moltes situacions cal tractar amb píxels específics per a fer correccions i "
+"ajustos, fins i tot en pintures normals. Es pot emprar un pinzell fi d'1 px "
+"per a traçar les directrius. Un pinzell amb aliàsing també és perfecte per a "
+"corregir l'illa de color creada per la característica Màscara de color."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:141
 msgid ".. image:: images/brushes/Krita4_u-brush-family.jpg"
@@ -374,6 +472,9 @@ msgid ""
 "category. In this family of brushes you'll find the clone brush along with "
 "brushes to move, grow, or shrink specific areas."
 msgstr ""
+"En assignar categories als pinzells, sempre hi ha una categoria especial o "
+"diversa. En aquesta família de pinzells trobareu el pinzell de clonat "
+"juntament amb els pinzells per moure, engrandir o reduir àrees específiques."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:148
 msgid ".. image:: images/brushes/Krita4_v-brush-family.jpg"
@@ -393,6 +494,14 @@ msgid ""
 "screen) as you can better sync the rotation and tilting of your stylus with "
 "the part of the normal map you want to paint."
 msgstr ""
+"Útil per als programes de 3D i artistes de les textures. Si la vostra tauleta "
+"admet la inclinació i el gir, aquest pinzell us permetrà pintar sobre el "
+"vostre mapa normal utilitzant l'orientació i el gir del pinzell. Podreu "
+"«esculpir» els vostres detalls en la textura amb els diferents colors. Cada "
+"color s'assignarà a un angle que s'utilitza per a la il·luminació en 3D. "
+"Funciona bé sobre la pantalla d'una tauleta digital (tauleta amb pantalla), "
+"ja que podreu sincronitzar millor el gir i la inclinació del vostre llapis "
+"amb la part del mapa normal que voleu pintar."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:155
 msgid ".. image:: images/brushes/Krita4_w-brush-family.jpg"
@@ -408,6 +517,9 @@ msgid ""
 "engine. The result is usually not efficient and slow, but a good demo of the "
 "ability of Krita."
 msgstr ""
+"El Krita pot aplicar molts dels seus filtres en un pinzell gràcies al motor "
+"del pinzell amb filtratge. El resultat no sol ser eficient i és lent, però "
+"és una bona demostració de la capacitat del Krita."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:162
 msgid ".. image:: images/brushes/Krita4_x-brush-family.jpg"
@@ -423,6 +535,9 @@ msgid ""
 "in many artworks you'll save a lot of time by using brushes with random "
 "patterns."
 msgstr ""
+"Afegir textures no només és útil per a l'artista en 3D o l'artista dels "
+"videojocs: en moltes obres d'art, estalviareu molt de temps utilitzant "
+"pinzells amb patrons aleatoris."
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:169
 msgid ".. image:: images/brushes/Krita4_y-brush-family.jpg"
@@ -430,7 +545,7 @@ msgstr ".. image:: images/brushes/Krita4_y-brush-family.jpg"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:171
 msgid "Stamps"
-msgstr ""
+msgstr "Segells"
 
 #: ../../reference_manual/krita_4_preset_bundle.rst:173
 msgid ""
@@ -438,3 +553,7 @@ msgid ""
 "pattern that is easier to recognize than if you tried to paint it manually. "
 "The results appear more as decorations than for normal painting methods."
 msgstr ""
+"La categoria segells és similar a la categoria textures. Els segells solen "
+"pintar un patró que és més fàcil de reconèixer que proveu de pintar-lo "
+"manualment. Els resultats apareixeran més com a decoracions que per als "
+"mètodes de pintura habituals."

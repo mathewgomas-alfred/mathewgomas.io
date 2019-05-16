@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-11 15:30+0200\n"
+"PO-Revision-Date: 2019-05-15 20:18+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,11 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
+# skip-rule: punctuation-period
 #: ../../<generated>:1
 msgid "Output to color, not grayscale."
-msgstr "Sortida en color, no en escala de grisos."
+msgstr "Sortida en color, no en escala de grisos"
 
 #: ../../reference_manual/separate_image.rst:1
 msgid "The channel separation dialog in Krita"
@@ -30,7 +31,7 @@ msgstr "El diàleg separació de canals al Krita"
 #: ../../reference_manual/separate_image.rst:10
 #: ../../reference_manual/separate_image.rst:15
 msgid "Separate Image"
-msgstr "Descompon la imatge"
+msgstr "Descompondre la imatge"
 
 #: ../../reference_manual/separate_image.rst:10
 msgid "Channel Separation"
@@ -45,10 +46,17 @@ msgid ""
 "and Blue layers, each representing the pixels of that channel, and for CMYK, "
 "Cyan, Magenta, Yellow and Key layers."
 msgstr ""
+"El diàleg Descompon la imatge permet separar els canals de la imatge en"
+" capes. Això és útil durant fluxos de treball amb textures per a jocs, així"
+" com en fluxos de treball CMYK més avançats. En confirmar,"
+" :guilabel:`Descompon la imatge` crearà una sèrie de capes per a cada canal."
+" Per tant, per a RGB crearà les capes Vermell, Verd i Blau, cadascuna"
+" representant els píxels d'aquest canal, i per a CMYK les capes Cian,"
+" Magenta, Groc i Clau."
 
 #: ../../reference_manual/separate_image.rst:20
 msgid "Which part of the image should be separated."
-msgstr ""
+msgstr "Quina part de la imatge s'haurà de separar."
 
 #: ../../reference_manual/separate_image.rst:22
 msgid "Current Layer"
@@ -75,16 +83,21 @@ msgid ""
 "What to do with the alpha channel. All Krita images have an alpha channel, "
 "which is the transparency. How should it be handled when separating?"
 msgstr ""
+"Què fer amb el canal alfa. Totes les imatges del Krita tenen un canal alfa,"
+" el qual és la transparència. Com s'ha de tractar en separar?"
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/separate_image.rst:30
 msgid "Copy Alpha Channel to Each separate channel as an alpha channel."
-msgstr "Copia el canal alfa a cada canal descompost com a canal alfa."
+msgstr "Copia el canal alfa a cada canal descompost com a canal alfa"
 
 #: ../../reference_manual/separate_image.rst:31
 msgid ""
 "This adds the transparency of the original source to all the separation "
 "layers."
 msgstr ""
+"Això afegirà la transparència de la font original a totes les capes de la"
+" separació."
 
 #: ../../reference_manual/separate_image.rst:32
 msgid "Discard Alpha Channel"
@@ -92,19 +105,21 @@ msgstr "Descarta el canal alfa"
 
 #: ../../reference_manual/separate_image.rst:33
 msgid "Just get rid of the alpha altogether."
-msgstr ""
+msgstr "Simplement es desfà de l'alfa per complet."
 
 #: ../../reference_manual/separate_image.rst:35
 msgid "Alpha Options"
 msgstr "Opcions de l'alfa"
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/separate_image.rst:35
 msgid "Create separate separation from alpha channel."
-msgstr "Crea una descomposició separada a partir del canal alfa."
+msgstr "Crea una descomposició separada a partir del canal alfa"
 
 #: ../../reference_manual/separate_image.rst:35
 msgid "Create a separate layer with the alpha channel as a grayscale layer."
 msgstr ""
+"Crea una capa separada amb el canal alfa com a una capa en escala de grisos."
 
 #: ../../reference_manual/separate_image.rst:37
 msgid "Downscale to 8bit before separating."
@@ -112,10 +127,13 @@ msgstr "Redueix a 8 bits abans de descompondre."
 
 #: ../../reference_manual/separate_image.rst:38
 msgid "Convert the image to 8bit before doing the separation."
-msgstr ""
+msgstr "Converteix la imatge a 8 bits abans de descompondre."
 
 #: ../../reference_manual/separate_image.rst:40
 msgid ""
 "This results in the Red separation using black to red instead of black to "
 "white. This can make it easier to recombine using certain methods."
 msgstr ""
+"Això donarà com a resultat la separació del Vermell emprant negre a vermell"
+" en lloc de negre a blanc. Això pot fer que sigui més fàcil la recombinació"
+" utilitzant certs mètodes."
