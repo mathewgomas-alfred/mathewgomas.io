@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 15:52+0200\n"
+"PO-Revision-Date: 2019-05-16 23:07+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<generated>:1
 msgid "Unlock (Keep Locked)"
@@ -48,6 +48,12 @@ msgid ""
 "brushes, you lock the texture parameter. That way, all brush-preset you "
 "select will now share the same texture!"
 msgstr ""
+"Normalment, un canvi en un pinzell predefinit diferent canviarà tots els "
+"ajustaments del pinzell. Els predefinits bloquejats són una forma d'evitar "
+"que el Krita canviï tots els ajustaments. Per tant, si voleu que la textura "
+"sigui la mateixa en tots els pinzells, bloquegeu el paràmetre de la textura. "
+"D'aquesta manera, tots els pinzells predefinits que seleccioneu ara "
+"compartiran la mateixa textura!"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:22
 msgid "Locking a brush parameter"
@@ -63,6 +69,9 @@ msgid ""
 "name, and set it to :guilabel:`Lock`. It will now be highlighted to show "
 "it's locked:"
 msgstr ""
+"Per a bloquejar una opció, feu |mouseright| sobre la petita icona de cadenat "
+"que hi ha al costat del nom del paràmetre i establi-la a :guilabel:`Bloqueja. "
+"Ara estarà ressaltada per a mostrar que està bloquejada:"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:29
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_locking_02.png"
@@ -70,7 +79,7 @@ msgstr ".. image:: images/brushes/Krita_2_9_brushengine_locking_02.png"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:30
 msgid "And on the canvas, it will show that the texture-option is locked."
-msgstr ""
+msgstr "I sobre el llenç, mostrarà que l'opció de textura està bloquejada."
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:33
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_locking_04.png"
@@ -82,7 +91,7 @@ msgstr "Desbloquejar un paràmetre del pinzell"
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:37
 msgid "To *unlock*, |mouseright| the icon again."
-msgstr ""
+msgstr "Per a *desbloquejar*, feu |mouseright| de nou sobre la icona."
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:40
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_locking_03.png"
@@ -102,7 +111,11 @@ msgid ""
 "the active brush preset. So if your brush had no texture on, using this "
 "option will revert it to having no texture."
 msgstr ""
+"Això es desfarà dels ajustaments del paràmetre bloquejat i prendrà els del "
+"pinzell predefinit actiu. Per tant, si el vostre pinzell no tenia la textura "
+"activada, l'ús d'aquesta opció ho revertirà a no tenir textura."
 
 #: ../../reference_manual/brushes/brush_settings/locked_brush_settings.rst:46
 msgid "This will keep the settings of the parameter even though it's unlocked."
 msgstr ""
+"Això mantindrà els ajustaments del paràmetre encara que estigui desbloquejat."
