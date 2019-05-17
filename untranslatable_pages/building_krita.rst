@@ -79,11 +79,14 @@ Configuring the Build
 
     you@yourcomputer:~/kritadev> cd build
 
-Krita uses cmake (https://cmake.org) to define how Krita is built on various platforms. You first need to run cmake to generate the build system, in the :file:`kritadevs/build` directory, then run make to make Krita, then run make install to install krita.
+Krita uses cmake (https://cmake.org) to define how Krita is built on various platforms. You first need to run cmake to generate the build system, in the :file:`kritadevs/build` directory, then run make to make Krita, then run make install to install krita. 
 
 .. code::
 
-    you@yourcomputer:~/kritadev/build>cmake ../krita -DCMAKE_INSTALL_PREFIX=/path/to/kritadev/install  -DCMAKE_BUILD_TYPE=RelWithDebInfo
+    you@yourcomputer:~/kritadev/build>cmake ../krita \
+            -DCMAKE_INSTALL_PREFIX=$HOME/kritadev/install  \
+            -DCMAKE_BUILD_TYPE=Debug \
+            -DKRITA_DEVS=ON
     
 .. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
 
