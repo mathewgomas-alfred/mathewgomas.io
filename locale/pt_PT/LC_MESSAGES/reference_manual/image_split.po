@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-16 03:23+0200\n"
-"PO-Revision-Date: 2019-05-07 13:53+0000\n"
+"PO-Revision-Date: 2019-05-17 16:48+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,18 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: Krita menuselection\n"
 
 #: ../../<generated>:1
 msgid "Autosave on split"
-msgstr ""
+msgstr "Auto-gravar ao dividir"
 
 #: ../../reference_manual/image_split.rst:1
 msgid "The Image Split functionality in Krita"
-msgstr ""
+msgstr "A funcionalidade de Divisão de Imagens no Krita"
 
 #: ../../reference_manual/image_split.rst:10
 msgid "Splitting"
-msgstr ""
+msgstr "Divisão"
 
 #: ../../reference_manual/image_split.rst:15
 msgid "Image Split"
@@ -38,7 +39,7 @@ msgid ""
 "Found under :menuselection:`Image --> Image Split`, the Image Split function "
 "allows you to evenly split a document up into several sections. This is "
 "useful for splitting up spritesheets for example."
-msgstr ""
+msgstr "Disponível em :menuselection:`Imagem --> Divisão da Imagem`, a função de Divisão da Imagem permite-lhe dividir em partes iguais um documento em várias secções. Isto é útil por exemplo para dividir folhas de imagens, por exemplo."
 
 #: ../../reference_manual/image_split.rst:19
 msgid "Horizontal Lines"
@@ -48,7 +49,7 @@ msgstr "Linhas Horizontais"
 msgid ""
 "The amount of horizontal lines to split at. 4 lines will mean that the image "
 "is split into 5 horizontal stripes."
-msgstr ""
+msgstr "A quantidade de linhas horizontais com que irá dividir. 4 linhas significa que a imagem será dividida em 5 barras horizontais."
 
 #: ../../reference_manual/image_split.rst:22
 msgid "Vertical Lines"
@@ -58,15 +59,15 @@ msgstr "Linhas Verticais"
 msgid ""
 "The amount of vertical lines to split at. 4 lines will mean that the image "
 "is split into 5 vertical stripes."
-msgstr ""
+msgstr "A quantidade de linhas verticais com que irá dividir. 4 linhas significa que a imagem será dividida em 5 barras verticais."
 
 #: ../../reference_manual/image_split.rst:24
 msgid "Sort Direction"
-msgstr ""
+msgstr "Direcção da Ordenação:"
 
 #: ../../reference_manual/image_split.rst:28
 msgid "Whether to number the files using the following directions:"
-msgstr ""
+msgstr "Se deve numerar os ficheiros de acordo com as seguintes direcções:"
 
 #: ../../reference_manual/image_split.rst:30
 msgid "horizontal"
@@ -74,7 +75,7 @@ msgstr "horizontal"
 
 #: ../../reference_manual/image_split.rst:31
 msgid "left to right, top to bottom"
-msgstr ""
+msgstr "esquerda para a direita, cima para baixo"
 
 #: ../../reference_manual/image_split.rst:33
 msgid "vertical"
@@ -82,7 +83,7 @@ msgstr "vertical"
 
 #: ../../reference_manual/image_split.rst:33
 msgid "top to bottom, left to right"
-msgstr ""
+msgstr "cima para baixo, esquerda para a direita"
 
 #: ../../reference_manual/image_split.rst:35
 msgid "Prefix"
@@ -92,7 +93,7 @@ msgstr "Prefixo"
 msgid ""
 "The prefix at which the files should be saved at. By default this is the "
 "current document name."
-msgstr ""
+msgstr "O prefixo usado no nome dos ficheiros a gravar. Por omissão, este é o nome do documento actual."
 
 #: ../../reference_manual/image_split.rst:37
 msgid "File Type"
@@ -100,10 +101,10 @@ msgstr "Tipo de Ficheiro"
 
 #: ../../reference_manual/image_split.rst:38
 msgid "Which file format to save to."
-msgstr ""
+msgstr "Qual o formato de ficheiro com que irá gravar."
 
 #: ../../reference_manual/image_split.rst:40
 msgid ""
 "This will result in all slices being saved automatically using the above "
 "prefix. Otherwise Krita will ask the name for each slice."
-msgstr ""
+msgstr "Isto fará com que todas as fatias sejam gravadas automaticamente com o prefixo acima. Caso contrário, o Krita irá pedir o nome para cada uma das fatias."
