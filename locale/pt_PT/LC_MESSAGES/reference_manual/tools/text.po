@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-05 11:58+0100\n"
+"PO-Revision-Date: 2019-05-18 10:04+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -22,6 +22,7 @@ msgstr ""
 "X-POFile-SpellExtra: textkerning guilabel options tooltext kerning tool\n"
 "X-POFile-SpellExtra: spacing letter Enter letterandwordspacing word Krita\n"
 "X-POFile-SpellExtra: Text align example adjust anchor mouseleft designers\n"
+"X-POFile-SpellExtra: tools Valhalla\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -40,16 +41,12 @@ msgstr ""
 "   :alt: ferramenta de texto"
 
 #: ../../reference_manual/tools/text.rst:0
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_4_0_text_kerning.png"
 msgid ".. image:: images/tools/Krita_4_0_text_kerning.png"
-msgstr ".. image:: images/en/Krita_4_0_text_kerning.png"
+msgstr ".. image:: images/tools/Krita_4_0_text_kerning.png"
 
 #: ../../reference_manual/tools/text.rst:0
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
 msgid ".. image:: images/tools/Krita_4_0_letter_and_word_spacing.png"
-msgstr ".. image:: images/en/Krita_4_0_letter_and_word_spacing.png"
+msgstr ".. image:: images/tools/Krita_4_0_letter_and_word_spacing.png"
 
 #: ../../reference_manual/tools/text.rst:1
 msgid "Krita's text tool reference."
@@ -103,10 +100,8 @@ msgid "Tool Options"
 msgstr "Opções da Ferramenta"
 
 #: ../../reference_manual/tools/text.rst:30
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-tool-options-text.png"
 msgid ".. image:: images/tools/Krita-tool-options-text.png"
-msgstr ".. image:: images/en/Krita-tool-options-text.png"
+msgstr ".. image:: images/tools/Krita-tool-options-text.png"
 
 #: ../../reference_manual/tools/text.rst:32
 msgid ""
@@ -188,10 +183,8 @@ msgstr ""
 "Editor de Texto tem duas páginas: o Texto Formatado e o Código SVG."
 
 #: ../../reference_manual/tools/text.rst:49
-#, fuzzy
-#| msgid ".. image:: images/en/Text-editor-example.png"
 msgid ".. image:: images/tools/Text-editor-example.png"
-msgstr ".. image:: images/en/Text-editor-example.png"
+msgstr ".. image:: images/tools/Text-editor-example.png"
 
 #: ../../reference_manual/tools/text.rst:50
 msgid "Activating"
@@ -689,6 +682,9 @@ msgid ""
 "    <tspan>No Kerning on Valhalla Tower.</tspan>\n"
 "</text>"
 msgstr ""
+"<text style=\"kerning:0; font-family:Dancing Script; font-size:18pt; font-size-adjust:0.265625\">\n"
+"    <tspan>Sem Sobreposição na Torre de Valhalla.</tspan>\n"
+"</text>"
 
 #: ../../reference_manual/tools/text.rst:185
 msgid "Kerning"
@@ -735,6 +731,13 @@ msgid ""
 "tspan>\n"
 "</text>"
 msgstr ""
+"<text style=\"font-family:Noto Serif; font-size:12pt; font-size-adjust:0.389915; text-anchor:middle\">\n"
+"    <tspan>Sem Ajustes.</tspan>\n"
+"    <tspan style=\"letter-spacing:2\" x=\"0\" dy=\"22pt\">Espaço entre letras: 2</tspan>\n"
+"    <tspan style=\"letter-spacing:-2\" x=\"0\" dy=\"22pt\">Espaço entre letras: -2</tspan>\n"
+"    <tspan style=\"word-spacing:5\" x=\"0\" dy=\"22pt\">Espaço entre palavras: 5</tspan>\n"
+"    <tspan style=\"word-spacing:-5\" x=\"0\" dy=\"22pt\">Espaço entre palavras: -5</tspan>\n"
+"</text>"
 
 #: ../../reference_manual/tools/text.rst:204
 msgid "Word-spacing"

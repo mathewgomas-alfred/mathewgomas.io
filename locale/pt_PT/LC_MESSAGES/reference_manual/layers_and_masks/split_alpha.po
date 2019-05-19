@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-07 13:53+0000\n"
+"PO-Revision-Date: 2019-05-18 12:27+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: icons image Kritamouseleft Kritamouseright images alt\n"
+"X-POFile-SpellExtra: Krita transparencymasks menuselection kbd mouseleft\n"
+"X-POFile-SpellExtra: ref mouseright\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -38,7 +40,7 @@ msgstr ""
 msgid ""
 "Split Alpha: how to work with color and alpha channels of the layer "
 "separately"
-msgstr ""
+msgstr "Divisão do Alfa: como lidar com os canais de cores e do alfa da camada em separado"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Layers"
@@ -50,7 +52,7 @@ msgstr "Transparência"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Alpha channel"
-msgstr ""
+msgstr "Canal alfa"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Game"
@@ -68,44 +70,44 @@ msgid ""
 "allows splitting alpha channel of a paint layer into a separate :ref:"
 "`transparency_masks`. The artist can work on the transparency mask in an "
 "isolated environment and merge it back when he has finished working."
-msgstr ""
+msgstr "Algumas vezes, especialmente no desenvolvimento de jogos, os artistas precisam de trabalhar com o canal alfa da textura em separado. Para ajudar nesse processo, o Krita tem uma funcionalidade especial chamada :menuselection:`Dividir o Alfa`. O mesmo permite a divisão do canal alfa de uma camada de pintura para uma :ref:`transparency_masks` separada. O artista poderá trabalhar na máscara de transparência num ambiente isolado e juntá-la de volta quando acabar o seu trabalho."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:21
 msgid "How to work with alpha channel of the layer"
-msgstr ""
+msgstr "Como lidar com o canal alfa da camada"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:23
 msgid "|mouseright| the paint layer in the layers docker."
-msgstr ""
+msgstr "Use o |mouseright| sobre a camada de pintura na área de camadas."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:24
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:35
 msgid "Choose :menuselection:`Split Alpha --> Alpha into Mask`"
-msgstr ""
+msgstr "Escolha a opção :menuselection:`Divisão do Alfa --> Alfa para Máscara`"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:25
 msgid ""
 "Use your preferred paint tool to paint on the Transparency Mask. Black "
 "paints transparency (see-through), white paints opacity (visible). Gray "
 "values paint semi-transparency."
-msgstr ""
+msgstr "Use a sua ferramenta de pintura favorita para pintar sobre a Máscara de Transparência. O preto pinta a transparência (ver através), enquanto o branco pinta a opacidade (visível). Os tons de cinzento pintam a semi-transparência."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:26
 msgid ""
 "If you would like to isolate alpha channel, enter Isolated Mode by |"
 "mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)"
-msgstr ""
+msgstr "Se quiser isolar o canal alfa, entre no Modo Isolado com o |mouseright| + :menuselection:`Isolar a Camada` (ou :kbd:`Alt` + |mouseleft|)"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:27
 msgid ""
 "When finished editing the Transparency Mask, |mouseright| on it and select :"
 "menuselection:`Split Alpha --> Write as Alpha`"
-msgstr ""
+msgstr "Quando acabar de editar a Máscara de Transparência, use o |mouseright| sobre ela e seleccione :menuselection:`Dividir o Alfa --> Gravar como Alfa`"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:30
 msgid ""
 "How to save a PNG texture and keep color values in fully transparent areas"
-msgstr ""
+msgstr "Como gravar uma textura em PNG e manter os valores das cores nas áreas completamente transparentes"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:32
 msgid ""
@@ -115,14 +117,14 @@ msgid ""
 "efficiency reason. To avoid this of color data loss you can either avoid "
 "compositing of the image i.e. limit image to only one layer without any "
 "masks or effects, or use the following method:"
-msgstr ""
+msgstr "Normalmente, quando se grava uma imagem num ficheiro, todas as áreas completamente transparentes da imagem são preenchidas com a cor preta. Isso acontece porque, ao compor as camadas da imagem, o Krita elimina os dados de cores dos pixels completamente transparentes por razões de eficiência. Para evitar esta perda de dados de cor, pode impedir a composição da imagem, i.e. limitar a imagem a apenas uma única camada sem máscaras ou efeitos ou usar o seguinte método:"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:34
 msgid "|mouseright| the layer in the layers docker."
-msgstr ""
+msgstr "Use o |mouseright| sobre a camada na área de camadas."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:36
 msgid ""
 "|mouseright| on the created mask and select :menuselection:`Split Alpha --> "
 "Save Merged...`"
-msgstr ""
+msgstr "Use o |mouseright| sobre a máscara criada e seleccione :menuselection:`Dividir o Alfa --> Gravar o Reunido...`"

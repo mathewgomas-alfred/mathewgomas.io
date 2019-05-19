@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-24 09:20+0000\n"
+"PO-Revision-Date: 2019-05-18 13:09+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en Krita image Onionskin images Onionskindocker\n"
+"X-POFile-SpellExtra: dockers guilabel\n"
 
 #: ../../reference_manual/dockers/onion_skin.rst:1
 msgid "Overview of the onion skin docker."
@@ -35,10 +36,8 @@ msgid "Onion Skin Docker"
 msgstr "Área da Pele de Cebola"
 
 #: ../../reference_manual/dockers/onion_skin.rst:18
-#, fuzzy
-#| msgid ".. image:: images/en/Onion_skin_docker.png"
 msgid ".. image:: images/dockers/Onion_skin_docker.png"
-msgstr ".. image:: images/en/Onion_skin_docker.png"
+msgstr ".. image:: images/dockers/Onion_skin_docker.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:19
 msgid ""
@@ -51,10 +50,8 @@ msgstr ""
 "cebola*."
 
 #: ../../reference_manual/dockers/onion_skin.rst:22
-#, fuzzy
-#| msgid ".. image:: images/en/Onion_skin_01.png"
 msgid ".. image:: images/dockers/Onion_skin_01.png"
-msgstr ".. image:: images/en/Onion_skin_01.png"
+msgstr ".. image:: images/dockers/Onion_skin_01.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:23
 msgid ""
@@ -84,7 +81,7 @@ msgid ""
 "`background as raster layer` in the :guilabel:`content` section of the new "
 "image dialog. Just don't try to animate on a layer like this if you rely on "
 "onion skins, instead make a new one."
-msgstr ""
+msgstr "Desde o 4.2, as 'peles de cebola' estão desactivadas nas camadas cujos pixels por omissão são completamente opacos. Estas camadas só podem ser criadas de momento se usar a funcionalidade :guilabel:`fundo como camada rasterizada` na secção de :guilabel:`conteúdo` da janela de nova imagem. Simplesmente não tente animar sobre uma camada deste tipo se se basear em 'peles de cebola'; em vez disso, crie uma nova."
 
 #: ../../reference_manual/dockers/onion_skin.rst:31
 msgid ""
@@ -114,10 +111,8 @@ msgstr ""
 "sendo bastante útil ao tentar criar animações."
 
 #: ../../reference_manual/dockers/onion_skin.rst:36
-#, fuzzy
-#| msgid ".. image:: images/en/Onion_skin_02.png"
 msgid ".. image:: images/dockers/Onion_skin_02.png"
-msgstr ".. image:: images/en/Onion_skin_02.png"
+msgstr ".. image:: images/dockers/Onion_skin_02.png"
 
 #: ../../reference_manual/dockers/onion_skin.rst:37
 msgid ""

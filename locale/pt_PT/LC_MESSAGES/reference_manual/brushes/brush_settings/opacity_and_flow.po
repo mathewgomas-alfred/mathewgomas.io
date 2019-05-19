@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-02-21 18:04+0000\n"
+"PO-Revision-Date: 2019-05-18 18:32+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,6 +19,8 @@ msgstr ""
 "X-POFile-SpellExtra: en Krita demão image flow brushengineopacity images\n"
 "X-POFile-SpellExtra: demãos KritaPixelBrushSettingsFlow\n"
 "X-POFile-IgnoreConsistency: Flow\n"
+"X-POFile-SpellExtra: tooloptionssettings gif brushes ref\n"
+"X-POFile-SpellExtra: flowopacityadaptflowpreset\n"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:1
 msgid "Opacity and flow in Krita."
@@ -48,20 +50,16 @@ msgstr ""
 "A opacidade e o fluxo são parâmetros para a transparência de um pincel."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:22
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Pixel_Brush_Settings_Flow.png"
 msgid ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Flow.png"
-msgstr ".. image:: images/en/Krita_Pixel_Brush_Settings_Flow.png"
+msgstr ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Flow.png"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:23
 msgid "They are interlinked with the painting mode setting."
 msgstr "Estão interligados com a configuração do modo de pintura."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:26
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_02.png"
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_opacity-flow_02.png"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_02.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_opacity-flow_02.png"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:28
 msgid "The transparency of a stroke."
@@ -75,10 +73,8 @@ msgstr ""
 "partir do 2.9"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:34
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_01.png"
 msgid ".. image:: images/brushes/Krita_4_2_brushengine_opacity-flow_01.svg"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_01.png"
+msgstr ".. image:: images/brushes/Krita_4_2_brushengine_opacity-flow_01.svg"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:35
 msgid ""
@@ -89,29 +85,27 @@ msgid ""
 "resulting in much more subtle strokes. This change can be switched back in "
 "the :ref:`tool_options_settings`, but we will be deprecating the old way in "
 "future versions."
-msgstr ""
+msgstr "No Krita 4.1 e inferiores, o fluxo e a opacidade, quando combinados com os sensores dos pincéis, somar-se-iam entre si, sendo apenas limitada pela opacidade máxima. Isto era inesperado em comparação com todas as outras aplicações de pintura, pelo que no 4.2 isto finalmente foi corrigido na multiplicação do fluxo e da opacidade, resultando em traços muito mais subtis. Esta mudança poderá ser revertida nas :ref:`tool_options_settings`, mas iremos descontinuar a forma antiga nas versões futuras."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:38
 msgid "The old behavior can be simulated in the new system by..."
-msgstr ""
+msgstr "O comportamento antigo pode ser simulado no novo sistema se..."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:40
 msgid "Deactivating the sensors on opacity."
-msgstr ""
+msgstr "Desactivar os sensores da opacidade."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:41
 msgid "Set the maximum value on flow to 0.5"
-msgstr ""
+msgstr "Configurar o valor máximo do fluxo como 0,5"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:42
 msgid "Adjusting the pressure curve to be concave."
-msgstr ""
+msgstr "Ajustar a curva de pressão para uma forma côncava."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:44
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_02.png"
 msgid ".. image:: images/brushes/flow_opacity_adapt_flow_preset.gif"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_02.png"
+msgstr ".. image:: images/brushes/flow_opacity_adapt_flow_preset.gif"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:49
 msgid "Painting mode"
@@ -136,10 +130,8 @@ msgstr ""
 "transparência da demão."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:57
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_03.png"
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_opacity-flow_03.png"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_opacity-flow_03.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_opacity-flow_03.png"
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:58
 msgid ""

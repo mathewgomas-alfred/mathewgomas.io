@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-01 14:25+0100\n"
+"PO-Revision-Date: 2019-05-18 09:38+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-POFile-IgnoreConsistency: Group\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-POFile-SpellExtra: Krita Desagrupamento ref Desagrupa\n"
+"X-POFile-SpellExtra: Krita Desagrupamento ref Desagrupa clonesarray\n"
+"X-POFile-SpellExtra: histogramdocker\n"
 
 #: ../../<generated>:1
 msgid "Layerstyle (2.9.5+)"
@@ -48,22 +49,16 @@ msgid "Histogram"
 msgstr "Histograma"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:11
-#, fuzzy
-#| msgid "Cut Layer (3.0+)"
 msgid "Cut Layer"
-msgstr "Cortar a Camada (3.0+)"
+msgstr "Cortar a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:11
-#, fuzzy
-#| msgid "Copy Layer (3.0+)"
 msgid "Copy Layer"
-msgstr "Copiar a Camada (3.0+)"
+msgstr "Copiar a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:11
-#, fuzzy
-#| msgid "Paint Layer"
 msgid "Paste Layer"
-msgstr "Camada de Pintura"
+msgstr "Colar a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:11
 msgid "Import"
@@ -449,10 +444,8 @@ msgid "Split Layer"
 msgstr "Dividir a Camada"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
-#, fuzzy
-#| msgid "Split the layer into given color fields."
 msgid ":ref:`Split the layer <split_layer>` into given color fields."
-msgstr "Divide a camada pelos campos de cores indicados."
+msgstr ":ref:`Dividir a camada <split_layer>` pelos campos de cores indicados."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid "Split..."
@@ -463,16 +456,10 @@ msgid "Clones Array"
 msgstr "Lista de Clones"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
-#, fuzzy
-#| msgid ""
-#| "A complex bit of functionality to generate clone-layers for quick sprite "
-#| "making."
 msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
 "making. See :ref:`clones_array` for more details."
-msgstr ""
-"Uma funcionalidade complexa para gerar camadas de clonagem para a criação "
-"rápida de bonecos animados."
+msgstr "Uma funcionalidade complexa para gerar camadas de clonagem para a criação rápida de bonecos animados. Veja mais detalhes em :ref:`clones_array`."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
 msgid "Edit Metadata"
@@ -488,7 +475,7 @@ msgstr "Mostra um histograma."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:134
 msgid "Removed. Use the :ref:`histogram_docker` instead."
-msgstr ""
+msgstr "Removido. Use o :ref:`histogram_docker` em alternativa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"

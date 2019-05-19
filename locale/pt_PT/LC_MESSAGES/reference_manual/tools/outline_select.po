@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-02-22 12:01+0000\n"
+"PO-Revision-Date: 2019-05-18 10:02+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: toolselectoutline icons Krita outlineselecttool image\n"
 "X-POFile-SpellExtra: Kritamouseleft selectionsbasics kbd generalsettings\n"
-"X-POFile-SpellExtra: images alt ref mouseleft\n"
+"X-POFile-SpellExtra: images alt ref mouseleft mouseright Kritamouseright\n"
 
 #: ../../<generated>:1
 msgid "Anti-aliasing"
@@ -65,10 +65,8 @@ msgid "Freehand"
 msgstr "Caminho Livre à Mão"
 
 #: ../../reference_manual/tools/outline_select.rst:13
-#, fuzzy
-#| msgid "Outline Selection Tool"
 msgid "Outline Select"
-msgstr "Ferramenta de Selecção pelo Contorno"
+msgstr "Selecção pelo Contorno"
 
 #: ../../reference_manual/tools/outline_select.rst:18
 msgid "Outline Selection Tool"
@@ -139,19 +137,15 @@ msgstr ""
 
 #: ../../reference_manual/tools/outline_select.rst:37
 msgid "Hovering over a selection allows you to move it."
-msgstr ""
+msgstr "Se passar o cursor sobre uma selecção permitir-lhe-á movê-la."
 
 #: ../../reference_manual/tools/outline_select.rst:38
 msgid ""
 "|mouseright| will open up a selection quick menu with amongst others the "
 "ability to edit the selection."
-msgstr ""
+msgstr "Se usar o |mouseright|, irá abrir um menu de selecção rápida que, entre outras coisas, terá a possibilitar de editar a selecção."
 
 #: ../../reference_manual/tools/outline_select.rst:42
-#, fuzzy
-#| msgid ""
-#| "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
-#| "instead by toggling the switch in the :ref:`general_settings`"
 msgid ""
 "You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead "
 "by toggling the switch in the :ref:`general_settings`"
