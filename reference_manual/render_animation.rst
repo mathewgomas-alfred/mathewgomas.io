@@ -18,7 +18,7 @@ Render Animation
 
 Render animation allows you to render your animation to an image sequence, gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` .
 
-For rendering to an animated file format, Krita will first render to a png sequence and then use FFMpeg, which is really good at encoding into video files, to render that sequence to an animated file format. The reason for this two-step process is that animation files can be really complex and really big, and this is the best way to allow you to keep control over the export process. For example, if your computer has a hiccup, and one frame saves out weird, first saving the image sequence allows you to only resave that one weird frame before rendering.
+For rendering to an animated file format, Krita will first render to a png sequence and then use FFmpeg, which is really good at encoding into video files, to render that sequence to an animated file format. The reason for this two-step process is that animation files can be really complex and really big, and this is the best way to allow you to keep control over the export process. For example, if your computer has a hiccup, and one frame saves out weird, first saving the image sequence allows you to only resave that one weird frame before rendering.
 
 This means that you will need to find a good place to stick your frames before you can start rendering. If you only do throwaway animations, you can use a spot on your hard-drive with enough room and select :guilabel:`Delete Sequence After Rendering` 
 
@@ -45,8 +45,8 @@ Render As
     The file format to render to. All except gif have extra options that can be manipulated via :guilabel:`...`.
 File
     Location and name of the rendered animation.
-FFMpeg
-    The location where your have ffmpeg. If you don't have this, Krita cannot render an animation. For proper gif support, you will need ffmpeg 2.6, as we use its palettegen functionality.
+FFmpeg
+    The location where your have FFmpeg. If you don't have this, Krita cannot render an animation. For proper gif support, you will need FFmpeg 2.6, as we use its palettegen functionality.
 Delete Sequence After Rendering
     Delete the prerendered image sequence after done rendering. This allows you to choose whether to try and save some space, or to save the sequence for when encoding fails.
 
@@ -57,27 +57,27 @@ Delete Sequence After Rendering
 Setting Up Krita for Exporting Animations
 -----------------------------------------
 
-You will need to download an extra application and link it in Krita for it to work. The application is pretty big (50MB), so the Krita developers didn't want to bundle it with the normal application. The software that we will use is free and called FFMpeg. The following instructions will explain how to get it and set it up. The setup is a one-time thing so you won't have to do it again.
+You will need to download an extra application and link it in Krita for it to work. The application is pretty big (50MB), so the Krita developers didn't want to bundle it with the normal application. The software that we will use is free and called FFmpeg. The following instructions will explain how to get it and set it up. The setup is a one-time thing so you won't have to do it again.
 
-Step 1 - Downloading FFMpeg
+Step 1 - Downloading FFmpeg
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For Windows
 ^^^^^^^^^^^
 
-Go to the `ffmpeg website <http://ffmpeg.org/download.html>`_. The URL that had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_
+Go to the `FFmpeg website <http://ffmpeg.org/download.html>`_. The URL that had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_
 
 Watch out for the extremely annoying google and that looks like a download button! There is no big button for what we need. Either get the 64-bit STATIC version or 32-bit STATIC version that is shown later down the page. If you bought a computer in the past 5 years, you probably want the 64-bit version. Make sure you get a exe file, if you hover over the options they will give more information about what exactly you are downloading.
 
 For OSX
 ^^^^^^^
 
-Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since ffmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <http://www.kekaosx.com>`_.
+Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since FFmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <http://www.kekaosx.com>`_.
 
 For Linux
 ^^^^^^^^^
 
-FFMPeg can be installed from the repositories on most Linux systems. Version 2.6 is required for proper gif support, as we use the palettegen functionality.
+FFmpeg can be installed from the repositories on most Linux systems. Version 2.6 is required for proper gif support, as we use the palettegen functionality.
 
 Step 2 - Unzipping and Linking to Krita
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -87,17 +87,17 @@ For Windows
 
 Unzip the package that was just downloaded. Rename the long folder name to just ffmpeg. Let's put this folder in a easy to find location. Go to your C:\ and place it there. You can put it wherever you want, but that is where I put it. 
 
-Open Krita back up and go to :menuselection:`File --> Render Animation`. Click the :guilabel:`Browse`  button on the last item called FFMpeg. Select this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` .
+Open Krita back up and go to :menuselection:`File --> Render Animation`. Click the :guilabel:`Browse`  button on the last item called FFmpeg. Select this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` .
 
 For OSX
 ^^^^^^^
 
-After downloading ffmpeg, you just need to extract it and then simply point to it in the FFMPEG location in Krita like ``/Users/user/Downloads/ffmpeg`` (assuming you downloaded and extracted the .7z file to /Users/user/Downloads).
+After downloading FFmpeg, you just need to extract it and then simply point to it in the FFmpeg location in Krita like ``/Users/user/Downloads/ffmpeg`` (assuming you downloaded and extracted the .7z file to /Users/user/Downloads).
 
 For Linux
 ^^^^^^^^^
 
-FFMpeg is, if installed from the repositories, usually found in ``/usr/bin/ffmpeg``
+FFmpeg is, if installed from the repositories, usually found in ``/usr/bin/ffmpeg``
 
 Step 3 - Testing out an animation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -108,7 +108,7 @@ Let's make an animated GIF. In the Render Animation dialog, change the :guilabel
 
 .. warning::
 
-    By default, FFMPEG will render MP4 files with a too new codec, which means that Windows Media Player won't be able to play it. So for Windows, select "baseline" for the profile instead of "high422" before rendering.
+    By default, FFmpeg will render MP4 files with a too new codec, which means that Windows Media Player won't be able to play it. So for Windows, select "baseline" for the profile instead of "high422" before rendering.
 
 .. note::
     

@@ -34,7 +34,7 @@ First, there are three mask-types, with each the circle and square shape:
 
 
 Default
-    This is the ultimate generic type. The fade parameter produces the below results. Of the three auto brushes, this is the fastest.
+    This is the ultimate generic type. The Fade parameter produces the below results. Of the three auto brushes, this is the fastest.
 
     .. image:: /images/brushes/Krita_29_brushengine_brushtips_default.png
 
@@ -66,7 +66,7 @@ Fade
 
     .. image:: /images/brushes/Krita_2_9_brushengine_brushtips_default_3.png
 
-(With fade separately horizontal and vertical)
+    (With fade separately horizontal and vertical)
 
 Angle
     This changes the angle a which the brush is at.

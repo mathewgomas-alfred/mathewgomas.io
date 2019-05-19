@@ -118,7 +118,7 @@ There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png
 Optimising GIF
 ^^^^^^^^^^^^^^
 
-* `FFMPEG <http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html>`_
+* `FFmpeg <http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html>`_
 * `Gifski <https://gif.ski/>`_
 * `LossyGif <https://kornel.ski/lossygif>`_
 

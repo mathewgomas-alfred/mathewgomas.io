@@ -43,7 +43,7 @@ File Menu
         Import frames for animation.
         
     Render Animation
-        Render an animation with FFMPEG. This is explained on the :ref:`render_animation` page.
+        Render an animation with FFmpeg. This is explained on the :ref:`render_animation` page.
 
     Save incremental version
         Save as a new version of the same file with a number attached.
