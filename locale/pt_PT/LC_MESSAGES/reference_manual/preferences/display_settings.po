@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-03-29 11:30+0000\n"
+"PO-Revision-Date: 2019-05-20 00:21+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: Tri en ANGLE Krita image Direct AMD images Bi\n"
-"X-POFile-SpellExtra: KritaPreferencesDisplay Radeon\n"
+"X-POFile-SpellExtra: KritaPreferencesDisplay Radeon preferences HDR\n"
 
 #: ../../<generated>:1
 msgid "Hide Layer thumbnail popup"
@@ -46,14 +46,12 @@ msgid "Settings"
 msgstr "Configuração"
 
 #: ../../reference_manual/preferences/display_settings.rst:12
-#, fuzzy
-#| msgid "Transparency Checkboxes"
 msgid "Transparency Checkers"
-msgstr "Opções de Transparência"
+msgstr "Xadrez da Transparência"
 
 #: ../../reference_manual/preferences/display_settings.rst:12
 msgid "Canvas Graphics Acceleration"
-msgstr ""
+msgstr "Aceleração Gráfica da Área de Desenho"
 
 #: ../../reference_manual/preferences/display_settings.rst:12
 msgid "Display"
@@ -64,10 +62,8 @@ msgid "Display Settings"
 msgstr "Configuração da Aparência"
 
 #: ../../reference_manual/preferences/display_settings.rst:20
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Preferences_Display.png"
 msgid ".. image:: images/preferences/Krita_Preferences_Display.png"
-msgstr ".. image:: images/en/Krita_Preferences_Display.png"
+msgstr ".. image:: images/preferences/Krita_Preferences_Display.png"
 
 #: ../../reference_manual/preferences/display_settings.rst:21
 msgid "Here various settings for the rendering of Krita can be edited."
@@ -237,27 +233,25 @@ msgstr "HDR"
 
 #: ../../reference_manual/preferences/display_settings.rst:58
 msgid "These settings are only available when using Windows."
-msgstr ""
+msgstr "Estas opções só estão disponíveis se estiver a usar o Windows."
 
 #: ../../reference_manual/preferences/display_settings.rst:60
 msgid ""
 "Since 4.2 Krita can not just edit floating point images, but also render "
 "them on screen in a way that an HDR capable setup can show them as HDR "
 "images."
-msgstr ""
+msgstr "Desde o 4.2, o Krita não só consegue editar imagens de vírgula flutuante, como também desenhá-las no ecrã de forma que uma configuração que suporte o HDR as consiga mostrar como imagens HDR."
 
 #: ../../reference_manual/preferences/display_settings.rst:62
 msgid ""
 "The HDR settings will show you the display format that Krita can handle, and "
 "the current output format. You will want to set the preferred output format "
 "to the one closest to what your display can handle to make full use of it."
-msgstr ""
+msgstr "A configuração do HDR mostrar-lhe-á o formato de visualização que o Krita consegue usar, assim como o formato de saída actual. Irá querer definir o formato de saída preferido para o que se aproxime mais do que o seu ecrã consegue usar na totalidade."
 
 #: ../../reference_manual/preferences/display_settings.rst:64
-#, fuzzy
-#| msgid "Display Settings"
 msgid "Display Format"
-msgstr "Configuração da Aparência"
+msgstr "Formato de Visualização"
 
 #: ../../reference_manual/preferences/display_settings.rst:65
 msgid ""
@@ -266,26 +260,26 @@ msgid ""
 "tell. This can be a hardware issue, but also a graphics driver issue. Check "
 "if other HDR applications, or the system HDR settings are configured "
 "correctly."
-msgstr ""
+msgstr "O formato em que se se encontra o seu ecrã por omissão. Se este não for superior a 8 bits, é bastante possível que o seu monitor não seja um monitor HDR, tanto quanto o Krita consegue apurar. Isto poderá ser uma questão de 'hardware', mas também poderá ser uma questão do controlador gráfico. Verifique se outras aplicações de HDR ou se as definições de HDR do sistema estão devidamente configuradas."
 
 #: ../../reference_manual/preferences/display_settings.rst:66
 msgid "Current Output format"
-msgstr ""
+msgstr "Formato de Saída Actual"
 
 #: ../../reference_manual/preferences/display_settings.rst:67
 msgid "What Krita is rendering the canvas to currently."
-msgstr ""
+msgstr "Com que formato o Krita está a tentar desenhar a área de desenho."
 
 #: ../../reference_manual/preferences/display_settings.rst:69
 msgid "Preferred Output Format"
-msgstr ""
+msgstr "Formato de Saída Preferido"
 
 #: ../../reference_manual/preferences/display_settings.rst:69
 msgid ""
 "Which surface type you prefer. This should be ideally the closest to the "
 "display format, but perhaps due to driver issues you might want to try other "
 "formats. This requires a restart."
-msgstr ""
+msgstr "Qual o tipo de superfície que prefere. Este deverá ser idealmente o mais próximo do formato de visualização, mas talvez por problemas no controlador, poderá querer experimentar outros formatos. Isto obriga a reiniciar a aplicação."
 
 #: ../../reference_manual/preferences/display_settings.rst:72
 msgid "Transparency Checkboxes"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-16 03:23+0200\n"
-"PO-Revision-Date: 2019-03-20 09:24+0000\n"
+"PO-Revision-Date: 2019-05-19 23:46+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: OSX workspace EuroTemplate Krita jpg filename krita\n"
-"X-POFile-SpellExtra: export dpi template desktop kra bash\n"
+"X-POFile-SpellExtra: export dpi template desktop kra bash KRA sequence\n"
 
 #: ../../reference_manual/linux_command_line.rst:None
 msgid "New in version 3.3:"
-msgstr ""
+msgstr "Novo na versão 3.3:"
 
 #: ../../reference_manual/linux_command_line.rst:1
 msgid "Overview of Krita's command line options."
@@ -80,22 +80,14 @@ msgid "Export a file selects the export option."
 msgstr "A exportação de um ficheiro selecciona a opção de exportação."
 
 #: ../../reference_manual/linux_command_line.rst:42
-#, fuzzy
-#| msgid ""
-#| "Exportfilename says that the following word is the filename it should be "
-#| "exported to."
 msgid ""
 "Export filename says that the following word is the filename it should be "
 "exported to."
-msgstr ""
-"O ficheiro-exportado diz que a palavra seguinte é o nome do ficheiro para o "
-"qual deseja exportar."
+msgstr "O nome do ficheiro exportado diz que a palavra seguinte é o nome do ficheiro para o qual deseja exportar."
 
 #: ../../reference_manual/linux_command_line.rst:45
-#, fuzzy
-#| msgid "importfilename"
 msgid "exportfilename"
-msgstr "ficheiro-importado"
+msgstr "ficheiro-exportado"
 
 #: ../../reference_manual/linux_command_line.rst:45
 msgid ""
@@ -114,14 +106,8 @@ msgid "``krita file.png --export --export-filename final.jpg``"
 msgstr "``krita ficheiro.png --export --export-filename final.jpg``"
 
 #: ../../reference_manual/linux_command_line.rst:51
-#, fuzzy
-#| msgid ""
-#| "This piece of code takes the file ``file.png`` and saves it as ``final."
-#| "jpg``."
 msgid "This line takes the file ``file.png`` and saves it as ``file.jpg``."
-msgstr ""
-"Este pedaço de código recebe o ficheiro ``ficheiro.png`` e grava-o como "
-"``final.jpg``."
+msgstr "Este pedaço de código recebe o ficheiro ``ficheiro.png`` e grava-o como ``final.jpg``."
 
 #: ../../reference_manual/linux_command_line.rst:57
 msgid "Export animation to the given filename and exit"
@@ -131,20 +117,18 @@ msgstr "Exportar a animação para o nome de ficheiro indicado e sair"
 msgid ""
 "If a KRA file has no animation, then this command prints \"This file has no "
 "animation.\" error and does nothing."
-msgstr ""
+msgstr "Se um ficheiro KRA não tiver nenhuma animação, então este comando mostra o erro \"Este ficheiro não tem nenhuma animação.\" e não faz nada."
 
 #: ../../reference_manual/linux_command_line.rst:61
-#, fuzzy
-#| msgid "``krita file.png --export --export-filename final.jpg``"
 msgid "``krita --export-sequence --export-filename file.png test.kra``"
-msgstr "``krita ficheiro.png --export --export-filename final.jpg``"
+msgstr "``krita --export-sequence --export-filename ficheiro.png teste.kra``"
 
 #: ../../reference_manual/linux_command_line.rst:63
 msgid ""
 "This line takes the animation in test.kra, and uses the value of --export-"
 "filename (file.png), to determine the sequence fileformat('png') and the "
 "frame prefix ('file')."
-msgstr ""
+msgstr "Esta linha usa a animação no teste.kra e usa o valor de --export-filename (ficheiro.png) para definir o formato de ficheiros da sequência ('png') e o prefixo das imagens ('ficheiro')."
 
 #: ../../reference_manual/linux_command_line.rst:67
 msgid "PDF export"
@@ -254,10 +238,8 @@ msgid "starts krita with the given workspace. So for example..."
 msgstr "inicia o Krita com o espaço de trabalho indicado. Por exemplo..."
 
 #: ../../reference_manual/linux_command_line.rst:140
-#, fuzzy
-#| msgid "`` krita --workspace Animation``"
 msgid "``krita --workspace Animation``"
-msgstr "`` krita --workspace Animação``"
+msgstr "``krita --workspace Animação``"
 
 #: ../../reference_manual/linux_command_line.rst:142
 msgid "Starts Krita in the Animation workspace."

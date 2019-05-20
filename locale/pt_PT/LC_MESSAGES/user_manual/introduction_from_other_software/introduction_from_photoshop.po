@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-18 12:06+0100\n"
+"PO-Revision-Date: 2019-05-19 23:18+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -23,7 +23,8 @@ msgstr ""
 "X-POFile-SpellExtra: dependant Kritabasicassistants view management kbd\n"
 "X-POFile-SpellExtra: Enter alpha Photoshop hdr Kritamousescroll mask\n"
 "X-POFile-SpellExtra: mousescroll Kritamouseright mousemiddle kra painting\n"
-"X-POFile-SpellExtra: mouseleft ranslação CS mouseright\n"
+"X-POFile-SpellExtra: mouseleft ranslação CS mouseright dockers layers\n"
+"X-POFile-SpellExtra: brushes filters assistants tools\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -58,39 +59,28 @@ msgstr ""
 "   :alt: deslocamento do rato"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Settings-curves.jpg"
 msgid ".. image:: images/brushes/Settings-curves.jpg"
-msgstr ".. image:: images/en/Settings-curves.jpg"
+msgstr ".. image:: images/brushes/Settings-curves.jpg"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-popuppalette.png"
 msgid ".. image:: images/Krita-popuppalette.png"
-msgstr ".. image:: images/en/Krita-popuppalette.png"
+msgstr ".. image:: images/Krita-popuppalette.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-incremental-saves.png"
 msgid ".. image:: images/Krita-incremental-saves.png"
-msgstr ".. image:: images/en/Krita-incremental-saves.png"
+msgstr ".. image:: images/Krita-incremental-saves.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#| msgid ".. image:: images/en/Krita-color-to-alpha.png"
 msgid ".. image:: images/filters/Krita-color-to-alpha.png"
 msgstr ".. image:: images/filters/Krita-color-to-alpha.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-multibrush.png"
 msgid ".. image:: images/tools/Krita-multibrush.png"
-msgstr ".. image:: images/en/Krita-multibrush.png"
+msgstr ".. image:: images/tools/Krita-multibrush.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
 msgid ".. image:: images/dockers/Krita_Color_Selector_Types.png"
-msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
+msgstr ".. image:: images/dockers/Krita_Color_Selector_Types.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:1
 msgid "This is a introduction to Krita for users coming from Photoshop."
@@ -99,7 +89,7 @@ msgstr ""
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:15
 msgid "Photoshop"
-msgstr ""
+msgstr "Photoshop"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:20
 msgid "Introduction to Krita coming from Photoshop"
@@ -939,10 +929,8 @@ msgstr ""
 "de grupo, o que quiser."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:281
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-transform-mask.png"
 msgid ".. image:: images/layers/Krita-transform-mask.png"
-msgstr ".. image:: images/en/Krita-transform-mask.png"
+msgstr ".. image:: images/layers/Krita-transform-mask.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:281
 msgid "Transform masks allows non-destructive transforms"
@@ -1017,10 +1005,8 @@ msgstr ""
 "rectas."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:316
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_basic_assistants.png"
 msgid ".. image:: images/assistants/Krita_basic_assistants.png"
-msgstr ".. image:: images/en/Krita_basic_assistants.png"
+msgstr ".. image:: images/assistants/Krita_basic_assistants.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:316
 msgid "Krita's vanishing point assistants in action"
@@ -1073,10 +1059,8 @@ msgstr ""
 "instantaneamente os valores da imagem."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:342
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-view-dependant-lut-management.png"
 msgid ".. image:: images/Krita-view-dependant-lut-management.png"
-msgstr ".. image:: images/en/Krita-view-dependant-lut-management.png"
+msgstr ".. image:: images/Krita-view-dependant-lut-management.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:342
 msgid "Using the LUT docker to change the colors per view"
@@ -1097,10 +1081,8 @@ msgstr ""
 "pintar com cores HDR, tendo o suporte nativo para o formato aberto EXR!"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:353
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-hdr-painting.png"
 msgid ".. image:: images/Krita-hdr-painting.png"
-msgstr ".. image:: images/en/Krita-hdr-painting.png"
+msgstr ".. image:: images/Krita-hdr-painting.png"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_photoshop.rst:353
 msgid "Painting with HDR colors"

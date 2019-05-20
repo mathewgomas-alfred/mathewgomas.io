@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-05 11:56+0100\n"
+"PO-Revision-Date: 2019-05-20 01:04+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-POFile-SpellExtra: Kritatransformscage ref Kritatransformsfree\n"
 "X-POFile-SpellExtra: Kritatransformsdeformvsliquefy deformbrushengine\n"
 "X-POFile-SpellExtra: Kritatransformsliquefy Krita transformtool\n"
-"X-POFile-SpellExtra: Kritatransformswarp demãos\n"
+"X-POFile-SpellExtra: Kritatransformswarp demãos tools\n"
 
 #: ../../<rst_epilog>:46
 msgid ""
@@ -94,10 +94,8 @@ msgstr ""
 "Transformação Livre, Fuga, Perspectiva, Envolvência e Liquidificação."
 
 #: ../../reference_manual/tools/transform.rst:30
-#, fuzzy
-#| msgid ".. image:: images/en/Transform_Tool_Options.png"
 msgid ".. image:: images/tools/Transform_Tool_Options.png"
-msgstr ".. image:: images/en/Transform_Tool_Options.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options.png"
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid "Free Transform docker"
@@ -119,10 +117,9 @@ msgstr ""
 "transformação."
 
 #: ../../reference_manual/tools/transform.rst:39
-#, fuzzy
 #| msgid ".. image:: images/en/Krita_transforms_free.png"
 msgid ".. image:: images/tools/Krita_transforms_free.png"
-msgstr ".. image:: images/en/Krita_transforms_free.png"
+msgstr ".. image:: images/tools/Krita_transforms_free.png"
 
 #: ../../reference_manual/tools/transform.rst:39
 #: ../../reference_manual/tools/transform.rst:67
@@ -172,10 +169,8 @@ msgstr ""
 "mantém em perspectiva com as opções da ferramenta."
 
 #: ../../reference_manual/tools/transform.rst:54
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_perspective.png"
 msgid ".. image:: images/tools/Krita_transforms_perspective.png"
-msgstr ".. image:: images/en/Krita_transforms_perspective.png"
+msgstr ".. image:: images/tools/Krita_transforms_perspective.png"
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid "Perspective transform"
@@ -194,20 +189,16 @@ msgstr ""
 "você mesmo os pontos do arrastamento."
 
 #: ../../reference_manual/tools/transform.rst:63
-#, fuzzy
-#| msgid ".. image:: images/en/Transform_Tool_Options_Warp.png"
 msgid ".. image:: images/tools/Transform_Tool_Options_Warp.png"
-msgstr ".. image:: images/en/Transform_Tool_Options_Warp.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options_Warp.png"
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid "Warp Option"
 msgstr "Opção de Fuga"
 
 #: ../../reference_manual/tools/transform.rst:67
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_warp.png"
 msgid ".. image:: images/tools/Krita_transforms_warp.png"
-msgstr ".. image:: images/en/Krita_transforms_warp.png"
+msgstr ".. image:: images/tools/Krita_transforms_warp.png"
 
 #: ../../reference_manual/tools/transform.rst:69
 msgid ""
@@ -265,10 +256,8 @@ msgstr ""
 "desenho, poderá optar entre a deformação e a edição dos pontos existentes."
 
 #: ../../reference_manual/tools/transform.rst:88
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_cage.png"
 msgid ".. image:: images/tools/Krita_transforms_cage.png"
-msgstr ".. image:: images/en/Krita_transforms_cage.png"
+msgstr ".. image:: images/tools/Krita_transforms_cage.png"
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid "Transforming a straight banana to be curved with the cage tool"
@@ -278,13 +267,13 @@ msgstr ""
 
 #: ../../reference_manual/tools/transform.rst:91
 msgid "Adjust Granularity"
-msgstr ""
+msgstr "Ajustar a Granularidade"
 
 #: ../../reference_manual/tools/transform.rst:95
 msgid ""
 "This adjusts the precision of the cage transform grid. Lower precision gives "
 "more speed but also gives less precise results."
-msgstr ""
+msgstr "Isto ajusta a precisão da grelha de transformação da envolvência. Uma menor precisão é mais rápida, mas também produz resultados com menor precisão."
 
 #: ../../reference_manual/tools/transform.rst:97
 msgid "Preview"
@@ -294,7 +283,7 @@ msgstr "Antevisão"
 msgid ""
 "Adjusts the granularity of the preview. It is recommended to have this lower "
 "than the :guilabel:`Real` value, as it speeds up adjusting."
-msgstr ""
+msgstr "Ajusta a granularidade da antevisão. Recomenda-se que tenha este valor menor que o valor :guilabel:`Real`, dado que acelera o ajuste."
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Real"
@@ -302,7 +291,7 @@ msgstr "Real"
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Adjusts the granularity of the final result."
-msgstr ""
+msgstr "Ajusta a granularidade do resultado final."
 
 #: ../../reference_manual/tools/transform.rst:103
 msgid "Hotkeys"
@@ -334,10 +323,8 @@ msgid "Liquify"
 msgstr "Liquidificação"
 
 #: ../../reference_manual/tools/transform.rst:115
-#, fuzzy
-#| msgid ".. image:: images/en/Transform_Tool_Options_Liquify.png"
 msgid ".. image:: images/tools/Transform_Tool_Options_Liquify.png"
-msgstr ".. image:: images/en/Transform_Tool_Options_Liquify.png"
+msgstr ".. image:: images/tools/Transform_Tool_Options_Liquify.png"
 
 #: ../../reference_manual/tools/transform.rst:116
 msgid ""
@@ -388,10 +375,8 @@ msgid "Erases the actions of other tools."
 msgstr "Apaga as acções das outras ferramentas."
 
 #: ../../reference_manual/tools/transform.rst:131
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_liquefy.png"
 msgid ".. image:: images/tools/Krita_transforms_liquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_liquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_liquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:131
 msgid "Liquify used to turn an apple into a pear"
@@ -469,10 +454,9 @@ msgstr ""
 "rotação no sentido dos ponteiros do relógio passa a ser no sentido inverso."
 
 #: ../../reference_manual/tools/transform.rst:150
-#, fuzzy
 #| msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 msgid ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:150
 msgid "liquify on the left and deform brush on the right."
@@ -507,10 +491,9 @@ msgstr ""
 "ferramenta de transformação é a :guilabel:`Transformação Recursiva`."
 
 #: ../../reference_manual/tools/transform.rst:160
-#, fuzzy
 #| msgid ".. image:: images/en/Krita_transforms_recursive.png"
 msgid ".. image:: images/tools/Krita_transforms_recursive.png"
-msgstr ".. image:: images/en/Krita_transforms_recursive.png"
+msgstr ".. image:: images/tools/Krita_transforms_recursive.png"
 
 #: ../../reference_manual/tools/transform.rst:160
 msgid ""

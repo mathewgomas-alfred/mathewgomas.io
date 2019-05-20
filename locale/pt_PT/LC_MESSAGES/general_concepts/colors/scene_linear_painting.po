@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-18 10:05+0100\n"
+"PO-Revision-Date: 2019-05-19 23:11+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -21,7 +21,8 @@ msgstr ""
 "X-POFile-SpellExtra: presunções Filmic van HSI tot CMYK Natron rec HSY\n"
 "X-POFile-SpellExtra: Kritascenelinearcat Aclaramento ICC bi Wolthera\n"
 "X-POFile-SpellExtra: colorcategory Krita lamacentas sRGB AdobeRGB SA\n"
-"X-POFile-SpellExtra: Blender\n"
+"X-POFile-SpellExtra: Blender NITS hdrdisplay icc guilabel elle\n"
+"X-POFile-SpellExtra: smallcolorselector ref\n"
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:1
 msgid "Scene Linear painting in Krita"
@@ -111,7 +112,7 @@ msgid ""
 "If you want to create images for display on an HDR canvas, you will need to "
 "select the rec 2020 space profile with a linear gamma. The default profile "
 "in Krita for that is :guilabel:`Rec2020-elle-V4-g10.icc`."
-msgstr ""
+msgstr "Se quiser criar imagens para mostrar numa área de desenho HDR, tem de seleccionar o perfil do espaço Rec 2020 com um gama linear. O perfil predefinido no Krita para tal é o :guilabel:`Rec2020-elle-V4-g10.icc`."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:30
 msgid ""
@@ -594,13 +595,13 @@ msgid ""
 "icc` profile. HDR images are standardised to use the rec 2020 gamut, which "
 "is much larger than sRGB in size, so this ensures you've got access to all "
 "the colors."
-msgstr ""
+msgstr "Seleccione uma imagem de 16 bits ou 32 bits. Por omissão, o Krita irá seleccionar um perfil sRGB linear. Se quiser criar imagens para visualização HDR, será necessário que confirme que o perfil seleccionado é o perfil :guilabel:`Rec2020-elle-V4-g10.icc`. As imagens HDR têm como padrão o gamute Rec 2020, o qual é muito maior que o sRGB em tamanho, pelo que isto garante que você tem acesso a todas as cores."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:129
 msgid ""
 "If you're working on a non-HDR enabled monitor, you should enable ocio in "
 "the Lut Docker."
-msgstr ""
+msgstr "Se estiver a trabalhar num monitor sem suporte para HDR, deverá activar o OCIO na Área do LUT."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:131
 msgid ""
@@ -639,7 +640,7 @@ msgstr ""
 msgid ""
 "By setting the nits slider in the :ref:`small_color_selector` higher than "
 "100."
-msgstr ""
+msgstr "Configurando a barra do NITS no :ref:`small_color_selector` para um valor superior a 100."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:140
 msgid ""
@@ -766,7 +767,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:167
 msgid "For saving HDR images, check the :ref:`hdr_display` page."
-msgstr ""
+msgstr "Para gravar imagens HDR, veja a página de :ref:`hdr_display`."
 
 #: ../../general_concepts/colors/scene_linear_painting.rst:169
 msgid ""
@@ -776,4 +777,3 @@ msgid ""
 msgstr ""
 "Até poderá usar alguns dos filtros do Blender ou do Natron nesta fase e, ao "
 "lidar com outros poderá gravar em EXR, para que os outros possam vê-los."
-

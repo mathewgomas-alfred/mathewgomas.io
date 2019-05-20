@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-04-10 11:06+0100\n"
+"PO-Revision-Date: 2019-05-20 00:15+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -33,59 +33,44 @@ msgstr ""
 "X-POFile-SpellExtra: Introductiontoanimationwalkcycle deformbrushengine\n"
 "X-POFile-SpellExtra: Kritamultipleviews Krita animation JPG vectorlayers\n"
 "X-POFile-SpellExtra: croptool rasterizações Tab transparencymasks\n"
-"X-POFile-SpellExtra: filtermasks program subtractivas\n"
+"X-POFile-SpellExtra: filtermasks program subtractivas dockers assistants\n"
+"X-POFile-SpellExtra: brushes tools\n"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Pixels-brushstroke.png"
 msgid ".. image:: images/Pixels-brushstroke.png"
-msgstr ".. image:: images/en/Pixels-brushstroke.png"
+msgstr ".. image:: images/Pixels-brushstroke.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Dockers.png"
 msgid ".. image:: images/dockers/Dockers.png"
-msgstr ".. image:: images/en/Dockers.png"
+msgstr ".. image:: images/dockers/Dockers.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Multi-window.png"
 msgid ".. image:: images/Multi-window.png"
-msgstr ".. image:: images/en/Multi-window.png"
+msgstr ".. image:: images/Multi-window.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Canvas-krita.png"
 msgid ".. image:: images/Canvas-krita.png"
-msgstr ".. image:: images/en/Canvas-krita.png"
+msgstr ".. image:: images/Canvas-krita.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_ghostlady_1.png"
 msgid ".. image:: images/Krita_ghostlady_1.png"
-msgstr ".. image:: images/en/Krita_ghostlady_1.png"
+msgstr ".. image:: images/Krita_ghostlady_1.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#| msgid ".. image:: images/en/Krita_ghostlady_2.png"
 msgid ".. image:: images/Krita_ghostlady_2.png"
 msgstr ".. image:: images/Krita_ghostlady_2.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#| msgid ".. image:: images/en/Krita_ghostlady_3.png"
 msgid ".. image:: images/Krita_ghostlady_3.png"
 msgstr ".. image:: images/Krita_ghostlady_3.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_free.png"
 msgid ".. image:: images/tools/Krita_transforms_free.png"
-msgstr ".. image:: images/en/Krita_transforms_free.png"
+msgstr ".. image:: images/tools/Krita_transforms_free.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
 msgid ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
-msgstr ".. image:: images/en/Introduction_to_animation_walkcycle_02.gif"
+msgstr ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:1
 msgid "An overview of the basic concepts of Krita."
@@ -161,7 +146,7 @@ msgid ""
 "the Krita's most important functionality; it tries to help you grasp the "
 "functions of various menu and buttons in Krita without going into minute "
 "details."
-msgstr ""
+msgstr "Ainda que seja bastante extensa, esta página tenta-lhe dar uma introdução breve a algumas das funcionalidades mais importantes do Krita; ele tenta resumir as funções dos vários menus e botões do Krita sem entrar em grande detalhe."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:27
 msgid "Contents"
@@ -172,21 +157,12 @@ msgid "Raster and Vector"
 msgstr "Rasterização e Vector"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:32
-#, fuzzy
-#| msgid ""
-#| "Even though Krita is primarily a raster based application, it has some "
-#| "vector editing capabilities as well. If you are new to Digital painting "
-#| "medium, it is necessary that you know the concepts of raster and Vector."
 msgid ""
 "Even though Krita is regarded primarily a raster based application, it has "
 "some vector editing capabilities as well. If you are new to digital painting "
 "medium, it is necessary that you first get yourself acquainted with the "
 "concepts of raster and :ref:`Vector <vector_graphics>` based images."
-msgstr ""
-"Ainda que o Krita seja principalmente uma aplicação de rasterizações, tem "
-"algumas capacidades de edição vectorial também. Se for novo nos suportes de "
-"pintura digital, é necessário que conheça os conceitos de rasterização e "
-"vectores."
+msgstr "Ainda que o Krita seja principalmente uma aplicação de rasterizações, tem algumas capacidades de edição vectorial também. Se for novo nos suportes de pintura digital, é necessário que conheça os conceitos de rasterização e :ref:`vectores <vector_graphics>`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:34
 msgid ""
@@ -208,16 +184,6 @@ msgstr ""
 "poderá reparar em muitos pequenos quadrados com cors; estes são os pixels:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:39
-#, fuzzy
-#| msgid ""
-#| "In contrast, vector graphic work is based on mathematical expressions. "
-#| "They are independent of the pixel. For example, when you draw a rectangle "
-#| "on a vector layer in Krita you are actually drawing paths passing through "
-#| "points called nodes which are located on specific coordinates on the 'x' "
-#| "and 'y' axes. When you re-size or move these points the computer "
-#| "calculates and redraws the path and displays the newly formed shape to "
-#| "you. Hence you can re-size the vector shape to any extent without any "
-#| "loss in quality."
 msgid ""
 "In contrast to raster images, vector graphic images are based on "
 "mathematical expressions. They are independent of the pixels. For example, "
@@ -228,15 +194,7 @@ msgid ""
 "and displays the newly formed shape to you. Hence you can re-size the vector "
 "shape to any extent without any loss in quality. In Krita, everything which "
 "is not on a vector layer is raster based."
-msgstr ""
-"Em contraste, os gráficos vectoriais são baseados em expressões matemáticas. "
-"São independentes do pixel. Por exemplo, quando estiver a desenhar um "
-"rectângulo sobre uma camada vectorial do Krita, está de facto a desenhar "
-"caminhos de desenho que passam por pontos, chamados de nós, que se localizam "
-"em coordenadas específicas nos eixos do X e o Y. Quando dimensionar ou mover "
-"estes pontos, o computador calcula e volta a desenhar o caminho, "
-"apresentando a nova forma remodelada para si. Poderá dimensionar a forma "
-"vectorial a qualquer nível, sem qualquer perda de qualidade."
+msgstr "Em contraste, os gráficos vectoriais são baseados em expressões matemáticas. São independentes do pixel. Por exemplo, quando estiver a desenhar um rectângulo sobre uma :ref:`camada vectorial <vector_layers>` do Krita, está de facto a desenhar caminhos de desenho que passam por pontos, chamados de nós, que se localizam em coordenadas específicas nos eixos do X e o Y. Quando dimensionar ou mover estes pontos, o computador calcula e volta a desenhar o caminho, apresentando a nova forma remodelada para si. Poderá dimensionar a forma vectorial a qualquer nível, sem qualquer perda de qualidade."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:42
 msgid "Images, Views and Windows"
@@ -259,54 +217,20 @@ msgid "The most important one is the **Image**."
 msgstr "O mais importante é a **Imagem**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:51
-#, fuzzy
-#| msgid ""
-#| "This is an individual copy of the image you opened or made via the file "
-#| "dialog, and where you edit your file. Krita can allow you to open the "
-#| "file as a new copy via the :guilabel:`File` menu, or to save it as a new "
-#| "file, or make an incremental save. An image contains layers, a color "
-#| "space, a canvas size and metadata such as creator, data created, and DPI. "
-#| "Krita can open multiple images at once, you can switch between them via "
-#| "the :guilabel:`Window` menu."
 msgid ""
 "This is an individual copy of the image that you can open or create via the "
 "file dialog. Krita allows you to open the file as a new copy via the :"
 "guilabel:`File` menu, or to save it as a new file, or make an incremental "
 "copy."
-msgstr ""
-"Esta é uma cópia individual da imagem que abriu ou criou na janela de "
-"ficheiros, e onde poderá editar o seu ficheiro. O Krita poder-lhe-á permitir "
-"abrir o ficheiro como uma nova cópia com o menu :guilabel:`Ficheiro`, ou "
-"ainda gravá-lo como um novo ficheiro ou criar uma gravação incremental. Uma "
-"imagem contém camadas, um espaço de cores, um tamanho da área de desenho e "
-"meta-dados como o criador, a data da criação e os valores de DPI. O Krita "
-"consegue abrir várias imagens de uma vez, sendo que poderá alternar entre "
-"elas com o menu :guilabel:`Janela`."
+msgstr "Esta é uma cópia individual da imagem que abriu ou criou na janela de ficheiros, e onde poderá editar o seu ficheiro. O Krita poder-lhe-á permitir abrir o ficheiro como uma nova cópia com o menu :guilabel:`Ficheiro`, ou ainda gravá-lo como um novo ficheiro ou criar uma gravação incremental."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:53
-#, fuzzy
-#| msgid ""
-#| "This is an individual copy of the image you opened or made via the file "
-#| "dialog, and where you edit your file. Krita can allow you to open the "
-#| "file as a new copy via the :guilabel:`File` menu, or to save it as a new "
-#| "file, or make an incremental save. An image contains layers, a color "
-#| "space, a canvas size and metadata such as creator, data created, and DPI. "
-#| "Krita can open multiple images at once, you can switch between them via "
-#| "the :guilabel:`Window` menu."
 msgid ""
 "An image contains data regarding layers, color space of image and layers, "
 "canvas size and metadata such as creator, date created and DPI et cetera. "
 "Krita can open multiple images at once, you can switch between them via the :"
 "guilabel:`Window` menu."
-msgstr ""
-"Esta é uma cópia individual da imagem que abriu ou criou na janela de "
-"ficheiros, e onde poderá editar o seu ficheiro. O Krita poder-lhe-á permitir "
-"abrir o ficheiro como uma nova cópia com o menu :guilabel:`Ficheiro`, ou "
-"ainda gravá-lo como um novo ficheiro ou criar uma gravação incremental. Uma "
-"imagem contém camadas, um espaço de cores, um tamanho da área de desenho e "
-"meta-dados como o criador, a data da criação e os valores de DPI. O Krita "
-"consegue abrir várias imagens de uma vez, sendo que poderá alternar entre "
-"elas com o menu :guilabel:`Janela`."
+msgstr "Uma imagem contém camadas, um espaço de cores, um tamanho da área de desenho e meta-dados como o criador, a data da criação e os valores de DPI. O Krita consegue abrir várias imagens de uma vez, sendo que poderá alternar entre elas com o menu :guilabel:`Janela`."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:55
 msgid ""
@@ -343,8 +267,6 @@ msgstr ""
 "sua cópia de trabalho."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:61
-#, fuzzy
-#| msgid "Open existing Document as Untitled Document"
 msgid "Open the existing Document as Untitled Document"
 msgstr "Abrir o Documento Existente como um Documento sem Nome"
 
@@ -383,13 +305,6 @@ msgstr ""
 "ficheiro com um número de versão associado a ele."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:68
-#, fuzzy
-#| msgid ""
-#| "These options are great for people doing production work, who need to "
-#| "switch between files quickly or have backup files in case they do "
-#| "something extreme. Krita also has a file backup system in the form of "
-#| "auto-saves and back files and crash recovery. You can configure these in "
-#| "the general settings."
 msgid ""
 "These options are great for people doing production work, who need to switch "
 "between files quickly or have backup files in case they do something "
@@ -408,14 +323,6 @@ msgid "You view the image via a **View**."
 msgstr "Poderá ver uma imagem com uma **Vista**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:75
-#, fuzzy
-#| msgid ""
-#| "A view is a window onto your image. Krita allows you to have multiple "
-#| "views, and you can manipulate the view to zoom, rotate and mirror and "
-#| "modify the color of the way you see an image without editing the image "
-#| "itself. This is very useful for artists, as changing the way they view "
-#| "the image is a common way to diagnose mistakes, like skewing to one side. "
-#| "Mirroring with :kbd:`M` makes such skewing easy to identify."
 msgid ""
 "A view is a window onto your image. Krita allows you to have multiple views, "
 "and you can manipulate the view to zoom, rotate and mirror and modify the "
@@ -442,10 +349,8 @@ msgstr ""
 "precisão ou sem ela."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_multiple_views.png"
 msgid ".. image:: images/Krita_multiple_views.png"
-msgstr ".. image:: images/en/Krita_multiple_views.png"
+msgstr ".. image:: images/Krita_multiple_views.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:82
 msgid "Multiple views of the same image in Krita"
@@ -470,11 +375,6 @@ msgid "Dockers"
 msgstr "Áreas Acopláveis"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:89
-#, fuzzy
-#| msgid ""
-#| "Dockers are little subwindows in :ref:`Krita's interface <navigation>`. "
-#| "They contain useful tools, like the color selector, layer stack, tool "
-#| "options etc."
 msgid ""
 "Dockers are little subwindows in :ref:`Krita's interface <navigation>`. They "
 "contain useful tools, like the color selector, layer stack, tool options, et "
@@ -501,11 +401,6 @@ msgstr ""
 "São grandes contentores para os programas do seu computador."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:103
-#, fuzzy
-#| msgid ""
-#| "Krita allows you to have multiple windows via :menuselection:`Window --> "
-#| "New Window`. You can then drag this to another monitor for multi-monitor "
-#| "use."
 msgid ""
 "Krita allows you to have multiple windows via :menuselection:`Window --> New "
 "Window`.  You can then drag this to another monitor for multi-monitor use."
@@ -534,13 +429,6 @@ msgstr ""
 "desenho."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:118
-#, fuzzy
-#| msgid ""
-#| "When you save the painting as jpg, png etc or take a print out of the "
-#| "painting, only the content inside this area is taken into consideration. "
-#| "Anything beyond it is ignored. Krita does store information beyond this "
-#| "area, you just won't be able to see it. This data is stored in the "
-#| "**Layers**."
 msgid ""
 "When you save the painting as jpg, png et cetera or take a print out of the "
 "painting, only the content inside this area is taken into consideration. "
@@ -574,12 +462,6 @@ msgstr ""
 "chamado de **Ordem do Desenho**."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:126
-#, fuzzy
-#| msgid ""
-#| "The layer stack is a way for you to separate elements of a drawing and "
-#| "manipulate the drawing order by showing you which layers are drawn when, "
-#| "and allowing you to change the order they are drawn in, and all sorts of "
-#| "other effects. This is called **Compositing**."
 msgid ""
 "The layer stack is a way for you to separate elements of a drawing and "
 "manipulate the drawing order by showing you which layers are drawn when and "
@@ -600,8 +482,6 @@ msgstr ""
 "antes das montanhas, e editar cada uma delas sem afectar as outras."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:130
-#, fuzzy
-#| msgid "Krita has many layer-types, each doing a slightly different thing:"
 msgid ""
 "Krita has many layer-types, each layer type is unique and has its own "
 "usecase:"
@@ -614,10 +494,6 @@ msgid ":ref:`paint_layers`"
 msgstr ":ref:`paint_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:133
-#, fuzzy
-#| msgid ""
-#| "Also known as raster layers, and the most common layer type, you will be "
-#| "painting on these."
 msgid ""
 "These are raster layers, and the most common and default layer type in "
 "Krita, you will be painting on these."
@@ -669,10 +545,6 @@ msgid ":ref:`file_layers`"
 msgstr ":ref:`file_layers`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:141
-#, fuzzy
-#| msgid ""
-#| "These refer to an outside existing image, and update as soon as the "
-#| "outside image updates. Useful for logos and emblems that change a lot."
 msgid ""
 "These refer to an existing image outside of Krita and update as soon as the "
 "outside image updates. Useful for logos and emblems that change a lot."
@@ -701,7 +573,7 @@ msgstr ":ref:`filter_layers`"
 msgid ""
 "These layers help us to apply some filters which will affect a composite "
 "image made from all the layers beneath them."
-msgstr ""
+msgstr "Estas camadas ajudam-nos a aplicar alguns filtros que irão afectar uma imagem composta por todas as camadas abaixo dela."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:147
 msgid "You can manipulate the content of the layers with **Tools**."
@@ -737,12 +609,6 @@ msgid "Vector Tools"
 msgstr "Ferramentas Vectoriais"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:157
-#, fuzzy
-#| msgid ""
-#| "This is the upper row of tools, which are used to edit vectors. "
-#| "Interestingly enough, all paint tools except the freehand brush allow you "
-#| "to draw shapes on the vector layers. These don't get a brush engine "
-#| "effect applied to them, though."
 msgid ""
 "This is the upper row of tools, which are used to edit vectors. "
 "Interestingly enough, all paint tools except the freehand brush allow you to "
@@ -759,13 +625,6 @@ msgid "Selection Tools"
 msgstr "Ferramentas de Selecção"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:159
-#, fuzzy
-#| msgid ""
-#| "Selections allow you to edit a very specific area of the layer you are "
-#| "working on without affecting the others. The selection tools allow you "
-#| "modify the current selection. This is not unlike using masking-fluids in "
-#| "traditional painting, but whereas using masking fluids and film is often "
-#| "messy and delicate, selections are far easier to use."
 msgid ""
 "Selections allow you to edit a very specific area of the layer you are "
 "working on without affecting the others. The selection tools allow you to "
@@ -793,38 +652,22 @@ msgid "Transform Tools"
 msgstr "Ferramentas de Transformação"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:163
-#, fuzzy
-#| msgid ""
-#| "These are tools that allow you to transform your image. More on that "
-#| "later."
 msgid ""
 "These are tools that allow you to transform your layer or object on the "
 "canvas."
-msgstr ""
-"Estas são ferramentas que lhe permitem transformar a sua imagem. Iremos "
-"falar sobre isso mais tarde."
+msgstr "Estas são ferramentas que lhe permitem transformar a sua camada ou objecto na área de desenho."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:165
-#, fuzzy
-#| msgid ""
-#| "All tools can be found in the toolbox, and information can be found in "
-#| "the tools section of the manual."
 msgid ""
 "All tools can be found in the toolbox, and information about individual "
 "tools can be found in the :ref:`tools <cat_tools>` section of the manual."
-msgstr ""
-"Todas as ferramentas poderão ser consultadas na área de ferramentas, podendo "
-"encontrar informações sobre elas na secção de ferramentas do manual."
+msgstr "Todas as ferramentas poderão ser consultadas na área de ferramentas, podendo encontrar informações sobre elas na secção de :ref:`ferramentas <cat_tools>` do manual."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:168
 msgid "Brush Engines"
 msgstr "Motores de Pincéis"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:170
-#, fuzzy
-#| msgid ""
-#| "Brush engines, like mentioned before, take a path and tablet information "
-#| "and add effects to it, making a stroke."
 msgid ""
 "Brush engines, as mentioned before, take a path and tablet information and "
 "add effects to it, making a stroke."
@@ -833,14 +676,6 @@ msgstr ""
 "informação da tablete e adicionam efeitos a ele, criando um traço."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:172
-#, fuzzy
-#| msgid ""
-#| "Engine is a term programmers use to describe a complex interacting set of "
-#| "code that is the core for a certain functionality, and is highly "
-#| "configurable. In short, like the engine of your car drives your car, and "
-#| "the type of engine and its configuration affects how you use your car, "
-#| "the brush engine drives the look and feel of the brush, and different "
-#| "brush engines have different results."
 msgid ""
 "Engine is a term Krita developers use to describe a complex interacting set "
 "of code, that is the core for certain functionality and is highly "
@@ -866,16 +701,10 @@ msgstr ""
 "<category_brush_engines>`, todos eles com efeitos diferentes."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_example_differentbrushengines.png"
 msgid ".. image:: images/brushes/Krita_example_differentbrushengines.png"
-msgstr ".. image:: images/en/Krita_example_differentbrushengines.png"
+msgstr ".. image:: images/brushes/Krita_example_differentbrushengines.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:179
-#, fuzzy
-#| msgid ""
-#| "**Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch "
-#| "brush"
 msgid ""
 "**Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch "
 "brush"
@@ -884,12 +713,6 @@ msgstr ""
 "**Direita:** pincel de rabiscos"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:181
-#, fuzzy
-#| msgid ""
-#| "For example, the pixel-brush engine is simple and allows you to do most "
-#| "of your basic work, but if you do a lot of painting, the color smudge "
-#| "brush engine might be more useful. Even though it's slower to use than "
-#| "the Pixel Brush engine, its mixing of colors allows you to work faster."
 msgid ""
 "For example, the pixel-brush engine is simple and allows you to do most of "
 "your basic work, but if you do a lot of painting, the color smudge brush "
@@ -904,13 +727,6 @@ msgstr ""
 "trabalhar de forma mais rápida."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:183
-#, fuzzy
-#| msgid ""
-#| "If you want something totally different from that, the sketch brush "
-#| "engine helps with making messy lines, and the shape brush engine allows "
-#| "you to make big flats quickly. There are a lot of cool effects inside "
-#| "Krita's brush engines, so try them all out, and be sure to check the "
-#| "chapters on each."
 msgid ""
 "If you want something totally different from that, the sketch brush engine "
 "helps with making messy lines, and the shape brush engine allows you to make "
@@ -955,17 +771,10 @@ msgstr ""
 "mesma absorve algumas delas."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:197
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_basics_primaries.png"
 msgid ".. image:: images/Krita_basics_primaries.png"
-msgstr ".. image:: images/en/Krita_basics_primaries.png"
+msgstr ".. image:: images/Krita_basics_primaries.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:197
-#, fuzzy
-#| msgid ""
-#| "Subtractive CMY colors on the left and additive RGB colors on the right. "
-#| "This difference means that printers benefit from color conversion before "
-#| "printing"
 msgid ""
 "Subtractive CMY colors on the left and additive RGB colors on the right.  "
 "This difference means that printers benefit from color conversion before "
@@ -1022,10 +831,8 @@ msgstr ""
 "falar."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:208
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_basic_channel_rose.png"
 msgid ".. image:: images/Krita_basic_channel_rose.png"
-msgstr ".. image:: images/en/Krita_basic_channel_rose.png"
+msgstr ".. image:: images/Krita_basic_channel_rose.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:208
 msgid ""
@@ -1103,13 +910,6 @@ msgstr ""
 "'α' para a representar na programação."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:223
-#, fuzzy
-#| msgid ""
-#| "Some older programs don't always have transparency by default. Krita is "
-#| "the opposite: it doesn't understand images that don't track transparency, "
-#| "and will always add a transparency channel to images. When a given pixel "
-#| "is completely transparent on all layers, Krita will instead show a "
-#| "checkerboard pattern, like the rose image to the left."
 msgid ""
 "Some older programs don't always have transparency by default. Krita is the "
 "opposite: it doesn't understand images that don't track transparency, and "
@@ -1228,11 +1028,6 @@ msgstr ""
 "conduzido por uma imagem em tons de cinzento."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:251
-#, fuzzy
-#| msgid ""
-#| "The primary types of mask are :ref:`transparency_masks`, which allow you "
-#| "to use a grayscale image to determine the transparency, where black makes "
-#| "everything transparent and white makes the pixel fully opaque."
 msgid ""
 "The primary types of mask are :ref:`transparency_masks`, which allow you to "
 "use a grayscale image to determine transparency, where black makes "
@@ -1261,24 +1056,12 @@ msgid "For example, we have a white ghost lady here:"
 msgstr "Por exemplo, podemos ter uma senhora-fantasma a branco aqui:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:260
-#, fuzzy
-#| msgid ""
-#| "But you can't really tell whether she's a ghost lady or just really "
-#| "really white. If only we could give the idea that she floats... We right-"
-#| "click the layer and add a transparency mask. Then, we select that mask "
-#| "and draw with a black and white linear gradient so that the black is "
-#| "below."
 msgid ""
 "But you can't really tell whether she's a ghost lady or just really really "
 "white. If only we could give the idea that she floats. We right-click the "
 "layer and add a transparency mask. Then, we select that mask and draw with a "
 "black and white linear gradient so that the black is below."
-msgstr ""
-"Mas não poderá perceber se é uma senhora-fantasma ou simplesmente muito "
-"branca. Se pudéssemos dar a ideia que ela flutua... Podemos carregar com o "
-"botão direito sobre a camada e adicionar uma máscara de transparência. "
-"Depois, podemos seleccionar essa máscara q e desenhar com um gradiente "
-"linear preto-e-branco, de forma que o preto fique na parte de baixo."
+msgstr "Mas não poderá perceber se é uma senhora-fantasma ou simplesmente muito branca. Se pudéssemos dar a ideia que ela flutua. Podemos carregar com o botão direito sobre a camada e adicionar uma máscara de transparência. Depois, podemos seleccionar essa máscara q e desenhar com um gradiente linear preto-e-branco, de forma que o preto fique na parte de baixo."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:266
 msgid ""
@@ -1361,10 +1144,8 @@ msgstr ""
 "transparentes."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:289
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_basic_filter_brush.png"
 msgid ".. image:: images/Krita_basic_filter_brush.png"
-msgstr ".. image:: images/en/Krita_basic_filter_brush.png"
+msgstr ".. image:: images/Krita_basic_filter_brush.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:289
 msgid "Different filter brushes being used on different parts of the image."
@@ -1373,10 +1154,6 @@ msgstr ""
 "imagem."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:291
-#, fuzzy
-#| msgid ""
-#| "Krita has many more filters available: read about them :ref:`here "
-#| "<filters>`."
 msgid ""
 "Krita has many more filters available: you can read about them :ref:`here "
 "<filters>`."
@@ -1440,15 +1217,6 @@ msgstr ""
 "todas as camadas num grupo, como acontece com as máscaras de transparência."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:309
-#, fuzzy
-#| msgid ""
-#| "We can use these filters to make our ghost lady look even more ethereal, "
-#| "by selecting the ghost lady's layer, and then creating a clone layer. We "
-#| "then right click and add a filter mask and use gaussian blur set to 10 or "
-#| "so pixels. The clone layer is then put behind the original layer, and set "
-#| "to the blending mode '**Color Dodge**', giving her a definite spooky "
-#| "glow. You can keep on painting on the original layer and everything will "
-#| "get updated automatically!"
 msgid ""
 "We can use these filters to make our ghost lady look even more ethereal, by "
 "selecting the ghost lady's layer, and then creating a clone layer. We then "
@@ -1468,12 +1236,6 @@ msgstr ""
 "actualizado automaticamente!"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:314
-#, fuzzy
-#| msgid ""
-#| "Layer Effects or Layer Styles are :program:`Photoshop's` unique brand of "
-#| "Filter Masks that are a little faster than regular masks, but not as "
-#| "versatile. They are available by right clicking a layer and selecting "
-#| "'layer style'."
 msgid ""
 "Layer Effects or Layer Styles are filter masks popularised by :program:"
 "`Photoshop's` that are a little faster than regular masks, but not as "
@@ -1491,12 +1253,6 @@ msgid "Transformations"
 msgstr "Transformações"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:319
-#, fuzzy
-#| msgid ""
-#| "**Transformations** are kind of like filters, in that these are "
-#| "operations done on the pixels of an image.  We have a regular image and "
-#| "layer wide transformations in the image and layer top menus, so that you "
-#| "may resize, flip and rotate the whole image."
 msgid ""
 "**Transformations** are kind of like filters, in that these are operations "
 "done on the pixels of an image. We have a regular image and layer wide "
@@ -1549,10 +1305,8 @@ msgstr ""
 "qualidade."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
 msgid ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
-msgstr ".. image:: images/en/Krita_transforms_deformvsliquefy.png"
+msgstr ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:337
 msgid ""
@@ -1592,12 +1346,6 @@ msgid ":ref:`animation`"
 msgstr ":ref:`animation`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:353
-#, fuzzy
-#| msgid ""
-#| "In 3.0, Krita got raster animation support. You can use the timeline, "
-#| "animation and onionskin dockers, plus Krita's amazing variety of brushes "
-#| "to do raster based animations, export those, and then turn them into "
-#| "movies or gifs."
 msgid ""
 "From version 3.0 onwards, Krita got raster animation support. You can use "
 "the timeline, animation and onionskin dockers, plus Krita's amazing variety "
@@ -1615,11 +1363,6 @@ msgid "Assistants, Grids and Guides"
 msgstr "Assistentes, Grelhas e Guias"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:358
-#, fuzzy
-#| msgid ""
-#| "With all this technical stuff, you might forget that Krita is a painting "
-#| "program. Like how an illustrator in real life can have all sorts of "
-#| "equipment to make drawing easier, Krita also offers a variety of tools:"
 msgid ""
 "With all this technical stuff, you might forget that Krita is a painting "
 "program. Like how when working with traditional medium, as an illustrator, "
@@ -1632,10 +1375,8 @@ msgstr ""
 "oferece uma grande variedade de ferramentas:"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_basic_assistants.png"
 msgid ".. image:: images/assistants/Krita_basic_assistants.png"
-msgstr ".. image:: images/en/Krita_basic_assistants.png"
+msgstr ".. image:: images/assistants/Krita_basic_assistants.png"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:363
 msgid "Krita's vanishing point assistants in action"
@@ -1646,10 +1387,6 @@ msgid ":ref:`grids_and_guides_docker`"
 msgstr ":ref:`grids_and_guides_docker`"
 
 #: ../../user_manual/getting_started/basic_concepts.rst:366
-#, fuzzy
-#| msgid ""
-#| "Very straightforward guiding tool which shows grids or guiding lines that "
-#| "can be configured."
 msgid ""
 "A very straightforward guiding tool which shows grids or guiding lines that "
 "can be configured."
@@ -1687,10 +1424,6 @@ msgstr ""
 "los com as opções da ferramenta também."
 
 #: ../../user_manual/getting_started/basic_concepts.rst:372
-#, fuzzy
-#| msgid ""
-#| "These guides are saved into Krita's native format, which means you can "
-#| "pick up your work easily afterwards."
 msgid ""
 "These guides are saved into Krita's native format, which means you can pick "
 "up your work easily afterward."
@@ -1729,26 +1462,3 @@ msgstr ""
 "Configurar os Atalhos` e :menuselection:`Configuração --> Configurar o Krita "
 "--> Configuração da Entrada da Área de Desenho`."
 
-#~ msgid ""
-#~ "This page is very, very long because it tries to cover all the important "
-#~ "things you should know Krita is capable of, and Krita is really powerful. "
-#~ "So this page can also be considered a guide through Krita's most "
-#~ "important functionality. Hopefully, it will help you grasp what buttons "
-#~ "are for, even if you don't know the exact purpose of them."
-#~ msgstr ""
-#~ "Esta página é muito, muito extensa, porque tenta cobrir todos os pontos "
-#~ "importantes que deverá saber que o Krita consegue fazer, e que o Krita é "
-#~ "realmente poderoso. Como tal, esta página também poderá ser considerada "
-#~ "um guia pelas funcionalidades mais importantes do Krita. Felizmente, "
-#~ "ajudá-lo-á a perceber para que servem os botões, mesmo que não perceba o "
-#~ "objectivo exacto deles."
-
-#~ msgid "In Krita, everything which is not on a vector layer is raster based."
-#~ msgstr ""
-#~ "No Krita, tudo o que não seja uma camada vectorial é baseada em "
-#~ "rasterizações."
-
-#~ msgid "Adding a filter in the layer-stack. We discuss these later on."
-#~ msgstr ""
-#~ "Adiciona um filtro na pilha de camadas. Já falaremos sobre elas mais "
-#~ "tarde."

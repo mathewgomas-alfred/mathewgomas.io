@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-03-10 16:40+0000\n"
+"PO-Revision-Date: 2019-05-20 01:11+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en Krita image brushenginetexture images Revoy\n"
-"X-POFile-SpellExtra: versionadded\n"
+"X-POFile-SpellExtra: versionadded brushes\n"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:0
 #, fuzzy
@@ -88,22 +88,15 @@ msgstr "Qual o padrão que irá usar."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:26
 msgid "The size of the pattern. 1.0 is 100%."
-msgstr ""
+msgstr "O tamanho do padrão. O valor 1,0 corresponde a 100%."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:27
 msgid "Scale"
 msgstr "Escala"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:30
-#, fuzzy
-#| msgid ""
-#| "How much a brush is offset, random offset sets a new per stroke. .. "
-#| "image:: /images/en/Krita_2_9_brushengine_texture_04.png"
 msgid "How much a brush is offset, random offset sets a new per stroke."
-msgstr ""
-"Quão desviado se encontra um dado pincel; um deslocamento aleatório cria um "
-"novo desvio em cada traço. .. image:: /images/en/"
-"Krita_2_9_brushengine_texture_04.png"
+msgstr "Quão desviado se encontra um dado pincel; um deslocamento aleatório cria um novo desvio em cada traço."
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:31
 msgid "Horizontal Offset & Vertical Offset"
@@ -215,10 +208,8 @@ msgstr ""
 "diferente, recomenda-se que use valores diferente em cada um deles:"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:69
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
 msgid ".. image:: images/brushes/Krita_3_1_brushengine_texture_07.png"
-msgstr ".. image:: images/en/Krita_3_1_brushengine_texture_07.png"
+msgstr ".. image:: images/brushes/Krita_3_1_brushengine_texture_07.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:72
 msgid "Strength"
@@ -234,10 +225,8 @@ msgstr ""
 "(tornando o resultado mais escuro)"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:77
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_texture_03.png"
-msgstr ".. image:: images/en/Krita_2_9_brushengine_texture_03.png"
+msgstr ".. image:: images/brushes/Krita_2_9_brushengine_texture_03.png"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:80
 msgid ""
@@ -246,14 +235,3 @@ msgid ""
 msgstr ""
 "`O David Revoy a descrever a funcionalidade da textura (antigo) <http://www."
 "davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_"
-
-#, fuzzy
-#~| msgid ""
-#~| "The size of the pattern. 1.0 is 100%. .. image:: /images/en/"
-#~| "Krita_2_9_brushengine_texture_05.png"
-#~ msgid ""
-#~ "The size of the pattern. 1.0 is 100%. .. image:: /images/brushes/"
-#~ "Krita_2_9_brushengine_texture_05.png"
-#~ msgstr ""
-#~ "O tamanho do padrão. 1,0 corresponde a 100%. .. image:: /images/en/"
-#~ "Krita_2_9_brushengine_texture_05.png"

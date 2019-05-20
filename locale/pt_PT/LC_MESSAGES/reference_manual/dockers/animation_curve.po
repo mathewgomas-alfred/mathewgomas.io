@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-18 12:16+0100\n"
+"PO-Revision-Date: 2019-05-19 23:48+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-POFile-SpellExtra: Ghostlinearin Tweening icons Krita guilabel image\n"
 "X-POFile-SpellExtra: Kritamouseleft Ghostlinear gif en Ghostconcavein\n"
 "X-POFile-SpellExtra: Ghosteasein images Ghostconvexint alt out\n"
-"X-POFile-SpellExtra: Animationcurves mouseleft\n"
+"X-POFile-SpellExtra: Animationcurves mouseleft dockers\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -38,10 +38,8 @@ msgid "Animation"
 msgstr "Animação"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
-#, fuzzy
-#| msgid "Animation Curves Docker"
 msgid "Animation Curves"
-msgstr "Área de Curvas da Animação"
+msgstr "Curvas da Animação"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Interpolation"
@@ -49,7 +47,7 @@ msgstr "Interpolação"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Tweening"
-msgstr ""
+msgstr "'Tweening'"
 
 #: ../../reference_manual/dockers/animation_curve.rst:15
 msgid "Animation Curves Docker"
@@ -94,10 +92,8 @@ msgstr ""
 "opção para :guilabel:`Adicionar uma nova imagem-chave`."
 
 #: ../../reference_manual/dockers/animation_curve.rst:25
-#, fuzzy
-#| msgid ".. image:: images/en/Animation_curves_1.png"
 msgid ".. image:: images/dockers/Animation_curves_1.png"
-msgstr ".. image:: images/en/Animation_curves_1.png"
+msgstr ".. image:: images/dockers/Animation_curves_1.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:26
 msgid ""
@@ -114,10 +110,8 @@ msgstr ""
 "quando puder animar mais propriedades."
 
 #: ../../reference_manual/dockers/animation_curve.rst:29
-#, fuzzy
-#| msgid ".. image:: images/en/Animation_curves_2.png"
 msgid ".. image:: images/dockers/Animation_curves_2.png"
-msgstr ".. image:: images/en/Animation_curves_2.png"
+msgstr ".. image:: images/dockers/Animation_curves_2.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:30
 msgid ""
@@ -170,10 +164,8 @@ msgstr ""
 "outra de 0% na imagem 24, irá obter o seguinte resultado:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:44
-#, fuzzy
-#| msgid ".. image:: images/en/Ghost_linear.gif"
 msgid ".. image:: images/dockers/Ghost_linear.gif"
-msgstr ".. image:: images/en/Ghost_linear.gif"
+msgstr ".. image:: images/dockers/Ghost_linear.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:45
 msgid ""
@@ -187,10 +179,8 @@ msgstr ""
 "para este efeito."
 
 #: ../../reference_manual/dockers/animation_curve.rst:48
-#, fuzzy
-#| msgid ".. image:: images/en/Ghost_linear_in-out.gif"
 msgid ".. image:: images/dockers/Ghost_linear_in-out.gif"
-msgstr ".. image:: images/en/Ghost_linear_in-out.gif"
+msgstr ".. image:: images/dockers/Ghost_linear_in-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:49
 msgid ""
@@ -208,16 +198,12 @@ msgstr ""
 "adicionar uma pega, sobre a qual poderá aplicar os seguintes efeitos:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:52
-#, fuzzy
-#| msgid ".. image:: images/en/Ghost_ease_in-out.gif"
 msgid ".. image:: images/dockers/Ghost_ease_in-out.gif"
-msgstr ".. image:: images/en/Ghost_ease_in-out.gif"
+msgstr ".. image:: images/dockers/Ghost_ease_in-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:54
-#, fuzzy
-#| msgid ".. image:: images/en/Animation_curves_3.png"
 msgid ".. image:: images/dockers/Animation_curves_3.png"
-msgstr ".. image:: images/en/Animation_curves_3.png"
+msgstr ".. image:: images/dockers/Animation_curves_3.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:55
 msgid "The above shows an ease-in curve."
@@ -228,28 +214,20 @@ msgid "And convex/concave examples:"
 msgstr "E exemplos convexos/côncavos:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:60
-#, fuzzy
-#| msgid ".. image:: images/en/Ghost_concave_in-out.gif"
 msgid ".. image:: images/dockers/Ghost_concave_in-out.gif"
-msgstr ".. image:: images/en/Ghost_concave_in-out.gif"
+msgstr ".. image:: images/dockers/Ghost_concave_in-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:62
-#, fuzzy
-#| msgid ".. image:: images/en/Animation_curves_4.png"
 msgid ".. image:: images/dockers/Animation_curves_4.png"
-msgstr ".. image:: images/en/Animation_curves_4.png"
+msgstr ".. image:: images/dockers/Animation_curves_4.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:64
-#, fuzzy
-#| msgid ".. image:: images/en/Ghost_convex_int-out.gif"
 msgid ".. image:: images/dockers/Ghost_convex_int-out.gif"
-msgstr ".. image:: images/en/Ghost_convex_int-out.gif"
+msgstr ".. image:: images/dockers/Ghost_convex_int-out.gif"
 
 #: ../../reference_manual/dockers/animation_curve.rst:66
-#, fuzzy
-#| msgid ".. image:: images/en/Animation_curves_5.png"
 msgid ".. image:: images/dockers/Animation_curves_5.png"
-msgstr ".. image:: images/en/Animation_curves_5.png"
+msgstr ".. image:: images/dockers/Animation_curves_5.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:67
 msgid ""

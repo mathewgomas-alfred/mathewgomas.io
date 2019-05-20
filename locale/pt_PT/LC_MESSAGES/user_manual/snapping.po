@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-10 11:03+0100\n"
+"PO-Revision-Date: 2019-05-19 23:12+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: node en extension orthogonal Krita Scribus kbd Snap\n"
-"X-POFile-SpellExtra: images intersection image\n"
+"X-POFile-SpellExtra: images intersection image px snapping\n"
 
 #: ../../user_manual/snapping.rst:1
 msgid "How to use the snapping functionality in Krita."
@@ -97,7 +97,7 @@ msgstr "Pixel"
 msgid ""
 "This allows to snap to every pixel under the cursor. Similar to Grid "
 "Snapping but with a grid having spacing = 1px and offset = 0px."
-msgstr ""
+msgstr "Isto permite ajustar a qualquer pixel debaixo do cursor. É semelhante ao Ajuste à Grelha mas com uma grelha que tem um espaço = 1px e um deslocamento = 0px."
 
 #: ../../user_manual/snapping.rst:40
 msgid ""
@@ -113,10 +113,8 @@ msgstr ""
 "trabalho mais intensivo."
 
 #: ../../user_manual/snapping.rst:46
-#, fuzzy
-#| msgid ".. image:: images/en/Snap-orthogonal.png"
 msgid ".. image:: images/snapping/Snap-orthogonal.png"
-msgstr ".. image:: images/en/Snap-orthogonal.png"
+msgstr ".. image:: images/snapping/Snap-orthogonal.png"
 
 #: ../../user_manual/snapping.rst:48
 msgid ""
@@ -136,10 +134,8 @@ msgid "Orthogonal (Vector Only)"
 msgstr "Ortogonal (Apenas Vectorial)"
 
 #: ../../user_manual/snapping.rst:55
-#, fuzzy
-#| msgid ".. image:: images/en/Snap-node.png"
 msgid ".. image:: images/snapping/Snap-node.png"
-msgstr ".. image:: images/en/Snap-node.png"
+msgstr ".. image:: images/snapping/Snap-node.png"
 
 #: ../../user_manual/snapping.rst:57
 msgid "Node (Vector Only)"
@@ -151,10 +147,8 @@ msgstr ""
 "Isto ajusta um nó vectorial ou um objecto para os nós de outro caminho."
 
 #: ../../user_manual/snapping.rst:60
-#, fuzzy
-#| msgid ".. image:: images/en/Snap-extension.png"
 msgid ".. image:: images/snapping/Snap-extension.png"
-msgstr ".. image:: images/en/Snap-extension.png"
+msgstr ".. image:: images/snapping/Snap-extension.png"
 
 #: ../../user_manual/snapping.rst:62
 msgid ""
@@ -172,10 +166,8 @@ msgid "Extension (Vector Only)"
 msgstr "Extensão (Apenas Vectorial)"
 
 #: ../../user_manual/snapping.rst:68
-#, fuzzy
-#| msgid ".. image:: images/en/Snap-intersection.png"
 msgid ".. image:: images/snapping/Snap-intersection.png"
-msgstr ".. image:: images/en/Snap-intersection.png"
+msgstr ".. image:: images/snapping/Snap-intersection.png"
 
 #: ../../user_manual/snapping.rst:69
 msgid "Intersection (Vector Only)"

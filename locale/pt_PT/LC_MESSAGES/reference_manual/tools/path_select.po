@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-03-10 16:40+0000\n"
+"PO-Revision-Date: 2019-05-20 00:58+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: toolselectpath icons image Kritamouseleft\n"
 "X-POFile-SpellExtra: selectionsbasics kbd generalsettings pathselecttool\n"
-"X-POFile-SpellExtra: Bézier images alt ref mouseleft\n"
+"X-POFile-SpellExtra: Bézier images alt ref mouseleft guilabel mouseright\n"
+"X-POFile-SpellExtra: Kritamouseright\n"
 
 #: ../../<generated>:1
 msgid "Activate Angle Snap"
@@ -62,11 +63,11 @@ msgstr "Vector"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Path"
-msgstr ""
+msgstr "Caminho"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Bezier Curve"
-msgstr ""
+msgstr "Curva Bézier"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Pen"
@@ -150,25 +151,22 @@ msgstr ""
 
 #: ../../reference_manual/tools/path_select.rst:37
 msgid "Hovering over a selection allows you to move it."
-msgstr ""
+msgstr "Se passar o cursor sobre uma selecção permitir-lhe-á movê-la."
 
 #: ../../reference_manual/tools/path_select.rst:38
 msgid ""
 "|mouseright| will open up a selection quick menu with amongst others the "
 "ability to edit the selection."
-msgstr ""
+msgstr "Se usar o |mouseright|, irá abrir um menu de selecção rápida que, entre outras coisas, terá a possibilitar de editar a selecção."
 
 #: ../../reference_manual/tools/path_select.rst:43
-#, fuzzy
 #| msgid ""
 #| "You can switch the behaviour of the :kbd:`Alt` key to use :kbd:`Ctrl` "
 #| "instead by toggling the switch in the :ref:`general_settings`"
 msgid ""
 "You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead "
 "by toggling the switch in the :ref:`general_settings`"
-msgstr ""
-"Poderá mudar o comportamento da tecla :kbd:`Alt` para usar como alternativa "
-"o :kbd:`Ctrl`, comutando o interruptor na :ref:`general_settings`"
+msgstr "Poderá mudar o comportamento da tecla :kbd:`Alt` para usar como alternativa o :kbd:`Ctrl`, comutando o interruptor na :ref:`general_settings`"
 
 #: ../../reference_manual/tools/path_select.rst:46
 msgid "Tool Options"
@@ -221,9 +219,3 @@ msgstr ""
 "ângulo específico face à actual. O ângulo é definido pelo :guilabel:`Delta "
 "de Ajuste do Ângulo`."
 
-#~ msgid ""
-#~ "Selection modifiers don't quite work yet with the path tool, as :kbd:"
-#~ "`Shift` breaks the path"
-#~ msgstr ""
-#~ "Os modificadores da selecção ainda não funcionam muito bem com a "
-#~ "ferramenta do caminho, dado que o :kbd:`Shift` quebra o caminho"

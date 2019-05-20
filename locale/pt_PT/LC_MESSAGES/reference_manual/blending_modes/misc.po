@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-02-25 16:09+0000\n"
+"PO-Revision-Date: 2019-05-19 23:48+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-POFile-SpellExtra: BlendingmodesCopyBlueSampleimagewithdots\n"
 "X-POFile-SpellExtra: blendingmodes images\n"
 "X-POFile-SpellExtra: BlendingmodesCopyRedSampleimagewithdots\n"
-"X-POFile-SpellExtra: KritaFilterlayerinvertgreenchannel\n"
+"X-POFile-SpellExtra: KritaFilterlayerinvertgreenchannel misc\n"
 
 #: ../../reference_manual/blending_modes/misc.rst:1
 msgid ""
@@ -39,7 +39,7 @@ msgstr "Diversos"
 
 #: ../../reference_manual/blending_modes/misc.rst:17
 msgid "Bumpmap (Blending Mode)"
-msgstr ""
+msgstr "Mapa de Relevo (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/misc.rst:21
 msgid "Bumpmap"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:34
 msgid "Copy (Blending Mode)"
-msgstr ""
+msgstr "Cópia (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -86,16 +86,10 @@ msgstr ""
 "de filtragem."
 
 #: ../../reference_manual/blending_modes/misc.rst:46
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Copy_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/Blending_modes_Copy_Sample_image_with_dots."
-"png"
+msgstr ".. image:: images/blending_modes/misc/Blending_modes_Copy_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid "Left: **Normal**. Right: **Copy**."
@@ -136,15 +130,10 @@ msgstr ""
 "modo de mistura para 'copiar o vermelho'."
 
 #: ../../reference_manual/blending_modes/misc.rst:65
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel."
-#| "png"
 msgid ""
 ".. image:: images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel."
 "png"
-msgstr ""
-".. image:: images/blending_modes/Krita_Filter_layer_invert_greenchannel.png"
+msgstr ".. image:: images/blending_modes/misc/Krita_Filter_layer_invert_greenchannel.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid "The copy red, green and blue blending modes also work on filter-layers."
@@ -163,48 +152,30 @@ msgstr ""
 "filtragem de inversão com o 'copiar o verde' por cima."
 
 #: ../../reference_manual/blending_modes/misc.rst:72
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Copy_Red_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Red_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Copy_Red_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/misc/Blending_modes_Copy_Red_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid "Left: **Normal**. Right: **Copy Red**."
 msgstr "Esquerda: **Normal**. Direita: **Copiar o Vermelho**."
 
 #: ../../reference_manual/blending_modes/misc.rst:78
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Copy_Green_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Green_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Copy_Green_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/misc/Blending_modes_Copy_Green_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid "Left: **Normal**. Right: **Copy Green**."
 msgstr "Esquerda: **Normal**. Direita: **Copiar o Verde**."
 
 #: ../../reference_manual/blending_modes/misc.rst:84
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/misc/"
 "Blending_modes_Copy_Blue_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Copy_Blue_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/misc/Blending_modes_Copy_Blue_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid "Left: **Normal**. Right: **Copy Blue**."
@@ -225,16 +196,10 @@ msgstr ""
 "espécie de transparência."
 
 #: ../../reference_manual/blending_modes/misc.rst:97
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Dissolve_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/misc/"
 "Blending_modes_Dissolve_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Dissolve_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/misc/Blending_modes_Dissolve_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid "Left: **Normal**. Right: **Dissolve**."

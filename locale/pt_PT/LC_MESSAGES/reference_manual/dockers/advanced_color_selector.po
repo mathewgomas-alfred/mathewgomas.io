@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-04-18 12:06+0100\n"
+"PO-Revision-Date: 2019-05-20 00:38+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,7 +19,8 @@ msgstr ""
 "X-POFile-SpellExtra: en MyPaint menuselection jpg images Rec Hue\n"
 "X-POFile-SpellExtra: Saturation HSI HSL Advancecolorselector HSX HSY\n"
 "X-POFile-SpellExtra: Lightness Coefficients Luma Value RFB kbd Krita\n"
-"X-POFile-SpellExtra: KritaColorSelectorTypes Intensity sRGB image\n"
+"X-POFile-SpellExtra: KritaColorSelectorTypes Intensity sRGB image dockers\n"
+"X-POFile-SpellExtra: ref gamutmaskdocker\n"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:1
 msgid "Overview of the advanced color selector docker."
@@ -40,10 +41,8 @@ msgid "Color"
 msgstr "Cor"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:20
-#, fuzzy
-#| msgid ".. image:: images/en/Advancecolorselector.jpg"
 msgid ".. image:: images/dockers/Advancecolorselector.jpg"
-msgstr ".. image:: images/en/Advancecolorselector.jpg"
+msgstr ".. image:: images/dockers/Advancecolorselector.jpg"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:21
 msgid ""
@@ -67,28 +66,21 @@ msgid "Here you configure the main selector."
 msgstr "Aqui poderá configurar o selector principal."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:28
-#, fuzzy
-#| msgid "Color Selector"
 msgid "Show Color Selector"
-msgstr "Selecção de Cores"
+msgstr "Mostrar o Selector de Cores"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:31
-#, fuzzy
-#| msgid "This allows you to configure the simple shade selector in detail."
 msgid ""
 "This allows you to configure whether to show or hide the main color selector."
-msgstr ""
-"Isto permite-lhe configurar o selector de sombras simples com mais detalhe."
+msgstr "Isto permite-lhe configurar se deve mostrar ou esconder o selector de cores principal."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:34
 msgid "Type and Shape"
 msgstr "Tipo e Forma"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:37
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Color_Selector_Types.png"
 msgid ".. image:: images/dockers/Krita_Color_Selector_Types.png"
-msgstr ".. image:: images/en/Krita_Color_Selector_Types.png"
+msgstr ".. image:: images/dockers/Krita_Color_Selector_Types.png"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:38
 msgid ""
@@ -482,24 +474,24 @@ msgstr ""
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:158
 msgid "Gamut masking"
-msgstr ""
+msgstr "Máscara do gamute"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:164
 msgid ""
 "Gamut masking is available only when the selector shape is set to wheel."
-msgstr ""
+msgstr "A máscara do gamute só está disponível quando a forma do selector for a roda."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:166
 msgid ""
 "You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
-msgstr ""
+msgstr "Poderá seleccionar e gerir as suas máscaras de gamute no :ref:`gamut_mask_docker`."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:168
 msgid ""
 "In the gamut masking toolbar at the top of the selector you can toggle the "
 "selected mask off and on (left button). You can also rotate the mask with "
 "the rotation slider (right)."
-msgstr ""
+msgstr "Na barra de máscara do gamute, no topo do selector, poderá activar e desactivar a máscara seleccionada (botão esquerdo). Também poderá rodar a máscara com a barra de rotação (direita)."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:173
 msgid "External Info"

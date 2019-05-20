@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-03-30 15:59+0000\n"
+"PO-Revision-Date: 2019-05-20 00:36+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -32,23 +32,27 @@ msgstr ""
 "X-POFile-SpellExtra: BlendingmodesPinLightLightblueandOrange bmlinearburn\n"
 "X-POFile-SpellExtra: BlendingmodesSoftLightPhotoshopSampleimagewithdots\n"
 "X-POFile-SpellExtra: BlendingmodesColorDodgeSampleimagewithdots\n"
-"X-POFile-SpellExtra: BlendingmodesLightenSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesLightenSampleimagewithdots Illusions\n"
+"X-POFile-SpellExtra: Aclaramento IFS NormASampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesSoftLightIFSSampleimagewithdots lighten\n"
+"X-POFile-SpellExtra: Pegtop BlendingmodesFlatLightSampleimagewithdots\n"
+"X-POFile-SpellExtra: Delphi\n"
+"X-POFile-SpellExtra: BlendingmodesSoftLightPEGTOPSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesP\n"
+"X-POFile-SpellExtra: BlendingmodesFogLightSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesGammaIlluminationSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesEasyDodgeSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesTintSampleimagewithdots\n"
+"X-POFile-SpellExtra: NormBSampleimagewithdots Norm\n"
+"X-POFile-SpellExtra: BlendingmodesSuperLightSampleimagewithdots\n"
 
 #: ../../reference_manual/blending_modes/lighten.rst:1
-#, fuzzy
-#| msgid ""
-#| "Page about the lighten blending modes in Krita: Color Dodge, Gamma Light, "
-#| "Hard Light, Lighten, Lighter Color, Linear Dodge, Linear Light, Pin "
-#| "Light, Screen, Soft Light and Vivid Light."
 msgid ""
 "Page about the lighten blending modes in Krita: Color Dodge, Gamma "
 "Illumination, Gamma Light, Easy Dodge, Flat Light, Fog Lighten, Hard Light, "
 "Lighten, Lighter Color, Linear Dodge, Linear Light, P-Norm A, P-Norm B, Pin "
 "Light, Screen, Soft Light, Tint and Vivid Light."
-msgstr ""
-"Página sobre os modos de mistura por aclaramento no Krita: Desvio de Cores, "
-"Gama da Luz, Luz Forte, Aclarar, Cor Mais Clara, Desvio Linear, Luz Linear, "
-"Luz Pontual, Ecrã, Luz Suave e Luz Viva."
+msgstr "Página sobre os modos de mistura por aclaramento no Krita: Desvio de Cores, Gama da Luz, Luz Forte, Aclarar, Cor Mais Clara, Desvio Linear, Luz Linear, P-Norm A, P-Norm B, Luz Pontual, Ecrã, Luz Suave e Luz Viva."
 
 #: ../../reference_manual/blending_modes/lighten.rst:16
 #: ../../reference_manual/blending_modes/lighten.rst:83
@@ -80,16 +84,10 @@ msgstr ""
 "salas escuras."
 
 #: ../../reference_manual/blending_modes/lighten.rst:33
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Color_Dodge_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Color_Dodge_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Color_Dodge_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Color_Dodge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:33
 msgid "Left: **Normal**. Right: **Color Dodge**."
@@ -102,23 +100,15 @@ msgstr "Iluminação do Gama"
 
 #: ../../reference_manual/blending_modes/lighten.rst:41
 msgid "Inverted Gamma Dark blending mode."
-msgstr ""
+msgstr "Modo de mistura escuro por Gama Invertido."
 
 #: ../../reference_manual/blending_modes/lighten.rst:46
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Gamma_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Gamma_Illumination_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Gamma_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Gamma_Illumination_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:46
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Gamma Light**."
 msgid "Left: **Normal**. Right: **Gamma Illumination**."
 msgstr "Esquerda: **Normal**. Direita: **Gama da Iluminação**."
 
@@ -132,16 +122,10 @@ msgid "Outputs the upper layer as power of the lower layer."
 msgstr "Devolve a camada superior como uma potência da camada inferior."
 
 #: ../../reference_manual/blending_modes/lighten.rst:60
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Gamma_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Gamma_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Gamma_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Gamma_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:60
 msgid "Left: **Normal**. Right: **Gamma Light**."
@@ -176,16 +160,10 @@ msgid "Effectively, this decreases contrast."
 msgstr "Efectivamente, isto reduz o contraste."
 
 #: ../../reference_manual/blending_modes/lighten.rst:78
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Hard_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Hard_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Hard_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Hard_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:78
 msgid "Left: **Normal**. Right: **Hard Light**."
@@ -202,16 +180,10 @@ msgstr ""
 "inferior é que ficarão visíveis."
 
 #: ../../reference_manual/blending_modes/lighten.rst:90
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Lighten_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Lighten_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Lighten_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Lighten_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:90
 msgid "Left: **Normal**. Right: **Lighten**."
@@ -222,16 +194,10 @@ msgid "Lighter Color"
 msgstr "Cor Mais Clara"
 
 #: ../../reference_manual/blending_modes/lighten.rst:100
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Lighter_Color_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Lighter_Color_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Lighter_Color_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Lighter_Color_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:100
 msgid "Left: **Normal**. Right: **Lighter Color**."
@@ -250,16 +216,10 @@ msgid "Put in for compatibility purposes."
 msgstr "Existe por questões de compatibilidade."
 
 #: ../../reference_manual/blending_modes/lighten.rst:115
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:115
 msgid ""
@@ -277,25 +237,17 @@ msgid ""
 "Aims to solve issues with Color Dodge blending mode by using a formula which "
 "falloff is similar to Dodge, but the falloff rate is softer. It is within "
 "the range of 0.0f and 1.0f unlike Color Dodge mode."
-msgstr ""
+msgstr "Pretende resolver problemas com o modo de mistura por Desvio de Cor, usando uma fórmula cujo corte é semelhante ao Desvio de Cor, mas com uma taxa mais suave. Está dentro do intervalo de 0,0f e 1,0f, ao contrário do modo de Desvio de Cor."
 
 #: ../../reference_manual/blending_modes/lighten.rst:127
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Easy_Dodge_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Dodge_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Easy_Dodge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:127
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Color Dodge**."
 msgid "Left: **Normal**. Right: **Easy Dodge**."
-msgstr "Esquerda: **Normal**. Direita: **Desvio de Cor**."
+msgstr "Esquerda: **Normal**. Direita: **Desvio Simples**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:132
 msgid "Flat Light"
@@ -305,25 +257,17 @@ msgstr "Luz Plana"
 msgid ""
 "The spreadout variation of Vivid Light mode which range is between 0.0f and "
 "1.0f."
-msgstr ""
+msgstr "A variação da dispersão do modo de Luz Viva, cujo intervalo está entre 0,0f e 1,0f."
 
 #: ../../reference_manual/blending_modes/lighten.rst:139
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Hard_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Flat_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Hard_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Flat_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:139
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Hard Light**."
 msgid "Left: **Normal**. Right: **Flat Light**."
-msgstr "Esquerda: **Normal**. Direita: **Luz Forte**."
+msgstr "Esquerda: **Normal**. Direita: **Luz Plana**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:144
 msgid "Fog Lighten (IFS Illusions)"
@@ -334,25 +278,17 @@ msgid ""
 "Lightens the image in a way that there is a 'fog' in the end result. This is "
 "due to the unique property of fog lighten in which midtones combined are "
 "lighter than non-midtones blend."
-msgstr ""
+msgstr "Aclara a imagem de uma forma em que existe uma 'névoa' no resultado final. Isto deve-se à propriedade única do aclaramento por névoa, onde os tons intermédios combinados são mais claros que tons não-intermédios misturados."
 
 #: ../../reference_manual/blending_modes/lighten.rst:151
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Pin_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Fog_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Pin_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Fog_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:151
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Lighten**."
 msgid "Left: **Normal**. Right: **Fog Lighten**."
-msgstr "Esquerda: **Normal**. Direita: **Aclarar**."
+msgstr "Esquerda: **Normal**. Direita: **Aclaramento por Névoa**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:156
 msgid "Linear Light"
@@ -373,16 +309,10 @@ msgstr ""
 "contrário, aplica a Queimadura linear para misturar os pixels."
 
 #: ../../reference_manual/blending_modes/lighten.rst:165
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Linear_Light_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:165
 #: ../../reference_manual/blending_modes/lighten.rst:170
@@ -391,28 +321,16 @@ msgid "Left: **Normal**. Right: **Linear Light**."
 msgstr "Esquerda: **Normal**. Direita: **Luz Linear**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:170
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Light_Light_blue_and_Orange.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Linear_Light_Light_blue_and_Orange.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Light_Light_blue_and_Orange.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Linear_Light_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:175
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Linear_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Linear_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:180
 msgid "P-Norm A"
@@ -423,25 +341,17 @@ msgid ""
 "P-Norm A is similar to Screen blending mode which slightly darken images, "
 "and the falloff is more consistent all-around in terms of outline of values. "
 "Can be used an alternative to screen blending mode at times."
-msgstr ""
+msgstr "O P-Norm A é semelhante ao modo de Ecrã, o qual escurece ligeiramente as imagens, sendo que a queda é mais consistente em termos da fronteira dos valores. Pode ser usada como uma alternativa ao modo de mistura Ecrã em alguns casos."
 
 #: ../../reference_manual/blending_modes/lighten.rst:187
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Screen_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/Blending_modes_P-"
 "Norm_A_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Screen_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_P-Norm_A_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:187
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Screen**."
 msgid "Left: **Normal**. Right: **P-Norm A**."
-msgstr "Esquerda: **Normal**. Direita: **Ecrã**."
+msgstr "Esquerda: **Normal**. Direita: **P-Norm A**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:192
 msgid "P-Norm B"
@@ -453,25 +363,17 @@ msgid ""
 "and the falloff is more consistent all-around in terms of outline of values. "
 "The falloff is sharper in P-Norm B than in P-Norm A. Can be used an "
 "alternative to screen blending mode at times."
-msgstr ""
+msgstr "O P-Norm B é semelhante ao modo de Ecrã, o qual escurece ligeiramente as imagens, sendo que a queda é mais consistente em termos da fronteira dos valores. A queda é mais forte no P-Norm B que no P-Norm A. Pode ser usada como uma alternativa ao modo de mistura Ecrã em alguns casos."
 
 #: ../../reference_manual/blending_modes/lighten.rst:199
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Screen_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/Blending_modes_P-"
 "Norm_B_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Screen_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_P-Norm_B_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:199
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Screen**."
 msgid "Left: **Normal**. Right: **P-Norm B**."
-msgstr "Esquerda: **Normal**. Direita: **Ecrã**."
+msgstr "Esquerda: **Normal**. Direita: **P-Norm B**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:204
 msgid "Pin Light"
@@ -488,16 +390,10 @@ msgstr ""
 "inversão da camada inferior em dobro."
 
 #: ../../reference_manual/blending_modes/lighten.rst:212
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Pin_Light_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:212
 #: ../../reference_manual/blending_modes/lighten.rst:217
@@ -506,28 +402,16 @@ msgid "Left: **Normal**. Right: **Pin Light**."
 msgstr "Esquerda: **Normal**. Direita: **Luz Pontual**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:217
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Pin_Light_Light_blue_and_Orange.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Pin_Light_Light_blue_and_Orange.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Pin_Light_Light_blue_and_Orange.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Pin_Light_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:222
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Pin_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Pin_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Pin_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Pin_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:227
 msgid "Screen"
@@ -553,16 +437,10 @@ msgstr ""
 "mais transparentes."
 
 #: ../../reference_manual/blending_modes/lighten.rst:238
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png"
-msgstr ""
-".. image:: images/blending_modes/Blending_modes_Screen_Gray_0.4_and_Gray_0.5."
-"png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Screen_Gray_0.4_and_Gray_0.5.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:238
 #: ../../reference_manual/blending_modes/lighten.rst:243
@@ -571,28 +449,16 @@ msgid "Left: **Normal**. Right: **Screen**."
 msgstr "Esquerda: **Normal**. Direita: **Ecrã**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:243
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Screen_Light_blue_and_Orange.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Screen_Light_blue_and_Orange.png"
-msgstr ""
-".. image:: images/blending_modes/Blending_modes_Screen_Light_blue_and_Orange."
-"png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Screen_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:248
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Screen_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Screen_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Screen_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Screen_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:253
 msgid "Soft Light (Photoshop) & Soft Light SVG"
@@ -619,42 +485,28 @@ msgstr ""
 "aumente."
 
 #: ../../reference_manual/blending_modes/lighten.rst:262
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Soft_Light_Photoshop_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:262
 msgid "Left: **Normal**. Right: **Soft Light (Photoshop)**."
 msgstr "Esquerda: **Normal**. Direita: **Luz Suave (Photoshop)**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:268
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:268
 msgid "Left: **Normal**. Right: **Soft Light (SVG)**."
 msgstr "Esquerda: **Normal**. Direita: **Luz Suave (SVG)**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:271
-#, fuzzy
-#| msgid "Soft Light (Photoshop) & Soft Light SVG"
 msgid "Soft Light (IFS Illusions) & Soft Light (Pegtop-Delphi)"
-msgstr "Luz Suave (Photoshop) & Luz Suave SVG"
+msgstr "Luz Suave (IFS Illusions) & Luz Suave (Pegtop-Delphi)"
 
 #: ../../reference_manual/blending_modes/lighten.rst:273
 msgid ""
@@ -663,43 +515,27 @@ msgid ""
 "modes offer subtle advantages by offering more contrast within some areas, "
 "and these advantages are more or less noticeable within different color "
 "spaces and depth."
-msgstr ""
+msgstr "Estas são versões alternativas dos modos de luz suave normais, os quais são criados para resolver as descontinuidades visíveis nos modos de mistura padrão. Em alguns casos, estes modos oferecem ligeiras vantagens através da oferta de mais contraste em algumas áreas, sendo essas vantagens mais ou menos notórias dentro de diferentes espaços e profundidades de cores."
 
 #: ../../reference_manual/blending_modes/lighten.rst:278
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Soft_Light_IFS_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Soft_Light_IFS_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:278
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Soft Light (SVG)**."
 msgid "Left: **Normal**. Right: **Soft Light (IFS Illusions)**."
-msgstr "Esquerda: **Normal**. Direita: **Luz Suave (SVG)**."
+msgstr "Esquerda: **Normal**. Direita: **Luz Suave (IFS Illusions)**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:284
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Soft_Light_PEGTOP_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Soft_Light_SVG_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Soft_Light_PEGTOP_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:284
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Soft Light (Photoshop)**."
 msgid "Left: **Normal**. Right: **Soft Light (Pegtop-Delphi)**."
-msgstr "Esquerda: **Normal**. Direita: **Luz Suave (Photoshop)**."
+msgstr "Esquerda: **Normal**. Direita: **Luz Suave (Pegtop-Delphi)**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:289
 msgid "Super Light"
@@ -708,25 +544,17 @@ msgstr "Super-Luz"
 #: ../../reference_manual/blending_modes/lighten.rst:291
 msgid ""
 "Smoother variation of Hard Light blending mode with more contrast in it."
-msgstr ""
+msgstr "Uma variação mais suave do modo de mistura por Luz Forte, com mais contraste nela."
 
 #: ../../reference_manual/blending_modes/lighten.rst:296
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Linear_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Super_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Linear_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Super_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:296
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Linear Light**."
 msgid "Left: **Normal**. Right: **Super Light**."
-msgstr "Esquerda: **Normal**. Direita: **Luz Linear**."
+msgstr "Esquerda: **Normal**. Direita: **Super Luz**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:301
 msgid "Tint (IFS Illusions)"
@@ -736,25 +564,17 @@ msgstr "Pintura (Ilusões IFS)"
 msgid ""
 "Basically, the blending mode only ends in shades of tints. This means that "
 "it's very useful for painting light colors while still in the range of tints."
-msgstr ""
+msgstr "Basicamente, o modo de misutura só termina nos tons das cores. Isto significa que é muito útil para pintar cores claras enquanto se mantém na gama de tintas escolhida."
 
 #: ../../reference_manual/blending_modes/lighten.rst:308
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Pin_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Tint_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Pin_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Tint_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:308
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Pin Light**."
 msgid "Left: **Normal**. Right: **Tint**."
-msgstr "Esquerda: **Normal**. Direita: **Luz Pontual**."
+msgstr "Esquerda: **Normal**. Direita: **Pintura**."
 
 #: ../../reference_manual/blending_modes/lighten.rst:313
 msgid "Vivid Light"
@@ -784,16 +604,10 @@ msgstr ""
 "`bm_hard_mix`"
 
 #: ../../reference_manual/blending_modes/lighten.rst:326
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Vivid_Light_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/lighten/"
 "Blending_modes_Vivid_Light_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Vivid_Light_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/lighten/Blending_modes_Vivid_Light_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/lighten.rst:326
 msgid "Left: **Normal**. Right: **Vivid Light**."

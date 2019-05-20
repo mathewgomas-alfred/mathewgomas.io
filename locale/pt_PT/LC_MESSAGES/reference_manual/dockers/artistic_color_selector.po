@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-04-18 12:15+0100\n"
+"PO-Revision-Date: 2019-05-20 01:09+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en KritaArtisticColorSelectorDocker icons image\n"
 "X-POFile-SpellExtra: Kritamouseleft Kritamouseright images alt mouseright\n"
-"X-POFile-SpellExtra: mouseleft\n"
+"X-POFile-SpellExtra: mouseleft dockers colormodels ref gamutmaskdocker\n"
+"X-POFile-SpellExtra: Luma\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -53,30 +54,24 @@ msgid "Artistic Color Selector"
 msgstr "Selecção de Cores Artística"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:17
-#, fuzzy
-#| msgid "Artist Color Selector Docker"
 msgid "Artistic Color Selector Docker"
 msgstr "Área do Selector de Cores Artísticas"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:19
 msgid "A color selector inspired by traditional color wheel and workflows."
-msgstr ""
+msgstr "Um selector de cores inspirado na roda de cores tradicional e nos seus procedimentos associados."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:22
 msgid "Usage"
 msgstr "Utilização"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:26
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
 msgid ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker.png"
-msgstr ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:26
-#, fuzzy
-#| msgid "Artist Color Selector Docker"
 msgid "Artistic color selector with a gamut mask"
-msgstr "Área do Selector de Cores Artísticas"
+msgstr "Área do selector de cores artísticas com uma máscara de gamute"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:28
 msgid ""
@@ -107,7 +102,7 @@ msgstr ""
 #: ../../reference_manual/dockers/artistic_color_selector.rst:37
 msgid ""
 "You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
-msgstr ""
+msgstr "Poderá seleccionar e gerir as suas máscaras de gamute no :ref:`gamut_mask_docker`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:39
 msgid ""
@@ -121,10 +116,8 @@ msgid "Color wheel preferences"
 msgstr "Preferências da roda de cores"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:50
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
 msgid ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_3.png"
-msgstr ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_3.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:53
 msgid "Sliders 1, 2, and 3"
@@ -174,10 +167,8 @@ msgid "Selector settings"
 msgstr ""
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:72
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
 msgid ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_2.png"
-msgstr ".. image:: images/en/Krita_Artistic_Color_Selector_Docker.png"
+msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_2.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:72
 msgid "Selector settings menu"
@@ -206,24 +197,18 @@ msgid ""
 msgstr ""
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:81
-#, fuzzy
-#| msgid ""
-#| "Set the color model used by the selector, as well as the amount of "
-#| "segments."
 msgid ""
 "Set the color model used by the selector. For detailed information on color "
 "models, see :ref:`color_models`."
-msgstr ""
-"Define o modelo de cores usado pelo selector, assim como a quantidade de "
-"segmentos."
+msgstr "Define o modelo de cores usado pelo selector. Para informações mais detalhadas sobre os modelos de cores, veja em :ref:`color_models`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:84
 msgid "Color Space (2)"
-msgstr ""
+msgstr "Espaço de Cores (2)"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:84
 msgid "Luma Coefficients (3)"
-msgstr ""
+msgstr "Coeficientes de Luma (3)"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:84
 msgid ""
@@ -270,44 +255,3 @@ msgid ""
 "com/2010/02/color-wheel-part-7.html>`_"
 msgstr ""
 
-#~ msgid ""
-#~ "A round selector that tries to give you the tools to select colors ramps "
-#~ "efficiently."
-#~ msgstr ""
-#~ "Um selector redondo que lhe tenta dar as ferramentas para seleccionar as "
-#~ "rampas de cores de forma mais eficiente."
-
-#~ msgid "Preference"
-#~ msgstr "Preferência"
-
-#~ msgid "Reset"
-#~ msgstr "Reiniciar"
-
-#~ msgid "Reset the selector to a default stage."
-#~ msgstr "Repor o selector numa etapa predefinida."
-
-#~ msgid "Absolute"
-#~ msgstr "Absoluto"
-
-#~ msgid ""
-#~ "This changes the algorithm around so it gives proper values for the gray. "
-#~ "Without absolute, it'll use HSV values for gray to the corresponding hue "
-#~ "and lightness."
-#~ msgstr ""
-#~ "Isto altera o algoritmo em todo o lado, para que possa devolver valores "
-#~ "adequados para os cinzentos. Sem o modo absoluto, irá usar os valores HSV "
-#~ "para o cinzento com o tom (matiz) e luminosidade."
-
-#~ msgid ""
-#~ "|mouseleft| the swatches to change the foreground color. Use |mouseright| "
-#~ "+ Drag to shift the alignment of the selector swatches within a specific "
-#~ "saturation ring. Use |mouseleft| + Drag to shift the alignment of all "
-#~ "swatches."
-#~ msgstr ""
-#~ "Use o |mouseleft| nas áreas para mudar a cor principal. Use o |"
-#~ "mouseright| + arrastamento para desviar o alinhamento das áreas do "
-#~ "selector dentro de um dado anel de saturação. Use o |mouseleft| + "
-#~ "arrastamento para desviar o alinhamento de todas as barras."
-
-#~ msgid "This selector does not update on change of foreground color."
-#~ msgstr "Este selector não actualiza em caso de mudança da cor principal."

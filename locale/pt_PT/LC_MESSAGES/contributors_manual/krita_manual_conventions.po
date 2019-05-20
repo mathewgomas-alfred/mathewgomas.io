@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-17 03:25+0200\n"
-"PO-Revision-Date: 2019-04-01 14:27+0100\n"
+"PO-Revision-Date: 2019-05-20 00:02+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -23,8 +23,9 @@ msgstr ""
 "X-POFile-SpellExtra: Bugzilla Wolthera rst seealso Krita Kritamousescroll\n"
 "X-POFile-SpellExtra: reStructuredText mousescroll Kritamouseright Topic\n"
 "X-POFile-SpellExtra: url bugzilla alternativ mousemiddle Sourceforge GDL\n"
-"X-POFile-SpellExtra: backticks mouseleft en Pandoc\n"
+"X-POFile-SpellExtra: backticks mouseleft en Pandoc width align admonition\n"
 "X-POFile-IgnoreConsistency: Table\n"
+"X-POFile-SpellExtra: description center\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -59,15 +60,11 @@ msgstr ""
 "   :alt: deslocamento do rato"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:0
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/en/sample.png\n"
-#| "   :alt: an image."
 msgid ""
 ".. image:: images/sample.png\n"
 "   :alt: an image."
 msgstr ""
-".. image:: images/en/sample.png\n"
+".. image:: images/sample.png\n"
 "   :alt: uma imagem."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:None
@@ -210,6 +207,9 @@ msgid ""
 "    :description:\n"
 "        Description."
 msgstr ""
+".. meta::\n"
+"    :description:\n"
+"        Descrição."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:49
 msgid "A meta description"
@@ -464,17 +464,15 @@ msgid "Use the image directive for images without captions::"
 msgstr "Use a directiva 'image' para as imagens sem legendas::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:149
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/en/sample.png\n"
-#| "   :alt: an image."
 msgid ""
 ".. image:: /images/sample.png\n"
 "   :width: 800\n"
 "   :align: center\n"
 "   :alt: an image."
 msgstr ""
-".. image:: images/en/sample.png\n"
+".. image:: /images/sample.png\n"
+"   :width: 800\n"
+"   :align: center\n"
 "   :alt: uma imagem."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:154
@@ -505,17 +503,10 @@ msgstr ""
 "alinhada com a opção :figwidth:."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:172
-#, fuzzy
-#| msgid ""
-#| "Images should go into the ``/images/en`` folder. By using ``/images`` "
-#| "instead of ``images``, sphinx will know the filepath isn't relative."
 msgid ""
 "Images should go into the ``/images`` folder. By using ``/images`` instead "
 "of ``images``, sphinx will know the filepath isn't relative."
-msgstr ""
-"As imagens deverão ir para a pasta ``/images/en``. Ao usar o ``/images`` em "
-"vez do ``images``, o Sphinx irá saber que a localização do ficheiro não é "
-"relativa."
+msgstr "As imagens deverão ir para a pasta ``/images``. Ao usar o ``/images`` em vez do ``images``, o Sphinx irá saber que a localização do ficheiro não é relativa."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:175
 msgid "In-text Markup"
@@ -1019,13 +1010,14 @@ msgid "This looks like the following::"
 msgstr "Isto parece-se como seguinte::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:396
-#, fuzzy
-#| msgid "generic admonition that can have any text."
 msgid ""
 ".. admonition:: generic admonition that can have any text.\n"
 "\n"
 "    Text"
-msgstr "admoestação genérica que poderá ter qualquer texto."
+msgstr ""
+".. admonition:: admoestação genérica que poderá ter qualquer texto.\n"
+"\n"
+"    Texto"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:402
 msgid "Sphinx also adds::"
@@ -1081,10 +1073,8 @@ msgstr ""
 "'rubric' em si só lida com o cabeçalho, como por exemplo::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:422
-#, fuzzy
-#| msgid "The rubric directive."
 msgid ".. rubric:: The rubric directive."
-msgstr "A directiva 'rubric'."
+msgstr ".. rubric:: A directiva de rubrica."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:426
 msgid "So, when to use these?"
@@ -1315,15 +1305,14 @@ msgid "Quotes are done like this::"
 msgstr "As citações são feitas da seguinte forma::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:537
-#, fuzzy
-#| msgid "I am not sure why you'd need quotes in a user manual..."
 msgid ""
 "I am not sure why you'd need quotes in a user manual...\n"
 "\n"
 "-- Wolthera"
 msgstr ""
-"Não tenho a certeza porque irá precisar de citações num manual do "
-"utilizador..."
+"Não tenho a certeza porque irá precisar de citações num manual do utilizador...\n"
+"\n"
+"-- Wolthera"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:541
 msgid "This becomes a blockquote."

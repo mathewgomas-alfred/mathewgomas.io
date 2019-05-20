@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-04 11:05+0000\n"
+"PO-Revision-Date: 2019-05-19 23:14+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en icons Krita image multibrush toolmultibrush kbd\n"
 "X-POFile-SpellExtra: freehandbrushtool multibrushtool mirrortools images\n"
-"X-POFile-SpellExtra: alt ref\n"
+"X-POFile-SpellExtra: alt ref guilabel mouseleft Kritamouseleft tools\n"
+"X-POFile-SpellExtra: Mandala\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -37,10 +38,8 @@ msgstr ""
 "   :alt: ferramenta multi-pincéis"
 
 #: ../../reference_manual/tools/multibrush.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita-multibrush.png"
 msgid ".. image:: images/tools/Krita-multibrush.png"
-msgstr ".. image:: images/en/Krita-multibrush.png"
+msgstr ".. image:: images/tools/Krita-multibrush.png"
 
 #: ../../reference_manual/tools/multibrush.rst:1
 msgid "Krita's multibrush tool reference."
@@ -56,18 +55,16 @@ msgid "Tools"
 msgstr "Ferramentas"
 
 #: ../../reference_manual/tools/multibrush.rst:11
-#, fuzzy
-#| msgid "Multibrush Tool"
 msgid "Multibrush"
-msgstr "Ferramenta Multi-Pincel"
+msgstr "Multi-Pincel"
 
 #: ../../reference_manual/tools/multibrush.rst:11
 msgid "Mandala"
-msgstr ""
+msgstr "Mandala"
 
 #: ../../reference_manual/tools/multibrush.rst:11
 msgid "Rotational Symmetry"
-msgstr ""
+msgstr "Simetria Rotacional"
 
 #: ../../reference_manual/tools/multibrush.rst:16
 msgid "Multibrush Tool"
@@ -166,7 +163,7 @@ msgid ""
 "then |mouseleft| the canvas to place copies relative to the multibrush "
 "origin. Finally, press :guilabel:`Add` again, and start drawing to see the "
 "copy translate in action."
-msgstr ""
+msgstr "Isto permite-lhe definir a posição das cópias em relação ao seu próprio cursor. Para definir a posição das cópias, primeiro active o :guilabel:`Adicionar`, e depois use o |mouseleft| sobre a área de desenho para colocar as cópias em relação à origem do multi-pincel. Finalmente, carregue em :guilabel:`Adicionar` de novo, começando a desenhar para ver a cópia a entrar em acção."
 
 #: ../../reference_manual/tools/multibrush.rst:42
 msgid ""

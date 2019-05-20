@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-05 11:38+0100\n"
+"PO-Revision-Date: 2019-05-20 00:47+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -17,17 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en Sobol Krita Mikkt XYZ Prewitt images edgedetection\n"
-"X-POFile-SpellExtra: heighttonormalmap image\n"
+"X-POFile-SpellExtra: heighttonormalmap image Sobel filters\n"
 
 #: ../../<generated>:1
 msgid "XYZ"
 msgstr "XYZ"
 
 #: ../../reference_manual/filters/edge_detection.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
 msgid ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
-msgstr ".. image:: images/en/Krita_4_0_height_to_normal_map.png"
+msgstr ".. image:: images/filters/Krita_4_0_height_to_normal_map.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:1
 msgid "Overview of the edge detection filters."
@@ -74,10 +72,8 @@ msgstr ""
 "pincéis de filtragem."
 
 #: ../../reference_manual/filters/edge_detection.rst:33
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_4_0_edge_detection.png"
 msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
-msgstr ".. image:: images/en/Krita_4_0_edge_detection.png"
+msgstr ".. image:: images/filters/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
 msgid ""
@@ -251,10 +247,9 @@ msgstr ""
 "que só irá gerar linhas."
 
 #: ../../reference_manual/filters/edge_detection.rst:66
-#, fuzzy
 #| msgid "Height to Normal Map"
 msgid "Height Map"
-msgstr "Mapa de Altura à Normal"
+msgstr "Mapa de Altura"
 
 #: ../../reference_manual/filters/edge_detection.rst:66
 msgid "Normal Map"

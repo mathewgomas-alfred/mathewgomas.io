@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-18 10:08+0100\n"
+"PO-Revision-Date: 2019-05-19 23:57+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-POFile-SpellExtra: en FillLayer Krita image images Revoy\n"
+"X-POFile-SpellExtra: en FillLayer Krita image images Revoy layers Perline\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: filllayersimplexnoise OpenSimplex\n"
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:0
 msgid ".. image:: images/layers/fill_layer_simplex_noise.png"
@@ -110,7 +111,7 @@ msgid ""
 "A noise generator that isn't Perline Noise (which is what typical 'clouds' "
 "generation is), but it looks similar and can actually loop. Uses the "
 "OpenSimplex code."
-msgstr ""
+msgstr "Um gerador de ruído que não é do tipo Perline (que corresponde a geração de 'nuvens' típicas), mas que tem um aspecto semelhante e que se consegue repetir. Usa o código do OpenSimplex."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:38
 msgid "Looping"
@@ -118,7 +119,7 @@ msgstr "Em ciclo"
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:39
 msgid "Whether or not to force the pattern to loop."
-msgstr ""
+msgstr "Se deve ou não forçar o padrão a repetir-se em ciclo."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:40
 msgid "Frequency"
@@ -128,7 +129,7 @@ msgstr "Frequência"
 msgid ""
 "The frequency of the waves used to generate the pattern. Higher frequency "
 "results in a finer noise pattern."
-msgstr ""
+msgstr "A frequência das ondas usadas para gerar o padrão. Uma maior frequência resulta num padrão de ruído mais fino."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:42
 msgid "Ratio"
@@ -138,7 +139,7 @@ msgstr "Taxa"
 msgid ""
 "The ratio of the waves in the x and y dimensions. This makes the noise have "
 "a rectangular appearance."
-msgstr ""
+msgstr "A proporção das ondas nas dimensões em X e Y. Isto faz com que o ruído tenha uma aparência rectangular."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:45
 msgid "Simplex Noise"
@@ -153,7 +154,7 @@ msgid ""
 "The seed for the random component. You can input any value or text here, and "
 "it will always try to use this value to generate the random values with "
 "(which then are always the same for a given seed)."
-msgstr ""
+msgstr "O valor de base da componente aleatória. Poderá indicar qualquer valor ou texto aqui, sendo que irá sempre tentar usar este valor para gerar os valores aleatórios (os quais são sempre os mesmos para um dado valor de base)."
 
 #: ../../reference_manual/layers_and_masks/fill_layers.rst:48
 msgid "Painting on a fill layer"

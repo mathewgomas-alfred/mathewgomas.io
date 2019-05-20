@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-18 12:02+0100\n"
+"PO-Revision-Date: 2019-05-19 23:19+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-POFile-SpellExtra: en guilabel image kbd images adjustment Dodge Hue\n"
 "X-POFile-SpellExtra: Máx Mín Burn HSL Levels Desaturate saturation\n"
 "X-POFile-SpellExtra: American ASCCDL crosschannelfilter Kritafiltersasccdl\n"
-"X-POFile-SpellExtra: Color filter Krita sRGB ITU\n"
+"X-POFile-SpellExtra: Color filter Krita sRGB ITU ASC CDL filters\n"
 "X-POFile-IgnoreConsistency: Highlights\n"
 
 #: ../../<generated>:1
@@ -27,10 +27,8 @@ msgid "Power"
 msgstr "Potência"
 
 #: ../../reference_manual/filters/adjust.rst:None
-#, fuzzy
-#| msgid ".. image:: images/en/Krita_filters_asc_cdl.png"
 msgid ".. image:: images/filters/Krita_filters_asc_cdl.png"
-msgstr ".. image:: images/en/Krita_filters_asc_cdl.png"
+msgstr ".. image:: images/filters/Krita_filters_asc_cdl.png"
 
 #: ../../reference_manual/filters/adjust.rst:1
 msgid "Overview of the adjust filters."
@@ -66,10 +64,8 @@ msgstr ""
 "truque na revelação fotográfica que criava os mesmos resultados."
 
 #: ../../reference_manual/filters/adjust.rst:28
-#, fuzzy
-#| msgid ".. image:: images/en/Dodge-filter.png"
 msgid ".. image:: images/filters/Dodge-filter.png"
-msgstr ".. image:: images/en/Dodge-filter.png"
+msgstr ".. image:: images/filters/Dodge-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:29
 #: ../../reference_manual/filters/adjust.rst:47
@@ -125,16 +121,12 @@ msgstr ""
 "um truque na revelação fotográfica que criava os mesmos resultados."
 
 #: ../../reference_manual/filters/adjust.rst:46
-#, fuzzy
-#| msgid ".. image:: images/en/Burn-filter.png"
 msgid ".. image:: images/filters/Burn-filter.png"
-msgstr ".. image:: images/en/Burn-filter.png"
+msgstr ".. image:: images/filters/Burn-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:56
-#, fuzzy
-#| msgid "Levels"
 msgid "Levels Filter"
-msgstr "Níveis"
+msgstr "Filtro de Níveis"
 
 #: ../../reference_manual/filters/adjust.rst:59
 msgid "Levels"
@@ -156,10 +148,8 @@ msgstr ""
 "`Ctrl + L` ."
 
 #: ../../reference_manual/filters/adjust.rst:65
-#, fuzzy
-#| msgid ".. image:: images/en/Levels-filter.png"
 msgid ".. image:: images/filters/Levels-filter.png"
-msgstr ".. image:: images/en/Levels-filter.png"
+msgstr ".. image:: images/filters/Levels-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:66
 msgid ""
@@ -191,11 +181,11 @@ msgstr "Curvas de Ajuste das Cores"
 
 #: ../../reference_manual/filters/adjust.rst:71
 msgid "RGB Curves"
-msgstr ""
+msgstr "Curvas RGB"
 
 #: ../../reference_manual/filters/adjust.rst:71
 msgid "Curves Filter"
-msgstr ""
+msgstr "Filtro de Curvas"
 
 #: ../../reference_manual/filters/adjust.rst:76
 msgid ""
@@ -225,20 +215,16 @@ msgstr ""
 "Saturação."
 
 #: ../../reference_manual/filters/adjust.rst:84
-#, fuzzy
-#| msgid ".. image:: images/en/Color-adjustment-curve.png"
 msgid ".. image:: images/filters/Color-adjustment-curve.png"
-msgstr ".. image:: images/en/Color-adjustment-curve.png"
+msgstr ".. image:: images/filters/Color-adjustment-curve.png"
 
 #: ../../reference_manual/filters/adjust.rst:85
-#, fuzzy
-#| msgid "Cross-channel color adjustment"
 msgid "Cross Channel Color Adjustment"
-msgstr "Ajuste de cores entre canais"
+msgstr "Ajuste de Cores entre Canais"
 
 #: ../../reference_manual/filters/adjust.rst:85
 msgid "Driving Adjustment by channel"
-msgstr ""
+msgstr "Acompanhamento do Ajuste por Canal"
 
 #: ../../reference_manual/filters/adjust.rst:88
 msgid "Cross-channel color adjustment"
@@ -269,10 +255,8 @@ msgstr ""
 "define qual o canal que usa para controlar as partes que foram modificadas."
 
 #: ../../reference_manual/filters/adjust.rst:99
-#, fuzzy
-#| msgid ".. image:: images/en/cross_channel_filter.png"
 msgid ".. image:: images/filters/cross_channel_filter.png"
-msgstr ".. image:: images/en/cross_channel_filter.png"
+msgstr ".. image:: images/filters/cross_channel_filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:100
 msgid ""
@@ -342,10 +326,8 @@ msgstr ""
 "Claros. O atalho por omissão para este filtro é o :kbd:`Ctrl + B` ."
 
 #: ../../reference_manual/filters/adjust.rst:123
-#, fuzzy
-#| msgid ".. image:: images/en/Color-balance.png"
 msgid ".. image:: images/filters/Color-balance.png"
-msgstr ".. image:: images/en/Color-balance.png"
+msgstr ".. image:: images/filters/Color-balance.png"
 
 #: ../../reference_manual/filters/adjust.rst:124
 #: ../../reference_manual/filters/adjust.rst:162
@@ -353,10 +335,8 @@ msgid "Saturation"
 msgstr "Saturação"
 
 #: ../../reference_manual/filters/adjust.rst:124
-#, fuzzy
-#| msgid "Desaturate"
 msgid "Desaturation"
-msgstr "Reduzir a Saturação"
+msgstr "Redução da Saturação"
 
 #: ../../reference_manual/filters/adjust.rst:124
 msgid "Gray"
@@ -378,10 +358,8 @@ msgstr ""
 "kbd:`Ctrl + Shift + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:133
-#, fuzzy
-#| msgid ".. image:: images/en/Desaturate-filter.png"
 msgid ".. image:: images/filters/Desaturate-filter.png"
-msgstr ".. image:: images/en/Desaturate-filter.png"
+msgstr ".. image:: images/filters/Desaturate-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:134
 #: ../../reference_manual/filters/adjust.rst:162
@@ -486,7 +464,7 @@ msgstr "Brilho"
 
 #: ../../reference_manual/filters/adjust.rst:162
 msgid "Chroma"
-msgstr ""
+msgstr "Croma"
 
 #: ../../reference_manual/filters/adjust.rst:165
 msgid "HSV/HSL Adjustment"
@@ -502,10 +480,8 @@ msgstr ""
 "kbd:`Ctrl + U` ."
 
 #: ../../reference_manual/filters/adjust.rst:170
-#, fuzzy
-#| msgid ".. image:: images/en/Hue-saturation-filter.png"
 msgid ".. image:: images/filters/Hue-saturation-filter.png"
-msgstr ".. image:: images/en/Hue-saturation-filter.png"
+msgstr ".. image:: images/filters/Hue-saturation-filter.png"
 
 #: ../../reference_manual/filters/adjust.rst:171
 #: ../../reference_manual/filters/adjust.rst:174
@@ -529,13 +505,11 @@ msgstr ""
 
 #: ../../reference_manual/filters/adjust.rst:178
 msgid "ASC CDL"
-msgstr ""
+msgstr "ASC CDL"
 
 #: ../../reference_manual/filters/adjust.rst:178
-#, fuzzy
-#| msgid "Slope, Offset, Power"
 msgid "Slope Offset Power Curves"
-msgstr "Inclinação, Deslocamento, Potência"
+msgstr "Curvas de Potência do Deslocamento"
 
 #: ../../reference_manual/filters/adjust.rst:181
 msgid "Slope, Offset, Power"

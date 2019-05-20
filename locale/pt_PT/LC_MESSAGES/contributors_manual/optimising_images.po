@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-18 12:10+0100\n"
+"PO-Revision-Date: 2019-05-19 23:17+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -24,7 +24,12 @@ msgstr ""
 "X-POFile-SpellExtra: Convert Gifski Gnome get Appimage savingfortheweb\n"
 "X-POFile-SpellExtra: PNGquant Commons saida Command kbd Enter BY optipng\n"
 "X-POFile-SpellExtra: convert license ImageOptim Exiftool LossyGif PNGQuant\n"
-"X-POFile-SpellExtra: JPG apt ICC install XMP SA\n"
+"X-POFile-SpellExtra: JPG apt ICC install XMP SA set verbose quality\n"
+"X-POFile-SpellExtra: ShareAlike Attribution Description exif icc\n"
+"X-POFile-SpellExtra: perfilimagem NC imagemmeta import xmp profile License\n"
+"X-POFile-SpellExtra: kritaManual pngcrush ImageDescription UsageTerms true\n"
+"X-POFile-SpellExtra: attributionURL Marked depth imagemmodificada\n"
+"X-POFile-SpellExtra: attributionName pngquant dither\n"
 
 #: ../../contributors_manual/optimising_images.rst:1
 msgid "How to make and optimise images for use in the manual."
@@ -35,10 +40,8 @@ msgid "Metadata"
 msgstr "Meta-dados"
 
 #: ../../contributors_manual/optimising_images.rst:10
-#, fuzzy
-#| msgid "Optimising GIF"
 msgid "Optimising Images"
-msgstr "Optimizar o GIF"
+msgstr "Optimizar as Imagens"
 
 #: ../../contributors_manual/optimising_images.rst:15
 msgid "Images for the Manual"
@@ -123,7 +126,7 @@ msgstr "ImageMagick"
 
 #: ../../contributors_manual/optimising_images.rst:40
 msgid "import -depth 8 -dither <filename.png>"
-msgstr ""
+msgstr "import -depth 8 -dither <ficheiro.png>"
 
 #: ../../contributors_manual/optimising_images.rst:42
 msgid ""
@@ -324,7 +327,7 @@ msgstr "Para usar o PNGquant, vá à pasta escolhida e escreva::"
 
 #: ../../contributors_manual/optimising_images.rst:99
 msgid "pngquant --quality=80-100 image.png"
-msgstr ""
+msgstr "pngquant --quality=80-100 imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:101
 msgid "`PNGQuant <https://pngquant.org/>`_"
@@ -351,7 +354,7 @@ msgstr "Um compressor de PNG sem perdas. Utilização::"
 
 #: ../../contributors_manual/optimising_images.rst:106
 msgid "pngcrush image.png imageout.png"
-msgstr ""
+msgstr "pngcrush imagem.png imagem-saida.png"
 
 #: ../../contributors_manual/optimising_images.rst:108
 msgid "`PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_"
@@ -374,7 +377,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:114
 msgid "optipng image.png"
-msgstr ""
+msgstr "optipng imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:116
 msgid "`Optipng <http://optipng.sourceforge.net/>`_"
@@ -513,10 +516,8 @@ msgid ""
 msgstr "Mude para a pasta onde se localiza a imagem e escreva::"
 
 #: ../../contributors_manual/optimising_images.rst:166
-#, fuzzy
-#| msgid "`exiftool -all= image.png`"
 msgid "exiftool image"
-msgstr "`exiftool -all= imagem.png`"
+msgstr "exiftool imagem"
 
 #: ../../contributors_manual/optimising_images.rst:168
 msgid ""
@@ -545,7 +546,7 @@ msgstr ""
 
 #: ../../contributors_manual/optimising_images.rst:172
 msgid "identify -verbose image"
-msgstr ""
+msgstr "identify -verbose imagem"
 
 #: ../../contributors_manual/optimising_images.rst:175
 msgid "Stripping Metadata"
@@ -616,10 +617,8 @@ msgid "First extract the metadata to a profile by converting::"
 msgstr "Primeiro extraia os meta-dados para um perfil, convertendo::"
 
 #: ../../contributors_manual/optimising_images.rst:198
-#, fuzzy
-#| msgid "`convert image.png --strip`"
 msgid "convert image.png image_profile.icc"
-msgstr "`convert imagem.png --strip`"
+msgstr "convert imagem.png perfil_imagem.icc"
 
 #: ../../contributors_manual/optimising_images.rst:200
 msgid "Then strip the file and readd the profile information::"
@@ -627,7 +626,7 @@ msgstr "Depois, limpe os dados do ficheiro e leia a informação do perfil::"
 
 #: ../../contributors_manual/optimising_images.rst:202
 msgid "convert -profile image_profile.icc image.png"
-msgstr ""
+msgstr "convert -profile perfil_imagem.icc imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:203
 msgid ""
@@ -666,7 +665,7 @@ msgstr "Definir um valor do Exif::"
 msgid ""
 "convert -set exif:ImageDescription \"An image description\" image.png "
 "image_modified.png"
-msgstr ""
+msgstr "convert -set exif:ImageDescription \"Uma descrição da imagem\" imagem.png imagem_modificada.png"
 
 #: ../../contributors_manual/optimising_images.rst:217
 msgid "Setting the PNG chunk for description::"
@@ -676,7 +675,7 @@ msgstr "Configurar o bloco do PNG para a descrição::"
 msgid ""
 "convert -set Description \"An image description\" image.png image_modified."
 "png"
-msgstr ""
+msgstr "convert -set Description \"Uma descrição da imagem\" imagem.png imagem_modificada.png"
 
 #: ../../contributors_manual/optimising_images.rst:222
 msgid "Embedding license metadata"
@@ -714,7 +713,7 @@ msgstr "Para a GDPL::"
 msgid ""
 "convert -set dcterms:license \"GDPL 1.3+ https://www.gnu.org/licenses/"
 "fdl-1.3.txt\" image.png"
-msgstr ""
+msgstr "convert -set dcterms:license \"GDPL 1.3+ https://www.gnu.org/licenses/fdl-1.3.txt\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:236
 msgid "This defines a shorthand name and then license text."
@@ -728,7 +727,7 @@ msgstr "Para o Creative Commons BY-SA 4.0::"
 msgid ""
 "convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/"
 "licenses/by-sa/4.0/\" image.png"
-msgstr ""
+msgstr "convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/licenses/by-sa/4.0/\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:242
 msgid ""
@@ -773,7 +772,7 @@ msgid ""
 "\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International License</a>.\" -Copyright=\"CC-BY-"
 "SA-NC 4.0\" image.png"
-msgstr ""
+msgstr "exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-sa/4.0\" -UsageTerms=\"Este trabalho está licenciado segundo uma <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Licença Creative Commons Attribution-ShareAlike 4.0 Internacional</a>.\" -Copyright=\"CC-BY-SA-NC 4.0\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:255
 msgid "Another way of doing the marking is::"
@@ -784,17 +783,15 @@ msgid ""
 "exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
 "sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" "
 "image.png"
-msgstr ""
+msgstr "exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data (if there is any)::"
 msgstr "Primeiro extraia os dados (se existirem alguns)::"
 
 #: ../../contributors_manual/optimising_images.rst:262
-#, fuzzy
-#| msgid "`convert image.png --strip`"
 msgid "convert image.png image_meta.xmp"
-msgstr "`convert imagem.png --strip`"
+msgstr "convert imagem.png imagem_meta.xmp"
 
 #: ../../contributors_manual/optimising_images.rst:264
 msgid "Then modify the resulting file, and embed the image data::"
@@ -807,7 +804,7 @@ msgstr "Com o Imagemagick, poderá usar a opção do perfil de novo."
 
 #: ../../contributors_manual/optimising_images.rst:266
 msgid "convert -profile image_meta.xmp image.png"
-msgstr ""
+msgstr "convert -profile imagem_meta.xmp imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:268
 msgid ""
