@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-17 06:55+0200\n"
+"POT-Creation-Date: 2019-05-20 03:21+0200\n"
+"PO-Revision-Date: 2019-05-20 18:37+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -119,8 +119,11 @@ msgstr ""
 "Primer, hi ha tres tipus de màscares, amb cada forma de cercle i quadrada:"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:37
+#| msgid ""
+#| "This is the ultimate generic type. The fade parameter produces the below "
+#| "results. Of the three auto brushes, this is the fastest."
 msgid ""
-"This is the ultimate generic type. The fade parameter produces the below "
+"This is the ultimate generic type. The Fade parameter produces the below "
 "results. Of the three auto brushes, this is the fastest."
 msgstr ""
 "Aquest és el tipus genèric definitiu. El paràmetre Esvaeix produeix el "
@@ -185,7 +188,7 @@ msgstr ""
 msgid "(With fade locked)"
 msgstr "(Amb l'esvaïment blocat)."
 
-#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:67
+#: ../../reference_manual/brushes/brush_settings/brush_tips.rst:69
 msgid "Fade"
 msgstr "Esvaeix"
 
@@ -195,7 +198,7 @@ msgstr "(Amb l'esvaïment horitzontal i vertical per separat)."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:72
 msgid "This changes the angle a which the brush is at."
-msgstr "Això canviarà l'angle a en el que es troba el pinzell."
+msgstr "Això canviarà l'angle en el que es troba el pinzell."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:74
 msgid "Angle"
@@ -216,8 +219,8 @@ msgid ""
 "respectively."
 msgstr ""
 "Això determinarà la quantitat d'àrea que cobrirà el pinzell sobre la seva "
-"mida: fa soroll. A l'exemple següent, el pinzell s'estableix amb densitat "
-"0%, 50% i 100% respectivament."
+"mida: fa soroll. A l'exemple següent, el pinzell s'estableix amb una densitat "
+"del 0%, 50% i 100% respectivament."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:84
 msgid "Density"
@@ -229,7 +232,7 @@ msgid ""
 "is set with randomness 0%, 50% and 100% respectively."
 msgstr ""
 "Això canviarà de forma aleatòria la densitat. En el següent exemple, el "
-"pinzell s'estableix amb aleatorietat 0%, 50% i 100% respectivament."
+"pinzell s'estableix amb una aleatorietat del 0%, 50% i 100% respectivament."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:88
 msgid "Randomness"
@@ -257,7 +260,7 @@ msgid ""
 msgstr ""
 "En marcar això, s'establirà l'espai entre pinzells a un algoritme diferent "
 "(quadràtic). El resultat serà un bon control sobre l'espaiat. A la imatge de "
-"sota, els tres exemples a la dreta estan amb espaiat automàtic, 0, 1 i 5 "
+"sota, els tres exemples a la dreta estan amb un espaiat automàtic de 0, 1 i 5 "
 "respectivament."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:95
@@ -355,7 +358,7 @@ msgid ""
 "(mostly) compatible with the brush tip definitions files of these "
 "applications:"
 msgstr ""
-"Si heu utilitzat altres aplicacions com el :program:`GIMP` o :program:"
+"Si heu utilitzat altres aplicacions com el :program:`GIMP` o el :program:"
 "`Photoshop`, ja haureu utilitzat aquest tipus de pinzell. El Krita és "
 "(majoritàriament) compatible amb els fitxers de definicions per a la punta "
 "del pinzell d'aquestes aplicacions:"
@@ -367,7 +370,7 @@ msgstr "abr"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
 msgid "GIMP autobrush tip definitions"
-msgstr "Definicions per a la punta del pinzell automàtica del GIMP."
+msgstr "Definicions per a la punta automàtica del pinzell del GIMP."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
 msgid ":ref:`file_gbr`"
@@ -376,7 +379,7 @@ msgstr ":ref:`file_gbr`"
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
 msgid "GIMP single bitmap brush tip. Can be black and white or colored."
 msgstr ""
-"La punta del pinzell de mapa de bits única del GIMP. Pot estar en blanc i "
+"La punta de mapa de bits del pinzell única del GIMP. Pot estar en blanc i "
 "negre o amb color."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
@@ -389,7 +392,7 @@ msgid ""
 "randomly or in order after each other. Can be black and white or colored. :"
 "program:`Krita` does not yet support all the parameters yet."
 msgstr ""
-"Punta del pinzell de mànega de la imatge del GIMP: conté una sèrie de puntes "
+"Punta de mànega del pinzell de la imatge del GIMP: conté una sèrie de puntes "
 "de pinzell que estan pintades a l'atzar o en ordre una darrera l'altra. "
 "Poden estar en blanc i negre o amb color. El Krita encara no admet tots els "
 "paràmetres."
@@ -422,7 +425,7 @@ msgid ""
 "options that influence the initial bitmap brush tip you start painting with:"
 msgstr ""
 "Totes les puntes de pinzell predefinides es mostraran en un selector. Hi ha "
-"quatre opcions més que influeixen en la punta del pinzell de mapa de bits "
+"quatre opcions més que influeixen en la punta de mapa de bits del pinzell  "
 "inicial amb la qual començareu a pintar:"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
@@ -435,9 +438,9 @@ msgid ""
 "fairly large! When painting with variable size (for instance governed by "
 "pressure), this is the base for the calculations."
 msgstr ""
-"Escala la punta del pinzell. 1.0 és la mida nativa de la punta del pinzell. "
+"Escala la punta del pinzell. 1,0 és la mida nativa de la punta del pinzell. "
 "Això pot ser molt gran! Quan es pinta amb una mida variable (per exemple, "
-"regit per la pressió), aquesta serà la base per als càlculs."
+"regida per la pressió), aquesta serà la base per als càlculs."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
 msgid "Rotation"

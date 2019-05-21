@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___hdr_display\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-08 03:36+0200\n"
-"PO-Revision-Date: 2019-05-08 14:03+0300\n"
+"POT-Creation-Date: 2019-05-20 03:21+0200\n"
+"PO-Revision-Date: 2019-05-20 06:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.03.70\n"
 
 #: ../../<generated>:1
 msgid "MaxFALL"
@@ -193,8 +193,9 @@ msgstr ""
 "до нового кодека для mp4 та mkv: H.265. Щоб скористатися цією можливістю..."
 
 #: ../../reference_manual/hdr_display.rst:52
-msgid "Get a version of FFMpeg that supports H.256"
-msgstr "Встановіть версію FFMpeg із підтримкою H.256"
+#| msgid "Get a version of FFMpeg that supports H.256"
+msgid "Get a version of FFmpeg that supports H.256"
+msgstr "Встановіть версію FFmpeg із підтримкою H.256"
 
 #: ../../reference_manual/hdr_display.rst:53
 msgid "Have an animation open."
