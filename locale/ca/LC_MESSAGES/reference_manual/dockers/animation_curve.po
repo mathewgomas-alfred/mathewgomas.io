@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-17 16:01+0200\n"
+"PO-Revision-Date: 2019-05-20 18:20+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -45,17 +45,20 @@ msgstr "Interpolació"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Tweening"
-msgstr ""
+msgstr "Interpolació"
 
 #: ../../reference_manual/dockers/animation_curve.rst:15
 msgid "Animation Curves Docker"
-msgstr ""
+msgstr "Acoblador Corbes d'animació"
 
 #: ../../reference_manual/dockers/animation_curve.rst:17
 msgid ""
 "The Animation Curve docker allows you to edit tweened sections by means of "
 "interpolation curves. As of this time of writing, it can only edit opacity."
 msgstr ""
+"L'acoblador Corbes d'animació permet editar seccions interpolades mitjançant "
+"corbes d'interpolació. A partir d'aquest moment de l'escriptura, només "
+"podreu editar l'opacitat."
 
 #: ../../reference_manual/dockers/animation_curve.rst:19
 msgid ""
@@ -66,6 +69,12 @@ msgid ""
 "we can visualize the way the values are interpolated as a curve graph, and "
 "also edit the graph that way."
 msgstr ""
+"La idea és que de vegades el que voleu animar es pot expressar com un valor. "
+"Això permet a l'ordinador fer càlculs matemàtics sobre els valors i "
+"automatitzar les tasques, com la interpolació. Com que aquests són valors, "
+"com el percentatge d'opacitat i l'animació que passa al llarg del temps, "
+"això vol dir que podrem visualitzar com un gràfic de corbes la forma en què "
+"s'interpolaran els valors, i també editar el gràfic de la manera següent."
 
 #: ../../reference_manual/dockers/animation_curve.rst:21
 msgid ""
@@ -74,6 +83,10 @@ msgid ""
 "do this by using the animation docker and selection :guilabel:`Add new "
 "keyframe`."
 msgstr ""
+"Però, quan obriu per primera vegada aquest acoblador, no hi ha cap corba "
+"visible! Primer haureu d'afegir fotogrames clau d'opacitat a la capa "
+"d'animació activa. Podreu fer-ho emprant l'acoblador Animació i seleccionant "
+":guilabel:`Afegeix un fotograma clau nou`."
 
 #: ../../reference_manual/dockers/animation_curve.rst:25
 msgid ".. image:: images/dockers/Animation_curves_1.png"
@@ -87,6 +100,11 @@ msgid ""
 "will hide the current curve, which'll be more useful in the future when more "
 "properties can be animated."
 msgstr ""
+"L'opacitat haurà de crear una línia de corba vermella brillant a l'acoblador. "
+"A l'esquerra, a la llista de capes, veureu que la capa activa té un contorn "
+"de les seves propietats: ha aparegut una :guilabel:`Opacitat` en vermell. En "
+"pressionar el punt vermell s'ocultarà la corba actual, la qual serà més útil "
+"en el futur quan es puguin animar més propietats."
 
 #: ../../reference_manual/dockers/animation_curve.rst:29
 msgid ".. image:: images/dockers/Animation_curves_2.png"
@@ -97,26 +115,29 @@ msgid ""
 "If you select a dot of the curve, you can move it around to shift its place "
 "in the time-line or its value."
 msgstr ""
+"Si seleccioneu un punt de la corba, podreu moure-la per a canviar el seu lloc "
+"en la línia de temps o el seu valor."
 
 #: ../../reference_manual/dockers/animation_curve.rst:32
 msgid "On the top, you can select the method of smoothing:"
-msgstr ""
+msgstr "A la part superior, podreu seleccionar el mètode de suavitzat:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:34
 msgid "Hold Value"
 msgstr "Mantén el valor"
 
+# skip-rule: barb-igual
 #: ../../reference_manual/dockers/animation_curve.rst:35
 msgid "This keeps the value the same until there's a new keyframe."
-msgstr ""
+msgstr "Això mantindrà el valor igual fins que hi hagi un fotograma clau nou."
 
 #: ../../reference_manual/dockers/animation_curve.rst:36
 msgid "Linear Interpolation (Default)"
-msgstr ""
+msgstr "Interpolació lineal (predeterminat)"
 
 #: ../../reference_manual/dockers/animation_curve.rst:37
 msgid "This gives a straight interpolation between two values."
-msgstr ""
+msgstr "Això donarà una interpolació directa entre dos valors."
 
 #: ../../reference_manual/dockers/animation_curve.rst:39
 msgid "Custom interpolation"
@@ -128,12 +149,18 @@ msgid ""
 "be modified. |mouseleft| +dragging on the node allows you to drag out a "
 "handler node for adjusting the curving."
 msgstr ""
+"Això permet establir la secció després del node del fotograma clau com una "
+"que es pot modificar. :kbd:`|mouseleft| + arrossegar` sobre el node permetrà "
+"arrossegar una nansa del node per ajustar la corba."
 
 #: ../../reference_manual/dockers/animation_curve.rst:41
 msgid ""
 "So, for example, making a 100% opacity keyframe on frame 0 and a 0% opacity "
 "one on frame 24 gives the following result:"
 msgstr ""
+"Així, per exemple, crear un fotograma clau amb l'opacitat del 100% en el "
+"fotograma 0 i una opacitat del 0% en el fotograma 24 donarà el següent "
+"resultat:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:44
 msgid ".. image:: images/dockers/Ghost_linear.gif"
@@ -145,6 +172,10 @@ msgid ""
 "keyframe will be added on that spot. We can set this frame to 100% and set "
 "frame 0 to 0% for this effect."
 msgstr ""
+"Si seleccionem el fotograma 12 i premem :guilabel:`Afegeix un fotograma clau "
+"nou`, s'afegirà un fotograma clau nou d'opacitat en aquest lloc. Podrem "
+"establir aquest fotograma al 100% i establir el fotograma 0 al 0% per a "
+"aquest efecte."
 
 #: ../../reference_manual/dockers/animation_curve.rst:48
 msgid ".. image:: images/dockers/Ghost_linear_in-out.gif"
@@ -158,6 +189,13 @@ msgid ""
 "12 will enable custom interpolation between frames 12 and 24. Drag from the "
 "node to add a handle, which in turn you can use to get the following effects:"
 msgstr ""
+"Ara, si volem alleujar, seleccionarem el node en el fotograma 0 i premerem el "
+"botó :guilabel:`Interpolació personalitzada` que hi ha a la part superior. "
+"Això permetrà la interpolació personalitzada sobre la corba entre els "
+"fotogrames 0 i 12. En fer el mateix sobre el fotograma 12, s'habilitarà la "
+"interpolació personalitzada entre els quadres 12 i 24. Arrossegueu des del "
+"node per afegir una nansa, la qual al seu torn es podrà utilitzar per "
+"obtenir els següents efectes:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:52
 msgid ".. image:: images/dockers/Ghost_ease_in-out.gif"
@@ -169,11 +207,11 @@ msgstr ".. image:: images/dockers/Animation_curves_3.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:55
 msgid "The above shows an ease-in curve."
-msgstr ""
+msgstr "Tot l'anterior mostrarà una corba amb augment accelerat."
 
 #: ../../reference_manual/dockers/animation_curve.rst:57
 msgid "And convex/concave examples:"
-msgstr ""
+msgstr "I els exemples convexos/còncaus:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:60
 msgid ".. image:: images/dockers/Ghost_concave_in-out.gif"
@@ -199,9 +237,16 @@ msgid ""
 "interpolation curves, and as we develop Krita, we hope to add more "
 "properties for you to animate this way."
 msgstr ""
+"Com podeu veure, hi ha una «textura» força diferent, per dir-ho d'aquesta "
+"manera, en cadascuna d'aquestes animacions, tot i que la diferència està "
+"només en les corbes. De fet, un bon animador pot obtenir alguns trucs de les "
+"corbes d'interpolació, i a mesura que desenvolupem Krita, esperem afegir més "
+"propietats perquè puguis animar d'aquesta manera."
 
 #: ../../reference_manual/dockers/animation_curve.rst:71
 msgid ""
 "Opacity has currently 255 as maximum in the curve editor, as that's how "
 "opacity is stored internally"
 msgstr ""
+"L'opacitat actualment té 255 com a màxim a l'editor de corbes, ja que així és "
+"com l'opacitat s'emmagatzema de manera interna."

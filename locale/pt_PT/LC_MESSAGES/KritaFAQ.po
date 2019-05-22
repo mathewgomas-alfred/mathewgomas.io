@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-19 23:58+0100\n"
+"PO-Revision-Date: 2019-05-21 18:52+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -31,7 +31,8 @@ msgstr ""
 "X-POFile-SpellExtra: Nvidia GTX OBS Krita Library Ins paintoppresets Ink\n"
 "X-POFile-SpellExtra: ero and ANGLE DPI again Mac HID LOCALAPPDATA Graphics\n"
 "X-POFile-SpellExtra: Roaming Stichting ABR etá Photoshop Appdata Trig\n"
-"X-POFile-SpellExtra: Direct the baseline VLC Player\n"
+"X-POFile-SpellExtra: Direct the baseline VLC Player logviewer\n"
+"X-POFile-SpellExtra: tabletsettings drawingtablets TXT\n"
 
 #: ../../KritaFAQ.rst:20
 msgid "FAQ"
@@ -704,7 +705,7 @@ msgstr ""
 msgid ""
 "Windows: In fullscreen mode, why is there a thin gap at the bottom of the "
 "window?"
-msgstr ""
+msgstr "Windows: No modo de ecrã completo, porque é que existe um intervalo pequeno no fundo da janela?"
 
 #: ../../KritaFAQ.rst:234
 msgid ""
@@ -713,7 +714,7 @@ msgid ""
 "through. This is done deliberately to work around a bug causing menus and "
 "dropdowns to be unusable. If you find it distracting, you can consider "
 "changing the Renderer to Direct3D 11 which doesn't require this workaround."
-msgstr ""
+msgstr "Quando a :ref:`Aceleração Gráfica da Área de Desenho <display_settings>` estiver configurada como OpenGL, poderá ver um pequeno intervalo no fundo da janela, através do qual consegue ver à transparência. Isto é feito de propósito para contornar um erro que fazia com que os menus e as listas deixassem de funcionar. Se achar que isto o incomoda, pode tentar mudar o Sistema de Desenho para o Direct3D 11, que não precisa deste truque."
 
 #: ../../KritaFAQ.rst:238
 msgid "Tablets"
@@ -768,13 +769,13 @@ msgid ""
 "`drawing_tablets` page has some explanations and descriptions of common "
 "issues. If none of those work, we would like to have a bug report at bugs."
 "kde.org, with a tablet log. Here's how you make a tablet log:"
-msgstr ""
+msgstr "Primeiro, verifique se tem os controladores instalados e a funcionar. A página de :ref:`drawing_tablets` tem algumas explicações e descrições de problemas comuns. Se nenhum destes funcionar, gostaríamos que comunicasse o erro no bugs.kde.org, com um registo da tablete. Aqui está como pdoerá criar um registo da tablete:"
 
 #: ../../KritaFAQ.rst:257
 msgid ""
 "You need to have something to output the log to. On 4.2 you can use the :ref:"
 "`log_viewer` docker for this. Just open the log viewer, and enable logging."
-msgstr ""
+msgstr "Tem de ter algo para onde enviar o registo. No 4.2, poderá usar a área do :ref:`log_viewer` para tal. Basta abrir o visualizador do registo e activar o mesmo."
 
 #: ../../KritaFAQ.rst:261
 msgid ""
@@ -783,11 +784,11 @@ msgid ""
 "MacOS, or for Windows install `DebugView <http://technet.microsoft.com/en-us/"
 "sysinternals/bb896647.aspx>`_ from the official Microsoft site, start "
 "DebugView and then start Krita."
-msgstr ""
+msgstr "O visualizador de registos foi adicionado ao Krita no 4.2; como tal, para as versões mais antigas do Krita, provavelmente terá de executar o Krita no terminal, caso tenha instalado o Linux ou o MacOS; no caso do Windows, instale o `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_ da página Web oficial da Microsoft, inicie o DebugView e depois inicie o Krita."
 
 #: ../../KritaFAQ.rst:263
 msgid "When using a terminal, make sure to enable 'unlimited scrollback'"
-msgstr ""
+msgstr "Quando usar um terminal, certifique-se que activa o 'deslocamento ilimitado'"
 
 #: ../../KritaFAQ.rst:265
 msgid ""
@@ -801,17 +802,17 @@ msgstr ""
 msgid ""
 "Try to reproduce your problem, you will be able to see the log being created "
 "in the log viewer as you draw."
-msgstr ""
+msgstr "Tente reproduzir o seu problema; poderá ver o registo a ser criado no visualizador à medida que desenha."
 
 #: ../../KritaFAQ.rst:267
 msgid ""
 "Save the output from the log viewer into a txt file, and attach it to the "
 "bugreport."
-msgstr ""
+msgstr "Grave o resultado do visualizador do registo num ficheiro TXT, anexando-o ao relatório de erros."
 
 #: ../../KritaFAQ.rst:269
 msgid "On Linux, it is also useful to have the following information:"
-msgstr ""
+msgstr "No Linux, também é útil obter os seguintes dados:"
 
 #: ../../KritaFAQ.rst:271
 msgid "``lsmod``"
@@ -858,7 +859,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:283
 msgid "You can configure this by going to the :ref:`tablet_settings`."
-msgstr ""
+msgstr "Poderá configurar isto se for à :ref:`tablet_settings`."
 
 #: ../../KritaFAQ.rst:286
 msgid "Microsoft Surface Pro and N-Trig"

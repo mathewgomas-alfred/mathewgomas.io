@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-17 18:22+0200\n"
+"PO-Revision-Date: 2019-05-20 18:20+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,10 +37,13 @@ msgid ""
 "`shape_selection_tool` active, the following actions will appear on this "
 "docker:"
 msgstr ""
+"Un acoblador per alinear i organitzar les formes vectorials. Quan tingueu "
+"activa l':ref:`shape_selection_tool`, apareixeran les següents accions en "
+"aquest acoblador:"
 
 #: ../../reference_manual/dockers/arrange.rst:19
 msgid "Align all selected objects."
-msgstr ""
+msgstr "Alinea tots els objectes seleccionats."
 
 #: ../../reference_manual/dockers/arrange.rst:21
 msgid "Align Left"
@@ -72,7 +75,7 @@ msgstr "Alinea a baix"
 
 #: ../../reference_manual/dockers/arrange.rst:29
 msgid "Ensure that objects are distributed evenly."
-msgstr ""
+msgstr "S'assegura que els objectes es distribueixen de forma uniforme."
 
 #: ../../reference_manual/dockers/arrange.rst:31
 msgid "Distribute left edges equidistantly."
@@ -102,13 +105,14 @@ msgstr "Distribueix"
 msgid "Distribute bottom edges equidistantly."
 msgstr "Distribueix proporcionalment les vores inferiors."
 
+# skip-rule: barb-igual
 #: ../../reference_manual/dockers/arrange.rst:39
 msgid "Ensure the gaps between objects are equal."
-msgstr ""
+msgstr "S'assegura que la separació entre els objectes és igual."
 
 #: ../../reference_manual/dockers/arrange.rst:41
 msgid "Make horizontal gaps between object equal."
-msgstr "Fa iguals els espais horitzontals entre objectes."
+msgstr "Fa iguals les separacions horitzontals entre els objectes."
 
 #: ../../reference_manual/dockers/arrange.rst:42
 msgid "Spacing"
@@ -116,11 +120,11 @@ msgstr "Espaiat"
 
 #: ../../reference_manual/dockers/arrange.rst:42
 msgid "Make vertical gaps between object equal."
-msgstr "Fa iguals els espais verticals entre objectes."
+msgstr "Fa iguals les separacions verticals entre els objectes."
 
 #: ../../reference_manual/dockers/arrange.rst:45
 msgid "Change the order of vector objects."
-msgstr ""
+msgstr "Canvia l'ordre dels objectes vectorials."
 
 #: ../../reference_manual/dockers/arrange.rst:47
 msgid "Bring to front"
@@ -144,4 +148,4 @@ msgstr "Porta al darrere"
 
 #: ../../reference_manual/dockers/arrange.rst:53
 msgid "Buttons to group and ungroup vector objects."
-msgstr ""
+msgstr "Botons per agrupar i desagrupar els objectes vectorials."

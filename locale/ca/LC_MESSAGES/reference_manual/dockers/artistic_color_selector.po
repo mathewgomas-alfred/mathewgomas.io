@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-17 15:59+0200\n"
+"PO-Revision-Date: 2019-05-21 17:58+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -58,6 +58,8 @@ msgstr "Acoblador Selector de color artístic"
 #: ../../reference_manual/dockers/artistic_color_selector.rst:19
 msgid "A color selector inspired by traditional color wheel and workflows."
 msgstr ""
+"Un selector de color inspirat en la roda de color i els fluxos de treball "
+"tradicionals."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:22
 msgid "Usage"
@@ -69,7 +71,7 @@ msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:26
 msgid "Artistic color selector with a gamut mask"
-msgstr ""
+msgstr "Selector de color artístic amb una màscara de gamma."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:28
 msgid ""
@@ -77,6 +79,9 @@ msgid ""
 "|mouseleft| changes foreground color (6). |mouseright| changes background "
 "color (7)."
 msgstr ""
+"Seleccioneu el to i la saturació en la roda (5) i el valor en l'escala de "
+"valors (4). Fer |mouseleft| canviarà el color del primer pla (6). Fer "
+"|mouseright| canviarà el color de fons (7)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:30
 msgid ""
@@ -84,6 +89,9 @@ msgid ""
 "(black&white circle) and on the value scale (black&white line). Last "
 "selected swatches are outlined."
 msgstr ""
+"La marca mostrarà la posició del color de primer pla actual a la roda (cercle "
+"blanc i negre) i en l'escala de valors (línia blanca i negra). Les últimes "
+"mostres seleccionades es marcaran amb un marc."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:32
 msgid ""
@@ -92,21 +100,30 @@ msgid ""
 "settings are found under :ref:"
 "`artistic_color_selector_docker_selector_settings` menu (3)."
 msgstr ""
+"Els paràmetres de la roda es poden establir al menú "
+":ref:`artistic_color_selector_docker_wheel_preferences` (2). Els ajustaments "
+"del selector es troben sota el menú :ref:`artistic_color_selector_docker_sele"
+"ctor_settings` (3)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:35
 msgid "Gamut Masking"
-msgstr ""
+msgstr "Emmascarar la gamma"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:37
 msgid ""
 "You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
 msgstr ""
+"Podeu seleccionar i gestionar les vostres màscares de gamma a "
+"l':ref:`gamut_mask_docker`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:39
 msgid ""
 "In the gamut masking toolbar (1) you can toggle the selected mask off and on "
 "(left button). You can also rotate the mask with the rotation slider (right)."
 msgstr ""
+"A la barra d'eines de l'emmascarament de la gamma (1) podreu activar i "
+"desactivar la màscara seleccionada (botó esquerre). També podreu girar la "
+"màscara amb el control lliscant de gir (dreta)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:45
 #: ../../reference_manual/dockers/artistic_color_selector.rst:50
@@ -119,13 +136,15 @@ msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_3.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:53
 msgid "Sliders 1, 2, and 3"
-msgstr ""
+msgstr "Controls lliscants 1, 2 i 3"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:53
 msgid ""
 "adjust the number of steps of the value scale, number of hue sectors and "
 "saturation rings on the wheel, respectively."
 msgstr ""
+"Ajusta el nombre de passos de l'escala de valors, el nombre de sectors de to "
+"i els anells de saturació en la roda, respectivament."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:56
 msgid "Continuous Mode"
@@ -137,6 +156,10 @@ msgid ""
 "infinity icon on the right of the slider). If toggled on, the respective "
 "area shows a continuous gradient instead of the discrete swatches."
 msgstr ""
+"L'escala de valors i els sectors de to també es poden establir al mode "
+"continu (amb la icona infinita que hi ha a la dreta del control lliscant). "
+"Si està activada, l'àrea respectiva mostrarà un degradat continu en lloc de "
+"les mostres discretes."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:59
 msgid "Invert saturation (4)"
@@ -149,12 +172,19 @@ msgid ""
 "perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most "
 "saturated colors in the center."
 msgstr ""
+"Canvia l'ordre dels anells de saturació dins dels sectors de to. De manera "
+"predeterminada, la roda tindrà gris en el centre i la majoria dels colors "
+"més saturats en el perímetre. L'opció :guilabel:`Inverteix la saturació` "
+"farà que el gris estigui en el perímetre i la majoria dels colors més "
+"saturats en el centre."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:62
 msgid ""
 "loads default values for the sliders 1, 2, and 3. These default values are "
 "configured in selector settings."
 msgstr ""
+"Carrega els valors predeterminats per als controls lliscants 1, 2 i 3. "
+"Aquests valors predeterminats es configuren als ajustaments per al selector."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:63
 msgid "Reset to default (5)"
@@ -162,7 +192,7 @@ msgstr "Restaura els valors per defecte (5)"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:68
 msgid "Selector settings"
-msgstr ""
+msgstr "Ajustaments per al selector"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:72
 msgid ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_2.png"
@@ -170,7 +200,7 @@ msgstr ".. image:: images/dockers/Krita_Artistic_Color_Selector_Docker_2.png"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:72
 msgid "Selector settings menu"
-msgstr ""
+msgstr "El menú d'ajustaments per al selector."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:75
 msgid "Show background color indicator"
@@ -178,7 +208,7 @@ msgstr "Mostra l'indicador del color de fons"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:76
 msgid "toggles the bottom-right triangle with current background color."
-msgstr ""
+msgstr "Alterna el triangle inferior dret amb el color de fons actual."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:78
 msgid "Selector Appearance (1)"
@@ -193,12 +223,16 @@ msgid ""
 "If checked, the value scale includes a comparative gray scale with lightness "
 "percentage."
 msgstr ""
+"Si està marcada, l'escala de valors inclourà una escala de grisos comparativa "
+"amb el percentatge de la claredat."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:81
 msgid ""
 "Set the color model used by the selector. For detailed information on color "
 "models, see :ref:`color_models`."
 msgstr ""
+"Estableix el model de color utilitzat pel selector. Per obtenir informació en "
+"detall sobre els models de color, vegeu :ref:`color_models`."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:84
 msgid "Color Space (2)"
@@ -214,10 +248,14 @@ msgid ""
 "and the amount of gamma correction applied to the value scale (set to 1.0 "
 "for linear scale; see :ref:`linear_and_gamma`)."
 msgstr ""
+"Si l'espai de color del selector es troba a HSY, podreu establir coeficients "
+"de luma personalitzats i la quantitat de correcció de la gamma aplicada a "
+"l'escala de valors (establiu-ho a 1,0 per a l'escala lineal; vegeu "
+":ref:`linear_and_gamma`)."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:87
 msgid "Gamut Masking Behavior (4)"
-msgstr ""
+msgstr "Comportament de l'emmascarament de la gamma (4)"
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:87
 msgid ""
@@ -225,6 +263,10 @@ msgid ""
 "colors outside the mask cannot be selected, or to :guilabel:`Just show the "
 "shapes`, where the mask is visible but color selection is not limited."
 msgstr ""
+"El selector pot establir-se a :guilabel:`Força la màscara de gamma`, de "
+"manera que no es podran seleccionar colors fora de la màscara, o a "
+":guilabel:`Només mostra les formes`, on la màscara serà visible, però la "
+"selecció del color no estarà limitada."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:90
 msgid "Default Selector Steps Settings"
@@ -236,19 +278,29 @@ msgid ""
 "guilabel:`Reset to default` button in :ref:"
 "`artistic_color_selector_docker_wheel_preferences` is pressed."
 msgstr ""
+"Els valors de la roda de color i l'escala de valors es restabliran als valors "
+"predeterminats quan es prem el botó :guilabel:`Restableix als valors "
+"predeterminats` a les :ref:`artistic_color_selector_docker_wheel_preferences`"
+"."
 
 #: ../../reference_manual/dockers/artistic_color_selector.rst:93
 msgid "External Info"
-msgstr ""
+msgstr "Informació externa"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/dockers/artistic_color_selector.rst:94
 msgid ""
 "`HSI and HSY for Krita’s advanced colour selector by Wolthera van Hövell tot "
 "Westerflier <http://wolthera.info/?p=726>`_"
 msgstr ""
+"`HSI i HSY per al Selector avançat del color del Krita <"
+"http://wolthera.info/?p=726>`_."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/dockers/artistic_color_selector.rst:95
 msgid ""
 "`The Color Wheel, Part 7 by James Gurney <https://gurneyjourney.blogspot."
 "com/2010/02/color-wheel-part-7.html>`_"
 msgstr ""
+"`La roda de color, part 7 per en James Gurney <"
+"https://gurneyjourney.blogspot.com/2010/02/color-wheel-part-7.html>`_."
