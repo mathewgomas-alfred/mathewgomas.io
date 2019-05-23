@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-18 12:07+0100\n"
+"PO-Revision-Date: 2019-05-22 16:16+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -30,28 +30,25 @@ msgstr ""
 "X-POFile-SpellExtra: BlendingmodesAllanonSampleimagewithdots\n"
 "X-POFile-SpellExtra: BlendingmodesBehindSampleimagewithdots\n"
 "X-POFile-SpellExtra: BlendingmodesParallelSampleimagewithdots Allanon\n"
+"X-POFile-SpellExtra: BlendingmodesPenumbraASampleimagewithdots co\n"
+"X-POFile-SpellExtra: BlendingmodesInterpolationX\n"
+"X-POFile-SpellExtra: BlendingmodesPenumbraDSampleimagewithdots msitura mix\n"
+"X-POFile-SpellExtra: BlendingmodesPenumbraBSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesInterpolationSampleimagewithdots\n"
+"X-POFile-SpellExtra: BlendingmodesPenumbraCSampleimagewithdots\n"
+"X-POFile-SpellExtra: Sampleimagewithdots\n"
 
 #: ../../reference_manual/blending_modes/mix.rst:None
-#, fuzzy
-#| msgid ".. image:: images/blending_modes/Greaterblendmode.gif"
 msgid ".. image:: images/blending_modes/mix/Greaterblendmode.gif"
-msgstr ".. image:: images/blending_modes/Greaterblendmode.gif"
+msgstr ".. image:: images/blending_modes/mix/Greaterblendmode.gif"
 
 #: ../../reference_manual/blending_modes/mix.rst:1
-#, fuzzy
-#| msgid ""
-#| "Page about the mix blending modes in Krita: Allanon, Alpha Darken, "
-#| "Behind, Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard "
-#| "Mix, Hard Overlay, Normal, Overlay and Parallel."
 msgid ""
 "Page about the mix blending modes in Krita: Allanon, Alpha Darken, Behind, "
 "Erase, Geometric Mean, Grain Extract, Grain Merge, Greater, Hard Mix, Hard "
 "Overlay, Interpolation, Interpolation2x, Normal, Overlay, Parallel, Penumbra "
 "A, B, C and D."
-msgstr ""
-"Página sobre os modos de mistura no Krita: Allanon, Escurecimento do Alfa, "
-"Atrás, Apagar, Média Geométrica, Extracção do Grão, Junção do Grão, Maior, "
-"Mistura Forte, Sobreposição Forte, Normal, Sobreposição e Paralela."
+msgstr "Página sobre os modos de mistura no Krita: Allanon, Escurecimento do Alfa, Atrás, Apagar, Média Geométrica, Extracção do Grão, Junção do Grão, Maior, Mistura Forte, Sobreposição Forte, Normal, Sobreposição, Paralela, Penumbra A, B, C e D."
 
 #: ../../reference_manual/blending_modes/mix.rst:16
 msgid "Mix"
@@ -71,16 +68,10 @@ msgstr ""
 "(Adiciona as duas camadas em conjunto e depois calcula a metade do valor)"
 
 #: ../../reference_manual/blending_modes/mix.rst:30
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Allanon_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Allanon_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Allanon_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:30
 msgid "Left: **Normal**. Right: **Allanon**."
@@ -96,29 +87,21 @@ msgid ""
 "Subtract 0.5f by 1/4 of cosine of base layer subtracted by 1/4 of cosine of "
 "blend layer assuming 0-1 range. The result is similar to Allanon mode, but "
 "with more contrast and functional difference to 50% opacity."
-msgstr ""
+msgstr "Subtrai 0,5f em 1/4 do co-seno da camada de base subtraída em 1/4 do co-seno da camada de mistura, assumindo um intervalo de 0-1. O resultado é semelhante ao modo Allanon, mas com mais contraste e diferenças funcionais com 50% de opacidade."
 
 #: ../../reference_manual/blending_modes/mix.rst:44
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Allanon_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Allanon_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Interpolation_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:44
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Allanon**."
 msgid "Left: **Normal**. Right: **Interpolation**."
-msgstr "Esquerda: **Normal**. Direita: **Allanon**."
+msgstr "Esquerda: **Normal**. Direita: **Interpolação**."
 
 #: ../../reference_manual/blending_modes/mix.rst:46
 msgid "Interpolation2x"
-msgstr ""
+msgstr "Interpolação2x"
 
 #: ../../reference_manual/blending_modes/mix.rst:50
 msgid "Interpolation - 2X"
@@ -128,25 +111,17 @@ msgstr "Interpolação - 2X"
 msgid ""
 "Applies Interpolation blend mode to base and blend layers, then duplicate to "
 "repeat interpolation blending."
-msgstr ""
+msgstr "Aplica o modo de mistura por Interpolação Às camadas de base e de msitura, duplicando então para repetir a mistura da interpolação."
 
 #: ../../reference_manual/blending_modes/mix.rst:57
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Allanon_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_X2_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Allanon_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Interpolation_X2_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:57
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Allanon**."
 msgid "Left: **Normal**. Right: **Interpolation - 2X**."
-msgstr "Esquerda: **Normal**. Direita: **Allanon**."
+msgstr "Esquerda: **Normal**. Direita: **Interpolação - 2X**."
 
 #: ../../reference_manual/blending_modes/mix.rst:59
 #: ../../reference_manual/blending_modes/mix.rst:63
@@ -162,16 +137,10 @@ msgstr ""
 "em alguns formatos de ficheiros."
 
 #: ../../reference_manual/blending_modes/mix.rst:70
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:70
 msgid "Left: **Normal**. Right: **Alpha Darken**."
@@ -191,16 +160,10 @@ msgstr ""
 "camada actual."
 
 #: ../../reference_manual/blending_modes/mix.rst:83
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Behind_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Behind_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Behind_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Behind_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:83
 msgid "Left: **Normal**. Right: **Behind**."
@@ -208,7 +171,7 @@ msgstr "Esquerda: **Normal**. Direita: **Atrás**."
 
 #: ../../reference_manual/blending_modes/mix.rst:85
 msgid "Erase (Blending Mode)"
-msgstr ""
+msgstr "Apagar (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/mix.rst:89
 msgid "Erase"
@@ -223,16 +186,10 @@ msgstr ""
 "apagando de facto."
 
 #: ../../reference_manual/blending_modes/mix.rst:96
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Erase_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Erase_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/Blending_modes_Erase_Sample_image_with_dots."
-"png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Erase_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:96
 msgid "Left: **Normal**. Right: **Erase**."
@@ -252,16 +209,10 @@ msgstr ""
 "depois a raiz quadrada do valor."
 
 #: ../../reference_manual/blending_modes/mix.rst:109
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:109
 msgid "Left: **Normal**. Right: **Geometric Mean**."
@@ -281,16 +232,10 @@ msgstr ""
 "camada inferior, sendo depois adicionado 50% de cinzento."
 
 #: ../../reference_manual/blending_modes/mix.rst:122
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Grain_Extract_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Extract_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Grain_Extract_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Grain_Extract_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:122
 msgid "Left: **Normal**. Right: **Grain Extract**."
@@ -310,16 +255,10 @@ msgstr ""
 "inferior, sendo depois subtraído 50% de cinzento."
 
 #: ../../reference_manual/blending_modes/mix.rst:135
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Grain_Merge_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Merge_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Grain_Merge_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Grain_Merge_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:135
 msgid "Left: **Normal**. Right: **Grain Merge**."
@@ -327,7 +266,7 @@ msgstr "Esquerda: **Normal**. Direita: **Junção do Grão**."
 
 #: ../../reference_manual/blending_modes/mix.rst:137
 msgid "Greater (Blending Mode)"
-msgstr ""
+msgstr "Maior (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/mix.rst:141
 msgid "Greater"
@@ -363,16 +302,10 @@ msgstr ""
 "contrário, será o Desvio de Cor."
 
 #: ../../reference_manual/blending_modes/mix.rst:162
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Hard_Mix_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Mix_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Hard_Mix_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Hard_Mix_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:162
 msgid "Left: **Normal**. Right: **Hard Mix**."
@@ -388,10 +321,8 @@ msgstr ""
 "Este é o modo de mistura forte, tal como está implementado no Photoshop."
 
 #: ../../reference_manual/blending_modes/mix.rst:175
-#, fuzzy
-#| msgid ".. image:: images/blending_modes/Krita_4_0_hard_mix_ps.png"
 msgid ".. image:: images/blending_modes/mix/Krita_4_0_hard_mix_ps.png"
-msgstr ".. image:: images/blending_modes/Krita_4_0_hard_mix_ps.png"
+msgstr ".. image:: images/blending_modes/mix/Krita_4_0_hard_mix_ps.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:175
 msgid ""
@@ -411,8 +342,6 @@ msgstr ""
 "mínimo."
 
 #: ../../reference_manual/blending_modes/mix.rst:179
-#, fuzzy
-#| msgid "Hard Overlay"
 msgid "Hard OVerlay"
 msgstr "Sobreposição Forte"
 
@@ -430,16 +359,10 @@ msgstr ""
 "imagens de vírgula flutuante."
 
 #: ../../reference_manual/blending_modes/mix.rst:192
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:192
 msgid "Left: **Normal**. Right: **Hard Overlay**."
@@ -447,11 +370,11 @@ msgstr "Esquerda: **Normal**. Direita: **Sobreposição Forte**."
 
 #: ../../reference_manual/blending_modes/mix.rst:194
 msgid "Normal (Blending Mode)"
-msgstr ""
+msgstr "Normal (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/mix.rst:194
 msgid "Source Over"
-msgstr ""
+msgstr "Origem Sobreposta"
 
 #: ../../reference_manual/blending_modes/mix.rst:198
 msgid "Normal"
@@ -475,16 +398,10 @@ msgstr ""
 "camada inferior, na proporção da sua transparência."
 
 #: ../../reference_manual/blending_modes/mix.rst:207
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:207
 msgid "Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity."
@@ -493,7 +410,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/mix.rst:209
 msgid "Overlay (Blending Mode)"
-msgstr ""
+msgstr "Sobreposição (Modo de Mistura)"
 
 #: ../../reference_manual/blending_modes/mix.rst:213
 msgid "Overlay"
@@ -522,16 +439,10 @@ msgid "This is useful for deepening shadows and highlights."
 msgstr "Isto é útil para aprofundar as sombras e os tons claros."
 
 #: ../../reference_manual/blending_modes/mix.rst:224
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Overlay_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Overlay_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:224
 msgid "Left: **Normal**. Right: **Overlay**."
@@ -552,16 +463,10 @@ msgstr ""
 "divide 2 pela soma."
 
 #: ../../reference_manual/blending_modes/mix.rst:239
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Parallel_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Parallel_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Parallel_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Parallel_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:239
 msgid "Left: **Normal**. Right: **Parallel**."
@@ -576,25 +481,17 @@ msgstr "Penumbra A"
 msgid ""
 "Creates a linear penumbra falloff. This means most tones will be in the "
 "midtone ranges."
-msgstr ""
+msgstr "Cria um decaimento linear da penumbra. Isto significa que a maioria dos tons estarão na gama dos tons intermédios."
 
 #: ../../reference_manual/blending_modes/mix.rst:252
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_A_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Penumbra_A_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:252
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Overlay**."
 msgid "Left: **Normal**. Right: **Penumbra A**."
-msgstr "Esquerda: **Normal**. Direita: **Sobreposição**."
+msgstr "Esquerda: **Normal**. Direita: **Penumbra A**."
 
 #: ../../reference_manual/blending_modes/mix.rst:254
 #: ../../reference_manual/blending_modes/mix.rst:258
@@ -603,25 +500,17 @@ msgstr "Penumbra B"
 
 #: ../../reference_manual/blending_modes/mix.rst:260
 msgid "Penumbra A with source and destination layer swapped."
-msgstr ""
+msgstr "Penumbra A com a camada de origem e de destino trocadas."
 
 #: ../../reference_manual/blending_modes/mix.rst:265
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_B_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Penumbra_B_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:265
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Overlay**."
 msgid "Left: **Normal**. Right: **Penumbra B**."
-msgstr "Esquerda: **Normal**. Direita: **Sobreposição**."
+msgstr "Esquerda: **Normal**. Direita: **Penumbra B**."
 
 #: ../../reference_manual/blending_modes/mix.rst:267
 #: ../../reference_manual/blending_modes/mix.rst:271
@@ -632,25 +521,17 @@ msgstr "Penumbra C"
 msgid ""
 "Creates a penumbra-like falloff using arc-tangent formula. This means most "
 "tones will be in the midtone ranges."
-msgstr ""
+msgstr "Cria um decaimento semelhante à penumbra com uma fórmula de arco-tangente. Isto significa que a maioria dos tons estarão na gama dos tons intermédios."
 
 #: ../../reference_manual/blending_modes/mix.rst:278
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_C_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Penumbra_C_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:278
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Overlay**."
 msgid "Left: **Normal**. Right: **Penumbra C**."
-msgstr "Esquerda: **Normal**. Direita: **Sobreposição**."
+msgstr "Esquerda: **Normal**. Direita: **Penumbra C**."
 
 #: ../../reference_manual/blending_modes/mix.rst:280
 #: ../../reference_manual/blending_modes/mix.rst:284
@@ -659,22 +540,14 @@ msgstr "Penumbra D"
 
 #: ../../reference_manual/blending_modes/mix.rst:286
 msgid "Penumbra C with source and destination layer swapped."
-msgstr ""
+msgstr "Penumbra C com a camada de origem e de destino trocadas."
 
 #: ../../reference_manual/blending_modes/mix.rst:291
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/blending_modes/"
-#| "Blending_modes_Overlay_Sample_image_with_dots.png"
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_D_Sample_image_with_dots.png"
-msgstr ""
-".. image:: images/blending_modes/"
-"Blending_modes_Overlay_Sample_image_with_dots.png"
+msgstr ".. image:: images/blending_modes/mix/Blending_modes_Penumbra_D_Sample_image_with_dots.png"
 
 #: ../../reference_manual/blending_modes/mix.rst:291
-#, fuzzy
-#| msgid "Left: **Normal**. Right: **Overlay**."
 msgid "Left: **Normal**. Right: **Penumbra D**."
-msgstr "Esquerda: **Normal**. Direita: **Sobreposição**."
+msgstr "Esquerda: **Normal**. Direita: **Penumbra D**."

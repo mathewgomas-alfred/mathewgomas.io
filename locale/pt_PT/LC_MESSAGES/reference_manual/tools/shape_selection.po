@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-20 01:35+0100\n"
+"PO-Revision-Date: 2019-05-22 09:46+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -37,40 +37,28 @@ msgstr ""
 "   :alt: ferramenta de selecção de formas"
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/icons/shape_select_tool.svg\n"
-#| "   :alt: toolshapeselection"
 msgid ""
 ".. image:: images/tools/shape-selection-menu-geometry.png\n"
 "   :alt: Tool options: Geometry tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: ferramenta de selecção de formas"
+".. image:: images/tools/shape-selection-menu-geometry.png\n"
+"   :alt: Opções da ferramenta: Ferramenta de geometria."
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/icons/shape_select_tool.svg\n"
-#| "   :alt: toolshapeselection"
 msgid ""
 ".. image:: images/tools/shape-selection-menu-stroke.png\n"
 "   :alt: Tool options: Stroke tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: ferramenta de selecção de formas"
+".. image:: images/tools/shape-selection-menu-stroke.png\n"
+"   :alt: Opções da ferramenta: Ferramenta do traço."
 
 #: ../../reference_manual/tools/shape_selection.rst:None
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/icons/shape_select_tool.svg\n"
-#| "   :alt: toolshapeselection"
 msgid ""
 ".. image:: images/tools/shape-selection-menu-fill.png\n"
 "   :alt: Tool options: Fill tool."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: ferramenta de selecção de formas"
+".. image:: images/tools/shape-selection-menu-fill.png\n"
+"   :alt: Opções da ferramenta: Ferramenta de preenchimento."
 
 #: ../../reference_manual/tools/shape_selection.rst:1
 msgid "Krita's shape selection tool reference."
@@ -85,10 +73,8 @@ msgid "Vector"
 msgstr "Vector"
 
 #: ../../reference_manual/tools/shape_selection.rst:13
-#, fuzzy
-#| msgid "Shape Selection Tool"
 msgid "Shape Selection"
-msgstr "Ferramenta de Selecção de Formas"
+msgstr "Selecção de Formas"
 
 #: ../../reference_manual/tools/shape_selection.rst:18
 msgid "Shape Selection Tool"
@@ -139,70 +125,52 @@ msgstr "Usando o |mouseleft| sobre uma única forma para a seleccionar."
 #: ../../reference_manual/tools/shape_selection.rst:32
 msgid ""
 "*Blue selection* (drag left to right): selects only shapes fully covered."
-msgstr ""
+msgstr "*Selecção azul* (arraste da esquerda para a direita): selecciona apenas as formas cobertas por completo."
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "|mouseleft| and drag to select multiple shapes."
-msgstr ""
+msgstr "Use o |mouseleft| e o arrastamento para seleccionar várias formas."
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "*Green selection* (drag right to left): selects all the touched shapes."
-msgstr ""
+msgstr "*Selecção verde* (arrastamento da direita para a esquerda): selecciona todas as formas tocadas."
 
 #: ../../reference_manual/tools/shape_selection.rst:39
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/icons/shape_select_tool.svg\n"
-#| "   :alt: toolshapeselection"
 msgid ""
 ".. image:: images/tools/blue-and-green-selections.png\n"
 "   :alt: Left: Blue selection. Right: Green selection."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: ferramenta de selecção de formas"
+".. image:: images/tools/blue-and-green-selections.png\n"
+"   :alt: Esquerda: Selecção azul. Direita: Selecção verde."
 
 #: ../../reference_manual/tools/shape_selection.rst:39
 msgid ""
 "Blue selection: left-to-right, selects fully covered images. --  Green "
 "selection: right-to-left, selects touched shapes."
-msgstr ""
+msgstr "Selecção azul: esquerda-para-direita, seleccione as imagens cobertas por completo. -- Selecção verde: direita-para-esquerda, selecciona as formas tocadas."
 
 #: ../../reference_manual/tools/shape_selection.rst:42
 msgid "Placement, Scale, Angle and Distortion"
-msgstr ""
+msgstr "Colocação, Escala, Ângulo e Distorção"
 
 #: ../../reference_manual/tools/shape_selection.rst:44
-#, fuzzy
-#| msgid ""
-#| "Once an object is selected, a dashed box will appear around the object. "
-#| "There are handles that you can pull and stretch the box to scale it. If "
-#| "you move your cursor just outside the corner handles you can rotate the "
-#| "object."
 msgid ""
 "Once an object is selected, a dashed bounding box will appear around it. The "
 "box will also have square handles. You can use this bounding box to do "
 "adjust: placement, scale, angle and distortion of the selected object."
-msgstr ""
-"Assim que tiver seleccionado um objecto, irá aparecer uma caixa tracejada em "
-"torno do objecto. Existem pegas que poderá puxar e esticar para ajustar a "
-"escala. Se mover o cursor para fora das pegas dos cantos, poderá rodar o "
-"mesmo."
+msgstr "Assim que tiver seleccionado um objecto, irá aparecer uma caixa tracejada em torno do objecto. Essa caixa também irá ter pegas quadradas. Poderá usar esta caixa envolvente para ajustar os seguintes parâmetros: colocação, escala, ângulo e distorção do objecto seleccionado."
 
 #: ../../reference_manual/tools/shape_selection.rst:50
-#, fuzzy
-#| msgid ""
-#| ".. image:: images/icons/shape_select_tool.svg\n"
-#| "   :alt: toolshapeselection"
 msgid ""
 ".. image:: images/tools/shapes-selection-properties.png\n"
 "   :alt: Left to right: Placement, Scale, Angle and Distortion."
 msgstr ""
-".. image:: images/icons/shape_select_tool.svg\n"
-"   :alt: ferramenta de selecção de formas"
+".. image:: images/tools/shapes-selection-properties.png\n"
+"   :alt: Esquerda para a direita: Colocação, Escala, Ângulo e Distorção."
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid "Left to right: Placement, Scale, Angle and Distortion."
-msgstr ""
+msgstr "Esquerda para a direita: Colocação, Escala, Ângulo e Distorção."
 
 #: ../../reference_manual/tools/shape_selection.rst:52
 msgid "Placement"
@@ -212,7 +180,7 @@ msgstr "Colocação"
 msgid ""
 "|mouseleft| and hold inside the bounding box, while holding move the shape "
 "to the desired position."
-msgstr ""
+msgstr "Use o |mouseleft| e mantenha-o carregado dentro da área envolvente; enquanto mantém carregado, mova a forma para a posição desejada."
 
 #: ../../reference_manual/tools/shape_selection.rst:54
 msgid "Scale"
@@ -222,7 +190,7 @@ msgstr "Escala"
 msgid ""
 "|mouseleft| and hold inside any of the square handles, move to adjust the "
 "dimensions of the object."
-msgstr ""
+msgstr "Use o |mouseleft| e mantenha-o carregado dentro de qualquer uma das pegas quadradas, mova para ajustar as dimensões do objecto."
 
 #: ../../reference_manual/tools/shape_selection.rst:56
 msgid "Angle"
@@ -232,7 +200,7 @@ msgstr "Ângulo"
 msgid ""
 "Place the cursor slightly outside any of the corner handles. |mouseleft| and "
 "drag to adjust the angle of the shape."
-msgstr ""
+msgstr "Coloque o cursor ligeiramente fora de qualquer uma das pegas dos cantos. Use o |mouseleft| e arraste para ajustar o ângulo da forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid "Distortion"
@@ -242,7 +210,7 @@ msgstr "Distorção"
 msgid ""
 "Place the cursor slightly outside any of the middle handles. |mouseleft| and "
 "drag to skew the shape."
-msgstr ""
+msgstr "Coloque o cursor ligeiramente fora de qualquer uma das pegas do meio. Use o |mouseleft| e arraste para inclinar a forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:62
 msgid "Tool Options"
@@ -260,35 +228,23 @@ msgid "Geometry"
 msgstr "Geometria"
 
 #: ../../reference_manual/tools/shape_selection.rst:74
-#, fuzzy
-#| msgid ""
-#| "Geometry is the first section. It allows you to precisely set the x, y, "
-#| "width and height."
 msgid ""
 "Geometry is the first section in the tool options. This section allows you "
 "to set precisely the 'x' and 'y' coordinates, and also the width and height "
 "of the shape."
-msgstr ""
-"A Geometria é a primeira secção. Permite-lhe definir de forma precisa o X, o "
-"Y, a largura e a altura."
+msgstr "A Geometria é a primeira secção nas opções de ferramentas. A mesma permite-lhe definir de forma precisa o X, o Y, assim como a largura e a altura da forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:77
 msgid "Enabled: when scaling, it will scale the stroke width with the shape."
-msgstr ""
+msgstr "Activada: quando mudar a escala, irá ajustar a escala da espessura do traço com a forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:78
 msgid "Uniform scaling"
 msgstr "Escala uniforme"
 
 #: ../../reference_manual/tools/shape_selection.rst:79
-#, fuzzy
-#| msgid ""
-#| "When enabled, it will scale the stroke width with the shape, when not "
-#| "enabled, the stroke with will stay the same."
 msgid "Not enabled: when scaling, the stroke width will stay the same."
-msgstr ""
-"Quando estiver activada, irá ajustar a escala de espessura do traço com a "
-"forma; quando não o estiver, o traço continuará igual."
+msgstr "Não activada: quando ajustar a escala, o traço continuará igual."
 
 #: ../../reference_manual/tools/shape_selection.rst:80
 msgid "Global coordinates"
@@ -308,30 +264,22 @@ msgid "Opacity"
 msgstr "Opacidade"
 
 #: ../../reference_manual/tools/shape_selection.rst:83
-#, fuzzy
-#| msgid "The general opacity, or transparency, of the object."
 msgid ""
 "The general opacity, or transparency, of the object. Opacity for stroke and "
 "fill are explained in the next two sections."
-msgstr "A opacidade ou transparência geral do objecto."
+msgstr "A opacidade ou transparência geral do objecto. A opacidade para o traço e o preenchimento é explicada nas duas seguintes secções."
 
 #: ../../reference_manual/tools/shape_selection.rst:87
-#, fuzzy
-#| msgid "This is not implemented at the moment."
 msgid "Anchor Lock is not implemented at the moment."
-msgstr "Não está implementada de momento."
+msgstr "O Bloqueio da Âncora não está implementado de momento."
 
 #: ../../reference_manual/tools/shape_selection.rst:91
 msgid "Stroke"
 msgstr "Traço"
 
 #: ../../reference_manual/tools/shape_selection.rst:97
-#, fuzzy
-#| msgid "The stroke tab determines how stroke around the object should look."
 msgid "The stroke tab determines how the stroke around the object should look."
-msgstr ""
-"A página do Traço define como é deverá ficar o visual do traço em torno do "
-"objecto."
+msgstr "A página do Traço define como é deverá ficar o visual do traço em torno do objecto."
 
 #: ../../reference_manual/tools/shape_selection.rst:99
 #, fuzzy
@@ -380,7 +328,7 @@ msgstr "Estilo dos cantos e extremos"
 msgid ""
 "Sets the stroke cap and stroke corner style, this can be accessed by "
 "pressing the three dots button next to the thickness entry."
-msgstr ""
+msgstr "Define o estilo de extremidades e de cantos do traço. Isto poderá ser acedido se carregar no botão das reticências a seguir ao elemento da espessura."
 
 #: ../../reference_manual/tools/shape_selection.rst:107
 msgid "Line-style"
@@ -421,7 +369,7 @@ msgid ""
 "This section is about the color that fills the shape. As mentioned above in "
 "the **Stroke** section, the features are the same for both the fill of the "
 "stroke and the fill of the shape. Here is the explanation for both:"
-msgstr ""
+msgstr "Esta secção diz respeito à cor que preenche a forma. Como foi mencionado acima na secção do **Traço**, as funcionalidades são as mesmas tanto para o preenchimento do traço como para o preenchimento da forma. Aqui está a explicação para ambos:"
 
 #: ../../reference_manual/tools/shape_selection.rst:120
 #, fuzzy
@@ -454,7 +402,7 @@ msgstr ""
 msgid ""
 "As the name implies this type fills the shape with a gradient. It has the "
 "following options:"
-msgstr ""
+msgstr "Como o nome indica, este tipo preenche a forma com um gradiente. Tem as seguintes opções:"
 
 #: ../../reference_manual/tools/shape_selection.rst:129
 msgid "Type"
@@ -480,7 +428,7 @@ msgstr "Predefinição"
 msgid ""
 "A menu for selecting a base gradient from a set of predefined gradient "
 "presets, which can be edited as desired."
-msgstr ""
+msgstr "Um menu para seleccionar um gradiente de base a partir de um conjunto de predefinições de gradientes, os quais pode editar como desejar."
 
 #: ../../reference_manual/tools/shape_selection.rst:135
 #, fuzzy
@@ -508,7 +456,7 @@ msgid ""
 "anywhere on the line. To select a stop |mouseleft| inside the triangle. To "
 "delete the stops, |mouseleft| drag them to left or right until the end of "
 "the line."
-msgstr ""
+msgstr "Uma representação da forma como deverão aparecer as cores dos gradientes. As paragens são representadas por triângulos. Existem duas paragens por omissão, estando uma no início e outra no fim, Poderá criar mais paragens se carregar em qualquer ponto da linha. Para seleccionar uma paragem, use o |mouseleft| dentro do triângilo. Para apagar as paragens, arraste-a com o |mouseleft| para a esquerda ou para a direita em direcção ao extremo respectivo."
 
 #: ../../reference_manual/tools/shape_selection.rst:140
 msgid "Flip Gradient"
@@ -516,7 +464,7 @@ msgstr "Inverter o Gradiente"
 
 #: ../../reference_manual/tools/shape_selection.rst:141
 msgid "A quick way to invert the order of the gradient."
-msgstr ""
+msgstr "Uma forma rápida de inverter a ordem do gradiente."
 
 #: ../../reference_manual/tools/shape_selection.rst:142
 msgid "Stop"
@@ -524,7 +472,7 @@ msgstr "Parar"
 
 #: ../../reference_manual/tools/shape_selection.rst:143
 msgid "Choose a color for the current selected stop."
-msgstr ""
+msgstr "Escolha uma cor para a paragem seleccionada de momento."
 
 #: ../../reference_manual/tools/shape_selection.rst:145
 msgid "Gradient"
@@ -532,14 +480,14 @@ msgstr "Gradiente"
 
 #: ../../reference_manual/tools/shape_selection.rst:145
 msgid "Choose the opacity for the current selected stop."
-msgstr ""
+msgstr "Escolha a opacidade para a paragem seleccionada de momento."
 
 #: ../../reference_manual/tools/shape_selection.rst:149
 msgid ""
 "When a stop triangle is selected, it is highlighted with a slight blue "
 "outline. The selected stop triangle will change its color and opacity "
 "accordingly when these options are changed."
-msgstr ""
+msgstr "Quando seleccionar um triângulo de paragem, o mesmo fica realçado com um ligeiro contorno azul. O triângulo da paragem seleccionada irá mudar a sua cor e opacidade de acordo com as alterações destas opções."
 
 #: ../../reference_manual/tools/shape_selection.rst:153
 #, fuzzy
