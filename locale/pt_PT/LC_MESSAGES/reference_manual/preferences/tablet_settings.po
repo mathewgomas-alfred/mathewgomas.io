@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-20 00:46+0100\n"
+"PO-Revision-Date: 2019-05-23 19:00+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: en Krita ref image Ink Wacom Surface images WinTab\n"
 "X-POFile-SpellExtra: Revoy KritaPreferencesTabletSettings Trig tablet\n"
-"X-POFile-SpellExtra: preferences advanced settings\n"
+"X-POFile-SpellExtra: preferences advanced settings recalibrar Tablet kbd\n"
+"X-POFile-SpellExtra: Tabletes Preference Clicks Utility\n"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:1
 msgid "Configuring the tablet in Krita."
@@ -39,7 +40,7 @@ msgstr "Configuração"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:12
 msgid "Pressure Curve"
-msgstr ""
+msgstr "Curva de Pressão"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:17
 msgid "Tablet Settings"
@@ -67,11 +68,11 @@ msgid ""
 "instead of a tablet. It may or may not work on your device (depends on the "
 "tablet driver implementation). After changing this option Krita should be "
 "restarted."
-msgstr ""
+msgstr "Alguns dispositivos de tablete não nos comunicam quais são os botões laterais de um lápis. Se tiver um desses dispositivos, poderá tentar activar este truque. O Krita irá tentar ler os 'clicks' do botão direito e do mesmo como se estivessem a vir de um rato em vez de uma tablete. Poderá ou não funcionar no seu dispositivo (depende da implementação do controlador da tablete). Depois de mudar esta opção, deverá reiniciar o Krita."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:26
 msgid "Use Mouse Events for Right and Middle clicks."
-msgstr ""
+msgstr "Usar os Eventos do Rato para os 'Clicks' Direitos e do Meio."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:29
 msgid "on Windows 8 or above only"
@@ -129,84 +130,84 @@ msgid ""
 "will get conflicting information about how big your screen is, and sometimes "
 "if it has to choose itself, there will be a tablet offset. This window "
 "allows you to select the appropriate screen resolution."
-msgstr ""
+msgstr "Ao usar vários monitores ou usar uma tablete que também é um ecrã, o Krita irá obter informações em conflito sobre o tamanho do seu ecrã e, em alguns casos se tiver de escolher ele mesmo, irá existir um deslocamento da tablete. Esta janela permite-lhe seleccionar a resolução apropriada do ecrã."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:44
 msgid "Use Information Provided by Tablet"
-msgstr ""
+msgstr "Usar a Informação Devolvida pela Tablete"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:45
 msgid "Use the information as given by the tablet."
-msgstr ""
+msgstr "Usa a informação que é fornecida pela tablete."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:46
 msgid "Map to entire virtual screen"
-msgstr ""
+msgstr "Associar ao ecrã virtual inteiro"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:47
 msgid "Use the information as given by Windows."
-msgstr ""
+msgstr "Usa a informação devolvida pelo Windows."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:49
 msgid ""
 "Type in the numbers manually. Use this when you have tried the other "
 "options. You might even need to do trial and error if that is the case, but "
 "at the least you can configure it."
-msgstr ""
+msgstr "Indique os números manualmente. Use isto quando tiver experimentado as outras opções. Poderá até usar a tentativa e erro, se for o caso; porém, o mínimo será configurá-lo."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:51
 msgid "Map to Custom Area"
-msgstr ""
+msgstr "Associar a uma Área Personalizada"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:51
 msgid ""
 "If you have a dual monitor setup and only the top half of the screen is "
 "reachable, you might have to enter the total width of both screens plus the "
 "double height of your monitor in this field."
-msgstr ""
+msgstr "Se tiver uma configuração com dois monitores e só a metade superior do ecrã estiver acessível, provavelmente terá de indicar a largura total de ambos os ecrãs mais o dobro da altura do seu monitor neste campo."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:55
 msgid ""
 "To access this dialog in Krita versions older than 4.2, you had to do the "
 "following:"
-msgstr ""
+msgstr "Para aceder a esta janela nas versões do Krita anteriores à 4.2, terá de fazer o seguinte:"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:57
 msgid "Put your stylus away from the tablet."
-msgstr ""
+msgstr "Coloque o seu lápis longe da tablete."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:58
 msgid ""
 "Start Krita without using a stylus, that is using a mouse or a keyboard."
-msgstr ""
+msgstr "Inicie o Krita sem usar o lápis; isto é, usando um rato ou o teclado."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:59
 msgid "Press :kbd:`Shift` key and hold it."
-msgstr ""
+msgstr "Carregue no :kbd:`Shift` e mantenha-o assim carregado."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:60
 msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr ""
+msgstr "Toque numa tablete com o seu lápis para que o Krita o reconheça."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:62
 msgid ""
 "If adjusting this doesn't work, and if you have a Wacom tablet, an offset in "
 "the canvas can be caused by a faulty Wacom preference file which is not "
 "removed or replaced by reinstalling the drivers."
-msgstr ""
+msgstr "Se ajustar isto não resultar, e caso tenha uma tablete da Wacom, o deslocamento na área de desenho poderá ser provocado por um ficheiro de preferências da Wacom com problemas e que não é removido ou substituído sem reinstalar os controladores."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:64
 msgid ""
 "To fix it, use the “Wacom Tablet Preference File Utility” to clear all the "
 "preferences. This should allow Krita to detect the correct settings "
 "automatically."
-msgstr ""
+msgstr "Para o corrigir, use o “Wacom Tablet Preference File Utility” (Utilitário de Ficheiros de Preferências de Tabletes Wacom) para limpar todas as preferências. Isto deverá permitir ao Krita detectar as configurações correctas de forma automática."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:67
 msgid ""
 "Clearing all wacom preferences will reset your tablet's configuration, thus "
 "you will need to recalibrate/reconfigure it."
-msgstr ""
+msgstr "Se limpar todas as preferências da Wacom, irá limpar a configuração da sua tablete, pelo que terá à mesma de recalibrar/reconfigurar a mesma."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:70
 msgid "Tablet Tester"

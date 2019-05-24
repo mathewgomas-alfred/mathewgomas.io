@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-17 18:22+0200\n"
+"PO-Revision-Date: 2019-05-23 19:17+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -57,7 +57,7 @@ msgstr ".. image:: images/dockers/Krita_Gamut_Mask_Docker.png"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:22
 msgid "Docker for gamut masks selection and management."
-msgstr ""
+msgstr "Acoblador per a la selecció i gestió de les màscares de gamma."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:25
 msgid "Usage"
@@ -66,14 +66,17 @@ msgstr "Ús"
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:27
 msgid "|mouseleft| an icon (1) to apply a mask to color selectors."
 msgstr ""
+"Feu |mouseleft| sobre una icona (1) per aplicar una màscara als selectors de "
+"color."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:29
 msgid "Gamut Masks can be imported and exported in the resource manager."
 msgstr ""
+"Les màscares de gamma es poden importar i exportar en el Gestor de recursos."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:33
 msgid "Management Toolbar"
-msgstr ""
+msgstr "Barra d'eines per a la gestió"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:35
 msgid "Create new mask (2)"
@@ -81,61 +84,67 @@ msgstr "Crea una màscara nova (2)"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:36
 msgid "opens the mask editor with an empty template."
-msgstr ""
+msgstr "Obre l'editor de màscares amb una plantilla buida."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:37
 msgid "Edit mask (3)"
-msgstr ""
+msgstr "Edita la màscara (3)"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:38
 msgid "opens the the currently selected mask in the editor."
-msgstr ""
+msgstr "Obre a l'editor la màscara actualment seleccionada."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:39
 msgid "Duplicate mask (4)"
-msgstr ""
+msgstr "Duplica la màscara (4)"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:40
 msgid ""
 "creates a copy of the currently selected mask and opens the copy in the "
 "editor."
 msgstr ""
+"Crea una còpia de la màscara actualment seleccionada i obre la còpia a "
+"l'editor."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:42
 msgid "deletes the currently selected mask."
-msgstr ""
+msgstr "Suprimeix la màscara actualment seleccionada."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:43
 msgid "Delete mask (5)"
-msgstr ""
+msgstr "Suprimeix la màscara (5)"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:46
 msgid "Editing"
-msgstr "Edició"
+msgstr "Editar"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:48
 msgid ""
 "If you choose to create a new mask, edit, or duplicate selected mask, the "
 "mask template document will be opened as a new view (1)."
 msgstr ""
+"Si trieu crear una màscara nova, editar o duplicar la màscara seleccionada, "
+"la plantilla de màscara s'obrirà a una vista nova (1)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:50
 msgid ""
 "There you can create new shapes and modify the mask with standard vector "
 "tools (:ref:`vector_graphics`)."
 msgstr ""
+"Allà podreu crear formes noves i modificar la màscara amb les eines "
+"vectorials estàndard (:ref:`vector_graphics`)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:52
 msgid "Fill in the fields at (2)."
-msgstr ""
+msgstr "Empleneu els camps al (2)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:54
 msgid "Title (Mandatory)"
-msgstr ""
+msgstr "Títol (obligatori)"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:55
 msgid "The name of the gamut mask."
-msgstr ""
+msgstr "El nom de la màscara de gamma."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:57
 msgid "Description"
@@ -143,27 +152,34 @@ msgstr "Descripció"
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:57
 msgid "A description."
-msgstr ""
+msgstr "Una descripció."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:59
 msgid ""
 ":guilabel:`Preview` the mask in the artistic color selector (4), :guilabel:"
 "`save` the mask (5), or :guilabel:`cancel` editing (3)."
 msgstr ""
+"Feu una :guilabel:`Vista prèvia` de la màscara al selector de color artístic "
+"(4), feu un :guilabel:`Desa` la màscara (5) o feu un :guilabel:`Cancel·la` "
+"per tancar l'edició (3)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:63
 msgid ""
 "The shapes need to be added to the layer named “maskShapesLayer” (which is "
 "selected by default)."
 msgstr ""
+"Les formes s'hauran d'afegir a la capa anomenada «maskShapesLayer» (la qual "
+"està seleccionada de manera predeterminada)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:64
 msgid "The shapes need have solid background to show correctly in the editor."
 msgstr ""
+"Les formes hauran de tenir un fons sòlid per a mostrar-se correctament a "
+"l'editor."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:65
 msgid "A template with no shapes cannot be saved."
-msgstr ""
+msgstr "No es podrà desar una plantilla sense formes."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:69
 msgid ""
@@ -172,6 +188,10 @@ msgid ""
 "techniques, not all features are guaranteed to work properly (e.g. grouping, "
 "vector text, etc.)."
 msgstr ""
+"La màscara està destinada a estar composta de formes vectorials bàsiques. "
+"Encara que poden sorgir resultats interessants emprant tècniques avançades "
+"de dibuix vectorial, no es garanteix que totes les característiques "
+"funcionin correctament (p. ex., agrupació, text vectorial, etc.)."
 
 #: ../../reference_manual/dockers/gamut_mask_docker.rst:72
 msgid ".. image:: images/dockers/Krita_Gamut_Mask_Docker_2.png"

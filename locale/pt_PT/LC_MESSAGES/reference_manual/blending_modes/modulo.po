@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-07 13:53+0000\n"
+"PO-Revision-Date: 2019-05-23 17:14+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -16,10 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-POFile-SpellExtra: BlendingmodesModuloContinuousGradientComparison Krita\n"
+"X-POFile-SpellExtra: image\n"
+"X-POFile-SpellExtra: BlendingmodesModuloShiftContinuousGradientComparison\n"
+"X-POFile-SpellExtra: BlendingmodesDivisiveModuloGradientComparison\n"
+"X-POFile-SpellExtra: blendingmodes\n"
+"X-POFile-SpellExtra: BlendingmodesModuloShiftGradientComparison images\n"
+"X-POFile-SpellExtra: BlendingmodesModuloGradientComparison Divisivo\n"
+"X-POFile-SpellExtra: BlendingmodesDivisiveModuloContinuousGradientComparison\n"
 
 #: ../../reference_manual/blending_modes/modulo.rst:1
 msgid "Page about the modulo blending modes in Krita:"
-msgstr ""
+msgstr "Página sobre os modos de mistura por módulo no Krita."
 
 #: ../../reference_manual/blending_modes/modulo.rst:10
 #: ../../reference_manual/blending_modes/modulo.rst:14
@@ -38,13 +46,13 @@ msgid ""
 "operation is within the range between a odd number to even number, then "
 "values are inverted in the end result, so values are perceived to be wave-"
 "like."
-msgstr ""
+msgstr "Os modos do módulo são uma classe especial de modos de mistura que percorre um ciclo de valores quando o valor da camada de mistura do canal for inferior o valor do canal nas camadas de base. Todos os modos nos modos do módulo retêm o valor absoluto do resto, caso o valor seja superior ao valor máximo ou o valor é inferior ao mínimo. Os modos contínuos assumem que, se o valor calculado antes da operação do módulo estiver dentro do intervalo entre um número ímpar e um par, então os valores são invertidos no resultado final, pelo que os valores parecem obedecer a um padrão ondular."
 
 #: ../../reference_manual/blending_modes/modulo.rst:18
 msgid ""
 "Furthermore, this would imply that modulo modes are beneficial for abstract "
 "art, and manipulation of gradients."
-msgstr ""
+msgstr "Para além disso, isto iria implicar que os modos por módulo são benéficos para a arte abstracta e para a manipulação de gradientes."
 
 #: ../../reference_manual/blending_modes/modulo.rst:20
 #: ../../reference_manual/blending_modes/modulo.rst:24
@@ -57,18 +65,18 @@ msgid ""
 "possible value after zero. Then, performs a modulo calculation using the "
 "value found with the sum of blend layer and the minimum possible value after "
 "zero."
-msgstr ""
+msgstr "Em primeiro lugar, a Camada de Base é dividida pela soma da camada de mistura com o valor mínimo possível a seguir ao zero. Depois, efectua um cálculo do módulo com o valor obtida com a soma da camada de mistura e o valor mínimo possível a seguir ao zero."
 
 #: ../../reference_manual/blending_modes/modulo.rst:31
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Divisive_Modulo_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:31
 msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Módulo Divisivo**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:33
 #: ../../reference_manual/blending_modes/modulo.rst:38
@@ -82,35 +90,35 @@ msgid ""
 "value found with the sum of blend layer and the minimum possible value after "
 "zero. As this is a continuous mode, anything between odd to even numbers are "
 "inverted."
-msgstr ""
+msgstr "Em primeiro lugar, a Camada de Base é dividida pela soma da camada de mistura com o valor mínimo possível a seguir ao zero. Depois, efectua um cálculo do módulo com o valor obtida com a soma da camada de mistura e o valor mínimo possível a seguir ao zero. Como este é um modo contínuo, tudo o que exista entre os números ímpares e os pares é invertido."
 
 #: ../../reference_manual/blending_modes/modulo.rst:45
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Divisive_Modulo_Continuous_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Divisive_Modulo_Continuous_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:45
 msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Divisive Modulo - "
 "Continuous**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Módulo Divisivo - Contínuo**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:53
 msgid ""
 "Performs a modulo calculation using the sum of blend layer and the minimum "
 "possible value after zero."
-msgstr ""
+msgstr "Efectua um cálculo do módulo, usando a soma da camada de mistura e o valor mínimo possível a seguir ao zero."
 
 #: ../../reference_manual/blending_modes/modulo.rst:58
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Modulo_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:58
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Módulo**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:60
 #: ../../reference_manual/blending_modes/modulo.rst:64
@@ -122,19 +130,19 @@ msgid ""
 "Performs a modulo calculation using the sum of blend layer and the minimum "
 "possible value after zero. As this is a continuous mode, anything between "
 "odd to even numbers are inverted."
-msgstr ""
+msgstr "Efectua um cálculo do módulo, usando a soma da camada de mistura e o valor mínimo possível a seguir ao zero. Como isto é um modo contínuo, tudo o que existir entre os números ímpares e os pares é invertido."
 
 #: ../../reference_manual/blending_modes/modulo.rst:71
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Modulo_Continuous_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Continuous_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:71
 msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo - "
 "Continuous**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Módulo - Contínuo**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:73
 #: ../../reference_manual/blending_modes/modulo.rst:77
@@ -145,17 +153,17 @@ msgstr "Desvio com Módulo"
 msgid ""
 "Performs a modulo calculation with the result of the sum of base and blend "
 "layer by the sum of blend layer with the minimum possible value after zero."
-msgstr ""
+msgstr "Efectua um cálculo do módulo com o resultado da soma da camada de base e de mistura com a soma da camada de mistura, usando o valor mínimo possível a seguir ao zero."
 
 #: ../../reference_manual/blending_modes/modulo.rst:85
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Modulo_Shift_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:85
 msgid "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Deslocamento do Módulo**."
 
 #: ../../reference_manual/blending_modes/modulo.rst:87
 #: ../../reference_manual/blending_modes/modulo.rst:91
@@ -168,16 +176,16 @@ msgid ""
 "layer by the sum of blend layer with the minimum possible value after zero.  "
 "As this is a continuous mode, anything between odd to even numbers are "
 "inverted."
-msgstr ""
+msgstr "Efectua um cálculo do módulo com o resultado da soma da camada de base e de mistura com a soma da camada de mistura, usando o valor mínimo possível a seguir ao zero. Como isto é um modo contínuo, tudo o que existir entre os números pares e ímpares é invertido."
 
 #: ../../reference_manual/blending_modes/modulo.rst:98
 msgid ""
 ".. image:: images/blending_modes/modulo/"
 "Blending_modes_Modulo_Shift_Continuous_Gradient_Comparison.png"
-msgstr ""
+msgstr ".. image:: images/blending_modes/modulo/Blending_modes_Modulo_Shift_Continuous_Gradient_Comparison.png"
 
 #: ../../reference_manual/blending_modes/modulo.rst:98
 msgid ""
 "Left: **Base Layer**. Middle: **Blend Layer**. Right: **Modulo Shift - "
 "Continuous**."
-msgstr ""
+msgstr "Esquerda: **Camada de Base**. Centro: **Camada de Mistura**. Direita: **Deslocamento do Módulo - Contínuo**."
