@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-19 23:43+0100\n"
+"PO-Revision-Date: 2019-05-24 15:16+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-POFile-SpellExtra: Palette en guilabel image Kritamouseleft kbd images\n"
 "X-POFile-SpellExtra: alt gpl icons RY RIFF ref sbz Scribus psp filekpl\n"
 "X-POFile-SpellExtra: Photoshop Krita Swatchbooker aco riff act PaintShop\n"
-"X-POFile-SpellExtra: docker mouseleft Kritamouseright\n"
+"X-POFile-SpellExtra: docker mouseleft Kritamouseright dockers mouseright\n"
 "X-POFile-IgnoreConsistency: Name\n"
 
 #: ../../<rst_epilog>:2
@@ -53,30 +53,24 @@ msgstr "Paletas"
 
 #: ../../reference_manual/dockers/palette_docker.rst:12
 msgid "Swatches"
-msgstr ""
+msgstr "Amostras de Cores"
 
 #: ../../reference_manual/dockers/palette_docker.rst:17
 msgid "Palette Docker"
 msgstr "Área da Paleta"
 
 #: ../../reference_manual/dockers/palette_docker.rst:19
-#, fuzzy
-#| msgid ""
-#| "The palette docker displays various color swatches for quick use. Since "
-#| "4.0, it also supports editing palettes and organizing colors into groups."
 msgid ""
 "The palette docker displays various color swatches for quick use. It also "
 "supports editing palettes and organizing colors into groups, as well as "
 "arbitrary positioning of swatches."
-msgstr ""
-"A área da paleta mostra diversas opções de cores para um uso rápido. Desde o "
-"4.0, também suporta a edição de paletas e a organização das cores por grupos."
+msgstr "A área da paleta mostra diversas opções de cores para um uso rápido. Também suporta a edição de paletas e a organização das cores por grupos, assim como posicionar as amostras de forma arbitrária."
 
 #: ../../reference_manual/dockers/palette_docker.rst:23
 msgid ""
 "The palette docker was overhauled in 4.2, allowing for grid ordering, "
 "storing palette in the document and more."
-msgstr ""
+msgstr "A área da paleta foi remodelada no 4.2, permitindo a ordenação da grelha, a gravação da paleta no documento, entre outras coisas."
 
 #: ../../reference_manual/dockers/palette_docker.rst:26
 msgid ".. image:: images/dockers/Palette-docker.png"
@@ -91,14 +85,6 @@ msgstr ""
 "paleta."
 
 #: ../../reference_manual/dockers/palette_docker.rst:29
-#, fuzzy
-#| msgid ""
-#| "To choose from the default palettes click on the icon in the bottom left "
-#| "corner of the docker, it will show a list of pre-loaded color palettes. "
-#| "You can click on one and to load it into the docker, or click on import "
-#| "resources (folder icon) to load your own color palette. Creating a new "
-#| "palette can be done by filling out the :guilabel:`name` input, pressing :"
-#| "guilabel:`Save` and selecting your new palette from the list."
 msgid ""
 "To choose from the default palettes click on the icon in the bottom left "
 "corner of the docker, it will show a list of pre-loaded color palettes. You "
@@ -107,14 +93,7 @@ msgid ""
 "can be done by pressing the :guilabel:`+`. Fill out the :guilabel:`name` "
 "input, pressing :guilabel:`Save` and Krita will select your new palette for "
 "you."
-msgstr ""
-"Para escolher entre as várias paletas, carregue no ícone no canto inferior "
-"esquerdo da área acoplável; o mesmo irá mostrar uma lista de paletas de "
-"cores pré-carregadas. Poderá carregar numa para a carregar para a área "
-"acoplável, ou então carregar em Importar os Recursos (ícone da pasta) para "
-"carregar a sua própria paleta de cores. A criação de uma paleta poderá ser "
-"obtida com o preenchimento do campo :guilabel:`nome`, carregando em :"
-"guilabel:`Gravar` e seleccionando a sua nova paleta a partir da lista."
+msgstr "Para escolher entre as várias paletas, carregue no ícone no canto inferior esquerdo da área acoplável; o mesmo irá mostrar uma lista de paletas de cores pré-carregadas. Poderá carregar numa para a carregar para a área acoplável, ou então carregar em Importar os Recursos (ícone da pasta) para carregar a sua própria paleta de cores a partir de um ficheiro. A criação de uma paleta poderá ser obtida com o botaõ :guilabel:`+`. Preencha o campo :guilabel:`nome`, carregando em :guilabel:`Gravar` para que o Krita seleccione a sua nova paleta por si."
 
 #: ../../reference_manual/dockers/palette_docker.rst:32
 msgid ""
@@ -123,7 +102,7 @@ msgid ""
 "'transparency checkers', indicating that there is no entry. To add an entry, "
 "just click a swatch and a new entry will be added with a default name and "
 "the current foreground color."
-msgstr ""
+msgstr "Desde o 4.2, as paletas de cores do Krita já não são apenas uma lista de cores a guardar, mas também uma grelha onde as poderá organizar. É por isso que irá obter uma grelha com o 'xadrez de transparência, o que indica que não existe nenhum elemento. Para adicionar um elemento, basta carregar numa amostra para adicionar um novo elemento com um nome predefinido e a cor principal actual."
 
 #: ../../reference_manual/dockers/palette_docker.rst:34
 msgid "Selecting colors is done by |mouseleft| on a swatch."
@@ -131,20 +110,11 @@ msgstr ""
 "A selecção das cores é feita com o |mouseleft| sobre uma dada área colorida."
 
 #: ../../reference_manual/dockers/palette_docker.rst:35
-#, fuzzy
-#| msgid ""
-#| "Pressing the delete icon will remove the selected swatch or group. When "
-#| "removing a group, Krita will always ask whether you'd like to keep the "
-#| "swatches. If so, they will be added to the default group above."
 msgid ""
 "Pressing the delete icon will remove the selected swatch or group. When "
 "removing a group, Krita will always ask whether you'd like to keep the "
 "swatches. If so, the group will be merged with the default group."
-msgstr ""
-"Se carregar no ícone para apagar, irá remover a área de cor ou grupo "
-"seleccionados. Ao remover o grupo, o Krita irá sempre perguntar se deseja "
-"manter as cores à mesma. Se for o caso, as mesmas serão adicionadas ao grupo "
-"predefinido acima."
+msgstr "Se carregar no ícone para apagar, irá remover a amostra de cor ou grupo seleccionados. Ao remover o grupo, o Krita irá sempre perguntar se deseja manter as cores à mesma. Se for o caso, as mesmas serão adicionadas ao grupo predefinido acima."
 
 #: ../../reference_manual/dockers/palette_docker.rst:36
 msgid ""
@@ -168,7 +138,7 @@ msgstr ""
 msgid ""
 "|mouseright| on a swatch will give you a context menu with modify and delete "
 "options."
-msgstr ""
+msgstr "Use o |mouseright| sobre uma amostra de cor para obter um menu de contexto com opções para modificar e remover."
 
 #: ../../reference_manual/dockers/palette_docker.rst:39
 msgid "Pressing the :guilabel:`+` icon will allow you to add a new swatch."
@@ -180,14 +150,14 @@ msgid ""
 "The drop down contains all the entries, id numbers and names. When a color "
 "is a spot color the thumbnail is circular. You can use the dropdown to "
 "search on color name or id."
-msgstr ""
+msgstr "A lista contém todos os elementos, números de ID's e nomes. Quando uma cor é pontual, a miniatura é circular. Poderá usar a lista para procurar pelo nome ou ID da cor."
 
 #: ../../reference_manual/dockers/palette_docker.rst:43
 msgid ""
 "Pressing the Folder icon will allow you to modify the palette. Here you can "
 "add more columns, modify the default group's rows, or add more groups and "
 "modify their rows."
-msgstr ""
+msgstr "Se carregar no ícone da Pasta, poderá modificar a paleta. Aqui poderá adicionar mais colunas, modificar as linhas do grupo predefinido ou adicionar mais grupos e modificar as suas linhas."
 
 #: ../../reference_manual/dockers/palette_docker.rst:45
 msgid "Palette Name"
@@ -197,7 +167,7 @@ msgstr "Nome da Paleta"
 msgid ""
 "Modify the palette name. This is the proper name for the palette as shown in "
 "the palette chooser dropdown."
-msgstr ""
+msgstr "Modifica o nome da paleta. Este é o nome adequado da paleta, tal como aparece na lista de selectores de paletas."
 
 #: ../../reference_manual/dockers/palette_docker.rst:47
 msgid "File name"
@@ -207,22 +177,22 @@ msgstr "Nome do ficheiro"
 msgid ""
 "This is the file name of the palette, which should be file system friendly. "
 "(Avoid quotation marks, for example)."
-msgstr ""
+msgstr "Este é o nome do ficheiro da paleta, o qual deverá ser amigável para o sistema de ficheiros (evite pontos de interrogação, por exemplo)."
 
 #: ../../reference_manual/dockers/palette_docker.rst:49
 msgid "Column Count"
-msgstr ""
+msgstr "Número de Colunas"
 
 #: ../../reference_manual/dockers/palette_docker.rst:50
 msgid ""
 "The amount of columns in this palette. This counts for all entries. If you "
 "accidentally make it smaller than the amount of entries that take up "
 "columns, you can still make it bigger until the next restart of Krita."
-msgstr ""
+msgstr "A quantidade de cores nesta paleta. Isto conta com todos os elementos. Se por acaso torná-la mais pequena que a quantidade de elementos que acompanham as colunas, poderá a mesma torná-la maior até que reinicie o Krita da próxima vez."
 
 #: ../../reference_manual/dockers/palette_docker.rst:52
 msgid "Whether to store said palette in the document or resource folder."
-msgstr ""
+msgstr "Se deve guardar a dita paleta no documento ou na pasta do recurso."
 
 #: ../../reference_manual/dockers/palette_docker.rst:54
 msgid "Resource Folder"
@@ -230,13 +200,11 @@ msgstr "Pasta do Recurso"
 
 #: ../../reference_manual/dockers/palette_docker.rst:55
 msgid "The default, the palette will be stored in the resource folder."
-msgstr ""
+msgstr "A opção por omissão - a paleta será guardada na pasta de recursos."
 
 #: ../../reference_manual/dockers/palette_docker.rst:57
-#, fuzzy
-#| msgid "Overview of the palette docker."
 msgid "Where is the palette stored:"
-msgstr "Introdução à área da paleta."
+msgstr "Onde é guardada a paleta:"
 
 #: ../../reference_manual/dockers/palette_docker.rst:57
 msgid "Document"
@@ -247,7 +215,7 @@ msgid ""
 "The palette will be removed from the resource folder and stored in the "
 "document upon save. It will be loaded into the resources upon loading the "
 "document."
-msgstr ""
+msgstr "A paleta será removida da pasta de recursos e guardada no documento após a gravação. Será carregada nos recursos após carregar o documento."
 
 #: ../../reference_manual/dockers/palette_docker.rst:59
 msgid "Add group"
@@ -256,23 +224,23 @@ msgstr "Adicionar um grupo"
 #: ../../reference_manual/dockers/palette_docker.rst:60
 msgid ""
 "Add a new group. On clicking you will be asked for a name and a set of rows."
-msgstr ""
+msgstr "Adiciona um novo grupo. Ao carregar na opção, ser-lhe-á pedido um nome e um conjunto de linhas."
 
 #: ../../reference_manual/dockers/palette_docker.rst:62
 msgid ""
 "Here you can configure the groups. The dropdown has a selection of groups. "
 "The default group is at top."
-msgstr ""
+msgstr "Aqui poderá configurar os grupos. A lista tem uma selecção de grupos. O grupo predefinido está no topo."
 
 #: ../../reference_manual/dockers/palette_docker.rst:64
 msgid "Row Count"
-msgstr ""
+msgstr "Número de Linhas"
 
 #: ../../reference_manual/dockers/palette_docker.rst:65
 msgid ""
 "The amount of rows in the group. If you want to add more colors to a group "
 "and there's no empty areas to click on anymore, increase the row count."
-msgstr ""
+msgstr "A quantidade de linhas no grupo. Se quiser adicionar mais cores a um grupo e não existirem mais espaço em branco onde carregar, aumente o número de linhas."
 
 #: ../../reference_manual/dockers/palette_docker.rst:66
 msgid "Rename Group"
@@ -280,13 +248,13 @@ msgstr "Mudar o Nome do Grupo"
 
 #: ../../reference_manual/dockers/palette_docker.rst:67
 msgid "Rename the group."
-msgstr ""
+msgstr "Muda o nome do grupo."
 
 #: ../../reference_manual/dockers/palette_docker.rst:69
 msgid ""
 "Delete the group. It will ask whether you want to keep the colors. If so, it "
 "will merge the group's contents with the default group."
-msgstr ""
+msgstr "Apaga o grupo. Isso irá perguntar se deseja manter as cores. Se for o caso, irá reunir o conteúdo do grupo com o grupo predefinido."
 
 #: ../../reference_manual/dockers/palette_docker.rst:70
 msgid "Group Settings"
@@ -318,19 +286,12 @@ msgid "ID"
 msgstr "ID"
 
 #: ../../reference_manual/dockers/palette_docker.rst:79
-#, fuzzy
-#| msgid ""
-#| "The ID is a number that can be used to index colors. Where Name can be "
-#| "something like \"Pastel Peach\", ID will probably be something like "
-#| "\"RY75\"."
 msgid ""
 "The ID is a number that can be used to index colors. Where Name can be "
 "something like \"Pastel Peach\", ID will probably be something like "
 "\"RY75\". Both names and ids can be used to search the color in the color "
 "entry dropdown at the bottom of the palette."
-msgstr ""
-"O ID é um número que poderá ser usado para indexar as cores. Enquanto o Nome "
-"poderá ser \"Pêssego Pastel\", o ID será algo do tipo \"RY75\"."
+msgstr "O ID é um número que poderá ser usado para indexar as cores. Enquanto o Nome poderá ser \"Pêssego Pastel\", o ID será algo do tipo \"RY75\". Tanto o nome como o ID podem ser usados na pesquisa da cor na lista de elementos de cores no fundo da paleta."
 
 #: ../../reference_manual/dockers/palette_docker.rst:81
 msgid "Spot color"
