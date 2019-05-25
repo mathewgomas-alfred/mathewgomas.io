@@ -27,7 +27,7 @@ They are interlinked with the painting mode setting.
 Opacity
     The transparency of a stroke.
 Flow
-    The transparency of separate dabs. Finally separated from Opacity in 2.9
+    The transparency of separate dabs. Finally separated from Opacity in 2.9.
 
 .. image:: /images/brushes/Krita_4_2_brushengine_opacity-flow_01.svg
 
@@ -38,7 +38,7 @@ Flow
     The old behavior can be simulated in the new system by...
     
     1. Deactivating the sensors on opacity.
-    2. Set the maximum value on flow to 0.5
+    2. Set the maximum value on flow to 0.5.
     3. Adjusting the pressure curve to be concave.
     
     .. image:: /images/brushes/flow_opacity_adapt_flow_preset.gif
@@ -55,7 +55,7 @@ Wash
 
 .. image:: /images/brushes/Krita_2_9_brushengine_opacity-flow_03.png
 
-where the other images of this page had all three strokes set to painting mode: wash, this one is set to build-up.
+Where the other images of this page had all three strokes set to painting mode: wash, this one is set to build-up.
 
 
 

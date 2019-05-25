@@ -81,7 +81,7 @@ This determines the behavior of the widget as it becomes smaller.
 
 Change to Horizontal
     This'll arrange the shade selector horizontal to the main selector. Only works with the MyPaint shade selector
-Hide Shade Selector
+Hide Shade Selector.
     This hides the shade selector.
 Do nothing
     Does nothing, just resizes.
@@ -115,7 +115,7 @@ MyPaint Shade Selector
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Ported from MyPaint, and extended with all color models.
-Default hotkey is :kbd:`Shift+ M`
+Default hotkey is :kbd:`Shift+ M`.
 
 Simple Shade Selector
 ~~~~~~~~~~~~~~~~~~~~~
@@ -147,7 +147,7 @@ Update After Every Stroke
 History patches
 ~~~~~~~~~~~~~~~
 
-The history patches remember which colors you've drawn on canvas with. They can be quickly called with :kbd:`H`
+The history patches remember which colors you've drawn on canvas with. They can be quickly called with :kbd:`H`.
 
 Common Patches
 ~~~~~~~~~~~~~~

@@ -79,7 +79,7 @@ Hot keys and Sticky Keys
 * :kbd:`Shift` for selecting multiple contiguous layers.
 * :kbd:`Ctrl` for select or deselect layer without affecting other layers selection.
 * :kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, for you to drag and drop.
-* :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks in tact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
+* :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks intact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
 * :kbd:`Ctrl + Shift + E` merges all layers.
 * :kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for multiple layers.
 * :kbd:`Ins` for adding a new layer. 

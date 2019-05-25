@@ -123,7 +123,7 @@ Predefined Brushes
 If you have used other applications like :program:`GIMP` or :program:`Photoshop`, you will have used this kind of brush. :program:`Krita` is (mostly) compatible with the brush tip definitions files of these applications:
 
 abr
-    GIMP autobrush tip definitions
+    GIMP autobrush tip definitions.
 :ref:`file_gbr`
     GIMP single bitmap brush tip. Can be black and white or colored.
 :ref:`file_gih`
@@ -136,10 +136,10 @@ Note that the definition of ABR brushes has been reverse engineered since Adobe 
 All predefined brush tips are shown in one selector. There are four more options that influence the initial bitmap brush tip you start painting with:
 
 Scale
-    scales the brush tip. 1.0 is the native size of the brush tip. This can be fairly large! When painting with variable size (for instance governed by pressure), this is the base for the calculations.
+    Scales the brush tip. 1.0 is the native size of the brush tip. This can be fairly large! When painting with variable size (for instance governed by pressure), this is the base for the calculations.
 Rotation
-    initial rotation of the brush tip.
+    Initial rotation of the brush tip.
 Spacing
-    distance between the brush tip impressions.
+    Distance between the brush tip impressions.
 Use color as mask
-    for colored brushes, don't paint the actual colors, but make a grayscale brush tip that will be colored by your selected foreground/background color.
+    For colored brushes, don't paint the actual colors, but make a grayscale brush tip that will be colored by your selected foreground/background color.

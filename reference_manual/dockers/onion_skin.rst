@@ -38,4 +38,4 @@ The slider and the button with zero offset control the master opacity and visibi
 
 Tint controls how strongly the frames are tinted, the first screen has 100%, which creates a silhouette, while below you can still see a bit of the original colors at 50%.
 
-Previous and next frame allows you set the colors.
+The :guilabel:`Previous Frame` and :guilabel:`Next Frame` color labels allows you set the colors.

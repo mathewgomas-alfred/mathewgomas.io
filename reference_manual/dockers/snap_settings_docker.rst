@@ -32,6 +32,6 @@ Bounding Box
 Orthogonal
     For snapping to only horizontal or vertical lines.
 Intersection
-    for snapping to other vector lines.
+    For snapping to other vector lines.
 Guides
     Guides don't exist in Krita, therefore this one is useless.

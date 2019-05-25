@@ -56,7 +56,7 @@ Configure Logging
     - General
     - Resource Management
     - Image Core
-    - Registeries
+    - Registries
     - Tools
     - Tile Engine
     - Filters

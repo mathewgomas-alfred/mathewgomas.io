@@ -75,7 +75,7 @@ This parameter allows you to set the random placing of a brush-dab. You can affe
 X
     The scattering on the angle you are drawing from.
 Y
-    The scattering, perpendicular to the drawing angle (has the most effect)
+    The scattering, perpendicular to the drawing angle (has the most effect).
 
 .. image:: /images/brushes/Krita_2_9_brushengine_scatter.png
 
@@ -110,7 +110,7 @@ So, if you want to lock the diameter of the brush, lock the Brush-tip. Locking t
 
 .. image:: /images/brushes/Krita_2_9_brushengine_size_01.png
 
-Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`
+Also popular is setting the size to the sensor fuzzy or perspective, with the later in combination with a :ref:`assistant_perspective`.
 
 .. image:: /images/brushes/Krita_2_9_brushengine_size_02.png
 
@@ -135,7 +135,7 @@ Picks the source-color for the brush-dab.
 Plain Color
     Current foreground color.
 Gradient
-    Picks active gradient
+    Picks active gradient.
 Uniform Random
     Gives a random color to each brush dab.
 Total Random
@@ -143,7 +143,7 @@ Total Random
 Pattern
     Uses active pattern, but alignment is different per stroke.
 Locked Pattern
-    Locks the pattern to the brushdab
+    Locks the pattern to the brushdab.
 
 .. _option_mix:
 

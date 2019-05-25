@@ -42,9 +42,9 @@ Cutoff policy
     Cutoff policy will determine what range and where the strength will affect the textured outcome.
 
     Disabled
-        doesn't cut off. Full range will be used.
+        Doesn't cut off. Full range will be used.
     Pattern
-        cuts the pattern off.
+        Cuts the pattern off.
     Brush
         Cuts the brush-tip off.
 
@@ -71,11 +71,11 @@ Brightness and Contrast
 Strength
 --------
 
-This allows you to set the texture to Sensors. It will use the cutoff to continuously draw lighter values of the texture (making the result darker)
+This allows you to set the texture to Sensors. It will use the cutoff to continuously draw lighter values of the texture (making the result darker).
 
 .. image:: /images/brushes/Krita_2_9_brushengine_texture_03.png
 
 .. seealso::
 
-    `David Revoy describing the texture feature (old) <http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_
+    `David Revoy describing the texture feature (old). <http://www.davidrevoy.com/article107/textured-brush-in-floss-digital-painting>`_
 

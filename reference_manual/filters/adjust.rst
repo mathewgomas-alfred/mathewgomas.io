@@ -175,7 +175,7 @@ Threshold
 
 A simple black and white threshold filter that uses sRGB luminosity. It'll convert any image to a image with only black and white, with the input number indicating the threshold value at which black becomes white.
 
-.. index:: ASC CDL, Slope Offset Power Curves
+.. index:: ASC CDL, Slope, Offset and Power Curves
 
 Slope, Offset, Power
 --------------------

@@ -36,7 +36,7 @@ Rotation
 Distance
     How much the brush is affected over length in pixels.
 Time
-    How much a brush is affected over drawing time in seconds..
+    How much a brush is affected over drawing time in seconds.
 Fuzzy (Dab)
     Basically the random option.
 Fuzzy Stroke

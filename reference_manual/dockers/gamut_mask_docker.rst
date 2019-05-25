@@ -33,13 +33,13 @@ Management Toolbar
 ~~~~~~~~~~~~~~~~~~
 
 Create new mask (2)
-    opens the mask editor with an empty template.
+    Opens the mask editor with an empty template.
 Edit mask (3)
-    opens the the currently selected mask in the editor.
+    Opens the the currently selected mask in the editor.
 Duplicate mask (4)
-    creates a copy of the currently selected mask and opens the copy in the editor.
+    Creates a copy of the currently selected mask and opens the copy in the editor.
 Delete mask (5)
-    deletes the currently selected mask.
+    Deletes the currently selected mask.
 
 
 Editing
@@ -73,6 +73,6 @@ Description
 External Info
 -------------
 
-- `Color Wheel Masking, Part 1 by James Gurney <https://gurneyjourney.blogspot.com/2008/01/color-wheel-masking-part-1.html>`_
-- `The Shapes of Color Schemes by James Gurney <https://gurneyjourney.blogspot.com/2008/02/shapes-of-color-schemes.html>`_
-- `Gamut Masking Demonstration by James Gourney (YouTube) <https://youtu.be/qfE4E5goEIc>`_
+- `Color Wheel Masking, Part 1 by James Gurney. <https://gurneyjourney.blogspot.com/2008/01/color-wheel-masking-part-1.html>`_
+- `The Shapes of Color Schemes by James Gurney. <https://gurneyjourney.blogspot.com/2008/02/shapes-of-color-schemes.html>`_
+- `Gamut Masking Demonstration by James Gourney (YouTube). <https://youtu.be/qfE4E5goEIc>`_

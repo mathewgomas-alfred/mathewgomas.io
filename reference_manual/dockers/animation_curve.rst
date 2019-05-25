@@ -68,4 +68,4 @@ As you may be able to tell, there's quite a different 'texture', so to speak, to
 
 .. note::
 
-    Opacity has currently 255 as maximum in the curve editor, as that's how opacity is stored internally
+    Opacity has currently 255 as maximum in the curve editor, as that's how opacity is stored internally.
