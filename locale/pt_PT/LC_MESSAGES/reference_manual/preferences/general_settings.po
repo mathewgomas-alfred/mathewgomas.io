@@ -325,7 +325,7 @@ msgid ""
 "will usually have a contrasting color, but sometimes this mixing does not "
 "work. This is usually due driver problems. When that happens, you can "
 "configure a more pleasant color here."
-msgstr "A cor predefinida do cursor. Isto é misturado com a imagem da área de desenhom para que tenha normalmente uma cor em contraste, mas normalmente esta mistura não funciona. Isto acontece normalmente por problemas no controlador. Quando isso acontece, poderá configurar uma cor mais adequada aqui."
+msgstr "A cor predefinida do cursor. Isto é misturado com a imagem da área de desenho para que tenha normalmente uma cor em contraste, mas normalmente esta mistura não funciona. Isto acontece normalmente por problemas no controlador. Quando isso acontece, poderá configurar uma cor mais adequada aqui."
 
 #: ../../reference_manual/preferences/general_settings.rst:115
 msgid "Cursor Color:"
@@ -453,7 +453,10 @@ msgid ""
 "In Krita 4.2 the behavior of flow in combination with opacity was changed. "
 "This allows you to turn it back to the 4.1 behavior. This will however be "
 "removed in future versions."
-msgstr "No Krita 4.2, o comportamento do fluxo em conjunto com a opacidade mudou. Isto permite-lhe voltar ao comportamento do 4.1. Contudo, esta opção será removidas nas versões futuras."
+msgstr ""
+"No Krita 4.2, o comportamento do fluxo em conjunto com a opacidade mudou. "
+"Isto permite-lhe voltar ao comportamento do 4.1. Contudo, esta opção será "
+"removidas nas versões futuras."
 
 #: ../../reference_manual/preferences/general_settings.rst:151
 msgid "Switch Control/Alt Selection Modifiers"
@@ -491,7 +494,9 @@ msgstr "Activar a ferramenta de transformação após colar"
 msgid ""
 "A convenience feature. When enabling this, the transform tool will activate "
 "after pasting for quick moving or rotating."
-msgstr "Uma funcionalidade de conveniência. Quando activar isto, a ferramenta de transformação será activada após a colagem para mover ou rodar rapidamente."
+msgstr ""
+"Uma funcionalidade de conveniência. Quando activar isto, a ferramenta de "
+"transformação será activada após a colagem para mover ou rodar rapidamente."
 
 #: ../../reference_manual/preferences/general_settings.rst:162
 msgid "This enables kinetic scrolling for scrollable areas."
@@ -578,7 +583,8 @@ msgstr "Activar a Gravação Automática"
 
 #: ../../reference_manual/preferences/general_settings.rst:192
 msgid "Determines whether or not Krita should periodically autosave."
-msgstr "Define se o Krita deverá ou não efectuar uma gravação automática periódica."
+msgstr ""
+"Define se o Krita deverá ou não efectuar uma gravação automática periódica."
 
 #: ../../reference_manual/preferences/general_settings.rst:193
 msgid "Autosave Every"
@@ -605,7 +611,10 @@ msgid ""
 "This determines whether the filename of autosaves has a period prepended to "
 "the name. On Linux and Mac OS this is a technique to ensure the file is "
 "hidden by default."
-msgstr "Isto define se o nome do ficheiro das gravações automáticas tem um ponto a anteceder o nome. No Linux e no Mac OS, esta é uma técnica para garantir que o ficheiro fica escondido por omissão."
+msgstr ""
+"Isto define se o nome do ficheiro das gravações automáticas tem um ponto a "
+"anteceder o nome. No Linux e no Mac OS, esta é uma técnica para garantir que "
+"o ficheiro fica escondido por omissão."
 
 #: ../../reference_manual/preferences/general_settings.rst:197
 msgid "Create Backup File"
@@ -617,11 +626,17 @@ msgid ""
 "file and save the current image to the original name. The result is that you "
 "will have saved the image, and there will be a copy of the image that is "
 "saved separately as a backup. This is useful in case of crashes during saves."
-msgstr "Quando estiver seleccionado, o Krita irá mudar o nome do ficheiro original, ao gravar como uma cópia de segurança, gravando a imagem actual com o nome original. O resultado é que irá gravar a imagem e existirá uma cópia da imagem que é gravada em separado como uma cópia de segurança. Isto é útil em caso de estoiros durante as gravações."
+msgstr ""
+"Quando estiver seleccionado, o Krita irá mudar o nome do ficheiro original, "
+"ao gravar como uma cópia de segurança, gravando a imagem actual com o nome "
+"original. O resultado é que irá gravar a imagem e existirá uma cópia da "
+"imagem que é gravada em separado como uma cópia de segurança. Isto é útil em "
+"caso de estoiros durante as gravações."
 
 #: ../../reference_manual/preferences/general_settings.rst:200
 msgid "The default location these backups should be stored."
-msgstr "A localização predefinida onde serão gravadas estas cópias de segurança."
+msgstr ""
+"A localização predefinida onde serão gravadas estas cópias de segurança."
 
 #: ../../reference_manual/preferences/general_settings.rst:202
 msgid "Same Folder as Original File"
@@ -639,7 +654,9 @@ msgstr "Pasta do Utilizador"
 msgid ""
 "This is the main folder of your computer. On Linux and Mac OS this is the "
 "'Home' folder, on Windows, the 'My Documents Folder'."
-msgstr "Esta é a pasta principal no seu computador. No Linux e no Mac OS, esta é a 'Pasta Pessoal' ou 'Home'; no Windows, é a pasta de 'Meus Documentos'."
+msgstr ""
+"Esta é a pasta principal no seu computador. No Linux e no Mac OS, esta é a "
+"'Pasta Pessoal' ou 'Home'; no Windows, é a pasta de 'Meus Documentos'."
 
 #: ../../reference_manual/preferences/general_settings.rst:207
 msgid "Backup File Location"
@@ -656,7 +673,13 @@ msgid ""
 "don't particularly care about your backup files and want them to be "
 "'cleaned' automatically, this is the best place. If you want your backup "
 "files to be kept indefinitely, this is a wrong choice."
-msgstr "Isto grava o ficheiro na pasta temporária. As pastas temporárias são pastas especiais nas quais o conteúdo é esvaziado quando desligar o seu computador. Se não se preocupar em particular com as suas cópias de segurança e quiser que elas sejam 'limpas' automaticamente, este é o melhor local. Se quiser que as suas cópias de segurança sejam guardadas de forma indefinida, esta é uma má escolha."
+msgstr ""
+"Isto grava o ficheiro na pasta temporária. As pastas temporárias são pastas "
+"especiais nas quais o conteúdo é esvaziado quando desligar o seu computador. "
+"Se não se preocupar em particular com as suas cópias de segurança e quiser "
+"que elas sejam 'limpas' automaticamente, este é o melhor local. Se quiser "
+"que as suas cópias de segurança sejam guardadas de forma indefinida, esta é "
+"uma má escolha."
 
 #: ../../reference_manual/preferences/general_settings.rst:209
 msgid "Backup File Suffix"
@@ -667,7 +690,10 @@ msgid ""
 "The suffix that will be placed after the full filename. 'filename.kra' will "
 "then be saved as 'filename.kra~', ensuring the files won't show up in "
 "Krita's open file dialog."
-msgstr "O sufixo que será colocado a seguir ao nome completo do ficheiro. O ficheiro.kra' será então gravado como ficheiro.kra~', o que garante que os ficheiros não irão aparecer na janela para abrir ficheiros no Krita."
+msgstr ""
+"O sufixo que será colocado a seguir ao nome completo do ficheiro. O ficheiro."
+"kra' será então gravado como ficheiro.kra~', o que garante que os ficheiros "
+"não irão aparecer na janela para abrir ficheiros no Krita."
 
 #: ../../reference_manual/preferences/general_settings.rst:211
 msgid "Number of Backup Files Kept"
@@ -677,7 +703,10 @@ msgstr "Número de Cópias de Segurança Guardadas"
 msgid ""
 "Number of backup files Krita keeps, by default this is only one, but this "
 "can be up to 99. Krita will then number the backup files."
-msgstr "O número de cópias de segurança que o Krita mantém; por omissão, é apenas uma, mas poderá ser um valor até 99. O Krita irá então numerar os ficheiros de cópias de segurança."
+msgstr ""
+"O número de cópias de segurança que o Krita mantém; por omissão, é apenas "
+"uma, mas poderá ser um valor até 99. O Krita irá então numerar os ficheiros "
+"de cópias de segurança."
 
 #: ../../reference_manual/preferences/general_settings.rst:213
 msgid "Compress \\*.kra files more."
@@ -807,7 +836,9 @@ msgstr "Esconder o ecrã inicial no arranque."
 #: ../../reference_manual/preferences/general_settings.rst:250
 msgid ""
 "Deprecated because Krita now has a welcome widget when no canvas is open."
-msgstr "Descontinuado, porque o Krita agora tem um ecrã de boas-vindas quando não está aberta nenhuma área de desenho."
+msgstr ""
+"Descontinuado, porque o Krita agora tem um ecrã de boas-vindas quando não "
+"está aberta nenhuma área de desenho."
 
 #: ../../reference_manual/preferences/general_settings.rst:252
 msgid "Enable Native File Dialog"

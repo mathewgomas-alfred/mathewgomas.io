@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-21 17:49+0200\n"
+"PO-Revision-Date: 2019-05-25 19:37+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -72,10 +72,18 @@ msgid ""
 "timings that define your animation. In other words, the Timeline Docker is "
 "the digital equivalent to a traditional animator's \"dope sheet\"."
 msgstr ""
+"L'**acoblador Línia de temps** treballa en conjunt amb "
+"l':ref:`animation_docker` al cor de les eines d'animació del "
+":program:`Krita`. Mentre que l'acoblador Animació proporciona accés als "
+"controls fonamentals per a reproduir i editar les animacions, l'acoblador "
+"Línia de temps conté els fotogrames en capes i els temps específics que "
+"defineixen la vostra animació. En altres paraules, l'acoblador Línia de "
+"temps és l'equivalent digital al «full d'esborrany» d'un animador "
+"tradicional."
 
 #: ../../reference_manual/dockers/timeline.rst:25
 msgid "Legend:"
-msgstr ""
+msgstr "Llegenda:"
 
 #: ../../reference_manual/dockers/timeline.rst:27
 msgid ""
@@ -87,10 +95,18 @@ msgid ""
 "timeline. Each layer has properties that can also be toggled here (visible, "
 "locked, show onion skins, etc.)."
 msgstr ""
+"**A. Llista de capes:** aquesta àrea conté algun subconjunt de les capes del "
+"document actual. Sempre es mostrarà la capa activa actual i es pot «fixar» a "
+"la línia de temps mitjançant l'acció del menú :guilabel:`Mostra a la línia "
+"de temps`. A més, les capes que es creen a través de la línia de temps o que "
+"s'afegeixen mitjançant el submenú :guilabel:`Afegeix una capa existent` es "
+"fixaran automàticament a la línia de temps. Cada capa té propietats que "
+"també es podran canviar des d'aquí (visible, bloquejada, mostra les pells de "
+"ceba, etc.)."
 
 #: ../../reference_manual/dockers/timeline.rst:30
 msgid "**Active Layer**"
-msgstr ""
+msgstr "**Capa activa**"
 
 #: ../../reference_manual/dockers/timeline.rst:30
 msgid ""
@@ -100,6 +116,11 @@ msgid ""
 "the table in order to not disturb the user when scrubbing and editing frame "
 "positions on the timeline."
 msgstr ""
+"Una fila ressaltada de la taula mostra la capa activa actual. Es pot canviar "
+"quina capa està activa fent clic sobre el nom de la capa a la capçalera "
+"esquerre. *No* és possible canviar la capa activa fent clic a l'interior de "
+"la taula per tal de no molestar a l'usuari en rastrejar i editar les "
+"posicions del fotograma a la línia de temps."
 
 #: ../../reference_manual/dockers/timeline.rst:32
 msgid ""
@@ -112,6 +133,15 @@ msgid ""
 "played back at any speed, depending on the :ref:`animation_docker`'s *frame "
 "rate* and *play speed* settings."
 msgstr ""
+"**B. Taula dels fotogrames:** la taula dels fotogrames és una gran quadrícula "
+"de cel·les que poden contenir un fotograma o estar buida. Cada fila d'aquesta "
+"taula representa una *capa d'animació* i cada columna representa un **temps "
+"del fotograma**. Igual que la llista de capes, la capa activa es ressalta a "
+"través de tota la taula de fotogrames. És important entendre que els temps "
+"del fotograma no es basen en unitats de temps com a segons, sinó que es "
+"basen en fotogrames que es poden reproduir a qualsevol velocitat, depenent "
+"dels ajustaments per a la *velocitat dels fotogrames* i *velocitat de "
+"reproducció* a l':ref:`animation_docker`."
 
 #: ../../reference_manual/dockers/timeline.rst:34
 msgid ""
@@ -121,6 +151,12 @@ msgid ""
 "Table will bring up a helpful context menu for adding, removing, copying, "
 "and pasting frames or adjusting timing with holds."
 msgstr ""
+"Els fotogrames es poden moure al voltant de la línia de temps simplement "
+"fent-hi clic esquerre i arrossegant-los des d'una ranura a una altra, fins i "
+"tot a través de les capes. A més, mantenir premuda la tecla :kbd:`Ctrl` "
+"mentre es mou crearà una còpia. Feu clic dret a qualsevol lloc de la taula "
+"de fotogrames i apareixerà un menú contextual útil per afegir, eliminar, "
+"copiar i enganxar fotogrames o ajustar el temps amb les retencions."
 
 #: ../../reference_manual/dockers/timeline.rst:37
 msgid ""
@@ -131,20 +167,30 @@ msgid ""
 "current selection. Finally, it is also possible to have multiple non-"
 "contiguous/separate selections if needed."
 msgstr ""
+"Els fotogrames ressaltats en taronja representen una selecció o múltiples "
+"seleccions, les quals es podran crear amb el ratolí o el teclat. Mentre que "
+"se seleccionen múltiples fotogrames, fent clic dret a qualsevol lloc de la "
+"Taula de fotogrames apareixerà un menú contextual que permetrà afegir o "
+"eliminar fotogrames o les retencions dins de la selecció actual. Finalment, "
+"també és possible tenir múltiples seleccions no contigües/separades si és "
+"necessari."
 
 #: ../../reference_manual/dockers/timeline.rst:41
 msgid "**Current Selection:**"
-msgstr ""
+msgstr "**Selecció actual:**"
 
 #: ../../reference_manual/dockers/timeline.rst:41
 msgid ""
 "Painting always happens only in the *active frame* (represented by a small "
 "dot), which is not necessarily part of your current selection."
 msgstr ""
+"La pintura sempre succeeix sobre el *fotograma actiu* (representat per un "
+"petit punt), el qual no formarà necessàriament part de la vostra selecció "
+"actual."
 
 #: ../../reference_manual/dockers/timeline.rst:44
 msgid "**Keys, Blanks, and Holds:**"
-msgstr ""
+msgstr "**Claus, Blancs i Retencions:**"
 
 #: ../../reference_manual/dockers/timeline.rst:44
 msgid ""
@@ -157,6 +203,15 @@ msgid ""
 "frames can be set per-frame by the animator using the right-click menu, and "
 "is a matter of personal workflow."
 msgstr ""
+"L'acoblador Línia de temps ara ens mostrarà encara més informació útil sobre "
+"el que hi ha i el que no. Els **fotogrames clau** que contenen dibuixos "
+"segueixen apareixent com a *blocs emplenats* dins d'una cel·la, mentre que "
+"els fotogrames clau **en blanc** o buits es mostraran com un *contorn buit*. "
+"Al Krita, cada fotograma dibuixat es mantindrà automàticament fins al "
+"següent fotograma; aquests **retinguts** ara s'observen clarament amb una "
+"*línia de color* a través de tots els fotogrames retinguts. L'animador podrà "
+"establir per fotograma el color dels fotogrames mitjançant el menú del clic "
+"dret i és una qüestió del flux de treball personal."
 
 #: ../../reference_manual/dockers/timeline.rst:46
 msgid ""
@@ -167,10 +222,18 @@ msgid ""
 "smaller subdivisions have small single-line marks. Each major notch is "
 "marked with a helpful *frame number*."
 msgstr ""
+"**C. Capçalera de temps del fotograma:** la capçalera de temps del fotograma "
+"és un regle a la part superior de la Taula de fotogrames. Aquesta capçalera "
+"es divideix en petites seccions dentades que es basen en la *velocitat dels "
+"fotogrames* actual (establerta a l':ref:`animation_docker`). Els múltiples "
+"sencers de la velocitat dels fotogrames tenen una marca subtil de doble "
+"línia, mentre que les subdivisions més petites tenen petites marques de línia "
+"única. Cada secció dentada major estarà marcada amb un *número de fotograma* "
+"d'ajuda."
 
 #: ../../reference_manual/dockers/timeline.rst:49
 msgid "**Cached Frames:**"
-msgstr ""
+msgstr "**Fotogrames a la memòria cau:**"
 
 #: ../../reference_manual/dockers/timeline.rst:49
 msgid ""
@@ -183,6 +246,16 @@ msgid ""
 "to cache our animation frames for the smoothest possible experience when "
 "scrubbing through or playing back your animation."
 msgstr ""
+"La capçalera de temps del fotograma també mostra informació important sobre "
+"quins fotogrames es troben actualment *en la memòria cau*. Quan es diu que "
+"quelcom està «emmagatzemat a la memòria cau», això vol dir que s'emmagatzema "
+"a la memòria de treball del vostre dispositiu (RAM) per obtenir un accés "
+"extra ràpid. Els fotogrames emmagatzemats a la memòria cau es mostren a la "
+"capçalera amb un petit rectangle gris clar a cada columna. Tot i que aquesta "
+"informació no sempre és fonamental per als artistes, és útil saber que el "
+"Krita està treballant darrere de les cortines emmagatzemant a la memòria cau "
+"els fotogrames d'animació per obtenir la millor experiència possible en "
+"rastrejar o reproduir l'animació."
 
 #: ../../reference_manual/dockers/timeline.rst:51
 msgid ""
@@ -190,6 +263,9 @@ msgid ""
 "which controls the current frame time and, as such, what is currently "
 "displayed in the viewport."
 msgstr ""
+"**D. Rastrejador del temps actual:** una columna ressaltada a la Taula de "
+"fotogrames que controla el temps de fotograma actual i, per tant, el que es "
+"mostra actualment a la vista."
 
 #: ../../reference_manual/dockers/timeline.rst:54
 msgid ""
@@ -197,14 +273,18 @@ msgid ""
 "frame is always marked with a small circle inside. All drawing, painting, "
 "and image editing operations happen on this frame only!"
 msgstr ""
+"Un fotograma de la *capa activa* a la posició del *temps actual*. El "
+"fotograma actiu sempre està marcat amb un petit cercle dins. Totes les "
+"operacions de dibuix, pintura i edició d'imatges només es produeixen en "
+"aquest fotograma!"
 
 #: ../../reference_manual/dockers/timeline.rst:58
 msgid "**Active Frame:**"
-msgstr ""
+msgstr "**Fotograma actiu:**"
 
 #: ../../reference_manual/dockers/timeline.rst:58
 msgid "Don't mix the active frame up with the current selection!"
-msgstr ""
+msgstr "No mescleu el fotograma actiu amb la selecció actual!"
 
 #: ../../reference_manual/dockers/timeline.rst:60
 msgid ""
@@ -213,6 +293,11 @@ msgid ""
 "Timeline' here to pin the active layer to the Timeline. (This menu also "
 "shows up when right-clicking on layers inside of the Layer List.)"
 msgstr ""
+"**E. Menú Capa:** un petit menú per a manipular les capes d'animació. Podreu "
+"crear capes noves, afegir-ne o eliminar-ne, i aquí podreu establir «Mostra a "
+"la línia de temps» per a fixar la capa activa a la Línia de temps. (Aquest "
+"menú també es mostrarà quan feu clic dret sobre les capes dins la Llista de "
+"capes)."
 
 #: ../../reference_manual/dockers/timeline.rst:62
 msgid ""
@@ -220,6 +305,9 @@ msgid ""
 "sources. This is where you can open or close audio sources and control "
 "output volume/muting."
 msgstr ""
+"**F. Menú Àudio:** un altre petit menú per animar juntament amb les fonts "
+"d'àudio. Aquí és on podreu obrir o tancar les fonts d'àudio i controlar el "
+"volum/silenci de la sortida."
 
 #: ../../reference_manual/dockers/timeline.rst:64
 msgid ""
@@ -227,6 +315,9 @@ msgid ""
 "centered around the current frame time. Click-dragging starting on the zoom "
 "handle controls the zoom level."
 msgstr ""
+"**G. Nansa de zoom:** permet apropar i allunyar la Taula de fotogrames, "
+"centrada al voltant del temps actual del fotograma. Feu clic dret i "
+"arrossegueu la nansa del zoom per a controlar-lo."
 
 #: ../../reference_manual/dockers/timeline.rst:67
 msgid "Usage:"
@@ -240,10 +331,17 @@ msgid ""
 "that there's no animation going on at all on that layer and it will keep the "
 "image static over the whole animation."
 msgstr ""
+"La forma d'utilitzar l'acoblador Línia de temps no és immediatament evident, "
+"ja que el :program:`Krita` no crea automàticament un fotograma clau del "
+"vostre dibuix inicial. De fet, *fins que creeu un fotograma clau sobre una "
+"capa**, el Krita assumirà que no hi ha cap animació en aquesta capa i "
+"mantindrà la imatge estàtica a tota l'animació."
 
 #: ../../reference_manual/dockers/timeline.rst:71
 msgid "So, to make our first *animated layer*, we need to make a key frame!"
 msgstr ""
+"Per tant, per a crear la nostra primera *capa animada*, necessitarem crear un "
+"fotograma clau!"
 
 #: ../../reference_manual/dockers/timeline.rst:73
 msgid ""
@@ -253,6 +351,11 @@ msgid ""
 "active and drawing on the canvas will make it appear as a *solid, colored "
 "rectangle*."
 msgstr ""
+"Feu |mouseright| sobre qualsevol quadrat a l'acoblador Línia de temps i "
+"seleccioneu :guilabel:`Crea un fotograma en blanc`. Un fotograma en blanc "
+"(un en el qual encara no heu dibuixat res) apareixerà com un *contorn buit* "
+"en comptes d'un quadre sòlid, fent que sigui el fotograma actiu i dibuixant "
+"sobre el llenç el farà aparèixer com a un *rectangle sòlid i amb color*."
 
 #: ../../reference_manual/dockers/timeline.rst:75
 msgid ""
@@ -262,10 +365,16 @@ msgid ""
 "select :guilabel:`Show in Timeline`. This way you can choose which layers "
 "are important and which are only minor."
 msgstr ""
+"Per mantenir visible una capa a l'acoblador Línia de temps independentment de "
+"quina capa s'ha seleccionat, seleccioneu la capa a l'acoblador Línia de "
+"temps perquè aparegui i, després feu |mouseright| dins de la llista de capes "
+"de l'acoblador Línia de temps i seleccioneu :guilabel:`Mostra a la línia de "
+"temps`. D'aquesta manera podreu escollir quines capes són importants i "
+"quines ho són menys."
 
 #: ../../reference_manual/dockers/timeline.rst:77
 msgid "You can drag and drop the frame around to a different empty frame slot."
-msgstr ""
+msgstr "Podeu arrossegar i deixar anar el fotograma a una altra ranura buida."
 
 #: ../../reference_manual/dockers/timeline.rst:79
 msgid ""
@@ -274,6 +383,10 @@ msgid ""
 "select :guilabel:`Create Duplicate Frame` to create a new copy of the "
 "previous frame."
 msgstr ""
+"Per afegir un fotograma únic nou, feu clic dret sobre una ranura buida i "
+"seleccioneu :guilabel:`Crea un fotograma en blanc` per a crear un fotograma "
+"en blanc nou o seleccioneu :guilabel:`Crea un fotograma duplicat` per a "
+"crear una còpia nova del fotograma anterior."
 
 #: ../../reference_manual/dockers/timeline.rst:81
 msgid ""
@@ -282,6 +395,11 @@ msgid ""
 "animation. The current color selection is remembered for new frames so that "
 "you can easily make a set of colored frames and then switch to another color."
 msgstr ""
+"També podeu canviar el color dels fotogrames de manera que pugueu identificar "
+"fàcilment els fotogrames importants o distingir entre les diferents seccions "
+"de l'animació. La selecció del color actual es recordarà per als fotogrames "
+"nous de manera que pugueu fer fàcilment un conjunt de fotogrames de colors i "
+"després canviar a un altre color."
 
 #: ../../reference_manual/dockers/timeline.rst:83
 msgid ""
@@ -291,6 +409,12 @@ msgid ""
 "the option of built in timing for quickly creating a series of 1s, 2s, 3s, "
 "etc. These settings are saved between uses."
 msgstr ""
+"També és possible afegir múltiples fotogrames clau fent clic dret dins de la "
+"Taula de fotogrames i seleccionant :menuselection:`Fotogrames clau --> "
+"Insereix múltiples fotogrames clau`. Amb aquesta opció podeu especificar un "
+"nombre de fotogrames a afegir amb l'opció de temps integrada per a crear "
+"ràpidament una sèrie d'1 s, 2 s, 3 s, etc. Aquests ajustaments es desaran "
+"entre els usos."
 
 #: ../../reference_manual/dockers/timeline.rst:85
 msgid ""
@@ -300,6 +424,12 @@ msgid ""
 "menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add "
 "new frames to each layer that's currently visible in the Timeline Docker."
 msgstr ""
+"En comptes de la Taula de fotogrames, feu clic dret a la capçalera de temps "
+"del fotograma i us permetrà accedir a algunes opcions més que permeten "
+"afegir o eliminar columnes senceres de fotogrames o retencions alhora. Per "
+"exemple, seleccionant :menuselection:`Columnes del fotograma clau --> "
+"Insereix una columna de fotograma clau a l'esquerra` afegirà fotogrames nous "
+"a cada capa que estigui actualment visible a l'acoblador Línia de temps."
 
 #: ../../reference_manual/dockers/timeline.rst:90
 msgid ""
@@ -310,6 +440,13 @@ msgid ""
 "held in this way (a.k.a. \"holds\") are displayed as a continuous line in "
 "the Frame Table."
 msgstr ""
+"El :program:`Krita` només fa un seguiment dels canvis al fotograma clau. Això "
+"és diferent del :program:`Flash` on haureu d'indicar manualment quant de "
+"temps durarà un fotograma clau. En lloc d'això, el Krita només assumirà que "
+"l'espai entre el fotograma clau 1 i el fotograma clau 2 s'haurà d'emplenar "
+"amb el fotograma clau 1. Els fotogrames que s'aconsegueixin d'aquesta manera "
+"(també anomenats «retencions») es mostraran com una línia contínua a la "
+"Taula de fotogrames."
 
 #: ../../reference_manual/dockers/timeline.rst:92
 msgid ""
@@ -318,114 +455,144 @@ msgid ""
 "guilabel:`Remove Frame and Pull` will delete the selected frames and pull or "
 "shift all subsequent frames back/left as much as possible."
 msgstr ""
+"Per eliminar fotogrames, feu |mouseright| sobre el fotograma i premeu "
+":guilabel:`Elimina el fotograma clau`. Això eliminarà tots els fotogrames "
+"seleccionats. De la mateixa manera, seleccionant :guilabel:`Elimina el "
+"fotograma i estira` se suprimiran els fotogrames seleccionats i s'estiraran "
+"o desplaçaran tots els fotogrames posteriors enrere/esquerre tant com sigui "
+"possible."
 
 #: ../../reference_manual/dockers/timeline.rst:94
 msgid ""
 "To manually play your animation back and forward using your mouse, a concept "
 "called *scrubbing*, you click-drag within the Frame Timing Header."
 msgstr ""
+"Per a reproduir manualment l'animació cap endavant i enrere emprant el "
+"ratolí, un concepte anomenat *rastrejat*, feu clic dret i arrossegueu la "
+"capçalera de temps del fotograma."
 
 #: ../../reference_manual/dockers/timeline.rst:97
 msgid "GUI Actions:"
-msgstr ""
+msgstr "Accions de la IGU:"
 
 #: ../../reference_manual/dockers/timeline.rst:99
 msgid "**Layer List**"
-msgstr ""
+msgstr "**Llista de capes**"
 
 #: ../../reference_manual/dockers/timeline.rst:101
 msgid "|mouseleft| : Select active layer."
-msgstr ""
+msgstr "|mouseleft|: selecciona la capa activa."
 
 #: ../../reference_manual/dockers/timeline.rst:102
 msgid "|mouseright| : Layers Menu (add/remove/show layers, etc.)."
-msgstr ""
+msgstr "|mouseright|: menú Capes (afegeix/elimina/mostra les capes, etc.)."
 
 #: ../../reference_manual/dockers/timeline.rst:104
 msgid "**Frame Timing Header**"
-msgstr ""
+msgstr "**Capçalera de la Temporització dels fotogrames**"
 
 #: ../../reference_manual/dockers/timeline.rst:106
 msgid "|mouseleft| : Move to time and select frame of the active layer."
 msgstr ""
+"|mouseleft|: moveu el temps i seleccioneu el fotograma de la capa activa."
 
 #: ../../reference_manual/dockers/timeline.rst:107
 msgid ""
 "|mouseleft| :kbd:`drag` : Scrub through time and select frame of the active "
 "layer."
 msgstr ""
+"|mouseleft| :kbd:`arrossega` : aneu a través del temps i seleccioneu el "
+"fotograma de la capa activa."
 
 #: ../../reference_manual/dockers/timeline.rst:108
 msgid ""
 "|mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold "
 "columns)."
 msgstr ""
+"|mouseright|: menú de les columnes del fotograma (insereix/elimina/copia/"
+"enganxa columnes i retenir columnes)."
 
 #: ../../reference_manual/dockers/timeline.rst:110
 msgid "**Frames Table: all**"
-msgstr ""
+msgstr "**Taula dels fotogrames: tots**"
 
 #: ../../reference_manual/dockers/timeline.rst:112
 msgid ""
 "|mouseleft| : Selects a single frame or slot and switches time, but *does "
 "not switch active layer*."
 msgstr ""
+"|mouseleft|: selecciona un únic fotograma o ranura i canvia el temps, però "
+"*no canvia la capa activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:113
 msgid ":kbd:`Space` + |mouseleft| : Pan."
-msgstr ""
+msgstr ":kbd:`Espai + feu`|mouseleft|: panorama."
 
 #: ../../reference_manual/dockers/timeline.rst:114
 msgid ":kbd:`Space` + |mouseright| : Zoom."
-msgstr ""
+msgstr ":kbd:`Espai + feu` |mouseright|: zoom."
 
 #: ../../reference_manual/dockers/timeline.rst:116
 msgid "**Frames Table (On Empty Slot).**"
-msgstr ""
+msgstr "**Taula dels fotogrames (en una ranura buida)**"
 
 #: ../../reference_manual/dockers/timeline.rst:118
 msgid ""
 "|mouseright| : Frames menu (insert/copy/paste frames and insert/remove "
 "holds)."
 msgstr ""
+"|mouseright|: menú fotogrames (insereix/copia/enganxa fotogrames i "
+"insereix/elimina retencions)."
 
 #: ../../reference_manual/dockers/timeline.rst:119
 msgid ""
 "|mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the "
 "last selected, but *does not switch active layer*."
 msgstr ""
+"|mouseleft| :kbd:`+ arrossega`: selecciona múltiples fotogrames i canvia el "
+"temps a l'últim que heu seleccionat, però *no canviarà la capa activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:120
 msgid ""
 ":kbd:`Shift` + |mouseleft| : Select all frames between the active and the "
 "clicked frame."
 msgstr ""
+":kbd:`Majús. + feu`|mouseleft|: selecciona tots els fotogrames entre el "
+"fotograma actiu i en el que s'ha fet clic."
 
 #: ../../reference_manual/dockers/timeline.rst:121
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click"
 "+drag` them into place."
 msgstr ""
+":kbd:`Ctrl + feu` |mouseleft|: selecciona els fotogrames individuals. "
+":kbd:`Feu`|mouseright| :kbd:`+ arrossega` per a deixar-los al lloc."
 
 #: ../../reference_manual/dockers/timeline.rst:123
 msgid "**Frames Table (On Existing Frame)**"
-msgstr ""
+msgstr "**Taula dels fotogrames (en un fotograma existent)**"
 
 #: ../../reference_manual/dockers/timeline.rst:125
 msgid ""
 "|mouseright| : Frames menu (remove/copy/paste frames and insert/remove "
 "holds)."
 msgstr ""
+"|mouseright|: menú fotogrames (elimina/copia/enganxa fotogrames i "
+"insereix/elimina retencions)."
 
 #: ../../reference_manual/dockers/timeline.rst:126
 msgid "|mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames."
 msgstr ""
+"|mouseleft| :kbd:`+ arrossega`: *mou* un fotograma o múltiples fotogrames."
 
 #: ../../reference_manual/dockers/timeline.rst:127
 msgid ""
 ":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
 msgstr ""
+":kbd:`Ctrl + feu`|mouseleft| :kbd:`+ arrossega`: copia un fotograma o "
+"múltiples fotogrames."
 
+# skip-rule: common-es_s
 #: ../../reference_manual/dockers/timeline.rst:128
 msgid ""
 ":kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to "
@@ -433,3 +600,7 @@ msgid ""
 "your animation, but don't want to select all the frames to the right of a "
 "particular frame!)"
 msgstr ""
+":kbd:`Alt + arrossega`: mou el/s fotograma/es seleccionat/s i *tots* els "
+"fotogrames que hi ha a la dreta. (Això és útil per a quan necessiteu aclarir "
+"algun espai a la vostra animació, però no voleu seleccionar tots els "
+"fotogrames de la dreta d'un fotograma en concret!)"

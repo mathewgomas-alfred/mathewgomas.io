@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-17 15:49+0200\n"
+"PO-Revision-Date: 2019-05-25 12:08+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -36,6 +36,9 @@ msgid ""
 "This docker was removed in Krita 4.0 due to crashes on Windows. :ref:`The "
 "reference images tool in 4.1 replaces it. <reference_images_tool>`"
 msgstr ""
+"Aquest acoblador ha estat eliminat en el Krita 4.0 a causa d'un bloqueig al "
+"Windows. El substitueix l':ref:`eina Imatges de referència de la versió 4.1 "
+"<reference_images_tool>`."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:24
 msgid ""
@@ -53,26 +56,34 @@ msgid ""
 "This docker allows you to pick an image from outside of Krita and use it as "
 "a reference. Even better, you can pick colors from it directly."
 msgstr ""
+"Aquest acoblador permet triar una imatge des de fora del Krita i emprar-la "
+"com a referència. Encara millor, podreu triar els colors directament."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:29
 msgid "The docker consists of two tabs: Browsing and Image."
-msgstr ""
+msgstr "L'acoblador consta de dues pestanyes: Navega i Imatge."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:32
 msgid "Browsing"
-msgstr "Navegar"
+msgstr "Navega"
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:34
 msgid ""
 "Browsing gives you a small file browser, so you can navigate to the map "
 "where the image you want to use as reference is located."
 msgstr ""
+"La navegació ofereix un petit explorador de fitxers, de manera que podreu "
+"navegar fins al mapa on es troba la imatge que voleu utilitzar com a "
+"referència."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:36
 msgid ""
 "There's an image strip beneath the browser, allowing you to select the image "
 "which you want to use. Double click to load it in the :guilabel:`Image` tab."
 msgstr ""
+"Hi ha una tira d'imatge sota el navegador, la qual permet seleccionar la "
+"imatge que voleu utilitzar. Feu doble clic per a carregar-la a la pestanya "
+":guilabel:`Imatge`."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:39
 msgid "Image"
@@ -84,3 +95,7 @@ msgid ""
 "level. Clicking anywhere on the image will allow you to pick the merged "
 "color from it. Using the cross symbol, you can remove the icon."
 msgstr ""
+"Aquesta pestanya permet veure les imatges que heu seleccionat i canviar el "
+"nivell de zoom. En fer clic a qualsevol lloc de la imatge, podreu triar el "
+"color que es fusionarà. Utilitzant el símbol de la creu, podreu eliminar la "
+"icona."

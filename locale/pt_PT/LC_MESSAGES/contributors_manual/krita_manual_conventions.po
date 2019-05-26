@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-24 03:23+0200\n"
-"PO-Revision-Date: 2019-05-24 15:47+0100\n"
+"POT-Creation-Date: 2019-05-25 03:20+0200\n"
+"PO-Revision-Date: 2019-05-25 12:19+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -64,10 +64,6 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: deslocamento do rato"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Réguas Horizontais"
-
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/sample.png\n"
@@ -75,6 +71,10 @@ msgid ""
 msgstr ""
 ".. image:: images/sample.png\n"
 "   :alt: uma imagem."
+
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Réguas Horizontais"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -268,7 +268,9 @@ msgstr "Termos de indexação."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:63
 msgid ".. index:: Keyword, Keyword with Spaces, ! Main Definition Keyword"
-msgstr ".. index:: Palavra-chave, Palavra-chave com Espaços, ! Palavra-chave de Definição Principal"
+msgstr ""
+".. index:: Palavra-chave, Palavra-chave com Espaços, ! Palavra-chave de "
+"Definição Principal"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:66
 msgid ""
@@ -529,8 +531,7 @@ msgstr ""
 "   :figwidth: 800\n"
 "   :align: center\n"
 "   :alt: uma imagem.\n"
-"\n"
-"   Uma legenda --  repare como a primeira letra fica ainhada com a opção :figwidth:."
+"   Uma legenda --  repare como a primeira letra fica aninhada com a opção :figwidth:."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:163
 msgid "The latter gives:"
@@ -1148,8 +1149,7 @@ msgid ""
 "    Which is useful to collect external links and references."
 msgstr ""
 ".. seealso::\n"
-"\n"
-"    O que é útil para recolher as referências e ligações ecternas."
+"    O que é útil para recolher as referências e ligações externas."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:412
 msgid ""
@@ -1272,9 +1272,11 @@ msgid ""
 "    Be sure to add a white space and a tab afterwards before starting the "
 "snippet."
 msgstr ""
-"Isto é um parágrafo, e definimos um excerto pré-formatado da seguinte forma::\n"
+"Isto é um parágrafo, e definimos um excerto pré-formatado da seguinte "
+"forma::\n"
 "\n"
-"    Certifique-se que adiciona um espaço em branco e uma tabulação a seguir antes de iniciar o excerto."
+"    Certifique-se que adiciona um espaço em branco e uma tabulação a seguir "
+"antes de iniciar o excerto."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:447
 msgid ""
@@ -1376,7 +1378,9 @@ msgstr ""
 msgid ""
 "<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
 "paragraph.</p>"
-msgstr "<p>isto <span style=\"font-style:italic\">é</span> <!-- um comentário --> um parágrafo.</p>"
+msgstr ""
+"<p>isto <span style=\"font-style:italic\">é</span> <!-- um comentário --> um "
+"parágrafo.</p>"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:500
 msgid "Other preformatted text"

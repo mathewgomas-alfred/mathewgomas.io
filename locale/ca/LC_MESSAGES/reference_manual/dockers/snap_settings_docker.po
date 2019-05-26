@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-21 17:52+0200\n"
+"PO-Revision-Date: 2019-05-25 12:07+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -40,6 +40,8 @@ msgid ""
 "This docker has been removed in Krita 3.0. For more information on how to do "
 "this instead, consult the :ref:`snapping page <snapping>`."
 msgstr ""
+"Aquest acoblador ha estat eliminat en el Krita 3.0. Per obtenir més "
+"informació sobre com fer-ho, consulteu la :ref:`pàgina Ajustar <snapping>`."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:23
 msgid ".. image:: images/dockers/Krita_Snap_Settings_Docker.png"
@@ -50,6 +52,9 @@ msgid ""
 "This is docker only applies for Vector Layers. Snapping determines where a "
 "vector shape will snap. The little number box is for snapping to a grid."
 msgstr ""
+"Aquest acoblador només s'aplica a les Capes vectorials. Ajustar determina on "
+"es podrà ajustar una forma vectorial. El petit quadre numèric és per ajustar "
+"amb una quadrícula."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:26
 msgid "Node"
@@ -57,17 +62,19 @@ msgstr "Node"
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:27
 msgid "For snapping to other vector nodes."
-msgstr ""
+msgstr "Per ajustar amb altres nodes vectorials."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:28
 msgid "Extensions of Line"
-msgstr ""
+msgstr "Extensions de la línia"
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:29
 msgid ""
 "For snapping to a point that could have been part of a line, had it been "
 "extended."
 msgstr ""
+"Per ajustar amb un punt que podria haver format part d'una línia, s'havia "
+"estès."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:30
 msgid "Bounding Box"
@@ -75,7 +82,7 @@ msgstr "Quadre contenidor"
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:31
 msgid "For snapping to the bounding box of a vector shape."
-msgstr ""
+msgstr "Per ajustar amb el quadre contenidor d'una forma vectorial."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:32
 msgid "Orthogonal"
@@ -83,7 +90,7 @@ msgstr "Ortogonal"
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:33
 msgid "For snapping to only horizontal or vertical lines."
-msgstr ""
+msgstr "Per ajustar només amb les línies horitzontals o verticals."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:34
 msgid "Intersection"
@@ -91,8 +98,8 @@ msgstr "Intersecció"
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:35
 msgid "for snapping to other vector lines."
-msgstr ""
+msgstr "Per ajustar amb altres línies vectorials."
 
 #: ../../reference_manual/dockers/snap_settings_docker.rst:37
 msgid "Guides don't exist in Krita, therefore this one is useless."
-msgstr ""
+msgstr "Les guies no existeixen al Krita, per tant aquesta és inútil."
