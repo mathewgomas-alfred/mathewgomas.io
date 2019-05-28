@@ -30,7 +30,7 @@ A general edge detection filter that encapsulates all other filters. Edge detect
    :align: center
    :figwidth: 800
    
-   From left to right: Original, with prewitt edge detection applied, with prewitt edge detection applied and result applied to alpha channel, and finally the original with an edge detection filter layer with the same settings as 3, and the filter layer blending mode set to multiply
+   From left to right: Original, with Prewitt edge detection applied, with Prewitt edge detection applied and result applied to alpha channel, and finally the original with an edge detection filter layer with the same settings as 3, and the filter layer blending mode set to multiply
 
 Formula
     The convolution kernel formula for the edge detection. The difference between these is subtle, but still worth experimenting with.
@@ -39,7 +39,7 @@ Formula
         A Kernel that is not square unlike the other two, and while this makes it fast, it doesn't take diagonal pixels into account.
     Prewitt
         A square kernel that includes the diagonal pixels just as strongly as the orthogonal pixels. Gives a very strong effect.
-    Sobol
+    Sobel
         A square kernel that includes the diagonal pixels slightly less strong than the orthogonal pixels. Gives a more subtle effect than Prewitt.
 
 Output
@@ -82,7 +82,7 @@ Formula
         A Kernel that is not square unlike the other two, and while this makes it fast, it doesn't take diagonal pixels into account.
     Prewitt
         A square kernel that includes the diagonal pixels just as strongly as the orthogonal pixels. Gives a very strong effect.
-    Sobol
+    Sobel
         A square kernel that includes the diagonal pixels slightly less strong than the orthogonal pixels. Gives a more subtle effect than Prewitt.
 
 Channel
@@ -90,4 +90,4 @@ Channel
 Horizontal/Vertical radius
     The radius of the edge detection. Default is 1 and going higher will increase the strength of the normal map. Adjust this if the effect of the resulting normal map is too weak.
 XYZ
-    An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d normal vector coordinates. This is necessary mostly for the difference between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard normal map (+X, -Y, +Z).
+    An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d normal vector coordinates. This is necessary mostly for the difference between MikkT-space normal maps (+X, +Y, +Z) and the OpenGL standard normal map (+X, -Y, +Z).
