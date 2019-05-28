@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:38+0200\n"
+"PO-Revision-Date: 2019-05-27 20:57+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.1\n"
 
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/smart_patch.rst:1
 msgid "Krita's smart patch tool reference."
-msgstr "Referència de l'eina Pedaç intel·ligent del Krita."
+msgstr "Referència de l'eina Patró intel·ligent del Krita."
 
 #: ../../reference_manual/tools/smart_patch.rst:11
 msgid "Tools"
@@ -37,7 +37,7 @@ msgstr "Eines"
 
 #: ../../reference_manual/tools/smart_patch.rst:11
 msgid "Smart Patch"
-msgstr "Pedaç intel·ligent"
+msgstr "Patró intel·ligent"
 
 #: ../../reference_manual/tools/smart_patch.rst:11
 msgid "Automatic Healing"
@@ -45,7 +45,7 @@ msgstr "Automàtica de guariment"
 
 #: ../../reference_manual/tools/smart_patch.rst:16
 msgid "Smart Patch Tool"
-msgstr "Eina de pedaç intel·ligent"
+msgstr "Eina de patró intel·ligent"
 
 #: ../../reference_manual/tools/smart_patch.rst:18
 msgid "|toolsmartpatch|"
@@ -53,10 +53,10 @@ msgstr "|toolsmartpatch|"
 
 #: ../../reference_manual/tools/smart_patch.rst:20
 msgid ""
-"The smart patch tool allows you to seamlessly remove elements from the image."
-" It does this by letting you draw the area which has the element you wish to"
-" remove, and then it will attempt to use patterns already existing in the"
-" image to fill the blank."
+"The smart patch tool allows you to seamlessly remove elements from the "
+"image. It does this by letting you draw the area which has the element you "
+"wish to remove, and then it will attempt to use patterns already existing in "
+"the image to fill the blank."
 msgstr ""
 
 #: ../../reference_manual/tools/smart_patch.rst:22
@@ -77,22 +77,22 @@ msgstr "Precisió"
 
 #: ../../reference_manual/tools/smart_patch.rst:31
 msgid ""
-"Accuracy indicates how many samples, and thus how often the algorithm is run."
-" A low accuracy will do few samples, but will also run the algorithm fewer"
-" times, making it faster. Higher accuracy will do many samples, making the"
-" algorithm run more often and give more precise results, but because it has"
-" to do more work, it is slower."
+"Accuracy indicates how many samples, and thus how often the algorithm is "
+"run. A low accuracy will do few samples, but will also run the algorithm "
+"fewer times, making it faster. Higher accuracy will do many samples, making "
+"the algorithm run more often and give more precise results, but because it "
+"has to do more work, it is slower."
 msgstr ""
 
 #: ../../reference_manual/tools/smart_patch.rst:34
 msgid "Patch size"
-msgstr "Mida del pedaç"
+msgstr "Mida del patró"
 
 #: ../../reference_manual/tools/smart_patch.rst:36
 msgid ""
-"Patch size determines how big the size of the pattern to choose is. This will"
-" be best explained with some testing, but if the surrounding image has mostly"
-" small elements, like branches, a small patch size will give better results,"
-" while a big patch size will be better for images with big elements, so they"
-" get reused as a whole."
+"Patch size determines how big the size of the pattern to choose is. This "
+"will be best explained with some testing, but if the surrounding image has "
+"mostly small elements, like branches, a small patch size will give better "
+"results, while a big patch size will be better for images with big elements, "
+"so they get reused as a whole."
 msgstr ""

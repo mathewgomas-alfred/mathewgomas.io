@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 12:43+0200\n"
+"PO-Revision-Date: 2019-05-27 22:19+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -92,7 +92,7 @@ msgstr "Llums intenses"
 #: ../../reference_manual/filters/adjust.rst:34
 #: ../../reference_manual/filters/adjust.rst:52
 msgid "This will apply the effect on the highlights only."
-msgstr "Això aplicarà l'efecte només a les Llums intenses."
+msgstr "Només aplicarà l'efecte a les llums intenses."
 
 #: ../../reference_manual/filters/adjust.rst:36
 #: ../../reference_manual/filters/adjust.rst:54
@@ -139,10 +139,10 @@ msgid ""
 msgstr ""
 "Aquest filtre permet modificar directament els nivells dels valors de to "
 "d'una imatge, manipulant els controls lliscants per a les llums intenses, "
-"tons mitjans i ombres. Fins i tot podreu establir un interval de la sortida i "
-"entrada de tons per a la imatge. Es mostrarà un histograma per a mostrar-vos "
-"la distribució tonal. La drecera predeterminada per al filtre de nivells és "
-":kbd:`Ctrl + L`."
+"tons mitjans i ombres. Fins i tot podreu establir un interval de la sortida "
+"i entrada de tons per a la imatge. Es mostrarà un histograma per a mostrar-"
+"vos la distribució tonal. La drecera predeterminada per al filtre de nivells "
+"és :kbd:`Ctrl + L`."
 
 #: ../../reference_manual/filters/adjust.rst:65
 msgid ".. image:: images/filters/Levels-filter.png"
@@ -155,7 +155,7 @@ msgid ""
 "right to make it darker or if you want to remove the gray areas you can "
 "slide the white slider to left."
 msgstr ""
-"Això és molt útil per a fer una neteja inicial de les imatges escanejades amb "
+"És molt útil per a fer una neteja inicial de les imatges escanejades amb "
 "línia artística o en escala de grisos. Si la línia artística escanejada és "
 "clara, podreu lliscar pel triangle negre cap a la dreta per a fer-la més "
 "fosca o si voleu eliminar les àrees grises, podreu fer lliscar el control "
@@ -167,9 +167,9 @@ msgid ""
 "the settings later you can click on the :guilabel:`Create Filter Mask` "
 "button to add the levels as a filter mask."
 msgstr ""
-"Els nivells automàtics són una manera ràpida d'ajustar el to d'una imatge. Si "
-"voleu canviar els ajustaments més endavant, podreu fer clic al botó "
-":guilabel:`Crea una màscara de filtratge` per afegir els nivells com una "
+"Els nivells automàtics són una manera ràpida d'ajustar el to d'una imatge. "
+"Si voleu canviar els ajustaments més endavant, podreu fer clic al botó :"
+"guilabel:`Crea una màscara de filtratge` per afegir els nivells com una "
 "màscara de filtratge."
 
 #: ../../reference_manual/filters/adjust.rst:71
@@ -197,14 +197,14 @@ msgid ""
 "The default shortcut for this filter is :kbd:`Ctrl + M`."
 msgstr ""
 "Aquest filtre permet ajustar cada canal manipulant les corbes. Fins i tot "
-"podreu ajustar el canal alfa i el canal de claredat a través d'aquest filtre. "
-"Això és utilitzat molt sovint pels artistes com un filtre de postprocessament "
-"per a realçar lleugerament l'ambient de la pintura ajustant el color general. "
-"Per exemple, una escena amb un drac que expira foc pot fer-se més vermella i "
-"groga ajustant les corbes per donar-li un aspecte més càlid, de manera "
-"similar, es pot fer que una escena de muntanya nevada es vegi més fresca "
-"ajustant els blaus i verds. La drecera predeterminada per a aquest filtre és "
-":kbd:`Ctrl + M`."
+"podreu ajustar el canal alfa i el canal de claredat a través d'aquest "
+"filtre. És utilitzat molt sovint pels artistes com un filtre de "
+"postprocessament per a realçar lleugerament l'ambient de la pintura ajustant "
+"el color general. Per exemple, una escena amb un drac que expira foc pot "
+"fer-se més vermella i groga ajustant les corbes per donar-li un aspecte més "
+"càlid, de manera similar, es pot fer que una escena de muntanya nevada es "
+"vegi més fresca ajustant els blaus i verds. La drecera predeterminada per a "
+"aquest filtre és :kbd:`Ctrl + M`."
 
 #: ../../reference_manual/filters/adjust.rst:81
 msgid "Since 4.1 this filter can also handle Hue and Saturation curves."
@@ -246,8 +246,8 @@ msgid ""
 "guilabel:`Channel` you wish to modify. The :guilabel:`Driver Channel` drop "
 "down is what channel you use to control which parts are modified."
 msgstr ""
-"A la part superior, hi ha dos desplegables. El primer és per triar quin "
-":guilabel:`Canal` voleu modificar. El desplegable :guilabel:`Controlador del "
+"A la part superior, hi ha dos desplegables. El primer és per triar quin :"
+"guilabel:`Canal` voleu modificar. El desplegable :guilabel:`Controlador del "
 "canal` és el canal que s'utilitza per a controlar quines parts es "
 "modificaran."
 
@@ -303,8 +303,8 @@ msgid ""
 "can do the same. Old files with brightness/contrast curves will be loaded as "
 "Color Adjustment curves"
 msgstr ""
-"Ha estat eliminat en el Krita 4.0, perquè el filtre d'Ajust del color pot fer "
-"el mateix. Els fitxers antics amb corbes de brillantor/contrast es "
+"Ha estat eliminat en el Krita 4.0, perquè el filtre d'Ajust del color pot "
+"fer el mateix. Els fitxers antics amb corbes de brillantor/contrast es "
 "carregaran com a corbes d'Ajust del color."
 
 #: ../../reference_manual/filters/adjust.rst:115
@@ -318,9 +318,9 @@ msgid ""
 "adjusting the sliders for Shadows, Midtones and Highlights. The default "
 "shortcut for this filter is :kbd:`Ctrl + B` ."
 msgstr ""
-"Aquest filtre permet controlar l'equilibri de color de la imatge ajustant els "
-"controls lliscants per a Ombres, Tons mitjans i Llums intenses. La drecera "
-"predeterminada per a aquest filtre és :kbd:`Ctrl + B`."
+"Aquest filtre permet controlar l'equilibri de color de la imatge ajustant "
+"els controls lliscants per a Ombres, Tons mitjans i Llums intenses. La "
+"drecera predeterminada per a aquest filtre és :kbd:`Ctrl + B`."
 
 #: ../../reference_manual/filters/adjust.rst:123
 msgid ".. image:: images/filters/Color-balance.png"
@@ -349,6 +349,10 @@ msgid ""
 "choices by which logic the colors are turned to gray. The default shortcut "
 "for this filter is :kbd:`Ctrl + Shift + U` ."
 msgstr ""
+"Filtre de dessaturació en tota la imatge. Crearà qualsevol imatge en escala "
+"de grisos. Té diverses opcions segons les quals, la lògica farà que els "
+"colors es tornin grisos. La drecera predeterminada per a aquest filtre és "
+":kbd:`Ctrl + Majús. + U`."
 
 #: ../../reference_manual/filters/adjust.rst:133
 msgid ".. image:: images/filters/Desaturate-filter.png"
@@ -361,7 +365,7 @@ msgstr "Claredat"
 
 #: ../../reference_manual/filters/adjust.rst:135
 msgid "This will turn colors to gray using the HSL model."
-msgstr ""
+msgstr "Canviarà els colors a gris utilitzant el model HSL."
 
 #: ../../reference_manual/filters/adjust.rst:136
 msgid "Luminosity (ITU-R BT.709)"
@@ -372,6 +376,8 @@ msgid ""
 "Will turn the color to gray by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.709."
 msgstr ""
+"Canviarà el color a gris utilitzant la quantitat apropiada de ponderació per "
+"canal segons la recomanació ITU-R BT.709."
 
 #: ../../reference_manual/filters/adjust.rst:138
 msgid "Luminosity (ITU-R BT.601)"
@@ -382,6 +388,8 @@ msgid ""
 "Will turn the color to gray by using the appropriate amount of weighting per "
 "channel according to ITU-R BT.601."
 msgstr ""
+"Canviarà el color a gris utilitzant la quantitat apropiada de ponderació per "
+"canal segons la recomanació ITU-R BT.601."
 
 #: ../../reference_manual/filters/adjust.rst:140
 msgid "Average"
@@ -389,7 +397,7 @@ msgstr "Mitjana"
 
 #: ../../reference_manual/filters/adjust.rst:141
 msgid "Will make an average of all channels."
-msgstr ""
+msgstr "Realitzarà una mitjana de tots els canals."
 
 #: ../../reference_manual/filters/adjust.rst:142
 msgid "Min"
@@ -397,7 +405,7 @@ msgstr "Mín."
 
 #: ../../reference_manual/filters/adjust.rst:143
 msgid "Subtracts all from one another to find the gray value."
-msgstr ""
+msgstr "Els sostreu tots dels altres per a trobar el valor del gris."
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Max"
@@ -405,7 +413,7 @@ msgstr "Màx."
 
 #: ../../reference_manual/filters/adjust.rst:145
 msgid "Adds all channels together to get a gray value"
-msgstr ""
+msgstr "Afegeix tots els canals junts per obtenir un valor del gris."
 
 #: ../../reference_manual/filters/adjust.rst:147
 #: ../../reference_manual/filters/adjust.rst:150
@@ -422,6 +430,10 @@ msgid ""
 "white (1,1,1) becomes black (0,0,0), yellow (1,1,0) becomes blue (0,1,1), "
 "etc. The default shortcut for this filter is :kbd:`Ctrl + I`."
 msgstr ""
+"Aquest filtre, com suggereix el nom, inverteix els valors de color a la "
+"imatge. De manera que el blanc (1,1,1) es tornarà negre (0,0,0), el groc "
+"(1,1,0) es tornarà blau (0,1,1), etc. La drecera predeterminada per a aquest "
+"filtre és :kbd:`Ctrl + I`."
 
 #: ../../reference_manual/filters/adjust.rst:155
 msgid "Contrast"
@@ -433,7 +445,7 @@ msgstr "Contrast automàtic"
 
 #: ../../reference_manual/filters/adjust.rst:160
 msgid "Tries to adjust the contrast the universally acceptable levels."
-msgstr ""
+msgstr "Intenta ajustar el contrast dels nivells universalment acceptables."
 
 #: ../../reference_manual/filters/adjust.rst:162
 msgid "Hue"
@@ -460,6 +472,9 @@ msgid ""
 "With this filter, you can adjust the Hue, Saturation, Value or Lightness, "
 "through sliders. The default shortcut for this filter is :kbd:`Ctrl + U` ."
 msgstr ""
+"Amb aquest filtre, podreu ajustar el To, la Saturació, el Valor o la Claredat "
+"mitjançant els controls lliscants. La drecera predeterminada per a aquest "
+"filtre és :kbd:`Ctrl + U`."
 
 #: ../../reference_manual/filters/adjust.rst:170
 msgid ".. image:: images/filters/Hue-saturation-filter.png"
@@ -472,7 +487,7 @@ msgstr "Llindar"
 
 #: ../../reference_manual/filters/adjust.rst:171
 msgid "Black and White"
-msgstr "Negre i blanc"
+msgstr "Blanc i negre"
 
 #: ../../reference_manual/filters/adjust.rst:176
 msgid ""
@@ -480,10 +495,14 @@ msgid ""
 "convert any image to a image with only black and white, with the input "
 "number indicating the threshold value at which black becomes white."
 msgstr ""
+"Un filtre senzill de llindar del blancl i negre que utilitza la lluminositat "
+"sRGB. Converteix qualsevol imatge a una imatge només en blanc i negre, amb "
+"el número d'entrada que indicarà el valor del llindar en què el negre es "
+"tornarà blanc."
 
 #: ../../reference_manual/filters/adjust.rst:178
 msgid "ASC CDL"
-msgstr ""
+msgstr "CDL de l'ASC"
 
 #: ../../reference_manual/filters/adjust.rst:178
 msgid "Slope Offset Power Curves"
@@ -498,6 +517,9 @@ msgid ""
 "A different kind of color balance filter, with three color selectors, which "
 "will have the same shape as the one used in settings."
 msgstr ""
+"Un tipus diferent de filtre per a l'equilibri de color, amb tres selectors de "
+"color, els quals tindran la mateixa forma que la utilitzada en els "
+"ajustaments."
 
 #: ../../reference_manual/filters/adjust.rst:185
 msgid ""
@@ -505,6 +527,9 @@ msgid ""
 "Society for Cinema as \"ASC_CDL\", meaning that it is a standard way of "
 "describing a color balance method."
 msgstr ""
+"Aquest filtre és particularment útil perquè ha estat definit per l'American "
+"Society for Cinema com a «ASC_CDL», el qual vol dir que és una forma "
+"estàndard de descriure un mètode per a l'equilibri de color."
 
 #: ../../reference_manual/filters/adjust.rst:191
 msgid "Slope"
@@ -515,6 +540,8 @@ msgid ""
 "This represents a multiplication and determine the adjustment of the "
 "brighter colors in an image."
 msgstr ""
+"Representa una multiplicació i determina l'ajust dels colors més brillants en "
+"una imatge."
 
 #: ../../reference_manual/filters/adjust.rst:193
 msgid "Offset"
@@ -525,9 +552,13 @@ msgid ""
 "This determines how much the bottom is offset from the top, and so "
 "determines the color of the darkest colors."
 msgstr ""
+"Determina quant es desplaçarà la part inferior de la part superior, i així "
+"determinarà el color dels colors més foscos."
 
 #: ../../reference_manual/filters/adjust.rst:196
 msgid ""
 "This represents a power function, and determines the adjustment of the mid-"
 "tone to dark colors of an image."
 msgstr ""
+"Representa una funció de potència i determinarà l'ajust del to mitjà als "
+"colors foscos d'una imatge."
