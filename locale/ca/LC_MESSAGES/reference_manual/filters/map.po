@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-25 11:47+0200\n"
+"PO-Revision-Date: 2019-05-28 18:14+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -33,7 +33,7 @@ msgstr "Mapa"
 
 #: ../../reference_manual/filters/map.rst:18
 msgid "Filters that are signified by them mapping the input image."
-msgstr ""
+msgstr "Filtres que es caracteritzen pel mapatge de la imatge d'entrada."
 
 #: ../../reference_manual/filters/map.rst:20
 #: ../../reference_manual/filters/map.rst:23
@@ -47,10 +47,12 @@ msgstr "Mosaics"
 #: ../../reference_manual/filters/map.rst:25
 msgid "Tiles the input image, using its own layer as output."
 msgstr ""
+"Crea mosaics en la imatge d'entrada, utilitzant la seva pròpia capa com a "
+"sortida."
 
 #: ../../reference_manual/filters/map.rst:27
 msgid "Height Map"
-msgstr ""
+msgstr "Mapa d'alçades"
 
 #: ../../reference_manual/filters/map.rst:27
 msgid "Bumpmap"
@@ -75,6 +77,11 @@ msgid ""
 "game texturing. Checking the :guilabel:`Normal Map` box will make it use all "
 "channels and interpret them as a normal map."
 msgstr ""
+"Utilitza la imatge d'entrada com un mapa d'alçades per a generar alguna cosa "
+"en 3D, utilitzant el model d'ombrejat Phong de Lambert. Útil per a revisar "
+"els mapes d'alçades durant la texturització del joc. Marcar la casella "
+":guilabel:`Mapa normal` farà que utilitzi tots els canals i que els "
+"interpreti com un mapa normal."
 
 #: ../../reference_manual/filters/map.rst:37
 msgid "Round Corners"
@@ -82,7 +89,7 @@ msgstr "Cantonades arrodonides"
 
 #: ../../reference_manual/filters/map.rst:39
 msgid "Adds little corners to the input image."
-msgstr ""
+msgstr "Afegeix petites cantonades a la imatge d'entrada."
 
 #: ../../reference_manual/filters/map.rst:41
 #: ../../reference_manual/filters/map.rst:44
@@ -95,6 +102,10 @@ msgid ""
 "normalizes (makes the vector size exactly 1) the values. This is helpful for "
 "normal maps and some minor image-editing functions."
 msgstr ""
+"Aquest filtre pren els píxels de l'entrada, els col·loca en un vector de 3D i "
+"després normalitza (fa que la mida del vector sigui exactament 1) els "
+"valors. Això és útil per a mapes normals i algunes funcions menors en "
+"l'edició d'imatges."
 
 #: ../../reference_manual/filters/map.rst:48
 #: ../../reference_manual/filters/map.rst:51
@@ -114,6 +125,8 @@ msgid ""
 "Maps the lightness of the input to the selected gradient. Useful for fancy "
 "artistic effects."
 msgstr ""
+"Associa la claredat de l'entrada al degradat seleccionat. Útil per a efectes "
+"artístics de fantasia."
 
 #: ../../reference_manual/filters/map.rst:57
 msgid ""
@@ -121,3 +134,7 @@ msgid ""
 "gradients and change them on the fly, as well as use the gradient map filter "
 "as a filter layer or filter brush."
 msgstr ""
+"En la versió 3.x només podíeu seleccionar degradats predefinits. En la versió "
+"4.0, podreu seleccionar els degradats i canviar-los sobre la marxa, així com "
+"utilitzar el filtre del mapa de degradats com a capa de filtratge o pinzell "
+"amb filtratge."

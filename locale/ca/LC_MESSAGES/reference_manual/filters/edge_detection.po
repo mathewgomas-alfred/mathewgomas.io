@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-25 11:45+0200\n"
+"PO-Revision-Date: 2019-05-28 17:35+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -52,10 +52,14 @@ msgid ""
 "Edge detection filters focus on finding sharp contrast or border between "
 "colors in an image to create edges or lines."
 msgstr ""
+"Els filtres per a la detecció de les vores se centren en trobar un contrast "
+"més definit o una vora entre els colors d'una imatge per a crear vores o "
+"línies."
 
 #: ../../reference_manual/filters/edge_detection.rst:20
 msgid "Since 4.0 there are only two edge detection filters."
 msgstr ""
+"Des de la versió 4.0 només hi ha dos filtres per a la detecció de les vores."
 
 #: ../../reference_manual/filters/edge_detection.rst:27
 msgid ""
@@ -63,6 +67,10 @@ msgid ""
 "detection filters that were separate before 4.0 have been folded into this "
 "one. It is also available for filter layers and filter brushes."
 msgstr ""
+"Un filtre general per a la detecció de les vores que encapsula tots els "
+"altres filtres. Els filtres per a la detecció de les vores que estaven "
+"separats abans de la versió 4.0 s'han doblat en aquest. També està "
+"disponible per a les capes de filtratge i pinzells amb filtratge."
 
 #: ../../reference_manual/filters/edge_detection.rst:33
 msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
@@ -75,6 +83,11 @@ msgid ""
 "finally the original with an edge detection filter layer with the same "
 "settings as 3, and the filter layer blending mode set to multiply"
 msgstr ""
+"D'esquerra a dreta: l'original, amb la detecció de les vores Prewitt "
+"aplicada, amb la detecció de les vores Prewitt aplicada i el resultat "
+"aplicat al canal alfa, i finalment amb la detecció de les vores amb els "
+"mateixos ajustaments que 3, i el mode de barreja de la capa de filtratge "
+"establert a multiplica."
 
 #: ../../reference_manual/filters/edge_detection.rst:36
 #: ../../reference_manual/filters/edge_detection.rst:79
@@ -82,6 +95,9 @@ msgid ""
 "The convolution kernel formula for the edge detection. The difference "
 "between these is subtle, but still worth experimenting with."
 msgstr ""
+"La fórmula del nucli de la convolució per a la detecció de les vores. La "
+"diferència entre aquests nuclis és subtil, però tot i així val la pena "
+"experimentar."
 
 #: ../../reference_manual/filters/edge_detection.rst:38
 #: ../../reference_manual/filters/edge_detection.rst:81
@@ -94,6 +110,8 @@ msgid ""
 "A Kernel that is not square unlike the other two, and while this makes it "
 "fast, it doesn't take diagonal pixels into account."
 msgstr ""
+"Un nucli que no és quadrat a diferència dels altres dos, i encara que això ho "
+"fa ràpid, no té en compte els píxels en diagonal."
 
 #: ../../reference_manual/filters/edge_detection.rst:41
 #: ../../reference_manual/filters/edge_detection.rst:84
@@ -101,6 +119,8 @@ msgid ""
 "A square kernel that includes the diagonal pixels just as strongly as the "
 "orthogonal pixels. Gives a very strong effect."
 msgstr ""
+"Un nucli quadrat que inclou els píxels en diagonal amb la mateixa força els "
+"píxels en ortogonal. Dóna un efecte molt fort."
 
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
@@ -110,7 +130,7 @@ msgstr "Fórmula"
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
 msgid "Sobol"
-msgstr ""
+msgstr "Sobel"
 
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
@@ -118,10 +138,13 @@ msgid ""
 "A square kernel that includes the diagonal pixels slightly less strong than "
 "the orthogonal pixels. Gives a more subtle effect than Prewitt."
 msgstr ""
+"Un nucli quadrat que inclou els píxels en diagonal amb una mica menys de "
+"força que els píxels en ortogonal. Dóna un efecte més subtil que el de "
+"Prewitt."
 
 #: ../../reference_manual/filters/edge_detection.rst:46
 msgid "The output."
-msgstr ""
+msgstr "La sortida."
 
 #: ../../reference_manual/filters/edge_detection.rst:48
 msgid "All sides"
@@ -132,6 +155,9 @@ msgid ""
 "Convolves the edge detection into all directions and combines the result "
 "with the Pythagorean theorem. This will be good for most uses."
 msgstr ""
+"Converteix la detecció de les vores en totes les direccions i combina el "
+"resultat amb el teorema de Pitàgores. Això serà bo per a la majoria dels "
+"casos d'ús."
 
 #: ../../reference_manual/filters/edge_detection.rst:50
 msgid "Top Edge"
@@ -142,6 +168,8 @@ msgid ""
 "This only detects changes going from top to bottom and thus only has top "
 "lines."
 msgstr ""
+"Només detecta els canvis que van de dalt a baix, de manera que només tindrà "
+"línies a la part superior."
 
 #: ../../reference_manual/filters/edge_detection.rst:52
 msgid "Bottom Edge"
@@ -152,6 +180,8 @@ msgid ""
 "This only detects changes going from bottom to top and thus only has bottom "
 "lines."
 msgstr ""
+"Només detecta els canvis que van de baix a dalt, de manera que només tindrà "
+"línies a la part inferior."
 
 #: ../../reference_manual/filters/edge_detection.rst:54
 msgid "Right Edge"
@@ -162,6 +192,8 @@ msgid ""
 "This only detects changes going from right to left and thus only has right "
 "lines."
 msgstr ""
+"Només detecta els canvis que van de dreta a esquerra, de manera que només "
+"tindrà línies a la part dreta."
 
 #: ../../reference_manual/filters/edge_detection.rst:56
 msgid "Left Edge"
@@ -172,6 +204,8 @@ msgid ""
 "This only detects changes going from left to right and thus only has left "
 "lines."
 msgstr ""
+"Només detecta els canvis que van d'esquerra a dreta, de manera que només "
+"tindrà línies a la part esquerra."
 
 #: ../../reference_manual/filters/edge_detection.rst:59
 msgid "Output"
@@ -186,21 +220,25 @@ msgid ""
 "This convolves into all directions and then tries to output the direction of "
 "the line in radians."
 msgstr ""
+"Converteix en totes les direccions i després intenta donar a la sortida la "
+"direcció de la línia en radians."
 
 #: ../../reference_manual/filters/edge_detection.rst:61
 #: ../../reference_manual/filters/edge_detection.rst:90
 msgid "Horizontal/Vertical radius"
-msgstr ""
+msgstr "Radi horitzontal/vertical"
 
 #: ../../reference_manual/filters/edge_detection.rst:62
 msgid ""
 "The radius of the edge detection. Default is 1 and going higher will "
 "increase the thickness of the lines."
 msgstr ""
+"El radi per a la detecció de les vores. El valor predeterminat és 1 i en "
+"fer-lo més alt augmentarà el gruix de les línies."
 
 #: ../../reference_manual/filters/edge_detection.rst:64
 msgid "Apply result to Alpha Channel."
-msgstr "Aplica el resultat al canal alfa."
+msgstr "Aplica el resultat al canal alfa"
 
 #: ../../reference_manual/filters/edge_detection.rst:64
 msgid ""
@@ -208,10 +246,13 @@ msgid ""
 "output will be onto the alpha channel of the image, meaning it will output "
 "lines only."
 msgstr ""
+"La detecció de les vores s'utilitzarà en una còpia en escala de grisos de la "
+"imatge, i la sortida serà en el canal alfa de la imatge, el qual vol dir que "
+"només generarà línies."
 
 #: ../../reference_manual/filters/edge_detection.rst:66
 msgid "Height Map"
-msgstr ""
+msgstr "Mapa d'alçades"
 
 #: ../../reference_manual/filters/edge_detection.rst:66
 msgid "Normal Map"
@@ -219,13 +260,16 @@ msgstr "Mapa normal"
 
 #: ../../reference_manual/filters/edge_detection.rst:69
 msgid "Height to Normal Map"
-msgstr "Alçades a mapa normal"
+msgstr "Mapa d'alçades a normal"
 
 #: ../../reference_manual/filters/edge_detection.rst:76
 msgid ""
 "A filter that converts Height maps to Normal maps through the power of edge "
 "detection. It is also available for the filter layer or filter brush."
 msgstr ""
+"Un filtre que converteix els Mapes d'alçades en Mapes normals a través del "
+"poder de la detecció de les vores. També està disponible per a la capa de "
+"filtratge o el pinzell amb filtratge."
 
 #: ../../reference_manual/filters/edge_detection.rst:88
 msgid "Channel"
@@ -235,6 +279,8 @@ msgstr "Canal"
 msgid ""
 "Which channel of the layer should be interpreted as the grayscale heightmap."
 msgstr ""
+"Quin canal de la capa s'haurà d'interpretar com el mapa d'alçades en escala "
+"de grisos."
 
 #: ../../reference_manual/filters/edge_detection.rst:91
 msgid ""
@@ -242,6 +288,9 @@ msgid ""
 "increase the strength of the normal map. Adjust this if the effect of the "
 "resulting normal map is too weak."
 msgstr ""
+"El radi per a la detecció de les vores. El valor predeterminat és 1 i fer-lo "
+"més alt augmentarà la intensitat del mapa normal. Ajusteu-lo si l'efecte del "
+"mapa normal resultant és massa pobre."
 
 #: ../../reference_manual/filters/edge_detection.rst:93
 msgid ""
@@ -250,3 +299,8 @@ msgid ""
 "between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard normal "
 "map (+X, -Y, +Z)."
 msgstr ""
+"Una recombinació dels components XYZ d'un vector, el qual permet assignar el "
+"Vermell, Verd i Blau a diferents coordenades vectorials normals en 3D. Això "
+"és necessari principalment per la diferència entre els mapes normals en "
+"espai de MikkT (+X, +Y, +Z) i el mapa normal estàndard de l'OpenGL (+X, -Y, "
+"+Z)."
