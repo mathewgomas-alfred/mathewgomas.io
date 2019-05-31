@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 11:36+0100\n"
+"PO-Revision-Date: 2019-05-30 20:59+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,21 +19,23 @@ msgstr ""
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:1
 msgid "Overview of the pattern docker."
-msgstr ""
+msgstr "Översikt av mönsterpanelen."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:12
 msgid "Reference"
-msgstr ""
+msgstr "Referens"
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:17
 msgid "Reference Images Docker"
-msgstr ""
+msgstr "Referensbildpanelen"
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:21
 msgid ""
 "This docker was removed in Krita 4.0 due to crashes on Windows. :ref:`The "
 "reference images tool in 4.1 replaces it. <reference_images_tool>`"
 msgstr ""
+"Panelen har tagits bort i Krita 4.0 på grund av krascher på Windows."
+" :ref:`Referensbildverktyget i 4.1 ersätter den. <reference_images_tool>`"
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:24
 msgid ""
@@ -51,10 +53,12 @@ msgid ""
 "This docker allows you to pick an image from outside of Krita and use it as "
 "a reference. Even better, you can pick colors from it directly."
 msgstr ""
+"Panelen låter dig välja en bild utanför Krita och använda den som en"
+" referens. Vad som är ännu bättre är att man kan direkt välja färger från den."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:29
 msgid "The docker consists of two tabs: Browsing and Image."
-msgstr ""
+msgstr "Panelen består av två flikar: Bläddring och bild."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:32
 msgid "Browsing"
@@ -65,12 +69,17 @@ msgid ""
 "Browsing gives you a small file browser, so you can navigate to the map "
 "where the image you want to use as reference is located."
 msgstr ""
+"Bläddring ger en liten filbläddrare så att du kan navigera till katalogen där"
+" bilden som man vill använda som referens finns."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:36
 msgid ""
 "There's an image strip beneath the browser, allowing you to select the image "
 "which you want to use. Double click to load it in the :guilabel:`Image` tab."
 msgstr ""
+"Det finns en bildrad nedanför bläddraren som gör det möjligt att välja bilden"
+" som man vill använda. Dubbelklicka för att läsa in den under fliken"
+" :guilabel:`Bild`."
 
 #: ../../reference_manual/dockers/reference_images_docker.rst:39
 msgid "Image"
@@ -82,3 +91,7 @@ msgid ""
 "level. Clicking anywhere on the image will allow you to pick the merged "
 "color from it. Using the cross symbol, you can remove the icon."
 msgstr ""
+"Fliken låter dig se bilderna som valdes, och ändra zoomnivån. Genom att"
+" klicka på bilden kan man välja den sammanfogade färgen från den. Genom att"
+" använda kryssymbolen kan ikonen tas bort."
+

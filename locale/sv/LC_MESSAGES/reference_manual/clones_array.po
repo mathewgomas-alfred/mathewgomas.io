@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-27 20:14+0100\n"
+"PO-Revision-Date: 2019-05-30 12:13+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,7 +23,7 @@ msgstr "Vinkel"
 
 #: ../../reference_manual/clones_array.rst:1
 msgid "The Clones Array functionality in Krita"
-msgstr ""
+msgstr "Funktionen Duplicerar fält i Krita"
 
 #: ../../reference_manual/clones_array.rst:10
 #: ../../reference_manual/clones_array.rst:15
@@ -44,6 +44,14 @@ msgid ""
 "to do the same, but also reduce the Y offset of the grids by the amount of "
 "space the hexagon can overlap with itself when tiled."
 msgstr ""
+"Gör det möjligt att snabbt skapa en mängd dupliceringslager. De är ordnade i"
+" form av rader och kolumner. Standardalternativen skapar ett 2 gånger 2"
+" rutnät. För att exempelvis skapa rutorna i ett isometriskt spel, skulle man"
+" vilja ställa in radernas X-position till halva värdet inmatat för"
+" kolumnernas X-position, så att raderna är förflyttade ett halvt. För ett"
+" sexkantigt rutnät skulle man vilja göra samma sak, men också reducera"
+" rutnätets Y-position med det mellanrum som sexhörningen kan överlappa med"
+" sig själv när den läggs ut."
 
 #: ../../reference_manual/clones_array.rst:19
 msgid "\\- Elements"
@@ -53,7 +61,7 @@ msgstr "\\- Element"
 msgid ""
 "The amount of elements that should be generated using a negative of the "
 "offset."
-msgstr ""
+msgstr "Antal element som ska genereras med användning av negativ position."
 
 #: ../../reference_manual/clones_array.rst:21
 msgid "\\+ Elements"
@@ -63,7 +71,7 @@ msgstr "\\+ Element"
 msgid ""
 "The amount of elements that should be generated using a positive of the "
 "offset."
-msgstr ""
+msgstr "Antal element som ska genereras med användning av positiv position."
 
 #: ../../reference_manual/clones_array.rst:23
 msgid "X offset"
@@ -74,6 +82,8 @@ msgid ""
 "The X offset in pixels. Use this in combination with Y offset to position a "
 "clone using Cartesian coordinates."
 msgstr ""
+"X-positionen i bildpunkter. Använd den tillsammans med Y-positionen för att"
+" placera en dubblett med kartesiska koordinater."
 
 #: ../../reference_manual/clones_array.rst:25
 msgid "Y offset"
@@ -84,6 +94,8 @@ msgid ""
 "The Y offset in pixels. Use this in combination with X offset to position a "
 "clone using Cartesian coordinates."
 msgstr ""
+"Y-positionen i bildpunkter. Använd den tillsammans med X-positionen för att"
+" placera en dubblett med kartesiska koordinater."
 
 #: ../../reference_manual/clones_array.rst:27
 msgid "Distance"
@@ -94,9 +106,15 @@ msgid ""
 "The line-distance of the original origin to the clones origin. Use this in "
 "combination with angle to position a clone using a polar coordinate system."
 msgstr ""
+"Det linjära avståndet av ursprungligt origo till dubbletternas origo. Använd"
+" det tillsammans med vinkeln för att placera en dubblett med användning av"
+" polära koordinater."
 
 #: ../../reference_manual/clones_array.rst:30
 msgid ""
 "The angle-offset of the column or row. Use this in combination with distance "
 "to position a clone using a polar coordinate system."
 msgstr ""
+"Vinkelposition av kolumnen eller raden. Använd det tillsammans med avståndet"
+" för att placera en dubblett med användning av polära koordinater."
+

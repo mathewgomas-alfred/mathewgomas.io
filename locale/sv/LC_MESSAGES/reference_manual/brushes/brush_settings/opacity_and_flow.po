@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-04 11:35+0100\n"
+"PO-Revision-Date: 2019-05-30 07:44+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -81,22 +81,30 @@ msgid ""
 "the :ref:`tool_options_settings`, but we will be deprecating the old way in "
 "future versions."
 msgstr ""
+"I Krita 4.1 och tidigare, adderades flödet och ogenomskinligheten till"
+" varandra när de kombinerades med penselsensorer, bara begränsade av den"
+" maximala ogenomskinligheten. Det var oväntat jämfört med alla andra"
+" målarprogram, så i 4.2 rättades det till sist så att flödet och"
+" ogenomskinligheten multipliceras, vilket resulterar i mycket subtilare"
+" penseldrag. Ändringen kan bytas tillbaka under :ref:`tool_options_settings`,"
+" men vi kommer att avråda från användning av det gamla sättet i framtida"
+" versioner."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:38
 msgid "The old behavior can be simulated in the new system by..."
-msgstr ""
+msgstr "Det gamla beteendet kan simuleras i det nya systemet genom att ..."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:40
 msgid "Deactivating the sensors on opacity."
-msgstr ""
+msgstr "Inaktivera sensorn för ogenomskinlighet."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:41
 msgid "Set the maximum value on flow to 0.5"
-msgstr ""
+msgstr "Ställ in flödets maximala värde till 0,5."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:42
 msgid "Adjusting the pressure curve to be concave."
-msgstr ""
+msgstr "Justera tryckkurvan så att den är konkav."
 
 #: ../../reference_manual/brushes/brush_settings/opacity_and_flow.rst:44
 msgid ".. image:: images/brushes/flow_opacity_adapt_flow_preset.gif"
@@ -135,3 +143,4 @@ msgid ""
 msgstr ""
 "där övriga bilder på sidan alla har tre drag inställda till målningsmetoden "
 "Sprid ut, är den här inställd till Uppbyggnad."
+

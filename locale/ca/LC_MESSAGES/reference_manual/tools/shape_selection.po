@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-26 01:44+0200\n"
+"PO-Revision-Date: 2019-05-30 23:06+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -57,7 +57,7 @@ msgid ""
 "   :alt: Tool options: Fill tool."
 msgstr ""
 ".. image:: images/tools/shape-selection-menu-fill.png\n"
-"   :alt: Opcions de l'eina: eina d'emplenament."
+"   :alt: Opcions de l'eina: eina Emplenat."
 
 #: ../../reference_manual/tools/shape_selection.rst:1
 msgid "Krita's shape selection tool reference."
@@ -91,6 +91,12 @@ msgid ""
 "This tool only works on vector layers, so trying to use it on a paint layer "
 "will give a notification."
 msgstr ""
+"L'eina de selecció amb formes se solia anomenar l'eina «predeterminada». Això "
+"tenia a veure amb que el Krita va formar part d'una suite d'oficina. Però "
+"aquest ja no és el cas, de manera que li vàrem canviar el nom al Krita: "
+"Seleccionar amb formes! Aquesta eina només funciona sobre capes vectorials, "
+"de manera que intentar utilitzar-la sobre una capa de pintura donarà una "
+"notificació."
 
 #: ../../reference_manual/tools/shape_selection.rst:24
 msgid ""
@@ -98,6 +104,10 @@ msgid ""
 "and access the shape's options in the tool options docker. There are a lot "
 "of different properties and things you can do with each vector shape."
 msgstr ""
+"Després de crear formes vectorials, podreu utilitzar aquesta eina per a "
+"seleccionar, transformar i accedir a les opcions de la forma a l'acoblador "
+"Opcions de l'eina. Hi ha moltes propietats diferents i coses que podreu fer "
+"amb cada forma vectorial."
 
 #: ../../reference_manual/tools/shape_selection.rst:27
 msgid "Selection"
@@ -105,24 +115,28 @@ msgstr "Selecció"
 
 #: ../../reference_manual/tools/shape_selection.rst:28
 msgid "Selecting shapes can be done by two types of actions:"
-msgstr ""
+msgstr "La selecció amb formes es pot fer mitjançant dos tipus d'accions:"
 
 #: ../../reference_manual/tools/shape_selection.rst:30
 msgid "|mouseleft| on a single shape to select it."
-msgstr ""
+msgstr "Fent |mouseleft| sobre una sola forma per a seleccionar-la."
 
 #: ../../reference_manual/tools/shape_selection.rst:32
 msgid ""
 "*Blue selection* (drag left to right): selects only shapes fully covered."
 msgstr ""
+"*Selecció blava* (arrossegant d'esquerra a dreta): selecciona només les "
+"formes completament cobertes."
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "|mouseleft| and drag to select multiple shapes."
-msgstr ""
+msgstr "Fent |mouseleft| i arrossegant per a seleccionar múltiples formes."
 
 #: ../../reference_manual/tools/shape_selection.rst:33
 msgid "*Green selection* (drag right to left): selects all the touched shapes."
 msgstr ""
+"*Selecció verda* (arrossegant de dreta a esquerra): selecciona totes les "
+"formes que toca."
 
 #: ../../reference_manual/tools/shape_selection.rst:39
 msgid ""
@@ -137,10 +151,13 @@ msgid ""
 "Blue selection: left-to-right, selects fully covered images. --  Green "
 "selection: right-to-left, selects touched shapes."
 msgstr ""
+"Selecció blava: d'esquerra a dreta, selecciona les imatges totalment "
+"cobertes. - Selecció verda: de dreta a esquerra, selecciona les formes que "
+"toca."
 
 #: ../../reference_manual/tools/shape_selection.rst:42
 msgid "Placement, Scale, Angle and Distortion"
-msgstr ""
+msgstr "Ubicació, Escala, Angle i Distorsió"
 
 #: ../../reference_manual/tools/shape_selection.rst:44
 msgid ""
@@ -148,6 +165,10 @@ msgid ""
 "box will also have square handles. You can use this bounding box to do "
 "adjust: placement, scale, angle and distortion of the selected object."
 msgstr ""
+"Una vegada se selecciona un objecte, apareixerà un quadre contenidor "
+"discontinu al voltant seu. El quadre també tindrà nanses quadrades. Podreu "
+"utilitzar aquest quadre contenidor per a fer ajustaments: ubicació, escala, "
+"angle i distorsió de l'objecte seleccionat."
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid ""
@@ -159,17 +180,19 @@ msgstr ""
 
 #: ../../reference_manual/tools/shape_selection.rst:50
 msgid "Left to right: Placement, Scale, Angle and Distortion."
-msgstr ""
+msgstr "D'esquerra a dreta: Ubicació, Escala, Angle i Distorsió."
 
 #: ../../reference_manual/tools/shape_selection.rst:52
 msgid "Placement"
-msgstr ""
+msgstr "Ubicació"
 
 #: ../../reference_manual/tools/shape_selection.rst:53
 msgid ""
 "|mouseleft| and hold inside the bounding box, while holding move the shape "
 "to the desired position."
 msgstr ""
+"Feu |mouseleft| i manteniu dins del quadre contenidor, manteniu premuda la "
+"forma mentre la moveu fins a la posició desitjada."
 
 #: ../../reference_manual/tools/shape_selection.rst:54
 msgid "Scale"
@@ -180,6 +203,8 @@ msgid ""
 "|mouseleft| and hold inside any of the square handles, move to adjust the "
 "dimensions of the object."
 msgstr ""
+"Feu |mouseleft| i manteniu dins de qualsevol de les nanses quadrades, "
+"moveu-les per ajustar les dimensions de l'objecte."
 
 #: ../../reference_manual/tools/shape_selection.rst:56
 msgid "Angle"
@@ -190,6 +215,8 @@ msgid ""
 "Place the cursor slightly outside any of the corner handles. |mouseleft| and "
 "drag to adjust the angle of the shape."
 msgstr ""
+"Situeu el cursor lleugerament fora de qualsevol de les nanses de les "
+"cantonades. Feu |mouseleft| i arrossegueu per ajustar l'angle de la forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:59
 msgid "Distortion"
@@ -200,6 +227,8 @@ msgid ""
 "Place the cursor slightly outside any of the middle handles. |mouseleft| and "
 "drag to skew the shape."
 msgstr ""
+"Situeu el cursor lleugerament fora de qualsevol de les nanses del mig. Feu "
+"|mouseleft| i arrossegueu per inclinar la forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:62
 msgid "Tool Options"
@@ -209,6 +238,8 @@ msgstr "Opcions de l'eina"
 msgid ""
 "The tool options of this menu are quite involved, and separated over 3 tabs."
 msgstr ""
+"Les Opcions de l'eina d'aquest menú estan força involucrades i es divideixen "
+"en tres pestanyes."
 
 #: ../../reference_manual/tools/shape_selection.rst:68
 msgid "Geometry"
@@ -220,18 +251,22 @@ msgid ""
 "to set precisely the 'x' and 'y' coordinates, and also the width and height "
 "of the shape."
 msgstr ""
+"La geometria és la primera secció a les Opcions de l'eina. Permet establir "
+"amb precisió les coordenades «X» i «Y», i també l'amplada i alçada de la "
+"forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:77
 msgid "Enabled: when scaling, it will scale the stroke width with the shape."
-msgstr ""
+msgstr "Habilitada: en escalar, escalarà l'amplada del traç amb la forma."
 
 #: ../../reference_manual/tools/shape_selection.rst:78
 msgid "Uniform scaling"
-msgstr ""
+msgstr "Escalat uniforme"
 
+# skip-rule: barb-igual
 #: ../../reference_manual/tools/shape_selection.rst:79
 msgid "Not enabled: when scaling, the stroke width will stay the same."
-msgstr ""
+msgstr "No habilitada: en escalar, l'amplada del traç romandrà igual."
 
 #: ../../reference_manual/tools/shape_selection.rst:80
 msgid "Global coordinates"
@@ -242,6 +277,8 @@ msgid ""
 "Determines whether the width and height bars use the width and height of the "
 "object, while taking transforms into account."
 msgstr ""
+"Determina si les barres d'amplada i alçada utilitzaran l'amplada i alçada de "
+"l'objecte, mentre es tenen en compte les transformacions."
 
 #: ../../reference_manual/tools/shape_selection.rst:83
 #: ../../reference_manual/tools/shape_selection.rst:145
@@ -253,10 +290,12 @@ msgid ""
 "The general opacity, or transparency, of the object. Opacity for stroke and "
 "fill are explained in the next two sections."
 msgstr ""
+"L'opacitat general o la transparència de l'objecte. L'opacitat per al traç i "
+"l'emplenat s'expliquen en les següents dues seccions."
 
 #: ../../reference_manual/tools/shape_selection.rst:87
 msgid "Anchor Lock is not implemented at the moment."
-msgstr ""
+msgstr "En aquest moment no s'ha implementat el Bloqueig de l'àncora."
 
 #: ../../reference_manual/tools/shape_selection.rst:91
 msgid "Stroke"
@@ -265,6 +304,7 @@ msgstr "Traç"
 #: ../../reference_manual/tools/shape_selection.rst:97
 msgid "The stroke tab determines how the stroke around the object should look."
 msgstr ""
+"La pestanya de traç determinarà com es veurà el traç al voltant de l'objecte."
 
 #: ../../reference_manual/tools/shape_selection.rst:99
 msgid ""
@@ -273,10 +313,14 @@ msgid ""
 "please refer to the following \"**Fill**\" section for more details on how "
 "to use both of them."
 msgstr ""
+"El primer conjunt de botons permet establir l'emplenat del traç: *Cap*, "
+"*Color* i *Degradat*. Hi ha les mateixes opcions que per a l'emplenat de la "
+"forma, consulteu la següent secció «**Emplenat**» per a més detalls sobre "
+"com utilitzar ambbós."
 
 #: ../../reference_manual/tools/shape_selection.rst:101
 msgid "Then, there are the settings for the stroke style:"
-msgstr ""
+msgstr "Després, hi ha els ajustaments per a l'estil del traç:"
 
 #: ../../reference_manual/tools/shape_selection.rst:103
 msgid "Thickness"
@@ -287,16 +331,20 @@ msgid ""
 "Sets the width of the stroke. When creating a shape, Krita will use the "
 "current brush size to determine the width of the stroke."
 msgstr ""
+"Estableix l'amplada del traç. En crear una forma, el Krita utilitzarà la mida "
+"del pinzell actual per a determinar l'amplada del traç."
 
 #: ../../reference_manual/tools/shape_selection.rst:105
 msgid "Cap and corner style"
-msgstr ""
+msgstr "Estil de la punta i de la cantonada"
 
 #: ../../reference_manual/tools/shape_selection.rst:106
 msgid ""
 "Sets the stroke cap and stroke corner style, this can be accessed by "
 "pressing the three dots button next to the thickness entry."
 msgstr ""
+"Estableix l'estil de la punta i de la cantonada del traç: s'hi pot accedir "
+"prement el botó de tres punts que hi ha al costat de l'entrada Gruix."
 
 #: ../../reference_manual/tools/shape_selection.rst:107
 msgid "Line-style"
@@ -307,6 +355,8 @@ msgid ""
 "Sets the line style of the stroke: *solid*, *dashes*, *dots*, or mixes of "
 "*dashes and dots*."
 msgstr ""
+"Estableix l'estil de la línia del traç: *sòlida*, *guions*, *punts* o mescles "
+"de *guions i punts*."
 
 #: ../../reference_manual/tools/shape_selection.rst:110
 msgid "Markers"
@@ -317,6 +367,9 @@ msgid ""
 "Adds markers to the stroke. Markers are little figures that will appear at "
 "the start, end or all the nodes in between, depending on your configuration."
 msgstr ""
+"Afegeix marcadors al traç. Els marcadors són petites figures que apareixeran "
+"a l'inici, al final o tots els nodes intermedis, segons la vostra "
+"configuració."
 
 #: ../../reference_manual/tools/shape_selection.rst:113
 msgid "Fill"
@@ -328,10 +381,14 @@ msgid ""
 "the **Stroke** section, the features are the same for both the fill of the "
 "stroke and the fill of the shape. Here is the explanation for both:"
 msgstr ""
+"Aquesta secció tracta sobre el color que emplena la forma. Com s'ha esmentat "
+"anteriorment a la secció **Traç**, les característiques són les mateixes "
+"tant per a l'emplenat del traç com per a l'emplenat de la forma. Aquí hi ha "
+"l'explicació per a totes dues:"
 
 #: ../../reference_manual/tools/shape_selection.rst:120
 msgid "A fill can be: *solid color*, *gradient*, or *none* (transparent)"
-msgstr ""
+msgstr "Un emplenat pot ser: *color sòlid*, *degradat* o *cap* (transparent)"
 
 #: ../../reference_manual/tools/shape_selection.rst:122
 msgid "None"
@@ -339,7 +396,7 @@ msgstr "Cap"
 
 #: ../../reference_manual/tools/shape_selection.rst:123
 msgid "No fill. It's transparent."
-msgstr ""
+msgstr "Sense emplenat. És transparent."
 
 #: ../../reference_manual/tools/shape_selection.rst:124
 msgid "Color"
@@ -348,12 +405,15 @@ msgstr "Color"
 #: ../../reference_manual/tools/shape_selection.rst:125
 msgid "A flat color, you can select a new one by pressing the color button."
 msgstr ""
+"Un color pla, podreu seleccionar-ne un de nou prement el botó de color."
 
 #: ../../reference_manual/tools/shape_selection.rst:127
 msgid ""
 "As the name implies this type fills the shape with a gradient. It has the "
 "following options:"
 msgstr ""
+"Com el seu nom indica, aquest tipus emplenarà la forma amb un degradat. Té "
+"les següents opcions:"
 
 #: ../../reference_manual/tools/shape_selection.rst:129
 msgid "Type"
@@ -361,7 +421,7 @@ msgstr "Tipus"
 
 #: ../../reference_manual/tools/shape_selection.rst:130
 msgid "A linear or radial gradient."
-msgstr ""
+msgstr "Un degradat lineal o radial."
 
 #: ../../reference_manual/tools/shape_selection.rst:131
 msgid "Repeat"
@@ -369,7 +429,7 @@ msgstr "Repetició"
 
 #: ../../reference_manual/tools/shape_selection.rst:132
 msgid "How the gradient repeats itself."
-msgstr ""
+msgstr "Com es repetirà el degradat."
 
 #: ../../reference_manual/tools/shape_selection.rst:133
 msgid "Preset"
@@ -380,6 +440,8 @@ msgid ""
 "A menu for selecting a base gradient from a set of predefined gradient "
 "presets, which can be edited as desired."
 msgstr ""
+"Un menú per a seleccionar un degradat base des d'un conjunt de degradats "
+"predefinits, els qual es podran editar com es desitgi."
 
 #: ../../reference_manual/tools/shape_selection.rst:135
 msgid "Save Gradient"
@@ -387,11 +449,11 @@ msgstr "Desa el degradat"
 
 #: ../../reference_manual/tools/shape_selection.rst:136
 msgid "A quick way for saving the current gradient as a preset."
-msgstr ""
+msgstr "Una manera ràpida per a desar el degradat actual com a predefinit."
 
 #: ../../reference_manual/tools/shape_selection.rst:138
 msgid "Stops Options Line"
-msgstr ""
+msgstr "Aturades: opcions de la línia"
 
 #: ../../reference_manual/tools/shape_selection.rst:138
 msgid ""
@@ -402,6 +464,12 @@ msgid ""
 "delete the stops, |mouseleft| drag them to left or right until the end of "
 "the line."
 msgstr ""
+"Una representació de com s'hauran de veure els colors degradats. Les aturades "
+"estan representades per triangles. Hi ha dues aturades predeterminades, una "
+"a l'inici i una altra al final. Podreu crear més aturades simplement fent "
+"clic a qualsevol lloc de la línia. Per a seleccionar un aturada feu "
+"|mouseleft| dins del triangle. Per eliminar les aturades, feu |mouseleft| i "
+"arrossegueu cap a l'esquerra o cap a la dreta fins al final de la línia."
 
 #: ../../reference_manual/tools/shape_selection.rst:140
 msgid "Flip Gradient"
@@ -409,7 +477,7 @@ msgstr "Inverteix el degradat"
 
 #: ../../reference_manual/tools/shape_selection.rst:141
 msgid "A quick way to invert the order of the gradient."
-msgstr ""
+msgstr "Una manera ràpida d'invertir l'ordre del degradat."
 
 #: ../../reference_manual/tools/shape_selection.rst:142
 msgid "Stop"
@@ -417,7 +485,7 @@ msgstr "Atura"
 
 #: ../../reference_manual/tools/shape_selection.rst:143
 msgid "Choose a color for the current selected stop."
-msgstr ""
+msgstr "Trieu un color per a l'aturada seleccionada."
 
 #: ../../reference_manual/tools/shape_selection.rst:145
 msgid "Gradient"
@@ -425,7 +493,7 @@ msgstr "Degradat"
 
 #: ../../reference_manual/tools/shape_selection.rst:145
 msgid "Choose the opacity for the current selected stop."
-msgstr ""
+msgstr "Trieu l'opacitat de l'aturada seleccionada."
 
 #: ../../reference_manual/tools/shape_selection.rst:149
 msgid ""
@@ -433,6 +501,9 @@ msgid ""
 "outline. The selected stop triangle will change its color and opacity "
 "accordingly when these options are changed."
 msgstr ""
+"Quan se selecciona un triangle d'aturada, es ressaltarà amb un lleuger "
+"contorn blau. El triangle d'aturada seleccionat canviarà el seu color i "
+"opacitat en conseqüència quan es canviïn aquestes opcions."
 
 #: ../../reference_manual/tools/shape_selection.rst:153
 msgid ""
@@ -440,6 +511,10 @@ msgid ""
 "in the docker that you can manipulate. Vectors always use stop-gradients. "
 "The other way to edit gradients is editing their position on the canvas."
 msgstr ""
+"Podreu editar el degradat de dues maneres. El primer serà el degradat real a "
+"l'acoblador que podreu manipular. Els vectors sempre utilitzen degradats "
+"d'aturada. L'altra manera d'editar els degradats és editar la seva posició "
+"sobre el llenç."
 
 #: ../../reference_manual/tools/shape_selection.rst:157
 msgid "Right-click menu"
@@ -451,6 +526,10 @@ msgid ""
 "features. If you have an object selected, you can perform various functions "
 "like cutting, copying, or moving the object to the front or back."
 msgstr ""
+"L'eina de selecció amb formes té un bon menú del clic dret que ofereix "
+"diverses característiques. Si teniu un objecte seleccionat, podreu realitzar "
+"diverses funcions com retalla, copia o mou l'objecte cap endavant o cap "
+"enrere."
 
 #: ../../reference_manual/tools/shape_selection.rst:162
 msgid ".. image:: images/vector/Vector-right-click-menu.png"
@@ -463,3 +542,7 @@ msgid ""
 "last item on the right-click menu. You can unite, intersect, subtract, or "
 "split the selected objects."
 msgstr ""
+"Si teniu múltiples objectes seleccionats, podreu realitzar «Operadors lògics» "
+"sobre seu, o operacions booleanes com s'anomenen comunament. Aquests són els "
+"últims elements al menú del clic dret. Podreu fer uneix, interseca, sostreu "
+"o divideix els objectes seleccionats."

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 00:46+0200\n"
+"PO-Revision-Date: 2019-05-30 09:12+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -65,6 +65,10 @@ msgid ""
 "the tablet. Press down with the stylus/left mouse button on the canvas to "
 "make a line, lifting the stylus/mouse button ends the stroke."
 msgstr ""
+"L'eina de cal·ligrafia permet línies d'amplada variable, amb l'entrada "
+"gestionada per la tauleta. Premeu amb el botó del llapis/clic esquerre sobre "
+"el llenç per a crear una línia, llevant el llapis/botó del ratolí per a "
+"finalitzar el traç."
 
 #: ../../reference_manual/tools/calligraphy.rst:24
 msgid "Tool Options"
@@ -76,7 +80,7 @@ msgstr "**Emplenat**"
 
 #: ../../reference_manual/tools/calligraphy.rst:28
 msgid "Doesn't actually do anything."
-msgstr ""
+msgstr "En realitat no fa res."
 
 #: ../../reference_manual/tools/calligraphy.rst:30
 msgid "**Calligraphy**"
@@ -87,6 +91,8 @@ msgid ""
 "The drop-down menu holds your saved presets, the :guilabel:`Save` button "
 "next to it allows you to save presets."
 msgstr ""
+"El desplegable conté els valors preestablerts desats, el botó "
+":guilabel:`Desa` del costat permet desar els valors preestablerts."
 
 #: ../../reference_manual/tools/calligraphy.rst:34
 msgid "Follow Selected Path"
@@ -97,6 +103,8 @@ msgid ""
 "If a stroke has been selected with the default tool, the calligraphy tool "
 "will follow this path."
 msgstr ""
+"Si s'ha seleccionat un traç amb l'eina predeterminada, l'eina de cal·ligrafia "
+"seguirà aquest camí."
 
 #: ../../reference_manual/tools/calligraphy.rst:36
 msgid "Use Tablet Pressure"
@@ -104,7 +112,7 @@ msgstr "Usa la pressió de la tauleta"
 
 #: ../../reference_manual/tools/calligraphy.rst:37
 msgid "Uses tablet pressure to control the stroke width."
-msgstr ""
+msgstr "Utilitza la pressió de la tauleta per a controlar l'amplada del traç."
 
 #: ../../reference_manual/tools/calligraphy.rst:38
 msgid "Thinning"
@@ -115,6 +123,8 @@ msgid ""
 "This allows you to set how much thinner a line becomes when speeding up the "
 "stroke. Using a negative value makes it thicker."
 msgstr ""
+"Permet establir quant més prima es tornarà una línia en accelerar el traç. "
+"Utilitzeu un valor negatiu per a fer-lo més gruixut."
 
 #: ../../reference_manual/tools/calligraphy.rst:40
 msgid "Width"
@@ -122,7 +132,7 @@ msgstr "Amplada"
 
 #: ../../reference_manual/tools/calligraphy.rst:41
 msgid "Base width for the stroke."
-msgstr ""
+msgstr "Amplada base per al traç."
 
 #: ../../reference_manual/tools/calligraphy.rst:42
 msgid "Use Tablet Angle"
@@ -133,6 +143,8 @@ msgid ""
 "Allows you to use the tablet angle to control the stroke, only works for "
 "tablets supporting it."
 msgstr ""
+"Permet utilitzar l'angle de la tauleta per a controlar el traç, només "
+"funcionarà per a les tauletes que ho admetin."
 
 #: ../../reference_manual/tools/calligraphy.rst:44
 msgid "Angle"
@@ -140,7 +152,7 @@ msgstr "Angle"
 
 #: ../../reference_manual/tools/calligraphy.rst:45
 msgid "The angle of the dab."
-msgstr ""
+msgstr "L'angle del toc."
 
 #: ../../reference_manual/tools/calligraphy.rst:46
 msgid "Fixation"
@@ -148,15 +160,15 @@ msgstr "Fixació"
 
 #: ../../reference_manual/tools/calligraphy.rst:47
 msgid "The ratio of the dab. 1 is thin, 0 is round."
-msgstr ""
+msgstr "La relació del toc. 1 és prim, 0 és rodó."
 
 #: ../../reference_manual/tools/calligraphy.rst:48
 msgid "Caps"
-msgstr ""
+msgstr "Majúscules"
 
 #: ../../reference_manual/tools/calligraphy.rst:49
 msgid "Whether or not an stroke will end with a rounding or flat."
-msgstr ""
+msgstr "Si un traç acabarà o no amb un arrodoniment o pla."
 
 #: ../../reference_manual/tools/calligraphy.rst:50
 msgid "Mass"
@@ -167,6 +179,8 @@ msgid ""
 "How much weight the stroke has. With drag set to 0, high mass increases the "
 "'orbit'."
 msgstr ""
+"Quant pes tindrà el traç. Amb Arrossega establert a 0, una massa alta farà "
+"augmentar l'«òrbita»."
 
 #: ../../reference_manual/tools/calligraphy.rst:53
 msgid "Drag"
@@ -177,9 +191,14 @@ msgid ""
 "How much the stroke follows the cursor, when set to 0 the stroke will orbit "
 "around the cursor path."
 msgstr ""
+"Quant seguirà el traç al cursor, quan s'estableix a 0, el traç orbitarà al "
+"voltant del camí del cursor."
 
 #: ../../reference_manual/tools/calligraphy.rst:57
 msgid ""
 "The calligraphy tool can be edited by the edit-line tool, but currently you "
 "can't add or remove nodes without converting it to a normal path."
 msgstr ""
+"L'eina de cal·ligrafia es pot editar amb l'eina de línies d'edició, però "
+"actualment no pot afegir o eliminar nodes sense convertir-los en un camí "
+"normal."

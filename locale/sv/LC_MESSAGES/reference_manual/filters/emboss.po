@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 11:36+0100\n"
+"PO-Revision-Date: 2019-05-30 20:53+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../reference_manual/filters/emboss.rst:1
 msgid "Overview of the emboss filters."
-msgstr ""
+msgstr "Översikt av relieffiltren."
 
 #: ../../reference_manual/filters/emboss.rst:10
 #: ../../reference_manual/filters/emboss.rst:15
@@ -28,7 +28,7 @@ msgstr "Relief"
 
 #: ../../reference_manual/filters/emboss.rst:10
 msgid "Filters"
-msgstr ""
+msgstr "Filter"
 
 #: ../../reference_manual/filters/emboss.rst:17
 msgid ""
@@ -38,6 +38,11 @@ msgid ""
 "interesting GUI elements, and mostly used in combination with filter-layers "
 "and masks."
 msgstr ""
+"Filter som namnges av den traditionella relieftekniken. Det här filtret"
+" generar dagrar och skuggar för att skapa en effekt som gör att bilden ser ut"
+" att ha relief. Relieffilter används oftast när intressanta element i"
+" grafiska användargränssnitt skapas, och används oftast tillsammans med"
+" filterlager och masker."
 
 #: ../../reference_manual/filters/emboss.rst:20
 msgid "Emboss Horizontal Only"
@@ -46,7 +51,7 @@ msgstr "Relief enbart horisontellt"
 #: ../../reference_manual/filters/emboss.rst:22
 #: ../../reference_manual/filters/emboss.rst:37
 msgid "Only embosses horizontal lines."
-msgstr ""
+msgstr "Lägger bara till relief för horisontella linjer."
 
 #: ../../reference_manual/filters/emboss.rst:25
 msgid "Emboss in all Directions"
@@ -54,7 +59,7 @@ msgstr "Relief i alla riktningar"
 
 #: ../../reference_manual/filters/emboss.rst:27
 msgid "Embosses in all possible directions."
-msgstr ""
+msgstr "Lägger till relief i alla möjliga riktningar."
 
 #: ../../reference_manual/filters/emboss.rst:30
 msgid "Emboss (Laplacian)"
@@ -62,7 +67,7 @@ msgstr "Relief (Laplacetransform)"
 
 #: ../../reference_manual/filters/emboss.rst:32
 msgid "Uses the laplacian algorithm to perform embossing."
-msgstr ""
+msgstr "Använder Laplacealgoritmen för att utföra relief."
 
 #: ../../reference_manual/filters/emboss.rst:35
 msgid "Emboss Vertical Only"
@@ -76,6 +81,8 @@ msgstr "Relief med variabelt djup"
 msgid ""
 "Embosses with a depth that can be set through the dialog box shown below."
 msgstr ""
+"Lägger till relief med ett djup som kan ställas in via dialogrutan som visas"
+" nedan."
 
 #: ../../reference_manual/filters/emboss.rst:45
 msgid ".. image:: images/filters/Emboss-variable-depth.png"
@@ -83,8 +90,9 @@ msgstr ".. image:: images/filters/Emboss-variable-depth.png"
 
 #: ../../reference_manual/filters/emboss.rst:47
 msgid "Emboss Horizontal and Vertical"
-msgstr ""
+msgstr "Relief horisontellt och vertikalt"
 
 #: ../../reference_manual/filters/emboss.rst:49
 msgid "Only embosses horizontal and vertical lines."
-msgstr ""
+msgstr "Lägger bara till relief för horisontella och vertikala linjer."
+

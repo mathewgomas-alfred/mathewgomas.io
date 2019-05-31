@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 11:36+0100\n"
+"PO-Revision-Date: 2019-05-30 19:03+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -44,6 +44,9 @@ msgid ""
 "random and crazy over drawing distance. Gives very intricate lines best used "
 "for special effects."
 msgstr ""
+"En pensel som ritar trådar med användning av parametrar. Trådarna blir alltid"
+" mer slumpmässiga och galna med avståndet de ritas. Ger mycket intrikata"
+" linjer bäst använda för specialeffekter."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:23
 msgid "Options"
@@ -75,7 +78,7 @@ msgstr "Partiklar"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:35
 msgid "How many particles there's drawn."
-msgstr ""
+msgstr "Hur många partiklar som ritas."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:36
 msgid "Opacity Weight"
@@ -83,27 +86,31 @@ msgstr "Ogenomskinlighetsgrad"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:37
 msgid "The Opacity of all particles. Is influenced by the painting mode."
-msgstr ""
+msgstr "Alla partiklarnas ogenomskinlighet. Den påverkas av målningsmetod."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:38
 msgid "Dx Scale (Distance X Scale)"
-msgstr ""
+msgstr "Dx-skala (X-avståndsskala)"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:39
 msgid ""
 "How much the horizontal cursor distance affects the placing of the pixel. Is "
 "unstable on negative values. 1.0 is equal."
 msgstr ""
+"Hur mycket det horisontella marköravståndet påverkar placeringen av"
+" bildpunkten. Det är instabilt vid negativa värden. 1,0 är lika."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:40
 msgid "Dy Scale (Distance Y Scale)"
-msgstr ""
+msgstr "Dx-skala (Y-avståndsskala)"
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:41
 msgid ""
 "How much the vertical cursor distance affects the placing of the pixel. Is "
 "unstable on negative values. 1.0 is equal."
 msgstr ""
+"Hur mycket det vertikala marköravståndet påverkar placeringen av bildpunkten."
+" Det är instabilt vid negativa värden. 1,0 är lika."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:42
 msgid "Gravity"
@@ -114,6 +121,8 @@ msgid ""
 "Multiplies with the previous particle's position, to find the new particle's "
 "position."
 msgstr ""
+"Multiplicerar med den föregående partikelns position för att räkna ut den nya"
+" partikelns position."
 
 #: ../../reference_manual/brushes/brush_engines/particle_brush_engine.rst:45
 msgid ""
@@ -122,3 +131,8 @@ msgid ""
 "higher iteration is, the faster and more randomly a particle moves over "
 "time, giving a messier result."
 msgstr ""
+"Ju högre, desto högre är den interna accelerationen, där partikeln längst"
+" bort från penseln har högst acceleration. Det betyder att ju högre"
+" iterationen är, desto snabbare och mer slumpmässigt rör sig en partikel med"
+" tiden, vilket ger ett rörigare resultat."
+

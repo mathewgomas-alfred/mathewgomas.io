@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-10 11:27+0100\n"
+"PO-Revision-Date: 2019-05-30 20:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,24 +22,32 @@ msgid ""
 ".. image:: images/brush-tips/Krita-brushtips-bokeh_01.png\n"
 "   :alt: krita bokeh brush setup background"
 msgstr ""
+".. image:: images/brush-tips/Krita-brushtips-bokeh_01.png\n"
+"   :alt: Inställning av bakgrund för Krita bokeh-pensel"
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:None
 msgid ""
 ".. image:: images/brush-tips/Krita-brushtips-bokeh_02.png\n"
 "   :alt: Krita bokeh brush tips scatter settings"
 msgstr ""
+".. image:: images/brush-tips/Krita-brushtips-bokeh_02.png\n"
+"   :alt: Inställning av spridning för Krita bokeh-pensel"
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:None
 msgid ""
 ".. image:: images/brush-tips/Krita-brushtips-bokeh_03.png\n"
 "   :alt: Choosing the brush tip for the bokeh effect"
 msgstr ""
+".. image:: images/brush-tips/Krita-brushtips-bokeh_03.png\n"
+"   :alt: Välja penselspets för bokeh-effekten"
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:None
 msgid ""
 ".. image:: images/brush-tips/Krita-brushtips-bokeh_04.png\n"
 "   :alt: paint the bokeh circles on the background"
 msgstr ""
+".. image:: images/brush-tips/Krita-brushtips-bokeh_04.png\n"
+"   :alt: Måla bokeh-cirklar på bakgrunden"
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:1
 msgid "Creating bokeh effect with the help of some simple brush tip."
@@ -59,23 +67,28 @@ msgstr "Hur skapar man bokeh-effekter?"
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:20
 msgid "First, blur your image with the Lens Blur to roughly 50 pixels."
-msgstr ""
+msgstr "Gör först bilden suddig med linsoskärpa till ungefär 50 bildpunkter."
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:26
 msgid "Take smudge_textured, add scattering, turn off tablet input."
 msgstr ""
+"Ta smetningsstruktur, lägg till spridning, stäng av inmatning från ritplatta."
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:31
 msgid ""
 "Change the brush-tip to ‘Bokeh’ and check ‘overlay’ (you will want to play "
 "with the spacing as well)."
 msgstr ""
+"Ändra penselspetsen till 'Bokeh' och markera 'överlagring' (man behöver nog"
+" också leka med mellanrummet)."
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:36
 msgid ""
 "Then make a new layer over your drawing, set that to ‘lighter color’ (it’s "
 "under lighter category) and painter over it with you brush."
 msgstr ""
+"Skapa därefter ett nytt lager ovanpå teckningen, ställ in den till 'ljus"
+" färg' (det finns under kategorin ljusare) och måla över det med penseln."
 
 #: ../../tutorials/krita-brush-tips/bokeh-brush.rst:41
 msgid ""
@@ -86,3 +99,10 @@ msgid ""
 "and size options, changing the brush blending mode to ‘addition’, or by "
 "choosing a different brush-tip."
 msgstr ""
+"Överlagringsläget på smetningspenseln låter dig sampla alla lagren, och"
+" blandningsläget 'ljusare färg' säkerställer att Bokeh-cirklar bara dyker upp"
+" när de har en ljusare färg än originalbildpunkterna under dem. Penseln kan"
+" ändras ytterligare genom att lägga till en 'inexakt' sensor i mellanrums-"
+" och storleksalternativen, ändra penselns blandningsläge till 'addition',"
+" eller genom att välja en annan penselspets."
+

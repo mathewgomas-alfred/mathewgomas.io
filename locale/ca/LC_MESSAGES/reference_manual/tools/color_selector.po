@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 00:46+0200\n"
+"PO-Revision-Date: 2019-05-30 14:48+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -29,19 +29,19 @@ msgstr "Eines"
 
 #: ../../reference_manual/tools/color_selector.rst:12
 msgid "Colors"
-msgstr ""
+msgstr "Colors"
 
 #: ../../reference_manual/tools/color_selector.rst:12
 msgid "Eyedropper"
-msgstr ""
+msgstr "Comptagotes"
 
 #: ../../reference_manual/tools/color_selector.rst:12
 msgid "Color Selector"
-msgstr ""
+msgstr "Selector de color"
 
 #: ../../reference_manual/tools/color_selector.rst:17
 msgid "Color Selector Tool"
-msgstr ""
+msgstr "Eina del selector de color"
 
 #: ../../reference_manual/tools/color_selector.rst:20
 msgid ""
@@ -50,16 +50,22 @@ msgid ""
 "selected the Color Picker tool can also be quickly accessed by pressing :kbd:"
 "`Ctrl`."
 msgstr ""
+"Aquesta eina permet triar un punt del llenç i fer que el color d'aquest punt "
+"sigui el color de primer pla actiu. Quan se selecciona una eina de pintura o "
+"dibuix, també es podrà accedir ràpidament a l'eina Selector de color prement "
+"la tecla :kbd:`Ctrl`."
 
 #: ../../reference_manual/tools/color_selector.rst:23
 msgid ".. image:: images/tools/Color_Dropper_Tool_Options.png"
-msgstr ""
+msgstr ".. image:: images/tools/Color_Dropper_Tool_Options.png"
 
 #: ../../reference_manual/tools/color_selector.rst:24
 msgid ""
 "There are several options shown in the :guilabel:`Tool Options` docker when "
 "the :guilabel:`Color Picker` tool is active:"
 msgstr ""
+"Hi ha diverses opcions que es mostren a l'acoblador :guilabel:`Opcions de "
+"l'eina` quan està activa l'eina :guilabel:`Selector de color`:"
 
 #: ../../reference_manual/tools/color_selector.rst:26
 msgid ""
@@ -68,6 +74,10 @@ msgid ""
 "selection update the current foreground color, to be added into a color "
 "palette, or to do both."
 msgstr ""
+"La primera llista desplegable permet seleccionar si voleu mostrejar des de "
+"totes les capes visibles o només des de la capa activa. També podreu triar "
+"que la vostra selecció actualitzi el color de primer pla actual, el qual "
+"s'afegirà a una paleta de colors, o que faci ambdues coses."
 
 #: ../../reference_manual/tools/color_selector.rst:30
 msgid ""
@@ -79,6 +89,14 @@ msgid ""
 "information about how the Color Picker's blend option can be used as a tool "
 "for off-canvas color mixing."
 msgstr ""
+"La secció central conté unes quantes propietats que canvien la forma en què "
+"el Selector de color pren el color. Podreu establir un :guilabel:`Radi`, el "
+"qual treurà la mitjana dels colors en l'àrea al voltant del cursor, i ara "
+"també podreu establir un percentatge de :guilabel:`Barreja`, el qual "
+"controlarà la quantitat de color que s'«absorbirà» i es mesclarà amb el "
+"vostre color actual. Llegiu :ref:`mixing_colors` per obtenir informació "
+"sobre com es pot utilitzar l'opció de barreja del Selector de color com una "
+"eina per a mesclar els colors que es troben fora del llenç."
 
 #: ../../reference_manual/tools/color_selector.rst:32
 msgid ""
@@ -86,3 +104,6 @@ msgid ""
 "your most recently picked color. Color data can be shown as 8-bit numbers or "
 "percentages."
 msgstr ""
+"A la part inferior es troba el Rètol informatiu, el qual mostrarà les dades "
+"per canal sobre el color seleccionat més recentment. Les dades de color es "
+"poden mostrar com a números de 8 bits o percentatges."

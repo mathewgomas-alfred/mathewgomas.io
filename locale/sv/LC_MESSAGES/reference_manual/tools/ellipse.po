@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:36+0100\n"
+"PO-Revision-Date: 2019-05-30 18:55+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,8 @@ msgid ""
 ".. image:: images/icons/ellipse_tool.svg\n"
 "   :alt: toolellipse"
 msgstr ""
+".. image:: images/icons/ellipse_tool.svg\n"
+"   :alt: ellipsverktyg"
 
 #: ../../reference_manual/tools/ellipse.rst:None
 msgid ".. image:: images/tools/Krita_ellipse_circle.gif"
@@ -37,7 +39,7 @@ msgstr ".. image:: images/tools/Krita_ellipse_reposition.gif"
 
 #: ../../reference_manual/tools/ellipse.rst:1
 msgid "Krita's ellipse tool reference."
-msgstr ""
+msgstr "Referens för Kritas ellipsverktyg."
 
 #: ../../reference_manual/tools/ellipse.rst:11
 msgid "Tools"
@@ -57,7 +59,7 @@ msgstr "Ellipsverktyg"
 
 #: ../../reference_manual/tools/ellipse.rst:18
 msgid "|toolellipse|"
-msgstr ""
+msgstr "|ellipsverktyg|"
 
 #: ../../reference_manual/tools/ellipse.rst:20
 msgid ""
@@ -67,12 +69,20 @@ msgid ""
 "your mouse to the opposite corner. :program:`Krita` will show a preview of "
 "the ellipse using a thin line. Release the button to draw the ellipse."
 msgstr ""
+"Använd det här verktyget för att rita en ellips. Penseln som för närvarande"
+" är vald används för att måla ellipsens kontur. Klicka och håll nere vänster"
+" musknapp för att ange ett hörn av ellipsens omgivande rektangel, flytta"
+" därefter musen till motsatt hörn. :program:`Krita` visar en"
+" förhandsgranskning av ellipsen med en tunn linje. Släpp knappen för att rita"
+" ellipsen."
 
 #: ../../reference_manual/tools/ellipse.rst:22
 msgid ""
 "While dragging the ellipse, you can use different modifiers to control the "
 "size and position of your ellipse:"
 msgstr ""
+"När ellipsen dras, kan olika väljare användas för att styra ellipsens storlek"
+" och position:"
 
 #: ../../reference_manual/tools/ellipse.rst:24
 msgid ""
@@ -80,16 +90,21 @@ msgid ""
 "dragging. After releasing :kbd:`Shift` any movement of the mouse will give "
 "you an ellipse again:"
 msgstr ""
+"Håll nere :kbd:`Skift` när musen dras för att skapa en cirkel istället för en"
+" ellips. Efter att :kbd:`Shift`har släppts ger vilken rörelse av musen som"
+" helst en ellips igen."
 
 #: ../../reference_manual/tools/ellipse.rst:29
 msgid ""
 "In order to keep the center of the ellipse fixed and only growing and "
 "shrinking the ellipse around it, hold :kbd:`Ctrl` while dragging:"
 msgstr ""
+"Håll nere :kbd:`Ctrl` när musen dras för att hålla ellipsens mittpunkt fast"
+" och bara låta ellipsen växa eller krympa runt det."
 
 #: ../../reference_manual/tools/ellipse.rst:34
 msgid "In order to move the ellipse around, hold :kbd:`Alt`:"
-msgstr ""
+msgstr "Håll nere :kbd:`Alt`: för att flytta omkring ellipsen."
 
 #: ../../reference_manual/tools/ellipse.rst:39
 msgid ""
@@ -101,7 +116,14 @@ msgid ""
 "moving remains still. With :kbd:`Alt` pressed, all four corners will be "
 "affected, but the size stays the same."
 msgstr ""
+"Man kan byta mellan dragmetoderna hörn/hörn och mitt/hörn så ofta som man"
+" vill genom att hålla nere eller släppa upp :kbd:`Ctrl`, under förutsättning"
+" att musens vänsterknapps hålls nere. Med :kbd:`Ctrl` påverkar musrörelser"
+" den omgivande rektangelns alla fyra hörn (relativt till mittpunkten), medan"
+" utan :kbd:`Ctrl` hålls hörnet på motsatt sida av det som flyttas stilla. Med"
+" :kbd:`Alt` påverkas alla fyra hörn, men storleken förblir densamma."
 
 #: ../../reference_manual/tools/ellipse.rst:42
 msgid "Tool Options"
 msgstr "Verktygsalternativ"
+
