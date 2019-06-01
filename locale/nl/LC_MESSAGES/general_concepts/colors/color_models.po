@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 13:29+0200\n"
+"PO-Revision-Date: 2019-05-31 11:58+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../general_concepts/colors/color_models.rst:1
 msgid "Color Models in Krita"
@@ -38,6 +38,8 @@ msgid ""
 "Krita has many different color spaces and models. Following here is a brief "
 "explanation of each, and their use-cases."
 msgstr ""
+"Krita heeft veel verschillende kleurruimtes en -modellen. Hierna volgt een "
+"korte uitleg van elk en hun gebruik."
 
 #: ../../general_concepts/colors/color_models.rst:22
 msgid "RGB"
@@ -53,28 +55,35 @@ msgid ""
 "computer screens. Adding Red, Green and Blue light together results in "
 "White, and is thus named the additive color wheel."
 msgstr ""
+"Dit zijn de meest efficiënte primaire kleuren voor op licht gebaseerde "
+"menging van kleur, zoals op computerschermen. Rood, groen en blauw licht "
+"optellen resulteert in wit en wordt dus het additieve kleurenwiel genoemd."
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
-msgstr ""
+msgstr "RGB wordt voor twee doeleinden gebruikt:"
 
 #: ../../general_concepts/colors/color_models.rst:30
 msgid "Images that are meant for viewing on a screen:"
-msgstr ""
+msgstr "Afbeeldingen die bedoeld zijn om op een scherm te bekijken:"
 
 #: ../../general_concepts/colors/color_models.rst:32
 msgid ""
 "So that could be images for the web, buttons, avatars, or just portfolio "
 "images."
 msgstr ""
+"Dat kunnen dus afbeeldingen zijn voor het web, knoppen, avatars of gewoon "
+"een map met afbeeldingen."
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
 msgstr ""
+"Of voor videospellen, zowel figuurtjes en texturen zijn daar het beste in "
+"RGB."
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
-msgstr ""
+msgstr "Of voor 3d weergave, visuële effecten en cg-animatie."
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
@@ -86,7 +95,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
-msgstr ""
+msgstr "Mengmodi in RGB"
 
 #: ../../general_concepts/colors/color_models.rst:43
 #: ../../general_concepts/colors/color_models.rst:85
@@ -134,19 +143,19 @@ msgstr "B"
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:106
 msgid "R & G"
-msgstr ""
+msgstr "R & G"
 
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:106
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:106
 #: ../../general_concepts/colors/color_models.rst:108
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "0.0"
-msgstr ""
+msgstr "0.0"
 
 #: ../../general_concepts/colors/color_models.rst:47
 #: ../../general_concepts/colors/color_models.rst:49
@@ -156,7 +165,7 @@ msgstr ""
 #: ../../general_concepts/colors/color_models.rst:119
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #: ../../general_concepts/colors/color_models.rst:49
 #: ../../general_concepts/colors/color_models.rst:89
@@ -171,7 +180,7 @@ msgstr "Grijs"
 #: ../../general_concepts/colors/color_models.rst:119
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "0.25"
-msgstr ""
+msgstr "0.25"
 
 #: ../../general_concepts/colors/color_models.rst:49
 #: ../../general_concepts/colors/color_models.rst:89
@@ -180,11 +189,11 @@ msgstr ""
 #: ../../general_concepts/colors/color_models.rst:119
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "0.75"
-msgstr ""
+msgstr "0.75"
 
 #: ../../general_concepts/colors/color_models.rst:55
 msgid "RGB models: HSV, HSL, HSI and HSY"
-msgstr ""
+msgstr "RGB modellen: HSV, HSL, HSI en HSY"
 
 #: ../../general_concepts/colors/color_models.rst:57
 msgid ""
@@ -194,7 +203,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr ""
+msgstr "--Afbeeldingen over relaties rgb-hsv etc."
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -206,6 +215,8 @@ msgid ""
 "is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
 "blue."
 msgstr ""
+"De tint van een kleur of, of het rood, geel, groen, etc. is. Tint in Krita "
+"wordt gemeten in 360 graden, met 0 als rood, 120 als groen en 240 als blauw."
 
 #: ../../general_concepts/colors/color_models.rst:63
 msgid "Saturation"
@@ -219,6 +230,11 @@ msgid ""
 "measurement of how close a color is to gray, and sometimes this value is "
 "called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
+"Hoe levendig een kleur is. Verzadiging is enigzins anders tussen HSV en de "
+"anderen. In HSV is het een maat voor het verschil tussen twee gebruikte "
+"basis kleuren en drie gebruikte basis kleuren. In de anderen is het een "
+"maat voor hoe dichtbij een kleur is tot grijs, en soms wordt deze waarde "
+"**Chroma** genoemd. Verzadiging varieert van 0 (grijs) tot 100 (pure kleur)."
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -249,10 +265,12 @@ msgid ""
 "Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
 "than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
+"Gelijk aan lichtheid, behalve dat het toegeeft dat geel (1,1,0) lichter is "
+"dan blauw (0,0,1). Varieert van 0 tot 100."
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid "Luma (Y')"
-msgstr ""
+msgstr "Luma (Y')"
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid ""
@@ -278,6 +296,8 @@ msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
+"Dit is nuttig voor texturen, maar ook al het andere dat in de grijsschaal "
+"blijft, zoals zwart-wit stripverhalen."
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -285,7 +305,7 @@ msgstr "CMYK"
 
 #: ../../general_concepts/colors/color_models.rst:97
 msgid "Cyan, Magenta, Yellow, Key"
-msgstr ""
+msgstr "Cyaan, magenta, geel, sleutel"
 
 #: ../../general_concepts/colors/color_models.rst:99
 msgid ""
