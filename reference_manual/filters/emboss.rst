@@ -34,7 +34,7 @@ Uses the laplacian algorithm to perform embossing.
 Emboss Vertical Only
 --------------------
 
-Only embosses horizontal lines.
+Only embosses vertical lines.
 
 Emboss with Variable depth
 --------------------------
