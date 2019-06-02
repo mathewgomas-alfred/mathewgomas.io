@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:37+0100\n"
+"PO-Revision-Date: 2019-06-01 21:55+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,14 +22,16 @@ msgid ""
 ".. image:: images/icons/perspectivegrid_tool.svg\n"
 "   :alt: toolperspectivegrid"
 msgstr ""
+".. image:: images/icons/perspectivegrid_tool.svg\n"
+"   :alt: Perspektivrutnätsverktyg"
 
 #: ../../reference_manual/tools/perspective_grid.rst:1
 msgid "Krita's perspective grid tool reference."
-msgstr ""
+msgstr "Referens för Kritas perspektivrutnätsverktyg."
 
 #: ../../reference_manual/tools/perspective_grid.rst:11
 msgid "Tools"
-msgstr ""
+msgstr "Verktyg"
 
 #: ../../reference_manual/tools/perspective_grid.rst:11
 msgid "Perspective"
@@ -37,7 +39,7 @@ msgstr "Perspektiv"
 
 #: ../../reference_manual/tools/perspective_grid.rst:11
 msgid "Grid"
-msgstr ""
+msgstr "Rutnät"
 
 #: ../../reference_manual/tools/perspective_grid.rst:16
 msgid "Perspective Grid Tool"
@@ -45,11 +47,11 @@ msgstr "Perspektivrutnätsverktyg"
 
 #: ../../reference_manual/tools/perspective_grid.rst:18
 msgid "|toolperspectivegrid|"
-msgstr ""
+msgstr "|toolperspectivegrid|"
 
 #: ../../reference_manual/tools/perspective_grid.rst:22
 msgid "Deprecated in 3.0, use the :ref:`assistant_perspective` instead."
-msgstr ""
+msgstr "Avråds från i 3.0, använd :ref:`assistant_perspective` istället."
 
 #: ../../reference_manual/tools/perspective_grid.rst:24
 msgid ""
@@ -59,6 +61,10 @@ msgid ""
 "clicking four points on the canvas which will serve as the four corners of "
 "your grid."
 msgstr ""
+"Perspektivrutnätsverktyget låter dig rita och manipulera rutnät på duken som"
+" kan fungera som perspektivlinjer för en målning. Ett rutnät kan läggas till"
+" på duken genom att först klicka på verktyget i verktygsraden och därefter"
+" klicka på fyra punkter på duken, vilket fungerar som i rutnätets fyra hörnen."
 
 #: ../../reference_manual/tools/perspective_grid.rst:27
 msgid ".. image:: images/tools/Perspectivegrid.png"
@@ -75,10 +81,19 @@ msgid ""
 "clicking on the red X at its center. This tool can be used to build "
 "reference for complex scenes."
 msgstr ""
+"Rutnätet kan manipuleras genom att dra i något av dess fyra hörn. Rutnätet"
+" kan utökas genom att klicka och dra en mittpunkt på någon av dess kanter."
+" Det låter dig expandera rutnätet med andra vinklar. Processen kan upprepas"
+" på vilket efterföljande rutnät eller rutnätssektion som helst. Det går att"
+" sammanfoga hörnen på två rutnät genom att dra ett till det andra. När de väl"
+" är sammanfogade flyttas de alltid tillsammans, och de kan inte separeras."
+" Det går att ta bort vilket rutnät som helst genom att klicka på det röda"
+" X:et i mitten. Verktyget kan användas för att bygga en referens för komplexa"
+" scener."
 
 #: ../../reference_manual/tools/perspective_grid.rst:30
 msgid "As displayed while the Perspective Grid tool is active: *"
-msgstr ""
+msgstr "Som det visas när perspektivrutnätsverktyget är aktivt: *"
 
 #: ../../reference_manual/tools/perspective_grid.rst:33
 msgid ".. image:: images/tools/Multigrid.png"
@@ -86,7 +101,7 @@ msgstr ".. image:: images/tools/Multigrid.png"
 
 #: ../../reference_manual/tools/perspective_grid.rst:34
 msgid "As displayed while any other tool is active: *"
-msgstr ""
+msgstr "Som det visas när något annat verktyg är aktivt: *"
 
 #: ../../reference_manual/tools/perspective_grid.rst:37
 msgid ".. image:: images/tools/KritaPersgridnoedit.png"
@@ -99,3 +114,9 @@ msgid ""
 "you have and start over by using the :menuselection:`View --> Clear "
 "Perspective Grid`."
 msgstr ""
+"Rutnätets synlighet kan ändas från huvudmenyn med alternativet"
+" :menuselection:`Visa --> Visa perspektivrutnät`. Det går också att rensa"
+" eventuell rutnätsinställning som redan finns och börja om genom att använda"
+" :menuselection:`Visa --> Rensa perspektivrutnät`."
+
+

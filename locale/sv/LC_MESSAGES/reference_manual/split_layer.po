@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-27 20:27+0100\n"
+"PO-Revision-Date: 2019-06-01 21:41+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: ../../reference_manual/split_layer.rst:1
 msgid "The Split Layer functionality in Krita"
-msgstr ""
+msgstr "Funktionen Dela lager i Krita"
 
 #: ../../reference_manual/split_layer.rst:10
 msgid "Splitting"
-msgstr ""
+msgstr "Delning"
 
 #: ../../reference_manual/split_layer.rst:10
 msgid "Color Islands"
-msgstr ""
+msgstr "Färgöar"
 
 #: ../../reference_manual/split_layer.rst:15
 msgid "Split Layer"
@@ -51,6 +51,9 @@ msgid ""
 "ref:`colorize_mask` and :kbd:`R` + |mouseleft| to select layers at the "
 "cursor."
 msgstr ""
+"Delar ett lager enligt färg. Det är användbart i kombination med "
+" :ref:`colorize_mask` och :kbd:`R` + vänster musklick för att välja lager vid"
+" markören."
 
 #: ../../reference_manual/split_layer.rst:18
 msgid "Put all new layers in a group layer"
@@ -58,7 +61,7 @@ msgstr "Lägg alla nya lager i ett grupplager"
 
 #: ../../reference_manual/split_layer.rst:19
 msgid "Put all the result layers into a new group."
-msgstr ""
+msgstr "Lägg alla resulterande lager i en ny grupp."
 
 #: ../../reference_manual/split_layer.rst:20
 msgid "Put every layer in its own, separate group layer"
@@ -66,7 +69,7 @@ msgstr "Lägg alla lager i sina egna, separata, grupplager."
 
 #: ../../reference_manual/split_layer.rst:21
 msgid "Put each layer into its own group."
-msgstr ""
+msgstr "Lägg varje lager i sin egen grupp."
 
 #: ../../reference_manual/split_layer.rst:22
 msgid "Alpha-lock every new layer"
@@ -74,7 +77,7 @@ msgstr "Alfa-lås alla nya lager"
 
 #: ../../reference_manual/split_layer.rst:23
 msgid "Enable the alpha-lock for each layer so it is easier to color."
-msgstr ""
+msgstr "Aktivera alfa-lås för varje lager så att det är enklare att färglägga."
 
 #: ../../reference_manual/split_layer.rst:24
 msgid "Hide the original layer"
@@ -83,7 +86,7 @@ msgstr "Dölj originallager"
 #: ../../reference_manual/split_layer.rst:25
 msgid ""
 "Turns off the visibility on the original layer so you won't get confused."
-msgstr ""
+msgstr "Stänger av originallagrets synlighet så att man inte blir förvirrad."
 
 #: ../../reference_manual/split_layer.rst:26
 msgid "Sort layers by amount of non-transparent pixels."
@@ -92,7 +95,7 @@ msgstr "Sortera lager enligt mängden ogenomskinliga bildpunkter."
 #: ../../reference_manual/split_layer.rst:27
 msgid ""
 "This ensures that the layers with large color swathes will end up at the top."
-msgstr ""
+msgstr "Säkerställer att lagren med stora färgremsor hamnar överst."
 
 #: ../../reference_manual/split_layer.rst:28
 msgid "Disregard opacity."
@@ -100,7 +103,7 @@ msgstr "Ta inte hänsyn till ogenomskinlighet."
 
 #: ../../reference_manual/split_layer.rst:29
 msgid "Whether to take into account transparency of a color."
-msgstr ""
+msgstr "Om en färgs ogenomskinlighet ska tas hänsyn till."
 
 #: ../../reference_manual/split_layer.rst:30
 msgid "Fuzziness"
@@ -113,9 +116,17 @@ msgid ""
 "anti-aliasing, because otherwise you would end up with a separate layer for "
 "each tiny pixel."
 msgstr ""
+"Hur precis algoritmen ska vara. Ju större suddighet, desto mindre precis blir"
+" algoritmen. Det är nödvändigt för att dela lager med kantutjämning, eftersom"
+" annars skulle man få ett separat lager för varje liten bildpunkt."
 
 #: ../../reference_manual/split_layer.rst:33
 msgid ""
 "Select the palette to use for naming. Krita will compare the main color of a "
 "layer to each color in the palette to get the most appropriate name for it."
 msgstr ""
+"Välj paletten som ska användas för namngivning. Krita jämför ett lagers"
+" huvudfärg med varje färg i paletten för att få fram det lämpligaste namnet"
+" för det."
+
+

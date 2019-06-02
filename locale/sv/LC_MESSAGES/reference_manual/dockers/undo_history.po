@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:36+0100\n"
+"PO-Revision-Date: 2019-06-01 17:07+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: ../../reference_manual/dockers/undo_history.rst:1
 msgid "Overview of the undo history docker."
-msgstr ""
+msgstr "Översikt av panelen för ångringshistorik."
 
 #: ../../reference_manual/dockers/undo_history.rst:11
 msgid "Undo"
-msgstr ""
+msgstr "Ångra"
 
 #: ../../reference_manual/dockers/undo_history.rst:11
 msgid "Redo"
-msgstr ""
+msgstr "Gör om"
 
 #: ../../reference_manual/dockers/undo_history.rst:11
 msgid "History"
@@ -61,11 +61,11 @@ msgstr ""
 
 #: ../../reference_manual/dockers/undo_history.rst:22
 msgid "..index:: Cumulate Undo"
-msgstr ""
+msgstr "..index:: Ackumulera ångring"
 
 #: ../../reference_manual/dockers/undo_history.rst:25
 msgid "Cumulative Undo"
-msgstr ""
+msgstr "Ackumulerad ångring"
 
 #: ../../reference_manual/dockers/undo_history.rst:27
 msgid ""
@@ -82,6 +82,8 @@ msgid ""
 "The amount of seconds required to consider a group of strokes to be worth "
 "one undo step."
 msgstr ""
+"Antal sekunder som krävs för att anse en grupp av drag vara värd ett"
+" ångringssteg."
 
 #: ../../reference_manual/dockers/undo_history.rst:31
 msgid "Group time"
@@ -93,6 +95,9 @@ msgid ""
 "same group till two consecutive strokes have a time gap of more than T "
 "seconds. Then a new group is started."
 msgstr ""
+"Enligt den här parametern skapas grupper. Varje drag läggs till i samma grupp"
+" tills två på varandra följande drag har ett tidsintervall som är mer än T"
+" sekunder. Då påbörjas en ny grupp."
 
 #: ../../reference_manual/dockers/undo_history.rst:34
 msgid ""
@@ -100,3 +105,4 @@ msgid ""
 "Once N is crossed -- the earlier strokes are merged into the group's first "
 "stroke."
 msgstr ""
+

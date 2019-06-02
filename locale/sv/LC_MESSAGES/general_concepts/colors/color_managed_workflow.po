@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-31 03:12+0200\n"
-"PO-Revision-Date: 2019-05-05 09:22+0100\n"
+"POT-Creation-Date: 2019-06-01 03:14+0200\n"
+"PO-Revision-Date: 2019-06-01 15:14+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -16,14 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -67,13 +59,21 @@ msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
 msgstr "Hur ett färghanterande arbetsflöde fungerar."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "Color"
-msgstr ""
+msgstr "Färg"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "Color Management"
@@ -81,11 +81,11 @@ msgstr "Färghantering"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "ICC Profiles"
-msgstr ""
+msgstr "ICC-profiler"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "OCIO"
-msgstr ""
+msgstr "OCIO"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:17
 msgid "Color Managed Workflow"
@@ -131,6 +131,8 @@ msgid ""
 "To explain the point of color management, you'd first need to learn which "
 "problem color management tries to solve."
 msgstr ""
+"För att förklara vitsen med färghantering måste man först förstå vilket"
+" problem som färghantering försöker lösa."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:33
 msgid "Let us imagine a kinder garden:"
@@ -141,6 +143,8 @@ msgid ""
 "The class of 28 children is subdivided in groups of 7. Each group has its "
 "own table."
 msgstr ""
+"Klassen med 28 barn delas upp i grupper av sju. Varje grupp har sitt eget"
+" bord."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:37
 msgid ""
@@ -153,13 +157,15 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:40
 msgid "The following results come from painting:"
-msgstr ""
+msgstr "Följande resultat kommer från målning:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:42
 msgid ""
 "Even though all groups had the same assignment, each group's result looks "
 "different."
 msgstr ""
+"Även om alla grupper hade samma uppgift, ser varje grupps resultat annorlunda"
+" ut."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:49
 msgid ""
@@ -199,7 +205,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:75
 msgid "For this purpose, we invented color management."
-msgstr ""
+msgstr "Vi uppfann färghantering i detta syfte."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:78
 msgid "What is color management?"
@@ -210,6 +216,8 @@ msgid ""
 "Color management is, dryly put, a set of systems that tries to have the same "
 "color translate properly between color devices."
 msgstr ""
+"Färghantering är, torrt sagt, en mängd system som försöker få samma färg att"
+" översättas riktigt mellan färgenheter."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:82
 msgid ""
@@ -217,12 +225,17 @@ msgid ""
 "space XYZ. XYZ is a coordinate system that has a spot for all colors that "
 "the average human eye can see."
 msgstr ""
+"Det fungerar oftast genom att försöka konvertera en färg till"
+" referensfärgrymden XYZ. XYZ är ett koordinatsystem som har en punkt för"
+" varje färg som det typiska mänskliga ögat kan se."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:84
 msgid ""
 "From XYZ it can then be translated back into another device space, such as "
 "RGB (for screens), or CMYK (for printers)."
 msgstr ""
+"Från XYZ kan den därefter översättas tillbaka till en annan enhetsrymd, såsom"
+" RGB (för bildskärmar) eller CMYK (för skrivare)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
 msgid ""
@@ -448,7 +461,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:148
 msgid "ICC profiles"
-msgstr ""
+msgstr "ICC-profiler"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:150
 msgid ""
@@ -499,7 +512,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:169
 msgid "cLUT profiles"
-msgstr ""
+msgstr "cLUT-profiler"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:171
 msgid ""
@@ -571,7 +584,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:188
 msgid "LUT docker and HDR imaging"
-msgstr ""
+msgstr "LUT-panel och HDR-avbildning"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:196
 msgid ""
@@ -684,21 +697,24 @@ msgstr "Sammanfattning"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:239
 msgid "Krita has two modes of color management:"
-msgstr ""
+msgstr "Krita har två sorters färghantering:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:241
 msgid ""
 "ICC works in terms of spaces relative to the CIEXYZ space, and requires an "
 "ICC profile."
 msgstr ""
+"ICC fungerar i termer av färgrymder relativa till CIEZYZ-rymden, och kräver"
+" en ICC-profil."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:242
 msgid "OCIO works in terms of interpretation, and makes use of luts."
 msgstr ""
+"OCIO fungerar i termer av tolkning, och använder LUT (uppslagningstabell)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:243
 msgid "both can be made with a colorimeter."
-msgstr ""
+msgstr "Båda kan skapas med en kolorimeter."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:244
 msgid ""
@@ -712,6 +728,8 @@ msgid ""
 "Set up your screen profiles under :menuselection:`Settings --> Configure "
 "Krita --> Color management`."
 msgstr ""
+"Ställ in skärmprofiler under :menuselection:`Inställningar --> Anpassa Krita"
+" --> Färghantering`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
 msgid ""
@@ -761,23 +779,27 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:263
 msgid "Exporting"
-msgstr "Exporterar"
+msgstr "Export"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:265
 msgid ""
 "When you have finished your image and are ready to export it, you can modify "
 "the color space to optimize it:"
 msgstr ""
+"När man är klar med bilden och är redo att exportera den, kan man ändra"
+" färgrymden för att optimera den:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:267
 msgid "If you are preparing an image for the web:"
-msgstr ""
+msgstr "Om man förbereder en bild för webben:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:269
 msgid ""
 "If you use 16bit color depth or higher, convert the image to 8bit color "
 "depth. This will make the image much smaller."
 msgstr ""
+"Om 16-bitars eller större färgdjup användes, konvertera bilden till 8-bitars"
+" färgdjup. Det gör bilden mycket mindre."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:271
 msgid ""
@@ -790,7 +812,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:273
 msgid "If it's a gray-scale image, convert it to gray-scale."
-msgstr ""
+msgstr "Om det är en gråskalebild, konvertera den till gråskala."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:274
 msgid ""
@@ -812,7 +834,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:281
 msgid "If you are preparing for print:"
-msgstr ""
+msgstr "Om man förbereder en utskrift:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
 msgid ""
@@ -829,11 +851,11 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:287
 msgid "Interaction with other applications"
-msgstr ""
+msgstr "Interaktion med andra program"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:290
 msgid "Blender"
-msgstr ""
+msgstr "Blender"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:292
 msgid ""
@@ -852,7 +874,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:298
 msgid "Windows Photo Viewer"
-msgstr ""
+msgstr "Windows fotovisare"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:300
 msgid ""
@@ -866,13 +888,15 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:303
 msgid "Example workflows"
-msgstr ""
+msgstr "Exempel på arbetsflöden"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:305
 msgid ""
 "Here are some example workflows to get a feeling of how your color "
 "management workflow may look like."
 msgstr ""
+"Här är några exempel på arbetsflöden för att få en känsla av hur"
+" färghanteringsarbetsflöden kan se ut."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:307
 msgid ""
@@ -884,7 +908,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:310
 msgid "Webcomic"
-msgstr ""
+msgstr "Webbserie"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:317
 #: ../../general_concepts/colors/color_managed_workflow.rst:339
@@ -896,13 +920,13 @@ msgstr "Indata"
 #: ../../general_concepts/colors/color_managed_workflow.rst:340
 #: ../../general_concepts/colors/color_managed_workflow.rst:358
 msgid "Your screen profile. (You pick colors via your screen)"
-msgstr ""
+msgstr "Bildskärmsprofilen (man väljer färger via skärmen)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:319
 #: ../../general_concepts/colors/color_managed_workflow.rst:341
 #: ../../general_concepts/colors/color_managed_workflow.rst:359
 msgid "Workingspace"
-msgstr ""
+msgstr "Arbetsyta"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:320
 msgid ""
@@ -960,12 +984,12 @@ msgstr "Utskrift"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:342
 msgid "sRGB or rec2020 if you can afford the bit-depth being 16bit."
-msgstr ""
+msgstr "sRGB eller rec2020 om man har råd med 16-bitars bitdjup."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
 msgid ""
 "Specialized CMYK profile from the printing house for the printed images."
-msgstr ""
+msgstr "Specialiserad CMYK-profil från tryckeriet för de utskrivna bilderna."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:346
 msgid ""
@@ -991,11 +1015,12 @@ msgstr "Spel"
 #: ../../general_concepts/colors/color_managed_workflow.rst:360
 msgid "sRGB or grayscale linear for roughness and specular maps."
 msgstr ""
+"sRGB eller linjär gråskala för avbildning av grova eller speglande ytor."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:362
 msgid ""
 "This one is tricky, but in the end it'll be sRGB for the regular player."
-msgstr ""
+msgstr "Den här är svår, men till sist blir det sRGB för den vanliga spelaren."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:364
 msgid ""
@@ -1039,12 +1064,15 @@ msgid ""
 "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
 "qoXOCOow>`_"
 msgstr ""
+"`Visualisera XYZ-färgrymden <https://www.youtube.com/watch?v=x0-qoXOCOow>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:375
 msgid ""
 "`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
 "gamma-correction.htm>`_"
 msgstr ""
+"`Grunderna i gammakorrigering <http://www.cambridgeincolour.com/tutorials/gamm"
+"a-correction.htm>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:376
 msgid ""
@@ -1059,9 +1087,14 @@ msgid ""
 "`2d examples of the effect of gamma-encoding on color maths <http://"
 "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 msgstr ""
+"`Tvådimensionella exempel på gamma-kodning i färgmatematik <"
+"http://ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:378
 msgid ""
 "`Basic overview of color management from argylcms manual <http://www."
 "argyllcms.com/doc/ColorManagement.html>`_"
 msgstr ""
+"Grundläggande översikt av färghantering från handboken för argylcms <"
+"http://www.argyllcms.com/doc/ColorManagement.html>`_"
+

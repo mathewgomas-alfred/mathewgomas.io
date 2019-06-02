@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-31 03:12+0200\n"
-"PO-Revision-Date: 2019-05-05 09:20+0100\n"
+"PO-Revision-Date: 2019-06-01 15:50+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -197,6 +197,9 @@ msgid ""
 "    :description:\n"
 "        Description."
 msgstr ""
+".. meta::\n"
+"    :description:\n"
+"        Beskrivning."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:49
 msgid "A meta description"
@@ -222,6 +225,11 @@ msgid ""
 "             - Author 2\n"
 "   :license: GNU free documentation license 1.3 or later."
 msgstr ""
+".. metadata-placeholder\n"
+"\n"
+"   :authors: - Författare 1\n"
+"             - Författare 2\n"
+"   :license: GNU free documentation license 1.3 or later."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:58
 msgid "A list of authors and a license."
@@ -430,7 +438,7 @@ msgstr "Bilder"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:147
 msgid "Use the image directive for images without captions::"
-msgstr ""
+msgstr "Använd bilddirektivet för bilder utan rubriker:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:149
 msgid ""
@@ -1090,6 +1098,17 @@ msgid ""
 "    line-height: 1.4;\n"
 "}"
 msgstr ""
+"body {\n"
+"    margin: 0 auto;\n"
+"    /* är 800 fortfarande rimligt? */\n"
+"    max-width:800px;\n"
+"    font-size:16px;\n"
+"    color:#333;\n"
+"    background-color: #eee;\n"
+"    padding:1em;\n"
+"    font-family:serif;\n"
+"    line-height: 1.4;\n"
+"}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:498
 msgid ""
@@ -1169,7 +1188,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:533
 msgid "Quotes"
-msgstr ""
+msgstr "Citationstecken"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:535
 msgid "Quotes are done like this::"
@@ -1198,4 +1217,6 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:548
 msgid "Wolthera"
-msgstr ""
+msgstr "Wolthera"
+
+

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 13:35+0200\n"
+"PO-Revision-Date: 2019-06-01 23:06+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../general_concepts/file_formats/file_csv.rst:1
 msgid "The CSV file format as exported by Krita."
@@ -75,7 +75,7 @@ msgstr ".. image:: images/Csv_spreadsheet.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:26
 msgid "A .csv file as a spreadsheet in :program:`LibreOffice Calc`"
-msgstr ""
+msgstr "Een .csv bestand als een rekenblad in :program:`LibreOffice Calc`"
 
 #: ../../general_concepts/file_formats/file_csv.rst:28
 msgid ""
@@ -83,6 +83,10 @@ msgid ""
 "sRGB color space because that's the only color space for :program:`TVPaint`. "
 "Layer groups and layer masks are also not supported."
 msgstr ""
+"Krita kan dit formaat zowel exporteren als importeren. Het is aanbevolen "
+"om 8 bits sRGB kleurruimte te gebruiken omdat dat de enige kleurruimte is "
+"voor :program:`TVPaint`. Laaggroepen en laagmaskers worden ook niet "
+"ondersteund."
 
 #: ../../general_concepts/file_formats/file_csv.rst:30
 msgid ""
@@ -98,7 +102,7 @@ msgstr ".. image:: images/Csv_tvp_csvexport.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:35
 msgid "Exporting into .csv in TVPaint"
-msgstr ""
+msgstr "Exporteren in .csv in TVPaint"
 
 #: ../../general_concepts/file_formats/file_csv.rst:37
 msgid ""
@@ -114,6 +118,8 @@ msgid ""
 "`.csv import script for TVPaint <http://forum.tvpaint.com/viewtopic.php?"
 "f=26&t=9759>`_"
 msgstr ""
+"`.csv importscript voor TVPaint <http://forum.tvpaint.com/viewtopic.php?"
+"f=26&t=9759>`_"
 
 #: ../../general_concepts/file_formats/file_csv.rst:43
 msgid ""

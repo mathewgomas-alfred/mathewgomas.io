@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-16 03:23+0200\n"
-"PO-Revision-Date: 2019-05-27 20:21+0100\n"
+"PO-Revision-Date: 2019-06-01 21:46+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Autosave on split"
-msgstr ""
+msgstr "Spara automatiskt vid delning"
 
 #: ../../reference_manual/image_split.rst:1
 msgid "The Image Split functionality in Krita"
-msgstr ""
+msgstr "Funktionen för att dela bilder i Krita"
 
 #: ../../reference_manual/image_split.rst:10
 msgid "Splitting"
-msgstr ""
+msgstr "Delning"
 
 #: ../../reference_manual/image_split.rst:15
 msgid "Image Split"
@@ -39,6 +39,9 @@ msgid ""
 "allows you to evenly split a document up into several sections. This is "
 "useful for splitting up spritesheets for example."
 msgstr ""
+"Bilddelningsfunktionen hittar man under :menuselection:`Bild --> Dela bild`,"
+" vilken låter dig jä,t dela upp ett dokument i olika sektioner. Det är"
+" användbart för att exempelvis dela upp sprite-blad."
 
 #: ../../reference_manual/image_split.rst:19
 msgid "Horizontal Lines"
@@ -49,6 +52,8 @@ msgid ""
 "The amount of horizontal lines to split at. 4 lines will mean that the image "
 "is split into 5 horizontal stripes."
 msgstr ""
+"Antal horisontella linjer att dela vid. Fyra linjer betyder att bilden delas"
+" i fem horisontella band."
 
 #: ../../reference_manual/image_split.rst:22
 msgid "Vertical Lines"
@@ -59,6 +64,8 @@ msgid ""
 "The amount of vertical lines to split at. 4 lines will mean that the image "
 "is split into 5 vertical stripes."
 msgstr ""
+"Antal vertikala linjer att dela vid. Fyra linjer betyder att bilden delas i"
+" fem vertikala band."
 
 #: ../../reference_manual/image_split.rst:24
 msgid "Sort Direction"
@@ -66,7 +73,7 @@ msgstr "Sorteringsriktning:"
 
 #: ../../reference_manual/image_split.rst:28
 msgid "Whether to number the files using the following directions:"
-msgstr ""
+msgstr "Om filerna ska numreras med användning av följande riktningar:"
 
 #: ../../reference_manual/image_split.rst:30
 msgid "horizontal"
@@ -74,7 +81,7 @@ msgstr "horisontell"
 
 #: ../../reference_manual/image_split.rst:31
 msgid "left to right, top to bottom"
-msgstr ""
+msgstr "vänster till höger, uppåt till neråt"
 
 #: ../../reference_manual/image_split.rst:33
 msgid "vertical"
@@ -82,7 +89,7 @@ msgstr "vertikal"
 
 #: ../../reference_manual/image_split.rst:33
 msgid "top to bottom, left to right"
-msgstr ""
+msgstr "uppåt till neråt, vänster till höger"
 
 #: ../../reference_manual/image_split.rst:35
 msgid "Prefix"
@@ -93,6 +100,7 @@ msgid ""
 "The prefix at which the files should be saved at. By default this is the "
 "current document name."
 msgstr ""
+"Prefix som filerna ska sparas med. Normalt är det aktuellt dokumentnamn."
 
 #: ../../reference_manual/image_split.rst:37
 msgid "File Type"
@@ -100,10 +108,14 @@ msgstr "Filtyp"
 
 #: ../../reference_manual/image_split.rst:38
 msgid "Which file format to save to."
-msgstr ""
+msgstr "Vilket filformat som ska sparas med."
 
 #: ../../reference_manual/image_split.rst:40
 msgid ""
 "This will result in all slices being saved automatically using the above "
 "prefix. Otherwise Krita will ask the name for each slice."
 msgstr ""
+"Det resulterar i att alla skivor sparas automatiskt med ovanstående prefix."
+" Annars frågar Krita efter namn på varje skiva."
+
+
