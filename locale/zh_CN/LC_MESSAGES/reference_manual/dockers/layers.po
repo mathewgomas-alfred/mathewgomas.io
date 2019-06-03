@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-08 03:36+0200\n"
-"PO-Revision-Date: 2019-05-05 22:27\n"
+"PO-Revision-Date: 2019-06-02 12:00\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___dockers___layers.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -315,10 +315,8 @@ msgid "Hot keys and Sticky Keys"
 msgstr "快捷键和功能键"
 
 #: ../../reference_manual/dockers/layers.rst:79
-#, fuzzy
-#| msgid ":kbd:`Shift + Ctrl` for selecting multiple layers."
 msgid ":kbd:`Shift` for selecting multiple contiguous layers."
-msgstr "按住 :kbd:`Ctrl` 或者 :kbd:`Shift` 点击可以选择多个图层。"
+msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:80
 msgid ""
@@ -381,16 +379,10 @@ msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
 msgstr "按 :kbd:`Ctrl + Alt + G` 将把选中的图层移出分组。"
 
 #: ../../reference_manual/dockers/layers.rst:89
-#, fuzzy
-#| msgid ""
-#| ":kbd:`Alt` + |mouseleft| on the thumbnail for isolated view of a layer. "
-#| "This will maintain between layers till the same action is repeated again."
 msgid ""
 ":kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain "
 "between layers till the same action is repeated again."
 msgstr ""
-"按住 :kbd:`Alt` + 左键单击 |mouseleft| 图层名称将单独显示该图层。反复点击可来"
-"回切换单独显示状态。"
 
 #: ../../reference_manual/dockers/layers.rst:90
 msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
@@ -402,10 +394,3 @@ msgid ""
 "layers up and down."
 msgstr ""
 "按 :kbd:`Ctrl + Page Up` 和 :kbd:`Ctrl + Page Down` 可以上下移动选中的图层。"
-
-#~ msgid ""
-#~ ":kbd:`Shift` + |mouseleft| on the eye-icon for hiding all but the current "
-#~ "layer."
-#~ msgstr ""
-#~ "按 :kbd:`Shift` + 左键单击 |mouseleft| “眼睛”图标将隐藏除当前图层外的所有"
-#~ "图层。"

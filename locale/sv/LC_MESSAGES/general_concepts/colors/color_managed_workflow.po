@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-01 03:14+0200\n"
+"POT-Creation-Date: 2019-06-02 03:13+0200\n"
 "PO-Revision-Date: 2019-06-01 15:14+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 2.0\n"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -58,14 +66,6 @@ msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -131,8 +131,8 @@ msgid ""
 "To explain the point of color management, you'd first need to learn which "
 "problem color management tries to solve."
 msgstr ""
-"För att förklara vitsen med färghantering måste man först förstå vilket"
-" problem som färghantering försöker lösa."
+"För att förklara vitsen med färghantering måste man först förstå vilket "
+"problem som färghantering försöker lösa."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:33
 msgid "Let us imagine a kinder garden:"
@@ -143,8 +143,8 @@ msgid ""
 "The class of 28 children is subdivided in groups of 7. Each group has its "
 "own table."
 msgstr ""
-"Klassen med 28 barn delas upp i grupper av sju. Varje grupp har sitt eget"
-" bord."
+"Klassen med 28 barn delas upp i grupper av sju. Varje grupp har sitt eget "
+"bord."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:37
 msgid ""
@@ -164,8 +164,8 @@ msgid ""
 "Even though all groups had the same assignment, each group's result looks "
 "different."
 msgstr ""
-"Även om alla grupper hade samma uppgift, ser varje grupps resultat annorlunda"
-" ut."
+"Även om alla grupper hade samma uppgift, ser varje grupps resultat "
+"annorlunda ut."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:49
 msgid ""
@@ -216,8 +216,8 @@ msgid ""
 "Color management is, dryly put, a set of systems that tries to have the same "
 "color translate properly between color devices."
 msgstr ""
-"Färghantering är, torrt sagt, en mängd system som försöker få samma färg att"
-" översättas riktigt mellan färgenheter."
+"Färghantering är, torrt sagt, en mängd system som försöker få samma färg att "
+"översättas riktigt mellan färgenheter."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:82
 msgid ""
@@ -225,17 +225,17 @@ msgid ""
 "space XYZ. XYZ is a coordinate system that has a spot for all colors that "
 "the average human eye can see."
 msgstr ""
-"Det fungerar oftast genom att försöka konvertera en färg till"
-" referensfärgrymden XYZ. XYZ är ett koordinatsystem som har en punkt för"
-" varje färg som det typiska mänskliga ögat kan se."
+"Det fungerar oftast genom att försöka konvertera en färg till "
+"referensfärgrymden XYZ. XYZ är ett koordinatsystem som har en punkt för "
+"varje färg som det typiska mänskliga ögat kan se."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:84
 msgid ""
 "From XYZ it can then be translated back into another device space, such as "
 "RGB (for screens), or CMYK (for printers)."
 msgstr ""
-"Från XYZ kan den därefter översättas tillbaka till en annan enhetsrymd, såsom"
-" RGB (för bildskärmar) eller CMYK (för skrivare)."
+"Från XYZ kan den därefter översättas tillbaka till en annan enhetsrymd, "
+"såsom RGB (för bildskärmar) eller CMYK (för skrivare)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
 msgid ""
@@ -704,8 +704,8 @@ msgid ""
 "ICC works in terms of spaces relative to the CIEXYZ space, and requires an "
 "ICC profile."
 msgstr ""
-"ICC fungerar i termer av färgrymder relativa till CIEZYZ-rymden, och kräver"
-" en ICC-profil."
+"ICC fungerar i termer av färgrymder relativa till CIEZYZ-rymden, och kräver "
+"en ICC-profil."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:242
 msgid "OCIO works in terms of interpretation, and makes use of luts."
@@ -728,8 +728,8 @@ msgid ""
 "Set up your screen profiles under :menuselection:`Settings --> Configure "
 "Krita --> Color management`."
 msgstr ""
-"Ställ in skärmprofiler under :menuselection:`Inställningar --> Anpassa Krita"
-" --> Färghantering`."
+"Ställ in skärmprofiler under :menuselection:`Inställningar --> Anpassa Krita "
+"--> Färghantering`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
 msgid ""
@@ -786,8 +786,8 @@ msgid ""
 "When you have finished your image and are ready to export it, you can modify "
 "the color space to optimize it:"
 msgstr ""
-"När man är klar med bilden och är redo att exportera den, kan man ändra"
-" färgrymden för att optimera den:"
+"När man är klar med bilden och är redo att exportera den, kan man ändra "
+"färgrymden för att optimera den:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:267
 msgid "If you are preparing an image for the web:"
@@ -798,8 +798,8 @@ msgid ""
 "If you use 16bit color depth or higher, convert the image to 8bit color "
 "depth. This will make the image much smaller."
 msgstr ""
-"Om 16-bitars eller större färgdjup användes, konvertera bilden till 8-bitars"
-" färgdjup. Det gör bilden mycket mindre."
+"Om 16-bitars eller större färgdjup användes, konvertera bilden till 8-bitars "
+"färgdjup. Det gör bilden mycket mindre."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:271
 msgid ""
@@ -895,8 +895,8 @@ msgid ""
 "Here are some example workflows to get a feeling of how your color "
 "management workflow may look like."
 msgstr ""
-"Här är några exempel på arbetsflöden för att få en känsla av hur"
-" färghanteringsarbetsflöden kan se ut."
+"Här är några exempel på arbetsflöden för att få en känsla av hur "
+"färghanteringsarbetsflöden kan se ut."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:307
 msgid ""
@@ -1071,8 +1071,8 @@ msgid ""
 "`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
 "gamma-correction.htm>`_"
 msgstr ""
-"`Grunderna i gammakorrigering <http://www.cambridgeincolour.com/tutorials/gamm"
-"a-correction.htm>`_"
+"`Grunderna i gammakorrigering <http://www.cambridgeincolour.com/tutorials/"
+"gamma-correction.htm>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:376
 msgid ""
@@ -1087,14 +1087,13 @@ msgid ""
 "`2d examples of the effect of gamma-encoding on color maths <http://"
 "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 msgstr ""
-"`Tvådimensionella exempel på gamma-kodning i färgmatematik <"
-"http://ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
+"`Tvådimensionella exempel på gamma-kodning i färgmatematik <http://"
+"ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:378
 msgid ""
 "`Basic overview of color management from argylcms manual <http://www."
 "argyllcms.com/doc/ColorManagement.html>`_"
 msgstr ""
-"Grundläggande översikt av färghantering från handboken för argylcms <"
-"http://www.argyllcms.com/doc/ColorManagement.html>`_"
-
+"Grundläggande översikt av färghantering från handboken för argylcms <http://"
+"www.argyllcms.com/doc/ColorManagement.html>`_"

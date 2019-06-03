@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-01 03:14+0200\n"
+"POT-Creation-Date: 2019-06-02 03:13+0200\n"
 "PO-Revision-Date: 2019-06-01 22:56+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -21,75 +21,55 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.1\n"
 
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita_2_9_colormanagement_group1.png"
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
 msgstr ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita_2_9_colormanagement_group2.png"
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group2.png"
 msgstr ".. image:: images/color_category/Krita_2_9_colormanagement_group2.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita_2_9_colormanagement_group3.png"
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group3.png"
 msgstr ".. image:: images/color_category/Krita_2_9_colormanagement_group3.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita_2_9_colormanagement_group4.png"
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group4.png"
 msgstr ".. image:: images/color_category/Krita_2_9_colormanagement_group4.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ".. image:: images/en/LUT_Management_Docker.png"
 msgid ".. image:: images/dockers/LUT_Management_Docker.png"
 msgstr ".. image:: images/dockers/LUT_Management_Docker.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ".. image:: images/en/color_category/Krita_HDR_1.svg"
 msgid ".. image:: images/color_category/Krita_HDR_1.svg"
 msgstr ".. image:: images/color_category/Krita_HDR_1.svg"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ".. image:: images/en/color_category/Krita_HDR2.svg"
 msgid ".. image:: images/color_category/Krita_HDR2.svg"
 msgstr ".. image:: images/color_category/Krita_HDR2.svg"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita-colormanaged-workflow_webcomic."
-#| "svg"
 msgid ""
 ".. image:: images/color_category/Krita-colormanaged-workflow_webcomic.svg"
 msgstr ""
 ".. image:: images/color_category/Krita-colormanaged-workflow_webcomic.svg"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita-colormanaged-workflow_print.svg"
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita-colormanaged-workflow_games.svg"
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-#| msgid ".. image:: images/en/color_category/Kiki_matrix_profile.png"
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-#| msgid ".. image:: images/en/color_category/Kiki_cLUTprofiles.png"
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -100,12 +80,10 @@ msgid "Color"
 msgstr "Kleur"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
-#| msgid "What is color management?"
 msgid "Color Management"
 msgstr "Kleurenbeheer"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
-#| msgid "ICC profiles"
 msgid "ICC Profiles"
 msgstr "ICC-profielen"
 
@@ -298,18 +276,14 @@ msgstr ""
 "RGB (voor schermen), of CMYK (voor printers)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
-#| msgid ""
-#| "Krita has two systems dedicated to color management. On one hand we have "
-#| "**lcms2**, which deal with ICC profiles, and on the other we have "
-#| "**OCIO**, which deal with LUT color management."
 msgid ""
 "Krita has two systems dedicated to color management. On the one hand, we "
 "have **lcms2**, which deal with ICC profiles, and on the other, we have "
 "**OCIO**, which deal with LUT color management."
 msgstr ""
 "Krita heeft twee systemen speciaal voor kleurenbeheer. Aan de ene kant "
-"hebben we **lcms2**, die voor ICC profielen is, en aan de andere kant "
-"hebben we **OCIO**, die voor LUT kleurenbeheer is."
+"hebben we **lcms2**, die voor ICC profielen is, en aan de andere kant hebben "
+"we **OCIO**, die voor LUT kleurenbeheer is."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:88
 msgid ""
@@ -328,20 +302,6 @@ msgid "Within both we can identify the following color spaces:"
 msgstr "In beide kunnen we de volgende kleurruimtes vinden:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:93
-#| msgid ""
-#| "Device spaces are those describing your monitor, and have to be made "
-#| "using a little device that is called \"colorimeter\". This device, in "
-#| "combination with the right software, measures the strongest red, green "
-#| "and blue your screen can produce, as well as the white, black and grey it "
-#| "produces. Using these and several other measurements it creates an ICC "
-#| "profile unique to your screen. You set these in Krita's color management "
-#| "tab. By default we assume sRGB for screens, but it's very likely that "
-#| "your screen isn't exactly fitting sRGB, especially if you have a high "
-#| "quality screen, where it may be a bigger space instead. Device spaces are "
-#| "also why you should first consult with your printer what profile they "
-#| "expect. Many printing houses have their own device profiles for their "
-#| "printers, or may prefer doing color conversion themselves. You can read "
-#| "more about colorimeter usage :ref:`here <profiling_and_calibration>`."
 msgid ""
 "Device spaces are those describing your monitor, and have to be made using a "
 "little device that is called \"colorimeter\". This device, in combination "
@@ -410,10 +370,6 @@ msgid "Color managed workflow"
 msgstr "Workflow kleurbeheer"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:104
-#| msgid ""
-#| "Knowing this about these spaces of course doesn't give you an idea how to "
-#| "use them, but it does make it easier to explain how to use them. So let "
-#| "us look at a typical color management workflow:"
 msgid ""
 "Knowing this about these spaces of course doesn't give you an idea of how to "
 "use them, but it does make it easier to explain how to use them. So let us "
@@ -425,8 +381,6 @@ msgstr ""
 "workflow van kleurbeheer verloopt:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:110
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita-colormanaged-workflow_text.svg"
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_text.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_text.svg"
 
@@ -546,9 +500,6 @@ msgid "So what does this mean?"
 msgstr "Wat houd dit in?"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:133
-#| msgid ""
-#| ".. image:: images/en/color_category/Krita-colormanaged-"
-#| "workflow_krita_text.svg"
 msgid ""
 ".. image:: images/color_category/Krita-colormanaged-workflow_krita_text.svg"
 msgstr ""
@@ -645,14 +596,6 @@ msgstr ""
 "werk voor het afdrukken en andere projecten."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:143
-#| msgid ""
-#| "Overall, it is kinda useful to keep things like viewing conditions in the "
-#| "back of your mind. Many professional artists use a mid-grey color as "
-#| "their default canvas background because they find they create much more "
-#| "dynamic images due to having improved their viewing conditions. It is "
-#| "also why a lot of graphics programs, including Krita, come with a dark "
-#| "theme nowadays. (Though, of course this might also be because dark themes "
-#| "can be considered cool, who knows.)"
 msgid ""
 "Overall, it is kinda useful to keep things like viewing conditions in the "
 "back of your mind. Many professional artists use a mid-gray color as their "
@@ -803,13 +746,6 @@ msgid "Relative Colorimetric"
 msgstr "Relatief colorimetrisch"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:180
-#| msgid ""
-#| "A in between solution between perceptual and absolute, relative will try "
-#| "to fit whatever colors it can match between color spaces. It does this by "
-#| "aligning the white and black points. It cuts off the rest to their "
-#| "respective borders. This is what all matrix shaper profiles default to "
-#| "during conversion, because the ICC v4 workflow specifies to only use "
-#| "Relative Colorimetric for matrix shaper profiles."
 msgid ""
 "An in between solution between perceptual and absolute, relative will try to "
 "fit whatever colors it can match between color spaces. It does this by "
@@ -841,14 +777,6 @@ msgstr ""
 "profielen, werkt standaard met Relatief colorimetrisch."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:185
-#| msgid ""
-#| "*ICC profile version* is the last thing to keep in mind when dealing with "
-#| "ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with "
-#| "the later giving better results in doing color maths, but the former "
-#| "being more widely supported (as seen below in 'interoperability with "
-#| "other programs'. This is also why Krita defaults to V2, and we recommend "
-#| "using V2 when you aren't certain if the other programs you are using "
-#| "support V4."
 msgid ""
 "*ICC profile version* is the last thing to keep in mind when dealing with "
 "ICC profiles. Krita delivers both Version 2 and Version 4 profiles, with the "
@@ -861,10 +789,10 @@ msgstr ""
 "profielen in de weer gaat. Krita kan zowel Versie 2 en Versie 4 profiles "
 "leveren, waarbij versie 4 betere resultaten levert wat betreft "
 "kleurberekeningen, maar versie 2 door meer programma's gebruikt wordt (zoals "
-"u kunt zien in 'interactie met andere toepassingen'. Dit is de reden "
-"waarom Krita standaard op V2 staat ingesteld, en we aanbevelen om V2 te "
-"gebruiken als u er niet zeker van bent dat de andere door u gebruikte "
-"programma's V4 aankunnen."
+"u kunt zien in 'interactie met andere toepassingen'. Dit is de reden waarom "
+"Krita standaard op V2 staat ingesteld, en we aanbevelen om V2 te gebruiken "
+"als u er niet zeker van bent dat de andere door u gebruikte programma's V4 "
+"aankunnen."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:188
 msgid "LUT docker and HDR imaging"
@@ -1055,10 +983,6 @@ msgid "both can be made with a colorimeter."
 msgstr "beide kunt u met een colorimeter maken."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:244
-#| msgid ""
-#| "If you want to have a properly color managed workflow, you have one made "
-#| "customly for the input device (your screen) and the output devices (your "
-#| "printer, or target screen). For web the output is always sRGB."
 msgid ""
 "If you want to have a properly color managed workflow, you have one made "
 "customary for the input device (your screen) and the output devices (your "
@@ -1093,10 +1017,6 @@ msgstr ""
 "bekijken van de afbeelding."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:247
-#| msgid ""
-#| "Use the appropriate color management for the appropriate workflow. If you "
-#| "are working with Blender, you will be better off using OCIO, than ICC. IF "
-#| "you are working with Scribus or Photoshop, use ICC."
 msgid ""
 "Use the appropriate color management for the appropriate workflow. If you "
 "are working with Blender, you will be better off using OCIO, than ICC. If "
@@ -1120,13 +1040,6 @@ msgstr ""
 "lineaire kleurruimte te werken."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:251
-#| msgid ""
-#| "If you like painting, have a decent amount of ram, and are looking to "
-#| "start your baby-steps in taking advantage of Krita's color management, "
-#| "try upgrading from having all your images in sRGB built-in to sRGB-v2-"
-#| "elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you "
-#| "better color blending while opening up the possibility for you to start "
-#| "working in hdr!"
 msgid ""
 "If you like painting, have a decent amount of RAM, and are looking to start "
 "your baby-steps in taking advantage of Krita's color management, try "
@@ -1163,9 +1076,6 @@ msgid "Exporting"
 msgstr "Exporteren"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:265
-#| msgid ""
-#| "when you have finished your image and are ready to export it, you can "
-#| "modify the color space to optimize it:"
 msgid ""
 "When you have finished your image and are ready to export it, you can modify "
 "the color space to optimize it:"
@@ -1370,9 +1280,6 @@ msgid "Output"
 msgstr "Uitvoer"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:322
-#| msgid ""
-#| "sRGB, ICC version 2, sRGB trc for the internet, and a specialized CMYK "
-#| "profile from the printing house for the printed images."
 msgid ""
 "sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK "
 "profile from the printing house for the printed images."
@@ -1459,13 +1366,6 @@ msgstr ""
 "geopend houden."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:348
-#| msgid ""
-#| "You can set the advanced color selector to transform to a given profile "
-#| "via :menuselection:`Settings --> Configure Krita --> Advanced color "
-#| "selector settings`. There, tick :guilabel:`Color selector uses a "
-#| "different color space than the image` and select the CMYK profile you are "
-#| "aiming for. This will limit your colors a little bit, but keep all the "
-#| "nice filter and blending options from RGB."
 msgid ""
 "You can set the advanced color selector to transform to a given profile via :"
 "menuselection:`Settings --> Configure Krita --> Color Selector Settings`. "
