@@ -69,18 +69,27 @@ The mailing list is used for announcements and sparingly for discussions. Everyo
 The mailing list is called "kimageshop", because that is the name under which the Krita project was started. Legal issues (surprise!) led to two renames, once to Krayon, then to Krita.
 
 
+Gitlab (KDE Invent)
+-------------------
+
+Gitlab serves the following purposes for the Krita team:
+
+* Review volunteers' submissions: https://invent.kde.org/kde/krita/merge_requests for the code itself, https://invent.kde.org/websites/docs-krita-org/merge_requests for the content of the Krita Manual.
+* Host the code git repository: https://invent.kde.org/kde/krita . Note that while there are mirrors of our git repository on Github and Phabricator, we do not use them for Krita development.
+* Host the Krita Manual content repository: https://invent.kde.org/websites/docs-krita-org
+
+**Do not** make new issues on Gitlab or use it to make bug reports.
+
+**Do** put all your code submissions (merge requests) on Gitlab. **Do not** attach patches to bugs in the bug tracker.
+
 Phabricator
 -----------
 
 Phabricator serves the following purposes for the Krita team:
 
 * Track what we are working on: https://phabricator.kde.org/maniphest/ This includes development tasks, designing new features and UX design, as well as tasks related to the website.
-* Review code submissions: https://phabricator.kde.org/differential/ 
-* Host the git repository: https://phabricator.kde.org/source/krita/ . Note that while there is a mirror of our git repository on Github, we do not use Github for Krita’s development.
 
 **Do not** report bugs as tasks on Phabricator. Phabricator is where we organize our work.
-
-**Do** put all your code submissions (patches) on Phabricator. **Do not** attach patches to bugs in the bug tracker.
 
 Bugzilla: the Bug Tracker
 -------------------------
