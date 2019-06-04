@@ -198,7 +198,7 @@ Each release will have a version of the epub uploaded as part of the release pro
 Removing Pages
 ~~~~~~~~~~~~~~
 
-If a feature is removed in a certain version, the corresponding pages.
+If a feature is removed in a certain version, the corresponding pages:
 
 1. Will first be marked deprecated.
 
@@ -209,7 +209,7 @@ If a feature is removed in a certain version, the corresponding pages.
             Text to indicate what the user should do without this feature.
 
 2. Will be linked on a page called 'deprecated'
-3. If the next version rolls around all the pages linked in the deprecated section will be removed.
+3. If the next version rolls around, all the pages linked in the deprecated section will be removed.
 
 Adding Pages
 ~~~~~~~~~~~~
