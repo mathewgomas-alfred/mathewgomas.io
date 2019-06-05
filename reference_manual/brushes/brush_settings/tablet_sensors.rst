@@ -46,4 +46,4 @@ Fade
 Perspective
     How much the brush is affected by the perspective assistant.
 Tangential Pressure
-    How much the brush is affected by the wheel on airbrush-simulating stylii.
+    How much the brush is affected by the wheel on airbrush-simulating styli.
