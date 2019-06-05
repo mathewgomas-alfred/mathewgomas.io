@@ -48,10 +48,10 @@ Check the FAQ
 
 If you've got a problem with Krita, first check the `FAQ <https://docs.krita.org/en/KritaFAQ.html>`_. See whether your problem is mentioned there. If it is, apply the solution. If that doesn't work for you, do not report a bug. Ask for help on `Krita's Forum <https://forums.kde.org>`_.
 
-Ask on ask.krita.org, Krita's Forum or IRC Chat Channel
+Ask on Krita's Forum or IRC Chat Channel
 -------------------------------------------------------
 
-If uncertain, ask on `ask.krita.org <https://ask.krita.org/>`_, `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or the `Krita Forum <https://forum.kde.org/krita>`_.
+If uncertain, ask on `Krita's IRC chat channel <https://krita.org/en/irc/>`_ or the `Krita Forum <https://forum.kde.org/krita>`_.
 
 Krita's chat channel is maintained on irc.freenode.net. Developers and users hang out to discuss Krita's development and help people who have questions.
 
