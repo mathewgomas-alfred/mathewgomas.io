@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-27 20:21+0100\n"
+"PO-Revision-Date: 2019-06-04 21:50+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,8 @@ msgid ""
 ".. image:: images/icons/Krita_mouse_left.png\n"
 "   :alt: mouseleft"
 msgstr ""
+".. image:: images/icons/Krita_mouse_left.png\n"
+"   :alt: vänsterknapp"
 
 #: ../../<rst_epilog>:4
 msgid ""
@@ -35,7 +37,7 @@ msgstr ""
 msgid ""
 "Split Alpha: how to work with color and alpha channels of the layer "
 "separately"
-msgstr ""
+msgstr "Dela alfa: hur man arbetar med färger och alfakanaler i lagret separat"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Layers"
@@ -47,7 +49,7 @@ msgstr "Genomskinlighet"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Alpha channel"
-msgstr ""
+msgstr "Alfakanal"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:11
 msgid "Game"
@@ -66,19 +68,26 @@ msgid ""
 "`transparency_masks`. The artist can work on the transparency mask in an "
 "isolated environment and merge it back when he has finished working."
 msgstr ""
+"Ibland behöver konstnärer arbeta med alfakanalen i en struktur separat,"
+" särskilt på spelutvecklingsområdet. För att hjälpa till med ett sådant"
+" arbetsflöde har Krita en särskild funktion som kallas :menuselection:`Dela"
+" alfa`. Det gör det möjligt att dela alfakanalen på ett målarlager till"
+" separata :ref:`transparency_masks`. Konstnären kan arbeta med"
+" genomskinlighetsmasken i en isolerad omgivning och sammanfoga den tillbaka"
+" när arbetet är färdigt."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:21
 msgid "How to work with alpha channel of the layer"
-msgstr ""
+msgstr "Hur man arbetar med lagrets alfakanal"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:23
 msgid "|mouseright| the paint layer in the layers docker."
-msgstr ""
+msgstr "Högerklicka på målarlagret i lagerpanelen."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:24
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:35
 msgid "Choose :menuselection:`Split Alpha --> Alpha into Mask`"
-msgstr ""
+msgstr "Välj :menuselection:`Dela alfa --> Alfa till mask`"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:25
 msgid ""
@@ -86,23 +95,32 @@ msgid ""
 "paints transparency (see-through), white paints opacity (visible). Gray "
 "values paint semi-transparency."
 msgstr ""
+"Använd föredraget målarverktyg för att måla på genomskinlighetsmasken. Svart"
+" målar genomskinlighet (transparent), vitt målar ogenomskinlighet (synligt)."
+" Gråa värden målar halvgenomskinligt."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:26
 msgid ""
 "If you would like to isolate alpha channel, enter Isolated Mode by |"
 "mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)"
 msgstr ""
+"Om man vill isolera en alfakanal, gå till isolationsläge med högerklick +"
+" :menuselection:`Isolera lager` (eller :kbd:`Alt` + vänsterklick)"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:27
 msgid ""
 "When finished editing the Transparency Mask, |mouseright| on it and select :"
 "menuselection:`Split Alpha --> Write as Alpha`"
 msgstr ""
+"När man är klar med redigering av genomskinlighetsmasken, högerklicka på den"
+" och välj :menuselection:`Dela alfa --> Skriv som alfa`"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:30
 msgid ""
 "How to save a PNG texture and keep color values in fully transparent areas"
 msgstr ""
+"Hur man sparar PNG-strukturer och behåll färgvärden på helt genomskinliga"
+" områden"
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:32
 msgid ""
@@ -113,13 +131,22 @@ msgid ""
 "compositing of the image i.e. limit image to only one layer without any "
 "masks or effects, or use the following method:"
 msgstr ""
+"Normalt fylls alla helt genomskinliga områden på en bild med svart färg när"
+" bilden sparas i en fil. Det sker eftersom när Krita sätter samman bildens"
+" lager tas färgdata för helt genomskinliga bildpunkter bort av"
+" effektivitetsskäl. För att undvika sådan färgförlust kan man antingen"
+" undvika att sammansätta bilden, dvs. begränsa bilden till bara ett lager"
+" utan några masker eller effekter, eller använda följande metod: "
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:34
 msgid "|mouseright| the layer in the layers docker."
-msgstr ""
+msgstr "Högerklicka på lagret i lagerpanelen."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:36
 msgid ""
 "|mouseright| on the created mask and select :menuselection:`Split Alpha --> "
 "Save Merged...`"
 msgstr ""
+"Högerklicka på den skapade masken och välj :menuselection:`Dela alfa -->"
+" Spara sammanfogad...`"
+
