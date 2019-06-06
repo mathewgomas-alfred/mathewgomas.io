@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-06-05 03:24+0200\n"
 "PO-Revision-Date: 2019-06-02 12:00\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
@@ -50,7 +50,7 @@ msgid "The mailing list"
 msgstr "邮件列表"
 
 #: ../../contributors_manual/community.rst:22
-#: ../../contributors_manual/community.rst:73
+#: ../../contributors_manual/community.rst:86
 msgid "Phabricator"
 msgstr "Phabricator 网站"
 
@@ -256,11 +256,64 @@ msgstr ""
 "该邮件列表叫做 \"kimageshop\"，它是 Krita 项目最早的名称。因为商标问题，项目"
 "的名称发生过两次更改，先是改为 Krayon，后来才改为 Krita。"
 
+#: ../../contributors_manual/community.rst:73
+msgid "Gitlab (KDE Invent)"
+msgstr ""
+
 #: ../../contributors_manual/community.rst:75
-msgid "Phabricator serves the following purposes for the Krita team:"
+#, fuzzy
+#| msgid "Phabricator serves the following purposes for the Krita team:"
+msgid "Gitlab serves the following purposes for the Krita team:"
 msgstr "KDE 的 Phabricator 网站为 Krita 团队提供了以下功能："
 
 #: ../../contributors_manual/community.rst:77
+msgid ""
+"Review volunteers' submissions: https://invent.kde.org/kde/krita/"
+"merge_requests for the code itself, https://invent.kde.org/websites/docs-"
+"krita-org/merge_requests for the content of the Krita Manual."
+msgstr ""
+
+#: ../../contributors_manual/community.rst:78
+#, fuzzy
+#| msgid ""
+#| "Host the git repository: https://phabricator.kde.org/source/krita/ . Note "
+#| "that while there is a mirror of our git repository on Github, we do not "
+#| "use Github for Krita’s development."
+msgid ""
+"Host the code git repository: https://invent.kde.org/kde/krita . Note that "
+"while there are mirrors of our git repository on Github and Phabricator, we "
+"do not use them for Krita development."
+msgstr ""
+"托管 Git 软件库：https://phabricator.kde.org/source/krita/ 虽然我们的 Git 软"
+"件库也在 Github 上设有镜像，但我们并不使用 Github 来进行 Krita 的开发工作。"
+
+#: ../../contributors_manual/community.rst:79
+msgid ""
+"Host the Krita Manual content repository: https://invent.kde.org/websites/"
+"docs-krita-org"
+msgstr ""
+
+#: ../../contributors_manual/community.rst:81
+msgid "**Do not** make new issues on Gitlab or use it to make bug reports."
+msgstr ""
+
+#: ../../contributors_manual/community.rst:83
+#, fuzzy
+#| msgid ""
+#| "**Do** put all your code submissions (patches) on Phabricator. **Do not** "
+#| "attach patches to bugs in the bug tracker."
+msgid ""
+"**Do** put all your code submissions (merge requests) on Gitlab. **Do not** "
+"attach patches to bugs in the bug tracker."
+msgstr ""
+"**不要** 把你的全部代码 (补丁) 发布到 Phabricator 上。**不要** 把补丁附在程序"
+"问题跟踪器的问题中。"
+
+#: ../../contributors_manual/community.rst:88
+msgid "Phabricator serves the following purposes for the Krita team:"
+msgstr "KDE 的 Phabricator 网站为 Krita 团队提供了以下功能："
+
+#: ../../contributors_manual/community.rst:90
 msgid ""
 "Track what we are working on: https://phabricator.kde.org/maniphest/ This "
 "includes development tasks, designing new features and UX design, as well as "
@@ -269,20 +322,7 @@ msgstr ""
 "跟踪我们正在进行的工作：https://phabricator.kde.org/maniphest/ 包括开发任务、"
 "设计新功能、UX 设计和与网站有关的任务。"
 
-#: ../../contributors_manual/community.rst:78
-msgid "Review code submissions: https://phabricator.kde.org/differential/"
-msgstr "审查提交的代码：https://phabricator.kde.org/differential/"
-
-#: ../../contributors_manual/community.rst:79
-msgid ""
-"Host the git repository: https://phabricator.kde.org/source/krita/ . Note "
-"that while there is a mirror of our git repository on Github, we do not use "
-"Github for Krita’s development."
-msgstr ""
-"托管 Git 软件库：https://phabricator.kde.org/source/krita/ 虽然我们的 Git 软"
-"件库也在 Github 上设有镜像，但我们并不使用 Github 来进行 Krita 的开发工作。"
-
-#: ../../contributors_manual/community.rst:81
+#: ../../contributors_manual/community.rst:92
 msgid ""
 "**Do not** report bugs as tasks on Phabricator. Phabricator is where we "
 "organize our work."
@@ -290,19 +330,11 @@ msgstr ""
 "**不要** 把程序问题当成任务在 Phabricator 上面发布。Phabricator 是我们组织协"
 "调工作的场所。"
 
-#: ../../contributors_manual/community.rst:83
-msgid ""
-"**Do** put all your code submissions (patches) on Phabricator. **Do not** "
-"attach patches to bugs in the bug tracker."
-msgstr ""
-"**不要** 把你的全部代码 (补丁) 发布到 Phabricator 上。**不要** 把补丁附在程序"
-"问题跟踪器的问题中。"
-
-#: ../../contributors_manual/community.rst:86
+#: ../../contributors_manual/community.rst:95
 msgid "Bugzilla: the Bug Tracker"
 msgstr "Bugzilla：程序问题跟踪器"
 
-#: ../../contributors_manual/community.rst:88
+#: ../../contributors_manual/community.rst:97
 msgid ""
 "Krita shares the bug tracker with the rest of the KDE community. Krita bugs "
 "are found under the Krita product. There are two kinds of reports in the bug "
@@ -320,11 +352,11 @@ msgstr ""
 "Bugzilla 里面报告新功能请求。关于如何创建一个好的新功能请求，参见 KDE 文档"
 "的“新功能请求”章节。"
 
-#: ../../contributors_manual/community.rst:91
+#: ../../contributors_manual/community.rst:100
 msgid "Sprints"
 msgstr "开发冲刺活动"
 
-#: ../../contributors_manual/community.rst:93
+#: ../../contributors_manual/community.rst:102
 msgid ""
 "Sometimes, core Krita developers and users come together, most often in "
 "Deventer, the Netherlands, to work together on our code design, UX design, "
@@ -335,3 +367,6 @@ msgstr ""
 "有些时候 Krita 的核心开发人员会聚集起来，面对面地集中处理程序代码、UX 设计、"
 "网站等事务。这样的活动叫做“开发冲刺活动”，通常在荷兰的代芬特尔进行。参加活动"
 "的旅费通常由 KDE e.V. 资助，而住宿费用则由 Krita 基金会资助。"
+
+#~ msgid "Review code submissions: https://phabricator.kde.org/differential/"
+#~ msgstr "审查提交的代码：https://phabricator.kde.org/differential/"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-02 19:08+0200\n"
+"PO-Revision-Date: 2019-06-05 11:44+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -77,12 +77,18 @@ msgid ""
 "When releasing |mouseleft| a default text will be created and the text "
 "editor window will pop-up."
 msgstr ""
+"S'utilitza :kbd:`fent` |mouseleft| :kbd:`+ arrossega` per a crear una "
+"selecció rectangular. En alliberar el |mouseleft| es crearà un text "
+"predeterminat i apareixerà la finestra de l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:24
 msgid ""
 "Hovering over other text shapes will highlight their bounding box. |"
 "mouseleft| on a highlighted text will select it as the active text."
 msgstr ""
+"Mantenint el cursor sobre altres formes de text, es ressaltarà el seu quadre "
+"contenidor. Fent |mouseleft| sobre un text ressaltat el seleccionarà com el "
+"text actiu."
 
 #: ../../reference_manual/tools/text.rst:27
 msgid "Tool Options"
@@ -97,6 +103,8 @@ msgid ""
 "This contains features with which to create new texts, the following items "
 "are available:"
 msgstr ""
+"Conté les característiques amb les quals crear textos nous, hi ha disponibles "
+"els següents elements:"
 
 #: ../../reference_manual/tools/text.rst:34
 msgid "Font"
@@ -104,7 +112,7 @@ msgstr "Tipus de lletra"
 
 #: ../../reference_manual/tools/text.rst:35
 msgid "The letter type used by newly created texts."
-msgstr "El tipus de lletra utilitzat per als textos de nova creació."
+msgstr "El tipus de lletra utilitzat per als textos acabats de crear."
 
 #: ../../reference_manual/tools/text.rst:36
 msgid "Size in pt"
@@ -117,6 +125,10 @@ msgid ""
 "therefore will stay proportionally the same size if you increase or decrease "
 "canvas dpi."
 msgstr ""
+"La mida de la lletra emprada pels textos acabats de crear. Està en punts "
+"(pts), el qual és un estàndard comú per als tipus de lletra que es mesura en "
+"72 punts per polzada. Per tant, seguirà sent proporcionalment la mateixa "
+"mida si feu augmentar o disminuir els PPP en el llenç."
 
 #: ../../reference_manual/tools/text.rst:38
 msgid "Create new texts with..."
@@ -124,7 +136,7 @@ msgstr "Crea textos nous amb..."
 
 #: ../../reference_manual/tools/text.rst:38
 msgid "Anchor/Align text to the left/middle/right"
-msgstr ""
+msgstr "Ancora/Alinea el text a l'esquerra/centre/dreta"
 
 #: ../../reference_manual/tools/text.rst:39
 msgid ""
@@ -133,6 +145,10 @@ msgid ""
 "uses text-anchor, and this is a slight bit different than text-align (and "
 "also the reason justify isn't available at the moment)."
 msgstr ""
+"Alineació del text. Permet alinear el text a l'esquerra, al centre o a la "
+"dreta. S'anomena ancorar el text perquè el text multilínia del SVG 1.1 només "
+"utilitza ancora el text, i és una mica diferent de l'alineació del text (i "
+"també la raó per la qual no està disponible en aquest moment)."
 
 #: ../../reference_manual/tools/text.rst:41
 msgid "Edit Text"
@@ -144,6 +160,8 @@ msgid ""
 "be quickly invoked with either pressing :kbd:`Enter` or Double - |mouseleft| "
 "the shape."
 msgstr ""
+"Cridarà a l'editor de text per a la forma seleccionada. Es pot invocar "
+"ràpidament prement :kbd:`Retorn` o fent doble |mouseleft| sobre la forma."
 
 #: ../../reference_manual/tools/text.rst:44
 msgid "Text Editor"
@@ -154,6 +172,8 @@ msgid ""
 "A small window for all your text editing needs. The Text Editor has two "
 "tabs: Rich text and SVG source."
 msgstr ""
+"Una petita finestra per a totes les necessitats en l'edició de text. L'editor "
+"de text té dues pestanyes: Text enriquit i Codi font de SVG."
 
 #: ../../reference_manual/tools/text.rst:49
 msgid ".. image:: images/tools/Text-editor-example.png"
@@ -170,12 +190,18 @@ msgid ""
 "adding. You will need to drag a rectangle on the canvas to create the text "
 "area. Once your text is created, you can edit the text from two ways:"
 msgstr ""
+"Podeu utilitzar l'eina de text per a crear primer un quadre de text. Hi ha "
+"algunes opcions a les Opcions de l'eina per si voleu personalitzar com "
+"s'afegirà el text. Haureu d'arrossegar un rectangle en el llenç per a crear "
+"l'àrea de text. Una vegada creeu el text, el podreu editar de dues maneres:"
 
 #: ../../reference_manual/tools/text.rst:54
 msgid ""
 "Select the text with the shape selection tool (first tool). Press the :kbd:"
 "`Enter` key. The text editor will appear."
 msgstr ""
+"Seleccioneu el text amb l'eina de selecció amb formes (primera eina). Premeu "
+"la tecla :kbd:`Retorn`. Apareixerà l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:55
 msgid ""
@@ -183,6 +209,10 @@ msgid ""
 "Text tool. In the tool options there is an :guilabel:`Edit Text` button. "
 "When you click that the text editor window will appear."
 msgstr ""
+"Seleccioneu el text amb l'eina de selecció amb formes (primera eina). Després "
+"feu clic a l'eina de text. A les Opcions de l'eina hi ha un botó "
+":guilabel:`Edita el text`. Quan hi feu clic apareixerà la finestra de "
+"l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:58
 msgid "Editing"
@@ -194,6 +224,9 @@ msgid ""
 "will allow you to edit the text as you see it, at the cost of not having all "
 "functionality."
 msgstr ""
+"Si no esteu familiaritzat amb la forma en què funciona el text de SVG, "
+"utilitzeu la pestanya de text enriquit, permetrà que editeu el text com el "
+"veieu, a costa de no tenir tota la funcionalitat."
 
 #: ../../reference_manual/tools/text.rst:60
 msgid ""
@@ -202,12 +235,18 @@ msgid ""
 "spacing don't convert back to the rich text editor, so do be careful when "
 "switching back."
 msgstr ""
+"Si està una mica més familiaritzat amb el text de SVG, podreu editar "
+"directament el codi font de SVG. Recordeu que certes coses, com el traç, "
+"l'emplenament, l'espaiat entre les lletres, no es tornarà a convertir a "
+"l'editor de text enriquit, de manera que aneu amb compte en tornar a canviar."
 
 #: ../../reference_manual/tools/text.rst:62
 msgid ""
 "Press :guilabel:`Save` as you're done with your edits to preview them on "
 "canvas."
 msgstr ""
+"Premeu :guilabel:`Desa` quan hàgiu acabat amb la vostra edició "
+"previsualitzant-la al llenç."
 
 #: ../../reference_manual/tools/text.rst:64
 msgid "File"
@@ -219,7 +258,7 @@ msgstr "Desa :kbd:`Ctrl + S`"
 
 #: ../../reference_manual/tools/text.rst:67
 msgid "Save current edits to the text on canvas."
-msgstr ""
+msgstr "Desa al llenç l'edició actual del text."
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close :kbd:`Ctrl + W`"
@@ -227,11 +266,11 @@ msgstr "Tanca :kbd:`Ctrl + W`"
 
 #: ../../reference_manual/tools/text.rst:69
 msgid "Close the editor"
-msgstr ""
+msgstr "Tanca l'editor."
 
 #: ../../reference_manual/tools/text.rst:72
 msgid "Basic editing functions"
-msgstr ""
+msgstr "Funcions bàsiques de l'edició:"
 
 #: ../../reference_manual/tools/text.rst:74
 msgid "Undo :kbd:`Ctrl + Z`"
@@ -239,7 +278,7 @@ msgstr "Desfés :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/tools/text.rst:75
 msgid "Undo the last action in the text editor."
-msgstr ""
+msgstr "Desfà l'última acció a l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:76
 msgid "Redo :kbd:`Ctrl + Shift + Z`"
@@ -247,7 +286,7 @@ msgstr "Refés :kbd:`Ctrl + Majús. + Z`"
 
 #: ../../reference_manual/tools/text.rst:77
 msgid "Redo the last undone action in the text editor."
-msgstr ""
+msgstr "Refà l'última acció a l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:78
 msgid "Cut :kbd:`Ctrl + X`"
@@ -255,7 +294,7 @@ msgstr "Retalla :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/tools/text.rst:79
 msgid "Cut selected text to the clipboard."
-msgstr ""
+msgstr "Retalla el text seleccionat al porta-retalls."
 
 #: ../../reference_manual/tools/text.rst:80
 msgid "Copy :kbd:`Ctrl + C`"
@@ -263,7 +302,7 @@ msgstr "Copia :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/tools/text.rst:81
 msgid "Copy selected text to the clipboard."
-msgstr ""
+msgstr "Copia el text seleccionat al porta-retalls."
 
 #: ../../reference_manual/tools/text.rst:82
 msgid "Paste :kbd:`Ctrl + V`"
@@ -271,7 +310,7 @@ msgstr "Enganxa :kbd:`Ctrl + V`"
 
 #: ../../reference_manual/tools/text.rst:83
 msgid "Paste text from the clipboard."
-msgstr ""
+msgstr "Enganxa el text des del porta-retalls."
 
 #: ../../reference_manual/tools/text.rst:84
 msgid "Select all :kbd:`Ctrl + A`"
@@ -279,7 +318,7 @@ msgstr "Selecciona-ho tot :kbd:`Ctrl + A`"
 
 #: ../../reference_manual/tools/text.rst:85
 msgid "Select all text in the active editor."
-msgstr ""
+msgstr "Selecciona tot el text a l'editor actiu."
 
 #: ../../reference_manual/tools/text.rst:86
 msgid "Deselect :kbd:`Ctrl + Shift + A`"
@@ -287,7 +326,7 @@ msgstr "Desselecciona :kbd:`Ctrl + Majús. + A`"
 
 #: ../../reference_manual/tools/text.rst:87
 msgid "Deselect any selected text."
-msgstr ""
+msgstr "Desselecciona qualsevol text seleccionat."
 
 #: ../../reference_manual/tools/text.rst:88
 msgid "Find :kbd:`Ctrl + F`"
@@ -297,6 +336,8 @@ msgstr "Troba :kbd:`Ctrl + F`"
 msgid ""
 "Pops up a window with an input to find the given text in the active editor."
 msgstr ""
+"Apareix una finestra amb una entrada per a trobar el text indicat a l'editor "
+"actiu."
 
 #: ../../reference_manual/tools/text.rst:90
 msgid "Find Next :kbd:`F3`"
@@ -304,7 +345,7 @@ msgstr "Troba el següent :kbd:`F3`"
 
 #: ../../reference_manual/tools/text.rst:91
 msgid "Searches for the next text using the last search key."
-msgstr ""
+msgstr "Cerca la següent ocurrència del text emprant la darrera clau de cerca."
 
 #: ../../reference_manual/tools/text.rst:92
 msgid "Find Previous :kbd:`Shift + F3`"
@@ -312,7 +353,7 @@ msgstr "Troba l'anterior :kbd:`Majús. + F3`"
 
 #: ../../reference_manual/tools/text.rst:93
 msgid "Searches for the last text using the last search key."
-msgstr ""
+msgstr "Cerca l'anterior ocurrència del text emprant la darrera clau de cerca."
 
 #: ../../reference_manual/tools/text.rst:95
 msgid "Edit"
@@ -327,6 +368,9 @@ msgid ""
 "Pops up a dialog with two inputs: The string you wish to find, and the "
 "string you wish to replace it with. Will always replace ALL found instances."
 msgstr ""
+"Obre un diàleg amb dues entrades: la cadena que voleu trobar i la cadena amb "
+"la qual la voleu substituir. Sempre substituirà TOTES les instàncies "
+"trobades."
 
 #: ../../reference_manual/tools/text.rst:97
 msgid "View"
@@ -338,7 +382,7 @@ msgstr "Allunya :kbd:`Ctrl + -`"
 
 #: ../../reference_manual/tools/text.rst:100
 msgid "Zoom out the text."
-msgstr ""
+msgstr "Allunya el text."
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom In :kbd:`Ctrl + +`"
@@ -346,7 +390,7 @@ msgstr "Apropa :kbd:`Ctrl + +`"
 
 #: ../../reference_manual/tools/text.rst:102
 msgid "Zoom in the text."
-msgstr ""
+msgstr "Amplia el text."
 
 #: ../../reference_manual/tools/text.rst:104
 msgid "Insert"
@@ -361,6 +405,8 @@ msgid ""
 "Pops up a dialog that allows you to search for special characters that are "
 "difficult to type in with your keyboard."
 msgstr ""
+"Obre un diàleg que permet cercar caràcters especials que són difícils "
+"d'escriure amb el vostre teclat."
 
 #: ../../reference_manual/tools/text.rst:109
 msgid "Format"
@@ -372,7 +418,7 @@ msgstr "Negreta :kbd:`Ctrl + B`"
 
 #: ../../reference_manual/tools/text.rst:112
 msgid "Set the font-weight to **bold**."
-msgstr ""
+msgstr "Estableix el tipus de lletra a **negreta**."
 
 #: ../../reference_manual/tools/text.rst:113
 msgid "Italic :kbd:`Ctrl + I`"
@@ -380,7 +426,7 @@ msgstr "Cursiva :kbd:`Ctrl + I`"
 
 #: ../../reference_manual/tools/text.rst:114
 msgid "Sets the selected text *italic*."
-msgstr ""
+msgstr "Estableix el tipus de lletra a *cursiva*."
 
 #: ../../reference_manual/tools/text.rst:115
 msgid "Underline :kbd:`Ctrl + U`"
@@ -388,15 +434,15 @@ msgstr "Subratllat :kbd:`Ctrl + U`"
 
 #: ../../reference_manual/tools/text.rst:116
 msgid "Underline the selected text."
-msgstr ""
+msgstr "Subratlla el text seleccionat."
 
 #: ../../reference_manual/tools/text.rst:117
 msgid "Strike-Through"
-msgstr ""
+msgstr "Ratllat"
 
 #: ../../reference_manual/tools/text.rst:118
 msgid "Adds a strike-through text decoration."
-msgstr ""
+msgstr "Afegeix una decoració de text ratllat."
 
 #: ../../reference_manual/tools/text.rst:119
 msgid "Superscript :kbd:`Ctrl + Shift + P`"
@@ -404,7 +450,7 @@ msgstr "Superscript :kbd:`Ctrl + Majús. + P`"
 
 #: ../../reference_manual/tools/text.rst:120
 msgid "Sets the text to super-script baseline."
-msgstr ""
+msgstr "Estableix el text a la línia base de superscript."
 
 #: ../../reference_manual/tools/text.rst:121
 msgid "Subscript :kbd:`Ctrl + Shift + B`"
@@ -412,7 +458,7 @@ msgstr "Subscript :kbd:`Ctrl + Majús. + B`"
 
 #: ../../reference_manual/tools/text.rst:122
 msgid "Sets the text to subscript baseline."
-msgstr ""
+msgstr "Estableix el text a la línia base de subscript."
 
 #: ../../reference_manual/tools/text.rst:123
 msgid "Weight"
@@ -423,6 +469,8 @@ msgid ""
 "Sets the font weight a little more specifically. Possibilities are... Light, "
 "Normal, Bold, and Black."
 msgstr ""
+"Estableix el pes del tipus de lletra una mica més específicament. Les "
+"possibilitats són... Fi, Normal, Negreta i Negra."
 
 #: ../../reference_manual/tools/text.rst:125
 msgid "Align Left"
@@ -430,7 +478,7 @@ msgstr "Alinea a l'esquerra"
 
 #: ../../reference_manual/tools/text.rst:126
 msgid "Align the selected paragraph to the left."
-msgstr ""
+msgstr "Alinea el paràgraf seleccionat a l'esquerra."
 
 #: ../../reference_manual/tools/text.rst:127
 msgid "Align Center :kbd:`Ctrl + Alt + C`"
@@ -438,7 +486,7 @@ msgstr "Alinea al centre :kbd:`Ctrl + Alt + C`"
 
 #: ../../reference_manual/tools/text.rst:128
 msgid "Center the selected paragraph."
-msgstr ""
+msgstr "Centra el paràgraf seleccionat."
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align Right :kbd:`Ctrl + Alt + R`"
@@ -446,7 +494,7 @@ msgstr "Alinea a la dreta :kbd:`Ctrl + Alt + R`"
 
 #: ../../reference_manual/tools/text.rst:130
 msgid "Align the selected paragraph to the right."
-msgstr ""
+msgstr "Alinea el paràgraf seleccionat a la dreta."
 
 #: ../../reference_manual/tools/text.rst:132
 msgid "Settings"
@@ -458,7 +506,7 @@ msgstr "Ajustaments..."
 
 #: ../../reference_manual/tools/text.rst:135
 msgid "Calls up the text-editor settings dialog."
-msgstr ""
+msgstr "Obre el diàleg de configuració per a l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:138
 msgid "Text Editor Settings"
@@ -466,7 +514,7 @@ msgstr "Ajustaments per a l'editor de text"
 
 #: ../../reference_manual/tools/text.rst:140
 msgid "The settings that can be configured for the text editor."
-msgstr ""
+msgstr "Els ajustaments que es poden configurar per a l'editor de text."
 
 #: ../../reference_manual/tools/text.rst:142
 msgid "Editor Mode"
@@ -477,10 +525,13 @@ msgid ""
 "Whether you want both the Rich Text Editor and the SVG Source Editor, or "
 "only one of either."
 msgstr ""
+"Tant si voleu configurar l'editor de text enriquit com l'editor del codi font "
+"de SVG, o només un dels dos."
 
 #: ../../reference_manual/tools/text.rst:145
 msgid "Here you can configure the syntax highlighting for the SVG source."
 msgstr ""
+"Aquí podreu configurar el ressaltat de la sintaxi per al codi font de SVG."
 
 #: ../../reference_manual/tools/text.rst:147
 msgid "Keyword"
@@ -488,7 +539,7 @@ msgstr "Paraula clau"
 
 #: ../../reference_manual/tools/text.rst:148
 msgid "These highlights important characters like <, /, and >"
-msgstr ""
+msgstr "Ressaltarà els caràcters importants com «<», «/» i «>»."
 
 #: ../../reference_manual/tools/text.rst:149
 msgid "Element"
@@ -499,6 +550,8 @@ msgid ""
 "The format for highlighting the element tag name. **text** and **tspan** are "
 "examples of element names."
 msgstr ""
+"El format per a ressaltar el nom de l'etiqueta de l'element. **text** i "
+"**tspan** són exemples de noms d'element."
 
 #: ../../reference_manual/tools/text.rst:151
 msgid "Attribute"
@@ -509,6 +562,9 @@ msgid ""
 "The format for highlighting the attributes of the tag. For example, font-"
 "family, when it isn't in the style tag is usually written as an attribute."
 msgstr ""
+"El format per a ressaltar els atributs de l'etiqueta. Per exemple, la família "
+"del tipus de lletra, quan no està en l'etiqueta d'estil generalment "
+"s'escriurà com un atribut."
 
 #: ../../reference_manual/tools/text.rst:153
 msgid "Value"
@@ -516,17 +572,21 @@ msgstr "Valor"
 
 #: ../../reference_manual/tools/text.rst:154
 msgid "The format for highlighting value of attributes."
-msgstr ""
+msgstr "El format per a ressaltar el valor dels atributs."
 
 #: ../../reference_manual/tools/text.rst:155
 msgid "Comment"
 msgstr "Comentari"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/text.rst:156
 msgid ""
 "This highlights xml comments, which are written as following: ``<!-- This is "
 "an xml comment -->``. Comments are pieces of text that never get interpreted."
 msgstr ""
+"Ressalta els comentaris de XML, els qual s'escriuen de la següent manera: "
+"``<!-- Això és un comentari al XML -->``. Els comentaris són peces de text "
+"que no s'interpretaran mai."
 
 #: ../../reference_manual/tools/text.rst:157
 msgid "Editor Text Color"
@@ -534,7 +594,7 @@ msgstr "Editor del color de text"
 
 #: ../../reference_manual/tools/text.rst:158
 msgid "The main color of the editor."
-msgstr ""
+msgstr "El color principal de l'editor."
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Colors"
@@ -542,11 +602,11 @@ msgstr "Colors"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "Editor background color"
-msgstr ""
+msgstr "Editor del color de fons"
 
 #: ../../reference_manual/tools/text.rst:160
 msgid "The main background color of the editor."
-msgstr ""
+msgstr "El color de fons principal de l'editor."
 
 #: ../../reference_manual/tools/text.rst:163
 msgid "Fonts"
@@ -560,10 +620,15 @@ msgid ""
 "writing systems which you use yourself, and the font drop-down will only "
 "show fonts that have full support for that language."
 msgstr ""
+"Permet filtrar la selecció del tipus de lletra a l'editor. Alguns sistemes "
+"tenen molts tipus de lletra específicament per a mostrar correctament els "
+"idiomes estrangers, però podrien no ser-vos d'utilitat. Simplement marqueu "
+"els sistemes d'escriptura que empreu, i la llista desplegable dels tipus de "
+"lletra només mostrarà les que tinguin suport complet per a aquest idioma."
 
 #: ../../reference_manual/tools/text.rst:166
 msgid "Fine typographic control with the SVG Source tab"
-msgstr ""
+msgstr "Control tipogràfic fi amb la pestanya Codi font de SVG"
 
 #: ../../reference_manual/tools/text.rst:168
 msgid ""
@@ -573,17 +638,26 @@ msgid ""
 "either :guilabel:`SVG Source` or :guilabel:`Both`. The Rich Text editor will "
 "lose some information, so if you go all out, use :guilabel:`SVG Source`."
 msgstr ""
+"Per tant, l'editor de text enriquit no pot controlar totes la funcionalitat "
+"que permet el text SVG. Per això, caldrà que toqueu directament el codi font "
+"SVG. Però, per a fer això, primer haureu d'anar als ajustaments per a "
+"l'editor de text i habilitar :guilabel:`Codi font de SVG` o :guilabel:"
+"`Ambdós`. L'editor de text enriquit perdrà una mica d'informació, de manera "
+"que si fareu tot el que es pugui, utilitzeu :guilabel:`Codi font de SVG`."
 
 #: ../../reference_manual/tools/text.rst:171
 msgid "Word-spacing, Letter-spacing and Kerning"
-msgstr ""
+msgstr "Espaiat entre les paraules, espaiat entre les lletres i acoblaments"
 
 #: ../../reference_manual/tools/text.rst:173
 msgid ""
 "These three are written and read from the rich text tab, but have no sliders "
 "associated with them, because there was no time."
 msgstr ""
+"Aquests tres estan escrits i llegits des de la pestanya de text enriquit, "
+"però no tenen controls lliscants associats, perquè no hi havia temps."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/text.rst:176
 msgid ""
 "`Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty>`_ "
@@ -591,6 +665,11 @@ msgid ""
 "the auto property for this, which means it is on. To turn it off use "
 "kerning:0 in the style section of the text."
 msgstr ""
+"`Acoblaments, al SVG 1.1 <https://www.w3.org/TR/SVG/text.html#Kerning"
+"Property>`_ es comporta de forma lleugerament diferent de l'acoblament del "
+"tipus de lletra al CSS. El Krita utilitza de manera predeterminada la "
+"propietat automàtica per això, el qual vol dir que està activada. Per a "
+"desactivar-la, empreu «kerning:0» a la secció estil del text."
 
 #: ../../reference_manual/tools/text.rst:183
 msgid ""
@@ -599,22 +678,31 @@ msgid ""
 "    <tspan>No Kerning on Valhalla Tower.</tspan>\n"
 "</text>"
 msgstr ""
+"<text style=\"kerning:0; font-family:Dancing Script; font-size:18pt; font-"
+"size-adjust:0.265625\">\n"
+"    <tspan>Sense acoblaments a la torre de Valhalla.</tspan>\n"
+"</text>"
 
 #: ../../reference_manual/tools/text.rst:185
 msgid "Kerning"
-msgstr ""
+msgstr "Acoblaments (Kerning)"
 
 #: ../../reference_manual/tools/text.rst:187
 msgid "Letter-spacing"
-msgstr "Espaiat de les lletres"
+msgstr "Espaiat entre les lletres"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/text.rst:188
 msgid ""
 "This is the distance between letters in pts, usually. Just write ``letter-"
 "spacing`` in the style and add a distance in pts behind it. A negative value "
 "will decrease the value between letters."
 msgstr ""
+"Aquesta és la distància en «pts» entre les lletres, en general. Només "
+"escriviu ``letter-spacing`` a l'estil i afegiu-hi una distància en «pts» al "
+"darrere seu. Un valor negatiu farà disminuir el valor entre les lletres."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/text.rst:190
 msgid ""
 "This is the extra distance between words, defaulting to pts. By default, "
@@ -622,6 +710,10 @@ msgid ""
 "for that font. A negative value will decrease the amount of space between "
 "words:"
 msgstr ""
+"Aquesta és la distància addicional entre les paraules, de manera "
+"predeterminada a «pts». Per defecte, ``word-spacing: 0;`` haurà d'utilitzar "
+"només l'amplada del caràcter d'espai per a aquest tipus de lletra. Un valor "
+"negatiu farà disminuir la quantitat d'espai entre les paraules:"
 
 #: ../../reference_manual/tools/text.rst:197
 msgid ""
@@ -638,14 +730,30 @@ msgid ""
 "tspan>\n"
 "</text>"
 msgstr ""
+"<text style=\"font-family:Noto Serif; font-size:12pt; font-size-"
+"adjust:0.389915; text-anchor:middle\">\n"
+"    <tspan>Sense ajustament.</tspan>\n"
+"    <tspan style=\"letter-spacing:2\" x=\"0\" dy=\"22pt\">Espaiat de les"
+" lletres: 2</"
+"tspan>\n"
+"    <tspan style=\"letter-spacing:-2\" x=\"0\" dy=\"22pt\">Espaiat de les"
+" lletres: "
+"-2</tspan>\n"
+"    <tspan style=\"word-spacing:5\" x=\"0\" dy=\"22pt\">Espaiat de les"
+" lletres: 5</"
+"tspan>\n"
+"    <tspan style=\"word-spacing:-5\" x=\"0\" dy=\"22pt\">Espaiat de les"
+" lletres: -5</"
+"tspan>\n"
+"</text>"
 
 #: ../../reference_manual/tools/text.rst:204
 msgid "Word-spacing"
-msgstr "Espaiat de les paraules"
+msgstr "Espaiat entre les paraules"
 
 #: ../../reference_manual/tools/text.rst:207
 msgid "x, y, dx, dy"
-msgstr "x, y, dx, dy"
+msgstr "«x i y», «dx i dy»"
 
 #: ../../reference_manual/tools/text.rst:209
 msgid ""
@@ -654,10 +762,15 @@ msgid ""
 "editor, because the rich text editor uses these to figure out if a line is a "
 "new-line and thus writes to these."
 msgstr ""
+"Aquests són controls fins i tot més específics que es poden utilitzar per "
+"inserir text. No obstant això, NO ES POT convertir de manera fiable al "
+"format de l'editor de text enriquit, perquè l'editor de text enriquit els "
+"utilitza per esbrinar si una línia és una línia nova i, per tant, hi escriu "
+"a sobre."
 
 #: ../../reference_manual/tools/text.rst:211
 msgid "X and Y"
-msgstr "X i Y"
+msgstr "«X» i «Y»"
 
 #: ../../reference_manual/tools/text.rst:212
 msgid ""
@@ -665,36 +778,46 @@ msgid ""
 "coordinates of the text from the editor, these get added to the position "
 "when they show up in a tspan."
 msgstr ""
+"«X» i «Y» són coordenades absolutes. Però com que no podreu canviar les "
+"coordenades absolutes del text des de l'editor, aquestes s'afegeixen a la "
+"posició quan es mostren en un «tspan»."
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "dx and dy"
-msgstr "dx i dy"
+msgstr "«dx» i «dy»"
 
 #: ../../reference_manual/tools/text.rst:214
 msgid "These are relative coordinates to the position of the previous letter."
 msgstr ""
+"Aquestes són les coordenades relatives a la posició de la lletra anterior."
 
 #: ../../reference_manual/tools/text.rst:217
 msgid "Font-stretch and Small-caps"
-msgstr ""
+msgstr "Estirar el tipus lletra i majúscules petites"
 
 #: ../../reference_manual/tools/text.rst:219
 msgid ""
 "These can also be stored and written to the rich text tab's internal format, "
 "but they don't get used in the on screen text object."
 msgstr ""
+"També es poden emmagatzemar i escriure en el format intern de la pestanya de "
+"text enriquit, però no s'utilitzaran en l'objecte de text a la pantalla."
 
 #: ../../reference_manual/tools/text.rst:222
 msgid ""
 "Dominant Baseline, Alignment baseline, Font-size-adjust, Writing mode, Glyph-"
 "orientation, rotate"
 msgstr ""
+"Línia de base dominant, línia de base d'alineació, ajust de la mida del tipus "
+"de lletra, mode d'escriptura, orientació del glif, girar"
 
 #: ../../reference_manual/tools/text.rst:224
 msgid ""
 "These are not stored in the rich text right now, and while they can be "
 "written into the SVG text, the SVG text-shape doesn't do anything with them."
 msgstr ""
+"Ara mateix no s'emmagatzemen en el text enriquit, i si bé es poden escriure "
+"en el text SVG, la forma del text SVG no en fa res."
 
 #: ../../reference_manual/tools/text.rst:226
 msgid ""
@@ -702,3 +825,6 @@ msgid ""
 "this can help designers when they want to use the SVG source as a basis for "
 "later adjustments."
 msgstr ""
+"El Krita generarà l'ajust per a la mida del tipus de lletra per al tipus de "
+"lletra quan prové de text enriquit, ja que això pot ajudar els dissenyadors "
+"a utilitzar el codi font de SVG com a base per a ajustos posteriors."

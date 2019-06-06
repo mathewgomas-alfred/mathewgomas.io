@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-26 01:37+0200\n"
+"PO-Revision-Date: 2019-06-05 19:07+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -80,24 +80,32 @@ msgid ""
 "number will select colors closer to the color that you chose in the first "
 "place."
 msgstr ""
+"Aquesta eina està representada per un comptagotes sobre una zona amb una vora "
+"discontínua, permet fer :ref:`selections_basics` seleccionant un punt de "
+"color. Haureu de seleccionar qualsevol àrea d'un color similar al que heu "
+"seleccionat. Podreu ajustar la «borrositat» de l'eina a l'acoblador Opcions "
+"de l'eina. Un número més baix seleccionarà els colors més propers al color "
+"que heu triar en primer lloc."
 
 #: ../../reference_manual/tools/similar_select.rst:23
 msgid "Hotkeys and Sticky keys"
-msgstr "Tecles ràpides i apegaloses"
+msgstr "Dreceres i tecles apegaloses"
 
 #: ../../reference_manual/tools/similar_select.rst:25
 msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
 msgstr ""
+":kbd:`R` estableix la selecció a «Substitueix» a les Opcions de l'eina, és "
+"el mode predeterminat."
 
 #: ../../reference_manual/tools/similar_select.rst:26
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
-msgstr ""
+msgstr ":kbd:`A` estableix la selecció a «Afegeix» a les Opcions de l'eina."
 
 #: ../../reference_manual/tools/similar_select.rst:27
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
-msgstr ""
+msgstr ":kbd:`S` estableix la selecció a «Sostreu» a les Opcions de l'eina."
 
 #: ../../reference_manual/tools/similar_select.rst:28
 msgid ""
@@ -105,36 +113,48 @@ msgid ""
 "release the :kbd:`Shift` key while dragging, but it will still be set to "
 "'add'. Same for the others."
 msgstr ""
+":kbd:`Majús. + feu` |mouseleft| estableix la selecció subsegüent a "
+"«Afegeix». Podeu alliberar la tecla :kbd:`Majús.` mentre s'arrossega, però "
+"encara serà establerta a «Afegeix». El mateix per a les altres."
 
 #: ../../reference_manual/tools/similar_select.rst:29
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
 msgstr ""
+":kbd:`Alt + feu` |mouseleft| estableix la selecció subsegüent a «Sostreu»."
 
 #: ../../reference_manual/tools/similar_select.rst:30
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
+":kbd:`Ctrl + feu` |mouseleft| estableix la selecció subsegüent a "
+"«Substitueix»."
 
 #: ../../reference_manual/tools/similar_select.rst:31
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
 msgstr ""
+":kbd:`Majús. + Alt + feu` |mouseleft| estableix la selecció subsegüent a "
+"«Interseca»."
 
 #: ../../reference_manual/tools/similar_select.rst:35
 msgid "Hovering over a selection allows you to move it."
-msgstr ""
+msgstr "Passar el cursor sobre una selecció permet moure-la."
 
 #: ../../reference_manual/tools/similar_select.rst:36
 msgid ""
 "|mouseright| will open up a selection quick menu with amongst others the "
 "ability to edit the selection."
 msgstr ""
+"Fer |mouseright| obrirà un menú ràpid de selecció amb la possibilitat "
+"d'editar la selecció, entre d'altres."
 
 #: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead "
 "by toggling the switch in the :ref:`general_settings`"
 msgstr ""
+"Podeu canviar el comportament de la tecla :kbd:`Alt` per utilitzar :kbd:"
+"`Ctrl` en lloc d'alternar el canvi als :ref:`general_settings`."
 
 #: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
@@ -145,3 +165,4 @@ msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."
 msgstr ""
+"Controla si la selecció contigua veurà o no un altre color com una vora."

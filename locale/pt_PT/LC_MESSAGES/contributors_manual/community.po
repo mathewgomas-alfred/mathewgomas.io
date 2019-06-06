@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-20 01:06+0100\n"
+"POT-Creation-Date: 2019-06-05 03:24+0200\n"
+"PO-Revision-Date: 2019-06-05 11:08+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-POFile-SpellExtra: Github Ben Mastodon Pepper Bugzilla Wong Wolthera\n"
 "X-POFile-SpellExtra: Dmitry Revoy disruptivo Alvin UX Phabricator Krita\n"
 "X-POFile-SpellExtra: scottyp Twitter deevad Tumblr windragon Carrot\n"
-"X-POFile-SpellExtra: Petrovic Chat Deventer Boudewijn ref\n"
+"X-POFile-SpellExtra: Petrovic Chat Deventer Boudewijn ref Gitlab\n"
 
 #: ../../contributors_manual/community.rst:1
 msgid "Guide to the Krita community"
@@ -57,7 +57,7 @@ msgid "The mailing list"
 msgstr "A lista de correio"
 
 #: ../../contributors_manual/community.rst:22
-#: ../../contributors_manual/community.rst:73
+#: ../../contributors_manual/community.rst:86
 msgid "Phabricator"
 msgstr "Phabricator"
 
@@ -285,11 +285,49 @@ msgstr ""
 "foi iniciado o projecto Krita. Questões legais (surpresa!) conduziram a duas "
 "mudanças de nome, uma para Krayon e outra para Krita."
 
+#: ../../contributors_manual/community.rst:73
+msgid "Gitlab (KDE Invent)"
+msgstr "fiabilidade "
+
 #: ../../contributors_manual/community.rst:75
+msgid "Gitlab serves the following purposes for the Krita team:"
+msgstr "O Gitlab serve os seguintes propósitos para a equipa do Krita:"
+
+#: ../../contributors_manual/community.rst:77
+msgid ""
+"Review volunteers' submissions: https://invent.kde.org/kde/krita/"
+"merge_requests for the code itself, https://invent.kde.org/websites/docs-"
+"krita-org/merge_requests for the content of the Krita Manual."
+msgstr "Rever os envios dos voluntários: https://invent.kde.org/kde/krita/merge_requests para o código em si, https://invent.kde.org/websites/docs-krita-org/merge_requests para o conteúdo do Manual do Krita."
+
+#: ../../contributors_manual/community.rst:78
+msgid ""
+"Host the code git repository: https://invent.kde.org/kde/krita . Note that "
+"while there are mirrors of our git repository on Github and Phabricator, we "
+"do not use them for Krita development."
+msgstr "Alojar o repositório do Git: https://invent.kde.org/kde/krita/. Lembre-se que, embora exista uma réplica do nosso repositório do Git no Github, o mesmo não é usado para o desenvolvimento do Krita."
+
+#: ../../contributors_manual/community.rst:79
+msgid ""
+"Host the Krita Manual content repository: https://invent.kde.org/websites/"
+"docs-krita-org"
+msgstr "Alojar o repositório do conteúdo do Manual do Krita: https://invent.kde.org/websites/docs-krita-org"
+
+#: ../../contributors_manual/community.rst:81
+msgid "**Do not** make new issues on Gitlab or use it to make bug reports."
+msgstr "**Não** crie novos problemas no Gitlab ou o use para criar relatórios de erros."
+
+#: ../../contributors_manual/community.rst:83
+msgid ""
+"**Do** put all your code submissions (merge requests) on Gitlab. **Do not** "
+"attach patches to bugs in the bug tracker."
+msgstr "**Coloque** todas as suas alterações de código (pedidos de reunião) no Gitlab. **Não** anexe as modificações aos erros no sistema de gestão de erros."
+
+#: ../../contributors_manual/community.rst:88
 msgid "Phabricator serves the following purposes for the Krita team:"
 msgstr "O Phabricator serve os seguintes propósitos para a equipa do Krita:"
 
-#: ../../contributors_manual/community.rst:77
+#: ../../contributors_manual/community.rst:90
 msgid ""
 "Track what we are working on: https://phabricator.kde.org/maniphest/ This "
 "includes development tasks, designing new features and UX design, as well as "
@@ -299,21 +337,7 @@ msgstr ""
 "inclui as tarefas de desenvolvimento, o desenho de novas funcionalidades e "
 "desenho da interface, assim como tarefas relacionadas com a página Web."
 
-#: ../../contributors_manual/community.rst:78
-msgid "Review code submissions: https://phabricator.kde.org/differential/"
-msgstr "Rever os envios de código: https://phabricator.kde.org/differential/"
-
-#: ../../contributors_manual/community.rst:79
-msgid ""
-"Host the git repository: https://phabricator.kde.org/source/krita/ . Note "
-"that while there is a mirror of our git repository on Github, we do not use "
-"Github for Krita’s development."
-msgstr ""
-"Alojar o repositório do Git: https://phabricator.kde.org/source/krita/. "
-"Lembre-se que, embora exista uma réplica do nosso repositório do Git no "
-"Github, o mesmo não é usado para o desenvolvimento do Krita."
-
-#: ../../contributors_manual/community.rst:81
+#: ../../contributors_manual/community.rst:92
 msgid ""
 "**Do not** report bugs as tasks on Phabricator. Phabricator is where we "
 "organize our work."
@@ -321,20 +345,11 @@ msgstr ""
 "**Não** comunique erros como tarefas no Phabricator. O Phabricator é onde "
 "nós organizamos o nosso trabalho."
 
-#: ../../contributors_manual/community.rst:83
-msgid ""
-"**Do** put all your code submissions (patches) on Phabricator. **Do not** "
-"attach patches to bugs in the bug tracker."
-msgstr ""
-"**Coloque** todas as suas alterações de código (modificações) no "
-"Phabricator. **Não** anexe as modificações aos erros no sistema de gestão de "
-"erros."
-
-#: ../../contributors_manual/community.rst:86
+#: ../../contributors_manual/community.rst:95
 msgid "Bugzilla: the Bug Tracker"
 msgstr "Bugzilla: o Sistema de Registo de Erros"
 
-#: ../../contributors_manual/community.rst:88
+#: ../../contributors_manual/community.rst:97
 msgid ""
 "Krita shares the bug tracker with the rest of the KDE community. Krita bugs "
 "are found under the Krita product. There are two kinds of reports in the bug "
@@ -356,11 +371,11 @@ msgstr ""
 "<developing_features>` para saber o que é necessário para criar um novo "
 "pedido de funcionalidades."
 
-#: ../../contributors_manual/community.rst:91
+#: ../../contributors_manual/community.rst:100
 msgid "Sprints"
 msgstr "Etapas"
 
-#: ../../contributors_manual/community.rst:93
+#: ../../contributors_manual/community.rst:102
 msgid ""
 "Sometimes, core Krita developers and users come together, most often in "
 "Deventer, the Netherlands, to work together on our code design, UX design, "
@@ -374,3 +389,4 @@ msgstr ""
 "necessitar de contacto cara-a-cara. As viagens para esses 'sprints' "
 "normalmente é financiada pela KDE e.V., enquanto o alojamento é financiado "
 "pela Krita Foundation."
+

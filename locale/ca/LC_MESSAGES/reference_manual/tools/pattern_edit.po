@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:48+0200\n"
+"PO-Revision-Date: 2019-06-05 10:18+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -52,6 +52,8 @@ msgid ""
 "The pattern editing tool has been removed in 4.0, currently there's no way "
 "to edit pattern fills for vectors"
 msgstr ""
+"L'eina per a l'edició de patrons es va eliminar en la versió 4.0, actualment "
+"no hi ha manera d'editar emplena amb un patró per als vectors."
 
 #: ../../reference_manual/tools/pattern_edit.rst:24
 msgid ""
@@ -59,16 +61,21 @@ msgid ""
 "these shapes, the Pattern Editing Tool allows you to change the size, ratio "
 "and origin of a pattern."
 msgstr ""
+"L'eina per a l'edició de patrons funciona sobre les Formes vectorials que "
+"utilitzen Emplena amb un patró. En aquestes formes, l'eina d'edició de "
+"patrons li permet canviar la mida, la proporció i l'origen d'un patró."
 
 #: ../../reference_manual/tools/pattern_edit.rst:27
 msgid "On Canvas-editing"
-msgstr ""
+msgstr "Editar sobre el llenç"
 
 #: ../../reference_manual/tools/pattern_edit.rst:29
 msgid ""
 "You can change the origin by click dragging the upper node, this is only "
 "possible in Tiled mode."
 msgstr ""
+"Podeu canviar l'origen fent clic i arrossegant el node superior, això només "
+"és possible en el mode En mosaic."
 
 #: ../../reference_manual/tools/pattern_edit.rst:31
 msgid ""
@@ -76,6 +83,9 @@ msgid ""
 "no way to constrain the ratio in on-canvas editing, this is only possible in "
 "Original and Tiled mode."
 msgstr ""
+"Podeu canviar la mida i la proporció fent clic i arrossegant el node "
+"inferior. No hi ha manera de restringir la proporció en l'edició sobre el "
+"llenç, això només és possible en els modes Original i En mosaic."
 
 #: ../../reference_manual/tools/pattern_edit.rst:34
 msgid "Tool Options"
@@ -83,15 +93,15 @@ msgstr "Opcions de l'eina"
 
 #: ../../reference_manual/tools/pattern_edit.rst:36
 msgid "There are several tool options with this tool, for fine-tuning:"
-msgstr ""
+msgstr "Hi ha diverses Opcions de l'eina per a un ajust fi:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:38
 msgid "First there are the Pattern options."
-msgstr ""
+msgstr "Primer hi ha les opcions de Patró."
 
 #: ../../reference_manual/tools/pattern_edit.rst:41
 msgid "This can be set to"
-msgstr ""
+msgstr "Es pot establir a:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:43
 msgid "Original:"
@@ -99,15 +109,15 @@ msgstr "Original:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:44
 msgid "This will only show one, unstretched, copy of the pattern."
-msgstr ""
+msgstr "Només mostrarà una còpia del patró sense estirar."
 
 #: ../../reference_manual/tools/pattern_edit.rst:45
 msgid "Tiled (Default):"
-msgstr ""
+msgstr "En mosaic (predeterminat):"
 
 #: ../../reference_manual/tools/pattern_edit.rst:46
 msgid "This will let the pattern appear tiled in the x and y direction."
-msgstr ""
+msgstr "Permetrà que el patró aparegui en mosaic a les direccions «X» i «Y»."
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "Repeat:"
@@ -119,11 +129,11 @@ msgstr "Estira:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:48
 msgid "This will stretch the Pattern image to the shape."
-msgstr ""
+msgstr "Estirarà la imatge del Patró a la forma."
 
 #: ../../reference_manual/tools/pattern_edit.rst:51
 msgid "pattern origin. This can be set to"
-msgstr ""
+msgstr "Origen del patró. Es pot establir a:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:53
 msgid "Top-left"
@@ -147,7 +157,7 @@ msgstr "Centre"
 
 #: ../../reference_manual/tools/pattern_edit.rst:58
 msgid "Right"
-msgstr "Dret"
+msgstr "Dreta"
 
 #: ../../reference_manual/tools/pattern_edit.rst:59
 msgid "Bottom-left"
@@ -168,7 +178,7 @@ msgstr "Inferior dreta"
 
 #: ../../reference_manual/tools/pattern_edit.rst:64
 msgid "For extra tweaking, set in percentages."
-msgstr ""
+msgstr "Per ajustos addicionals, establir en percentatges."
 
 #: ../../reference_manual/tools/pattern_edit.rst:66
 msgid "X:"
@@ -176,7 +186,7 @@ msgstr "X:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:67
 msgid "offset in the X coordinate, so horizontally."
-msgstr ""
+msgstr "Desplaçament en la coordenada «X», de manera horitzontal."
 
 #: ../../reference_manual/tools/pattern_edit.rst:69
 msgid "Reference Point Offset:"
@@ -188,7 +198,7 @@ msgstr "Y:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:69
 msgid "offset in the Y coordinate, so vertically."
-msgstr ""
+msgstr "Desplaçament en la coordenada «Y», de manera vertical."
 
 #: ../../reference_manual/tools/pattern_edit.rst:71
 msgid "Tile Offset:"
@@ -196,11 +206,11 @@ msgstr "Desplaçament del mosaic:"
 
 #: ../../reference_manual/tools/pattern_edit.rst:72
 msgid "The tile offset if the pattern is tiled."
-msgstr ""
+msgstr "El desplaçament del mosaic si el patró està en mosaic."
 
 #: ../../reference_manual/tools/pattern_edit.rst:74
 msgid "Fine Tune the resizing of the pattern."
-msgstr ""
+msgstr "Ajustament fi del canvi de mida del patró."
 
 #: ../../reference_manual/tools/pattern_edit.rst:76
 msgid "W:"
@@ -227,3 +237,5 @@ msgid ""
 "And then there's :guilabel:`Patterns`, which is a mini pattern docker, and "
 "where you can pick the pattern used for the fill."
 msgstr ""
+"I després hi ha els :guilabel:`Patrons`, el qual és un acoblador de mini "
+"patrons, i on podreu seleccionar el patró utilitzat per a emplenar."

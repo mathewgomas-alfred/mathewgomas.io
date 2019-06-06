@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-27 20:26+0100\n"
+"PO-Revision-Date: 2019-06-05 20:47+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Output to color, not grayscale."
-msgstr ""
+msgstr "Utdata i färg, inte gråskala."
 
 #: ../../reference_manual/separate_image.rst:1
 msgid "The channel separation dialog in Krita"
-msgstr ""
+msgstr "Dialogrutan för kanalseparation i Krita"
 
 #: ../../reference_manual/separate_image.rst:10
 #: ../../reference_manual/separate_image.rst:15
@@ -32,7 +32,7 @@ msgstr "Separera bild"
 
 #: ../../reference_manual/separate_image.rst:10
 msgid "Channel Separation"
-msgstr ""
+msgstr "Kanalseparation"
 
 #: ../../reference_manual/separate_image.rst:17
 msgid ""
@@ -43,10 +43,16 @@ msgid ""
 "and Blue layers, each representing the pixels of that channel, and for CMYK, "
 "Cyan, Magenta, Yellow and Key layers."
 msgstr ""
+"Den separata bilddialogrutan låter dig separera kanalerna i en bild till"
+" lager. Det är användbart i arbetsflöden för spelstrukturer, samt mer"
+" avancerade CMYK-arbetsflöden. Vid bekräftelse skapar :guilabel:`Separera"
+" bild` en serie lager för varje kanal. För RGB skapar det lagren Röd, Grön"
+" och Blå, där vart och ett representerar den kanalens bildpunkter, och för"
+" CMYK lagren Turkos, Magenta,Gul och Svart."
 
 #: ../../reference_manual/separate_image.rst:20
 msgid "Which part of the image should be separated."
-msgstr ""
+msgstr "Vilken del av bilden som ska separeras."
 
 #: ../../reference_manual/separate_image.rst:22
 msgid "Current Layer"
@@ -54,7 +60,7 @@ msgstr "Aktuellt lager"
 
 #: ../../reference_manual/separate_image.rst:23
 msgid "The active layer."
-msgstr ""
+msgstr "Det aktiva lagret."
 
 #: ../../reference_manual/separate_image.rst:25
 msgid "Source"
@@ -66,23 +72,26 @@ msgstr "Platta ut alla lager innan separering."
 
 #: ../../reference_manual/separate_image.rst:25
 msgid "The total image."
-msgstr ""
+msgstr "Hela bilden."
 
 #: ../../reference_manual/separate_image.rst:28
 msgid ""
 "What to do with the alpha channel. All Krita images have an alpha channel, "
 "which is the transparency. How should it be handled when separating?"
 msgstr ""
+"Vad man ska göra med alfakanalen. Alla Krita-bilder har en alfakanal, som är"
+" genomskinligheten. Hur ska den hanteras när man separerar?"
 
 #: ../../reference_manual/separate_image.rst:30
 msgid "Copy Alpha Channel to Each separate channel as an alpha channel."
-msgstr ""
+msgstr "Kopiera alfakanal till varje separerad kanal som en alfakanal."
 
 #: ../../reference_manual/separate_image.rst:31
 msgid ""
 "This adds the transparency of the original source to all the separation "
 "layers."
 msgstr ""
+"Det lägger till genomskinligheten i originalkällan till alla separationslager."
 
 #: ../../reference_manual/separate_image.rst:32
 msgid "Discard Alpha Channel"
@@ -90,7 +99,7 @@ msgstr "Kasta alfakanal"
 
 #: ../../reference_manual/separate_image.rst:33
 msgid "Just get rid of the alpha altogether."
-msgstr ""
+msgstr "Bli bara av med alfa helt och hållet."
 
 #: ../../reference_manual/separate_image.rst:35
 msgid "Alpha Options"
@@ -102,7 +111,7 @@ msgstr "Skapa egen separation från alfakanalen."
 
 #: ../../reference_manual/separate_image.rst:35
 msgid "Create a separate layer with the alpha channel as a grayscale layer."
-msgstr ""
+msgstr "Skapa ett separat lager med alfakanalen som ett gråskalelager."
 
 #: ../../reference_manual/separate_image.rst:37
 msgid "Downscale to 8bit before separating."
@@ -110,10 +119,14 @@ msgstr "..Skala ner till 8 bitar innan separering."
 
 #: ../../reference_manual/separate_image.rst:38
 msgid "Convert the image to 8bit before doing the separation."
-msgstr ""
+msgstr "Konvertera bilden till 8 bitar innan separationen utförs."
 
 #: ../../reference_manual/separate_image.rst:40
 msgid ""
 "This results in the Red separation using black to red instead of black to "
 "white. This can make it easier to recombine using certain methods."
 msgstr ""
+"Det resulterar i att separation av röd använder svart till röd istället för"
+" svart till vit. Det kan göra det enklare att återkombinera med användning av"
+" vissa metoder."
+

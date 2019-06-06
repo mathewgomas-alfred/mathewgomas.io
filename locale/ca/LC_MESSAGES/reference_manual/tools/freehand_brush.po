@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:10+0200\n"
+"PO-Revision-Date: 2019-06-05 11:38+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -56,6 +56,8 @@ msgid ""
 "The default tool you have selected on Krita start-up, and likely the tool "
 "that you will use the most."
 msgstr ""
+"L'eina predeterminada que vàreu seleccionar durant l'inici del Krita, i "
+"probablement l'eina que més emprareu."
 
 #: ../../reference_manual/tools/freehand_brush.rst:23
 msgid ""
@@ -64,14 +66,18 @@ msgid ""
 "tablet's input settings to control the brush-appearance. To switch the "
 "brush, make use of the brush-preset docker."
 msgstr ""
+"L'eina del pinzell a mà alçada permet pintar sobre les capes de pintura sense "
+"restriccions, com l'eina de línia recta. Fa un ús òptim dels ajustaments per "
+"a l'entrada de la tauleta, els quals controlen l'aparença del pinzell. Per a "
+"canviar el pinzell, utilitzeu l'acoblador Pinzells predefinits."
 
 #: ../../reference_manual/tools/freehand_brush.rst:27
 msgid "Hotkeys and Sticky keys"
-msgstr "Tecles ràpides i apegaloses"
+msgstr "Dreceres i tecles apegaloses"
 
 #: ../../reference_manual/tools/freehand_brush.rst:29
 msgid "The freehand brush tool's hotkey is :kbd:`B`."
-msgstr ""
+msgstr "La drecera per a l'eina del pinzell a mà alçada és la tecla :kbd:`B`."
 
 #: ../../reference_manual/tools/freehand_brush.rst:31
 msgid ""
@@ -80,6 +86,12 @@ msgid ""
 "or right click to pick fore and background color respectively. Release the :"
 "kbd:`Ctrl` to return to the freehand brush tool."
 msgstr ""
+"La invocació alternativa és el «selector de color» (invocat de manera "
+"estàndard per la tecla :kbd:`Ctrl`). Premeu la tecla :kbd:`Ctrl` per "
+"alternar l'eina al «selector de color», utilitzeu el clic esquerre o el clic "
+"dret per a seleccionar el color de primer pla i de fons respectivament. "
+"Deixeu anar la tecla :kbd:`Ctrl` per a tornar a l'eina del pinzell a mà "
+"alçada."
 
 #: ../../reference_manual/tools/freehand_brush.rst:32
 msgid ""
@@ -87,10 +99,16 @@ msgid ""
 "kbd:`Shift` and drag outward to increase brush size. Drag inward to decrease "
 "it."
 msgstr ""
+"L'ajustament principal és la «mida» (invocat normalment per la tecla "
+":kbd:`Majús.`). Premeu la tecla :kbd:`Majús.` i arrossegueu cap a fora per a "
+"fer augmentar la mida del pinzell. Arrossegueu cap a dins per a fer-la "
+"disminuir."
 
 #: ../../reference_manual/tools/freehand_brush.rst:33
 msgid "You can also press :kbd:`V` as a stickykey for the straight-line tool."
 msgstr ""
+"També podeu prémer la tecla :kbd:`V` com una tecla apegalosa per a l'eina de "
+"línia recta."
 
 #: ../../reference_manual/tools/freehand_brush.rst:35
 msgid ""
@@ -98,6 +116,10 @@ msgid ""
 "Configure Shortcuts`. The sticky-keys can be edited in :menuselection:"
 "`Settings --> Configure Krita --> Canvas Input Settings`."
 msgstr ""
+"Les dreceres es poden editar a :menuselection:`Arranjament --> Configura el "
+"Krita --> Configura les dreceres`. Les tecles apegaloses es poden editar a "
+":menuselection:`Arranjament --> Configura el Krita --> Ajustaments per a "
+"l'entrada del llenç`."
 
 #: ../../reference_manual/tools/freehand_brush.rst:39
 msgid "Tool Options"
@@ -118,7 +140,7 @@ msgstr "Sense suavitzat"
 
 #: ../../reference_manual/tools/freehand_brush.rst:41
 msgid "Weighted Smoothing"
-msgstr ""
+msgstr "Suavitzat ponderat"
 
 #: ../../reference_manual/tools/freehand_brush.rst:45
 msgid "Smoothing"
@@ -130,24 +152,31 @@ msgid ""
 "correct the stroke. Useful for people with shaky hands, or particularly "
 "difficult long lines."
 msgstr ""
+"El suavitzat, també conegut com estabilitzador en alguns programes, permet "
+"que el programa corregeixi el traç. Útil per a les persones amb mans "
+"tremoloses o línies llargues especialment difícils."
 
 #: ../../reference_manual/tools/freehand_brush.rst:49
 msgid "The following options can be selected:"
-msgstr ""
+msgstr "Es poden seleccionar les següents opcions:"
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/tools/freehand_brush.rst:51
 msgid "No Smoothing."
-msgstr "Sense suavitzat."
+msgstr "Sense suavitzat"
 
 #: ../../reference_manual/tools/freehand_brush.rst:52
 msgid ""
 "The input from the tablet translates directly to the screen. This is the "
 "fastest option, and good for fine details."
 msgstr ""
+"L'entrada de la tauleta es traduirà directament a la pantalla. Aquesta és "
+"l'opció més ràpida i bona per als detalls fins."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/tools/freehand_brush.rst:53
 msgid "Basic Smoothing."
-msgstr "Amb un suavitzat bàsic."
+msgstr "Amb un suavitzat bàsic"
 
 #: ../../reference_manual/tools/freehand_brush.rst:54
 msgid ""
@@ -155,12 +184,18 @@ msgid ""
 "3. If you experience slightly jagged lines without any smoothing on, this "
 "option will apply a very little bit of smoothing to get rid of those lines."
 msgstr ""
+"Aquesta opció suavitzarà l'entrada de les tauletes antigues com la Wacom "
+"Graphire 3. Si experimenteu línies lleugerament irregulars sense cap tipus "
+"de suavitzat, aquesta acció aplicarà una mica de suavitzat per a desfer-se "
+"d'aquestes línies."
 
 #: ../../reference_manual/tools/freehand_brush.rst:56
 msgid ""
 "This option allows you to use the following parameters to make the smoothing "
 "stronger or weaker:"
 msgstr ""
+"Aquesta opció permet utilitzar els següents paràmetres per a fer que el "
+"suavitzat sigui més fort o més feble:"
 
 #: ../../reference_manual/tools/freehand_brush.rst:58
 #: ../../reference_manual/tools/freehand_brush.rst:70
@@ -173,6 +208,9 @@ msgid ""
 "(Literally the amount of events received by the tablet before the first dab "
 "is drawn.)"
 msgstr ""
+"La distància que s'haurà de moure el pinzell abans de dibuixar el primer toc. "
+"(Literalment, la quantitat d'esdeveniments rebuts per la tauleta abans de "
+"dibuixar el primer toc)."
 
 #: ../../reference_manual/tools/freehand_brush.rst:60
 msgid "Stroke Ending"
@@ -184,6 +222,10 @@ msgid ""
 "position of the cursor after the left-mouse button/or stylus is lifted. Will "
 "currently always result in a straight line, so use with caution."
 msgstr ""
+"Controla quant la línia intentarà assolir l'última posició coneguda del "
+"cursor després d'aixecar el botó esquerre del ratolí o el llapis. Actualment "
+"sempre resultarà en una línia recta, de manera que utilitzeu-la amb "
+"precaució."
 
 #: ../../reference_manual/tools/freehand_brush.rst:62
 msgid "Smooth Pressure"
@@ -194,10 +236,13 @@ msgid ""
 "This will apply the smoothing on the pressure input as well, resulting in "
 "more averaged size for example."
 msgstr ""
+"Aplicarà també el suavitzat a l'entrada de la pressió, el qual resultarà en "
+"una mida més mitjana, per exemple."
 
+# skip-rule: punctuation-colon
 #: ../../reference_manual/tools/freehand_brush.rst:65
 msgid "Weighted smoothing:"
-msgstr ""
+msgstr "Amb un suavitzat ponderat"
 
 #: ../../reference_manual/tools/freehand_brush.rst:65
 #: ../../reference_manual/tools/freehand_brush.rst:79
@@ -210,6 +255,7 @@ msgid ""
 "This makes it so that the numbers involved will be scaled along the zoom "
 "level."
 msgstr ""
+"Farà que els números involucrats s'escalin al llarg del nivell de zoom."
 
 #: ../../reference_manual/tools/freehand_brush.rst:68
 msgid ""
@@ -218,10 +264,14 @@ msgid ""
 "draw a circle around your cursor and the line will be a bit behind your "
 "cursor while painting."
 msgstr ""
+"Aquesta opció fa una mitjana de totes les entrades de la tauleta. És diferent "
+"del suavitzat ponderat ja que permet completar sempre la línia. Dibuixarà un "
+"cercle al voltant del cursor i la línia restarà una mica al darrere del "
+"cursor mentre pinteu."
 
 #: ../../reference_manual/tools/freehand_brush.rst:71
 msgid "This is the strength of the smoothing."
-msgstr ""
+msgstr "Aquesta és la intensitat del suavitzat."
 
 #: ../../reference_manual/tools/freehand_brush.rst:72
 msgid "Delay"
@@ -232,14 +282,16 @@ msgid ""
 "This toggles and determines the size of the dead zone around the cursor. "
 "This can be used to create sharp corners with more control."
 msgstr ""
+"Alterna i determina la mida de la zona morta al voltant del cursor. Es pot "
+"utilitzar per a crear cantonades més definides amb més control."
 
 #: ../../reference_manual/tools/freehand_brush.rst:74
 msgid "Finish Line"
-msgstr "Línia final"
+msgstr "Final de la línia"
 
 #: ../../reference_manual/tools/freehand_brush.rst:75
 msgid "This ensures that the line will be finished."
-msgstr ""
+msgstr "Assegura que la línia serà acabada."
 
 #: ../../reference_manual/tools/freehand_brush.rst:76
 msgid "Stabilize sensors"
@@ -250,6 +302,8 @@ msgid ""
 "Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, "
 "speed, tilt) to be smoother."
 msgstr ""
+"Similar que la :guilabel:`Pressió del suavitzat`, permet que l'entrada "
+"(pressió, velocitat, inclinació) sigui més suau."
 
 #: ../../reference_manual/tools/freehand_brush.rst:81
 msgid "Painting Assistants"
@@ -265,6 +319,9 @@ msgid ""
 "toggle it is :kbd:`Ctrl + Shift + L`. See :ref:`painting_with_assistants` "
 "for more information."
 msgstr ""
+"En fer-hi clic, es podrà ajustar a l':ref:`assista*nt_tool`, i la drecera per "
+"alternar és :kbd:`Ctrl + Majús. + L`. Per obtenir més informació, vegeu "
+":ref:`painting_with_assistants`."
 
 #: ../../reference_manual/tools/freehand_brush.rst:88
 msgid ""
@@ -275,3 +332,9 @@ msgid ""
 "preventing noise. Unticking it allows you to chain assistants together and "
 "snap along them."
 msgstr ""
+"El control lliscant determinarà la quantitat d'ajust, sent 1000 l'ajust "
+"perfecte i 0 el sense ajust. Per a situacions en què hi hagi més d'un "
+"assistent en el llenç, l'opció :guilabel:`Ajust individual` marcada de "
+"manera predeterminada voldrà dir que el Krita només s'ajustarà a un sol "
+"assistent alhora, evitant el soroll. Desmarcar-la permetrà ajuntar-los i "
+"ajustar-los."

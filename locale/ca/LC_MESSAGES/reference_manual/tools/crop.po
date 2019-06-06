@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 00:52+0200\n"
+"PO-Revision-Date: 2019-06-05 15:38+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -48,6 +48,13 @@ msgid ""
 "to refine your crop. Press :kbd:`Enter` to finalize the crop action, or use "
 "the :guilabel:`Crop` button in the tool options docker."
 msgstr ""
+"L'eina per escapçar es pot utilitzar per escapçar una imatge o capa. Per "
+"començar, trieu l'eina :guilabel:`Escapça` i després feu clic una vegada per "
+"a seleccionar tot el llenç. En utilitzar aquest mètode, us assegurareu de no "
+"prendre inadvertidament fora del llenç visible com a part de l'escapçat. "
+"Després podreu utilitzar les opcions a continuació per a refinar el vostre "
+"escapçat. Premeu :kbd:`Retorn` per a finalitzar l'acció d'escapçat, o "
+"utilitzeu el botó :guilabel:`Escapça` a l'acoblador Opcions de l'eina."
 
 #: ../../reference_manual/tools/crop.rst:20
 msgid ""
@@ -56,6 +63,10 @@ msgid ""
 "within that area. There are several options which give a bit more "
 "flexibility and precision."
 msgstr ""
+"En la seva forma més bàsica, l'eina per escapçar permet ajustar la mida d'un "
+"rectangle al voltant d'una àrea i reduir la vostra imatge o capa a només el "
+"contingut que es troba dins d'aquesta àrea. Hi ha diverses opcions que donen "
+"una mica més de flexibilitat i precisió."
 
 #: ../../reference_manual/tools/crop.rst:22
 msgid ""
@@ -66,6 +77,13 @@ msgid ""
 "you to manipulate the other two without losing the position or ratio of the "
 "locked property."
 msgstr ""
+"Els dos números a l'esquerra són la posició horitzontal i vertical exacta de "
+"l'esquerra i la part superior del marc d'escapçar respectivament. Els "
+"números a la dreta són des de la part superior a inferior: amplada, alçada i "
+"relació d'aspecte. La selecció de les caselles de selecció mantindrà "
+"qualsevol d'aquests elements que es poden bloquejar per a permetre manipular "
+"els altres dos sense perdre la posició o la relació de la propietat "
+"bloquejada."
 
 #: ../../reference_manual/tools/crop.rst:24
 msgid "Center"
@@ -73,7 +91,7 @@ msgstr "Centre"
 
 #: ../../reference_manual/tools/crop.rst:25
 msgid "Keeps the crop area centered."
-msgstr ""
+msgstr "Manté centrada l'àrea d'escapçat."
 
 #: ../../reference_manual/tools/crop.rst:26
 msgid "Grow"
@@ -82,6 +100,7 @@ msgstr "Creix"
 #: ../../reference_manual/tools/crop.rst:27
 msgid "Allows the crop area to expand beyond the image boundaries."
 msgstr ""
+"Permet que l'àrea d'escapçat s'expandeixi més enllà dels límits de la imatge."
 
 #: ../../reference_manual/tools/crop.rst:28
 msgid "Applies to"
@@ -93,21 +112,29 @@ msgid ""
 "When you are ready, hit the :guilabel:`Crop` button and the crop will apply "
 "to your image."
 msgstr ""
+"Permet aplicar l'escapçat a tota la imatge o només la capa activa. Quan "
+"estigueu llest, premeu el botó :guilabel:`Escapça` i s'aplicarà l'escapçat a "
+"la vostra imatge."
 
 #: ../../reference_manual/tools/crop.rst:31
 msgid "Decoration"
 msgstr "Decoració"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/crop.rst:31
 msgid ""
 "Help you make a composition by showing you lines that divide up the screen. "
 "You can for example show thirds here, so you can crop your image according "
 "to the Rule of Thirds."
 msgstr ""
+"Ajuda a crear una composició mostrant les línies que divideixen la pantalla. "
+"Per exemple, aquí es podran mostrar els terços, de manera que podreu "
+"escapçar la imatge d'acord amb la `Regla dels terços <https://ca.wikipedia."
+"org/wiki/Regla_dels_terços>`_."
 
 #: ../../reference_manual/tools/crop.rst:34
 msgid "Continuous Crop"
-msgstr ""
+msgstr "Escapçat continu"
 
 #: ../../reference_manual/tools/crop.rst:36
 msgid ""
@@ -115,3 +142,7 @@ msgid ""
 "will attempt to recall the previous crop, so you can continue it. This is "
 "the *continuous crop*. You can press :kbd:`Esc` to cancel this and crop anew."
 msgstr ""
+"Si escapceu una imatge i intenteu començar-ne una de nova directament "
+"després, el Krita intentarà recuperar l'escapçat anterior, de manera que "
+"pugueu continuar. Aquest és l'*escapçat continu*. Podreu prémer la tecla "
+":kbd:`Esc` per a cancel·lar-ho i escapçar de nou."
