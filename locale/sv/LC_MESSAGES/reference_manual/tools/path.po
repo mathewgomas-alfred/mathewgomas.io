@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:41+0100\n"
+"PO-Revision-Date: 2019-06-06 16:34+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -42,22 +42,24 @@ msgid ""
 ".. image:: images/icons/bezier_curve.svg\n"
 "   :alt: toolbeziercurve"
 msgstr ""
+".. image:: images/icons/bezier_curve.svg\n"
+"   :alt: Bezierkurvverktyg"
 
 #: ../../reference_manual/tools/path.rst:1
 msgid "Krita's path tool reference."
-msgstr ""
+msgstr "Referens för Kritas konturverktyg."
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Tools"
-msgstr ""
+msgstr "Verktyg"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Vector"
-msgstr ""
+msgstr "Vektor"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Path"
-msgstr ""
+msgstr "Kontur"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Bezier Curve"
@@ -65,7 +67,7 @@ msgstr "Bezierkurva"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Pen"
-msgstr ""
+msgstr "Penna"
 
 #: ../../reference_manual/tools/path.rst:17
 msgid "Bezier Curve Tool"
@@ -73,7 +75,7 @@ msgstr "Bezierkurvverktyg"
 
 #: ../../reference_manual/tools/path.rst:19
 msgid "|toolbeziercurve|"
-msgstr ""
+msgstr "|toolbeziercurve|"
 
 #: ../../reference_manual/tools/path.rst:21
 msgid ""
@@ -81,6 +83,9 @@ msgid ""
 "the starting point of the curve, then click again for consecutive control "
 "points of the curve."
 msgstr ""
+"Man kan rita kurvor genom att använda verktyget. Klicka på vänster musknapp"
+" för att ange kurvans startpunkt, klicka sedan igen för kurvans efterföljande"
+" styrpunkter."
 
 #: ../../reference_manual/tools/path.rst:23
 msgid ""
@@ -88,6 +93,8 @@ msgid ""
 "control point. You can drag these handles to change the direction of the "
 "curve in that point."
 msgstr ""
+":program:`Krita` visar en blå linje med två grepp när en styrpunkt läggs"
+" till. Man kan dra greppen för att ändra kurvans riktning vid den punkten."
 
 #: ../../reference_manual/tools/path.rst:25
 msgid ""
@@ -98,6 +105,12 @@ msgid ""
 "directions. After editing a point, you can just click on the canvas to "
 "continue adding points to the curve."
 msgstr ""
+"På ett vektorlager kan man klicka på en tidigare infogas styrpunkt för att"
+" ändra den. Med en mellanliggande styrpunkt (dvs. en punkt som inte är"
+" startpunkten eller slutpunkten), kan riktningsgreppen flyttas separat för"
+" att få kurvan att komma till och lämna punkten i olika riktningar. Efter att"
+" en punkt har redigerats, kan man helt enkelt klicka på duken för att"
+" fortsättta lägga till punkter i kurvan."
 
 #: ../../reference_manual/tools/path.rst:27
 msgid ""
@@ -107,6 +120,12 @@ msgid ""
 "curve. You can use :kbd:`Ctrl` while keeping the |mouseleft| pressed to move "
 "the entire curve to a different position."
 msgstr ""
+"Genom att trycka på :kbd:`Delete` tas styrpunkten som för närvarande är"
+" markerad bort från kurvan. Dubbelklicka vänster musknapp på vilken punkt som"
+" helst på kurvan eller tryck på :kbd:`Enter` för att avsluta, eller tryck på"
+" :kbd:`Esc` för att avbryta hela kurvan. Man kan använda :kbd:`Ctrl` medan"
+" vänster musknapp hålls nere för att flytta hela kurvan till en annan"
+" position."
 
 #: ../../reference_manual/tools/path.rst:29
 msgid ""
@@ -115,6 +134,10 @@ msgid ""
 "make a handle while at the end of the curve. |mouseright| will undo the last "
 "added point."
 msgstr ""
+"Under tiden man ritar, flyttas greppen åt båda håll med :kbd:`Ctrl` när man"
+" drar. :kbd:`Alt` skapar ett skarpt hörn, och :kbd:`Skift` gör det möjligt"
+" att skapa ett grepp i slutet på kurvan. Ett klick med höger musknapp ångrar"
+" den senast tillagda punkten."
 
 #: ../../reference_manual/tools/path.rst:32
 msgid "Tool Options"
@@ -130,6 +153,9 @@ msgid ""
 "angles. Untoggle this if you want to create sharp angles for a node. This "
 "will not affect curve sharpness from dragging after clicking."
 msgstr ""
+"Aktivera det för att noder ska initieras med jämna kurvor istället för"
+" vinklar. Avmarkera det om du vill skapa skarpa vinklar för en nod. Det"
+" påverkar inte kurvans skarphet från dragning efter att ha klickat."
 
 #: ../../reference_manual/tools/path.rst:39
 msgid "Angle Snapping Delta"
@@ -137,7 +163,7 @@ msgstr "Vinkellåsningsdelta"
 
 #: ../../reference_manual/tools/path.rst:40
 msgid "The angle to snap to."
-msgstr ""
+msgstr "Vinkeln att låsa till."
 
 #: ../../reference_manual/tools/path.rst:42
 msgid ""
@@ -145,3 +171,6 @@ msgid ""
 "of the current. The angle is determined by the :guilabel:`Angle Snapping "
 "Delta`."
 msgstr ""
+"Vinkellåsning gör det enklare att få nästa linje att ha en specifik vinkel"
+" mot den nuvarande. Vinkeln bestäms av :guilabel:`Vinkellåsningsdelta`."
+

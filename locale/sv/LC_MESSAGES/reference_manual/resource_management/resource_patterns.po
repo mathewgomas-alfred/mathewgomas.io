@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:41+0100\n"
+"PO-Revision-Date: 2019-06-06 20:22+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -44,28 +44,31 @@ msgstr "Mönster"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:11
 msgid "Resources"
-msgstr ""
+msgstr "Resurser"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:21
 msgid ""
 "Patterns are small raster files that tile. They can be used as following:"
 msgstr ""
+"Mönster är små rasterfiler som läggs ut i rutor. De kan användas på följande"
+" sätt:"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:23
 msgid "As fill for a vector shape."
-msgstr ""
+msgstr "För att fylla i en vektorform."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:24
 msgid "As fill-tool color."
-msgstr ""
+msgstr "Som färg för fyllverktyget."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:25
 msgid "As height-map for a brush using the 'texture' functionality."
 msgstr ""
+"Som höjdavbildning för en pensel genom att använda 'strukturfunktionen'."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:26
 msgid "As fill for a generated layer."
-msgstr ""
+msgstr "För att fylla i ett genererat lager."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:29
 msgid "Adding new patterns"
@@ -79,6 +82,11 @@ msgid ""
 "`Delete resource` buttons. Select the former to add png or jpg files to the "
 "pattern list."
 msgstr ""
+"Man kan lägga till nya mönster via mönsterpanelen, eller menyn för"
+" snabbåtkomst av mönster i verktygsraden. Längst ner i panelen, under"
+" resursfiltrets inmatningsfält, finns knapparna :guilabel:`Importera resurs`"
+" och :guilabel:`Ta bort resurs`. Använd den föregående för att lägga till"
+" png- eller jpg-filer i mönsterlistan."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:34
 msgid ""
@@ -86,20 +94,25 @@ msgid ""
 "resource` button. Krita will not delete the actual file then, but rather "
 "black list it, and thus not load it."
 msgstr ""
+"På liknande sätt kan mönster tas bort genom att klicka på knappen"
+" :guilabel::`Ta bort resurs`. Krita tar då inte bort själva filen, utan"
+" svartlistar den istället, och läser därigenom inte in den."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:37
 msgid "Temporary patterns and generating patterns from the canvas"
-msgstr ""
+msgstr "Tillfälliga mönster och generera mönster från duken"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:39
 msgid ""
 "You can use the pattern drop-down to generate patterns from the canvas but "
 "also to make temporary ones."
 msgstr ""
+"Mönsterkombinationsrutan kan användas för att generera mönster från duken men"
+" också skapa tillfälliga."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:41
 msgid "First, draw a pattern and open the pattern drop-down."
-msgstr ""
+msgstr "RIta först ett mönster och öppna mönsterkombinationsrutan."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:46
 msgid ""
@@ -109,6 +122,11 @@ msgid ""
 "take into account the active selection as well when getting the information "
 "of the two."
 msgstr ""
+"Gå därefter till :guilabel:`egen` och klicka först på :guilabel:`Uppdatera`"
+" för att visa mönstret i panelen. Kontrollera att det är riktigt. Här går det"
+" också att välja om bara det här lagret används, eller hela bilden. Sedan"
+" 3.0.2 tar Krita också hänsyn till den aktiva markeringen när information om"
+" båda hämtas."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:51
 msgid ""
@@ -116,12 +134,17 @@ msgid ""
 "pattern, or :guilabel:`Add to predefined patterns` to save it into your "
 "pattern resources!"
 msgstr ""
+"Klicka sedan antingen på :guilabel:`Använd som mönster` för att använda det"
+" som ett tillfälligt mönster, eller :guilabel:`Lägg till i fördefinierade"
+" mönster` för att spara det i mönsterresurserna."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:53
 msgid ""
 "You can then start using it in Krita by for example making a canvas and "
 "doing :guilabel:`Edit --> Fill with Pattern`."
 msgstr ""
+"Man kan därefter börja använda det i Krita genom att exempelvis skapa en duk"
+" och använda :guilabel:`Redigera --> Fyll med mönster`."
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:59
 msgid ":ref:`pattern_docker`"
@@ -129,4 +152,5 @@ msgstr ":ref:`pattern_docker`"
 
 #: ../../reference_manual/resource_management/resource_patterns.rst:61
 msgid "You can tag patterns here, and filter them with the resource filter."
-msgstr ""
+msgstr "Man kan etikettera mönster här, och filtrera dem med resursfiltret."
+

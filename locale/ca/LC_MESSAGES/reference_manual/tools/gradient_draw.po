@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:07+0200\n"
+"PO-Revision-Date: 2019-06-06 19:35+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -58,6 +58,10 @@ msgid ""
 "If there is an active selection then, similar to the :ref:`fill_tool`, the "
 "paint action will be confined to the selection's borders."
 msgstr ""
+"L'eina de Degradat es troba al Plafó d'eines. Feu clic esquerre arrossegant "
+"aquesta eina sobre la part activa del llenç per a dibuixar el degradat "
+"actual. Si hi ha una selecció activa, similar a l':ref:`fill_tool`, l'acció "
+"de pintar es limitarà a les vores de la selecció."
 
 #: ../../reference_manual/tools/gradient_draw.rst:23
 msgid "Tool Options"
@@ -73,7 +77,7 @@ msgstr "Lineal"
 
 #: ../../reference_manual/tools/gradient_draw.rst:28
 msgid "This will draw the gradient straight."
-msgstr ""
+msgstr "Dibuixarà el degradat recte."
 
 #: ../../reference_manual/tools/gradient_draw.rst:29
 msgid "Radial"
@@ -83,7 +87,7 @@ msgstr "Radial"
 msgid ""
 "This will draw the gradient from a center, defined by where you start the "
 "stroke."
-msgstr ""
+msgstr "Dibuixarà el degradat des d'un centre, definit per on comença el traç."
 
 #: ../../reference_manual/tools/gradient_draw.rst:31
 msgid "Square"
@@ -94,6 +98,8 @@ msgid ""
 "This will draw the gradient from a center in a square shape, defined by "
 "where you start the stroke."
 msgstr ""
+"Dibuixarà el degradat des d'un centre en una forma quadrada, definit per on "
+"comença el traç."
 
 #: ../../reference_manual/tools/gradient_draw.rst:33
 msgid "Conical"
@@ -104,6 +110,7 @@ msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke."
 msgstr ""
+"Envoltarà el degradat al voltant d'un centre, definit per on comença el traç."
 
 #: ../../reference_manual/tools/gradient_draw.rst:35
 msgid "Conical-symmetric"
@@ -114,6 +121,8 @@ msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke, but will mirror the wrap once."
 msgstr ""
+"Envoltarà el degradat al voltant d'un centre, definit per on comença el traç, "
+"però reflectirà l'embolcall una vegada."
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "Shaped"
@@ -121,7 +130,7 @@ msgstr "Amb forma"
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "This will shape the gradient depending on the selection or layer."
-msgstr ""
+msgstr "Donarà forma al degradat en funció de la selecció o capa."
 
 #: ../../reference_manual/tools/gradient_draw.rst:40
 msgid "Repeat:"
@@ -133,7 +142,7 @@ msgstr "Cap"
 
 #: ../../reference_manual/tools/gradient_draw.rst:43
 msgid "This will extend the gradient into infinity."
-msgstr ""
+msgstr "Estendrà el degradat fins a l'infinit."
 
 #: ../../reference_manual/tools/gradient_draw.rst:44
 msgid "Forward"
@@ -141,7 +150,7 @@ msgstr "Endavant"
 
 #: ../../reference_manual/tools/gradient_draw.rst:45
 msgid "This will repeat the gradient into one direction."
-msgstr ""
+msgstr "Repetirà el degradat en una direcció."
 
 #: ../../reference_manual/tools/gradient_draw.rst:47
 msgid "Alternating"
@@ -151,7 +160,7 @@ msgstr "Alternat"
 msgid ""
 "This will repeat the gradient, alternating the normal direction and the "
 "reversed."
-msgstr ""
+msgstr "Repetirà el degradat, alternant la direcció normal i la inversa."
 
 #: ../../reference_manual/tools/gradient_draw.rst:49
 msgid "Reverse"
@@ -159,8 +168,9 @@ msgstr "Inverteix"
 
 #: ../../reference_manual/tools/gradient_draw.rst:50
 msgid "Reverses the direction of the gradient."
-msgstr ""
+msgstr "Inverteix la direcció del degradat."
 
 #: ../../reference_manual/tools/gradient_draw.rst:52
 msgid "Doesn't do anything, original function must have gotten lost in a port."
 msgstr ""
+"No fa res, la funció original es deu haver perdut durant una adaptació."
