@@ -42,7 +42,7 @@ Fuzzy (Dab)
 Fuzzy Stroke
     A randomness value that is per stroke. Useful for getting color and size variation in on speed-paint brushes.
 Fade
-    How much the brush is affected over length, proportional to the brush tine.
+    How much the brush is affected over length, proportional to the brush size.
 Perspective
     How much the brush is affected by the perspective assistant.
 Tangential Pressure
