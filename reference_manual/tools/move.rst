@@ -26,7 +26,7 @@ Move layer with content
 Move the whole group
     All content on all layers will move.  Depending on the number of layers this might result in slow and, sometimes, jerky movements. Use this option sparingly or only when necessary.
 Shortcut move distance (3.0+)
-    This allows you to set how much, and in which units, the :kbd:`&larr;`, :kbd:`&uarr;`, :kbd:`&rarr;` and :kbd:`&darr;` actions will move the layer.
+    This allows you to set how much, and in which units, the :kbd:`Left Arrow`, :kbd:`Up Arrow`, :kbd:`Right Arrow` and :kbd:`Down Arrow` cursor key actions will move the layer.
 Large Move Scale (3.0+)
     Allows you to multiply the movement of the Shortcut Move Distance when pressing :kbd:`Shift` before pressing a direction key.
 Show coordinates
