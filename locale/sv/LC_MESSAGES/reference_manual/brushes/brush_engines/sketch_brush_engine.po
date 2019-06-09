@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:48+0100\n"
+"PO-Revision-Date: 2019-06-08 15:19+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -36,7 +36,7 @@ msgstr "Penselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:12
 msgid "Harmony Brush Engine"
-msgstr ""
+msgstr "Harmonipenselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:21
 msgid ".. image:: images/icons/sketchbrush.svg"
@@ -46,6 +46,8 @@ msgstr ".. image:: images/icons/sketchbrush.svg"
 msgid ""
 "A line based brush engine, based on the Harmony brushes. Very messy and fun."
 msgstr ""
+"Ett linjebaserat penselgränssnitt, baserat på harmonipenslarna. Mycket rörigt"
+" och roligt."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:25
 msgid "Parameters"
@@ -53,7 +55,7 @@ msgstr "Parametrar"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:28
 msgid "Has the following parameters:"
-msgstr ""
+msgstr "Har följande parametrar:"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:30
 msgid ":ref:`option_brush_tip`"
@@ -101,7 +103,7 @@ msgstr "Linjebredd"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:46
 msgid "The width of the rendered lines."
-msgstr ""
+msgstr "Bredden på de återgivna linjerna."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:49
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_sketch_linewidth.png"
@@ -109,13 +111,15 @@ msgstr ".. image:: images/brushes/Krita_2_9_brushengine_sketch_linewidth.png"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:53
 msgid "Offset Scale"
-msgstr ""
+msgstr "Positionskala"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:55
 msgid ""
 "When curve lines are formed, this value roughly determines the distance from "
 "the curve lines to the connection lines:"
 msgstr ""
+"När kurvlinjer formas, bestämmer det här värdet i grova drag avståndet från"
+" kurvllinjerna till anslutningslinjerna:"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:57
 msgid ""
@@ -123,18 +127,24 @@ msgid ""
 "similar outputs, as do a value of say 30% and 70%. You could think that the "
 "actual value range is between 50% and 200%."
 msgstr ""
+"Det är något missvisande, eftersom värdet 0 % och värdet 100 % ger liknande"
+" resultat, liksom värdet 30 % och 70 %. Man kan föreställa sig att det"
+" riktiga värdeintervallet är mellan 50 % och 200 %."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:58
 msgid ""
 "0% and 100% correspond to the curve lines touching the connection lines "
 "exactly."
 msgstr ""
+"0 % och 100 % motsvarar att kurvlinjerna direkt rör vid anslutningslinjerna."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:59
 msgid ""
 "Above 100%, the curve lines will go further than the connection lines, "
 "forming a fuzzy effect."
 msgstr ""
+"Ovanför 100 % går kurvlinjerna längre än anslutningslinjerna, vilket ger en"
+" suddig effekt."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:62
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_sketch_offset.png"
@@ -153,6 +163,8 @@ msgid ""
 "The density of the lines. This one is highly affected by the Brush-tip, as "
 "determined by the Distance Density toggle."
 msgstr ""
+"Linjernas täthet. Den påverkas is stor utsträckning av penselspetsen, som"
+" bestäms av knappen Avståndstäthet."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:73
 msgid ".. image:: images/brushes/Krita_2.9_brushengine_sketch_density.png"
@@ -167,6 +179,8 @@ msgid ""
 "The further the line covered is from the center of the area of effect, the "
 "less the density of the resulting curve lines."
 msgstr ""
+"Ju längre från centrum av effektområdet som den täckta linjen finns, desto"
+" mindre är de resulterande kurvlinjernas täthet."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:77
 msgid "Magnetify"
@@ -181,6 +195,12 @@ msgid ""
 "line becomes fuzzier when another portion of the line is nearby, but the "
 "lines don't connect to said previous portion."
 msgstr ""
+"Magnetifiera är normalt *på*. Det är vad som gör att kurvlinjer skapas mellan"
+" två intilliggande linjesektioner, såsom att kurvlinjerna attraheras till dem"
+" som magneter. När magnetifiera är *av*, skapas kurvlinjerna bara på varje"
+" sida om den del av anslutningslinjen som för närvarande är aktiv. Med andra"
+" ord blir linjen suddigare när en annan del av linjen finns i närheten, men"
+" linjerna ansluts inte till tidigare nämnda del."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:79
 msgid "Random RGB"
@@ -188,7 +208,7 @@ msgstr "Slumpmässig RGB"
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:80
 msgid "Causes some slight RGB variations."
-msgstr ""
+msgstr "Orsakar några mindre RGB-variationer."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:81
 msgid "Random Opacity"
@@ -199,6 +219,8 @@ msgid ""
 "The curve lines get random opacity. This one is barely visible, so for the "
 "example I used line width 12 and 100% opacity."
 msgstr ""
+"Kurvlinjerna får slumpmässig ogenomskinlighet. Det är nätt och jämnt synligt,"
+" så jag använda exempelvis linjebredd 12 och 100 % ogenomskinlighet."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:83
 msgid "Distance Opacity"
@@ -210,6 +232,9 @@ msgid ""
 "opacity will be calculated based on the distance from the center of the "
 "effect area."
 msgstr ""
+"Den avståndsbaserade ogenomskinligheten. När pennan rörs snabbare under"
+" målning, beräknas ogenomskinligheten på avståndet från centrum av"
+" effektområdet."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:85
 msgid "Simple Mode"
@@ -221,6 +246,9 @@ msgid ""
 "visible way. Check this for large brushes or thick lines for faster "
 "rendering."
 msgstr ""
+"Läget finns av prestandaskäl, och påverkar inte resultatet på något synligt"
+" sätt. Markera det för stora penslar eller tjocka linjer för snabbare"
+" återgivning."
 
 #: ../../reference_manual/brushes/brush_engines/sketch_brush_engine.rst:88
 msgid ""
@@ -231,3 +259,11 @@ msgid ""
 "density, and with a thick line width. The rest of the time, this option "
 "won't make a visible difference."
 msgstr ""
+"Vad som verkar vara anslutningslinjen består oftast av en verklig"
+" anslutningslinje och många mindre kurvlinjer. De många små kurvlinjerna"
+" utgör majoriteten av linjen. Av detta skäl är den enda gången då"
+" alternativet orsakar en synlig skillnad när man ritar med 0 % eller nära 0 %"
+" täthet, och med en stor linjebredd. Andra gånger gör inte alternativet någon"
+" synlig skillnad."
+
+

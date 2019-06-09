@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-04-13 20:27+0100\n"
+"PO-Revision-Date: 2019-06-08 09:30+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -53,19 +53,19 @@ msgstr "Klistra in"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
-msgstr ""
+msgstr "Ångrar senaste åtgärden. :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
-msgstr ""
+msgstr "Gör om den senast ångrade åtgärden. :kbd:`Ctrl + Skift+ Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
-msgstr ""
+msgstr "Klipper ut markeringen eller lagret. :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
-msgstr ""
+msgstr "Kopierar markeringen eller lagret. :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:31
 msgid "Cut (Sharp)"
@@ -76,6 +76,9 @@ msgid ""
 "This prevents semi-transparent areas from appearing on your cut pixels, "
 "making them either fully opaque or fully transparent."
 msgstr ""
+"Förhindrar halvgenomskinliga områden från att finnas med i de urklippta"
+" bildpunkterna, vilket antingen gör dem helt ogenomskinliga eller helt"
+" genomskinliga."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:34
 msgid "Copy (Sharp)"
@@ -83,7 +86,7 @@ msgstr "Kopiera (skarp)"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:36
 msgid "Same as :term:`Cut (Sharp)` but then copying instead."
-msgstr ""
+msgstr "Samma som :term:`Cut (skarp)` men kopierar istället."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:37
 msgid "Copy Merged"
@@ -91,11 +94,13 @@ msgstr "Kopiera sammanfogade"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
-msgstr ""
+msgstr "Kopierar markeringen över alla lager :kbd:`Ctrl + Skift + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
 msgstr ""
+"Klistrar in den kopierade bufferten i bilden som ett nytt lager. :kbd:`Ctrl +"
+" V`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:43
 msgid "Paste at Cursor"
@@ -103,7 +108,7 @@ msgstr "Klistra in vid markören"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:45
 msgid "Same as :term:`paste`, but aligns the image to the cursor."
-msgstr ""
+msgstr "Samma som :term:`paste`, men justerar bilden till markören."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:46
 msgid "Paste into new image"
@@ -111,7 +116,7 @@ msgstr "Klistra in i ny bild"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:48
 msgid "Pastes the copied buffer into a new image."
-msgstr ""
+msgstr "Klistrar in den kopierade bufferten i en ny bild."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:49
 msgid "Clear"
@@ -119,7 +124,7 @@ msgstr "Rensa"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:51
 msgid "Clear the current layer. :kbd:`Del`"
-msgstr ""
+msgstr "Rensar aktuellt lager. :kbd:`Del`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:52
 msgid "Fill with Foreground Color"
@@ -130,6 +135,7 @@ msgid ""
 "Fills the layer or selection with the foreground color. :kbd:`Shift + "
 "Backspace`"
 msgstr ""
+"Fyller lagret eller markeringen med förgrundsfärgen. :kbd:`Skift + Backsteg`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:55
 msgid "Fill with Background Color"
@@ -138,7 +144,7 @@ msgstr "Fyll med bakgrundsfärg"
 #: ../../reference_manual/main_menu/edit_menu.rst:57
 msgid ""
 "Fills the layer or selection with the background color. :kbd:`Backspace`"
-msgstr ""
+msgstr "Fyller lagret eller markeringen med bakgrundsfärgen. :kbd:`Backsteg`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:58
 msgid "Fill with pattern"
@@ -146,17 +152,18 @@ msgstr "Fyll med mönster"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:60
 msgid "Fills the layer or selection with the active pattern."
-msgstr ""
+msgstr "Fyller lagret eller markeringen med det aktiva mönstret."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:61
 msgid "Stroke Selected Shapes"
-msgstr "Strecka markerade former"
+msgstr "Drag markerade former"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:63
 msgid ""
 "Strokes the selected vector shape with the selected brush, will create a new "
 "layer."
 msgstr ""
+"Drar den markerade vektorformen med vald pensel, skapar ett nytt lager."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:64
 msgid "Stroke Selection"
@@ -164,4 +171,5 @@ msgstr "Dragmarkering"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:66
 msgid "Strokes the active selection using the menu."
-msgstr ""
+msgstr "Drar den aktiva markeringen genom att använda menyn."
+

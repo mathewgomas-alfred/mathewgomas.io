@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-06-05 19:00+0200\n"
+"PO-Revision-Date: 2019-06-08 10:53+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -61,6 +61,10 @@ msgid ""
 "vector layer. Click and hold |mouseleft| to indicate one corner of the "
 "rectangle, drag to the opposite corner, and release the button."
 msgstr ""
+"Aquesta eina es pot utilitzar per a pintar rectangles o crear formes de "
+"rectangle sobre una capa vectorial. Feu |mouseleft| i manteniu-lo premut per "
+"indicar una cantonada del rectangle, arrossegueu cap a la cantonada oposada "
+"i deixeu anar el botó."
 
 #: ../../reference_manual/tools/rectangle.rst:22
 msgid "Hotkeys and Sticky-keys"
@@ -68,7 +72,7 @@ msgstr "Dreceres i tecles apegaloses"
 
 #: ../../reference_manual/tools/rectangle.rst:24
 msgid "There's no default hotkey for switching to rectangle."
-msgstr ""
+msgstr "No hi ha cap drecera predeterminada per a canviar a rectangle."
 
 #: ../../reference_manual/tools/rectangle.rst:26
 msgid ""
@@ -80,6 +84,14 @@ msgid ""
 "indicates a corner. You can press :kbd:`Alt` while still keeping |mouseleft| "
 "down to move the rectangle to a different location."
 msgstr ""
+"Si manteniu premuda la tecla :kbd:`Majús.` mentre dibuixeu, es dibuixarà un "
+"quadrat en lloc d'un rectangle. Mantenint premuda la tecla :kbd:`Ctrl` es "
+"canviarà la manera en què es construeix el rectangle. Normalment, el primer "
+"clic del ratolí indica una cantonada i el segon l'oposada. Amb :kbd:`Ctrl`, "
+"la posició inicial del ratolí indicarà el centre del rectangle, i la posició "
+"final del ratolí indicarà una cantonada. Podeu prémer :kbd:`Alt` mentre "
+"manteniu premut el |mouseleft| per a moure el rectangle a una ubicació "
+"diferent."
 
 #: ../../reference_manual/tools/rectangle.rst:28
 msgid ""
@@ -89,6 +101,12 @@ msgid ""
 "affect all four corners of the rectangle (relative to the center), without :"
 "kbd:`Ctrl`, one of the corners is unaffected."
 msgstr ""
+"Podreu canviar entre els mètodes de dibuix cantonada/cantonada i "
+"centre/cantonada tan sovint com vulgueu prement o deixant anar la tecla "
+":kbd:`Ctrl`, sempre que es mantingui premuda. Prement la tecla :kbd:`Ctrl`, "
+"els moviments del ratolí afectaran a les quatre cantonades del rectangle (en "
+"relació amb el centre), sense la tecla :kbd:`Ctrl`, una de les cantonades no "
+"es veurà afectada."
 
 #: ../../reference_manual/tools/rectangle.rst:32
 msgid "Tool Options"
@@ -104,7 +122,7 @@ msgstr "Sense emplenar."
 
 #: ../../reference_manual/tools/rectangle.rst:38
 msgid "The rectangle will be transparent from the inside."
-msgstr ""
+msgstr "El rectangle serà transparent des de l'interior."
 
 #: ../../reference_manual/tools/rectangle.rst:39
 msgid "Foreground color"
@@ -112,7 +130,7 @@ msgstr "Color de primer pla"
 
 #: ../../reference_manual/tools/rectangle.rst:40
 msgid "The rectangle will use the foreground color as fill."
-msgstr ""
+msgstr "El rectangle utilitzarà el color de primer pla com a emplenat."
 
 #: ../../reference_manual/tools/rectangle.rst:41
 msgid "Background color."
@@ -120,7 +138,7 @@ msgstr "Color de fons."
 
 #: ../../reference_manual/tools/rectangle.rst:42
 msgid "The rectangle will use the background color as fill."
-msgstr ""
+msgstr "El rectangle utilitzarà el color de fons com a emplenat."
 
 #: ../../reference_manual/tools/rectangle.rst:44
 msgid "Pattern"
@@ -128,7 +146,7 @@ msgstr "Patró"
 
 #: ../../reference_manual/tools/rectangle.rst:44
 msgid "The rectangle will use the active pattern as fill."
-msgstr ""
+msgstr "El rectangle utilitzarà el patró actiu com a emplenat."
 
 #: ../../reference_manual/tools/rectangle.rst:47
 msgid "Outline"
@@ -140,7 +158,7 @@ msgstr "Sense contorn"
 
 #: ../../reference_manual/tools/rectangle.rst:50
 msgid "The Rectangle will render without outline."
-msgstr ""
+msgstr "El rectangle es representarà sense contorn."
 
 #: ../../reference_manual/tools/rectangle.rst:52
 msgid "Brush"
@@ -148,13 +166,15 @@ msgstr "Pinzell"
 
 #: ../../reference_manual/tools/rectangle.rst:52
 msgid "The Rectangle will use the current selected brush to outline."
-msgstr ""
+msgstr "El rectangle utilitzarà el pinzell seleccionat per al contorn."
 
 #: ../../reference_manual/tools/rectangle.rst:55
 msgid ""
 "On vector layers, the rectangle will not render with a brush outline, but "
 "rather a vector outline."
 msgstr ""
+"Sobre les capes vectorials, el rectangle no es representarà amb un contorn "
+"del pinzell, sinó amb un contorn vectorial."
 
 #: ../../reference_manual/tools/rectangle.rst:57
 msgid "Anti-aliasing"
@@ -210,7 +230,7 @@ msgstr "Arrodoniment de X"
 
 #: ../../reference_manual/tools/rectangle.rst:69
 msgid "The horizontal radius of the rectangle corners."
-msgstr ""
+msgstr "El radi horitzontal de les cantonades del rectangle."
 
 #: ../../reference_manual/tools/rectangle.rst:71
 msgid "Round Y"
@@ -218,4 +238,4 @@ msgstr "Arrodoniment de Y"
 
 #: ../../reference_manual/tools/rectangle.rst:73
 msgid "The vertical radius of the rectangle corners."
-msgstr ""
+msgstr "El radi vertical de les cantonades del rectangle."

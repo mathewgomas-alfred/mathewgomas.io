@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:43+0100\n"
+"PO-Revision-Date: 2019-06-08 12:22+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/channels_docker.rst:1
 msgid "Overview of the channels docker."
-msgstr ""
+msgstr "Översikt av kanalpanelen."
 
 #: ../../reference_manual/dockers/channels_docker.rst:10
 msgid "Color"
@@ -35,7 +35,7 @@ msgstr "Kanaler"
 
 #: ../../reference_manual/dockers/channels_docker.rst:18
 msgid ".. image:: images/dockers/Krita_Channels_Docker.png"
-msgstr ""
+msgstr ".. image:: images/dockers/Krita_Channels_Docker.png"
 
 #: ../../reference_manual/dockers/channels_docker.rst:19
 msgid ""
@@ -44,6 +44,9 @@ msgid ""
 "disabled checkbox. You cannot edit individual layer channels from this "
 "docker."
 msgstr ""
+"Kanalpanelen låter dig sätta på eller stänga av kanaler som hör ihop med"
+" färgrymden som används. Varje kanal har en kryssruta för att aktivera och"
+" inaktivera den. Man kan inte redigera individuella lagerkanaler från panelen."
 
 #: ../../reference_manual/dockers/channels_docker.rst:22
 msgid "Editing Channels"
@@ -55,18 +58,21 @@ msgid ""
 "will need to manually separate a layer. This can be done with a series of "
 "commands with the layer docker."
 msgstr ""
+"Om man vill redigera enskilda kanaler enligt deras gråskalekomponent, måste"
+" man separera ett lager manuellt. Det kan göras med en serie kommandon i"
+" lagerpanelen."
 
 #: ../../reference_manual/dockers/channels_docker.rst:26
 msgid "Select the layer you want to break apart."
-msgstr ""
+msgstr "Välj lagret som ska delas upp."
 
 #: ../../reference_manual/dockers/channels_docker.rst:27
 msgid "Go to :menuselection:`Image --> Separate Image`"
-msgstr ""
+msgstr "Gå till :menuselection:`Bild --> Separera bild`"
 
 #: ../../reference_manual/dockers/channels_docker.rst:28
 msgid "Select the following options and click :guilabel:`OK`:"
-msgstr ""
+msgstr "Välj följande alternativ och klicka på :guilabel:`Ok`:"
 
 #: ../../reference_manual/dockers/channels_docker.rst:30
 msgid "Source: Current Layer"
@@ -74,11 +80,11 @@ msgstr "Källa: Aktuellt lager"
 
 #: ../../reference_manual/dockers/channels_docker.rst:31
 msgid "Alpha Options: Create separate separation from alpha channel"
-msgstr ""
+msgstr "Alfaalternativ: Skapa egen separation från alfakanalen"
 
 #: ../../reference_manual/dockers/channels_docker.rst:32
 msgid "Output to Grayscale, not color: unchecked"
-msgstr ""
+msgstr "Utdata i färg, inte gråskala: avmarkerad"
 
 #: ../../reference_manual/dockers/channels_docker.rst:34
 msgid "Hide your original layer"
@@ -89,34 +95,40 @@ msgid ""
 "Select All of the new channel layers and put them in a group layer (:"
 "menuselection:`Layer --> Quick Group`)"
 msgstr ""
+"Välj alla nya kanallager och placera dem i ett grupplager"
+" (:menuselection:`Lager --> Snabbgrupp`)"
 
 #: ../../reference_manual/dockers/channels_docker.rst:36
 msgid ""
 "Select the Red layer and change the blending mode to \"Copy Red\" (these are "
 "in the Misc. category)"
 msgstr ""
+"Välj det röda lagret och ändra blandningsläget till \"Kopiera röd\" (de finns"
+" i kategorin Diverse)"
 
 #: ../../reference_manual/dockers/channels_docker.rst:37
 msgid "Select the Green layer and change the blending mode  to \"Copy Green\""
-msgstr ""
+msgstr "Välj det gröna lagret och ändra blandningsläget till \"Kopiera grön\""
 
 #: ../../reference_manual/dockers/channels_docker.rst:38
 msgid "Select the Blue layer and change the blending mode to \"Copy Blue\""
-msgstr ""
+msgstr "Välj det blåa lagret och ändra blandningsläget till \"Kopiera blå\""
 
 #: ../../reference_manual/dockers/channels_docker.rst:39
 msgid "Make sure the Alpha layer is at the bottom of the group."
-msgstr ""
+msgstr "Säkerställ att alfalagret är längst ner i gruppen."
 
 #: ../../reference_manual/dockers/channels_docker.rst:40
 msgid "Enable Inherit Alpha for the Red, Green, and Blue layers."
-msgstr ""
+msgstr "Aktivera alfaarv för de röda, gröna och blåa lagren."
 
 #: ../../reference_manual/dockers/channels_docker.rst:42
 msgid ""
 "Here is a `video to see this process <https://www.youtube.com/watch?"
 "v=lWuwegJ-mIQ&feature=youtu.be>`_  in Krita 3.0"
 msgstr ""
+"Här finns en video för att se processen <https://www.youtube.com/watch?v=lWuwe"
+"gJ-mIQ&feature=youtu.be>`_  i Krita 3.0"
 
 #: ../../reference_manual/dockers/channels_docker.rst:44
 msgid ""
@@ -124,3 +136,7 @@ msgid ""
 "Layer feature to only see the channel. Right-click on the layer to find "
 "Isolate Layer."
 msgstr ""
+"När man arbetar med att redigera kanaler kan det vara enklare att använda"
+" funktionen Isolera lager för att bara se kanalen. Högerklicka på lagret för"
+" att hitta Isolera lager."
+

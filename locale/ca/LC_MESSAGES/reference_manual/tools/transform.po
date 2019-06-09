@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 18:54+0200\n"
+"PO-Revision-Date: 2019-06-08 16:32+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -55,6 +55,11 @@ msgid ""
 "Perspective, Warp, Cage and Liquid. These are all powerful options and will "
 "give you complete control over your selections/layers."
 msgstr ""
+"L'eina Transforma permet transformar amb rapidesa la selecció o capa actual. "
+"Les opcions bàsiques inclouen canviar la mida, girar i inclinar. A més, "
+"tindreu l'opció d'aplicar transformacions avançades com Perspectiva, "
+"Deformació, Gàbia i Liqüescent. Totes aquestes són opcions poderoses i "
+"donaran un control complet sobre les vostres seleccions/capes."
 
 #: ../../reference_manual/tools/transform.rst:24
 msgid ""
@@ -64,6 +69,11 @@ msgid ""
 "dragging it. You can also click anywhere inside the selection or layer and "
 "move it by dragging the mouse."
 msgstr ""
+"Quan invoques l'eina per primera vegada, apareixeran nanses a les cantonades "
+"i costats, les quals podreu utilitzar per a canviar la mida de la vostra "
+"selecció o capa. Podreu realitzar el gir movent el ratolí amunt o cap a "
+"l'esquerra de les nanses i arrossegant-les. També podreu fer clic a "
+"qualsevol lloc dins de la selecció o capa i moure-la arrossegant el ratolí."
 
 #: ../../reference_manual/tools/transform.rst:26
 msgid ""
@@ -71,6 +81,10 @@ msgid ""
 "The parameters are split between five tabs: Free Transform, Warp, "
 "Perspective, Cage and Liquify."
 msgstr ""
+"Podreu ajustar els paràmetres de l'eina de transformació utilitzant "
+"l'acoblador Opcions de l'eina. Els paràmetres es divideixen en cinc "
+"pestanyes: Transforma lliurement, Deformació, Perspectiva, Gàbia i "
+"Liqüescent."
 
 #: ../../reference_manual/tools/transform.rst:30
 msgid ".. image:: images/tools/Transform_Tool_Options.png"
@@ -90,6 +104,10 @@ msgid ""
 "perspective skewing if you hold :kbd:`Ctrl`. Holding the :kbd:`Shift` key "
 "will maintain your aspect ratio throughout the transform."
 msgstr ""
+"Això permet fer un gir bàsic, canviar la mida, invertir i, fins i tot "
+"inclinar la perspectiva si manteniu premuda la tecla :kbd:`Ctrl`. Mantenint "
+"premuda la tecla :kbd:`Majús.` es mantindrà la relació d'aspecte durant tota "
+"la transformació."
 
 #: ../../reference_manual/tools/transform.rst:39
 msgid ".. image:: images/tools/Krita_transforms_free.png"
@@ -107,12 +125,19 @@ msgid ""
 "Furthermore, the button to the left of the anchor point widget allows you to "
 "choose whether to always transform using the anchor point, or not."
 msgstr ""
+"Si mireu la part inferior, hi ha botons ràpids per a invertir en horitzontal, "
+"en vertical i girar 90 graus cap a l'esquerra o la dreta. A més, el botó a "
+"l'esquerra de l'estri del punt d'ancoratge permet decidir si voleu "
+"transformar sempre utilitzant o no el punt d'ancoratge."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/tools/transform.rst:43
 msgid ""
 "`Video of how to use the anchor point for resizing. <https://www.youtube.com/"
 "watch?v=grzccBVd0O8>`_"
 msgstr ""
+"`Vídeo sobre com utilitzar el punt d'ancoratge per a canviar la mida "
+"<https://www.youtube.com/watch?v=grzccBVd0O8>`_."
 
 #: ../../reference_manual/tools/transform.rst:46
 msgid "Perspective"
@@ -124,12 +149,17 @@ msgid ""
 "allows for maximum control. You can drag the corner points, or even the "
 "designated vanishing point."
 msgstr ""
+"Mentre que la transformació lliure té algunes opcions de la perspectiva, la "
+"transformació en perspectiva permet un control màxim. Podreu arrossegar els "
+"punts de cantonada, o fins i tot el punt de fuga designat."
 
 #: ../../reference_manual/tools/transform.rst:50
 msgid ""
 "You can also change the size, shear and position transform while remaining "
 "in perspective with the tool-options."
 msgstr ""
+"També podreu canviar la mida, la inclinació i la transformació de la posició "
+"mentre roman en perspectiva amb les Opcions de l'eina."
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid ".. image:: images/tools/Krita_transforms_perspective.png"
@@ -137,7 +167,7 @@ msgstr ".. image:: images/tools/Krita_transforms_perspective.png"
 
 #: ../../reference_manual/tools/transform.rst:54
 msgid "Perspective transform"
-msgstr ""
+msgstr "Transformació en perspectiva"
 
 #: ../../reference_manual/tools/transform.rst:57
 msgid "Warp"
@@ -148,6 +178,8 @@ msgid ""
 "Warp allows you to deform the image by dragging from a grid or choosing the "
 "dragging points yourself."
 msgstr ""
+"La deformació permet deformar la imatge arrossegant des d'una quadrícula o "
+"seleccionant els punts d'arrossegament."
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid ".. image:: images/tools/Transform_Tool_Options_Warp.png"
@@ -155,7 +187,7 @@ msgstr ".. image:: images/tools/Transform_Tool_Options_Warp.png"
 
 #: ../../reference_manual/tools/transform.rst:63
 msgid "Warp Option"
-msgstr ""
+msgstr "Opció de la deformació"
 
 #: ../../reference_manual/tools/transform.rst:67
 msgid ".. image:: images/tools/Krita_transforms_warp.png"
@@ -167,6 +199,9 @@ msgid ""
 "algorithm used to determine the strength of the deformation. The flexibility "
 "determines, how strong the effect of moving these points are."
 msgstr ""
+"Hi ha opcions de deformació: Rígid, Afí i Similitud. Canvien l'algorisme "
+"utilitzat per a determinar la intensitat de la deformació. La flexibilitat "
+"determinarà com de fort serà l'efecte de moure aquests punts."
 
 #: ../../reference_manual/tools/transform.rst:72
 msgid "Anchor Points"
@@ -174,7 +209,7 @@ msgstr "Punts d'ancoratge"
 
 #: ../../reference_manual/tools/transform.rst:74
 msgid "You can divide these either by subdivision or drawing custom points."
-msgstr ""
+msgstr "Podreu dividir-los per subdivisió o dibuixant punts personalitzats."
 
 #: ../../reference_manual/tools/transform.rst:76
 msgid "Subdivision"
@@ -182,7 +217,7 @@ msgstr "Subdivisió"
 
 #: ../../reference_manual/tools/transform.rst:77
 msgid "This allows you to subdivide the selected area into a grid."
-msgstr ""
+msgstr "Permet subdividir l'àrea seleccionada en una quadrícula."
 
 #: ../../reference_manual/tools/transform.rst:79
 msgid "Draw"
@@ -193,6 +228,8 @@ msgid ""
 "Draw the anchor points yourself. Locking the points will put you in "
 "transform mode. Unlocking the points back into edit mode."
 msgstr ""
+"Dibuixareu els punts d'ancoratge. Bloquejar els punts el posarà en el mode de "
+"transformació. Desbloquejar els punts de nou el posarà en el mode d'edició."
 
 #: ../../reference_manual/tools/transform.rst:82
 msgid "Cage"
@@ -204,6 +241,9 @@ msgid ""
 "deform the image. If you have at the least 3 points on the canvas, you can "
 "choose to switch between deforming and editing the existing points."
 msgstr ""
+"Creeu una gàbia al voltant d'una imatge i, quan estigui tancada, podreu "
+"utilitzar-la per a deformar la imatge. Si teniu almenys 3 punts sobre el "
+"llenç, podreu triar canviar entre deformar i editar els punts existents."
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid ".. image:: images/tools/Krita_transforms_cage.png"
@@ -211,7 +251,7 @@ msgstr ".. image:: images/tools/Krita_transforms_cage.png"
 
 #: ../../reference_manual/tools/transform.rst:88
 msgid "Transforming a straight banana to be curved with the cage tool"
-msgstr ""
+msgstr "Transformant un plàtan recte per a corbar-lo amb l'eina de gàbia."
 
 #: ../../reference_manual/tools/transform.rst:91
 msgid "Adjust Granularity"
@@ -222,6 +262,9 @@ msgid ""
 "This adjusts the precision of the cage transform grid. Lower precision gives "
 "more speed but also gives less precise results."
 msgstr ""
+"Ajusta la precisió de la quadrícula de transformació de la gàbia. Una "
+"precisió més baixa dóna més velocitat però també donarà resultats menys "
+"precisos."
 
 #: ../../reference_manual/tools/transform.rst:97
 msgid "Preview"
@@ -232,6 +275,8 @@ msgid ""
 "Adjusts the granularity of the preview. It is recommended to have this lower "
 "than the :guilabel:`Real` value, as it speeds up adjusting."
 msgstr ""
+"Ajusta la granularitat de la vista prèvia. Es recomana tenir aquest valor més "
+"baix que el valor :guilabel:`Real`, ja que accelerarà l'ajustament."
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Real"
@@ -239,7 +284,7 @@ msgstr "Real"
 
 #: ../../reference_manual/tools/transform.rst:100
 msgid "Adjusts the granularity of the final result."
-msgstr ""
+msgstr "Ajusta la granularitat del resultat final."
 
 #: ../../reference_manual/tools/transform.rst:103
 msgid "Hotkeys"
@@ -250,6 +295,9 @@ msgid ""
 "Both Cage and Warp use little nodes. These nodes can be selected and "
 "deselected together by pressing :kbd:`Ctrl` before clicking nodes."
 msgstr ""
+"Tant Gàbia com Deforma utilitzen nodes petits. Aquests nodes es poden "
+"seleccionar i desseleccionar junts prement la tecla :kbd:`Ctrl` abans de fer "
+"clic en els nodes."
 
 #: ../../reference_manual/tools/transform.rst:107
 msgid ""
@@ -258,6 +306,10 @@ msgid ""
 "box and scaling the same, only one presses :kbd:`Ctrl` before doing the "
 "motion."
 msgstr ""
+"Després, els podreu moure prement el cursor dins del quadre contenidor. El "
+"gir es realitzarà prement i arrossegant el cursor fora del quadre contenidor "
+"i escalant el mateix, només prement la tecla :kbd:`Ctrl` abans de fer el "
+"moviment."
 
 #: ../../reference_manual/tools/transform.rst:112
 msgid "Liquify"
@@ -272,6 +324,8 @@ msgid ""
 "Like our deform brush, the liquify brush allows you to draw the deformations "
 "straight on the canvas."
 msgstr ""
+"Com el nostre pinzell de deformació, el pinzell liqüescent permet dibuixar "
+"les deformacions directament sobre el llenç."
 
 #: ../../reference_manual/tools/transform.rst:118
 msgid "Move"
@@ -279,7 +333,7 @@ msgstr "Mou"
 
 #: ../../reference_manual/tools/transform.rst:119
 msgid "Drag the image along the brush stroke."
-msgstr ""
+msgstr "Arrossega la imatge al llarg del traç del pinzell."
 
 #: ../../reference_manual/tools/transform.rst:120
 msgid "Scale"
@@ -287,7 +341,7 @@ msgstr "Escala"
 
 #: ../../reference_manual/tools/transform.rst:121
 msgid "Grow/Shrink the image under the cursor."
-msgstr ""
+msgstr "Augmenta/encongeix la imatge sota el cursor."
 
 #: ../../reference_manual/tools/transform.rst:122
 msgid "Rotate"
@@ -295,7 +349,7 @@ msgstr "Gira"
 
 #: ../../reference_manual/tools/transform.rst:123
 msgid "Twirl the image under the cursor"
-msgstr ""
+msgstr "Dóna la volta a la imatge sota el cursor"
 
 #: ../../reference_manual/tools/transform.rst:124
 msgid "Offset"
@@ -303,15 +357,16 @@ msgstr "Desplaçament"
 
 #: ../../reference_manual/tools/transform.rst:125
 msgid "Shift the image under the cursor."
-msgstr ""
+msgstr "Desplaça la imatge sota el cursor."
 
 #: ../../reference_manual/tools/transform.rst:127
 msgid "Undo"
 msgstr "Desfés"
 
+# skip-rule: kct-erase
 #: ../../reference_manual/tools/transform.rst:127
 msgid "Erases the actions of other tools."
-msgstr ""
+msgstr "Desfarà les accions de les altres eines."
 
 #: ../../reference_manual/tools/transform.rst:131
 msgid ".. image:: images/tools/Krita_transforms_liquefy.png"
@@ -319,11 +374,11 @@ msgstr ".. image:: images/tools/Krita_transforms_liquefy.png"
 
 #: ../../reference_manual/tools/transform.rst:131
 msgid "Liquify used to turn an apple into a pear"
-msgstr ""
+msgstr "Liqüescent per a convertir una poma en una pera."
 
 #: ../../reference_manual/tools/transform.rst:133
 msgid "In the options for each brush there are:"
-msgstr ""
+msgstr "A les opcions per a cada pinzell hi ha:"
 
 #: ../../reference_manual/tools/transform.rst:135
 msgid "Mode"
@@ -335,6 +390,9 @@ msgid ""
 "will normalize the effect to be between none, and the amount parameter as "
 "maximum. :guilabel:`Build up` will just add on until it's impossible."
 msgstr ""
+"Això és :guilabel:`Rentatge` o :guilabel:`Construeix`. :guilabel:`Rentatge` "
+"normalitzarà l'efecte entre cap i el paràmetre de quantitat com a màxim. "
+":guilabel:`Construeix` simplement afegirà fins que sigui impossible."
 
 #: ../../reference_manual/tools/transform.rst:137
 msgid "Size"
@@ -345,6 +403,8 @@ msgid ""
 "The brush size. The button to the right allow you to let it scale with "
 "pressure."
 msgstr ""
+"La mida del pinzell. El botó de la dreta permet deixar-lo escalar amb la "
+"pressió."
 
 #: ../../reference_manual/tools/transform.rst:139
 msgid "Amount"
@@ -355,6 +415,8 @@ msgid ""
 "The strength of the brush. The button to the right lets it scale with tablet "
 "pressure."
 msgstr ""
+"La intensitat del pinzell. El botó de la dreta permet escalar amb la pressió "
+"a la tauleta."
 
 #: ../../reference_manual/tools/transform.rst:141
 msgid "Flow"
@@ -362,7 +424,7 @@ msgstr "Flux"
 
 #: ../../reference_manual/tools/transform.rst:142
 msgid "Only applicable with :guilabel:`Build up`."
-msgstr ""
+msgstr "Només aplicable amb :guilabel:`Construeix`."
 
 #: ../../reference_manual/tools/transform.rst:143
 msgid "Spacing"
@@ -370,7 +432,7 @@ msgstr "Espaiat"
 
 #: ../../reference_manual/tools/transform.rst:144
 msgid "The spacing of the liquify dabs."
-msgstr ""
+msgstr "L'espaiat entre els tocs de liqüescent."
 
 #: ../../reference_manual/tools/transform.rst:146
 msgid "Reverse"
@@ -381,6 +443,8 @@ msgid ""
 "Reverses the action, so grow becomes shrink, rotate results in clockwise "
 "becoming counter-clockwise."
 msgstr ""
+"Inverteix l'acció, de manera que el creixement es reduirà, en girar, el "
+"resultat girarà en sentit horari i antihorari."
 
 #: ../../reference_manual/tools/transform.rst:150
 msgid ".. image:: images/tools/Krita_transforms_deformvsliquefy.png"
@@ -398,16 +462,24 @@ msgid ""
 "process, so working with liquefy within a selection or using liquefy on a "
 "separate layer with little on it will greatly enhance the speed."
 msgstr ""
+"El Krita també té un :ref:`deform_brush_engine`, el qual és molt més ràpid "
+"que liqüescent, però té menys qualitat. Si voleu fer el liqüescent una mica "
+"més ràpid, tingueu en compte que s'accelerarà contra menys quantitat "
+"d'informació necessiti processar, per la qual cosa treballar amb liqüescent "
+"dins d'una selecció o utilitzar liqüescent sobre una capa separada amb poca "
+"pressió es farà augmentar molt la velocitat."
 
 #: ../../reference_manual/tools/transform.rst:155
 msgid "Recursive Transform"
-msgstr ""
+msgstr "Transformació recursiva"
 
 #: ../../reference_manual/tools/transform.rst:156
 msgid ""
 "The little spider icon on the lower-left of the transform tool options is "
 "the :guilabel:`Recursive Transform`."
 msgstr ""
+"La petita icona d'aranya que hi ha a la part inferior esquerra de les Opcions "
+"de l'eina de transformació és la :guilabel:`Transformació recursiva`."
 
 #: ../../reference_manual/tools/transform.rst:160
 msgid ".. image:: images/tools/Krita_transforms_recursive.png"
@@ -418,16 +490,20 @@ msgid ""
 "Recursive transform transforms all the layers in the group, so with this "
 "apple, both the lineart as the fill will be transformed."
 msgstr ""
+"La transformació recursiva transformarà totes les capes del grup, de manera "
+"que amb aquesta poma, es transformarà tant la línia artística com l'emplenat."
 
 #: ../../reference_manual/tools/transform.rst:162
 msgid ""
 "Recursive transform, when toggled, allows you to mass-transform all the "
 "layers in a group when only transforming the group."
 msgstr ""
+"La transformació recursiva, quan s'alterna, permet transformar en massa totes "
+"les capes d'un grup quan només es transforma el grup."
 
 #: ../../reference_manual/tools/transform.rst:165
 msgid "Continuous Transform"
-msgstr ""
+msgstr "Transformació contínua"
 
 #: ../../reference_manual/tools/transform.rst:167
 msgid ""
@@ -437,6 +513,12 @@ msgid ""
 "cancel this and start a new transform, or press :guilabel:`Reset` in the "
 "tool options while no transform is active."
 msgstr ""
+"Si apliqueu una transformació i intenteu començar-ne una de nova directament "
+"després, el Krita intentarà recuperar la transformació anterior, de manera "
+"que podreu continuar-la. Aquesta és la *transformació contínua*. Podeu "
+"prémer la tecla :kbd:`Esc` per a cancel·lar-la i iniciar-ne una de nova, o "
+"prémer :guilabel:`Reinicia` a les Opcions de l'eina mentre no hi ha cap "
+"transformació activa."
 
 #: ../../reference_manual/tools/transform.rst:170
 msgid "Transformation Masks"
@@ -447,3 +529,5 @@ msgid ""
 "These allow you make non-destructive transforms, check :ref:`here "
 "<transformation_masks>` for more info."
 msgstr ""
+"Permeten realitzar transformacions no destructives, consulteu :ref:`aquí <"
+"transformation_masks>` per obtenir més informació."

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-06-05 18:55+0200\n"
+"PO-Revision-Date: 2019-06-08 16:44+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -78,17 +78,22 @@ msgid ""
 "the tool, and doing |mouseleft| on the canvas will zoom in, while |"
 "mouseright| will zoom out."
 msgstr ""
+"L'eina de zoom permet apropar i allunyar el vostre llenç de manera discreta. "
+"Es troba a la part inferior del quadre d'eines, i només l'activa la selecció "
+"de l'eina, i fent |mouseleft| sobre el llenç s'aproparà, mentre que fent "
+"|mouseright| s'allunyarà."
 
 #: ../../reference_manual/tools/zoom.rst:22
 msgid "You can reverse this behavior in the :guilabel:`Tool Options`."
 msgstr ""
+"Podeu revertir aquest comportament a les :guilabel:`Opcions de l'eina`."
 
 #: ../../reference_manual/tools/zoom.rst:24
 msgid ""
 "There's a number of hotkeys associated with this tool, which makes it easier "
 "to access from the other tools:"
 msgstr ""
-"Hi ha un nombre dreceres associades amb aquesta eina, les quals faciliten "
+"Hi ha un nombre de dreceres associades amb aquesta eina, les quals faciliten "
 "l'accés des de les altres eines:"
 
 #: ../../reference_manual/tools/zoom.rst:26
@@ -96,48 +101,60 @@ msgid ""
 ":kbd:`Ctrl + Space` + |mouseleft| + drag on the canvas will zoom in or out "
 "fluently."
 msgstr ""
+":kbd:`Ctrl + Espai + fer` |mouseleft| :kbd:`+ arrossega` sobre el llenç "
+"aproparà o allunyarà amb fluïdesa."
 
 #: ../../reference_manual/tools/zoom.rst:27
 msgid ""
 ":kbd:`Ctrl` + |mousemiddle| + drag on the canvas will zoom in or out "
 "fluently."
 msgstr ""
+":kbd:`Ctrl + fer` |mousemiddle| :kbd:`+ arrossega` sobre el llenç aproparà o "
+"allunyarà amb fluïdesa."
 
 #: ../../reference_manual/tools/zoom.rst:28
 msgid ""
 ":kbd:`Ctrl + Alt + Space` + |mouseleft| + drag on the canvas will zoom in or "
 "out with discrete steps."
 msgstr ""
+":kbd:`Ctrl + Alt + fer` |mouseleft| :kbd:`+ arrossega` sobre el llenç "
+"aproparà o allunyarà amb passos discrets."
 
 #: ../../reference_manual/tools/zoom.rst:29
 msgid ""
 ":kbd:`Ctrl + Alt +` |mousemiddle| + drag on the canvas will zoom in or out "
 "with discrete steps."
 msgstr ""
+":kbd:`Ctrl + Alt + fer` |mousemiddle| :kbd:`+ arrossega` sobre el llenç "
+"aproparà o allunyarà amb passos discrets."
 
 #: ../../reference_manual/tools/zoom.rst:30
 msgid ":kbd:`+` will zoom in with discrete steps."
-msgstr ""
+msgstr ":kbd:`+` aproparà amb passos discrets."
 
 #: ../../reference_manual/tools/zoom.rst:31
 msgid ":kbd:`-` will zoom out with discrete steps."
-msgstr ""
+msgstr ":kbd:`+` allunyarà amb passos discrets."
 
 #: ../../reference_manual/tools/zoom.rst:32
 msgid ":kbd:`1` will set the zoom to 100%."
-msgstr ""
+msgstr ":kbd:`1` establirà el zoom al 100%."
 
 #: ../../reference_manual/tools/zoom.rst:33
 msgid ""
 ":kbd:`2` will set the zoom so that the document fits fully into the canvas "
 "area."
 msgstr ""
+":kbd:`2` establirà el zoom de manera que el document encaixi completament a "
+"l'àrea del llenç."
 
 #: ../../reference_manual/tools/zoom.rst:34
 msgid ""
 ":kbd:`3` will set the zoom so that the document width fits fully into the "
 "canvas area."
 msgstr ""
+":kbd:`3` establirà el zoom de manera que l'amplada del document encaixi "
+"completament a l'àrea del llenç."
 
 #: ../../reference_manual/tools/zoom.rst:36
 msgid "For more information on such hotkeys, check  :ref:`navigation`."

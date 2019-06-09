@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-02 19:08+0200\n"
+"PO-Revision-Date: 2019-06-08 11:48+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -498,6 +498,8 @@ msgid ""
 "Make the current segment a curve: It'll add side handles for this segment to "
 "the nodes attached to it."
 msgstr ""
+"Convertirà el segment actual en una corba: afegirà nanses laterals per a "
+"aquest segment al costat dels nodes."
 
 #: ../../reference_manual/tools/shape_edit.rst:124
 msgid "Make Line Point"
@@ -508,6 +510,8 @@ msgid ""
 "Turn the selected node into a sharp corner: This will remove the side "
 "handles."
 msgstr ""
+"Convertirà el node seleccionat en una cantonada afilada: Això eliminarà les "
+"nanses laterals."
 
 #: ../../reference_manual/tools/shape_edit.rst:126
 msgid "Make Curve Point"
@@ -518,6 +522,8 @@ msgid ""
 "Turn the selected node into one that can curve: This will add side handles "
 "to the node."
 msgstr ""
+"Convertirà el node seleccionat en un que es podrà corbar: Això afegirà nanses "
+"laterals al node."
 
 #: ../../reference_manual/tools/shape_edit.rst:128
 msgid "Break at Point"
@@ -525,7 +531,7 @@ msgstr "Trenca al punt"
 
 #: ../../reference_manual/tools/shape_edit.rst:129
 msgid "Break the path at this point."
-msgstr ""
+msgstr "Trenca el camí en aquest punt."
 
 #: ../../reference_manual/tools/shape_edit.rst:130
 msgid "Break Segment"
@@ -533,7 +539,7 @@ msgstr "Trenca al segment"
 
 #: ../../reference_manual/tools/shape_edit.rst:131
 msgid "Break the path at the selected segment."
-msgstr ""
+msgstr "Trenca el camí al segment seleccionat."
 
 #: ../../reference_manual/tools/shape_edit.rst:132
 msgid "Join with Segment"
@@ -541,7 +547,7 @@ msgstr "Uneix amb un segment"
 
 #: ../../reference_manual/tools/shape_edit.rst:133
 msgid "Join two nodes that are only attached on one side with a segment."
-msgstr ""
+msgstr "Uneix dos nodes que només estan units per un costat amb un segment."
 
 #: ../../reference_manual/tools/shape_edit.rst:135
 msgid "Line Segment Editing"
@@ -556,6 +562,8 @@ msgid ""
 "Merge two nodes into one, if the nodes are adjacent or if both nodes are "
 "only attached on one side with a segment."
 msgstr ""
+"Fusiona dos nodes en un, si els nodes són adjacents o si ambdós només estan "
+"units en un costat amb un segment."
 
 #: ../../reference_manual/tools/shape_edit.rst:138
 msgid "Rectangle Shapes"
@@ -570,6 +578,8 @@ msgid ""
 "Rectangle shapes are the ones made with the :ref:`rectangle_tool`. It has "
 "extra options to make rounded corners easy."
 msgstr ""
+"Les formes de rectangle són les fetes amb l':ref:`rectangle_tool`. Disposa "
+"d'opcions addicionals per a crear cantonades arrodonides."
 
 #: ../../reference_manual/tools/shape_edit.rst:144
 msgid "Corner radius x"
@@ -578,7 +588,7 @@ msgstr "X del radi del vèrtex"
 #: ../../reference_manual/tools/shape_edit.rst:145
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "The radius of the y-axis of the corner curve."
-msgstr ""
+msgstr "El radi de l'eix «Y» de la corba de cantonada."
 
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "Corner radius y"
@@ -594,11 +604,11 @@ msgstr "|toolellipse|"
 
 #: ../../reference_manual/tools/shape_edit.rst:154
 msgid "Ellipse shapes are the ones made with the :ref:`ellipse_tool`."
-msgstr ""
+msgstr "Les formes d'el·lipse són les que es creen amb l':ref:`ellipse_tool`."
 
 #: ../../reference_manual/tools/shape_edit.rst:157
 msgid "The type of ellipse shape it is."
-msgstr ""
+msgstr "El tipus de forma que serà l'el·lipse."
 
 #: ../../reference_manual/tools/shape_edit.rst:159
 msgid "Arc"
@@ -607,16 +617,20 @@ msgstr "Arc"
 #: ../../reference_manual/tools/shape_edit.rst:160
 msgid "An arc shape will keep the path open when it isn't fully circular."
 msgstr ""
+"Una forma d'arc mantindrà el camí obert quan no sigui completament circular."
 
 #: ../../reference_manual/tools/shape_edit.rst:161
 msgid "Pie"
 msgstr "Sector"
 
+# skip-rule: kct-cut
 #: ../../reference_manual/tools/shape_edit.rst:162
 msgid ""
 "A pie shape will add two extra lines to the center when the shape isn't "
 "fully circular, like how one cuts out a piece from a pie."
 msgstr ""
+"Una forma de sector afegirà dues línies addicionals al centre quan la forma "
+"no sigui completament circular, com si es tallés una peça d'un pastís."
 
 #: ../../reference_manual/tools/shape_edit.rst:164
 msgid "Type"
@@ -624,13 +638,15 @@ msgstr "Tipus"
 
 #: ../../reference_manual/tools/shape_edit.rst:164
 msgid "Cord"
-msgstr ""
+msgstr "Cordó"
 
 #: ../../reference_manual/tools/shape_edit.rst:164
 msgid ""
 "A cord shape will add a straight line between the two ends if the path isn't "
 "fully circular, as if a cord is being strung between the two points."
 msgstr ""
+"Una forma de cordó afegirà una línia recta entre els dos extrems si el camí "
+"no és completament circular, com si es tingués una corda entre els dos punts."
 
 #: ../../reference_manual/tools/shape_edit.rst:166
 msgid "Start Angle"
@@ -638,7 +654,7 @@ msgstr "Angle inicial"
 
 #: ../../reference_manual/tools/shape_edit.rst:167
 msgid "The angle at which the shape starts."
-msgstr ""
+msgstr "L'angle en el que comença la forma."
 
 #: ../../reference_manual/tools/shape_edit.rst:168
 msgid "End Angle"
@@ -646,8 +662,8 @@ msgstr "Angle final"
 
 #: ../../reference_manual/tools/shape_edit.rst:169
 msgid "The angle at which the shape ends."
-msgstr ""
+msgstr "L'angle en el que finalitza la forma."
 
 #: ../../reference_manual/tools/shape_edit.rst:171
 msgid "An action to quickly make the ellipse fully circular."
-msgstr ""
+msgstr "Una acció per a crear ràpidament una el·lipse completament circular."

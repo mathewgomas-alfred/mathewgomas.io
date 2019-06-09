@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:14+0200\n"
+"PO-Revision-Date: 2019-06-07 21:25+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -64,6 +64,8 @@ msgid ""
 "With this tool, you can move the current layer or selection by dragging the "
 "mouse."
 msgstr ""
+"Amb aquesta eina, podreu moure la capa o selecció actual arrossegant amb el "
+"ratolí."
 
 #: ../../reference_manual/tools/move.rst:22
 msgid "Move current layer"
@@ -71,7 +73,7 @@ msgstr "Mou la capa actual"
 
 #: ../../reference_manual/tools/move.rst:23
 msgid "Anything that is on the selected layer will be moved"
-msgstr ""
+msgstr "Es mourà qualsevol cosa que es trobi a la capa seleccionada."
 
 #: ../../reference_manual/tools/move.rst:24
 msgid "Move layer with content"
@@ -82,6 +84,8 @@ msgid ""
 "Any content contained on the layer that is resting under the four-headed "
 "Move cursor will be moved"
 msgstr ""
+"Es mourà qualsevol contingut que es trobi sobre la capa i que resti sota el "
+"cursor de moviment amb quatre caps."
 
 #: ../../reference_manual/tools/move.rst:26
 msgid "Move the whole group"
@@ -93,26 +97,33 @@ msgid ""
 "might result in slow and, sometimes, jerky movements. Use this option "
 "sparingly or only when necessary."
 msgstr ""
+"Es mourà tot el contingut que es trobi sobre totes les capes. Depenent del "
+"nombre de capes, això podria resultar en moviments lents i, de vegades, "
+"bruscos. Utilitzeu aquesta opció amb moderació o només quan sigui necessari."
 
 #: ../../reference_manual/tools/move.rst:28
 msgid "Shortcut move distance (3.0+)"
-msgstr ""
+msgstr "Drecera per a la distància a moure (3.0+)"
 
 #: ../../reference_manual/tools/move.rst:29
 msgid ""
 "This allows you to set how much, and in which units, the :kbd:`&larr;`, :kbd:"
 "`&uarr;`, :kbd:`&rarr;` and :kbd:`&darr;` actions will move the layer."
 msgstr ""
+"Això permet establir quant i en quines unitats les accions :kbd:`←`, "
+":kbd:`↑`, :kbd:`→` i :kbd:`↓` mouran la capa."
 
 #: ../../reference_manual/tools/move.rst:30
 msgid "Large Move Scale (3.0+)"
-msgstr ""
+msgstr "Escala per al moviment gran (3.0+)"
 
 #: ../../reference_manual/tools/move.rst:31
 msgid ""
 "Allows you to multiply the movement of the Shortcut Move Distance when "
 "pressing :kbd:`Shift` before pressing a direction key."
 msgstr ""
+"Permet multiplicar el moviment de la Drecera per a la distància a moure en "
+"prémer la tecla :kbd:`Majús.` abans de prémer una tecla de direcció."
 
 #: ../../reference_manual/tools/move.rst:32
 msgid "Show coordinates"
@@ -123,6 +134,8 @@ msgid ""
 "When toggled will show the coordinates of the top-left pixel of the moved "
 "layer in a floating window."
 msgstr ""
+"Quan s'alterni, es mostraran les coordenades del píxel superior esquerre de "
+"la capa moguda en una finestra flotant."
 
 #: ../../reference_manual/tools/move.rst:35
 msgid ""
@@ -131,12 +144,18 @@ msgid ""
 "`Shift`, then click, then move, all layers will be moved, with the movement "
 "constrained to the horizontal and vertical directions"
 msgstr ""
+"Si feu clic, premeu la tecla :kbd:`Majús.` i després moveu la capa, el "
+"moviment estarà restringit a les direccions horitzontal i vertical. Si "
+"premeu la tecla :kbd:`Majús.`, feu clic i després moveu, es mouran totes les "
+"capes, amb el moviment restringit a les direccions horitzontal i vertical."
 
 #: ../../reference_manual/tools/move.rst:37
 msgid "Constrained movement"
-msgstr ""
+msgstr "Moviment restringit"
 
 #: ../../reference_manual/tools/move.rst:40
 msgid ""
 "Gives the top-left coordinate of the layer, can also be manually edited."
 msgstr ""
+"Dóna la coordenada superior esquerra de la capa, també es pot editar "
+"manualment."

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-10 11:41+0100\n"
+"PO-Revision-Date: 2019-06-08 14:07+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -32,24 +32,24 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:1
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:18
 msgid "The Clone Brush Engine manual page."
-msgstr ""
+msgstr "Manualsidan för dupliceringspenselgränssnittet."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:16
 msgid "Clone Brush Engine"
-msgstr ""
+msgstr "Dupliceringspenselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 msgid "Brush Engine"
-msgstr ""
+msgstr "Penselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:11
 msgid "Clone Tool"
-msgstr ""
+msgstr "Dupliceringsverktyg"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:30
 msgid ".. image:: images/icons/clonebrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/clonebrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:31
 msgid ""
@@ -59,6 +59,12 @@ msgid ""
 "copy or clone the source to a different area. Other applications normally "
 "have a separate tool for this, Krita has a brush engine for this."
 msgstr ""
+"Dupliceringspenseln är ett penselgränssnitt som låter dig måla med en"
+" dubblett av en sektion på ett målarlager. Det är användbart vid manipulation"
+" av foton och strukturer. Man måste välja en källa, och sedan kan man måla"
+" för att kopiera eller duplicera källan på ett annat område. Andra program"
+" har normalt ett separat verktyg för detta, medan Krita har ett"
+" penselgränssnitt."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:34
 msgid "Usage and Hotkeys"
@@ -69,6 +75,8 @@ msgid ""
 "To see the source, you need to set the brush-cursor settings to brush "
 "outline."
 msgstr ""
+"För att se källan måste man ställa in penselmarkörens inställningar till"
+" penselkontur."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:38
 msgid ""
@@ -78,10 +86,17 @@ msgid ""
 "new clone source point on the layer that was active when you selected the "
 "clone op."
 msgstr ""
+"Dupliceringsverktyget kan nu duplicera från projektionen och det är möjligt"
+" att ändra dubblettens källager. Tryck på :kbd:`Ctrl + Alt +` vänster"
+" musknapp för att välja en ny dupliceringskälla på det aktuella lagret,"
+" :kbd:`Ctrl +` vänster musknapp för att välja en ny punkt för"
+" dupliceringskällan på lagret som var aktivt när dupliceringsoperationen"
+" valdes."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:42
 msgid ":kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7"
 msgstr ""
+":kbd:`Ctrl + Alt +` vänster musknapp är tillfälligt inaktiverat i 2.9.7"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:45
 msgid "Settings"
@@ -112,18 +127,20 @@ msgid ""
 "This turns the clone brush into a healing brush: often used for removing "
 "blemishes in photo retouching, and maybe blemishes in painting."
 msgstr ""
+"Omvandlar dupliceringspenseln till en reparerande pensel, ofta använd för att"
+" ta bort fläckar vid retuschering av foton, och kanske fläckar på målningar."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:57
 msgid "Only works when there's a perspective grid visible."
-msgstr ""
+msgstr "Fungerar bara när ett perspektivrutnät är synligt."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:59
 msgid "Perspective correction"
-msgstr ""
+msgstr "Perspektivkorrigering"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:60
 msgid "This feature is currently disabled"
-msgstr ""
+msgstr "Funktionen är för närvarande inaktiverad"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:61
 msgid "Source Point move."
@@ -134,10 +151,12 @@ msgid ""
 "This will determine whether you will replicate the source point per dab or "
 "per stroke. Can be useful when used with the healing brush."
 msgstr ""
+"Bestämmer om källpunkten replikeras per klick eller per drag. Kan vara"
+" användbart när det används tillsammans med den reparerande penseln."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:63
 msgid "Source Point reset before a new stroke"
-msgstr ""
+msgstr "Nollställning av källpunkt innan nytt drag"
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:64
 msgid ""
@@ -146,8 +165,16 @@ msgid ""
 "clone the same part again in a single stroke, instead of using the source "
 "point as a permanent offset."
 msgstr ""
+"Nollställer källpunkten varje gång man gör ett nytt penseldrag. Om man alltså"
+" duplicerar en del med ett penseldrag, och det här är aktiverat, tillåter det"
+" att man duplicerar samma del igen med ett enda penseldrag, istället för att"
+" använda källpunkten som en permanent position."
 
 #: ../../reference_manual/brushes/brush_engines/clone_engine.rst:66
 msgid ""
 "Tick this to force cloning of all layers instead of just the active one."
 msgstr ""
+"Markera för att framtvinga att alla lager dupliceras istället för bara det"
+" aktiva."
+
+

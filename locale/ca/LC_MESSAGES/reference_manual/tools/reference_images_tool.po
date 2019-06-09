@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 18:49+0200\n"
+"PO-Revision-Date: 2019-06-08 11:13+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -61,6 +61,10 @@ msgid ""
 "You can use it to load images from your disk as reference, which can then be "
 "moved around freely on the canvas and placed wherever."
 msgstr ""
+"L'eina d'imatges de referència és una substitució per a l'acoblador Imatges "
+"de referència. Podeu utilitzar-la per a carregar imatges del disc com a "
+"referència, les quals després es podran moure lliurement sobre el llenç i "
+"situar-les on calgui."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:24
 msgid "Tool Options"
@@ -72,23 +76,23 @@ msgstr "Afegeix una imatge de referència"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:27
 msgid "Load a single image to display on the canvas."
-msgstr ""
+msgstr "Carrega una sola imatge per a mostrar-la al llenç."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:28
 msgid "Load Set"
-msgstr ""
+msgstr "Carrega un conjunt"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:29
 msgid "Load a set of reference images."
-msgstr ""
+msgstr "Carrega un conjunt d'imatges de referència."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:30
 msgid "Save Set"
-msgstr ""
+msgstr "Desa el conjunt"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:31
 msgid "Save a set of reference images."
-msgstr ""
+msgstr "Desa un conjunt d'imatges de referència."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:32
 msgid "Delete all reference images"
@@ -96,7 +100,7 @@ msgstr "Suprimeix totes les imatges de referència"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:33
 msgid "Delete all the reference images"
-msgstr "Suprimeix totes les imatges de referència"
+msgstr "Suprimeix totes les imatges de referència."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:34
 msgid "Keep aspect ratio"
@@ -104,7 +108,7 @@ msgstr "Mantén la relació d'aspecte"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:35
 msgid "When toggled this will force the image to not get distorted."
-msgstr ""
+msgstr "Quan s'alterna, obligarà a la imatge a no distorsionar-se."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:36
 msgid "Opacity"
@@ -112,7 +116,7 @@ msgstr "Opacitat"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:37
 msgid "Lower the opacity."
-msgstr ""
+msgstr "Baixa l'opacitat."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:38
 msgid "Saturation"
@@ -123,10 +127,12 @@ msgid ""
 "Desaturate the image. This is useful if you only want to focus on the light/"
 "shadow instead of getting distracted by the colors."
 msgstr ""
+"Dessatura la imatge. Això és útil si només voleu enfocar la llum/ombra en "
+"lloc de distreure amb els colors."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:41
 msgid "How is the reference image stored."
-msgstr ""
+msgstr "Com emmagatzemar la imatge de referència."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:43
 msgid "Embed to \\*.kra"
@@ -137,14 +143,17 @@ msgid ""
 "Store this reference image into the kra file. This is recommended for small "
 "vital files you'd easily lose track of otherwise."
 msgstr ""
+"Emmagatzema aquesta imatge de referència al fitxer kra. Això és el recomanat "
+"per als fitxers vitals petits que d'altra manera es perdrien amb facilitat."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid "Storage mode"
-msgstr ""
+msgstr "Mode d'emmagatzematge"
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid "Link to external file."
-msgstr ""
+msgstr "Enllaça a un fitxer extern"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid ""
@@ -152,6 +161,9 @@ msgid ""
 "it loads this file. This is recommended for big files, or files that change "
 "a lot."
 msgstr ""
+"Només enllaça amb la imatge de referència, el Krita l'obrirà des del disc "
+"cada vegada que carregui aquest fitxer. Això es recomana per a fitxers "
+"grans, o fitxers que canvien molt."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:48
 msgid ""
@@ -163,9 +175,19 @@ msgid ""
 "reference image by clicking it and pressing :kbd:`Del`. You can select "
 "multiple reference images with :kbd:`Shift` and perform all of these actions."
 msgstr ""
+"Podeu anar per les imatges de referència seleccionant-les fent |mouseleft| i "
+"arrossegant. Les podeu girar mantenint el cursor a prop de l'exterior de les "
+"cantonades fins que aparegui el cursor de gir, mentre que la inclinació es "
+"realitza mantenint el cursor prop de l'exterior dels nodes centrals. El "
+"canvi de mida es pot fer arrossegant els nodes. Podeu suprimir una sola "
+"imatge de referència fent clic sobre seu i prement la tecla :kbd:`Supr`. "
+"Podeu seleccionar múltiples imatges de referència amb la tecla :kbd:`Majús.` "
+"i realitzant totes aquestes accions."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:50
 msgid ""
 "To hide all reference images temporarily use :menuselection:`View --> Show "
 "Reference Images`."
 msgstr ""
+"Per ocultar totes les imatges de referència, utilitzeu "
+":menuselection:`Visualitza --> Mostra les images de referència`."

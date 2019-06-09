@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 03:24+0200\n"
-"PO-Revision-Date: 2019-06-05 14:26+0200\n"
+"PO-Revision-Date: 2019-06-08 17:45+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -220,6 +220,8 @@ msgid ""
 "Activity is highest in CET or CEST daytime and evenings. US daytime and "
 "evenings are most quiet."
 msgstr ""
+"Activiteit is het hoogst in CET of CEST overdag en 's avonds. VS overdag en "
+"s'avonds zijn het rustigst."
 
 #: ../../contributors_manual/community.rst:58
 msgid ""
@@ -227,12 +229,17 @@ msgid ""
 "will not be able to read what happened when you join the channel again. If "
 "you ask a question, you have to stay around!**"
 msgstr ""
+"**IRC wordt niet gelogd. Als u het kanaal sluit, dan bent u weg en u zult "
+"niet in staat zijn om te lezen wat er is gebeurd wanneer u weer meedoet in "
+"het channel. Als u een vraag stelt, moet u blijven rondhangen!**"
 
 #: ../../contributors_manual/community.rst:59
 msgid ""
 "It is really irritating for other users and disrupting to conversations if "
 "you keep connecting and disconnecting."
 msgstr ""
+"Het is echt irritant voor andere gebruikers en onderbreekt u conversaties "
+"als u blijft verbinden en verbreken."
 
 #: ../../contributors_manual/community.rst:63
 msgid "Mailing List"
@@ -244,11 +251,15 @@ msgid ""
 "Everyone who wants to work on Krita one way or another should be subscribed "
 "to the mailing list."
 msgstr ""
+"De e-maillijst wordt gebruikt voor aankondigingen en spaarzaam voor "
+"discussies. Iedereen die aan Krita op de een of andere manier wil werken "
+"zou ingeschreven moeten zijn op de e-maillijst."
 
 #: ../../contributors_manual/community.rst:67
 msgid ""
 "`Mailing List Archives <https://mail.kde.org/mailman/listinfo/kimageshop>`_"
 msgstr ""
+"`E-maillijstarchieven <https://mail.kde.org/mailman/listinfo/kimageshop>`_"
 
 #: ../../contributors_manual/community.rst:69
 msgid ""
@@ -256,14 +267,17 @@ msgid ""
 "which the Krita project was started. Legal issues (surprise!) led to two "
 "renames, once to Krayon, then to Krita."
 msgstr ""
+"De e-maillijst wordt \"kimageshop\" genoemd, omdat dat de naam waaronder het "
+"Krita project is gestart. Juridische problemen (verbazing!) heeft geleid "
+"tot twee keer hernoemen, eerst naar Krayon, daarna naar Krita."
 
 #: ../../contributors_manual/community.rst:73
 msgid "Gitlab (KDE Invent)"
-msgstr ""
+msgstr "Gitlab (KDE Invent)"
 
 #: ../../contributors_manual/community.rst:75
 msgid "Gitlab serves the following purposes for the Krita team:"
-msgstr ""
+msgstr "Gitlab heeft het volgen doel voor het team van Krita:"
 
 #: ../../contributors_manual/community.rst:77
 msgid ""
@@ -271,6 +285,9 @@ msgid ""
 "merge_requests for the code itself, https://invent.kde.org/websites/docs-"
 "krita-org/merge_requests for the content of the Krita Manual."
 msgstr ""
+"Bekijken van submissiesdoor vrijwilligers: https://invent.kde.org/kde/krita/"
+"merge_requests voor de code zelf, https://invent.kde.org/websites/docs-"
+"krita-org/merge_requests voor de inhoud van de Krita handleiding."
 
 #: ../../contributors_manual/community.rst:78
 msgid ""
@@ -278,26 +295,35 @@ msgid ""
 "while there are mirrors of our git repository on Github and Phabricator, we "
 "do not use them for Krita development."
 msgstr ""
+"Host voor de code, git-opslagruimte: https://invent.kde.org/kde/krita. "
+"Merk op dat terwijl er mirrors zijn van uw git-opslagruimte op Github "
+"en Phabricator, gebruiken we deze niet voor ontwikkeling van Krita."
 
 #: ../../contributors_manual/community.rst:79
 msgid ""
 "Host the Krita Manual content repository: https://invent.kde.org/websites/"
 "docs-krita-org"
 msgstr ""
+"Host voor de inhoudsopslagruimte van de Krita handleiding: https://invent."
+"kde.org/websites/docs-krita-org"
 
 #: ../../contributors_manual/community.rst:81
 msgid "**Do not** make new issues on Gitlab or use it to make bug reports."
 msgstr ""
+"**Geen** nieuwe problemen op Gitlab maken of het gebruiken om bugrapporten "
+"te maken."
 
 #: ../../contributors_manual/community.rst:83
 msgid ""
 "**Do** put all your code submissions (merge requests) on Gitlab. **Do not** "
 "attach patches to bugs in the bug tracker."
 msgstr ""
+"**Zet** al uw indienen van code (merge-requests) op Gitlab. **Geen** "
+"patches aan bugs hangen in de bugtracker."
 
 #: ../../contributors_manual/community.rst:88
 msgid "Phabricator serves the following purposes for the Krita team:"
-msgstr ""
+msgstr "Phabricator dient de volgende doelen voor het team van Krita:"
 
 #: ../../contributors_manual/community.rst:90
 msgid ""
@@ -305,16 +331,21 @@ msgid ""
 "includes development tasks, designing new features and UX design, as well as "
 "tasks related to the website."
 msgstr ""
+"Volg waaraan er wordt gewerkt: https://phabricator.kde.org/maniphest/ Dit "
+"omvat ontwikkeltaken, Ontwerpen van nieuwe functies en UX-ontwerp, evenals "
+"taken gerelateerd aan de website."
 
 #: ../../contributors_manual/community.rst:92
 msgid ""
 "**Do not** report bugs as tasks on Phabricator. Phabricator is where we "
 "organize our work."
 msgstr ""
+"**Geen** rapportage van bugs als taken op Phabricator. Phabricator is waar "
+"we ons werk organiseren."
 
 #: ../../contributors_manual/community.rst:95
 msgid "Bugzilla: the Bug Tracker"
-msgstr ""
+msgstr "Bugzilla: de Bugtracker"
 
 #: ../../contributors_manual/community.rst:97
 msgid ""
@@ -327,10 +358,18 @@ msgid ""
 "`Feature Requests <developing_features>` for what is needed to create a good "
 "feature request."
 msgstr ""
+"Krita deelt de bugtracker met de rest van de KDE-gemeenschap. Bugs in Krita "
+"worden gevonden onder het Krita product. Er zijn twee soorten rapporten in "
+"de bugtracker: bugs en wensen. Zie de hoofdstukken op :ref:`Rapporteren van "
+"bugs<bugs_reporting>` en :ref:`Analyseren van bugs <triaging_bugs>` op hoe "
+"bugs te behandelen. Wensen zijn functieverzoeken. Rapporteer geen "
+"functieverzoeken in bugzilla tenzij een dat aan u heeft gevraagd. Zie het "
+"hoofdstuk op :ref:`Functieverzoeken <developing_features>` voor wat er "
+"nodig is om een goede functieverzoek te maken."
 
 #: ../../contributors_manual/community.rst:100
 msgid "Sprints"
-msgstr ""
+msgstr "Sprints"
 
 #: ../../contributors_manual/community.rst:102
 msgid ""
@@ -340,3 +379,8 @@ msgid ""
 "is usually funded by KDE e.V., while accommodation is funded by the Krita "
 "Foundation."
 msgstr ""
+"Soms komt de kern van Krita ontwikkelaars en gebruikers samen, meestal in "
+"Deventer, Nederland, om samen te werken aan onze ontwikkeling van code, "
+"ontwikkeling van UX, de website of wat echt contact, face-to-face. Reizen "
+"naar sprints wordt gewoonlijk betaald door KDE e.V., terwijl accommodatie "
+"betaald wordt door de Krita Foundation."

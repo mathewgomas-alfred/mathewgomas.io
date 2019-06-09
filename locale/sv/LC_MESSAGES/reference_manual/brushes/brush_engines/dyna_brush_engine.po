@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-10 11:46+0100\n"
+"PO-Revision-Date: 2019-06-08 10:01+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,11 +23,11 @@ msgstr "Målarfärgsanslutning"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:1
 msgid "The Dyna Brush Engine manual page."
-msgstr ""
+msgstr "Manualsidan för det dynamiska penselgränssnittet."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:15
 msgid "Dyna Brush Engine"
-msgstr ""
+msgstr "Dynamiskt penselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:18
 msgid ".. image:: images/icons/dynabrush.svg"
@@ -40,6 +40,10 @@ msgid ""
 "brush you can play with values in 'dynamic settings' section of the brush "
 "editor under Dyna Brush."
 msgstr ""
+"Dynamisk pensel använder dynamiska inställningar som massa och motstånd för"
+" att rita penseldrag. Resultaten är roliga och slumpmässigt snurrande"
+" penseldrag. För att experimentera mer med penseln kan man leka med värden i"
+" penseleditorns sektion 'dynamiska inställningar' under Dynamisk pensel."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:23
 msgid ""
@@ -47,6 +51,10 @@ msgid ""
 "results that the dyna brush tool has in the toolbox. The stabilizer settings "
 "can also give you further smoothing options from the tool options."
 msgstr ""
+"Det här penselgränssnittet har tagits bort i 4.0. Gränssnittet hade i"
+" huvudsak utjämningsresultat som det dynamiska penselverktyget i"
+" verktygslådan har. Stabiliseringsinställningarna kan också ge ytterligare"
+" utjämningsalternativ i verktygsalternativen."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:26
 msgid "Options"
@@ -70,7 +78,7 @@ msgstr ":ref:`option_airbrush`"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:36
 msgid "Brush Size (Dyna)"
-msgstr ""
+msgstr "Penselstorlek (dynamisk)"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:39
 msgid "Dynamics Settings"
@@ -82,7 +90,7 @@ msgstr "Ursprunglig bredd"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:42
 msgid "Initial size of the dab."
-msgstr ""
+msgstr "Klickets ursprungliga storlek."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:43
 msgid "Mass"
@@ -90,15 +98,15 @@ msgstr "Massa"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:44
 msgid "How much energy there is in the satellite like movement."
-msgstr ""
+msgstr "Hur mycket energi som finns i den satellitliknande rörelsen."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:45
 msgid "Drag"
-msgstr "Dra"
+msgstr "Motstånd"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:46
 msgid "How close the dabs follow the position of the brush-cursor."
-msgstr ""
+msgstr "Hur tätt klicken följer penselmarkörens position."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:48
 msgid "Width Range"
@@ -106,7 +114,7 @@ msgstr "Breddintervall"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:48
 msgid "How much the dab expands with speed."
-msgstr ""
+msgstr "Hur mycket klicket expanderas med hastigheten."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:51
 msgid "Shape"
@@ -118,7 +126,7 @@ msgstr "Diameter"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:54
 msgid "Size of the shape."
-msgstr ""
+msgstr "Formens storlek."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:55
 msgid "Angle"
@@ -126,7 +134,7 @@ msgstr "Vinkel"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:56
 msgid "Angle of the shape. Requires Fixed Angle active to work."
-msgstr ""
+msgstr "Formens vinkel. Kräver att Fast vinkel är aktiverad för att fungera."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:57
 msgid "Circle"
@@ -134,7 +142,7 @@ msgstr "Cirkel"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:58
 msgid "Make a circular dab appear."
-msgstr ""
+msgstr "Får en cirkulär klick att dyka upp."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:59
 msgid "Two"
@@ -142,7 +150,7 @@ msgstr "Två"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:60
 msgid "Draws an extra circle between other circles."
-msgstr ""
+msgstr "Ritar en extra cirkel mellan andra cirklar."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:61
 msgid "Line"
@@ -153,6 +161,8 @@ msgid ""
 "Connecting lines are drawn next to each other. The number boxes on the right "
 "allows you to set the spacing between the lines and how many are drawn."
 msgstr ""
+"Sammanfogade linjer ritas intill varandra. Nummerrutorna till höger låter dig"
+" ställa in mellanrummet mellan linjerna och hur många som ritas."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:63
 msgid "Polygon"
@@ -160,7 +170,7 @@ msgstr "Polygon"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:64
 msgid "Draws a black polygon as dab."
-msgstr ""
+msgstr "Ritar en svart polygon som en klick."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:65
 msgid "Wire"
@@ -168,8 +178,9 @@ msgstr "Tråd"
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:66
 msgid "Draws the wireframe of the polygon."
-msgstr ""
+msgstr "Ritar polygonens trådram."
 
 #: ../../reference_manual/brushes/brush_engines/dyna_brush_engine.rst:68
 msgid "Draws the connection line."
-msgstr ""
+msgstr "Ritar anslutningslinjen."
+

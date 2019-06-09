@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:49+0100\n"
+"PO-Revision-Date: 2019-06-08 12:31+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -30,6 +30,8 @@ msgid ""
 ".. image:: images/icons/reference_images_tool.svg\n"
 "   :alt: toolreference"
 msgstr ""
+".. image:: images/icons/reference_images_tool.svg\n"
+"   :alt: referensverktyg"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:1
 msgid "The reference images tool"
@@ -49,7 +51,7 @@ msgstr "Referensbildverktyg"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:17
 msgid "|toolreference|"
-msgstr ""
+msgstr "|toolreference|"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:21
 msgid ""
@@ -57,10 +59,13 @@ msgid ""
 "You can use it to load images from your disk as reference, which can then be "
 "moved around freely on the canvas and placed wherever."
 msgstr ""
+"Referensbildverktyget är en ersättning för referensbildpanelen. Det kan"
+" användas för att läsa in bilder från disk som referens, vilken sedan fritt"
+" kan flyttas omkring på duken och placeras var som helst."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:24
 msgid "Tool Options"
-msgstr ""
+msgstr "Verktygsalternativ"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:26
 msgid "Add reference image"
@@ -68,7 +73,7 @@ msgstr "Lägg till referensbild"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:27
 msgid "Load a single image to display on the canvas."
-msgstr ""
+msgstr "Läs in en enskild bild att visa på duken."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:28
 msgid "Load Set"
@@ -76,7 +81,7 @@ msgstr "Läs in uppsättning"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:29
 msgid "Load a set of reference images."
-msgstr ""
+msgstr "Läser in en uppsättning referensbilder."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:30
 msgid "Save Set"
@@ -84,7 +89,7 @@ msgstr "Spara uppsättning"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:31
 msgid "Save a set of reference images."
-msgstr ""
+msgstr "Sparar en uppsättning referensbilder."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:32
 msgid "Delete all reference images"
@@ -92,7 +97,7 @@ msgstr "Ta bort alla referensbilder"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:33
 msgid "Delete all the reference images"
-msgstr ""
+msgstr "Ta bort alla referensbilder"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:34
 msgid "Keep aspect ratio"
@@ -100,7 +105,7 @@ msgstr "Behåll proportion"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:35
 msgid "When toggled this will force the image to not get distorted."
-msgstr ""
+msgstr "När det ändras tvingar det att bilden inte blir förvrängd."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:36
 msgid "Opacity"
@@ -108,7 +113,7 @@ msgstr "Ogenomskinlighet"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:37
 msgid "Lower the opacity."
-msgstr ""
+msgstr "Sänker ogenomskinligheten."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:38
 msgid "Saturation"
@@ -119,10 +124,12 @@ msgid ""
 "Desaturate the image. This is useful if you only want to focus on the light/"
 "shadow instead of getting distracted by the colors."
 msgstr ""
+"Avmätta bilden. Det är användbart om man bara vill fokusera på ljus och"
+" skugga istället för att bli distraherad av färgerna."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:41
 msgid "How is the reference image stored."
-msgstr ""
+msgstr "Hur referensbilden lagras."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:43
 msgid "Embed to \\*.kra"
@@ -133,10 +140,12 @@ msgid ""
 "Store this reference image into the kra file. This is recommended for small "
 "vital files you'd easily lose track of otherwise."
 msgstr ""
+"Lagra referensbilden i kra-filen. Det rekommenderas för små virtuella filer"
+" som man annars kan tappa bort."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid "Storage mode"
-msgstr ""
+msgstr "Lagringsmetod"
 
 #: ../../reference_manual/tools/reference_images_tool.rst:46
 msgid "Link to external file."
@@ -148,6 +157,8 @@ msgid ""
 "it loads this file. This is recommended for big files, or files that change "
 "a lot."
 msgstr ""
+"Länka bara till referensbilden. Krita öppnar den från disk varje gång filen"
+" läses in. Det rekommenderas för stora filer, eller filer om ofta ändras."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:48
 msgid ""
@@ -159,9 +170,19 @@ msgid ""
 "reference image by clicking it and pressing :kbd:`Del`. You can select "
 "multiple reference images with :kbd:`Shift` and perform all of these actions."
 msgstr ""
+"Man kan flytta omkring referensbilder genom att markera dem med vänster"
+" musknapp och dra dem. Man kan rotera referensbilder genom att hålla markören"
+" nära hörnens utsida tills rotationsmarkören visas, medan lutning görs genom"
+" att hålla markören nära utsidan av mittnoderna. Storleksändring kan göras"
+" genom att dra noderna. Man kan ta bort en enskild referensbild genom att"
+" klicka på den och trycka på :kbd:`Del`. Man kan markera flera referensbilder"
+" med :kbd:`Skift` och utföra alla de här åtgärderna."
 
 #: ../../reference_manual/tools/reference_images_tool.rst:50
 msgid ""
 "To hide all reference images temporarily use :menuselection:`View --> Show "
 "Reference Images`."
 msgstr ""
+"Använd :menuselection:`Visa --> Visa referensbilder`. för att tillfälligt"
+" dölja alla referensbilder."
+

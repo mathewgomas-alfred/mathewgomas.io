@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:49+0100\n"
+"PO-Revision-Date: 2019-06-08 06:54+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../general_concepts/file_formats/file_gih.rst:1
 msgid "The Gimp Image Hose file format in Krita."
-msgstr ""
+msgstr "GIMP-bildslangfilformat i Krita."
 
 #: ../../general_concepts/file_formats/file_gih.rst:10
 msgid "Image Hose"
-msgstr ""
+msgstr "Bildslang"
 
 #: ../../general_concepts/file_formats/file_gih.rst:10
 msgid "Gimp Image Hose"
-msgstr ""
+msgstr "GIMP-bildslang"
 
 #: ../../general_concepts/file_formats/file_gih.rst:10
 msgid "GIH"
@@ -46,6 +46,8 @@ msgid ""
 "The GIMP image hose format. Krita can open and save these, as well as import "
 "via the :ref:`predefined brush tab <predefined_brush_tip>`."
 msgstr ""
+"GIMP-bildslangformatet. Krita kan öppna och spara det, samt importera via"
+" :ref:`fliken fördefinerade penslar tab <predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
 msgid ""
@@ -53,18 +55,21 @@ msgid ""
 "and then set some options to make it specify how to output the multiple "
 "images."
 msgstr ""
+"Bildslang betyder att filformatet låter dig lagra flera bilder och sedan"
+" ställa in några alternativ för att specificera hur alla bilderna ska matas"
+" ut."
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid ".. image:: images/brushes/Gih-examples.png"
-msgstr ""
+msgstr ".. image:: images/brushes/Gih-examples.png"
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid "From top to bottom: Incremental, Pressure and Random"
-msgstr ""
+msgstr "Från topp till botten: Inkrementell, Tryck och Slumpmässig"
 
 #: ../../general_concepts/file_formats/file_gih.rst:27
 msgid "Gimp image hose format options:"
-msgstr ""
+msgstr "Alternativ för GIMP-bildslangfilformatet:"
 
 #: ../../general_concepts/file_formats/file_gih.rst:29
 msgid "Constant"
@@ -72,7 +77,7 @@ msgstr "Konstant"
 
 #: ../../general_concepts/file_formats/file_gih.rst:30
 msgid "This'll use the first image, no matter what."
-msgstr ""
+msgstr "Använder första bilden oavsett."
 
 #: ../../general_concepts/file_formats/file_gih.rst:31
 msgid "Incremental"
@@ -83,6 +88,8 @@ msgid ""
 "This'll paint the image layers in sequence. This is good for images that can "
 "be strung together to create a pattern."
 msgstr ""
+"Målar bildlagren i sekvens. Det är bra för bilder som kan knytas samman för"
+" att skapa ett mönster."
 
 #: ../../general_concepts/file_formats/file_gih.rst:33
 msgid "Pressure"
@@ -93,6 +100,8 @@ msgid ""
 "This'll paint the images depending on pressure. This is good for brushes "
 "imitating the hairs of a natural brush."
 msgstr ""
+"Målar bilderna beroende på tryck. Det är bra för penslar som imiterar håren i"
+" en naturlig pensel."
 
 #: ../../general_concepts/file_formats/file_gih.rst:35
 msgid "Random"
@@ -104,6 +113,9 @@ msgid ""
 "speedpainting as well as images that generate texture. Or perhaps more "
 "graphical symbols."
 msgstr ""
+"Ritar bilderna slumpmässigt. Det är bra för bildsamlingar använda vid"
+" snabbmålning samt bilder som skapar en struktur. Eller kanske mer grafiska"
+" symboler."
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "Angle"
@@ -111,7 +123,7 @@ msgstr "Vinkel"
 
 #: ../../general_concepts/file_formats/file_gih.rst:38
 msgid "This'll use the dragging angle to determine with image to draw."
-msgstr ""
+msgstr "Det använder dragvinkeln för att bestämma vilken bild som ska ritas."
 
 #: ../../general_concepts/file_formats/file_gih.rst:40
 msgid ""
@@ -120,6 +132,10 @@ msgid ""
 "it up in the UI) and the ability to choose whether or not to generate the "
 "mask from the colors."
 msgstr ""
+"Vid export av en Krita-fil som en .gih, får man också alternativet att ange"
+" standardmellanrummet, alternativet för att ange namnet (mycket viktigt för"
+" att slå upp den i användargränssnittet), och "
+"möjlighet att välja om masken ska genereras från färgerna eller inte."
 
 #: ../../general_concepts/file_formats/file_gih.rst:43
 msgid "Use Color as Mask"
@@ -131,9 +147,14 @@ msgid ""
 "whitest as transparent. Untick this if you are using colored images for the "
 "brush."
 msgstr ""
+"Det ändrar de mörkaste värdena på bilden till de som målar, och de ljusaste"
+" till genomskinliga. Avmarkera det om färglagda bilder används för penseln.."
 
 #: ../../general_concepts/file_formats/file_gih.rst:45
 msgid ""
 "We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to "
 "create your own gih brush."
 msgstr ""
+"Det finns en :ref:`Krita penselspetssida <brush_tip_animated_brush>` om hur"
+" man skapar sin egen gih-pensel."
+

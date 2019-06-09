@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-26 01:15+0200\n"
+"PO-Revision-Date: 2019-06-07 21:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -58,11 +58,11 @@ msgstr "Pinzell múltiple"
 
 #: ../../reference_manual/tools/multibrush.rst:11
 msgid "Mandala"
-msgstr ""
+msgstr "Mandala"
 
 #: ../../reference_manual/tools/multibrush.rst:11
 msgid "Rotational Symmetry"
-msgstr ""
+msgstr "Simetria rotacional"
 
 #: ../../reference_manual/tools/multibrush.rst:16
 msgid "Multibrush Tool"
@@ -80,10 +80,17 @@ msgid ""
 "toggling the :ref:`mirror_tools`, but the Multibrush is more sophisticated, "
 "for example it can mirror freehand brush strokes along a rotated axis."
 msgstr ""
+"L'eina de Pinzell múltiple permet dibuixar utilitzant múltiples instàncies "
+"d'un traç del pinzell a mà alçada, s'hi pot accedir des de l'acoblador "
+"Quadre d'eines o amb la drecera predeterminada :kbd:`Q`. El seu ús és "
+"similar a alternar les :ref:`mirror_tools`, però el Pinzell múltiple és més "
+"sofisticat, per exemple, pot reflectir els traços del pinzell a mà alçada al "
+"llarg d'un eix de gir."
 
 #: ../../reference_manual/tools/multibrush.rst:22
 msgid "The settings for the tool will be found in the tool options dock."
 msgstr ""
+"Els ajustaments per a l'eina es troben a l'acoblador Opcions de l'eina."
 
 #: ../../reference_manual/tools/multibrush.rst:24
 msgid ""
@@ -92,16 +99,23 @@ msgid ""
 "be set in the tool options dock. The default axis is the center of the "
 "canvas."
 msgstr ""
+"L'eina de Pinzell múltiple té tres modes i els ajustaments per a cadascun es "
+"troben a l'acoblador Opcions de l'eina. La simetria i el mirall es "
+"reflecteixen sobre un eix que es pot establir a l'acoblador Opcions de "
+"l'eina. L'eix predeterminat és el centre del llenç."
 
 #: ../../reference_manual/tools/multibrush.rst:29
 msgid "The three modes are:"
-msgstr ""
+msgstr "Els tres modes són:"
 
 #: ../../reference_manual/tools/multibrush.rst:32
 msgid ""
 "Symmetry will reflect your brush around the axis at even intervals. The "
 "slider determines the number of instances which will be drawn on the canvas."
 msgstr ""
+"La simetria reflectirà el pinzell al voltant de l'eix a intervals regulars. "
+"El control lliscant determinarà el nombre d'instàncies que es dibuixaran en "
+"el llenç."
 
 #: ../../reference_manual/tools/multibrush.rst:33
 msgid "Mirror"
@@ -109,7 +123,7 @@ msgstr "Mirall"
 
 #: ../../reference_manual/tools/multibrush.rst:34
 msgid "Mirror will reflect the brush across the X axis, the Y axis, or both."
-msgstr ""
+msgstr "El mirall reflectirà el pinzell sobre l'eix «X», l'eix «Y» o ambdós."
 
 #: ../../reference_manual/tools/multibrush.rst:35
 msgid "Translate"
@@ -120,6 +134,8 @@ msgid ""
 "Translate will paint the set number of instances around the cursor at the "
 "radius distance."
 msgstr ""
+"El traduir pintarà el nombre establert d'instàncies al voltant del cursor a "
+"la distància del radi."
 
 #: ../../reference_manual/tools/multibrush.rst:37
 msgid "Snowflake"
@@ -130,10 +146,12 @@ msgid ""
 "This works as a mirrored symmetry, but is a bit slower than symmetry+toolbar "
 "mirror mode."
 msgstr ""
+"Funciona com una simetria reflectida, però és una mica més lent que el mode "
+"d'emmirallar simetria + barra d'eines."
 
 #: ../../reference_manual/tools/multibrush.rst:40
 msgid "Copy Translate"
-msgstr "Trasllada còpia"
+msgstr "Trasllada la còpia"
 
 #: ../../reference_manual/tools/multibrush.rst:40
 msgid ""
@@ -143,9 +161,17 @@ msgid ""
 "origin. Finally, press :guilabel:`Add` again, and start drawing to see the "
 "copy translate in action."
 msgstr ""
+"Permet establir la posició de les còpies en relació amb el vostre cursor. Per "
+"establir la posició de les còpies, primer seleccioneu :guilabel:`Afegeix` i "
+"després feu |mouseleft| sobre el llenç per a posar les còpies en relació amb "
+"l'origen del Pinzell múltiple. Finalment, premeu :guilabel:`Afegeix` de nou, "
+"i comenceu a dibuixar per a veure Trasllada la còpia en acció."
 
 #: ../../reference_manual/tools/multibrush.rst:42
 msgid ""
 "The assistant and smoothing options work the same as in the :ref:"
 "`freehand_brush_tool`, though only on the real brush and not its copies."
 msgstr ""
+"Les opcions d'assistent i suavitzat funcionen de la mateixa manera que en "
+"l':ref:`freehand_brush_tool`, encara que només sobre el pinzell real i no en "
+"les seves còpies."

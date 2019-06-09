@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-01 22:00+0200\n"
+"PO-Revision-Date: 2019-06-08 17:57+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../reference_manual/tools/path.rst:1
 msgid "Krita's path tool reference."
-msgstr "Referència de l'eina Traç del Krita."
+msgstr "Referència de l'eina Camí del Krita."
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Tools"
@@ -61,7 +61,7 @@ msgstr "Vectors"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Path"
-msgstr "Traç"
+msgstr "Camí"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Bezier Curve"
@@ -69,7 +69,7 @@ msgstr "Corbes de Bézier"
 
 #: ../../reference_manual/tools/path.rst:11
 msgid "Pen"
-msgstr ""
+msgstr "Llapis"
 
 #: ../../reference_manual/tools/path.rst:17
 msgid "Bezier Curve Tool"
@@ -85,6 +85,9 @@ msgid ""
 "the starting point of the curve, then click again for consecutive control "
 "points of the curve."
 msgstr ""
+"Podreu dibuixar les corbes utilitzant aquesta eina. Feu |mouseleft| per "
+"indicar el punt d'inici de la corba, després feu clic de nou per obtenir els "
+"punts de control consecutius de la corba."
 
 #: ../../reference_manual/tools/path.rst:23
 msgid ""
@@ -92,6 +95,9 @@ msgid ""
 "control point. You can drag these handles to change the direction of the "
 "curve in that point."
 msgstr ""
+"El :program:`Krita` mostrarà una línia blava amb dues nanses quan afegiu un "
+"punt de control. Podreu arrossegar aquestes nanses per a canviar la direcció "
+"de la corba en aquest punt."
 
 #: ../../reference_manual/tools/path.rst:25
 msgid ""
@@ -102,6 +108,12 @@ msgid ""
 "directions. After editing a point, you can just click on the canvas to "
 "continue adding points to the curve."
 msgstr ""
+"Sobre una capa vectorial, podreu fer clic sobre un punt de control inserit "
+"prèviament per a modificar-lo. Amb un punt de control intermedi (és a dir, "
+"un punt que no serà el punt inicial ni el punt final), podreu moure les "
+"nanses de direcció per separat perquè la corba entri i deixi el punt en "
+"diferents direccions. Després d'editar un punt, podreu simplement fer clic "
+"sobre el llenç per a continuar afegint punts a la corba."
 
 #: ../../reference_manual/tools/path.rst:27
 msgid ""
@@ -111,6 +123,11 @@ msgid ""
 "curve. You can use :kbd:`Ctrl` while keeping the |mouseleft| pressed to move "
 "the entire curve to a different position."
 msgstr ""
+"En prémer la tecla :kbd:`Supr` s'eliminarà el punt de control seleccionat de "
+"la corba. Feu doble |mouseleft| sobre qualsevol punt de la corba o premeu la "
+"tecla :kbd:`Retorn` per a finalitzar el dibuix, o premeu la tecla :kbd:`Esc` "
+"per a cancel·lar tota la corba. Podeu utilitzar la tecla :kbd:`Ctrl` i mentre "
+"la manteniu premuda per a moure tota la corba a una posició diferent."
 
 #: ../../reference_manual/tools/path.rst:29
 msgid ""
@@ -119,6 +136,10 @@ msgid ""
 "make a handle while at the end of the curve. |mouseright| will undo the last "
 "added point."
 msgstr ""
+"Amb la tecla :kbd:`Ctrl` mentre arrossegueu s'empenyeran les nanses en tots "
+"dos sentits. La tecla :kbd:`Alt` crearà una cantonada més definida, i la "
+"tecla :kbd:`Majús.` permetrà crear una nansa al final de la corba. Fer "
+"|mouseright| desfarà l'últim punt afegit."
 
 #: ../../reference_manual/tools/path.rst:32
 msgid "Tool Options"
@@ -134,6 +155,9 @@ msgid ""
 "angles. Untoggle this if you want to create sharp angles for a node. This "
 "will not affect curve sharpness from dragging after clicking."
 msgstr ""
+"En alternar, els nodes s'inicialitzaran amb corbes suaus en lloc d'angles. "
+"Desactiveu aquesta opció si voleu crear angles més definits per a un node. "
+"Això no afectarà la nitidesa de la corba en arrossegar després de fer clic."
 
 #: ../../reference_manual/tools/path.rst:39
 msgid "Angle Snapping Delta"
@@ -141,7 +165,7 @@ msgstr "Delta de l'ajust de l'angle"
 
 #: ../../reference_manual/tools/path.rst:40
 msgid "The angle to snap to."
-msgstr ""
+msgstr "L'angle al que s'ajustarà."
 
 #: ../../reference_manual/tools/path.rst:42
 msgid ""
@@ -149,3 +173,6 @@ msgid ""
 "of the current. The angle is determined by the :guilabel:`Angle Snapping "
 "Delta`."
 msgstr ""
+"L'ajust de l'angle farà que sigui més fàcil tenir la següent línia en un "
+"angle específic de l'actual. L'angle estarà determinat pel :guilabel:`Delta "
+"de l'ajust de l'angle`."

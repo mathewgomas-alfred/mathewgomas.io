@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-06-05 19:00+0200\n"
+"PO-Revision-Date: 2019-06-08 17:56+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -61,7 +61,7 @@ msgstr "Vectors"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Path"
-msgstr "Traç"
+msgstr "Camí"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Bezier Curve"
@@ -69,7 +69,7 @@ msgstr "Corbes de Bézier"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Pen"
-msgstr ""
+msgstr "Llapis"
 
 #: ../../reference_manual/tools/path_select.rst:11
 msgid "Selection"
@@ -77,7 +77,7 @@ msgstr "Selecció"
 
 #: ../../reference_manual/tools/path_select.rst:17
 msgid "Path Selection Tool"
-msgstr "Eina de selecció del traç"
+msgstr "Eina de selecció del camí"
 
 #: ../../reference_manual/tools/path_select.rst:19
 msgid "|toolselectpath|"
@@ -91,6 +91,11 @@ msgid ""
 "and drag to curve the line between points. Finally click on the first point "
 "you created to close your path."
 msgstr ""
+"Aquesta eina, representada per una el·lipse amb una vora discontinua i un "
+"control de la corba, permet crear una :ref:`selections_basics` d'una àrea "
+"dibuixant un camí al seu voltant. Feu clic on vulgueu que resti cada punt "
+"del camí. Feu clic i arrossegueu entre els punts per a corbar la línia. "
+"Finalment, feu clic al primer punt que heu creat per a tancar el camí."
 
 #: ../../reference_manual/tools/path_select.rst:24
 msgid "Hotkeys and Sticky keys"
@@ -158,7 +163,7 @@ msgid ""
 "You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead "
 "by toggling the switch in the :ref:`general_settings`"
 msgstr ""
-"Podeu canviar el comportament de la tecla :kbd:`Alt` per utilitzar :kbd:"
+"Podreu canviar el comportament de la tecla :kbd:`Alt` per utilitzar :kbd:"
 "`Ctrl` en lloc d'alternar el canvi als :ref:`general_settings`."
 
 #: ../../reference_manual/tools/path_select.rst:46
@@ -177,6 +182,9 @@ msgid ""
 "angles. Untoggle this if you want to create sharp angles for a node. This "
 "will not affect curve sharpness from dragging after clicking."
 msgstr ""
+"En alternar, els nodes s'inicialitzaran amb corbes suaus en lloc d'angles. "
+"Desactiveu aquesta opció si voleu crear angles més definits per a un node. "
+"Això no afectarà la nitidesa de la corba en arrossegar després de fer clic."
 
 #: ../../reference_manual/tools/path_select.rst:54
 msgid "Anti-aliasing"
@@ -196,7 +204,7 @@ msgstr "Delta de l'ajust de l'angle"
 
 #: ../../reference_manual/tools/path_select.rst:62
 msgid "The angle to snap to."
-msgstr ""
+msgstr "L'angle al que s'ajustarà."
 
 #: ../../reference_manual/tools/path_select.rst:64
 msgid ""
@@ -204,3 +212,6 @@ msgid ""
 "of the current. The angle is determined by the :guilabel:`Angle Snapping "
 "Delta`."
 msgstr ""
+"L'ajust de l'angle farà que sigui més fàcil tenir la següent línia en un "
+"angle específic de l'actual. L'angle estarà determinat pel :guilabel:`Delta "
+"de l'ajust de l'angle`."

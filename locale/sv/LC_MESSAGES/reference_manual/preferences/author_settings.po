@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:49+0100\n"
+"PO-Revision-Date: 2019-06-08 14:16+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -27,39 +27,43 @@ msgstr ""
 
 #: ../../reference_manual/preferences/author_settings.rst:1
 msgid "Author profile settings in Krita."
-msgstr ""
+msgstr "Inställningar av upphovsmannaprofil i Krita."
 
 #: ../../reference_manual/preferences/author_settings.rst:11
 msgid "Preferences"
-msgstr ""
+msgstr "Anpassning"
 
 #: ../../reference_manual/preferences/author_settings.rst:11
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: ../../reference_manual/preferences/author_settings.rst:11
 msgid "Author Profile"
-msgstr ""
+msgstr "Upphovsmannaprofil"
 
 #: ../../reference_manual/preferences/author_settings.rst:11
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #: ../../reference_manual/preferences/author_settings.rst:16
 msgid "Author Profile Settings"
-msgstr ""
+msgstr "Inställningar av upphovsmannaprofil"
 
 #: ../../reference_manual/preferences/author_settings.rst:18
 msgid ""
 "Krita allows creating an author profile that you can use to store contact "
 "info into your images."
 msgstr ""
+"Krita tillåter att en upphovsmannaprofil skapas där man kan lagra"
+" kontaktinformation i sina bilder."
 
 #: ../../reference_manual/preferences/author_settings.rst:20
 msgid ""
 "The main element is the author page. This page was overhauled massively in "
 "4.0."
 msgstr ""
+"Huvudelementet är upphovsmannasidan. Sidan har fått en omfattande översyn i"
+" 4.0."
 
 #: ../../reference_manual/preferences/author_settings.rst:22
 msgid ""
@@ -67,10 +71,13 @@ msgid ""
 "To create a new profile, press the \"+\" button, and write up a name for the "
 "author profile."
 msgstr ""
+"Normalt används profilen \"Anonym\", som inte innehåller någonting. Klicka på"
+" knappen \"+\" för att skapa en ny profil, och skriv in ett namn på"
+" upphovsmannaprofilen."
 
 #: ../../reference_manual/preferences/author_settings.rst:24
 msgid "You can then fill out the fields."
-msgstr ""
+msgstr "Därefter kan man fylla i fälten."
 
 #: ../../reference_manual/preferences/author_settings.rst:30
 msgid ".. image:: images/preferences/Krita_4_0_preferences_author_page.png"
@@ -81,12 +88,16 @@ msgid ""
 "The position field is special in that it has a list of hard coded common "
 "artists positions it can suggest."
 msgstr ""
+"Positionsfältet är speciellt på det sätt att det har en lista med vanliga"
+" konstnärsroller som det kan föreslå."
 
 #: ../../reference_manual/preferences/author_settings.rst:32
 msgid ""
 "In older versions of Krita there could only be one of each contact info. In "
 "4.0, you can make as many contact entries as you'd like."
 msgstr ""
+"I äldre versioner av Krita kunde det bara finnas en av varje"
+" kontaktinformation. I 4.0 kan man skapa hur många kontaktposter som man vill."
 
 #: ../../reference_manual/preferences/author_settings.rst:34
 msgid ""
@@ -96,6 +107,11 @@ msgid ""
 "mouseleft| the \"New Contact Info\" text to turn it into a line edit to "
 "change the value."
 msgstr ""
+"Klicka på :guilabel:`Lägg till kontaktinformation` för att lägga till en post"
+" i rutan. Normalt ställer den in typen till hemsida, eftersom det är den som"
+" orsakar minst skräppost. Dubbelklicka på hemsidan för att ändra"
+" kontakttypen. Dubbelklicka på texten \"Ny kontaktinformation\" för att ändra"
+" den till en radeditor för att ändra värdet."
 
 #: ../../reference_manual/preferences/author_settings.rst:37
 msgid "Using the new profile"
@@ -109,10 +125,16 @@ msgid ""
 "see your last author profile as the last person who saved it in :"
 "menuselection:`File --> Document Information --> Author`"
 msgstr ""
+"För att använda en profil för den aktuella teckningen, gå till"
+" :menuselection:`Inställningar --> Aktivera upphovsmannaprofil` och välja"
+" namnet som man gav till sin profil. Därefter, när man klickar på"
+" :guilabel:`Spara` för aktuellt dokument, kan man se den senaste"
+" upphovsmannaprofil som den senaste personen som sparade det i"
+" :menuselection:`Arkiv --> Dokumentinformation --> Upphovsman`."
 
 #: ../../reference_manual/preferences/author_settings.rst:42
 msgid "Exporting author metadata to Jpeg and Png"
-msgstr ""
+msgstr "Exportera upphovsmannadata till jpeg och Png"
 
 #: ../../reference_manual/preferences/author_settings.rst:46
 msgid ""
@@ -120,9 +142,16 @@ msgid ""
 "Toggling these will store the Nickname and the *first entry in the contact "
 "info* into the metadata of png or jpeg."
 msgstr ""
+"Export till jpeg och png båda har alternativen :guilabel:`Signera med"
+" upphovsmannaprofildata`. Att aktivera dem lagrar smeknamnet och *första"
+" posten i kontaktinformationen* i metadata för jpeg eller png."
 
 #: ../../reference_manual/preferences/author_settings.rst:48
 msgid ""
 "For the above example in the screenshot, that would result in: ``ExampleMan "
 "(http://example.com)`` being stored in the metadata."
 msgstr ""
+"För ovanstående exempel på skärmbilden skulle det resultera i att"
+" ``ExampleMan (http://example.com)`` lagras i metadata."
+
+
