@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:43+0100\n"
+"PO-Revision-Date: 2019-06-09 14:39+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,21 +19,23 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Antialias threshold"
-msgstr ""
+msgstr "Kantutjämningströskel"
 
 #: ../../<rst_epilog>:58
 msgid ""
 ".. image:: images/icons/gradient_drawing_tool.svg\n"
 "   :alt: toolgradient"
 msgstr ""
+".. image:: images/icons/gradient_drawing_tool.svg\n"
+"   :alt: toningsverktyg"
 
 #: ../../reference_manual/tools/gradient_draw.rst:1
 msgid "Krita's gradient tool reference."
-msgstr ""
+msgstr "Referens för Kritas toningsverktyg."
 
 #: ../../reference_manual/tools/gradient_draw.rst:11
 msgid "Tools"
-msgstr ""
+msgstr "Verktyg"
 
 #: ../../reference_manual/tools/gradient_draw.rst:11
 msgid "Gradient"
@@ -45,7 +47,7 @@ msgstr "Toningsverktyg"
 
 #: ../../reference_manual/tools/gradient_draw.rst:18
 msgid "|toolgradient|"
-msgstr ""
+msgstr "|toolgradient|"
 
 #: ../../reference_manual/tools/gradient_draw.rst:20
 msgid ""
@@ -54,6 +56,10 @@ msgid ""
 "If there is an active selection then, similar to the :ref:`fill_tool`, the "
 "paint action will be confined to the selection's borders."
 msgstr ""
+"Toningsverktyget finns i verktygspanelen. Vänsterklicka och dra verktyget"
+" över dukens aktiva del ritar den nuvarande toningen. Om det finns en aktiv"
+" markering, på liknande sätt som för :ref:`fill_tool`, blir målningsåtgärden"
+" begränsad till markeringens gränser."
 
 #: ../../reference_manual/tools/gradient_draw.rst:23
 msgid "Tool Options"
@@ -69,7 +75,7 @@ msgstr "Linjär"
 
 #: ../../reference_manual/tools/gradient_draw.rst:28
 msgid "This will draw the gradient straight."
-msgstr ""
+msgstr "Ritar toningen linjärt."
 
 #: ../../reference_manual/tools/gradient_draw.rst:29
 msgid "Radial"
@@ -80,6 +86,7 @@ msgid ""
 "This will draw the gradient from a center, defined by where you start the "
 "stroke."
 msgstr ""
+"Ritar toningen från ett centrum, definierat av var man börjar rita strecket."
 
 #: ../../reference_manual/tools/gradient_draw.rst:31
 msgid "Square"
@@ -90,6 +97,8 @@ msgid ""
 "This will draw the gradient from a center in a square shape, defined by "
 "where you start the stroke."
 msgstr ""
+"Ritar toningen från ett centrum med en kvadratisk form, definierat av var man"
+" börjar rita strecket."
 
 #: ../../reference_manual/tools/gradient_draw.rst:33
 msgid "Conical"
@@ -100,6 +109,8 @@ msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke."
 msgstr ""
+"Sveper toningen omkring ett centrum, definierat av var man börjar rita"
+" strecket."
 
 #: ../../reference_manual/tools/gradient_draw.rst:35
 msgid "Conical-symmetric"
@@ -110,6 +121,8 @@ msgid ""
 "This will wrap the gradient around a center, defined by where you start the "
 "stroke, but will mirror the wrap once."
 msgstr ""
+"Sveper toningen omkring ett centrum, definierat av var man börjar rita"
+" strecket, men speglar svepet en gång."
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "Shaped"
@@ -117,7 +130,7 @@ msgstr "Formad"
 
 #: ../../reference_manual/tools/gradient_draw.rst:38
 msgid "This will shape the gradient depending on the selection or layer."
-msgstr ""
+msgstr "Formar toningen beroende på markeringen eller lagret."
 
 #: ../../reference_manual/tools/gradient_draw.rst:40
 msgid "Repeat:"
@@ -129,7 +142,7 @@ msgstr "Ingen"
 
 #: ../../reference_manual/tools/gradient_draw.rst:43
 msgid "This will extend the gradient into infinity."
-msgstr ""
+msgstr "Utökar toningen till oändlighet."
 
 #: ../../reference_manual/tools/gradient_draw.rst:44
 msgid "Forward"
@@ -137,7 +150,7 @@ msgstr "Framåt"
 
 #: ../../reference_manual/tools/gradient_draw.rst:45
 msgid "This will repeat the gradient into one direction."
-msgstr ""
+msgstr "Upprepar toningen i en riktning."
 
 #: ../../reference_manual/tools/gradient_draw.rst:47
 msgid "Alternating"
@@ -147,16 +160,19 @@ msgstr "Omväxlande"
 msgid ""
 "This will repeat the gradient, alternating the normal direction and the "
 "reversed."
-msgstr ""
+msgstr "Repeterar toningen, alternerande i normal och omvänd riktning."
 
 #: ../../reference_manual/tools/gradient_draw.rst:49
 msgid "Reverse"
-msgstr ""
+msgstr "Omvänd"
 
 #: ../../reference_manual/tools/gradient_draw.rst:50
 msgid "Reverses the direction of the gradient."
-msgstr ""
+msgstr "Omvänder toningens riktning."
 
 #: ../../reference_manual/tools/gradient_draw.rst:52
 msgid "Doesn't do anything, original function must have gotten lost in a port."
 msgstr ""
+"Gör ingenting, ursprunglig funktion måste ha gått förlorad vid en"
+" konvertering."
+

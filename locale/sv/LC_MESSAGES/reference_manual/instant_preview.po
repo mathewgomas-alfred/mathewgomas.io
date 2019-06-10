@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:42+0100\n"
+"PO-Revision-Date: 2019-06-09 10:14+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../reference_manual/instant_preview.rst:1
 msgid "How the Instant Preview technology in Krita works."
-msgstr ""
+msgstr "Hur teknologin för direkt förhandsgranskning i Krita fungerar."
 
 #: ../../reference_manual/instant_preview.rst:10
 #: ../../reference_manual/instant_preview.rst:15
@@ -36,11 +36,11 @@ msgstr "Direkt förhandsgranskning"
 
 #: ../../reference_manual/instant_preview.rst:10
 msgid "Performance"
-msgstr ""
+msgstr "Prestanda"
 
 #: ../../reference_manual/instant_preview.rst:10
 msgid "Lag"
-msgstr ""
+msgstr "Fördröjning"
 
 #: ../../reference_manual/instant_preview.rst:17
 msgid ""
@@ -53,10 +53,18 @@ msgid ""
 "that if you have a 4k screen and are working on a 4k image at 100% zoom, you "
 "won't feel any speed up."
 msgstr ""
+"Direkt förhandsgranskning (tidigare känt under kodnamnet Level Of Detail"
+" eller LOD-penseldrag) är Kritas speciella mekanism för uppsnabbning som"
+" finansierades av Kickstarter 2015. Krita blir långsammare med mycket stora"
+" bilder på grund av den stora mängd data som behandlas när bilderna målas."
+" Direkt förhandsgranskning fungerar genom att ta en mindre version av duken"
+" och rita återkoppling där medan Krita beräknar det verkliga penseldraget i"
+" bakgrunden. Det betyder att om man har en 4K bildskärm och arbetar med en 4K"
+" bild och 100 % zoomnivå, märker man ingen uppsnabbning."
 
 #: ../../reference_manual/instant_preview.rst:20
 msgid "Activating Instant Preview"
-msgstr ""
+msgstr "Aktivera direkt förhandsgranskning"
 
 #: ../../reference_manual/instant_preview.rst:24
 msgid ""
@@ -65,6 +73,11 @@ msgid ""
 "--> Configure Krita --> Display --> Display scaling filter`, then you won't "
 "be able to use Instant Preview either."
 msgstr ""
+"Direkt förhandsgranskning kräver som minst stöd för OpenGL 3.0. Om man inte"
+" har skalning med :guilabel:`hög kvalitet` tillgänglig under"
+" :menuselection:`Inställningar --> Anpassa Krita --> Bildskärm -->"
+" Skalningsfilter för bildskärm`, kan man inte heller använda direkt"
+" förhandsgranskning."
 
 #: ../../reference_manual/instant_preview.rst:29
 msgid ".. image:: images/brushes/Lod_position.png"
@@ -73,6 +86,7 @@ msgstr ".. image:: images/brushes/Lod_position.png"
 #: ../../reference_manual/instant_preview.rst:29
 msgid "The Global Instant Preview toggle is under the view menu"
 msgstr ""
+"Den globala inställningen av direkt förhandsgranskning finns i menyn Visa"
 
 #: ../../reference_manual/instant_preview.rst:31
 msgid ""
@@ -80,6 +94,9 @@ msgid ""
 "L`), and the settings of the given paintop by default. This is because "
 "Instant Preview has different limitations with different paint operations."
 msgstr ""
+"Direkt förhandsgranskning aktiveras på två ställen. Menyn Visa (:kbd:`Skift +"
+" L`) och i normalt inställningarna av given målaråtgärd. Det beror på att"
+" direkt förhandsgranskning har olika begränsningar för olika målaråtgärder."
 
 #: ../../reference_manual/instant_preview.rst:33
 msgid ""
@@ -87,6 +104,9 @@ msgid ""
 "ability to have Instant Preview on the brush, so does using 'fade' sensor "
 "for size."
 msgstr ""
+"Exempelvis inaktiverar överlagringsläget i färgsmetningspenseln möjlighet att"
+" få direkt förhandsgranskning för penseln, och det gör även användning av"
+" sensorn 'tona' för storlek."
 
 #: ../../reference_manual/instant_preview.rst:35
 msgid ""
@@ -95,6 +115,10 @@ msgid ""
 "a stroke, and thus will give a feeling of 'popping' when the stroke is "
 "finished."
 msgstr ""
+"På liknande sätt blir det svårare att bestämma ett drag med automatiskt"
+" mellanrum, suddig storlekssensor, vid användning av täthet i penselspetsen"
+" och vid användning av struktur i målaråtgärder, och sålunda får man en"
+" känsla av 'ryckighet' när draget avslutas."
 
 #: ../../reference_manual/instant_preview.rst:37
 msgid ""
@@ -102,6 +126,9 @@ msgid ""
 "\\* behind it. Hovering over it will give you a list of options that are "
 "affecting the Instant Preview mode."
 msgstr ""
+"När man tittar på penselinställningarna följs kryssrutan för direkt"
+" förhandsgranskning av en \\* . Genom att hålla musen över den, visas en"
+" lista över alternativ som påverkar direkt förhandsgranskning."
 
 #: ../../reference_manual/instant_preview.rst:41
 msgid ""
@@ -109,6 +136,10 @@ msgid ""
 "the threshold size at which instant preview activates. By default this "
 "100px. This is useful for brushes that are optimised to work on small sizes."
 msgstr ""
+"Vänster musknapp visar en ruta med skjutreglage som kan användas för att"
+" bestämma tröskelstorleken då direkt förhandsgranskning aktiveras. Normalt är"
+" det 100 bildpunkter. Det är användbart för penslar som är optimerade för att"
+" arbeta med små storlekar."
 
 #: ../../reference_manual/instant_preview.rst:47
 msgid ".. image:: images/brushes/Lod_position2.png"
@@ -121,31 +152,37 @@ msgid ""
 "right. Hover over it to get more detail. In this case, the issue is that "
 "auto-spacing is on."
 msgstr ""
+"Kryssrutan för direkt förhandsgranskning längst ner i"
+" penselinställningseditorn ger återmatning när det finns aktiverade"
+" inställningar som inte kan förhandsgranskas på riktigt sätt. Håll musen över"
+" den för att få mer detaljerad information. I det här fallet är problemet att"
+" automatiskt mellanrum är aktiverat."
 
 #: ../../reference_manual/instant_preview.rst:50
 msgid "Tools that benefit from Instant Preview"
-msgstr ""
+msgstr "Verktyg som drar nytta av direkt förhandsgranskning"
 
 #: ../../reference_manual/instant_preview.rst:52
 msgid "The following tools benefit from Instant Preview:"
-msgstr ""
+msgstr "Följande verktyg drar nytta av direkt förhandsgranskning:"
 
 #: ../../reference_manual/instant_preview.rst:54
 msgid "The Freehand brush tool."
-msgstr ""
+msgstr "Frihandspenselverktyget."
 
 #: ../../reference_manual/instant_preview.rst:55
 msgid "The geometric tools."
-msgstr "Geometriska verktyg."
+msgstr "De geometriska verktygen."
 
 #: ../../reference_manual/instant_preview.rst:56
 msgid "The Move Tool."
-msgstr ""
+msgstr "Flyttningsverktyget."
 
 #: ../../reference_manual/instant_preview.rst:57
 msgid "The Filters."
-msgstr ""
+msgstr "Filtren."
 
 #: ../../reference_manual/instant_preview.rst:58
 msgid "Animation."
 msgstr "Animering."
+

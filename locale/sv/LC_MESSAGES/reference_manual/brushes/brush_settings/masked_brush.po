@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-08 03:22+0200\n"
-"PO-Revision-Date: 2019-05-05 08:41+0100\n"
+"PO-Revision-Date: 2019-06-09 08:43+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -30,6 +30,8 @@ msgid ""
 "How to use the masked brush functionality in Krita. This functionality is "
 "not unlike the dual brush option from photoshop."
 msgstr ""
+"Hur den maskerade penselfunktionen används i Krita. Funktionen är inte olik"
+" alternativet med dubbel pensel i Photoshop."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:18
@@ -38,11 +40,11 @@ msgstr "Maskerad pensel"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
 msgid "Dual Brush"
-msgstr ""
+msgstr "Dubbelpensel"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:13
 msgid "Stacked Brush"
-msgstr ""
+msgstr "Stapelpensel"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:23
 msgid ""
@@ -52,6 +54,12 @@ msgid ""
 "One brush tip will be a mask for your primary brush tip. A masked brush is a "
 "good alternative to texture for creating expressive and textured brushes."
 msgstr ""
+"Maskerad pensel är en ny funktion som bara är tillgänglig i"
+" :ref:`pixel_brush_engine`. De är ytterligare inställningar som man finner i"
+" penseleditorn. Maskerade penslar låter dig kombinera två penselspetsar i ett"
+" drag. En penselspets är en mask för den primära penselspetsen. En maskerad"
+" pensel är ett bra alternativ istället för struktur för att skapa"
+" uttrycksfulla och strukturerade penslar."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:29
 msgid ""
@@ -59,6 +67,9 @@ msgid ""
 "painting mode. However, do remember that flow works as opacity does in the "
 "build-up painting mode."
 msgstr ""
+"På grund av teknologiska begränsningar fungerar den maskerade penseln bara"
+" med målningsmetoden sprid ut. Kom dock ihåg att flödet fungerar som"
+" ogenomskinlighet gör med målningsmetoden bygg upp."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:32
 msgid ""
@@ -67,14 +78,19 @@ msgid ""
 "This means when you change your brush size masking tip will be changed to "
 "keep the ratio."
 msgstr ""
+"Som med en normal penselspets kan man välja vilken penselspets som helst och"
+" ändra dess storlek, mellanrum och rotation. Den maskerade penselns storlek"
+" är relativ till huvudpenselns storlek. Det betyder att när man ändrar"
+" penselns storlek ändras den maskerade spetsen så att förhållandet bibehålls."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid ":ref:`Blending mode (drop-down inside Brush tip)<blending_modes>`:"
 msgstr ""
+":ref:`Blandningsläge (kombinationsruta inne i penselspets)<blending_modes>`:"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:35
 msgid "Blending modes changes how tips are combined."
-msgstr ""
+msgstr "Blandningslägen ändrar hur spetsar kombineras."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:38
 msgid ":ref:`option_brush_tip`"
@@ -86,7 +102,7 @@ msgstr ":ref:`option_size`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:41
 msgid "The size sensor option of the second tip."
-msgstr ""
+msgstr "Den andra spetsens alternativ för storlekssensorn."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:42
 msgid ":ref:`option_opacity_n_flow`"
@@ -98,6 +114,9 @@ msgid ""
 "default. Flow can be quite aggressive on subtract mode, so it might be an "
 "idea to turn it off there."
 msgstr ""
+"Den andra spetsens ogenomskinlighet och flöde. De avbildas normalt på en"
+" sensor. Flöde kan vara rätt aggressivt i subtraktionsläge, så det kan vara"
+" en god idé att stänga av det här."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:44
 msgid ":ref:`option_ratio`"
@@ -105,7 +124,7 @@ msgstr ":ref:`option_ratio`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:45
 msgid "This affects the brush ratio on a given brush."
-msgstr ""
+msgstr "Påverkar penselförhållandet för en given pensel."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:46
 msgid ":ref:`option_mirror`"
@@ -113,7 +132,7 @@ msgstr ":ref:`option_mirror`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:47
 msgid "The Mirror option of the second tip."
-msgstr ""
+msgstr "Den andra spetsens spegelalternativ."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:48
 msgid ":ref:`option_rotation`"
@@ -122,6 +141,8 @@ msgstr ":ref:`option_rotation`"
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:49
 msgid "The rotation option of the second tip. Best set to \"fuzzy dab\"."
 msgstr ""
+"Den andra spetsens rotationsalternativ. Det är bäst att ställa in det till"
+" \"suddigt klick\"."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:51
 msgid ":ref:`option_scatter`"
@@ -132,21 +153,26 @@ msgid ""
 "The scatter option. The default is quite high, so don't forget to turn it "
 "lower."
 msgstr ""
+"Spridalternativet. Normalvärdet är rätt högt, så glöm inte att vrida ner det."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55
 msgid "You don’t need seamless texture to make cool looking brush"
 msgstr ""
+"Man behöver inte sömlös struktur för att skapa en pensel som ser häftig ut."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:56
 msgid "Stroke generates on the fly, it always different"
-msgstr ""
+msgstr "Penseldrag genereras i farten, och de är alltid olika"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:57
 msgid "Brush strokes looks same on any brush size"
-msgstr ""
+msgstr "Penseldrag ser likadana ut för alla penselstorlekar"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:58
 msgid ""
 "Easier to fill some areas with solid color but harder to make it hard "
 "textured"
 msgstr ""
+"Det är enklare att fylla vissa områden med hel färg, men svårare att göra en"
+" hel struktur"
+

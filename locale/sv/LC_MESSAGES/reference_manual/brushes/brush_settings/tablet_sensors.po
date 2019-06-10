@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-10 17:22+0100\n"
+"PO-Revision-Date: 2019-06-09 14:56+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,11 +23,11 @@ msgstr "Tangentiellt tryck"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:1
 msgid "Tablet sensors in Krita."
-msgstr ""
+msgstr "Sensorer på ritplattor i Krita."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:11
 msgid "Tablets"
-msgstr ""
+msgstr "Ritplattor"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:16
 msgid "Sensors"
@@ -39,11 +39,11 @@ msgstr "Tryck"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:19
 msgid "Uses the pressure in and out values of your stylus."
-msgstr ""
+msgstr "Använder pennans värden för tryck in och ut."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:20
 msgid "PressureIn"
-msgstr ""
+msgstr "Tryck in"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:21
 msgid ""
@@ -51,6 +51,9 @@ msgid ""
 "stroke is overwritten *only* by applying more pressure. Lessening the "
 "pressure doesn't affect PressureIn."
 msgstr ""
+"Använder bara värdet på tryck in från pennan. Tidigare trycknivåer för samma"
+" streck överskrids *bara* genom att trycka hårdare. Att minska trycket"
+" påverkar inte Tryck in."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:22
 msgid "X-tilt"
@@ -59,7 +62,7 @@ msgstr "X-lutning"
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:23
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:25
 msgid "How much the brush is affected by stylus angle, if supported."
-msgstr ""
+msgstr "Hur mycket penseln påverkas av pennans vinkel, om det stöds."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:24
 msgid "Y-tilt"
@@ -74,6 +77,8 @@ msgid ""
 "How much the brush is affected by stylus direction. The pen point pointing "
 "towards the user is 0°, and can vary from -180° to +180°."
 msgstr ""
+"Hur mycket penseln påverkas av pennans riktning. Att pennan pekar mot"
+" användaren är 0°, och kan variera från -180° till +180°."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:28
 msgid "Tilt-elevation"
@@ -84,6 +89,8 @@ msgid ""
 "How much the brush is affected by stylus perpendicularity. 0° is the stylus "
 "horizontal, 90° is the stylus vertical."
 msgstr ""
+"Hur mycket penseln påverkas av hur vinkelrät pennan är. 0° är horisontell"
+" penna, 90° är vertikal penna."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:30
 msgid "Speed"
@@ -91,7 +98,7 @@ msgstr "Hastighet"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:31
 msgid "How much the brush is affected by the speed at which you draw."
-msgstr ""
+msgstr "Hur mycket penseln påverkas av hastigheten som man ritar."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:32
 msgid "Drawing Angle"
@@ -105,6 +112,11 @@ msgid ""
 "angle being the angles threshold it'll round. :guilabel:`Angle offset` will "
 "add an extra offset to the current angle."
 msgstr ""
+"Hur mycket penseln påverkas av vilken riktning man ritar.  :guilabel:`Lås`"
+" gör att vinkeln låses till den man påbörjade strecket med. :guilabel:`Fjädra"
+" hörnen` försöker också jämnt avrunda hörnen, där vinkeln är vinkeltröskeln"
+" som de avrundas. :guilabel:`Vinkelförskjutning` lägger till en extra"
+" förskjutning till den aktuella vinkeln."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:34
 msgid "Rotation"
@@ -115,6 +127,7 @@ msgid ""
 "How much a brush is affected by how the stylus is rotated, if supported by "
 "the tablet."
 msgstr ""
+"Hur mycket penseln påverkas av hur pennan roteras, om det stöds av ritplattan."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:36
 msgid "Distance"
@@ -122,7 +135,7 @@ msgstr "Avstånd"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:37
 msgid "How much the brush is affected over length in pixels."
-msgstr ""
+msgstr "Hur mycket penseln påverkas över längd i bildpunkter."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:38
 msgid "Time"
@@ -130,7 +143,7 @@ msgstr "Tid"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:39
 msgid "How much a brush is affected over drawing time in seconds.."
-msgstr ""
+msgstr "Hur mycket en pensel påverkas under tiden man ritar i sekunder."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:40
 msgid "Fuzzy (Dab)"
@@ -138,7 +151,7 @@ msgstr "Suddigt (klick)"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:41
 msgid "Basically the random option."
-msgstr ""
+msgstr "Egentligen slumpalternativet."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:42
 msgid "Fuzzy Stroke"
@@ -149,6 +162,8 @@ msgid ""
 "A randomness value that is per stroke. Useful for getting color and size "
 "variation in on speed-paint brushes."
 msgstr ""
+"Ett slumpvärde som gäller per streck. Användbar för att få färg- och"
+" storleksvariation för hastighetsbaserade målarpenslar."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:44
 msgid "Fade"
@@ -158,6 +173,7 @@ msgstr "Tona"
 msgid ""
 "How much the brush is affected over length, proportional to the brush tine."
 msgstr ""
+"Hur mycket penseln påverkas över längd, proportionell mot penselns \"tine\"."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:46
 msgid "Perspective"
@@ -165,9 +181,12 @@ msgstr "Perspektiv"
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:47
 msgid "How much the brush is affected by the perspective assistant."
-msgstr ""
+msgstr "Hur mycket penseln påverkas av perspektivguiden."
 
 #: ../../reference_manual/brushes/brush_settings/tablet_sensors.rst:49
 msgid ""
 "How much the brush is affected by the wheel on airbrush-simulating stylii."
 msgstr ""
+"Hur mycket penseln påverkas av hjulet på pennor som simulerar en luftpensel"
+" (airbrush)."
+

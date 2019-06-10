@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 21:55+0200\n"
+"PO-Revision-Date: 2019-06-09 10:44+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,7 +37,7 @@ msgstr "Selecciona-ho tot"
 
 #: ../../reference_manual/main_menu/select_menu.rst:21
 msgid "Selects the whole layer."
-msgstr ""
+msgstr "Selecciona tota la capa."
 
 #: ../../reference_manual/main_menu/select_menu.rst:22
 msgid "Deselect"
@@ -45,7 +45,7 @@ msgstr "Desselecciona"
 
 #: ../../reference_manual/main_menu/select_menu.rst:24
 msgid "Deselects everything (except for active Selection Mask)"
-msgstr ""
+msgstr "Ho deselecciona tot (excepte la Màscara de selecció activa)."
 
 #: ../../reference_manual/main_menu/select_menu.rst:25
 msgid "Reselect"
@@ -53,7 +53,7 @@ msgstr "Torna a seleccionar"
 
 #: ../../reference_manual/main_menu/select_menu.rst:27
 msgid "Reselects the previously deselected selection."
-msgstr ""
+msgstr "Torna a seleccionar la selecció prèviament seleccionada."
 
 #: ../../reference_manual/main_menu/select_menu.rst:28
 msgid "Invert Selection"
@@ -61,25 +61,29 @@ msgstr "Inverteix la selecció"
 
 #: ../../reference_manual/main_menu/select_menu.rst:30
 msgid "Inverts the selection."
-msgstr ""
+msgstr "Inverteix la selecció."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/main_menu/select_menu.rst:31
 msgid "Convert to Vector Selection."
-msgstr "Converteix a selecció amb vectors."
+msgstr "Converteix a selecció amb vectors"
 
 #: ../../reference_manual/main_menu/select_menu.rst:33
 msgid ""
 "This converts a raster selection to a vector selection. Any layers of "
 "transparency there might have been are removed."
 msgstr ""
+"Converteix una selecció ràster en una selecció amb vectors. S'eliminarà "
+"qualsevol capa de transparència que hi hagi."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/main_menu/select_menu.rst:34
 msgid "Convert to Raster Selection."
-msgstr "Converteix a selecció ràster."
+msgstr "Converteix a selecció ràster"
 
 #: ../../reference_manual/main_menu/select_menu.rst:36
 msgid "This converts a vector selection to a raster selection."
-msgstr ""
+msgstr "Converteix una selecció amb vectors en una selecció ràster."
 
 #: ../../reference_manual/main_menu/select_menu.rst:37
 msgid "Convert Shapes to Vector Selection"
@@ -87,7 +91,7 @@ msgstr "Converteix les formes a selecció amb vectors"
 
 #: ../../reference_manual/main_menu/select_menu.rst:39
 msgid "Convert vector shape to vector selection"
-msgstr ""
+msgstr "Converteix una forma vectorial a selecció amb vectors."
 
 #: ../../reference_manual/main_menu/select_menu.rst:40
 msgid "Convert to shape"
@@ -95,7 +99,7 @@ msgstr "Converteix a formes"
 
 #: ../../reference_manual/main_menu/select_menu.rst:42
 msgid "Converts vector selection to vector shape."
-msgstr ""
+msgstr "Converteix una selecció amb vectors a una forma vectorial."
 
 #: ../../reference_manual/main_menu/select_menu.rst:43
 msgid "Display Selection"
@@ -104,6 +108,7 @@ msgstr "Mostra la selecció"
 #: ../../reference_manual/main_menu/select_menu.rst:45
 msgid "Display the selection. If turned off selections will be invisible."
 msgstr ""
+"Mostra la selecció. Si s'ha desactivat, les seleccions seran invisibles."
 
 #: ../../reference_manual/main_menu/select_menu.rst:46
 msgid "Show Global Selection Mask"
@@ -114,6 +119,8 @@ msgid ""
 "Shows the global selection as a selection mask in the layers docker. This is "
 "necessary to be able to select it for painting on."
 msgstr ""
+"Mostra la selecció global com una màscara de selecció a l'acoblador Capes. "
+"Això és necessari per a ser capaç de seleccionar-la i per a pintar-hi."
 
 #: ../../reference_manual/main_menu/select_menu.rst:49
 msgid "Scale"
@@ -129,7 +136,7 @@ msgstr "Seleccions des d'un interval de color"
 
 #: ../../reference_manual/main_menu/select_menu.rst:54
 msgid "Select from a certain color range."
-msgstr ""
+msgstr "Selecciona des d'un interval de color determinat."
 
 #: ../../reference_manual/main_menu/select_menu.rst:55
 msgid "Select Opaque"
@@ -142,6 +149,11 @@ msgid ""
 "allowing you to select the opaque pixels of multiple layers into one "
 "selection. Semi-transparent (or semi-opaque) pixels will be semi-selected."
 msgstr ""
+"Selecciona tots els píxels opacs (no transparents) a la capa activa actual. "
+"Si ja hi ha una selecció, això afegirà la nova selecció a l'anterior, el "
+"qual permetrà seleccionar els píxels opacs de múltiples capes en una "
+"selecció. Els píxels semitransparents (o semiopacs) se seleccionaran per "
+"separat."
 
 #: ../../reference_manual/main_menu/select_menu.rst:58
 msgid "Feather Selection"
@@ -152,22 +164,26 @@ msgid ""
 "Feathering in design means to soften sharp borders. So this adds a soft "
 "border to the existing selection."
 msgstr ""
+"Suau en el disseny significa suavitzar les vores més definides. Això afegirà "
+"una vora suau a la selecció existent."
 
 #: ../../reference_manual/main_menu/select_menu.rst:61
 msgid "Grow Selection"
 msgstr "Augmenta la selecció"
 
+# skip-rule: barb-uns
 #: ../../reference_manual/main_menu/select_menu.rst:63
 msgid "Make the selection a few pixels bigger."
-msgstr ""
+msgstr "Fa que la selecció tingui uns píxels més grans."
 
 #: ../../reference_manual/main_menu/select_menu.rst:64
 msgid "Shrink Selection"
 msgstr "Encongeix la selecció"
 
+# skip-rule: barb-uns
 #: ../../reference_manual/main_menu/select_menu.rst:66
 msgid "Make the selection a few pixels smaller."
-msgstr ""
+msgstr "Fa que la selecció tingui uns píxels més petits."
 
 #: ../../reference_manual/main_menu/select_menu.rst:67
 msgid "Border Selection"
@@ -178,6 +194,8 @@ msgid ""
 "Take the current selection and remove the insides so you only have a border "
 "selected."
 msgstr ""
+"Pren la selecció actual i elimina l'interior de manera que només hi hagi una "
+"vora seleccionada."
 
 #: ../../reference_manual/main_menu/select_menu.rst:70
 msgid "Smooth"
@@ -185,4 +203,4 @@ msgstr "Suau"
 
 #: ../../reference_manual/main_menu/select_menu.rst:72
 msgid "Make the selection a little smoother. This removes jiggle."
-msgstr ""
+msgstr "Fa la selecció una mica més suau. Això elimina el tremolor."

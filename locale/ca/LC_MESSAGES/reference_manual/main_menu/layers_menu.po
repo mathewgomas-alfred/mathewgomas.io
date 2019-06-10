@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 21:54+0200\n"
+"PO-Revision-Date: 2019-06-09 10:44+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -84,6 +84,9 @@ msgid ""
 "These are the topmenu options are related to Layer Management, check out :"
 "ref:`that page <layers_and_masks>` first, if you haven't."
 msgstr ""
+"Aquestes són les opcions del menú principal relacionades amb la gestió de les "
+"capes, reviseu :ref:`aquesta pàgina <layers_and_masks>` primer, si no ho heu "
+"fet."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:20
 msgid "Cut Layer (3.0+)"
@@ -91,7 +94,7 @@ msgstr "Retalla la capa (3.0+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:21
 msgid "Cuts the whole layer rather than just the pixels."
-msgstr ""
+msgstr "Retalla tota la capa en lloc de només els píxels."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:22
 msgid "Copy Layer (3.0+)"
@@ -99,7 +102,7 @@ msgstr "Copia una capa (3.0+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:23
 msgid "Copy the whole layer rather than just the pixels."
-msgstr ""
+msgstr "Copia tota la capa en lloc de només els píxels."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:24
 msgid "Paste Layer (3.0+)"
@@ -108,6 +111,7 @@ msgstr "Enganxa la capa (3.0+)"
 #: ../../reference_manual/main_menu/layers_menu.rst:25
 msgid "Pastes the whole layer if any of the top two actions have been taken."
 msgstr ""
+"Enganxa tota la capa si s'ha realitzat alguna de les dues accions principals."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:27
 #: ../../reference_manual/main_menu/layers_menu.rst:41
@@ -125,7 +129,7 @@ msgstr "Capa de pintura"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:30
 msgid "Add a new paint layer"
-msgstr ""
+msgstr "Afegeix una capa de pintura nova."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:31
 msgid "New layer from visible (3.0.2+)"
@@ -133,7 +137,7 @@ msgstr "Capa nova des de la visible (3.0.2+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:32
 msgid "Add a new layer with the visible pixels."
-msgstr ""
+msgstr "Afegeix una capa nova amb els píxels visibles."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:33
 msgid "Duplicate Layer or Mask"
@@ -141,7 +145,7 @@ msgstr "Duplica la capa o màscara"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:34
 msgid "Duplicates the layer."
-msgstr ""
+msgstr "Duplica la capa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:35
 msgid "Cut Selection to New Layer"
@@ -149,7 +153,7 @@ msgstr "Retalla la selecció a una capa nova"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:36
 msgid "Single action for cut+paste"
-msgstr ""
+msgstr "Acció única per a retalla i enganxa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:38
 msgid "New"
@@ -161,7 +165,7 @@ msgstr "Copia la selecció a una capa nova"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:38
 msgid "Single action for copy+paste"
-msgstr ""
+msgstr "Acció única per a copia i enganxa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:43
 msgid "Save Layer or Mask"
@@ -169,7 +173,7 @@ msgstr "Desa la capa o màscara"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:44
 msgid "Saves the Layer or Mask as a separate image."
-msgstr ""
+msgstr "Desa la Capa o Màscara com a una imatge separada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:45
 msgid "Save Vector Layer as SVG"
@@ -177,7 +181,7 @@ msgstr "Desa la capa vectorial com a SVG"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:46
 msgid "Save the currently selected vector layer as an SVG."
-msgstr ""
+msgstr "Desa la capa vectorial seleccionada com a un SVG."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:47
 msgid "Save Group Layers"
@@ -186,6 +190,7 @@ msgstr "Desa les capes de grup"
 #: ../../reference_manual/main_menu/layers_menu.rst:48
 msgid "Saves the top-level group layers as single-layer images."
 msgstr ""
+"Desa les capes de grup del nivell superior com a imatges d'una sola capa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:49
 msgid "Import Layer"
@@ -193,13 +198,15 @@ msgstr "Importa una capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:50
 msgid "Import an image as a layer into the current file."
-msgstr ""
+msgstr "Importa una imatge com a una capa al fitxer actual."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:52
 msgid ""
 "Import an image as a specific layer type. The following layer types are "
 "supported:"
 msgstr ""
+"Importa una imatge com a un tipus específic de capa. S'admeten els següents "
+"tipus de capa:"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:54
 msgid "Paint layer"
@@ -217,7 +224,7 @@ msgstr "Màscara de filtratge"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:57
 msgid "Import/Export"
-msgstr "Importa/exporta"
+msgstr "Importa/Exporta"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:57
 msgid "Import as..."
@@ -238,7 +245,7 @@ msgstr "Converteix a una capa de pintura"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:65
 msgid "Convert a mask or vector layer to a paint layer."
-msgstr ""
+msgstr "Converteix una màscara o capa vectorial en una capa de pintura."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:67
 msgid ""
@@ -246,12 +253,18 @@ msgid ""
 "grayscale first, and these grayscale values are used to drive the "
 "transparency."
 msgstr ""
+"Converteix una capa en una màscara de transparència. La imatge es convertirà "
+"primer a escala de grisos, i aquests valors de l'escala de grisos "
+"s'utilitzaran per a controlar la transparència."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:69
 msgid ""
 "Convert a layer to a filter mask. The image will be converted to grayscale "
 "first, and these grayscale values are used to drive the filter effect area."
 msgstr ""
+"Converteix una capa en una màscara de filtratge. La imatge es convertirà "
+"primer a escala de grisos, i aquests valors de l'escala de grisos "
+"s'utilitzaran per a controlar l'àrea d'efecte del filtre."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:71
 msgid ""
@@ -259,6 +272,9 @@ msgid ""
 "grayscale first, and these grayscale values are used to drive the selected "
 "area."
 msgstr ""
+"Converteix una capa en una màscara de selecció. La imatge es convertirà "
+"primer a escala de grisos, i aquests valors de l'escala de grisos "
+"s'utilitzaran per a controlar l'àrea seleccionada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:72
 msgid "Convert Group to Animated Layer"
@@ -269,6 +285,8 @@ msgid ""
 "This takes the images in the group layer and makes them into frames of an "
 "animated layer."
 msgstr ""
+"Pren les imatges a la capa de grup i les converteix en fotogrames d'una capa "
+"animada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "Convert Layer Color Space"
@@ -276,7 +294,7 @@ msgstr "Converteix l'espai de color de la capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:75
 msgid "This only converts the color space of the layer, not the image."
-msgstr ""
+msgstr "Només converteix l'espai de color de la capa, no la imatge."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:80
 msgid "All layers"
@@ -300,7 +318,7 @@ msgstr "Capes invisibles"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:85
 msgid "Select all invisible layers, useful for cleaning up a sketch."
-msgstr ""
+msgstr "Selecciona totes les capes invisibles, útil per a netejar un esbós."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:86
 msgid "Locked Layers"
@@ -328,7 +346,7 @@ msgstr "Agrupa ràpid (3.0+)"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:95
 msgid "Adds all selected layers to a group."
-msgstr ""
+msgstr "Afegeix totes les capes seleccionades a un grup."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:96
 msgid "Quick Clipping Group (3.0+)"
@@ -339,6 +357,8 @@ msgid ""
 "Adds all selected layers to a group and adds a alpha-inherited layer above "
 "it."
 msgstr ""
+"Afegeix totes les capes seleccionades a un grup i afegeix una capa amb hereta "
+"l'alfa sobre seu."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:99
 msgid "Group"
@@ -350,7 +370,7 @@ msgstr "Desagrupa ràpid"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:99
 msgid "Ungroups the activated layer."
-msgstr ""
+msgstr "Desagrupa la capa activada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:104
 msgid "Mirror Layer Horizontally"
@@ -358,7 +378,7 @@ msgstr "Emmiralla la capa horitzontalment"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:105
 msgid "Mirror the layer horizontally using the image center."
-msgstr ""
+msgstr "Emmiralla la capa horitzontalment utilitzant el centre de la imatge."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:106
 msgid "Mirror Layer Vertically"
@@ -366,7 +386,7 @@ msgstr "Emmiralla la capa verticalment"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:107
 msgid "Mirror the layer vertically using the image center."
-msgstr ""
+msgstr "Emmiralla la capa verticalment utilitzant el centre de la imatge."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:108
 msgid "Rotate"
@@ -374,7 +394,7 @@ msgstr "Gira"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:109
 msgid "Rotate the layer around the image center."
-msgstr ""
+msgstr "Gira la capa al voltant del centre de la imatge."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:110
 msgid "Scale Layer"
@@ -384,6 +404,8 @@ msgstr "Escala la capa"
 msgid ""
 "Scale the layer by the given amounts using the given interpolation filter."
 msgstr ""
+"Escala la capa per les quantitats indicades utilitzant el filtre "
+"d'interpolació indicat."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:112
 msgid "Shear Layer"
@@ -391,7 +413,7 @@ msgstr "Inclina la capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:113
 msgid "Shear the layer pixels by the given X and Y angles."
-msgstr ""
+msgstr "Inclina els píxels de la capa pels angles X i Y indicats."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset Layer"
@@ -399,7 +421,7 @@ msgstr "Desplaça la capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:115
 msgid "Offset the layer pixels by a given amount."
-msgstr ""
+msgstr "Desplaça els píxels de la capa per una quantitat indicada."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:120
 msgid "Split Alpha"
@@ -410,6 +432,8 @@ msgid ""
 "Split the image transparency into a mask. This is useful when you wish to "
 "edit the transparency separately."
 msgstr ""
+"Divideix la transparència de la imatge en una màscara. Això és útil quan "
+"voleu editar la transparència per separat."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:122
 msgid "Split Layer"
@@ -417,7 +441,7 @@ msgstr "Divideix la capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:123
 msgid ":ref:`Split the layer <split_layer>` into given color fields."
-msgstr ""
+msgstr ":ref:`Divideix la capa` en els camps de color indicats."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:125
 msgid "Split..."
@@ -432,6 +456,8 @@ msgid ""
 "A complex bit of functionality to generate clone-layers for quick sprite "
 "making. See :ref:`clones_array` for more details."
 msgstr ""
+"Una funcionalitat complexa per a generar capes de clonades per a la "
+"realització d'una franja ràpida. Per a més detalls, vegeu :ref:`clones_array`."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:127
 msgid "Edit Metadata"
@@ -439,7 +465,7 @@ msgstr "Edita les metadades"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:128
 msgid "Each layer can have its own metadata."
-msgstr ""
+msgstr "Cada capa podrà tenir les seves pròpies metadades."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:130
 msgid "Shows a histogram."
@@ -447,7 +473,7 @@ msgstr "Mostra un histograma."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:134
 msgid "Removed. Use the :ref:`histogram_docker` instead."
-msgstr ""
+msgstr "S'ha eliminat. En el seu lloc utilitzeu l':ref:`histogram_docker`."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:136
 msgid "Merge With Layer Below"
@@ -455,7 +481,7 @@ msgstr "Combina amb la capa inferior"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:137
 msgid "Merge a layer down."
-msgstr ""
+msgstr "Combina una capa inferior."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:138
 msgid "Flatten Layer"
@@ -464,6 +490,7 @@ msgstr "Aplana la capa"
 #: ../../reference_manual/main_menu/layers_menu.rst:139
 msgid "Flatten a Group Layer or flatten the masks into any other layer."
 msgstr ""
+"Aplana una capa de grup o aplana les màscares dins de qualsevol altra capa."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:140
 msgid "Rasterize Layer"
@@ -471,7 +498,7 @@ msgstr "Rasteritza la capa"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:141
 msgid "For making vectors into raster layers."
-msgstr ""
+msgstr "Per a crear vectors en capes ràster."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:142
 msgid "Flatten Image"
@@ -479,8 +506,8 @@ msgstr "Aplana la imatge"
 
 #: ../../reference_manual/main_menu/layers_menu.rst:143
 msgid "Flatten all layers into one."
-msgstr ""
+msgstr "Aplana totes les capes en una sola."
 
 #: ../../reference_manual/main_menu/layers_menu.rst:145
 msgid "Set the PS-style layerstyle"
-msgstr ""
+msgstr "Estableix l'estil de la capa a l'estil del PS"

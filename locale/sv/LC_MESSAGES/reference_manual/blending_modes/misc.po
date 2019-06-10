@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:51+0100\n"
+"PO-Revision-Date: 2019-06-09 15:23+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,8 @@ msgid ""
 "Page about the miscellaneous blending modes in Krita: Bumpmap, Combine "
 "Normal Map, Copy Red, Copy Green, Copy Blue, Copy and Dissolve."
 msgstr ""
+"Sida om diverse blandningslägen i Krita: Bulavbildning, Kombinera"
+" normalavbildning, Kopiera Röd, Kopera Grön, Kopiera Blå, Kopiera och Lös upp."
 
 #: ../../reference_manual/blending_modes/misc.rst:15
 msgid "Misc"
@@ -29,7 +31,7 @@ msgstr "Diverse"
 
 #: ../../reference_manual/blending_modes/misc.rst:17
 msgid "Bumpmap (Blending Mode)"
-msgstr ""
+msgstr "Bulavbildning (Blandningsläge)"
 
 #: ../../reference_manual/blending_modes/misc.rst:21
 msgid "Bumpmap"
@@ -37,16 +39,16 @@ msgstr "Bulavbildning"
 
 #: ../../reference_manual/blending_modes/misc.rst:23
 msgid "This filter seems to both multiply and respect the alpha of the input."
-msgstr ""
+msgstr "Filtret verkar både multiplicera och respektera inmatningens alfa."
 
 #: ../../reference_manual/blending_modes/misc.rst:25
 #: ../../reference_manual/blending_modes/misc.rst:30
 msgid "Combine Normal Map"
-msgstr ""
+msgstr "Kombinera normalavbildning"
 
 #: ../../reference_manual/blending_modes/misc.rst:25
 msgid "Normal Map"
-msgstr ""
+msgstr "Normal avbildning"
 
 #: ../../reference_manual/blending_modes/misc.rst:32
 msgid ""
@@ -54,10 +56,13 @@ msgid ""
 "Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-"
 "detail/>`_."
 msgstr ""
+"Matematiskt robust blandningsläge för normalavbildningar, med användning av"
+" `Omorienterad normalavbildningsblandning <"
+"http://blog.selfshadow.com/publications/blending-in-detail/>`_."
 
 #: ../../reference_manual/blending_modes/misc.rst:34
 msgid "Copy (Blending Mode)"
-msgstr ""
+msgstr "Kopiera (Blandningsläge)"
 
 #: ../../reference_manual/blending_modes/misc.rst:38
 msgid "Copy"
@@ -68,6 +73,8 @@ msgid ""
 "Copies the previous layer exactly. Useful for when using filters and filter-"
 "masks."
 msgstr ""
+"Kopierar föregående lager exakt. Användbart när filter och filtermasker"
+" används."
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid ""
@@ -79,7 +86,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:46
 msgid "Left: **Normal**. Right: **Copy**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Kopiera**."
 
 #: ../../reference_manual/blending_modes/misc.rst:48
 msgid "Copy Red"
@@ -103,12 +110,17 @@ msgid ""
 "destination channel. Specifically, it will take the specific channel from "
 "the upper layer and copy that over to the lower layers."
 msgstr ""
+"Ett blandningsläge som bara kopierar eller blandar en källkanal till en"
+" målkanal. Mer exakt, tar den specifika kanalen från det övre lagret och"
+" kopierar över den till de undre lagren."
 
 #: ../../reference_manual/blending_modes/misc.rst:59
 msgid ""
 "So, if you want the brush to only affect the red channel, set the blending "
 "mode to 'copy red'."
 msgstr ""
+"Om man vill att penseln bara ska påverka den röda kanalen, ställ in"
+" blandningsläget till 'kopiera röd'."
 
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid ""
@@ -121,6 +133,8 @@ msgstr ""
 #: ../../reference_manual/blending_modes/misc.rst:65
 msgid "The copy red, green and blue blending modes also work on filter-layers."
 msgstr ""
+"Blandningslägena för att kopiera röd, grön, och blå fungerar också för"
+" filterlager."
 
 #: ../../reference_manual/blending_modes/misc.rst:67
 msgid ""
@@ -128,6 +142,9 @@ msgid ""
 "layer's green channel, make an invert filter layer with 'copy green' above "
 "it."
 msgstr ""
+"Det kan också göras med filterlager. Om man alltså snabbt vill byta den gröna"
+" kanalen på ett lager, ska man skapa ett inverterat filterlager med 'kopiera"
+" grön' ovanför det."
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid ""
@@ -139,7 +156,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:72
 msgid "Left: **Normal**. Right: **Copy Red**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Kopiera Röd**."
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid ""
@@ -151,7 +168,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:78
 msgid "Left: **Normal**. Right: **Copy Green**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Kopiera Grön**."
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid ""
@@ -163,7 +180,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:84
 msgid "Left: **Normal**. Right: **Copy Blue**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Kopiera Blå**."
 
 #: ../../reference_manual/blending_modes/misc.rst:86
 #: ../../reference_manual/blending_modes/misc.rst:90
@@ -175,6 +192,9 @@ msgid ""
 "Instead of using transparency, this blending mode will use a random "
 "dithering pattern to make the transparent areas look sort of transparent."
 msgstr ""
+"Istället för att använda genomskinlighet, använder blandningsläget ett"
+" slumpmässigt gittermönster för att få genomskinliga områden att se ungefär"
+" genomskinliga ut."
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid ""
@@ -186,4 +206,5 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/misc.rst:97
 msgid "Left: **Normal**. Right: **Dissolve**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Lös upp**."
+

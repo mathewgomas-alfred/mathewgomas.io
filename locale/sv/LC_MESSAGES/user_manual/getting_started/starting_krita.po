@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-05 08:50+0100\n"
+"PO-Revision-Date: 2019-06-09 17:50+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -34,22 +34,24 @@ msgid ""
 "A simple guide to the first basic steps of using Krita: creating and saving "
 "an image."
 msgstr ""
+"En enkel handledning till de första grundläggande stegen i att använda Krita:"
+" skapa och spara en bild."
 
 #: ../../user_manual/getting_started/starting_krita.rst:18
 msgid "Getting started"
-msgstr ""
+msgstr "Komma igång"
 
 #: ../../user_manual/getting_started/starting_krita.rst:18
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: ../../user_manual/getting_started/starting_krita.rst:18
 msgid "Load"
-msgstr ""
+msgstr "Läs in"
 
 #: ../../user_manual/getting_started/starting_krita.rst:18
 msgid "New"
-msgstr ""
+msgstr "Ny"
 
 #: ../../user_manual/getting_started/starting_krita.rst:22
 msgid "Starting Krita"
@@ -66,6 +68,14 @@ msgid ""
 "If you want to open an existing image, either use :menuselection:`File --> "
 "Open` or drag the image from your computer into Krita's window."
 msgstr ""
+"När man startar Krita första gången finns det normalt ingen duk eller nytt"
+" dokument öppnat. Man hälsas av en :ref:`välkomstskärm <welcome_screen>`, som"
+" har alternativen att skapa en ny fil eller öppna ett befintligt dokument."
+" För att skapa en ny duk måste ett nytt dokument skapas i menyn "
+" :guilabel:`Arkiv` eller genom att klicka på :guilabel:`Ny fil` i"
+" startsektionen på välkomstskärmen. Det visar dialogrutan för ny fil. Om man"
+" vill öppna en befintlig bild, använd antingen :menuselection:`Arkiv -->"
+" Öppna` eller dra bilden från datorn till Kritas fönster."
 
 #: ../../user_manual/getting_started/starting_krita.rst:37
 msgid "Creating a New Document"
@@ -73,21 +83,23 @@ msgstr "Skapa ett nytt dokument"
 
 #: ../../user_manual/getting_started/starting_krita.rst:39
 msgid "A new document can be created as follows."
-msgstr ""
+msgstr "Ett nytt dokument kan skapas på följande sätt."
 
 #: ../../user_manual/getting_started/starting_krita.rst:41
 msgid "Click on :guilabel:`File` from the application menu at the top."
-msgstr ""
+msgstr "Klicka på :guilabel:`Arkiv` i programmenyn längst upp."
 
 #: ../../user_manual/getting_started/starting_krita.rst:42
 msgid ""
 "Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + "
 "N`."
 msgstr ""
+"Klicka därefter på :guilabel:`Ny`. Eller så kan du göra det genom att "
+"trycka på :kbd:`Ctrl + N`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:43
 msgid "Now you will get a New Document dialog box as shown below:"
-msgstr ""
+msgstr "Nu ser du dialogrutan Nytt dokument som visas nedan:"
 
 #: ../../user_manual/getting_started/starting_krita.rst:46
 msgid ".. image:: images/Krita_newfile.png"
@@ -101,6 +113,9 @@ msgid ""
 "as create document from clipboard and templates see :ref:"
 "`create_new_document`."
 msgstr ""
+"Klicka på sektionen :guilabel:`Eget dokument` och välj A4 (300 ppi) under"
+" fliken  :guilabel:`Dimensioner` eller den storlek som du föredrar i"
+" kombinationsrutan :guilabel:`Fördefinierad`"
 
 #: ../../user_manual/getting_started/starting_krita.rst:52
 msgid ""
@@ -108,6 +123,9 @@ msgid ""
 "channel in the color section. For advanced information about the color and "
 "color management refer to :ref:`general_concept_color`."
 msgstr ""
+"Säkerställ att färgprofilen är RGB och att djup är inställt till 8-bitars"
+" heltal per kanal i färgsektionen. För avancerad information om färghantering"
+" se :ref:`general_concept_color`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:56
 msgid "How to use brushes"
@@ -121,6 +139,11 @@ msgid ""
 "start Krita, but if for some reason it is not, you can click on this |"
 "toolfreehandbrush| icon from the toolbox and activate the brush tool."
 msgstr ""
+"Vänsterklicka nu bara med musen eller rita med pennan på en ritplatta på den"
+" tomma vita duken. Om allting är riktigt, ska man kunna rita på duken."
+" Penselverktyget ska normalt vara valt när Krita startas, men om det av någon"
+" anledning inte är det, kan man klicka på ikonen |toolfreehandbrush| i"
+" verktygslådan och aktivera penselverktyget."
 
 #: ../../user_manual/getting_started/starting_krita.rst:64
 msgid ""
@@ -128,12 +151,17 @@ msgid ""
 "docker named Brush Presets (or on top, press :kbd:`F6` to find this one) "
 "with all these cute squares with pens and crayons."
 msgstr ""
+"Man vill förstås använda olika penslar. Till höger finns en panel som heter"
+" Förinställningar av penslar (eller längst upp, tryck på :kbd:`F6` för att"
+" hitta den) med alla snygga fyrkanter med pennor och kritor."
 
 #: ../../user_manual/getting_started/starting_krita.rst:68
 msgid ""
 "If you want to tweak the presets, check the Brush Editor in the toolbar. You "
 "can also access the Brush Editor with :kbd:`F5`."
 msgstr ""
+"Om man vill justera förinställningarna, titta på penseleditorn i"
+" verktygsraden. Man kan också komma åt penseleditorn med :kbd:`F5`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:72
 msgid ".. image:: images/dockers/Krita_Brush_Preset_Docker.png"
@@ -144,6 +172,8 @@ msgid ""
 "Tick any of the squares to choose a brush, and then draw on the canvas. To "
 "change color, click the triangle in the Advanced Color Selector docker."
 msgstr ""
+"Markera någon av fyrkanterna för att välja en pensel, och rita sedan på"
+" duken. Klicka på triangeln i den avancerade färgväljaren för att ändra färg."
 
 #: ../../user_manual/getting_started/starting_krita.rst:77
 msgid "Erasing"
@@ -157,6 +187,11 @@ msgid ""
 "tools. You can erase using the line tool, rectangle tool, and even the "
 "gradient tool."
 msgstr ""
+"Det finns penselförinställningar för radering, men det går oftast fortare att"
+" använda raderingsläget. Genom att trycka på tangenten :kbd:`E` byter den"
+" aktuella penseln mellan att radera och måla. Den här raderingsmetoden"
+" fungerar med de flesta verktygen. Man kan radera med linjeverktyget,"
+" rektangelverktyget, och till och med toningsverktyget."
 
 #: ../../user_manual/getting_started/starting_krita.rst:85
 msgid "Saving and opening files"
@@ -172,12 +207,21 @@ msgid ""
 "everything). And then hit :guilabel:`Save`. Some older versions of Krita "
 "have a bug and require you to manually type the extension."
 msgstr ""
+"När man nu har räknat ut hur man ritar någonting i Krita, kanske man vill"
+" spara det. Alternativet för att spara finns på samma ställe som i de flesta"
+" andra datorprogram: :guilabel:`Arkiv` på den övre menyraden och sedan "
+" :guilabel:`Spara`. Välj katalogen där teckningen ska finnas, och välj"
+" filformat som ska användas ('.kra' är Kritas standardformat, och det sparar"
+" allting). Klicka sedan på :guilabel:`Spara`. Vissa äldre versioner av Krita"
+" har ett fel som kräver att man skriver in filändelsen manuellt."
 
 #: ../../user_manual/getting_started/starting_krita.rst:95
 msgid ""
 "If you want to show off your image on the internet, check out the :ref:"
 "`saving_for_the_web` tutorial."
 msgstr ""
+"Om du vill visa upp din bild på Internet, ta då en titt på handledningen"
+" :ref:`saving_for_the_web`."
 
 #: ../../user_manual/getting_started/starting_krita.rst:98
 msgid ""
@@ -185,6 +229,9 @@ msgid ""
 "`basic_concepts` for an introduction as Krita as a medium, or just go out "
 "and explore Krita!"
 msgstr ""
+"Ta en titt på :ref:`navigation` för ytterligare grundläggande information, "
+" :ref:`basic_concepts` för en introduktion till Krita som medium, eller sätt"
+" bara igång att utforska Krita!"
 
 #~ msgid "Custom Document"
 #~ msgstr "Eget dokument"

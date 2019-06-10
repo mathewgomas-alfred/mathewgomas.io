@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 21:57+0200\n"
+"PO-Revision-Date: 2019-06-09 10:43+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -54,6 +54,8 @@ msgid ""
 "The Settings Menu houses the configurable options in Krita and where you "
 "determine most of the \"look and feel\" of the application."
 msgstr ""
+"El menú Arranjament allotja les opcions configurables en el Krita i on "
+"determinareu la majoria de l'«aparença i comportament» de l'aplicació."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:21
 #: ../../reference_manual/main_menu/settings_menu.rst:34
@@ -76,6 +78,15 @@ msgid ""
 "things Krita lets you do then there's no point getting caught up in flipping "
 "the docks on and off.  Use you time wisely!"
 msgstr ""
+"Determina si els acobladors seran o no visibles. Aquesta és una bona ajuda "
+"per a netejar la interfície i eliminar el «desordre de boles oculars» "
+"innecessari quan esteu pintant. Si teniu el vostre pinzell i sabeu que "
+"estareu pintant un temps. Perquè no desactivar els acobladors? La diferència "
+"us sorprendrà mentre treballeu. No obstant això, si sabeu que esteu "
+"alternant entre les eines o treballant amb una capa o qualsevol de les "
+"moltes altres coses que permet fer el Krita, llavors no té sentit quedar "
+"atrapat en activar i desactivar els acobladors. Utilitzeu el vostre temps "
+"amb saviesa!"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:31
 msgid ""
@@ -83,6 +94,10 @@ msgid ""
 "dockers on and off and don't even have to open the menu to do it. See :ref:"
 "`configure_toolbars` below for more."
 msgstr ""
+"Aquest és un gran candidat per afegir-lo a la barra d'eines, de manera que "
+"podreu simplement activar i desactivar els acobladors fent clic i no caldrà "
+"obrir el menú per a fer-ho. Vegeu :ref:`configure_toolbars` a continuació "
+"per obtenir més informació."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:36
 msgid ""
@@ -91,12 +106,19 @@ msgid ""
 "things like the Layer Stack, Color Palette or Brush Presets. Think of them "
 "as the painter's palette, or his water, or his brushkit."
 msgstr ""
+"El Krita subdivideix l'accés de moltes de les seves característiques en "
+"plafons funcionals anomenats Acobladors. Els acobladors són petites "
+"finestres que poden contenir, per exemple, elements com la Pila de capes, la "
+"Paleta de colors o els Pinzells predefinits. Penseu en ells com la paleta "
+"del pintor, la seva aigua o el seu kit de pinzells."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:38
 msgid ""
 "Learning to use dockers effectively is a key concept to optimizing your time "
 "using Krita."
 msgstr ""
+"Aprendre a utilitzar els acobladors de manera efectiva és un concepte clau "
+"per optimitzar el vostre temps utilitzant el Krita."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:40
 #: ../../reference_manual/main_menu/settings_menu.rst:43
@@ -116,6 +138,8 @@ msgid ""
 "Krita provides a number of color-themed interfaces or \"looks\".  The "
 "current set of themes are the following:"
 msgstr ""
+"El Krita proporciona una sèrie d'interfícies o «aparences» amb els temes de "
+"color. El conjunt actual de temes són els següents:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:47
 msgid "Dark (Default)"
@@ -139,6 +163,9 @@ msgid ""
 "defined in the :menuselection:`Share --> Color Schemes` folder where Krita "
 "is downloaded."
 msgstr ""
+"No hi ha una manera fàcil de crear i compartir els temes. Els temes de color "
+"es defineixen a la carpeta :menuselection:`Share --> Color Schemes` des d'on "
+"es descarrega el Krita."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:55
 msgid "Configure Shortcuts"
@@ -153,6 +180,13 @@ msgid ""
 "menuselection:`Settings --> Configure Krita`  and by choosing the :"
 "menuselection:`Keyboard Shortcuts`  tab."
 msgstr ""
+"El configurar les dreceres és una altra forma de personalitzar l'aplicació "
+"perquè s'adapti. Ja sigui perquè esteu fent la transició des d'una altra "
+"aplicació, com el Photoshop o el MyPaint, o si creeu que les vostres pròpies "
+"dreceres perquè creieu que tenen més sentit, llavors el Krita ho permet. "
+"Accediu a la interfície de les dreceres a través de "
+":menuselection:`Arranjament --> Configura el Krita` i escollint la pestanya "
+":menuselection:`Dreceres de teclat`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:59
 msgid ""
@@ -162,39 +196,50 @@ msgid ""
 "we pressed :kbd:`Ctrl + G`  a new Layer Group would be created.  Use the "
 "following steps to do this:"
 msgstr ""
+"Per utilitzar-la, simplement escriviu l':guilabel:`Acció` al quadre de cerca "
+"a la qual voleu assignar/reassignar la drecera. Suposem que volem assignar "
+"la drecera :kbd:`Ctrl + G` a l':guilabel:`Acció` de les capes de grup perquè "
+"cada vegada que premem :kbd:`Ctrl + G` es crei un Grup de capes nou. "
+"Utilitzeu els següents passos per a fer-ho:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:61
 msgid "Type \"Group Layer\""
-msgstr ""
+msgstr "Escriviu «Capa de grup»."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:62
 msgid "Click on Group Layer and a small inset box will open."
-msgstr ""
+msgstr "Feu clic sobre «Capa de grup» i s'obrirà un petit quadre d'entrada."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:63
 msgid "Click the Custom radio button"
-msgstr ""
+msgstr "Feu clic al botó d'opció «Personalitzada»."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:64
 msgid ""
 "Click on the first button and type the :kbd:`Ctrl + G`  key combination."
 msgstr ""
+"Feu clic sobre el primer botó i escriviu la combinació de tecles :kbd:`Ctrl + "
+"G`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:65
 msgid "Click OK"
-msgstr ""
+msgstr "Feu clic a «D'acord»."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:67
 msgid ""
 "From this point on, whenever you press :kbd:`Ctrl + G`  you'll get a new :"
 "guilabel:`Group Layer`."
 msgstr ""
+"A partir d'aquest moment, cada vegada que premeu :kbd:`Ctrl + G` obtindreu "
+"una :guilabel:`Capa de grup` nova."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:70
 msgid ""
 "Smart use of shortcuts can save you significant time and further streamline "
 "your workflow."
 msgstr ""
+"L'ús intel·ligent de les dreceres pot estalviar-vos molt de temps i "
+"optimitzar encara més el vostre flux de treball."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:73
 msgid "Manage Resources"
@@ -205,6 +250,8 @@ msgid ""
 "Manage the resources. You can read more about it :ref:`here "
 "<resource_management>`."
 msgstr ""
+"Gestiona els recursos. Podreu llegir més informació :ref:`aquí <"
+"resource_management>`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:77
 msgid "Language"
@@ -216,7 +263,7 @@ msgstr "Canvia l'idioma de l'aplicació"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:83
 msgid "If you wish to use Krita in a different translation."
-msgstr ""
+msgstr "Si voleu utilitzar el Krita en una traducció diferent."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:85
 msgid "Toolbar"
@@ -232,10 +279,14 @@ msgid ""
 "remove and change the order of nearly everything to fit your style of work.  "
 "To get started, choose :menuselection:`Settings --> Configure Toolbars`"
 msgstr ""
+"El Krita permet personalitzar la interfície de la barra d'eines. Podreu "
+"afegir, eliminar i canviar l'ordre de gairebé tot perquè s'ajusti al vostre "
+"estil de treball. Per a començar, escolliu :menuselection:`Arranjament --> "
+"Configura les barres d'eines`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:96
 msgid "The dialog is broken down into three main sections:"
-msgstr ""
+msgstr "El diàleg es divideix en tres seccions principals:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:98
 msgid "The Toolbar"
@@ -244,6 +295,7 @@ msgstr "La barra d'eines"
 #: ../../reference_manual/main_menu/settings_menu.rst:99
 msgid "Choose to either modify the \"File\" or \"Brushes and Stuff\" toolbars"
 msgstr ""
+"Trieu si voleu modificar la barra d'eines «Fitxer» o «Pinzells i coses»."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:100
 msgid "Available Actions:"
@@ -251,7 +303,7 @@ msgstr "Accions disponibles:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:101
 msgid "All the options that can be added to a toolbar"
-msgstr ""
+msgstr "Totes les opcions que es poden afegir a una barra d'eines."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:103
 msgid "Current Actions:"
@@ -259,7 +311,7 @@ msgstr "Accions actuals:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:103
 msgid "All the actions currently assigned and the order they are in."
-msgstr ""
+msgstr "Totes les accions assignades actualment i l'ordre en què es troben."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:105
 msgid ""
@@ -274,6 +326,17 @@ msgid ""
 "lets you modify anything from the Gradients button over to the right.  This "
 "is probably where you'll do most of your editing."
 msgstr ""
+"Utilitza les fletxes entre les seccions *Accions disponibles* i *Accions "
+"actuals* per a moure els elements d'una a l'altra, cap amunt i cap avall en "
+"la jerarquia. Aquest tipus d'interfície d'inclusió/exclusió ha existit en "
+"els PC durant dècades, de manera que no necessitem entrar en gran detall pel "
+"que fa al seu ús. No obstant això, l'important és seleccionar la barra "
+"d'eines correcta per a treballar. La barra d'eines :guilabel:`Fitxer` permet "
+"afegir elements entre els botons :menuselection:`Nova`, "
+":menuselection:`Obre` i :menuselection:`Desa`, així com a la dreta del botó "
+":menuselection:`Desa`. La barra d'eines :guilabel:`Pinzells i coses`, permet "
+"modificar qualsevol cosa des del botó Degradats que hi ha a la dreta. "
+"Probablement aquí és on fareu la major part de la vostra edició."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:107
 msgid ""
@@ -283,6 +346,12 @@ msgid ""
 "of a couple of options that are used frequently and might trim your "
 "workflow.   This is what it looks like in the configuration tool:"
 msgstr ""
+"Aquí hem afegit :menuselection:`Selecciona l'opac`, :menuselection:`Selecció "
+"local`, :menuselection:`Màscara de transparència`, :menuselection:`Aïlla la "
+"capa`, :menuselection:`Mostra les vistes prèvies de l'assistent`. Aquest és "
+"només un exemple d'un parell d'opcions que s'utilitzen amb freqüència i "
+"podrien escurçar el vostre flux de treball. Això és el que sembla a l'eina "
+"de configuració:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:112
 msgid ""
@@ -291,6 +360,11 @@ msgid ""
 "Krita.  You can select anything from the *Available* section and move it to "
 "the *Current* one and rearrange to fit your own workflow."
 msgstr ""
+"Notareu que alguns dels elements són només text i alguns només icones. Això "
+"es determina si l'element en particular té una icona associada al Krita. "
+"Podreu seleccionar qualsevol cosa de la secció *Acció disponible* i moure-la "
+"a l'*Acció actual* i reorganitzar perquè s'ajusti al vostre propi flux de "
+"treball."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:114
 msgid ""
@@ -298,29 +372,40 @@ msgid ""
 "see a small chevron icon appear.  Click it and the toolbar expands to show "
 "the remaining items."
 msgstr ""
+"Si n'afegiu tantes que no caben a la pantalla, veureu aparèixer una petita "
+"icona de galó. Feu-hi clic i la barra d'eines s'expandirà per a mostrar els "
+"elements restants."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/main_menu/settings_menu.rst:117
 msgid "Toolbars shown."
-msgstr "Barres d'eines mostrades."
+msgstr "Barres d'eines mostrades"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:117
 msgid "Gives a list of toolbars that can be shown."
-msgstr ""
+msgstr "Proporciona una llista de les barres d'eines que es poden mostrar."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:119
 msgid ""
 "At this time Krita does not support the ability to create additional "
 "toolbars. The ones available are:"
 msgstr ""
+"En aquest moment, el Krita no admet la capacitat de crear barres d'eines "
+"addicionals. Les disponibles són:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:124
 msgid ""
 "Although not really advisable, you can turn them off (but why would you.."
 "really?)"
 msgstr ""
+"Encara que no és realment recomanable, podreu desactivar-la. (Però perquè ho "
+"faríeu... realment?)"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:126
 msgid ""
 "Finally, Toolbars also can be moved. You can do this by |mouseright| and "
 "dragging the handler at the left side of the toolbar."
 msgstr ""
+"Finalment, les barres d'eines també es poden moure. Podreu fer-ho fent "
+"|mouseright| i arrossegant la nansa que hi ha a la banda esquerra de la "
+"barra d'eines."

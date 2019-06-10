@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-09 03:41+0200\n"
-"PO-Revision-Date: 2019-05-05 08:42+0100\n"
+"PO-Revision-Date: 2019-06-09 08:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -42,18 +42,20 @@ msgid ""
 ".. image:: images/icons/similar_select_tool.svg\n"
 "   :alt: toolselectsimilar"
 msgstr ""
+".. image:: images/icons/similar_select_tool.svg\n"
+"   :alt: Liknande markeringsverktyg"
 
 #: ../../reference_manual/tools/similar_select.rst:1
 msgid "Krita's similar color selection tool reference."
-msgstr ""
+msgstr "Referens för Kritas liknande färgmarkeringsverktyg."
 
 #: ../../reference_manual/tools/similar_select.rst:11
 msgid "Tools"
-msgstr ""
+msgstr "Verktyg"
 
 #: ../../reference_manual/tools/similar_select.rst:11
 msgid "Selection"
-msgstr ""
+msgstr "Markering"
 
 #: ../../reference_manual/tools/similar_select.rst:11
 msgid "Similar Selection"
@@ -65,7 +67,7 @@ msgstr "Liknande färgmarkeringsverktyg"
 
 #: ../../reference_manual/tools/similar_select.rst:18
 msgid "|toolselectsimilar|"
-msgstr ""
+msgstr "|toolselectsimilar|"
 
 #: ../../reference_manual/tools/similar_select.rst:20
 msgid ""
@@ -76,24 +78,33 @@ msgid ""
 "number will select colors closer to the color that you chose in the first "
 "place."
 msgstr ""
+"Verktyget, som representeras av en pipett över ett område med en streckad"
+" kant, låter dig göra :ref:`selections_basics` genom att markera en"
+" färgpunkt. Det markerar alla områden med en färg som liknar den man"
+" markerade. Man kan justera verktygets \"suddighet\" i"
+" verktygsalternativpanelen. Ett lägre värde markerar färger närmare den färg"
+" som man valde från början."
 
 #: ../../reference_manual/tools/similar_select.rst:23
 msgid "Hotkeys and Sticky keys"
-msgstr ""
+msgstr "Snabbtangenter och klistriga tangenter"
 
 #: ../../reference_manual/tools/similar_select.rst:25
 msgid ""
 ":kbd:`R` sets the selection to 'replace' in the tool options, this is the "
 "default mode."
 msgstr ""
+":kbd:`R` ställer in markeringen till 'ersätt' i verktygsalternativen, vilket"
+" är standardinställningen."
 
 #: ../../reference_manual/tools/similar_select.rst:26
 msgid ":kbd:`A` sets the selection to 'add' in the tool options."
-msgstr ""
+msgstr ":kbd:`A` ställer in markeringen till 'addera' i verktygsalternativen."
 
 #: ../../reference_manual/tools/similar_select.rst:27
 msgid ":kbd:`S` sets the selection to 'subtract' in the tool options."
 msgstr ""
+":kbd:`S` ställer in markeringen till 'subtrahera' i verktygsalternativen."
 
 #: ../../reference_manual/tools/similar_select.rst:28
 msgid ""
@@ -101,36 +112,49 @@ msgid ""
 "release the :kbd:`Shift` key while dragging, but it will still be set to "
 "'add'. Same for the others."
 msgstr ""
+":kbd:`Skift` + vänster musknapp in markeringen till 'addera'. Man kan släppa"
+" upp tangenten :kbd:`Skift` medan man drar, och den ställs ändå in till 'lägg"
+" till'. Samma sak för de andra."
 
 #: ../../reference_manual/tools/similar_select.rst:29
 msgid ":kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'."
 msgstr ""
+":kbd:`Alt` + vänster musknapp ställer in efterföljande markering till"
+" 'subtrahera'."
 
 #: ../../reference_manual/tools/similar_select.rst:30
 msgid ":kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'."
 msgstr ""
+":kbd:`Ctrl` + vänster musknapp ställer in efterföljande markering till"
+" 'ersätt'."
 
 #: ../../reference_manual/tools/similar_select.rst:31
 msgid ""
 ":kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  "
 "'intersect'."
 msgstr ""
+":kbd:`Shift + Alt +` vänster musknapp ställer in efterföljande markering till"
+" 'snitt'."
 
 #: ../../reference_manual/tools/similar_select.rst:35
 msgid "Hovering over a selection allows you to move it."
-msgstr ""
+msgstr "Att hålla musen över en markering göt det möjlig att flytta den."
 
 #: ../../reference_manual/tools/similar_select.rst:36
 msgid ""
 "|mouseright| will open up a selection quick menu with amongst others the "
 "ability to edit the selection."
 msgstr ""
+"Att klicka med höger musknapp visar en snabbvalsmeny med bland annat"
+" möjlighet att redigera markeringen."
 
 #: ../../reference_manual/tools/similar_select.rst:40
 msgid ""
 "You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead "
 "by toggling the switch in the :ref:`general_settings`"
 msgstr ""
+"Man kan ändra beteende hos tangenten :kbd:`Alt` så att :kbd:`Ctrl` används"
+" istället genom att ställa om inställningen under :ref:`general_settings`"
 
 #: ../../reference_manual/tools/similar_select.rst:43
 msgid "Tool Options"
@@ -141,3 +165,5 @@ msgid ""
 "This controls whether or not the contiguous selection sees another color as "
 "a border."
 msgstr ""
+"Bestämmer om efterföljande markering betraktar en annan färg som en kant."
+

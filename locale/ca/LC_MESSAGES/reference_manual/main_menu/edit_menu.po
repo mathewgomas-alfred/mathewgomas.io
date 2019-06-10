@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 21:38+0200\n"
+"PO-Revision-Date: 2019-06-08 20:59+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -55,19 +55,19 @@ msgstr "Enganxa"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
 msgid "Undoes the last action. :kbd:`Ctrl + Z`"
-msgstr ""
+msgstr "Desfà l'última acció. :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:24
 msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
-msgstr ""
+msgstr "Refà l'última acció. :kbd:`Ctrl + Majús. + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:27
 msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
-msgstr ""
+msgstr "Retalla la selecció o capa. :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
 msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
-msgstr ""
+msgstr "Copia la selecció o capa. :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:31
 msgid "Cut (Sharp)"
@@ -78,6 +78,8 @@ msgid ""
 "This prevents semi-transparent areas from appearing on your cut pixels, "
 "making them either fully opaque or fully transparent."
 msgstr ""
+"Evita que apareguin àrees semitransparents en els píxels retallats, el que "
+"els fa totalment opacs o totalment transparents."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:34
 msgid "Copy (Sharp)"
@@ -85,7 +87,7 @@ msgstr "Copia (afilada)"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:36
 msgid "Same as :term:`Cut (Sharp)` but then copying instead."
-msgstr ""
+msgstr "El mateix que :term:`Retalla (afilat)` però després copia."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:37
 msgid "Copy Merged"
@@ -93,11 +95,13 @@ msgstr "Còpia fusionada"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:39
 msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
-msgstr ""
+msgstr "Copia la selecció sobre totes les capes. :kbd:`Ctrl + Majús. + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
 msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
 msgstr ""
+"Enganxa la memòria intermèdia copiada a la imatge com a una capa nova. "
+":kbd:`Ctrl + V`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:43
 msgid "Paste at Cursor"
@@ -105,7 +109,7 @@ msgstr "Enganxa en el cursor"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:45
 msgid "Same as :term:`paste`, but aligns the image to the cursor."
-msgstr ""
+msgstr "Igual que :term:`enganxa`, però alinea la imatge amb el cursor."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:46
 msgid "Paste into new image"
@@ -113,7 +117,7 @@ msgstr "Enganxa en una imatge nova"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:48
 msgid "Pastes the copied buffer into a new image."
-msgstr ""
+msgstr "Enganxa la memòria intermèdia copiada a una imatge nova."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:49
 msgid "Clear"
@@ -121,7 +125,7 @@ msgstr "Neteja"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:51
 msgid "Clear the current layer. :kbd:`Del`"
-msgstr ""
+msgstr "Neteja la capa actual. :kbd:`Supr`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:52
 msgid "Fill with Foreground Color"
@@ -132,6 +136,8 @@ msgid ""
 "Fills the layer or selection with the foreground color. :kbd:`Shift + "
 "Backspace`"
 msgstr ""
+"Emplena la capa o selecció amb el color de primer pla. :kbd:`Majús. + "
+"Retrocés`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:55
 msgid "Fill with Background Color"
@@ -140,7 +146,7 @@ msgstr "Emplena amb el color de fons"
 #: ../../reference_manual/main_menu/edit_menu.rst:57
 msgid ""
 "Fills the layer or selection with the background color. :kbd:`Backspace`"
-msgstr ""
+msgstr "Emplena la capa o selecció amb el color de fons. :kbd:`Retrocés`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:58
 msgid "Fill with pattern"
@@ -148,7 +154,7 @@ msgstr "Emplena amb un patró"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:60
 msgid "Fills the layer or selection with the active pattern."
-msgstr ""
+msgstr "Emplena la capa o selecció amb el patró actiu."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:61
 msgid "Stroke Selected Shapes"
@@ -159,6 +165,8 @@ msgid ""
 "Strokes the selected vector shape with the selected brush, will create a new "
 "layer."
 msgstr ""
+"Traça la forma vectorial seleccionada amb el pinzell seleccionat, crearà una "
+"capa nova."
 
 #: ../../reference_manual/main_menu/edit_menu.rst:64
 msgid "Stroke Selection"
@@ -166,4 +174,4 @@ msgstr "Selecciona amb el traç"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:66
 msgid "Strokes the active selection using the menu."
-msgstr ""
+msgstr "Traça la selecció activa utilitzant el menú."

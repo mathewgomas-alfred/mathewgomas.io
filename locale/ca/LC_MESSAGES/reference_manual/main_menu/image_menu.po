@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 21:49+0200\n"
+"PO-Revision-Date: 2019-06-09 10:39+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -33,7 +33,7 @@ msgstr "Imatge"
 
 #: ../../reference_manual/main_menu/image_menu.rst:11
 msgid "Canvas Projection Color"
-msgstr ""
+msgstr "Color de projecció al llenç"
 
 #: ../../reference_manual/main_menu/image_menu.rst:11
 msgid "Trim"
@@ -65,7 +65,7 @@ msgstr "Desplaçament"
 
 #: ../../reference_manual/main_menu/image_menu.rst:11
 msgid "Split Channels"
-msgstr ""
+msgstr "Divideix els canals"
 
 #: ../../reference_manual/main_menu/image_menu.rst:16
 msgid "Image Menu"
@@ -77,7 +77,7 @@ msgstr "Propietats"
 
 #: ../../reference_manual/main_menu/image_menu.rst:19
 msgid "Gives you the image properties."
-msgstr ""
+msgstr "Proporciona les propietats de la imatge."
 
 #: ../../reference_manual/main_menu/image_menu.rst:20
 msgid "Image Background Color and Transparency"
@@ -85,7 +85,7 @@ msgstr "Color i transparència del fons de la imatge"
 
 #: ../../reference_manual/main_menu/image_menu.rst:21
 msgid "Change the background canvas color."
-msgstr ""
+msgstr "Canvia el color de fons del llenç."
 
 #: ../../reference_manual/main_menu/image_menu.rst:22
 msgid "Convert Current Image Color Space."
@@ -93,7 +93,7 @@ msgstr "Converteix l'espai de color de la imatge actual."
 
 #: ../../reference_manual/main_menu/image_menu.rst:23
 msgid "Converts the current image to a new colorspace."
-msgstr ""
+msgstr "Converteix la imatge actual en un espai de color nou."
 
 #: ../../reference_manual/main_menu/image_menu.rst:24
 msgid "Trim to image size"
@@ -104,6 +104,8 @@ msgid ""
 "Trims all layers to the image size. Useful for reducing filesize at the loss "
 "of information."
 msgstr ""
+"Ajusta totes les capes a la mida de la imatge. Útil per a reduir la mida del "
+"fitxer davant la pèrdua d'informació."
 
 #: ../../reference_manual/main_menu/image_menu.rst:26
 msgid "Trim to Current Layer"
@@ -114,6 +116,8 @@ msgid ""
 "A lazy cropping function. Krita will use the size of the current layer to "
 "determine where to crop."
 msgstr ""
+"Una funció d'escapçada posterior. El Krita utilitzarà la mida de la capa "
+"actual per a determinar on escapçar."
 
 #: ../../reference_manual/main_menu/image_menu.rst:28
 msgid "Trim to Selection"
@@ -123,6 +127,8 @@ msgstr "Ajusta a la selecció"
 msgid ""
 "A lazy cropping function. Krita will crop the canvas to the selected area."
 msgstr ""
+"Una funció d'escapçada posterior. El Krita escapçarà el llenç a l'àrea "
+"seleccionada."
 
 #: ../../reference_manual/main_menu/image_menu.rst:30
 msgid "Rotate Image"
@@ -146,7 +152,7 @@ msgstr "Emmiralla horitzontalment la imatge"
 
 #: ../../reference_manual/main_menu/image_menu.rst:35
 msgid "Mirror the image on the horizontal axis."
-msgstr ""
+msgstr "Reflecteix la imatge en l'eix horitzontal."
 
 #: ../../reference_manual/main_menu/image_menu.rst:36
 msgid "Mirror Image Vertically"
@@ -154,7 +160,7 @@ msgstr "Emmiralla verticalment la imatge"
 
 #: ../../reference_manual/main_menu/image_menu.rst:37
 msgid "Mirror the image on the vertical axis."
-msgstr ""
+msgstr "Reflecteix la imatge en l'eix vertical."
 
 #: ../../reference_manual/main_menu/image_menu.rst:38
 msgid "Scale to New Size"
@@ -162,7 +168,7 @@ msgstr "Escala a una mida nova"
 
 #: ../../reference_manual/main_menu/image_menu.rst:39
 msgid "The resize function in any other program :kbd:`Ctrl + Alt + I`"
-msgstr ""
+msgstr "La funció reamida en qualsevol altre programa. :kbd:`Ctrl + Alt + I`"
 
 #: ../../reference_manual/main_menu/image_menu.rst:40
 msgid "Offset Image"
@@ -178,7 +184,7 @@ msgstr "Redimensiona el llenç"
 
 #: ../../reference_manual/main_menu/image_menu.rst:43
 msgid "Change the canvas size. Don't confuse this with Scale to new size."
-msgstr ""
+msgstr "Canvieu la mida del llenç. No confondre amb Escala a una mida nova."
 
 #: ../../reference_manual/main_menu/image_menu.rst:44
 msgid "Image Split"
@@ -186,7 +192,7 @@ msgstr "Divideix la imatge"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
 msgid "Calls up the :ref:`image_split` dialog."
-msgstr ""
+msgstr "Crida al diàleg :ref:`image_split`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
 msgid "Wavelet Decompose"
@@ -194,8 +200,8 @@ msgstr "Descompondre per ondetes"
 
 #: ../../reference_manual/main_menu/image_menu.rst:47
 msgid "Does :ref:`wavelet_decompose` on the current layer."
-msgstr ""
+msgstr "Fa :ref:`wavelet_decompose` sobre la capa actual."
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
 msgid ":ref:`Separates <separate_image>` the image into channels"
-msgstr ""
+msgstr ":ref:`Separa <separate_image>` la imatge en canals."

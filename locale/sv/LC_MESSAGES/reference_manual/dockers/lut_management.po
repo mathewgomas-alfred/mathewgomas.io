@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:49+0100\n"
+"PO-Revision-Date: 2019-06-09 15:36+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../<generated>:1
 msgid "Set white and black points"
-msgstr ""
+msgstr "Ställ in vita och svarta punkter"
 
 #: ../../reference_manual/dockers/lut_management.rst:1
 msgid "Overview of the LUT management docker."
-msgstr ""
+msgstr "Översikt av LUT-hanteringspanelen."
 
 #: ../../reference_manual/dockers/lut_management.rst:11
 #: ../../reference_manual/dockers/lut_management.rst:16
@@ -32,11 +32,11 @@ msgstr "Hantering av uppslagningstabell"
 
 #: ../../reference_manual/dockers/lut_management.rst:11
 msgid "Look Up Table"
-msgstr ""
+msgstr "Look Up Table"
 
 #: ../../reference_manual/dockers/lut_management.rst:11
 msgid "OCIO"
-msgstr ""
+msgstr "OCIO"
 
 #: ../../reference_manual/dockers/lut_management.rst:19
 msgid ".. image:: images/dockers/LUT_Management_Docker.png"
@@ -47,10 +47,12 @@ msgid ""
 "The Look Up Table (LUT) Management docker controls the high dynamic range "
 "(HDR) painting functionality."
 msgstr ""
+"LUT (Look Up Table)-hanteringspanelen kontrollerar målningsfunktionen för"
+" stort dynamiskt intervall (HDR)."
 
 #: ../../reference_manual/dockers/lut_management.rst:22
 msgid "Use OpenColorIO"
-msgstr ""
+msgstr "Använd OpenColorIO"
 
 #: ../../reference_manual/dockers/lut_management.rst:23
 msgid ""
@@ -58,6 +60,9 @@ msgid ""
 "IO is a color management library. It is sometimes referred to as OCIO. This "
 "is required as Krita uses OCIO for its HDR functionality."
 msgstr ""
+"Använd Open Color IO istället för Kritas interna färghantering. Open Color IO"
+" är ett färghanteringsbibliotek. Det kallas ibland för OCIO. Det krävs,"
+" eftersom Krita använder OCIO för sin HDR-funktion."
 
 #: ../../reference_manual/dockers/lut_management.rst:24
 msgid "Color Engine"
@@ -65,11 +70,11 @@ msgstr "Färggränssnitt"
 
 #: ../../reference_manual/dockers/lut_management.rst:25
 msgid "Choose the engine."
-msgstr ""
+msgstr "Välj gränssnittet."
 
 #: ../../reference_manual/dockers/lut_management.rst:27
 msgid "Use an OCIO configuration file from your computer."
-msgstr ""
+msgstr "Använd en OCIO-inställningsfil från datorn."
 
 #: ../../reference_manual/dockers/lut_management.rst:31
 msgid "Configuration"
@@ -82,14 +87,18 @@ msgid ""
 "Krita from the terminal with the ``LC_ALL=C krita`` flag set, you should be "
 "able to read the configuration files."
 msgstr ""
+"Landsinställningarna på vissa system tillåter inte att inställningsfilerna"
+" läses. Det beror på ett fel i OCIO. Om man använder Linux går det att fixa:"
+" Genom att starta Krita från terminalen med ``LC_ALL=C krita``, ska det gå"
+" att läsa inställningsfilerna."
 
 #: ../../reference_manual/dockers/lut_management.rst:33
 msgid "Input Color Space"
-msgstr ""
+msgstr "Ingående färgrymd"
 
 #: ../../reference_manual/dockers/lut_management.rst:34
 msgid "What the color space of the image is. Usually sRGB or Linear."
-msgstr ""
+msgstr "Vad bildens färgrymd är. Oftast sRGB eller Linjär."
 
 #: ../../reference_manual/dockers/lut_management.rst:35
 msgid "Display Device"
@@ -100,6 +109,8 @@ msgid ""
 "The type of device you are using to view the colors. Typically sRGB for "
 "computer screens."
 msgstr ""
+"Enhetstyp som används för att titta på färgerna. Typiskt sRGB för"
+" datorbildskärmar."
 
 #: ../../reference_manual/dockers/lut_management.rst:37
 msgid "View"
@@ -115,7 +126,7 @@ msgstr "Komponenter"
 
 #: ../../reference_manual/dockers/lut_management.rst:40
 msgid "Allows you to study a single channel of your image with LUT."
-msgstr ""
+msgstr "Tillåter att man betraktar en enskild kanal av bilden med LUT."
 
 #: ../../reference_manual/dockers/lut_management.rst:42
 msgid "Exposure"
@@ -126,6 +137,8 @@ msgid ""
 "Set the general exposure. On 0.0 at default. There's :kbd:`Y` to change this "
 "on the fly on canvas."
 msgstr ""
+"Ställer in allmänna exponeringen. Normalt inställd till 0,0. Använd :kbd:`Y`"
+" för att ändra den på duken i farten."
 
 #: ../../reference_manual/dockers/lut_management.rst:44
 msgid "Gamma"
@@ -136,6 +149,8 @@ msgid ""
 "Allows you to set the gamma. This is 1.0 by default. You can set this to "
 "change on the fly in canvas shortcuts."
 msgstr ""
+"Tillåter att man ställer in gamma. Det är normalt 1,0. Man kan ställa in det"
+" att ändras på duken i farten med genvägar för duken."
 
 #: ../../reference_manual/dockers/lut_management.rst:46
 msgid "Lock color"
@@ -146,9 +161,14 @@ msgid ""
 "Locks the color to make sure it doesn't shift when changing exposure. May "
 "not be desired."
 msgstr ""
+"Låser färgen för att säkerställa att den inte ändras när exponeringen ändras."
+" Kanske inte är önskvärt."
 
 #: ../../reference_manual/dockers/lut_management.rst:49
 msgid ""
 "This allows you to set the maximum and minimum brightness of the image, "
 "which'll adjust the exposure and gamma automatically to this."
 msgstr ""
+"Tillåter att man ställer in bildens maximala och minimala ljusstyrka, vilket"
+" automatiskt justerar exponering och gamma i enlighet med det."
+
