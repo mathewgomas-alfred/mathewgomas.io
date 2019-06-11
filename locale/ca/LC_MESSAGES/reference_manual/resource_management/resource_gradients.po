@@ -9,19 +9,19 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-08 21:21+0200\n"
+"PO-Revision-Date: 2019-06-10 18:24+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<generated>:1
 msgid "HSV counter-clock wise."
-msgstr ""
+msgstr "HSV en sentit antihorari."
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -86,9 +86,11 @@ msgstr "Accedir a un degradat"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:21
 msgid ""
-"The Gradients configuration panel is accessed by clicking the Gradients icon"
-" (usually the icon next to the disk)."
+"The Gradients configuration panel is accessed by clicking the Gradients icon "
+"(usually the icon next to the disk)."
 msgstr ""
+"Al plafó de configuració per als degradats s'accedeix fent clic a la icona "
+"Degradats (normalment la icona situada al costat del disc)."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:24
 msgid ".. image:: images/gradients/Gradient_Toolbar_Panel.png"
@@ -96,32 +98,37 @@ msgstr ".. image:: images/gradients/Gradient_Toolbar_Panel.png"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:25
 msgid ""
-"Gradients are configurations of blending between colors.  Krita provides over"
-" a dozen preset dynamic gradients for you to choose from.  In addition, you"
-" can design and save your own."
+"Gradients are configurations of blending between colors.  Krita provides "
+"over a dozen preset dynamic gradients for you to choose from.  In addition, "
+"you can design and save your own."
 msgstr ""
+"Els degradats són configuracions de barreja entre colors. El Krita "
+"proporciona més d'una dotzena de degradats dinàmics predefinits per a que "
+"trieu. A més, podreu dissenyar i desar els vostres."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:27
 msgid "Some typical uses of gradients are:"
-msgstr ""
+msgstr "Alguns usos típics dels degradats són:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:29
 msgid "Fill for vector shapes."
-msgstr ""
+msgstr "Emplenar per a les formes vectorials."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:30
 msgid "Gradient tool"
-msgstr "Eina de degradat"
+msgstr "Eina de degradat."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:31
 msgid "As a source of color for the pixel brush."
-msgstr ""
+msgstr "Com a font de color per al pinzell de píxels."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:33
 msgid ""
-"There is no gradients docker. They can only be accessed through the gradient"
-" \"quick-menu\" in the toolbar."
+"There is no gradients docker. They can only be accessed through the gradient "
+"\"quick-menu\" in the toolbar."
 msgstr ""
+"No hi ha cap acoblador per als degradats. Només s'hi pot accedir a través del "
+"«menú ràpid» Degradats que hi ha a la barra d'eines."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:36
 msgid "Editing a Gradient"
@@ -129,36 +136,43 @@ msgstr "Editar un degradat"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:38
 msgid "Krita has two gradient types:"
-msgstr ""
+msgstr "El Krita té dos tipus de degradats:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:40
 msgid ""
-"Segmented Gradients, which are compatible with GIMP, have many different"
-" features but are also a bit complicated to make."
+"Segmented Gradients, which are compatible with GIMP, have many different "
+"features but are also a bit complicated to make."
 msgstr ""
+"Els degradats segmentats, els quals són compatibles amb el GIMP, tenen moltes "
+"característiques diferents però també són una mica complicats de crear."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:41
 msgid ""
-"Stop Gradients, which are saved as SVG files and similar to how most"
-" applications do their gradients, but has less features than the segmented"
-" gradient."
+"Stop Gradients, which are saved as SVG files and similar to how most "
+"applications do their gradients, but has less features than the segmented "
+"gradient."
 msgstr ""
+"Els degradats d'aturada, els quals es desen com a fitxers SVG i són similars "
+"a la forma en què la majoria de les aplicacions fan els seus degradats, però "
+"tenen menys característiques que el degradat segmentat."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:43
 msgid ""
-"Initially we could only make segmented gradients in Krita, but in 3.0.2 we"
-" can also make stop gradients."
+"Initially we could only make segmented gradients in Krita, but in 3.0.2 we "
+"can also make stop gradients."
 msgstr ""
+"Inicialment, al Krita només vàrem poder crear degradats segmentats, però des "
+"de la versió 3.0.2 també podem crear degradats d'aturada."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:48
 msgid ""
-"You can make a new gradient by going into the drop-down and selecting the"
-" gradient type you wish to have. By default Krita will make a stop-gradient."
+"You can make a new gradient by going into the drop-down and selecting the "
+"gradient type you wish to have. By default Krita will make a stop-gradient."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:51
 msgid "Stop Gradients"
-msgstr "Aturar els degradats"
+msgstr "Degradats d'aturada"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:56
 msgid "Stop gradients are very straight forward:"
@@ -174,25 +188,25 @@ msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:60
 msgid ""
-"|mouseright| on the stops to remove them. A stop gradient will not allow you"
-" to remove stops if there's only two left."
+"|mouseright| on the stops to remove them. A stop gradient will not allow you "
+"to remove stops if there's only two left."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:65
 msgid ""
-"A selected stop can have its color and transparency changed using the color"
-" button and the opacity slider below."
+"A selected stop can have its color and transparency changed using the color "
+"button and the opacity slider below."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:70
 msgid ""
-"As per SVG spec, you can make a sudden change between stops by moving them"
-" close together. The stops will overlap, but you can still drag them around."
+"As per SVG spec, you can make a sudden change between stops by moving them "
+"close together. The stops will overlap, but you can still drag them around."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:73
 msgid "Segmented Gradients"
-msgstr ""
+msgstr "Degradats segmentats"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:76
 msgid ".. image:: images/gradients/Krita_Editing_Custom_Gradient.png"
@@ -200,9 +214,9 @@ msgstr ".. image:: images/gradients/Krita_Editing_Custom_Gradient.png"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:77
 msgid ""
-"Segmented gradients are a bit more tricky. Instead of going from color to"
-" color, it allows you to define segments, which each can have a begin and end"
-" color."
+"Segmented gradients are a bit more tricky. Instead of going from color to "
+"color, it allows you to define segments, which each can have a begin and end "
+"color."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:79
@@ -215,9 +229,9 @@ msgstr "Divideix el segment"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:85
 msgid ""
-"This splits the current segment in two, using the white arrow, the segment"
-" middle as the place to split. It will also use the color at the white arrow"
-" to define the new colors in place in the new segments."
+"This splits the current segment in two, using the white arrow, the segment "
+"middle as the place to split. It will also use the color at the white arrow "
+"to define the new colors in place in the new segments."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:86
@@ -243,19 +257,19 @@ msgstr "Elimina el segment"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:91
 msgid "Removes the segment."
-msgstr ""
+msgstr "Eliminarà el segment."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:93
 msgid ""
-"|mouseleft| + dragging the black arrows will resize the segments attaching to"
-" those arrows. |mouseleft| + dragging the white arrows will change the mid"
-" point of that segment, changing the way how the mixture is made."
+"|mouseleft| + dragging the black arrows will resize the segments attaching "
+"to those arrows. |mouseleft| + dragging the white arrows will change the mid "
+"point of that segment, changing the way how the mixture is made."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:95
 msgid ""
-"At the bottom, you can set the color and transparency of either part of the"
-" segment."
+"At the bottom, you can set the color and transparency of either part of the "
+"segment."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:97
@@ -295,17 +309,17 @@ msgstr "RGB"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:114
 msgid "Does the blending in RGB model."
-msgstr ""
+msgstr "Fa la barreja en el model RGB."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:115
 msgid "HSV clockwise"
-msgstr ""
+msgstr "HSV en sentit horari"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:116
 msgid ""
-"Blends the two colors using the HSV model, and follows the hue clockwise"
-" (red-yellow-green-cyan-blue-purple). The above screenshot is an example of"
-" this."
+"Blends the two colors using the HSV model, and follows the hue clockwise "
+"(red-yellow-green-cyan-blue-purple). The above screenshot is an example of "
+"this."
 msgstr ""
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:118

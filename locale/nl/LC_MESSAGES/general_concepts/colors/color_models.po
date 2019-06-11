@@ -5,12 +5,13 @@
 #
 # Automatically generated, 2019.
 # Freek de Kruijf <freekdekruijf@kde.nl>, 2019.
+# Lo Fernchu <lofernchu@zonnet.nl>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-31 11:58+0200\n"
+"PO-Revision-Date: 2019-06-10 17:54+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -38,8 +39,8 @@ msgid ""
 "Krita has many different color spaces and models. Following here is a brief "
 "explanation of each, and their use-cases."
 msgstr ""
-"Krita heeft veel verschillende kleurruimtes en -modellen. Hierna volgt een "
-"korte uitleg van elk en hun gebruik."
+"Krita heeft veel verschillende kleurruimtes en modellen. Hieronder volgt van"
+" elk een korte uitleg, en waar te gebruiken."
 
 #: ../../general_concepts/colors/color_models.rst:22
 msgid "RGB"
@@ -55,13 +56,16 @@ msgid ""
 "computer screens. Adding Red, Green and Blue light together results in "
 "White, and is thus named the additive color wheel."
 msgstr ""
-"Dit zijn de meest efficiënte primaire kleuren voor op licht gebaseerde "
-"menging van kleur, zoals op computerschermen. Rood, groen en blauw licht "
-"optellen resulteert in wit en wordt dus het additieve kleurenwiel genoemd."
+"Dit zijn de meest handige basiskleuren voor het op licht-gebaseerde"
+" mengen van kleuren, zoals op computerschermen. Het samenvoegen van rood,"
+" groen en"
+" blauw licht resulteert in wit licht, en dit is waarom het een optellend"
+" kleurmodel wordt"
+" genoemd."
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
-msgstr "RGB wordt voor twee doeleinden gebruikt:"
+msgstr "RGB wordt voor twee doelen gebruikt:"
 
 #: ../../general_concepts/colors/color_models.rst:30
 msgid "Images that are meant for viewing on a screen:"
@@ -72,18 +76,17 @@ msgid ""
 "So that could be images for the web, buttons, avatars, or just portfolio "
 "images."
 msgstr ""
-"Dat kunnen dus afbeeldingen zijn voor het web, knoppen, avatars of gewoon "
-"een map met afbeeldingen."
+"Dat kunnen dus afbeeldingen zijn voor het web, knoppen, avatars, of gewoon"
+" portfolio afbeeldingen."
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
 msgstr ""
-"Of voor videospellen, zowel figuurtjes en texturen zijn daar het beste in "
-"RGB."
+"Of voor video spelletjes, zowel sprites als textures werken het beste in RGB."
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
-msgstr "Of voor 3d weergave, visuële effecten en cg-animatie."
+msgstr "Of voor 3d rendering, visuele effecten en cg animatie."
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
@@ -92,6 +95,14 @@ msgid ""
 "this next to a profiled monitor. This way you can have precise colors while "
 "also being able to view them correctly on multiple screens."
 msgstr ""
+"En voor de werkruimte. Een werkruimte is een RGB kleurengamma"
+" (gamut)(kleurengamma) dat"
+" echt groot en voorspelbaar is, wat inhoud dat het erg geschikt is voor het"
+" bewerken van"
+" afbeeldingen. U gebruikt het samen met een van een profiel voorziene"
+" beeldscherm."
+" Op deze manier kunt u gedetailleerde kleuren hebben die u correct op diverse"
+" beeldschermen kunt bekijken."
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
@@ -200,10 +211,13 @@ msgid ""
 "These are not included as their own color spaces in Krita. However, they do "
 "show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
+"Dit zijn geen zelfstandige kleurruimtes in Krita. Maar u krijgt ze wel te zien"
+" in de mengmodi en bij het selecteren van kleuren, daarom hier een kort"
+" overzicht:"
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr "--Afbeeldingen over relaties rgb-hsv etc."
+msgstr "--Afbeeldingen over de relatie tussen rgb-hsv enz."
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -215,8 +229,8 @@ msgid ""
 "is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
 "blue."
 msgstr ""
-"De tint van een kleur of, of het rood, geel, groen, etc. is. Tint in Krita "
-"wordt gemeten in 360 graden, met 0 als rood, 120 als groen en 240 als blauw."
+"De tint van een kleur, of het rood, geel, groen, enz. is. Krita's tint"
+" is verdeelt in 360 graden, met 0 als rood, 120 als groen en 240 als blauw."
 
 #: ../../general_concepts/colors/color_models.rst:63
 msgid "Saturation"
@@ -230,11 +244,12 @@ msgid ""
 "measurement of how close a color is to gray, and sometimes this value is "
 "called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
-"Hoe levendig een kleur is. Verzadiging is enigzins anders tussen HSV en de "
-"anderen. In HSV is het een maat voor het verschil tussen twee gebruikte "
-"basis kleuren en drie gebruikte basis kleuren. In de anderen is het een maat "
-"voor hoe dichtbij een kleur is tot grijs, en soms wordt deze waarde "
-"**Chroma** genoemd. Verzadiging varieert van 0 (grijs) tot 100 (pure kleur)."
+"Hoe levendig een kleur is. Verzadiging verschilt een beetje tussen HSV en de"
+" anderen. In HSV is het een maat voor het verschil tussen twee gebruikte "
+"basis kleuren en drie gebruikte basis kleuren. Bij de andere geeft het weer"
+" hoe"
+" dicht een kleur bij grijs is, soms heeft deze waarde ook de naam **Chroma**."
+" Verzadiging varieert van 0 (grijs) tot 100 (pure kleur)."
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -245,16 +260,21 @@ msgid ""
 "Sometimes known as Brightness. Measurement of how much the pixel needs to "
 "light up. Also measured from 0 to 100."
 msgstr ""
+"Soms bekend als helderheid (Brightness). Geeft weer hoeveel de pixel oplicht."
+" Varieert ook van 0 tot 100."
 
 #: ../../general_concepts/colors/color_models.rst:67
 msgid "Lightness"
-msgstr "Lichtheid"
+msgstr "Helderheid"
 
 #: ../../general_concepts/colors/color_models.rst:68
 msgid ""
 "Where a color aligns between white and black. This value is non-linear, and "
 "puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
+"Waar een kleur wordt ingedeeld tussen wit en zwart. Deze waarde is"
+" niet-linear, en plaatst de meest verzadigde kleuren op 50. Varieert van 0"
+" tot 100."
 
 #: ../../general_concepts/colors/color_models.rst:69
 msgid "Intensity"
@@ -265,8 +285,8 @@ msgid ""
 "Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
 "than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
-"Gelijk aan lichtheid, behalve dat het toegeeft dat geel (1,1,0) lichter is "
-"dan blauw (0,0,1). Varieert van 0 tot 100."
+"Vergelijkbaar met helderheid, behalve dat het erkent dat geel (1,1,0) lighter"
+" is dan blauw (0,0,1). varieert van 0 tot 100."
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid "Luma (Y')"
@@ -279,6 +299,10 @@ msgid ""
 "reflects to determine its lightness. Ranges from 0 to 100. Luma is well "
 "known for being used in film-color spaces."
 msgstr ""
+"Vergelijkbaar met helderheid en intensiteit, behalve dat het de rode, groene"
+" en blauwe componenten indeelt gebaseerd op metingen in de praktijk om te"
+" bepalen hoeveel licht een kleur reflecteert. Varieert van 0 tot 100. Luma is"
+" zeer bekend van het gebruik bij kleurenfilm."
 
 #: ../../general_concepts/colors/color_models.rst:77
 msgid "Grayscale"
@@ -290,14 +314,17 @@ msgid ""
 "registering gray values, it only needs one channel of information, which in "
 "turn means the image becomes much lighter in memory consumption!"
 msgstr ""
+"Deze kleurruimte registreert alleen grijswaarden. Dat is handig, omdat het"
+" alleen grijswaarden registreert, heeft het maar een informatie-kanaal nodig,"
+" wat inhoud dat de afbeelding veel minder geheugen nodig heeft!"
 
 #: ../../general_concepts/colors/color_models.rst:82
 msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
-"Dit is nuttig voor texturen, maar ook al het andere dat in de grijsschaal "
-"blijft, zoals zwart-wit stripverhalen."
+"Dit is handig bij texturen, maar ook bij andere dingen die alleen maar een"
+" grijswaarden nodig heeft, zoals zwart/wit stripverhalen."
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -305,7 +332,7 @@ msgstr "CMYK"
 
 #: ../../general_concepts/colors/color_models.rst:97
 msgid "Cyan, Magenta, Yellow, Key"
-msgstr "Cyaan, magenta, geel, sleutel"
+msgstr "Cyan (cyaan), Magenta, Yellow (geel), Key (zwart)"
 
 #: ../../general_concepts/colors/color_models.rst:99
 msgid ""
@@ -313,6 +340,9 @@ msgid ""
 "four colors, and adding them all adds up to black instead of white. This is "
 "thus also called a 'subtractive' color space."
 msgstr ""
+"Dit is de kleurruimte van printers. Afwijkend van computers, hebben printers"
+" deze vier kleuren, en als u ze allemaal samenvoegt dan krijgt u zwart in de"
+" plaats van wit. Dit wordt daarom 'aftrekkende' kleurruimte genoemd."
 
 #: ../../general_concepts/colors/color_models.rst:104
 #: ../../general_concepts/colors/color_models.rst:117
@@ -340,30 +370,32 @@ msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
 msgstr ""
+"Er is ook een verschil tussen 'kleur grijs' and 'neutraal grijs' "
+"afhankelijk van het profiel."
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
-msgstr ""
+msgstr "25%"
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "50%"
-msgstr ""
+msgstr "50%"
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "75%"
-msgstr ""
+msgstr "75%"
 
 #: ../../general_concepts/colors/color_models.rst:119
 msgid "Colored Gray"
-msgstr ""
+msgstr "Kleur grijs"
 
 #: ../../general_concepts/colors/color_models.rst:121
 msgid "Neutral Gray"
-msgstr ""
+msgstr "Neutraal grijs"
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ".. image:: images/color_category/Cmyk_black_differences.png"
-msgstr ""
+msgstr ".. image:: images/color_category/Cmyk_black_differences.png"
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ""
@@ -372,6 +404,10 @@ msgid ""
 "a yellow look to the strokes. Again, another good reason to work in RGB and "
 "let the conversion be done by the printing house."
 msgstr ""
+"In Krita is er het feit dat de standaard kleur een perfect zwart in "
+"RGB is, wat vervolgens op een aparte manier wordt geconverteerd naar onze"
+" standaard CMYK, wat een geel effect geeft. Wat nog een goede reden is om in"
+" RGB te werken en de conversies door de drukkerij te laten doen."
 
 #: ../../general_concepts/colors/color_models.rst:130
 msgid ""
@@ -381,26 +417,31 @@ msgid ""
 "relative colorimetric intent. Or you can just give the workspace rgb image "
 "to your printer and let them handle the work."
 msgstr ""
+"Al hoe wel CMYK een kleinere 'gamut' (kleurengamma) heeft dan RGB, wordt het"
+" toch aanbevolen om een RGB werkruimte te gebruiken om daarin te werken."
+" Daarna kunt u het converteren naar de CMYK profiel van uw printer met behulp"
+" van absolute dan wel relatieve colormetrie. Maar u kunt natuurlijk ook"
+" werkruimte rgb afbeelding aan uw drukker geven en hun het werk laten doen."
 
 #: ../../general_concepts/colors/color_models.rst:136
 msgid "YCrCb"
-msgstr ""
+msgstr "YCrCb"
 
 #: ../../general_concepts/colors/color_models.rst:138
 msgid "Luminosity, Red-chroma, Blue-chroma"
-msgstr ""
+msgstr "Luminosity (lichtkracht) , Rood-chroma, Blauw-chroma"
 
 #: ../../general_concepts/colors/color_models.rst:140
 msgid "YCrCb stands for"
-msgstr ""
+msgstr "YCrCb staat voor"
 
 #: ../../general_concepts/colors/color_models.rst:142
 msgid "Y'/Y"
-msgstr ""
+msgstr "Y'/Y"
 
 #: ../../general_concepts/colors/color_models.rst:143
 msgid "Luma/Luminosity, thus, the amount of light a color reflects."
-msgstr ""
+msgstr "Luma/Lichtkracht, de hoeveelheid licht dat een kleur reflecteert."
 
 #: ../../general_concepts/colors/color_models.rst:144
 msgid "Cr"
@@ -410,6 +451,7 @@ msgstr "Cr"
 msgid ""
 "Red Chroma. This value measures how red a color is versus how green it is."
 msgstr ""
+"Rood Chroma. Deze waarde vertelt hoe rood versus hoe groen een kleur is."
 
 #: ../../general_concepts/colors/color_models.rst:147
 msgid "Cb"
@@ -419,6 +461,7 @@ msgstr "Cb"
 msgid ""
 "Blue Chroma. This value measures how blue a color is versus how yellow it is."
 msgstr ""
+"Blauw Chroma. Deze waarde vertelt hoe blauw versus hoe geel een kleur is."
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
@@ -427,6 +470,10 @@ msgid ""
 "lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, "
 "and leave the Y channel in full quality."
 msgstr ""
+"Deze kleurruimte wordt veel gebruikt in fotografie en in (correcte) "
+"implementaties van JPEG. Omdat u als mens veel gevoeliger bent voor de"
+" helderheid van kleuren, probeert daarom JPEG de Cr en Cb kanalen te"
+" comprimeren, terwijl het de Y kanaal zijn volledige kwaliteit laat houden."
 
 #: ../../general_concepts/colors/color_models.rst:153
 msgid ""
@@ -434,6 +481,9 @@ msgid ""
 "open source ICC profiles for this color space. It's unusable without one, "
 "and also probably very untested."
 msgstr ""
+"Krita komt niet een ICC profiel voor YCrCb omdat er geen "
+"open source ICC profielen zijn voor deze kleurruimte. Het is onbruikbaar"
+" zonder een profiel, en waarschijnlijk ook weinig uitgeprobeerd."
 
 #: ../../general_concepts/colors/color_models.rst:158
 msgid "XYZ"
@@ -445,14 +495,18 @@ msgid ""
 "color perception. In doing so, they made the first color spaces, with XYZ "
 "being the one best at approximating human vision."
 msgstr ""
+"In 1931, was CIE (Institute of Color and Light), bezig met het bestuderen van"
+" de gevoeligheid van het menselijk oog voor kleur. Terwijl ze daarmee bezig"
+" waren, maakte ze de eerste kleurruimten, met XYZ als de beste benadering van"
+" het menselijke zicht."
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
-msgstr ""
+msgstr "Het is bijna onmogelijk om echt uit te leggen wat XYZ is."
 
 #: ../../general_concepts/colors/color_models.rst:166
 msgid "is equal to green."
-msgstr ""
+msgstr "Is gelijk aan groen."
 
 #: ../../general_concepts/colors/color_models.rst:167
 msgid "Z"
@@ -460,7 +514,7 @@ msgstr "Z"
 
 #: ../../general_concepts/colors/color_models.rst:168
 msgid "akin to blue."
-msgstr ""
+msgstr "Komt overeen met blauw."
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "X"
@@ -468,13 +522,16 @@ msgstr "X"
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "is supposed to be red."
-msgstr ""
+msgstr "Wordt veronderstelt rood te zijn."
 
 #: ../../general_concepts/colors/color_models.rst:172
 msgid ""
 "XYZ is used as a baseline reference for all other profiles and models. All "
 "color conversions are done in XYZ, and all profiles coordinates match XYZ."
 msgstr ""
+"Men gebruikt XYZ als basisreferentie voor alle andere profielen en modellen."
+" Alle kleurconversies worden in XYZ gedaan, en alle profiel-coördinaten zijn"
+" in XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:177
 msgid "L\\*a\\*b\\*"
@@ -482,7 +539,7 @@ msgstr "L\\*a\\*b\\*"
 
 #: ../../general_concepts/colors/color_models.rst:179
 msgid "Stands for:"
-msgstr ""
+msgstr "Staat voor:"
 
 #: ../../general_concepts/colors/color_models.rst:181
 msgid "L\\*"
@@ -490,7 +547,7 @@ msgstr "L\\*"
 
 #: ../../general_concepts/colors/color_models.rst:182
 msgid "Lightness, similar to luminosity in this case."
-msgstr ""
+msgstr "Helderheid, in dit geval vergelijkbaar met lichtkracht."
 
 #: ../../general_concepts/colors/color_models.rst:183
 msgid "a\\*"
@@ -500,7 +557,7 @@ msgstr "a\\*"
 msgid ""
 "a\\* in this case is the measurement of how magenta a color is versus how "
 "green it is."
-msgstr ""
+msgstr "a\\* geeft in dit geval weer hoe magenta versus groen een kleur is."
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid "b\\*"
@@ -510,7 +567,7 @@ msgstr "b\\*"
 msgid ""
 "b\\* in this case is a measurement of how yellow a color is versus how blue "
 "a color is."
-msgstr ""
+msgstr "b\\* geeft in dit geval weer hoe geel versus blauw een kleur is."
 
 #: ../../general_concepts/colors/color_models.rst:188
 msgid ""
@@ -520,16 +577,24 @@ msgid ""
 "balancing in. It's far easier to adjust the contrast and color tone in "
 "L*a*b*."
 msgstr ""
+"L\\*a\\*b\\* wordt verondersteld een begrijpelijker variant van XYZ te zijn"
+" en de meest 'complete' van alle kleurruimtes. Het wordt vaak bij converteren"
+" als tussen kleurruimte gebruikt, maar zelfs nog meer als de juiste"
+" kleurruimte bij het corrigeren van de kleurbalans. Het is veel makkelijker"
+" om het contrast en de kleurtoon in "
+"L*a*b* te corrigeren."
 
 #: ../../general_concepts/colors/color_models.rst:190
 msgid ""
 "L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
 "specifically uses CIELAB d50."
 msgstr ""
+"L\\*a\\*b\\* is technisch gesproken hetzelfde als Photoshop's LAB. Photoshop"
+" gebruikt specifiek CIELAB d50."
 
 #: ../../general_concepts/colors/color_models.rst:193
 msgid "Filters and blending modes"
-msgstr ""
+msgstr "Filters en mengmethodes"
 
 #: ../../general_concepts/colors/color_models.rst:195
 msgid ""
@@ -538,3 +603,9 @@ msgid ""
 "on the color coordinates, and because color coordinates are different per "
 "color space, the blending modes look different."
 msgstr ""
+"U heeft misschien opgemerkt dat de methoden voor het mixen in LAB anders"
+" werken dan in "
+"RGB en CMYK. Dit is omdat de mix-methoden werken door de kleur-coördinaten te"
+" berekenen, en omdat de kleur-coördinaten per kleurruimte verschillen, zijn"
+" de mix-methoden ook verschillend."
+

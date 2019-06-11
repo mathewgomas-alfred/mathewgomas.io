@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:52+0100\n"
+"PO-Revision-Date: 2019-06-10 21:48+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -39,6 +39,9 @@ msgid ""
 "can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing "
 "Document and Untitled Document` but then with a nicer place in the UI."
 msgstr ""
+"Mallar är bara .kra-filer som sparas på ett speciellt ställe så att Krita"
+" snabbt kan ta fram dem. Det är som :guilabel:`Öppna befintligt dokument som"
+" namnlöst dokument` men med en bättre plats i användargränssnittet."
 
 #: ../../user_manual/templates.rst:23
 msgid ""
@@ -47,10 +50,15 @@ msgid ""
 "document as a new template, including all its properties along with the "
 "layers and layer contents."
 msgstr ""
+"Man kan skapa sin egen mallfil från vilken .kra-fil som helst genom att"
+" använda :guilabel:"
+"`Skapa mall från bild` i arkivmenyn. Det lägger till det aktuella dokumentet"
+" som en ny mall, inklusive alla dess egenskaper tillsammans med lagren och"
+" lagerinnehållet."
 
 #: ../../user_manual/templates.rst:25
 msgid "We have the following defaults:"
-msgstr ""
+msgstr "Vi har följande standardmallar:"
 
 #: ../../user_manual/templates.rst:28
 msgid "Comic Templates"
@@ -65,26 +73,36 @@ msgid ""
 "them drawing over the panel. Use :guilabel:`Inherit Alpha` to clip the "
 "drawing by the panel."
 msgstr ""
+"Dessa mallar är särskilt konstruerade för att man ska komma igång med att"
+" rita serier. Serimallar förlitar sig på ett system av vektorer och"
+" dubbletter av vektorlagren som automatiskt speglar alla ändringar som görs"
+" av vektorlagren. Man kan rita sin bild mellan de båda, och inte vara rädd"
+" för att rita över rutan. Använd :guilabel:`Ärv alfa` för att beskära"
+" teckningen till rutan."
 
 #: ../../user_manual/templates.rst:32
 msgid "European Bande Desinée Template."
-msgstr ""
+msgstr "Europeisk bande dessinée mall."
 
 #: ../../user_manual/templates.rst:33
 msgid ""
 "This one is reminiscent of the system used by for example TinTin or Spirou "
 "et Fantasio. These panels focus on wide images, and horizontal cuts."
 msgstr ""
+"Denna påminner om systemet som exempelvis används av Tintin eller Spirou."
+" Rutorna fokuserar på breda bilder och horisontella skärningar."
 
 #: ../../user_manual/templates.rst:34
 msgid "US-style comics Template."
-msgstr ""
+msgstr "Seriemall med amerikansk stil"
 
 #: ../../user_manual/templates.rst:35
 msgid ""
 "This one is reminiscent of old DC and Marvel comics, such as Batman or "
 "Captain America. Nine images for quick story progression."
 msgstr ""
+"Denna påminner om gamla serier från DC och Marvel, såsom Batman eller Captain"
+" America. Nio rutor för att berättelsen snabbt ska gå framåt."
 
 #: ../../user_manual/templates.rst:36
 msgid "Manga Template."
@@ -96,40 +114,45 @@ msgid ""
 "and a thick horizontal gutter, ensuring that the reader finished the "
 "previous row before heading to the next."
 msgstr ""
+"Denna är baserad på japanska serier, och fokuserar på ett tunt vertikalt"
+" mellanrum och ett brett horisontellt mellanrum, vilket säkerställer att"
+" läsarna är klara med föregående rad innan de fortsätter med nästa."
 
 #: ../../user_manual/templates.rst:39
 msgid "Waffle Iron Grid"
-msgstr ""
+msgstr "Våffeljärnsmönster"
 
 #: ../../user_manual/templates.rst:39
 msgid "12 little panels at your disposal."
-msgstr ""
+msgstr "Tolv små rutor till ditt förfogande."
 
 #: ../../user_manual/templates.rst:42
 msgid "Design Templates"
-msgstr ""
+msgstr "Designmallar"
 
 #: ../../user_manual/templates.rst:44
 msgid ""
 "These are templates for design and have various defaults with proper ppi at "
 "your disposal:"
 msgstr ""
+"De är mallar för design, och har diverse standardvärden med riktiga b/t till"
+" ditt förfogande."
 
 #: ../../user_manual/templates.rst:46
 msgid "Cinema 16:10"
-msgstr ""
+msgstr "Biograf 16:10"
 
 #: ../../user_manual/templates.rst:47
 msgid "Cinema 2.93:1"
-msgstr ""
+msgstr "Biograf 2,93:1"
 
 #: ../../user_manual/templates.rst:48
 msgid "Presentation A3-landscape"
-msgstr ""
+msgstr "Presentation liggande A3"
 
 #: ../../user_manual/templates.rst:49
 msgid "Presentation A4 portrait"
-msgstr ""
+msgstr "Presentation stående A4"
 
 #: ../../user_manual/templates.rst:50
 msgid "Screen 4:3"
@@ -137,15 +160,15 @@ msgstr "Skärm 4:3"
 
 #: ../../user_manual/templates.rst:51
 msgid "Web Design"
-msgstr ""
+msgstr "Webbdesign"
 
 #: ../../user_manual/templates.rst:54
 msgid "DSLR templates"
-msgstr ""
+msgstr "Mallar för digital spegelreflexkamera"
 
 #: ../../user_manual/templates.rst:56
 msgid "These have some default size for photos"
-msgstr ""
+msgstr "De har några standardstorlekar för foton"
 
 #: ../../user_manual/templates.rst:58
 msgid "Canon 55D"
@@ -169,8 +192,11 @@ msgstr "Nikon D7000"
 
 #: ../../user_manual/templates.rst:65
 msgid "Texture Templates"
-msgstr ""
+msgstr "Strukturmallar"
 
 #: ../../user_manual/templates.rst:67
 msgid "These are for making 3D textures, and are between 1024, to 4092."
 msgstr ""
+"De är till för att skapa tredimensionella strukturer, och är mellan 1024 och"
+" 4092."
+
