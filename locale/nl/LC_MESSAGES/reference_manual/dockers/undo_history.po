@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-06 11:23+0200\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 10:56+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../<generated>:1
 msgid "Split strokes."
@@ -59,12 +59,13 @@ msgstr ".. image:: images/dockers/Krita_Undo_History_Docker.png"
 #: ../../reference_manual/dockers/undo_history.rst:20
 msgid ""
 "This docker allows you to quickly shift between undo states, and even go "
-"back in time far more quickly that rapidly reusing :kbd:`Ctrl + Z`"
+"back in time far more quickly that rapidly reusing :kbd:`Ctrl + Z`."
 msgstr ""
 
 #: ../../reference_manual/dockers/undo_history.rst:22
-msgid "..index:: Cumulate Undo"
-msgstr "..index:: Cumulatief Ongedaan maken"
+#| msgid "Cumulative Undo"
+msgid "Cumulate Undo"
+msgstr "Ongedaan maken cumuleren"
 
 #: ../../reference_manual/dockers/undo_history.rst:25
 msgid "Cumulative Undo"
@@ -103,3 +104,6 @@ msgid ""
 "Once N is crossed -- the earlier strokes are merged into the group's first "
 "stroke."
 msgstr ""
+
+#~ msgid "..index:: Cumulate Undo"
+#~ msgstr "..index:: Cumulatief Ongedaan maken"

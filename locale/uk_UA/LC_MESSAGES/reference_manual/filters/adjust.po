@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___adjust\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 15:55+0300\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 08:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Power"
@@ -504,12 +504,18 @@ msgstr ""
 "порогове значення, яке розмежовує області чорного і білого кольорів."
 
 #: ../../reference_manual/filters/adjust.rst:178
+#: ../../reference_manual/filters/adjust.rst:191
+msgid "Slope"
+msgstr "Нахил"
+
+#: ../../reference_manual/filters/adjust.rst:178
 msgid "ASC CDL"
 msgstr "ASC CDL"
 
 #: ../../reference_manual/filters/adjust.rst:178
-msgid "Slope Offset Power Curves"
-msgstr "Криві нахилу, зсуву, сили"
+#| msgid "Slope Offset Power Curves"
+msgid "Offset and Power Curves"
+msgstr "Криві зсуву і сили"
 
 #: ../../reference_manual/filters/adjust.rst:181
 msgid "Slope, Offset, Power"
@@ -531,10 +537,6 @@ msgid ""
 msgstr ""
 "Цей фільтр є корисним, оскільки його визначено Американською спілкою кіно як "
 "«ASC_CDL», тобто це стандартний спосіб опису методу балансування кольорів."
-
-#: ../../reference_manual/filters/adjust.rst:191
-msgid "Slope"
-msgstr "Нахил"
 
 #: ../../reference_manual/filters/adjust.rst:192
 msgid ""

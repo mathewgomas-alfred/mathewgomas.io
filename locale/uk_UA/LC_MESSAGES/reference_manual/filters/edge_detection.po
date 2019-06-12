@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___filters___edge_detection\n"
+"Project-Id-Version: docs_krita_org_reference_manual___filters___edge_detection"
+"\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 16:41+0300\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 08:49+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "XYZ"
@@ -46,6 +46,8 @@ msgid "Prewitt"
 msgstr "Прюїтт"
 
 #: ../../reference_manual/filters/edge_detection.rst:11
+#: ../../reference_manual/filters/edge_detection.rst:43
+#: ../../reference_manual/filters/edge_detection.rst:86
 msgid "Sobel"
 msgstr "Собель"
 
@@ -78,9 +80,14 @@ msgid ".. image:: images/filters/Krita_4_0_edge_detection.png"
 msgstr ".. image:: images/filters/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
+#| msgid ""
+#| "From left to right: Original, with prewitt edge detection applied, with "
+#| "prewitt edge detection applied and result applied to alpha channel, and "
+#| "finally the original with an edge detection filter layer with the same "
+#| "settings as 3, and the filter layer blending mode set to multiply"
 msgid ""
-"From left to right: Original, with prewitt edge detection applied, with "
-"prewitt edge detection applied and result applied to alpha channel, and "
+"From left to right: Original, with Prewitt edge detection applied, with "
+"Prewitt edge detection applied and result applied to alpha channel, and "
 "finally the original with an edge detection filter layer with the same "
 "settings as 3, and the filter layer blending mode set to multiply"
 msgstr ""
@@ -126,11 +133,6 @@ msgstr ""
 #: ../../reference_manual/filters/edge_detection.rst:86
 msgid "Formula"
 msgstr "Формула"
-
-#: ../../reference_manual/filters/edge_detection.rst:43
-#: ../../reference_manual/filters/edge_detection.rst:86
-msgid "Sobol"
-msgstr "Соболь"
 
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
@@ -291,17 +293,25 @@ msgstr ""
 "застосування ефекту нормальної карти є надто слабким."
 
 #: ../../reference_manual/filters/edge_detection.rst:93
+#| msgid ""
+#| "An XYZ swizzle, that allows you to map Red, Green and Blue to different "
+#| "3d normal vector coordinates. This is necessary mostly for the difference "
+#| "between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard "
+#| "normal map (+X, -Y, +Z)."
 msgid ""
 "An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d "
 "normal vector coordinates. This is necessary mostly for the difference "
-"between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard normal "
+"between MikkT-space normal maps (+X, +Y, +Z) and the OpenGL standard normal "
 "map (+X, -Y, +Z)."
 msgstr ""
 "Змішувалка XYZ за допомогою якої ви можете пов'язати канали червоного, "
 "зеленого та синього із іншими координатами, які задаються нормалізованим "
 "просторовим вектором. Таке перетворення є необхідним здебільшого для "
-"виправлення різниці між нормальними картами у просторі Міккта (+X, +Y, +Z) "
+"виправлення різниці між нормальними картами у просторі МіккТ (+X, +Y, +Z) "
 "та стандартною нормальною картою OpenGL (+X, -Y, +Z)."
+
+#~ msgid "Sobol"
+#~ msgstr "Соболь"
 
 #~ msgid ""
 #~ "The convolution kernel formula for the edgedetection. The difference "

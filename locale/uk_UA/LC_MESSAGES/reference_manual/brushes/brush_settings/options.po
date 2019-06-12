@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_settings___options\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_settings"
+"___options\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-05 16:00+0300\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 08:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/brushes/Krita_3_0_1_Brush_engine_ratio.png"
@@ -181,11 +181,13 @@ msgid "Y"
 msgstr "Y"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
+#| msgid ""
+#| "The scattering, perpendicular to the drawing angle (has the most effect)"
 msgid ""
-"The scattering, perpendicular to the drawing angle (has the most effect)"
+"The scattering, perpendicular to the drawing angle (has the most effect)."
 msgstr ""
 "Дисперсія перпендикулярно до кута малювання (найбільше впливає на вигляд "
-"мазка)"
+"мазка)."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_scatter.png"
@@ -273,12 +275,15 @@ msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_01.png"
 msgstr ".. image:: images/brushes/Krita_2_9_brushengine_size_01.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:113
+#| msgid ""
+#| "Also popular is setting the size to the sensor fuzzy or perspective, with "
+#| "the later in combination with a :ref:`assistant_perspective`"
 msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
-"the later in combination with a :ref:`assistant_perspective`"
+"the later in combination with a :ref:`assistant_perspective`."
 msgstr ""
 "Також популярним є встановлення розміру для нечіткості або перспективи "
-"датчика, із останнім у поєднанні з :ref:`assistant_perspective`"
+"датчика, із останнім у поєднанні з :ref:`assistant_perspective`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:116
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_02.png"
@@ -322,8 +327,9 @@ msgid "Gradient"
 msgstr "Градієнтний"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:138
-msgid "Picks active gradient"
-msgstr "Вибирає активний градієнт"
+#| msgid "Picks active gradient"
+msgid "Picks active gradient."
+msgstr "Вибирає активний градієнт."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:139
 msgid "Uniform Random"
@@ -355,7 +361,8 @@ msgid "Locked Pattern"
 msgstr "Фіксований візерунок"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:146
-msgid "Locks the pattern to the brushdab"
+#| msgid "Locks the pattern to the brushdab"
+msgid "Locks the pattern to the brushdab."
 msgstr "Фіксує візерунок для мазка пензлем."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:151

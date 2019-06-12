@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-30 20:53+0100\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 18:28+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -49,7 +49,6 @@ msgid "Emboss Horizontal Only"
 msgstr "Relief enbart horisontellt"
 
 #: ../../reference_manual/filters/emboss.rst:22
-#: ../../reference_manual/filters/emboss.rst:37
 msgid "Only embosses horizontal lines."
 msgstr "Lägger bara till relief för horisontella linjer."
 
@@ -73,6 +72,11 @@ msgstr "Använder Laplacealgoritmen för att utföra relief."
 msgid "Emboss Vertical Only"
 msgstr "Relief enbart vertikalt"
 
+#: ../../reference_manual/filters/emboss.rst:37
+#| msgid "Only embosses horizontal lines."
+msgid "Only embosses vertical lines."
+msgstr "Lägger bara till relief för vertikala linjer."
+
 #: ../../reference_manual/filters/emboss.rst:40
 msgid "Emboss with Variable depth"
 msgstr "Relief med variabelt djup"
@@ -95,3 +99,4 @@ msgstr "Relief horisontellt och vertikalt"
 #: ../../reference_manual/filters/emboss.rst:49
 msgid "Only embosses horizontal and vertical lines."
 msgstr "Lägger bara till relief för horisontella och vertikala linjer."
+

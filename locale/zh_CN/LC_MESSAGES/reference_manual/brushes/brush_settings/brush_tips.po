@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 03:21+0200\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
 "PO-Revision-Date: 2019-06-02 12:01\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
@@ -341,7 +341,9 @@ msgid "abr"
 msgstr "abr"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
-msgid "GIMP autobrush tip definitions"
+#, fuzzy
+#| msgid "GIMP autobrush tip definitions"
+msgid "GIMP autobrush tip definitions."
 msgstr "GIMP 自动笔刷的笔尖定义文件"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
@@ -397,8 +399,13 @@ msgid "Scale"
 msgstr "缩放"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
+#, fuzzy
+#| msgid ""
+#| "scales the brush tip. 1.0 is the native size of the brush tip. This can "
+#| "be fairly large! When painting with variable size (for instance governed "
+#| "by pressure), this is the base for the calculations."
 msgid ""
-"scales the brush tip. 1.0 is the native size of the brush tip. This can be "
+"Scales the brush tip. 1.0 is the native size of the brush tip. This can be "
 "fairly large! When painting with variable size (for instance governed by "
 "pressure), this is the base for the calculations."
 msgstr ""
@@ -410,16 +417,25 @@ msgid "Rotation"
 msgstr "旋转"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
-msgid "initial rotation of the brush tip."
+#, fuzzy
+#| msgid "initial rotation of the brush tip."
+msgid "Initial rotation of the brush tip."
 msgstr "此参数控制笔尖的原始朝向角度。"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
-msgid "distance between the brush tip impressions."
+#, fuzzy
+#| msgid "distance between the brush tip impressions."
+msgid "Distance between the brush tip impressions."
 msgstr "此参数控制笔尖印迹的间距。"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:145
+#, fuzzy
+#| msgid ""
+#| "for colored brushes, don't paint the actual colors, but make a grayscale "
+#| "brush tip that will be colored by your selected foreground/background "
+#| "color."
 msgid ""
-"for colored brushes, don't paint the actual colors, but make a grayscale "
+"For colored brushes, don't paint the actual colors, but make a grayscale "
 "brush tip that will be colored by your selected foreground/background color."
 msgstr ""
 "对于带颜色的笔尖，不按其原有颜色作画，而是把它视作一个灰阶的笔尖，用你选定的"

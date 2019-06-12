@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___filters___emboss\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 16:20+0300\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 08:50+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/filters/emboss.rst:1
 msgid "Overview of the emboss filters."
@@ -52,7 +52,6 @@ msgid "Emboss Horizontal Only"
 msgstr "Рельєф тільки по горизонталі"
 
 #: ../../reference_manual/filters/emboss.rst:22
-#: ../../reference_manual/filters/emboss.rst:37
 msgid "Only embosses horizontal lines."
 msgstr "Виконує створення рельєфу лише для горизонтальних ліній."
 
@@ -75,6 +74,11 @@ msgstr "Використовує лапласів алгоритм для ств
 #: ../../reference_manual/filters/emboss.rst:35
 msgid "Emboss Vertical Only"
 msgstr "Рельєф тільки по вертикалі"
+
+#: ../../reference_manual/filters/emboss.rst:37
+#| msgid "Only embosses horizontal lines."
+msgid "Only embosses vertical lines."
+msgstr "Виконує створення рельєфу лише для вертикальних ліній."
 
 #: ../../reference_manual/filters/emboss.rst:40
 msgid "Emboss with Variable depth"

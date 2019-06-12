@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
 "PO-Revision-Date: 2019-05-06 11:29+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
@@ -45,6 +45,8 @@ msgid "Prewitt"
 msgstr "Prewitt"
 
 #: ../../reference_manual/filters/edge_detection.rst:11
+#: ../../reference_manual/filters/edge_detection.rst:43
+#: ../../reference_manual/filters/edge_detection.rst:86
 msgid "Sobel"
 msgstr "Sobel"
 
@@ -71,8 +73,8 @@ msgstr ".. image:: images/filters/Krita_4_0_edge_detection.png"
 
 #: ../../reference_manual/filters/edge_detection.rst:33
 msgid ""
-"From left to right: Original, with prewitt edge detection applied, with "
-"prewitt edge detection applied and result applied to alpha channel, and "
+"From left to right: Original, with Prewitt edge detection applied, with "
+"Prewitt edge detection applied and result applied to alpha channel, and "
 "finally the original with an edge detection filter layer with the same "
 "settings as 3, and the filter layer blending mode set to multiply"
 msgstr ""
@@ -107,11 +109,6 @@ msgstr ""
 #: ../../reference_manual/filters/edge_detection.rst:86
 msgid "Formula"
 msgstr "Formule"
-
-#: ../../reference_manual/filters/edge_detection.rst:43
-#: ../../reference_manual/filters/edge_detection.rst:86
-msgid "Sobol"
-msgstr "Sobol"
 
 #: ../../reference_manual/filters/edge_detection.rst:43
 #: ../../reference_manual/filters/edge_detection.rst:86
@@ -248,6 +245,9 @@ msgstr ""
 msgid ""
 "An XYZ swizzle, that allows you to map Red, Green and Blue to different 3d "
 "normal vector coordinates. This is necessary mostly for the difference "
-"between Mikkt-space normal maps (+X, +Y, +Z) and the OpenGL standard normal "
+"between MikkT-space normal maps (+X, +Y, +Z) and the OpenGL standard normal "
 "map (+X, -Y, +Z)."
 msgstr ""
+
+#~ msgid "Sobol"
+#~ msgstr "Sobol"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-02-25 12:14+0100\n"
+"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"PO-Revision-Date: 2019-06-11 10:57+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.2\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../reference_manual/filters/emboss.rst:1
 msgid "Overview of the emboss filters."
@@ -47,7 +47,6 @@ msgid "Emboss Horizontal Only"
 msgstr "Horizontaal reliëf"
 
 #: ../../reference_manual/filters/emboss.rst:22
-#: ../../reference_manual/filters/emboss.rst:37
 msgid "Only embosses horizontal lines."
 msgstr ""
 
@@ -70,6 +69,11 @@ msgstr ""
 #: ../../reference_manual/filters/emboss.rst:35
 msgid "Emboss Vertical Only"
 msgstr "Verticaal reliëf"
+
+#: ../../reference_manual/filters/emboss.rst:37
+#| msgid "Emboss Vertical Only"
+msgid "Only embosses vertical lines."
+msgstr "Alleen verticale lijnen in reliëf"
 
 #: ../../reference_manual/filters/emboss.rst:40
 msgid "Emboss with Variable depth"
