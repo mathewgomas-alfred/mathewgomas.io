@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: user_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-05 12:07+0200\n"
+"PO-Revision-Date: 2019-06-12 15:01+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -127,7 +127,7 @@ msgstr ""
 "Permet ajustar amb una línia horitzontal o vertical des dels nodes dels "
 "objectes vectorials existents (llevat que només es tracti de canviar la mida "
 "de l'alçada o amplada, en aquest cas podeu arrossegar el cursor sobre el "
-"traç). Això és útil per alinear els objectes en horitzontal o vertical, com "
+"camí). Això és útil per alinear els objectes en horitzontal o vertical, com "
 "amb les vinyetes dels còmics."
 
 #: ../../user_manual/snapping.rst:52
@@ -144,7 +144,7 @@ msgstr "Node (només vectors)"
 
 #: ../../user_manual/snapping.rst:57
 msgid "This snaps a vector node or an object to the nodes of another path."
-msgstr "Ajusta un node o objecte vectorial amb els nodes d'un altra traç."
+msgstr "Ajusta un node o objecte vectorial amb els nodes d'un altre camí."
 
 #: ../../user_manual/snapping.rst:60
 msgid ".. image:: images/snapping/Snap-extension.png"
@@ -156,9 +156,9 @@ msgid ""
 "mathematically extended. This option allows you to snap to that. The "
 "direction of the node depends on its side handles in path editing mode."
 msgstr ""
-"Quan dibuixem un traç obert, els últims nodes de cada costat es podran "
+"Quan dibuixem un camí obert, els últims nodes de cada costat es podran "
 "estendre matemàticament. Aquesta opció permet ajustar-ho. La direcció del "
-"node dependrà de les seves nanses laterals en el mode edició del traç."
+"node dependrà de les seves nanses laterals en el mode edició del camí."
 
 #: ../../user_manual/snapping.rst:65
 msgid "Extension (Vector Only)"
@@ -222,11 +222,11 @@ msgstr "Polilínia"
 
 #: ../../user_manual/snapping.rst:86
 msgid "Path"
-msgstr "Traç"
+msgstr "Camí"
 
 #: ../../user_manual/snapping.rst:87
 msgid "Freehand path"
-msgstr "Traç a mà alçada"
+msgstr "Camí a mà alçada"
 
 #: ../../user_manual/snapping.rst:88
 msgid "Polygon"
@@ -254,7 +254,7 @@ msgid ""
 "bounding box of the layer, selection or whatever you are trying to move)"
 msgstr ""
 "L'eina de moure (tingueu en compte que s'ajusta amb la posició del cursor i "
-"no amb el contenidor de la capa, selecció o el que intenteu moure)"
+"no amb el quadre contenidor de la capa, selecció o el que intenteu moure)."
 
 #: ../../user_manual/snapping.rst:96
 msgid "The Transform tool"
@@ -274,7 +274,7 @@ msgstr "Selecció poligonal"
 
 #: ../../user_manual/snapping.rst:100
 msgid "Path select"
-msgstr "Selecció del traç"
+msgstr "Selecció del camí"
 
 #: ../../user_manual/snapping.rst:101
 msgid "Guides themselves can be snapped to grids and vectors"

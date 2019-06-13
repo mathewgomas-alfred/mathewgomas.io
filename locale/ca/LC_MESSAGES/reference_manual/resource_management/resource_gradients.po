@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-10 18:24+0200\n"
+"PO-Revision-Date: 2019-06-12 13:14+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -19,9 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.04.1\n"
 
+# skip-rule: punctuation-period
 #: ../../<generated>:1
 msgid "HSV counter-clock wise."
-msgstr "HSV en sentit antihorari."
+msgstr "HSV en sentit antihorari"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -153,9 +154,9 @@ msgid ""
 "applications do their gradients, but has less features than the segmented "
 "gradient."
 msgstr ""
-"Els degradats d'aturada, els quals es desen com a fitxers SVG i són similars "
-"a la forma en què la majoria de les aplicacions fan els seus degradats, però "
-"tenen menys característiques que el degradat segmentat."
+"Els degradats amb aturades, els quals es desen com a fitxers SVG i són "
+"similars a la forma en què la majoria de les aplicacions fan els seus "
+"degradats, però tenen menys característiques que el degradat segmentat."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:43
 msgid ""
@@ -163,47 +164,59 @@ msgid ""
 "can also make stop gradients."
 msgstr ""
 "Inicialment, al Krita només vàrem poder crear degradats segmentats, però des "
-"de la versió 3.0.2 també podem crear degradats d'aturada."
+"de la versió 3.0.2 també podem crear degradats amb aturades."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:48
 msgid ""
 "You can make a new gradient by going into the drop-down and selecting the "
 "gradient type you wish to have. By default Krita will make a stop-gradient."
 msgstr ""
+"Podreu crear un degradat nou si aneu a la llista desplegable i seleccioneu el "
+"tipus de degradat que voleu tenir. De manera predeterminada, el Krita crearà "
+"un degradat amb aturades."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:51
 msgid "Stop Gradients"
-msgstr "Degradats d'aturada"
+msgstr "Degradats amb aturades"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:56
 msgid "Stop gradients are very straight forward:"
-msgstr ""
+msgstr "Els degradats amb aturades són molt senzills:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:58
 msgid "|mouseleft| on the gradient to add a stop."
-msgstr ""
+msgstr "Feu |mouseleft| sobre el degradat per afegir una aturada."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:59
 msgid "|mouseleft| on the stops to select them, and drag to move them."
 msgstr ""
+"Feu |mouseleft| sobre les aturades per a seleccionar-les i arrossegueu per a "
+"moure-les."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:60
 msgid ""
 "|mouseright| on the stops to remove them. A stop gradient will not allow you "
 "to remove stops if there's only two left."
 msgstr ""
+"Feu |mouseright| sobre les aturades per eliminar-les. Un degradat amb "
+"aturades no permetrà eliminar les aturades si només en queden dues."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:65
 msgid ""
 "A selected stop can have its color and transparency changed using the color "
 "button and the opacity slider below."
 msgstr ""
+"A una aturada seleccionada se li pot canviar el color i la transparència "
+"utilitzant el botó de color i el control lliscant d'opacitat."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:70
 msgid ""
 "As per SVG spec, you can make a sudden change between stops by moving them "
 "close together. The stops will overlap, but you can still drag them around."
 msgstr ""
+"D'acord amb l'especificació SVG, podreu fer un canvi sobtat entre les "
+"aturades movent-les per estar juntes. Les aturades se superposaran, però "
+"encara es podran arrossegar."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:73
 msgid "Segmented Gradients"
@@ -219,10 +232,13 @@ msgid ""
 "color, it allows you to define segments, which each can have a begin and end "
 "color."
 msgstr ""
+"Els degradats segmentats són una mica més difícils. En lloc d'anar d'un color "
+"al color, permeten definir segments, cadascun dels quals podrà contenir un "
+"color d'inici i final."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:79
 msgid "|mouseright| the gradient to call up this menu:"
-msgstr ""
+msgstr "Feu |mouseright| sobre el degradat per a cridar a aquest menú:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:84
 msgid "Split Segment"
@@ -234,6 +250,9 @@ msgid ""
 "middle as the place to split. It will also use the color at the white arrow "
 "to define the new colors in place in the new segments."
 msgstr ""
+"Dividirà el segment actual en dos, utilitzant la fletxa blanca i el centre "
+"del segment serà el lloc per a dividir. També utilitzarà el color a la "
+"fletxa blanca per a definir els colors nous en el lloc dels segments nous."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:86
 msgid "Duplicate segment"
@@ -243,14 +262,17 @@ msgstr "Duplica el segment"
 msgid ""
 "Similar to split, but instead the two new segments are copies of the old one."
 msgstr ""
+"Similar a dividir, però en aquest cas els dos segments nous seran còpies de "
+"l'anterior."
 
+# skip-rule: punctuation-period
 #: ../../reference_manual/resource_management/resource_gradients.rst:88
 msgid "Mirror segment."
-msgstr "Emmiralla el segment."
+msgstr "Emmiralla el segment"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:89
 msgid "Mirrors the segment colors."
-msgstr ""
+msgstr "Reflectirà els colors del segment."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:91
 msgid "Remove segment"
@@ -266,43 +288,53 @@ msgid ""
 "to those arrows. |mouseleft| + dragging the white arrows will change the mid "
 "point of that segment, changing the way how the mixture is made."
 msgstr ""
+":kbd:`Fer` |mouseleft| :kbd:`+ arrossega` sobre les fletxes negres canviarà "
+"la mida dels segments que estan units amb aquestes fletxes. :kbd:`Fer` "
+"|mouseleft| :kbd:`+ arrossega` sobre les fletxes blanques canviarà el punt "
+"mig d'aquest segment, canviant la manera en què es farà la mescla."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:95
 msgid ""
 "At the bottom, you can set the color and transparency of either part of the "
 "segment."
 msgstr ""
+"A la part inferior, podreu establir el color i la transparència de qualsevol "
+"de les parts del segment."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:97
 msgid "You can also set the blending. The first is the interpolation mode:"
-msgstr ""
+msgstr "També podreu establir la barreja. La primera és el mode interpolació:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:102
 msgid "Linear - Does a linear blending between both segments."
-msgstr ""
+msgstr "Lineal: farà una barreja lineal entre els dos segments."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:103
 msgid "Curved - This causes the mix to ease-in and out faster."
-msgstr ""
+msgstr "Corbada: farà que la mescla pugui créixer i disminuir més ràpidament."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:104
 msgid ""
 "Sine - Uses a sine function. This causes the mix to ease in and out slower."
 msgstr ""
+"Sinusoïdal: utilitza una funció sinusoïdal. Farà que la mescla pugui créixer "
+"i disminuir més lentament."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:105
 msgid ""
 "Sphere, increasing - This puts emphasis on the later color during the mix."
 msgstr ""
+"Esfera, creixent: durant la barreja posarà l'èmfasi en el color posterior."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:106
 msgid ""
 "Sphere, decreasing - This puts emphasis on the first color during the mix."
 msgstr ""
+"Esfera, decreixent: durant la barreja posarà l'èmfasi en el primer color."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:108
 msgid "Finally, there's the model:"
-msgstr ""
+msgstr "Finalment, hi ha el model:"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:113
 msgid "RGB"
@@ -310,7 +342,7 @@ msgstr "RGB"
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:114
 msgid "Does the blending in RGB model."
-msgstr "Fa la barreja en el model RGB."
+msgstr "Farà la barreja en el model RGB."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:115
 msgid "HSV clockwise"
@@ -322,7 +354,12 @@ msgid ""
 "(red-yellow-green-cyan-blue-purple). The above screenshot is an example of "
 "this."
 msgstr ""
+"Barrejarà els dos colors utilitzant el model HSV i seguint el to en el sentit "
+"de les agulles del rellotge (vermell-groc-verd-cian-blau-porpra). La captura "
+"de pantalla anterior n'és un exemple."
 
 #: ../../reference_manual/resource_management/resource_gradients.rst:118
 msgid "Blends the color as the previous options, but then counter-clockwise."
 msgstr ""
+"Barrejarà el color com en l'opció anterior, però en sentit contrari a les "
+"agulles del rellotge."

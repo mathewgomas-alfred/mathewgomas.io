@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 03:18+0200\n"
-"PO-Revision-Date: 2019-05-05 08:52+0100\n"
+"PO-Revision-Date: 2019-06-12 06:55+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -27,15 +27,15 @@ msgstr ""
 
 #: ../../reference_manual/dockers/animation_curve.rst:1
 msgid "Overview of the animation curves docker."
-msgstr ""
+msgstr "Översikt av animeringskurvpanelen."
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Animation"
-msgstr ""
+msgstr "Animering"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Animation Curves"
-msgstr ""
+msgstr "Animeringskurvor"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Interpolation"
@@ -43,17 +43,20 @@ msgstr "Interpolation"
 
 #: ../../reference_manual/dockers/animation_curve.rst:10
 msgid "Tweening"
-msgstr ""
+msgstr "Mellanteckning"
 
 #: ../../reference_manual/dockers/animation_curve.rst:15
 msgid "Animation Curves Docker"
-msgstr ""
+msgstr "Animeringskurvpanel"
 
 #: ../../reference_manual/dockers/animation_curve.rst:17
 msgid ""
 "The Animation Curve docker allows you to edit tweened sections by means of "
 "interpolation curves. As of this time of writing, it can only edit opacity."
 msgstr ""
+"Animeringskurvpanel låter dig redigera mellantecknade sektioner med hjälp av"
+" interpolationskurvor. När det här skrivs kan den bara redigera"
+" ogenomskinlighet."
 
 #: ../../reference_manual/dockers/animation_curve.rst:19
 msgid ""
@@ -64,6 +67,12 @@ msgid ""
 "we can visualize the way the values are interpolated as a curve graph, and "
 "also edit the graph that way."
 msgstr ""
+"Idén är att ibland kan det som man vill animera uttryckas som ett värde. Det"
+" låter datorn utföra matematik på värdena, och automatisera uppgifter som"
+" interpolation, också känt som 'mellanteckning'. Eftersom de är värden, som"
+" procent ogenomskinlighet, och animering sker över tiden, betyder att vi kan"
+" visualisera sättet som värdena interpoleras som en grafisk kurva, och också"
+" redigera grafen på det sättet."
 
 #: ../../reference_manual/dockers/animation_curve.rst:21
 msgid ""
@@ -72,6 +81,10 @@ msgid ""
 "do this by using the animation docker and selection :guilabel:`Add new "
 "keyframe`."
 msgstr ""
+"Men när man först öppnar panelen finns inga synliga kurvor. Man måste först"
+" lägga till ogenomskinliga nyckelbilder på det aktiva animeringslagret. Man"
+" kan göra det genom att använda animeringspanelen och alternativet"
+" :guilabel:`Lägg till ny nyckelbild`."
 
 #: ../../reference_manual/dockers/animation_curve.rst:25
 msgid ".. image:: images/dockers/Animation_curves_1.png"
@@ -85,6 +98,11 @@ msgid ""
 "will hide the current curve, which'll be more useful in the future when more "
 "properties can be animated."
 msgstr ""
+"Ogenomskinlighet ska skapa en ljusröd kurvlinje i panelen. Till vänster, i"
+" lagerlistan, ser man att det aktiva lagret har en översikt av sina"
+" egenskaper: en röd :guilabel:`Ogenomskinlighet` har dykt upp. Genom att"
+" klicka på den röda punkten döljes den nuvarande kurvan, vilket blir mer"
+" användbart i framtiden när fler egenskaper kan animeras."
 
 #: ../../reference_manual/dockers/animation_curve.rst:29
 msgid ".. image:: images/dockers/Animation_curves_2.png"
@@ -95,10 +113,12 @@ msgid ""
 "If you select a dot of the curve, you can move it around to shift its place "
 "in the time-line or its value."
 msgstr ""
+"Om en punkt på kurvan markeras, kan man flytta omkring den för att ändra dess"
+" plats på tidslinjen eller dess värde."
 
 #: ../../reference_manual/dockers/animation_curve.rst:32
 msgid "On the top, you can select the method of smoothing:"
-msgstr ""
+msgstr "Längst upp kan man välja utjämningsmetoden:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:34
 msgid "Hold Value"
@@ -106,15 +126,15 @@ msgstr "Håll värde"
 
 #: ../../reference_manual/dockers/animation_curve.rst:35
 msgid "This keeps the value the same until there's a new keyframe."
-msgstr ""
+msgstr "Behåller värdena likadana tills det finns en ny nyckelbild."
 
 #: ../../reference_manual/dockers/animation_curve.rst:36
 msgid "Linear Interpolation (Default)"
-msgstr ""
+msgstr "Linjär interpolation (förval)"
 
 #: ../../reference_manual/dockers/animation_curve.rst:37
 msgid "This gives a straight interpolation between two values."
-msgstr ""
+msgstr "Gör en rak interpolation mellan de två värdena."
 
 #: ../../reference_manual/dockers/animation_curve.rst:39
 msgid "Custom interpolation"
@@ -126,12 +146,17 @@ msgid ""
 "be modified. |mouseleft| +dragging on the node allows you to drag out a "
 "handler node for adjusting the curving."
 msgstr ""
+"Det här låter dig ställa in sektionen efter nyckelbildsnoden så att den kan"
+" ändras. Vänster musknapp + dra noden låter dig dra ut en hanteringsnod för"
+" att justera kurvformen."
 
 #: ../../reference_manual/dockers/animation_curve.rst:41
 msgid ""
 "So, for example, making a 100% opacity keyframe on frame 0 and a 0% opacity "
 "one on frame 24 gives the following result:"
 msgstr ""
+"Så att exempelvis skapa en 100 % ogenomskinlig nyckelbild på bildruta 0 och"
+" en 0 % ogenomskinlig på bildruta 24 ger följande resultat:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:44
 msgid ".. image:: images/dockers/Ghost_linear.gif"
@@ -143,6 +168,9 @@ msgid ""
 "keyframe will be added on that spot. We can set this frame to 100% and set "
 "frame 0 to 0% for this effect."
 msgstr ""
+"Om vi väljer bildruta 12 och klickar på :guilabel:`Lägg till ny nyckelbild`"
+" läggs en ny ogenomskinlig nyckelbild till på det stället. Vi kan ställa in"
+" bildrutan till 100 % och ställa in bildruta 0 till 0 % för den här effekten."
 
 #: ../../reference_manual/dockers/animation_curve.rst:48
 msgid ".. image:: images/dockers/Ghost_linear_in-out.gif"
@@ -156,6 +184,12 @@ msgid ""
 "12 will enable custom interpolation between frames 12 and 24. Drag from the "
 "node to add a handle, which in turn you can use to get the following effects:"
 msgstr ""
+"Om vi nu vill ha en inledning, markerar vi noden på bildruta 0 och klickar på"
+" knappen :guilabel:`Egen interpolation` längst upp. Det aktiverar egen"
+" interpolation av kurvan mellan bildruta 0 och 12. Genom att göra samma sak"
+" på bildruta 12 aktiverar egen interpolation mellan bildruta 12 och 24. Dra"
+" från noden för att lägga till ett grepp, som man i sin tur kan använda för"
+" att få följande effekter:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:52
 msgid ".. image:: images/dockers/Ghost_ease_in-out.gif"
@@ -167,11 +201,11 @@ msgstr ".. image:: images/dockers/Animation_curves_3.png"
 
 #: ../../reference_manual/dockers/animation_curve.rst:55
 msgid "The above shows an ease-in curve."
-msgstr ""
+msgstr "Ovan visas en inledningskurva."
 
 #: ../../reference_manual/dockers/animation_curve.rst:57
 msgid "And convex/concave examples:"
-msgstr ""
+msgstr "Och konvexa och konkava exempel:"
 
 #: ../../reference_manual/dockers/animation_curve.rst:60
 msgid ".. image:: images/dockers/Ghost_concave_in-out.gif"
@@ -197,9 +231,18 @@ msgid ""
 "interpolation curves, and as we develop Krita, we hope to add more "
 "properties for you to animate this way."
 msgstr ""
+"Som du kanske kan se, finns det en ganska annorlunda 'struktur', så att säga,"
+" för var och en av animeringarna, trots att skillnaden bara finns i kurvorna."
+" En bra animatör kan verkligen få ut en hel del trick ur"
+" interpolationskurvor, och allt eftersom vi utvecklar Krita hoppas vi lägga"
+" till fler egenskaper som man kan animera på detta sätt."
 
 #: ../../reference_manual/dockers/animation_curve.rst:71
 msgid ""
 "Opacity has currently 255 as maximum in the curve editor, as that's how "
 "opacity is stored internally."
 msgstr ""
+"Ogenomskinligheten har för närvarande 255 som maximalt värde i kurveditorn,"
+" eftersom det är så ogenomskinlighet lagras internt."
+
+
