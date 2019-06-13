@@ -85,6 +85,3 @@ Available Blending Modes
         http://en.wikipedia.org/wiki/Blend_modes
     Grain Extract/Grain Merge:
         http://docs.gimp.org/en/gimp-concepts-layer-modes.html
-    For most of Krita's mystery blendingmodes:
-        http://illusions.hu/effectwiki/doku.php?id=list_of_blendings
-
