@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-12 21:38+0100\n"
+"PO-Revision-Date: 2019-06-12 22:43+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -55,6 +55,9 @@ msgid ""
 "CMS <http://www.littlecms.com/>`_ We describe Color Management in a more "
 "overall level here: :ref:`color_managed_workflow`."
 msgstr ""
+"Krita erbjuder omfattande funktionalitet för färghantering, med användning av"
+"  `Little CMS <http://www.littlecms.com/>`_ Vi beskriver färghantering på en"
+" mer övergripande nivå här: :ref:`color_managed_workflow`."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:25
 msgid "General"
@@ -66,7 +69,7 @@ msgstr "Förvald färgrymd för nya bilder"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:30
 msgid "Choose the default model you prefer for all your images."
-msgstr ""
+msgstr "Välj den normala modellen som du föredrar för alla bilder."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:33
 msgid "When Pasting Into Krita From Other Applications"
@@ -77,6 +80,9 @@ msgid ""
 "The user can define what kind of conversion, if any, Krita will do to an "
 "image that is copied from other applications i.e. Browser, GIMP, etc."
 msgstr ""
+"Användaren kan definiera vilken typ av konvertering, om någon, som Krita ska"
+" göra av en bild som kopieras från andra program, dvs. filhanterare, GIMP,"
+" etc."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:37
 msgid "Assume sRGB"
@@ -87,6 +93,7 @@ msgid ""
 "This option will show the pasted image in the default Krita ICC profile of "
 "sRGB."
 msgstr ""
+"Alternativet visar den inklistrade bilden med Kritas sRGB ICC-standardprofil."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:39
 msgid "Assume monitor profile"
@@ -97,6 +104,8 @@ msgid ""
 "This option will show the pasted image in the monitor profile selected in "
 "system preferences."
 msgstr ""
+"Alternativet visar den inklistrade bilden i bildskärmsprofilen som valts i"
+" systeminställningarna."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:42
 msgid "Ask each time"
@@ -107,8 +116,8 @@ msgid ""
 "Krita will ask the user each time an image is pasted, what to do with it. "
 "This is the default."
 msgstr ""
-"Krita frågar användaren varje gång en bild klistras in om vad som ska göras"
-" med den. Det är normalvärdet."
+"Krita frågar användaren varje gång en bild klistras in om vad som ska göras "
+"med den. Det är normalvärdet."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:46
 msgid ""
@@ -124,6 +133,8 @@ msgid ""
 "This option will turn on Blackpoint Compensation for the conversion. BPC is "
 "explained by the maintainer of LCMS as following:"
 msgstr ""
+"Alternativet sätter på svartpunktskompensering för konverteringen. SPK"
+" förklaras av LCMS programansvarig på följande sätt:"
 
 #: ../../reference_manual/preferences/color_management_settings.rst:53
 msgid ""
@@ -136,6 +147,13 @@ msgid ""
 "Relative colorimetric intent. Perceptual and Saturation does have an "
 "implicit BPC."
 msgstr ""
+"SPK är en sorts \"fattigmans\" tonomfångsavbildning. I princip justerar den"
+" bilders kontrast så att den mörkaste tonen på källenheten avbildas på den"
+" mörkaste tonen på målenheten. Om du har en bild som är justerad för att"
+" visas på en bildskärm och vill skriva ut den på en storformatskrivare, måste"
+" du inse att en skrivare kan återge svart betydligt mörkare än skärmen. SPK"
+" kan göra justeringen åt dig. Den är bara meningsfull för relativt färgläge."
+" Perceptuell och färgmättad har inte implicit SPK."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:56
 msgid "Allow LittleCMS optimizations"
@@ -159,6 +177,8 @@ msgid ""
 "This option when selected will tell Krita to use the ICC profile selected in "
 "your system preferences."
 msgstr ""
+"När alternativet är markerat talar det om för Krita att ICC-profilen vald i"
+" systeminställningarna ska användas."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:65
 msgid "Screen Profiles"
@@ -174,6 +194,12 @@ msgid ""
 "Krita preference folder, $~/.local/share/krita/profiles will be visible only "
 "in Krita."
 msgstr ""
+"Det finns lika många sådana som anslutna bildskärmar. Användaren kan välja en"
+" ICC-profil som Krita använder oberoende av bildskärmsprofilen inställd i"
+" systeminställningarna. Standardvärdet är inbyggd sRGB. På Unix-system"
+" föreslås profiler i $/usr/share/color/icc (systemplats) eller"
+" $~/.local/share/color/icc (lokal plats). Profiler som lagras i Kritas"
+" inställningskatalog, $~/.local/share/krita/profiles, är bara synliga i Krita."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:68
 msgid "Rendering Intent"
@@ -185,6 +211,10 @@ msgid ""
 "colors mapped from one color space to another. There are four options "
 "available, all are explained on the :ref:`icc_profiles` manual page."
 msgstr ""
+"Val av återgivningsalternativ är ett sätt att tala om för Little CMS hur man"
+" vill att färger avbildas från en färgrymd till en annan. Det finns fyra"
+" tillgängliga alternativ, alla förklaras på sidan :ref:`icc_profiles` i"
+" handboken."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:71
 msgid "Softproofing options"
@@ -196,10 +226,14 @@ msgid ""
 "configure the actual softproofing for the current image, go to :"
 "menuselection:`Image --> Image Properties --> Softproofing` ."
 msgstr ""
+"Detta låter dig anpassa *standardvärden* för bildskärmskorrektur. Gå till"
+" :menuselection:`Bild --> Bildegenskaper --> Bildskärmskorrektur` för att"
+" ställa in verklig bildskärmskorrektur för den aktuella bilden."
 
 #: ../../reference_manual/preferences/color_management_settings.rst:75
 msgid ""
 "For indepth details about how to use softproofing, check out :ref:`the page "
 "on softproofing <soft_proofing>`."
 msgstr ""
-
+"För djupgående detaljinformation om hur bildskärmskorrektur används, titta på"
+" :ref:`sidan om bildskärmskorrektur <soft_proofing>`."

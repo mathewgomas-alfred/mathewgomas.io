@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-05-05 08:55+0100\n"
+"PO-Revision-Date: 2019-06-13 21:48+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -529,31 +529,33 @@ msgid ""
 "If the message is \"File not found. Check the file name and try again.\", "
 "you probably have Controlled Folder Access enabled."
 msgstr ""
+"Om meddelandet är \"Filen hittades inte. Kontrollera filnamnet och försök"
+" igen.\", "
+"har du troligen Reglerad mappåtkomst aktiverad."
 
 #: ../../KritaFAQ.rst:187
 msgid "Select :menuselection:`Start --> Settings`."
-msgstr "Välj :menuselection:`Start --> Settings`."
+msgstr "Välj :menuselection:`Starta --> Inställningar`."
 
 #: ../../KritaFAQ.rst:188
 msgid "Choose :menuselection:`Update & security --> Windows Defender`."
-msgstr "Välj :menuselection:`Update & security --> Windows Defender`."
+msgstr "Välj :menuselection:`Uppdatering och Säkerhet --> Windows Defender`."
 
 #: ../../KritaFAQ.rst:189
 msgid "Select :guilabel:`Open Windows Defender Security Center`."
-msgstr "Välj :guilabel:`Open Windows Defender Security Center`."
+msgstr "Välj :guilabel:`Öppna Windows Defender Säkerhetscenter`."
 
 #: ../../KritaFAQ.rst:190
 msgid ""
 "Select :guilabel:`Virus & threat protection`, and then choose :guilabel:"
 "`Virus & threat protection settings`."
 msgstr ""
-"Välj :guilabel:`Virus & threat protection`, och välj därefter :guilabel:"
-"`Virus & threat protection settings`."
+"Välj :guilabel:`Skydd mot virus & hot`, och välj därefter"
+" :guilabel:`Inställningar för skydd mot virus & hot`."
 
 #: ../../KritaFAQ.rst:191
 msgid "Under :guilabel:`Controlled folder access`, turn it on or off."
-msgstr ""
-"Under :guilabel:`Controlled folder access`, sätt på eller stäng av det."
+msgstr "Under :guilabel:`Reglerad mappåtkomst`, sätt på eller stäng av det."
 
 #: ../../KritaFAQ.rst:193
 msgid ""
@@ -675,6 +677,8 @@ msgid ""
 "Windows: In fullscreen mode, why is there a thin gap at the bottom of the "
 "window?"
 msgstr ""
+"Windows: Varför finns det ett tunt gap längst ner på fönstret i"
+" fullskärmsläge?"
 
 #: ../../KritaFAQ.rst:234
 msgid ""
@@ -684,6 +688,12 @@ msgid ""
 "dropdowns to be unusable. If you find it distracting, you can consider "
 "changing the Renderer to Direct3D 11 which doesn't require this workaround."
 msgstr ""
+"När :ref:`Grafikacceleration för duk <display_settings>` är inställd till"
+" OpenGL, kan man se ett tunt mellanrum länst ner på fönstret som man kan se"
+" igenom. Det görs med avsikt för att gå runt ett fel som orsakar att menyer"
+" och kombinationsrutor blir oanvändbara. Om du tycker att det är"
+" distraherande, fundera på att ändra återgivningen till Direct3D 11 som inte"
+" kräver detta."
 
 #: ../../KritaFAQ.rst:238
 msgid "Tablets"
@@ -738,12 +748,19 @@ msgid ""
 "issues. If none of those work, we would like to have a bug report at bugs."
 "kde.org, with a tablet log. Here's how you make a tablet log:"
 msgstr ""
+"Kontrollera först att drivrutiner och liknande har installerats. Sidan"
+" :ref:`drawing_tablets` har några förklaringar och beskrivningar av vanliga"
+" problem. Om ingen av dem fungerar, skulle vi vilja få en felrapport på "
+" bugs.kde.org, med en logg från ritplattan. Så här skapar man en logg från"
+" ritplattan:"
 
 #: ../../KritaFAQ.rst:257
 msgid ""
 "You need to have something to output the log to. On 4.2 you can use the :ref:"
 "`log_viewer` docker for this. Just open the log viewer, and enable logging."
 msgstr ""
+"Du måste ha något att mata ut loggen i. Med 4.2 kan panelen "
+" :ref:`log_viewer` användas. Öppna bara loggvisningen och aktivera loggningen."
 
 #: ../../KritaFAQ.rst:261
 msgid ""
@@ -753,10 +770,16 @@ msgid ""
 "sysinternals/bb896647.aspx>`_ from the official Microsoft site, start "
 "DebugView and then start Krita."
 msgstr ""
+"Loggvisningen har lagts till i Krita 4.2, så för äldre versioner av Krita"
+" måste du antingen köra Krita i en terminal om du använder Linux eller MacOS,"
+" eller för Windows installera `DebugView <"
+"http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_ från"
+" Microsofts officiella plats, starta DebugView och starta sedan Krita."
 
 #: ../../KritaFAQ.rst:263
 msgid "When using a terminal, make sure to enable 'unlimited scrollback'"
 msgstr ""
+"När en terminal används säkerställ att 'obegränsad historik' är aktiverat."
 
 #: ../../KritaFAQ.rst:265
 msgid ""
@@ -771,16 +794,20 @@ msgid ""
 "Try to reproduce your problem, you will be able to see the log being created "
 "in the log viewer as you draw."
 msgstr ""
+"Försök att reproducera problemet. Du kan se loggen som skapas i loggvisningen"
+" medan du ritar."
 
 #: ../../KritaFAQ.rst:267
 msgid ""
 "Save the output from the log viewer into a txt file, and attach it to the "
 "bugreport."
 msgstr ""
+"Spara utmatningen från loggvisningen i en textfil, och bilägg den till"
+" felrapporten."
 
 #: ../../KritaFAQ.rst:269
 msgid "On Linux, it is also useful to have the following information:"
-msgstr ""
+msgstr "På Linux är det också användbart att ha följande information:"
 
 #: ../../KritaFAQ.rst:271
 msgid "``lsmod``"
@@ -825,7 +852,7 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:283
 msgid "You can configure this by going to the :ref:`tablet_settings`."
-msgstr ""
+msgstr "Du kan ställa in det genom att gå till :ref:`tablet_settings`."
 
 #: ../../KritaFAQ.rst:286
 msgid "Microsoft Surface Pro and N-Trig"
@@ -902,6 +929,11 @@ msgid ""
 "Choose HID (User interface devices or something like that). Choose Intel(R) "
 "Precise Touch Device. Right click, Disable it. Right click, Enable it."
 msgstr ""
+"Du kanske måste inaktivera och aktivera beröringsdrivrutinen: gå till"
+" drivrutinhanteraren. (Klicka på knappen :guilabel:`Starta` och skriv in"
+" enhetshanterare). Välj HID (användargränssnitt eller något liknande). Välj"
+" Intel(R) Precise Touch Device. Högerklicka, Inaktivera den. Högerklicka."
+" Aktivera den."
 
 #: ../../KritaFAQ.rst:312
 msgid "Toolbox"
@@ -1009,6 +1041,9 @@ msgid ""
 "remove the previous paintoppreset so Krita will load it. (Yes, it is a bit "
 "of a convoluted system, but at the least you don't lose your brushes)"
 msgstr ""
+"Gå därefter tillbaka till resurskatalogen och redigera svartlistan för att ta"
+" bort föregående paintoppresets så att Krita läser in den. (Ja, det är ett"
+" något invecklat system, men åtminstone går inte dina penslar förlorade)."
 
 #: ../../KritaFAQ.rst:359
 msgid "How do I set favorite presets?"
@@ -1021,6 +1056,10 @@ msgid ""
 "the bottom-right of the palette, now you can pick the tag which contains the "
 "brush you assigned to it."
 msgstr ""
+"Högerklicka på en pensel i penselpanelen och tilldela den en etikett."
+" Högerklicka därefter på duken för att visa palettrutan. Klicka på ikonen"
+" näst längst nere till höger i paletten. Nu kan du välja etiketten som"
+" innehåller penseln du tilldelade till den."
 
 #: ../../KritaFAQ.rst:364
 msgid "Can Krita load Photoshop Brushes?"
@@ -1034,6 +1073,11 @@ msgid ""
 "depend on reverse-engineering to figure out what to load, and currently "
 "that’s limited to basic features."
 msgstr ""
+"Ja, men det finns begränsningar. Man kan läsa in ABR-filer genom att använda"
+" knappen :guilabel:`Importera` under fliken :guilabel:`Fördefinierad pensel`"
+" i penseleditorn. Eftersom Adobe inte har avslöjat specifikationen av"
+" filformat, förlitar vi oss på demontering för att räkna ut vad som ska läsas"
+" in, och för närvarande är det begränsat till grundfunktioner."
 
 #: ../../KritaFAQ.rst:369
 msgid "Krita is slow"
@@ -1096,6 +1140,10 @@ msgid ""
 "files every time you start Krita. That takes ages. Either use the installer "
 "or tell Microsoft Security Essentials to make an exception for Krita."
 msgstr ""
+"Om du använder Windows med den flyttbara zip-filen, söker Windows igenom alla"
+" filer varje gång Krita startas. Det tar lång tid. Använd antingen"
+" installationsprogrammet eller tala om för Microsoft Security Essentials att"
+" göra ett undantag för Krita."
 
 #: ../../KritaFAQ.rst:388
 msgid "Slow Brushes"
@@ -1106,12 +1154,16 @@ msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
 msgstr ""
+"Kontrollera om du aktiverade stabilisering i verktygsalternativpanelen av"
+" misstag."
 
 #: ../../KritaFAQ.rst:391
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
 msgstr ""
+"Prova med ett annat skalningsläge som trilinjärt i"
+" :menuselection:`Inställningar --> Anpassa Krita --> Bildskärm`."
 
 #: ../../KritaFAQ.rst:392
 msgid "Try a lower channel depth than 16-bit."
@@ -1128,6 +1180,10 @@ msgid ""
 "Configure Krita --> Performance`. This isn't needed if you've got an AMD "
 "Threadripper™ CPU."
 msgstr ""
+"För äldre AMD processorer (Krita 2.9.10 eller senare), stäng av"
+" vektoroptimeringar som är felaktiga på AMD processorer. "
+" :menuselection:`Inställningar --> Anpassa Krita --> Prestanda`. Det behövs"
+" inte om du har en AMD Threadripper™ processor."
 
 #: ../../KritaFAQ.rst:395
 msgid ""
@@ -1146,6 +1202,8 @@ msgid ""
 "Check that Instant Preview is enabled if you're using bigger brushes (but "
 "for very small brushes, make sure is disabled)."
 msgstr ""
+"Kontrollera om Direkt förhandsgranskning är aktiverad om du använder större"
+" penslar (men för mycket små penslar, säkerställ att den är inaktiverad)."
 
 #: ../../KritaFAQ.rst:398
 msgid "Set brush precision to 3 or auto."
@@ -1194,11 +1252,11 @@ msgstr ""
 
 #: ../../KritaFAQ.rst:409
 msgid "Animation"
-msgstr ""
+msgstr "Animering"
 
 #: ../../KritaFAQ.rst:412
 msgid "Why is my animation black in my video player"
-msgstr ""
+msgstr "Varför är min animering svart i videospelaren"
 
 #: ../../KritaFAQ.rst:414
 msgid ""
@@ -1208,6 +1266,11 @@ msgid ""
 "diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-"
 "issues-manual-783473428>`__"
 msgstr ""
+"Du återgav inte animeringen genom att använda alternativet \"referens\" och"
+" du använder den vanliga mediaspelaren i Windows. Återge igen med användning"
+" av referensalternativet eller använd en bättre videospelare, som VLC. Titta"
+" på `det här användbara diagrammet <https://www.deviantart.com/tiarevlyn/art/T"
+"-Krita-4-1-7-rendering-issues-manual-783473428>`__."
 
 #: ../../KritaFAQ.rst:418
 msgid "Tools"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-08 21:25+0200\n"
+"PO-Revision-Date: 2019-06-12 18:22+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -56,12 +56,16 @@ msgid ""
 "Krita allows creating an author profile that you can use to store contact "
 "info into your images."
 msgstr ""
+"El Krita permet crear un perfil d'autor que podreu utilitzar per emmagatzemar "
+"la informació de contacte en les vostres imatges."
 
 #: ../../reference_manual/preferences/author_settings.rst:20
 msgid ""
 "The main element is the author page. This page was overhauled massively in "
 "4.0."
 msgstr ""
+"L'element principal és la pàgina Autor. Aquesta pàgina es va revisar "
+"exhaustivament en la versió 4.0."
 
 #: ../../reference_manual/preferences/author_settings.rst:22
 msgid ""
@@ -69,10 +73,13 @@ msgid ""
 "To create a new profile, press the \"+\" button, and write up a name for the "
 "author profile."
 msgstr ""
+"De manera predeterminada, utilitzarà el perfil «Anònim», el qual no conté "
+"res. Per a crear un perfil nou, premeu el botó «+» i escriviu un nom per al "
+"perfil de l'autor."
 
 #: ../../reference_manual/preferences/author_settings.rst:24
 msgid "You can then fill out the fields."
-msgstr ""
+msgstr "A continuació, podreu omplir els camps."
 
 #: ../../reference_manual/preferences/author_settings.rst:30
 msgid ".. image:: images/preferences/Krita_4_0_preferences_author_page.png"
@@ -83,12 +90,17 @@ msgid ""
 "The position field is special in that it has a list of hard coded common "
 "artists positions it can suggest."
 msgstr ""
+"El camp Posició és especial ja que té una llista de posicions d'artistes "
+"habituals codificades que podrà suggerir."
 
 #: ../../reference_manual/preferences/author_settings.rst:32
 msgid ""
 "In older versions of Krita there could only be one of each contact info. In "
 "4.0, you can make as many contact entries as you'd like."
 msgstr ""
+"En versions antigues del Krita només hi podia haver una de cada informació de "
+"contacte. En la versió 4.0, podreu crear tantes entrades de contacte com "
+"vulgueu."
 
 #: ../../reference_manual/preferences/author_settings.rst:34
 msgid ""
@@ -98,10 +110,16 @@ msgid ""
 "mouseleft| the \"New Contact Info\" text to turn it into a line edit to "
 "change the value."
 msgstr ""
+"Premeu :guilabel:`Afegeix la informació de contacte` per afegir una entrada "
+"al quadre. De manera predeterminada, s'establirà el tipus a la pàgina "
+"d'inici, ja que és la que causa menys brossa. Feu doble |mouseleft|a la "
+"pàgina d'inici per a canviar el tipus de contacte. Feu doble |mouseleft| "
+"sobre el text «Informació de contacte nova» per a convertir-lo en una edició "
+"de línia per a canviar el valor."
 
 #: ../../reference_manual/preferences/author_settings.rst:37
 msgid "Using the new profile"
-msgstr ""
+msgstr "Ús del perfil nou"
 
 #: ../../reference_manual/preferences/author_settings.rst:39
 msgid ""
@@ -111,10 +129,16 @@ msgid ""
 "see your last author profile as the last person who saved it in :"
 "menuselection:`File --> Document Information --> Author`"
 msgstr ""
+"Per utilitzar un perfil per al vostre dibuix actual, aneu a "
+":menuselection:`Arranjament -->Perfil actiu d'autor ` i seleccioneu el nom "
+"que li donareu al perfil. Després, en prémer :guilabel:`Desa` sobre el "
+"vostre document actual, veureu el vostre últim perfil d'autor com a l'última "
+"persona que el va desar a :menuselection:`Fitxer --> Informació del document "
+"--> Autor`."
 
 #: ../../reference_manual/preferences/author_settings.rst:42
 msgid "Exporting author metadata to Jpeg and Png"
-msgstr ""
+msgstr "Exportar les metadades d'autor a JPEG i PNG"
 
 #: ../../reference_manual/preferences/author_settings.rst:46
 msgid ""
@@ -122,9 +146,15 @@ msgid ""
 "Toggling these will store the Nickname and the *first entry in the contact "
 "info* into the metadata of png or jpeg."
 msgstr ""
+"La exportació a JPG i PNG té l'opció :guilabel:`Signa amb les dades de "
+"l'autor`. En alternar-la s'emmagatzemarà el Sobrenom i la *primera entrada a "
+"la informació de contacte* dins les metadades del PNG o JPG."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/preferences/author_settings.rst:48
 msgid ""
 "For the above example in the screenshot, that would result in: ``ExampleMan "
 "(http://example.com)`` being stored in the metadata."
 msgstr ""
+"Per a l'exemple anterior en la captura de pantalla, això resultaria en: "
+"``PersonaExemple (http://exemple.cat)`` s'emmagatzemarà a les metadades."
