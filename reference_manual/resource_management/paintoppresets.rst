@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        The brush preset resource in Krita.
+        The Brush Presets resource in Krita.
 
 .. metadata-placeholder
 
@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Resources, Brush Preset, Brushes, Paintop Preset
+.. index:: Resources, Brush Presets, Brushes, Paintop Presets
 .. _resource_brushes:
 
 ============

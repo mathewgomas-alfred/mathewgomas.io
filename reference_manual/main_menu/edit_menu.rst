@@ -11,9 +11,9 @@
 .. index:: Edit, Undo, Redo, Cut, Copy, Paste
 .. _edit_menu:
 
-====
-Edit
-====
+=========
+Edit Menu
+=========
 
 .. glossary::
 

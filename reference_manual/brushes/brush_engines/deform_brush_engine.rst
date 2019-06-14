@@ -78,7 +78,7 @@ Use Counter
 
 .. figure:: /images/brushes/Krita_deform_brush_useundeformed.png
 
-    Without 'use undeformed' to the left and with to the right
+    Without 'use undeformed' to the left and with to the right.
     
 Use Undeformed Image
     Samples from the previous version of the image instead of the current. This works better with some deform options than others. Move for example seems to almost stop working, but it works really well with Grow.

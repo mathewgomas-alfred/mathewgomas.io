@@ -33,7 +33,7 @@ Path Shapes
 
 Path shapes can be recognized by the different nodes they have.
 
-Paths in Krita are mostly bezier curves, and are made up of nodes. For straight lines, the nodes are connected by a line-segment and that's it. For curved lines, each node has a side handle to allow curving of that segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ .
+Paths in Krita are mostly bezier curves, and are made up of nodes. For straight lines, the nodes are connected by a line-segment and that's it. For curved lines, each node has a side handle to allow curving of that segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_.
 
 **What that means, in short, is that moving the side handles into a given direction will make the segment curve in that direction, and the longer the line of the node to the side handle, the stronger the curving.**
 
@@ -92,7 +92,7 @@ Path Shapes
 
 |toolbeziercurve|, |toolline|, |toolpolyline|, |toolpolygon|, |toolfreehandpath|
 
-Path shapes are the most common shape and can be made with the following tools 
+Path shapes are the most common shape and can be made with the following tools:
 
 * :ref:`path_tool`
 * :ref:`line_tool`
@@ -142,7 +142,7 @@ Rectangle Shapes
 Rectangle shapes are the ones made with the :ref:`rectangle_tool`. It has extra options to make rounded corners easy.
 
 Corner radius x
-    The radius of the y-axis of the corner curve.
+    The radius of the x-axis of the corner curve.
 Corner radius y
     The radius of the y-axis of the corner curve.
 

@@ -26,7 +26,7 @@ Activating Instant Preview
 .. figure:: /images/brushes/Lod_position.png
    :align: right
     
-   The Global Instant Preview toggle is under the view menu
+   The Global Instant Preview toggle is under the view menu.
     
 Instant Preview is activated in two places: The view menu (:kbd:`Shift + L`), and the settings of the given paintop by default. This is because Instant Preview has different limitations with different paint operations.
 

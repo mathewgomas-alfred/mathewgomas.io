@@ -36,7 +36,7 @@ Mirror Image Horizontally
 Mirror Image Vertically
     Mirror the image on the vertical axis.
 Scale to New Size
-    The resize function in any other program :kbd:`Ctrl + Alt + I`
+    The resize function in any other program :kbd:`Ctrl + Alt + I`.
 Offset Image
     Offset all layers.
 Resize Canvas
@@ -46,4 +46,4 @@ Image Split
 Wavelet Decompose
     Does :ref:`wavelet_decompose` on the current layer.
 Separate Image
-    :ref:`Separates <separate_image>` the image into channels
+    :ref:`Separates <separate_image>` the image into channels.

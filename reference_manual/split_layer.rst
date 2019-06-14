@@ -23,9 +23,9 @@ Alpha-lock every new layer
     Enable the alpha-lock for each layer so it is easier to color.
 Hide the original layer
     Turns off the visibility on the original layer so you won't get confused.
-Sort layers by amount of non-transparent pixels.
+Sort layers by amount of non-transparent pixels
     This ensures that the layers with large color swathes will end up at the top.
-Disregard opacity.
+Disregard opacity
     Whether to take into account transparency of a color.
 Fuzziness
     How precise the algorithm should be. The larger the fuzziness, the less precise the algorithm will be. This is necessary for splitting layers with anti-aliasing, because otherwise you would end up with a separate layer for each tiny pixel.

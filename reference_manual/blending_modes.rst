@@ -82,6 +82,6 @@ Available Blending Modes
 .. seealso::
 
     Basic blending modes:
-        http://en.wikipedia.org/wiki/Blend_modes
+        https://en.wikipedia.org/wiki/Blend_modes
     Grain Extract/Grain Merge:
-        http://docs.gimp.org/en/gimp-concepts-layer-modes.html
+        https://docs.gimp.org/en/gimp-concepts-layer-modes.html

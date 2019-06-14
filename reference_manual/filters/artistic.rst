@@ -42,11 +42,11 @@ The index color filter maps specific user selected colors to the grayscale value
 
 .. image:: /images/common-workflows/Gradient-pixelart.png
 
-You can choose the required colors and ramps in the index color filter dialog as shown below 
+You can choose the required colors and ramps in the index color filter dialog as shown below .
 
 .. image:: /images/filters/Index-color-filter.png
 
-You can create index painting such as one shown below with the help of this filter
+You can create index painting such as one shown below with the help of this filter.
 
 .. image:: /images/common-workflows/Kiki-pixel-art.png
 

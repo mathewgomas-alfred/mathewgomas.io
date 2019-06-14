@@ -48,6 +48,6 @@ Show Pixel Grid
 Snapping
     Toggle the :ref:`snapping` types.
 Show Painting Assistants
-    Shows or hides the Assistants
+    Shows or hides the Assistants.
 Show Painting Previews
-    Shows or hides the Assistants
+    Shows or hides the Previews.

@@ -19,7 +19,7 @@ Pattern Editing Tool
 
 .. deprecated:: 4.0
 
-    The pattern editing tool has been removed in 4.0, currently there's no way to edit pattern fills for vectors
+    The pattern editing tool has been removed in 4.0, currently there's no way to edit pattern fills for vectors.
 
 The Pattern editing tool works on Vector Shapes that use a Pattern fill. On these shapes, the Pattern Editing Tool allows you to change the size, ratio and origin of a pattern.
 
@@ -38,7 +38,7 @@ There are several tool options with this tool, for fine-tuning:
 First there are the Pattern options.
 
 Repeat:
-    This can be set to
+    This can be set to:
     
     Original:
         This will only show one, unstretched, copy of the pattern.
@@ -48,7 +48,7 @@ Repeat:
         This will stretch the Pattern image to the shape.
 
 Reference point:
-    pattern origin. This can be set to
+    Pattern origin. This can be set to:
 
     * Top-left
     * Top
@@ -64,9 +64,9 @@ Reference Point Offset:
     For extra tweaking, set in percentages.
 
     X:
-        offset in the X coordinate, so horizontally.
+        Offset in the X coordinate, so horizontally.
     Y:
-        offset in the Y coordinate, so vertically.
+        Offset in the Y coordinate, so vertically.
 
 Tile Offset:
     The tile offset if the pattern is tiled.

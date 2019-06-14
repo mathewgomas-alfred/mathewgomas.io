@@ -58,11 +58,11 @@ Configuring shortcuts is another way to customize the application to fit you.  W
 
 To use, just type the :guilabel:`Action` into the Search box you want to assign/reassign the shortcut for.  Suppose we wanted to assign the shortcut :kbd:`Ctrl + G`  to the :guilabel:`Action` of Group Layers so that every time we pressed :kbd:`Ctrl + G`  a new Layer Group would be created.  Use the following steps to do this:
 
-#. Type "Group Layer"
+#. Type "Group Layer".
 #. Click on Group Layer and a small inset box will open.
-#. Click the Custom radio button
+#. Click the Custom radio button.
 #. Click on the first button and type the :kbd:`Ctrl + G`  key combination.
-#. Click OK
+#. Click OK.
 
 From this point on, whenever you press :kbd:`Ctrl + G`  you'll get a new :guilabel:`Group Layer`.  
 
@@ -88,7 +88,7 @@ If you wish to use Krita in a different translation.
 Configure Toolbars
 ------------------
 
-Krita allows you to highly customize the Toolbar interface.  You can add, remove and change the order of nearly everything to fit your style of work.  To get started, choose :menuselection:`Settings --> Configure Toolbars`
+Krita allows you to highly customize the Toolbar interface.  You can add, remove and change the order of nearly everything to fit your style of work.  To get started, choose :menuselection:`Settings --> Configure Toolbars`.
 
 .. image:: /images/preferences/Configure_Toolbars_Krita.png 
    :align: center
@@ -96,9 +96,9 @@ Krita allows you to highly customize the Toolbar interface.  You can add, remove
 The dialog is broken down into three main sections:
 
 The Toolbar
-    Choose to either modify the "File" or "Brushes and Stuff" toolbars
+    Choose to either modify the "File" or "Brushes and Stuff" toolbars.
 Available Actions:
-    All the options that can be added to a toolbar
+    All the options that can be added to a toolbar.
 Current Actions:
     All the actions currently assigned and the order they are in.
 
@@ -113,7 +113,7 @@ You'll notice that some of the items are text only and some only icons.  This is
 
 If you add so many that they won't all fit on your screen at once, you will see a small chevron icon appear.  Click it and the toolbar expands to show the remaining items.
 
-Toolbars shown.
+Toolbars shown
     Gives a list of toolbars that can be shown.
 
 At this time Krita does not support the ability to create additional toolbars. The ones available are:

@@ -18,7 +18,7 @@ Grid Settings
 
     Deprecated in 3.0, use the :ref:`grids_and_guides_docker` instead.
 
-Settings->configure Krita->Grid
+Use :guilabel:`Settings --> Configure Krita --> Grid` menu item.
 
 .. image:: /images/preferences/Krita_Preferences_Grid.png
 
@@ -32,7 +32,7 @@ The user can set various settings of the grid over here.
 Horizontal Spacing
     The number in Krita units, the grid will be spaced in the horizontal direction.
 Vertical Spacing
-    The number in Krita units, the grid will be spaced in the vertical direction. The images below will show the usage of these settings
+    The number in Krita units, the grid will be spaced in the vertical direction. The images below will show the usage of these settings.
 
 X Offset
     The number to offset the grid in the X direction.
@@ -42,7 +42,7 @@ Y Offset
 Some examples are shown below, look at the edge of the image to see the offset.
 
 Subdivisions
-    Here the user can set the number of times the grid is subdivided. Some examples are shown below
+    Here the user can set the number of times the grid is subdivided. Some examples are shown below.
 
 Style
 -----

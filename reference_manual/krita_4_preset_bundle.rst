@@ -29,7 +29,7 @@ This page illustrates and describes the included default brush presets in Krita 
 Erasers
 -------
 
-* The large one is for removing large portions of a layer (eg. a full character)
+* The large one is for removing large portions of a layer (eg. a full character).
 * The small one is designed to use when drawing thin lines or inking. It has a very specific shape so you will notice with the square shape of your cursor you are in eraser-mode.
 * The soft one is used to erase or fade out the part of a drawing with various levels of opacity.
 

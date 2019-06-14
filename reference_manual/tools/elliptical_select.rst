@@ -46,7 +46,7 @@ Hotkeys and Stickykeys
 
 .. note::
 
-    You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`
+    You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`.
 
 Tool Options
 ------------

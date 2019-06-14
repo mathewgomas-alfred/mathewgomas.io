@@ -85,7 +85,7 @@ Split Segment
     This splits the current segment in two, using the white arrow, the segment middle as the place to split. It will also use the color at the white arrow to define the new colors in place in the new segments.
 Duplicate segment
     Similar to split, but instead the two new segments are copies of the old one.
-Mirror segment.
+Mirror segment
     Mirrors the segment colors.
 Remove segment
     Removes the segment.

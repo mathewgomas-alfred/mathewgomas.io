@@ -37,7 +37,7 @@ File Menu
         Similar to import in other programs.
 
     Export
-        Additional formats that can be saved. Some of these formats may not be later imported or opened by Krita
+        Additional formats that can be saved. Some of these formats may not be later imported or opened by Krita.
 
     Import Animation Frames
         Import frames for animation.
@@ -67,4 +67,4 @@ File Menu
         Close all views and documents.
 
     Quit
-        Close Krita
+        Close Krita.

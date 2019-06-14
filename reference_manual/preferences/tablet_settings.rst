@@ -26,7 +26,7 @@ Use Mouse Events for Right and Middle clicks.
     .. versionadded:: 4.2
     
 For Krita 3.3 or later:Tablet Input API
-    on Windows 8 or above only
+    On Windows 8 or above only.
 
     WinTab
         Use the WinTab API to receive tablet pen input. This is the API being used before Krita 3.3. This option is recommended for most Wacom tablets.
@@ -88,4 +88,4 @@ When you draw a line, the output on the right will show all sorts of text output
 External Links
 --------------
 
-`David Revoy wrote an indepth guide on using this feature to maximum advantage. <http://www.davidrevoy.com/article182/calibrating-wacom-stylus-pressure-on-krita>`_
+`David Revoy wrote an indepth guide on using this feature to maximum advantage. <https://www.davidrevoy.com/article182/calibrating-wacom-stylus-pressure-on-krita>`_

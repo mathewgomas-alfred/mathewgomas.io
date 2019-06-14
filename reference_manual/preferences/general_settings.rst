@@ -81,7 +81,7 @@ White Pixel
 Outline Shape
 ~~~~~~~~~~~~~
 
-Select an outline shape to use while the brush tools are used. This cursor shape will optionally show in the middle of a painting stroke as well. The available outline shape types are shown below.(pictures will come soon)
+Select an outline shape to use while the brush tools are used. This cursor shape will optionally show in the middle of a painting stroke as well. The available outline shape types are shown below. (pictures will come soon)
 
 No Outline
     No outline.
@@ -102,7 +102,7 @@ Show Outline
 
     .. versionchanged:: 4.1
 
-        Used to be called "Show Outline When Painting"
+        Used to be called "Show Outline When Painting".
 
 Use effective outline size
 
@@ -153,10 +153,11 @@ Switch Control/Alt Selection Modifiers
 Enable Touchpainting
     This allows finger painting with capacitive screens. Some devices have both capacitive touch and a stylus, and then this can interfere. In that case, just toggle this.
 
-.. versionadded:: 4.2
-    Activate transform tool after pasting
-    
-        A convenience feature. When enabling this, the transform tool will activate after pasting for quick moving or rotating.
+Activate transform tool after pasting
+
+    .. versionadded:: 4.2
+
+    A convenience feature. When enabling this, the transform tool will activate after pasting for quick moving or rotating.
 
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.

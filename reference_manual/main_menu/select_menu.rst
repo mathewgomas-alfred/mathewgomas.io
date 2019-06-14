@@ -21,7 +21,7 @@ Select Menu
         Selects the whole layer.
 
     Deselect
-        Deselects everything (except for active Selection Mask)
+        Deselects everything (except for active Selection Mask).
 
     Reselect
         Reselects the previously deselected selection.
@@ -36,7 +36,7 @@ Select Menu
         This converts a vector selection to a raster selection.
         
     Convert Shapes to Vector Selection
-        Convert vector shape to vector selection
+        Convert vector shape to vector selection.
 
     Convert to shape
         Converts vector selection to vector shape.
@@ -48,7 +48,7 @@ Select Menu
         Shows the global selection as a selection mask in the layers docker. This is necessary to be able to select it for painting on.
 
     Scale
-        Scale the selection
+        Scale the selection.
 
     Select from Color Range
         Select from a certain color range.

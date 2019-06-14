@@ -14,7 +14,7 @@
 Stroke Selection
 ================ 
 
-Sometimes, you want to add an even border around a selection. Stroke Selection allows you to do this. It's under :menuselection:`Edit --> Stroke Selection`
+Sometimes, you want to add an even border around a selection. Stroke Selection allows you to do this. It's under :menuselection:`Edit --> Stroke Selection`.
 
 First make a selection and call up the menu:
 

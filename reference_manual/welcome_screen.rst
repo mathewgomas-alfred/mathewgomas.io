@@ -30,7 +30,7 @@ The screen is divided into 4 sections:
 
 - The :guilabel:`Community` section provides some links to get help, Supporting
   development of Krita, Source code of Krita and to links to interact with our
-  user community
+  user community.
 
 - The :guilabel:`News` section, which is disabled by default, when enabled provides you
   with latest news feeds fetched from Krita website, this will help you stay up

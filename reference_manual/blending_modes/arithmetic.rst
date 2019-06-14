@@ -32,7 +32,7 @@ Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray (0.
 
    Left: **Normal**. Right: **Addition**.
 
-Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608, 1.2235, 0.8980) &rarr; Very Light Yellow(1, 1, 0.8980)
+Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608, 1.2235, 0.8980) → Very Light Yellow(1, 1, 0.8980)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Addition_Light_blue_and_Orange.png
    :align: center
@@ -60,7 +60,7 @@ Divide
 
 Divides the numerical value from the lower color by the upper color.
 
-Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) &rarr; Red(1, 0, 0)
+Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) → Red(1, 0, 0)
 
 Darker Gray(0.4, 0.4, 0.4) / Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray (0.8, 0.8, 0.8) 
 
@@ -69,7 +69,7 @@ Darker Gray(0.4, 0.4, 0.4) / Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray (0.
 
    Left: **Normal**. Right: **Divide**.
 
-Light Blue(0.1608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706) = (0.1608, 1.0525, 11.7195) &rarr; Aqua(0.1608, 1, 1)
+Light Blue(0.1608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706) = (0.1608, 1.0525, 11.7195) → Aqua(0.1608, 1, 1)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Divide_Light_blue_and_Orange.png
    :align: center
@@ -88,14 +88,14 @@ Inverse Subtract
 
 This inverts the lower layer before subtracting it from the upper layer.
 
-Lighter Gray(0.5, 0.5, 0.5)_(1_Darker Gray(0.4, 0.4, 0.4)) = (-0.1, -0.1, -0.1) &rarr; Black(0, 0, 0)
+Lighter Gray(0.5, 0.5, 0.5)_(1_Darker Gray(0.4, 0.4, 0.4)) = (-0.1, -0.1, -0.1) → Black(0, 0, 0)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Inverse_Subtract_Gray_0.4_and_Gray_0.5_n.png
    :align: center
 
    Left: **Normal**. Right: **Inverse Subtract**.
 
-Orange(1, 0.5961, 0.0706)_(1_Light Blue(0.1608, 0.6274, 0.8274)) = (0.1608, 0.2235, -0.102) &rarr; Dark Green(0.1608, 0.2235, 0)
+Orange(1, 0.5961, 0.0706)_(1_Light Blue(0.1608, 0.6274, 0.8274)) = (0.1608, 0.2235, -0.102) → Dark Green(0.1608, 0.2235, 0)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Inverse_Subtract_Light_blue_and_Orange.png
    :align: center
@@ -151,14 +151,14 @@ White(1, 1, 1)_White(1, 1, 1) = Black(0, 0, 0)
 
 White(1, 1, 1)_Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)
 
-Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) &rarr; Black(0, 0, 0)
+Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) → Black(0, 0, 0)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Subtract_Gray_0.4_and_Gray_0.5_n.png
    :align: center
 
    Left: **Normal**. Right: **Subtract**.
 
-Light Blue(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = (-0.8392, 0.0313, 0.7568) &rarr; Blue(0, 0.0313, 0.7568)
+Light Blue(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = (-0.8392, 0.0313, 0.7568) → Blue(0, 0.0313, 0.7568)
 
 .. figure:: /images/blending_modes/arithmetic/Blending_modes_Subtract_Light_blue_and_Orange.png
    :align: center

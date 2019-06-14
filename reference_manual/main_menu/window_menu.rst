@@ -26,7 +26,7 @@ Workspace
 Close
     Close the current view.
 Close All
-    Close all documents
+    Close all documents.
 Tile
     Tiles all open documents into a little sub-window.
 Cascade

@@ -29,7 +29,7 @@ Use :kbd:`Shift` while holding the mouse button to constrain the angle to multip
 
 
 .. note::
-    Using the :kbd:`Shift` keys BEFORE pushing the holding the left mouse button/stylus down will, in default Krita, activate the quick brush-resize. Be sure to use :kbd:`Shift` after
+    Using the :kbd:`Shift` keys BEFORE pushing the holding the left mouse button/stylus down will, in default Krita, activate the quick brush-resize. Be sure to use :kbd:`Shift` after.
 
 Tool Options
 ------------

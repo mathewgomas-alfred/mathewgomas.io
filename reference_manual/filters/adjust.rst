@@ -110,7 +110,7 @@ This filter allows you to adjust the brightness and contrast of the image by adj
 
 .. deprecated:: 4.0
 
-    These have been removed in Krita 4.0, because the Color Adjustment filter can do the same. Old files with brightness/contrast curves will be loaded as Color Adjustment curves
+    These have been removed in Krita 4.0, because the Color Adjustment filter can do the same. Old files with brightness/contrast curves will be loaded as Color Adjustment curves.
 
 .. index:: ! Color Balance
 
@@ -142,7 +142,7 @@ Average
 Min
     Subtracts all from one another to find the gray value.
 Max
-    Adds all channels together to get a gray value
+    Adds all channels together to get a gray value.
 
 .. index:: Invert, Negative
 

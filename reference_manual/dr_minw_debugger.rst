@@ -33,7 +33,7 @@ There are some additions to Krita which makes getting a backtrace much easier on
     
     .. figure:: /images/Mingw-crash-screen.png
     
-        An example of the crash dialog
+        An example of the crash dialog.
         
     * If Krita keeps on being unresponsive for more than a few minutes, it might actually be locked up, which may not give a backtrace. In that situation, you have to close Krita manually. Continue to follow the following instructions to check whether it was a crash or not.
 
@@ -46,13 +46,13 @@ There are some additions to Krita which makes getting a backtrace much easier on
 
     .. figure:: /images/Mingw-crash-log-start.png
     
-        Start of backtrace
+        Start of backtrace.
 
     Check the time and make sure it matches the time of the crash. 
     
     .. figure:: /images/Mingw-crash-log-end.png
         
-        End of backtrace
+        End of backtrace.
             
     The text starting from this line to the end of the file is the most recent backtrace.
     

@@ -34,7 +34,7 @@ HSV
 ~~~
 
 HSV, occasionally called HSB, is a color coordinate system. It measures colors in Hue, Saturation, and Value (also called Brightness).
-Value or Brightness specifically refers to strength at which the pixel-lights on your monitor have to shine. It sets Yellow (rgb:1,1,0), Blue (rgb:0,0,1) and White (rgb:1,1,0) at the same Value (100%)
+Value or Brightness specifically refers to strength at which the pixel-lights on your monitor have to shine. It sets Yellow (rgb:1,1,0), Blue (rgb:0,0,1) and White (rgb:1,1,0) at the same Value (100%).
 
 HSY
 ~~~
@@ -239,7 +239,7 @@ Luminosity
 
 As explained above, actually Luma, but called this way as it's in line with the terminology in other applications.
 Takes the Hue and Saturation of the Lower layer and outputs them with the Luminosity of the upper layer. 
-The most preferred one of the four Tone blending modes, as this one gives fairly intuitive results for the Tone of a hue
+The most preferred one of the four Tone blending modes, as this one gives fairly intuitive results for the Tone of a hue.
 
 .. figure:: /images/blending_modes/hsx/Blending_modes_Luminosity_Sample_image_with_dots.png
    :align: center

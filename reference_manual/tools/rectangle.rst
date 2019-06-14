@@ -34,11 +34,11 @@ Tool Options
 Fill
 ~~~~
 
-Not filled.
+Not filled
     The rectangle will be transparent from the inside.
 Foreground color
     The rectangle will use the foreground color as fill.
-Background color.
+Background color
     The rectangle will use the background color as fill.
 Pattern
     The rectangle will use the active pattern as fill.
@@ -61,9 +61,10 @@ Width
 Height
     Gives the current height. Use the lock to force the next selection made to this height.
 Ratio
+    .. versionadded:: 4.2
+
     Gives the current ratio. Use the lock to force the next selection made to this ratio.
 
-.. versionadded:: 4.2
     Round X
 
         The horizontal radius of the rectangle corners.

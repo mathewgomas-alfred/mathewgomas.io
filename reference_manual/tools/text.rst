@@ -69,7 +69,7 @@ File
         Close the editor
 
 Edit
-    Basic editing functions
+    Basic editing functions:
 
     Undo :kbd:`Ctrl + Z`
         Undo the last action in the text editor.
@@ -145,7 +145,7 @@ Colors
     Here you can configure the syntax highlighting for the SVG source.
 
     Keyword
-        These highlights important characters like <, /, and >
+        These highlights important characters like <, /, and >.
     Element
         The format for highlighting the element tag name. **text** and **tspan** are examples of element names.
     Attribute

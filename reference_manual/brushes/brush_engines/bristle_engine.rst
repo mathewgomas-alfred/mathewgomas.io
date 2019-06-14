@@ -74,7 +74,7 @@ Connect Hairs
 Anti-Aliasing
     This will decrease the jaggy-ness of the lines.
 Composite Bristles
-    This "composes the bristle colors within one dab," but explains that the effect is "probably subtle."
+    This "composes the bristle colors within one dab," but explains that the effect is "probably subtle".
 
 .. image:: /images/brushes/Krita-tutorial7-B.I.2-2.png
 

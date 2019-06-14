@@ -15,7 +15,7 @@ Blur
 ====
 
 The blur filters are used to smoothen out the hard edges and details in the images. The resulting image is blurry.
-below is an example of a blurred image. The image of Kiki on right is the result of blur filter applied to the image on left
+below is an example of a blurred image. The image of Kiki on right is the result of blur filter applied to the image on left.
 
 .. image:: /images/filters/Blur.png
 
@@ -38,7 +38,7 @@ Doesn't only blur, but also subtly smudge an image into a direction of the speci
 Blur
 ----
 
-This filter creates a regular blur
+This filter creates a regular blur.
 
 .. image:: /images/filters/Blur-filter.png
 

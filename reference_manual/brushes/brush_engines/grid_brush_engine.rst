@@ -38,9 +38,9 @@ Brush Size
 ----------
 
 Grid Width
-    Width of the cursor area
+    Width of the cursor area.
 Grid Height
-    Height of the cursor area
+    Height of the cursor area.
 Division
     Subdivides the cursor area and uses the resulting area to draw the particles.
 Division by pressure
@@ -66,7 +66,7 @@ Ellipse
 Rectangle
     Fills the area.
 Line
-    Draws lines from the lower left to the upper right corner of the particle
+    Draws lines from the lower left to the upper right corner of the particle.
 Pixel
     Looks like an aliased line on high resolutions.
 Anti-aliased Pixel

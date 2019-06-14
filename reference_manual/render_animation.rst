@@ -16,11 +16,11 @@
 Render Animation
 ================ 
 
-Render animation allows you to render your animation to an image sequence, gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation` .
+Render animation allows you to render your animation to an image sequence, gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation`.
 
 For rendering to an animated file format, Krita will first render to a png sequence and then use FFmpeg, which is really good at encoding into video files, to render that sequence to an animated file format. The reason for this two-step process is that animation files can be really complex and really big, and this is the best way to allow you to keep control over the export process. For example, if your computer has a hiccup, and one frame saves out weird, first saving the image sequence allows you to only resave that one weird frame before rendering.
 
-This means that you will need to find a good place to stick your frames before you can start rendering. If you only do throwaway animations, you can use a spot on your hard-drive with enough room and select :guilabel:`Delete Sequence After Rendering` 
+This means that you will need to find a good place to stick your frames before you can start rendering. If you only do throwaway animations, you can use a spot on your hard-drive with enough room and select :guilabel:`Delete Sequence After Rendering`.
 
 Image Sequence
 --------------
@@ -72,7 +72,7 @@ Watch out for the extremely annoying google and that looks like a download butto
 For OSX
 ^^^^^^^
 
-Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since FFmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <http://www.kekaosx.com>`_.
+Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since FFmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <https://www.kekaosx.com>`_.
 
 For Linux
 ^^^^^^^^^
@@ -97,7 +97,7 @@ After downloading FFmpeg, you just need to extract it and then simply point to i
 For Linux
 ^^^^^^^^^
 
-FFmpeg is, if installed from the repositories, usually found in ``/usr/bin/ffmpeg``
+FFmpeg is, if installed from the repositories, usually found in ``/usr/bin/ffmpeg``.
 
 Step 3 - Testing out an animation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

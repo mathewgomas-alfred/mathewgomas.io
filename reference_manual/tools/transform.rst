@@ -27,7 +27,7 @@ You can fine-tune the transform tool parameters using tool options docker. The p
 
 .. figure:: /images/tools/Transform_Tool_Options.png
 
-   Free Transform docker 
+   Free Transform docker.
 
 Free transform
 --------------
@@ -51,7 +51,7 @@ You can also change the size, shear and position transform while remaining in pe
 
 .. figure:: /images/tools/Krita_transforms_perspective.png 
 
-   Perspective transform
+   Perspective transform.
 
 Warp
 ----
@@ -60,7 +60,7 @@ Warp allows you to deform the image by dragging from a grid or choosing the drag
 
 .. figure:: /images/tools/Transform_Tool_Options_Warp.png
 
-   Warp Option
+   Warp Option.
 
 .. figure:: /images/tools/Krita_transforms_warp.png 
 
@@ -85,7 +85,7 @@ Create a cage around an image, and when it's closed, you can use it to deform th
 
 .. figure:: /images/tools/Krita_transforms_cage.png 
 
-    Transforming a straight banana to be curved with the cage tool
+    Transforming a straight banana to be curved with the cage tool.
 
 Adjust Granularity
 ~~~~~~~~~~~~~~~~~~
@@ -120,7 +120,7 @@ Move
 Scale
     Grow/Shrink the image under the cursor.
 Rotate
-    Twirl the image under the cursor
+    Twirl the image under the cursor.
 Offset
     Shift the image under the cursor.
 Undo
@@ -147,7 +147,7 @@ Reverse
 
 .. figure:: /images/tools/Krita_transforms_deformvsliquefy.png 
 
-   liquify on the left and deform brush on the right.
+   Liquify on the left and deform brush on the right.
 
 Krita also has a :ref:`deform_brush_engine` which is much faster than liquify, but has less quality. If you are attempting to make liquefy a little faster, note that it speeds up with the less information it needs to process, so working with liquefy within a selection or using liquefy on a separate layer with little on it will greatly enhance the speed.
 

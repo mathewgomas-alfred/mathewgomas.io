@@ -48,7 +48,7 @@ Options Unique to the Color Smudge Brush
 Color Rate
 ~~~~~~~~~~
 
-How much of the foreground color is added to the smudging mix. Works together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`
+How much of the foreground color is added to the smudging mix. Works together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`.
 
 .. image:: /images/brushes/Krita_2_9_brushengine_colorrate_04.png
 
@@ -120,7 +120,7 @@ To better demonstrate the smudge function, I turned the color rate function off.
 
 Common behaviors:
 
-* Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)
+* Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00).
 * Opacity: Below 0.50, there is practically no smudging left: keep opacity over 0.50.
  
 Differences:
@@ -237,7 +237,7 @@ In this case, what I refer to as "Blending" here is simply using one of the foll
 
 * And/or Scatter:
     * For most mid-sized brushes you will probably want to lower the scatter rate to 0.50 or lower. Higher settings are okay for tiny brushes.
-    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see :ref:`option_brush_tip`)
+    * Note that Scatter picks colors within a certain distance, not the color directly under the brush (see :ref:`option_brush_tip`).
  
 * Optional: Pile on size and other dynamics and vary brush tips. In fact, the Color Smudge brush is not a blur brush, so smudging is not a very good method of "smooth" blending. To blend smoothly, you'll have better luck with:
 * Building up the transition by painting with intermediate values, described later
@@ -311,7 +311,7 @@ Suppose you want more or less smooth color transitions. You can either:
 This remains, in fact, a so-so way of making smooth transitions. It's best to build up intermediate values instead. Here:
 
 * I first passed over the blue area three times with a red color. I select 3 shades.
-* I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then used them in succession
+* I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then used them in succession.
 
 .. image:: /images/brushes/Krita-tutorial5-III.2-2.png
 

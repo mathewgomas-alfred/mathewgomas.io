@@ -15,7 +15,7 @@
 Brushes
 =======
 
-These are the brush tip or textures used in the brush presets. They can be png files or .abr file from Photoshop or .gbr files from gimp
+These are the brush tip or textures used in the brush presets. They can be png files or .abr file from Photoshop or .gbr files from gimp.
 
 .. note::
 
@@ -33,13 +33,13 @@ For some time Photoshop has been using the ABR format to compile brushes into a 
 #. First up is download the file (.ZIP, .RAR,...) that contains the .ABR file and any licensing or other notes.  Be sure to read the license if there is one!
 #. Extract the .ABR file into Krita's home directory for brushes.
 #. In your Brush Presets dock, select one of your brushes that uses the Pixel Brush Engine.  An Ink Pen or solid fill type should do fine.
-#. Open the Brush Settings Editor (:kbd:`F5` )
+#. Open the Brush Settings Editor (:kbd:`F5` ).
 #. Click on the tab "Predefined" next to "Auto".  This will change the editor to show a scrollable screen of thumbnail images, most will be black on a white background.  At the bottom of the window are two icons: 
 
     .. image:: /images/brushes/600px-BSE_Predefined_Window.png
 
 #. Click on the blue file folder on the left and then navigate to where you saved your .ABR file and open it.
-#. If everything went fine you will see a number of new thumbnails show up at the bottom of the window.  In our case, they would all be thumbnails representing different types of trees.  Your job now is to decide which of these you want to have as Brush Presets (Just like your Pencil) or you think you'll only use sporadically.
+#. If everything went fine you will see a number of new thumbnails show up at the bottom of the window.  In our case, they would all be thumbnails representing different types of trees.  Your job now is to decide which of these you want to have as Brush Preset (Just like your Pencil) or you think you'll only use sporadically.
 #. Let's say that there is an image of an evergreen tree that we're pretty sure is going to be a regular feature in some of our paintings and we want to have a dedicated brush for it.  To do this we would do the following:
 #. Click on the image of the tree we want
 #. Change the name of the brush at the very top of the Brush Editor Settings dialog.  Something like "Trees - Tall Evergreen" would be appropriate.

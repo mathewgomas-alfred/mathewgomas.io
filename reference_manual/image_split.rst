@@ -27,10 +27,10 @@ Sort Direction
 
     Whether to number the files using the following directions:
 
-        horizontal
-            left to right, top to bottom
-        vertical
-            top to bottom, left to right
+        Horizontal
+            Left to right, top to bottom.
+        Vertical
+            Top to bottom, left to right.
 
 Prefix
     The prefix at which the files should be saved at. By default this is the current document name.

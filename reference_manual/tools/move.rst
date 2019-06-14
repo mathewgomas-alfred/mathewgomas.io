@@ -20,9 +20,9 @@ Move Tool
 With this tool, you can move the current layer or selection by dragging the mouse.
 
 Move current layer
-    Anything that is on the selected layer will be moved 
+    Anything that is on the selected layer will be moved.
 Move layer with content
-    Any content contained on the layer that is resting under the four-headed Move cursor will be moved 
+    Any content contained on the layer that is resting under the four-headed Move cursor will be moved.
 Move the whole group
     All content on all layers will move.  Depending on the number of layers this might result in slow and, sometimes, jerky movements. Use this option sparingly or only when necessary.
 Shortcut move distance (3.0+)

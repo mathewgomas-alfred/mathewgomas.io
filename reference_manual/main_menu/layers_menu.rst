@@ -11,9 +11,9 @@
 .. index:: Layers, Cut Layer, Copy Layer, Paste Layer, Convert, Import, Export, Transform, Metadata, Histogram, Flatten, Layer Style
 .. _layers_menu:
 
-======
-Layers
-======
+===========
+Layers Menu
+===========
 
 These are the topmenu options are related to Layer Management, check out :ref:`that page <layers_and_masks>` first, if you haven't.
 
@@ -27,15 +27,15 @@ New
     Organizes the following actions:
 
     Paint Layer
-        Add a new paint layer
+        Add a new paint layer.
     New layer from visible (3.0.2+)
         Add a new layer with the visible pixels.
     Duplicate Layer or Mask
         Duplicates the layer.
     Cut Selection to New Layer
-        Single action for cut+paste
+        Single action for cut+paste.
     Copy Selection to New Layer
-        Single action for copy+paste
+        Single action for copy+paste.
 
 Import/Export
     Organizes the following actions:
@@ -142,4 +142,4 @@ Rasterize Layer
 Flatten Image
     Flatten all layers into one.
 Layerstyle (2.9.5+)
-    Set the PS-style layerstyle
+    Set the PS-style layerstyle.

@@ -50,7 +50,7 @@ Masked brush is new feature that is only available in the :ref:`pixel_brush_engi
 :ref:`option_scatter`
     The scatter option. The default is quite high, so don't forget to turn it lower.
 
-Difference from :ref:`option_texture`
+Difference from :ref:`option_texture`:
 
     - You don’t need seamless texture to make cool looking brush
     - Stroke generates on the fly, it always different

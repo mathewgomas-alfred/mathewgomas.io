@@ -21,7 +21,7 @@ Source
 
         Current Layer
             The active layer.
-        Flatten all layers before separation.
+        Flatten all layers before separation
             The total image.
 
 Alpha Options
@@ -31,7 +31,7 @@ Alpha Options
             This adds the transparency of the original source to all the separation layers.
         Discard Alpha Channel
             Just get rid of the alpha altogether.
-        Create separate separation from alpha channel.
+        Create separate separation from alpha channel
             Create a separate layer with the alpha channel as a grayscale layer.
 
 Downscale to 8bit before separating.

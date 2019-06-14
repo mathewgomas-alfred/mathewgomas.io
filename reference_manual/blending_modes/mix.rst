@@ -21,8 +21,7 @@ Mix
 Allanon
 ~~~~~~~
 
-Blends the upper layer as half-transparent with the lower.
-(It add the two layers together and then halves the value)
+Blends the upper layer as half-transparent with the lower. (It add the two layers together and then halves the value).
 
 .. figure:: /images/blending_modes/mix/Blending_modes_Allanon_Sample_image_with_dots.png
    :align: center

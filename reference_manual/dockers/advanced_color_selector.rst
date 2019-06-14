@@ -25,10 +25,11 @@ Color Selector
 
 Here you configure the main selector.
 
-.. versionadded:: 4.2
-    Show Color Selector
+Show Color Selector
 
-        This allows you to configure whether to show or hide the main color selector.
+.. versionadded:: 4.2
+
+    This allows you to configure whether to show or hide the main color selector.
 
 Type and Shape
 ~~~~~~~~~~~~~~
@@ -80,7 +81,7 @@ When docker resizes
 This determines the behavior of the widget as it becomes smaller.
 
 Change to Horizontal
-    This'll arrange the shade selector horizontal to the main selector. Only works with the MyPaint shade selector
+    This'll arrange the shade selector horizontal to the main selector. Only works with the MyPaint shade selector.
 Hide Shade Selector.
     This hides the shade selector.
 Do nothing
@@ -172,4 +173,4 @@ In the gamut masking toolbar at the top of the selector you can toggle the selec
 External Info
 -------------
 
-`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?p=726>`_
+`HSI and HSY for Krita’s advanced color selector. <https://wolthera.info/?p=726>`_

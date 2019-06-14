@@ -23,7 +23,7 @@ Usage
 
 .. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker.png
 
-  Artistic color selector with a gamut mask
+  Artistic color selector with a gamut mask.
 
 Select hue and saturation on the wheel (5) and value on the value scale (4). |mouseleft| changes foreground color (6). |mouseright| changes background color (7).
 
@@ -47,19 +47,19 @@ Color wheel preferences
 .. _artistic_color_selector_docker_fig_wheel_preferences:
 .. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker_3.png
 
-   Color wheel preferences
+   Color wheel preferences.
 
 Sliders 1, 2, and 3
-    adjust the number of steps of the value scale, number of hue sectors and saturation rings on the wheel, respectively.
+    Adjust the number of steps of the value scale, number of hue sectors and saturation rings on the wheel, respectively.
 
 Continuous Mode
     The value scale and hue sectors can also be set to continuous mode (with the infinity icon on the right of the slider). If toggled on, the respective area shows a continuous gradient instead of the discrete swatches.
 
 Invert saturation (4)
-    changes the order of saturation rings within the the hue sectors. By default, the wheel has gray in the center and most saturated colors on the perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most saturated colors in the center.
+    Changes the order of saturation rings within the the hue sectors. By default, the wheel has gray in the center and most saturated colors on the perimeter. :guilabel:`Invert saturation` puts gray on the perimeter and most saturated colors in the center.
 
 Reset to default (5)
-    loads default values for the sliders 1, 2, and 3. These default values are configured in selector settings.
+    Loads default values for the sliders 1, 2, and 3. These default values are configured in selector settings.
 
 
 .. _artistic_color_selector_docker_selector_settings:
@@ -69,11 +69,11 @@ Selector settings
 
 .. figure:: /images/dockers/Krita_Artistic_Color_Selector_Docker_2.png
 
-  Selector settings menu
+  Selector settings menu.
 
 Selector Appearance (1)
     Show background color indicator
-      toggles the bottom-right triangle with current background color.
+      Toggles the bottom-right triangle with current background color.
     Show numbered value scale
       If checked, the value scale includes a comparative gray scale with lightness percentage.
 

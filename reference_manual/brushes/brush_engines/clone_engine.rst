@@ -39,7 +39,7 @@ The clone tool can now clone from the projection and it's possible to change the
 
 .. warning::
 
-    :kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7
+    :kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7.
 
 Settings
 --------
@@ -57,11 +57,11 @@ Perspective correction
     Only works when there's a perspective grid visible.
     
     .. warning::
-        This feature is currently disabled
-Source Point move.
+        This feature is currently disabled.
+Source Point move
     This will determine whether you will replicate the source point per dab or per stroke. Can be useful when used with the healing brush.
 Source Point reset before a new stroke
     This will reset the source point everytime you make a new stroke. So if you were cloning a part in one stroke, having this active will allow you to clone the same part again in a single stroke, instead of using the source point as a permanent offset. 
-Clone from all visible layers. 
+Clone from all visible layers
     Tick this to force cloning of all layers instead of just the active one.
 

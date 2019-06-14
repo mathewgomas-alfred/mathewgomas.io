@@ -318,7 +318,7 @@ Mixes both Color Dodge and Burn blending modes. If the color of the upper layer 
 
 .. warning::
 
-    This algorithm doesn't use color dodge and burn, we don't know WHAT it does do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`
+    This algorithm doesn't use color dodge and burn, we don't know WHAT it does do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`.
 
 .. figure:: /images/blending_modes/lighten/Blending_modes_Vivid_Light_Sample_image_with_dots.png
    :align: center

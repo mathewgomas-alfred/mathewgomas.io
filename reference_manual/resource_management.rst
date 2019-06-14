@@ -43,7 +43,7 @@ Some dockers, for example the brush preset docker as shown below, have a resourc
 
 You can enter brush name, tag name to quickly pull up a list of brush presets you want. When you select any tag from the tag drop-down and want to include brush presets from other tags as well then you can add filters the following way: 
 
-* To filter based on the partial, case insensitive name of the resources you can add ``partialname`` or ``!partialname``
+* To filter based on the partial, case insensitive name of the resources you can add ``partialname`` or ``!partialname``.
 * To include other Tags type the respective name of the tag in square brackets like this ``[Tagname]`` or to exclude a tag type ``![Tagname]``.
 * For case sensitive matching of preset name type ``"Preset name"`` or ``! "Preset name"`` to exclude.
 
@@ -57,14 +57,14 @@ An incredibly quick way to save a group or brushes into a tag is to:
 Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select :guilabel:`Pencils`.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
 
 Resource Zooming
-    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or :guilabel:`Zoom in`. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|
+    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or :guilabel:`Zoom in`. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|.
 
 Managing Resources
 ------------------
 
 As mentioned earlier Krita has a flexible resource management system. Starting from version 2.9 you can share various resources mentioned above by sharing a single compressed zip file created within Krita.
 
-The manage resources section in the settings was also revamped for making it easy for the artists to prepare these bundle files. You can open manage resource section by going to :menuselection:`Settings`   then :menuselection:`Manage Resources` 
+The manage resources section in the settings was also revamped for making it easy for the artists to prepare these bundle files. You can open manage resource section by going to :menuselection:`Settings`   then :menuselection:`Manage Resources`.
 
 .. image:: /images/resources/Manageresources.png
    :align: center
@@ -78,7 +78,7 @@ Select .bundle file format from the file type if it is not already selected, bro
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button. This will open a dialog box as shown below
+You can create your own bundle from the resources of your choice. Click on the :guilabel:`Create bundle` button. This will open a dialog box as shown below.
 
 .. image:: /images/resources/Creating-bundle.png
 
@@ -87,7 +87,7 @@ The right hand side provides a list of available resources. Choose the type of r
 
 .. warning::
 
-    Make sure you add brush tips for used in the respective paintop presets you are adding to the bundle. If you don't provide the brush tips then the brush presets loaded from this bundle will have a 'X' mark on the thumbnail denoting that the texture is missing. And the brush preset won't be the same
+    Make sure you add brush tips for used in the respective paintop presets you are adding to the bundle. If you don't provide the brush tips then the brush presets loaded from this bundle will have a 'X' mark on the thumbnail denoting that the texture is missing. And the brush preset won't be the same.
 
 Once you have added all the resources you can create bundle by clicking on the :guilabel:`Save` button, the bundle will be saved in the location you have specified. You can then share this bundle with other artists or load it on other workstations.
 

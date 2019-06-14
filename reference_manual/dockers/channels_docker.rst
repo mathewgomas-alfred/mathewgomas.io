@@ -39,7 +39,7 @@ If you want to edit individual channels by their grayscale component, you will n
 #. Make sure the Alpha layer is at the bottom of the group.
 #. Enable Inherit Alpha for the Red, Green, and Blue layers. 
 
-Here is a `video to see this process <https://www.youtube.com/watch?v=lWuwegJ-mIQ&feature=youtu.be>`_  in Krita 3.0  
+Here is a `video to see this process <https://www.youtube.com/watch?v=lWuwegJ-mIQ&feature=youtu.be>`_ in Krita 3.0.
 
 When working with editing channels, it can be easier to use the Isolate Layer feature to only see the channel. Right-click on the layer to find Isolate Layer.
 

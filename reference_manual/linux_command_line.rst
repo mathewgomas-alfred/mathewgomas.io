@@ -102,7 +102,7 @@ Open krita and automatically open the given template(s). This allows you to, for
 
 .. option:: --template templatename.desktop
 
-   Selects the template option
+   Selects the template option.
 
    All templates are saved with the .desktop extension. You can find templates in the .local/share/krita/template or in the install folder of Krita.
 
@@ -123,19 +123,19 @@ Start up
     
     .. option:: --nosplash
     
-       starts krita without showing the splash screen.
+       Starts krita without showing the splash screen.
     
     .. option:: --canvasonly
     
-       starts krita in canvasonly mode.
+       Starts krita in canvasonly mode.
     
     .. option:: --fullscreen
     
-       starts krita in fullscreen mode.
+       Starts krita in fullscreen mode.
     
     .. option:: --workspace Workspace
     
-       starts krita with the given workspace. So for example...
+       Starts krita with the given workspace. So for example...
     
         ``krita --workspace Animation``
         
