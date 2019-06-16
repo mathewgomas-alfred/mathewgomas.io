@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 03:18+0200\n"
-"PO-Revision-Date: 2019-06-11 17:06+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 20:57+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:1
 msgid "Overview of the advanced color selector docker."
@@ -65,21 +65,21 @@ msgstr "Aquí configurareu el selector principal."
 msgid "Show Color Selector"
 msgstr "Mostra el selector de color"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:31
+#: ../../reference_manual/dockers/advanced_color_selector.rst:32
 msgid ""
 "This allows you to configure whether to show or hide the main color selector."
 msgstr ""
 "Permet configurar si voleu mostrar o ocultar el selector de color principal."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:34
+#: ../../reference_manual/dockers/advanced_color_selector.rst:35
 msgid "Type and Shape"
 msgstr "Tipus i forma"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:37
+#: ../../reference_manual/dockers/advanced_color_selector.rst:38
 msgid ".. image:: images/dockers/Krita_Color_Selector_Types.png"
 msgstr ".. image:: images/dockers/Krita_Color_Selector_Types.png"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:38
+#: ../../reference_manual/dockers/advanced_color_selector.rst:39
 msgid ""
 "Here you can pick the hsx model you'll be using. There's a small blurb "
 "explaining the characteristic of each model, but let's go into detail:"
@@ -87,11 +87,11 @@ msgstr ""
 "Aquí podreu triar el model HSX que utilitzareu. Hi ha una petita ressenya "
 "que explica la característica de cada model, però entrarem en detalls:"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:41
+#: ../../reference_manual/dockers/advanced_color_selector.rst:42
 msgid "HSV"
 msgstr "HSV"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:42
+#: ../../reference_manual/dockers/advanced_color_selector.rst:43
 msgid ""
 "Stands for Hue, Saturation, Value. Saturation determines the difference "
 "between white, gray, black and the most colorful color. Value in turn "
@@ -103,11 +103,11 @@ msgstr ""
 "valor, al seu torn, mesura la diferència entre el negre i el blanc, o la "
 "diferència entre el negre i el color més colorit."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:43
+#: ../../reference_manual/dockers/advanced_color_selector.rst:44
 msgid "HSL"
 msgstr "HSL"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:44
+#: ../../reference_manual/dockers/advanced_color_selector.rst:45
 msgid ""
 "Stands for Hue, Saturation, Lightness. All saturated colors are equal to 50% "
 "lightness. Saturation allows for shifting between gray and color."
@@ -116,11 +116,11 @@ msgstr ""
 "colors saturats són iguals al 50% de la claredat. La saturació permet "
 "canviar entre gris i color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:45
+#: ../../reference_manual/dockers/advanced_color_selector.rst:46
 msgid "HSI"
 msgstr "HSI"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:46
+#: ../../reference_manual/dockers/advanced_color_selector.rst:47
 msgid ""
 "This stands for Hue, Saturation and Intensity. Unlike HSL, this one "
 "determine the intensity as the sum of total rgb components. Yellow (1,1,0) "
@@ -132,12 +132,12 @@ msgstr ""
 "components RGB totals. El groc (1,1,0) té una major intensitat que el blau "
 "(0,0,1), però és la mateixa intensitat que el cian (0,1,1)."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:48
+#: ../../reference_manual/dockers/advanced_color_selector.rst:49
 msgid "HSY'"
 msgstr "HSY"
 
 # skip-rule: t-acc_obe
-#: ../../reference_manual/dockers/advanced_color_selector.rst:48
+#: ../../reference_manual/dockers/advanced_color_selector.rst:49
 msgid ""
 "Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of "
 "true luminosity. (Luminosity being the measurement of relative lightness). "
@@ -152,7 +152,7 @@ msgstr ""
 "Per això, podria ser el selector més intuïtiu per a treballar, o el més "
 "confús."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:50
+#: ../../reference_manual/dockers/advanced_color_selector.rst:51
 msgid ""
 "Then, under shape, you can select one of the shapes available within that "
 "color model."
@@ -160,7 +160,7 @@ msgstr ""
 "Després, sota la forma, podreu seleccionar una de les formes disponibles "
 "dins d'aquest model de color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:54
+#: ../../reference_manual/dockers/advanced_color_selector.rst:55
 msgid ""
 "Triangle is in all color models because to a certain extent, it is a "
 "wildcard shape: All color models look the same in an equilateral triangle "
@@ -170,12 +170,12 @@ msgstr ""
 "un comodí: tots els models de color tenen el mateix aspecte en un selector "
 "amb forma de triangle equilàter."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:57
+#: ../../reference_manual/dockers/advanced_color_selector.rst:58
 msgid "Luma Coefficients"
 msgstr "Coeficients de luma"
 
 # skip-rule: t-acc_obe
-#: ../../reference_manual/dockers/advanced_color_selector.rst:59
+#: ../../reference_manual/dockers/advanced_color_selector.rst:60
 msgid ""
 "This allows you to edit the Luma coefficients for the HSY model selectors to "
 "your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ "
@@ -185,17 +185,17 @@ msgstr ""
 "model HSY. Voleu utilitzar `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>` "
 "en lloc de Rec 709? Aquests quadres us permetran fer-ho!"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:61
+#: ../../reference_manual/dockers/advanced_color_selector.rst:62
 msgid "By default, the Luma coefficients should add up to 1 at maximum."
 msgstr ""
 "De manera predeterminada, els coeficients de luma haurien d'afegir fins a 1 "
 "com a màxim."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:64
+#: ../../reference_manual/dockers/advanced_color_selector.rst:65
 msgid "Gamma"
 msgstr "Gamma"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:64
+#: ../../reference_manual/dockers/advanced_color_selector.rst:65
 msgid ""
 "The HSY selector is linearised, this setting allows you to choose how much "
 "gamma is applied to the Luminosity for the gui element. 1.0 is fully linear, "
@@ -205,18 +205,18 @@ msgstr ""
 "quantitat de gamma que s'aplicarà a la Lluminositat per a l'element de la "
 "IGU. 1,0 és totalment lineal, 2,2 és el valor predeterminat."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:67
+#: ../../reference_manual/dockers/advanced_color_selector.rst:68
 msgid "Color Space"
 msgstr "Espai de color"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:69
+#: ../../reference_manual/dockers/advanced_color_selector.rst:70
 msgid ""
 "This allows you to set the overall color space for the Advanced Color "
 "Selector."
 msgstr ""
 "Permet establir l'espai de color general per al Selector avançat del color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:72
+#: ../../reference_manual/dockers/advanced_color_selector.rst:73
 msgid ""
 "You can pick only sRGB colors in advanced color selector regardless of the "
 "color space of advanced color selector. This is a bug."
@@ -225,52 +225,55 @@ msgstr ""
 "independentment de l'espai de color que hi hagi al Selector avançat del "
 "color. Això és un error."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:75
+#: ../../reference_manual/dockers/advanced_color_selector.rst:76
 msgid "Behavior"
 msgstr "Comportament"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:78
+#: ../../reference_manual/dockers/advanced_color_selector.rst:79
 msgid "When docker resizes"
 msgstr "En redimensionar l'acoblador"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:80
+#: ../../reference_manual/dockers/advanced_color_selector.rst:81
 msgid "This determines the behavior of the widget as it becomes smaller."
 msgstr ""
 "Això determina el comportament de l'estri a mesura que es fa més petit."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:82
+#: ../../reference_manual/dockers/advanced_color_selector.rst:83
 msgid "Change to Horizontal"
 msgstr "Canvia a horitzontal"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:83
+#: ../../reference_manual/dockers/advanced_color_selector.rst:84
+#| msgid ""
+#| "This'll arrange the shade selector horizontal to the main selector. Only "
+#| "works with the MyPaint shade selector"
 msgid ""
 "This'll arrange the shade selector horizontal to the main selector. Only "
-"works with the MyPaint shade selector"
+"works with the MyPaint shade selector."
 msgstr ""
 "Això organitzarà en horitzontal el selector d'ombres al selector principal. "
 "Només funciona amb el selector d'ombres del MyPaint."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:84
+#: ../../reference_manual/dockers/advanced_color_selector.rst:85
 msgid "Hide Shade Selector."
 msgstr "Oculta el selector d'ombres."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:85
+#: ../../reference_manual/dockers/advanced_color_selector.rst:86
 msgid "This hides the shade selector."
 msgstr "Això ocultarà el selector d'ombres."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+#: ../../reference_manual/dockers/advanced_color_selector.rst:88
 msgid "Do nothing"
 msgstr "No facis res"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:87
+#: ../../reference_manual/dockers/advanced_color_selector.rst:88
 msgid "Does nothing, just resizes."
 msgstr "No farà res, simplement es canviarà la mida."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:90
+#: ../../reference_manual/dockers/advanced_color_selector.rst:91
 msgid "Zoom selector UI"
 msgstr "IU del selector de zoom"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:92
+#: ../../reference_manual/dockers/advanced_color_selector.rst:93
 msgid ""
 "If your have set the docker size considerably smaller to save space, this "
 "option might be helpful to you. This allows you to set whether or not the "
@@ -282,19 +285,19 @@ msgstr ""
 "selector donarà o no una vista amb zoom del selector en una mida que hàgiu "
 "especificat, per al selector del zoom disposeu d'aquestes opcions:"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:94
+#: ../../reference_manual/dockers/advanced_color_selector.rst:95
 msgid "when pressing middle mouse button"
 msgstr "En prémer el botó del mig del ratolí"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:95
+#: ../../reference_manual/dockers/advanced_color_selector.rst:96
 msgid "on mouse over"
 msgstr "En passar el ratolí per sobre"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:96
+#: ../../reference_manual/dockers/advanced_color_selector.rst:97
 msgid "never"
 msgstr "Mai"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:98
+#: ../../reference_manual/dockers/advanced_color_selector.rst:99
 msgid ""
 "The size given here, is also the size of the Main Color Selector and the "
 "MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:"
@@ -304,11 +307,11 @@ msgstr ""
 "la del Selector d'ombres del MyPaint quan es criden amb :kbd:`Majús. + I` i :"
 "kbd:`Majús. + M`, respectivament."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:101
+#: ../../reference_manual/dockers/advanced_color_selector.rst:102
 msgid "Hide Pop-up on click"
 msgstr "Oculta l'emergent en fer clic"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:101
+#: ../../reference_manual/dockers/advanced_color_selector.rst:102
 msgid ""
 "This allows you to let the pop-up selectors called with the above hotkeys to "
 "disappear upon clicking them instead of having to leave the pop-up boundary. "
@@ -318,11 +321,11 @@ msgstr ""
 "anteriors desapareguin en fer clic sobre seu, en lloc d'haver d'abandonar el "
 "límit de l'emergent. Això és útil per a treballar més ràpid."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:104
+#: ../../reference_manual/dockers/advanced_color_selector.rst:105
 msgid "Shade selector"
 msgstr "Selector d'ombres"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:106
+#: ../../reference_manual/dockers/advanced_color_selector.rst:107
 msgid ""
 "Shade selector options. The shade selectors are useful to decide upon new "
 "shades of color."
@@ -330,19 +333,19 @@ msgstr ""
 "Les opcions del selector d'ombres. Els selectors d'ombres són útils per a "
 "decidir sobre ombres de color noves."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:110
+#: ../../reference_manual/dockers/advanced_color_selector.rst:111
 msgid "Update Selector"
 msgstr "Actualitza el selector"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:112
+#: ../../reference_manual/dockers/advanced_color_selector.rst:113
 msgid "This allows you to determine when the shade selector updates."
 msgstr "Permet determinar quan s'actualitzarà el selector d'ombres."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:115
+#: ../../reference_manual/dockers/advanced_color_selector.rst:116
 msgid "MyPaint Shade Selector"
 msgstr "Selector d'ombres del MyPaint"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:117
+#: ../../reference_manual/dockers/advanced_color_selector.rst:118
 msgid ""
 "Ported from MyPaint, and extended with all color models. Default hotkey is :"
 "kbd:`Shift+ M`."
@@ -350,23 +353,23 @@ msgstr ""
 "Adaptat des del MyPaint, i ampliat amb tots els models de color. La drecera "
 "predeterminada és :kbd:`Majús. + M`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:121
+#: ../../reference_manual/dockers/advanced_color_selector.rst:122
 msgid "Simple Shade Selector"
 msgstr "Selector d'ombres senzill"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:123
+#: ../../reference_manual/dockers/advanced_color_selector.rst:124
 msgid "This allows you to configure the simple shade selector in detail."
 msgstr "Permet configurar el selector d'ombres de manera detallada."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:126
+#: ../../reference_manual/dockers/advanced_color_selector.rst:127
 msgid "Color Patches"
 msgstr "Patrons de color"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:128
+#: ../../reference_manual/dockers/advanced_color_selector.rst:129
 msgid "This sets the options of the color patches."
 msgstr "Estableix les opcions dels patrons de color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:130
+#: ../../reference_manual/dockers/advanced_color_selector.rst:131
 msgid ""
 "Both Color History and Colors From the Image have similar options which will "
 "be explained below."
@@ -374,11 +377,11 @@ msgstr ""
 "Tant l'Historial del color com els Colors des de la imatge tenen opcions "
 "similars que s'explicaran a continuació."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:132
+#: ../../reference_manual/dockers/advanced_color_selector.rst:133
 msgid "Show"
 msgstr "Mostra"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:133
+#: ../../reference_manual/dockers/advanced_color_selector.rst:134
 msgid ""
 "This is a radio button to show or hide the section. It also determines "
 "whether or not the colors are visible with the advanced color selector "
@@ -387,53 +390,53 @@ msgstr ""
 "Aquest és un botó d'opció per a mostrar o ocultar la secció. També determina "
 "si els colors seran o no visibles amb l'acoblador Selector avançat del color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:134
+#: ../../reference_manual/dockers/advanced_color_selector.rst:135
 msgid "Size"
 msgstr "Mida"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:135
+#: ../../reference_manual/dockers/advanced_color_selector.rst:136
 msgid "The size of the color boxes can be set here."
 msgstr "Aquí es pot establir la mida dels quadres de color."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:136
+#: ../../reference_manual/dockers/advanced_color_selector.rst:137
 msgid "Patch Count"
 msgstr "Comptador de patrons"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:137
+#: ../../reference_manual/dockers/advanced_color_selector.rst:138
 msgid "The number of patches to display."
 msgstr "El nombre de patrons que es mostraran."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:138
+#: ../../reference_manual/dockers/advanced_color_selector.rst:139
 msgid "Direction"
 msgstr "Direcció"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:139
+#: ../../reference_manual/dockers/advanced_color_selector.rst:140
 msgid "The direction of the patches, Horizontal or Vertical."
 msgstr "La direcció dels patrons, en horitzontal o vertical."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:140
+#: ../../reference_manual/dockers/advanced_color_selector.rst:141
 msgid "Allow Scrolling"
 msgstr "Permet el desplaçament"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:141
+#: ../../reference_manual/dockers/advanced_color_selector.rst:142
 msgid ""
 "Whether to allow scrolling in the section or not when there are too many "
 "patches."
 msgstr "Si permet o no el desplaçament a la secció quan hi ha massa patrons."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:142
+#: ../../reference_manual/dockers/advanced_color_selector.rst:143
 msgid "Number of Columns/Rows"
 msgstr "Nombre de columnes/files"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:143
+#: ../../reference_manual/dockers/advanced_color_selector.rst:144
 msgid "The number of Columns or Rows to show in the section."
 msgstr "El nombre de columnes o files que es mostraran a la secció."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:145
+#: ../../reference_manual/dockers/advanced_color_selector.rst:146
 msgid "Update After Every Stroke"
 msgstr "Actualitza després de cada traç"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:145
+#: ../../reference_manual/dockers/advanced_color_selector.rst:146
 msgid ""
 "This is only available for Colors From the Image and tells the docker "
 "whether to update the section after every stroke or not, as after each "
@@ -443,11 +446,11 @@ msgstr ""
 "l'acoblador si s'ha o no d'actualitzar la secció després de cada traç, ja "
 "que després de cada traç els colors canviaran a la imatge."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:148
+#: ../../reference_manual/dockers/advanced_color_selector.rst:149
 msgid "History patches"
 msgstr "Historial dels patrons"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:150
+#: ../../reference_manual/dockers/advanced_color_selector.rst:151
 msgid ""
 "The history patches remember which colors you've drawn on canvas with. They "
 "can be quickly called with :kbd:`H`."
@@ -455,11 +458,11 @@ msgstr ""
 "L'historial dels patrons recordarà quins colors heu dibuixat sobre el llenç. "
 "Es poden cridar ràpidament amb la drecera :kbd:`H`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:153
+#: ../../reference_manual/dockers/advanced_color_selector.rst:154
 msgid "Common Patches"
 msgstr "Patrons habituals"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:155
+#: ../../reference_manual/dockers/advanced_color_selector.rst:156
 msgid ""
 "The common patches are generated from the image, and are the most common "
 "color in the image. The hotkey for them on canvas is :kbd:`U`."
@@ -467,25 +470,25 @@ msgstr ""
 "Els patrons habituals es generen a partir de la imatge i són el color més "
 "comú que hi ha a la imatge. La seva drecera sobre el llenç és :kbd:`U`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:158
+#: ../../reference_manual/dockers/advanced_color_selector.rst:159
 msgid "Gamut masking"
 msgstr "Emmascarar la gamma"
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:164
+#: ../../reference_manual/dockers/advanced_color_selector.rst:165
 msgid ""
 "Gamut masking is available only when the selector shape is set to wheel."
 msgstr ""
 "L'emmascarament de la gamma només estarà disponible quan el selector "
 "d'ombres estigui establert a la roda."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:166
+#: ../../reference_manual/dockers/advanced_color_selector.rst:167
 msgid ""
 "You can select and manage your gamut masks in the :ref:`gamut_mask_docker`."
 msgstr ""
 "Podeu seleccionar i gestionar les vostres màscares de gamma a l':ref:"
 "`gamut_mask_docker`."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:168
+#: ../../reference_manual/dockers/advanced_color_selector.rst:169
 msgid ""
 "In the gamut masking toolbar at the top of the selector you can toggle the "
 "selected mask off and on (left button). You can also rotate the mask with "
@@ -496,15 +499,18 @@ msgstr ""
 "(botó esquerre). També podreu girar la màscara amb el control lliscant de "
 "gir (dreta)."
 
-#: ../../reference_manual/dockers/advanced_color_selector.rst:173
+#: ../../reference_manual/dockers/advanced_color_selector.rst:174
 msgid "External Info"
 msgstr "Informació externa"
 
 # skip-rule: t-acc_obe
-#: ../../reference_manual/dockers/advanced_color_selector.rst:175
+#: ../../reference_manual/dockers/advanced_color_selector.rst:176
+#| msgid ""
+#| "`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?"
+#| "p=726>`_"
 msgid ""
-"`HSI and HSY for Krita’s advanced color selector. <http://wolthera.info/?"
+"`HSI and HSY for Krita’s advanced color selector. <https://wolthera.info/?"
 "p=726>`_"
 msgstr ""
-"`HSI i HSY per al Selector avançat del color del Krita <http://wolthera."
+"`HSI i HSY per al Selector avançat del color del Krita <https://wolthera."
 "info/?p=726>`_."

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:53+0100\n"
+"PO-Revision-Date: 2019-06-15 10:26+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -38,11 +38,11 @@ msgstr "Indexerad färg"
 #: ../../general_concepts/colors/bit_depth.rst:10
 #: ../../general_concepts/colors/bit_depth.rst:46
 msgid "Real Color"
-msgstr ""
+msgstr "Verklig färg"
 
 #: ../../general_concepts/colors/bit_depth.rst:10
 msgid "Color"
-msgstr ""
+msgstr "Färg"
 
 #: ../../general_concepts/colors/bit_depth.rst:10
 msgid "Color Bit Depth"
@@ -54,35 +54,44 @@ msgstr "Djup färg"
 
 #: ../../general_concepts/colors/bit_depth.rst:10
 msgid "Floating Point Color"
-msgstr ""
+msgstr "Flyttalsfärg"
 
 #: ../../general_concepts/colors/bit_depth.rst:10
 msgid "Color Channels"
-msgstr ""
+msgstr "Färgkanaler"
 
 #: ../../general_concepts/colors/bit_depth.rst:17
 msgid ""
 "Bit depth basically refers to the amount of working memory per pixel you "
 "reserve for an image."
 msgstr ""
+"Bitdjup anger i huvudsak hur mycket arbetsminne per bildpunkt som reserveras"
+" för en bild."
 
 #: ../../general_concepts/colors/bit_depth.rst:19
 msgid ""
 "Like how having a A2 paper in real life can allow for much more detail in "
 "the end drawing, it does take up more of your desk than a simple A4 paper."
 msgstr ""
+"Som hur att använda ett A2-papper i verkligheten kan tillåta mycket fler"
+" detaljer på den slutliga teckningen, men upptar mycket mer utrymme på"
+" skrivbordet än ett vanligt A4-papper."
 
 #: ../../general_concepts/colors/bit_depth.rst:21
 msgid ""
 "However, this does not just refer to the size of the image, but also how "
 "much precision you need per color."
 msgstr ""
+"Dock gäller detta inte bara bildstorleken, men också hur mycket precision som"
+" behövs per färg."
 
 #: ../../general_concepts/colors/bit_depth.rst:23
 msgid ""
 "To illustrate this, I'll briefly talk about something that is not even "
 "available in Krita:"
 msgstr ""
+"För att illustrera det, beskriver jag kortfattat något som inte ens är"
+" tillgängligt i Krita:"
 
 #: ../../general_concepts/colors/bit_depth.rst:28
 msgid ""
@@ -90,6 +99,9 @@ msgid ""
 "contains a number for each color. The palette size is defined in bits, "
 "because the computer can only store data in bit-sizes."
 msgstr ""
+"I äldre program har datorn en palett per bild, som innehåller ett tal för"
+" varje färg. Palettstorleken definieras i bitar, eftersom datorn bara kan"
+" lagra data i bitstorlekar."
 
 #: ../../general_concepts/colors/bit_depth.rst:36
 msgid "1bit"
@@ -97,7 +109,7 @@ msgstr "1 bit"
 
 #: ../../general_concepts/colors/bit_depth.rst:37
 msgid "Only two colors in total, usually black and white."
-msgstr ""
+msgstr "Bara totalt två färger, oftast svart och vitt."
 
 #: ../../general_concepts/colors/bit_depth.rst:38
 msgid "4bit (16 colors)"
@@ -108,6 +120,8 @@ msgid ""
 "16 colors in total, these are famous as many early games were presented in "
 "this color palette."
 msgstr ""
+"Totalt 16 färger, som är berömda eftersom många tidiga spel använde sig av"
+" den här färgpaletten."
 
 #: ../../general_concepts/colors/bit_depth.rst:41
 msgid "8bit"
@@ -118,6 +132,8 @@ msgid ""
 "256 colors in total. 8bit images are commonly used in games to save on "
 "memory for textures and sprites."
 msgstr ""
+"Totalt 256 färger. 8-bitars bilder används ofta i spel för att spara på minne"
+" för strukturer och figurer."
 
 #: ../../general_concepts/colors/bit_depth.rst:43
 msgid ""
@@ -125,6 +141,9 @@ msgid ""
 "and counts how many colors per channel you need (described in terms of "
 "''bits per channel''). This is called 'real color'."
 msgstr ""
+"Dock är det inte tillgängligt i Krita. Krita arbetar istället med kanaler,"
+" och räknar hur många färger per kanal man behöver (som beskrivs i termer av"
+" \"bitar per kanal\"). Det kallas 'verklig färg'."
 
 #: ../../general_concepts/colors/bit_depth.rst:52
 msgid ".. image:: images/color_category/Rgbcolorcube_3.png"
@@ -137,16 +156,23 @@ msgid ""
 "the precision: Usually, each bit subdivides each section in the color cube "
 "meaning precision becomes a power of 2 bigger than the previous cube."
 msgstr ""
+"1, 2 och 3 bitar per kanal existerar i själva verket inte i något"
+" grafikprogram i verkligheten. Vi kan dock föreställa oss hur varje bit"
+" påverkar precisionen genom att avbilda dem. Oftast delar varje bit upp varje"
+" sektion av färgkuben, vilket betyder att precisionen blir en tvåpotens"
+" större en den föregående kuben."
 
 #: ../../general_concepts/colors/bit_depth.rst:54
 msgid "4bit per channel (not supported by Krita)"
-msgstr ""
+msgstr "4-bitar per kanal (stöds inte av Krita)"
 
 #: ../../general_concepts/colors/bit_depth.rst:55
 msgid ""
 "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
+"Också känd som Hi-color, eller 16-bitars total färg. Ett något gammaldags"
+" system, och används inte utom av särskilda bildskärmar."
 
 #: ../../general_concepts/colors/bit_depth.rst:56
 msgid "8bit per channel"
@@ -157,10 +183,13 @@ msgid ""
 "Also known as \"True Color\", \"Millions of colors\" or \"24bit/32bit\". The "
 "standard for many screens, and the lowest bit-depth Krita can handle."
 msgstr ""
+"Också känt som \"True Color\", \"Miljontals färger\" eller"
+" \"24-bitar/32-bitar\". Standard för många skärmar, och det minsta bitdjup"
+" som Krita kan hantera."
 
 #: ../../general_concepts/colors/bit_depth.rst:58
 msgid "16bit per channel."
-msgstr ""
+msgstr "16 bitar per kanal."
 
 #: ../../general_concepts/colors/bit_depth.rst:59
 msgid ""
@@ -170,6 +199,11 @@ msgid ""
 "doesn't have negative values possible, so it is 16bit precision, meaning "
 "that you have 65536 values per channel."
 msgstr ""
+"Ett steg upp från 8 bitar, tillåter 16 bitar per kanal färger som inte kan"
+" visas på skärmen. På grund av det är det dock troligare att ha jämnare"
+" toningar. Det kallas ibland för \"djup färg\". Typen av färgdjup tillåter"
+" inte negativa värden, så det är 16-bitars precision, vilket betyder att man"
+" har 65536 värden per kanal."
 
 #: ../../general_concepts/colors/bit_depth.rst:60
 msgid "16bit float"
@@ -186,6 +220,14 @@ msgid ""
 "bit int (this is 2048 values per channel in the 0-1 range). Required for HDR/"
 "Scene referred images, and often known as 'half floating point'."
 msgstr ""
+"Liknar 16 bitar, men har större intervall och mindre precision. Medan 16"
+" bitar bara tillåter koordinater som [1; 4; 3], har 16-bitars flyttal"
+" koordinater som [0,15; 0,70; 0,3759], där [1,0; 1,0; 1,0] representerar"
+" vitt. På grund av skillnaden mellan flyttals- och heltalsvariabler, och"
+" eftersom scenbaserad avbildning tillåter negativa värden, kan man ha omkring"
+" 10-11 bitars precision per kanal med 16-bitars flyttal jämfört med 16 bitar"
+" i 16-bitars heltal (det vill säga 2048 värden per kanal i intervallet 0-1)."
+" Krävs för HDR och scenbaserade bilder, och kallas ofta för 'halv precision'."
 
 #: ../../general_concepts/colors/bit_depth.rst:63
 msgid ""
@@ -197,6 +239,13 @@ msgid ""
 "far above 1), necessary for HDR/Scene-referred values. It is also known as "
 "'single floating point'."
 msgstr ""
+"Liknar 16-bitars flyttal, men med ännu större precision. Det inbyggda"
+" färgdjupet i OpenColor IO, och därmed snabbare än 16-bitars flyttal i"
+" HDR-bilder, om inte mer krävande. På grund av flyttalsvariablers natur,"
+" 32-bitars flyttal är ungefär lika med 23-24 bitars precision per kanal"
+" (16777216 värden per kanal i intervallet 0-1), men med ett mycket större"
+" intervall (det kan vara mycket större än 1), nödvändigt för HDR eller"
+" scenbaserade bilder, och kallas ofta för 'enkel precision'."
 
 #: ../../general_concepts/colors/bit_depth.rst:64
 msgid "32bit float"
@@ -207,6 +256,8 @@ msgid ""
 "This is important if you have a working color space that is larger than your "
 "device space: At the least, if you do not want color banding."
 msgstr ""
+"Det är viktigt om man har en arbetsrymd som är större än enhetens färgrymd:"
+" Åtminstone om man vill undvika färgbandning."
 
 #: ../../general_concepts/colors/bit_depth.rst:68
 msgid ""
@@ -214,3 +265,8 @@ msgid ""
 "quickly take up your RAM. Therefore, it's important to consider which bit "
 "depth you will use for what kind of image."
 msgstr ""
+"Och även om man kan försöka skapa alla sina bilder med 32-bitars flyttal,"
+" använder det snabbt allt minne. Därför är det viktigt att tänka ut vilket"
+" bitdjup man ska använda för vilken sorts bild."
+
+

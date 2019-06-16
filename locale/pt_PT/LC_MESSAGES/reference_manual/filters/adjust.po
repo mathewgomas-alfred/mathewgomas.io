@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
 "PO-Revision-Date: 2019-06-11 09:59+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -301,10 +301,15 @@ msgstr ""
 "para tal as curvas."
 
 #: ../../reference_manual/filters/adjust.rst:113
+#, fuzzy
+#| msgid ""
+#| "These have been removed in Krita 4.0, because the Color Adjustment filter "
+#| "can do the same. Old files with brightness/contrast curves will be loaded "
+#| "as Color Adjustment curves"
 msgid ""
 "These have been removed in Krita 4.0, because the Color Adjustment filter "
 "can do the same. Old files with brightness/contrast curves will be loaded as "
-"Color Adjustment curves"
+"Color Adjustment curves."
 msgstr ""
 "Estas foram removidas no Krita 4.0, dado que o filtro de Ajuste de Cores "
 "pode fazer exactamente o mesmo. Os ficheiros antigos com as curvas de brilho/"
@@ -415,7 +420,9 @@ msgid "Max"
 msgstr "Máx"
 
 #: ../../reference_manual/filters/adjust.rst:145
-msgid "Adds all channels together to get a gray value"
+#, fuzzy
+#| msgid "Adds all channels together to get a gray value"
+msgid "Adds all channels together to get a gray value."
 msgstr "Adiciona todos os canais em conjunto para obter um valor de cinzento"
 
 #: ../../reference_manual/filters/adjust.rst:147

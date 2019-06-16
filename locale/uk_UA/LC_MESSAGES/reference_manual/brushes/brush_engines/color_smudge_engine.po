@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___brushes___brush_engines___color_smudge_engine\n"
+"Project-Id-Version: docs_krita_org_reference_manual___brushes___brush_engines_"
+"__color_smudge_engine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-06 07:11+0300\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 08:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -124,13 +124,16 @@ msgid "Color Rate"
 msgstr "Зміна кольорів"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:51
+#| msgid ""
+#| "How much of the foreground color is added to the smudging mix. Works "
+#| "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`"
 msgid ""
 "How much of the foreground color is added to the smudging mix. Works "
-"together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`"
+"together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`."
 msgstr ""
 "Визначає наскільки значним буде вплив кольору переднього плану на суміш, яку "
 "буде отримано у результаті розмазування. Працює разом із :ref:"
-"`option_smudge_length` та :ref:`option_smudge_radius`"
+"`option_smudge_length` та :ref:`option_smudge_radius`."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_colorrate_04.png"
@@ -305,10 +308,13 @@ msgid "Common behaviors:"
 msgstr "Загальна поведінка:"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:123
-msgid "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)"
+#| msgid ""
+#| "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)"
+msgid ""
+"Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)."
 msgstr ""
 "Зняття позначки з пункту зміни кольорів встановлює зміну розмазування у "
-"значення 1.00 (а не 0.00)"
+"значення 1.00 (а не 0.00)."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:124
 msgid ""
@@ -679,12 +685,15 @@ msgid "And/or Scatter:"
 msgstr "І/Або розсіювання"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
+#| msgid ""
+#| "Note that Scatter picks colors within a certain distance, not the color "
+#| "directly under the brush (see :ref:`option_brush_tip`)"
 msgid ""
 "Note that Scatter picks colors within a certain distance, not the color "
-"directly under the brush (see :ref:`option_brush_tip`)"
+"directly under the brush (see :ref:`option_brush_tip`)."
 msgstr ""
 "Зауважте, що у режимі розсіювання пензель використовує кольори на певній "
-"відстані, а не колір безпосередньо під пензлем (див. :ref:`option_brush_tip`)"
+"відстані, а не колір безпосередньо під пензлем (див. :ref:`option_brush_tip`)."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:242
 msgid ""
@@ -946,9 +955,12 @@ msgstr ""
 "вибрано три відтінки."
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:314
+#| msgid ""
+#| "I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then "
+#| "used them in succession"
 msgid ""
 "I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then "
-"used them in succession"
+"used them in succession."
 msgstr ""
 "Автор вибрав піпеткою кожне з цих значень за допомогою комбінації :kbd:"
 "`Ctrl` + |mouseleft|, а потім послідовно використав їх для плавних переходів."

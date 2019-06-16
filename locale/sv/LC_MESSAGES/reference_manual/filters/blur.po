@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 11:20+0100\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 08:24+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -41,11 +41,16 @@ msgid "Filters"
 msgstr "Filter"
 
 #: ../../reference_manual/filters/blur.rst:17
+#| msgid ""
+#| "The blur filters are used to smoothen out the hard edges and details in "
+#| "the images. The resulting image is blurry. below is an example of a "
+#| "blurred image. The image of Kiki on right is the result of blur filter "
+#| "applied to the image on left"
 msgid ""
 "The blur filters are used to smoothen out the hard edges and details in the "
 "images. The resulting image is blurry. below is an example of a blurred "
 "image. The image of Kiki on right is the result of blur filter applied to "
-"the image on left"
+"the image on left."
 msgstr ""
 "Oskärpefiltren används för att jämna ut skarpa kanter och detaljer på "
 "bilder. Den resulterande bilden är suddig. Nedan visas ett exempel på en "
@@ -90,7 +95,8 @@ msgid ".. image:: images/filters/Motion-blur.png"
 msgstr ".. image:: images/filters/Motion-blur.png"
 
 #: ../../reference_manual/filters/blur.rst:41
-msgid "This filter creates a regular blur"
+#| msgid "This filter creates a regular blur"
+msgid "This filter creates a regular blur."
 msgstr "Filtret skapar en vanlig oskärpa."
 
 #: ../../reference_manual/filters/blur.rst:44
@@ -104,3 +110,4 @@ msgstr "Linsoskärpa"
 #: ../../reference_manual/filters/blur.rst:48
 msgid "Lens Blur Algorithm."
 msgstr "Algoritm för linsoskärpa."
+

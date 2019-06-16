@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-05 03:40+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
 "PO-Revision-Date: 2019-03-08 12:02+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -18,6 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: toolrectangle icons Krita image kbd rectangletool\n"
 "X-POFile-SpellExtra: images alt Kritamouseleft mouseleft\n"
+
+#: ../../<generated>:1
+msgid "Ratio"
+msgstr "Taxa"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -117,7 +121,9 @@ msgid "Fill"
 msgstr "Preencher"
 
 #: ../../reference_manual/tools/rectangle.rst:37
-msgid "Not filled."
+#, fuzzy
+#| msgid "Not filled."
+msgid "Not filled"
 msgstr "Não preenchido."
 
 #: ../../reference_manual/tools/rectangle.rst:38
@@ -133,7 +139,9 @@ msgid "The rectangle will use the foreground color as fill."
 msgstr "O rectângulo irá usar a cor principal como preenchimento."
 
 #: ../../reference_manual/tools/rectangle.rst:41
-msgid "Background color."
+#, fuzzy
+#| msgid "Background color."
+msgid "Background color"
 msgstr "Cor de fundo."
 
 #: ../../reference_manual/tools/rectangle.rst:42
@@ -212,11 +220,7 @@ msgstr ""
 "Indica a altura actual. Use o cadeado para forçar a próxima selecção a ter "
 "esta altura."
 
-#: ../../reference_manual/tools/rectangle.rst:64
-msgid "Ratio"
-msgstr "Taxa"
-
-#: ../../reference_manual/tools/rectangle.rst:64
+#: ../../reference_manual/tools/rectangle.rst:66
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
@@ -224,18 +228,18 @@ msgstr ""
 "Indica a proporção de tamanho actual. Use o cadeado para forçar a próxima "
 "selecção a manter estas proporções."
 
-#: ../../reference_manual/tools/rectangle.rst:66
+#: ../../reference_manual/tools/rectangle.rst:68
 msgid "Round X"
 msgstr "Arredondamento em X"
 
-#: ../../reference_manual/tools/rectangle.rst:69
+#: ../../reference_manual/tools/rectangle.rst:70
 msgid "The horizontal radius of the rectangle corners."
 msgstr "O raio horizontal dos cantos rectangulares."
 
-#: ../../reference_manual/tools/rectangle.rst:71
+#: ../../reference_manual/tools/rectangle.rst:72
 msgid "Round Y"
 msgstr "Arredondamento em Y"
 
-#: ../../reference_manual/tools/rectangle.rst:73
+#: ../../reference_manual/tools/rectangle.rst:74
 msgid "The vertical radius of the rectangle corners."
 msgstr "O raio vertical dos cantos rectangulares."

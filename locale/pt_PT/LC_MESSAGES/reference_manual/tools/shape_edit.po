@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
 "PO-Revision-Date: 2019-05-20 00:56+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -181,12 +181,19 @@ msgstr ""
 "que têm."
 
 #: ../../reference_manual/tools/shape_edit.rst:36
+#, fuzzy
+#| msgid ""
+#| "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
+#| "straight lines, the nodes are connected by a line-segment and that's it. "
+#| "For curved lines, each node has a side handle to allow curving of that "
+#| "segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/"
+#| "wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
 msgid ""
 "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
 "straight lines, the nodes are connected by a line-segment and that's it. For "
 "curved lines, each node has a side handle to allow curving of that segment "
 "using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B"
-"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
+"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_."
 msgstr ""
 "Os caminhos no Krita são na grande maioria curvas Bézier e são compostas por "
 "nós. Para as linhas rectas, os nós estão ligados por um segmento de linha e "
@@ -395,9 +402,13 @@ msgstr ""
 "toolfreehandpath|"
 
 #: ../../reference_manual/tools/shape_edit.rst:95
+#, fuzzy
+#| msgid ""
+#| "Path shapes are the most common shape and can be made with the following "
+#| "tools"
 msgid ""
 "Path shapes are the most common shape and can be made with the following "
-"tools"
+"tools:"
 msgstr ""
 "As formas de caminhos são as formas mais comuns e podem ser criadas com as "
 "seguintes ferramentas"
@@ -591,13 +602,18 @@ msgid "Corner radius x"
 msgstr "Raio em X do canto"
 
 #: ../../reference_manual/tools/shape_edit.rst:145
-#: ../../reference_manual/tools/shape_edit.rst:147
-msgid "The radius of the y-axis of the corner curve."
+#, fuzzy
+#| msgid "The radius of the y-axis of the corner curve."
+msgid "The radius of the x-axis of the corner curve."
 msgstr "O raio do eixo dos Y da curva do canto."
 
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "Corner radius y"
 msgstr "Raio em Y do canto"
+
+#: ../../reference_manual/tools/shape_edit.rst:147
+msgid "The radius of the y-axis of the corner curve."
+msgstr "O raio do eixo dos Y da curva do canto."
 
 #: ../../reference_manual/tools/shape_edit.rst:150
 msgid "Ellipse Shapes"

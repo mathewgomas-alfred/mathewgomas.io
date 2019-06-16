@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-12 14:28+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 21:19+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../<generated>:1
 msgid "Close Ellipse"
@@ -174,12 +174,18 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../reference_manual/tools/shape_edit.rst:36
+#| msgid ""
+#| "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
+#| "straight lines, the nodes are connected by a line-segment and that's it. "
+#| "For curved lines, each node has a side handle to allow curving of that "
+#| "segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/"
+#| "wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
 msgid ""
 "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
 "straight lines, the nodes are connected by a line-segment and that's it. For "
 "curved lines, each node has a side handle to allow curving of that segment "
 "using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B"
-"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
+"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_."
 msgstr ""
 "Els camins al Krita majoritàriament són corbes de Bézier, i estan formades "
 "per nodes. Per a les línies rectes, els nodes estaran connectats per un "
@@ -389,9 +395,12 @@ msgstr ""
 "toolfreehandpath|"
 
 #: ../../reference_manual/tools/shape_edit.rst:95
+#| msgid ""
+#| "Path shapes are the most common shape and can be made with the following "
+#| "tools"
 msgid ""
 "Path shapes are the most common shape and can be made with the following "
-"tools"
+"tools:"
 msgstr ""
 "Les formes de camins són la forma més comuna i es poden crear amb les eines "
 "següents:"
@@ -586,13 +595,17 @@ msgid "Corner radius x"
 msgstr "X del radi del vèrtex"
 
 #: ../../reference_manual/tools/shape_edit.rst:145
-#: ../../reference_manual/tools/shape_edit.rst:147
-msgid "The radius of the y-axis of the corner curve."
-msgstr "El radi de l'eix «Y» de la corba de cantonada."
+#| msgid "The radius of the y-axis of the corner curve."
+msgid "The radius of the x-axis of the corner curve."
+msgstr "El radi de l'eix «X» de la corba de cantonada."
 
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "Corner radius y"
 msgstr "Y del radi del vèrtex"
+
+#: ../../reference_manual/tools/shape_edit.rst:147
+msgid "The radius of the y-axis of the corner curve."
+msgstr "El radi de l'eix «Y» de la corba de cantonada."
 
 #: ../../reference_manual/tools/shape_edit.rst:150
 msgid "Ellipse Shapes"

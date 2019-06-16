@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___blending_modes___darken\n"
+"Project-Id-Version: docs_krita_org_reference_manual___blending_modes___darken"
+"\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 20:32+0300\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 08:23+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../reference_manual/blending_modes/darken.rst:1
 msgid ""
@@ -65,12 +65,15 @@ msgstr ""
 "подібно до методики ефекту вигоряння у традиційному фотомистецтві."
 
 #: ../../reference_manual/blending_modes/darken.rst:30
+#| msgid ""
+#| "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
+#| "-0.2, -0.2) &rarr; Black(0, 0, 0)"
 msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
-"-0.2, -0.2) &rarr; Black(0, 0, 0)"
+"-0.2, -0.2) → Black(0, 0, 0)"
 msgstr ""
 "1_{[1_Темно-сірий(0.4, 0.4, 0.4)] / Світло-сірий(0.5, 0.5, 0.5)} = (-0.2, "
-"-0.2, -0.2) &rarr; Чорний(0, 0, 0)"
+"-0.2, -0.2) → Чорний(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:35
 msgid ""
@@ -87,12 +90,15 @@ msgid "Left: **Normal**. Right: **Burn**."
 msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Вигоряння**."
 
 #: ../../reference_manual/blending_modes/darken.rst:37
+#| msgid ""
+#| "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
+#| "(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
-"(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
+"(0.1608, 0.3749, -1.4448) → Green(0.1608, 0.3749, 0)"
 msgstr ""
 "1_{[1_Світло-синій(0.1608, 0.6274, 0.8274)] / Помаранчевий(1, 0.5961, "
-"0.0706)} = (0.1608, 0.3749, -1.4448) &rarr; Зелений(0.1608, 0.3749, 0)"
+"0.0706)} = (0.1608, 0.3749, -1.4448) → Зелений(0.1608, 0.3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:42
 msgid ""
@@ -182,12 +188,15 @@ msgstr ""
 "темнішими за кольори нижнього шару."
 
 #: ../../reference_manual/blending_modes/darken.rst:83
+#| msgid ""
+#| "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
+#| "(no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)"
 msgid ""
 "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
-"(no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)"
+"(no, no, no) → Darker Gray(0.4, 0.4, 0.4)"
 msgstr ""
 "Чи Світло-сірий(0.5, 0.5, 0.5) темніший за Темно-сірий(0.4, 0.4, 0.4)? = "
-"(ні, ні, ні) &rarr; Темно-сірий(0.4, 0.4, 0.4)"
+"(ні, ні, ні) → Темно-сірий(0.4, 0.4, 0.4)"
 
 #: ../../reference_manual/blending_modes/darken.rst:88
 msgid ""
@@ -204,12 +213,15 @@ msgid "Left: **Normal**. Right: **Darken**."
 msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Затемнення**."
 
 #: ../../reference_manual/blending_modes/darken.rst:90
+#| msgid ""
+#| "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, "
+#| "0.8274)? = (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)"
 msgid ""
 "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? "
-"= (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)"
+"= (no, yes, yes) → Green(0.1608, 0.5961, 0.0706)"
 msgstr ""
 "Чи Помаранчевий(1, 0.5961, 0.0706) темніший за Світло-синій(0.1608, 0.6274, "
-"0.8274)? = (ні, так, так) &rarr; Зелений(0.1608, 0.5961, 0.0706)"
+"0.8274)? = (ні, так, так) → Зелений(0.1608, 0.5961, 0.0706)"
 
 #: ../../reference_manual/blending_modes/darken.rst:95
 msgid ""
@@ -317,12 +329,15 @@ msgstr ""
 "Здається, дає той самий результат, що і :ref:`bm_inverse_subtract`."
 
 #: ../../reference_manual/blending_modes/darken.rst:148
+#| msgid ""
+#| "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
+#| "-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
 msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
-"-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
+"-0.1000, -0.1000)  → Black(0, 0, 0)"
 msgstr ""
 "[Темно-сірий(0.4, 0.4, 0.4) + Світло-сірий(0.5, 0.5, 0.5)]_1 = (-0.1000, "
-"-0.1000, -0.1000)  &rarr; Чорний(0, 0, 0)"
+"-0.1000, -0.1000) → Чорний(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:153
 msgid ""
@@ -339,12 +354,15 @@ msgid "Left: **Normal**. Right: **Linear Burn**."
 msgstr "Ліворуч: **звичайне змішування**. Праворуч: **Лінійне вигоряння**."
 
 #: ../../reference_manual/blending_modes/darken.rst:155
+#| msgid ""
+#| "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
+#| "(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
-"(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
+"(0.1608, 0.2235, -0.1020) → Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
 "[Світло-синій(0.1608, 0.6274, 0.8274) + Помаранчевий(1, 0.5961, 0.0706)]_1 = "
-"(0.1608, 0.2235, -0.1020) &rarr; Темно-зелений(0.1608, 0.2235, 0)"
+"(0.1608, 0.2235, -0.1020) → Темно-зелений(0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:160
 msgid ""

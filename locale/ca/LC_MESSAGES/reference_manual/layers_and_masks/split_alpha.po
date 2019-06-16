@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-06-05 12:02+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 21:06+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -90,7 +90,8 @@ msgstr "Feu |mouseright| sobre una capa de pintura a l'acoblador Capes."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:24
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:35
-msgid "Choose :menuselection:`Split Alpha --> Alpha into Mask`"
+#| msgid "Choose :menuselection:`Split Alpha --> Alpha into Mask`"
+msgid "Choose :menuselection:`Split Alpha --> Alpha into Mask`."
 msgstr ""
 "Escolliu :menuselection:`Divideix l'alfa --> Divideix l'alfa en una màscara`."
 
@@ -106,17 +107,23 @@ msgstr ""
 
 # skip-rule: ff-enter
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:26
+#| msgid ""
+#| "If you would like to isolate alpha channel, enter Isolated Mode by |"
+#| "mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)"
 msgid ""
 "If you would like to isolate alpha channel, enter Isolated Mode by |"
-"mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)"
+"mouseright| + :menuselection:`Isolate Layer` (or :kbd:`Alt` + |mouseleft|)."
 msgstr ""
 "Si voleu aïllar el canal alfa, entreu al mode Aïllat fent |mouseright| + :"
 "menuselection:`Aïlla la capa` (o :kbd:`Alt + feu` |mouseleft|)."
 
 #: ../../reference_manual/layers_and_masks/split_alpha.rst:27
+#| msgid ""
+#| "When finished editing the Transparency Mask, |mouseright| on it and "
+#| "select :menuselection:`Split Alpha --> Write as Alpha`"
 msgid ""
 "When finished editing the Transparency Mask, |mouseright| on it and select :"
-"menuselection:`Split Alpha --> Write as Alpha`"
+"menuselection:`Split Alpha --> Write as Alpha`."
 msgstr ""
 "Quan acabeu d'editar la màscara de transparència, feu |mouseright| sobre seu "
 "i seleccioneu :menuselection:`Divideix l'alfa --> Escriu com a alfa`."

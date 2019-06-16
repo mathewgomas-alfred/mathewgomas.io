@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
 "PO-Revision-Date: 2019-06-11 10:06+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -21,13 +21,13 @@ msgstr ""
 "X-POFile-SpellExtra: optionmirror optiontexture Photoshop Krita demão\n"
 "X-POFile-SpellExtra: optionratio pixelbrushengine optionscatter brushes\n"
 
-#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
-msgid ".. image:: images/brushes/Masking-brush1.jpg"
-msgstr ".. image:: images/brushes/Masking-brush1.jpg"
-
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:0
 msgid ".. image:: images/brushes/Masking-brush2.jpg"
 msgstr ".. image:: images/brushes/Masking-brush2.jpg"
+
+#: ../../reference_manual/brushes/brush_settings/masked_brush.rst:None
+msgid ".. image:: images/brushes/Masking-brush1.jpg"
+msgstr ".. image:: images/brushes/Masking-brush1.jpg"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:1
 msgid ""
@@ -161,7 +161,9 @@ msgstr ""
 "de baixar o valor dela."
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:53
-msgid "Difference from :ref:`option_texture`"
+#, fuzzy
+#| msgid "Difference from :ref:`option_texture`"
+msgid "Difference from :ref:`option_texture`:"
 msgstr "Diferença do :ref:`option_texture`"
 
 #: ../../reference_manual/brushes/brush_settings/masked_brush.rst:55

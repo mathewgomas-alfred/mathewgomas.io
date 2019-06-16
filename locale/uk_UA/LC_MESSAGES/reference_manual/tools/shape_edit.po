@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___shape_edit\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 11:25+0300\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 08:29+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Close Ellipse"
@@ -174,18 +174,24 @@ msgid "Path shapes can be recognized by the different nodes they have."
 msgstr "Форми контурів можна визначити за вузлами, з яких вони складаються."
 
 #: ../../reference_manual/tools/shape_edit.rst:36
+#| msgid ""
+#| "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
+#| "straight lines, the nodes are connected by a line-segment and that's it. "
+#| "For curved lines, each node has a side handle to allow curving of that "
+#| "segment using the `cubic bezier curve algorithm <https://en.wikipedia.org/"
+#| "wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
 msgid ""
 "Paths in Krita are mostly bezier curves, and are made up of nodes. For "
 "straight lines, the nodes are connected by a line-segment and that's it. For "
 "curved lines, each node has a side handle to allow curving of that segment "
 "using the `cubic bezier curve algorithm <https://en.wikipedia.org/wiki/B"
-"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
+"%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_."
 msgstr ""
 "Контури у Krita, здебільшого, є кривими Безьє і містять вузли. Для побудови "
 "прямої лінії достатньо двох вузлів-кінців. У кривих сегментів кожен вузол "
 "має бічний елемент керування, за допомогою якого можна викривляти сегмент з "
 "використанням `алгоритму побудови кубічної кривої Безьє <https://en."
-"wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_ ."
+"wikipedia.org/wiki/B%C3%A9zier_curve#/media/File:B%C3%A9zier_3_big.gif>`_."
 
 #: ../../reference_manual/tools/shape_edit.rst:38
 msgid ""
@@ -390,9 +396,12 @@ msgstr ""
 "toolfreehandpath|"
 
 #: ../../reference_manual/tools/shape_edit.rst:95
+#| msgid ""
+#| "Path shapes are the most common shape and can be made with the following "
+#| "tools"
 msgid ""
 "Path shapes are the most common shape and can be made with the following "
-"tools"
+"tools:"
 msgstr ""
 "Форми контурів є найпоширенішим типом форм. Їх можна створити за допомогою "
 "вказаних нижче інструментів."
@@ -588,13 +597,17 @@ msgid "Corner radius x"
 msgstr "Радіус кута за x"
 
 #: ../../reference_manual/tools/shape_edit.rst:145
-#: ../../reference_manual/tools/shape_edit.rst:147
-msgid "The radius of the y-axis of the corner curve."
+#| msgid "The radius of the y-axis of the corner curve."
+msgid "The radius of the x-axis of the corner curve."
 msgstr "Радіус за віссю y кривої у куті."
 
 #: ../../reference_manual/tools/shape_edit.rst:147
 msgid "Corner radius y"
 msgstr "Радіус кута за y"
+
+#: ../../reference_manual/tools/shape_edit.rst:147
+msgid "The radius of the y-axis of the corner curve."
+msgstr "Радіус за віссю y кривої у куті."
 
 #: ../../reference_manual/tools/shape_edit.rst:150
 msgid "Ellipse Shapes"

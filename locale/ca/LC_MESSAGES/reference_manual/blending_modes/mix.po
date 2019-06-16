@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-10 21:26+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 19:48+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../reference_manual/blending_modes/mix.rst:None
 msgid ".. image:: images/blending_modes/mix/Greaterblendmode.gif"
@@ -45,14 +45,17 @@ msgid "Allanon"
 msgstr "Allanon"
 
 #: ../../reference_manual/blending_modes/mix.rst:24
+#| msgid ""
+#| "Blends the upper layer as half-transparent with the lower. (It add the "
+#| "two layers together and then halves the value)"
 msgid ""
 "Blends the upper layer as half-transparent with the lower. (It add the two "
-"layers together and then halves the value)"
+"layers together and then halves the value)."
 msgstr ""
 "Barreja la capa superior com a mig transparent amb la inferior. (Afegeix les "
 "dues capes juntes i després divideix el valor a la meitat)."
 
-#: ../../reference_manual/blending_modes/mix.rst:30
+#: ../../reference_manual/blending_modes/mix.rst:29
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Allanon_Sample_image_with_dots.png"
@@ -60,16 +63,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Allanon_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:30
+#: ../../reference_manual/blending_modes/mix.rst:29
 msgid "Left: **Normal**. Right: **Allanon**."
 msgstr "Esquerra: **Normal**. Dreta: **Allanon**."
 
-#: ../../reference_manual/blending_modes/mix.rst:32
-#: ../../reference_manual/blending_modes/mix.rst:36
+#: ../../reference_manual/blending_modes/mix.rst:31
+#: ../../reference_manual/blending_modes/mix.rst:35
 msgid "Interpolation"
 msgstr "Interpolació"
 
-#: ../../reference_manual/blending_modes/mix.rst:38
+#: ../../reference_manual/blending_modes/mix.rst:37
 msgid ""
 "Subtract 0.5f by 1/4 of cosine of base layer subtracted by 1/4 of cosine of "
 "blend layer assuming 0-1 range. The result is similar to Allanon mode, but "
@@ -80,7 +83,7 @@ msgstr ""
 "similar al mode Allanon, però amb més contrast i diferència funcional al 50% "
 "de l'opacitat."
 
-#: ../../reference_manual/blending_modes/mix.rst:44
+#: ../../reference_manual/blending_modes/mix.rst:43
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_Sample_image_with_dots.png"
@@ -88,19 +91,19 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:44
+#: ../../reference_manual/blending_modes/mix.rst:43
 msgid "Left: **Normal**. Right: **Interpolation**."
 msgstr "Esquerra: **Normal**. Dreta: **Interpolació**."
 
-#: ../../reference_manual/blending_modes/mix.rst:46
+#: ../../reference_manual/blending_modes/mix.rst:45
 msgid "Interpolation2x"
 msgstr "Interpolació - 2X"
 
-#: ../../reference_manual/blending_modes/mix.rst:50
+#: ../../reference_manual/blending_modes/mix.rst:49
 msgid "Interpolation - 2X"
 msgstr "Interpolació - 2X"
 
-#: ../../reference_manual/blending_modes/mix.rst:52
+#: ../../reference_manual/blending_modes/mix.rst:51
 msgid ""
 "Applies Interpolation blend mode to base and blend layers, then duplicate to "
 "repeat interpolation blending."
@@ -108,7 +111,7 @@ msgstr ""
 "Aplica el mode de barreja Interpolació a les capes base i de la barreja, "
 "després es duplica per a repetir la barreja per interpolació."
 
-#: ../../reference_manual/blending_modes/mix.rst:57
+#: ../../reference_manual/blending_modes/mix.rst:56
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_X2_Sample_image_with_dots.png"
@@ -116,16 +119,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Interpolation_X2_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:57
+#: ../../reference_manual/blending_modes/mix.rst:56
 msgid "Left: **Normal**. Right: **Interpolation - 2X**."
 msgstr "Esquerra: **Normal**. Dreta: **Interpolació - 2X**."
 
-#: ../../reference_manual/blending_modes/mix.rst:59
-#: ../../reference_manual/blending_modes/mix.rst:63
+#: ../../reference_manual/blending_modes/mix.rst:58
+#: ../../reference_manual/blending_modes/mix.rst:62
 msgid "Alpha Darken"
 msgstr "Enfosquiment alfa"
 
-#: ../../reference_manual/blending_modes/mix.rst:65
+#: ../../reference_manual/blending_modes/mix.rst:64
 msgid ""
 "As far as I can tell this seems to premultiply the alpha, as is common in "
 "some file-formats."
@@ -133,7 +136,7 @@ msgstr ""
 "Pel que puc dir, això sembla premultiplicar l'alfa, com és comú en alguns "
 "formats de fitxer."
 
-#: ../../reference_manual/blending_modes/mix.rst:70
+#: ../../reference_manual/blending_modes/mix.rst:69
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
@@ -141,16 +144,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Alpha_Darken_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:70
+#: ../../reference_manual/blending_modes/mix.rst:69
 msgid "Left: **Normal**. Right: **Alpha Darken**."
 msgstr "Esquerra: **Normal**. Dreta: **Enfosquiment alfa**."
 
-#: ../../reference_manual/blending_modes/mix.rst:72
-#: ../../reference_manual/blending_modes/mix.rst:76
+#: ../../reference_manual/blending_modes/mix.rst:71
+#: ../../reference_manual/blending_modes/mix.rst:75
 msgid "Behind"
 msgstr "Darrere"
 
-#: ../../reference_manual/blending_modes/mix.rst:78
+#: ../../reference_manual/blending_modes/mix.rst:77
 msgid ""
 "Does the opposite of normal, and tries to have the upper layer rendered "
 "below the lower layer."
@@ -158,7 +161,7 @@ msgstr ""
 "Fa el contrari del que és normal, i intenta que la capa superior es "
 "renderitzi a sota de la capa inferior."
 
-#: ../../reference_manual/blending_modes/mix.rst:83
+#: ../../reference_manual/blending_modes/mix.rst:82
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Behind_Sample_image_with_dots.png"
@@ -166,19 +169,19 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Behind_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:83
+#: ../../reference_manual/blending_modes/mix.rst:82
 msgid "Left: **Normal**. Right: **Behind**."
 msgstr "Esquerra: **Normal**. Dreta: **Darrere**."
 
-#: ../../reference_manual/blending_modes/mix.rst:85
+#: ../../reference_manual/blending_modes/mix.rst:84
 msgid "Erase (Blending Mode)"
 msgstr "Esborra (mode de barreja)"
 
-#: ../../reference_manual/blending_modes/mix.rst:89
+#: ../../reference_manual/blending_modes/mix.rst:88
 msgid "Erase"
 msgstr "Esborra"
 
-#: ../../reference_manual/blending_modes/mix.rst:91
+#: ../../reference_manual/blending_modes/mix.rst:90
 msgid ""
 "This subtracts the opaque pixels of the upper layer from the lower layer, "
 "effectively erasing."
@@ -186,7 +189,7 @@ msgstr ""
 "Això sostreu els píxels opacs de la capa superior de la capa inferior, "
 "esborrant-los de manera efectiva."
 
-#: ../../reference_manual/blending_modes/mix.rst:96
+#: ../../reference_manual/blending_modes/mix.rst:95
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Erase_Sample_image_with_dots.png"
@@ -194,16 +197,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Erase_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:96
+#: ../../reference_manual/blending_modes/mix.rst:95
 msgid "Left: **Normal**. Right: **Erase**."
 msgstr "Esquerra: **Normal**. Dreta: **Esborra**."
 
-#: ../../reference_manual/blending_modes/mix.rst:98
-#: ../../reference_manual/blending_modes/mix.rst:102
+#: ../../reference_manual/blending_modes/mix.rst:97
+#: ../../reference_manual/blending_modes/mix.rst:101
 msgid "Geometric Mean"
 msgstr "Mitjana geomètrica"
 
-#: ../../reference_manual/blending_modes/mix.rst:104
+#: ../../reference_manual/blending_modes/mix.rst:103
 msgid ""
 "This blending mode multiplies the top layer with the bottom, and then "
 "outputs the square root of that."
@@ -211,7 +214,7 @@ msgstr ""
 "Aquest mode de barreja multiplica la capa superior amb la inferior i després "
 "genera l'arrel quadrada."
 
-#: ../../reference_manual/blending_modes/mix.rst:109
+#: ../../reference_manual/blending_modes/mix.rst:108
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
@@ -219,16 +222,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Geometric_Mean_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:109
+#: ../../reference_manual/blending_modes/mix.rst:108
 msgid "Left: **Normal**. Right: **Geometric Mean**."
 msgstr "Esquerra: **Normal**. Dreta: **Mitjana geomètrica**."
 
-#: ../../reference_manual/blending_modes/mix.rst:111
-#: ../../reference_manual/blending_modes/mix.rst:115
+#: ../../reference_manual/blending_modes/mix.rst:110
+#: ../../reference_manual/blending_modes/mix.rst:114
 msgid "Grain Extract"
 msgstr "Extracció de gra"
 
-#: ../../reference_manual/blending_modes/mix.rst:117
+#: ../../reference_manual/blending_modes/mix.rst:116
 msgid ""
 "Similar to subtract, the colors of the upper layer are subtracted from the "
 "colors of the lower layer, and then 50% gray is added."
@@ -236,7 +239,7 @@ msgstr ""
 "Similar al Sostreu, els colors de la capa superior es restaran dels colors "
 "de la capa inferior, i després s'hi afegirà un 50% de gris."
 
-#: ../../reference_manual/blending_modes/mix.rst:122
+#: ../../reference_manual/blending_modes/mix.rst:121
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Extract_Sample_image_with_dots.png"
@@ -244,16 +247,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Extract_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:122
+#: ../../reference_manual/blending_modes/mix.rst:121
 msgid "Left: **Normal**. Right: **Grain Extract**."
 msgstr "Esquerra: **Normal**. Dreta: **Extracció de gra**."
 
-#: ../../reference_manual/blending_modes/mix.rst:124
-#: ../../reference_manual/blending_modes/mix.rst:128
+#: ../../reference_manual/blending_modes/mix.rst:123
+#: ../../reference_manual/blending_modes/mix.rst:127
 msgid "Grain Merge"
 msgstr "Fusió de gra"
 
-#: ../../reference_manual/blending_modes/mix.rst:130
+#: ../../reference_manual/blending_modes/mix.rst:129
 msgid ""
 "Similar to addition, the colors of the upper layer are added to the colors, "
 "and then 50% gray is subtracted."
@@ -261,7 +264,7 @@ msgstr ""
 "Similar a l'Addició, els colors de la capa superior s'afegiran als colors de "
 "la capa inferior, i després s'hi restarà un 50% de gris."
 
-#: ../../reference_manual/blending_modes/mix.rst:135
+#: ../../reference_manual/blending_modes/mix.rst:134
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Merge_Sample_image_with_dots.png"
@@ -269,19 +272,19 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Grain_Merge_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:135
+#: ../../reference_manual/blending_modes/mix.rst:134
 msgid "Left: **Normal**. Right: **Grain Merge**."
 msgstr "Esquerra: **Normal**. Dreta: **Fusió de gra**."
 
-#: ../../reference_manual/blending_modes/mix.rst:137
+#: ../../reference_manual/blending_modes/mix.rst:136
 msgid "Greater (Blending Mode)"
 msgstr "Engrandeix (mode de barreja)"
 
-#: ../../reference_manual/blending_modes/mix.rst:141
+#: ../../reference_manual/blending_modes/mix.rst:140
 msgid "Greater"
 msgstr "Engrandeix"
 
-#: ../../reference_manual/blending_modes/mix.rst:143
+#: ../../reference_manual/blending_modes/mix.rst:142
 msgid ""
 "A blending mode which checks whether the painted color is painted with a "
 "higher opacity than the existing colors. If so, it paints over them, if not, "
@@ -291,16 +294,16 @@ msgstr ""
 "opacitat més alta que els colors existents. Si és així, pinta sobre seu, si "
 "no, no pinta res."
 
-#: ../../reference_manual/blending_modes/mix.rst:148
-#: ../../reference_manual/blending_modes/mix.rst:152
+#: ../../reference_manual/blending_modes/mix.rst:147
+#: ../../reference_manual/blending_modes/mix.rst:151
 msgid "Hard Mix"
 msgstr "Barreja forta"
 
-#: ../../reference_manual/blending_modes/mix.rst:154
+#: ../../reference_manual/blending_modes/mix.rst:153
 msgid "Similar to Overlay."
 msgstr "Similar a la Superposició."
 
-#: ../../reference_manual/blending_modes/mix.rst:156
+#: ../../reference_manual/blending_modes/mix.rst:155
 msgid ""
 "Mixes both Color Dodge and Burn blending modes. If the color of the upper "
 "layer is darker than 50%, the blending mode will be Burn, if not the "
@@ -310,7 +313,7 @@ msgstr ""
 "color de la capa superior és més fosc que el 50%, el mode de barreja serà "
 "Cremat del color, d'altra manera el mode de barreja serà Esvaïment del color."
 
-#: ../../reference_manual/blending_modes/mix.rst:162
+#: ../../reference_manual/blending_modes/mix.rst:161
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Mix_Sample_image_with_dots.png"
@@ -318,25 +321,25 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Mix_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:162
+#: ../../reference_manual/blending_modes/mix.rst:161
 msgid "Left: **Normal**. Right: **Hard Mix**."
 msgstr "Esquerra: **Normal**. Dreta: **Barreja forta**."
 
-#: ../../reference_manual/blending_modes/mix.rst:167
+#: ../../reference_manual/blending_modes/mix.rst:166
 msgid "Hard Mix (Photoshop)"
 msgstr "Barreja forta (Photoshop)"
 
-#: ../../reference_manual/blending_modes/mix.rst:169
+#: ../../reference_manual/blending_modes/mix.rst:168
 msgid "This is the hard mix blending mode as it is implemented in photoshop."
 msgstr ""
 "Aquest és el mode de barreja «Barreja forta» tal com està implementat al "
 "Photoshop."
 
-#: ../../reference_manual/blending_modes/mix.rst:175
+#: ../../reference_manual/blending_modes/mix.rst:174
 msgid ".. image:: images/blending_modes/mix/Krita_4_0_hard_mix_ps.png"
 msgstr ".. image:: images/blending_modes/mix/Krita_4_0_hard_mix_ps.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:175
+#: ../../reference_manual/blending_modes/mix.rst:174
 msgid ""
 "**Left**: Dots are mixed in with the normal blending mode, on the **Right**: "
 "Dots are mixed in with hardmix."
@@ -344,7 +347,7 @@ msgstr ""
 "**Esquerra**: Els punts es mesclen amb el mode de barreja normal. **Dreta**: "
 "Els punts es mesclen amb la Barreja forta."
 
-#: ../../reference_manual/blending_modes/mix.rst:177
+#: ../../reference_manual/blending_modes/mix.rst:176
 msgid ""
 "This add the two values, and then checks if the value is above the maximum. "
 "If so it will output the maximum, otherwise the minimum."
@@ -352,15 +355,15 @@ msgstr ""
 "Això afegeix els dos valors i després verifica si el valor està per sobre "
 "del màxim. Si és així emetrà el màxim, en cas contrari el mínim."
 
-#: ../../reference_manual/blending_modes/mix.rst:179
+#: ../../reference_manual/blending_modes/mix.rst:178
 msgid "Hard OVerlay"
 msgstr "Superposició forta"
 
-#: ../../reference_manual/blending_modes/mix.rst:183
+#: ../../reference_manual/blending_modes/mix.rst:182
 msgid "Hard Overlay"
 msgstr "Superposició forta"
 
-#: ../../reference_manual/blending_modes/mix.rst:187
+#: ../../reference_manual/blending_modes/mix.rst:186
 msgid ""
 "Similar to Hard light but hard light use Screen when the value is above 50%. "
 "Divide gives better results than Screen, especially on floating point images."
@@ -369,7 +372,7 @@ msgstr ""
 "sobre del 50%-. Dividir dóna millors resultats que Pantalla, especialment en "
 "imatges amb coma flotant."
 
-#: ../../reference_manual/blending_modes/mix.rst:192
+#: ../../reference_manual/blending_modes/mix.rst:191
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
@@ -377,30 +380,30 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Hard_Overlay_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:192
+#: ../../reference_manual/blending_modes/mix.rst:191
 msgid "Left: **Normal**. Right: **Hard Overlay**."
 msgstr "Esquerra: **Normal**. Dreta: **Superposició forta**."
 
-#: ../../reference_manual/blending_modes/mix.rst:194
+#: ../../reference_manual/blending_modes/mix.rst:193
 msgid "Normal (Blending Mode)"
 msgstr "Normal (mode de barreja)"
 
-#: ../../reference_manual/blending_modes/mix.rst:194
+#: ../../reference_manual/blending_modes/mix.rst:193
 msgid "Source Over"
 msgstr "Sobre l'origen"
 
-#: ../../reference_manual/blending_modes/mix.rst:198
+#: ../../reference_manual/blending_modes/mix.rst:197
 msgid "Normal"
 msgstr "Normal"
 
-#: ../../reference_manual/blending_modes/mix.rst:200
+#: ../../reference_manual/blending_modes/mix.rst:199
 msgid ""
 "As you may have guessed this is the default Blending mode for all layers."
 msgstr ""
 "Com haureu endevinat, aquest és el mode de barreja predeterminat per a totes "
 "les capes."
 
-#: ../../reference_manual/blending_modes/mix.rst:202
+#: ../../reference_manual/blending_modes/mix.rst:201
 msgid ""
 "In this mode, the computer checks on the upper layer how transparent a pixel "
 "is, which color it is, and then mixes the color of the upper layer with the "
@@ -410,7 +413,7 @@ msgstr ""
 "capa superior, quin és el color i després barrejarà el color de la capa "
 "superior amb la capa inferior de manera proporcional a la transparència."
 
-#: ../../reference_manual/blending_modes/mix.rst:207
+#: ../../reference_manual/blending_modes/mix.rst:206
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
@@ -418,20 +421,20 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Normal_50_Opacity_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:207
+#: ../../reference_manual/blending_modes/mix.rst:206
 msgid "Left: **Normal** 100% Opacity. Right: **Normal** 50% Opacity."
 msgstr ""
 "Esquerra: **Normal** 100% d'opacitat. Dreta: **Normal** 50% d'opacitat."
 
-#: ../../reference_manual/blending_modes/mix.rst:209
+#: ../../reference_manual/blending_modes/mix.rst:208
 msgid "Overlay (Blending Mode)"
 msgstr "Superposició (mode de barreja)"
 
-#: ../../reference_manual/blending_modes/mix.rst:213
+#: ../../reference_manual/blending_modes/mix.rst:212
 msgid "Overlay"
 msgstr "Superposició"
 
-#: ../../reference_manual/blending_modes/mix.rst:215
+#: ../../reference_manual/blending_modes/mix.rst:214
 msgid ""
 "A combination of the Multiply and Screen blending modes, switching between "
 "both at a middle-lightness."
@@ -439,7 +442,7 @@ msgstr ""
 "Una combinació dels modes de barreja Multiplica i Pantalla, canviant entre "
 "tots dos en una claredat mitjana."
 
-#: ../../reference_manual/blending_modes/mix.rst:217
+#: ../../reference_manual/blending_modes/mix.rst:216
 msgid ""
 "Overlay checks if the color on the upperlayer has a lightness above 0.5. If "
 "so, the pixel is blended like in Screen mode, if not the pixel is blended "
@@ -449,11 +452,11 @@ msgstr ""
 "superior al 0,5. Si és així, el píxel es barrejarà com en el mode Pantalla, "
 "d'altra manera es barrejarà com en el mode Multiplica."
 
-#: ../../reference_manual/blending_modes/mix.rst:219
+#: ../../reference_manual/blending_modes/mix.rst:218
 msgid "This is useful for deepening shadows and highlights."
 msgstr "Això és útil per aprofundir en les ombres i les llums intenses."
 
-#: ../../reference_manual/blending_modes/mix.rst:224
+#: ../../reference_manual/blending_modes/mix.rst:223
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Overlay_Sample_image_with_dots.png"
@@ -461,16 +464,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Overlay_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:224
+#: ../../reference_manual/blending_modes/mix.rst:223
 msgid "Left: **Normal**. Right: **Overlay**."
 msgstr "Esquerra: **Normal**. Dreta: **Superposició**."
 
-#: ../../reference_manual/blending_modes/mix.rst:226
-#: ../../reference_manual/blending_modes/mix.rst:230
+#: ../../reference_manual/blending_modes/mix.rst:225
+#: ../../reference_manual/blending_modes/mix.rst:229
 msgid "Parallel"
 msgstr "Paral·lel"
 
-#: ../../reference_manual/blending_modes/mix.rst:232
+#: ../../reference_manual/blending_modes/mix.rst:231
 msgid ""
 "This one first takes the percentage in two decimal behind the comma for both "
 "layers. It then adds the two values. Divides 2 by the sum."
@@ -479,7 +482,7 @@ msgstr ""
 "coma per a ambdues capes. Després afegirà els dos valors. Divideix 2 per la "
 "suma."
 
-#: ../../reference_manual/blending_modes/mix.rst:239
+#: ../../reference_manual/blending_modes/mix.rst:238
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Parallel_Sample_image_with_dots.png"
@@ -487,16 +490,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Parallel_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:239
+#: ../../reference_manual/blending_modes/mix.rst:238
 msgid "Left: **Normal**. Right: **Parallel**."
 msgstr "Esquerra: **Normal**. Dreta: **Paral·lel**."
 
-#: ../../reference_manual/blending_modes/mix.rst:241
-#: ../../reference_manual/blending_modes/mix.rst:245
+#: ../../reference_manual/blending_modes/mix.rst:240
+#: ../../reference_manual/blending_modes/mix.rst:244
 msgid "Penumbra A"
 msgstr "Penombra A"
 
-#: ../../reference_manual/blending_modes/mix.rst:247
+#: ../../reference_manual/blending_modes/mix.rst:246
 msgid ""
 "Creates a linear penumbra falloff. This means most tones will be in the "
 "midtone ranges."
@@ -504,7 +507,7 @@ msgstr ""
 "Crea un decaïment lineal de la penombra. Això vol dir que la majoria dels "
 "tons estaran en els intervals dels tons mitjans."
 
-#: ../../reference_manual/blending_modes/mix.rst:252
+#: ../../reference_manual/blending_modes/mix.rst:251
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_A_Sample_image_with_dots.png"
@@ -512,20 +515,20 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_A_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:252
+#: ../../reference_manual/blending_modes/mix.rst:251
 msgid "Left: **Normal**. Right: **Penumbra A**."
 msgstr "Esquerra: **Normal**. Dreta: **Penombra A**."
 
-#: ../../reference_manual/blending_modes/mix.rst:254
-#: ../../reference_manual/blending_modes/mix.rst:258
+#: ../../reference_manual/blending_modes/mix.rst:253
+#: ../../reference_manual/blending_modes/mix.rst:257
 msgid "Penumbra B"
 msgstr "Penombra B"
 
-#: ../../reference_manual/blending_modes/mix.rst:260
+#: ../../reference_manual/blending_modes/mix.rst:259
 msgid "Penumbra A with source and destination layer swapped."
 msgstr "La Penombra A amb la capa d'origen i la de destinació intercanviades."
 
-#: ../../reference_manual/blending_modes/mix.rst:265
+#: ../../reference_manual/blending_modes/mix.rst:264
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_B_Sample_image_with_dots.png"
@@ -533,16 +536,16 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_B_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:265
+#: ../../reference_manual/blending_modes/mix.rst:264
 msgid "Left: **Normal**. Right: **Penumbra B**."
 msgstr "Esquerra: **Normal**. Dreta: **Penombra B**."
 
-#: ../../reference_manual/blending_modes/mix.rst:267
-#: ../../reference_manual/blending_modes/mix.rst:271
+#: ../../reference_manual/blending_modes/mix.rst:266
+#: ../../reference_manual/blending_modes/mix.rst:270
 msgid "Penumbra C"
 msgstr "Penombra C"
 
-#: ../../reference_manual/blending_modes/mix.rst:273
+#: ../../reference_manual/blending_modes/mix.rst:272
 msgid ""
 "Creates a penumbra-like falloff using arc-tangent formula. This means most "
 "tones will be in the midtone ranges."
@@ -551,7 +554,7 @@ msgstr ""
 "Això vol dir que la majoria dels tons estaran en els intervals dels tons "
 "mitjans."
 
-#: ../../reference_manual/blending_modes/mix.rst:278
+#: ../../reference_manual/blending_modes/mix.rst:277
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_C_Sample_image_with_dots.png"
@@ -559,20 +562,20 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_C_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:278
+#: ../../reference_manual/blending_modes/mix.rst:277
 msgid "Left: **Normal**. Right: **Penumbra C**."
 msgstr "Esquerra: **Normal**. Dreta: **Penombra C**."
 
-#: ../../reference_manual/blending_modes/mix.rst:280
-#: ../../reference_manual/blending_modes/mix.rst:284
+#: ../../reference_manual/blending_modes/mix.rst:279
+#: ../../reference_manual/blending_modes/mix.rst:283
 msgid "Penumbra D"
 msgstr "Penombra D"
 
-#: ../../reference_manual/blending_modes/mix.rst:286
+#: ../../reference_manual/blending_modes/mix.rst:285
 msgid "Penumbra C with source and destination layer swapped."
 msgstr "La Penombra C amb la capa d'origen i la de destinació intercanviades."
 
-#: ../../reference_manual/blending_modes/mix.rst:291
+#: ../../reference_manual/blending_modes/mix.rst:290
 msgid ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_D_Sample_image_with_dots.png"
@@ -580,6 +583,6 @@ msgstr ""
 ".. image:: images/blending_modes/mix/"
 "Blending_modes_Penumbra_D_Sample_image_with_dots.png"
 
-#: ../../reference_manual/blending_modes/mix.rst:291
+#: ../../reference_manual/blending_modes/mix.rst:290
 msgid "Left: **Normal**. Right: **Penumbra D**."
 msgstr "Esquerra: **Normal**. Dreta: **Penombra D**."

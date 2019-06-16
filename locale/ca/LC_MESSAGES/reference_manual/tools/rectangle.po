@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-05 03:40+0200\n"
-"PO-Revision-Date: 2019-06-08 10:53+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 21:03+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
+
+#: ../../<generated>:1
+msgid "Ratio"
+msgstr "Relació"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -117,8 +121,9 @@ msgid "Fill"
 msgstr "Emplenat"
 
 #: ../../reference_manual/tools/rectangle.rst:37
-msgid "Not filled."
-msgstr "Sense emplenar."
+#| msgid "Not filled."
+msgid "Not filled"
+msgstr "Sense emplenar"
 
 #: ../../reference_manual/tools/rectangle.rst:38
 msgid "The rectangle will be transparent from the inside."
@@ -133,8 +138,9 @@ msgid "The rectangle will use the foreground color as fill."
 msgstr "El rectangle utilitzarà el color de primer pla com a emplenat."
 
 #: ../../reference_manual/tools/rectangle.rst:41
-msgid "Background color."
-msgstr "Color de fons."
+#| msgid "Background color."
+msgid "Background color"
+msgstr "Color de fons"
 
 #: ../../reference_manual/tools/rectangle.rst:42
 msgid "The rectangle will use the background color as fill."
@@ -212,11 +218,7 @@ msgstr ""
 "Dóna l'alçada actual. Utilitzeu el bloqueig per a forçar que la següent "
 "selecció es realitzi amb aquesta alçada."
 
-#: ../../reference_manual/tools/rectangle.rst:64
-msgid "Ratio"
-msgstr "Relació"
-
-#: ../../reference_manual/tools/rectangle.rst:64
+#: ../../reference_manual/tools/rectangle.rst:66
 msgid ""
 "Gives the current ratio. Use the lock to force the next selection made to "
 "this ratio."
@@ -224,18 +226,18 @@ msgstr ""
 "Dóna la proporció actual. Utilitzeu el bloqueig per a forçar que la següent "
 "selecció es realitzi amb aquesta proporció."
 
-#: ../../reference_manual/tools/rectangle.rst:66
+#: ../../reference_manual/tools/rectangle.rst:68
 msgid "Round X"
 msgstr "Arrodoniment de X"
 
-#: ../../reference_manual/tools/rectangle.rst:69
+#: ../../reference_manual/tools/rectangle.rst:70
 msgid "The horizontal radius of the rectangle corners."
 msgstr "El radi horitzontal de les cantonades del rectangle."
 
-#: ../../reference_manual/tools/rectangle.rst:71
+#: ../../reference_manual/tools/rectangle.rst:72
 msgid "Round Y"
 msgstr "Arrodoniment de Y"
 
-#: ../../reference_manual/tools/rectangle.rst:73
+#: ../../reference_manual/tools/rectangle.rst:74
 msgid "The vertical radius of the rectangle corners."
 msgstr "El radi vertical de les cantonades del rectangle."

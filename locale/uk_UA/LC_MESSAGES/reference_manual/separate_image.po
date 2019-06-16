@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___separate_image\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-06 07:08+0300\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 08:30+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Output to color, not grayscale."
@@ -72,8 +72,9 @@ msgid "Source"
 msgstr "Джерело"
 
 #: ../../reference_manual/separate_image.rst:25
-msgid "Flatten all layers before separation."
-msgstr "Об'єднати всі шари перед розбиранням."
+#| msgid "Flatten all layers before separation."
+msgid "Flatten all layers before separation"
+msgstr "Об'єднати всі шари перед розбиранням"
 
 #: ../../reference_manual/separate_image.rst:25
 msgid "The total image."
@@ -113,8 +114,9 @@ msgid "Alpha Options"
 msgstr "Параметри альфи"
 
 #: ../../reference_manual/separate_image.rst:35
-msgid "Create separate separation from alpha channel."
-msgstr "Створити поділ, відокремлений від альфа-каналу."
+#| msgid "Create separate separation from alpha channel."
+msgid "Create separate separation from alpha channel"
+msgstr "Створити поділ, відокремлений від альфа-каналу"
 
 #: ../../reference_manual/separate_image.rst:35
 msgid "Create a separate layer with the alpha channel as a grayscale layer."

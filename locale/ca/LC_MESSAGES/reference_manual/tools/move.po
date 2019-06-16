@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 03:18+0200\n"
-"PO-Revision-Date: 2019-06-11 20:38+0200\n"
+"POT-Creation-Date: 2019-06-15 03:16+0200\n"
+"PO-Revision-Date: 2019-06-15 21:09+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../<generated>:1
 msgid "Position"
@@ -72,7 +72,8 @@ msgid "Move current layer"
 msgstr "Mou la capa actual"
 
 #: ../../reference_manual/tools/move.rst:23
-msgid "Anything that is on the selected layer will be moved"
+#| msgid "Anything that is on the selected layer will be moved"
+msgid "Anything that is on the selected layer will be moved."
 msgstr "Es mourà qualsevol cosa que es trobi a la capa seleccionada."
 
 #: ../../reference_manual/tools/move.rst:24
@@ -80,9 +81,12 @@ msgid "Move layer with content"
 msgstr "Mou la capa amb contingut"
 
 #: ../../reference_manual/tools/move.rst:25
+#| msgid ""
+#| "Any content contained on the layer that is resting under the four-headed "
+#| "Move cursor will be moved"
 msgid ""
 "Any content contained on the layer that is resting under the four-headed "
-"Move cursor will be moved"
+"Move cursor will be moved."
 msgstr ""
 "Es mourà qualsevol contingut que es trobi sobre la capa i que resti sota el "
 "cursor de moviment amb quatre caps."
