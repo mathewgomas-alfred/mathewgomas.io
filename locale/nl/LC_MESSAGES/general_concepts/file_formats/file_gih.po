@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 13:37+0200\n"
+"PO-Revision-Date: 2019-06-17 10:59+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.1\n"
 
 #: ../../general_concepts/file_formats/file_gih.rst:1
 msgid "The Gimp Image Hose file format in Krita."
@@ -49,6 +49,9 @@ msgid ""
 "The GIMP image hose format. Krita can open and save these, as well as import "
 "via the :ref:`predefined brush tab <predefined_brush_tip>`."
 msgstr ""
+"Het formaat image-hose van GIMP. Krita kan deze openen en opslaan, evenals "
+"ze importeren via het :ref:`tabblad voorgedefinieerd penseel "
+"<predefined_brush_tip>`."
 
 #: ../../general_concepts/file_formats/file_gih.rst:19
 msgid ""
@@ -56,10 +59,13 @@ msgid ""
 "and then set some options to make it specify how to output the multiple "
 "images."
 msgstr ""
+"Image-hose betekent dat dit bestandsformaat u toestaat om meerdere "
+"afbeeldingen op te slaan en daarna enige opties in te stellen om te "
+"specificeren hoe de meerdere afbeeldingen worden uitgevoerd."
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid ".. image:: images/brushes/Gih-examples.png"
-msgstr ""
+msgstr ".. image:: images/brushes/Gih-examples.png"
 
 #: ../../general_concepts/file_formats/file_gih.rst:25
 msgid "From top to bottom: Incremental, Pressure and Random"
