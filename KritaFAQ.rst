@@ -197,6 +197,11 @@ Can krita work with 8 bit (indexed) images?
 
 No. Krita has been designed from the ground up to use real colors, not indexed palettes. There are no plans to support indexed color images, although Krita can export to some indexed color image formats, such as GIF. However, it does not offer detailed control over pixel values.
 
+Krita crashes on Windows 7 on start-up
+--------------------------------------
+
+Starting with Krita 4.2.0, Krita uses version 5.12 of the Qt toolkit. This needs to have access to Direct3D 11 or OpenGL ES 2.0 or higher. You might need to install drivers appropriate to your GPU (Nvidia, AMD/ATI, Intel). This also makes it hard to run Krita in a virtual environment: in Virtual Box you need to install the guest addition in safe mode, and enable the experimental Direct3D support. 
+
 
 How can I produce a backtrace on Windows?
 -----------------------------------------
