@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-08 21:52+0200\n"
+"PO-Revision-Date: 2019-06-19 22:08+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:1
 msgid "Configuring the tablet in Krita."
@@ -54,6 +54,9 @@ msgid ""
 "tablet will use in Krita. The settings here will make your tablet feel soft "
 "or hard globally."
 msgstr ""
+"Corba global de la pressió de l'entrada: Aquest és l'ajustament de la corba "
+"global que la tauleta utilitzarà en el Krita. Aquests ajustaments faran que "
+"la tauleta se senti tova o dura a nivell global."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:24
 msgid ""
@@ -64,6 +67,13 @@ msgid ""
 "tablet driver implementation). After changing this option Krita should be "
 "restarted."
 msgstr ""
+"Alguns dispositius de tauleta no ens indiquen els botons laterals d'un "
+"llapis. Si teniu un dispositiu d'aquest tipus, podríeu intentar activar "
+"aquesta solució alternativa. El Krita intentarà llegir els clics drets i "
+"migs com si vinguessin d'un ratolí en lloc d'una tauleta. Podria o no "
+"funcionar en el vostre dispositiu (dependrà de la implementació del "
+"controlador de la tauleta). Després de canviar aquesta opció s'haurà de "
+"tornar a iniciar el Krita."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:26
 msgid "Use Mouse Events for Right and Middle clicks."
@@ -71,7 +81,7 @@ msgstr "Usa els esdeveniments del ratolí per al clic del botó dret i mig."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:29
 msgid "On Windows 8 or above only."
-msgstr ""
+msgstr "Només al Windows 8 o superior."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:31
 msgid "WinTab"
@@ -82,10 +92,13 @@ msgid ""
 "Use the WinTab API to receive tablet pen input. This is the API being used "
 "before Krita 3.3. This option is recommended for most Wacom tablets."
 msgstr ""
+"Utilitza l'API de WinTab per a rebre l'entrada del llapis de la tauleta. "
+"Aquesta és l'API que s'utilitzava abans del Krita 3.3. Es recomana aquesta "
+"opció per a la majoria de les tauletes Wacom."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:34
 msgid "For Krita 3.3 or later:Tablet Input API"
-msgstr ""
+msgstr "Per al Krita 3.3 o posterior: API d'entrada de la tauleta"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:34
 msgid "Windows 8+ Pointer Input"
@@ -100,6 +113,13 @@ msgid ""
 "device (e.g. recent Microsoft Surface devices) or if your tablet does not "
 "work well with WinTab."
 msgstr ""
+"Utilitza els missatges d'entrada del punter per a rebre l'entrada del llapis "
+"de la tauleta. Aquesta opció dependrà de la compatibilitat amb Windows Ink "
+"del controlador de la tauleta. Aquesta és una addició relativament nova, de "
+"manera que encara es considera experimental, però hauria de funcionar prou "
+"bé per a pintar. Haureu d'intentar això si utilitzeu un dispositiu N-Trig "
+"(p. ex., dispositius Microsoft Surface recents) o si la vostra tauleta no "
+"funciona bé amb WinTab."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:37
 msgid "Advanced Tablet Settings for WinTab"
@@ -116,6 +136,11 @@ msgid ""
 "if it has to choose itself, there will be a tablet offset. This window "
 "allows you to select the appropriate screen resolution."
 msgstr ""
+"En utilitzar múltiples monitors o en utilitzar una tauleta que també és una "
+"pantalla, el Krita obtindrà informació contradictòria sobre com de gran és "
+"la pantalla i, de vegades, si ha de triar per si mateix, hi haurà un "
+"desplaçament de la tauleta. Aquesta finestra permet seleccionar la resolució "
+"apropiada de la pantalla."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:44
 msgid "Use Information Provided by Tablet"
@@ -123,7 +148,7 @@ msgstr "Usa la informació proporcionada per la tauleta"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:45
 msgid "Use the information as given by the tablet."
-msgstr ""
+msgstr "Utilitza la informació donada per la tauleta."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:46
 msgid "Map to entire virtual screen"
@@ -131,7 +156,7 @@ msgstr "Mapa a una pantalla virtual sencera"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:47
 msgid "Use the information as given by Windows."
-msgstr ""
+msgstr "Utilitza la informació donada per Windows."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:49
 msgid ""
@@ -139,6 +164,9 @@ msgid ""
 "options. You might even need to do trial and error if that is the case, but "
 "at the least you can configure it."
 msgstr ""
+"Escriviu els números manualment. Utilitzeu-la quan hàgiu provat les altres "
+"opcions. Potser fins i tot hàgiu de fer una prova i error si aquest és el "
+"cas, però almenys podreu configurar-ho."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:51
 msgid "Map to Custom Area"
@@ -150,29 +178,36 @@ msgid ""
 "reachable, you might have to enter the total width of both screens plus the "
 "double height of your monitor in this field."
 msgstr ""
+"Si teniu una configuració de monitor dual i només es pot accedir a la meitat "
+"superior de la pantalla, és possible que hàgiu d'introduir en aquest camp "
+"l'amplada total d'ambdues pantalles més el doble de l'alçada del monitor."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:55
 msgid ""
 "To access this dialog in Krita versions older than 4.2, you had to do the "
 "following:"
 msgstr ""
+"Per accedir a aquest diàleg en versions del Krita anteriors a la 4.2, haureu "
+"de fer el següent:"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:57
 msgid "Put your stylus away from the tablet."
-msgstr ""
+msgstr "Poseu el llapis lluny de la tauleta."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:58
 msgid ""
 "Start Krita without using a stylus, that is using a mouse or a keyboard."
 msgstr ""
+"Inicieu el Krita sense utilitzar un llapis òptic, això serà amb un ratolí o "
+"un teclat."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:59
 msgid "Press :kbd:`Shift` key and hold it."
-msgstr ""
+msgstr "Premeu la tecla :kbd:`Majús.` i manteniu-la."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:60
 msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr ""
+msgstr "Toqueu la tauleta amb el llapis òptic perquè el Krita el reconegui."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:62
 msgid ""
@@ -180,6 +215,9 @@ msgid ""
 "the canvas can be caused by a faulty Wacom preference file which is not "
 "removed or replaced by reinstalling the drivers."
 msgstr ""
+"Si l'ajust no funciona, i si teniu una tauleta Wacom, un desplaçament en el "
+"llenç pot estar provocat per un fitxer de preferències de Wacom defectuós "
+"que no s'elimina o substitueix reinstal·lant els controladors."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:64
 msgid ""
@@ -187,12 +225,17 @@ msgid ""
 "preferences. This should allow Krita to detect the correct settings "
 "automatically."
 msgstr ""
+"Per a solucionar-ho, utilitzeu la «Utilitat per a fitxers de preferències de "
+"la tauleta Wacom» per esborrar totes les preferències. Això hauria de "
+"permetre al Krita detectar de manera automàtica els ajustaments correctes."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:67
 msgid ""
 "Clearing all wacom preferences will reset your tablet's configuration, thus "
 "you will need to recalibrate/reconfigure it."
 msgstr ""
+"Esborrar totes les preferències de Wacom restablirà la configuració de la "
+"tauleta, pel que haureu de tornar-la a calibrar/configurar."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:70
 msgid "Tablet Tester"
@@ -204,12 +247,17 @@ msgid ""
 "it will open a window with two sections. The left section is the **Drawing "
 "Area** and the right is the **Text Output**."
 msgstr ""
+"Aquesta és una característica especial per a depurar l'entrada de la tauleta. "
+"En fer-hi clic, s'obrirà una finestra amb dues seccions. La secció esquerra "
+"és l'**Àrea de dibuix** i la dreta és la **Sortida de text**."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:76
 msgid ""
 "If you draw over the Drawing Area, you will see a line appear. If your "
 "tablet is working it should be both a red and blue line."
 msgstr ""
+"Si dibuixeu sobre l'Àrea de dibuix, veureu aparèixer una línia. Si la tauleta "
+"està funcionant, haurà de ser una línia vermella i blava."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:78
 msgid ""
@@ -217,6 +265,10 @@ msgid ""
 "that Krita can pick up. However, mouse events have crude coordinates and "
 "have no pressure sensitivity."
 msgstr ""
+"La línia vermella representa els esdeveniments del ratolí. Els esdeveniments "
+"del ratolí són els esdeveniments més bàsics que el Krita pot recollir. No "
+"obstant això, els esdeveniments del ratolí tenen coordenades rudimentàries i "
+"no tenen sensibilitat a la pressió."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:80
 msgid ""
@@ -224,6 +276,10 @@ msgid ""
 "when Krita can access your tablet. These have more precise coordinates and "
 "access to sensors like pressure sensitivity."
 msgstr ""
+"La línia blava representa els esdeveniments de la tauleta. Els esdeveniments "
+"de la tauleta només es mostren quan el Krita pot accedir a la tauleta. "
+"Aquests tenen coordenades més precises i accés a sensors com la sensibilitat "
+"a la pressió."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:84
 msgid ""
@@ -231,6 +287,10 @@ msgid ""
 "cannot access your tablet. Check out the :ref:`page on drawing tablets "
 "<drawing_tablets>` for suggestions on what is causing this."
 msgstr ""
+"Si no teniu una línia blava en dibuixar a l'àrea de dibuix de mà esquerra, "
+"voldrà dir que el Krita no pot accedir a la tauleta. Reviseu la :ref:`pàgina "
+"sobre tauletes de dibuix <drawing_tablets>` per obtenir consells sobre el que "
+"pot estar causant això."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:86
 msgid ""
@@ -238,14 +298,21 @@ msgid ""
 "output. This text output can be attached to a help request or a bug report "
 "to figure out what is going on."
 msgstr ""
+"En dibuixar una línia, la sortida de la dreta mostrarà tot tipus de sortida "
+"de text. Aquesta sortida de text es pot adjuntar a una sol·licitud d'ajuda o "
+"a un informe d'error per esbrinar què està passant."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:89
 msgid "External Links"
 msgstr "Enllaços externs"
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/preferences/tablet_settings.rst:91
 msgid ""
 "`David Revoy wrote an indepth guide on using this feature to maximum "
 "advantage. <https://www.davidrevoy.com/article182/calibrating-wacom-stylus-"
 "pressure-on-krita>`_"
 msgstr ""
+"`En David Revoy ha escrit una guia detallada sobre l'ús d'aquesta "
+"característica per obtenir el màxim avantatge <https://www.davidrevoy.com/"
+"article182/calibrating-wacom-stylus-pressure-on-krita>`_."

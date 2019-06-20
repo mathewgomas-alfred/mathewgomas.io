@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-08 21:49+0200\n"
+"PO-Revision-Date: 2019-06-19 13:36+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -63,7 +63,7 @@ msgstr "Gestor de connectors en Python"
 
 #: ../../reference_manual/preferences/python_plugin_manager.rst:17
 msgid "This is part of Krita's python support."
-msgstr ""
+msgstr "Això forma part de la implementació de Python en el Krita."
 
 #: ../../reference_manual/preferences/python_plugin_manager.rst:23
 msgid ""
@@ -71,6 +71,9 @@ msgid ""
 "Configure Krita --> Python Plugin Manager`. It allows you decide which of "
 "the Python Plugins are active."
 msgstr ""
+"Es pot accedir al gestor de connectors en Python des de "
+":menuselection:`Arranjament --> Configura el Krita --> Gestor de connectors "
+"en Python`. Permet decidir quins connectors en Python estaran actius."
 
 #: ../../reference_manual/preferences/python_plugin_manager.rst:25
 msgid ""
@@ -79,21 +82,33 @@ msgid ""
 "scripts are autostarted, so this ensures only the ones you want to run are "
 "being run."
 msgstr ""
+"Mostrarà una llista dels connectors en Python que ha trobat el Krita, així "
+"com la seva descripció. De manera predeterminada, els connectors en Python "
+"estaran inhabilitats, ja que molts scripts en Python s'inicien de manera "
+"automàtica, això garantirà que només s'executaran els que es volen executar."
 
 #: ../../reference_manual/preferences/python_plugin_manager.rst:27
 msgid ""
 "You can use the checkboxes to toggle them. A restart is required to complete "
 "switching off or on the python plugin."
 msgstr ""
+"Podreu utilitzar les caselles de selecció per alternar-les. Es requereix "
+"tornar a iniciar el Krita per a completar l'activació o desactivació del "
+"connector en Python."
 
 #: ../../reference_manual/preferences/python_plugin_manager.rst:29
 msgid ""
 "If you |mouseleft| a plugin, and the plugin has a manual, Krita will display "
 "it in the box at the bottom."
 msgstr ""
+"Si feu |mouseleft| sobre un connector i aquest té un manual, el Krita el "
+"mostrarà en el quadre de la part inferior."
 
+# skip-rule: t-acc_obe
 #: ../../reference_manual/preferences/python_plugin_manager.rst:31
 msgid ""
 "For more information on python, check the :ref:`python scripting category "
 "<python_scripting_category>`."
 msgstr ""
+"Per obtenir més informació sobre Python, comproveu la `categoria Crear "
+"scripts en Python <python_scripting_category>` del manual d'usuari."
