@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-30 15:03+0200\n"
+"PO-Revision-Date: 2019-06-20 15:20+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../<generated>:1
 msgid "soft-proofing"
@@ -50,6 +50,10 @@ msgid ""
 "colors inside a pure XYZ color cube. This \"color set\" can be used to "
 "define different things:"
 msgstr ""
+"Om het dus eenvoudig te houden, een kleur profiel is gewoon een bestand die "
+"een set kleuren definieert binnen een pure XYZ-kleurkubus. Deze"
+" \"kleurenset\" "
+"kan gebruikt worden om verschillende dingen te definiëren:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:23
 msgid "the colors inside an image"
@@ -97,6 +101,9 @@ msgid ""
 "we can use workspace profiles with higher gamut range like Wide-gamut RGB or "
 "Pro-photo RGB, or even unlimited gamut like scRGB."
 msgstr ""
+"Beginnend met 16 bits/kanaal, hebben we al 65536 waarden in plaats van 256, "
+"we kunnen dus werkruimteprofielen gebruiken met hogere gamutreeks zoals "
+"Wide-gamut RGB of Pro-photo RGB of zelfs onbeperkte gamut zoals scRGB."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:40
 msgid ""
@@ -123,6 +130,10 @@ msgid ""
 "(which most software do nowadays; when they don't they usually default to "
 "sRGB, so in the case described here we're safe )"
 msgstr ""
+"Lees het inbeddingsprofiel om de \"goede\" kleurwaarden te weten uit het "
+"bestand (wat de meeste software hedendaags doet; wanneer ze dat niet doen, "
+"gaan ze gewoonlijk naar de standaard sRGB, dus in het hier beschreven geval "
+"zijn we veilig)"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:46
 msgid ""
@@ -133,7 +144,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:48
 msgid "Krita uses profiles extensively, and comes bundled with many."
-msgstr ""
+msgstr "Krita gebruikt zeer veel profielen en komt gebundeld met vele."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:50
 msgid ""
