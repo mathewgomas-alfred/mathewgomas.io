@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: KritaFAQ\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-20 03:18+0200\n"
-"PO-Revision-Date: 2019-06-20 14:37+0200\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2019-06-21 19:22+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../KritaFAQ.rst:20
 msgid "FAQ"
@@ -617,6 +617,8 @@ msgstr ""
 msgid "Krita crashes on Windows 7 on start-up"
 msgstr "En iniciar-se, el Krita es bloqueja al Windows 7"
 
+# skip-rule: kct-box
+# Virtual Box és el nom d'un programari de virtualització i no es tradueix
 #: ../../KritaFAQ.rst:203
 msgid ""
 "Starting with Krita 4.2.0, Krita uses version 5.12 of the Qt toolkit. This "
@@ -630,7 +632,7 @@ msgstr ""
 "Qt. Aquestes necessiten tenir accés a les Direct3D 11 o OpenGL ES 2.0 o "
 "superior. És possible que hàgiu d'instal·lar els controladors adequats per a "
 "la vostra GPU (Nvidia, AMD/ATI, Intel). Això també dificulta l'execució del "
-"Krita en un entorn virtual: una Caixa virtual necessita instal·lar l'addició "
+"Krita en un entorn virtual: al Virtual Box es necessita instal·lar l'addició "
 "de convidat en el mode segur i habilitar el suport experimental de Direct3D."
 
 #: ../../KritaFAQ.rst:207
@@ -1485,3 +1487,4 @@ msgstr "Referència"
 #: ../../KritaFAQ.rst:472
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"
+

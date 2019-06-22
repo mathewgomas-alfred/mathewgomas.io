@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-05-05 08:56+0100\n"
+"PO-Revision-Date: 2019-06-20 11:21+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -43,35 +43,39 @@ msgstr ".. image:: images/Mingw-dbg7zip-dir.png"
 
 #: ../../reference_manual/dr_minw_debugger.rst:1
 msgid "How to get a backtrace in Krita using the dr. MinW debugger."
-msgstr ""
+msgstr "Hur man får en bakåtspårning i Krita med avlusaren dr. MinW"
 
 #: ../../reference_manual/dr_minw_debugger.rst:13
 msgid "Backtrace"
-msgstr ""
+msgstr "Bakåtspårning "
 
 #: ../../reference_manual/dr_minw_debugger.rst:13
 msgid "Debug"
-msgstr ""
+msgstr "Avlusning"
 
 #: ../../reference_manual/dr_minw_debugger.rst:18
 msgid "Dr. MinW Debugger"
-msgstr ""
+msgstr "Avlusaren Dr. MinW"
 
 #: ../../reference_manual/dr_minw_debugger.rst:22
 msgid ""
 "The information on this page applies only to the Windows release of Krita "
 "3.1 Beta 3 (3.0.92) and later."
 msgstr ""
+"Informationen på den här sidan gäller bara utgåvor av Krita 3.1 Beta 3"
+" (3.0.92) eller senare på Windows."
 
 #: ../../reference_manual/dr_minw_debugger.rst:26
 msgid "Getting a Backtrace"
-msgstr ""
+msgstr "Skapa en bakåtspårning"
 
 #: ../../reference_manual/dr_minw_debugger.rst:28
 msgid ""
 "There are some additions to Krita which makes getting a backtrace much "
 "easier on Windows."
 msgstr ""
+"Det finns några tillägg i Krita som gör det mycket enklare att skapa en"
+" bakåtspårning på Windows."
 
 #: ../../reference_manual/dr_minw_debugger.rst:32
 msgid ""
@@ -79,10 +83,13 @@ msgid ""
 "time, ranging from a few seconds to a few minutes, before the crash dialog "
 "appears."
 msgstr ""
+"När en krasch inträffar, kan det verka som om Krita inte svarar en kort"
+" stund, från några få sekunder till några få minuter, innan kraschdialogrutan"
+" visas."
 
 #: ../../reference_manual/dr_minw_debugger.rst:36
 msgid "An example of the crash dialog."
-msgstr ""
+msgstr "Ett exempel på kraschdialogrutan."
 
 #: ../../reference_manual/dr_minw_debugger.rst:38
 msgid ""
@@ -91,42 +98,55 @@ msgid ""
 "you have to close Krita manually. Continue to follow the following "
 "instructions to check whether it was a crash or not."
 msgstr ""
+"Om Krita fortsätter att inte svara efter mer en några minuter, kan det i"
+" själva verket vara helt låst, vilket kan leda till att ingen bakåtspårning"
+" skapas. I sådana situationer, måste Krita avslutas manuellt. Fortsätt att"
+" följa nedanstående instruktioner för att kontrollera om det var en krasch"
+" eller inte."
 
 #: ../../reference_manual/dr_minw_debugger.rst:40
 msgid ""
 "Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the "
 "address bar and press :kbd:`Enter`."
 msgstr ""
+"Öppna Windows Utforskare och skriv ``%LocalAppData%`` (utan citationstecken)"
+" i adressraden och tryck på :kbd:`Enter`."
 
 #: ../../reference_manual/dr_minw_debugger.rst:44
 msgid ""
 "Find the file ``kritacrash.log`` (it might appear as simply ``kritacrash`` "
 "depending on your settings.)"
 msgstr ""
+"Leta rätt på filen ``kritacrash.log`` (den kan visas som bara ``kritacrash``"
+" beroende på inställningarna.)"
 
 #: ../../reference_manual/dr_minw_debugger.rst:45
 msgid ""
 "Open the file with Notepad and scroll to the bottom, then scroll up to the "
 "first occurrence of “Error occurred on <time>” or the dashes."
 msgstr ""
+"Öppna filen med Anteckningar och gå längst ner, gå därefter uppåt till första"
+" förekomsten av “Error occurred on <tid>” eller bindestrecken."
 
 #: ../../reference_manual/dr_minw_debugger.rst:49
 msgid "Start of backtrace."
-msgstr ""
+msgstr "Bakåtspårningens start."
 
 #: ../../reference_manual/dr_minw_debugger.rst:51
 msgid "Check the time and make sure it matches the time of the crash."
-msgstr ""
+msgstr "Kontrollera tiden och säkerställ att den motsvarar tiden för kraschen."
 
 #: ../../reference_manual/dr_minw_debugger.rst:55
 msgid "End of backtrace."
-msgstr ""
+msgstr "Bakåtspårningens slut."
 
 #: ../../reference_manual/dr_minw_debugger.rst:57
 msgid ""
 "The text starting from this line to the end of the file is the most recent "
 "backtrace."
 msgstr ""
+"Texten som börjar med den här raden till slutet på filen är den senaste"
+" bakåtspårningen."
 
 #: ../../reference_manual/dr_minw_debugger.rst:59
 msgid ""
@@ -135,6 +155,10 @@ msgid ""
 "likely locked up, and a crash didn’t actually happen. In this case, make a "
 "bug report too."
 msgstr ""
+"Om ``kritacrash.log`` inte finns, eller en bakåtspårning med en motsvarande"
+" tid inte finns, har man inte någon bakåtspårning. Det betyder troligtvis att"
+" Krita låstes helt, och att en krasch faktiskt inte inträffade. Skapa också"
+" en felrapport i detta fall."
 
 #: ../../reference_manual/dr_minw_debugger.rst:60
 msgid ""
@@ -143,16 +167,22 @@ msgid ""
 "before being closed manually. In this case, try to re-trigger the crash and "
 "wait longer until the crash dialog appears."
 msgstr ""
+"Om bakåtspårningen ser avkortad ut, eller det inte finns något efter tiden,"
+" betyder det att en krasch inträffade och att kraschhanteraren höll på att"
+" skapa bakåtspårningen innan den avslutades manuellt. Försök att upprepa"
+" kraschen i detta fall, och vänta längre tills kraschdialogrutan visas."
 
 #: ../../reference_manual/dr_minw_debugger.rst:64
 msgid ""
 "Starting from Krita 3.1 Beta 3 (3.0.92), the external DrMingw JIT debugger "
 "is not needed for getting the backtrace."
 msgstr ""
+"Med början på Krita 3.1 Beta 3 (3.0.92) behövs inte den externa avlusaren"
+" DrMingw JIT för att få en bakåtspårning."
 
 #: ../../reference_manual/dr_minw_debugger.rst:67
 msgid "Using the Debug Package"
-msgstr ""
+msgstr "Använda avlusningspaketet"
 
 #: ../../reference_manual/dr_minw_debugger.rst:69
 msgid ""
@@ -160,6 +190,9 @@ msgid ""
 "separated from the executables, so you have to download the portable package "
 "separately too (though usually you already have it in the first place.)"
 msgstr ""
+"Från och med 3.1 Beta 3, innehåller avlusningspaketet bara avlusningssymboler"
+" skilda från de körbara filerna, så det portabla paketet måste också laddas"
+" ner separat (även om man oftast redan har det från början)."
 
 #: ../../reference_manual/dr_minw_debugger.rst:71
 msgid ""
@@ -170,18 +203,28 @@ msgid ""
 "krita for unstable releases. Portable zip and debug zip are found next to "
 "each other."
 msgstr ""
+"Länkar till avlusningspaket ska finnas tillgängliga i nyhetsartikeln med"
+" utgivningskungörelsen på https://krita.org/, tillsammans med"
+" utgivningspaketen. Man hittar avlusningspaket för alla utgåvor antingen i"
+" https://download.kde.org/stable/krita för stabila utgåvor eller i"
+" https://download.kde.org/unstable/ för instabila. Portabla zip-filer och"
+" avlusnings-zip-filer finns intill varandra."
 
 #: ../../reference_manual/dr_minw_debugger.rst:72
 msgid ""
 "Make sure you’ve downloaded the same version of debug package for the "
 "portable package you intend to debug / get a better (sort of) backtrace."
 msgstr ""
+"Säkerställ att samma version av avlusningspaketet har laddats ner som det"
+" portabla paketet som ska avlusas / få en bättre (sorts) bakåtspårning."
 
 #: ../../reference_manual/dr_minw_debugger.rst:73
 msgid ""
 "Extract the files inside the Krita install directory, where the sub-"
 "directories `bin`, `lib` and `share` is located, like in the figures below:"
 msgstr ""
+"Packa upp filerna i Kritas installationsmapp, där undermapparna `bin`, `lib`"
+" och `share` finns, som i figuren nedan:"
 
 #: ../../reference_manual/dr_minw_debugger.rst:79
 msgid ""
@@ -189,3 +232,7 @@ msgid ""
 "``.debug`` dir inside. If you don't see it, you probably extracted to the "
 "wrong place."
 msgstr ""
+"Efter att filerna har packats upp, kontrollera mappen ``bin`` och säkerställ"
+" att mappen ``.debug`` finns i den. Om den inte finns, har uppackningen"
+" troligen gjorts på fel plats."
+
