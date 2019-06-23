@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:46+0100\n"
+"PO-Revision-Date: 2019-06-22 22:04+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -31,7 +31,7 @@ msgstr "Översikt av vektorgrafik i Krita."
 
 #: ../../user_manual/vector_graphics.rst:11
 msgid "Vector"
-msgstr ""
+msgstr "Vektor"
 
 #: ../../user_manual/vector_graphics.rst:16
 msgid "Vector Graphics"
@@ -42,6 +42,8 @@ msgid ""
 "Krita 4.0 has had a massive rewrite of the vector tools. So here's a page "
 "explaining the vector tools:"
 msgstr ""
+"I Krita 4.0 har en omfattande omskrivning av vektorverktygen gjorts. Här är"
+" en sida som förklarar vektorverktygen:"
 
 #: ../../user_manual/vector_graphics.rst:21
 msgid "What are vector graphics?"
@@ -53,6 +55,8 @@ msgid ""
 "the editing changes the values of the pixels on the raster that makes up the "
 "image."
 msgstr ""
+"Krita är i huvudsak ett redigeringsverktyg av rastergrafik, vilket betyder"
+" att redigering mest ändrar bildpunktsvärden på rastret som utgör bilden."
 
 #: ../../user_manual/vector_graphics.rst:26
 msgid ".. image:: images/Pixels-brushstroke.png"
@@ -63,6 +67,9 @@ msgid ""
 "Vector graphics on the other hand use mathematics to describe a shape. "
 "Because it uses a formula, vector graphics can be resized to any size."
 msgstr ""
+"Vektorgrafik använder å andra sidan matematik för att beskriva en form."
+" Eftersom den använder en formel, kan storleken på vektorgrafik ändras till"
+" vilken storlek som helst."
 
 #: ../../user_manual/vector_graphics.rst:29
 msgid ""
@@ -70,6 +77,9 @@ msgid ""
 "other hand, raster graphics are much easier to edit, so vectors tend to be "
 "the domain of deliberate design, using a lot of precision."
 msgstr ""
+"Å ena sidan gör det vektorgrafik utmärkt för logotyper och banderoller. Å"
+" andra sidan, är det mycket lättare att redigera rastergrafik, så domänen för"
+" vektorer brukar vara omsorgsfull design med användning av stor precision."
 
 #: ../../user_manual/vector_graphics.rst:32
 msgid "Tools for making shapes"
@@ -82,12 +92,19 @@ msgid ""
 "layer types). Then, all the usual drawing tools outside of the freehand, "
 "dynamic and the multibrush tool can be used to draw shapes."
 msgstr ""
+"Man kan börja skapa vektorgrafik genom att först skapa ett vektorlager (tryck"
+" på piltangenten intill :guilabel:`+` i lagerpanelen för att få extra"
+" lagertyper). Sedan kan alla vanliga ritverktyg förutom verktygen frihands-,"
+" dynamisk och multipensel användas för att rita former."
 
 #: ../../user_manual/vector_graphics.rst:36
 msgid ""
 "The path and polyline tool are the tools you used most often on a vector "
 "layer, as they allow you to make the most dynamic of shapes."
 msgstr ""
+"Kontur- och flerlinjeverktygen är de som man oftast använder på ett"
+" vektorlager, eftersom de gör det möjligt att skapa de mest dynamiska"
+" formerna."
 
 #: ../../user_manual/vector_graphics.rst:38
 msgid ""
@@ -95,6 +112,9 @@ msgid ""
 "allow you to draw special shapes, which then can be edited to make special "
 "pie shapes, or for easy rounded rectangles."
 msgstr ""
+"Å andra sidan låter verktygen :guilabel:`Ellips` och :guilabel:`Rektangel`"
+" dig rita speciella former, som sedan kan redigeras för att göra särskilda"
+" cirkelformer eller enkelt avrunda rektanglar."
 
 #: ../../user_manual/vector_graphics.rst:40
 msgid ""
@@ -102,12 +122,17 @@ msgid ""
 "tool is for producing strokes that are similar to brush strokes, while the "
 "text tool makes a text object that can be edited afterwards."
 msgstr ""
+"Kalligrafi- och textverktygen skapar också speciella vektorer."
+" Kalligrafiverktyget är till för att skapa streck som liknar penseldrag,"
+" medan textverktyget skapar ett textobjekt som kan redigeras efteråt."
 
 #: ../../user_manual/vector_graphics.rst:42
 msgid ""
 "All of these will use the current brush size to determine stroke thickness, "
 "as well as the current foreground and background color."
 msgstr ""
+"Alla dessa använder nuvarande penselstorlek för att bestämma dragets"
+" tjocklek, samt nuvarande förgrunds- och bakgrundsfärg."
 
 #: ../../user_manual/vector_graphics.rst:44
 msgid ""
@@ -115,6 +140,10 @@ msgid ""
 "It allows you to add shapes that have been defined in an SVG file as "
 "symbols. Unlike the other tools, these have their own fill and stroke."
 msgstr ""
+"Det finns ett sista sätt att skapa vektorer, verktyget"
+" :guilabel:`Vektorbild`. Det låter dig lägga till former som har definierats"
+" i en SVG-fil som symboler. I motsats till andra verktyg, har de sina egna"
+" fyll och drag."
 
 #: ../../user_manual/vector_graphics.rst:47
 msgid "Arranging Shapes"
@@ -127,6 +156,10 @@ msgid ""
 "This can be modified with the arrange docker, or with the :guilabel:`Select "
 "Shapes` tool."
 msgstr ""
+"Ett vektorlager har sin egen hierarki av former, som påminner om hur hela"
+" bilden har en hierarki av lager. Så former kan vara framför varandra. Det"
+" kan ändras med arrangeringspanelen, eller med verktyget :guilabel:`Markera"
+" former`."
 
 #: ../../user_manual/vector_graphics.rst:51
 msgid ""
@@ -134,6 +167,9 @@ msgid ""
 "allows you to precisely align shapes, for example, have them aligned to the "
 "center, or have an even spacing between all the shapes."
 msgstr ""
+"Arrangeringspanelen låter dig också gruppera och dela upp former. Den låter"
+" dig också finjustera former, exempelvis centrera dem, eller ställa in lika"
+" stort mellanrum mellan alla formerna."
 
 #: ../../user_manual/vector_graphics.rst:54
 msgid "Editing shapes"
@@ -144,6 +180,8 @@ msgid ""
 "Editing of vector shapes is done with the :guilabel:`Select Shapes` tool and "
 "the :guilabel:`Edit Shapes` tool."
 msgstr ""
+"Redigering av vektorformer görs med verktygen :guilabel:`Markera former` och"
+" :guilabel:`Redigera former`."
 
 #: ../../user_manual/vector_graphics.rst:58
 msgid ""
@@ -152,10 +190,15 @@ msgid ""
 "subtract shapes from one another (via |mouseright|), to move them up and "
 "down, or to do quick transforms."
 msgstr ""
+"Verktyget :guilabel:`Markera former` kan användas för att markera"
+" vektorformer för att gruppera dem (via höger musknapp), dela upp dem,"
+" använda Booleska värden för att kombinera eller subtrahera former från"
+" varandra (via höger musknapp), flytta dem uppåt eller neråt, eller för att"
+" göra snabbtransformeringar."
 
 #: ../../user_manual/vector_graphics.rst:61
 msgid "Fill"
-msgstr ""
+msgstr "Fyll"
 
 #: ../../user_manual/vector_graphics.rst:63
 msgid ""
@@ -173,20 +216,23 @@ msgstr ""
 msgid ""
 "Vector shapes can be filled with a solid color, a gradient or a pattern."
 msgstr ""
+"Vektorformer kan fyllas i med en viss färg, en toning eller ett mönster."
 
 #: ../../user_manual/vector_graphics.rst:70
 msgid "Stroke"
-msgstr ""
+msgstr "Drag"
 
 #: ../../user_manual/vector_graphics.rst:72
 msgid "Strokes can be filled with the same things as fills."
-msgstr ""
+msgstr "Drag kan fyllas i med samma saker som fyll."
 
 #: ../../user_manual/vector_graphics.rst:74
 msgid ""
 "However, they can also be further changed. For example, you can add dashes "
 "and markers to the line."
 msgstr ""
+"Dock kan de också ändras ytterligare. Man kan exempelvis lägga till streck"
+" och markörer på linjen."
 
 #: ../../user_manual/vector_graphics.rst:77
 msgid "Coordinates"
@@ -197,10 +243,12 @@ msgid ""
 "Shapes can be moved with the :guilabel:`Select Shapes` tool, and in the tool "
 "options you can specify the exact coordinates."
 msgstr ""
+"Former kan flyttas med verktyget :guilabel:`Markera former` och i"
+" verktygsalternativen kan man ange de exakta koordinaterna."
 
 #: ../../user_manual/vector_graphics.rst:82
 msgid "Editing nodes and special parameters"
-msgstr ""
+msgstr "Redigera noder och specialparametrar"
 
 #: ../../user_manual/vector_graphics.rst:84
 msgid ""
@@ -219,7 +267,7 @@ msgstr ""
 
 #: ../../user_manual/vector_graphics.rst:89
 msgid "Working together with other programs"
-msgstr ""
+msgstr "Arbeta tillsammans med andra program"
 
 #: ../../user_manual/vector_graphics.rst:91
 msgid ""
@@ -239,3 +287,4 @@ msgid ""
 "Krita. Only the SVG 1.1 features are supported, so don't be surprised if a "
 "mesh gradient doesn't cross over very well."
 msgstr ""
+
