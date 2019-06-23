@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:45+0100\n"
+"PO-Revision-Date: 2019-06-22 16:57+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,12 +22,16 @@ msgid ""
 ".. image:: images/icons/freehand_brush_tool.svg\n"
 "   :alt: toolfreehandbrush"
 msgstr ""
+".. image:: images/icons/freehand_brush_tool.svg\n"
+"   :alt: frihandspenselverktyg"
 
 #: ../../reference_manual/tools/freehand_brush.rst:1
 msgid ""
 "Krita's freehand brush tool reference, containing how to use the stabilizer "
 "in krita."
 msgstr ""
+"Referens för Kritas frihandspenselverktyg, som innehåller hur stabilisatorn"
+" används i Krita."
 
 #: ../../reference_manual/tools/freehand_brush.rst:12
 msgid "Freehand Brush"
@@ -35,7 +39,7 @@ msgstr "Frihandspensel"
 
 #: ../../reference_manual/tools/freehand_brush.rst:12
 msgid "Freehand"
-msgstr ""
+msgstr "Frihand"
 
 #: ../../reference_manual/tools/freehand_brush.rst:17
 msgid "Freehand Brush Tool"
@@ -43,13 +47,15 @@ msgstr "Frihandspenselverktyg"
 
 #: ../../reference_manual/tools/freehand_brush.rst:19
 msgid "|toolfreehandbrush|"
-msgstr ""
+msgstr "|toolfreehandbrush|"
 
 #: ../../reference_manual/tools/freehand_brush.rst:21
 msgid ""
 "The default tool you have selected on Krita start-up, and likely the tool "
 "that you will use the most."
 msgstr ""
+"Standardverktyget som är valt när Krita startas, och troligen det verktyg som"
+" man använder allra mest."
 
 #: ../../reference_manual/tools/freehand_brush.rst:23
 msgid ""
@@ -58,14 +64,18 @@ msgid ""
 "tablet's input settings to control the brush-appearance. To switch the "
 "brush, make use of the brush-preset docker."
 msgstr ""
+"Frihandspenselverktyget låter dig måla på målarlager utan begränsningar som"
+" rät linjeverktyget. Det använder inställningar av ritplattor på ett optimalt"
+" sätt för att kontrollera penselns utseende. Använd"
+" penselförinställningspanelen för att byta pensel."
 
 #: ../../reference_manual/tools/freehand_brush.rst:27
 msgid "Hotkeys and Sticky keys"
-msgstr ""
+msgstr "Snabbtangenter och klistriga tangenter"
 
 #: ../../reference_manual/tools/freehand_brush.rst:29
 msgid "The freehand brush tool's hotkey is :kbd:`B`."
-msgstr ""
+msgstr "Frihandspenselverktygets snabbtangent är :kbd:`B`."
 
 #: ../../reference_manual/tools/freehand_brush.rst:31
 msgid ""
@@ -74,6 +84,11 @@ msgid ""
 "or right click to pick fore and background color respectively. Release the :"
 "kbd:`Ctrl` to return to the freehand brush tool."
 msgstr ""
+"Den alternativa sättet att anropa är \"färghämtaren\" (normalt anropad med "
+" :kbd:`Ctrl`). Tryck på :kbd:`Ctrl` för att byta till verktyget"
+" \"färghämtare\", använd vänster- eller högerklick för att välja respektive"
+" förgrunds- eller bakgrundsfärg. Släpp :kbd:`Ctrl` för att återgå till"
+" frihandspenselverktyget."
 
 #: ../../reference_manual/tools/freehand_brush.rst:32
 msgid ""
@@ -81,10 +96,15 @@ msgid ""
 "kbd:`Shift` and drag outward to increase brush size. Drag inward to decrease "
 "it."
 msgstr ""
+"Huvudinställningen är \"storlek\" (normalt anropad med  :kbd:`Shift`). Tryck"
+" på :kbd:`Shift` och dra utåt för att öka penselstorleken. Dra inåt för att"
+" minska den."
 
 #: ../../reference_manual/tools/freehand_brush.rst:33
 msgid "You can also press :kbd:`V` as a stickykey for the straight-line tool."
 msgstr ""
+"Man kan också trycka på :kbd:`V` som är klistrig tangent för rät"
+" linjeverktyget."
 
 #: ../../reference_manual/tools/freehand_brush.rst:35
 msgid ""
@@ -92,6 +112,10 @@ msgid ""
 "Configure Shortcuts`. The sticky-keys can be edited in :menuselection:"
 "`Settings --> Configure Krita --> Canvas Input Settings`."
 msgstr ""
+"Snabbtangenterna kan redigeras i  :menuselection:`Inställningar --> Anpassa"
+" Krita --> Anpassa genvägar`. Klistriga tangenter kan redigeras i "
+" :menuselection:`Inställningar --> Anpassa Krita --> Inställningar för"
+" dukinmatning`."
 
 #: ../../reference_manual/tools/freehand_brush.rst:39
 msgid "Tool Options"
@@ -124,10 +148,13 @@ msgid ""
 "correct the stroke. Useful for people with shaky hands, or particularly "
 "difficult long lines."
 msgstr ""
+"Utjämning, också känt som stabilisering i vissa program, gör det möjligt för"
+" programmet att korrigera penseldraget. Det är användbart för personer med"
+" skakiga händer, eller särskilt svåra långa linjer."
 
 #: ../../reference_manual/tools/freehand_brush.rst:49
 msgid "The following options can be selected:"
-msgstr ""
+msgstr "Följande alternativ kan väljas:"
 
 #: ../../reference_manual/tools/freehand_brush.rst:51
 msgid "No Smoothing."
@@ -138,6 +165,8 @@ msgid ""
 "The input from the tablet translates directly to the screen. This is the "
 "fastest option, and good for fine details."
 msgstr ""
+"Inmatning från ritplattan översätts direkt till skärmen. Det är det snabbaste"
+" alternativet, och bra för fina detaljer."
 
 #: ../../reference_manual/tools/freehand_brush.rst:53
 msgid "Basic Smoothing."
@@ -149,12 +178,18 @@ msgid ""
 "3. If you experience slightly jagged lines without any smoothing on, this "
 "option will apply a very little bit of smoothing to get rid of those lines."
 msgstr ""
+"Det här alternativet jämnar ut inmatning från äldre ritplattor som Wacom"
+" Graphire 3. Om man upplever något ojämna linjer utan något utjämning på,"
+" lägger alternativet till en mycket liten utjämning för att bli av med dessa"
+" linjer."
 
 #: ../../reference_manual/tools/freehand_brush.rst:56
 msgid ""
 "This option allows you to use the following parameters to make the smoothing "
 "stronger or weaker:"
 msgstr ""
+"Det här alternativet låter dig använda följande parametrar för att göra"
+" utjämningen starkare eller svagare:"
 
 #: ../../reference_manual/tools/freehand_brush.rst:58
 #: ../../reference_manual/tools/freehand_brush.rst:70
@@ -167,6 +202,8 @@ msgid ""
 "(Literally the amount of events received by the tablet before the first dab "
 "is drawn.)"
 msgstr ""
+"Avståndet som penseln måste röra sig innan första klicken ritas (bokstavligen"
+" antal händelser mottagna av ritplattan innan klicken ritas)."
 
 #: ../../reference_manual/tools/freehand_brush.rst:60
 msgid "Stroke Ending"
@@ -178,6 +215,9 @@ msgid ""
 "position of the cursor after the left-mouse button/or stylus is lifted. Will "
 "currently always result in a straight line, so use with caution."
 msgstr ""
+"Det här styr hur mycket linjen försöker nå den senast kända markörpositionen"
+" efter vänster musknapp släpps eller pennan lyfts. Resulterar för närvarande"
+" alltid i en rät linje, så använd med försiktighet."
 
 #: ../../reference_manual/tools/freehand_brush.rst:62
 msgid "Smooth Pressure"
@@ -188,6 +228,8 @@ msgid ""
 "This will apply the smoothing on the pressure input as well, resulting in "
 "more averaged size for example."
 msgstr ""
+"Låter utjämningen också gälla tryckinmatningen, vilket exempelvis resulterar"
+" i mer genomsnittlig storlek."
 
 #: ../../reference_manual/tools/freehand_brush.rst:65
 msgid "Weighted smoothing:"
@@ -203,7 +245,7 @@ msgstr "Skalbart avstånd"
 msgid ""
 "This makes it so that the numbers involved will be scaled along the zoom "
 "level."
-msgstr ""
+msgstr "Det här gör så att inblandade värden skalas enligt zoomnivå."
 
 #: ../../reference_manual/tools/freehand_brush.rst:68
 msgid ""
@@ -212,10 +254,14 @@ msgid ""
 "draw a circle around your cursor and the line will be a bit behind your "
 "cursor while painting."
 msgstr ""
+"Det här alternativet medelvärdesbildar all inmatning från ritplattan. Det"
+" skiljer sig från viktad utjämning eftersom det tillåter att linjen alltid"
+" görs färdig. Det ritar en cirkel omkring markören och linjen är något efter"
+" markören under målning."
 
 #: ../../reference_manual/tools/freehand_brush.rst:71
 msgid "This is the strength of the smoothing."
-msgstr ""
+msgstr "Det här är utjämningens styrka."
 
 #: ../../reference_manual/tools/freehand_brush.rst:72
 msgid "Delay"
@@ -226,6 +272,8 @@ msgid ""
 "This toggles and determines the size of the dead zone around the cursor. "
 "This can be used to create sharp corners with more control."
 msgstr ""
+"Det här kopplar om och bestämmer storleken på den döda zonen omkring"
+" markören. Det kan användas för att skapa skarpa hörn med bättre kontroll."
 
 #: ../../reference_manual/tools/freehand_brush.rst:74
 msgid "Finish Line"
@@ -233,7 +281,7 @@ msgstr "Avsluta linje"
 
 #: ../../reference_manual/tools/freehand_brush.rst:75
 msgid "This ensures that the line will be finished."
-msgstr ""
+msgstr "Det här säkerställer att linjen avslutas."
 
 #: ../../reference_manual/tools/freehand_brush.rst:76
 msgid "Stabilize sensors"
@@ -244,6 +292,8 @@ msgid ""
 "Similar to :guilabel:`Smooth Pressure`, this allows the input (pressure, "
 "speed, tilt) to be smoother."
 msgstr ""
+"Liknar :guilabel:`Smooth Pressure`, och tillåter att inmatning (tryck,"
+" hastighet, lutning) blir jämnare."
 
 #: ../../reference_manual/tools/freehand_brush.rst:81
 msgid "Painting Assistants"
@@ -259,6 +309,9 @@ msgid ""
 "toggle it is :kbd:`Ctrl + Shift + L`. See :ref:`painting_with_assistants` "
 "for more information."
 msgstr ""
+"Att markera det här tillåter låsning med :ref:`assistant_tool`, och"
+" snabbtangenten för att koppla om det är :kbd:`Ctrl + Shift + L`. Ta en titt"
+" på :ref:`painting_with_assistants` för mer information."
 
 #: ../../reference_manual/tools/freehand_brush.rst:88
 msgid ""
@@ -269,3 +322,10 @@ msgid ""
 "preventing noise. Unticking it allows you to chain assistants together and "
 "snap along them."
 msgstr ""
+"Det här skjutreglaget bestämmer låsningens storlek, med 1000 är perfekt"
+" låsning och 0 är ingen låsning alls. För situationer där det finns mer än en"
+" guide på duken, gör det normalt aktiverade :guilabel:`Enstaka lås` att Krita"
+" bara låser till en enstaka guide åt gången, vilket förhindrar brus. Att"
+" avmarkera det tillåter att guider kedjas tillsammans, med låsning längs dem."
+
+

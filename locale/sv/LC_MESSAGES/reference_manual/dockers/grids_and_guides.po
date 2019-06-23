@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:46+0100\n"
+"PO-Revision-Date: 2019-06-22 17:35+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:1
 msgid "Overview of the grids and guides docker."
-msgstr ""
+msgstr "Översikt av rutnäts- och hjälplinjepanelen."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:12
 #: ../../reference_manual/dockers/grids_and_guides.rst:63
@@ -36,15 +36,15 @@ msgstr "Isometriskt rutnät"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:12
 msgid "Orthogonal Grid"
-msgstr ""
+msgstr "Vinkelrät rutnät"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:17
 msgid "Grids and Guides Docker"
-msgstr ""
+msgstr "Rutnäts- och hjälplinjepanelen"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:19
 msgid "The grids and guides docker replaces the :ref:`grid_tool` in Krita 3.0."
-msgstr ""
+msgstr "Rutnäts- och hjälplinjepanelen ersätter :ref:`grid_tool` i Krita 3.0."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:21
 msgid ""
@@ -52,6 +52,9 @@ msgid ""
 "Guides decorations. It also features a checkbox to quickly toggle snapping "
 "on or off."
 msgstr ""
+"Panelen bestämmer utseende och synlighet av både rutnäts- och"
+" hjälplinjedekorationerna. Den har också en kryssruta för att snabbt stänga"
+" av eller sätta på låsning."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:24
 msgid "Grids"
@@ -63,6 +66,9 @@ msgid ""
 "single grid per canvas, and it is saved within the document. Thus it can be "
 "saved in a :ref:`templates`."
 msgstr ""
+"Rutnät i Krita kan för närvarande bara vara vinkelräta eller diagonala. Det"
+" finns bara ett rutnät per duk, och det sparas med dokumentet. Sålunda kan"
+" det sparas i :ref:`templates`."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:28
 msgid "Show Grid"
@@ -70,7 +76,7 @@ msgstr "Visa rutnät"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:29
 msgid "Shows or hides the grid."
-msgstr ""
+msgstr "Visar eller döljer rutnätet."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:30
 msgid "Snap to Grid"
@@ -81,22 +87,24 @@ msgid ""
 "Toggles grid snapping on or off. This can also be achieved with :kbd:`Shift "
 "+ S`."
 msgstr ""
+"Stänger av eller sätter på rutnätslåsning. Det kan också åstadkommas med"
+" :kbd:`Skift + S`."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:33
 msgid "The type of Grid"
-msgstr ""
+msgstr "Rutnätets typ"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:36
 msgid "An orthogonal grid."
-msgstr ""
+msgstr "Ett vinkelrät rutnät."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:38
 msgid "X and Y spacing"
-msgstr ""
+msgstr "X- och Y-mellanrum"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:39
 msgid "Sets the width and height of the grid in pixels."
-msgstr ""
+msgstr "Ställer in rutnätets bredd och höjd i bildpunkter."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:41
 msgid "Rectangle"
@@ -112,18 +120,22 @@ msgid ""
 "contains. A subdivision of 2 will make cells appear twice as big, and the "
 "inner lines will become subdivisions."
 msgstr ""
+"Grupperar ihop celler som större fyrkanter och ändrar utseende på linjerna de"
+" innehåller. En underdelning på 2 gör att cellerna ser dubbelt så stora ut,"
+" och de inre linjerna blir underdelningar."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:44
 msgid "A diagonal grid. Isometric doesn't support snapping."
-msgstr ""
+msgstr "Ett diagonalt rutnät. Isometriskt stöder inte låsning."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:46
 msgid "Left and Right Angle"
-msgstr ""
+msgstr "Vänster och höger vinkel"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:47
 msgid "The angle of the lines. Set both angles to 30° for true isometric."
 msgstr ""
+"Linjernas vinkel. Ställ in båda vinklarna till 30° för verkligt isometriskt."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:49
 msgid "Type"
@@ -139,7 +151,7 @@ msgstr "Cellavstånd"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:49
 msgid "Determines how much both sets of lines are spaced."
-msgstr ""
+msgstr "Bestämmer hur mycket båda uppsättningarna linjer är separerade."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:51
 msgid "Grid Offset"
@@ -150,6 +162,8 @@ msgid ""
 "Offsets the grid’s starting position from the top-left corner of the "
 "document, in pixels."
 msgstr ""
+"Flyttar rutnätets startposition från övre vänstra hörnet av dokumentet, i"
+" bildpunkter."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:53
 msgid "Main Style"
@@ -157,7 +171,7 @@ msgstr "Huvudstil"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:54
 msgid "Controls the look of the grid’s main lines."
-msgstr ""
+msgstr "Bestämmer utseende på rutnätets huvudlinjer."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:56
 msgid "Div Style"
@@ -165,7 +179,7 @@ msgstr "Delningsstil"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:56
 msgid "Controls the look of the grid’s “subdivision” lines."
-msgstr ""
+msgstr "Bestämmer utseende på rutnätets \"underdelningslinjer\"."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:59
 msgid ".. image:: images/dockers/Grid_sudvision.png"
@@ -177,12 +191,17 @@ msgid ""
 "lines are 128 px away from one another, and the intermediate lines have a "
 "different look."
 msgstr ""
+"Rutnätets grundstorlek är 64 bildpunkter. Med underdelningen 2, är"
+" huvudrutnätets linjer 128 bildpunkter från varandra, och de mellanliggande"
+" linjerna har ett annat utseende."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:65
 msgid ""
 "Guides are horizontal and vertical reference lines. You can use them to "
 "place and align layers accurately on the canvas."
 msgstr ""
+"Hjälplinjer är horisontella och vertikala referenslinjer. Man kan använda dem"
+" för att noggrant placera och justera lager på duken."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:68
 msgid ".. image:: images/dockers/Guides.jpg"
@@ -196,14 +215,16 @@ msgstr "Skapa hjälplinjer"
 msgid ""
 "To create a guide, you need both the rulers and the guides to be visible."
 msgstr ""
+"För att skapa en hjälplinje måste både linjalerna och hjälplinjerna vara"
+" synliga."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:74
 msgid "Rulers. (:menuselection:`View --> Show Rulers`)"
-msgstr ""
+msgstr "Linjaler. (:menuselection:`Visa --> Visa linjaler`)"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:75
 msgid "Guides.  (:menuselection:`View --> Show Guides`)"
-msgstr ""
+msgstr "Hjälplinjer.  (:menuselection:`Visa --> Visa hjälplinjer`)"
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:77
 msgid ""
@@ -211,6 +232,10 @@ msgid ""
 "of the canvas. A line will appear. Dragging from the left ruler creates a "
 "vertical guide, and dragging from the top ruler creates a horizontal guide."
 msgstr ""
+"Flytta markören över en linjal och dra i dukens riktning för att skapa en"
+" hjälplinje. En linje dyker upp. Att dra från vänstra linjalen skapar en"
+" vertikal hjälplinje, och att dra från övre linjalen skapar en horisontell"
+" hjälplinje."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:80
 msgid "Editing Guides"
@@ -224,6 +249,11 @@ msgid ""
 "Docker. Ensure that the Guides tab is selected. From here you can lock the "
 "guides, enable snapping, and change the line style."
 msgstr ""
+"Placera markören ovanför en hjälplinje på duken. Om hjälplinjer inte är"
+" låsta, ändras markören till en dubbelpil. Klicka och dra i så fall för att"
+" flytta hjälplinjen. Öppna rutnäts- och hjälplinjepanelen för att låsa eller"
+" låsa upp hjälplinjer. Se till att hjälplinjefliken är vald. Här kan man låsa"
+" hjälplinjer, aktivera låsning och ändra linjestil."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:87
 msgid ""
@@ -231,6 +261,10 @@ msgid ""
 "positions. The only way to achieve that for now is to zoom in on the canvas, "
 "or to use the grid and snapping to place the guide."
 msgstr ""
+"För närvarande är det inte möjligt att skapa eller flytta hjälplinjer till"
+" exakta positioner. Det enda sättet att åstadkomma det för närvarande är att"
+" zooma in på duken, eller använda rutnätet och låsning för att placera"
+" hjälplinjen."
 
 #: ../../reference_manual/dockers/grids_and_guides.rst:90
 msgid "Removing Guides"
@@ -241,3 +275,7 @@ msgid ""
 "Click on the guide you want to remove and drag it outside of the canvas "
 "area. When you release your mouse or stylus, the guide will be removed."
 msgstr ""
+"Klicka på hjälplinjen som ska tas bort och dra den utanför dukområdet. När"
+" musknappen eller pennan släpps tas hjälplinjen bort."
+
+

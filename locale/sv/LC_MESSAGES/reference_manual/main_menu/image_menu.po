@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-19 21:57+0100\n"
+"PO-Revision-Date: 2019-06-21 13:59+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -102,6 +102,8 @@ msgid ""
 "Trims all layers to the image size. Useful for reducing filesize at the loss "
 "of information."
 msgstr ""
+"Beskär alla lager till bildstorleken. Användbart för att reducera"
+" filstorleken även om information går förlorad."
 
 #: ../../reference_manual/main_menu/image_menu.rst:26
 msgid "Trim to Current Layer"
@@ -112,6 +114,8 @@ msgid ""
 "A lazy cropping function. Krita will use the size of the current layer to "
 "determine where to crop."
 msgstr ""
+"En lat beskärningsfunktion. Krita använder det nuvarande lagrets storlek för"
+" att bestämma var beskärningen ska göras."
 
 #: ../../reference_manual/main_menu/image_menu.rst:28
 msgid "Trim to Selection"
@@ -120,7 +124,7 @@ msgstr "Beskär till markering"
 #: ../../reference_manual/main_menu/image_menu.rst:29
 msgid ""
 "A lazy cropping function. Krita will crop the canvas to the selected area."
-msgstr ""
+msgstr "En lat beskärningsfunktion. Krita beskär duken till markerat område."
 
 #: ../../reference_manual/main_menu/image_menu.rst:30
 msgid "Rotate Image"
@@ -144,7 +148,7 @@ msgstr "Spegla bild horisontellt"
 
 #: ../../reference_manual/main_menu/image_menu.rst:35
 msgid "Mirror the image on the horizontal axis."
-msgstr ""
+msgstr "Spegla bilden längs den horisontella axeln."
 
 #: ../../reference_manual/main_menu/image_menu.rst:36
 msgid "Mirror Image Vertically"
@@ -152,7 +156,7 @@ msgstr "Spegla bild vertikalt"
 
 #: ../../reference_manual/main_menu/image_menu.rst:37
 msgid "Mirror the image on the vertical axis."
-msgstr ""
+msgstr "Spegla bilden längs den vertikala axeln."
 
 #: ../../reference_manual/main_menu/image_menu.rst:38
 msgid "Scale to New Size"
@@ -160,7 +164,7 @@ msgstr "Skala till ny storlek"
 
 #: ../../reference_manual/main_menu/image_menu.rst:39
 msgid "The resize function in any other program :kbd:`Ctrl + Alt + I`."
-msgstr ""
+msgstr "Storleksändringsfunktionen i andra program :kbd:`Ctrl + Alt + I`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:40
 msgid "Offset Image"
@@ -176,7 +180,7 @@ msgstr "Ändra storlek på duk"
 
 #: ../../reference_manual/main_menu/image_menu.rst:43
 msgid "Change the canvas size. Don't confuse this with Scale to new size."
-msgstr ""
+msgstr "Ändra dukens storlek. Blanda inte ihop det med Skala till ny storlek."
 
 #: ../../reference_manual/main_menu/image_menu.rst:44
 msgid "Image Split"
@@ -184,7 +188,7 @@ msgstr "Dela bild"
 
 #: ../../reference_manual/main_menu/image_menu.rst:45
 msgid "Calls up the :ref:`image_split` dialog."
-msgstr ""
+msgstr "Visar dialogrutan :ref:`image_split`."
 
 #: ../../reference_manual/main_menu/image_menu.rst:46
 msgid "Wavelet Decompose"
@@ -192,8 +196,9 @@ msgstr "Uppdelning med vågelement"
 
 #: ../../reference_manual/main_menu/image_menu.rst:47
 msgid "Does :ref:`wavelet_decompose` on the current layer."
-msgstr ""
+msgstr "Gör :ref:`wavelet_decompose` med det nuvarande lagret."
 
 #: ../../reference_manual/main_menu/image_menu.rst:49
 msgid ":ref:`Separates <separate_image>` the image into channels."
-msgstr ""
+msgstr ":ref:`Separerar <separate_image>` bilden i kanaler."
+
