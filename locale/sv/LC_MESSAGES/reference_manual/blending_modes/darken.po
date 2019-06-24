@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-05-05 08:47+0100\n"
+"PO-Revision-Date: 2019-06-23 21:35+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,9 @@ msgid ""
 "Page about the darken blending modes in Krita: Darken, Burn, Easy Burn, Fog "
 "Darken, Darker Color, Gamma Dark, Linear Burn and Shade."
 msgstr ""
+"Sida om de mörkande blandningslägena i Krita: Gör mörkare, Bränn, Enkel"
+" bränning, Mörkare dimma, Mörkare färg, Mörk gamma, Linjär bränning och"
+" Skugga."
 
 #: ../../reference_manual/blending_modes/darken.rst:16
 #: ../../reference_manual/blending_modes/darken.rst:75
@@ -31,11 +34,11 @@ msgstr "Gör mörkare"
 
 #: ../../reference_manual/blending_modes/darken.rst:18
 msgid "Color Burn"
-msgstr ""
+msgstr "Färgbränning"
 
 #: ../../reference_manual/blending_modes/darken.rst:18
 msgid "burn"
-msgstr ""
+msgstr "bränn"
 
 #: ../../reference_manual/blending_modes/darken.rst:23
 msgid "Burn"
@@ -43,7 +46,7 @@ msgstr "Bränn"
 
 #: ../../reference_manual/blending_modes/darken.rst:25
 msgid "A variation on Divide, sometimes called 'Color Burn' in some programs."
-msgstr ""
+msgstr "En variant av dividera, ibland kallad 'Färgbränning' i vissa program."
 
 #: ../../reference_manual/blending_modes/darken.rst:27
 msgid ""
@@ -52,12 +55,18 @@ msgid ""
 "lower layer into account, similar to the burn technique used in traditional "
 "darkroom photography."
 msgstr ""
+"Det här inverterar det understa lagret, och dividerar det sedan med det"
+" översta lagret, och inverterar resultatet. Det ger en mörk effekt som tar"
+" hänsyn till färgerna i det undre lagret, på liknande sätt som bränneffekter"
+" använda i traditionell mörkrumsfotografering."
 
 #: ../../reference_manual/blending_modes/darken.rst:30
 msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
 "-0.2, -0.2) → Black(0, 0, 0)"
 msgstr ""
+"1_{[1_mörkgrå(0.4, 0.4, 0.4)] / ljusgrå(0.5, 0.5, 0.5)} = (-0.2, -0.2, -0.2)"
+" → svart(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:35
 msgid ""
@@ -71,13 +80,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:42
 #: ../../reference_manual/blending_modes/darken.rst:47
 msgid "Left: **Normal**. Right: **Burn**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Bränn**."
 
 #: ../../reference_manual/blending_modes/darken.rst:37
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
 "(0.1608, 0.3749, -1.4448) → Green(0.1608, 0.3749, 0)"
 msgstr ""
+"1_{[1_ljusblå(0.1608, 0.6274, 0.8274)] / orange(1, 0.5961, 0.0706)} ="
+" (0.1608, 0.3749, -1.4448) → grön(0.1608, 0.3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:42
 msgid ""
@@ -117,15 +128,15 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:60
 msgid "Left: **Normal**. Right: **Easy Burn**"
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Enkel bränn**"
 
 #: ../../reference_manual/blending_modes/darken.rst:62
 msgid "Fog Darken"
-msgstr "Mörknande dimma"
+msgstr "Mörkare dimma"
 
 #: ../../reference_manual/blending_modes/darken.rst:66
 msgid "Fog Darken (IFS Illusions)"
-msgstr ""
+msgstr "Mörkare dimma (IFS Illusions)"
 
 #: ../../reference_manual/blending_modes/darken.rst:68
 msgid ""
@@ -145,6 +156,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:73
 msgid "Left: **Normal**. Right: **Fog Darken** (exactly the same as Addition)."
 msgstr ""
+"Vänster: **Normal**. Höger: **Mörkare dimma** (exakt samma sak som addition)."
 
 #: ../../reference_manual/blending_modes/darken.rst:81
 msgid ""
@@ -158,6 +170,8 @@ msgid ""
 "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
 "(no, no, no) → Darker Gray(0.4, 0.4, 0.4)"
 msgstr ""
+"Är ljusgrå(0.5, 0.5, 0.5) mörkare än mörkgrå(0.4, 0.4, 0.4)? = (nej, nej,"
+" nej) → mörkgrå(0.4, 0.4, 0.4)"
 
 #: ../../reference_manual/blending_modes/darken.rst:88
 msgid ""
@@ -171,13 +185,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:95
 #: ../../reference_manual/blending_modes/darken.rst:100
 msgid "Left: **Normal**. Right: **Darken**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Gör mörkare**."
 
 #: ../../reference_manual/blending_modes/darken.rst:90
 msgid ""
 "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? "
 "= (no, yes, yes) → Green(0.1608, 0.5961, 0.0706)"
 msgstr ""
+"Är orange(1, 0.5961, 0.0706) mörkare än ljusblå(0.1608, 0.6274, 0.8274)? ="
+" (nej, ja, ja) → grön(0.1608, 0.5961, 0.0706)"
 
 #: ../../reference_manual/blending_modes/darken.rst:95
 msgid ""
@@ -210,7 +226,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:111
 msgid "Left: **Normal**. Right: **Darker Color**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Mörkare färg**."
 
 #: ../../reference_manual/blending_modes/darken.rst:113
 #: ../../reference_manual/blending_modes/darken.rst:117
@@ -222,12 +238,16 @@ msgid ""
 "Divides 1 by the upper layer, and calculates the end result using that as "
 "the power of the lower layer."
 msgstr ""
+"Dividerar 1 med det översta lagret, och beräknar slutresultatet genom att"
+" använda det som det undre lagrets exponent."
 
 #: ../../reference_manual/blending_modes/darken.rst:121
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4)^[1 / Lighter Gray(0.5, 0.5, 0.5)] = Even Darker "
 "Gray(0.1600, 0.1600, 0.1600)"
 msgstr ""
+"Mörkgrå(0.4, 0.4, 0.4)^[1 / ljusgrå(0.5, 0.5, 0.5)] = Ännu mörkare"
+" grå(0.1600, 0.1600, 0.1600)"
 
 #: ../../reference_manual/blending_modes/darken.rst:126
 msgid ""
@@ -241,13 +261,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:133
 #: ../../reference_manual/blending_modes/darken.rst:138
 msgid "Left: **Normal**. Right: **Gamma Dark**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Mörk gamma**."
 
 #: ../../reference_manual/blending_modes/darken.rst:128
 msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274)^[1 / Orange(1, 0.5961, 0.0706)] = "
 "Green(0.1608, 0.4575, 0.0683)"
 msgstr ""
+"Ljusblå(0.1608, 0.6274, 0.8274)^[1 / orange(1, 0.5961, 0.0706)] ="
+" grön(0.1608, 0.4575, 0.0683)"
 
 #: ../../reference_manual/blending_modes/darken.rst:133
 msgid ""
@@ -268,7 +290,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:140
 #: ../../reference_manual/blending_modes/darken.rst:144
 msgid "Linear Burn"
-msgstr "Linjär bränn"
+msgstr "Linjär bränning"
 
 #: ../../reference_manual/blending_modes/darken.rst:146
 msgid ""
@@ -281,6 +303,8 @@ msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
 "-0.1000, -0.1000)  → Black(0, 0, 0)"
 msgstr ""
+"[mörkgrå(0.4, 0.4, 0.4) + ljusgrå(0.5, 0.5, 0.5)]_1 = (-0.1000, -0.1000,"
+" -0.1000)  → svart(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:153
 msgid ""
@@ -294,13 +318,15 @@ msgstr ""
 #: ../../reference_manual/blending_modes/darken.rst:160
 #: ../../reference_manual/blending_modes/darken.rst:165
 msgid "Left: **Normal**. Right: **Linear Burn**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Linjär bränning**."
 
 #: ../../reference_manual/blending_modes/darken.rst:155
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
 "(0.1608, 0.2235, -0.1020) → Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
+"[ljusblå(0.1608, 0.6274, 0.8274) + orange(1, 0.5961, 0.0706)]_1 = (0.1608,"
+" 0.2235, -0.1020) → mörkgrön(0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:160
 msgid ""
@@ -320,11 +346,11 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:167
 msgid "Shade"
-msgstr ""
+msgstr "Skugga"
 
 #: ../../reference_manual/blending_modes/darken.rst:171
 msgid "Shade (IFS Illusions)"
-msgstr ""
+msgstr "Skugga (IFS Illusions)"
 
 #: ../../reference_manual/blending_modes/darken.rst:173
 msgid ""
@@ -343,4 +369,5 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/darken.rst:179
 msgid "Left: **Normal**. Right: **Shade**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Skugga**."
+
