@@ -90,6 +90,8 @@ MacOS X
 
 The kritarc file is the configuration file. Krita does not store settings in the Windows registry.
 
+.. _faq_reset_krita_configuration:
+
 Resetting Krita configuration
 -----------------------------
 
