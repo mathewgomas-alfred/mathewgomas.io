@@ -29,7 +29,7 @@ Reference Documentation:
     * `Directives <http://docutils.sourceforge.net/docs/ref/rst/directives.html>`_
     * `Roles <http://docutils.sourceforge.net/docs/ref/rst/roles.html>`_
 Sphinx specific docs:
-    * `Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ -- This is useful for the specific sphinx directives and roles it uses to generate for example table of contents.
+    * `Sphinx' page on restructured text <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ -- This is useful for the specific sphinx directives and roles it uses to generate for example table of contents.
 
 There are differences between the official reStructuredText and the sphinx docs multiple ways to do things. This document specifies the suggested conventions to go with.
 
@@ -102,7 +102,7 @@ Headings will be done in the following order::
     Heading 6
     """""""""
 
-These conventions were more or less decided by pandoc's mediawiki to reStructuredText conversion. If you need more than 4 headings, ask yourself first if the page hasn't gotten too complicated and needs splitting up.
+These conventions were more or less decided by `Pandoc <https://pandoc.org/>`_'s mediawiki to reStructuredText conversion. If you need more than 4 headings, ask yourself first if the page hasn't gotten too complicated and needs splitting up.
 
 Sometimes you need to link to a subsection of a page, add a label above the heading in that case.
 
@@ -115,7 +115,7 @@ Linking is done with ``:ref:`label_name```. When you need an alternative link te
 
 Linking to external pages is done with ```url`_`` and ```link name <url>`_``, which'll become `link name <url>`_.
 
-Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url `` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated with one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
+`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` and then add `` .. __ :url `` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated with one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
 
 Footnotes and further reading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,7 +136,7 @@ Here is a citation reference: [CIT2002]_ .
 .. [CIT2002] This is the citation.  It's just like a footnote,
    except the label is textual.
 
-Citation can also be referenced with `citation <CIT2002>`_
+Citation can also be referenced with ```citation <CIT2002>`_``.
 
 We don't actually use footnotes in the manual due to the fact that it is a little bit too academical for our readers. However, we do collect documents and links that give a little bit more information on a topic at the end of a page. Sphinx has the ``.. seealso::`` directive for linking to external links, while reStructuredText suggests to use ``.. rubic:: Footnotes`` for specifically collecting footnotes as that plays nice with LaTeX.
 
@@ -263,7 +263,7 @@ Unordered lists
     - seagreen
     - verdigris
     - teal
-    - veridian
+    - viridian
     - emerald
         - dark emerald
         - light emerald
@@ -291,7 +291,7 @@ Definition Lists
 A favourite! Definition lists are especially useful when dealing with enumerating all the options in a docker and trying to add a simple explanation behind them.
 
 Definition
-    explanation.
+    Explanation.
 Another option
     Explanation.
 
@@ -299,7 +299,7 @@ To make them.
     You can make them like this::
     
        Definition
-            explanation.
+           Explanation.
        Another option
            Explanation.
 
@@ -359,11 +359,11 @@ Admonishments that can be used are the following (in order of seriousness):
 
 .. hint::
 
-    Hints are useful to give a little bit more information on a topic than is useful in the main text. Like, hint: these packages are named differently in openSuse versus Debian.
+    Hints are useful to give a little bit more information on a topic than is useful in the main text. Like, "These packages are named differently in openSuse versus Debian".
 
 .. tip::
 
-    Extra information on how to do something, like, "you can make a template of your favourite document setup", or "use m to mirror the canvas and see errors more easily in your drawing".
+    Extra information on how to do something, like, "You can make a template of your favourite document setup", or "Use m to mirror the canvas and see errors more easily in your drawing".
 
 .. important::
 
@@ -379,7 +379,7 @@ Admonishments that can be used are the following (in order of seriousness):
 
 .. caution::
 
-    This is for things that could cause dataloss, like forgetting to save, or that python currently has no undo functionality.
+    This is for things that could cause dataloss, like forgetting to save, or that Python currently has no undo functionality.
 
 .. danger::
 
@@ -389,13 +389,15 @@ Admonishments that can be used are the following (in order of seriousness):
 
     This one is probably not relevant for a manual. Sphinx can create these manually given some situations, but our configuration does not do so by default.
 
-.. admonition:: generic admonition that can have any text.
+.. admonition:: Generic admonition that can have any text
 
-    This looks like the following::
+    Text.
 
-        .. admonition:: generic admonition that can have any text.
+You can make it like this::
 
-            Text
+    .. admonition:: Generic admonition that can have any text
+
+        Text.
 
 
 
@@ -415,11 +417,11 @@ Sphinx also adds::
 
 That said, horizontal rulers can be made with ``----``.
 
-.. rubric:: The rubric directive.
+.. rubric:: The rubric directive
 
 The rubric directive is a heading directive that at first glance looks like "topic", but where the topic is over several paragraphs, rubric itself only deals with the header, like so::
 
-    .. rubric:: The rubric directive.
+    .. rubric:: The rubric directive
 
 
 .. rubric:: So, when to use these?
@@ -448,8 +450,8 @@ You can also use the ``.. code::`` directive. If you add the language name after
 
     .. code:: python
 
+        # Python comment
         def my_function():
-            # comment
             alist = []
             alist.append(1)
             string = "hello world"
@@ -458,8 +460,8 @@ Becomes
 
 .. code:: python
 
+    # Python comment
     def my_function():
-        # comment
         alist = []
         alist.append(1)
         string = "hello world"
@@ -468,6 +470,7 @@ some more...
 
 .. code:: c++
 
+    // C++ comment
     int myFunction(int i) {
         i += 1;
 
@@ -480,6 +483,7 @@ some more...
 
 .. code:: css
 
+    /* CSS comment */
     body {
         margin: 0 auto;
         /* is 800 still sensible? */
@@ -494,7 +498,7 @@ some more...
 
 .. code:: html
 
-    <p>this <span style="font-style:italic">is</span> <!-- a comment --> a paragraph.</p>
+    <p>this <span style="font-style:italic">is</span> <!-- a HTML comment --> a paragraph.</p>
     
 Other preformatted text
 -----------------------
