@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributors_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 03:16+0200\n"
-"PO-Revision-Date: 2019-06-24 10:06+0200\n"
+"POT-Creation-Date: 2019-06-25 03:10+0200\n"
+"PO-Revision-Date: 2019-06-25 09:28+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -51,6 +51,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: mousescroll"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Regles horitzontals"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/sample.png\n"
@@ -58,10 +62,6 @@ msgid ""
 msgstr ""
 ".. image:: images/sample.png\n"
 "   :alt: una imatge."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Regles horitzontals"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -161,8 +161,13 @@ msgstr "Documentació específica de Sphinx:"
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_conventions.rst:32
+#| msgid ""
+#| "`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
+#| "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
+#| "sphinx directives and roles it uses to generate for example table of "
+#| "contents."
 msgid ""
-"`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
+"`Sphinx' page on restructured text <https://www.sphinx-doc.org/en/master/"
 "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
@@ -364,10 +369,16 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_conventions.rst:105
+#| msgid ""
+#| "These conventions were more or less decided by pandoc's mediawiki to "
+#| "reStructuredText conversion. If you need more than 4 headings, ask "
+#| "yourself first if the page hasn't gotten too complicated and needs "
+#| "splitting up."
 msgid ""
-"These conventions were more or less decided by pandoc's mediawiki to "
-"reStructuredText conversion. If you need more than 4 headings, ask yourself "
-"first if the page hasn't gotten too complicated and needs splitting up."
+"These conventions were more or less decided by `Pandoc <https://pandoc.org/"
+">`_'s mediawiki to reStructuredText conversion. If you need more than 4 "
+"headings, ask yourself first if the page hasn't gotten too complicated and "
+"needs splitting up."
 msgstr ""
 "Aquestes convencions van ser més o menys decidides al mediawiki de `Pandoc "
 "<https://pandoc.org/>`_ per a la conversió a «reStructuredText». Si "
@@ -415,13 +426,22 @@ msgstr ""
 
 # skip-rule: t-acc_obe,t-sp_2p,t-2p_sp
 #: ../../contributors_manual/krita_manual_conventions.rst:118
+#| msgid ""
+#| "Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :"
+#| "url `` at the end of the document. This is a so-called 'anonymous "
+#| "hyperlink', meaning that depending on the order of the links appearing in "
+#| "the text the order of the links at the end of the text are associated "
+#| "with one another. If this sounds confusing and difficult, it is because "
+#| "it is. That is also the exact reason why we'd like to avoid links like "
+#| "these."
 msgid ""
-"Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url "
-"`` at the end of the document. This is a so-called 'anonymous hyperlink', "
-"meaning that depending on the order of the links appearing in the text the "
-"order of the links at the end of the text are associated with one another. "
-"If this sounds confusing and difficult, it is because it is. That is also "
-"the exact reason why we'd like to avoid links like these."
+"`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` "
+"and then add `` .. __ :url `` at the end of the document. This is a so-"
+"called 'anonymous hyperlink', meaning that depending on the order of the "
+"links appearing in the text the order of the links at the end of the text "
+"are associated with one another. If this sounds confusing and difficult, it "
+"is because it is. That is also the exact reason why we'd like to avoid links "
+"like these."
 msgstr ""
 "A `Pandoc <https://pandoc.org/>`_ li agrada convertir-los en "
 "```nom_enllaç`__`` i després afegir ``.. __ :url`` al final del document. "
@@ -480,7 +500,8 @@ msgstr ""
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_conventions.rst:139
-msgid "Citation can also be referenced with `citation <CIT2002>`_"
+#| msgid "Citation can also be referenced with `citation <CIT2002>`_"
+msgid "Citation can also be referenced with ```citation <CIT2002>`_``."
 msgstr "També s'hi pot fer referència amb ```cita <CIT2002>`_``."
 
 # skip-rule: t-acc_obe
@@ -575,8 +596,8 @@ msgid ""
 "You can make text *emphasized* and **strong** with a single asterisk and "
 "double respectively::"
 msgstr ""
-"Podeu fer que el text estigui *emfatitzat* i **fort** amb un sol asterisc i "
-"doble respectivament::"
+"Podeu fer que el text estigui *emfatitzat* i **destacat** amb un sol asterisc "
+"i doble respectivament::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:179
 msgid ""
@@ -584,11 +605,12 @@ msgid ""
 "**strong**"
 msgstr ""
 "*emfatitzat*\n"
-"**fort**"
+"**destacat**"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:182
 msgid "You cannot do both ***emphasized and strong***, so take a pick."
-msgstr "No podreu fer ambdues coses, ***emfatitzat i fort***, així que trieu."
+msgstr ""
+"No podreu fer ambdues coses, ***emfatitzat i destacat***, així que trieu."
 
 # skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_conventions.rst:184
@@ -822,7 +844,8 @@ msgid "teal"
 msgstr "xarxet"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:266
-msgid "veridian"
+#| msgid "veridian"
+msgid "viridian"
 msgstr "viridian"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:268
@@ -901,25 +924,27 @@ msgid "Definition"
 msgstr "Definició"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:294
-msgid "explanation."
+#: ../../contributors_manual/krita_manual_conventions.rst:296
+msgid "Explanation."
 msgstr "Explicació."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:296
 msgid "Another option"
 msgstr "Una altra opció"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:296
-msgid "Explanation."
-msgstr "Explicació."
-
 #: ../../contributors_manual/krita_manual_conventions.rst:299
 msgid "You can make them like this::"
 msgstr "Per a crear-les farem el següent::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:301
+#| msgid ""
+#| "Definition\n"
+#| "     explanation.\n"
+#| "Another option\n"
+#| "    Explanation."
 msgid ""
 "Definition\n"
-"     explanation.\n"
+"    Explanation.\n"
 "Another option\n"
 "    Explanation."
 msgstr ""
@@ -1051,7 +1076,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:352
 msgid "Admonishments and asides"
-msgstr "Amonestacions i aparts"
+msgstr "Amonestacions i apartats"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:356
 msgid ""
@@ -1069,19 +1094,27 @@ msgstr ""
 "serietat):"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:362
+#| msgid ""
+#| "Hints are useful to give a little bit more information on a topic than is "
+#| "useful in the main text. Like, hint: these packages are named differently "
+#| "in openSuse versus Debian."
 msgid ""
 "Hints are useful to give a little bit more information on a topic than is "
-"useful in the main text. Like, hint: these packages are named differently in "
-"openSuse versus Debian."
+"useful in the main text. Like, \"These packages are named differently in "
+"openSuse versus Debian\"."
 msgstr ""
 "Els suggeriments són útils per a proporcionar una mica més d'informació "
 "sobre un tema que és útil en el text principal. Com ara, «Aquests paquets "
 "s'anomenen de diferent manera a openSUSE en comparació amb Debian»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:366
+#| msgid ""
+#| "Extra information on how to do something, like, \"you can make a template "
+#| "of your favourite document setup\", or \"use m to mirror the canvas and "
+#| "see errors more easily in your drawing\"."
 msgid ""
-"Extra information on how to do something, like, \"you can make a template of "
-"your favourite document setup\", or \"use m to mirror the canvas and see "
+"Extra information on how to do something, like, \"You can make a template of "
+"your favourite document setup\", or \"Use m to mirror the canvas and see "
 "errors more easily in your drawing\"."
 msgstr ""
 "Informació addicional sobre com fer alguna cosa, com ara, «Podeu crear una "
@@ -1109,9 +1142,12 @@ msgstr ""
 "les dades."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:382
+#| msgid ""
+#| "This is for things that could cause dataloss, like forgetting to save, or "
+#| "that python currently has no undo functionality."
 msgid ""
 "This is for things that could cause dataloss, like forgetting to save, or "
-"that python currently has no undo functionality."
+"that Python currently has no undo functionality."
 msgstr ""
 "És per a coses que poden provocar pèrdua de les dades, com oblidar-vos de "
 "desar o que el Python no disposa actualment de la funcionalitat de desfer."
@@ -1135,28 +1171,38 @@ msgstr ""
 "ho fa de manera predeterminada."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
-msgid "generic admonition that can have any text."
+#| msgid "generic admonition that can have any text."
+msgid "Generic admonition that can have any text"
 msgstr "Amonestació genèrica que pot contenir qualsevol text"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:394
-msgid "This looks like the following::"
-msgstr "Aquesta podria semblar-se al següent:"
+msgid "Text."
+msgstr "Text."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:396
+#| msgid "You can make them like this::"
+msgid "You can make it like this::"
+msgstr "Per a crear-les farem el següent::"
+
+#: ../../contributors_manual/krita_manual_conventions.rst:398
+#| msgid ""
+#| ".. admonition:: generic admonition that can have any text.\n"
+#| "\n"
+#| "    Text"
 msgid ""
-".. admonition:: generic admonition that can have any text.\n"
+".. admonition:: Generic admonition that can have any text\n"
 "\n"
-"    Text"
+"    Text."
 msgstr ""
 ".. admonition:: Amonestació genèrica que pot contenir qualsevol text\n"
 "\n"
 "    Text."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:402
+#: ../../contributors_manual/krita_manual_conventions.rst:404
 msgid "Sphinx also adds::"
 msgstr "L'Sphinx també afegeix::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:404
+#: ../../contributors_manual/krita_manual_conventions.rst:406
 msgid ""
 ".. seealso::\n"
 "\n"
@@ -1167,7 +1213,7 @@ msgstr ""
 "    És útil per a recopilar enllaços externs i referències."
 
 # skip-rule: t-acc_obe
-#: ../../contributors_manual/krita_manual_conventions.rst:412
+#: ../../contributors_manual/krita_manual_conventions.rst:414
 msgid ""
 "Horizontal rulers are usually used when the topic switches rather directly. "
 "This is very common in more narrative based writing, such as history or "
@@ -1191,15 +1237,16 @@ msgstr ""
 "lectura."
 
 # skip-rule: t-acc_obe
-#: ../../contributors_manual/krita_manual_conventions.rst:416
+#: ../../contributors_manual/krita_manual_conventions.rst:418
 msgid "That said, horizontal rulers can be made with ``----``."
 msgstr "Dit això, els regles horitzontals es poden crear amb ``----``."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:419
-msgid "The rubric directive."
+#: ../../contributors_manual/krita_manual_conventions.rst:421
+#| msgid "The rubric directive."
+msgid "The rubric directive"
 msgstr "La directiva «rubric»"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:420
+#: ../../contributors_manual/krita_manual_conventions.rst:422
 msgid ""
 "The rubric directive is a heading directive that at first glance looks like "
 "\"topic\", but where the topic is over several paragraphs, rubric itself "
@@ -1209,15 +1256,16 @@ msgstr ""
 "sembla un «tema», però quan el tema té diversos paràgrafs, «rubric» només "
 "tractarà la capçalera, de la següent manera:"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:422
-msgid ".. rubric:: The rubric directive."
+#: ../../contributors_manual/krita_manual_conventions.rst:424
+#| msgid ".. rubric:: The rubric directive."
+msgid ".. rubric:: The rubric directive"
 msgstr ".. rubric:: La directiva «rubric»"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:426
+#: ../../contributors_manual/krita_manual_conventions.rst:428
 msgid "So, when to use these?"
 msgstr "Llavors, quan emprar-la?"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:427
+#: ../../contributors_manual/krita_manual_conventions.rst:429
 msgid ""
 "Only use them when you think the subject is too minor to have a proper "
 "heading."
@@ -1225,22 +1273,23 @@ msgstr ""
 "Utilitzeu-la només si creieu que el tema és massa petit per a tenir una "
 "capçalera adequada."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:429
+#: ../../contributors_manual/krita_manual_conventions.rst:431
 msgid "Topic"
 msgstr "Topic"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:430
+#: ../../contributors_manual/krita_manual_conventions.rst:432
 msgid ""
 "When the text is separated from the flow, so it goes into a different "
 "subject than the text itself is naturally going to."
 msgstr ""
-"Quan el text estigui separat del flux principal, es tracta d'un tema diferent."
+"Quan el text estigui separat del flux principal, es tracta d'un tema "
+"diferent."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:431
+#: ../../contributors_manual/krita_manual_conventions.rst:433
 msgid "Rubric"
 msgstr "Rubric"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:432
+#: ../../contributors_manual/krita_manual_conventions.rst:434
 msgid ""
 "When the text isn't separated from the flow, but it does not need a header "
 "either."
@@ -1248,11 +1297,11 @@ msgstr ""
 "Quan el text no està separat del flux principal, però tampoc necessita una "
 "capçalera."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:434
+#: ../../contributors_manual/krita_manual_conventions.rst:436
 msgid "Admonishments"
 msgstr "Amonestacions"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:434
+#: ../../contributors_manual/krita_manual_conventions.rst:436
 msgid ""
 "Only when they fit semantically. This is especially necessary for the danger "
 "and warning admonishments, as seeing them too often can make users blind to "
@@ -1262,17 +1311,17 @@ msgstr ""
 "amonestacions sobre perill i avís, ja que veure-les amb massa freqüència pot "
 "fer que els usuaris no les vegin."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:437
+#: ../../contributors_manual/krita_manual_conventions.rst:439
 msgid "Code Snippets"
 msgstr "Retalls de codi"
 
 # skip-rule: t-acc_obe
-#: ../../contributors_manual/krita_manual_conventions.rst:439
+#: ../../contributors_manual/krita_manual_conventions.rst:441
 msgid "``Inline code snippets`` are done with ````backticks````."
 msgstr "Els ``retalls de codi inclosos`` es fan amb ````accents oberts````."
 
 # skip-rule: t-acc_obe
-#: ../../contributors_manual/krita_manual_conventions.rst:441
+#: ../../contributors_manual/krita_manual_conventions.rst:443
 msgid ""
 "Multi-line code snippets are done by ending the previous section with ``::"
 "``, which'll look like this::"
@@ -1280,7 +1329,7 @@ msgstr ""
 "Els retalls de codi de múltiples línies es realitzen en finalitzar la secció "
 "anterior amb ``::``, el qual es veurà així::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:443
+#: ../../contributors_manual/krita_manual_conventions.rst:445
 msgid ""
 "This is a paragraph, and we define a preformated snippet like so::\n"
 "\n"
@@ -1293,7 +1342,7 @@ msgstr ""
 "començar el retall."
 
 # skip-rule: t-acc_obe
-#: ../../contributors_manual/krita_manual_conventions.rst:447
+#: ../../contributors_manual/krita_manual_conventions.rst:449
 msgid ""
 "You can also use the ``.. code::`` directive. If you add the language name "
 "after it, it'll do the appropriate syntax highlighting::"
@@ -1301,48 +1350,73 @@ msgstr ""
 "També podeu utilitzar la directiva ``.. code::``. Si afegiu el nom del "
 "llenguatge després d'aquest, es farà el ressaltat de sintaxi apropiat::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:449
+#: ../../contributors_manual/krita_manual_conventions.rst:451
+#| msgid ""
+#| ".. code:: python\n"
+#| "\n"
+#| "    def my_function():\n"
+#| "        # comment\n"
+#| "        alist = []\n"
+#| "        alist.append(1)\n"
+#| "        string = \"hello world\""
 msgid ""
 ".. code:: python\n"
 "\n"
+"    # Python comment\n"
 "    def my_function():\n"
-"        # comment\n"
 "        alist = []\n"
 "        alist.append(1)\n"
 "        string = \"hello world\""
 msgstr ""
 ".. code:: python\n"
 "\n"
+"    # comentari a Python\n"
 "    def my_function():\n"
-"        # comentari\n"
 "        alist = []\n"
 "        alist.append(1)\n"
 "        string = \"hola món\""
 
-#: ../../contributors_manual/krita_manual_conventions.rst:457
+#: ../../contributors_manual/krita_manual_conventions.rst:459
 msgid "Becomes"
 msgstr "Esdevindrà"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:466
+#: ../../contributors_manual/krita_manual_conventions.rst:468
+#| msgid ""
+#| "def my_function():\n"
+#| "    # comment\n"
+#| "    alist = []\n"
+#| "    alist.append(1)\n"
+#| "    string = \"hello world\""
 msgid ""
+"# Python comment\n"
 "def my_function():\n"
-"    # comment\n"
 "    alist = []\n"
 "    alist.append(1)\n"
 "    string = \"hello world\""
 msgstr ""
+"# comentari a Python\n"
 "def my_function():\n"
-"    # comentari\n"
 "    alist = []\n"
 "    alist.append(1)\n"
 "    string = \"hola món\""
 
-#: ../../contributors_manual/krita_manual_conventions.rst:467
+#: ../../contributors_manual/krita_manual_conventions.rst:469
 msgid "some more..."
 msgstr "alguns més..."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:480
+#: ../../contributors_manual/krita_manual_conventions.rst:483
+#| msgid ""
+#| "int myFunction(int i) {\n"
+#| "    i += 1;\n"
+#| "\n"
+#| "    // Check if more than 12\n"
+#| "    if (i>12) {\n"
+#| "        i = 0;\n"
+#| "    }\n"
+#| "    return i;\n"
+#| "}"
 msgid ""
+"// C++ comment\n"
 "int myFunction(int i) {\n"
 "    i += 1;\n"
 "\n"
@@ -1353,6 +1427,7 @@ msgid ""
 "    return i;\n"
 "}"
 msgstr ""
+"# comentari a C++\n"
 "int myFunction(int i) {\n"
 "    i += 1;\n"
 "\n"
@@ -1363,8 +1438,21 @@ msgstr ""
 "    return i;\n"
 "}"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:494
+#: ../../contributors_manual/krita_manual_conventions.rst:498
+#| msgid ""
+#| "body {\n"
+#| "    margin: 0 auto;\n"
+#| "    /* is 800 still sensible? */\n"
+#| "    max-width:800px;\n"
+#| "    font-size:16px;\n"
+#| "    color:#333;\n"
+#| "    background-color: #eee;\n"
+#| "    padding:1em;\n"
+#| "    font-family:serif;\n"
+#| "    line-height: 1.4;\n"
+#| "}"
 msgid ""
+"/* CSS comment */\n"
 "body {\n"
 "    margin: 0 auto;\n"
 "    /* is 800 still sensible? */\n"
@@ -1377,6 +1465,7 @@ msgid ""
 "    line-height: 1.4;\n"
 "}"
 msgstr ""
+"# comentari a CSS\n"
 "body {\n"
 "    margin: 0 auto;\n"
 "    /* 800 encara és sensat? */\n"
@@ -1389,51 +1478,55 @@ msgstr ""
 "    line-height: 1.4;\n"
 "}"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:498
+#: ../../contributors_manual/krita_manual_conventions.rst:502
+#| msgid ""
+#| "<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
+#| "paragraph.</p>"
 msgid ""
-"<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
-"paragraph.</p>"
+"<p>this <span style=\"font-style:italic\">is</span> <!-- a HTML comment --> "
+"a paragraph.</p>"
 msgstr ""
-"<p>aquest <span style=\"font-style:italic\">és</span> <!-- un comentari --> "
-"un paràgraf.</p>"
+"<p>aquest <span style=\"font-style:italic\">és</span> <!-- un comentari a"
+" HTML "
+"--> un paràgraf.</p>"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:500
+#: ../../contributors_manual/krita_manual_conventions.rst:504
 msgid "Other preformatted text"
 msgstr "Altres text amb formatat previ"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:503
+#: ../../contributors_manual/krita_manual_conventions.rst:507
 msgid "One can"
 msgstr "Es pot"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:504
+#: ../../contributors_manual/krita_manual_conventions.rst:508
 msgid "preformat"
 msgstr "formatar prèviament"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:505
+#: ../../contributors_manual/krita_manual_conventions.rst:509
 msgid "text by"
 msgstr "el text"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:506
+#: ../../contributors_manual/krita_manual_conventions.rst:510
 msgid "prepending"
 msgstr "anteposant"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:507
+#: ../../contributors_manual/krita_manual_conventions.rst:511
 msgid "each line"
 msgstr "cada línia"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:508
+#: ../../contributors_manual/krita_manual_conventions.rst:512
 msgid "with a pipe"
 msgstr "amb un caràcter"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:509
+#: ../../contributors_manual/krita_manual_conventions.rst:513
 msgid "symbol"
 msgstr "de barra vertical"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:511
+#: ../../contributors_manual/krita_manual_conventions.rst:515
 msgid "Like so::"
 msgstr "D'aquesta manera::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:513
+#: ../../contributors_manual/krita_manual_conventions.rst:517
 msgid ""
 "| One can\n"
 "| preformat\n"
@@ -1451,19 +1544,19 @@ msgstr ""
 "| amb un caràcter\n"
 "| de barra vertical"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:521
+#: ../../contributors_manual/krita_manual_conventions.rst:525
 msgid "We don't actually use this anywhere in the manual."
 msgstr "En realitat, no ho emprem enlloc del manual."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:524
+#: ../../contributors_manual/krita_manual_conventions.rst:528
 msgid "Glossaries, Terms and Index"
 msgstr "Glossaris, termes i índexs"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:526
+#: ../../contributors_manual/krita_manual_conventions.rst:530
 msgid "These are sphinx features."
 msgstr "Aquestes són característiques de l'Sphinx."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:528
+#: ../../contributors_manual/krita_manual_conventions.rst:532
 msgid ""
 "Index is used in the top section, right now only single index entries are "
 "used."
@@ -1471,22 +1564,22 @@ msgstr ""
 "«index» s'empra a la secció superior, en aquest moment només s'empren "
 "entrades «index» úniques."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:530
+#: ../../contributors_manual/krita_manual_conventions.rst:534
 msgid ""
 "Glossaries are used for some of the menu entry sections, but not all of them."
 msgstr ""
 "Els glossaris s'utilitzen per a algunes de les seccions amb entrades del "
 "menú, però no per a totes."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:533
+#: ../../contributors_manual/krita_manual_conventions.rst:537
 msgid "Quotes"
 msgstr "Cites de bloc"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:535
+#: ../../contributors_manual/krita_manual_conventions.rst:539
 msgid "Quotes are done like this::"
 msgstr "Les cites de bloc es fan així::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:537
+#: ../../contributors_manual/krita_manual_conventions.rst:541
 msgid ""
 "I am not sure why you'd need quotes in a user manual...\n"
 "\n"
@@ -1498,19 +1591,19 @@ msgstr ""
 "\n"
 "-- Wolthera"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:541
+#: ../../contributors_manual/krita_manual_conventions.rst:545
 msgid "This becomes a blockquote."
 msgstr "Això esdevindrà en una cita de bloc (blockquote)."
 
 # skip-rule: punctuation-period,punctuation-3period
-#: ../../contributors_manual/krita_manual_conventions.rst:543
+#: ../../contributors_manual/krita_manual_conventions.rst:547
 msgid "I am not sure why you'd need quotes in a user manual..."
 msgstr ""
 "I am not sure why you'd need quotes in a user manual...\n"
 "(No estic segur de perquè necessitaríeu cites de bloc en un manual "
 "d'usuari...)"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:547
+#: ../../contributors_manual/krita_manual_conventions.rst:551
 msgid ""
 "We do actually use quotes in some places. Try to add a link to the name to "
 "define where it came from."
@@ -1518,6 +1611,12 @@ msgstr ""
 "En realitat utilitzem cites de bloc en alguns llocs. Intenteu afegir un "
 "enllaç al nom per a definir d'on ve."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:548
+#: ../../contributors_manual/krita_manual_conventions.rst:552
 msgid "Wolthera"
 msgstr "Wolthera"
+
+#~ msgid "explanation."
+#~ msgstr "Explicació."
+
+#~ msgid "This looks like the following::"
+#~ msgstr "Aquesta podria semblar-se al següent:"

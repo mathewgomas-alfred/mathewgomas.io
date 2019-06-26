@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_contributors_manual___krita_manual_conventions\n"
+"Project-Id-Version: docs_krita_org_contributors_manual___krita_manual_conventi"
+"ons\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-24 03:16+0200\n"
-"PO-Revision-Date: 2019-05-05 20:25+0300\n"
+"POT-Creation-Date: 2019-06-25 03:10+0200\n"
+"PO-Revision-Date: 2019-06-25 07:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -53,6 +53,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: mousescroll"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Горизонтальні лінійки"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/sample.png\n"
@@ -60,10 +64,6 @@ msgid ""
 msgstr ""
 ".. image:: images/sample.png\n"
 "   :alt: зображення."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Горизонтальні лінійки"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -152,13 +152,18 @@ msgid "Sphinx specific docs:"
 msgstr "Специфічна документація до Sphinx:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:32
+#| msgid ""
+#| "`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
+#| "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
+#| "sphinx directives and roles it uses to generate for example table of "
+#| "contents."
 msgid ""
-"`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
+"`Sphinx' page on restructured text <https://www.sphinx-doc.org/en/master/"
 "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
 msgstr ""
-"`Сторінка Sphinx щодо текстів restructured <http://www.sphinx-doc.org/en/"
+"`Сторінка Sphinx щодо текстів restructured <https://www.sphinx-doc.org/en/"
 "master/usage/restructuredtext/index.html>`_ — корисна для вивчення "
 "специфічних для sphinx команд та їхнього використання для створення, "
 "наприклад, таблиці змісту підручника."
@@ -348,13 +353,20 @@ msgstr ""
 "\"\"\"\"\"\"\"\"\"\"\""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:105
+#| msgid ""
+#| "These conventions were more or less decided by pandoc's mediawiki to "
+#| "reStructuredText conversion. If you need more than 4 headings, ask "
+#| "yourself first if the page hasn't gotten too complicated and needs "
+#| "splitting up."
 msgid ""
-"These conventions were more or less decided by pandoc's mediawiki to "
-"reStructuredText conversion. If you need more than 4 headings, ask yourself "
-"first if the page hasn't gotten too complicated and needs splitting up."
+"These conventions were more or less decided by `Pandoc <https://pandoc.org/"
+">`_'s mediawiki to reStructuredText conversion. If you need more than 4 "
+"headings, ask yourself first if the page hasn't gotten too complicated and "
+"needs splitting up."
 msgstr ""
 "Усі ці правила більшою чи меншою мірою визначила програма для перетворення "
-"даних mediawiki pandoc до reStructuredText. Якщо у вас більше 4 рівнів "
+"даних mediawiki `Pandoc <https://pandoc.org/>`_ до reStructuredText. Якщо у"
+" вас більше 4 рівнів "
 "заголовків, переконайтеся, що сторінка не є надто складною і не потребує "
 "поділу на частини."
 
@@ -397,15 +409,25 @@ msgstr ""
 "<адреса>`_."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:118
+#| msgid ""
+#| "Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :"
+#| "url `` at the end of the document. This is a so-called 'anonymous "
+#| "hyperlink', meaning that depending on the order of the links appearing in "
+#| "the text the order of the links at the end of the text are associated "
+#| "with one another. If this sounds confusing and difficult, it is because "
+#| "it is. That is also the exact reason why we'd like to avoid links like "
+#| "these."
 msgid ""
-"Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :url "
-"`` at the end of the document. This is a so-called 'anonymous hyperlink', "
-"meaning that depending on the order of the links appearing in the text the "
-"order of the links at the end of the text are associated with one another. "
-"If this sounds confusing and difficult, it is because it is. That is also "
-"the exact reason why we'd like to avoid links like these."
+"`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` "
+"and then add `` .. __ :url `` at the end of the document. This is a so-"
+"called 'anonymous hyperlink', meaning that depending on the order of the "
+"links appearing in the text the order of the links at the end of the text "
+"are associated with one another. If this sounds confusing and difficult, it "
+"is because it is. That is also the exact reason why we'd like to avoid links "
+"like these."
 msgstr ""
-"Pandoc перетворює посилання на ```назва_посилання`__`` і потім додає `` .. "
+"`Pandoc <https://pandoc.org/>`_ перетворює посилання на"
+" ```назва_посилання`__`` і потім додає `` .. "
 "__ :url `` наприкінці документа. Це так зване «анонімне посилання», що "
 "означає, що залежно порядок посилань наприкінці документа залежатиме від від "
 "порядку посилань у тексті. Це може здатися незручним та складним, але як уже "
@@ -458,8 +480,9 @@ msgstr ""
 "Це цитата. Вона подібна до підрядкової примітки, але мітка у ній є текстовою."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:139
-msgid "Citation can also be referenced with `citation <CIT2002>`_"
-msgstr "На цитату також можна посилатися. Ось так: `цитата <CIT2002>`_"
+#| msgid "Citation can also be referenced with `citation <CIT2002>`_"
+msgid "Citation can also be referenced with ```citation <CIT2002>`_``."
+msgstr "На цитату також можна посилатися. Ось так: ```цитата <CIT2002>`_``."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:141
 msgid ""
@@ -794,7 +817,8 @@ msgid "teal"
 msgstr "синьо-зелений"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:266
-msgid "veridian"
+#| msgid "veridian"
+msgid "viridian"
 msgstr "темно-зелений"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:268
@@ -871,32 +895,34 @@ msgid "Definition"
 msgstr "Визначення"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:294
-msgid "explanation."
-msgstr "пояснення."
+#: ../../contributors_manual/krita_manual_conventions.rst:296
+msgid "Explanation."
+msgstr "Пояснення."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:296
 msgid "Another option"
 msgstr "Інший варіант"
-
-#: ../../contributors_manual/krita_manual_conventions.rst:296
-msgid "Explanation."
-msgstr "Пояснення."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:299
 msgid "You can make them like this::"
 msgstr "Створити їх можна так::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:301
+#| msgid ""
+#| "Definition\n"
+#| "     explanation.\n"
+#| "Another option\n"
+#| "    Explanation."
 msgid ""
 "Definition\n"
-"     explanation.\n"
+"    Explanation.\n"
 "Another option\n"
 "    Explanation."
 msgstr ""
 "Означення\n"
-"     пояснення.\n"
+"     Пояснення.\n"
 "Інший варіант\n"
-"     пояснення."
+"     Пояснення."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:304
 msgid "To make them."
@@ -1036,19 +1062,27 @@ msgid ""
 msgstr "Можна використовувати такі попередження (за порядком критичності):"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:362
+#| msgid ""
+#| "Hints are useful to give a little bit more information on a topic than is "
+#| "useful in the main text. Like, hint: these packages are named differently "
+#| "in openSuse versus Debian."
 msgid ""
 "Hints are useful to give a little bit more information on a topic than is "
-"useful in the main text. Like, hint: these packages are named differently in "
-"openSuse versus Debian."
+"useful in the main text. Like, \"These packages are named differently in "
+"openSuse versus Debian\"."
 msgstr ""
 "Підказки корисні для зазначення додаткових відомостей щодо теми, яких немає "
 "у основному тексті. Приклад підказки: «У openSuse ці пакунки мають інші "
 "назви, ніж у Debian»."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:366
+#| msgid ""
+#| "Extra information on how to do something, like, \"you can make a template "
+#| "of your favourite document setup\", or \"use m to mirror the canvas and "
+#| "see errors more easily in your drawing\"."
 msgid ""
-"Extra information on how to do something, like, \"you can make a template of "
-"your favourite document setup\", or \"use m to mirror the canvas and see "
+"Extra information on how to do something, like, \"You can make a template of "
+"your favourite document setup\", or \"Use m to mirror the canvas and see "
 "errors more easily in your drawing\"."
 msgstr ""
 "Додаткові відомості щодо того, як щось зробити. Приклад: «Ви можете створити "
@@ -1073,9 +1107,12 @@ msgstr ""
 "такою важливою, як, наприклад, втрата даних."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:382
+#| msgid ""
+#| "This is for things that could cause dataloss, like forgetting to save, or "
+#| "that python currently has no undo functionality."
 msgid ""
 "This is for things that could cause dataloss, like forgetting to save, or "
-"that python currently has no undo functionality."
+"that Python currently has no undo functionality."
 msgstr ""
 "Це форматування для випадків, коли можлива втрата даних, зокрема через те, "
 "що дані не було збережено, або через те, що у додатках Python ще не "
@@ -1100,28 +1137,38 @@ msgstr ""
 "варіанті цю можливість типово вимкнено."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
-msgid "generic admonition that can have any text."
-msgstr "загальне попередження із довільним текстом."
+#| msgid "generic admonition that can have any text."
+msgid "Generic admonition that can have any text"
+msgstr "Загальне попередження із довільним текстом."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:394
-msgid "This looks like the following::"
-msgstr "Це виглядає так::"
+msgid "Text."
+msgstr "Текст."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:396
+#| msgid "You can make them like this::"
+msgid "You can make it like this::"
+msgstr "Створити його можна так::"
+
+#: ../../contributors_manual/krita_manual_conventions.rst:398
+#| msgid ""
+#| ".. admonition:: generic admonition that can have any text.\n"
+#| "\n"
+#| "    Text"
 msgid ""
-".. admonition:: generic admonition that can have any text.\n"
+".. admonition:: Generic admonition that can have any text\n"
 "\n"
-"    Text"
+"    Text."
 msgstr ""
-".. admonition:: загальне попередження із довільним текстом.\n"
+".. admonition:: Загальне попередження із довільним текстом.\n"
 "\n"
 "    Текст"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:402
+#: ../../contributors_manual/krita_manual_conventions.rst:404
 msgid "Sphinx also adds::"
 msgstr "Sphinx також додає::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:404
+#: ../../contributors_manual/krita_manual_conventions.rst:406
 msgid ""
 ".. seealso::\n"
 "\n"
@@ -1131,7 +1178,7 @@ msgstr ""
 "\n"
 "    Це корисно для збирання зовнішніх посилань."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:412
+#: ../../contributors_manual/krita_manual_conventions.rst:414
 msgid ""
 "Horizontal rulers are usually used when the topic switches rather directly. "
 "This is very common in more narrative based writing, such as history or "
@@ -1153,15 +1200,16 @@ msgstr ""
 "якусь пов'язану із основною темою річ. Тому краще користуватися заголовками "
 "або командою ``.. Topic::``. Крім того, заголовки простіше читати."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:416
+#: ../../contributors_manual/krita_manual_conventions.rst:418
 msgid "That said, horizontal rulers can be made with ``----``."
 msgstr "Тобто, горизонтальні лінійки можна додавати за допомогою ``----``."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:419
-msgid "The rubric directive."
-msgstr "Команда рубрики."
+#: ../../contributors_manual/krita_manual_conventions.rst:421
+#| msgid "The rubric directive."
+msgid "The rubric directive"
+msgstr "Команда рубрики"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:420
+#: ../../contributors_manual/krita_manual_conventions.rst:422
 msgid ""
 "The rubric directive is a heading directive that at first glance looks like "
 "\"topic\", but where the topic is over several paragraphs, rubric itself "
@@ -1171,15 +1219,16 @@ msgstr ""
 "виглядає як команда «topic», але якщо тема (topic) складається з декількох "
 "абзаців, рубрика це сам заголовок. Ось так::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:422
-msgid ".. rubric:: The rubric directive."
-msgstr ".. rubric:: Команда рубрики."
+#: ../../contributors_manual/krita_manual_conventions.rst:424
+#| msgid ".. rubric:: The rubric directive."
+msgid ".. rubric:: The rubric directive"
+msgstr ".. rubric:: Команда рубрики"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:426
+#: ../../contributors_manual/krita_manual_conventions.rst:428
 msgid "So, when to use these?"
 msgstr "Отже, коли нею слід користуватися?"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:427
+#: ../../contributors_manual/krita_manual_conventions.rst:429
 msgid ""
 "Only use them when you think the subject is too minor to have a proper "
 "heading."
@@ -1187,11 +1236,11 @@ msgstr ""
 "Користуйтеся рубриками, лише якщо впевнені, що тема є надто незначною, щоб "
 "мати належний заголовок."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:429
+#: ../../contributors_manual/krita_manual_conventions.rst:431
 msgid "Topic"
 msgstr "Тема"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:430
+#: ../../contributors_manual/krita_manual_conventions.rst:432
 msgid ""
 "When the text is separated from the flow, so it goes into a different "
 "subject than the text itself is naturally going to."
@@ -1199,11 +1248,11 @@ msgstr ""
 "Коли текст відокремлено від загального ходу думки сторінки, тобто він "
 "стосується іншої теми, поза межами теми сторінки."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:431
+#: ../../contributors_manual/krita_manual_conventions.rst:433
 msgid "Rubric"
 msgstr "Рубрика"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:432
+#: ../../contributors_manual/krita_manual_conventions.rst:434
 msgid ""
 "When the text isn't separated from the flow, but it does not need a header "
 "either."
@@ -1211,11 +1260,11 @@ msgstr ""
 "Коли текст відокремлено від загального ходу думки сторінки, але він не "
 "потребує окремого заголовка."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:434
+#: ../../contributors_manual/krita_manual_conventions.rst:436
 msgid "Admonishments"
 msgstr "Попередження"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:434
+#: ../../contributors_manual/krita_manual_conventions.rst:436
 msgid ""
 "Only when they fit semantically. This is especially necessary for the danger "
 "and warning admonishments, as seeing them too often can make users blind to "
@@ -1225,17 +1274,17 @@ msgstr ""
 "щодо небезпеки, оскільки надто часте їхнє використання може призвести до "
 "того, що користувач не звертатиме на них уваги."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:437
+#: ../../contributors_manual/krita_manual_conventions.rst:439
 msgid "Code Snippets"
 msgstr "Фрагменти коду"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:439
+#: ../../contributors_manual/krita_manual_conventions.rst:441
 msgid "``Inline code snippets`` are done with ````backticks````."
 msgstr ""
 "``Вбудовані фрагменти коду`` можна створити за допомогою ````символів "
 "зворотних лапок````."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:441
+#: ../../contributors_manual/krita_manual_conventions.rst:443
 msgid ""
 "Multi-line code snippets are done by ending the previous section with ``::"
 "``, which'll look like this::"
@@ -1243,7 +1292,7 @@ msgstr ""
 "Багаторядкові фрагменти коду можна створювати, завершуючи попередній щодо "
 "них абзац послідовністю символів ``::``. Виглядає це так::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:443
+#: ../../contributors_manual/krita_manual_conventions.rst:445
 msgid ""
 "This is a paragraph, and we define a preformated snippet like so::\n"
 "\n"
@@ -1254,7 +1303,7 @@ msgstr ""
 "\n"
 "    Не забудьте додати пробіл або табуляцію після, перед початком фрагмента."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:447
+#: ../../contributors_manual/krita_manual_conventions.rst:449
 msgid ""
 "You can also use the ``.. code::`` directive. If you add the language name "
 "after it, it'll do the appropriate syntax highlighting::"
@@ -1263,48 +1312,73 @@ msgstr ""
 "неї назву мови програмування, текст буде оброблено відповідно до правил "
 "підсвічування синтаксичних конструкцій мови::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:449
+#: ../../contributors_manual/krita_manual_conventions.rst:451
+#| msgid ""
+#| ".. code:: python\n"
+#| "\n"
+#| "    def my_function():\n"
+#| "        # comment\n"
+#| "        alist = []\n"
+#| "        alist.append(1)\n"
+#| "        string = \"hello world\""
 msgid ""
 ".. code:: python\n"
 "\n"
+"    # Python comment\n"
 "    def my_function():\n"
-"        # comment\n"
 "        alist = []\n"
 "        alist.append(1)\n"
 "        string = \"hello world\""
 msgstr ""
 ".. code:: python\n"
 "\n"
+"    # Коментар Python\n"
 "    def my_function():\n"
-"        # comment\n"
 "        alist = []\n"
 "        alist.append(1)\n"
 "        string = \"hello world\""
 
-#: ../../contributors_manual/krita_manual_conventions.rst:457
+#: ../../contributors_manual/krita_manual_conventions.rst:459
 msgid "Becomes"
 msgstr "Перетворюється на"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:466
+#: ../../contributors_manual/krita_manual_conventions.rst:468
+#| msgid ""
+#| "def my_function():\n"
+#| "    # comment\n"
+#| "    alist = []\n"
+#| "    alist.append(1)\n"
+#| "    string = \"hello world\""
 msgid ""
+"# Python comment\n"
 "def my_function():\n"
-"    # comment\n"
 "    alist = []\n"
 "    alist.append(1)\n"
 "    string = \"hello world\""
 msgstr ""
+"# Коментар Python\n"
 "def my_function():\n"
-"    # comment\n"
 "    alist = []\n"
 "    alist.append(1)\n"
 "    string = \"hello world\""
 
-#: ../../contributors_manual/krita_manual_conventions.rst:467
+#: ../../contributors_manual/krita_manual_conventions.rst:469
 msgid "some more..."
 msgstr "щось інше…"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:480
+#: ../../contributors_manual/krita_manual_conventions.rst:483
+#| msgid ""
+#| "int myFunction(int i) {\n"
+#| "    i += 1;\n"
+#| "\n"
+#| "    // Check if more than 12\n"
+#| "    if (i>12) {\n"
+#| "        i = 0;\n"
+#| "    }\n"
+#| "    return i;\n"
+#| "}"
 msgid ""
+"// C++ comment\n"
 "int myFunction(int i) {\n"
 "    i += 1;\n"
 "\n"
@@ -1315,6 +1389,7 @@ msgid ""
 "    return i;\n"
 "}"
 msgstr ""
+"// Коментар C++\n"
 "int myFunction(int i) {\n"
 "    i += 1;\n"
 "\n"
@@ -1323,79 +1398,97 @@ msgstr ""
 "        i = 0;\n"
 "    }\n"
 "    return i;\n"
-"}"
-
-#: ../../contributors_manual/krita_manual_conventions.rst:494
-msgid ""
-"body {\n"
-"    margin: 0 auto;\n"
-"    /* is 800 still sensible? */\n"
-"    max-width:800px;\n"
-"    font-size:16px;\n"
-"    color:#333;\n"
-"    background-color: #eee;\n"
-"    padding:1em;\n"
-"    font-family:serif;\n"
-"    line-height: 1.4;\n"
-"}"
-msgstr ""
-"body {\n"
-"    margin: 0 auto;\n"
-"    /* is 800 still sensible? */\n"
-"    max-width:800px;\n"
-"    font-size:16px;\n"
-"    color:#333;\n"
-"    background-color: #eee;\n"
-"    padding:1em;\n"
-"    font-family:serif;\n"
-"    line-height: 1.4;\n"
 "}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:498
+#| msgid ""
+#| "body {\n"
+#| "    margin: 0 auto;\n"
+#| "    /* is 800 still sensible? */\n"
+#| "    max-width:800px;\n"
+#| "    font-size:16px;\n"
+#| "    color:#333;\n"
+#| "    background-color: #eee;\n"
+#| "    padding:1em;\n"
+#| "    font-family:serif;\n"
+#| "    line-height: 1.4;\n"
+#| "}"
 msgid ""
-"<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
-"paragraph.</p>"
+"/* CSS comment */\n"
+"body {\n"
+"    margin: 0 auto;\n"
+"    /* is 800 still sensible? */\n"
+"    max-width:800px;\n"
+"    font-size:16px;\n"
+"    color:#333;\n"
+"    background-color: #eee;\n"
+"    padding:1em;\n"
+"    font-family:serif;\n"
+"    line-height: 1.4;\n"
+"}"
 msgstr ""
-"<p>це <span style=\"font-style:italic\">наш</span> <!-- коментар --> абзац.</"
+"/* Коментар CSS */\n"
+"body {\n"
+"    margin: 0 auto;\n"
+"    /* is 800 still sensible? */\n"
+"    max-width:800px;\n"
+"    font-size:16px;\n"
+"    color:#333;\n"
+"    background-color: #eee;\n"
+"    padding:1em;\n"
+"    font-family:serif;\n"
+"    line-height: 1.4;\n"
+"}"
+
+#: ../../contributors_manual/krita_manual_conventions.rst:502
+#| msgid ""
+#| "<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
+#| "paragraph.</p>"
+msgid ""
+"<p>this <span style=\"font-style:italic\">is</span> <!-- a HTML comment --> "
+"a paragraph.</p>"
+msgstr ""
+"<p>це <span style=\"font-style:italic\">наш</span> <!-- коментар HTML -->"
+" абзац.</"
 "p>"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:500
+#: ../../contributors_manual/krita_manual_conventions.rst:504
 msgid "Other preformatted text"
 msgstr "Інший попередньо форматований текст"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:503
+#: ../../contributors_manual/krita_manual_conventions.rst:507
 msgid "One can"
 msgstr "Можна"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:504
+#: ../../contributors_manual/krita_manual_conventions.rst:508
 msgid "preformat"
 msgstr "створювати фрагменти із попередньо визначеним форматуванням"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:505
+#: ../../contributors_manual/krita_manual_conventions.rst:509
 msgid "text by"
 msgstr "тексту"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:506
+#: ../../contributors_manual/krita_manual_conventions.rst:510
 msgid "prepending"
 msgstr "додаванням"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:507
+#: ../../contributors_manual/krita_manual_conventions.rst:511
 msgid "each line"
 msgstr "до кожного рядка"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:508
+#: ../../contributors_manual/krita_manual_conventions.rst:512
 msgid "with a pipe"
 msgstr "символу"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:509
+#: ../../contributors_manual/krita_manual_conventions.rst:513
 msgid "symbol"
 msgstr "вертикальної риски"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:511
+#: ../../contributors_manual/krita_manual_conventions.rst:515
 msgid "Like so::"
 msgstr "Ось так::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:513
+#: ../../contributors_manual/krita_manual_conventions.rst:517
 msgid ""
 "| One can\n"
 "| preformat\n"
@@ -1413,19 +1506,19 @@ msgstr ""
 "| кожного рядка\n"
 "| символ вертикальної риски"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:521
+#: ../../contributors_manual/krita_manual_conventions.rst:525
 msgid "We don't actually use this anywhere in the manual."
 msgstr "Насправді, ніде у підручнику ми ще це не використовували."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:524
+#: ../../contributors_manual/krita_manual_conventions.rst:528
 msgid "Glossaries, Terms and Index"
 msgstr "Глосарії, списки термінів та покажчик"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:526
+#: ../../contributors_manual/krita_manual_conventions.rst:530
 msgid "These are sphinx features."
 msgstr "Це можливості sphinx."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:528
+#: ../../contributors_manual/krita_manual_conventions.rst:532
 msgid ""
 "Index is used in the top section, right now only single index entries are "
 "used."
@@ -1433,22 +1526,22 @@ msgstr ""
 "Покажчик використовується у основному розділі. У поточній версії "
 "використовуються лише одинарні записи покажчика (без підлеглих записів)."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:530
+#: ../../contributors_manual/krita_manual_conventions.rst:534
 msgid ""
 "Glossaries are used for some of the menu entry sections, but not all of them."
 msgstr ""
 "Глосарії використовуються для деяких розділів щодо пунктів меню, але не для "
 "усіх."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:533
+#: ../../contributors_manual/krita_manual_conventions.rst:537
 msgid "Quotes"
 msgstr "Цитати"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:535
+#: ../../contributors_manual/krita_manual_conventions.rst:539
 msgid "Quotes are done like this::"
 msgstr "Цитати мають такий вигляд::"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:537
+#: ../../contributors_manual/krita_manual_conventions.rst:541
 msgid ""
 "I am not sure why you'd need quotes in a user manual...\n"
 "\n"
@@ -1458,15 +1551,15 @@ msgstr ""
 "\n"
 "-- Wolthera"
 
-#: ../../contributors_manual/krita_manual_conventions.rst:541
+#: ../../contributors_manual/krita_manual_conventions.rst:545
 msgid "This becomes a blockquote."
 msgstr "Це стане цитатою."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:543
+#: ../../contributors_manual/krita_manual_conventions.rst:547
 msgid "I am not sure why you'd need quotes in a user manual..."
 msgstr "Не певний, чи потрібні цитати у підручнику для користувачів..."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:547
+#: ../../contributors_manual/krita_manual_conventions.rst:551
 msgid ""
 "We do actually use quotes in some places. Try to add a link to the name to "
 "define where it came from."
@@ -1474,6 +1567,12 @@ msgstr ""
 "Ми подекуди все  використовуємо цитати. Намагайтеся додати посилання на "
 "ім'я, щоб вказати, чию цитату використано."
 
-#: ../../contributors_manual/krita_manual_conventions.rst:548
+#: ../../contributors_manual/krita_manual_conventions.rst:552
 msgid "Wolthera"
 msgstr "Wolthera"
+
+#~ msgid "explanation."
+#~ msgstr "пояснення."
+
+#~ msgid "This looks like the following::"
+#~ msgstr "Це виглядає так::"
