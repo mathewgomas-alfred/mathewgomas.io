@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 03:10+0200\n"
-"PO-Revision-Date: 2019-05-25 12:19+0100\n"
+"PO-Revision-Date: 2019-06-26 19:39+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -165,22 +165,12 @@ msgid "Sphinx specific docs:"
 msgstr "Documentação específica do Sphinx:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:32
-#, fuzzy
-#| msgid ""
-#| "`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
-#| "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
-#| "sphinx directives and roles it uses to generate for example table of "
-#| "contents."
 msgid ""
 "`Sphinx' page on restructured text <https://www.sphinx-doc.org/en/master/"
 "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
-msgstr ""
-"A página do `Sphinx' sobre o texto estruturado <http://www.sphinx-doc.org/en/"
-"master/usage/restructuredtext/index.html>`_ -- Isto é útil para as "
-"directivas específicas do Sphinx e os papéis que usa para gerar por exemplo "
-"os índices analíticos."
+msgstr "A página do `Sphinx' sobre o texto estruturado <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ -- Isto é útil para as directivas específicas do Sphinx e os papéis que usa para gerar por exemplo os índices analíticos."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:34
 msgid ""
@@ -368,22 +358,12 @@ msgstr ""
 "\"\"\"\"\"\"\"\"\""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:105
-#, fuzzy
-#| msgid ""
-#| "These conventions were more or less decided by pandoc's mediawiki to "
-#| "reStructuredText conversion. If you need more than 4 headings, ask "
-#| "yourself first if the page hasn't gotten too complicated and needs "
-#| "splitting up."
 msgid ""
 "These conventions were more or less decided by `Pandoc <https://pandoc.org/"
 ">`_'s mediawiki to reStructuredText conversion. If you need more than 4 "
 "headings, ask yourself first if the page hasn't gotten too complicated and "
 "needs splitting up."
-msgstr ""
-"Estas convenções foram mais ou menos decididas pela conversão de MediaWiki "
-"para reStructuredText do 'pandoc'. Se precisar de mais que 4 cabeçalhos, "
-"pergunte a si próprio se a página não ficou demasiado complicada e se "
-"precisa de ser dividida."
+msgstr "Estas convenções foram mais ou menos decididas pela conversão de MediaWiki para reStructuredText do  `Pandoc <https://pandoc.org/>`_. Se precisar de mais que 4 cabeçalhos, pergunte a si próprio se a página não ficou demasiado complicada e se precisa de ser dividida."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:107
 msgid ""
@@ -423,15 +403,6 @@ msgstr ""
 "ligação <url>`_``, que se tornará `nome da ligação <url>`_."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:118
-#, fuzzy
-#| msgid ""
-#| "Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :"
-#| "url `` at the end of the document. This is a so-called 'anonymous "
-#| "hyperlink', meaning that depending on the order of the links appearing in "
-#| "the text the order of the links at the end of the text are associated "
-#| "with one another. If this sounds confusing and difficult, it is because "
-#| "it is. That is also the exact reason why we'd like to avoid links like "
-#| "these."
 msgid ""
 "`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` "
 "and then add `` .. __ :url `` at the end of the document. This is a so-"
@@ -440,13 +411,7 @@ msgid ""
 "are associated with one another. If this sounds confusing and difficult, it "
 "is because it is. That is also the exact reason why we'd like to avoid links "
 "like these."
-msgstr ""
-"O Pandoc gosta de transformar estes em ```nome da ligação`__`` e depois "
-"adicionar `` .. __ :url `` ao fim do documento Isto é o que se chama uma "
-"'hiperligação anónima' o que significa que, dependendo da origem das "
-"ligações que aparecem no texto, estarão associadas uma à outra na ordem das "
-"ligações no fim do texto. Se isto soar confuso e difícil, é porque é. Isto "
-"também é a razão exacta pela qual desejamos evitar ligações deste tipo."
+msgstr "O `Pandoc <https://pandoc.org/>`_ gosta de transformar estes em ```nome da ligação`__`` e depois adicionar `` .. __ :url `` ao fim do documento. Isto é o que se chama uma 'hiperligação anónima' o que significa que, dependendo da origem das ligações que aparecem no texto, estarão associadas uma à outra na ordem das ligações no fim do texto. Se isto soar confuso e difícil, é porque é. Isto também é a razão exacta pela qual desejamos evitar ligações deste tipo."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:121
 msgid "Footnotes and further reading"
@@ -496,10 +461,8 @@ msgstr ""
 "legenda é textual."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:139
-#, fuzzy
-#| msgid "Citation can also be referenced with `citation <CIT2002>`_"
 msgid "Citation can also be referenced with ```citation <CIT2002>`_``."
-msgstr "A citação também poderá ser referenciada com uma `citação <CIT2002>`_"
+msgstr "A citação também poderá ser referenciada com uma ```citação <CIT2002>`_``."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:141
 msgid ""
@@ -834,8 +797,6 @@ msgid "teal"
 msgstr "azul-esverdeado"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:266
-#, fuzzy
-#| msgid "veridian"
 msgid "viridian"
 msgstr "veridiano"
 
@@ -927,12 +888,6 @@ msgid "You can make them like this::"
 msgstr "Podê-las-á criar da seguinte forma:"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:301
-#, fuzzy
-#| msgid ""
-#| "Definition\n"
-#| "     explanation.\n"
-#| "Another option\n"
-#| "    Explanation."
 msgid ""
 "Definition\n"
 "    Explanation.\n"
@@ -940,7 +895,7 @@ msgid ""
 "    Explanation."
 msgstr ""
 "Definição\n"
-"     explicação.\n"
+"    Explicação.\n"
 "Outra opção\n"
 "    Explicação."
 
@@ -1085,35 +1040,18 @@ msgstr ""
 "severidade):"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:362
-#, fuzzy
-#| msgid ""
-#| "Hints are useful to give a little bit more information on a topic than is "
-#| "useful in the main text. Like, hint: these packages are named differently "
-#| "in openSuse versus Debian."
 msgid ""
 "Hints are useful to give a little bit more information on a topic than is "
 "useful in the main text. Like, \"These packages are named differently in "
 "openSuse versus Debian\"."
-msgstr ""
-"As dicas são úteis para nos dar um pouco mais de informações sobre um tópico "
-"que é útil no texto principal. Por exemplo, hint: estes pacotes têm "
-"diferentes nomes no openSuse versus Debian."
+msgstr "As dicas são úteis para nos dar um pouco mais de informações sobre um tópico que é útil no texto principal. Por exemplo, \"Estes pacotes têm diferentes nomes no openSuse versus Debian\"."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:366
-#, fuzzy
-#| msgid ""
-#| "Extra information on how to do something, like, \"you can make a template "
-#| "of your favourite document setup\", or \"use m to mirror the canvas and "
-#| "see errors more easily in your drawing\"."
 msgid ""
 "Extra information on how to do something, like, \"You can make a template of "
 "your favourite document setup\", or \"Use m to mirror the canvas and see "
 "errors more easily in your drawing\"."
-msgstr ""
-"A documentação extra sobre como fazer algo, como por exemplo, se *pode fazer "
-"um modelo da sua configuração favorita de documentos\", ou \"use o 'm' para "
-"criar uma espelho da área de desenho e veja os erros mais facilmente no seu "
-"desenho\"."
+msgstr "A documentação extra sobre como fazer algo, como por exemplo, se \"Pode fazer um modelo da sua configuração favorita de documentos\", ou \"Use o 'm' para criar uma espelho da área de desenho e veja os erros mais facilmente no seu desenho\"."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:370
 msgid "Something that is important to note, but is not necessarily negative."
@@ -1134,10 +1072,6 @@ msgstr ""
 "aviso, mas não é tão importante que possa provocar uma perda de dados."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:382
-#, fuzzy
-#| msgid ""
-#| "This is for things that could cause dataloss, like forgetting to save, or "
-#| "that python currently has no undo functionality."
 msgid ""
 "This is for things that could cause dataloss, like forgetting to save, or "
 "that Python currently has no undo functionality."
@@ -1166,35 +1100,26 @@ msgstr ""
 "omissão."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
-#, fuzzy
-#| msgid "generic admonition that can have any text."
 msgid "Generic admonition that can have any text"
-msgstr "admoestação genérica que poderá ter qualquer texto."
+msgstr "Admoestação genérica que poderá ter qualquer texto"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:394
 msgid "Text."
-msgstr ""
+msgstr "Texto."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:396
-#, fuzzy
-#| msgid "You can make them like this::"
 msgid "You can make it like this::"
-msgstr "Podê-las-á criar da seguinte forma:"
+msgstr "Podê-las-á criar da seguinte forma::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:398
-#, fuzzy
-#| msgid ""
-#| ".. admonition:: generic admonition that can have any text.\n"
-#| "\n"
-#| "    Text"
 msgid ""
 ".. admonition:: Generic admonition that can have any text\n"
 "\n"
 "    Text."
 msgstr ""
-".. admonition:: admoestação genérica que poderá ter qualquer texto.\n"
+".. admonition:: Admoestação genérica que poderá ter qualquer texto.\n"
 "\n"
-"    Texto"
+"    Texto."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:404
 msgid "Sphinx also adds::"
@@ -1238,10 +1163,8 @@ msgid "That said, horizontal rulers can be made with ``----``."
 msgstr "Posto isto, as réguas horizontais podem ser criadas com o ``----``."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:421
-#, fuzzy
-#| msgid "The rubric directive."
 msgid "The rubric directive"
-msgstr "A directiva 'rubric'."
+msgstr "A directiva 'rubric'"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:422
 msgid ""
@@ -1254,10 +1177,8 @@ msgstr ""
 "'rubric' em si só lida com o cabeçalho, como por exemplo::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:424
-#, fuzzy
-#| msgid ".. rubric:: The rubric directive."
 msgid ".. rubric:: The rubric directive"
-msgstr ".. rubric:: A directiva de rubrica."
+msgstr ".. rubric:: A directiva de rubrica"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:428
 msgid "So, when to use these?"
@@ -1349,15 +1270,6 @@ msgstr ""
 "linguagem a seguir, irá aplicar o realce de sintaxe apropriado::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:451
-#, fuzzy
-#| msgid ""
-#| ".. code:: python\n"
-#| "\n"
-#| "    def my_function():\n"
-#| "        # comment\n"
-#| "        alist = []\n"
-#| "        alist.append(1)\n"
-#| "        string = \"hello world\""
 msgid ""
 ".. code:: python\n"
 "\n"
@@ -1368,9 +1280,8 @@ msgid ""
 "        string = \"hello world\""
 msgstr ""
 ".. code:: python\n"
-"\n"
+"    # comentário\n"
 "    def minha_funcao():\n"
-"        # comentário\n"
 "        lista = []\n"
 "        lista.append(1)\n"
 "        texto = \"olá mundo\""
@@ -1380,13 +1291,6 @@ msgid "Becomes"
 msgstr "Torna-se"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:468
-#, fuzzy
-#| msgid ""
-#| "def my_function():\n"
-#| "    # comment\n"
-#| "    alist = []\n"
-#| "    alist.append(1)\n"
-#| "    string = \"hello world\""
 msgid ""
 "# Python comment\n"
 "def my_function():\n"
@@ -1394,8 +1298,8 @@ msgid ""
 "    alist.append(1)\n"
 "    string = \"hello world\""
 msgstr ""
+"# Comentário de Python\n"
 "def minha_funcao():\n"
-"    # comentário\n"
 "    lista = []\n"
 "    lista.append(1)\n"
 "    texto = \"olá mundo\""
@@ -1405,17 +1309,6 @@ msgid "some more..."
 msgstr "mais alguns..."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:483
-#, fuzzy
-#| msgid ""
-#| "int myFunction(int i) {\n"
-#| "    i += 1;\n"
-#| "\n"
-#| "    // Check if more than 12\n"
-#| "    if (i>12) {\n"
-#| "        i = 0;\n"
-#| "    }\n"
-#| "    return i;\n"
-#| "}"
 msgid ""
 "// C++ comment\n"
 "int myFunction(int i) {\n"
@@ -1428,6 +1321,7 @@ msgid ""
 "    return i;\n"
 "}"
 msgstr ""
+"// Comentário de C++\n"
 "int minhaFuncao(int i) {\n"
 "    i += 1;\n"
 "\n"
@@ -1439,19 +1333,6 @@ msgstr ""
 "}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:498
-#, fuzzy
-#| msgid ""
-#| "body {\n"
-#| "    margin: 0 auto;\n"
-#| "    /* is 800 still sensible? */\n"
-#| "    max-width:800px;\n"
-#| "    font-size:16px;\n"
-#| "    color:#333;\n"
-#| "    background-color: #eee;\n"
-#| "    padding:1em;\n"
-#| "    font-family:serif;\n"
-#| "    line-height: 1.4;\n"
-#| "}"
 msgid ""
 "/* CSS comment */\n"
 "body {\n"
@@ -1466,6 +1347,7 @@ msgid ""
 "    line-height: 1.4;\n"
 "}"
 msgstr ""
+"/* Comentário de CSS */\n"
 "body {\n"
 "    margin: 0 auto;\n"
 "    /* 800 ainda faz sentido? */\n"
@@ -1479,16 +1361,10 @@ msgstr ""
 "}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:502
-#, fuzzy
-#| msgid ""
-#| "<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
-#| "paragraph.</p>"
 msgid ""
 "<p>this <span style=\"font-style:italic\">is</span> <!-- a HTML comment --> "
 "a paragraph.</p>"
-msgstr ""
-"<p>isto <span style=\"font-style:italic\">é</span> <!-- um comentário --> um "
-"parágrafo.</p>"
+msgstr "<p>isto <span style=\"font-style:italic\">é</span> <!-- um comentário de HTML --> um parágrafo.</p>"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:504
 msgid "Other preformatted text"
@@ -1611,4 +1487,3 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:552
 msgid "Wolthera"
 msgstr "Wolthera"
-

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 03:10+0200\n"
-"PO-Revision-Date: 2019-06-05 11:05+0100\n"
+"PO-Revision-Date: 2019-06-26 19:34+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -28,7 +28,7 @@ msgstr ""
 "X-POFile-SpellExtra: websites patch Painttool trazê fork Needs en\n"
 "X-POFile-SpellExtra: forkinggitlab pt KDEgitlab locale guilabel Review\n"
 "X-POFile-SpellExtra: Gitlab menuselection brushstroke reuinião build\n"
-"X-POFile-SpellExtra: images exclude recurse dir\n"
+"X-POFile-SpellExtra: images exclude recurse dir WebIDE\n"
 
 #: ../../contributors_manual/krita_manual_readme.rst:None
 msgid ".. image:: images/gitlab/screenshot_editmode.png"
@@ -255,10 +255,8 @@ msgstr ""
 "alterações, terá de as disponibilizar para revisão."
 
 #: ../../contributors_manual/krita_manual_readme.rst:73
-#, fuzzy
-#| msgid "Upload the zip on phabricator."
 msgid "Sending patches to Phabricator"
-msgstr "Envie o ZIP para o Phabricator."
+msgstr "Enviar as modificações para o Phabricator"
 
 #: ../../contributors_manual/krita_manual_readme.rst:75
 msgid ""
@@ -290,16 +288,10 @@ msgid "Tools to check whether your modifications work."
 msgstr "Ferramentas para verificar se as suas modificações resultam."
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
-#, fuzzy
-#| msgid ""
-#| "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/"
-#| ">`_ to check if your changes don't break"
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break the manual."
-msgstr ""
-"Poderá usar o `Editor Online do Sphinx <https://livesphinx.herokuapp.com/>`_ "
-"para verificar se as suas alterações não estragam nada"
+msgstr "Poderá usar o `Editor Online do Sphinx <https://livesphinx.herokuapp.com/>`_ para verificar se as suas alterações não estragam nada."
 
 #: ../../contributors_manual/krita_manual_readme.rst:88
 msgid "Bundle up the items into a zip."
@@ -351,10 +343,8 @@ msgstr ""
 "com esse endereço de e-mail."
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using Edit mode"
-msgstr "Criar pedidos de reunião de código com o Gitlab"
+msgstr "Criar pedidos de reunião com o modo de Edição"
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid "Recommended for users without a technical knowledge."
@@ -368,18 +358,10 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
-#, fuzzy
-#| msgid ""
-#| "This one is a bit technical, but much more comfortable for the manual "
-#| "maintainers. If you have a lot of changes you want to contribute, we "
-#| "recommend trying to follow these instructions."
 msgid ""
 "If you have a lot of changes you want to contribute, we recommend trying to "
 "follow these instructions."
-msgstr ""
-"Esta parte é um bocado técnica, mas é  muito mais confortável para os "
-"responsáveis pelo manual. Se tiver um conjunto de alterações que deseja "
-"contribuir, recomendamos que tente seguir essas instruções."
+msgstr "Se tiver um conjunto de alterações que deseja contribuir, recomendamos que tente seguir essas instruções."
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid "Get a KDE identity."
@@ -390,14 +372,8 @@ msgid "Login to `KDE_gitlab`_."
 msgstr "Autentique-se no `KDE_gitlab`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:114
-#, fuzzy
-#| msgid ""
-#| "Go to the `repository`_ and press :guilabel:`fork`, and clone into the "
-#| "namespace of your nickname."
 msgid "Go to the `repository`_ and press :guilabel:`fork`."
-msgstr ""
-"Vá ao `repository`_ e carregue em :guilabel:`fork` (replicar) e clone para o "
-"espaço de nomes do seu utilizador."
+msgstr "Vá ao `repository`_ e carregue em :guilabel:`fork` (replicar)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid ""
@@ -460,10 +436,8 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:142
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using WebIDE"
-msgstr "Criar pedidos de reunião de código com o Gitlab"
+msgstr "Criar pedidos de reunião com o WebIDE"
 
 #: ../../contributors_manual/krita_manual_readme.rst:144
 msgid ""
@@ -559,10 +533,8 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:184
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using command line"
-msgstr "Criar pedidos de reunião de código com o Gitlab"
+msgstr "Criar pedidos de reunião com a linha de comandos"
 
 #: ../../contributors_manual/krita_manual_readme.rst:186
 msgid ""
@@ -570,26 +542,13 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:192
-#, fuzzy
-#| msgid ""
-#| "If you are comfortable with git, you can clone the repository locally "
-#| "with :guilabel:`git clone`. The repository page has the urls you can "
-#| "perform git clone from, and you can then push to your fork. The advantage "
-#| "of this is that you can use all the tools on your computer to edit these "
-#| "text files as well as build the manual locally to check for errors."
 msgid ""
 "Clone the repository locally with :guilabel:`git clone`. The repository page "
 "has the urls you can perform git clone from, and you can then push to your "
 "fork. The advantage of this is that you can use all the tools on your "
 "computer to edit these text files as well as build the manual locally to "
 "check for errors. (You need to do this step only once)."
-msgstr ""
-"Se estiver confortável com o Git, poderá clonar o repositório localmente com "
-"o :guilabel:`git clone`. A página do repositório tem os URL's a partir dos "
-"quais poderá fazer o 'git clone', podendo-os enviar depois para a sua "
-"própria réplica. A vantagem disto é que poderá usar todas as ferramentas no "
-"seu computador para editar esses ficheiros de texto, assim como compilar "
-"localmente o manual para procurar por erros."
+msgstr "Clone o repositório a nível local com o :guilabel:`git clone`. A página do repositório tem os URL's a partir dos quais poderá fazer o 'git clone', podendo-os enviar depois para a sua própria réplica. A vantagem disto é que poderá usar todas as ferramentas no seu computador para editar esses ficheiros de texto, assim como compilar localmente o manual para procurar por erros."
 
 #: ../../contributors_manual/krita_manual_readme.rst:195
 msgid ""
@@ -660,10 +619,8 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:249
-#, fuzzy
-#| msgid "Reviewing merge requests"
 msgid "Guidelines for new merge requests"
-msgstr "Rever os pedidos de reunião"
+msgstr "Recomendações para os pedidos de reunião novos"
 
 #: ../../contributors_manual/krita_manual_readme.rst:251
 msgid ""
@@ -722,18 +679,10 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:267
-#, fuzzy
-#| msgid ""
-#| "You might get feedback on your merge request if it has mistakes. Just fix "
-#| "the mistakes in your branch, gitlab will update the merge request, and "
-#| "then mark the merge request with ``Ǹeeds Review`` again."
 msgid ""
 "You might get feedback on your merge request if it has mistakes. Just fix "
 "the mistakes in your branch in one of the following ways."
-msgstr ""
-"Poderá obter reacções sobre o seu pedido de reunião se tiver erros. Basta "
-"corrigir os erros na sua ramificação, sendo que o Gitlab irá actualizar o "
-"pedido de reuinião, marcando o mesmo como ``Needs Review`` de novo."
+msgstr "Poderá obter reacções sobre o seu pedido de reunião se tiver erros. Basta corrigir os erros na sua ramificação de uma das seguintes formas."
 
 #: ../../contributors_manual/krita_manual_readme.rst:269
 msgid ""
@@ -1512,4 +1461,3 @@ msgid ""
 msgstr ""
 "Para as convenções de restructuredText, consulte a página :ref:"
 "`krita_markup_conventions` ."
-
