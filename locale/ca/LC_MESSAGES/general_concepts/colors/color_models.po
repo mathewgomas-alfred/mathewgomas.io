@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2019-06-26 01:05+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.07.70\n"
 
@@ -34,11 +34,11 @@ msgstr "Color"
 
 #: ../../general_concepts/colors/color_models.rst:17
 msgid ""
-"Krita has many different color spaces and models. Following here is a brief"
-" explanation of each, and their use-cases."
+"Krita has many different color spaces and models. Following here is a brief "
+"explanation of each, and their use-cases."
 msgstr ""
-"El Krita té molts espais de color i models diferents. A continuació hi ha una"
-" breu explicació de cadascun, i els seus casos d'ús."
+"El Krita té molts espais de color i models diferents. A continuació hi ha "
+"una breu explicació de cadascun, i els seus casos d'ús."
 
 #: ../../general_concepts/colors/color_models.rst:22
 msgid "RGB"
@@ -50,9 +50,9 @@ msgstr "Vermell, verd i blau."
 
 #: ../../general_concepts/colors/color_models.rst:26
 msgid ""
-"These are the most efficient primaries for light-based color mixing, like"
-" computer screens. Adding Red, Green and Blue light together results in"
-" White, and is thus named the additive color wheel."
+"These are the most efficient primaries for light-based color mixing, like "
+"computer screens. Adding Red, Green and Blue light together results in "
+"White, and is thus named the additive color wheel."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:28
@@ -65,8 +65,8 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:32
 msgid ""
-"So that could be images for the web, buttons, avatars, or just portfolio"
-" images."
+"So that could be images for the web, buttons, avatars, or just portfolio "
+"images."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:33
@@ -79,10 +79,10 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
-"And for the working space. A working space is an RGB gamut that is really"
-" large and predictable, meaning it's good for image manipulation. You use"
-" this next to a profiled monitor. This way you can have precise colors while"
-" also being able to view them correctly on multiple screens."
+"And for the working space. A working space is an RGB gamut that is really "
+"large and predictable, meaning it's good for image manipulation. You use "
+"this next to a profiled monitor. This way you can have precise colors while "
+"also being able to view them correctly on multiple screens."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:39
@@ -189,8 +189,8 @@ msgstr "Models RGB: HSV, HSL, HSI i HSY"
 
 #: ../../general_concepts/colors/color_models.rst:57
 msgid ""
-"These are not included as their own color spaces in Krita. However, they do"
-" show up in the blending modes and color selectors, so a brief overview:"
+"These are not included as their own color spaces in Krita. However, they do "
+"show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:59
@@ -203,9 +203,9 @@ msgstr "To"
 
 #: ../../general_concepts/colors/color_models.rst:62
 msgid ""
-"The tint of a color, or, whether it's red, yellow, green, etc. Krita's Hue is"
-" measured in 360 degrees, with 0 being red, 120 being green and 240 being"
-" blue."
+"The tint of a color, or, whether it's red, yellow, green, etc. Krita's Hue "
+"is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
+"blue."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:63
@@ -214,11 +214,11 @@ msgstr "Saturació"
 
 #: ../../general_concepts/colors/color_models.rst:64
 msgid ""
-"How vibrant a color is. Saturation is slightly different between HSV and the"
-" others. In HSV it's a measurement of the difference between two base colors"
-" being used and three base colors being used. In the others it's a"
-" measurement of how close a color is to gray, and sometimes this value is"
-" called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
+"How vibrant a color is. Saturation is slightly different between HSV and the "
+"others. In HSV it's a measurement of the difference between two base colors "
+"being used and three base colors being used. In the others it's a "
+"measurement of how close a color is to gray, and sometimes this value is "
+"called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:65
@@ -227,8 +227,8 @@ msgstr "Valor"
 
 #: ../../general_concepts/colors/color_models.rst:66
 msgid ""
-"Sometimes known as Brightness. Measurement of how much the pixel needs to"
-" light up. Also measured from 0 to 100."
+"Sometimes known as Brightness. Measurement of how much the pixel needs to "
+"light up. Also measured from 0 to 100."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:67
@@ -237,8 +237,8 @@ msgstr "Claredat"
 
 #: ../../general_concepts/colors/color_models.rst:68
 msgid ""
-"Where a color aligns between white and black. This value is non-linear, and"
-" puts all the most saturated possible colors at 50. Ranges from 0 to 100."
+"Where a color aligns between white and black. This value is non-linear, and "
+"puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:69
@@ -247,8 +247,8 @@ msgstr "Intensitat"
 
 #: ../../general_concepts/colors/color_models.rst:70
 msgid ""
-"Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter"
-" than blue (0,0,1). Ranges from 0 to 100."
+"Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
+"than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:72
@@ -257,10 +257,10 @@ msgstr "Luma (Y')"
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid ""
-"Similar to lightness and Intensity, except it weights the red, green and blue"
-" components based real-life measurements of how much light a color reflects"
-" to determine its lightness. Ranges from 0 to 100. Luma is well known for"
-" being used in film-color spaces."
+"Similar to lightness and Intensity, except it weights the red, green and "
+"blue components based real-life measurements of how much light a color "
+"reflects to determine its lightness. Ranges from 0 to 100. Luma is well "
+"known for being used in film-color spaces."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:77
@@ -269,15 +269,15 @@ msgstr "Escala de grisos"
 
 #: ../../general_concepts/colors/color_models.rst:79
 msgid ""
-"This color space only registers gray values. This is useful, because by only"
-" registering gray values, it only needs one channel of information, which in"
-" turn means the image becomes much lighter in memory consumption!"
+"This color space only registers gray values. This is useful, because by only "
+"registering gray values, it only needs one channel of information, which in "
+"turn means the image becomes much lighter in memory consumption!"
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:82
 msgid ""
-"This is useful for textures, but also anything else that needs to stay"
-" grayscale, like Black and White comics."
+"This is useful for textures, but also anything else that needs to stay "
+"grayscale, like Black and White comics."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:95
@@ -290,9 +290,9 @@ msgstr "Cian, Magenta, Groc i Clau"
 
 #: ../../general_concepts/colors/color_models.rst:99
 msgid ""
-"This is the color space of printers. Unlike computers, printers have these"
-" four colors, and adding them all adds up to black instead of white. This is"
-" thus also called a 'subtractive' color space."
+"This is the color space of printers. Unlike computers, printers have these "
+"four colors, and adding them all adds up to black instead of white. This is "
+"thus also called a 'subtractive' color space."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:104
@@ -318,8 +318,8 @@ msgstr "Cl"
 
 #: ../../general_concepts/colors/color_models.rst:111
 msgid ""
-"There's also a difference between 'colored gray' and 'neutral gray' depending"
-" on the profile."
+"There's also a difference between 'colored gray' and 'neutral gray' "
+"depending on the profile."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:115
@@ -348,19 +348,19 @@ msgstr ".. image:: images/color_category/Cmyk_black_differences.png"
 
 #: ../../general_concepts/colors/color_models.rst:128
 msgid ""
-"In Krita, there's also the fact that the default color is a perfect black in"
-" RGB, which then gets converted to our default CMYK in a funny manner, giving"
-" a yellow look to the strokes. Again, another good reason to work in RGB and"
-" let the conversion be done by the printing house."
+"In Krita, there's also the fact that the default color is a perfect black in "
+"RGB, which then gets converted to our default CMYK in a funny manner, giving "
+"a yellow look to the strokes. Again, another good reason to work in RGB and "
+"let the conversion be done by the printing house."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:130
 msgid ""
-"While CMYK has a smaller 'gamut' than RGB, however, it's still recommended to"
-" use an RGB working space profile to do your editing in. Afterwards, you can"
-" convert it to your printer's CMYK profile using either perceptual or"
-" relative colorimetric intent. Or you can just give the workspace rgb image"
-" to your printer and let them handle the work."
+"While CMYK has a smaller 'gamut' than RGB, however, it's still recommended "
+"to use an RGB working space profile to do your editing in. Afterwards, you "
+"can convert it to your printer's CMYK profile using either perceptual or "
+"relative colorimetric intent. Or you can just give the workspace rgb image "
+"to your printer and let them handle the work."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:136
@@ -403,17 +403,17 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
-"This color space is often used in photography and in (correct)"
-" implementations of JPEG. As a human you're much more sensitive to the"
-" lightness of colors, and thus JPEG tries to compress the Cr and Cb channels,"
-" and leave the Y channel in full quality."
+"This color space is often used in photography and in (correct) "
+"implementations of JPEG. As a human you're much more sensitive to the "
+"lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, "
+"and leave the Y channel in full quality."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:153
 msgid ""
-"Krita doesn't bundle a ICC profile for YCrCb on the basis of there being no"
-" open source ICC profiles for this color space. It's unusable without one,"
-" and also probably very untested."
+"Krita doesn't bundle a ICC profile for YCrCb on the basis of there being no "
+"open source ICC profiles for this color space. It's unusable without one, "
+"and also probably very untested."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:158
@@ -422,9 +422,9 @@ msgstr "XYZ"
 
 #: ../../general_concepts/colors/color_models.rst:160
 msgid ""
-"Back in 1931, the CIE (Institute of Color and Light), was studying human"
-" color perception. In doing so, they made the first color spaces, with XYZ"
-" being the one best at approximating human vision."
+"Back in 1931, the CIE (Institute of Color and Light), was studying human "
+"color perception. In doing so, they made the first color spaces, with XYZ "
+"being the one best at approximating human vision."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:163
@@ -453,8 +453,8 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:172
 msgid ""
-"XYZ is used as a baseline reference for all other profiles and models. All"
-" color conversions are done in XYZ, and all profiles coordinates match XYZ."
+"XYZ is used as a baseline reference for all other profiles and models. All "
+"color conversions are done in XYZ, and all profiles coordinates match XYZ."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:177
@@ -479,8 +479,8 @@ msgstr "a\\*"
 
 #: ../../general_concepts/colors/color_models.rst:184
 msgid ""
-"a\\* in this case is the measurement of how magenta a color is versus how"
-" green it is."
+"a\\* in this case is the measurement of how magenta a color is versus how "
+"green it is."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:186
@@ -489,23 +489,23 @@ msgstr "b\\*"
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid ""
-"b\\* in this case is a measurement of how yellow a color is versus how blue a"
-" color is."
+"b\\* in this case is a measurement of how yellow a color is versus how blue "
+"a color is."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:188
 msgid ""
-"L\\*a\\*b\\* is supposed to be a more comprehensible variety of XYZ and the"
-" most 'complete' of all color spaces. It's often used as an in between color"
-" space in conversion, but even more as the correct color space to do"
-" color-balancing in. It's far easier to adjust the contrast and color tone in"
-" L*a*b*."
+"L\\*a\\*b\\* is supposed to be a more comprehensible variety of XYZ and the "
+"most 'complete' of all color spaces. It's often used as an in between color "
+"space in conversion, but even more as the correct color space to do color-"
+"balancing in. It's far easier to adjust the contrast and color tone in "
+"L*a*b*."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:190
 msgid ""
-"L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop"
-" specifically uses CIELAB d50."
+"L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
+"specifically uses CIELAB d50."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:193
@@ -514,8 +514,8 @@ msgstr "Filtres i modes de barreja"
 
 #: ../../general_concepts/colors/color_models.rst:195
 msgid ""
-"Maybe you have noticed that blending modes in LAB don't work like they do in"
-" RGB or CMYK. This is because the blending modes work by doing a bit of maths"
-" on the color coordinates, and because color coordinates are different per"
-" color space, the blending modes look different."
+"Maybe you have noticed that blending modes in LAB don't work like they do in "
+"RGB or CMYK. This is because the blending modes work by doing a bit of maths "
+"on the color coordinates, and because color coordinates are different per "
+"color space, the blending modes look different."
 msgstr ""
