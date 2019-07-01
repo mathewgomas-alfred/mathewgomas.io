@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-03-10 17:17+0100\n"
+"PO-Revision-Date: 2019-06-30 15:40+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,28 +23,28 @@ msgstr "Blanda med bakgrundsfärg."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:1
 msgid "The Spray Brush Engine manual page."
-msgstr ""
+msgstr "Manualsidan för det penselgränssnittet retuschspruta."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:16
 msgid "Spray Brush Engine"
-msgstr ""
+msgstr "Penselgränssnittet retuschspruta"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
 msgid "Brush Engine"
-msgstr ""
+msgstr "Penselgränssnitt"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:11
 msgid "Airbrush"
-msgstr ""
+msgstr "Retuschspruta"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:19
 msgid ".. image:: images/icons/spraybrush.svg"
-msgstr ""
+msgstr ".. image:: images/icons/spraybrush.svg"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:20
 msgid "A brush that can spray particles around in its brush area."
-msgstr ""
+msgstr "En pensel som kan spreja partiklar omkring sitt penselområde."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:23
 msgid "Options"
@@ -97,7 +97,7 @@ msgstr "Spreja område"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:41
 msgid "The area in which the particles are sprayed."
-msgstr ""
+msgstr "Område där partiklarna sprejas."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:43
 msgid "Diameter"
@@ -105,7 +105,7 @@ msgstr "Diameter"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:44
 msgid "The size of the area."
-msgstr ""
+msgstr "Områdets storlek."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:45
 msgid "Aspect Ratio"
@@ -113,7 +113,7 @@ msgstr "Proportion"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:46
 msgid "It's aspect ratio: 1.0 is fully circular."
-msgstr ""
+msgstr "Dess proportion: 1,0 är fullständigt cirkulärt."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:47
 msgid "Angle"
@@ -122,7 +122,7 @@ msgstr "Vinkel"
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:48
 msgid ""
 "The angle of the spray size: works nice with aspect ratios other than 1.0."
-msgstr ""
+msgstr "Sprejområdets vinkel: fungerar bra med proportioner skilda från 1,0."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:49
 msgid "Scale"
@@ -130,7 +130,7 @@ msgstr "Skala"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:50
 msgid "Scales the diameter up."
-msgstr ""
+msgstr "Skalar upp diametern."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Spacing"
@@ -138,7 +138,7 @@ msgstr "Mellanrum"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:52
 msgid "Increases the spacing of the diameter's spray."
-msgstr ""
+msgstr "Ökar avståndet på diameterns sprej."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:55
 msgid "Particles"
@@ -150,7 +150,7 @@ msgstr "Antal"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:58
 msgid "Use a specified amount of particles."
-msgstr ""
+msgstr "Använd ett angivet antal partiklar."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:59
 msgid "Density"
@@ -158,7 +158,7 @@ msgstr "Täthet"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:60
 msgid "Use a % amount of particles."
-msgstr ""
+msgstr "Använd ett procentuellt antal partiklar."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:61
 msgid "Jitter Movement"
@@ -166,7 +166,7 @@ msgstr "Skakningsrörelse"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:62
 msgid "Jitters the spray area around for extra randomness."
-msgstr ""
+msgstr "Skakar omkring sprejområdet för extra slumpmässighet."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:64
 msgid "Gaussian Distribution"
@@ -177,6 +177,8 @@ msgid ""
 "Focuses the particles to paint in the center instead of evenly random over "
 "the spray area."
 msgstr ""
+"Fokuserar partiklarna att måla i centrum istället för slumpmässigt över hela"
+" sprejområdet."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:69
 msgid "Spray Shape"
@@ -187,6 +189,8 @@ msgid ""
 "If activated, this will generate a special particle. If not, the brush-tip "
 "will be the particle."
 msgstr ""
+"Om aktiverad, genererar det en specialpartikel. Om inte, är penselspetsen"
+" partikeln."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:74
 msgid "Can be..."
@@ -222,7 +226,7 @@ msgstr "Bredd och höjd"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:83
 msgid "Decides the width and height of the particle."
-msgstr ""
+msgstr "Bestämmer partikelns bredd och höjd."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:84
 msgid "Proportional"
@@ -230,7 +234,7 @@ msgstr "Proportionell"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:85
 msgid "Locks Width & Height to be the same."
-msgstr ""
+msgstr "Låser bredd och höjd att vara likadana."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Texture"
@@ -238,7 +242,7 @@ msgstr "Struktur"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:87
 msgid "Allows you to pick an image for the :guilabel:`Image shape`."
-msgstr ""
+msgstr "Låter dig välja en bild för :guilabel:`Image shape`."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:92
 msgid "Shape Dynamics"
@@ -253,6 +257,8 @@ msgid ""
 "Randomizes the particle size between 1x1 px and the given size of the "
 "particle in brush-tip or spray shape."
 msgstr ""
+"Gör partikelstorleken slumpmässig mellan 1x1 bildpunkter och partikelns"
+" angivna storlek i penselspetsen eller sprejformen."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:96
 msgid "Fixed Rotation"
@@ -260,7 +266,7 @@ msgstr "Fast rotation"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:97
 msgid "Gives a fixed rotation to the particle to work from."
-msgstr ""
+msgstr "Ger partikeln en fast rotation att arbeta från."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:98
 msgid "Randomized Rotation"
@@ -268,7 +274,7 @@ msgstr "Slumpmässig rotation"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:99
 msgid "Randomizes the rotation."
-msgstr ""
+msgstr "Gör rotationen slumpmässig."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:100
 msgid "Follow Cursor Weight"
@@ -279,6 +285,8 @@ msgid ""
 "How much the pressure affects the rotation of the particles. At 1.0 and high "
 "pressure it'll seem as if the particles are exploding from the middle."
 msgstr ""
+"Hur mycket trycket påverkar partiklarnas rotation. Vid 1,0 och högre tryck"
+" verkar det som om partiklarna exploderar från mitten."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "Angle Weight"
@@ -286,7 +294,7 @@ msgstr "Vinkelvikt"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:103
 msgid "How much the spray area angle affects the particle angle."
-msgstr ""
+msgstr "Hur mycket sprejvinkeln påverkar partikelvinkeln."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:108
 msgid "Color Options"
@@ -302,6 +310,8 @@ msgid ""
 "color will deviate from the foreground color, with the direction indicating "
 "clock or counter clockwise."
 msgstr ""
+"Gör HSV slumpmässig med skjutreglagens värden. Ju större, desto mer avviker"
+" färgen från förgrundsfärgen, där riktningen indikerar medurs eller moturs."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:112
 msgid "Random Opacity"
@@ -309,7 +319,7 @@ msgstr "Slumpmässig ogenomskinlighet"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:113
 msgid "Randomizes the opacity."
-msgstr ""
+msgstr "Gör genomskinligheten slumpmässig."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:114
 msgid "Color Per Particle"
@@ -317,7 +327,7 @@ msgstr "Färg per partikel"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:115
 msgid "Has the color options be per particle instead of area."
-msgstr ""
+msgstr "Låter färgalternativen gälla per partikel istället för område."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:116
 msgid "Sample Input Layer."
@@ -328,6 +338,8 @@ msgid ""
 "Will use the underlying layer as reference for the colors instead of the "
 "foreground color."
 msgstr ""
+"Använder underliggande lager som referens för färger istället för"
+" förgrundsfärgen."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:118
 msgid "Fill Background"
@@ -335,10 +347,13 @@ msgstr "Fyll bakgrund"
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:119
 msgid "Fills the area before drawing the particles with the background color."
-msgstr ""
+msgstr "Fyller området innan partikeln ritas med bakgrundsfärgen."
 
 #: ../../reference_manual/brushes/brush_engines/spray_brush_engine.rst:121
 msgid ""
 "Gives the particle a random color between foreground/input/random HSV and "
 "the background color."
 msgstr ""
+"Ger partikeln en slumpmässig färg mellan förgrundsfärgen, inmatad färg,"
+" slumpmässig HSV och bakgrundsfärgen."
+

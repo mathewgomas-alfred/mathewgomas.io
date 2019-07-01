@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-27 20:14+0100\n"
+"PO-Revision-Date: 2019-06-30 15:30+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -23,6 +23,9 @@ msgid ""
 "Glow, Glow-Heat, Heat, Heat-Glow, Heat-Glow/Freeze-Reflect Hybrid, Reflect "
 "and Reflect-Freeze."
 msgstr ""
+"Sida om de kvadratiska blandningslägena i Krita: Frys, Frys-reflektera, Glöd,"
+" Glöd-hetta, Hetta, Hetta-glöd, Hybrid av hetta-glöd och frys-reflektera,"
+" Reflektera och Reflektera-frys."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:11
 #: ../../reference_manual/blending_modes/quadratic.rst:15
@@ -34,10 +37,12 @@ msgid ""
 "The quadratic blending modes are a set of modes intended to give various "
 "effects when adding light zones or overlaying shiny objects."
 msgstr ""
+"De kvadratiska blandningslägena är en uppsättning lägen avsedda att ge"
+" diverse effekter när ljuszoner eller överlagrade blanka objekt adderas."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:23
 msgid "Freeze Blending Mode"
-msgstr ""
+msgstr "Frysblandningslägen"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:26
 msgid "Freeze"
@@ -45,17 +50,19 @@ msgstr "Frys"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:28
 msgid "The freeze blending mode. Inversion of the reflect blending mode."
-msgstr ""
+msgstr "Blandningsläget Frys. Invertering av av blandningsläget Reflektera."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:33
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Freeze_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Freeze_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:33
 msgid "Left: **Normal**. Right: **Freeze**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Frys**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:39
 msgid "Freeze-Reflect"
@@ -63,17 +70,19 @@ msgstr "Frys-reflektera"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:41
 msgid "Mix of Freeze and Reflect blend mode."
-msgstr ""
+msgstr "Mix av blandningslägena Frys och Reflektera."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:46
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Freeze_Reflect_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Freeze_Reflect_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:46
 msgid "Left: **Normal**. Right: **Freeze-Reflect**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Frys-reflektera**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:51
 msgid "Glow"
@@ -81,17 +90,19 @@ msgstr "Glöd"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:53
 msgid "Reflect Blend Mode with source and destination layers swapped."
-msgstr ""
+msgstr "Blandningsläget Reflektera med käll- och mållagret utbytta."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:58
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Glow_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Glow_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:58
 msgid "Left: **Normal**. Right: **Glow**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Glöd**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:63
 msgid "Glow-Heat"
@@ -99,17 +110,19 @@ msgstr "Glöd-hetta"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:65
 msgid "Mix of Glow and Heat blend mode."
-msgstr ""
+msgstr "Mix av blandningslägena Glöd och Hetta."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:70
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Glow_Heat_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Glow_Heat_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:70
 msgid "Left: **Normal**. Right: **Glow_Heat**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Glöd-hetta**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:75
 msgid "Heat"
@@ -117,17 +130,19 @@ msgstr "Hetta"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:77
 msgid "The Heat Blend Mode. Inversion of the Glow Blend Mode."
-msgstr ""
+msgstr "Blandningsläget Hetta. Invertering av av blandningsläget Glöd."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:83
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Heat_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:83
 msgid "Left: **Normal**. Right: **Heat**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Hetta**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:88
 msgid "Heat-Glow"
@@ -135,37 +150,44 @@ msgstr "Hetta-glöd"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:90
 msgid "Mix of Heat, and Glow blending mode."
-msgstr ""
+msgstr "Mix av blandningslägena Hetta och Glöd."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:95
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Heat_Glow_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Glow_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:95
 msgid "Left: **Normal**. Right: **Heat-Glow**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Hetta-glöd**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:100
 msgid "Heat-Glow and Freeze-Reflect Hybrid"
-msgstr ""
+msgstr "Hybrid av hetta-glöd och frys-reflektera"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:102
 msgid ""
 "Mix of the continuous quadratic blending modes. Very similar to overlay, and "
 "sometimes provides better result than overlay."
 msgstr ""
+"Mix av de kontinuerliga kvadratiska blandningslägen. Mycket liknande"
+" överlagring, och ger ibland bättre resultat än överlagring."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:107
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Heat_Glow_Freeze_Reflect_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Heat_Glow_Freeze_Reflect_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:107
 msgid "Left: **Normal**. Right: **Heat-Glow and Freeze-Reflect Hybrid**."
 msgstr ""
+"Vänster: **Normal**. Höger: **Hybrid av hetta-glöd och frys-reflektera**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:112
 msgid "Reflect"
@@ -175,16 +197,20 @@ msgstr "Reflektera"
 msgid ""
 "Reflect is essentially Color Dodge Blending mode with quadratic falloff."
 msgstr ""
+"Reflektera är egentligen blandningsläget Färgblekning med kvadratisk"
+" minskning."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:120
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Reflect_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Reflect_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:120
 msgid "Left: **Normal**. Right: **Reflect**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Reflektera**."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:125
 msgid "Reflect-Freeze"
@@ -192,14 +218,17 @@ msgstr "Reflektera-frys"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:127
 msgid "Mix of Reflect and Freeze blend mode."
-msgstr ""
+msgstr "Mix av blandningslägena Reflektera och Frys."
 
 #: ../../reference_manual/blending_modes/quadratic.rst:132
 msgid ""
 ".. image:: images/blending_modes/quadratic/"
 "Blending_modes_Q_Reflect_Freeze_Light_blue_and_Orange.png"
 msgstr ""
+".. image:: images/blending_modes/quadratic/"
+"Blending_modes_Q_Reflect_Freeze_Light_blue_and_Orange.png"
 
 #: ../../reference_manual/blending_modes/quadratic.rst:132
 msgid "Left: **Normal**. Right: **Reflect-Freeze**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Reflektera-frys**."
+

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-15 08:31+0100\n"
+"PO-Revision-Date: 2019-06-30 17:43+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -52,6 +52,9 @@ msgid ""
 "tablet will use in Krita. The settings here will make your tablet feel soft "
 "or hard globally."
 msgstr ""
+"Allmän kurva för inmatningstryck: Det är den allmänna kurvinställningen som"
+" ritplattan använder i Krita. Inställningarna här gör att ritplattan i"
+" allmänhet känns mjuk eller hård."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:24
 msgid ""
@@ -62,10 +65,17 @@ msgid ""
 "tablet driver implementation). After changing this option Krita should be "
 "restarted."
 msgstr ""
+"Vissa ritplattor talar inte om för oss om det finns sidoknappar på en penna."
+" Om du har en sådan enhet, kan du försöka aktivera den här lösningen. Krita"
+" försöker läsa klick på höger- och "
+"mittenknapp som om de kom från en mus istället för en ritplatta. Det kan"
+" eventuellt fungera för "
+"din enhet (beroende på implementeringen av ritplattans drivrutin). Efter att"
+" alternativet har ändrats måste Krita startas om."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:26
 msgid "Use Mouse Events for Right and Middle clicks."
-msgstr ""
+msgstr "Använd mushändelser för höger- och mittenklick."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:29
 msgid "On Windows 8 or above only."
@@ -80,14 +90,19 @@ msgid ""
 "Use the WinTab API to receive tablet pen input. This is the API being used "
 "before Krita 3.3. This option is recommended for most Wacom tablets."
 msgstr ""
+"Använd programmeringsgränssnittet WinTab för att ta emot inmatning från"
+" ritplattans penna. Det är programmeringsgränssnittet som användes innan"
+" Krita 3.3. Alternativet rekommenderas för de flesta Wacom ritplattor."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:34
 msgid "For Krita 3.3 or later:Tablet Input API"
 msgstr ""
+"För Krita 3.3 eller senare: Programmeringsgränssnitt för inmatning med"
+" ritplatta"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:34
 msgid "Windows 8+ Pointer Input"
-msgstr ""
+msgstr "Windows 8+ pekarinmatning"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:34
 msgid ""
@@ -98,10 +113,16 @@ msgid ""
 "device (e.g. recent Microsoft Surface devices) or if your tablet does not "
 "work well with WinTab."
 msgstr ""
+"Använd pekarinmatningsmeddelanden för att ta emot indata från ritplattans"
+" penna. Alternativet beror på stöd för Windows Ink från ritplattans"
+" drivrutin. Det är ett relativt nytt tillägg, så det anses fortfarande"
+" experimentellt, men det bör fungera bra nog för att måla. Man bör prova det"
+" om man använder en N-Trig enhet (t.ex. senare Microsoft Surface enheter)"
+" eller om ritplattan inte fungerar bra med WinTab."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:37
 msgid "Advanced Tablet Settings for WinTab"
-msgstr ""
+msgstr "Avancerade inställningar av ritplatta för WinTab"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:41
 msgid ".. image:: images/preferences/advanced-settings-tablet.png"
@@ -114,22 +135,26 @@ msgid ""
 "if it has to choose itself, there will be a tablet offset. This window "
 "allows you to select the appropriate screen resolution."
 msgstr ""
+"Vid användning av flera bildskärmar eller en ritplatta som också är en skärm,"
+" får Krita motstridig information om hur stor skärmen är, och ibland uppstår"
+" en förskjutning av ritplattan om det får välja själv. Det här fönstret gör"
+" det möjligt att välja lämplig skärmupplösning."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:44
 msgid "Use Information Provided by Tablet"
-msgstr ""
+msgstr "Använd information som ritplattan tillhandahåller"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:45
 msgid "Use the information as given by the tablet."
-msgstr ""
+msgstr "Använd informationen som anges av ritplattan."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:46
 msgid "Map to entire virtual screen"
-msgstr ""
+msgstr "Avbilda på hela virtuella skärmen"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:47
 msgid "Use the information as given by Windows."
-msgstr ""
+msgstr "Använd informationen som anges av Windows."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:49
 msgid ""
@@ -137,10 +162,13 @@ msgid ""
 "options. You might even need to do trial and error if that is the case, but "
 "at the least you can configure it."
 msgstr ""
+"Skriv in värdena manuellt. Använd det när när de andra alternativen redan har"
+" provats. Man måste kanske till och med pröva sig fram om det är fallet, men"
+" man kan åtminstone ställa in den."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:51
 msgid "Map to Custom Area"
-msgstr ""
+msgstr "Avbilda på eget område"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:51
 msgid ""
@@ -148,29 +176,36 @@ msgid ""
 "reachable, you might have to enter the total width of both screens plus the "
 "double height of your monitor in this field."
 msgstr ""
+"Om man har dubbla bildskärmar och bara den övre halvan av skärmen går att nå,"
+" kanske den totala bredden av båda skärmarna plus den dubbla höjden av"
+" bildskärmen måste matas in i fältet."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:55
 msgid ""
 "To access this dialog in Krita versions older than 4.2, you had to do the "
 "following:"
 msgstr ""
+"För att komma åt dialogrutan i versioner av Krita äldre än 4.2, var man"
+" tvungen att göra följande:"
 
 #: ../../reference_manual/preferences/tablet_settings.rst:57
 msgid "Put your stylus away from the tablet."
-msgstr ""
+msgstr "Avlägsna pennan från ritplattan."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:58
 msgid ""
 "Start Krita without using a stylus, that is using a mouse or a keyboard."
 msgstr ""
+"Starta Krita utan att använda en penna, det vill säga genom att använda en"
+" mus eller ett tangentbord."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:59
 msgid "Press :kbd:`Shift` key and hold it."
-msgstr ""
+msgstr "Tryck ner :kbd:`skifttangenten` och håll den nere."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:60
 msgid "Touch a tablet with your stylus so Krita would recognize it."
-msgstr ""
+msgstr "Rör en ritplatta med pennan så att Krita känner igen det."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:62
 msgid ""
@@ -178,6 +213,9 @@ msgid ""
 "the canvas can be caused by a faulty Wacom preference file which is not "
 "removed or replaced by reinstalling the drivers."
 msgstr ""
+"Om det inte fungerar att justera det, och en Wacom-ritplatta används, kan ett"
+" positionsfel på duken orsakas av en felaktig Wacom-inställningsfil, som inte"
+" tas bort eller ersätts genom att installera om drivrutinerna."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:64
 msgid ""
@@ -185,12 +223,17 @@ msgid ""
 "preferences. This should allow Krita to detect the correct settings "
 "automatically."
 msgstr ""
+"För att rätta det, använd \"Wacom Tablet Preference File Utility\" för att"
+" rensa alla inställningar. Det ska låta Krita detektera de riktiga"
+" inställningarna automatiskt."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:67
 msgid ""
 "Clearing all wacom preferences will reset your tablet's configuration, thus "
 "you will need to recalibrate/reconfigure it."
 msgstr ""
+"Att rensa alla Wacom-inställningar nollställer ritplattans inställning, och"
+" därmed måste den kalibreras om och ställas in igen."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:70
 msgid "Tablet Tester"
@@ -202,12 +245,17 @@ msgid ""
 "it will open a window with two sections. The left section is the **Drawing "
 "Area** and the right is the **Text Output**."
 msgstr ""
+"Det här är en särskild funktion för att felsöka inmatning från ritplattor."
+" När man klickar på det visas en fönster med två delar. Den vänstra delen är"
+" **ritområdet** och den högra är **textutmatning**."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:76
 msgid ""
 "If you draw over the Drawing Area, you will see a line appear. If your "
 "tablet is working it should be both a red and blue line."
 msgstr ""
+"Om man ritar på ritområdet ser man en linje som dyker upp. Om ritplattan"
+" fungerar ska det vara både en röd och blå linje."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:78
 msgid ""
@@ -215,6 +263,9 @@ msgid ""
 "that Krita can pick up. However, mouse events have crude coordinates and "
 "have no pressure sensitivity."
 msgstr ""
+"Den röda linjen representerar mushändelser. Mushändelser är de mest"
+" grundläggande händelserna som Krita kan fånga upp. Dock har mushändelser"
+" grova koordinater och ingen tryckkänslighet."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:80
 msgid ""
@@ -222,6 +273,9 @@ msgid ""
 "when Krita can access your tablet. These have more precise coordinates and "
 "access to sensors like pressure sensitivity."
 msgstr ""
+"Den blåa linjen representerar ritplattehändelser. Ritplattehändelserna visas"
+" bara när Krita kan komma åt ritplattan. De har mer precisa koordinater och"
+" åtkomst till sensorer som tryckkänslighet."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:84
 msgid ""
@@ -229,6 +283,9 @@ msgid ""
 "cannot access your tablet. Check out the :ref:`page on drawing tablets "
 "<drawing_tablets>` for suggestions on what is causing this."
 msgstr ""
+"Om det inte syns någon blå linje när man ritar på området till vänster, kan"
+" Krita inte komma åt ritplattan. Ta en titt på :ref:`sidan om ritplattor <"
+"drawing_tablets>` för förslag om vad som orsakar det."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:86
 msgid ""
@@ -236,6 +293,9 @@ msgid ""
 "output. This text output can be attached to a help request or a bug report "
 "to figure out what is going on."
 msgstr ""
+"När man ritar en linje visar utmatningen till höger alla möjliga sorters"
+" textutmatning. Textutmatningen kan bifogas till en hjälpbegäran eller"
+" felrapport för att kunna räkna ut vad som händer."
 
 #: ../../reference_manual/preferences/tablet_settings.rst:89
 msgid "External Links"
@@ -247,3 +307,7 @@ msgid ""
 "advantage. <https://www.davidrevoy.com/article182/calibrating-wacom-stylus-"
 "pressure-on-krita>`_"
 msgstr ""
+"`David Revoy skrev en djuplodande handledning om hur funktionen används till"
+" största fördel. <https://www.davidrevoy.com/article182/calibrating-wacom-styl"
+"us-pressure-on-krita>`_"
+
