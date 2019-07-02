@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-05-05 08:57+0100\n"
+"PO-Revision-Date: 2019-06-30 21:45+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,8 @@ msgid ""
 "Page about the arithmetic blending modes in Krita: Addition, Divide, Inverse "
 "Subtract, Multiply and Subtract."
 msgstr ""
+"Sida om aritmetiska blandningslägen i Krita: Addition, Division, Invers"
+" subtraktion, Multiplikation och Subtraktion."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:14
 msgid "Arithmetic"
@@ -29,11 +31,11 @@ msgstr "Aritmetik"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:16
 msgid "These blending modes are based on simple maths."
-msgstr ""
+msgstr "Dessa blandningslägen är baserade på enkel matematik."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:18
 msgid "Addition (Blending Mode)"
-msgstr ""
+msgstr "Addition (blandningsläge)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:22
 msgid "Addition"
@@ -41,17 +43,19 @@ msgstr "Addition"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:24
 msgid "Adds the numerical values of two colors together:"
-msgstr ""
+msgstr "Summerar de numeriska värdena av två färger:"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:26
 msgid "Yellow(1, 1, 0) + Blue(0, 0, 1) = White(1, 1, 1)"
-msgstr ""
+msgstr "Gul(1, 1, 0) + Blå(0, 0, 1) = Vit(1, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:28
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray "
 "(0.9, 0.9, 0.9)"
 msgstr ""
+"Mörkgrå(0.4, 0.4, 0.4) + ljusgrå(0.5, 0.5, 0.5)] = Ännu ljusare grå(0.9, 0.9,"
+" 0.9)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:33
 msgid ""
@@ -66,7 +70,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:47
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
 msgid "Left: **Normal**. Right: **Addition**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Addition**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:35
 msgid ""
@@ -84,7 +88,7 @@ msgstr ""
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:42
 msgid "Red(1, 0, 0) + Gray(0.5, 0.5, 0.5) = Pink(1, 0.5, 0.5)"
-msgstr ""
+msgstr "Röd(1, 0, 0) + Grå(0.5, 0.5, 0.5) = Rosa(1, 0.5, 0.5)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:47
 msgid ""
@@ -139,7 +143,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
 #: ../../reference_manual/blending_modes/arithmetic.rst:82
 msgid "Left: **Normal**. Right: **Divide**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Dividera**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:72
 msgid ""
@@ -190,7 +194,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
 #: ../../reference_manual/blending_modes/arithmetic.rst:108
 msgid "Left: **Normal**. Right: **Inverse Subtract**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Omvänd subtraktion**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:98
 msgid ""
@@ -257,7 +261,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
 #: ../../reference_manual/blending_modes/arithmetic.rst:141
 msgid "Left: **Normal**. Right: **Multiply**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Multiplicera**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:131
 msgid ""
@@ -315,7 +319,7 @@ msgstr ""
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
 #: ../../reference_manual/blending_modes/arithmetic.rst:171
 msgid "Left: **Normal**. Right: **Subtract**."
-msgstr ""
+msgstr "Vänster: **Normal**. Höger: **Subtrahera**."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:161
 msgid ""
@@ -338,3 +342,4 @@ msgid ""
 msgstr ""
 ".. image:: images/blending_modes/arithmetic/"
 "Blending_modes_Subtract_Sample_image_with_dots.png"
+
