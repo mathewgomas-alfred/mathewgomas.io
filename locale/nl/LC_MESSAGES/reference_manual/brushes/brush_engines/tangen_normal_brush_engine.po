@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-30 16:21+0200\n"
+"PO-Revision-Date: 2019-07-02 12:39+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -51,7 +51,7 @@ msgstr "Penseel-engine"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:11
 msgid "Normal Map"
-msgstr "Normale kaart"
+msgstr "Normaal kaart"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:20
 msgid ".. image:: images/icons/tangentnormal.svg"
@@ -65,6 +65,12 @@ msgid ""
 "uses of normal maps include faking detail where there is none, and to drive "
 "transformations (Flow Maps)."
 msgstr ""
+"De Raaklijnnormaalpenseel-engine is een engine die speciaal is ontworpen "
+"voor tekenen van normaal kaarten, van de raaklijn variëteit. Deze worden op "
+"hun beurt gebruikt in 3d programma's en spel-engines om allerlei soorten "
+"van belichtingstruken te doen. Gebruikelijk gebruik van normaalkaarten "
+"omvatten het fingeren van details waar er geen zijn en om transformaties "
+"aan te sturen (Flow-kaarten)."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:23
 msgid ""
@@ -74,6 +80,11 @@ msgid ""
 "coordinates, just like colors, we can store and see this information as "
 "colors."
 msgstr ""
+"Een normaalkaart is een afbeelding die informatie bevat voor vectors. In "
+"het bijzonder bevatten ze informatie voor normaalvectors, wat de informatie "
+"is voor hoe het licht buigt op een oppervlak. Omdat normaalvectors bestaan "
+"uit 3 coördinaten, net als kleuren, kunnen we deze informatie opslaan en "
+"zien als kleuren."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:25
 msgid ""
@@ -82,6 +93,10 @@ msgid ""
 "color of the normals, which can then be used by a 3d program to do lighting "
 "effects."
 msgstr ""
+"Normalen kunnen gezien worden als de stylus op uw tablet. Daarom kunnen we "
+"de tilt-sensors gebruiken die beschikbaar zijn op sommige tablets om de "
+"kleur van de normalen te genereren, die dan gebruikt worden door een 3d "
+"programma om belichtingseffecten te doen."
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:27
 msgid "In short, you will be able to paint with surfaces instead of colors."
@@ -92,6 +107,7 @@ msgstr ""
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:29
 msgid "The following options are available to the tangent normal brush engine:"
 msgstr ""
+"De volgende opties zijn beschikbaar voor de raaklijnnormaalpenseel-engine:"
 
 #: ../../reference_manual/brushes/brush_engines/tangen_normal_brush_engine.rst:31
 msgid ":ref:`option_brush_tip`"

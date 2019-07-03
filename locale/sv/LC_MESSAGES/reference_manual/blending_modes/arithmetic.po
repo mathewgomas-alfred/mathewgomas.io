@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-30 21:45+0100\n"
+"PO-Revision-Date: 2019-07-02 22:48+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,8 +22,8 @@ msgid ""
 "Page about the arithmetic blending modes in Krita: Addition, Divide, Inverse "
 "Subtract, Multiply and Subtract."
 msgstr ""
-"Sida om aritmetiska blandningslägen i Krita: Addition, Division, Invers"
-" subtraktion, Multiplikation och Subtraktion."
+"Sida om aritmetiska blandningslägen i Krita: Addition, Division, Invers "
+"subtraktion, Multiplikation och Subtraktion."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:14
 msgid "Arithmetic"
@@ -54,8 +54,8 @@ msgid ""
 "Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray "
 "(0.9, 0.9, 0.9)"
 msgstr ""
-"Mörkgrå(0.4, 0.4, 0.4) + ljusgrå(0.5, 0.5, 0.5)] = Ännu ljusare grå(0.9, 0.9,"
-" 0.9)"
+"Mörkgrå(0.4, 0.4, 0.4) + ljusgrå(0.5, 0.5, 0.5)] = Ännu ljusare grå(0.9, "
+"0.9, 0.9)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:33
 msgid ""
@@ -77,6 +77,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608, "
 "1.2235, 0.8980) → Very Light Yellow(1, 1, 0.8980)"
 msgstr ""
+"Ljusblå(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706) = (1.1608,"
+" 1.2235, 0.8980) → Mycket ljus gul(1, 1, 0.8980)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:40
 msgid ""
@@ -104,6 +106,9 @@ msgid ""
 "displayed. Therefore, white plus any other color results in white. On the "
 "other hand, black plus any other color results in the added color."
 msgstr ""
+"När resultatet av additionen är mer än 1, är vitt färgen som visas. Därför"
+" ger vitt plus vilken annan färg som helst vitt. Å andra sidan ger svart plus"
+" vilken annan färg som helst den tillagda färgen."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:54
 msgid ""
@@ -120,16 +125,19 @@ msgstr "Division"
 #: ../../reference_manual/blending_modes/arithmetic.rst:61
 msgid "Divides the numerical value from the lower color by the upper color."
 msgstr ""
+"Dividerar det numeriska värdet från den undre färgen med den övre färgen."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:63
 msgid "Red(1, 0, 0) / Gray(0.5, 0.5, 0.5) = (2, 0, 0) → Red(1, 0, 0)"
-msgstr ""
+msgstr "Röd(1, 0, 0) / Grå(0.5, 0.5, 0.5) = (2, 0, 0) → Röd(1, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:65
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4) / Lighter Gray(0.5, 0.5, 0.5) = Even Lighter Gray "
 "(0.8, 0.8, 0.8)"
 msgstr ""
+"Mörkgrå(0.4, 0.4, 0.4) / Ljusgrå(0.5, 0.5, 0.5)] = Ännu ljusare grå(0.8, 0.8,"
+" 0.8)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:70
 msgid ""
@@ -150,6 +158,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706) = (0.1608, "
 "1.0525, 11.7195) → Aqua(0.1608, 1, 1)"
 msgstr ""
+"Ljusblå(0.608, 0.6274, 0.8274) / Orange(1, 0.5961, 0.0706)] = (0.1608,"
+" 1.0525, 11.7195) → Turkos(0.1608, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:77
 msgid ""
@@ -175,12 +185,15 @@ msgstr "Omvänd subtraktion"
 msgid ""
 "This inverts the lower layer before subtracting it from the upper layer."
 msgstr ""
+"Inverterar det undre lagret innan det subtraheras från det övre lagret."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:91
 msgid ""
 "Lighter Gray(0.5, 0.5, 0.5)_(1_Darker Gray(0.4, 0.4, 0.4)) = (-0.1, -0.1, "
 "-0.1) → Black(0, 0, 0)"
 msgstr ""
+"Ljusgrå(0.5, 0.5, 0.5)_(1_Mörkgrå(0.4, 0.4, 0.4)) = (-0.1, -0.1, -0.1) →"
+" Svart(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:96
 msgid ""
@@ -201,6 +214,8 @@ msgid ""
 "Orange(1, 0.5961, 0.0706)_(1_Light Blue(0.1608, 0.6274, 0.8274)) = (0.1608, "
 "0.2235, -0.102) → Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
+"Orange(1, 0.5961, 0.0706)_(1_Ljusblå(0.1608, 0.6274, 0.8274)) = (0.1608,"
+" 0.2235, -0.102) → Mörkgrön(0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:103
 msgid ""
@@ -227,6 +242,8 @@ msgid ""
 "Multiplies the two colors with each other, but does not go beyond the upper "
 "limit."
 msgstr ""
+"Multiplicerar de två färgerna med varandra, men går inte förbi den övre"
+" gränsen."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:117
 msgid ""
@@ -234,20 +251,26 @@ msgid ""
 "and white lineart on top, and sets the layer to 'Multiply', and then draw in "
 "color on a layer beneath. Multiply will all the color to go through."
 msgstr ""
+"Det används ofta för att färglägga i en svartvit teckning. Man placerar den"
+" svartvita teckningen överst, ställer in lagret till 'Multiplicera' och ritar"
+" därefter i färg på ett lager under. Multiplicera låter alla färger skina"
+" igenom."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:120
 msgid "White(1,1,1) x White(1, 1, 1) = White(1, 1, 1)"
-msgstr ""
+msgstr "Vit(1,1,1) x Vit(1, 1, 1) = Vit(1, 1, 1)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:122
 msgid "White(1, 1, 1) x Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)"
-msgstr ""
+msgstr "Vit(1, 1, 1) x Grå(0.5, 0.5, 0.5) = Grå(0.5, 0.5, 0.5)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:124
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4) x Lighter Gray(0.5, 0.5, 0.5) = Even Darker Gray "
 "(0.2, 0.2, 0.2)"
 msgstr ""
+"Mörkgrå(0.4, 0.4, 0.4) x Ljusgrå(0.5, 0.5, 0.5)] = Ännu mörkare grå(0.2, 0.2,"
+" 0.2)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:129
 msgid ""
@@ -268,6 +291,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) x Orange(1, 0.5961, 0.0706) = "
 "Green(0.1608, 0.3740, 0.0584)"
 msgstr ""
+"Ljusblå(0.1608, 0.6274, 0.8274) x Orange(1, 0.5961, 0.0706) = Grön(0.1608,"
+" 0.3740, 0.0584)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:136
 msgid ""
@@ -291,21 +316,23 @@ msgstr "Subtrahera"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:148
 msgid "Subtracts the top layer from the bottom layer."
-msgstr ""
+msgstr "Subtraherar det övre lagret från det undre lagret."
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:150
 msgid "White(1, 1, 1)_White(1, 1, 1) = Black(0, 0, 0)"
-msgstr ""
+msgstr "Vit(1, 1, 1)_Vit(1, 1, 1) = Svart(0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:152
 msgid "White(1, 1, 1)_Gray(0.5, 0.5, 0.5) = Gray(0.5, 0.5, 0.5)"
-msgstr ""
+msgstr "Vit(1, 1, 1)_Grå(0.5, 0.5, 0.5) = Grå(0.5, 0.5, 0.5)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:154
 msgid ""
 "Darker Gray(0.4, 0.4, 0.4)_Lighter Gray(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) "
 "→ Black(0, 0, 0)"
 msgstr ""
+"Mörkgrå(0.4, 0.4, 0.4)_Ljusgrå(0.5, 0.5, 0.5) = (-0.1, -0.1, -0.1) → Svart(0,"
+" 0, 0)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:159
 msgid ""
@@ -326,6 +353,8 @@ msgid ""
 "Light Blue(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = (-0.8392, "
 "0.0313, 0.7568) → Blue(0, 0.0313, 0.7568)"
 msgstr ""
+"Ljusblå(0.1608, 0.6274, 0.8274) - Orange(1, 0.5961, 0.0706) = (-0.8392,"
+" 0.0313, 0.7568) → Blå(0, 0.0313, 0.7568)"
 
 #: ../../reference_manual/blending_modes/arithmetic.rst:166
 msgid ""
