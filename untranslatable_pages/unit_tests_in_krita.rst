@@ -113,12 +113,13 @@ Suppose you want to write a unittest for kritaimage library. You need to perform
 
     .. code:: cmake
     
-        ...
+        # ...
         ########### next target ###############
         set(kis_some_class_test_SRCS kis_some_class_test.cpp )
-        kde4_add_unit_test(KisSomeClassTest TESTNAME kritaimage-some_class_test ${kis_some_class_test_SRCS})
-        target_link_libraries(KisSomeClassTest  ${KDE4_KDEUI_LIBS} kritaimage ${QT_QTTEST_LIBRARY})
-        ...
+        ecm_add_tests(${kis_some_class_test_SRCS}
+        NAME_PREFIX "libs-somelib-"
+        LINK_LIBRARIES kritaimage Qt5::Test)
+        # ...
 
 #. Write your test. You can use any macro commands provided by Qt (QVERIFY, QCOMPARE or QBENCHMARK).
 
