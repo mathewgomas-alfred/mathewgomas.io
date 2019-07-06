@@ -203,7 +203,7 @@ Backup File Location
     Same Folder as Original File
         Store the file in the same folder as the original file was stored.
     User Folder
-        This is the main folder of your computer. On Linux and Mac OS this is the 'Home' folder, on Windows, the 'My Documents Folder'.
+        This is the main folder of your computer. On Linux and Mac OS this is the 'Home' folder, on Windows, the 'c:\Users\YOUR_USER_NAME' folder (where YOUR_USER_NAME is your windows username).
     Temporary File Folder
         This stored the file in the temp folder. Temp folders are special folders of which the contents are emptied when you shut down your computer. If you don't particularly care about your backup files and want them to be 'cleaned' automatically, this is the best place. If you want your backup files to be kept indefinitely, this is a wrong choice.
     
