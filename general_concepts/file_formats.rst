@@ -44,7 +44,7 @@ Openness
 
 This is a bit of an odd quality, but it's about how easy it to open or recover the file, and how widely it's supported.
 
-Most internal file formats, like PSD are completely closed, and it's really difficult for human outsiders to recover the data inside without opening photoshop. Other examples are camera raw files which have different properties per camera manufacturer.
+Most internal file formats, like PSD are completely closed, and it's really difficult for human outsiders to recover the data inside without opening Photoshop. Other examples are camera raw files which have different properties per camera manufacturer.
 
 SVG, as a vector file format, is on the other end of the spectrum, and can be opened with any text-editor and edited.
 

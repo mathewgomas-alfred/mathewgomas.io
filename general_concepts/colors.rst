@@ -51,7 +51,7 @@ Showing the colors in a bunch of tables just *feels wrong*, though, doesn't it? 
    :align: center
 
 
-This cube is not filled with water, or sand, or even *concrete*, but colors! Colors are pretty *abstract*, and we typically talk about cubes and other 3D objects that represent abstract ideas as **spaces**, hence we call this cube a **color space**. Because this particular cube uses red, green, and blue as its axes, we say that our cube is in the RGB :ref:`RGB color model <model_rgb>`.
+This cube is not filled with water, or sand, or even *concrete*, but colors! Colors are pretty *abstract*, and we typically talk about cubes and other 3D objects that represent abstract ideas as **spaces**, hence we call this cube a **color space**. Because this particular cube uses red, green, and blue as its axes, we say that our cube is in the :ref:`RGB color model <model_rgb>`.
 
 There are many more color models. For example, if we were to balance our cube on the black corner, the white corner would be right under our finger at the very top of the cube. And as geometry and maths would have it, if we were to cut the cube in half as we balanced it, the line from the white point at the top to the black point at the bottom would be the **grayscale**.
 
@@ -67,7 +67,7 @@ There are other color models, like :ref:`model_lab`, where we look at the corres
 
 Color models describe color spaces, which, in turn, are all sorts of sizes and shapes as well. Krita allows you to do operations in different models and spaces, and we call this functionality **"Color Management"**.
 
-Color Management is necessary for :ref:`**CMYK** (subtractive) <model_cmyk>` support, but outside of that, not many drawing or painting programs offer the feature, as *some* developers believe that artists have no need for such functionality. *What a pity!* Especially because Color Management allows for far more *cool tricks* than just basic CMYK support, and the ability to *manipulate colors like a computer can* is perhaps digital painting’s most unique quality!
+Color Management is necessary for :ref:`CMYK (subtractive) <model_cmyk>` support, but outside of that, not many drawing or painting programs offer the feature, as *some* developers believe that artists have no need for such functionality. *What a pity!* Especially because Color Management allows for far more *cool tricks* than just basic CMYK support, and the ability to *manipulate colors like a computer can* is perhaps digital painting’s most unique quality!
 
 As Krita is giving almost *unprecedented control of color*, this unfortunately means that there are little to no articles out there on how to use color management for artists or painters. And so, we made this category and hope to fill it up with relatively short articles explaining color-related concepts in a light-hearted and visual manner.
 

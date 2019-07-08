@@ -45,7 +45,7 @@ Quick solutions
 
 #. On Windows: reinstall your driver (Windows Update often breaks tablet driver settings, reinstallation helps).
 
-#. Change API in Configure Krita -> Tablet Settings (for some devices, especially N-trig ones, Windows Ink work better, for some it's Wintab).
+#. Change API in :menuselection:`Settings --> Configure Krita --> Tablet Settings` (for some devices, especially N-trig ones, Windows Ink work better, for some it's Wintab).
 
 #. On Windows, Wacom tablets: if you get straight lines at the beginnings of the strokes, disable/minimize "double-click distance" in Wacom settings.
 
@@ -58,7 +58,7 @@ Gathering information
 
 #. What is the version of the tablet driver?
 
-#. Please collect Tablet Tester (Configure Krita -> Tablet Settings) output, paste it to pastebin or similar website and give us a link.
+#. Please collect Tablet Tester (:menuselection:`Settings --> Configure Krita --> Tablet Settings`) output, paste it to `Pastebin <https://pastebin.com/>`_ or similar website and give us a link.
 
 
 Additional information for supporters
@@ -72,13 +72,13 @@ Additional information for supporters
 
 #. If someone asks about a tablet to buy, generally a cheaper Wacom or a Huion are the best options as of 2019, if they want to work with Krita. :ref:`list_supported_tablets`
 
-#. `Possibly useful instruction in case of XP Pen tablet issues <https://www.reddit.com/r/krita/comments/btzh72/xppen_artist_12s_issue_with_krita_how_to_fix_it/>`
+#. `Possibly useful instruction in case of XP-Pen tablet issues <https://www.reddit.com/r/krita/comments/btzh72/xppen_artist_12s_issue_with_krita_how_to_fix_it/>`_.
 
 
 Animation
 ---------
 
-Issues with rendering animation can be of various shapes and colors. First thing to find out is whether the issue happens on Krita's or ffmpeg's side (Krita saves all the frames, then ffmpeg is used to render a video using this sequence of images). To learn that, instruct the user to render as "Image Sequence". If the image sequence is correct, ffmpeg (or more often: render options) are at fault. If the image sequence is incorrect, either the options are wrong (if for example not every frame got rendered), or it's a bug in Krita.
+Issues with rendering animation can be of various shapes and colors. First thing to find out is whether the issue happens on Krita's or FFmpeg's side (Krita saves all the frames, then FFmpeg is used to render a video using this sequence of images). To learn that, instruct the user to render as "Image Sequence". If the image sequence is correct, FFmpeg (or more often: render options) are at fault. If the image sequence is incorrect, either the options are wrong (if for example not every frame got rendered), or it's a bug in Krita.
 
 .. note::
 
@@ -101,13 +101,13 @@ In case of crash try to determine if the problem is known, if not, instruct user
 
 #. Is it possible to reproduce (repeat)? If yes, provide a step-by-step instruction to get the crash.
 
-#. Backtrace (crashlog) -- the instruction is here: :ref:`dr_minw`, and the debug symbols can be found in the annoucement of the version of Krita that the user has. But it could be easier to just point the user to `https://download.kde.org/stable/krita <https://download.kde.org/stable/krita>`.
+#. Backtrace (crashlog) -- the instruction is here: :ref:`dr_minw`, and the debug symbols can be found in the annoucement of the version of Krita that the user has. But it could be easier to just point the user to `https://download.kde.org/stable/krita <https://download.kde.org/stable/krita>`_.
 
 
 Other possible questions with quick solutions
 ---------------------------------------------
 
-#. When the user has trouble with anything related to preview or display, ask them to change Canvas Graphics Acceleration in Configure Krita -> Display.
+#. When the user has trouble with anything related to preview or display, ask them to change :guilabel:`Canvas Graphics Acceleration` in :menuselection:`Settings --> Configure Krita --> Display`.
 
     .. note: 
     
@@ -127,39 +127,24 @@ Advices for supporters
 
 #. Explain steps the user needs to make clearly, for example if you need them to change something in settings, clearly state the whole path of buttons and tabs to get there.
 
-#. Instead of `Settings -> Configure Krita` use just `Configure Krita` -- it's easy enough to find and Mac users (where you need to select Krita -> Settings) won't get confused.
+#. Instead of :menuselection:`Settings --> Configure Krita` use just :menuselection:`Configure Krita` -- it's easy enough to find and Mac users (where you need to select :menuselection:`Krita --> Settings`) won't get confused.
 
-#. If you ask for an image, mention usage of `Imgur <https://imgur.com>`_ or `Pasteboard <https://pasteboard.co>`_, otherwise reddit users might create a new post with this image instead of including it to the old conversation.
+#. If you ask for an image, mention usage of `Imgur <https://imgur.com>`_ or `Pasteboard <https://pasteboard.co>`_, otherwise Reddit users might create a new post with this image instead of including it to the old conversation.
 
 #. If you want to quickly answer someone, just link to the appropriate place in this manual page -- you can click on the little link icon next to the section or subsection title and give the link to the user so they for example know what information about their tablet issue you need.
 
 #. If the user access the internet from the country or a workplace with some of the websites blocked (like imgur.com or pastebin.com), here is a list of alternatives that works:
    
-   * Images (e.g. screenshots): `Pasteboard <https://pasteboard.co>`
+   * Images (e.g. screenshots): `Pasteboard <https://pasteboard.co>`_
    
-   * Text only: `BPaste <https://bpaste.net>`, `paste.ubuntu.org.cn <paste.ubuntu.org.cn>`, `paste.fedoraproject.org <https://paste.fedoraproject.org/>`, `https://invent.kde.org/dashboard/snippets (needs KDE Identity) <https://invent.kde.org/dashboard/snippets>`
+   * Text only: `BPaste <https://bpaste.net>`_, `paste.ubuntu.org.cn <paste.ubuntu.org.cn>`_, `paste.fedoraproject.org <https://paste.fedoraproject.org/>`_ or `https://invent.kde.org/dashboard/snippets (needs KDE Identity) <https://invent.kde.org/dashboard/snippets>`_.
    
-   * .kra and other formats: by mail? Or encode the file using `base64` command on Linux, send by mail or on pastebin, then decode using the same command.
+   * ``.kra`` and other formats: by mail? Or encode the file using `base64` command on Linux, send by mail or on Pastebin, then decode using the same command.
 
   .. attention::
       
       
       If you ask user to store their log or other data on a website, make sure it stays there long enough for you to get it -- for example bpaste.net stores files by default only for a day! And you can extend it only to one week.
       
-      Make sure they don't post their personal data. Tablet Tester log is safe, log from the Help -> Show system information for bug reports might not be that safe. Maybe you could ask them to send it to you by mail?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      Make sure they don't post their personal data. Tablet Tester log is safe, log from the :menuselection:`Help -> Show system information for bug reports` might not be that safe. Maybe you could ask them to send it to you by mail?
 

@@ -115,7 +115,7 @@ Linking is done with ``:ref:`label_name```. When you need an alternative link te
 
 Linking to external pages is done with ```url`_`` and ```link name <url>`_``, which'll become `link name <url>`_.
 
-`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` and then add `` .. __ :url `` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated with one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
+`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` and then add ``.. __ :url`` at the end of the document. This is a so-called 'anonymous hyperlink', meaning that depending on the order of the links appearing in the text the order of the links at the end of the text are associated with one another. If this sounds confusing and difficult, it is because it is. That is also the exact reason why we'd like to avoid links like these.
 
 Footnotes and further reading
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -278,7 +278,7 @@ Defined as such::
         - seagreen
         - verdigris
         - teal
-        - veridian
+        - viridian
         - emerald
             - dark emerald
             - light emerald
