@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-06 11:13+0200\n"
+"PO-Revision-Date: 2019-07-07 16:07+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:1
 msgid "Overview of the digital color mixer docker."
@@ -48,14 +48,15 @@ msgstr ".. image:: images/dockers/Krita_Digital_Color_Mixer_Docker.png"
 #: ../../reference_manual/dockers/digital_color_mixer.rst:20
 msgid "This docker allows you to do simple mathematical color mixing."
 msgstr ""
+"Deze vastzetter biedt u om eenvoudige mathematische kleurenmenging te doen."
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:22
 msgid "It works as follows:"
-msgstr ""
+msgstr "Het werkt als volgt:"
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:24
 msgid "You have on the left side the current color."
-msgstr ""
+msgstr "U hebt aan de linkerkant de huidige kleur."
 
 #: ../../reference_manual/dockers/digital_color_mixer.rst:26
 msgid ""
@@ -68,3 +69,11 @@ msgid ""
 "Finally, the result color. Clicking this will change your current color to "
 "the result color."
 msgstr ""
+"Daarnasst zijn er zes kolommen. Elk van deze kolommen bestaat uit drie "
+"rijen: De laagste rij is the kleur waarvan u bezig bent de huidige kleur "
+"gaat mengen. Deze knop activeren biedt u een andere kleur te kiezen met "
+"een palet en het mini-kleur wieltje. De schuifregelaar boven deze mengkleur "
+"verbeelt de verhouding van de mengkleur en de huidige kleur. Hoe hoger de "
+"schuifregelaar, hoe minder van de mengkleur gebruikt zal worden bij het "
+"mengen. Tenslotte, de kleur van het resultaat. Hier op klikken zal uw "
+"huidige kleur wijzigen in de kleur van het resultaat."
