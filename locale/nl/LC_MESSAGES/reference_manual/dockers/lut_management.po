@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-06 11:16+0200\n"
+"PO-Revision-Date: 2019-07-08 14:20+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.0\n"
+"X-Generator: Lokalize 19.04.2\n"
 
 #: ../../<generated>:1
 msgid "Set white and black points"
@@ -35,7 +35,7 @@ msgstr "LUT-beheer"
 
 #: ../../reference_manual/dockers/lut_management.rst:11
 msgid "Look Up Table"
-msgstr ""
+msgstr "Opzoektabel"
 
 #: ../../reference_manual/dockers/lut_management.rst:11
 msgid "OCIO"
@@ -50,6 +50,8 @@ msgid ""
 "The Look Up Table (LUT) Management docker controls the high dynamic range "
 "(HDR) painting functionality."
 msgstr ""
+"De vastzetter voor beheer van de opzoektabel (Look Up Table, LUT) bestuurt "
+"de hoge dynamische reeks (HDR) van functionaliteit voor schilderen."
 
 #: ../../reference_manual/dockers/lut_management.rst:22
 msgid "Use OpenColorIO"
@@ -61,6 +63,10 @@ msgid ""
 "IO is a color management library. It is sometimes referred to as OCIO. This "
 "is required as Krita uses OCIO for its HDR functionality."
 msgstr ""
+"Open Color IO gebruiken in plaats van het interne kleurbeheer van Krita. "
+"Open Color IO is een bibliotheek voor beheer van kleuren. Er wordt soms "
+"naar gerefereerd als OCIO. Dit is vereist omdat Krita OCIO gebruikt voor "
+"zijn HDR-functionaliteit."
 
 #: ../../reference_manual/dockers/lut_management.rst:24
 msgid "Color Engine"
@@ -68,7 +74,7 @@ msgstr "Kleur-engine"
 
 #: ../../reference_manual/dockers/lut_management.rst:25
 msgid "Choose the engine."
-msgstr ""
+msgstr "De engine kiezen."
 
 #: ../../reference_manual/dockers/lut_management.rst:27
 msgid "Use an OCIO configuration file from your computer."

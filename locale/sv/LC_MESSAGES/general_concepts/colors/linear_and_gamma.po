@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:58+0100\n"
+"PO-Revision-Date: 2019-07-08 22:45+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -35,35 +35,35 @@ msgstr ".. image:: images/color_category/3trcsresult.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:1
 msgid "The effect of gamma and linear."
-msgstr ""
+msgstr "Effekten av gamma och linjär."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Linear Color Space"
-msgstr ""
+msgstr "Linjär färgrymd"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Linear"
-msgstr ""
+msgstr "Linjär"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Tone Response curve"
-msgstr ""
+msgstr "Tonåtergivningskurva"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "EOTF"
-msgstr ""
+msgstr "EOTF"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Transfer Curve"
-msgstr ""
+msgstr "Överföringskurva"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:17
 msgid "Gamma and Linear"
-msgstr ""
+msgstr "Gamma och linjär"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:19
 msgid ""
@@ -72,6 +72,10 @@ msgid ""
 "perceive linearly. Rather, we find it more easy to distinguish between "
 "darker grays than we do between lighter grays."
 msgstr ""
+"Situationen vi nu talar om när det gäller teorin är vad vi skulle kalla"
+" 'linjära'. Varje ljushetssteg har samma storlek. Våra ögon fungerar inte"
+" linjärt. Istället tycker vi att det är lättare att skilja mellan mörkare"
+" gråa än ljusare gråa färger."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:22
 msgid ""
@@ -83,6 +87,13 @@ msgid ""
 "color management specialists hate themselves), which tells your computer or "
 "printer how much color corresponds to a certain value."
 msgstr ""
+"Eftersom människor är de som använder datorer, har vi gjort det så att"
+" datorerna ger mer utrymme till mörkare värden i bildens koordinatsystem. Vi"
+" kallar det 'gammakodning', eftersom det använder en gammafunktion för"
+" bildens TRK eller överföringsfunktion. TRK betyder i det här fallet"
+" tonresponskurvan eller tonåtergivningskurvan eller överföringsfunktionen"
+" (eftersom färghanteringsexperter hatare sig själva), vilket talar om för"
+" datorn eller skrivaren hur mycket av en färg som motsvarar ett visst värde."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
 msgid ".. image:: images/color_category/Pepper_tonecurves.png"
@@ -97,6 +108,12 @@ msgid ""
 "and to the right we have a Pepper encoded with a linear TRC and assigned an "
 "sRGB TRC. Image from `Pepper & Carrot <http://www.peppercarrot.com/>`_"
 msgstr ""
+"Ett av de vanligaste problemen som folk har med Kritas färghantering är att"
+" tilldela rätt färgrymd till en kodad TRK. Ovanför är Pepper i mitten den"
+" rätta, där kodad och tilldelad TRK är samma. Till vänster visas Pepper kodad"
+" med sRGB men tilldelad en linjär profil, och till höger visas Pepper kodad"
+" med linjär TRK och tilldelad en sRGB TRK. Bild från  `Pepper & Carrot <"
+"http://www.peppercarrot.com/>`_"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:30
 msgid ""
@@ -104,6 +121,9 @@ msgid ""
 "values in a linear space compared to the default sRGB TRC of our modern "
 "computers and other TRCs available in our delivered profiles:"
 msgstr ""
+"Följande tabell visar att det finns mycket utrymme använt av ljusare värden i"
+" en linjär rymd jämförd med en vanlig sRGB TRK i våra moderna datorer och"
+" andra TRK:er tillgängliga i de levererade profilerna."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:35
 msgid ""
@@ -125,7 +145,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:40
 msgid "We can see this with the following experiment:"
-msgstr ""
+msgstr "Vi kan se det med följande experiment:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:46
 msgid ""
@@ -138,6 +158,8 @@ msgid ""
 "**Left:** Colored circles blurred in a regular sRGB space. **Right:** "
 "Colored circles blurred in a linear space."
 msgstr ""
+"**Vänster:** Färgade cirklar suddiga i vanlig sRGB rymd. **Höger:** Färgade"
+" cirklar suddiga i en linjär rymd."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:48
 msgid ""
@@ -147,7 +169,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:50
 msgid "This also counts for Krita's color smudge brush:"
-msgstr ""
+msgstr "Det gäller också Kritas färgsmetningspensel:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
@@ -165,17 +187,19 @@ msgstr ""
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:59
 msgid "What is happening under the hood"
-msgstr ""
+msgstr "Vad händer bakom ridån"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:62
 msgid "Imagine we want to mix red and green."
-msgstr ""
+msgstr "Antag att vi vill blanda röd och grön."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:64
 msgid ""
 "First, we would need the color coordinates of red and green inside our color "
 "space's color model. So, that'd be..."
 msgstr ""
+"Först behöver vi färgkoordinaterna för röd och grön inne i vår färgrymds"
+" färgmodell. Så det är ..."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:67
 msgid "Color"
@@ -217,7 +241,7 @@ msgstr "0,0"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:73
 msgid "We then average these coordinates over three mixes:"
-msgstr ""
+msgstr "Vi medelvärdesbildar koordinaterna med tre blandningar:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:76
 msgid "Mix1"
@@ -251,12 +275,16 @@ msgid ""
 "But to figure out how these colors look on screen, we first put the "
 "individual values through the TRC of the color-space we're working with:"
 msgstr ""
+"Men för att räkna ut hur färgerna ser ut på skärmen, så skickar vi de"
+" enskilda värdena via TRK i färgrymden som vi arbetar med:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:93
 msgid ""
 "Then we fill in the values into the correct spot. Compare these to the "
 "values of the mixture table above!"
 msgstr ""
+"Därefter fyller vi i värdena på rätt ställe. Jämför dem med värdena i"
+" blandningstabellen ovan."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:99
 msgid ""
@@ -280,6 +308,9 @@ msgid ""
 "somewhere? The answer is that we have several ICC profiles that can be used "
 "for this kind of work:"
 msgstr ""
+"Så man kan fråga sig hur man markerar alternativet? Finns det någonstans i"
+" inställningarna? Svaret är att vi har flera ICC-profiler som kan användas"
+" för denna typ av arbete:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:112
 msgid "scRGB (linear)"
@@ -288,6 +319,7 @@ msgstr "scRGB (linjär)"
 #: ../../general_concepts/colors/linear_and_gamma.rst:113
 msgid "All 'elle'-profiles ending in 'g10', such as *sRGB-elle-v2-g10.icc*."
 msgstr ""
+"Alla 'elle'-profiler som slutar med 'g10', såsom *sRGB-elle-v2-g10.icc*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:115
 msgid ""
@@ -320,3 +352,5 @@ msgid ""
 "videogames and raytracing, Krita is a tool and no-one will hunt you down for "
 "preferring the dark mixing of the sRGB TRC."
 msgstr ""
+
+
