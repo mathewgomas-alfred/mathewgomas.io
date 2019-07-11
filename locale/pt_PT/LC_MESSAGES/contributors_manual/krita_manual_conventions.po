@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-09 03:10+0200\n"
+"POT-Creation-Date: 2019-07-10 03:20+0200\n"
 "PO-Revision-Date: 2019-07-09 11:32+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -64,6 +64,10 @@ msgstr ""
 ".. image:: images/icons/Krita_mouse_scroll.png\n"
 "   :alt: deslocamento do rato"
 
+#: ../../contributors_manual/krita_manual_conventions.rst:None
+msgid "Horizontal Rulers"
+msgstr "Réguas Horizontais"
+
 #: ../../contributors_manual/krita_manual_conventions.rst:0
 msgid ""
 ".. image:: images/sample.png\n"
@@ -71,10 +75,6 @@ msgid ""
 msgstr ""
 ".. image:: images/sample.png\n"
 "   :alt: uma imagem."
-
-#: ../../contributors_manual/krita_manual_conventions.rst:None
-msgid "Horizontal Rulers"
-msgstr "Réguas Horizontais"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:1
 msgid "reStructuredText conventions for the Krita Manual"
@@ -419,7 +419,14 @@ msgid ""
 "associated with one another. If this sounds confusing and difficult, it is "
 "because it is. That is also the exact reason why we'd like to avoid links "
 "like these."
-msgstr "O `Pandoc <https://pandoc.org/>`_ gosta de transformar estes em ```nome da ligação`__`` e depois adicionar `` .. __ :url`` ao fim do documento. Isto é o que se chama uma 'hiperligação anónima' o que significa que, dependendo da origem das ligações que aparecem no texto, estarão associadas uma à outra na ordem das ligações no fim do texto. Se isto soar confuso e difícil, é porque é. Isto também é a razão exacta pela qual desejamos evitar ligações deste tipo."
+msgstr ""
+"O `Pandoc <https://pandoc.org/>`_ gosta de transformar estes em ```nome da "
+"ligação`__`` e depois adicionar `` .. __ :url`` ao fim do documento. Isto é "
+"o que se chama uma 'hiperligação anónima' o que significa que, dependendo da "
+"origem das ligações que aparecem no texto, estarão associadas uma à outra na "
+"ordem das ligações no fim do texto. Se isto soar confuso e difícil, é porque "
+"é. Isto também é a razão exacta pela qual desejamos evitar ligações deste "
+"tipo."
 
 #: ../../contributors_manual/krita_manual_conventions.rst:121
 msgid "Footnotes and further reading"
