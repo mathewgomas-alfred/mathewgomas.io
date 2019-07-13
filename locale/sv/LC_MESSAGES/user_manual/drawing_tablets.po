@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:59+0100\n"
+"PO-Revision-Date: 2019-07-11 20:54+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -26,6 +26,8 @@ msgid ""
 "Basic page describing drawing tablets, how to set them up for Krita and how "
 "to troubleshoot common tablet issues."
 msgstr ""
+"Grundläggande sida som beskriver ritplattor, hur man ställer in dem för Krita"
+" och hur man felsöker vanliga problem med ritplattor."
 
 #: ../../user_manual/drawing_tablets.rst:13
 msgid "Tablets"
@@ -40,6 +42,8 @@ msgid ""
 "This page is about drawing tablets, what they are, how they work, and where "
 "things can go wrong."
 msgstr ""
+"Den här sidan handlar om ritplattor, vad de är, hur de fungerar, och vad som"
+" kan gå fel."
 
 #: ../../user_manual/drawing_tablets.rst:24
 msgid "What are tablets?"
@@ -85,7 +89,7 @@ msgstr ""
 
 #: ../../user_manual/drawing_tablets.rst:51
 msgid "Drivers and Pressure Sensitivity"
-msgstr ""
+msgstr "Drivrutiner och tryckkänslighet"
 
 #: ../../user_manual/drawing_tablets.rst:53
 msgid ""
@@ -163,7 +167,7 @@ msgstr ""
 
 #: ../../user_manual/drawing_tablets.rst:98
 msgid "Surface pro tablets need two drivers"
-msgstr ""
+msgstr "Surface Pro surfplattor kräver två drivrutiner"
 
 #: ../../user_manual/drawing_tablets.rst:100
 msgid ""
@@ -184,14 +188,16 @@ msgid ""
 "Sometimes a Windows 10 update can mess up tablet drivers. In that case, "
 "reinstalling the drivers should work."
 msgstr ""
+"Ibland kan en uppdatering av Windows 10 kan ställa till det för ritplattans"
+" drivrutin. I så fall ska det fungera att installera om drivrutinerna."
 
 #: ../../user_manual/drawing_tablets.rst:114
 msgid "Wacom Tablets"
-msgstr "Wacom-ritplattor"
+msgstr "Wacom ritplattor"
 
 #: ../../user_manual/drawing_tablets.rst:116
 msgid "There are two known problems with Wacom tablets and Windows."
-msgstr ""
+msgstr "Det finns två kända problem med Wacom ritplattor och Windows."
 
 #: ../../user_manual/drawing_tablets.rst:118
 msgid ""
@@ -225,7 +231,7 @@ msgstr ""
 
 #: ../../user_manual/drawing_tablets.rst:140
 msgid "Conflicting Drivers"
-msgstr ""
+msgstr "Drivrutinkonflikter"
 
 #: ../../user_manual/drawing_tablets.rst:142
 msgid ""
@@ -238,7 +244,7 @@ msgstr ""
 
 #: ../../user_manual/drawing_tablets.rst:150
 msgid "Interfering software"
-msgstr ""
+msgstr "Störande programvara"
 
 #: ../../user_manual/drawing_tablets.rst:152
 msgid ""
@@ -257,6 +263,8 @@ msgid ""
 "The following software has been reported to interfere with tablet events to "
 "Krita:"
 msgstr ""
+"Följande programvara har rapporterats störa ritplattors kommunikation med"
+" Krita:"
 
 #: ../../user_manual/drawing_tablets.rst:164
 msgid "Sandboxie"
@@ -312,3 +320,4 @@ msgid ""
 "themselves, so they can reliably fix bugs with them. :ref:`We maintain a "
 "list of those here <list_supported_tablets>`."
 msgstr ""
+
