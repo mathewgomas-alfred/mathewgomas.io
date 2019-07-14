@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-05-05 08:59+0100\n"
+"PO-Revision-Date: 2019-07-13 20:45+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../reference_manual/render_animation.rst:1
 msgid "How to use the render animation command in Krita."
-msgstr ""
+msgstr "Hur kommandot för att återge animering används i Krita"
 
 #: ../../reference_manual/render_animation.rst:12
 #: ../../reference_manual/render_animation.rst:17
@@ -36,6 +36,8 @@ msgid ""
 "Render animation allows you to render your animation to an image sequence, "
 "gif, mp4, mkv, or ogg file. It replaces :guilabel:`Export Animation`."
 msgstr ""
+"Återge animering låter dig återge animeringar som en bildsekvens, gif-, mp4-,"
+" mkv- eller ogg-fil. Det ersätter :guilabel:`Exportera animering`."
 
 #: ../../reference_manual/render_animation.rst:21
 msgid ""
@@ -48,6 +50,14 @@ msgid ""
 "saves out weird, first saving the image sequence allows you to only resave "
 "that one weird frame before rendering."
 msgstr ""
+"Vid återgivning till ett animerat filformat, återger Krita först till en"
+" png-sekvens och använder därefter FFmpeg, som är mycket bra på att koda"
+" videofiler, för att återge sekvensen med ett animerat filformat. Orsaken för"
+" den här tvåstegsprocessen är att animeringsfiler kan vara verkligt komplexa"
+" och mycket stora, och det är det bästa sättet att behålla kontroll över"
+" exportprocessen. Om datorn exempelvis råkar ut för en störning och en"
+" bildruta sparas konstigt, blir det möjligt att bara spara om den enda"
+" konstiga bildrutan genom att spara bildsekvensen innan återgivning."
 
 #: ../../reference_manual/render_animation.rst:23
 msgid ""
@@ -56,6 +66,10 @@ msgid ""
 "use a spot on your hard-drive with enough room and select :guilabel:`Delete "
 "Sequence After Rendering`."
 msgstr ""
+"Det betyder att man måste hitta ett bra ställe att stoppa bildrutorna innan"
+" återgivning kan startas. Om man bara skapar animeringar som ska slängas, kan"
+" man välja en plats på hårddisken med tillräckligt med utrymme och välja"
+" :guilabel:`Ta bort sekvens efter återgivning`."
 
 #: ../../reference_manual/render_animation.rst:26
 msgid "Image Sequence"
@@ -70,6 +84,8 @@ msgid ""
 "The base name of your image sequence. This will get suffixed with a number "
 "depending on the frame."
 msgstr ""
+"Bildsekvensens basnamn. Ett suffix med ett nummer beroende på bildruta läggs"
+" till."
 
 #: ../../reference_manual/render_animation.rst:30
 msgid "File Format"
@@ -80,6 +96,8 @@ msgid ""
 "The file format to export the sequence to. When rendering we enforce png. "
 "The usual export options can be modified with :guilabel:`...`."
 msgstr ""
+"Filformatet att exportera sekvensen till. När vi återger krävs png. De"
+" vanliga exportalternativen kan ändras med :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:32
 msgid "Render Location"
@@ -90,6 +108,8 @@ msgid ""
 "Where you render the image sequence to. Some people prefer to use a flash-"
 "drive or perhaps a harddrive that is fast."
 msgstr ""
+"Där bildsekvensen återges. Vissa föredrar att använda en SSD-disk eller"
+" kanske en snabb hårddisk."
 
 #: ../../reference_manual/render_animation.rst:34
 msgid "First Frame"
@@ -101,6 +121,9 @@ msgid ""
 "to the first frame of your current selection in the timeline. This is useful "
 "when you only want to re-render a little part."
 msgstr ""
+"Den första bildrutan i intervallet som ska justeras. Ställs automatiskt in"
+" till den första bildrutan i nuvarande markering i tidslinjen. Det är"
+" användbart när man bara vill återge en liten del."
 
 #: ../../reference_manual/render_animation.rst:36
 msgid "Last Frame"
@@ -112,6 +135,8 @@ msgid ""
 "Automatically set to the last frame of your current selection in the "
 "timeline."
 msgstr ""
+"Som ovan, den sista bildrutan i intervallet som ska justeras. Ställs"
+" automatiskt in till den sista bildrutan i nuvarande markering i tidslinjen."
 
 #: ../../reference_manual/render_animation.rst:39
 msgid "Naming Sequence starts with"
@@ -125,6 +150,11 @@ msgid ""
 "11 and 15. Useful for programs that don't understand sequences starting with "
 "0, or for precision output."
 msgstr ""
+"Bildrutorna namnges genom att använda :guilabel:`Basnamn` ovan och lägga till"
+" ett nummer för rutan. Det låter dig ange var rutans nummer börjar, så att"
+" återge från 8 till 10 med startpunkt 3 ger bilder benämnda 11 och 15."
+" Användbart för program som inte förstår sekvenser som börjar med 0, eller"
+" för exakt utdata."
 
 #: ../../reference_manual/render_animation.rst:44
 msgid "Render As"
@@ -135,18 +165,20 @@ msgid ""
 "The file format to render to. All except gif have extra options that can be "
 "manipulated via :guilabel:`...`."
 msgstr ""
+"Filformat att återge med. Alla utom gif har extra alternativ som kan hanteras"
+" via :guilabel:`...`."
 
 #: ../../reference_manual/render_animation.rst:46
 msgid "File"
-msgstr ""
+msgstr "Fil"
 
 #: ../../reference_manual/render_animation.rst:47
 msgid "Location and name of the rendered animation."
-msgstr ""
+msgstr "Den återgivna animeringens plats och namn."
 
 #: ../../reference_manual/render_animation.rst:48
 msgid "FFmpeg"
-msgstr ""
+msgstr "FFmpeg"
 
 #: ../../reference_manual/render_animation.rst:49
 msgid ""
@@ -154,6 +186,9 @@ msgid ""
 "render an animation. For proper gif support, you will need FFmpeg 2.6, as we "
 "use its palettegen functionality."
 msgstr ""
+"Platsen där FFmpeg finns. Om man inte har det, kan Krita inte återge en"
+" animeringen. För riktigt stöd av gif, behövs FFmpeg 2.6, eftersom vi"
+" använder dess palettegen-funktion."
 
 #: ../../reference_manual/render_animation.rst:51
 msgid "Delete Sequence After Rendering"
@@ -165,6 +200,9 @@ msgid ""
 "to choose whether to try and save some space, or to save the sequence for "
 "when encoding fails."
 msgstr ""
+"Ta bort den föråtergivna bildsekvensen efter återgivningen är klar. Det låter"
+" dig välja att försöka spara en del utrymme, eller spara sekvensen om kodning"
+" misslyckas."
 
 #: ../../reference_manual/render_animation.rst:55
 msgid ""
@@ -172,10 +210,13 @@ msgid ""
 "background, so Krita will try to fill it with something. You should add a "
 "background color yourself to avoid it from using, say, black."
 msgstr ""
+"Inga av videoformaten stöder att spara från bilder med en genomskinlig"
+" bakgrund, så Krita försöker fylla i den med något. Man bör lägga till en"
+" bakgrundsfärg själv, för att undvika att exempelvis svart används."
 
 #: ../../reference_manual/render_animation.rst:58
 msgid "Setting Up Krita for Exporting Animations"
-msgstr ""
+msgstr "Ställa in Krita för att exportera animeringar"
 
 #: ../../reference_manual/render_animation.rst:60
 msgid ""
@@ -186,21 +227,29 @@ msgid ""
 "how to get it and set it up. The setup is a one-time thing so you won't have "
 "to do it again."
 msgstr ""
+"Man måste ladda ner ett extra program och länka det med Krita för att det ska"
+" fungera. Programmet är ganska stort (500 MiB), så utvecklarna av Krita ville"
+" inte skicka med det med det normala programmet. Programvaran som vi använder"
+" är fri, och kallas FFmpeg. De följande instruktionerna förklarar hur man"
+" hämtar och ställer in det. Inställningen är engångssak, så man behöver inte"
+" göra det igen."
 
 #: ../../reference_manual/render_animation.rst:63
 msgid "Step 1 - Downloading FFmpeg"
-msgstr ""
+msgstr "Steg 1 - Ladda ner FFmpeg"
 
 #: ../../reference_manual/render_animation.rst:66
 #: ../../reference_manual/render_animation.rst:86
 msgid "For Windows"
-msgstr ""
+msgstr "För Windows"
 
 #: ../../reference_manual/render_animation.rst:68
 msgid ""
 "Go to the `FFmpeg website <http://ffmpeg.org/download.html>`_. The URL that "
 "had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_"
 msgstr ""
+"Gå till `FFmpegs webbplats <http://ffmpeg.org/download.html>`_. Webbadressen"
+" som hade länken för mig var `här ... <https://ffmpeg.zeranoe.com/builds/>`_"
 
 #: ../../reference_manual/render_animation.rst:70
 msgid ""
@@ -211,11 +260,18 @@ msgid ""
 "version. Make sure you get a exe file, if you hover over the options they "
 "will give more information about what exactly you are downloading."
 msgstr ""
+"Se upp för den ytterst irriterande Google-annonsen som ser ut som en"
+" nerladdningsknapp. Det finns ingen stor knapp för det som vi behöver. Hämta"
+" antingen 64-bitars eller 32-bitars statiska versionen, STATIC som visas"
+" längre ner på sidan. Om datorn är inköpt under de senaste fem åren, ska man"
+" troligtvis använda 64-bitarsversionen. Säkerställ att en .exe-fil hämtas. Om"
+" man håller musen över alternativen, ger de mer information om exakt vad som"
+" laddas ner."
 
 #: ../../reference_manual/render_animation.rst:73
 #: ../../reference_manual/render_animation.rst:93
 msgid "For OSX"
-msgstr ""
+msgstr "För OSX"
 
 #: ../../reference_manual/render_animation.rst:75
 msgid ""
@@ -225,11 +281,16 @@ msgid ""
 "that supports .7z, since FFmpeg provides their OSX builds in .7z format. If "
 "you don't have one, try something like `Keka <https://www.kekaosx.com>`_."
 msgstr ""
+"Se avsnittet ovan. Dock hämtas FFmpeg `härifrån <https://evermeet.cx/ffmpeg/"
+">`_ istället. Välj bara den stora gröna knappen till vänster under rubriken"
+" FFmpeg. Du behöver också arkiveringsverktyg som stöder .7z, eftersom FFmpeg"
+" tillhandahåller OSX-byggen med .7z-format. Om du inte har ett, prova något"
+" som liknar `Keka <https://www.kekaosx.com>`_."
 
 #: ../../reference_manual/render_animation.rst:78
 #: ../../reference_manual/render_animation.rst:98
 msgid "For Linux"
-msgstr ""
+msgstr "För Linux"
 
 #: ../../reference_manual/render_animation.rst:80
 msgid ""
@@ -237,10 +298,12 @@ msgid ""
 "2.6 is required for proper gif support, as we use the palettegen "
 "functionality."
 msgstr ""
+"FFmpeg kan installeras från arkiven för de flesta Linux system. Version 2.6"
+" krävs för riktig gif-stöd, eftersom vi använder dess palettegen-funktion."
 
 #: ../../reference_manual/render_animation.rst:83
 msgid "Step 2 - Unzipping and Linking to Krita"
-msgstr ""
+msgstr "Steg 2 - Packa upp och länka till Krita"
 
 #: ../../reference_manual/render_animation.rst:88
 msgid ""
@@ -249,6 +312,10 @@ msgid ""
 "\\ and place it there. You can put it wherever you want, but that is where I "
 "put it."
 msgstr ""
+"Packa upp paketet som just laddades ner. Byt namn på den långa katalogen till"
+" bara ffmpeg. Låt oss placera katalogen på ett ställe som är lätt att hitta."
+" Gå till C:\\ och placera den där. Man kan placera den var man vill, men det"
+" är där som jag placerade den."
 
 #: ../../reference_manual/render_animation.rst:90
 msgid ""
@@ -256,6 +323,9 @@ msgid ""
 "Click the :guilabel:`Browse`  button on the last item called FFmpeg. Select "
 "this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` ."
 msgstr ""
+"Öppna Krita igen och gå till :menuselection:`Arkiv --> Återge animering`."
+" Klicka på knappen :guilabel:`Bläddra` för det sista objektet kallat FFmpeg."
+" Välj filen ``C:/ffmpeg/bin/ffmpeg.exe`` och klicka på :guilabel:`Ok`."
 
 #: ../../reference_manual/render_animation.rst:95
 msgid ""
@@ -264,22 +334,30 @@ msgid ""
 "(assuming you downloaded and extracted the .7z file to /Users/user/"
 "Downloads)."
 msgstr ""
+"Efter att ha laddat ner FFmpeg, måste man bara extrahera det och helt enkelt"
+" peka på det på platsen för FFmpeg i Krita som"
+" ``/Users/user/Downloads/ffmpeg`` (med antagandet att .7z-filen har laddats"
+" ner och packats upp i /Users/user/Downloads)."
 
 #: ../../reference_manual/render_animation.rst:100
 msgid ""
 "FFmpeg is, if installed from the repositories, usually found in ``/usr/bin/"
 "ffmpeg``."
 msgstr ""
+"FFmpeg finns, om det är installerat från arkiven, oftast i"
+" ``/usr/bin/ffmpeg``."
 
 #: ../../reference_manual/render_animation.rst:103
 msgid "Step 3 - Testing out an animation"
-msgstr ""
+msgstr "Steg 3 - Prova en animering"
 
 #: ../../reference_manual/render_animation.rst:105
 msgid ""
 "ffmpeg.exe is what Krita uses to do all of its animation export magic. Now "
 "that it is hooked up, let us test it out."
 msgstr ""
+"ffmpeg.exe är vad Krita använder för att utföra all exportmagi. Nu när det är"
+" inkopplat, låt oss prova det."
 
 #: ../../reference_manual/render_animation.rst:107
 msgid ""
@@ -289,6 +367,11 @@ msgid ""
 "called it \"export.gif\". When it is done, you should be able to open it up "
 "and see the animation."
 msgstr ""
+"Låt oss skapa en animerad GIF. Ändra fältet :guilabel:`Återge som` till"
+" \"GIF-bild\" i dialogrutan Återge animering. Välj plats för filen där den"
+" ska sparas med menyn \"Fil\" nedan. Jag sparade den bara på mitt skrivbord"
+" och kallade den \"export.gif\". När det är klart, ska man kunna öppna den"
+" och se animeringen."
 
 #: ../../reference_manual/render_animation.rst:111
 msgid ""
@@ -296,6 +379,9 @@ msgid ""
 "that Windows Media Player won't be able to play it. So for Windows, select "
 "\"baseline\" for the profile instead of \"high422\" before rendering."
 msgstr ""
+"Normalt återger FFmpeg MP4-filer med en kodare som är för ny, vilket betyder"
+" att Windows mediaspelare inte kan spela upp den. Välj istället \"baseline\""
+" som profil istället för \"high422\" innan återgivning."
 
 #: ../../reference_manual/render_animation.rst:115
 msgid ""
@@ -304,6 +390,10 @@ msgid ""
 "video should play. Otherwise you will need to get a program like VLC to see "
 "the video."
 msgstr ""
+"OSX levereras inte med någon programvara för att spela MP4- och MKV-filer. Om"
+" man använder Chrome som webbläsare, kan man dra videofilen till den så ska"
+" videon spelas upp. Annars måste man hämta ett program som VLC för att titta"
+" på videon."
 
 #~ msgid "FFMpeg"
 #~ msgstr "FFMpeg"
