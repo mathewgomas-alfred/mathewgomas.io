@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-05 08:59+0100\n"
+"PO-Revision-Date: 2019-07-14 22:33+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -45,6 +45,8 @@ msgstr "Vektorlager"
 msgid ""
 "This page is outdated. Check :ref:`vector_graphics` for a better overview."
 msgstr ""
+"Den här sidan är föråldrad. Titta på :ref:`vector_graphics` för en bättre"
+" översikt."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:27
 msgid "What is a Vector Layer?"
@@ -55,11 +57,13 @@ msgid ""
 "A Vector Layers, also known as a shape layer, is a type of layers that "
 "contains only vector elements."
 msgstr ""
+"Ett vektorlager, också känt som ett formlager, är en sorts lager som bara"
+" innehåller vektorelement."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:31
 msgid ""
 "This is how vector layers will appear in the :program:`Krita` Layers docker."
-msgstr ""
+msgstr "Så här ser vektorlager ut med lagerpanelen i :program:`Krita`."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:34
 msgid ".. image:: images/vector/Vectorlayer.png"
@@ -75,6 +79,12 @@ msgid ""
 "longer be allowed until it is clicked again and the lock on the layer is "
 "released."
 msgstr ""
+"Den visar lagrets vektorinnehåll på vänster sida. Ikonen som visar sidan med"
+" det röda bokmärket anger att det är ett vektorlager. Till höger om det finns"
+" lagernamnet. Därefter finns lagrets synlighetsikon och åtkomstikon. Att"
+" klicka på \"ögat\" ändrar synligheten. Att klicka så att låset hamnar i"
+" stängd position låser innehållet och redigering tillåts inte till det"
+" klickas igen och lagrets lås öppnas."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:38
 msgid "Creating a vector layer"
@@ -88,10 +98,16 @@ msgid ""
 "**Add shape** dock onto an active Paint Layer.  If the active layer is a "
 "Vector Layer then the shape will be added directly to it."
 msgstr ""
+"Man kan skapa ett vektorlager på två sätt. Genom att använda"
+" extraalternativen i knappen \"Lägg till lager\" kan man klicka på"
+" alternativet \"Vektorlager\" så skapas ett nytt vektorlager. Man kan också"
+" dra en rektangel eller ellips från panelen **Lägg till form** på ett aktivt"
+" målarlager. Om det aktiva lagret är ett vektorlager läggs formen direkt till"
+" på det."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:43
 msgid "Editing Shapes on a Vector Layer"
-msgstr ""
+msgstr "Redigera former på ett vektorlager"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:47
 msgid ""
@@ -101,22 +117,31 @@ msgid ""
 "will not allow cm or inch, even though the vector layer coordinate system "
 "uses those as a basis."
 msgstr ""
+"För närvarande finns ett fel med vektorlager som gör att de alltid anses vara"
+" 72 punkter/tum, oberoende av den verkliga bildpunktsstorleken. Det kan göra"
+" det lite svårt att hantera former, eftersom den exakta inmatningen inte"
+" tillåter cm eller tum, även om vektorlagrets koordinatsystem använder dem"
+" som bas."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:50
 msgid "Basic Shape Manipulation"
-msgstr ""
+msgstr "Grundläggande formhantering"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:52
 msgid ""
 "To edit the shape and colors of your vector element, you will need to use "
 "the basic shape manipulation tool."
 msgstr ""
+"Man måste använda hanteringsverktyget för grundläggande former för att"
+" redigera formen och färgen på vektorelement."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:54
 msgid ""
 "Once you have selected this tool, click on the element you want to "
 "manipulate and you will see guides appear around your shape."
 msgstr ""
+"När man väl har valt verktyget, klicka på elementet som ska ändras så dyker"
+" hjälplinjer upp omkring formen."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:57
 msgid ".. image:: images/vector/Vectorguides.png"
@@ -127,10 +152,12 @@ msgid ""
 "There are four ways to manipulate your image using this tool and the guides "
 "on your shape."
 msgstr ""
+"Det finns fyra sätt att ändra bilden med verktyget och hjälplinjerna på"
+" formen."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:61
 msgid "Transform/Move"
-msgstr ""
+msgstr "Transformera och flytta"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:64
 msgid ".. image:: images/vector/Transform.png"
@@ -142,10 +169,13 @@ msgid ""
 "dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock your "
 "moves to one axis."
 msgstr ""
+"Den här verktygsfunktionen gör att man kan flytta objektet genom att klicka"
+" och dra formen på duken. Att hålla nere :kbd:`Ctrl` låser förflyttningarna"
+" till en axel."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:68
 msgid "Size/Stretch"
-msgstr ""
+msgstr "Storleksändra och sträcka"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:71
 msgid ".. image:: images/vector/Resize.png"
@@ -159,6 +189,11 @@ msgid ""
 "scale your object. Holding :kbd:`Ctrl`  will cause your manipulation to be "
 "mirrored across your object."
 msgstr ""
+"Den här verktygsfunktionen gör att man kan sträcka formen. Att välja en"
+" mittpunkt tillåter sträckning längs en axel. Att välja en hörnpunkt tillåter"
+" sträckning längs båda axlarna. Att hålla nere :kbd:`Skift` tillåter att"
+" objektet skalas. Att hålla nere :kbd:`Ctrl` gör att ändringen speglas över"
+" objektet."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:75
 msgid "Rotate"
@@ -174,10 +209,12 @@ msgid ""
 "center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 degree "
 "angles."
 msgstr ""
+"Den här verktygsfunktionen låter dig rotera objektet omkring dess centrum."
+" Att hålla nere :kbd:`Ctrl` gör att rotationen låses till 45 graders vinklar."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:82
 msgid "Skew"
-msgstr ""
+msgstr "Skjuva"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:85
 msgid ".. image:: images/vector/Skew.png"
@@ -185,7 +222,7 @@ msgstr ".. image:: images/vector/Skew.png"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:86
 msgid "This feature of the tool will allow you to skew your object."
-msgstr ""
+msgstr "Den här verktygsfunktionen låter dig skjuva objektet."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:90
 msgid ""
@@ -193,10 +230,13 @@ msgid ""
 "The developers are aware that this could be useful and will work on it as "
 "manpower allows."
 msgstr ""
+"För närvarande finns det inget sätt att bara skala en sida av vektorobjektet."
+" Utvecklarna är medvetna om att det kan vara användbart och kommer att arbeta"
+" på det när arbetskraft finns tillgänglig."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:93
 msgid "Point and Curve Shape Manipulation"
-msgstr ""
+msgstr "Hantering av punkter och kurvformer"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:95
 msgid ""
@@ -205,6 +245,10 @@ msgid ""
 "Click and drag along a line to curve it between two points. Holding :kbd:"
 "`Ctrl`  will lock your moves to one axis."
 msgstr ""
+"Dubbelklicka på ett vektorobjekt för att redigera de specifika punkter eller"
+" kurvor som utgör formen. Klicka och dra en punkt för att flytta omkring den"
+" på duken. Klicka och dra längs en linje för att böja den mellan två punkter."
+" Att hålla nere :kbd:`Ctrl` låser förflyttningarna längs en axel."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:98
 msgid ".. image:: images/vector/Pointcurvemanip.png"
@@ -212,7 +256,7 @@ msgstr ".. image:: images/vector/Pointcurvemanip.png"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:100
 msgid "Stroke and Fill"
-msgstr ""
+msgstr "Streck och fyll"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:102
 msgid ""
@@ -226,6 +270,14 @@ msgid ""
 "the black line. The active mode will be shown by which is on top of the "
 "other."
 msgstr ""
+"Förutom att definieras av punkter och kurvor, har en form också två"
+" definierande egenskaper: **Fyll** och **Streck**. **Fyll** definierar"
+" färgen, toningen eller mönstret som fyller området inne i formobjektet."
+" **Streck** definierar färg, toning, mönster och tjocklek på gränsen längs"
+" formens kant. Båda två kan redigeras med panelen **Streck och fyll**."
+" Panelen har två lägen, ett för streck och ett för fyll. Man kan ändra läge"
+" genom att klicka på den fyllda fyrkanten eller svarta linjen i panelen. Det"
+" aktiva läget visas av vilken som är ovanpå den andra."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:104
 msgid ""
@@ -233,6 +285,9 @@ msgid ""
 "the solid white square. This tells us that there is no fill assigned "
 "therefore the inside of the shape will be transparent."
 msgstr ""
+"Här är panelen med fyllelementet aktivt. Observera den röda linjen över den"
+" vita fyrkanten. Det talar om att fyll inte är tilldelad, och därför är"
+" formens insida genomskinlig."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:107
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:129
@@ -241,7 +296,7 @@ msgstr ".. image:: images/vector/Strokeandfill.png"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:108
 msgid "Here is the dock with the stroke element active."
-msgstr ""
+msgstr "Här är panelen med streckelementet aktivt."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:111
 msgid ".. image:: images/vector/Strokeandfillstroke.png"
@@ -249,13 +304,15 @@ msgstr ".. image:: images/vector/Strokeandfillstroke.png"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:113
 msgid "Editing Stroke Properties"
-msgstr ""
+msgstr "Redigera streckegenskaper"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:115
 msgid ""
 "The stroke properties dock will allow you to edit a different aspect of how "
 "the outline of your vector shape looks."
 msgstr ""
+"Panelen för streckegenskaper gör det möjligt att redigera en annan aspekt av"
+" hur konturen på vektorformen ser ut."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:118
 msgid ".. image:: images/vector/Strokeprops.png"
@@ -268,6 +325,9 @@ msgid ""
 "The cap option changes how line endings appear. The join option changes how "
 "corners appear."
 msgstr ""
+"Stilväljaren låter dig välja olika mönster och linjestilar. Alternativet"
+" Bredd ändrar tjocklek för vektorformens kontur. Alternativet Ända ändrar hur"
+" linjeändar ser ut. Alternativet hopfogning ändar hur hörn ser ut."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:121
 msgid ""
@@ -276,21 +336,26 @@ msgid ""
 "past the points. Lower numbers will restrict the stroke to shorter and less "
 "sharp corners."
 msgstr ""
+"Sned gräns bestämmer hur skarpa hörnen på objektet visas. Ju högre värde"
+" desto mer tillåts hörnen sträckas ut förbi punkterna. Lägre värden begränsar"
+" strecket till kortare och mindre skarpa hörn."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:124
 msgid "Editing Fill Properties"
-msgstr ""
+msgstr "Redigera fyllegenskaper"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:126
 msgid ""
 "All of the fill properties are contained in the **Stroke and Fill** dock."
-msgstr ""
+msgstr "Alla fyllegenskaper finns i panelen **Streck och fyll**."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:130
 msgid ""
 "The large red **X** button will set the fill to none causing the area inside "
 "of the vector shape to be transparent."
 msgstr ""
+"Den stora röda knappen **X** ställer in ingen fyll vilket gör att området"
+" inne i vektorformen blir genomskinligt."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:132
 msgid ""
@@ -301,6 +366,11 @@ msgid ""
 "gradient. A gradient can be selected by pressing the down arrow next to the "
 "long button."
 msgstr ""
+"Till höger om den finns en ifylld fyrkant. Den ställer in fyllnad till en hel"
+" färg som visas i den långa knappen och kan väljas genom att klicka på pilen"
+" precis till höger om den långa knappen. Till höger om den ifyllda fyrkanten"
+" finns toningsknappen. Den ställer in fyllnad att visas som en toning. En"
+" toning kan väljas genom att klicka på neråtpilen intill den långa knappen."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:134
 msgid ""
@@ -309,12 +379,18 @@ msgid ""
 "to the long button. The two other buttons are for **fill rules**: the way a "
 "self-overlapping path is filled."
 msgstr ""
+"Under **X** finns en knapp som visar ett mönster. Det inre området fylls med"
+" ett mönster. Ett mönster kan väljas genom att klicka på pilarna intill den"
+" långa knappen. De två andra knapparna är för **fyllnadsregler**: sättet som"
+" en kontur som överlappar sig själv fylls i."
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:136
 msgid ""
 "The button with the inner square blank toggles even-odd mode, where every "
 "filled region of the path is next to an unfilled one, like this:"
 msgstr ""
+"Knappen med den inte fyrkanten tom väljer mellan jämnt och udda läge, där"
+" varje ifyllt område av konturen är intill ett ofyllt, på detta sätt:"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:142
 msgid ""
@@ -324,6 +400,11 @@ msgid ""
 "overlapping' so that the region between the two is considered outside the "
 "path and remain unfilled, like this:"
 msgstr ""
+"Knappen med den inre fyrkanten ifylld ändrar icke-nolläge, där en kontur som"
+" överlappar sig själv fylls i helt och hållet största delen av tiden, utom"
+" när den överlappar med en delkontur av en annan riktning som 'minskar graden"
+" av överlappning' så att området mellan de två anses vara utanför konturen,"
+" och förblir ofyllt, på detta sätt:"
 
 #: ../../reference_manual/layers_and_masks/vector_layers.rst:148
 msgid ""
@@ -331,3 +412,8 @@ msgid ""
 "manual <http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke."
 "html#Attributes-Fill-Rule>`_."
 msgstr ""
+"För mer (och bättre) information om fyllregler titta på `Inkscape manual <"
+"http://tavmjong.free.fr/INKSCAPE/MANUAL/html/Attributes-Fill-Stroke.html#Attri"
+"butes-Fill-Rule>`_."
+
+
