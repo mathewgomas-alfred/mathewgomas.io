@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-13 03:10+0200\n"
-"PO-Revision-Date: 2019-06-26 00:04+0200\n"
+"POT-Creation-Date: 2019-07-15 03:08+0200\n"
+"PO-Revision-Date: 2019-07-15 22:46+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -18,14 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 19.07.70\n"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -69,9 +61,17 @@ msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
-msgstr ""
+msgstr "Com funciona un flux de treball gestionant el color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:12
 msgid "Color"
@@ -101,6 +101,12 @@ msgid ""
 "people who work in digital imaging professionally, and hopefully this page "
 "will explain why."
 msgstr ""
+"És possible que hàgiu sentit que el Krita té alguna cosa que s'anomena "
+"gestió del color. O potser simplement us heu preguntat què signifiquen totes "
+"aquestes coses com «model de color» i «perfil de color» que trobeu en els "
+"menús. La gestió del color és força útil per a les persones que treballen en "
+"les imatges digitals de manera professional, i espero que aquesta pàgina ho "
+"expliqui."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:22
 msgid "Basic Info"
@@ -114,6 +120,12 @@ msgid ""
 "or *sRGB-elle-v2-srgbtrc.icc*. With the new color space browser this profile "
 "is marked with *(default)* when using 8bit."
 msgstr ""
+"Si mai heu treballat amb la gestió del color i no teniu ni idea de què és, "
+"llavors hauríeu de saber que probablement heu estat treballant en l'espai de "
+"color RGB de 8 bits amb el perfil sRGB. Això vol dir que podreu triar entre "
+"*sRGB incorporat* o *sRGB-elle-v2-srgbtrc.icc*. Amb el nou navegador per a "
+"l'espai de color, quan s'utilitzen els 8 bits aquest perfil estarà marcat "
+"amb *(predeterminat)*."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:26
 msgid ""
@@ -123,6 +135,11 @@ msgid ""
 "interesting results from filters, blending modes, or just the color smudge "
 "brush."
 msgstr ""
+"Veurem què volen dir aquests termes en la teoria, però si esteu aquí només "
+"per intentar esbrinar quin és el valor predeterminat, ara ja ho sabeu. "
+"Potser, després de llegir això, és possible que tingueu ganes de canviar el "
+"valor predeterminat, per obtenir resultats nous i interessants dels filtres, "
+"els modes de barreja o només el pinzell amb esborronat del color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:29
 msgid "What is the problem?"
@@ -133,16 +150,20 @@ msgid ""
 "To explain the point of color management, you'd first need to learn which "
 "problem color management tries to solve."
 msgstr ""
+"Per explicar el punt de la gestió del color, primer haureu d'aprendre quin "
+"problema tracta de resoldre."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:33
 msgid "Let us imagine a kinder garden:"
-msgstr ""
+msgstr "Imaginem una escola bressol:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:35
 msgid ""
 "The class of 28 children is subdivided in groups of 7. Each group has its "
 "own table."
 msgstr ""
+"La classe de 28 nens i nenes se subdivideix en grups de 7. Cada grup té la "
+"seva pròpia taula."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:37
 msgid ""
@@ -152,16 +173,23 @@ msgid ""
 "can confidently leave the smarter ones to their own devices, and spent more "
 "time on those who need help."
 msgstr ""
+"El mestre els dóna una tasca de pintura: cal que pinteu un triangle vermell, "
+"un quadrat blau, un cercle verd i posar una vora groga al voltant dels tres. "
+"La canalla ja té molta experiència amb la pintura, de manera que el "
+"professor podrà deixar als més intel·ligents amb confiança en els seus "
+"propis dispositius i dedicar més temps a aquells que necessiten ajuda."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:40
 msgid "The following results come from painting:"
-msgstr ""
+msgstr "Els següents resultats provenen de la pintura:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:42
 msgid ""
 "Even though all groups had the same assignment, each group's result looks "
 "different."
 msgstr ""
+"Encara que tots els grups tenien la mateixa assignació, el resultat de cada "
+"grup sembla diferent."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:49
 msgid ""
@@ -170,6 +198,10 @@ msgid ""
 "green is muddy. This is because ultramarine is too dark of a blue to create "
 "nice greens with."
 msgstr ""
+"El grup 1 tenia a la seva disposició el vermelló, el groc cítric i el blau "
+"ultramarí. Això vol dir que el seu triangle es veu bonic i vermell, però el "
+"verd del seu cercle és fangós. Això es deu al fet que el blau ultramarí és "
+"massa fosc per a crear verds bonics."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:56
 msgid ""
@@ -178,18 +210,26 @@ msgid ""
 "orange. However, their green looks nice because cerulean is a much lighter "
 "blue."
 msgstr ""
+"El grup 2 tenia el vermell magenta, el groc cítric i el blau ceruli. El "
+"magenta és un tipus de vermell que està més a prop del rosa, oposat al "
+"vermelló, el qual està més a prop del taronja. No obstant això, el seu verd "
+"es veu bé perquè el ceruli és un blau molt més clar."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:64
 msgid ""
 "Group 3 had vermillion red, citron yellow, emerald green and cerulean blue. "
 "They didn't mix their green, and thus ended up with a purer color."
 msgstr ""
+"El grup 3 tenia el vermelló, el groc cítric, el verd maragda i el blau "
+"ceruli. No han mesclat el seu verd, i així han acabat amb un color més pur."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:71
 msgid ""
 "Finally, group 4 has vermillion red, citron yellow and cerulean blue. Their "
 "colors probably look like what you imagined."
 msgstr ""
+"Finalment, el grup 4 té el vermelló, el groc cítric i el blau ceruli. Els "
+"seus colors probablement s'assemblen al que heu imaginat."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:73
 msgid ""
@@ -198,10 +238,14 @@ msgid ""
 "company? Imagine four printers printing the same magazine with wildly "
 "different results? That would be disastrous!"
 msgstr ""
+"Ara, aquesta és canalla de guarderia, així que aquest no és el problema més "
+"gran del món. No obstant això, imagineu-vos que succeeix quelcom així en una "
+"impremta? Imagineu quatre impressores imprimint la mateixa revista amb "
+"resultats totalment diferents? Això seria desastrós!"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:75
 msgid "For this purpose, we invented color management."
-msgstr ""
+msgstr "Per a això, hem inventat la gestió del color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:78
 msgid "What is color management?"
@@ -212,6 +256,9 @@ msgid ""
 "Color management is, dryly put, a set of systems that tries to have the same "
 "color translate properly between color devices."
 msgstr ""
+"La gestió del color és, en poques paraules, un conjunt de sistemes que "
+"intenten que el mateix color es tradueixi correctament entre els dispositius "
+"de color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:82
 msgid ""
@@ -219,12 +266,17 @@ msgid ""
 "space XYZ. XYZ is a coordinate system that has a spot for all colors that "
 "the average human eye can see."
 msgstr ""
+"Normalment treballeu intentant cobrir un color a l'espai de color de "
+"referència XYZ. XYZ és un sistema de coordenades que té un punt per a tots "
+"els colors que pot veure l'ull humà."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:84
 msgid ""
 "From XYZ it can then be translated back into another device space, such as "
 "RGB (for screens), or CMYK (for printers)."
 msgstr ""
+"A partir de XYZ, es pot traduir de nou a un altre espai de dispositiu, com "
+"ara RGB (per a les pantalles) o CMYK (per a les impressores)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:86
 msgid ""
@@ -232,6 +284,9 @@ msgid ""
 "have **lcms2**, which deal with ICC profiles, and on the other, we have "
 "**OCIO**, which deal with LUT color management."
 msgstr ""
+"El Krita té dos sistemes dedicats a la gestió del color. D'una banda, tenim "
+"el **lcms2**, el qual tracta de perfils ICC i de l'altra tenim **OCIO**, el "
+"qual tracta la gestió del color LUT."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:88
 msgid ""
@@ -240,10 +295,14 @@ msgid ""
 "reference space, and OCIO deals with manipulating the interpretation of said "
 "colors."
 msgstr ""
+"Per donar una estimació aproximada, els perfils ICC s'ocupen de mantenir els "
+"colors coherents a través de moltes interpretacions de dispositius "
+"(pantalles, impressores) emprant un espai de referència i OCIO tracta de "
+"manipular la interpretació d'aquests colors."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:90
 msgid "Within both we can identify the following color spaces:"
-msgstr ""
+msgstr "Dins de tots dos podem identificar els següents espais de color:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:93
 msgid ""
@@ -261,10 +320,25 @@ msgid ""
 "themselves. You can read more about colorimeter usage :ref:`here "
 "<profiling_and_calibration>`."
 msgstr ""
+"Els espais de dispositiu són els que descriuen el vostre monitor i s'han de "
+"fer amb un petit dispositiu anomenat «colorímetre». Aquest dispositiu, "
+"juntament amb el programari adequat, mesura el vermell, el verd i el blau "
+"més forts que pot produir la pantalla, així com el blanc, el negre i el gris "
+"que produeix. Mitjançant aquestes i altres mesures, es crearà un perfil ICC "
+"únic per a la pantalla. Els establireu a la pestanya gestió del color del "
+"Krita. De manera predeterminada assumim sRGB per a les pantalles, però és "
+"molt probable que la vostra pantalla no s'ajusti exactament al sRGB, "
+"sobretot si teniu una pantalla d'alta qualitat, on aquest espai podria ser "
+"més gran. Els espais de dispositiu també són el motiu pel qual haureu de "
+"consultar primer amb les especificacions de la vostra impressora per a saber "
+"quin perfil espera. Moltes impremtes tenen els seus propis perfils de "
+"dispositiu per a les seves impressores, o bé poden preferir la conversió del "
+"color. Podeu llegir més sobre l'ús del colorímetre :ref:`aquí "
+"<profiling_and_calibration>`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:94
 msgid "Device spaces"
-msgstr "Espais del dispositiu"
+msgstr "Espais de dispositiu"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:96
 msgid "Working spaces"
@@ -277,10 +351,15 @@ msgid ""
 "calculations in, which programs like Krita do often. It's therefore "
 "recommended to have a working space profile for your image."
 msgstr ""
+"Aquests es lliuren al costat del Krita per a ICC i es poden descarregar des "
+"del lloc web de l'OCIO per a OCIO. Els espais de treball són especialment "
+"agradables per a fer càlculs de colors, el qual programes com el Krita faran "
+"sovint. Per tant, es recomana tenir un perfil de l'espai de treball per a la "
+"vostra imatge."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:99
 msgid "Aesthetic or Look spaces"
-msgstr ""
+msgstr "Espais d'estètica o d'aspecte"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:99
 msgid ""
@@ -288,6 +367,9 @@ msgid ""
 "an image. Krita doesn't deliver Look profiles for ICC, nor does it yet "
 "support Look spaces for OCIO."
 msgstr ""
+"Són espais especials que s'han deformat per a donar un cert aspecte a una "
+"imatge. El Krita no lliura perfils d'aspecte per a ICC, ni tampoc admet els "
+"espais d'aspecte per a OCIO."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:102
 msgid "Color managed workflow"
@@ -299,6 +381,12 @@ msgid ""
 "use them, but it does make it easier to explain how to use them. So let us "
 "look at a typical color management workflow:"
 msgstr ""
+"Saber això sobre aquests espais, per descomptat, no us dóna una idea de com "
+"utilitzar-los, però facilita l'explicació de com utilitzar-los. Així doncs, "
+"vegem un flux de treball de gestió de color típic: Per descomptat, saber "
+"això sobre aquests espais no us donarà una idea de com emprar-los, però sí "
+"farà que sigui més fàcil explicar-ho. De manera que farem una ullada a un "
+"flux de treball típic de la gestió del color:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:110
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_text.svg"
@@ -311,6 +399,11 @@ msgid ""
 "different editing software, and is converted to an output space for viewing "
 "on screen or printing."
 msgstr ""
+"Un exemple típic d'un flux de treball gestionant el color. Tenim l'entrada "
+"des dels escàners i càmeres, la qual convertirem a un espai de treball que "
+"es pugui utilitzar entre el diferent programari d'edició i convertir-la en "
+"un espai de sortida per a la visualització a la pantalla o per a la "
+"impressió."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:112
 msgid ""
@@ -320,6 +413,12 @@ msgid ""
 "device space of such a device, we first assign said device space to the "
 "image, and then convert it to a working space."
 msgstr ""
+"En un flux de treball amb la gestió tradicional del color, normalment pensem "
+"en termes de colors en el món real que es converteixen en colors de "
+"l'ordinador i, al revés. Per exemple, les fotografies des d'una càmera o "
+"escanejades en imatges. Si teniu un espai de dispositiu d'aquest tipus, "
+"primer assignarem l'espai de dispositiu a la imatge i després la convertirem "
+"a un espai de treball."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:114
 msgid ""
@@ -329,6 +428,11 @@ msgid ""
 "2.9+, Inkscape, digiKam and Scribus, and OCIO configuration between Blender "
 "and Natron."
 msgstr ""
+"A continuació, fem tota la nostra edició en l'espai de treball i utilitzem "
+"l'espai de treball per a comunicar entre els programes d'edició. En el cas "
+"del Krita, a causa que té dos sistemes per a la gestió del color, utilitzem "
+"perfils ICC entre els programes com el GIMP 2.9+, Inkscape, digiKam i "
+"Scribus, i la configuració de l'OCIO entre el Blender i Natron."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:116
 msgid ""
@@ -336,6 +440,9 @@ msgid ""
 "have the layers unmerged in the working file, or have it at a very high "
 "resolution."
 msgstr ""
+"També podeu emmagatzemar els fitxers de treball en l'espai de treball, igual "
+"que la forma com tindreu les capes sense fusionar al fitxer de treball o "
+"tenir-les a una resolució molt alta."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:118
 msgid ""
@@ -343,6 +450,9 @@ msgid ""
 "editing process. This is rather advanced, and probably not something to "
 "worry about in Krita's case."
 msgstr ""
+"De vegades, apliquem espais estètics o d'«aspecte» a una imatge com a part "
+"del procés d'edició. Això és força avançat i probablement no us n'hauríeu de "
+"preocupar en el cas del Krita."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:120
 msgid ""
@@ -353,6 +463,12 @@ msgid ""
 "the best conversion, and may prefer to do the conversion from your working "
 "space to the device space of their printers."
 msgstr ""
+"Aleshores, quan hàgim acabat d'editar, intentarem convertir-les a un espai de "
+"sortida, el qual és un altre espai de dispositiu. Pot ser CMYK per a "
+"impressores o un perfil RGB especial de pantalla. Quan es tracta d'impremtes "
+"professionals, el millor és preguntar sobre aquest pas. Tenen un munt "
+"d'experiència amb la millor conversió i poden preferir la conversió des del "
+"vostre espai de treball a l'espai de dispositiu de les seves impressores."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:122
 msgid ""
@@ -363,6 +479,13 @@ msgid ""
 "you can see your screen as a set of binoculars you have to look through to "
 "see your image at all."
 msgstr ""
+"Una altra forma de sortida és la manera en què la pantalla mostra el color. A "
+"diferència de la sortida habitual, aquesta es fa tot el temps durant "
+"l'edició: després de tot, necessiteu veure el que esteu fent, però la "
+"pantalla continua sent un dispositiu amb un espai de dispositiu, de manera "
+"que distorsiona l'aspecte de la imatge. D'aquesta manera, veureu la pantalla "
+"com a través d'un joc de prismàtics pels que haureu de mirar per a veure la "
+"vostra imatge."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:124
 msgid ""
@@ -373,6 +496,12 @@ msgid ""
 "to draw in, you are for the first time seeing the actual colors of the sRGB "
 "space."
 msgstr ""
+"Per tant, sense un monitor amb perfil, en realitat no sabeu com són els "
+"colors reals amb els que esteu treballant, ja que l'ordinador no coneix les "
+"propietats rellevants de la pantalla. De manera que si creeu perfils per al "
+"monitor, doneu-li al Krita des dels ajustaments i seleccioneu l'espai sRGB "
+"per a dibuixar, i ara veureu per primera vegada els colors reals de l'espai "
+"sRGB."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:127
 msgid "So what does this mean?"
@@ -391,7 +520,12 @@ msgid ""
 "simplifies the workflow, but makes the screen profile and viewing conditions "
 "more important."
 msgstr ""
+"Quan pintem des de zero, veurem el nostre perfil de pantalla com a l'espai "
+"d'entrada, perquè l'utilitzem per a determinar quins colors triar. Això "
+"simplifica el flux de treball, però fa que el perfil de la pantalla i les "
+"condicions de visualització siguin més importants."
 
+# Nota: https://ca.wikipedia.org/wiki/Etalonatge_digital
 #: ../../general_concepts/colors/color_managed_workflow.rst:135
 msgid ""
 "Now, photographers and people who do a tricky discipline of VFX called "
@@ -402,6 +536,14 @@ msgid ""
 "to red, which means that the colors they pick in the program could come out "
 "redder. We call these the *viewing conditions*."
 msgstr ""
+"Ara, els fotògrafs i la gent que fan una disciplina complicada dels VFX "
+"anomenada «etalonatge» («color grading») es tornaran completament boges en "
+"intentar obtenir els colors que es posen al 100% correctes, i fins i tot "
+"comptaran amb factors com ara el dia i el color en el que estan pintades les "
+"seves parets. Per exemple, si la paret al darrere de l'ordinador és de color "
+"vermell pur, els ulls s'ajustaran per ser menys sensibles al vermell, el "
+"qual vol dir que els colors que es trien al programa podrien aparèixer més "
+"vermells. Això s'anomena les condicions de la visualització."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:137
 msgid ""
@@ -417,6 +559,18 @@ msgid ""
 "and we might have had much more flexibility had we taken viewing conditions "
 "under consideration."
 msgstr ""
+"Afortunadament, els artistes s'han de preocupar molt menys d'això. Com que "
+"les il·lustracions són completament artesanals, podem identificar els bits "
+"importants i fer contrastos adequats entre els colors. Això vol dir que fins "
+"i tot si les nostres imatges resulten ser una mica més vermelles del que es "
+"pretén, és menys probable que s'arruïni tota la imatge s'arruïni. Si mirem "
+"enrere, a l'exemple anterior de l'escola bressol, encara entenem com hauria "
+"de ser la imatge, tot i que hi hagi diferents colors a cada imatge. A més, "
+"com que els colors de les il·lustracions es trien deliberadament, podem "
+"corregir-los amb més facilitat en una data posterior. Tanmateix, al mateix "
+"temps, és evident que serà un gran problema fer-ho, i podríem haver tingut "
+"molta més flexibilitat si haguéssim tingut en compte les condicions de la "
+"visualització."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:139
 msgid ""
@@ -425,6 +579,10 @@ msgid ""
 "mixing, and only some working spaces can be used for advanced technology "
 "like HDR."
 msgstr ""
+"Dit això, per als artistes també és molt útil entendre els espais de treball. "
+"Els diferents espais de treball donen resultats diferents amb els filtres i "
+"la mescla, i només es poden utilitzar alguns espais de treball per a "
+"tecnologies avançades com el HDR."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:141
 msgid ""
@@ -436,6 +594,14 @@ msgid ""
 "in the settings can help with preparing your work for print and future "
 "ventures in the long run."
 msgstr ""
+"De la mateixa manera, el Krita, com un programa destinat a crear imatges des "
+"de zero, en realitat no es preocupa d'assignar els espais de treball després "
+"de crear la imatge. Però com que esteu utilitzant la pantalla com uns "
+"prismàtics per a mirar la vostra imatge i per triar els colors, veureu "
+"l'espai del dispositiu de la pantalla com a un espai d'entrada a la imatge. "
+"Per tant, elaborar el perfil del vostre monitor i donar-li al Krita "
+"mitjançant els ajustaments us ajudarà a preparar el vostre treball per als "
+"projectes d'impressió i futurs a llarg termini."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:143
 msgid ""
@@ -447,6 +613,14 @@ msgid ""
 "(Though, of course this might also be because dark themes can be considered "
 "cool, who knows.)"
 msgstr ""
+"En general, és útil mantenir les coses com ara les condicions de la "
+"visualització al fons de la vostra ment. Molts artistes professionals "
+"utilitzen un color gris mig com a fons predeterminat del llenç, ja que troben "
+"que es creen imatges molt més dinàmiques a causa de la millora de les "
+"condicions de la visualització. També és per això que molts programes "
+"gràfics, incloent-hi el Krita, tenen avui un tema fosc. (Tot i que, per "
+"descomptat, això també pot ser perquè els temes foscos es poden considerar "
+"genials, qui sap)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:148
 msgid "ICC profiles"
@@ -461,6 +635,12 @@ msgid ""
 "Illustrator, Inkscape, Digikam, RawTheraphee, etc. You have two types of ICC "
 "profiles:"
 msgstr ""
+"Un perfil ICC és un conjunt de coordenades que descriuen les extremitats de "
+"l'espai del dispositiu amb XYZ, i són les dades de la gestió del color que "
+"utilitzareu per a comunicar el vostre espai de treball a les impressores i "
+"aplicacions dissenyades per a la indústria gràfica, com ara el GIMP, Scribus, "
+"Photoshop, Illustrator, Inkscape, digiKam, RawTheraphee, etc. Teniu dos tipus "
+"de perfils ICC:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:153
 msgid ""
@@ -470,16 +650,24 @@ msgid ""
 "of information on these profiles. Such profiles are also preferable as "
 "working space."
 msgstr ""
+"Es lliuren al costat del Krita. Els perfils de configuració de matrius es "
+"creen ajustant els paràmetres i interpolant-los per obtenir la mida exacta de "
+"l'espai de color. Per això, el navegador de l'espai de color del Krita pot "
+"proporcionar molta informació sobre aquests perfils. Aquests perfils també "
+"són preferibles com a espai de treball."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
 msgid "Matrix Shaper profiles."
-msgstr ""
+msgstr "Perfils de configuració de matrius."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
 msgid ""
 "Matrix shaper profiles have a few parameters that describe the color space "
 "which are then interpolated between, this requires a lot of maths."
 msgstr ""
+"Els perfils de configuració de matrius tenen uns quants paràmetres que "
+"descriuen l'espai de color entre el qual s'interpolen i requereix un munt de "
+"matemàtiques."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:162
 msgid ""
@@ -490,6 +678,14 @@ msgid ""
 "far more organic approach to describing a color space, hence why a lot of "
 "programs that don't care for color management much don't support these."
 msgstr ""
+"Aquests són molt rars i principalment s'utilitzen per a descriure els perfils "
+"de la impressora, com ara el CMYK. Els perfils de la taula de cerca del color "
+"o cLUT emmagatzemen moltes més dades que els perfils de configuració de "
+"matrius, de manera que poden contenir dades de petites particularitats "
+"causades, per exemple, per resultats inesperats de la mescla dels pigments. "
+"Aquest és un enfocament molt més orgànic per a descriure un espai de color, "
+"per això, molts programes que no tenen cura de la gestió del color no els "
+"admeten."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:168
 msgid ""
@@ -498,10 +694,14 @@ msgid ""
 "typically L\\*A\\*B\\* and for the rest XYZ. These tables are tricky to "
 "make, which means these profiles are a lot rarer."
 msgstr ""
+"Els perfils de la cLUT funcionen mantenint les taules de cada color en un "
+"espai de color i les seves respectives coordenades en un espai de referència. "
+"Per al CMYK, normalment és L\\*A\\*B\\* i per a la resta XYZ. Aquestes taules "
+"són difícils de crear, el qual vol dir que aquests perfils són molt més rars."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:169
 msgid "cLUT profiles"
-msgstr "Perfils cLUT"
+msgstr "Perfils de la cLUT"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:171
 msgid ""
@@ -510,6 +710,10 @@ msgid ""
 "converting, you do end up with the question of how to translate the working "
 "space values."
 msgstr ""
+"El més interessant dels perfils ICC és que el vostre espai de treball pot ser "
+"més gran que l'espai del dispositiu. Això generalment no és dolent. No "
+"obstant això, en convertir-los acabareu amb la pregunta de com traduir els "
+"valors de l'espai de treball."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:174
 msgid "Perceptual"
@@ -523,7 +727,14 @@ msgid ""
 "all colors in an image, or want to express all possible contrasts. Doesn't "
 "work with Matrix Shaper profiles, defaults to relative colorimetric."
 msgstr ""
+"Simplement retalla els valors de l'espai de treball a l'espai al qual es "
+"converteix. És un bon mètode per a veure tots els valors possibles, però no "
+"tan bo si voleu una reproducció precisa del color. Utilitzeu-lo si voleu "
+"veure tots els colors d'una imatge o voleu expressar tots els contrastos "
+"possibles. No funciona amb els perfils de configuració de matrius, de manera "
+"predeterminada a colorimetria relativa."
 
+# skip-rule: punctuation-period
 #: ../../general_concepts/colors/color_managed_workflow.rst:177
 msgid "Absolute Colorimetric."
 msgstr "Colorimetria absoluta"
@@ -535,6 +746,11 @@ msgid ""
 "colors. Recommended only for reproduction work. Doesn't work with Matrix "
 "Shaper profiles in Krita due to ICC v4 workflow standards."
 msgstr ""
+"El contrari del perceptiu, la colorimetria absoluta intentarà conservar tots "
+"els colors correctes a qualsevol preu, el qual pot resultar en colors "
+"horribles. Només recomanat per a treballs de reproducció. Al Krita no "
+"funciona amb els perfils de configuració de matrius, a causa dels estàndards "
+"del flux de treball ICC v4."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:180
 msgid "Relative Colorimetric"
@@ -549,6 +765,13 @@ msgid ""
 "during conversion, because the ICC v4 workflow specifies to only use "
 "Relative Colorimetric for matrix shaper profiles."
 msgstr ""
+"Una solució intermèdia entre perceptiu i absolut, la relativa intentarà "
+"ajustar-se als colors que puguin coincidir entre els espais de color. Ho fa "
+"alineant els punts blanc i negre. Retalla la resta a les seves vores "
+"respectives. Això és el que tots els perfils de configuració de matrius "
+"predeterminats fan durant la conversió, ja que el flux de treball ICC v4 "
+"especifica només utilitzar la colorimetria relativa per als perfils de "
+"configuració de matrius."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:183
 msgid "Saturation"
@@ -560,6 +783,9 @@ msgid ""
 "infographics. Doesn't work with Matrix Shaper profiles, defaults to relative "
 "colorimetric."
 msgstr ""
+"Sacrificarà qualsevol cosa per a retenir el color, fins i tot el to. "
+"S'utilitza en les infografies. No funciona amb els perfils de configuració de "
+"matrius, de manera predeterminada a colorimetria relativa."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:185
 msgid ""
@@ -570,10 +796,18 @@ msgid ""
 "This is also why Krita defaults to V2, and we recommend using V2 when you "
 "aren't certain if the other programs you are using support V4."
 msgstr ""
+"La *versió del perfil ICC* és l'últim que cal tenir en compte a l'hora de "
+"tractar amb els perfils ICC. El Krita lliura perfils tant de la versió 2 com "
+"de la versió 4, mentre que l'última versió dóna millors resultats en fer les "
+"matemàtiques del color, la primera està més àmpliament admesa (tal com es veu "
+"a continuació a «Interacció amb altres aplicacions»). Per això, el Krita "
+"també ve amb la v2 de manera predeterminada i us recomanem que utilitzeu la "
+"v2 quan no esteu segur si els altres programes que utilitzeu són compatibles "
+"amb la v4."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:188
 msgid "LUT docker and HDR imaging"
-msgstr ""
+msgstr "Acoblador de la LUT i imatges en HDR"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:196
 msgid ""
@@ -581,6 +815,10 @@ msgid ""
 "Krita that is shared between Krita and programs like Blender, Natron and "
 "Nuke, and only uses Look Up Tables that are configured via a config file."
 msgstr ""
+"La :ref:`lut_docker` és la segona part important de la gestió del color en el "
+"Krita, es comparteix entre el Krita i programes com el Blender, Natron i "
+"Nuke, i només utilitza les taules de cerca que es configuren mitjançant un "
+"fitxer de configuració."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:198
 msgid ""
@@ -588,12 +826,18 @@ msgid ""
 "display to sRGB or your own LUT if you have added it to the configuration. "
 "View in this case is for proofing transforms to a certain display device."
 msgstr ""
+"Podeu establir l'espai de treball de la imatge sota l'espai de color "
+"d'entrada, i la pantalla a sRGB o la vostra pròpia LUT si l'heu afegit a la "
+"configuració. La visualització en aquest cas serà per a la transformació de "
+"provatures amb un determinat dispositiu de visualització."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:200
 msgid ""
 "Component, exposure, gamma, whitepoint and blackpoint are knobs which allows "
 "you to modify the display filter."
 msgstr ""
+"El component, l'exposició, la gamma, el punt blanc i el punt negre són "
+"comandaments que permeten modificar el filtre de la pantalla."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:208
 msgid ""
@@ -604,6 +848,12 @@ msgid ""
 "that are whiter than the white of our screen. To explain what that means, we "
 "need to think about what white is."
 msgstr ""
+"Com s'ha explicat abans, al món de la nostra imatge la veurem al nostre "
+"monitor com un telescopi o uns prismàtics. Això vol dir que es distorsiona "
+"una mica la vista de la imatge. Però podem modificar aquests prismàtics o el "
+"filtre de la pantalla per a veure la nostra imatge d'una manera diferent. Per "
+"exemple, per a que ens permeti veure el blanc en una imatge més blanca que la "
+"pantalla. Per explicar què vol dir això, haurem de pensar en què és el blanc."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:210
 msgid ""
@@ -611,12 +861,17 @@ msgid ""
 "But it's certainly different from white on our paper, or the color of milk, "
 "white from the sun, or even the white of our cell-phone displays."
 msgstr ""
+"Per exemple, el blanc, al nostre monitor està ple de vermell, verd i blau. "
+"Però, sens dubte, és diferent del blanc al nostre paper, o del color de la "
+"llet, el blanc del sol, o fins i tot el blanc del nostre telèfon mòbil."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:212
 msgid ""
 "Black similarly, is brighter on a LCD display than a LED one, and "
 "incomparable with the black of a carefully sealed room."
 msgstr ""
+"De manera similar, el negre és més brillant en una pantalla LCD que en una "
+"LED, i és incomparable amb el negre d'una habitació acuradament segellada."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:214
 msgid ""
@@ -626,6 +881,11 @@ msgid ""
 "can determine whether a white is whiter than the white point, or a black "
 "blacker than the black-point."
 msgstr ""
+"Això vol dir que hi ha negres potencialment més negres que el negre de la"
+" pantalla i els blancs són més blancs que el blanc de la pantalla. No obstant"
+" això, per a simplificar, encara assignem el punt negre i el punt blanc a"
+" certs valors. A partir d'aquí, podem determinar si un blanc és més blanc que"
+" el punt blanc, o un negre és més negre que el punt negre."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:216
 msgid ""
@@ -634,12 +894,19 @@ msgid ""
 "scene referred values, such as HDR photos, or images coming out of a render "
 "engine."
 msgstr ""
+"L'acoblador de la LUT ens permet controlar aquest filtre de la pantalla i "
+"modificar la distorsió. Això és útil quan comencem a modificar imatges que es "
+"creen amb valors en referència a l'escena, com ara fotografies en HDR o "
+"imatges que surten d'un motor de renderitzat."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:224
 msgid ""
 "So, for example, we can choose to scale whiter-than-screen-white to our "
 "screen-white so we can see the contrasts there."
 msgstr ""
+"Així, per exemple, podem triar l'escala més blanca que el blanc de la "
+"pantalla al nostre blanc de la pantalla perquè hi puguem veure els "
+"contrastos."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:226
 msgid ""
@@ -648,6 +915,10 @@ msgid ""
 "than-screen-white (because your screen can't show the difference), graphics "
 "programs can certainly use it."
 msgstr ""
+"El punt d'això és que podeu aprofitar els detalls de més claredat en una "
+"imatge. Si bé no es podrà veure la diferència entre el blanc de la pantalla i "
+"el més blanc que el blanc de la pantalla (perquè la pantalla no pot mostrar "
+"la diferència), els programes gràfics sí que poden utilitzar-ho."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:228
 msgid ""
@@ -657,6 +928,11 @@ msgid ""
 "create an image where you can be flippant with the contrast, and allow "
 "yourself to go as bright as you'd like."
 msgstr ""
+"Un exemple comú és fer coincidir la il·luminació entre un model en 3D i una "
+"escena del món real. Altres són un retoc fotogràfic avançat, amb molta més "
+"informació disponible per a l'usuari sobre el contrast. En la pintura en sí, "
+"això permetrà crear una imatge en la que podreu ser impetuós amb el contrast, "
+"i fer-la tan brillant com us agradaria."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:230
 msgid ""
@@ -664,11 +940,17 @@ msgid ""
 "it to luminosity. This way you can see the image in both color as well as "
 "grayscale and keep a good eye on your values."
 msgstr ""
+"Les manipulacions a l'acoblador de la LUT són per a la visualització, de "
+"manera que podreu crear una nova visualització i establir-la en lluminositat. "
+"D'aquesta manera, veureu la imatge tant en color com en escala de grisos i "
+"mantindreu bon ull en els vostres valors."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:232
 msgid ""
 "Another example is to carefully watch the gradients in a certain section."
 msgstr ""
+"Un altre exemple és observar amb atenció els degradats d'una determinada "
+"secció."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:234
 msgid ""
@@ -679,6 +961,12 @@ msgid ""
 "--> Color Management` is turned off, unless you are using the :guilabel:"
 "`Internal` color engine."
 msgstr ""
+"Igual que ICC, l'acoblador de la LUT permet crear una mena de perfil per al "
+"vostre dispositiu. En aquest cas és la «lut», el qual vol dir «taula de "
+"cerca» i la qual es pot afegir a OCIO modificant el fitxer de configuració. "
+"Quan OCIO estigui activat, la configuració a :menuselection:`Arranjament --> "
+"Configura el Krita --> Gestió del color` estarà desactivada, llevat que "
+"utilitzeu el motor de color :guilabel:`Intern`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:237
 msgid "In summary"
@@ -686,7 +974,7 @@ msgstr "En resum"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:239
 msgid "Krita has two modes of color management:"
-msgstr "El Krita té dos modes de gestió del color:"
+msgstr "El Krita té dos modes per a la gestió del color:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:241
 msgid ""
@@ -793,6 +1081,7 @@ msgstr ""
 #: ../../general_concepts/colors/color_managed_workflow.rst:273
 msgid "If it's a gray-scale image, convert it to gray-scale."
 msgstr ""
+"Si és una imatge en escala de grisos, la convertirà a escala de grisos."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:274
 msgid ""
