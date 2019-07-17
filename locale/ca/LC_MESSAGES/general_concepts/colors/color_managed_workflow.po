@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-15 03:08+0200\n"
-"PO-Revision-Date: 2019-07-15 22:46+0200\n"
+"PO-Revision-Date: 2019-07-16 14:39+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -381,12 +381,9 @@ msgid ""
 "use them, but it does make it easier to explain how to use them. So let us "
 "look at a typical color management workflow:"
 msgstr ""
-"Saber això sobre aquests espais, per descomptat, no us dóna una idea de com "
-"utilitzar-los, però facilita l'explicació de com utilitzar-los. Així doncs, "
-"vegem un flux de treball de gestió de color típic: Per descomptat, saber "
-"això sobre aquests espais no us donarà una idea de com emprar-los, però sí "
-"farà que sigui més fàcil explicar-ho. De manera que farem una ullada a un "
-"flux de treball típic de la gestió del color:"
+"Per descomptat, saber això sobre aquests espais no us donarà una idea de com "
+"emprar-los, però sí farà que sigui més fàcil explicar-ho. De manera que farem "
+"una ullada a un flux de treball típic amb la gestió del color:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:110
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_text.svg"
@@ -800,7 +797,7 @@ msgstr ""
 "tractar amb els perfils ICC. El Krita lliura perfils tant de la versió 2 com "
 "de la versió 4, mentre que l'última versió dóna millors resultats en fer les "
 "matemàtiques del color, la primera està més àmpliament admesa (tal com es veu "
-"a continuació a «Interacció amb altres aplicacions»). Per això, el Krita "
+"a continuació a «Interacció amb les altres aplicacions»). Per això, el Krita "
 "també ve amb la v2 de manera predeterminada i us recomanem que utilitzeu la "
 "v2 quan no esteu segur si els altres programes que utilitzeu són compatibles "
 "amb la v4."
@@ -981,14 +978,16 @@ msgid ""
 "ICC works in terms of spaces relative to the CIEXYZ space, and requires an "
 "ICC profile."
 msgstr ""
+"ICC treballa en termes relatius als espais a l'espai CIEXYZ, i requereix un "
+"perfil ICC."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:242
 msgid "OCIO works in terms of interpretation, and makes use of luts."
-msgstr ""
+msgstr "OCI treballa en termes d'interpretació, i fa ús de la LUT."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:243
 msgid "both can be made with a colorimeter."
-msgstr ""
+msgstr "Ambdós es poden fer amb un colorímetre."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:244
 msgid ""
@@ -996,12 +995,18 @@ msgid ""
 "customary for the input device (your screen) and the output devices (your "
 "printer, or target screen). For web the output is always sRGB."
 msgstr ""
+"Si voleu tenir un flux de treball adequat gestionant el color, tingueu-ne un "
+"personalitzat per al dispositiu d'entrada (la vostra pantalla) i els "
+"dispositius de sortida (la vostra impressora o pantalla de destinació). Per a "
+"la web, la sortida sempre serà sRGB."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:245
 msgid ""
 "Set up your screen profiles under :menuselection:`Settings --> Configure "
 "Krita --> Color management`."
 msgstr ""
+"Configureu els perfils de la vostra pantalla sota :menuselection:`Arranjament "
+"--> Configura el Krita --> Gestió del color`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
 msgid ""
@@ -1011,6 +1016,12 @@ msgid ""
 "between your screen and working space on the fly, allowing you to pick the "
 "correct colors. This turns your screen into binoculars to view the image."
 msgstr ""
+"NO utilitzeu els perfils de la pantalla o altres perfils de dispositiu per a "
+"dibuixar. Utilitzeu un perfil de l'espai de treball com qualsevol dels "
+"perfils «elle» per a això, farà que les matemàtiques del color siguin molt "
+"més predictibles i agradables. El Krita convertirà entre l'espai de la "
+"pantalla i l'espai de treball sobre la marxa, permetent triar els colors "
+"correctes. Això convertirà la pantalla en prismàtics per a veure la imatge."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:247
 msgid ""
@@ -1018,6 +1029,9 @@ msgid ""
 "are working with Blender, you will be better off using OCIO, than ICC. If "
 "you are working with Scribus or Photoshop, use ICC."
 msgstr ""
+"Utilitzeu la gestió del color adequada per al flux de treball adequat. Si "
+"esteu treballant amb Blender, serà millor que utilitzeu OCIO, millor que ICC. "
+"Si esteu treballant amb Scribus o Photoshop, utilitzeu ICC."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:249
 msgid ""
@@ -1026,6 +1040,11 @@ msgid ""
 "requires a bit depth of at the least 16bit to work correctly. The "
 "disadvantage is that linear space can be confusing to work in."
 msgstr ""
+"El Krita fa un munt de matemàtiques del color, sovint en relació amb la "
+"barreja dels colors. Aquestes matemàtiques del color funcionen millor en "
+"l'espai de color lineal, i aquest requereix una profunditat de bits d'almenys "
+"16 bits per a funcionar. El desavantatge és que l'espai lineal pot ser confús "
+"per a treballar."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:251
 msgid ""
@@ -1035,6 +1054,12 @@ msgid ""
 "icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color "
 "blending while opening up the possibility for you to start working in hdr!"
 msgstr ""
+"Si us agrada pintar, teniu una bona quantitat de RAM i cerqueu començar els "
+"vostres passos de novell aprofitant la gestió del color del Krita, intenteu "
+"actualitzar de tenir totes les imatges en sRGB incorporat al "
+"sRGB-v2-elle-g10.icc o rec2020-v2-elle-g10.icc amb flotant de 16 bits. Això "
+"donarà una millor barreja del color al mateix temps que obrirà la "
+"possibilitat que comenceu a treballar en HDR!"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:256
 msgid ""
@@ -1042,12 +1067,17 @@ msgid ""
 "best performance under 16bit float, because NVidia cards convert to floating "
 "point internally. When it does not need to do that, it speeds up!"
 msgstr ""
+"Algunes targetes gràfiques, com les de la marca NVidia, en realitat tenen el "
+"millor rendiment sota flotant de 16 bits, perquè les targetes NVidia "
+"converteixen internament a coma flotant. Quan no cal fer-ho, van més ràpid!"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:260
 msgid ""
 "No amount of color management in the world can make the image on your screen "
 "and the image out of the printer have 100% the same color."
 msgstr ""
+"Cap quantitat de gestió del color en el món farà que la imatge que surti a la "
+"pantalla i de la impressora tingui el 100% del mateix color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:263
 msgid "Exporting"
@@ -1058,16 +1088,21 @@ msgid ""
 "When you have finished your image and are ready to export it, you can modify "
 "the color space to optimize it:"
 msgstr ""
+"En finalitzar la vostra imatge i quan estigueu llest per exportar-la, podreu "
+"modificar l'espai de color per optimitzar-la:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:267
 msgid "If you are preparing an image for the web:"
-msgstr ""
+msgstr "Si esteu preparant una imatge per a la web:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:269
 msgid ""
 "If you use 16bit color depth or higher, convert the image to 8bit color "
 "depth. This will make the image much smaller."
 msgstr ""
+"Si utilitzeu una profunditat del color de 16 bits o superior, convertiu la "
+"imatge a una profunditat del color de 8 bits. Això farà que la imatge sigui "
+"molt més petita."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:271
 msgid ""
@@ -1077,6 +1112,12 @@ msgid ""
 "5% opacity. Then flatten the whole image and convert it to 8bit. The pattern "
 "will function as dithering giving a smoother look to gradients."
 msgstr ""
+"En l'actualitat, el Krita no té una juxtaposició incorporada, el qual vol dir"
+" que les conversions de 16 a 18 bits poden sortir una mica amb efecte de"
+" cartell. Però podreu simular afegint una capa d'emplenat amb un patró,"
+" configurant aquesta capa d'emplenat a superposició i amb un 5% d'opacitat."
+" Després aplaneu tota la imatge i convertiu-la a 8 bits. El patró funcionarà"
+" com a juxtaposició donant una aparença més suau als degradats."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:273
 msgid "If it's a gray-scale image, convert it to gray-scale."
@@ -1091,7 +1132,14 @@ msgid ""
 "other monitor (if they have one). That way, the image will look almost "
 "exactly the same on your screen and on other profiled monitors."
 msgstr ""
+"Si es tracta d'una imatge en color, mantingueu-la en el perfil de l'espai de "
+"treball: en l'actualitat, molts navegadors web admeten perfils de color "
+"incrustats en les imatges. El Firefox, per exemple, intentarà convertir la "
+"vostra imatge perquè s'ajusti al perfil de color de l'altre monitor (si en té "
+"un). D'aquesta manera, la imatge es veurà gairebé igual que la pantalla i en "
+"els altres monitors amb perfil."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:279
 msgid ""
 "In some versions of Firefox, the colors actually look strange: This is a bug "
@@ -1100,10 +1148,15 @@ msgid ""
 "html>`_, save your png, jpg or tiff without an embedded profile to work "
 "around this."
 msgstr ""
+"En algunes versions del Firefox, els colors en realitat es veuran estranys: "
+"aquest és un error al Firefox, ja que el seu `sistema per a la gestió del "
+"color està incomplet <http://ninedegreesbelow.com/galleries/"
+"viewing-photographs-on-the-web.html>`_, deseu el vostre PNG, JPG o TIFF sense "
+"un perfil incrustat per a solucionar aquest problema."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:281
 msgid "If you are preparing for print:"
-msgstr ""
+msgstr "Si esteu preparant per a imprimir:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
 msgid ""
@@ -1111,16 +1164,21 @@ msgid ""
 "actual custom profile of your screen, if not, convert it to something like "
 "adobe rgb, sRGB or rec2020."
 msgstr ""
+"Esperem que hagueu creat la imatge en un perfil de l'espai de treball en "
+"comptes del perfil personalitzat real de la pantalla, si no, convertiu-lo a "
+"quelcom com Adobe RGB, sRGB o rec2020."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:284
 msgid ""
 "Check with the printer what kind of image they expect. Maybe they expect "
 "sRGB color space, or perhaps they have their own profile."
 msgstr ""
+"Comproveu amb la impressora quin tipus d'imatge espera. Potser l'espera en un "
+"espai de color sRGB, o potser té el seu propi perfil."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:287
 msgid "Interaction with other applications"
-msgstr ""
+msgstr "Interacció amb les altres aplicacions"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:290
 msgid "Blender"
@@ -1132,7 +1190,11 @@ msgid ""
 "combination with Blender's color management, you can try to have it use "
 "Blender's OCIO config."
 msgstr ""
+"Si voleu utilitzar la funcionalitat OCIO del krita, i en particular en "
+"combinació amb la gestió del color del Blender, podreu intentar que utilitzi "
+"la configuració de l'OCIO del Blender."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:294
 msgid ""
 "Blender's OCIO config is under ``<Blender-folder>/version number/datafiles/"
@@ -1140,6 +1202,11 @@ msgid ""
 "config from the above path. This will give you blender's input and screen "
 "spaces, but not the looks, as those aren't supported in Krita yet."
 msgstr ""
+"La configuració de l'OCIO del Blender es troba a ``<carpeta_Blender>/número"
+"_de_la_versió/datafiles/colormanagement``. Establiu a l'acoblador de la LUT "
+"per utilitzar el motor OCIO i seleccioneu la configuració amb aquest camí. "
+"Això donarà els espais de l'entrada i de la pantalla del Blender, però no "
+"l'aspecte, ja que el Krita encara no l'admet."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:298
 msgid "Windows Photo Viewer"
@@ -1154,6 +1221,12 @@ msgid ""
 "JPEG with an embedded profile, Photo Viewer will display your image much too "
 "dark."
 msgstr ""
+"És possible que trobeu alguns problemes en utilitzar diferents aplicacions "
+"juntes. Una cosa important a tenir en compte és que l'aplicació estàndard de "
+"Windows Photo Viewer no maneja els perfils ICC moderns. El Krita empra els "
+"perfils de la versió 4. El Photo Viewer només pot gestionar els perfils de la "
+"versió 2. Si exporteu a JPEG amb un perfil incrustat, el Photo Viewer "
+"mostrarà la vostra imatge massa fosca."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:303
 msgid "Example workflows"
@@ -1164,6 +1237,8 @@ msgid ""
 "Here are some example workflows to get a feeling of how your color "
 "management workflow may look like."
 msgstr ""
+"Aquests són alguns exemples de fluxos de treball per tenir una idea de com es "
+"veurà el vostre flux de treball en gestionar el color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:307
 msgid ""
@@ -1172,10 +1247,15 @@ msgid ""
 "'screen space'. Working space is set via new file per document, or in the "
 "LUT docker via 'input space'."
 msgstr ""
+"Com s'ha esmentat anteriorment, l'entrada per a la vostra pantalla "
+"s'estableix a :menuselection:`Arranjament --> Configura el Krita --> Gestió "
+"del color`, o mitjançant l'«Espai de la pantalla» de l'acoblador LUT. L'espai "
+"de treball s'establirà mitjançant el nou fitxer per document, o a l'acoblador "
+"LUT a «Espai de l'entrada»."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:310
 msgid "Webcomic"
-msgstr ""
+msgstr "Còmic a la web"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:317
 #: ../../general_concepts/colors/color_managed_workflow.rst:339
@@ -1188,18 +1268,21 @@ msgstr "Entrada"
 #: ../../general_concepts/colors/color_managed_workflow.rst:358
 msgid "Your screen profile. (You pick colors via your screen)"
 msgstr ""
+"El vostre perfil de la pantalla. (Trieu els colors a través de la pantalla)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:319
 #: ../../general_concepts/colors/color_managed_workflow.rst:341
 #: ../../general_concepts/colors/color_managed_workflow.rst:359
 msgid "Workingspace"
-msgstr ""
+msgstr "Espai de treball"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:320
 msgid ""
 "sRGB (the default screen profile) or any larger profile if you can spare the "
 "bit depth and like working in them."
 msgstr ""
+"sRGB (el perfil predeterminat de la pantalla) o qualsevol perfil més gran si "
+"estalvieu en la profunditat de bits i hi voleu treballar."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:322
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
@@ -1212,6 +1295,8 @@ msgid ""
 "sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK "
 "profile from the printing house for the printed images."
 msgstr ""
+"sRGB, ICC versió 2, sRGB TRC per a Internet i un perfil CMYK especialitzat de "
+"la impremta per a les imatges impreses."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:324
 msgid ""
@@ -1219,6 +1304,9 @@ msgid ""
 "Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, "
 "Artrage, Scribus, etc. and Krita."
 msgstr ""
+"Utilitzeu sRGB-elle-V2-srgbtrc.icc per anar entre Inkscape, Photoshop, "
+"Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, "
+"Artrage, Scribus, etc. i el Krita."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:326
 msgid ""
@@ -1227,6 +1315,10 @@ msgid ""
 "and Scribus. All others assume sRGB for your space, no matter what, because "
 "they don't have color management."
 msgstr ""
+"Si utilitzeu un espai més gran a través d'ICC, només podreu intercanviar "
+"entre el Krita, Photoshop, Illustrator, GIMP 2.9, Manga Studio i Scribus. "
+"Tots els altres assumeixen sRGB per a l'espai, sense importar el què, perquè "
+"no tenen gestió del color."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:328
 msgid ""
@@ -1234,6 +1326,9 @@ msgid ""
 "the input space to 'sRGB', but make sure to select the sRGB profile for ICC "
 "when creating a new file."
 msgstr ""
+"Si aneu entre el Krita i el Blender, Nuke o Natron, utilitzeu OCIO i establiu "
+"l'espai de l'entrada a «sRGB», però assegureu-vos de seleccionar el perfil "
+"sRGB per a ICC en crear un fitxer nou."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:330
 msgid ""
@@ -1244,6 +1339,13 @@ msgid ""
 "nor do they have screens that are advanced enough for the wide gamut stuff. "
 "So hence why we convert to the screen default for the internet, sRGB."
 msgstr ""
+"Al final, per a la web, convertiu la imatge a sRGB de 8 bits, «srgbtrc», no "
+"incrusteu el perfil ICC. Després, si empreu PNG, passeu-lo a través d'alguna "
+"cosa com «pngcrush» o altres optimitzadors de PNG. En aquest cas, es tria "
+"sRGB perquè suposem que la gran majoria de la vostra audiència no ha creat un "
+"perfil per a la seva pantalla, ni tenen pantalles prou avançades per a una "
+"gamma àmplia de coses. Per això, convertirem a la pantalla predeterminada per "
+"a internet, sRGB."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:333
 msgid "Print"
@@ -1252,11 +1354,13 @@ msgstr "Imprimir"
 #: ../../general_concepts/colors/color_managed_workflow.rst:342
 msgid "sRGB or rec2020 if you can afford the bit-depth being 16bit."
 msgstr ""
+"sRGB o rec2020 si us podeu permetre que la profunditat de bits sigui de 16 "
+"bits."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
 msgid ""
 "Specialized CMYK profile from the printing house for the printed images."
-msgstr ""
+msgstr "Perfil CMYK especialitzat de la impremta per a les imatges impreses."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:346
 msgid ""
@@ -1265,6 +1369,11 @@ msgid ""
 "like trying to paint in any random CMYK profile. As mentioned in the viewing "
 "conditions section, you want to keep your options open."
 msgstr ""
+"Els perfils CMYK són diferents per impressora, i fins i tot per paper o tipus "
+"de tinta, així que no sigueu presumptuós i pregunteu-li, en lloc de fer "
+"quelcom com intentar pintar amb qualsevol perfil CMYK aleatori. Com s'ha "
+"esmentat a la secció de condicions de la visualització, voldreu mantenir les "
+"vostres opcions obertes."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:348
 msgid ""
@@ -1274,6 +1383,12 @@ msgid ""
 "and select the CMYK profile you are aiming for. This will limit your colors "
 "a little bit, but keep all the nice filter and blending options from RGB."
 msgstr ""
+"Podeu establir el Selector avançat del color perquè transformi a un perfil "
+"determinat a través d':menuselection:`Arranjament --> Configura el Krita --> "
+"Ajustaments per al selector de color`. Allà, marqueu :guilabel:`El selector "
+"de color empra un espai de color diferent de la imatge` i seleccioneu el "
+"perfil CMYK al qual apuntar. Això limitarà una mica els vostres colors, però "
+"mantindreu totes les opcions de filtre i barreja agradables del RGB."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:351
 msgid "Games"
@@ -1282,11 +1397,12 @@ msgstr "Jocs"
 #: ../../general_concepts/colors/color_managed_workflow.rst:360
 msgid "sRGB or grayscale linear for roughness and specular maps."
 msgstr ""
+"sRGB o escala de grisos lineal per als mapes amb rugositat i especulars."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:362
 msgid ""
 "This one is tricky, but in the end it'll be sRGB for the regular player."
-msgstr ""
+msgstr "Aquesta és complicada, però al final serà sRGB per al jugador normal."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:364
 msgid ""
@@ -1297,6 +1413,12 @@ msgid ""
 "the images being considered properly in the physically based calculations of "
 "the game renderer."
 msgstr ""
+"De manera que aquest és complicat. Empreu OCIO i ICC entre els programes, "
+"però es recomana tenir les vostres imatges al motor en sRGB o en escala de "
+"grisos. Avui dia, molts renderitzadors basats en la física permeten establir "
+"si una imatge s'haurà de llegir com una imatge lineal o «srgbtrc», i això és "
+"fins i tot vital perquè les imatges es considerin correctament en els càlculs "
+"basats en la física del renderitzador del joc."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:366
 msgid ""
@@ -1307,6 +1429,14 @@ msgid ""
 "run some scripts to optimize them for your current render needs, making "
 "updating the game in the future for fancier screens less of a drag."
 msgstr ""
+"Si bé els motors dels jocs necessiten tenir optimitzat el contingut, i es "
+"recomana mantenir-lo dins dels 8 bits, les pantalles del futur podrien tenir "
+"una major profunditat de bits, i quan els renderitzadors comencin a "
+"admetre'ls, podria ser beneficiós desenvolupar un flux de treball on els "
+"fitxers de l'espai de treball siguin innecessàriament grans i caldrà executar "
+"alguns scripts per optimitzar-los per a les vostres necessitats de "
+"renderitzat actuals, fent que en el futur l'actualització del joc per a "
+"pantalles més sofisticades sigui menys que un arrossegar-se."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:368
 msgid ""
@@ -1315,6 +1445,10 @@ msgid ""
 "much for this. Instead, tell the game engine not to do any conversion on the "
 "file when importing."
 msgstr ""
+"Els mapes normals i els mapes d'alçades s'hauran de definir oficialment amb "
+"un espai de treball de «dades sense color», però trobareu que la majoria dels "
+"motors no tindran cura d'això. En el seu lloc, digueu-li al motor del joc que "
+"no faci cap conversió en el fitxer quan l'importi."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:370
 msgid ""
@@ -1324,19 +1458,31 @@ msgid ""
 "game engine renderer that this is a linear space image (or at the very "
 "least, should NOT be converted)."
 msgstr ""
+"Els mapes especulars, brillants, metàl·lics i rugosos es basen en càlculs "
+"lineals, i descobrireu que algun material té un coeficient metàl·lic de 0,3, "
+"això serà un 30% de gris en un espai lineal. Per tant, assegureu-vos de "
+"dir-li al processador del joc que es tracta d'una imatge en espai lineal (o, "
+"almenys, que NO s'ha de convertir)."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:374
 msgid ""
 "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
 "qoXOCOow>`_"
 msgstr ""
+"`Visualitzant l'espai de color XYZ <https://www.youtube.com/watch?v=x0-"
+"qoXOCOow>`_."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:375
 msgid ""
 "`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
 "gamma-correction.htm>`_"
 msgstr ""
+"`Fonaments en la correcció de la gamma <http://www.cambridgeincolour.com/"
+"tutorials/gamma-correction.htm>`_."
 
+# skip-rule: t-acc_obe,kct-encoding
 #: ../../general_concepts/colors/color_managed_workflow.rst:376
 msgid ""
 "`Panda3d example of how an image that has gamma encoded without the 3d "
@@ -1344,15 +1490,26 @@ msgid ""
 "images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
 ">`_"
 msgstr ""
+"`Exemple del Panda3D, de com una imatge que té codificada la gamma sense que "
+"es notifiqui al renderitzador de 3D que la gamma codificada pot generar "
+"imatges massa fosques <https://www.panda3d.org/blog/the-new-opengl-features-"
+"in-panda3d-1-9/>`_."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:377
 msgid ""
 "`2d examples of the effect of gamma-encoding on color maths <http://"
 "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 msgstr ""
+"`Exemples en 2D de l'efecte de codificar la gamma en les matemàtiques del "
+"color <http://ninedegreesbelow.com/photography/linear-gamma-blur-normal-"
+"blend.html>`_."
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/color_managed_workflow.rst:378
 msgid ""
 "`Basic overview of color management from argylcms manual <http://www."
 "argyllcms.com/doc/ColorManagement.html>`_"
 msgstr ""
+"`Resum bàsic de la gestió del color del manual a ArgyllCMS <http://www."
+"argyllcms.com/doc/ColorManagement.html>`_."
