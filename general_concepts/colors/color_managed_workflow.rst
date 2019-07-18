@@ -111,7 +111,7 @@ Knowing this about these spaces of course doesn't give you an idea of how to use
 
 In a traditional color managed workflow, we usually think in terms of real world colors being converted to computer colors and the other way around. So, for example photos from a camera or scanned in images. If you have a device space of such a device, we first assign said device space to the image, and then convert it to a working space.
 
-We then do all our editing in the working space, and use the working space to communicate between editing programs. In Krita's case, due to it having two color management systems, we use ICC profiles between programs like GIMP 2.9+, Inkscape, digiKam and Scribus, and OCIO configuration between Blender and Natron.
+We then do all our editing in the working space, and use the working space to communicate between editing programs. In Krita's case, due to it having two color management systems, we use ICC profiles between programs like Gimp 2.9+, Inkscape, digiKam and Scribus, and OCIO configuration between Blender and Natron.
 
 You also store your working files in the working space, just like how you have the layers unmerged in the working file, or have it at a very high resolution.
 
@@ -147,9 +147,9 @@ Overall, it is kinda useful to keep things like viewing conditions in the back o
 ICC profiles
 ------------
 
-An ICC profile is a set of coordinates describing the extremities of the device space within XYZ, and it is the color management data you use to communicate your working space to printers and applications that are designed for the print industry, such as GIMP, Scribus, Photoshop, Illustrator, Inkscape, Digikam, RawTheraphee, etc. You have two types of ICC profiles:
+An ICC profile is a set of coordinates describing the extremities of the device space within XYZ, and it is the color management data you use to communicate your working space to printers and applications that are designed for the print industry, such as Gimp, Scribus, Photoshop, Illustrator, Inkscape, digiKam, RawTheraphee, etc. You have two types of ICC profiles:
 
-Matrix Shaper profiles.
+Matrix Shaper profiles
     These are delivered alongside Krita. Matrix shaper profiles are made by setting parameters and interpolating between these to get the exact size of the color space. Due to this, Krita's color space browser can give you a lot of information on these profiles. Such profiles are also preferable as working space.
     
     .. figure:: /images/color_category/Kiki_matrix_profile.png 
@@ -173,7 +173,7 @@ The interesting thing about ICC profiles is that your working space can be large
 Perceptual
     This just squishes the values of the working space into the space it's converted to. It's a nice method to see all possible values in this, but not so good if you want accurate color reproduction. Use this if you want to see all colors in an image, or want to express all possible contrasts. Doesn't work with Matrix Shaper profiles, defaults to relative colorimetric.
 
-Absolute Colorimetric.
+Absolute Colorimetric
     The opposite to Perceptual, Absolute colorimetric will attempt to retain all the correct colors at whatever cost, which may result in awful looking colors. Recommended only for reproduction work. Doesn't work with Matrix Shaper profiles in Krita due to ICC v4 workflow standards.
 
 Relative Colorimetric
@@ -239,7 +239,7 @@ In summary
 Krita has two modes of color management:
 
 * ICC works in terms of spaces relative to the CIEXYZ space, and requires an ICC profile.
-* OCIO works in terms of interpretation, and makes use of luts.
+* OCIO works in terms of interpretation, and makes use of LUTs.
 * both can be made with a colorimeter.
 * If you want to have a properly color managed workflow, you have one made customary for the input device (your screen) and the output devices (your printer, or target screen). For web the output is always sRGB.
 * Set up your screen profiles under :menuselection:`Settings --> Configure Krita --> Color management`.
@@ -248,7 +248,7 @@ Krita has two modes of color management:
 
 Krita does a lot of color maths, often concerning the blending of colors. This color maths works best in linear color space, and linear color space requires a bit depth of at the least 16bit to work correctly. The disadvantage is that linear space can be confusing to work in.
 
-If you like painting, have a decent amount of RAM, and are looking to start your baby-steps in taking advantage of Krita's color management, try upgrading from having all your images in sRGB built-in to sRGB-v2-elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color blending while opening up the possibility for you to start working in hdr!
+If you like painting, have a decent amount of RAM, and are looking to start your baby-steps in taking advantage of Krita's color management, try upgrading from having all your images in sRGB built-in to sRGB-v2-elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color blending while opening up the possibility for you to start working in HDR!
 
 
 .. note:: 
@@ -276,11 +276,11 @@ If you are preparing an image for the web:
 
 .. note::
 
-    In some versions of Firefox, the colors actually look strange: This is a bug in Firefox, which is because its `color management system is incomplete <http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web.html>`_, save your png, jpg or tiff without an embedded profile to work around this.
+    In some versions of Firefox, the colors actually look strange: This is a bug in Firefox, which is because its `color management system is incomplete <https://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web.html>`_, save your PNG, JPG or TIFF without an embedded profile to work around this.
 
 If you are preparing for print:
 
-* You hopefully made the picture in a working space profile instead of the actual custom profile of your screen, if not, convert it to something like adobe rgb, sRGB or rec2020.
+* You hopefully made the picture in a working space profile instead of the actual custom profile of your screen, if not, convert it to something like Adobe RGB, sRGB or rec2020.
 * Check with the printer what kind of image they expect. Maybe they expect sRGB color space, or perhaps they have their own profile.
 
 Interaction with other applications
@@ -289,10 +289,10 @@ Interaction with other applications
 Blender
 ~~~~~~~
 
-If you wish to use krita's OCIO functionality, and in particular in combination with Blender's color management, you can try to have it use Blender's OCIO config.
+If you wish to use Krita's OCIO functionality, and in particular in combination with Blender's color management, you can try to have it use Blender's OCIO config.
 
 Blender's OCIO config is under ``<Blender-folder>/version number/datafiles/colormanagement``.
-Set the LUT docker to use the OCIO engine, and select the config from the above path. This will give you blender's input and screen spaces, but not the looks, as those aren't supported in Krita yet.
+Set the LUT docker to use the OCIO engine, and select the config from the above path. This will give you Blender's input and screen spaces, but not the looks, as those aren't supported in Krita yet.
 
 Windows Photo Viewer
 ~~~~~~~~~~~~~~~~~~~~
@@ -321,13 +321,13 @@ Workingspace
 Output
     sRGB, ICC version 2, sRGB TRC for the internet, and a specialized CMYK profile from the printing house for the printed images.
 
-Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, Artrage, Scribus, etc. and Krita.
+Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, Painttool Sai, Illustrator, Gimp, Manga Studio, Paintstorm Studio, MyPaint, Artrage, Scribus, etc. and Krita.
 
-If you are using a larger space via ICC, you will only be able to interchange it between Krita, Photoshop, Illustrator, GIMP 2.9, Manga Studio and Scribus. All others assume sRGB for your space, no matter what, because they don't have color management.
+If you are using a larger space via ICC, you will only be able to interchange it between Krita, Photoshop, Illustrator, Gimp 2.9, Manga Studio and Scribus. All others assume sRGB for your space, no matter what, because they don't have color management.
 
 If you are going between Krita and Blender, Nuke or Natron, use OCIO and set the input space to 'sRGB', but make sure to select the sRGB profile for ICC when creating a new file.
 
-For the final for the web, convert the image to sRGB 8bit, srgbtrc, do not embed the ICC profile. Then, if using png, put it through something like pngcrush or other png optimizers. sRGB in this case is chosen because you can assume the vast majority of your audience hasn't profiled their screen, nor do they have screens that are advanced enough for the wide gamut stuff. So hence why we convert to the screen default for the internet, sRGB.
+For the final for the web, convert the image to sRGB 8bit, 'srgbtrc', do not embed the ICC profile. Then, if using PNG, put it through something like 'pngcrush' or other PNG optimizers. sRGB in this case is chosen because you can assume the vast majority of your audience hasn't profiled their screen, nor do they have screens that are advanced enough for the wide gamut stuff. So hence why we convert to the screen default for the internet, sRGB.
 
 Print
 ~~~~~
@@ -361,7 +361,7 @@ Workingspace
 Output
     This one is tricky, but in the end it'll be sRGB for the regular player.
 
-So this one is tricky. You can use OCIO and ICC between programs, but recommended is to have your images to the engine in sRGB or grayscale. Many physically based renderers these days allow you to set whether an image should be read as a linear or srgbtrc image, and this is even vital to have the images being considered properly in the physically based calculations of the game renderer.
+So this one is tricky. You can use OCIO and ICC between programs, but recommended is to have your images to the engine in sRGB or grayscale. Many physically based renderers these days allow you to set whether an image should be read as a linear or 'srgbtrc' image, and this is even vital to have the images being considered properly in the physically based calculations of the game renderer.
 
 While game engines need to have optimized content, and it's recommended to stay within 8bit, future screens may have higher bit depths, and when renderers will start supporting those, it may be beneficial to develop a workflow where the working-space files are rather unnecessarily big and you run some scripts to optimize them for your current render needs, making updating the game in the future for fancier screens less of a drag.
 
@@ -371,8 +371,8 @@ Specular, glossiness, metalness and roughness maps are all based on linear calcu
 
 .. seealso::
 
-    * `Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-qoXOCOow>`_
-    * `Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/gamma-correction.htm>`_
-    * `Panda3d example of how an image that has gamma encoded without the 3d renderer being notified of it having gamma-encoding can result in too dark images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/>`_
-    * `2d examples of the effect of gamma-encoding on color maths <http://ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_
-    * `Basic overview of color management from argylcms manual <http://www.argyllcms.com/doc/ColorManagement.html>`_
+    * `Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-qoXOCOow>`_.
+    * `Basics of gamma correction <https://www.cambridgeincolour.com/tutorials/gamma-correction.htm>`_.
+    * `Panda3D example of how an image that has gamma encoded without the 3D renderer being notified of it having gamma-encoding can result in too dark images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/>`_.
+    * `2D examples of the effect of gamma-encoding on color maths <https://ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_.
+    * `Basic overview of color management from ArgyllCMS manual <https://www.argyllcms.com/doc/ColorManagement.html>`_.

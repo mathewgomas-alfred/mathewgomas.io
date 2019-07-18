@@ -52,10 +52,10 @@ Real Color
    1, 2, and 3bit per channel don't actually exist in any graphics application out there, however, by imagining them, we can imagine how each bit affects the precision: Usually, each bit subdivides each section in the color cube meaning precision becomes a power of 2 bigger than the previous cube.
 
 4bit per channel (not supported by Krita)
-    Also known as Hi-color, or 16bit color total. A bit of an old system, and not used outside of specific displays.
+    Also known as Hi-Color, or 16bit color total. A bit of an old system, and not used outside of specific displays.
 8bit per channel
     Also known as "True Color", "Millions of colors" or "24bit/32bit". The standard for many screens, and the lowest bit-depth Krita can handle.
-16bit per channel.
+16bit per channel
     One step up from 8bit, 16bit per channel allows for colors that can't be displayed by the screen. However, due to this, you are more likely to have smoother gradients. Sometimes known as "Deep Color". This color depth type doesn't have negative values possible, so it is 16bit precision, meaning that you have 65536 values per channel.
 16bit float
     Similar to 16bit, but with more range and less precision. Where 16bit only allows coordinates like [1, 4, 3], 16bit float has coordinates like [0.15, 0.70, 0.3759], with [1.0,1.0,1.0] representing white. Because of the differences between floating point and integer type variables, and because Scene-referred imaging allows for negative values, you have about 10-11bits of precision per channel in 16 bit floating point compared to 16 bit in 16 bit int (this is 2048 values per channel in the 0-1 range). Required for HDR/Scene referred images, and often known as 'half floating point'.

@@ -68,7 +68,7 @@ Smudging
    :align: center
 
 
-**Smudge mixing** is done with the :ref:`color_smudge_brush_engine`, a special brush engine that allows you to mix your current brush color with the color(s) under the brush. It's a very powerful type of brush that gives a lovely painterly effect. *Performance wise, it's a bit more demanding and slower than the regular pixel brush.*
+**Smudge mixing** is done with the :ref:`color_smudge_brush_engine`, a special brush engine that allows you to mix your current brush color with the color(s) under the brush. It's a very powerful type of brush that gives a lovely painterly effect. *Performance wise, it's a bit more demanding and slower than the regular pixel brush*.
 
 If you *remove all paint from a smudge brush*, you get a simple-yet-powerful smudge effect:
 

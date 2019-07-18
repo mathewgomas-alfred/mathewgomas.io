@@ -37,7 +37,7 @@ Random
 Angle
     This'll use the dragging angle to determine with image to draw.
 
-When exporting a krita file as a .gih, you will also get the option to set the default spacing, the option to set the name (very important for looking it up in the UI) and the ability to choose whether or not to generate the mask from the colors.
+When exporting a Krita file as a ``.gih``, you will also get the option to set the default spacing, the option to set the name (very important for looking it up in the UI) and the ability to choose whether or not to generate the mask from the colors.
 
 Use Color as Mask
     This'll turn the darkest values of the image as the ones that paint, and the whitest as transparent. Untick this if you are using colored images for the brush.

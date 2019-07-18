@@ -137,7 +137,7 @@ YCrCb
 
 Luminosity, Red-chroma, Blue-chroma
 
-YCrCb stands for
+YCrCb stands for:
 
 Y'/Y
     Luma/Luminosity, thus, the amount of light a color reflects.
@@ -163,11 +163,11 @@ In doing so, they made the first color spaces, with XYZ being the one best at ap
 It's almost impossible to really explain what XYZ is.
 
 Y
-    is equal to green.
+    Is equal to green.
 Z
-    akin to blue.
+    Akin to blue.
 X
-    is supposed to be red.
+    Is supposed to be red.
 
 XYZ is used as a baseline reference for all other profiles and models. All color conversions are done in XYZ, and all profiles coordinates match XYZ.
 

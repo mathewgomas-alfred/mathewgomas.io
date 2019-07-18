@@ -31,7 +31,7 @@ Another thing it does is to use cosine waves to describe contrasts in an image. 
 
 Conversely, lossless image compression techniques are *really good at describing images with few colors thus sharp contrasts, but are not good to compress images with a lot of gradients*.
 
-Another big difference between lossy and lossless images is that lossy file formats will degrade if you re-encode them, that is, if you load a jpeg into Krita edit a little, resave, edit a little, resave, each subsequent save will lose some data. This is a fundamental part of lossy image compression, and the primary reason we use working files.
+Another big difference between lossy and lossless images is that lossy file formats will degrade if you re-encode them, that is, if you load a JPEG into Krita edit a little, resave, edit a little, resave, each subsequent save will lose some data. This is a fundamental part of lossy image compression, and the primary reason we use working files.
 
 .. seealso::
 

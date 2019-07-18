@@ -57,7 +57,7 @@ Profiling devices, called Colorimeters, are tiny little cameras of a kind that y
 
 .. note::
 
-    If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_
+    If you don't have software packaged with your colorimeter, or are unhappy with the results, we recommend `ArgyllCMS <https://www.argyllcms.com/>`_.
 
 The little camera then measures what the brightest red, green, blue, white and black are like on your screen using a predefined white as base. It also measures how gray the color gray is.
 
@@ -76,16 +76,16 @@ So when or why should you do just one or both?
  
 Profiling only:
 
-with a good monitor
-    you can get most of the sRGB colors and lot of extra colors not inside sRGB. So this can be good to have more visible colors.
-with a bad monitor
-    you will get just a subset of actual sRGB, and miss lot of details, or even have hue shifts. Trying to calibrate it before profiling can help to get closer to full-sRGB colors.
+With a good monitor
+    You can get most of the sRGB colors and lot of extra colors not inside sRGB. So this can be good to have more visible colors.
+With a bad monitor
+    You will get just a subset of actual sRGB, and miss lot of details, or even have hue shifts. Trying to calibrate it before profiling can help to get closer to full-sRGB colors.
 
 Calibration+profiling:
 
-bad monitors
-    as explained just before.
-multi-monitor setup
-    when using several monitors, and specially in mirror mode where both monitor have the same content, you can't have this content color-managed for both screen profiles. In such case, calibrating both screens to match sRGB profile (or another standard for high-end monitors if they both support it) can be a good solution.
-soft-proofing
-    when you need to match an exact rendering context for soft-proofing, calibrating can help getting closer to the expected result. Though switching through several monitor calibration and profiles should be done extremely carefully.
+Bad monitors
+    As explained just before.
+Multi-monitor setup
+    When using several monitors, and specially in mirror mode where both monitor have the same content, you can't have this content color-managed for both screen profiles. In such case, calibrating both screens to match sRGB profile (or another standard for high-end monitors if they both support it) can be a good solution.
+Soft-proofing
+    When you need to match an exact rendering context for soft-proofing, calibrating can help getting closer to the expected result. Though switching through several monitor calibration and profiles should be done extremely carefully.
