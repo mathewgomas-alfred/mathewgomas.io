@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 03:10+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_contributors_manual___krita_manual_readme.pot\n"
+"Language: zh_CN\n"
 
 #: ../../contributors_manual/krita_manual_readme.rst:None
 msgid ".. image:: images/gitlab/screenshot_editmode.png"
@@ -223,10 +223,8 @@ msgstr ""
 "内容作出更改，你必须把作出的改动送交审查。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:73
-#, fuzzy
-#| msgid "Upload the zip on phabricator."
 msgid "Sending patches to Phabricator"
-msgstr "把该 ZIP 文件上传至 Phabricator 网站"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:75
 msgid ""
@@ -258,16 +256,10 @@ msgid "Tools to check whether your modifications work."
 msgstr "检查代码是否正确。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
-#, fuzzy
-#| msgid ""
-#| "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/"
-#| ">`_ to check if your changes don't break"
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break the manual."
 msgstr ""
-"你可以使用 `Sphinx 在线编辑器 <https://livesphinx.herokuapp.com/>`_ 来检查你"
-"的改动是否符合规范。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:88
 msgid "Bundle up the items into a zip."
@@ -314,10 +306,8 @@ msgstr ""
 "册的文件夹并以你刚才输入的邮件地址推送代码变更。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using Edit mode"
-msgstr "在 gitlab 里创建合并请求"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid "Recommended for users without a technical knowledge."
@@ -331,17 +321,10 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
-#, fuzzy
-#| msgid ""
-#| "This one is a bit technical, but much more comfortable for the manual "
-#| "maintainers. If you have a lot of changes you want to contribute, we "
-#| "recommend trying to follow these instructions."
 msgid ""
 "If you have a lot of changes you want to contribute, we recommend trying to "
 "follow these instructions."
 msgstr ""
-"这种做法在技术上比较复杂，但对于使用说明的维护人员而言更容易处理。如果你要提"
-"交大量的改动，我们建议你按照下述指示操作。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid "Get a KDE identity."
@@ -352,13 +335,8 @@ msgid "Login to `KDE_gitlab`_."
 msgstr "登录到 `KDE_gitlab`_ 。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:114
-#, fuzzy
-#| msgid ""
-#| "Go to the `repository`_ and press :guilabel:`fork`, and clone into the "
-#| "namespace of your nickname."
 msgid "Go to the `repository`_ and press :guilabel:`fork`."
 msgstr ""
-"前往 `repository`_ 并按 :guilabel:`fork`，将克隆到您的昵称的命名空间下面。"
 
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid ""
@@ -421,10 +399,8 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:142
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using WebIDE"
-msgstr "在 gitlab 里创建合并请求"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:144
 msgid ""
@@ -520,10 +496,8 @@ msgid ""
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:184
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using command line"
-msgstr "在 gitlab 里创建合并请求"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:186
 msgid ""
@@ -1058,11 +1032,8 @@ msgid "Removing Pages"
 msgstr "移除页面"
 
 #: ../../contributors_manual/krita_manual_readme.rst:376
-#, fuzzy
-#| msgid ""
-#| "If a feature is removed in a certain version, the corresponding pages."
 msgid "If a feature is removed in a certain version, the corresponding pages:"
-msgstr "如果某项特性在新版软件中被移除，相关页面会被如下处理。"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:378
 msgid "Will first be marked deprecated."
@@ -1084,14 +1055,10 @@ msgid "Will be linked on a page called 'deprecated'"
 msgstr "该页面将在一个叫做“已废弃”的页面显示链接"
 
 #: ../../contributors_manual/krita_manual_readme.rst:387
-#, fuzzy
-#| msgid ""
-#| "If the next version rolls around all the pages linked in the deprecated "
-#| "section will be removed."
 msgid ""
 "If the next version rolls around, all the pages linked in the deprecated "
 "section will be removed."
-msgstr "如果软件的下一个新版本维持废弃决定，已废弃部分所链接的页面将会被移除。"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:390
 msgid "Adding Pages"
@@ -1340,9 +1307,3 @@ msgid ""
 "For restructured text conventions, check :ref:`krita_markup_conventions` ."
 msgstr ""
 "关于 restructured 文本的使用惯例，可查阅 :ref:`krita_markup_conventions` 。"
-
-#~ msgid "If you are not familiar with Git"
-#~ msgstr "如果你不熟悉 Git"
-
-#~ msgid "Now, there are two options to edit your fork of the manual."
-#~ msgstr "现在，这里有两个选项来编辑您 fork 的手册。"

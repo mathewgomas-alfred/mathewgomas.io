@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,6 +16,7 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___brushes___brush_engines___hatching_brush_engine."
 "pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:1
 msgid ".. image:: images/brushes/Krita-tutorial8-A.II.png"
@@ -217,15 +217,10 @@ msgid "You can vary this value dynamically with the Thickness dynamics."
 msgstr "你可以通过粗细动态选项把排线的粗细映射到传感器。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:70
-#, fuzzy
-#| msgid ""
-#| "If the line thickness isn't changing for you, go to Hatching Preferences "
-#| "and check \"Antialiased Lines.\""
 msgid ""
 "If the line thickness isn't changing for you, go to Hatching Preferences and "
 "check \"Antialiased Lines\"."
 msgstr ""
-"如果粗细选项不生效或者效果不好，可以尝试勾选“排线处理”页面的“抗锯齿线条”。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:72
 msgid ""
@@ -331,21 +326,12 @@ msgstr ""
 "设为 2.0 到 10.0 px 比较好。"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:99
-#, fuzzy
-#| msgid ""
-#| "If you find normal hatching too boring, increase the Thickness and set "
-#| "the Thickness dynamic to either Pressure (if you have a tablet) or Speed "
-#| "(if you're using a mouse). Doesn't that look more natural? (When using a "
-#| "mouse, pass over the areas where you want thicker lines again while "
-#| "drawing faster)"
 msgid ""
 "If you find normal hatching too boring, increase the Thickness and set the "
 "Thickness dynamic to either Pressure (if you have a tablet) or Speed (if "
 "you're using a mouse). Doesn't that look more natural? (When using a mouse, "
 "pass over the areas where you want thicker lines again while drawing faster)."
 msgstr ""
-"如果觉得一般的排线缺少变化，可以增加粗细，然后把粗细映射到压力传感器 (数位"
-"板) 或者速度传感器 (鼠标)。(下图第一排左一、左二)"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:100
 msgid ""
@@ -356,16 +342,10 @@ msgstr ""
 "第一排左三)"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:101
-#, fuzzy
-#| msgid ""
-#| "You can also set Painting Mode to Build up, and Mode to Multiply, to make "
-#| "some colors have more depth. (see my grid example)"
 msgid ""
 "You can also set Painting Mode to Build up, and Mode to Multiply, to make "
 "some colors have more depth. (see my grid example)."
 msgstr ""
-"把“绘画模式”设为“堆积”，“混色模式”设为“相乘”，画出来的排线的颜色的变化会更加"
-"丰富。(下图第一排左三)"
 
 #: ../../reference_manual/brushes/brush_engines/hatching_brush_engine.rst:102
 msgid "Vary Origin X and Origin Y while using the same patterns."

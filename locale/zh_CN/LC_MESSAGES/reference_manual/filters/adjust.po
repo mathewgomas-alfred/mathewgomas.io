@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___filters___adjust.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<generated>:1
 msgid "Power"
@@ -269,18 +269,11 @@ msgid ""
 msgstr "此滤镜可以通过调整曲线来控制图像的亮度和对比度。"
 
 #: ../../reference_manual/filters/adjust.rst:113
-#, fuzzy
-#| msgid ""
-#| "These have been removed in Krita 4.0, because the Color Adjustment filter "
-#| "can do the same. Old files with brightness/contrast curves will be loaded "
-#| "as Color Adjustment curves"
 msgid ""
 "These have been removed in Krita 4.0, because the Color Adjustment filter "
 "can do the same. Old files with brightness/contrast curves will be loaded as "
 "Color Adjustment curves."
 msgstr ""
-"此组滤镜在 4.0 版中已被移除。颜色调整曲线滤镜已经可以处理同样的任务，而旧版文"
-"档的非破坏性滤镜中的亮度、对比度曲线会被自动读取为颜色调整曲线。"
 
 #: ../../reference_manual/filters/adjust.rst:115
 #: ../../reference_manual/filters/adjust.rst:118
@@ -380,10 +373,8 @@ msgid "Max"
 msgstr "最大值"
 
 #: ../../reference_manual/filters/adjust.rst:145
-#, fuzzy
-#| msgid "Adds all channels together to get a gray value"
 msgid "Adds all channels together to get a gray value."
-msgstr "把所有通道的数值加起来得到的灰度数值。"
+msgstr ""
 
 #: ../../reference_manual/filters/adjust.rst:147
 #: ../../reference_manual/filters/adjust.rst:150

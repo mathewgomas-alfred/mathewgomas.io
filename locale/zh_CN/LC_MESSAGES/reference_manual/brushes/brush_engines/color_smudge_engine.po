@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,6 +16,7 @@ msgstr ""
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___brushes___brush_engines___color_smudge_engine."
 "pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -120,16 +120,10 @@ msgid "Color Rate"
 msgstr "颜色量"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:51
-#, fuzzy
-#| msgid ""
-#| "How much of the foreground color is added to the smudging mix. Works "
-#| "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`"
 msgid ""
 "How much of the foreground color is added to the smudging mix. Works "
 "together with :ref:`option_smudge_length` and :ref:`option_smudge_radius`."
 msgstr ""
-"控制在涂抹混色时前景色的添加的比率，与 :ref:`option_smudge_length` 和 :ref:"
-"`option_smudge_radius` 配合使用。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:54
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_colorrate_04.png"
@@ -298,14 +292,9 @@ msgid "Common behaviors:"
 msgstr "常见误区："
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:123
-#, fuzzy
-#| msgid ""
-#| "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)"
 msgid ""
 "Unchecking the smudge rate function sets smudge rate to 1.00 (not 0.00)."
 msgstr ""
-"取消勾选”涂抹长度“选项后，涂抹长度的效果强度不是 0%，而是 100%。(因为笔刷选项"
-"不勾选时，意味着”不加控制“而不是”关闭“)"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:124
 msgid ""
@@ -657,14 +646,10 @@ msgid "And/or Scatter:"
 msgstr "打开分散选项"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:240
-#, fuzzy
-#| msgid ""
-#| "Note that Scatter picks colors within a certain distance, not the color "
-#| "directly under the brush (see :ref:`option_brush_tip`)"
 msgid ""
 "Note that Scatter picks colors within a certain distance, not the color "
 "directly under the brush (see :ref:`option_brush_tip`)."
-msgstr "分散状态下笔刷将拾取笔迹的一定范围内的颜色，而不是只在笔刷下方的颜色。"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:242
 msgid ""
@@ -904,17 +889,10 @@ msgstr ""
 "示。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:314
-#, fuzzy
-#| msgid ""
-#| "I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then "
-#| "used them in succession"
 msgid ""
 "I color picked each of these values with :kbd:`Ctrl` + |mouseleft|, then "
 "used them in succession."
 msgstr ""
-"在涂抹上色时使用 :kbd:`Ctrl` + 左键单击 |mouseleft| 可以快速拾取颜色，对三段"
-"颜色依次进行拾取和涂抹上色。下图的下半部分为混合结果，左边的是涂抹模式，右边"
-"的是钝化模式。"
 
 #: ../../reference_manual/brushes/brush_engines/color_smudge_engine.rst:317
 msgid ".. image:: images/brushes/Krita-tutorial5-III.2-2.png"

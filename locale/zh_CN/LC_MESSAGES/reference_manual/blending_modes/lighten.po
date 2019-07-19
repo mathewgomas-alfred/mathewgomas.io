@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___blending_modes___lighten.pot\n"
+"Language: zh_CN\n"
 
 #: ../../reference_manual/blending_modes/lighten.rst:1
 msgid ""
@@ -551,16 +551,10 @@ msgstr ""
 "色加深模式。"
 
 #: ../../reference_manual/blending_modes/lighten.rst:321
-#, fuzzy
-#| msgid ""
-#| "This algorithm doesn't use color dodge and burn, we don't know WHAT it "
-#| "does do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`"
 msgid ""
 "This algorithm doesn't use color dodge and burn, we don't know WHAT it does "
 "do but for Color Dodge and Burn you need to use :ref:`bm_hard_mix`."
 msgstr ""
-"此模式的算法并非真的就是在使用颜色减淡和颜色加深，我们没有搞懂它的真正原理。"
-"如果需要组合使用颜色减淡和颜色加深，请使用 :ref:`bm_hard_mix` 。"
 
 #: ../../reference_manual/blending_modes/lighten.rst:326
 msgid ""

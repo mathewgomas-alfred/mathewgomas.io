@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___brushes___brush_settings___texture.pot\n"
+"Language: zh_CN\n"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:0
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_texture_05.png"
@@ -121,16 +121,12 @@ msgid "Disabled"
 msgstr "禁用"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:45
-#, fuzzy
-#| msgid "doesn't cut off. Full range will be used."
 msgid "Doesn't cut off. Full range will be used."
-msgstr "不进行截断，将使用完整的范围。"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:47
-#, fuzzy
-#| msgid "cuts the pattern off."
 msgid "Cuts the pattern off."
-msgstr "对纹理的深浅范围进行截断。"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:49
 msgid "Brush"
@@ -196,29 +192,17 @@ msgid "Strength"
 msgstr "效果强度"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:74
-#, fuzzy
-#| msgid ""
-#| "This allows you to set the texture to Sensors. It will use the cutoff to "
-#| "continuously draw lighter values of the texture (making the result darker)"
 msgid ""
 "This allows you to set the texture to Sensors. It will use the cutoff to "
 "continuously draw lighter values of the texture (making the result darker)."
 msgstr ""
-"此项控制传感器对纹理的影响。它会使用截止值来使同一效果强度下被反复绘制的区域"
-"深浅保持一致，而只在力度增大时加深颜色。"
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:77
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_texture_03.png"
 msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/texture.rst:80
-#, fuzzy
-#| msgid ""
-#| "`David Revoy describing the texture feature (old) <http://www.davidrevoy."
-#| "com/article107/textured-brush-in-floss-digital-painting>`_"
 msgid ""
 "`David Revoy describing the texture feature (old). <https://www.davidrevoy."
 "com/article107/textured-brush-in-floss-digital-painting>`_"
 msgstr ""
-"`David Revoy 对纹理功能的介绍 (较旧) <http://www.davidrevoy.com/article107/"
-"textured-brush-in-floss-digital-painting>`_"

@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___brushes___brush_settings___brush_tips.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<generated>:1
 msgid "Use color as mask"
@@ -169,20 +169,16 @@ msgstr ""
 "可以检查一下是不是选错了一种蒙版。"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:65
-#, fuzzy
-#| msgid "(With fade locked)"
 msgid "With fade locked."
-msgstr "水平和垂直淡化数值被锁定时的效果"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:69
 msgid "Fade"
 msgstr "淡化"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:69
-#, fuzzy
-#| msgid "(With fade separately horizontal and vertical)"
 msgid "With fade separately horizontal and vertical."
-msgstr "水平和垂直淡化数值独立的效果"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:72
 msgid "This changes the angle a which the brush is at."
@@ -345,10 +341,8 @@ msgid "abr"
 msgstr "abr"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
-#, fuzzy
-#| msgid "GIMP autobrush tip definitions"
 msgid "GIMP autobrush tip definitions."
-msgstr "GIMP 自动笔刷的笔尖定义文件"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
 msgid ":ref:`file_gbr`"
@@ -403,44 +397,26 @@ msgid "Scale"
 msgstr "缩放"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:139
-#, fuzzy
-#| msgid ""
-#| "scales the brush tip. 1.0 is the native size of the brush tip. This can "
-#| "be fairly large! When painting with variable size (for instance governed "
-#| "by pressure), this is the base for the calculations."
 msgid ""
 "Scales the brush tip. 1.0 is the native size of the brush tip. This can be "
 "fairly large! When painting with variable size (for instance governed by "
 "pressure), this is the base for the calculations."
 msgstr ""
-"此参数控制笔尖的缩放大小。1.0 为笔尖的原始大小。在绘制可变大小的笔画时 (如使"
-"用压力感应) 将作为笔刷大小运算的基准点。"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
 msgid "Rotation"
 msgstr "旋转"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:141
-#, fuzzy
-#| msgid "initial rotation of the brush tip."
 msgid "Initial rotation of the brush tip."
-msgstr "此参数控制笔尖的原始朝向角度。"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
-#, fuzzy
-#| msgid "distance between the brush tip impressions."
 msgid "Distance between the brush tip impressions."
-msgstr "此参数控制笔尖印迹的间距。"
+msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:145
-#, fuzzy
-#| msgid ""
-#| "for colored brushes, don't paint the actual colors, but make a grayscale "
-#| "brush tip that will be colored by your selected foreground/background "
-#| "color."
 msgid ""
 "For colored brushes, don't paint the actual colors, but make a grayscale "
 "brush tip that will be colored by your selected foreground/background color."
 msgstr ""
-"对于带颜色的笔尖，不按其原有颜色作画，而是把它视作一个灰阶的笔尖，用你选定的"
-"前景色和背景色作画。"

@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-16 03:03+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_contributors_manual___krita_manual_conventions.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -144,21 +144,12 @@ msgid "Sphinx specific docs:"
 msgstr "Sphinx 专用文档"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:32
-#, fuzzy
-#| msgid ""
-#| "`Sphinx' page on restructured text <http://www.sphinx-doc.org/en/master/"
-#| "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
-#| "sphinx directives and roles it uses to generate for example table of "
-#| "contents."
 msgid ""
 "`Sphinx' page on restructured text <https://www.sphinx-doc.org/en/master/"
 "usage/restructuredtext/index.html>`_ -- This is useful for the specific "
 "sphinx directives and roles it uses to generate for example table of "
 "contents."
 msgstr ""
-"`Sphinx' 关于 restructured 文本的文档 <http://www.sphinx-doc.org/en/master/"
-"usage/restructuredtext/index.html>`_ -- 这些文章有助于理解用于生成如目录等用"
-"途的 Sphinx 特有指令和角色。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:34
 msgid ""
@@ -340,21 +331,12 @@ msgstr ""
 "\"\"\"\"\"\"\"\"\""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:105
-#, fuzzy
-#| msgid ""
-#| "These conventions were more or less decided by pandoc's mediawiki to "
-#| "reStructuredText conversion. If you need more than 4 headings, ask "
-#| "yourself first if the page hasn't gotten too complicated and needs "
-#| "splitting up."
 msgid ""
 "These conventions were more or less decided by `Pandoc <https://pandoc.org/"
 ">`_'s mediawiki to reStructuredText conversion. If you need more than 4 "
 "headings, ask yourself first if the page hasn't gotten too complicated and "
 "needs splitting up."
 msgstr ""
-"上述标题惯例参考了 Pandoc 的 Mediakiwi 转 reStructuredText 处理方式。如果你想"
-"要使用超过四级的标题，你最好先想清楚页面会不会因此变得太乱，是否应该考虑拆分"
-"这个页面的内容。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:107
 msgid ""
@@ -391,15 +373,6 @@ msgstr ""
 "代码会乱掉！"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:118
-#, fuzzy
-#| msgid ""
-#| "Pandoc likes to turn these into ```link name`__`` and then add `` .. __ :"
-#| "url `` at the end of the document. This is a so-called 'anonymous "
-#| "hyperlink', meaning that depending on the order of the links appearing in "
-#| "the text the order of the links at the end of the text are associated "
-#| "with one another. If this sounds confusing and difficult, it is because "
-#| "it is. That is also the exact reason why we'd like to avoid links like "
-#| "these."
 msgid ""
 "`Pandoc <https://pandoc.org/>`_ likes to turn these into ```link name`__`` "
 "and then add ``.. __ :url`` at the end of the document. This is a so-called "
@@ -409,10 +382,6 @@ msgid ""
 "because it is. That is also the exact reason why we'd like to avoid links "
 "like these."
 msgstr ""
-"Pandoc 喜欢把这些上述要素改成 ```链接名称`__`` 然后将 `` .. __ :url `` 添加到"
-"文档末尾。这便是所谓的 '匿名超链接'，它们在文档末尾的先后顺序取决于链接本身在"
-"文中出现的先后顺序，文末链接的排序也因此相互关联。如果你觉得这很难理解，你并"
-"没有错。这也是为什么我们希望避免使用类似的链接。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:121
 msgid "Footnotes and further reading"
@@ -456,10 +425,8 @@ msgid ""
 msgstr "这是引文本身。它和脚注类似，但标签是文本串。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:139
-#, fuzzy
-#| msgid "Citation can also be referenced with `citation <CIT2002>`_"
 msgid "Citation can also be referenced with ```citation <CIT2002>`_``."
-msgstr "引文还可以通过如下方式： `citation <CIT2002>`_ 进行引用。"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:141
 msgid ""
@@ -782,10 +749,8 @@ msgid "teal"
 msgstr "鸭绿"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:266
-#, fuzzy
-#| msgid "veridian"
 msgid "viridian"
-msgstr "铬绿"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:268
 msgid "dark emerald"
@@ -816,20 +781,6 @@ msgid "Defined as such::"
 msgstr "用法如下::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:275
-#, fuzzy
-#| msgid ""
-#| "- red\n"
-#| "- yellow\n"
-#| "- green\n"
-#| "    - seagreen\n"
-#| "    - verdigris\n"
-#| "    - teal\n"
-#| "    - veridian\n"
-#| "    - emerald\n"
-#| "        - dark emerald\n"
-#| "        - light emerald\n"
-#| "            - very light emerald.\n"
-#| "- blue"
 msgid ""
 "- red\n"
 "- yellow\n"
@@ -844,18 +795,6 @@ msgid ""
 "            - very light emerald.\n"
 "- blue"
 msgstr ""
-"- 红\n"
-"- 黄\n"
-"- 绿\n"
-"    - 海绿\n"
-"    - 铜绿\n"
-"    - 鸭绿\n"
-"    - 铬绿\n"
-"    - 祖母绿\n"
-"        - 深祖母绿\n"
-"        - 浅祖母绿\n"
-"            - 极浅祖母绿\n"
-"- 蓝"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:289
 msgid "Definition Lists"
@@ -888,22 +827,12 @@ msgid "You can make them like this::"
 msgstr "方法如下::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:301
-#, fuzzy
-#| msgid ""
-#| "Definition\n"
-#| "     explanation.\n"
-#| "Another option\n"
-#| "    Explanation."
 msgid ""
 "Definition\n"
 "    Explanation.\n"
 "Another option\n"
 "    Explanation."
 msgstr ""
-"定义名称\n"
-"     说明文字。\n"
-"另一个定义名称\n"
-"    说明文字。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:304
 msgid "To make them."
@@ -1039,32 +968,18 @@ msgid ""
 msgstr "我们可以使用下列警告文字 (按照严重程度排列)："
 
 #: ../../contributors_manual/krita_manual_conventions.rst:362
-#, fuzzy
-#| msgid ""
-#| "Hints are useful to give a little bit more information on a topic than is "
-#| "useful in the main text. Like, hint: these packages are named differently "
-#| "in openSuse versus Debian."
 msgid ""
 "Hints are useful to give a little bit more information on a topic than is "
 "useful in the main text. Like, \"These packages are named differently in "
 "openSuse versus Debian\"."
 msgstr ""
-"“提示”可以用来在正文之外补充少量信息。例如，提示：这些软件包在 OpenSUSE 和 "
-"Debian 中的名称不同。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:366
-#, fuzzy
-#| msgid ""
-#| "Extra information on how to do something, like, \"you can make a template "
-#| "of your favourite document setup\", or \"use m to mirror the canvas and "
-#| "see errors more easily in your drawing\"."
 msgid ""
 "Extra information on how to do something, like, \"You can make a template of "
 "your favourite document setup\", or \"Use m to mirror the canvas and see "
 "errors more easily in your drawing\"."
 msgstr ""
-"“小技巧”可以用来介绍一些额外的使用技巧，例如：“你可以为你习惯的文档设定制作一"
-"个模板”，或者“按下 M 可以水平翻转画布视图以便发现画面的问题”。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:370
 msgid "Something that is important to note, but is not necessarily negative."
@@ -1082,16 +997,10 @@ msgstr ""
 "“注意”可以用来标注那些比“注解”更为重要，但又不至于造成数据损失的事项时使用。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:382
-#, fuzzy
-#| msgid ""
-#| "This is for things that could cause dataloss, like forgetting to save, or "
-#| "that python currently has no undo functionality."
 msgid ""
 "This is for things that could cause dataloss, like forgetting to save, or "
 "that Python currently has no undo functionality."
 msgstr ""
-"“警告”信息用于标注可能会造成数据损失的情况，例如提示读者不要忘记保存文件，或"
-"者让读者当心 Python 插件进行的操作目前无法撤销等事项。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:386
 msgid ""
@@ -1111,35 +1020,23 @@ msgstr ""
 "文件默认没有开启这一功能。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:392
-#, fuzzy
-#| msgid "generic admonition that can have any text."
 msgid "Generic admonition that can have any text"
-msgstr "你也可以用任意文字作为信息框标题"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:394
 msgid "Text."
 msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:396
-#, fuzzy
-#| msgid "You can make them like this::"
 msgid "You can make it like this::"
-msgstr "方法如下::"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:398
-#, fuzzy
-#| msgid ""
-#| ".. admonition:: generic admonition that can have any text.\n"
-#| "\n"
-#| "    Text"
 msgid ""
 ".. admonition:: Generic admonition that can have any text\n"
 "\n"
 "    Text."
 msgstr ""
-".. admonition:: 可以包含任意文字的一般信息。\n"
-"\n"
-"    文字"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:404
 msgid "Sphinx also adds::"
@@ -1178,10 +1075,8 @@ msgid "That said, horizontal rulers can be made with ``----``."
 msgstr "上面的便是一条水平线。如需插入一条水平线，使用 ``----`` 即可。"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:421
-#, fuzzy
-#| msgid "The rubric directive."
 msgid "The rubric directive"
-msgstr "单独标题标记"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:422
 msgid ""
@@ -1193,10 +1088,8 @@ msgstr ""
 "章节和它里面的各个段落，而单独标题标记只管生成标题文字本身。它的用法如下::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:424
-#, fuzzy
-#| msgid ".. rubric:: The rubric directive."
 msgid ".. rubric:: The rubric directive"
-msgstr ".. rubric:: 单独标题标记"
+msgstr ""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:428
 msgid "So, when to use these?"
@@ -1281,15 +1174,6 @@ msgstr ""
 "按此进行语法高亮::"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:451
-#, fuzzy
-#| msgid ""
-#| ".. code:: python\n"
-#| "\n"
-#| "    def my_function():\n"
-#| "        # comment\n"
-#| "        alist = []\n"
-#| "        alist.append(1)\n"
-#| "        string = \"hello world\""
 msgid ""
 ".. code:: python\n"
 "\n"
@@ -1299,26 +1183,12 @@ msgid ""
 "        alist.append(1)\n"
 "        string = \"hello world\""
 msgstr ""
-".. code:: python\n"
-"\n"
-"    def my_function():\n"
-"        # comment\n"
-"        alist = []\n"
-"        alist.append(1)\n"
-"        string = \"hello world\""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:459
 msgid "Becomes"
 msgstr "显示为"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:468
-#, fuzzy
-#| msgid ""
-#| "def my_function():\n"
-#| "    # comment\n"
-#| "    alist = []\n"
-#| "    alist.append(1)\n"
-#| "    string = \"hello world\""
 msgid ""
 "# Python comment\n"
 "def my_function():\n"
@@ -1326,28 +1196,12 @@ msgid ""
 "    alist.append(1)\n"
 "    string = \"hello world\""
 msgstr ""
-"def my_function():\n"
-"    # comment\n"
-"    alist = []\n"
-"    alist.append(1)\n"
-"    string = \"hello world\""
 
 #: ../../contributors_manual/krita_manual_conventions.rst:469
 msgid "some more..."
 msgstr "其他例子"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:483
-#, fuzzy
-#| msgid ""
-#| "int myFunction(int i) {\n"
-#| "    i += 1;\n"
-#| "\n"
-#| "    // Check if more than 12\n"
-#| "    if (i>12) {\n"
-#| "        i = 0;\n"
-#| "    }\n"
-#| "    return i;\n"
-#| "}"
 msgid ""
 "// C++ comment\n"
 "int myFunction(int i) {\n"
@@ -1360,30 +1214,8 @@ msgid ""
 "    return i;\n"
 "}"
 msgstr ""
-"int myFunction(int i) {\n"
-"    i += 1;\n"
-"\n"
-"    // Check if more than 12\n"
-"    if (i>12) {\n"
-"        i = 0;\n"
-"    }\n"
-"    return i;\n"
-"}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:498
-#, fuzzy
-#| msgid ""
-#| "body {\n"
-#| "    margin: 0 auto;\n"
-#| "    /* is 800 still sensible? */\n"
-#| "    max-width:800px;\n"
-#| "    font-size:16px;\n"
-#| "    color:#333;\n"
-#| "    background-color: #eee;\n"
-#| "    padding:1em;\n"
-#| "    font-family:serif;\n"
-#| "    line-height: 1.4;\n"
-#| "}"
 msgid ""
 "/* CSS comment */\n"
 "body {\n"
@@ -1398,29 +1230,12 @@ msgid ""
 "    line-height: 1.4;\n"
 "}"
 msgstr ""
-"body {\n"
-"    margin: 0 auto;\n"
-"    /* is 800 still sensible? */\n"
-"    max-width:800px;\n"
-"    font-size:16px;\n"
-"    color:#333;\n"
-"    background-color: #eee;\n"
-"    padding:1em;\n"
-"    font-family:serif;\n"
-"    line-height: 1.4;\n"
-"}"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:502
-#, fuzzy
-#| msgid ""
-#| "<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
-#| "paragraph.</p>"
 msgid ""
 "<p>this <span style=\"font-style:italic\">is</span> <!-- a HTML comment --> "
 "a paragraph.</p>"
 msgstr ""
-"<p>this <span style=\"font-style:italic\">is</span> <!-- a comment --> a "
-"paragraph.</p>"
 
 #: ../../contributors_manual/krita_manual_conventions.rst:504
 msgid "Other preformatted text"
@@ -1536,9 +1351,3 @@ msgstr ""
 #: ../../contributors_manual/krita_manual_conventions.rst:552
 msgid "Wolthera"
 msgstr "Wolthera"
-
-#~ msgid "explanation."
-#~ msgstr "说明文字。"
-
-#~ msgid "This looks like the following::"
-#~ msgstr "它的用法如下::"

@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-02 12:01\n"
+"PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___blending_modes___darken.pot\n"
+"Language: zh_CN\n"
 
 #: ../../reference_manual/blending_modes/darken.rst:1
 msgid ""
@@ -57,16 +57,10 @@ msgstr ""
 "会得到一种受下层颜色影响的变暗效果，类似于传统摄影暗房的加深技术。"
 
 #: ../../reference_manual/blending_modes/darken.rst:30
-#, fuzzy
-#| msgid ""
-#| "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
-#| "-0.2, -0.2) &rarr; Black(0, 0, 0)"
 msgid ""
 "1_{[1_Darker Gray(0.4, 0.4, 0.4)] / Lighter Gray(0.5, 0.5, 0.5)} = (-0.2, "
 "-0.2, -0.2) → Black(0, 0, 0)"
 msgstr ""
-"1 - {[1 - 深灰(0.4, 0.4, 0.4)] / 中间灰 (0.5, 0.5, 0.5)} = (-0.2, -0.2, "
-"-0.2) --> 最小值为 0 --> 黑 (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:35
 msgid ""
@@ -81,16 +75,10 @@ msgid "Left: **Normal**. Right: **Burn**."
 msgstr "左： **正常** ；右： **加深** 。"
 
 #: ../../reference_manual/blending_modes/darken.rst:37
-#, fuzzy
-#| msgid ""
-#| "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
-#| "(0.1608, 0.3749, -1.4448) &rarr; Green(0.1608, 0.3749, 0)"
 msgid ""
 "1_{[1_Light Blue(0.1608, 0.6274, 0.8274)] / Orange(1, 0.5961, 0.0706)} = "
 "(0.1608, 0.3749, -1.4448) → Green(0.1608, 0.3749, 0)"
 msgstr ""
-"1 - {[1 - 浅蓝 (0.1608, 0.6274, 0.8274)] / 橙 (1, 0.5961, 0.0706)} = "
-"(0.1608, 0.3749, -1.4448) --> 最小值为 0 --> 绿 (0.1608, 0.3749, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:42
 msgid ""
@@ -159,16 +147,10 @@ msgid ""
 msgstr "比较上下两层的颜色数值的亮度，上层颜色只有在比下层颜色暗时才会显示。"
 
 #: ../../reference_manual/blending_modes/darken.rst:83
-#, fuzzy
-#| msgid ""
-#| "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
-#| "(no, no, no) &rarr; Darker Gray(0.4, 0.4, 0.4)"
 msgid ""
 "Is Lighter Gray(0.5, 0.5, 0.5) darker than Darker Gray(0.4, 0.4, 0.4)? = "
 "(no, no, no) → Darker Gray(0.4, 0.4, 0.4)"
 msgstr ""
-"中间灰 (0.5, 0.5, 0.5) 比深灰暗吗 (0.4, 0.4, 0.4)? = (否, 否, 否) --> 深灰 "
-"(0.4, 0.4, 0.4)"
 
 #: ../../reference_manual/blending_modes/darken.rst:88
 msgid ""
@@ -183,16 +165,10 @@ msgid "Left: **Normal**. Right: **Darken**."
 msgstr "左： **正常** ；右： **变暗** 。"
 
 #: ../../reference_manual/blending_modes/darken.rst:90
-#, fuzzy
-#| msgid ""
-#| "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, "
-#| "0.8274)? = (no, yes, yes) &rarr; Green(0.1608, 0.5961, 0.0706)"
 msgid ""
 "Is Orange(1, 0.5961, 0.0706) darker than Light Blue(0.1608, 0.6274, 0.8274)? "
 "= (no, yes, yes) → Green(0.1608, 0.5961, 0.0706)"
 msgstr ""
-"橙 (1, 0.5961, 0.0706) 比浅蓝暗吗 (0.1608, 0.6274, 0.8274)? = (否, 是, 是) --"
-"> 绿 (0.1608, 0.5961, 0.0706)"
 
 #: ../../reference_manual/blending_modes/darken.rst:95
 msgid ""
@@ -285,16 +261,10 @@ msgstr ""
 "把上下两层的颜色数值相加后减去 1，效果和 :ref:`bm_inverse_subtract` 类似。"
 
 #: ../../reference_manual/blending_modes/darken.rst:148
-#, fuzzy
-#| msgid ""
-#| "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
-#| "-0.1000, -0.1000)  &rarr; Black(0, 0, 0)"
 msgid ""
 "[Darker Gray(0.4, 0.4, 0.4) + Lighter Gray(0.5, 0.5, 0.5)]_1 = (-0.1000, "
 "-0.1000, -0.1000)  → Black(0, 0, 0)"
 msgstr ""
-"[深灰 (0.4, 0.4, 0.4) + 中间灰 (0.5, 0.5, 0.5)] - 1 = (-0.1000, -0.1000, "
-"-0.1000)  --> 最小值为 0 --> 黑 (0, 0, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:153
 msgid ""
@@ -309,16 +279,10 @@ msgid "Left: **Normal**. Right: **Linear Burn**."
 msgstr "左： **正常** ； 右： **线性加深** 。"
 
 #: ../../reference_manual/blending_modes/darken.rst:155
-#, fuzzy
-#| msgid ""
-#| "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
-#| "(0.1608, 0.2235, -0.1020) &rarr; Dark Green(0.1608, 0.2235, 0)"
 msgid ""
 "[Light Blue(0.1608, 0.6274, 0.8274) + Orange(1, 0.5961, 0.0706)]_1 = "
 "(0.1608, 0.2235, -0.1020) → Dark Green(0.1608, 0.2235, 0)"
 msgstr ""
-"[浅蓝 (0.1608, 0.6274, 0.8274) + 橙 (1, 0.5961, 0.0706)] - 1 = (0.1608, "
-"0.2235, -0.1020) --> 最小值为 0 --> 墨绿 (0.1608, 0.2235, 0)"
 
 #: ../../reference_manual/blending_modes/darken.rst:160
 msgid ""
