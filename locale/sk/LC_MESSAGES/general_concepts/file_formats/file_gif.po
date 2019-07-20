@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___file_formats___file_gif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-03-01 13:47+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -17,7 +17,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../general_concepts/file_formats/file_gif.rst:1
-msgid "The Gif file format in Krita."
+#, fuzzy
+#| msgid "The Gif file format in Krita."
+msgid "The GIF file format in Krita."
 msgstr "Súborový formát GIF v Krita."
 
 #: ../../general_concepts/file_formats/file_gif.rst:10
@@ -36,12 +38,12 @@ msgstr "\\*.gif"
 
 #: ../../general_concepts/file_formats/file_gif.rst:17
 msgid ""
-".gif is a file format mostly known for the fact that it can save animations. "
-"It's a fairly old format, and it does its compression by :ref:`indexing "
-"<bit_depth>` the colors to a maximum of 256 colors per frame. Because we can "
-"technically design an image for 256 colors and are always able save over an "
-"edited gif without any kind of extra degradation, this is a :ref:`lossless "
-"<lossless_compression>` compression technique."
+"``.gif`` is a file format mostly known for the fact that it can save "
+"animations. It's a fairly old format, and it does its compression by :ref:"
+"`indexing <bit_depth>` the colors to a maximum of 256 colors per frame. "
+"Because we can technically design an image for 256 colors and are always "
+"able save over an edited GIF without any kind of extra degradation, this is "
+"a :ref:`lossless <lossless_compression>` compression technique."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_gif.rst:19

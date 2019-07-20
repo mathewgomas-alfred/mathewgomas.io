@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-17 03:24+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,7 +16,14 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___color_managed_workflow.pot\n"
-"Language: zh_CN\n"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ""
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -56,14 +64,6 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
-msgstr ""
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ""
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 msgstr ""
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
@@ -377,10 +377,17 @@ msgstr ""
 "工作空间。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:114
+#, fuzzy
+#| msgid ""
+#| "We then do all our editing in the working space, and use the working "
+#| "space to communicate between editing programs. In Krita's case, due to it "
+#| "having two color management systems, we use ICC profiles between programs "
+#| "like GIMP 2.9+, Inkscape, digiKam and Scribus, and OCIO configuration "
+#| "between Blender and Natron."
 msgid ""
 "We then do all our editing in the working space, and use the working space "
 "to communicate between editing programs. In Krita's case, due to it having "
-"two color management systems, we use ICC profiles between programs like GIMP "
+"two color management systems, we use ICC profiles between programs like Gimp "
 "2.9+, Inkscape, digiKam and Scribus, and OCIO configuration between Blender "
 "and Natron."
 msgstr ""
@@ -557,12 +564,20 @@ msgid "ICC profiles"
 msgstr "ICC 特性文件"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:150
+#, fuzzy
+#| msgid ""
+#| "An ICC profile is a set of coordinates describing the extremities of the "
+#| "device space within XYZ, and it is the color management data you use to "
+#| "communicate your working space to printers and applications that are "
+#| "designed for the print industry, such as GIMP, Scribus, Photoshop, "
+#| "Illustrator, Inkscape, Digikam, RawTheraphee, etc. You have two types of "
+#| "ICC profiles:"
 msgid ""
 "An ICC profile is a set of coordinates describing the extremities of the "
 "device space within XYZ, and it is the color management data you use to "
 "communicate your working space to printers and applications that are "
-"designed for the print industry, such as GIMP, Scribus, Photoshop, "
-"Illustrator, Inkscape, Digikam, RawTheraphee, etc. You have two types of ICC "
+"designed for the print industry, such as Gimp, Scribus, Photoshop, "
+"Illustrator, Inkscape, digiKam, RawTheraphee, etc. You have two types of ICC "
 "profiles:"
 msgstr ""
 "ICC 特性文件是一组用于色彩管理的坐标数据，它描述了在 XYZ 坐标中设备空间的各个"
@@ -583,7 +598,9 @@ msgstr ""
 "详尽的介绍资料。这些特性文件适合用作工作空间。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
-msgid "Matrix Shaper profiles."
+#, fuzzy
+#| msgid "Matrix Shaper profiles."
+msgid "Matrix Shaper profiles"
 msgstr "阶调矩阵特性文件"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
@@ -651,7 +668,9 @@ msgstr ""
 "用此模式。此模式不兼容阶调矩阵特性文件，它默认给相对比色模式使用。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:177
-msgid "Absolute Colorimetric."
+#, fuzzy
+#| msgid "Absolute Colorimetric."
+msgid "Absolute Colorimetric"
 msgstr "绝对比色"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:177
@@ -870,7 +889,9 @@ msgid ""
 msgstr "ICC 基于 CIEXYZ 参考色彩空间工作，需要使用 ICC 特性文件。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:242
-msgid "OCIO works in terms of interpretation, and makes use of luts."
+#, fuzzy
+#| msgid "OCIO works in terms of interpretation, and makes use of luts."
+msgid "OCIO works in terms of interpretation, and makes use of LUTs."
 msgstr "OCIO 用来调整视图的色彩呈现效果，使用 LUT 查找表。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:243
@@ -930,12 +951,20 @@ msgstr ""
 "然有诸多好处，但它的缺点是不好理解。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:251
+#, fuzzy
+#| msgid ""
+#| "If you like painting, have a decent amount of RAM, and are looking to "
+#| "start your baby-steps in taking advantage of Krita's color management, "
+#| "try upgrading from having all your images in sRGB built-in to sRGB-v2-"
+#| "elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you "
+#| "better color blending while opening up the possibility for you to start "
+#| "working in hdr!"
 msgid ""
 "If you like painting, have a decent amount of RAM, and are looking to start "
 "your baby-steps in taking advantage of Krita's color management, try "
 "upgrading from having all your images in sRGB built-in to sRGB-v2-elle-g10."
 "icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you better color "
-"blending while opening up the possibility for you to start working in hdr!"
+"blending while opening up the possibility for you to start working in HDR!"
 msgstr ""
 "如果你喜欢绘画，又有足够的内存，现在想要迈出利用 Krita 色彩管理功能的第一步，"
 "那么首先你可以把你所有的图像的工作空间从 sRGB built-in 转换到 16 位浮点下的 "
@@ -1014,11 +1043,18 @@ msgstr ""
 "可以在你的源显示器和已特性化的其他显示器上呈现几乎一致的效果。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:279
+#, fuzzy
+#| msgid ""
+#| "In some versions of Firefox, the colors actually look strange: This is a "
+#| "bug in Firefox, which is because its `color management system is "
+#| "incomplete <http://ninedegreesbelow.com/galleries/viewing-photographs-on-"
+#| "the-web.html>`_, save your png, jpg or tiff without an embedded profile "
+#| "to work around this."
 msgid ""
 "In some versions of Firefox, the colors actually look strange: This is a bug "
 "in Firefox, which is because its `color management system is incomplete "
-"<http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web."
-"html>`_, save your png, jpg or tiff without an embedded profile to work "
+"<https://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web."
+"html>`_, save your PNG, JPG or TIFF without an embedded profile to work "
 "around this."
 msgstr ""
 "嵌入了特性文件的图像在某些版本的 Firefox 里会呈现不正常的颜色。这是 Firefox "
@@ -1031,10 +1067,15 @@ msgid "If you are preparing for print:"
 msgstr "如果你在进行印前准备："
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
+#, fuzzy
+#| msgid ""
+#| "You hopefully made the picture in a working space profile instead of the "
+#| "actual custom profile of your screen, if not, convert it to something "
+#| "like adobe rgb, sRGB or rec2020."
 msgid ""
 "You hopefully made the picture in a working space profile instead of the "
 "actual custom profile of your screen, if not, convert it to something like "
-"adobe rgb, sRGB or rec2020."
+"Adobe RGB, sRGB or rec2020."
 msgstr ""
 "在制作需要打印的图像时，应该为图像指定一个工作空间特性文件，最好不要为图像指"
 "定显示器的自定义设备空间特性文件。如果你的图像使用了显示器特性文件，你应该把"
@@ -1057,8 +1098,13 @@ msgid "Blender"
 msgstr "Blender"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:292
+#, fuzzy
+#| msgid ""
+#| "If you wish to use krita's OCIO functionality, and in particular in "
+#| "combination with Blender's color management, you can try to have it use "
+#| "Blender's OCIO config."
 msgid ""
-"If you wish to use krita's OCIO functionality, and in particular in "
+"If you wish to use Krita's OCIO functionality, and in particular in "
 "combination with Blender's color management, you can try to have it use "
 "Blender's OCIO config."
 msgstr ""
@@ -1066,10 +1112,17 @@ msgstr ""
 "你可以让它使用 Blender 的 OCIO 配置。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:294
+#, fuzzy
+#| msgid ""
+#| "Blender's OCIO config is under ``<Blender-folder>/version number/"
+#| "datafiles/colormanagement``. Set the LUT docker to use the OCIO engine, "
+#| "and select the config from the above path. This will give you blender's "
+#| "input and screen spaces, but not the looks, as those aren't supported in "
+#| "Krita yet."
 msgid ""
 "Blender's OCIO config is under ``<Blender-folder>/version number/datafiles/"
 "colormanagement``. Set the LUT docker to use the OCIO engine, and select the "
-"config from the above path. This will give you blender's input and screen "
+"config from the above path. This will give you Blender's input and screen "
 "spaces, but not the looks, as those aren't supported in Krita yet."
 msgstr ""
 "Blender 的 OCIO 配置可以在 ``<Blender 程序文件夹>/版本号/datafiles/"
@@ -1161,9 +1214,14 @@ msgstr ""
 "印图像使用的 CMYK 特性文件。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:324
+#, fuzzy
+#| msgid ""
+#| "Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, "
+#| "Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, "
+#| "MyPaint, Artrage, Scribus, etc. and Krita."
 msgid ""
 "Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, "
-"Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, "
+"Painttool Sai, Illustrator, Gimp, Manga Studio, Paintstorm Studio, MyPaint, "
 "Artrage, Scribus, etc. and Krita."
 msgstr ""
 "使用 sRGB-elle-V2-srgbtrc.icc 来在 Inkscape、Photoshop、Painttool SAI、"
@@ -1171,9 +1229,15 @@ msgstr ""
 "像。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:326
+#, fuzzy
+#| msgid ""
+#| "If you are using a larger space via ICC, you will only be able to "
+#| "interchange it between Krita, Photoshop, Illustrator, GIMP 2.9, Manga "
+#| "Studio and Scribus. All others assume sRGB for your space, no matter "
+#| "what, because they don't have color management."
 msgid ""
 "If you are using a larger space via ICC, you will only be able to "
-"interchange it between Krita, Photoshop, Illustrator, GIMP 2.9, Manga Studio "
+"interchange it between Krita, Photoshop, Illustrator, Gimp 2.9, Manga Studio "
 "and Scribus. All others assume sRGB for your space, no matter what, because "
 "they don't have color management."
 msgstr ""
@@ -1191,10 +1255,19 @@ msgstr ""
 "设为 “sRGB”，但记得在创建新文档时为 ICC 选择 sRGB 色彩特性文件。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:330
+#, fuzzy
+#| msgid ""
+#| "For the final for the web, convert the image to sRGB 8bit, srgbtrc, do "
+#| "not embed the ICC profile. Then, if using png, put it through something "
+#| "like pngcrush or other png optimizers. sRGB in this case is chosen "
+#| "because you can assume the vast majority of your audience hasn't profiled "
+#| "their screen, nor do they have screens that are advanced enough for the "
+#| "wide gamut stuff. So hence why we convert to the screen default for the "
+#| "internet, sRGB."
 msgid ""
-"For the final for the web, convert the image to sRGB 8bit, srgbtrc, do not "
-"embed the ICC profile. Then, if using png, put it through something like "
-"pngcrush or other png optimizers. sRGB in this case is chosen because you "
+"For the final for the web, convert the image to sRGB 8bit, 'srgbtrc', do not "
+"embed the ICC profile. Then, if using PNG, put it through something like "
+"'pngcrush' or other PNG optimizers. sRGB in this case is chosen because you "
 "can assume the vast majority of your audience hasn't profiled their screen, "
 "nor do they have screens that are advanced enough for the wide gamut stuff. "
 "So hence why we convert to the screen default for the internet, sRGB."
@@ -1256,13 +1329,21 @@ msgid ""
 msgstr "这个比较棘手，但一般情况下使用 sRGB。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:364
+#, fuzzy
+#| msgid ""
+#| "So this one is tricky. You can use OCIO and ICC between programs, but "
+#| "recommended is to have your images to the engine in sRGB or grayscale. "
+#| "Many physically based renderers these days allow you to set whether an "
+#| "image should be read as a linear or srgbtrc image, and this is even vital "
+#| "to have the images being considered properly in the physically based "
+#| "calculations of the game renderer."
 msgid ""
 "So this one is tricky. You can use OCIO and ICC between programs, but "
 "recommended is to have your images to the engine in sRGB or grayscale. Many "
 "physically based renderers these days allow you to set whether an image "
-"should be read as a linear or srgbtrc image, and this is even vital to have "
-"the images being considered properly in the physically based calculations of "
-"the game renderer."
+"should be read as a linear or 'srgbtrc' image, and this is even vital to "
+"have the images being considered properly in the physically based "
+"calculations of the game renderer."
 msgstr ""
 "这一点比较棘手的原因是，虽然你可以在不同的程序之间使用 OCIO 和 ICC，但我们推"
 "荐把提供给引擎的图像设为 sRGB 或灰阶。许多较新的基于物理原理的渲染器允许指定"
@@ -1306,43 +1387,65 @@ msgstr ""
 "一个线性图像 (或者至少不要对其进行转换操作)。"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:374
+#, fuzzy
+#| msgid ""
+#| "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
+#| "qoXOCOow>`_"
 msgid ""
 "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
-"qoXOCOow>`_"
+"qoXOCOow>`_."
 msgstr ""
 "`对 XYZ 色彩空间的视觉化介绍 <https://www.youtube.com/watch?v=x0-qoXOCOow>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:375
+#, fuzzy
+#| msgid ""
+#| "`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
+#| "gamma-correction.htm>`_"
 msgid ""
-"`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
-"gamma-correction.htm>`_"
+"`Basics of gamma correction <https://www.cambridgeincolour.com/tutorials/"
+"gamma-correction.htm>`_."
 msgstr ""
 "`Gamma 校正的基础知识 <http://www.cambridgeincolour.com/tutorials/gamma-"
 "correction.htm>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:376
+#, fuzzy
+#| msgid ""
+#| "`Panda3d example of how an image that has gamma encoded without the 3d "
+#| "renderer being notified of it having gamma-encoding can result in too "
+#| "dark images <https://www.panda3d.org/blog/the-new-opengl-features-in-"
+#| "panda3d-1-9/>`_"
 msgid ""
-"`Panda3d example of how an image that has gamma encoded without the 3d "
+"`Panda3D example of how an image that has gamma encoded without the 3D "
 "renderer being notified of it having gamma-encoding can result in too dark "
 "images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
-">`_"
+">`_."
 msgstr ""
 "`Panda3D 关于并非通过 3D 渲染器编码的图像会被提示其 gamma 编码将造成图像过暗"
 "的说明 <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
 ">`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:377
+#, fuzzy
+#| msgid ""
+#| "`2d examples of the effect of gamma-encoding on color maths <http://"
+#| "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 msgid ""
-"`2d examples of the effect of gamma-encoding on color maths <http://"
-"ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
+"`2D examples of the effect of gamma-encoding on color maths <https://"
+"ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_."
 msgstr ""
 "`Gamma 编码方式对于色彩运算的影响的 2D 示例 <http://ninedegreesbelow.com/"
 "photography/linear-gamma-blur-normal-blend.html>`_"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:378
+#, fuzzy
+#| msgid ""
+#| "`Basic overview of color management from argylcms manual <http://www."
+#| "argyllcms.com/doc/ColorManagement.html>`_"
 msgid ""
-"`Basic overview of color management from argylcms manual <http://www."
-"argyllcms.com/doc/ColorManagement.html>`_"
+"`Basic overview of color management from ArgyllCMS manual <https://www."
+"argyllcms.com/doc/ColorManagement.html>`_."
 msgstr ""
 "`ArgyllCMS 手册中关于色彩管理基础的概览章节 <http://www.argyllcms.com/doc/"
 "ColorManagement.html>`_"

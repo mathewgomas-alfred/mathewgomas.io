@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-06-02 15:41+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -38,11 +38,17 @@ msgid "\\*.csv"
 msgstr "\\*.csv"
 
 #: ../../general_concepts/file_formats/file_csv.rst:17
+#, fuzzy
+#| msgid ""
+#| ".csv is the abbreviation for Comma Separated Values. It is an open, plain "
+#| "text spreadsheet format. Since the .csv format is a plain text itself, it "
+#| "is possible to use a spreadsheet program or even a text editor to edit "
+#| "the .csv file."
 msgid ""
-".csv is the abbreviation for Comma Separated Values. It is an open, plain "
-"text spreadsheet format. Since the .csv format is a plain text itself, it is "
-"possible to use a spreadsheet program or even a text editor to edit the .csv "
-"file."
+"``.csv`` is the abbreviation for Comma Separated Values. It is an open, "
+"plain text spreadsheet format. Since the CSV format is a plain text itself, "
+"it is possible to use a spreadsheet program or even a text editor to edit "
+"the ``*.csv`` file."
 msgstr ""
 "Förkorningen .csv betyder Comma Separated Values (värden åtskilda med "
 "kommatecken). Det är ett öppet, enkelt textformat för kalkylblad. Eftersom "
@@ -50,8 +56,15 @@ msgstr ""
 "kalkylprogram eller till och med en texteditor för att redigera .csv-filen."
 
 #: ../../general_concepts/file_formats/file_csv.rst:19
+#, fuzzy
+#| msgid ""
+#| "Krita supports the .csv version used by TVPaint, to transfer layered "
+#| "animation between these two softwares and probably with others, like "
+#| "Blender. This is not an image sequence format, so use the document "
+#| "loading and saving functions in Krita instead of the :guilabel:`Import "
+#| "animation frames` and :guilabel:`Render Animation` menu items."
 msgid ""
-"Krita supports the .csv version used by TVPaint, to transfer layered "
+"Krita supports the CSV version used by TVPaint, to transfer layered "
 "animation between these two softwares and probably with others, like "
 "Blender. This is not an image sequence format, so use the document loading "
 "and saving functions in Krita instead of the :guilabel:`Import animation "
@@ -64,9 +77,19 @@ msgstr ""
 "guilabel:`Importera animeringsbildrutor` och :guilabel:`Återge animering`."
 
 #: ../../general_concepts/file_formats/file_csv.rst:21
+#, fuzzy
+#| msgid ""
+#| "The format consists of a text file with .csv extension, together with a "
+#| "folder under the same name and a .frames extension. The .csv file and the "
+#| "folder must be on the same path location. The text file contains the "
+#| "parameters for the scene, like the field resolution and frame rate, and "
+#| "also contains the exposure sheet for the layers. The folder contains :ref:"
+#| "`file_png` picture files. Unlike image sequences, a key frame instance is "
+#| "only a single file and the exposure sheet links it to one or more frames "
+#| "on the timeline."
 msgid ""
-"The format consists of a text file with .csv extension, together with a "
-"folder under the same name and a .frames extension. The .csv file and the "
+"The format consists of a text file with ``.csv`` extension, together with a "
+"folder under the same name and a ``.frames`` extension. The CSV file and the "
 "folder must be on the same path location. The text file contains the "
 "parameters for the scene, like the field resolution and frame rate, and also "
 "contains the exposure sheet for the layers. The folder contains :ref:"
@@ -88,7 +111,9 @@ msgid ".. image:: images/Csv_spreadsheet.png"
 msgstr ".. image:: images/Csv_spreadsheet.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:26
-msgid "A .csv file as a spreadsheet in :program:`LibreOffice Calc`"
+#, fuzzy
+#| msgid "A .csv file as a spreadsheet in :program:`LibreOffice Calc`"
+msgid "A ``.csv`` file as a spreadsheet in :program:`LibreOffice Calc`."
 msgstr "En .csv-fil som kalkylark i :program:`LibreOffice Calc`"
 
 #: ../../general_concepts/file_formats/file_csv.rst:28
@@ -118,7 +143,9 @@ msgid ".. image:: images/Csv_tvp_csvexport.png"
 msgstr ".. image:: images/Csv_tvp_csvexport.png"
 
 #: ../../general_concepts/file_formats/file_csv.rst:35
-msgid "Exporting into .csv in TVPaint"
+#, fuzzy
+#| msgid "Exporting into .csv in TVPaint"
+msgid "Exporting into ``.csv`` in TVPaint."
 msgstr "Exportera till .csv i TVPaint"
 
 #: ../../general_concepts/file_formats/file_csv.rst:37
@@ -136,23 +163,34 @@ msgstr ""
 "att importera formatet."
 
 #: ../../general_concepts/file_formats/file_csv.rst:42
+#, fuzzy
+#| msgid ""
+#| "`.csv import script for TVPaint <http://forum.tvpaint.com/viewtopic.php?"
+#| "f=26&t=9759>`_"
 msgid ""
-"`.csv import script for TVPaint <http://forum.tvpaint.com/viewtopic.php?"
-"f=26&t=9759>`_"
+"`CSV import script for TVPaint <https://forum.tvpaint.com/viewtopic.php?"
+"f=26&t=9759>`_."
 msgstr ""
 "`.csv-importskript för TVPaint <http://forum.tvpaint.com/viewtopic.php?"
 "f=26&t=9759>`_"
 
 #: ../../general_concepts/file_formats/file_csv.rst:43
+#, fuzzy
+#| msgid ""
+#| "`.csv import script for Moho/Anime Studio <http://forum.tvpaint.com/"
+#| "viewtopic.php?f=26&t=10050>`_"
 msgid ""
-"`.csv import script for Moho/Anime Studio <http://forum.tvpaint.com/"
-"viewtopic.php?f=26&t=10050>`_"
+"`CSV import script for Moho/Anime Studio <https://forum.tvpaint.com/"
+"viewtopic.php?f=26&t=10050>`_."
 msgstr ""
 "`.csv-importskript för Moho/Anime Studio <http://forum.tvpaint.com/viewtopic."
 "php?f=26&t=10050>`_"
 
 #: ../../general_concepts/file_formats/file_csv.rst:44
+#, fuzzy
+#| msgid ""
+#| "`.csv import script for Blender <https://developer.blender.org/T47462>`_"
 msgid ""
-"`.csv import script for Blender <https://developer.blender.org/T47462>`_"
+"`CSV import script for Blender <https://developer.blender.org/T47462>`_."
 msgstr ""
 "`.csv-importskript för Blender <https://developer.blender.org/T47462>`_"

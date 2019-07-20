@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-05-04 11:30+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -22,7 +22,9 @@ msgid ".ppm"
 msgstr ".ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:1
-msgid "The pbm, pgm and ppm file formats as exported by Krita."
+#, fuzzy
+#| msgid "The pbm, pgm and ppm file formats as exported by Krita."
+msgid "The PBM, PGM and PPM file formats as exported by Krita."
 msgstr "Filformaten pbm, pgm och ppm som exporteras av Krita."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:10
@@ -50,14 +52,23 @@ msgid "PPM"
 msgstr "PPM"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:17
-msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+#, fuzzy
+#| msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+msgid "\\*.pbm, \\*.pgm and \\*.ppm"
 msgstr "\\*.pbm, \\*.pgm, \\*.ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:18
+#, fuzzy
+#| msgid ""
+#| ".pbm, .pgm, .ppm are a series of file-formats with a similar logic to "
+#| "them. They are designed to save images in a way that the result can be "
+#| "read as an ascii file, from back when email clients couldn't read images "
+#| "reliably."
 msgid ""
-".pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. "
-"They are designed to save images in a way that the result can be read as an "
-"ascii file, from back when email clients couldn't read images reliably."
+"``.pbm``, ``.pgm`` and ``.ppm`` are a series of file-formats with a similar "
+"logic to them. They are designed to save images in a way that the result can "
+"be read as an ASCII file, from back when email clients couldn't read images "
+"reliably."
 msgstr ""
 "Filformaten .pbm, .pgm, .ppm är en serie format med liknande logik. De är "
 "konstruerade för att spara bilder på ett sådant sätt att resultatet kan "
@@ -77,7 +88,9 @@ msgid ".pbm"
 msgstr ".pbm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
-msgid "one-bit and can only show strict black and white."
+#, fuzzy
+#| msgid "one-bit and can only show strict black and white."
+msgid "One-bit and can only show strict black and white."
 msgstr "Enbitars och kan enbart visa svartvitt."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
@@ -85,9 +98,13 @@ msgid ".pgm"
 msgstr ".pgm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
-msgid "can show 255 values of gray (8bit)."
+#, fuzzy
+#| msgid "can show 255 values of gray (8bit)."
+msgid "Can show 255 values of gray (8bit)."
 msgstr "Kan visa 255 gråskalevärden (8 bitar)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
-msgid "can show 8bit rgb values."
+#, fuzzy
+#| msgid "can show 8bit rgb values."
+msgid "Can show 8bit rgb values."
 msgstr "Kan visa 8-bitars RGB-värden."

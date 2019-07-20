@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-26 17:52+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
+"PO-Revision-Date: 2019-07-19 13:43+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -24,7 +24,8 @@ msgid ".ppm"
 msgstr ".ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:1
-msgid "The pbm, pgm and ppm file formats as exported by Krita."
+#| msgid "The pbm, pgm and ppm file formats as exported by Krita."
+msgid "The PBM, PGM and PPM file formats as exported by Krita."
 msgstr "Els formats de fitxer PBM, PGM i PPM tal com els exporta el Krita."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:10
@@ -52,15 +53,22 @@ msgid "PPM"
 msgstr "PPM"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:17
-msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+#| msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+msgid "\\*.pbm, \\*.pgm and \\*.ppm"
 msgstr "\\*.pbm, \\*.pgm i \\*.ppm"
 
 # skip-rule: t-acc_obe
 #: ../../general_concepts/file_formats/file_pbgpm.rst:18
+#| msgid ""
+#| ".pbm, .pgm, .ppm are a series of file-formats with a similar logic to "
+#| "them. They are designed to save images in a way that the result can be "
+#| "read as an ascii file, from back when email clients couldn't read images "
+#| "reliably."
 msgid ""
-".pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. "
-"They are designed to save images in a way that the result can be read as an "
-"ascii file, from back when email clients couldn't read images reliably."
+"``.pbm``, ``.pgm`` and ``.ppm`` are a series of file-formats with a similar "
+"logic to them. They are designed to save images in a way that the result can "
+"be read as an ASCII file, from back when email clients couldn't read images "
+"reliably."
 msgstr ""
 "Els ``.pbm``, ``.pgm`` i ``.ppm`` són una sèrie de formats de fitxer amb una "
 "lògica similar. Estan dissenyats per a desar imatges de manera que el "
@@ -80,7 +88,8 @@ msgid ".pbm"
 msgstr ".pbm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
-msgid "one-bit and can only show strict black and white."
+#| msgid "one-bit and can only show strict black and white."
+msgid "One-bit and can only show strict black and white."
 msgstr "D'un bit i només pot mostrar-se en estricte blanc i negre."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
@@ -88,9 +97,11 @@ msgid ".pgm"
 msgstr ".pgm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
-msgid "can show 255 values of gray (8bit)."
+#| msgid "can show 255 values of gray (8bit)."
+msgid "Can show 255 values of gray (8bit)."
 msgstr "Pot mostrar 255 valors de gris (de 8 bits)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
-msgid "can show 8bit rgb values."
+#| msgid "can show 8bit rgb values."
+msgid "Can show 8bit rgb values."
 msgstr "Pot mostrar valors RGB de 8 bits."

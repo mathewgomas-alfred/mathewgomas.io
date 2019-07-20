@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_general_concepts___file_formats___file_pbgpm\n"
+"Project-Id-Version: docs_krita_org_general_concepts___file_formats___file_pbgp"
+"m\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 09:44+0300\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
+"PO-Revision-Date: 2019-07-19 09:36+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,15 +19,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<generated>:1
 msgid ".ppm"
 msgstr ".ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:1
-msgid "The pbm, pgm and ppm file formats as exported by Krita."
-msgstr "Формати файлів pbm, pgm і ppm у експортуванні за допомогою Krita."
+#| msgid "The pbm, pgm and ppm file formats as exported by Krita."
+msgid "The PBM, PGM and PPM file formats as exported by Krita."
+msgstr "Формати файлів PBM, PGM і PPM у експортуванні за допомогою Krita."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:10
 msgid "*.pbm"
@@ -54,16 +55,24 @@ msgid "PPM"
 msgstr "PPM"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:17
-msgid "\\*.pbm, \\*.pgm, \\*.ppm"
-msgstr "\\*.pbm, \\*.pgm, \\*.ppm"
+#| msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+msgid "\\*.pbm, \\*.pgm and \\*.ppm"
+msgstr "\\*.pbm, \\*.pgm і \\*.ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:18
+#| msgid ""
+#| ".pbm, .pgm, .ppm are a series of file-formats with a similar logic to "
+#| "them. They are designed to save images in a way that the result can be "
+#| "read as an ascii file, from back when email clients couldn't read images "
+#| "reliably."
 msgid ""
-".pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. "
-"They are designed to save images in a way that the result can be read as an "
-"ascii file, from back when email clients couldn't read images reliably."
+"``.pbm``, ``.pgm`` and ``.ppm`` are a series of file-formats with a similar "
+"logic to them. They are designed to save images in a way that the result can "
+"be read as an ASCII file, from back when email clients couldn't read images "
+"reliably."
 msgstr ""
-".pbm, .pgm, .ppm — серія форматів файлів зі схожою базовою логікою. Ці "
+"``.pbm``, ``.pgm`` та ``.ppm`` — серія форматів файлів зі схожою базовою"
+" логікою. Ці "
 "формати розроблено для зберігання зображень у такий спосіб, щоб результатом "
 "був текстовий файл із символами ASCII. Формат було розроблено у часи, коли "
 "клієнтські програми для роботи із електронною поштою не могли ще читати дані "
@@ -83,18 +92,21 @@ msgid ".pbm"
 msgstr ".pbm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
-msgid "one-bit and can only show strict black and white."
+#| msgid "one-bit and can only show strict black and white."
+msgid "One-bit and can only show strict black and white."
 msgstr ""
-"однобітовий, може бути використано для показу лише чорного і білого кольорів."
+"Однобітовий, може бути використано для показу лише чорного і білого кольорів."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
 msgid ".pgm"
 msgstr ".pgm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
-msgid "can show 255 values of gray (8bit)."
-msgstr "можна використовувати 255 відтінків сірого (8-бітовий)."
+#| msgid "can show 255 values of gray (8bit)."
+msgid "Can show 255 values of gray (8bit)."
+msgstr "Можна використовувати 255 відтінків сірого (8-бітовий)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
-msgid "can show 8bit rgb values."
-msgstr "можна використовувати 8-бітові кольори RGB."
+#| msgid "can show 8bit rgb values."
+msgid "Can show 8bit rgb values."
+msgstr "Можна використовувати 8-бітові кольори RGB."

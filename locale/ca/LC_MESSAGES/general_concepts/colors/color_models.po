@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-26 01:05+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
+"PO-Revision-Date: 2019-07-19 19:52+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -54,28 +54,36 @@ msgid ""
 "computer screens. Adding Red, Green and Blue light together results in "
 "White, and is thus named the additive color wheel."
 msgstr ""
+"Aquests són els primaris més eficients per a la mescla del colors basada en "
+"la llum, com les pantalles d'ordinador. L'addició de llum Vermella, Verda i "
+"Blava dóna com a resultat el color Blanc, de manera que s'anomena roda de "
+"color additiva."
 
 #: ../../general_concepts/colors/color_models.rst:28
 msgid "RGB is used for two purposes:"
-msgstr ""
+msgstr "El RGB s'utilitza per a dos propòsits:"
 
 #: ../../general_concepts/colors/color_models.rst:30
 msgid "Images that are meant for viewing on a screen:"
-msgstr ""
+msgstr "Imatges destinades a ser visualitzades en una pantalla:"
 
 #: ../../general_concepts/colors/color_models.rst:32
 msgid ""
 "So that could be images for the web, buttons, avatars, or just portfolio "
 "images."
 msgstr ""
+"De manera que això podrien ser imatges per a la web, botons, avatars o "
+"simplement imatges de cartera."
 
 #: ../../general_concepts/colors/color_models.rst:33
 msgid "Or for Video games, both sprites and textures are best in RGB there."
 msgstr ""
+"O per als videojocs, tant les franges com les textures són millors en RGB."
 
 #: ../../general_concepts/colors/color_models.rst:34
 msgid "Or for 3d rendering, visual effects and cg animation."
 msgstr ""
+"O per a la renderització en 3D, efectes visuals i animació per ordinador."
 
 #: ../../general_concepts/colors/color_models.rst:36
 msgid ""
@@ -84,6 +92,11 @@ msgid ""
 "this next to a profiled monitor. This way you can have precise colors while "
 "also being able to view them correctly on multiple screens."
 msgstr ""
+"I per a l'espai de treball. Un espai de treball és una gamma RGB que en "
+"realitat és gran i predictible, el qual vol dir que és bo per a la "
+"manipulació d'imatges. Ho utilitzeu al costat d'un monitor amb perfil. "
+"D'aquesta manera, podreu tenir colors precisos al mateix temps que els veureu "
+"correctament en múltiples pantalles."
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
@@ -192,10 +205,13 @@ msgid ""
 "These are not included as their own color spaces in Krita. However, they do "
 "show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
+"Aquests no estan inclosos com els seus propis espais de color en el Krita. No "
+"obstant això, es mostren en els modes de barreja i selectors de color, de "
+"manera que en fem una breu descripció:"
 
 #: ../../general_concepts/colors/color_models.rst:59
 msgid "--Images of relationship rgb-hsv etc."
-msgstr ""
+msgstr "--Imatges de relació rgb-hsv, etc."
 
 #: ../../general_concepts/colors/color_models.rst:61
 msgid "Hue"
@@ -207,6 +223,8 @@ msgid ""
 "is measured in 360 degrees, with 0 being red, 120 being green and 240 being "
 "blue."
 msgstr ""
+"El to d'un color, o si és vermell, groc, verd, etc. El To en el Krita es "
+"mesura en 360 graus, amb 0 per al vermell, 120 per al verd i 240 per al blau."
 
 #: ../../general_concepts/colors/color_models.rst:63
 msgid "Saturation"
@@ -220,6 +238,12 @@ msgid ""
 "measurement of how close a color is to gray, and sometimes this value is "
 "called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
+"Com de vibrant serà un color. La Saturació és lleugerament diferent entre HSV "
+"i els altres. En HSV és una mesura de la diferència entre dos colors base que "
+"s'utilitzen i tres colors base que s'utilitzen. En les altres, és una mesura "
+"de com de prop es troba un color del gris, i algunes vegades aquest valor "
+"s'anomena **Chroma**. L'interval de la saturació varia entre el 0 (gris) fins "
+"al 100 (color pur)."
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -230,6 +254,8 @@ msgid ""
 "Sometimes known as Brightness. Measurement of how much the pixel needs to "
 "light up. Also measured from 0 to 100."
 msgstr ""
+"De vegades conegut com a Brillantor. Mesura quant cal il·luminar el píxel. "
+"També es mesura des de 0 fins a 100."
 
 #: ../../general_concepts/colors/color_models.rst:67
 msgid "Lightness"
@@ -240,6 +266,9 @@ msgid ""
 "Where a color aligns between white and black. This value is non-linear, and "
 "puts all the most saturated possible colors at 50. Ranges from 0 to 100."
 msgstr ""
+"On un color s'alinea entre el blanc i el negre. Aquest valor no és lineal, i "
+"posarà tots els colors més saturats possibles al 50. L'interval va des de 0 "
+"fins al 100."
 
 #: ../../general_concepts/colors/color_models.rst:69
 msgid "Intensity"
@@ -250,6 +279,8 @@ msgid ""
 "Similar to lightness, except it acknowledges that yellow (1,1,0) is lighter "
 "than blue (0,0,1). Ranges from 0 to 100."
 msgstr ""
+"Similar a la claredat, excepte que reconeix que el groc (1,1,0) és més clar "
+"que el blau (0,0,1). L'interval va des del 0 fins al 100."
 
 #: ../../general_concepts/colors/color_models.rst:72
 msgid "Luma (Y')"
@@ -262,6 +293,11 @@ msgid ""
 "reflects to determine its lightness. Ranges from 0 to 100. Luma is well "
 "known for being used in film-color spaces."
 msgstr ""
+"Similar a la claredat i la intensitat, excepte que pesa els components "
+"vermell, verd i blau en funció dels mesuraments de la vida real de la "
+"quantitat de llum que reflecteix un color per a determinar la seva claredat. "
+"L'interval va des del 0 fins al 100. El Luma és ben conegut pel seu ús en "
+"espais de color de les pel·lícules."
 
 #: ../../general_concepts/colors/color_models.rst:77
 msgid "Grayscale"
@@ -273,12 +309,18 @@ msgid ""
 "registering gray values, it only needs one channel of information, which in "
 "turn means the image becomes much lighter in memory consumption!"
 msgstr ""
+"Aquest espai de color només registra els valors de gris. Això és útil, ja que "
+"només en registrar els valors de gris, només necessitarà un canal "
+"d'informació, el que al seu torn vol dir que la imatge esdevindrà molt més "
+"baixa en el consum de memòria."
 
 #: ../../general_concepts/colors/color_models.rst:82
 msgid ""
 "This is useful for textures, but also anything else that needs to stay "
 "grayscale, like Black and White comics."
 msgstr ""
+"Això és útil per a les textures, però també per a qualsevol altra cosa que "
+"calgui mantenir en escala de grisos, com els còmics en blanc i negre."
 
 #: ../../general_concepts/colors/color_models.rst:95
 msgid "CMYK"
@@ -294,6 +336,10 @@ msgid ""
 "four colors, and adding them all adds up to black instead of white. This is "
 "thus also called a 'subtractive' color space."
 msgstr ""
+"Aquest és l'espai de color de les impressores. A diferència dels ordinadors, "
+"les impressores tenen aquests quatre colors, i en afegir-los tots s'afegirà "
+"el negre en lloc del blanc. Per tant, aquest també s'anomena un espai de "
+"color «substractiu»."
 
 #: ../../general_concepts/colors/color_models.rst:104
 #: ../../general_concepts/colors/color_models.rst:117
@@ -321,6 +367,8 @@ msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
 msgstr ""
+"També hi ha una diferència entre el «color gris» i el «gris neutre» segons el "
+"perfil."
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
@@ -353,6 +401,11 @@ msgid ""
 "a yellow look to the strokes. Again, another good reason to work in RGB and "
 "let the conversion be done by the printing house."
 msgstr ""
+"En el Krita, també hi ha el fet que el color predeterminat és un negre "
+"perfecte en RGB, el qual després es convertirà al nostre CMYK predeterminat "
+"en una manera divertida, donant un aspecte groc als traços. Novament, una "
+"altra bona raó per a treballar en RGB i permetre que la conversió sigui "
+"realitzada per la impremta."
 
 #: ../../general_concepts/colors/color_models.rst:130
 msgid ""
@@ -362,6 +415,12 @@ msgid ""
 "relative colorimetric intent. Or you can just give the workspace rgb image "
 "to your printer and let them handle the work."
 msgstr ""
+"No obstant això, tot i que CMYK té una «gamma» més petita que RGB, encara es "
+"recomana utilitzar un perfil de l'espai de treball RGB per a realitzar la "
+"vostra edició. Després, podreu convertir-la al perfil CMYK de la vostra "
+"impressora utilitzant el propòsit colorimetria perceptiva o relativa. O "
+"simplement podreu donar-li la imatge RGB de l'espai de treball a la "
+"impressora i deixar que aquesta s'encarregui de la feina."
 
 #: ../../general_concepts/colors/color_models.rst:136
 msgid "YCrCb"
@@ -369,11 +428,11 @@ msgstr "YCrCb"
 
 #: ../../general_concepts/colors/color_models.rst:138
 msgid "Luminosity, Red-chroma, Blue-chroma"
-msgstr ""
+msgstr "Lluminositat, chroma del vermell i chroma del blau"
 
 #: ../../general_concepts/colors/color_models.rst:140
-msgid "YCrCb stands for"
-msgstr ""
+msgid "YCrCb stands for:"
+msgstr "YCrCb vol dir:"
 
 #: ../../general_concepts/colors/color_models.rst:142
 msgid "Y'/Y"
@@ -382,6 +441,7 @@ msgstr "Y'/Y"
 #: ../../general_concepts/colors/color_models.rst:143
 msgid "Luma/Luminosity, thus, the amount of light a color reflects."
 msgstr ""
+"Luma/Lluminositat, per tant, la quantitat de llum que reflecteix un color."
 
 #: ../../general_concepts/colors/color_models.rst:144
 msgid "Cr"
@@ -391,6 +451,8 @@ msgstr "Cr"
 msgid ""
 "Red Chroma. This value measures how red a color is versus how green it is."
 msgstr ""
+"Chroma del vermell. Aquest valor mesura com de vermell té contra el verd que "
+"és."
 
 #: ../../general_concepts/colors/color_models.rst:147
 msgid "Cb"
@@ -400,6 +462,7 @@ msgstr "Cb"
 msgid ""
 "Blue Chroma. This value measures how blue a color is versus how yellow it is."
 msgstr ""
+"Chroma del blau. Aquest valor mesura com de blau té contra el groc que és."
 
 #: ../../general_concepts/colors/color_models.rst:149
 msgid ""
@@ -432,7 +495,7 @@ msgid "It's almost impossible to really explain what XYZ is."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:166
-msgid "is equal to green."
+msgid "Is equal to green."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:167
@@ -440,7 +503,7 @@ msgid "Z"
 msgstr "Z"
 
 #: ../../general_concepts/colors/color_models.rst:168
-msgid "akin to blue."
+msgid "Akin to blue."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:170
@@ -448,7 +511,7 @@ msgid "X"
 msgstr "X"
 
 #: ../../general_concepts/colors/color_models.rst:170
-msgid "is supposed to be red."
+msgid "Is supposed to be red."
 msgstr ""
 
 #: ../../general_concepts/colors/color_models.rst:172

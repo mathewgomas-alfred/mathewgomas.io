@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___file_formats___file_pbgpm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-02-19 20:20+0100\n"
 "Last-Translator: Sofia Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -26,7 +26,7 @@ msgid ".ppm"
 msgstr ".ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:1
-msgid "The pbm, pgm and ppm file formats as exported by Krita."
+msgid "The PBM, PGM and PPM file formats as exported by Krita."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:10
@@ -60,14 +60,17 @@ msgid "PPM"
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:17
-msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+#, fuzzy
+#| msgid "\\*.pbm, \\*.pgm, \\*.ppm"
+msgid "\\*.pbm, \\*.pgm and \\*.ppm"
 msgstr "\\*.pbm, \\*.pgm, \\*.ppm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:18
 msgid ""
-".pbm, .pgm, .ppm are a series of file-formats with a similar logic to them. "
-"They are designed to save images in a way that the result can be read as an "
-"ascii file, from back when email clients couldn't read images reliably."
+"``.pbm``, ``.pgm`` and ``.ppm`` are a series of file-formats with a similar "
+"logic to them. They are designed to save images in a way that the result can "
+"be read as an ASCII file, from back when email clients couldn't read images "
+"reliably."
 msgstr ""
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:20
@@ -81,7 +84,9 @@ msgid ".pbm"
 msgstr ".pbm"
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:23
-msgid "one-bit and can only show strict black and white."
+#, fuzzy
+#| msgid "one-bit and can only show strict black and white."
+msgid "One-bit and can only show strict black and white."
 msgstr "1 bit y solo puede mostrar blanco y negro estrictos."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:24
@@ -91,9 +96,11 @@ msgstr ".pgm"
 #: ../../general_concepts/file_formats/file_pbgpm.rst:25
 #, fuzzy
 #| msgid "can show 255 values of gray(8bit)."
-msgid "can show 255 values of gray (8bit)."
+msgid "Can show 255 values of gray (8bit)."
 msgstr "puede mostrar 255 valores de gris (8 bits)."
 
 #: ../../general_concepts/file_formats/file_pbgpm.rst:27
-msgid "can show 8bit rgb values."
+#, fuzzy
+#| msgid "can show 8bit rgb values."
+msgid "Can show 8bit rgb values."
 msgstr "puede mostrar valores rgb de 8 bits."

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_general_concepts___colors___bit_depth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 14:45+0300\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
+"PO-Revision-Date: 2019-07-19 09:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
 msgid ".. image:: images/color_category/Kiki_lowbit.png"
@@ -173,11 +173,14 @@ msgid "4bit per channel (not supported by Krita)"
 msgstr "4 біти на канал (підтримку у Krita не передбачено)"
 
 #: ../../general_concepts/colors/bit_depth.rst:55
+#| msgid ""
+#| "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
+#| "not used outside of specific displays."
 msgid ""
-"Also known as Hi-color, or 16bit color total. A bit of an old system, and "
+"Also known as Hi-Color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
-"Також відомий як Hi-color або 16-бітовий колір. Спадок застарілих систем, "
+"Також відомий як Hi-Color або 16-бітовий колір. Спадок застарілих систем, "
 "вже не використовується поза межами обслуговування специфічних дисплеїв."
 
 #: ../../general_concepts/colors/bit_depth.rst:56
@@ -194,7 +197,8 @@ msgstr ""
 "режим із найменшою бітовою глибиною, підтримку якого передбачено у Krita."
 
 #: ../../general_concepts/colors/bit_depth.rst:58
-msgid "16bit per channel."
+#| msgid "16bit per channel."
+msgid "16bit per channel"
 msgstr "16 бітів на канал"
 
 #: ../../general_concepts/colors/bit_depth.rst:59

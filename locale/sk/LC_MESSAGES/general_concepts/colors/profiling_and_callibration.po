@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: "
 "docs_krita_org_general_concepts___colors___profiling_and_callibration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-03-01 13:15+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -17,7 +17,9 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../../<generated>:1
-msgid "soft-proofing"
+#, fuzzy
+#| msgid "soft-proofing"
+msgid "Soft-proofing"
 msgstr "Mäkké impregnovanie"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:1
@@ -156,7 +158,7 @@ msgstr ""
 #: ../../general_concepts/colors/profiling_and_callibration.rst:60
 msgid ""
 "If you don't have software packaged with your colorimeter, or are unhappy "
-"with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_"
+"with the results, we recommend `ArgyllCMS <https://www.argyllcms.com/>`_."
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:62
@@ -207,22 +209,26 @@ msgid "Profiling only:"
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:79
-msgid "with a good monitor"
-msgstr ""
+#, fuzzy
+#| msgid "bad monitors"
+msgid "With a good monitor"
+msgstr "zlé monitory"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:80
 msgid ""
-"you can get most of the sRGB colors and lot of extra colors not inside sRGB. "
+"You can get most of the sRGB colors and lot of extra colors not inside sRGB. "
 "So this can be good to have more visible colors."
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
-msgid "with a bad monitor"
-msgstr ""
+#, fuzzy
+#| msgid "bad monitors"
+msgid "With a bad monitor"
+msgstr "zlé monitory"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
 msgid ""
-"you will get just a subset of actual sRGB, and miss lot of details, or even "
+"You will get just a subset of actual sRGB, and miss lot of details, or even "
 "have hue shifts. Trying to calibrate it before profiling can help to get "
 "closer to full-sRGB colors."
 msgstr ""
@@ -232,20 +238,22 @@ msgid "Calibration+profiling:"
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:86
-msgid "bad monitors"
+#, fuzzy
+#| msgid "bad monitors"
+msgid "Bad monitors"
 msgstr "zlé monitory"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:87
-msgid "as explained just before."
+msgid "As explained just before."
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:88
-msgid "multi-monitor setup"
+msgid "Multi-monitor setup"
 msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:89
 msgid ""
-"when using several monitors, and specially in mirror mode where both monitor "
+"When using several monitors, and specially in mirror mode where both monitor "
 "have the same content, you can't have this content color-managed for both "
 "screen profiles. In such case, calibrating both screens to match sRGB "
 "profile (or another standard for high-end monitors if they both support it) "
@@ -254,7 +262,7 @@ msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:91
 msgid ""
-"when you need to match an exact rendering context for soft-proofing, "
+"When you need to match an exact rendering context for soft-proofing, "
 "calibrating can help getting closer to the expected result. Though switching "
 "through several monitor calibration and profiles should be done extremely "
 "carefully."

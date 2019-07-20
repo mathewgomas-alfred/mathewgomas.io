@@ -4,20 +4,21 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2019.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: contributors_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-25 03:10+0200\n"
-"PO-Revision-Date: 2019-06-25 23:08+0200\n"
-"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
+"PO-Revision-Date: 2019-07-19 19:34+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.07.70\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../../contributors_manual/krita_manual_readme.rst:None
 msgid ".. image:: images/gitlab/screenshot_editmode.png"
@@ -288,6 +289,7 @@ msgstr ""
 msgid "Get a KDE identity."
 msgstr "Obtingueu una identitat del KDE."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:113
 msgid "Login to `KDE_gitlab`_."
 msgstr "Accediu al `KDE_gitlab`_."
@@ -532,6 +534,7 @@ msgid ""
 "go to :ref:`forking_gitlab`."
 msgstr ""
 
+# skip-rule: t-sp_pu
 #: ../../contributors_manual/krita_manual_readme.rst:230
 msgid ""
 "# make sure everything is correct\n"
@@ -1065,6 +1068,7 @@ msgid ""
 "allows us to easily search the manual for these terms with grep:"
 msgstr ""
 
+# skip-rule: kct-locale
 #: ../../contributors_manual/krita_manual_readme.rst:422
 msgid "grep -d recurse versionadded * --exclude-dir={_build,locale}"
 msgstr "grep -d recurse versionadded * --exclude-dir={_build,locale}"
@@ -1217,3 +1221,5 @@ msgid ""
 msgstr ""
 "Per a les convencions del text reestructurat, comproveu les :ref:"
 "`krita_markup_conventions`."
+
+
