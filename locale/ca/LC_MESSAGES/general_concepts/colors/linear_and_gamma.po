@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
-"PO-Revision-Date: 2019-06-26 00:17+0200\n"
+"PO-Revision-Date: 2019-07-20 16:44+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -37,7 +37,7 @@ msgstr ".. image:: images/color_category/3trcsresult.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:1
 msgid "The effect of gamma and linear."
-msgstr ""
+msgstr "L'efecte de gamma i lineal."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:11
 msgid "Gamma"
@@ -74,6 +74,10 @@ msgid ""
 "perceive linearly. Rather, we find it more easy to distinguish between "
 "darker grays than we do between lighter grays."
 msgstr ""
+"Ara, la situació de la qual parlem quan parlem de teoria és el que en diríem "
+"«lineal». Cada pas de la brillantor és el mateix valor. Els nostres ulls no "
+"perceben de forma lineal. Més aviat, ens resulta més fàcil distingir entre "
+"els grisos més foscos que entre els grisos més clars."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:22
 msgid ""
@@ -85,11 +89,20 @@ msgid ""
 "color management specialists hate themselves), which tells your computer or "
 "printer how much color corresponds to a certain value."
 msgstr ""
+"Com que els humans són els que utilitzen els ordinadors, ho hem fet perquè "
+"els ordinadors donin més espai als valors més foscos en el sistema de "
+"coordenades de la imatge. Això s'anomena «codificació de gamma», perquè està "
+"aplicant una funció de gamma al TRC o a la transferència d'una imatge. El TRC "
+"en aquest cas és la Corba de resposta del to, la Corba de reproducció del to "
+"o la característica de Transferència (perquè els especialistes en la gestió "
+"del color s'odien a si mateixos), el qual li diu al vostre ordinador o "
+"impressora quant de color correspon a un determinat valor."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
 msgid ".. image:: images/color_category/Pepper_tonecurves.png"
 msgstr ".. image:: images/color_category/Pepper_tonecurves.png"
 
+# skip-rule: t-acc_obe
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
 msgid ""
 "One of the most common issues people have with Krita's color management is "
@@ -99,6 +112,12 @@ msgid ""
 "and to the right we have a Pepper encoded with a linear TRC and assigned an "
 "sRGB TRC. Image from `Pepper & Carrot <https://www.peppercarrot.com/>`_."
 msgstr ""
+"Un dels problemes més comuns que té la gent amb la gestió del color del Krita "
+"és l'assignació de l'espai de color correcte al TRC codificat. A dalt, el "
+"centre Pepper és el correcte, on el TRC codificat i assignat són el mateix. A "
+"l'esquerra tenim un Pepper codificat en sRGB, però assignat a un perfil "
+"lineal, i a la dreta tenim un Pepper codificat amb un TRC lineal i assignat a "
+"un TRC en sRGB. Imatge de `Pepper & Carrot <https://www.peppercarrot.com/>`_."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:30
 msgid ""
@@ -106,6 +125,10 @@ msgid ""
 "values in a linear space compared to the default sRGB TRC of our modern "
 "computers and other TRCs available in our delivered profiles:"
 msgstr ""
+"La següent taula mostra com hi ha molt espai utilitzat per valors més "
+"lleugers en un espai lineal en comparació amb el TRC en sRGB predeterminat "
+"dels nostres ordinadors moderns i altres TRC disponibles en els nostres "
+"perfils lliurats:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:35
 msgid ""
@@ -118,16 +141,27 @@ msgid ""
 "always use something like the LAB L\\*, sRGB or Gamma 2.2 TRCs to encode the "
 "image with."
 msgstr ""
+"Si ens fixem en el lineal dels TRC rec 709, veurem que hi ha un gran salt "
+"entre els tons més foscos i els tons més clars, mentre que si observem el TRC "
+"en Lab L* o el TRC en sRGB, els quals semblen més espaiats. Això es deu a la "
+"sensibilitat dels nostres ulls als valors més foscos. Això també vol dir que "
+"si no teniu prou profunditat de bits, una imatge en un espai lineal es veurà "
+"com si tingués un lleig efecte de cartell. Per això, quan creem les imatges "
+"per a veure-les en una pantalla, sempre utilitzarem alguna cosa com TRC en "
+"Lab L\\*, sRGB o Gamma 2.2 per a codificar la imatge."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:38
 msgid ""
 "However, this modification to give more space to darker values does lead to "
 "wonky color maths when mixing the colors."
 msgstr ""
+"No obstant això, aquesta modificació per a donar més espai als valors més "
+"foscos provoca complicacions en les matemàtiques del color quan es mesclen "
+"els colors."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:40
 msgid "We can see this with the following experiment:"
-msgstr ""
+msgstr "Ho podem veure amb el següent experiment:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:46
 msgid ""
@@ -140,16 +174,21 @@ msgid ""
 "**Left:** Colored circles blurred in a regular sRGB space. **Right:** "
 "Colored circles blurred in a linear space."
 msgstr ""
+"**Esquerra:** Cercles amb el color borrós en un espai sRGB regular. "
+"**Dreta:** Cercles amb el color borrós en un espai lineal."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:48
 msgid ""
 "Colored circles, half blurred. In a gamma-corrected environment, this gives "
 "an odd black border. In a linear environment, this gives us a nice gradation."
 msgstr ""
+"Cercles amb el color, mig borrós. En un entorn amb correcció de la gamma, "
+"això ens donarà una vora negra imparell. En un entorn lineal, això ens donarà "
+"una bonica gradació."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:50
 msgid "This also counts for Krita's color smudge brush:"
-msgstr ""
+msgstr "Això també s'aplica al pinzell amb esborronat del color del Krita:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:56
 msgid ""
@@ -164,20 +203,26 @@ msgid ""
 "your colors. If you had been working in LAB to avoid this, be sure to try "
 "out a linear rgb color space."
 msgstr ""
+"Així és, la «contaminació» dels colors, la qual és una queixa típica dels "
+"pintors digitals, és de fet, un espai de color amb correcció de la gamma que "
+"arruïna els vostres colors. Si heu estat treballant en el Lab per evitar "
+"això, assegureu-vos de provar un espai de color RGB lineal."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:59
 msgid "What is happening under the hood"
-msgstr ""
+msgstr "Què passa al darrere?"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:62
 msgid "Imagine we want to mix red and green."
-msgstr ""
+msgstr "Imagineu que volem mesclar el vermell i el verd."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:64
 msgid ""
 "First, we would need the color coordinates of red and green inside our color "
 "space's color model. So, that'd be..."
 msgstr ""
+"Primer, necessitarem les coordenades del color vermell i verd dins el model "
+"de color del nostre espai de color. Per tant, això seria..."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:67
 msgid "Color"
@@ -219,7 +264,7 @@ msgstr "0,0"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:73
 msgid "We then average these coordinates over three mixes:"
-msgstr ""
+msgstr "Després farem la mitjana d'aquestes coordenades en tres mescles:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:76
 msgid "Mix1"
@@ -253,12 +298,17 @@ msgid ""
 "But to figure out how these colors look on screen, we first put the "
 "individual values through the TRC of the color-space we're working with:"
 msgstr ""
+"Però per tal de determinar com es veuran aquests colors a la pantalla, primer "
+"col·locarem els valors individuals a través del TRC de l'espai de color amb "
+"el qual estem treballant:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:93
 msgid ""
 "Then we fill in the values into the correct spot. Compare these to the "
 "values of the mixture table above!"
 msgstr ""
+"Després omplirem els valors en el lloc correcte. Compareu-los amb els valors "
+"de la taula de mescles que hi ha a sobre!"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:99
 msgid ""
@@ -268,6 +318,11 @@ msgid ""
 "case this still doesn't make sense: *sRGB gives largely* **darker** *values "
 "than linear space for the same coordinates*."
 msgstr ""
+"I és per això que les mescles de color són més clares i suaus en l'espai "
+"lineal. L'espai lineal és més correcte físicament, però el sRGB és més "
+"eficient en termes d'espai, per tant, moltes imatges tindran codificat un TRC "
+"en sRGB. Si encara no heu entès: *el sRGB proporciona valors molt més* "
+"**foscos** *que l'espai lineal per a les mateixes coordenades*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:102
 msgid ""
@@ -275,6 +330,10 @@ msgid ""
 "example, every set of gradients is in order a mix using linear TRC, a mix "
 "using sRGB TRC and a mix using LAB L* TRC."
 msgstr ""
+"Per tant, TRC diferents donaran diferents mescles entre els colors, en el "
+"següent exemple, cada conjunt de degradats és en ordre una mescla que empra "
+"TRC lineal, una mescla que empra TRC en sRGB i una mescla que empra TRC en "
+"Lab L*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:110
 msgid ""
@@ -282,6 +341,9 @@ msgid ""
 "somewhere? The answer is that we have several ICC profiles that can be used "
 "for this kind of work:"
 msgstr ""
+"Llavors, us podríeu preguntar. Com faig per a marcar aquesta opció? Es troba "
+"en algun lloc dels ajustaments? La resposta és que tenim diversos perfils ICC "
+"que es poden utilitzar per a aquest tipus de treball:"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:112
 msgid "scRGB (linear)"
@@ -290,6 +352,7 @@ msgstr "scRGB (lineal)"
 #: ../../general_concepts/colors/linear_and_gamma.rst:113
 msgid "All 'elle'-profiles ending in 'g10', such as *sRGB-elle-v2-g10.icc*."
 msgstr ""
+"Tots els perfils «elle» que acaben en «g10», com el *sRGB-elle-v2-g10.icc*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:115
 msgid ""
@@ -297,6 +360,9 @@ msgid ""
 "1.0 is linear, higher is gamma-corrected and 'srgbtrc' is a special gamma "
 "correction for the original sRGB profile."
 msgstr ""
+"De fet, en tots els perfils «elle», l'últim número indica la gamma. L'1.0 és "
+"lineal, el més gran és la correcció de la gamma i «srgbtrc» és una correcció "
+"especial de la gamma per al perfil sRGB original."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:117
 msgid ""
@@ -304,6 +370,9 @@ msgid ""
 "gamma'(if it's 1.0, it's linear), or from the TRC widget in Krita 3.0, which "
 "looks exactly like the curve graphs above."
 msgstr ""
+"Si utilitzeu el navegador de l'espai de color, podreu distingir el TRC des de "
+"la «gamma estimada» (si és 1,0, és lineal), o des de l'estri TRC en el Krita "
+"3.0, en el qual es veurà exactament com en les gràfiques de corba anteriors."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:119
 msgid ""
@@ -312,6 +381,10 @@ msgid ""
 "speed up the renderer a little, for it won't have to convert images on its "
 "own."
 msgstr ""
+"Encara que no pinteu gaire, però, per exemple, creeu textures per a un "
+"videojoc o renderitzat, l'utilitzar un espai lineal és molt beneficiós i "
+"accelerarà una mica el renderitzador, ja que no haurà de convertir les "
+"imatges."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:121
 msgid ""
@@ -322,3 +395,10 @@ msgid ""
 "videogames and raytracing, Krita is a tool and no-one will hunt you down for "
 "preferring the dark mixing of the sRGB TRC."
 msgstr ""
+"L'inconvenient de l'espai lineal és, per descomptat, que el blanc sembla "
+"tenir massa pes quan es mescla amb el negre, ja que en un espai lineal els "
+"grisos clars tenen més espai. Finalment, mentre que l'espai lineal és "
+"físicament correcte, i és una gran ajuda per a treballar quan es tracta de "
+"renderitzadors físicament correctes per a videojocs i el traçat dels raigs, "
+"el Krita és una eina i ningú us perseguirà si preferiu la mescla fosca del "
+"TRC en sRGB."

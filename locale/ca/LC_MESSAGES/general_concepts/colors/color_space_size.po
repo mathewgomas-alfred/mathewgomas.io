@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-26 01:06+0200\n"
+"PO-Revision-Date: 2019-07-20 16:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -51,17 +51,19 @@ msgstr ""
 
 #: ../../general_concepts/colors/color_space_size.rst:25
 msgid "How do these affect your image, and why would you use them?"
-msgstr ""
+msgstr "Com afecten a la vostra imatge i perquè els empraríeu?"
 
 #: ../../general_concepts/colors/color_space_size.rst:27
 msgid "There are three primary reasons to use a large space:"
-msgstr ""
+msgstr "Hi ha tres raons principals per utilitzar un espai gran:"
 
 #: ../../general_concepts/colors/color_space_size.rst:29
 msgid ""
 "Even though you can't see the colors, the computer program does understand "
 "them and can do color maths with it."
 msgstr ""
+"Tot i que no pugueu veure els colors, el programa d'ordinador els entén i pot "
+"fer matemàtiques del color amb ells."
 
 #: ../../general_concepts/colors/color_space_size.rst:30
 msgid ""
@@ -70,6 +72,11 @@ msgid ""
 "smaller. To get the best conversion, having your image in a space that "
 "encompasses both your screen profile as your printer profile."
 msgstr ""
+"Per a l'intercanvi entre programes i dispositius: la majoria dels perfils "
+"CMYK són una mica més grans que el nostre sRGB predeterminat en alguns llocs, "
+"mentre que en altres llocs, són més petits. Per obtenir la millor conversió, "
+"tingueu la vostra imatge en un espai que abasti tant el vostre perfil de la "
+"pantalla com el vostre perfil de la impressora."
 
 #: ../../general_concepts/colors/color_space_size.rst:31
 msgid ""
@@ -77,10 +84,13 @@ msgid ""
 "have larger amounts of colors they can show (spoiler: they already do), and "
 "this allows you to be prepared for that."
 msgstr ""
+"Per a fins d'arxiu. En altres paraules, potser els monitors del futur puguin "
+"mostrar una major quantitat de colors (filtració: ja n'hi ha), i això us "
+"permetrà estar preparat."
 
 #: ../../general_concepts/colors/color_space_size.rst:33
 msgid "Let's compare the following gradients in different spaces:"
-msgstr ""
+msgstr "Comparem els següents degradats en diferents espais:"
 
 #: ../../general_concepts/colors/color_space_size.rst:37
 msgid ""
@@ -106,6 +116,11 @@ msgid ""
 "approximation of the actual colors. On the right, we have an sRGB png that "
 "was converted in Krita from the base file."
 msgstr ""
+"A l'esquerra tenim un fitxer JPEG amb la gestió del color carregada de "
+"defectes amb un perfil ACES sRGBtrc v2 adjuntat (o no, si no, podreu veure la "
+"diferència exacta entre els colors amb més claredat). Això hauria de donar "
+"una aproximació dels colors reals. A la dreta, tenim un PNG en sRGB que s'ha "
+"convertit en el Krita des del fitxer base."
 
 #: ../../general_concepts/colors/color_space_size.rst:43
 msgid ""
@@ -114,6 +129,10 @@ msgid ""
 "mid-tone of the RGB colorspace, and this is because the primaries are "
 "further apart."
 msgstr ""
+"Cadascun dels degradats és el degradat del màxim d'un canal determinat. Com "
+"podeu veure, el to mitjà de l'espai de color ACES és molt més brillant que el "
+"to mitjà de l'espai de color RGB, i això es deu al fet que els primaris estan "
+"més separats."
 
 #: ../../general_concepts/colors/color_space_size.rst:45
 msgid ""
@@ -122,12 +141,19 @@ msgid ""
 "mixes and gradients. In particular, when color correcting, the bigger space "
 "can help with giving more precise information."
 msgstr ""
+"El que això voldrà dir per a nosaltres és que quan comencem a barrejar o a "
+"aplicar filtres, el Krita podria generar valors més alts que els visibles, "
+"però també generar mescles i degradats més correctes. En particular, quan es "
+"corregeix el color, un espai més gran pot ajudar a proporcionar informació "
+"més precisa."
 
 #: ../../general_concepts/colors/color_space_size.rst:47
 msgid ""
 "If you have a display profile that uses a LUT, then you can use perceptual "
 "to give an indication of how your image will look."
 msgstr ""
+"Si teniu un perfil de la pantalla que utilitza una LUT, llavors podreu emprar "
+"la percepció per indicar com es veurà la vostra imatge."
 
 #: ../../general_concepts/colors/color_space_size.rst:49
 msgid ""
@@ -135,3 +161,6 @@ msgid ""
 "want to see banding, so make sure to have at the least 16bit per channel "
 "when choosing a bigger space."
 msgstr ""
+"Els espais més grans tenen el desavantatge que requereixen més precisió si no "
+"voleu veure un efecte de cartell, així que assegureu-vos de tenir almenys 16 "
+"bits per canal en triar un espai més gran."

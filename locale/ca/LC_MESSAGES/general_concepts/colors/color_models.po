@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
-"PO-Revision-Date: 2019-07-19 19:52+0200\n"
+"PO-Revision-Date: 2019-07-20 16:45+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -95,8 +95,8 @@ msgstr ""
 "I per a l'espai de treball. Un espai de treball és una gamma RGB que en "
 "realitat és gran i predictible, el qual vol dir que és bo per a la "
 "manipulació d'imatges. Ho utilitzeu al costat d'un monitor amb perfil. "
-"D'aquesta manera, podreu tenir colors precisos al mateix temps que els veureu "
-"correctament en múltiples pantalles."
+"D'aquesta manera, podreu tenir colors precisos al mateix temps que els "
+"veureu correctament en múltiples pantalles."
 
 #: ../../general_concepts/colors/color_models.rst:39
 msgid "Blending modes in RGB"
@@ -205,8 +205,8 @@ msgid ""
 "These are not included as their own color spaces in Krita. However, they do "
 "show up in the blending modes and color selectors, so a brief overview:"
 msgstr ""
-"Aquests no estan inclosos com els seus propis espais de color en el Krita. No "
-"obstant això, es mostren en els modes de barreja i selectors de color, de "
+"Aquests no estan inclosos com els seus propis espais de color en el Krita. "
+"No obstant això, es mostren en els modes de barreja i selectors de color, de "
 "manera que en fem una breu descripció:"
 
 #: ../../general_concepts/colors/color_models.rst:59
@@ -238,12 +238,12 @@ msgid ""
 "measurement of how close a color is to gray, and sometimes this value is "
 "called **Chroma**. Saturation ranges from 0 (gray) to 100 (pure color)."
 msgstr ""
-"Com de vibrant serà un color. La Saturació és lleugerament diferent entre HSV "
-"i els altres. En HSV és una mesura de la diferència entre dos colors base que "
-"s'utilitzen i tres colors base que s'utilitzen. En les altres, és una mesura "
-"de com de prop es troba un color del gris, i algunes vegades aquest valor "
-"s'anomena **Chroma**. L'interval de la saturació varia entre el 0 (gris) fins "
-"al 100 (color pur)."
+"Com de vibrant serà un color. La Saturació és lleugerament diferent entre "
+"HSV i els altres. En HSV és una mesura de la diferència entre dos colors "
+"base que s'utilitzen i tres colors base que s'utilitzen. En les altres, és "
+"una mesura de com de prop es troba un color del gris, i algunes vegades "
+"aquest valor s'anomena **Chroma**. L'interval de la saturació varia entre el "
+"0 (gris) fins al 100 (color pur)."
 
 #: ../../general_concepts/colors/color_models.rst:65
 msgid "Value"
@@ -309,8 +309,8 @@ msgid ""
 "registering gray values, it only needs one channel of information, which in "
 "turn means the image becomes much lighter in memory consumption!"
 msgstr ""
-"Aquest espai de color només registra els valors de gris. Això és útil, ja que "
-"només en registrar els valors de gris, només necessitarà un canal "
+"Aquest espai de color només registra els valors de gris. Això és útil, ja "
+"que només en registrar els valors de gris, només necessitarà un canal "
 "d'informació, el que al seu torn vol dir que la imatge esdevindrà molt més "
 "baixa en el consum de memòria."
 
@@ -367,8 +367,8 @@ msgid ""
 "There's also a difference between 'colored gray' and 'neutral gray' "
 "depending on the profile."
 msgstr ""
-"També hi ha una diferència entre el «color gris» i el «gris neutre» segons el "
-"perfil."
+"També hi ha una diferència entre el «color gris» i el «gris neutre» segons "
+"el perfil."
 
 #: ../../general_concepts/colors/color_models.rst:115
 msgid "25%"
@@ -418,7 +418,7 @@ msgstr ""
 "No obstant això, tot i que CMYK té una «gamma» més petita que RGB, encara es "
 "recomana utilitzar un perfil de l'espai de treball RGB per a realitzar la "
 "vostra edició. Després, podreu convertir-la al perfil CMYK de la vostra "
-"impressora utilitzant el propòsit colorimetria perceptiva o relativa. O "
+"impressora utilitzant el propòsit de la colorimetria perceptiva o relativa. O "
 "simplement podreu donar-li la imatge RGB de l'espai de treball a la "
 "impressora i deixar que aquesta s'encarregui de la feina."
 
@@ -471,6 +471,10 @@ msgid ""
 "lightness of colors, and thus JPEG tries to compress the Cr and Cb channels, "
 "and leave the Y channel in full quality."
 msgstr ""
+"Aquest espai de color s'utilitza sovint en la fotografia i en implementacions "
+"(correctes) del JPEG. Com humà, sou molt més sensible a la claredat dels "
+"colors i, per tant, el JPEG intenta comprimir els canals Cr i Cb, i deixar el "
+"canal Y en qualitat total."
 
 #: ../../general_concepts/colors/color_models.rst:153
 msgid ""
@@ -478,6 +482,9 @@ msgid ""
 "open source ICC profiles for this color space. It's unusable without one, "
 "and also probably very untested."
 msgstr ""
+"El Krita no inclou un perfil ICC per a YCrCb sobre la base que no hi ha "
+"perfils ICC de codi obert per a aquest espai de color. Sense un és "
+"inutilitzable, i probablement també no s'han fet proves."
 
 #: ../../general_concepts/colors/color_models.rst:158
 msgid "XYZ"
@@ -489,14 +496,17 @@ msgid ""
 "color perception. In doing so, they made the first color spaces, with XYZ "
 "being the one best at approximating human vision."
 msgstr ""
+"El 1931, el CIE (Institut de color i llum), estava estudiant la percepció del "
+"color pels humans. En fer-ho, van crear els primers espais de color, sent el "
+"XYZ el millor per aproximar-se a la visió humana."
 
 #: ../../general_concepts/colors/color_models.rst:163
 msgid "It's almost impossible to really explain what XYZ is."
-msgstr ""
+msgstr "És gairebé impossible explicar realment què és el XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:166
 msgid "Is equal to green."
-msgstr ""
+msgstr "És igual que el verd."
 
 #: ../../general_concepts/colors/color_models.rst:167
 msgid "Z"
@@ -504,7 +514,7 @@ msgstr "Z"
 
 #: ../../general_concepts/colors/color_models.rst:168
 msgid "Akin to blue."
-msgstr ""
+msgstr "Similar al blau."
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "X"
@@ -512,13 +522,16 @@ msgstr "X"
 
 #: ../../general_concepts/colors/color_models.rst:170
 msgid "Is supposed to be red."
-msgstr ""
+msgstr "Se suposa que és vermell."
 
 #: ../../general_concepts/colors/color_models.rst:172
 msgid ""
 "XYZ is used as a baseline reference for all other profiles and models. All "
 "color conversions are done in XYZ, and all profiles coordinates match XYZ."
 msgstr ""
+"El XYZ s'utilitza com a referència de la línia base per a tots els altres "
+"perfils i models. Totes les conversions de color es realitzen en el XYZ, i "
+"totes les coordenades dels perfils coincideixen amb el XYZ."
 
 #: ../../general_concepts/colors/color_models.rst:177
 msgid "L\\*a\\*b\\*"
@@ -526,7 +539,7 @@ msgstr "L\\*a\\*b\\*"
 
 #: ../../general_concepts/colors/color_models.rst:179
 msgid "Stands for:"
-msgstr ""
+msgstr "Vol dir:"
 
 #: ../../general_concepts/colors/color_models.rst:181
 msgid "L\\*"
@@ -534,7 +547,7 @@ msgstr "L\\*"
 
 #: ../../general_concepts/colors/color_models.rst:182
 msgid "Lightness, similar to luminosity in this case."
-msgstr ""
+msgstr "Claredat, en aquest cas és similar a la lluminositat."
 
 #: ../../general_concepts/colors/color_models.rst:183
 msgid "a\\*"
@@ -545,6 +558,8 @@ msgid ""
 "a\\* in this case is the measurement of how magenta a color is versus how "
 "green it is."
 msgstr ""
+"a\\* en aquest cas és la mesura com de magenta té un color contra el verd que "
+"és."
 
 #: ../../general_concepts/colors/color_models.rst:186
 msgid "b\\*"
@@ -555,6 +570,8 @@ msgid ""
 "b\\* in this case is a measurement of how yellow a color is versus how blue "
 "a color is."
 msgstr ""
+"b\\* en aquest cas és la mesura com de groc té un color contra el blau que "
+"és."
 
 #: ../../general_concepts/colors/color_models.rst:188
 msgid ""
@@ -564,12 +581,19 @@ msgid ""
 "balancing in. It's far easier to adjust the contrast and color tone in "
 "L*a*b*."
 msgstr ""
+"Se suposa que L\\*a\\*b\\* és una varietat més comprensible del XYZ i el més "
+"«complet» de tots els espais de color. Sovint s'utilitza com un espai de "
+"color intermedi durant la conversió, però encara més com a l'espai de color "
+"correcte per a realitzar l'equilibri de color. És molt més fàcil ajustar el "
+"contrast i el to del color en el L*a*b*."
 
 #: ../../general_concepts/colors/color_models.rst:190
 msgid ""
 "L\\*a\\*b\\* is technically the same as Photoshop's LAB. Photoshop "
 "specifically uses CIELAB d50."
 msgstr ""
+"El L*a*b* és tècnicament el mateix que el LAB del Photoshop. El Photoshop "
+"utilitza específicament CIELAB d50."
 
 #: ../../general_concepts/colors/color_models.rst:193
 msgid "Filters and blending modes"
@@ -582,3 +606,8 @@ msgid ""
 "on the color coordinates, and because color coordinates are different per "
 "color space, the blending modes look different."
 msgstr ""
+"Potser heu notat que els modes de barreja en el LAB no funcionen com ho fan "
+"en el RGB o CMYK. Això es deu al fet que els modes de barreja treballen fent "
+"una mica de matemàtiques sobre les coordenades del color, i perquè les "
+"coordenades del color són diferents segons l'espai de color, els modes de "
+"barreja es veuran diferent."

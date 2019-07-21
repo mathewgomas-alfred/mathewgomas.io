@@ -6,8 +6,8 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: docs_krita_org_general_concepts___colors___profiling_and_c"
-"allibration\n"
+"Project-Id-Version: "
+"docs_krita_org_general_concepts___colors___profiling_and_callibration\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
 "PO-Revision-Date: 2019-07-19 09:29+0300\n"
@@ -22,7 +22,6 @@ msgstr ""
 "X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<generated>:1
-#| msgid "soft-proofing"
 msgid "Soft-proofing"
 msgstr "Проба кольорів"
 
@@ -221,9 +220,6 @@ msgstr ""
 "разом із самим пристроєм)."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:60
-#| msgid ""
-#| "If you don't have software packaged with your colorimeter, or are unhappy "
-#| "with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_"
 msgid ""
 "If you don't have software packaged with your colorimeter, or are unhappy "
 "with the results, we recommend `ArgyllCMS <https://www.argyllcms.com/>`_."
@@ -302,14 +298,10 @@ msgid "Profiling only:"
 msgstr "Лише профілювання:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:79
-#| msgid "with a good monitor"
 msgid "With a good monitor"
 msgstr "Якщо монітор є якісним"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:80
-#| msgid ""
-#| "you can get most of the sRGB colors and lot of extra colors not inside "
-#| "sRGB. So this can be good to have more visible colors."
 msgid ""
 "You can get most of the sRGB colors and lot of extra colors not inside sRGB. "
 "So this can be good to have more visible colors."
@@ -319,15 +311,10 @@ msgstr ""
 "діапазону видимих кольорів."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
-#| msgid "with a bad monitor"
 msgid "With a bad monitor"
 msgstr "Якщо монітор є неякісним"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
-#| msgid ""
-#| "you will get just a subset of actual sRGB, and miss lot of details, or "
-#| "even have hue shifts. Trying to calibrate it before profiling can help to "
-#| "get closer to full-sRGB colors."
 msgid ""
 "You will get just a subset of actual sRGB, and miss lot of details, or even "
 "have hue shifts. Trying to calibrate it before profiling can help to get "
@@ -342,27 +329,18 @@ msgid "Calibration+profiling:"
 msgstr "Калібрування+профілювання:"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:86
-#| msgid "bad monitors"
 msgid "Bad monitors"
 msgstr "Низькоякісні монітори"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:87
-#| msgid "as explained just before."
 msgid "As explained just before."
 msgstr "Див. пояснення вище."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:88
-#| msgid "multi-monitor setup"
 msgid "Multi-monitor setup"
 msgstr "Конфігурація із багатьма моніторами"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:89
-#| msgid ""
-#| "when using several monitors, and specially in mirror mode where both "
-#| "monitor have the same content, you can't have this content color-managed "
-#| "for both screen profiles. In such case, calibrating both screens to match "
-#| "sRGB profile (or another standard for high-end monitors if they both "
-#| "support it) can be a good solution."
 msgid ""
 "When using several monitors, and specially in mirror mode where both monitor "
 "have the same content, you can't have this content color-managed for both "
@@ -378,11 +356,6 @@ msgstr ""
 "підтримку) може бути чудовим виходом із ситуації."
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:91
-#| msgid ""
-#| "when you need to match an exact rendering context for soft-proofing, "
-#| "calibrating can help getting closer to the expected result. Though "
-#| "switching through several monitor calibration and profiles should be done "
-#| "extremely carefully."
 msgid ""
 "When you need to match an exact rendering context for soft-proofing, "
 "calibrating can help getting closer to the expected result. Though switching "
