@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-26 00:48+0200\n"
+"PO-Revision-Date: 2019-07-21 17:40+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -135,6 +135,8 @@ msgid ""
 "This is a rectangle. We have a front, top and side view. Put into "
 "perspective it should look somewhat like this:"
 msgstr ""
+"Això és un rectangle. Tenim una vista frontal, superior i lateral. En "
+"perspectiva, s'hauria de veure una cosa així:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:28
 msgid ""
@@ -142,6 +144,9 @@ msgid ""
 "basis to start with when you find yourself in trouble with a pose. But we'll "
 "get to that in a bit."
 msgstr ""
+"Si bé les representacions ortogràfiques són una mica avorrides, també són una "
+"bona base per a començar quan teniu problemes amb un posat. Però arribarem a "
+"això en un moment."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:33
 msgid "Oblique"
@@ -153,18 +158,21 @@ msgid ""
 "and the side view is the viewer directly looking at the side. (The "
 "perpendicular line being the view plane it is projected on)"
 msgstr ""
+"Llavors, si podem dir que la vista frontal és l'observador mirant cap al "
+"davant, i la vista lateral és l'observador mirant directament cap al costat. "
+"(La línia perpendicular és el pla de vista sobre la qual es projecta)."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:40
 msgid "Then we can get a half-way view from looking from an angle, no?"
-msgstr ""
+msgstr "Llavors obtenim una vista a mig camí des d'un angle, no?"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:45
 msgid "If we do that for a lot of different sides…"
-msgstr ""
+msgstr "Si ho fem per a un munt de costats diferents..."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:50
 msgid "And we line up the sides we get a…"
-msgstr ""
+msgstr "I si alineem els costats obtenim un..."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:55
 msgid ""
@@ -172,10 +180,13 @@ msgid ""
 "no tutorial applies it to an object where you actually might NEED "
 "projection. Like a face."
 msgstr ""
+"Però els cubs són avorrits. Sospito que la projecció és tan ignorada perquè "
+"cap guia d'aprenentatge l'aplica a un objecte en el que realment NECESSITA "
+"una projecció. Com una cara."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:57
 msgid "First, let's prepare our front and side views:"
-msgstr ""
+msgstr "Primer, preparem les nostres vistes frontal i lateral:"
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:62
 msgid ""
@@ -186,6 +197,14 @@ msgid ""
 "vertical. In 3.0, you can also snap them to the image borders if you have :"
 "menuselection:`Snap Image Bounds` active via :kbd:`Shift` + :kbd:`S`"
 msgstr ""
+"Sempre començament amb el lateral i després extrapolant des de la vista "
+"frontal. A causa de que utilitzeu el Krita, establiu dos regles paral·lels, "
+"un de vertical i l'altra horitzontal. Per ajustar-los a la perfecció, "
+"arrossegueu un dels nodes després d'haver creat el regle i premeu "
+":kbd:`Majús.` per ajustar-lo de manera horitzontal o vertical. En la versió "
+"3.0, també podreu ajustar-los a les vores de la imatge si teniu activat "
+":menuselection:`Ajusta els límits de la imatge` mitjançant la drecera "
+":kbd:`Majús. + S`."
 
 #: ../../general_concepts/projection/orthographic_oblique.rst:64
 msgid ""

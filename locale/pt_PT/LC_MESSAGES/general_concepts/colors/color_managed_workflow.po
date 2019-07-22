@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-20 03:15+0200\n"
-"PO-Revision-Date: 2019-05-20 00:22+0100\n"
+"PO-Revision-Date: 2019-07-21 13:40+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -430,13 +430,6 @@ msgstr ""
 "e depois convertê-lo para um espaço de trabalho."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:114
-#, fuzzy
-#| msgid ""
-#| "We then do all our editing in the working space, and use the working "
-#| "space to communicate between editing programs. In Krita's case, due to it "
-#| "having two color management systems, we use ICC profiles between programs "
-#| "like GIMP 2.9+, Inkscape, digiKam and Scribus, and OCIO configuration "
-#| "between Blender and Natron."
 msgid ""
 "We then do all our editing in the working space, and use the working space "
 "to communicate between editing programs. In Krita's case, due to it having "
@@ -644,14 +637,6 @@ msgid "ICC profiles"
 msgstr "Perfis ICC"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:150
-#, fuzzy
-#| msgid ""
-#| "An ICC profile is a set of coordinates describing the extremities of the "
-#| "device space within XYZ, and it is the color management data you use to "
-#| "communicate your working space to printers and applications that are "
-#| "designed for the print industry, such as GIMP, Scribus, Photoshop, "
-#| "Illustrator, Inkscape, Digikam, RawTheraphee, etc. You have two types of "
-#| "ICC profiles:"
 msgid ""
 "An ICC profile is a set of coordinates describing the extremities of the "
 "device space within XYZ, and it is the color management data you use to "
@@ -659,13 +644,7 @@ msgid ""
 "designed for the print industry, such as Gimp, Scribus, Photoshop, "
 "Illustrator, Inkscape, digiKam, RawTheraphee, etc. You have two types of ICC "
 "profiles:"
-msgstr ""
-"Um perfil ICC é um conjunto de coordenadas que descreve as extremidades do "
-"espaço do dispositivo dentro do XYZ, e são os dados de gestão de cores que "
-"usa para comunicar o seu espaço de trabalho com as impressoras e as "
-"aplicações que estão desenhadas para a indústria da impressão, como o GIMP, "
-"o Scribus, o Photoshop, o Illustrator, o Inkscape, o Digikam, o "
-"RawTheraphee, etc. Tem dois tipos de perfis ICC:"
+msgstr "Um perfil ICC é um conjunto de coordenadas que descreve as extremidades do espaço do dispositivo dentro do XYZ, e são os dados de gestão de cores que usa para comunicar o seu espaço de trabalho com as impressoras e as aplicações que estão desenhadas para a indústria da impressão, como o Gimp, o Scribus, o Photoshop, o Illustrator, o Inkscape, o Digikam, o RawTheraphee, etc. Tem dois tipos de perfis ICC:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:153
 msgid ""
@@ -682,10 +661,8 @@ msgstr ""
 "perfis em questão também são preferíveis como espaços de trabalho."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
-#, fuzzy
-#| msgid "Matrix Shaper profiles."
 msgid "Matrix Shaper profiles"
-msgstr "Perfis em Forma de Matriz."
+msgstr "Perfis em Forma de Matriz"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:159
 msgid ""
@@ -1011,8 +988,6 @@ msgstr ""
 "um perfil ICC."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:242
-#, fuzzy
-#| msgid "OCIO works in terms of interpretation, and makes use of luts."
 msgid "OCIO works in terms of interpretation, and makes use of LUTs."
 msgstr "O OCIO funciona em termos de interpretação, e tira partido das LUT's."
 
@@ -1078,14 +1053,6 @@ msgstr ""
 "poderá ser confuso de trabalhar nele."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:251
-#, fuzzy
-#| msgid ""
-#| "If you like painting, have a decent amount of RAM, and are looking to "
-#| "start your baby-steps in taking advantage of Krita's color management, "
-#| "try upgrading from having all your images in sRGB built-in to sRGB-v2-"
-#| "elle-g10.icc or rec2020-v2-elle-g10.icc at 16bit float. This'll give you "
-#| "better color blending while opening up the possibility for you to start "
-#| "working in hdr!"
 msgid ""
 "If you like painting, have a decent amount of RAM, and are looking to start "
 "your baby-steps in taking advantage of Krita's color management, try "
@@ -1181,36 +1148,19 @@ msgstr ""
 "monitores com perfis."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:279
-#, fuzzy
-#| msgid ""
-#| "In some versions of Firefox, the colors actually look strange: This is a "
-#| "bug in Firefox, which is because its `color management system is "
-#| "incomplete <http://ninedegreesbelow.com/galleries/viewing-photographs-on-"
-#| "the-web.html>`_, save your png, jpg or tiff without an embedded profile "
-#| "to work around this."
 msgid ""
 "In some versions of Firefox, the colors actually look strange: This is a bug "
 "in Firefox, which is because its `color management system is incomplete "
 "<https://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web."
 "html>`_, save your PNG, JPG or TIFF without an embedded profile to work "
 "around this."
-msgstr ""
-"Em algumas versões do Firefox, as cores realmente parecem estranhas: Isto é "
-"um erro no Firefox, e é por isso que o seu `sistema de gestão de cores está "
-"incompleto <http://ninedegreesbelow.com/galleries/viewing-photographs-on-the-"
-"web.html>`_; grave o seu PNG, JPG ou TIFF sem perfis incorporados para dar a "
-"volta a isto."
+msgstr "Em algumas versões do Firefox, as cores realmente parecem estranhas: Isto é um erro no Firefox, e é por isso que o seu `sistema de gestão de cores está incompleto <https://ninedegreesbelow.com/galleries/viewing-photographs-on-the-web.html>`_; grave o seu PNG, JPG ou TIFF sem perfis incorporados para dar a volta a isto."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:281
 msgid "If you are preparing for print:"
 msgstr "Se estiver a preparar-se para imprimir:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
-#, fuzzy
-#| msgid ""
-#| "You hopefully made the picture in a working space profile instead of the "
-#| "actual custom profile of your screen, if not, convert it to something "
-#| "like adobe rgb, sRGB or rec2020."
 msgid ""
 "You hopefully made the picture in a working space profile instead of the "
 "actual custom profile of your screen, if not, convert it to something like "
@@ -1237,11 +1187,6 @@ msgid "Blender"
 msgstr "Blender"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:292
-#, fuzzy
-#| msgid ""
-#| "If you wish to use krita's OCIO functionality, and in particular in "
-#| "combination with Blender's color management, you can try to have it use "
-#| "Blender's OCIO config."
 msgid ""
 "If you wish to use Krita's OCIO functionality, and in particular in "
 "combination with Blender's color management, you can try to have it use "
@@ -1252,13 +1197,6 @@ msgstr ""
 "a configuração do OCIO no Blender."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:294
-#, fuzzy
-#| msgid ""
-#| "Blender's OCIO config is under ``<Blender-folder>/version number/"
-#| "datafiles/colormanagement``. Set the LUT docker to use the OCIO engine, "
-#| "and select the config from the above path. This will give you blender's "
-#| "input and screen spaces, but not the looks, as those aren't supported in "
-#| "Krita yet."
 msgid ""
 "Blender's OCIO config is under ``<Blender-folder>/version number/datafiles/"
 "colormanagement``. Set the LUT docker to use the OCIO engine, and select the "
@@ -1362,37 +1300,19 @@ msgstr ""
 "especializado da casa de impressão para as imagens impressas."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:324
-#, fuzzy
-#| msgid ""
-#| "Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, "
-#| "Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, "
-#| "MyPaint, Artrage, Scribus, etc. and Krita."
 msgid ""
 "Use the sRGB-elle-V2-srgbtrc.icc for going between Inkscape, Photoshop, "
 "Painttool Sai, Illustrator, Gimp, Manga Studio, Paintstorm Studio, MyPaint, "
 "Artrage, Scribus, etc. and Krita."
-msgstr ""
-"Use o sRGB-elle-V2-srgbtrc.icc para circular entre o Inkscape, Photoshop, "
-"Painttool Sai, Illustrator, GIMP, Manga Studio, Paintstorm Studio, MyPaint, "
-"Artrage, Scribus, etc e o Krita."
+msgstr "Use o sRGB-elle-V2-srgbtrc.icc para circular entre o Inkscape, Photoshop, Painttool Sai, Illustrator, Gimp, Manga Studio, Paintstorm Studio, MyPaint, Artrage, Scribus, etc e o Krita."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:326
-#, fuzzy
-#| msgid ""
-#| "If you are using a larger space via ICC, you will only be able to "
-#| "interchange it between Krita, Photoshop, Illustrator, GIMP 2.9, Manga "
-#| "Studio and Scribus. All others assume sRGB for your space, no matter "
-#| "what, because they don't have color management."
 msgid ""
 "If you are using a larger space via ICC, you will only be able to "
 "interchange it between Krita, Photoshop, Illustrator, Gimp 2.9, Manga Studio "
 "and Scribus. All others assume sRGB for your space, no matter what, because "
 "they don't have color management."
-msgstr ""
-"Se estiver a usar um espaço maior com o ICC, só será capaz de o trocar entre "
-"o Krita, o Photoshop, o Illustrator, o GIMP 2.9, o Manga Studio e o Scribus. "
-"Todos os outros assumem o sRGB para o seu espaço, seja ele qual for, porque "
-"não têm gestão de cores."
+msgstr "Se estiver a usar um espaço maior com o ICC, só será capaz de o trocar entre o Krita, o Photoshop, o Illustrator, o Gimp 2.9, o Manga Studio e o Scribus. Todos os outros assumem o sRGB para o seu espaço, seja ele qual for, porque não têm gestão de cores."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:328
 msgid ""
@@ -1405,15 +1325,6 @@ msgstr ""
 "o perfil do sRGB para o ICC ao criar um novo ficheiro."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:330
-#, fuzzy
-#| msgid ""
-#| "For the final for the web, convert the image to sRGB 8bit, srgbtrc, do "
-#| "not embed the ICC profile. Then, if using png, put it through something "
-#| "like pngcrush or other png optimizers. sRGB in this case is chosen "
-#| "because you can assume the vast majority of your audience hasn't profiled "
-#| "their screen, nor do they have screens that are advanced enough for the "
-#| "wide gamut stuff. So hence why we convert to the screen default for the "
-#| "internet, sRGB."
 msgid ""
 "For the final for the web, convert the image to sRGB 8bit, 'srgbtrc', do not "
 "embed the ICC profile. Then, if using PNG, put it through something like "
@@ -1488,14 +1399,6 @@ msgstr ""
 "Este é mais complicado, mas no fim de tudo será o sRGB para o leitor normal."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:364
-#, fuzzy
-#| msgid ""
-#| "So this one is tricky. You can use OCIO and ICC between programs, but "
-#| "recommended is to have your images to the engine in sRGB or grayscale. "
-#| "Many physically based renderers these days allow you to set whether an "
-#| "image should be read as a linear or srgbtrc image, and this is even vital "
-#| "to have the images being considered properly in the physically based "
-#| "calculations of the game renderer."
 msgid ""
 "So this one is tricky. You can use OCIO and ICC between programs, but "
 "recommended is to have your images to the engine in sRGB or grayscale. Many "
@@ -1557,67 +1460,33 @@ msgstr ""
 "ser convertida)."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:374
-#, fuzzy
-#| msgid ""
-#| "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
-#| "qoXOCOow>`_"
 msgid ""
 "`Visualizing the XYZ color space <https://www.youtube.com/watch?v=x0-"
 "qoXOCOow>`_."
-msgstr ""
-"`Visualização do espaço de cores XYZ <https://www.youtube.com/watch?v=x0-"
-"qoXOCOow>`_"
+msgstr "`Visualização do espaço de cores XYZ <https://www.youtube.com/watch?v=x0-qoXOCOow>`_."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:375
-#, fuzzy
-#| msgid ""
-#| "`Basics of gamma correction <http://www.cambridgeincolour.com/tutorials/"
-#| "gamma-correction.htm>`_"
 msgid ""
 "`Basics of gamma correction <https://www.cambridgeincolour.com/tutorials/"
 "gamma-correction.htm>`_."
-msgstr ""
-"`Conceitos básicos da correcção do gama <http://www.cambridgeincolour.com/"
-"tutorials/gamma-correction.htm>`_"
+msgstr "`Conceitos básicos da correcção do gama <http://www.cambridgeincolour.com/tutorials/gamma-correction.htm>`_."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:376
-#, fuzzy
-#| msgid ""
-#| "`Panda3d example of how an image that has gamma encoded without the 3d "
-#| "renderer being notified of it having gamma-encoding can result in too "
-#| "dark images <https://www.panda3d.org/blog/the-new-opengl-features-in-"
-#| "panda3d-1-9/>`_"
 msgid ""
 "`Panda3D example of how an image that has gamma encoded without the 3D "
 "renderer being notified of it having gamma-encoding can result in too dark "
 "images <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
 ">`_."
-msgstr ""
-"`Exemplo do Panda3d com uma imagem com codificação do gama, sem o motor 3D "
-"ter sido notificado desse facto, pelo que resultará em imagens demasiado "
-"escuras <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/"
-">`_"
+msgstr "`Exemplo do Panda3d com uma imagem com codificação do gama, sem o motor 3D ter sido notificado desse facto, pelo que resultará em imagens demasiado escuras <https://www.panda3d.org/blog/the-new-opengl-features-in-panda3d-1-9/>`_."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:377
-#, fuzzy
-#| msgid ""
-#| "`2d examples of the effect of gamma-encoding on color maths <http://"
-#| "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
 msgid ""
 "`2D examples of the effect of gamma-encoding on color maths <https://"
 "ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_."
-msgstr ""
-"`Exemplos 2d do efeito da codificação do gama nas contas das cores <http://"
-"ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_"
+msgstr "`Exemplos 2d do efeito da codificação do gama nas contas das cores <http://ninedegreesbelow.com/photography/linear-gamma-blur-normal-blend.html>`_."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:378
-#, fuzzy
-#| msgid ""
-#| "`Basic overview of color management from argylcms manual <http://www."
-#| "argyllcms.com/doc/ColorManagement.html>`_"
 msgid ""
 "`Basic overview of color management from ArgyllCMS manual <https://www."
 "argyllcms.com/doc/ColorManagement.html>`_."
-msgstr ""
-"`Introdução básica à gestão de cores do manual do Argylcms <http://www."
-"argyllcms.com/doc/ColorManagement.html>`_"
+msgstr "`Introdução básica à gestão de cores do manual do Argylcms <http://www.argyllcms.com/doc/ColorManagement.html>`_."
