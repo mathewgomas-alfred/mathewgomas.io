@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
-"PO-Revision-Date: 2019-07-09 19:06+0100\n"
+"PO-Revision-Date: 2019-07-30 20:47+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -76,7 +76,6 @@ msgstr ""
 "hur bilden ska se ut."
 
 #: ../../general_concepts/file_formats.rst:29
-#, fuzzy
 #| msgid ""
 #| "Vector file-formats like ``svg`` are a typical example of the latter. "
 #| "They are really small because the technology used to create them is based "
@@ -96,7 +95,7 @@ msgid ""
 "imply vector graphics, which is a very different way of working than Krita "
 "is specialized in."
 msgstr ""
-"Vektorfilformat som ``svg`` är ett typexempel på det senare. De är verkligt "
+"Vektorfilformat som ``SVG`` är ett typexempel på det senare. De är verkligt "
 "små på grund av teknologin som används för att skapa dem är baserad på "
 "matematik, så att de bara lagra matematiska variabler och kan uppnå mycket "
 "hög kvalitet. Nackdelen är att datorn behöver spendera mycket tid på att "
@@ -105,7 +104,6 @@ msgstr ""
 "annorlunda sätt att arbeta än det som Krita är specialiserat på."
 
 #: ../../general_concepts/file_formats.rst:31
-#, fuzzy
 #| msgid ""
 #| ":ref:`Lossy file formats <lossy_compression>`, like ``jpg`` or ``webp`` "
 #| "are an example of small on disk, but lowering the quality, and are best "
@@ -117,14 +115,13 @@ msgid ""
 "very particular types of images. Lossy thus means that the file format plays "
 "fast and loose with describing your image to reduce filesize."
 msgstr ""
-":ref:`Destruktiva filformat <lossy_compression>`, såsom ``jpg`` eller "
-"``webp``, är exempel på små på disk, men reducerar kvaliteten, och är bäst "
+":ref:`Destruktiva filformat <lossy_compression>`, såsom ``JPG`` eller "
+"``WebP``, är exempel på små på disk, men reducerar kvaliteten, och är bäst "
 "att använda för mycket speciella typer av bilder. Destruktiv betyder sålunda "
 "att filformatet handskas lättsinnigt med beskrivningen av bilden för att "
 "reducera filstorleken."
 
 #: ../../general_concepts/file_formats.rst:33
-#, fuzzy
 #| msgid ""
 #| ":ref:`Non-lossy or lossless formats <lossless_compression>`, like "
 #| "``png``, ``gif`` or ``bmp`` are in contrast, much heavier on disk, but "
@@ -134,12 +131,11 @@ msgid ""
 "``GIF`` or ``BMP`` are in contrast, much heavier on disk, but much more "
 "likely to retain quality."
 msgstr ""
-":ref:`Förlustfria format <lossless_compression>`, som ``png``, ``gif`` eller "
-"``bmp`` är tvärtom mycket större på disk, men det är mycket troligare att de "
+":ref:`Förlustfria format <lossless_compression>`, som ``PNG``, ``GIF`` eller "
+"``BMP`` är tvärtom mycket större på disk, men det är mycket troligare att de "
 "behåller kvaliteten."
 
 #: ../../general_concepts/file_formats.rst:35
-#, fuzzy
 #| msgid ""
 #| "Then, there's proper working file formats like Krita's ``.kra``, Gimp's "
 #| "``xcf``, Photoshop's ``psd``, but also interchange formats like ora and "
@@ -154,11 +150,11 @@ msgid ""
 "programs to open them up, but on the other hand these are meant to keep your "
 "working environment intact, and keep all the layers and guides in them."
 msgstr ""
-"Sedan finns riktiga arbetsfilformat som Kritas ``.kra``, Gimps ``xcf``, "
-"Photoshops ``psd``, men även utbytesformat som ora och exr. De är störst på "
-"hårddisken och kräver ofta särskilda program för att öppna dem, men å andra "
-"sidan är de avsedda att behålla arbetsmiljön intakt, och behålla alla lager "
-"och assistenter på dem."
+"Sedan finns riktiga arbetsfilformat som Kritas ``KRA``, Gimps ``XCF``,"
+" Photoshops ``PSD``, men även utbytesformat som ``ORA`` och ``EXR``. De är"
+" störst på hårddisken och kräver ofta särskilda program för att öppna dem,"
+" men å andra sidan är de avsedda att behålla arbetsmiljön intakt, och behålla"
+" alla lager och assistenter på dem."
 
 #: ../../general_concepts/file_formats.rst:38
 msgid "Metadata"
@@ -211,7 +207,6 @@ msgstr ""
 "redigeras med vilken texteditor som helst."
 
 #: ../../general_concepts/file_formats.rst:51
-#, fuzzy
 #| msgid ""
 #| "Most formats are in-between, and thus there's also a matter of how widely "
 #| "supported the format is. jpg and png cannot be read or edited by human "
@@ -224,10 +219,11 @@ msgid ""
 "access to them."
 msgstr ""
 "De flesta format är någonstans emellan, och sålunda är det också fråga om "
-"hur brett stöd formatet är. Varken jpg eller png kan läsas eller redigeras "
+"hur brett stöd formatet är. Varken JPG eller PNG kan läsas eller redigeras "
 "av människor, men den stora majoriteten av program kan öppna dem, vilket "
 "betyder att användaren enkelt har tillgång till dem."
 
 #: ../../general_concepts/file_formats.rst:53
 msgid "Contents:"
 msgstr "Innehåll:"
+

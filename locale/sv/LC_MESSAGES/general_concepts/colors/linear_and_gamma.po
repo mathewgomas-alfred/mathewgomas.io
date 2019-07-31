@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
-"PO-Revision-Date: 2019-07-10 22:04+0100\n"
+"PO-Revision-Date: 2019-07-30 20:28+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -100,7 +100,6 @@ msgid ".. image:: images/color_category/Pepper_tonecurves.png"
 msgstr ".. image:: images/color_category/Pepper_tonecurves.png"
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:28
-#, fuzzy
 #| msgid ""
 #| "One of the most common issues people have with Krita's color management "
 #| "is the assigning of the right colorspace to the encoded TRC. Above, the "
@@ -122,7 +121,7 @@ msgstr ""
 "rätta, där kodad och tilldelad TRK är samma. Till vänster visas Pepper kodad "
 "med sRGB men tilldelad en linjär profil, och till höger visas Pepper kodad "
 "med linjär TRK och tilldelad en sRGB TRK. Bild från  `Pepper & Carrot "
-"<http://www.peppercarrot.com/>`_"
+"<http://www.peppercarrot.com/>`_."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:30
 msgid ""
@@ -312,7 +311,6 @@ msgstr ""
 "blandningstabellen ovan."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:99
-#, fuzzy
 #| msgid ""
 #| "And this is why color mixtures are lighter and softer in linear space. "
 #| "Linear space is more physically correct, but sRGB is more efficient in "
@@ -330,7 +328,7 @@ msgstr ""
 "linjär rymd. Linjära rymder är mer fysiskt korrekta, men sRGB är effektivare "
 "när det gäller utrymme, vilket är orsaken till att många bilder har en sRGB "
 "TRK kodade i dem. Om det ändå inte låter vettigt: *sRGB ger i stort sett* "
-"**mörkare** *värden än en linjär rymd med samma koordinater.*"
+"**mörkare** *värden än en linjär rymd med samma koordinater*."
 
 #: ../../general_concepts/colors/linear_and_gamma.rst:102
 msgid ""
@@ -409,3 +407,4 @@ msgstr ""
 "välsignelse att arbeta med när man hanterar fysiskt korrekt återgivning för "
 "videospel och strålföljning, är Krita ett verktyg och ingen kommer att jaga "
 "dig om du föredrar den mörka blandningen i sRGB TRK."
+
