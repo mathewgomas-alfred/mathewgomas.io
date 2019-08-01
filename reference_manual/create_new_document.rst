@@ -24,7 +24,7 @@ Create New Document
 A new document can be created as follows.
 
 #. Click on :guilabel:`File` from the application menu at the top.
-#. Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + N`.
+#. Then click on :guilabel:`New`. Or you can do this by pressing the :kbd:`Ctrl + N` shortcut.
 #. Now you will get a New Document dialog box as shown below:
 
 .. image:: /images/Krita_newfile.png

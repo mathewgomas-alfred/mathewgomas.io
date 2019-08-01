@@ -13,7 +13,7 @@
 
 Split Layer
 -----------
-Splits a layer according to color. This is useful in combination with the :ref:`colorize_mask` and :kbd:`R` + |mouseleft| to select layers at the cursor.
+Splits a layer according to color. This is useful in combination with the :ref:`colorize_mask` and the :kbd:`R +` |mouseleft| shortcut to select layers at the cursor.
 
 Put all new layers in a group layer
     Put all the result layers into a new group.

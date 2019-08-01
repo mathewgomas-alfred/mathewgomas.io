@@ -27,14 +27,14 @@ The typical way to make them is to first draw the ‘frames’ on a small canvas
     :alt: krita Animated brush tip layer setup
     :width: 800
 
-You can use :kbd:`Alt` + |mouseleft| on the layer thumbnails to isolate layers without hiding them.
+You can use the :kbd:`Alt +` |mouseleft| shortcut on the layer thumbnails to isolate layers without hiding them.
 
 .. image:: /images/brush-tips/Krita-animtedbrush1.png
     :alt: Animated brush tips isolated layers
 
 When done you should have a mess like this.
 
-Go into the brush settings (:kbd:`F5`), and go to predefined brush-tips, and click stamp. You will get this window.
+Go into the brush settings (:kbd:`F5` key), and go to predefined brush-tips, and click stamp. You will get this window.
 
 .. image:: /images/brush-tips/Krita-animtedbrush2.png
     :alt: Predefined brush tips dialog

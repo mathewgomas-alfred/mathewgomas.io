@@ -34,7 +34,7 @@ Glazing
 
 In traditional painting, **glazing** is overlaying many different semi-transparent layers to create on-canvas color mixtures. Likewise, in digital painting we can also use glazing to mix colors directly on our canvas. This is one of the most fundamental and commonly used mixing techniques in digital painting.
 
-We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with :kbd:`Ctrl` + |mouseleft| (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
+We first lay down a semi-transparent layer on top of another color that we intend to mix with. Then, we pick the **resultant color** with the :kbd:`Ctrl +` |mouseleft| shortcut (this can be configured in the canvas input settings), and paint with that. Depending on our brush's **opacity setting**, each time we glaze one color over another we will get a color that is somewhere between those two colors, often leading to a nice mixture.
 
 We can mix even more easily with glazing when we set our brush's **flow** to a lower setting. Subtly different than opacity, :ref:`flow <option_opacity_n_flow>` is transparency per dab instead of stroke, and so it gives us softer strokes without giving up control.
 

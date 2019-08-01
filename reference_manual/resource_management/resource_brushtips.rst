@@ -33,7 +33,7 @@ For some time Photoshop has been using the ABR format to compile brushes into a 
 #. First up is download the file (.ZIP, .RAR,...) that contains the .ABR file and any licensing or other notes.  Be sure to read the license if there is one!
 #. Extract the .ABR file into Krita's home directory for brushes.
 #. In your Brush Presets dock, select one of your brushes that uses the Pixel Brush Engine.  An Ink Pen or solid fill type should do fine.
-#. Open the Brush Settings Editor (:kbd:`F5` ).
+#. Open the Brush Settings Editor (:kbd:`F5` key).
 #. Click on the tab "Predefined" next to "Auto".  This will change the editor to show a scrollable screen of thumbnail images, most will be black on a white background.  At the bottom of the window are two icons: 
 
     .. image:: /images/brushes/600px-BSE_Predefined_Window.png

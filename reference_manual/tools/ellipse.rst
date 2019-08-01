@@ -21,22 +21,22 @@ Use this tool to paint an ellipse. The currently selected brush is used for draw
 
 While dragging the ellipse, you can use different modifiers to control the size and position of your ellipse:
 
-In order to make a circle instead of an ellipse, hold :kbd:`Shift` while dragging. After releasing :kbd:`Shift` any movement of the mouse will give you an ellipse again:
+In order to make a circle instead of an ellipse, hold the :kbd:`Shift` key while dragging. After releasing the :kbd:`Shift` key any movement of the mouse will give you an ellipse again:
 
 .. image:: /images/tools/Krita_ellipse_circle.gif
    :align: center
 
-In order to keep the center of the ellipse fixed and only growing and shrinking the ellipse around it, hold :kbd:`Ctrl` while dragging:
+In order to keep the center of the ellipse fixed and only growing and shrinking the ellipse around it, hold the :kbd:`Ctrl` key while dragging:
 
 .. image:: /images/tools/Krita_ellipse_from_center.gif
    :align: center
 
-In order to move the ellipse around, hold :kbd:`Alt`:
+In order to move the ellipse around, hold the :kbd:`Alt` key:
 
 .. image:: /images/tools/Krita_ellipse_reposition.gif
    :align: center
 
-You can change between the corner/corner and center/corner dragging methods as often as you want by holding down or releasing :kbd:`Ctrl`, provided you keep the left mouse button pressed. With :kbd:`Ctrl` pressed, mouse movements will affect all four corners of the bounding rectangle (relative to the center), without :kbd:`Ctrl`, the corner opposite to the one you are moving remains still. With :kbd:`Alt` pressed, all four corners will be affected, but the size stays the same.
+You can change between the corner/corner and center/corner dragging methods as often as you want by holding down or releasing the :kbd:`Ctrl` key, provided you keep the left mouse button pressed. With the :kbd:`Ctrl` key pressed, mouse movements will affect all four corners of the bounding rectangle (relative to the center), without the :kbd:`Ctrl` key, the corner opposite to the one you are moving remains still. With the :kbd:`Alt` key pressed, all four corners will be affected, but the size stays the same.
 
 Tool Options
 ------------

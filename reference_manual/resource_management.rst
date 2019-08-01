@@ -52,12 +52,12 @@ An incredibly quick way to save a group or brushes into a tag is to:
 
 #. Create a new tag by |mouseleft| on the green plus sign.  This will empty out the contents of the Brush Preset docker.
 #. Use the :guilabel:`Resource Filter` at the bottom of the :guilabel:`Brush Presets` dock or :guilabel:`Brush Settings Editor` to type in what you want to group.  For instance: if you type **Pencil** in the filter box you will get all Brush Presets with **Pencil** somewhere in their name.  Now you have all the Pencil-related Brush Presets together in one place.
-#. To finish, click the :guilabel:`Save` button (small disk icon to the right of the :guilabel:`Resource Filter` box) or press :kbd:`Enter` and all the items will be saved with the new tag you created.  
+#. To finish, click the :guilabel:`Save` button (small disk icon to the right of the :guilabel:`Resource Filter` box) or press the :kbd:`Enter` key and all the items will be saved with the new tag you created.  
 
 Now, anytime you want to open up your "digital pencil box" and see what you have to work with all you have to do is use the pull-down and select :guilabel:`Pencils`.  The Resource Filter works the same way in other parts of Krita so be on the lookout for it!
 
 Resource Zooming
-    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or :guilabel:`Zoom in`. All resource selectors can be zoomed in and out of, by hovering over the selector and using :kbd:`Ctrl +` |mousescroll|.
+    If you find the thumbnails of the resources such as color swatches brushes and pattern to be small you can make them bigger or :guilabel:`Zoom in`. All resource selectors can be zoomed in and out of, by hovering over the selector and using the :kbd:`Ctrl +` |mousescroll| shortcut.
 
 Managing Resources
 ------------------
@@ -73,7 +73,7 @@ Importing Bundles
 ~~~~~~~~~~~~~~~~~
 
 To import a bundle click on :guilabel:`Import Bundles/Resources` button on the top right side of the dialog.
-Select .bundle file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click :guilabel:`Open`. Once the bundle is imported it will be listed in the :guilabel:`Active Bundle` section. If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the :guilabel:`Inactive` section.
+Select ``.bundle`` file format from the file type if it is not already selected, browse to the folder where you have downloaded the bundle, select it and click :guilabel:`Open`. Once the bundle is imported it will be listed in the :guilabel:`Active Bundle` section. If you don't need the bundle you can temporarily make it inactive by selecting it and clicking on the arrow button, this will move it to the :guilabel:`Inactive` section.
 
 Creating your own Bundle
 ~~~~~~~~~~~~~~~~~~~~~~~~

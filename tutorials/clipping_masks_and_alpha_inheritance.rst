@@ -40,7 +40,7 @@ Combined with group layers this can be quite powerful. A situation where this is
    :width: 800
 
 Here we have an image with line art and a layer for each flat of colors. We want to add complicated multi-layered shading to this, while keeping the neatness of the existing color flats.
-To get a clipping mask working, you first need to put layers into a group. You can do this by making a group layer and drag-and-dropping the layers into it, or by selecting the layers you want grouped and pressing :kbd:`Ctrl+G`. Here we do that with the iris and the eye-white layers.
+To get a clipping mask working, you first need to put layers into a group. You can do this by making a group layer and drag-and-dropping the layers into it, or by selecting the layers you want grouped and pressing the :kbd:`Ctrl + G` shortcut. Here we do that with the iris and the eye-white layers.
 
 
 .. image:: /images/clipping-masks/Tut_Clipping_2.png
@@ -63,7 +63,7 @@ In the above, we have our layer with a white scribble on the left, and on the ri
     :alt: clipping mask step 5
     :width: 800
 
-Now there’s an easier way to set up alpha inheritance. If you select a layer or set of layers and press :kbd:`Ctrl+Shift+G`, you create a quick clipping group. That is, you group the layers, and a ‘mask layer’ set with alpha inheritance is added on top.
+Now there’s an easier way to set up alpha inheritance. If you select a layer or set of layers and press the :kbd:`Ctrl + Shift + G` shortcut, you create a quick clipping group. That is, you group the layers, and a ‘mask layer’ set with alpha inheritance is added on top.
 
 .. image:: /images/clipping-masks/Tut_Clipping_6.png
     :alt: clipping mask step 6

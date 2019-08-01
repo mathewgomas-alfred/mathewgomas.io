@@ -59,7 +59,7 @@ First, let's prepare our front and side views:
 .. image:: /images/category_projection/projection_image_01.png 
    :align: center
 
-I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press :kbd:`Shift` to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap Image Bounds` active via :kbd:`Shift` + :kbd:`S`
+I always start with the side, and then extrapolate the front view from it. Because you are using Krita, set up two parallel rulers, one vertical and the other horizontal. To snap them perfectly, drag one of the nodes after you have made the ruler, and press the :kbd:`Shift` key to snap it horizontal or vertical. In 3.0, you can also snap them to the image borders if you have :menuselection:`Snap Image Bounds` active via the :kbd:`Shift + S` shortcut.
 
 Then, by moving the mirror to the left, you can design a front view from the side view, while the parallel preview line helps you with aligning the eyes (which in the above screenshot are too low).
 

@@ -23,7 +23,7 @@ Local Selection masks let you remember and recall edit a selection on a layer. T
 
 You can make them by making a selection, and |mouseright| the layer you want to add it to select :menuselection:`Local Selection`.
 
-When isolating a selection mask with :kbd:`Alt` + |mouseleft|, you can perform transformation, deformation and paint operations on the selection layer, modifying the selection.
+When isolating a selection mask with the :kbd:`Alt +` |mouseleft| shortcut, you can perform transformation, deformation and paint operations on the selection layer, modifying the selection.
 
 A single layer can contain multiple Local Selection Masks. Repeating. A single layer can contain multiple Local Selection Masks (LSM). This is important because it means that you can, for instance, have several different outline parts of an image and save each as its own LSM and then recall it with a single click. Without using LSM you would have to create layer upon layer for each mask. Not only would this be inefficient for you but also for Krita and the program would slow down trying to keep up with it all. LSM's are one of the most important features in Krita! 
 

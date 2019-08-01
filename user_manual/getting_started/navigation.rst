@@ -46,11 +46,11 @@ Many of the canvas navigation actions, like rotation, mirroring and zooming have
 Panning
  This can be done through |mousemiddle|, :kbd:`Space +` |mouseleft| and :kbd:`the directional keys`.
 Zooming
- Discrete zooming can be done through :kbd:`+`, and :kbd:`-`. Using :kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| can allow for direct zooming with the stylus.
+ Discrete zooming can be done through :kbd:`+` and :kbd:`-` keys. Using the :kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| shortcuts can allow for direct zooming with the stylus.
 Mirroring
  You can mirror the view can be quickly done via :kbd:`M` key. Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
 Rotating
- You can rotate the canvas without transforming. It can be done with :kbd:`Ctrl + [` or :kbd:`4` and the other way with :kbd:`Ctrl + ]` or :kbd:`6`. Quick mouse based rotation is :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle|. To reset rotation use :kbd:`5` .
+ You can rotate the canvas without transforming. It can be done with the :kbd:`Ctrl + [` shortcut or :kbd:`4`key  and the other way with :kbd:`Ctrl + ]` shortcut or :kbd:`6` key. Quick mouse based rotation is the :kbd:`Shift + Space` and :kbd:`Shift +` |mousemiddle| shortcuts. To reset rotation use the :kbd:`5` key.
 
 You can also find these under :menuselection:`View --> Canvas`.
 
@@ -69,7 +69,7 @@ Dockers contain many of the "hidden", and powerful, aspects of **Krita** that yo
 
 You can arrange the dockers in almost any permutation and combination according to the needs of your workflow, and then save these arrangements as Workspaces.
 
-Dockers can be prevented from docking by pressing :kbd:`Ctrl` before starting to drag the docker.
+Dockers can be prevented from docking by pressing the :kbd:`Ctrl` key before starting to drag the docker.
 
 Sliders
 -------
@@ -81,7 +81,7 @@ The total range is represented from left to right and blue bar gives an indicati
 
 To input a specific number, |mouseright| the slider. A number can now be entered directly for even greater precision.
 
-Pressing :kbd:`Shift` while dragging the slider changes the values at a smaller increment, and pressing :kbd:`Ctrl` while dragging the slider changes the value in whole numbers or multiples of 5.
+Pressing the :kbd:`Shift` key while dragging the slider changes the values at a smaller increment, and pressing the :kbd:`Ctrl` key while dragging the slider changes the value in whole numbers or multiples of 5.
 
 Toolbars
 --------

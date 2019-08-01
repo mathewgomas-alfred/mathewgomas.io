@@ -20,7 +20,7 @@ Krita has had G'Mic integration for a long time, but this is its most stable inc
 
 You set it up as following:
 
-#. First download the proper krita plugin from `the G'Mic website. <http://gmic.eu/download.shtml>`_
+#. First download the proper krita plugin from `the G'Mic website. <https://gmic.eu/download.shtml>`_.
 #. Then, unzip and place it somewhere you can find it.
 #. Go to :menuselection:`Settings --> Configure Krita --> G'Mic plugin` and set G'MIC to the filepath there.
 #. Then restart Krita. 

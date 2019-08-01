@@ -21,7 +21,7 @@ The shape editing tool is for editing vector shapes. In Krita versions before 4.
 
 .. image:: /images/tools/Shape-editing-tool-example.png
 
-You can access the Edit Shapes tool by clicking on the icon in the toolbox, but you can also access it by pressing :kbd:`Enter` when in the Shape Selection tool and having a shape selected that can be most efficiently edited with the edit shapes tool (right now, that's all shapes but text).
+You can access the Edit Shapes tool by clicking on the icon in the toolbox, but you can also access it by pressing the :kbd:`Enter` key when in the Shape Selection tool and having a shape selected that can be most efficiently edited with the edit shapes tool (right now, that's all shapes but text).
 
 On Canvas Editing of Shapes
 ---------------------------
@@ -42,14 +42,14 @@ Selecting Nodes for Editing
 
 You can select a single node with |mouseleft|, they will turn bright green if selected.
 
-|mouseleft| + :kbd:`Shift` on unselected nodes will add them to a selection.
+|mouseleft| :kbd:`+ Shift` on unselected nodes will add them to a selection.
 
-|mouseleft| + drag will make a selection rectangle. All nodes whose handles are touched by the rectangle will be selected. This combines with |mouseleft| + :kbd:`Shift` above.
+|mouseleft| + drag will make a selection rectangle. All nodes whose handles are touched by the rectangle will be selected. This combines with the |mouseleft| :kbd:`+ Shift` shortcut above.
 
 Selected Nodes
 ^^^^^^^^^^^^^^
 
-You can add and remove side handles from a selected node with |mouseleft| + :kbd:`Shift`.
+You can add and remove side handles from a selected node with the |mouseleft| :kbd:`+ Shift` shortcut.
 
 Krita has several node-types that allow you control the side handles more efficiently. These are the corner, smooth and symmetric modes.
 
@@ -60,7 +60,7 @@ Krita has several node-types that allow you control the side handles more effici
  Symmetric
      Represented by a diamond, the symmetric node will force handles to always point in opposite directions and have the same length.
 
-|mouseleft| + :kbd:`Ctrl` on a selected node will cycle between the node-types.
+|mouseleft| :kbd:`+ Ctrl` on a selected node will cycle between the node-types.
 
 :kbd:`Del` will remove the selected node.
 

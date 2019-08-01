@@ -32,7 +32,7 @@ You can fine-tune the transform tool parameters using tool options docker. The p
 Free transform
 --------------
 
-This allows you to do basic rotation, resizing, flipping, and even perspective skewing if you hold :kbd:`Ctrl`. Holding the :kbd:`Shift` key will maintain your aspect ratio throughout the transform.
+This allows you to do basic rotation, resizing, flipping, and even perspective skewing if you hold the :kbd:`Ctrl` key. Holding the :kbd:`Shift` key will maintain your aspect ratio throughout the transform.
 
 .. figure:: /images/tools/Krita_transforms_free.png 
 
@@ -102,9 +102,9 @@ Real
 Hotkeys
 ~~~~~~~
 
-Both Cage and Warp use little nodes. These nodes can be selected and deselected together by pressing :kbd:`Ctrl` before clicking nodes.
+Both Cage and Warp use little nodes. These nodes can be selected and deselected together by pressing the :kbd:`Ctrl` key before clicking nodes.
 
-Then you can move them by pressing the cursor inside the bounding box. Rotating is done by pressing and dragging the cursor outside the bounding box and scaling the same, only one presses :kbd:`Ctrl` before doing the motion.
+Then you can move them by pressing the cursor inside the bounding box. Rotating is done by pressing and dragging the cursor outside the bounding box and scaling the same, only one presses the :kbd:`Ctrl` key before doing the motion.
 
 .. _liquify_mode:
 
@@ -164,7 +164,7 @@ Recursive transform, when toggled, allows you to mass-transform all the layers i
 Continuous Transform
 --------------------
 
-If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press :kbd:`Esc` to cancel this and start a new transform, or press :guilabel:`Reset` in the tool options while no transform is active.
+If you apply a transformation, and try to start a new one directly afterwards, Krita will attempt to recall the previous transform, so you can continue it. This is the *continuous transform*. You can press the :kbd:`Esc` key to cancel this and start a new transform, or press :guilabel:`Reset` in the tool options while no transform is active.
 
 Transformation Masks
 --------------------

@@ -48,7 +48,7 @@ Alright, so, let's make an isometric out of our boy then.
 
 We make a new document, and add a vector layer.
 
-On the vector layer, we select the straight line tool, start a line and then hold :kbd:`Shift` to make it snap to angles. This'll allow us to make a 30° setup like above:
+On the vector layer, we select the straight line tool, start a line and then hold the :kbd:`Shift` key to make it snap to angles. This'll allow us to make a 30° setup like above:
 
 .. image:: /images/category_projection/projection_image_15.png
    :align: center
@@ -62,7 +62,7 @@ Then crop it by setting the crop tool to :guilabel:`Layer`, and use :menuselecti
 
 .. tip::
 
-    To resize a vector but keep its angle, you just select it with the shape handling tool (the white arrow) drag on the corners of the bounding box to start moving them, and then press :kbd:`Shift` to constrain the ratio. This'll allow you to keep the angle.
+    To resize a vector but keep its angle, you just select it with the shape handling tool (the white arrow) drag on the corners of the bounding box to start moving them, and then press the :kbd:`Shift` key to constrain the ratio. This'll allow you to keep the angle.
 
 The lower image is 'the back seen from the front', we'll be using this to determine where the ear should go.
 
@@ -116,7 +116,7 @@ Our game-safe isometric has its angle at two pixels horizontal is one pixel vert
 .. image:: /images/category_projection/projection_image_24.png 
    :align: center
 
-Use the grid to setup two parallel rulers that represent both diagonals (you can snap them with the :kbd:`Shift + S`):
+Use the grid to setup two parallel rulers that represent both diagonals (you can snap them with the :kbd:`Shift + S` shortcut):
 
 .. image:: /images/category_projection/projection_image_25.png 
    :align: center

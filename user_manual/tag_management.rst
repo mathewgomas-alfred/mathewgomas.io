@@ -27,7 +27,7 @@ You can use tags together with the :ref:`Pop-up Palette <navigation>` for increa
 Adding a New Tag for a Brush
 ----------------------------
 
-By pressing the :guilabel:`+` next to the tag selection, you will get an option to add a tag. Type in the name you want and press :kbd:`Enter`. You will need to go back to the :guilabel:`All` tag to start assigning brushes.
+By pressing the :guilabel:`+` next to the tag selection, you will get an option to add a tag. Type in the name you want and press the :kbd:`Enter` key. You will need to go back to the :guilabel:`All` tag to start assigning brushes.
 
 Assigning an Existing Tag to a Brush
 ------------------------------------
@@ -37,7 +37,7 @@ Right-click on a brush in the Brush Presets Docker. You will get an option to as
 Changing a Tag's Name
 ---------------------
 
-Select the existing tag that you want to have changed from the drop-down. Press the :guilabel:`+` icon next to the tag. You will get an option to rename it. Press :kbd:`Enter` to confirm. All the existing brushes will remain in the newly named tag.
+Select the existing tag that you want to have changed from the drop-down. Press the :guilabel:`+` icon next to the tag. You will get an option to rename it. Press the :kbd:`Enter` key to confirm. All the existing brushes will remain in the newly named tag.
 
 Deleting a Tag
 --------------

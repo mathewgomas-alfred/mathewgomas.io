@@ -32,8 +32,8 @@ The following table shows how there's a lot of space being used by lighter value
 .. image:: /images/color_category/trc_gray_gradients.svg
    :align: center
 
-If you look at linear of rec 709 TRCs, you can see there's quite a jump between the darker shades and the lighter shades, while if we look at the Lab L* TRC or the sRGB TRC, which seem more evenly spaced.
-This is due to our eyes' sensitivity to darker values. This also means that if you do not have enough bit depth, an image in a linear space will look as if it has ugly banding. Hence why, when we make images for viewing on a screen, we always use something like the LAB L\*, sRGB or Gamma 2.2 TRCs to encode the image with.
+If you look at linear of Rec. 709 TRCs, you can see there's quite a jump between the darker shades and the lighter shades, while if we look at the Lab L* TRC or the sRGB TRC, which seem more evenly spaced.
+This is due to our eyes' sensitivity to darker values. This also means that if you do not have enough bit depth, an image in a linear space will look as if it has ugly banding. Hence why, when we make images for viewing on a screen, we always use something like the Lab L\*, sRGB or Gamma 2.2 TRCs to encode the image with.
 
 However, this modification to give more space to darker values does lead to wonky color maths when mixing the colors.
 
@@ -99,7 +99,7 @@ Then we fill in the values into the correct spot. Compare these to the values of
 And this is why color mixtures are lighter and softer in linear space. Linear space is more physically correct, but sRGB is more efficient in terms of space, so hence why many images have an sRGB TRC encoded into them.
 In case this still doesn't make sense: *sRGB gives largely* **darker** *values than linear space for the same coordinates*.
 
-So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear TRC, a mix using sRGB TRC and a mix using LAB L* TRC.
+So different TRCs give different mixes between colors, in the following example, every set of gradients is in order a mix using linear TRC, a mix using sRGB TRC and a mix using Lab L* TRC.
 
 
 .. image:: /images/color_category/3trcsresult.png 

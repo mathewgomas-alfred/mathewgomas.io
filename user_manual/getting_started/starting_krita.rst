@@ -39,7 +39,7 @@ Creating a New Document
 A new document can be created as follows.
 
 #. Click on :guilabel:`File` from the application menu at the top.
-#. Then click on :guilabel:`New`. Or you can do this by pressing :kbd:`Ctrl + N`.
+#. Then click on :guilabel:`New`. Or you can do this by pressing the :kbd:`Ctrl + N` shortcut.
 #. Now you will get a New Document dialog box as shown below:
 
 .. image:: /images/Krita_newfile.png
@@ -62,11 +62,11 @@ Krita, but if for some reason it is not, you can click on this
 |toolfreehandbrush| icon from the toolbox and activate the brush tool.
 
 Of course, you'd want to use different brushes. On your right, there's a docker
-named Brush Presets (or on top, press :kbd:`F6` to find this one) with all
+named Brush Presets (or on top, press the :kbd:`F6` key to find this one) with all
 these cute squares with pens and crayons.
 
 If you want to tweak the presets, check the Brush Editor in the toolbar. You
-can also access the Brush Editor with :kbd:`F5`.
+can also access the Brush Editor with the :kbd:`F5` key.
 
 .. image:: /images/dockers/Krita_Brush_Preset_Docker.png
 

@@ -22,17 +22,17 @@ General links about using Modern C++ in Qt
 
 There have been a few links discussing mixing C++11 with Qt, and starting with Qt 5.6 C++11 support will be default. *Note:* there is a lot of hype about C++11, and although many of its new features are quite welcome, often the trade-offs from these changes get neglected. 
 
-* `ICS.com <http://www.ics.com/blog/qt-and-c11>`_
-* `qt.io <http://blog.qt.io/blog/2011/05/26/cpp0x-in-qt/>`_
-* `woboq.com: c++11 in Qt5 <http://woboq.com/blog/cpp11-in-qt5.html>`_
-* `woboq.com: c++14 in Qt5 <http://woboq.com/blog/cpp14-in-qt.html>`_
-* `FOSDEM 2013 presentation slides <https://archive.fosdem.org/2013/schedule/event/introcplusplus11/attachments/slides/203/export/events/attachments/introcplusplus11/slides/203/fosdem2013_cpp11.pdf>`_
+* `ICS.com <https://www.ics.com/blog/qt-and-c11>`_
+* `qt.io <https://blog.qt.io/blog/2011/05/26/cpp0x-in-qt/>`_
+* `woboq.com: c++11 in Qt5 <https://woboq.com/blog/cpp11-in-qt5.html>`_.
+* `woboq.com: c++14 in Qt5 <https://woboq.com/blog/cpp14-in-qt.html>`_.
+* `FOSDEM 2013 presentation slides <https://archive.fosdem.org/2013/schedule/event/introcplusplus11/attachments/slides/203/export/events/attachments/introcplusplus11/slides/203/fosdem2013_cpp11.pdf>`_.
 
 
 Here are some more general purpose guides to C++11 features.
 
-* `C++11 FAQ <http://www.stroustrup.com/C++11FAQ.html Bjarne Stroustrup's>`_ - the grand daddy
-* `Older, more thorough introductions to several topics <http://www.informit.com/authors/bio/e19aded6-574c-4c46-8511-101f9f0ed8f8>`_
+* `C++11 FAQ Bjarne Stroustrup's <http://www.stroustrup.com/C++11FAQ.html>`_ - the grand daddy.
+* `Older, more thorough introductions to several topics <https://www.informit.com/authors/bio/e19aded6-574c-4c46-8511-101f9f0ed8f8>`_.
 
 
 Qt's API design principles do not always overlap with the C++ Standards Committee design principles. (Range-based for demonstrates the design clash pretty clearly.)
@@ -89,7 +89,7 @@ Motivation:
     It will work with standard tooling and static analysis, and can be faster by defaulting to in-place access.  For this reason range-based iterators should always be used for STL containers, if those are ever needed in Krita.
 
 Drawbacks:
-    By default, Qt's foreach rewites the code to make a shallow copy and then use const accessors, while c++11 does the opposite, avoiding copying when possible.  When using const accessors, this is faster, but if you try to make changes to the data, this will `slow your loop down instead <http://www.dvratil.cz/2015/06/qt-containers-and-c11-range-based-loops/>`_.  
+    By default, Qt's foreach rewites the code to make a shallow copy and then use const accessors, while c++11 does the opposite, avoiding copying when possible.  When using const accessors, this is faster, but if you try to make changes to the data, this will `slow your loop down instead <https://www.dvratil.cz/2015/06/qt-containers-and-c11-range-based-loops/>`_.  
 
 Recommendation:
 	Sometimes, the range-based for is faster.  Sometimes the Qt iterator is faster.  Personally I like the range-based for in principle, since it works better with static analysis, it has a faster best-case speed, and it is always possible to write it in a way that replicates the ``foreach()`` behavior, though the reverse is not true.  
@@ -150,9 +150,9 @@ Motivation:
 
     Another possibility is to use lambdas directly inside connect(), instead of defining a class member function which is only used once. The greatest benefit is that the function can be defined right where it is used; it also aids readability to get rid of a list of tiny helper functions from the header.
 
-    * `"Qt5: C++11 lambdas are your friend" <http://artandlogic.com/2013/09/qt-5-and-c11-lambdas-are-your-friend/>`_
-    * `C++ language reference <http://en.cppreference.com/w/cpp/language/lambda>`_
-    * `Qt.io New Signal/Slot Syntax <https://wiki.qt.io/New_Signal_Slot_Syntax>`_  Also gives detailed pros/cons.
+    * `"Qt5: C++11 lambdas are your friend" <https://artandlogic.com/2013/09/qt-5-and-c11-lambdas-are-your-friend/>`_
+    * `C++ language reference <https://en.cppreference.com/w/cpp/language/lambda>`_
+    * `Qt.io New Signal/Slot Syntax <https://wiki.qt.io/New_Signal_Slot_Syntax>`_ Also gives detailed pros/cons.
 
 
 Drawbacks:
@@ -189,7 +189,7 @@ Motivation:
 
         std::replace (myvector.cbegin(), myvector.cend(), 20, 99);
 
-    is more concise, safer  is even self-documenting, since the name of the function itself explains what it is doing. <u>If you make sure to use Qt's const iterators</u>, there should never see a performance penalty compared to a hand-written loop, there can sometimes even see a gain. `A list of standard algorithms can be found here. <http://www.cplusplus.com/reference/algorithm/>`_ Historically Qt provided its own algorithm library, but now encourages programmers to use the STL versions instead, and Qt's own algorithm library will mostly become deprecated. http://doc.qt.io/qt-5/qtalgorithms.html  Unlike range-based for, where it is difficult to specify a const iterator instead of a standard iterator, with ``<algorithm>`` we are easily able to specify the const iterator.
+    is more concise, safer  is even self-documenting, since the name of the function itself explains what it is doing. <u>If you make sure to use Qt's const iterators</u>, there should never see a performance penalty compared to a hand-written loop, there can sometimes even see a gain. `A list of standard algorithms can be found here. <http://www.cplusplus.com/reference/algorithm/>`_ Historically Qt provided its own algorithm library, but now encourages programmers to use the STL versions instead, and Qt's own algorithm library will mostly become deprecated. https://doc.qt.io/qt-5/qtalgorithms.html  Unlike range-based for, where it is difficult to specify a const iterator instead of a standard iterator, with ``<algorithm>`` we are easily able to specify the const iterator.
 
 Drawbacks:
     Some of the standard algorithms are not completely obvious from observing the name.  For example, I could not personally list what are the five arguments of ``std::replace_copy`` off the top of my head, and you shouldn't expect anyone to. When values inside the container need to be modified, non-const iterators may be slower than a Qt foreach() loop. 
@@ -213,7 +213,7 @@ Motivation:
     
         enum class Color: char {Red = color_symbol({255, 0, 0}) ...}; 
 
-    The standard C++ reference does a nice job explaining these features. http://en.cppreference.com/w/cpp/language/enum
+    The standard C++ reference does a nice job explaining these features. https://en.cppreference.com/w/cpp/language/enum
 
 Drawbacks:
     Virtually none.  Very small changes to the code, more type safety, removes the need for some tables of values.  The only problem is sometimes this requires fixing code that was unsafe to begin with.
@@ -268,7 +268,7 @@ unique_ptr/QScopedPointer
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Motivation:
-	`Here is a glowing review of unique_ptr <http://www.drdobbs.com/cpp/c11-uniqueptr/240002708>`_.  This is really about a philosophy of C++ memory management, not just a particular smart pointer type.  The idea is that whenever you create an object on the heap, you should *always* house it inside a smart pointer.  The reason this philosophy is considered new to C++11 is that unique_ptr is the first time they 'got it right' designing a very nice smart pointer class. Most importantly, the class uses negligible overhead. In particular: ``sizeof(unique_ptr<T*>) = size_t``, it can be passed as a function argument without copying, and dereferencing is inline.  
+	`Here is a glowing review of unique_ptr <https://www.drdobbs.com/cpp/c11-uniqueptr/240002708>`_. This is really about a philosophy of C++ memory management, not just a particular smart pointer type.  The idea is that whenever you create an object on the heap, you should *always* house it inside a smart pointer.  The reason this philosophy is considered new to C++11 is that unique_ptr is the first time they 'got it right' designing a very nice smart pointer class. Most importantly, the class uses negligible overhead. In particular: ``sizeof(unique_ptr<T*>) = size_t``, it can be passed as a function argument without copying, and dereferencing is inline.  
 
 QScopedPointer is essentially the same thing as unique_ptr, and perhaps it is more idiomatic to use QScopedPointer instead. 
 

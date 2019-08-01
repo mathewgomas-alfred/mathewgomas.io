@@ -45,7 +45,7 @@ The scripter will pop up with a text editor window on top and an output window b
     print("hello world")
 
 
-Press the big play button or press :kbd:`Ctrl + R` to run the script. Then, below, in the output area the following should show up::
+Press the big play button or press the :kbd:`Ctrl + R` shortcut to run the script. Then, below, in the output area the following should show up::
 
     ==== Warning: Script not saved! ====
     hello world

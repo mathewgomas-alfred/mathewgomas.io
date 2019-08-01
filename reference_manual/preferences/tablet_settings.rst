@@ -56,7 +56,7 @@ Map to Custom Area
 
     #. Put your stylus away from the tablet.
     #. Start Krita without using a stylus, that is using a mouse or a keyboard.
-    #. Press :kbd:`Shift` key and hold it.
+    #. Press the :kbd:`Shift` key and hold it.
     #. Touch a tablet with your stylus so Krita would recognize it.
 
 If adjusting this doesn't work, and if you have a Wacom tablet, an offset in the canvas can be caused by a faulty Wacom preference file which is not removed or replaced by reinstalling the drivers.

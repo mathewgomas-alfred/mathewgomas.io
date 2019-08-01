@@ -37,7 +37,7 @@ There are some additions to Krita which makes getting a backtrace much easier on
         
     * If Krita keeps on being unresponsive for more than a few minutes, it might actually be locked up, which may not give a backtrace. In that situation, you have to close Krita manually. Continue to follow the following instructions to check whether it was a crash or not.
 
-#. Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the address bar and press :kbd:`Enter`.
+#. Open Windows Explorer and type ``%LocalAppData%`` (without quotes) on the address bar and press the :kbd:`Enter` key.
 
     .. image:: /images/Mingw-explorer-path.png
     

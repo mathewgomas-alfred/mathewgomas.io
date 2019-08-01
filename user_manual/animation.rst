@@ -131,9 +131,8 @@ icon showing up in the timeline docker.
 
 .. image:: /images/animation/Introduction_to_animation_08.png
 
-Use the :guilabel:`Copy Frame` button to copy the
-first frame onto the second. Then, use the with :kbd:`Shift + ↑` to move the
-frame contents up.
+Use the :guilabel:`Copy Frame` button to copy the first frame onto the second. 
+Then, use the with the :kbd:`Shift + ↑` shortcut to move the frame contents up.
 
 We can see the difference by turning on the onionskinning:
 
@@ -156,8 +155,8 @@ extremes of the walkcycle. These are the pose where both legs are as far
 apart as possible, and the pose where one leg is full stretched and the
 other pulled in, ready to take the next step.
 
-Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but here
-comes a tricky bit:
+Now, let's copy these two... We could do that with the :kbd:`Ctrl + drag` 
+shortcut, but here comes a tricky bit:
 
 .. image:: /images/animation/Introduction_to_animation_12.png
 
@@ -186,7 +185,7 @@ Expanding upon your rough walkcycle
 
 .. image:: /images/animation/Introduction_to_animation_14.png
 
-You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll move that frame and all others after it
+You can quickly make some space by the :kbd:`Alt + drag` shortcut on any frame. This'll move that frame and all others after it
 in one go.
 
 Then draw inbetweens on each frame that you add.
@@ -249,7 +248,7 @@ sequence:
 .. image:: /images/animation/Introduction_to_animation_walkcycle_02.gif
 
 For example, you can use
-`VirtualDub <http://www.virtualdub.org/>`__\ (Windows) and open all the
+`VirtualDub <http://www.virtualdub.org/>`_\ (Windows) and open all the
 frames and then go to :menuselection:`File --> Export --> GIF`.
 
 Enjoy your walkcycle!

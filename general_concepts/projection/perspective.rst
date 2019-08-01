@@ -47,7 +47,7 @@ Let’s setup our perspective projection again…
 
 We’ll be using a single vanishing point for our focal point. A guide line will be there for the projection plane, and we’re setting up horizontal and vertical parallel rules to easily draw the straight lines from the view plane to where they intersect.
 
-And now the workflow in gif-format… (don’t forget you can rotate the canvas with :kbd:`4` and :kbd:`6`)
+And now the workflow in GIF format… (don’t forget you can rotate the canvas with the :kbd:`4` and :kbd:`6` keys)
 
 .. image:: /images/category_projection/projection_animation_03.gif 
    :align: center

@@ -38,7 +38,7 @@ Create new texts with...
     Anchor/Align text to the left/middle/right
         Text alignment. This allows you to align text to the left, center it, or to the right. This is called text-anchor because svg 1.1's multiline text only uses text-anchor, and this is a slight bit different than text-align (and also the reason justify isn't available at the moment).
 Edit Text
-    This will summon the text editor for the currently selected shape. This can be quickly invoked with either pressing :kbd:`Enter` or Double - |mouseleft| the shape.
+    This will summon the text editor for the currently selected shape. This can be quickly invoked with either pressing the :kbd:`Enter` key or :kbd:`double-click +` |mouseleft| shortcut on the shape.
 
 Text Editor
 -----------
@@ -66,7 +66,7 @@ File
     Save :kbd:`Ctrl + S`
         Save current edits to the text on canvas.
     Close :kbd:`Ctrl + W`
-        Close the editor
+        Close the editor.
 
 Edit
     Basic editing functions:

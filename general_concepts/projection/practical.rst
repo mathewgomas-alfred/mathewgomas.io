@@ -61,7 +61,7 @@ Generally, it’s worth exploring, if only because it improves your spatial sens
 .. seealso::
 
     * https://en.wikipedia.org/wiki/Axonometric_projection
-    * http://blenderartists.org/forum/showthread.php?148878-Creating-an-Isometric-Camera
+    * https://blenderartists.org/t/creating-an-isometric-camera/440743
     * http://flarerpg.org/tutorials/isometric_tiles/
     * https://en.wikipedia.org/wiki/Isometric_graphics_in_video_games_and_pixel_art
     * https://en.wikipedia.org/wiki/Lens_%28optics%29

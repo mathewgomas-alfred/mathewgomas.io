@@ -20,7 +20,7 @@ Show Canvas Only
 Fullscreen mode
     This will hide the system bar.
 Wrap Around Mode
-    This will show the image as if tiled orthographically. Very useful for tiling 3d textures. Hit :kbd:`W` to quickly activate it.
+    This will show the image as if tiled orthographically. Very useful for tiling 3d textures. Hit the :kbd:`W` key to quickly activate it.
 Instant Preview
     Toggle :ref:`instant_preview` globally.
 Soft Proofing
@@ -30,7 +30,7 @@ Out of Gamut Warnings
 Canvas
     Contains view manipulation actions.
 Mirror View
-    This will mirror the view. Hit :kbd:`M` to quickly activate it. Very useful during painting.
+    This will mirror the view. Hit the :kbd:`M` key to quickly activate it. Very useful during painting.
 Show Rulers
     This will display a set of rulers. |mouseright| the rulers after showing them, to change the units.
 Rulers track pointer
@@ -42,7 +42,7 @@ Lock Guides
 Show Status Bar
     This will show the status bar. The status bar contains a lot of important information, a zoom widget, and the button to switch Selection Display Mode.
 Show Grid
-    Shows and hides the grid. :kbd:`Ctrl + Shift + '`  
+    Shows and hides the grid. Shortcut: :kbd:`Ctrl + Shift + '`  
 Show Pixel Grid
     Show the pixel grid as configured in the :ref:`display_settings`.
 Snapping

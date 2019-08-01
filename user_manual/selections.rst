@@ -27,11 +27,11 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
 
     :ref:`rectangle_selection_tool` , |toolselectrect|, Select the shape of a square.
     :ref:`ellipse_selection_tool` , |toolselectellipse|, Select the shape of a circle.                                                                                                                                                  
-    :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use :kbd:`Shift + Z` to undo last point.
+    :ref:`polygonal_selection_tool` , |toolselectpolygon|, Click where you want each point of the Polygon to be. Double click to end your polygon and finalize your selection area. Use the :kbd:`Shift + Z` shortcut to undo last point.
     :ref:`outline_selection_tool` , |toolselectoutline|, Outline/Lasso tool is used for a rough selection by drawing the outline.                                                                                                       
     :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool.                                                                                                                                                  
     :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color. Adjust the :guilabel:`Fuzziness` to allow more changes in the field of color, by default limited to the current layer."
-    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with :kbd:`Enter` or connecting back to the first point."
+    :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with the :kbd:`Enter` key or connecting back to the first point."
 
 .. note::
     
@@ -107,7 +107,7 @@ You can create a selection based on a layer's transparency by right-clicking on 
 
     You can also do this for adding, subtracting and intersecting by going to :menuselection:`Select --> Select Opaque`, where you can find specific actions for each.
 
-    If you want to quickly select parts of layers, you can hold :kbd:`Ctrl +` |mouseleft| on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift+` |mouseleft|, to remove :kbd:`Ctrl + Alt +` |mouseleft| and to intersect :kbd:`Ctrl + Shift + Alt` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
+    If you want to quickly select parts of layers, you can hold the :kbd:`Ctrl +` |mouseleft| shortcut on the layer *thumbnail*. To add a selection do :kbd:`Ctrl + Shift +` |mouseleft|, to remove :kbd:`Ctrl + Alt +` |mouseleft| and to intersect :kbd:`Ctrl + Shift + Alt +` |mouseleft|. This works with any mask that has pixel or vector data (so everything but transform masks).
 
 
 Pixel and Vector Selection Types
@@ -140,6 +140,6 @@ Common Shortcuts while Using Selections
 - Cut Selection to New Layer -- :kbd:`Ctrl + Shift + J`
 - Display or hide selection with :kbd:`Ctrl + H`
 - Select Opaque -- :kbd:`Ctrl +` |mouseleft| on layer thumbnail.
-- Select Opaque (Add) -- :kbd:`Ctrl + Shift` |mouseleft| on layer thumbnail.
-- Select Opaque (Subtract) -- :kbd:`Ctrl + Alt` |mouseleft| on layer thumbnail.
-- Select Opaque (Intersect) -- :kbd:`Ctrl + Shift + Alt` |mouseleft| on layer thumbnail.
+- Select Opaque (Add) -- :kbd:`Ctrl + Shift +` |mouseleft| on layer thumbnail.
+- Select Opaque (Subtract) -- :kbd:`Ctrl + Alt +` |mouseleft| on layer thumbnail.
+- Select Opaque (Intersect) -- :kbd:`Ctrl + Shift + Alt +` |mouseleft| on layer thumbnail.

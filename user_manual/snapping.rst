@@ -24,7 +24,7 @@ Vector layers, this goes even a step further, and we can let you snap to
 bounding boxes, intersections, extrapolated lines and more.
 
 All of these can be toggled using the snap pop-up menu which is assigned
-to :kbd:`Shift+S`.
+to :kbd:`Shift + S` shortcut.
 
 Now, let us go over what each option means:
 

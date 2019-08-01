@@ -135,10 +135,10 @@ Krita takes heavy advantage of the `Vc <https://github.com/VcDevel/Vc>`_ library
 
 There are more general introductions to what vector instructions are for, and how they work here.
 
- * `reference about MMX on Intel's website <http://developer.intel.com/design/archives/processors/mmx/>`_
- * `Fundamentals of Media Processor Designs <http://www.cise.ufl.edu/~peir/cda6159/media12.pdf>`_: introduction to the use of MMX/SSE instructions
- * `Software Optimization Guide for AMD64 <http://www.amd.com/us-en/assets/content_type/white_papers_and_tech_docs/25112.PDF>`_
- * `STL like programming but using MMX/SSE{1,2,3} when available <http://www.pixelglow.com/macstl/>`_
+ * `Reference about MMX on Intel's website <http://developer.intel.com/design/archives/processors/mmx/>`_.
+ * `Fundamentals of Media Processor Designs <http://www.cise.ufl.edu/~peir/cda6159/media12.pdf>`_: introduction to the use of MMX/SSE instructions.
+ * `Software Optimization Guide for AMD64 <http://www.amd.com/us-en/assets/content_type/white_papers_and_tech_docs/25112.PDF>`_.
+ * `STL like programming but using MMX/SSE{1,2,3} when available <http://www.pixelglow.com/macstl/>`_.
 
 Profile guided optimization
 ---------------------------
@@ -146,9 +146,9 @@ Profile guided optimization
 Profile guided optimization is something else though. It is a special way of compiling and linking, that the compiler and linker use profiling information to know how best to optimize the code. So code that is used a lot is compiled with -O3 (the most optimizations), while code that is not used a lot gets -Os (to take less space), and so forth. This is a very useful technique that was not available on Linux until last year, and the news today is that Firefox now builds properly with it and there is a nice noticeable speed improvement for Linux users.
 
 source:
-    http://linux.slashdot.org/comments.pl?sid=2117150&cid=35987784
+    https://linux.slashdot.org/comments.pl?sid=2117150&cid=35987784
 wikipedia:
-    http://en.wikipedia.org/wiki/Profile-guided_optimization
+    https://en.wikipedia.org/wiki/Profile-guided_optimization
 
 .. code:: cpp
     
@@ -160,6 +160,6 @@ Links
 -----
 
 
-* `Design for Performance <http://www.scribd.com/doc/53483851/Design-for-Performance>`_: great read about performance optimization (aimed at game developers, but many tricks apply for Krita)
-* `TCMalloc <http://goog-perftools.sourceforge.net/doc/tcmalloc.html>`_: a malloc replacement which make faster allocation of objects by caching some reserved part of the memory
+* `Design for Performance <https://es.scribd.com/document/53483851/Design-for-Performance>`_: great read about performance optimization (aimed at game developers, but many tricks apply for Krita).
+* `TCMalloc <http://goog-perftools.sourceforge.net/doc/tcmalloc.html>`_: a malloc replacement which make faster allocation of objects by caching some reserved part of the memory.
 * `Optmizing CPP <http://www.agner.org/optimize/optimizing_cpp.pdf>`_: extensive manual on writing optimized code.

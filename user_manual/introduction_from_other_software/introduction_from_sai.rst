@@ -27,11 +27,11 @@ Canvas navigation
 Krita, just like Sai, allows you to flip, rotate and duplicate the view. Unlike Sai, these are tied to keyboard keys.
 
 Mirror
-    This is tied to :kbd:`M` to flip.
+    This is tied to :kbd:`M` key to flip.
 Rotate
-    There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` for basic 15 degrees rotation left and right. But you can also have more sophisticated rotation with :kbd:`Shift + Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the rotation, press :kbd:`5`.
+    There's a couple of possibilities here: either the :kbd:`4` and :kbd:`6` keys, or the :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` shortcuts for basic 15 degrees rotation left and right. But you can also have more sophisticated rotation with the :kbd:`Shift + Space + drag` or :kbd:`Shift +` |mousemiddle| :kbd:`+ drag` shortcuts. To reset the rotation, press the :kbd:`5` key.
 Zoom
-    You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`Ctrl` + |mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit the zoom to page width.
+    You can use the :kbd:`+` and :kbd:`-` keys to zoom out and in, or use the :kbd:`Ctrl +` |mousemiddle| shortcut. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit the zoom to page width.
 
 You can use the Overview docker in :menuselection:`Settings --> Dockers` to quickly navigate over your image.
 
@@ -50,7 +50,7 @@ You can do the same for :guilabel:`Redo`, :guilabel:`Deselect`, :guilabel:`Inver
 Right click color picker
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can actually set this in :menuselection:`Settings --> Configure Krita --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl` + |mouseleft| before :guilabel:`Pick foreground color from image` to get a window to set it to |mouseright|.
+You can actually set this in :menuselection:`Settings --> Configure Krita --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Pick foreground color from image` to get a window to set it to |mouseright|.
 
 .. note::
 
@@ -76,7 +76,7 @@ Brush Settings
 
 Another, somewhat amusing misconception is that Krita's brush engine is not very complex. After all, you can only change the Size, Flow and Opacity from the top bar.
 
-This is not quite true. It's rather that we don't have our brush settings in a docker but a drop-down on the toolbar. The easiest way to access this is with :kbd:`F5`. As you can see, it's actually quite complex. We have more than a dozen brush engines, which are a type of brush you can make. The ones you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color Smudge Brush (brush) and the filter brush (dodge, burn).
+This is not quite true. It's rather that we don't have our brush settings in a docker but a drop-down on the toolbar. The easiest way to access this is with the :kbd:`F5` key. As you can see, it's actually quite complex. We have more than a dozen brush engines, which are a type of brush you can make. The ones you are used to from Paint Tool Sai are the Pixel Brush (ink), The Color Smudge Brush (brush) and the filter brush (dodge, burn).
 
 A simple inking brush recipe for example is to take a pixel brush, uncheck the :guilabel:`Enable Pen Settings` on opacity and flow, and uncheck everything but size from the option list. Then, go into brush-tip, pick :ref:`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue bar if you want to input numbers), turn on anti-aliasing under the brush icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and the spacing number to 0.8.
 
@@ -85,7 +85,7 @@ You can configure the brushes in a lot of detail, and share the packs with other
 Erasing
 ~~~~~~~
 
-Erasing is a blending mode in Krita, much like the transparency mode of Paint Tool Sai. It's activated with :kbd:`E` or you can select it from the Blending Mode drop-down...
+Erasing is a blending mode in Krita, much like the transparency mode of Paint Tool Sai. It's activated with the :kbd:`E` key or you can select it from the Blending Mode drop-down...
 
 Blending Modes
 ~~~~~~~~~~~~~~
@@ -103,13 +103,13 @@ Layers
 Lock Alpha
     This is the checker box icon next to every layer.
 Clipping group
-    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + G`.
+    For Clipping masks in Krita you'll need to put all your images in a single layer, and then press the 'a' icon, or press the :kbd:`Ctrl + Shift + G` shortcut.
 Ink layer
     This is a vector layer in Krita, and also holds the text.
 Masks
     These grayscale layers that allow you to affect the transparency are called transparency masks in Krita, and like Paint Tool Sai, they can be applied to groups as well as layers. If you have a selection and make a transparency mask, it will use the selection as a base.
 Clearing a layer
-    This is under :menuselection:`Edit --> Clear`, but you can also just press :kbd:`Del`.
+    This is under :menuselection:`Edit --> Clear`, but you can also just press the :kbd:`Del` key.
 
 Mixing between two colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -132,7 +132,7 @@ You can have HSV sliders, RGB sliders, triangle in a hue ring. But you can also 
 .. image:: /images/dockers/Krita_Color_Selector_Types.png
    :align: center
 
-You can call the color history with :kbd:`H`, common colors with :kbd:`U` and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. The big selector can be called with :kbd:`Shift + I` on canvas.
+You can call the color history with the :kbd:`H` key, common colors with the :kbd:`U` key and the two shade selectors with the :kbd:`Shift + N` and :kbd:`Shift + M` shortcuts. The big selector can be called with the :kbd:`Shift + I` shortcut on canvas.
 
 Geometric Tools
 ~~~~~~~~~~~~~~~
@@ -166,7 +166,7 @@ Lock the layer with the padlock so you don't draw on it.
 Quick Layer select
 ~~~~~~~~~~~~~~~~~~
 
-If you hold :kbd:`R` and press a spot on your drawing, Krita will select the layer underneath the cursor. Really useful when dealing with a large number of layers.
+If you hold the :kbd:`R` key and press a spot on your drawing, Krita will select the layer underneath the cursor. Really useful when dealing with a large number of layers.
 
 Color Management
 ~~~~~~~~~~~~~~~~

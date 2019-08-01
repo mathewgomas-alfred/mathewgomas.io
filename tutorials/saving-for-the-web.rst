@@ -18,11 +18,11 @@ There are a few steps involved:
 
 1. Save as a ``.kra``. This is your working file and serves as a backup if you make any mistakes.
 
-2. Flatten all layers. This turns all your layers into a single one. Just go to :menuselection:`Layer --> Flatten Image` or press :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`E`. Flattening can take a while, so if you have a big image, don't be scared if Krita freezes for a few seconds. It'll become responsive soon enough.
+2. Flatten all layers. This turns all your layers into a single one. Just go to :menuselection:`Layer --> Flatten Image` or press the :kbd:`Ctrl + Shift + E` shortcut. Flattening can take a while, so if you have a big image, don't be scared if Krita freezes for a few seconds. It'll become responsive soon enough.
 
 3. Convert the color space to 8bit sRGB (if it isn't yet). This is important to lower the filesize, and PNG for example can't take higher than 16bit. :menuselection:`Image --> Convert Image Color Space` and set the options to **RGB**, **8bit** and **sRGB-elle-v2-srgbtrc.icc** respectively. If you are coming from a linear space, uncheck **little CMS** optimisations
 
-4. Resize! Go to :menuselection:`Image --> Scale Image To New Size` or use :kbd:`Ctrl` + :kbd:`Alt` + :kbd:`I`. This calls up the resize menu. A good rule of thumb for resizing is that you try to get both sizes to be less than 1200 pixels. (This being the size of HD formats). You can easily get there by setting the **Resolution** under **Print Size** to **72** dots per inch. Then press **OK** to have everything resized.
+4. Resize! Go to :menuselection:`Image --> Scale Image To New Size` or use the :kbd:`Ctrl + Alt + I` shortcut. This calls up the resize menu. A good rule of thumb for resizing is that you try to get both sizes to be less than 1200 pixels. (This being the size of HD formats). You can easily get there by setting the **Resolution** under **Print Size** to **72** dots per inch. Then press **OK** to have everything resized.
 
 5. Save as a web-safe image format. There's three that are especially recommended:
 

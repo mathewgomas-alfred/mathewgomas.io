@@ -21,11 +21,11 @@ Previously referred to as HDR painting and Scene Referred painting, Scene Linear
 
 These are the two important characteristics. The colorspace has a few more properties than this, such as the white point, or more importantly, the colorants that make up the gamut. But here’s the thing, those two could be anything, as long as the space is linear and the color depth is floating point.
 
-So, *Scene Linear is not a single one colorspace, but a* **TYPE** *of colorspace*. You can have a scene linear space that uses the sRGB/rec 709 colorants, or one that uses adobeRGB, or maybe one that uses rec 2020, as long as it is *linear* and in a *floating point bit depth*.
+So, *Scene Linear is not a single one colorspace, but a* **TYPE** *of colorspace*. You can have a scene linear space that uses the sRGB/Rec. 709 colorants, or one that uses adobeRGB, or maybe one that uses Rec. 2020, as long as it is *linear* and in a *floating point bit depth*.
 
 .. Note::
 
-    If you want to create images for display on an HDR canvas, you will need to select the rec 2020 space profile with a linear gamma. The default profile in Krita for that is :guilabel:`Rec2020-elle-V4-g10.icc`.
+    If you want to create images for display on an HDR canvas, you will need to select the Rec. 2020 space profile with a linear gamma. The default profile in Krita for that is :guilabel:`Rec2020-elle-V4-g10.icc`.
 
 These two factors are for one reason: To make black and white arbitrary values. This might seem a bit weird. But when you are dealing with light-sources, you are dealing with a massive range of contrasts, and will have to decide afterwards which white and black you’d like to have. This is what the scene means in scene-linear, the relevant values are unique per scene, like a real world scene: a flower field lit by moonlight, a city in twilight or a sunny beach. You want to be able to put the right emphasis on the most important contrasting values, and being able to choose what is white and what is black is a very powerful tool here. After all, humans in the real world can see much more when they get used to the dark, or to the sun, so why not apply that to how we make our images?
 
@@ -69,14 +69,14 @@ A very simple but massive problem is one with **inversion**. Inverting colors is
 * Overlay (screens values below midtone-value, in sRGB this would be middle gray)
 * Color-dodge (divides the lower color with an inversion of the top one)
 * Color-burn (inverts the lower color and then divides it by the top color)
-* Hardlight (A different way of doing overlay, including the inversion)
-* Softlight (Uses several inversions along the way)
+* Hardlight (a different way of doing overlay, including the inversion)
+* Softlight (uses several inversions along the way)
 
 Conversely Multiply, Linear Dodge/Addition (they’re the same thing), Subtract, Divide, Darker (only compares colors’ channel values), Lighter (ditto), and Difference *are fine to use*, as long as the program you use doesn’t do weird clipping there.
 
 Another one is HSL, HSI and HSY algorithms. They too need to assume something about the top value to allow scaling to white. HSV doesn’t have this problem. So it’s best to use an HSV color selector.
 
-For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec709 values, but are otherwise fine (and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due to the assumption about black and white, not with scene linear painting. The following blending modes use them:
+For the blending modes that use HSY, there’s always the issue that they tend to be hardcoded to sRGB/Rec. 709 values, but are otherwise fine (and they give actually far more correct results in a linear space). So these are not a good idea to use with wide-gamut colorspaces, and due to the assumption about black and white, not with scene linear painting. The following blending modes use them:
 
 * Color
 * Luminosity
@@ -114,7 +114,7 @@ In Summary
 
 Scene Linear Painting is painting an image in a color space that is linear and has a floating point bit depth. This does not assume anything about the values of black and white, so you can only use tools that don’t assume anything about the values of black and white. It has the advantage of having nicer filter results and better color mixtures as well as better interoperability with other scene-linear output.
 
-To be able to view such an image you use a view transform, also called a display conversion. Which means that if you wish to finalize your image for the web, you make a copy of the image that goes through a display conversion or view transform that then gets saved to png or jpeg or tiff.
+To be able to view such an image you use a view transform, also called a display conversion. Which means that if you wish to finalize your image for the web, you make a copy of the image that goes through a display conversion or view transform that then gets saved to PNG, JPEG or TIFF.
 
 Getting to actual painting
 --------------------------
@@ -124,9 +124,9 @@ Now we’ve covered the theory, let us look at a workflow for painting scene lin
 Setting up the Canvas
 ~~~~~~~~~~~~~~~~~~~~~
 
-Select either a 16bit or 32bit image. By default Krita will select a linear sRGB profile. If you want to create images for HDR display, you will need to make sure that the profile selected is the :guilabel:`Rec2020-elle-V4-g10.icc` profile. HDR images are standardised to use the rec 2020 gamut, which is much larger than sRGB in size, so this ensures you've got access to all the colors.
+Select either a 16bit or 32bit image. By default Krita will select a linear sRGB profile. If you want to create images for HDR display, you will need to make sure that the profile selected is the :guilabel:`Rec2020-elle-V4-g10.icc` profile. HDR images are standardised to use the Rec. 2020 gamut, which is much larger than sRGB in size, so this ensures you've got access to all the colors.
 
-If you're working on a non-HDR enabled monitor, you should enable ocio in the Lut Docker.
+If you're working on a non-HDR enabled monitor, you should enable OCIO in the LUT docker.
 
 Keep in mind everything mentioned above. Not all filters and not all blending modes work. This will improve in the future. Other than that, everything else is the same.
 
@@ -137,17 +137,17 @@ Picking regular colors is easy, but how do we pick the really bright colors? The
 
 #. By lowering the exposure in the LUT docker. This will increase the visible range of colors in the color selectors. You can even hotkey the exposure in the canvas input settings.
 #. By setting the nits slider in the :ref:`small_color_selector` higher than 100.
-#. Or simply by opening the internal color selector by double clicking the dual color button and typing in values higher than 1 into the field.
+#. Or simply by opening the internal color selector by double clicking the dual color button and typing in values higher than 1 into the input field.
 #. And finally by picking a really bright color from an image that has such values.
 
-Then paint. It’s recommended to make a bunch of swatches in the corner, at the least, until Krita’s new palette docker allows you to save the values properly.
+Then paint. It’s recommended to make a bunch of swatches in the corner, at the least, until Krita’s new Palette docker allows you to save the values properly.
 
 Lighting based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 So, we have our typical value based workflow, where we only paint the grays of the image so that we can focus on the values of the image. We can do something similar with Scene Linear Painting.
 
-Where with the value based workflow you paint the image as if it were a grayscale of what you intended to paint, with a lighting based workflow you paint as if all the objects are white. The effect of the color of an object can be determined by multiplying its base color with the color of the light. So you could paint objects as if they were white, paint the colors on a separate layer and just use the multiply blending mode to get the right colors.
+Where with the value based workflow you paint the image as if it were a grayscale of what you intended to paint, with a lighting based workflow you paint as if all the objects are white. The effect of the color of an object can be determined by multiplying its base color with the color of the light. So you could paint objects as if they were white, paint the colors on a separate layer and just use the Multiply blending mode to get the right colors.
 
 .. figure:: /images/color_category/Krita_scenelinear_cat_02.png
    :align: center
@@ -162,7 +162,7 @@ The keen minded will notice that a lighting based workflow kind of resembles the
 Finishing up
 ~~~~~~~~~~~~
 
-When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same OCIO config, select the right values and save the result as a png. 
+When you are done, you will want to apply the view transform you have been using to the image (at the least, if you want to post the end result on the Internet)... This is called LUT baking and not possible yet in Krita. Therefore you will have to save out your image in EXR and open it in either Blender or Natron. Then, in Blender it is enough to just use the same OCIO config, select the right values and save the result as a PNG.
 
 For saving HDR images, check the :ref:`hdr_display` page.
 

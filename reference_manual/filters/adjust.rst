@@ -59,7 +59,7 @@ Levels
 ------
 
 This filter allows you to directly modify the levels of the tone-values of an image, by manipulating sliders for highlights, midtones and shadows. You can even set an output and input range of tones for the image. A histogram is displayed to show you the tonal distribution.
-The default shortcut for levels filter is :kbd:`Ctrl + L` .
+The default shortcut for levels filter is :kbd:`Ctrl + L`.
 
 .. image:: /images/filters/Levels-filter.png
 
@@ -118,7 +118,7 @@ Color Balance
 -------------
 
 This filter allows you to control the color balance of the image by adjusting the sliders for Shadows, Midtones and Highlights.
-The default shortcut for this filter is :kbd:`Ctrl + B` .
+The default shortcut for this filter is :kbd:`Ctrl + B`.
 
 .. image:: /images/filters/Color-balance.png
 .. index:: Saturation, Desaturation, Gray
@@ -127,7 +127,7 @@ Desaturate
 ----------
 
 Image-wide desaturation filter. Will make any image Grayscale.
-Has several choices by which logic the colors are turned to gray. The default shortcut for this filter is :kbd:`Ctrl + Shift + U` .
+Has several choices by which logic the colors are turned to gray. The default shortcut for this filter is :kbd:`Ctrl + Shift + U`.
 
 .. image:: /images/filters/Desaturate-filter.png
 
@@ -164,7 +164,7 @@ Tries to adjust the contrast the universally acceptable levels.
 HSV/HSL Adjustment
 ------------------
 
-With this filter, you can adjust the Hue, Saturation, Value or Lightness, through sliders. The default shortcut for this filter is :kbd:`Ctrl + U` .
+With this filter, you can adjust the Hue, Saturation, Value or Lightness, through sliders. The default shortcut for this filter is :kbd:`Ctrl + U`.
 
 .. image:: /images/filters/Hue-saturation-filter.png
 

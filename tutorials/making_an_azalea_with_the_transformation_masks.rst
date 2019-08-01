@@ -50,7 +50,7 @@ I chose to make the flower shape opaque quickly by using the *behind* blending m
 .. image:: /images/making-azalea/Azelea_04_finished-setup.png
     :alt: finished setup for making azalea
 
-Now, we’ll put the flowers in the upper left corner, and group them. You can group by making a group layer, and selecting the flower layers in your docker with :kbd:`Ctrl` + |mouseleft| and dragging them into the group. The reason why we’re putting them in the upper left corner is because we’ll be selecting them a lot, and Krita allows you to select layers with kbd:`R` + |mouseleft| on the canvas quickly. Just hold :kbd:`R` and |mouseleft| the pixels belonging to the layer you want, and Krita will select the layer in the layer docker.
+Now, we’ll put the flowers in the upper left corner, and group them. You can group by making a group layer, and selecting the flower layers in your docker with the :kbd:`Ctrl +` |mouseleft| shortcut and dragging them into the group. The reason why we’re putting them in the upper left corner is because we’ll be selecting them a lot, and Krita allows you to select layers with the kbd:`R +` |mouseleft| shortcut on the canvas quickly. Just hold the :kbd:`R` key and |mouseleft| the pixels belonging to the layer you want, and Krita will select the layer in the layer docker.
 
 Clone Layers
 ------------

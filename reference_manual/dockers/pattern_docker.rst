@@ -21,4 +21,4 @@ This docker allows you to select the global pattern. Using the open-file button 
 
 * |mouseright| a swatch will allow you to set tags.
 * |mouseleft| a swatch will allow you to set it as global pattern.
-* :kbd:`Ctrl` + Scroll you can resize the swatch sizes.
+* :kbd:`Ctrl + scroll` you can resize the swatch sizes.

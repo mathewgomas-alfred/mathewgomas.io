@@ -36,7 +36,7 @@ Mirror Image Horizontally
 Mirror Image Vertically
     Mirror the image on the vertical axis.
 Scale to New Size
-    The resize function in any other program :kbd:`Ctrl + Alt + I`.
+    The resize function in any other program with the :kbd:`Ctrl + Alt + I` shortcut.
 Offset Image
     Offset all layers.
 Resize Canvas

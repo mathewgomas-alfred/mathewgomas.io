@@ -224,14 +224,14 @@ Selections work using the selection tools.
 .. image:: /images/flat-coloring/Krita_filling_lineart15.png
     :alt: selecting with selection tools for filling color
 
-For example with the :ref:`bezier_curve_selection_tool` you can easily select a curved area, and the with :kbd:`Shift` + |mouseleft| (not |mouseleft| + :kbd:`Shift`, there's a difference!) you can easily add to an existing selection.
+For example with the :ref:`bezier_curve_selection_tool` you can easily select a curved area, and the with :kbd:`Shift +` |mouseleft| (not |mouseleft| :kbd:`+ Shift`, there's a difference!) you can easily add to an existing selection.
 
 .. image:: /images/flat-coloring/Krita_filling_lineart16.png
     :alt: selection mask in Krita
 
 You can also edit the selection if you have :menuselection:`Select --> Show Global Selection Mask` turned on. Then you can select the global selection mask, and paint on it. (Above with the alternative selection mode, activated in the lower-left corner of the stats bar)
 
-When done, select the color you want to fill it with and press :kbd:`Shift` + `backspace`.
+When done, select the color you want to fill it with and press the :kbd:`Shift + Backspace` shortcut.
 
 .. image:: /images/flat-coloring/Krita_filling_lineart17.png
     :alt: filling color in selection
@@ -266,7 +266,7 @@ By clicking and holding, you can influence how curvy a line draw with the path t
 .. image:: /images/flat-coloring/Krita_filling_lineart8.png
     :alt: filling color in line art using path tool
 
-You can also erase with a geometric tool. Just press :kbd:`E` or the eraser button.
+You can also erase with a geometric tool. Just press the :kbd:`E` key or the eraser button.
 
 .. image:: /images/flat-coloring/Krita_filling_lineart9.png
     :alt: erasing with path tool

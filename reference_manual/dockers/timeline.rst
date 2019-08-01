@@ -31,7 +31,7 @@ Legend:
 
 **B. Frame Table --** The Frame Table is a large grid of cells which can either hold a single frame or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame timing*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but are based on frames which can then be played back at any speed, depending on the :ref:`animation_docker`'s *frame rate* and *play speed* settings. 
 
-	Frames can be moved around the timeline by simply left-clicking and dragging from one frame to another slot, even across layers. Furthermore, holding :kbd:`Ctrl` while moving creates a copy. Right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, and pasting frames or adjusting timing with holds.
+	Frames can be moved around the timeline by simply left-clicking and dragging from one frame to another slot, even across layers. Furthermore, holding the :kbd:`Ctrl` key while moving creates a copy. Right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, and pasting frames or adjusting timing with holds.
 
     * **Current Selection:**
         Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding or removing frames or holds within the current selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
@@ -104,25 +104,25 @@ GUI Actions:
 #. **Frame Timing Header**
 
     * |mouseleft| : Move to time and select frame of the active layer.
-    * |mouseleft| :kbd:`drag` : Scrub through time and select frame of the active layer.
+    * |mouseleft| :kbd:`+ drag` : Scrub through time and select frame of the active layer.
     * |mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold columns).
 
 #. **Frames Table: all**
 
     * |mouseleft| : Selects a single frame or slot and switches time, but *does not switch active layer*.
-    * :kbd:`Space` + |mouseleft| : Pan.
-    * :kbd:`Space` + |mouseright| : Zoom.
+    * :kbd:`Space +` |mouseleft| : Pan.
+    * :kbd:`Space +` |mouseright| : Zoom.
 
 #. **Frames Table (On Empty Slot).**
 
     * |mouseright| : Frames menu (insert/copy/paste frames and insert/remove holds).
-    * |mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the last selected, but *does not switch active layer*.
-    * :kbd:`Shift` + |mouseleft| : Select all frames between the active and the clicked frame.
-    * :kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click+drag` them into place.
+    * |mouseleft| :kbd:`+ drag` : Select multiple frames and switch time to the last selected, but *does not switch active layer*.
+    * :kbd:`Shift +` |mouseleft| : Select all frames between the active and the clicked frame.
+    * :kbd:`Ctrl +` |mouseleft| : Select individual frames together. :kbd:`click + drag` them into place.
 
 #. **Frames Table (On Existing Frame)**
 
     * |mouseright| : Frames menu (remove/copy/paste frames and insert/remove holds).
-    * |mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames.
-    * :kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames.
-    * :kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frames to the right of a particular frame!)
+    * |mouseleft| :kbd:`+ drag` : *Move* a frame or multiple frames.
+    * :kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` : Copy a frame or multiple frames.
+    * :kbd:`Alt + drag` : Move selected frame(s) and *all* the frames to the right of it. (This is useful for when you need to clear up some space in your animation, but don't want to select all the frames to the right of a particular frame!)

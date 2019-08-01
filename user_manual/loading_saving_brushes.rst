@@ -38,7 +38,7 @@ The Brush settings drop-down
 
 To start, the Brush Settings Editor panel can be accessed in the
 toolbar, between the :guilabel:`Blending Modes` button on the right and the :guilabel:`Patterns`
-button on the left. Alternately, you can use the function key :kbd:`F5` to open
+button on the left. Alternately, you can use the :kbd:`F5` key to open
 it.
 
 When you open Brush Settings Editor panel you will see something like
@@ -166,10 +166,10 @@ Brush Preset` dialog and Krita will save the new brush.
 Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The preset chooser is much the same as the preset docker and the
-preset drop-down on :kbd:`F6`. It's unique in that it allows you to filter by
-engine and this is also where you can create brushes for an engine from
-scratch.
+The preset chooser is much the same as the preset docker and the preset 
+drop-down on the :kbd:`F6` key. It's unique in that it allows you to 
+filter by engine and this is also where you can create brushes for an 
+engine from scratch.
 
 It is by default collapsed, so you will need to press the arrow at the
 top left of the brush engine to show it.
@@ -351,7 +351,7 @@ Now, let's make a simple brush to test the waters with:
 Getting a default for the brush engine.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, open the settings with :kbd:`F5`.
+First, open the settings with the :kbd:`F5` key.
 
 Then, press the arrow on the upper left to open the preset chooser.
 There, press the “+” icon to get a list of engines. For this brush we're
@@ -458,7 +458,7 @@ Importing a single KPP file.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now, if you want to use the single preset, you should go to the preset
-chooser on :kbd:`F6` and press the folder icon there. This will give a file
+chooser on the :kbd:`F6` key and press the folder icon there. This will give a file
 dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same

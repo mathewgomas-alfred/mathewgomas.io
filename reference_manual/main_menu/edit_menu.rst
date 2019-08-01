@@ -18,16 +18,16 @@ Edit Menu
 .. glossary::
 
     Undo
-        Undoes the last action. :kbd:`Ctrl + Z` 
+        Undoes the last action. Shortcut: :kbd:`Ctrl + Z`
 
     Redo
-        Redoes the last undone action. :kbd:`Ctrl + Shift+ Z` 
+        Redoes the last undone action. Shortcut: :kbd:`Ctrl + Shift+ Z`
 
     Cut
-        Cuts the selection or layer. :kbd:`Ctrl + X` 
+        Cuts the selection or layer. Shortcut: :kbd:`Ctrl + X`
 
     Copy
-        Copies the selection or layer. :kbd:`Ctrl + C` 
+        Copies the selection or layer. Shortcut: :kbd:`Ctrl + C`
 
     Cut (Sharp)
         This prevents semi-transparent areas from appearing on your cut pixels, making them either fully opaque or fully transparent.
@@ -36,10 +36,10 @@ Edit Menu
         Same as :term:`Cut (Sharp)` but then copying instead.
 
     Copy Merged
-        Copies the selection over all layers. :kbd:`Ctrl + Shift + C` 
+        Copies the selection over all layers. Shortcut :kbd:`Ctrl + Shift + C`
 
     Paste
-        Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V` 
+        Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl + V`
 
     Paste at Cursor
         Same as :term:`paste`, but aligns the image to the cursor.
@@ -48,13 +48,13 @@ Edit Menu
         Pastes the copied buffer into a new image. 
 
     Clear
-        Clear the current layer. :kbd:`Del` 
+        Clear the current layer. Shortcut: :kbd:`Del`
 
     Fill with Foreground Color
-        Fills the layer or selection with the foreground color. :kbd:`Shift + Backspace` 
+        Fills the layer or selection with the foreground color. Shortcut: :kbd:`Shift + Backspace`
 
     Fill with Background Color
-        Fills the layer or selection with the background color. :kbd:`Backspace` 
+        Fills the layer or selection with the background color. Shortcut: :kbd:`Backspace`
 
     Fill with pattern
         Fills the layer or selection with the active pattern.

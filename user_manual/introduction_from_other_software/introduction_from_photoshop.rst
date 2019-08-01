@@ -42,33 +42,33 @@ Navigation
 In Krita you can navigate your document using all these methods:
 
 #. '*Mouse wheel*': |mousescroll| down and up for zoom, and press |mousemiddle| down to pan your document.
-#. '*Keyboard*': with :kbd:`+` and :kbd:`-` on your numpad keyboard.
-#. As in Photoshop, Painter, Manga Studio: :kbd:`Ctrl + Space` to zoom, and :kbd:`Space` to pan. 
+#. '*Keyboard*': with the :kbd:`+` and :kbd:`-` keys on your numpad keyboard.
+#. As in Photoshop, Painter, Manga Studio: use the :kbd:`Ctrl + Space` shortcut to zoom, and the :kbd:`Space` key to pan. 
     
     .. note::
 
-        If you add :kbd:`Alt` and so do a :kbd:`Ctrl + Alt + Space` you’ll have a discrete zoom.
+        If you add use the :kbd:`Alt` key and so do a :kbd:`Ctrl + Alt + Space` shortcut you’ll have a discrete zoom.
 
 Rotation
 ^^^^^^^^
 
-Rotate the canvas with :kbd:`Shift + Space`, or :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` or with 4 or 6. Reset the rotation with 5.
+Rotate the canvas with the :kbd:`Shift + Space`, or :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` shortcuts or with the :kbd:`4` or :kbd:`6` keys. Reset the rotation with the :kbd:`5` key.
 
 Mirror
 ^^^^^^
 
-Press :kbd:`M` to see your drawing or painting mirrored in the viewport.
+Press the :kbd:`M` key to see your drawing or painting mirrored in the viewport.
 
 Move and Transform
 ^^^^^^^^^^^^^^^^^^
 
 Moving and Transformation of contents is done using tools in Krita. You can then find them in the toolbar. 
-If you are familiar with the way to move layers in PS by holding down :kbd:`Ctrl`, you can do the same in Krita by pressing the :kbd:`T` key for the move tool (think ‘T’ranslate) or :kbd:`Ctrl + T` for transform tool.
+If you are familiar with the way to move layers in PS by holding down the :kbd:`Ctrl` key, you can do the same in Krita by pressing the :kbd:`T` key for the move tool (think ‘T’ranslate) or the :kbd:`Ctrl + T` shortcut for transform tool.
 
-Press :kbd:`B` to go back to the brush tool when the transformation or translation is done.
+Press the :kbd:`B` key to go back to the brush tool when the transformation or translation is done.
 To find how to make advanced deformations using the :guilabel:`Transform` tool, do not right-click on the on-canvas widget: all the option are in the :guilabel:`Tool Options` docker. 
 
-Changes can be applied with :kbd:`Enter` for the Transform tool. 
+Changes can be applied with the :kbd:`Enter` key for the Transform tool. 
 
 .. note::
 
@@ -77,7 +77,7 @@ Changes can be applied with :kbd:`Enter` for the Transform tool.
 Selections
 ~~~~~~~~~~
 
-Like in PS, you can use :kbd:`Alt` or :kbd:`Shift` during a selection to remove or add selection to the active selection. Krita also offers sub tools for this, and you can select them in the :guilabel:`Tool Options` if a select tool is active. These sub tools are represented as icons.
+Like in PS, you can use the :kbd:`Alt` or :kbd:`Shift` keys during a selection to remove or add selection to the active selection. Krita also offers sub tools for this, and you can select them in the :guilabel:`Tool Options` if a select tool is active. These sub tools are represented as icons.
 You can switch to those sub modes by pressing:
 
 * :kbd:`R` to replace selection
@@ -93,12 +93,12 @@ Or hold:
 
 .. note::
 
-    You cannot press :kbd:`Ctrl` to move the content of the selection (you have to press :kbd:`T` or select the :guilabel:`Move Tool`).
+    You cannot press the :kbd:`Ctrl` key to move the content of the selection (you have to press the :kbd:`T` key or select the :guilabel:`Move Tool`).
 
 Some other tips:
 
 * If you want to convert a layer to a selection (to select the visible pixels), right-click on the layer docker, and choose :guilabel:`Select Opaque`. 
-* If you use a polygonal selection tool, or a selection which needs to be ‘closed’, you will be able to do it or by using a double-click, or by using a :kbd:`Shift` - |mouseleft| .
+* If you use a polygonal selection tool, or a selection which needs to be ‘closed’, you will be able to do it or by using a double-click, or by using a :kbd:`Shift +` |mouseleft| shortcut.
 
 You can scale selection. To do this, choose :menuselection:`Select --> Scale`.
 
@@ -110,13 +110,13 @@ If you enable :guilabel:`Show Global Selection Mask` (:guilabel:`Select` menu) y
 
 * :kbd:`Ctrl + H`: Show / Hide selection (same shortcut)
 * :kbd:`Ctrl + A`: Select All
-* :kbd:`Ctrl + Shift + A`: deselect All (and not :kbd:`Ctrl + D` as in PS)
+* :kbd:`Ctrl + Shift + A`: deselect All (and not the :kbd:`Ctrl + D` shortcut as in PS)
 
-Note for Gimp user: Krita auto-expands and auto defloats new layers created from a selection after a :kbd:`Ctrl + C`, :kbd:`Ctrl + V` so you do not have to worry about not being able to paint outside the pasted element.
+Note for Gimp user: Krita auto-expands and auto defloats new layers created from a selection after pressing the :kbd:`Ctrl + C`, :kbd:`Ctrl + V` shortcuts so you do not have to worry about not being able to paint outside the pasted element.
 
 .. note::
 
-    This doesn't work as intended right now. Intersect is a selection mode which uses :kbd:`T` as the shortcut. However :kbd:`T` is also used to switch to the :guilabel:`Move tool` so this shortcut is not functional right now. You have to use the button on the :guilabel:`Tool Options`.
+    This doesn't work as intended right now. Intersect is a selection mode which use the :kbd:`T` key as the shortcut. However the :kbd:`T` key is also used to switch to the :guilabel:`Move tool` so this shortcut is not functional right now. You have to use the button on the :guilabel:`Tool Options`.
 
 Layer Handling
 ~~~~~~~~~~~~~~
@@ -125,7 +125,7 @@ The most common shortcuts are very similar in PS and Krita:
 
 * :kbd:`Ctrl + J`: duplicate
 * :kbd:`Ctrl + E`: merge down
-* :kbd:`Ctrl + Shift + E`: flattens all (not :kbd:`Ctrl + Shift + M` as in PS) 
+* :kbd:`Ctrl + Shift + E`: flattens all (not the :kbd:`Ctrl + Shift + M` shortcut as in PS) 
 * :kbd:`Ins`: insert a new paint layer
 * :kbd:`Ctrl + G`: create new layer group and move selected layers to this group
 
@@ -138,7 +138,7 @@ Both systems have pros and cons. Krita’s way is more predictable according to 
 Multi Layer Transform or Move
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can select multiple layers on the stack by holding down :kbd:`Shift` as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers. 
+You can select multiple layers on the stack by holding down the :kbd:`Shift` key as in PS, and if you move the layer inside a group you can move or transform the whole group - including doing selection on the group and cut all the sub layers inside on the fly.  You can not apply filters to group to affect multiple layers. 
 
 Clipping Masks
 ^^^^^^^^^^^^^^
@@ -191,12 +191,12 @@ In Krita, there is a totally different paradigm for defining what ‘tools’ ar
 Erasing
 ^^^^^^^
 
-In Krita, the eraser is not a tool, it is a Blending mode (or Composite mode). You can change each brush you have to erase by pressing :kbd:`E`. By pressing :kbd:`E` again you’ll be back to the last blending mode you had selected before pressing :kbd:`E` the first time.
+In Krita, the eraser is not a tool, it is a Blending mode (or Composite mode). You can change each brush you have to erase by pressing the :kbd:`E` key. By pressing the :kbd:`E` key again you’ll be back to the last blending mode you had selected before pressing the :kbd:`E` key the first time.
 
 Useful shortcuts
 ^^^^^^^^^^^^^^^^
 
-* :kbd:`Shift`:  Grow or Shrink the brush size (or :kbd:`[` and :kbd:`]`).
+* :kbd:`Shift`:  Grow or Shrink the brush size (or the :kbd:`[` and :kbd:`]` keys).
 * :kbd:`/`: Switch last preset selected and current (ex: a pencil preset, and an eraser preset).
 * :kbd:`K` and :kbd:`L`: Increment Darker and Lighter value of the active color.
 * :kbd:`I` and :kbd:`O`: Increment opacity plus or minus.
@@ -206,7 +206,7 @@ Useful shortcuts
 
 .. note::
 
-    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and left-:kbd:`Shift` is at the opposite end of the keyboard from :kbd:`I`, :kbd:`M` and :kbd:`N`. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
+    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and the left :kbd:`Shift` key is at the opposite end of the keyboard from the :kbd:`I`, :kbd:`M` and :kbd:`N` keys. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
 
 Stabilization / Path Smoothing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -223,7 +223,7 @@ Adjustment
 
 Like in PS, you can use the classic filters to adjust many things while painting:
 
-* :kbd:`Ctrl + L` : Levels 
+* :kbd:`Ctrl + L`: Levels 
 * :kbd:`Ctrl + U`: HSV adjustment
 * :kbd:`Ctrl + I`: Invert
 
@@ -245,7 +245,7 @@ As mentioned in the introduction, Krita is a specialized paint application. Thus
 Brush Engines
 ~~~~~~~~~~~~~
 
-Krita has a lot of different so-called brush engines. These brush engines define various methods on how the pixels end up on your canvas. Brush engines with names like Grid, Particles, Sketch and others will bring you new experiences on how the  brushes work and a new landscape of possible results. You can start customizing brushes by using the brush-settings editor, which is accessible via the toolbar, but it's much easier to just press :kbd:`F5`.
+Krita has a lot of different so-called brush engines. These brush engines define various methods on how the pixels end up on your canvas. Brush engines with names like Grid, Particles, Sketch and others will bring you new experiences on how the  brushes work and a new landscape of possible results. You can start customizing brushes by using the brush-settings editor, which is accessible via the toolbar, but it's much easier to just press the :kbd:`F5` key.
 
 Tags for brush presets
 ~~~~~~~~~~~~~~~~~~~~~~

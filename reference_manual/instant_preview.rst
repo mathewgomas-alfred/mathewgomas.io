@@ -28,7 +28,7 @@ Activating Instant Preview
     
    The Global Instant Preview toggle is under the view menu.
     
-Instant Preview is activated in two places: The view menu (:kbd:`Shift + L`), and the settings of the given paintop by default. This is because Instant Preview has different limitations with different paint operations.
+Instant Preview is activated in two places: The view menu (:kbd:`Shift + L` shortcut), and the settings of the given paintop by default. This is because Instant Preview has different limitations with different paint operations.
 
 For example, the overlay mode in the color smudge brush will disable the ability to have Instant Preview on the brush, so does using 'fade' sensor for size.
 

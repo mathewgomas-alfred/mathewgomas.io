@@ -23,10 +23,10 @@ Hotkeys and Sticky-keys
 
 There's no default hotkey for switching to rectangle.
 
-If you hold :kbd:`Shift` while drawing, a square will be drawn instead of a rectangle. Holding :kbd:`Ctrl` will change the way the rectangle is constructed. Normally, the first mouse click indicates one corner and the second click the opposite. With :kbd:`Ctrl`, the initial mouse position indicates the center of the rectangle, and the final mouse position indicates a corner. You can press :kbd:`Alt` while still keeping |mouseleft| down to move the rectangle to a different location.
+If you hold the :kbd:`Shift` key while drawing, a square will be drawn instead of a rectangle. Holding the :kbd:`Ctrl` key will change the way the rectangle is constructed. Normally, the first mouse click indicates one corner and the second click the opposite. With the :kbd:`Ctrl` key, the initial mouse position indicates the center of the rectangle, and the final mouse position indicates a corner. You can press the :kbd:`Alt` key while still keeping |mouseleft| down to move the rectangle to a different location.
 
 You can change between the corner/corner and center/corner drawing methods as often
-as you want by pressing or releasing :kbd:`Ctrl`, provided that you keep |mouseleft| pressed. With :kbd:`Ctrl` pressed, mouse movements will affect all four corners of the rectangle (relative to the center), without :kbd:`Ctrl`, one of the corners is unaffected.
+as you want by pressing or releasing the :kbd:`Ctrl` key, provided that you keep |mouseleft| pressed. With the :kbd:`Ctrl` key pressed, mouse movements will affect all four corners of the rectangle (relative to the center), without the :kbd:`Ctrl` key, one of the corners is unaffected.
 
 Tool Options
 ------------

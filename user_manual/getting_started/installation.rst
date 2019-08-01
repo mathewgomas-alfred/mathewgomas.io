@@ -34,14 +34,14 @@ Website:
         
     Krita by default downloads an **installer EXE**, but you can also download a **portable zip-file** version instead. Unlike the installer version, this portable version does not show previews in Windows Explorer automatically. To get these previews with the portable version, also install Krita's **Windows Shell Extension** extension (available on the download page).
 
-    These files are also available from the `KDE download directory <http://download.kde.org/stable/krita/>`_.
+    These files are also available from the `KDE download directory <https://download.kde.org/stable/krita/>`_.
 Windows Store:
     For a small fee, you can download Krita `from the Windows Store <https://www.microsoft.com/store/productId/9N6X57ZGRW96>`_. This version requires Windows 10.
 Steam:
     For a small fee, you can also download Krita `from Steam <https://store.steampowered.com/app/280680/Krita/>`_. 
 
 
-To download a portable version of Krita go to the `KDE <http://download.kde.org/stable/krita/>`__ download directory
+To download a portable version of Krita go to the `KDE <https://download.kde.org/stable/krita/>`_ download directory
 and get the zip-file instead of the setup.exe installer.
 
 .. note::

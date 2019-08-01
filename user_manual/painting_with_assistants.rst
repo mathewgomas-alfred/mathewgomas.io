@@ -51,8 +51,8 @@ Concentric Ellipse
     The same an ellipse, but allows for making ellipses that are
     concentric to each other.
 
-If you press :kbd:`Shift` while holding the first two handles, they will snap
-to perfectly horizontal or vertical lines. Press :kbd:`Shift` while holding the
+If you press the :kbd:`Shift` key while holding the first two handles, they will snap
+to perfectly horizontal or vertical lines. Press the :kbd:`Shift` key while holding the
 third handle, and it'll snap to a perfect circle.
 
 .. _assistant_perspective:
@@ -65,7 +65,7 @@ This ruler takes four points and creates a perspective grid.
 This grid can be used with the 'perspective' sensor, which can influence
 brushes.
 
-If you press :kbd:`Shift` while holding any of the corner handles, they'll snap
+If you press the :kbd:`Shift` key while holding any of the corner handles, they'll snap
 to one of the other corner handles, in sets.
 
 .. _assistant_ruler:
@@ -84,7 +84,7 @@ Parallel Ruler
     This ruler allows you to draw a line parallel to the line between
     the two points anywhere on the canvas.
 
-If you press :kbd:`Shift` while holding the first two handles, they will snap
+If you press the :kbd:`Shift` key while holding the first two handles, they will snap
 to perfectly horizontal or vertical lines.
 
 .. _assistant_spline:
@@ -96,8 +96,8 @@ This assistant allows you to position and adjust four points to create a
 cubic bezier curve. You can then draw along the curve, snapping your
 brush stroke directly to the curve line. Perfect curves every time!
 
-If you press :kbd:`Shift` while holding the first two handles, they will snap
-to perfectly horizontal or vertical lines. Press :kbd:`Shift` while holding the
+If you press the :kbd:`Shift` key while holding the first two handles, they will snap
+to perfectly horizontal or vertical lines. Press the :kbd:`Shift` key while holding the
 third or fourth handle, they will snap relative to the handle they are
 attached to.
 
@@ -114,7 +114,7 @@ created perspective lines.
 
 They are made and manipulated with the :ref:`assistant_tool`.
 
-If you press :kbd:`Shift` while holding the center handle, they will snap to
+If you press the :kbd:`Shift` key while holding the center handle, they will snap to
 perfectly horizontal or vertical lines depending on the position of
 where it previously was.
 
@@ -141,8 +141,8 @@ vanishing points, but also give feedback to the relative left and right
 of the assistant. This is so you can use it in edge-cases like panoramas
 with relative ease.
 
-If you press :kbd:`Shift` while holding the first two handles, they will snap
-to perfectly horizontal or vertical lines. Press :kbd:`Shift` while holding the
+If you press the :kbd:`Shift` key while holding the first two handles, they will snap
+to perfectly horizontal or vertical lines. Press the :kbd:`Shift` key while holding the
 third handle, and it'll snap to a perfect circle.
 
 Tutorials

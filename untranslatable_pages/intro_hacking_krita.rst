@@ -29,7 +29,7 @@ Getting started with KDE Software
 
 Krita is a great place to start even if you are brand new to KDE development. We'd love to have you join! You'll be able to work on one of the coolest and fastest-growing open source painting programs out there. Krita also benefits from a modular architecture and the use of the KDE Frameworks and Qt libraries, which makes it easier to focus on new features instead of reinventing the wheel. And it makes coding fun! To work on Krita, you have to use C++ and Qt. It's a good way to learn both, actually!
 
-KDE has undergone big changes since a major `2014 reorganization <https://www.kde.org/announcements/kde-frameworks-5.0.php>`_ . As a result, working with KDE software has never been easier.  Unfortunately, since the changes were so widespread, the documentation has not caught up at all.  If you are embarking on this journey, it would be very generous to share your discoveries with others and update pages.  (=
+KDE has undergone big changes since a major `2014 reorganization <https://www.kde.org/announcements/kde-frameworks-5.0.php>`_. As a result, working with KDE software has never been easier.  Unfortunately, since the changes were so widespread, the documentation has not caught up at all.  If you are embarking on this journey, it would be very generous to share your discoveries with others and update pages.  (=
 
 Getting Started
 ---------------
@@ -42,8 +42,8 @@ Here's some links to get your started.
     * https://techbase.kde.org/Contribute
     * https://techbase.kde.org/Development/Git/Configuration
     * https://techbase.kde.org/Development/Tutorials
-    * http://flossmanuals.net/kde-guide
-    * http://doc.qt.io/  Qt has some of the best documentation of any software library.
+    * https://booki.flossmanuals.net/kde-guide/
+    * https://doc.qt.io/ Qt has some of the best documentation of any software library.
 
 #. Set up your development environment and build Krita!
 #. Find a few bugs to fix in `KDE's Bugtracking system <https://bugs.kde.org/>`_. It's often a good idea to get some experience with the code through fixing bugs, to get familiar with the development process without being overwhelmed. Though there's nothing against working on that cool feature that scratches your itch!
@@ -70,8 +70,8 @@ Integrated Development Environment (IDE)
 Resources
     The most important step to learning the code is to really understand memory management: pointers, smart pointers and pointer arithmetic. This is something that Java and C# developers will need to spend a little more time understanding. Here are a couple resources to get you more familiar with C++ and Qt:
     
-        * `Qt Concepts <http://qt-project.org/doc/qt-4.8/how-to-learn-qt.html>`_
-        * `Design Patterns with Qt <http://www.ics.com/designpatterns/book/index.html>`_
+        * `Qt Concepts <https://doc.qt.io/archives/qt-4.8/how-to-learn-qt.html>`_
+        * `Design Patterns with Qt <https://www.ics.com/designpatterns/book/index.html>`_
         * C++ in a Nutshell by O'Reilly (book)
 
 Debugging
@@ -81,7 +81,7 @@ There are large and small problems. For small problems the debugger in Qt Creato
 
 When you run a debug build of Krita, you may be surprised how little debug output you see. This is because most of Krita's debugging information is turned off by default.  The debug statements are grouped into categories such as ``dbgUI``, ``dbgKrita`` and so on.  The output categories are controlled by an environment variable ``QT_LOGGING_RULES``.
 
-The list of Krita's debug categories is contained in ``kis_debug.h`` and ``main.cc``, and the rules for the environment variable are described in the `Qt reference for QLoggingCategory <http://doc.qt.io/qt-5/qloggingcategory.html>`_.
+The list of Krita's debug categories is contained in ``kis_debug.h`` and ``main.cc``, and the rules for the environment variable are described in the `Qt reference for QLoggingCategory <https://doc.qt.io/qt-5/qloggingcategory.html>`_.
 
 As an example, to enable most of Krita's debug output, you can run the following:
 
@@ -95,7 +95,7 @@ Tips when Tackling Issues
 Features and Refactorings
     Sometimes you just know that a lot of work is going to be needed to reach a particular goal. These will go in separate feature branches off 'master'.
 Performance Improvements
-    Sometimes you don't feel like working on a feature -- or someone mentioned something being particularly slow. The first thing to do then is carry out that scenario when Krita runs under `callgrind <http://c.learncodethehardway.org/book/ex41.html>`_ and `vtune <http://en.wikipedia.org/wiki/VTune>`_. These tools show bottlenecks at the end of a run. It's important to use both, since both give different insights!
+    Sometimes you don't feel like working on a feature -- or someone mentioned something being particularly slow. The first thing to do then is carry out that scenario when Krita runs under `callgrind <http://c.learncodethehardway.org/book/ex41.html>`_ and `vtune <https://en.wikipedia.org/wiki/VTune>`_. These tools show bottlenecks at the end of a run. It's important to use both, since both give different insights!
 Bugs
     Sometimes you rummage around the bugs on b.k.o to see what looks like a nice Saturday morning fix. Sometimes a bug is really urgent (like all data loss bugs). Sometimes someone on IRC or the forum mentions a bug. The first thing to do is reproduce it. The second thing is to look in the code to see what is going on. If it's a crash bug, especially one that seems mysterious, it might help to google for a few of the key lines in the backtrace. Sometimes it's a distribution issue!
 Blockers

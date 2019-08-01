@@ -29,7 +29,7 @@ This filter seems to both multiply and respect the alpha of the input.
 Combine Normal Map
 ~~~~~~~~~~~~~~~~~~
 
-Mathematically robust blending mode for normal maps, using `Reoriented Normal Map Blending <http://blog.selfshadow.com/publications/blending-in-detail/>`_.
+Mathematically robust blending mode for normal maps, using `Reoriented Normal Map Blending <https://blog.selfshadow.com/publications/blending-in-detail/>`_.
 
 .. index:: ! Copy (Blending Mode)
 .. _bm_copy:

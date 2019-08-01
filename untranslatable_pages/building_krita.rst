@@ -22,7 +22,7 @@ If you want to help developing Krita, or if you want to run the latest version o
 
 You can build Krita on Linux, Windows and OSX. The libraries Krita needs (for instance to load and save various image types) are called dependencies.
 
-Linux is the easiest operating system to build Krita on because all the libraries that Krita needs are available on most recent Linux distributions. For an easy guide to building Krita see `Building Krita on Linux for Cats <http://www.davidrevoy.com/article193/guide-building-krita-on-linux-for-cats>`_ 
+Linux is the easiest operating system to build Krita on because all the libraries that Krita needs are available on most recent Linux distributions. For an easy guide to building Krita see `Building Krita on Linux for Cats <https://www.davidrevoy.com/article193/compil-krita-from-source-code-on-linux-for-cats>`_.
 
 On OSX you can use tools like homebrew to get the dependencies, or build the dependencies manually. Building the dependencies manually is recommended because we have a number of changes to the source for libraries to make them function better with Krita.
 
@@ -96,7 +96,7 @@ Unless you have installed all the dependencies Krita needs, on first running cma
 
     -- The following RECOMMENDED packages have not been found:
 
-    * GSL, <http://www.gnu.org/software/gsl>
+    * GSL, <https://www.gnu.org/software/gsl/>
     Required by Krita's Transform tool.
 
     

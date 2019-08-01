@@ -46,7 +46,7 @@ HSL
 HSI
     This stands for Hue, Saturation and Intensity. Unlike HSL, this one determine the intensity as the sum of total rgb components. Yellow (1,1,0) has higher intensity than blue (0,0,1) but is the same intensity as cyan (0,1,1).
 HSY'
-    Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like `Rec 709 <http://en.wikipedia.org/wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
+    Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of true luminosity. (Luminosity being the measurement of relative lightness). HSY' uses the Luma Coefficients, like `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most intuitive selector to work with, or the most confusing. 
 
 Then, under shape, you can select one of the shapes available within that color model.
 
@@ -57,7 +57,7 @@ Then, under shape, you can select one of the shapes available within that color 
 Luma Coefficients
 ~~~~~~~~~~~~~~~~~
 
-This allows you to edit the Luma coefficients for the HSY model selectors to your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec._601>`_ instead of Rec 709? These boxes allow you to do that!
+This allows you to edit the Luma coefficients for the HSY model selectors to your leisure. Want to use `Rec. 601 <https://en.wikipedia.org/wiki/Rec._601>`_ instead of Rec. 709? These boxes allow you to do that!
 
 By default, the Luma coefficients should add up to 1 at maximum.
 
@@ -96,7 +96,7 @@ If your have set the docker size considerably smaller to save space, this option
 * on mouse over
 * never
 
-The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :kbd:`Shift + M`, respectively.
+The size given here, is also the size of the Main Color Selector and the MyPaint Shade Selector when they are called with the :kbd:`Shift + I` and :kbd:`Shift + M` shortcuts, respectively.
 
 Hide Pop-up on click
     This allows you to let the pop-up selectors called with the above hotkeys to disappear upon clicking them instead of having to leave the pop-up boundary. This is useful for faster working.
@@ -116,7 +116,7 @@ MyPaint Shade Selector
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Ported from MyPaint, and extended with all color models.
-Default hotkey is :kbd:`Shift+ M`.
+Default hotkey is :kbd:`Shift + M`.
 
 Simple Shade Selector
 ~~~~~~~~~~~~~~~~~~~~~
@@ -148,12 +148,12 @@ Update After Every Stroke
 History patches
 ~~~~~~~~~~~~~~~
 
-The history patches remember which colors you've drawn on canvas with. They can be quickly called with :kbd:`H`.
+The history patches remember which colors you've drawn on canvas with. They can be quickly called with the :kbd:`H` key.
 
 Common Patches
 ~~~~~~~~~~~~~~
 
-The common patches are generated from the image, and are the most common color in the image. The hotkey for them on canvas is :kbd:`U`.
+The common patches are generated from the image, and are the most common color in the image. The hotkey for them on canvas is the :kbd:`U` key.
 
 Gamut masking
 -------------

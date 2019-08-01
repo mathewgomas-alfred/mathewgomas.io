@@ -33,7 +33,7 @@ So ideally, you would do the image in RGB, and use all your favorite RGB tools, 
     
     On the left, the original, on the right, a view where soft proofing is turned on. The difference is subtle due to the lack of really bright colors, but the soft proofed version is slightly less blueish in the whites of the flowers and slightly less saturated in the greens of the leaves.
 
-You can toggle soft proofing on any image using :kbd:`Ctrl + Y`. Unlike other programs, this is per-view, so that you can look at your image non-proofed and proofed, side by side. The settings are also per image, and saved into the .kra file. You can set the proofing options in :menuselection:`Image --> Image Properties --> Soft Proofing`.
+You can toggle soft proofing on any image using the :kbd:`Ctrl + Y` shortcut. Unlike other programs, this is per-view, so that you can look at your image non-proofed and proofed, side by side. The settings are also per image, and saved into the .kra file. You can set the proofing options in :menuselection:`Image --> Image Properties --> Soft Proofing`.
 
 There you can set the following options:
 
@@ -71,10 +71,10 @@ This can be useful to determine where certain contrasts are being lost, and to a
     
     Left: View with original image, Right: View with soft proofing and gamut warnings turned on. Krita will save the gamut warning color alongside the proofing options into the Kra file, so pick a color that you think will stand out for your current image.
 
-You can activate Gamut Warnings with :kbd:`Ctrl + Shift + Y`, but it needs soft proofing activated to work fully.
+You can activate Gamut Warnings with the :kbd:`Ctrl + Shift + Y` shortcut, but it needs soft proofing activated to work fully.
 
 .. note::
     Soft Proofing doesn’t work properly in floating-point spaces, and attempting to force it will cause incorrect gamut alarms. It is therefore disabled.
 
 .. warning::
-    Gamut Warnings sometimes give odd warnings for linear profiles in the shadows. This is a bug in LCMS, see `here <http://ninedegreesbelow.com/bug-reports/soft-proofing-problems.html>`_ for more info.
+    Gamut Warnings sometimes give odd warnings for linear profiles in the shadows. This is a bug in LCMS, see `here <https://ninedegreesbelow.com/bug-reports/soft-proofing-problems.html>`_ for more info.

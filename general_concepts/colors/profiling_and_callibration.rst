@@ -30,7 +30,7 @@ If you divide it choosing steps at a regular interval, you get what is called a 
 With 8bit/channel bit depth, we have only 256 values to store this whole line. 
 If we use a linear profile as described above to define those color values, we will miss some important visible color change steps and have a big number of values looking the same (leading to posterization effect).
 
-This is why was created the sRGB profile to fit more different colors in this limited amount of values, in a perceptually regular grading, by applying a custom gamma curve (see picture here: http://en.wikipedia.org/wiki/SRGB) to emulate the standard response curve of old CRT screens.
+This is why was created the sRGB profile to fit more different colors in this limited amount of values, in a perceptually regular grading, by applying a custom gamma curve (see picture here: https://en.wikipedia.org/wiki/SRGB) to emulate the standard response curve of old CRT screens.
 So sRGB profile is optimized to fit all colors that most common screen can reproduce in those 256 values per R/G/B channels.
 Some other profiles like Adobe RGB are optimized to fit more printable colors in this limited range, primarily extending cyan-green hues. Working with such profile can be useful to improve print results, but is dangerous if not used with a properly profiled and/or calibrated good display.
 Most common CMYK workspace profile can usually fit all their colors within 8bit/channel depth, but they are all so different and specific that it's usually better to work with a regular RGB workspace first and then convert the output to the appropriate CMYK profile.

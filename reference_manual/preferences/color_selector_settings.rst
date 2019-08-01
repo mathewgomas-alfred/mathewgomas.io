@@ -30,13 +30,13 @@ Color Hotkeys
 These allow you to set the steps for the following actions:
 
 Make Brush Color Darker
-    This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  steps. This uses luminance when possible.
+    This is defaultly set to :kbd:`K` key and uses the :guilabel:`lightness` steps. This uses luminance when possible.
 Make Brush Color Lighter
-    This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  steps. This uses luminance when possible.
+    This is defaultly set to :kbd:`L` key and uses the :guilabel:`lightness` steps. This uses luminance when possible.
 Make Brush Color More Saturated
-    This is defaultly unset and uses the :guilabel:`saturation`  steps.
+    This is defaultly unset and uses the :guilabel:`saturation` steps.
 Make Brush Color More Desaturated
-    This is defaultly unset and uses the :guilabel:`saturation`  steps.
+    This is defaultly unset and uses the :guilabel:`saturation` steps.
 Shift Brushcolor Hue clockwise
     This is defaultly unset and uses the :guilabel:`Hue` steps.
 Shift Brushcolor Hue counter-clockwise
@@ -44,8 +44,8 @@ Shift Brushcolor Hue counter-clockwise
 Make Brush Color Redder
     This is defaultly unset and uses the :guilabel:`Redder/Greener` steps.
 Make Brush Color Greener
-    This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps.
+    This is defaultly unset and uses the :guilabel:`Redder/Greener` steps.
 Make Brush Color Yellower
-    This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps.
+    This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps.
 Make Brush Color Bluer
-    This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps.
+    This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps.

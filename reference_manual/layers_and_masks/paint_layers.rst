@@ -27,4 +27,4 @@ To deal with these two drawbacks, digital artists will typically work at higher 
 
 As long as you have enough resolution / size on your canvas though, and as long as you aren't going to need to go back and tweak an effect you created previously, then a paint layer is usually the type of layer you will want. If you click on the :guilabel:`New layer` icon in the layers docker you'll get a paint layer. Of course you can always choose the :guilabel:`New layer` drop-down to get another type.
 
-The hotkey for adding a new paint layer is :kbd:`Ins`.
+The hotkey for adding a new paint layer is the :kbd:`Ins` key.

@@ -231,7 +231,7 @@ LUT docker manipulations are per view, so you can create a new view and set it t
 
 Another example is to carefully watch the gradients in a certain section.
 
-Like ICC, the LUT Docker allows you to create a profile of sorts for your device. In this case it's the 'lut', which stands for 'Look Up Table', and which can be added to OCIO by modifying the configuration file. When OCIO is turned on, the configuration in :menuselection:`Settings --> Configure Krita --> Color Management` is turned off, unless you are using the :guilabel:`Internal` color engine.
+Like ICC, the LUT Docker allows you to create a profile of sorts for your device. In this case it's the 'LUT', which stands for 'Look Up Table', and which can be added to OCIO by modifying the configuration file. When OCIO is turned on, the configuration in :menuselection:`Settings --> Configure Krita --> Color Management` is turned off, unless you are using the :guilabel:`Internal` color engine.
 
 In summary
 ----------
@@ -243,7 +243,7 @@ Krita has two modes of color management:
 * both can be made with a colorimeter.
 * If you want to have a properly color managed workflow, you have one made customary for the input device (your screen) and the output devices (your printer, or target screen). For web the output is always sRGB.
 * Set up your screen profiles under :menuselection:`Settings --> Configure Krita --> Color management`.
-* Do NOT use screen profiles or other device profiles to draw in. Use a working space profile such as any of the elle profiles for this, as the color maths will be much more predictable and pleasant. Krita will convert between your screen and working space on the fly, allowing you to pick the correct colors. This turns your screen into binoculars to view the image.
+* Do NOT use screen profiles or other device profiles to draw in. Use a working space profile such as any of the 'elle' profiles for this, as the color maths will be much more predictable and pleasant. Krita will convert between your screen and working space on the fly, allowing you to pick the correct colors. This turns your screen into binoculars to view the image.
 * Use the appropriate color management for the appropriate workflow. If you are working with Blender, you will be better off using OCIO, than ICC. If you are working with Scribus or Photoshop, use ICC.
 
 Krita does a lot of color maths, often concerning the blending of colors. This color maths works best in linear color space, and linear color space requires a bit depth of at the least 16bit to work correctly. The disadvantage is that linear space can be confusing to work in.
@@ -280,7 +280,7 @@ If you are preparing an image for the web:
 
 If you are preparing for print:
 
-* You hopefully made the picture in a working space profile instead of the actual custom profile of your screen, if not, convert it to something like Adobe RGB, sRGB or rec2020.
+* You hopefully made the picture in a working space profile instead of the actual custom profile of your screen, if not, convert it to something like Adobe RGB, sRGB or Rec. 2020.
 * Check with the printer what kind of image they expect. Maybe they expect sRGB color space, or perhaps they have their own profile.
 
 Interaction with other applications
@@ -339,7 +339,7 @@ Print
 Input
     Your screen profile. (You pick colors via your screen)
 Workingspace
-    sRGB or rec2020 if you can afford the bit-depth being 16bit.
+    sRGB or Rec. 2020 if you can afford the bit-depth being 16bit.
 Output
     Specialized CMYK profile from the printing house for the printed images.
 

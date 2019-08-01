@@ -24,7 +24,7 @@ First, select the fill_circle:
 .. image:: /images/brush-tips/Brushtip-Rainbow.png
     :alt: selecting fill circle for brush tip
 
-Then, press :kbd:`F5` to open the brush editor, and toggle **Hue**.
+Then, press the :kbd:`F5` key to open the brush editor, and toggle **Hue**.
 
 .. image:: /images/brush-tips/Brushtip-Rainbow_2.png
     :alt: toggle hue in the brush parameter

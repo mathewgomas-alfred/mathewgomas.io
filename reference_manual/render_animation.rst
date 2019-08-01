@@ -65,7 +65,7 @@ Step 1 - Downloading FFmpeg
 For Windows
 ^^^^^^^^^^^
 
-Go to the `FFmpeg website <http://ffmpeg.org/download.html>`_. The URL that had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_
+Go to the `FFmpeg website <https://ffmpeg.org/download.html>`_. The URL that had the link for me was `here... <https://ffmpeg.zeranoe.com/builds/>`_
 
 Watch out for the extremely annoying google and that looks like a download button! There is no big button for what we need. Either get the 64-bit STATIC version or 32-bit STATIC version that is shown later down the page. If you bought a computer in the past 5 years, you probably want the 64-bit version. Make sure you get a exe file, if you hover over the options they will give more information about what exactly you are downloading.
 
@@ -87,7 +87,7 @@ For Windows
 
 Unzip the package that was just downloaded. Rename the long folder name to just ffmpeg. Let's put this folder in a easy to find location. Go to your C:\ and place it there. You can put it wherever you want, but that is where I put it. 
 
-Open Krita back up and go to :menuselection:`File --> Render Animation`. Click the :guilabel:`Browse`  button on the last item called FFmpeg. Select this file ``C:/ffmpeg/bin/ffmpeg.exe``  and click :guilabel:`OK` .
+Open Krita back up and go to :menuselection:`File --> Render Animation`. Click the :guilabel:`Browse` button on the last item called FFmpeg. Select this file ``C:/ffmpeg/bin/ffmpeg.exe`` and click :guilabel:`OK`.
 
 For OSX
 ^^^^^^^

@@ -62,21 +62,21 @@ Transform/Move
 
 .. image:: /images/vector/Transform.png
 
-This feature of the tool allows you to move your object by clicking and dragging your shape around the canvas. Holding :kbd:`Ctrl`  will lock your moves to one axis.
+This feature of the tool allows you to move your object by clicking and dragging your shape around the canvas. Holding the :kbd:`Ctrl` key will lock your moves to one axis.
 
 Size/Stretch
 ~~~~~~~~~~~~
 
 .. image:: /images/vector/Resize.png
 
-This feature of the tool allows you to stretch your shape.  Selecting a midpoint will allow stretching along one axis. Selecting a corner point will allow stretching across both axis. Holding :kbd:`Shift`  will allow you to scale your object. Holding :kbd:`Ctrl`  will cause your manipulation to be mirrored across your object.
+This feature of the tool allows you to stretch your shape.  Selecting a midpoint will allow stretching along one axis. Selecting a corner point will allow stretching across both axis. Holding the :kbd:`Shift` key will allow you to scale your object. Holding the :kbd:`Ctrl` key will cause your manipulation to be mirrored across your object.
 
 Rotate
 ~~~~~~
 
 .. image:: /images/vector/Rotatevector.png
 
-This feature of the tool will allow you to rotate your object around its center. Holding :kbd:`Ctrl`  will cause your rotation to lock to 45 degree angles.
+This feature of the tool will allow you to rotate your object around its center. Holding the :kbd:`Ctrl` key will cause your rotation to lock to 45 degree angles.
 
 Skew
 ~~~~
@@ -92,7 +92,7 @@ This feature of the tool will allow you to skew your object.
 Point and Curve Shape Manipulation
 ----------------------------------
 
-Double-click on a vector object to edit the specific points or curves which make up the shape. Click and drag a point to move it around the canvas. Click and drag along a line to curve it between two points. Holding :kbd:`Ctrl`  will lock your moves to one axis.
+Double-click on a vector object to edit the specific points or curves which make up the shape. Click and drag a point to move it around the canvas. Click and drag along a line to curve it between two points. Holding the :kbd:`Ctrl` key will lock your moves to one axis.
 
 .. image:: /images/vector/Pointcurvemanip.png
 

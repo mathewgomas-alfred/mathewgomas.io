@@ -72,7 +72,7 @@ You view the image via a **View**.
 View
 ~~~~
 
-A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose some common mistakes, like a drawing which is skewed towards one side. Mirroring with :kbd:`M` makes such skewing easy to identify.
+A view is a window onto your image. Krita allows you to have multiple views, and you can manipulate the view to zoom, rotate and mirror and modify the color of the way you see an image without editing the image itself. This is very useful for artists, as changing the way they view the image is a common way to diagnose some common mistakes, like a drawing which is skewed towards one side. Mirroring with the :kbd:`M` key makes such skewing easy to identify.
 
 If you have trouble drawing certain curves you will enjoy using rotation for drawing, and of course, there is zooming in and out for precision and rough work.
 
@@ -81,7 +81,7 @@ If you have trouble drawing certain curves you will enjoy using rotation for dra
 
    Multiple views of the same image in Krita
 
-Multiple views are possible in Krita via :menuselection:`Window --> New view --> image name`. You can switch between them via the :guilabel:`Window` menu, or :kbd:`Ctrl + Tab`, or keep them in the same area when **subwindow** mode is active in the :ref:`settings <general_settings>`, via :menuselection:`Window --> Tile`.
+Multiple views are possible in Krita via :menuselection:`Window --> New view --> image name`. You can switch between them via the :guilabel:`Window` menu, or the :kbd:`Ctrl + Tab` shortcut, or keep them in the same area when **subwindow** mode is active in the :ref:`settings <general_settings>`, via :menuselection:`Window --> Tile`.
 
 Dockers
 ~~~~~~~
@@ -182,7 +182,7 @@ For example, the pixel-brush engine is simple and allows you to do most of your 
 
 If you want something totally different from that, the sketch brush engine helps with making messy lines, and the shape brush engine allows you to make big flats quickly. There are a lot of cool effects inside Krita's brush engines, so try them all out, and be sure to check the chapters on each.
 
-You can configure these effects via the Brush Settings drop-down, which can be quickly accessed via :kbd:`F5`. These configurations can then be saved into presets, which you can quickly access with :kbd:`F6` or the Brush Presets docker.
+You can configure these effects via the Brush Settings drop-down, which can be quickly accessed via the :kbd:`F5` key. These configurations can then be saved into presets, which you can quickly access with the :kbd:`F6` key or the Brush Presets docker.
 
 Brushes draw with colors, but how do computers understand colors?
 
@@ -235,7 +235,7 @@ Multiply
 Addition
  Another common one is :menuselection:`Addition`, which adds one layer's components to the other, making it perfect for special glow effects.
 Erasing
- :menuselection:`Erasing` is a blending mode in Krita. There is no eraser tool, but you can toggle on the brush quickly with :kbd:`E` to become an eraser. You can also use it on layers. Unlike the other blending modes, this one only affects the alpha channel, making things more transparent.
+ :menuselection:`Erasing` is a blending mode in Krita. There is no eraser tool, but you can toggle on the brush quickly with the :kbd:`E` key to become an eraser. You can also use it on layers. Unlike the other blending modes, this one only affects the alpha channel, making things more transparent.
 Normal
  The :menuselection:`Normal` blend mode just averages between colors depending on how transparent the topmost color is.
 

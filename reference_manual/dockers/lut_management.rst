@@ -40,7 +40,7 @@ Components
     Allows you to study a single channel of your image with LUT.
 Exposure
     Set the general exposure. On 0.0 at default.
-    There's :kbd:`Y` to change this on the fly on canvas.
+    There's the :kbd:`Y` key to change this on the fly on canvas.
 Gamma
     Allows you to set the gamma. This is 1.0 by default. You can set this to change on the fly in canvas shortcuts.
 Lock color

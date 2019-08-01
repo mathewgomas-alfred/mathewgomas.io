@@ -23,10 +23,10 @@ The Layers docker is for one of the core concepts of Krita: :ref:`Layer Manageme
 The Layer Stack
 ---------------
 
-You can select the active layer here. Using :kbd:`Shift` and :kbd:`Ctrl` you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
+You can select the active layer here. Using the :kbd:`Shift` and :kbd:`Ctrl` keys you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
 
 Name
-    The Layer name, just do double- |mouseleft| to make it editable, and press :kbd:`Enter` to finish editing.
+    The Layer name, just do double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
 Label
     This is a color that you can set on the layer. |mouseright| the layer to get a context menu to assign a color to it. You can then later filter on these colors.
 Blending Mode
@@ -50,7 +50,7 @@ Onion Skin
 Layer Style
     This is only available on layers which have a :ref:`layer_style` assigned. The button allows you to switch between on/off quickly.
 
-To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press :kbd:`F3`.
+To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press the :kbd:`F3` key.
 There, to change the names of all layers, the checkbox before :guilabel:`Name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer names. You can change other layer properties like visibility, opacity, lock states, etc. too.
 
 .. image:: /images/layers/Krita-multi-layer-edit.png
@@ -63,7 +63,7 @@ These are buttons for doing layer operations.
 Add
     Will by default add a new Paint Layer, but using the little arrow, you can call a sub-menu with the other layer types.
 Duplicate
-    Will Duplicate the active layer(s). Can be quickly invoked with :kbd:`Ctrl` + |mouseleft| + drag.
+    Will Duplicate the active layer(s). Can be quickly invoked with the :kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut.
 Move layer up.
     Will move the active layer up. Will switch them out and in groups when coming across them.
 Move layer down.
@@ -76,17 +76,17 @@ Delete
 Hot keys and Sticky Keys
 ------------------------
 
-* :kbd:`Shift` for selecting multiple contiguous layers.
-* :kbd:`Ctrl` for select or deselect layer without affecting other layers selection.
-* :kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, for you to drag and drop.
-* :kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, layer styles and will keep selection masks intact. Using :kbd:`Ctrl + E` on a single layer with a mask will merge down the mask into the layer.
-* :kbd:`Ctrl + Shift + E` merges all layers.
-* :kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for multiple layers.
-* :kbd:`Ins` for adding a new layer. 
-* :kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, they are put into the group layer.
-* :kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!
-* :kbd:`Ctrl + Alt + G` will ungroup layers inside a group.
-* :kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain between layers till the same action is repeated again.
-* :kbd:`Page Up` and :kbd:`Page Down` for switching between layers.
-* :kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected layers up and down.
+* :kbd:`Shift` key for selecting multiple contiguous layers.
+* :kbd:`Ctrl` key for select or deselect layer without affecting other layers selection.
+* :kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut makes a duplicate of the selected layers, for you to drag and drop.
+* :kbd:`Ctrl + E` shortcut for merging a layer down. This also merges selected layers, layer styles and will keep selection masks intact. Using the :kbd:`Ctrl + E` shortcut on a single layer with a mask will merge down the mask into the layer.
+* :kbd:`Ctrl + Shift + E` shortcut merges all layers.
+* :kbd:`R +` |mouseleft| shortcut allows you to select layers on canvas, similar to picking colors directly on canvas. Use the :kbd:`Shift + R +` |mouseleft| shortcut for multiple layers.
+* :kbd:`Ins` key for adding a new layer. 
+* :kbd:`Ctrl + G` shortcut will create a group layer. If multiple layers are selected, they are put into the group layer.
+* :kbd:`Ctrl + Shift + G` shortcut will quickly set-up a clipping group, with the selected layers added into the group, and a new layer added on top with alpha-inheritance turned on, ready for painting!
+* :kbd:`Ctrl + Alt + G` shortcut will ungroup layers inside a group.
+* :kbd:`Alt +` |mouseleft| shortcut for isolated view of a layer. This will maintain between layers till the same action is repeated again.
+* :kbd:`Page Up` and :kbd:`Page Down` keys for switching between layers.
+* :kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` shortcuts will move the selected layers up and down.
 

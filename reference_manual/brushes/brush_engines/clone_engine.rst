@@ -35,11 +35,11 @@ Usage and Hotkeys
 
 To see the source, you need to set the brush-cursor settings to brush outline.
 
-The clone tool can now clone from the projection and it's possible to change the clone source layer. Press :kbd:`Ctrl + Alt +` |mouseleft| to select a new clone source on the current layer. :kbd:`Ctrl +` |mouseleft| to select a new clone source point on the layer that was active when you selected the clone op.
+The clone tool can now clone from the projection and it's possible to change the clone source layer. Press the :kbd:`Ctrl + Alt +` |mouseleft| shortcut to select a new clone source on the current layer. The :kbd:`Ctrl +` |mouseleft| shortcut to select a new clone source point on the layer that was active when you selected the clone op.
 
 .. warning::
 
-    :kbd:`Ctrl + Alt +` |mouseleft| is temporarily disabled on 2.9.7.
+    The :kbd:`Ctrl + Alt +` |mouseleft| shortcut is temporarily disabled on 2.9.7.
 
 Settings
 --------

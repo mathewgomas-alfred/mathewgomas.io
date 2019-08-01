@@ -17,7 +17,7 @@ Color Selector Tool
 ===================
 
 
-This tool allows you to choose a point from the canvas and make the color of that point the active foreground color. When a painting or drawing tool is selected the Color Picker tool can also be quickly accessed by pressing :kbd:`Ctrl`.
+This tool allows you to choose a point from the canvas and make the color of that point the active foreground color. When a painting or drawing tool is selected the Color Picker tool can also be quickly accessed by pressing the :kbd:`Ctrl` key.
 
 .. image:: /images/tools/Color_Dropper_Tool_Options.png
 

@@ -29,10 +29,10 @@ Hotkeys and Stickykeys
 * :kbd:`Shift` after starting the selection, constraints it to a perfect square.
 * :kbd:`Ctrl` after starting the selection, makes the selection resize from center.
 * :kbd:`Alt` after starting the selection, allows you to move it.
-* :kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'. You can release the :kbd:`Shift` key while dragging, but it will still be set to 'add'. Same for the others.
-* :kbd:`Alt` + |mouseleft| sets the subsequent selection to  'subtract'.
-* :kbd:`Ctrl` + |mouseleft| sets the subsequent selection to  'replace'.
-* :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to  'intersect'.
+* :kbd:`Shift +` |mouseleft| sets the subsequent selection to 'add'. You can release the :kbd:`Shift` key while dragging, but it will still be set to 'add'. Same for the others.
+* :kbd:`Alt +` |mouseleft| sets the subsequent selection to 'subtract'.
+* :kbd:`Ctrl +` |mouseleft| sets the subsequent selection to 'replace'.
+* :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to 'intersect'.
 
 .. versionadded:: 4.2
 
@@ -41,12 +41,12 @@ Hotkeys and Stickykeys
 
 .. note::
 
-    So to subtract a perfect square, you do :kbd:`Alt +` |mouseleft|, then release the :kbd:`Alt` key while dragging and press :kbd:`Shift` to constrain.
+    So to subtract a perfect square, you do :kbd:`Alt +` |mouseleft|, then release the :kbd:`Alt` key while dragging and press the :kbd:`Shift` key to constrain.
 
 
 .. note::
 
-    You can switch the behavior of the :kbd:`Alt` key to use :kbd:`Ctrl` instead by toggling the switch in the :ref:`general_settings`.
+    You can switch the behavior of the :kbd:`Alt` key to use the :kbd:`Ctrl` key instead by toggling the switch in the :ref:`general_settings`.
 
 Tool Options
 ------------

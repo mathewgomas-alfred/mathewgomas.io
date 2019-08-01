@@ -466,4 +466,4 @@ Finished translations also need to be added to the build script to show up onlin
 Other
 -----
 
-For restructured text conventions, check :ref:`krita_markup_conventions` .
+For restructured text conventions, check :ref:`krita_markup_conventions`.

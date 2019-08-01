@@ -35,7 +35,7 @@ Brush Packs
                
                Concept art & Illustration Pack
         * - .. figure:: /images/resource_packs/Resources-aldyBrushes.jpg
-               :target: http://al-dy.deviantart.com/art/Aldys-Brush-Pack-for-Krita-196128561
+               :target: https://www.deviantart.com/al-dy/art/Aldys-Brush-Pack-for-Krita-2-3-1-196128561
                
                Al-dy
           - .. figure:: /images/resource_packs/Resources-vascoBrushes.jpg
@@ -43,11 +43,11 @@ Brush Packs
                
                Vasco Basqué
           - .. figure:: /images/resource_packs/Resources-meemodrawsBrushes.jpg
-               :target: http://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
+               :target: https://meemodraws.deviantart.com/art/Krita-Brush-Pack-311306611
                
                Meemodraws
         * - .. figure:: /images/resource_packs/Resources-stalcryBrushes.jpg
-               :target: http://stalcry.deviantart.com/art/Krita-Custom-Brushes-350338351
+               :target: https://www.deviantart.com/stalcry/art/Krita-Custom-Brushes-350338351
                
                Stalcry
           - .. figure:: /images/resource_packs/Resources-woltheraBrushes.jpg
@@ -55,7 +55,7 @@ Brush Packs
                
                Wolthera
           - .. figure:: /images/resource_packs/Resources-nylnook.jpg
-               :target: http://nylnook.com/en/blog/krita-brushes-pack-v2/
+               :target: https://nylnook.art/en/blog/krita-brushes-pack-v2/
                
                Nylnook
         * - .. figure:: /images/resource_packs/Resources-hushcoilBrushes.png
@@ -106,7 +106,7 @@ To install and manage your plugins, visit the :ref:`krita_python_plugin_howto` a
 
 Direct Eraser Plugin
 
-    http://www.mediafire.com/file/sotzc2keogz0bor/Krita+Direct+Eraser+Plugin.zip
+    https://www.mediafire.com/file/sotzc2keogz0bor/Krita+Direct+Eraser+Plugin.zip
 
 Tablet Controls Docker
 

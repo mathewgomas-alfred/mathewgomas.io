@@ -221,7 +221,7 @@ Where can I find older versions of Krita?
 
 All the older versions of Krita that are still available can be found here:
 
--  `Very old builds <http://download.kde.org/Attic/krita>`_
+-  `Very old builds <https://download.kde.org/Attic/krita/>`_
 
 On Windows, the Krita User Interface is too small on my HiDPI screen
 --------------------------------------------------------------------
@@ -265,11 +265,11 @@ First, check if you have installed drivers and the like. The :ref:`drawing_table
     
     .. versionchanged:: 4.2
     
-        The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or MacOS, or for Windows install `DebugView <http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx>`_ from the official Microsoft site, start DebugView and then start Krita.
+        The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or MacOS, or for Windows install `DebugView <https://docs.microsoft.com/en-us/sysinternals/downloads/debugview>`_ from the official Microsoft site, start DebugView and then start Krita.
         
         When using a terminal, make sure to enable 'unlimited scrollback'
 
-#. Press :kbd:`Ctrl + Shift + T`, you will see a message box telling the logging has started.
+#. Press the :kbd:`Ctrl + Shift + T` shortcut, you will see a message box telling the logging has started.
 #. Try to reproduce your problem, you will be able to see the log being created in the log viewer as you draw.
 #. Save the output from the log viewer into a txt file, and attach it to the bugreport.
 
@@ -299,9 +299,9 @@ Tablet Pro and the Surface Pro
 
 Unlike Wacom's Companion, the Surface line of tablets doesn't have working hardware buttons. Tablet Pro is a (non-free) utility that puts virtual buttons on screen. Krita 3.1 and above will have predefined shortcut profiles to work with Tablet Pro.
 
-http://tabletpro.net/
+https://tabletpro.com/
 
-See http://www.youtube.com/watch?v=WKXZgYqC3tI for instructions.
+See https://www.youtube.com/watch?v=WKXZgYqC3tI for instructions.
 
 Weird stuff happens on Windows, like ripples, rings, squiggles or poltergeists
 ------------------------------------------------------------------------------
@@ -446,7 +446,7 @@ Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson Tan. 
 Why is Krita Free?
 ------------------
 
-Krita is developed as `free software <http://www.gnu.org/>`_ within the KDE community. We believe that good tools should be available for all artists. You can also buy Krita on the Windows Store if you want to support Krita's development or want to have automatic updates to newer versions.
+Krita is developed as `free software <https://www.gnu.org/>`_ within the KDE community. We believe that good tools should be available for all artists. You can also buy Krita on the Windows Store if you want to support Krita's development or want to have automatic updates to newer versions.
 
 Can I use Krita commercially?
 -----------------------------
@@ -466,7 +466,7 @@ Not at this point in time.
 Who translates Krita
 --------------------
 
-Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! That means that Krita’s translations are done by `KDE localization teams <http://i18n.kde.org/>`_. If you want to help out, join the team for your language! There is another way you can help out making Krita look good in any language, and that is join the development team and fix issues within the code that make Krita harder to translate.
+Krita is a `KDE application <https://www.kde.org/>`_ — and proud of it! That means that Krita’s translations are done by `KDE localization teams <https://l10n.kde.org/>`_. If you want to help out, join the team for your language! There is another way you can help out making Krita look good in any language, and that is join the development team and fix issues within the code that make Krita harder to translate.
 
 Reference
 =========

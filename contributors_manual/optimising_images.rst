@@ -28,11 +28,11 @@ So, instead, we'll make a screenshot. Depending on your operating system, there 
 Windows
 ~~~~~~~
 
-Windows has a build-in screenshot tool. It is by default on the :kbd:`PrtSc` key. On laptops you will sometimes need to use the :kbd:`Fn` key.
+Windows has a build-in screenshot tool. It is by default on the :kbd:`Print Screen` key. On laptops you will sometimes need to use the :kbd:`Fn` key.
 
 Linux
 ~~~~~
-Both Gnome and KDE have decent screenshot tools showing up by default when using the :kbd:`PrtSc` key, as well do other popular desktop environments. If, for whatever reason, you have no
+Both Gnome and KDE have decent screenshot tools showing up by default when using the :kbd:`Print Screen` key, as well do other popular desktop environments. If, for whatever reason, you have no
 
 ImageMagick
     With imagemagick, you can use the following command::
@@ -98,7 +98,7 @@ There is a whole laundry list of `PNG optimisation tools <https://css-ig.net/png
 
         pngquant --quality=80-100 image.png
 
-    Where *image* is replaced with the image file name. When you press :kbd:`Enter`, a new image will appear in the folder with the compressed results.
+    Where *image* is replaced with the image file name. When you press the :kbd:`Enter` key, a new image will appear in the folder with the compressed results.
     PNGQuant works for most images, but some images, like the color selectors don't do well with it, so always double check that the resulting image looks good, otherwise try one of the following options:
 `PNGCrush <https://pmt.sourceforge.io/pngcrush/>`_
     A lossless PNG compressor. Usage::
@@ -237,7 +237,7 @@ ImageMagick
 
     For Creative Commons BY-SA 4.0::
 
-        convert -set dcterms:license "CC-BY-SA-4.0 http://creativecommons.org/licenses/by-sa/4.0/" image.png
+        convert -set dcterms:license "CC-BY-SA-4.0 https://creativecommons.org/licenses/by-sa/4.0/" image.png
 
 The problem with using properties is that they are a non-standard way to define a license, meaning that machines cannot do much with them.
 
@@ -250,11 +250,11 @@ We'll need to use the `XMP tags for exiftool <https://www.sno.phy.queensu.ca/~ph
 
 So that would look something like this::
 
-    exiftool -Marked=true -License="http://creativecommons.org/licenses/by-sa/4.0" -UsageTerms="This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>." -Copyright="CC-BY-SA-NC 4.0" image.png
+    exiftool -Marked=true -License="https://creativecommons.org/licenses/by-sa/4.0" -UsageTerms="This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>." -Copyright="CC-BY-SA-NC 4.0" image.png
 
 Another way of doing the marking is::
 
-    exiftool -Marked=true -License="http://creativecommons.org/licenses/by-sa/4.0" -attributionURL="docs.krita.org" attributionName="kritaManual" image.png
+    exiftool -Marked=true -License="https://creativecommons.org/licenses/by-sa/4.0" -attributionURL="docs.krita.org" attributionName="kritaManual" image.png
 
 With imagemagick you can use the profile option again.
     First extract the data (if there is any)::
