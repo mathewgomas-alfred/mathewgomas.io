@@ -49,7 +49,7 @@ Quick solutions
 
       #. Wintab: older standard; it supports multiple buttons and high number of pressure levels high. If it works fine for you, don't change to Windows Ink. 2-in-1 devices by default use Windows Ink, you can get a Wintab driver but you need to install it separately. 
       
-      #. Windows Ink: newer standard; it cuts the pressure levels to 1024. It is more suitable for 2-in-1 devices like Surfacce Pro and Yoga. Some less known brands might not have this standard implemented.
+      #. Windows 8+ Pointer (Windows Ink): newer standard; it cuts the pressure levels to 1024. It is more suitable for 2-in-1 devices like Surfacce Pro and Yoga. Some less known brands might not have this standard implemented.
 
 *For Windows, tablet/digitizer devices (not convertible/2-in-1 ones):*
 
@@ -57,8 +57,7 @@ Quick solutions
 
 #. *Wacom tablets:* if you get straight lines at the beginnings of the strokes, first try to update your driver: it should be fixed in 6.3.34-3. If it doesn't work, disable/minimize "double-click distance" in Wacom settings.
 
-#. *XP-Pen tablets, pressure being uneven:* either switch to Windows 8+ Pointer, or disable Windows Ink in XP-Pen settings.
-
+#. *XP-Pen tablets, pressure being uneven:* either switch to Windows 8+ Pointer (Windows Ink) in :menuselection:`Configure Krita --> Tablet Settings`, or disable Windows Ink in XP-Pen settings.
 
 
 Gathering information
@@ -70,7 +69,7 @@ Gathering information
 
 #. What is the version of the tablet driver?
 
-#. Please collect Tablet Tester (:menuselection:`Settings --> Configure Krita... --> Tablet Settings`) text output and share it: :ref:`intro_user_support_sharing_files`.
+#. Please collect Tablet Tester (:menuselection:`Configure Krita --> Tablet Settings --> Tablet Tester``) text output and share it: :ref:`intro_user_support_sharing_files`.
 
 #. More detailed Tablet Events log:
 
@@ -100,7 +99,7 @@ Additional information for supporters
 
 #. Huion tablets should work on Windows and on Linux, on Mac there might be issues.
 
-#. XP-Pen tablets and other brands can have issues everywhere.
+#. XP-Pen tablets and the rest of brands can have issues everywhere (on all systems).
 
 #. If someone asks about a tablet to buy, generally a cheaper Wacom or a Huion are the best options as of 2019, if they want to work with Krita. :ref:`list_supported_tablets`.
 
@@ -133,7 +132,7 @@ In case of crash try to determine if the problem is known, if not, instruct user
 
 #. Is it possible to reproduce (repeat)? If yes, provide a step-by-step instruction to get the crash.
 
-#. Backtrace (crashlog) -- the instruction is here: :ref:`dr_minw`, and the debug symbols can be found in the annoucement of the version of Krita that the user has. But it could be easier to just point the user to `https://download.kde.org/stable/krita <https://download.kde.org/stable/krita>`_.
+#. Backtrace (crashlog) -- the instruction for Windows is here: :ref:`dr_minw`, and the debug symbols can be found in the annoucement of the version of Krita that the user has. But it could be easier to just point the user to `https://download.kde.org/stable/krita <https://download.kde.org/stable/krita>`_.
 
 
 Other possible questions with quick solutions
@@ -141,8 +140,7 @@ Other possible questions with quick solutions
 
 #. When the user has any weird issue, something you've never heard about, ask them to reset the configuration: :ref:`faq_reset_krita_configuration`.
 
-
-#. When the user has trouble with anything related to preview or display, ask them to change :guilabel:`Canvas Graphics Acceleration` in :menuselection:`Settings --> Configure Krita... --> Display`.
+#. When the user on Windows has trouble with anything related to preview or display, ask them to change :guilabel:`Canvas Graphics Acceleration` in :menuselection:`Settings --> Configure Krita --> Display`.
 
     .. note::
     
@@ -186,8 +184,25 @@ How to share a file
       
       
       If you ask user to store their log or other data on a website, make sure it stays there long enough for you to get it -- for example bpaste.net stores files by default only for a day! And you can extend it only to one week.
-      
+
 	  
   .. admonition:: Blocked websites
       
       If the user is behind a firewall of some sorts (for example lives in China), websites with [*] will probably be blocked; please use the alternatives.
+
+
+
+How to get the best user support
+--------------------------------
+
+#. Remember -- most probably the person you're interacting with is a volunteer, and even if not, it's not someone actually paid for doing user support.
+Treat them nicely and respect their time! They will for sure reciprocate that.
+
+#. State all relevant details: most importantly your operating system (Windows, MacOS, Linux...), which version of Krita you use (go to :menuselection:`Help -> About Krita` to find out) and
+what kind of tablet you have (if your issue is related to a tablet driver).
+
+#. Answer all questions your supporter asks, even if you don't think they're relevant. They probably have a reason to ask about that.
+
+#. If you don't know the answer or you don't know how to get the information your supporter asks for, don't hesitate to ask for clarification.
+
+#. If you mentioned an issue, please help with testing if you're asked to do that -- that will speed up the process of finding the cause and preparing a fix.
