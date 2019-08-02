@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-15 08:33+0100\n"
+"PO-Revision-Date: 2019-08-02 00:14+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -22,6 +22,8 @@ msgid ""
 ".. image:: images/icons/Krita_mouse_right.png\n"
 "   :alt: mouseright"
 msgstr ""
+".. image:: images/icons/Krita_mouse_right.png\n"
+"   :alt: höger musknapp"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:None
 msgid ".. image:: images/preferences/Configure_Toolbars_Krita.png"
@@ -39,7 +41,7 @@ msgstr ".. image:: images/preferences/Toolbars_Shown.png"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:1
 msgid "The settings menu in Krita."
-msgstr ""
+msgstr "Inställningsmenyn i Krita"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:17
 msgid "Setting Menu"
@@ -50,6 +52,8 @@ msgid ""
 "The Settings Menu houses the configurable options in Krita and where you "
 "determine most of the \"look and feel\" of the application."
 msgstr ""
+"Inställningsmenyn innehåller inställningsalternativen i Krita och där man"
+" bestämmer det mesta av programmets \"utseende och känsla\"."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:21
 #: ../../reference_manual/main_menu/settings_menu.rst:34
@@ -72,6 +76,13 @@ msgid ""
 "things Krita lets you do then there's no point getting caught up in flipping "
 "the docks on and off.  Use you time wisely!"
 msgstr ""
+"Bestämmer om panelerna är synliga eller inte. Det är till stor hjälp för att"
+" städa gränssnittet och ta bort onödig \"virrvarr\" när man målar. Om man har"
+" en pensel och vet att man bara ska måla en stund, varför inte stänga av"
+" panelerna? Det är förvånande vilken skillnad det gör medan man arbetar. Om"
+" man dock vet att man byter verktyg eller arbetar med lager, eller någon"
+" annan av den myriad av saker som Krita möjliggör, är det onödigt att hålla"
+" på att stänga av och sätta på panelerna. Använd tiden klokt!"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:31
 msgid ""
@@ -79,6 +90,10 @@ msgid ""
 "dockers on and off and don't even have to open the menu to do it. See :ref:"
 "`configure_toolbars` below for more."
 msgstr ""
+"Det är en utmärkt kandidat för att lägga till i verktygsraden så att man bara"
+" kan klicka för att stänga av och sätta på panelerna och inte ens behöver"
+" använda menyn för att göra det. Se :ref:`configure_toolbars` nedan för mer"
+" om det."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:36
 msgid ""
@@ -93,6 +108,8 @@ msgid ""
 "Learning to use dockers effectively is a key concept to optimizing your time "
 "using Krita."
 msgstr ""
+"Att lära sig hur man använder panelerna effektivt är ett nyckelkoncept för"
+" att optimera tiden vid användning av Krita."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:40
 #: ../../reference_manual/main_menu/settings_menu.rst:43
@@ -105,25 +122,27 @@ msgstr "Tema"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:40
 msgid "Look and Feel"
-msgstr ""
+msgstr "Utseende och känsla"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:45
 msgid ""
 "Krita provides a number of color-themed interfaces or \"looks\".  The "
 "current set of themes are the following:"
 msgstr ""
+"Krita tillhandahåller ett antal gränssnitt med olika färgteman eller"
+" \"utseenden\". Nuvarande uppsättning teman är följande:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:47
 msgid "Dark (Default)"
-msgstr ""
+msgstr "Dark (förval)"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:48
 msgid "Blender"
-msgstr ""
+msgstr "Blender"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:49
 msgid "Bright"
-msgstr "Lysande"
+msgstr "Bright"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:50
 msgid "Neutral"
@@ -135,6 +154,8 @@ msgid ""
 "defined in the :menuselection:`Share --> Color Schemes` folder where Krita "
 "is downloaded."
 msgstr ""
+"Det finns inget enkelt sätt att skapa och dela teman. Färgteman definieras i"
+" katalogen :menuselection:`Dela --> Färgscheman` där Krita laddas ner."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:55
 msgid "Configure Shortcuts"
@@ -161,20 +182,22 @@ msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:61
 msgid "Type \"Group Layer\"."
-msgstr ""
+msgstr "Skriv in \"Grupplager\"."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:62
 msgid "Click on Group Layer and a small inset box will open."
-msgstr ""
+msgstr "Klicka på Grupplager så visas en liten infogad ruta."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:63
 msgid "Click the Custom radio button."
-msgstr ""
+msgstr "Klicka på alternativknappen Egen."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:64
 msgid ""
 "Click on the first button and type the :kbd:`Ctrl + G`  key combination."
 msgstr ""
+"Klicka på den första knappen och skriv in tangentkombinationen :kbd:`Ctrl +"
+" G`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:65
 msgid "Click OK."
@@ -201,10 +224,12 @@ msgid ""
 "Manage the resources. You can read more about it :ref:`here "
 "<resource_management>`."
 msgstr ""
+"Hantera resurserna. Det går att läsa mer om det :ref:`här <"
+"resource_management>`."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:77
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:81
 msgid "Switch Application Language"
@@ -212,7 +237,7 @@ msgstr "Ändra programmets språk"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:83
 msgid "If you wish to use Krita in a different translation."
-msgstr ""
+msgstr "Om du vill använda Krita med en annan översättning."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:85
 msgid "Toolbar"
@@ -231,15 +256,17 @@ msgstr ""
 
 #: ../../reference_manual/main_menu/settings_menu.rst:96
 msgid "The dialog is broken down into three main sections:"
-msgstr ""
+msgstr "Dialogrutan är uppdelad i tre huvudsektioner:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:98
 msgid "The Toolbar"
-msgstr ""
+msgstr "Verktygsraden"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:99
 msgid "Choose to either modify the \"File\" or \"Brushes and Stuff\" toolbars."
 msgstr ""
+"Välj för att antingen ändra verktygsraden \"Arkiv\" eller \"Penslar med"
+" mera\"."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:100
 msgid "Available Actions:"
@@ -247,7 +274,7 @@ msgstr "Tillgängliga åtgärder:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:101
 msgid "All the options that can be added to a toolbar."
-msgstr ""
+msgstr "Alla alternativen som kan läggas till i en verktygsrad."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:103
 msgid "Current Actions:"
@@ -256,6 +283,7 @@ msgstr "Aktuella åtgärder:"
 #: ../../reference_manual/main_menu/settings_menu.rst:103
 msgid "All the actions currently assigned and the order they are in."
 msgstr ""
+"Alla åtgärderna som för närvarande är tilldelade, och ordningen de har."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:105
 msgid ""
@@ -301,13 +329,15 @@ msgstr "Visade verktygsrader"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:117
 msgid "Gives a list of toolbars that can be shown."
-msgstr ""
+msgstr "Ger en lista över verktygsrader som kan visas."
 
 #: ../../reference_manual/main_menu/settings_menu.rst:119
 msgid ""
 "At this time Krita does not support the ability to create additional "
 "toolbars. The ones available are:"
 msgstr ""
+"För närvarande stöder Krita inte möjligheten att skapa ytterligare"
+" verktygsrader. De som är tillgängliga är:"
 
 #: ../../reference_manual/main_menu/settings_menu.rst:124
 msgid ""
@@ -320,3 +350,4 @@ msgid ""
 "Finally, Toolbars also can be moved. You can do this by |mouseright| and "
 "dragging the handler at the left side of the toolbar."
 msgstr ""
+
