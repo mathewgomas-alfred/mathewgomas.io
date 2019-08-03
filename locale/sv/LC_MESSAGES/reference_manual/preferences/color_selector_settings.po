@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-10 18:37+0100\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 11:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -87,24 +87,30 @@ msgid "Make Brush Color Darker"
 msgstr "Gör penselfärgen mörkare"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:33
+#| msgid ""
+#| "This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`K` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
-"Det är normalt inställt till :kbd:`K` och använder stegen :guilabel:"
-"`Ljushet`. Använder luminans om möjligt."
+"Det är normalt inställt till tangenten :kbd:`K` och använder stegen :guilabel:"
+"`ljushet`. Använder luminans om möjligt."
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:34
 msgid "Make Brush Color Lighter"
 msgstr "Gör penselfärgen ljusare"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:35
+#| msgid ""
+#| "This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`L` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
-"Det är normalt inställt till :kbd:`L` och använder stegen :guilabel:"
-"`Ljushet`. Använder luminans om möjligt."
+"Det är normalt inställt till tangenten :kbd:`L` och använder stegen :guilabel:"
+"`ljushet`. Använder luminans om möjligt."
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:36
 msgid "Make Brush Color More Saturated"
@@ -112,9 +118,10 @@ msgstr "Gör penselfärgen mer mättad"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:37
 #: ../../reference_manual/preferences/color_selector_settings.rst:39
-msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+#| msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`saturation` steps."
 msgstr ""
-"Det är normalt inte inställt och använder steget :guilabel:`Färgmättnad`."
+"Det är normalt inte inställt och använder steget :guilabel:`färgmättnad`."
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:38
 msgid "Make Brush Color More Desaturated"
@@ -138,6 +145,7 @@ msgid "Make Brush Color Redder"
 msgstr "Gör penselfärgen rödare"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:45
+#: ../../reference_manual/preferences/color_selector_settings.rst:47
 msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener` steps."
 msgstr ""
 "Det är normalt inte inställt och använder stegen :guilabel:`Rödare/Grönare`."
@@ -146,17 +154,20 @@ msgstr ""
 msgid "Make Brush Color Greener"
 msgstr "Gör penselfärgen grönare"
 
-#: ../../reference_manual/preferences/color_selector_settings.rst:47
-msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
-msgstr ""
-"Det är normalt inte inställt och använder stegen :guilabel:`Rödare/Grönare`."
-
 #: ../../reference_manual/preferences/color_selector_settings.rst:48
 msgid "Make Brush Color Yellower"
 msgstr "Gör penselfärgen gulare"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:49
 #: ../../reference_manual/preferences/color_selector_settings.rst:51
-msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+#| msgid ""
+#| "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps."
 msgstr ""
 "Det är normalt inte inställt och använder stegen :guilabel:`Blåare/Gulare`."
+
+#~ msgid ""
+#~ "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
+#~ msgstr ""
+#~ "Det är normalt inte inställt och använder stegen :guilabel:`Rödare/"
+#~ "Grönare`."

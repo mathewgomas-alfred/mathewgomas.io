@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-15 08:27+0100\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 12:13+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -70,13 +70,16 @@ msgid "Wrap Around Mode"
 msgstr "Rundgångsläge"
 
 #: ../../reference_manual/main_menu/view_menu.rst:23
+#| msgid ""
+#| "This will show the image as if tiled orthographically. Very useful for "
+#| "tiling 3d textures. Hit :kbd:`W` to quickly activate it."
 msgid ""
 "This will show the image as if tiled orthographically. Very useful for "
-"tiling 3d textures. Hit :kbd:`W` to quickly activate it."
+"tiling 3d textures. Hit the :kbd:`W` key to quickly activate it."
 msgstr ""
-"Visar bilden som om den är ortografiskt upprepad sida vid sida. Mycket "
-"användbart för att täcka tredimensionella strukturer. Tryck på :kbd:`W` "
-"snabbt aktivera det."
+"Visar bilden som om den är ortografiskt upprepad sida vid sida. Mycket"
+" användbart för att täcka tredimensionella strukturer. Tryck på tangenten"
+" :kbd:`W` snabbt aktivera det."
 
 #: ../../reference_manual/main_menu/view_menu.rst:24
 msgid "Instant Preview"
@@ -115,11 +118,15 @@ msgid "Mirror View"
 msgstr "Spegla visning"
 
 #: ../../reference_manual/main_menu/view_menu.rst:33
+#| msgid ""
+#| "This will mirror the view. Hit :kbd:`M` to quickly activate it. Very "
+#| "useful during painting."
 msgid ""
-"This will mirror the view. Hit :kbd:`M` to quickly activate it. Very useful "
-"during painting."
+"This will mirror the view. Hit the :kbd:`M` key to quickly activate it. Very "
+"useful during painting."
 msgstr ""
-"Speglar visningen. Tryck på :kbd:`M` för att aktivera det. Mycket användbart "
+"Speglar visningen. Tryck på tangenten :kbd:`M` för att aktivera det. Mycket"
+" användbart "
 "under målning."
 
 #: ../../reference_manual/main_menu/view_menu.rst:34
@@ -179,8 +186,9 @@ msgid "Show Grid"
 msgstr "Visa rutnät"
 
 #: ../../reference_manual/main_menu/view_menu.rst:45
-msgid "Shows and hides the grid. :kbd:`Ctrl + Shift + '`"
-msgstr "Visar och döljer rutnätet. :kbd:`Ctrl + Skift + '`"
+#| msgid "Shows and hides the grid. :kbd:`Ctrl + Shift + '`"
+msgid "Shows and hides the grid. Shortcut: :kbd:`Ctrl + Shift + '`"
+msgstr "Visar och döljer rutnätet. Genväg: :kbd:`Ctrl + Skift + '`"
 
 #: ../../reference_manual/main_menu/view_menu.rst:46
 msgid "Show Pixel Grid"
@@ -209,3 +217,4 @@ msgstr "Visar eller döljer guiderna."
 #: ../../reference_manual/main_menu/view_menu.rst:53
 msgid "Shows or hides the Previews."
 msgstr "Visa eller dölj hjälplinjerna."
+

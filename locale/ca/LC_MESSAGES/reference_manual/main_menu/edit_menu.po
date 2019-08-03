@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-15 21:03+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 18:12+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.2\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:1
 msgid "The edit menu in Krita."
@@ -57,20 +57,24 @@ msgid "Edit Menu"
 msgstr "El menú Edita"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
-msgid "Undoes the last action. :kbd:`Ctrl + Z`"
-msgstr "Desfà l'última acció. :kbd:`Ctrl + Z`"
+#| msgid "Undoes the last action. :kbd:`Ctrl + Z`"
+msgid "Undoes the last action. Shortcut: :kbd:`Ctrl + Z`"
+msgstr "Desfà l'última acció. Drecera: :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:24
-msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
-msgstr "Refà l'última acció. :kbd:`Ctrl + Majús. + Z`"
+#| msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
+msgid "Redoes the last undone action. Shortcut: :kbd:`Ctrl + Shift+ Z`"
+msgstr "Refà l'última acció. Drecera: :kbd:`Ctrl + Majús. + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:27
-msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
-msgstr "Retalla la selecció o capa. :kbd:`Ctrl + X`"
+#| msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
+msgid "Cuts the selection or layer. Shortcut: :kbd:`Ctrl + X`"
+msgstr "Retalla la selecció o capa. Drecera: :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
-msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
-msgstr "Copia la selecció o capa. :kbd:`Ctrl + C`"
+#| msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
+msgid "Copies the selection or layer. Shortcut: :kbd:`Ctrl + C`"
+msgstr "Copia la selecció o capa. :Drecera: kbd:`Ctrl + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:31
 msgid "Cut (Sharp)"
@@ -97,14 +101,20 @@ msgid "Copy Merged"
 msgstr "Còpia fusionada"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:39
-msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
-msgstr "Copia la selecció sobre totes les capes. :kbd:`Ctrl + Majús. + C`"
+#| msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
+msgid "Copies the selection over all layers. Shortcut :kbd:`Ctrl + Shift + C`"
+msgstr ""
+"Copia la selecció sobre totes les capes. :Drecera: kbd:`Ctrl + Majús. + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
-msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
+#| msgid ""
+#| "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
+msgid ""
+"Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl "
+"+ V`"
 msgstr ""
-"Enganxa la memòria intermèdia copiada a la imatge com a una capa nova. :kbd:"
-"`Ctrl + V`"
+"Enganxa la memòria intermèdia copiada a la imatge com a una capa nova. "
+"Drecera: :kbd:`Ctrl + V`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:43
 msgid "Paste at Cursor"
@@ -127,29 +137,37 @@ msgid "Clear"
 msgstr "Neteja"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:51
-msgid "Clear the current layer. :kbd:`Del`"
-msgstr "Neteja la capa actual. :kbd:`Supr`"
+#| msgid "Clear the current layer. :kbd:`Del`"
+msgid "Clear the current layer. Shortcut: :kbd:`Del`"
+msgstr "Neteja la capa actual. Drecera: :kbd:`Supr`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:52
 msgid "Fill with Foreground Color"
 msgstr "Emplena amb el color de primer pla"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:54
+#| msgid ""
+#| "Fills the layer or selection with the foreground color. :kbd:`Shift + "
+#| "Backspace`"
 msgid ""
-"Fills the layer or selection with the foreground color. :kbd:`Shift + "
-"Backspace`"
+"Fills the layer or selection with the foreground color. Shortcut: :kbd:"
+"`Shift + Backspace`"
 msgstr ""
-"Emplena la capa o selecció amb el color de primer pla. :kbd:`Majús. + "
-"Retrocés`"
+"Emplena la capa o selecció amb el color de primer pla. Drecera: :kbd:`Majús. "
+"+ Retrocés`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:55
 msgid "Fill with Background Color"
 msgstr "Emplena amb el color de fons"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:57
+#| msgid ""
+#| "Fills the layer or selection with the background color. :kbd:`Backspace`"
 msgid ""
-"Fills the layer or selection with the background color. :kbd:`Backspace`"
-msgstr "Emplena la capa o selecció amb el color de fons. :kbd:`Retrocés`"
+"Fills the layer or selection with the background color. Shortcut: :kbd:"
+"`Backspace`"
+msgstr ""
+"Emplena la capa o selecció amb el color de fons. :Drecera: kbd:`Retrocés`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:58
 msgid "Fill with pattern"

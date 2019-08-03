@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: reference_manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-06-12 19:25+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 18:14+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 19.07.70\n"
 
 #: ../../<generated>:1
 msgid "Make Brush Color Bluer"
@@ -91,24 +91,30 @@ msgid "Make Brush Color Darker"
 msgstr "Enfosqueix el color del pinzell"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:33
+#| msgid ""
+#| "This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`K` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
-"De manera predeterminada establerta a :kbd:`K` i utilitza els passos de la :"
-"guilabel:`Claredat`. Quan és possible utilitza la luminància."
+"De manera predeterminada establerta a la tecla :kbd:`K` i utilitza els passos "
+"de la :guilabel:`Claredat`. Quan és possible utilitza la luminància."
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:34
 msgid "Make Brush Color Lighter"
 msgstr "Aclara el color del pinzell"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:35
+#| msgid ""
+#| "This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`L` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
-"De manera predeterminada establerta a :kbd:`L` i utilitza els passos de la :"
-"guilabel:`Claredat`. Quan és possible utilitza la luminància."
+"De manera predeterminada establerta a la tecla :kbd:`L` i utilitza els passos "
+"de la :guilabel:`Claredat`. Quan és possible utilitza la luminància."
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:36
 msgid "Make Brush Color More Saturated"
@@ -116,7 +122,8 @@ msgstr "Fa el color del pinzell més saturat"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:37
 #: ../../reference_manual/preferences/color_selector_settings.rst:39
-msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+#| msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`saturation` steps."
 msgstr ""
 "De manera predeterminada sense establir i utilitza els passos de la :"
 "guilabel:`Saturació`."
@@ -145,6 +152,7 @@ msgid "Make Brush Color Redder"
 msgstr "Fa el color del pinzell més vermell"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:45
+#: ../../reference_manual/preferences/color_selector_settings.rst:47
 msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener` steps."
 msgstr ""
 "De manera predeterminada sense establir i utilitza els passos del :guilabel:"
@@ -154,19 +162,21 @@ msgstr ""
 msgid "Make Brush Color Greener"
 msgstr "Fa el color del pinzell més verd"
 
-#: ../../reference_manual/preferences/color_selector_settings.rst:47
-msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
-msgstr ""
-"De manera predeterminada sense establir i utilitza els passos del :guilabel:"
-"`Vermell/verd`."
-
 #: ../../reference_manual/preferences/color_selector_settings.rst:48
 msgid "Make Brush Color Yellower"
 msgstr "Fa el color del pinzell més groc"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:49
 #: ../../reference_manual/preferences/color_selector_settings.rst:51
-msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+#| msgid ""
+#| "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps."
 msgstr ""
 "De manera predeterminada sense establir i utilitza els passos del :guilabel:"
 "`Blau/groc`."
+
+#~ msgid ""
+#~ "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
+#~ msgstr ""
+#~ "De manera predeterminada sense establir i utilitza els passos del :"
+#~ "guilabel:`Vermell/verd`."

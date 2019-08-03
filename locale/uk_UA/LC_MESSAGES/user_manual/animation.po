@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_user_manual___animation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-28 11:08+0300\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 11:39+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -327,27 +327,31 @@ msgid ".. image:: images/animation/Introduction_to_animation_08.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_08.png"
 
 #: ../../user_manual/animation.rst:134
+#| msgid ""
+#| "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
+#| "second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgid ""
 "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
-"second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
+"second. Then, use the with the :kbd:`Shift + ↑` shortcut to move the frame "
+"contents up."
 msgstr ""
 "Натисніть кнопку :guilabel:`Копіювати кадр` для копіювання першого кадру до "
 "другого. Далі, скористайтеся комбінацією клавіш :kbd:`Shift + ↑`, щоб "
 "підняти вміст кадру вище."
 
-#: ../../user_manual/animation.rst:138
+#: ../../user_manual/animation.rst:137
 msgid "We can see the difference by turning on the onionskinning:"
 msgstr "Різницю можна бачити, якщо увімкнути кальку:"
 
-#: ../../user_manual/animation.rst:141
+#: ../../user_manual/animation.rst:140
 msgid ".. image:: images/animation/Introduction_to_animation_09.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_09.png"
 
-#: ../../user_manual/animation.rst:142
+#: ../../user_manual/animation.rst:141
 msgid "Now, you should see the previous frame as red."
 msgstr "Тепер, попередній кадр позначено червоним кольором."
 
-#: ../../user_manual/animation.rst:145
+#: ../../user_manual/animation.rst:144
 msgid ""
 "Krita sees white as a color, not as transparent, so make sure the animation "
 "layer you are working on is transparent in the bits where there's no "
@@ -360,11 +364,11 @@ msgstr ""
 "за допомогою фільтра :ref:`filter_color_to_alpha`, але краще взагалі "
 "запобігти появі цієї проблеми."
 
-#: ../../user_manual/animation.rst:148
+#: ../../user_manual/animation.rst:147
 msgid ".. image:: images/animation/Introduction_to_animation_10.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_10.png"
 
-#: ../../user_manual/animation.rst:149
+#: ../../user_manual/animation.rst:148
 msgid ""
 "Future frames are drawn in green, and both colors can be configured in the "
 "onion skin docker."
@@ -372,11 +376,11 @@ msgstr ""
 "Майбутні кадри буде намальовано зеленим. Обидва кольори можна налаштувати за "
 "допомогою бічної панелі кальки."
 
-#: ../../user_manual/animation.rst:153
+#: ../../user_manual/animation.rst:152
 msgid ".. image:: images/animation/Introduction_to_animation_11.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_11.png"
 
-#: ../../user_manual/animation.rst:154
+#: ../../user_manual/animation.rst:153
 msgid ""
 "Now, we're gonna draw the two extremes of the walkcycle. These are the pose "
 "where both legs are as far apart as possible, and the pose where one leg is "
@@ -387,32 +391,35 @@ msgstr ""
 "одну ногу повністю витягнуто, а друга стоїть на підлозі, готова до "
 "наступного кроку."
 
-#: ../../user_manual/animation.rst:159
+#: ../../user_manual/animation.rst:158
+#| msgid ""
+#| "Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, "
+#| "but here comes a tricky bit:"
 msgid ""
-"Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but "
-"here comes a tricky bit:"
+"Now, let's copy these two... We could do that with the :kbd:`Ctrl + drag` "
+"shortcut, but here comes a tricky bit:"
 msgstr ""
 "Тепер, скопіюймо ці два кадри… Це можна було б зробити за допомогою "
 "комбінації :kbd:`Ctrl + перетягування`, але тут є тонкощі:"
 
-#: ../../user_manual/animation.rst:163
+#: ../../user_manual/animation.rst:162
 msgid ".. image:: images/animation/Introduction_to_animation_12.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_12.png"
 
-#: ../../user_manual/animation.rst:164
+#: ../../user_manual/animation.rst:163
 msgid ""
 ":kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy..."
 msgstr ""
 "Крім того, :kbd:`Ctrl +` |mouseleft| позначає і скасовує позначення кадрів; "
 "отже, для копіювання…"
 
-#: ../../user_manual/animation.rst:166
+#: ../../user_manual/animation.rst:165
 msgid ":kbd:`Ctrl +` |mouseleft| to select all the frames you want to select."
 msgstr ""
 "Скористайтеся :kbd:`Ctrl +` |mouseleft| для позначення усіх потрібних вам "
 "кадрів."
 
-#: ../../user_manual/animation.rst:167
+#: ../../user_manual/animation.rst:166
 msgid ""
 ":kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange', "
 "otherwise it won't be copied along."
@@ -421,68 +428,71 @@ msgstr ""
 "переконатися, що перший кадр є «помаранчевим», інакше його не буде "
 "скопійовано."
 
-#: ../../user_manual/animation.rst:170
+#: ../../user_manual/animation.rst:169
 msgid "Now then..."
 msgstr "Далі…"
 
-#: ../../user_manual/animation.rst:175
+#: ../../user_manual/animation.rst:174
 msgid ".. image:: images/animation/Introduction_to_animation_13.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_13.png"
 
-#: ../../user_manual/animation.rst:175
+#: ../../user_manual/animation.rst:174
 msgid "squashed the timeline docker a bit to save space"
 msgstr "Згортання бічної панелі монтажного столу заощадить трохи місця"
 
-#: ../../user_manual/animation.rst:177
+#: ../../user_manual/animation.rst:176
 msgid "Copy frame 0 to frame 2."
 msgstr "Скопіюйте кадр 0 до кадру 2."
 
-#: ../../user_manual/animation.rst:178
+#: ../../user_manual/animation.rst:177
 msgid "Copy frame 1 to frame 3."
 msgstr "Скопіюйте кадр 1 до кадру 3."
 
-#: ../../user_manual/animation.rst:179
+#: ../../user_manual/animation.rst:178
 msgid "In the animation docker, set the frame-rate to 4."
 msgstr "На бічній панелі анімації встановіть частоту кадрів 4."
 
-#: ../../user_manual/animation.rst:180
+#: ../../user_manual/animation.rst:179
 msgid "Select all frames in the timeline docker by dragging-selecting them."
 msgstr "Позначте усі кадри на бічній панелі монтажного столу перетягуванням."
 
-#: ../../user_manual/animation.rst:181
+#: ../../user_manual/animation.rst:180
 msgid "Press play in the animation docker."
 msgstr "Натисніть кнопку відтворення на бічній панелі анімації."
 
-#: ../../user_manual/animation.rst:182
+#: ../../user_manual/animation.rst:181
 msgid "Enjoy your first animation!"
 msgstr "Насолоджуйтеся вашою першою анімацією!"
 
-#: ../../user_manual/animation.rst:185
+#: ../../user_manual/animation.rst:184
 msgid "Expanding upon your rough walkcycle"
 msgstr "Удосконалюємо наше жорстке крокування"
 
-#: ../../user_manual/animation.rst:188
+#: ../../user_manual/animation.rst:187
 msgid ".. image:: images/animation/Introduction_to_animation_14.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_14.png"
 
-#: ../../user_manual/animation.rst:189
+#: ../../user_manual/animation.rst:188
+#| msgid ""
+#| "You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
+#| "move that frame and all others after it in one go."
 msgid ""
-"You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
-"move that frame and all others after it in one go."
+"You can quickly make some space by the :kbd:`Alt + drag` shortcut on any "
+"frame. This'll move that frame and all others after it in one go."
 msgstr ""
 "Швидко додати трохи місця можна за допомогою комбінації :kbd:`Alt + "
 "перетягування` на будь-якому кадрі. Таким чином можна переміщувати кадр та "
 "усі інші кадри за ним одним рухом."
 
-#: ../../user_manual/animation.rst:192
+#: ../../user_manual/animation.rst:191
 msgid "Then draw inbetweens on each frame that you add."
 msgstr "Тепер намалюйте проміжні кадри для кожного доданого кадру."
 
-#: ../../user_manual/animation.rst:195
+#: ../../user_manual/animation.rst:194
 msgid ".. image:: images/animation/Introduction_to_animation_16.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_16.png"
 
-#: ../../user_manual/animation.rst:196
+#: ../../user_manual/animation.rst:195
 msgid ""
 "You'll find that the more frames you add, the more difficult it becomes to "
 "keep track of the onion skins."
@@ -490,7 +500,7 @@ msgstr ""
 "Ви могли помітити, що чим більше стає кадрів, тим складніше стежити за ними "
 "за допомогою кальки."
 
-#: ../../user_manual/animation.rst:198
+#: ../../user_manual/animation.rst:197
 msgid ""
 "You can modify the onion skin by using the onion skin docker, where you can "
 "change how many frames are visible at once, by toggling them on the top row. "
@@ -503,15 +513,15 @@ msgstr ""
 "прозорістю. У нижній частині панелі розташовано віджети керування "
 "прозорістю, кольорів кадрів та яскравості розфарбовування."
 
-#: ../../user_manual/animation.rst:204
+#: ../../user_manual/animation.rst:203
 msgid ".. image:: images/animation/Introduction_to_animation_15.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_15.png"
 
-#: ../../user_manual/animation.rst:206
+#: ../../user_manual/animation.rst:205
 msgid "Animating with multiple layers"
 msgstr "Анімація із декількома шарами"
 
-#: ../../user_manual/animation.rst:208
+#: ../../user_manual/animation.rst:207
 msgid ""
 "Okay, our walkcycle is missing some hands, let's add them on a separate "
 "layer. So we make a new layer, and name it hands and..."
@@ -519,11 +529,11 @@ msgstr ""
 "Гаразд, у нашого чоловічка не вистачає рук. Додамо їх на окремому шарі. "
 "Створімо шар, назвімо його «hands» і…"
 
-#: ../../user_manual/animation.rst:212
+#: ../../user_manual/animation.rst:211
 msgid ".. image:: images/animation/Introduction_to_animation_17.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_17.png"
 
-#: ../../user_manual/animation.rst:213
+#: ../../user_manual/animation.rst:212
 msgid ""
 "Our walkcycle is gone from the timeline docker! This is a feature actually. "
 "A full animation can have so many little parts that an animator might want "
@@ -536,11 +546,11 @@ msgstr ""
 "працюєте з бічної панелі монтажного столу. Отже, вам слід додати потрібні "
 "вам шари вручну."
 
-#: ../../user_manual/animation.rst:219
+#: ../../user_manual/animation.rst:218
 msgid ".. image:: images/animation/Introduction_to_animation_18.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_18.png"
 
-#: ../../user_manual/animation.rst:220
+#: ../../user_manual/animation.rst:219
 msgid ""
 "You can show any given layer in the timeline by doing |mouseright| on the "
 "layer in the layer docker, and toggling :guilabel:`Show in Timeline`."
@@ -549,25 +559,25 @@ msgstr ""
 "клацнувши |mouseright| на пункті шару на бічній панелі шарів і вибравши "
 "пункт :guilabel:`Показати на монтажному столі`."
 
-#: ../../user_manual/animation.rst:224
+#: ../../user_manual/animation.rst:223
 msgid ".. image:: images/animation/Introduction_to_animation_19.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_19.png"
 
-#: ../../user_manual/animation.rst:226
+#: ../../user_manual/animation.rst:225
 msgid "Exporting"
 msgstr "Експортування"
 
-#: ../../user_manual/animation.rst:228
+#: ../../user_manual/animation.rst:227
 msgid "When you are done, select :menuselection:`File --> Render Animation`."
 msgstr ""
 "Коли роботу буде завершено, скористайтеся пунктом меню :menuselection:`Файл "
 "--> Обробити анімацію`."
 
-#: ../../user_manual/animation.rst:231
+#: ../../user_manual/animation.rst:230
 msgid ".. image:: images/animation/Introduction_to_animation_20.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_20.png"
 
-#: ../../user_manual/animation.rst:232
+#: ../../user_manual/animation.rst:231
 msgid ""
 "It's recommended to save out your file as a png, and preferably in its own "
 "folder. Krita can currently only export png sequences."
@@ -576,11 +586,11 @@ msgstr ""
 "поточній версії Krita передбачено експортування послідовності зображень лише "
 "у форматі png."
 
-#: ../../user_manual/animation.rst:236
+#: ../../user_manual/animation.rst:235
 msgid ".. image:: images/animation/Introduction_to_animation_21.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_21.png"
 
-#: ../../user_manual/animation.rst:237
+#: ../../user_manual/animation.rst:236
 msgid ""
 "When pressing done, you can see the status of the export in the status bar "
 "below."
@@ -588,17 +598,17 @@ msgstr ""
 "Після натискання кнопки :guilabel:`Гаразд` ви побачите статус експортування "
 "на смужці стану у нижній частині вікна."
 
-#: ../../user_manual/animation.rst:241
+#: ../../user_manual/animation.rst:240
 msgid ".. image:: images/animation/Introduction_to_animation_22.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_22.png"
 
-#: ../../user_manual/animation.rst:242
+#: ../../user_manual/animation.rst:241
 msgid ""
 "The images should be saved out as filenameXXX.png, giving their frame number."
 msgstr ""
 "Зображення має бути збережено як filenameXXX.png, де «XXX» номер кадру."
 
-#: ../../user_manual/animation.rst:245
+#: ../../user_manual/animation.rst:244
 msgid ""
 "Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux, OSX, "
 "Windows), or any other gif creator to make a gif out of your image sequence:"
@@ -607,25 +617,30 @@ msgstr ""
 "(Linux, OSX, Windows) або якоюсь іншою програмою для створення gif, щоб "
 "отримати gif з послідовності зображень:"
 
-#: ../../user_manual/animation.rst:250
+#: ../../user_manual/animation.rst:249
 msgid ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 msgstr ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 
-#: ../../user_manual/animation.rst:251
+#: ../../user_manual/animation.rst:250
+#| msgid ""
+#| "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+#| "(Windows) and open all the frames and then go to :menuselection:`File --> "
+#| "Export --> GIF`."
 msgid ""
-"For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+"For example, you can use `VirtualDub <http://www.virtualdub.org/>`_\\ "
 "(Windows) and open all the frames and then go to :menuselection:`File --> "
 "Export --> GIF`."
 msgstr ""
-"Наприклад, ви можете скористатися `VirtualDub <http://www.virtualdub.org/>`__"
-"\\ (Windows), відкрити усі кадри і скористатися пунктом меню :menuselection:"
+"Наприклад, ви можете скористатися `VirtualDub <http://www.virtualdub.org/"
+">`__\\ (Windows), відкрити усі кадри і скористатися пунктом меню"
+" :menuselection:"
 "`File --> Export --> GIF`."
 
-#: ../../user_manual/animation.rst:255
+#: ../../user_manual/animation.rst:254
 msgid "Enjoy your walkcycle!"
 msgstr "Насолоджуйтеся вашою анімацією крокування!"
 
-#: ../../user_manual/animation.rst:259
+#: ../../user_manual/animation.rst:258
 msgid ""
 "Krita 3.1 has a render animation feature. If you're using the 3.1 beta, "
 "check out the :ref:`render_animation` page for more information!"
@@ -634,15 +649,15 @@ msgstr ""
 "користуєтеся 3.1 beta або новішою версією, ознайомтеся зі сторінкою :ref:"
 "`render_animation`, щоб дізнатися більше!"
 
-#: ../../user_manual/animation.rst:262
+#: ../../user_manual/animation.rst:261
 msgid "Importing animation frames"
 msgstr "Імпортування кадрів анімації"
 
-#: ../../user_manual/animation.rst:264
+#: ../../user_manual/animation.rst:263
 msgid "You can import animation frames in Krita 3.0."
 msgstr "У Krita 3.0 ви можете імпортувати кадри анімації."
 
-#: ../../user_manual/animation.rst:266
+#: ../../user_manual/animation.rst:265
 msgid ""
 "First let us take a sprite sheet from Open Game Art. (This is the Libre "
 "Pixel Cup male walkcycle)"
@@ -650,7 +665,7 @@ msgstr ""
 "Спочатку слід отримати набір спрайтів з Open Game Art. (Це крокування "
 "чоловічка з Libre Pixel Cup)"
 
-#: ../../user_manual/animation.rst:269
+#: ../../user_manual/animation.rst:268
 msgid ""
 "And we'll use :menuselection:`Image --> Split Image` to split up the sprite "
 "sheet."
@@ -658,11 +673,11 @@ msgstr ""
 "Далі, скористаймося пунктом меню :menuselection:`Зображення --> Поділ "
 "зображень`, щоб розділити набір спрайтів."
 
-#: ../../user_manual/animation.rst:272
+#: ../../user_manual/animation.rst:271
 msgid ".. image:: images/animation/Animation_split_spritesheet.png"
 msgstr ".. image:: images/animation/Animation_split_spritesheet.png"
 
-#: ../../user_manual/animation.rst:273
+#: ../../user_manual/animation.rst:272
 msgid ""
 "The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical "
 "slices and 0 horizontal slices. Give it a proper name and save it as png."
@@ -671,7 +686,7 @@ msgstr ""
 "вертикальними розрізами та 0 горизонтальних розрізів. Надайте документу "
 "відповідної назви і збережіть його як png."
 
-#: ../../user_manual/animation.rst:275
+#: ../../user_manual/animation.rst:274
 msgid ""
 "Then, make a new canvas, and select :menuselection:`File --> Import "
 "Animation Frames`. This will give you a little window. Select :guilabel:`Add "
@@ -683,19 +698,19 @@ msgstr ""
 "вікно навігації файловою системою, за допомогою якого ви зможете вибрати "
 "ваші зображення."
 
-#: ../../user_manual/animation.rst:278
+#: ../../user_manual/animation.rst:277
 msgid ".. image:: images/animation/Animation_import_sprites.png"
 msgstr ".. image:: images/animation/Animation_import_sprites.png"
 
-#: ../../user_manual/animation.rst:279
+#: ../../user_manual/animation.rst:278
 msgid "You can select multiple images at once."
 msgstr "Ви можете позначити декілька зображень одночасно."
 
-#: ../../user_manual/animation.rst:282
+#: ../../user_manual/animation.rst:281
 msgid ".. image:: images/animation/Animation_set_everything.png"
 msgstr ".. image:: images/animation/Animation_set_everything.png"
 
-#: ../../user_manual/animation.rst:283
+#: ../../user_manual/animation.rst:282
 msgid ""
 "The frames are currently automatically ordered. You can set the ordering "
 "with the top-left two drop-down boxes."
@@ -703,15 +718,15 @@ msgstr ""
 "Тепер кадри має бути автоматично упорядковано. Ви можете встановити "
 "упорядкування за допомогою двох спадних списків угорі ліворуч."
 
-#: ../../user_manual/animation.rst:286
+#: ../../user_manual/animation.rst:285
 msgid "Start"
 msgstr "Початок"
 
-#: ../../user_manual/animation.rst:287
+#: ../../user_manual/animation.rst:286
 msgid "Indicates at which point the animation should be imported."
 msgstr "Вказує, у якій точці має бути імпортовано анімацію."
 
-#: ../../user_manual/animation.rst:289
+#: ../../user_manual/animation.rst:288
 msgid ""
 "Indicates the difference between the imported animation and the document "
 "frame rate. This animation is 8 frames big, and the fps of the document is "
@@ -726,30 +741,30 @@ msgstr ""
 "щодо того, якою буде частота кадрів імпортованої анімації за поточного "
 "вибраного кроку."
 
-#: ../../user_manual/animation.rst:293
+#: ../../user_manual/animation.rst:292
 msgid "Step"
 msgstr "Крок"
 
-#: ../../user_manual/animation.rst:295
+#: ../../user_manual/animation.rst:294
 msgid ""
 "Press :guilabel:`OK`, and your animation should be imported as a new layer."
 msgstr ""
 "Натисніть кнопку :guilabel:`Гаразд`, і програма імпортує вашу анімацію як "
 "новий шар."
 
-#: ../../user_manual/animation.rst:298
+#: ../../user_manual/animation.rst:297
 msgid ".. image:: images/animation/Animation_import_done.png"
 msgstr ".. image:: images/animation/Animation_import_done.png"
 
-#: ../../user_manual/animation.rst:300
+#: ../../user_manual/animation.rst:299
 msgid "Reference"
 msgstr "Посилання"
 
-#: ../../user_manual/animation.rst:302
+#: ../../user_manual/animation.rst:301
 msgid "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 msgstr "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 
-#: ../../user_manual/animation.rst:303
+#: ../../user_manual/animation.rst:302
 msgid ""
 "`The source for the libre pixel cup male walkmediawiki cycle <https://"
 "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"

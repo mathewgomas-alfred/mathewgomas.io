@@ -6,11 +6,11 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: "
-"docs_krita_org_reference_manual___preferences___color_selector_settings\n"
+"Project-Id-Version: docs_krita_org_reference_manual___preferences___color_sele"
+"ctor_settings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
-"PO-Revision-Date: 2019-05-04 15:47+0300\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 11:46+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<generated>:1
 msgid "Make Brush Color Bluer"
@@ -92,8 +92,11 @@ msgid "Make Brush Color Darker"
 msgstr "Зробити колір пензля темнішим"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:33
+#| msgid ""
+#| "This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`K` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
 "Цей варіант типово пов'язано із клавішею :kbd:`K`. У ньому використовуються "
@@ -105,8 +108,11 @@ msgid "Make Brush Color Lighter"
 msgstr "Зробити колір пензля світлішим"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:35
+#| msgid ""
+#| "This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`L` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
 "Цей варіант типово пов'язано із клавішею :kbd:`L`. У ньому використовуються "
@@ -119,7 +125,8 @@ msgstr "Зробити колір пензля насиченішим"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:37
 #: ../../reference_manual/preferences/color_selector_settings.rst:39
-msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+#| msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`saturation` steps."
 msgstr ""
 "Цей варіант типово не встановлено, використовуються кроки :guilabel:"
 "`Насиченості`."
@@ -148,6 +155,7 @@ msgid "Make Brush Color Redder"
 msgstr "Зробити колір пензля червонішим"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:45
+#: ../../reference_manual/preferences/color_selector_settings.rst:47
 msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener` steps."
 msgstr ""
 "Цей варіант типово не встановлено, використовуються кроки :guilabel:"
@@ -157,19 +165,21 @@ msgstr ""
 msgid "Make Brush Color Greener"
 msgstr "Зробити колір пензля зеленішим"
 
-#: ../../reference_manual/preferences/color_selector_settings.rst:47
-msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
-msgstr ""
-"Цей варіант типово не встановлено, використовуються кроки :guilabel:"
-"`Червоніше/Зеленіше`."
-
 #: ../../reference_manual/preferences/color_selector_settings.rst:48
 msgid "Make Brush Color Yellower"
 msgstr "Зробити колір пензля жовтішим"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:49
 #: ../../reference_manual/preferences/color_selector_settings.rst:51
-msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+#| msgid ""
+#| "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps."
 msgstr ""
 "Цей варіант типово не встановлено, використовуються кроки :guilabel:`Синіше/"
 "Жовтіше`."
+
+#~ msgid ""
+#~ "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
+#~ msgstr ""
+#~ "Цей варіант типово не встановлено, використовуються кроки :guilabel:"
+#~ "`Червоніше/Зеленіше`."

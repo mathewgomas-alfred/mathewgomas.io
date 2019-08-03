@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
 "PO-Revision-Date: 2019-03-24 09:21+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -92,8 +92,12 @@ msgid "Make Brush Color Darker"
 msgstr "Tornar a Cor do Pincel Mais Escura"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:33
+#, fuzzy
+#| msgid ""
+#| "This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`K`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`K` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
 "Por omissão, está configurada para a tecla :kbd:`K` e usa os passos da :"
@@ -104,8 +108,12 @@ msgid "Make Brush Color Lighter"
 msgstr "Tornar a Cor do Pincel Mais Clara"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:35
+#, fuzzy
+#| msgid ""
+#| "This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+#| "steps. This uses luminance when possible."
 msgid ""
-"This is defaultly set to :kbd:`L`  and uses the :guilabel:`lightness`  "
+"This is defaultly set to :kbd:`L` key and uses the :guilabel:`lightness` "
 "steps. This uses luminance when possible."
 msgstr ""
 "Por omissão, está configurada para a tecla :kbd:`L` e usa os passos de :"
@@ -117,7 +125,9 @@ msgstr "Tornar a Cor do Pincel Mais Saturada"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:37
 #: ../../reference_manual/preferences/color_selector_settings.rst:39
-msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+#, fuzzy
+#| msgid "This is defaultly unset and uses the :guilabel:`saturation`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`saturation` steps."
 msgstr ""
 "Por omissão, não tem qualquer tecla atribuída e usa os passos da :guilabel:"
 "`saturação`."
@@ -146,6 +156,7 @@ msgid "Make Brush Color Redder"
 msgstr "Tornar a Cor do Pincel Mais Vermelha"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:45
+#: ../../reference_manual/preferences/color_selector_settings.rst:47
 msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener` steps."
 msgstr ""
 "Por omissão, não tem qualquer tecla atribuída e usa os passos da :guilabel:"
@@ -155,19 +166,22 @@ msgstr ""
 msgid "Make Brush Color Greener"
 msgstr "Tornar a Cor do Pincel Mais Verde"
 
-#: ../../reference_manual/preferences/color_selector_settings.rst:47
-msgid "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
-msgstr ""
-"Por omissão, não tem qualquer tecla atribuída e usa os passos da :guilabel:"
-"`Mais Vermelho/Verde`."
-
 #: ../../reference_manual/preferences/color_selector_settings.rst:48
 msgid "Make Brush Color Yellower"
 msgstr "Tornar a Cor do Pincel Mais Amarela"
 
 #: ../../reference_manual/preferences/color_selector_settings.rst:49
 #: ../../reference_manual/preferences/color_selector_settings.rst:51
-msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+#, fuzzy
+#| msgid ""
+#| "This is defaultly unset and uses the :guilabel:`Bluer/Yellower`  steps."
+msgid "This is defaultly unset and uses the :guilabel:`Bluer/Yellower` steps."
 msgstr ""
 "Por omissão, não tem qualquer tecla atribuída e usa os passos da :guilabel:"
 "`Mais Azul/Amarela`."
+
+#~ msgid ""
+#~ "This is defaultly unset and uses the :guilabel:`Redder/Greener`  steps."
+#~ msgstr ""
+#~ "Por omissão, não tem qualquer tecla atribuída e usa os passos da :"
+#~ "guilabel:`Mais Vermelho/Verde`."

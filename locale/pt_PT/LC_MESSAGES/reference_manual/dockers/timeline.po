@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
 "PO-Revision-Date: 2019-05-20 00:08+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -145,12 +145,19 @@ msgstr ""
 "configuração da *velocidade de reprodução*."
 
 #: ../../reference_manual/dockers/timeline.rst:34
+#, fuzzy
+#| msgid ""
+#| "Frames can be moved around the timeline by simply left-clicking and "
+#| "dragging from one frame to another slot, even across layers. Furthermore, "
+#| "holding :kbd:`Ctrl` while moving creates a copy. Right-clicking anywhere "
+#| "in the Frame Table will bring up a helpful context menu for adding, "
+#| "removing, copying, and pasting frames or adjusting timing with holds."
 msgid ""
 "Frames can be moved around the timeline by simply left-clicking and dragging "
-"from one frame to another slot, even across layers. Furthermore, holding :"
-"kbd:`Ctrl` while moving creates a copy. Right-clicking anywhere in the Frame "
-"Table will bring up a helpful context menu for adding, removing, copying, "
-"and pasting frames or adjusting timing with holds."
+"from one frame to another slot, even across layers. Furthermore, holding "
+"the :kbd:`Ctrl` key while moving creates a copy. Right-clicking anywhere in "
+"the Frame Table will bring up a helpful context menu for adding, removing, "
+"copying, and pasting frames or adjusting timing with holds."
 msgstr ""
 "Poderá mover as imagens pela linha temporal, bastando para tal carregar com "
 "o botão esquerdo e arrastar uma imagem para outra posição, mesmo entre "
@@ -498,9 +505,13 @@ msgstr ""
 "camada activa."
 
 #: ../../reference_manual/dockers/timeline.rst:107
+#, fuzzy
+#| msgid ""
+#| "|mouseleft| :kbd:`drag` : Scrub through time and select frame of the "
+#| "active layer."
 msgid ""
-"|mouseleft| :kbd:`drag` : Scrub through time and select frame of the active "
-"layer."
+"|mouseleft| :kbd:`+ drag` : Scrub through time and select frame of the "
+"active layer."
 msgstr ""
 "|mouseleft| :kbd:`arrastamento` : Arrastar ao longo do tempo e seleccionar a "
 "imagem da camada activa."
@@ -526,11 +537,15 @@ msgstr ""
 "mas *não muda a camada activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:113
-msgid ":kbd:`Space` + |mouseleft| : Pan."
+#, fuzzy
+#| msgid ":kbd:`Space` + |mouseleft| : Pan."
+msgid ":kbd:`Space +` |mouseleft| : Pan."
 msgstr ":kbd:`Espaço` + |mouseleft| : Posicionamento."
 
 #: ../../reference_manual/dockers/timeline.rst:114
-msgid ":kbd:`Space` + |mouseright| : Zoom."
+#, fuzzy
+#| msgid ":kbd:`Space` + |mouseright| : Zoom."
+msgid ":kbd:`Space +` |mouseright| : Zoom."
 msgstr ":kbd:`Espaço` + |mouseright| : Ampliação."
 
 #: ../../reference_manual/dockers/timeline.rst:116
@@ -546,25 +561,37 @@ msgstr ""
 "remover suspensões)."
 
 #: ../../reference_manual/dockers/timeline.rst:119
+#, fuzzy
+#| msgid ""
+#| "|mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the "
+#| "last selected, but *does not switch active layer*."
 msgid ""
-"|mouseleft| + :kbd:`drag` : Select multiple frames and switch time to the "
+"|mouseleft| :kbd:`+ drag` : Select multiple frames and switch time to the "
 "last selected, but *does not switch active layer*."
 msgstr ""
 "|mouseleft| + :kbd:`arrastamento` : Selecciona várias imagens e troca o "
 "tempo para a última seleccionada, mas *não muda a camada activa*."
 
 #: ../../reference_manual/dockers/timeline.rst:120
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Shift` + |mouseleft| : Select all frames between the active and the "
+#| "clicked frame."
 msgid ""
-":kbd:`Shift` + |mouseleft| : Select all frames between the active and the "
+":kbd:`Shift +` |mouseleft| : Select all frames between the active and the "
 "clicked frame."
 msgstr ""
 ":kbd:`Shift` + |mouseleft| : Selecciona todas as imagens entre a activa e "
 "onde se carregou."
 
 #: ../../reference_manual/dockers/timeline.rst:121
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click"
+#| "+drag` them into place."
 msgid ""
-":kbd:`Ctrl` + |mouseleft| : Select individual frames together. :kbd:`click"
-"+drag` them into place."
+":kbd:`Ctrl +` |mouseleft| : Select individual frames together. :kbd:`click + "
+"drag` them into place."
 msgstr ""
 ":kbd:`Ctrl` + |mouseleft| : Selecciona as imagens individuais em conjunto. :"
 "kbd:`click+arrastamento` para as colocar no lugar."
@@ -582,22 +609,33 @@ msgstr ""
 "remover suspensões)."
 
 #: ../../reference_manual/dockers/timeline.rst:126
-msgid "|mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames."
+#, fuzzy
+#| msgid "|mouseleft| + :kbd:`drag` : *Move* a frame or multiple frames."
+msgid "|mouseleft| :kbd:`+ drag` : *Move* a frame or multiple frames."
 msgstr ""
 "|mouseleft| + :kbd:`arrastamento` : *Mover* uma imagem ou várias imagens."
 
 #: ../../reference_manual/dockers/timeline.rst:127
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
 msgid ""
-":kbd:`Ctrl` + |mouseleft| :kbd:`drag` : Copy a frame or multiple frames."
+":kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` : Copy a frame or multiple frames."
 msgstr ""
 ":kbd:`Ctrl` + |mouseleft| :kbd:`arrastamento` : Copiar uma imagem ou várias "
 "imagens."
 
 #: ../../reference_manual/dockers/timeline.rst:128
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to "
+#| "the right of it. (This is useful for when you need to clear up some space "
+#| "in your animation, but don't want to select all the frames to the right "
+#| "of a particular frame!)"
 msgid ""
-":kbd:`Alt` + :kbd:`drag` : Move selected frame(s) and *all* the frames to "
-"the right of it. (This is useful for when you need to clear up some space in "
-"your animation, but don't want to select all the frames to the right of a "
+":kbd:`Alt + drag` : Move selected frame(s) and *all* the frames to the right "
+"of it. (This is useful for when you need to clear up some space in your "
+"animation, but don't want to select all the frames to the right of a "
 "particular frame!)"
 msgstr ""
 ":kbd:`Alt` + :kbd:`arrastamento` : Move as imagens seleccionadas e *todas* "

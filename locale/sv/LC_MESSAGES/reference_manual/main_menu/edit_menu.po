@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-06-15 08:30+0100\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 12:12+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -55,20 +55,24 @@ msgid "Edit Menu"
 msgstr "Menyn Redigera"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:21
-msgid "Undoes the last action. :kbd:`Ctrl + Z`"
-msgstr "Ångrar senaste åtgärden. :kbd:`Ctrl + Z`"
+#| msgid "Undoes the last action. :kbd:`Ctrl + Z`"
+msgid "Undoes the last action. Shortcut: :kbd:`Ctrl + Z`"
+msgstr "Ångrar senaste åtgärden. Genväg: :kbd:`Ctrl + Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:24
-msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
-msgstr "Gör om den senast ångrade åtgärden. :kbd:`Ctrl + Skift+ Z`"
+#| msgid "Redoes the last undone action. :kbd:`Ctrl + Shift+ Z`"
+msgid "Redoes the last undone action. Shortcut: :kbd:`Ctrl + Shift+ Z`"
+msgstr "Gör om den senast ångrade åtgärden. Genväg: :kbd:`Ctrl + Skift+ Z`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:27
-msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
-msgstr "Klipper ut markeringen eller lagret. :kbd:`Ctrl + X`"
+#| msgid "Cuts the selection or layer. :kbd:`Ctrl + X`"
+msgid "Cuts the selection or layer. Shortcut: :kbd:`Ctrl + X`"
+msgstr "Klipper ut markeringen eller lagret. Genväg: :kbd:`Ctrl + X`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:30
-msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
-msgstr "Kopierar markeringen eller lagret. :kbd:`Ctrl + C`"
+#| msgid "Copies the selection or layer. :kbd:`Ctrl + C`"
+msgid "Copies the selection or layer. Shortcut: :kbd:`Ctrl + C`"
+msgstr "Kopierar markeringen eller lagret. Genväg: :kbd:`Ctrl + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:31
 msgid "Cut (Sharp)"
@@ -96,14 +100,19 @@ msgid "Copy Merged"
 msgstr "Kopiera sammanfogade"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:39
-msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
-msgstr "Kopierar markeringen över alla lager :kbd:`Ctrl + Skift + C`"
+#| msgid "Copies the selection over all layers. :kbd:`Ctrl + Shift + C`"
+msgid "Copies the selection over all layers. Shortcut :kbd:`Ctrl + Shift + C`"
+msgstr "Kopierar markeringen över alla lager. Genväg: :kbd:`Ctrl + Skift + C`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:42
-msgid "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
-msgstr ""
-"Klistrar in den kopierade bufferten i bilden som ett nytt lager. :kbd:`Ctrl "
+#| msgid ""
+#| "Pastes the copied buffer into the image as a new layer. :kbd:`Ctrl + V`"
+msgid ""
+"Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl "
 "+ V`"
+msgstr ""
+"Klistrar in den kopierade bufferten i bilden som ett nytt lager. Genväg:"
+" :kbd:`Ctrl + V`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:43
 msgid "Paste at Cursor"
@@ -126,28 +135,37 @@ msgid "Clear"
 msgstr "Rensa"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:51
-msgid "Clear the current layer. :kbd:`Del`"
-msgstr "Rensar aktuellt lager. :kbd:`Del`"
+#| msgid "Clear the current layer. :kbd:`Del`"
+msgid "Clear the current layer. Shortcut: :kbd:`Del`"
+msgstr "Rensar aktuellt lager. Genväg: :kbd:`Del`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:52
 msgid "Fill with Foreground Color"
 msgstr "Fyll med förgrundsfärg"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:54
+#| msgid ""
+#| "Fills the layer or selection with the foreground color. :kbd:`Shift + "
+#| "Backspace`"
 msgid ""
-"Fills the layer or selection with the foreground color. :kbd:`Shift + "
-"Backspace`"
+"Fills the layer or selection with the foreground color. Shortcut: :kbd:"
+"`Shift + Backspace`"
 msgstr ""
-"Fyller lagret eller markeringen med förgrundsfärgen. :kbd:`Skift + Backsteg`"
+"Fyller lagret eller markeringen med förgrundsfärgen. Genväg: :kbd:`Skift +"
+" Backsteg`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:55
 msgid "Fill with Background Color"
 msgstr "Fyll med bakgrundsfärg"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:57
+#| msgid ""
+#| "Fills the layer or selection with the background color. :kbd:`Backspace`"
 msgid ""
-"Fills the layer or selection with the background color. :kbd:`Backspace`"
-msgstr "Fyller lagret eller markeringen med bakgrundsfärgen. :kbd:`Backsteg`"
+"Fills the layer or selection with the background color. Shortcut: :kbd:"
+"`Backspace`"
+msgstr ""
+"Fyller lagret eller markeringen med bakgrundsfärgen. Genväg: :kbd:`Backsteg`"
 
 #: ../../reference_manual/main_menu/edit_menu.rst:58
 msgid "Fill with pattern"
@@ -175,3 +193,4 @@ msgstr "Dragmarkering"
 #: ../../reference_manual/main_menu/edit_menu.rst:66
 msgid "Strokes the active selection using the menu."
 msgstr "Drar den aktiva markeringen genom att använda menyn."
+

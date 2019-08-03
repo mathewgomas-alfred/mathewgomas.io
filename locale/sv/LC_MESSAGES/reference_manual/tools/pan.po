@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-30 08:48+0100\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 12:22+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -62,10 +62,14 @@ msgid "|toolpan|"
 msgstr "|panoreringsverktyg|"
 
 #: ../../reference_manual/tools/pan.rst:20
+#| msgid ""
+#| "The pan tool allows you to pan your canvas around freely. It can be found "
+#| "at the bottom of the toolbox, and you just it by selecting the tool, and "
+#| "doing |mouseleft| + drag over the canvas."
 msgid ""
 "The pan tool allows you to pan your canvas around freely. It can be found at "
 "the bottom of the toolbox, and you just it by selecting the tool, and doing |"
-"mouseleft| + drag over the canvas."
+"mouseleft| :kbd:`+ drag` over the canvas."
 msgstr ""
 "Panoreringsverktyget låter dig panorera duken fritt. Det finns längst ner i "
 "verktygslådan, och man använder det helt enkelt genom att välja verktyget "
@@ -80,11 +84,13 @@ msgstr ""
 "att komma åt från andra verktyg:"
 
 #: ../../reference_manual/tools/pan.rst:24
-msgid ":kbd:`Space +` |mouseleft| + drag over the canvas."
+#| msgid ":kbd:`Space +` |mouseleft| + drag over the canvas."
+msgid ":kbd:`Space +` |mouseleft| :kbd:`+ drag` over the canvas."
 msgstr ":kbd:`Mellanslag +` vänster musknapp + dra över duken."
 
 #: ../../reference_manual/tools/pan.rst:25
-msgid "|mousemiddle| + drag over the canvas."
+#| msgid "|mousemiddle| + drag over the canvas."
+msgid "|mousemiddle| :kbd:`+ drag` over the canvas."
 msgstr "Musens mittenknapp + dra över duken."
 
 #: ../../reference_manual/tools/pan.rst:27
@@ -92,3 +98,4 @@ msgid "For more information on such hotkeys, check :ref:`navigation`."
 msgstr ""
 "För mer information om sådana snabbtangenter, ta en titt på :ref:"
 "`navigation`."
+

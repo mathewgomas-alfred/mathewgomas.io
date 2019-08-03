@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-11 03:18+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
 "PO-Revision-Date: 2019-07-18 15:05\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
@@ -95,12 +95,19 @@ msgid "The Layer Stack"
 msgstr "图层列表"
 
 #: ../../reference_manual/dockers/layers.rst:26
+#, fuzzy
+#| msgid ""
+#| "You can select the active layer here. Using :kbd:`Shift` and :kbd:`Ctrl` "
+#| "you can select multiple layers and drag-and-drop them. You can also "
+#| "change the visibility, edit state, alpha inheritance and rename layers. "
+#| "You can open and close groups, and you can drag and drop layers, either "
+#| "to reorder them, or to put them in groups."
 msgid ""
-"You can select the active layer here. Using :kbd:`Shift` and :kbd:`Ctrl` you "
-"can select multiple layers and drag-and-drop them. You can also change the "
-"visibility, edit state, alpha inheritance and rename layers. You can open "
-"and close groups, and you can drag and drop layers, either to reorder them, "
-"or to put them in groups."
+"You can select the active layer here. Using the :kbd:`Shift` and :kbd:`Ctrl` "
+"keys you can select multiple layers and drag-and-drop them. You can also "
+"change the visibility, edit state, alpha inheritance and rename layers. You "
+"can open and close groups, and you can drag and drop layers, either to "
+"reorder them, or to put them in groups."
 msgstr ""
 "你可以在图层列表中单击选择当前图层，拖放改变图层顺序。按住 :kbd:`Shift` 和 :"
 "kbd:`Ctrl` 可以进行多选，被选中的多个图层可以一起进行拖放。图层可以被分组、分"
@@ -112,9 +119,13 @@ msgid "Name"
 msgstr "名称"
 
 #: ../../reference_manual/dockers/layers.rst:29
+#, fuzzy
+#| msgid ""
+#| "The Layer name, just do double- |mouseleft| to make it editable, and "
+#| "press :kbd:`Enter` to finish editing."
 msgid ""
-"The Layer name, just do double- |mouseleft| to make it editable, and press :"
-"kbd:`Enter` to finish editing."
+"The Layer name, just do double- |mouseleft| to make it editable, and press "
+"the :kbd:`Enter` key to finish editing."
 msgstr ""
 "图层的名称。双击 |mouseleft| 可以重命名图层名称， :kbd:`回车` 结束编辑。"
 
@@ -221,13 +232,21 @@ msgstr ""
 "换图层样式的显示/隐藏。"
 
 #: ../../reference_manual/dockers/layers.rst:53
+#, fuzzy
+#| msgid ""
+#| "To edit these properties on multiple layers at once, press the properties "
+#| "option when you have multiple layers selected or press :kbd:`F3`. There, "
+#| "to change the names of all layers, the checkbox before :guilabel:`Name` "
+#| "should be ticked after which you can type in a name. Krita will "
+#| "automatically add a number behind the layer names. You can change other "
+#| "layer properties like visibility, opacity, lock states, etc. too."
 msgid ""
 "To edit these properties on multiple layers at once, press the properties "
-"option when you have multiple layers selected or press :kbd:`F3`. There, to "
-"change the names of all layers, the checkbox before :guilabel:`Name` should "
-"be ticked after which you can type in a name. Krita will automatically add a "
-"number behind the layer names. You can change other layer properties like "
-"visibility, opacity, lock states, etc. too."
+"option when you have multiple layers selected or press the :kbd:`F3` key. "
+"There, to change the names of all layers, the checkbox before :guilabel:"
+"`Name` should be ticked after which you can type in a name. Krita will "
+"automatically add a number behind the layer names. You can change other "
+"layer properties like visibility, opacity, lock states, etc. too."
 msgstr ""
 "你可以同时编辑多个图层的上述属性。选中多个图层后，点击图层面板底部最右边的“属"
 "性”按钮，或者右键选择“属性”，或者按 :kbd:`F3` 都可以打开“图层属性”对话框。在"
@@ -263,9 +282,13 @@ msgid "Duplicate"
 msgstr "复制"
 
 #: ../../reference_manual/dockers/layers.rst:66
+#, fuzzy
+#| msgid ""
+#| "Will Duplicate the active layer(s). Can be quickly invoked with :kbd:"
+#| "`Ctrl` + |mouseleft| + drag."
 msgid ""
-"Will Duplicate the active layer(s). Can be quickly invoked with :kbd:`Ctrl` "
-"+ |mouseleft| + drag."
+"Will Duplicate the active layer(s). Can be quickly invoked with the :kbd:"
+"`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut."
 msgstr ""
 "创建当前图层的副本。按住 :kbd:`Ctrl` 左键拖动 |mouseleft| 可以把副本直接复制"
 "到拖动位置。"
@@ -315,80 +338,111 @@ msgid "Hot keys and Sticky Keys"
 msgstr "快捷键和功能键"
 
 #: ../../reference_manual/dockers/layers.rst:79
-msgid ":kbd:`Shift` for selecting multiple contiguous layers."
+msgid ":kbd:`Shift` key for selecting multiple contiguous layers."
 msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:80
 msgid ""
-":kbd:`Ctrl` for select or deselect layer without affecting other layers "
+":kbd:`Ctrl` key for select or deselect layer without affecting other layers "
 "selection."
 msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:81
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected "
+#| "layers, for you to drag and drop."
 msgid ""
-":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected layers, "
-"for you to drag and drop."
+":kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut makes a duplicate of the "
+"selected layers, for you to drag and drop."
 msgstr ""
 "按住 :kbd:`Ctrl` + 左键拖放 |mouseleft| 可以把图层复制一份副本到拖放位置。"
 
 #: ../../reference_manual/dockers/layers.rst:82
 msgid ""
-":kbd:`Ctrl + E` for merging a layer down. This also merges selected layers, "
-"layer styles and will keep selection masks intact. Using :kbd:`Ctrl + E` on "
-"a single layer with a mask will merge down the mask into the layer."
+":kbd:`Ctrl + E` shortcut for merging a layer down. This also merges selected "
+"layers, layer styles and will keep selection masks intact. Using the :kbd:"
+"`Ctrl + E` shortcut on a single layer with a mask will merge down the mask "
+"into the layer."
 msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:83
-msgid ":kbd:`Ctrl + Shift + E` merges all layers."
+#, fuzzy
+#| msgid ":kbd:`Ctrl + Shift + E` merges all layers."
+msgid ":kbd:`Ctrl + Shift + E` shortcut merges all layers."
 msgstr "按 :kbd:`Ctrl + Shft + E` 可以合并所有图层。"
 
 #: ../../reference_manual/dockers/layers.rst:84
+#, fuzzy
+#| msgid ""
+#| ":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
+#| "picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
+#| "multiple layers."
 msgid ""
-":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
-"picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
-"multiple layers."
+":kbd:`R +` |mouseleft| shortcut allows you to select layers on canvas, "
+"similar to picking colors directly on canvas. Use the :kbd:`Shift + R +` |"
+"mouseleft| shortcut for multiple layers."
 msgstr ""
 "在画布上按 :kbd:`R` + 左键单击 |mouseleft| 会选中单击处颜色所在的图层。在画布"
 "上按 :kbd:`Shift + R` + 左键单击 |mouseleft| 可以选中单击处颜色所在的多个图"
 "层。"
 
 #: ../../reference_manual/dockers/layers.rst:85
-msgid ":kbd:`Ins` for adding a new layer."
+#, fuzzy
+#| msgid ":kbd:`Ins` for adding a new layer."
+msgid ":kbd:`Ins` key for adding a new layer."
 msgstr "按 :kbd:`Insert` 可以新增一个颜料图层。"
 
 #: ../../reference_manual/dockers/layers.rst:86
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl + G` will create a group layer. If multiple layers are "
+#| "selected, they are put into the group layer."
 msgid ""
-":kbd:`Ctrl + G` will create a group layer. If multiple layers are selected, "
-"they are put into the group layer."
+":kbd:`Ctrl + G` shortcut will create a group layer. If multiple layers are "
+"selected, they are put into the group layer."
 msgstr ""
 "按 :kbd:`Ctrl + G` 将创建一个分组图层，并把当前选中的图层放到这个分组里。"
 
 #: ../../reference_manual/dockers/layers.rst:87
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
+#| "selected layers added into the group, and a new layer added on top with "
+#| "alpha-inheritance turned on, ready for painting!"
 msgid ""
-":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
-"selected layers added into the group, and a new layer added on top with "
+":kbd:`Ctrl + Shift + G` shortcut will quickly set-up a clipping group, with "
+"the selected layers added into the group, and a new layer added on top with "
 "alpha-inheritance turned on, ready for painting!"
 msgstr ""
 "按 :kbd:`Ctrl + Shift + G` 将新建一个剪贴分组。当前选中的图层会被移到分组内部"
 "作为最底层，在它上面会新建一个颜料图层并启用继承透明度。"
 
 #: ../../reference_manual/dockers/layers.rst:88
-msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
+#, fuzzy
+#| msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
+msgid ":kbd:`Ctrl + Alt + G` shortcut will ungroup layers inside a group."
 msgstr "按 :kbd:`Ctrl + Alt + G` 将把选中的图层移出分组。"
 
 #: ../../reference_manual/dockers/layers.rst:89
 msgid ""
-":kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain "
-"between layers till the same action is repeated again."
+":kbd:`Alt +` |mouseleft| shortcut for isolated view of a layer. This will "
+"maintain between layers till the same action is repeated again."
 msgstr ""
 
 #: ../../reference_manual/dockers/layers.rst:90
-msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
+#, fuzzy
+#| msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
+msgid ":kbd:`Page Up` and :kbd:`Page Down` keys for switching between layers."
 msgstr "按 :kbd:`Page Up` 和 :kbd:`Page Down` 可以上下切换图层。"
 
 #: ../../reference_manual/dockers/layers.rst:91
+#, fuzzy
+#| msgid ""
+#| ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
+#| "layers up and down."
 msgid ""
-":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
-"layers up and down."
+":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` shortcuts will move the "
+"selected layers up and down."
 msgstr ""
 "按 :kbd:`Ctrl + Page Up` 和 :kbd:`Ctrl + Page Down` 可以上下移动选中的图层。"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: docs_krita_org_reference_manual___tools___pan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 03:34+0200\n"
-"PO-Revision-Date: 2019-05-06 07:08+0300\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"PO-Revision-Date: 2019-08-02 11:42+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 19.03.70\n"
+"X-Generator: Lokalize 19.04.0\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -65,10 +65,14 @@ msgid "|toolpan|"
 msgstr "|toolpan|"
 
 #: ../../reference_manual/tools/pan.rst:20
+#| msgid ""
+#| "The pan tool allows you to pan your canvas around freely. It can be found "
+#| "at the bottom of the toolbox, and you just it by selecting the tool, and "
+#| "doing |mouseleft| + drag over the canvas."
 msgid ""
 "The pan tool allows you to pan your canvas around freely. It can be found at "
 "the bottom of the toolbox, and you just it by selecting the tool, and doing |"
-"mouseleft| + drag over the canvas."
+"mouseleft| :kbd:`+ drag` over the canvas."
 msgstr ""
 "За допомогою інструмента панорамування ви можете довільним чином "
 "пересуватися полотном. Кнопку інструмента розташовано у нижній частині "
@@ -85,11 +89,13 @@ msgstr ""
 "доступ до нього з інших інструментів:"
 
 #: ../../reference_manual/tools/pan.rst:24
-msgid ":kbd:`Space +` |mouseleft| + drag over the canvas."
+#| msgid ":kbd:`Space +` |mouseleft| + drag over the canvas."
+msgid ":kbd:`Space +` |mouseleft| :kbd:`+ drag` over the canvas."
 msgstr ":kbd:`Пробіл +` |mouseleft| + перетягування полотном."
 
 #: ../../reference_manual/tools/pan.rst:25
-msgid "|mousemiddle| + drag over the canvas."
+#| msgid "|mousemiddle| + drag over the canvas."
+msgid "|mousemiddle| :kbd:`+ drag` over the canvas."
 msgstr "|mousemiddle| + перетягування полотном."
 
 #: ../../reference_manual/tools/pan.rst:27

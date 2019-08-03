@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-04 03:33+0200\n"
+"POT-Creation-Date: 2019-08-02 03:06+0200\n"
 "PO-Revision-Date: 2019-05-19 23:24+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -337,27 +337,32 @@ msgid ".. image:: images/animation/Introduction_to_animation_08.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_08.png"
 
 #: ../../user_manual/animation.rst:134
+#, fuzzy
+#| msgid ""
+#| "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
+#| "second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgid ""
 "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
-"second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
+"second. Then, use the with the :kbd:`Shift + ↑` shortcut to move the frame "
+"contents up."
 msgstr ""
 "Use o botão :guilabel:`Copiar a Imagem` para copiar a primeira imagem para a "
 "segunda. Depois, use-a com a combinação :kbd:`Shift + ↑` para subir o "
 "conteúdo da imagem."
 
-#: ../../user_manual/animation.rst:138
+#: ../../user_manual/animation.rst:137
 msgid "We can see the difference by turning on the onionskinning:"
 msgstr "Agora poderá ver a diferença se activar a 'pele de cebola':"
 
-#: ../../user_manual/animation.rst:141
+#: ../../user_manual/animation.rst:140
 msgid ".. image:: images/animation/Introduction_to_animation_09.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_09.png"
 
-#: ../../user_manual/animation.rst:142
+#: ../../user_manual/animation.rst:141
 msgid "Now, you should see the previous frame as red."
 msgstr "Agora deverá ver a imagem anterior a vermelho."
 
-#: ../../user_manual/animation.rst:145
+#: ../../user_manual/animation.rst:144
 msgid ""
 "Krita sees white as a color, not as transparent, so make sure the animation "
 "layer you are working on is transparent in the bits where there's no "
@@ -369,11 +374,11 @@ msgstr ""
 "em que não existem desenhos. Poderá corrigir a situação se usar o filtro :"
 "ref:`filter_color_to_alpha`, mas mais vale prevenir."
 
-#: ../../user_manual/animation.rst:148
+#: ../../user_manual/animation.rst:147
 msgid ".. image:: images/animation/Introduction_to_animation_10.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_10.png"
 
-#: ../../user_manual/animation.rst:149
+#: ../../user_manual/animation.rst:148
 msgid ""
 "Future frames are drawn in green, and both colors can be configured in the "
 "onion skin docker."
@@ -381,11 +386,11 @@ msgstr ""
 "As imagens futuras são desenhadas a verde, sendo que ambas as cores podem "
 "ser configuradas na área da 'pele de cebola'."
 
-#: ../../user_manual/animation.rst:153
+#: ../../user_manual/animation.rst:152
 msgid ".. image:: images/animation/Introduction_to_animation_11.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_11.png"
 
-#: ../../user_manual/animation.rst:154
+#: ../../user_manual/animation.rst:153
 msgid ""
 "Now, we're gonna draw the two extremes of the walkcycle. These are the pose "
 "where both legs are as far apart as possible, and the pose where one leg is "
@@ -396,32 +401,36 @@ msgstr ""
 "uma perna está completamente esticada e a outra está preparada para dar o "
 "próximo passo."
 
-#: ../../user_manual/animation.rst:159
+#: ../../user_manual/animation.rst:158
+#, fuzzy
+#| msgid ""
+#| "Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, "
+#| "but here comes a tricky bit:"
 msgid ""
-"Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, but "
-"here comes a tricky bit:"
+"Now, let's copy these two... We could do that with the :kbd:`Ctrl + drag` "
+"shortcut, but here comes a tricky bit:"
 msgstr ""
 "Agora, vamos copiar estes dois... Podemos fazê-lo com o :kbd:`Ctrl + "
 "arrastamento`, mas assim aparece um pequeno truque:"
 
-#: ../../user_manual/animation.rst:163
+#: ../../user_manual/animation.rst:162
 msgid ".. image:: images/animation/Introduction_to_animation_12.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_12.png"
 
-#: ../../user_manual/animation.rst:164
+#: ../../user_manual/animation.rst:163
 msgid ""
 ":kbd:`Ctrl +` |mouseleft| also selects and deselects frames, so to copy..."
 msgstr ""
 "O :kbd:`Ctrl +` |mouseleft| também selecciona e deselecciona as imagens; por "
 "isso, para copiar..."
 
-#: ../../user_manual/animation.rst:166
+#: ../../user_manual/animation.rst:165
 msgid ":kbd:`Ctrl +` |mouseleft| to select all the frames you want to select."
 msgstr ""
 ":kbd:`Ctrl +` |mouseleft| para seleccionar todas as imagens que deseja "
 "seleccionar."
 
-#: ../../user_manual/animation.rst:167
+#: ../../user_manual/animation.rst:166
 msgid ""
 ":kbd:`Ctrl + drag`. You need to make sure the first frame is 'orange', "
 "otherwise it won't be copied along."
@@ -429,70 +438,74 @@ msgstr ""
 ":kbd:`Ctrl + arrastamento`. Tem de se certificar que a primeira imagem é a "
 "'laranja', caso contrário não será copiada em conjunto."
 
-#: ../../user_manual/animation.rst:170
+#: ../../user_manual/animation.rst:169
 msgid "Now then..."
 msgstr "E agora..."
 
-#: ../../user_manual/animation.rst:175
+#: ../../user_manual/animation.rst:174
 msgid ".. image:: images/animation/Introduction_to_animation_13.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_13.png"
 
-#: ../../user_manual/animation.rst:175
+#: ../../user_manual/animation.rst:174
 msgid "squashed the timeline docker a bit to save space"
 msgstr "esmagou a área da linha temporal um bocado para ganhar espaço"
 
-#: ../../user_manual/animation.rst:177
+#: ../../user_manual/animation.rst:176
 msgid "Copy frame 0 to frame 2."
 msgstr "Copie a imagem 0 para a imagem 2."
 
-#: ../../user_manual/animation.rst:178
+#: ../../user_manual/animation.rst:177
 msgid "Copy frame 1 to frame 3."
 msgstr "Copie a imagem 1 para a imagem 3."
 
-#: ../../user_manual/animation.rst:179
+#: ../../user_manual/animation.rst:178
 msgid "In the animation docker, set the frame-rate to 4."
 msgstr "Na área de animação, configure a taxa de imagens como 4."
 
-#: ../../user_manual/animation.rst:180
+#: ../../user_manual/animation.rst:179
 msgid "Select all frames in the timeline docker by dragging-selecting them."
 msgstr ""
 "Seleccione todas as imagens na área da linha temporal, seleccionando-as por "
 "arrastamento."
 
-#: ../../user_manual/animation.rst:181
+#: ../../user_manual/animation.rst:180
 msgid "Press play in the animation docker."
 msgstr "Carregue em Reproduzir na área de animação."
 
-#: ../../user_manual/animation.rst:182
+#: ../../user_manual/animation.rst:181
 msgid "Enjoy your first animation!"
 msgstr "Desfrute da sua primeira animação!"
 
-#: ../../user_manual/animation.rst:185
+#: ../../user_manual/animation.rst:184
 msgid "Expanding upon your rough walkcycle"
 msgstr "Expandir o seu homem a andar básico"
 
-#: ../../user_manual/animation.rst:188
+#: ../../user_manual/animation.rst:187
 msgid ".. image:: images/animation/Introduction_to_animation_14.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_14.png"
 
-#: ../../user_manual/animation.rst:189
+#: ../../user_manual/animation.rst:188
+#, fuzzy
+#| msgid ""
+#| "You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
+#| "move that frame and all others after it in one go."
 msgid ""
-"You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
-"move that frame and all others after it in one go."
+"You can quickly make some space by the :kbd:`Alt + drag` shortcut on any "
+"frame. This'll move that frame and all others after it in one go."
 msgstr ""
 "Poderá criar rapidamente algum espaço se fizer :kbd:`Alt+arrastamento` de "
 "qualquer imagem. Isto irá mover essa imagem e todas as que se seguem de uma "
 "vez."
 
-#: ../../user_manual/animation.rst:192
+#: ../../user_manual/animation.rst:191
 msgid "Then draw inbetweens on each frame that you add."
 msgstr "Depois desenhe, nos espaços intermédios, em cada imagem que adicionou."
 
-#: ../../user_manual/animation.rst:195
+#: ../../user_manual/animation.rst:194
 msgid ".. image:: images/animation/Introduction_to_animation_16.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_16.png"
 
-#: ../../user_manual/animation.rst:196
+#: ../../user_manual/animation.rst:195
 msgid ""
 "You'll find that the more frames you add, the more difficult it becomes to "
 "keep track of the onion skins."
@@ -500,7 +513,7 @@ msgstr ""
 "Irá reparar que, quanto mais imagens adicionar, mais difícil se tornará "
 "acompanhar as 'peles de cebola'."
 
-#: ../../user_manual/animation.rst:198
+#: ../../user_manual/animation.rst:197
 msgid ""
 "You can modify the onion skin by using the onion skin docker, where you can "
 "change how many frames are visible at once, by toggling them on the top row. "
@@ -512,15 +525,15 @@ msgstr ""
 "superior. A fila inferior serve para controlar a transparência, onde abaixo "
 "dela poderá modificar as cores e o nível da coloração."
 
-#: ../../user_manual/animation.rst:204
+#: ../../user_manual/animation.rst:203
 msgid ".. image:: images/animation/Introduction_to_animation_15.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_15.png"
 
-#: ../../user_manual/animation.rst:206
+#: ../../user_manual/animation.rst:205
 msgid "Animating with multiple layers"
 msgstr "Animação com várias camadas"
 
-#: ../../user_manual/animation.rst:208
+#: ../../user_manual/animation.rst:207
 msgid ""
 "Okay, our walkcycle is missing some hands, let's add them on a separate "
 "layer. So we make a new layer, and name it hands and..."
@@ -528,11 +541,11 @@ msgstr ""
 "Ok, o nosso homem a andar não tem braços; vamos adicioná-los numa camada "
 "separada. Como tal, vamos criar uma nova camada, chamar-lhe 'braços' e..."
 
-#: ../../user_manual/animation.rst:212
+#: ../../user_manual/animation.rst:211
 msgid ".. image:: images/animation/Introduction_to_animation_17.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_17.png"
 
-#: ../../user_manual/animation.rst:213
+#: ../../user_manual/animation.rst:212
 msgid ""
 "Our walkcycle is gone from the timeline docker! This is a feature actually. "
 "A full animation can have so many little parts that an animator might want "
@@ -545,11 +558,11 @@ msgstr ""
 "trabalhar da área da linha temporal. Como tal, terá de as adicionar "
 "manualmente."
 
-#: ../../user_manual/animation.rst:219
+#: ../../user_manual/animation.rst:218
 msgid ".. image:: images/animation/Introduction_to_animation_18.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_18.png"
 
-#: ../../user_manual/animation.rst:220
+#: ../../user_manual/animation.rst:219
 msgid ""
 "You can show any given layer in the timeline by doing |mouseright| on the "
 "layer in the layer docker, and toggling :guilabel:`Show in Timeline`."
@@ -558,25 +571,25 @@ msgstr ""
 "mouseright| sobre a camada, na área de camadas, e activar a opção :guilabel:"
 "`Mostrar na Linha Temporal`."
 
-#: ../../user_manual/animation.rst:224
+#: ../../user_manual/animation.rst:223
 msgid ".. image:: images/animation/Introduction_to_animation_19.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_19.png"
 
-#: ../../user_manual/animation.rst:226
+#: ../../user_manual/animation.rst:225
 msgid "Exporting"
 msgstr "Exportação"
 
-#: ../../user_manual/animation.rst:228
+#: ../../user_manual/animation.rst:227
 msgid "When you are done, select :menuselection:`File --> Render Animation`."
 msgstr ""
 "Quando terminar, seleccione a opção :menuselection:`Ficheiro --> Desenhar a "
 "Animação`."
 
-#: ../../user_manual/animation.rst:231
+#: ../../user_manual/animation.rst:230
 msgid ".. image:: images/animation/Introduction_to_animation_20.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_20.png"
 
-#: ../../user_manual/animation.rst:232
+#: ../../user_manual/animation.rst:231
 msgid ""
 "It's recommended to save out your file as a png, and preferably in its own "
 "folder. Krita can currently only export png sequences."
@@ -584,11 +597,11 @@ msgstr ""
 "Recomenda-se que grave o seu ficheiro como um PNG, e de preferência na sua "
 "própria pasta. O Krita só consegue exportar sequências em PNG."
 
-#: ../../user_manual/animation.rst:236
+#: ../../user_manual/animation.rst:235
 msgid ".. image:: images/animation/Introduction_to_animation_21.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_21.png"
 
-#: ../../user_manual/animation.rst:237
+#: ../../user_manual/animation.rst:236
 msgid ""
 "When pressing done, you can see the status of the export in the status bar "
 "below."
@@ -596,18 +609,18 @@ msgstr ""
 "Quando carregar em Terminar, poderá ver o estado da exportação na barra de "
 "estado abaixo."
 
-#: ../../user_manual/animation.rst:241
+#: ../../user_manual/animation.rst:240
 msgid ".. image:: images/animation/Introduction_to_animation_22.png"
 msgstr ".. image:: images/animation/Introduction_to_animation_22.png"
 
-#: ../../user_manual/animation.rst:242
+#: ../../user_manual/animation.rst:241
 msgid ""
 "The images should be saved out as filenameXXX.png, giving their frame number."
 msgstr ""
 "As imagens deverão ficar gravadas como nomeficheiroXXX.png, sendo-lhe "
 "atribuído o seu número de imagem."
 
-#: ../../user_manual/animation.rst:245
+#: ../../user_manual/animation.rst:244
 msgid ""
 "Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux, OSX, "
 "Windows), or any other gif creator to make a gif out of your image sequence:"
@@ -616,13 +629,18 @@ msgstr ""
 "OSX, Windows) ou outro criador de GIF's para compor um GIF a partir da sua "
 "sequência de imagens:"
 
-#: ../../user_manual/animation.rst:250
+#: ../../user_manual/animation.rst:249
 msgid ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 msgstr ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 
-#: ../../user_manual/animation.rst:251
+#: ../../user_manual/animation.rst:250
+#, fuzzy
+#| msgid ""
+#| "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+#| "(Windows) and open all the frames and then go to :menuselection:`File --> "
+#| "Export --> GIF`."
 msgid ""
-"For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
+"For example, you can use `VirtualDub <http://www.virtualdub.org/>`_\\ "
 "(Windows) and open all the frames and then go to :menuselection:`File --> "
 "Export --> GIF`."
 msgstr ""
@@ -630,11 +648,11 @@ msgstr ""
 "(Windows), abrir todas as imagens e depois ir a :menuselection:`Ficheiro --> "
 "Exportar --> GIF`."
 
-#: ../../user_manual/animation.rst:255
+#: ../../user_manual/animation.rst:254
 msgid "Enjoy your walkcycle!"
 msgstr "Desfrute do seu homem a andar!"
 
-#: ../../user_manual/animation.rst:259
+#: ../../user_manual/animation.rst:258
 msgid ""
 "Krita 3.1 has a render animation feature. If you're using the 3.1 beta, "
 "check out the :ref:`render_animation` page for more information!"
@@ -643,15 +661,15 @@ msgstr ""
 "usar a versão 3.1 beta, consulte a página :ref:`render_animation` para obter "
 "mais informações!"
 
-#: ../../user_manual/animation.rst:262
+#: ../../user_manual/animation.rst:261
 msgid "Importing animation frames"
 msgstr "Importar as imagens da animação"
 
-#: ../../user_manual/animation.rst:264
+#: ../../user_manual/animation.rst:263
 msgid "You can import animation frames in Krita 3.0."
 msgstr "Poderá importar imagens da animação no Krita 3.0."
 
-#: ../../user_manual/animation.rst:266
+#: ../../user_manual/animation.rst:265
 msgid ""
 "First let us take a sprite sheet from Open Game Art. (This is the Libre "
 "Pixel Cup male walkcycle)"
@@ -659,7 +677,7 @@ msgstr ""
 "Primeiro vamos obter uma folha de imagens da Open Game Art. (Este é o homem "
 "a andar do Libre Pixel Cup)"
 
-#: ../../user_manual/animation.rst:269
+#: ../../user_manual/animation.rst:268
 msgid ""
 "And we'll use :menuselection:`Image --> Split Image` to split up the sprite "
 "sheet."
@@ -667,11 +685,11 @@ msgstr ""
 "E iremos usar a opção :menuselection:`Imagem --> Dividir a Imagem` para "
 "decompor a folha de imagens."
 
-#: ../../user_manual/animation.rst:272
+#: ../../user_manual/animation.rst:271
 msgid ".. image:: images/animation/Animation_split_spritesheet.png"
 msgstr ".. image:: images/animation/Animation_split_spritesheet.png"
 
-#: ../../user_manual/animation.rst:273
+#: ../../user_manual/animation.rst:272
 msgid ""
 "The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical "
 "slices and 0 horizontal slices. Give it a proper name and save it as png."
@@ -680,7 +698,7 @@ msgstr ""
 "imagens, use 8 fatias verticais e 0 fatias horizontais. Atribua-lhes um nome "
 "adequado e grave-as como PNG."
 
-#: ../../user_manual/animation.rst:275
+#: ../../user_manual/animation.rst:274
 msgid ""
 "Then, make a new canvas, and select :menuselection:`File --> Import "
 "Animation Frames`. This will give you a little window. Select :guilabel:`Add "
@@ -691,19 +709,19 @@ msgstr ""
 "janela. Seleccione a opção :guilabel:`Adicionar imagens`. Isto dever-lhe-á "
 "apresentar um selector de ficheiros para escolher as suas imagens."
 
-#: ../../user_manual/animation.rst:278
+#: ../../user_manual/animation.rst:277
 msgid ".. image:: images/animation/Animation_import_sprites.png"
 msgstr ".. image:: images/animation/Animation_import_sprites.png"
 
-#: ../../user_manual/animation.rst:279
+#: ../../user_manual/animation.rst:278
 msgid "You can select multiple images at once."
 msgstr "Poderá seleccionar várias imagens de uma vez."
 
-#: ../../user_manual/animation.rst:282
+#: ../../user_manual/animation.rst:281
 msgid ".. image:: images/animation/Animation_set_everything.png"
 msgstr ".. image:: images/animation/Animation_set_everything.png"
 
-#: ../../user_manual/animation.rst:283
+#: ../../user_manual/animation.rst:282
 msgid ""
 "The frames are currently automatically ordered. You can set the ordering "
 "with the top-left two drop-down boxes."
@@ -711,15 +729,15 @@ msgstr ""
 "As imagens aparecem automaticamente ordenadas de momento. Poderá definir a "
 "ordenação com as duas listas do canto superior-esquerdo."
 
-#: ../../user_manual/animation.rst:286
+#: ../../user_manual/animation.rst:285
 msgid "Start"
 msgstr "Início"
 
-#: ../../user_manual/animation.rst:287
+#: ../../user_manual/animation.rst:286
 msgid "Indicates at which point the animation should be imported."
 msgstr "Indica em que ponto deverá ser importada a animação."
 
-#: ../../user_manual/animation.rst:289
+#: ../../user_manual/animation.rst:288
 msgid ""
 "Indicates the difference between the imported animation and the document "
 "frame rate. This animation is 8 frames big, and the fps of the document is "
@@ -734,30 +752,30 @@ msgstr ""
 "quantas imagens-por-segundo a animação importada ficaria com o passo "
 "indicado actualmente."
 
-#: ../../user_manual/animation.rst:293
+#: ../../user_manual/animation.rst:292
 msgid "Step"
 msgstr "Passo"
 
-#: ../../user_manual/animation.rst:295
+#: ../../user_manual/animation.rst:294
 msgid ""
 "Press :guilabel:`OK`, and your animation should be imported as a new layer."
 msgstr ""
 "Carregue em :guilabel:`OK`, para que a sua animação seja importada como uma "
 "nova camada."
 
-#: ../../user_manual/animation.rst:298
+#: ../../user_manual/animation.rst:297
 msgid ".. image:: images/animation/Animation_import_done.png"
 msgstr ".. image:: images/animation/Animation_import_done.png"
 
-#: ../../user_manual/animation.rst:300
+#: ../../user_manual/animation.rst:299
 msgid "Reference"
 msgstr "Referência"
 
-#: ../../user_manual/animation.rst:302
+#: ../../user_manual/animation.rst:301
 msgid "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 msgstr "https://community.kde.org/Krita/Docs/AnimationGuiFeaturesList"
 
-#: ../../user_manual/animation.rst:303
+#: ../../user_manual/animation.rst:302
 msgid ""
 "`The source for the libre pixel cup male walkmediawiki cycle <https://"
 "opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-"
