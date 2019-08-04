@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-05-22 09:19+0100\n"
+"PO-Revision-Date: 2019-08-03 10:31+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -29,7 +29,7 @@ msgstr ""
 "X-POFile-SpellExtra: perfilimagem NC imagemmeta import xmp profile License\n"
 "X-POFile-SpellExtra: kritaManual pngcrush ImageDescription UsageTerms true\n"
 "X-POFile-SpellExtra: attributionURL Marked depth imagemmodificada\n"
-"X-POFile-SpellExtra: attributionName pngquant dither FFmpeg\n"
+"X-POFile-SpellExtra: attributionName pngquant dither FFmpeg Print Screen\n"
 
 #: ../../contributors_manual/optimising_images.rst:1
 msgid "How to make and optimise images for use in the manual."
@@ -89,17 +89,10 @@ msgid "Windows"
 msgstr "Windows"
 
 #: ../../contributors_manual/optimising_images.rst:31
-#, fuzzy
-#| msgid ""
-#| "Windows has a build-in screenshot tool. It is by default on the :kbd:"
-#| "`PrtSc` key. On laptops you will sometimes need to use the :kbd:`Fn` key."
 msgid ""
 "Windows has a build-in screenshot tool. It is by default on the :kbd:`Print "
 "Screen` key. On laptops you will sometimes need to use the :kbd:`Fn` key."
-msgstr ""
-"O Windows tem uma ferramenta de capturas do ecrã incorporada. Está por "
-"omissão associada à tecla :kbd:`PrtSc`. Nos portáteis, é possível que "
-"precise de usar a tecla :kbd:`Fn` também."
+msgstr "O Windows tem uma ferramenta de capturas do ecrã incorporada. Está por omissão associada à tecla :kbd:`Print Screen`. Nos portáteis, é possível que precise de usar a tecla :kbd:`Fn` também."
 
 #: ../../contributors_manual/optimising_images.rst:34
 #: ../../contributors_manual/optimising_images.rst:88
@@ -108,20 +101,11 @@ msgid "Linux"
 msgstr "Linux"
 
 #: ../../contributors_manual/optimising_images.rst:35
-#, fuzzy
-#| msgid ""
-#| "Both Gnome and KDE have decent screenshot tools showing up by default "
-#| "when using the :kbd:`PrtSc` key, as well do other popular desktop "
-#| "environments. If, for whatever reason, you have no"
 msgid ""
 "Both Gnome and KDE have decent screenshot tools showing up by default when "
 "using the :kbd:`Print Screen` key, as well do other popular desktop "
 "environments. If, for whatever reason, you have no"
-msgstr ""
-"Tanto o Gnome como o KDE têm ferramentas de captura do ecrã decentes que "
-"aparecem por omissão quando se usa a tecla :kbd:`PrtSc`, assim como acontece "
-"noutros ambientes de trabalho conhecidos. Se, por alguma razão, não tiver "
-"nenhum"
+msgstr "Tanto o Gnome como o KDE têm ferramentas de captura do ecrã decentes que aparecem por omissão quando se usa a tecla :kbd:`Print Screen`, assim como acontece noutros ambientes de trabalho conhecidos. Se, por alguma razão, não tiver nenhum"
 
 #: ../../contributors_manual/optimising_images.rst:38
 msgid "With imagemagick, you can use the following command::"
@@ -343,13 +327,6 @@ msgid "`PNGQuant <https://pngquant.org/>`_"
 msgstr "`PNGQuant <https://pngquant.org/>`_"
 
 #: ../../contributors_manual/optimising_images.rst:101
-#, fuzzy
-#| msgid ""
-#| "Where *image* is replaced with the image file name. When you press :kbd:"
-#| "`Enter`, a new image will appear in the folder with the compressed "
-#| "results. PNGQuant works for most images, but some images, like the color "
-#| "selectors don't do well with it, so always double check that the "
-#| "resulting image looks good, otherwise try one of the following options:"
 msgid ""
 "Where *image* is replaced with the image file name. When you press the :kbd:"
 "`Enter` key, a new image will appear in the folder with the compressed "
@@ -746,16 +723,10 @@ msgid "For Creative Commons BY-SA 4.0::"
 msgstr "Para o Creative Commons BY-SA 4.0::"
 
 #: ../../contributors_manual/optimising_images.rst:240
-#, fuzzy
-#| msgid ""
-#| "convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/"
-#| "licenses/by-sa/4.0/\" image.png"
 msgid ""
 "convert -set dcterms:license \"CC-BY-SA-4.0 https://creativecommons.org/"
 "licenses/by-sa/4.0/\" image.png"
-msgstr ""
-"convert -set dcterms:license \"CC-BY-SA-4.0 http://creativecommons.org/"
-"licenses/by-sa/4.0/\" imagem.png"
+msgstr "convert -set dcterms:license \"CC-BY-SA-4.0 https://creativecommons.org/licenses/by-sa/4.0/\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:242
 msgid ""
@@ -794,44 +765,24 @@ msgid "So that would look something like this::"
 msgstr "Portanto, isso parecer-se-á algo como isto::"
 
 #: ../../contributors_manual/optimising_images.rst:253
-#, fuzzy
-#| msgid ""
-#| "exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
-#| "sa/4.0\" -UsageTerms=\"This work is licensed under a <a rel=\"license\" "
-#| "href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
-#| "Attribution-ShareAlike 4.0 International License</a>.\" -Copyright=\"CC-"
-#| "BY-SA-NC 4.0\" image.png"
 msgid ""
 "exiftool -Marked=true -License=\"https://creativecommons.org/licenses/by-"
 "sa/4.0\" -UsageTerms=\"This work is licensed under a <a rel=\"license\" href="
 "\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons "
 "Attribution-ShareAlike 4.0 International License</a>.\" -Copyright=\"CC-BY-"
 "SA-NC 4.0\" image.png"
-msgstr ""
-"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
-"sa/4.0\" -UsageTerms=\"Este trabalho está licenciado segundo uma <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Licença "
-"Creative Commons Attribution-ShareAlike 4.0 Internacional</a>.\" -Copyright="
-"\"CC-BY-SA-NC 4.0\" imagem.png"
+msgstr "exiftool -Marked=true -License=\"https://creativecommons.org/licenses/by-sa/4.0\" -UsageTerms=\"Este trabalho está licenciado segundo uma <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Licença Creative Commons Attribution-ShareAlike 4.0 Internacional</a>.\" -Copyright=\"CC-BY-SA-NC 4.0\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:255
 msgid "Another way of doing the marking is::"
 msgstr "Outra forma de fazer a marcação::"
 
 #: ../../contributors_manual/optimising_images.rst:257
-#, fuzzy
-#| msgid ""
-#| "exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
-#| "sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual"
-#| "\" image.png"
 msgid ""
 "exiftool -Marked=true -License=\"https://creativecommons.org/licenses/by-"
 "sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" "
 "image.png"
-msgstr ""
-"exiftool -Marked=true -License=\"http://creativecommons.org/licenses/by-"
-"sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" "
-"imagem.png"
+msgstr "exiftool -Marked=true -License=\"https://creativecommons.org/licenses/by-sa/4.0\" -attributionURL=\"docs.krita.org\" attributionName=\"kritaManual\" imagem.png"
 
 #: ../../contributors_manual/optimising_images.rst:260
 msgid "First extract the data (if there is any)::"

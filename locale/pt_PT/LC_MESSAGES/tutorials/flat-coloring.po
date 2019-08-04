@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-05-20 00:26+0100\n"
+"PO-Revision-Date: 2019-08-03 14:29+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-POFile-SpellExtra: backspace beziercurve Kritafillinglineartselection\n"
 "X-POFile-SpellExtra: ref Mic flat Kritafillinglineart tool Bézier path\n"
 "X-POFile-SpellExtra: mouseright Krita filltool Kritamouseright\n"
-"X-POFile-SpellExtra: beziercurveselectiontool mouseleft\n"
+"X-POFile-SpellExtra: beziercurveselectiontool mouseleft Backspace\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -743,12 +743,6 @@ msgid "Selections work using the selection tools."
 msgstr "As selecções funcionam com as ferramentas de selecção."
 
 #: ../../tutorials/flat-coloring.rst:227
-#, fuzzy
-#| msgid ""
-#| "For example with the :ref:`bezier_curve_selection_tool` you can easily "
-#| "select a curved area, and the with :kbd:`Shift` + |mouseleft| (not |"
-#| "mouseleft| + :kbd:`Shift`, there's a difference!) you can easily add to "
-#| "an existing selection."
 msgid ""
 "For example with the :ref:`bezier_curve_selection_tool` you can easily "
 "select a curved area, and the with :kbd:`Shift +` |mouseleft| (not |"
@@ -774,16 +768,10 @@ msgstr ""
 "barra de estado)"
 
 #: ../../tutorials/flat-coloring.rst:234
-#, fuzzy
-#| msgid ""
-#| "When done, select the color you want to fill it with and press :kbd:"
-#| "`Shift` + `backspace`."
 msgid ""
 "When done, select the color you want to fill it with and press the :kbd:"
 "`Shift + Backspace` shortcut."
-msgstr ""
-"Quando terminar, seleccione a cor com que deseja preencher e carregue em :"
-"kbd:`Shift` + `backspace`."
+msgstr "Quando terminar, seleccione a cor com que deseja preencher e carregue em :kbd:`Shift + Backspace`."
 
 #: ../../tutorials/flat-coloring.rst:239
 msgid ""
@@ -848,10 +836,6 @@ msgstr ""
 "confirmar a acção, ficando livre para desenhar o ponto seguinte."
 
 #: ../../tutorials/flat-coloring.rst:269
-#, fuzzy
-#| msgid ""
-#| "You can also erase with a geometric tool. Just press :kbd:`E` or the "
-#| "eraser button."
 msgid ""
 "You can also erase with a geometric tool. Just press the :kbd:`E` key or the "
 "eraser button."

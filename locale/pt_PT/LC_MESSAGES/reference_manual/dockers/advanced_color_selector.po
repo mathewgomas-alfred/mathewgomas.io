@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-06-17 15:02+0100\n"
+"PO-Revision-Date: 2019-08-03 10:36+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -142,26 +142,13 @@ msgid "HSY'"
 msgstr "HSY'"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:49
-#, fuzzy
-#| msgid ""
-#| "Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of "
-#| "true luminosity. (Luminosity being the measurement of relative "
-#| "lightness). HSY' uses the Luma Coefficients, like `Rec 709 <http://en."
-#| "wikipedia.org/wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' "
-#| "can be the most intuitive selector to work with, or the most confusing."
 msgid ""
 "Stands for Hue, Saturation, Luma, with Luma being an RGB approximation of "
 "true luminosity. (Luminosity being the measurement of relative lightness). "
 "HSY' uses the Luma Coefficients, like `Rec. 709 <https://en.wikipedia.org/"
 "wiki/Rec._709>`_, to calculate the Luma. Due to this, HSY' can be the most "
 "intuitive selector to work with, or the most confusing."
-msgstr ""
-"Significa Hue (Tom/Matiz), Saturation (Saturação) e Luma, sendo o Luma uma "
-"aproximação em RGB da luminosidade real (A Luminosidade é a medida da "
-"luminosidade relativa). O HSY' usa os Coeficientes de Luma Coefficients, "
-"como a `Rec 709 <http://en.wikipedia.org/wiki/Rec._709>`_, para calcular o "
-"valor do Luma. Por esse facto, o HSY' pode ser o selector mais intuitivo com "
-"o qual lidar ou o mais confuso."
+msgstr "Significa Hue (Tom/Matiz), Saturation (Saturação) e Luma, sendo o Luma uma aproximação em RGB da luminosidade real (A Luminosidade é a medida da luminosidade relativa). O HSY' usa os Coeficientes de Luma Coefficients, como a `Rec 709 <https://en.wikipedia.org/wiki/Rec._709>`_, para calcular o valor do Luma. Por esse facto, o HSY' pode ser o selector mais intuitivo com o qual lidar ou o mais confuso."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:51
 msgid ""
@@ -186,19 +173,11 @@ msgid "Luma Coefficients"
 msgstr "Coeficientes de Luma"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:60
-#, fuzzy
-#| msgid ""
-#| "This allows you to edit the Luma coefficients for the HSY model selectors "
-#| "to your leisure. Want to use `Rec 601 <http://en.wikipedia.org/wiki/Rec."
-#| "_601>`_ instead of Rec 709? These boxes allow you to do that!"
 msgid ""
 "This allows you to edit the Luma coefficients for the HSY model selectors to "
 "your leisure. Want to use `Rec. 601 <https://en.wikipedia.org/wiki/Rec."
 "_601>`_ instead of Rec. 709? These boxes allow you to do that!"
-msgstr ""
-"Isto permite-lhe editar os coeficientes de Luma para os selectores do modelo "
-"HSY a seu gosto. Gostaria de usar a `Rec 601 <http://en.wikipedia.org/wiki/"
-"Rec._601>`_ em vez da Rec 709? Estes campos permitem-lhe fazer isso mesmo!"
+msgstr "Isto permite-lhe editar os coeficientes de Luma para os selectores do modelo HSY a seu gosto. Gostaria de usar a `Rec 601 <https://en.wikipedia.org/wiki/Rec._601>`_ em vez da Rec 709? Estes campos permitem-lhe fazer isso mesmo!"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:62
 msgid "By default, the Luma coefficients should add up to 1 at maximum."
@@ -310,11 +289,6 @@ msgid "never"
 msgstr "nunca"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:99
-#, fuzzy
-#| msgid ""
-#| "The size given here, is also the size of the Main Color Selector and the "
-#| "MyPaint Shade Selector when they are called with :kbd:`Shift + I` and :"
-#| "kbd:`Shift + M`, respectively."
 msgid ""
 "The size given here, is also the size of the Main Color Selector and the "
 "MyPaint Shade Selector when they are called with the :kbd:`Shift + I` and :"
@@ -363,16 +337,10 @@ msgid "MyPaint Shade Selector"
 msgstr "Selector de Sombras do MyPaint"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:118
-#, fuzzy
-#| msgid ""
-#| "Ported from MyPaint, and extended with all color models. Default hotkey "
-#| "is :kbd:`Shift+ M`."
 msgid ""
 "Ported from MyPaint, and extended with all color models. Default hotkey is :"
 "kbd:`Shift + M`."
-msgstr ""
-"Migrado a partir do MyPaint e alargado com todos os modelos de cores. O "
-"valor por omissão é o :kbd:`Shift+ M`."
+msgstr "Migrado a partir do MyPaint e alargado com todos os modelos de cores. O valor por omissão é o :kbd:`Shift + M`."
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:122
 msgid "Simple Shade Selector"
@@ -476,10 +444,6 @@ msgid "History patches"
 msgstr "Histórico de padrões"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:151
-#, fuzzy
-#| msgid ""
-#| "The history patches remember which colors you've drawn on canvas with. "
-#| "They can be quickly called with :kbd:`H`."
 msgid ""
 "The history patches remember which colors you've drawn on canvas with. They "
 "can be quickly called with the :kbd:`H` key."
@@ -492,10 +456,6 @@ msgid "Common Patches"
 msgstr "Padrões Comuns"
 
 #: ../../reference_manual/dockers/advanced_color_selector.rst:156
-#, fuzzy
-#| msgid ""
-#| "The common patches are generated from the image, and are the most common "
-#| "color in the image. The hotkey for them on canvas is :kbd:`U`."
 msgid ""
 "The common patches are generated from the image, and are the most common "
 "color in the image. The hotkey for them on canvas is the :kbd:`U` key."

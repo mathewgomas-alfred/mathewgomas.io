@@ -98,12 +98,6 @@ msgid "The Layer Stack"
 msgstr "Стос шарів"
 
 #: ../../reference_manual/dockers/layers.rst:26
-#| msgid ""
-#| "You can select the active layer here. Using :kbd:`Shift` and :kbd:`Ctrl` "
-#| "you can select multiple layers and drag-and-drop them. You can also "
-#| "change the visibility, edit state, alpha inheritance and rename layers. "
-#| "You can open and close groups, and you can drag and drop layers, either "
-#| "to reorder them, or to put them in groups."
 msgid ""
 "You can select the active layer here. Using the :kbd:`Shift` and :kbd:`Ctrl` "
 "keys you can select multiple layers and drag-and-drop them. You can also "
@@ -124,9 +118,6 @@ msgid "Name"
 msgstr "Назва"
 
 #: ../../reference_manual/dockers/layers.rst:29
-#| msgid ""
-#| "The Layer name, just do double- |mouseleft| to make it editable, and "
-#| "press :kbd:`Enter` to finish editing."
 msgid ""
 "The Layer name, just do double- |mouseleft| to make it editable, and press "
 "the :kbd:`Enter` key to finish editing."
@@ -238,13 +229,6 @@ msgstr ""
 "допомогою кнопки можна швидко вмикати і вимикати цю можливість."
 
 #: ../../reference_manual/dockers/layers.rst:53
-#| msgid ""
-#| "To edit these properties on multiple layers at once, press the properties "
-#| "option when you have multiple layers selected or press :kbd:`F3`. There, "
-#| "to change the names of all layers, the checkbox before :guilabel:`Name` "
-#| "should be ticked after which you can type in a name. Krita will "
-#| "automatically add a number behind the layer names. You can change other "
-#| "layer properties like visibility, opacity, lock states, etc. too."
 msgid ""
 "To edit these properties on multiple layers at once, press the properties "
 "option when you have multiple layers selected or press the :kbd:`F3` key. "
@@ -290,9 +274,6 @@ msgid "Duplicate"
 msgstr "Здублювати"
 
 #: ../../reference_manual/dockers/layers.rst:66
-#| msgid ""
-#| "Will Duplicate the active layer(s). Can be quickly invoked with :kbd:"
-#| "`Ctrl` + |mouseleft| + drag."
 msgid ""
 "Will Duplicate the active layer(s). Can be quickly invoked with the :kbd:"
 "`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut."
@@ -348,14 +329,10 @@ msgid "Hot keys and Sticky Keys"
 msgstr "Клавіатурні скорочення та комбінації доповнення дій"
 
 #: ../../reference_manual/dockers/layers.rst:79
-#| msgid ":kbd:`Shift` for selecting multiple contiguous layers."
 msgid ":kbd:`Shift` key for selecting multiple contiguous layers."
 msgstr ":kbd:`Shift` для позначення неперервного діапазону з декількох шарів."
 
 #: ../../reference_manual/dockers/layers.rst:80
-#| msgid ""
-#| ":kbd:`Ctrl` for select or deselect layer without affecting other layers "
-#| "selection."
 msgid ""
 ":kbd:`Ctrl` key for select or deselect layer without affecting other layers "
 "selection."
@@ -364,9 +341,6 @@ msgstr ""
 "позначення інших шарів."
 
 #: ../../reference_manual/dockers/layers.rst:81
-#| msgid ""
-#| ":kbd:`Ctrl` + |mouseleft| + drag - makes a duplicate of the selected "
-#| "layers, for you to drag and drop."
 msgid ""
 ":kbd:`Ctrl +` |mouseleft| :kbd:`+ drag` shortcut makes a duplicate of the "
 "selected layers, for you to drag and drop."
@@ -375,11 +349,6 @@ msgstr ""
 "шарів для перетягування зі скиданням."
 
 #: ../../reference_manual/dockers/layers.rst:82
-#| msgid ""
-#| ":kbd:`Ctrl + E` for merging a layer down. This also merges selected "
-#| "layers, layer styles and will keep selection masks intact. Using :kbd:"
-#| "`Ctrl + E` on a single layer with a mask will merge down the mask into "
-#| "the layer."
 msgid ""
 ":kbd:`Ctrl + E` shortcut for merging a layer down. This also merges selected "
 "layers, layer styles and will keep selection masks intact. Using the :kbd:"
@@ -391,15 +360,10 @@ msgstr ""
 "+ E` для єдиного шару зображення із маскою, програма об'єднає маску із шаром."
 
 #: ../../reference_manual/dockers/layers.rst:83
-#| msgid ":kbd:`Ctrl + Shift + E` merges all layers."
 msgid ":kbd:`Ctrl + Shift + E` shortcut merges all layers."
 msgstr ":kbd:`Ctrl + Shift + E` — об'єднати усі шари."
 
 #: ../../reference_manual/dockers/layers.rst:84
-#| msgid ""
-#| ":kbd:`R` + |mouseleft| allows you to select layers on canvas, similar to "
-#| "picking colors directly on canvas. Use :kbd:`Shift + R` + |mouseleft| for "
-#| "multiple layers."
 msgid ""
 ":kbd:`R +` |mouseleft| shortcut allows you to select layers on canvas, "
 "similar to picking colors directly on canvas. Use the :kbd:`Shift + R +` |"
@@ -410,14 +374,10 @@ msgstr ""
 "комбінацією :kbd:`Shift + R` + |mouseleft|, щоб позначити декілька шарів."
 
 #: ../../reference_manual/dockers/layers.rst:85
-#| msgid ":kbd:`Ins` for adding a new layer."
 msgid ":kbd:`Ins` key for adding a new layer."
 msgstr ":kbd:`Ins` — додати новий шар."
 
 #: ../../reference_manual/dockers/layers.rst:86
-#| msgid ""
-#| ":kbd:`Ctrl + G` will create a group layer. If multiple layers are "
-#| "selected, they are put into the group layer."
 msgid ""
 ":kbd:`Ctrl + G` shortcut will create a group layer. If multiple layers are "
 "selected, they are put into the group layer."
@@ -426,10 +386,6 @@ msgstr ""
 "їх буде зібрано до однієї групи шарів."
 
 #: ../../reference_manual/dockers/layers.rst:87
-#| msgid ""
-#| ":kbd:`Ctrl + Shift + G` will quickly set-up a clipping group, with the "
-#| "selected layers added into the group, and a new layer added on top with "
-#| "alpha-inheritance turned on, ready for painting!"
 msgid ""
 ":kbd:`Ctrl + Shift + G` shortcut will quickly set-up a clipping group, with "
 "the selected layers added into the group, and a new layer added on top with "
@@ -440,14 +396,10 @@ msgstr ""
 "доданими шарами із увімкненим успадкуванням прозорості!"
 
 #: ../../reference_manual/dockers/layers.rst:88
-#| msgid ":kbd:`Ctrl + Alt + G` will ungroup layers inside a group."
 msgid ":kbd:`Ctrl + Alt + G` shortcut will ungroup layers inside a group."
 msgstr ":kbd:`Ctrl + Alt + G` — скасовує групування шарів у групі."
 
 #: ../../reference_manual/dockers/layers.rst:89
-#| msgid ""
-#| ":kbd:`Alt` + |mouseleft| for isolated view of a layer. This will maintain "
-#| "between layers till the same action is repeated again."
 msgid ""
 ":kbd:`Alt +` |mouseleft| shortcut for isolated view of a layer. This will "
 "maintain between layers till the same action is repeated again."
@@ -456,14 +408,10 @@ msgstr ""
 "лишатиметься між шарами, аж доки ту саму дію не буде повторено."
 
 #: ../../reference_manual/dockers/layers.rst:90
-#| msgid ":kbd:`Page Up` and :kbd:`Page Down` for switching between layers."
 msgid ":kbd:`Page Up` and :kbd:`Page Down` keys for switching between layers."
 msgstr ":kbd:`Page Up` і :kbd:`Page Down` — перемикання між шарами."
 
 #: ../../reference_manual/dockers/layers.rst:91
-#| msgid ""
-#| ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` will move the selected "
-#| "layers up and down."
 msgid ""
 ":kbd:`Ctrl + Page Up` and :kbd:`Ctrl + Page Down` shortcuts will move the "
 "selected layers up and down."

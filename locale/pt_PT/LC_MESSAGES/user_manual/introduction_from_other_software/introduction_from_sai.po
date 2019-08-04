@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-05-19 23:42+0100\n"
+"PO-Revision-Date: 2019-08-03 14:11+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -126,8 +126,6 @@ msgid "Mirror"
 msgstr "Espelho"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:30
-#, fuzzy
-#| msgid "This is tied to :kbd:`M` to flip."
 msgid "This is tied to :kbd:`M` key to flip."
 msgstr "Isto está associado ao :kbd:`M` para inverter."
 
@@ -136,13 +134,6 @@ msgid "Rotate"
 msgstr "Rodar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:32
-#, fuzzy
-#| msgid ""
-#| "There's a couple of possibilities here: either :kbd:`4` and :kbd:`6`, or :"
-#| "kbd:`Ctrl + [` and :kbd:`Ctrl + ]` for basic 15 degrees rotation left and "
-#| "right. But you can also have more sophisticated rotation with :kbd:`Shift "
-#| "+ Space` + drag or :kbd:`Shift` + |mousemiddle| + drag. To reset the "
-#| "rotation, press :kbd:`5`."
 msgid ""
 "There's a couple of possibilities here: either the :kbd:`4` and :kbd:`6` "
 "keys, or the :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` shortcuts for basic 15 "
@@ -150,23 +141,13 @@ msgid ""
 "rotation with the :kbd:`Shift + Space + drag` or :kbd:`Shift +` |"
 "mousemiddle| :kbd:`+ drag` shortcuts. To reset the rotation, press the :kbd:"
 "`5` key."
-msgstr ""
-"Existem aqui algumas possibilidades: ou o :kbd:`4` e o :kbd:`6`, ou o :kbd:"
-"`Ctrl + [` e o :kbd:`Ctrl + ]` para a rotação básica em 15 graus para a "
-"esquerda e direita. Mas poderá ainda ter rotações mais sofisticadas com o :"
-"kbd:`Shift + Espaço` + arrastamento ou :kbd:`Shift` + |mousemiddle| + "
-"arrastamento. Para repor a rotação, carregue em :kbd:`5`."
+msgstr "Existem aqui algumas possibilidades: ou o :kbd:`4` e o :kbd:`6`, ou o :kbd:`Ctrl + [` e o :kbd:`Ctrl + ]` para a rotação básica em 15 graus para a esquerda e direita. Mas poderá ainda ter rotações mais sofisticadas com o :kbd:`Shift + Espaço + arrastamento` ou :kbd:`Shift + |mousemiddle| + arrastamento`. Para repor a rotação, carregue em :kbd:`5`."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:34
 msgid "Zoom"
 msgstr "Ampliação"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:34
-#, fuzzy
-#| msgid ""
-#| "You can use :kbd:`+` and :kbd:`-` to zoom out and in, or use :kbd:`Ctrl` "
-#| "+ |mousemiddle|. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or "
-#| "fit the zoom to page width."
 msgid ""
 "You can use the :kbd:`+` and :kbd:`-` keys to zoom out and in, or use the :"
 "kbd:`Ctrl +` |mousemiddle| shortcut. Use 1, 2 or 3 to reset the zoom, fit "
@@ -259,23 +240,12 @@ msgid "Right click color picker"
 msgstr "Selector de cores com o botão direito"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:53
-#, fuzzy
-#| msgid ""
-#| "You can actually set this in :menuselection:`Settings --> Configure Krita "
-#| "--> Canvas input settings --> Alternate invocation`. Just double-click "
-#| "the entry that says :kbd:`Ctrl` + |mouseleft| before :guilabel:`Pick "
-#| "foreground color from image` to get a window to set it to |mouseright|."
 msgid ""
 "You can actually set this in :menuselection:`Settings --> Configure Krita --"
 "> Canvas input settings --> Alternate invocation`. Just double-click the "
 "entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Pick "
 "foreground color from image` to get a window to set it to |mouseright|."
-msgstr ""
-"Poderá de facto definir isto na opção :menuselection:`Configuração --> "
-"Configurar o Krita --> Configuração de entrada da área de desenho --> "
-"Invocação alternativa`. Basta fazer duplo-click sobre o elemento que diz :"
-"kbd:`Ctrl` + |mouseleft| antes de :guilabel:`Escolher a cor principal da "
-"imagem` para obter uma janela onde configurá-la com o |mouseright|."
+msgstr "Poderá de facto definir isto na opção :menuselection:`Configuração --> Configurar o Krita --> Configuração de entrada da área de desenho --> Invocação alternativa`. Basta fazer duplo-click sobre o elemento que diz :kbd:`Ctrl` + |mouseleft| antes de :guilabel:`Escolher a cor principal da imagem` para obter uma janela onde configurá-la com o |mouseright|."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:57
 msgid ""
@@ -352,14 +322,6 @@ msgstr ""
 "Opacidade na barra de topo."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:79
-#, fuzzy
-#| msgid ""
-#| "This is not quite true. It's rather that we don't have our brush settings "
-#| "in a docker but a drop-down on the toolbar. The easiest way to access "
-#| "this is with :kbd:`F5`. As you can see, it's actually quite complex. We "
-#| "have more than a dozen brush engines, which are a type of brush you can "
-#| "make. The ones you are used to from Paint Tool Sai are the Pixel Brush "
-#| "(ink), The Color Smudge Brush (brush) and the filter brush (dodge, burn)."
 msgid ""
 "This is not quite true. It's rather that we don't have our brush settings in "
 "a docker but a drop-down on the toolbar. The easiest way to access this is "
@@ -412,11 +374,6 @@ msgid "Erasing"
 msgstr "Apagar"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:88
-#, fuzzy
-#| msgid ""
-#| "Erasing is a blending mode in Krita, much like the transparency mode of "
-#| "Paint Tool Sai. It's activated with :kbd:`E` or you can select it from "
-#| "the Blending Mode drop-down..."
 msgid ""
 "Erasing is a blending mode in Krita, much like the transparency mode of "
 "Paint Tool Sai. It's activated with the :kbd:`E` key or you can select it "
@@ -481,11 +438,6 @@ msgid "Clipping group"
 msgstr "Recorte de um grupo"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:106
-#, fuzzy
-#| msgid ""
-#| "For Clipping masks in Krita you'll need to put all your images in a "
-#| "single layer, and then press the 'a' icon, or press :kbd:`Ctrl + Shift + "
-#| "G`."
 msgid ""
 "For Clipping masks in Krita you'll need to put all your images in a single "
 "layer, and then press the 'a' icon, or press the :kbd:`Ctrl + Shift + G` "
@@ -525,10 +477,6 @@ msgid "Clearing a layer"
 msgstr "Limpar uma camada"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:112
-#, fuzzy
-#| msgid ""
-#| "This is under :menuselection:`Edit --> Clear`, but you can also just "
-#| "press :kbd:`Del`."
 msgid ""
 "This is under :menuselection:`Edit --> Clear`, but you can also just press "
 "the :kbd:`Del` key."
@@ -593,11 +541,6 @@ msgstr ""
 "do selector de cores principal."
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:135
-#, fuzzy
-#| msgid ""
-#| "You can call the color history with :kbd:`H`, common colors with :kbd:`U` "
-#| "and the two shade selectors with :kbd:`Shift + N` and :kbd:`Shift + M`. "
-#| "The big selector can be called with :kbd:`Shift + I` on canvas."
 msgid ""
 "You can call the color history with the :kbd:`H` key, common colors with "
 "the :kbd:`U` key and the two shade selectors with the :kbd:`Shift + N` and :"
@@ -670,11 +613,6 @@ msgid "Quick Layer select"
 msgstr "Selecção rápida de camadas"
 
 #: ../../user_manual/introduction_from_other_software/introduction_from_sai.rst:169
-#, fuzzy
-#| msgid ""
-#| "If you hold :kbd:`R` and press a spot on your drawing, Krita will select "
-#| "the layer underneath the cursor. Really useful when dealing with a large "
-#| "number of layers."
 msgid ""
 "If you hold the :kbd:`R` key and press a spot on your drawing, Krita will "
 "select the layer underneath the cursor. Really useful when dealing with a "

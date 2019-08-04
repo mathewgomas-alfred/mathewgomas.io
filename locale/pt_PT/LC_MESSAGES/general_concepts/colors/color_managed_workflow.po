@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-07-21 13:40+0100\n"
+"PO-Revision-Date: 2019-08-03 14:25+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -29,7 +29,7 @@ msgstr ""
 "X-POFile-SpellExtra: Blender Inkscape lcms guilabel númeroversão\n"
 "X-POFile-SpellExtra: RawTheraphee VFX digiKam datafiles Look pngcrush Up\n"
 "X-POFile-SpellExtra: lut colormanagement Color up JPG optimizadores\n"
-"X-POFile-SpellExtra: Digikam Table dockers\n"
+"X-POFile-SpellExtra: Digikam Table dockers Rec\n"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -962,14 +962,6 @@ msgid ""
 msgstr "Outro exemplo é ver cuidadosamente os gradientes numa dada secção."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:234
-#, fuzzy
-#| msgid ""
-#| "Like ICC, the LUT Docker allows you to create a profile of sorts for your "
-#| "device. In this case it's the 'lut', which stands for 'Look Up Table', "
-#| "and which can be added to OCIO by modifying the configuration file. When "
-#| "OCIO is turned on, the configuration in :menuselection:`Settings --> "
-#| "Configure Krita --> Color Management` is turned off, unless you are using "
-#| "the :guilabel:`Internal` color engine."
 msgid ""
 "Like ICC, the LUT Docker allows you to create a profile of sorts for your "
 "device. In this case it's the 'LUT', which stands for 'Look Up Table', and "
@@ -977,13 +969,7 @@ msgid ""
 "turned on, the configuration in :menuselection:`Settings --> Configure Krita "
 "--> Color Management` is turned off, unless you are using the :guilabel:"
 "`Internal` color engine."
-msgstr ""
-"Como o ICC, a Área do LUT permite-lhe criar uma espécie de perfil para o seu "
-"dispositivo. Neste caso, será o 'lut', que significa 'Look Up Table' (Tabela "
-"de Consulta), e que poderá ser adicionado pelo OCIO, mudando o ficheiro de "
-"configuração. Quando o OCIO for ligado, a configuração em :menuselection:"
-"`Configuração --> Configurar o Krita --> Gestão de Cores` ficará desligada, "
-"a menos que use o motor de cores :guilabel:`Interno`."
+msgstr "Como o ICC, a Área do LUT permite-lhe criar uma espécie de perfil para o seu dispositivo. Neste caso, será o 'LUT', que significa 'Look Up Table' (Tabela de Consulta), e que poderá ser adicionado pelo OCIO, mudando o ficheiro de configuração. Quando o OCIO for ligado, a configuração em :menuselection:`Configuração --> Configurar o Krita --> Gestão de Cores` ficará desligada, a menos que use o motor de cores :guilabel:`Interno`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:237
 msgid "In summary"
@@ -1029,14 +1015,6 @@ msgstr ""
 "Configurar o Krita --> Gestão de cores`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:246
-#, fuzzy
-#| msgid ""
-#| "Do NOT use screen profiles or other device profiles to draw in. Use a "
-#| "working space profile such as any of the elle profiles for this, as the "
-#| "color maths will be much more predictable and pleasant. Krita will "
-#| "convert between your screen and working space on the fly, allowing you to "
-#| "pick the correct colors. This turns your screen into binoculars to view "
-#| "the image."
 msgid ""
 "Do NOT use screen profiles or other device profiles to draw in. Use a "
 "working space profile such as any of the 'elle' profiles for this, as the "
@@ -1188,19 +1166,11 @@ msgid "If you are preparing for print:"
 msgstr "Se estiver a preparar-se para imprimir:"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:283
-#, fuzzy
-#| msgid ""
-#| "You hopefully made the picture in a working space profile instead of the "
-#| "actual custom profile of your screen, if not, convert it to something "
-#| "like Adobe RGB, sRGB or rec2020."
 msgid ""
 "You hopefully made the picture in a working space profile instead of the "
 "actual custom profile of your screen, if not, convert it to something like "
 "Adobe RGB, sRGB or Rec. 2020."
-msgstr ""
-"Provavelmente criou a imagem num perfil de espaço de trabalho em vez do "
-"perfil personalizado actual do seu ecrã; caso contrário, converta-o para "
-"algo como o Adobe RGB, sRGB ou rec2020."
+msgstr "Provavelmente criou a imagem num perfil de espaço de trabalho em vez do perfil personalizado actual do seu ecrã; caso contrário, converta-o para algo como o Adobe RGB, sRGB ou Rec. 2020."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:284
 msgid ""
@@ -1385,11 +1355,8 @@ msgid "Print"
 msgstr "Imprimir"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:342
-#, fuzzy
-#| msgid "sRGB or rec2020 if you can afford the bit-depth being 16bit."
 msgid "sRGB or Rec. 2020 if you can afford the bit-depth being 16bit."
-msgstr ""
-"sRGB ou rec2020 se conseguir usar a profundidade de cor como sendo a 16 bits."
+msgstr "sRGB ou Rec. 2020 se conseguir usar a profundidade de cor como sendo a 16 bits."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
 msgid ""
