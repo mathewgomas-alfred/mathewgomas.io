@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"POT-Creation-Date: 2019-08-04 03:16+0200\n"
 "PO-Revision-Date: 2019-08-03 14:25+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -30,6 +30,14 @@ msgstr ""
 "X-POFile-SpellExtra: RawTheraphee VFX digiKam datafiles Look pngcrush Up\n"
 "X-POFile-SpellExtra: lut colormanagement Color up JPG optimizadores\n"
 "X-POFile-SpellExtra: Digikam Table dockers Rec\n"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
+msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
+
+#: ../../general_concepts/colors/color_managed_workflow.rst:0
+msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
+msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita_2_9_colormanagement_group1.png"
@@ -72,14 +80,6 @@ msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_print.svg"
 #: ../../general_concepts/colors/color_managed_workflow.rst:None
 msgid ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
 msgstr ".. image:: images/color_category/Krita-colormanaged-workflow_games.svg"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_matrix_profile.png"
-msgstr ".. image:: images/color_category/Kiki_matrix_profile.png"
-
-#: ../../general_concepts/colors/color_managed_workflow.rst:0
-msgid ".. image:: images/color_category/Kiki_cLUTprofiles.png"
-msgstr ".. image:: images/color_category/Kiki_cLUTprofiles.png"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:1
 msgid "How a color managed workflow works."
@@ -969,7 +969,13 @@ msgid ""
 "turned on, the configuration in :menuselection:`Settings --> Configure Krita "
 "--> Color Management` is turned off, unless you are using the :guilabel:"
 "`Internal` color engine."
-msgstr "Como o ICC, a Área do LUT permite-lhe criar uma espécie de perfil para o seu dispositivo. Neste caso, será o 'LUT', que significa 'Look Up Table' (Tabela de Consulta), e que poderá ser adicionado pelo OCIO, mudando o ficheiro de configuração. Quando o OCIO for ligado, a configuração em :menuselection:`Configuração --> Configurar o Krita --> Gestão de Cores` ficará desligada, a menos que use o motor de cores :guilabel:`Interno`."
+msgstr ""
+"Como o ICC, a Área do LUT permite-lhe criar uma espécie de perfil para o seu "
+"dispositivo. Neste caso, será o 'LUT', que significa 'Look Up Table' (Tabela "
+"de Consulta), e que poderá ser adicionado pelo OCIO, mudando o ficheiro de "
+"configuração. Quando o OCIO for ligado, a configuração em :menuselection:"
+"`Configuração --> Configurar o Krita --> Gestão de Cores` ficará desligada, "
+"a menos que use o motor de cores :guilabel:`Interno`."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:237
 msgid "In summary"
@@ -1170,7 +1176,10 @@ msgid ""
 "You hopefully made the picture in a working space profile instead of the "
 "actual custom profile of your screen, if not, convert it to something like "
 "Adobe RGB, sRGB or Rec. 2020."
-msgstr "Provavelmente criou a imagem num perfil de espaço de trabalho em vez do perfil personalizado actual do seu ecrã; caso contrário, converta-o para algo como o Adobe RGB, sRGB ou Rec. 2020."
+msgstr ""
+"Provavelmente criou a imagem num perfil de espaço de trabalho em vez do "
+"perfil personalizado actual do seu ecrã; caso contrário, converta-o para "
+"algo como o Adobe RGB, sRGB ou Rec. 2020."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:284
 msgid ""
@@ -1356,7 +1365,9 @@ msgstr "Imprimir"
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:342
 msgid "sRGB or Rec. 2020 if you can afford the bit-depth being 16bit."
-msgstr "sRGB ou Rec. 2020 se conseguir usar a profundidade de cor como sendo a 16 bits."
+msgstr ""
+"sRGB ou Rec. 2020 se conseguir usar a profundidade de cor como sendo a 16 "
+"bits."
 
 #: ../../general_concepts/colors/color_managed_workflow.rst:344
 msgid ""
