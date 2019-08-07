@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: general_concepts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-08-02 15:51+0200\n"
+"PO-Revision-Date: 2019-08-06 22:31+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -73,9 +73,9 @@ msgid ""
 "So, if computers can already automate a ton, and it is fairly complicated, "
 "is there still a use for a traditional 2d artist to learn this?"
 msgstr ""
-"Per tant, si els ordinadors ja poden automatitzar una tona, i és força "
-"complicat, encara hi ha un ús perquè un artista en 2D tradicional ho "
-"aprengui?"
+"Per tant, si els ordinadors ja poden fer molta optimització i el tema és "
+"força complex. Llavors, té sentit estudiar tot això sobre dibuixos en 2D "
+"tradicionals?"
 
 #: ../../general_concepts/projection/practical.rst:20
 msgid ""
@@ -105,10 +105,13 @@ msgid ""
 "or the view from the feet isn’t. Hence why we use the side view to do "
 "perspective projection on."
 msgstr ""
+"La vista lateral d'una persona ajaguda sovint és fàcil de dibuixar, però la "
+"vista superior o des dels peus no ho és. Per això utilitzem la vista lateral "
+"per a fer una projecció en perspectiva."
 
 #: ../../general_concepts/projection/practical.rst:32
 msgid "Another example with an equally epic task: sitting."
-msgstr ""
+msgstr "Un altre exemple amb una tasca igualment èpica: asseguda."
 
 #: ../../general_concepts/projection/practical.rst:37
 msgid ""
@@ -120,6 +123,14 @@ msgid ""
 "makes the working field really messy, but if you look up perspective "
 "projection you’ll see multiple examples of this method."
 msgstr ""
+"Ara, amb aquest tenim un segon punt de fuga sobre la vista frontal. Haurà "
+"d'estar aproximadament a la mateixa distància per sobre de la vista frontal "
+"que per sobre del cap de la vista lateral girada. El pla de projecció també "
+"haurà d'estar a la mateixa distància del punt de fuga, però això no vol dir "
+"que hagi d'estar al darrere. Aquesta és una cosa que he evitat en els "
+"exemples anteriors, perquè fa que el camp de treball sigui realment "
+"desordenat, però cerqueu sobre la projecció en perspectiva, veureu múltiples "
+"exemples d'aquest mètode."
 
 #: ../../general_concepts/projection/practical.rst:39
 msgid ""
@@ -128,10 +139,15 @@ msgid ""
 "get odd distortion, this doesn’t happen here, which means this sitting "
 "person is a bit more stretched vertically than necessary."
 msgstr ""
+"També és de destacar que en realitat hauria de tenir el pla de visió/pla de "
+"projecció perfectament perpendicular amb l'angle del punt focal, en cas "
+"contrari obtindreu una estranya distorsió, això no passa aquí, el qual vol "
+"dir que aquesta persona asseguda està una mica més inclinada verticalment del "
+"que és necessari."
 
 #: ../../general_concepts/projection/practical.rst:44
 msgid "One more, for the road…"
-msgstr ""
+msgstr "Una més per al camí..."
 
 #: ../../general_concepts/projection/practical.rst:49
 msgid ""
@@ -141,10 +157,15 @@ msgid ""
 "always look good. (I also mess up the position of the shoulder for a good "
 "while if you look closely.)"
 msgstr ""
+"Aquí veureu que la desalineació del punt de fuga amb el pla de projecció "
+"provoca una inclinació que després s'haurà de corregir amb les eines de "
+"transformació del Krita, tècnicament és correcte, però no sempre es veurà bé. "
+"(Si mireu de prop, també he canviat lleugerament la posició de l'espatlla "
+"perquè es vegi millor)."
 
 #: ../../general_concepts/projection/practical.rst:55
 msgid "Conclusion and afterthoughts"
-msgstr ""
+msgstr "Conclusió i reflexions posteriors"
 
 #: ../../general_concepts/projection/practical.rst:57
 msgid ""
@@ -154,12 +175,19 @@ msgid ""
 "and it allows you to iterate on a pose quite quickly once you get the hang "
 "of it."
 msgstr ""
+"Probablement no he creat les imatges tan boniques com podria, especialment si "
+"les compareu amb les imatges en 3D. No obstant això, encara veureu que els "
+"principals punts de referència hi són. Tot i que l'ús real d'aquesta tècnica "
+"rau en la postura, i permet iterar molt ràpidament en un posat un cop la "
+"domineu."
 
 #: ../../general_concepts/projection/practical.rst:59
 msgid ""
 "Generally, it’s worth exploring, if only because it improves your spatial "
 "sense."
 msgstr ""
+"En general, val la pena explorar, encara que només sigui perquè millori el "
+"vostre sentit espacial."
 
 #: ../../general_concepts/projection/practical.rst:63
 msgid "https://en.wikipedia.org/wiki/Axonometric_projection"
@@ -171,7 +199,7 @@ msgstr "https://blenderartists.org/t/creating-an-isometric-camera/440743"
 
 #: ../../general_concepts/projection/practical.rst:65
 msgid "http://flarerpg.org/tutorials/isometric_tiles/"
-msgstr ""
+msgstr "http://flarerpg.org/tutorials/isometric_tiles/"
 
 #: ../../general_concepts/projection/practical.rst:66
 msgid ""

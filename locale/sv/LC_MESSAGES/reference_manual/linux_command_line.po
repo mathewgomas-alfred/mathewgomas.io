@@ -39,17 +39,17 @@ msgid ""
 "without opening the program when using the Terminal. This option was "
 "disabled on Windows and OSX, but with 3.3 it is enabled for them!"
 msgstr ""
-"Såsom inbyggt Linux-program, låter Krita dig utföra åtgärder på bilder utan"
-" att visa programmet när terminalen används. Alternativet var inaktiverat på"
-" Windows och OSX, men med 3.3 är det aktiverat för dem."
+"Såsom inbyggt Linux-program, låter Krita dig utföra åtgärder på bilder utan "
+"att visa programmet när terminalen används. Alternativet var inaktiverat på "
+"Windows och OSX, men med 3.3 är det aktiverat för dem."
 
 #: ../../reference_manual/linux_command_line.rst:22
 msgid ""
 "This is primarily used in bash or shell scripts, for example, to mass "
 "convert kra files into pngs."
 msgstr ""
-"Det används i huvudsak med bash och skalskript, exempelvis för att konvertera"
-" många kra-filer till png:er."
+"Det används i huvudsak med bash och skalskript, exempelvis för att "
+"konvertera många kra-filer till png:er."
 
 #: ../../reference_manual/linux_command_line.rst:25
 msgid "Export"
@@ -80,8 +80,8 @@ msgid ""
 "Export filename says that the following word is the filename it should be "
 "exported to."
 msgstr ""
-"Exportfilnamnet anger att följande argument är filnamnet som det ska"
-" exporteras till."
+"Exportfilnamnet anger att följande argument är filnamnet som det ska "
+"exporteras till."
 
 #: ../../reference_manual/linux_command_line.rst:45
 msgid "exportfilename"
@@ -92,8 +92,8 @@ msgid ""
 "Replace this with the name of the output file. Use a different extension to "
 "change the file format."
 msgstr ""
-"Ersätt det med namnet på utdatafilen. Använd en annan filändelse för att"
-" ändra filformatet."
+"Ersätt det med namnet på utdatafilen. Använd en annan filändelse för att "
+"ändra filformatet."
 
 #: ../../reference_manual/linux_command_line.rst:47
 msgid "Example:"
@@ -116,8 +116,8 @@ msgid ""
 "If a KRA file has no animation, then this command prints \"This file has no "
 "animation.\" error and does nothing."
 msgstr ""
-"Om en KRA-fil inte har någon animering, skriver kommandot ut \"Den här filen"
-" har ingen animering\" och gör ingenting."
+"Om en KRA-fil inte har någon animering, skriver kommandot ut \"Den här filen "
+"har ingen animering\" och gör ingenting."
 
 #: ../../reference_manual/linux_command_line.rst:61
 msgid "``krita --export-sequence --export-filename file.png test.kra``"
@@ -129,9 +129,9 @@ msgid ""
 "filename (file.png), to determine the sequence fileformat('png') and the "
 "frame prefix ('file')."
 msgstr ""
-"Raden tar animeringen i test.kra och använder värdet på --export-filename"
-" (fil.png) för att bestämma sekvensens filformat ('png') och bildruteprefixet"
-" ('fil')."
+"Raden tar animeringen i test.kra och använder värdet på --export-filename "
+"(fil.png) för att bestämma sekvensens filformat ('png') och bildruteprefixet "
+"('fil')."
 
 #: ../../reference_manual/linux_command_line.rst:67
 msgid "PDF export"
@@ -140,8 +140,8 @@ msgstr "PDF-export"
 #: ../../reference_manual/linux_command_line.rst:69
 msgid "Pdf export looks a bit different, using the ``--export-pdf`` option."
 msgstr ""
-"PDF-export ser lita annorlunda ut, genom att väljaren ``--export-pdf``"
-" används."
+"PDF-export ser lita annorlunda ut, genom att väljaren ``--export-pdf`` "
+"används."
 
 #: ../../reference_manual/linux_command_line.rst:71
 msgid "``krita file.png --export-pdf --export-filename final.pdf``"
@@ -182,9 +182,9 @@ msgid ""
 "for example, create a shortcut to Krita that opens a given template, so you "
 "can get to work immediately!"
 msgstr ""
-"Öppnar Krita och öppnar automatiskt den angivna mallen eller mallarna. Det"
-" låter dig exempelvis skapa en genväg till Krita som öppnar en angiven mall,"
-" så att du kan börja arbeta omedelbart."
+"Öppnar Krita och öppnar automatiskt den angivna mallen eller mallarna. Det "
+"låter dig exempelvis skapa en genväg till Krita som öppnar en angiven mall, "
+"så att du kan börja arbeta omedelbart."
 
 #: ../../reference_manual/linux_command_line.rst:99
 msgid "``krita --template templatename.desktop``"
@@ -199,8 +199,8 @@ msgid ""
 "All templates are saved with the .desktop extension. You can find templates "
 "in the .local/share/krita/template or in the install folder of Krita."
 msgstr ""
-"Alla mallar sparas med filändelsen .desktop. Mallarna finns i"
-" .local/share/krita/template eller i Kritas installationskatalog."
+"Alla mallar sparas med filändelsen .desktop. Mallarna finns i .local/share/"
+"krita/template eller i Kritas installationskatalog."
 
 #: ../../reference_manual/linux_command_line.rst:109
 msgid "``krita --template BD-EuroTemplate.desktop``"
@@ -245,4 +245,3 @@ msgstr "``krita --workspace Animering``"
 #: ../../reference_manual/linux_command_line.rst:142
 msgid "Starts Krita in the Animation workspace."
 msgstr "Startar Krita med arbetsrymden Animering."
-
