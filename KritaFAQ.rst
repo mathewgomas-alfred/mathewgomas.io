@@ -381,6 +381,7 @@ There is a myriad of reasons why this might be. Below is a short checklist.
 -  You are running Windows, and have 3rdparty security software like Sandboxie or Total Defender installed
 -  You are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
 -  You do not have canvas acceleration enabled
+-  You have (NVidia) Vertical Sync enabled
 
 Please also check `this page <https://phabricator.kde.org/T7199>`__
 
