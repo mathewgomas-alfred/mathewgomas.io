@@ -68,6 +68,8 @@ Krita python plugins need to be python modules, so make sure there's an __init__
 
 Where .myplugin is the name of the main file of your plugin. If you restart Krita, it now should show this in the Python Plugin Manager in the settings, but it will be grayed out, because there's no myplugin.py. If you hover over disabled plugins, you can see the error with them.
 
+.. note:: You need to explicitly enable your plugin. Go to the Settings menu, open the Configure Krita dialog and go to the Python Plugin Manager page and enable your plugin.
+
 Summary
 ^^^^^^^
 
