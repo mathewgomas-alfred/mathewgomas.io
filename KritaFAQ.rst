@@ -462,7 +462,7 @@ If you modify Krita itself, and distribute the result, you have to share your mo
 Can I get Krita for iPad? for Android?
 --------------------------------------
 
-Not for iOS or iPadOD at this point in time. Android is being worked on, but it will not have a phone or tablet, but the same desktop ui as always.
+Not for iOS or iPadOS at this point in time. Android is being worked on, but it will not have a phone or tablet, but the same desktop ui as always.
 
 Who translates Krita
 --------------------
