@@ -36,7 +36,7 @@ Edit Menu
         Same as :term:`Cut (Sharp)` but then copying instead.
 
     Copy Merged
-        Copies the selection over all layers. Shortcut :kbd:`Ctrl + Shift + C`
+        Copies the selection over all layers. Shortcut: :kbd:`Ctrl + Shift + C`
 
     Paste
         Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl + V`

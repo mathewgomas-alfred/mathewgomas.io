@@ -31,7 +31,7 @@ Mirror
 Rotate
     There's a couple of possibilities here: either the :kbd:`4` and :kbd:`6` keys, or the :kbd:`Ctrl + [` and :kbd:`Ctrl + ]` shortcuts for basic 15 degrees rotation left and right. But you can also have more sophisticated rotation with the :kbd:`Shift + Space + drag` or :kbd:`Shift +` |mousemiddle| :kbd:`+ drag` shortcuts. To reset the rotation, press the :kbd:`5` key.
 Zoom
-    You can use the :kbd:`+` and :kbd:`-` keys to zoom out and in, or use the :kbd:`Ctrl +` |mousemiddle| shortcut. Use 1, 2 or 3 to reset the zoom, fit the zoom to page or fit the zoom to page width.
+    You can use the :kbd:`+` and :kbd:`-` keys to zoom out and in, or use the :kbd:`Ctrl +` |mousemiddle| shortcut. Use the :kbd:`1`, :kbd:`2` or :kbd:`3` keys to reset the zoom, fit the zoom to page or fit the zoom to page width.
 
 You can use the Overview docker in :menuselection:`Settings --> Dockers` to quickly navigate over your image.
 

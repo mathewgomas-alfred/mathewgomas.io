@@ -57,7 +57,7 @@ you'll need to know before you start:
 Requirements
 ------------
 
-Besides the `obvious` requirement of having an eye tracker device, you will
+Besides the *obvious* requirement of having an eye tracker device, you will
 also need a control program that will let you interact with the device. When
 you obtain the device, such a program will most probably be provided to you
 but that program might not be sufficient for using the device with Krita.

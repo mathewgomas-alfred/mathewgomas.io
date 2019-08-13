@@ -33,7 +33,7 @@ Let’s see if we can perspectively project our box now.
 .. image:: /images/category_projection/projection-cube_12.svg 
    :align: center
 
-That went pretty well. As you can see we sorta ‘merged’ the two sides into one (resulting into the purple side square) so we had an easier time projecting. The projection is limited to one or two vanishing point type projection, so only the horizontal lines get distorted. We can also distort the vertical lines
+That went pretty well. As you can see we sort of *merged* the two sides into one (resulting into the purple side square) so we had an easier time projecting. The projection is limited to one or two vanishing point type projection, so only the horizontal lines get distorted. We can also distort the vertical lines
 
 .. image:: /images/category_projection/projection-cube_13.svg 
    :align: center
