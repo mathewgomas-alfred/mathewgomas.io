@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"POT-Creation-Date: 2019-08-12 03:19+0200\n"
 "PO-Revision-Date: 2019-07-18 15:06\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
@@ -1040,22 +1040,26 @@ msgstr ""
 msgid "You do not have canvas acceleration enabled"
 msgstr "你没有在 Krita 中启用画布加速功能"
 
-#: ../../KritaFAQ.rst:385
+#: ../../KritaFAQ.rst:384
+msgid "You have (NVidia) Vertical Sync enabled"
+msgstr ""
+
+#: ../../KritaFAQ.rst:386
 msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr "请参照 `此页面 <https://phabricator.kde.org/T7199>`__"
 
-#: ../../KritaFAQ.rst:388
+#: ../../KritaFAQ.rst:389
 msgid "Slow start-up"
 msgstr "启动速度缓慢"
 
-#: ../../KritaFAQ.rst:390
+#: ../../KritaFAQ.rst:391
 msgid ""
 "You probably have too many resources installed. Deactivate some bundles "
 "under :menuselection:`Settings --> Manage Resources`."
 msgstr ""
 "你可能安装了太多资源。请禁用一部分资源：:menuselection:`设置 --> 管理资源`。"
 
-#: ../../KritaFAQ.rst:392
+#: ../../KritaFAQ.rst:393
 msgid ""
 "If you're using Windows with the portable zip file, Windows will scan all "
 "files every time you start Krita. That takes ages. Either use the installer "
@@ -1065,17 +1069,17 @@ msgstr ""
 "Krita 时扫描解压后的每一个文件，拖慢启动速度。你可以使用安装包版的 Krita，或"
 "者在 Microsoft Security Essentials 里面将 Krita 和它的文件夹设为例外。"
 
-#: ../../KritaFAQ.rst:395
+#: ../../KritaFAQ.rst:396
 msgid "Slow Brushes"
 msgstr "笔刷绘制缓慢"
 
-#: ../../KritaFAQ.rst:397
+#: ../../KritaFAQ.rst:398
 msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
 msgstr "检查笔刷的工具选项，看看是否不小心打开了防抖功能。"
 
-#: ../../KritaFAQ.rst:398
+#: ../../KritaFAQ.rst:399
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
@@ -1083,15 +1087,15 @@ msgstr ""
 "换用另一个缩放模式，如三线性算法过滤：:menuselection:`设置 --> 配置 Krita --"
 "> 显示页面`。"
 
-#: ../../KritaFAQ.rst:399
+#: ../../KritaFAQ.rst:400
 msgid "Try a lower channel depth than 16-bit."
 msgstr "尝试使用 16 位以下的通道色深。"
 
-#: ../../KritaFAQ.rst:400
+#: ../../KritaFAQ.rst:401
 msgid "For NVidia, try a 16-bit floating point color space."
 msgstr "如果是 Nvidia 显卡，可以尝试使用 16 位浮点的色彩空间。"
 
-#: ../../KritaFAQ.rst:401
+#: ../../KritaFAQ.rst:402
 msgid ""
 "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
 "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
@@ -1102,7 +1106,7 @@ msgstr ""
 "menuselection:`设置 --> 配置 Krita --> 性能`。如果使用的是教新的 "
 "Threadripper AMD CPU，你不需要更改此选项。"
 
-#: ../../KritaFAQ.rst:402
+#: ../../KritaFAQ.rst:403
 msgid ""
 "It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
@@ -1110,32 +1114,32 @@ msgstr ""
 "Krita 是一个相当消耗内存的应用程序，2 GB 的内存是最低限度，我们建议至少要有 "
 "4 GB 内存。"
 
-#: ../../KritaFAQ.rst:403
+#: ../../KritaFAQ.rst:404
 msgid "Check that nothing else is hogging your CPU"
 msgstr "检查有没有其他程序在占用 CPU 资源"
 
-#: ../../KritaFAQ.rst:404
+#: ../../KritaFAQ.rst:405
 msgid ""
 "Check that Instant Preview is enabled if you're using bigger brushes (but "
 "for very small brushes, make sure is disabled)."
 msgstr "如果你正在使用较大的笔刷，请启用即时预览。(使用很小的笔刷时请禁用它)。"
 
-#: ../../KritaFAQ.rst:405
+#: ../../KritaFAQ.rst:406
 msgid "Set brush precision to 3 or auto."
 msgstr "将笔刷精度设置为 3 或者自动。"
 
-#: ../../KritaFAQ.rst:406
+#: ../../KritaFAQ.rst:407
 msgid "Use a larger value for brush spacing."
 msgstr "增大笔刷间隔数值。"
 
-#: ../../KritaFAQ.rst:407
+#: ../../KritaFAQ.rst:408
 msgid ""
 "If all of this fails, record a video and post a link and description on the "
 "Krita forum."
 msgstr ""
 "如果这些办法都没用，请为此录制一段视频并配上说明，发表到 Krita 的论坛上。"
 
-#: ../../KritaFAQ.rst:408
+#: ../../KritaFAQ.rst:409
 msgid ""
 "Check whether OpenGL is enabled, and if it isn't, enable it. If it is "
 "enabled, and you are on Windows, try the Angle renderer. Or disable it."
@@ -1143,11 +1147,11 @@ msgstr ""
 "检查是否已经启用了 OpenGL，如果没有，请启用它。如果 OpenGL 已经启用，而你的操"
 "作系统是 Windows，请换用 ANGLE 渲染器，或者干脆禁用 OpenGL。"
 
-#: ../../KritaFAQ.rst:411
+#: ../../KritaFAQ.rst:412
 msgid "Slowdown after a been working for a while"
 msgstr "使用一段时间后程序变慢"
 
-#: ../../KritaFAQ.rst:413
+#: ../../KritaFAQ.rst:414
 msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
@@ -1161,15 +1165,15 @@ msgstr ""
 "因此会极大地拖慢程序的运行速度。你可以尝试缩小图像的尺寸，也可以尝试提高内存"
 "限制：:menuselection:`设置 --> 配置 Krita --> 性能 --> 高级`。"
 
-#: ../../KritaFAQ.rst:416
+#: ../../KritaFAQ.rst:417
 msgid "Animation"
 msgstr "动画"
 
-#: ../../KritaFAQ.rst:419
+#: ../../KritaFAQ.rst:420
 msgid "Why is my animation black in my video player"
 msgstr "为什么动画在我的视频播放器里只有一片黑"
 
-#: ../../KritaFAQ.rst:421
+#: ../../KritaFAQ.rst:422
 msgid ""
 "You did not render the animation using the \"baseline\" option and you are "
 "using the default Windows media player. Re-render using the baseline option "
@@ -1182,17 +1186,17 @@ msgstr ""
 "可参考 `此流程图 <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-"
 "rendering-issues-manual-783473428>`__ 。"
 
-#: ../../KritaFAQ.rst:425
+#: ../../KritaFAQ.rst:426
 msgid "Tools"
 msgstr "工具"
 
-#: ../../KritaFAQ.rst:428
+#: ../../KritaFAQ.rst:429
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
 msgstr "为什么变形工具在操作过程中图像很清晰，但输出结果时却变得比较模糊？"
 
-#: ../../KritaFAQ.rst:430
+#: ../../KritaFAQ.rst:431
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
@@ -1204,15 +1208,15 @@ msgstr ""
 "分辨率为准，因此可能会发生实际结果看起来比预览模糊的现象。详情请参考 `此页面 "
 "<https://forum.kde.org/viewtopic.php?f=139&t=127269>`__ 。"
 
-#: ../../KritaFAQ.rst:434
+#: ../../KritaFAQ.rst:435
 msgid "License, rights and the Krita Foundation"
 msgstr "许可证、权利和 Krita 基金会"
 
-#: ../../KritaFAQ.rst:437
+#: ../../KritaFAQ.rst:438
 msgid "Who owns Krita?"
 msgstr "Krita 归谁所有？"
 
-#: ../../KritaFAQ.rst:439
+#: ../../KritaFAQ.rst:440
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
@@ -1220,11 +1224,11 @@ msgstr ""
 "Krita 商标的所有权归 Stichting Krita Foundation (Krita 有限责任基金会) 所有。"
 "Krita 源代码的版权归每一位贡献过源代码的人员所有。"
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:443
 msgid "Who and what is Kiki?"
 msgstr "Kiki 是谁？她是什么？"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:445
 msgid ""
 "Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson "
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
@@ -1234,11 +1238,11 @@ msgstr ""
 "山)。“Krita”在阿尔巴尼亚语中的含义是松鼠，因此我们选择了一只松鼠作为我们的吉"
 "祥物。"
 
-#: ../../KritaFAQ.rst:447
+#: ../../KritaFAQ.rst:448
 msgid "Why is Krita Free?"
 msgstr "为什么 Krita 是自由/免费的？"
 
-#: ../../KritaFAQ.rst:449
+#: ../../KritaFAQ.rst:450
 #, fuzzy
 #| msgid ""
 #| "Krita is developed as `free software <http://www.gnu.org/>`_ within the "
@@ -1256,11 +1260,11 @@ msgstr ""
 "作者都应该得到使用优秀创作工具的机会。如果你想要支持 Krita 的开发，你也可以"
 "在 Windows Store 上购买支持自动更新的 Krita。"
 
-#: ../../KritaFAQ.rst:452
+#: ../../KritaFAQ.rst:453
 msgid "Can I use Krita commercially?"
 msgstr "我可以将 Krita 用于商业用途吗？"
 
-#: ../../KritaFAQ.rst:454
+#: ../../KritaFAQ.rst:455
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
 "can license your art however you want. Krita’s GPL license applies to "
@@ -1275,7 +1279,7 @@ msgstr ""
 "业游戏开发的游戏美术人员，以科研为目的的科学家，还是在校学生都可以自由地使用 "
 "Krita 来进行创作。"
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:457
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
 "your modifications with us. Krita’s GNU GPL license guarantees you this "
@@ -1285,19 +1289,19 @@ msgstr ""
 "动。Krita 的 GNU GPL 许可证赋予人们使用、研究、修改和分发 Krita 的自由，任何"
 "人无权剥夺这些自由。"
 
-#: ../../KritaFAQ.rst:462
+#: ../../KritaFAQ.rst:463
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "我可以在 iPad 或者安卓上使用 Krita 吗？"
 
-#: ../../KritaFAQ.rst:464
+#: ../../KritaFAQ.rst:465
 msgid "Not at this point in time."
 msgstr "现在还不行。"
 
-#: ../../KritaFAQ.rst:467
+#: ../../KritaFAQ.rst:468
 msgid "Who translates Krita"
 msgstr "谁为 Krita 提供翻译"
 
-#: ../../KritaFAQ.rst:469
+#: ../../KritaFAQ.rst:470
 #, fuzzy
 #| msgid ""
 #| "Krita is a `KDE application <http://www.kde.org/>`_ — and proud of it! "
@@ -1320,10 +1324,10 @@ msgstr ""
 "出或修复给翻译工作带来困难的代码问题，让 Krita 的界面文字在任何一种语言下面都"
 "自然流畅。"
 
-#: ../../KritaFAQ.rst:472
+#: ../../KritaFAQ.rst:473
 msgid "Reference"
 msgstr "参考"
 
-#: ../../KritaFAQ.rst:474
+#: ../../KritaFAQ.rst:475
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"

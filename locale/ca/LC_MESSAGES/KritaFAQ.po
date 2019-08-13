@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KritaFAQ\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-08-02 15:52+0200\n"
+"POT-Creation-Date: 2019-08-12 03:19+0200\n"
+"PO-Revision-Date: 2019-08-12 08:58+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1181,18 +1181,22 @@ msgstr ""
 msgid "You do not have canvas acceleration enabled"
 msgstr "No teniu habilitada l'acceleració del llenç."
 
+#: ../../KritaFAQ.rst:384
+msgid "You have (NVidia) Vertical Sync enabled"
+msgstr "Teniu la sincronització vertical (NVidia) habilitada"
+
 # skip-rule: t-acc_obe
-#: ../../KritaFAQ.rst:385
+#: ../../KritaFAQ.rst:386
 msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr ""
 "Si us plau, reviseu també `aquesta pàgina <https://phabricator.kde.org/"
 "T7199>`__."
 
-#: ../../KritaFAQ.rst:388
+#: ../../KritaFAQ.rst:389
 msgid "Slow start-up"
 msgstr "Inici lent"
 
-#: ../../KritaFAQ.rst:390
+#: ../../KritaFAQ.rst:391
 msgid ""
 "You probably have too many resources installed. Deactivate some bundles "
 "under :menuselection:`Settings --> Manage Resources`."
@@ -1200,7 +1204,7 @@ msgstr ""
 "Probablement teniu masses recursos instal·lats. Desactiveu alguns paquets "
 "sota :menuselection:`Arranjament --> Gestiona els recursos`."
 
-#: ../../KritaFAQ.rst:392
+#: ../../KritaFAQ.rst:393
 msgid ""
 "If you're using Windows with the portable zip file, Windows will scan all "
 "files every time you start Krita. That takes ages. Either use the installer "
@@ -1211,11 +1215,11 @@ msgstr ""
 "l'instal·lador o digueu-li al «Microsoft Security Essentials» que faci una "
 "excepció per al Krita."
 
-#: ../../KritaFAQ.rst:395
+#: ../../KritaFAQ.rst:396
 msgid "Slow Brushes"
 msgstr "Pinzells lents"
 
-#: ../../KritaFAQ.rst:397
+#: ../../KritaFAQ.rst:398
 msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
 "docker."
@@ -1223,7 +1227,7 @@ msgstr ""
 "Comproveu si vàreu activar accidentalment l'estabilitzador a l'acoblador "
 "Opcions de l'eina."
 
-#: ../../KritaFAQ.rst:398
+#: ../../KritaFAQ.rst:399
 msgid ""
 "Try another scaling mode like trilinear. :menuselection:`Settings --> "
 "Configure Krita --> Display`."
@@ -1231,15 +1235,15 @@ msgstr ""
 "Proveu amb un altre mode d'escalat com el trilineal. :menuselection:"
 "`Arranjament --> Configura el Krita --> Pantalla`."
 
-#: ../../KritaFAQ.rst:399
+#: ../../KritaFAQ.rst:400
 msgid "Try a lower channel depth than 16-bit."
 msgstr "Proveu amb una profunditat de canal inferior a 16 bits."
 
-#: ../../KritaFAQ.rst:400
+#: ../../KritaFAQ.rst:401
 msgid "For NVidia, try a 16-bit floating point color space."
 msgstr "Per a NVidia, proveu amb un espai de color de coma flotant de 16 bits."
 
-#: ../../KritaFAQ.rst:401
+#: ../../KritaFAQ.rst:402
 msgid ""
 "For older AMD CPU's (Krita 2.9.10 and above), turn off the vector "
 "optimizations that are broken on AMD CPUs. :menuselection:`Settings --> "
@@ -1251,7 +1255,7 @@ msgstr ""
 "`Arranjament --> Configura el Krita --> Rendiment`. Això no és necessari si "
 "teniu una CPU Threadripper™ d'AMD."
 
-#: ../../KritaFAQ.rst:402
+#: ../../KritaFAQ.rst:403
 msgid ""
 "It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
 "is the preferable minimum."
@@ -1259,11 +1263,11 @@ msgstr ""
 "És un programa força afamat de memòria, de manera que 2GB de RAM és el "
 "mínim, i 4GB és el mínim preferible."
 
-#: ../../KritaFAQ.rst:403
+#: ../../KritaFAQ.rst:404
 msgid "Check that nothing else is hogging your CPU"
 msgstr "Comproveu que res més està acaparant la CPU."
 
-#: ../../KritaFAQ.rst:404
+#: ../../KritaFAQ.rst:405
 msgid ""
 "Check that Instant Preview is enabled if you're using bigger brushes (but "
 "for very small brushes, make sure is disabled)."
@@ -1272,15 +1276,15 @@ msgstr ""
 "utilitzant pinzells més grans (però per a pinzells molt petits, assegureu-"
 "vos que estigui inhabilitada)."
 
-#: ../../KritaFAQ.rst:405
+#: ../../KritaFAQ.rst:406
 msgid "Set brush precision to 3 or auto."
 msgstr "Establiu la precisió del pinzell a 3 o automàtica."
 
-#: ../../KritaFAQ.rst:406
+#: ../../KritaFAQ.rst:407
 msgid "Use a larger value for brush spacing."
 msgstr "Utilitzeu un valor més gran per a l'espai entre pinzells."
 
-#: ../../KritaFAQ.rst:407
+#: ../../KritaFAQ.rst:408
 msgid ""
 "If all of this fails, record a video and post a link and description on the "
 "Krita forum."
@@ -1288,7 +1292,7 @@ msgstr ""
 "Si tot això falla, enregistreu un vídeo i publiqueu un enllaç i una "
 "descripció en el fòrum del Krita."
 
-#: ../../KritaFAQ.rst:408
+#: ../../KritaFAQ.rst:409
 msgid ""
 "Check whether OpenGL is enabled, and if it isn't, enable it. If it is "
 "enabled, and you are on Windows, try the Angle renderer. Or disable it."
@@ -1297,11 +1301,11 @@ msgstr ""
 "habilitat i us trobeu a Windows, proveu amb el renderitzador Angle. O "
 "inhabiliteu-lo."
 
-#: ../../KritaFAQ.rst:411
+#: ../../KritaFAQ.rst:412
 msgid "Slowdown after a been working for a while"
 msgstr "Desacceleració després d'estar treballant durant un temps"
 
-#: ../../KritaFAQ.rst:413
+#: ../../KritaFAQ.rst:414
 msgid ""
 "Once you have the slowdown, click on the image-dimensions in the status bar. "
 "It will tell you how much RAM Krita is using, if it has hit the limit, or "
@@ -1318,16 +1322,16 @@ msgstr ""
 "de RAM a :menuselection:`Arranjament --> Configura el Krita --> Rendiment --"
 "> pestanya Avançat`."
 
-#: ../../KritaFAQ.rst:416
+#: ../../KritaFAQ.rst:417
 msgid "Animation"
 msgstr "Animació"
 
-#: ../../KritaFAQ.rst:419
+#: ../../KritaFAQ.rst:420
 msgid "Why is my animation black in my video player"
 msgstr "Perquè la meva animació es veu en negre al meu reproductor de vídeo?"
 
 # skip-rule: t-acc_obe
-#: ../../KritaFAQ.rst:421
+#: ../../KritaFAQ.rst:422
 msgid ""
 "You did not render the animation using the \"baseline\" option and you are "
 "using the default Windows media player. Re-render using the baseline option "
@@ -1342,11 +1346,11 @@ msgstr ""
 "deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-"
 "manual-783473428>`__."
 
-#: ../../KritaFAQ.rst:425
+#: ../../KritaFAQ.rst:426
 msgid "Tools"
 msgstr "Eines"
 
-#: ../../KritaFAQ.rst:428
+#: ../../KritaFAQ.rst:429
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
 "finalizing?"
@@ -1355,7 +1359,7 @@ msgstr ""
 "borrosa en acabar?"
 
 # skip-rule: t-acc_obe
-#: ../../KritaFAQ.rst:430
+#: ../../KritaFAQ.rst:431
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
 "finalized version. As this preview is using the screen resolution rather "
@@ -1370,15 +1374,15 @@ msgstr ""
 "informació vegeu `aquesta pàgina <https://forum.kde.org/viewtopic.php?"
 "f=139&t=127269>`__."
 
-#: ../../KritaFAQ.rst:434
+#: ../../KritaFAQ.rst:435
 msgid "License, rights and the Krita Foundation"
 msgstr "Llicència, drets i la Krita Foundation"
 
-#: ../../KritaFAQ.rst:437
+#: ../../KritaFAQ.rst:438
 msgid "Who owns Krita?"
 msgstr "Qui és el propietari del Krita?"
 
-#: ../../KritaFAQ.rst:439
+#: ../../KritaFAQ.rst:440
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
@@ -1387,11 +1391,11 @@ msgstr ""
 "d'autor del codi font són propietat de tots els que han treballat en el codi "
 "font."
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:443
 msgid "Who and what is Kiki?"
 msgstr "Qui i què és la Kiki?"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:445
 msgid ""
 "Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson "
 "Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian "
@@ -1401,12 +1405,12 @@ msgstr ""
 "dissenyada per en Tyson Tan. Vam triar una esquirol en descobrir que «krita» "
 "és la paraula albanesa per a esquirol."
 
-#: ../../KritaFAQ.rst:447
+#: ../../KritaFAQ.rst:448
 msgid "Why is Krita Free?"
 msgstr "Per què és lliure el Krita?"
 
 # skip-rule: t-acc_obe
-#: ../../KritaFAQ.rst:449
+#: ../../KritaFAQ.rst:450
 msgid ""
 "Krita is developed as `free software <https://www.gnu.org/>`_ within the KDE "
 "community. We believe that good tools should be available for all artists. "
@@ -1419,11 +1423,11 @@ msgstr ""
 "Windows Store si voleu donar suport al desenvolupament del Krita o si voleu "
 "tenir actualitzacions automàtiques a les versions més noves."
 
-#: ../../KritaFAQ.rst:452
+#: ../../KritaFAQ.rst:453
 msgid "Can I use Krita commercially?"
 msgstr "Puc utilitzar comercialment el Krita?"
 
-#: ../../KritaFAQ.rst:454
+#: ../../KritaFAQ.rst:455
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
 "can license your art however you want. Krita’s GPL license applies to "
@@ -1440,7 +1444,7 @@ msgstr ""
 "comercials, per científics per a la investigació i per estudiants en "
 "institucions educatives."
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:457
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
 "your modifications with us. Krita’s GNU GPL license guarantees you this "
@@ -1450,20 +1454,20 @@ msgstr ""
 "vostres modificacions amb nosaltres. La llicència GPL de GNU del Krita "
 "garanteix aquesta llibertat. Mai, ningú estarà autoritzat a retirar-la."
 
-#: ../../KritaFAQ.rst:462
+#: ../../KritaFAQ.rst:463
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "Puc obtenir el Krita per a iPad? I per Android?"
 
-#: ../../KritaFAQ.rst:464
+#: ../../KritaFAQ.rst:465
 msgid "Not at this point in time."
 msgstr "No en aquest moment."
 
-#: ../../KritaFAQ.rst:467
+#: ../../KritaFAQ.rst:468
 msgid "Who translates Krita"
 msgstr "Qui tradueix el Krita"
 
 # skip-rule: t-acc_obe
-#: ../../KritaFAQ.rst:469
+#: ../../KritaFAQ.rst:470
 msgid ""
 "Krita is a `KDE application <https://www.kde.org/>`_ — and proud of it! That "
 "means that Krita’s translations are done by `KDE localization teams <https://"
@@ -1480,10 +1484,10 @@ msgstr ""
 "vos a l'equip de desenvolupament i solucionar els problemes dins del codi "
 "que fan que el Krita sigui més difícil de traduir."
 
-#: ../../KritaFAQ.rst:472
+#: ../../KritaFAQ.rst:473
 msgid "Reference"
 msgstr "Referència"
 
-#: ../../KritaFAQ.rst:474
+#: ../../KritaFAQ.rst:475
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 03:06+0200\n"
+"POT-Creation-Date: 2019-08-12 03:19+0200\n"
 "PO-Revision-Date: 2019-03-06 14:26+0800\n"
 "Last-Translator: Simon Depiets <sdepiets@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
@@ -1301,17 +1301,21 @@ msgstr ""
 msgid "You do not have canvas acceleration enabled"
 msgstr "Vous n'avez pas l'accélération matérielle activée"
 
-#: ../../KritaFAQ.rst:385
+#: ../../KritaFAQ.rst:384
+msgid "You have (NVidia) Vertical Sync enabled"
+msgstr ""
+
+#: ../../KritaFAQ.rst:386
 #, fuzzy
 msgid "Please also check `this page <https://phabricator.kde.org/T7199>`__"
 msgstr "Veuillez aussi lire cette page: https://phabricator.kde.org/T7199"
 
-#: ../../KritaFAQ.rst:388
+#: ../../KritaFAQ.rst:389
 #, fuzzy
 msgid "Slow start-up"
 msgstr "Démarrage lent"
 
-#: ../../KritaFAQ.rst:390
+#: ../../KritaFAQ.rst:391
 #, fuzzy
 #| msgid ""
 #| "You probably have too many resources installed. Deactivate some bundles "
@@ -1323,7 +1327,7 @@ msgstr ""
 "Vous avez probablement trop de ressources installées. Désactivez des bundles "
 "dans Paramètres → Gérer les ressources"
 
-#: ../../KritaFAQ.rst:392
+#: ../../KritaFAQ.rst:393
 #, fuzzy
 #| msgid ""
 #| "If you're using Windows and the portable zip file, Windows will scan all "
@@ -1340,12 +1344,12 @@ msgstr ""
 "Préférez l'utilisation de l'installeur, ou dites à Microsoft Security "
 "Essentials de faire une exception pour Krita."
 
-#: ../../KritaFAQ.rst:395
+#: ../../KritaFAQ.rst:396
 #, fuzzy
 msgid "Slow Brushes"
 msgstr "Brosses lentes"
 
-#: ../../KritaFAQ.rst:397
+#: ../../KritaFAQ.rst:398
 #, fuzzy
 msgid ""
 "Check if you accidentally turned on the stabilizer in the tool options "
@@ -1354,7 +1358,7 @@ msgstr ""
 "Vérifiez si vous avez accidentellement activé l'option Stabilisateur dans le "
 "panneau Préférences d'outils."
 
-#: ../../KritaFAQ.rst:398
+#: ../../KritaFAQ.rst:399
 #, fuzzy
 #| msgid ""
 #| "Try another display filter like trilinear. settings → configure Krita → "
@@ -1366,18 +1370,18 @@ msgstr ""
 "Essayez un autre Mode de mise à l'échelle comme tri-linéaire. Paramètres → "
 "Configuration de Krita → Afficher"
 
-#: ../../KritaFAQ.rst:399
+#: ../../KritaFAQ.rst:400
 #, fuzzy
 msgid "Try a lower channel depth than 16-bit."
 msgstr "Essayez une profondeur de canaux inférieure à 16-bit."
 
-#: ../../KritaFAQ.rst:400
+#: ../../KritaFAQ.rst:401
 #, fuzzy
 msgid "For NVidia, try a 16-bit floating point color space."
 msgstr ""
 "For NVidia, essayez un espace de couleur en 16-bit à virgule flottante."
 
-#: ../../KritaFAQ.rst:401
+#: ../../KritaFAQ.rst:402
 #, fuzzy
 #| msgid ""
 #| "For AMD (Krita 2.9.10 and above), turn off the vector optimizations that "
@@ -1391,7 +1395,7 @@ msgstr ""
 "Pour AMD (Krita 2.9.10 et suivants), cochez \"Disable vector optimizations "
 "(for AMD CPUs)\" dans Paramètres → Configuration de Krita → Performance"
 
-#: ../../KritaFAQ.rst:402
+#: ../../KritaFAQ.rst:403
 #, fuzzy
 msgid ""
 "It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB "
@@ -1400,13 +1404,13 @@ msgstr ""
 "Krita est un programme gourmand au niveau mémoire vive, de 2GB de RAM est le "
 "minimum nécessaire, 4GB est le minimum recommandé."
 
-#: ../../KritaFAQ.rst:403
+#: ../../KritaFAQ.rst:404
 #, fuzzy
 #| msgid "Check that not something else is hogging your CPU"
 msgid "Check that nothing else is hogging your CPU"
 msgstr "Vérifiez qu'aucune autre application ne surcharge votre processeur"
 
-#: ../../KritaFAQ.rst:404
+#: ../../KritaFAQ.rst:405
 #, fuzzy
 #| msgid ""
 #| "Check that Instant Preview is enabled if you're using bigger brushes (for "
@@ -1418,19 +1422,19 @@ msgstr ""
 "Vérifiez que l'Aperçu Instantané est activé si vous utilisez de larges "
 "brosses (pour de petites brosses, désactivez cette option)"
 
-#: ../../KritaFAQ.rst:405
+#: ../../KritaFAQ.rst:406
 #, fuzzy
 #| msgid "Set brush precision to 3 or auto"
 msgid "Set brush precision to 3 or auto."
 msgstr "Réglez la précision de la brosse sur 3 ou auto"
 
-#: ../../KritaFAQ.rst:406
+#: ../../KritaFAQ.rst:407
 #, fuzzy
 #| msgid "Use a larger value for brush spacing"
 msgid "Use a larger value for brush spacing."
 msgstr "Augmentez la valeur de l'espacement de la brosse"
 
-#: ../../KritaFAQ.rst:407
+#: ../../KritaFAQ.rst:408
 #, fuzzy
 msgid ""
 "If all of this fails, record a video and post a link and description on the "
@@ -1439,7 +1443,7 @@ msgstr ""
 "Si tout cela échoue, enregistrez une vidéo et postez la avec une description "
 "dans le forum de Krita."
 
-#: ../../KritaFAQ.rst:408
+#: ../../KritaFAQ.rst:409
 #, fuzzy
 #| msgid ""
 #| "check whether opengl is enabled, and if it isn't, enable it, or if it is, "
@@ -1452,13 +1456,13 @@ msgstr ""
 "activé, et que vous êtes sur windows, essayez le mode de rendu Angle. Ou "
 "désactivez le."
 
-#: ../../KritaFAQ.rst:411
+#: ../../KritaFAQ.rst:412
 #, fuzzy
 #| msgid "Slowdown after a while of working"
 msgid "Slowdown after a been working for a while"
 msgstr "Ralentissements après un long moment de travail"
 
-#: ../../KritaFAQ.rst:413
+#: ../../KritaFAQ.rst:414
 #, fuzzy
 #| msgid ""
 #| "Once you have the slowdown, click on the image-dimensions in the status "
@@ -1481,15 +1485,15 @@ msgstr ""
 "sur des images plus petites, ou bien augmentez la quantité de RAM dans "
 "Paramètres → Configuration de Krita → Performance"
 
-#: ../../KritaFAQ.rst:416
+#: ../../KritaFAQ.rst:417
 msgid "Animation"
 msgstr "Animation"
 
-#: ../../KritaFAQ.rst:419
+#: ../../KritaFAQ.rst:420
 msgid "Why is my animation black in my video player"
 msgstr ""
 
-#: ../../KritaFAQ.rst:421
+#: ../../KritaFAQ.rst:422
 msgid ""
 "You did not render the animation using the \"baseline\" option and you are "
 "using the default Windows media player. Re-render using the baseline option "
@@ -1498,11 +1502,11 @@ msgid ""
 "issues-manual-783473428>`__"
 msgstr ""
 
-#: ../../KritaFAQ.rst:425
+#: ../../KritaFAQ.rst:426
 msgid "Tools"
 msgstr "Outils"
 
-#: ../../KritaFAQ.rst:428
+#: ../../KritaFAQ.rst:429
 #, fuzzy
 msgid ""
 "Why does the Transform Tool give a good result and then get blurry upon "
@@ -1511,7 +1515,7 @@ msgstr ""
 "Pourquoi l'outil de Transformation affiche un résultat correct qui ensuite "
 "devient flou lorsqu'on l'applique?"
 
-#: ../../KritaFAQ.rst:430
+#: ../../KritaFAQ.rst:431
 #, fuzzy
 msgid ""
 "The transform tool makes a preview that you edit before computing the "
@@ -1526,29 +1530,29 @@ msgstr ""
 "à l'aperçu. Voir https://forum.kde.org/viewtopic.php?f=139&t=127269 pour "
 "plus d'info."
 
-#: ../../KritaFAQ.rst:434
+#: ../../KritaFAQ.rst:435
 #, fuzzy
 #| msgid "License, rights and the Krita foundation"
 msgid "License, rights and the Krita Foundation"
 msgstr "License, droits et la Krita Foundation"
 
-#: ../../KritaFAQ.rst:437
+#: ../../KritaFAQ.rst:438
 #, fuzzy
 msgid "Who owns Krita?"
 msgstr "A qui appartient Krita?"
 
-#: ../../KritaFAQ.rst:439
+#: ../../KritaFAQ.rst:440
 msgid ""
 "The Stichting Krita Foundation owns the Krita trademark. The copyright on "
 "the source code is owned by everyone who has worked on the source code."
 msgstr ""
 
-#: ../../KritaFAQ.rst:442
+#: ../../KritaFAQ.rst:443
 #, fuzzy
 msgid "Who and what is Kiki?"
 msgstr "Qui est Kiki?"
 
-#: ../../KritaFAQ.rst:444
+#: ../../KritaFAQ.rst:445
 #, fuzzy
 #| msgid ""
 #| "Kiki is a squirrel. She’s our mascot and has been designed by Tyson Tan. "
@@ -1563,12 +1567,12 @@ msgstr ""
 "Nous avons choisi un écureuil après avoir découvert que `krita` en Albanais "
 "signifie écureuil."
 
-#: ../../KritaFAQ.rst:447
+#: ../../KritaFAQ.rst:448
 #, fuzzy
 msgid "Why is Krita Free?"
 msgstr "Pourquoi Krita est-il gratuit?"
 
-#: ../../KritaFAQ.rst:449
+#: ../../KritaFAQ.rst:450
 #, fuzzy
 msgid ""
 "Krita is developed as `free software <https://www.gnu.org/>`_ within the KDE "
@@ -1582,12 +1586,12 @@ msgstr ""
 "Windows Store si vous voulez supporter le développement de Krita, ou si vous "
 "voulez bénéficier des mises à jour automatiques."
 
-#: ../../KritaFAQ.rst:452
+#: ../../KritaFAQ.rst:453
 #, fuzzy
 msgid "Can I use Krita commercially?"
 msgstr "Puis-je utiliser Krita commercialement?"
 
-#: ../../KritaFAQ.rst:454
+#: ../../KritaFAQ.rst:455
 #, fuzzy
 msgid ""
 "Yes. What you create with Krita is your sole property. You own your work and "
@@ -1605,7 +1609,7 @@ msgstr ""
 "game artistes travaillant sur des jeux commerciaux, par des scientifiques "
 "pour leurs recherches, ou encore par des étudiants en milieu éducatif."
 
-#: ../../KritaFAQ.rst:456
+#: ../../KritaFAQ.rst:457
 #, fuzzy
 msgid ""
 "If you modify Krita itself, and distribute the result, you have to share "
@@ -1616,22 +1620,22 @@ msgstr ""
 "vous devez obligatoirement partager vos modifications avec nous. La licence "
 "GNU GPL de Krita garantie cette liberté. Personne n'a le droit de la retirer."
 
-#: ../../KritaFAQ.rst:462
+#: ../../KritaFAQ.rst:463
 #, fuzzy
 msgid "Can I get Krita for iPad? for Android?"
 msgstr "Puis-je avoir Krita sur iPad? ou sur Android?"
 
-#: ../../KritaFAQ.rst:464
+#: ../../KritaFAQ.rst:465
 msgid "Not at this point in time."
 msgstr ""
 
-#: ../../KritaFAQ.rst:467
+#: ../../KritaFAQ.rst:468
 #, fuzzy
 #| msgid "Who owns Krita?"
 msgid "Who translates Krita"
 msgstr "A qui appartient Krita?"
 
-#: ../../KritaFAQ.rst:469
+#: ../../KritaFAQ.rst:470
 #, fuzzy
 #| msgid ""
 #| "Krita is a `KDE application <http://www.kde.org/>`__ — and proud of it! "
@@ -1658,11 +1662,11 @@ msgstr ""
 
 # #-#-#-#-#  katecloseexceptplugin.po (katepart4)  #-#-#-#-# | msgid "&View Difference"
 # #-#-#-#-#  ktexteditor5.po (katepart4)  #-#-#-#-# | msgid "&View Difference"
-#: ../../KritaFAQ.rst:472
+#: ../../KritaFAQ.rst:473
 msgid "Reference"
 msgstr "Référence"
 
-#: ../../KritaFAQ.rst:474
+#: ../../KritaFAQ.rst:475
 #, fuzzy
 msgid "https://answers.launchpad.net/krita-ru/+faqs"
 msgstr "https://answers.launchpad.net/krita-ru/+faqs"
