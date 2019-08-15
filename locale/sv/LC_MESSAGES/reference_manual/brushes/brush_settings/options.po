@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-11 03:18+0200\n"
-"PO-Revision-Date: 2019-08-07 19:15+0100\n"
+"PO-Revision-Date: 2019-08-12 19:15+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -116,26 +116,35 @@ msgid ""
 "more tablet focused effect, where with Tilt the 0° is at 12 o'clock, Drawing "
 "angle uses 3 o'clock as 0°."
 msgstr ""
+"Ritvinkel: Vanlig, och ofta använd i kombination med krattliknande penslar."
+" Särskilt effektiv eftersom den inte beror på sensorer specifika för"
+" ritplattor. Ibland används lutningsriktning eller rotation för att"
+" åstadkomma en effekt mer fokuserad på ritplattor, där 0° är klockan tolv med"
+" lutning. Ritvinkel använder klockan tre som 0°."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:63
 msgid ""
 "Fuzzy -- Also very common, this gives a nice bit of randomness for texture."
 msgstr ""
+"Suddig: Också mycket vanlig, och ger en fin slumpmässighet till strukturer."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:64
 msgid ""
 "Distance -- With careful editing of the Sensor curve, you can create nice "
 "patterns."
 msgstr ""
+"Avstånd: Med försiktig redigering av sensorkurvan kan man skapa fina mönster."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:65
 msgid "Fade -- This slowly fades the rotation from one into another."
-msgstr ""
+msgstr "Tona: Tonar sakta rotationen från en till en annan."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:66
 msgid ""
 "Pressure -- An interesting one that can create an alternative looking line."
 msgstr ""
+"Tryck: En intressant parameter som kan skapa en linje med alternativt"
+" utseende."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:71
 msgid "Scatter"
@@ -146,6 +155,8 @@ msgid ""
 "This parameter allows you to set the random placing of a brush-dab. You can "
 "affect them with Sensors."
 msgstr ""
+"Parametern gör det möjligt att ställa in slumpmässig placering av"
+" penselklick. De kan påverkas av sensorer."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:75
 msgid "X"
@@ -153,7 +164,7 @@ msgstr "X"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:76
 msgid "The scattering on the angle you are drawing from."
-msgstr ""
+msgstr "Spridningen för vinkeln som man ritar med."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid "Y"
@@ -162,7 +173,7 @@ msgstr "Y"
 #: ../../reference_manual/brushes/brush_settings/options.rst:78
 msgid ""
 "The scattering, perpendicular to the drawing angle (has the most effect)."
-msgstr ""
+msgstr "Spridningen vinkelrät mot ritvinkeln (har största effekten)."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:81
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_scatter.png"
@@ -181,14 +192,16 @@ msgid ""
 "Puts a threshold filter over the brush mask. This can be used for brush like "
 "strokes, but it also makes for good pixel art brushes."
 msgstr ""
+"Lägger till ett tröskelfilter över penselmasken. Det kan användas för"
+" penselliknande streck, men leder också till bra penslar för bildpunktskonst."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:91
 msgid "Strength"
-msgstr ""
+msgstr "Styrka"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:92
 msgid "Controls the threshold, and can be controlled by the sensors below."
-msgstr ""
+msgstr "Bestämmer tröskeln och kan kontrolleras av sensorerna nedan."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:94
 #: ../../reference_manual/brushes/brush_settings/options.rst:120
@@ -200,12 +213,16 @@ msgid ""
 "Controls the extra non-fully opaque pixels. This adds a little softness to "
 "the stroke."
 msgstr ""
+"Bestämmer de extra inte helt ogenomskinliga bildpunkter. Det lägger till en"
+" viss mjukhet till strecket."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:98
 msgid ""
 "The sensors now control the threshold instead of the subpixel precision, "
 "softness slider was added."
 msgstr ""
+"Sensorerna bestämmer nu tröskeln istället för precisionen för"
+" delbildpunkterna, och mjukhetsreglaget har lagts till."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:103
 msgid "Size"
@@ -220,6 +237,8 @@ msgid ""
 "This parameter is not the diameter itself, but rather the curve for how it's "
 "affected."
 msgstr ""
+"Parametern är inte själva diametern, utan istället kurvan för hur den"
+" påverkas."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:109
 msgid ""
@@ -230,6 +249,12 @@ msgid ""
 "concave curve set to pressure. That way you'll have to press hard for thick "
 "lines."
 msgstr ""
+"Så om man vill låsa penselns diameter, lås då penselspetsen. Att låsa"
+" storleksparametern låser bara kurvan. Att tillåta att kurvan påverkas av"
+" sensorerna kan vara mycket användbart för att få rätt sorts pensel. Om man"
+" exempelvis har problem med att rita tunna linjer, kan man försöka använda en"
+" konkav kurva inställd till tryck. På så sätt behöver man inte trycka hårt"
+" för att få tjocka linjer."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:112
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_01.png"
@@ -240,6 +265,9 @@ msgid ""
 "Also popular is setting the size to the sensor fuzzy or perspective, with "
 "the later in combination with a :ref:`assistant_perspective`."
 msgstr ""
+"Det är också populärt att ställa in storleken till sensorerna suddig eller"
+" perspektiv, där den senare används i kombination med en"
+" :ref:`assistant_perspective`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:116
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_size_02.png"
@@ -247,7 +275,7 @@ msgstr ".. image:: images/brushes/Krita_2_9_brushengine_size_02.png"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:122
 msgid "This allows you to affect Fade with Sensors."
-msgstr ""
+msgstr "Gör det möjligt att påverka toning med sensorer."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:125
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_softness.png"
@@ -258,6 +286,8 @@ msgid ""
 "Has a slight brush-decreasing effect, especially noticeable with soft-brush, "
 "and is overall more noticeable on large brushes."
 msgstr ""
+"Har en något minskande penseleffekt, i synnerhet märkbar med mjuka penslar,"
+" och generellt mer märkbar för stora penslar."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:131
 msgid "Source"
@@ -265,7 +295,7 @@ msgstr "Källa"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:133
 msgid "Picks the source-color for the brush-dab."
-msgstr ""
+msgstr "Väljer källfärgen för penselklicket."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:135
 msgid "Plain Color"
@@ -273,7 +303,7 @@ msgstr "Enkel färg"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:136
 msgid "Current foreground color."
-msgstr ""
+msgstr "Aktuell förgrundsfärg."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:137
 #: ../../reference_manual/brushes/brush_settings/options.rst:169
@@ -282,7 +312,7 @@ msgstr "Toning"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:138
 msgid "Picks active gradient."
-msgstr ""
+msgstr "Väljer aktiv toning."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:139
 msgid "Uniform Random"
@@ -290,7 +320,7 @@ msgstr "Likfördelat slumpmässigt"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:140
 msgid "Gives a random color to each brush dab."
-msgstr ""
+msgstr "Ger en slumpmässig färg för varje penselklick."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:141
 msgid "Total Random"
@@ -306,7 +336,7 @@ msgstr "Mönster"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:144
 msgid "Uses active pattern, but alignment is different per stroke."
-msgstr ""
+msgstr "Använder aktivt fönster, men justeringen är olika för varje streck."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:146
 msgid "Locked Pattern"
@@ -352,7 +382,7 @@ msgstr ""
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:164
 msgid "Flow map"
-msgstr ""
+msgstr "Flödesavbildning"
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:171
 msgid ""
@@ -372,6 +402,7 @@ msgstr ".. image:: images/brushes/Krita_Pixel_Brush_Settings_Spacing.png"
 #: ../../reference_manual/brushes/brush_settings/options.rst:181
 msgid "This allows you to affect :ref:`option_brush_tip` with :ref:`sensors`."
 msgstr ""
+"Gör det möjligt att påverka :ref:`option_brush_tip` med :ref:`sensors`."
 
 #: ../../reference_manual/brushes/brush_settings/options.rst:184
 msgid ".. image:: images/brushes/Krita_2_9_brushengine_spacing_02.png"
@@ -401,3 +432,4 @@ msgid ""
 "Allows you to change the ratio of the brush and bind it to parameters. This "
 "also works for predefined brushes."
 msgstr ""
+
