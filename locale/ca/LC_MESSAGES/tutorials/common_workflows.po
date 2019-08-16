@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: tutorials\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-08-06 23:12+0200\n"
+"PO-Revision-Date: 2019-08-15 13:47+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -40,6 +40,8 @@ msgid ""
 ".. image:: images/filters/Levels-filter.png\n"
 "   :alt: level filter dialog"
 msgstr ""
+".. image:: images/filters/Levels-filter.png\n"
+"   :alt: Diàleg del filtre de nivell"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
@@ -102,48 +104,64 @@ msgid ""
 ".. image:: images/common-workflows/Krita-GMIC-colorize-interactive.png\n"
 "   :alt: G'MIC colorize interactive window"
 msgstr ""
+".. image:: images/common-workflows/Krita-GMIC-colorize-interactive.png\n"
+"   :alt: Finestra per a donar color de manera interactiva amb el G'MIC"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Colorize-krita.png\n"
 "   :alt: G'MIC colorize comics layer setup"
 msgstr ""
+".. image:: images/common-workflows/Colorize-krita.png\n"
+"   :alt: Configuració de la capa del còmic per a donar color amb el G'MIC"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Colorise-comics-setting.png\n"
 "   :alt: Colorize Interactive dialog and settings"
 msgstr ""
+".. image:: images/common-workflows/Colorise-comics-setting.png\n"
+"   :alt: Diàleg i ajustaments per a donar color de manera interactiva"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Chaos2.jpg\n"
 "   :alt: Starting a painting from chaotic sketch"
 msgstr ""
+".. image:: images/common-workflows/Chaos2.jpg\n"
+"   :alt: Començant a partir d'un esbós caòtic"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Layer-docker-pixelart.png\n"
 "   :alt: Layer stack setup for pixel art"
 msgstr ""
+".. image:: images/common-workflows/Layer-docker-pixelart.png\n"
+"   :alt: Configurant una pila de capes per a píxel art"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Gradient-pixelart.png\n"
 "   :alt: color mapping in index color to grayscale"
 msgstr ""
+".. image:: images/common-workflows/Gradient-pixelart.png\n"
+"   :alt: Assignació de colors a l'índex del color a escala de grisos"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Index-color-filter.png\n"
 "   :alt: index color filter dialog"
 msgstr ""
+".. image:: images/common-workflows/Index-color-filter.png\n"
+"   :alt: Diàleg del filtre per a l'índex del color"
 
 #: ../../tutorials/common_workflows.rst:None
 msgid ""
 ".. image:: images/common-workflows/Kiki-pixel-art.png\n"
 "   :alt: Pixel art done in Krita"
 msgstr ""
+".. image:: images/common-workflows/Kiki-pixel-art.png\n"
+"   :alt: Píxel art creat amb el Krita"
 
 #: ../../tutorials/common_workflows.rst:1
 msgid "Common workflows used in Krita"
@@ -200,13 +218,14 @@ msgid ""
 "davidrevoy.com/>`_ in an hours time."
 msgstr ""
 
+# skip-rule: t-acc_obe
 #: ../../tutorials/common_workflows.rst:32
 msgid ""
 "Artwork by David Revoy, license : `CC-BY <https://creativecommons.org/"
 "licenses/by/3.0/>`_"
 msgstr ""
-"Obra d'art per en David Revoy, llicència: `CC-BY <https://creativecommons."
-"org/licenses/by/3.0/>`_"
+"Treball artístic per en David Revoy, llicència: `CC-BY "
+"<https://creativecommons.org/licenses/by/3.0/>`_"
 
 #: ../../tutorials/common_workflows.rst:34
 msgid ""
@@ -334,7 +353,7 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:92
 msgid "Fill with Flood fill Tool."
-msgstr ""
+msgstr "Emplenar amb l'eina d'emplenat per flux."
 
 #: ../../tutorials/common_workflows.rst:93
 msgid "Use one of the G'MIC colorize comics filters."
@@ -363,7 +382,7 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:103
 msgid "Filling with Flood Fill tool"
-msgstr "Emplenar amb l'eina d'Emplenat per flux"
+msgstr "Emplenar amb l'eina d'emplenat per flux"
 
 #: ../../tutorials/common_workflows.rst:105
 msgid ""
@@ -557,7 +576,7 @@ msgstr ""
 
 #: ../../tutorials/common_workflows.rst:184
 msgid "Creating Pixel Art"
-msgstr "Crear la línia artística"
+msgstr "Crear el píxel art"
 
 #: ../../tutorials/common_workflows.rst:186
 msgid ""
@@ -575,8 +594,8 @@ msgid ""
 msgstr ""
 "El filtre índex del color assigna els colors específics seleccionats per "
 "l'usuari al valor en escala de grisos del treball artístic. Podeu veure "
-"l'exemple a continuació, la tira sota el degradat en negre i blanc té un "
-"índex del color aplicat perquè el degradat en negre i blanc obtingui el "
+"l'exemple a continuació, la tira sota el degradat en blanc i negre té un "
+"índex del color aplicat perquè el degradat en blanc i negre obtingui el "
 "color seleccionat en diferents valors."
 
 #: ../../tutorials/common_workflows.rst:196
