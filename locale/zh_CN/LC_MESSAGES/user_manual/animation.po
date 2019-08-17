@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-07-18 15:06\n"
+"PO-Revision-Date: 2019-08-16 17:05\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___animation.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -305,17 +305,11 @@ msgid ".. image:: images/animation/Introduction_to_animation_08.png"
 msgstr ""
 
 #: ../../user_manual/animation.rst:134
-#, fuzzy
-#| msgid ""
-#| "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
-#| "second. Then, use the with :kbd:`Shift + ↑` to move the frame contents up."
 msgid ""
 "Use the :guilabel:`Copy Frame` button to copy the first frame onto the "
 "second. Then, use the with the :kbd:`Shift + ↑` shortcut to move the frame "
 "contents up."
 msgstr ""
-"在第一帧后面的时间槽里右键单击，选中 :guilabel:`创建重复帧` ，这会把前一帧的"
-"内容复制为第二帧。现在按 :kbd:`Shift + ↑` ，把第二帧的画面向上移动一定距离。"
 
 #: ../../user_manual/animation.rst:137
 msgid "We can see the difference by turning on the onionskinning:"
@@ -367,19 +361,10 @@ msgstr ""
 "个动作是一条腿完全伸直，另一条腿已经收起准备向前迈出的瞬间。"
 
 #: ../../user_manual/animation.rst:158
-#, fuzzy
-#| msgid ""
-#| "Now, let's copy these two... We could do that with :kbd:`Ctrl + drag`, "
-#| "but here comes a tricky bit:"
 msgid ""
 "Now, let's copy these two... We could do that with the :kbd:`Ctrl + drag` "
 "shortcut, but here comes a tricky bit:"
 msgstr ""
-"现在我们要把这两帧复制到时间槽 2 和 3。要注意的是“鼠标拖动”在时间线面板里的用"
-"法有点讲究。直接拖动鼠标不会选中多个帧，而是会直接移动点击到的第一个帧。要选"
-"中多个帧，必须按住 :kbd:`Ctrl` 进行拖放，但拖放的最后一个帧不会被选中。:kbd:"
-"`Ctrl + 左键单击` |mouseleft| 也可以选择或者取消选择一个帧。对于已选中的动画"
-"帧，直接拖放会移动它们，按住 :kbd:`Ctrl` 拖放会复制并移动它们。"
 
 #: ../../user_manual/animation.rst:162
 msgid ".. image:: images/animation/Introduction_to_animation_12.png"
@@ -449,16 +434,10 @@ msgid ".. image:: images/animation/Introduction_to_animation_14.png"
 msgstr ""
 
 #: ../../user_manual/animation.rst:188
-#, fuzzy
-#| msgid ""
-#| "You can quickly make some space by :kbd:`Alt+dragging` any frame. This'll "
-#| "move that frame and all others after it in one go."
 msgid ""
 "You can quickly make some space by the :kbd:`Alt + drag` shortcut on any "
 "frame. This'll move that frame and all others after it in one go."
 msgstr ""
-"要在相邻的动画帧之间插入一些时间槽，可以按住 :kbd:`Alt` 拖动任意帧，这将把该"
-"帧和它后面的帧一起整体移动。"
 
 #: ../../user_manual/animation.rst:191
 msgid "Then draw inbetweens on each frame that you add."
@@ -591,19 +570,11 @@ msgid ".. image:: images/animation/Introduction_to_animation_walkcycle_02.gif"
 msgstr ""
 
 #: ../../user_manual/animation.rst:250
-#, fuzzy
-#| msgid ""
-#| "For example, you can use `VirtualDub <http://www.virtualdub.org/>`__\\ "
-#| "(Windows) and open all the frames and then go to :menuselection:`File --> "
-#| "Export --> GIF`."
 msgid ""
 "For example, you can use `VirtualDub <http://www.virtualdub.org/>`_\\ "
 "(Windows) and open all the frames and then go to :menuselection:`File --> "
 "Export --> GIF`."
 msgstr ""
-"在 Windows 下面还可以使用 `VirtualDub <http://www.virtualdub.org/>`_ ，在里面"
-"打开所有帧的图像，然后点击菜单栏的 :menuselection:`File --> Export --> "
-"GIF` 。"
 
 #: ../../user_manual/animation.rst:254
 msgid "Enjoy your walkcycle!"

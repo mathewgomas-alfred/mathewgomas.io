@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-07-18 15:06\n"
+"PO-Revision-Date: 2019-08-16 17:05\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,12 +15,11 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___profiling_and_callibration.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<generated>:1
-#, fuzzy
-#| msgid "soft-proofing"
 msgid "Soft-proofing"
-msgstr "软打样"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:1
 msgid "Color Models in Krita"
@@ -85,22 +83,6 @@ msgstr ""
 "以特别容易发生颜色条纹，造成色调分离现象。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:33
-#, fuzzy
-#| msgid ""
-#| "This is why was created the sRGB profile to fit more different colors in "
-#| "this limited amount of values, in a perceptually regular grading, by "
-#| "applying a custom gamma curve (see picture here: http://en.wikipedia.org/"
-#| "wiki/SRGB) to emulate the standard response curve of old CRT screens. So "
-#| "sRGB profile is optimized to fit all colors that most common screen can "
-#| "reproduce in those 256 values per R/G/B channels. Some other profiles "
-#| "like Adobe RGB are optimized to fit more printable colors in this limited "
-#| "range, primarily extending cyan-green hues. Working with such profile can "
-#| "be useful to improve print results, but is dangerous if not used with a "
-#| "properly profiled and/or calibrated good display. Most common CMYK "
-#| "workspace profile can usually fit all their colors within 8bit/channel "
-#| "depth, but they are all so different and specific that it's usually "
-#| "better to work with a regular RGB workspace first and then convert the "
-#| "output to the appropriate CMYK profile."
 msgid ""
 "This is why was created the sRGB profile to fit more different colors in "
 "this limited amount of values, in a perceptually regular grading, by "
@@ -117,16 +99,6 @@ msgid ""
 "RGB workspace first and then convert the output to the appropriate CMYK "
 "profile."
 msgstr ""
-"针对线性特性文件明度级数利用效率不好的缺点，人们设计了 sRGB 特性文件。sRGB 特"
-"性文件把颜色响应直线修正为一条 gamma > 1 的曲线，从而在计算机常见的每通道 8 "
-"位条件下把可用的 256 种颜色尽可能多地安排给了人眼最敏感的暗部颜色，实现了人类"
-"感知上的平滑过渡。 (参见：http://en.wikipedia.org/wiki/SRGB) 而一些其他特性文"
-"件，如 AdobeRGB 等是为了在同样颜色数量下面容纳更多的可打印颜色而优化的，它们"
-"一般会在色彩空间的青-绿方位进行延伸。使用宽色域进行作业可以改善打印效果，但必"
-"须配合已校准并配有正确特性文件的高品质显示器使用，否则极易造成问题。绝大多数"
-"常见的 CMYK 工作空间特性文件可以在每通道 8 位下面容纳它们的全部颜色，但它们之"
-"间的差别很大，所以最好先用常规的 RGB 工作空间制作图像，然后在输出时才转换至所"
-"需的 CMYK 特性文件。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:38
 msgid ""
@@ -212,17 +184,10 @@ msgstr ""
 "USB 连接到计算机，然后运行它配套的特性化软件。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:60
-#, fuzzy
-#| msgid ""
-#| "If you don't have software packaged with your colorimeter, or are unhappy "
-#| "with the results, we recommend `Argyllcms <http://www.argyllcms.com/>`_"
 msgid ""
 "If you don't have software packaged with your colorimeter, or are unhappy "
 "with the results, we recommend `ArgyllCMS <https://www.argyllcms.com/>`_."
 msgstr ""
-"如果你的校色设备没有配套软件，或者你不满意自带软件的结果，我们推荐使用 "
-"`Argyllcms <http://www.argyllcms.com/>`_ 。如果你搞不定命令行软件，可以使用它"
-"的图形化前端 `DisplayCAL <https://displaycal.net/>`_ 。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:62
 msgid ""
@@ -286,76 +251,43 @@ msgid "Profiling only:"
 msgstr "仅进行特性化："
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:79
-#, fuzzy
-#| msgid "with a good monitor"
 msgid "With a good monitor"
-msgstr "高品质显示器"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:80
-#, fuzzy
-#| msgid ""
-#| "you can get most of the sRGB colors and lot of extra colors not inside "
-#| "sRGB. So this can be good to have more visible colors."
 msgid ""
 "You can get most of the sRGB colors and lot of extra colors not inside sRGB. "
 "So this can be good to have more visible colors."
 msgstr ""
-"你的显示器在特性化之后可以正确显示出 sRGB 空间内的绝大多数颜色，如果它的色域"
-"比 sRGB 宽广，它还会显示一些在 sRGB 空间之外的颜色。如果你需要更宽广的色域，"
-"可以在显示器的原生色域模式下进行特性化。如果你需要更好的 sRGB 兼容性，记得在"
-"特性化之前把显示器的颜色设为“sRGB 模式”。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
-#, fuzzy
-#| msgid "with a bad monitor"
 msgid "With a bad monitor"
-msgstr "低品质显示器"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:82
-#, fuzzy
-#| msgid ""
-#| "you will get just a subset of actual sRGB, and miss lot of details, or "
-#| "even have hue shifts. Trying to calibrate it before profiling can help to "
-#| "get closer to full-sRGB colors."
 msgid ""
 "You will get just a subset of actual sRGB, and miss lot of details, or even "
 "have hue shifts. Trying to calibrate it before profiling can help to get "
 "closer to full-sRGB colors."
 msgstr ""
-"你的显示器在特性化之后虽然可以正确显示出 sRGB 空间内的一部分颜色，但大量的颜"
-"色细节可能会丢失，颜色的色相甚至也会发生变化。为了得到更接近标准 sRGB 空间的"
-"色彩，我们建议对低品质的显示器进行校准并特性化。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:84
 msgid "Calibration+profiling:"
 msgstr "校准并进行特性化："
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:86
-#, fuzzy
-#| msgid "bad monitors"
 msgid "Bad monitors"
-msgstr "低品质显示器"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:87
-#, fuzzy
-#| msgid "as explained just before."
 msgid "As explained just before."
-msgstr "如“仅进行特性化”中所述。"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:88
-#, fuzzy
-#| msgid "multi-monitor setup"
 msgid "Multi-monitor setup"
-msgstr "多显示器配置"
+msgstr ""
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:89
-#, fuzzy
-#| msgid ""
-#| "when using several monitors, and specially in mirror mode where both "
-#| "monitor have the same content, you can't have this content color-managed "
-#| "for both screen profiles. In such case, calibrating both screens to match "
-#| "sRGB profile (or another standard for high-end monitors if they both "
-#| "support it) can be a good solution."
 msgid ""
 "When using several monitors, and specially in mirror mode where both monitor "
 "have the same content, you can't have this content color-managed for both "
@@ -363,23 +295,11 @@ msgid ""
 "profile (or another standard for high-end monitors if they both support it) "
 "can be a good solution."
 msgstr ""
-"在使用多个显示器时，尤其是在使用镜像模式在多个显示器上显示相同画面时，你无法"
-"把内容同时用两个不同的特性文件进行色彩管理。在这种情况下，可把两个显示器按照 "
-"sRGB 特性文件 (或者两个显示器同时支持的其他特性文件) 进行校准。"
 
 #: ../../general_concepts/colors/profiling_and_callibration.rst:91
-#, fuzzy
-#| msgid ""
-#| "when you need to match an exact rendering context for soft-proofing, "
-#| "calibrating can help getting closer to the expected result. Though "
-#| "switching through several monitor calibration and profiles should be done "
-#| "extremely carefully."
 msgid ""
 "When you need to match an exact rendering context for soft-proofing, "
 "calibrating can help getting closer to the expected result. Though switching "
 "through several monitor calibration and profiles should be done extremely "
 "carefully."
 msgstr ""
-"如果你需要为软打样匹配一模一样的渲染环境，你可以在特性化前把显示器校准到更为"
-"接近软打样目标的效果。但在不同的显示器校准状态和特性文件之间来回切换时就要极"
-"为谨慎，避免在错误的校准状态下加载了不属于它的特性文件。"

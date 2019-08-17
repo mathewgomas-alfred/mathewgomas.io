@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-07-18 15:06\n"
+"PO-Revision-Date: 2019-08-16 17:04\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_reference_manual___filters___adjust.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<generated>:1
 msgid "Power"
@@ -124,13 +124,6 @@ msgid "Levels"
 msgstr "色阶"
 
 #: ../../reference_manual/filters/adjust.rst:61
-#, fuzzy
-#| msgid ""
-#| "This filter allows you to directly modify the levels of the tone-values "
-#| "of an image, by manipulating sliders for highlights, midtones and "
-#| "shadows. You can even set an output and input range of tones for the "
-#| "image. A histogram is displayed to show you the tonal distribution. The "
-#| "default shortcut for levels filter is :kbd:`Ctrl + L` ."
 msgid ""
 "This filter allows you to directly modify the levels of the tone-values of "
 "an image, by manipulating sliders for highlights, midtones and shadows. You "
@@ -138,9 +131,6 @@ msgid ""
 "is displayed to show you the tonal distribution. The default shortcut for "
 "levels filter is :kbd:`Ctrl + L`."
 msgstr ""
-"此滤镜可以直接调整一张图像的色阶数值，它的滑动条上有三个控制点，分别控制高亮"
-"色、中间色和阴影色。你还可以设置图像色阶的输入和输出范围。直方图显示了图像的"
-"的色调分步情况。色阶滤镜的默认快捷键是 :kbd:`Ctrl + L` 。"
 
 #: ../../reference_manual/filters/adjust.rst:65
 msgid ".. image:: images/filters/Levels-filter.png"
@@ -288,18 +278,11 @@ msgid "Color Balance"
 msgstr "色彩平衡"
 
 #: ../../reference_manual/filters/adjust.rst:120
-#, fuzzy
-#| msgid ""
-#| "This filter allows you to control the color balance of the image by "
-#| "adjusting the sliders for Shadows, Midtones and Highlights. The default "
-#| "shortcut for this filter is :kbd:`Ctrl + B` ."
 msgid ""
 "This filter allows you to control the color balance of the image by "
 "adjusting the sliders for Shadows, Midtones and Highlights. The default "
 "shortcut for this filter is :kbd:`Ctrl + B`."
 msgstr ""
-"此滤镜通过分别对阴影色、中间色、高亮色的颜色滑动条进行控制来调整图像的色彩平"
-"衡。此滤镜的默认快捷键是 :kbd:`Ctrl + B` 。"
 
 #: ../../reference_manual/filters/adjust.rst:123
 msgid ".. image:: images/filters/Color-balance.png"
@@ -323,18 +306,11 @@ msgid "Desaturate"
 msgstr "去色"
 
 #: ../../reference_manual/filters/adjust.rst:129
-#, fuzzy
-#| msgid ""
-#| "Image-wide desaturation filter. Will make any image Grayscale. Has "
-#| "several choices by which logic the colors are turned to gray. The default "
-#| "shortcut for this filter is :kbd:`Ctrl + Shift + U` ."
 msgid ""
 "Image-wide desaturation filter. Will make any image Grayscale. Has several "
 "choices by which logic the colors are turned to gray. The default shortcut "
 "for this filter is :kbd:`Ctrl + Shift + U`."
 msgstr ""
-"针对整张图像的去色滤镜，可以把任意图像变为灰度图，具有数种不同的转换逻辑。此"
-"滤镜的默认快捷键是 :kbd:`Ctrl + Shift + U` 。"
 
 #: ../../reference_manual/filters/adjust.rst:133
 msgid ".. image:: images/filters/Desaturate-filter.png"
@@ -444,16 +420,10 @@ msgid "HSV/HSL Adjustment"
 msgstr "HSV/HSL 调整"
 
 #: ../../reference_manual/filters/adjust.rst:167
-#, fuzzy
-#| msgid ""
-#| "With this filter, you can adjust the Hue, Saturation, Value or Lightness, "
-#| "through sliders. The default shortcut for this filter is :kbd:`Ctrl + U` ."
 msgid ""
 "With this filter, you can adjust the Hue, Saturation, Value or Lightness, "
 "through sliders. The default shortcut for this filter is :kbd:`Ctrl + U`."
 msgstr ""
-"此滤镜可以通过滑动条来调整色相、饱和度、明度或者亮度。它的默认快捷键是 :kbd:"
-"`Ctrl + U` 。"
 
 #: ../../reference_manual/filters/adjust.rst:170
 msgid ".. image:: images/filters/Hue-saturation-filter.png"

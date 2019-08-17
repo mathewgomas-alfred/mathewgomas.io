@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-19 03:24+0200\n"
-"PO-Revision-Date: 2019-07-18 15:06\n"
+"PO-Revision-Date: 2019-08-16 17:04\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_general_concepts___colors___bit_depth.pot\n"
+"Language: zh_CN\n"
 
 #: ../../general_concepts/colors/bit_depth.rst:None
 msgid ".. image:: images/color_category/Kiki_lowbit.png"
@@ -162,16 +162,10 @@ msgid "4bit per channel (not supported by Krita)"
 msgstr "每通道 4 位 (Krita 不支持)"
 
 #: ../../general_concepts/colors/bit_depth.rst:55
-#, fuzzy
-#| msgid ""
-#| "Also known as Hi-color, or 16bit color total. A bit of an old system, and "
-#| "not used outside of specific displays."
 msgid ""
 "Also known as Hi-Color, or 16bit color total. A bit of an old system, and "
 "not used outside of specific displays."
 msgstr ""
-"也称高彩色，或总计 16 位颜色。这是一个比较老旧的颜色系统，只被运用在某些特殊"
-"的显示器上。"
 
 #: ../../general_concepts/colors/bit_depth.rst:56
 msgid "8bit per channel"
@@ -186,10 +180,8 @@ msgstr ""
 "以处理的最低的颜色通道位深度。"
 
 #: ../../general_concepts/colors/bit_depth.rst:58
-#, fuzzy
-#| msgid "16bit per channel."
 msgid "16bit per channel"
-msgstr "每通道 16 位"
+msgstr ""
 
 #: ../../general_concepts/colors/bit_depth.rst:59
 msgid ""

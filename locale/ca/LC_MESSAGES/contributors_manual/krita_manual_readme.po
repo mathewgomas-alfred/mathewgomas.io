@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: contributors_manual\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-08-02 15:43+0200\n"
+"PO-Revision-Date: 2019-08-16 17:09+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -63,6 +63,8 @@ msgid ""
 "This one is probably what everyone is expecting when they type in docs.krita."
 "org. Dry, basic, 'what does this button do' type of information."
 msgstr ""
+"Aquest és probablement el que tothom espera quan escriuen a docs.krita.org. "
+"En sec, bàsicament dóna el tipus d'informació «què fa aquest botó»."
 
 #: ../../contributors_manual/krita_manual_readme.rst:37
 msgid ""
@@ -71,6 +73,11 @@ msgid ""
 "should also provide fast and concise explanations for things, and provide a "
 "basic workflow for preparing an image for the web."
 msgstr ""
+"En els últims dos anys hem descobert que per a certs tipus d'usuaris, un "
+"manual de referència, fins i tot amb alguns exemples, simplement no és "
+"suficient. El manual també ha de proporcionar explicacions ràpides i concises "
+"de les coses, i proporcionar un flux de treball bàsic per a preparar una "
+"imatge per a la web."
 
 #: ../../contributors_manual/krita_manual_readme.rst:39
 msgid ""
@@ -80,7 +87,14 @@ msgid ""
 "artwork. So there is no pre-existing artist-focused knowledge on how to use "
 "color management or filter layers."
 msgstr ""
+"També hem descobert que certs conceptes, com la gestió del color i el maneig "
+"de les capes, estan molt més avançats en el Krita del que l'artista mitjà "
+"està acostumat. El Krita és lliure i molts dels seus usuaris no tindran "
+"capacitació formal en el treball artístic digital. Per tant, no existeix un "
+"coneixement previ centrat en l'artista sobre com utilitzar la gestió del "
+"color o les capes de filtratge."
 
+# skip-rule: punctuation-period
 #: ../../contributors_manual/krita_manual_readme.rst:40
 msgid "General concept tutorials."
 msgstr "Guies d'aprenentatge dels conceptes generals"
@@ -93,6 +107,11 @@ msgid ""
 "painting workflows, and are not flexible enough to understand how to port a "
 "tutorial for Sai or Photoshop to Krita."
 msgstr ""
+"A més, hi ha sistemes que són exclusius del Krita, per exemple, el sistema de "
+"pinzells, les màscares de transformació, l'herència alfa i els assistents de "
+"perspectiva. Finalment, hi ha usuaris que no estan familiaritzats amb els "
+"fluxos de treball de pintura estàndard, i no són prou flexibles com per "
+"entendre com portar una guia d'aprenentatge per a Sai o Photoshop al Krita."
 
 #: ../../contributors_manual/krita_manual_readme.rst:42
 msgid "A list of known tutorials and video tutorials"
@@ -106,6 +125,11 @@ msgid ""
 "ways of approaching painting that are unique and we should encourage people "
 "to share their knowledge."
 msgstr ""
+"Aparentment, una de les millors coses de l'equip del Krita és com connectem "
+"amb els artistes i reconeixem que estan fent coses genials. El mateix hauria "
+"de comptar per a les guies d'aprenentatge, especialment perquè hi ha formes "
+"d'utilitzar el Krita i formes d'apropar-se a la pintura que són úniques i hem "
+"d'encoratjar a les persones a compartir el seu coneixement."
 
 #: ../../contributors_manual/krita_manual_readme.rst:44
 msgid "Contributor's Manual"
@@ -121,6 +145,13 @@ msgid ""
 "attempt to solidify all the information. It is therefore very technical in "
 "places."
 msgstr ""
+"El Krita és un programari de codi obert (lliure), que ens converteix "
+"efectivament en un projecte comunitari, amb dotzenes de voluntaris "
+"col·laborant per a millorar-lo. Això, per descomptat, requereix que fem un "
+"seguiment dels manuals i els procediments perquè vinguin i ens ajudin nous "
+"voluntaris. Els diversos llocs en els quals hem fet això s'han estès força i, "
+"sovint, no es mantenen. El manual del col·laborador és un intent de "
+"solidificar tota la informació. Per tant, en alguns llocs és molt tècnic."
 
 #: ../../contributors_manual/krita_manual_readme.rst:46
 msgid "krita.org tutorials"
@@ -132,6 +163,10 @@ msgid ""
 "foundation.tumblr.com, the former focusing on explaining how to use a new "
 "feature and the later stimulated by user request."
 msgstr ""
+"Hi ha hagut un munt de guies d'aprenentatge a krita.org i a la "
+"krita-foundation.tumblr.com, les primeres se centren en explicar com "
+"utilitzar una característica nova i les segones són estimulades per les "
+"sol·licituds dels usuaris."
 
 #: ../../contributors_manual/krita_manual_readme.rst:49
 msgid "FAQ"
@@ -143,6 +178,9 @@ msgid ""
 "It's currently being translated and we hope to keep this one the primary one "
 "to update."
 msgstr ""
+"Aquesta ja està en línia i és una fusió de les diferents preguntes freqüents "
+"(PMF) que teníem. En l'actualitat s'està traduint i esperem que aquesta sigui "
+"la principal per actualitzar."
 
 #: ../../contributors_manual/krita_manual_readme.rst:52
 msgid "For first timers"
@@ -151,7 +189,10 @@ msgstr "Per primera vegada"
 #: ../../contributors_manual/krita_manual_readme.rst:54
 msgid "Unlike Mediawiki, Sphinx works more like how we write code for Krita."
 msgstr ""
+"A diferència del Mediawiki, l'Sphinx funciona més en la manera com escrivim "
+"codi per al Krita."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:56
 msgid ""
 "First things first, you will want to talk to us! For this you can either go "
@@ -161,12 +202,21 @@ msgid ""
 "access the forum as well as the `phabricator`_, where we organise Krita "
 "development."
 msgstr ""
+"El primer és el primer. Voldreu parlar amb nosaltres! Per això, podeu anar a "
+"l'`IRC a krita.org (#krita a freenode.org) <https://krita.org/en/irc/>`_ o, "
+"el que és més important, obrir un compte a `identity.kde.org "
+"<https://identity.kde.org/>`_. El compte que creeu a Identity es podrà "
+"utilitzar tant per accedir al fòrum com al `phabricator`_, on organitzem el "
+"desenvolupament del Krita."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:58
 msgid ""
 "If you have no idea where to begin, make a Kde identity account and make a "
 "post on `the forum <https://forum.kde.org/viewforum.php?f=136>`_."
 msgstr ""
+"Si no teniu idea de per on començar, creeu un compte al KDE Identity i "
+"publiqueu `al fòrum <https://forum.kde.org/viewforum.php?f=136>`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:60
 msgid ""
@@ -175,6 +225,10 @@ msgid ""
 "of changes in the manual by putting them into a version control system "
 "called :program:`Git`."
 msgstr ""
+"L'Sphinx funciona escrivint senzills fitxers de text amb el marcatge "
+"reStructuredText, i després pren aquests fitxers de text i els converteix en "
+"el manual. Portem un seguiment dels canvis en el manual posant-los en un "
+"sistema de control de versions anomenat :program:`Git`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:65
 msgid "Making changes"
@@ -186,6 +240,9 @@ msgid ""
 "version control system, so if you want to make changes you will need to put "
 "it up for review."
 msgstr ""
+"A causa que utilitzem el Git, només hi ha unes poques persones que poden "
+"pujar coses al sistema de control de versions, de manera que si voleu fer "
+"canvis, haureu de col·locar-los per a la seva revisió."
 
 #: ../../contributors_manual/krita_manual_readme.rst:73
 msgid "Sending patches to Phabricator"
@@ -196,6 +253,8 @@ msgid ""
 "Recommended for users without a technical knowledge who don't plan on "
 "contributing more to the project."
 msgstr ""
+"Recomanat per als usuaris sense coneixements tècnics que no planegen "
+"col·laborar més al projecte."
 
 #: ../../contributors_manual/krita_manual_readme.rst:77
 msgid ""
@@ -203,14 +262,18 @@ msgid ""
 "`merge-request-edit` if you don't have technical knowledge and want to "
 "contribute to Krita Manual more than once)."
 msgstr ""
+"No es recomana quan planegeu col·laborar-hi més en el futur. (Vegeu :ref:`"
+"merge-request-edit` si no teniu coneixements tècnics i voleu col·laborar en "
+"el Manual del Krita més d'una vegada)."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:79
 msgid "Get the source text from the `repository`_."
-msgstr ""
+msgstr "Obteniu el text d'origen des del `repositori <repository>`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:81
 msgid "Save a copy of the text as it existed originally."
-msgstr ""
+msgstr "Deseu una còpia del text tal com existia originalment."
 
 #: ../../contributors_manual/krita_manual_readme.rst:83
 msgid "Modify it."
@@ -220,15 +283,18 @@ msgstr "Modifiqueu-lo."
 msgid "Tools to check whether your modifications work."
 msgstr "Eines per a comprovar si funcionen les vostres modificacions."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:86
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break the manual."
 msgstr ""
+"Utilitzeu l'`Editor d'Sphinx en línia <https://livesphinx.herokuapp.com/>`_ "
+"per a verificar si els vostres canvis no trenquen el manual."
 
 #: ../../contributors_manual/krita_manual_readme.rst:88
 msgid "Bundle up the items into a zip."
-msgstr ""
+msgstr "Agrupeu els elements en un ZIP."
 
 #: ../../contributors_manual/krita_manual_readme.rst:90
 msgid ""
@@ -236,6 +302,9 @@ msgid ""
 "if you're changing them. Try to keep the filenames the same, that's easier "
 "for us to copy over."
 msgstr ""
+"Poseu tots els fitxers que heu canviat en un fitxer ZIP. Això també inclou "
+"les imatges -si les heu canviat-. Intenti mantenir els mateixos noms de "
+"fitxer, és més fàcil per a nosaltres copiar-los."
 
 #: ../../contributors_manual/krita_manual_readme.rst:92
 msgid "Upload the zip on phabricator."
@@ -244,10 +313,12 @@ msgstr "Pugeu el ZIP al Phabricator."
 #: ../../contributors_manual/krita_manual_readme.rst:94
 msgid "First, go to phabricator.kde.org and log in with your identity account."
 msgstr ""
+"Primer, aneu a phabricator.kde.org i inicieu la sessió al compte d'Identity."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:95
 msgid "Go to the `Manual Project Workboard`_ and there create a new task."
-msgstr ""
+msgstr "Aneu al `Manual Project Workboard`_ i creeu una tasca nova."
 
 #: ../../contributors_manual/krita_manual_readme.rst:96
 msgid ""
@@ -255,6 +326,10 @@ msgid ""
 "textbox. That should upload it. We will also need the email address you "
 "associate with your kde identity account."
 msgstr ""
+"Expliqueu el que heu fet i empreu arrossega i deixa anar per a moure el "
+"fitxer ZIP al quadre d'entrada de text. Això hauria de pujar-lo. També "
+"necessitarem l'adreça de correu electrònic que associeu amb el vostre compte "
+"de KDE Iidentity."
 
 #: ../../contributors_manual/krita_manual_readme.rst:97
 msgid ""
@@ -262,6 +337,9 @@ msgid ""
 "those files into the manual folder and push the differences using the mail "
 "address."
 msgstr ""
+"Després, si s'accepten els canvis, algú amb accés d'entrega (commit) "
+"desempaquetarà aquests fitxers a la carpeta del manual i publicarà les "
+"diferències utilitzant l'adreça de correu."
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
 msgid "Creating merge requests using Edit mode"
@@ -270,7 +348,7 @@ msgstr ""
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid "Recommended for users without a technical knowledge."
-msgstr ""
+msgstr "Recomanat per a usuaris sense coneixements tècnics."
 
 #: ../../contributors_manual/krita_manual_readme.rst:107
 msgid ""
@@ -278,12 +356,17 @@ msgid ""
 "ref:`merge-request-webide` or :ref:`merge-request-terminal` if you want to "
 "change more files, or simply edit only one per merge request)."
 msgstr ""
+"No es recomana quan vulgueu canviar més d'un fitxer alhora. (Vegeu :ref:`"
+"merge-request-webide` o :ref:`merge-request-terminal` si voleu canviar més "
+"fitxers, o simplement editeu-ne un per a crear la sol·licitut de fusionat)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
 msgid ""
 "If you have a lot of changes you want to contribute, we recommend trying to "
 "follow these instructions."
 msgstr ""
+"Si voleu contribuir amb molts canvis, recomanem que intenteu seguir aquestes "
+"instruccions."
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid "Get a KDE identity."
@@ -296,43 +379,61 @@ msgstr "Accediu al `KDE_gitlab`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:114
 msgid "Go to the `repository`_ and press :guilabel:`fork`."
-msgstr "Aneu al `repository`_ i premeu :guilabel:`Fork` (bifurcació)."
+msgstr ""
+"Aneu al `repositori <repository>`_ i premeu :guilabel:`Fork` (bifurcació)."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid ""
 "You should be redirected to the fork of your repository now. Typically it's "
 "located at ``invent.kde.org/YOUR_KDE_LOGIN_NAME/docs-krita-org``."
 msgstr ""
+"Ara hauríeu de ser redirigit a la bifurcació del vostre repositori. En "
+"general, es troba a ``invent.kde.org/NOM_KDE_PER_ACCEDIR/docs-krita-org``."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:117
 msgid ""
 "Come back to the official repository. Make sure you're browsing ``Websites/"
 "Krita Documentation``, not your own fork. Otherwise this method won't work "
 "correctly."
 msgstr ""
+"Torneu al repositori oficial. Assegureu-vos d'estar navegant per ``Websites/"
+"Krita Documentation``, no per la vostra pròpia bifurcació. Altrament, aquest "
+"mètode no funcionarà correctament."
 
 #: ../../contributors_manual/krita_manual_readme.rst:119
 msgid ""
 "Gitlab has an option to Edit files in the gitlab itself. To access this, go "
 "to :menuselection:`Repository --> Files`."
 msgstr ""
+"El Gitlab té una opció per editar els fitxers al propi GitLab. Per "
+"accedir-hi, aneu a :menuselection:`Repositori --> Fitxers`."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:121
 msgid ""
 "At the top of the page you see a dropbox with ``master`` as a chosen item; "
 "please select ``draft`` if your changes contain anything other than pure "
 "typo fixes."
 msgstr ""
+"A la part superior de la pàgina, veureu una llista desplegable amb ``master`` "
+"com a element triat. Seleccioneu ``draft`` si els vostres canvis contenen "
+"alguna cosa més que errors tipogràfics."
 
 #: ../../contributors_manual/krita_manual_readme.rst:123
 msgid ""
 "Find the file you want to edit, open it and then click :guilabel:`Edit`."
 msgstr ""
+"Cerqueu el fitxer que voleu editar, obriu-lo i després feu clic a :guilabel:"
+"`Edita`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:125
 msgid ""
 "Make your changes. (Note: in this mode you can edit only one file at a time)."
 msgstr ""
+"Feu els vostres canvis. (Nota: en aquest mode només podreu editar un fitxer "
+"alhora)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:127
 msgid ""
@@ -341,7 +442,13 @@ msgid ""
 "`Commit changes`. This will make a merge request for you, just fill in all "
 "of the fields as explained here: :ref:`new-merge-request`."
 msgstr ""
+"Aneu al quadre de text més petit que hi ha a continuació i escriviu un bon "
+"missatge a la secció del missatge d'entrega (commit) amb els canvis que heu "
+"realitzat. Quan acabeu, premeu :guilabel:`Entrega els canvis`. Això crearà "
+"una sol·licitud de fusionat, simplement completeu tots els camps com "
+"s'explica aquí: :ref:`new-merge-request`."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:129
 msgid ""
 "The downside is that right now there's no way to tell if you made errors "
@@ -349,12 +456,18 @@ msgid ""
 "`Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ (just copy and "
 "paste the entire file you're editing)."
 msgstr ""
+"El desavantatge és que en aquest moment no hi ha forma de saber si emprant "
+"aquest mètode heu entregat errors amb el marcatge. Verifiqueu els vostres "
+"canvis amb l'`Editor d'Sphinx en línia <https://livesphinx.herokuapp.com/>`_ "
+"(simplement copieu i enganxeu tot el fitxer que esteu editant)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:133
 msgid ""
 ":guilabel:`Edit` and :guilabel:`WebIDE` are two different things! Make sure "
 "you select :guilabel:`Edit`."
 msgstr ""
+":guilabel:`Edita` i el :guilabel:`WebIDE` són dues coses diferents! "
+"Assegureu-vos que heu seleccionat :guilabel:`Edita`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:142
 msgid "Creating merge requests using WebIDE"
@@ -366,6 +479,8 @@ msgid ""
 "Recommended for users with a bit of knowledge about Git that want to edit "
 "multiple files at once."
 msgstr ""
+"Recomanat per a usuaris amb una mica de coneixement sobre Git que volen "
+"editar múltiples fitxers alhora."
 
 #: ../../contributors_manual/krita_manual_readme.rst:146
 #: ../../contributors_manual/krita_manual_readme.rst:188
@@ -373,22 +488,32 @@ msgid ""
 "Not recommended when you don't know what a branch is (see :ref:`merge-"
 "request-edit` instead)."
 msgstr ""
+"No es recomana quan no sabeu què és una branca (en el seu lloc, vegeu "
+":ref:`merge-request-edit`)."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:149
 #: ../../contributors_manual/krita_manual_readme.rst:190
 msgid ""
 "Follow the instructions above to login to `KDE_gitlab`_ and create your fork."
 msgstr ""
+"Seguiu les anteriors instruccions per a iniciar una sessió al `KDE_gitlab`_ i "
+"creeu la vostra bifurcació."
 
 #: ../../contributors_manual/krita_manual_readme.rst:151
 msgid "Go to your fork (make sure the url contains your username)."
 msgstr ""
+"Aneu a la vostra bifurcació (assegureu-vos que l'URL contingui el vostre nom "
+"d'usuari)."
 
+# skip-rule: t-acc_obe
 #: ../../contributors_manual/krita_manual_readme.rst:153
 msgid ""
 "Make sure you're on ``draft``, not on ``master``, unless your changes "
 "contain *only* spelling and grammatical fixes."
 msgstr ""
+"Assegureu-vos que esteu a ``draft``, no a ``master``, llevat que els vostres "
+"canvis continguin *només* correccions ortogràfiques i gramaticals."
 
 #: ../../contributors_manual/krita_manual_readme.rst:155
 msgid ""
@@ -396,6 +521,9 @@ msgid ""
 "files on the left side and a big empty space for file contents on the right "
 "side."
 msgstr ""
+"Feu clic al :guilabel:`WebIDE`. Això hauria de portar-vos a una pàgina que té "
+"una llista de fitxers al costat esquerra i un gran espai buit per al "
+"contingut del fitxer al costat dret."
 
 #: ../../contributors_manual/krita_manual_readme.rst:157
 msgid "Open the files you want to edit and make the changes."
@@ -406,12 +534,18 @@ msgid ""
 "Click :guilabel:`Commit...`. Double-click on all files in the :guilabel:"
 "`Unstaged changes` category to move them to :guilabel:`Staged changes`."
 msgstr ""
+"Feu clic a :guilabel:`Commit...` (entrega). Feu doble clic a tots els fitxers "
+"a la categoria :guilabel:`Canvis sense classificar per moure'ls a :guilabel:`"
+"Canvis preparats`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:161
 msgid ""
 "Click :guilabel:`Commit...` again - it will expand a commit message textbox. "
 "Write commit message that explains what changes have you made and why."
 msgstr ""
+"Feu clic a :guilabel:`Commit...` (entrega) de nou: s'expandirà un quadre de "
+"text per al missatge de l'entrega. Escriviu-hi un missatge que expliqui quins "
+"canvis heu realitzat i perquè."
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
@@ -807,6 +941,7 @@ msgstr ""
 msgid "General Writing"
 msgstr "En general durant l'escriptura"
 
+# skip-rule: punctuation-period
 #: ../../contributors_manual/krita_manual_readme.rst:327
 msgid "Use American English if possible."
 msgstr "Emprar l'anglès americà si és possible"
@@ -817,6 +952,7 @@ msgid ""
 "American English by default."
 msgstr ""
 
+# skip-rule: punctuation-period
 #: ../../contributors_manual/krita_manual_readme.rst:329
 msgid "Keep the language polite, but do not use academic language."
 msgstr "Mantenir un idioma educat, però no utilitzeu llenguatge acadèmic"

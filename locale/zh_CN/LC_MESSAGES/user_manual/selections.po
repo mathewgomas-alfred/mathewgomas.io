@@ -3,10 +3,9 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-07-18 15:06\n"
+"PO-Revision-Date: 2019-08-16 17:04\n"
 "Last-Translator: Guo Yunhe (guoyunhe)\n"
 "Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +15,7 @@ msgstr ""
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /kf5-trunk/messages/www/"
 "docs_krita_org_user_manual___selections.pot\n"
+"Language: zh_CN\n"
 
 #: ../../<rst_epilog>:2
 msgid ""
@@ -122,18 +122,11 @@ msgid "|toolselectpolygon|"
 msgstr "|toolselectpolygon|"
 
 #: ../../user_manual/selections.rst:1
-#, fuzzy
-#| msgid ""
-#| "Click where you want each point of the Polygon to be. Double click to end "
-#| "your polygon and finalize your selection area. Use :kbd:`Shift + Z` to "
-#| "undo last point."
 msgid ""
 "Click where you want each point of the Polygon to be. Double click to end "
 "your polygon and finalize your selection area. Use the :kbd:`Shift + Z` "
 "shortcut to undo last point."
 msgstr ""
-"建立一个多边形的选区，在画布上点击一次可以建立一个节点，按 :kbd:`Shift + Z` "
-"可以退回到上一个点的位置。双击时会自动连接首尾节点，封闭该多边形选区。"
 
 #: ../../user_manual/selections.rst:1
 msgid ":ref:`outline_selection_tool`"
@@ -187,18 +180,11 @@ msgid "|toolselectpath|"
 msgstr "|toolselectpath|"
 
 #: ../../user_manual/selections.rst:1
-#, fuzzy
-#| msgid ""
-#| "Path select an area based on a vector path, click to get sharp corners or "
-#| "drag to get flowing lines and close the path with :kbd:`Enter` or "
-#| "connecting back to the first point."
 msgid ""
 "Path select an area based on a vector path, click to get sharp corners or "
 "drag to get flowing lines and close the path with the :kbd:`Enter` key or "
 "connecting back to the first point."
 msgstr ""
-"通过一条矢量路径建立选区。直接点击可以创建尖角和直线，点击并拖动可以拉出曲"
-"线，按 :kbd:`回车` 可以自动把路径首尾相连建立选区。"
 
 #: ../../user_manual/selections.rst:12
 msgid "Selection"
