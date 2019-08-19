@@ -228,10 +228,11 @@ On Windows, the Krita User Interface is too small on my HiDPI screen
 
 If you're using Windows, you can set the display scaling to 150% or 200%, and enable the experimental HiDPI support in the configurations:
 
--  On the menu, select :menuselection:`Settings --> Configure Krita`
--  On :guilabel:`General` page, switch to :guilabel:`Window` tab.
--  Check :guilabel:`Enable Hi-DPI support`
--  Restart Krita
+- On the menu, select :menuselection:`Settings --> Configure Krita`
+- On :guilabel:`General` page, switch to :guilabel:`Window` tab.
+- Check :guilabel:`Enable Hi-DPI support`
+- Press :guilabel:`OK`, if the settings screen is too big, :kbd:`Alt + O` will trigger the OK button too.
+- Restart Krita
 
 You can also change the toolbox icon size by right-clicking on the toolbox and selecting a size.
 
