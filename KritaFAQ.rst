@@ -223,14 +223,15 @@ All the older versions of Krita that are still available can be found here:
 
 -  `Very old builds <https://download.kde.org/Attic/krita/>`_
 
-On Windows, the Krita User Interface is too small on my HiDPI screen
---------------------------------------------------------------------
+On Windows, the Krita User Interface is too big on my screen
+------------------------------------------------------------
 
-If you're using Windows, you can set the display scaling to 150% or 200%, and enable the experimental HiDPI support in the configurations:
+If you're using Windows, you can set the display scaling to 150% or 200%. Krita comes with HiDPI enabled by default,
+so if you do that, the Krita UI might be too big for your screen. You can turn it off using the following steps:
 
 - On the menu, select :menuselection:`Settings --> Configure Krita`
 - On :guilabel:`General` page, switch to :guilabel:`Window` tab.
-- Check :guilabel:`Enable Hi-DPI support`
+- Uncheck :guilabel:`Enable Hi-DPI support` (or check if you wish to enable it)
 - Press :guilabel:`OK`, if the settings screen is too big, :kbd:`Alt + O` will trigger the OK button too.
 - Restart Krita
 
