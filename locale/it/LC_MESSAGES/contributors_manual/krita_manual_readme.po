@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-02 03:06+0200\n"
-"PO-Revision-Date: 2019-06-13 18:56+0200\n"
+"PO-Revision-Date: 2019-08-17 11:28+0200\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,15 +15,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.04.2\n"
+"X-Generator: Lokalize 19.08.0\n"
 
 #: ../../contributors_manual/krita_manual_readme.rst:None
 msgid ".. image:: images/gitlab/screenshot_editmode.png"
-msgstr ""
+msgstr ".. image:: images/gitlab/screenshot_editmode.png"
 
 #: ../../contributors_manual/krita_manual_readme.rst:None
 msgid ".. image:: images/gitlab/screenshot_webidemode.png"
-msgstr ""
+msgstr ".. image:: images/gitlab/screenshot_webidemode.png"
 
 #: ../../contributors_manual/krita_manual_readme.rst:1
 msgid "Contributor's Readme for the Krita Manual"
@@ -238,16 +238,16 @@ msgstr ""
 "la revisione."
 
 #: ../../contributors_manual/krita_manual_readme.rst:73
-#, fuzzy
-#| msgid "Upload the zip on phabricator."
 msgid "Sending patches to Phabricator"
-msgstr "Carica il file zip in phabricator."
+msgstr "Invio di patch a Phabricator"
 
 #: ../../contributors_manual/krita_manual_readme.rst:75
 msgid ""
 "Recommended for users without a technical knowledge who don't plan on "
 "contributing more to the project."
 msgstr ""
+"Consigliato per gli utenti senza conoscenze tecniche che non hanno più "
+"intenzione di contribuire al progetto."
 
 #: ../../contributors_manual/krita_manual_readme.rst:77
 msgid ""
@@ -255,6 +255,9 @@ msgid ""
 "`merge-request-edit` if you don't have technical knowledge and want to "
 "contribute to Krita Manual more than once)."
 msgstr ""
+"Non consigliato se hai intenzione di contribuire ancora in futuro (vedi "
+":ref:`merge-request-edit` se non possiedi conoscenze tecniche e vuoi "
+"contribuire più di una volta al Manuale di Krita)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:79
 msgid "Get the source text from the `repository`_."
@@ -273,16 +276,12 @@ msgid "Tools to check whether your modifications work."
 msgstr "Usa gli strumenti per verificare se la tua modifica funziona."
 
 #: ../../contributors_manual/krita_manual_readme.rst:86
-#, fuzzy
-#| msgid ""
-#| "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/"
-#| ">`_ to check if your changes don't break"
 msgid ""
 "You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ "
 "to check if your changes don't break the manual."
 msgstr ""
 "Puoi usare l'`Editor di Sphinx in linea <https://livesphinx.herokuapp.com/"
-">`_ per verificare se le tue modifiche funzionano"
+">`_ per verificare se le tue modifiche funzionano nel manuale."
 
 #: ../../contributors_manual/krita_manual_readme.rst:88
 msgid "Bundle up the items into a zip."
@@ -333,14 +332,12 @@ msgstr ""
 "differenze utilizzando l'indirizzo di posta elettronica."
 
 #: ../../contributors_manual/krita_manual_readme.rst:103
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using Edit mode"
-msgstr "Creazione di richieste di fusione con gitlab"
+msgstr "Creazione di richieste di fusione mediante la modalità Edit"
 
 #: ../../contributors_manual/krita_manual_readme.rst:105
 msgid "Recommended for users without a technical knowledge."
-msgstr ""
+msgstr "Consigliato per gli utenti senza conoscenze tecniche."
 
 #: ../../contributors_manual/krita_manual_readme.rst:107
 msgid ""
@@ -348,20 +345,17 @@ msgid ""
 "ref:`merge-request-webide` or :ref:`merge-request-terminal` if you want to "
 "change more files, or simply edit only one per merge request)."
 msgstr ""
+"Non consigliato se vuoi cambiare più di un file alla volta (vedi:ref:`merge-"
+"request-webide` o :ref:`merge-request-terminal` se vuoi cambiare più file o "
+"semplicemente modificarne solo uno per richiesta di fusione)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:110
-#, fuzzy
-#| msgid ""
-#| "This one is a bit technical, but much more comfortable for the manual "
-#| "maintainers. If you have a lot of changes you want to contribute, we "
-#| "recommend trying to follow these instructions."
 msgid ""
 "If you have a lot of changes you want to contribute, we recommend trying to "
 "follow these instructions."
 msgstr ""
-"Questo aspetto è un po' tecnico, ma molto più comodo per i responsabili del "
-"manuale. Se devi contribuire a molte modifiche, ti raccomandiamo di seguire "
-"queste istruzioni."
+"Se devi contribuire a molte modifiche, ti raccomandiamo di seguire queste "
+"istruzioni."
 
 #: ../../contributors_manual/krita_manual_readme.rst:112
 msgid "Get a KDE identity."
@@ -372,14 +366,8 @@ msgid "Login to `KDE_gitlab`_."
 msgstr "Collegati a `KDE_gitlab`_."
 
 #: ../../contributors_manual/krita_manual_readme.rst:114
-#, fuzzy
-#| msgid ""
-#| "Go to the `repository`_ and press :guilabel:`fork`, and clone into the "
-#| "namespace of your nickname."
 msgid "Go to the `repository`_ and press :guilabel:`fork`."
-msgstr ""
-"Vai al `repository`_,  premi :guilabel:`fork` e clonalo nello spazio dei "
-"nomi corrispondente al tuo nickname."
+msgstr "Vai al `repository`_ e premi :guilabel:`fork`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:115
 msgid ""
@@ -395,12 +383,17 @@ msgid ""
 "Krita Documentation``, not your own fork. Otherwise this method won't work "
 "correctly."
 msgstr ""
+"Torna al repository ufficiale. Assicurati di essere in ``Websites/Krita "
+"Documentation`` e non nel tuo fork personale: in caso contrario questo "
+"metodo non funzionerà correttamente."
 
 #: ../../contributors_manual/krita_manual_readme.rst:119
 msgid ""
 "Gitlab has an option to Edit files in the gitlab itself. To access this, go "
 "to :menuselection:`Repository --> Files`."
 msgstr ""
+"GitLab possiede un'opzione per modificare i file al suo interno. Per "
+"accedere a questa funzione, vai a :menuselection:`Repository --> Files`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:121
 msgid ""
@@ -408,16 +401,21 @@ msgid ""
 "please select ``draft`` if your changes contain anything other than pure "
 "typo fixes."
 msgstr ""
+"In cima alla pagina troverai un riquadro a tendina con ``master`` come "
+"elemento predefinito; seleziona ``draft`` se le tue modifiche contengono "
+"nient'altro che correzioni ortografiche."
 
 #: ../../contributors_manual/krita_manual_readme.rst:123
 msgid ""
 "Find the file you want to edit, open it and then click :guilabel:`Edit`."
-msgstr ""
+msgstr "Trova il file da modificare, aprilo e fai clic su :guilabel:`Edit`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:125
 msgid ""
 "Make your changes. (Note: in this mode you can edit only one file at a time)."
 msgstr ""
+"Apporta le modifiche (nota: in questa modalità puoi modificare solo un file "
+"alla volta)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:127
 msgid ""
@@ -426,6 +424,10 @@ msgid ""
 "`Commit changes`. This will make a merge request for you, just fill in all "
 "of the fields as explained here: :ref:`new-merge-request`."
 msgstr ""
+"Vai al riquadro di testo più piccolo e scrivi un messaggio sulle modifiche "
+"che hai fatto nella sezione dei messaggi di commit. Una volta terminato "
+"premi :guilabel:`Commit changes`. Verrà creata una richiesta di fusione, "
+"completa gli altri campi come spiegato qui: :ref:`new-merge-request`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:129
 msgid ""
@@ -434,24 +436,30 @@ msgid ""
 "`Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ (just copy and "
 "paste the entire file you're editing)."
 msgstr ""
+"L'aspetto negativo è che al momento non vi è modo di avvisarti se "
+"utilizzando questo metodo hai commesso errori col mark-up. Verifica gli "
+"errori con l'`Editor di Sphinx in linea <https://livesphinx.herokuapp.com/"
+">`_ (copia e incolla tutto il file che stai modificando)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:133
 msgid ""
 ":guilabel:`Edit` and :guilabel:`WebIDE` are two different things! Make sure "
 "you select :guilabel:`Edit`."
 msgstr ""
+":guilabel:`Edit` e :guilabel:`WebIDE` sono due cose diverse! Assicurati di "
+"aver selezionato :guilabel:`Edit`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:142
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using WebIDE"
-msgstr "Creazione di richieste di fusione con gitlab"
+msgstr "Creazione di richieste di fusione mediante WebIDE"
 
 #: ../../contributors_manual/krita_manual_readme.rst:144
 msgid ""
 "Recommended for users with a bit of knowledge about Git that want to edit "
 "multiple files at once."
 msgstr ""
+"Consigliato agli utenti che conoscono un po' Git e vogliono modificare più "
+"file alla volta."
 
 #: ../../contributors_manual/krita_manual_readme.rst:146
 #: ../../contributors_manual/krita_manual_readme.rst:188
@@ -459,22 +467,28 @@ msgid ""
 "Not recommended when you don't know what a branch is (see :ref:`merge-"
 "request-edit` instead)."
 msgstr ""
+"Non consigliato se non sai cos'è un ramo (branch) (vedi invece :ref:`merge-"
+"request-edit`)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:149
 #: ../../contributors_manual/krita_manual_readme.rst:190
 msgid ""
 "Follow the instructions above to login to `KDE_gitlab`_ and create your fork."
 msgstr ""
+"Per accedere a `KDE_gitlab`_ e creare il tuo fork, segui le istruzioni sopra "
+"riportate."
 
 #: ../../contributors_manual/krita_manual_readme.rst:151
 msgid "Go to your fork (make sure the url contains your username)."
-msgstr ""
+msgstr "Vai al tuo fork (accertati che l'URL contenga il tuo nome utente)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:153
 msgid ""
 "Make sure you're on ``draft``, not on ``master``, unless your changes "
 "contain *only* spelling and grammatical fixes."
 msgstr ""
+"Assicurati di essere su ``draft`` e non su ``master``, a meno che le tue "
+"modifiche non contengano *solo* correzioni grammaticali e ortografiche."
 
 #: ../../contributors_manual/krita_manual_readme.rst:155
 msgid ""
@@ -482,22 +496,31 @@ msgid ""
 "files on the left side and a big empty space for file contents on the right "
 "side."
 msgstr ""
+"Fai clic su :guilabel:`WebIDE`. Vieni indirizzato a una pagina contenente un "
+"elenco di file sulla sinistra e uno spazio vuoto per il loro contenuto sulla "
+"destra."
 
 #: ../../contributors_manual/krita_manual_readme.rst:157
 msgid "Open the files you want to edit and make the changes."
-msgstr ""
+msgstr "Apri i file da modificare ed esegui le modifiche."
 
 #: ../../contributors_manual/krita_manual_readme.rst:159
 msgid ""
 "Click :guilabel:`Commit...`. Double-click on all files in the :guilabel:"
 "`Unstaged changes` category to move them to :guilabel:`Staged changes`."
 msgstr ""
+"Fai clic su :guilabel:`Commit...`. Fai doppio clic su tutti i file nella "
+"categoria :guilabel:`Unstaged changes` per spostarli in :guilabel:`Staged "
+"changes`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:161
 msgid ""
 "Click :guilabel:`Commit...` again - it will expand a commit message textbox. "
 "Write commit message that explains what changes have you made and why."
 msgstr ""
+"Fai di nuovo clic su :guilabel:`Commit...` - si aprirà un riquadro per il "
+"messaggio di commit. Scrivi un messaggio esplicativo sulle modifiche "
+"apportate."
 
 #: ../../contributors_manual/krita_manual_readme.rst:163
 msgid ""
@@ -507,14 +530,20 @@ msgid ""
 "that :guilabel:`Start a new merge request` is checked. Otherwise you'll need "
 "to make a new merge request manually later."
 msgstr ""
+"Accertati che le impostazioni siano corrette: devi selezionare "
+":guilabel:`Create a new branch` (il nome del ramo dev'essere: ``"
+"[nome_utente]/[descrizione molto breve delle tue modifiche]``). Se hai "
+"completato le modifiche assicurati che sia spuntata l'opzione "
+":guilabel:`Start a new merge request`. In caso contrario dovrai eseguire "
+"manualmente una nuova richiesta di fusione successivamente."
 
 #: ../../contributors_manual/krita_manual_readme.rst:165
 msgid "Click :guilabel:`Stage & Commit`."
-msgstr ""
+msgstr "Fai clic su :guilabel:`Stage & Commit`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:167
 msgid "Fill all of the fields correctly: see :ref:`new-merge-request`."
-msgstr ""
+msgstr "Compila correttamente tutti i campi: vedi :ref:`new-merge-request`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:169
 msgid ""
@@ -523,6 +552,11 @@ msgid ""
 "click :guilabel:`Create a new merge request` (bright green button at the "
 "left). Select your fork and select the branch that you've created in WebIDE."
 msgstr ""
+"Per creare manualmente una nuova richiesta di fusione, vai al repository "
+"ufficiale del Manuale di Krita (assicurati che l'URL ora *non* contenga il "
+"tuo nome utente) e fai clic su :guilabel:`Create a new merge request` "
+"(pulsante verde acceso alla sinistra). Seleziona il tuo fork e il ramo che "
+"hai creato in WebIDE."
 
 #: ../../contributors_manual/krita_manual_readme.rst:176
 msgid ""
@@ -533,32 +567,34 @@ msgid ""
 "access, you can't do it). It will just show the message: `An error occurred "
 "whilst committing your changes. Please try again.`"
 msgstr ""
+"Se non possiedi un accesso push al repository ufficiale, GitLab non ti "
+"consentirà di salvare le tue modifiche, se stai modificando per sbaglio il "
+"repository ufficiale (e :guilabel:`Create a merge request` non ti sarà di "
+"aiuto per questo: devi ancora inviare le modifiche al tuo ramo, ma se non "
+"possiedi accesso push non lo puoi fare). Otterrai semplicemente il "
+"messaggio: `An error occurred whilst committing your changes. Please try "
+"again.`"
 
 #: ../../contributors_manual/krita_manual_readme.rst:178
 msgid ""
 "In this case, simply copy contents of all of the files you changed, go to "
 "your fork and paste them in the fork WebIDE."
 msgstr ""
+"In questo caso, copia semplicemente il contenuto di tutti i file che hai "
+"modificato, vai al tuo fork e incollali nel WebIDE del fork."
 
 #: ../../contributors_manual/krita_manual_readme.rst:184
-#, fuzzy
-#| msgid "Creating merge requests with gitlab"
 msgid "Creating merge requests using command line"
-msgstr "Creazione di richieste di fusione con gitlab"
+msgstr "Creazione di richieste di fusione mediante riga di comando"
 
 #: ../../contributors_manual/krita_manual_readme.rst:186
 msgid ""
 "Recommended for users that know how Git works and how to use command line."
 msgstr ""
+"Consigliato agli utenti che sanno come funziona Git e come utilizzare la "
+"riga di comando."
 
 #: ../../contributors_manual/krita_manual_readme.rst:192
-#, fuzzy
-#| msgid ""
-#| "If you are comfortable with git, you can clone the repository locally "
-#| "with :guilabel:`git clone`. The repository page has the urls you can "
-#| "perform git clone from, and you can then push to your fork. The advantage "
-#| "of this is that you can use all the tools on your computer to edit these "
-#| "text files as well as build the manual locally to check for errors."
 msgid ""
 "Clone the repository locally with :guilabel:`git clone`. The repository page "
 "has the urls you can perform git clone from, and you can then push to your "
@@ -566,12 +602,12 @@ msgid ""
 "computer to edit these text files as well as build the manual locally to "
 "check for errors. (You need to do this step only once)."
 msgstr ""
-"Se conosci git, puoi clonare localmente il repository con:guilabel:`git "
-"clone`. La pagina del repository contiene gli url da cui devi eseguire il "
-"git clone, e dopo poi inviare (push) al tuo fork. Il vantaggio di questa "
-"procedura è che puoi utilizzare tutti gli strumenti presenti nel computer "
-"per modificare questi file di testo, così come compilare localmente il "
-"manuale per controllare gli errori."
+"Clona localmente il repository con:guilabel:`git clone`. La pagina del "
+"repository contiene gli URL da cui devi eseguire il git clone, e dopo poi "
+"inviare (push) al tuo fork. Il vantaggio di questa procedura è che puoi "
+"utilizzare tutti gli strumenti presenti nel computer per modificare questi "
+"file di testo, così come compilare localmente il manuale per controllare gli "
+"errori (devi procedere un passo alla volta)."
 
 #: ../../contributors_manual/krita_manual_readme.rst:195
 msgid ""
@@ -583,16 +619,25 @@ msgid ""
 "git clone https://invent.kde.org/<username>/krita.git\n"
 "git remote add upstream https://invent.kde.org/kde/krita.git"
 msgstr ""
+"# per l'accesso ssh\n"
+"git clone git@invent.kde.org:<username>/krita.git\n"
+"git remote add upstream git@invent.kde.org:kde/krita.git\n"
+"\n"
+"# per l'accesso https\n"
+"git clone https://invent.kde.org/<username>/krita.git\n"
+"git remote add upstream https://invent.kde.org/kde/krita.git"
 
 #: ../../contributors_manual/krita_manual_readme.rst:206
 msgid ""
 "Remember to always pull changes from the official repository before making "
 "new changes:"
 msgstr ""
+"Ricorda di estrarre sempre le modifiche dal repository ufficiale prima di "
+"eseguire quelle nuove:"
 
 #: ../../contributors_manual/krita_manual_readme.rst:208
 msgid "git pull upstream master"
-msgstr ""
+msgstr "git pull upstream master"
 
 #: ../../contributors_manual/krita_manual_readme.rst:213
 msgid ""
@@ -600,6 +645,9 @@ msgid ""
 "branched from the correct branch: ``master`` in case if your changes only "
 "contain typo fixes, ``draft`` in all other cases."
 msgstr ""
+"Accertati di creare un nuovo ramo per le tue modifiche e di collegarlo al "
+"ramo corretto: ``master`` nel caso che le modifiche contengano solo "
+"correzioni ortografiche o di battitura, ``draft`` in tutti gli altri casi."
 
 #: ../../contributors_manual/krita_manual_readme.rst:216
 msgid ""
@@ -611,6 +659,13 @@ msgid ""
 "# and then:\n"
 "git checkout -b \"<username>/<description of the new feature>\""
 msgstr ""
+"# se le modifiche devono andare in master\n"
+"git checkout master\n"
+"# se le modifiche devono andare in draft\n"
+"git checkout draft\n"
+"\n"
+"# poi:\n"
+"git checkout -b \"<username>/<description of the new feature>\""
 
 #: ../../contributors_manual/krita_manual_readme.rst:228
 msgid ""
@@ -618,6 +673,9 @@ msgid ""
 "detailed description of how to use Git in terminal in case of this workflow, "
 "go to :ref:`forking_gitlab`."
 msgstr ""
+"Dopo aver apportato le modifiche, eseguine il commit e inviale al tuo fork. "
+"Per una descrizione dettagliata su come usare Git con terminale nel caso di "
+"questa procedura, consulta :ref:`forking_gitlab`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:230
 msgid ""
@@ -632,6 +690,16 @@ msgid ""
 "# submit your changes to your fork\n"
 "git push"
 msgstr ""
+"# assicurati che tutto sia corretto\n"
+"make html\n"
+"git status\n"
+"git diff\n"
+"# aggiungi tutti i file\n"
+"git add .\n"
+"# esegui il commit delle tue modifiche\n"
+"git commit\n"
+"# invia le modifiche al tuo fork\n"
+"git push"
 
 #: ../../contributors_manual/krita_manual_readme.rst:243
 msgid ""
@@ -640,18 +708,22 @@ msgid ""
 "your fork and the correct branch and create a new merge request. For "
 "instruction on how to fill the fields, see :ref:`new-merge-request`."
 msgstr ""
+"Per finire, vai al sito web del repository originale (assicurati di trovarti "
+"nel ramo corretto , `master` o `draft`), poi a Merge Requests. Seleziona il "
+"tuo fork e il ramo corretto e crea una nuova richiesta di fusione. Per le "
+"istruzioni su come compilare i campi consulta :ref:`new-merge-request`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:249
-#, fuzzy
-#| msgid "Reviewing merge requests"
 msgid "Guidelines for new merge requests"
-msgstr "Revisione delle richieste di fusione (merge requests)"
+msgstr "Linee guida per le richieste di fusione (merge requests)"
 
 #: ../../contributors_manual/krita_manual_readme.rst:251
 msgid ""
 "Your commit messages should conform to standards explained here: `How to "
 "Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`_"
 msgstr ""
+"I tuoi messaggi di commit devono rispettare gli standard qui spiegati: `How "
+"to Write a Git Commit Message <https://chris.beams.io/posts/git-commit/>`_"
 
 #: ../../contributors_manual/krita_manual_readme.rst:253
 msgid ""
@@ -659,18 +731,25 @@ msgid ""
 "did you make and why did you make them, just like a commit message, so "
 "follow the guidelines from the link above in this case, too."
 msgstr ""
+":guilabel:`Title` e :guilabel:`Description` devono spiegare quali modifiche "
+"hai fatto e perché le hai fatte, proprio come un messaggio di commit. Anche "
+"in questo caso segui le linee guida dal collegamento sopra indicato."
 
 #: ../../contributors_manual/krita_manual_readme.rst:255
 msgid ""
 ":guilabel:`Target` should point to ``draft``, unless your changes contain "
 "only typo fixes."
 msgstr ""
+":guilabel:`Target` deve puntare a ``draft``, a meno che le modifiche "
+"contengano solo correzioni di errori ortografici o di battitura."
 
 #: ../../contributors_manual/krita_manual_readme.rst:257
 msgid ""
 "If you're sure the merge request will demand some changes later, start the "
 "title of your merge request with :code:`[WIP]`."
 msgstr ""
+"Se sei certo che la richiesta di fusione esiga delle modifiche successive, "
+"inizia il titolo della richiesta di fusione con :code:`[WIP]`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:259
 msgid ""
@@ -682,12 +761,21 @@ msgid ""
 "check this checkbox so the reviewer can do it themselves with only a few "
 "clicks."
 msgstr ""
+"Accertati di aver attivato l'opzione :guilabel:`Allow commits from members "
+"who can merge to the target branch.` -- per ragioni tecniche si rende "
+"necessaria l'esecuzione del rebase della richiesta di fusione su master, "
+"operazione che modifica tecnicamente la richiesta, ma non ne cambia "
+"l'effettivo contenuto. Il rebase può essere eseguito da te o dal revisore -- "
+"se non vuoi preoccuparti troppo in seguito è meglio che attivi questa "
+"opzione, in modo che il revisore lo possa eseguire in pochi passaggi."
 
 #: ../../contributors_manual/krita_manual_readme.rst:261
 msgid ""
 "You can safely check :guilabel:`Delete source branch when merge request is "
 "accepted` in most cases."
 msgstr ""
+"Nella maggior parte dei casi, puoi tranquillamente attivare l'opzione "
+":guilabel:`Delete source branch when merge request is accepted`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:263
 msgid ""
@@ -696,26 +784,27 @@ msgid ""
 "come from the :guilabel:`Title` of your merge request and the rest of it "
 "will be taken from the :guilabel:`Description` of the merge request."
 msgstr ""
+"A meno che i revisori non indichino diversamente, attiva l'opzione "
+":guilabel:`Squash commits when merge request is accepted`. La prima riga del "
+"messaggio di commit proverrà dal :guilabel:`Titolo` della tua richiesta di "
+"fusione e il resto verrà preso dalla sua :guilabel:`Descrizione`."
 
 #: ../../contributors_manual/krita_manual_readme.rst:265
 msgid ""
 "When you finish creating your merge request, go to IRC and ask someone with "
 "push access to add the ``Needs Review`` label on your merge request."
 msgstr ""
+"Quando hai terminato la tua richiesta di fusione, collegati a IRC e chiedi a "
+"qualcuno con accesso push di aggiungere l'etichetta ``Needs Review`` alla "
+"tua richiesta."
 
 #: ../../contributors_manual/krita_manual_readme.rst:267
-#, fuzzy
-#| msgid ""
-#| "You might get feedback on your merge request if it has mistakes. Just fix "
-#| "the mistakes in your branch, gitlab will update the merge request, and "
-#| "then mark the merge request with ``Ǹeeds Review`` again."
 msgid ""
 "You might get feedback on your merge request if it has mistakes. Just fix "
 "the mistakes in your branch in one of the following ways."
 msgstr ""
-"Potresti ricevere dei commenti sulla tua richiesta di fusione se ci sono "
-"errori. Correggi gli errori nel tuo ramo, gitlab aggiornerà la merge "
-"request, e poi la contrassegnerà di nuovo con ``Ǹeeds Review``."
+"Se sono presenti errori, potresti ricevere dei commenti sulla tua richiesta "
+"di fusione. Correggi gli errori nel tuo ramo con uno dei metodi seguenti."
 
 #: ../../contributors_manual/krita_manual_readme.rst:269
 msgid ""
@@ -723,12 +812,18 @@ msgid ""
 "section of the merge request and click on the pencil icon (with a tooltip "
 "that says `Edit`) to use the Edit mode again."
 msgstr ""
+"Se vuoi utilizzare la modalità :guilabel:`Edit`, vai alla sezione "
+":guilabel:`Changes` della richiesta di fusione e fai clic sull'icona a forma "
+"di matita (che contiene il suggerimento `Edit`) per utilizzare di nuovo la "
+"modalità Modifica."
 
 #: ../../contributors_manual/krita_manual_readme.rst:271
 msgid ""
 "If you want to use :guilabel:`WebIDE` mode, go to your fork, select the "
 "branch your changes are on and go to the WebIDE."
 msgstr ""
+"Se vuoi utilizzare la modalità :guilabel:`WebIDE`, vai al tuo fork, "
+"seleziona il ramo in cui sono presenti le modifiche e vai al WebIDE."
 
 #: ../../contributors_manual/krita_manual_readme.rst:273
 msgid ""
@@ -736,12 +831,17 @@ msgid ""
 "on the correct branch and push your changes - gitlab will update your merge "
 "request automatically."
 msgstr ""
+"Se modifichi i file nel tuo computer e lavori col terminale, assicurati di "
+"trovarti nel ramo corretto e invia le tue modifiche - GitLab aggiornerà "
+"automaticamente la tua richiesta di fusione."
 
 #: ../../contributors_manual/krita_manual_readme.rst:275
 msgid ""
 "After making changes, make sure you ask someone to change the label to "
 "``Needs Review`` again."
 msgstr ""
+"Dopo aver eseguito le modifiche, assicurati di chiedere a qualcuno di "
+"cambiare l'etichetta di nuovo in ``Needs Review``."
 
 #: ../../contributors_manual/krita_manual_readme.rst:278
 msgid ""
@@ -760,6 +860,13 @@ msgid ""
 "get on IRC (see :ref:`the_krita_community`) and ask someone to label it for "
 "you."
 msgstr ""
+"Al momento della stesura di questa guida, l'impostazione delle etichette "
+"sulle richieste di fusione è possibile solo dai collaboratori con permessi "
+"di scrittura nel repository ufficiale (se non sai cosa significa, "
+"probabilmente non sei uno di loro). Per questo motivo, quando crei o "
+"modifiche la tua richiesta di fusione devi accedere a IRC (vedi "
+":ref:`the_krita_community`) e chiedere a qualcuno di impostare le etichette "
+"per te."
 
 #: ../../contributors_manual/krita_manual_readme.rst:286
 msgid "General philosophy"
@@ -1355,7 +1462,7 @@ msgstr ""
 "Una richiesta di fusione (merge request) è un insieme di modifiche apportate "
 "a un documento (aggiunte, rimozioni) inserito in un file comprensibile dalla "
 "macchina. Quando un utente invia una richiesta di revisione (su un sistema "
-"come gitlab o github esso si chiama merge o pull request), le persone "
+"come GitLab o GitHub esso si chiama merge o pull request), le persone "
 "responsabili dei file originali dovranno controllarli e commentare le parti "
 "che devono essere modificate. Questo permette loro di commentare su parti "
 "come refusi o scrittura eccessivamente elaborata, ma anche parti sbagliate. "
@@ -1487,9 +1594,6 @@ msgid "Other"
 msgstr "Altro"
 
 #: ../../contributors_manual/krita_manual_readme.rst:469
-#, fuzzy
-#| msgid ""
-#| "For restructured text conventions, check :ref:`krita_markup_conventions` ."
 msgid ""
 "For restructured text conventions, check :ref:`krita_markup_conventions`."
 msgstr ""
