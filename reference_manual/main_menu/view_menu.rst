@@ -20,7 +20,7 @@ Show Canvas Only
 Fullscreen mode
     This will hide the system bar.
 Wrap Around Mode
-    This will show the image as if tiled orthographically. Very useful for tiling 3d textures. Hit :kbd:`W` to quickly activate it.
+    This will show the image as if tiled orthographically. Very useful for tiling 3d textures.
 Instant Preview
     Toggle :ref:`instant_preview` globally.
 Soft Proofing

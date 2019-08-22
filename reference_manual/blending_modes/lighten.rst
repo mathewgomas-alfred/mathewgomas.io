@@ -178,7 +178,7 @@ Combines :ref:`bm_linear_dodge` and :ref:`bm_linear_burn`. When the lightness of
 .. _bm_luminosity_shine_sai:
 
 Luminosity/Shine (SAI)
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 Similar to :ref:`bm_addition`.
 

@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
+             - Raghavendra Kamath <raghu@raghukamath.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Layers, Cut Layer, Copy Layer, Paste Layer, Convert, Import, Export, Transform, Metadata, Histogram, Flatten, Layer Style
@@ -50,7 +51,7 @@ Import/Export
         Import an image as a layer into the current file.
     Import as...
         Import an image as a specific layer type. The following layer types are supported:
-                
+
             * Paint layer
             * Transparency Mask
             * Filter Mask
@@ -69,6 +70,8 @@ Convert
             Convert a layer to a filter mask. The image will be converted to grayscale first, and these grayscale values are used to drive the filter effect area.
         Selection Mask
             Convert a layer to a selection mask. The image will be converted to grayscale first, and these grayscale values are used to drive the selected area.
+        File Layer
+            Convert the selected layer in to a file layer. This will open a dialog box, which will ask the user for a location to save the layer as file layer and reference it in place of the original layer. This feature cannot be used if the selected layer is either a clone layer or a file layer.
         Convert Group to Animated Layer
             This takes the images in the group layer and makes them into frames of an animated layer.
         Convert Layer Color Space
