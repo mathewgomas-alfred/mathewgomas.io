@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Krita Manual 4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-15 03:16+0200\n"
-"PO-Revision-Date: 2019-08-28 20:48+0100\n"
+"PO-Revision-Date: 2019-08-31 18:31+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -175,6 +175,9 @@ msgid ""
 "and unlock these settings. Fade has a different effect per mask-type, so "
 "don't be alarmed if it looks strange, perhaps you have the wrong mask-type."
 msgstr ""
+"Ändrar penselns mjukhet. Man kan klicka på kedjesymbolen for att låsa och"
+" låsa upp inställningarna. Toning har en annorlunda effekt per masktyp, så"
+" bli inte rädd om den ser konstig ut, kanske är masktypen fel."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:65
 msgid "With fade locked."
@@ -198,7 +201,7 @@ msgstr "Vinkel"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:77
 msgid "This gives the amount of tips related to the ratio."
-msgstr ""
+msgstr "Anger antal spetsar relaterat till förhållandet."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:79
 msgid "Spikes"
@@ -210,6 +213,9 @@ msgid ""
 "noisy. In the example below, the brush is set with density 0%, 50% and 100% "
 "respectively."
 msgstr ""
+"Bestämmer hur stort område penseln täcker över dess storlek: det gör den"
+" bullrig. I exemplet nedan är penseln inställd till respektive täthet 0 %, 50"
+" % och 100 %."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:84
 msgid "Density"
@@ -247,6 +253,10 @@ msgid ""
 "picture, the three examples on right are with auto spacing, 0, 1 and 5 "
 "respectively."
 msgstr ""
+"Genom att markera det här ändras penselmellanrummet till en annan"
+" (kvadratisk) algoritm. Resultatet är fin kontroll över mellanrummen. I"
+" bilden nedan är de tre exemplen till höger med automatiskt mellanrum,"
+" respektive 0, 1 och 5."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:95
 msgid "Auto (spacing)"
@@ -259,6 +269,11 @@ msgid ""
 "without smooth lines, and the right with. Very useful for inking brushes. "
 "This option is best used in combination with Auto Spacing."
 msgstr ""
+"Ändrar den superjämna kantutjämningen. I exemplen nedan, målas båda strecken"
+" med en förvald pensel där toningen är inställd till 0. Till vänster utan"
+" jämna linjer, och till höger med. Mycket användbart för"
+" bläckteckningspenslar. Alternativet används bäst i kombination med"
+" automatiskt mellanrum."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:100
 msgid "Smooth lines"
@@ -275,6 +290,11 @@ msgid ""
 "a precision of 5 at all times, but a big filling brush for painting doesn't "
 "require such precision, and can be easily sped up by setting precision to 1."
 msgstr ""
+"Ändrar hur jämnt penseln återges. Ju lägre desto snabbare är penseln, men"
+" desto sämre ser återgivningen ut. Man bör alltid ha precisionen 5 för en"
+" bläckteckningspensel, men en stor fyllnadspensel för målning kräver inte"
+" sådan precision, och kan enkelt snabbas upp genom att ställa in precisionen"
+" till 1."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:106
 msgid ""
@@ -282,6 +302,9 @@ msgid ""
 "the brush size at which precision is last 5, and the second is the size-"
 "difference at which the precision will decrease."
 msgstr ""
+"Gör det möjligt att ställa in precisionen kopplad till storleken. Det första"
+" värdet är penselstorleken där precisionen är minst 5, och den andra är"
+" storleksskillnaden där precisionen kommer att minska."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:108
 msgid ""
@@ -330,6 +353,10 @@ msgid ""
 "(mostly) compatible with the brush tip definitions files of these "
 "applications:"
 msgstr ""
+"Om man har använt andra program som :program:`GIMP` eller"
+" :program:`Photoshop` har man använd den här sortens pensel. :program:`Krita`"
+" är (i huvudsak) kompatibla med definitionsfilerna för penselspetsar från"
+" dessa program:"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:125
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
@@ -338,7 +365,7 @@ msgstr "abr"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:126
 msgid "GIMP autobrush tip definitions."
-msgstr ""
+msgstr "Definitioner av GIMP automatiska penselspetsar."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:127
 msgid ":ref:`file_gbr`"
@@ -347,6 +374,7 @@ msgstr ":ref:`file_gbr`"
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:128
 msgid "GIMP single bitmap brush tip. Can be black and white or colored."
 msgstr ""
+"GIMP penselspets med enkel bitavbildning. Kan vara svartvit eller färgad."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:129
 msgid ":ref:`file_gih`"
@@ -358,12 +386,17 @@ msgid ""
 "randomly or in order after each other. Can be black and white or colored. :"
 "program:`Krita` does not yet support all the parameters yet."
 msgstr ""
+"GIMP penselspets med bildslang: innehåller en serie penselspetsar som målas"
+" slumpmässigt eller i ordning en i taget. Kan vara svartvit eller färgad."
+" :program:`Krita` stöder inte ännu alla parametrar."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:132
 msgid ""
 "Photoshop brush tip collections. We support many of the features of these "
 "brush files, though some advanced features are not supported yet."
 msgstr ""
+"Photoshop penselspetssamlingar. Vi stöder många av funktionerna i dessa"
+" penselfiler, även om vissa avancerade funktioner ännu inte stöds."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:134
 msgid ""
@@ -372,12 +405,19 @@ msgid ""
 "program:`Krita` user to share brush tips in GBR and GIH format and more "
 "complex brushes as :program:`Krita` presets."
 msgstr ""
+"Observera att definitionen av ABR-penslar har demonterats eftersom Adobe inte"
+" har publicerat specifikationen. Vi rekommenderar starkt att varje användare"
+" av :program:`Krita` att dela med sig av penselspetsar med GBR- och"
+" GBH-format och mer komplexa penslar som :program:`Krita` förinställningar."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:136
 msgid ""
 "All predefined brush tips are shown in one selector. There are four more "
 "options that influence the initial bitmap brush tip you start painting with:"
 msgstr ""
+"Alla fördefinierade penselspetsar visas i en väljare. Det finns fyra andra"
+" alternativ som påverkar den ursprungliga bitavbildningen för penselspetsen"
+" som man börjar måla med:"
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:138
 msgid "Scale"
@@ -389,6 +429,9 @@ msgid ""
 "fairly large! When painting with variable size (for instance governed by "
 "pressure), this is the base for the calculations."
 msgstr ""
+"Skalar penselspetsen. Värdet 1,0 är penselspetsens inbyggda storlek. Den kan"
+" vara rätt stor! Vid målning med variabel storlek (exempelvis styrt av"
+" tryck), är det grunden för beräkningarna."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:140
 msgid "Rotation"
@@ -400,10 +443,14 @@ msgstr "Penselspetsens ursprungliga rotation."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:143
 msgid "Distance between the brush tip impressions."
-msgstr ""
+msgstr "Avståndet mellan penselspetsens avtryck."
 
 #: ../../reference_manual/brushes/brush_settings/brush_tips.rst:145
 msgid ""
 "For colored brushes, don't paint the actual colors, but make a grayscale "
 "brush tip that will be colored by your selected foreground/background color."
 msgstr ""
+"För färgade penslar, måla inte med själva färgerna, utan skapa en penselspets"
+" med gråskala som färgläggs av valda förgrunds- och bakgrundsfärger."
+
+
