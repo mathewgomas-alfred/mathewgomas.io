@@ -158,7 +158,7 @@ Smart Layers
 Instead of having smart layers that you can do non-destructive transforms on, Krita has the following set of functionality:
 
 File Layers
-    These are layers which point to an outside file, and will get automatically updated if the outside file changes.
+    These are layers which point to an outside file, and will get automatically updated if the outside file changes. Starting from version 4.0 users can convert an existing layer into a file layer by |mouseright| clicking on it and doing :menuselection:`Convert --> to File Layer` or by going to :menuselection:`Layer --> Convert --> to File Layer`. It will then open a save prompt for the file location and when done will save the file and replace the layer with a file layer pointing at that file.
 Clone Layers
     These are layers that are an ‘instance’ of the layer you had selected when creating them. They get updated automatically when the original layer updates.
 Transform Masks

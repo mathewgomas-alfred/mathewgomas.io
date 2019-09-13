@@ -95,7 +95,9 @@ Krita has a lot of Blending modes, and thankfully all of Paint Tool Sai's are am
 Multiple, Screen, Overlay and Normal are amongst the favorites.
 Krita's Luminosity is actually slightly different from Paint Tool Sai's and it replaces the relative brightness of color with the relative brightness of the color of the layer.
 
-Sai's Luminosity mode is actually the same as Krita's *Addition* or *linear dodge* mode. The Shade mode is the same as *Color Burn* and *Hard Mix* is the same as the lumi and shade mode.
+Sai's Luminosity mode (called Shine in Sai2) is the same as Krita's *Luminosity/Shine (SAI)* mode, which is new in Krita 4.2.4. 
+The Sai's Shade mode is the same as *Color Burn* and *Hard Mix* is the same as the lumi and shade mode.
+
 
 Layers
 ~~~~~~
