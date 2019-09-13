@@ -31,15 +31,9 @@ Hotkeys and Sticky keys
 * :kbd:`R` sets the selection to 'replace' in the tool options, this is the default mode.
 * :kbd:`A` sets the selection to 'add' in the tool options.
 * :kbd:`S` sets the selection to 'subtract' in the tool options.
-<<<<<<< HEAD
 * :kbd:`Shift +` |mouseleft| sets the subsequent selection to 'add'. You can release the :kbd:`Shift` key while dragging, but it will still be set to 'add'. Same for the others.
 * :kbd:`Alt +` |mouseleft| sets the subsequent selection to 'subtract'.
 * :kbd:`Ctrl +` |mouseleft| sets the subsequent selection to 'replace'.
-=======
-* :kbd:`Shift` + |mouseleft| sets the subsequent selection to 'add'.
-* :kbd:`Alt` + |mouseleft| sets the subsequent selection to 'subtract'.
-* :kbd:`Ctrl` + |mouseleft| sets the subsequent selection to 'replace'.
->>>>>>> draft
 * :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to 'intersect'.
 
 .. versionadded:: 4.2
@@ -60,10 +54,6 @@ Hotkeys and Sticky keys
 
     This tool is not bound to any Hotkey, if you want to define one, go to :menuselection:`Settings --> Configure Krita --> Keyboard Shortcuts` and search for 'Similar Color Selection Tool', there you can select the shortcut you want. Check :ref:`shortcut_settings` for more info.
 
-<<<<<<< HEAD
-    You can switch the behavior of the :kbd:`Alt` key to use the :kbd:`Ctrl` key instead by toggling the switch in the :ref:`general_settings`.
-=======
->>>>>>> draft
 
 Tool Options
 ------------
