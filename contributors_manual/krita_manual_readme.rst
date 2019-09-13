@@ -210,15 +210,12 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
         git pull upstream master
 
 
-#. Make sure you create a new branch for your changes and make sure you branched from the correct branch: ``master`` in case if your changes only contain typo fixes, ``draft`` in all other cases.
+#. Make sure you create a new branch for your changes, since september 2019, all changes should be branched from ``master``.
 
 
     .. code-block:: bash
 
-        # if your changes need to go to master 
         git checkout master
-        # if your changes need to go to draft
-        git checkout draft
 
         # and then:
         git checkout -b "<username>/<description of the new feature>"
@@ -240,7 +237,7 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
         # submit your changes to your fork
         git push
 
-#. Finally, go to the website of the original repository (make sure you're on the correct branch, `master` or `draft`), and then to Merge Requests. Select your fork and the correct branch and create a new merge request. For instruction on how to fill the fields, see :ref:`new-merge-request`.
+#. Finally, go to the website of the original repository, and then to Merge Requests. Select your fork and the correct branch and create a new merge request. For instruction on how to fill the fields, see :ref:`new-merge-request`.
 
 
 .. _new-merge-request:
@@ -252,7 +249,7 @@ Guidelines for new merge requests
 
 #. :guilabel:`Title` and :guilabel:`Description` should explain what changes did you make and why did you make them, just like a commit message, so follow the guidelines from the link above in this case, too.
 
-#. :guilabel:`Target` should point to ``draft``, unless your changes contain only typo fixes.
+#. :guilabel:`Target` should point to ``master``.
 
 #. If you're sure the merge request will demand some changes later, start the title of your merge request with :code:`[WIP]`.
 
