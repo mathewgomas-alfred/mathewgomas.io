@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        The channel separation dialog in Krita
+        The channel separation dialog in Krita.
 
 .. metadata-placeholder
 

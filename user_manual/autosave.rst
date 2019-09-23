@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        How AutoSave and Backup Files Work in Krita
+        How AutoSave and Backup Files Work in Krita.
 
 .. metadata-placeholder
 

@@ -70,7 +70,7 @@ Additional information for supporters
 
 #. XP-Pen tablets and other brands can have issues everywhere.
 
-#. If someone asks about a tablet to buy, generally a cheaper Wacom or a Huion are the best options as of 2019, if they want to work with Krita. :ref:`list_supported_tablets`
+#. If someone asks about a tablet to buy, generally a cheaper Wacom or a Huion are the best options as of 2019, if they want to work with Krita. :ref:`list_supported_tablets`.
 
 #. `Possibly useful instruction in case of XP-Pen tablet issues <https://www.reddit.com/r/krita/comments/btzh72/xppen_artist_12s_issue_with_krita_how_to_fix_it/>`_.
 

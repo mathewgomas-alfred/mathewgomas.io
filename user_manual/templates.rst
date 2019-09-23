@@ -53,7 +53,7 @@ These are templates for design and have various defaults with proper ppi at your
 DSLR templates
 ~~~~~~~~~~~~~~
 
-These have some default size for photos
+These have some default size for photos:
 
 * Canon 55D
 * Canon 5DMK3

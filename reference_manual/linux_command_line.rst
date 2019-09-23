@@ -54,7 +54,7 @@ This line takes the file ``file.png`` and saves it as ``file.jpg``.
    
    .. versionadded:: 4.2
    
-   Export animation to the given filename and exit
+   Export animation to the given filename and exit.
    
    If a KRA file has no animation, then this command prints "This file has no animation." error and does nothing.
    

@@ -30,7 +30,7 @@ A general edge detection filter that encapsulates all other filters. Edge detect
    :align: center
    :figwidth: 800
    
-   From left to right: Original, with Prewitt edge detection applied, with Prewitt edge detection applied and result applied to alpha channel, and finally the original with an edge detection filter layer with the same settings as 3, and the filter layer blending mode set to multiply
+   From left to right: Original, with Prewitt edge detection applied, with Prewitt edge detection applied and result applied to alpha channel, and finally the original with an edge detection filter layer with the same settings as 3, and the filter layer blending mode set to multiply.
 
 Formula
     The convolution kernel formula for the edge detection. The difference between these is subtle, but still worth experimenting with.

@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Detailed steps on how to install Krita
+        Detailed steps on how to install Krita.
 
 .. metadata-placeholder
 
@@ -55,7 +55,7 @@ you will have to enable an extra repository. Krita runs fine under most
 desktop enviroments such as KDE, Gnome, LXDE, Xfce etc. -- even though it
 is a KDE application and needs the KDE libraries. You might also want to
 install the KDE system settings module and tweak the gui theme and fonts used,
-depending on your distributions
+depending on your distributions.
 
 Nautilus/Nemo file extensions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

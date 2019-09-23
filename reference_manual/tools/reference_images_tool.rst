@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        The reference images tool
+        The reference images tool.
 
 .. metadata-placeholder
 
@@ -32,7 +32,7 @@ Load Set
 Save Set
     Save a set of reference images.
 Delete all reference images
-    Delete all the reference images
+    Delete all the reference images.
 Keep aspect ratio
     When toggled this will force the image to not get distorted.
 Opacity

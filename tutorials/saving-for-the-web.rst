@@ -1,6 +1,6 @@
 .. meta::
    :description lang=en:
-        Tutorial for saving images for the web
+        Tutorial for saving images for the web.
 
 .. metadata-placeholder
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>

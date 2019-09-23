@@ -176,7 +176,7 @@ Krita has :ref:`a LOT of different brush engines <category_brush_engines>`, all 
 .. figure:: /images/brushes/Krita_example_differentbrushengines.png
    :align: center
 
-   **Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch brush
+   **Left:** pixel brush, **Center:** color smudge brush, **Right:** sketch brush.
 
 For example, the pixel-brush engine is simple and allows you to do most of your basic work, but if you do a lot of painting, the color smudge brush engine might be more useful. Even though it's slower to use than the Pixel Brush engine, its mixing of colors allows you to work faster when you need to blend and mix colors.
 
@@ -194,7 +194,7 @@ Humans can see a few million colors, which are combinations of electromagnetic w
 .. figure:: /images/Krita_basics_primaries.png
    :align: center
 
-   Subtractive CMY colors on the left and additive RGB colors on the right.  This difference means that printers benefit from color conversion before printing
+   Subtractive CMY colors on the left and additive RGB colors on the right.  This difference means that printers benefit from color conversion before printing.
 
 When painting traditionally, we use pigments which also absorb the right light-waves for the color we want it to have, but the more pigments you combine, the more light is absorbed, leading to a kind of murky black. This is why we call the mixing of paints **subtractive**, as it subtracts light the more pigments you put together. Because of that, in traditional pigment mixing, our most efficient primaries are three fairly light colors: Cyan blue and Magenta red and Yellow (CMY).
 
@@ -360,7 +360,7 @@ With all this technical stuff, you might forget that Krita is a painting program
 .. figure:: /images/assistants/Krita_basic_assistants.png
    :align: center
 
-   Krita's vanishing point assistants in action
+   Krita's vanishing point assistants in action.
 
 :ref:`grids_and_guides_docker`
  A very straightforward guiding tool which shows grids or guiding lines that can be configured.

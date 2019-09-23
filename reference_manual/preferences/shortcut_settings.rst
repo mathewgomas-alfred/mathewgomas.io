@@ -23,7 +23,7 @@ Menu Items
 Search bar
     Entering text here will search for matching shortcuts in the shortcut list.
 Shortcut List
-    Shortcuts are organized into sections. Each shortcut can be given a primary and alternate key combination
+    Shortcuts are organized into sections. Each shortcut can be given a primary and alternate key combination.
 Load/Save Shortcuts Profiles
     The bottom row of buttons contains commands for exporting and import keyboard shortcuts.
 

@@ -12,9 +12,9 @@
 
 .. _settings_menu:
 
-============
-Setting Menu
-============
+=============
+Settings Menu
+=============
 
 The Settings Menu houses the configurable options in Krita and where you determine most of the "look and feel" of the application.
 

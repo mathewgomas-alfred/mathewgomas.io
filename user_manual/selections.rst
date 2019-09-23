@@ -49,7 +49,7 @@ your selection.
 +-------------+---------------+------------+---------------------------------------------------+
 | Replace     | Ctrl          | R          | Replace the current selection.                    |
 +-------------+---------------+------------+---------------------------------------------------+
-| Intersect   | Shift + Alt   | --         | Get the overlapping section of both selections    |
+| Intersect   | Shift + Alt   | --         | Get the overlapping section of both selections.   |
 +-------------+---------------+------------+---------------------------------------------------+
 | Add         | Shift         | A          | Add the new selection to the current selection.   |
 +-------------+---------------+------------+---------------------------------------------------+
@@ -121,7 +121,7 @@ Vector selections allow you to modify your selection with vector anchor tools. P
 
 .. image:: /images/selection/Vector-pixel-selections.jpg
 
-When creating a selection, you can select what type of selection you want from the Mode in the selection tool options: Pixel or Vector. By default this will be a vector.
+When creating a selection, you can select what type of selection you want from the Mode in the selection tool options: Pixel or Vector. By default this will be Vector.
 
 Vector selections can be modified as any other :ref:`vector shape <vector_graphics>` with the :ref:`shape_selection_tool`, if you try to paint on a vector selection mask it will be converted into a pixel selection. You can also convert vector shapes to selection. In turn, vector selections can be made from vector shapes, and vector shapes can be converted to vector selections using the options in the :guilabel:`Selection` menu. Krita will add a new vector layer for this shape.
 

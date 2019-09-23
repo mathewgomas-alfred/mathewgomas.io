@@ -29,7 +29,7 @@ For example, if you were painting a picture of some magic person and wanted to c
 #. Have a Paint Layer where you draw your character
 #. Use the Clone Layer feature to create a clone of the layer that you drew your character on
 #. Apply an HSV filter mask to the clone layer to make the shapes on it white (or blue, or green etc.)
-#. Apply a blur filter mask to the clone layer so it looks like a "glow"
+#. Apply a blur filter mask to the clone layer so it looks like a "glow".
 
 As you keep painting and adding details, erasing on the first layer, Krita will automatically update the clone layer, making your "glow" apply to every change you make.
 

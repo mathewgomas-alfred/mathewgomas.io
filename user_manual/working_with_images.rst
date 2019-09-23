@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Detailed steps on how images work in Krita
+        Detailed steps on how images work in Krita.
 
 .. metadata-placeholder
 

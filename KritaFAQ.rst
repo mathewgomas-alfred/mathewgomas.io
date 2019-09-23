@@ -175,7 +175,7 @@ Where can I find older versions of Krita?
 
 All the older versions of Krita that are still available can be found here:
 
--  `Very old builds <https://download.kde.org/Attic/krita/>`_
+-  `Very old builds <https://download.kde.org/Attic/krita/>`_.
 
 On Windows, the Krita User Interface is too big on my screen
 ------------------------------------------------------------
@@ -274,7 +274,7 @@ First, check if you have installed drivers and the like. The :ref:`drawing_table
     
         The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or MacOS, or for Windows install `DebugView <https://docs.microsoft.com/en-us/sysinternals/downloads/debugview>`_ from the official Microsoft site, start DebugView and then start Krita.
         
-        When using a terminal, make sure to enable 'unlimited scrollback'
+        When using a terminal, make sure to enable 'unlimited scrollback'.
 
 #. Press the :kbd:`Ctrl + Shift + T` shortcut, you will see a message box telling the logging has started.
 #. Try to reproduce your problem, you will be able to see the log being created in the log viewer as you draw.
@@ -390,7 +390,7 @@ There is a myriad of reasons why this might be. Below is a short checklist.
 -  You do not have canvas acceleration enabled
 -  You have (NVidia) Vertical Sync enabled
 
-Please also check `this page <https://phabricator.kde.org/T7199>`__
+Please also check `this page <https://phabricator.kde.org/T7199>`_.
 
 Slow start-up
 -------------
@@ -408,7 +408,7 @@ Slow Brushes
 -  For NVidia, try a 16-bit floating point color space.
 -  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`. This isn't needed if you've got an AMD Threadripper™ CPU.
 -  It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB is the preferable minimum.
--  Check that nothing else is hogging your CPU
+-  Check that nothing else is hogging your CPU.
 -  Check that Instant Preview is enabled if you're using bigger brushes (but for very small brushes, make sure is disabled).
 -  Set brush precision to 3 or auto.
 -  Use a larger value for brush spacing.
@@ -426,7 +426,7 @@ Animation
 Why is my animation black in my video player
 --------------------------------------------
 
-You did not render the animation using the "baseline" option and you are using the default Windows media player. Re-render using the baseline option or use a better video player application, like VLC. Check `this useful diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-manual-783473428>`__
+You did not render the animation using the "baseline" option and you are using the default Windows media player. Re-render using the baseline option or use a better video player application, like VLC. Check `this useful diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-manual-783473428>`_.
 
 
 Tools
