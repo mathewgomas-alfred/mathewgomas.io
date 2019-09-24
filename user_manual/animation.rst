@@ -171,7 +171,7 @@ Now then...
 .. figure:: /images/animation/Introduction_to_animation_13.png
    :width: 580
 
-   squashed the timeline docker a bit to save space
+   Squashed the timeline docker a bit to save space.
 
 #. Copy frame 0 to frame 2.
 #. Copy frame 1 to frame 3.

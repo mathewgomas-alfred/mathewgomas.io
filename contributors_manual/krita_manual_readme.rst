@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Contributor's Readme for the Krita Manual
+        Contributor's Readme for the Krita Manual.
 
 .. metadata-placeholder
 
@@ -173,7 +173,7 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
 
 .. note::
    
-   If you don't have a push access to the official repository, gitlab won't allow you to save your changes if you were editing the official repository by mistake (and :guilabel:`Create a merge request` won't help with that: you still need to commit your changes to your branch, but if you don't have push access, you can't do it). It will just show the message: `An error occurred whilst committing your changes. Please try again.`
+   If you don't have a push access to the official repository, gitlab won't allow you to save your changes if you were editing the official repository by mistake (and :guilabel:`Create a merge request` won't help with that: you still need to commit your changes to your branch, but if you don't have push access, you can't do it). It will just show the message: *An error occurred whilst committing your changes. Please try again.*
 
    In this case, simply copy contents of all of the files you changed, go to your fork and paste them in the fork WebIDE.
 
@@ -263,7 +263,7 @@ Guidelines for new merge requests
        
 #. You might get feedback on your merge request if it has mistakes. Just fix the mistakes in your branch in one of the following ways.
      
-    * If you want to use :guilabel:`Edit` mode, just go to :guilabel:`Changes` section of the merge request and click on the pencil icon (with a tooltip that says `Edit`) to use the Edit mode again.
+    * If you want to use :guilabel:`Edit` mode, just go to :guilabel:`Changes` section of the merge request and click on the pencil icon (with a tooltip that says *Edit*) to use the Edit mode again.
 
     * If you want to use :guilabel:`WebIDE` mode, go to your fork, select the branch your changes are on and go to the WebIDE.
 

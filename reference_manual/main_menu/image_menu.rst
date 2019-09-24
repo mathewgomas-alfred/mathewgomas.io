@@ -28,9 +28,9 @@ Trim to Current Layer
 Trim to Selection
     A lazy cropping function. Krita will crop the canvas to the selected area.
 Rotate Image
-    Rotate the image
+    Rotate the image.
 Shear Image
-    Shear the image
+    Shear the image.
 Mirror Image Horizontally
     Mirror the image on the horizontal axis.
 Mirror Image Vertically

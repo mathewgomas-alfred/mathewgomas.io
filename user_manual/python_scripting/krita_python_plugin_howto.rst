@@ -329,7 +329,7 @@ Then, you need to add a PyQt slot definition before your function:
         print("The checkbox is"+enabledString)
 
 
-Then, when you have created your checkbox, you can do something like myCheckbox.toggled.connect(self.myFunction)
+Then, when you have created your checkbox, you can do something like myCheckbox.toggled.connect(self.myFunction).
 
 Similarly, to make your own PyQt signals, you do the following:
 

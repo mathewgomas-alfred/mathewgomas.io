@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        reStructuredText conventions for the Krita Manual
+        reStructuredText conventions for the Krita Manual.
 
 .. metadata-placeholder
 
@@ -181,7 +181,7 @@ You can make text *emphasized* and **strong** with a single asterisk and double 
 
 You cannot do both ***emphasized and strong***, so take a pick.
 
-You can :sub:`subscript text` and :sup:`superscript text` by using ``:sub:`text``` and ``:sup:`text```
+You can :sub:`subscript text` and :sup:`superscript text` by using ``:sub:`text``` and ``:sup:`text```.
 
 However, use these super-sparingly! It is preferred to use the existing semantic markup in sphinx in any case, because that makes it easier for translators to make decisions about the nature of the text::
 

@@ -15,7 +15,7 @@
 Resource Management
 ===================
 
-Resources are pluggable bits of data, like brush presets or patterns. Krita has variety of resources and also has a good resource management starting from 2.9, making it really easy for artists to share and collate all the resources together
+Resources are pluggable bits of data, like brush presets or patterns. Krita has variety of resources and also has a good resource management starting from 2.9, making it really easy for artists to share and collate all the resources together.
 
 Bundles
 -------

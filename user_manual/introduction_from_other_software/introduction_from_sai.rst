@@ -155,10 +155,10 @@ Assistants
 The painting assistants can help you to set up a perspective, or a concentric circle and snap to them with the brush.
 
 .. figure:: /images/assistants/Krita_basic_assistants.png
-   :alt: Krita's vanishing point assistants in action
+   :alt: Krita's vanishing point assistants in action.
    :width: 800
 
-   Krita's vanishing point assistants in action
+   Krita's vanishing point assistants in action.
 
 Locking the Layer
 ~~~~~~~~~~~~~~~~~

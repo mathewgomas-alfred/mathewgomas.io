@@ -46,7 +46,7 @@ Intent
         :align: center
         :figwidth: 800
     
-        Left: Soft proofed image with Adaptation state slider set to max. Right: Soft proofed image with Adaptation State set to minimum
+        Left: Soft proofed image with Adaptation state slider set to max. Right: Soft proofed image with Adaptation State set to minimum.
 Adaptation State
     A feature which allows you to set whether :guilabel:`Absolute Colorimetric` will make the white in the image screen-white during proofing (the slider set to max), or whether it will use the white point of the profile (the slider set to minimum). Often CMYK profiles have a different white as the screen, or amongst one another due to the paper color being different.
 Black Point Compensation

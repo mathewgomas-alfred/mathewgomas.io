@@ -214,7 +214,7 @@ Number of Backup Files Kept
 Compress \*.kra files more.
     This increases the zip compression on the saved Krita files, which makes them lighter on disk, but this takes longer to load.
 Use Zip64
-    Kra files are zip files. Zip64 allows you to use
+    Kra files are zip files. Zip64 allows you to use.
 
 
 .. _misc_settings:
