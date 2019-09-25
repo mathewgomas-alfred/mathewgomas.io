@@ -118,7 +118,7 @@ If you have a lot of changes you want to contribute, we recommend trying to foll
 
  #. Gitlab has an option to Edit files in the gitlab itself. To access this, go to :menuselection:`Repository --> Files`.
 
- #. At the top of the page you see a dropbox with ``master`` as a chosen item; please select ``draft`` if your changes contain anything other than pure typo fixes.
+ #. At the top of the page you should see a dropbox with ``master`` as a chosen item.
 
  #. Find the file you want to edit, open it and then click :guilabel:`Edit`.
 
@@ -150,7 +150,7 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
 
 #. Go to your fork (make sure the url contains your username).
 
-#. Make sure you're on ``draft``, not on ``master``, unless your changes contain *only* spelling and grammatical fixes.
+#. Make sure you're on the ``master`` branch.
 
 #. Click :guilabel:`WebIDE`. This should take you to a page that has a list of files on the left side and a big empty space for file contents on the right side.
 
@@ -168,8 +168,8 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
 
 #. To create a new merge request manually, go to Krita Manual official repository (make sure the url *doesn't* contain your username now) and click :guilabel:`Create a new merge request` (bright green button at the left). Select your fork and select the branch that you've created in WebIDE. 
 
-.. image:: /images/gitlab/screenshot_webidemode.png
-   :width: 1000px
+.. .. image:: /images/gitlab/screenshot_webidemode.png
+..   :width: 1000px
 
 .. note::
    
