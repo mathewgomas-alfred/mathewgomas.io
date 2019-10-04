@@ -108,6 +108,19 @@ The random string depends on your installation.
 
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
 
+Why my configuration resets on its own?
+--------------------------------------
+
+There are two possible reasons:
+
+- You don't save your settings. 
+
+This is most probable if you are on Windows and you have either a display with a small resolution (below fullHD) or if you have fullHD resolution with UI scaling in Windows settings (which is 150% by default). In those cases it might happen that you don't see the OK button in the Configure Krita dialog. You can use alt+O instead. (You can go to Configure Krita -> General -> Window and make sure that Enable HiDPI checkbox is unchecked to disable scaling for Krita and get a smaller UI).
+
+- You close your computer using the power button.
+
+If you are on Windows and you use power button instead of a standard procedure to close or restart your computer, it might happen that Krita's configuration file gets corrupted. To solve this, just use the correct way of closing your system: either Start -> Restart or Start -> Shutdown.
+
 Where are my resources stored?
 ------------------------------
 
