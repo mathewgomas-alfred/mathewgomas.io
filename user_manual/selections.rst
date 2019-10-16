@@ -33,6 +33,7 @@ The most common selection tools all exist at the bottom of the toolbox. Each too
     :ref:`similar_selection_tool` , |toolselectsimilar|, Similar Color Selection Tool.                                                                                                                                                  
     :ref:`contiguous_selection_tool` , |toolselectcontiguous|, "Contiguous or “Magic Wand” selects a field of color. Adjust the :guilabel:`Fuzziness` to allow more changes in the field of color, by default limited to the current layer."
     :ref:`path_selection_tool` , |toolselectpath|, "Path select an area based on a vector path, click to get sharp corners or drag to get flowing lines and close the path with the :kbd:`Enter` key or connecting back to the first point."
+    :ref:`magnetic_selection_tool` , |toolselectmagnetic|, "Magnetic selection makes a free hand selection where the selection snaps to sharp contrasts in the image." 
 
 .. note::
 
