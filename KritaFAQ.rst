@@ -109,7 +109,7 @@ The random string depends on your installation.
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
 
 Why my configuration resets on its own?
---------------------------------------
+---------------------------------------
 
 There are two possible reasons:
 
