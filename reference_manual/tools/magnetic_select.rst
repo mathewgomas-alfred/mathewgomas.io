@@ -21,26 +21,29 @@ This tool, represented by a magnet over a selection border, allows you to make f
 
 There are two ways to make a magnetic selection:
 
-.. image:: /images/tools/magnetic_selection_mode_1.gif
+.. figure:: /images/tools/magnetic_selection_mode_1.gif
    :width: 320
-   :align:center
-   :alt: Animation showing the first mode of creating a magnetic selection.
+   :align: center
+   
+   Animation showing the first mode of creating a magnetic selection.
 
 The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point to complete the loop and click on it again to create a selection, or press :kbd:`Enter` to end the magnetic selection.
 
-.. image:: /images/tools/magnetic_selection_mode_2.gif
+.. figure:: /images/tools/magnetic_selection_mode_2.gif
    :width: 320
-   :align:center
-   :alt: Animation showing the second mode of creating a magnetic selection.
+   :align: center
+   
+   Animation showing the second (interactive) mode of creating a magnetic selection.
 
 The second, interactive mode, is to |mouseleft| + drag over a portion of an image.
 
-.. figure:: /images/tools/magnetic_selection_mode_1.gif
+.. figure:: /images/tools/magnetic_selection_mode_mixed.gif
    :width: 320
-   :align:center
-   :Caption: The first and second mode can be mixed.
+   :align: center
+   
+   The first and second mode can be mixed.
 
-You can edit previous points by |mouseleft| dragging them. You can remove points by double |mouseleft| the point, or dragging it out of the canvas area. After a path is closed, you can add points by clicking on nearby empty space. Points can be undone with :kbd:`Shift + Z`. A selection can be canceled with :kbd:`Esc`.
+You can edit previous points by |mouseleft| dragging them. You can remove points by double |mouseleft| the point, or dragging it out of the canvas area. After a path is closed, you can add points by clicking on nearby empty space. Points can be undone with :kbd:`Shift + Z`. A halfway done magnetic selection can be canceled with :kbd:`Esc`.
 
 .. important::
 
@@ -92,12 +95,13 @@ Threshold:
 Search Radius:
     The area in which the tool will search for a sharp contrast within an image. More pixels means less precision is needed when placing the points, but this will require Krita to do more work, and thus slows down the tool.
 Anchor Gap:
-    When using |mouseleft|+drag to place points automatically, this value determines the average gap between 2 anchors. Low values give high precision by placing many nodes, but this is also harder to edit afterwards.
+    When using |mouseleft| + drag to place points automatically, this value determines the average gap between 2 anchors. Low values give high precision by placing many nodes, but this is also harder to edit afterwards. The pixels are in screen dimensions and not image dimensions, meaning it is affect by zoom.
     
-   .. figure:: /images/tools/magnetic_selection_anchor_gap.png
-      :width: 640
-      :align:center
-      :caption: Various anchor gaps
+    .. figure:: /images/tools/magnetic_selection_anchor_gap.png
+       :width: 640
+       :align: center
+       
+       To the **left**: 20 px anchor gap, to the **right**: 40px anchor gap.
 
 
 .. note::
