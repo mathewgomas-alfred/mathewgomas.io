@@ -21,9 +21,24 @@ This tool, represented by a magnet over a selection border, allows you to make f
 
 There are two ways to make a magnetic selection:
 
+.. image:: /images/tools/magnetic_selection_mode_1.gif
+   :width: 320
+   :align:center
+   :alt: Animation showing the first mode of creating a magnetic selection.
+
 The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point to complete the loop and click on it again to create a selection, or press :kbd:`Enter` to end the magnetic selection.
 
-The second is to |mouseleft| + drag over a portion of an image.
+.. image:: /images/tools/magnetic_selection_mode_2.gif
+   :width: 320
+   :align:center
+   :alt: Animation showing the second mode of creating a magnetic selection.
+
+The second, interactive mode, is to |mouseleft| + drag over a portion of an image.
+
+.. figure:: /images/tools/magnetic_selection_mode_1.gif
+   :width: 320
+   :align:center
+   :Caption: The first and second mode can be mixed.
 
 You can edit previous points by |mouseleft| dragging them. You can remove points by double |mouseleft| the point, or dragging it out of the canvas area. After a path is closed, you can add points by clicking on nearby empty space. Points can be undone with :kbd:`Shift + Z`. A selection can be canceled with :kbd:`Esc`.
 
@@ -50,7 +65,7 @@ Hotkeys and Sticky keys
 
 .. image:: /images/tools/selections-right-click-menu.png
    :width: 200
-   :alt: Menu of polygonal selection
+   :alt: Menu of magnetic selection
 
 .. tip::
 
@@ -64,10 +79,6 @@ Hotkeys and Sticky keys
 Tool Options
 ------------
 
-.. image:: /images/tools/selections-polygonal-selection-options.png
-   :width: 300
-   :alt: Polygonal selection options
-
 Mode
     This option is explained in the :ref:`pixel_vector_selection` section.
 Action
@@ -77,11 +88,16 @@ Anti-aliasing
 Filter Radius:
     Determine the radius of the edge detection kernel. This determines how agressively the tool will interpret contrasts. Low values mean only the sharpest of contrast will be a seen as an edge. High values will pick up on subtle contrasts. The range of which is from 2.5 to 100.
 Threshold:
-    From 0 to 255, how sharp your egde is, 0 is least while 255 is the most. Used in the Interactive mode only.
+    From 0 to 255, how sharp your edge is, 0 is least while 255 is the most. Used in the interactive mode only.
 Search Radius:
     The area in which the tool will search for a sharp contrast within an image. More pixels means less precision is needed when placing the points, but this will require Krita to do more work, and thus slows down the tool.
 Anchor Gap:
     When using |mouseleft|+drag to place points automatically, this value determines the average gap between 2 anchors. Low values give high precision by placing many nodes, but this is also harder to edit afterwards.
+    
+   .. figure:: /images/tools/magnetic_selection_anchor_gap.png
+      :width: 640
+      :align:center
+      :caption: Various anchor gaps
 
 
 .. note::
