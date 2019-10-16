@@ -21,7 +21,7 @@ This tool, represented by a magnet over a selection border, allows you to make f
 
 There are two ways to make a magnetic selection:
 
-The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point, or press :kbd:`Enter` to end the magnetic selection.
+The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point to complete the loop and click on it again to create a selection, or press :kbd:`Enter` to end the magnetic selection.
 
 The second is to |mouseleft| + drag over a portion of an image.
 
