@@ -63,6 +63,33 @@ Horizontal/Vertical radius
 Apply result to Alpha Channel.
     The edge detection will be used on a grayscale copy of the image, and the output will be onto the alpha channel of the image, meaning it will output lines only.
 
+.. index:: High Pass
+
+Gaussian High Pass
+------------------
+
+A High Pass filter is a type of edge detection filter. It is usually used to enhance contrasts, much like a sharpen filter, but within a texture editing workflow it is also used to remove local gradients.
+
+Radius
+   The radius within the Gaussian High Pass filter is similar to the radius in the Edge Detection filter. 
+
+To use this as a sharpen filter, create a filter layer with this filter, and then set the blending mode to modes like 'soft light', 'overlay', 'hard light', 'linear light'. Different blending modes give different results.
+
+.. figure:: /images/filters/highpass_filter_sharpen.png
+   :align: center
+   :figwidth: 377
+
+   **Top left**: Original, **top right**: Gaussian Highpass Result with radius 3, **bottom left**: Gaussian High Pass Result with radius 3 blended over the original with to Linear Light, **bottom right**: Gaussian High Pass result with radius 3 blended over the original with Soft Light.
+
+To remove local gradients from a texture, create a clone layer, and apply this filter as a filter mask. Then, put a filter layer with gaussian blur set to the full amount in between the clone layer and the original. Finally, set the clone layer to luminosity or multiply(in this case an extra filter mask needs to be added to reduce the levels so that the multiplication result will not be as strong).
+
+.. figure:: /images/filters/highpass_filter_local_gradient_removal.png
+   :align: center
+   :figwidth: 513
+
+   **Left**: Original, **top right**: Gaussian High Pass Result blended with luminosity to remove the local gradients but keep the sharp details. In this specific example the lack of local gradients removes some character, but the gaussian high pass result could also be used to create a heightmap.
+
+
 .. index:: Height Map, Normal Map
 
 Height to Normal Map
