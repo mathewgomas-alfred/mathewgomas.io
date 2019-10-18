@@ -31,7 +31,7 @@ The gimp image hose format allows multiple dimensions for a given brush. You cou
 
 So, the following image has a table where dimension 1 is unique in one of 4 numbers, while dimension 2 is unique in one of 3 shapes. So our ranks for dimension 1 and dimension 2 need to be 4 and 3 respectively. Now, to order the layers, you need to subdivide the table first by the first dimension, and then by the second. So we end up with three layers each for a shape in the second dimension but for the first number, then another three layers, each for a shape, but then for the second number, and so forth.
 
-.. figure:: images/category_filetypes/gih_multi_dimension_explaination.png
+.. figure:: /images/category_filetypes/gih_multi_dimension_explaination.png
    :figwidth: 800px
    :align: center
 
