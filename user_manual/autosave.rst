@@ -28,7 +28,7 @@ If you save your work, Krita will ask you where it should save on your computer.
 
 If you use "Save As" your image will be saved under a new name. The original file under its own name will not be deleted. From now on, your file will be saved under the new name.
 
-If you use "Export" using a new filename, a new file will be created with a new name. The file you have open will keep the new name, and the next time you save it, it will be saved under the old name.
+If you use "Export" using a new filename, a new file will be created with a new name. The file you have open will keep the old name, and the next time you save it, it will be saved under the old name.
 
 You can Save, Save As and Export to any file format.
 
