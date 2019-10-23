@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        How to get a backtrace in Krita using the dr. MinW debugger.
+        How to get a backtrace in Krita using the dr. MinGW debugger.
 
 .. metadata-placeholder
 
@@ -14,7 +14,7 @@
 .. _dr_minw:
 
 =================
-Dr. MinW Debugger
+Dr. MinGW Debugger
 =================
 
 .. note::
