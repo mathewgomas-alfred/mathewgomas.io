@@ -163,6 +163,10 @@ Post images on Mastadon
 Python auto-complete for text editors
 
     https://github.com/scottpetrovic/krita-python-auto-complete
+    
+QuickColor: shortcuts to get a color from a specified palette
+
+    https://github.com/JonasLW/QuickColor
 
 
 See Something We Missed?
