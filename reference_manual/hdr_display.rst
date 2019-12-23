@@ -27,7 +27,7 @@ Configuring HDR
 
 Krita cannot show HDR with any given monitor, you will need an HDR capable setup. HDR capable setups are screens which can show more than 100 nits, preferably a value like 1000 and can show the rec 2020 PQ space. You will need to have the appropriate display cable(otherwise the values are just turned into regular SDR) and a graphics card which supports HDR, as well as suitable drivers. You then also need to configure the system settings for HDR.
 
-If you can confirm that the system understands your setup as an HDR setup, you can continue your :ref:`configuration in Krita<hdr_display_settings>`, in :menuselection:`Settings --> Configure Krita --> Display`. There, you need to select the preferred surface, which should be as close to the display format as possible. Then restart Krita.
+If you can confirm that the system understands your setup as an HDR setup, you can continue your :ref:`configuration in Krita<hdr_display_settings>`, in :menuselection:`Settings --> Configure Krita... --> Display`. There, you need to select the preferred surface, which should be as close to the display format as possible. Then restart Krita.
 
 Painting in HDR
 ~~~~~~~~~~~~~~~

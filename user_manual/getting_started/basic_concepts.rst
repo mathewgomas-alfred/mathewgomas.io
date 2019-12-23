@@ -56,13 +56,13 @@ Because the image is a working copy of the image on the hard drive, you can do a
 
 New
  Makes a new image. When you press :menuselection:`Save`, you make a new file on the hard drive.
-Open
+Open...
  Makes an internal copy of an existing image. When you press :menuselection:`Save`, you will overwrite the original existing image with your working copy.
-Open the existing Document as Untitled Document
- Similar to :menuselection:`Open`, however, :menuselection:`Save` will request you to specify a saving location: you're making a new copy. This is similar to :menuselection:`Import` in other programs.
+Open existing Document as Untitled Document...
+ Similar to :menuselection:`Open...`, however, :menuselection:`Save` will request you to specify a saving location: you're making a new copy. This is similar to :menuselection:`Import...` in other programs.
 Create Copy From Current Image
- Similar to :menuselection:`Open existing Document as Untitled Document` but with the currently selected image.
-Save incremental
+ Similar to :menuselection:`Open existing Document as Untitled Document...` but with the currently selected image.
+Save Incremental Version
  Allows you to quickly make a snapshot of the current image by making a new file with a version number added to it.
 
 These options are great for people doing production work, who need to switch between files quickly or have backup files in case they do something extreme. Krita also has a file backup system in the form of auto-saves, backup files and crash recovery. You can configure the option for these features in the general settings.
@@ -378,4 +378,4 @@ This leads to the final concept: customization.
 
 In addition to rearranging the dockers according to your preferences, Krita provides and saves your configurations as :ref:`resource_workspaces`. This is the button at the top right.
 
-You can also configure the toolbar via :menuselection:`Settings --> Configure Toolbars`, as well as the shortcuts under both :menuselection:`Settings --> Configure Krita --> Configure Shortcuts` and :menuselection:`Settings --> Configure Krita --> Canvas Input Settings`.
+You can also configure the toolbar via :menuselection:`Settings --> Configure Toolbars...`, as well as the shortcuts under both :menuselection:`Settings --> Configure Krita... --> Configure Shortcuts` and :menuselection:`Settings --> Configure Krita... --> Canvas Input Settings`.

@@ -22,7 +22,7 @@ You set it up as following:
 
 #. Download the gmic-krita appimage.
 #. Make it executable.
-#. Go to :menuselection:`Settings --> Configure Krita --> G'Mic plugin` and set G'MIC to the filepath there.
+#. Go to :menuselection:`Settings --> Configure Krita... --> G'Mic plugin` and set G'MIC to the filepath there.
 #. Then restart Krita. 
 
 

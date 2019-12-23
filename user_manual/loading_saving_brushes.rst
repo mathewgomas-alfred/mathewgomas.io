@@ -449,7 +449,7 @@ So when you have a brush that uses unique predefined tips for either
 brush tip or masked brush, or unique textures you will need to share
 those resources as well with the other person.
 
-To find those resources, go to :menuselection:`Settings --> Manage Resources --> Open Resource Folder`.
+To find those resources, go to :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
 
 There, the preset file will be inside paintoppresets, the brush tips
 inside brushes and the texture inside patterns.
@@ -476,7 +476,7 @@ brush packs are stored in zip files.
 Using a ZIP with the relevant files.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Go to :menuselection:`Settings --> Manage Resources --> Open Resource Folder` to open the resource folder.
+#. Go to :menuselection:`Settings --> Manage Resources... --> Open Resource Folder` to open the resource folder.
 #. Then, open up the zip file.
 #. Copy the brushes, paintoppresets and patterns folders from the zip
    file to the resource folder. You should get a prompt to merge the

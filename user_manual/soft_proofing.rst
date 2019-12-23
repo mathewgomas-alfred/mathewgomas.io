@@ -54,7 +54,7 @@ Black Point Compensation
 Gamut Warning
     Set the color of the out-of-gamut warning.
 
-You can set the defaults that Krita uses in :menuselection:`Settings --> Configure Krita --> Color Management`.
+You can set the defaults that Krita uses in :menuselection:`Settings --> Configure Krita... --> Color Management`.
 
 To configure this properly, it's recommended to make a test image to print (and that is printed by a properly set-up printer) and compare against, and then approximate in the proofing options how the image looks compared to the real-life copy you have made.
 

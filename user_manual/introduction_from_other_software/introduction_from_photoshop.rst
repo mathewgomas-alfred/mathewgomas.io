@@ -216,7 +216,7 @@ Using the freehand ‘paint with brush’ tool that you can find on the Tool Opt
 Global pressure curve
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you find the feeling of Krita too hard or too soft regarding the pressure when you paint, you can set a softer or harder curve here: :menuselection:`Settings --> Configure Krita --> Tablet settings`
+If you find the feeling of Krita too hard or too soft regarding the pressure when you paint, you can set a softer or harder curve here: :menuselection:`Settings --> Configure Krita... --> Tablet settings`
 
 Adjustment
 ^^^^^^^^^^
@@ -235,7 +235,7 @@ Unlike Photoshop, where these are separate tools, in Krita, they are available v
 Themes
 ^^^^^^
 If you don’t like the dark default theme of Krita go to: :menuselection:`Settings --> Themes`, and choose a brighter or darker theme.
-If you don’t like the color outside your viewport go to: :menuselection:`Settings --> Configure Krita --> Display`, and change the Canvas border color.
+If you don’t like the color outside your viewport go to: :menuselection:`Settings --> Configure Krita... --> Display`, and change the Canvas border color.
 
 What Krita Has Over Photoshop
 -----------------------------
