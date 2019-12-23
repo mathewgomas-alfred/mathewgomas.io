@@ -16,7 +16,7 @@
 General Settings
 ================
 
-You can access the General Category of the preferences by first going to  :menuselection:`Settings --> Configure Krita`.
+You can access the General Category of the preferences by first going to :menuselection:`Settings --> Configure Krita...` menu item.
 
     .. image:: /images/preferences/Krita_Preferences_General.png
 

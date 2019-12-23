@@ -117,7 +117,7 @@ Transform
     Offset Layer
         Offset the layer pixels by a given amount.
 
-Split...
+Split
     Organizes the following actions:
 
     Split Alpha
@@ -127,7 +127,7 @@ Split...
     Clones Array
         A complex bit of functionality to generate clone-layers for quick sprite making. See :ref:`clones_array` for more details.
 
-Edit Metadata
+Edit Metadata...
     Each layer can have its own metadata.
 Histogram
     Shows a histogram.
@@ -136,13 +136,13 @@ Histogram
 
        Removed. Use the :ref:`histogram_docker` instead.
 
-Merge With Layer Below
+Merge with Layer Below
     Merge a layer down.
 Flatten Layer
     Flatten a Group Layer or flatten the masks into any other layer.
 Rasterize Layer
     For making vectors into raster layers.
 Flatten Image
-    Flatten all layers into one.
-Layerstyle (2.9.5+)
+    Flatten all layers into one. Shortcut :kbd:`Ctrl + Shift + E`
+Layerstyle... (2.9.5+)
     Set the PS-style layerstyle.

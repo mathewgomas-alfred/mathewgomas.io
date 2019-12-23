@@ -127,7 +127,7 @@ while, and has a precision of ±60 seconds. You can empty it in the
 document info dialog and of course by unzipping you .kra file and
 editing the metadata there.
 
-These things can be edited in :menuselection:`File --> Document Information`, and for the author's information :menuselection:`Settings --> Configure Krita --> Author Information`. Profiles can be switched under :menuselection:`Settings --> Active Author Profile`.
+These things can be edited in :menuselection:`File --> Document Information`, and for the author's information :menuselection:`Settings --> Configure Krita... --> Author Information`. Profiles can be switched under :menuselection:`Settings --> Active Author Profile`.
 
 Setting the canvas background color
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -252,22 +252,23 @@ Save
     Krita saves the current image in its memory to a defined place on
     the hard-drive. If the image hadn't been saved before, Krita will
     ask you where to save it.
-Save As
+Save As...
     Make a copy of your current file by saving it with a different name.
     Krita will switch to the newly made file as its active document.
-Open
+Open...
     Open a saved file. Fairly straightforward.
-Export
+Export...
     Save a file to a new location without actively opening it. Useful
     for when you are working on a layered file, but only need to save a
     flattened version of it to a certain location.
-Open Existing Document As Untitled Document
+Open Existing Document as Untitled Document...
     This is a bit of an odd one, but it opens a file, and forgets where
     you saved it to, so that when pressing 'save' it asks you where to
     save it. This is also called 'import' in other programs.
 Create Copy from Current Image
-    Makes a new copy of the current image. Similar to Open Existing
-    Document As Untitled Document, but then with already opened files.
+    Makes a new copy of the current image. Similar to :menuselection:`Open
+    Existing Document as Untitled Document...`, but then with already
+    opened files.
 Save Incremental Version
     Saves the current image as 'filename'\_XXX.kra and switches the
     current document to it.

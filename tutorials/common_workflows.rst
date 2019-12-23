@@ -26,7 +26,7 @@ Some artists set a time limit to complete the painting while some paint casually
 After the composition and a basic layout has been laid out the artists add as many details as possible in the given limited time, this requires a decent knowledge of forms, value perspective and proportions of the objects. Below is an example of speed paint done by `David Revoy <https://www.davidrevoy.com/>`_ in an hours time.
 
 .. image:: /images/Pepper-speedpaint-deevad.jpg
-    :alt: Speedpaint of pepper and carrot by deevad (David Revoy).
+    :alt: Speedpaint of Pepper & Carrot by deevad (David Revoy).
     :width: 800
 
 Artwork by David Revoy, license : `CC-BY <https://creativecommons.org/licenses/by/3.0/>`_

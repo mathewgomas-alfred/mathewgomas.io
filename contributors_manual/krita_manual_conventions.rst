@@ -185,7 +185,7 @@ You can :sub:`subscript text` and :sup:`superscript text` by using ``:sub:`text`
 
 However, use these super-sparingly! It is preferred to use the existing semantic markup in sphinx in any case, because that makes it easier for translators to make decisions about the nature of the text::
 
-    :menuselection:`Settings --> Configure Krita`
+    :menuselection:`Settings --> Configure Krita...`
     :guilabel:`File`
     :kbd:`Ctrl + Z`
     :program:`Krita`

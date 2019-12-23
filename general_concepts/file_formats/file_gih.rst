@@ -14,7 +14,7 @@
 \*.gih
 ======
 
-The GIMP image hose format. Krita can open and save these, as well as import via the :ref:`predefined brush tab <predefined_brush_tip>`.
+The Gimp image hose format. Krita can open and save these, as well as import via the :ref:`predefined brush tab <predefined_brush_tip>`.
 
 Image Hose means that this file format allows you to store multiple images and then set some options to make it specify how to output the multiple images.
 
@@ -27,7 +27,7 @@ Image Hose means that this file format allows you to store multiple images and t
 Dimension and ranks.
 --------------------
 
-The gimp image hose format allows multiple dimensions for a given brush. You could for example have a dimension that updates incrementally, and one that updates on pressure, or updates randomly. Upon export, Krita will use the ranks to subdivide the layers per dimension. If you have a 24 layer image and three ranks, and the first dimension is set to 2, the second to 4 and the third to 3, then Krita will divide 24 into 2 groups of 12, each of which have unique images for the 2 parts of the first dimension. Then those 2 groups of 12 get divided into 8 groups of 4, each of which have unique brush tips for the four parts of the second dimension, and finally, the grouped three images have each a unique brush for the final dimension.
+The Gimp image hose format allows multiple dimensions for a given brush. You could for example have a dimension that updates incrementally, and one that updates on pressure, or updates randomly. Upon export, Krita will use the ranks to subdivide the layers per dimension. If you have a 24 layer image and three ranks, and the first dimension is set to 2, the second to 4 and the third to 3, then Krita will divide 24 into 2 groups of 12, each of which have unique images for the 2 parts of the first dimension. Then those 2 groups of 12 get divided into 8 groups of 4, each of which have unique brush tips for the four parts of the second dimension, and finally, the grouped three images have each a unique brush for the final dimension.
 
 So, the following image has a table where dimension 1 is unique in one of 4 numbers, while dimension 2 is unique in one of 3 shapes. So our ranks for dimension 1 and dimension 2 need to be 4 and 3 respectively. Now, to order the layers, you need to subdivide the table first by the first dimension, and then by the second. So we end up with three layers each for a shape in the second dimension but for the first number, then another three layers, each for a shape, but then for the second number, and so forth.
 

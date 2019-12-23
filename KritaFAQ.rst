@@ -49,7 +49,7 @@ Is it possible to use Krita in my own language, not English?
 
 Krita should automatically use the system language. If that is not the case, please follow these steps:
 
-#. :menuselection:`Settings --> Switch Application Language`. A small window will appear.
+#. With :menuselection:`Settings --> Switch Application Language...` menu item will appear a small window.
 #. Click :guilabel:`Primary language` and select your language.
 #. Click :guilabel:`OK` to close the window.
 #. Restart krita and it will be displayed in your selected language!
@@ -115,11 +115,11 @@ There are two possible reasons:
 
 - You don't save your settings. 
 
-This is most probable if you are on Windows and you have either a display with a small resolution (below fullHD) or if you have fullHD resolution with UI scaling in Windows settings (which is 150% by default). In those cases it might happen that you don't see the OK button in the Configure Krita dialog. You can use alt+O instead. (You can go to Configure Krita -> General -> Window and make sure that Enable HiDPI checkbox is unchecked to disable scaling for Krita and get a smaller UI).
+This is most probable if you are on Windows and you have either a display with a small resolution (below fullHD) or if you have fullHD resolution with UI scaling in Windows settings (which is 150% by default). In those cases it might happen that you don't see the :guilabel:`OK` button in the :guilabel:`Configure Krita` dialog. You can use :kbd:`Alt + O` instead. (You can go to :menuselection:`Configure Krita... --> General --> Window` and make sure that :guilabel:`Enable HiDPI` checkbox is unchecked to disable scaling for Krita and get a smaller UI).
 
 - You close your computer using the power button.
 
-If you are on Windows and you use power button instead of a standard procedure to close or restart your computer, it might happen that Krita's configuration file gets corrupted. To solve this, just use the correct way of closing your system: either Start -> Restart or Start -> Shutdown.
+If you are on Windows and you use power button instead of a standard procedure to close or restart your computer, it might happen that Krita's configuration file gets corrupted. To solve this, just use the correct way of closing your system: either :menuselection:`Start -> Restart` or :menuselection:`Start -> Shutdown`.
 
 Where are my resources stored?
 ------------------------------
@@ -175,7 +175,7 @@ Why do I get a checkerboard pattern when I use the eraser?
 
 You’re probably used to Gimp or Photoshop. The default background or first layer in these applications doesn’t have an alpha channel by default. Thus, on their background layer, the eraser paints in the background color.
 
-In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent  you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (The :kbd:`Ins` key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
+In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent  you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, Gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (The :kbd:`Ins` key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
 
 Can krita work with 8 bit (indexed) images?
 -------------------------------------------
@@ -195,7 +195,7 @@ On Windows, the Krita User Interface is too big on my screen
 
 If you're using Windows, you can set the display scaling to 150% or 200%. Krita comes with HiDPI enabled by default, so if you do that, the Krita UI might be too big for your screen. You can turn it off using the following steps:
 
-- On the menu, select :menuselection:`Settings --> Configure Krita`
+- On the menu, select :menuselection:`Settings --> Configure Krita...`
 - On :guilabel:`General` page, switch to :guilabel:`Window` tab.
 - Uncheck :guilabel:`Enable Hi-DPI support` (or check if you wish to enable it)
 - Press :guilabel:`OK`, if the settings screen is too big, :kbd:`Alt + O` will trigger the OK button too.
@@ -213,7 +213,7 @@ Windows: OBS can't record the Krita OpenGL canvas
 
 The possible workarounds for this is to do either of the following:
 
-#. Turn off OpenGL in :menuselection:`Settings --> Configure Krita --> Display`.
+#. Turn off OpenGL in :menuselection:`Settings --> Configure Krita... --> Display`.
 #. Or don't use the hardware accelerated mode (game recording mode) in
    OBS, thus capturing the whole desktop instead of attempting to capture
    only Krita.
@@ -257,15 +257,15 @@ Your file got corrupted. There are several things that might cause this:
 
 How to recover my files?
 -------------------------
-#. Check whether you have any backup file or autosave left: :ref:`autosave` .
+#. Check whether you have any backup file or autosave left: :ref:`autosave`.
 #. Check whether you can open the file as zip archive.
-    #. Rename the extension of the file from .kra to .zip.
+    #. Rename the extension of the file from ``.kra`` to ``.zip``.
     #. Try to open (your system should automatically select an archive opener tool).
     #. There is file called mergedimage.png inside that represents all layers merged that you can use for reference in case you can't restore anything else.
 #. Check whether zip repairer tool helps.
     #. Copy the file so you have a backup just in case.
-    #. Rename the extension of the file from .kra to .zip.
-    #. Use zip repairer tool on the .zip file.
+    #. Rename the extension of the file from ``.kra`` to ``.zip``.
+    #. Use zip repairer tool on the ``.zip`` file.
 
         .. code-block:: bash
         
@@ -286,7 +286,7 @@ How to recover my files?
     #. Try to open in Krita.
     #. If it cannot be opened in Krita, try the trick from 2.: open the archive and find mergedimage.png file.
 
-#. Open your file in Notepad or any other text editor. If the the content of the file is only a repeated `NUL` symbol, it means the file is most probably unrecoverable using the standard method. If it's of a very high importance for you, you can try to recover the previous save using methods that checks the hard drive directly.
+#. Open your file in Notepad or any other text editor. If the the content of the file is only a repeated *NUL* symbol, it means the file is most probably unrecoverable using the standard method. If it's of a very high importance for you, you can try to recover the previous save using methods that checks the hard drive directly.
 
 
 Krita crashes on Windows 7 on start-up
@@ -363,7 +363,7 @@ You can configure this by going to the :ref:`tablet_settings`.
 Microsoft Surface Pro and N-Trig
 --------------------------------
 
-Krita 3.3.0 and later supports the Windows Pointer API (Windows Ink) natively. Your Surface Pro or other N-Trig enabled pen tablet should work out of the box with Krita after you enable Windows Ink in :menuselection:`Settings --> Configure Krita --> Tablet`.
+Krita 3.3.0 and later supports the Windows Pointer API (Windows Ink) natively. Your Surface Pro or other N-Trig enabled pen tablet should work out of the box with Krita after you enable Windows Ink in :menuselection:`Settings --> Configure Krita... --> Tablet`.
 
 Tablet Pro and the Surface Pro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -423,7 +423,7 @@ Windows
 OSX
     :file:`~/Library/Application Support/Krita/`
 
-You can easily do this by going into :menuselection:`Settings --> Manage Resources --> Open Resource Folder`.
+You can easily do this by going into :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
 
 Then go into the *paintoppresets* folder and remove the latest created
 file that you made of your preset.
@@ -459,7 +459,7 @@ Please also check `this page <https://phabricator.kde.org/T7199>`_.
 Slow start-up
 -------------
 
-You probably have too many resources installed. Deactivate some bundles under :menuselection:`Settings --> Manage Resources`.
+You probably have too many resources installed. Deactivate some bundles under the :menuselection:`Settings --> Manage Resources...` menu item.
 
 If you're using Windows with the portable zip file, Windows will scan all files every time you start Krita. That takes ages. Either use the installer or tell Microsoft Security Essentials to make an exception for Krita.
 
@@ -467,10 +467,10 @@ Slow Brushes
 ------------
 
 -  Check if you accidentally turned on the stabilizer in the tool options docker.
--  Try another scaling mode like trilinear. :menuselection:`Settings --> Configure Krita --> Display`.
+-  Try another scaling mode like trilinear. :menuselection:`Settings --> Configure Krita... --> Display`.
 -  Try a lower channel depth than 16-bit.
 -  For NVidia, try a 16-bit floating point color space.
--  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita --> Performance`. This isn't needed if you've got an AMD Threadripper™ CPU.
+-  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita... --> Performance`. This isn't needed if you've got an AMD Threadripper™ CPU.
 -  It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB is the preferable minimum.
 -  Check that nothing else is hogging your CPU.
 -  Check that Instant Preview is enabled if you're using bigger brushes (but for very small brushes, make sure is disabled).
@@ -482,7 +482,7 @@ Slow Brushes
 Slowdown after a been working for a while
 -----------------------------------------
 
-Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of RAM in :menuselection:`Settings --> Configure Krita --> Performance --> Advanced Tab`.
+Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of RAM in :menuselection:`Settings --> Configure Krita... --> Performance --> Advanced Tab`.
 
 Animation
 =========
