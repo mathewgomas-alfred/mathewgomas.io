@@ -206,7 +206,7 @@ Useful shortcuts
 
 .. note::
 
-    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and the left :kbd:`Shift` key is at the opposite end of the keyboard from the :kbd:`I`, :kbd:`M` and :kbd:`N` keys. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
+    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and the left :kbd:`Shift` key is at the opposite end of the keyboard from the :kbd:`I`, :kbd:`M` and :kbd:`N` keys. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Krita --> Shortcuts`.
 
 Stabilization / Path Smoothing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -290,8 +290,8 @@ You can save your artwork with the pattern : myartworksname_001.kra , myartworks
 
 This feature allows you to avoid overwriting your files, and keep track to your older version and work in progress steps.
 
-Color to alpha Filter
-~~~~~~~~~~~~~~~~~~~~~
+Filter: Color to alpha
+~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to delete the white of the paper from a scanned artwork, you can use this filter. It takes a color and turns it into pure transparency. 
 
