@@ -50,7 +50,7 @@ You can do the same for :guilabel:`Redo`, :guilabel:`Deselect`, :guilabel:`Inver
 Right click color picker
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can actually set this in :menuselection:`Settings --> Configure Krita... --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Pick foreground color from image` to get a window to set it to |mouseright|.
+You can actually set this in :menuselection:`Settings --> Configure Krita... --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Pick Foreground Color from Merged Image` to get a window to set it to |mouseright|.
 
 .. note::
 
@@ -64,12 +64,12 @@ This is in the tool options docker of the freehand brush. Use Basic Smoothing fo
 Transparency
 ~~~~~~~~~~~~~
 
-So one of the things that throw a lot of Paint Tool Sai users off is that Krita uses checkers to display transparency, which is actually not that uncommon. Still, if you want to have the canvas background to be white, this is possible. Just choose :guilabel:`Background: As Canvas Color` in the new image dialogue and the image background will be white. You can turn it back to transparent via :menuselection:`Image --> Change image background color`. If you export a PNG or JPG, make sure to uncheck :guilabel:`Save transparency` and to make the background color white (it's black by default).
+So one of the things that throw a lot of Paint Tool Sai users off is that Krita uses checkers to display transparency, which is actually not that uncommon. Still, if you want to have the canvas background to be white, this is possible. Just choose :guilabel:`Background: As Canvas Color` in the new image dialogue and the image background will be white. You can turn it back to transparent via :menuselection:`Image --> Image Background Color and Transparency...` menu item. If you export a PNG or JPG, make sure to uncheck :guilabel:`Store alpha channel (transparency)` and to make the background color white (it's black by default).
 
 .. image:: /images/filters/Krita-color-to-alpha.png
    :align: center
 
-Like Sai, you can quickly turn a black and white image to black and transparent with the :menuselection:`Color to Alpha Filter` under :menuselection:`Filters --> Colors --> Color to Alpha`.
+Like Sai, you can quickly turn a black and white image to black and transparent with the :guilabel:`Filter: Color to Alpha` dialog under :menuselection:`Filters --> Colors --> Color to Alpha`.
 
 Brush Settings
 ~~~~~~~~~~~~~~

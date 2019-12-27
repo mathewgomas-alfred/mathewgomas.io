@@ -378,4 +378,4 @@ This leads to the final concept: customization.
 
 In addition to rearranging the dockers according to your preferences, Krita provides and saves your configurations as :ref:`resource_workspaces`. This is the button at the top right.
 
-You can also configure the toolbar via :menuselection:`Settings --> Configure Toolbars...`, as well as the shortcuts under both :menuselection:`Settings --> Configure Krita... --> Configure Shortcuts` and :menuselection:`Settings --> Configure Krita... --> Canvas Input Settings`.
+You can also configure the toolbar via :menuselection:`Settings --> Configure Toolbars...`, as well as the shortcuts under both :menuselection:`Settings --> Configure Krita... --> Shortcuts` and :menuselection:`Settings --> Configure Krita... --> Canvas Input Settings`.
