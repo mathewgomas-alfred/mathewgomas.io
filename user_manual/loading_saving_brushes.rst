@@ -37,9 +37,9 @@ The Brush settings drop-down
 ----------------------------
 
 To start, the Brush Settings Editor panel can be accessed in the
-toolbar, between the :guilabel:`Blending Modes` button on the right and the :guilabel:`Patterns`
-button on the left. Alternately, you can use the :kbd:`F5` key to open
-it.
+toolbar, between the :guilabel:`Choose brush preset` button on the right
+and the :guilabel:`Fill Patterns` button on the left. Alternately, you
+can use the :kbd:`F5` key to open it.
 
 When you open Brush Settings Editor panel you will see something like
 this:
@@ -94,23 +94,24 @@ Reloading
 '''''''''
 
 If you change a preset, an icon will appear behind the engine name. This
-is the :guilabel:`reload` button. You can use it to revert to the original brush
-settings.
+is the :guilabel:`Reload the brush preset` button. You can use it to
+revert to the original brush settings.
 
 Saving a preset
 ''''''''''''''''
 
-On the right, there's :guilabel:`Save New Brush Preset` and :guilabel:`Overwrite Brush`.
+On the right, there's :guilabel:`Save New Brush Preset...` and
+:guilabel:`Overwrite Brush` buttons.
 
+Save New Brush Preset...
+    Will take the current preset and all its changes and save it as a
+    new preset. If no change was made, you will be making a copy of the
+    current preset.
 Overwrite Brush
     This will only enable if there are any changes. Pressing this will
     override the current preset with the new settings, keeping the name
     and the icon intact. It will always make a timestamped back up in
     the resources folder.
-Save New Brush Preset
-    Will take the current preset and all its changes and save it as a
-    new preset. If no change was made, you will be making a copy of the
-    current preset.
 
 Save new preset will call up the following window, with a mini scratch
 pad, and all sorts of options to change the preset icon:
@@ -120,13 +121,13 @@ pad, and all sorts of options to change the preset icon:
 The image on the left is a mini scratchpad, you can draw on it with the
 current brush, allowing small modifications on the fly.
 
-Brush Name
+Brush Name:
     The Name of your brush. This is also used for the KPP file. If
     there's already a brush with that name, it will effectively
     overwrite it.
 Load Existing Thumbnail
     This will load the existing thumbnail inside the preset.
-Load scratch pad thumbnail
+Load Scratchpad Thumbnail
     This will load the dashed area from the big scratch pad (Section C)
     into the thumbnail area.
 Load Image
@@ -160,8 +161,9 @@ filter. This is done this way because the levels filter allows
 maintaining the darkest shadows and brightest highlights on a tool icon,
 making it much better for quick adjustments.
 
-If you're done with everything, you can press :guilabel:`Save` in the :guilabel:`Save New
-Brush Preset` dialog and Krita will save the new brush.
+If you're done with everything, you can press :guilabel:`Save` in the
+:guilabel:`Save New Brush Preset` dialog and Krita will save the new
+brush.
 
 Section B - The Preset Chooser
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,7 +199,7 @@ top right of the brush settings to show it.
 
 When saving a new preset, you can choose to get the icon from the
 scratch pad, this will load the dash area into the mini scratch pad of
-the Save New Brush Preset dialog.
+the :guilabel:`Save New Brush Preset` dialog.
 
 The scratch pad has four buttons underneath it. These are in order for:
 

@@ -80,12 +80,12 @@ This is not quite true. It's rather that we don't have our brush settings in a d
 
 A simple inking brush recipe for example is to take a pixel brush, uncheck the :guilabel:`Enable Pen Settings` on opacity and flow, and uncheck everything but size from the option list. Then, go into brush-tip, pick :ref:`auto_brush_tip` from the tabs, and set the size to 25 (right-click a blue bar if you want to input numbers), turn on anti-aliasing under the brush icon, and set fade to 0.9. Then, as a final touch, set spacing to 'auto' and the spacing number to 0.8.
 
-You can configure the brushes in a lot of detail, and share the packs with others. Importing of packs and brushes can be done via the :menuselection:`Settings --> Manage Resources...`, where you can import .bundle files or .kpp files.
+You can configure the brushes in a lot of detail, and share the packs with others. Importing of packs and brushes can be done via the :menuselection:`Settings --> Manage Resources...`, where you can import ``.bundle`` or ``.kpp`` files.
 
 Erasing
 ~~~~~~~
 
-Erasing is a blending mode in Krita, much like the transparency mode of Paint Tool Sai. It's activated with the :kbd:`E` key or you can select it from the Blending Mode drop-down...
+Erasing is a blending mode in Krita, much like the transparency mode of Paint Tool Sai. It's activated with the :kbd:`E` key or you can select it from the :guilabel:`Blending Mode` drop-down box.
 
 Blending Modes
 ~~~~~~~~~~~~~~
@@ -96,7 +96,7 @@ Multiple, Screen, Overlay and Normal are amongst the favorites.
 Krita's Luminosity is actually slightly different from Paint Tool Sai's and it replaces the relative brightness of color with the relative brightness of the color of the layer.
 
 Sai's Luminosity mode (called Shine in Sai2) is the same as Krita's *Luminosity/Shine (SAI)* mode, which is new in Krita 4.2.4. 
-The Sai's Shade mode is the same as *Color Burn* and *Hard Mix* is the same as the lumi and shade mode.
+The Sai's Shade mode is the same as *Color Burn* and *Hard Mix* is the same as the Luminosity and Shade modes.
 
 
 Layers
@@ -129,7 +129,7 @@ You already met the brush settings editor. Sketch brushes, grid brushes, deform 
 More color selectors
 ~~~~~~~~~~~~~~~~~~~~
 
-You can have HSV sliders, RGB sliders, triangle in a hue ring. But you can also have HSI, HSL or HSY' sliders, CMYK sliders, palettes, round selectors, square selectors, tiny selectors, big selectors, color history and shade selectors. Just go into :menuselection:`Settings --> Configure Krita... --> Advanced Color Selector Settings` to change the shape and type of the main big color selector.
+You can have HSV sliders, RGB sliders, triangle in a hue ring. But you can also have HSI, HSL or HSY' sliders, CMYK sliders, palettes, round selectors, square selectors, tiny selectors, big selectors, color history and shade selectors. Just go into :menuselection:`Settings --> Configure Krita... --> Color Selector Settings --> Color Selector tab`, select an option in the :guilabel:`Docker:` drop-down box, to change the shape and type of your main color selector.
 
 .. image:: /images/dockers/Krita_Color_Selector_Types.png
    :align: center
