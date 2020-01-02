@@ -201,13 +201,13 @@ When saving a new preset, you can choose to get the icon from the
 scratch pad, this will load the dash area into the mini scratch pad of
 the :guilabel:`Save New Brush Preset` dialog.
 
-The scratch pad has four buttons underneath it. These are in order for:
+The scratch pad has five buttons underneath it. These are in order for:
 
-#. Showing the current brush image
-
-#. Adding a gradient to the scratch pad (useful for smudge brushes)
-#. Filling with the background color
-#. Clearing everything on the scratch pad
+#. Fill area with brush preset icon
+#. Fill area with current image
+#. Fill area with gradient (useful for smudge brushes)
+#. Fill area with background color
+#. Reset area to white
 
 Section D - The Options List
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -261,11 +261,11 @@ thick strokes should try the third button, the S shape.
 
 Underneath the curve widget there are two more options:
 
-Share Curves across all settings
+Share curve across all settings
     This is for the list of sensors. Toggling this will make all the
     sensors use the same curve. Unchecked, all checked sensors will have
     separate curves.
-Curves Calculation Mode
+Curves calculation mode:
     This indicates how the multiple values of the sensor curves are
     used. The curves always go from 0 to 1.0, so if one curve outputs
     0.5 and the other 0.7, then...
@@ -306,7 +306,12 @@ The first two are regular, the rest with different multiplication types.
 Section F - Miscellaneous options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Temporarily Save Tweaks to Preset (Dirty Presets)
+Eraser switch size
+    This switches the brush to a separately stored size when using the
+    :kbd:`E` key.
+Eraser switch opacity
+    Same as above, but then with Eraser opacity.
+Temporarily save tweaks to preset
     This enables dirty presets. Dirty presets store the tweaks you make
     as long as this session of Krita is active. After that, they revert
     to default. Dirtied presets can be recognized by the icon in the
@@ -317,12 +322,7 @@ Temporarily Save Tweaks to Preset (Dirty Presets)
 
        The icon in the top left of the first two presets indicate it is “Dirty”, meaning there are tweaks made to the preset.
 
-Eraser Switch Size
-    This switches the brush to a separately stored size when using the
-    :kbd:`E` key.
-Eraser Switch Opacity
-    Same as above, but then with Eraser opacity.
-Instant Preview
+Instant preview
     This allows you to toggle instant preview on the brush. The Instant
     Preview has a super-secret feature: when you press the instant
     preview label, and then right click it, it will show a threshold
@@ -403,7 +403,7 @@ Saving the new Brush
 ~~~~~~~~~~~~~~~~~~~~
 
 When you're satisfied, go to the upper left and select :guilabel:`Save New 
-Brush Preset`.
+Brush Preset...` button.
 
 You will get the save preset dialog. Name the brush something like “My
 Preset”. Then, select :guilabel:`Load from Icon Library` to get the icon library.
