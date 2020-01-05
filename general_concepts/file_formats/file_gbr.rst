@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        The Gimp Brush file format as used in Krita.
+        The GIMP Brush file format as used in Krita.
 
 .. metadata-placeholder
 
@@ -14,7 +14,7 @@
 \*.gbr
 ======
 
-The Gimp brush format. Krita can open, save and use these files as :ref:`predefined brushes <predefined_brush_tip>`.
+The GIMP brush format. Krita can open, save and use these files as :ref:`predefined brushes <predefined_brush_tip>`.
 
 There's three things that you can decide upon when exporting a ``*.gbr``:
 

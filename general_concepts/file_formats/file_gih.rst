@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Image Hose, GIMP Image Hose, GIH, *.gih
+.. index:: Image Hose, Gimp Image Hose, GIH, *.gih
 .. _file_gih:
 
 ======
