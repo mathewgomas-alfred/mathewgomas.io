@@ -17,7 +17,7 @@ Author Profile Settings
 
 Krita allows creating an author profile that you can use to store contact info into your images.
 
-The main element is the author page. This page was overhauled massively in 4.0.
+The main element is the Author page. This page was overhauled massively in 4.0.
 
 By default, it will use the "Anonymous" profile, which contains nothing. To create a new profile, press the "+" button, and write up a name for the author profile.
 

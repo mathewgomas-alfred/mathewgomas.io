@@ -165,7 +165,7 @@ Using Color to Alpha
 
 By far the fastest way to get transparent line art.
 
-1. Select the line art layer and apply the :guilabel:`Filter: Color to Alpha` dialog under :menuselection:`Filters --> Colors --> Color to Alpha`. The default values should be sufficient for line art.
+1. Select the line art layer and apply the :guilabel:`Filter: Color to Alpha` dialog under :menuselection:`Filters --> Colors --> Color to Alpha...` menu item. The default values should be sufficient for line art.
 
 .. image:: /images/flat-coloring/Krita_filling_lineart_color_to_alpha.png
 

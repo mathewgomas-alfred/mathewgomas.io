@@ -69,7 +69,7 @@ So one of the things that throw a lot of Paint Tool Sai users off is that Krita 
 .. image:: /images/filters/Krita-color-to-alpha.png
    :align: center
 
-Like Sai, you can quickly turn a black and white image to black and transparent with the :guilabel:`Filter: Color to Alpha` dialog under :menuselection:`Filters --> Colors --> Color to Alpha`.
+Like Sai, you can quickly turn a black and white image to black and transparent with the :guilabel:`Filter: Color to Alpha` dialog under :menuselection:`Filters --> Colors --> Color to Alpha...` menu item.
 
 Brush Settings
 ~~~~~~~~~~~~~~
