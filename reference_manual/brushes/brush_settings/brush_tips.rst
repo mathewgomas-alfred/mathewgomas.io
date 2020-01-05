@@ -127,7 +127,7 @@ abr
 :ref:`file_gbr`
     Gimp single bitmap brush tip. Can be black and white or colored.
 :ref:`file_gih`
-    Gimp Image Hose brush tip: contains a series of brush tips that are painted randomly or in order after each other. Can be black and white or colored. :program:`Krita` does not yet support all the parameters yet.
+    GIMP Image Hose brush tip: contains a series of brush tips that are painted randomly or in order after each other. Can be black and white or colored. :program:`Krita` does not yet support all the parameters yet.
 abr
     Photoshop brush tip collections. We support many of the features of these brush files, though some advanced features are not supported yet.
 
