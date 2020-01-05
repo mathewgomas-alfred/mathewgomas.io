@@ -76,7 +76,7 @@ Now apply the color adjustment filter, yes we still have lots of blue on the art
 
 You can learn more about doing a sketch from blue sketch to digital painting `here in a tutorial by David Revoy <https://www.davidrevoy.com/article239/clean-blue-sketch-traditional-line-art-to-color-it-digital-with-in-krita>`_.
 
-After you have a clean black and white line art you may need to erase the white color and keep only black line art, to achieve that go to :menuselection:`Filters --> Colors --> Color to Alpha`. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
+After you have a clean black and white line art you may need to erase the white color and keep only black line art, to achieve that go to :menuselection:`Filters --> Colors --> Color to Alpha...` menu item. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
 
 .. image:: /images/filters/Color-to-alpha.png
     :alt: Color to alpha dialog box.
