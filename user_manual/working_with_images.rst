@@ -141,7 +141,7 @@ if you do not want to export transparency.
 
 If you come in from a program like :program:`Paint Tool Sai`, then using this
 option, or using :guilabel:`As canvas color` radio button at :guilabel:`Background:`
-aection in the new file options, will allow you to work in a slightly more comfortable
+section in the new file options, will allow you to work in a slightly more comfortable
 environment, where transparency isn't depicted with checkered boxes.
 
 Basic transforms

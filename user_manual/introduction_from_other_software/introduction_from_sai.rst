@@ -35,7 +35,7 @@ Zoom
 
 You can use the Overview docker in :menuselection:`Settings --> Dockers` to quickly navigate over your image.
 
-You can also put these commands on the toolbar, so it'll feel a little like Sai. Go to :menuselection:`Settings --> Configure Toolbars...`. There are two toolbars, but we'll add to the Main Toolbar.
+You can also put these commands on the toolbar, so it'll feel a little like Sai. Go to :menuselection:`Settings --> Configure Toolbars...` menu item. There are two toolbars, but we'll add to the Main Toolbar.
 
 Then, you can type in something in the left column to search for it. So, for example, 'undo'. Then select the action 'undo freehand stroke' and drag it to the right. Select the action to the right, and click :menuselection:`Change text`. There, toggle :menuselection:`Hide text when toolbar shows action alongside icon` to prevent the action from showing the text. Then press :guilabel:`OK`. When done right, the :guilabel:`Undo` should now be sandwiched between the save and the gradient icon.
 

@@ -118,7 +118,7 @@ pad, and all sorts of options to change the preset icon:
 
 .. image:: /images/brushes/Krita_4_0_Save_New_Brush_Preset_Dialog.png
 
-The image on the left is a mini scratchpad, you can draw on it with the
+The image on the left is a mini scratch pad, you can draw on it with the
 current brush, allowing small modifications on the fly.
 
 Brush Name:
@@ -127,7 +127,7 @@ Brush Name:
     overwrite it.
 Load Existing Thumbnail
     This will load the existing thumbnail inside the preset.
-Load Scratchpad Thumbnail
+Load Scratch Pad Thumbnail
     This will load the dashed area from the big scratch pad (Section C)
     into the thumbnail area.
 Load Image

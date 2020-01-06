@@ -20,7 +20,7 @@ Templates
 
 Templates are just ``.kra`` files which are saved in a special location so it can be pulled up by Krita quickly. This is like the :guilabel:`Open Existing Document as Untitled Document...` but then with a nicer place in the UI.
 
-You can make your own template file from any ``.kra`` file, by using :menuselection:`File --> Create Template from image...` menu item. This will add your current document as a new template, including all its properties along with the layers and layer contents.
+You can make your own template file from any ``.kra`` file, by using :menuselection:`File --> Create Template from Image...` menu item. This will add your current document as a new template, including all its properties along with the layers and layer contents.
 
 We have the following defaults:
 
