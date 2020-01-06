@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Image Hose, Gimp Image Hose, GIH, *.gih
+.. index:: *.gih, GIH, Image Hose, Gimp Image Hose
 .. _file_gih:
 
 ======
@@ -56,4 +56,4 @@ When exporting a Krita file as a ``.gih``, you will also get the option to set t
 Use Color as Mask
     This'll turn the darkest values of the image as the ones that paint, and the whitest as transparent. Untick this if you are using colored images for the brush.
 
-We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to create your own gih brush.
+We have a :ref:`Krita Brush tip page <brush_tip_animated_brush>` on how to create your own GIH brush.

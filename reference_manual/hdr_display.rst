@@ -43,9 +43,9 @@ Exporting HDR
 
 Now for saving and loading.
 
-The kra file format can save the floating point image just fine, and is thus a good working file format.
+The KRA file format can save the floating point image just fine, and is thus a good working file format.
 
-For sharing with other image editors, :ref:`file_exr` is recommended. For sharing with the web we currently only have :ref:`HDR png export <file_png>`, but there's currently very little support for this standard. In the future we hope to see heif and avif support.
+For sharing with other image editors, :ref:`file_exr` is recommended. For sharing with the web we currently only have :ref:`HDR PNG export <file_png>`, but there's currently very little support for this standard. In the future we hope to see heif and avif support.
 
 For exporting HDR animations, we support saving HDR to the new codec for mp4 and mkv: H.265. To use these options...
 

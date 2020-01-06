@@ -141,7 +141,7 @@ Causes for this could be the following:
 
 -  It might be that your download got corrupted and is missing files (common with bad wifi and bad internet connection in general), in that case, try to find a better internet connection before trying to download again. Krita should be around 80 to 100 MB in size when downloading.
 -  It might be that something went wrong during installation. Check whether your harddrive is full and reinstall Krita with at least 120 MB of empty space. If not, and the problem still occurs, there might be something odd going on with your device and it's recommended to find a computer expert to diagnose what is the problem.
--  Some unzippers don't unpack our zipfiles correctly. The native ones on Windows, OSX and most Linux distributions should be just fine, and we recommend using them.
+-  Some unzippers don't unpack our ZIP files correctly. The native ones on Windows, OSX and most Linux distributions should be just fine, and we recommend using them.
 -  You manually, using a file manager deleted or moved resources around, and thus Krita cannot find them anymore.
 
 What Graphics Cards does Krita support?
@@ -163,7 +163,7 @@ Nvidia
 I can't edit text from PSD files created by Photoshop
 -----------------------------------------------------
 
-There is no text support for psd file yet. The text will appear rasterized and converted into a paint layer.
+There is no text support for PSD file yet. The text will appear rasterized and converted into a paint layer.
 
 How much memory does my image take?
 -----------------------------------
@@ -249,23 +249,23 @@ Your file got corrupted. There are several things that might cause this:
         
         Krita version 4.2.8 introduced special safety measure for Windows that should help avoiding this situation. But in any case, unless something makes it impossible, always make sure to shutdown your system using the standard approach. On Windows that means going to Start menu and selecting "Shutdown".
 
-#. Badly programmed security software may attempt to rewrite kra files, or prevent Krita from writing to the folder you wish to save to. These cases can be checked by trying to save in that location, and then, without shutting down Krita, checking in the folder to see if the file saved. Files lost due this cannot be recovered.
+#. Badly programmed security software may attempt to rewrite KRA files, or prevent Krita from writing to the folder you wish to save to. These cases can be checked by trying to save in that location, and then, without shutting down Krita, checking in the folder to see if the file saved. Files lost due this cannot be recovered.
 #. Cloud services like dropbox and onedrive have been known to prevent Krita from saving. We've implemented fixes for this, but much like the above point it is worth checking that this isn't the cause of the issue. Files lost due this cannot be recovered.
-#. Occasionally the zips that kra files comprise of will have the last few bytes missing. We're doing everything in our power to prevent this kind of corruption, but it might be a file system issue. This particular bug can be fixed by renaming the extension (in windows you will need to enable the file extensions, which this FAQ will not cover) to zip, and then using a zip repairing utility to fix the zip file. Then rename it back to kra.
+#. Occasionally the ZIPs that KRA files comprise of will have the last few bytes missing. We're doing everything in our power to prevent this kind of corruption, but it might be a file system issue. This particular bug can be fixed by renaming the extension (in windows you will need to enable the file extensions, which this FAQ will not cover) to ZIP, and then using a ZIP repairing utility to fix the ZIP file. Then rename it back to KRA.
 #. If Krita doesn't give an error message, but rather crashes, your file is too big, and Krita is not so much crashing as that the operating system is shutting it down. Try shutting down some other programs like webbrowsers or streaming services to free up working memory. You should be able to open the file in question. At this point the recommended course of action is to try and reduce the file size in some manner, such as merging layers, splitting up an animation or scaling the image down.
 
 
 How to recover my files?
 -------------------------
 #. Check whether you have any backup file or autosave left: :ref:`autosave`.
-#. Check whether you can open the file as zip archive.
+#. Check whether you can open the file as ZIP archive.
     #. Rename the extension of the file from ``.kra`` to ``.zip``.
     #. Try to open (your system should automatically select an archive opener tool).
     #. There is file called mergedimage.png inside that represents all layers merged that you can use for reference in case you can't restore anything else.
-#. Check whether zip repairer tool helps.
+#. Check whether ZIP repairer tool helps.
     #. Copy the file so you have a backup just in case.
     #. Rename the extension of the file from ``.kra`` to ``.zip``.
-    #. Use zip repairer tool on the ``.zip`` file.
+    #. Use ZIP repairer tool on the ``.zip`` file.
 
         .. code-block:: bash
         
@@ -276,11 +276,11 @@ How to recover my files?
             # if it still doesn't work:
             zip -FF file_copy.zip --out file_new2.zip
             unzip file_new2.zip
-            # if it still doesn't work, try to run it again on file_new2.zip file, or try on file_new1.zip file
+            # if it still doesn't work, try to run it again on *file_new2.zip* file, or try on *file_new1.zip* file
 
             # On Windows:
             Copy the file, rename the extension.
-            Use any graphical zip repairer on the new file. (Follow the instructions for that specific program).
+            Use any graphical ZIP repairer on the new file. (Follow the instructions for that specific program).
 
 
     #. Try to open in Krita.
@@ -461,7 +461,7 @@ Slow start-up
 
 You probably have too many resources installed. Deactivate some bundles under the :menuselection:`Settings --> Manage Resources...` menu item.
 
-If you're using Windows with the portable zip file, Windows will scan all files every time you start Krita. That takes ages. Either use the installer or tell Microsoft Security Essentials to make an exception for Krita.
+If you're using Windows with the portable ZIP file, Windows will scan all files every time you start Krita. That takes ages. Either use the installer or tell Microsoft Security Essentials to make an exception for Krita.
 
 Slow Brushes
 ------------

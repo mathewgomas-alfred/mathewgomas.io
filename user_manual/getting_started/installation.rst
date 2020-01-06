@@ -32,7 +32,7 @@ Website:
 
     The page will try to automatically recommend the correct architecture (64- or 32-bit), but you can select "All Download Versions" to get more choices. To determine your computer architecture manually, go to :menuselection:`Settings --> About`. Your architecture will be listed as the :guilabel:`System Type` in the :guilabel:`Device Specifications` section.
 
-    Krita by default downloads an **installer EXE**, but you can also download a **portable zip-file** version instead. Unlike the installer version, this portable version does not show previews in Windows Explorer automatically. To get these previews with the portable version, also install Krita's **Windows Shell Extension** extension (available on the download page).
+    Krita by default downloads an **installer EXE**, but you can also download a **portable ZIP file** version instead. Unlike the installer version, this portable version does not show previews in Windows Explorer automatically. To get these previews with the portable version, also install Krita's **Windows Shell Extension** extension (available on the download page).
 
     These files are also available from the `KDE download directory <https://download.kde.org/stable/krita/>`_.
 Windows Store:
@@ -42,7 +42,7 @@ Steam:
 
 
 To download a portable version of Krita go to the `KDE <https://download.kde.org/stable/krita/>`_ download directory
-and get the zip-file instead of the setup.exe installer.
+and get the ZIP file instead of the setup.exe installer.
 
 .. note::
    Krita requires Windows 7 or newer. The Store version requires Windows 10.
@@ -60,7 +60,7 @@ depending on your distributions.
 Nautilus/Nemo file extensions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Since April 2016, KDE's Dolphin file manager shows kra and ora thumbnails by
+Since April 2016, KDE's Dolphin file manager shows KRA and ORA thumbnails by
 default, but Nautilus and it's derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
 thumbnails <https://moritzmolch.com/1749>`__.

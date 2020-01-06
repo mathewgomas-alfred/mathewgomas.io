@@ -242,7 +242,7 @@ The images should be saved out as filenameXXX.png, giving their frame
 number.
 
 Then use something like Gimp (Linux, OSX, Windows), ImageMagick (Linux,
-OSX, Windows), or any other gif creator to make a gif out of your image
+OSX, Windows), or any other GIF creator to make a ``.gif`` out of your image
 sequence:
 
 .. image:: /images/animation/Introduction_to_animation_walkcycle_02.gif

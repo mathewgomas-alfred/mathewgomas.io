@@ -48,6 +48,6 @@ Saving with Transparency
 
 .. image:: /images/Save_with_transparency.png
 
-Saving with transparency is only possible with gif and png. First, make sure you see the transparency checkers (this can be done by simply hiding the bottom layers, changing the projection color in :menuselection:`Image --> Image Background Color and Transparency...`, or by using :menuselection:`Filters --> Colors --> Color to Alpha...`). Then, save as PNG and tick **Store alpha channel (transparency)**
+Saving with transparency is only possible with GIF and PNG. First, make sure you see the transparency checkers (this can be done by simply hiding the bottom layers, changing the projection color in :menuselection:`Image --> Image Background Color and Transparency...`, or by using :menuselection:`Filters --> Colors --> Color to Alpha...`). Then, save as PNG and tick **Store alpha channel (transparency)**
 
 Save your image, upload, and show it off!

@@ -283,7 +283,7 @@ Furthermore, you can use transformation masks to apply transforms non-destructiv
 Incremental Save
 ~~~~~~~~~~~~~~~~
 
-You can save your artwork with the pattern : myartworksname_001.kra , myartworksname_002.kra, myartworksname_003.kra  etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
+You can save your artwork with the pattern : *myartworksname_001.kra*, *myartworksname_002.kra*, *myartworksname_003.kra* etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
 
 .. image:: /images/Krita-incremental-saves.png
    :align: center
@@ -344,7 +344,7 @@ Using the LUT docker, Krita allows you to have a separate color correction filte
 HDR color painting
 ~~~~~~~~~~~~~~~~~~
 
-This same LUT docker is the controller for painting with HDR colors. Using the LUT docker to change the exposure on the view, Krita allows you to paint with HDR colors, and has native open exr support!
+This same LUT docker is the controller for painting with HDR colors. Using the LUT docker to change the exposure on the view, Krita allows you to paint with HDR colors, and has native OpenEXR support!
 
 .. figure:: /images/Krita-hdr-painting.png
    :align: center
@@ -385,7 +385,7 @@ When you transform a layer or a selection in Krita, the transformation appears o
 Other
 ~~~~~
 
-Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing web image, etc.
+Also, you cannot ‘Export for web’, ‘Image Ready’ for GIF frame or slicing web image, etc.
 
 Conclusion
 ----------

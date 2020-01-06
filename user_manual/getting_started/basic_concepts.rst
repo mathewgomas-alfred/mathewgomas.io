@@ -115,7 +115,7 @@ When you create a new document in Krita for the first time you will see a rectan
 .. image:: /images/Canvas-krita.png
    :align: center
 
-When you save the painting as jpg, png et cetera or take a print out of the painting, only the content inside this area is taken into consideration. Anything beyond it is ignored. Krita does store information beyond this area, you just won't be able to see it.
+When you save the painting as JPG, PNG et cetera or take a print out of the painting, only the content inside this area is taken into consideration. Anything beyond it is ignored. Krita does store information beyond this area, you just won't be able to see it.
 This data is stored in the **Layers**.
 
 Layers and Compositing
@@ -350,7 +350,7 @@ You can use transform masks to deform clone and file layers as well.
 .. image:: /images/animation/Introduction_to_animation_walkcycle_02.gif
    :align: center
 
-From version 3.0 onwards, Krita got raster animation support. You can use the timeline, animation and onionskin dockers, plus Krita's amazing variety of brushes to do raster based animations, export those, and then turn them into movies or gifs.
+From version 3.0 onwards, Krita got raster animation support. You can use the timeline, animation and onionskin dockers, plus Krita's amazing variety of brushes to do raster based animations, export those, and then turn them into movies or GIFs.
 
 Assistants, Grids and Guides
 ----------------------------

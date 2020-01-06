@@ -124,7 +124,7 @@ document information dialog, useful for professional illustrators,
 speed-painters to keep track of the time they worked on artwork for
 billing purposes. It detects when you haven’t performed actions for a
 while, and has a precision of ±60 seconds. You can empty it in the
-document info dialog and of course by unzipping you .kra file and
+document info dialog and of course by unzipping you ``.kra`` file and
 editing the metadata there.
 
 These things can be edited in :menuselection:`File --> Document Information`, and for the author's information :menuselection:`Settings --> Configure Krita... --> Author`. Profiles can be switched under :menuselection:`Settings --> Active Author Profile`.
@@ -271,11 +271,11 @@ Create Copy from Current Image
     Existing Document as Untitled Document...`, but then with already
     opened files.
 Save Incremental Version
-    Saves the current image as 'filename'\_XXX.kra and switches the
+    Saves the current image as *'filename'\_XXX.kra* and switches the
     current document to it.
 Save Incremental Backup
     Copies and renames the last saved version of your file to a back-up file and saves your document under the original name.
     
 
 .. note::
-    Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On Windows, you will need to rename it to filename.zip to open it.
+    Since Krita's file format is compressed data file, in case of a corrupt or broken file you can open it with archive managers and extract the contents of the layers. This will help you to recover as much as possible data from the file. On Windows, you will need to rename it to *filename.zip* to open it.

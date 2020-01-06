@@ -69,8 +69,8 @@ Templates:
 ~~~~~~~~~~
 
 These are separate categories where we deliver special defaults. Templates are
-just .kra files which are saved in a special location, so they can be pulled up
-by Krita quickly. You can make your own template file from any .kra file, by
+just ``.kra`` files which are saved in a special location, so they can be pulled up
+by Krita quickly. You can make your own template file from any ``.kra`` file, by
 using :menuselection:`File --> Create Template from Image...` in the top menu.
 This will add your current document as a new template, including all its
 properties along with the layers and layer contents.

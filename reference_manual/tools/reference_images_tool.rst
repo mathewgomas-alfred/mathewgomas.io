@@ -43,7 +43,7 @@ Storage mode
     How is the reference image stored.
 
     Embed to \*.kra
-        Store this reference image into the kra file. This is recommended for small vital files you'd easily lose track of otherwise.
+        Store this reference image into the KRA file. This is recommended for small vital files you'd easily lose track of otherwise.
     Link to external file.
         Only link to the reference image, krita will open it from the disk everytime it loads this file. This is recommended for big files, or files that change a lot. This option is only available when reference images are loaded from a local path.
 

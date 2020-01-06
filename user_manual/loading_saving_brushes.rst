@@ -60,7 +60,7 @@ Name**, the **Engine** name, and several buttons for saving, renaming,
 and reloading.
 
 Krita's brush settings are stored into the metadata of a 200x200
-png (the KPP file), where the image in the png file becomes the preset
+PNG (the KPP file), where the image in the PNG file becomes the preset
 icon. This icon is used everywhere in Krita, and is useful for
 differentiating brushes in ways that the live preview cannot.
 
@@ -150,7 +150,7 @@ scratch pad and you can draw in the stroke.
 
 If you go to your resources folder, there's a folder there called
 "preset\_icons", and in this folder there are "tool\_icons" and
-"emblem\_icons". You can add semi-transparent pngs here and Krita will
+"emblem\_icons". You can add semi-transparent PNGs here and Krita will
 load those into the icon library as well so you can customize your icons
 even more!
 
@@ -473,14 +473,14 @@ Sharing via ZIP (old-fashioned)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sharing via ZIP should be replaced with resource bundles, but older
-brush packs are stored in zip files.
+brush packs are stored in ZIP files.
 
 Using a ZIP with the relevant files.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Go to :menuselection:`Settings --> Manage Resources... --> Open Resource Folder` to open the resource folder.
-#. Then, open up the zip file.
-#. Copy the brushes, paintoppresets and patterns folders from the zip
+#. Then, open up the ZIP file.
+#. Copy the brushes, paintoppresets and patterns folders from the ZIP
    file to the resource folder. You should get a prompt to merge the
    folders, agree to this.
 #. Restart Krita.

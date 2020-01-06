@@ -52,7 +52,7 @@ File Menu
         Copies and renames the last saved version of your file to a back-up file and saves your document under the original name. Shortcut: :kbd:`F4`
 
     Create Template from Image...
-        The \*.kra file will be saved into the template folder for future use. All your layers and guides will be saved along!
+        The ``\*.kra`` file will be saved into the template folder for future use. All your layers and guides will be saved along!
 
     Create Copy from Current Image
         Makes a new document from the current image, so you can easily reiterate on a single image. Useful for areas where the template system is too powerful.

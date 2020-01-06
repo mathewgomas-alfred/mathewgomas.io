@@ -105,7 +105,7 @@ The problem needs to be clearly stated:
 
 Give a concise and short description, then enumerate the steps needed to reproduce the problem. If you cannot reproduce the problem, and it isn't a crash, think twice before making the report: the developers likely cannot reproduce it either.
 
-If at all possible, attach your original Krita file (the one that ends in .kra) to the bug report, or if it's too big, add a link for download. If you do that, make sure the file will be there for **years** to come: do not remove it.
+If at all possible, attach your original Krita file (the one that ends in ``.kra``) to the bug report, or if it's too big, add a link for download. If you do that, make sure the file will be there for **years** to come: do not remove it.
 
 If you think it would be useful, you can also attach or link to a video. Note that the Krita developers and bug triagers are extremely busy, and that it takes less time to read a good description and a set of steps to reproduce than it takes to watch a video for clues for what is going on.
 

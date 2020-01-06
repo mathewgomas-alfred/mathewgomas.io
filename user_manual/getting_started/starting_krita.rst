@@ -88,7 +88,7 @@ Now, once you have figured out how to draw something in Krita, you may want to
 save it. The save option is in the same place as it is in all other computer
 programs: the top-menu of :guilabel:`File`, and then :guilabel:`Save`. Select
 the folder you want to have your drawing, and select the file format you want
-to use ('.kra' is Krita's default format, and will save everything). And then
+to use (``.kra`` is Krita's default format, and will save everything). And then
 hit :guilabel:`Save`. Some older versions of Krita have a bug and require you
 to manually type the extension.
 
