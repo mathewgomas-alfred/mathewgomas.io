@@ -195,12 +195,12 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
     .. code-block:: bash
 
         # for ssh access
-        git clone git@invent.kde.org:<username>/krita.git
-        git remote add upstream git@invent.kde.org:kde/krita.git
+        git clone git@invent.kde.org:<username>/docs-krita-org.git
+        git remote add upstream git@invent.kde.org:websites/docs-krita-org.git
 
         # for https access
-        git clone https://invent.kde.org/<username>/krita.git
-        git remote add upstream https://invent.kde.org/kde/krita.git
+        git clone https://invent.kde.org/<username>/docs-krita-org.git
+        git remote add upstream https://invent.kde.org/websites/docs-krita-org.git
 
 
 #. Remember to always pull changes from the official repository before making new changes:
