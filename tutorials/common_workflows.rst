@@ -36,7 +36,7 @@ You can view the recorded speed painting demo for the above image `on Youtube <h
 Colorizing Line Art
 -------------------
 
-Often an artist, for example, a comic book colorist will need to take a pencil sketch or other line art of some sort and use Krita to paint underneath it. This can be either an image created digitally or something that was done outside the computer and has been scanned.
+Often an artist, for example a comic book colorist, will need to take a pencil sketch or other line art of some sort and use Krita to paint underneath it. This can be either an image created digitally or something that was done outside the computer and has been scanned.
 
 Preparing the line art
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -109,45 +109,28 @@ The second method is to use the Flood fill tool to fill large parts of your line
 
 Choose a color from color selector and just click on the area you want to fill the color. As we have expanded the fill with grow selection the color will be filled slightly underneath the line art thus giving us a clean fill.
 
-GMIC Colorize [Interactive]
-"""""""""""""""""""""""""""
 
-The third method is to use take advantage of the integrated G'Mic filters. These are powerful filters that can dramatically improve your workflow and cut you down on your production time.
-To begin coloring with the G'MIC colorize interactive, go to :menuselection:`Filters --> G'MIC`. Choose :menuselection:`Filters --> G'MIC --> Black & white --> Colorize [interactive]` from the list of filters. Then select Line art for :menuselection:`Input type, Image + Colors (2 Layers)` for output type, set the view resolution according to your need. If you have any specific color palette to use for coloring add the path for it in an additional color palette. The example of the filter window with the required inputs is shown below.
+Colorize Mask
+"""""""""""""
 
-.. image:: /images/common-workflows/GMIC-colorize-interactive-krita.png
-    :alt: G'MIC window in Krita.
+The third method is to take advantage of the built-in :ref:`colorize_mask`. This is a powerful tool that can dramatically improve your workflow and cut you down on your production time. To begin coloring with the Colorize Mask, select your line art layer and click the :guilabel:`Colorize Mask Editing Tool` icon in the toolbar.
 
-Press **Apply** to begin the coloring, this will open a color selector **palette** window and a window showing your line art. Choose the color from the palette and click on the areas that need to be filled with color like the example shown below.
+.. image:: /images/common-workflows/krita-colorize-mask-01.png
+    :alt: Colorize Mask Editing Tool in the toolbar.
+    :width: 300
 
-.. image:: /images/common-workflows/Krita-GMIC-colorize-interactive.png
-    :alt: G'MIC colorize interactive window.
+With the Colorize Mask Editing Tool enabled, click on the canvas—this will add a Colorize Mask layer to your document and make your lineart look a little blurry. You can now lay down solid brush strokes to indicate which areas should be colored in what colours:
 
-If you feel that the dots are a bit distracting you can press the :kbd:`Tab` key to reduce the size or hide the dots. To zoom out you can press :kbd:`Ctrl + ↓` and :kbd:`Ctrl + ↑` shortcuts and vice versa. Panning is done by |mousemiddle| :kbd:`+ drag`. Press the :kbd:`Spacebar` key to generate the colors. If you want to replace a color select the color by |mousemiddle| and pressing the :kbd:`R` key then you can select an alternate color from the palette.
+.. image:: /images/common-workflows/krita-colorize-mask-02.png
+    :alt: Colorize Mask with brush strokes
 
-Once you have finished adding the desired flat colors you can press the :kbd:`Enter` key to apply the filter. Then don't forget to press **Ok** in the G'MIC dialog box.
+Whenever you press the :guilabel:`Update` button in the Tool Options, you will see which colours will fill which areas. You can continue to edit your brush strokes until you are happy with the result. To get a clean look of your painting, disable the "Edit key strokes" checkbox:
 
-The flats colors will be placed on a separate layer. You can check `this <https://www.davidrevoy.com/article240/gmic-line-art-colorization>`_ tutorial by David Revoy to know more about this technique.
+.. image:: /images/common-workflows/krita-colorize-mask-03.png
+    :alt: Colorize Mask result
 
-GMIC Colorize [comics]
-""""""""""""""""""""""
+Once you are done, you can convert the Colorize Mask layer into a paint layer in the Layers docker. Have a look at the :ref:`colorize_mask` manual to learn more about this tool.
 
-Krita provides one more option to prepare flat colors through G'MIC colorize comics filter. This technique needs some preparations before you run the G'MIC filter. This layer extrapolates the color spots that you input below the line art.
-
-You have to create two layers below the line art, one for the color spots indicating which color you need to be filled in the region and one for the final extrapolated output of the filter. Mark some colors spots in the layer beneath the line art. The layer setup can be seen in the image below.
-
-.. image:: /images/common-workflows/Colorize-krita.png
-    :alt: G'MIC colorize comics layer setup.
-
-The colors spots are marked in red in the image.
-
-Now go to :menuselection:`Filters --> G'MIC --> Black & white --> Colorize [comics]`. In the G'MIC dialog box, select :guilabel:`All` for input and :guilabel:`In place (default)` for output, select :guilabel:`Lineart + color spots + extrapolated layers` for both input and output layers on the right-hand side. Smoothness is for filling gap tolerance and details the default is 0.5 you can adjust it according to your line art.
-
-.. image:: /images/common-workflows/Colorise-comics-setting.png
-    :alt: Colorize Interactive dialog and settings.
-
-Press **Apply** and **Ok** to apply and exit the G'MIC dialog. You'll now have flat colors beneath your line art.
-More details about this technique can be found in the tutorial `at Timothée Giet's blog <https://timotheegiet.com/blog/comics/gmic-colorize-comics-working-in-krita.html>`_.
 
 Painting
 --------
