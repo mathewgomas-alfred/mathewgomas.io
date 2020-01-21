@@ -119,17 +119,33 @@ The third method is to take advantage of the built-in :ref:`colorize_mask`. This
     :alt: Colorize Mask Editing Tool in the toolbar.
     :width: 300
 
-With the Colorize Mask Editing Tool enabled, click on the canvas—this will add a Colorize Mask layer to your document and make your lineart look a little blurry. You can now lay down solid brush strokes to indicate which areas should be colored in what colours:
+With the Colorize Mask Editing Tool enabled, click on the canvas—this will add a Colorize Mask layer to your document and make your lineart look a little blurry. You can now lay down solid brush strokes to indicate which areas should be colored in what colors:
 
 .. image:: /images/common-workflows/krita-colorize-mask-02.png
     :alt: Colorize Mask with brush strokes
 
-Whenever you press the :guilabel:`Update` button in the Tool Options, you will see which colours will fill which areas. You can continue to edit your brush strokes until you are happy with the result. To get a clean look of your painting, disable the "Edit key strokes" checkbox:
+Whenever you press the :guilabel:`Update` button in the Tool Options, you will see which colors will fill which areas. You can continue to edit your brush strokes until you are happy with the result. To get a clean look of your painting, disable the "Edit key strokes" checkbox:
 
 .. image:: /images/common-workflows/krita-colorize-mask-03.png
     :alt: Colorize Mask result
 
 Once you are done, you can convert the Colorize Mask layer into a paint layer in the Layers docker. Have a look at the :ref:`colorize_mask` manual to learn more about this tool.
+
+Changing Line Art Color
+^^^^^^^^^^^^^^^^^^^^^^^
+
+To change the color of your line art, you can use the Alpha Lock feature. In the layer docker, click on the rightmost icon of your line art layer. It's the icon that looks like a little checker board:
+
+.. image:: /images/common-workflows/layer-alpha-lock.png
+    :alt: Alpha lock button
+    :width: 400
+
+When Alpha Lock is enabled, you can only change the *color* of the pixels, not their opacity—meaning that everything you paint will only change the colors of your existing lines, not add new lines.
+
+If you want to change the color of your line art to one solid color, you can now use the bucket fill tool and it will only apply to your existing lines. Or if you want to apply several different colors to specific areas of your line art, you can quickly paint over your line art with a broad brush:
+
+.. image:: /images/common-workflows/color-lineart.png
+    :alt: Changing Line Art Color
 
 
 Painting
