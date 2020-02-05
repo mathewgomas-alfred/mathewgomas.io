@@ -167,7 +167,10 @@ Python auto-complete for text editors
 QuickColor: shortcuts to get a color from a specified palette
 
     https://github.com/JonasLW/QuickColor
+    
+ThreeSlots plugin: creates three brushtool shortcuts that memorize last used brush preset for each slot independently from each other.
 
+    https://github.com/DarkDefender/threeslots
 
 See Something We Missed?
 ------------------------
