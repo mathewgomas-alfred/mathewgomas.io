@@ -83,7 +83,9 @@ The kritarc file is the configuration file. Krita does not store settings in the
 Resetting Krita configuration
 -----------------------------
 
-You can reset the Krita configuration in following way:
+You can reset the Krita configuration in one of the following ways:
+
+-  Press and hold :kbd:`Shift + Alt + Ctrl` while starting Krita. This should show a pop-up asking if you want to reset the configuration. Press :guilabel:`yes` to reset it.
 
 -  For Krita 3.0 and later: Delete/rename the kritarc file, found here:
 
@@ -107,6 +109,8 @@ If you have installed Krita through the Windows store, the kritarc file will be 
 The random string depends on your installation.
 
 Windows users have a habit of uninstalling and reinstalling applications to solve problems. Unless the problem is that the installation was corrupted by a virus scanner or drive failure, that will NOT work. Uninstalling Krita then reinstalling replaces the bytes on your drive with exactly the same bytes that were there before. It doesn't reset anything, least of all Krita's settings.
+
+
 
 Why my configuration resets on its own?
 ---------------------------------------
