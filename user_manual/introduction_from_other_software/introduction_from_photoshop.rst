@@ -206,7 +206,7 @@ Useful shortcuts
 
 .. note::
 
-    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and the left :kbd:`Shift` key is at the opposite end of the keyboard from the :kbd:`I`, :kbd:`M` and :kbd:`N` keys. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Shortcuts`.
+    Some people regard these shortcuts as somewhat unfortunate. The reason is that they are meant to be used during painting and the left :kbd:`Shift` key is at the opposite end of the keyboard from the :kbd:`I`, :kbd:`M` and :kbd:`N` keys. So for a right-handed painter, this is very difficult to do while using the stylus with a right hand. Note that you can reassign any shortcut by using the shortcut configuration in :menuselection:`Settings --> Configure Krita... --> Shortcuts`.
 
 Stabilization / Path Smoothing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -216,7 +216,7 @@ Using the freehand ‘paint with brush’ tool that you can find on the Tool Opt
 Global pressure curve
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you find the feeling of Krita too hard or too soft regarding the pressure when you paint, you can set a softer or harder curve here: :menuselection:`Settings --> Configure Krita --> Tablet settings`
+If you find the feeling of Krita too hard or too soft regarding the pressure when you paint, you can set a softer or harder curve here: :menuselection:`Settings --> Configure Krita... --> Tablet settings`
 
 Adjustment
 ^^^^^^^^^^
@@ -235,7 +235,7 @@ Unlike Photoshop, where these are separate tools, in Krita, they are available v
 Themes
 ^^^^^^
 If you don’t like the dark default theme of Krita go to: :menuselection:`Settings --> Themes`, and choose a brighter or darker theme.
-If you don’t like the color outside your viewport go to: :menuselection:`Settings --> Configure Krita --> Display`, and change the Canvas border color.
+If you don’t like the color outside your viewport go to: :menuselection:`Settings --> Configure Krita... --> Display`, and change the Canvas border color.
 
 What Krita Has Over Photoshop
 -----------------------------
@@ -283,15 +283,15 @@ Furthermore, you can use transformation masks to apply transforms non-destructiv
 Incremental Save
 ~~~~~~~~~~~~~~~~
 
-You can save your artwork with the pattern : myartworksname_001.kra , myartworksname_002.kra, myartworksname_003.kra  etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
+You can save your artwork with the pattern : *myartworksname_001.kra*, *myartworksname_002.kra*, *myartworksname_003.kra* etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
 
 .. image:: /images/Krita-incremental-saves.png
    :align: center
 
 This feature allows you to avoid overwriting your files, and keep track to your older version and work in progress steps.
 
-Color to alpha Filter
-~~~~~~~~~~~~~~~~~~~~~
+Filter: Color to alpha
+~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to delete the white of the paper from a scanned artwork, you can use this filter. It takes a color and turns it into pure transparency. 
 
@@ -344,7 +344,7 @@ Using the LUT docker, Krita allows you to have a separate color correction filte
 HDR color painting
 ~~~~~~~~~~~~~~~~~~
 
-This same LUT docker is the controller for painting with HDR colors. Using the LUT docker to change the exposure on the view, Krita allows you to paint with HDR colors, and has native open exr support!
+This same LUT docker is the controller for painting with HDR colors. Using the LUT docker to change the exposure on the view, Krita allows you to paint with HDR colors, and has native OpenEXR support!
 
 .. figure:: /images/Krita-hdr-painting.png
    :align: center
@@ -385,7 +385,7 @@ When you transform a layer or a selection in Krita, the transformation appears o
 Other
 ~~~~~
 
-Also, you cannot ‘Export for web’, ‘Image Ready’ for Gif frame or slicing web image, etc.
+Also, you cannot ‘Export for web’, ‘Image Ready’ for GIF frame or slicing web image, etc.
 
 Conclusion
 ----------

@@ -58,7 +58,7 @@ Each page should start with the following three things:
            :license: GNU free documentation license 1.3 or later.
 
 3. Indexing terms.
-    These are comma-separated terms under which the page will be indexed in :ref:`genindex`. The generated index is quite useful for both pdf as well as people who are not sure what the exact name is of the term they are looking for. They are defined as follows::
+    These are comma-separated terms under which the page will be indexed in :ref:`genindex`. The generated index is quite useful for both PDF as well as people who are not sure what the exact name is of the term they are looking for. They are defined as follows::
 
         .. index:: Keyword, Keyword with Spaces, ! Main Definition Keyword
 
@@ -185,7 +185,7 @@ You can :sub:`subscript text` and :sup:`superscript text` by using ``:sub:`text`
 
 However, use these super-sparingly! It is preferred to use the existing semantic markup in sphinx in any case, because that makes it easier for translators to make decisions about the nature of the text::
 
-    :menuselection:`Settings --> Configure Krita`
+    :menuselection:`Settings --> Configure Krita...`
     :guilabel:`File`
     :kbd:`Ctrl + Z`
     :program:`Krita`

@@ -85,15 +85,15 @@ Not recommended when you plan to contribute more in the future. (See :ref:`merge
 
     You can use the `Online Sphinx Editor <https://livesphinx.herokuapp.com/>`_ to check if your changes don't break the manual.
 
-4. Bundle up the items into a zip.
+4. Bundle up the items into a ZIP.
 
-    Put all the files you changed into a zip file. This also includes the images if you're changing them.
+    Put all the files you changed into a ZIP file. This also includes the images if you're changing them.
     Try to keep the filenames the same, that's easier for us to copy over.
-5. Upload the zip on phabricator.
+5. Upload the ZIP on Phabricator.
 
     1. First, go to phabricator.kde.org and log in with your identity account.
     2. Go to the `Manual Project Workboard`_ and there create a new task.
-    3. Explain what you did and use drag and drop to move the zip file to the input textbox. That should upload it. We will also need the email address you associate with your kde identity account.
+    3. Explain what you did and use drag and drop to move the ZIP file to the input textbox. That should upload it. We will also need the email address you associate with your kde identity account.
     4. Then, if the changes are accepted, someone with commit access will unpack those files into the manual folder and push the differences using the mail address.
 
 
@@ -327,10 +327,10 @@ Use American English if possible.
     We use American English in the manual, in accordance to Krita's UI being American English by default.
 Keep the language polite, but do not use academic language.
     As a community, we want to be welcoming to the users, so we try to avoid language that is unwelcoming. Swearing is already not condoned by KDE, but going to the far other end, an academic style where neither writer nor reader is acknowledged might give the idea that the text is far more complex than necessary, and thus scare away users.
-Avoid using gifs (open for debate)
-    The reason is that people with epilepsy may be affected by fast moving images. Similarly, gifs can sometimes carry too much of the burden of explanation. If you can't help but use gifs, at the least notify the reader of this in the introduction of the page.
+Avoid using GIFs (open for debate)
+    The reason is that people with epilepsy may be affected by fast moving images. Similarly, GIFs can sometimes carry too much of the burden of explanation. If you can't help but use GIFs, at the least notify the reader of this in the introduction of the page.
 Keep it translation compatible
-    This consists of using svg for infographics, and using the appropriate markup for a given text.
+    This consists of using SVG for infographics, and using the appropriate markup for a given text.
 
 Regarding photos and paintings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

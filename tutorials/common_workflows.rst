@@ -26,7 +26,7 @@ Some artists set a time limit to complete the painting while some paint casually
 After the composition and a basic layout has been laid out the artists add as many details as possible in the given limited time, this requires a decent knowledge of forms, value perspective and proportions of the objects. Below is an example of speed paint done by `David Revoy <https://www.davidrevoy.com/>`_ in an hours time.
 
 .. image:: /images/Pepper-speedpaint-deevad.jpg
-    :alt: Speedpaint of pepper and carrot by deevad (David Revoy).
+    :alt: Speedpaint of Pepper & Carrot by deevad (David Revoy).
     :width: 800
 
 Artwork by David Revoy, license : `CC-BY <https://creativecommons.org/licenses/by/3.0/>`_
@@ -76,7 +76,7 @@ Now apply the color adjustment filter, yes we still have lots of blue on the art
 
 You can learn more about doing a sketch from blue sketch to digital painting `here in a tutorial by David Revoy <https://www.davidrevoy.com/article239/clean-blue-sketch-traditional-line-art-to-color-it-digital-with-in-krita>`_.
 
-After you have a clean black and white line art you may need to erase the white color and keep only black line art, to achieve that go to :menuselection:`Filters --> Color --> Color to Alpha`. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
+After you have a clean black and white line art you may need to erase the white color and keep only black line art, to achieve that go to :menuselection:`Filters --> Colors --> Color to Alpha...` menu item. Use the dialog box to turn all the white areas of the image transparent. The Color Picker is set to White by default. If you have imported scanned art and need to select another color for the paper color then you would do it here.
 
 .. image:: /images/filters/Color-to-alpha.png
     :alt: Color to alpha dialog box.

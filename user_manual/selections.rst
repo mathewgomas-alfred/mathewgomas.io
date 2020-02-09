@@ -73,7 +73,7 @@ When you have one of the selection tool active, and the mode of selection is in 
 Display Modes
 -------------
 
-In the bottom left-hand corner of the status bar there is a button to toggle how the selection is displayed. The two display modes are the following: (Marching) Ants and Mask. The red color with Mask can be changed in the preferences. You can edit the color under :menuselection:`Settings --> Configure Krita --> Display --> Selection Overlay`. If there is no selection,
+In the bottom left-hand corner of the status bar there is a button to toggle how the selection is displayed. The two display modes are the following: (Marching) Ants and Mask. The red color with Mask can be changed in the preferences. You can edit the color under :menuselection:`Settings --> Configure Krita... --> Display --> Selection Overlay`. If there is no selection,
 this button will not do anything.
 
 .. image:: /images/selection/Ants-displayMode.jpg
