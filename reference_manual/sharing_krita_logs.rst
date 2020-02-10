@@ -104,14 +104,14 @@ From the file system
 
 Sometimes however it is not possible to use Krita's GUI, for example when it doesn't even open. Since logs are regular text files, you can get them from your file system by yourself.
 
-The file is called :file:`krita.log`. Location of the file:
+The file is called :file:`krita-sysinfo.log`. Location of the file:
 
     Linux
-        :file:`$HOME/.local/share/krita-syslog.log`
+        :file:`$HOME/.local/share/krita-sysinfo.log`
     Windows
-        :file:`%LOCALAPPDATA%\\krita-syslog.log`
+        :file:`%LOCALAPPDATA%\\krita-sysinfo.log`
     MacOS X
-        :file:`$HOME/Library/Application Support/krita-syslog.log`
+        :file:`$HOME/Library/Application Support/krita-sysinfo.log`
 
 .. note::
     
