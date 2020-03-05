@@ -189,20 +189,3 @@ How to share a file
   .. admonition:: Blocked websites
       
       If the user is behind a firewall of some sorts (for example lives in China), websites with [*] will probably be blocked; please use the alternatives.
-
-
-
-How to get the best user support
---------------------------------
-
-#. Remember -- most probably the person you're interacting with is a volunteer, and even if not, it's not someone actually paid for doing user support.
-Treat them nicely and respect their time! They will for sure reciprocate that.
-
-#. State all relevant details: most importantly your operating system (Windows, MacOS, Linux...), which version of Krita you use (go to :menuselection:`Help -> About Krita` to find out) and
-what kind of tablet you have (if your issue is related to a tablet driver).
-
-#. Answer all questions your supporter asks, even if you don't think they're relevant. They probably have a reason to ask about that.
-
-#. If you don't know the answer or you don't know how to get the information your supporter asks for, don't hesitate to ask for clarification.
-
-#. If you mentioned an issue, please help with testing if you're asked to do that -- that will speed up the process of finding the cause and preparing a fix.
