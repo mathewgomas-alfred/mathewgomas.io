@@ -47,9 +47,9 @@ Quick solutions
 
 #. Change API in :menuselection:`Settings --> Configure Krita... --> Tablet Settings`.
 
-      #. Wintab: older standard; it supports multiple buttons and high number of pressure levels high. If it works fine for you, don't change to Windows Ink. 2-in-1 devices by default use Windows Ink, you can get a Wintab driver but you need to install it separately. 
+      #. Wintab: older standard; it supports multiple buttons and high number of pressure levels. If it works fine for you, don't change to Windows Ink. 2-in-1 devices by default use Windows Ink, you can get a Wintab driver but you need to install it separately. 
       
-      #. Windows 8+ Pointer (Windows Ink): newer standard; it cuts the pressure levels to 1024. It is more suitable for 2-in-1 devices like Surfacce Pro and Yoga. Some less known brands might not have this standard implemented.
+      #. Windows 8+ Pointer (Windows Ink): newer standard; it cuts the pressure levels to 1024. It is more suitable for 2-in-1 devices like Surface Pro and Yoga. Some less known brands might not have this standard implemented.
 
 *For Windows, tablet/digitizer devices (not convertible/2-in-1 ones):*
 
@@ -77,11 +77,11 @@ Gathering information
 	
     #. In the Log Viewer docker, make sure the first button is pressed (which means the logging is turned on).
 	
-    #. Press :kbd:`Ctlr + Shift + T` to turn on tablet events logging.
+    #. Press :kbd:`Ctrl + Shift + T` to turn on tablet events logging.
 	
     #. Make a few strokes (depending on the situation, the user supporter or developer can ask you for specific series of strokes).
 	
-    #. Press :kbd:`Ctlr + Shift + T` to turn off the logging of the tablet events.
+    #. Press :kbd:`Ctrl + Shift + T` to turn off the logging of the tablet events.
 
     #. Press the third button in the Log Viewer to save the output into a file.
 	
