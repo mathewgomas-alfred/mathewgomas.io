@@ -17,9 +17,9 @@ Brush-tips:Animated Brushes
 Question
 --------
 
-I was messing with the brushes and noticed there is like an option for it being "animated". What does it mean and how do I use it?
+I was messing with the brushes and noticed there is an option for them to be "animated". What does it mean and how do I use it?
 
-Basically, they’re what is officially called an ‘image hose’, and they’re quite fun. They are basically a brush-tip with multiple image files.
+Basically, they're what are officially called ‘image hoses’, and they're quite fun. They are basically brush-tips with multiple image files.
 
 The typical way to make them is to first draw the ‘frames’ on a small canvas, per layer:
 

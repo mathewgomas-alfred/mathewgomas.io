@@ -10,6 +10,7 @@
              - JakeD
              - Radianart
              - Raghavendra Kamath <raghu@raghukamath.com>
+             - Sean Castillo <hydroneart@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Photoshop
@@ -121,7 +122,7 @@ Note for Gimp user: Krita auto-expands and auto defloats new layers created from
 Layer Handling
 ~~~~~~~~~~~~~~
 
-The most common shortcuts are very similar in PS and Krita:
+The most common default shortcuts are very similar in PS and Krita:
 
 * :kbd:`Ctrl + J`: duplicate
 * :kbd:`Ctrl + E`: merge down
@@ -143,7 +144,7 @@ You can select multiple layers on the stack by holding down the :kbd:`Shift` key
 Clipping Masks
 ^^^^^^^^^^^^^^
 
-Krita has no clipping mask, but there is a workaround involving layer groups and :guilabel:`Inherit alpha` (see the alpha icon). Place a layer with the shape you want to clip the other with at the bottom of a group and layers above with the :guilabel:`Inherit alpha` option. This will create the same effect as the “clipping mask” PS feature.
+Krita has no clipping mask, but there is a simpler workaround involving layer groups and :guilabel:`Inherit alpha` (see the alpha icon). Place a layer with the shape you want to clip the other with at the bottom of a group and layers above with the :guilabel:`Inherit alpha` option. This will create the same effect as the “clipping mask” PS feature, and also keeps the layer stack cleaner than the clipping mask implementation does.
 
 This process of arranging groups for inherit alpha can be done automatically by :kbd:`Ctrl + Shift + G` shortcut. It creates a group with base layer and a layer above it with inherit alpha option checked by default.
 
@@ -191,7 +192,7 @@ In Krita, there is a totally different paradigm for defining what ‘tools’ ar
 Erasing
 ^^^^^^^
 
-In Krita, the eraser is not a tool, it is a Blending mode (or Composite mode). You can change each brush you have to erase by pressing the :kbd:`E` key. By pressing the :kbd:`E` key again you’ll be back to the last blending mode you had selected before pressing the :kbd:`E` key the first time.
+In Krita, the eraser is not its own tool; it is a Blending mode (or Composite mode). You can toggle between erase mode and paint mode by pressing the :kbd:`E` key, individually for each of your brushes.
 
 Useful shortcuts
 ^^^^^^^^^^^^^^^^
@@ -240,7 +241,7 @@ If you don’t like the color outside your viewport go to: :menuselection:`Setti
 What Krita Has Over Photoshop
 -----------------------------
 
-As mentioned in the introduction, Krita is a specialized paint application. Thus, it also has specialized tools for painting. Similar tools are not found in more generalized image manipulation applications such as PS. Here is a short list of the most important ones.
+As mentioned in the introduction, Krita is a specialized paint application. Thus, it has specialized tools for painting. Similar tools are not found in more generalized image manipulation applications such as PS. Here is a short list of the most important ones.
 
 Brush Engines
 ~~~~~~~~~~~~~
@@ -283,7 +284,7 @@ Furthermore, you can use transformation masks to apply transforms non-destructiv
 Incremental Save
 ~~~~~~~~~~~~~~~~
 
-You can save your artwork with the pattern : *myartworksname_001.kra*, *myartworksname_002.kra*, *myartworksname_003.kra* etc, by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
+You can save your artwork with the pattern : *myartworksname_001.kra*, *myartworksname_002.kra*, *myartworksname_003.kra* etc., by pressing a single key on the keyboard. Krita will increment the final number if the pattern "_XXX" is recognized at the end of the file's name.
 
 .. image:: /images/Krita-incremental-saves.png
    :align: center
@@ -307,7 +308,7 @@ A special system of favorite blending modes has been created to let you have fas
 Painting Assistants
 ~~~~~~~~~~~~~~~~~~~
 
-Krita has many painting assistants. This is a special type vector shapes with a magnetic influence on your brush strokes. You can use them as rulers, but with other shapes than just straight.
+Krita has many painting assistants. This is a special type vector shapes with a magnetic influence on your brush strokes. You can use them as rulers, including with shapes other than just straight.
 
 .. figure:: /images/assistants/Krita_basic_assistants.png
    :align: center
@@ -318,7 +319,7 @@ Krita has many painting assistants. This is a special type vector shapes with a 
 Multibrushes: Symmetry / Parallel / Mirrored / Snowflake
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Krita's Multibrush tool allows you to paint with multiple brushes at the same time. Movements of the brushes other than the main brush is created by mirroring what you paint, or duplicating it by any number around any axis. They can also be used in parallel mode.
+Krita's Multibrush tool allows you to paint with multiple brushes at the same time. Movements of the brushes other than the main brush is created by mirroring what you paint, or by duplicating it by any number around any axis. They can also be used in parallel mode.
 
 .. image:: /images/tools/Krita-multibrush.png
    :align: center
@@ -381,6 +382,14 @@ Blending Modes While Transforming
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you transform a layer or a selection in Krita, the transformation appears on the top of your layer stack ignoring the layer blending mode. 
+
+Photomerge
+~~~~~~~~~~
+You may have used this tool in Photoshop to seamlessly and automatically stitch together a drawing that was scanned in segments. Krita does not have an equivalent, though an alternative is to use Hugin, which is cross-platform and free, just like Krita.
+
+`Hugin Website <http://hugin.sourceforge.net>`_
+
+`Tutorial for Using Scans in Hugin <https://www.davidrevoy.com/article314/autostiching-scan-with-hugin>`_
 
 Other
 ~~~~~

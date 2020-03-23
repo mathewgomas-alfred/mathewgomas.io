@@ -15,7 +15,7 @@ Clipping Masks and Alpha Inheritance
 ====================================
 
 Krita doesn't have clipping mask functionality in the manner that Photoshop and programs that mimic Photoshop's functionality have. That's because in Krita, unlike such software, a group layer is not an arbitrary collection of layers.
-Rather, in Krita, group layers are composited separately from the rest of the stack, and then the result is added into the stack. In other words, in Krita group layers are in effect a separate image inside your image.
+Rather, in Krita, group layers are composited separately from the rest of the stack, and then the result is added into the stack. In other words, in Krita group layers are in effect distinct images inside your image.
 
 .. image:: /images/clipping-masks/Composition_animation.gif
    :alt: Animation showing that groups are composed before the rest of composition takes place.
