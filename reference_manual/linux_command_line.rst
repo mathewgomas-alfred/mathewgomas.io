@@ -140,3 +140,16 @@ Start up
         ``krita --workspace Animation``
         
         Starts Krita in the Animation workspace.
+    .. option:: --file-layer <filename>
+
+       Starts krita with ``filename`` added as a file-layer. Note that you must either open an existing file or create a new file using the ``new-image`` argument.
+
+       Example:
+
+       ``krita file.kra --file-layer image.png``
+
+       ``krita --new-image RGBA,U8,1000,1000 --file-layer image.jpg``
+
+       If an instance of Krita is already running and Multiple :ref:`instances <window_settings>` are disabled, then this option can be used alone to add a file-layer to the running krita document.
+
+       Example:  ``krita --file-layer image.png``
