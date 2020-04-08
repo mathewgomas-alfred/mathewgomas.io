@@ -216,8 +216,10 @@ timeline docker. So you manually have to add them.
 
 .. image:: /images/animation/Introduction_to_animation_18.png
 
-You can show any given layer in the timeline by doing |mouseright| on the layer in
-the layer docker, and toggling :guilabel:`Show in Timeline`.
+To show a layer whether it's active or not, you can "pin" it to the 
+timeline by right-clicking |mouseright| on the layer in the layer docker, 
+and toggling :guilabel:`Pin to Timeline`. We recommend pinning any layers
+that you're currently animating on.
 
 .. image:: /images/animation/Introduction_to_animation_19.png
 
