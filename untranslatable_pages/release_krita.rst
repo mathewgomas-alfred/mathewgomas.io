@@ -98,7 +98,7 @@ Create the tarball
     gpg --output krita-4.2.9-beta1.tar.gz.sig --detach-sign krita-4.2.9-beta1.tar.gz
     gpg --output krita-4.2.9-beta1.tar.xz.sig --detach-sign krita-4.2.9-beta1.tar.xz
 
-7. Upload tarballs to files.kde.org, where builders can fpick them up:
+7. Upload tarballs to files.kde.org, where builders can pick them up:
 
 * https://files.kde.org/krita/.release/$version/krita-$version.tar.gz
 * https://files.kde.org/krita/.release/$version/krita-$version.tar.xz
