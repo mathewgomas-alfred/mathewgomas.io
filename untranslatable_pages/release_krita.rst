@@ -132,7 +132,7 @@ Make Windows, Linux and OSX packages
 
 11. Build an OSX package
 
-12. Now you should have 15(!) files in your release folder
+12. Now you should have 16(!) files in your release folder
 
 13 Generate an md5sum.txt file for all of them:
 
@@ -141,7 +141,7 @@ Make Windows, Linux and OSX packages
     md5sum ./* > md5sum.txt
 
 
-12. Upload 15(!) files to download.kde.org (or ask sysadmins to do that using this manual ftp://upload.kde.org/README):
+12. Upload 16(!) files to download.kde.org (or ask sysadmins to do that using this manual ftp://upload.kde.org/README):
 
 * krita-4.2.9-beta1.tar.gz
 * krita-4.2.9-beta1.tar.gz.sig
@@ -151,6 +151,7 @@ Make Windows, Linux and OSX packages
 * gmic_krita_qt-x86_64.appimage.sig
 * krita-4.2.9-beta1-x86_64.appimage
 * krita-4.2.9-beta1-x86_64.appimage.sig
+* Krita-Beta-x86_64.appimage.zsync (beta zsync belongs to /unstable/krita/updates/, stable to /stable/krita/updates/)
 * krita-x64-4.2.9-beta1-dbg.zip
 * krita-x64-4.2.9-beta1-setup.exe
 * krita-x64-4.2.9-beta1.zip
@@ -159,7 +160,7 @@ Make Windows, Linux and OSX packages
 * krita-x86-4.2.9-beta1.zip
 * krita-4.2.9-beta1.dmg
 
-12. Now the folder on download.kde.org should have 15(!) files. Check if you missed something (and you surely did! :) ).
+12. Now the folder on download.kde.org should have 16(!) files. Check if you missed something (and you surely did! :) ).
 
 Release coordination
 ~~~~~~~~~~~~~~~~~~~~
