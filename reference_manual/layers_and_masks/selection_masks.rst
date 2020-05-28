@@ -29,6 +29,7 @@ A single layer can contain multiple Local Selection Masks. Repeating. A single l
 
 The example below shows three LSM items all attached (under) Layer1. Any of these can be activated and used at any time.
 
+.. image:: /images/selection/local-selection-mask.png
 
 Global Selection
 ----------------
