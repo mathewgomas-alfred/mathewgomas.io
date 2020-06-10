@@ -290,7 +290,7 @@ Prerequisites
     Only mingw-w64 7.3 (by mingw-builds): https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
         * For threading, select posix.
         * For exceptions, select seh (64-bit) or dwarf (32-bit).
-        * Install mingw to something like C:\mingw-w64; the full path must not contain any spaces.
+        * Unzip mingw with 7zip (https://www.7-zip.org/) into a folder like C:\mingw-w64; the full path must not contain any spaces.
         * MSVC is *not* supported at the moment.
         * CLANG is *not* supported at the moment.
         * MSYS is *not* supported at the moment.
