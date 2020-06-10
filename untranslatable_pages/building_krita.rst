@@ -277,6 +277,8 @@ Building on Windows
 
 On Windows, you will have to build all the dependencies yourself. This will take a long time. Note that you will do all your work in a CMD command window.
 
+This is also more difficult than building Krita on Linux, so you need to pay attention to details. If you follow the guide closely, install correct dependencies and make sure your PATH doesn't contain anything unwanted, there should be no issues.
+
 Prerequisites
 ~~~~~~~~~~~~~
 
