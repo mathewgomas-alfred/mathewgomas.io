@@ -279,3 +279,184 @@ Outside of the source being unstable, there's the following common problems:
 * You can also have a successful build, then update your linux installation, and then find that Krita no longer builds. A library got updated, and you need to remove the ``CMakeCache.txt`` file in your build dir and run cmake again.
 
 * Sometimes, changes in Krita's source code from git revision to git revision make it necessary to make your installation and/or build dir empty and build from scratch. One example is where a plugin is removed from Krita; the plugin will be in your install dir, and won't get updated when Krita's internals change.
+
+
+Building on Windows
+-------------------
+
+On Windows, you will have to build all the dependencies yourself. This will take a long time. Note that you will do all your work in a CMD command window.
+
+Prerequisites
+~~~~~~~~~~~~~
+
+1. git: https://git-scm.com/downloads.
+2. CMake 3.3.2 or later: https://cmake.org/download/.
+    * CMake 3.9 does not build Krita properly at the moment, please use 3.8 or 3.10 instead.
+3. Make sure you have a compiler:
+    Only mingw-w64 7.3 (by mingw-builds): https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
+        * For threading, select posix.
+        * For exceptions, select seh (64-bit) or dwarf (32-bit).
+        * Install mingw to something like C:\mingw-w64; the full path must not contain any spaces.
+        * MSVC is *not* supported at the moment.
+        * CLANG is *not* supported at the moment.
+        * MSYS is *not* supported at the moment.
+4You will also need a release of Python 3.8 (not 3.7, not 3.9): https://www.python.org. Make sure to have that version of python.exe in your path. This version of Python will be used for two things: to configure Qt and to build the Python scripting module.  Do not set PYTHONHOME or PYTHONPATH.
+    * Make sure that your Python will have the correct architecture for the version you are trying to build. If building for 32-bit target, you need the 32-bit release of Python.
+5. Install the Windows 10 SDK: https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
+6. It is useful to install Qt Creator: https://download.qt.io/official_releases/qtcreator/
+
+Preparation
+~~~~~~~~~~~
+
+After installing the Prerequisites, prepare your working directory. Keep this as short as possible. 
+        
+.. code:: console
+    cd  c:\
+    mkdir c:\dev
+    mkdir c:\d
+    mkdir c:\i
+    
+Then prepare a batch file to set the environment. Every time you want to build or run your home-grown Krita, open the CMD windows, go to the c:\dev folder and run the env.bat file. Read this example and ADJUST THE VERSION NUMBERS where necessary so the PATH is correct.
+
+.. code:: console
+    set DLLTOOL_EXE=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\dlltool.exe
+    set MINGW_GCC_BIN=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\\bin
+    set MINGW_BIN_DIR=C:\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\\bin
+    set BUILDROOT=c:\dev
+    set BUILDDIR_INSTALL=%BUILDROOT%\i
+    set PATH=%BUILDROOT%\i\bin;%BUILDROOT%\i\lib;c:\python38;c:\python38\scripts;%MINGW_GCC_BIN%;c:\git\cmd;C:\Program Files\CMake\bin;c:\qt\qtcreator-4.12.0\bin;%PATH%
+    set WindowsSdkDir=C:\Program Files (x86)\Windows Kits\10
+    
+.. code:: console
+    cd c:\dev 
+    env.bat
+
+Then get krita:
+
+.. code:: console
+    cd c:\dev
+    git clone https://invent.kde.org/graphics/krita.git
+    
+Building the dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We will build everything on Windows with the same script that is used to make the nightly builds and the releases:
+
+.. code:: console
+    cd c:\dev
+    krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-krita --src-dir c:\dev\krita --download-dir c:\dev\d --deps-build-dir c:\dev\b --deps-install-dir c:\dev\i
+
+This will take several hours, but you only need to do it once. When it's ready, make a zip archive of the c:\dev\i folder. That's a backup because we will install krita into the same folder as the dependencies, and if you need to nuke your krita build (because you're switching between branches or for some other reason, you'll also nuke your built dependencies. You can also build the depedencies into another folder, like c:\dev\i_deps, BUT in that case you're going to have trouble running Krita without first packaging it.
+
+Building Krita
+~~~~~~~~~~~~~~
+
+Again, on the command line, with the same script that is used to make the nightly builds and the releases:
+
+.. code:: console
+    cd c:\dev
+    krita\build-tools\windows\build.cmd --no-interactive --jobs 8 --skip-deps --src-dir c:\dev\krita --download-dir c:\dev\d --deps-build-dir c:\dev\b --deps-install-dir c:\dev\is --krita-build-dir c:\dev\b_krita --krita-install-dir c:\dev\i
+    
+If you are hacking on Krita, you can can rebuild Krita without running this script by entering the build directory and running mingw3-make install.
+
+.. code:: console
+    cd c:\dev\b_krita
+    mingw32-make install
+    
+Running Krita
+~~~~~~~~~~~~~
+
+You must start Krita from the command prompt, after having run env.bat:
+
+.. code:: console
+    cd c:\dev\b_krita
+    env.bat 
+    c:\dev\i\bin\krita.exe 
+
+Building on macOS
+-----------------
+
+We will build Krita on macOS with the same scripts that are used to build the nightly builds and the releases. We will *NOT* be building krita from within XCode, but from within the terminal.
+
+Prequisites
+~~~~~~~~~~~
+
+You will need to install:
+
+* CMake: https://cmake.org
+* XCode: get it from the app store
+* Qt Creator: https://download.qt.io/official_releases/qtcreator/
+
+Preparation
+~~~~~~~~~~~
+
+Open Terminal.app
+
+.. code:: console
+    cd
+    mkdir dev
+    cd dev 
+    git clone https://invent.kde.org/graphics/krita.git
+    
+Create an env.sh file that should contain the following lines:
+
+.. code:: console
+    export BUILDROOT=$HOME/dev 
+    export PATH=/Applications/CMake.app/Contents/bin:$BUILDROOT/i/bin/:$PATH
+    
+Building the dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is possible to build Krita against dependencies installed through MacPorts or some similar packaging service. If you do that, you're on your own though.
+
+Open Terminal.app and source the env.sh file you just created:
+
+.. code:: console
+    cd ~/dev
+    . env.sh
+    ./krita/packaging/macos/osxbuild.sh builddeps
+    
+    
+This will complain several time that it cannot find the Java SDK: just click that away, and don't worry. Building the dependencies will take several hours.
+
+Building Krita
+~~~~~~~~~~~~~~
+
+In the same terminal window (if you open a new one, you will have to *source* the env.sh script again by running ". env.sh" -- that's a dot.
+
+.. code:: console
+     ./krita/packaging/macos/osxbuild.sh buildinstall
+     
+This will build and install Krita to $HOME/dev/i/krita.app
+
+Running Krita
+~~~~~~~~~~~~~
+
+You can run krita in the same terminal window:
+
+.. code:: console
+    ~/dev/i/krita.app/Contents/MacOS/krita
+    
+If you want to debug krita with lldb:
+
+.. code:: console
+    lldb ~/dev/i/krita.app/Contents/MacOS/krita
+    (lldb) target create "./i/bin/krita.app/Contents/MacOS/krita"
+Current executable set to './i/bin/krita.app/Contents/MacOS/krita' (x86_64).
+(lldb) r
+    
+Building on Android
+-------------------
+
+Specialized Ways of Building Krita
+----------------------------------
+
+These are specialized ways of building Krita on Windows and Linux while re-using the dependencies built on KDE's binary factory. You only need to try this if you don't want to build Krita's dependencies yourself on Windows or use distribution dependencies on Linux.
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+   :glob:
+
+   building/*
+   
