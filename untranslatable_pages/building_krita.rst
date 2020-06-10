@@ -15,27 +15,23 @@
 Building Krita from Source
 ==========================
 
-If you want to help developing Krita, or if you want to run the latest version of Krita on macOS, you need to know how to build Krita yourself. If you merely want to run the latest version of Krita on Windows or Linux, to test a bug or play with, you can use the `nightly build for Windows <https://binary-factory.kde.org/job/Krita_Nightly_Windows_Build/>`_ or the `nightly build for Linux <https://binary-factory.kde.org/job/Krita_Nightly_Appimage_Build/>`_
+If you want to help developing Krita, you need to know how to build Krita yourself. If you merely want to run the latest version of Krita, to test a bug or play with, you can use the `nightly build for Windows <https://binary-factory.kde.org/job/Krita_Nightly_Windows_Build/>`_ the `nightly build for Linux <https://binary-factory.kde.org/job/Krita_Nightly_Appimage_Build/>`_, or the `nightly build for MacOS <https://binary-factory.kde.org/job/Krita_Nightly_MacOS_Build/>`_.
 
 .. contents::
 
 
-You can build Krita on Linux, Windows and OSX. The libraries Krita needs (for instance to load and save various image types) are called dependencies.
+You can build Krita on Linux, Windows, MacOS and on Linux for Android. The libraries Krita needs (for instance to load and save various image types) are called dependencies.
 
 Linux is the easiest operating system to build Krita on because all the libraries that Krita needs are available on most recent Linux distributions. For an easy guide to building Krita see `Building Krita on Linux for Cats <https://www.davidrevoy.com/article193/compil-krita-from-source-code-on-linux-for-cats>`_.
 
-On OSX you can use tools like homebrew to get the dependencies, or build the dependencies manually. Building the dependencies manually is recommended because we have a number of changes to the source for libraries to make them function better with Krita.
+On MacOS you can use tools like homebrew to get the dependencies, or build the dependencies manually. Building the dependencies manually is recommended because we have a number of changes to the source for libraries to make them function better with Krita.
 
 On Windows you will have to build the dependencies yourself. 
 
-The build instructions for OSX/macOS and Windows are maintained as part of `Krita's source code repository <https://phabricator.kde.org/source/krita/browse/master/3rdparty/README.md>`__. You will need to VERY carefully follow these instructions.
+On all operating systems, you need to be familiar with using a terminal. Building Krita is a technical task and demands accuracy in following instructions and intelligence in understanding what happens.
 
 Building on Linux
 -----------------
-
-This page only deals with building Krita on Linux. However, some remarks are the same for all operating systems, especially when it comes to running cmake and dealing with errors. You need to be familiar with using a terminal. 
-
-There are two options: you can either build Krita in your home directory, or use :ref:`Docker <building_krita_with_docker>`, which makes setting up a development environment easier.
 
 Preparing your development environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,6 +50,7 @@ Note: type in what's shown after '>' in the following commands
 
 .. code:: console
 
+    you@yourcomputer:~>cd
     you@yourcomputer:~>mkdir kritadev
     you@yourcomputer:~/>cd kritadev
     you@yourcomputer:~/kritadev> mkdir build
@@ -68,7 +65,7 @@ Open a terminal and enter the build root. Clone Krita from kde's git infrastruct
 
 .. code:: console
 
-    you@yourcomputer:~/kritadev> git clone git://anongit.kde.org/krita.git
+    you@yourcomputer:~/kritadev> git clone https://invent.kde.org/graphics/krita.git
 
 Configuring the Build
 ~~~~~~~~~~~~~~~~~~~~~
@@ -180,7 +177,6 @@ Let's show to your system the right path, inside a terminal, copy line by line :
 
 .. code:: console
 
-    export KDEDIRS=$HOME/kritadev/install:$KDEDIRS
     export PATH=$HOME/kritadev/install/bin:$PATH
 
 You will now be able to run Krita by typing ``krita`` into the terminal.
@@ -307,6 +303,9 @@ Prerequisites
 5. Install the Windows 10 SDK: https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
 6. It is useful to install Qt Creator: https://download.qt.io/official_releases/qtcreator/
 
+*MAKE DOUBLE PLUS SURE YOU DO NOT HAVE ANY OTHER COMPILER OR DEVELOPMENT ENVIRONMENT OR PYTHON INSTALLATION IN YOUR PATH*
+
+
 Preparation
 ~~~~~~~~~~~
 
@@ -383,10 +382,10 @@ You must start Krita from the command prompt, after having run env.bat:
     env.bat 
     c:\dev\i\bin\krita.exe 
 
-Building on macOS
+Building on MacOS
 -----------------
 
-We will build Krita on macOS with the same scripts that are used to build the nightly builds and the releases. We will *NOT* be building krita from within XCode, but from within the terminal.
+We will build Krita on MacOS with the same scripts that are used to build the nightly builds and the releases. We will *NOT* be building krita from within XCode, but from within the terminal.
 
 Prequisites
 ~~~~~~~~~~~
