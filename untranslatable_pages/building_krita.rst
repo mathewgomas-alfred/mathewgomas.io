@@ -166,20 +166,15 @@ And when that is complete, you can run Krita:
 
     you@yourcomputer:~/kritadev/build>../install/bin/krita
     
-Environment Variables
-~~~~~~~~~~~~~~~~~~~~~
+Running Krita
+~~~~~~~~~~~~~
 
-Now, to get Krita to work by just typing ``krita`` into the terminal, we'll need to set up some environment variables. This will allow your system to know where Krita is located.
-
-.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_007-making-path_by-deevad.jpg
-
-Let's show to your system the right path, inside a terminal, copy line by line :
+You do not have to set environment variables in order to run Krita.
 
 .. code:: console
 
-    export PATH=$HOME/kritadev/install/bin:$PATH
-
-You will now be able to run Krita by typing ``krita`` into the terminal.
+    you@yourcomputer:~> cd ~/kritadev/
+    you@yourcomputer:~> ./i/bin/krita
 
 .. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
