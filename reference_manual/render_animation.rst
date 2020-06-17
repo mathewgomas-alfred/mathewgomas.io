@@ -73,10 +73,14 @@ Open the FFmpeg download page `here. <https://ffmpeg.zeranoe.com/builds/>`_
 
 The page features four headings. Each of these options can be changed using the relevant dropdowns on the left, and are specified below:
 
-- **Version:** Stable 4.2.2 is needed.
-- **Architecture:** 64-bit.
+- **Version:** Stable 4.2.3 is needed.
+- **Architecture:** Windows 64-bit.
 - **Linking:** It is very important to get the ``Static`` version.
 - **Licence:** GPL 3.0
+
+.. note::
+
+    As of writing this article, the FFmpeg version is 4.2.3. For future readers, the correct version should be either 4.2.3 or above, containing 3 numbers and 2 points in between. 
 
 .. image:: /images/ffmpeg_screenshot_specifications.png
    :alt: FFmpeg specifications.
