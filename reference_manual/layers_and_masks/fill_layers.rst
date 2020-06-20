@@ -28,6 +28,11 @@ Pattern
 
     You can create your own and use those as well.  For a great set of well designed and useful patterns check out one of our favorite artists and a great friend of Krita, David Revoy's free texture pack (https://www.davidrevoy.com/article156/texture-pack-1).
 
+    Transform
+        .. versionadded::4.3.1
+
+        This allows setting a number of transformation options on the pattern, such as scaling or rotating it.
+
 Simplex Noise
     .. versionadded:: 4.2
 
