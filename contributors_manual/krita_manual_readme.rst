@@ -168,8 +168,8 @@ Not recommended when you don't know what a branch is (see :ref:`merge-request-ed
 
 #. To create a new merge request manually, go to Krita Manual official repository (make sure the url *doesn't* contain your username now) and click :guilabel:`Create a new merge request` (bright green button at the left). Select your fork and select the branch that you've created in WebIDE. 
 
-.. .. image:: /images/gitlab/screenshot_webidemode.png
-..   :width: 1000px
+.. image:: /images/gitlab/screenshot_webidemode.png
+   :width: 1000px
 
 .. note::
    
