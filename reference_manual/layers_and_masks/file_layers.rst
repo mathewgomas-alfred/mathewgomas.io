@@ -16,7 +16,7 @@
 File Layers
 ===========
 
-File Layers are references to files outside of the document: If the referenced document updates, the file layer will update. Do not remove the original file on your computer once you add it to Krita. Deleting your original image will break the file layer. If Krita cannot find the original file, it'll ask you where to find it. File layers cannot display animations.
+File Layers are references to files outside of the document: If the referenced document updates, the file layer will update. Do not remove the original file on your computer once you add it to Krita. Deleting your original image will break the file layer. If Krita cannot find the original file, it'll ask you where to find it. File layers cannot display animations. Krita uses a relative path to store the location of the file in the .kra. If you move the .kra but not the file, the file layer may be broken.
 
 File Layers have the following scaling options:
 

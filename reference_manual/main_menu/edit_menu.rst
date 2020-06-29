@@ -42,7 +42,7 @@ Edit Menu
         Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl + V`
 
     Paste at Cursor
-        Same as :term:`paste`, but aligns the image to the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
+        Same as :term:`Paste`, but aligns the image to the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
 
     Paste into New Image
         Pastes the copied buffer into a new image. Shortcut: :kbd:`Ctrl + Shift + N`

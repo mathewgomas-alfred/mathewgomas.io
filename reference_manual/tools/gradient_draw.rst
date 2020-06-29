@@ -85,6 +85,8 @@ Shape:
 
     Shaped
         This will shape the gradient depending on the selection or layer.
+        
+        .. figure:: /images/gradients/gradient_painter/shaped.png
 
 Repeat:
 

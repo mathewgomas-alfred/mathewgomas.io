@@ -62,17 +62,13 @@ Brush Packs
 
                Nylnook
 
-          - .. figure:: /images/resource_packs/Resources-hushcoilBrushes.png
-               :target: http://hushcoil.tumblr.com/kritabrushes/
 
-               Hushcoil
-
-        * - .. figure:: /images/resource_packs/Resources-raghukamathBrushes.png
+          - .. figure:: /images/resource_packs/Resources-raghukamathBrushes.png
                :target: https://gitlab.com/raghukamath/krita-brush-presets/-/releases
 
                Raghukamath
 
-          - .. figure:: /images/resource_packs/Resources-GDQuestBrushes.jpeg
+        * - .. figure:: /images/resource_packs/Resources-GDQuestBrushes.jpeg
                :target: https://github.com/GDquest/free-krita-brushes/releases/
 
                GDQuest
@@ -81,10 +77,12 @@ Brush Packs
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
 
                IForce73
+          -
+
         * -
 
           -
-
+          
           -
 
 Texture Packs
