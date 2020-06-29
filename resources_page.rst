@@ -154,6 +154,10 @@ Reference Image Docker (old style)
 
     https://github.com/antoine-roux/krita-plugin-reference
 
+Photobashing Plugin: Seamlessly view all photos in a directory, filter by words, and insert them into your document, all from inside one docker.
+
+    https://github.com/veryprofessionaldodo/Krita-Photobash-Images-Plugin
+
 Post images on Mastadon
 
     https://github.com/spaceottercode/kritatoot
