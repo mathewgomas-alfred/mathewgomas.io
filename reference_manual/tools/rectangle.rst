@@ -46,7 +46,7 @@ Pattern
 
 Pattern Transform
 
-    ..versionadded:: 4.3.1
+    .. versionadded:: 4.3.1
 
     This enables upon using pattern as the fill, and has options for changing the pattern transformation a little.
 
