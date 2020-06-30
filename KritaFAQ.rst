@@ -106,6 +106,15 @@ Resetting Krita configuration
 
 You can reset the Krita configuration in one of the following ways:
 
+- .. versionadded:: 4.3 You can reset the configurations from the GUI. Click on :menuselection:`Settings --> Reset Krita Configurations`, and a pop-up to confirm the action will appear. Even if you choose to reset the configurations, a backup kritarc file is created named 'kritarc.backup'. If you rename this back to kritarc, you will use the configurations before the reset. The backup file can be accessed here:
+    
+    Linux
+        :file:`$HOME/.config/kritarc.backup`
+    Windows
+        :file:`%LOCALAPPDATA%\\kritarc.backup`
+    MacOS X
+        :file:`$HOME/Library/Preferences/kritarc.backup`
+
 -  Press and hold :kbd:`Shift + Alt + Ctrl` while starting Krita. This should show a pop-up asking if you want to reset the configuration. Press :guilabel:`yes` to reset it.
 
 -  For Krita 3.0 and later: Delete/rename the kritarc file, found here:
