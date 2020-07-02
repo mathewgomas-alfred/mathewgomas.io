@@ -282,29 +282,29 @@ This is also more difficult than building Krita on Linux, so you need to pay att
 Prerequisites
 ~~~~~~~~~~~~~
 
-1. git: https://git-scm.com/downloads.
-2. CMake 3.3.2 or later: https://cmake.org/download/.
-    * CMake 3.9 does not build Krita properly at the moment, please use 3.8 or 3.10 instead.
-    
-3. Make sure you have a compiler:
-    Only mingw-w64 7.3 (by mingw-builds): https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
-        * For threading, select posix.
-        * For exceptions, select seh (64-bit) or dwarf (32-bit).
-        * Unzip mingw with 7zip (https://www.7-zip.org/) into a folder like C:\mingw-w64; the full path must not contain any spaces.
-        * MSVC is *not* supported at the moment.
-        * CLANG is *not* supported at the moment.
-        * MSYS is *not* supported at the moment.
+1. Git - https://git-scm.com/downloads
+2. CMake 3.3.2 or later - https://cmake.org/download/
+    - CMake 3.9 does not build Krita properly at the moment, please use 3.8 or 3.10 instead.
+3. Make sure you have a compiler - Only mingw-w64 7.3 (by mingw-builds) - https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
+    - For threading, select posix.
+    - For exceptions, select seh (64-bit) or dwarf (32-bit).
+    - Unzip mingw with `7zip <https://www.7-zip.org/>`_ into a folder like C:\mingw-w64; the full path must not contain any spaces.
+    - MSVC is *not* supported at the moment.
+    - CLANG is *not* supported at the moment.
+    - MSYS is *not* supported at the moment.
+4. You will also need a release of Python 3.8 (not 3.7, not 3.9) - https://www.python.org.
+    - Make sure to have that version of python.exe in your path. This version of Python will be used for two things to configure Qt and to build the Python scripting module.  Do not set PYTHONHOME or PYTHONPATH.
+    - Make sure that your Python will have the correct architecture for the version you are trying to build. If building for 32-bit target, you need the 32-bit release of Python.
+5. Install the Windows 10 SDK - https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
+6. It is useful to install Qt Creator - https://download.qt.io/official_releases/qtcreator/
 
-4. You will also need a release of Python 3.8 (not 3.7, not 3.9): https://www.python.org. Make sure to have that version of python.exe in your path. This version of Python will be used for two things: to configure Qt and to build the Python scripting module.  Do not set PYTHONHOME or PYTHONPATH.
-    * Make sure that your Python will have the correct architecture for the version you are trying to build. If building for 32-bit target, you need the 32-bit release of Python.
-5. Install the Windows 10 SDK: https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/
-6. It is useful to install Qt Creator: https://download.qt.io/official_releases/qtcreator/
-
-*MAKE DOUBLE PLUS SURE YOU DO NOT HAVE ANY OTHER COMPILER OR DEVELOPMENT ENVIRONMENT OR PYTHON INSTALLATION IN YOUR PATH*
+***MAKE DOUBLE PLUS SURE YOU DO NOT HAVE ANY OTHER COMPILER OR DEVELOPMENT ENVIRONMENT OR PYTHON INSTALLATION IN YOUR PATH***
 
 
 Preparation
 ~~~~~~~~~~~
+
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_001-init-dir_001_by-deevad.jpg
 
 After installing the Prerequisites, prepare your working directory. Keep this as short as possible. 
         
@@ -334,6 +334,8 @@ Then prepare a batch file to set the environment. Every time you want to build o
 
 Then get krita:
 
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_002-git-clone_001_by-deevad.jpg
+
 .. code:: console
 
     cd c:\dev
@@ -341,6 +343,8 @@ Then get krita:
     
 Building the dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
 
 We will build everything on Windows with the same script that is used to make the nightly builds and the releases:
 
@@ -353,6 +357,11 @@ This will take several hours, but you only need to do it once. When it's ready, 
 
 Building Krita
 ~~~~~~~~~~~~~~
+
+
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_005-build_001_by-deevad.jpg
+
+
 
 Again, on the command line, with the same script that is used to make the nightly builds and the releases:
 
@@ -367,6 +376,9 @@ If you are hacking on Krita, you can can rebuild Krita without running this scri
 
     cd c:\dev\b_krita
     mingw32-make install
+
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
+
     
 Running Krita
 ~~~~~~~~~~~~~
@@ -378,6 +390,8 @@ You must start Krita from the command prompt, after having run env.bat:
     cd c:\dev\b_krita
     env.bat 
     c:\dev\i\bin\krita.exe 
+    
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
 Building on MacOS
 -----------------
@@ -396,6 +410,7 @@ You will need to install:
 Preparation
 ~~~~~~~~~~~
 
+
 Open Terminal.app
 
 .. code:: console
@@ -404,6 +419,9 @@ Open Terminal.app
     mkdir dev
     cd dev 
     git clone https://invent.kde.org/graphics/krita.git
+    
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_002-git-clone_001_by-deevad.jpg
+
     
 Create an env.sh file that should contain the following lines:
 
@@ -414,6 +432,9 @@ Create an env.sh file that should contain the following lines:
     
 Building the dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_003-get-libs_001_by-deevad.jpg
+
 
 It is possible to build Krita against dependencies installed through MacPorts or some similar packaging service. If you do that, you're on your own though.
 
@@ -439,6 +460,9 @@ In the same terminal window (if you open a new one, you will have to *source* th
      
 This will build and install Krita to $HOME/dev/i/krita.app
 
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_006-installing_by-deevad.jpg
+
+
 Running Krita
 ~~~~~~~~~~~~~
 
@@ -456,6 +480,8 @@ If you want to debug krita with lldb:
     (lldb) target create "./i/bin/krita.app/Contents/MacOS/krita"
     Current executable set to './i/bin/krita.app/Contents/MacOS/krita' (x86_64).
     (lldb) r
+    
+.. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
     
 Building on Android
 -------------------
