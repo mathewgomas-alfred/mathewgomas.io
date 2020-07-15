@@ -25,14 +25,16 @@
 Krita Manual Contribution Guide
 ===============================
 
-Welcome to our new documentation!
+Welcome to the Krita Manual Contribution Guide!
 
-We've moved from userbase.kde.org to docs.krita.org, then we moved from Mediawiki to Sphinx. This latter change is because Sphinx allows us to handle translations much better than mediawiki can.
+If you're interested in contributing to Krita's documentation, you're in the right place.
 
-The manual will include:
+Krita is (free) open source software, which effectively makes us a community project with dozens of volunteers pitching in to make it better. This, of course, requires we keep track of manuals and how-to's for new volunteers to come in and help us. The various places we’ve done this have been rather spread out, so the contributors' manual is an attempt to consolidate all the information. It is therefore very technical in places.
+
+This documentation will include:
 
 A reference manual for Krita
-    This one is probably what everyone is expecting when they type in docs.krita.org. Dry, basic, 'what does this button do' type of information.
+    This one is probably what everyone is expecting when they look up Krita's documentation. Dry, basic, 'what does this button do' type of information.
 General concept tutorials.
     We've found over the past two years that for certain types of users, a reference manual, even with some examples, just isn't enough. The manual should also provide fast and concise explanations for things, and provide a basic workflow for preparing an image for the web.
 
@@ -41,8 +43,8 @@ General concept tutorials.
     In addition there are systems that are unique to Krita, for example the brush system, the transform masks, the alpha inheritance and the perspective assistants. Finally, there are users who aren't familiar with even standard painting workflows, and are not flexible enough to understand how to port a tutorial for Sai or Photoshop to Krita.
 A list of known tutorials and video tutorials
     Apparently, one of the great things about Krita's team is how we connect with artists and acknowledge that they're doing cool stuff. The same should count for tutorials, especially because there are ways of using Krita and ways of approaching painting that are unique and we should encourage people to share their knowledge.
-Contributor's Manual
-    Krita is (free) open source software, which makes us effectively a community project, with dozens of volunteers pitching in to make it better. This, of course, requires we keep track of manuals and howto's for new volunteers to come in and help us. The various places we've done this have been rather spread out, and are often under maintained. The contributor's manual is an attempt to solidify all the information. It is therefore very technical in places.
+Contributors' Manual
+    What you're reading right now!
 krita.org tutorials
     There have been a bunch of tutorials on the krita.org and the krita-foundation.tumblr.com, the former focusing on explaining how to use a new feature and the later stimulated by user request.
 FAQ
