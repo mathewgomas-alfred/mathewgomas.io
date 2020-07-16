@@ -25,7 +25,6 @@ Tool Options
 ------------
 
 Shape:
-
     Linear
         This will draw the gradient straight.
 
@@ -89,7 +88,6 @@ Shape:
         .. figure:: /images/gradients/gradient_painter/shaped.png
 
 Repeat:
-
     None
         This will extend the gradient into infinity.
     Forward
@@ -99,5 +97,13 @@ Repeat:
 
 Reverse
     Reverses the direction of the gradient.
+
 Antialias threshold
-    Doesn't do anything, original function must have gotten lost in a port.
+    Controls how smooth is the border between repetitions.
+
+    * A value equal to 0 means there is no smoothing. The border is aliased.
+    * A value greater than 0 teels Krita how much pixels to each side of the border should be smoothed.
+
+    .. figure:: /images/gradients/gradient_painter/antialias_threshold.png
+
+        Left: **0**. Middle: **0.5**. Right: **1**.
