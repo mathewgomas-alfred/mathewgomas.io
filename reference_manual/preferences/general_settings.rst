@@ -105,9 +105,6 @@ Show Outline
         Used to be called "Show Outline When Painting".
 
 Use effective outline size
-
-    .. versionadded:: 4.1
-
     This makes sure that the outline size will always be the maximum possible brush diameter, and not the current one as affected by sensors such as pressure. This makes the cursor a little less noisy to use.
 
 Cursor Color:
