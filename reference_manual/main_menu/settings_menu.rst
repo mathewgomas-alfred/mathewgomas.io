@@ -124,4 +124,4 @@ At this time Krita does not support the ability to create additional toolbars. T
 Although not really advisable, you can turn them off (but why would you..really?)
 
 .. versionadded:: 4.2
-    Finally, Toolbars also can be moved. You can do this by |mouseright| and dragging the handler at the left side of the toolbar.
+    Krita's toolbars are now movable. You can move a toolbar by |mouseleft| dragging its left handle.
