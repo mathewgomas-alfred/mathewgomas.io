@@ -136,6 +136,9 @@ Allow only one instance of Krita
 Tools Settings
 --------------
 
+Tool Options Location
+~~~~~~~~~~~~~
+
 In docker (default)
     Gives you the tool options in a docker.
 In toolbar
