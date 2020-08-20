@@ -20,9 +20,7 @@ A storyboard is a visual representation of an animation sequence and breaks down
 action into individual panels. It is a series of ordered drawings, with dialogue, 
 action or other pertinent details. Storybaording is used extensively during the 
 planning phase of animation to discuss and keep a record of how the story and animation 
-would actually playout. It is similar to a trial-run for your finished animation. It looks 
-like a comic-book, but unlike a comic-book, storyboard is not the end result but rather an 
-intermediate planning step. 
+would actually playout. It is similar to a trial-run for your finished animation.
 
 The Storyboard docker makes creating and managing storyboards easier in Krita. You can 
 add, remove and edit panels and the comments in them. It is interactive with the timeline
@@ -35,12 +33,14 @@ Upper buttons
 
 .. image:: /images/dockers/Storyboard_uper_buttons.png
 
+.. _Export Menu:
+
 Export
     A drop down menu which consists of the export options available for the storyboard.
     This option can be used to export the storyboard to PDF or SVG documents. You can specify
     the layout of the exported file using the Export dialog's options. This might be useful 
     when discussing ideas and planning the animation with teammates or if you want to show 
-    your animation's idea to some potential employer.
+    your animation's idea to some potential employer. For details about exporting see :ref:`Exporting Storyboards`
 
 .. _Comment Menu:
 
@@ -65,9 +65,9 @@ Arrange
     .. image:: /images/dockers/Storyboard_arrange.png
 
 Storyboard Item
---------------------
+----------------
 
-Here, you can select the active item. You can also edit some of the fields such as name, duration and comments. Storyboard items can be added or removed before or after any other item. The order of items can be changed using Drag and Drop.
+A storyboard item represents a single panel in the storyboard. It shows the thumbnail and other related information related to the panel. Here, you can edit the fields such as name, duration and comments. Storyboard items can be added or removed before or after any other item. The order of items can be changed using Drag and Drop.
 
 Frame Number 
     This shows the frame number for this item in the timeline docker. This field cannot be edited.
@@ -82,7 +82,7 @@ Duration in frames
     The total duration will be equal to number of frames between the current item's frame and next keyframe in the timeline in any layer.
 
 Thumbnail
-    A thumbnail version of the canvas. Unlike the comments, it cannot be edited inside the docker, rather it shows the changes made to the canvas with some delay.
+    A thumbnail version of the canvas. Unlike the comments, it cannot be edited inside the docker, instead it shows the changes made to the canvas with some delay.
 Add Item
     A plus icon on the lower left corner of the thumbnail. Adds a storyboard item after the duration of the current item. The new item will have the minimal possible duration.
 Delete Item
@@ -109,27 +109,61 @@ View
 
     * Thumbnail Only : Only the thumbnail part of the panel is visible.
 
-    .. image:: /images/dockers/Storyboard_thumbnailonly_view.png
+        .. image:: /images/dockers/Storyboard_thumbnailonly_view.png
 
     * Comments Only : Only the comments part of the panel are visible.
 
-    .. image:: /images/dockers/Storyboard_commentonly_view.png
+        .. image:: /images/dockers/Storyboard_commentonly_view.png
 
     * All : All of the panel is visible.
 
-    .. image:: /images/dockers/Storyboard_grid_mode.png
+        .. image:: /images/dockers/Storyboard_grid_mode.png
 
 Mode
     These options allow you to choose the orientation of the items in the docker.
 
     * Row : Panels are arranged in a row-wise fashion. The panels' orientation is horizontal in this mode. That means panels are on the sides of thumbnails rather than below.
 
-    .. image:: /images/dockers/Storyboard_row_mode.png
+        .. image:: /images/dockers/Storyboard_row_mode.png
 
     * Column : Panels are arranged in column-wise fashion. The panels' orientation is vertical.
 
-    .. image:: /images/dockers/Storyboard_column_mode.png
+        .. image:: /images/dockers/Storyboard_column_mode.png
 
     * Grid : Panels are arranged in a grid. Also if you change the size of the docker, the grid is rearranged to accomodate more panels in the docker.
 
-    .. image:: /images/dockers/Storyboard_grid_mode.png
+        .. image:: /images/dockers/Storyboard_grid_mode.png
+
+
+.. _Exporting Storyboards:
+
+Exporting Storyboard
+====================
+The storyboard created using the docker can be exported to PDF or SVG documents. The :ref:`Export menu <Export Menu>` offers options to export storyboard.
+It has options to export as either PDF or SVG document. Choosing any of the option will take you to the Export Dialog where you can choose the layout, that is, how panels of the storyboard are arranged in the exported document.
+The Export dialog lets you choose the panels to export and offers some options to specify the layout. You can either choose the layout using custom options provided or using an SVG file.
+
+You can choose the range using the frame number of storyboard panel. The first two options in the dialog let you choose the first and last frame to export. All panels that have frame number in that range(inclusive of both the first and last) would be exported.
+There is also an option to choose the font size of any text on the document, such as panels' name, duration or the comments.
+
+Specifying layout using custom options
+    The following options are provided to specify layout :
+
+    * Rows per page 
+    * Columns per page 
+    * Page Size 
+    * Page Orientation 
+
+    .. image:: /images/dockers/storyboard_custom_options.png
+
+Specifying Layout using SVG file
+    For specifying layout using an SVG file you have to upload an SVG file. The file should have one or more non-overlapping rectangles.
+
+    .. image:: /images/dockers/storyboard_SVG_layout.png
+
+File name for Export document
+    * PDF : Choose the filename of the export document.
+    * SVG : Choose the directory where you want to save the exported files and a base name. The exported files will be named baseName followed by a numerical suffix. e.g. base0, base1 etc.
+
+    .. image:: /images/dockers/storyboard_export_file.png
+
