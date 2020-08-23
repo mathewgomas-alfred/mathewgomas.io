@@ -100,7 +100,8 @@ Comment Field
 .. _Storyboard Views and Modes:
 
 Storyboard View and Modes
-=========================
+-------------------------
+
 The View and Mode options are available in storyboard docker in the :ref:`Arrange menu <Arrange Menu>`.
 These options allow you to arrange the panels in the storyboard.
 
@@ -134,14 +135,56 @@ Mode
 
         .. image:: /images/dockers/Storyboard_grid_mode.png
 
+.. _Using Storyboard docker:
+
+Using Storyboard docker
+-----------------------
+
+Adding Panels
+    There are 3 ways to add panels :
+
+    * |mouseright| and :guilabel:`Add Storyboard Item After` or :guilabel:`Add Storyboard Item Before`
+
+    * Plus button at the lower left corner of thumbnail of panel, this is the same as :guilabel:`Add Storyboard Item After`.
+
+    * Adding keyframes in the timline docker. If there are no storyboard panels for the time, a new panel will be added to storyboard docker. 
+
+Deleting Panels
+    There are 3 ways to delete panels :
+
+    * |mouseright| and :guilabel:`Remove Storyboard Item`.
+
+    * Bin(delete) button at the lower right corner of thumbnail of panel, this is the same as :guilabel:`Remove Storyboard Item`.
+
+    * Removing keyframes in the timline docker. If there are no other keyframes at that time, the panel for that time will be deleted from storyboard docker.
+
+    .. note::
+        Deleting item in storyboard does not delete the keyframes at the item's frame. So the last action here is not the same as the first two.
+
+Managing Comment Fields
+    * To add Comment fields, e.g. Action or Dialogue, go to :ref:`Comment menu <Comment Menu>` and click on the plus button at the bottom-left. A new comment field will be added to the list of comments. Change its name and press :kbd:`Enter`. This will add a comment field to all panels in the docker. 
+    * To delete a comment field, select it and press the Delete button at the bottom-corner of :ref:`Comment menu <Comment Menu>`.
+    * To toggle visiblity of a comment field click on the eye icon.
+    * To rearrange order of comment fields use drag and drop in the :ref:`Comment menu <Comment Menu>`.
+
+Adding Comments
+    To add a comment to a comment field in a panel, double click on the comment's area to make it editable and then after adding comment click outside of the area to save it.
+
+Changing duration
+    Use the spin-box's up and down button to change duration by one. Double click to make the field editable by typing.
+
+Working with multiple layers
+    When working with multiple layers, if you want to change only one of the panels' thumbnail when drawing on canvas, you should insert keyframes at panel's time. 
+    An easy way to do this is to turn the :guilabel:`Auto Frame` mode on in the :ref:`animation docker <animation_docker>`. That way any chagnes that you make with the panel selected would insert a keyframe at the panel's time in the current layer and thus would change the thumbnail for that panel.
 
 .. _Exporting Storyboards:
 
 Exporting Storyboard
-====================
+--------------------
+
 The storyboard created using the docker can be exported to PDF or SVG documents. The :ref:`Export menu <Export Menu>` offers options to export storyboard.
 It has options to export as either PDF or SVG document. Choosing any of the option will take you to the Export Dialog where you can choose the layout, that is, how panels of the storyboard are arranged in the exported document.
-The Export dialog lets you choose the panels to export and offers some options to specify the layout. You can either choose the layout using custom options provided or using an SVG file.
+You can either choose the layout using custom options provided or using an SVG file. The Export dialog also provides options to choose the panels to export.
 
 You can choose the range using the frame number of storyboard panel. The first two options in the dialog let you choose the first and last frame to export. All panels that have frame number in that range(inclusive of both the first and last) would be exported.
 There is also an option to choose the font size of any text on the document, such as panels' name, duration or the comments.
