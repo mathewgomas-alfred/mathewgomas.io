@@ -9,6 +9,7 @@
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Brush Engine, MyPaint Brush Engine
+
 .. _mypaint_brush_engine:
 
 ===================
@@ -19,6 +20,41 @@ MyPaint Brush Engine
 
 
 MYPAINT is a free painting program that comes with a lot of specific brushes. Krita can use those brushes for painting using the MyPaint brush engine.
+
+Dynamic Inputs
+---------------
+
+    Dynamic Inputs are a way for MyPaint to get information of the external devices as a drawing tablet; for instance the pressure over the drawing tablet, the speed of pencil movement, the pencil tilt .. etc.
+
+    MyPaint has 9 inputs:
+
+    *   Pressure
+            The pressure handled by a tablet. Typically between the range 0.0 to 1.0.
+
+    *   Fine Speed
+            How quickly the stylus is moving. This can vary quite a lot.
+
+    *   Gross Speed
+            Similar to fine speed but it changes very slowly.
+
+    *   Random
+            Fast and random noise, changes with every brush stroke.
+
+    *   Stroke
+            This input goes slowly from zero to one while the stroke is being applied. This is related to "stroke duration" and "stroke holdtime" settings.
+
+    *   Direction
+            This input defines angle of stroke, in degrees.
+
+    *   Declination
+            This input defines the declination of the stylus tilt.
+
+    *   Ascension
+            Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90.
+
+    *   Custom
+            This is a user defined input. It is related to "customized input" setting.
+
 
 Parameters
 ----------
@@ -225,25 +261,3 @@ Custom Input
 Custom Input Slowness
 ^^^^^^^^^^^^^^^^^^^^^
     This option defines how slow the custom input setting actually follows the desired value.
-
-    
-
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
