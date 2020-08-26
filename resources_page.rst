@@ -23,12 +23,7 @@ Brush Packs
 
 .. list-table::
 
-        * - .. figure:: /images/resource_packs/Resources-deevadBrushes.jpg
-               :target: https://github.com/Deevad/deevad-krita-brushpresets
-
-               David Revoy
-
-          - .. figure:: /images/resource_packs/Resources-mirandaBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-mirandaBrushes.jpg
                :target: https://drive.google.com/open?id=1hrH4xzMRwzV0SBEt2K8faqZ_YUX-AdyJ
 
                Ramon Miranda
@@ -37,13 +32,14 @@ Brush Packs
                :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
 
                Concept art & Illustration Pack
-        * - .. figure:: /images/resource_packs/Resources-aldyBrushes.jpg
+               
+          - .. figure:: /images/resource_packs/Resources-aldyBrushes.jpg
                :target: https://www.deviantart.com/al-dy/art/Aldys-Brush-Pack-for-Krita-2-3-1-196128561
 
                Al-dy
 
-          - .. figure:: /images/resource_packs/Resources-vascoBrushes.jpg
-               :target: https://vascobasque.com/modular-brushset/
+        * - .. figure:: /images/resource_packs/Resources-vascoBrushes.jpg
+               :target: https://vascobasque.wordpress.com/2014/02/03/modular-brushset-v4/
 
                Vasco Basqué
 
@@ -52,12 +48,12 @@ Brush Packs
 
                Stalcry
 
-        * - .. figure:: /images/resource_packs/Resources-woltheraBrushes.jpg
+          - .. figure:: /images/resource_packs/Resources-woltheraBrushes.jpg
                :target: https://forum.kde.org/viewtopic.php?f=274&t=125125
 
                Wolthera
 
-          - .. figure:: /images/resource_packs/Resources-nylnook.jpg
+        * - .. figure:: /images/resource_packs/Resources-nylnook.jpg
                :target: https://nylnook.art/en/blog/krita-brushes-pack-v2/
 
                Nylnook
@@ -68,12 +64,12 @@ Brush Packs
 
                Raghukamath
 
-        * - .. figure:: /images/resource_packs/Resources-GDQuestBrushes.jpeg
+          - .. figure:: /images/resource_packs/Resources-GDQuestBrushes.jpeg
                :target: https://github.com/GDquest/free-krita-brushes/releases/
 
                GDQuest
 
-          - .. figure:: /images/resource_packs/Resources-iForce73Brushes.png
+        * - .. figure:: /images/resource_packs/Resources-iForce73Brushes.png
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
 
                IForce73
@@ -82,24 +78,17 @@ Brush Packs
                :target: https://www.dropbox.com/s/i1rt7f0qc77nc4m/wont_teach_you_to_draw_brushpack_v5.0.zip?dl=1
 
                wojtryb
-        * -
 
-          -
-          
-          -
-
+          -    
+         
 Texture Packs
 -------------
 
 .. list-table::
 
-        * - .. figure:: /images/resource_packs/Resources-deevadTextures.jpg
-               :target: https://www.davidrevoy.com/article156/texture-pack-1
-
-               David Revoy
-
-          - .. figure:: /images/resource_packs/Resources-deevadTextures2.jpg
+        * - .. figure:: /images/resource_packs/Resources-deevadTextures2.jpg
                :target: https://www.davidrevoy.com/article263/five-traditional-textures
+               :width: 300
 
                David Revoy
 
@@ -110,6 +99,7 @@ External tutorials
 
         * - .. figure:: /images/resource_packs/simon_pixel_art_course.png
                :target: https://www.udemy.com/learn-to-create-pixel-art-from-zero/?couponCode=OTHER_75
+               :width: 400
 
                Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy
 
