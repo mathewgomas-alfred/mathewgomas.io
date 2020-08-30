@@ -47,7 +47,7 @@ Dynamic Inputs
             This input defines angle of a stroke, in degrees.
 
     *   Declination
-            This input defines the declination of the stylus tilt. This is same as tilt-ascension in Krita.
+            This input defines the declination of the stylus tilt. This is same as tilt-elevation in Krita.
 
     *   Ascension
             Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90. This is same as tilt-direction in Krita.
