@@ -44,15 +44,13 @@ Dynamic Inputs
             This input goes slowly from 0.0 to 1.0 while the stroke is being applied. This is related to "stroke duration" and "stroke holdtime" settings.
 
     *   Direction
-            This input defines angle of a stroke, in degrees. This is same as tilt-direction in Krita.
+            This input defines angle of a stroke, in degrees.
 
     *   Declination
-            This input defines the declination of the stylus tilt.
+            This input defines the declination of the stylus tilt. This is same as tilt-ascension in Krita.
 
     *   Ascension
-            Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90.
-
-        Ascension and Declination are similar to tilt-elevation in Krita brush engines.
+            Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90. This is same as tilt-direction in Krita.
 
     *   Custom
             This is a user defined input. It is related to the "customized input" setting.
