@@ -19,12 +19,12 @@ MyPaint Brush Engine
 .. image:: /images/icons/mypaintbrush.png
 
 
-MYPAINT is a free painting program that comes with a lot of specific brushes. Krita can use those brushes for painting using the MyPaint brush engine.
+`MyPaint <http://www.mypaint.org>`_ is a free painting program that comes with a lot of specific brushes. Krita can use those brushes for painting using the MyPaint brush engine.
 
 Dynamic Inputs
 ---------------
 
-    Dynamic Inputs are a way for MyPaint to get information of the external devices as a drawing tablet; for instance the pressure over the drawing tablet, the speed of pencil movement, the pencil tilt .. etc.
+    Dynamic Inputs are a way for MyPaint to get information of the external devices as a drawing tablet; for instance the pressure over the drawing tablet, the speed of pencil movement, the pencil tilt .. etc. They are equivalent to :ref:`sensors` in Krita.
 
     MyPaint has 9 inputs:
 
@@ -41,10 +41,10 @@ Dynamic Inputs
             Fast and random noise, changes with every brush stroke.
 
     *   Stroke
-            This input goes slowly from zero to one while the stroke is being applied. This is related to "stroke duration" and "stroke holdtime" settings.
+            This input goes slowly from 0.0 to 1.0 while the stroke is being applied. This is related to "stroke duration" and "stroke holdtime" settings.
 
     *   Direction
-            This input defines angle of stroke, in degrees.
+            This input defines angle of a stroke, in degrees. This is same as tilt-direction in Krita.
 
     *   Declination
             This input defines the declination of the stylus tilt.
@@ -52,8 +52,10 @@ Dynamic Inputs
     *   Ascension
             Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90.
 
+        Ascension and Declination are similar to tilt-elevation in Krita brush engines.
+
     *   Custom
-            This is a user defined input. It is related to "customized input" setting.
+            This is a user defined input. It is related to the "customized input" setting.
 
 
 Parameters
@@ -62,25 +64,25 @@ Parameters
 
 Has the following parameters:
 
-* :ref:`basic`
-* :ref:`color`
-* :ref:`speed`
-* :ref:`dabs`
-* :ref:`opacity`
-* :ref:`tracking`
-* :ref:`smudge`
-* :ref:`stroke`
-* :ref:`custom`
+* :ref:`mypaint_basic`
+* :ref:`mypaint_color`
+* :ref:`mypaint_speed`
+* :ref:`mypaint_dabs`
+* :ref:`mypaint_opacity`
+* :ref:`mypaint_tracking`
+* :ref:`mypaint_smudge`
+* :ref:`mypaint_stroke`
+* :ref:`mypaint_custom`
 
 
-.. _basic:
+.. _mypaint_basic:
 
 Basic
 -----
 
 Radius
 ^^^^^^
-    This is to set the radius of the brush. Please note that all of the mypaint radii are logarithmic.
+    This is to set the radius of the brush. Please note that all of the mypaint radii are logarithmic. For instance, if you are setting the radius of a preset to say, 2.0 then the actual radius of the preset if going to be e^(2.0) which is equal to 7.389. This makes the size of the brush equal to 14.78. So, we can say that mypaint_radius = log(actual_radius).
 
 Hardness
 ^^^^^^^^
@@ -90,7 +92,7 @@ Hardness
 
 Eraser
 ^^^^^^
-    If this option is checked the brush starts to act as an eraser.
+    If this option is checked the brush will act as an eraser.
     
 Radius by Random
 ^^^^^^^^^^^^^^^^
@@ -98,11 +100,11 @@ Radius by Random
     
 Anti Aliasing
 ^^^^^^^^^^^^^
-    This option is used to smoothen the edges of the brush and remove the jagging effect. Though this only for very small presets.
+    This option is used to smoothen the edges of the brush and remove the jagging effect. Most useful for very small presets.
         
 Elliptical Dab: Angle
 ^^^^^^^^^^^^^^^^^^^^^
-    This option is used to set the angle of dab for the brush. At times we might want to have rather straight brushes, this setting combined with elliptical dab ratio and direction filter helps us achieve that.
+    Sets the angle of the brush dabs. Gives best results for brushes with a low ratio and a direction filter, and allows for strokes akin to a calligraphic pen.
     
 Elliptical Dab: Ratio
 ^^^^^^^^^^^^^^^^^^^^^
@@ -114,7 +116,7 @@ Direction Filter
 ^^^^^^^^^^^^^^^^
     This option is used to make the dabs adhere to a specific vector direction. In simple words, at times you might find the dabs not following the vector path of your strokes, this setting helps us rectify that.
 
-.. _color:
+.. _mypaint_color:
 
 Color
 -----
@@ -139,7 +141,7 @@ Change color Saturation HSV
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
     This option is used to change the color saturation using HSV color model.
     
-.. _speed:
+.. _mypaint_speed:
 
 Speed
 -----
@@ -168,7 +170,7 @@ Offset By Random [Jitter]
 ^^^^^^^^^^^^^^^^^^^^^^^^^
     This option adds a random offset to the position where each dab is drawn.
     
-.. _dabs:
+.. _mypaint_dabs:
 
 Dabs
 ----
@@ -181,7 +183,7 @@ Dabs per Second
 ^^^^^^^^^^^^^^^
     This option describes how many dabs to draw per second irrespective of any other parameter.
     
-.. _opacity:
+.. _mypaint_opacity:
 
 Opacity
 -------
@@ -198,7 +200,7 @@ Opaque Multiply
 ^^^^^^^^^^^^^^^
     This makes opacity depend on pressure.
 
-.. _tracking:
+.. _mypaint_tracking:
 
 Tracking
 --------
@@ -215,24 +217,24 @@ Tracking Noise
 ^^^^^^^^^^^^^^
     Add randomness to mouse pointer. This usually generates many small lines in random directions.
     
-.. _smudge:
+.. _mypaint_smudge:
 
 Smudge
 ------
 
 Smudge
 ^^^^^^
-    This option lets you paint with smudge color instead of brush color. The smudge color slowly changes to the color you are painting on.
+    This option lets you smudge, by picking color from the canvas and mixing this with the brush color. The color slowly changes to the color you are painting on.
 
 Smudge Length
 ^^^^^^^^^^^^^
-    This option controls how fast the smudge color becomes the color you are painting on.
+    This option controls how much the painting color is mixed with the colors from the canvas.
 
 Smudge Radius logarithmic
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-    This option modifier the radius of the circle where the color is picked up for smudging.
+    This option modifies the radius of the circle where the color is picked up for smudging.
 
-.. _stroke:
+.. _mypaint_stroke:
 
 Stroke
 ------
@@ -247,9 +249,9 @@ Stroke Holdtime
 
 Stroke Threshold
 ^^^^^^^^^^^^^^^^
-    This option defines how much pressure is needed to start the stroke. This affects stroke input only. Mypaint doesnot need any minimum pressure level to start drawing.
+    This option defines how much pressure is needed to start the stroke. This affects stroke input only. The MyPaint brush engine does not need any minimum pressure level to start drawing.
 
-.. _custom:
+.. _mypaint_custom:
 
 Custom Input
 ------------
