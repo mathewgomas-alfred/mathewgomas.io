@@ -12,9 +12,9 @@
 
 .. _mypaint_brush_engine:
 
-===================
+====================
 MyPaint Brush Engine
-===================
+====================
 
 .. image:: /images/icons/mypaintbrush.png
 
@@ -29,7 +29,7 @@ Dynamic Inputs
     MyPaint has 9 inputs:
 
     *   Pressure
-            The pressure handled by a tablet. Typically between the range 0.0 to 1.0.
+            The pressure handled by a tablet. Typically in the range 0.0 to 1.0.
 
     *   Fine Speed
             How quickly the stylus is moving. This can vary quite a lot.
@@ -44,16 +44,16 @@ Dynamic Inputs
             This input goes slowly from 0.0 to 1.0 while the stroke is being applied. This is related to "stroke duration" and "stroke holdtime" settings.
 
     *   Direction
-            This input defines angle of a stroke, in degrees.
+            This input defines the angle of a stroke, in degrees.
 
     *   Declination
             This input defines the declination of the stylus tilt. This is same as tilt-elevation in Krita.
 
     *   Ascension
-            Straight pen ascension. When the active tip points to us is 0. When the pen turns 90 degrees clockwise is +90. When it turn 90 degrees counter clockwise is -90. This is same as tilt-direction in Krita.
+            Straight pen ascension. When the active tip points to it is 0. When the pen turns 90 degrees clockwise is +90. When it turns 90 degrees counterclockwise is -90. This is the same as tilt-direction in Krita.
 
     *   Custom
-            This is a user defined input. It is related to the "customized input" setting.
+            This is a user-defined input. It is related to the "customized input" setting.
 
 
 Parameters
@@ -84,7 +84,7 @@ Radius
 
 Hardness
 ^^^^^^^^
-    Hardness define the sharpness of the brushes. 
+    Hardness defines the sharpness of the brushes. 
 
 .. image:: /images/brushes/mypaint/hardness.png
 
@@ -94,7 +94,7 @@ Eraser
     
 Radius by Random
 ^^^^^^^^^^^^^^^^
-    This option is used to generate a brush preset whose radii and opacity changes randomly during the stroke. This should not be confused with random dynamic option in radius setting.
+    This option is used to generate a brush preset whose radii and opacity change randomly during the stroke. This should not be confused with random dynamic option in radius setting.
     
 Anti Aliasing
 ^^^^^^^^^^^^^
@@ -121,23 +121,23 @@ Color
 
 Change color Hue
 ^^^^^^^^^^^^^^^^
-    This option is used to shift the hue in clockwise or anti-clockwise direction.
+    This option is used to shift the hue in a clockwise or anti-clockwise direction.
 
 Change color Lightness
 ^^^^^^^^^^^^^^^^^^^^^^
-    This option is used to change the color luminance using the HSL color model.
+    This option is used to change color luminance using the HSL color model.
     
 Change color Value
 ^^^^^^^^^^^^^^^^^^
-    This option is used to change the color value (brightness, intensity) in HSV color model.
+    This option is used to change color value (brightness, intensity) in HSV color model.
     
 Change color Saturation HSL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    This option is used to change the color saturation using HSL color model.
+    This option is used to change color saturation using HSL color model.
     
 Change color Saturation HSV
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    This option is used to change the color saturation using HSV color model.
+    This option is used to change color saturation using HSV color model.
     
 .. _mypaint_speed:
 
@@ -154,7 +154,7 @@ Gross Speed Gamma
     
 Fine Speed Slowness / Fine Speed Filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    This option describe how slow the input fine speed is following the real speed.
+    This option describes how slow the input fine speed is following the real speed.
 
 Gross Speed Slowness / Gross Speed Filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -175,7 +175,7 @@ Dabs
 
 Dabs per Actual Radius
 ^^^^^^^^^^^^^^^^^^^^^^
-    This option describes how many dabs to draw when the pointer moves the distance of brush radius.
+    This option describes how many dabs to draw when the pointer moves the distance of the brush radius.
     
 Dabs per Second
 ^^^^^^^^^^^^^^^
@@ -213,7 +213,7 @@ Slow Tracking per Dab
 
 Tracking Noise
 ^^^^^^^^^^^^^^
-    Add randomness to mouse pointer. This usually generates many small lines in random directions.
+    Add randomness to the mouse pointer. This usually generates many small lines in random directions.
     
 .. _mypaint_smudge:
 
@@ -222,7 +222,7 @@ Smudge
 
 Smudge
 ^^^^^^
-    This option lets you smudge, by picking color from the canvas and mixing this with the brush color. The color slowly changes to the color you are painting on.
+    This option lets you smudge, by picking a color from the canvas and mixing this with the brush color. The color slowly changes to the color you are painting on.
 
 Smudge Length
 ^^^^^^^^^^^^^
