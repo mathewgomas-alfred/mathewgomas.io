@@ -82,7 +82,11 @@ Brush Packs
                :target: https://www.dropbox.com/s/i1rt7f0qc77nc4m/wont_teach_you_to_draw_brushpack_v5.0.zip?dl=1
 
                wojtryb
-        * -
+
+        * - .. figure:: /images/resource_packs/Resources-rakurribrushset.png
+               :target: https://github.com/Rakurri/rakurri-brush-set-for-krita
+
+               Rakurri
 
           -
           
@@ -248,6 +252,6 @@ Bash Action (works with OSX and Linux)
 
 See Something We Missed?
 ------------------------
-Have a resource you made and want to to share it with other artists? Let us know in the forum or visit our chat room to discuss getting the resource added to here.
+Have a resource you made and want to share it with other artists? Let us know in the forum or visit our chat room to discuss getting the resource added to here.
 
 .. note:: We have curated a list of community created resources for Krita. These resources will be hosted on external website, which is not under the control of Krita or KDE. Please report any error or corrections in the content to the Krita developers.
