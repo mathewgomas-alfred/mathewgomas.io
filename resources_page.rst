@@ -249,7 +249,7 @@ To install and manage your plugins, see the second area of the :ref:`krita_pytho
 AnimLayers (Animate with Layers)
 --------------------------------
 
-    Animate specific layers. You animate a specific range of layers by prefixing the layer name with the same letters. For example *PL * then all the layers where the name starts with *PL * will be part of the animation. In the AnimLayers window you enter PL in the Key field. You can also select a layer with the wanted key and press the Get key button.
+    Animate specific layers. You animate a specific range of layers by prefixing the layer name with the same letters. For example *PL* then all the layers where the name starts with *PL* will be part of the animation. In the AnimLayers window you enter PL in the Key field. You can also select a layer with the wanted key and press the Get key button.
 
     Available here: https://github.com/thomaslynge/krita-plugins
 
