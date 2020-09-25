@@ -154,7 +154,7 @@ Comics Project Management Tools
     - Helping the artist(s) deal with the boring bits meta data bits of a comic project by giving a meta-data editor that gives suggestions, explanation and occasionally a dab of humor;
     - Making export set-and-forget type of affair where a single click can export to multiple formats with proper meta-data.
 
-    Also features options to to assist exporting to specific formats, like "Advanced Comic Book Format", CBZ or Epub. 
+    Also features options to assist exporting to specific formats, like "Advanced Comic Book Format", CBZ or Epub. 
 
     To use this plugin, activate the "Comics Manager" Docker.
 
@@ -166,12 +166,12 @@ Document Tools
 Export Layers
 -------------
 
-    Allows you to select a document and export it’s layers in an ordered and sensible manner.
+    Allows you to select a document and export its layers in an ordered and sensible manner.
 
 Filter Manager 
 --------------
 
-    A plugin to enable you to select a document or one of it's layers and quickly apply a filter.
+    A plugin to enable you to select a document or one of its layers and quickly apply a filter.
 
 High Pass
 ---------
@@ -249,7 +249,7 @@ To install and manage your plugins, see the second area of the :ref:`krita_pytho
 AnimLayers (Animate with Layers)
 --------------------------------
 
-    Animate specific layers. You animate a specific range of layers by prefixing the layer name with the same letters. For example *PL* then all the layers where the name starts with *PL* will be part of the animation. In the AnimLayers window you enter PL in the Key field. You can also select a layer with the wanted key and press the Get key button.
+    Animate specific layers. You animate a specific range of layers by prefixing the layer name with the same letters. For example *PL* then all the layers where the name starts with *PL* will be part of the animation. In the AnimLayers window you enter PL in the Key field. You can also select a layer with the wanted key and press the :guilabel:`Get key` button.
 
     Available here: https://github.com/thomaslynge/krita-plugins
 
@@ -324,7 +324,7 @@ QuickColor
 
 Reference Image Docker (old style)
 ----------------------------------
-    After activating the docker, click on Open and choose an image. Beware, no verification is done on the format... You've been warned! After that you can move the reference, zoom or pick a color. 
+    After activating the docker, click on :guilabel:`Open` and choose an image. Beware, no verification is done on the format... You've been warned! After that you can move the reference, zoom or pick a color. 
 
     Available here: https://github.com/antoine-roux/krita-plugin-reference
 
