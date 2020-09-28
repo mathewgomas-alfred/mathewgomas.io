@@ -218,9 +218,9 @@ Make Windows, Linux, OSX and Android packages
 
         1) Upload release artifacts (21 files) to download.kde.org:
 
-        * Source link: https://files.kde.org/krita/release-4.2.9-beta1/
-        * Destination link: https://download.kde.org/unstable/krita/4.2.9-beta1/
-        * There should be 16 files including `md5sum.txt`
+            * Source link: https://files.kde.org/krita/release-4.2.9-beta1/
+            * Destination link: https://download.kde.org/unstable/krita/4.2.9-beta1/
+            * There should be 16 files including `md5sum.txt`
 
         2) Add `Krita 4.2.9 Beta1` bugzilla version 
 
