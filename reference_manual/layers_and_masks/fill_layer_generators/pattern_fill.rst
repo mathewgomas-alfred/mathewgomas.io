@@ -19,6 +19,10 @@ This fills the layer with a predefined pattern or texture that has been loaded i
 You can create your own and use those as well.  For a great set of well designed and useful patterns check out one of our favorite artists and a great friend of Krita, David Revoy's free texture pack (https://www.davidrevoy.com/article156/texture-pack-1).
 
 Transform
-    .. versionadded:: 4.3.1
+    .. versionadded:: 4.4
 
     This allows setting a number of transformation options on the pattern, such as scaling or rotating it.
+    
+    .. figure:: /images/layers/pattern_fill_transform.png
+    
+       Image showing several transforms applied to a single texture.
