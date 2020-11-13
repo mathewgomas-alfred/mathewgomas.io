@@ -20,20 +20,35 @@ The artistic filter are characterised by taking an input, and doing a deformatio
 Halftone
 --------
 
-.. image:: /images/filters/Krita_halftone_filter.png
+.. image:: /images/filters/Krita_halftone_filter.jpg
 
-The halftone filter is a filter that converts the colors to a halftone dot pattern.
+The `halftone <https://en.wikipedia.org/wiki/Halftone>`_ filter tries to replicate the continuous-tone of the original image through the use of simple shapes that vary in size.
 
-Colors
-    The colors used to paint the pattern. The first is the color of the dots, the second the color of the background.
-Size
-    The size of the cell in pixels. The maximum dot size will be using the diagonal as the cell size to make sure you can have pure black.
-Angle
-    The angle of the dot pattern.
-Invert
-    This inverts the intensity calculated per dot. Thus, dark colors will give tiny dots, and light colors big dots. This is useful in combination with inverting the colors, and give a better pattern on glowy-effects.
-Anti-aliasing
-    This makes the dots smooth, which is good for webgraphics. Sometimes, for print graphics, we want there to be no grays, so we turn off the anti-aliasing.
+Mode
+    Intensity
+        In this mode the image is first converted to grayscale and then the halftoning is applied. The resulting effect is like the one used in black and white newspaper images.
+    Independent Channels
+        This allows applying the halftoning to each channel of the image independently, potentially with different parameters, giving an effect similar to the one in colored magazine images.
+    Alpha
+        With this option the halftoning is applied only to the alpha channel (you may see no change when all the pixels of the image are fully opaque). This is useful to add texture to the smooth semi-transparent borders of a layer.
+
+Halftoning Options
+    When the selected mode is *Independent Channels*, multiple tabs for the different channels appear to let the user choose different options for each one; otherwise no tabs for the channels appear and there is only one set of options.
+    The halftoning process works by making a pattern image (commonly named *screen*) that is combined with the original image in a specific way.
+
+    Screen Generator
+        The filter uses the *fill layer generators* to create the screen (pattern) image instead of using a predefined set of patterns and options. This way the range of possible results can grow as new generators are added to Krita. Also the user can make his own patterns by using the pattern generator and custom pattern images. For more information see :ref:`this page on fill layer generators and their options <fill_layers>`.
+
+    Postprocessing
+        These options apply to the result of combining the screen image with the original image.
+
+        Hardness
+            Controls how hard or soft are the borders of the halftone shapes.
+        Invert
+            Invert the resulting image/channel.
+        Foreground & Background
+            Change what color and opacity are used for the foreground (part of the image formed by the pattern shapes) and the background.
+        
 
 Index Color
 -----------
