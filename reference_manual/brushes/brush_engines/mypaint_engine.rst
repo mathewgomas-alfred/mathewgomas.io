@@ -47,10 +47,10 @@ Dynamic Inputs
             This input defines the angle of a stroke, in degrees.
 
     *   Declination
-            This input defines the declination of the stylus tilt. This is same as tilt-elevation in Krita.
+            This input defines the declination of the stylus tilt. This is the same as tilt-elevation in Krita.
 
     *   Ascension
-            Straight pen ascension. When the active tip points to it is 0. When the pen turns 90 degrees clockwise is +90. When it turns 90 degrees counterclockwise is -90. This is the same as tilt-direction in Krita.
+            Straight pen ascension. When the active tip points to it, it is 0. When the pen turns 90 degrees clockwise is +90. When it turns 90 degrees counterclockwise is -90. This is the same as tilt-direction in Krita.
 
     *   Custom
             This is a user-defined input. It is related to the "customized input" setting.
@@ -80,7 +80,7 @@ Basic
 
 Radius
 ^^^^^^
-    This is to set the radius of the brush. Please note that all of the mypaint radii are logarithmic. For instance, if you are setting the radius of a preset to say, 2.0 then the actual radius of the preset if going to be e^(2.0) which is equal to 7.389. This makes the size of the brush equal to 14.78. So, we can say that mypaint_radius = log(actual_radius).
+    This is to set the radius of the brush. Please note that all of the mypaint radii are logarithmic. For instance, if you are setting the radius of a preset to say, 2.0 then the actual radius of the preset is going to be e^(2.0) which is equal to 7.389. This makes the size of the brush equal to 14.78. So, we can say that mypaint_radius = log(actual_radius).
 
 Hardness
 ^^^^^^^^
@@ -94,7 +94,7 @@ Eraser
     
 Radius by Random
 ^^^^^^^^^^^^^^^^
-    This option is used to generate a brush preset whose radii and opacity change randomly during the stroke. This should not be confused with random dynamic option in radius setting.
+    This option is used to generate a brush preset whose radii and opacity change randomly during the stroke. This should not be confused with the random dynamic option in the radius setting.
     
 Anti Aliasing
 ^^^^^^^^^^^^^
@@ -102,7 +102,7 @@ Anti Aliasing
         
 Elliptical Dab: Angle
 ^^^^^^^^^^^^^^^^^^^^^
-    Sets the angle of the brush dabs. Gives best results for brushes with a low ratio and a direction filter, and allows for strokes akin to a calligraphic pen.
+    Sets the angle of the brush dabs. Gives the best results for brushes with a low ratio and a direction filter, and allows for strokes akin to a calligraphic pen.
     
 Elliptical Dab: Ratio
 ^^^^^^^^^^^^^^^^^^^^^
@@ -243,7 +243,7 @@ Stroke Duration logarithmic
 
 Stroke Holdtime
 ^^^^^^^^^^^^^^^
-    This option defines how long the stroke input stays at 1.0. After that is will go back towards 0.0 and then start increasing again.
+    This option defines how long the stroke input stays at 1.0. After that it will go back towards 0.0 and then start increasing again.
 
 Stroke Threshold
 ^^^^^^^^^^^^^^^^
