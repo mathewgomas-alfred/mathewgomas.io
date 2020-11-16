@@ -284,10 +284,6 @@ Fiddly details aren’t easy to fill in with this. So I recommend skipping those
 Colorize Mask
 -------------
 
-So, this is a bit of an odd one. In the original tutorial, you'll see I'm suggesting using G'Mic, but that was a few years ago, and G'Mic is a little unstable on windows. Therefore, the Krita developers have been attempting to make an internal tool doing the same.
-
-It is disabled in 3.1, but if you use 4.0 or later, it is in the toolbox. Check the Colorize Mask for more information.
-
 So it works like this:
 
 1. Select the colorize mask tool.

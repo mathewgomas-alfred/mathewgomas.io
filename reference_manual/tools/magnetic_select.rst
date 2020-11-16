@@ -27,7 +27,7 @@ There are two ways to make a magnetic selection:
    
    Animation showing the first mode of creating a magnetic selection.
 
-The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point to complete the loop and click on it again to create a selection, or press :kbd:`Enter` to end the magnetic selection.
+The first is to use |mouseleft| and place points or nodes of the magnetic selection. To finalize your selection area you can do either |mouseleft| on the first created point to complete the loop and click on it again to create a selection, or press :kbd:`Enter` to end the magnetic selection or click on the :guilabel:`Complete` button present in Tool Options.
 
 .. figure:: /images/tools/magnetic_selection_mode_2.gif
    :width: 320
@@ -43,7 +43,7 @@ The second, interactive mode, is to |mouseleft| :kbd:`+ drag` over a portion of 
    
    The first and second mode can be mixed.
 
-You can edit previous points by |mouseleft| dragging them. You can remove points by dragging it out of the canvas area. After a path is closed. Points can be undone with :kbd:`Shift + Z`. A halfway done magnetic selection can be canceled with :kbd:`Esc`.
+You can edit previous points by |mouseleft| dragging them. You can remove points by dragging it out of the canvas area. After a path is closed. Points can be undone with :kbd:`Shift + Z`. A halfway done magnetic selection can be canceled with :kbd:`Esc` or clicking on the :guilabel:`Discard` button in the Tool Options.
 
 .. important::
 

@@ -6,7 +6,7 @@
 
     :authors: - Boudewijn Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
-    
+
 .. index:: community, communication
 
 .. _the_krita_community:
@@ -38,7 +38,7 @@ You’ll find that there are a number of people are almost always around: the co
 * Scott Petrovic (irc: scottyp): UX designer, developer, webmaster.
 * David Revoy (irc: deevad): expert user, creates Pepper & Carrot, maintains the preset bundle.
 * Alvin Wong (irc: windragon): windows guru.
-* Ben Cooksley (irc: bcooksley): KDE system administrator. 
+* Ben Cooksley (irc: bcooksley): KDE system administrator.
 
 Krita’s team spans the globe, but most development happens in Europe and Russia.
 
@@ -49,9 +49,9 @@ The Krita Foundation was created to support development of Krita. The Krita Foun
 Internet Relay Chat
 -------------------
 
-IRC is the main communication channel. There are IRC clients for every operating system out there, as well as a web client on the krita website. 
+IRC is the main communication channel. There are IRC clients for every operating system out there, as well as a web client on the krita website.
 
-* Joining IRC: connect to irc.freenode.net, select a unique nickname and join the #krita and ##krita-chat channels. #krita is for on-topic talk, ##krita-chat for off-topic chat.
+* Joining IRC: connect to https://webchat.freenode.net, select a unique nickname and join the #krita and ##krita-chat channels. #krita is for on-topic talk, ##krita-chat for off-topic chat.
 * Don’t ask to ask: if you’ve got a question, just ask it.
 * Don’t panic if several discussions happen at the same time. That’s normal in a busy channel.
 * Talk to an individual by typing their nick and a colon.
@@ -76,9 +76,12 @@ Gitlab (KDE Invent)
 
 Gitlab serves the following purposes for the Krita team:
 
-* Review volunteers' submissions: https://invent.kde.org/graphics/krita.git/merge_requests for the code itself, https://invent.kde.org/websites/docs-krita-org/merge_requests for the content of the Krita Manual.
+* Reviewing volunteers' submissions through Merge Requests (MR) on `Graphics/Krita`_ for the code and `Documentation/Krita.org Documentation Website`_ for the content of the Krita Manual.
 * Host the code git repository: https://invent.kde.org/graphics/krita.git . Note that while there are mirrors of our git repository on Github and Phabricator, we do not use them for Krita development.
-* Host the Krita Manual content repository: https://invent.kde.org/websites/docs-krita-org
+* Host the Krita Manual content repository: https://invent.kde.org/documentation/docs-krita-org
+
+.. _Graphics/Krita: https://invent.kde.org/graphics/krita/merge_requests
+.. _Documentation/Krita.org Documentation Website: https://invent.kde.org/documentation/docs-krita-org/merge_requests
 
 **Do not** make new issues on Gitlab or use it to make bug reports.
 

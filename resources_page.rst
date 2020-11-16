@@ -32,7 +32,7 @@ Brush Packs
                Ramon Miranda
 
           - .. figure:: /images/resource_packs/Resources-conceptBrushes.jpg
-               :target: https://forum.kde.org/viewtopic.php?f=274&t=127423
+               :target: https://drive.google.com/file/d/1sl8sW7pu7QtGxunLeZapksU1u6Uc9VF5/view?usp=sharing
 
                Concept art & Illustration Pack
                
@@ -78,7 +78,7 @@ Brush Packs
                IForce73
 
           - .. figure:: /images/resource_packs/Resources-wojtrybBrushes.png
-               :target: https://www.dropbox.com/s/i1rt7f0qc77nc4m/wont_teach_you_to_draw_brushpack_v5.0.zip?dl=1
+               :target: https://www.dropbox.com/s/nconrhjb6ltai8f/wont_teach_you_to_draw_brushpack_v6.0.zip?dl=1
 
                wojtryb
 
@@ -111,6 +111,37 @@ External tutorials
 
                Simón Sanchez' "Learn to Create Pixel Art from Zero" course on Udemy
 
+
+Vector libraries
+================
+
+Composition templates
+---------------------
+
+Inside the zip archive you'll find all composition templates separate and in a form of a vector library, so all the shapes are easy to access after the import.
+
+The composition templates include: rule of thirds, golden ratio, golden spiral, golden triangle 1, golden triangle 2, harmonious triangle, film safe area template, baroque diagonal and centre.
+
+Link: https://gumroad.com/l/CHhlx
+
+Feather icons
+-------------
+
+A set of open source icons from https://feathericons.com but in a Vector Library form, so it can be easily accessed from inside Krita after the import. Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
+
+Link: https://github.com/MiAlmeida/krita-feather
+
+
+Templates
+=========
+Templates are .kra files that you can base your new documents on. To learn more see :ref:`create_new_document_from_template`.
+
+Storyboard template
+-------------------
+
+The layout and layer setup is inspired by traditional Studio Ghibli storyboards, and Tony Gaddis’ storyboarding process.
+
+Link: https://gumroad.com/l/PtMtm
 
 Pre-installed Python Plugins
 ============================
@@ -334,6 +365,13 @@ Spine File Format Export
     Inspired by the official Photoshop Plugin, it works nearly the same. Click on :menuselection:`Tools --> Scripts --> Export to Spine`, select a folder and all your images will be exported into it as well as :file:`spine.json`.
 
     Available here: https://github.com/chartinger/krita-unofficial-spine-export
+
+Subwindow Organizer
+------------------------
+
+    Helps with handling multiple documents in subwindow mode. Introduces responsive fullscreen with other subwindows opened, dynamic snapping of subwindows to canvas borders, drag and drop switching between subwindows, and more.
+
+    Available here: https://github.com/wojtryb/kritaSubwindowOrganizer 
 
 Tablet Controls Docker
 ----------------------
