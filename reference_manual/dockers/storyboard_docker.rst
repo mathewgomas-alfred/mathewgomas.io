@@ -24,7 +24,7 @@ would actually play out. It is similar to a trial-run for your finished animatio
 
 The Storyboard docker makes creating and managing storyboards easier in Krita. You can 
 add, remove and edit scenes and the comments in them. It is interactive with the timeline
-docker and the layer stack of krita. It consists of a list of scenes that can be arranged 
+docker and the layer stack of Krita. It consists of a list of scenes that can be arranged 
 in different arrangements. It also supports exporting the storyboard to document formats 
 such as PDF and SVG.
 
@@ -53,8 +53,10 @@ Comment
     .. image:: /images/dockers/Storyboard_comment.png
 
 Lock
-    This option is used to stop adding items when keyframes are added in the Timeline docker.
-    This might be useful when tweening where you might not want the detailed frames in the storyboard docker.  
+    This option is used to freeze the docker in its current state. When this option is enabled thumbnails, comments, 
+    duration and frame number do not change. Reordering of scenes using drag and drop is also disabled. This might be 
+    useful when tweening where you might not want the detailed frames in the storyboard docker or when you want to change 
+    something without affecting the storyboard.
 
 .. _storyboard_arrange_menu:
 
@@ -67,7 +69,7 @@ Arrange
 Storyboard Scene
 ----------------
 
-A storyboard scene displays a single scene in the storyboard. It shows the thumbnail and other information related to the scene. Here, you can edit the fields such as name, duration and comments. Storyboard scenes can be added or removed before or after any other scene. The order of scenes can be changed using drag and drop.
+A storyboard scene displays a single scene in the storyboard. There can be multiple keyframes within the duration of a scene but the thumbnail shows only the first frame. It also shows other information related to the scene. Here, you can edit the fields such as name, duration and comments. Storyboard scenes can be added or removed before or after any other scene. The order of scenes can be changed using drag and drop. On changing order of scenes all keyframes within the duration of the scene will also be moved.
 
 Frame Number 
     This shows the frame number for this scene in the timeline docker. This field cannot be edited.
@@ -77,20 +79,12 @@ Duration in second
     A spin-box. This will set the duration of the storyboard scene in seconds.
 Duration in frames
     A spin-box. This will set the duration of the storyboard scene in frames.
-
-.. note::
-    The total duration will be equal to number of frames between the current scene's frame and next keyframe in the timeline in any layer.
-
 Thumbnail
     A thumbnail version of the canvas. Unlike the comments, it cannot be edited inside the docker, instead it shows the changes made to the canvas with some delay.
 Add Item
     A button on the lower left corner of the thumbnail. Adds a storyboard scene after the duration of the current scene. The new scene will have the minimal possible duration.
 Delete Item
     A button on the lower right corner of the thumbnail. Deletes the current storyboard scene.
-
-.. note::
-    Deleting scene in storyboard does not delete the keyframes at the scene's frame.
-
 Comment Name
     Name of the comment field. This field is uneditable directly but can be edited from the :ref:`Comment menu <storyboard_comment_menu>`.
 Comment Field
@@ -141,25 +135,24 @@ Using Storyboard docker
 -----------------------
 
 Adding Scenes
-    There are three ways to add scenes :
+    There are two ways to add scenes :
 
     * |mouseright| and :guilabel:`Add Scene After` or :guilabel:`Add Scene Before`
 
     * Add button at the lower left corner of thumbnail of the scene, this is the same as :guilabel:`Add Scene After`.
 
-    * Adding keyframes in the timline docker. If there are no storyboard scenes for the time, a new scene will be added to storyboard docker. 
-
 Deleting Scenes
-    There are three ways to delete scenes :
+    There are two ways to delete scenes :
 
     * |mouseright| and :guilabel:`Remove Scene`.
 
     * Delete button at the lower right corner of thumbnail of scene, this is the same as :guilabel:`Remove Scene`.
 
-    * Removing keyframes in the timline docker. If there are no other keyframes at that time, the scene for that time will be deleted from storyboard docker.
-
     .. note::
-        Deleting scene in storyboard does not delete the keyframes at the scene's frame. So the last action here is not the same as the first two.
+        Deleting scene in storyboard does not delete the keyframes at the scene's frame. Instead the duration of the deleted scene gets added to the previous scene.
+
+Reordering Scenes
+    Scenes can be reordered using drag and drop. All the keyframes within the duration of that scene will move on reordering.
 
 Managing Comment Fields
     * To add Comment fields, e.g. Action or Dialogue, go to :ref:`Comment menu <storyboard_comment_menu>` and click on the plus button at the bottom-left. A new comment field will be added to the list of comments. Change its name and press :kbd:`Enter`. This will add a comment field to all scenes in the docker. 
@@ -175,7 +168,7 @@ Changing duration
 
 Working with multiple layers
     When working with multiple layers, if you want to change only one of the scene thumbnails when drawing on canvas, you should insert keyframes at that scene's time in the current layer. 
-    An easy way to do this is to turn the :guilabel:`Auto Frame` mode on in the :ref:`animation docker <animation_docker>`. That way any changes that you make with the scene selected would insert a keyframe at the scene's time in the current layer and thus would change the thumbnail for that scene.
+    An easy way to do this is to turn the :guilabel:`Auto Frame` mode on in the :ref:`animation docker <animation_docker>`. That way any changes that you make with the scene selected will insert a keyframe at the scene's time in the current layer and thus would change the thumbnail for that scene.
 
 .. _exporting_storyboard:
 
