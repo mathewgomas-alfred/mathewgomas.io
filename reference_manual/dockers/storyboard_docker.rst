@@ -16,79 +16,89 @@ Storyboard Docker
 
 .. image:: /images/dockers/Storyboard_thumbnailonly_view.png
 
-A storyboard is a visual representation of an animation sequence and breaks down the 
-action into individual scenes. It is a series of ordered drawings, with dialogue, 
-action or other pertinent details. Storyboarding is used extensively during the 
-planning phase of animation to discuss and keep a record of how the story and animation 
-would actually play out. It is similar to a trial-run for your finished animation.
+A storyboard is a series of drawings and directions that outlines a film as a set of 
+scenes. These scenes may be accompanied with text which can provide additional context 
+such as dialog, action descriptions, or pertinent details needed for production. 
+Storyboarding is used extensively during the planning phase of a film to achieve a 
+better understanding of the overall production and its needs. Storyboards are 
+also useful for teams to discuss the scene-by-scene flow of a film or make any 
+necessary changes before entering the production phase.
 
-The Storyboard docker makes creating and managing storyboards easier in Krita. You can 
-add, remove and edit scenes and the comments in them. It is interactive with the timeline
-docker and the layer stack of Krita. It consists of a list of scenes that can be arranged 
-in different arrangements. It also supports exporting the storyboard to document formats 
-such as PDF and SVG.
+Krita's Storyboard Docker allows the user to develop a story by creating and managing scenes. This includes the 
+addition, removal, or adjustment of a scene. Users can also insert additional scenes between other scenes 
+when necessary, or reorder scenes via drag-and-drop. The storyboard's visual content exists within Krita's 
+internal animation system, which gives users the ability to preview the sequence using the Animation Timeline's
+transport controls. The storyboard docker also supports exporting the contents of a storyboard 
+to a document; The current supported formats for export are `SVG` and `PDF`.
 
-Upper buttons
--------------
+Toolbar Buttons
+-----------------
 
 .. image:: /images/dockers/Storyboard_uper_buttons.png
 
 .. _storyboard_export_menu:
 
 Export
-    A drop down menu which consists of the export options available for the storyboard.
-    This option can be used to export the storyboard to PDF or SVG documents. You can specify
+    A drop down menu with export options available for the current storyboard.
+    This can be used to export the storyboard to a desired format. You can specify
     the layout of the exported file using the export dialog options. This might be useful 
     when discussing ideas and planning the animation with teammates or if you want to show 
-    your animation's idea to some potential employer. For details about exporting see :ref:`exporting_storyboard`
+    your animation ideas to a potential client. Krita currently supports exporting
+    storyboards to `.pdf` or `.svg` formats. For additional details see :ref:`exporting_storyboard`
 
 .. _storyboard_comment_menu:
 
 Comment
-    A drop down menu which consists of a list of comments for storyboard items, a Delete 
-    Comment button and an Add Comment button. You can add comments to all panels, remove them
-    or change their visiblity from the drop down menu. Order of comments can also be changed by 
-    drag and drop. This menu changes things for every panel in the storyboard docker.
+    A drop down menu which consists of a list of comments for storyboard items which includes a 
+    `Delete Comment` button and an `Add Comment` button. You can add comment sections to all entries, 
+    remove comment sections, or change their visiblity from the drop down menu. The order
+    of comments can be changed using drag-and-drop. Actions within this menu will apply to
+    every entry within the storyboard docker.
 
     .. image:: /images/dockers/Storyboard_comment.png
 
 Lock
     This option is used to freeze the docker in its current state. When this option is enabled thumbnails, comments, 
-    duration and frame number do not change. Reordering of scenes using drag and drop is also disabled. This might be 
-    useful when tweening where you might not want the detailed frames in the storyboard docker or when you want to change 
-    something without affecting the storyboard.
+    duration and frame number do not change. Reordering of scenes using drag and drop is also be disabled. This can be used
+    to preserve the state of the storyboard docker even when modifying the contents of the image.
 
 .. _storyboard_arrange_menu:
 
 Arrange
-    A properties icon. It consists of View and Mode options which can be used to change the arrangement of scenes in the docker.
-    For details about views and modes see :ref:`storyboard_views_and_modes`
+    A drop-down menu which provides options for changing `View` and `Mode` settings. These settings change the 
+    arrangement of scenes withhin the docker. For additional details, see :ref:`storyboard_views_and_modes`
 
     .. image:: /images/dockers/Storyboard_arrange.png
 
 Storyboard Scene
 ----------------
 
-A storyboard scene displays a single scene in the storyboard. There can be multiple keyframes within the duration of a scene but the thumbnail shows only the first frame. It also shows other information related to the scene. Here, you can edit the fields such as name, duration and comments. Storyboard scenes can be added or removed before or after any other scene. The order of scenes can be changed using drag and drop. On changing order of scenes all keyframes within the duration of the scene will also be moved.
+A storyboard scene represents an individual scene in a larger prodcution. There can be multiple keyframes within 
+the duration of a single scene, with the thumbnail representing the first keyframe of a given scene. Each 
+scene has a header with editable fields -- such as scene names and durations. Storyboard scenes can be inserted before or 
+after any other scene. The order of scenes can be changed at any time using drag-and-drop. Changing the order of 
+scenes will be reflected appropriately in the timeline, where keyframes will be reordered to accomodate the new 
+desired scene order.
 
-Frame Number 
-    This shows the frame number for this scene in the timeline docker. This field cannot be edited.
+Frame Number
+    This shows the starting frame number of the scene. This field cannot be edited.
 Name
-    The scene name, use double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
-Duration in second
-    A spin-box. This will set the duration of the storyboard scene in seconds.
-Duration in frames
-    A spin-box. This will set the duration of the storyboard scene in frames.
+    The scene name. Double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
+
+Duration in Seconds
+    A spin-box. This will set the duration of the scene in seconds.
+Duration in Frames
+    A spin-box. This will set the duration of the scene in frames. Frames represent the division of seconds, which is dependant on the users' desired `Playback FPS` settings.
 Thumbnail
-    A thumbnail version of the canvas. Unlike the comments, it cannot be edited inside the docker, instead it shows the changes made to the canvas with some delay.
+    A thumbnail representing the contents of a scene. Unlike the comments, it cannot be edited inside the docker directly. Instead, changes must be made within the canvas after selection.
 Add Item
-    A button on the lower left corner of the thumbnail. Adds a storyboard scene after the duration of the current scene. The new scene will have the minimal possible duration.
+    A button on the lower left corner of the thumbnail that adds a new scene after the duration of the current scene. The new scene will start with a duration of 1 frame, which is the smallest possible length of a scene.
 Delete Item
-    A button on the lower right corner of the thumbnail. Deletes the current storyboard scene.
+    A button on the lower right corner of the thumbnail that deletes the current scene. The keyframe contents of the deleted scene will be transferred to the scene just before. This is used to prevent accidental data loss. 
 Comment Name
     Name of the comment field. This field is uneditable directly but can be edited from the :ref:`Comment menu <storyboard_comment_menu>`.
 Comment Field
-    The comment's content. Do double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
+    The comment content. Double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
 
 
 .. _storyboard_views_and_modes:
@@ -96,32 +106,32 @@ Comment Field
 Storyboard View and Modes
 -------------------------
 
-The View and Mode options are available in storyboard docker in the :ref:`Arrange menu <storyboard_arrange_menu>`.
-These options allow you to arrange the scenes in the storyboard.
+The View and Mode options for the Storyboard Docker are available via the :ref:`Arrange menu <storyboard_arrange_menu>`.
+These options allow the user to change the visual arrangement or elements of the scenes.
 
 View
-    These options allow you to choose which parts of the scene to show in the docker.
+    Options that filter which parts of the scene to show within the Storyboard Docker.
 
-    * Thumbnail Only : Only the thumbnail part of the scene is visible.
+    * Thumbnail Only : Show only the thumbnail portion of a scene.
 
         .. image:: /images/dockers/Storyboard_thumbnailonly_view.png
 
-    * Comments Only : Only the comments part of the scene is visible.
+    * Comments Only : Show only the comments section of a scene.
 
         .. image:: /images/dockers/Storyboard_commentonly_view.png
 
-    * All : The whole scene is visible.
+    * All : Show all elements of a scene.
 
         .. image:: /images/dockers/Storyboard_grid_mode.png
 
 Mode
-    These options allow you to choose the orientation of the scenes in the docker.
+    Allows the user to change the visual arrangement of scenes within the Storyboard Docker.
 
-    * Row : Scenes are arranged in a row-wise fashion. The scene's orientation is horizontal in this mode. That means comments are on the sides of thumbnails rather than below.
+    * Row : Scenes are arranged in a row-wise fashion. The scene's comments are on the right side of the thumbnail.
 
         .. image:: /images/dockers/Storyboard_row_mode.png
 
-    * Column : Scenes are arranged in column-wise fashion. The scene's orientation is vertical.
+    * Column : Scenes are arranged in column-wise fashion. The scene's comments are below the thumbnail.
 
         .. image:: /images/dockers/Storyboard_column_mode.png
 
@@ -137,9 +147,9 @@ Using Storyboard docker
 Adding Scenes
     There are two ways to add scenes :
 
-    * |mouseright| and :guilabel:`Add Scene After` or :guilabel:`Add Scene Before`
+    * |mouseright| and choose either :guilabel:`Add Scene After` or :guilabel:`Add Scene Before`
 
-    * Add button at the lower left corner of thumbnail of the scene, this is the same as :guilabel:`Add Scene After`.
+    * Press the `Add Button` at the lower left corner of thumbnail of the scene, this is the same as :guilabel:`Add Scene After`.
 
 Deleting Scenes
     There are two ways to delete scenes :
@@ -149,10 +159,10 @@ Deleting Scenes
     * Delete button at the lower right corner of thumbnail of scene, this is the same as :guilabel:`Remove Scene`.
 
     .. note::
-        Deleting scene in storyboard does not delete the keyframes at the scene's frame. Instead the duration of the deleted scene gets added to the previous scene.
+        Deleting scene in storyboard does not delete the keyframes at the scene's frame. Instead the duration of the deleted scene gets added to the previous scene. This is prevent accidental data loss upon removing a scene.
 
 Reordering Scenes
-    Scenes can be reordered using drag and drop. All the keyframes within the duration of that scene will move on reordering.
+    Scenes can be reordered using drag and drop. All the keyframes within the duration of that scene will move upon reordering.
 
 Managing Comment Fields
     * To add Comment fields, e.g. Action or Dialogue, go to :ref:`Comment menu <storyboard_comment_menu>` and click on the plus button at the bottom-left. A new comment field will be added to the list of comments. Change its name and press :kbd:`Enter`. This will add a comment field to all scenes in the docker. 
