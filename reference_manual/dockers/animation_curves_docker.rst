@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Overview of the animation curves docker.
+        Overview of the Animation Curves docker.
 
 .. metadata-placeholder
 
@@ -14,12 +14,25 @@
 Animation Curves Docker
 =======================
 
-The Animation Curve docker allows you to edit tweened sections by means of interpolation curves. As of this time of writing, it can only edit opacity.
+.. image:: /images/dockers/Animation_curves_docker_overview.png
 
-The idea is that sometimes what you want to animate can be expressed as a value. This allows the computer to do maths on the values, and automate tasks, like interpolation, also known as 'Tweening'. Because these are values, like percentage opacity, and animation happens over time, that means we can visualize the way the values are interpolated as a curve graph, and also edit the graph that way.
+Krita's Animation Curves docker allows artists to animate the values of scalar parameters over time.
 
-But, when you first open this docker, there's no curves visible!
-You will first need to add opacity keyframes to the active animation layer. You can do this by using the animation docker and selection :guilabel:`Add new keyframe`.
+When animating a complex cut, it's not unusual to want to animate things that would be difficult or inefficient to do through drawing alone. In traditional pen-and-paper animation dating back to the 1920s, special lighting rigs and purpose-built devices like multiplane cameras were used to pull off special effects that changed animation forever! Likewise, Krita's Animation Curves docker allows us to animate more than just the lines on your canvas, such as a layer's opacity or the position, rotation and scale of a Transform Mask.
+
+Because computers are great with numbers, maths and automation, and because most things can be boiled down to numeric values (for example, opacity as a percentage), we can plot and visualize the change in values over time on a simple 2D graph. What's more, we can also draw lines and curves that show the computer how we want it to calculate the values in between each of our plotted keyframe values; a technique that's known as interpolation or "tweening".
+
+********
+Overview
+********
+
+*****
+Usage
+*****
+
+When you first open the Animation Curves docker, you'll notice that there's no curves visible!
+
+We first need to add a keyframe to the active animation layer, by clicking on the :guilabel:`Add new keyframe` button on the docker's titlebar section.
 
 .. image:: /images/dockers/Animation_curves_1.png
 
