@@ -88,7 +88,7 @@ Name
 Duration in Seconds
     A spin-box. This will set the duration of the scene in seconds.
 Duration in Frames
-    A spin-box. This will set the duration of the scene in frames. Frames represent the division of seconds, which is dependant on the users' desired `Playback FPS` settings.
+    A spin-box. This will set the duration of the scene in frames. Frames represent the division of seconds, which is dependant on the users' desired `Frame Rate` setting.
 Thumbnail
     A thumbnail representing the contents of a scene. Unlike the comments, it cannot be edited inside the docker directly. Instead, changes must be made within the canvas after selection.
 Add Item
