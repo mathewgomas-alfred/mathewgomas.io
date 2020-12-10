@@ -48,7 +48,7 @@ As shown in the image above, Krita's Animation Timeline Docker can be thought of
 
 **C. Frame Table --** The Frame Table is a large grid of cells which can either hold a single keyframe or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame time*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but on frames, which can then be played back at any speed, depending on the animation's *frame rate* and *play speed* settings. For those who are familiar with pen-and-paper animation, you can think of the frame table as Krita's *dope sheet* or *time sheet*. 
 
-Keyframes can be moved around the timeline by simply left-clicking and dragging from one slot to another, even across layers. Furthermore, holding the :kbd:`Ctrl` key while dragging creates a copy, and holding the :kbd:`Alt` key while dragging creates a clone frame. Finally, right-clicking anywhere in the Frame Table will bring up a helpful context menu for adding, removing, copying, pasting or adjusting timing.
+Keyframes can be moved around the timeline by left-clicking and dragging from one slot to another, even across layers. Furthermore, holding the :kbd:`Ctrl` key while dragging creates a copy, and holding the :kbd:`Alt` key while dragging creates a clone frame. Finally, right-clicking anywhere in the Frame Table will bring up a context menu for adding, removing, copying, pasting or adjusting timing.
 
     * **Active Keyframe & Clones:** 
       
