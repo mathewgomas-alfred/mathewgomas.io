@@ -187,7 +187,7 @@ Exporting Storyboard
 
 The storyboard created using the docker can be exported to PDF or SVG documents. The :ref:`Export Menu <storyboard_export_menu>` offers options to export the storyboard.
 It has options to export as either a PDF or SVG document. Choosing any of the options will take you to the Export Dialog where you can choose the layout, that is, how scenes of the storyboard are arranged in the exported document.
-You can either choose the layout using custom options provided or using an SVG file. The Export dialog also provides options to choose the scenes to export.
+You can either set the layout using custom options provided or using an SVG file. The Export dialog also provides options for which the scenes to export.
 
 You can choose the range using the frame number of storyboard scene. The first two options in the dialog let you select the first and last frame to export. All scenes that have frame number in that range (inclusive of both the first and last) would be exported.
 There is also an option to choose the font size of any text on the document, such as scenes' name, duration or the comments.
