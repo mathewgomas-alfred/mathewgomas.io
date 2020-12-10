@@ -73,7 +73,7 @@ Arrange
 Storyboard Scene
 ----------------
 
-A storyboard scene represents an individual scene in a larger prodcution. There can be multiple keyframes within 
+A storyboard scene represents an individual scene in a larger production. There can be multiple keyframes within 
 the duration of a single scene, with the thumbnail representing the first keyframe of a given scene. Each 
 scene has a header with editable fields -- such as scene names and durations. Storyboard scenes can be inserted before or 
 after any other scene. The order of scenes can be changed at any time using drag-and-drop. Changing the order of 
