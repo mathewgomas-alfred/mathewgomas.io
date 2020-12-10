@@ -190,7 +190,7 @@ It has options to export as either a PDF or SVG document. Choosing any of these 
 You can either set the layout using custom options provided or using an SVG file. The Export dialog also provides options for which the scenes to export.
 
 You can choose the range using the frame number of storyboard scene. The first two options in the dialog let you select the first and last frame to export. All scenes that have frame number in that range (inclusive of both the first and last) would be exported.
-There is also an option to choose the font size of any text on the document, such as scenes' name, duration or the comments.
+Here you can also select the font size of any text on the document, such as scenes' name, duration or the comments.
 
 Specifying layout using custom options
     The following options are provided to specify layout :
