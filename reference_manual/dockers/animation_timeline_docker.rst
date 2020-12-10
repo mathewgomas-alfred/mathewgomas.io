@@ -16,7 +16,7 @@
 Animation Timeline Docker
 =========================
 
-The **Animation Timeline Docker** is at the heart of :program:`Krita`'s raster animation tools, providing everything you need to create, edit and preview traditional, hand-drawn animations.
+The **Animation Timeline Docker** is at the heart of :program:`Krita`'s raster animation tools, providing everything you need to create, edit and preview traditional hand-drawn animations.
 
 .. image:: /images/dockers/Timeline_docker.png
    :align: center
