@@ -171,7 +171,7 @@ Managing Comment Fields
     * To rearrange order of comment fields use drag and drop in the :ref:`Comment menu <storyboard_comment_menu>`.
 
 Adding Comments
-    To add a comment to a comment field in a scene, double click on the comment's area to make it editable and then after adding comment click outside of the area to save it.
+    To add a comment to a comment field in a scene, double click on the comment's area to make it editable. When finished, click outside of the area to save it.
 
 Changing duration
     Use the spin-box's up and down button to change duration by one. Double click to make the field editable by typing.
