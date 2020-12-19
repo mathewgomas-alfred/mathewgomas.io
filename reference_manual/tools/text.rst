@@ -37,6 +37,9 @@ Create new texts with...
         The letter-size used by newly created texts. It is in pts (points), which is a common standard for fonts that is measured 72 points per inch. It therefore will stay proportionally the same size if you increase or decrease canvas dpi.
     Anchor/Align text to the left/middle/right
         Text alignment. This allows you to align text to the left, center it, or to the right. This is called text-anchor because SVG 1.1's multiline text only uses text-anchor, and this is a slight bit different than text-align (and also the reason justify isn't available at the moment).
+    Letter Spacing
+        The letter spacing used by newly created texts.
+
 Edit Text
     This will summon the text editor for the currently selected shape. This can be quickly invoked with either pressing the :kbd:`Enter` key or :kbd:`double-click +` |mouseleft| shortcut on the shape.
 
@@ -48,7 +51,6 @@ A small window for all your text editing needs. The Text Editor has two tabs: Ri
 .. image:: /images/tools/Text-editor-example.png
 
 Activating
-
     You can use the Text tool to first create a text box. There are a few options in the tool options if you want to customize how the text will be adding. You will need to drag a rectangle on the canvas to create the text area. Once your text is created, you can edit the text from two ways:
     
     #. Select the text with the shape selection tool (first tool). Press the :kbd:`Enter` key. The text editor will appear.
@@ -57,12 +59,11 @@ Activating
 Editing
     If you are unfamiliar with the way SVG text works, use the rich text tab, it will allow you to edit the text as you see it, at the cost of not having all functionality.
 
-If you are a little bit more familiar with SVG text, you can directly edit the SVG source. Do note that certain things, like stroke, fill, letter-spacing don't convert back to the rich text editor, so do be careful when switching back.
+    If you are a little bit more familiar with SVG text, you can directly edit the SVG source. Do note that not all attributes and properties are converted back to the rich text editor, so do be careful when switching back.
 
-Press :guilabel:`Save` as you're done with your edits to preview them on canvas.
+    Press :guilabel:`Save` as you're done with your edits to preview them on canvas.
 
 File
-
     Save :kbd:`Ctrl + S`
         Save current edits to the text on canvas.
     Close :kbd:`Ctrl + W`
@@ -95,19 +96,16 @@ Edit
         Pops up a dialog with two inputs: The string you wish to find, and the string you wish to replace it with. Will always replace ALL found instances.
 
 View
-
     Zoom Out :kbd:`Ctrl + -`
         Zoom out the text.
     Zoom In :kbd:`Ctrl + +`
         Zoom in the text.
 
 Insert
-
     Special Character... :kbd:`Alt + Shift + C`
         Pops up a dialog that allows you to search for special characters that are difficult to type in with your keyboard.
 
 Format
- 
     Bold :kbd:`Ctrl + B`
         Set the font-weight to **bold**.
     Italic :kbd:`Ctrl + I`
@@ -128,9 +126,10 @@ Format
         Center the selected paragraph.
     Align Right :kbd:`Ctrl + Alt + R`
         Align the selected paragraph to the right.
+    Kerning
+        Toggles kerning for selected text.
 
 Settings
-
     Settings...
         Calls up the text-editor settings dialog.
 
@@ -149,7 +148,7 @@ Colors
     Element
         The format for highlighting the element tag name. **text** and **tspan** are examples of element names.
     Attribute
-        The format for highlighting the attributes of the tag. For example, font-family, when it isn't in the style tag is usually written as an attribute.
+        The format for highlighting the attributes of the tag. For example, ``font-family``, when it isn't in the ``style`` tag is usually written as an attribute.
     Value
         The format for highlighting value of attributes.
     Comment
@@ -165,15 +164,15 @@ Fonts
 Fine typographic control with the SVG Source tab
 ------------------------------------------------
 
-So, the rich text editor cannot control all functionality that SVG text allows for. For that, you will need to touch the SVG source directly. But to do that, you will first need to go to the text editor settings and enable either :guilabel:`SVG Source` or :guilabel:`Both`. The Rich Text editor will lose some information, so if you go all out, use :guilabel:`SVG Source`.
+So, the rich text editor cannot control all functionality that SVG text allows for. For that, you will need to touch the SVG source directly. But to do that, you will first need to go to the text editor settings and enable either :guilabel:`SVG Source` or :guilabel:`Both` editor mode. The Rich Text editor will lose some information, so if you go all out, use :guilabel:`SVG Source`.
 
 Word-spacing, Letter-spacing and Kerning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These three are written and read from the rich text tab, but have no sliders associated with them, because there was no time.
+These three are written and read from the rich text tab, but only two of them can be controlled from Rich Text tab.
 
 Kerning
-    `Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty>`_ behaves slightly differently than font-kerning in css. Krita by default uses the auto property for this, which means it is on. To turn it off use kerning:0 in the style section of the text.
+    `Kerning, in SVG 1.1 <https://www.w3.org/TR/SVG/text.html#KerningProperty>`_ behaves slightly differently than ``font-kerning`` in CSS. Krita by default uses the ``auto`` property for this, which means it is on. To turn it off use ``kerning: 0;`` in the ``style`` section of the text. Any other numeric value will be added to current ``letter-spacing``.
 
     .. image:: /images/tools/Krita_4_0_text_kerning.png
        :align: center
@@ -185,7 +184,8 @@ Kerning
         </text>
 
 Letter-spacing
-    This is the distance between letters in pts, usually. Just write ``letter-spacing`` in the style and add a distance in pts behind it. A negative value will decrease the value between letters.
+    This is the distance between letters in pts, usually. Just write ``letter-spacing`` in the ``style`` and add a distance in pts behind it. A negative value will decrease the value between letters.
+
 Word-spacing
     This is the extra distance between words, defaulting to pts. By default, ``word-spacing: 0;`` will have it use only the width of the space character for that font. A negative value will decrease the amount of space between words:
 
@@ -223,4 +223,4 @@ Dominant Baseline, Alignment baseline, Font-size-adjust, Writing mode, Glyph-ori
 
 These are not stored in the rich text right now, and while they can be written into the SVG text, the SVG text-shape doesn't do anything with them. 
 
-Krita generates font-size-adjust for the font when coming from rich text, as this can help designers when they want to use the SVG source as a basis for later adjustments.
+Krita generates ``font-size-adjust`` for the font when coming from rich text, as this can help designers when they want to use the SVG source as a basis for later adjustments.
