@@ -44,7 +44,7 @@ Shape:
 
     Radial
         This will draw the gradient from a center, defined by the start point, with a radius equal to the distance
-        between the start ans end points.
+        between the start and end points.
 
        .. figure:: /images/gradients/gradient_painter/radial.png
 
