@@ -127,3 +127,54 @@ HSV counter-clock wise.
     Gradients can have segment endpoints that use the currently selected Foreground or Background colors, and those endpoints can be transparent.  These features allow full compatibility with GIMP gradients.
 
 .. image:: /images/gradients/Krita_Segment_Gradient_Editor_Popup.png
+
+Generic Gradient Editor
+-----------------------
+In some places you will find that the previously mentioned gradient preset
+chooser and editors are shown together and that they are interconnected. When
+this happens, you are probably using the generic gradient editor, that was
+introduced to ease the creation and manipulation of gradients._
+It's main features are:
+
+* allows you to load/save gradients from/to the gradient resources to/from the
+  editor.
+* allows to overwrite an existing gradient resource.
+* a specific editor is shown automatically depending on the type of the
+  gradient (stop gradient or segmented gradient).
+* allows to convert between gradient types
+
+Following is a breakdown of the interface of the editor:
+
+.. image:: /images/gradients/generic_gradient_editor_breakdown.png
+
+1. Add gradient button. Pressing this button you can add the current gradient to
+   the resources.
+2. Update gradient button. Pressing this button you can overwrite the gradient
+   resource that is currently selected in the gradient chooser. Keep in mind
+   that the type of the gradient resource and the type of the gradient that is
+   currently being edited must match.
+3. Convert gradient button. Pressing this button you can convert the current
+   gradient to a stop gradient if it is a segmented gradient or to a segmented
+   gradient if it is a stop gradient.
+4. Convert gradient warning. This icon will appear when pressing the convert
+   button means that some data or info will be lost in the conversion. This can
+   happen when converting from a segmented gradient to a stop gradient.
+5. Gradient presets button. Pressing this button will pop-up a gradient preset
+   chooser to let you choose a gradient and edit it. This button is only
+   available if the "use a pop-up gradient preset chooser" is checked.
+6. Options button. Pressing this button will show an options menu.
+7. Specific editor area. Here the stop or segmented gradient editor will be
+   shown when a gradient is selected. The specific gradient editors are
+   documented in the previous sections.
+8. Gradient preset chooser. This widget shows a collection of gradient resources
+   and allows you to load one of those gradients into the editor.
+9. "Use a pop-up gradient preset chooser" option. If this option is checked, the
+   gradient preset chooser will be accessed through a pop-up window that is
+   shown by clicking the "choose gradient preset" button; If this option is not
+   checked then the gradient preset chooser is shown inline above all the other
+   widgets.
+10. "Show compact gradient preset chooser" option. If this option is checked,
+    then only the collection of gradient resources is shown, without any
+    surrounding buttons or options. If it is not checked then the gradient
+    preset chooser will also show some extra buttons, like tag filtering or
+    viewing options.
