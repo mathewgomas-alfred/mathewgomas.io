@@ -17,7 +17,7 @@ Storyboard Docker
 .. image:: /images/dockers/Storyboard_thumbnailonly_view.png
 
 A storyboard is a series of drawings and directions that outlines a film as a set of 
-scenes. These scenes may be accompanied with text which can provide additional context 
+scenes. These scenes may be accompanied with text that can provide additional context 
 such as dialog, action descriptions, or pertinent details needed for production. 
 Storyboarding is used extensively during the planning phase of a film to achieve a 
 better understanding of the overall production and its needs. Storyboards are 
@@ -165,10 +165,12 @@ Reordering Scenes
     Scenes can be reordered using drag and drop. All the keyframes within the duration of that scene will move upon reordering.
 
 Managing Comment Fields
-    * To add Comment fields, e.g. Action or Dialogue, go to :ref:`Comment menu <storyboard_comment_menu>` and click on the plus button at the bottom-left. A new comment field will be added to the list of comments. Change its name and press :kbd:`Enter`. This will add a comment field to all scenes in the docker. 
-    * To delete a comment field, select it and press the Delete button at the bottom-right corner of :ref:`Comment menu <storyboard_comment_menu>`.
+    The storyboard docker allows for the management of multiple optional comment fields. While some projects might require only one comment field for dialog per scene, some might require additional fields that describe character actions or camera directions. The :ref:`Comment menu <storyboard_comment_menu>` allows the user to configure these comment fields.
+    
+    * To make a new comment field, go to :ref:`Comment menu <storyboard_comment_menu>` and click on the plus button at the bottom-left. A new comment field will be added to the menu. Change its name and press :kbd:`Enter`. Every scene will now have the new comment field available to edit.
+    * To delete a comment field, select it and press the Delete button at the bottom-right corner of the :ref:`Comment menu <storyboard_comment_menu>`.
     * To toggle visiblity of a comment field click on the eye icon.
-    * To rearrange order of comment fields use drag and drop in the :ref:`Comment menu <storyboard_comment_menu>`.
+    * To rearrange the order of comment fields use drag and drop in the :ref:`Comment menu <storyboard_comment_menu>`.
 
 Adding Comments
     To add a comment to a comment field in a scene, double click on the comment's area to make it editable. When finished, click outside of the area to save it.
