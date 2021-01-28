@@ -178,7 +178,7 @@ You do not have to set environment variables in order to run Krita.
 .. code:: console
 
     you@yourcomputer:~> cd ~/kritadev/
-    you@yourcomputer:~> ./i/bin/krita
+    you@yourcomputer:~> ./install/bin/krita
 
 .. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
