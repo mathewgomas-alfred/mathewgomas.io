@@ -184,7 +184,7 @@ rst_epilog = """
 
 .. |toolselectpath| image:: /images/icons/path_select_tool.svg
 
-.. |toolselectoutline| image:: /images/icons/outline_select_tool.svg
+.. |toolselectfreehand| image:: /images/icons/freehand_select_tool.svg
 
 .. |toolselectcontiguous| image:: /images/icons/contiguous_select_tool.svg
 

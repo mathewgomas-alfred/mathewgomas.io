@@ -17,7 +17,7 @@ Magnetic Selection Tool
 
 |toolselectmagnetic|
 
-This tool, represented by a magnet over a selection border, allows you to make freeform :ref:`selections_basics`, but unlike the :ref:`polygonal_selection_tool` or the :ref:`outline_selection_tool`, it will try to magnetically snap to sharp contrasts in your image, simplifying the creation of selection drastically.
+This tool, represented by a magnet over a selection border, allows you to make freeform :ref:`selections_basics`, but unlike the :ref:`polygonal_selection_tool` or the :ref:`freehand_selection_tool`, it will try to magnetically snap to sharp contrasts in your image, simplifying the creation of selection drastically.
 
 There are two ways to make a magnetic selection:
 

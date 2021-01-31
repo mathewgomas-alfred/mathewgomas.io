@@ -38,7 +38,7 @@ The contents of the toolbox docker.
    tools/measure
    tools/rectangular_select
    tools/elliptical_select
-   tools/outline_select
+   tools/freehand_select
    tools/polygonal_select
    tools/contiguous_select
    tools/path_select

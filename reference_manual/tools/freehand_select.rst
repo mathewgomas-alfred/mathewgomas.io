@@ -1,6 +1,6 @@
 .. meta::
    :description:
-        Krita's outline selection tool reference.
+        Krita's Freehand Selection tool reference.
 
 .. metadata-placeholder
 
@@ -12,19 +12,20 @@
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Tools, Selection, Freehand, Outline Select
-.. _outline_selection_tool:
+.. _freehand_selection_tool:
 
-======================
-Outline Selection Tool
-======================
+=======================
+Freehand Selection Tool
+=======================
 
-|toolselectoutline|
+|toolselectfreehand|
 
-Make :ref:`selections_basics` by drawing freehand around the canvas. Click and drag to draw a border around the section you wish to select.
+Make :ref:`selections_basics` by freely drawing the selection outline around the canvas. Click and drag to draw a border around the section you wish to select.
 
 .. important::
 
-    Most of the behavior of the Outline Selection Tool is common to all other selection tools, please make sure to read :ref:`selections_basics` to learn more about this tool.
+    This tool was previously called as the Outline Selection tool. Starting from Krita 4.4.2 release it has been renamed to Freehand Selection Tool.
+    Most of the behavior of the Freehand Selection Tool is common to all other selection tools, please make sure to read :ref:`selections_basics` to learn more about this tool.
 
 
 Hotkeys and Sticky keys
@@ -37,16 +38,16 @@ Hotkeys and Sticky keys
 * :kbd:`Alt +` |mouseleft| sets the subsequent selection to 'subtract'.
 * :kbd:`Ctrl +` |mouseleft| sets the subsequent selection to 'replace'.
 * :kbd:`Shift + Alt +` |mouseleft| sets the subsequent selection to 'intersect'.
-* Holding :kbd:`Ctrl` key while drawing the selection temporarily makes this tool to behave like polygon selection tool and you can then draw straight line selections by just clicking on canvas.
+* Holding the :kbd:`Ctrl` key while drawing the selection temporarily makes this tool behave like the Polygon Selection tool and you can then draw straight line selections by just clicking on the canvas.
 
 .. versionadded:: 4.2
 
-   * Hovering your cursor over the dashed line of the selection, or marching ants as it is commonly called, turns the cursor into the move tool icon, which you |mouseleft| and drag to move the selection.
+   * Hovering your cursor over the dashed line of the selection, or marching ants as it is commonly called turns the cursor into the move tool icon, which you |mouseleft| and drag to move the selection.
    * |mouseright| will open up a selection quick menu with amongst others the ability to edit the selection.
 
 .. image:: /images/tools/selections-right-click-menu.png
    :width: 200
-   :alt: Menu of outline selection
+   :alt: Menu of Freehand Selection
 
 .. tip::
 
@@ -54,14 +55,14 @@ Hotkeys and Sticky keys
 
 .. tip::
 
-    This tool is not bound to any Hotkey, if you want to define one, go to :menuselection:`Settings --> Configure Krita --> Keyboard Shortcuts` and search for 'Outline Selection Tool', there you can select the shortcut you want. Check :ref:`shortcut_settings` for more info.
+    This tool is not bound to any Hotkey, if you want to define one, go to :menuselection:`Settings --> Configure Krita --> Keyboard Shortcuts` and search for 'Freehand Selection Tool', there you can select the shortcut you want. Check :ref:`shortcut_settings` for more info.
 
 
 Tool Options
 ------------
-.. image:: /images/tools/selections-outline-selection-options.png
+.. image:: /images/tools/selections-freehand-selection-options.png
    :width: 300
-   :alt: Outline selection options
+   :alt: Freehand Selection options
 
 Mode
     This option is explained in the :ref:`pixel_vector_selection` section.
