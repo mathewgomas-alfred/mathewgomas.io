@@ -18,17 +18,19 @@ Animation Timeline Docker
 
 The **Animation Timeline Docker** is at the heart of :program:`Krita`'s raster animation tools, providing everything you need to create, edit and preview traditional hand-drawn animations.
 
-.. image:: /images/dockers/Timeline_docker.png
+.. image:: /images/dockers/Animation_Timeline_Docker.png
    :align: center
 
 Overview
 --------
 
-As shown in the image above, Krita's Animation Timeline Docker can be thought of as three sections:
+As shown in the image above, Krita's Animation Timeline Docker can be thought of as different sections:
 
-**A. Toolbar --** The Toolbar section gives animators quick access to all of the widgets that are critical to their workflow; transport controls (previous, play/pause, stop and next buttons), a frame counter, preview controls (speed and drop frames), and buttons for quickly creating new frames and deleting unwanted ones. While all of the high-traffic controls are presented directly, the right end of the toolbar also contains buttons for opening submenus for things like onion skins and settings that you can generally set and forget (for example, playback range, frame rate and autokey mode). 
+**A. Utilities --** The left side of the toolbar gives animators quick access to all of the widgets that are critical to their workflow; transport controls (previous, play/pause, stop and next buttons), a frame counter, preview controls (speed and drop frames), and buttons for quickly creating new frames and deleting unwanted ones.
 
-**B. Layer List --** This area contains some subset of the layers of your current document. Similar to the Layers Docker, each layer has various properties that can also be toggled here (visibility, locking, onion skins, etc.).  While the currently active layer is always shown here, layers can also be "pinned" to the timeline using the pin button to the left of each layer's name, the :guilabel:`Pin to Timeline` menu action, or the :guilabel:`Pin Existing Layer` submenu so they will be visible even when inactive. Layers that are created via the Timeline are pinned automatically and by checking the :guilabel:`Automatically pin new layers to timeline` option in :guilabel:`Settings --> Configure Krita... --> General --> Miscellaneous` all new paint layers can be pinned automatically.
+**B. Settings --** While all of the high-traffic controls are presented directly, the right end of the toolbar also contains buttons for opening submenus for things like onion skins and settings that you can generally set and forget (for example, playback range, frame rate and autokey mode).
+
+**C. Layer List --** This area contains some subset of the layers of your current document. Similar to the Layers Docker, each layer has various properties that can also be toggled here (visibility, locking, onion skins, etc.).  While the currently active layer is always shown here, layers can also be "pinned" to the timeline using the pin button to the left of each layer's name, the :guilabel:`Pin to Timeline` menu action, or the :guilabel:`Pin Existing Layer` submenu so they will be visible even when inactive. Layers that are created via the Timeline are pinned automatically and by checking the :guilabel:`Automatically pin new layers to timeline` option in :guilabel:`Settings --> Configure Krita... --> General --> Miscellaneous` all new paint layers can be pinned automatically.
 
     * **Active Layer:** 
      
@@ -46,7 +48,7 @@ As shown in the image above, Krita's Animation Timeline Docker can be thought of
       
     This special widget allows you to zoom in and out on the Frame Table, centered around the current frame time. Click-dragging from within the zoom handle controls the zoom level.
 
-**C. Frame Table --** The Frame Table is a large grid of cells which can either hold a single keyframe or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame time*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but on frames, which can then be played back at any speed, depending on the animation's *frame rate* and *play speed* settings. For those who are familiar with pen-and-paper animation, you can think of the frame table as Krita's *dope sheet* or *time sheet*. 
+**D. Frame Table --** The Frame Table is a large grid of cells which can either hold a single keyframe or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame time*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but on frames, which can then be played back at any speed, depending on the animation's *frame rate* and *play speed* settings. For those who are familiar with pen-and-paper animation, you can think of the frame table as Krita's *dope sheet* or *time sheet*. 
 
 Keyframes can be moved around the timeline by left-clicking and dragging from one slot to another, even across layers. Furthermore, holding the :kbd:`Ctrl` key while dragging creates a copy, and holding the :kbd:`Alt` key while dragging creates a clone frame. Finally, right-clicking anywhere in the Frame Table will bring up a context menu for adding, removing, copying, pasting or adjusting timing.
 
@@ -78,7 +80,9 @@ Keyframes can be moved around the timeline by left-clicking and dragging from on
     
     * **Zoomable Scrollbar:**
     
-    Not only can the scrollbar at the bottom of Animation Timeline Docker be used to pan the frame table by dragging left and right, it can also be used to quickly zoom in and out by dragging up and down. Pan and zoom in one flick of a wrist! 
+    Not only can the scrollbar at the bottom of Animation Timeline Docker be used to pan the frame table by dragging left and right, it can also be used to quickly zoom in and out by dragging up and down. Pan and zoom in one flick of a wrist!
+    
+**E. Onion Skins Docker --** Technically a separate docker, the Onion Skins Docker is used in conjunction with the Animation Timeline docker to help animators see how their animation changes between neighboring keyframes. The onion button on the Animation Timeline docker can be used to quickly toggle the visibility of the Onion Skins Docker. For more information about the Onion Skins Docker, please read the :ref:`Onion Skins` reference page.
     
 
 Usage
