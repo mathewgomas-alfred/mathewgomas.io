@@ -34,7 +34,7 @@ As shown in the image above, Krita's Animation Timeline Docker can be thought of
 
     * **Active Layer:** 
      
-    A highlighted row in the table shows the currently active layer. One can change which layer is active by clicking on the layer's name within the left header. It is *not* possible to change the active layer by clicking inside the table in order to not disturb the user when scrubbing and editing frame positions on the timeline.
+    The **active layer** is the layer that you're currently able to edit or draw on, shown as a highlighted row in the layer list. Clicking a layer within the layer list will make it the currently active layer.
     
     * **Layer Menu:** 
       
@@ -54,11 +54,11 @@ Keyframes can be moved around the timeline by left-clicking and dragging from on
 
     * **Active Keyframe & Clones:** 
       
-    Right now, it's only possible to view and draw on one keyframe at a time. This is known as the *active keyframe*, and is represented on the frame table as a block filled with diagonal stripes. Often, in simple animations, the active keyframe will be the frame on the *active layer* that is on or just before the current time, but when the active keyframe has been cloned all of the **clone frames** of the active keyframe will also be shown as active, since all drawing, painting and editing on one frame will also change all of its clones (since they are the exact same frame under the hood).
+    Right now, it's only possible to view and draw on one keyframe at a time. This is known as the *active keyframe*, and is represented on the frame table as a block filled with diagonal stripes. Often, in simple animations, the active keyframe will be the frame on the *active layer* that is on or just before the current time. However, if the active keyframe has one or more **clone frames** all drawing, painting and editing will also affect all of its clones. Clone frames share the exact same image data under the hood.
 
     * **Current Selection:**
      
-    Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding or removing frames or holds within the current selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
+    Frames highlighted in orange represent a selection or multiple selections, which can be created by mouse or keyboard. While multiple frames are selected, right-clicking anywhere in the Frame Table will bring up a context menu that will allow for adding and removing keyframes or holds within the current selection. Finally, it is also possible to have multiple non-contiguous/separate selections if needed.
  
         .. warning::
 
@@ -66,11 +66,11 @@ Keyframes can be moved around the timeline by left-clicking and dragging from on
 
     * **Keys, Blanks & Holds:**
 
-    The Timeline Docker now shows us even more useful information about both what is there as well as what is not. **Key frames** which contain drawings are still displayed as *filled blocks* within a cell, while **blank** or empty key frames are shown as a *hollow outline*. In Krita, every drawn frame is automatically held until the next frame; these **holds** are now clearly shown with a *colored line* across all held frames. Each keyframe can also be assigned a color label, as a matter of personal organization and workflow. 
+    In Krita, we call the images that make up your animation **key frames**. Within the frame table, key frames that contain drawings are displayed as *filled blocks* within a cell, while **blank** or empty key frames are shown as a *hollow outline*. In Krita, every drawn key frame is automatically held until the next key frame; these **holds** are shown clearly with a *colored line* that's drawn across all held frames. Each keyframe can also be assigned a color label, as a matter of personal organization and workflow. 
 
     * **Frame Timing Header & Cached Frames:** 
       
-    The Frame Timing Header is a ruler at the top of the Frame Table. This header is divided into small notched sections which are based on the current *frame rate* (set in the animation settings submenu at the right end of the toolbar). Integer multiples of the frame rate have a subtle double-line mark, while smaller subdivisions have small single-line marks. Each major notch is marked with a helpful *frame number*.
+    The Frame Timing Header is a ruler at the top of the Frame Table. This header is divided into small notched sections which are based on the current *frame rate* (set in the animation settings submenu at the right end of the toolbar). While each frame is marked with a single line, each second is marked by a subtle double-line. Major notches are also marked by a frame number.
       
     The Frame Timing Header also shows important information about which frames are currently *cached*. When something is said to be "cached", that means that it is stored in your device's working memory (RAM) for extra fast access. Cached frames are shown by the header with a small light-gray rectangle in each column. While this information isn't always critical for us artists, it's helpful to know that Krita is working behind the curtains to cache our animation frames for the smoothest possible experience when scrubbing through or playing back your animation.
 

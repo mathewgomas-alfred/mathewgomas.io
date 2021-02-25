@@ -14,13 +14,13 @@
 Animation Curves Docker
 =======================
 
-.. image:: /images/dockers/Animation_curves_docker_overview.png
-
 Krita's Animation Curves docker allows artists to animate the values of scalar parameters over time.
 
 When animating a complex cut, it's not unusual to want to animate things that would be difficult or inefficient to do through drawing alone. In traditional pen-and-paper animation dating back to the 1920s, special lighting rigs and purpose-built devices like multiplane cameras were used to pull off special effects that changed animation forever! Likewise, Krita's Animation Curves docker allows us to animate more than just the lines on your canvas, such as a layer's opacity or the position, rotation and scale of a Transform Mask.
 
 Because computers are great with numbers, maths and automation, and because most things can be boiled down to numeric values (for example, opacity as a percentage), we can plot and visualize the change in values over time on a simple 2D graph. What's more, we can also draw lines and curves that show the computer how we want it to calculate the values in between each of our plotted keyframe values; a technique that's known as interpolation or "tweening".
+
+.. image:: /images/dockers/Animation_Curves_Docker.png
 
 ********
 Overview
