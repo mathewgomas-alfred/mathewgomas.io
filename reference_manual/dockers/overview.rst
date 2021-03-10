@@ -28,3 +28,7 @@ There are furthermore basic navigation functions: Dragging the zoom-slider allow
 .. versionadded:: 4.4.3
 
     Starting with version 4.4.3 the rotation can be set by manipulating the angle selector, either through the circular gauge or the spin box, and can be reset by double-clicking the circular gauge.
+
+.. versionadded:: 5.0
+
+    If you check the "pin navigation controls" button, the controls (zoom, rotation, etc.) will always be visible. In the other hand, if the button is unchecked, the controls will automaticaly hide when the mouse goes outside the docker, and automaticaly shown when it goes over the docker.
