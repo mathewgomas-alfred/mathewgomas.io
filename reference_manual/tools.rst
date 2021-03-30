@@ -30,7 +30,7 @@ The contents of the toolbox docker.
    tools/transform
    tools/fill
    tools/gradient_draw
-   tools/color_selector
+   tools/color_sampler
    tools/colorize_mask
    tools/smart_patch
    tools/assistant

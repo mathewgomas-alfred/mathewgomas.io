@@ -162,7 +162,7 @@ rst_epilog = """
 
 .. |toolmeasure| image:: /images/icons/measure_tool.svg
 
-.. |toolcolorpicker| image:: /images/icons/color_picker_tool.svg
+.. |toolcolorsampler| image:: /images/icons/color_sampler_tool.svg
 
 .. |toolfill| image:: /images/icons/fill_tool.svg
 

@@ -162,7 +162,7 @@ Locked Pattern
 Mix
 ---
 
-Allows you to affect the mix of the :ref:`option_source` color with Sensors. It will work with Plain Color and Gradient as source. If Plain Color is selected as source, it will mix between foreground and background colors selected in color picker. If Gradient is selected, it chooses a point on the gradient to use as painting color according to the sensors selected.
+Allows you to affect the mix of the :ref:`option_source` color with Sensors. It will work with Plain Color and Gradient as source. If Plain Color is selected as source, it will mix between the currently selected foreground and background color. If Gradient is selected, it chooses a point on the gradient to use as painting color according to the sensors selected.
 
 .. image:: /images/brushes/Krita_2_9_brushengine_mix_01.png
 

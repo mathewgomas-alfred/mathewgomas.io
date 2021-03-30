@@ -47,10 +47,10 @@ You can do the same for :guilabel:`Redo`, :guilabel:`Deselect`, :guilabel:`Inver
 
     Krita 3.0 currently doesn't allow changing the text in the toolbar, we're working on it.
 
-Right click color picker
-~~~~~~~~~~~~~~~~~~~~~~~~
+Right click color sampler
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can actually set this in :menuselection:`Settings --> Configure Krita... --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Pick Foreground Color from Merged Image` to get a window to set it to |mouseright|.
+You can actually set this in :menuselection:`Settings --> Configure Krita... --> Canvas input settings --> Alternate invocation`. Just double-click the entry that says :kbd:`Ctrl +` |mouseleft| shortcut before :guilabel:`Sample Foreground Color from Merged Image` to get a window to set it to |mouseright|.
 
 .. note::
 

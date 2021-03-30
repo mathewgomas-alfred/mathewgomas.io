@@ -28,7 +28,7 @@ Hotkeys and Sticky keys
 
 The freehand brush tool's hotkey is :kbd:`B`.
 
-* The alternate invocation is the ''color picker'' (standardly invoked by the :kbd:`Ctrl` key). Press the :kbd:`Ctrl` key to switch the tool to "color picker", use left or right click to pick fore and background color respectively. Release the :kbd:`Ctrl` key to return to the freehand brush tool.
+* The alternate invocation is the ''color sampler'' (standardly invoked by the :kbd:`Ctrl` key). Press the :kbd:`Ctrl` key to switch the tool to "color sampler", use left or right click to sample fore and background color respectively. Release the :kbd:`Ctrl` key to return to the freehand brush tool.
 * The Primary setting is "size" (standardly invoked by the :kbd:`Shift` key). Press the :kbd:`Shift` key and drag outward to increase brush size. Drag inward to decrease it.
 * You can also press the :kbd:`V` key as a stickykey for the straight-line tool.
 

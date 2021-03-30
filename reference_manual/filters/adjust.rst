@@ -157,7 +157,7 @@ The default shortcut for this filter is :kbd:`Ctrl + I`.
 Auto Contrast
 -------------
 
-Tries to adjust the contrast the universally acceptable levels.
+Tries to adjust the contrast to universally acceptable levels.
 
 .. index:: Hue, Saturation, Lightness, Value, Brightness, Chroma
 

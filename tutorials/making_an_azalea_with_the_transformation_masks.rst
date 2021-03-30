@@ -40,7 +40,7 @@ First we make a bunch of branches. I picked a slightly darker color here than us
 .. image:: /images/making-azalea/Azelea_02_drawing-flowers.png
     :alt: Making the outline of the flowers.
 
-Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not color pick the red, but we guess at it. This is good practice, so we can learn to analyze a color as well as how to use our color selector. If we’d only pick colors, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
+Then we make an approximation of a single flower on a layer. We make a few of these, all on separate layers. We also do not sample the red from the image with the color sampler tool, but we guess at it. This is good practice, so we can learn to analyze a color as well as how to use our color selector. If we’d only sample colors from the image, it would be difficult to understand the relationship between them, so it’s best to attempt matching them by eye.
 
 .. image:: /images/making-azalea/Azelea_03_filling-flowers.png
     :alt: Coloring the details and filling the flowers.
