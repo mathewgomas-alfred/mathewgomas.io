@@ -146,6 +146,11 @@ Spacing
 Brush Mode
 ''''''''''
 
+.. figure:: /images/brushes/brush_tip_modes.png
+   :alt: the different modes demonstrated.
+   
+   Different modes shown with different brush tips.
+
 Alpha Mask
     For colored brushes, don't paint the actual colors, but make a grayscale brush tip that will be colored by your selected foreground/background color. Lighter areas will be interpreted as more transparent.
 Color Image
@@ -164,4 +169,4 @@ Lightness Map
         Increase the contrast between dark and light areas in the tip.
 Gradient Map
     .. versionadded:: 4.4    
-        Use the lightness values of the brush tip image as a map to a gradient.  Black maps to the left side of the gradient, and white to the right side of the gradient.  The gradient used is the currently selected gradient in the main window, so you can change the gradient quickly and easily while painting.  This mode allows image stamps with multiple colors that can be changed (great for flowers or other colorful vegetation), and can allow paint brushes that have multiple colors.  Image adjustment sliders for Lightness Map mode can be used for this mode too.
+        Use the lightness values of the brush tip image as a map to a gradient.  Black maps to the left side of the gradient, and white to the right side of the gradient.  The gradient used is the currently selected gradient in the main window, so you can change the gradient quickly and easily while painting.  This mode allows image stamps with multiple colors that can be changed (great for flowers or other colorful vegetation), and can allow paint brushes that have multiple colors.  Image adjustment sliders for Lightness Map mode can be used for this mode too. A tutorial for this mode is here: :ref:`gradient_brush_tips` .
