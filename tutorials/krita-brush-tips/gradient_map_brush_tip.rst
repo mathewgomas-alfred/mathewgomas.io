@@ -1,6 +1,6 @@
 .. meta::
    :description property=og\:description:
-        Krita Brush-tips is an archive of brush-modification tutorials done by the krita-foundation.tumblr.com account based on user requests.
+        How to use gradient map brush tips for loading multiple colors onto a brush.
 
 .. metadata-placeholder
 
