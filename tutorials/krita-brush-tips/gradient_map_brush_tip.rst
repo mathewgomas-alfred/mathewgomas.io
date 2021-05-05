@@ -14,7 +14,7 @@
 Gradient Map Brush Tips
 =======================
 
-Used in Rosemåling and single-stroke flower paintings, the technique of loading two separate colors can be emulated in Krita with gradient-mapped tips.
+Used in Rosemåling and single-stroke flower paintings, the technique of loading two separate colors can be emulated in Krita with :ref:`gradient-mapped brush tips <predefined_brush_tip>`.
 
 Gradient mapped tips work much in the same way as the gradient map filter does: The grey-values of each pixel in the brush is mapped to the gradient color. As gradients can have some of their colors be assigned to be the fore or background color, you can effectively make dual-loaded brush tips this way.
 

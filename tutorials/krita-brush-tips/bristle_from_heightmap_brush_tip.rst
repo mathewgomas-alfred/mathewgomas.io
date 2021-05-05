@@ -16,7 +16,7 @@ Heightmap Bristle Brush Tips
 
 When looking at oil paintings, especially the impressionistic ones, it is hard not to be in awe of the effect the visible brush strokes have on the the painting. While a digital painting program is a fundamentally different medium from the oil paint one, we can utilize some tricks to get visible brush strokes.
 
-The simplest way to get a visible brush stroke is to select a predefined brush. If you select one with several separate dots, and lower the spacing to 0.02, you can get a sort of brush stroke effect. But we can do better, for example, how about a brush which gives more coverage, the harder you press?
+The simplest way to get a visible brush stroke is to select a :ref:`predefined brush <predefined_brush_tip>`. If you select one with several separate dots, and lower the spacing to 0.02, you can get a sort of brush stroke effect. But we can do better, for example, how about a brush which gives more coverage, the harder you press?
 
 .. figure:: /images/brush-tips/sharpness_bristle_examples_0.png
    :alt: Image showing a simple bristle-like stroke.
@@ -81,7 +81,7 @@ However, this sharpness option is not available for the color smudge brush, so w
 Animated pressure brush
 -----------------------
 
-You can make brush tips that are animated.
+You can make brush tips that are :ref:`animated <animated_brush_tips>`.
 
 If we take our example brush, and duplicate that layer 16 times or so.
 

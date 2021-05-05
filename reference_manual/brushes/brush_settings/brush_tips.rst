@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         How to use brush tips in Krita.
 
 .. metadata-placeholder

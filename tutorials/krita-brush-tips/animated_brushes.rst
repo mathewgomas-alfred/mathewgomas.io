@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description property=og\:description:
         A brief explanation about animated brushes and how to use them.
 
 .. metadata-placeholder
@@ -10,16 +10,11 @@
 .. _brush_tip_animated_brush:
 .. _animated_brush_tips:
 
-===========================
-Brush-tips:Animated Brushes
-===========================
+================
+Animated Brushes
+================
 
-Question
---------
-
-I was messing with the brushes and noticed there is an option for them to be "animated". What does it mean and how do I use it?
-
-Basically, they're what are officially called ‘image hoses’, and they're quite fun. They are basically brush-tips with multiple image files.
+Animated brushes are officially called ‘image hoses’, and they're quite fun. They are basically :ref:`brush tips <predefined_brush_tip>` with multiple image files.
 
 The typical way to make them is to first draw the ‘frames’ on a small canvas, per layer:
 
@@ -34,23 +29,23 @@ You can use the :kbd:`Alt +` |mouseleft| shortcut on the layer thumbnails to iso
 
 When done you should have a mess like this.
 
-Go into the brush settings (:kbd:`F5` key), and go to predefined brush-tips, and click stamp. You will get this window.
+Go into the brush settings (:kbd:`F5` key), and go to predefined brush-tips, and click :guilabel:`stamp`. You will get this window.
 
 .. image:: /images/brush-tips/Krita-animtedbrush2.png
     :alt: Predefined brush tips dialog.
 
 And then use style **animated** and selection mode set to **random**.
 
-Krita uses Gimp’s image hose format which allows for random selection of the images, angle based selection, pressure based selection, and incremental selection (I have no idea what constant does).
+Krita uses :ref:`Gimp’s image hose format <file_gih>` which allows for random selection of the images, angle based selection, pressure based selection, and incremental selection.
 
-.. image:: /images/brush-tips/Krita-animtedbrush3.png
-    :alt: Animated brush image dialog.
-
-Then select the above brush and your new leafy-brush tip.
+When you create a brushtip, Krita will automatically switch to it for the current brush, but you will always be able to find it in the predefined brushes tab.
 
 .. image:: /images/brush-tips/Krita-animtedbrush4.png
     :alt: Result of an animated brush.
 
-And use it to paint trees! (for example)
+And now you can use it to paint trees! (for example)
 
-You can also use animated brush tips to emulate, for example, bristle brush tips that go from very fine bristles to a fully opaque stamp based on pressure, like a dry paintbrush might do. To do this, you would follow the above instructions, but for each layer, create a different cross-section of the brush to correspond with the amount of pressure applied.
+You can also use animated brush tips to emulate :ref:`bristle brush tips <heightmap_bristle_brush_tips>` that go from very fine bristles to a fully opaque stamp based on pressure, like a dry paintbrush might do. Or make incremental patterns like the ones you see on porcelain.
+
+.. image:: /images/brush-tips/Krita-animtedbrush_incremental_example.png
+    :alt: Incremental brush tip example.
