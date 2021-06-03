@@ -256,7 +256,7 @@ Photobash Images Docker
 
 Animator Reference Plugin
 
-    The plugin allows you to load videos into Krita. You can then import frames to use as reference images.
+    This plugin allows you to load videos into Krita. You can then import frames to use as reference images.
 
     https://github.com/scottpetrovic/animator-video-reference
 
