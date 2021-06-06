@@ -20,6 +20,8 @@ Krita has several options for allowing you to import an animation.
 Import Frames
 -------------
 
+Frame import will import a list of images into an animation layer. This is a format that most other animation software can export, and thus very useful for interchange.
+
 .. image:: /images/animation/Animation_set_everything.png
 
 Add images.
@@ -45,12 +47,14 @@ Start at
 Step
    The amount of frames to input for each imported frame. For importing a 6 fps animation into a 24 fps animation, you will need to set this to 24 / 6 = 4. This will ensure the playback speed stays the same.
 Source FPS
-   This displays what Krita thinks the fps of the input is with the current timing settings. You can use this to make sure that the input you made is correct with the input
+   This displays what Krita thinks the fps of the input is with the current timing settings. You can use this to make sure that the input you made is correct with the FPS of your document.
 
 .. _import_video_animation:
 
 Import video file
 -----------------
+
+Video import allows you to import a sample of a video file as an animated paint layer.
 
 .. image:: /images/animation/import_video.png
 
@@ -96,6 +100,8 @@ Duration
    Length of the imported animation.
 Import into
    Document to import the file into. Options are current document and new document. With new document, extra options become available on the second tab.
+
+.. warning:: Videos, because you usually only play them in a media player, are compressed in special ways. Because Krita is designed to allow you to draw each individual frame, this data gets uncompressed. What this means is that even though you can watch a video file on your computer, you likely cannot import all the frames into Krita. A warning will be displayed and inform you how many frames you can import with your current setup.
 
 Options
 ~~~~~~~
