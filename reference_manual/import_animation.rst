@@ -15,8 +15,12 @@ Import Animation
 
 Krita has several options for allowing you to import an animation.
 
+.. _import_frames:
+
 Import Frames
 -------------
+
+.. image:: /images/animation/Animation_set_everything.png
 
 Add images.
    Add frames. You can select multiple frames in the file chooser.
@@ -27,6 +31,7 @@ Add hold frames automatically.
 
 Order
 ~~~~~
+
 Ascending vs Descending
    Whether it will import the frames in order from lowest to highest (ascending), or from highest to lowest (descending).
 Numerical vs Alphabetical
@@ -42,9 +47,12 @@ Step
 Source FPS
    This displays what Krita thinks the fps of the input is with the current timing settings. You can use this to make sure that the input you made is correct with the input
 
+.. _import_video_animation:
 
 Import video file
 -----------------
+
+.. image:: /images/animation/import_video.png
 
 Choose a video file
    This will bring up a file chooser for you to select the file in question.
@@ -64,43 +72,42 @@ Width
 Height
    The height of the current file.
 Duration
-   The duraction in seconds.
+   The duration in seconds.
 Frames
    The total amount of frames
 FPS
    The frames per second.
+Color Primaries
+   The name of the color space primaries Krita has detected. These will be used for the color profile with which the file imports. Only shows up on files where this data is detected.
+Color Transfer
+   The name of the color space trc that Krita has found. This too will be used for the color profile. Only shows up on files where this data is detected.
 
 
-Export Options (???? Aren't these import options???????????)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Import Options
+~~~~~~~~~~~~~~
 
 FPS
-   ???
+   The FPS to import at. Importing 2 seconds of footage at 24 fps will import 48 frames, and at 60 fps, 120 frames will be imported.
 Skip Interval
-   ???
+   Same as :guilabel:`Step` in the :ref:`Import Frames<import_frames>` section.
 Start at
    Time code to start at.
 Duration
    Length of the imported animation.
 Import into
-   Document to import the file into. Options are current document and new document. With new document, second 
+   Document to import the file into. Options are current document and new document. With new document, extra options become available on the second tab.
 
 Options
 ~~~~~~~
-The options tab....
 
 Document Options
 """"""""""""""""
 Only enabled when the import is into a new document.
 
 Width
-   Width in pixels
+   Width of the new document.
 Height
-   Height in pixels
-Resolution
-   Resolution in pixels per inch
-Model, Depth, Profile
-   Select the color model for the document.
+   Height of the new document.
 
 Import Video Scale
 """"""""""""""""""
@@ -117,6 +124,6 @@ FFMpeg
 """"""
 
 FFMpeg Path
-   Path to the ffmpeg executable.
+   Path to the ffmpeg executable, necessary for importing the video data.
 FFProbe path
-   Path to the ffmpeg probe executable, which helps determining the required features.
+   Path to the ffmpeg probe executable, which is included with ffmpeg. This allows Krita to learn the video information from the file.
