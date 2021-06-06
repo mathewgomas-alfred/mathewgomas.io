@@ -15,13 +15,13 @@ Recorder Docker
 
 .. versionadded: 5.0
 
-You may have seen artists show little progress movies of their work. This is called a time lapse! Normally a time lapse is recorded using outside software, like OBS, and then sped up around 16 times, and they are used to convey the whole amount of effort that went into an image. The recorder docker simplifies making a timelapse, by taking a snapshot every stroke and then letting you :ref:`render it to a video file with ffmpeg <render_animation>`. Because this docker relies on FFMpeg, it cannot be used on Android.
+You may have seen artists show little progress movies of their work. This is called a time lapse! Normally a time lapse is recorded using outside software, like OBS, and then sped up around 16 times, and they are used to convey the whole amount of effort that went into an image. The recorder docker simplifies making a time lapse, by taking a snapshot every stroke and then letting you :ref:`render it to a video file with ffmpeg <render_animation>`. Because this docker relies on FFMpeg, it cannot be used on Android.
 
 The recorder docker makes a snapshot of the canvas every few seconds, or at the end of every stroke. You can tell it's turned on because there will be a :guilabel:`recording` symbol in the status bar, which is red when it's making snapshots and white when it's on standby.
 
-It stores these snapshots as :ref:`JPEGs <file_jpeg>` in a designated folder, and keeps tabs on which of these belong to which drawing. Because JPEG doesn't support above 8 bit, the docker currently does not work for higher bits depths. Because it stores the snapshots, that means you can take breaks, close the image, turn off the computer, come back a month later. However, snapshots can take up quite a bit of space, so if you are running out of space, don't forget to check the temporary folder!
+Because it stores the snapshots, that means you can take breaks, close the image, turn off the computer, come back a month later. However, snapshots can take up quite a bit of space, so if you are running out of space, don't forget to check the temporary folder!
 
-At the end, you can turn the snapshots into a video file, ready for your favourite video sharing site.
+At the end, you can turn the snapshots into a video file, ready for your favorite video sharing site.
 
 .. note::
 
@@ -33,21 +33,31 @@ At the end, you can turn the snapshots into a video file, ready for your favouri
 Docker Options
 --------------
 
+.. image:: /images/dockers/recorder_docker.png
+
 Recordings Directory:
    The directory where the snapshots are kept. Note the :guilabel:`Manage Recordings` button, which will assist you in selecting old recordings to remove.
 Capture Interval:
-   ???
+   The minimum capture interval. The recorder docker takes a picture when the image changes, but will wait for this capture interval to pass before making a new snap shot. This means quick strokes will not each require a new snapshot. Increase this if you want less snapshots to be recorded during a painting session, or if you are experiencing slowdowns.
+Format:
+   The file format to use for the snap shots. :ref:`file_jpeg` is faster, but :ref:`file_png` is better for very sharp images.
 Quality:
    Control the quality of the JPEG snapshots. The lower the quality, the lower the file size, but too low and you will get a messy looking recording.
+Compression:
+   Control the compression of the PNG snapshots. Greater value will produce smaller files, but will take more processing power. This is recommended to be set to be between 1 and 3 for a good balance between speed and file size.
 Resolution:
    Lower the resolution of the snapshot. This can drastically reduce size without losing too much quality.
 Record in Isolate Mode.
-   Record when isolate mode is on. May cause flickering. (??????)
+   Record when :ref:`layer isolate mode <layer_docker>` is on. As isolate mode hides all the other layers, it can result in a lot of flickering during the resulting time lapse. Only turn this on when you are not in the habit of switching layers often when in isolate mode.
 Record automatically
    Start recording the instant an image is created or loaded. This option is useful for those who want to record each of their drawings.
 
 Finally, there's :guilabel:`Record` and :guilabel:`Export`. The former starts and stops recording. The latter lets you render the current drawing's timelapse.
 
+
+.. figure:: /images/dockers/recorder_docker_snapshot_manager.png
+
+   The recordings manager window. This is a list of recordings you have, and how much space they take. You can select recordings to delete them.
 
 Export Options
 --------------
@@ -57,11 +67,11 @@ Compare these options with the one on the :ref:`render_animation` page, as they 
 Recording info:
    Shows what kind of frames and how many frames are taken into account when creating the final video file. Pressing :guilabel:`Open Record Directory` will allow you to open the folder where the recordings are located in your file browser.
 Input FPS:
-   How many frames per second should go in. For example, to make your time lapse twice faster, this value should be double that of the :guilabel:`Video fps`. (???: note, the tooltip for this is very engrish)
+   How many frames per second should go in. For example, to make your time lapse twice faster, this value should be double that of the :guilabel:`Video fps`.
 Video FPS:
    The actual FPS of the video.
 Resize:
-   Scale the final video. (?????)
+   Scale the final video.
 FFMpeg:
    The location of the ffmpeg executable.
 Render As:
