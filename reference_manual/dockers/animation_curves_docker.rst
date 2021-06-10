@@ -108,4 +108,34 @@ Finally, click or scrub to a different frame time, add another keyframe, and use
 
 Press the **play button** and (after a little bit of caching) there you have it, a layer with an animated Transform Mask!
 
+********
+Controls
+********
+
+#. **Channels List**
+
+    * |mouseleft| on Eye Icon: Toggle show/hide channel.
+    * :kbd:`Shift +` |mouseleft| on Eye Icon: Solo channel.
+    * |mouseright| : Open layer or channel context menu. [Reset Channel(s)]
+    
+#. **Graph View**
+
+    * |mouseleft| : Select keyframe.
+    * |mouseleft| :kbd:`+ drag` : *Move* frame(s).
+    * |mouseleft| double-click : Select all keyframes at time.
+    * :kbd:`Alt +` |mouseleft| double-click : Select all keyframes of channel.
+    * :kbd:`Space +` |mouseleft| : Pan.
+    * :kbd:`Space +` |mouseright| : Zoom.
+    
+#. **Frame Timing Header**
+
+    * |mouseleft| : Move to time and select frame of the active layer.
+    * |mouseleft| :kbd:`+ drag` : Scrub through time and select frame of the active layer.
+
+#. **Value Header**
+
+    * |mouseleft| :kbd:`+ drag` : Zoom graph view.
+    * :kbd:`Space +` |mouseleft| :kbd:`+ drag` : Pan graph view.
+
+
 
