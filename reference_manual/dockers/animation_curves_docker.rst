@@ -14,7 +14,7 @@
 Animation Curves Docker
 =======================
 
-Krita's Animation Curves Docker allows artists to animate the values of some properties over time.
+:program:`Krita`'s **Animation Curves Docker** allows artists to animate the values of some properties over time.
 
 When animating a complex cut, it's not unusual to want to animate things that would be difficult or inefficient to do through drawing alone. In traditional pen-and-paper animation dating back to the 1920s, special lighting rigs and purpose-built devices like multiplane cameras were used to pull off special effects that changed animation forever! Likewise, Krita's Animation Curves docker allows us to animate more than just the lines on your canvas, such as a layer's opacity or the position, rotation and scale of a Transform Mask.
 
