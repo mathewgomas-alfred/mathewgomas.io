@@ -48,7 +48,7 @@ Starting with :program:`Krita 5`, we can use the Animation Curves Docker to anim
          
 Let's look first at animating a layer's **opacity**:
 
-Say you want to animate something like am expanding cloud of dust that gradually becomes more transparent as it dissipates, or maybe a haunting ghost that seems to materialize out of thin air. These types of effects are pretty hard to get right by traditionally animated line drawings alone, and that's exactly where the Animation Curves Docker can step in.
+Say you want to animate something like an expanding cloud of dust that gradually becomes more transparent as it dissipates, or maybe a haunting ghost that seems to materialize out of thin air. These types of effects are pretty hard to get right by traditionally animated line drawings alone, and that's exactly where the Animation Curves Docker can step in.
 
 After **selecting the layer** that you want to animate the opacity of, you need to **select the frame time you want the opacity to start chaning at** by clicking somewhere on the **timing header** at the top of the graph view. Just like the Animation Timeline Docker, we can click and drag anywhere on the timing header to "scrub" across your animation and preview the results.
 
