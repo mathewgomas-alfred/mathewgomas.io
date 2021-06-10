@@ -90,7 +90,9 @@ Much like how we animated opacity above, we need to add our first transformation
 
  .. warning::
 
-         Remember (as of Krita 5.0) we can only *directly* animate the opacity curve of a layer. In order to animate a layer's position, rotation, scale and shear, we need to attach a Transform Mask and animate it instead. As such, *when you have a regular paint layer selected* the Animation Curves Docker will automatically add opacity keyframes, and *when you have a transform mask selected* the Animation Curves Docker will automatically add transformation keyframes. Try to always keep in mind what type of layer you have selected when animating curves in Krita. 
+         Remember (as of Krita 5.0) we can only *directly* animate the opacity curve of a layer. In order to animate a layer's position, rotation, scale and shear, we need to attach a Transform Mask and animate it instead. 
+         
+         As such, *when you have a regular paint layer selected* the Animation Curves Docker will automatically add opacity keyframes, and *when you have a transform mask selected* the Animation Curves Docker will automatically add transformation keyframes. Try to always keep in mind what type of layer you have selected when animating curves in Krita. 
          
 You should see a whole bunch of channels appear in the channels list, each with a unique name and color, as well as a number of corresponding keyframes. 
 
