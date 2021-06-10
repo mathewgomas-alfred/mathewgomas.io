@@ -48,7 +48,11 @@ As shown in the image above, Krita's Animation Timeline Docker can be thought of
       
     This special widget allows you to zoom in and out on the Frame Table, centered around the current frame time. Click-dragging from within the zoom handle controls the zoom level.
 
-**D. Frame Table --** The Frame Table is a large grid of cells which can either hold a single keyframe or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame time*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. It's important to understand that frame timings are not based on units of time like seconds, but on frames, which can then be played back at any speed, depending on the animation's *frame rate* and *play speed* settings. For those who are familiar with pen-and-paper animation, you can think of the frame table as Krita's *dope sheet* or *time sheet*. 
+**D. Frame Table --** The Frame Table is a large grid of cells which can either hold a single keyframe or be empty. Each row of the Frame Table represents an *animation layer* and each column represents a *frame time*. Just like the Layer List, the active layer is highlighted across the entire Frame Table. For those who are familiar with pen-and-paper animation, you can think of the frame table as Krita's *dope sheet* or *time sheet*.
+
+        .. warning::
+
+         It's important to understand that frame timings are not based on units of time like seconds, but on **frames**, which can then be played back at any speed, depending on the animation's *frame rate* and *play speed* settings.
 
 Keyframes can be moved around the timeline by left-clicking and dragging from one slot to another, even across layers. Furthermore, holding the :kbd:`Ctrl` key while dragging creates a copy, and holding the :kbd:`Alt` key while dragging creates a clone frame. Finally, right-clicking anywhere in the Frame Table will bring up a context menu for adding, removing, copying, pasting or adjusting timing.
 
@@ -106,16 +110,16 @@ I know that's a lot of info to digest, but all you really need to know to get st
 Tips
 ----
 
+* There are a couple subtle features built into the docker's transport controls that you might find useful. For example, clicking the **stop button** *while your animation is playing* will jump back to whatever frame you started playing from, and clicking it again *when your animation is not playing* will jump back to the first frame of your animation. Similarly, the **next keyframe button** will jump the selection to the next available keyframe on the active layer, but *if there is no next keyframe on that layer it will use the timing of your animation to estimate where you may want to place your next keyframe, and jump to that position.* While a bit advanced, nuances like this mean that the Animation Timeline Docker's buttons (and keybind-able actions) almost always do something useful for animators.
+
 * It's possible to add multiple keyframes by right-clicking inside the Frame Table and selecting :menuselection:`Keyframes --> Insert Multiple Keyframes`. With this option you can specify a number of frames to add with the option of built in timing for quickly creating a series of 1s, 2s, 3s, etc. These settings are saved between uses.
 
 * You can also change the color of keyframes within the frame table so that you can easily identify important frames or distinguish between different sections of your animation. The current color selection is remembered for new frames so that you can easily make a set of colored frames and then switch to another color. (By the way, it's even possible to quickly jump between frames of the same color by assigning a keyboard shortcut to `Previous/Next Matching Keyframe`.)
 
-* Clicking with |mouseright| within the Frame Timing Header instead of the Frame Table gives you access to a few more options which allow you to add or remove entire columns of frames or holds at a time. For example, selecting :menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add new frames to each layer that's currently visible in the Timeline Docker.
+* Clicking with |mouseright| within the Frame Timing Header instead of the Frame Table gives you access to a few more option which allow you to add or remove entire columns of frames or holds at a time, as well as reset your animation cache if needed. For example, selecting :menuselection:`Keyframe Columns --> Insert Keyframe Column Left` will add new frames to each layer that's currently visible in the Timeline Docker.
 
 .. image:: /images/dockers/Timeline_insertkeys.png
    :align: center
-
-* :program:`Krita` only tracks key frame changes. This is unlike some other programs, where you have to manually indicate how long a key frame will hold. Instead, :program:`Krita` just assumes that the space between key frame 1 and key frame 2 is supposed to be filled with key frame 1. Frames that are held in this way (a.k.a. "holds") are displayed as a continuous line in the Frame Table.
 
 * To delete frames, |mouseright| the frame and press :guilabel:`Remove Keyframe`. This will delete all selected frames. Similarly, selecting :guilabel:`Remove Frame and Pull` will delete the selected frames and pull or shift all subsequent frames back/left as much as possible.
 
@@ -134,7 +138,7 @@ Controls
     * |mouseleft| :kbd:`+ drag` : Scrub through time and select frame of the active layer.
     * |mouseright| : Frame Columns Menu (insert/remove/copy/paste columns and hold columns).
 
-#. **Frames Table: all**
+#. **Frames Table**
 
     * |mouseleft| : Selects a single frame or slot and switches time, but *does not switch active layer*.
     * :kbd:`Space +` |mouseleft| : Pan.
