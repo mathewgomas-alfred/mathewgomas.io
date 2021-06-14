@@ -10,6 +10,7 @@
              - Nathan Lovato
              - Pedro Reis <pedroreis.ad@protonmail.com>
              - Agata Cacko <tamtamy.tymona@gmail.com>
+             - Christopher Hanna <channa@pm.me>
 
    :license: GNU free documentation license 1.3 or later.
 
