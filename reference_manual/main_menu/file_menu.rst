@@ -6,7 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
-             - Boudewijn Rempt <boud@valdyas.org>
+             - Halla Rempt <boud@valdyas.org>
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: New File, Open, Save, Export, Import, Close, Template
