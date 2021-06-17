@@ -237,7 +237,7 @@ If you're using Windows, you can set the display scaling to 150% or 200%. Krita 
 You can also change the toolbox icon size by right-clicking on the toolbox and selecting a size.
 
 Windows: In full-screen mode, why is there a thin gap at the bottom of the window?
----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 When :ref:`Canvas Graphics Acceleration <display_settings>` is set to OpenGL, you may see a thin gap at the bottom of the window which you can see through. This is done deliberately to work around a bug causing menus and dropdowns to be unusable. If you find it distracting, you can consider changing the Renderer to Direct3D 11 which doesn't require this workaround.
 

@@ -23,7 +23,7 @@ Krita for image manipulation tasks, such as stitching together photos, while
 Krita's tools are most relevant to digital painting, concept art, illustration,
 and texturing. This fact accounts for a great deal of Krita's design.
 
-You can download this manual as an epub `here <https://docs.krita.org/en/epub/KritaManual.epub>`_.
+You can download this manual as an `EPUB <https://docs.krita.org/en/epub/KritaManual.epub>`_.
 
 +--------------------------------------------------------+--------------------------------------------------+
 | .. image:: /images/intro_page/Hero_userManual.jpg      | .. image:: /images/intro_page/Hero_tutorials.jpg |
