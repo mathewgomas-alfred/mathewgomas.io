@@ -52,7 +52,7 @@ Krita should automatically use the system language. If that is not the case, ple
 #. With :menuselection:`Settings --> Switch Application Language...` menu item will appear a small window.
 #. Click :guilabel:`Primary language` and select your language.
 #. Click :guilabel:`OK` to close the window.
-#. Restart krita and it will be displayed in your selected language!
+#. Restart krita, and it will be displayed in your selected language!
 
 If this doesn't work, you might have to add a fall-back language as well. This is a bug, but we haven't found the solution yet.
 
@@ -67,11 +67,11 @@ I have a problem, how to get support for Krita?
 
 #. Describe your issue. You can add screenshots and videos, but even if you do that, write a few words what the video shows and what the issue is.
 
-#. State all relevant details: most importantly your operating system (Windows, MacOS, Linux...), which version of Krita you use (go to :menuselection:`Help --> About Krita` to find out) and what kind of tablet you have (if your issue is related to a tablet driver).
+#. State all relevant details: most importantly your operating system (Windows, macOS, Linux...), which version of Krita you use (go to :menuselection:`Help --> About Krita` to find out) and what kind of tablet you have (if your issue is related to a tablet driver).
 
 #. Answer all questions your supporter asks, even if you don't think they're relevant. They probably have a reason to ask about that.
 
-#. If you don't know the answer or you don't know how to get the information your supporter asks for, don't hesitate to ask for clarification.
+#. If you don't know the answer, or you don't know how to get the information your supporter asks for, don't hesitate to ask for clarification.
 
 #. If you mentioned an issue, please help with testing if you're asked to do that -- that will speed up the process of finding the cause and preparing a fix.
 
@@ -94,10 +94,10 @@ Linux
     :file:`$HOME/.config/kritarc`
 Windows
     :file:`%APPDATA%\\Local\\kritarc`
-MacOS X
+macOS
     :file:`$HOME/Library/Preferences/kritarc`
 
-The kritarc file is the configuration file. Krita does not store settings in the Windows registry.
+The ``kritarc`` file is the configuration file. Krita does not store settings in the Windows registry.
 
 .. _faq_reset_krita_configuration:
 
@@ -106,33 +106,32 @@ Resetting Krita configuration
 
 You can reset the Krita configuration in one of the following ways:
 
-- .. versionadded:: 4.3 You can reset the configurations from the GUI. Click on :menuselection:`Settings --> Reset Krita Configurations`, and a pop-up to confirm the action will appear. Even if you choose to reset the configurations, a backup kritarc file is created named 'kritarc.backup'. If you rename this back to kritarc, you will use the configurations before the reset. The backup file can be accessed here:
+- .. versionadded:: 4.3 You can reset the configurations from the GUI. Click on :menuselection:`Settings --> Reset Krita Configurations`, and a pop-up to confirm the action will appear. Even if you choose to reset the configurations, a backup ``kritarc`` file is created named ``kritarc.backup``. If you rename this back to ``kritarc``, you will use the configurations before the reset. The backup file can be accessed here:
     
     Linux
         :file:`$HOME/.config/kritarc.backup`
     Windows
         :file:`%LOCALAPPDATA%\\kritarc.backup`
-    MacOS X
+    macOS
         :file:`$HOME/Library/Preferences/kritarc.backup`
 
 -  Press and hold :kbd:`Shift + Alt + Ctrl` while starting Krita. This should show a pop-up asking if you want to reset the configuration. Press :guilabel:`yes` to reset it.
 
--  For Krita 3.0 and later: Delete/rename the kritarc file, found here:
+-  For Krita 3.0 and later: Delete/rename the ``kritarc`` file, found here:
 
     Linux
         :file:`$HOME/.config/kritarc`
     Windows
         :file:`%LOCALAPPDATA%\\kritarc`
-    MacOS X
+    macOS
         :file:`$HOME/Library/Preferences/kritarc`
 
-There can be two other files you might want to remove: kritaopenglrc and
-kritadisplayrc.
+There can be two other files you might want to remove: ``kritaopenglrc`` and ``kritadisplayrc``.
 
 If the configuration was causing a crash, don't delete the mentioned file, but instead rename and
 send it to us in order for us to figure what caused the crash.
 
-If you have installed Krita through the Windows store, the kritarc file will be in another location
+If you have installed Krita through the Windows store, the ``kritarc`` file will be in another location
 
 :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\\Local\\kritarc`
 
@@ -149,7 +148,7 @@ There are two possible reasons:
 
 - You don't save your settings. 
 
-This is most probable if you are on Windows and you have either a display with a small resolution (below fullHD) or if you have fullHD resolution with UI scaling in Windows settings (which is 150% by default). In those cases it might happen that you don't see the :guilabel:`OK` button in the :guilabel:`Configure Krita` dialog. You can use :kbd:`Alt + O` instead. (You can go to :menuselection:`Configure Krita... --> General --> Window` and make sure that :guilabel:`Enable HiDPI` checkbox is unchecked to disable scaling for Krita and get a smaller UI).
+This is most probable if you are on Windows and you have either a display with a small resolution (below full HD) or if you have full HD resolution with UI scaling in Windows settings (which is 150% by default). In those cases it might happen that you don't see the :guilabel:`OK` button in the :guilabel:`Configure Krita` dialog. You can use :kbd:`Alt + O` instead. (You can go to :menuselection:`Configure Krita... --> General --> Window` and make sure that :guilabel:`Enable HiDPI` checkbox is unchecked to disable scaling for Krita and get a smaller UI).
 
 - You close your computer using the power button.
 
@@ -162,7 +161,7 @@ Linux
     :file:`$HOME/.local/share/krita/`
 Windows
     :file:`%APPDATA%\\krita\\`
-Mac OS X
+macOS
     :file:`~/Library/Application Support/Krita/`
 
 If you installed Krita in the Windows Store, your custom resources will be in a location like:
@@ -173,9 +172,9 @@ Krita tells me it can't find some files and then closes, what should I do?
 
 Causes for this could be the following:
 
--  It might be that your download got corrupted and is missing files (common with bad wifi and bad internet connection in general), in that case, try to find a better internet connection before trying to download again. Krita should be around 80 to 100 MB in size when downloading.
--  It might be that something went wrong during installation. Check whether your harddrive is full and reinstall Krita with at least 120 MB of empty space. If not, and the problem still occurs, there might be something odd going on with your device and it's recommended to find a computer expert to diagnose what is the problem.
--  Some unzippers don't unpack our ZIP files correctly. The native ones on Windows, OSX and most Linux distributions should be just fine, and we recommend using them.
+-  It might be that your download got corrupted and is missing files (common with bad Wi-Fi and bad internet connection in general), in that case, try to find a better internet connection before trying to download again. Krita should be around 80 to 100 MB in size when downloading.
+-  It might be that something went wrong during installation. Check whether your hard drive is full and reinstall Krita with at least 120 MB of empty space. If not, and the problem still occurs, there might be something odd going on with your device, and it's recommended to find a computer expert to diagnose what is the problem.
+-  Some unzip programs don't unpack our ZIP files correctly. The native ones on Windows, macOS and most Linux distributions should be just fine, and we recommend using them.
 -  You manually, using a file manager deleted or moved resources around, and thus Krita cannot find them anymore.
 
 What Graphics Cards does Krita support?
@@ -202,14 +201,14 @@ There is no text support for PSD file yet. The text will appear rasterized and c
 How much memory does my image take?
 -----------------------------------
 
-For simple images, its easy to calculate: you multiply width \* height \* channels \* size of the channels (so, for a 1000×1000 16 bit integer rgba image: 1000 x 1000 x 4 x 2). You multiply this by the number of layers plus two (one for the image, one for the display). If you add masks, filter layers or clone layers, it gets more complicated.
+For simple images, it's easy to calculate: you multiply width \* height \* channels \* size of the channels (so, for a 1000×1000 16-bit integer RGBA image: 1000 × 1000 × 4 × 2). You multiply this by the number of layers plus two (one for the image, one for the display). If you add masks, filter layers or clone layers, it gets more complicated.
 
 Why do I get a checkerboard pattern when I use the eraser?
 ----------------------------------------------------------
 
 You’re probably used to Gimp or Photoshop. The default background or first layer in these applications doesn’t have an alpha channel by default. Thus, on their background layer, the eraser paints in the background color.
 
-In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent  you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, Gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (The :kbd:`Ins` key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
+In Krita, all layers have an alpha channel, if you want to paint in the background color, you should simply do it in a layer above the first one (Layer 1), that would prevent you from erasing the white background color, making the checkerboard visible. You get the same effect in, say, Gimp, if you create new image, add an alpha channel and then use the eraser tool. Most Krita users will actually start a sketch in Krita by adding a new blank layer first before doing anything else. (The :kbd:`Ins` key is a useful shortcut here). That doesn’t use extra memory, since a blank layer or a layer with a default color just takes one pixel worth of memory.
 
 Can krita work with 8 bit (indexed) images?
 -------------------------------------------
@@ -237,7 +236,7 @@ If you're using Windows, you can set the display scaling to 150% or 200%. Krita 
 
 You can also change the toolbox icon size by right-clicking on the toolbox and selecting a size.
 
-Windows: In fullscreen mode, why is there a thin gap at the bottom of the window?
+Windows: In full-screen mode, why is there a thin gap at the bottom of the window?
 ---------------------------------------------------------------------------------
 
 When :ref:`Canvas Graphics Acceleration <display_settings>` is set to OpenGL, you may see a thin gap at the bottom of the window which you can see through. This is done deliberately to work around a bug causing menus and dropdowns to be unusable. If you find it distracting, you can consider changing the Renderer to Direct3D 11 which doesn't require this workaround.
@@ -277,16 +276,16 @@ Windows: Krita cannot open my file anymore
 
 Your file got corrupted. There are several things that might cause this:
 
-#. Windows was shutdown improperly, like by holding the power button. This prevents your harddrive from finishing up the things it is doing and file away your files incorrectly. Please always try to shutdown your computer via the proper shutdown procedure, and if you are in a situation where this is not possible (like frequent blackouts), make daily backups! This may lead to the file being filled with zeroes, so it cannot be recovered from.
+#. Windows was shutdown improperly, like by holding the power button. This prevents your hard drive from finishing up the things it is doing and file away your files incorrectly. Please always try to shut down your computer via the proper shutdown procedure, and if you are in a situation where this is not possible (like frequent blackouts), make daily backups! This may lead to the file being filled with zeroes, so it cannot be recovered from.
 
     .. versionchanged:: 4.2.8
         
-        Krita version 4.2.8 introduced special safety measure for Windows that should help avoiding this situation. But in any case, unless something makes it impossible, always make sure to shutdown your system using the standard approach. On Windows that means going to Start menu and selecting "Shutdown".
+        Krita version 4.2.8 introduced special safety measure for Windows that should help to avoid this situation. But in any case, unless something makes it impossible, always make sure to shut down your system using the standard approach. On Windows that means going to Start menu and selecting "Shutdown".
 
 #. Badly programmed security software may attempt to rewrite KRA files, or prevent Krita from writing to the folder you wish to save to. These cases can be checked by trying to save in that location, and then, without shutting down Krita, checking in the folder to see if the file saved. Files lost due this cannot be recovered.
-#. Cloud services like dropbox and onedrive have been known to prevent Krita from saving. We've implemented fixes for this, but much like the above point it is worth checking that this isn't the cause of the issue. Files lost due this cannot be recovered.
-#. Occasionally the ZIPs that KRA files comprise of will have the last few bytes missing. We're doing everything in our power to prevent this kind of corruption, but it might be a file system issue. This particular bug can be fixed by renaming the extension (in windows you will need to enable the file extensions, which this FAQ will not cover) to ZIP, and then using a ZIP repairing utility to fix the ZIP file. Then rename it back to KRA.
-#. If Krita doesn't give an error message, but rather crashes, your file is too big, and Krita is not so much crashing as that the operating system is shutting it down. Try shutting down some other programs like webbrowsers or streaming services to free up working memory. You should be able to open the file in question. At this point the recommended course of action is to try and reduce the file size in some manner, such as merging layers, splitting up an animation or scaling the image down.
+#. Cloud services like Dropbox and OneDrive have been known to prevent Krita from saving. We've implemented fixes for this, but much like the above point it is worth checking that this isn't the cause of the issue. Files lost due this cannot be recovered.
+#. Occasionally the ZIP files that KRA files consist of will have the last few bytes missing. We're doing everything in our power to prevent this kind of corruption, but it might be a file system issue. This particular bug can be fixed by renaming the extension (in windows you will need to enable the file extensions, which this FAQ will not cover) to ZIP, and then using a ZIP repairing utility to fix the ZIP file. Then rename it back to KRA.
+#. If Krita doesn't give an error message, but rather crashes, your file is too big, and Krita is not so much crashing as that the operating system is shutting it down. Try shutting down some other programs like web browsers or streaming services to free up working memory. You should be able to open the file in question. At this point the recommended course of action is to try and reduce the file size in some manner, such as merging layers, splitting up an animation or scaling the image down.
 
 
 How to recover my files?
@@ -297,7 +296,7 @@ How to recover my files?
     #. Try to open (your system should automatically select an archive opener tool).
     #. There is file called mergedimage.png inside that represents all layers merged that you can use for reference in case you can't restore anything else.
 #. Check whether ZIP repairer tool helps.
-    #. Copy the file so you have a backup just in case.
+    #. Copy the file, so you have a backup just in case.
     #. Rename the extension of the file from ``.kra`` to ``.zip``.
     #. Use ZIP repairer tool on the ``.zip`` file.
 
@@ -320,7 +319,7 @@ How to recover my files?
     #. Try to open in Krita.
     #. If it cannot be opened in Krita, try the trick from 2.: open the archive and find mergedimage.png file.
 
-#. Open your file in Notepad or any other text editor. If the the content of the file is only a repeated *NUL* symbol, it means the file is most probably unrecoverable using the standard method. If it's of a very high importance for you, you can try to recover the previous save using methods that checks the hard drive directly.
+#. Open your file in Notepad or any other text editor. If the content of the file is only a repeated *NULL* symbol, it means the file is most probably unrecoverable using the standard method. If it's of a very high importance for you, you can try to recover the previous save using methods that checks the hard drive directly.
 
 
 Krita crashes on Windows 7 on start-up
@@ -342,14 +341,14 @@ Windows: How can I produce a backtrace?
 
     :ref:`Dr. Mingw debugger <dr_minw>`
 
-If you experience a crash on Windows, and can reproduce the crash, the bug report will be much more valuable if you can create a backtrace. A backtrace is somewhat akin to an airplane's blackbox, in that they tell what set of instructions your computer was running when it was crashing (where the crash happened), making it very useful to figure out why the crash happened.
+If you experience a crash on Windows, and can reproduce the crash, the bug report will be much more valuable if you can create a backtrace. A backtrace is somewhat akin to an airplane's black box, in that they tell what set of instructions your computer was running when it was crashing (where the crash happened), making it very useful to figure out why the crash happened.
 
 The :ref:`Dr. Mingw debugger <dr_minw>` is bundled with Krita. Please visit the page :ref:`Dr. Mingw debugger <dr_minw>` for instructions on getting a backtrace with it.
 
 Windows: Krita's window is semi-transparent
 -------------------------------------------
 
-Chances are you are using an NVidia GPU. Due to a bug in Nvidia's driver that we haven't been able to workaround yet, sometimes Krita's window will be transparent or semi-transparent. The solution is to enable the Angle renderer in Krita's Settings dialog. Open the :menuselection:`Settings` menu (Press Alt-N if the menubar is not visible and your system is in English), then open the :guilabel:`Configure Krita` dialog. In the dialog window select the :guilabel:`Display` page and select the Angle renderer in the :guilabel:`Preferred Renderer` combobox. Restart Krita.
+Chances are you are using an NVIDIA GPU. Due to a bug in NVIDIA's driver that we haven't been able to work around yet, sometimes Krita's window will be transparent or semi-transparent. The solution is to enable the Angle renderer in Krita's Settings dialog. Open the :menuselection:`Settings` menu (Press Alt-N if the menubar is not visible and your system is in English), then open the :guilabel:`Configure Krita` dialog. In the dialog window select the :guilabel:`Display` page and select the Angle renderer in the :guilabel:`Preferred Renderer` drop down. Restart Krita.
 
 Why are there ampersand (&) characters in some docker titles?
 -------------------------------------------------------------
@@ -374,7 +373,7 @@ What tablets does Krita support?
 
 Krita isn’t much fun without a pressure sensitive tablet. If the tablet has been properly configured, Krita should work out of the box. 
 
-On Windows, you need to either install the Wintab drivers for your tablet, or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's settings.
+On Windows, you need to either install the WinTab drivers for your tablet, or enable the :guilabel:`Windows 8+ Pointer Input` option in Krita's settings.
 
 You can find a community curated list of tablets supported by krita :ref:`here <list_supported_tablets>`.
 
@@ -390,19 +389,19 @@ First, check if you have installed drivers and the like. The :ref:`drawing_table
     
     .. versionchanged:: 4.2
     
-        The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or MacOS, or for Windows install `DebugView <https://docs.microsoft.com/en-us/sysinternals/downloads/debugview>`_ from the official Microsoft site, start DebugView and then start Krita.
+        The log viewer got added to Krita in 4.2, so for older versions of Krita, you will need to either run Krita in the terminal if you have Linux or macOS, or for Windows install `DebugView <https://docs.microsoft.com/en-us/sysinternals/downloads/debugview>`_ from the official Microsoft site, start DebugView and then start Krita.
         
-        When using a terminal, make sure to enable 'unlimited scrollback'.
+        When using a terminal, make sure to enable ``unlimited scrollback``.
 
 #. Press the :kbd:`Ctrl + Shift + T` shortcut, you will see a message box telling the logging has started.
 #. Try to reproduce your problem, you will be able to see the log being created in the log viewer as you draw.
-#. Save the output from the log viewer into a txt file, and attach it to the bugreport.
+#. Save the output from the log viewer into a TXT file, and attach it to the bug report.
 
 On Linux, it is also useful to have the following information:
 
 #. ``lsmod``
 #. ``xinput``
-#. ``xinput list-props`` (id can be fetched from the item 2)
+#. ``xinput list-props`` (ID can be fetched from the item 2)
 
 However, in 100\% of the cases where Windows users have reported that their tablet didn't work over the past five years, the problem has been either a buggy driver or a broken driver installation, but not a bug in Krita.
    
@@ -438,7 +437,7 @@ https://github.com/saveenr/Fix_My_Pen/releases
 Touch doesn't seem to work on Windows
 -------------------------------------
 
-You might have to disable and enable the touch driver: go to the device manager. (Click the :guilabel:`Start` button and type device manager). Choose HID (User interface devices or something like that). Choose Intel(R) Precise Touch Device. Right click, Disable it. Right click, Enable it.
+You might have to disable and enable the touch driver: go to the device manager. (Click the :guilabel:`Start` button and type device manager). Choose HID (User interface devices or something like that). Choose Intel® Precise Touch Device. Right-click, Disable it. Right-click, Enable it.
 
 Toolbox
 =======
@@ -455,7 +454,7 @@ Also, you can check the :guilabel:`Settings` menu, it has got a lot of interesti
 Tool icons size is too big
 --------------------------
 
-Right click the toolbox to set the size.
+Right-click the toolbox to set the size.
 
 Krita can't get maximized
 -------------------------
@@ -468,7 +467,7 @@ Resources
 Is there a way to restore a default brush that I have mistakenly overwritten with new settings to default?
 ----------------------------------------------------------------------------------------------------------
 
-Yes. First go to the resource folder, which is in
+Yes. First go to the resource folder, which is in...
 
 Linux
     :file:`$HOME/.local/share/krita/`
@@ -479,11 +478,11 @@ OSX
 
 You can easily do this by going into :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
 
-Then go into the *paintoppresets* folder and remove the latest created
+Then go into the ``paintoppresets`` folder and remove the latest created
 file that you made of your preset.
 
 After that go back to the resources folder and edit the blacklist file to
-remove the previous paintoppreset so Krita will load it. (Yes, it is a
+remove the previous ``paintoppreset`` so Krita will load it. (Yes, it is a
 bit of a convoluted system, but at the least you don't lose your
 brushes)
 
@@ -502,11 +501,11 @@ Krita is slow
 
 There is a myriad of reasons why this might be. Below is a short checklist.
 
--  Something else is hogging the CPU or the memory: spotify and other electron apps have been known to do this.
+-  Something else is hogging the CPU or the memory: Spotify and other Electron apps have been known to do this.
 -  You are running Windows, and have 3rdparty security software like Sandboxie or Total Defender installed
 -  You are working on images that are too big for your hardware (dimensions, channel depth or number of layers)
 -  You do not have canvas acceleration enabled
--  You have (NVidia) Vertical Sync enabled
+-  You have (NVIDIA) Vertical Sync enabled
 -  On macOS, with some macs, you might need to disable canvas acceleration in Krita's settings.
 
 Please also check `this page <https://phabricator.kde.org/T7199>`_.
@@ -524,18 +523,18 @@ Slow Brushes
 -  Check if you accidentally turned on the stabilizer in the tool options docker.
 -  Try another scaling mode like trilinear. :menuselection:`Settings --> Configure Krita... --> Display`.
 -  Try a lower channel depth than 16-bit.
--  For NVidia, try a 16-bit floating point color space.
+-  For NVIDIA, try a 16-bit floating point color space.
 -  For older AMD CPU's (Krita 2.9.10 and above), turn off the vector optimizations that are broken on AMD CPUs. :menuselection:`Settings --> Configure Krita... --> Performance`. This isn't needed if you've got an AMD Threadripper™ CPU.
--  It's a fairly memory hungry program, so 2GB of RAM is the minimum, and 4GB is the preferable minimum.
+-  It's a fairly memory-hungry program, so 2 GB of RAM is the minimum, and 4 GB is the preferable minimum.
 -  Check that nothing else is hogging your CPU.
 -  Check that Instant Preview is enabled if you're using bigger brushes (but for very small brushes, make sure is disabled).
 -  Set brush precision to 3 or auto.
 -  Use a larger value for brush spacing.
--  If all of this fails, record a video and post a link and description on the `Krita Artists Forum <https://krita-artists.org>`_ in appropriate category.
+-  If all of these fail, record a video and post a link and description on the `Krita Artists Forum <https://krita-artists.org>`_ in appropriate category.
 -  Check whether OpenGL is enabled, and if it isn't, enable it. If it is enabled, and you are on Windows, try the Angle renderer. Or disable it.
 
-Slowdown after a been working for a while
------------------------------------------
+Slowdown after I've been working for a while
+--------------------------------------------
 
 Once you have the slowdown, click on the image-dimensions in the status bar. It will tell you how much RAM Krita is using, if it has hit the limit, or whether it has started swapping. Swapping can slow down a program a lot, so either work on smaller images or turn up the maximum amount of RAM in :menuselection:`Settings --> Configure Krita... --> Performance --> Advanced Tab`.
 
@@ -545,7 +544,7 @@ Animation
 Why is my animation black in my video player
 --------------------------------------------
 
-You did not render the animation using the "baseline" option and you are using the default Windows media player. Re-render using the baseline option or use a better video player application, like VLC. Check `this useful diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-manual-783473428>`_.
+You did not render the animation using the "baseline" option, and you are using the default Windows Media Player. Re-render using the baseline option or use a better video player application, like VLC. Check `this useful diagram <https://www.deviantart.com/tiarevlyn/art/T-Krita-4-1-7-rendering-issues-manual-783473428>`_.
 
 
 Tools
@@ -571,7 +570,7 @@ The Stichting Krita Foundation owns the Krita trademark. The copyright on the so
 Who and what is Kiki?
 ---------------------
 
-Kiki is a cybersquirrel. She’s our mascot and has been designed by Tyson Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian word for Squirrel.
+Kiki is a cyber squirrel. She’s our mascot and has been designed by Tyson Tan. We choose a squirrel when we discovered that ‘krita’ is the Albanian word for Squirrel.
 
 Why is Krita Free?
 ------------------
@@ -587,17 +586,17 @@ Krita on Steam and in the Windows Store is still Free and Open Source software; 
 Can I use Krita commercially?
 -----------------------------
 
-Yes. What you create with Krita is your sole property. You own your work and can license your art however you want. Krita’s GPL license applies to Krita’s source code. Krita can be used commercially by artists for any purpose, by studios to make concept art, textures, or vfx, by game artists to work on commercial games, by scientists for research, and by students in educational institutions.
+Yes. What you create with Krita is your sole property. You own your work and can license your art however you want. Krita’s GPL license applies to Krita’s source code. Krita can be used commercially by artists for any purpose, by studios to make concept art, textures, or VFX, by game artists to work on commercial games, by scientists for research, and by students in educational institutions.
 
-You can also make videos or stream your desktop with Krita's interface visible (which can be used to make art tutorials or timelapses).
+You can also make videos or stream your desktop with Krita's interface visible (which can be used to make art tutorials or time lapses).
 
 If you modify Krita itself, and distribute the result, you have to share your modifications with us. Krita’s GNU GPL license guarantees you this freedom. Nobody is ever permitted to take it away.
 
 .. _krita_android:
 .. _krita_ios:
 
-Can I get Krita for iPad? for Android?
---------------------------------------
+Can I get Krita for iPad or for Android?
+----------------------------------------
 
     Not for iOS or iPadOS at this point in time: there are `problems in any case with putting an application licensed under the GNU Public License V3 in the iOS App Store <https://www.fsf.org/news/2010-05-app-store-compliance>`_. Krita for Android is currently in beta `in the Google Play Store <https://play.google.com/store/apps/details?id=org.krita>`_ F-Droid is coming.
 
