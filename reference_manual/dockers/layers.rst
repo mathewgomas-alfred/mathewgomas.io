@@ -27,30 +27,43 @@ The Layer Stack
 
 You can select the active layer here. Using the :kbd:`Shift` and :kbd:`Ctrl` keys you can select multiple layers and drag-and-drop them. You can also change the visibility, edit state, alpha inheritance and rename layers. You can open and close groups, and you can drag and drop layers, either to reorder them, or to put them in groups.
 
-Name
-    The Layer name, just do double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
-Label
-    This is a color that you can set on the layer. |mouseright| the layer to get a context menu to assign a color to it. You can then later filter on these colors.
-Blending Mode
-    This will set the :ref:`blending_modes` of the layer.
-Opacity
-    This will set the opacity of the whole layer.
-Visibility
-    An eye-icon. Clicking this can hide a whole layer.
-Edit State (Or layer Locking)
-    A lock Icon. Clicking this will prevent the layer from being edited, useful when handling large amounts of layers.
-Alpha Lock
-    This will prevent the alpha of the layer being edited. In more plain terms: This will prevent the transparency of a layer being changed. Useful in coloring images.
-Pass-through mode
-    Only available on Group Layers, this allows you to have the blending modes of the layers within affect the layers outside the group. Doesn't work with masks currently, therefore these have a strike-through on group layers set to pass-through.
-Alpha Inheritance
-    This will use the alpha of all the peers of this layer as a transparency mask. For a full explanation see :ref:`layers_and_masks`.
-Open or Close Layers
-    (An Arrow Icon) This will allow you to access sub-layers of a layer. Seen with masks and groups.
-Onion Skin
-    This is only available on :ref:`animated layers <animation>`, and toggles the onion skin feature.
-Layer Style
-    This is only available on layers which have a :ref:`layer_style` assigned. The button allows you to switch between on/off quickly.
+.. glossary::
+
+    Name
+        The Layer name, just do double- |mouseleft| to make it editable, and press the :kbd:`Enter` key to finish editing.
+
+    Color Label
+        This is a color that you can set on the layer. |mouseright| the layer to get a context menu to assign a color to it. You can then later filter on these colors.
+    
+    Blending Mode
+        This will set the :ref:`blending_modes` of the layer.
+    
+    Opacity
+        This will set the opacity of the whole layer.
+    
+    Visibility
+        An eye-icon. Clicking this can hide a whole layer.
+    
+    Edit State (Or layer Locking)
+        A lock Icon. Clicking this will prevent the layer from being edited, useful when handling large amounts of layers.
+    
+    Alpha Lock
+        This will prevent the alpha of the layer being edited. In more plain terms: This will prevent the transparency of a layer being changed. Useful in coloring images.
+    
+    Pass-through mode
+        Only available on Group Layers, this allows you to have the blending modes of the layers within affect the layers outside the group. Doesn't work with masks currently, therefore these have a strike-through on group layers set to pass-through.
+    
+    Alpha Inheritance
+        This will use the alpha of all the peers of this layer as a transparency mask. For a full explanation see :ref:`layers_and_masks`.
+    
+    Open or Close Layers
+        (An Arrow Icon) This will allow you to access sub-layers of a layer. Seen with masks and groups.
+    
+    Onion Skin
+        This is only available on :ref:`animated layers <animation>`, and toggles the onion skin feature.
+    
+    Layer Style
+        This is only available on layers which have a :ref:`layer_style` assigned. The button allows you to switch between on/off quickly.
 
 To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press the :kbd:`F3` key.
 There, to change the names of all layers, the checkbox before :guilabel:`Name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer names. You can change other layer properties like visibility, opacity, lock states, etc. too.
