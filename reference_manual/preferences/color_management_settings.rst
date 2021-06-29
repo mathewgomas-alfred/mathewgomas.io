@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The color management settings in Krita.
 
 .. metadata-placeholder
@@ -55,7 +55,11 @@ This option will turn on Blackpoint Compensation for the conversion. BPC is expl
 Allow LittleCMS optimizations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Uncheck this option when using Linear Light RGB or XYZ.
+Uncheck this option to turn off optimizations. Sometimes, in case of working with linear colorspaces, the optimizations Little CMS does will not give the best results.
+
+.. versionchanged:: 5.0
+
+    Since Krita 5.0, we ship the `fast-float plugin for LittleCMS <https://www.littlecms.com/plugin/>`_. Turning this option off will also turn off the fast float plugin.
 
 
 Enforce palette colors: always select the nearest color from the active palette
