@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The tools menu in Krita.
 
 .. metadata-placeholder

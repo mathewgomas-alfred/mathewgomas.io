@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The select menu in Krita.
 
 .. metadata-placeholder
@@ -29,6 +29,9 @@ Select Menu
     Invert Selection
         Inverts the selection. Shortcut :kbd:`Ctrl + Shift + I`
 
+    Edit Selection
+        When a selection is active, this will switch the active layer to the global selection mask, and the active tool to the appropriate tool for editing the selection depending on whether it's :ref:`vector <shape_selection_tool>` or :ref:`raster <freehand_brush_tool>`.
+
     Convert to Vector Selection
         This converts a raster selection to a vector selection. Any layers of transparency there might have been are removed.
         
@@ -36,10 +39,10 @@ Select Menu
         This converts a vector selection to a raster selection.
         
     Convert Shapes to Vector Selection
-        Convert vector shape to vector selection.
+        Convert a vector shape to a vector selection.
 
     Convert to Shape
-        Converts vector selection to vector shape.
+        Converts a vector selection to a vector shape.
 
     Display Selection
         Display the selection. If turned off selections will be invisible. Shortcut :kbd:`Ctrl + H`
@@ -55,6 +58,15 @@ Select Menu
 
     Select Opaque
         Select all opaque (non-transparent) pixels in the current active layer. If there's already a selection, this will add the new selection to the old one, allowing you to select the opaque pixels of multiple layers into one selection. Semi-transparent (or semi-opaque) pixels will be semi-selected.
+        
+        Select Opaque (Replace)
+            Only select the opaque pixels of the layer, regardless of selection.
+        Select Opaque (Add)
+            Adds the new selection from opaque pixels to the current selection.
+        Select Opaque (Subtract)
+            Subtracts the new selection from opaque pixels from the current selection.
+        Select Opaque (Intersection)
+            Gets the intersection between the new selection from opaque pixels and the current selection.
 
     Feather Selection...
         Feathering in design means to soften sharp borders. So this adds a soft border to the existing selection. Shortcut :kbd:`Shift + F6`
