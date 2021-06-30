@@ -157,15 +157,7 @@ If you are on Windows and you use power button instead of a standard procedure t
 Where are my resources stored?
 ------------------------------
 
-Linux
-    :file:`$HOME/.local/share/krita/`
-Windows
-    :file:`%APPDATA%\\krita\\`
-macOS
-    :file:`~/Library/Application Support/Krita/`
-
-If you installed Krita in the Windows Store, your custom resources will be in a location like:
-    :file:`%LOCALAPPDATA%\\Packages\\49800Krita_{RANDOM STRING}\\LocalCache\Roaming\krita`
+See :ref:`resource_management`.
     
 Krita tells me it can't find some files and then closes, what should I do?
 --------------------------------------------------------------------------
@@ -467,24 +459,7 @@ Resources
 Is there a way to restore a default brush that I have mistakenly overwritten with new settings to default?
 ----------------------------------------------------------------------------------------------------------
 
-Yes. First go to the resource folder, which is in...
-
-Linux
-    :file:`$HOME/.local/share/krita/`
-Windows
-    :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
-OSX
-    :file:`~/Library/Application Support/Krita/`
-
-You can easily do this by going into :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
-
-Then go into the ``paintoppresets`` folder and remove the latest created
-file that you made of your preset.
-
-After that go back to the resources folder and edit the blacklist file to
-remove the previous ``paintoppreset`` so Krita will load it. (Yes, it is a
-bit of a convoluted system, but at the least you don't lose your
-brushes)
+See :ref:`activating_resources`.
 
 How do I set favorite presets?
 ------------------------------
@@ -513,7 +488,7 @@ Please also check `this page <https://phabricator.kde.org/T7199>`_.
 Slow start-up
 -------------
 
-You probably have too many resources installed. Deactivate some bundles under the :menuselection:`Settings --> Manage Resources...` menu item.
+You probably have too many resources installed. Deactivate some bundles under the :menuselection:`Settings --> Manage Resource Libraries...` menu item.
 
 If you're using Windows with the portable ZIP file, Windows will scan all files every time you start Krita. That takes ages. Either use the installer or tell Microsoft Security Essentials to make an exception for Krita.
 

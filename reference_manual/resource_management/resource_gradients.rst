@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Creating and managing gradients in Krita.
 
 .. metadata-placeholder

@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description property=og\:description:
         How to use layer styles in Krita.
 
 .. metadata-placeholder
@@ -22,8 +22,6 @@ Layer styles are effects that are added on top of your layer. They are editable 
 When you have the layer styles window up, make sure that the :guilabel:`Enable Effects` item is checked.
 
 There are a variety of effects and styles you can apply to a layer. When you add a style, your layer docker will show an extra "Fx" icon. This allows you to toggle the layer style effects on and off.  
-
-
 
 .. note::
 

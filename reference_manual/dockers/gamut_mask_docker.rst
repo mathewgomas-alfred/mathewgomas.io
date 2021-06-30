@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Overview of the gamut mask docker.
 
 .. metadata-placeholder
@@ -26,7 +26,7 @@ Usage
 
 |mouseleft| an icon (1) to apply a mask to color selectors.
 
-Gamut Masks can be imported and exported in the resource manager.
+Gamut Masks can be imported and exported in :ref:`resource_manager`.
 
 
 Management Toolbar
@@ -60,7 +60,7 @@ Description
 
 .. warning::
 
-  * The shapes need to be added to the layer named “maskShapesLayer” (which is selected by default).
+  * The shapes need to be added to the layer named ``maskShapesLayer`` (which is selected by default).
   * The shapes need have solid background to show correctly in the editor.
   * A template with no shapes cannot be saved.
 
