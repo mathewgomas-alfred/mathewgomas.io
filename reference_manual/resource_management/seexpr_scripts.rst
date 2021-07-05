@@ -41,7 +41,7 @@ This panel is available by opening the Fill Layer dialog, and selecting
 
 At the bottom of the tab, beneath the resource-filter input field, there are the :guilabel:`Import resource` and :guilabel:`Delete resource` buttons. Select the former to add presets to the list.
 
-Similarly, removing presets can be done by pressing the :guilabel:`Delete resource` button. Krita will not delete the actual file then, but rather deactivate it, and thus not load it.
+Similarly, removing presets can be done by pressing the :guilabel:`Delete resource` button. Krita will not delete the actual file then, but rather :ref:`deactivate <deactivating_resources>` it, and thus not load it.
 
 Temporary scripts
 -----------------

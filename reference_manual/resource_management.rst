@@ -112,7 +112,11 @@ You can do a variety of things here, like deleting backup files, mass-tagging, d
 Importing resources
 ~~~~~~~~~~~~~~~~~~~
 
-TODO
+To import resources, select the :guilabel:`import` in the resource choosers or the resource manager.
+
+The resource chooser import is fairly straight forward. You can only select certain kinds of files, and all the files you can select are possible to import for that resource.
+
+The import button in the resource manager however sometimes needs to make a choice on whether an imported :ref:`file_png` file is a brush tip or a texture. When importing a format that can be used for multiple types of resources, a window will pop up asking which resource type you intended to import the file for.
 
 .. _deactivating_resources:
 .. _activating_resources:
@@ -120,16 +124,20 @@ TODO
 Activating and Deactivating
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-TODO (the following is from the KritaFAQ)
+Deactivating resources is done by selecting them in their respective resource chooser, and pressing the trashcan icon.
 
-Yes. First go to the resource folder, which is in...
+For activating a resource, go to :menuselection:`Setti&ngs --> Manage Resources...`, then turn on :guilabel:`&Show Deleted Resources`. The deactivated resources should now be visible, select them, and then press :guilabel:`Undelete Resource`.
 
-You can easily do this by going into :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
+.. _resource_version_history:
 
-Then go into the ``paintoppresets`` folder and remove the latest created
-file that you made of your preset.
+Returning a resource to the previous version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After that ...??????????? (reactivate brush in resource manager?????????)
+#. First go to the resource folder, :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
+#. Then go into the ``paintoppresets`` folder.
+#. Backup (select and cut) all versions of the related resource into a place you can find them. Delete all these files from the ``paintoppresets`` folder.
+#. restart Krita.
+#. add only the desired version of the resource.
 
 .. _delete_backup_files:
 
@@ -138,18 +146,34 @@ Deleting Backup files
 
 When you delete a preset from Krita, Krita doesn't actually delete the physical copy of the preset. It just adds it to a black list so that the next time when you start Krita the presets from this list are not loaded. To delete the brushes from this list click on :guilabel:`Delete Backup Files`.
 
+.. _resource_tagging:
+
 Tags
 ~~~~
 
-Tagging allows you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. You can |mouseleft| the plus icon in the docker and add a tag name. In addition to adding you can rename and delete a tag as well.
+Tagging allows you to manage the resources on the fly while painting. All Krita resources can be tagged. These tags can be added via the resource manager, but also via the respective dockers such as brush preset docker, pattern docker etc. You can |mouseleft| the :guilabel:`+` icon in the docker and add a tag name. In addition to adding you can rename and delete a tag as well.
 
 .. image:: /images/resources/Tags-krita.png
    :align: center
 
 * Resources can belong to one or more tags.  For example, you may have a Brush Preset of a favorite :dfn:`Ink Pen` variant and have it tagged so it shows in up in your Inking, Painting, Comics and Favorites groups of brushes.
-* Every resource can be tagged, so brushes in the "Predefined" tab of the Brush Settings Editor can be also tagged and grouped for convenience.
+* Every resource can be tagged, so brushes in the :guilabel:`Predefined` tab of the Brush Settings Editor can be also tagged and grouped for convenience.
 
 In the resource manager, you can tag multiple resources at once. To select multiple resources, use :kbd:`Ctrl` for adding individual resources to the selection or :kbd:`Shift` for adding every resource at once. Then press the plus icon next to the :guilabel:`tags` section to add a tag to every selected resource.
+
+Some tags are translated. If you make bundles for others, using such tags can be useful to ensure cross-language compatibility. The tags that get localized are...
+
+- Digital
+- Erasers
+- FX
+- Favorites
+- Ink
+- Paint
+- Pixel_Art
+- Sketch
+- Textures
+
+.. Add in tags-back up functionality.
 
 Filtering
 ---------
@@ -167,7 +191,7 @@ You can enter brush name, tag name to quickly pull up a list of brush presets yo
 
 An incredibly quick way to save a group or brushes into a tag is to:
 
-#. Create a new tag by |mouseleft| on the plus sign.  This will empty out the contents of the Brush Preset docker.
+#. Create a new tag by |mouseleft| on the :guilabel:`+`.  This will empty out the contents of the Brush Preset docker.
 #. Use the :guilabel:`Resource Filter` at the bottom of the :guilabel:`Brush Presets` dock or :guilabel:`Brush Settings Editor` to type in what you want to group.  For instance: if you type ``Pencil`` in the filter box you will get all Brush Presets with ``Pencil`` somewhere in their name.  Now you have all the Pencil-related Brush Presets together in one place.
 #. To finish, click the :guilabel:`Save` button (small disk icon to the right of the :guilabel:`Resource Filter` box) or press the :kbd:`Enter` key and all the items will be saved with the new tag you created.  
 

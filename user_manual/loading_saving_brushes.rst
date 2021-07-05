@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Detailed guide on the brush settings dialog in Krita as well as how to make your own brushes and how to share them.
 
 .. metadata-placeholder
@@ -55,8 +55,8 @@ The brush settings drop-down is divided into six areas,
 Section A - General Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This contains the **Preset Icon**, **Live Brush Preview**, the **Preset
-Name**, the **Engine** name, and several buttons for saving, renaming,
+This contains the :dfn:`Preset Icon`, :dfn:`Live Brush Preview`, the :dfn:`Preset
+Name`, the :dfn:`Engine` name, and several buttons for saving, renaming,
 and reloading.
 
 Krita's brush settings are stored into the metadata of a 200x200
@@ -72,8 +72,8 @@ others. For some brush engines it cannot show anything. For the color smudge,
 filter brush and clone tool, it shows an alternating line pattern because these
 brush engines use the pixels already on canvas to change their effect.
 
-After the preset name, there's a button for **renaming** the brush. This
-will save the brush as a new brush and blacklist the previous name.
+After the preset name, there's a button for :dfn:`renaming` the brush. This
+will save the brush as a new brush and :ref:`deactivate <deactivating_resources>` the previous brush.
 
 Engine
 ''''''
@@ -149,8 +149,8 @@ you press :guilabel:`OK` it will load the resulting combination into the mini
 scratch pad and you can draw in the stroke.
 
 If you go to your resources folder, there's a folder there called
-"preset\_icons", and in this folder there are "tool\_icons" and
-"emblem\_icons". You can add semi-transparent PNGs here and Krita will
+``preset\_icons``, and in this folder there are ``tool\_icons`` and
+``emblem\_icons``. You can add semi-transparent PNGs here and Krita will
 load those into the icon library as well, so you can customize your icons
 even more!
 
@@ -185,7 +185,7 @@ full list of Krita's engines. Selecting an engine from the list will show the br
 that engine.
 
 The trashcan icon does the same as it does in the preset docker: delete, or
-rather, blacklist a preset so it won't show up in the list.
+rather, :ref:`deactivate a preset <deactivating_resources>` so it won't show up in the list.
 
 Section C - The Scratch pad
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -334,7 +334,7 @@ Instant preview
 The On-canvas brush settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are on-canvas brush settings. If you open up the pop-up palette,
+There is a :ref:`oncanvas_brush_editor`. If you open up the pop-up palette,
 there should be an icon on the bottom-right. Press that to show the
 on-canvas brush settings. You will see several sliders here, to quickly
 make small changes.
@@ -384,7 +384,7 @@ Example: Making an inking brush
    change the size, or right-click it and type in a value. Set it to 25
    and test again. It should be much better.
 #. Now to make the brush feel a bit softer, turn down the fade parameter
-   to about 0.9. This'll give the *brush mask* a softer edge.
+   to about 0.9. This'll give the :dfn:`brush mask` a softer edge.
 #. If you test again, you'll notice the fade doesn't seem to have much
    effect. This has to do with the spacing of the dabs: The closer they
    are together, the harder the line is. By default, this is 0.1, which
@@ -430,7 +430,7 @@ Okay, so you've made a new brush and want to share it. There are several
 ways to share a brush preset.
 
 The recommended way to share brushes and presets is by using the
-resource bundle system. We have detailed instructions on how to use them
+:term:`Resource Bundle` system. We have detailed instructions on how to use them
 on the :ref:`resource management page <resource_management>`.
 
 However, there are various old-fashioned ways of sharing brushes that can
@@ -453,8 +453,8 @@ those resources as well with the other person.
 
 To find those resources, go to :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.
 
-There, the preset file will be inside paintoppresets, the brush tips
-inside brushes and the texture inside patterns.
+There, the preset file will be inside ``paintoppresets``, the brush tips
+inside ``brushes`` and the texture inside ``patterns``.
 
 Importing a single KPP file.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -465,9 +465,11 @@ dialog. Navigate to the kpp file and open it to import it.
 
 If there are brush tips and patterns coming with the file, do the same
 with pattern via the pattern docker, and for the brush-tip go to the
-settings drop-down (:kbd:`F5`) and then go to the “brush-tip” option. There,
-select predefined brush, and then the “import” button to call up the
+settings drop-down (:kbd:`F5`) and then go to the :guilabel:`brush-tip` option. There,
+select predefined brush, and then the :guilabel:`import` button to call up the
 file dialog.
+
+You can also use the import button in :menuselection:`Settings --> Manage Resources...`.
 
 Sharing via ZIP (old-fashioned)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -480,7 +482,7 @@ Using a ZIP with the relevant files.
 
 #. Go to :menuselection:`Settings --> Manage Resources... --> Open Resource Folder` to open the resource folder.
 #. Then, open up the ZIP file.
-#. Copy the brushes, paintoppresets and patterns folders from the ZIP
+#. Copy the ``brushes``, ``paintoppresets`` and ``patterns`` folders from the ZIP
    file to the resource folder. You should get a prompt to merge the
    folders, agree to this.
 #. Restart Krita.

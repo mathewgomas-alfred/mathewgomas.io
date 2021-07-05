@@ -459,7 +459,7 @@ Resources
 Is there a way to restore a default brush that I have mistakenly overwritten with new settings to default?
 ----------------------------------------------------------------------------------------------------------
 
-See :ref:`activating_resources`.
+See :ref:`resource_version_history`.
 
 How do I set favorite presets?
 ------------------------------
