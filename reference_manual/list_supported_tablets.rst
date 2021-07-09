@@ -26,7 +26,7 @@
 The List of Supported Tablets
 =============================
 
-This is specifically about support on Windows, not Linux or OSX.
+This is specifically about support on Windows, not Linux or macOS.
 
 
 .. list-table::

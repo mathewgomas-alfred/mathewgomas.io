@@ -141,8 +141,8 @@ Create the tarball
     * https://files.kde.org/krita/.release/$version/krita-$version.tar.xz.sig
 
 
-Make Windows, Linux, OSX and Android packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Make Windows, Linux, macOS and Android packages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8. Request four release builds on binary-factory.kde.org, after starting each build,go to "Console Output" section, click on "Input Requested" and choose a tarball version to build.
 

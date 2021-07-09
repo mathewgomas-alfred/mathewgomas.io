@@ -10,7 +10,8 @@
              - Nathan Lovato
              - Pedro Reis <pedroreis.ad@protonmail.com>
              - Agata Cacko <tamtamy.tymona@gmail.com>
-             
+             - Christopher Hanna <channa@pm.me>
+
    :license: GNU free documentation license 1.3 or later.
 
 
@@ -35,7 +36,7 @@ Brush Packs
                :target: https://drive.google.com/file/d/1sl8sW7pu7QtGxunLeZapksU1u6Uc9VF5/view?usp=sharing
 
                Concept art & Illustration Pack
-               
+
           - .. figure:: /images/resource_packs/Resources-aldyBrushes.jpg
                :target: https://www.deviantart.com/al-dy/art/Aldys-Brush-Pack-for-Krita-2-3-1-196128561
 
@@ -77,18 +78,32 @@ Brush Packs
 
                IForce73
 
+          - .. figure:: /images/resource_packs/Resources-iForce73CityscapeBrushes.png
+               :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
+
+               IForce73
+
           - .. figure:: /images/resource_packs/Resources-wojtrybBrushes.png
                :target: https://www.dropbox.com/s/nconrhjb6ltai8f/wont_teach_you_to_draw_brushpack_v6.0.zip?dl=1
 
                wojtryb
 
-          - .. figure:: /images/resource_packs/Resources-rakurribrushset.png
+        * - .. figure:: /images/resource_packs/Resources-rakurribrushset.png
                :target: https://github.com/Rakurri/rakurri-brush-set-for-krita
 
                Rakurri
 
+          - .. figure:: /images/resource_packs/Resources-jackpackBrushes.jpg
+               :target: https://gumroad.com/l/pPCFg
 
-         
+               Jackpack
+
+          - .. figure:: /images/resource_packs/Resources-razcoreBrushes.png
+               :target: https://razcore.gitlab.io/posts/2017/06/11/p02-rzv-krita-brushkit/
+
+               Razcore
+
+
 Texture Packs
 =============
 
@@ -190,7 +205,7 @@ Tablet Controls Docker (TabUI)
 On-screen Canvas Shortcuts
 
     Plugin that adds an onscreen button bar with shortcuts for Krita.
-    
+
     https://github.com/qeshi/henriks-onscreen-krita-shortcut-buttons/tree/master/henriks_krita_buttons
 
 
@@ -209,7 +224,7 @@ Reference Image Docker (old style)
     Docker for reference images, modeled after the old Reference Images Docker in Krita. Alternative to Reference Images Tool.
 
     https://github.com/antoine-roux/krita-plugin-reference
-    
+
 Mirror Fix
 
     This plugin allows you to correct symmetry errors for example after a transformation of a part of the image.
@@ -236,8 +251,22 @@ Photobash Images Docker
     - Filter images by words. Using multiple words like "rock marble" will show all the images that have rock OR marble in the name.
     - Scroll the pages to access more results.
     - Click on an image to create a layer, with the scale that you specify.
-    
+
     https://github.com/veryprofessionaldodo/Krita-Photobash-Images-Plugin
+
+
+Animator Reference Plugin
+
+    This plugin allows you to load videos into Krita. You can then import frames to use as reference images.
+
+    https://github.com/scottpetrovic/animator-video-reference
+
+
+Spritesheet Plugin
+
+    This plugin lets you export animations as spritesheets.
+
+    https://github.com/Falano/kritaSpritesheetManager
 
 
 File management
@@ -264,8 +293,8 @@ Pigment.O - Color Picker
     Universal advanced color picker.
 
     https://github.com/EyeOdin/Pigment.O
-    
-    
+
+
 Interface
 ~~~~~~~~~
 
@@ -284,18 +313,18 @@ Subwindow Organizer
 
     Helps with handling multiple documents in subwindow mode. Introduces responsive fullscreen with other subwindows opened, dynamic snapping of subwindows to canvas borders, drag and drop switching between subwindows, and more.
 
-    https://github.com/wojtryb/kritaSubwindowOrganizer 
-    
-    
+    https://github.com/wojtryb/kritaSubwindowOrganizer
+
+
 KanvasBuddy
 
-    This is a small dialog that floats on top of the canvas packed with enough features to let you spend as much time in Canvas-Only mode as possible. 
+    This is a small dialog that floats on top of the canvas packed with enough features to let you spend as much time in Canvas-Only mode as possible.
     The idea behind KB was to provide the 20% of tools used 80% of the time in the most out-of-the-way GUI possible.
 
     Source, main page and download link: https://github.com/Kapyia/KanvasBuddy
-    
+
     Krita-artists thread: https://krita-artists.org/t/kanvasbuddy-a-minimalist-toolbar/549
-    
+
 
 Miscellaneous
 ~~~~~~~~~~~~~~~~~~~~~
@@ -311,12 +340,12 @@ Post images on Mastodon
 
     https://github.com/spaceottercode/kritatoot
 
-Bash Action (works with OSX and Linux)
+Bash Action (works with macOS and Linux)
 
     Plugin that allows you execute Bash commands and programs as actions on your current Krita images.
 
     https://github.com/juancarlospaco/krita-plugin-bashactions#krita-plugin-bashactions
-    
+
 
 
 Other resources
