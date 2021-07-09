@@ -217,6 +217,6 @@ If you encounter any problems, or if you are new to compiling software,
 don't hesitate to contact the Krita developers. There are three main
 communication channels:
 
--  irc: webchat.freenode.net, channel #krita
+-  irc: web.libera.chat, channel #krita
 -  `mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__
 -  `Krita Artists <https://krita-artists.org>`__
