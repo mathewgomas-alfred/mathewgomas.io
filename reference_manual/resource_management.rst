@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: Resources, Bundles, Resource Cache, Tagging, Mass Tagging
+.. index:: ! Resources, Bundles, Resource Cache, Tagging, Mass Tagging
 .. _resource_management:
 
 ===================
@@ -204,11 +204,17 @@ Resource Types in Krita
 -----------------------
 
 .. toctree::
+   :caption: Main Resource Types
    :maxdepth: 1
    :glob:
    
    resource_management/*
-   dockers/gamut_mask_docker
-   layers_and_masks/layer_styles
-   dockers/task_sets
-   dockers/vector_library
+    
+Other Resource Types
+~~~~~~~~~~~~~~~~~~~~
+    
+- :ref:`gamut_mask_docker`
+- :ref:`layer_style`
+- :ref:`task_sets_docker`
+- :ref:`vector_library_docker`
+- :ref:`palette_docker`

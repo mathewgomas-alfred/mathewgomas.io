@@ -27,3 +27,9 @@ There are a variety of effects and styles you can apply to a layer. When you add
 
     This feature was added to increase support for :program:`Adobe Photoshop`. The features that are included mirror what that application supports.
 
+Layer Style Presets
+-------------------
+
+.. versionadded:: 5.0
+
+Layer Styles are considered a type of :ref:`resource <resource_management>`, and Krita can open :term:`Adobe Style Library` (ASL) files.
