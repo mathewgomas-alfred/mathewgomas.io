@@ -39,8 +39,8 @@ As we've said before, the Krita interface is very malleable and the way that you
 
 Your canvas sits in the middle and unlike traditional paper or even most digital painting applications, Krita provides the artist with a scrolling canvas of infinite size (not that you'll need it of course!). The standard navigation tools are as follows:
 
-Navigation
-----------
+Navigating the Canvas
+---------------------
 Many of the canvas navigation actions, like rotation, mirroring and zooming have default keys attached to them:
 
 Panning

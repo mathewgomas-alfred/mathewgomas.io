@@ -562,6 +562,11 @@ links, like this::
 
     床前\ `明月 <https://krita.org/>`_\ 光
 
+Note that when translating from a PO file, you should escape the backslash with
+another backslash::
+
+    床前\\ `明月 <https://krita.org/>`_\\ 光
+
 The above produces "床前\ `明月 <https://krita.org/>`_\ 光", instead of
 "床前 `明月 <https://krita.org/>`_ 光".
 
