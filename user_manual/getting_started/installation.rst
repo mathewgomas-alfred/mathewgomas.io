@@ -64,17 +64,17 @@ default, but Nautilus and its derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
 thumbnails <https://moritzmolch.com/1749>`__.
 
-Appimages
+AppImages
 ~~~~~~~~~
 
-For Krita 3.0 and later, first try out the appimage from the website.
+For Krita 3.0 and later, first try out the AppImage from the website.
 **90% of the time this is by far the easiest way to get the
-latest Krita.** Just download the appimage, and then use the file
-properties or the bash command chmod to make the appimage executable.
+latest Krita.** Just download the AppImage, and then use the file
+properties or the bash command chmod to make the AppImage executable.
 Double click it, and enjoy Krita. (Or run it in the terminal with
 ./appimagename.appimage)
 
-- Open the terminal into the folder you have the appimage.
+- Open the terminal into the folder you have the AppImage.
 - Make it executable:
 
 ::
@@ -87,7 +87,7 @@ Double click it, and enjoy Krita. (Or run it in the terminal with
 
  ./krita-3.0-x86_64.appimage
 
-Appimages are ISOs with all the necessary libraries bundled inside, that means no
+AppImages are ISOs with all the necessary libraries bundled inside, that means no
 fiddling with repositories and dependencies, at the cost of a slight bit
 more disk space taken up (And this size would only be bigger if you were
 using Plasma to begin with).
@@ -97,7 +97,7 @@ Ubuntu and Kubuntu
 
 It does not matter which version of Ubuntu you use, Krita will run just
 fine. However, by default, only a very old version of Krita is
-available. You should either use the appimage, flatpak or the snap available
+available. You should either use the AppImage, flatpak or the snap available
 from Ubuntu's app store. We also maintain a ppa for getting the latest builds of Krita,
 you can read more about the ppa and install instructions `here <https://launchpad.net/~kritalime/+archive/ubuntu/ppa>`_.
 

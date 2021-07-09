@@ -146,7 +146,7 @@ On Linux, there are five ways of installing Krita.
     * Building Krita yourself from source
     * Using a snap package
     * Using a flatpak package
-    * Using the official appimage
+    * Using the official AppImage
     
 Only distribution packages and built-from-source can produce usable crash logs/backtraces. For distribution packages, you will need to install the corresponding debug or dbg packages; the method for that is different from distribution to distribution. If you use distribution packages and the KDE Plasma Desktop, a crash dialog will be shown that has the backtrace in the "Developer" tab. 
 

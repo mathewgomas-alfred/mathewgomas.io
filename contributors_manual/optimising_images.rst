@@ -43,7 +43,7 @@ While we should minimize the amount of GIFs in the manual for a variety of acces
 
 For making short GIFs, you can use the following programs:
 
-* `Peek <https://github.com/phw/peek>`_ -- This one has an appimage and a very easy user-interface. Like many screenrecording programs it does show trouble on Wayland.
+* `Peek <https://github.com/phw/peek>`_ -- This one has an AppImage and a very easy user-interface. Like many screenrecording programs it does show trouble on Wayland.
 
 macOS
 ~~~~~

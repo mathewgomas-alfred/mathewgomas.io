@@ -124,7 +124,7 @@ In the New Bug form, fill in the following fields:
 
         When making a video or a screenshot, include the whole Krita window, including the titlebar and the statusbar.
 
-    - If you are reporting a crash, attach a crash log. On Windows, you will find a kritacrash.log file in the local AppData folder. On Linux, follow your distribution's instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux appimages.
+    - If you are reporting a crash, attach a crash log. On Windows, you will find a kritacrash.log file in the local AppData folder. On Linux, follow your distribution's instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux AppImages.
 
 
 
