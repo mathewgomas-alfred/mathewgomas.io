@@ -178,12 +178,12 @@ If you are on Ubuntu distribution then Krita's snap package may show up in the s
 .. note::
    The Flatpak and Snap builds are not tested by the core developers of Krita, so you may encounter some bugs while running Krita installed from them.
 
-OS X
-----
+macOS
+-----
 
 You can download the latest binary from our
 `website <https://krita.org/download/krita-desktop/>`__.
-The binaries work only with Mac OSX version 10.12 and newer.
+The binaries work only with macOS version 10.12 and newer.
 
 Source
 ------

@@ -340,7 +340,7 @@ Post images on Mastodon
 
     https://github.com/spaceottercode/kritatoot
 
-Bash Action (works with OSX and Linux)
+Bash Action (works with macOS and Linux)
 
     Plugin that allows you execute Bash commands and programs as actions on your current Krita images.
 

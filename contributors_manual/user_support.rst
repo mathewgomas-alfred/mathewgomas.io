@@ -101,7 +101,7 @@ Additional information for supporters
 
 #. Except for the issue with beginnings of the strokes, Wacom tablets usually work no matter the OS.
 
-#. Huion tablets should work on Windows and on Linux, on Mac there might be issues.
+#. Huion tablets should work on Windows and on Linux, on macOS there might be issues.
 
 #. XP-Pen tablets and the rest of brands can have issues everywhere (on all systems).
 
@@ -162,7 +162,7 @@ Advices for supporters
 
 #. Explain steps the user needs to make clearly, for example if you need them to change something in settings, clearly state the whole path of buttons and tabs to get there.
 
-#. Instead of :menuselection:`Settings --> Configure Krita...` use just :menuselection:`Configure Krita` -- it's easy enough to find and Mac users (where you need to select :menuselection:`Krita --> Preferences...`) won't get confused.
+#. Instead of :menuselection:`Settings --> Configure Krita...` use just :menuselection:`Configure Krita` -- it's easy enough to find and macOS users (where you need to select :menuselection:`Krita --> Preferences...`) won't get confused.
 
 #. If you ask for an image, mention usage of `Imgur <https://imgur.com>`_ or `Pasteboard <https://pasteboard.co>`_ (:ref:`intro_user_support_sharing_files`), otherwise Reddit users might create a new post with this image instead of including it to the old conversation.
 

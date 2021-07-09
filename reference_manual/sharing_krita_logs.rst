@@ -43,7 +43,7 @@ Quick access
     * :ref:`Backtrace  <getting_backtrace_linux>`
     * Krita text output from :ref:`Log Viewer (in GUI) <krita_text_output_logviewer>` or :ref:`console <krita_text_output_console>`
 
-* Mac
+* macOS
 
     * :ref:`Krita Usage Log <krita_usage_log>`
     * :ref:`System information <getting_system_information>`
@@ -77,7 +77,7 @@ The file is called :file:`krita.log`. Location of the file:
         :file:`$HOME/.local/share/krita.log`
     Windows
         :file:`%LOCALAPPDATA%\\krita.log`
-    MacOS X
+    macOS
         :file:`$HOME/Library/Application Support/krita.log`
 
 .. note::
@@ -110,7 +110,7 @@ The file is called :file:`krita-sysinfo.log`. Location of the file:
         :file:`$HOME/.local/share/krita-sysinfo.log`
     Windows
         :file:`%LOCALAPPDATA%\\krita-sysinfo.log`
-    MacOS X
+    macOS
         :file:`$HOME/Library/Application Support/krita-sysinfo.log`
 
 .. note::
@@ -194,11 +194,11 @@ Otherwise, you have to use :literal:`gdb` in a terminal window.
 
 .. _getting_backtrace_mac:
 
-Mac
-===
+macOS
+=====
 
 
-On Mac it's recommended to use :literal:`lldb`.
+On macOS it's recommended to use :literal:`lldb`.
 
 #. Open Terminal.app
 #. Open Krita in :literal:`lldb`:
@@ -256,9 +256,9 @@ Through GUI
 From the console
 ================
 
-Using the console is the most reliable way to get Krita's text output. This way is similar on Mac and Linux. Unfortunately, it's not possible on Windows. To check Windows' equivalent, see :ref:`DebugView guide <using_debug_view>`.
+Using the console is the most reliable way to get Krita's text output. This way is similar on macOS and Linux. Unfortunately, it's not possible on Windows. To check Windows' equivalent, see :ref:`DebugView guide <using_debug_view>`.
 
-#. On Mac open :file:`Terminal.app`, on Linux open your favourite terminal or console application.
+#. On macOS open :file:`Terminal.app`, on Linux open your favourite terminal or console application.
 
 #. Write the path to the Krita executable.
 
@@ -271,7 +271,7 @@ Using the console is the most reliable way to get Krita's text output. This way 
         #   you're currently in, you need to write: './krita_filename' instead of 'krita_filename'
         #   and remember that this file need to have execution rights to be executed)
         path/to/krita
-        # On Mac:
+        # On macOS:
         /Applications/krita.app/Contents/MacOS/krita
 
 #. Do the thing you want to get the output of.

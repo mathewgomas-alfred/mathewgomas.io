@@ -17,7 +17,7 @@ Linux Command Line
 
 
 
-As a native Linux program, Krita allows you to do operations on images without opening the program when using the Terminal. This option was disabled on Windows and OSX, but with 3.3 it is enabled for them!
+As a native Linux program, Krita allows you to do operations on images without opening the program when using the Terminal. This option was disabled on Windows and macOS, but with 3.3 it is enabled for them!
 
 This is primarily used in bash or shell scripts, for example, to mass convert KRA files into PNGs.
 

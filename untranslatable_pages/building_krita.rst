@@ -15,16 +15,16 @@
 Building Krita from Source
 ==========================
 
-If you want to help developing Krita, you need to know how to build Krita yourself. If you merely want to run the latest version of Krita, to test a bug or play with, you can use the `nightly build for Windows <https://binary-factory.kde.org/job/Krita_Nightly_Windows_Build/>`_ the `nightly build for Linux <https://binary-factory.kde.org/job/Krita_Nightly_Appimage_Build/>`_, or the `nightly build for MacOS <https://binary-factory.kde.org/job/Krita_Nightly_MacOS_Build/>`_.
+If you want to help developing Krita, you need to know how to build Krita yourself. If you merely want to run the latest version of Krita, to test a bug or play with, you can use the `nightly build for Windows <https://binary-factory.kde.org/job/Krita_Nightly_Windows_Build/>`_ the `nightly build for Linux <https://binary-factory.kde.org/job/Krita_Nightly_Appimage_Build/>`_, or the `nightly build for macOS <https://binary-factory.kde.org/job/Krita_Nightly_MacOS_Build/>`_.
 
 .. contents::
 
 
-You can build Krita on Linux, Windows, MacOS and on Linux for Android. The libraries Krita needs (for instance to load and save various image types) are called dependencies.
+You can build Krita on Linux, Windows, macOS and on Linux for Android. The libraries Krita needs (for instance to load and save various image types) are called dependencies.
 
 Linux is the easiest operating system to build Krita on because all the libraries that Krita needs are available on most recent Linux distributions. For an easy guide to building Krita see `Building Krita on Linux for Cats <https://www.davidrevoy.com/article193/compil-krita-from-source-code-on-linux-for-cats>`_.
 
-On MacOS you can use tools like homebrew to get the dependencies, or build the dependencies manually. Building the dependencies manually is recommended because we have a number of changes to the source for libraries to make them function better with Krita.
+On macOS you can use tools like homebrew to get the dependencies, or build the dependencies manually. Building the dependencies manually is recommended because we have a number of changes to the source for libraries to make them function better with Krita.
 
 On Windows you will have to build the dependencies yourself. 
 
@@ -420,10 +420,10 @@ You must start Krita from the command prompt, after having run env.bat:
     
 .. image:: /images/untranslatable/cat_guide/Krita-building_for-cats_008-running-success_by-deevad.jpg
 
-Building on MacOS
+Building on macOS
 -----------------
 
-We will build Krita on MacOS with the same scripts that are used to build the nightly builds and the releases. We will *NOT* be building krita from within XCode, but from within the terminal.
+We will build Krita on macOS with the same scripts that are used to build the nightly builds and the releases. We will *NOT* be building krita from within XCode, but from within the terminal.
 
 Prequisites
 ~~~~~~~~~~~

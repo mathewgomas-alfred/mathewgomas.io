@@ -77,10 +77,10 @@ Go to :guilabel:`release` section and choose the download link that says ``ffmpe
     If the filename ends with ``.7z``, you can still use it, but then you need to have a program that can open 7zip archives (for example `7zip itself <https://www.gyan.dev/ffmpeg/builds/>`_). In case of a ``.zip`` file, you can open it just using the Windows file browser.
 
     
-For OSX
-^^^^^^^
+For macOS
+^^^^^^^^^
 
-Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since FFmpeg provides their OSX builds in .7z format. If you don't have one, try something like `Keka <https://www.kekaosx.com>`_.
+Please see the section above. However, FFmpeg is obtained from `here <https://evermeet.cx/ffmpeg/>`_ instead. Just pick the big green button on the left under the FFmpeg heading. You will also need an archiving utility that supports .7z, since FFmpeg provides their macOS builds in .7z format. If you don't have one, try something like `Keka <https://www.kekaosx.com>`_.
 
 Alternatively you can find the smaller text under the big green button that says :guilabel:`Download as ZIP`. Then you should be able to extract it just using Finder.
 
@@ -110,8 +110,8 @@ Open Krita back up and go to :menuselection:`File --> Render Animation...`. Unde
 
     If you have saved FFmpeg to a different location, choose ``<ffmpeg location>/ffmpeg/bin/ffmpeg.exe``.
     
-For OSX
-^^^^^^^
+For macOS
+^^^^^^^^^
 
 After downloading FFmpeg, you just need to extract it and then simply point to it in the FFmpeg location in Krita like ``/Users/user/Downloads/ffmpeg`` (assuming you downloaded and extracted the .7z file to /Users/user/Downloads).
 
@@ -133,4 +133,4 @@ Let's make an animated GIF. In the Render Animation dialog, change the :guilabel
 
 .. note::
     
-    OSX does not come with any software to play MP4 and MKV files. If you use Chrome for your web browser, you can drag the video file into that and the video should play. Otherwise you will need to get a program like VLC to see the video.
+    macOS does not come with any software to play MP4 and MKV files. If you use Chrome for your web browser, you can drag the video file into that and the video should play. Otherwise you will need to get a program like VLC to see the video.

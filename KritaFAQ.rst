@@ -473,7 +473,7 @@ Linux
     :file:`$HOME/.local/share/krita/`
 Windows
     :file:`user\\Appdata\\Roaming\\krita\\` or :file:`%APPDATA%\\Roaming\\krita\\`
-OSX
+macOS
     :file:`~/Library/Application Support/Krita/`
 
 You can easily do this by going into :menuselection:`Settings --> Manage Resources... --> Open Resource Folder`.

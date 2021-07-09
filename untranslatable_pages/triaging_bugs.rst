@@ -32,7 +32,7 @@ If the user has not entered the Platform correctly (i.e., it is "unspecified/Lin
 
 .. admonition:: Tell the user:
 
-    Please indicate your operating system correctly. For Linux, select the distribution, appimage or compiled from sources and Linux, for Windows, select MS Windows/MS Windows, for OS X or macOS, select macports, disk images or homebrew and OS X.
+    Please indicate your operating system correctly. For Linux, select the distribution, appimage or compiled from sources and Linux, for Windows, select MS Windows/MS Windows, for macOS or macOS, select macports, disk images or homebrew and macOS.
 
 If the user has selected Windows CE for platform, set it to MS Windows without asking them.
 
