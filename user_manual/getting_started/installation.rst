@@ -44,7 +44,7 @@ To download a portable version of Krita go to the `KDE <https://download.kde.org
 and get the ZIP file instead of the setup.exe installer.
 
 .. note::
-   Krita requires Windows 7 or newer. The Store version requires Windows 10.
+   Krita requires Windows 8.1 or newer. The Store version requires Windows 10.
 
 Linux
 -----
