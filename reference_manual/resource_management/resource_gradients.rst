@@ -62,11 +62,11 @@ Creating stop gradients is very straight forward. Following is a breakdown of th
 .. image:: /images/gradients/stop_gradient_editor_breakdown.png
    :align: center
 
-1. **Name text field** - In this text field you can write a name for the gradient.
-2. **"Select stop" buttons** - With these arrow buttons you can select the previous or next stop.
-3. **Selected stop label** - This label shows the currently selected stop index.
-4. **"Delete stop" button** - With this button you can delete the currently selected stop.
-5. **Gradient slider** - This *slider* is the main part of the editor, where the gradient preview is shown and where you can perform some basic operations to change the gradient:
+1. :dfn:`Name text field` - In this text field you can write a name for the gradient.
+2. :guilabel:`Select stop` - With these arrow buttons you can select the previous or next stop.
+3. :dfn:`Selected stop label` - This label shows the currently selected stop index.
+4. :guilabel:`Delete stop` - With this button you can delete the currently selected stop.
+5. :dfn:`Gradient slider` - This *slider* is the main part of the editor, where the gradient preview is shown and where you can perform some basic operations to change the gradient:
 
    * |mouseleft| on the gradient to add a stop.
    * |mouseleft| on the stop handles (the drop-shaped icons) to select a stop, and drag to move them.
@@ -75,20 +75,22 @@ Creating stop gradients is very straight forward. Following is a breakdown of th
    * Use the |mousescroll| or the :kbd:`Left` and :kbd:`Right` keys to move the selected stop. If you also press :kbd:`Shift` the increment will be smaller.
    * Use :kbd:`Ctrl` + |mousescroll| or :kbd:`Ctrl + Left` and :kbd:`Ctrl + Right` to select the previous or next stop.
 
-6. **"Color type" buttons** - Whith these three buttons you can select the type of color used by the selected stop (Foreground, Background or custom).
-7. **"Color" button** - If the selected stop uses a custom color then you can use this button to open a color dialog and change the color.
-8. **"Flip gradient" button** - With this button you can reverse the order of the stops in the gradient.
-9. **"Sort stops by value" button** - Clicking this button will sort the stops by its value.
-10. **"Distribute stops evenly" button** - Clicking this button will space the stops leaving the same amount of space between them.
-11. **"Sort stops by hue" button** - Clicking this button will sort the stops by its hue.
-12. **"Opacity" slider** - If the selected stop uses a custom color then you can use this slider to change its opacity.
-13. **"Position" slider** - This slider allows to fine-tune the position of the selected stop.
+6. :dfn:`Color type` - Whith these three buttons you can select the type of color used by the selected stop (Foreground, Background or custom).
+7. :dfn:`Color button` - If the selected stop uses a custom color then you can use this button to open a color dialog and change the color.
+8. :guilabel:`Flip gradient` - With this button you can reverse the order of the stops in the gradient.
+9. :guilabel:`Sort stops by value` - Clicking this button will sort the stops by its value.
+10. :guilabel:`Distribute stops evenly` - Clicking this button will space the stops leaving the same amount of space between them.
+11. :guilabel:`Sort stops by hue` - Clicking this button will sort the stops by its hue.
+12. :dfn:`Opacity slider` - If the selected stop uses a custom color then you can use this slider to change its opacity.
+13. :dfn:`Position slider` - This slider allows to fine-tune the position of the selected stop.
 
 As per SVG spec, you can make a sudden change between stops by moving them close together. The stops will overlap, but you can still drag them around:
 
 .. image:: /images/gradients/Krita_stop_sudden_change.png
    :align: center
 
+Right now, stop gradients are the only ones that are capable of handling :ref:`colors outside of sRGB <color_space_size>`.
+   
 Segmented Gradients
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -106,19 +108,19 @@ Segmented gradients are a list of *gradient segments*. A gradient segment has th
 
       .. image:: /images/gradients/Krita_gradient_segment_color_model.png
 
-      1. **RGB** - Does the blending in RGB model.
-      2. **HSV clockwise** - Blends the two colors using the HSV model, and follows the hue clockwise (red-yellow-green-cyan-blue-purple). The above screenshot is an example of this.
-      3. **HSV counter-clock wise** - Blends the color as the previous options, but then counter-clockwise.
+      1. :guilabel:`RGB` - Does the blending in RGB model.
+      2. :guilabel:`HSV clockwise` - Blends the two colors using the HSV model, and follows the hue clockwise (red-yellow-green-cyan-blue-purple). The above screenshot is an example of this.
+      3. :guilabel:`HSV counter-clock wise` - Blends the color as the previous options, but then counter-clockwise.
 
    - An interpolation function used to determine how the colors should vary along the segment:
 
       .. image:: /images/gradients/Krita_gradient_segment_blending.png
 
-      1. **Linear** - Does a linear blending between both extreme colors.
-      2. **Curved** - This causes the mix to ease-in and out faster. 
-      3. **Sine** - Uses a sine function. This causes the mix to ease in and out slower.
-      4. **Sphere, increasing** - This puts emphasis on the later color during the mix.
-      5. **Sphere, decreasing** - This puts emphasis on the first color during the mix.
+      1. :guilabel:`Linear` - Does a linear blending between both extreme colors.
+      2. :guilabel:`Curved` - This causes the mix to ease-in and out faster. 
+      3. :guilabel:`Sine` - Uses a sine function. This causes the mix to ease in and out slower.
+      4. :guilabel:`Sphere, increasing` - This puts emphasis on the later color during the mix.
+      5. :guilabel:`Sphere, decreasing` - This puts emphasis on the first color during the mix.
         
 * A segment middle position used to set where the *center* color obtained with the blending strategy should go. The visual effect is as if you stretched one half of the segment and squashed the other.
 
@@ -132,25 +134,25 @@ General UI Breakdown
    .. image:: /images/gradients/segment_gradient_editor_general_breakdown.png
       :align: center
 
-   1. **Name text field** - In this text field you can write a name for the gradient.
-   2. **Select handle buttons** - With these arrow buttons you can select the previous or next handle.
-   3. **Selected handle label** - This label shows the currently selected handle index.
-   4. **Handle actions area** - In this area will appear some actions you can perform on the selected handle. They vary depending on the type of handle selected.
-   5. **"Flip gradient" button** - With this button you can reverse the order of the segments (and their start and end colors) in the gradient.
-   6. **"Distribute segments evenly" button** - Clicking this button will make all the segments have the same amount of space.
-   7. **Gradient slider** - This *slider* is the main part of the editor, where the gradient preview is shown and where you can perform some basic operations to change the gradient. These operations basicaly make changes to the different handles and are explained in the following sections. You can change the selected handle by pressing :kbd:`Ctrl` and using |mousescroll| or by pressing :kbd:`Ctrl + Left` and :kbd:`Ctrl + Right`.
-   8. **Handle properties area** - In this area will appear some widgets you can use to change the different properties of the selected handle.
+   1. :dfn:`Name text field` - In this text field you can write a name for the gradient.
+   2. :dfn:`Select handle buttons` - With these arrow buttons you can select the previous or next handle.
+   3. :dfn:`Selected handle label` - This label shows the currently selected handle index.
+   4. :dfn:`Handle actions area` - In this area will appear some actions you can perform on the selected handle. They vary depending on the type of handle selected.
+   5. :guilabel:`Flip gradient` - With this button you can reverse the order of the segments (and their start and end colors) in the gradient.
+   6. :guilabel:`Distribute segments evenly` - Clicking this button will make all the segments have the same amount of space.
+   7. :dfn:`Gradient slider` - This :dfn:`slider` is the main part of the editor, where the gradient preview is shown and where you can perform some basic operations to change the gradient. These operations basicaly make changes to the different handles and are explained in the following sections. You can change the selected handle by pressing :kbd:`Ctrl` and using |mousescroll| or by pressing :kbd:`Ctrl + Left` and :kbd:`Ctrl + Right`.
+   8. :dfn:`Handle properties area` - In this area will appear some widgets you can use to change the different properties of the selected handle.
 
 Segment Handle UI Breakdown
 
    .. image:: /images/gradients/segment_gradient_editor_segment_handle_breakdown.png
       :align: center
 
-   1. **"Delete segment" button** - Pressing this button will delete the selected segment (unless it is the only one).
-   2. **"Flip segment" button** - Pressing this button you can reverse the start and end colors of the selected segment as well as its middle point.
-   3. **"Split segment" button** - Pressing this button will divide the selected segment in two, using the segment middle point as the cutting position.
-   4. **"Duplicate segment" button** - Pressing this button will create a copy of the selected segment to its right.
-   5. **Gradient slider** - Here is a list of the segment related actions you can perform on the gradient slider:
+   1. :guilabel:`Delete segment` - Pressing this button will delete the selected segment (unless it is the only one).
+   2. :guilabel:`Flip segment` - Pressing this button you can reverse the start and end colors of the selected segment as well as its middle point.
+   3. :guilabel:`Split segment` - Pressing this button will divide the selected segment in two, using the segment middle point as the cutting position.
+   4. :guilabel:`Duplicate segment` - Pressing this button will create a copy of the selected segment to its right.
+   5. :dfn:`Gradient slider` - Here is a list of the segment related actions you can perform on the gradient slider:
 
       * You can select a segment by |mouseleft| on an area of the slider where there is no stop handle (the drop-shaped icon) or middle point handle (the rhombus-shaped icon).
       * You can move the whole segment by |mouseleft| and dragging on an area of the slider where there is no stop handle or middle point handle. You can also move the segment by using |mousescroll| or :kbd:`Left` and :kbd:`Right` and while doing that, if you also press :kbd:`Shift`, then the increment will be smaller. The first and last segments can not be moved.
@@ -158,14 +160,14 @@ Segment Handle UI Breakdown
       * You can split a segment by pressing :kbd:`Ctrl` and |mouseleft| on it. The cutting point will be where you clicked.
       * You can duplicate a segment by pressing :kbd:`Shift` and |mouseleft| on it.
 
-   6. **"Left color" area** - In this row of widgets you can change the properties related to the start of the segment:
+   6. :guilabel:`Left color` - In this row of widgets you can change the properties related to the start of the segment:
 
       * With the first three buttons you can set the type of color used (Foreground, Background or custom).
       * Next to the color type buttons will appear a check box when the color type is Foreground or Background that you can use to stablish that the color should also be transparent. If the color type is custom, then instead a color button and an opacity slider will appear to let you choose a specific color.
       * Lastly there is a position slider you can use to fine-tune the start position of the segment. This also changes the end position of the previous segment.
 
-   7. **"Right color" area** - In this row of widgets you can change the properties related to the end of the segment. They are pretty much the same as the ones explained in the previous point.
-   8. **"Interpolation" area** - In this row you can set the interpolation method and color model used to blend the colors inbetween the segment.
+   7. :guilabel:`Right color` - In this row of widgets you can change the properties related to the end of the segment. They are pretty much the same as the ones explained in the previous point.
+   8. :guilabel:`Interpolation` - In this row you can set the interpolation method and color model used to blend the colors inbetween the segment.
 
 Stop Handle UI Breakdown
    Keep in mind that a segmented gradient is just a list of gradient segments. There isn't really a concept of *stop* associated with it. The stop handles are just a convention used in the editor to ease the editing of the gradient. When manipulating or changing the properties of a stop handle you are really modifying the end of the segment on the left and the start of the segment on the right synchronously. 
@@ -173,36 +175,36 @@ Stop Handle UI Breakdown
    .. image:: /images/gradients/segment_gradient_editor_stop_handle_breakdown.png
       :align: center
 
-   1. **"Delete stop" button** - Pressing this button will delete the selected stop. Under the hood this action will merge the left and right segments, keeping the start of the left segment and the end of the right segment.
-   2. **"Center stop" button** - Pressing this button will center the stop between the start position of the left segment and the end position of the right segment.
-   3. **Gradient slider** - Here is a list of the stop related actions you can perform on the gradient slider:
+   1. :guilabel:`Delete stop` - Pressing this button will delete the selected stop. Under the hood this action will merge the left and right segments, keeping the start of the left segment and the end of the right segment.
+   2. :guilabel:`Center stop` - Pressing this button will center the stop between the start position of the left segment and the end position of the right segment.
+   3. :guilabel:`Gradient slider` - Here is a list of the stop related actions you can perform on the gradient slider:
 
       * You can select a stop handle by |mouseleft| on one of the drop-shaped icons.
       * You can move the stop handle by |mouseleft| and dragging the drop-shaped icon. You can also move the stop handle by using |mousescroll| or :kbd:`Left` and :kbd:`Right` and while doing that, if you also press :kbd:`Shift`, then the increment will be smaller. The first and last stop handles can not be moved.
       * You can delete the selected stop by pressing :kbd:`Delete` or by dragging it outside the slider area.
       * You can create a new stop by pressing :kbd:`Ctrl` and |mouseleft| on an area of the slider where there is no stop handle or middle point handle. This is exactly the same action as splitting a segment.
 
-   4. **"Left Color" area** - In this row of widgets you can change the properties related to the end of the segment on the left of the stop:
+   4. :guilabel:`Left Color` - In this row of widgets you can change the properties related to the end of the segment on the left of the stop:
 
       * With the first three buttons you can set the type of color used (Foreground, Background or custom).
       * Next to the color type buttons will appear a check box when the color type is Foreground or Background that you can use to stablish that the color should also be transparent. If the color type is custom, then instead a color button and an opacity slider will appear to let you choose a specific color.
 
-   5. **"Right color" area** - In this row of widgets you can change the properties related to the start of the segment on the right of the stop. They are pretty much the same as the ones explained in the previous point.
-   6. **"Link colors" button** - If this button is checked then changing the properties on the *left color" area will also change the properties on the *right color* area and viceversa. Check it if you want the two colors to be synchronized.
-   7. **"Position" slider** - you can use this slider to fine-tune the position of the stop. This cahnges the end position of the segment on the left and the start position of the segment on the right.
+   5. :guilabel:`Right color` - In this row of widgets you can change the properties related to the start of the segment on the right of the stop. They are pretty much the same as the ones explained in the previous point.
+   6. :guilabel:`Link colors` - If this button is checked then changing the properties on the *left color" area will also change the properties on the *right color* area and viceversa. Check it if you want the two colors to be synchronized.
+   7. :guilabel:`Position` - you can use this slider to fine-tune the position of the stop. This cahnges the end position of the segment on the left and the start position of the segment on the right.
 
 Middle Point Handle UI Breakdown
 
    .. image:: /images/gradients/segment_gradient_editor_midpoint_handle_breakdown.png
       :align: center
 
-   1. **"Center middle point" button** - Pressing this button will center the middle point of the selected segment.
-   2. **Gradient slider** - Here is a list of the middle point related actions you can perform on the gradient slider:
+   1. :dfn:`Center middle point` - Pressing this button will center the middle point of the selected segment.
+   2. :dfn:`Gradient slider` - Here is a list of the middle point related actions you can perform on the gradient slider:
 
       * You can select a segment middle point by |mouseleft| on one of the rhombus-shaped icons.
       * You can move the middle point by |mouseleft| and dragging the rhombus-shaped icon. You can also move it by using |mousescroll| or :kbd:`Left` and :kbd:`Right` and while doing that, if you also press :kbd:`Shift`, then the increment will be smaller.
 
-   3. **"Position" slider** - With this slider you can fine-tune the position of the middle point of the segment.
+   3. :guilabel:`Position` - With this slider you can fine-tune the position of the middle point of the segment.
 
 Compact Gradient Editors
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -232,33 +234,33 @@ Following is a breakdown of the interface of the editor:
 .. image:: /images/gradients/generic_gradient_editor_breakdown.png
    :align: center
 
-1. **Add gradient button** - Pressing this button you can add the current gradient to
+1. :guilabel:`Add gradient button` - Pressing this button you can add the current gradient to
    the resources.
-2. **Update gradient button** - Pressing this button you can overwrite the gradient
+2. :guilabel:`Update gradient button` - Pressing this button you can overwrite the gradient
    resource that is currently selected in the gradient chooser. Keep in mind
    that the type of the gradient resource and the type of the gradient that is
    currently being edited must match.
-3. **Convert gradient button** - Pressing this button you can convert the current
+3. :guilabel:`Convert gradient button` - Pressing this button you can convert the current
    gradient to a stop gradient if it is a segmented gradient or to a segmented
    gradient if it is a stop gradient.
-4. **Convert gradient warning** - This icon will appear when pressing the convert
+4. :guilabel:`Convert gradient warning` - This icon will appear when pressing the convert
    button means that some data or info will be lost in the conversion. This can
    happen when converting from a segmented gradient to a stop gradient.
-5. **Gradient presets button** - Pressing this button will pop-up a gradient preset
+5. :guilabel:`Gradient presets button` - Pressing this button will pop-up a gradient preset
    chooser to let you choose a gradient and edit it. This button is only
    available if the "use a pop-up gradient preset chooser" is checked.
-6. **Options button** - Pressing this button will show an options menu.
-7. **Specific editor area** - Here the stop or segmented gradient editor will be
+6. :guilabel:`Options button` - Pressing this button will show an options menu.
+7. :dfn:`Specific editor area` - Here the stop or segmented gradient editor will be
    shown when a gradient is selected. The specific gradient editors are
    documented in the previous sections.
-8. **Gradient preset chooser** - This widget shows a collection of gradient resources
+8. :dfn:`Gradient preset chooser` - This widget shows a collection of gradient resources
    and allows you to load one of those gradients into the editor.
-9. **"Use a pop-up gradient preset chooser" option** - If this option is checked, the
+9. :guilabel:`Use a pop-up gradient preset chooser` - If this option is checked, the
    gradient preset chooser will be accessed through a pop-up window that is
    shown by clicking the "choose gradient preset" button; If this option is not
    checked then the gradient preset chooser is shown inline above all the other
    widgets.
-10. **"Show compact gradient preset chooser" option** - If this option is checked,
+10. :guilabel:`Show compact gradient preset chooser` - If this option is checked,
     then only the collection of gradient resources is shown, without any
     surrounding buttons or options. If it is not checked then the gradient
     preset chooser will also show some extra buttons, like tag filtering or
