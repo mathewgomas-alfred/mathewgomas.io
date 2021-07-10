@@ -264,9 +264,9 @@ Using the console is the most reliable way to get Krita's text output. This way 
 
         .. note::
 
-            The :file:`krita.com` executable starts Krita as a command-line program with a console window. This was not available before Krita version 5.0. If you have an older version or would prefer to use the :file:`krita.exe` program without a console window, see :ref:`DebugView guide <using_debug_view>`.
+            The :program:`krita.com` executable starts Krita as a command-line program with a console window. This was not available before Krita version 5.0. If you have an older version or would prefer to use the :program:`krita.exe` program without a console window, see :ref:`DebugView guide <using_debug_view>`.
 
-#. On macOS open :file:`Terminal.app`, on Linux open your favourite terminal or console application. On Windows, open a Command Prompt by typing :code:`cmd.exe` on the Start Menu and pressing :kbd:`Enter`.
+#. On macOS open :program:`Terminal.app`, on Linux open your favorite terminal or console application. On Windows, open a Command Prompt by typing :code:`cmd.exe` on the Start Menu and pressing :kbd:`Enter`.
 
 #. Write the path to the Krita executable.
 
