@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Managing brush tips in Krita.
 
 .. metadata-placeholder
@@ -15,7 +15,7 @@
 Brushes
 =======
 
-These are the brush tip or textures used in the brush presets. They can be PNG files or ``.abr`` file from Photoshop or ``.gbr`` files from Gimp.
+These are the brush tip or textures used in the brush presets. They can be PNG files or ``.abr`` file from Photoshop or ``.gbr`` files from GIMP.
 
 .. note::
 

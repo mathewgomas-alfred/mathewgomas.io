@@ -15,7 +15,7 @@
              - Raghavendra Kamath
              - Radianart
              - Thorben Kruger
-             - Boudewijn Rempt
+             - Halla Rempt
              - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
@@ -26,7 +26,7 @@
 The List of Supported Tablets
 =============================
 
-This is specifically about support on Windows, not Linux or OSX.
+This is specifically about support on Windows, not Linux or macOS.
 
 
 .. list-table::
@@ -347,6 +347,12 @@ This is specifically about support on Windows, not Linux or OSX.
      - ✔️ Supposed to work
    * - Huion / Turcom 
      - Inspiroy Q11K  
+     - ✔️ Supported
+   * - Huion
+     - Inspiroy H430P
+     - ✔️ Supported
+   * - Huion / Turcom
+     - HS611
      - ✔️ Supported
    * - KB Gear 
      - JamStudio

@@ -98,7 +98,8 @@ pygments_style = 'sphinx'
 smartquotes_excludes = {'languages':[
                                     'ja',
                                     'ca',
-                                    'fr'
+                                    'fr',
+                                    'zh_TW'
                                     ],
                         'builders': [
                                     'man',

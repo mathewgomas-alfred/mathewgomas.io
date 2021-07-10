@@ -4,7 +4,7 @@
 
 .. metadata-placeholder
 
-    :authors: - Boudewijn Rempt <boud@valdyas.org>
+    :authors: - Halla Rempt <boud@valdyas.org>
               - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
     :license: GNU free documentation license 1.3 or later.
 
@@ -119,7 +119,7 @@ WISHGROUP: Needs proposal and design
 Step 3: Discussing in irc/phab
 ------------------------------
 
-Again, strictly a developer task. While nothing stops an adventurous programmer from just going in and implementing something, it helps to go to the #krita irc on freenode and tell us you're working on it. Not because you need permission(Krita is open source after all), but we do want to be able to help you in your endeavours. Such help can include technical help, like where things are in the code, but also interface design help.
+Again, strictly a developer task. While nothing stops an adventurous programmer from just going in and implementing something, it helps to go to the #krita irc on Libera.Chat and tell us you're working on it. Not because you need permission(Krita is open source after all), but we do want to be able to help you in your endeavours. Such help can include technical help, like where things are in the code, but also interface design help.
 
 Some features, such as new frame types for animation, or multithreading on some part or the other also needs careful discussion so we know what is going to need changes.
 

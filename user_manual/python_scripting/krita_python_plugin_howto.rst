@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - BrendanD
              - Scott Petrovic
-             - Boudewijn Rempt <boud@valdyas.org>
+             - Halla Rempt <boud@valdyas.org>
              - TPaulssen
    :license: GNU free documentation license 1.3 or later.
 
@@ -225,7 +225,7 @@ iconText
 activationFlags
  This determines when an action is disabled or not.
 activationConditions
- This determines activation conditions (e.g. activate only when selection is editable). See `the code <https://cgit.kde.org/krita.git/tree/libs/ui/kis_action.h#n76>`_ for examples.
+ This determines activation conditions (e.g. activate only when selection is editable). See `the code <https://invent.kde.org/graphics/krita/-/blob/master/libs/ui/kis_action.h#L41>`_ for examples.
 shortcut
  Default shortcut.
 isCheckable
