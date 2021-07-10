@@ -4,7 +4,7 @@
 
 .. metadata-placeholder
 
-    :authors: - Boudewijn Rempt <boud@valdyas.org>
+    :authors: - Halla Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
     
 .. _building_krita_with_docker:
@@ -13,7 +13,7 @@
 Building krita with Docker on Linux
 ===================================
 
-This guide is useful when you are an advanced developer and want to build krita with the same patched dependencies that are used for the appimages. If you just want to hack on Krita, read the Build Krita from Source guide.
+This guide is useful when you are an advanced developer and want to build krita with the same patched dependencies that are used for the AppImages. If you just want to hack on Krita, read the Build Krita from Source guide.
 
 The *Dockerfile* is based on the official KDE build environment
 that is used on KDE CI for building official AppImage packages. This guide is valid for Ubuntu and Ubuntu-based Linux distributions.
@@ -191,7 +191,7 @@ You can build multiple merge requests at once!
 Updating dependencies in the docker
 -----------------------------------
 
-Sometimes dependencies in Krita change and building Krita or making the appimage fails. To fix that, you need to update the dependencies.
+Sometimes dependencies in Krita change and building Krita or making the AppImage fails. To fix that, you need to update the dependencies.
 
 .. note::
 

@@ -43,12 +43,12 @@ While we should minimize the amount of GIFs in the manual for a variety of acces
 
 For making short GIFs, you can use the following programs:
 
-* `Peek <https://github.com/phw/peek>`_ -- This one has an appimage and a very easy user-interface. Like many screenrecording programs it does show trouble on Wayland.
+* `Peek <https://github.com/phw/peek>`_ -- This one has an AppImage and a very easy user-interface. Like many screenrecording programs it does show trouble on Wayland.
 
-OS X
-~~~~
+macOS
+~~~~~
 
-The Screenshot hotkey on OS X is :kbd:`Shift + Command + 3`, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
+The Screenshot hotkey on macOS is :kbd:`Shift + Command + 3`, according to `the official apple documentation <https://support.apple.com/en-us/HT201361>`_.
 
 The appropriate file format for the job
 ---------------------------------------
@@ -131,8 +131,8 @@ However, tricks like these become very obvious when your image has a lot of cont
 
 
 
-MacOS/ OS X
-~~~~~~~~~~~
+macOS
+~~~~~
 
 * `ImageOptim <https://imageoptim.com/mac>`_ -- A Graphical User Interface wrapper around commandline tools like PNGquant and gifski.
 
@@ -145,8 +145,8 @@ There are no less than 3 to 4 different ways of handling metadata, and metadata 
 
 The most commonly used tool to edit metadata is :program:`ExifTool`, another is to use :program:`ImageMagick`.
 
-Windows and OS X
-~~~~~~~~~~~~~~~~
+Windows and macOS
+~~~~~~~~~~~~~~~~~
 
 To get exiftool, `just get it from the website <https://www.sno.phy.queensu.ca/~phil/exiftool/>`_.
 

@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Display settings in Krita.
 
 .. metadata-placeholder
@@ -68,8 +68,8 @@ Current Output format
 Preferred Output Format
     Which surface type you prefer. This should be ideally the closest to the display format, but perhaps due to driver issues you might want to try other formats. This requires a restart.
 
-Transparency Checkboxes 
------------------------
+Transparency Checkerboard 
+-------------------------
 
 Krita supports layer transparency. Of course, the nasty thing is that transparency can't be seen. So to indicate transparency at the lowest layer, we use a checker pattern. This part allows you to configure it.
 

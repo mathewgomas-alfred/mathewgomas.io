@@ -381,6 +381,10 @@ Blending Modes While Transforming
 
 When you transform a layer or a selection in Krita, the transformation appears on the top of your layer stack ignoring the layer blending mode. 
 
+.. hint::
+
+   Starting from Krita 5.0, the :ref:`performance setting "Use in-stack preview in Transform Tool" <instant_preview_settings>` allows for the layer blending mode to be previewed during transformation.
+
 Photomerge
 ~~~~~~~~~~
 You may have used this tool in Photoshop to seamlessly and automatically stitch together a drawing that was scanned in segments. Krita does not have an equivalent, though an alternative is to use Hugin, which is cross-platform and free, just like Krita.

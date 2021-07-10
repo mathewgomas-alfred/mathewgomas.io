@@ -1,6 +1,6 @@
 .. meta::
-   :description:
-        The settings menu in Krita.
+   :description property=og\:description:
+        The 'Settings' menu in Krita.
 
 .. metadata-placeholder
 
@@ -18,69 +18,20 @@ Settings Menu
 
 The Settings Menu houses the configurable options in Krita and where you determine most of the "look and feel" of the application.
 
-.. index:: Dockers
-
-Show Dockers
-------------
-
-Show Dockers
-    Determines whether or not the dockers are visible.  This is a nice aid to cleaning up the interface and removing unnecessary "eye-ball clutter" when you are painting.  If you've got your brush and you know you're just going to be painting for awhile why not flip the dockers off?  You'd be amazed what a difference it makes while you're working.  However, if you know you're swapping out tools or working with layer or any of the other myriad things Krita lets you do then there's no point getting caught up in flipping the docks on and off.  Use your time wisely!
-
- .. tip::
+Configure Krita
+    Opens the :ref:`preferences`.
+Manage Resource Libraries
+    Allows you to manage which bundles are active.
     
-    This is a great candidate to add to the toolbar so you can just click the dockers on and off and don't even have to open the menu to do it. See :ref:`configure_toolbars` below for more.
-
-Dockers
--------
-
-Krita subdivides the access of many of its features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brushkit.  
-
-Learning to use dockers effectively is a key concept to optimizing your time using Krita.  
-
-.. index:: Themes, Theme, Look and Feel
-
-Themes
-------
-
-Krita provides a number of color-themed interfaces or "looks".  The current set of themes are the following:
-
-* Dark (Default)
-* Blender
-* Bright
-* Neutral
-
-There is no easy way to create and share themes. The color themes are defined in the :menuselection:`Share --> Color Schemes` folder where Krita is downloaded.
-
-Configure Shortcuts
--------------------
-
-Configuring shortcuts is another way to customize the application to fit you.  Whether you are transitioning from another app, like Photoshop or MyPaint, or you think your own shortcut keys make more sense for you then Krita has got you covered.  You get to the shortcuts interface through :menuselection:`Settings --> Configure Krita...` and by choosing the :menuselection:`Keyboard Shortcuts` tab.
-
-To use, just type the :guilabel:`Action` into the Search box you want to assign/reassign the shortcut for.  Suppose we wanted to assign the shortcut :kbd:`Ctrl + G` to the :guilabel:`Action` of Group Layers so that every time we pressed the :kbd:`Ctrl + G` shortcut a new Layer Group would be created.  Use the following steps to do this:
-
-#. Type "Group Layer".
-#. Click on Group Layer and a small inset box will open.
-#. Click the Custom radio button.
-#. Click on the first button and type the :kbd:`Ctrl + G` shortcut.
-#. Click OK.
-
-From this point on, whenever you press the :kbd:`Ctrl + G` shortcut you'll get a new :guilabel:`Group Layer`.
-
-.. tip::
-    Smart use of shortcuts can save you significant time and further streamline your workflow.
-
-Manage Resources...
--------------------
-
-Manage the resources. You can read more about it :ref:`here <resource_management>`.
-
-.. index:: Language
-.. _switch_application_language:
-
-Switch Application Language...
-------------------------------
-
-If you wish to use Krita in a different translation.
+    .. versionadded:: 5.0
+Manage Resources
+    Manage the resources. You can read more about it :ref:`here <resource_management>`.
+Active Author Profile
+    This allows you to set which :ref:`author profile <author_settings>` is currently active.
+Reset all settings
+    Reset all the Krita settings, as per :ref:`faq_reset_krita_configuration`.
+    
+    .. versionadded:: 5.0
 
 .. index:: ! Toolbar
 .. _configure_toolbars:
@@ -102,14 +53,14 @@ Available Actions:
 Current Actions:
     All the actions currently assigned and the order they are in.
 
-Use the arrows between the *Available* and *Current* actions sections to move items back and forth and up and down in the hierarchy. This type of inclusion/exclusion interface has been around on PCs for decades so we don't need to go into great detail regarding its use. What is important though is selecting the correct Toolbar to work on. The Main Toolbar allows you to add items between the :guilabel:`New`, :guilabel:`Open` and :guilabel:`Save` buttons as well as to the right of the :guilabel:`Save` button. The Brushes and Stuff Toolbar, lets you modify anything from the Gradients button over to the right. This is probably where you'll do most of your editing.
+Use the arrows between the *Available* and *Current* actions sections to move items back and forth and up and down in the hierarchy. This type of inclusion/exclusion interface has been around on PCs for decades, so we don't need to go into great detail regarding its use. What is important though is selecting the correct Toolbar to work on. The Main Toolbar allows you to add items between the :guilabel:`New`, :guilabel:`Open` and :guilabel:`Save` buttons as well as to the right of the :guilabel:`Save` button. The Brushes and Stuff Toolbar, lets you modify anything from the Gradients button over to the right. This is probably where you'll do most of your editing.
 
 Here we've added :menuselection:`Select Opaque`, :menuselection:`Local Selection`, :menuselection:`Transparency Mask`, :menuselection:`Isolate Layer`, :menuselection:`Show Assistant Previews`. This is just an example of a couple of options that are used frequently and might trim your workflow. This is what it looks like in the configuration tool:
 
 .. image:: /images/preferences/Configure_Toolbars_Brushes_and_Stuff_Custom.png 
    :align: center
 
-You'll notice that some of the items are text only and some only icons.  This is determined by whether the particular item has an associated icon in Krita.  You can select anything from the *Available* section and move it to the *Current* one and rearrange to fit your own workflow.  
+You'll notice that some items are text only and some only icons.  This is determined by whether the particular item has an associated icon in Krita.  You can select anything from the *Available* section and move it to the *Current* one and rearrange to fit your own workflow.  
 
 If you add so many that they won't all fit on your screen at once, you will see a small chevron icon appear.  Click it and the toolbar expands to show the remaining items.
 
@@ -121,7 +72,52 @@ At this time Krita does not support the ability to create additional toolbars. T
 .. image:: /images/preferences/Toolbars_Shown.png 
    :align: center
 
-Although not really advisable, you can turn them off (but why would you..really?)
+Although not really advisable, you can turn them off (but why would you... really?)
 
 .. versionadded:: 4.2
     Krita's toolbars are now movable. You can move a toolbar by |mouseleft| dragging its left handle.
+
+.. index:: Dockers
+
+Show Dockers
+------------
+
+Show Dockers
+    Determines whether the dockers are visible.  This is a nice aid to cleaning up the interface and removing unnecessary "eye-ball clutter" when you are painting.  If you've got your brush, and you know you're just going to be painting for a while why not flip the dockers off?  You'd be amazed what a difference it makes while you're working.  However, if you know you're swapping out tools or working with layer or any of the other myriad things Krita lets you do then there's no point getting caught up in flipping the docks on and off.  Use your time wisely!
+
+ .. tip::
+    
+    This is a great candidate to add to the toolbar, so you can just click the dockers on and off and don't even have to open the menu to do it. See :ref:`configure_toolbars` below for more.
+
+Dockers
+-------
+
+Krita subdivides the access of many of its features into functional panels called Dockers. Dockers are small windows that can contain, for example, things like the Layer Stack, Color Palette or Brush Presets. Think of them as the painter's palette, or his water, or his brush kit.  
+
+Learning to use dockers effectively is a key concept to optimizing your time using Krita.  
+
+.. index:: Themes, Theme, Look and Feel
+
+Themes and Style
+----------------
+
+Krita provides a number of color-themed interfaces or "looks".  The current set of themes are the following:
+
+* Darker
+* Dark (Default)
+* Blender
+* Bright
+* Neutral
+
+There is no easy way to create and share themes. The color themes are defined in the ``color-schemes`` folder inside the resource folder.
+
+Similarly, the Style menu allows you to select a different 'widget style'. These styles are Qt framework widget styles and there's no easy way of customizing them.
+
+.. index:: Language
+.. _switch_application_language:
+
+Switch Application Language...
+------------------------------
+
+If you wish to use Krita in a different translation, you can select it here. It may require a restart, however.
+

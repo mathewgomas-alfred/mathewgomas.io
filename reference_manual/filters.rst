@@ -10,7 +10,7 @@ Filters are unique to digital painting in terms of complexity, and their part of
 
 Filters can be accessed via the :guilabel:`Filters` menu. Krita has two types of filters: Internal and G'MIC filters.
 
-Internal filters are often multithreaded, and can thus be used with the filter brush or the adjustment filters.
+Internal filters are often multithreaded, and can thus be used with the :ref:`filter_brush_engine` or the :ref:`filter_layers` and :ref:`filter_masks`.
 
 .. toctree::
    :maxdepth: 1

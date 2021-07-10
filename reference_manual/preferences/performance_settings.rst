@@ -77,7 +77,7 @@ Debug logging for brush rendering speed.
     Will show numbers indicating how fast the last brush stroke was on canvas.
 Disable vector optimizations (for AMD CPUs)
     Vector optimizations are a special way of asking the CPU to do maths, these have names such as SIMD and AVX. These optimizations can make Krita a lot faster when painting, except when you have an AMD CPU under Windows. There seems to be something strange going on there, so just deactivate them then.
-Enable progress reporting
+Progress reporting
     This allows you to toggle the progress reporter, which is a little feedback progress bar that shows up in the status bar when you let Krita do heavy operations, such as heavy filters or big strokes. The red icon next to the bar will allow you to cancel your operation. This is on by default, but as progress reporting itself can take up some time, you can switch it off here.
 Performance logging
     This enables performance logging, which is then saved to the ``Log`` folder in your ``working directory``. Your working directory is where the autosave is saved at as well.
@@ -122,3 +122,17 @@ Use Region Of Interest
     We technically only need to use the section of the image that is in view. Region of interest represents that section. When the image is above the configurable limit, render only the currently visible part of it.
 Enable Background Cache Generation
     This allows you to set whether the animation is cached for playback in the background (that is, when you're not using the computer). Then, when animation is cached when pressing play, this caching will take less long. However, turning off this automatic caching can save power by having your computer work less.
+
+.. _instant_preview_settings:    
+
+Instant Preview
+---------------
+
+Use in-stack preview in Transform Tool
+    Whether to use a floating preview for the :ref:`transform_tool`, or whether to have it rendered in place.
+Force instant preview in Transform Tool
+    Turns on :ref:`instant_preview` for the :ref:`transform_tool` even when it's off in :menuselection:`Wiew --> Instant preview`.
+Force instant preview in Move Tool
+    Turns on :ref:`instant_preview` for the :ref:`move_tool` even when it's off in :menuselection:`Wiew --> Instant preview`.
+Force instant preview in Filters
+    Turns on :ref:`instant_preview` for the :ref:`filters` even when it's off in :menuselection:`View --> Instant preview`.

@@ -101,7 +101,7 @@ Additional information for supporters
 
 #. Except for the issue with beginnings of the strokes, Wacom tablets usually work no matter the OS.
 
-#. Huion tablets should work on Windows and on Linux, on Mac there might be issues.
+#. Huion tablets should work on Windows and on Linux, on macOS there might be issues.
 
 #. XP-Pen tablets and the rest of brands can have issues everywhere (on all systems).
 
@@ -158,11 +158,11 @@ Advices for supporters
 
 #. If you don't know the solution but you know what information will be needed to investigate the issue further, don't hesitate to ask. Other supporters may know the answer, but have too little time to move the user through the whole process, so you're helping a lot just by asking for additional information. This is very much true in case of tablet issues, for example.
 
-#. If you don't know the answer/solution and the question looks abandoned by other supporters, you can always ask for help on Krita IRC channel. It's #krita on freenode.net: :ref:`the_krita_community`.
+#. If you don't know the answer/solution and the question looks abandoned by other supporters, you can always ask for help on Krita IRC channel. It's #krita on Libera.Chat: :ref:`the_krita_community`.
 
 #. Explain steps the user needs to make clearly, for example if you need them to change something in settings, clearly state the whole path of buttons and tabs to get there.
 
-#. Instead of :menuselection:`Settings --> Configure Krita...` use just :menuselection:`Configure Krita` -- it's easy enough to find and Mac users (where you need to select :menuselection:`Krita --> Preferences...`) won't get confused.
+#. Instead of :menuselection:`Settings --> Configure Krita...` use just :menuselection:`Configure Krita` -- it's easy enough to find and macOS users (where you need to select :menuselection:`Krita --> Preferences...`) won't get confused.
 
 #. If you ask for an image, mention usage of `Imgur <https://imgur.com>`_ or `Pasteboard <https://pasteboard.co>`_ (:ref:`intro_user_support_sharing_files`), otherwise Reddit users might create a new post with this image instead of including it to the old conversation.
 

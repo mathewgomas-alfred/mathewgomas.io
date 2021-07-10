@@ -1,10 +1,11 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Overview of the gamut mask docker.
 
 .. metadata-placeholder
 
    :authors: - Anna Medonosova <anna.medonosova@gmail.com>
+             - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
 
    :license: GNU free documentation license 1.3 or later.
 
@@ -26,7 +27,7 @@ Usage
 
 |mouseleft| an icon (1) to apply a mask to color selectors.
 
-Gamut Masks can be imported and exported in the resource manager.
+Gamut Masks can be imported and exported in :ref:`resource_manager`.
 
 
 Management Toolbar
@@ -41,6 +42,7 @@ Duplicate mask (4)
 Delete mask (5)
     Deletes the currently selected mask.
 
+Gamut Masks are a type of :ref:`resource <resource_management>`. As such, they can be saved, tagged, reordered and added to bundles. They are stored inside ``*.kgm`` files, which are ZIP files consisting of a mimetype (:mimetype:`application/x-krita-gamutmask`), a preview.png and an SVG file describing the mask.
 
 Editing
 -------
@@ -60,7 +62,7 @@ Description
 
 .. warning::
 
-  * The shapes need to be added to the layer named “maskShapesLayer” (which is selected by default).
+  * The shapes need to be added to the layer named ``maskShapesLayer`` (which is selected by default).
   * The shapes need have solid background to show correctly in the editor.
   * A template with no shapes cannot be saved.
 
