@@ -21,7 +21,7 @@ As shown in the image above, the pop-up palette has the following tools and quic
 
 - Foreground color and Background color indicators on the top left of the palette.
 - A canvas rotation circular slider, which can help the artist quickly rotate the canvas while painting.
-- A group of brush presets, based on the tag selected by the artist. By default the **My Favorite** tag is selected. By default only first 10 presets from the tag are shown, however you can change the number of brush presets shown by changing the value in the :ref:`Miscellaneous Settings Section <misc_settings>` of the dialog box.
+- A group of brush presets, based on the tag selected by the artist. By default the **My Favorite** tag is selected. By default only first 10 presets from the tag are shown, however you can change the number of brush presets shown by changing the value in the :ref:`popup_palette_settings` in Krita's :ref:`preferences` dialog.
 - Color Selector with which you can select the hue from the circular ring and lightness and saturation from the triangular area in the middle.
 - Color history area shows the most recent color swatches that you have used while painting.
 - The tag list for brush preset will show you the list of both custom and default tags to choose from, selecting a tag from this list will show the corresponding brush presets in the palette.

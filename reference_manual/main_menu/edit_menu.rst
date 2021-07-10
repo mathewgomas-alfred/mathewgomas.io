@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The edit menu in Krita.
 
 .. metadata-placeholder
@@ -44,21 +44,43 @@ Edit Menu
     Paste at Cursor
         Same as :term:`Paste`, but aligns the image to the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
 
+    Paste into Active Layer
+        Pastes the copied buffer into the current layer as a new selection.
+        
+        .. versionadded:: 5.0
+
     Paste into New Image
         Pastes the copied buffer into a new image. Shortcut: :kbd:`Ctrl + Shift + N`
 
+    Paste as Reference Image
+        Pastes the selection as a new :ref:`Reference Image <reference_images_tool>`.
+    
+    Paste Shape Style
+        Used with :ref:`shape_selection_tool`, this allows you to copy the style (the fill, outline and markers) of one vector shape to another.
+        
+        .. versionadded:: 4.4.2
+    
     Clear
-        Clear the current layer. Shortcut: :kbd:`Del`
+        Empty the currently selected area or layer. Shortcut: :kbd:`Del`
 
     Fill with Foreground Color
-        Fills the layer or selection with the foreground color. Shortcut: :kbd:`Shift + Backspace`
+        Fills the layer or selection with the foreground color without taking into account blending modes or opacity. Shortcut: :kbd:`Shift + Backspace`
 
     Fill with Background Color
-        Fills the layer or selection with the background color. Shortcut: :kbd:`Backspace`
+        Fills the layer or selection with the background color without taking into account blending modes or opacity. Shortcut: :kbd:`Backspace`
 
     Fill with Pattern
-        Fills the layer or selection with the active pattern.
-        
+        Fills the layer or selection with the active pattern without taking into account blending modes or opacity.
+    
+    Fill with Foreground Color (Opacity) 
+        Fills the layer or selection with the foreground color, taking blending modes and opacity into account. Shortcut: :kbd:`Ctrl + Shift + Backspace`
+    
+    Fill with Background Color (Opacity)
+        Fills the layer or selection with the background color, taking blending modes and opacity into account. Shortcut: :kbd:`Ctrl + Backspace`
+
+    Fill with Pattern (Opacity)
+        Fills the layer or selection with the active pattern, taking blending modes and opacity into account.
+    
     Stroke Selected Shapes
         Strokes the selected vector shape with the selected brush, will create a new layer.
 

@@ -7,7 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Raghavendra Kamath <raghu@raghukamath.com>
              - Scott Petrovic
-             - Boudewijn Rempt <boud@valdyas.org>
+             - Halla Rempt <boud@valdyas.org>
              - Dmitry Kazakov <dimula73@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
@@ -20,7 +20,6 @@ Installation
 Windows
 -------
 Windows users can download Krita from the website, the Windows Store, or Steam.
-
 The versions on the Store and Steam cost money, but are `functionally identical
 <https://krita.org/en/item/krita-available-from-the-windows-store/>`_ to the
 (free) website version. Unlike the website version, however, both paid versions
@@ -45,7 +44,7 @@ To download a portable version of Krita go to the `KDE <https://download.kde.org
 and get the ZIP file instead of the setup.exe installer.
 
 .. note::
-   Krita requires Windows 7 or newer. The Store version requires Windows 10.
+   Krita requires Windows 8.1 or newer. The Store version requires Windows 10.
 
 Linux
 -----
@@ -65,17 +64,17 @@ default, but Nautilus and its derivatives need an extension. `We
 recommend Moritz Molch's extensions for XCF, KRA, ORA and PSD
 thumbnails <https://moritzmolch.com/1749>`__.
 
-Appimages
+AppImages
 ~~~~~~~~~
 
-For Krita 3.0 and later, first try out the appimage from the website.
+For Krita 3.0 and later, first try out the AppImage from the website.
 **90% of the time this is by far the easiest way to get the
-latest Krita.** Just download the appimage, and then use the file
-properties or the bash command chmod to make the appimage executable.
+latest Krita.** Just download the AppImage, and then use the file
+properties or the bash command chmod to make the AppImage executable.
 Double click it, and enjoy Krita. (Or run it in the terminal with
 ./appimagename.appimage)
 
-- Open the terminal into the folder you have the appimage.
+- Open the terminal into the folder you have the AppImage.
 - Make it executable:
 
 ::
@@ -88,7 +87,7 @@ Double click it, and enjoy Krita. (Or run it in the terminal with
 
  ./krita-3.0-x86_64.appimage
 
-Appimages are ISOs with all the necessary libraries bundled inside, that means no
+AppImages are ISOs with all the necessary libraries bundled inside, that means no
 fiddling with repositories and dependencies, at the cost of a slight bit
 more disk space taken up (And this size would only be bigger if you were
 using Plasma to begin with).
@@ -98,7 +97,7 @@ Ubuntu and Kubuntu
 
 It does not matter which version of Ubuntu you use, Krita will run just
 fine. However, by default, only a very old version of Krita is
-available. You should either use the appimage, flatpak or the snap available
+available. You should either use the AppImage, flatpak or the snap available
 from Ubuntu's app store. We also maintain a ppa for getting the latest builds of Krita,
 you can read more about the ppa and install instructions `here <https://launchpad.net/~kritalime/+archive/ubuntu/ppa>`_.
 
@@ -179,12 +178,12 @@ If you are on Ubuntu distribution then Krita's snap package may show up in the s
 .. note::
    The Flatpak and Snap builds are not tested by the core developers of Krita, so you may encounter some bugs while running Krita installed from them.
 
-OS X
-----
+macOS
+-----
 
 You can download the latest binary from our
 `website <https://krita.org/download/krita-desktop/>`__.
-The binaries work only with Mac OSX version 10.12 and newer.
+The binaries work only with macOS version 10.12 and newer.
 
 Source
 ------
@@ -218,6 +217,6 @@ If you encounter any problems, or if you are new to compiling software,
 don't hesitate to contact the Krita developers. There are three main
 communication channels:
 
--  irc: webchat.freenode.net, channel #krita
+-  irc: web.libera.chat, channel #krita
 -  `mailing list <https://mail.kde.org/mailman/listinfo/kimageshop>`__
 -  `Krita Artists <https://krita-artists.org>`__

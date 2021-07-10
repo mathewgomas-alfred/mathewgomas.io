@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Managing workspaces and sessions in Krita.
 
 .. metadata-placeholder
@@ -17,9 +17,11 @@ Workspaces
 
 Workspaces are basically saved configurations of dockers.  Each workspace saves how the dockers are grouped and where they are placed on the screen.  They allow you to easily move between workflows without having to manual reconfigure your setup each time.  They can be as simple or as complex as you want.  
 
-Workspaces can only be accessed via the toolbar or :menuselection:`Window --> Workspaces` There's no docker for them.  You can save workspaces, in which your current configuration is saved. You can also import them (from a \*.kws file), or delete them (which black lists them).
+Workspaces can only be accessed via the toolbar or :menuselection:`Window --> Workspaces` There's no docker for them.  You can save workspaces, in which your current configuration is saved. You can also import them (from a ``\*.kws`` file), or delete them (which :ref:`deactivates <deactivating_resources>` them).
 
 Workspaces can technically be tagged, but outside of the resource manager this is not possible.
+
+.. _window_layout:
 
 Window Layouts
 --------------
@@ -32,6 +34,8 @@ Primary Workspace Follows Focus
     This treats the workspace in the first window as the 'primary' workspace, and when you switch focus, it will switch the secondary windows to that primary workspace. This is useful when the secondary workspace is a very sparse workspace with few dockers, and the primary is one with a lot of different dockers.
 Show Active Image In All Windows
     This will synchronise the currently viewed image in all windows. Without it, different windows can open separate views for an image via :menuselection:`Window --> New View --> document.kra`.
+
+.. _working_sessions:
 
 Sessions
 --------

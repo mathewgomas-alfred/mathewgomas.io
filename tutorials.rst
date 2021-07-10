@@ -1,7 +1,7 @@
 .. _tutorials:
 
 #####################
-Tutorials and Howto's
+Tutorials and How-tos
 #####################
 
 Learn through developer and user generated tutorials to see Krita in action.

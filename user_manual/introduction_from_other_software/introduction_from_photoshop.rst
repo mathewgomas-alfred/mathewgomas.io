@@ -35,8 +35,6 @@ This chapter covers how you use Krita in the basic operations compared to PS.
 View and Display
 ~~~~~~~~~~~~~~~~
 
-|
-
 Navigation
 ^^^^^^^^^^
 
@@ -382,6 +380,10 @@ Blending Modes While Transforming
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you transform a layer or a selection in Krita, the transformation appears on the top of your layer stack ignoring the layer blending mode. 
+
+.. hint::
+
+   Starting from Krita 5.0, the :ref:`performance setting "Use in-stack preview in Transform Tool" <instant_preview_settings>` allows for the layer blending mode to be previewed during transformation.
 
 Photomerge
 ~~~~~~~~~~

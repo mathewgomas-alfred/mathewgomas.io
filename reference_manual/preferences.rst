@@ -15,9 +15,9 @@
 Preferences
 =========== 
 
-Krita is highly customizable and makes many settings and options available to customize through the Preferences area. These settings are accessed by going to :menuselection:`Settings --> Configure Krita...` menu item. On MacOS, the settings are under the topleft menu area, as you would expect of any program under MacOS.
+Krita is highly customizable and makes many settings and options available to customize through the Preferences area. These settings are accessed by going to :menuselection:`Settings --> Configure Krita...` menu item. On macOS, the settings are under the topleft menu area, as you would expect of any program under macOS.
 
-Krita's preferences are saved in the file ``kritarc``. This file is located in ``%LOCALAPPDATA%\`` on Windows, ``~/.config`` on Linux, and ``~/Library/Preferences`` on OS X. If you would like to back up your custom settings or synchronize them from one computer to another, you can just copy this file. It even works across platforms!
+Krita's preferences are saved in the file ``kritarc``. This file is located in ``%LOCALAPPDATA%\`` on Windows, ``~/.config`` on Linux, and ``~/Library/Preferences`` on macOS. If you would like to back up your custom settings or synchronize them from one computer to another, you can just copy this file. It even works across platforms!
 
 If you have installed Krita through the Windows store, the kritarc file will be in another location:
 

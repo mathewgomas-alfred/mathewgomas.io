@@ -87,7 +87,7 @@ I am selected what now?
 +++++++++++++++++++++++
 Where to ask for help?
 +++++++++++++++++++++++
-* The best place would be our IRC channel which would be #krita on freenode.
+* The best place would be our IRC channel which would be #krita on Libera.Chat.
 * The second best place would be our mailing `list <https://mail.kde.org/mailman/listinfo/kimageshop>`_.
 * Keep in mind that the team is spread over 5 continents and most of the time, weekends are awkwardly quiet.
 * Any kind of private communication is discouraged, whatever you need to ask, ask in the public channels, unless required.

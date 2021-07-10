@@ -552,4 +552,21 @@ This becomes a blockquote.
 
 We do actually use quotes in some places. Try to add a link to the name to define where it came from.
 
+Notes for Translators
+---------------------
+
+If you are translating the manual for a language that does not usually use
+whitespaces around words (e.g. Chinese and Japanese), you can use an escaped
+whitespace to separate markup and words. This is particularly useful for page
+links, like this::
+
+    床前\ `明月 <https://krita.org/>`_\ 光
+
+Note that when translating from a PO file, you should escape the backslash with
+another backslash::
+
+    床前\\ `明月 <https://krita.org/>`_\\ 光
+
+The above produces "床前\ `明月 <https://krita.org/>`_\ 光", instead of
+"床前 `明月 <https://krita.org/>`_ 光".
 

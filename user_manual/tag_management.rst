@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Detailed steps on how to use the tags to organize resources in Krita.
 
 .. metadata-placeholder
@@ -15,7 +15,7 @@
 Tag Management
 ==============
 
-Tags are how you organize common types of resources. They can be used with brushes, gradients, patterns, and even brush tips. You can select them from a drop-down menu above the resources. Selecting a tag will filter all the resources by that tag. Selecting the tag of :guilabel:`All` will show all resources.  Krita comes installed with a few default tags. You can create and edit your own as well. The tags are managed similarly across the different types of resources.
+Tags are how you organize common types of resources. They can be used with brushes, gradients, patterns, and even brush tips. You can select them from a drop-down menu above the resources. Selecting a tag will filter all the resources by that tag. Selecting the tag of :guilabel:`All` will show all resources. Krita comes installed with a few default tags. You can create and edit your own as well. The tags are managed similarly across the different types of resources.
 
 You can use tags together with the :ref:`Pop-up Palette <navigation>` for increased productivity.
 
@@ -23,6 +23,8 @@ You can use tags together with the :ref:`Pop-up Palette <navigation>` for increa
 
 .. note::
     You can select different brush tags in the pop-up palette. This can be a quick way to access your favorite brushes.
+
+This page has a few common things you can do with tags. For more information about tags, check the :ref:`resource_tagging` section on the resource management page.
 
 Adding a New Tag for a Brush
 ----------------------------
@@ -43,5 +45,3 @@ Deleting a Tag
 --------------
 Select the existing tag that you want to have removed from the drop-down. Press the :guilabel:`+` icon next to the tag. You will get an option to remove it.
 
-.. note::
-    The default brushes that come with Krita cannot have their default tags removed.

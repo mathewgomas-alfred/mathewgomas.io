@@ -4,7 +4,7 @@
 
 .. metadata-placeholder
 
-    :authors: - Boudewijn Rempt <boud@valdyas.org>
+    :authors: - Halla Rempt <boud@valdyas.org>
     :license: GNU free documentation license 1.3 or later.
 
 .. _bugs_reporting:
@@ -51,9 +51,9 @@ If you've got a problem with Krita, first check the `FAQ <https://docs.krita.org
 Ask on Krita Artists or IRC Chat Channel
 -------------------------------------------------------
 
-If uncertain, ask us in the chatroom "#krita" via matrix. A introduction about Matrix is given `here <https://community.kde.org/Matrix>`_. Create a matrix on webchat.kde.org account and join the #krita:kde.org channel. Or ask a question on `Krita Artists <https://krita-artists.org/c/support/6>`_ forum.
+If uncertain, ask us in the chatroom "#krita" via matrix. A introduction about Matrix is given `here <https://community.kde.org/Matrix>`_. Create a matrix on kde.org account and join the #krita:kde.org channel. Or ask a question on `Krita Artists <https://krita-artists.org/c/support/6>`_ forum.
 
-Krita's chat channel is maintained on webchat.freenode.net. Developers and users hang out to discuss Krita's development and help people who have questions.
+Krita's chat channel is maintained on Libera.Chat. Developers and users hang out to discuss Krita's development and help people who have questions.
 
 .. important::
     Most Krita developers live in Europe, and the channel is very quiet when it's night in Europe. You also have to be patient: it may take some time for people to notice your question even if they are awake.
@@ -81,7 +81,7 @@ Be Complete and Be Completely Clear
 
 Give all information. That means that you should give information about your operating system, hardware, the version of Krita you're using and, of course about the problem.
 
-- Open the `the bug tracker <https://bugs.kde.org/enter_bug.cgi?product=krita?>`_.
+- Open the `the bug tracker <https://bugs.kde.org/enter_bug.cgi?product=krita>`_.
 - If you do not have an account yet, create one.
 
 .. image:: /images/untranslatable/bugzilla_simple.png
@@ -124,7 +124,7 @@ In the New Bug form, fill in the following fields:
 
         When making a video or a screenshot, include the whole Krita window, including the titlebar and the statusbar.
 
-    - If you are reporting a crash, attach a crash log. On Windows, you will find a kritacrash.log file in the local AppData folder. On Linux, follow your distribution's instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux appimages.
+    - If you are reporting a crash, attach a crash log. On Windows, you will find a kritacrash.log file in the local AppData folder. On Linux, follow your distribution's instructions to install debug symbols if you have installed Krita from a distribution package. It is not possible to create a useful crash log with Linux AppImages.
 
 
 

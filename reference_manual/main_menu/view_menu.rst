@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The view menu in Krita.
 
 .. metadata-placeholder
@@ -8,7 +8,7 @@
              - Scott Petrovic
    :license: GNU free documentation license 1.3 or later.
 
-.. index:: ! View, Wrap around mode
+.. index:: ! View, Wrap Around Mode, Detach Canvas
 .. _view_menu:
 
 =========
@@ -17,8 +17,10 @@ View Menu
 
 Show Canvas Only
     Only shows the canvas and what you have configured to show in :guilabel:`Canvas Only` settings. Shortcut :kbd:`Tab`
-Fullscreen mode
+Full Screen mode
     This will hide the system bar. Shortcut :kbd:`Ctrl + Shift + F`
+Detach Canvas
+    This will pop-out the canvas into it's own window, which is very useful for multi-monitor setups.
 Wrap Around Mode
     This will show the image as if tiled orthographically. Very useful for tiling 3d textures.
 Instant Preview Mode
@@ -40,7 +42,7 @@ Show Guides
 Lock Guides
     Prevent the guides from being able to be moved by the cursor.
 Show Status Bar
-    This will show the status bar. The status bar contains a lot of important information, a zoom widget, and the button to switch Selection Display Mode.
+    This will show the status bar. The status bar contains a lot of important information, a zoom and rotate widget, and the button to switch Selection Display Mode.
 Show Grid
     Shows and hides the grid. Shortcut: :kbd:`Ctrl + Shift + '`  
 Show Pixel Grid
@@ -48,6 +50,8 @@ Show Pixel Grid
 Snapping
     Toggle the :ref:`snapping` types.
 Show Painting Assistants
-    Shows or hides the Assistants.
+    Shows or hides the :ref:`Assistants <assistant_tool>`.
 Show Painting Previews
-    Shows or hides the Previews.
+    Shows or hides the :ref:`Previews <assistant_tool>`.
+Show Reference Images
+    Shows or hides the :ref:`Reference Image <reference_images_tool>`.

@@ -7,6 +7,7 @@
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Maria Luisac
              - Reptorian <reptillia39@live.com>
+             - Deif Lou <ginoba@gmail.com>
    :license: GNU free documentation license 1.3 or later.
 
 
@@ -160,6 +161,7 @@ Mixes both Color Dodge and Burn blending modes. If the color of the upper layer 
    
    Left: **Normal**. Right: **Hard Mix**.
 
+.. index:: ! Hard Mix (Photoshop)
 .. _bm_hard_mix_photoshop:
 
 Hard Mix (Photoshop)
@@ -175,7 +177,28 @@ This is the hard mix blending mode as it is implemented in photoshop.
    
 This add the two values, and then checks if the value is above the maximum. If so it will output the maximum, otherwise the minimum.
 
-.. index:: ! Hard OVerlay
+.. index:: ! Hard Mix Softer (Photoshop)
+.. _bm_hard_mix_softer_photoshop:
+
+Hard Mix Softer (Photoshop)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 5.0
+
+This is the hard mix blending mode as it is implemented in photoshop for texturing brushes. It produces softer edges
+than the normal *Hard Mix (Photoshop)*.
+
+.. figure:: /images/blending_modes/mix/Blending_modes_Hard_Mix_Softer_Photoshop_Sample_image_with_dots.png
+   :figwidth: 800
+   :align: center
+   
+   **Left**: Dots are mixed in with the normal blending mode, on the **Right**: Dots are mixed in with hard mix softer.
+   
+This is like the inverse subtract mode but the two terms are scaled up to increase the contrast. This is not really a
+hard mix mode in the sense that it doesn't choose between a result or another based on a threshold, although in most
+cases the result looks like the normal *Hard Mix (Photoshop)* but with softer edges.
+
+.. index:: ! Hard Overlay
 .. _bm_hard_overlay:
 
 Hard Overlay

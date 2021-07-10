@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Configuring shortcuts in Krita.
 
 .. metadata-placeholder
@@ -15,7 +15,22 @@
 Shortcut Settings
 =================
 
+Configuring shortcuts is another way to customize the application to fit you.  Whether you are transitioning from another app, like Photoshop or MyPaint, or you think your own shortcut keys make more sense for you then Krita has got you covered.  You get to the shortcuts interface through :menuselection:`Settings --> Configure Krita...` and by choosing the :menuselection:`Keyboard Shortcuts` tab.
+
 Most of Krita's shortcuts are configured in the menu section :menuselection:`Settings --> Configure Krita... --> Shortcuts`. The shortcuts configured here are simple key combinations, for example the :kbd:`Ctrl + X` shortcut to cut. Shortcuts can also be sequences of key combinations (e.g. :kbd:`Shift + S` shortcut then the :kbd:`B` key). Krita also has a special interface for configuring the mouse and stylus events sent to the canvas, found under :ref:`canvas_input_settings`.
+
+To use, just type the :guilabel:`Action` into the Search box you want to assign/reassign the shortcut for.  Suppose we wanted to assign the shortcut :kbd:`Ctrl + G` to the :guilabel:`Action` of Group Layers so that every time we pressed the :kbd:`Ctrl + G` shortcut a new Layer Group would be created.  Use the following steps to do this:
+
+#. Type "Group Layer".
+#. Click on Group Layer and a small inset box will open.
+#. Click the Custom radio button.
+#. Click on the first button and type the :kbd:`Ctrl + G` shortcut.
+#. Click OK.
+
+From this point on, whenever you press the :kbd:`Ctrl + G` shortcut you'll get a new :guilabel:`Group Layer`.
+
+.. tip::
+    Smart use of shortcuts can save you significant time and further streamline your workflow.
 
 Menu Items
 ----------

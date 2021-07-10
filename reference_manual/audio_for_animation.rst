@@ -68,4 +68,4 @@ For people who use Krita on Linux:
 * libgstreamer-plugins-good1.0
 * libgstreamer-plugins-bad1.0
 
-Since Krita 4.4, audio works inside the appimage.
+Since Krita 4.4, audio works inside the AppImage.
