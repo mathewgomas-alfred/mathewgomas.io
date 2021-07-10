@@ -34,7 +34,7 @@ Quick access
     * :ref:`Krita Usage Log <krita_usage_log>`
     * :ref:`System information <getting_system_information>`
     * :ref:`Backtrace  <getting_backtrace_windows>`
-    * Krita text output from :ref:`Log Viewer (in GUI) <krita_text_output_logviewer>` or :ref:`DebugView (external application) <using_debug_view>`
+    * Krita text output from :ref:`Log Viewer (in GUI) <krita_text_output_logviewer>`, :ref:`console <krita_text_output_console>` or :ref:`DebugView (external application) <using_debug_view>`
 
 * Linux
 
@@ -256,9 +256,17 @@ Through GUI
 From the console
 ================
 
-Using the console is the most reliable way to get Krita's text output. This way is similar on macOS and Linux. Unfortunately, it's not possible on Windows. To check Windows' equivalent, see :ref:`DebugView guide <using_debug_view>`.
+Using the console is the most reliable way to get Krita's text output. This way is similar on macOS and Linux.
 
-#. On macOS open :file:`Terminal.app`, on Linux open your favourite terminal or console application.
+    .. versionchanged:: 5.0
+
+        This is now also possible on Windows using the :file:`krita.com` executable.
+
+        .. note::
+
+            The :file:`krita.com` executable starts Krita as a command-line program with a console window. This was not available before Krita version 5.0. If you have an older version or would prefer to use the :file:`krita.exe` program without a console window, see :ref:`DebugView guide <using_debug_view>`.
+
+#. On macOS open :file:`Terminal.app`, on Linux open your favourite terminal or console application. On Windows, open a Command Prompt by typing :code:`cmd.exe` on the Start Menu and pressing :kbd:`Enter`.
 
 #. Write the path to the Krita executable.
 
@@ -271,8 +279,18 @@ Using the console is the most reliable way to get Krita's text output. This way 
         #   you're currently in, you need to write: './krita_filename' instead of 'krita_filename'
         #   and remember that this file need to have execution rights to be executed)
         path/to/krita
+    
+    .. code:: bash
+
         # On macOS:
         /Applications/krita.app/Contents/MacOS/krita
+
+    .. code:: bat
+
+        REM  On Windows:
+        REM  By default, cmd.exe will prefer running the .COM file over the .EXE, so
+        REM  you may also leave out the .COM file extension.
+        "C:\Program Files\Krita (x64)\bin\krita.com"
 
 #. Do the thing you want to get the output of.
 
@@ -283,7 +301,7 @@ Using the console is the most reliable way to get Krita's text output. This way 
 
 From the DebugView
 ==================
-To get the text output of Krita on Windows, you need an external program called :literal:`DebugView`.
+To get the text output of Krita on Windows using the graphical program, you need an external program called :literal:`DebugView`. Compared to using the console, DebugView has the benefit of including timestamps to the log entries.
 
 
 #. `Download DebugView <https://docs.microsoft.com/en-us/sysinternals/downloads/debugview>`_ if you haven't already. Click on the blue bold :guilabel:`Download DebugView` text with underline, downloading should start immediately.
