@@ -24,6 +24,9 @@ $supported_languages = array(
 // List of page redirect rules
 // These should always be free of the language code, as this will be automatically added on when formulating the URL to forward the user on to
 $redirect_rules = array(
+    // Default front page
+    "^$" => "index.html",
+
     // Old mediawiki pages redirects.
     "^Main_Page" => "index.html",
     "^KritaFAQ$" => "KritaFAQ.html",
@@ -324,15 +327,14 @@ function determine_appropriate_language( $request, $browser_languages, $supporte
     // First we start by looking at the request we have received
     // If this contains a language code, then we should be using that as the user has chosen to use that language explicitly
     // We assume that this language is supported
-    if( preg_match( '/^([a-z][a-z](_[A-Z][A-Z])?)/', $request, $result ) ) {
+    if( preg_match( '/^([a-z][a-z](_[A-Z][A-Z])?)\//', $request, $result ) ) {
         // Then the user has specified a language - let's use that!
         return $result[1];
     }
 
     // Now that we know that the URL has not specified a language we can move on to looking at Accept-Language
     // First split the list up by the language separator
-    $browser_requested_languages = explode( ", ", $browser_languages );
-    print_r( $browser_requested_languages );
+    $browser_requested_languages = explode( ",", $browser_languages );
 
     // Now go through each browser requested language in turn
     foreach( $browser_requested_languages as $language ) {
@@ -340,6 +342,10 @@ function determine_appropriate_language( $request, $browser_languages, $supporte
         // Safest way to do this is just to split again by the appropriate separator for that
         $components = explode(";", $language);
         $language = $components[0];
+
+        // Browsers use dashes to seperate language variants
+        // But KDE translation systems use underscores for this so ensure we are consistent here
+        $language = str_replace("-", "_", $language);
 
         // Is this one of our supported languages?
         if( in_array($language, $supported_languages) ) {
