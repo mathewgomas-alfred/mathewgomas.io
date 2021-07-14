@@ -72,7 +72,7 @@ D. :dfn:`Frame Table` -- The :dfn:`frame table` is a large grid of cells which c
             A :dfn:`clone frame` is of a keyframe is a reference to that keyframe at a different position. Clone frames share the exact same image data under the hood, and will have the same diagonal markings as the active frame when an active frame with clone frames is selected.
 
         Duplicate keyframe
-            Not to be confused with :term:`Clone Frames`, a duplicate frame is merely the :term:`Active Keyframe` copied and pasted as a seperate :term:`Keyframe`. Where clone frames will automatically duplicate the changes you make to them to each cloned frame, a duplicated frame is just another keyframe that happens to have the same content as the source.
+            Not to be confused with :term:`Clone Frames`, a duplicate frame is merely the :term:`Active Keyframe` copied and pasted as a separate :term:`Keyframe`. Where clone frames will automatically duplicate the changes you make to them to each cloned frame, a duplicated frame is just another keyframe that happens to have the same content as the source.
 
         Current Selection
 

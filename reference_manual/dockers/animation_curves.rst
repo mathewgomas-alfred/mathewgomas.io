@@ -89,7 +89,7 @@ Now let's talk a bit about how we can use a :ref:`transformation_masks` to *anim
 
 Animating a transform mask is a lot like animating opacity, but first we need to *add a Transform Mask*. (You can do this by |mouseright| on the layer that you want to animate, and then :menuselection:`Add --> Transform Mask`.)
 
-Transform Masks allow us to :dfn:`transform` (translate, rotate, scale, or shear) the layer that they are attached to, without affecting it's original position. And (starting with Krita 5) they also allow us to animate a layer's transform!
+Transform Masks allow us to :dfn:`transform` (translate, rotate, scale, or shear) the layer that they are attached to, without affecting its original position. And (starting with Krita 5) they also allow us to animate a layer's transform!
 
 Much like how we animated opacity above, we need to add our first transformation keyframe. To do this, *first make sure that you have your layer's Transform Mask selected*, and then click on the :guilabel:`add keyframe` button at the top of the docker.
 
