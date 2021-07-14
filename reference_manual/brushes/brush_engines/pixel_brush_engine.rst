@@ -62,6 +62,8 @@ Allows you to Darken the source color with Sensors.
 
 The color will always become black in the end, and will work with Plain Color, Gradient and Uniform random as source.
 
+.. _option_hue_sat_val_pixel:
+
 Hue, Saturation, Value
 ~~~~~~~~~~~~~~~~~~~~~~
 

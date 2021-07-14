@@ -143,6 +143,8 @@ Rotation
 Spacing
     Distance between the brush tip impressions.
 
+.. _brush_mode:
+
 Brush Mode
 ''''''''''
 

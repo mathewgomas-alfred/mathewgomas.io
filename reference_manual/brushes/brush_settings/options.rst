@@ -180,7 +180,15 @@ Flow map
 Gradient
 ~~~~~~~~
 
-Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush.
+Exactly the same as using :menuselection:`Source --> Gradient` with :guilabel:`Mix`, but only available for the Color Smudge Brush. 
+
+.. image:: /images/brushes/Krita-tutorial5-I.6-1.png
+
+You can either:
+
+* Leave the default :menuselection:`Foreground --> Background gradient` setting, and just change the foreground and background colors
+* Select a more specific gradient
+* Or make custom gradients.
 
 .. index:: Spacing
 .. _option_spacing:
