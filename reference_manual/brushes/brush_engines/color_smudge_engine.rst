@@ -168,7 +168,16 @@ Paint Thickness
 
 .. versionadded:: 5.0
 
-This affects how strong the :ref:`lightness and gradient modes <brush_mode>` affect the current color.
+This affects how strong the :ref:`lightness modes <brush_mode>` affect the current color. Because the :dfn:`Color Smudge Brush` smudges, what actually happens is that the lightness part is painted into a separate height map, which prevents the shadows and highlights of the current lightness brush tip are mixed into the smudge, which would have resulted in all smudges becoming white or black. The height map is discarded when switching brush engines, layers or tools. Because this heightmap only exists for the layer currently being edited, lightness brushes and paint thickness cannot be used together with :ref:`option_overlay`.
+
+.. figure:: /images/brushes/colorsmudge/brushengine_paint_thickness_strength.png
+
+This has two modes, which change how the existing heightmap is interpreted:
+
+Overwrite (Smooth out when low) existing paint thickness
+   Here the lightness value of the brushstroke overrides the value that was there before, effectively smoothing out previous paint if the thickness value is low. The Opacity setting will cause it to blend with the previous paint height, but that will also bring down the color. This mode is useful for a brush that can paint with thickness, but can also smooth out existing paint if you wish.
+Paint over existing paint thickness (controlled by smudge length)
+   Here the lightness value blends with the previous values, based on the Smudge Length, as described above. It allows the kind of blending with previous paint height that Opacity allows in the Overwrite mode, but without affecting the color rate.
 
 .. _option_hue_sat_val_color_smudge:
 
