@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         The Color Smudge Brush Engine manual page.
 
 .. metadata-placeholder
@@ -8,6 +8,7 @@
              - Raghavendra Kamath <raghavendr.raghu@gmail.com>
              - Scott Petrovic
              - ValerieVK
+             - Peter Schatz
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Brush Engine, Color Smudge Brush Engine, Color Mixing, Smudge
@@ -172,12 +173,18 @@ This affects how strong the :ref:`lightness modes <brush_mode>` affect the curre
 
 .. figure:: /images/brushes/colorsmudge/brushengine_paint_thickness_strength.png
 
+   Image showing off different variations of :dfn:`Paint Thickness`, with the top three strokes being in :dfn:`Smear Mode` and the bottom three in :dfn:`Dulling Mode`. Strengths are 100%, 50%, and 0% from top to bottom.
+
 This has two modes, which change how the existing heightmap is interpreted:
 
 Overwrite (Smooth out when low) existing paint thickness
    Here the lightness value of the brushstroke overrides the value that was there before, effectively smoothing out previous paint if the thickness value is low. The Opacity setting will cause it to blend with the previous paint height, but that will also bring down the color. This mode is useful for a brush that can paint with thickness, but can also smooth out existing paint if you wish.
 Paint over existing paint thickness (controlled by smudge length)
    Here the lightness value blends with the previous values, based on the Smudge Length, as described above. It allows the kind of blending with previous paint height that Opacity allows in the Overwrite mode, but without affecting the color rate.
+
+.. figure:: /images/brushes/colorsmudge/brushengine_paint_thickness_type.svg
+
+   Image demonstrating the two modes, with the top strokes being :dfn:`Overwrite Existing Paint Thickness` and the bottom strokes :dfn:`Paint over existing paint thickness`. In both cases, a red stroke was laid with 100% paint thickness. Blue strokes were overlaid going from thin to thick. Notice how the :dfn:`Paint over existing` type differs between 0% and 100% :dfn:`Smudge Length`.
 
 .. _option_hue_sat_val_color_smudge:
 
