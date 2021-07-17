@@ -117,7 +117,7 @@ $redirect_rules = array(
 
     "^Add_Shape" => "reference_manual/dockers/add_shape.html",
     "^Advanced_Color_Selector" => "reference_manual/dockers/advanced_color_selector.html",
-    "^Animation_Curves" => "reference_manual/dockers/animation_curve.html",
+    "^Animation_Curves" => "reference_manual/dockers/animation_curves.html",
     "^Animation_Docker" => "reference_manual/dockers/animation_docker.html",
     "^Artistic_Color_Selector" => "reference_manual/dockers/artistic_color_selector.html",
     "^Brush_Presets" => "reference_manual/dockers/brush_preset_docker.html",
@@ -139,7 +139,7 @@ $redirect_rules = array(
     "^Snap_Settings" => "reference_manual/dockers/snap_settings_docker.html",
     "^Specific_Color_Selector" => "reference_manual/dockers/specific_color_selector.html",
     "^Task_Sets" => "reference_manual/dockers/task_sets.html",
-    "^Timeline_Docker" => "reference_manual/dockers/timeline.html",
+    "^Timeline_Docker" => "reference_manual/dockers/animation_timeline.html",
     "^Touch_Docker" => "reference_manual/dockers/touch_docker.html",
     "^Undo_History" => "reference_manual/dockers/undo_history.html",
     "^Vector_Library_Docker" => "reference_manual/dockers/vector_library.html",
@@ -312,6 +312,13 @@ $redirect_rules = array(
     "^Brush-tips:Outline" => "tutorials/krita-brush-tips/outline.html",
     "^Brush-tips:Rainbow_Brush" => "tutorials/krita-brush-tips/rainbow-brush.html",
     "^Brush-tips:Sculpt-paint-brush" => "tutorials/krita-brush-tips/sculpt-paint-brush.html"
+
+    # New, non-mediawiki redirects...
+
+    "^reference_manual/dockers/timeline.html" => "reference_manual/dockers/animation_timeline.html"
+    "^reference_manual/dockers/animation_curve.html" => "reference_manual/dockers/animation_curves.html"
+    # Redirect animation docker to timeline docker when we finally remove it.
+    # "^reference_manual/dockers/animation_docker.html" => "reference_manual/dockers/animation_timeline.html"
 );
 
 //// SETTINGS END
