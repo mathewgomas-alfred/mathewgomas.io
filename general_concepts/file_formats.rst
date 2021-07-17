@@ -50,9 +50,11 @@ SVG, as a vector file format, is on the other end of the spectrum, and can be op
 
 Most formats are in-between, and thus there's also a matter of how widely supported the format is. JPG and PNG cannot be read or edited by human eyes, but the vast majority of programs can open them, meaning the owner has easy access to them.
 
+Contents
+--------
+
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
    :glob:
    
    file_formats/*
