@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Overview of Krita navigation.
 
 .. metadata-placeholder
@@ -91,6 +91,10 @@ Toolbars are where some of the important actions and menus are placed so that th
 
 You can learn more about the Krita Toolbars and how to configure them in over in the :ref:`Toolbars section <configure_toolbars>` of the manual.
 Putting these to effective use can really speed up the Artist's workflow, especially for users of Tablet-Monitors and Tablet-PCs.
+
+.. versionadded:: 5.0
+
+   In addition to shortcuts and the toolbar, you can also search and quickly through all actions via the action search bar, which is accessed with :kdb:`Ctrl + Enter`.
 
 Workspace Chooser
 ~~~~~~~~~~~~~~~~~

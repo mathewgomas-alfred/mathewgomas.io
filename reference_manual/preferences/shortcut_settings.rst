@@ -32,6 +32,10 @@ From this point on, whenever you press the :kbd:`Ctrl + G` shortcut you'll get a
 .. tip::
     Smart use of shortcuts can save you significant time and further streamline your workflow.
 
+.. versionadded:: 5.0
+
+   Actions, which includes everything that can be assigned a shortcut, can now be searched with :kdb:`Ctrl + Enter`, reducing the need to assign a shortcut to every single action. This itself is called the :guilabel:`Search Actions` shortcut, and can also be reassigned if desired.
+
 Menu Items
 ----------
 
