@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Krita's gradient tool reference.
 
 .. metadata-placeholder
@@ -95,9 +95,6 @@ Repeat:
     Alternating
         This will repeat the gradient, alternating the normal direction and the reversed.
 
-Reverse
-    Reverses the direction of the gradient.
-
 Antialias threshold
     Controls how smooth is the border between repetitions.
 
@@ -106,4 +103,18 @@ Antialias threshold
 
     .. figure:: /images/gradients/gradient_painter/antialias_threshold.png
 
-        Left: **0**. Middle: **0.5**. Right: **1**.
+       Left: **0**. Middle: **0.5**. Right: **1**.
+
+Reverse
+    Reverses the direction of the gradient.
+
+Dither
+    .. versionadded:: 5.0
+    
+    8 bits of color depth is not enough depth to make a truly smooth gradient. This option eleviates this by adding blue noise style dithering to gradients in 8 bit.
+
+    .. figure:: /images/gradients/krita_gradient_dither.svg
+       :alt: Example showing gradients with and without dithering.
+
+       In the above example, the topleft is a subtle gradient without dithering. The bottom left is with blue noise dithering. The right two examples are the same as the left, but with a contrast filter applied so the blue noise dithering pattern becomes obvious.
+        
