@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Krita's similar color selection tool reference.
 
 .. metadata-placeholder
@@ -67,9 +67,26 @@ Action
 Anti-aliasing
     This toggles whether or not to give selections feathered edges. Some people prefer hard-jagged edges for their selections.
 
-.. note::
+.. deprecated:: 5.0
 
-   Anti-aliasing is only available on Pixel Selection Mode.
+   This has been removed as it only caused confusion.
+
+Sample
+    .. versionadded:: 5.0
+    
+    Select which layers to use as a reference for the contiguous select tool. The options are:
+    
+    Current Layer
+        Only use the currently selected layer.
+    All layers
+        Use all visible layers.
+    Color Labeled Layers
+        Use only the layers specified with a certain color label. This is useful for complex images, where you might have multiple lineart layers. Label them with the appropriate color label and use these labels to mark which layers to use as a reference.
+
+Labels Used
+    .. versionadded:: 5.0
+
+    Used with the 'Color Labeled Layers' option above.
 
 Fuzziness
     This controls the range of the color hue used to create the selection. A lower number will select colors closer to the color that you chose in the first place. And a higher number will expand the hue range and select colors even if they are not so similar to the original color.
