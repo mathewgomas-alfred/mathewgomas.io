@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Overview of the palette docker.
 
 .. metadata-placeholder
@@ -38,6 +38,9 @@ Since 4.2 Krita's color palettes are not just a list of colors to store, but als
 * |mouseright| on a swatch will give you a context menu with modify and delete options.
 * Pressing the :guilabel:`+` icon will allow you to add a new swatch.
 * The drop down contains all the entries, id numbers and names. When a color is a spot color the thumbnail is circular. You can use the dropdown to search on color name or id.
+* By drag-and-dropping colors from the palette onto the :ref:`layer stack <layer_docker>`, you can quickly create a :ref:`fill layer <fill_layers>`, while dropping them onto the canvas allows you to fill the current layer with that color.
+
+  .. versionadded::5.0
 
 
 Pressing the Folder icon will allow you to modify the palette. Here you can add more columns, modify the default group's rows, or add more groups and modify their rows.
@@ -55,6 +58,10 @@ Where is the palette stored:
         The default, the palette will be stored in the resource folder.
     Document
         The palette will be removed from the resource folder and stored in the document upon save. It will be loaded into the resources upon loading the document.
+    
+    .. deprecated:: 5.0
+
+       This has been disabled for now.
 
 Add group
     Add a new group. On clicking you will be asked for a name and a set of rows.

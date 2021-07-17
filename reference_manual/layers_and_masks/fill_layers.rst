@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         How to use fill layers in Krita.
 
 .. metadata-placeholder
@@ -22,7 +22,7 @@ A Fill Layer is a special layer that Krita generates on-the-fly that can contain
 .. image:: /images/layers/Fill_Layer.png
 
 
-By default, the dialog selects the flat color fill. This fills the layer with a singular color. Since version 4.2, newly created colored fill layers will be assigned to the currently active foreground color.
+By default, the dialog selects the flat color fill. This fills the layer with a singular color. Newly created colored fill layers will be assigned to the currently active foreground color, unless they were made by drag-and-dropping a :ref:`palette swatch <palette_docker>` onto the :ref:`layer stack <layer_docker>`.
 
 However, there are many more options, with more complex features:
         

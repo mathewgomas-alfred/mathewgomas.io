@@ -1,5 +1,5 @@
 .. meta::
-   :description:
+   :description property=og\:description:
         Overview of the layers docker.
 
 .. metadata-placeholder
@@ -67,6 +67,10 @@ You can select the active layer here. Using the :kbd:`Shift` and :kbd:`Ctrl` key
 
 To edit these properties on multiple layers at once, press the properties option when you have multiple layers selected or press the :kbd:`F3` key.
 There, to change the names of all layers, the checkbox before :guilabel:`Name` should be ticked after which you can type in a name. Krita will automatically add a number behind the layer names. You can change other layer properties like visibility, opacity, lock states, etc. too.
+
+.. versionadded:: 5.0
+
+   By drag-and-dropping colors from the :ref:`palette <palette_docker>` onto the layer stack, you can quickly create a :ref:`fill layer <fill_layers>`.
 
 .. image:: /images/layers/Krita-multi-layer-edit.png
 
