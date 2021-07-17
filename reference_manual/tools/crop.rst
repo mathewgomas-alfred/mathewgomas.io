@@ -1,5 +1,5 @@
 .. meta::
-   :description lang=en:
+   :description property=og\:description:
         Krita's crop tool reference.
 
 .. metadata-placeholder
@@ -26,7 +26,21 @@ Center
 Grow
     Allows the crop area to expand beyond the image boundaries.
 Applies to
-    Lets you apply the crop to the entire image or only to the active layer. When you are ready, hit the :guilabel:`Crop` button and the crop will apply to your image.
+
+    .. versionchanged:: 5.0
+    
+    Lets you apply the crop to the whole image or a subset:
+
+    Image
+        Crops the whole image, the canvas, all layers and all frames are cropped.
+    Canvas
+        Crops only the canvas, all layers and frames are left alone.
+    Layer
+        Crops only the current layer and it's animation frames.
+    Frame
+        Crops only the current animation frame.
+    
+    When you are ready, hit the :guilabel:`Crop` button and the crop will apply to your image.
 Decoration
     Help you make a composition by showing you lines that divide up the screen. You can for example show thirds here, so you can crop your image according to the `Rule of Thirds <https://en.wikipedia.org/wiki/Rule_of_thirds>`_.
 
