@@ -34,7 +34,7 @@ From this point on, whenever you press the :kbd:`Ctrl + G` shortcut you'll get a
 
 .. versionadded:: 5.0
 
-   Actions, which includes everything that can be assigned a shortcut, can now be searched with :kdb:`Ctrl + Enter`, reducing the need to assign a shortcut to every single action. This itself is called the :guilabel:`Search Actions` shortcut, and can also be reassigned if desired.
+   Actions, which includes everything that can be assigned a shortcut, can now be searched with :kbd:`Ctrl + Enter`, reducing the need to assign a shortcut to every single action. This itself is called the :guilabel:`Search Actions` shortcut, and can also be reassigned if desired.
 
 Menu Items
 ----------

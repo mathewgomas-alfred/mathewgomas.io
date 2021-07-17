@@ -113,7 +113,7 @@ Dither
     
     8 bits of color depth is not enough depth to make a truly smooth gradient. This option eleviates this by adding blue noise style dithering to gradients in 8 bit.
 
-    .. figure:: /images/gradients/krita_gradient_dither.svg
+    .. figure:: /images/gradients/krita_gradient_dithering.svg
        :alt: Example showing gradients with and without dithering.
 
        In the above example, the topleft is a subtle gradient without dithering. The bottom left is with blue noise dithering. The right two examples are the same as the left, but with a contrast filter applied so the blue noise dithering pattern becomes obvious.

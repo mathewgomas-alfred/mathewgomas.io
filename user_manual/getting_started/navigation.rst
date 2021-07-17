@@ -94,7 +94,7 @@ Putting these to effective use can really speed up the Artist's workflow, especi
 
 .. versionadded:: 5.0
 
-   In addition to shortcuts and the toolbar, you can also search and quickly through all actions via the action search bar, which is accessed with :kdb:`Ctrl + Enter`.
+   In addition to shortcuts and the toolbar, you can also search and quickly through all actions via the action search bar, which is accessed with :kbd:`Ctrl + Enter`.
 
 Workspace Chooser
 ~~~~~~~~~~~~~~~~~
