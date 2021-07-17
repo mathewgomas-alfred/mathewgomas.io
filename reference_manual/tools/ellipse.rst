@@ -38,5 +38,9 @@ In order to move the ellipse around, hold the :kbd:`Alt` key:
 
 You can change between the corner/corner and center/corner dragging methods as often as you want by holding down or releasing the :kbd:`Ctrl` key, provided you keep the left mouse button pressed. With the :kbd:`Ctrl` key pressed, mouse movements will affect all four corners of the bounding rectangle (relative to the center), without the :kbd:`Ctrl` key, the corner opposite to the one you are moving remains still. With the :kbd:`Alt` key pressed, all four corners will be affected, but the size stays the same.
 
+.. versionadded:: 5.0
+
+If you hold :kbd:`Ctrl` and :kbd:`Alt` keys while drawing, the ellipse will be rotated around the marked corner of the bounding rectangle. If used with holding :kbd:`Shift` key, a circle will be rotated around the marked corner.
+
 Tool Options
 ------------

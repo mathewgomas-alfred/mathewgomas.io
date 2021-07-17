@@ -47,6 +47,11 @@ Hotkeys and Stickykeys
 .. image:: /images/tools/selections-right-click-menu.png
    :width: 200
    :alt: Menu of rectangular selection
+   
+.. versionadded:: 5.0
+   
+   * |mouseleft| + :kbd:`Ctrl + Alt` allows you to rotate the rectangle around the marked corner. (Make sure to press |mouseleft| before :kbd:`Ctrl + Alt`)
+   * |mouseleft| + :kbd:`Ctrl + Alt + Shift` allows you to rotate a constrained perfect square around the marked corner. (Make sure to press |mouseleft| before :kbd:`Ctrl + Alt + Shift`)
 
 
 .. hint::

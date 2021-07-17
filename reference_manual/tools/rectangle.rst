@@ -29,6 +29,10 @@ If you hold the :kbd:`Shift` key while drawing, a square will be drawn instead o
 You can change between the corner/corner and center/corner drawing methods as often
 as you want by pressing or releasing the :kbd:`Ctrl` key, provided that you keep |mouseleft| pressed. With the :kbd:`Ctrl` key pressed, mouse movements will affect all four corners of the rectangle (relative to the center), without the :kbd:`Ctrl` key, one of the corners is unaffected.
 
+.. versionadded:: 5.0
+
+If you hold :kbd:`Ctrl` and :kbd:`Alt` keys while drawing, the rectangle will be rotated around the marked corner. If used with holding :kbd:`Shift` key, a square will be rotated around the marked corner.
+
 Tool Options
 ------------
 

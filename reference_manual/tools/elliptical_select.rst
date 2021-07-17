@@ -47,6 +47,11 @@ Hotkeys and Stickykeys
 .. image:: /images/tools/selections-right-click-menu.png
    :width: 200
    :alt: Menu of elliptical selection
+   
+.. versionadded:: 5.0
+   
+   * |mouseleft| + :kbd:`Ctrl` + :kbd:`Alt` allows you to rotate the ellipse around the marked corner of the bounding rectangle. (Make sure to press |mouseleft| before :kbd:`Ctrl` and :kbd:`Alt`)
+   * |mouseleft| + :kbd:`Ctrl + Alt + Shift` allows you to rotate a constrained perfect circle around the marked corner of the bounding rectangle. (Make sure to press |mouseleft| before :kbd:`Ctrl + Alt + Shift`)
 
 
 .. hint::
