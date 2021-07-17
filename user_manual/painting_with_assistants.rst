@@ -1,6 +1,6 @@
 
 .. meta::
-   :description:
+   :description property=og\:description:
         How to use the painting assistants in Krita to draw perspectives.
 
 .. metadata-placeholder
@@ -147,6 +147,24 @@ If you press the :kbd:`Shift` key while holding the first two handles, they will
 to perfectly horizontal or vertical lines. Press the :kbd:`Shift` key while holding the
 third handle, and it'll snap to a perfect circle.
 
+.. _assistant_2_point:
+
+2 Point Perspective
+~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 5.0
+
+This assistant simplifies the setup of a two point perspective by putting the two vanishing points and the parallel vertical ruler into one signle assistant. This allows it to draw a grid of squares. It requires 3 points at minimum: 2 for perspective, and the final for the mid-point of the vanishing points, which controls how the grid is drawn.
+
+Density
+    An extra option in the tool options, this controls how dense the grid is.
+Enable Vertical Ruler
+    This allows you to disable the vertical ruler, so that the assistant is only two vanishing points and a grid.
+
+.. figure:: /images/assistants/Assistants_2_pointperspective_03.png
+   
+   In the above image, a two point perspective with an area limiter is enough to draw an indoor area. The assistant is colored blue here.
+
 Tutorials
 ^^^^^^^^^
 
@@ -216,9 +234,7 @@ Linear Perspective
 .. image:: /images/assistants/Assistants_2_point_perspective.png
 
 2 Point Perspective
-    A 2 point perspective is set up using 2 vanishing point and 1
-    vertical parallel ruler. Often, putting the vanishing points outside
-    the frame a little can decrease the strength of it.
+    A 2 point perspective is set up using 2 vanishing point and 1 vertical parallel ruler. Often, putting the vanishing points outside the frame a little can decrease the strength of it. You can also use a :ref:`assistant_2_point` Ruler to set this one up very quickly.
 
 .. image:: /images/assistants/Assistants_2_pointperspective_02.png
 
