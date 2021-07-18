@@ -22,7 +22,28 @@ Import Frames
 
 Frame import will import a list of images into an animation layer. This is a format that most other animation software can export, and thus very useful for interchange.
 
+First let us take a sprite sheet from Open Game Art. (This is the Libre Pixel Cup male walkcycle [1]_).
+
+We'll use :ref:`image_split` to split up the sprite sheet.
+
+.. image:: /images/animation/Animation_split_spritesheet.png
+
+The slices are even, so for a sprite sheet of 9 sprites, use 8 vertical slices and 0 horizontal slices. Give it a proper name and save it as png.
+
+Then, make a new canvas, and select :menuselection:`File --> Import Animation Frames`. This will give you a little window. Select :guilabel:`Add images`. This should get you a file browser where you can select your images.
+
+.. image:: /images/animation/Animation_import_sprites.png
+
+You can select multiple images at once.
+
 .. image:: /images/animation/Animation_set_everything.png
+
+The frames are currently automatically
+ordered. You can set the ordering with the top-left two drop-down boxes.
+
+Press :guilabel:`OK`, and your animation should be imported as a new layer.
+
+.. image:: /images/animation/Animation_import_done.png
 
 Add images.
    Add frames. You can select multiple frames in the file chooser.
@@ -133,3 +154,7 @@ FFMpeg Path
    Path to the ffmpeg executable, necessary for importing the video data.
 FFProbe path
    Path to the ffmpeg probe executable, which is included with ffmpeg. This allows Krita to learn the video information from the file.
+
+.. seealso::
+
+   .. [1]:  `The source for the libre pixel cup male walk cycle <https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles>`_
