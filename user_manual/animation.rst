@@ -58,7 +58,7 @@ Always keep an eye on the memory consumption. You can see the memory consumption
 
 Also watch out that other programs on your computer aren't hogging all the RAM. Web browsers and chat programs tend to be the biggest culprits here, especially if you are streaming music or videos. If you are hurting for memory, see if you can get these functions to work on a separate device like a phone instead.
 
-Another thing you will want to do is make a ton of backups. Every time you hit an important section with an animation, like you finished the line art, or you did a pretty tricky section, you will want to use :menuselection:`File --> Incremental Backup` to make a separate copy of the current file to continue working in. This way, if the animation file gets corrupt, which could happen due a power outage, or a cat jumping on the keyboard, you will still have a snapshot of the last important section. Other backup techniques, like copying the files to a cloud service, or to a backup hard drive are also very recommended.
+Another thing you will want to do is make a ton of backups. Every time you hit an important section with an animation, like you finished the line art, or you did a pretty tricky section, you will want to use :menuselection:`File --> Incremental Backup` to make a separate copy of the current file to continue working in. This way, if the animation file gets corrupt, which could happen due to a power outage, or a cat jumping on the keyboard, you will still have a snapshot of the last important section. Other backup techniques, like copying the files to a cloud service, or to a backup hard drive are also very recommended.
 
 .. tip::
 
