@@ -223,6 +223,7 @@ If you're using Windows, you can set the display scaling to 150% or 200%. Krita 
 - On the menu, select :menuselection:`Settings --> Configure Krita...`
 - On :guilabel:`General` page, switch to :guilabel:`Window` tab.
 - Uncheck :guilabel:`Enable Hi-DPI support` (or check if you wish to enable it)
+- .. versionadded:: 5.0 If you are using a fractional (not multiples of 100%) display scaling, you can instead try keeping :guilabel:`Enable Hi-DPI support` enabled and also enable :guilabel:`(Hi-DPI) Enable fractional scale factor`.
 - Press :guilabel:`OK`, if the settings screen is too big, :kbd:`Alt + O` will trigger the OK button too.
 - Restart Krita
 
