@@ -303,7 +303,7 @@ $redirect_rules = array(
     "^Saving_for_the_Web" => "tutorials/saving-for-the-web.html",
     "^Making_an_Azalea_with_the_transformation_masks" => "tutorials/making_an_azalea_with_the_transformation_masks.html",
 
-    # External_Training_and_Tutorials
+    // External_Training_and_Tutorials
     "^Brush-tips:Animated_Brush" => "tutorials/krita-brush-tips/animated_brushes.html",
     "^Brush-tips:Bokeh" => "tutorials/krita-brush-tips/bokeh-brush.html",
     "^Brush-tips:Caustics" => "tutorials/krita-brush-tips/caustics.html",
@@ -311,14 +311,15 @@ $redirect_rules = array(
     "^Brush-tips:Hair" => "tutorials/krita-brush-tips/hair.html",
     "^Brush-tips:Outline" => "tutorials/krita-brush-tips/outline.html",
     "^Brush-tips:Rainbow_Brush" => "tutorials/krita-brush-tips/rainbow-brush.html",
-    "^Brush-tips:Sculpt-paint-brush" => "tutorials/krita-brush-tips/sculpt-paint-brush.html"
+    "^Brush-tips:Sculpt-paint-brush" => "tutorials/krita-brush-tips/sculpt-paint-brush.html",
 
-    # New, non-mediawiki redirects...
+    // New, non-mediawiki redirects...
 
-    "^reference_manual/dockers/timeline.html" => "reference_manual/dockers/animation_timeline.html"
-    "^reference_manual/dockers/animation_curve.html" => "reference_manual/dockers/animation_curves.html"
-    # Redirect animation docker to timeline docker when we finally remove it.
-    # "^reference_manual/dockers/animation_docker.html" => "reference_manual/dockers/animation_timeline.html"
+    "^reference_manual/dockers/timeline.html" => "reference_manual/dockers/animation_timeline.html",
+    "^reference_manual/dockers/animation_curve.html" => "reference_manual/dockers/animation_curves.html",
+    // Redirect animation docker to timeline docker when we finally remove it.
+    // "^reference_manual/dockers/animation_docker.html" => "reference_manual/dockers/animation_timeline.html",
+    "^reference_manual/tools/color_selector.html" => "reference_manual/tools/color_sampler.html"
 );
 
 //// SETTINGS END
