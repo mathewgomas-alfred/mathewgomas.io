@@ -16,7 +16,7 @@
 MyPaint Brush Engine
 ====================
 
-.. image:: /images/icons/mypaintbrush.png
+.. image:: /images/icons/mypaintbrush.svg
 
 
 `MyPaint <http://www.mypaint.org>`_ is a free painting program that comes with a lot of specific brushes. Krita can use those brushes for painting using the MyPaint brush engine.

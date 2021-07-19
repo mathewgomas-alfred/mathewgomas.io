@@ -157,4 +157,4 @@ FFProbe path
 
 .. seealso::
 
-   .. [1]:  `The source for the libre pixel cup male walk cycle <https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles>`_
+   .. [1]  `The source for the libre pixel cup male walk cycle <https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles>`_

@@ -58,8 +58,13 @@ blockquote {
     margin: 0;
 }
 
-dfn {
+.dfn {
     font-style: italic;
+    font-weight: bold;
+}
+
+.accelerator {
+    text-decoration: underline;
 }
 
 ins {
