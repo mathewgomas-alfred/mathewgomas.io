@@ -411,3 +411,14 @@ epub_tocscope = 'includehidden'
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+
+# -- Custom tags -------------------------------------------------------------
+
+# For including content only in non-English builds.
+# Use with:
+#
+#   .. only:: non_english
+#
+if get_override_language_or_en() != 'en':
+    tags.add('non_english')
