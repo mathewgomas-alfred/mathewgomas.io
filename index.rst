@@ -48,7 +48,7 @@ You can download this manual as an `EPUB <https://docs.krita.org/en/epub/KritaMa
 |Learn about general art and technology                  |Find answers to the most common questions               |
 |concepts that are not specific to Krita.                |about Krita and what it offers.                         |
 +--------------------------------------------------------+--------------------------------------------------------+
-| .. image:: /images/intro_page/Hero_resources.jpg       |                                                        |
+| .. image:: /images/intro_page/Hero_resources.jpg       | .. image:: /images/intro_page/Hero_index.jpg           |
 |                                                        |                                                        |
 |:ref:`resources_page`                                   |:ref:`genindex`                                         |
 |                                                        |                                                        |
