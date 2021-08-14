@@ -6,6 +6,7 @@
 
    :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
              - Scott Petrovic
+             - Santhosh Anguluri
    :license: GNU free documentation license 1.3 or later.
 
 .. index:: Edit, Undo, Redo, Cut, Copy, Paste
@@ -24,10 +25,10 @@ Edit Menu
         Redoes the last undone action. Shortcut: :kbd:`Ctrl + Shift+ Z`
 
     Cut
-        Cuts the selection or layer. Shortcut: :kbd:`Ctrl + X`
+        Cuts all the selected layers or the selection of all the selected layers. Shortcut: :kbd:`Ctrl + X`
 
     Copy
-        Copies the selection or layer. Shortcut: :kbd:`Ctrl + C`
+        Cuts all the selected layers or the selection of all the selected layers. Shortcut: :kbd:`Ctrl + C`
 
     Cut (Sharp)
         This prevents semi-transparent areas from appearing on your cut pixels, making them either fully opaque or fully transparent.
@@ -39,10 +40,10 @@ Edit Menu
         Copies the selection over all layers. Shortcut: :kbd:`Ctrl + Shift + C`
 
     Paste
-        Pastes the copied buffer into the image as a new layer. Shortcut: :kbd:`Ctrl + V`
+        Pastes the copied layers into the image over current layer. Shortcut: :kbd:`Ctrl + V`
 
     Paste at Cursor
-        Same as :term:`Paste`, but aligns the image to the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
+        Pastes the copied buffer in a new layer aligned at the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
 
     Paste into Active Layer
         Pastes the copied buffer into the current layer as a new selection.
@@ -61,7 +62,7 @@ Edit Menu
         .. versionadded:: 4.4.2
     
     Clear
-        Empty the currently selected area or layer. Shortcut: :kbd:`Del`
+        Empty the currently selected area or total area of all the selected layers. Shortcut: :kbd:`Del`
 
     Fill with Foreground Color
         Fills the layer or selection with the foreground color without taking into account blending modes or opacity. Shortcut: :kbd:`Shift + Backspace`
