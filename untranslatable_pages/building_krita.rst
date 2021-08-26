@@ -287,10 +287,12 @@ Prerequisites
 1. Git - https://git-scm.com/downloads
 2. CMake 3.3.2 or later - https://cmake.org/download/
     - CMake 3.9 does not build Krita properly at the moment, please use 3.8 or 3.10 instead.
-3. Make sure you have a compiler - Only mingw-w64 7.3 (by mingw-builds) - https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
+3. MingGW - specifically mingw-w64 7.3 (by mingw-builds) 
+    - Can be downloaded here: https://files.kde.org/krita/build/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z
+    - *Alternatively* found here: https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download
     - For threading, select posix.
     - For exceptions, select seh (64-bit) or dwarf (32-bit).
-    - Unzip mingw with `7zip <https://www.7-zip.org/>`_ into a folder like C:\mingw-w64; the full path must not contain any spaces.
+    - Unzip mingw with `7zip <https://www.7-zip.org/>`_ into a folder like :file:`C:\mingw-w64`; the full path must not contain any spaces.
     - MSVC is *not* supported at the moment.
     - CLANG is *not* supported at the moment.
     - MSYS is *not* supported at the moment.
