@@ -24,11 +24,14 @@ Edit Menu
     Redo
         Redoes the last undone action. Shortcut: :kbd:`Ctrl + Shift+ Z`
 
-    Cut
-        Cuts all the selected layers or the selection of all the selected layers. Shortcut: :kbd:`Ctrl + X`
+    Cut 
+        - If shapes are selected, then they are cut from the image and saved into the clipboard.
+        - If :ref:`selections_basics` are active, then that area is cut in all the layers selected in the layer docker and saved into the clipboard.
+        - If no selection, the layers selected inside the layer docker are cut from the image and saved into the clipboard.
+        - Shortcut: :kbd:`Ctrl + X`
 
     Copy
-        Cuts all the selected layers or the selection of all the selected layers. Shortcut: :kbd:`Ctrl + C`
+        Similar to :term:`Cut`, but elements are only copied into the clipboard without modifying existing image. Shortcut: :kbd:`Ctrl + C`
 
     Cut (Sharp)
         This prevents semi-transparent areas from appearing on your cut pixels, making them either fully opaque or fully transparent.
@@ -39,11 +42,13 @@ Edit Menu
     Copy Merged
         Copies the selection over all layers. Shortcut: :kbd:`Ctrl + Shift + C`
 
-    Paste
-        Pastes the copied layers into the image over current layer. Shortcut: :kbd:`Ctrl + V`
+    Paste 
+        - If vector shapes are in the copied buffer, the shapes are pasted into the image as a new layer.
+        - If layers are in the copied buffer, these layers are pasted into the image above the active layer or inside a group layer if the active layer is a group layer.
+        - Shortcut: :kbd:`Ctrl + V`
 
     Paste at Cursor
-        Pastes the copied buffer in a new layer aligned at the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
+        Same as :term:`Paste`, but aligns the image to the cursor. Shortcut: :kbd:`Ctrl + Alt + V`
 
     Paste into Active Layer
         Pastes the copied buffer into the current layer as a new selection.
