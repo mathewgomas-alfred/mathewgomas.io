@@ -98,6 +98,23 @@ Distribution
 
             * :guilabel:`Repeat`: Have the curve repeat itself multiple times from the center of the spray area to its edge. Without this, you would need to build a very complex curve with too many control points to achieve the same result.
 
+.. figure:: /images/brushes/krita-spray-brush-engine-distribution.png
+
+   Different distribution types on display:
+
+   1. Uniform for both Angular and Radial, with `Center-biased spread (legacy)` turned on.
+   2. Uniform for both Angular and Radial, with `Center-biased spread (legacy)` turned off.
+   3. Clustered for Radial, with Clusting Amount: 0.0.
+   4. Clustered for Radial, with Clusting Amount: -5.0.
+   5. Clustered for Radial, with Clusting Amount: +5.0.
+   6. Curve for Angular, using the default curve and 0 repeats.
+   7. Curve for Angular, using the default curve and 5 repeats.
+   8. Curve for Radial, using the default curve with 3 repeats.
+   9. Curve for Angular using a hill shaped curve, 7 repeats, and Clustered for Radial, with Clusting Amount: -5.0.
+   10. Gaussian for Radial, with Standard Deviation: 25.
+   11. Gaussian for Radial, with Standard Deviation: 50.
+   12. Gaussian for Radial, with Standard Deviation: 80.
+
 .. _option_spray_shape:
 
 Spray Shape
