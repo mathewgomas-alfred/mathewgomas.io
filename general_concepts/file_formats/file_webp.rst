@@ -16,7 +16,7 @@
 
 WebP is a file format that much like :ref:`file_heif` uses a video codec to store a single image. It has both :ref:`lossy_compression`, which use different algorithms to get the best results. WebP tends to be largely used for websites, though not all websites support uploading such files. If you self-host you can investigate whether WebP is an improvement over :ref:`file_jpeg` or :ref:`file_png`. It however is not very widely supported by image editors, so if you are doing collaboration with other artists, it may be better to use a different file format.
 
-:program:`Krita` has supported simple WebP export for a while, but since 5.1 it supports all the export options offered by LibWebP.
+:program:`Krita` has supported simple WebP export for a while, but since 5.1 it supports all the export options offered by `libwebp <https://chromium.googlesource.com/webm/libwebp_>`.
 
 Export Options:
 ---------------
@@ -31,9 +31,9 @@ Lossless Compression:
 Quality:
     Slider for quality.
     
-    With :guilabel:`Lossless Compression`, 0% means the file will use the fewest amount of algorithmic tricks to reduce file size. This means the file is large, but will be easy to decode by computers. On the flipside, 100% means all algorithmic tricks will be used, leading to the smallest file size, but it may be harder to read by computers. The first is best for a situation where speed is more important than size, such as files you share via usb. The latter is useful for situations where the filesize can become a problem, such as serving it over the internet.
+    With :guilabel:`Lossless Compression`, 0% means the library will use the fewest amount of algorithmic tricks to reduce file size. This means fast saving times, at the expense of larger files. Conversely, 100% means all algorithmic tricks will be used, leading to the smallest file size, but saving will take longer. The first is best for a situation where speed is more important than size, such as files you share via USB. The latter is useful for situations where the file size can become a problem, such as serving it over the Internet.
 
-    Without :guilabel:`Lossless Compression`, the lossy algorithm is used, which means that rather than use algorithmic tricks, the image information will be removed instead. This means that at 0%, the most information wll be removed and thus the smallest file size is achieved. This also reduces the overal quality. Conversely, 100% will remove the least amount of image information and thus maintain quality at the expense of a large file size.
+    Without :guilabel:`Lossless Compression`, image information considered redundant will be removed, rather than compressed. This means that at 0%, the most information wll be lost and thus the smallest file size is achieved. This also reduces the overall quality. Conversely, 100% will remove the least amount of image information and thus maintain quality at the expense of a large file size.
 Trade Off
     A slider that allows you to select whether speed is more important than quality.
 Dithering:
@@ -45,9 +45,9 @@ Advanced
 Target Size:
     Specify the amount of bytes to aim for. Only with :guilabel:`Lossless Compression` off.
 Target PSNR:
-    PSNR means Peak Signal to Noise Ratio. Indicates how much noise to keep. Only with :guilabel:`Lossless Compression` off.
+    PSNR means `Peak Signal to Noise Ratio <https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio_>`, and indicates how much noise the image has. Higher values mean less noise is accepted. Only with :guilabel:`Lossless Compression` off.
 Segments:
-    Number of partitions used for segmentation algorithm. (???) 
+    How many segments the VP8 video codec can divide the image into. VP8 accepts between 1 and 4 segments. Only with :guilabel:`Lossless Compression` off. 
 SNS Strength:
     Specifies the strength of the Spatial Noise Shaping algorithm, which tries to see if parts of the image can be better compressed than other parts. 
 Filter Strength:
@@ -59,20 +59,20 @@ Filter Type:
 Auto Adjust Filter Stretch:
     The encoder will spend some time tuning and selecting the best filter options before encoding.  Only with :guilabel:`Lossless Compression` off.
 Alpha Plane Compression:
-    Lossless
+    Whether to losslessly compress the alpha channel (Lossless) or outright discard it (None).
     None
 Predictive Filtering for Alpha Plane:
     Whether to use predictive filtering for the alpha/transparency.:guilabel:`Best` will try all potential predictive filter modes before deciding which one to use, making it slower than :guilabel:`Fast`, which just makes a guess and selects that.
 Alpha Plane Quality:
-    Compression quality of the transpancy/alpha channel.
+    Compression quality for the alpha channel. 0% means smallest size, 100% means no compression. Only with :guilabel:`Alpha Plane Compression` set to Lossless.
 Entropy Passes:
      Number of passes to do for selecting the best option between target size and target PSNR. Only with :guilabel:`Lossless Compression` off.
 Show Compressed:
-    ???
+    Tells libwebp to skip the in-loop filtering step. May adversely affect the quality of the end file.
 Preprocessing Filter:
-    Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV. Only works with :guilabel:`Lossless Compression` turned off.
+    Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV. Only works with :guilabel:`Lossless Compression` off.
 Partitions:
-    Number of partitions used for segmentation algorithm. (???)
+    Sets how many partitions can the VP8 codec use for storing decompression information. Must be between 0 and 3. Default is 0 to make decoding easier. Only with :guilabel:`Lossless Compression` off.
     Only with :guilabel:`Lossless Compression` on.
 Partition Limit:
     Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment.
@@ -89,7 +89,7 @@ Near Lossless:
 Exact:
     Preserve RGB values in transparent areas instead of defaulting them to transparent black.
 Use Sharp YUV:
-    Whether to use the slower more accurate RGB->YUV conversion.
+    Whether to use the slower, but more accurate, RGB to YUV conversion.
 Minimum Quality:
     Used with 'entropy passes', the lowest allowed quality for the image. Only with :guilabel:`Lossless Compression` off.
 Maximum Quality:
