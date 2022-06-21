@@ -91,7 +91,7 @@ Move layer up.
 Move layer down.
     Will move the active layer down. Will switch them out and in groups when coming across them.
 Layer properties.
-    Will open the layer properties window.
+    Will open the layer properties window. The button to the side will open up the |mouseright| context menu for the currently selected layer. This is useful when you don't have access to a |mouseright| button.
 Delete
     Will delete the active layer(s). For safety reasons, you can only delete visible layers.
 
