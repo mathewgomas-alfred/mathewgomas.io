@@ -1,0 +1,99 @@
+.. meta::
+   :description:
+        The WebP file format in Krita.
+
+.. metadata-placeholder
+
+   :authors: - Wolthera van Hövell tot Westerflier <griffinvalley@gmail.com>
+   :license: GNU free documentation license 1.3 or later.
+
+.. index:: *.webp, WebP
+.. _file_webp:
+
+=======
+\*.webp
+=======
+
+WebP is a file format that much like :ref:`file_heif` uses a video codec to store a single image. It has both :ref:`lossy_compression`, which use different algorithms to get the best results. WebP tends to be largely used for websites, though not all websites support uploading such files. If you self-host you can investigate whether WebP is an improvement over :ref:`file_jpeg` or :ref:`file_png`. It however is not very widely supported by image editors, so if you are doing collaboration with other artists, it may be better to use a different file format.
+
+:program:`Krita` has supported simple WebP export for a while, but since 5.1 it supports all the export options offered by LibWebP.
+
+Export Options:
+---------------
+
+General:
+~~~~~~~~
+
+Preset:
+    WebP offers some presets for given a given type of photo. For stylized images, use :guilabel:`Line Drawing`, for painterly images, use :guilabel:`Portrait` or :guilabel:`Outdoor Photo`.
+Lossless Compression:
+    Use the :ref:`lossless compression mode <lossless_compression>` mode, this is a slightly different algorithm, which is heavier but gives better results for sharp contrasts.
+Quality:
+    Slider for quality.
+    
+    With :guilabel:`Lossless Compression`, 0% means the file will use the fewest amount of algorithmic tricks to reduce file size. This means the file is large, but will be easy to decode by computers. On the flipside, 100% means all algorithmic tricks will be used, leading to the smallest file size, but it may be harder to read by computers. The first is best for a situation where speed is more important than size, such as files you share via usb. The latter is useful for situations where the filesize can become a problem, such as serving it over the internet.
+
+    Without :guilabel:`Lossless Compression`, the lossy algorithm is used, which means that rather than use algorithmic tricks, the image information will be removed instead. This means that at 0%, the most information wll be removed and thus the smallest file size is achieved. This also reduces the overal quality. Conversely, 100% will remove the least amount of image information and thus maintain quality at the expense of a large file size.
+Trade Off
+    A slider that allows you to select whether speed is more important than quality.
+Dithering:
+    This enables dithering, which allows storing fewer colors while still keeping good gradients.
+
+Advanced
+~~~~~~~~
+
+Target Size:
+    Specify the amount of bytes to aim for. Only with :guilabel:`Lossless Compression` off.
+Target PSNR:
+    PSNR means Peak Signal to Noise Ratio. Indicates how much noise to keep. Only with :guilabel:`Lossless Compression` off.
+Segments:
+    Number of partitions used for segmentation algorithm. (???) 
+SNS Strength:
+    Specifies the strength of the Spatial Noise Shaping algorithm, which tries to see if parts of the image can be better compressed than other parts. 
+Filter Strength:
+    Strength of the deblocking filter. 0% will mean there's no filtering after decoding, with increasing filter strength the image will appear smoother.
+Filter Sharpness:
+    Defines the sharpness of the deblocking filter, with 0 being the sharpest and 7 being the least sharp.
+Filter Type:
+    Type of deblocking filter, options are :guilabel:`Strong` and :guilabel:`Simple`.
+Auto Adjust Filter Stretch:
+    The encoder will spend some time tuning and selecting the best filter options before encoding.  Only with :guilabel:`Lossless Compression` off.
+Alpha Plane Compression:
+    Lossless
+    None
+Predictive Filtering for Alpha Plane:
+    Whether to use predictive filtering for the alpha/transparency.:guilabel:`Best` will try all potential predictive filter modes before deciding which one to use, making it slower than :guilabel:`Fast`, which just makes a guess and selects that.
+Alpha Plane Quality:
+    Compression quality of the transpancy/alpha channel.
+Entropy Passes:
+     Number of passes to do for selecting the best option between target size and target PSNR. Only with :guilabel:`Lossless Compression` off.
+Show Compressed:
+    ???
+Preprocessing Filter:
+    Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV. Only works with :guilabel:`Lossless Compression` turned off.
+Partitions:
+    Number of partitions used for segmentation algorithm. (???)
+    Only with :guilabel:`Lossless Compression` on.
+Partition Limit:
+    Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment.
+    Only with :guilabel:`Lossless Compression` on.
+Emulate JPEG Size:
+    The encoder will try to match the size of a jpeg of similar format.  Only with :guilabel:`Lossless Compression` off.
+Multithreaded Encoding:
+    Use multithreading for encoding if possible.
+Reduce Memory Usage:
+    Try to reduce memory usage at the cost of speed.
+Near Lossless:
+    The encoder is able to minimally adjust pixel-values so they compress better in lossless compression mode. This enables this feature.
+    Automatically triggers :guilabel:`Lossless Compression`.
+Exact:
+    Preserve RGB values in transparent areas instead of defaulting them to transparent black.
+Use Sharp YUV:
+    Whether to use the slower more accurate RGB->YUV conversion.
+Minimum Quality:
+    Used with 'entropy passes', the lowest allowed quality for the image. Only with :guilabel:`Lossless Compression` off.
+Maximum Quality:
+    Used with 'entropy passes', the highest allowed quality for the image. Only with :guilabel:`Lossless Compression` off.
+
+.. seealso::
+    https://developers.google.com/speed/webp/docs/compression
