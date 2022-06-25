@@ -31,14 +31,14 @@ Export Options
 General
 ~~~~~~~
 
-Save as animated JPEG-XL
-    JPEG-XL has the ability to store small animations like :ref:`file_gif`. It's animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG-XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
+Save as animated JPEG XL
+    JPEG XL has the ability to store small animations like :ref:`file_gif`. Its animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
 
 Encoding Options
 ```````````````` 
 
 Lossless encoding.
-    Whether to use :ref:`lossy_lossless`. Like :ref:`file_webp`, JPEG-XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
+    Whether to use :ref:`lossy_lossless`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
 
 Tradeoff
     The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets (copied from `https://github.com/libjxl/libjxl/blob/315247f000cff01fbc7ee2dd8252ea8fb82d0769/doc/benchmarking.md`_ ):
@@ -67,7 +67,7 @@ VarDCT
 Modular Mode
     This one has specific features for so-called 'synthetic' images, such as line art and images with a lot of wide patches. Modular mode is always used when selecting :guilabel:`Lossless Encoding`.
     
-You could consider VarDCT to be like 'lossy' compression, while Modular Mode is like 'lossless' compression. Furthermore, JPEG-XL splits up images into smaller chunks called 'Groups', these are 256x256 for VarDCT and you can choose one of several sizes for Modular Mode.
+You could consider VarDCT to be like 'lossy' compression, while Modular Mode is like 'lossless' compression. Furthermore, JPEG XL splits up images into smaller chunks called 'Groups', these are 256x256 for VarDCT and you can choose one of several sizes for Modular Mode.
 
 Color channel resamping.
     How to sample the color channels.
@@ -96,20 +96,20 @@ Generate patches
 Edge Preserving Filter
     The edge preserving filter tries to preserve edges without getting artifacts like 'rings'.
 Gaborish filter
-    Whether or not to instruct the decoder to apply a Garbor-like Filter, which can help emphasize important contrasts that would otherwise be lost during encoding, in other words, a sharpening filter.
+    Whether or not to apply a Gabor-like sharpening filter, which can help emphasize important contrasts that would otherwise be lost during encoding.
     
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
     - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
     - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
 
 Modular encoding
-    Not to be confused with *Modular Mode* which is the lossless compression method, Modular encoding instead splits the image into smaller chunks, allowing for multi-treaded encoding, as well as per-chunk optimization. This option allows you to choose whether it should do so with the lossy :guilabel:`VarDCT` method, the lossless :guilabel:`Modular Mode`, or let the encoder choose.
+    Unlike *Modular Mode*, which is the lossless compression method, Modular encoding instead splits the image into smaller chunks, allowing for multi-threaded encoding, as well as per-chunk optimization. This option allows you to choose whether the encoder should do so with the lossy :guilabel:`VarDCT` method, the lossless :guilabel:`Modular Mode`, or by letting the encoder itself choose.
 Keep color of invisible pixels
     Whether to keep the color values when a pixel is fully transparent or whether to abstract them away as if they were transparent black.
 
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+    - Disabled -- Never use this regardless of :guilabel:`Tradeoff`. 
 
 Group order
     How the groups are stored in :guilabel:`Modular encoding`. This is important for partially downloaded images and images using :guilabel:`Progressive Encoding`.
@@ -122,28 +122,28 @@ Group order
         The centermost group of the image is the first group.
 
 Chroma-from-luma
-    JPEG-XL can use some algorithmic trickery to predict the color of a given section from the pixel brightness, meaning it only has to store the pixel brightness and not the color. This doesn't always work, so experimentation is recommended.
+    JPEG XL can use some algorithmic trickery to predict the color of a given section from the pixel brightness, meaning it only has to store the pixel brightness and not the color. This doesn't always work, so experimentation is recommended.
 
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
+    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+    - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
 
 VarDCT parameters
-    The core of JPEG's compression is the so-called Discrete Cosine Transform (DCT). This allows it to simplify a complex gradient of colors to a mathematical function. One of the new features of JPEG-XL is that these DCT don't have to be 8x8, nor do they have to be the same size over the whole image. This is called 'Variable DCT'. 
+    The core of JPEG's compression is the so-called Discrete Cosine Transform (DCT). This allows it to simplify a complex gradient of colors to a mathematical function. One of the new features of JPEG XL is that these DCT don't have to be 8x8, nor do they have to be the same size over the whole image. This is called 'Variable DCT'. 
 
     Spectral progression
         Whether to use Spectral Progression for [Adaptive] :guilabel:`Quantization`. This finetunes the kind of variables to use in the DCT at the cost of encoding speed.
     
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     
     Quantization
         Whether to use Adaptive Quantization. This allows the encoder to choose the best encoding per block, which can lead to a smaller file size at the cost of giving the encoder more time to do so.
         
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     
     Low resolution DC
         Default
@@ -157,8 +157,8 @@ Modular Parameters
     Progressive encoding
         Whether or not to enable progressive encoding/decoding. This means that the image can be saved in such a way that upon downloading and showing it, the most important parts get shown first.
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless :guilabel:`Tradeoff`.   
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.   
     Global channel palette range
         Colors will be stored as a palette depending on whether the total amount of different color channel values used is smaller than the percentage of all colors possible. For 8 bit, 100% would mean 255 values total, 50% would mean 128 values total, and 10% would mean a total of 25 values total.
     Local channel palette range
@@ -169,11 +169,11 @@ Modular Parameters
         Whether to use a Delta-palette, also called a lossy-palette. Cannot figure out what this is.
     
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`. 
     
     Group size
-        Images can be split into smaller chunks, which can be encoded seperately. You can choose how big these chunks are wehn using Modular Mode, for VarDCT they will default to 256x256.
+        Images can be split into smaller chunks, which can be encoded separately. You can choose how big these chunks are when using Modular Mode, for VarDCT they will default to 256x256.
     
         - 128x128
         - 256x256
@@ -181,23 +181,23 @@ Modular Parameters
         - 1024x1024
 
     Predictor
-        Which predictor to use in conjuncton with the :guilabel:`MA tree`. Where VarDCT compresses the image by abstracting complex gradients into mathematical functions, Modular Mode compresses sections by determining if it can be described by it's neighbouring pixels, like 'the same color as the pixel to the left'. This is a predictor, and you can select which predictor you'd prefer to be used. Recommended values is :guilabel:`Default`.
+        Which predictor to use in conjunction with the :guilabel:`MA tree`. Where VarDCT compresses the image by abstracting complex gradients into mathematical functions, Modular Mode compresses sections by determining if it can be described by its neighbouring pixels, like 'the same color as the pixel to the left'. This is a predictor, and you can select which predictor you'd prefer to be used. Recommended values is :guilabel:`Default`.
         
         - Default -- Let the encoder choose.
-        - Zero -- always reeturns the value 0.
+        - Zero -- Always returns the value 0.
         - Left -- Always returns the value at the left.
-        - Top -- Always returns the value 
-        - Avg0
-        - Select  -- Return left or top depending on the situation.
-        - Gradient -- Value of the topleft neighbour minux the values of the top and left neighbours.
-        - Weighted -- A complex predictor that weights the top, left and topleft pixels in certain ways to achieve the result.
-        - Top Right -- return the value topright of the current location.
-        - Top Left -- return the value topleft of the current location.
-        - Left Left -- return the value topright of the current location.
-        - Avg1
-        - Avg2
-        - Avg3
-        - Toptop predictive avarage
+        - Top -- Always returns the value at the top.
+        - Avg0 -- Returns the average of the values to the immediate left and top of the current location.
+        - Select  -- Subtracts the left and top neighbour from the top-left, and returns the neighbour whose difference is lower.
+        - Gradient -- Returns the value of the top-left neighbour minus the values of the top and left neighbours.
+        - Weighted -- A complex predictor that weights the top, left and top-left pixels in certain ways to achieve the result.
+        - Top Right -- Returns the value topright of the current location.
+        - Top Left -- Returns the value topleft of the current location.
+        - Left Left -- Returns the value topright of the current location.
+        - Avg1 -- Returns the average of the values to the immediate left and top-left of the current location.
+        - Avg2 -- Returns the average of the values to the immediate top-left and top of the current location.
+        - Avg3 -- Returns the average of the values to the immediate left and top-right of the current location.
+        - Toptop predictive average -- Weights the value of 6 neighbours: the top, left, topright, and their immediately adjacent neighbours in the same direction. 
         - Gradient+Weighted -- Mixes gradient and weighted.
         - Use all predictors
     
