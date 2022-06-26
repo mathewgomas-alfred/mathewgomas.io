@@ -1,3 +1,4 @@
+
 .. meta::
    :description:
         The JPEG XL file format in Krita.
@@ -31,6 +32,8 @@ Export Options
 General
 ~~~~~~~
 
+JPEG XL's encoder is designed to be fairly hands-off. Where in the case of JPEG you'd have to select the appropriate quality, JPEG XL instead tries to find the best quality for your image. What you instead choose is whether the preferred compression is :ref:`lossy or lossless <lossless_compression>`, and how much effort the encoder should put into finding the best compression for your image, with more effort also meaning longer saving times.
+
 Save as animated JPEG XL
     JPEG XL has the ability to store small animations like :ref:`file_gif`. Its animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
 
@@ -38,16 +41,16 @@ Encoding Options
 ```````````````` 
 
 Lossless encoding.
-    Whether to use :ref:`lossy_lossless`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
+    Whether to use :ref:`Lossless compression <lossless_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
 
 Tradeoff
-    The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets (copied from `https://github.com/libjxl/libjxl/blob/315247f000cff01fbc7ee2dd8252ea8fb82d0769/doc/benchmarking.md`_ ):
+    The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets (copied from `this libjxl readme <https://github.com/libjxl/libjxl/blob/315247f000cff01fbc7ee2dd8252ea8fb82d0769/doc/benchmarking.md>`_ ):
     
     1. Lightning -- A fast mode useful for lossless mode.
     2. Thunder -- A fast mode useful for lossless mode.
     3. Falcon -- Instead of using lossless mode, disables all options.
     4. Cheetah -- Enables coefficient reordering, context clustering, and heuristics for selecting DCT sizes and quantization steps.
-    5. Hare -- Enables Gaborish Filtering, Chroma from Luma and estimates quanization steps.
+    5. Hare -- Enables Gaborish Filtering, Chroma from Luma and estimates quantization steps.
     6. Wombat -- Enables error diffusion quantization and DCT heuristics.
     7. Squirrel -- Enables dots, patches and spline detection as well as context clustering.
     8. Kitten -- Optimizes the adaptive quantization for a psychovisual metric.
@@ -76,31 +79,31 @@ Color channel resamping.
     This feature is particularly useful for images that are deliberately blurry and devoid of sharp contrast. It's recommended to set this to :guilabel:`No Downsampling` in any other case.
         
 Alpha channel resampling
-    Same as :guilabel:`Color channel resamping`, but then for the transpancy of the image.
+    Same as :guilabel:`Color channel resamping`, but then for the transparency of the image.
 Photon noise
     This determines whether noise in the image should be abstracted and added later by the computer, giving a simulation of the noise that cameras sometimes capture.
 Generate dots
     Dots are a form of noise larger than :guilabel:`Photon noise`. Such dots make images more pleasing to look at, however, they make compressing difficult. This option allows you to choose whether or not to abstract these dots away and have the computer add them later. If this and :guilabel:`Generate Patches` is on, and the encoder finds both patches and dots, the dots will be encoded as if they were patches.
     
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless :guilabel:`Tradeoff`.
+    - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
 
 Generate patches
     This determines whether or not to try and reuse bits and pieces of an image. This can be useful with images that have a lot of repeating bits, like tilesets, images with text or images using a lot of patterns.
     
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless :guilabel:`Tradeoff`.
+    - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
 
 Edge Preserving Filter
     The edge preserving filter tries to preserve edges without getting artifacts like 'rings'.
 Gaborish filter
-    Whether or not to apply a Gabor-like sharpening filter, which can help emphasize important contrasts that would otherwise be lost during encoding.
+    Whether or not to apply a Gabor-like sharpening filter, which can help emphasize important contrasts that would otherwise be lost during encoding and decoding.
     
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless :guilabel:`Tradeoff`.
+    - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
 
 Modular encoding
     Unlike *Modular Mode*, which is the lossless compression method, Modular encoding instead splits the image into smaller chunks, allowing for multi-threaded encoding, as well as per-chunk optimization. This option allows you to choose whether the encoder should do so with the lossy :guilabel:`VarDCT` method, the lossless :guilabel:`Modular Mode`, or by letting the encoder itself choose.
@@ -108,8 +111,8 @@ Keep color of invisible pixels
     Whether to keep the color values when a pixel is fully transparent or whether to abstract them away as if they were transparent black.
 
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
-    - Disabled -- Never use this regardless of :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`.
+    - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
 
 Group order
     How the groups are stored in :guilabel:`Modular encoding`. This is important for partially downloaded images and images using :guilabel:`Progressive Encoding`.
@@ -122,45 +125,58 @@ Group order
         The centermost group of the image is the first group.
 
 Chroma-from-luma
-    JPEG XL can use some algorithmic trickery to predict the color of a given section from the pixel brightness, meaning it only has to store the pixel brightness and not the color. This doesn't always work, so experimentation is recommended.
+    JPEG XL can use some algorithmic trickery to predict the color of a given section from the pixel brightness, meaning it only has to store the pixel brightness and not the color. Experimentation is recommended.
 
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
+    - Enabled -- Always use this regardless of :guilabel:`Tradeoff`.
     - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
 
 VarDCT parameters
-    The core of JPEG's compression is the so-called Discrete Cosine Transform (DCT). This allows it to simplify a complex gradient of colors to a mathematical function. One of the new features of JPEG XL is that these DCT don't have to be 8x8, nor do they have to be the same size over the whole image. This is called 'Variable DCT'. 
+    The core of JPEG's compression is the so-called Discrete Cosine Transform (DCT). This allows it to simplify a complex gradient of colors to a mathematical function. One of the new features of JPEG XL is that these DCT don't have to be 8x8, nor do they have to be the same size over the whole image. This is called 'Variable DCT'. The compression that is applied on this mathematical function is also finetuned by the encoder, this is called `Adaptive Quantization`.
+    
+    Because the encoder is able to pick the best solution for the compression (Depending on what you selected for :guilabel:`Tradeoff`), the only thing you need to worry about is whether to enable progressive mode. Progressive mode for VarDCT takes the so-called `DC` values (which are per DCT block) to produce a coarse preview image that gets shown first and then it takes the `AC` values, which represent the fine details, and sends them out last. In effect this results in progressive images first showing a rough blurry image which, as the download completes, becomes *progressively* sharper. This is especially useful for images alongside text or images that get served over a slow internet connection.
 
     Spectral progression
-        Whether to use Spectral Progression for [Adaptive] :guilabel:`Quantization`. This finetunes the kind of variables to use in the DCT at the cost of encoding speed.
+        This enables progressive mode and uses advanced color maths to calculate the fine details of images. This takes more time but generally gives better results.
     
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
         - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
         - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     
     Quantization
-        Whether to use Adaptive Quantization. This allows the encoder to choose the best encoding per block, which can lead to a smaller file size at the cost of giving the encoder more time to do so.
+        This enables progressive mode and then uses quantization to compress the fine details. This leads to a smaller file size at the cost of giving the encoder more time to do so.
         
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
         - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
         - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     
     Low resolution DC
+        Where the previous two options covered the fine-grain parts of a progressive-encoded image, the `DC` is coarse-grain compression, specifically a coefficient for every DCT block that can be used to create the coarse preview image for progressive decoding. Because DCT can be variable-size in JPEG XL, you can opt to use a low-resolution image in addition. This should result in a better preview, though the file size will be a few bytes bigger.
+        
+        .. warning:
+        
+            This option can crash when Krita is compiled with LibJXL older than 0.7. This does not happen with official binaries, but people who compile Krita themselves should take care to have an up to date LibJXL if they want to use this feature.
+        
         Default
+            Let the encoder choose.
         Disable
+            Do not use a lower-resolution image at all.
         64x64 low resolution pass
+            Create an 64x64 image to use alongside the `DC` values to create the progressive preview.
         512x512 + 64x64 low resolution pass
+            Create both a 512x512 image and a 64x64 image to use alongside the `DC` values to create the progressive preview.
 
 Modular Parameters
-    Extra options for :guilabel:`Modular Mode`. Modular mode uses something akin to a small programming language by way of predictors to describe information quickly and losslessly.
+    Extra options for :guilabel:`Modular Mode`. Modular mode uses something akin to a small programming language by way of predictors to describe image data succint and precise.
 
     Progressive encoding
-        Whether or not to enable progressive encoding/decoding. This means that the image can be saved in such a way that upon downloading and showing it, the most important parts get shown first.
+        Whether or not to enable progressive encoding/decoding. As explained in :guilabel:`VarDCT parameters`, this means that the image can be saved in such a way that upon downloading and showing it, a rough previous will get shown first.
+        
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.   
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`.
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     Global channel palette range
-        Colors will be stored as a palette depending on whether the total amount of different color channel values used is smaller than the percentage of all colors possible. For 8 bit, 100% would mean 255 values total, 50% would mean 128 values total, and 10% would mean a total of 25 values total.
+        Colors will be stored as a palette depending on whether the total amount of different colors used is smaller than the percentage of all color channel values possible. For 8 bit, 100% would mean 255 values total, 50% would mean 128 values total, and 10% would mean a total of 25 values total.
     Local channel palette range
         Like :guilabel:`Global channel palette range`, but then decided per group.
     Use color palette for ... colors or less.
@@ -169,8 +185,8 @@ Modular Parameters
         Whether to use a Delta-palette, also called a lossy-palette. Cannot figure out what this is.
     
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
-        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`. 
-        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`. 
+        - Enabled -- Always use this regardless of :guilabel:`Tradeoff`.
+        - Disabled -- Never use this regardless of :guilabel:`Tradeoff`.
     
     Group size
         Images can be split into smaller chunks, which can be encoded separately. You can choose how big these chunks are when using Modular Mode, for VarDCT they will default to 256x256.
@@ -181,7 +197,7 @@ Modular Parameters
         - 1024x1024
 
     Predictor
-        Which predictor to use in conjunction with the :guilabel:`MA tree`. Where VarDCT compresses the image by abstracting complex gradients into mathematical functions, Modular Mode compresses sections by determining if it can be described by its neighbouring pixels, like 'the same color as the pixel to the left'. This is a predictor, and you can select which predictor you'd prefer to be used. Recommended values is :guilabel:`Default`.
+        Which predictor to use in conjunction with the :guilabel:`MA tree`. Where VarDCT compresses the image by abstracting complex gradients into mathematical functions, Modular Mode compresses sections by determining if it can be described by its neighbouring pixels, like 'the same color as the pixel to the left'. This is a predictor, and you can select which predictor you'd prefer to be used. Recommended value is :guilabel:`Default`.
         
         - Default -- Let the encoder choose.
         - Zero -- Always returns the value 0.
@@ -198,11 +214,11 @@ Modular Parameters
         - Avg2 -- Returns the average of the values to the immediate top-left and top of the current location.
         - Avg3 -- Returns the average of the values to the immediate left and top-right of the current location.
         - Toptop predictive average -- Weights the value of 6 neighbours: the top, left, topright, and their immediately adjacent neighbours in the same direction. 
-        - Gradient+Weighted -- Mixes gradient and weighted.
+        - Gradient + Weighted -- Mixes gradient and weighted.
         - Use all predictors
     
     Pixels for MA tree learning.
-        Fraction of pixels used for the Meta-Adaptive Context tree. The MA tree is a way of analyzing the image as a whole, and depending on the context apply a given predictor. More pixels mean a better understood context, but these also take more resources while encoding.
+        Fraction of pixels used for the Meta-Adaptive Context tree. The MA tree is a way of analyzing the pixels surrounding the current pixel, and depending on the context choose a given predictor for this pixel. More pixels mean a better understood context and thus better compression, but these also take more resources while encoding.
 
 Metadata
 ~~~~~~~~
