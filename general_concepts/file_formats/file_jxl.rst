@@ -36,34 +36,30 @@ JPEG XL's encoder is designed to be fairly hands-off. Where in the case of JPEG 
 
 Save as animated JPEG XL
     JPEG XL has the ability to store small animations like :ref:`file_gif`. Its animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
-
 Encoding Options
-```````````````` 
-
-Lossless encoding.
-    Whether to use :ref:`Lossless compression <lossless_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
-
-Tradeoff
-    The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets (copied from `this libjxl readme <https://github.com/libjxl/libjxl/blob/315247f000cff01fbc7ee2dd8252ea8fb82d0769/doc/benchmarking.md>`_ ):
+    Lossless encoding.
+        Whether to use :ref:`Lossless compression <lossless_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
+    Tradeoff
+        The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets [1]_:
     
-    1. Lightning -- A fast mode useful for lossless mode.
-    2. Thunder -- A fast mode useful for lossless mode.
-    3. Falcon -- Instead of using lossless mode, disables all options.
-    4. Cheetah -- Enables coefficient reordering, context clustering, and heuristics for selecting DCT sizes and quantization steps.
-    5. Hare -- Enables Gaborish Filtering, Chroma from Luma and estimates quantization steps.
-    6. Wombat -- Enables error diffusion quantization and DCT heuristics.
-    7. Squirrel -- Enables dots, patches and spline detection as well as context clustering.
-    8. Kitten -- Optimizes the adaptive quantization for a psychovisual metric.
-    9. Tortoise -- Enables a more thorough adaptive quantization search.
+        1. Lightning -- A fast mode useful for lossless mode. Fastest possible values for lossy compression, for lossless uses gradient predictors and fast histograms, but no MA tree.
+        2. Thunder -- Both Lightning and Thunder are similar for Lossy, for lossless, Thunder uses a fixed MA tree and gradient predictors.
+        3. Falcon -- Instead of using lossless mode, disables all options.
+        4. Cheetah -- Enables coefficient reordering, context clustering, and heuristics for selecting DCT sizes and quantization steps.
+        5. Hare -- Enables Gaborish Filtering, Chroma from Luma and estimates quantization steps.
+        6. Wombat -- Enables error diffusion quantization and DCT heuristics.
+        7. Squirrel -- Enables dots, patches and spline detection as well as context clustering.
+        8. Kitten -- Optimizes the adaptive quantization for a psychovisual metric.
+        9. Tortoise -- Enables a more thorough adaptive quantization search.
     
-    You can force-enable several of the options in the :guilabel:`Advanced` section even if they are disabled by the :guilabel:`Tradeoff` preset.
-Decoding Speed
-    Decoding speed can be improved by allowing certain optimizations. However, this will lead to some quality loss. For example, if you think your images will be largely viewed on mobile phones it might be a good idea to experiment with this option. Conversely, if your image will only be viewed by desktop computers and quality is of utmost importance, this should be set to 0.
+        You can force-enable several of the options in the :guilabel:`Advanced` section even if they are disabled by the :guilabel:`Tradeoff` preset.
+    Decoding Speed
+        Decoding speed can be improved by allowing certain optimizations. However, this will lead to some quality loss. For example, if you think your images will be largely viewed on mobile phones it might be a good idea to experiment with this option. Conversely, if your image will only be viewed by desktop computers and quality is of utmost importance, this should be set to 0.
 
 Advanced
 ~~~~~~~~
 
-JPEG-XL has two major ways of encoding data:
+JPEG XL has two major ways of encoding data:
 
 VarDCT
     This one is in the same family of compression techniques as used by the original JPEG, and thus best for 'Natural' images, such as photographs and images with a lot of gradients and textures.
@@ -90,7 +86,7 @@ Generate dots
     - Disabled -- Never use this regardless :guilabel:`Tradeoff`.
 
 Generate patches
-    This determines whether or not to try and reuse bits and pieces of an image. This can be useful with images that have a lot of repeating bits, like tilesets, images with text or images using a lot of patterns.
+    This determines whether or not to try and reuse bits and pieces of an image. This can be useful with images that have a lot of repeating bits, like sprite art, images with text or images using a lot of patterns.
     
     - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
     - Enabled -- Always use this regardless :guilabel:`Tradeoff`.
@@ -182,7 +178,7 @@ Modular Parameters
     Use color palette for ... colors or less.
         Select the maximum amount of colors that need to be present in a group before the encoder will try to store them as a palette.
     Delta palette
-        Whether to use a Delta-palette, also called a lossy-palette. Cannot figure out what this is.
+        Whether to use a Delta-palette, also called a lossy-palette. This compresses the palette, but there's no official documentation yet on how exactly.
     
         - Default -- Encoder will select this option depending on :guilabel:`Tradeoff`.
         - Enabled -- Always use this regardless of :guilabel:`Tradeoff`.
@@ -234,3 +230,5 @@ Tool information
     - `JPEG XL official website <https://jpeg.org/jpegxl/>`_
     - `JPEG XL community website <https://jpegxl.info/>`_
     - `libjxl -- JPEG XL reference implementation <https://github.com/libjxl/libjxl>`_
+    
+    .. [1] `Copied from this libjxl readme <https://github.com/libjxl/libjxl/blob/315247f000cff01fbc7ee2dd8252ea8fb82d0769/doc/benchmarking.md>`_ as well as comments inside the libjxl source code.
