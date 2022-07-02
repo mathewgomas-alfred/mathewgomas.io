@@ -21,6 +21,8 @@ WebP is a file format that much like :ref:`file_heif` uses a video codec to stor
 Export Options:
 ---------------
 
+Instead of making you responsible for the precise settings, the WebP exporter will try out different techniques to compress better. You give a goal (a given quality or a certain file size) to aim for, and it will try its best to reach that goal. To do this, it may actually try to redo a given step of the encoding process several times. In the end, what you will have to choose is whether you want a high quality result at the cost of a slow export, or a quick export at the cost of quality.
+
 General:
 ~~~~~~~~
 
@@ -35,7 +37,7 @@ Quality:
 
     Without :guilabel:`Lossless Compression`, image information considered redundant will be removed, rather than compressed. This means that at 0%, the most information wll be lost and thus the smallest file size is achieved. This also reduces the overall quality. Conversely, 100% will remove the least amount of image information and thus maintain quality at the expense of a large file size.
 Trade Off
-    A slider that allows you to select whether speed is more important than quality.
+    A slider that allows you to select whether saving speed is more important than quality.
 Dithering:
     This enables dithering, which allows storing fewer colors while still keeping good gradients.
 
@@ -78,7 +80,7 @@ Partition Limit:
     Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment.
     Only with :guilabel:`Lossless Compression` on.
 Emulate JPEG Size:
-    The encoder will try to match the size of a jpeg of similar format.  Only with :guilabel:`Lossless Compression` off.
+    The encoder will try to match the size of a jpeg of similar dimensions.  Only with :guilabel:`Lossless Compression` off.
 Multithreaded Encoding:
     Use multithreading for encoding if possible.
 Reduce Memory Usage:
