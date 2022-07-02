@@ -44,12 +44,6 @@ Dithering:
 Advanced
 ~~~~~~~~
 
-Target Size:
-    Specify the amount of bytes to aim for. Only with :guilabel:`Lossless Compression` off.
-Target PSNR:
-    PSNR means `Peak Signal to Noise Ratio <https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio_>`, and indicates how much noise the image has. Higher values mean less noise is accepted. Only with :guilabel:`Lossless Compression` off.
-Segments:
-    How many segments the VP8 video codec can divide the image into. VP8 accepts between 1 and 4 segments. Only with :guilabel:`Lossless Compression` off. 
 SNS Strength:
     Specifies the strength of the Spatial Noise Shaping algorithm, which tries to see if parts of the image can be better compressed than other parts. 
 Filter Strength:
@@ -58,8 +52,6 @@ Filter Sharpness:
     Defines the sharpness of the deblocking filter, with 0 being the sharpest and 7 being the least sharp.
 Filter Type:
     Type of deblocking filter, options are :guilabel:`Strong` and :guilabel:`Simple`.
-Auto Adjust Filter Stretch:
-    The encoder will spend some time tuning and selecting the best filter options before encoding.  Only with :guilabel:`Lossless Compression` off.
 Alpha Plane Compression:
     Whether to losslessly compress the alpha channel (Lossless) or outright discard it (None).
     None
@@ -67,35 +59,53 @@ Predictive Filtering for Alpha Plane:
     Whether to use predictive filtering for the alpha/transparency.:guilabel:`Best` will try all potential predictive filter modes before deciding which one to use, making it slower than :guilabel:`Fast`, which just makes a guess and selects that.
 Alpha Plane Quality:
     Compression quality for the alpha channel. 0% means smallest size, 100% means no compression. Only with :guilabel:`Alpha Plane Compression` set to Lossless.
-Entropy Passes:
-     Number of passes to do for selecting the best option between target size and target PSNR. Only with :guilabel:`Lossless Compression` off.
 Show Compressed:
     Tells libwebp to skip the in-loop filtering step. May adversely affect the quality of the end file.
-Preprocessing Filter:
-    Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV. Only works with :guilabel:`Lossless Compression` off.
-Partitions:
-    Sets how many partitions can the VP8 codec use for storing decompression information. Must be between 0 and 3. Default is 0 to make decoding easier. Only with :guilabel:`Lossless Compression` off.
-    Only with :guilabel:`Lossless Compression` on.
-Partition Limit:
-    Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment.
-    Only with :guilabel:`Lossless Compression` on.
-Emulate JPEG Size:
-    The encoder will try to match the size of a jpeg of similar dimensions.  Only with :guilabel:`Lossless Compression` off.
 Multithreaded Encoding:
     Use multithreading for encoding if possible.
 Reduce Memory Usage:
     Try to reduce memory usage at the cost of speed.
-Near Lossless:
-    The encoder is able to minimally adjust pixel-values so they compress better in lossless compression mode. This enables this feature.
-    Automatically triggers :guilabel:`Lossless Compression`.
 Exact:
     Preserve RGB values in transparent areas instead of defaulting them to transparent black.
 Use Sharp YUV:
     Whether to use the slower, but more accurate, RGB to YUV conversion.
+
+Lossy Compression
+`````````````````
+The following options only apply if :guilabel:`Lossless Compression` off.
+
+Target Size:
+    Specify the amount of bytes to aim for.
+Target PSNR:
+    PSNR means `Peak Signal to Noise Ratio <https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio_>`, and indicates how much noise the image has. Higher values mean less noise is accepted. 
+Segments:
+    How many segments the VP8 video codec can divide the image into. VP8 accepts between 1 and 4 segments.
+Partitions:
+    Sets how many partitions can the VP8 codec use for storing decompression information. Must be between 0 and 3. Default is 0 to make decoding easier.
+Auto Adjust Filter Stretch:
+    The encoder will spend some time tuning and selecting the best filter options before encoding.
+Entropy Passes:
+     Number of passes to do for selecting the best option between target size and target PSNR.
+Emulate JPEG Size:
+    The encoder will try to match the size of a jpeg of similar dimensions.
 Minimum Quality:
-    Used with 'entropy passes', the lowest allowed quality for the image. Only with :guilabel:`Lossless Compression` off.
+    Used with 'entropy passes', the lowest allowed quality for the image.
 Maximum Quality:
-    Used with 'entropy passes', the highest allowed quality for the image. Only with :guilabel:`Lossless Compression` off.
+    Used with 'entropy passes', the highest allowed quality for the image.
+Preprocessing Filter:
+    Whether or not to add :guilabel:`Pseudo Random Dithering` to the image before converting RGB to YUV.
+
+
+Lossless compression
+````````````````````
+The following options only work with :guilabel:`Lossless Compression` on.
+
+Partition Limit:
+    Limit how big a given segment is in bytes. The higher this is, the less possible information is stored per segment.
+Near Lossless:
+    The encoder is able to minimally adjust pixel-values so they compress better in lossless compression mode. This enables this feature.
+    Automatically triggers :guilabel:`Lossless Compression`.
+
 
 .. seealso::
     https://developers.google.com/speed/webp/docs/compression
