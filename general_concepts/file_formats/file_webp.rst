@@ -14,9 +14,9 @@
 \*.webp
 =======
 
-WebP is a file format based on the `RIFF container specification <https://developers.google.com/speed/webp/docs/riff_container_>` that, like :ref:`file_heif`, it builds upon a video codec (`VP8 <https://developers.google.com/speed/webp/docs/compression#lossy_webp_>`) to support :ref:`lossy_compression`. WebP tends to be largely used for websites, though not all websites support uploading such files. If you self-host you can investigate whether WebP is an improvement over :ref:`file_jpeg` or :ref:`file_png`. However, it is not very widely supported by image editors, so if you are doing collaboration with other artists, it may be better to use a different file format.
+WebP is a file format based on the `RIFF container specification <https://developers.google.com/speed/webp/docs/riff_container>`_ that, like :ref:`file_heif`, it builds upon a video codec (`VP8 <https://developers.google.com/speed/webp/docs/compression#lossy_webp>`_) to support :ref:`lossy_compression`. WebP tends to be largely used for websites, though not all websites support uploading such files. If you self-host you can investigate whether WebP is an improvement over :ref:`file_jpeg` or :ref:`file_png`. However, it is not very widely supported by image editors, so if you are doing collaboration with other artists, it may be better to use a different file format.
 
-:program:`Krita` has supported simple WebP export for a while, but since 5.1 it supports all the export options offered by `libwebp <https://chromium.googlesource.com/webm/libwebp_>`.
+:program:`Krita` has supported simple WebP export for a while, but since 5.1 it supports all the export options offered by `libwebp <https://chromium.googlesource.com/webm/libwebp>`_.
 
 Export Options:
 ---------------
