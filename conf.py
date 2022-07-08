@@ -253,6 +253,8 @@ rst_epilog = """
 
 .. |toolreference| image:: /images/icons/reference_images_tool.svg
 
+.. |toolenclosefill| image:: /images/icons/enclose_and_fill_tool.svg
+
 """
 
 # -- Options for HTML output -------------------------------------------------
