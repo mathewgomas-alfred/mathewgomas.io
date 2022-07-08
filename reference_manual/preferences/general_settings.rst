@@ -108,6 +108,10 @@ Use effective outline size
 Cursor Color:
     The default cursor color. This is mixed with the canvas image so that it will usually have a contrasting color, but sometimes this mixing does not work. This is usually due driver problems. When that happens, you can configure a more pleasant color here.
 
+Use separate settings for eraser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This allows you to configure all of the above, but then when the blending mode is set to erase (which is the default on eraser presets as well when toggling erase with :kbd:`E`. The settings are mostly indentical except of the additional eraser tool icon.
 
 .. _window_settings:
 
@@ -129,6 +133,8 @@ Don't show contents when moving sub-windows
     This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
 Show on-canvas popup messages
     Whether you want to see the on-canvas pop-up messages that tell you whether you are in tabbed mode, rotating the canvas, or mirroring it.
+Zoom Margin Size
+    This determines how much margin in pixels will be added when using :guilabel:`Fit Page`. This is particularly useful for large monitors, where the total canvas area might be larger than the center of your field of vision. Using a margin can then center the image inside the canvas area more comfortably.
 Enable Hi-DPI support
     Attempt to use the Hi-DPI support. It is an option because we are still experiencing bugs on Windows.
 (Hi-DPI) Enable fractional scale factor
@@ -172,6 +178,12 @@ Activate transform tool after pasting
 
 Enable Touch Rotation
     Without this, gestures on the canvas only allow zoom and pan, with this turned on, the two-finger gesture also allows to rotate.
+    
+    .. deprecated:: 5.1
+    
+        Since Krita 5.1, this is removed. Instead it's now possible to configure the navigation gestures inside the :ref:`canvas_input_settings`.
+Enable Smooth Zooming
+    When using |mousescroll|, zooming switches between predefined zoom levels. Turning this on switches that to be a smooth increment.
 
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
@@ -231,6 +243,8 @@ Use Zip64
     KRA files are ZIP files. Zip64 allows you to make really large image files (which is useful for animation), however, not all ZIP file programs can read Zip64, including older versions of Krita.
 Trim Files before Saving
     Normally, Krita will always keep pixels outside the visible canvas area and save that. With this option turned on, Krita will first :ref:`crop <crop_tool>` all the layers to the canvas-area and then save it.
+Trim frames when importing animations
+    This will crop frames that where imported using any of the options Krita has available. This saves ram, but may not always be what is required.
 
 
 .. _misc_settings:
@@ -299,6 +313,32 @@ Font DPI Workaround
     
     .. versionadded:: 5.0
 
+Whn Pasting Into Krita From Other Applications
+
+    Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image. This toggle asks which of these you prefer.
+    
+    Prefer downloading the original source (this requires Internet access).
+        If the clipboard data contains an URL, Krita will try to download those contents and paste them inside Krita.
+    Prefer a local copy (if available; metadata may be lost)
+        If the file had been downloaded by your computer previously (for example, to show it inside the web browser), Krita will use that instead.
+    Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost).
+        Just paste the attached bitmap. This will always work, and may be the best option if all you copy images for is to make small edits to share with friends. If you intend to copy and edit HDR images however, this option will make your life harder because the HDR version of the image will not be selected by default.
+    Ask each time
+        Krita will show a prompt whenever there's multiple options.
+
+    .. versionadded:: 5.1
+    
+Automatic layer suffixes
+    Sometimes Krita adjusts the layer name after an operation help you distinguish between multiple copies of a layer.
+
+    Add "Merged" to merged group layers.
+        When merging group layers "Merged" is added to the end so you can differentiate between multiple copies of a group layer. Turning this off can be useful with workflows that do a lot of merging.
+    Add "(Pasted)" to pasted layers.
+        This is useful when pasting multiple images into a single document, where "(Pasted)" reminds you to give the pasted layers better names.
+
+    .. versionadded:: 5.1
+    
+    
 .. _resource_settings:
 
 Resources
