@@ -135,6 +135,8 @@ Show on-canvas popup messages
     Whether you want to see the on-canvas pop-up messages that tell you whether you are in tabbed mode, rotating the canvas, or mirroring it.
 Zoom Margin Size
     This determines how much margin in pixels will be added when using :guilabel:`Fit Page`. This is particularly useful for large monitors, where the total canvas area might be larger than the center of your field of vision. Using a margin can then center the image inside the canvas area more comfortably.
+    
+    .. versionadded:: 5.1
 Enable Hi-DPI support
     Attempt to use the Hi-DPI support. It is an option because we are still experiencing bugs on Windows.
 (Hi-DPI) Enable fractional scale factor
