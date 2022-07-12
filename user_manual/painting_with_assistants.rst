@@ -97,6 +97,15 @@ Parallel Ruler
 
 If you press the :kbd:`Shift` key while holding the first two handles, they will snap to perfectly horizontal or vertical lines.
 
+.. versionadded:: 5.1
+
+    Of these, the :guilabel:`Ruler` assistant also has extra options to add markers:
+    
+    Subdivisions
+        This adds notches to the length of the assistant, evenly spread over the assistant.
+    Minor Subdivisions
+        This adds extra smaller notches between the :guilabel:`Subdivisions`.
+
 .. _assistant_spline:
 
 Spline
