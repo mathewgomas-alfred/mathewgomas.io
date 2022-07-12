@@ -65,6 +65,7 @@ VarDCT
     This one is in the same family of compression techniques as used by the original JPEG, and thus best for 'Natural' images, such as photographs and images with a lot of gradients and textures.
 Modular Mode
     This one has specific features for so-called 'synthetic' images, such as line art and images with a lot of wide patches. Modular mode is always used when selecting :guilabel:`Lossless Encoding`.
+
 You could consider VarDCT to be like 'lossy' compression, while Modular Mode is like 'lossless' compression. Furthermore, JPEG XL splits up images into smaller chunks called 'Groups', these are 256x256 for VarDCT and you can choose one of several sizes for Modular Mode.
 
 Color channel resamping.
