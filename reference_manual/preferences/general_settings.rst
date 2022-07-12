@@ -330,16 +330,6 @@ Whn Pasting Into Krita From Other Applications
 
     .. versionadded:: 5.1
     
-Automatic layer suffixes
-    Sometimes Krita adjusts the layer name after an operation help you distinguish between multiple copies of a layer.
-
-    Add "Merged" to merged group layers.
-        When merging group layers "Merged" is added to the end so you can differentiate between multiple copies of a group layer. Turning this off can be useful with workflows that do a lot of merging.
-    Add "(Pasted)" to pasted layers.
-        This is useful when pasting multiple images into a single document, where "(Pasted)" reminds you to give the pasted layers better names.
-
-    .. versionadded:: 5.1
-    
     
 .. _resource_settings:
 
