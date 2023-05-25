@@ -42,7 +42,7 @@ Brush Packs
 
                Al-dy
 
-          - .. figure:: /images/resource_packs/Resources-stalcryBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-stalcryBrushes.jpg
                :target: https://www.deviantart.com/stalcry/art/Krita-Custom-Brushes-350338351
 
                Stalcry
@@ -52,13 +52,13 @@ Brush Packs
 
                Wolthera
 
-        * - .. figure:: /images/resource_packs/Resources-nylnook.jpg
+          - .. figure:: /images/resource_packs/Resources-nylnook.jpg
                :target: https://nylnook.art/en/blog/krita-brushes-pack-v2/
 
                Nylnook
 
 
-          - .. figure:: /images/resource_packs/Resources-raghukamathBrushes.png
+        * - .. figure:: /images/resource_packs/Resources-raghukamathBrushes.png
                :target: https://gitlab.com/raghukamath/krita-brush-presets/-/releases
 
                Raghukamath
@@ -68,12 +68,12 @@ Brush Packs
 
                GDQuest
 
-        * - .. figure:: /images/resource_packs/Resources-iForce73Brushes.png
+          - .. figure:: /images/resource_packs/Resources-iForce73Brushes.png
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
 
                IForce73
 
-          - .. figure:: /images/resource_packs/Resources-iForce73CityscapeBrushes.png
+        * - .. figure:: /images/resource_packs/Resources-iForce73CityscapeBrushes.png
                :target: https://www.deviantart.com/iforce73/art/Environments-2-0-759523252
 
                IForce73
@@ -83,12 +83,12 @@ Brush Packs
 
                wojtryb
 
-        * - .. figure:: /images/resource_packs/Resources-rakurribrushset.png
+          - .. figure:: /images/resource_packs/Resources-rakurribrushset.png
                :target: https://github.com/Rakurri/rakurri-brush-set-for-krita
 
                Rakurri
 
-          - .. figure:: /images/resource_packs/Resources-jackpackBrushes.jpg
+        * - .. figure:: /images/resource_packs/Resources-jackpackBrushes.jpg
                :target: https://gumroad.com/l/pPCFg
 
                Jackpack
@@ -98,15 +98,10 @@ Brush Packs
 
                Razcore
 
-        * - .. figure:: /images/resource_packs/Resources-eyeodin.png
+          - .. figure:: /images/resource_packs/Resources-eyeodin.png
                :target: https://github.com/EyeOdin/eo_bundle
 
                EO Bundle by EyeOdin
-
-          -
-
-          -
-
 
 Texture Packs
 =============
