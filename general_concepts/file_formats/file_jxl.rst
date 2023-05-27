@@ -37,8 +37,14 @@ JPEG XL's encoder is designed to be fairly hands-off. Where in the case of JPEG 
 Save as animated JPEG XL
     JPEG XL has the ability to store small animations like :ref:`file_gif`. Its animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
 Encoding Options
-    Lossless encoding.
-        Whether to use :ref:`Lossless compression <lossless_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes. 
+    Lossy encoding
+        Whether to use :ref:`Lossy compression <lossy_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes.
+    Quality
+        This option sets the desired quality for lossy compression. Higher values look better, but lower values have a lower file size.
+    Use modular mode
+        Use the alternative Modular mode for lossy compression. By default, JPEG XL encodes lossy image with VarDCT mode.
+    
+    .. versionadded:: 5.2
     Tradeoff
         The encoder can give a better result if it is given more time. This slider allows you to decide how much the encoder should prioritize quality over speed. The different modes can be seen as presets [1]_:
     
