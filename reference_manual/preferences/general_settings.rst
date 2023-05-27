@@ -248,6 +248,25 @@ Trim Files before Saving
 Trim frames when importing animations
     This will crop frames that where imported using any of the options Krita has available. This saves RAM, but may not always be what is required.
 
+.. _pasting_settings:
+
+When Pasting Into Krita From Other Applications
+-----------------------------------------------
+
+.. versionadded:: 5.1
+
+Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image. This toggle asks which of these you prefer.
+    
+Prefer downloading the original source (this requires Internet access).
+    If the clipboard data contains an URL, Krita will try to download those contents and paste them inside Krita.
+Prefer a local copy (if available; metadata may be lost)
+    If the file had been downloaded by your computer previously (for example, to show it inside the web browser), Krita will use that instead.
+Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost).
+    Just paste the attached bitmap. This will always work, and may be the best option if all you copy images for is to make small edits to share with friends. If you intend to copy and edit HDR images however, this option will make your life harder because the HDR version of the image will not be selected by default.
+Ask each time
+    Krita will show a prompt whenever there are multiple options.
+
+
 
 .. _misc_settings:
 
@@ -314,21 +333,17 @@ Font DPI Workaround
     In Krita 4.x the size of the text was also affected by the HiDPI settings, the best conversion results are dependent on whether `Use HiDPI` and `Use Fractional HiDPI` were used when creating the text. In other words, if you want the text to look exactly the same, try to match the Krita 5 HiDPI settings to the Krita 4 HiDPI settings. You don't have to keep these settings the same after the conversion has happened.
     
     .. versionadded:: 5.0
-
-When Pasting Into Krita From Other Applications
-
-    Some applications, like Google Chrome, provide multiple formats when pasting or dropping an image. This toggle asks which of these you prefer.
     
-    Prefer downloading the original source (this requires Internet access).
-        If the clipboard data contains an URL, Krita will try to download those contents and paste them inside Krita.
-    Prefer a local copy (if available; metadata may be lost)
-        If the file had been downloaded by your computer previously (for example, to show it inside the web browser), Krita will use that instead.
-    Paste the attached sRGB bitmap (no filesystem or Internet access required, but metadata will be lost).
-        Just paste the attached bitmap. This will always work, and may be the best option if all you copy images for is to make small edits to share with friends. If you intend to copy and edit HDR images however, this option will make your life harder because the HDR version of the image will not be selected by default.
-    Ask each time
-        Krita will show a prompt whenever there are multiple options.
+Automatic Layer Suffixes
 
-    .. versionadded:: 5.1
+    By default, Krita will add extra info behind layers it generates. These toggles allow you to turn that off.
+    
+    Add "Merged" to merged group layers.
+        When you flatten a group layer into a single paint layer, Krita will add "Merged" after the layer name. If you make frequent use of merging, it can be useful to turn this off.
+    Add "(Pasted)" to pasted layers.
+        When you copy and paste a section of a layer, Krita will add "(Pasted)" after the layer name so you can keep track of that.
+    
+    .. versionadded:: 5.2
     
     
 .. _resource_settings:

@@ -20,7 +20,30 @@ Layers
 
 The Layers docker is for one of the core concepts of Krita: :ref:`Layer Management <layers_and_masks>`. You can add, delete, rename, duplicate and do many other things to layers here.
 
-At the top there are four controls. Two of them are layer properties, the blending mode and the opacity. But there are also two smaller buttons. One is the filter option. This allows you to filter all existing layers by either color label, or since Krita 5.0 by layer name. The second button allows you to control the thumbnail size of the layers and how much layers indent when they are grouped. Some people prefer large thumbnails with a lot of indentation, others want the visuals to take up the least amount of space.
+At the top there are four controls. Two of them are layer properties, the blending mode and the opacity. But there are also two smaller buttons. One is the filter option. This allows you to filter all existing layers by either color label, or since Krita 5.0 by layer name.
+
+
+
+The second button allows you to adjust some extra display options of the layer docker.
+
+The first slider controls the thumbnail size of the layers and how much layers indent when they are grouped. Some people prefer large thumbnails with a lot of indentation, others want the visuals to take up the least amount of space.
+
+.. versionadded:: 5.2
+
+Then there's the blending info options. The dropdown has four options:
+
+None
+    No extra informationm is shown.
+Simple
+    This will only display the opacity or the blending mode when they're not 100% and 'Normal'.
+Balanced
+    This will display both the opacity and the blending mode for layers where either the opacity is below 100%, or the blending mode is not 'normal'.
+Detailed
+    This will always show the opacity and blending options for all layers.
+
+The opacity slider below the dropdown allows you to control the opacity of the extra blending info label.
+
+Then there's :guilabel:`Checkbox for Selecting Layers`, which enables the extra checkboxes between the visibility icon and the label. This is useful for situations where you may not have access to a Ctrl or Shift key to select multiple layers, such as on a tablet.
 
 The Layer Stack
 ---------------
