@@ -199,10 +199,10 @@ Enable Smooth Zooming
     
     .. deprecated:: 5.1
     
-Zoom Steps between powers of two
-    How many zoom steps there are between values that are powers of 2.
+        This got replaced with the :guilabel:`Zoom Steps between powers of Two` option.
     
-    .. what does this mean???????
+Zoom Steps between powers of Two
+    How many zoom steps there are between values that are powers of 2 (For example, 2^-1 is 50%, 2^-2 is 25%, 2^2 is 400%). With this, you can decide how many steps steps go inbetween those. The higher the value, the smoother the zoom with a |mousescroll|. 
 
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
