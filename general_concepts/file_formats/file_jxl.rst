@@ -56,6 +56,13 @@ Encoding Options
     Decoding Speed
         Decoding speed can be improved by allowing certain optimizations. However, this will lead to some quality loss. For example, if you think your images will be largely viewed on mobile phones it might be a good idea to experiment with this option. Conversely, if your image will only be viewed by desktop computers and quality is of utmost importance, this should be set to 0.
 
+Conversion Settings
+~~~~~~~~~~~~~~~~~~~
+
+This option is only enabled when the image is in a floating point color space, and the options are exactly the same as the conversion settings for :ref:`file_heif`.
+
+.. versionadded:: 5.2
+
 Advanced
 ~~~~~~~~
 
