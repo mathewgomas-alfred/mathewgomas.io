@@ -120,27 +120,29 @@ Window Settings
 
 Multiple Document Mode
     This can be either tabbed like :program:`GIMP` or :program:`Paint Tool SAI`, or sub windows, like :program:`Photoshop`.
-Background image
-    Allows you to set a picture background for sub window mode.
-Window Background
-    Set the color of the sub window canvas area.
-Use Custom Interface Font
-    .. versionadded:: 4.4.2 This allows you to tweak the interface font and the size. Requires a restart.
-    
-    
-    
-Don't show contents when moving sub-windows
-    This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
 Show on-canvas popup messages
     Whether you want to see the on-canvas pop-up messages that tell you whether you are in tabbed mode, rotating the canvas, or mirroring it.
 Zoom Margin Size
     This determines how much margin in pixels will be added when using :guilabel:`Fit Page`. This is particularly useful for large monitors, where the total canvas area might be larger than the center of your field of vision. Using a margin can then center the image inside the canvas area more comfortably.
     
     .. versionadded:: 5.1
+
+Subwindow mode
+    Background image
+        Allows you to set a picture background for sub window mode.
+    Window Background
+        Set the color of the sub window canvas area.
+    Don't show contents when moving sub-windows
+        This gives an outline when moving windows to work around ugly glitches with certain graphics-cards.
+Use Custom Interface Font
+        This allows you to tweak the interface font and the size. Requires a restart.
 Enable Hi-DPI support
     Attempt to use the Hi-DPI support. It is an option because we are still experiencing bugs on Windows.
-(Hi-DPI) Enable fractional scale factor
-    .. versionadded:: 5.0 Allow the Hi-DPI support to use fractional (not multiples of 100%) display scaling. If you use a fractional display scaling, this option can make the interface of Krita match the interface size of the rest of your system, but it may cause some visual artifacts.
+    
+    Enable fractional scale factor
+        Allow the Hi-DPI support to use fractional (not multiples of 100%) display scaling. If you use a fractional display scaling, this option can make the interface of Krita match the interface size of the rest of your system, but it may cause some visual artifacts.
+        
+        .. versionadded:: 5.0
 
 Allow only one instance of Krita
     An instance is a single entry in your system's task manager. Turning this option makes sure that Krita will check if there's an instance of Krita open already when you instruct it to open new documents, and then have your documents opened in that single instance. There's some obscure uses to allowing multiple instances, but if you can't think of any, just keep this option on.
@@ -155,16 +157,23 @@ Tools Settings
 --------------
 
 Tool Options Location
-~~~~~~~~~~~~~~~~~~~~~
-
-In docker (default)
-    Gives you the tool options in a docker.
-In toolbar
-    Gives you the tool options in the toolbar, next to the brush settings. You can open it with the :kbd:`\\` key.
-
+    In Docker (default)
+        Gives you the tool options in a docker.
+    In Toolbar
+        Gives you the tool options in the toolbar, next to the brush settings. You can open it with the :kbd:`\\` key.
 Brush Flow Mode
     In Krita 4.2 the behavior of flow in combination with opacity was changed. This allows you to turn it back to the 4.1 behavior. This will however be removed in future versions.
-
+CMYK Blending Mode
+    This allows you to control the way blending modes are handled for CMYK.
+    
+    Subtractive (Krita 5.2+)
+        Channels are inverted before the blending mode is applied. This will result in most blending modes having a similar effect to the same blending modes in RGB. This is useful when you are doing interchange using PSD files.
+    Additive (Krita 5.1 and earlier)
+        Channels are not inverted before the blending mode is applied, which means that for example, the multiply mode, which decreases pixel values, will in RGB look like it makes things darker, while in this additive CMYK mode it will make things lighter.
+    
+    
+    .. versionadded:: 5.2
+    
 Switch Control/Alt Selection Modifiers
     This switches the function of the :kbd:`Ctrl` and :kbd:`Alt` keys when modifying selections. Useful for those used to Gimp instead of Photoshop, or Lefties without a right :kbd:`Alt` key on their keyboard.
 
@@ -184,8 +193,16 @@ Enable Touch Rotation
     .. deprecated:: 5.1
     
         Since Krita 5.1, this is removed. Instead it's now possible to configure the navigation gestures inside the :ref:`canvas_input_settings`.
+
 Enable Smooth Zooming
     When using |mousescroll|, zooming switches between predefined zoom levels. Turning this on switches that to be a smooth increment.
+    
+    .. deprecated:: 5.1
+    
+Zoom Steps between powers of two
+    How many zoom steps there are between values that are powers of 2.
+    
+    .. what does this mean???????
 
 Kinetic Scrolling (Needs Restart)
     This enables kinetic scrolling for scrollable areas.
