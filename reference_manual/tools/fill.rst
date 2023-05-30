@@ -38,7 +38,7 @@ Fill Mode
 
     .. figure:: /images/tools/fill_tool_what_to_fill.png
     
-        a: An image with a selection and a red dot marking where the user clicked to fill. b: The filled region using the current selection. c: The filled region using the contiguous pixels similar to the one the user clicked. d: The filled region using any similar pixels to the one the user clicked.
+        a: An image with a selection. The red dot marks where the user clicked to fill. b: The region filled using:guilabel:`Current Selection`. c: The region filled using :guilabel:`Contiguous Pixels`, filling all pixels that are both similar and contiguous to the one the user clicked. d: The region filled with :guilabel:`Regions of Similar Color`, filling pixels similarly colored to the one the user clicked.
 
 Fill Source
     Foreground Color
@@ -62,7 +62,7 @@ Fill Source
             This allows you to rotate the pattern used in the fill.
         
 Fill Extent
-    Pixel Selection Policy
+    Pixel Selection Modes
         .. versionadded:: 5.2
 
         When filling a contiguous region, the user can choose how the pixels are selected based on color similarity.
@@ -84,7 +84,7 @@ Fill Extent
 
         .. figure:: /images/tools/fill_tool_pixel_selection_policies.png
             
-            a: An image with a red dot marking where the user clicked to fill. b: The filled region when selecting only the similar contiguous pixels. c: The filled region all the pixels until the boundary color, set to black here.
+            a: An image with a red dot marking where the user clicked to fill. b: The filled region when selecting only the similar contiguous pixels. c: The filled region all the pixels until the boundary color (here set to the color black).
 
     Threshold
         Determines when the fill-tool sees another color as a border. In other words, how far the region should extend from the selected pixel in terms of color similarity.
