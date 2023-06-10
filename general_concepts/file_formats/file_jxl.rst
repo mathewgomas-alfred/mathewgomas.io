@@ -36,6 +36,20 @@ JPEG XL's encoder is designed to be fairly hands-off. Where in the case of JPEG 
 
 Save as animated JPEG XL
     JPEG XL has the ability to store small animations like :ref:`file_gif`. Its animation capabilities are simple though, and specifically designed for stylized content that doesn't have a lot of colors, like cel-animation. This is because JPEG XL doesn't have intra-frame prediction, which is the best way to store video files with a lot of colors like 3D animation, film and painterly animation. We recommend you try using video rendering for painterly animation instead.
+Flatten the image
+    If disabled, JPEG XL has the ability to store frames as layers if it's not being used as animation, this can be useful to store multi-page images like :ref:`file_tif`.
+    
+    Its layered capabilities are very basic, and not designed to store complex layer stacks like :ref:`file_psd` and :ref:`file_kra` does. Some of its limitations are:
+    
+    - Only raster paint layers are supported, any other type of layer will get rasterized and group layers will be flattened.
+    - Have limited blending modes, only Normal and Addition while other modes will get converted to Normal.
+    - No partial layer opacity, will only export visible layers with full opacity setting (100%).
+    - No layer styles, it will get rasterized with Normal blending mode for outside pixels.
+    - Layer masks will be flattened and rasterized, but Colorize Mask won't get rendered.
+    
+    We recommend you leave this option enabled for web delivery.
+    
+    .. versionadded:: 5.2
 Encoding Options
     Lossy encoding
         Whether to use :ref:`Lossy compression <lossy_compression>`. Like :ref:`file_webp`, JPEG XL has a different way of encoding the images in lossless and lossy mode, with the latter being closer to the way the original :ref:`file_jpeg` encodes.
