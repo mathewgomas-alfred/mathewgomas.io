@@ -42,9 +42,9 @@ Flatten the image
     Its layered capabilities are very basic, and not designed to store complex layer stacks like :ref:`file_psd` and :ref:`file_kra` does. Some of its limitations are:
     
     - Only raster paint layers are supported, any other type of layer will get rasterized and group layers will be flattened.
-    - Have limited blending modes, only Normal and Addition while other modes will get converted to Normal.
+    - Limited blending modes, only Normal and Addition while other modes will get converted to Normal.
     - No partial layer opacity, will only export visible layers with full opacity setting (100%).
-    - No layer styles, it will get rasterized with Normal blending mode for outside pixels.
+    - No layer styles, these will get rasterized with Normal blending mode for outside pixels.
     - Layer masks will be flattened and rasterized, but Colorize Mask won't get rendered.
     
     We recommend you leave this option enabled for web delivery.
