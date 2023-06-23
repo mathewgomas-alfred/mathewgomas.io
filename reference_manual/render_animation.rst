@@ -72,6 +72,10 @@ FFmpeg
     
 Delete Sequence After Rendering
     Delete the prerendered image sequence after done rendering. This allows you to choose whether to try and save some space, or to save the sequence for when encoding fails.
+    
+    .. deprecated:: 5.2
+    
+        Since 5.2, Krita will always delete the image sequence if :guilabel:`Export as Image Sequence` is not checked while :guilabel:`Export as Video` is.
 
 .. warning::
 
