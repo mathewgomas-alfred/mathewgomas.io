@@ -84,7 +84,15 @@ Setting Up Krita for Exporting Animations
 
 Since Krita 5.2, Krita bundles a small part of FFmpeg. This means that you will not strictly have to download and setup FFMpeg to render animations. Different versions of the program have different options however, and video experts might want to use a specific version of FFMpeg to get more codec options.
 
-The following instructions will explain how to get it and set it up. The setup is a one-time thing so you won't have to do it again.
+The bundled FFmpeg supports the following containers: ``Webm``, ``Matroska`` and ``OGG``, which are a wrapper around the video data (amongst others), which are encoded with codecs, of which the bundled FFMpeg supports:
+
+- AOM AV1
+- VPX VP9
+- VPX VP8
+- H. 264 (via openH264)
+- Theora
+
+The following instructions will explain how to get a non-bundled version of FFMpeg and set it up. The setup is a one-time thing so you won't have to do it again.
 
 Step 1 - Downloading FFmpeg
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
