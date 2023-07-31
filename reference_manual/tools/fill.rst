@@ -38,7 +38,7 @@ Fill Mode
 
     .. figure:: /images/tools/fill_tool_what_to_fill.png
     
-        a: An image with a selection. The red dot marks where the user clicked to fill. b: The region filled using:guilabel:`Current Selection`. c: The region filled using :guilabel:`Contiguous Pixels`, filling all pixels that are both similar and contiguous to the one the user clicked. d: The region filled with :guilabel:`Regions of Similar Color`, filling pixels similarly colored to the one the user clicked.
+        a: An image with a selection. The red dot marks where the user clicked to fill. b: The region filled using :guilabel:`Current Selection`. c: The region filled using :guilabel:`Contiguous Pixels`, filling all pixels that are both similar and contiguous to the one the user clicked. d: The region filled with :guilabel:`Regions of Similar Color`, filling pixels similarly colored to the one the user clicked.
 
 Fill Source
     Foreground Color
