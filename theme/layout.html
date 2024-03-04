@@ -105,6 +105,15 @@
   {%- endblock %}
   {%- block extrahead %} {% endblock %}
 
+  <!-- theme and selectors rely on jquery still. currently v3.7.1. Eventually try to migrate off these libraries -->
+  <script type="text/javascript" src="{{ pathto('_static/js/jquery.min.js', 1) }}"></script> 
+
+  <!-- search uses underscore.js to help do some filtering and parsing -->
+  <script type="text/javascript" src="{{ pathto('_static/js/underscore.min.js', 1) }}"></script> 
+  <script>
+    var $u = _; // Now we can use $u instead of _ throughout your code. (which searchtools.js uses)
+  </script>
+
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
 
@@ -242,19 +251,24 @@
 
   {% endif %}
 
+
+
   {# RTD hosts this file, so just load on non RTD builds #}
   {% if not READTHEDOCS %}
     <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
   {% endif %}
 
   <script type="text/javascript">
-      jQuery(function () {
-          {% if theme_sticky_navigation|tobool %}
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+      {% if theme_sticky_navigation|tobool %}
           SphinxRtdTheme.Navigation.enableSticky();
           {% else %}
           SphinxRtdTheme.Navigation.enable();
           {% endif %}
-      });
+    });
+  
   </script>
 
   {%- block footer %} {% endblock %}
