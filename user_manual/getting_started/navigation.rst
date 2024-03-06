@@ -48,7 +48,7 @@ Panning
 Zooming
  Discrete zooming can be done through :kbd:`+` and :kbd:`-` keys. Using the :kbd:`Ctrl + Space` or :kbd:`Ctrl +` |mousemiddle| shortcuts allows for direct zooming with the stylus.
 Mirroring
- You can mirror the view can be quickly done via :kbd:`M` key. Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
+ Mirroring the view can be quickly done via :kbd:`M` key. Mirroring is a great technique that seasoned digital artists use to quickly review the composition of their work to ensure that it "reads" well, even when flipped horizontally.
  
  .. versionadded:: 5.1 
     If you use :kbd:`Alt + M`, mirroring will use the cursor position as the center to mirror around instead of the middle of the view. There is also a :guilabel:`Mirror Canvas` available in the :ref:`shortcut_settings` to assign a shortcut to.
