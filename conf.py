@@ -116,9 +116,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages',
-    # Workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/1452
-    'sphinxcontrib.jquery',
+    'sphinx.ext.githubpages'
 ]
 
 if get_is_building_epub():
