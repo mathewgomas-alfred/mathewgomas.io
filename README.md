@@ -284,8 +284,8 @@ Depending on what options you chose for installation, there might be a number of
  Those are just extra tools to help with the PDF conversion and are ok to install.
  After you hit confirm a number of times you should see the PDF in the output folder.
 
-Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages,
-such as pdflatex, latex, or other necessary TeX packages.
+####Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages,
+####such as pdflatex, latex, or other necessary TeX packages.
 ```
 sudo docker run -ti \
   -v $(pwd):/miktex/work \
@@ -294,8 +294,8 @@ sudo docker run -ti \
   miktex/miktex:essential \
   mpm --package=package_name
 ```
-Check for Available MiKTeX Packages: To identify what packages are available for installation, 
-you can list all the available packages in the MiKTeX container using:
+####Check for Available MiKTeX Packages: To identify what packages are available for installation, 
+####you can list all the available packages in the MiKTeX container using:
 ```
 sudo docker run -ti \
   -v miktex:/var/lib/miktex \
