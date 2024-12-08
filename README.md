@@ -5,9 +5,9 @@ A Sphinx based documentation system with a custom Krita theme. The instructions 
 
 Setting up Development Environment
 ----------------------------------
-You will need Python. I have version 3.6.3. Make sure to install PIP along with the installation. PIP is a manager that is used to install external packages. We will use PIP to install Sphinx. Sphinx is a static site generation tool used for documentation purposes. 
+You will need Python. I have version 3.10.16 Make sure to install PIP along with the installation. PIP is a manager that is used to install external packages. We will use PIP to install Sphinx. Sphinx is a static site generation tool used for documentation purposes. 
 
-After you install Python bring up a command prompt and type: `python --version`
+After you install Python bring up a command prompt and type: `python3 --version`
 
 It should tell you the version and verify that Python is installed. Mine says `Python 3.6.3`. If it says `Python 2.7.15` try replacing `python` with `python3`.
 
@@ -38,27 +38,27 @@ pip install sphinx-autobuild
 
 
  # Uninstall the incompatible sphinx version
-
+```
 pip uninstall sphinx
 
 # Install a compatible sphinx version
-
+```
 pip install sphinx==7.0.0
 
-# if you want the autorebuild feature, install sphinx-autorebuild
+# If you want the autorebuild feature, install sphinx-autorebuild
 pip install sphinx-autobuild
-
-# need to run the sphinx-build command to generate the HTML files, Ensure that the dist/de/ directory exists or create it
+```
+# Need to run the sphinx-build command to generate the HTML files, Ensure that the dist/de/ directory exists or create it
 
 mkdir -p dist/de
 
 sphinx-build -b html . _build/html
 
 # Copy the Files
-
+```
 cp -R _build/html dist/de/
 
-# start auto-rebuild script
+# Start auto-rebuild script
 sphinx-autobuild . _build/autohtml --open-browser
 
 ```
@@ -239,10 +239,11 @@ The latex packages do not like unicode characters, nor svgs, nor gifs. The manua
 Depending on what options you chose for installation, there might be a number of warnings about 'packages' needing to be installed. Those are just extra tools to help with the PDF conversion and are ok to install. After you hit confirm a number of times you should see the PDF in the output folder.
 
 Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages, such as pdflatex, latex, or other necessary TeX packages.
-
+```
 docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --install package_name
 
 Check for Available MiKTeX Packages: To identify what packages are available for installation, you can list all the available packages in the MiKTeX container using:
-
+```
 docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --list
 
+```
