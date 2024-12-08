@@ -13,18 +13,53 @@ It should tell you the version and verify that Python is installed. Mine says `P
 Next you will need to install Sphinx so you can use it in projects:
 
 ```bash
+
+# create the directories Text2Speech and docs-krita-org
+
+mkdir -p ~/Text2Speech/docs-krita-org
+
+# change to the newly created docs-krita-org directory
+
+cd ~/Text2Speech/docs-krita-org
+
+
 # set up virtual environment
 python3 -m venv PythonEnvTesting
+
 source PythonEnvTesting/bin/activate
 
 # install Sphinx and its dependencies
 pip install -r requirements.txt
 
+# Install the sphinx-autobuild package inside your virtual environment
+
+pip install sphinx-autobuild
+
+
+ # Uninstall the incompatible sphinx version
+
+pip uninstall sphinx
+
+# Install a compatible sphinx version
+
+pip install sphinx==7.0.0
+
 # if you want the autorebuild feature, install sphinx-autorebuild
 pip install sphinx-autobuild
 
+# need to run the sphinx-build command to generate the HTML files, Ensure that the dist/de/ directory exists or create it
+
+mkdir -p dist/de
+
+sphinx-build -b html . _build/html
+
+# Copy the Files
+
+cp -R _build/html dist/de/
+
 # start auto-rebuild script
 sphinx-autobuild . _build/autohtml --open-browser
+
 ```
 
 Windows: If "pip" is not found, you will need to add the folder to your environment variables. This should be in C:\Users\<username>\AppData\Local\Programs\Python\Python<version>\Scripts
@@ -53,6 +88,8 @@ This will generate the HTML files from all the source files (located where we ar
 
 You can also export out the files in EPUB format: `make epub`
 This will generate the EPUB files in an epub folder in the _build directory.
+
+Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages, such as pdflatex, latex, or other necessary TeX packages
 
 
 
@@ -199,3 +236,11 @@ For quiet mode:
 The latex packages do not like unicode characters, nor svgs, nor gifs. The manual is utterly unprepared for it...
 
 Depending on what options you chose for installation, there might be a number of warnings about 'packages' needing to be installed. Those are just extra tools to help with the PDF conversion and are ok to install. After you hit confirm a number of times you should see the PDF in the output folder.
+
+Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages, such as pdflatex, latex, or other necessary TeX packages.
+
+docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --install package_name
+
+Check for Available MiKTeX Packages: To identify what packages are available for installation, you can list all the available packages in the MiKTeX container using:
+
+docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --list
