@@ -287,7 +287,12 @@ Depending on what options you chose for installation, there might be a number of
 Install Specific MiKTeX Packages: Instead of using --install=all, you can try installing the specific missing packages,
 such as pdflatex, latex, or other necessary TeX packages.
 ```
-docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --install package_name
+sudo docker run -ti \
+  -v $(pwd):/miktex/work \
+  -v miktex:/var/lib/miktex \
+  -e MIKTExUIX=1 \
+  miktex/miktex:essential \
+  mpm --package=package_name
 ```
 Check for Available MiKTeX Packages: To identify what packages are available for installation, 
 you can list all the available packages in the MiKTeX container using:
