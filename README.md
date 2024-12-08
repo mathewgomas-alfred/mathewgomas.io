@@ -297,6 +297,11 @@ sudo docker run -ti \
 Check for Available MiKTeX Packages: To identify what packages are available for installation, 
 you can list all the available packages in the MiKTeX container using:
 ```
-docker run -ti -v miktex:/var/lib/miktex -v $(pwd):/miktex/work -e MIKTEX_UID=$(id -u) miktex/miktex:essential mpm --list
+sudo docker run -ti \
+  -v miktex:/var/lib/miktex \
+  -v $(pwd):/miktex/work \
+  -e MIKTEXUID=$(id -u) \
+  miktex/miktex:essential \
+  mpm --list
 
 ```
