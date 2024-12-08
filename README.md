@@ -1,3 +1,4 @@
+
 # Documentation Site for Krita
 A Sphinx based documentation system with a custom Krita theme. The instructions and batch files were originally written from a Windows 10 machine, but it should be able to work with any operating system. 
 
