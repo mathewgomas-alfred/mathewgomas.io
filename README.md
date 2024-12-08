@@ -59,9 +59,9 @@ mkdir -p dist/de
 sphinx-build -b html . _build/html
 
 # Copy the Files
-```
-cp -R _build/html dist/de/
 
+cp -R _build/html dist/de/
+```
 # Start auto-rebuild script
 sphinx-autobuild . _build/autohtml --open-browser
 
