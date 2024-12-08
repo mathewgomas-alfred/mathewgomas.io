@@ -23,7 +23,6 @@ mkdir -p ~/Text2Speech/docs-krita-org
 
 cd ~/Text2Speech/docs-krita-org
 
-
 # set up virtual environment
 python3 -m venv PythonEnvTesting
 
@@ -34,8 +33,8 @@ pip install -r requirements.txt
 
 # Install the sphinx-autobuild package inside your virtual environment
 
+```
 pip install sphinx-autobuild
-
 
  # Uninstall the incompatible sphinx version
 ```
