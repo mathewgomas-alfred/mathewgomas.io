@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.media-player-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.track-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.player-controls button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#progressBar {
+    width: 100%;
+    appearance: none;
+    height: 5px;
+    background: #e0e0e0;
+}
+
+.time-display {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.playlist-container {
+    margin-top: 20px;
+}
+
+#playlistDisplay {
+    list-style-type: none;
+    padding: 0;
+}
+
+#playlistDisplay li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#playlistDisplay li.active {
+    background-color: #e0e0e0;
+}
