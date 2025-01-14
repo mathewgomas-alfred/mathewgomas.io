@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Media Player</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="media-player-container">
+        <div class="track-info">
+            <h2 id="trackTitle">No Track Selected</h2>
+        </div>
+
+        <audio id="mediaPlayer">
+            <source src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="player-controls">
+            <button id="prevBtn" aria-label="Previous Track">⏮️</button>
+
+            <button id="playPauseBtn" aria-label="Play/Pause">
+                ▶
+            </button>
+
+            <button id="nextBtn" aria-label="Next Track">⏭️</button>
+
+            <div class="progress-container">
+                <input type="range" id="progressBar" min="0" max="100" value="0">
+            </div>
+
+            <div class="time-display">
+                <span id="currentTime">0:00</span> /
+                <span id="totalTime">0:00</span>
+            </div>
+
+            <div class="volume-container">
+                <input type="range" id="volumeBar" min="0" max="100" value="100">
+            </div>
+        </div>
+
+        <div class="playlist-container">
+            <h3>Playlist</h3>
+            <ul id="playlistDisplay"></ul>
+        </div>
+    </div>
+
+    <script src="js/media-player.js"></script>
+</body>
+
+</html>m
