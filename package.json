@@ -1,0 +1,29 @@
+{
+  "name": "bot-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": "JoinBot is a Discord bot designed to facilitate user onboarding and community engagement within Discord servers. By leveraging Discord's OAuth2 authentication, JoinBot streamlines the process of joining communities, ensuring that new members can easily access server features while maintaining security and privacy."
+}
