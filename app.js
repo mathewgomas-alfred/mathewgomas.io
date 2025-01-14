@@ -2,19 +2,32 @@
 
 console.log('Hello, world!');
 // app.js
+require('dotenv').config();
 
 // Import required modules
 const express = require('express');
 
+const app = express();
+
+const secretKey = process.env.SECRET_KEY;
+
+app.get('/', (req, res) => {
+    res.send(`Your secret key is: ${secretKey}`);
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
+
 
 // Define a route handler for the root path
 app.get('/', (req, res) => {
-    res.send('Hello, world! This is your Express server.');
+    res.send(`Your secret key is: ${secretKey}`);
 });
 
 // Start the server on port 3000
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server is running on http://localhost:${5432}`);
 });
 
 // Import required modules
@@ -63,11 +76,7 @@ axios.get('https://api.example.com/data')
     });
 
 // Import required modules
-const express = require('express');
 const bodyParser = require('body-parser'); // For parsing JSON request bodies
-
-// Create an Express application
-// const app = express(); // Removed duplicate declaration
 
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
@@ -140,18 +149,13 @@ app.listen(PORT, () => {
 });
 
 // Import required modules
-const express = require('express');
+
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
 
-// Create an Express application
-const app = express();
-
-// Middleware to parse JSON request bodies
-app.use(bodyParser.json());
-
-// Mock database (replace with your actual database setup)
 const users = [
     { id: 1, username: 'john', password: 'password' },
     { id: 2, username: 'jane', password: 'password' },
@@ -215,7 +219,6 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-
 // Error handling middleware (must be defined last)
 app.use((err, req, res, next) => {
     console.error(err.stack);
@@ -271,7 +274,7 @@ function isAdmin(req, res, next) {
 
 // Example route with role-based access control
 app.get('/admin/dashboard', isAdmin, (req, res) => {
-    res.send('Admin Dashboard');
+    res.send(`Your secret key is: ${secretKey}`);
 });
 
 const mongoose = require('mongoose');
